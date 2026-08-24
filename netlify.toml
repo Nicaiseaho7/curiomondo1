@@ -4,13 +4,33 @@
 
 [functions]
   directory = "netlify/functions"
-  included_files = ["automation/**"]
+  included_files = ["automation/**", "CURIO-MONDO-PROTOCOLLO-MAESTRO.md"]
 
 [functions."live-refresh"]
   schedule = "*/10 * * * *"
 
 [functions."auto-editor"]
-  schedule = "0 */2 * * *"
+  schedule = "*/30 * * * *"
 
 [functions."library-daily"]
   schedule = "15 3 * * *"
+
+[[redirects]]
+  from = "/notizie/:slug.html"
+  to = "/.netlify/functions/article?slug=:slug"
+  status = 200
+
+[[redirects]]
+  from = "/api/curiomondo/articles"
+  to = "/.netlify/functions/articles-feed"
+  status = 200
+
+[[redirects]]
+  from = "/dynamic-sitemap.xml"
+  to = "/.netlify/functions/dynamic-sitemap"
+  status = 200
+
+[[redirects]]
+  from = "/dynamic-news-sitemap.xml"
+  to = "/.netlify/functions/dynamic-news-sitemap"
+  status = 200
