@@ -103,7 +103,7 @@ for f in ['feed.xml','sitemap.xml','news-sitemap.xml']:
 manifest=json.loads((ROOT/'curiomondo-site-manifest.json').read_text())
 check(manifest['daily_state']['last_question_date']=='2026-08-24','manifest domanda non aggiornato')
 state=json.loads((ROOT/'CURIOMONDO-RELEASE-STATE.json').read_text())
-check(state['site_version'] in (161,162,163,164),'versione candidate/finale inattesa')
+check(state['site_version'] in (161,162,163,164,165,166),'versione candidate/finale inattesa')
 release_date=state.get('release_date','')
 for page in (ROOT/'notizie').glob('*.html'):
     text=page.read_text()
@@ -135,6 +135,14 @@ for page in book_root.glob('*/index.html'):
         check(7000<=chars<=15000,f'mini e-book fuori limite: {page.parent.name} ({chars})')
 check((ROOT/'assets/css/biblioteca-book-reader-v1.css').exists(),'CSS lettore libro assente')
 check((ROOT/'assets/js/biblioteca-book-reader-v1.js').exists(),'JS lettore libro assente')
+
+
+check((ROOT/'netlify.toml').exists(),'netlify.toml automazione assente')
+check((ROOT/'netlify/functions/live-feed.mjs').exists(),'funzione live-feed assente')
+check((ROOT/'netlify/functions/live-refresh.mjs').exists(),'funzione live-refresh assente')
+check((ROOT/'.github/workflows/curiomondo-auto-editor.yml').exists(),'workflow auto editor assente')
+check((ROOT/'.github/workflows/curiomondo-library-daily.yml').exists(),'workflow biblioteca assente')
+check('live-dynamic-v166.js?v=166' in home,'loader LIVE dinamica v166 assente dalla home')
 
 if errors:
     print('PREDEPLOY FAIL')
