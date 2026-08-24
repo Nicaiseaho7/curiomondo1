@@ -1,0 +1,15 @@
+CURIO MONDO — V166 — AUTOMAZIONE FASE 1
+
+Installato:
+- LIVE dinamica Netlify ogni 10 minuti senza full deploy;
+- Netlify Blobs come stato LIVE persistente;
+- endpoint live-feed;
+- ticker homepage dinamico e non cliccabile se manca articolo CurioMondo;
+- workflow GitHub Auto Editor ogni 2 ore;
+- workflow Biblioteca quotidiano, target fino a 3 guide;
+- safe mode fail-closed;
+- audit/state/config/prompt editoriali;
+- protocollo e manifest aggiornati.
+
+NON ANCORA ATTIVO:
+- autopublish di articoli e guide. Il renderer resta bloccato fino al test controllato e alla configurazione delle API.

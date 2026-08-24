@@ -3,11 +3,11 @@
   "site": {
     "name": "CurioMondo",
     "base_url": "https://curiomondo.it/",
-    "deployment": "Netlify static ZIP deploy",
+    "deployment": "Netlify Git continuous deployment",
     "current_protocol_version": "1.3",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-08-24",
-    "current_site_version": 164
+    "current_site_version": 166
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -258,17 +258,36 @@
     "on_new_item": "prepend_new_and_remove_fourth_from_home_block",
     "older_items_remain_in_archive": true
   },
-  "google_preferred_sources": {
-    "enabled": true,
-    "domain": "curiomondo.it",
-    "implementation": "official_google_deeplink",
-    "deeplink": "https://www.google.com/preferences/source?q=curiomondo.it",
-    "placements": [
-      "homepage",
-      "news_articles"
-    ],
-    "popup": false,
-    "external_javascript_added": false,
-    "performance_priority": true
+  "automation": {
+    "introduced_in_version": 166,
+    "safe_mode": true,
+    "live": {
+      "enabled": true,
+      "interval_minutes": 10,
+      "backend": "Netlify Scheduled Functions + Blobs",
+      "full_deploy_per_refresh": false,
+      "homepage_poll_seconds": 60,
+      "unlinked_items_not_clickable": true
+    },
+    "articles": {
+      "scheduled": true,
+      "interval_hours": 2,
+      "single_deploy_per_cycle": true,
+      "multiple_articles_per_cycle": true,
+      "fail_closed": true,
+      "auto_publish_active": false
+    },
+    "library": {
+      "scheduled": true,
+      "daily": true,
+      "target_guides": 3,
+      "quality_over_quantity": true,
+      "auto_publish_active": false
+    },
+    "excluded": [
+      "social_autopost",
+      "youtube_autopost",
+      "newsletter_autosend"
+    ]
   }
 }

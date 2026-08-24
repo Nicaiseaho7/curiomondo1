@@ -1,0 +1,16 @@
+{
+  "site_version": 166,
+  "baseline_version": 165,
+  "release_date": "2026-08-24",
+  "protocol_files": [
+    "LEGGIMI-PRIMA-CURIOMONDO.md",
+    "CURIO-MONDO-PROTOCOLLO-MAESTRO.md",
+    "curiomondo-site-manifest.json"
+  ],
+  "last_daily_question_date": "2026-08-24",
+  "note": "v166: infrastruttura CurioMondo Automation in safe mode; LIVE dinamica ogni 10 min senza full deploy; workflow articoli ogni 2 ore e Biblioteca giornaliera installati ma autopublish ancora bloccato fino al test controllato.",
+  "version": "v166",
+  "date": "2026-08-24",
+  "baseline": "curiomondo-v162-24-agosto-2026-netlify.zip",
+  "last_update": "indonesia-quake-100-dead-and-eu-61-billion-ukraine-defence"
+}
