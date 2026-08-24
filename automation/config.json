@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "timezone": "Europe/Rome",
+  "safe_mode": true,
+  "live": {
+    "interval_minutes": 10,
+    "max_items": 10,
+    "full_deploy": false
+  },
+  "articles": {
+    "interval_hours": 2,
+    "max_deploys_per_cycle": 1,
+    "max_articles_per_cycle": 8,
+    "publish_only_if_valid": true,
+    "auto_publish_enabled_env": "CURIOMONDO_AUTO_PUBLISH"
+  },
+  "library": {
+    "daily": true,
+    "target_guides": 3,
+    "quality_over_quantity": true,
+    "min_guides": 0
+  },
+  "excluded_automations": [
+    "social_autopost",
+    "youtube_autopost",
+    "newsletter_autosend"
+  ],
+  "quality_gate": {
+    "fail_closed": true,
+    "predeploy_required": true,
+    "source_verification_required": true,
+    "dedupe_required": true,
+    "performance_target_min": 90
+  }
+}
