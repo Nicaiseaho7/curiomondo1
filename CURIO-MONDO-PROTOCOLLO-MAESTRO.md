@@ -113,14 +113,39 @@ Una notizia recente non linkata direttamente dalla homepage è invece solo un av
 - Restano obbligatori 7.000–15.000 caratteri di contenuto utile. La paginazione cambia la presentazione, non riduce la qualità o la profondità del testo.
 - Usare gli asset condivisi `biblioteca-book-reader-v1.css` e `biblioteca-book-reader-v1.js`; il predeploy deve bloccare frase vietata, navigazione assente, troppe intestazioni o struttura non paginata.
 
-## AUTOMAZIONE CURIOMONDO — CONTRATTO OPERATIVO
 
-- LIVE: scansione ogni 5–10 minuti; implementazione corrente ogni 10 minuti; aggiornamento dati senza full deploy.
-- Una voce LIVE è cliccabile solo se esiste un articolo CurioMondo corrispondente.
-- Articoli: ciclo automatico ogni 2 ore. Più articoli validi possono essere pubblicati nello stesso ciclo; massimo un deploy per ciclo; zero notizie valide = zero deploy.
-- Ogni pubblicazione automatica deve rispettare integralmente questo Protocollo e superare `tools/predeploy.py`; qualunque gate bloccante fallito impedisce il deploy.
-- Biblioteca: una volta al giorno selezionare fino a 3 guide nuove, interessanti, utili, dettagliate, ben scritte e non duplicate. Qualità > quantità: 3 è un target, non un obbligo a pubblicare contenuti deboli.
-- Sono escluse per ora le automazioni di autopubblicazione social, YouTube e newsletter.
-- Il sistema deve mantenere audit, deduplicazione, verifica delle fonti, gestione degli aggiornamenti e fail-safe.
-- L’autopublish resta disattivato finché il proprietario non approva il test controllato del renderer automatico.
+## GOOGLE — FONTI PREFERITE
 
+CurioMondo integra una CTA per permettere ai lettori di aggiungere `curiomondo.it` alle proprie **Fonti preferite di Google**.
+
+Implementazione corrente:
+- deeplink ufficiale Google: `https://www.google.com/preferences/source?q=curiomondo.it`;
+- presente in homepage e sotto gli articoli di notizia;
+- design coerente blu/bianco CurioMondo;
+- nessuno script Google aggiuntivo caricato dal sito, per preservare performance;
+- la scelta finale viene gestita direttamente da Google.
+
+Regole permanenti:
+- non rimuovere la CTA senza istruzione esplicita del proprietario;
+- non trasformarla in popup invasivo;
+- non promettere ranking o traffico garantito;
+- mantenere il deeplink sul dominio `curiomondo.it`;
+- verificare la documentazione Google aggiornata prima di cambiare implementazione.
+
+
+# AUTOMAZIONE DINAMICA ARTICOLI — v167
+
+- La scansione editoriale automatica avviene ogni 30 minuti.
+- La pubblicazione automatica degli articoli NON richiede un deploy: gli articoli approvati sono salvati in Netlify Blobs e serviti dinamicamente sotto `/notizie/<slug>.html`.
+- Il motore deve applicare integralmente questo Protocollo Maestro e deve restare fail-closed.
+- Deve cercare notizie recenti in modo autonomo, non limitandosi al ticker LIVE.
+- Fonti prioritarie: Reuters, AP, AFP, Bloomberg, ANSA, Adnkronos, AGI e fonti istituzionali; le altre fonti affidabili sono ammesse come verifica o integrazione.
+- Gossip, rumor, dichiarazioni prive di conseguenze, duplicati e aggiornamenti minori sono esclusi.
+- Per guerre e geopolitica, un'affermazione di una sola parte non è trattata come fatto accertato.
+- Se emerge un aggiornamento ma CurioMondo non possiede la notizia-base, pubblicare prima una pagina che spieghi correttamente la notizia-base incorporando lo sviluppo verificato.
+- Ogni articolo deve normalmente contenere 5.000–7.000 caratteri di corpo utile; eccezioni solo per insufficienza reale di informazioni verificate.
+- Il testo deve essere fluido, con pochissimi sottotitoli e senza riempitivi.
+- Immagini automatiche: usare soltanto immagini realmente riutilizzabili per uso commerciale (CC0, Public Domain, CC BY, CC BY-SA) con licenza e attribuzione conservate. Se non è disponibile un'immagine pertinente con licenza verificabile, pubblicare senza immagine.
+- Le immagini reperite sul web non devono mai essere considerate riutilizzabili soltanto perché visibili in un motore di ricerca.
+- Prima del salvataggio: verificare titolo, slug, descrizione, fonti, lunghezza, duplicati, rischio geopolitico, SEO e struttura JSON-LD.
+- Se un controllo bloccante fallisce, non pubblicare.
