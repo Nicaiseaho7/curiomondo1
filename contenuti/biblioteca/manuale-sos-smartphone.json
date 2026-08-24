@@ -1,0 +1,35 @@
+{
+  "slug": "sos-smartphone-batteria-spazio-android-iphone",
+  "title": "Come far durare la batteria, liberare spazio e velocizzare Android e iPhone?",
+  "description": "La guida definitiva per risolvere blocchi, memoria piena e problemi di carica senza andare in assistenza.",
+  "category": "tecnologia-ai",
+  "subcategory": "smartphone-computer",
+  "updated_at": "12/08/2026",
+  "cover_image": "/assets/images/biblioteca/manuale-sos-smartphone-copertina.webp",
+  "cover_alt": "Copertina illustrativa del manuale SOS Smartphone: telefono moderno su base di ricarica, luce verde della batteria, cuffie e accessori su una scrivania.",
+  "search_questions": [
+    {"question": "Lasciare il telefono in carica tutta la notte rovina la batteria?", "chapter": 1},
+    {"question": "Come far durare di più la batteria di Android e iPhone?", "chapter": 1},
+    {"question": "Perché il telefono si scarica velocemente anche da fermo?", "chapter": 1},
+    {"question": "Dove finiscono i file nella memoria Altro o Sistema?", "chapter": 2},
+    {"question": "Come liberare spazio senza cancellare foto importanti?", "chapter": 2},
+    {"question": "Perché il telefono è lento anche se ha memoria libera?", "chapter": 2},
+    {"question": "Perché il telefono scotta mentre si carica?", "chapter": 3},
+    {"question": "È normale che WhatsApp o Google Maps facciano scaldare il telefono?", "chapter": 3},
+    {"question": "Come recuperare foto cancellate dal telefono?", "chapter": 4},
+    {"question": "Come recuperare chat WhatsApp cancellate senza backup?", "chapter": 4},
+    {"question": "Cosa fare subito se il telefono cade in acqua?", "chapter": 5},
+    {"question": "Perché Internet è lento anche con tutte le tacche del 5G?", "chapter": 6},
+    {"question": "Come trasferire tutto da Android a iPhone senza perdere WhatsApp?", "chapter": 7},
+    {"question": "Come trasferire dati da iPhone ad Android?", "chapter": 7}
+  ],
+  "chapters": [
+    {"title": "Lasciare il telefono in carica tutta la notte rovina la batteria?", "body_file": "manuale-sos-smartphone/capitolo-01.body"},
+    {"title": "Dove finiscono i file nella memoria Altro o Sistema?", "body_file": "manuale-sos-smartphone/capitolo-02.body"},
+    {"title": "Perché il telefono scotta mentre si carica o uso le app?", "body_file": "manuale-sos-smartphone/capitolo-03.body"},
+    {"title": "Come recuperare foto, video e chat WhatsApp cancellati?", "body_file": "manuale-sos-smartphone/capitolo-04.body"},
+    {"title": "Cosa fare se lo smartphone cade in acqua o si bagna?", "body_file": "manuale-sos-smartphone/capitolo-05.body"},
+    {"title": "Perché la connessione 4G o 5G è lenta con tutte le tacche?", "body_file": "manuale-sos-smartphone/capitolo-06.body"},
+    {"title": "Come trasferire tutto da Android a iPhone, e viceversa?", "body_file": "manuale-sos-smartphone/capitolo-07.body"}
+  ]
+}

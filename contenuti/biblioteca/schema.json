@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "base_path": "/biblioteca/",
+  "manuals": [
+    {
+      "slug": "generazione-visiva-multimediale-ai",
+      "title": "Come creare immagini, video e audio con l’AI?",
+      "description": "Un manuale monografico per progettare immagini, video e audio con l’AI: prompt visivi, coerenza di personaggi e brand, animazione, avatar, musica, pulizia del suono e uso commerciale responsabile.",
+      "category": "crescita-digitale",
+      "subcategory": "piattaforme-social",
+      "updated_at": "12/08/2026",
+      "cover_image": "/assets/images/biblioteca/generazione-visiva-multimediale-ai-copertina.webp",
+      "cover_alt": "Copertina illustrativa del manuale di generazione multimediale con AI, con fotocamera, microfono, cuffie, pellicola video e onde audio rosse e corallo.",
+      "chapter_count": 7
+    },
+    {
+      "slug": "ricerca-studio-mappe-concettuali-ai",
+      "title": "Come studiare meglio e creare mappe concettuali con l’AI?",
+      "description": "Un manuale operativo per trasformare testi complessi in mappe e domande, studiare con un tutor AI, verificare fonti, pianificare esami e organizzare la ricerca accademica senza delegare il pensiero critico.",
+      "category": "produttivita-lifestyle",
+      "subcategory": "metodi-studio-apprendimento",
+      "updated_at": "12/08/2026",
+      "cover_image": "/assets/images/biblioteca/ricerca-studio-mappe-concettuali-ai-copertina.webp",
+      "cover_alt": "Copertina illustrativa del manuale su studio e ricerca con AI, con una mappa concettuale luminosa, laptop, quaderno e schede di studio.",
+      "chapter_count": 7
+    },
+    {
+      "slug": "manuale-prompt-engineering-ai",
+      "title": "Come scrivere prompt efficaci per ChatGPT, Claude e Gemini?",
+      "description": "Un manuale operativo per trasformare richieste vaghe in istruzioni chiare, verificabili e riutilizzabili per ChatGPT, Claude, Gemini e altri modelli linguistici.",
+      "category": "tecnologia-ai",
+      "subcategory": "intelligenza-artificiale",
+      "updated_at": "11/08/2026",
+      "cover_image": "/assets/images/biblioteca/manuale-prompt-engineering-ai-copertina.webp",
+      "cover_alt": "Copertina illustrativa del Manuale di Prompt Engineering, con un laptop e schede di istruzioni AI.",
+      "chapter_count": 7
+    },
+    {
+      "slug": "manuale-sopravvivenza-intelligenza-artificiale",
+      "title": "Come usare ChatGPT ogni giorno senza fare errori?",
+      "description": "Tutto quello che non ti dicono su come usarla, risparmiare tempo ed evitare gli errori più comuni.",
+      "category": "tecnologia-ai",
+      "subcategory": "intelligenza-artificiale",
+      "updated_at": "12/08/2026",
+      "cover_image": "/assets/images/biblioteca/manuale-sopravvivenza-ai-copertina.webp",
+      "cover_alt": "Copertina illustrativa del Manuale di Sopravvivenza con l'Intelligenza Artificiale: laptop con assistente AI, planner, documenti, smartphone, calcolatrice e simbolo di protezione dei dati.",
+      "chapter_count": 7
+    },
+    {
+      "slug": "guida-ai-lavoro-produttivita-automazione",
+      "title": "Come usare l’AI per lavorare meglio e automatizzare le attività?",
+      "description": "Un manuale strategico e pratico per scegliere gli strumenti di intelligenza artificiale, lavorare meglio con documenti e dati, automatizzare flussi ripetitivi e proteggere le informazioni personali e aziendali.",
+      "category": "tecnologia-ai",
+      "subcategory": "intelligenza-artificiale",
+      "updated_at": "11/08/2026",
+      "cover_image": "/assets/images/biblioteca/guida-ai-lavoro-produttivita-automazione-copertina.webp",
+      "cover_alt": "Copertina illustrativa della guida AI per il lavoro, con laptop, calendario e flussi di automazione.",
+      "chapter_count": 7
+    },
+    {
+      "slug": "sos-smartphone-batteria-spazio-android-iphone",
+      "title": "Come far durare la batteria, liberare spazio e velocizzare Android e iPhone?",
+      "description": "La guida definitiva per risolvere blocchi, memoria piena e problemi di carica senza andare in assistenza.",
+      "category": "tecnologia-ai",
+      "subcategory": "smartphone-computer",
+      "updated_at": "12/08/2026",
+      "cover_image": "/assets/images/biblioteca/manuale-sos-smartphone-copertina.webp",
+      "cover_alt": "Copertina illustrativa del manuale SOS Smartphone: telefono moderno su base di ricarica, luce verde della batteria, cuffie e accessori su una scrivania.",
+      "chapter_count": 7
+    }
+  ],
+  "categories": [
+    {
+      "slug": "tecnologia-ai",
+      "title": "Tecnologia & AI Pratica",
+      "description": "Strumenti, competenze digitali e sicurezza per usarli con consapevolezza.",
+      "subcategories": [
+        {
+          "slug": "intelligenza-artificiale",
+          "title": "Intelligenza Artificiale"
+        },
+        {
+          "slug": "smartphone-computer",
+          "title": "Smartphone & Computer"
+        },
+        {
+          "slug": "privacy-sicurezza",
+          "title": "Privacy & Sicurezza"
+        }
+      ]
+    },
+    {
+      "slug": "finanza-risparmio",
+      "title": "Finanza Personale & Nuova Economia",
+      "description": "Decisioni economiche quotidiane, strumenti e nuove forme di finanza.",
+      "subcategories": [
+        {
+          "slug": "gestione-denaro-risparmio",
+          "title": "Gestione Denaro & Risparmio"
+        },
+        {
+          "slug": "nuova-finanza-crypto",
+          "title": "Nuova Finanza & Crypto"
+        },
+        {
+          "slug": "bonus-agevolazioni",
+          "title": "Bonus & Agevolazioni"
+        }
+      ]
+    },
+    {
+      "slug": "burocrazia-servizi",
+      "title": "Burocrazia & Servizi Nazionali",
+      "description": "Orientarsi tra identità digitale, documenti e pratiche utili.",
+      "subcategories": [
+        {
+          "slug": "identita-servizi-digitali",
+          "title": "Identità e Servizi Digitali"
+        },
+        {
+          "slug": "pratiche-documenti",
+          "title": "Pratiche & Documenti"
+        }
+      ]
+    },
+    {
+      "slug": "crescita-digitale",
+      "title": "Content Creation & Social Media",
+      "description": "Creare, pubblicare e gestire una presenza digitale in modo consapevole.",
+      "subcategories": [
+        {
+          "slug": "piattaforme-social",
+          "title": "Piattaforme Social"
+        },
+        {
+          "slug": "siti-web-publishing",
+          "title": "Siti & Web Publishing"
+        }
+      ]
+    },
+    {
+      "slug": "produttivita-lifestyle",
+      "title": "Produttività, Studio & Lifestyle",
+      "description": "Metodi pratici per studiare, organizzarsi e proteggere l’attenzione.",
+      "subcategories": [
+        {
+          "slug": "metodi-studio-apprendimento",
+          "title": "Metodi di Studio & Apprendimento"
+        },
+        {
+          "slug": "organizzazione-focus",
+          "title": "Organizzazione & Focus"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "come-funzionano-robotaxi-sicurezza-regole-europa",
+  "article_id": "come_funziona_robotaxi_sicurezza_regole_europa",
+  "title": "Come funzionano i robotaxi? Sono sicuri e quali regole devono rispettare in Europa?",
+  "description": "Un robotaxi non è un’auto che può guidare ovunque e comunque: usa sensori, mappe e limiti precisi. Ecco cosa cambia per passeggeri, città e sicurezza stradale.",
+  "keywords": "come funzionano robotaxi sicurezza robotaxi Europa auto autonoma lidar regole taxi senza conducente",
+  "badge": "Tecnologia / Mobilità autonoma",
+  "category": "Tecnologia / Mobilità autonoma",
+  "date_label": "Guida aggiornata il 14 agosto 2026",
+  "date_iso": "2026-08-14T12:00:00+02:00",
+  "date_modified": "2026-08-14",
+  "image": "https://curiomondo.it/assets/images/optimized/come-funzionano-robotaxi-sicurezza-europa-ai-960.webp",
+  "image_alt": "Illustrazione di un robotaxi autonomo in un’area urbana europea",
+  "image_caption": "",
+  "is_evergreen": true,
+  "sections": [
+    {
+      "heading": "Che cosa vede un robotaxi mentre guida?",
+      "paragraphs": [
+        "Un robotaxi combina telecamere, radar, lidar e software che confronta ciò che accade sulla strada con mappe molto dettagliate. Il suo compito è riconoscere corsie, semafori, pedoni, biciclette, ostacoli e altri veicoli, poi decidere accelerazione, frenata e sterzata.",
+        "Questo non significa che l’auto sappia affrontare qualsiasi situazione. Il servizio viene di solito autorizzato in una zona precisa, con condizioni stabilite: alcune strade, determinate fasce orarie e limiti legati a meteo, cantieri o traffico particolarmente complesso."
+      ]
+    },
+    {
+      "heading": "Un robotaxi è davvero senza conducente?",
+      "paragraphs": [
+        "Dipende dal servizio. In alcuni casi non c’è una persona al volante, ma c’è un centro operativo che monitora la flotta e può assistere da remoto quando il veicolo incontra un problema. In altri casi un addetto è ancora a bordo durante le prime fasi di sperimentazione.",
+        "La distinzione importante è tra assistenza alla guida e guida autonoma. Un sistema che mantiene la corsia non trasforma una normale auto in un robotaxi: il passeggero deve poter salire, indicare una destinazione e lasciare che il veicolo completi la corsa entro il perimetro autorizzato."
+      ]
+    },
+    {
+      "heading": "Chi risponde se succede un incidente?",
+      "paragraphs": [
+        "Non esiste una risposta uguale per tutta Europa. Le responsabilità dipendono dalle leggi nazionali, dall’autorizzazione locale e dai dati registrati dal veicolo. Per questo i sistemi di guida automatizzata devono conservare informazioni utili a ricostruire chi stava controllando il mezzo nel momento critico.",
+        "Prima di diventare un servizio quotidiano, un robotaxi deve quindi convincere autorità, assicurazioni e città su tre punti: sicurezza tecnica, gestione delle emergenze e protezione dei dati. La tecnologia è una parte della storia; l’altra è la regola che stabilisce quando può essere usata."
+      ]
+    }
+  ],
+  "data_points": [
+    {"value": "Zona definita", "label": "un robotaxi opera entro un perimetro autorizzato"},
+    {"value": "Più sensori", "label": "telecamere, radar e lidar leggono l’ambiente"},
+    {"value": "Dati di bordo", "label": "aiutano a ricostruire gli eventi di sicurezza"}
+  ],
+  "conclusion": "I robotaxi non sostituiranno tutti i taxi dall’oggi al domani. Prima cambieranno alcuni percorsi e alcune città, dove la tecnologia e le regole consentono un servizio controllato. Capire questi limiti è il modo migliore per giudicare le promesse del settore.",
+  "sources": [
+    {"title": "Commissione europea — sperimentazioni transfrontaliere per veicoli autonomi", "url": "https://transport.ec.europa.eu/news-events/news/eu-ministers-back-cross-border-initiative-autonomous-vehicle-testbeds-2026-06-08_en"},
+    {"title": "UNECE — regole e sicurezza per veicoli automatizzati e connessi", "url": "https://unece.org/ru/transport/vehicle-regulations/working-party-automatedautonomous-and-connected-vehicles-introduction"}
+  ],
+  "related": [
+    {"slug": "uber-pony-ai-robotaxi-europa-14-agosto-2026", "title": "Uber e Pony.ai puntano a oltre 2.000 robotaxi in Europa"}
+  ]
+}

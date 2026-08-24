@@ -1,0 +1,84 @@
+{
+  "slug": "vaccini-oncologici-personalizzati-mrna-come-funzionano",
+  "article_id": "vaccini_oncologici_personalizzati_mrna_come_funzionano",
+  "title": "Come funzionano i vaccini oncologici personalizzati a mRNA e perché sono diversi dai vaccini preventivi",
+  "description": "Una guida per capire come si costruisce una terapia a mRNA sulle mutazioni specifiche del tumore, che cosa sono i neoantigeni e perché queste terapie vengono combinate con farmaci immunoterapici come gli inibitori dei checkpoint.",
+  "keywords": "vaccini oncologici personalizzati mRNA neoantigeni melanoma immunoterapia checkpoint inhibitor Keytruda intismeran medicina personalizzata",
+  "badge": "Salute / Scienza / Biotecnologie / Approfondimento",
+  "category": "Mondo / Salute / Scienza / Biotecnologie",
+  "date_label": "Guida aggiornata il 20 agosto 2026",
+  "date_iso": "2026-08-20T07:30:00+02:00",
+  "date_modified": "2026-08-20",
+  "image": "https://curiomondo.it/assets/images/melanoma-vaccino-mrna-personalizzato-intismeran-ai.webp",
+  "image_alt": "Illustrazione editoriale di DNA e cellule tumorali per spiegare una terapia oncologica personalizzata a mRNA",
+  "image_caption": "Immagine illustrativa generata con l’intelligenza artificiale.",
+  "is_evergreen": true,
+  "sections": [
+    {
+      "heading": "Che cosa significa “vaccino oncologico personalizzato”?",
+      "paragraphs": [
+        "In questo contesto la parola vaccino non indica un prodotto somministrato a persone sane per prevenire un’infezione. Si tratta di una terapia progettata dopo la diagnosi di tumore, con l’obiettivo di insegnare al sistema immunitario a riconoscere caratteristiche specifiche delle cellule tumorali del singolo paziente.",
+        "Il trattamento viene quindi costruito su misura. Dal tumore rimosso o biopsiato si ricavano informazioni genetiche che permettono di identificare mutazioni potenzialmente riconoscibili dal sistema immunitario."
+      ]
+    },
+    {
+      "heading": "Che cosa sono i neoantigeni?",
+      "paragraphs": [
+        "Le mutazioni tumorali possono generare proteine alterate che non sono presenti nelle cellule sane. Piccoli frammenti di queste proteine, chiamati neoantigeni, possono diventare bersagli per i linfociti T.",
+        "Una terapia individualizzata seleziona i neoantigeni ritenuti più promettenti e usa l’mRNA come istruzione temporanea affinché le cellule del corpo producano quei bersagli e li mostrino al sistema immunitario."
+      ]
+    },
+    {
+      "heading": "Perché usare l’mRNA?",
+      "paragraphs": [
+        "L’mRNA è una molecola che trasporta istruzioni biologiche senza modificare il DNA del paziente. In una terapia oncologica personalizzata può codificare contemporaneamente numerosi neoantigeni selezionati dal tumore.",
+        "Nel caso di intismeran autogene, la terapia sperimentale è progettata per codificare fino a 34 neoantigeni sulla base della firma mutazionale individuale. Dopo la somministrazione, queste informazioni vengono tradotte in proteine che possono contribuire ad attivare una risposta immunitaria specifica."
+      ]
+    },
+    {
+      "heading": "Perché combinarli con gli inibitori dei checkpoint?",
+      "paragraphs": [
+        "I tumori possono sfruttare meccanismi naturali che frenano l’attività del sistema immunitario. Farmaci come pembrolizumab, noto commercialmente come Keytruda, bloccano il checkpoint PD-1 e possono liberare una parte della risposta immunitaria antitumorale.",
+        "La combinazione punta quindi su due leve diverse: il vaccino personalizzato aiuta a indicare quali bersagli riconoscere, mentre l’inibitore del checkpoint riduce un freno alla risposta dei linfociti T."
+      ]
+    },
+    {
+      "heading": "Quali sono le difficoltà pratiche?",
+      "paragraphs": [
+        "La personalizzazione rende queste terapie più complesse di un farmaco prodotto in serie. Servono sequenziamento del tumore, analisi bioinformatica, selezione dei neoantigeni, produzione individuale e controlli di qualità per ogni paziente.",
+        "Anche in caso di approvazione, tempi di produzione, costi, accesso ai centri specializzati e scelta dei pazienti saranno aspetti decisivi. Per questo un risultato positivo in fase 3 è un passaggio fondamentale, ma non risolve automaticamente tutte le sfide necessarie per rendere la terapia disponibile su larga scala."
+      ]
+    }
+  ],
+  "data_points": [
+    {
+      "value": "fino a 34",
+      "label": "i neoantigeni che intismeran può codificare sulla base del tumore individuale"
+    },
+    {
+      "value": "mRNA",
+      "label": "la piattaforma usata per trasportare le istruzioni biologiche personalizzate"
+    },
+    {
+      "value": "PD-1",
+      "label": "il checkpoint immunitario bloccato da pembrolizumab (Keytruda)"
+    }
+  ],
+  "conclusion": "I vaccini oncologici personalizzati a mRNA rappresentano una forma di medicina di precisione: non cercano di prevenire il tumore, ma di costruire una risposta immunitaria mirata contro le sue mutazioni specifiche. Il vantaggio potenziale è l’elevata personalizzazione; la sfida è trasformare un processo complesso e individuale in una terapia efficace, regolata e accessibile.",
+  "sources": [
+    {
+      "title": "Merck e Moderna — Informazioni su intismeran autogene e studio INTerpath-001",
+      "url": "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/"
+    },
+    {
+      "title": "Merck — 5-year data for intismeran autogene + KEYTRUDA in high-risk melanoma, ASCO 2026",
+      "url": "https://www.merck.com/news/moderna-and-merck-present-5-year-data-for-intismeran-autogene-in-combination-with-keytruda-pembrolizumab-in-patients-with-high-risk-stage-iii-iv-melanoma-following-complete-resection-at-the-20/"
+    }
+  ],
+  "related": [
+    {
+      "slug": "melanoma-vaccino-personalizzato-mrna-moderna-merck-fase-3-19-agosto-2026",
+      "title": "Svolta contro il melanoma: fase 3 positiva per intismeran + Keytruda"
+    }
+  ]
+}

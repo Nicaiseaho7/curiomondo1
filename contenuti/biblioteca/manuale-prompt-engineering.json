@@ -1,0 +1,19 @@
+{
+  "slug": "manuale-prompt-engineering-ai",
+  "title": "Come scrivere prompt efficaci per ChatGPT, Claude e Gemini?",
+  "description": "Un manuale operativo per trasformare richieste vaghe in istruzioni chiare, verificabili e riutilizzabili per ChatGPT, Claude, Gemini e altri modelli linguistici.",
+  "category": "tecnologia-ai",
+  "subcategory": "intelligenza-artificiale",
+  "updated_at": "11/08/2026",
+  "cover_image": "/assets/images/biblioteca/manuale-prompt-engineering-ai-copertina.webp",
+  "cover_alt": "Copertina illustrativa del Manuale di Prompt Engineering, con un laptop e schede di istruzioni AI.",
+  "chapters": [
+    {"title": "Come trasformare una richiesta in un prompt chiaro?", "body_file": "prompt-engineering/capitolo-01.body"},
+    {"title": "Quali elementi deve avere un prompt che funziona?", "body_file": "prompt-engineering/capitolo-02.body"},
+    {"title": "Come ottenere risposte più precise dall’AI?", "body_file": "prompt-engineering/capitolo-03.body"},
+    {"title": "Come migliorare un prompt finché non dà il risultato giusto?", "body_file": "prompt-engineering/capitolo-04.body"},
+    {"title": "Quali prompt usare per lavoro, produttività e analisi?", "body_file": "prompt-engineering/capitolo-05.body"},
+    {"title": "Come usare l’AI per scrivere testi e contenuti?", "body_file": "prompt-engineering/capitolo-06.body"},
+    {"title": "Quali prompt pronti all’uso posso copiare e adattare?", "body_file": "prompt-engineering/capitolo-07.body"}
+  ]
+}

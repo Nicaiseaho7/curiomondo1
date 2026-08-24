@@ -1,0 +1,58 @@
+{
+  "slug": "come-funziona-coppa-privacy-minori-online",
+  "article_id": "come_funziona_coppa_privacy_minori_online",
+  "title": "Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
+  "description": "La legge statunitense COPPA regola la raccolta dei dati personali dei bambini sotto i 13 anni. Ecco come funziona il consenso dei genitori, quali obblighi hanno le piattaforme e perché le verifiche dell’età sono diventate centrali.",
+  "keywords": "COPPA privacy minori bambini online dati personali consenso genitori TikTok ByteDance FTC DOJ social network verifica età",
+  "badge": "Approfondimento / Privacy digitale",
+  "category": "Tecnologia / Privacy",
+  "date_label": "Guida aggiornata il 22 agosto 2026",
+  "date_iso": "2026-08-22T15:18:00+02:00",
+  "date_modified": "2026-08-22",
+  "image": "https://curiomondo.it/assets/images/coppa-privacy-minori-online-ai-1280.webp",
+  "image_alt": "Rappresentazione editoriale di uno smartphone davanti a uno sfondo digitale dedicato alla protezione della privacy dei minori",
+  "image_caption": "Rappresentazione editoriale realistica creata per spiegare la protezione dei dati dei minori online; non è una fotografia documentaria.",
+  "is_evergreen": true,
+  "data_points": [
+    {"value": "<13 anni", "label": "la fascia d’età direttamente coperta dalla COPPA negli Stati Uniti"},
+    {"value": "1998", "label": "l’anno di approvazione del Children’s Online Privacy Protection Act"},
+    {"value": "$400 mln", "label": "l’accordo annunciato nel 2026 tra DOJ, TikTok e ByteDance nel contenzioso COPPA"}
+  ],
+  "sections": [
+    {
+      "heading": "Che cosa protegge la COPPA",
+      "paragraphs": [
+        "La Children’s Online Privacy Protection Act, conosciuta come COPPA, è la principale legge federale statunitense dedicata alla raccolta di dati personali dei bambini sotto i 13 anni da parte di siti web e servizi online. Il principio di fondo è semplice: una piattaforma non può trattare liberamente le informazioni di un bambino come farebbe con quelle di un adulto. Quando un servizio è rivolto ai minori o sa di raccogliere dati da utenti sotto i 13 anni, deve rispettare obblighi specifici di informazione, consenso e sicurezza.",
+        "La tutela riguarda molte categorie di dati: nome e contatti, identificatori persistenti, informazioni sulla posizione, fotografie, video e altri elementi che possono identificare o tracciare un minore. Nell’economia delle piattaforme digitali anche cookie, identificatori pubblicitari e dati tecnici possono assumere grande importanza, perché permettono di costruire profili e seguire l’attività dell’utente nel tempo."
+      ]
+    },
+    {
+      "heading": "Perché il consenso dei genitori è centrale",
+      "paragraphs": [
+        "La COPPA richiede generalmente che il gestore fornisca ai genitori un’informativa chiara e ottenga un consenso verificabile prima di raccogliere, usare o divulgare determinate informazioni personali di un bambino. Non basta quindi inserire una clausola generica nei termini di servizio. Il meccanismo deve essere progettato per dare al genitore un controllo reale su ciò che viene raccolto e sul modo in cui viene utilizzato.",
+        "La legge riconosce inoltre ai genitori il diritto di chiedere l’accesso alle informazioni raccolte, revocare il consenso e richiedere la cancellazione dei dati. Per le piattaforme questo significa dover costruire procedure tecniche e organizzative in grado di collegare correttamente un account, una richiesta e la relativa informazione personale, senza trasformare il processo di verifica in una nuova fonte di raccolta eccessiva di dati."
+      ]
+    },
+    {
+      "heading": "Il problema più difficile: sapere davvero quanti anni ha un utente",
+      "paragraphs": [
+        "Le regole sulla privacy dei minori diventano difficili da applicare quando un servizio non conosce con certezza l’età di chi lo utilizza. Una semplice data di nascita dichiarata dall’utente può essere aggirata facilmente. Per questo le piattaforme stanno sperimentando sistemi di age assurance e age verification che combinano segnali comportamentali, controlli documentali, supervisione dei genitori e tecniche automatiche di stima dell’età.",
+        "Ogni soluzione introduce però un compromesso. Una verifica molto rigorosa può richiedere ulteriori dati personali, mentre una verifica troppo leggera rischia di lasciare passare utenti più giovani. La sfida regolatoria consiste quindi nel ridurre l’accesso improprio senza creare un sistema che raccolga ancora più informazioni sensibili di quelle che vorrebbe proteggere."
+      ]
+    },
+    {
+      "heading": "Che cosa insegna il caso TikTok-ByteDance",
+      "paragraphs": [
+        "Nel 2024 il Dipartimento di Giustizia statunitense, su segnalazione della Federal Trade Commission, avviò una causa contro TikTok, ByteDance e società collegate sostenendo che fossero state violate le regole COPPA. Le contestazioni riguardavano, tra l’altro, la raccolta di dati di utenti sotto i 13 anni e la gestione delle richieste di cancellazione. Le società hanno successivamente modificato parte delle proprie pratiche, dei controlli sull’età e delle funzioni di supervisione.",
+        "L’accordo annunciato nell’agosto 2026 chiude quel contenzioso con un pagamento complessivo previsto di 400 milioni di dollari. È importante distinguere tra un accordo e una sentenza: il DOJ specifica che le contestazioni risolte erano accuse e che non c’è stata una determinazione giudiziaria di responsabilità. Il valore del caso, però, va oltre la singola piattaforma: mostra quanto costoso possa diventare per un servizio globale non avere sistemi credibili e verificabili per la gestione dei dati dei bambini."
+      ]
+    }
+  ],
+  "conclusion": "La COPPA non vieta ai bambini di usare internet: impone alle piattaforme di trattare i loro dati con cautele molto più severe. La vera partita oggi si gioca sulla capacità di verificare l’età senza creare nuovi rischi per la privacy e sulla responsabilità concreta delle aziende quando i sistemi progettati sulla carta non funzionano nella pratica.",
+  "sources": [
+    {"title": "U.S. Department of Justice — Justice Department Secures $400M Settlement with TikTok and ByteDance", "url": "https://www.justice.gov/opa/pr/justice-department-secures-400m-settlement-tiktok-and-bytedance-resolve-childrens-privacy"},
+    {"title": "U.S. Department of Justice — Lawsuit against TikTok and ByteDance for alleged COPPA violations, 2024", "url": "https://www.justice.gov/archives/opa/pr/justice-department-sues-tiktok-and-parent-company-bytedance-widespread-violations-childrens"},
+    {"title": "Federal Trade Commission — Children’s Online Privacy Protection Rule", "url": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa"}
+  ],
+  "related": []
+}

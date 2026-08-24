@@ -1,0 +1,62 @@
+<p>Un prompt non è una formula segreta da recitare davanti a una macchina capricciosa. È un brief: una richiesta di lavoro che spiega a un modello linguistico che cosa deve fare, con quali informazioni, per chi, entro quali confini e con quale risultato finale. Questa distinzione cambia tutto. Se tratti l’AI come un oracolo, le rivolgi domande confuse e ricevi risposte confuse. Se la tratti come un collaboratore molto veloce che non conosce il tuo contesto finché non glielo dai, inizi a ottenere risultati utili, controllabili e ripetibili.</p>
+
+<p>Il titolo di questo manuale usa l’espressione “risultati perfetti” perché è ciò che tutti desiderano. Vale però una regola onesta: nessun prompt rende un modello infallibile. Un modello può sbagliare fatti, interpretare male un’ambiguità, inventare dettagli plausibili o ignorare informazioni non presenti. Il prompt engineering non elimina questi limiti; li rende visibili, li riduce e costruisce un processo per intercettarli. L’obiettivo serio non è ottenere una frase brillante una volta. È ottenere un flusso di lavoro in cui una buona risposta sia la norma e una risposta discutibile sia facile da riconoscere.</p>
+
+<h3>Che cosa fa davvero un modello linguistico</h3>
+<p>ChatGPT, Claude, Gemini e gli altri modelli di linguaggio generano testo prevedendo, passo dopo passo, quale continuazione sia più adatta al contesto ricevuto. Non leggono la tua mente, non sanno automaticamente quale documento hai in mente e non possiedono un accesso garantito alla realtà aggiornata. Alcuni prodotti possono usare file, ricerca web, strumenti o memoria, ma devi sapere quali risorse sono disponibili nel momento in cui fai la richiesta. Un modello può produrre un testo convincente anche quando la premessa è sbagliata: la fluidità non è una prova.</p>
+
+<p>Questa natura probabilistica spiega perché una richiesta apparentemente semplice può avere esiti diversi. “Scrivi una mail per un cliente” lascia aperte domande decisive: quale cliente, quale rapporto, quale obiettivo, quale tono, quante righe, quali informazioni sono certe, che cosa non deve essere promesso? Il modello sceglie delle ipotesi per chiudere quei vuoti. A volte indovina; spesso produce una soluzione generica. Il lavoro del prompt engineer consiste nel trasformare le ipotesi nascoste in istruzioni esplicite.</p>
+
+<h3>Dal desiderio al risultato verificabile</h3>
+<p>Ogni richiesta utile attraversa quattro passaggi. Il primo è il desiderio: “voglio risparmiare tempo”, “voglio un articolo migliore”, “voglio capire questo contratto”. Il secondo è l’obiettivo operativo: “crea una bozza di email di 140 parole che chieda un appuntamento”. Il terzo è il criterio di qualità: “deve essere cortese, precisa, non usare promesse legali e chiudere con due orari possibili”. Il quarto è la verifica: “controlla che siano presenti tutti e quattro i dati obbligatori; se manca un dato, fammi una domanda invece di inventarlo”.</p>
+
+<p>Quando salti il secondo e il terzo passaggio, l’AI deve scegliere al tuo posto. Quando salti il quarto, rischi di pubblicare o inviare una risposta non controllata. Un prompt ben progettato ha quindi sempre un doppio binario: chiede di produrre qualcosa e chiede di dichiarare il limite della produzione. Per esempio: “Usa esclusivamente il testo fornito. Se una risposta non è contenuta nel testo, scrivi ‘informazione non disponibile’.” Questa frase non rende il modello onnisciente, ma riduce in modo drastico la tentazione di riempire i buchi con una supposizione elegante.</p>
+
+<h3>Il contratto di lavoro implicito</h3>
+<p>Immagina di affidare un compito a un professionista nuovo. Non basterebbe dire “occupati del sito”: gli daresti il pubblico, lo scopo, i materiali, il budget, il termine, gli esempi e il formato della consegna. Con l’AI è identico, solo più veloce. Un prompt è un piccolo contratto di lavoro. Più il compito è importante, più il contratto deve essere chiaro. Per una lista di idee per la cena bastano poche righe. Per una procedura aziendale, un’analisi di dati o un testo che verrà pubblicato, servono un brief completo e una fase di revisione.</p>
+
+<p>Il contratto non deve essere lungo per forza. La qualità non deriva dal numero di parole, ma dalla riduzione delle ambiguità che contano. Una richiesta di 70 parole può essere più forte di una di 700 se definisce bene l’azione, l’input e l’output. Al contrario, un prompt gigantesco che mischia istruzioni, dati, esempi e commenti senza separatori può confondere anche un modello molto capace. La precisione è struttura, non verbosità.</p>
+
+<h3>Le tre domande prima di scrivere</h3>
+<p>Prima di aprire una chat, fermati dieci secondi e rispondi a tre domande. Primo: quale decisione prenderò usando questa risposta? Se la risposta serve solo a ispirarti, puoi tollerare più creatività. Se serve a firmare un contratto, inviare una comunicazione o fare un calcolo, devi alzare molto il livello di verifica. Secondo: quali dati possiedo e quali dati mancano? Incolla i dati affidabili, separali dal resto e chiedi all’AI di non inventare ciò che non trova. Terzo: come riconoscerò un buon risultato? Definisci lunghezza, tono, struttura, fonti, formato, condizioni di stop o esempi.</p>
+
+<p>Queste domande ti impediscono di confondere due attività diverse: generazione e decisione. L’AI può aiutarti a generare opzioni, riordinare informazioni, scoprire incoerenze e redigere una bozza. La decisione finale, soprattutto quando riguarda denaro, salute, diritto, sicurezza o reputazione, resta tua e va verificata con fonti appropriate. Usare un modello per velocizzare un processo non significa delegargli l’autorità.</p>
+
+<h3>Perché il primo prompt raramente è quello definitivo</h3>
+<p>Un prompt efficace nasce quasi sempre da un ciclo di prova. Pensa a un designer che non presenta la prima bozza come prodotto finale: osserva, corregge, confronta, elimina elementi inutili. Con l’AI puoi fare lo stesso a una velocità molto maggiore. Scrivi una prima versione, osserva quale parte della risposta è debole e intervieni su una sola leva alla volta: dati mancanti, tono, vincoli, esempi, formato o criterio di verifica. Se modifichi tutto insieme, non saprai quale cambiamento ha prodotto il miglioramento.</p>
+
+<p>Una buona abitudine è chiedere al modello una fase di chiarimento prima della fase di esecuzione. Ad esempio: “Prima di scrivere, fammi fino a cinque domande solo se la risposta cambia sostanzialmente il risultato. Se hai già abbastanza informazioni, procedi.” Non bisogna obbligare l’AI a fare domande inutili; bisogna darle una via d’uscita dalle ambiguità che altrimenti risolverebbe inventando. Il prompt diventa così una conversazione guidata, non un ordine lanciato nel vuoto.</p>
+
+<h3>Prompt casuale e prompt progettato</h3>
+<p>Confronta queste due richieste. La prima: “Fammi un post per Instagram sul mio corso.” La seconda: “Scrivi una didascalia Instagram di 90–120 parole per promuovere un corso online di fotografia per principianti. Pubblico: adulti che usano lo smartphone e temono di non essere creativi. Tono: incoraggiante, concreto, non aggressivo. Includi un’apertura che nomini la difficoltà, tre benefici specifici, una call to action finale e nessuna promessa di guadagno. Restituisci: testo, proposta di titolo e cinque hashtag pertinenti.”</p>
+
+<p>La seconda non è “più intelligente”: è semplicemente un compito meglio definito. Chi legge può valutare se la risposta contiene apertura, benefici, call to action, limite e formato richiesti. La prima, invece, misura il modello su ciò che non hai detto. Quando ottieni una risposta deludente, non chiederti subito “qual è l’AI migliore?”. Chiediti prima “quale pezzo del brief manca?”. Quasi sempre la risposta è lì.</p>
+
+<h3>La regola d’oro: separa istruzioni e materiale</h3>
+<p>Quando incolli testi lunghi, appunti, email o dati, distingui sempre ciò che il modello deve fare da ciò che deve analizzare. Usa titoli Markdown o tag semplici. Per esempio:</p>
+
+<pre><code># Obiettivo
+Prepara una sintesi per il direttore.
+
+# Regole
+- Usa solo i dati nel blocco “Materiale”.
+- Se manca un numero, segnala la lacuna.
+- Massimo 180 parole.
+
+# Materiale
+[incolla qui testo, numeri, note]
+
+# Output
+1. Sintesi esecutiva
+2. Tre rischi
+3. Due azioni successive</code></pre>
+
+<p>La struttura non è estetica: segnala confini logici. Le guide ufficiali dei principali fornitori convergono su questo punto: istruzioni chiare, contesto esplicito, output definito e iterazione sono più affidabili delle richieste vaghe. Ogni piattaforma può cambiare interfaccia, modelli e funzioni, ma la disciplina del brief resta valida. Nei capitoli successivi costruiremo questo brief pezzo per pezzo, poi lo applicheremo a lavoro, studio, scrittura e vita quotidiana.</p>
+
+<h3>Esercizio: riscrivi una richiesta reale</h3>
+<p>Scegli una richiesta che fai spesso, come “spiegami questo documento”, “creami una tabella”, “fammi un piano di studio” o “scrivi un messaggio”. Riscrivila aggiungendo cinque elementi: il destinatario della risposta, il materiale da usare, l’azione precisa, due vincoli e il formato. Poi chiedi all’AI di confrontare il prompt originale e quello nuovo, spiegando quali ambiguità sono state eliminate. Non prendere la sua spiegazione come verdetto assoluto: usala per scoprire se hai reso esplicito ciò che per te era ovvio ma per il modello non lo era.</p>
+
+<h3>Quando non serve un prompt sofisticato</h3>
+<p>Non ogni lavoro merita un’architettura di dieci blocchi. Se devi trovare cinque sinonimi, riformattare una frase o chiedere un’idea iniziale, una richiesta breve è più rapida e spesso migliore. Aggiungi struttura quando il risultato sarà riusato, inviato a qualcuno, pubblicato, trasformato in un dato o usato per prendere una decisione. La maturità non è scrivere prompt lunghi per ogni cosa; è capire quando il costo dell’errore giustifica il costo della precisione.</p>
+
+<p>Per questo conviene avere due modalità. La modalità esplorazione è veloce: fai domande, chiedi alternative, lasci spazio a intuizioni e non confondi l’output con un fatto. La modalità consegna è disciplinata: dati delimitati, vincoli, formato, controlli e revisione. Molte delusioni nascono perché si usa un output da esplorazione come se fosse già pronto per la consegna. Nomina la modalità nel prompt e la conversazione diventa molto più pulita.</p>

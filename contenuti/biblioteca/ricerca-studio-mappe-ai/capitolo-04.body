@@ -1,0 +1,57 @@
+<p>Un testo prodotto dall’AI può sembrare sicuro, ordinato e persino documentato. Nessuna di queste qualità prova che sia vero. La capacità di generare una frase credibile non coincide con la capacità di dimostrare che la frase sia supportata da una fonte. Per chi studia, fa ricerca o prepara un concorso, questa è la regola più importante del manuale: tratta ogni affermazione ottenuta da un assistente come una pista da verificare, non come una fonte da citare.</p>
+
+<p>La verifica non è un gesto di sfiducia sterile. È il modo con cui proteggi il tuo ragionamento. Un modello può confondere edizioni, attribuire una citazione a un autore sbagliato, unire due risultati simili, trasformare un’ipotesi in conclusione o generare una bibliografia che contiene titoli plausibili ma inesistenti. Anche quando individua una fonte reale, può riassumerla in modo selettivo. Il problema non è soltanto l’errore palese: è l’errore elegante, quello che passa inosservato perché si incastra bene nel discorso.</p>
+
+<h3>Costruisci una gerarchia delle fonti</h3>
+<p>Non tutte le fonti hanno lo stesso ruolo. Una fonte primaria contiene il dato, il documento, la legge, l’esperimento, l’intervista o il testo originale. Una fonte secondaria interpreta, sintetizza o confronta fonti primarie. Una fonte terziaria orienta, come un’enciclopedia o una guida generale. In molte ricerche hai bisogno di tutte e tre, ma devi sapere quale stai usando. Una fonte terziaria può aiutarti a capire le parole chiave; non è automaticamente la prova migliore per una tesi specifica. Un articolo di commento può suggerire un dibattito; non sostituisce il documento su cui il dibattito si basa.</p>
+
+<p>Quando chiedi aiuto all’AI, dichiaralo nel prompt: “Per ogni affermazione separa la fonte primaria eventualmente necessaria, una possibile fonte secondaria e le parole chiave per verificarle. Non inventare riferimenti bibliografici. Se non puoi confermare l’esistenza di una fonte, scrivi chiaramente che è un suggerimento di ricerca, non una citazione.” Questa formulazione impedisce a un elenco di suggerimenti di travestirsi da bibliografia già controllata.</p>
+
+<h3>La scheda di verifica di un’affermazione</h3>
+<p>Ogni volta che una risposta contiene un fatto importante, apri una scheda. Non deve essere complicata. Scrivi l’affermazione esatta, la fonte proposta, la fonte consultata, la data o l’edizione, il passaggio che la sostiene e una nota sulla precisione. Se l’affermazione contiene un numero, registra anche definizione, unità di misura, popolazione, periodo e metodo. “Il 60% delle persone…” non significa nulla se non sai di quali persone, in quale anno, con quale campione e rispetto a quale domanda.</p>
+
+<p>Puoi chiedere all’AI di estrarre le affermazioni verificabili da una bozza e di classificarle come definizioni, dati, interpretazioni, previsioni o consigli. Questa separazione è preziosa. Le definizioni vanno confrontate con testi adottati o fonti istituzionali. I dati vanno controllati alla fonte. Le interpretazioni richiedono di leggere l’argomentazione. Le previsioni vanno trattate come scenari, non fatti. I consigli possono essere utili ma vanno valutati in base al contesto personale e, se la materia è sanitaria, legale o finanziaria, a fonti professionali appropriate.</p>
+
+<pre><code>Analizza il testo seguente come un revisore delle fonti.
+Estrai tutte le affermazioni controllabili e mettile in tabella:
+- affermazione precisa;
+- tipo: definizione, dato, citazione, interpretazione, previsione;
+- che prova servirebbe per sostenerla;
+- rischio di errore: basso, medio o alto;
+- domanda di verifica da fare alla fonte.
+Non dire che un fatto è confermato se non hai visto la fonte originale.</code></pre>
+
+<h3>Non fidarti dei riferimenti solo perché hanno un formato accademico</h3>
+<p>Una citazione con autore, anno, rivista e DOI può essere falsa o incompleta. Prima di inserirla nel tuo lavoro, cercala nel catalogo della biblioteca, nel sito dell’editore, in una banca dati riconosciuta dal tuo settore o nel testo originale. Controlla almeno: titolo esatto, autori, anno, sede di pubblicazione, identificatore e contenuto. Un DOI che sembra corretto ma porta a un lavoro diverso non è una fonte verificata. Un titolo quasi uguale può riferirsi a un’altra popolazione, un’altra versione o un altro disegno di studio.</p>
+
+<p>Non copiare riferimenti dalla chat direttamente nel gestore bibliografico. Usa la chat per generare stringhe di ricerca, sinonimi, domande e criteri di inclusione; usa banche dati e cataloghi per importare i metadati. Il tempo risparmiato nel trovare piste non deve trasformarsi in tempo perso a correggere una bibliografia contaminata. La regola pratica è semplice: il riferimento finale deve arrivare da un record bibliografico che hai aperto, non da un testo che ti è stato suggerito.</p>
+
+<h3>Leggere oltre il titolo e l’abstract</h3>
+<p>L’AI può sintetizzare un abstract molto bene; questo non significa che abbia letto, o che tu abbia letto, lo studio. Un abstract spesso semplifica limiti, criteri di esclusione, variabili non misurate e differenze tra correlazione e causalità. Quando una fonte è centrale per la tua argomentazione, apri il testo completo o almeno le sezioni rilevanti: metodi, risultati, tabelle, discussione e limiti. Chiedi all’AI di trasformare la tua lettura in domande, non di sostituirla.</p>
+
+<p>Un buon schema di lettura è: quale domanda pone lo studio? Chi è stato osservato? Con quale metodo? Che cosa è stato misurato? Quale risultato principale viene riportato? Quali limiti dichiarano gli autori? Che cosa non possiamo concludere? Se un modello riassume l’articolo, confronta il riassunto con questi sette punti. Se non riesci a rispondere a uno di essi perché il PDF non lo dice, non lasciare che l’AI colmi il vuoto con una supposizione.</p>
+
+<h3>Segnali tipici di allucinazione o semplificazione eccessiva</h3>
+<p>Ci sono segnali ricorrenti. Diffida di una risposta che offre numeri molto precisi senza contesto, riferimenti impossibili da trovare, citazioni troppo perfette per confermare la tesi, una sicurezza assoluta su una questione discussa, o un elenco di fonti senza indicare quale sostiene quale frase. Diffida anche delle frasi con causalità forte quando il materiale parla solo di associazioni: “ha causato” e “è associato a” non sono sinonimi. Chiedi al modello di evidenziare le parole che segnalano certezza e di proporre una versione più prudente quando la prova non basta.</p>
+
+<p>Un altro segnale è il salto di scala. Uno studio piccolo o molto specifico può suggerire un’ipotesi, ma non autorizza automaticamente una conclusione universale. Chiedi sempre: “A quale popolazione, periodo e contesto vale questa frase?”. Nelle discipline umanistiche il problema può assumere altra forma: un brano può essere reale ma decontestualizzato, una traduzione può alterare il tono, una lettura interpretativa può essere presentata come intenzione certa dell’autore. Il controllo del contesto serve in ogni campo.</p>
+
+<h3>Il metodo delle due fonti e della fonte contraria</h3>
+<p>Per le affermazioni importanti, non fermarti alla prima fonte trovata. Cerca una seconda fonte indipendente, meglio se di natura diversa: una fonte primaria e una revisione, un documento normativo e un commento autorevole, un dataset e una sua metodologia. Poi cerca deliberatamente una fonte che possa limitare o contraddire la tua conclusione. Questo non significa inventare un falso equilibrio; significa evitare di selezionare solo ciò che conferma l’idea iniziale.</p>
+
+<p>L’AI può aiutarti a formulare la domanda contraria. Invece di chiederle “trova prove che X è vero”, scrivi: “Quali condizioni, fonti o risultati potrebbero rendere troppo forte l’affermazione X? Formula query di ricerca che cerchino limiti, critiche, eccezioni e repliche”. Verifica poi le fonti proposte in modo indipendente. Questo uso dell’AI combatte il bias di conferma invece di automatizzarlo.</p>
+
+<h3>Citare correttamente non basta: devi attribuire correttamente</h3>
+<p>Una bibliografia perfetta non salva una frase attribuita male. Quando scrivi, collega ogni affermazione rilevante alla fonte che la supporta davvero. Non mettere cinque riferimenti alla fine di un paragrafo se non sai quale sostiene quale passaggio. Usa appunti con citazioni di pagina, tabella o sezione quando il tuo campo lo richiede. Se stai parafrasando, controlla di non conservare la struttura o le parole distintive dell’originale troppo da vicino. Se stai citando, trascrivi con precisione e conserva il contesto necessario.</p>
+
+<p>Per lavorare con l’AI in modo etico, puoi farle revisionare la tua attribuzione: “Questa è la mia frase e questa è la porzione della fonte. Indica se la mia formulazione è più ampia, più forte o diversa da ciò che la fonte sostiene. Non sostituire la fonte con una nuova.” È un controllo linguistico e logico, non una certificazione. La decisione finale resta tua, dopo avere aperto il documento.</p>
+
+<h3>Una procedura rapida per i lavori quotidiani</h3>
+<p>Non tutte le attività richiedono una revisione sistematica. Per una presentazione breve o per appunti personali, puoi usare una procedura in cinque minuti: identifica le tre affermazioni più decisive; cerca la fonte primaria o ufficiale; controlla data e contesto; riscrivi ogni frase in modo proporzionato alla prova; conserva il link o il riferimento nel tuo archivio. Per un esame, una tesi o un progetto professionale, allarga la procedura con un registro delle fonti e una revisione di un’altra persona quando possibile.</p>
+
+<p>L’efficienza non consiste nel verificare ogni connettivo di una bozza. Consiste nel sapere quali punti non possono essere sbagliati: definizioni centrali, numeri, citazioni, requisiti di una procedura, affermazioni controverse e consigli con conseguenze reali. Classifica il rischio prima di investire tempo. Un’AI usata bene ti aiuta a trovare rapidamente dove controllare; non ti dà il permesso di smettere di controllare.</p>
+
+<h3>Esercizio: smonta una risposta convincente</h3>
+<p>Prendi una risposta AI su un argomento che conosci poco. Chiedi di estrarre otto affermazioni verificabili. Scegline tre: una definizione, un dato e un’interpretazione. Per ciascuna trova una fonte affidabile, annota se la frase è confermata, parzialmente confermata o non confermata e riscrivila in modo più preciso. Alla fine chiedi al tutor di confrontare la prima e la seconda versione senza dichiarare vincitori: deve indicare quale elemento di prova rende la seconda più solida.</p>
+
+<p>Ripeti l’esercizio fino a quando il controllo diventa una parte naturale del tuo studio. La competenza non è sospettare di tutto; è saper graduare la fiducia. In una Biblioteca, in un esame o in una ricerca, la risposta migliore non è quella che suona più sicura. È quella che ti permette di vedere da dove viene ogni pezzo importante e quanto lontano puoi spingere la conclusione.</p>

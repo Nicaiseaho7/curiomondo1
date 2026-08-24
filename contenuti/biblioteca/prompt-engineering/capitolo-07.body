@@ -1,0 +1,259 @@
+<p>Una libreria di prompt non è una collezione di formule da copiare senza pensare. È un insieme di scheletri: sostituisci le parentesi con dati reali, mantieni i vincoli utili e adatti il formato alla piattaforma. Prima di usare qualsiasi modello qui sotto, chiediti sempre: ho il diritto di usare questi dati? Quale parte deve essere verificata? Chi deciderà sulla base della risposta? Se non sai rispondere, il prompt non è ancora pronto.</p>
+
+<h3>Come usare i modelli di questa libreria</h3>
+<p>Per ogni prompt, completa prima le variabili fra parentesi. Non lasciare “[pubblico]” o “[obiettivo]” e aspettarti che l’AI indovini. Poi leggi i vincoli: sono la parte che impedisce alla risposta di diventare generica, rischiosa o inutilizzabile. Infine chiedi un controllo finale proporzionato al rischio. Una bozza di post può essere controllata da te in trenta secondi; una tabella di costi, una citazione o un’affermazione sanitaria richiedono fonti e verifiche più solide.</p>
+
+<p>Se un prompt dà un risultato mediocre, non buttare subito tutto. Individua il difetto: mancano dati? Il tono è sbagliato? Il formato è inutilizzabile? La risposta inventa? Aggiungi soltanto il blocco necessario. La libreria è una base di partenza, non una gabbia.</p>
+
+<h3>Marketing — 1. Persona del cliente basata su evidenze</h3>
+<pre><code>Aiutami a costruire una persona cliente per [offerta].
+
+Materiale disponibile: [recensioni, chiamate, sondaggi, dati].
+Usa solo informazioni presenti nel materiale. Non inventare età, reddito o motivazioni.
+
+Output in tabella:
+- problema espresso con le parole del cliente
+- obiettivo desiderato
+- ostacoli
+- obiezioni
+- trigger di acquisto
+- citazione o evidenza di supporto
+- livello di confidenza
+
+Chiudi con: “Dati mancanti da raccogliere”.</code></pre>
+
+<p>Questo prompt evita la classica persona artificiale con un nome finto, una foto stock e hobby casuali. Una persona utile nasce da comportamenti, domande e obiezioni osservate. Se non possiedi prove, usa ipotesi dichiarate e pianifica come validarle con interviste, survey o test.</p>
+
+<h3>Marketing — 2. Piano editoriale senza riempitivo</h3>
+<pre><code>Crea un piano editoriale di 4 settimane per [brand/offerta].
+
+Pubblico: [pubblico]
+Obiettivo business: [obiettivo]
+Canali: [canali]
+Pilastri di contenuto: [3-5 temi]
+Risorse disponibili: [ore, video, casi, persone]
+
+Per ogni contenuto indica: data, formato, domanda del pubblico, idea specifica,
+asset necessario, call to action, metrica da osservare.
+
+Regole:
+- nessun argomento ripetuto con parole diverse;
+- alterna scoperta, fiducia e conversione;
+- non inventare risultati o statistiche;
+- evidenzia ciò che richiede una fonte o un’approvazione.</code></pre>
+
+<h3>Marketing — 3. Audit di una landing page</h3>
+<pre><code>Analizza questa landing page rispetto all'obiettivo [conversione desiderata].
+
+Non riscrivere subito. Valuta da 1 a 5:
+- chiarezza della promessa;
+- prova del valore;
+- comprensione del pubblico;
+- obiezioni affrontate;
+- frizione nella call to action;
+- coerenza tra titolo, corpo e offerta.
+
+Per ogni voto cita il passaggio analizzato e suggerisci un intervento concreto.
+Se mancano prove, segnala “prova da aggiungere”, non inventarla.</code></pre>
+
+<h3>Marketing — 4. Sequenza email di nutrimento</h3>
+<pre><code>Progetta una sequenza di 5 email per [pubblico] dopo che ha scaricato [risorsa].
+
+Obiettivo finale: [azione]
+Valore reale da offrire: [elenco]
+Tono: [tono]
+Limiti: nessuna scarsità falsa, nessun claim non dimostrato, massimo 170 parole per email.
+
+Per ogni email fornisci: oggetto, idea centrale, bozza, call to action e obiezione trattata.
+Ogni email deve avere un angolo diverso e non ripetere la stessa promessa.</code></pre>
+
+<h3>Marketing — 5. Matrice di messaggi</h3>
+<pre><code>Crea una matrice di messaggi per [offerta].
+Segmenti: [elenco]
+Per ogni segmento identifica: problema prioritario, beneficio rilevante, prova disponibile,
+obiezione, messaggio di apertura e CTA.
+
+Se il segmento non è supportato da dati, etichettalo come ipotesi.
+Restituisci una tabella; evita slogan generici.</code></pre>
+
+<h3>Studio — 1. Tutor socratico invece di soluzione pronta</h3>
+<pre><code>Agisci come tutor di [materia] per uno studente di livello [livello].
+
+Obiettivo: aiutarmi a capire [argomento], non darmi subito la soluzione.
+Procedura:
+1. Fammi una domanda alla volta.
+2. Aspetta la mia risposta.
+3. Indica l'errore o il passaggio corretto in modo breve.
+4. Aumenta la difficoltà gradualmente.
+5. Alla fine crea tre esercizi simili con soluzioni separate.
+
+Se uso un termine in modo errato, correggimi con un esempio semplice.</code></pre>
+
+<p>Questo modello è più efficace della richiesta “spiegami tutto” quando devi imparare davvero. Un tutor che fa domande ti costringe a recuperare l’informazione, e il recupero attivo è più utile della lettura passiva. Il modello resta un supporto: confronta definizioni e soluzioni con materiale didattico affidabile quando l’argomento è importante.</p>
+
+<h3>Studio — 2. Piano di ripasso realistico</h3>
+<pre><code>Costruisci un piano di ripasso per [esame] con scadenza [data].
+
+Argomenti: [elenco]
+Ore disponibili per giorno: [dati]
+Livello per ogni argomento: [alto/medio/basso]
+Vincoli: [lavoro, lezioni, giorni esclusi]
+
+Regole:
+- inserisci richiami distanziati;
+- alterna studio, esercizi e recupero attivo;
+- non pianificare più dell'80% delle ore disponibili;
+- includi un test settimanale e un buffer.
+
+Output: calendario, priorità, cosa fare se salto una sessione.</code></pre>
+
+<h3>Studio — 3. Flashcard di qualità</h3>
+<pre><code>Trasforma il testo seguente in flashcard per ripasso attivo.
+
+Regole:
+- una sola idea per carta;
+- domande specifiche, non vaghe;
+- risposte di una o due frasi;
+- separa definizioni, cause, confronti e procedure;
+- non inventare informazioni oltre al testo.
+
+Formato: CSV con colonne domanda, risposta, tag, difficoltà.
+Al termine segnala le parti del testo troppo ambigue per creare una flashcard affidabile.</code></pre>
+
+<h3>Studio — 4. Spiegazione a livelli</h3>
+<pre><code>Spiega [concetto] in tre livelli:
+1. spiegazione per un ragazzo di 12 anni;
+2. spiegazione per uno studente di [materia];
+3. spiegazione tecnica con termini precisi.
+
+Usa lo stesso esempio concreto nei tre livelli.
+Chiudi con cinque domande di autoverifica e non fornire le risposte finché non le chiedo.</code></pre>
+
+<h3>Programmazione — 1. Debug guidato e riproducibile</h3>
+<pre><code>Aiutami a fare debug di questo problema.
+
+Linguaggio e versione: [dati]
+Codice minimo riproducibile:
+[codice]
+Comportamento atteso: [descrizione]
+Comportamento osservato: [descrizione]
+Errore/log: [testo]
+
+Non proporre subito una riscrittura completa.
+Prima restituisci:
+1. ipotesi ordinate per probabilità;
+2. test minimo per verificare ogni ipotesi;
+3. causa più probabile con evidenza;
+4. patch minima;
+5. test di regressione.
+
+Non inventare API o librerie: se non sei certo, dichiaralo.</code></pre>
+
+<h3>Programmazione — 2. Specifica prima del codice</h3>
+<pre><code>Prima di scrivere codice, trasforma questa richiesta in una specifica.
+
+Richiesta: [descrizione]
+
+Output:
+- obiettivo;
+- utenti e casi d'uso;
+- input/output;
+- requisiti funzionali;
+- requisiti non funzionali;
+- casi limite;
+- rischi di sicurezza e privacy;
+- criteri di accettazione testabili;
+- domande aperte.
+
+Non scrivere codice finché non ti confermo la specifica.</code></pre>
+
+<p>Questo prompt evita di iniziare dal codice quando il problema non è ancora definito. I criteri di accettazione diventano poi i test: “dato X, il sistema restituisce Y”, “un utente non autorizzato non può vedere Z”. Un modello può accelerare la bozza, ma il codice va eseguito, testato e revisionato nell’ambiente reale.</p>
+
+<h3>Programmazione — 3. Revisione del codice</h3>
+<pre><code>Fai una code review del frammento seguente.
+
+Contesto: [cosa deve fare]
+Vincoli: [performance, compatibilità, stile]
+
+Valuta separatamente:
+- correttezza;
+- sicurezza;
+- gestione errori;
+- casi limite;
+- leggibilità;
+- test mancanti;
+- dipendenze o API incerte.
+
+Per ogni rilievo indica gravità, riga/sezione, motivazione e correzione minima.
+Non elogiare genericamente il codice: concentrati sui problemi verificabili.</code></pre>
+
+<h3>Programmazione — 4. Documentazione per persone</h3>
+<pre><code>Scrivi documentazione per [funzione/progetto] destinata a [pubblico].
+
+Materiale tecnico: [codice o appunti]
+
+Struttura: scopo, prerequisiti, installazione, esempio minimo, parametri,
+errori comuni, limiti, test rapido di funzionamento.
+
+Non dichiarare che una funzione esiste se non compare nel materiale.
+Segnala i punti che richiedono una verifica sul codice reale.</code></pre>
+
+<h3>Vita quotidiana — 1. Decisione d’acquisto con confini chiari</h3>
+<pre><code>Aiutami a confrontare [prodotti/servizi] per [uso reale].
+
+Budget: [importo]
+Priorità ordinate: [priorità]
+Opzioni e dati verificati: [elenco]
+
+Prima crea una tabella con criteri, dati noti, dati mancanti e fonte di ogni dato.
+Poi raccomanda l'opzione migliore solo se le informazioni sono sufficienti.
+Se dipende da un fatto aggiornato come prezzo, disponibilità o garanzia, chiedimi di verificarlo o cerca fonti aggiornate se ne hai la possibilità.</code></pre>
+
+<h3>Vita quotidiana — 2. Piano pasti e spesa</h3>
+<pre><code>Prepara un piano pasti di [numero] giorni.
+
+Persone: [numero]
+Budget: [importo]
+Preferenze/intolleranze: [dati]
+Tempo massimo di cucina: [tempo]
+Obiettivo: [risparmio, proteine, varietà, semplicità]
+
+Output: menu, lista spesa aggregata, quantità, preparazioni riutilizzabili e stima dei costi.
+Non trattarlo come consiglio medico; se mancano dati nutrizionali rilevanti, dichiaralo.</code></pre>
+
+<h3>Vita quotidiana — 3. Preparare una conversazione difficile</h3>
+<pre><code>Aiutami a preparare una conversazione delicata con [persona/ruolo].
+
+Fatti osservabili: [elenco]
+Obiettivo: [obiettivo]
+Confini: [cosa non accetto]
+Tono desiderato: calmo, rispettoso, diretto.
+
+Dammi:
+1. apertura in tre frasi;
+2. domande aperte;
+3. possibili obiezioni e risposte non aggressive;
+4. frase di chiusura;
+5. cose da non dire perché accusatorie o non verificabili.
+
+Non diagnosticare intenzioni dell'altra persona.</code></pre>
+
+<h3>Vita quotidiana — 4. Checklist per un compito complesso</h3>
+<pre><code>Trasforma questo obiettivo in una checklist eseguibile: [obiettivo].
+
+Vincoli: [tempo, budget, strumenti, scadenza]
+
+Spezza il lavoro in passaggi da massimo 30 minuti quando possibile.
+Per ogni passaggio indica: azione, materiale necessario, criterio di completamento,
+errore comune, dipendenza da un altro passaggio.
+Segnala chiaramente ciò che richiede un professionista, un permesso o una fonte ufficiale.</code></pre>
+
+<h3>La checklist definitiva prima di inviare un prompt</h3>
+<p>Prima di premere invio, scorri questa lista. Ho definito il risultato e il destinatario? Ho fornito il contesto necessario e solo quello necessario? Il task contiene un verbo chiaro? I vincoli sono misurabili? Il formato è utilizzabile senza rifare il lavoro? Ho separato dati e istruzioni? Ho indicato cosa deve accadere quando manca un’informazione? Le affermazioni importanti richiedono fonti, calcoli o una revisione umana? Se l’AI avesse torto, quale sarebbe il costo e come me ne accorgerei?</p>
+
+<p>Se rispondi “non so” a una domanda della lista, quello è il punto da migliorare. Non aggiungere tre aggettivi persuasivi: aggiungi il dato, il vincolo, l’esempio o il controllo che manca. Un prompt ottimo non è quello più lungo. È quello che rende possibile fare un buon lavoro anche a qualcuno che non conosce nulla della tua testa.</p>
+
+<h3>Risorse ufficiali da tenere aggiornate</h3>
+<p>Le interfacce e le versioni dei modelli cambiano rapidamente. Per tecniche, funzionalità e limiti aggiornati, consulta direttamente la documentazione del prodotto che stai usando: <a href="https://developers.openai.com/api/docs/guides/prompt-engineering" target="_blank" rel="noopener noreferrer">guida al prompt engineering di OpenAI</a>, <a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview" target="_blank" rel="noopener noreferrer">panoramica del prompt engineering di Claude</a> e <a href="https://ai.google.dev/gemini-api/docs/prompting-strategies" target="_blank" rel="noopener noreferrer">strategie di prompt design di Gemini</a>. Le fonti ufficiali non sostituiscono i tuoi test, ma evitano di costruire un metodo su screenshot datati o trucchi venduti come leggi universali.</p>
+
+<p>Il punto finale è questo: parlare bene all’AI significa pensare bene il lavoro prima di delegarne una parte. Dai al modello un ruolo utile, contesto affidabile, un task preciso, vincoli osservabili, un formato controllabile ed esempi quando servono. Chiedi alternative per le scelte, fonti per i fatti, test per il codice, lacune per i dati mancanti e approvazione umana per le azioni importanti. Non è magia. È un sistema. E un sistema batte sempre il prompt fortunato del martedì sera.</p>

@@ -1,0 +1,65 @@
+<p>La ricerca accademica non comincia quando trovi il primo PDF. Comincia quando trasformi un interesse ampio in una domanda cercabile. “Voglio studiare l’effetto dell’AI sull’apprendimento” è un tema. “In studenti universitari adulti, quali effetti riportano studi controllati sull’uso di tutor conversazionali per la pratica di recupero?” è una domanda. La seconda contiene popolazione, intervento, attività e tipo di esito. Non deve essere perfetta subito, ma deve essere abbastanza precisa da decidere quali parole cercare e quali fonti non sono pertinenti.</p>
+
+<p>L’AI è particolarmente utile nella fase di preparazione: può proporre sinonimi, scomporre concetti, suggerire varianti di query, aiutarti a leggere un abstract e creare una scheda di estrazione. Non deve però diventare un motore di citazioni non controllate. La ricerca resta un dialogo con documenti veri: cataloghi, banche dati, archivi, riviste, linee guida, fonti istituzionali e testi integrali. Il modello accelera la preparazione e l’organizzazione; l’evidenza arriva dalle fonti che apri e verifichi.</p>
+
+<h3>Dal tema alla domanda operativa</h3>
+<p>Una domanda utile definisce cosa vuoi capire e cosa non stai cercando. In ambito quantitativo puoi usare una struttura tipo popolazione, intervento o esposizione, confronto, esito e contesto. In ambito qualitativo puoi specificare esperienza, gruppo, fenomeno e contesto. In discipline umanistiche o giuridiche puoi definire corpus, periodo, concetto interpretativo e confronto. L’AI può farti domande per completare i campi, ma fai attenzione: non deve decidere per te quale domanda è interessante o eticamente sensata.</p>
+
+<p>Scrivi anche criteri di esclusione. Se cerchi lavori su un metodo didattico per adulti, forse non ti servono studi su bambini, opinioni senza metodo o articoli senza testo disponibile. I criteri non sono un ostacolo: impediscono di accumulare materiale che non potrai usare. Puoi chiedere all’AI di convertirli in una checklist, poi applicarla tu ai record trovati. Se un articolo è al confine, segnalo come “da decidere” invece di forzarlo dentro o fuori per comodità.</p>
+
+<h3>Costruire query trasparenti</h3>
+<p>Una query è una piccola ipotesi sul linguaggio della disciplina. Inizia da due o tre concetti centrali e crea per ciascuno una lista di sinonimi, abbreviazioni, grafie alternative e termini tecnici. Combina sinonimi con OR, concetti diversi con AND e usa le virgolette solo per espressioni che devono restare unite. Verifica la sintassi della banca dati che stai usando: ogni piattaforma può trattare filtri, campi e operatori in modo differente. L’AI può proporti una bozza, ma non può garantire che la sintassi funzioni in ogni strumento.</p>
+
+<pre><code>Aiutami a preparare una strategia di ricerca, non una bibliografia.
+Domanda: [incolla domanda].
+Genera:
+1. concetti principali;
+2. sinonimi e termini vicini per ciascun concetto;
+3. possibili criteri di esclusione;
+4. tre query progressive: ampia, bilanciata, molto specifica.
+Non inventare nomi di studi, riviste, DOI o risultati.
+Indica quali termini devo verificare nel thesaurus o nelle istruzioni della banca dati.</code></pre>
+
+<p>Conserva ogni query usata, data, banca dati, filtri e numero approssimativo di risultati. Non serve creare un protocollo enorme per ogni esercizio, ma lasciare traccia evita di perdere un percorso utile e rende la ricerca ripetibile. Se cambi un filtro, registra perché. Quando più avanti ti chiederai “perché non ho trovato studi su questo punto?”, potrai capire se il problema era la domanda, i termini o le fonti consultate.</p>
+
+<h3>Screening: decide la domanda, non il titolo accattivante</h3>
+<p>Il primo filtro avviene su titolo e abstract, ma non è una lettura superficiale. Confronta ogni record con la domanda e i criteri, usando le stesse domande: parla della popolazione giusta? Misura l’esito che ti interessa? Il disegno è pertinente? Il testo è disponibile o abbastanza documentato? Puoi chiedere all’AI di estrarre questi elementi dall’abstract che le fornisci, ma controlla sempre l’originale e conserva la motivazione dell’inclusione o dell’esclusione.</p>
+
+<p>Evita il bias dell’abstract affascinante. Un titolo può promettere una risposta diretta ma lo studio può analizzare un’altra variabile, un altro contesto o un campione troppo ristretto. Al contrario, un titolo sobrio può contenere un metodo utile. L’AI può riassumere rapidamente molti abstract, ma chiedile un output strutturato: domanda, campione, metodo, risultato dichiarato, limite evidente e pertinenza rispetto alla tua domanda. Non chiedere “quali sono i migliori?” prima di avere stabilito criteri che definiscano “migliori”.</p>
+
+<h3>Leggere un paper con una scheda di estrazione</h3>
+<p>Un paper non va letto sempre dall’inizio alla fine nello stesso modo. Prima fai una lettura di orientamento: titolo, autori, anno, abstract, figure, tabelle e conclusioni. Poi vai a metodi e risultati, perché lì scopri cosa è stato fatto davvero. Infine leggi la discussione e i limiti. Se il lavoro è centrale, annota pagine, tabelle e citazioni esatte. L’AI può trasformare le tue note in una scheda, ma la scheda deve rimanere ancorata a sezioni che puoi ritrovare.</p>
+
+<p>Una scheda essenziale include: domanda, disegno, partecipanti o corpus, variabili o concetti chiave, procedura, risultato principale, stima o evidenza riportata, limiti, conflitti o finanziamenti dichiarati, pertinenza per il tuo lavoro. Aggiungi una colonna “cosa non dimostra”. Quest’ultima è un antidoto semplice contro l’entusiasmo. Se uno studio osservazionale mostra un’associazione, la colonna può ricordarti che non dimostra un rapporto causale. Se un’analisi è in un contesto specifico, può ricordarti che la generalizzazione è limitata.</p>
+
+<pre><code>Usa esclusivamente l’estratto del paper che inserirò.
+Compila una scheda di lettura con: domanda, metodo, campione/corpus,
+variabili, risultati, limiti dichiarati, citazioni di pagina da controllare,
+e “cosa non possiamo concludere”.
+Se un dato non è presente nell’estratto, scrivi “non riportato”.
+Non completare la scheda con informazioni plausibili ma non visibili nel testo.</code></pre>
+
+<h3>Separare risultati, interpretazioni e tue idee</h3>
+<p>Quando prendi appunti, usa codici visivi o etichette. “R” per risultato dichiarato nel paper, “I” per interpretazione degli autori, “M” per la tua memoria o connessione, “D” per dubbio da verificare. Questa separazione evita un problema comune: dopo alcuni giorni non ricordi più se una frase era una conclusione dello studio, una prudenza dell’autore o una tua deduzione. L’AI può organizzare le note secondo queste etichette se le chiedi di non mescolare voci.</p>
+
+<p>Questo è importante anche per scrivere. Una buona sintesi non è un elenco di risultati; è un ragionamento che dichiara quando passa dal dato all’interpretazione. Puoi chiedere all’AI di segnalare frasi che fanno un salto logico: “In questo paragrafo, indica dove passo da ciò che la fonte mostra a ciò che io concludo. Suggerisci una formulazione più prudente se la prova non basta”. È un uso sofisticato della revisione: non scrive al tuo posto, rende visibile la struttura della tua argomentazione.</p>
+
+<h3>Citazioni, gestori bibliografici e ordine</h3>
+<p>Usa un unico luogo affidabile per i riferimenti, preferibilmente un gestore bibliografico scelto dal tuo corso o dal tuo metodo di lavoro. Importa metadati da record verificati e controlla i campi principali prima di fidarti dello stile automatico. L’AI può aiutarti a normalizzare note, generare parole chiave o riassumere la tua libreria, ma non dovrebbe essere l’origine dei dati bibliografici. Se un riferimento è decisivo, apri il record e il documento.</p>
+
+<p>Organizza la libreria con tag che rispondono a domande pratiche: tema, metodo, qualità/limite, capitolo del tuo lavoro, stato di lettura. Evita decine di tag decorativi. Una collezione “da leggere”, una “lettura completa”, una “da citare dopo verifica” e una “esclusa con motivo” sono già potenti. Chiedi all’AI di trasformare i tuoi appunti in una tabella di priorità: valore per la domanda, qualità apparente, urgenza, tempo di lettura. Tu mantieni l’ultima parola, perché un abstract non contiene tutta la qualità di uno studio.</p>
+
+<h3>La mappa della letteratura</h3>
+<p>Dopo aver letto un piccolo numero di fonti pertinenti, non continuare a raccogliere senza fermarti. Costruisci una mappa della letteratura: quali domande affronta ogni fonte, quale metodo usa, quale risultato riporta, dove concordano, dove divergono, quali limiti condividono. Una matrice con righe per le fonti e colonne per queste dimensioni spesso è più utile di dieci riassunti separati. L’AI può generare una prima matrice partendo dalle tue schede di estrazione, ma verifica che non fonda insieme studi diversi.</p>
+
+<p>La mappa deve anche mostrare i vuoti. Forse tutti gli studi misurano un risultato a breve termine, oppure usano un campione simile, oppure definiscono un concetto in modi incompatibili. Il vuoto non è una sconfitta; può diventare parte della discussione o indicare che la domanda va ristretta. Chiedi al modello di formulare il vuoto come domanda, non come certezza: “Quali dati mancano per capire se…?”. È più rigoroso e più utile per progettare la ricerca successiva.</p>
+
+<h3>Etica, privacy e integrità nella ricerca</h3>
+<p>Non caricare in una chat pubblica dati sensibili, documenti riservati, registrazioni identificabili, materiale protetto o testi che non hai diritto di condividere. Anche quando uno strumento offre funzioni utili, valuta policy, autorizzazioni e impostazioni prima di caricare contenuti. Anonimizza quando è consentito e sufficiente; se non lo è, usa strumenti approvati dalla tua organizzazione o evita il caricamento. L’AI non elimina i doveri di riservatezza, consenso e attribuzione.</p>
+
+<p>Nel lavoro accademico, distingui sempre l’uso dell’AI come assistenza da quello che il tuo corso o editore considera non consentito. Alcuni ambienti richiedono una dichiarazione, altri limitano la generazione di testo, altri permettono supporto linguistico. Verifica le regole specifiche prima di consegnare. La trasparenza non riduce il valore del tuo lavoro; lo protegge. Il valore sta nelle domande, nel giudizio sulle fonti, nelle scelte metodologiche e nella tua capacità di argomentare ciò che consegni.</p>
+
+<h3>Workflow di una ricerca breve</h3>
+<p>Per una ricerca di qualche ora o qualche giorno puoi seguire questo ciclo: formula la domanda; definisci criteri; prepara query; raccogli e filtra record; leggi le fonti centrali; compila schede; costruisci una matrice; scrivi una sintesi con riferimenti verificati; controlla ogni affermazione importante. L’AI può aiutare in ogni passaggio, ma non deve saltarne nessuno. Se ti propone venti fonti, chiedi prima di tutto come verificarle; se riassume un paper, chiedi dove nel paper vedere la prova; se migliora un testo, chiedi che cosa è stato cambiato e perché.</p>
+
+<p>Una ricerca robusta non dipende dal numero di PDF aperti. Dipende dalla tracciabilità: puoi tornare dall’idea alla fonte, dalla fonte al passaggio, dal passaggio alla tua conclusione. Quando usi l’AI per mantenere questa catena ordinata, non stai delegando la ricerca. Stai liberando attenzione per fare la parte più importante: decidere che cosa conta, che cosa manca e che cosa puoi davvero affermare.</p>

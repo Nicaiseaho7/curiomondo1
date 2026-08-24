@@ -1,0 +1,30 @@
+/sitemap.xml
+  Content-Type: application/xml; charset=UTF-8
+  Cache-Control: public, max-age=60, must-revalidate
+
+/news-sitemap.xml
+  Content-Type: application/xml; charset=UTF-8
+  Cache-Control: public, max-age=60, must-revalidate
+
+/robots.txt
+  Content-Type: text/plain; charset=UTF-8
+  Cache-Control: public, max-age=300, must-revalidate
+
+/notizie/*
+  Content-Type: text/html; charset=UTF-8
+  Content-Disposition: inline
+  X-Content-Type-Options: nosniff
+
+/pagine/*
+  Content-Type: text/html; charset=UTF-8
+  Content-Disposition: inline
+  X-Content-Type-Options: nosniff
+
+/tools/*
+  X-Robots-Tag: noindex, nofollow
+
+/contenuti/*
+  X-Robots-Tag: noindex, nofollow
+
+/templates/*
+  X-Robots-Tag: noindex, nofollow

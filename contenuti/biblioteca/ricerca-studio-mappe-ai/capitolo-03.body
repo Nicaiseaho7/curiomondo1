@@ -1,0 +1,63 @@
+<p>Un tutor personale non è qualcuno che parla molto: è qualcuno che capisce quale domanda farti adesso. L’AI può avvicinarsi a questo ruolo se le imponi una conversazione disciplinata. Se le chiedi di spiegare tutto in una volta, diventa un manuale molto rapido. Se le chiedi di interrogarti una domanda alla volta, di aspettare la tua risposta, di cercare il ragionamento mancante e di aumentare o diminuire la difficoltà, diventa un ambiente di pratica. La differenza è enorme: nell’un caso guardi; nell’altro produci.</p>
+
+<p>Il tutor AI non deve conquistarti con risposte impeccabili. Deve creare le condizioni perché tu possa sbagliare in modo utile. Un errore osservato, nominato e corretto è una traccia per la memoria. Per questo devi evitare un’abitudine comune: chiedere “dimmi se la mia risposta è giusta” e accettare un semplice sì. Una buona correzione distingue ciò che era corretto, ciò che era incompleto, ciò che era fuori fuoco e quale domanda successiva può verificare che hai davvero corretto il problema.</p>
+
+<h3>Definisci il contratto della sessione</h3>
+<p>Una sessione di tutoraggio efficace ha un obiettivo, un perimetro e un ritmo. L’obiettivo è l’abilità che vuoi esercitare, non il tempo che vuoi trascorrere. Il perimetro è il materiale autorizzato: un capitolo, una lista di formule, un set di norme, un paper. Il ritmo definisce quanto il tutor può aiutare. All’inizio può darti indizi; vicino all’esame deve togliere gradualmente gli appigli. Scrivi queste regole all’inizio della conversazione e riutilizzale.</p>
+
+<pre><code>Oggi fammi da tutor per [argomento] per 25 minuti.
+Obiettivo: devo saper [azione osservabile].
+Usa solo il materiale fornito e non introdurre dettagli non presenti.
+Fai una domanda alla volta; non rivelare subito la risposta.
+Dopo ogni mia risposta, usa questo schema:
+- cosa è corretto;
+- quale passaggio manca o è impreciso;
+- un indizio breve, soltanto se serve;
+- la prossima domanda, leggermente adattata alla mia risposta.
+Ogni cinque domande, fermati e dammi un riepilogo delle lacune.</code></pre>
+
+<p>La parte più importante è “una domanda alla volta”. Le risposte dell’AI possono essere lunghissime; il tuo spazio di lavoro mentale, invece, è limitato. Una domanda isolata ti obbliga a scegliere, recuperare e formulare. Se il tutor mostra già le soluzioni di cinque esercizi, l’attività passa dalla pratica al confronto passivo. Quando senti l’impulso di chiedere la soluzione, prova prima a chiedere un indizio di livello uno: una parola chiave, il nome della sezione pertinente o il tipo di relazione da cercare.</p>
+
+<h3>Usa la scala degli indizi</h3>
+<p>Un buon tutor non dà lo stesso aiuto a chi non sa da dove partire e a chi ha quasi completato il ragionamento. Puoi costruire una scala di quattro livelli. Livello uno: richiama un concetto o una parola chiave. Livello due: indica la relazione rilevante, come causa-effetto o confronto. Livello tre: mostra l’avvio della procedura, senza completarla. Livello quattro: spiega la soluzione e subito dopo proponi un caso molto simile da risolvere da solo. Chiedi al modello di non saltare livelli, a meno che tu non scriva esplicitamente “soluzione completa”.</p>
+
+<p>La scala è utile anche perché rende misurabile l’autonomia. Se per uno stesso tipo di domanda hai bisogno sempre del livello tre, non basta ripassare: devi ricostruire il concetto. Se con il tempo ti basta il livello uno, stai consolidando. Registra il livello di indizio necessario accanto agli errori più frequenti. Dopo qualche sessione avrai una mappa reale della tua dipendenza dagli aiuti, molto più utile della generica impressione di “andare male” o “andare bene”.</p>
+
+<h3>Interrogazioni simulate che non sono quiz casuali</h3>
+<p>Un quiz utile non è una lotteria di domande. Deve campionare le abilità richieste nella valutazione. Prima raccogli prove d’esame, indicazioni del docente, criteri di un concorso o esempi di consegne. Poi chiedi all’AI di classificare le domande per funzione: definizione, applicazione, confronto, calcolo, interpretazione, critica. Verifica la classificazione tu stesso e crea una matrice: righe con i temi, colonne con le funzioni. Una simulazione ben progettata copre la matrice invece di fare dieci domande tutte della stessa specie.</p>
+
+<p>Puoi chiedere tre modalità. La modalità allenamento permette indizi e feedback immediato. La modalità semi-esame concede feedback solo dopo un blocco di tre o cinque domande. La modalità esame non dà aiuti e chiede una risposta entro un tempo stabilito. Alterna le modalità. Allenarsi sempre con feedback immediato crea dipendenza; simulare sempre l’esame senza correzione può rendere l’errore troppo opaco. La progressione corretta porta dalla spiegazione guidata alla prestazione autonoma.</p>
+
+<pre><code>Crea una simulazione di 12 domande su [programma].
+Distribuzione: 3 definizioni operative, 4 applicazioni a casi,
+3 confronti tra concetti, 2 domande critiche.
+Non mostrarmi domande e soluzioni insieme.
+Conduci la prova una domanda alla volta, senza indizi.
+Al termine valuta le risposte con una rubrica: accuratezza, passaggi logici,
+lessico tecnico, gestione delle eccezioni.
+Per ogni errore, proponi una micro-prova di recupero.</code></pre>
+
+<h3>La tecnica socratica: il tutor chiede prima di spiegare</h3>
+<p>Quando non capisci una risposta, chiedere “spiegamelo meglio” è legittimo ma impreciso. Molto spesso non sai se ti manca una definizione, un passaggio logico, un esempio o il rapporto tra due variabili. La tecnica socratica usa domande per localizzare il punto rotto. Puoi dire al tutor: “Prima di spiegare, fammi fino a tre domande diagnostiche per capire quale passaggio non sto comprendendo”. Il modello deve allora raccogliere dati sulla tua difficoltà prima di produrre un’altra spiegazione lunga.</p>
+
+<p>Immagina di non capire un teorema. Il problema potrebbe essere che non ricordi le ipotesi, che non vedi il collegamento tra due passaggi o che non sai quando applicarlo. Tre spiegazioni generiche non risolvono questi tre problemi nello stesso modo. Una domanda diagnostica come “quale ipotesi ti sembra meno chiara?” restringe il campo. Dopo la tua risposta, chiedi una spiegazione in forma di catena: “dato questo, allora questo, perché…”. Poi devi produrre tu una catena simile con un esempio nuovo.</p>
+
+<h3>Adattare linguaggio, profondità e ritmo</h3>
+<p>Un tutor AI può cambiare registro molto rapidamente. Sfruttalo, ma definisci sempre il livello. “Semplifica” non deve significare “elimina la precisione”. Puoi chiedere una spiegazione in tre strati: intuizione, versione tecnica, applicazione. Se studi una lingua, chiedi di evidenziare gli errori che cambiano il significato, non ogni imperfezione stylistica. Se studi programmazione, chiedi di non scrivere il codice completo finché non hai presentato un piano. Se studi medicina, diritto, finanza o temi con effetti reali, chiedi esplicitamente di distinguere materiale didattico da consiglio professionale e di rimandare alle fonti ufficiali.</p>
+
+<p>Il ritmo dipende dalla difficoltà, non dalla tua impazienza. Quando il concetto è nuovo, chiedi frasi brevi, un esempio e una domanda di controllo. Quando è quasi consolidato, chiedi casi misti e distrattori plausibili. Quando prepari un orale, chiedi risposte a voce simulata: puoi scrivere una trascrizione approssimativa della tua spiegazione e farla valutare per struttura, correttezza e chiarezza. Non chiedere al tutor di renderti “brillante”; chiedigli di mostrarti dove il discorso smette di dimostrare ciò che afferma.</p>
+
+<h3>La correzione che fa imparare</h3>
+<p>Una correzione utile è specifica, breve e seguita da azione. Evita feedback come “ottimo” o “devi approfondire”: aumentano o abbassano il morale ma non indicano cosa cambiare. Chiedi questa forma: “La tua risposta è corretta su A; manca B; hai confuso C con D; prova ora a rispondere a una domanda che verifica soltanto B”. Se l’errore nasce da una parola, chiedi un contrasto tra frasi quasi uguali. Se nasce da una procedura, chiedi di evidenziare il primo passaggio in cui hai deviato.</p>
+
+<p>Conserva un registro degli errori, ma non come lista di colpe. Usa quattro categorie: informazione non ricordata, relazione non capita, procedura incompleta, interpretazione della domanda. Questa classificazione è preziosa perché suggerisce la cura. Un’informazione non ricordata richiede richiami distanziati. Una relazione non capita richiede mappa ed esempio. Una procedura incompleta richiede pratica guidata. Un’interpretazione errata richiede lettura lenta della consegna e confronto fra casi. L’AI può riordinare il registro, ma tu devi decidere se la categoria descrive davvero il tuo errore.</p>
+
+<h3>Simulare un colloquio, un orale o una discussione</h3>
+<p>Per una prova orale, il tutor può impersonare un esaminatore esigente ma corretto. Dagli un programma, il livello desiderato e le regole: interrompere soltanto per chiedere chiarimenti rilevanti, non suggerire la risposta, alzare il livello quando l’argomento è solido. Dopo la simulazione, chiedi una restituzione divisa in tre blocchi: contenuto, struttura del discorso, gestione delle domande impreviste. La parte più utile è spesso la terza: non basta conoscere una sequenza; devi riuscire a ripartire da un punto diverso.</p>
+
+<p>Un esercizio potente è la domanda inversa. Dopo che hai spiegato un concetto, chiedi al tutor di formulare una domanda che la tua spiegazione non riesce ancora a coprire. Se la domanda ti sorprende, non è un fallimento: ha trovato il bordo del tuo modello mentale. Chiedi allora di collegarla alla mappa concettuale e di creare una card di recupero per il prossimo giorno. Così l’interrogazione non diventa una recita, ma una macchina per scoprire buchi.</p>
+
+<h3>Quando fermare il tutor</h3>
+<p>L’AI è sempre disponibile, e proprio per questo può farti perdere tempo. Se continui a chiedere varianti della stessa spiegazione senza produrre nulla, devi interrompere la chat. Metti una regola: dopo due messaggi di spiegazione, esegui una prova esterna alla chat. Chiudi la finestra, disegna la mappa, risolvi un esercizio su carta, registra una spiegazione o scrivi cinque righe. Poi torna con l’output e chiedi feedback. L’apprendimento avviene fuori dal flusso infinito di testo, non dentro di esso.</p>
+
+<p>Al termine della sessione, chiedi un riassunto operativo di massimo cinque righe: abilità esercitata, errore principale, prova superata, richiamo consigliato, materiale da verificare. Copialo nel tuo registro. Nella sessione successiva, non ricominciare da zero: incolla quel riepilogo e chiedi una prova iniziale sul punto fragile. Un tutor personale diventa utile quando conserva una direzione; non quando ti intrattiene con un’altra spiegazione perfettamente scritta.</p>

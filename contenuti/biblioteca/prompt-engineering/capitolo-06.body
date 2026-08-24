@@ -1,0 +1,123 @@
+<p>Nella scrittura, l’AI è più utile quando riceve una direzione editoriale e meno utile quando le viene chiesto di “fare un testo virale”. Può generare angolazioni, strutture, bozze, alternative di tono, titoli, script e revisioni. Non può sostituire una voce riconoscibile, un fatto verificato o una strategia. Il prompt engineering per la content creation consiste nel dare al modello una redazione immaginaria fatta di pubblico, obiettivo, format, vincoli e standard. Senza questi elementi, produrrà contenuti corretti in superficie e dimenticabili nel resto.</p>
+
+<h3>Prima del testo: definisci il brief editoriale</h3>
+<p>Ogni contenuto dovrebbe iniziare con cinque coordinate: per chi scrivi, quale problema o desiderio affronti, quale azione vuoi provocare, quale tono rappresenta il brand e quale prova sostiene l’affermazione centrale. Non partire da “scrivi un articolo su X”. Parti da “aiuta questo pubblico a fare Y dopo aver letto Z”. L’argomento è soltanto il territorio; la trasformazione del lettore è il percorso.</p>
+
+<p>Un brief può essere estremamente compatto:</p>
+
+<pre><code>Pubblico: proprietari di piccole attività senza reparto marketing.
+Problema: pubblicano sui social senza un sistema.
+Obiettivo del contenuto: far capire il valore di un calendario editoriale semplice.
+Tono: diretto, competente, mai paternalista.
+Prova: esempi pratici e limiti dichiarati.
+Azione finale: scaricare un modello / prenotare una call / salvare il post.
+Da evitare: promesse di risultati garantiti, gergo inutile, urgenza finta.</code></pre>
+
+<p>Questo brief diventa il contesto fisso che puoi riusare per articoli, newsletter, script video e post. È molto più efficace che ripetere “scrivi in modo professionale”. Professionale per chi? Un commercialista, un creator, un’azienda B2B e un brand giovane hanno idee diverse di professionalità. Il modello non può dedurre l’identità che non gli hai definito.</p>
+
+<h3>Copywriting: prometti una trasformazione verificabile</h3>
+<p>Il copywriting non è riempire un testo di superlativi. È rendere chiaro il valore di un’offerta e rimuovere dubbi onesti. Un buon prompt chiede al modello di individuare problema, desiderio, meccanismo, prova, obiezione e call to action. Quando un elemento non è disponibile, deve usare un segnaposto o una domanda, non inventare testimonianze, statistiche, recensioni o risultati.</p>
+
+<pre><code>Scrivi una pagina di vendita breve per [offerta].
+
+Pubblico: [chi è e che cosa sta cercando]
+Problema: [problema reale]
+Valore concreto: [cosa cambia, senza promesse assolute]
+Prove disponibili: [dati, casi, demo, garanzia reale]
+Obiezioni frequenti: [elenco]
+
+Struttura:
+1. Titolo orientato al risultato
+2. Apertura con il problema riconoscibile
+3. Come funziona l'offerta
+4. Benefici concreti
+5. Obiezioni e risposte oneste
+6. Call to action
+
+Regole: non inventare numeri, recensioni o urgenze; evidenzia con [PROVA MANCANTE] ogni claim non supportato.</code></pre>
+
+<p>Chiedere i claim mancanti è un antidoto alla pubblicità immaginaria. Se il modello propone “aumenta le vendite del 300%”, non trasformare quella frase in una promessa solo perché suona bene. Inserisci prove o riscrivi come possibilità condizionata: “può aiutarti a ridurre il tempo necessario per…”. Il copy più forte non urla più forte; mette in relazione promessa, prova e destinatario con precisione.</p>
+
+<h3>Articoli: struttura prima, bozza dopo</h3>
+<p>Un articolo lungo beneficia di un processo in due o tre turni. Prima chiedi dieci angolazioni o domande reali del pubblico. Poi scegli quella che porta un punto di vista utile. Dopo costruisci un outline con tesi, prove, esempi, obiezioni e conclusione. Solo alla fine chiedi la bozza. Questo evita la classica pagina generata dall’AI: introduzione generica, cinque sottotitoli prevedibili, conclusione che ripete l’introduzione e nessuna idea memorabile.</p>
+
+<pre><code>Fase 1: proponi 8 angolazioni per un articolo su [tema].
+Per ogni angolazione indica pubblico, domanda a cui risponde e rischio di banalità.
+
+Fase 2: dopo la mia scelta, crea una scaletta con:
+- tesi centrale;
+- H2 e H3;
+- fatto o esempio necessario in ogni sezione;
+- obiezione più forte;
+- conclusione pratica.
+
+Fase 3: scrivi la bozza solo usando la scaletta approvata.
+Segnala ogni affermazione che richiede una fonte esterna.</code></pre>
+
+<p>Per contenuti informativi o giornalistici, separa sempre ricerca, scrittura e verifica. Il modello può aiutare a formulare domande, organizzare fonti e rendere più leggibile un testo, ma non deve essere l’unica fonte di fatti. Chiedi: “Non attribuire dati, citazioni, date o dichiarazioni senza fonte. Se non hai una fonte, usa [FONTE NECESSARIA].” Questa regola salva più reputazione di qualunque prompt “potente”.</p>
+
+<h3>Script per video e social: progetta la retention, non soltanto il testo</h3>
+<p>Uno script per TikTok, Reels, Shorts o un video YouTube non è un articolo spezzato in frasi brevi. Ha un’apertura che crea contesto, una promessa credibile, cambi di ritmo, esempi visivi, una progressione e una chiusura. Devi dire al modello durata, formato, pubblico, cosa appare in video, cosa viene detto, quali informazioni non sono verificate e quale azione vuoi alla fine. Se chiedi solo “scrivi uno script virale”, otterrai una raccolta di cliché con un gancio gridato e nessuna sostanza.</p>
+
+<pre><code>Scrivi uno script verticale di 45 secondi per [piattaforma].
+
+Pubblico: [pubblico]
+Obiettivo: [cosa deve capire o fare]
+Argomento verificato: [fatti disponibili]
+Tono: energico ma credibile.
+
+Restituisci in tabella:
+tempo | voce | testo sullo schermo | immagine/azione | scopo della scena
+
+Regole:
+- apertura entro 2 secondi senza clickbait falso;
+- un solo messaggio centrale;
+- inserisci un esempio concreto;
+- chiudi con una call to action coerente;
+- marca [DA VERIFICARE] i dati non supportati.</code></pre>
+
+<p>Per creare varianti, non chiedere semplicemente “fammi altre dieci versioni”. Chiedi un principio diverso per ogni variante: una parte da un errore comune, una da una statistica verificata, una da una scena quotidiana, una da un confronto, una da una domanda. Poi valuta le versioni con criteri: chiarezza entro tre secondi, promessa mantenuta, rischio di fraintendimento, coerenza con il brand. La creatività può essere generata, ma va diretta come un casting: non basta avere molte persone in sala, devi sapere quale ruolo serve.</p>
+
+<h3>Stile di scrittura: descrivilo attraverso comportamenti</h3>
+<p>“Scrivi come me” è un prompt debole se non fornisci esempi e criteri. Il modello può imitare superficialmente parole ricorrenti, ma non capire perché una voce funziona. Crea invece una guida di stile con scelte osservabili: lunghezza media delle frasi, grado di formalità, parole preferite, parole vietate, uso di domande, struttura dei paragrafi, rapporto fra spiegazione ed esempio, tono delle call to action. Aggiungi tre esempi buoni e uno cattivo commentato.</p>
+
+<pre><code>Guida di stile:
+- tono: chiaro, sobrio, curioso;
+- frasi: prevalentemente brevi, alternate a una frase più ampia;
+- parole da evitare: rivoluzionario, imperdibile, garantito;
+- usa un esempio concreto entro i primi tre paragrafi;
+- evita frasi generiche senza conseguenza pratica;
+- non imitare autori viventi o testi protetti: crea una voce originale basata sui tratti descritti.
+
+Prima della bozza, riassumi in cinque righe come applicherai questa guida.</code></pre>
+
+<p>Il punto sullo stile è importante anche per il rispetto creativo. Puoi chiedere caratteristiche generali, epoche, registri e tecniche, ma non è necessario copiare la firma specifica di un autore vivente o di un creator. Chiedi “un tono ironico, essenziale e osservativo” invece di “scrivi identico a…”. L’originalità non nasce dall’imitazione perfetta; nasce dall’avere un punto di vista e una guida coerente.</p>
+
+<h3>Editing: fai criticare prima di riscrivere</h3>
+<p>L’AI è un buon secondo paio di occhi se la domanda è precisa. Non consegnarle una bozza con “migliora”. Chiedi un’analisi in categorie: chiarezza, struttura, ripetizioni, transizioni, prove, tono, frasi troppo lunghe, call to action. Poi scegli quali interventi accettare. Una revisione automatica che riscrive tutto può cancellare il ritmo, le scelte intenzionali e le sfumature del testo originale.</p>
+
+<pre><code>Agisci come editor, non come ghostwriter.
+Analizza il testo senza riscriverlo subito.
+
+Restituisci:
+1. Tesi percepita in una frase
+2. Tre punti più chiari
+3. Cinque punti confusi, ridondanti o non supportati
+4. Frasi da accorciare con motivazione
+5. Proposte di intervento ordinate per impatto
+
+Poi attendi la mia autorizzazione per la riscrittura.</code></pre>
+
+<p>Dopo aver selezionato gli interventi, chiedi una riscrittura con il testo originale e le modifiche accettate. Puoi anche imporre una “diff” editoriale: “mantieni invariati titolo, citazioni e paragrafo 1; modifica solo le sezioni 3 e 4; elenca le modifiche alla fine.” Questo è più controllabile che premere un pulsante e sperare che il modello non trasformi un articolo in un’altra cosa.</p>
+
+<h3>Un sistema di contenuti, non una slot machine di post</h3>
+<p>La produzione migliore nasce da un sistema: un tema principale, domande del pubblico, una pagina approfondita, contenuti brevi collegati, una newsletter, una call to action e un modo per misurare che cosa è utile. L’AI può generare una mappa di riuso: da un articolo estrarre cinque post, due script, una sequenza email, una FAQ e un lead magnet. Devi però impedirle di duplicare lo stesso concetto con parole diverse. Chiedi angoli distinti, pubblico specifico e un messaggio diverso per formato.</p>
+
+<pre><code>Partendo dal contenuto principale allegato, crea un piano di riuso.
+Output: una tabella con formato, pubblico, obiettivo, idea originale, call to action e rischio di sovrapposizione.
+Regole:
+- ogni contenuto deve introdurre un punto nuovo o un esempio nuovo;
+- non inventare dati oltre al testo base;
+- collega i contenuti brevi al contenuto principale senza ripeterne tutta la struttura.</code></pre>
+
+<p>La content creation con l’AI diventa interessante quando riesci a produrre più valore senza abbassare il livello. Il prompt giusto non serve a far scrivere alla macchina “più cose”. Serve a farle rispettare la tua idea, il tuo pubblico, i tuoi limiti e la verità dei fatti. Nel capitolo finale troverai una libreria pronta di prompt per marketing, studio, programmazione e vita quotidiana, oltre a una checklist che ti aiuta a riconoscere quando fermarti e correggere il brief.</p>

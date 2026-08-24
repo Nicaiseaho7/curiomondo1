@@ -1,0 +1,19 @@
+{
+  "slug": "ricerca-studio-mappe-concettuali-ai",
+  "title": "Come studiare meglio e creare mappe concettuali con l’AI?",
+  "description": "Un manuale operativo per trasformare testi complessi in mappe e domande, studiare con un tutor AI, verificare fonti, pianificare esami e organizzare la ricerca accademica senza delegare il pensiero critico.",
+  "category": "produttivita-lifestyle",
+  "subcategory": "metodi-studio-apprendimento",
+  "updated_at": "12/08/2026",
+  "cover_image": "/assets/images/biblioteca/ricerca-studio-mappe-concettuali-ai-copertina.webp",
+  "cover_alt": "Copertina illustrativa del manuale su studio e ricerca con AI, con una mappa concettuale luminosa, laptop, quaderno e schede di studio.",
+  "chapters": [
+    {"title": "Come studiare con l’AI senza imparare solo in superficie?", "body_file": "ricerca-studio-mappe-ai/capitolo-01.body"},
+    {"title": "Come trasformare un testo in una mappa concettuale con l’AI?", "body_file": "ricerca-studio-mappe-ai/capitolo-02.body"},
+    {"title": "Come usare l’AI come tutor personale per interrogazioni e quiz?", "body_file": "ricerca-studio-mappe-ai/capitolo-03.body"},
+    {"title": "Come verificare fonti, citazioni ed errori dell’AI?", "body_file": "ricerca-studio-mappe-ai/capitolo-04.body"},
+    {"title": "Come creare un piano di studio realistico con l’AI?", "body_file": "ricerca-studio-mappe-ai/capitolo-05.body"},
+    {"title": "Come leggere paper e fare ricerca scientifica con l’AI?", "body_file": "ricerca-studio-mappe-ai/capitolo-06.body"},
+    {"title": "Quale metodo usare per studiare con l’AI in autonomia?", "body_file": "ricerca-studio-mappe-ai/capitolo-07.body"}
+  ]
+}

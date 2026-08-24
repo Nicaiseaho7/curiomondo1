@@ -1,0 +1,43 @@
+{
+  "slug": "manuale-sopravvivenza-intelligenza-artificiale",
+  "title": "Come usare ChatGPT ogni giorno senza fare errori?",
+  "description": "Tutto quello che non ti dicono su come usarla, risparmiare tempo ed evitare gli errori più comuni.",
+  "category": "tecnologia-ai",
+  "subcategory": "intelligenza-artificiale",
+  "updated_at": "12/08/2026",
+  "cover_image": "/assets/images/biblioteca/manuale-sopravvivenza-ai-copertina.webp",
+  "cover_alt": "Copertina illustrativa del Manuale di Sopravvivenza con l'Intelligenza Artificiale: laptop con assistente AI, planner, documenti, smartphone, calcolatrice e simbolo di protezione dei dati.",
+  "search_questions": [
+    {"question": "Come usare ChatGPT per la prima volta senza fare errori?", "chapter": 1},
+    {"question": "ChatGPT è affidabile? Posso fidarmi delle sue risposte?", "chapter": 1},
+    {"question": "Come scrivere un prompt efficace per ChatGPT?", "chapter": 1},
+    {"question": "Perché ChatGPT inventa cose e fonti false?", "chapter": 2},
+    {"question": "Come capire se ChatGPT ha sbagliato una risposta?", "chapter": 2},
+    {"question": "Come verificare le risposte di ChatGPT?", "chapter": 2},
+    {"question": "ChatGPT salva le conversazioni?", "chapter": 3},
+    {"question": "ChatGPT legge i miei dati privati?", "chapter": 3},
+    {"question": "Cosa non devo scrivere o caricare su ChatGPT?", "chapter": 3},
+    {"question": "Come riassumere un PDF di 100 pagine con ChatGPT?", "chapter": 4},
+    {"question": "È sicuro caricare un PDF su ChatGPT?", "chapter": 4},
+    {"question": "ChatGPT può scrivere una tesi o aiutarmi a studiare per un esame?", "chapter": 4},
+    {"question": "Qual è la differenza tra ChatGPT, Claude e Gemini?", "chapter": 5},
+    {"question": "Meglio ChatGPT o Gemini: quale AI scegliere?", "chapter": 5},
+    {"question": "Quale AI usare per leggere PDF e documenti lunghi?", "chapter": 5},
+    {"question": "Come usare ChatGPT per lavoro e per scrivere email?", "chapter": 6},
+    {"question": "ChatGPT può fare il budget familiare?", "chapter": 6},
+    {"question": "ChatGPT può creare una dieta o una lista della spesa?", "chapter": 6},
+    {"question": "Come usare ChatGPT per organizzare la giornata?", "chapter": 6},
+    {"question": "Le immagini create con AI hanno copyright?", "chapter": 7},
+    {"question": "Posso usare o vendere immagini AI per lavoro?", "chapter": 7},
+    {"question": "È legale usare testi scritti con ChatGPT?", "chapter": 7}
+  ],
+  "chapters": [
+    {"title": "Come usare ChatGPT e l'AI senza fare errori?", "body_file": "manuale-sopravvivenza-ai/capitolo-01.body"},
+    {"title": "Perché ChatGPT inventa cose? Come riconoscere le allucinazioni?", "body_file": "manuale-sopravvivenza-ai/capitolo-02.body"},
+    {"title": "ChatGPT salva le conversazioni? Come proteggere privacy e dati?", "body_file": "manuale-sopravvivenza-ai/capitolo-03.body"},
+    {"title": "Come riassumere un PDF con ChatGPT e usare l'AI per studiare?", "body_file": "manuale-sopravvivenza-ai/capitolo-04.body"},
+    {"title": "Meglio ChatGPT, Claude o Gemini? Quale AI scegliere?", "body_file": "manuale-sopravvivenza-ai/capitolo-05.body"},
+    {"title": "Come usare ChatGPT per lavoro, spesa e budget?", "body_file": "manuale-sopravvivenza-ai/capitolo-06.body"},
+    {"title": "Le immagini AI hanno copyright? Posso usarle per lavoro?", "body_file": "manuale-sopravvivenza-ai/capitolo-07.body"}
+  ]
+}

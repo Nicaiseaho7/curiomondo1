@@ -1,0 +1,19 @@
+{
+  "slug": "generazione-visiva-multimediale-ai",
+  "title": "Come creare immagini, video e audio con l’AI?",
+  "description": "Un manuale monografico per progettare immagini, video e audio con l’AI: prompt visivi, coerenza di personaggi e brand, animazione, avatar, musica, pulizia del suono e uso commerciale responsabile.",
+  "category": "crescita-digitale",
+  "subcategory": "piattaforme-social",
+  "updated_at": "12/08/2026",
+  "cover_image": "/assets/images/biblioteca/generazione-visiva-multimediale-ai-copertina.webp",
+  "cover_alt": "Copertina illustrativa del manuale di generazione multimediale con AI, con fotocamera, microfono, cuffie, pellicola video e onde audio rosse e corallo.",
+  "chapters": [
+    {"title": "Come descrivere bene una scena per generare immagini e video?", "body_file": "generazione-multimediale-ai/capitolo-01.body"},
+    {"title": "Come mantenere coerenti personaggi e stile visivo con l’AI?", "body_file": "generazione-multimediale-ai/capitolo-02.body"},
+    {"title": "Come creare immagini AI per social, prodotti ed editoria?", "body_file": "generazione-multimediale-ai/capitolo-03.body"},
+    {"title": "Come trasformare testo e immagini in video con l’AI?", "body_file": "generazione-multimediale-ai/capitolo-04.body"},
+    {"title": "Come creare musica, pulire l’audio e usare voci AI?", "body_file": "generazione-multimediale-ai/capitolo-05.body"},
+    {"title": "Come passare dalla bozza alla pubblicazione senza errori?", "body_file": "generazione-multimediale-ai/capitolo-06.body"},
+    {"title": "Posso usare immagini e video AI per lavoro e pubblicità?", "body_file": "generazione-multimediale-ai/capitolo-07.body"}
+  ]
+}

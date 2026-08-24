@@ -1,0 +1,79 @@
+{
+  "slug": "come-si-misurano-decessi-eccesso-caldo-europa",
+  "title": "Che cosa sono i decessi in eccesso e come si misura l’impatto del caldo sulla mortalità",
+  "description": "La mortalità in eccesso confronta i decessi osservati con quelli attesi. Ecco come funzionano EuroMOMO e i sistemi nazionali e perché le stime sul caldo richiedono cautela.",
+  "keywords": "decessi in eccesso, mortalità in eccesso, EuroMOMO, caldo, ondate di calore, epidemiologia, salute pubblica",
+  "badge": "Approfondimento",
+  "category": "Salute / Ambiente",
+  "date_label": "22 agosto 2026",
+  "date_iso": "2026-08-22T02:08:00+02:00",
+  "image": "https://curiomondo.it/assets/images/decessi-eccesso-come-si-misurano-caldo-europa-ai-1280.webp",
+  "image_alt": "Rappresentazione editoriale di una città europea sotto un sole intenso durante un’ondata di calore",
+  "image_caption": "Rappresentazione editoriale generata per spiegare il tema delle ondate di calore e della mortalità in eccesso.",
+  "is_evergreen": true,
+  "data_points": [
+    {
+      "value": "Osservati",
+      "label": "decessi realmente registrati nel periodo"
+    },
+    {
+      "value": "Attesi",
+      "label": "decessi stimati in condizioni statisticamente normali"
+    },
+    {
+      "value": "Differenza",
+      "label": "la quota definita mortalità in eccesso"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "La logica della mortalità in eccesso",
+      "paragraphs": [
+        "Per capire l’impatto di un’ondata di caldo non basta contare i certificati di morte che citano esplicitamente il calore. Molti decessi avvengono perché le temperature estreme aggravano problemi cardiovascolari, respiratori o renali già presenti. La mortalità in eccesso prova a catturare anche questa parte invisibile del fenomeno.",
+        "Il metodo confronta il numero di morti osservate in un certo periodo con il numero che ci si sarebbe aspettati sulla base degli anni precedenti, correggendo per stagionalità e andamento demografico. Se i decessi osservati superano in modo significativo l’atteso, la differenza viene descritta come eccesso di mortalità."
+      ]
+    },
+    {
+      "heading": "Che cosa fa EuroMOMO",
+      "paragraphs": [
+        "EuroMOMO è una rete europea che raccoglie dati di mortalità dai sistemi nazionali e li trasforma in indicatori comparabili. Il suo obiettivo è individuare rapidamente aumenti anomali della mortalità che possono coincidere con epidemie, ondate di caldo, freddo intenso o altri eventi di salute pubblica.",
+        "I dati vengono aggiornati frequentemente e le stime delle settimane più recenti possono essere riviste quando arrivano registrazioni ritardate. Per questo i numeri iniziali sono utili per capire la direzione e la gravità di un fenomeno, ma non vanno confusi con un bilancio definitivo."
+      ]
+    },
+    {
+      "heading": "Mortalità in eccesso e morti attribuibili al caldo non sono la stessa cosa",
+      "paragraphs": [
+        "La mortalità in eccesso misura quante persone sono morte in più rispetto all’atteso, senza stabilire automaticamente la causa individuale di ciascun decesso. I modelli di mortalità attribuibile alla temperatura fanno un passo ulteriore: stimano quanta parte dell’aumento è statisticamente associata al caldo.",
+        "Paesi diversi possono usare modelli e periodi differenti. È quindi corretto confrontare le tendenze, ma bisogna evitare somme semplicistiche tra numeri prodotti con metodologie non identiche. Questo è il motivo per cui i bilanci europei vengono spesso definiti provvisori."
+      ]
+    },
+    {
+      "heading": "Perché questi dati contano per le politiche pubbliche",
+      "paragraphs": [
+        "Le stime permettono alle autorità di capire quali gruppi di popolazione sono più vulnerabili e quali misure funzionano: allerta precoce, accesso a luoghi freschi, assistenza domiciliare, protezione dei lavoratori e adattamento urbano.",
+        "Con ondate di caldo più intense e frequenti, la qualità dei sistemi di sorveglianza diventa parte della capacità di risposta sanitaria. Sapere rapidamente se la mortalità sta salendo oltre l’atteso consente di intervenire prima che l’emergenza diventi ancora più grave."
+      ]
+    }
+  ],
+  "conclusion": "‘Decessi in eccesso’ non significa che ogni morte sia stata certificata come causata dal caldo. Significa che, durante un determinato periodo, la mortalità ha superato ciò che i modelli statistici considerano normale. È uno degli strumenti più importanti per misurare l’impatto sanitario reale degli eventi estremi.",
+  "related": [
+    {
+      "slug": "caldo-estremo-32000-decessi-eccesso-europa-2026",
+      "title": "Caldo estremo, oltre 32.000 decessi in eccesso in Europa"
+    }
+  ],
+  "sources": [
+    {
+      "title": "EuroMOMO — metodologia e grafici di mortalità europea",
+      "url": "https://www.euromomo.eu/graphs-and-maps"
+    },
+    {
+      "title": "Santé publique France — metodologia per l’eccesso di mortalità durante le canicole",
+      "url": "https://www.santepubliquefrance.fr/en/press/5764-excess-deaths-france-during-heat-wave-june-17-july-2"
+    },
+    {
+      "title": "Instituto de Salud Carlos III — sistema MoMo",
+      "url": "https://momo.isciii.es/panel_momo/"
+    }
+  ]
+}

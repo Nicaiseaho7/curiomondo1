@@ -1,0 +1,48 @@
+CURIOMONDO — REDESIGN PREMIUM E CORREZIONI
+
+Implementato:
+- nuova identità visiva “deep ocean / aurora”, chiara e scura;
+- hero cinematografico con lettura integrata, trascinamento, frecce e indicatori accessibili;
+- indicatore esplicito “Trascina le storie” nel nastro In primo piano;
+- card, categorie, drawer, preferiti e barra Continua a leggere ridisegnati;
+- pagina articolo immersiva con tipografia editoriale, progressione e azioni premium;
+- navigazione History API per gli articoli interni: articolo 1 → 2 → 3 → indietro 2 → 1 → pagina precedente;
+- pulsanti Indietro delle pagine notizia separati dal logo Home;
+- il logo CurioMondo resta il solo controllo esplicito per andare direttamente alla home;
+- pagine notizia uniformate con tema, salvataggio, barra di lettura e tre storie correlate;
+- pagine informative uniformate allo stesso sistema visivo;
+- supporto tastiera, focus visibili, touch target da almeno 44 px e reduced motion;
+- nessun framework o dipendenza aggiuntiva.
+
+Verifiche eseguite:
+- struttura HTML e ID duplicati;
+- parsing CSS e dichiarazioni;
+- JSON-LD;
+- link locali;
+- sintassi di tutti gli script JavaScript;
+- test browser mobile della cronologia articolo 1/2/3 e ritorno progressivo;
+- test browser degli indicatori di trascinamento, salvataggio, tema e correlati.
+AGGIORNAMENTO — SWIPE 3D IN EVIDENZA
+- la storia attiva è posizionata su un piano avanzato con prospettiva reale;
+- le storie precedente e successiva restano visibili ai lati come schede inclinate;
+- durante il trascinamento la card segue il dito, ruota sull’asse Y e varia profondità;
+- la scheda laterale entra in primo piano durante il cambio articolo;
+- mantenuti scorrimento verticale del testo, tastiera e reduced motion.
+
+
+AGGIORNAMENTO — ULTIMA ORA SINGOLA
+- il riquadro “Notizie dal mondo” è stato sostituito da un solo riquadro “Ultima ora”;
+- eliminati il nastro scorrevole superiore, gli swipe, le frecce, gli indicatori e il cambio orizzontale delle storie;
+- la notizia mostrata viene scelta automaticamente tra le ultime aggiunte, dando priorità a contenuti marcati come ultima ora e in evidenza;
+- mantenuta una breve anteprima con scorrimento verticale limitato, senza mostrare l’articolo completo;
+- il precedente riquadro “Ultima ora” separato è stato nascosto per evitare duplicazioni.
+CORREZIONE — IN PRIMO PIANO
+- Ripristinata e mantenuta la sezione “In primo piano” con le sue storie.
+- La modifica “Ultima ora” riguarda esclusivamente il precedente riquadro “Notizie dal mondo”.
+- Rimane nascosto solo il vecchio riquadro duplicato “Ultima ora”.
+
+
+AGGIORNAMENTO — ULTIMA ORA E BIBLIOTECA
+- Aggiunti i puntini finali all'anteprima di “Ultima ora” e ridotta la porzione leggibile.
+- Il riquadro “Ultima ora” non apre più la notizia: l'apertura avviene soltanto dal pulsante “Leggi la notizia”.
+- Riparati gli strumenti dei libri: ricerca con evidenziazione e navigazione tra risultati, indice scorrevole, salvataggio e riapertura del segnalibro.

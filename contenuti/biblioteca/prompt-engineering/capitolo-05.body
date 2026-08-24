@@ -1,0 +1,132 @@
+<p>Il valore pratico dell’AI al lavoro non è “scrivere al posto tuo”. È ridurre l’attrito tra un’informazione grezza e un risultato utile: una bozza, una sintesi, un verbale, un report, una tabella di decisione, una lista di azioni. Il prompt migliore è quello che riduce il tempo di revisione senza cancellare il tuo giudizio. In questo capitolo trovi modelli per email, documenti, riunioni, report e analisi di dati, più i controlli necessari per non trasformare la velocità in un problema.</p>
+
+<h3>Email: chiedi una decisione, non “una bella mail”</h3>
+<p>Una buona email professionale ha uno scopo unico: ottenere una risposta, confermare una decisione, chiarire un dato, aggiornare una persona. Prima di chiedere una bozza, definisci destinatario, relazione, risultato desiderato, fatti certi, tono, lunghezza e azione finale. Se il messaggio contiene informazioni sensibili o una promessa commerciale, chiedi al modello di evidenziarle, non di inventarle.</p>
+
+<pre><code>Scrivi una bozza di email in italiano.
+
+Destinatario: [ruolo o nome]
+Relazione: [cliente / collega / fornitore]
+Obiettivo: ottenere conferma dell'appuntamento entro venerdì.
+Fatti certi: [incolla i dati]
+Tono: cortese, diretto, non servile.
+Vincoli:
+- massimo 130 parole;
+- niente promesse non contenute nei fatti;
+- una sola call to action;
+- proponi due fasce orarie.
+
+Output: oggetto + email + elenco dei dati che devo verificare prima dell'invio.</code></pre>
+
+<p>Il blocco “dati da verificare” è fondamentale. È molto più sicuro chiedere una bozza che mostra la propria incertezza che una bozza sicura di sé ma inventata. Per rispondere a un cliente arrabbiato, aggiungi istruzioni sulla de-escalation: riconosci il disagio senza ammettere responsabilità non accertate, spiega il prossimo passo, evita gergo difensivo e non promettere tempi che non puoi rispettare. La qualità di una risposta non dipende da quanto sembra elegante; dipende da quanto è allineata alla situazione reale.</p>
+
+<h3>Sintesi di documenti: il formato prima della compressione</h3>
+<p>“Riassumi questo PDF” produce quasi sempre una risposta generica. Prima di sintetizzare, decidi per quale persona e per quale decisione serve la sintesi. Un direttore ha bisogno di rischi, impatto e scelta. Un collega operativo ha bisogno di azioni, scadenze e proprietari. Un cliente ha bisogno di linguaggio semplice e termini definiti. Chiedi una struttura coerente con il lettore, non una riduzione casuale del testo.</p>
+
+<pre><code>Leggi il materiale fornito e crea una sintesi per [destinatario].
+
+Regole:
+- usa soltanto il materiale allegato;
+- separa fatti, decisioni già prese e proposte;
+- conserva importi, date e obblighi con precisione;
+- se una parte è ambigua, inseriscila in “Da chiarire”.
+
+Output:
+1. Sintesi esecutiva: massimo 120 parole
+2. Cinque punti chiave
+3. Decisioni e responsabili
+4. Rischi o ambiguità
+5. Domande successive</code></pre>
+
+<p>Per documenti lunghi, lavora a strati. Prima fai estrarre una scheda per ogni sezione; poi chiedi di confrontare le schede; infine crea la sintesi finale. Non comprimere cento pagine in un solo colpo se puoi evitare di perdere dettagli. Se il materiale è legale, medico, fiscale o regolatorio, usa l’AI per spiegare e organizzare, non per sostituire la verifica di un professionista abilitato. Un riassunto non è una consulenza, anche se ha un tono impeccabile.</p>
+
+<h3>Verbali di riunione: dalla trascrizione alla responsabilità</h3>
+<p>Le trascrizioni contengono ripetizioni, frasi interrotte, digressioni e attribuzioni incerte. Il prompt deve chiedere di estrarre decisioni e azioni senza fingere che una frase confusa sia un impegno ufficiale. Fai distinguere fra “decisione esplicita”, “proposta discussa” e “punto aperto”. Se non è chiaro chi sia responsabile, non attribuire il compito a caso: segnala la lacuna.</p>
+
+<pre><code>Trasforma questa trascrizione in un verbale operativo.
+
+Non inventare decisioni, scadenze o assegnatari.
+Classifica ogni elemento come:
+- Decisione confermata
+- Azione da svolgere
+- Punto aperto
+- Informazione di contesto
+
+Per ogni azione mostra: azione | responsabile | scadenza | fonte nella trascrizione.
+Se responsabile o scadenza non sono chiari, scrivi “da assegnare” o “da definire”.
+Chiudi con un riepilogo di massimo 80 parole.</code></pre>
+
+<p>Dopo la generazione, fai un controllo umano rapido su assegnatari e date. Quel minuto di verifica vale più della soddisfazione di avere un verbale generato in pochi secondi. Puoi inoltre chiedere una seconda bozza per pubblici diversi: una pagina per chi decide, una lista operativa per chi esegue. Il materiale di partenza è lo stesso; il formato cambia perché cambia il lavoro che la persona deve fare dopo aver letto.</p>
+
+<h3>Report: fai emergere evidenza, interpretazione e scelta</h3>
+<p>Un report utile non è una raccolta di frasi ordinate. Conduce da evidenza a interpretazione e poi a un’azione proporzionata. Chiedi al modello di costruire questa catena in modo esplicito. Per ogni conclusione importante, deve esserci almeno un dato, una fonte, una formula o una motivazione fornita. Per ogni raccomandazione, devono essere dichiarati beneficio atteso, rischio, costo o condizione di successo.</p>
+
+<pre><code>Scrivi un report di una pagina per [pubblico].
+
+Materiale: [dati o note]
+Obiettivo decisionale: [decisione da prendere]
+
+Struttura obbligatoria:
+1. Situazione attuale
+2. Evidenze disponibili
+3. Interpretazione con livello di confidenza
+4. Tre opzioni con pro/contro
+5. Raccomandazione condizionata
+6. Dati mancanti da verificare
+
+Non trasformare una stima in un fatto. Indica chiaramente ogni ipotesi.</code></pre>
+
+<p>L’espressione “raccomandazione condizionata” è preziosa: costringe a formulare decisioni del tipo “scegli X se la priorità è velocità; scegli Y se la priorità è margine”. È più onesta e più utile di una risposta categorica basata su dati incompleti. Quando il modello usa cifre, chiedi un controllo aritmetico separato o verifica tu i calcoli nel foglio di calcolo. La prosa può essere perfetta mentre una formula è sbagliata.</p>
+
+<h3>Analisi dati: non chiedere una conclusione prima di controllare il dataset</h3>
+<p>Per analizzare un CSV, un foglio di calcolo o una tabella, la prima richiesta non dovrebbe essere “che cosa devo fare?”. Dovrebbe essere “quali colonne vedi, quale tipo di dato rappresentano, quali valori mancano e quali anomalie potrebbero alterare l’analisi?”. Questa fase evita una delle allucinazioni più costose: analizzare una colonna come se fosse un importo quando in realtà è un identificativo, oppure confrontare date in formati diversi.</p>
+
+<pre><code>Analizza il dataset allegato in due fasi.
+
+Fase 1 — controllo qualità:
+- elenca colonne, tipo presunto, unità di misura e valori mancanti;
+- segnala duplicati, intervalli sospetti e definizioni ambigue;
+- non trarre conclusioni business.
+
+Fase 2 — analisi:
+Solo dopo il mio via libera, calcola [metriche].
+Per ogni risultato mostra formula, intervallo temporale, filtri applicati e limiti dell'analisi.
+Restituisci tabelle leggibili e una sezione “Cosa non possiamo concludere”.</code></pre>
+
+<p>Questo schema funziona anche quando non hai un vero strumento di analisi integrato. Il modello può aiutare a disegnare formule, SQL, query, pivot table o codice di analisi; l’esecuzione e il controllo finale devono avvenire nell’ambiente appropriato. Se la piattaforma può eseguire codice, chiedi di mostrare quale codice è stato usato e quali colonne ha letto. Se non può farlo, non accettare risultati numerici non riproducibili.</p>
+
+<h3>Pianificazione e gestione delle attività</h3>
+<p>Un modello è molto efficace nel trasformare un obiettivo generico in un piano, ma solo se conosce vincoli, capacità e definizione di “finito”. “Organizzami la settimana” non sa niente delle tue priorità. “Ho 12 ore disponibili, tre progetti, due scadenze fisse e non posso lavorare mercoledì pomeriggio; costruisci un piano con blocchi da 50 minuti e buffer del 20%” è invece un problema ben posto.</p>
+
+<pre><code>Costruisci un piano di lavoro per la prossima settimana.
+
+Vincoli fissi: [calendario]
+Attività: [elenco con scadenza e durata stimata]
+Priorità: [criteri]
+Capacità: [ore effettive disponibili]
+
+Regole:
+- non pianificare più dell'80% del tempo;
+- lascia buffer per imprevisti;
+- spezza le attività oltre 90 minuti;
+- evidenzia le attività che non entrano realisticamente nel calendario.
+
+Output: tabella giornaliera + rischi + prima azione di ogni progetto.</code></pre>
+
+<p>La parte migliore del prompt è “evidenzia ciò che non entra”. L’AI non deve assecondare una pianificazione impossibile solo perché l’utente la desidera. Un assistente utile contraddice in modo chiaro i vincoli incoerenti e propone un compromesso. Questo vale per la pianificazione, i budget, i report e le email: preferisci un modello che segnala un limite a uno che finge di averlo risolto.</p>
+
+<h3>Una routine sicura per contenuti di lavoro</h3>
+<p>Prima di incollare materiale di lavoro, verifica autorizzazioni, dati personali, segreti aziendali e configurazione del servizio che stai usando. Anonimizza quando possibile: sostituisci nomi, email, indirizzi, codici cliente e importi non necessari. Dai al modello solo le informazioni indispensabili per il compito. Poi usa un prompt con fonte delimitata, output strutturato e sezione lacune. Infine verifica con gli strumenti o le persone che hanno l’autorità sul risultato.</p>
+
+<p>Il vero risparmio di tempo non è fare sparire il controllo. È spostare il controllo su pochi punti ad alto valore: dati, decisioni, promesse, cifre, destinatari. Se il prompt ti aiuta a vedere questi punti, sta facendo il suo lavoro. Nel capitolo successivo applicheremo la stessa disciplina alla scrittura e alla content creation, dove creatività e coerenza devono convivere senza trasformarsi in slogan vuoti.</p>
+
+<h3>Traduzioni e aggiornamenti di stato</h3>
+<p>Due attività quotidiane sembrano semplici ma falliscono spesso per mancanza di contesto: tradurre e aggiornare. Per una traduzione, specifica pubblico, variante linguistica, registro, termini che non vanno tradotti e livello di fedeltà. Chiedi di segnare le ambiguità anziché risolverle in silenzio. Per un aggiornamento di progetto, fornisci fatti, periodo, pubblico e prossima decisione; chiedi una sezione separata per rischi e blocchi.</p>
+
+<pre><code>Trasforma queste note in un aggiornamento di stato per [pubblico].
+Periodo: [date].
+Struttura: risultati, attività in corso, blocchi, decisioni richieste, prossimi passi.
+Usa solo le note fornite. Non attribuire cause o responsabilità non espresse.
+Segnala “dato mancante” quando una scadenza o un proprietario non è indicato.</code></pre>
+
+<p>Questo tipo di prompt è piccolo, ma elimina una quantità sorprendente di fraintendimenti. Una risposta breve, con blocchi e decisioni richieste, vale più di un aggiornamento lungo che costringe chi legge a cercare cosa debba fare.</p>

@@ -1,0 +1,90 @@
+<p>Un prompt solido può essere descritto come una sequenza di blocchi. Non servono sempre tutti, ma devi conoscerli per scegliere consapevolmente che cosa lasciare fuori: <strong>ruolo, contesto, task, vincoli, formato di output, esempi e controllo finale</strong>. La maggior parte dei risultati mediocri non nasce da un modello “scarso”; nasce da uno di questi blocchi lasciato implicito. In questo capitolo li analizziamo come componenti di una richiesta professionale, con esempi pronti da adattare.</p>
+
+<h3>1. Il ruolo: utile, ma non magico</h3>
+<p>Il ruolo indica la prospettiva professionale o la funzione che vuoi ottenere: “agisci come editor”, “come tutor di matematica”, “come analista dati”, “come responsabile customer care”. Può orientare il lessico, il livello di dettaglio e il tipo di controlli da effettuare. Non trasforma però il modello in un professionista abilitato, non sostituisce una certificazione e non gli conferisce accesso a informazioni che non possiede. “Sei il miglior avvocato del mondo” è una scenografia; “spiega le clausole del testo fornito in linguaggio semplice, senza dare consulenza legale e segnala i punti da verificare con un professionista” è un’istruzione utile.</p>
+
+<p>Usa un ruolo quando influenza davvero il risultato. Se vuoi una traduzione neutra, non serve inventare una biografia al modello. Se vuoi un report destinato a un consiglio di amministrazione, il ruolo di “analista che scrive per dirigenti non tecnici” chiarisce il registro, la gerarchia delle informazioni e il tipo di sintesi. Formula il ruolo come una responsabilità, non come un titolo altisonante: “Sei un revisore metodico. Devi separare fatti, ipotesi e domande aperte.” Questo produce comportamenti osservabili.</p>
+
+<h3>2. Il contesto: la materia prima della risposta</h3>
+<p>Il contesto è tutto ciò che il modello deve sapere prima di agire: pubblico, situazione, obiettivo business, dati disponibili, definizioni interne, tono del brand, vincoli normativi, cronologia, documento di riferimento. Senza contesto, l’AI usa conoscenze generiche e statistiche; con contesto, può adattare la risposta al tuo caso. In pratica, il contesto spesso vale più di un lungo elenco di istruzioni. Non puoi chiedere una sintesi fedele di una riunione senza fornire trascrizione o appunti; non puoi chiedere una risposta al cliente coerente con la politica di reso senza incollare la politica.</p>
+
+<p>Il contesto va selezionato, non accumulato alla rinfusa. Un modello sopraffatto da pagine di materiale irrilevante può trascurare il passaggio decisivo. Dai prima una mappa: “Di seguito trovi tre blocchi: politica aziendale, email del cliente e bozza precedente. La politica ha priorità; usa la bozza solo come esempio di tono.” Inserisci i dati in blocchi delimitati e mantieni le istruzioni operative fuori dal materiale. Se il testo contiene frasi che sembrano comandi, specifica che sono dati da analizzare e non istruzioni da seguire.</p>
+
+<h3>3. Il task: un verbo, un oggetto, un destinatario</h3>
+<p>Il task è il cuore dell’ordine. Deve rispondere a tre domande: che azione compie il modello, su quale oggetto e per chi produce il risultato? “Analizza”, “classifica”, “confronta”, “riscrivi”, “estrai”, “pianifica”, “critica”, “genera”, “trasforma in tabella” sono verbi diversi. “Parlami di questo testo” è vago; “estrai dal testo i cinque impegni con responsabile, scadenza e rischio” è un task controllabile. Quando il compito è grande, scomponilo in passaggi che lasciano una traccia verificabile.</p>
+
+<p>Un task ben formulato evita richieste contraddittorie. Per esempio, “scrivi un articolo completo, breve, molto approfondito, informale e istituzionale” contiene più obiettivi incompatibili. Scegli una priorità: “Scrivi una guida di 900 parole. Pubblico: principianti. Tono: semplice ma professionale. Approfondisci tre concetti; ometti dettagli tecnici non necessari.” Se vuoi più varianti, chiedile separatamente: prima tre angolazioni, poi sviluppa quella scelta. Un modello lavora meglio quando non deve indovinare quale criterio vincerà in caso di conflitto.</p>
+
+<h3>4. I vincoli: confini che migliorano la creatività</h3>
+<p>I vincoli definiscono ciò che la risposta deve o non deve contenere. Possono riguardare lunghezza, lingua, livello di lettura, fonti, tono, termini proibiti, campo temporale, dati ammessi, struttura e criteri di prudenza. Contrariamente a un mito comune, i vincoli non “bloccano” l’AI: le danno un bersaglio. Un copywriter umano lavora meglio con un limite di caratteri e una promessa da evitare; il modello non fa eccezione.</p>
+
+<p>Scrivi vincoli osservabili. “Rendi il testo bello” non si può misurare. “Usa frasi di massimo 20 parole, evita superlativi, inserisci un esempio concreto e non usare punti esclamativi” sì. Sostituisci divieti vaghi con alternative: invece di “non essere prolisso”, chiedi “restituisci tre punti, ogni punto fra 25 e 35 parole”. Invece di “non inventare”, chiedi “cita soltanto affermazioni presenti nel materiale; per ogni lacuna usa il marcatore [DA VERIFICARE]”.</p>
+
+<p>Fai attenzione alla gerarchia. Se nel medesimo prompt scrivi “usa solo il documento” e poi “aggiungi dati aggiornati dal web”, il risultato è ambiguo. Risolvi il conflitto: “Usa il documento per l’analisi principale. Se hai accesso alla ricerca, aggiungi in una sezione separata solo fatti recenti con fonte e data; altrimenti ometti la sezione.” Più le istruzioni hanno conseguenze reali, più devono essere ordinate per priorità.</p>
+
+<h3>5. Il formato di output: la parte più sottovalutata</h3>
+<p>Il formato evita la risposta “quasi giusta” ma inutilizzabile. Se vuoi una tabella, definisci le colonne. Se vuoi JSON per un’applicazione, definisci i campi, il tipo di valore e un esempio valido. Se vuoi un piano, chiedi una sequenza con responsabile, durata e criterio di completamento. Se vuoi un’email, indica oggetto, apertura, corpo, call to action e chiusura. Un formato chiaro riduce anche il lavoro successivo di copiare, tagliare e riorganizzare.</p>
+
+<p>Quando la precisione conta, aggiungi un piccolo schema. Esempio per una recensione di documenti:</p>
+
+<pre><code>Restituisci esattamente queste sezioni:
+1. Sintesi: massimo 90 parole
+2. Fatti confermati: elenco puntato
+3. Rischi o ambiguità: elenco puntato
+4. Domande da fare: massimo 5
+5. Decisione consigliata: una frase con livello di confidenza
+
+Non aggiungere una premessa o una conclusione fuori da queste sezioni.</code></pre>
+
+<p>Il formato non serve solo per “far obbedire” al modello. Serve a te per creare una checklist. Se la sezione “rischi” manca, non devi rileggere cento righe: sai che l’output non ha rispettato la consegna. I modelli possono essere molto capaci, ma l’automazione diventa affidabile quando l’output può essere convalidato senza interpretazioni infinite.</p>
+
+<h3>6. Gli esempi: il few-shot prompting</h3>
+<p>Un esempio mostra al modello che cosa significa “giusto” nel tuo caso. Questa tecnica viene chiamata few-shot prompting: fornisci una piccola serie di coppie input-output, poi chiedi di applicare lo stesso schema a un nuovo input. È particolarmente utile quando il formato, il tono o la classificazione sono difficili da esprimere solo a parole. Se vuoi che una lista di ticket venga etichettata in cinque categorie, mostra due o tre ticket già etichettati correttamente e poi fornisci il nuovo ticket.</p>
+
+<p>Gli esempi devono essere coerenti tra loro e rappresentativi. Un modello tenderà a imitare anche difetti, ambiguità e pregiudizi contenuti negli esempi. Non usare un esempio che predica concisione e poi fornisce una risposta lunga una pagina. Non lasciare categorie sovrapposte senza spiegazione. Se ci sono casi limite, includine almeno uno: è lì che l’esempio vale più di dieci istruzioni generiche.</p>
+
+<pre><code># Esempi
+Input: "Il pagamento è stato addebitato due volte"
+Output: {"categoria":"fatturazione","urgenza":"alta","azione":"verifica addebiti"}
+
+Input: "Non riesco ad accedere dopo aver cambiato telefono"
+Output: {"categoria":"accesso","urgenza":"media","azione":"procedura di recupero"}
+
+# Nuovo ticket
+"Ho annullato l'ordine ma vedo ancora l'addebito"</code></pre>
+
+<p>Quando l’esempio contiene dati sensibili, sostituiscili con valori fittizi. Non incollare dati personali, credenziali, numeri di carta, documenti riservati o informazioni aziendali in un servizio se non sai come verranno trattati e se non sei autorizzato. Il prompt engineering è anche igiene informativa: la risposta migliore non vale una fuga di dati.</p>
+
+<h3>7. Il controllo finale: fai produrre e fai verificare</h3>
+<p>L’ultimo blocco è una richiesta di autoverifica limitata e concreta. Evita formule generiche come “controlla se è tutto corretto”, perché il modello può confermare il proprio testo senza basi. Meglio: “Prima di consegnare, verifica la presenza di oggetto, data, importo e prossima azione. Elenca eventuali dati mancanti sotto il titolo ‘Lacune’.” Oppure: “Confronta ogni cifra della tabella con il materiale e segnala le celle non supportate.” Stai trasformando la revisione in un set di controlli osservabili.</p>
+
+<p>Un prompt completo non deve essere scritto sempre da zero. Costruisci uno scheletro riutilizzabile:</p>
+
+<pre><code># Ruolo
+[responsabilità utile]
+
+# Contesto
+[pubblico, dati, documento, situazione]
+
+# Task
+[verbo + oggetto + destinatario]
+
+# Vincoli
+- [limite 1]
+- [limite 2]
+
+# Formato di output
+[sezioni, tabella, JSON, lunghezza]
+
+# Esempio facoltativo
+[input/output]
+
+# Controllo finale
+[cosa verificare e come segnalare le lacune]</code></pre>
+
+<p>Nei prossimi capitoli useremo questa anatomia per gestire richieste più complesse. La cosa da ricordare è semplice: non stai cercando “le parole giuste” in senso magico. Stai progettando informazioni, confini e criteri. Quando il modello riceve un lavoro ben definito, ha molte più probabilità di restituire qualcosa che puoi usare davvero.</p>
+
+<h3>L’ordine dei blocchi e le istruzioni critiche</h3>
+<p>Metti le istruzioni che non possono essere violate in una posizione evidente, prima del materiale lungo e ripetute in forma breve alla fine se il compito è delicato. Per esempio, dopo dieci pagine di testo puoi aggiungere: “Ricorda: usa esclusivamente il materiale; non inventare importi; restituisci solo la tabella richiesta.” Non è ridondanza decorativa: è un ancora che riporta l’attenzione del modello sulla consegna quando il contesto è molto grande.</p>
+
+<p>Non seppellire il formato di output in mezzo a venti note. Usa titoli coerenti e un ordine che puoi riapplicare: istruzioni, contesto, input, output, controllo. Quando un prompt diventa un modello condiviso, la coerenza riduce gli errori di chi lo compila. Un buon prompt è leggibile anche da un collega che non l’ha scritto; se solo l’autore riesce a capirlo, non è un asset, è un appunto personale travestito da sistema.</p>

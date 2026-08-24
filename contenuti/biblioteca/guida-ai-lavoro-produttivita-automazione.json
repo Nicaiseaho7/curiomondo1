@@ -1,0 +1,19 @@
+{
+  "slug": "guida-ai-lavoro-produttivita-automazione",
+  "title": "Come usare l’AI per lavorare meglio e automatizzare le attività?",
+  "description": "Un manuale strategico e pratico per scegliere gli strumenti di intelligenza artificiale, lavorare meglio con documenti e dati, automatizzare flussi ripetitivi e proteggere le informazioni personali e aziendali.",
+  "category": "tecnologia-ai",
+  "subcategory": "intelligenza-artificiale",
+  "updated_at": "11/08/2026",
+  "cover_image": "/assets/images/biblioteca/guida-ai-lavoro-produttivita-automazione-copertina.webp",
+  "cover_alt": "Copertina illustrativa della guida AI per il lavoro, con laptop, calendario e flussi di automazione.",
+  "chapters": [
+    {"title": "Quali attività posso davvero automatizzare con l’AI?", "body_file": "ai-lavoro-automazione/capitolo-01.body"},
+    {"title": "Quale strumento AI scegliere per il mio lavoro?", "body_file": "ai-lavoro-automazione/capitolo-02.body"},
+    {"title": "Come usare l’AI con PDF, Excel e PowerPoint?", "body_file": "ai-lavoro-automazione/capitolo-03.body"},
+    {"title": "Come creare automazioni no-code tra email, fogli e assistenti?", "body_file": "ai-lavoro-automazione/capitolo-04.body"},
+    {"title": "Come usare l’AI per riunioni, email e comunicazione?", "body_file": "ai-lavoro-automazione/capitolo-05.body"},
+    {"title": "Come organizzare un sistema di lavoro con l’AI?", "body_file": "ai-lavoro-automazione/capitolo-06.body"},
+    {"title": "Come proteggere dati e privacy quando uso l’AI al lavoro?", "body_file": "ai-lavoro-automazione/capitolo-07.body"}
+  ]
+}

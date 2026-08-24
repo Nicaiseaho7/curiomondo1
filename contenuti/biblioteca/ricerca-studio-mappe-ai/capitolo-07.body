@@ -1,0 +1,100 @@
+<p>Hai ormai tutti i componenti: una domanda di studio concreta, materiale delimitato, mappe concettuali, recupero attivo, tutoraggio adattivo, verifica delle fonti, un piano realistico e una routine per la ricerca. Il passo finale è trasformarli in un sistema leggero. Un sistema non è una cartella piena di prompt né una dashboard con trenta colori. È una sequenza che puoi ripetere quando un nuovo capitolo, un esame, un concorso o un progetto arriva sul tavolo.</p>
+
+<p>La qualità del sistema si misura in tre modi. Primo: sai sempre qual è la prossima azione. Secondo: ogni output dell’AI ha una prova o un controllo associato. Terzo: le tue note conservano ciò che hai capito e ciò che devi riprendere, invece di accumulare testi generati che non rileggerai. Se manca uno dei tre, semplifica. Non costruire un “secondo lavoro” per organizzare lo studio.</p>
+
+<h3>Il workflow completo in sette passaggi</h3>
+<p>Passaggio uno, definisci l’uscita: che cosa dovrai saper fare, per chi e con quale criterio? Passaggio due, raccogli materiale autorizzato e indica le fonti da verificare. Passaggio tre, crea una struttura minima: mappa, tabella, sequenza o glossario. Passaggio quattro, costruisci prove di recupero. Passaggio cinque, esegui una sessione di tutoraggio senza ricevere subito la soluzione. Passaggio sei, registra gli errori e pianifica il richiamo. Passaggio sette, rivedi il piano con i dati reali. Ogni passaggio può durare pochi minuti o molte ore, ma l’ordine resta utile perché impedisce che la generazione anticipi la comprensione.</p>
+
+<p>Immagina un capitolo di sessanta pagine. Non caricarlo e chiedere “riassumi tutto”. Prima guarda indice e obiettivi; formula quattro domande che l’esame potrebbe porre. Poi lavora per sezioni: estrazione controllata, mappa di una pagina, cinque domande di recupero, un mini orale. Alla fine, unisci solo le mappe che hanno collegamenti reali. Il risultato non è un PDF più corto: è una rete di prove che puoi affrontare senza l’AI. Questo è il senso pratico dell’accelerazione.</p>
+
+<h3>Prepara il tuo kit di contesto</h3>
+<p>Ogni volta che inizi un argomento, crea una nota di contesto di dieci righe. Inserisci obiettivo, livello di partenza, fonte principale, vincoli, data, formato di valutazione, parole chiave da usare, elementi da non inventare, errore più probabile e criterio di uscita. Questa nota vale più di molte conversazioni precedenti perché puoi incollarla in qualsiasi strumento e ricominciare con coerenza. Aggiornala quando scopri un cambiamento reale, non ogni volta che cambi umore.</p>
+
+<p>Conserva anche un piccolo dizionario personale: abbreviazioni del corso, definizioni richieste dal docente, convenzioni di notazione, formule autorizzate, fonti preferite e parole che confondi. L’AI non conosce automaticamente queste convenzioni. Quando le dai un contesto pulito, produce output più adatti; quando non lo fai, riempie i vuoti con convenzioni generiche. Il kit di contesto riduce il lavoro ripetitivo senza trasformare lo studio in una dipendenza dalla chat.</p>
+
+<pre><code># Scheda di contesto
+Obiettivo finale: [azione misurabile]
+Scadenza: [data]
+Materiale autorizzato: [titoli/link/file]
+Livello di partenza: [breve descrizione]
+Formato della prova: [orale/scritto/casi/progetto]
+Concetti prioritari: [lista]
+Vincoli: non inventare fonti, usa il lessico del corso, segnala dubbi
+Errore da evitare: [esempio]
+Prova di uscita della sessione: [esempio]</code></pre>
+
+<h3>Prompt per trasformare un testo in materiale di studio</h3>
+<p>Il prompt seguente è il più utile quando hai una sezione complessa. Non serve a generare un riassunto definitivo; serve a preparare la tua lettura. Inserisci solo una porzione che puoi verificare e conserva il testo originale vicino alla risposta. Se il materiale è riservato o sensibile, non caricarlo in strumenti non autorizzati: lavora con appunti anonimi o usa i canali approvati dalla tua organizzazione.</p>
+
+<pre><code>Usa soltanto il testo inserito sotto.
+1. Elenca i 5–8 concetti indispensabili per comprenderlo.
+2. Per ogni concetto, indica una relazione esplicita con un altro concetto.
+3. Separa definizioni, cause, conseguenze, condizioni ed esempi.
+4. Crea una mappa concettuale testuale con frecce etichettate.
+5. Formula cinque domande di recupero, di cui almeno due applicative.
+6. Elenca le frasi del testo che devo rileggere perché contengono una
+   condizione, un’eccezione o un limite.
+Non aggiungere contenuti esterni; se manca una relazione, segnala la lacuna.</code></pre>
+
+<p>Dopo aver usato il prompt, esegui il controllo dei tre minuti: guarda soltanto la mappa e spiega il contenuto a voce; fai le cinque domande senza leggere; confronta ogni errore con il testo. Se non passi il controllo, non chiedere un riassunto ancora più semplice. Chiedi di localizzare il collegamento che non hai compreso e torna alla fonte. La correzione puntuale è più veloce di una nuova esposizione generale.</p>
+
+<h3>Prompt per una sessione di tutoraggio adattivo</h3>
+<p>Questo prompt è pensato per evitare la risposta-regalo. Usa una sessione breve, con timer esterno. Se l’AI offre più aiuto di quello richiesto, ricordale la scala degli indizi. Se il modello non riesce a capire la tua risposta perché è troppo sintetica, chiedi di formulare una domanda diagnostica invece di assegnarti un punteggio.</p>
+
+<pre><code>Fammi da tutor su [argomento] usando solo [materiale].
+Inizia con una domanda diagnostica; poi scegli la difficoltà in base alla mia risposta.
+Fai una domanda alla volta e aspetta sempre il mio tentativo.
+Non mostrarmi la soluzione, salvo se scrivo “livello 4”.
+Per il feedback usa: corretto / impreciso / mancante / prossimo passo.
+Dopo sei domande crea una tabella con: concetto, mio livello di autonomia,
+tipo di errore, esercizio di richiamo consigliato.</code></pre>
+
+<p>Puoi adattarlo a un orale aggiungendo “interrompimi soltanto se uso un termine in modo scorretto” oppure a un calcolo aggiungendo “controlla il primo passaggio errato, non risolvere il resto”. Per lo studio linguistico, chiedi di privilegiare gli errori che ostacolano la comprensione. Per un concorso, chiedi casi brevi con distrattori ragionevoli e una correzione legata al criterio ufficiale, quando lo possiedi. Il prompt è un punto di partenza, non una gabbia: modifica una leva alla volta e conserva la versione che produce esercizi migliori.</p>
+
+<h3>Prompt per pianificare un esame o un progetto</h3>
+<p>Un calendario valido deve proteggere le revisioni e l’imprevisto. Se l’AI riempie tutte le ore, chiedi una versione più prudente. Se non conosci ancora i tuoi tempi, chiedi prima una settimana di misura, non un piano di tre mesi. Il piano migliore nasce da cicli brevi di previsione e correzione.</p>
+
+<pre><code>Aiutami a preparare una tabella di marcia realistica.
+Scadenza: [data]. Ore disponibili: [giorni e ore].
+Argomenti prioritari: [lista con difficoltà e peso].
+Formato di verifica: [descrizione].
+Tempi reali misurati: [dati o “da misurare”].
+Costruisci un piano di due settimane con massimo l’80% del tempo occupato.
+Ogni giorno deve includere una prova di recupero e, ogni tre giorni,
+una sessione di revisione o recupero.
+Indica cosa spostare per primo se perdo una sessione.</code></pre>
+
+<p>Un piano scritto bene contiene una risposta alla domanda “e se salto mercoledì?”. Se non la contiene, la tua decisione giovedì sarà emotiva: recupererai tutto, mollerai o cancellerai le revisioni. Chiedi invece una regola di rientro. Per esempio: conserva gli argomenti ad alta priorità, riduci attività di produzione secondarie, usa il margine, ma non eliminare le prove di recupero. Il sistema si adatta senza fingere che il tempo sia infinito.</p>
+
+<h3>Prompt per analizzare una fonte o un paper</h3>
+<p>Non chiedere mai al modello di inventare citazioni o di certificare un articolo che non hai aperto. Fornisci l’abstract, estratti o note da una fonte reale e chiedi un’analisi delimitata. Il risultato deve restare una guida di lettura: per citare dovrai comunque verificare autore, anno, pagina, metodo e formulazione esatta.</p>
+
+<pre><code>Analizza esclusivamente l’estratto di fonte che segue.
+Restituisci: domanda dell’autore, metodo o tipo di documento, risultati/tesi,
+limiti visibili, termini da definire, passaggi da citare solo dopo verifica.
+Poi crea tre query per cercare una fonte primaria, una fonte di contesto
+e una fonte che possa limitare o contraddire questa conclusione.
+Non produrre riferimenti bibliografici non presenti nel materiale.</code></pre>
+
+<p>Questa procedura rende l’AI particolarmente utile per non perdere il filo tra molte letture. Ma conserva sempre il collegamento tra nota e documento. Il giorno in cui scriverai, non potrai affidarti alla memoria di una chat. Dovrai poter aprire la fonte, ritrovare il passaggio e decidere se sostiene davvero la tua frase.</p>
+
+<h3>Prompt per ripassare in poco tempo</h3>
+<p>Quando il tempo è poco, non ripassare tutto in modo uguale. Dai all’AI il tuo registro degli errori e chiedi una sessione focalizzata. Il registro deve contenere solo dati reali: domande sbagliate, nodi poco chiari, formule confuse, fonti da ricontrollare. Se gli dai una lista vaga di ansie, il modello può restituire un piano rassicurante ma non operativo.</p>
+
+<pre><code>Ho [numero] minuti. Questi sono gli errori ancora aperti:
+[lista].
+Costruisci un ripasso in blocchi brevi: recupero senza aiuto, correzione,
+applicazione a un caso nuovo, controllo finale.
+Scegli al massimo tre priorità e spiega perché.
+Non introdurre nuovi argomenti. Se non riesco a completare un blocco,
+scrivi la prima azione per il prossimo richiamo.</code></pre>
+
+<h3>Regole per non diventare dipendente dall’AI</h3>
+<p>Primo: prova sempre prima da solo quando l’obiettivo è ricordare, spiegare o risolvere. Secondo: usa il modello per fare domande e feedback più spesso che per ricevere testo. Terzo: apri la fonte prima di fidarti della citazione. Quarto: conserva output corti e riutilizzabili, non conversazioni infinite. Quinto: chiudi la chat durante almeno una parte della pratica. Se non riesci a ricostruire una mappa o una risposta senza finestra aperta, l’output non è ancora conoscenza tua.</p>
+
+<p>Puoi anche impostare una “dieta di assistenza”: prima settimana, tutor con indizi; seconda, quiz senza indizi; terza, simulazione su carta; quarta, revisione solo degli errori. L’AI resta disponibile quando serve, ma la direzione va verso l’autonomia. Questo è il criterio con cui valutare qualsiasi strumento di studio: dopo averlo usato, sei più capace di lavorare senza di lui oppure meno?</p>
+
+<h3>Checklist prima di una consegna o di un esame</h3>
+<p>Prima di chiudere il lavoro, chiediti: so spiegare il nucleo senza guardare? So distinguere concetti simili? Ho provato almeno un caso nuovo? Ho controllato definizioni, numeri e citazioni importanti sulle fonti appropriate? Il piano include un richiamo, non solo l’ultima lettura? Ho rispettato regole del corso, privacy e attribuzione nell’uso dell’AI? Se una risposta è “no”, non serve panico: ti serve una micro-azione precisa.</p>
+
+<p>Il manuale finisce qui, ma il metodo si rafforza con l’uso. Parti da un argomento reale e da una sessione breve. Costruisci una mappa, genera cinque domande, prova a rispondere, verifica una fonte e registra un errore. Il giorno dopo riprendi da quell’errore. L’AI avrà fatto risparmiare tempo nell’organizzazione; tu avrai fatto la parte che nessun modello può fare al posto tuo: trasformare informazioni in giudizio, memoria e competenza.</p>

@@ -1,0 +1,16 @@
+{
+  "site_version": 164,
+  "baseline_version": 163,
+  "release_date": "2026-08-24",
+  "protocol_files": [
+    "LEGGIMI-PRIMA-CURIOMONDO.md",
+    "CURIO-MONDO-PROTOCOLLO-MAESTRO.md",
+    "curiomondo-site-manifest.json"
+  ],
+  "last_daily_question_date": "2026-08-24",
+  "note": "v164: aggiunta CTA Google Fonti preferite in homepage e sotto gli articoli, via deeplink ufficiale senza nuovo JavaScript esterno.",
+  "version": "v164",
+  "date": "2026-08-24",
+  "baseline": "curiomondo-v162-24-agosto-2026-netlify.zip",
+  "last_update": "indonesia-quake-100-dead-and-eu-61-billion-ukraine-defence"
+}

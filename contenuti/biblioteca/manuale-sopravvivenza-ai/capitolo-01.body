@@ -1,0 +1,54 @@
+<p>L’intelligenza artificiale generativa non è una bacchetta magica, né un motore di ricerca che conosce automaticamente la verità. È un sistema capace di lavorare molto velocemente sul linguaggio, sulle immagini e sui dati che riceve: riassume, riscrive, mette in ordine, propone alternative, trova schemi e produce bozze. La parte utile arriva quando la tratti come un collaboratore rapido ma inesperto del tuo contesto. La parte rischiosa arriva quando le consegni una decisione senza controllare il risultato. Questo manuale serve a tenere insieme le due cose: usare bene la velocità senza consegnare il volante.</p>
+
+<h3>Come usare ChatGPT per la prima volta senza fare errori?</h3>
+<p>Quasi ogni settimana un nuovo strumento promette di fare tutto: scrivere, tradurre, programmare, creare immagini, leggere documenti e organizzare la giornata. La domanda utile non è se una piattaforma possa tentare il compito. La domanda è: <strong>quanto costa un suo errore e come lo controllerò?</strong> Se chiedi dieci idee per una cena, un errore è quasi irrilevante. Se chiedi di interpretare un contratto, scrivere a un cliente, prendere una medicina, compilare un documento o spendere denaro, un errore può essere serio. Lo stesso strumento merita quindi regole diverse a seconda della conseguenza della risposta.</p>
+
+<p>Un modo semplice per orientarti è dividere le richieste in tre fasce. Nella fascia verde rientrano ispirazione, bozza, traduzione informale, lista di idee, spiegazione iniziale e riordino di appunti. Nella fascia gialla rientrano messaggi professionali, riassunti di file, calcoli, istruzioni operative, comparazioni di prodotti e piani personali: qui controlli i punti importanti prima di usare l’output. Nella fascia rossa rientrano salute, diritto, finanza, sicurezza, dati aziendali riservati e decisioni che incidono su altre persone: qui l’AI può aiutare a preparare domande e comprendere documenti, ma non deve diventare l’unica fonte né la decisione finale.</p>
+
+<h3>ChatGPT è affidabile? Come funziona davvero?</h3>
+<p>Un chatbot di testo produce una risposta costruendo una sequenza di parole plausibili rispetto al contesto. Può avere accesso a file, web, memoria o strumenti esterni, ma queste funzioni dipendono dalla versione, dalle impostazioni e dal tipo di account. In ogni caso, la sua prosa fluida non è una prova. Un testo può suonare molto sicuro e allo stesso tempo contenere una data inesatta, una citazione inesistente o una conclusione non giustificata. Per questo devi separare due qualità che spesso confondiamo: una risposta può essere <em>ben scritta</em> senza essere <em>vera</em>.</p>
+
+<p>Il vantaggio reale dell’AI è la riduzione dell’attrito. Può trasformare una pagina disordinata in una checklist, una registrazione in un verbale, una domanda vaga in un piano di ricerca o una serie di numeri in una prima tabella. Non conosce però le priorità della tua giornata se non gliele dai. Non sa quali vincoli legali ha la tua professione, quali promesse hai fatto a un cliente, quali dati sono aggiornati o quale linguaggio usa il tuo team. Tutto ciò che per te è ovvio ma non compare nel prompt diventa una supposizione del modello.</p>
+
+<h3>Come usare l’AI per lavoro, studio e vita quotidiana?</h3>
+<p>Usa l’AI in uno di questi tre ruoli, e dichiaralo nel prompt. Il primo è il ruolo di <strong>esploratore</strong>: ti aiuta a trovare opzioni e domande, senza fingere che siano già risposte definitive. Il secondo è il ruolo di <strong>redattore</strong>: lavora su materiali che gli fornisci per creare una bozza, una sintesi, una tabella o una mail. Il terzo è il ruolo di <strong>revisore</strong>: controlla una bozza, evidenzia incoerenze, propone domande mancanti e confronta un testo con un elenco di requisiti. Il revisore è spesso il ruolo più sottovalutato: anziché chiedere all’AI di «decidere per te», le chiedi di rendere più forte la tua decisione.</p>
+
+<p>Un esempio concreto: se devi scegliere una tariffa telefonica, puoi usarla come esploratore per costruire i criteri di confronto; come redattore per ordinare in tabella le offerte che hai già raccolto; come revisore per controllare se il tuo riepilogo contiene tutti i costi. Non dovresti però chiederle semplicemente «qual è la migliore?» e comprare la prima risposta. Mancano il tuo contratto attuale, la copertura nella tua zona, i vincoli, le offerte realmente disponibili e le condizioni in piccolo. L’AI non elimina il lavoro di verifica: lo organizza.</p>
+
+<h3>Come scrivere un prompt efficace per ChatGPT?</h3>
+<p>La qualità di una risposta cresce quando il compito è definito. Non serve scrivere un romanzo: basta rendere esplicite le informazioni decisive. Un mini-brief ha cinque pezzi: obiettivo, materiale di partenza, pubblico, vincoli e formato. «Rendi più chiara questa email» è un desiderio. «Riscrivi questa email per un cliente che non conosce il tema; tono cortese e diretto; massimo 130 parole; non aggiungere promesse; restituisci oggetto e testo» è un compito verificabile. La seconda richiesta non rende l’AI più intelligente; rende te più preciso.</p>
+
+<pre><code>Obiettivo: prepara una bozza di messaggio.
+Materiale: usa solo il testo tra i delimitatori.
+Destinatario: cliente non tecnico.
+Vincoli: massimo 120 parole; tono cortese; non inventare date o prezzi.
+Formato: oggetto + corpo del messaggio + elenco delle informazioni mancanti.
+
+--- MATERIALE ---
+[incolla qui le informazioni]
+--- FINE MATERIALE ---</code></pre>
+
+<p>Il blocco finale sulle informazioni mancanti è una cintura di sicurezza. Se un dato non c’è, preferisci una risposta che dica «manca» a una che lo riempia con una frase elegante. Puoi anche chiedere: «Prima di procedere, fammi al massimo tre domande solo se cambiano davvero il risultato». In questo modo l’AI non interrompe il flusso per dettagli inutili, ma ha una via d’uscita dalle ambiguità importanti.</p>
+
+<h3>Posso copiare e inviare quello che scrive ChatGPT?</h3>
+<p>Molte persone ottengono un testo da un chatbot e lo inviano subito. È qui che l’AI passa da acceleratore a rischio. Generare significa produrre una prima versione. Approvare significa controllare che ciò che esce sia coerente con fatti, tono, policy e conseguenze. Sono due azioni diverse e devono restare visibili. Una buona abitudine è inserire una pausa: prima chiedi la bozza; poi fai una seconda richiesta in cui il modello controlla la bozza contro una checklist; infine fai un controllo umano dei punti che non puoi verificare automaticamente.</p>
+
+<p>Per esempio, un messaggio per un cliente va controllato su nomi, numeri, scadenze, promesse, allegati e tono. Un piano alimentare va controllato su allergie, fabbisogni e indicazioni di un professionista. Un riepilogo di spese va confrontato con l’estratto o con i dati originali. Un testo accademico va confrontato con le fonti effettivamente lette. La velocità dell’AI è più utile quando ti restituisce tempo per questo controllo, non quando ti convince a saltarlo.</p>
+
+<h3>Come provare ChatGPT prima di usarlo per lavoro?</h3>
+<p>Prima di affidare a un nuovo strumento qualcosa di importante, fai un test piccolo con materiale che conosci bene. Prendi una pagina, una mail già inviata, un prospetto che hai verificato o un testo su un argomento di cui conosci la risposta. Chiedi tre operazioni: una sintesi, cinque punti chiave e tre domande che il testo lascia aperte. Valuta non solo la correttezza, ma anche se l’AI attribuisce al documento frasi che non ci sono, se ignora le eccezioni e se distingue fatti da interpretazioni. Se sbaglia su materiale semplice, non promuoverla a compiti più delicati.</p>
+
+<p>Ripeti il test quando cambi modello, attivi una nuova funzione o colleghi un’app esterna. Le piattaforme cambiano spesso e due strumenti che sembrano simili possono avere comportamenti diversi su lingua italiana, file lunghi, tabelle, immagini o fonti. Non affidarti a recensioni generiche: costruisci il tuo micro-benchmark con cinque richieste che rappresentano il tuo lavoro reale. È il modo più economico per scegliere senza farti trascinare dall’ultima novità.</p>
+
+<h3>Quando è meglio non usare ChatGPT?</h3>
+<p>Ci sono richieste in cui la risposta migliore è una domanda o un invito a consultare una fonte competente. Se ti serve un parere medico, legale, fiscale o sulla sicurezza di una persona, chiedi all’AI di preparare un elenco di dubbi da portare a un professionista, di spiegare parole tecniche in modo semplice o di organizzare i documenti. Non chiederle di sostituire una diagnosi, interpretare da sola una clausola vincolante o indicare dove investire soldi che non puoi perdere. Un chatbot non conosce tutta la tua situazione e non sostiene le conseguenze delle sue parole.</p>
+
+<p>Vale la stessa regola per le persone. Non incollare conversazioni private di terzi per «capire che cosa pensano», non chiedere di generare messaggi manipolatori e non delegare valutazioni delicate su colleghi, dipendenti, studenti o familiari. L’AI può aiutarti a formulare comunicazioni più chiare; non dovrebbe diventare una scorciatoia per aggirare responsabilità, consenso o rispetto.</p>
+
+<h3>Qual è una routine sicura per usare ChatGPT ogni giorno?</h3>
+<h3>Come salvare prompt e decisioni importanti?</h3>
+<p>Per le attività che ripeti o che hanno una conseguenza concreta, conserva una piccola nota di decisione: obiettivo, materiale usato, prompt, verifiche fatte e scelta finale. Non serve salvare ogni conversazione. Serve evitare che, dopo una settimana, tu non ricordi più da quale documento proveniva un numero o perché hai seguito una raccomandazione. Questa traccia rende il lavoro replicabile, semplifica le correzioni e ti aiuta a capire se l’AI ha davvero migliorato il processo oppure ha soltanto reso più elegante una decisione già confusa.</p>
+
+<p>Puoi impostare una regola personale: ogni output destinato a essere inviato, pubblicato o usato per spendere denaro deve poter rispondere a quattro domande. Da quale materiale parte? Quali ipotesi contiene? Chi lo ha verificato? Qual è il passo successivo? Se non riesci a rispondere, sei ancora nella fase di esplorazione. Non è un fallimento: significa che devi raccogliere un dato, chiedere un chiarimento o ridurre la portata della richiesta prima di agire.</p>
+
+<p>Ogni volta che apri un chatbot, procedi in questo ordine: definisci il risultato che vuoi; scegli la fascia di rischio; rimuovi i dati che non servono; incolla o descrivi il materiale in modo separato; specifica che cosa non deve essere inventato; chiedi il formato desiderato; verifica i punti con conseguenze. Questa routine richiede meno di un minuto e rende la maggior parte delle richieste molto più affidabili. Nei prossimi capitoli entreremo nei due punti che causano più guai: le risposte convincenti ma false e la condivisione incauta dei dati.</p>

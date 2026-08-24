@@ -1,0 +1,10 @@
+Controllo tecnico completo CurioMondo
+
+- Corretti canonical, Open Graph, Twitter Card e dati strutturati JSON-LD di tutti i 47 articoli.
+- Eliminati i metadati errati copiati da articoli diversi nelle nuove pagine.
+- Uniformati favicon e icone Apple con percorsi corretti nelle pagine principali, informative e negli articoli.
+- Reso il logo rotondo e coerente in homepage, articoli e pagine informative.
+- Migliorata l’accessibilità del menu con stato aria-expanded sincronizzato.
+- Verificati tutti i collegamenti interni, gli ID HTML e i file richiamati: nessun collegamento mancante.
+- Verificata la sintassi di tutti gli script JavaScript attivi: nessun errore.
+- Verificata la sitemap: tutte le pagine articolo sono presenti e non ci sono URL duplicati.

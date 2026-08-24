@@ -1,0 +1,83 @@
+<p>Un prompt che funziona una volta non è ancora un processo. Può essere stato fortunato, può dipendere da un dettaglio non ripetibile o può crollare appena cambia il testo in ingresso. Il salto professionale avviene quando tratti i prompt come componenti da progettare, testare, misurare e aggiornare. Non significa costruire un laboratorio costoso: anche un freelance o un piccolo team può usare un foglio di calcolo, una cartella di esempi e una checklist. Significa smettere di confondere un buon colpo con un metodo.</p>
+
+<h3>Parti dall’output desiderato, non dalla frase da scrivere</h3>
+<p>Prima di modificare un prompt, definisci il risultato ideale. Che cosa deve contenere? Che cosa non deve mai contenere? Quanto tempo deve richiedere una revisione? Chi lo userà? Prendi tre o cinque output reali che consideri buoni e descrivi gli elementi comuni. Forse una buona email ha oggetto chiaro, tono sobrio, un’unica richiesta e nessuna promessa non verificata. Forse una buona sintesi separa fatti e raccomandazioni. Questi elementi diventano i criteri del test.</p>
+
+<p>Evita metriche finte come “sembra intelligente”. Scegli controlli pratici: presenza di campi obbligatori, percentuale di informazioni supportate dal materiale, numero di revisioni richieste, conformità a un formato, tempo risparmiato, valutazione di un revisore. Se un prompt produce un report in dieci secondi ma richiede venti minuti di correzioni, non sta creando valore. Se riduce a due minuti una revisione che prima durava mezz’ora, hai un asset utile anche se il testo non è perfetto al primo tentativo.</p>
+
+<h3>Costruisci un set di casi di prova</h3>
+<p>Un set di test è una raccolta di input realistici con cui verifichi il prompt. Non usare soltanto il caso facile che ha ispirato l’idea. Inserisci casi normali, casi incompleti, casi lunghi, casi ambigui e casi limite. Se stai costruendo un classificatore di email, includi email con due richieste, errori ortografici, lingua mista, clienti arrabbiati e testi molto brevi. Se stai facendo sintesi, includi un documento ordinato e uno contraddittorio. Il prompt deve dimostrare di gestire la varietà del lavoro reale, non solo l’esempio perfetto.</p>
+
+<p>Per ogni caso registra input, output atteso, rischi e risultato osservato. Non sempre esiste una sola risposta corretta: puoi definire criteri invece di testo identico. Ad esempio, per un’email l’output passa il test se contiene una domanda chiara, evita dettagli inventati, non supera 150 parole e usa il tono stabilito. Una griglia semplice è sufficiente:</p>
+
+<pre><code>Caso: Cliente chiede rimborso senza numero ordine
+Obiettivo: risposta che chieda il dato mancante e spieghi il prossimo passo
+Controlli:
+- non inventa il numero ordine
+- non promette il rimborso
+- include una richiesta esplicita
+- massimo 120 parole
+Esito: passa / da rivedere / fallisce</code></pre>
+
+<h3>Una modifica alla volta</h3>
+<p>Quando una risposta è debole, la tentazione è riscrivere tutto. È comprensibile e spesso inutile. Cambia prima una variabile: aggiungi un vincolo, sposta il formato prima del materiale, inserisci un esempio, chiarisci un termine, modifica la sequenza delle fasi. Esegui di nuovo gli stessi casi e osserva la differenza. Se cambi cinque cose, non saprai che cosa ha risolto il problema e non potrai riutilizzare la lezione.</p>
+
+<p>Questo approccio è ancora più importante nei flussi con API o automazioni. I modelli possono cambiare comportamento con una nuova versione, un parametro diverso o un aggiornamento della piattaforma. Conserva un prompt con un nome, una data, una versione e una nota su ciò che è cambiato. Non serve un sistema complesso: anche “supporto_rimborsi_v1.2 — aggiunto controllo su dati mancanti” è meglio di una chat intitolata “nuova prova finale davvero”. Il caos non è una metodologia, anche quando porta un nome creativo.</p>
+
+<h3>Versionare prompt, istruzioni ed esempi</h3>
+<p>Un prompt dovrebbe avere una casa stabile: un documento, un repository, un database o un modulo del tuo progetto. Accanto al testo, conserva input dinamici, esempi, output atteso e responsabile. Se il prompt è usato in produzione, evita che le istruzioni essenziali siano nascoste in una lunga conversazione manuale. Rendile leggibili e separabili dai dati del singolo utente. Le piattaforme evolvono, ma l’abitudine di versionare e testare resta una protezione contro regressioni silenziose.</p>
+
+<p>Una scheda minima di prompt può contenere: nome, scopo, pubblico, modello o ambiente, versione, istruzioni stabili, variabili da inserire, esempi, test, rischi noti, data dell’ultima verifica e proprietario. Aggiungi una riga importante: “Quando non usare questo prompt”. Un modello progettato per generare bozze marketing non va usato per calcolare imposte; un prompt di sintesi non è una fonte primaria; un assistente interno non deve ricevere dati che non dovrebbe vedere.</p>
+
+<h3>Il ciclo di qualità in sette passaggi</h3>
+<p>Un ciclo pratico può essere questo. Primo: definisci il caso d’uso e il rischio. Secondo: crea un prompt minimo con un output controllabile. Terzo: provalo su esempi reali. Quarto: classifica gli errori, per esempio mancanza di contesto, formato, fatto inventato, tono, omissione. Quinto: modifica soltanto il blocco che affronta quell’errore. Sesto: ripeti i test vecchi più nuovi casi limite. Settimo: salva la versione e comunica cosa è cambiato. Il ciclo è noioso solo finché non devi correggere un errore pubblicato: a quel punto diventa improvvisamente il tuo migliore amico.</p>
+
+<p>Non dimenticare l’utente finale. Un prompt tecnicamente perfetto che costringe una persona a compilare venti campi viene usato male o non viene usato. Cerca il punto di equilibrio: raccogli i dati che cambiano davvero la qualità e lascia che il sistema faccia domande di chiarimento solo quando serve. Una buona interfaccia può guidare la persona con esempi, campi obbligatori e opzioni predefinite; il prompt non dovrebbe dover indovinare tutto da una frase libera.</p>
+
+<h3>Adattare i prompt a ChatGPT, Claude, Gemini e altri modelli</h3>
+<p>I principi del manuale sono trasversali, ma ogni modello e ogni prodotto ha caratteristiche differenti: contesto massimo, strumenti disponibili, modalità di ricerca, gestione dei file, formati strutturati, istruzioni persistenti e comportamento nella conversazione. Non usare “un prompt universale” come una fede. Parti da uno scheletro comune e crea piccole varianti per l’ambiente in cui lavori. Testa il risultato invece di assumere che una tecnica popolare sia identica ovunque.</p>
+
+<p>Per i modelli moderni, essere diretti spesso è più utile che aggiungere strati di rituali. ChatGPT può beneficiare di istruzioni esplicite su obiettivo, formato e dati; Claude tende a rispondere bene a contesto ed esempi chiari; Gemini documenta l’uso di istruzioni precise, delimitatori coerenti e definizioni non ambigue. Queste sono tendenze, non leggi naturali. La tua prova su casi reali vale più di una lista generica di “trucchi” vista sui social.</p>
+
+<p>Quando usi un modello con strumenti, definisci le responsabilità. “Usa la ricerca web per informazioni temporali; usa il documento allegato per le politiche interne; se le due fonti sono in conflitto, segnala il conflitto.” Quando usi un modello senza strumenti, non fingere che li abbia: fornisci tu il materiale oppure chiedi una bozza con segnaposto. La risposta più affidabile nasce dal sapere che cosa il sistema può e non può fare.</p>
+
+<h3>Parametri, creatività e ripetibilità</h3>
+<p>In molte API esistono impostazioni che influenzano la variabilità delle risposte. In generale, compiti creativi possono trarre beneficio da maggiore diversità; classificazioni, estrazioni e formati rigidi richiedono maggiore coerenza. Non fissarti su un singolo numero “magico”: testalo sulla tua attività. Se una stessa richiesta deve produrre esattamente campi prevedibili, usa una struttura forte, esempi e convalida. Se vuoi idee, chiedi esplicitamente diversità: “genera cinque direzioni non sovrapposte; per ciascuna indica quale tensione del pubblico affronta”.</p>
+
+<p>La ripetibilità non significa ottenere la stessa frase ogni volta. Significa ottenere risposte che rispettano gli stessi standard. Un report può cambiare nei dettagli, ma deve sempre contenere fonti, rischi, decisione e lacune. Una didascalia può essere diversa, ma deve mantenere tono, lunghezza e divieti. Definisci l’invariante da difendere e lascia libertà nel resto.</p>
+
+<h3>Human in the loop: non è una sconfitta</h3>
+<p>Inserire un controllo umano è necessario quando un errore ha costo elevato: pubblicazione, contratti, diagnosi, finanza, sicurezza, dati personali, comunicazioni sensibili. Non è un’ammissione che l’AI “non serve”; è il modo corretto di usare un acceleratore. Il modello prepara, evidenzia, propone e organizza. La persona responsabile verifica, decide e autorizza. In un flusso sano, la revisione umana è progettata per essere veloce perché il prompt obbliga l’AI a mostrare prove, lacune e assunzioni.</p>
+
+<p>Chiedi sempre una conferma prima di azioni irreversibili. Un assistente può preparare una bozza di email o una lista di modifiche, ma non dovrebbe inviare, cancellare, pubblicare o acquistare senza un passaggio di autorizzazione chiaro. Se un sistema ha accesso a strumenti, il prompt deve descrivere anche il confine delle azioni consentite. La velocità senza freni è solo un errore che arriva prima.</p>
+
+<h3>Un template operativo per team e professionisti</h3>
+<pre><code>Nome prompt: [nome]
+Versione: [v1.0]
+Scopo: [decisione o output che abilita]
+Rischio: [basso / medio / alto]
+
+Istruzioni stabili:
+[ruolo, metodo, limiti]
+
+Variabili:
+- pubblico: [valore]
+- materiale: [valore]
+- obiettivo: [valore]
+
+Output richiesto:
+[schema esatto]
+
+Controlli prima della consegna:
+- [criterio 1]
+- [criterio 2]
+
+Escalation:
+Se mancano dati o il rischio è alto, fermati e formula le domande necessarie.</code></pre>
+
+<p>Nei prossimi due capitoli sposteremo l’attenzione sui casi d’uso quotidiani. Tieni però questo metodo come sfondo: anche il prompt più elegante perde valore se non sai per quale obiettivo è stato scritto, come misurarlo e quando aggiornarlo.</p>
+
+<h3>Osserva il prompt dopo il lancio</h3>
+<p>Un prompt non resta corretto solo perché ha superato un test iniziale. Cambiano i documenti in ingresso, le esigenze degli utenti, le politiche aziendali e talvolta il comportamento del modello. Raccogli esempi di errori reali e trasformali in nuovi casi di prova. Se un utente corregge sempre lo stesso campo, chiediti se il prompt può richiedere quel dato prima. Se un formato viene ignorato, rendilo più semplice o aggiungi un esempio valido.</p>
+
+<p>Definisci anche un momento di revisione: mensile per flussi importanti, trimestrale per quelli stabili, immediato dopo un errore ad alto impatto. Aggiornare non vuol dire inseguire ogni novità del settore. Vuol dire verificare che il prompt produca ancora output utili per il compito reale. La cronologia delle modifiche ti permette di capire se un miglioramento apparente ha introdotto un problema altrove.</p>

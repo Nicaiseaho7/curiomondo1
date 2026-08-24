@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "site": {
+    "name": "CurioMondo",
+    "base_url": "https://curiomondo.it/",
+    "deployment": "Netlify static ZIP deploy",
+    "current_protocol_version": "1.3",
+    "protocol_introduced_in_site_version": 139,
+    "protocol_date": "2026-08-24",
+    "current_site_version": 164
+  },
+  "instruction_priority": [
+    "latest_explicit_owner_instruction",
+    "CURIO-MONDO-PROTOCOLLO-MAESTRO.md",
+    "curiomondo-site-manifest.json",
+    "current_site_implementation",
+    "legacy_update_notes"
+  ],
+  "daily_state": {
+    "last_question_date": "2026-08-24",
+    "question_archive_path": "/domanda-del-giorno/",
+    "question_library_root": "/biblioteca/vita-relazioni/",
+    "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE"
+  },
+  "daily_question": {
+    "required": true,
+    "frequency": "daily",
+    "homepage_read_time_minutes": {
+      "min": 3,
+      "max": 5
+    },
+    "library_ebook_characters": {
+      "min": 7000,
+      "max": 15000
+    },
+    "topics": "unrestricted_useful_human_or_practical_topics",
+    "must_be": [
+      "deep",
+      "original",
+      "useful",
+      "non_trivial",
+      "well_explained"
+    ],
+    "must_create_library_entry": true,
+    "may_create_new_library_categories": true,
+    "must_archive": true,
+    "homepage_mode": "mystery_card_only",
+    "homepage_preview_lines_max": 3,
+    "homepage_must_not_contain_full_answer": true,
+    "dedicated_answer_page_required": true,
+    "dedicated_answer_read_time_minutes": {
+      "min": 3,
+      "max": 5
+    },
+    "dedicated_answer_max_intermediate_subheadings": 0,
+    "dedicated_answer_style": "fluid_continuous_reading_no_subheadings",
+    "homepage_preview_must_equal_answer_opening": false,
+    "avoid_large_vertical_gaps": true,
+    "homepage_show_question": false,
+    "homepage_show_answer_preview": false,
+    "homepage_show_topic_hint": false,
+    "homepage_show_only": [
+      "label",
+      "current_date",
+      "neutral_cta_optional"
+    ],
+    "homepage_entire_card_clickable": true,
+    "reveal_question_only_on_dedicated_page": true,
+    "dedicated_page_visual_identity": "premium_distinct_from_news_articles",
+    "dedicated_page_palette": [
+      "blue",
+      "white"
+    ],
+    "dedicated_page_use_bespoke_hero": true,
+    "dedicated_page_heavy_visual_assets": false,
+    "dedicated_page_design_must_preserve_performance": true,
+    "dedicated_answer_language": [
+      "simple",
+      "clear",
+      "deep_but_easy_to_understand",
+      "pleasant_to_read",
+      "no_broken_sentences",
+      "no_unnecessary_jargon"
+    ],
+    "dedicated_page_forbidden_phrases": [
+      "Una domanda. Nessuna risposta automatica."
+    ],
+    "dedicated_page_approved_eyebrow": "Uno spazio per fermarsi e pensare.",
+    "homepage_card_dom_contract": {
+      "wrapper_class": "cm-qday",
+      "link_class": "cm-qday-link",
+      "card_class": "cm-qday-card",
+      "label_class": "cm-qday-k",
+      "hint_class": "cm-qday-hint",
+      "preserve_existing_premium_design": true,
+      "only_date_link_and_text_may_change": true
+    }
+  },
+  "homepage": {
+    "featured_section_label": "Ultime notizie",
+    "featured_exact_count": 5,
+    "hero_section_label": "Ultima ora",
+    "live_exact_count": 10,
+    "live_order": "newest_first",
+    "image_cards": {
+      "size_style": "small_compact",
+      "text_overlay": false
+    },
+    "daily_question_must_not_dominate_viewport": true,
+    "daily_question_button_high_contrast": true,
+    "category_pill_rows_visible": false,
+    "categories_available_via_hamburger_only": true
+  },
+  "news": {
+    "deduplicate": true,
+    "update_requires_substantive_development": true,
+    "if_update_but_origin_missing": "explain_origin_first_then_new_development",
+    "war_claims_single_side_are_not_established_fact": true,
+    "required_outputs": [
+      "article_html",
+      "seo_metadata",
+      "canonical",
+      "NewsArticle_JSON_LD",
+      "homepage_update",
+      "category_update",
+      "archive_update",
+      "search_update",
+      "internal_links",
+      "feed_xml",
+      "sitemap_xml",
+      "news_sitemap_xml_if_eligible"
+    ],
+    "article_body_characters": {
+      "preferred_min": 5000,
+      "preferred_max": 7000,
+      "target_reading_minutes": 5,
+      "shorter_only_if_verified_information_is_insufficient": true,
+      "padding_for_length_forbidden": true,
+      "exception_must_be_documented_in_article_markup": true
+    }
+  },
+  "images": {
+    "new_editorial_images_must_be_ai_generated": true,
+    "public_figures_allowed_when_editorially_relevant": true,
+    "must_disclose_ai_generation": true,
+    "article_or_card_text_overlay": false,
+    "quality": [
+      "ultra_realistic_photorealistic_editorial",
+      "high_resolution",
+      "cinematic_but_credible",
+      "sharp_subject",
+      "high_micro_detail",
+      "natural_textures",
+      "credible_lighting",
+      "strong_news_composition",
+      "distinctive_non_generic_concept"
+    ],
+    "reject_if": [
+      "blurred",
+      "soft",
+      "muddy",
+      "plastic_looking",
+      "compression_degraded",
+      "obvious_artifacts",
+      "generic",
+      "low_impact",
+      "visually_banal",
+      "anatomically_implausible",
+      "incoherent_background"
+    ],
+    "retry_on_failure": true,
+    "must_not_be": [
+      "generic_stock_like",
+      "banal_or_flat",
+      "website_mockup",
+      "ui_screenshot",
+      "collage",
+      "text_overlay_unless_explicitly_requested",
+      "decorative_without_editorial_relevance"
+    ],
+    "retry_until_premium_quality_within_execution_limits": true,
+    "mobile_and_hero_crop_check_required": true,
+    "editorial_goal": "no_image_should_feel_banal_every_visual_must_strengthen_curiomondo_premium_identity"
+  },
+  "deep_dives": {
+    "separate_from_news_article": true,
+    "create_when_useful": true,
+    "must_add_new_value": true,
+    "internal_linking_required": true
+  },
+  "library": {
+    "root": "/biblioteca/",
+    "dynamic_categories_allowed": true,
+    "daily_question_ebook_chars": {
+      "min": 7000,
+      "max": 15000
+    },
+    "daily_question_ebook_reader": {
+      "mode": "paginated_book",
+      "default_total_pages": 5,
+      "allowed_total_pages": {
+        "min": 4,
+        "max": 6
+      },
+      "cover_required": true,
+      "max_h2_total": 4,
+      "max_visible_subheadings_per_page": 1,
+      "previous_next_controls_required": true,
+      "page_counter_required": true,
+      "keyboard_navigation_required": true,
+      "touch_swipe_required": true,
+      "shared_css": "/assets/css/biblioteca-book-reader-v1.css",
+      "shared_js": "/assets/js/biblioteca-book-reader-v1.js"
+    },
+    "avoid_empty_placeholder_pages_when_content_exists": true
+  },
+  "seo": {
+    "sitemap": "/sitemap.xml",
+    "news_sitemap": "/news-sitemap.xml",
+    "feed": "/feed.xml",
+    "orphan_pages_forbidden": true
+  },
+  "performance": {
+    "lighthouse_pagespeed_target": {
+      "min": 90,
+      "max": 100
+    },
+    "priority": "mobile",
+    "quality_must_not_be_sacrificed_for_image_optimization": true
+  },
+  "versioning": {
+    "one_version_per_cycle": true,
+    "increment_only_after_zip_created_and_verified": true,
+    "zip_integrity_check_required": true,
+    "physical_new_file_presence_check_required": true,
+    "filename_pattern": "curiomondo-vNNN-GG-mese-AAAA.zip"
+  },
+  "predeploy": {
+    "required": true,
+    "checks": [
+      "zip_crc",
+      "new_html_exists",
+      "new_images_exist",
+      "homepage_featured_exact_5",
+      "live_exact_10",
+      "daily_question_current_date",
+      "seo",
+      "feed",
+      "sitemaps",
+      "internal_links",
+      "performance_regression"
+    ]
+  },
+  "deep_dives_homepage": {
+    "label": "Approfondimenti collegati",
+    "exact_count": 3,
+    "order": "newest_first",
+    "on_new_item": "prepend_new_and_remove_fourth_from_home_block",
+    "older_items_remain_in_archive": true
+  },
+  "google_preferred_sources": {
+    "enabled": true,
+    "domain": "curiomondo.it",
+    "implementation": "official_google_deeplink",
+    "deeplink": "https://www.google.com/preferences/source?q=curiomondo.it",
+    "placements": [
+      "homepage",
+      "news_articles"
+    ],
+    "popup": false,
+    "external_javascript_added": false,
+    "performance_priority": true
+  }
+}
