@@ -1,0 +1,73 @@
+name: Genera immagine editoriale IA
+
+on:
+  workflow_dispatch:
+    inputs:
+      prompt:
+        description: 'Prompt fotorealistico della scena/ritratto (in inglese, senza testo/watermark)'
+        required: true
+        type: string
+      filename_base:
+        description: 'Slug deterministico del file, es. nome-notizia-31-agosto-2026-ai-v256'
+        required: true
+        type: string
+      article_path:
+        description: 'Percorso dell articolo che userà questa immagine, es. /notizie/slug.html'
+        required: true
+        type: string
+      alt_text:
+        description: 'Testo alt completo e descrittivo (obbligatorio "ritratto editoriale neutrale" se is_portrait)'
+        required: true
+        type: string
+      is_portrait:
+        description: 'true se raffigura il volto reale e riconoscibile di una persona: forza ritratto neutrale isolato'
+        required: false
+        type: boolean
+        default: false
+      sensitive:
+        description: 'true se la notizia è un caso sensibile (incidente, morte, violenza, ecc.)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  genera:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+
+      - name: Imposta Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installa dipendenze
+        run: pip install requests Pillow
+
+      - name: Genera immagine e aggiorna il registro
+        env:
+          IMAGE_PROMPT: ${{ inputs.prompt }}
+          FILENAME_BASE: ${{ inputs.filename_base }}
+          ARTICLE_PATH: ${{ inputs.article_path }}
+          ALT_TEXT: ${{ inputs.alt_text }}
+          IS_PORTRAIT: ${{ inputs.is_portrait }}
+          SENSITIVE: ${{ inputs.sensitive }}
+        run: python3 automation/scripts/generate_editorial_image.py
+
+      - name: Pubblica le modifiche
+        run: |
+          set -x
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git status --short | head -20
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica da pubblicare."
+            exit 1
+          fi
+          git commit -m "Genera immagine editoriale: ${{ inputs.filename_base }}"
+          git push
