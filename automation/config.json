@@ -8,11 +8,13 @@
     "full_deploy": false
   },
   "articles": {
-    "interval_hours": 2,
+    "interval_hours": 3,
     "max_deploys_per_cycle": 1,
     "max_articles_per_cycle": 8,
     "publish_only_if_valid": true,
     "auto_publish_enabled_env": "CURIOMONDO_AUTO_PUBLISH",
+    "auto_publish_pipeline": "claude_code_remote_routine",
+    "cycle_instructions": "automation/prompts/three-hourly-cycle-instructions.md",
     "image_generation_prompt": "automation/prompts/image-generation-contract.txt",
     "image_policy": "AI-EDITORIAL-IMAGE-PROTOCOL.md",
     "public_figure_synthetic_likeness": {
