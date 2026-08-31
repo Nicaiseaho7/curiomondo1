@@ -3,11 +3,11 @@
   "site": {
     "name": "CurioMondo",
     "base_url": "https://curiomondo.it/",
-    "deployment": "Netlify Git continuous deployment",
-    "current_protocol_version": "1.3",
+    "deployment": "Netlify manual static drop deployment — prebuilt output, no build configuration file",
+    "current_protocol_version": "1.8",
     "protocol_introduced_in_site_version": 139,
-    "protocol_date": "2026-08-24",
-    "current_site_version": 166
+    "protocol_date": "2026-08-30",
+    "current_site_version": 255
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -17,21 +17,39 @@
     "legacy_update_notes"
   ],
   "daily_state": {
-    "last_question_date": "2026-08-24",
+    "last_question_date": "2026-08-31",
     "question_archive_path": "/domanda-del-giorno/",
     "question_library_root": "/biblioteca/vita-relazioni/",
-    "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE"
+    "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE",
+    "library_contract_v175": {
+      "question_answer_characters": {
+        "min": 1000,
+        "max": 3000
+      },
+      "ebook_characters": {
+        "min": 15000,
+        "max": 30000
+      },
+      "daily_guides": 2,
+      "guide_characters": {
+        "min": 3000,
+        "max": 15000
+      },
+      "library_theme": "premium_white_blue",
+      "page_turn": "disabled_accessible_buttons_only"
+    },
+    "last_question_slug": "quale-ferita-passata-sta-ancora-parlando-quando-diciamo-sono-fatto-cosi"
   },
   "daily_question": {
     "required": true,
     "frequency": "daily",
     "homepage_read_time_minutes": {
-      "min": 3,
-      "max": 5
+      "min": 1,
+      "max": 3
     },
     "library_ebook_characters": {
-      "min": 7000,
-      "max": 15000
+      "min": 15000,
+      "max": 30000
     },
     "topics": "unrestricted_useful_human_or_practical_topics",
     "must_be": [
@@ -67,6 +85,10 @@
     "homepage_entire_card_clickable": true,
     "reveal_question_only_on_dedicated_page": true,
     "dedicated_page_visual_identity": "premium_distinct_from_news_articles",
+    "dedicated_answer_typography": "premium_editorial_magazine",
+    "dedicated_answer_paragraphs_required": true,
+    "dedicated_answer_key_passage_treatment": "editorial_pull_quote_without_changing_copy",
+    "dedicated_answer_mobile_reading_rhythm_required": true,
     "dedicated_page_palette": [
       "blue",
       "white"
@@ -94,6 +116,10 @@
       "hint_class": "cm-qday-hint",
       "preserve_existing_premium_design": true,
       "only_date_link_and_text_may_change": true
+    },
+    "answer_characters": {
+      "min": 1000,
+      "max": 3000
     }
   },
   "homepage": {
@@ -131,17 +157,80 @@
       "news_sitemap_xml_if_eligible"
     ],
     "article_body_characters": {
-      "preferred_min": 5000,
-      "preferred_max": 7000,
-      "target_reading_minutes": 5,
-      "shorter_only_if_verified_information_is_insufficient": true,
+      "mandatory_min": 2000,
+      "mandatory_max": 4500,
+      "count_scope": "visible_text_inside_.art-body_only",
+      "effective_from_site_version": 248,
+      "effective_from": "2026-08-30T10:04:00+02:00",
+      "exceptions_allowed": false,
+      "if_insufficient_verified_information": "do_not_publish_standalone_article",
+      "if_over_max": "rewrite_and_remove_secondary_or_redundant_material",
       "padding_for_length_forbidden": true,
-      "exception_must_be_documented_in_article_markup": true
-    }
+      "semantic_repetition_forbidden": true,
+      "each_paragraph_must_add_new_information": true,
+      "closing_recap_that_repeats_body_forbidden": true,
+      "target_reading_minutes": {
+        "min": 2,
+        "max": 4
+      }
+    },
+    "knowledge_hook_required": true,
+    "knowledge_hook_rule": "Explain at least one useful, non-obvious element inside each story; create or link an evergreen deep-dive when the concept merits durable explanation.",
+    "anti_repetition_required": true,
+    "anti_repetition_rule": "Every fact, number, explanation, cause, consequence and context may appear only once in the article body, including paraphrases. Delete or merge any sentence or paragraph that restates an already expressed idea."
   },
   "images": {
     "new_editorial_images_must_be_ai_generated": true,
     "public_figures_allowed_when_editorially_relevant": true,
+    "public_figure_synthetic_likeness_policy": {
+      "allowed": true,
+      "covers_living_and_deceased_public_figures": true,
+      "recognizable_identity_allowed": true,
+      "ultra_realistic_photorealistic_allowed": true,
+      "common_term": "deepfake",
+      "preferred_editorial_term": "synthetic_editorial_likeness",
+      "direct_editorial_relevance_required": true,
+      "policy_mode": "context_sensitive",
+      "ordinary_news": {
+        "contextual_scenes_allowed": true,
+        "relevant_locations_allowed": true,
+        "relevant_people_objects_vehicles_and_clothing_allowed": true,
+        "relevant_logos_allowed": true,
+        "fabricated_specific_events_as_evidence_forbidden": true
+      },
+      "sensitive_news": {
+        "neutral_isolated_portrait_required": true,
+        "triggers": [
+          "incident",
+          "death_or_obituary",
+          "illness_diagnosis_or_hospitalization",
+          "violence_war_or_disaster",
+          "arrest_or_serious_allegation",
+          "grief_suffering_or_other_painful_context"
+        ],
+        "allowed_framing": [
+          "close_up",
+          "head_and_shoulders",
+          "waist_up"
+        ],
+        "depiction_of_trauma_injury_treatment_or_grief_forbidden": true
+      },
+      "must_never_be_presented_as_documentary_evidence": true,
+      "verified_context_only": true,
+      "fabricated_actions_events_quotes_locations_medical_conditions_or_endorsements_forbidden": true,
+      "sexual_humiliating_defamatory_fraudulent_or_voter_deceptive_content_forbidden": true,
+      "voice_cloning_and_fabricated_audio_video_statements_forbidden": true,
+      "html_figure_attributes_required": {
+        "data-ai-generated": "true",
+        "data-synthetic-likeness": "public-figure",
+        "data-sensitive-context": "true|false",
+        "data-portrait-format": "neutral-isolated_when_sensitive"
+      },
+      "visible_disclosure_exact": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "canonical_policy_file": "AI-EDITORIAL-IMAGE-PROTOCOL.md",
+      "generator_contract_file": "automation/prompts/image-generation-contract.txt",
+      "tool_platform_and_applicable_law_restrictions_must_be_respected": true
+    },
     "must_disclose_ai_generation": true,
     "article_or_card_text_overlay": false,
     "quality": [
@@ -192,27 +281,35 @@
     "root": "/biblioteca/",
     "dynamic_categories_allowed": true,
     "daily_question_ebook_chars": {
-      "min": 7000,
-      "max": 15000
+      "min": 15000,
+      "max": 30000
     },
     "daily_question_ebook_reader": {
       "mode": "paginated_book",
-      "default_total_pages": 5,
+      "default_total_pages": 12,
       "allowed_total_pages": {
-        "min": 4,
-        "max": 6
+        "min": 8,
+        "max": 14
       },
       "cover_required": true,
-      "max_h2_total": 4,
+      "max_h2_total": 7,
       "max_visible_subheadings_per_page": 1,
       "previous_next_controls_required": true,
       "page_counter_required": true,
-      "keyboard_navigation_required": true,
-      "touch_swipe_required": true,
+      "keyboard_navigation_required": false,
+      "touch_swipe_required": false,
+      "page_turn_animation_forbidden": true,
       "shared_css": "/assets/css/biblioteca-book-reader-v1.css",
       "shared_js": "/assets/js/biblioteca-book-reader-v1.js"
     },
-    "avoid_empty_placeholder_pages_when_content_exists": true
+    "avoid_empty_placeholder_pages_when_content_exists": true,
+    "daily_guides": 2,
+    "guide_characters": {
+      "min": 3000,
+      "max": 15000
+    },
+    "visual_theme": "premium_white_blue",
+    "allow_new_categories_when_useful": true
   },
   "seo": {
     "sitemap": "/sitemap.xml",
@@ -262,11 +359,11 @@
     "introduced_in_version": 166,
     "safe_mode": true,
     "live": {
-      "enabled": true,
+      "enabled": false,
       "interval_minutes": 10,
-      "backend": "Netlify Scheduled Functions + Blobs",
+      "backend": "Static homepage ticker",
       "full_deploy_per_refresh": false,
-      "homepage_poll_seconds": 60,
+      "homepage_poll_seconds": 0,
       "unlinked_items_not_clickable": true
     },
     "articles": {
@@ -280,7 +377,7 @@
     "library": {
       "scheduled": true,
       "daily": true,
-      "target_guides": 3,
+      "target_guides": 2,
       "quality_over_quantity": true,
       "auto_publish_active": false
     },
@@ -289,5 +386,54 @@
       "youtube_autopost",
       "newsletter_autosend"
     ]
+  },
+  "editorial_explainers": {
+    "required_when_concept_needs_context": true,
+    "must_answer": [
+      "che cos’è",
+      "come funziona",
+      "perché esiste o viene usato",
+      "perché conta nella notizia"
+    ],
+    "bidirectional_links_required": true,
+    "homepage_latest_count": 3,
+    "deduplicate_existing_guides": true
+  },
+  "site_version": 255,
+  "monetization": {
+    "provider": "Google AdSense",
+    "publisher_id": "pub-8050187517048759",
+    "ads_txt_required_at_root": true,
+    "ads_txt_record": "google.com, pub-8050187517048759, DIRECT, f08c47fec0942fa0",
+    "predeploy_must_fail_if_missing_or_mismatched": true
+  },
+  "permanent_rules": {
+    "library_palette": "premium white + CurioMondo blue; green only functional, never dominant",
+    "editorial_images": "Every new article or update MUST use a completely new hero visual; no reuse, crop, resize, filter, rename, or derivation of previously published assets. Public figures may appear in relevant locations and settings, including relevant logos, for ordinary news; sensitive or painful contexts require a neutral isolated portrait.",
+    "article_audio": "Prefer premium pre-generated neural audio when available; otherwise choose the best Italian premium/enhanced deep voice exposed by the device, with natural sentence chunking, rate 0.92 and pitch 0.78."
+  },
+  "version": "v255",
+  "release_version": "v255",
+  "last_release_date": "2026-08-31",
+  "last_release": {
+    "version": 255,
+    "date": "2026-08-31",
+    "baseline_version": 254,
+    "news_added": [
+      "sicilia-incendi-sciacca-ciminna-evacuati-intossicati-31-agosto-2026"
+    ],
+    "news_updated": [],
+    "evergreen_added": [],
+    "daily_question_added": "quale-ferita-passata-sta-ancora-parlando-quando-diciamo-sono-fatto-cosi",
+    "ebook_added": "quale-ferita-passata-sta-ancora-parlando-quando-diciamo-sono-fatto-cosi",
+    "guides_added": [
+      "come-recuperare-password-gmail-facebook-instagram-wifi",
+      "come-installare-app-android-iphone"
+    ],
+    "ads_txt": "preserved-authorized-v254",
+    "image_policy_applied": "sensitive-wildfire-context-no-visible-victims-v255"
+  },
+  "release_notes": {
+    "v208": "Correzioni mobile: deduplica per URL, immagine UEFA/Infantino, bootstrap critico, AVIF LCP, aria/inert per navigazione agentica."
   }
 }

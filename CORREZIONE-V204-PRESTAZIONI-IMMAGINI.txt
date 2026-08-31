@@ -1,0 +1,27 @@
+CurioMondo v204 — 28 agosto 2026
+
+Intervento tecnico senza modifiche editoriali alle notizie.
+
+Prestazioni:
+- homepage alleggerita da circa 216 KB a circa 39 KB di HTML critico;
+- 79 payload discovery/evergreen spostati in un unico JS differito e cacheabile;
+- cache-busting home aggiornato a v204;
+- nuovo layer CSS leggero con content-visibility per contenuti sotto la piega;
+- header statici e caching migliorati;
+- attributi decoding/fetchpriority sistemati.
+
+Immagini:
+- hero degli articoli convertite a caricamento responsive con srcset/sizes;
+- 71 articoli aggiornati;
+- 71 nuove varianti responsive create dove mancavano;
+- le pagine mobile non scaricano più automaticamente hero 1920px;
+- passaggio di chiarezza sulle immagini recenti visibilmente morbide, incluso Campi Flegrei;
+- preload responsive del vero LCP nelle pagine articolo.
+
+Verifiche:
+- PREDEPLOY OK v204;
+- JavaScript modificato validato con node --check;
+- feed/sitemap/news-sitemap validi;
+- In evidenza ancora esattamente 5;
+- LIVE invariata e integra;
+- nessuna notizia rimossa o riscritta.

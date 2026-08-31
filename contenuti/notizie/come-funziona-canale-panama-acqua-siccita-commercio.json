@@ -9,9 +9,9 @@
   "date_label": "Guida aggiornata il 21 agosto 2026",
   "date_iso": "2026-08-21T00:28:00+02:00",
   "date_modified": "2026-08-21",
-  "image": "https://curiomondo.it/assets/images/canale-panama-el-nino-transiti-20-agosto-2026-ai.webp",
-  "image_alt": "Illustrazione editoriale di una portacontainer nelle chiuse del Canale di Panama durante condizioni di siccità",
-  "image_caption": "Immagine illustrativa generata con l’intelligenza artificiale.",
+  "image": "/assets/images/editorial-v210/canale-panama-acqua-siccita-1200.webp",
+  "image_alt": "Illustrazione editoriale IA ultrarealistica per Perché la siccità del Canale di Panama può rallentare il commercio mondiale",
+  "image_caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "is_evergreen": true,
   "sections": [
     {
@@ -51,18 +51,42 @@
     }
   ],
   "data_points": [
-    {"value": "Lago Gatún", "label": "il grande bacino artificiale centrale nel funzionamento del Canale"},
-    {"value": "2 leve", "label": "riduzione del pescaggio e riduzione degli slot giornalieri"},
-    {"value": "2023-24", "label": "il precedente recente che ha mostrato l’impatto della siccità sui transiti"}
+    {
+      "value": "Lago Gatún",
+      "label": "il grande bacino artificiale centrale nel funzionamento del Canale"
+    },
+    {
+      "value": "2 leve",
+      "label": "riduzione del pescaggio e riduzione degli slot giornalieri"
+    },
+    {
+      "value": "2023-24",
+      "label": "il precedente recente che ha mostrato l’impatto della siccità sui transiti"
+    }
   ],
   "conclusion": "Il Canale di Panama è un esempio perfetto di come una risorsa naturale locale possa diventare un fattore economico globale. Ogni nave dipende da un sistema di chiuse alimentato da acqua dolce; quando i bacini scendono, l’Autorità deve ridurre carico, transiti o entrambi. È così che una stagione secca può trasformarsi in code, costi logistici e deviazioni che si propagano lungo migliaia di chilometri di catene di approvvigionamento.",
   "sources": [
-    {"title": "Autorità del Canale di Panama — Preparazione alle condizioni di El Niño e gestione della capacità", "url": "https://pancanal.com/en/panama-canal-reports-higher-transits-and-tonnage-while-preparing-to-meet-demand-amid-expected-el-nino-conditions/"},
-    {"title": "Autorità del Canale di Panama — Aggiustamenti del pescaggio nelle chiuse Neopanamax", "url": "https://pancanal.com/en/panama-canal-announces-new-draft-adjustments-for-neopanamax-locks/"},
-    {"title": "Autorità del Canale di Panama — El Niño, gestione dell’acqua e stabilità operativa", "url": "https://pancanal.com/en/the-panama-canal-responds-to-the-risk-of-el-nino-with-foresight-and-maintains-operational-stability/"}
+    {
+      "title": "Autorità del Canale di Panama — Preparazione alle condizioni di El Niño e gestione della capacità",
+      "url": "https://pancanal.com/en/panama-canal-reports-higher-transits-and-tonnage-while-preparing-to-meet-demand-amid-expected-el-nino-conditions/"
+    },
+    {
+      "title": "Autorità del Canale di Panama — Aggiustamenti del pescaggio nelle chiuse Neopanamax",
+      "url": "https://pancanal.com/en/panama-canal-announces-new-draft-adjustments-for-neopanamax-locks/"
+    },
+    {
+      "title": "Autorità del Canale di Panama — El Niño, gestione dell’acqua e stabilità operativa",
+      "url": "https://pancanal.com/en/the-panama-canal-responds-to-the-risk-of-el-nino-with-foresight-and-maintains-operational-stability/"
+    }
   ],
   "related": [
-    {"slug": "canale-panama-limiti-transiti-el-nino-20-agosto-2026", "title": "Canale di Panama, tornano i limiti ai transiti per il rischio El Niño"},
-    {"slug": "chiavari-rupinaro-maltempo-sirene-20-agosto-2026", "title": "Chiavari, sirene sul Rupinaro e strade allagate dopo il nubifragio"}
+    {
+      "slug": "canale-panama-limiti-transiti-el-nino-20-agosto-2026",
+      "title": "Canale di Panama, tornano i limiti ai transiti per il rischio El Niño"
+    },
+    {
+      "slug": "chiavari-rupinaro-maltempo-sirene-20-agosto-2026",
+      "title": "Chiavari, sirene sul Rupinaro e strade allagate dopo il nubifragio"
+    }
   ]
 }

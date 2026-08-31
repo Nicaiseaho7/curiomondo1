@@ -9,9 +9,9 @@
   "date_label": "Guida aggiornata il 16 agosto 2026",
   "date_iso": "2026-08-16T10:00:00+02:00",
   "date_modified": "2026-08-16",
-  "image": "https://curiomondo.it/assets/images/optimized/uragano-lala-hawaii-big-island-16-agosto-2026-ai-960.webp",
-  "image_alt": "Immagine illustrativa di un uragano lungo una costa vulcanica delle Hawaii",
-  "image_caption": "",
+  "image": "/assets/images/editorial-v210/uragani-hawaii-1200.webp",
+  "image_alt": "Illustrazione editoriale IA ultrarealistica per Perché gli uragani colpiscono raramente le Hawaii e quando diventano pericolosi?",
+  "image_caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "is_evergreen": true,
   "sections": [
     {
@@ -44,19 +44,46 @@
     }
   ],
   "data_points": [
-    {"value": "119 km/h", "label": "la soglia indicativa da cui inizia la categoria 1"},
-    {"value": "3 rischi", "label": "vento, pioggia e mareggiata possono colpire insieme"},
-    {"value": "Oltre l’occhio", "label": "le bande esterne possono raggiungere terra senza un landfall"}
+    {
+      "value": "119 km/h",
+      "label": "la soglia indicativa da cui inizia la categoria 1"
+    },
+    {
+      "value": "3 rischi",
+      "label": "vento, pioggia e mareggiata possono colpire insieme"
+    },
+    {
+      "value": "Oltre l’occhio",
+      "label": "le bande esterne possono raggiungere terra senza un landfall"
+    }
   ],
   "conclusion": "Gli impatti diretti alle Hawaii sono rari soprattutto per traiettorie, dimensioni delle isole e condizioni atmosferiche. Raro, però, non significa impossibile: una tempesta che passa al largo può comunque causare danni seri, soprattutto attraverso piogge, frane, blackout e mareggiate.",
   "sources": [
-    {"title": "NOAA — come si formano e funzionano gli uragani", "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere/hurricanes"},
-    {"title": "NOAA Atlantic Oceanographic and Meteorological Laboratory — Hurricane FAQ", "url": "https://www.aoml.noaa.gov/hrd-faq/"},
-    {"title": "National Weather Service — come prepararsi a un uragano", "url": "https://www.weather.gov/safety/hurricane-plan"},
-    {"title": "Associated Press — Lala sfiora la Big Island senza landfall", "url": "https://apnews.com/article/0c3d63c8a87943cdf8d57c530a7ed9d0"}
+    {
+      "title": "NOAA — come si formano e funzionano gli uragani",
+      "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere/hurricanes"
+    },
+    {
+      "title": "NOAA Atlantic Oceanographic and Meteorological Laboratory — Hurricane FAQ",
+      "url": "https://www.aoml.noaa.gov/hrd-faq/"
+    },
+    {
+      "title": "National Weather Service — come prepararsi a un uragano",
+      "url": "https://www.weather.gov/safety/hurricane-plan"
+    },
+    {
+      "title": "Associated Press — Lala sfiora la Big Island senza landfall",
+      "url": "https://apnews.com/article/0c3d63c8a87943cdf8d57c530a7ed9d0"
+    }
   ],
   "related": [
-    {"slug": "uragano-lala-hawaii-big-island-blackout-alluvioni-16-agosto-2026", "title": "Uragano Lala: blackout e alluvioni sulla Big Island"},
-    {"slug": "tifone-dolphin-okinawa-cina-porti-chiusi-8-agosto-2026", "title": "Tifone Dolphin: porti chiusi e allerta nel Pacifico"}
+    {
+      "slug": "uragano-lala-hawaii-big-island-blackout-alluvioni-16-agosto-2026",
+      "title": "Uragano Lala: blackout e alluvioni sulla Big Island"
+    },
+    {
+      "slug": "tifone-dolphin-okinawa-cina-porti-chiusi-8-agosto-2026",
+      "title": "Tifone Dolphin: porti chiusi e allerta nel Pacifico"
+    }
   ]
 }

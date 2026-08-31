@@ -1,0 +1,25 @@
+/* CurioMondo v229 — fascia LIVE premium. */
+.ticker{
+  background:linear-gradient(105deg,#061a35 0%,#0a3566 46%,#08658c 100%);
+  border-bottom:1px solid rgba(126,211,255,.28);
+  box-shadow:0 5px 20px rgba(4,25,53,.18);
+}
+.ticker-label{
+  background:linear-gradient(135deg,#c91f3c 0%,#ee4255 100%);
+  color:#fff;
+  box-shadow:0 3px 12px rgba(151,13,39,.3),inset 0 1px 0 rgba(255,255,255,.24);
+}
+.ticker-label::before{
+  background:#fff;
+  box-shadow:0 0 0 5px rgba(255,255,255,.14),0 0 12px rgba(255,255,255,.62);
+}
+.ticker-news{
+  color:#f8fbff;
+  text-shadow:0 1px 1px rgba(0,16,38,.35);
+}
+.ticker-news::before{color:#70d6ff}
+.ticker-news:hover,.ticker-news:focus-visible{color:#fff;text-decoration-color:#70d6ff}
+
+@media(max-width:600px){
+  .ticker{background:linear-gradient(105deg,#061a35 0%,#0a4172 100%)}
+}

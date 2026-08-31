@@ -9,9 +9,9 @@
   "date_label": "12 agosto 2026 · Nuovo sviluppo",
   "date_iso": "2026-08-12",
   "date_modified": "2026-08-12",
-  "image": "https://curiomondo.it/assets/images/optimized/etna-cenere-catania-voli-10-agosto-2026-960.webp",
-  "image_alt": "Etna durante una fase esplosiva con una colonna di cenere",
-  "image_caption": "Immagine fornita per l’articolo sull’attività dell’Etna.",
+  "image": "/assets/images/editorial-v210/etna-catania-aeroporto-1200.webp",
+  "image_alt": "Illustrazione editoriale IA ultrarealistica per Etna, aeroporto di Catania chiuso fino alle 16 del 13 agosto: circa 700 voli saltati",
+  "image_caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "sections": [
     {
       "heading": "Catania resta chiuso fino a giovedì pomeriggio",
@@ -44,19 +44,49 @@
   ],
   "conclusion": "L’Etna continua a condizionare i collegamenti siciliani: Fontanarossa resta chiuso fino alle 16 del 13 agosto, mentre circa 700 voli sono già saltati dall’inizio dell’emergenza. Per chi viaggia, il controllo diretto con la compagnia aerea è indispensabile.",
   "sources": [
-    {"title": "Reuters — Etna: prolungata la chiusura dell’aeroporto di Catania", "url": "https://www.reuters.com/business/environment/etna-ash-prompts-extended-closure-catania-airport-disrupting-peak-season-travel-2026-08-12/"},
-    {"title": "ANSA — Circa 700 voli saltati all’aeroporto di Catania", "url": "https://www.ansa.it/amp/sicilia/notizie/2026/08/12/circa-700-voli-saltati-allaeroporto-di-catania-per-leruzione-delletna_dea0a8bb-9f4a-4d8d-9e2e-97054f159a87.html"},
-    {"title": "VAAC Toulouse — Avviso cenere vulcanica Etna (pubblicato dal Bureau of Meteorology)", "url": "https://www.bom.gov.au/aviation/warnings/volcanic-ash/"},
-    {"title": "Aeroporto di Catania — Stato voli in tempo reale", "url": "https://www.aeroporto.catania.it/tracking-voli/"}
+    {
+      "title": "Reuters — Etna: prolungata la chiusura dell’aeroporto di Catania",
+      "url": "https://www.reuters.com/business/environment/etna-ash-prompts-extended-closure-catania-airport-disrupting-peak-season-travel-2026-08-12/"
+    },
+    {
+      "title": "ANSA — Circa 700 voli saltati all’aeroporto di Catania",
+      "url": "https://www.ansa.it/amp/sicilia/notizie/2026/08/12/circa-700-voli-saltati-allaeroporto-di-catania-per-leruzione-delletna_dea0a8bb-9f4a-4d8d-9e2e-97054f159a87.html"
+    },
+    {
+      "title": "VAAC Toulouse — Avviso cenere vulcanica Etna (pubblicato dal Bureau of Meteorology)",
+      "url": "https://www.bom.gov.au/aviation/warnings/volcanic-ash/"
+    },
+    {
+      "title": "Aeroporto di Catania — Stato voli in tempo reale",
+      "url": "https://www.aeroporto.catania.it/tracking-voli/"
+    }
   ],
   "data_points": [
-    {"value": "16:00", "label": "Sospensione di arrivi e partenze fino a giovedì 13 agosto"},
-    {"value": "≈700", "label": "Voli saltati tra l’8 e l’11 agosto, tra cancellazioni e mancati movimenti"},
-    {"value": ">250", "label": "Collegamenti riprogrammati o dirottati su altri scali siciliani"}
+    {
+      "value": "16:00",
+      "label": "Sospensione di arrivi e partenze fino a giovedì 13 agosto"
+    },
+    {
+      "value": "≈700",
+      "label": "Voli saltati tra l’8 e l’11 agosto, tra cancellazioni e mancati movimenti"
+    },
+    {
+      "value": ">250",
+      "label": "Collegamenti riprogrammati o dirottati su altri scali siciliani"
+    }
   ],
   "related": [
-    {"slug": "etna-nuova-fase-esplosiva-cenere-voli-catania-10-agosto-2026", "title": "Etna, nuova fase esplosiva e nube di cenere: sospesi i voli in arrivo a Catania"},
-    {"slug": "ponte-stretto-via-libera-progettazione-esecutiva", "title": "Ponte sullo Stretto, via libera alla progettazione esecutiva"},
-    {"slug": "caldo-estremo-bollino-rosso-27-citta", "title": "Caldo estremo: bollino rosso in 27 città italiane"}
+    {
+      "slug": "etna-nuova-fase-esplosiva-cenere-voli-catania-10-agosto-2026",
+      "title": "Etna, nuova fase esplosiva e nube di cenere: sospesi i voli in arrivo a Catania"
+    },
+    {
+      "slug": "ponte-stretto-via-libera-progettazione-esecutiva",
+      "title": "Ponte sullo Stretto, via libera alla progettazione esecutiva"
+    },
+    {
+      "slug": "caldo-estremo-bollino-rosso-27-citta",
+      "title": "Caldo estremo: bollino rosso in 27 città italiane"
+    }
   ]
 }

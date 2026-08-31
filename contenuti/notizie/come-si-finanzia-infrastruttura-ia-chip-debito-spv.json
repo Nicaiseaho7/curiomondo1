@@ -9,9 +9,9 @@
   "date_label": "Guida aggiornata il 21 agosto 2026",
   "date_iso": "2026-08-21T00:27:00+02:00",
   "date_modified": "2026-08-21",
-  "image": "https://curiomondo.it/assets/images/broadcom-debito-ai-anthropic-20-agosto-2026-ai.webp",
-  "image_alt": "Illustrazione editoriale di chip per intelligenza artificiale, server e strutture finanziarie usate per finanziare la capacità di calcolo",
-  "image_caption": "Immagine illustrativa generata con l’intelligenza artificiale.",
+  "image": "/assets/images/editorial-v210/finanziamento-infrastruttura-ia-1200.webp",
+  "image_alt": "Illustrazione editoriale IA ultrarealistica per Come si finanzia l’infrastruttura dell’IA: chip, debito e veicoli speciali spiegati bene",
+  "image_caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "is_evergreen": true,
   "sections": [
     {
@@ -51,18 +51,42 @@
     }
   ],
   "data_points": [
-    {"value": "SPV", "label": "il veicolo dedicato che può acquistare l’hardware e finanziarlo separatamente"},
-    {"value": "Senior / Junior", "label": "le tranche con differenti livelli di rischio e priorità di rimborso"},
-    {"value": "20+ GW", "label": "l’ordine di grandezza della capacità prevista dalla piattaforma Broadcom-Apollo-Blackstone entro il 2028"}
+    {
+      "value": "SPV",
+      "label": "il veicolo dedicato che può acquistare l’hardware e finanziarlo separatamente"
+    },
+    {
+      "value": "Senior / Junior",
+      "label": "le tranche con differenti livelli di rischio e priorità di rimborso"
+    },
+    {
+      "value": "20+ GW",
+      "label": "l’ordine di grandezza della capacità prevista dalla piattaforma Broadcom-Apollo-Blackstone entro il 2028"
+    }
   ],
   "conclusion": "Il finanziamento dell’IA sta diventando complesso quanto la tecnologia che deve sostenere. Gli SPV, il private credit e le garanzie dei produttori permettono di costruire infrastrutture enormi senza chiedere ai laboratori di pagare tutto subito. Ma trasformano anche chip e capacità di calcolo in asset finanziari su cui banche e investitori assumono rischi di lungo periodo. Capire questa struttura è essenziale perché la prossima fase della competizione nell’IA potrebbe dipendere non soltanto da chi costruisce il modello migliore, ma da chi riesce a finanziare più rapidamente l’hardware necessario per farlo funzionare.",
   "sources": [
-    {"title": "Broadcom — Piattaforma con Apollo e Blackstone per oltre 20 GW di capacità IA", "url": "https://investors.broadcom.com/node/64396/pdf"},
-    {"title": "Reuters — Private credit e nuove strutture di finanziamento per chip e infrastrutture IA", "url": "https://www.reuters.com/legal/transactional/private-credit-roundup-nvidias-half-trillion-chips-financing-plus-others-2026-08-14/"},
-    {"title": "Financial Times — Come Wall Street sta finanziando su larga scala la capacità di calcolo per Anthropic", "url": "https://www.ft.com/content/549f2e23-5aa2-49c7-9ea6-a9784ab7087c"}
+    {
+      "title": "Broadcom — Piattaforma con Apollo e Blackstone per oltre 20 GW di capacità IA",
+      "url": "https://investors.broadcom.com/node/64396/pdf"
+    },
+    {
+      "title": "Reuters — Private credit e nuove strutture di finanziamento per chip e infrastrutture IA",
+      "url": "https://www.reuters.com/legal/transactional/private-credit-roundup-nvidias-half-trillion-chips-financing-plus-others-2026-08-14/"
+    },
+    {
+      "title": "Financial Times — Come Wall Street sta finanziando su larga scala la capacità di calcolo per Anthropic",
+      "url": "https://www.ft.com/content/549f2e23-5aa2-49c7-9ea6-a9784ab7087c"
+    }
   ],
   "related": [
-    {"slug": "broadcom-finanziamento-ai-debito-anthropic-20-agosto-2026", "title": "Broadcom tratta un maxi-finanziamento legato alla capacità di calcolo per l’IA"},
-    {"slug": "come-funzionano-robotaxi-sicurezza-regole-europa", "title": "Come funzionano i robotaxi e perché l’infrastruttura è decisiva"}
+    {
+      "slug": "broadcom-finanziamento-ai-debito-anthropic-20-agosto-2026",
+      "title": "Broadcom tratta un maxi-finanziamento legato alla capacità di calcolo per l’IA"
+    },
+    {
+      "slug": "come-funzionano-robotaxi-sicurezza-regole-europa",
+      "title": "Come funzionano i robotaxi e perché l’infrastruttura è decisiva"
+    }
   ]
 }

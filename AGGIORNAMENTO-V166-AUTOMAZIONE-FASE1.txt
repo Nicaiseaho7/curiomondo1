@@ -1,5 +1,8 @@
 CURIO MONDO — V166 — AUTOMAZIONE FASE 1
 
+NOTA DI COMPATIBILITÀ V169:
+la parte Netlify Functions + Blobs descritta sotto è stata rimossa per garantire un deploy esclusivamente statico, senza compilazione o impacchettamento serverless.
+
 Installato:
 - LIVE dinamica Netlify ogni 10 minuti senza full deploy;
 - Netlify Blobs come stato LIVE persistente;

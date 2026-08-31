@@ -1,0 +1,8 @@
+CurioMondo v176 — 25 agosto 2026
+
+- Biblioteca ed eBook: palette premium bianco + blu CurioMondo.
+- Tutte le pagine Biblioteca aggiornate agli asset CSS/JS v176.
+- Quattro hero del 25 agosto rigenerati come visual editoriali nuovi e distinti: Salvini/manovra, Verona, Andora, SAFE.
+- Protocollo: divieto assoluto di riutilizzare immagini già pubblicate, anche per aggiornamenti della stessa notizia.
+- Predeploy: controllo percorso hero univoco e SHA-256 per bloccare duplicati binari.
+- Nessuna configurazione Netlify build aggiunta.

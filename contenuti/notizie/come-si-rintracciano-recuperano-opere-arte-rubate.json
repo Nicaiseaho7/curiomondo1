@@ -9,9 +9,9 @@
   "date_label": "Guida aggiornata il 16 agosto 2026",
   "date_iso": "2026-08-16T18:20:00+02:00",
   "date_modified": "2026-08-16",
-  "image": "https://curiomondo.it/assets/images/optimized/furto-antonello-da-messina-museo-16-agosto-2026-ai-960.webp",
-  "image_alt": "Immagine illustrativa di investigatori che esaminano una teca vuota dopo il furto di opere d’arte",
-  "image_caption": "",
+  "image": "/assets/images/editorial-v210/recupero-opere-arte-1200.webp",
+  "image_alt": "Illustrazione editoriale IA ultrarealistica per Come si rintracciano e si recuperano le opere d’arte rubate?",
+  "image_caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "is_evergreen": true,
   "sections": [
     {
@@ -51,20 +51,50 @@
     }
   ],
   "data_points": [
-    {"value": "Quasi 57.000", "label": "gli oggetti descritti nella banca dati internazionale di INTERPOL"},
-    {"value": "Oltre 1,3 milioni", "label": "i beni rubati presenti nella banca dati italiana collegata a S.W.O.A.D.S."},
-    {"value": "1970", "label": "l’anno della Convenzione UNESCO contro il traffico illecito"}
+    {
+      "value": "Quasi 57.000",
+      "label": "gli oggetti descritti nella banca dati internazionale di INTERPOL"
+    },
+    {
+      "value": "Oltre 1,3 milioni",
+      "label": "i beni rubati presenti nella banca dati italiana collegata a S.W.O.A.D.S."
+    },
+    {
+      "value": "1970",
+      "label": "l’anno della Convenzione UNESCO contro il traffico illecito"
+    }
   ],
   "conclusion": "Il recupero di un’opera rubata nasce spesso molto prima del furto: inventari completi, fotografie accurate e una provenienza ben documentata permettono di identificarla. Dopo la sottrazione, la condivisione rapida dei dati e la cooperazione tra polizia, dogane e operatori del mercato possono impedire che il bene venga venduto e aumentare le possibilità di restituirlo alla collettività.",
   "sources": [
-    {"title": "INTERPOL — Stolen Works of Art Database", "url": "https://www.interpol.int/Crimes/Cultural-heritage-crime/Stolen-Works-of-Art-Database"},
-    {"title": "INTERPOL — ID-Art mobile app", "url": "https://www.interpol.int/Crimes/Cultural-heritage-crime/ID-Art-mobile-app"},
-    {"title": "Carabinieri TPC — Cosa fare in caso di furto di un bene culturale", "url": "https://tpcweb.carabinieri.it/SitoPubblico/home/informazioni/consigli"},
-    {"title": "UNESCO — Il contrasto al traffico illecito di beni culturali", "url": "https://www.unesco.org/en/articles/unescos-role-fight-against-illicit-trafficking-cultural-property"},
-    {"title": "UNESCO — Strumenti digitali contro il traffico online di beni culturali", "url": "https://www.unesco.org/en/node/195811"}
+    {
+      "title": "INTERPOL — Stolen Works of Art Database",
+      "url": "https://www.interpol.int/Crimes/Cultural-heritage-crime/Stolen-Works-of-Art-Database"
+    },
+    {
+      "title": "INTERPOL — ID-Art mobile app",
+      "url": "https://www.interpol.int/Crimes/Cultural-heritage-crime/ID-Art-mobile-app"
+    },
+    {
+      "title": "Carabinieri TPC — Cosa fare in caso di furto di un bene culturale",
+      "url": "https://tpcweb.carabinieri.it/SitoPubblico/home/informazioni/consigli"
+    },
+    {
+      "title": "UNESCO — Il contrasto al traffico illecito di beni culturali",
+      "url": "https://www.unesco.org/en/articles/unescos-role-fight-against-illicit-trafficking-cultural-property"
+    },
+    {
+      "title": "UNESCO — Strumenti digitali contro il traffico online di beni culturali",
+      "url": "https://www.unesco.org/en/node/195811"
+    }
   ],
   "related": [
-    {"slug": "furto-antonello-da-messina-museo-messina-16-agosto-2026", "title": "Messina, rubate quattro opere di Antonello da Messina"},
-    {"slug": "morto-francesco-guccini-86-anni", "title": "È morto Francesco Guccini: il cantautore aveva 86 anni"}
+    {
+      "slug": "furto-antonello-da-messina-museo-messina-16-agosto-2026",
+      "title": "Messina, rubate quattro opere di Antonello da Messina"
+    },
+    {
+      "slug": "morto-francesco-guccini-86-anni",
+      "title": "È morto Francesco Guccini: il cantautore aveva 86 anni"
+    }
   ]
 }

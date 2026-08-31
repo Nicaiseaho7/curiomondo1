@@ -1,16 +1,24 @@
 {
-  "site_version": 166,
-  "baseline_version": 165,
-  "release_date": "2026-08-24",
+  "site_version": 255,
+  "articleCount": 201,
+  "generatedEditorialImages": 81,
+  "baseline_version": 254,
+  "release_date": "2026-08-31",
   "protocol_files": [
+    "AGENTS.md",
+    "AI-EDITORIAL-IMAGE-PROTOCOL.md",
+    "automation/prompts/image-generation-contract.txt",
     "LEGGIMI-PRIMA-CURIOMONDO.md",
     "CURIO-MONDO-PROTOCOLLO-MAESTRO.md",
     "curiomondo-site-manifest.json"
   ],
-  "last_daily_question_date": "2026-08-24",
-  "note": "v166: infrastruttura CurioMondo Automation in safe mode; LIVE dinamica ogni 10 min senza full deploy; workflow articoli ogni 2 ore e Biblioteca giornaliera installati ma autopublish ancora bloccato fino al test controllato.",
-  "version": "v166",
-  "date": "2026-08-24",
-  "baseline": "curiomondo-v162-24-agosto-2026-netlify.zip",
-  "last_update": "indonesia-quake-100-dead-and-eu-61-billion-ukraine-defence"
+  "last_daily_question_date": "2026-08-31",
+  "version": "255",
+  "date": "2026-08-31",
+  "baseline": "curiomondo-v254-30-agosto-2026-adsense-ads-txt-netlify.zip",
+  "last_update": "sicilia-incendi-domanda-ferita-guide-v255",
+  "performance_pass": "Nuova immagine WebP responsive 480/800/1200; homepage e feed aggiornati senza immagini duplicate.",
+  "currentVersion": 255,
+  "baselineVersion": 254,
+  "designRestored": "Incendi Sicilia pubblicati; domanda, eBook e due guide del 31 agosto aggiunti; home, LIVE e indici riallineati."
 }

@@ -9,9 +9,9 @@
   "date_label": "Guida aggiornata il 16 agosto 2026",
   "date_iso": "2026-08-16T19:10:00+02:00",
   "date_modified": "2026-08-16",
-  "image": "https://curiomondo.it/assets/images/optimized/simona-quadarella-oro-400-stile-parigi-16-agosto-2026-ai-960.webp",
-  "image_alt": "Ritratto illustrativo di una campionessa di nuoto con medaglia d’oro a bordo piscina",
-  "image_caption": "",
+  "image": "/assets/images/editorial-v210/strategie-nuoto-1200.webp",
+  "image_alt": "Illustrazione editoriale IA ultrarealistica per Perché 400, 800 e 1.500 stile libero richiedono strategie così diverse?",
+  "image_caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "is_evergreen": true,
   "sections": [
     {
@@ -51,19 +51,46 @@
     }
   ],
   "data_points": [
-    {"value": "8 vasche", "label": "la distanza dei 400 metri in una piscina olimpica da 50 metri"},
-    {"value": "16 vasche", "label": "la distanza degli 800 metri in vasca lunga"},
-    {"value": "30 vasche", "label": "la distanza dei 1.500 metri in vasca lunga"}
+    {
+      "value": "8 vasche",
+      "label": "la distanza dei 400 metri in una piscina olimpica da 50 metri"
+    },
+    {
+      "value": "16 vasche",
+      "label": "la distanza degli 800 metri in vasca lunga"
+    },
+    {
+      "value": "30 vasche",
+      "label": "la distanza dei 1.500 metri in vasca lunga"
+    }
   ],
   "conclusion": "La distanza cambia il costo di ogni scelta. Nei 400 bisogna sostenere una velocità vicina al limite senza consumarsi troppo presto; negli 800 occorre combinare regolarità e capacità di risposta; nei 1.500 prevalgono economia e precisione. Chi vince tutte e tre dimostra non soltanto resistenza, ma una rara adattabilità fisiologica, tecnica e tattica.",
   "sources": [
-    {"title": "World Aquatics — Documenti ufficiali delle gare di nuoto", "url": "https://www.worldaquatics.com/swimming/documents"},
-    {"title": "International Journal of Environmental Research and Public Health — Pacing Strategy Models in 1500 m Freestyle", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10048838/"},
-    {"title": "Frontiers in Psychology — Pacing Strategies of 1500 m Freestyle Swimmers", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8304102/"},
-    {"title": "Sports — Comparative Pacing Profile in 400, 800 and 1500 m Freestyle", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11678209/"}
+    {
+      "title": "World Aquatics — Documenti ufficiali delle gare di nuoto",
+      "url": "https://www.worldaquatics.com/swimming/documents"
+    },
+    {
+      "title": "International Journal of Environmental Research and Public Health — Pacing Strategy Models in 1500 m Freestyle",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10048838/"
+    },
+    {
+      "title": "Frontiers in Psychology — Pacing Strategies of 1500 m Freestyle Swimmers",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8304102/"
+    },
+    {
+      "title": "Sports — Comparative Pacing Profile in 400, 800 and 1500 m Freestyle",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11678209/"
+    }
   ],
   "related": [
-    {"slug": "simona-quadarella-oro-400-stile-libero-tripletta-parigi-16-agosto-2026", "title": "Simona Quadarella regina d’Europa: oro nei 400 stile libero"},
-    {"slug": "sara-curtis-oro-record-mondo-50-dorso-parigi-13-agosto-2026", "title": "Sara Curtis, oro europeo e record mondiale nei 50 dorso"}
+    {
+      "slug": "simona-quadarella-oro-400-stile-libero-tripletta-parigi-16-agosto-2026",
+      "title": "Simona Quadarella regina d’Europa: oro nei 400 stile libero"
+    },
+    {
+      "slug": "sara-curtis-oro-record-mondo-50-dorso-parigi-13-agosto-2026",
+      "title": "Sara Curtis, oro europeo e record mondiale nei 50 dorso"
+    }
   ]
 }

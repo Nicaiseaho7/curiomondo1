@@ -1,0 +1,17 @@
+/* CurioMondo v204 performance layer */
+img{max-width:100%;height:auto}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+/* Skip layout/paint work for sections below the first viewport until needed. */
+.cm-evidence-v201,.useful-hub,.footer,.cm-qday,[data-below-fold]{content-visibility:auto;contain-intrinsic-size:auto 700px}
+@media(max-width:700px){.cm-evidence-v201,.useful-hub,.footer,.cm-qday,[data-below-fold]{contain-intrinsic-size:auto 1100px}}
+/* v208: keep non-critical sections out of the initial rendering path. */
+#cards,#latest,.cm-home-deep-links,.site-footer,.cm-useful-hub{content-visibility:auto;contain-intrinsic-size:auto 760px}
+.cm-hero-picture{position:absolute;inset:0;display:block;width:100%;height:100%}
+.cm-hero-picture>.bg{width:100%;height:100%}
+@media(max-width:700px){#cards,#latest,.cm-home-deep-links,.site-footer,.cm-useful-hub{contain-intrinsic-size:auto 1200px}}
+
+/* v209 agentic/performance hardening */
+.featured.cm-breaking-single{display:block;color:inherit;text-decoration:none;contain:layout paint style}
+.featured.cm-breaking-single .cta{display:inline-flex;align-items:center;justify-content:center}
+#cards:empty{min-height:0!important;contain-intrinsic-size:0 0!important}
+.cm-search-modal[aria-hidden="true"],.drawer[aria-hidden="true"],.cm-quiz-modal[aria-hidden="true"],.cm-world-curiosity[aria-hidden="true"]{pointer-events:none!important}

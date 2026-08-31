@@ -1,0 +1,241 @@
+{
+  "version": 2,
+  "policy": {
+    "source": "user_canonical_guide_queue",
+    "selection_rule": "Choose only from remaining_topics; remove exact topic after successful publication.",
+    "reuse_forbidden": true,
+    "guide_min_chars": 3000,
+    "guide_max_chars": 15000,
+    "daily_guides": 2
+  },
+  "categories": [
+    {
+      "category": "Tecnologia e informatica",
+      "remaining_topics": [
+        "Come scaricare video da YouTube",
+        "Come fare backup (WhatsApp, foto, PC)",
+        "Come recuperare password (Gmail, Facebook, Instagram, Wi-Fi)",
+        "Come usare WhatsApp Web / Desktop",
+        "Come installare app (Android/iOS)",
+        "Come formattare PC / hard disk",
+        "Come velocizzare PC / smartphone",
+        "Come togliere virus / malware",
+        "Come collegare stampante Wi-Fi",
+        "Come fare screen recording",
+        "Come condividere schermo",
+        "Come usare VPN gratis",
+        "Come cambiare DNS",
+        "Come attivare modalità scura",
+        "Come sincronizzare Google Drive / OneDrive",
+        "Come creare PDF",
+        "Come comprimere file / foto",
+        "Come usare ChatGPT / Gemini / AI",
+        "Come fare action figure con AI",
+        "Come fare screen sul PC",
+        "Come aggiornare Windows / Android",
+        "Come resettare telefono",
+        "Come trasferire dati da Android a iPhone (e viceversa)",
+        "Come usare Telegram / Discord",
+        "Come creare account Google / Microsoft",
+        "Come bloccare chiamate indesiderate",
+        "Come usare Maps offline",
+        "Come fare videochiamata (Meet, Zoom, WhatsApp)"
+      ],
+      "published_from_queue": [
+        "Come fare uno screenshot (PC, Android, iPhone, Mac)"
+      ]
+    },
+    {
+      "category": "Burocrazia, documenti e PA",
+      "remaining_topics": [
+        "Come fare il passaporto",
+        "Come rinnovare la CIE (Carta d’Identità Elettronica)",
+        "Come fare la dichiarazione dei redditi / 730",
+        "Come iscriversi al Servizio Sanitario Nazionale",
+        "Come fare il codice fiscale",
+        "Come richiedere lo SPID",
+        "Come fare la residenza / cambio residenza",
+        "Come rinnovare la patente",
+        "Come fare il permesso di soggiorno",
+        "Come iscriversi all’anagrafe",
+        "Come pagare il bollo auto online",
+        "Come fare la raccomandata online",
+        "Come richiedere il bonus (vari tipi)",
+        "Come fare l’ISEE",
+        "Come registrarsi all’INPS / Fascicolo Sanitario",
+        "Come fare la procura",
+        "Come richiedere certificati online (nascita, residenza, ecc.)"
+      ],
+      "published_from_queue": [
+        "Come fare lo SPID"
+      ]
+    },
+    {
+      "category": "Cucina e ricette",
+      "remaining_topics": [
+        "Come fare le chiacchiere",
+        "Come fare il casatiello napoletano",
+        "Come fare la pastiera",
+        "Come fare la besciamella fatta in casa",
+        "Come fare il porridge",
+        "Come fare il kefir in casa",
+        "Come fare il guacamole",
+        "Come fare le patate dolci",
+        "Come fare i capperi sotto sale",
+        "Come fare il caffè freddo",
+        "Come fare la zuppa di cozze",
+        "Come fare pasta e lenticchie",
+        "Come fare il pollo (varianti)",
+        "Come fare uova alla Jova",
+        "Come fare colomba pasquale",
+        "Come fare crumbl cookies",
+        "Come fare biscotti Squid Game",
+        "Come fare castagnole / salame di cioccolato",
+        "Come fare la carbonara / amatriciana / cacio e pepe / gricia",
+        "Come fare la pizza in casa",
+        "Come fare il pane / focaccia",
+        "Come fare il tiramisù",
+        "Come fare la pasta fresca / gnocchi",
+        "Come fare il ragù",
+        "Come fare la maionese / pesto / salsa di pomodoro",
+        "Come fare il risotto",
+        "Come fare le lasagne",
+        "Come fare il soffritto",
+        "Come montare gli albumi / la panna",
+        "Come fare la pasta frolla",
+        "Come cuocere la pasta al dente",
+        "Come fare il brodo",
+        "Come fare le polpette",
+        "Come fare il polpettone",
+        "Come fare le zucchine in pastella",
+        "Come fare il caramello",
+        "Come fare lo slime (per bambini, ma cercato)"
+      ],
+      "published_from_queue": []
+    },
+    {
+      "category": "Salute, benessere e corpo",
+      "remaining_topics": [
+        "Come far passare il raffreddore / mal di gola / singhiozzo",
+        "Come fare il vacuum addominale",
+        "Come fare dry brushing",
+        "Come fare la colonscopia (preparazione)",
+        "Come perdere peso / dimagrire",
+        "Come fare stretching",
+        "Come migliorare la postura",
+        "Come dormire meglio",
+        "Come smettere di fumare",
+        "Come ridurre lo stress",
+        "Come fare la meditazione",
+        "Come curare l’acne / brufoli",
+        "Come far passare il mal di testa / di schiena",
+        "Come aumentare la massa muscolare",
+        "Come fare esercizi a casa (senza attrezzi)"
+      ],
+      "published_from_queue": []
+    },
+    {
+      "category": "Bellezza e cura della persona",
+      "remaining_topics": [
+        "Come fare il trucco (giorno/sera/occhi)",
+        "Come fare le unghie / manicure",
+        "Come fare acconciature / treccia / chignon",
+        "Come decolorare i capelli",
+        "Come fare la barba perfetta",
+        "Come curare la pelle secca / grassa",
+        "Come fare la skincare routine",
+        "Come rimuovere i peli (epilazione, laser, ecc.)",
+        "Come fare il contouring",
+        "Come scegliere il fondotinta"
+      ],
+      "published_from_queue": []
+    },
+    {
+      "category": "Finanza e soldi",
+      "remaining_topics": [
+        "Come fare soldi (online, extra, ecc.)",
+        "Come investire (azioni, ETF, criptovalute)",
+        "Come fare un budget familiare",
+        "Come risparmiare soldi",
+        "Come aprire un conto corrente",
+        "Come richiedere un prestito / mutuo",
+        "Come fare trading",
+        "Come dichiarare le criptovalute",
+        "Come fare soldi con YouTube / TikTok / affiliate"
+      ],
+      "published_from_queue": []
+    },
+    {
+      "category": "Casa, fai-da-te e pulizie",
+      "remaining_topics": [
+        "Come pulire (forno, vetri, divano, tappeti, ecc.)",
+        "Come montare mobili IKEA",
+        "Come dipingere le pareti",
+        "Come riparare un rubinetto",
+        "Come stendere i vestiti",
+        "Come organizzare gli armadi",
+        "Come fare il bucato (colorati/bianchi)",
+        "Come eliminare le muffe",
+        "Come piantare / curare piante",
+        "Come fare il compost"
+      ],
+      "published_from_queue": []
+    },
+    {
+      "category": "Auto e mobilità",
+      "remaining_topics": [
+        "Come cambiare l’olio / le pastiglie dei freni",
+        "Come fare il tagliando",
+        "Come controllare la pressione delle gomme",
+        "Come ricaricare l’aria condizionata",
+        "Come fare il collaudo",
+        "Come guidare in autostrada / in città",
+        "Come fare il cambio gomme",
+        "Come risparmiare carburante"
+      ],
+      "published_from_queue": []
+    },
+    {
+      "category": "Lavoro, curriculum e carriera",
+      "remaining_topics": [
+        "Come fare un curriculum / CV",
+        "Come scrivere una lettera di presentazione",
+        "Come prepararsi a un colloquio",
+        "Come trovare lavoro",
+        "Come lavorare da remoto",
+        "Come fare freelance",
+        "Come chiedere un aumento",
+        "Come licenziarsi"
+      ],
+      "published_from_queue": []
+    },
+    {
+      "category": "Viaggi e vestirsi",
+      "remaining_topics": [
+        "Come vestirsi a Pasqua / matrimonio / funerale / Carnevale / neve / primavera / Londra",
+        "Come organizzare un viaggio low cost",
+        "Come fare la valigia",
+        "Cosa fare a [città] in un giorno (Roma, Milano, Napoli, Firenze, ecc.)",
+        "Come prendere i mezzi pubblici a [città]"
+      ],
+      "published_from_queue": []
+    },
+    {
+      "category": "Altro (educazione, hobby, vita pratica)",
+      "remaining_topics": [
+        "Come fare una tesina / relazione",
+        "Come studiare meglio",
+        "Come imparare una lingua",
+        "Come suonare uno strumento",
+        "Come fare maglia / uncinetto",
+        "Come fotografare meglio",
+        "Come montare un video",
+        "Come creare un sito web",
+        "Come fare un podcast",
+        "Come addestrare un cane",
+        "Come scegliere un regalo"
+      ],
+      "published_from_queue": []
+    }
+  ]
+}

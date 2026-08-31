@@ -9,9 +9,9 @@
   "date_label": "Guida aggiornata il 16 agosto 2026",
   "date_iso": "2026-08-16T12:00:00+02:00",
   "date_modified": "2026-08-16",
-  "image": "https://curiomondo.it/assets/images/optimized/incendio-belgio-high-fens-16-agosto-2026-ai-960.webp",
-  "image_alt": "Immagine illustrativa di un incendio in una torbiera con vigili del fuoco e un elicottero antincendio",
-  "image_caption": "",
+  "image": "/assets/images/editorial-v210/incendi-torbiere-1200.webp",
+  "image_alt": "Illustrazione editoriale IA ultrarealistica per Perché gli incendi nelle torbiere sono così difficili da spegnere e possono ripartire?",
+  "image_caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "is_evergreen": true,
   "sections": [
     {
@@ -65,19 +65,46 @@
     }
   ],
   "data_points": [
-    {"value": "Sotto terra", "label": "la combustione può avanzare senza fiamme visibili"},
-    {"value": "Settimane o mesi", "label": "la possibile durata di un incendio di torba"},
-    {"value": "Controlli ripetuti", "label": "necessari per trovare i punti caldi e prevenire riaccensioni"}
+    {
+      "value": "Sotto terra",
+      "label": "la combustione può avanzare senza fiamme visibili"
+    },
+    {
+      "value": "Settimane o mesi",
+      "label": "la possibile durata di un incendio di torba"
+    },
+    {
+      "value": "Controlli ripetuti",
+      "label": "necessari per trovare i punti caldi e prevenire riaccensioni"
+    }
   ],
   "conclusion": "Gli incendi nelle torbiere sono difficili da spegnere perché il combustibile non si trova soltanto in superficie. La torba asciutta può continuare a bruciare lentamente sotto terra, produrre fumo per molto tempo e riaccendere la vegetazione. Bonifica profonda, monitoraggio termico e ripristino dell’acqua nel suolo sono decisivi per chiudere davvero l’emergenza.",
   "sources": [
-    {"title": "University College Dublin — Smouldering fire in peatlands", "url": "https://www.ucd.ie/ecomodel/research/smoulderingfireinpeatlands/"},
-    {"title": "International Journal of Wildland Fire — Peat fire research review", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8660648/"},
-    {"title": "Reuters — Belgium's biggest wildfire on record heads towards Germany", "url": "https://www.reuters.com/business/environment/belgiums-biggest-wildfire-record-heads-towards-germany-2026-08-16/"}
+    {
+      "title": "University College Dublin — Smouldering fire in peatlands",
+      "url": "https://www.ucd.ie/ecomodel/research/smoulderingfireinpeatlands/"
+    },
+    {
+      "title": "International Journal of Wildland Fire — Peat fire research review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8660648/"
+    },
+    {
+      "title": "Reuters — Belgium's biggest wildfire on record heads towards Germany",
+      "url": "https://www.reuters.com/business/environment/belgiums-biggest-wildfire-record-heads-towards-germany-2026-08-16/"
+    }
   ],
   "related": [
-    {"slug": "incendio-belgio-3000-ettari-germania-16-agosto-2026", "title": "Belgio, incendio record: 3.000 ettari bruciati e fronte verso la Germania"},
-    {"slug": "europa-caldo-incendi-serbia-italia-27-citta-allerta-rossa", "title": "Caldo e incendi in Europa: città in allerta rossa"},
-    {"slug": "canada-incendio-bald-range-columbia-britannica-20000-evacuati-8-agosto-2026", "title": "Canada, incendio nella Columbia Britannica: migliaia di evacuati"}
+    {
+      "slug": "incendio-belgio-3000-ettari-germania-16-agosto-2026",
+      "title": "Belgio, incendio record: 3.000 ettari bruciati e fronte verso la Germania"
+    },
+    {
+      "slug": "europa-caldo-incendi-serbia-italia-27-citta-allerta-rossa",
+      "title": "Caldo e incendi in Europa: città in allerta rossa"
+    },
+    {
+      "slug": "canada-incendio-bald-range-columbia-britannica-20000-evacuati-8-agosto-2026",
+      "title": "Canada, incendio nella Columbia Britannica: migliaia di evacuati"
+    }
   ]
 }

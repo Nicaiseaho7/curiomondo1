@@ -1,155 +1,260 @@
 #!/usr/bin/env python3
+"""CurioMondo v255 static pre-deploy audit."""
 from pathlib import Path
-from PIL import Image
-from xml.etree import ElementTree as ET
-import html as htmllib
-import json
-import re
-import sys
+from collections import Counter
+from lxml import html
+from urllib.parse import urlparse, unquote
+import argparse, json, subprocess, re
+from datetime import datetime
+from difflib import SequenceMatcher
 
-ROOT=Path(__file__).resolve().parents[1]
-SLUGS=[
-'terremoto-indonesia-100-morti-180000-evacuati-24-agosto-2026',
-'ue-61-miliardi-difesa-ucraina-24-agosto-2026',
-'nevada-incendio-hawk-fire-reno-evacuazioni-24-agosto-2026',
-'guinea-conakry-frana-discarica-30-morti-24-agosto-2026',
-'tunisia-naufragio-migranti-italia-11-morti-24-agosto-2026',
-'shein-ipo-hong-kong-valutazione-27-miliardi-24-agosto-2026',
-'cina-rinvia-missione-lunare-change-7-ghiaccio-24-agosto-2026',
-'alibaba-collocamento-10-miliardi-ai-azioni-calo-24-agosto-2026']
-IMAGES=[
-'terremoto-indonesia-flores-100-morti-24-agosto-2026-ai-960.webp',
-'ue-61-miliardi-difesa-ucraina-24-agosto-2026-ai-960.webp',
-'nevada-hawk-fire-reno-24-agosto-2026-ai-960.webp',
-'guinea-conakry-discarica-frana-24-agosto-2026-ai-960.webp',
-'tunisia-naufragio-migranti-italia-24-agosto-2026-ai-960.webp',
-'shein-ipo-hong-kong-24-agosto-2026-ai-960.webp',
-'change-7-rinvio-luna-24-agosto-2026-ai-960.webp',
-'alibaba-ai-collocamento-hong-kong-24-agosto-2026-ai-960.webp']
-Q='quale-verita-su-di-te-continui-a-chiamare-confusione-perche-ammetterla-ti-obbligherebbe-a-cambiare-qualcosa'
-errors=[]
-def check(ok,msg):
-    if not ok: errors.append(msg)
+ap=argparse.ArgumentParser(); ap.add_argument('--root',default='.'); args=ap.parse_args()
+root=Path(args.root).resolve(); errors=[]
+ads_path=root/'ads.txt'
+ads_record='google.com, pub-8050187517048759, DIRECT, f08c47fec0942fa0'
+if not ads_path.exists(): errors.append('ads.txt assente nella radice del sito')
+elif ads_path.read_text(errors='replace').strip()!=ads_record: errors.append('ads.txt non autorizza il publisher AdSense del sito')
+policy_path=root/'AI-EDITORIAL-IMAGE-PROTOCOL.md'
+prompt_path=root/'automation/prompts/image-generation-contract.txt'
+config_path=root/'automation/config.json'
+manifest_path=root/'curiomondo-site-manifest.json'
+image_registry_path=root/'assets/data/editorial-images-v210.json'
+for required_path in (policy_path,prompt_path,config_path,manifest_path,root/'AGENTS.md'):
+    if not required_path.exists(): errors.append(f'protocollo IA assente: {required_path.relative_to(root)}')
+if prompt_path.exists():
+    prompt=prompt_path.read_text(errors='replace')
+    for marker in ('PUBLIC FIGURES AND SYNTHETIC LIKENESS','data-synthetic-likeness="public-figure"','data-sensitive-context="true|false"','AI-EDITORIAL-IMAGE-PROTOCOL.md','ORDINARY public-figure news','SENSITIVE public-figure news','neutral isolated portrait','buildings and logos are allowed'):
+        if marker not in prompt: errors.append(f'direttiva immagini pubbliche assente nel prompt: {marker}')
+if config_path.exists():
+    try:
+        config=json.loads(config_path.read_text())
+        likeness=config.get('articles',{}).get('public_figure_synthetic_likeness',{})
+        if likeness.get('allowed') is not True: errors.append('somiglianza sintetica pubblica non abilitata nella config')
+        if likeness.get('policy_mode')!='context_sensitive': errors.append('modalità contestuale immagini pubbliche assente nella config')
+        if likeness.get('ordinary_news',{}).get('contextual_scenes_allowed') is not True: errors.append('scene ordinarie non abilitate nella config')
+        if likeness.get('ordinary_news',{}).get('relevant_logos_allowed') is not True: errors.append('loghi pertinenti non abilitati nella config')
+        if likeness.get('sensitive_news',{}).get('neutral_isolated_portrait_required') is not True: errors.append('ritratto neutrale per casi sensibili assente nella config')
+        if likeness.get('documentary_claim_forbidden') is not True: errors.append('divieto documentario assente nella config')
+        articles_cfg=config.get('articles',{})
+        if articles_cfg.get('body_min_chars')!=2000: errors.append('minimo articoli v248 non impostato a 2000 nella config')
+        if articles_cfg.get('body_max_chars')!=4500: errors.append('massimo articoli v248 non impostato a 4500 nella config')
+        if articles_cfg.get('length_exceptions_allowed') is not False: errors.append('eccezioni lunghezza articoli v248 non disabilitate')
+        if articles_cfg.get('semantic_repetition_forbidden') is not True: errors.append('divieto ripetizioni semantiche assente nella config')
+        length_policy_effective_from=articles_cfg.get('length_policy_effective_from','2026-08-30T10:04:00+02:00')
+        try: length_policy_effective_dt=datetime.fromisoformat(length_policy_effective_from)
+        except Exception: errors.append('timestamp efficacia policy lunghezza non valido'); length_policy_effective_dt=datetime.fromisoformat('2026-08-30T10:04:00+02:00')
+    except Exception as exc: errors.append(f'automation/config.json non valido: {exc}')
+if manifest_path.exists():
+    try:
+        manifest=json.loads(manifest_path.read_text())
+        likeness=manifest.get('images',{}).get('public_figure_synthetic_likeness_policy',{})
+        if likeness.get('allowed') is not True: errors.append('protocollo personaggi pubblici non abilitato nel manifest')
+        if likeness.get('policy_mode')!='context_sensitive': errors.append('modalità contestuale immagini pubbliche assente nel manifest')
+        if likeness.get('ordinary_news',{}).get('contextual_scenes_allowed') is not True: errors.append('scene ordinarie non abilitate nel manifest')
+        if likeness.get('ordinary_news',{}).get('relevant_logos_allowed') is not True: errors.append('loghi pertinenti non abilitati nel manifest')
+        if likeness.get('sensitive_news',{}).get('neutral_isolated_portrait_required') is not True: errors.append('ritratto neutrale per casi sensibili assente nel manifest')
+        if likeness.get('must_never_be_presented_as_documentary_evidence') is not True: errors.append('divieto di prova documentaria assente nel manifest')
+        body_policy=manifest.get('news',{}).get('article_body_characters',{})
+        if body_policy.get('mandatory_min')!=2000 or body_policy.get('mandatory_max')!=4500: errors.append('policy manifest articoli non impostata a 2000–4500')
+        if body_policy.get('exceptions_allowed') is not False: errors.append('manifest consente eccezioni di lunghezza non ammesse')
+        if body_policy.get('semantic_repetition_forbidden') is not True: errors.append('manifest non vieta le ripetizioni semantiche')
+    except Exception as exc: errors.append(f'curiomondo-site-manifest.json non valido: {exc}')
+if image_registry_path.exists():
+    try:
+        image_registry=json.loads(image_registry_path.read_text())
+        for item in image_registry.get('items',[]):
+            if item.get('syntheticLikeness')=='public-figure':
+                if item.get('sensitiveContext') not in (True,False):
+                    errors.append(f"classificazione sensibilità assente: {item.get('article','senza articolo')}")
+                if item.get('sensitiveContext') is True:
+                    if item.get('portraitOnly') is not True or item.get('portraitFormat')!='neutral-isolated' or item.get('reenactedEvent') is not False:
+                        errors.append(f"registro sensibile non conforme al ritratto neutrale: {item.get('article','senza articolo')}")
+                    if 'neutral editorial portrait' not in item.get('prompt','').lower():
+                        errors.append(f"prompt sensibile non neutrale: {item.get('article','senza articolo')}")
+    except Exception as exc: errors.append(f'assets/data/editorial-images-v210.json non valido: {exc}')
+html_files=list(root.rglob('*.html'))
+for p in html_files:
+    try: d=html.fromstring(p.read_text(errors='replace'))
+    except Exception as exc: errors.append(f'HTML non valido {p.relative_to(root)}: {exc}'); continue
+    ids=d.xpath('//*[@id]/@id')
+    if len(ids)!=len(set(ids)): errors.append(f'ID duplicati: {p.relative_to(root)}')
+    if d.xpath('//footer//*[contains(concat(" ",normalize-space(@class)," ")," cm-nicaise-signature ")]'): errors.append(f'firma Nicaise nel footer: {p.relative_to(root)}')
+    for img in d.xpath('//img'):
+        if img.get('alt') is None: errors.append(f'alt assente: {p.relative_to(root)}')
+    for url in d.xpath('//@src|//@href'):
+        if not url or url.startswith(('#','http://','https://','mailto:','tel:','data:','javascript:')): continue
+        url=url.split('?')[0].split('#')[0]
+        if not url: continue
+        target=root/url.lstrip('/') if url.startswith('/') else p.parent/url
+        if url.endswith('/'): target=target/'index.html'
+        if not target.exists(): errors.append(f'riferimento rotto {p.relative_to(root)} → {url}')
 
-home=(ROOT/'index.html').read_text()
-archive=(ROOT/'notizie/index.html').read_text()
-search=(ROOT/'assets/data/search-index-v101.json').read_text()
-feed=(ROOT/'feed.xml').read_text()
-site=(ROOT/'sitemap.xml').read_text()
-newsmap=(ROOT/'news-sitemap.xml').read_text()
+news=[p for p in (root/'notizie').glob('*.html') if p.name!='index.html']
+refs=[]
 
-for slug,img in zip(SLUGS,IMAGES):
-    p=ROOT/'notizie'/f'{slug}.html'; check(p.exists(),f'HTML assente: {slug}')
-    if p.exists():
-        t=p.read_text(); check(f'https://curiomondo.it/notizie/{slug}.html' in t,f'canonical assente: {slug}')
-        m=re.search(r'<script type="application/ld\+json">(.*?)</script>',t,re.S)
-        check(bool(m),f'JSON-LD assente: {slug}')
-        if m:
-            try: check(json.loads(m.group(1)).get('@type')=='NewsArticle',f'JSON-LD non NewsArticle: {slug}')
-            except Exception: errors.append(f'JSON-LD invalido: {slug}')
-        art=re.search(r'<article class="art-body"([^>]*)>(.*?)</article>',t,re.S)
-        check(bool(art),f'corpo articolo assente: {slug}')
-        if art:
-            body=art.group(2)
-            check(len(re.findall(r'<p>',body))>=6,f'meno di 6 paragrafi: {slug}')
-            check(not re.search(r'<h[23]\b',body),f'sottotitoli nel corpo: {slug}')
-            plain=htmllib.unescape(re.sub(r'<[^>]+>',' ',body)); chars=len(re.sub(r'\s+',' ',plain).strip())
-            exception=re.search(r'data-length-exception="([^"]{20,})"',art.group(1))
-            check(5000<=chars<=7000 or bool(exception),f'corpo fuori limite 5.000–7.000 senza eccezione motivata: {slug} ({chars})')
-            check('data-length-policy="5000-7000"' in art.group(1) or bool(exception),f'policy lunghezza non dichiarata: {slug}')
-        check('Fonti consultate' in t and 'generata con IA' in t,f'fonti/disclosure assenti: {slug}')
-        check('Perché conta davvero' not in t and 'Perché è rilevante' not in t,f'frase vietata: {slug}')
-    ip=ROOT/'assets/images/optimized'/img; check(ip.exists(),f'immagine assente: {img}')
-    if ip.exists():
-        check(30_000 <= ip.stat().st_size <= 700_000,f'dimensione immagine non conforme: {img}')
-        try:
-            im=Image.open(ip); check(im.size==(960,720),f'crop/dimensioni non 4:3: {img}')
-        except Exception: errors.append(f'immagine illeggibile: {img}')
-    for hay,name in [(home,'home'),(archive,'archivio'),(search,'ricerca'),(feed,'feed'),(site,'sitemap'),(newsmap,'news sitemap')]:
-        check(slug in hay,f'{slug} assente da {name}')
+STOPWORDS={
+    'anche','ancora','avere','aveva','avevano','come','con','contro','dalla','dalle','dello','della','delle','degli','dopo','dove','essere','fino','fra','gli','hanno','il','alla','alle','allo','che','chi','dei','del','dell','dell’','dell\'','dentro','due','era','erano','ha','in','la','le','lo','ma','mentre','nel','nella','nelle','nello','non','per','piu','più','quella','quello','questa','questo','sono','sua','sue','sul','sulla','sulle','tra','una','uno','un','nel','nei','nelle','agli','ai','al','all','alla','alle','allo','e','ed','o','ad','da','di','si','è'
+}
+def norm_text(value):
+    value=(value or '').casefold().replace('’',"'")
+    value=re.sub(r'[^0-9a-zà-öø-ÿ%€$]+',' ',value,flags=re.I)
+    return re.sub(r'\s+',' ',value).strip()
+def content_tokens(value):
+    return {w for w in re.findall(r"[0-9a-zà-öø-ÿ%€$']+",norm_text(value),flags=re.I) if len(w)>=4 and w not in STOPWORDS}
+def near_duplicate(a,b):
+    na,nb=norm_text(a),norm_text(b)
+    if len(na)<70 or len(nb)<70: return False
+    if na==nb: return True
+    seq=SequenceMatcher(None,na,nb).ratio()
+    ta,tb=content_tokens(na),content_tokens(nb)
+    if min(len(ta),len(tb))<6: return seq>=0.92
+    containment=len(ta & tb)/min(len(ta),len(tb))
+    jaccard=len(ta & tb)/max(1,len(ta | tb))
+    return seq>=0.90 or (seq>=0.72 and containment>=0.84 and jaccard>=0.62)
+def article_policy_active(doc):
+    bodies=doc.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," art-body ")]')
+    if bodies and bodies[0].get('data-length-policy')=='2000-4500': return True
+    for raw in doc.xpath('//script[@type="application/ld+json"]/text()'):
+        try: obj=json.loads(raw)
+        except Exception: continue
+        objs=obj if isinstance(obj,list) else [obj]
+        for item in objs:
+            if not isinstance(item,dict): continue
+            typ=item.get('@type')
+            if typ!='NewsArticle' and not (isinstance(typ,list) and 'NewsArticle' in typ): continue
+            stamp=item.get('dateModified') or item.get('datePublished')
+            if not stamp: continue
+            try:
+                dt=datetime.fromisoformat(str(stamp).replace('Z','+00:00'))
+                if dt.tzinfo is None: continue
+                if dt>=length_policy_effective_dt: return True
+            except Exception: pass
+    return False
+caption='Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.'
+for p in news:
+    d=html.fromstring(p.read_text(errors='replace'))
+    if not d.xpath('//main[contains(@class,"wrap")]'): errors.append(f'main non vincolato: {p.name}')
+    bodies=d.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," art-body ")]')
+    if not bodies: errors.append(f'testo articolo assente: {p.name}')
+    elif article_policy_active(d):
+        body=bodies[0]
+        if body.get('data-length-policy')!='2000-4500': errors.append(f'policy lunghezza v248 non dichiarata nel markup: {p.name}')
+        body_text=re.sub(r'\s+',' ',' '.join(body.itertext())).strip()
+        body_chars=len(body_text)
+        if body_chars<2000: errors.append(f'articolo v248 sotto 2000 caratteri: {p.name} ({body_chars})')
+        if body_chars>4500: errors.append(f'articolo v248 sopra 4500 caratteri: {p.name} ({body_chars})')
+        paras=[re.sub(r'\s+',' ',' '.join(x.itertext())).strip() for x in body.xpath('.//p')]
+        paras=[x for x in paras if x]
+        sentences=[]
+        for para in paras:
+            sentences.extend([x.strip() for x in re.split(r'(?<=[.!?])\s+',para) if len(x.strip())>=45])
+        norm_sent=[norm_text(x) for x in sentences]
+        dup_exact=[x for x,c in Counter(norm_sent).items() if x and c>1]
+        if dup_exact: errors.append(f'frasi duplicate nell’articolo v248: {p.name}')
+        found_near=False
+        for i in range(len(sentences)):
+            for j in range(i+1,len(sentences)):
+                if near_duplicate(sentences[i],sentences[j]):
+                    errors.append(f'possibile ripetizione/parafrasi ridondante nell’articolo v248: {p.name} (frasi {i+1}/{j+1})')
+                    found_near=True; break
+            if found_near: break
+        if not found_near:
+            found_para=False
+            for i in range(len(paras)):
+                for j in range(i+1,len(paras)):
+                    if len(paras[i])>=120 and len(paras[j])>=120 and SequenceMatcher(None,norm_text(paras[i]),norm_text(paras[j])).ratio()>=0.82:
+                        errors.append(f'paragrafi ridondanti nell’articolo v248: {p.name} ({i+1}/{j+1})')
+                        found_para=True; break
+                if found_para: break
+    figures=d.xpath('//main/figure[1]')
+    if figures:
+        refs += figures[0].xpath('.//img/@src')
+        if ' '.join(figures[0].xpath('.//figcaption//text()')).strip()!=caption: errors.append(f'didascalia IA errata: {p.name}')
+        if figures[0].get('data-synthetic-likeness')=='public-figure':
+            sensitive=figures[0].get('data-sensitive-context')
+            if sensitive not in ('true','false'): errors.append(f'classificazione sensibilità figura assente: {p.name}')
+            if sensitive=='true':
+                if figures[0].get('data-portrait-format')!='neutral-isolated': errors.append(f'formato ritratto sensibile non dichiarato: {p.name}')
+                alt=' '.join(figures[0].xpath('.//img/@alt')).lower()
+                if 'ritratto editoriale neutrale' not in alt: errors.append(f'alt sensibile non descrive ritratto neutrale: {p.name}')
+    if '29-agosto-2026' in p.name and len(d.xpath('//div[contains(@class,"art-sources")]//a[@href]'))<2:
+        errors.append(f'meno di due fonti nell’articolo recente: {p.name}')
+    def related_key(value):
+        value=unquote(urlparse(value or '').path).rstrip('/')
+        if value.endswith('/index.html'): value=value[:-11]
+        if value.endswith('.html'): value=value[:-5]
+        return value
+    canonical=d.xpath('//link[@rel="canonical"]/@href')
+    current_key=related_key(canonical[0] if canonical else f'/notizie/{p.name}')
+    current_title=' '.join(d.xpath('//main[contains(@class,"wrap")]//h1[1]//text()')).strip().casefold()
+    for link in d.xpath('//section[contains(@class,"curio-related") or contains(@class,"cm-related")]//a[@href]'):
+        linked_title=' '.join(link.xpath('.//strong//text()')).strip().casefold()
+        if related_key(link.get('href'))==current_key or (current_title and linked_title==current_title):
+            errors.append(f'articolo autoreferenziale in Potrebbe interessarti: {p.name}')
+    scripts=d.xpath('//script[contains(@src,"curiomondo-article-v210.js")]/@src')
+    if scripts and not any(re.search(r'[?&]v=\d+(?:&|$)', value) for value in scripts):
+        errors.append(f'cache correlati senza versione numerica: {p.name}')
+for url,count in Counter(refs).items():
+    if count>1: errors.append(f'immagine articolo duplicata ({count}): {url}')
 
-sets=re.findall(r'<div(?: aria-hidden="true")? class="cm-ticker-set">(.*?)</div>',home,re.S)
-check(len(sets)==2,'LIVE deve avere due set duplicati')
-for i,x in enumerate(sets): check(len(re.findall(r'class="ticker-news"',x))==10,f'LIVE set {i+1} non contiene 10 elementi')
-check('data-breaking-id="terremoto_indonesia_100_morti_180000_evacuati_24_agosto_2026"' in home,'hero non impostata sul nuovo bilancio del terremoto in Indonesia')
-check('Domanda del giorno · 24 agosto 2026' in home and Q in home,'domanda corrente assente dalla home')
-qcard=re.search(r'<section aria-label="Domanda del giorno" class="cm-qday">(.*?)</section>',home,re.S)
-check(bool(qcard) and 'Quale verità' not in qcard.group(1),'la home rivela la domanda')
-check(bool(qcard) and 'class="cm-qday-card"' in qcard.group(1) and 'class="cm-qday-hint"' in qcard.group(1),'markup premium della card Domanda del giorno alterato')
-check(bool(qcard) and 'cm-qday-copy' not in qcard.group(1) and 'cm-qday-cta' not in qcard.group(1),'classi non approvate nella card Domanda del giorno')
-deep=re.search(r'<section aria-label="Approfondimenti collegati".*?</section>',home,re.S)
-check(bool(deep) and len(re.findall(r'<a ',deep.group(0)))==3,'approfondimenti home non esattamente 3')
-check('return pinned.concat(ranked).slice(0,5);' in (ROOT/'assets/js/home-original-v101.js').read_text(),'In evidenza non limitato a 5')
-check('Nicaise' in home,'firma Nicaise assente')
-check('home-original-v101.js?v=163' in home and 'home-original-v101.css?v=163' in home,'cache version home non aggiornata')
+home=html.fromstring((root/'index.html').read_text(errors='replace'))
+if home.xpath('//footer//*[contains(concat(" ",normalize-space(@class)," ")," cm-nicaise-signature ")]'): errors.append('firma Nicaise ancora presente nel footer home')
+for selector,label in [('//div[contains(@class,"auto-rail")]//img/@src','Ultime notizie'),('//div[@id="cards"]//img/@src','Tutte le notizie')]:
+    section_refs=home.xpath(selector)
+    if len(section_refs)!=len(set(section_refs)): errors.append(f'immagini duplicate in {label}')
+if len(home.xpath('//nav[contains(@class,"ticker-track")][1]/a'))!=10: errors.append('LIVE non contiene 10 notizie')
+if len(home.xpath('//div[contains(@class,"auto-rail")]/a'))!=5: errors.append('Ultime notizie non contiene 5 articoli')
+if len(home.xpath('//div[contains(@class,"auto-rail")]/a/h3 | //div[contains(@class,"auto-rail")]/a//h3'))!=5: errors.append('titoli mancanti nelle card Ultime notizie')
+if len(home.xpath('//div[contains(@class,"auto-rail")]/a//p[normalize-space()]'))!=5: errors.append('spiegazioni iniziali mancanti nelle card Ultime notizie')
+if len(home.xpath('//div[@id="cards"]/a//h3[normalize-space()]'))<12: errors.append('titoli mancanti nelle card Tutte le notizie')
+if len(home.xpath('//div[@id="cards"]/a//p[normalize-space()]'))<12: errors.append('spiegazioni iniziali mancanti nelle card Tutte le notizie')
+if len(home.xpath('//a[contains(@class,"featured")]'))!=1: errors.append('apertura principale non unica')
+if len(home.xpath('//section[contains(@class,"cm-home-deep-links")]//a'))!=3: errors.append('approfondimenti home non sono 3')
+if 'home-original-v101' in (root/'index.html').read_text(): errors.append('runtime home legacy ancora attivo')
+if not (root/'llms.txt').exists(): errors.append('llms.txt assente')
+else:
+    llms=(root/'llms.txt').read_text(errors='replace')
+    if not re.search(r'(?m)^#\s+\S',llms): errors.append('llms.txt senza H1 Markdown')
+    if not re.search(r'\[[^\]]+\]\(https://[^)]+\)',llms): errors.append('llms.txt senza link Markdown')
 
-qp=ROOT/'domanda-del-giorno'/Q/'index.html'; ep=ROOT/'biblioteca/vita-relazioni/domande-per-conoscersi'/Q/'index.html'
-check(qp.exists() and ep.exists(),'pagina domanda o mini e-book assente')
-if qp.exists():
-    qt=qp.read_text(); flow=re.search(r'<article class="cm-daily-flow">(.*?)</article>',qt,re.S)
-    check(bool(flow),'risposta quotidiana assente')
-    if flow:
-        check(not re.search(r'<h[23]\b',flow.group(1)),'la risposta quotidiana contiene sottotitoli vietati')
-        check(all(len(re.sub(r'<[^>]+>',' ',p))<1000 for p in re.findall(r'<p[^>]*>(.*?)</p>',flow.group(1),re.S)),'paragrafo troppo lungo nella risposta quotidiana')
-    check('4 min di lettura' in qt,'tempo di lettura domanda non conforme')
-if ep.exists():
-    plain=re.sub(r'<[^>]+>',' ',ep.read_text()); plain=htmllib.unescape(re.sub(r'\s+',' ',plain))
-    check(7000<=len(plain)<=15000,f'mini e-book fuori limite: {len(plain)} caratteri')
-check(Q in (ROOT/'domanda-del-giorno/index.html').read_text(),'domanda assente dall’archivio')
-check(Q in (ROOT/'biblioteca/vita-relazioni/domande-per-conoscersi/index.html').read_text(),'mini e-book assente dalla categoria')
-for f in ['feed.xml','sitemap.xml','news-sitemap.xml']:
-    try: ET.parse(ROOT/f)
-    except Exception as e: errors.append(f'{f} non valido: {e}')
-manifest=json.loads((ROOT/'curiomondo-site-manifest.json').read_text())
-check(manifest['daily_state']['last_question_date']=='2026-08-24','manifest domanda non aggiornato')
-state=json.loads((ROOT/'CURIOMONDO-RELEASE-STATE.json').read_text())
-check(state['site_version'] in (161,162,163,164,165,166),'versione candidate/finale inattesa')
-release_date=state.get('release_date','')
-for page in (ROOT/'notizie').glob('*.html'):
-    text=page.read_text()
-    schema=re.search(r'<script type="application/ld\+json">(.*?)</script>',text,re.S)
-    if not schema: continue
-    try: data=json.loads(schema.group(1))
-    except Exception: continue
-    if data.get('@type')!='NewsArticle' or not str(data.get('datePublished','')).startswith(release_date): continue
-    art=re.search(r'<article class="art-body"([^>]*)>(.*?)</article>',text,re.S)
-    check(bool(art),f'articolo del ciclo senza corpo: {page.name}')
-    if not art: continue
-    body=art.group(2); plain=htmllib.unescape(re.sub(r'<[^>]+>',' ',body)); chars=len(re.sub(r'\s+',' ',plain).strip())
-    exception=re.search(r'data-length-exception="([^"]{20,})"',art.group(1))
-    check(5000<=chars<=7000 or bool(exception),f'articolo del ciclo fuori limite senza eccezione: {page.name} ({chars})')
-    check(not re.search(r'<h[23]\b',body),f'articolo del ciclo con sottotitoli nel corpo: {page.name}')
+for p in (root/'assets/js').glob('*-v210.js'):
+    r=subprocess.run(['node','--check',str(p)],capture_output=True,text=True)
+    if r.returncode: errors.append(f'JavaScript non valido: {p.name}')
+zeros=[p for p in root.rglob('*') if p.is_file() and p.suffix.lower() in {'.webp','.avif','.png','.jpg','.jpeg'} and p.stat().st_size==0]
+if zeros: errors.append(f'{len(zeros)} file immagine vuoti')
 
-for page in ROOT.rglob('*.html'):
-    check(not re.search(r'una\s+domanda[.!]?\s+nessuna\s+risposta\s+automatica',page.read_text(),re.I),f'frase vietata Domanda del giorno: {page.relative_to(ROOT)}')
-book_root=ROOT/'biblioteca/vita-relazioni/domande-per-conoscersi'
-for page in book_root.glob('*/index.html'):
-    text=page.read_text(); page_count=len(re.findall(r'\bdata-book-page\b',text)); h2_count=len(re.findall(r'<h2\b',text,re.I))
-    check(4<=page_count<=6,f'mini e-book non sfogliabile o numero pagine errato: {page.parent.name} ({page_count})')
-    check(h2_count<=4,f'troppi sottotitoli nel mini e-book: {page.parent.name} ({h2_count})')
-    check('data-book-prev' in text and 'data-book-next' in text and 'data-book-count' in text,f'controlli libro assenti: {page.parent.name}')
-    check('biblioteca-book-reader-v1.css' in text and 'biblioteca-book-reader-v1.js' in text,f'asset lettore libro assenti: {page.parent.name}')
-    article=re.search(r'<article class="cm-book-shell">(.*?)</article>',text,re.S)
-    if article:
-        plain=htmllib.unescape(re.sub(r'<[^>]+>',' ',article.group(1))); chars=len(re.sub(r'\s+',' ',plain).strip())
-        check(7000<=chars<=15000,f'mini e-book fuori limite: {page.parent.name} ({chars})')
-check((ROOT/'assets/css/biblioteca-book-reader-v1.css').exists(),'CSS lettore libro assente')
-check((ROOT/'assets/js/biblioteca-book-reader-v1.js').exists(),'JS lettore libro assente')
-
-
-check((ROOT/'netlify.toml').exists(),'netlify.toml automazione assente')
-check((ROOT/'netlify/functions/live-feed.mjs').exists(),'funzione live-feed assente')
-check((ROOT/'netlify/functions/live-refresh.mjs').exists(),'funzione live-refresh assente')
-check((ROOT/'netlify/functions/auto-editor.mjs').exists(),'funzione auto editor schedulata assente')
-check((ROOT/'netlify/functions/library-daily.mjs').exists(),'funzione biblioteca giornaliera assente')
-netlify_cfg=(ROOT/'netlify.toml').read_text()
-check('[functions."live-refresh"]' in netlify_cfg and '*/10 * * * *' in netlify_cfg,'schedule LIVE 10 minuti assente')
-check('[functions."auto-editor"]' in netlify_cfg and '0 */2 * * *' in netlify_cfg,'schedule auto editor 2 ore assente')
-check('[functions."library-daily"]' in netlify_cfg and '15 3 * * *' in netlify_cfg,'schedule biblioteca giornaliera assente')
-check('live-dynamic-v166.js?v=166' in home,'loader LIVE dinamica v166 assente dalla home')
-
-if errors:
-    print('PREDEPLOY FAIL')
-    for e in errors: print('-',e)
-    sys.exit(1)
-print('PREDEPLOY OK — 8 articoli, 8 immagini, home, LIVE, domanda, archivi, feed e sitemap verificati')
+# Daily editorial cycle v255: mystery card, reflection, ebook and two queued guides.
+daily_slug='quale-ferita-passata-sta-ancora-parlando-quando-diciamo-sono-fatto-cosi'
+daily_path=root/'domanda-del-giorno'/daily_slug/'index.html'
+book_path=root/'biblioteca/vita-relazioni/domande-per-conoscersi'/daily_slug/'index.html'
+guide_paths=[
+    root/'biblioteca/tecnologia-ai/smartphone-computer/come-recuperare-password-gmail-facebook-instagram-wifi/index.html',
+    root/'biblioteca/tecnologia-ai/smartphone-computer/come-installare-app-android-iphone/index.html',
+]
+qday=home.xpath('//section[contains(concat(" ",normalize-space(@class)," ")," cm-qday ")]')
+if len(qday)!=1: errors.append('card Domanda del giorno v255 assente o duplicata')
+elif not qday[0].xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-qday-link ")]//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-card ")]//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-hint ")]'):
+    errors.append('struttura mystery card v255 incompleta')
+if daily_path.exists():
+    daily=html.fromstring(daily_path.read_text(errors='replace'))
+    if daily.xpath('//h2|//h3'): errors.append('Domanda del giorno v255 contiene H2/H3 vietati')
+    answer=' '.join(daily.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," q-flow ")]/p[not(contains(@class,"q-sign"))]//text()'))
+    if not 1000<=len(re.sub(r'\s+',' ',answer).strip())<=3000: errors.append('risposta Domanda del giorno v255 fuori 1000–3000 caratteri')
+else: errors.append('pagina Domanda del giorno v255 assente')
+if book_path.exists():
+    book=html.fromstring(book_path.read_text(errors='replace'))
+    pages=book.xpath('//*[@data-book-page]')
+    book_text=re.sub(r'\s+',' ',' '.join(book.xpath('//div[contains(concat(" ",normalize-space(@class)," ")," cm-book-stage ")]//p//text()'))).strip()
+    if not 8<=len(pages)<=14: errors.append('eBook v255 fuori 8–14 pagine')
+    if not 15000<=len(book_text)<=30000: errors.append(f'eBook v255 fuori 15000–30000 caratteri ({len(book_text)})')
+    if len(book.xpath('//h2'))>7: errors.append('eBook v255 supera 7 H2')
+    if len(book.xpath('//button[@data-book-prev]'))!=1 or len(book.xpath('//button[@data-book-next]'))!=1: errors.append('controlli eBook v255 non conformi')
+else: errors.append('eBook v255 assente')
+for guide_path in guide_paths:
+    if not guide_path.exists(): errors.append(f'guida giornaliera v255 assente: {guide_path.parent.name}'); continue
+    guide=html.fromstring(guide_path.read_text(errors='replace'))
+    visible=re.sub(r'\s+',' ',' '.join(guide.xpath('//main//article//text()'))).strip()
+    if not 3000<=len(visible)<=15000: errors.append(f'guida v255 fuori 3000–15000 caratteri: {guide_path.parent.name} ({len(visible)})')
+report={'version':255,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
+print(json.dumps(report,ensure_ascii=False,indent=2))
+raise SystemExit(1 if errors else 0)

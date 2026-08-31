@@ -9,9 +9,9 @@
   "date_label": "Guida aggiornata il 17 agosto 2026",
   "date_iso": "2026-08-17T08:20:00+02:00",
   "date_modified": "2026-08-17",
-  "image": "https://curiomondo.it/assets/images/optimized/trump-riduce-esercitazioni-usa-corea-sud-17-agosto-2026-ai-960.webp",
-  "image_alt": "Composizione editoriale illustrativa dedicata all’alleanza militare tra Stati Uniti e Corea del Sud nella penisola coreana",
-  "image_caption": "",
+  "image": "/assets/images/editorial-v210/esercitazioni-corea-1200.webp",
+  "image_alt": "Illustrazione editoriale IA ultrarealistica per Che cosa sono le esercitazioni militari congiunte USA-Corea del Sud?",
+  "image_caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "is_evergreen": true,
   "sections": [
     {
@@ -51,19 +51,46 @@
     }
   ],
   "data_points": [
-    {"value": "1953", "label": "l’anno della firma del trattato di mutua difesa USA-Corea del Sud"},
-    {"value": "2 cicli", "label": "le principali esercitazioni annuali: Freedom Shield e Ulchi Freedom Shield"},
-    {"value": "28.500", "label": "circa i militari statunitensi dislocati stabilmente in Corea del Sud"}
+    {
+      "value": "1953",
+      "label": "l’anno della firma del trattato di mutua difesa USA-Corea del Sud"
+    },
+    {
+      "value": "2 cicli",
+      "label": "le principali esercitazioni annuali: Freedom Shield e Ulchi Freedom Shield"
+    },
+    {
+      "value": "28.500",
+      "label": "circa i militari statunitensi dislocati stabilmente in Corea del Sud"
+    }
   ],
   "conclusion": "Le esercitazioni congiunte sono insieme uno strumento tecnico e un messaggio politico. Servono a far funzionare come una sola forza apparati militari diversi, ma la loro dimensione comunica anche quanto Washington e Seoul intendano mostrare la solidità dell’alleanza. Per questo ogni ampliamento, sospensione o riduzione viene osservato attentamente anche da Pyongyang.",
   "sources": [
-    {"title": "U.S. Army — The Republic of Korea and United States kick off Ulchi Freedom Shield", "url": "https://www.army.mil/article/287711/the_republic_of_korea_and_united_states_kick_off_ulchi_freedom_shield_25"},
-    {"title": "U.S. Army — Network resilience and multi-domain operations at Freedom Shield 26", "url": "https://www.army.mil/article/292449/3d_mdtf_rok_forces_enhance_network_resilience_at_freedom_shield_26"},
-    {"title": "U.S. Forces Korea — Statement on the alliance and U.S. military presence", "url": "https://www.usfk.mil/Media/Press-Products/Speeches-Transcripts/Article/4155924/statement-of-general-xavier-t-brunson-before-the-house-armed-services-committee/"},
-    {"title": "Congressional Research Service — South Korea: Background and U.S. Relations", "url": "https://www.congress.gov/crs-product/IF10165"}
+    {
+      "title": "U.S. Army — The Republic of Korea and United States kick off Ulchi Freedom Shield",
+      "url": "https://www.army.mil/article/287711/the_republic_of_korea_and_united_states_kick_off_ulchi_freedom_shield_25"
+    },
+    {
+      "title": "U.S. Army — Network resilience and multi-domain operations at Freedom Shield 26",
+      "url": "https://www.army.mil/article/292449/3d_mdtf_rok_forces_enhance_network_resilience_at_freedom_shield_26"
+    },
+    {
+      "title": "U.S. Forces Korea — Statement on the alliance and U.S. military presence",
+      "url": "https://www.usfk.mil/Media/Press-Products/Speeches-Transcripts/Article/4155924/statement-of-general-xavier-t-brunson-before-the-house-armed-services-committee/"
+    },
+    {
+      "title": "Congressional Research Service — South Korea: Background and U.S. Relations",
+      "url": "https://www.congress.gov/crs-product/IF10165"
+    }
   ],
   "related": [
-    {"slug": "trump-riduce-esercitazioni-usa-corea-sud-apertura-pyongyang-17-agosto-2026", "title": "Trump ordina di ridurre le esercitazioni con la Corea del Sud"},
-    {"slug": "ucraina-stop-attacchi-petroliere-novorossiysk-richiesta-usa-12-agosto-2026", "title": "Ucraina, stop agli attacchi alle petroliere su richiesta USA"}
+    {
+      "slug": "trump-riduce-esercitazioni-usa-corea-sud-apertura-pyongyang-17-agosto-2026",
+      "title": "Trump ordina di ridurre le esercitazioni con la Corea del Sud"
+    },
+    {
+      "slug": "ucraina-stop-attacchi-petroliere-novorossiysk-richiesta-usa-12-agosto-2026",
+      "title": "Ucraina, stop agli attacchi alle petroliere su richiesta USA"
+    }
   ]
 }

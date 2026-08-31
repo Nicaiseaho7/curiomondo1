@@ -1,0 +1,24 @@
+/* CurioMondo v216 — card landscape con immagine sempre in alto. */
+.auto-rail{grid-auto-columns:minmax(310px,calc((100% - 42px)/3));gap:14px}
+.auto-card{display:flex;flex-direction:column;height:258px;border-radius:19px}
+.auto-card picture{flex:0 0 53%;width:100%;height:auto;aspect-ratio:auto;border-right:0;border-bottom:1px solid rgba(39,112,229,.2)}
+.auto-card .abody{flex:1;width:100%;height:auto;padding:12px 14px 13px;gap:6px}
+.auto-card h3{font-size:.88rem;line-height:1.18;-webkit-line-clamp:3}
+.cards{grid-auto-columns:minmax(325px,calc((100% - 28px)/2));gap:14px}
+.card{display:flex;flex-direction:column;height:270px;border-radius:19px}
+.card picture{flex:0 0 54%;width:100%;height:auto;aspect-ratio:auto;border-right:0;border-bottom:1px solid rgba(27,66,119,.12)}
+.card .body{flex:1;width:100%;height:auto;padding:12px 14px 13px;gap:6px}
+.card h3{font-size:.9rem;line-height:1.19;-webkit-line-clamp:3}
+
+@media(max-width:600px){
+  .auto-rail{grid-auto-columns:min(82vw,314px)}
+  .auto-card{height:238px}
+  .auto-card picture{flex-basis:54%}
+  .auto-card .abody{padding:9px 11px 10px;gap:5px}
+  .auto-card h3{font-size:.78rem;line-height:1.17;-webkit-line-clamp:3}
+  .cards{grid-auto-columns:min(84vw,322px)}
+  .card{height:246px}
+  .card picture{flex-basis:55%}
+  .card .body{padding:9px 11px 10px;gap:5px}
+  .card h3{font-size:.8rem;line-height:1.18;-webkit-line-clamp:3}
+}

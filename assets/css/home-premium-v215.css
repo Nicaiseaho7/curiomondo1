@@ -1,0 +1,28 @@
+/* CurioMondo v215 — card editoriali realmente orizzontali. */
+.auto-rail{grid-auto-columns:minmax(330px,calc((100% - 42px)/3));gap:14px}
+.auto-card{display:grid;grid-template-columns:42% minmax(0,1fr);height:190px;border-radius:19px}
+.auto-card picture{height:100%;aspect-ratio:auto;border-right:1px solid rgba(39,112,229,.18)}
+.auto-card img{height:100%;object-fit:cover}
+.auto-card .abody{height:100%;padding:15px 15px 14px;justify-content:flex-start}
+.auto-card h3{min-height:0;font-size:.91rem;line-height:1.2;-webkit-line-clamp:4}
+.auto-card time{margin-top:auto}
+.cards{grid-auto-columns:minmax(350px,calc((100% - 28px)/2));gap:14px}
+.card{display:grid;grid-template-columns:43% minmax(0,1fr);height:198px;border-radius:19px}
+.card picture{height:100%;aspect-ratio:auto;border-right:1px solid rgba(27,66,119,.11)}
+.card img{height:100%;object-fit:cover}
+.card .body{height:100%;padding:15px 16px;justify-content:flex-start}
+.card h3{min-height:0;font-size:.94rem;line-height:1.22;-webkit-line-clamp:4}
+.card time{margin-top:auto}
+
+@media(max-width:600px){
+  .auto-rail{grid-auto-columns:min(86vw,330px);gap:11px}
+  .auto-card{grid-template-columns:43% minmax(0,1fr);height:170px;border-radius:17px}
+  .auto-card .abody{padding:11px 11px 10px;gap:6px}
+  .auto-card .ameta{font-size:.5rem}
+  .auto-card h3{font-size:.79rem;line-height:1.18;-webkit-line-clamp:4}
+  .cards{grid-auto-columns:min(88vw,338px);gap:11px}
+  .card{grid-template-columns:43% minmax(0,1fr);height:176px;border-radius:17px}
+  .card .body{padding:11px 12px 10px;gap:6px}
+  .card .meta{font-size:.51rem}
+  .card h3{font-size:.81rem;line-height:1.2;-webkit-line-clamp:4}
+}

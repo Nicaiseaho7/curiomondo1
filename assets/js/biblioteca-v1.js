@@ -3,6 +3,12 @@
   const PENDING_KEY = 'cm_biblioteca_pending_resume_v1';
   const reader = document.querySelector('[data-cb-reader]');
 
+  if (document.querySelector('.cm-q-hero')) document.body.classList.add('cm-daily-page');
+  document.querySelectorAll('button:not([type])').forEach((button) => button.setAttribute('type', 'button'));
+  document.querySelectorAll('a[href],button').forEach((control) => {
+    if (!control.hasAttribute('aria-label') && !control.textContent.trim()) control.setAttribute('aria-label', 'Controllo CurioMondo');
+  });
+
   function updateTheme() {
     try {
       document.documentElement.classList.toggle('cm-dark', localStorage.getItem('cm_theme') === 'dark');
@@ -12,9 +18,11 @@
   updateTheme();
   window.addEventListener('storage', updateTheme);
   document.querySelectorAll('[data-cb-theme]').forEach((button) => {
+    button.setAttribute('aria-pressed', String(document.documentElement.classList.contains('cm-dark')));
     button.addEventListener('click', () => {
       const dark = !document.documentElement.classList.contains('cm-dark');
       document.documentElement.classList.toggle('cm-dark', dark);
+      button.setAttribute('aria-pressed', String(dark));
       try {
         localStorage.setItem('cm_theme', dark ? 'dark' : 'light');
       } catch (error) {}

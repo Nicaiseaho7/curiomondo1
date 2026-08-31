@@ -9,9 +9,9 @@
   "date_label": "Guida aggiornata il 19 agosto 2026",
   "date_iso": "2026-08-19T07:20:00+02:00",
   "date_modified": "2026-08-19",
-  "image": "https://curiomondo.it/assets/images/usa-canada-dazi-19-agosto-2026-ai.webp",
-  "image_alt": "Illustrazione editoriale con le bandiere di Stati Uniti e Canada davanti a container commerciali",
-  "image_caption": "Immagine illustrativa generata con l’intelligenza artificiale.",
+  "image": "/assets/images/editorial-v210/guerra-commerciale-usmca-1200.webp",
+  "image_alt": "Illustrazione editoriale IA ultrarealistica per Guerra commerciale USA-Canada: perché i dazi colpiscono entrambi i Paesi e che ruolo ha l’USMCA?",
+  "image_caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "is_evergreen": true,
   "sections": [
     {
@@ -44,16 +44,34 @@
     }
   ],
   "data_points": [
-    {"value": "50%", "label": "l’aliquota dei nuovi dazi statunitensi annunciati su una gamma di prodotti canadesi"},
-    {"value": "$20 mld", "label": "circa il valore delle importazioni canadesi che sarebbero state interessate"},
-    {"value": "3 Paesi", "label": "Stati Uniti, Canada e Messico fanno parte dell’USMCA"}
+    {
+      "value": "50%",
+      "label": "l’aliquota dei nuovi dazi statunitensi annunciati su una gamma di prodotti canadesi"
+    },
+    {
+      "value": "$20 mld",
+      "label": "circa il valore delle importazioni canadesi che sarebbero state interessate"
+    },
+    {
+      "value": "3 Paesi",
+      "label": "Stati Uniti, Canada e Messico fanno parte dell’USMCA"
+    }
   ],
   "conclusion": "La relazione commerciale USA-Canada è così integrata che una tariffa può produrre costi e incertezza su entrambi i lati del confine. Per capire davvero l’impatto di ogni nuova intesa bisogna guardare non soltanto all’aliquota annunciata, ma anche alle merci coinvolte, alle regole dell’USMCA e soprattutto al testo finale dell’accordo.",
   "sources": [
-    {"title": "Reuters — Canada braces for 50% US tariffs, 17 agosto 2026", "url": "https://www.reuters.com/legal/transactional/canada-braces-50-us-tariffs-with-negotiators-still-far-apart-2026-08-17/"},
-    {"title": "Reuters — Trump pauses tariffs on Canadian imports, 18-19 agosto 2026", "url": "https://www.reuters.com/world/americas/carney-trump-speak-ahead-50-us-tariff-deadline-2026-08-18/"}
+    {
+      "title": "Reuters — Canada braces for 50% US tariffs, 17 agosto 2026",
+      "url": "https://www.reuters.com/legal/transactional/canada-braces-50-us-tariffs-with-negotiators-still-far-apart-2026-08-17/"
+    },
+    {
+      "title": "Reuters — Trump pauses tariffs on Canadian imports, 18-19 agosto 2026",
+      "url": "https://www.reuters.com/world/americas/carney-trump-speak-ahead-50-us-tariff-deadline-2026-08-18/"
+    }
   ],
   "related": [
-    {"slug": "usa-canada-trump-sospende-dazi-50-tre-giorni-19-agosto-2026", "title": "USA-Canada, Trump sospende per tre giorni i dazi del 50%"}
+    {
+      "slug": "usa-canada-trump-sospende-dazi-50-tre-giorni-19-agosto-2026",
+      "title": "USA-Canada, Trump sospende per tre giorni i dazi del 50%"
+    }
   ]
 }

@@ -797,7 +797,7 @@ function renderHero() {
     fe.setAttribute("onclick", "openArticle('" + feat + "')");
     fe.style.cursor = "pointer";
     fe.innerHTML =
-      '<img class="bg" alt="" aria-hidden="true" decoding="async" fetchpriority="high" loading="eager" width="960" height="1200" src="' + (f.img || f.cardImg || "") + '">' +
+      '<img class="bg" alt="" aria-hidden="true" decoding="async" fetchpriority="high" loading="eager" width="960" height="720" src="' + (f.img || f.cardImg || "") + '">' +
       '<div class="shade"></div><div class="txt">' +
       '<span class="tag">Ultima ora</span>' +
       '<h1>' + (f.title || "") + '</h1>' +
@@ -1254,15 +1254,19 @@ function getStreak() {
     return d;
   } catch(e) { return {}; }
 }
+function cmLocalDateKey(date) {
+  const d = date || new Date();
+  return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+}
 function bumpStreak() {
-  const today = new Date().toISOString().slice(0, 10);
+  const today = cmLocalDateKey(new Date());
   let d = getStreak();
   if (d.last === today) {
     renderStreak();
     return d.count || 1;
   }
   const y = new Date(); y.setDate(y.getDate() - 1);
-  const ys = y.toISOString().slice(0, 10);
+  const ys = cmLocalDateKey(y);
   if (d.last === ys) d.count = (d.count || 0) + 1;
   else d.count = 1;
   d.last = today;
@@ -1282,14 +1286,25 @@ function openGamesHub() {
   closeDrawer();
   stopListen();
   (function(){ var v=document.getElementById("articleView"); if(v){ v.classList.remove("open"); v.style.display=""; v.style.visibility=""; v.style.pointerEvents=""; } })();
-  document.getElementById("gameView").classList.remove("open");
-  document.getElementById("home").style.display = "none";
+  const gameView=document.getElementById("gameView");
+  const home=document.getElementById("home");
+  const hub=document.getElementById("gamesHub");
+  const grid=document.getElementById("gamesGrid");
+  if(gameView) gameView.classList.remove("open");
+  /* Il vecchio hub non è presente nella UI attuale: torna alla home senza generare eccezioni. */
+  if(!hub || !grid){
+    if(home) home.style.display="";
+    document.body.style.overflow="";
+    renderContinue();
+    updateCards3D();
+    return;
+  }
+  if(home) home.style.display = "none";
   const cont = document.getElementById("continueBar");
   if (cont) cont.classList.remove("on");
-  document.getElementById("gamesHub").classList.add("on");
+  hub.classList.add("on");
   document.body.style.overflow = "";
   renderStreak();
-  const grid = document.getElementById("gamesGrid");
   grid.innerHTML = GAMES.map(g => `
     <article class="game-card" data-gid="${g.id}">
       <div class="gi">${g.icon}</div>
@@ -1304,14 +1319,17 @@ function openGamesHub() {
   document.title = "Sala Giochi – CurioMondo";
 }
 function closeGamesHub() {
-  document.getElementById("gamesHub").classList.remove("on");
-  document.getElementById("home").style.display = "";
+  const hub=document.getElementById("gamesHub");
+  const home=document.getElementById("home");
+  if(hub) hub.classList.remove("on");
+  if(home) home.style.display = "";
   document.title = "CurioMondo – Curiosità e notizie dal mondo";
   renderContinue();
   updateCards3D();
 }
 function closeGame() {
-  document.getElementById("gameView").classList.remove("open");
+  const gameView=document.getElementById("gameView");
+  if(gameView) gameView.classList.remove("open");
   document.body.style.overflow = "";
   openGamesHub();
 }
@@ -1773,7 +1791,8 @@ function runVF(panel, speed) {
 /* patch showHome to close games */
 
 function openDrawer() {
-  document.getElementById("drawer").classList.add("open");
+  const drawer=document.getElementById("drawer");
+  drawer.removeAttribute("inert");drawer.setAttribute("aria-hidden","false");drawer.classList.add("open");
   document.getElementById("drawerOverlay").classList.add("open");
   document.body.style.overflow = "hidden";
   renderDrawerNav();
@@ -1782,7 +1801,8 @@ function openDrawer() {
   if (lab) lab.textContent = dark ? "Modalità chiara" : "Modalità scura";
 }
 function closeDrawer() {
-  document.getElementById("drawer").classList.remove("open");
+  const drawer=document.getElementById("drawer");
+  drawer.classList.remove("open");drawer.setAttribute("aria-hidden","true");drawer.setAttribute("inert","");
   document.getElementById("drawerOverlay").classList.remove("open");
   if (!document.getElementById("articleView").classList.contains("open")) {
     document.body.style.overflow = "";
@@ -1884,7 +1904,12 @@ function renderDrawerNav() {
 })();
 
 function buildTicker() {
-  /* I titoli sono già presenti nell’HTML: nessun contenuto può scomparire in attesa dello script. */
+  /* I titoli sono già presenti nell’HTML: ripara solo il contenitore senza ricreare contenuti. */
+  const track = document.querySelector(".ticker-track");
+  const move = document.getElementById("tickerMove") || (track && track.firstElementChild);
+  if (!move) return;
+  move.id = "tickerMove";
+  move.classList.add("ticker-move");
 }
 
 function boot() {
@@ -1902,15 +1927,19 @@ function boot() {
   const dr = document.getElementById("drawer");
   if (dr) dr.classList.remove("open");
   initTheme();
+  buildTicker();
   const cmTickerPrimary=document.querySelector('#tickerMove .cm-ticker-set:not([aria-hidden])');
   if(!cmTickerPrimary || cmTickerPrimary.querySelectorAll('.ticker-news').length!==10) buildTicker();
   renderCats();
   renderSubs();
-  renderHero();
+  const cmHasSsrHero=!!document.querySelector('#featured[data-breaking-id]');
+  const cmHasSsrRail=document.querySelectorAll('#autoRail .auto-card').length===5;
+  if(!cmHasSsrHero) renderHero();
   renderCards();
   updateFeedChrome();
   renderContinue();
-  if (typeof buildAutoRail === "function") buildAutoRail();
+  if(!cmHasSsrRail && typeof buildAutoRail === "function") buildAutoRail();
+  else cmApplyLazyBackgrounds(document.getElementById('autoRail'));
   if (av) av.addEventListener("scroll", updateArtProgress, {passive:true});
   window.addEventListener("scroll", onScroll3D, {passive:true});
   setTimeout(updateCards3D, 100);
@@ -2004,7 +2033,7 @@ document.addEventListener("DOMContentLoaded", function() { cmIdle(function(){
  // Featured reader: readable preview in-place, then explicit full article.
  window.renderHero=function(){if(window.CM_INITIALIZING)return;
   const picked=pickFeatured(),feat=picked.feat,late=picked.late,f=articles[feat],l=articles[late],fe=document.getElementById('featured');
-  if(fe&&f){const preview=(f.body||'').replace(/<h[2-6][^>]*>/gi,'<p><strong>').replace(/<\/h[2-6]>/gi,'</strong></p>');fe.dataset.id=feat;fe.removeAttribute('onclick');fe.innerHTML='<img class="bg" alt="" aria-hidden="true" decoding="async" fetchpriority="high" loading="eager" width="960" height="1200" src="'+(f.img||f.cardImg||'')+'"><div class="shade"></div><div class="txt"><span class="tag">Ultime notizie</span><h1>'+f.title+'</h1><div class="feature-reader" tabindex="0">'+preview+'</div><div class="feature-lock">↕ Anteprima scorrevole · il resto continua nell’articolo</div><button class="cta" type="button">Apri tutto l’articolo →</button></div>';fe.querySelector('.cta').onclick=()=>openArticle(feat);}
+  if(fe&&f){const preview=(f.body||'').replace(/<h[2-6][^>]*>/gi,'<p><strong>').replace(/<\/h[2-6]>/gi,'</strong></p>');fe.dataset.id=feat;fe.removeAttribute('onclick');fe.innerHTML='<img class="bg" alt="" aria-hidden="true" decoding="async" fetchpriority="high" loading="eager" width="960" height="720" src="'+(f.img||f.cardImg||'')+'"><div class="shade"></div><div class="txt"><span class="tag">Ultime notizie</span><h1>'+f.title+'</h1><div class="feature-reader" tabindex="0">'+preview+'</div><div class="feature-lock">↕ Anteprima scorrevole · il resto continua nell’articolo</div><button class="cta" type="button">Apri tutto l’articolo →</button></div>';fe.querySelector('.cta').onclick=()=>openArticle(feat);}
   const la=document.getElementById('latest');if(la&&l){la.dataset.id=late;la.onclick=()=>openArticle(late);la.innerHTML='<div><div class="lab">Ultima ora</div><h2>'+l.title+'</h2><p>'+l.excerpt+'</p></div>';}
  };
  // Keep exactly ten game families, with persistent unbounded level progression.
@@ -2412,8 +2441,8 @@ function cmLoadSearchIndex(){
   return CM_SEARCH_PROMISE;
 }
 function cmNorm(v){return(v||'').toLocaleLowerCase('it').normalize('NFD').replace(/[\u0300-\u036f]/g,'')}
-function openSiteSearch(){let m=document.getElementById('siteSearchModal');m.classList.add('open');document.body.style.overflow='hidden';cmLoadSearchIndex();setTimeout(()=>document.getElementById('siteSearchInput').focus(),60)}
-function closeSiteSearch(){document.getElementById('siteSearchModal').classList.remove('open');document.body.style.overflow=''}
+function openSiteSearch(){let m=document.getElementById('siteSearchModal');if(!m)return;m.removeAttribute('inert');m.setAttribute('aria-hidden','false');m.classList.add('open');document.body.style.overflow='hidden';cmLoadSearchIndex();setTimeout(()=>document.getElementById('siteSearchInput')?.focus(),60)}
+function closeSiteSearch(){let m=document.getElementById('siteSearchModal');if(!m)return;m.classList.remove('open');m.setAttribute('aria-hidden','true');m.setAttribute('inert','');document.body.style.overflow=''}
 function openSearchResult(u){closeSiteSearch();location.href=u}
 async function runSiteSearch(q){let box=document.getElementById('siteSearchResults'),st=document.getElementById('siteSearchStatus');q=cmNorm(q.trim());if(q.length<2){box.innerHTML='';st.textContent='Scrivi almeno due lettere.';return}st.textContent='Ricerca in corso…';try{let index=await cmLoadSearchIndex(),ws=q.split(/\s+/).filter(Boolean),r=index.map(x=>{let t=cmNorm(x.title),d=cmNorm(x.desc),a=cmNorm(x.text),score=0;ws.forEach(w=>{if(t.includes(w))score+=8;if(d.includes(w))score+=4;if(a.includes(w))score++});return{...x,score}}).filter(x=>x.score).sort((a,b)=>b.score-a.score).slice(0,30);st.textContent=r.length?r.length+' risultati trovati':'Nessun risultato.';box.innerHTML=r.map(x=>`<button type="button" onclick='openSearchResult(${JSON.stringify(x.url)})'><small>NOTIZIA</small><strong>${x.title}</strong><span>${x.desc||'Apri il contenuto completo'}</span><b>→</b></button>`).join('')}catch(e){st.textContent='La ricerca non è disponibile in questo momento.'}}
 document.addEventListener('input',e=>{if(e.target?.id==='siteSearchInput')runSiteSearch(e.target.value)});
@@ -2476,8 +2505,63 @@ const editorialScores={
  uragano_lala_hawaii_big_island_16agosto_2026:9.1,
  simona_quadarella_oro_400_stile_libero_tripletta_parigi_16agosto_2026:9.0
 };
+/* v195: registro cronologico unico per le notizie della homepage. */
+const CM_MONTH_INDEX={gennaio:0,febbraio:1,marzo:2,aprile:3,maggio:4,giugno:5,luglio:6,agosto:7,settembre:8,ottobre:9,novembre:10,dicembre:11};
+function cmStoryTimestamp(id){
+ const a=(typeof articles!=='undefined'&&articles[id])?articles[id]:{},meta=String(a.meta||'').toLocaleLowerCase('it');
+ const m=meta.match(/\b(\d{1,2})\s+(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s+(20\d{2})(?:\D{0,8}(\d{1,2}):(\d{2}))?/i);
+ if(!m)return 0;
+ return new Date(Number(m[3]),CM_MONTH_INDEX[m[2]],Number(m[1]),Number(m[4]||0),Number(m[5]||0),0,0).getTime();
+}
+function cmNormalizeLatestNews(){
+ const source=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS:[];
+ const unique=[];
+ const seenUrls=Object.create(null);
+ source.forEach(function(id){
+  if(!id||unique.indexOf(id)!==-1)return;
+  const url=(typeof EXTERNAL_PAGES!=='undefined'&&EXTERNAL_PAGES[id])||'';
+  if(url&&seenUrls[url])return;
+  if(url)seenUrls[url]=1;
+  unique.push(id);
+ });
+ const originalOrder=new Map(unique.map(function(id,i){return [id,i];}));
+ unique.sort(function(a,b){
+  const ta=cmStoryTimestamp(a),tb=cmStoryTimestamp(b);
+  if(ta&&tb&&ta!==tb)return tb-ta;
+  if(ta&&!tb)return -1;
+  if(!ta&&tb)return 1;
+  return originalOrder.get(a)-originalOrder.get(b);
+ });
+ window.CM_LATEST_NEWS=unique.slice(0,10);
+ return window.CM_LATEST_NEWS;
+}
+function cmRegisterLatestNews(id){
+ const latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
+ window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;}));
+ return cmNormalizeLatestNews();
+}
+/* v195: registra le notizie esterne prima del primo rendering della homepage. */
+(function cmHydratePendingNewsBeforeRender(){
+ const queue=Array.isArray(window.CM_PENDING_DISCOVERY)?window.CM_PENDING_DISCOVERY:[];
+ if(!queue.length||typeof articles==='undefined'||typeof EXTERNAL_PAGES==='undefined'||typeof CM_SEARCH_INDEX==='undefined')return;
+ queue.forEach(function(entry){
+  if(!entry||!entry.id||!entry.url||!entry.item)return;
+  const id=entry.id,url=entry.url;
+  articles[id]=entry.item;
+  EXTERNAL_PAGES[id]=url;
+  if(!entry.evergreen){
+   const latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
+   cmRegisterLatestNews(id);
+  }
+  if(entry.searchItem){
+   for(let i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url)CM_SEARCH_INDEX.splice(i,1);}
+   CM_SEARCH_INDEX.unshift(entry.searchItem);
+  }
+ });
+ window.CM_PENDING_DISCOVERY=[];
+})();
 function currentPriority(){
- const newest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS:[];
+ const newest=cmNormalizeLatestNews();
  return Array.from(new Set(newest.concat(priority)));
 }
 function isEditorialStory(id){
@@ -2517,6 +2601,8 @@ function editorialScore(id,recencyIndex){
  return score;
 }
 function evidenzaIds(){
+ const newest=(Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS:[]).filter(isEditorialStory);
+ if(newest.length>=5)return newest.slice(0,5);
  const main=latestStoryId(),latest=currentPriority(),batch=newestEditorialBatch();
  const pinned=batch.filter(id=>id!==main&&isEditorialStory(id)).slice(0,5);
  const pool=Array.from(new Set(editorialFeatured.concat(latest,Object.keys(articles))));
@@ -2557,7 +2643,7 @@ function renderBreaking(){
  const img=a.img||a.cardImg||'';
  const changed=fe.dataset.breakingId!==id;
  fe.className='featured cm-breaking-single';fe.dataset.breakingId=id;fe.removeAttribute('onclick');fe.setAttribute('aria-label','Ultima ora: '+a.title);
- if(changed||!fe.querySelector('.bg'))fe.innerHTML='<img class="bg" alt="" aria-hidden="true" decoding="async" fetchpriority="high" loading="eager" width="960" height="1200"><div class="shade"></div><div class="txt"><span class="tag">Ultima ora</span><div class="breaking-meta">'+esc(a.badge)+(a.meta?' · '+esc(a.meta):'')+'</div><h1>'+esc(a.title)+'</h1><div class="breaking-reader"><p>'+esc(a.excerpt)+'</p></div><button class="cta" type="button">Leggi la notizia →</button></div>';
+ if(changed||!fe.querySelector('.bg'))fe.innerHTML='<img class="bg" alt="" aria-hidden="true" decoding="async" fetchpriority="high" loading="eager" width="960" height="720"><div class="shade"></div><div class="txt"><span class="tag">Ultima ora</span><div class="breaking-meta">'+esc(a.badge)+(a.meta?' · '+esc(a.meta):'')+'</div><h1>'+esc(a.title)+'</h1><div class="breaking-reader"><p>'+esc(a.excerpt)+'</p></div><button class="cta" type="button">Leggi la notizia →</button></div>';
  const bg=fe.querySelector('.bg');if(bg&&img){if(bg.tagName==='IMG'){if(bg.getAttribute('src')!==img)bg.setAttribute('src',img)}else bg.style.setProperty('background-image','url("'+img.replace(/"/g,'%22')+'")','important')}
  const cta=fe.querySelector('.cta');if(cta&&!cta.dataset.cmBound){cta.dataset.cmBound='1';cta.addEventListener('click',e=>{e.stopPropagation();openId(fe.dataset.breakingId)})}
  if(!fe.dataset.cmBound){fe.dataset.cmBound='1';fe.addEventListener('click',e=>{if(!e.target.closest('button'))openId(fe.dataset.breakingId)})}
@@ -2707,13 +2793,13 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   async function open(){
     if(opening)return;opening=true;previousFocus=document.activeElement;
     const modal=$("cmQuizModal");if(!modal){opening=false;return}
-    modal.classList.add('is-open');modal.setAttribute('aria-hidden','false');document.body.classList.add('cm-quiz-open');
+    modal.removeAttribute('inert');modal.classList.add('is-open');modal.setAttribute('aria-hidden','false');document.body.classList.add('cm-quiz-open');
     $("cmQuizLoading").hidden=false;$("cmQuizMain").hidden=true;
     await loadDB();
     $("cmQuizLoading").hidden=true;$("cmQuizMain").hidden=false;renderQuestion();opening=false;
     setTimeout(()=>$("cmQuizClose").focus({preventScroll:true}),50)
   }
-  function close(){const modal=$("cmQuizModal");if(!modal)return;modal.classList.remove('is-open');modal.setAttribute('aria-hidden','true');document.body.classList.remove('cm-quiz-open');if(previousFocus&&previousFocus.focus)previousFocus.focus({preventScroll:true})}
+  function close(){const modal=$("cmQuizModal");if(!modal)return;modal.classList.remove('is-open');modal.setAttribute('aria-hidden','true');modal.setAttribute('inert','');document.body.classList.remove('cm-quiz-open');if(previousFocus&&previousFocus.focus)previousFocus.focus({preventScroll:true})}
   function next(){if(!answered)return;renderQuestion();const d=$("cmQuizDialog");if(d)d.scrollTo({top:0,behavior:'smooth'})}
 
   window.openCurioQuiz=open;window.closeCurioQuiz=close;
@@ -2756,7 +2842,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
     $('cmWorldCuriosityCategory').textContent=f.category;
     $('cmWorldCuriosityText').textContent=f.text;
     $('cmWorldCuriosityCount').textContent=String(f.count);
-    box.classList.remove('is-visible');box.setAttribute('aria-hidden','false');
+    box.classList.remove('is-visible');box.removeAttribute('inert');box.setAttribute('aria-hidden','false');
     requestAnimationFrame(function(){requestAnimationFrame(function(){box.classList.add('is-visible')})});
     var core=$('cmEarthCore');if(core){core.classList.remove('is-learning');void core.offsetWidth;core.classList.add('is-learning')}
   }
@@ -2774,7 +2860,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   }
   function init(){
     var core=$('cmEarthCore');if(core)core.addEventListener('click',showFact);
-    var close=$('cmWorldCuriosityClose');if(close)close.addEventListener('click',function(){var b=$('cmWorldCuriosity');b.classList.remove('is-visible');b.setAttribute('aria-hidden','true')});
+    var close=$('cmWorldCuriosityClose');if(close)close.addEventListener('click',function(){var b=$('cmWorldCuriosity');b.classList.remove('is-visible');b.setAttribute('aria-hidden','true');b.setAttribute('inert','')});
     document.querySelectorAll('[data-orbit-action]').forEach(function(btn){btn.addEventListener('click',function(){var fn=action(btn.getAttribute('data-orbit-action'));boost(fn)})});
     var boostBtn=$('cmEarthBoostBtn');if(boostBtn&&!window.cmV32TurboInstalled)boostBtn.addEventListener('click',function(){boost()});
     setCount(getCount());
@@ -2790,7 +2876,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   var id="meloni_consensi_giovani_13_agosto_2026", url="notizie/meloni-consensi-giovani-under-35-13-agosto-2026.html", item={"title":"Meloni perde terreno tra i giovani: governo al 25% di approvazione tra gli under 35","shortTitle":"Meloni perde terreno tra i giovani: governo al 25% di approvazione tra gli under 35","excerpt":"Secondo dati YouTrend riportati da Reuters, la coalizione di governo è sotto il 30% tra gli under 35, mentre l’opposizione sfiora il 50%. Le politiche economiche e di sicurezza sono al centro del malcontento.","cat":"italia","sub":"politica","badge":"Italia · Politica · Sondaggi","badgeClass":"","meta":"13 agosto 2026 · Nuovo sviluppo","featured":true,"ultimaOra":true,"img":"assets/images/optimized/meloni-consensi-giovani-13-agosto-2026-960.webp","cardImg":"assets/images/optimized/meloni-consensi-giovani-13-agosto-2026-960.webp","body":"","sources":[]}, searchItem={"title":"Meloni perde terreno tra i giovani: governo al 25% di approvazione tra gli under 35","desc":"Secondo dati YouTrend riportati da Reuters, la coalizione di governo è sotto il 30% tra gli under 35, mentre l’opposizione sfiora il 50%. Le politiche economiche e di sicurezza sono al centro del malcontento.","text":"","url":"notizie/meloni-consensi-giovani-under-35-13-agosto-2026.html"};
   articles[id]=item;
   var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-  window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+  cmRegisterLatestNews(id);
   EXTERNAL_PAGES[id]=url;
   for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url) CM_SEARCH_INDEX.splice(i,1);}
   CM_SEARCH_INDEX.unshift(searchItem);
@@ -2804,7 +2890,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   var id="putin_iturup_giappone_isole_contese_13_agosto_2026", url="notizie/putin-iturup-giappone-isole-contese-13-agosto-2026.html", item={"title":"Putin visita Iturup, il Giappone protesta: tensione sulle isole contese","shortTitle":"Putin visita Iturup, il Giappone protesta: tensione sulle isole contese","excerpt":"Il presidente russo ha visitato Iturup, chiamata Etorofu in Giappone, una delle isole controllate da Mosca e rivendicate da Tokyo. La premier Sanae Takaichi definisce la visita inaccettabile.","cat":"mondo","sub":"geopolitica","badge":"Mondo · Giappone · Russia","badgeClass":"","meta":"13 agosto 2026 · Ultima ora","featured":true,"ultimaOra":true,"img":"assets/images/optimized/putin-iturup-isole-contese-13-agosto-2026-ai-960.webp","cardImg":"assets/images/optimized/putin-iturup-isole-contese-13-agosto-2026-ai-960.webp","body":"","sources":[]}, searchItem={"title":"Putin visita Iturup, il Giappone protesta: tensione sulle isole contese","desc":"Il presidente russo ha visitato Iturup, chiamata Etorofu in Giappone, una delle isole controllate da Mosca e rivendicate da Tokyo. La premier Sanae Takaichi definisce la visita inaccettabile.","text":"","url":"notizie/putin-iturup-giappone-isole-contese-13-agosto-2026.html"};
   articles[id]=item;
   var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-  window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+  cmRegisterLatestNews(id);
   EXTERNAL_PAGES[id]=url;
   for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url) CM_SEARCH_INDEX.splice(i,1);}
   CM_SEARCH_INDEX.unshift(searchItem);
@@ -2818,7 +2904,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   var id="microsoft_cina_ai_azure_13_agosto_2026", url="notizie/microsoft-riduce-presenza-cina-ai-azure-13-agosto-2026.html", item={"title":"Microsoft riduce la presenza in Cina, ma l’AI la convince a restare","shortTitle":"Microsoft riduce la presenza in Cina, ma l’AI la convince a restare","excerpt":"Almeno 15 filiali e joint venture chiuse negli ultimi cinque anni. Le tensioni tra USA e Cina spingono Microsoft a ridurre le attività, ma Azure e l’AI per le imprese cinesi globali mantengono aperta una parte del business.","cat":"tecnologia","sub":"cina","badge":"Tecnologia · AI · Cina","badgeClass":"","meta":"13 agosto 2026 · Ultima ora","featured":true,"ultimaOra":true,"img":"assets/images/optimized/microsoft-cina-ai-13-agosto-2026-ai-960.webp","cardImg":"assets/images/optimized/microsoft-cina-ai-13-agosto-2026-ai-960.webp","body":"","sources":[]}, searchItem={"title":"Microsoft riduce la presenza in Cina, ma l’AI la convince a restare","desc":"Almeno 15 filiali e joint venture chiuse negli ultimi cinque anni. Le tensioni tra USA e Cina spingono Microsoft a ridurre le attività, ma Azure e l’AI per le imprese cinesi globali mantengono aperta una parte del business.","text":"","url":"notizie/microsoft-riduce-presenza-cina-ai-azure-13-agosto-2026.html"};
   articles[id]=item;
   var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-  window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+  cmRegisterLatestNews(id);
   EXTERNAL_PAGES[id]=url;
   for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url) CM_SEARCH_INDEX.splice(i,1);}
   CM_SEARCH_INDEX.unshift(searchItem);
@@ -2857,7 +2943,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   };
   articles[id]=item;
   var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-  window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+  cmRegisterLatestNews(id);
   EXTERNAL_PAGES[id]=url;
   for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url) CM_SEARCH_INDEX.splice(i,1);}
   CM_SEARCH_INDEX.unshift(searchItem);
@@ -2919,7 +3005,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   };
   articles[id]=item;
   var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-  window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+  cmRegisterLatestNews(id);
   EXTERNAL_PAGES[id]=url;
   for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url) CM_SEARCH_INDEX.splice(i,1);}
   CM_SEARCH_INDEX.unshift(searchItem);
@@ -2981,7 +3067,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   };
   articles[id]=item;
   var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-  window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+  cmRegisterLatestNews(id);
   EXTERNAL_PAGES[id]=url;
   for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url) CM_SEARCH_INDEX.splice(i,1);}
   CM_SEARCH_INDEX.unshift(searchItem);
@@ -3161,7 +3247,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   var id="uber_pony_ai_robotaxi_europa_14_agosto_2026", url="notizie/uber-pony-ai-robotaxi-europa-14-agosto-2026.html", item={"title":"Uber e Pony.ai puntano a oltre 2.000 robotaxi in Europa: l’espansione passa da Zagabria","shortTitle":"Uber e Pony.ai puntano a oltre 2.000 robotaxi in Europa: l’espansione passa da Zagabria","excerpt":"Pony.ai e Uber annunciano un piano per portare oltre 2.000 robotaxi in Europa. Dopo Zagabria, il progetto dovrebbe estendersi a quattro città europee che non sono state ancora indicate.","cat":"mondo","sub":"mobilità autonoma","badge":"Nuovo sviluppo","badgeClass":"","meta":"14 agosto 2026 · Nuovo sviluppo","featured":true,"ultimaOra":true,"img":"assets/images/optimized/uber-pony-ai-robotaxi-europa-14-agosto-2026-ai-960.webp","cardImg":"assets/images/optimized/uber-pony-ai-robotaxi-europa-14-agosto-2026-ai-960.webp","body":"","sources":[]}, searchItem={"title":"Uber e Pony.ai puntano a oltre 2.000 robotaxi in Europa: l’espansione passa da Zagabria","desc":"Pony.ai e Uber annunciano un piano per portare oltre 2.000 robotaxi in Europa. Dopo Zagabria, il progetto dovrebbe estendersi a quattro città europee che non sono state ancora indicate.","text":"","url":"notizie/uber-pony-ai-robotaxi-europa-14-agosto-2026.html"};
   articles[id]=item;
   var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-  window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+  cmRegisterLatestNews(id);
   EXTERNAL_PAGES[id]=url;
   for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url) CM_SEARCH_INDEX.splice(i,1);}
   CM_SEARCH_INDEX.unshift(searchItem);
@@ -3175,7 +3261,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   var id="debito_pubblico_italiano_record_3200_miliardi_14_agosto_2026", url="notizie/debito-pubblico-italiano-record-3200-miliardi-14-agosto-2026.html", item={"title":"Debito pubblico italiano, nuovo record storico: superati i 3.200 miliardi di euro","shortTitle":"Debito pubblico italiano, nuovo record storico: superati i 3.200 miliardi di euro","excerpt":"A giugno il debito delle amministrazioni pubbliche è salito a 3.203,5 miliardi di euro, secondo i dati della Banca d’Italia.","cat":"italia","sub":"economia e finanza","badge":"ITALIA · ECONOMIA","badgeClass":"","meta":"14 agosto 2026 · Economia","featured":true,"ultimaOra":true,"img":"../assets/images/optimized/debito-pubblico-italiano-14-agosto-2026-ai-960.webp","cardImg":"../assets/images/optimized/debito-pubblico-italiano-14-agosto-2026-ai-960.webp","body":"","sources":[]}, searchItem={"title":"Debito pubblico italiano, nuovo record storico: superati i 3.200 miliardi di euro","desc":"A giugno il debito delle amministrazioni pubbliche è salito a 3.203,5 miliardi di euro, secondo i dati della Banca d’Italia.","text":"","url":"notizie/debito-pubblico-italiano-record-3200-miliardi-14-agosto-2026.html"};
   articles[id]=item;
   var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-  window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+  cmRegisterLatestNews(id);
   EXTERNAL_PAGES[id]=url;
   for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url) CM_SEARCH_INDEX.splice(i,1);}
   CM_SEARCH_INDEX.unshift(searchItem);
@@ -3189,7 +3275,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   var id="terremoto_indonesia_7_7_maumere_20_morti_15_agosto_2026", url="notizie/terremoto-indonesia-7-7-maumere-20-morti-15-agosto-2026.html", item={"title":"Terremoto 7,7 in Indonesia, il bilancio sale a 47 morti: oltre 150 case distrutte","shortTitle":"Terremoto 7,7 in Indonesia, il bilancio sale a 47 morti: oltre 150 case distrutte","excerpt":"Il nuovo bilancio Reuters parla di almeno 47 morti. Oltre 150 abitazioni sono state distrutte o gravemente danneggiate; i soccorsi restano difficili vicino a Nagekeo.","cat":"mondo","sub":"terremoti e asia","badge":"MONDO · TERREMOTI","badgeClass":"","meta":"15 agosto 2026 · Aggiornamento grave","featured":true,"ultimaOra":true,"img":"../assets/images/optimized/terremoto-indonesia-maumere-15-agosto-2026-ai-960.webp","cardImg":"../assets/images/optimized/terremoto-indonesia-maumere-15-agosto-2026-ai-960.webp","body":"","sources":[]}, searchItem={"title":"Terremoto 7,7 in Indonesia, il bilancio sale a 47 morti: oltre 150 case distrutte","desc":"Il nuovo bilancio Reuters parla di almeno 47 morti. Oltre 150 abitazioni sono state distrutte o gravemente danneggiate; i soccorsi restano difficili vicino a Nagekeo.","text":"","url":"notizie/terremoto-indonesia-7-7-maumere-20-morti-15-agosto-2026.html"};
   articles[id]=item;
   var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-  window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+  cmRegisterLatestNews(id);
   EXTERNAL_PAGES[id]=url;
   for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url) CM_SEARCH_INDEX.splice(i,1);}
   CM_SEARCH_INDEX.unshift(searchItem);
@@ -3229,7 +3315,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   var id="ferran_torres_psg_barcellona_15agosto_2026", url="notizie/ferran-torres-psg-trasferimento-barcellona-15-agosto-2026.html", item={"title":"Ferran Torres lascia il Barcellona: ufficiale il trasferimento al PSG fino al 2031","shortTitle":"Ferran Torres lascia il Barcellona: ufficiale il trasferimento al PSG fino al 2031","excerpt":"Il Paris Saint-Germain ha annunciato l’arrivo di Ferran Torres dal Barcellona. L’attaccante spagnolo ha firmato fino al 2031; secondo i media l’operazione vale circa 50 milioni di euro.","cat":"sport","sub":"calciomercato","badge":"Sport · Calciomercato","badgeClass":"","meta":"15 agosto 2026 · Calciomercato","featured":true,"ultimaOra":true,"img":"assets/images/optimized/ferran-torres-psg-calciomercato-15-agosto-2026-ai-960.webp","cardImg":"assets/images/optimized/ferran-torres-psg-calciomercato-15-agosto-2026-ai-960.webp","body":"","sources":[]}, searchItem={"title":"Ferran Torres lascia il Barcellona: ufficiale il trasferimento al PSG fino al 2031","desc":"Il Paris Saint-Germain ha annunciato l’arrivo di Ferran Torres dal Barcellona. L’attaccante spagnolo ha firmato fino al 2031; secondo i media l’operazione vale circa 50 milioni di euro.","text":"","url":"notizie/ferran-torres-psg-trasferimento-barcellona-15-agosto-2026.html"};
   articles[id]=item;
   var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-  window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+  cmRegisterLatestNews(id);
   EXTERNAL_PAGES[id]=url;
   for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url) CM_SEARCH_INDEX.splice(i,1);}
   CM_SEARCH_INDEX.unshift(searchItem);
@@ -3256,7 +3342,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   var id="uragano_lala_hawaii_big_island_16agosto_2026", url="notizie/uragano-lala-hawaii-big-island-blackout-alluvioni-16-agosto-2026.html", item={"title":"Uragano Lala sfiora la Big Island senza toccare terra: blackout, alluvioni e una vittima","shortTitle":"Uragano Lala sfiora la Big Island senza toccare terra: blackout, alluvioni e una vittima","excerpt":"Lala ha costeggiato la Big Island senza un impatto diretto, ma ha portato piogge torrenziali, raffiche violente, alluvioni e blackout a decine di migliaia di utenze.","cat":"mondo","sub":"usa","badge":"Ultima ora · Hawaii · Uragano","badgeClass":"","meta":"16 agosto 2026 · Ultimo aggiornamento","featured":true,"ultimaOra":true,"img":"assets/images/optimized/uragano-lala-hawaii-big-island-16-agosto-2026-ai-960.webp","cardImg":"assets/images/optimized/uragano-lala-hawaii-big-island-16-agosto-2026-ai-960.webp","body":"","sources":[]}, searchItem={"title":"Uragano Lala sfiora la Big Island senza toccare terra: blackout, alluvioni e una vittima","desc":"Lala ha costeggiato la Big Island senza un impatto diretto, ma ha portato piogge torrenziali, raffiche violente, alluvioni e blackout a decine di migliaia di utenze.","text":"","url":"notizie/uragano-lala-hawaii-big-island-blackout-alluvioni-16-agosto-2026.html"};
   articles[id]=item;
   var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-  window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+  cmRegisterLatestNews(id);
   EXTERNAL_PAGES[id]=url;
   for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url) CM_SEARCH_INDEX.splice(i,1);}
   CM_SEARCH_INDEX.unshift(searchItem);
@@ -3283,7 +3369,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   var id="incendio_belgio_3000_ettari_germania_16agosto_2026", url="notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html", item={"title":"Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania","shortTitle":"Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania","excerpt":"L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.","cat":"mondo","sub":"incendi","badge":"Aggiornamento · Belgio · Incendio record","badgeClass":"","meta":"16 agosto 2026 · Aggiornamento importante","featured":true,"ultimaOra":true,"img":"assets/images/optimized/incendio-belgio-high-fens-16-agosto-2026-ai-960.webp","cardImg":"assets/images/optimized/incendio-belgio-high-fens-16-agosto-2026-ai-960.webp","body":"","sources":[]}, searchItem={"title":"Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania","desc":"L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.","text":"","url":"notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html"};
   articles[id]=item;
   var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-  window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+  cmRegisterLatestNews(id);
   EXTERNAL_PAGES[id]=url;
   for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url) CM_SEARCH_INDEX.splice(i,1);}
   CM_SEARCH_INDEX.unshift(searchItem);
@@ -3310,7 +3396,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   var id="furto_antonello_da_messina_museo_messina_16agosto_2026", url="notizie/furto-antonello-da-messina-museo-messina-16-agosto-2026.html", item={"title":"Colpo al Museo di Messina: rubate quattro opere di Antonello da Messina","shortTitle":"Colpo al Museo di Messina: rubate quattro opere di Antonello da Messina","excerpt":"Tre tavole del Polittico di San Gregorio e una tavoletta bifronte attribuite ad Antonello da Messina sono state rubate al Museo Regionale. Indagini in corso.","cat":"italia","sub":"cronaca","badge":"Nuovo sviluppo · Messina · Furto d’arte","badgeClass":"","meta":"16 agosto 2026 · Nuovo sviluppo rilevante","featured":true,"ultimaOra":true,"img":"assets/images/optimized/furto-antonello-da-messina-museo-16-agosto-2026-ai-960.webp","cardImg":"assets/images/optimized/furto-antonello-da-messina-museo-16-agosto-2026-ai-960.webp","body":"","sources":[]}, searchItem={"title":"Colpo al Museo di Messina: rubate quattro opere di Antonello da Messina","desc":"Tre tavole del Polittico di San Gregorio e una tavoletta bifronte attribuite ad Antonello da Messina sono state rubate al Museo Regionale. Indagini in corso.","text":"","url":"notizie/furto-antonello-da-messina-museo-messina-16-agosto-2026.html"};
   articles[id]=item;
   var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-  window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+  cmRegisterLatestNews(id);
   EXTERNAL_PAGES[id]=url;
   for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url) CM_SEARCH_INDEX.splice(i,1);}
   CM_SEARCH_INDEX.unshift(searchItem);
@@ -3337,7 +3423,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   var id="simona_quadarella_oro_400_stile_libero_tripletta_parigi_16agosto_2026", url="notizie/simona-quadarella-oro-400-stile-libero-tripletta-parigi-16-agosto-2026.html", item={"title":"Simona Quadarella regina d’Europa: oro nei 400 stile libero e terza tripletta storica","shortTitle":"Simona Quadarella regina d’Europa: oro nei 400 stile libero e terza tripletta storica","excerpt":"La romana vince i 400 stile libero in 4’01”34, record dei Campionati, e completa a Parigi la terza tripletta europea della carriera dopo 800 e 1.500.","cat":"sport","sub":"europei","badge":"Sport · Nuoto · Impresa storica","badgeClass":"","meta":"16 agosto 2026 · Impresa storica","featured":true,"ultimaOra":true,"img":"assets/images/optimized/simona-quadarella-oro-400-stile-parigi-16-agosto-2026-ai-960.webp","cardImg":"assets/images/optimized/simona-quadarella-oro-400-stile-parigi-16-agosto-2026-ai-960.webp","body":"","sources":[]}, searchItem={"title":"Simona Quadarella regina d’Europa: oro nei 400 stile libero e terza tripletta storica","desc":"La romana vince i 400 stile libero in 4’01”34, record dei Campionati, e completa a Parigi la terza tripletta europea della carriera dopo 800 e 1.500.","text":"","url":"notizie/simona-quadarella-oro-400-stile-libero-tripletta-parigi-16-agosto-2026.html"};
   articles[id]=item;
   var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-  window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+  cmRegisterLatestNews(id);
   EXTERNAL_PAGES[id]=url;
   for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url) CM_SEARCH_INDEX.splice(i,1);}
   CM_SEARCH_INDEX.unshift(searchItem);
@@ -3364,7 +3450,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
   var id="trump_riduce_esercitazioni_usa_corea_sud_apertura_pyongyang_17agosto_2026", url="notizie/trump-riduce-esercitazioni-usa-corea-sud-apertura-pyongyang-17-agosto-2026.html", item={"title":"Trump ordina di ridurre le esercitazioni militari con la Corea del Sud: apertura a Pyongyang","shortTitle":"Trump ordina di ridurre le esercitazioni militari con la Corea del Sud: apertura a Pyongyang","excerpt":"Il presidente USA chiede al Pentagono di ridimensionare sostanzialmente le Ulchi Freedom Shield, iniziate il 17 agosto. Un segnale politico verso Kim Jong Un mentre resta alta la tensione al confine coreano.","cat":"mondo","sub":"coree","badge":"Nuovo sviluppo · USA · Penisola coreana","badgeClass":"","meta":"17 agosto 2026 · Nuovo sviluppo di forte rilievo","featured":true,"ultimaOra":true,"img":"assets/images/optimized/trump-riduce-esercitazioni-usa-corea-sud-17-agosto-2026-ai-960.webp","cardImg":"assets/images/optimized/trump-riduce-esercitazioni-usa-corea-sud-17-agosto-2026-ai-960.webp","body":"","sources":[]}, searchItem={"title":"Trump ordina di ridurre le esercitazioni militari con la Corea del Sud: apertura a Pyongyang","desc":"Il presidente USA chiede al Pentagono di ridimensionare sostanzialmente le Ulchi Freedom Shield, iniziate il 17 agosto. Un segnale politico verso Kim Jong Un mentre resta alta la tensione al confine coreano.","text":"","url":"notizie/trump-riduce-esercitazioni-usa-corea-sud-apertura-pyongyang-17-agosto-2026.html"};
   articles[id]=item;
   var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-  window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+  cmRegisterLatestNews(id);
   EXTERNAL_PAGES[id]=url;
   for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url) CM_SEARCH_INDEX.splice(i,1);}
   CM_SEARCH_INDEX.unshift(searchItem);
@@ -3395,7 +3481,7 @@ window.addEventListener('pageshow',function(e){if(e.persisted)refresh();});
     EXTERNAL_PAGES[id]=url;
     if(!entry.evergreen){
       var latest=Array.isArray(window.CM_LATEST_NEWS)?window.CM_LATEST_NEWS.slice():[];
-      window.CM_LATEST_NEWS=[id].concat(latest.filter(function(key){return key!==id;})).slice(0,10);
+      cmRegisterLatestNews(id);
     }
     if(entry.searchItem){
       for(var i=CM_SEARCH_INDEX.length-1;i>=0;i--){if(CM_SEARCH_INDEX[i]&&CM_SEARCH_INDEX[i].url===url)CM_SEARCH_INDEX.splice(i,1);}

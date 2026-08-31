@@ -10,6 +10,11 @@
   Content-Type: text/plain; charset=UTF-8
   Cache-Control: public, max-age=300, must-revalidate
 
+/ads.txt
+  Content-Type: text/plain; charset=UTF-8
+  Cache-Control: public, max-age=300, must-revalidate
+  X-Content-Type-Options: nosniff
+
 /notizie/*
   Content-Type: text/html; charset=UTF-8
   Content-Disposition: inline
@@ -28,3 +33,46 @@
 
 /templates/*
   X-Robots-Tag: noindex, nofollow
+
+# CurioMondo v202 performance caching
+/assets/images/*
+  Cache-Control: public, max-age=31536000, immutable
+/assets/css/*
+  Cache-Control: public, max-age=31536000, immutable
+/assets/js/*
+  Cache-Control: public, max-age=31536000, immutable
+/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+/*.png
+  Cache-Control: public, max-age=31536000, immutable
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+# CurioMondo v204 performance and browser hardening
+/
+  Cache-Control: public, max-age=0, must-revalidate
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  X-Frame-Options: SAMEORIGIN
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+/assets/data/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/assets/css/*-v210.css
+  Cache-Control: public, max-age=31536000, immutable
+/assets/js/*-v210.js
+  Cache-Control: public, max-age=31536000, immutable
+/assets/images/editorial-v210/*
+  Cache-Control: public, max-age=31536000, immutable
+/assets/data/*-v210.json
+  Cache-Control: public, max-age=3600, must-revalidate
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=300, must-revalidate
+
+/assets/css/*-v211.css
+  Cache-Control: public, max-age=31536000, immutable

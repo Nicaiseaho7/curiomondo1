@@ -9,9 +9,9 @@
   "date_label": "Guida aggiornata il 15 agosto 2026",
   "date_iso": "2026-08-15T12:00:00+02:00",
   "date_modified": "2026-08-15",
-  "image": "https://curiomondo.it/assets/images/optimized/ferran-torres-psg-calciomercato-15-agosto-2026-ai-960.webp",
-  "image_alt": "Immagine illustrativa di un calciatore in un tunnel di uno stadio durante una sessione di calciomercato",
-  "image_caption": "",
+  "image": "/assets/images/editorial-v210/calciomercato-ufficiale-1200.webp",
+  "image_alt": "Illustrazione editoriale IA ultrarealistica per Quando un trasferimento nel calciomercato è davvero ufficiale? Visite mediche, contratto e comunicati spiegati",
+  "image_caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "is_evergreen": true,
   "sections": [
     {
@@ -44,16 +44,34 @@
     }
   ],
   "data_points": [
-    {"value": "4 passaggi", "label": "accordo, visite, firme e comunicato sono i momenti più visibili"},
-    {"value": "TMS", "label": "lo strumento FIFA usato nei trasferimenti internazionali"},
-    {"value": "Prezzo distinto", "label": "una cifra di stampa non coincide sempre con un valore ufficiale"}
+    {
+      "value": "4 passaggi",
+      "label": "accordo, visite, firme e comunicato sono i momenti più visibili"
+    },
+    {
+      "value": "TMS",
+      "label": "lo strumento FIFA usato nei trasferimenti internazionali"
+    },
+    {
+      "value": "Prezzo distinto",
+      "label": "una cifra di stampa non coincide sempre con un valore ufficiale"
+    }
   ],
   "conclusion": "Nel calciomercato la cautela è utile: un’indiscrezione può essere fondata e un accordo può essere concreto, ma è il comunicato del club a rendere pubblico il trasferimento. Dopo, restano da completare tesseramento e condizioni previste dalle regole applicabili.",
   "sources": [
-    {"title": "FIFA — corso internazionale sui trasferimenti dei calciatori", "url": "https://legal.fifa.com/legal/education/news/international-player-transfer-course-2026-launch-miami"},
-    {"title": "FIFA — nuovo quadro regolamentare per il sistema dei trasferimenti", "url": "https://legal.fifa.com/transfer-system/news/bureau-council-new-regulatory-framework-global-football-transfer-system-2027"}
+    {
+      "title": "FIFA — corso internazionale sui trasferimenti dei calciatori",
+      "url": "https://legal.fifa.com/legal/education/news/international-player-transfer-course-2026-launch-miami"
+    },
+    {
+      "title": "FIFA — nuovo quadro regolamentare per il sistema dei trasferimenti",
+      "url": "https://legal.fifa.com/transfer-system/news/bureau-council-new-regulatory-framework-global-football-transfer-system-2027"
+    }
   ],
   "related": [
-    {"slug": "ferran-torres-psg-trasferimento-barcellona-15-agosto-2026", "title": "Ferran Torres lascia il Barcellona e firma con il PSG"}
+    {
+      "slug": "ferran-torres-psg-trasferimento-barcellona-15-agosto-2026",
+      "title": "Ferran Torres lascia il Barcellona e firma con il PSG"
+    }
   ]
 }

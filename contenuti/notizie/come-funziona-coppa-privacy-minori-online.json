@@ -9,14 +9,23 @@
   "date_label": "Guida aggiornata il 22 agosto 2026",
   "date_iso": "2026-08-22T15:18:00+02:00",
   "date_modified": "2026-08-22",
-  "image": "https://curiomondo.it/assets/images/coppa-privacy-minori-online-ai-1280.webp",
-  "image_alt": "Rappresentazione editoriale di uno smartphone davanti a uno sfondo digitale dedicato alla protezione della privacy dei minori",
-  "image_caption": "Rappresentazione editoriale realistica creata per spiegare la protezione dei dati dei minori online; non è una fotografia documentaria.",
+  "image": "/assets/images/editorial-v210/coppa-privacy-bambini-1200.webp",
+  "image_alt": "Illustrazione editoriale IA ultrarealistica per Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
+  "image_caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "is_evergreen": true,
   "data_points": [
-    {"value": "<13 anni", "label": "la fascia d’età direttamente coperta dalla COPPA negli Stati Uniti"},
-    {"value": "1998", "label": "l’anno di approvazione del Children’s Online Privacy Protection Act"},
-    {"value": "$400 mln", "label": "l’accordo annunciato nel 2026 tra DOJ, TikTok e ByteDance nel contenzioso COPPA"}
+    {
+      "value": "<13 anni",
+      "label": "la fascia d’età direttamente coperta dalla COPPA negli Stati Uniti"
+    },
+    {
+      "value": "1998",
+      "label": "l’anno di approvazione del Children’s Online Privacy Protection Act"
+    },
+    {
+      "value": "$400 mln",
+      "label": "l’accordo annunciato nel 2026 tra DOJ, TikTok e ByteDance nel contenzioso COPPA"
+    }
   ],
   "sections": [
     {
@@ -50,9 +59,18 @@
   ],
   "conclusion": "La COPPA non vieta ai bambini di usare internet: impone alle piattaforme di trattare i loro dati con cautele molto più severe. La vera partita oggi si gioca sulla capacità di verificare l’età senza creare nuovi rischi per la privacy e sulla responsabilità concreta delle aziende quando i sistemi progettati sulla carta non funzionano nella pratica.",
   "sources": [
-    {"title": "U.S. Department of Justice — Justice Department Secures $400M Settlement with TikTok and ByteDance", "url": "https://www.justice.gov/opa/pr/justice-department-secures-400m-settlement-tiktok-and-bytedance-resolve-childrens-privacy"},
-    {"title": "U.S. Department of Justice — Lawsuit against TikTok and ByteDance for alleged COPPA violations, 2024", "url": "https://www.justice.gov/archives/opa/pr/justice-department-sues-tiktok-and-parent-company-bytedance-widespread-violations-childrens"},
-    {"title": "Federal Trade Commission — Children’s Online Privacy Protection Rule", "url": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa"}
+    {
+      "title": "U.S. Department of Justice — Justice Department Secures $400M Settlement with TikTok and ByteDance",
+      "url": "https://www.justice.gov/opa/pr/justice-department-secures-400m-settlement-tiktok-and-bytedance-resolve-childrens-privacy"
+    },
+    {
+      "title": "U.S. Department of Justice — Lawsuit against TikTok and ByteDance for alleged COPPA violations, 2024",
+      "url": "https://www.justice.gov/archives/opa/pr/justice-department-sues-tiktok-and-parent-company-bytedance-widespread-violations-childrens"
+    },
+    {
+      "title": "Federal Trade Commission — Children’s Online Privacy Protection Rule",
+      "url": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa"
+    }
   ],
   "related": []
 }
