@@ -3,6 +3,39 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "test-automazione-pushtrigger-31-agosto-2026-ai-test3",
+      "article": "/notizie/test-automazione-non-pubblicato.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "A quiet European stock exchange trading floor after hours, empty desks with multiple monitors showing abstract non-readable charts, city skyline visible through large windows at dusk Ultra-realistic photojournalistic editorial photography, natural cinematic lighting, sharp focus, no text, no watermark, no logo overlay.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/test-automazione-pushtrigger-31-agosto-2026-ai-test3-480.webp",
+          "sha256": "9ba5cdbc5322d594635897896e1016de69b205bf4aeeec5e101313b36dc2f502",
+          "bytes": 7856
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/test-automazione-pushtrigger-31-agosto-2026-ai-test3-800.webp",
+          "sha256": "577f8cf0fde578a52a195a7933080ee4e06beb91126e2367654d6d1a856d9142",
+          "bytes": 14860
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/test-automazione-pushtrigger-31-agosto-2026-ai-test3-1200.webp",
+          "sha256": "140dce6c90bb39ce9c2d6773a841583553b4e47a418c252adbc188d03522665c",
+          "bytes": 24110
+        }
+      ],
+      "alt": "Test automazione: sala trading europea vuota a fine giornata, monitor con grafici astratti",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
       "key": "sicilia-incendi-emergenza-31-agosto-2026-ai-v255",
       "article": "/notizie/sicilia-incendi-sciacca-ciminna-evacuati-intossicati-31-agosto-2026.html",
       "aiGenerated": true,
