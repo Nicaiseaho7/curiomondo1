@@ -368,11 +368,14 @@
     },
     "articles": {
       "scheduled": true,
-      "interval_hours": 2,
+      "interval_hours": 3,
       "single_deploy_per_cycle": true,
       "multiple_articles_per_cycle": true,
       "fail_closed": true,
-      "auto_publish_active": false
+      "auto_publish_active": true,
+      "pipeline": "claude_code_remote_routine",
+      "cycle_instructions": "automation/prompts/three-hourly-cycle-instructions.md",
+      "image_generation_workflow": ".github/workflows/genera-immagine-editoriale.yml"
     },
     "library": {
       "scheduled": true,
