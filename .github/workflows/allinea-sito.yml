@@ -1,0 +1,55 @@
+name: Allinea repository al sito pubblicato
+
+on:
+  push:
+    paths:
+      - '.github/workflows/allinea-sito.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  TAG: Zip-31-agosto
+  ASSET: curiomondo-v255-31-agosto-2026-incendi-domanda-ferita-netlify.zip
+
+jobs:
+  allinea:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+
+      - name: Scarica lo zip dalla Release
+        run: |
+          set -euo pipefail
+          URL="https://github.com/${GITHUB_REPOSITORY}/releases/download/${TAG}/${ASSET}"
+          echo "Scarico: $URL"
+          curl -sSL --fail -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -o /tmp/sito.zip "$URL"
+          ls -lh /tmp/sito.zip
+
+      - name: Estrai lo zip
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/sito
+          unzip -q /tmp/sito.zip -d /tmp/sito
+          test -f /tmp/sito/index.html || { echo "index.html non trovato nello zip"; exit 1; }
+          echo "File estratti: $(find /tmp/sito -type f | wc -l)"
+
+      - name: Sostituisci il contenuto del repository
+        run: |
+          set -euo pipefail
+          find . -mindepth 1 -maxdepth 1 -not -name '.git' -not -name '.github' -exec rm -rf {} +
+          cp -a /tmp/sito/. .
+          echo "File ora presenti: $(find . -type f -not -path './.git/*' | wc -l)"
+
+      - name: Pubblica le modifiche
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Repository gia allineato."; exit 0; fi
+          git commit -m "Allinea il repository al sito pubblicato (v255, 31 agosto 2026)"
+          git push
+          echo "Allineamento completato."
