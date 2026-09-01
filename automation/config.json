@@ -17,6 +17,9 @@
     "cycle_instructions": "automation/prompts/three-hourly-cycle-instructions.md",
     "image_generation_prompt": "automation/prompts/image-generation-contract.txt",
     "image_policy": "AI-EDITORIAL-IMAGE-PROTOCOL.md",
+    "image_generation_blocking": false,
+    "image_generation_mode": "fire_and_forget_then_backfill",
+    "pending_images_tracking": "automation/state/pending-images.json",
     "public_figure_synthetic_likeness": {
       "allowed": true,
       "scope": "living_or_deceased_public_figures_when_directly_editorially_relevant",

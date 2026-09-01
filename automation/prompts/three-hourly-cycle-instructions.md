@@ -121,14 +121,22 @@ all'auto-rail e alle card, con la card più vecchia che scorre giù/esce.
 - Sotto ogni immagine, `<figcaption>` con **esattamente**:
   `Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.`
 
-### Come generare l'immagine (via richiesta file + GitHub Actions, non generazione diretta)
+### Come generare l'immagine (via richiesta file + GitHub Actions, non generazione diretta, NON bloccante)
 
 Questa sessione non ha accesso a servizi di generazione immagini (rete
 ristretta) e le sessioni orarie di questa Routine **non hanno il connettore
 GitHub/le API GitHub Actions** (limite dell'organizzazione: le Routine non
 possono portare connettori alle sessioni che generano). Il coordinamento con
 il workflow immagine avviene quindi **solo con git semplice** (clone/pull/push),
-che invece funziona regolarmente in ogni sessione con accesso al repository:
+che invece funziona regolarmente in ogni sessione con accesso al repository.
+
+**Importante: la richiesta immagine è "fire-and-forget". Non si attende mai
+il completamento del workflow immagine prima di pubblicare il testo.** Il
+testo dell'articolo si pubblica sempre subito (vedi §4bis per il
+placeholder); l'immagine reale arriva in un passaggio di backfill separato,
+eventualmente in un ciclo successivo. Questo evita che un'attesa di alcuni
+minuti per articolo (moltiplicata per più articoli nello stesso ciclo)
+rischi di far scadere/bloccare la sessione automatica.
 
 1. Scrivere il prompt in inglese seguendo `automation/prompts/image-generation-contract.txt`.
 2. Per ogni articolo, creare un file di richiesta
@@ -144,20 +152,77 @@ che invece funziona regolarmente in ogni sessione con accesso al repository:
    gira su un runner con rete piena, genera le immagini per tutte le
    richieste trovate, aggiorna `assets/data/editorial-images-v210.json`,
    cancella i file di richiesta elaborati e fa commit+push da solo su `main`.
-3. Attendere il completamento **solo con git**, senza alcuna chiamata API:
-   ripetere `git fetch origin main` a intervalli di una decina di secondi
-   (per non più di ~5 minuti in totale) finché, guardando
-   `origin/main`, i file attesi non compaiono in
-   `assets/images/editorial-auto/<filename_base>-{480,800,1200}.webp` **e**
-   il file di richiesta corrispondente non è più presente. Se dopo
-   l'attesa massima le immagini non sono comparse, quel singolo articolo
-   non si pubblica in questo ciclo (gli altri possono proseguire se non
-   dipendono da esso).
-4. Una volta confermato, `git pull origin main` per portare in locale i
-   file appena pubblicati dal workflow prima di scrivere l'HTML
-   dell'articolo che li referenzia.
+3. **Non attendere.** Subito dopo il push della richiesta, procedere a
+   scrivere e pubblicare l'articolo senza immagine reale (vedi §4bis),
+   registrando ogni articolo in `automation/state/pending-images.json`. Il
+   workflow immagine gira in parallelo, in modo indipendente dal ciclo che
+   sta pubblicando il testo.
+
+## 4bis. Pubblicare senza immagine e completare dopo (backfill)
+
+### Placeholder mentre l'immagine è pending
+
+- **Nell'articolo (`notizie/<slug>.html`)**: omettere del tutto il blocco
+  `<figure class="article-image">...</figure>` (nessun placeholder visibile
+  nel corpo — niente immagine è meglio di un'immagine/didascalia fuorviante).
+  `tools/predeploy.py` non richiede `<figure>`: i controlli su didascalia,
+  classificazione volto sensibile e alt ritratto sono tutti condizionali
+  alla sua presenza (verificato leggendo `tools/predeploy.py`).
+- **`og:image`/JSON-LD `image`** nello stesso articolo: usare l'URL assoluto
+  del logo del sito, `https://curiomondo.it/curiomondo-logo-512.png` (gli
+  URL assoluti sono esclusi dal controllo di file rotto/duplicati di
+  `predeploy.py`, quindi non servono trucchi di query string qui).
+- **Card homepage** (`featured`/`auto-rail`/`cards`, ovunque compaia questo
+  articolo): usare come `src` (e come unico valore di `srcset`)
+  `curiomondo-logo-512.png?pending=<slug>` — path relativo al logo già
+  presente in repo, con una query string univoca per articolo. La query
+  string evita il falso positivo del controllo "immagini duplicate in
+  Ultime notizie/Tutte le notizie" (confronta le stringhe `@src` esatte su
+  `auto-rail` e `#cards`), mentre il controllo di file rotto verifica
+  comunque il file reale, perché la query viene sempre rimossa prima del
+  controllo di esistenza. Mantenere `width`/`height` standard delle card
+  (es. `800`/`533`) anche se il logo è quadrato: è solo estetica temporanea.
+- **`assets/data/home-feed-v210.json`**: stesso placeholder (`image`,
+  `imageAlt` = testo neutro tipo "CurioMondo", `srcset` con lo stesso path
+  con query).
+
+### Tracciamento — `automation/state/pending-images.json`
+
+Per ogni articolo pubblicato senza immagine reale, aggiungere una voce:
+```json
+{"slug": "...", "article_path": "/notizie/<slug>.html", "filename_base": "<slug>-ai-v<NNN>", "is_portrait": false, "alt_text": "...", "requested_at": "ISO8601", "homepage_refs": ["featured"]}
+```
+`homepage_refs` elenca le sezioni homepage dove l'articolo compare
+(`featured`, `auto-rail`, `cards` — spesso più di una).
+
+### Backfill (ad ogni ciclo, PRIMA della ricerca di nuove notizie)
+
+1. `git pull origin main`.
+2. Per ogni voce in `automation/state/pending-images.json`, controllare se
+   `assets/images/editorial-auto/<filename_base>-{480,800,1200}.webp`
+   esistono ora nel repo (il workflow immagine li ha pubblicati in un
+   momento imprecisato dopo la richiesta, in modo asincrono).
+3. Se sì: inserire il `<figure>` reale nell'articolo con il markup standard
+   di §5, aggiornare `og:image`/JSON-LD `image` con l'URL reale, sostituire
+   il placeholder con i path reali in ogni sezione homepage elencata in
+   `homepage_refs` e in `assets/data/home-feed-v210.json`, poi rimuovere la
+   voce da `pending-images.json`.
+4. Se ancora non pronta: lasciare la voce, nessun errore. Se una voce resta
+   pending da più di ~48 ore, segnalarlo esplicitamente invece di ritentare
+   in silenzio all'infinito.
+5. Le modifiche di backfill possono andare in un commit dedicato (es.
+   "Aggiorna immagini: <slug1>, <slug2>"), separato dalla pubblicazione di
+   testo nuovo dello stesso ciclo — sempre passando da
+   `python3 tools/predeploy.py` a 0 errori prima del push.
 
 ## 5. Template markup esatto da riusare
+
+**Nota immagine pending**: il template sotto mostra il caso con immagine
+reale già pronta (`FILENAME_BASE`). Se l'immagine per questo articolo è
+ancora pending (§4bis): sostituire `og:image`/JSON-LD `image` con
+`https://curiomondo.it/curiomondo-logo-512.png` e **omettere interamente**
+il blocco `<figure class="article-image">...</figure>` dal corpo. Tutto il
+resto del template resta identico.
 
 ### `<head>` (adattare titolo/descrizione/URL/JSON-LD)
 
@@ -257,6 +322,10 @@ pubblicare, gira comunque nel passo 8 sotto, ma è utile saperlo prima):
 - Ogni `<img>` deve avere `alt`. Nessun link interno rotto.
 - Nessuna immagine duplicata tra articoli (il registro/hash lo previene se si usa
   sempre `filename_base` univoco).
+- **Nessuna di queste regole obbliga `<figure>` a esistere.** Se l'immagine è
+  ancora pending, l'articolo si pubblica senza `<figure>` seguendo §4bis: è
+  una pubblicazione pienamente valida per il gate automatico, non un'eccezione
+  da giustificare.
 
 ### Template approfondimento evergreen (quando serve)
 
@@ -305,26 +374,37 @@ in `curio-related`. Registrare il nuovo approfondimento anche in `approfondiment
     — bump coerente di `site_version`/`currentVersion`/`articleCount`, aggiornare
     `last_update`, `release_date`, e in `curiomondo-site-manifest.json` il blocco
     `last_release` (news_added con gli slug, evergreen_added se applicabile).
+12. `automation/state/pending-images.json` — aggiungere una voce per ogni
+    articolo pubblicato senza immagine reale (§4bis); rimuovere le voci
+    completate durante un backfill.
 
 ## 7. Sequenza operativa completa del ciclo
 
 1. `git pull origin main` (partire sempre dallo stato pubblicato più recente).
-2. Ricerca e verifica di tutte le notizie idonee nella finestra del ciclo (§1).
-3. Se nessuna notizia valida → **fine ciclo, nessuna modifica, nessun commit**.
-4. Per ciascun articolo: decidere `is_portrait`/scena, scrivere il prompt immagine,
-   triggerare il workflow `genera-immagine-editoriale.yml` (§4).
-5. Attendere il completamento di tutte le run immagine di questo ciclo.
-6. `git pull origin main` per prendere le immagini appena pubblicate.
-7. Scrivere l'HTML di ogni articolo (§5), decidere il nuovo "featured", e
-   aggiornare **tutti** i file di §6 in modo coerente tra loro.
-8. `pip install -r automation/requirements.txt` (garantisce `lxml`), poi
+2. **Backfill prima di tutto**: controllare `automation/state/pending-images.json`
+   e completare con l'immagine reale ogni voce per cui le webp sono già
+   comparse in repo (§4bis). Questo può già generare un commit a sé, prima
+   di cercare notizie nuove.
+3. Ricerca e verifica di tutte le notizie idonee nella finestra del ciclo (§1).
+4. Se nessuna notizia valida → **fine ciclo qui** (il backfill del passo 2,
+   se ha prodotto modifiche, resta comunque valido e va pubblicato).
+5. Per ciascun articolo: decidere `is_portrait`/scena, scrivere il prompt
+   immagine, pushare la richiesta (§4) **senza attendere il completamento**.
+6. Scrivere subito l'HTML di ogni articolo (§4bis: nessun `<figure>`,
+   placeholder logo su homepage/`og:image`), decidere il nuovo "featured", e
+   aggiornare **tutti** i file di §6 in modo coerente tra loro, incluso
+   `automation/state/pending-images.json`.
+7. `pip install -r automation/requirements.txt` (garantisce `lxml`), poi
    `python3 tools/predeploy.py`. Se l'exit code non è 0, **non pubblicare**:
    correggere gli errori riportati o, se non risolvibili in questo ciclo,
    abortire senza fare commit.
-9. Un solo `git add -A && git commit && git push` verso `main` per l'intero ciclo,
-   con messaggio che elenca gli articoli pubblicati.
+8. Un solo `git add -A && git commit && git push` verso `main` per l'intero
+   ciclo, con messaggio che elenca gli articoli pubblicati (e se pending
+   immagine, dirlo nel messaggio).
 
-Se un passaggio fallisce (immagine non generata, predeploy che non passa,
-notizia che non regge la verifica), quell'articolo (o l'intero ciclo, se serve)
-salta senza pubblicare nulla di non conforme. Meglio un ciclo senza pubblicazioni
-che un articolo che viola il protocollo.
+Se un passaggio fallisce (predeploy che non passa, notizia che non regge la
+verifica), quell'articolo (o l'intero ciclo, se serve) salta senza pubblicare
+nulla di non conforme. La sola immagine non ancora pronta **non è più un
+motivo per non pubblicare**: si pubblica il testo e si completa dopo (§4bis).
+Meglio un ciclo senza pubblicazioni valide che un articolo che viola il
+protocollo.
