@@ -7,8 +7,8 @@
     "current_protocol_version": "1.8",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-08-30",
-    "current_site_version": 256,
-    "site_version": 256
+    "current_site_version": 257,
+    "site_version": 257
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -18,7 +18,7 @@
     "legacy_update_notes"
   ],
   "daily_state": {
-    "last_question_date": "2026-08-31",
+    "last_question_date": "2026-09-01",
     "question_archive_path": "/domanda-del-giorno/",
     "question_library_root": "/biblioteca/vita-relazioni/",
     "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE",
@@ -39,7 +39,7 @@
       "library_theme": "premium_white_blue",
       "page_turn": "disabled_accessible_buttons_only"
     },
-    "last_question_slug": "quale-ferita-passata-sta-ancora-parlando-quando-diciamo-sono-fatto-cosi"
+    "last_question_slug": "cosa-temiamo-di-perdere-quando-temiamo-di-non-essere-piu-noi"
   },
   "daily_question": {
     "required": true,
@@ -403,7 +403,7 @@
     "homepage_latest_count": 3,
     "deduplicate_existing_guides": true
   },
-  "site_version": 256,
+  "site_version": 257,
   "monetization": {
     "provider": "Google AdSense",
     "publisher_id": "pub-8050187517048759",
@@ -416,26 +416,18 @@
     "editorial_images": "Every new article or update MUST use a completely new hero visual; no reuse, crop, resize, filter, rename, or derivation of previously published assets. Public figures may appear in relevant locations and settings, including relevant logos, for ordinary news; sensitive or painful contexts require a neutral isolated portrait.",
     "article_audio": "Prefer premium pre-generated neural audio when available; otherwise choose the best Italian premium/enhanced deep voice exposed by the device, with natural sentence chunking, rate 0.92 and pitch 0.78."
   },
-  "version": "v256",
-  "release_version": "v256",
+  "version": "v257",
+  "release_version": "v257",
   "last_release_date": "2026-09-01",
   "last_release": {
-    "version": 256,
+    "version": 257,
     "date": "2026-09-01",
-    "baseline_version": 255,
-    "news_added": [
-      "cina-taiwan-forum-isole-pacifico-palau-1-settembre-2026",
-      "g20-finanze-asheville-pressione-usa-iran-31-agosto-2026",
-      "israele-regno-unito-espulsione-centro-gaza-cisgiordania-1-settembre-2026",
-      "pnrr-chiusura-fase-attuazione-31-agosto-2026"
-    ],
-    "news_updated": [
-      "svizzera-sparatoria-rave-aarau-morto-cinque-feriti-30-agosto-2026",
-      "governo-proroga-taglio-accise-carburanti-25-agosto-2026"
-    ],
+    "baseline_version": 256,
+    "news_added": [],
+    "news_updated": [],
     "evergreen_added": [],
-    "daily_question_added": null,
-    "ebook_added": null,
+    "daily_question_added": "cosa-temiamo-di-perdere-quando-temiamo-di-non-essere-piu-noi",
+    "ebook_added": "cosa-temiamo-di-perdere-quando-temiamo-di-non-essere-piu-noi",
     "guides_added": [],
     "ads_txt": "preserved-authorized-v254",
     "image_policy_applied": "test-automazione-3-mondo-3-italia-nessun-volto-scena-in-scena-scomoda"

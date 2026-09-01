@@ -1,8 +1,8 @@
 {
-  "site_version": 256,
+  "site_version": 257,
   "articleCount": 205,
   "generatedEditorialImages": 87,
-  "baseline_version": 255,
+  "baseline_version": 256,
   "release_date": "2026-09-01",
   "protocol_files": [
     "AGENTS.md",
@@ -12,13 +12,13 @@
     "CURIO-MONDO-PROTOCOLLO-MAESTRO.md",
     "curiomondo-site-manifest.json"
   ],
-  "last_daily_question_date": "2026-08-31",
-  "version": "256",
+  "last_daily_question_date": "2026-09-01",
+  "version": "257",
   "date": "2026-09-01",
   "baseline": "curiomondo-v255-31-agosto-2026-sicilia-incendi-domanda-ferita-guide.zip",
-  "last_update": "test-automazione-3mondo-3italia-v256",
-  "performance_pass": "Sei nuove immagini WebP responsive 480/800/1200 generate via workflow GitHub Actions; homepage e feed aggiornati senza immagini duplicate.",
-  "currentVersion": 256,
-  "baselineVersion": 255,
-  "designRestored": "Test automazione ogni 3 ore: 4 nuovi articoli (Cina-Taiwan, G20 Finanze, Israele-UK, PNRR) e 2 aggiornamenti sostanziali (sparatoria Aarau, decreto carburanti); home, LIVE e indici riallineati."
+  "last_update": "domanda-del-giorno-cosa-temiamo-di-perdere-v257",
+  "performance_pass": "Domanda del giorno e eBook pubblicati, nessuna immagine coinvolta in questo ciclo.",
+  "currentVersion": 257,
+  "baselineVersion": 256,
+  "designRestored": "Nuova Domanda del giorno del 1 settembre 2026 (\"Che cosa temiamo di perdere quando temiamo di «non essere più noi»?\") con eBook abbinato di 12 pagine; homepage, archivio e predeploy allineati."
 }

@@ -223,8 +223,8 @@ for p in (root/'assets/js').glob('*-v210.js'):
 zeros=[p for p in root.rglob('*') if p.is_file() and p.suffix.lower() in {'.webp','.avif','.png','.jpg','.jpeg'} and p.stat().st_size==0]
 if zeros: errors.append(f'{len(zeros)} file immagine vuoti')
 
-# Daily editorial cycle v255: mystery card, reflection, ebook and two queued guides.
-daily_slug='quale-ferita-passata-sta-ancora-parlando-quando-diciamo-sono-fatto-cosi'
+# Daily editorial cycle v256: mystery card, reflection, ebook and two queued guides.
+daily_slug='cosa-temiamo-di-perdere-quando-temiamo-di-non-essere-piu-noi'
 daily_path=root/'domanda-del-giorno'/daily_slug/'index.html'
 book_path=root/'biblioteca/vita-relazioni/domande-per-conoscersi'/daily_slug/'index.html'
 guide_paths=[
