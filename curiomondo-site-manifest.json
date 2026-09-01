@@ -7,7 +7,8 @@
     "current_protocol_version": "1.8",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-08-30",
-    "current_site_version": 255
+    "current_site_version": 256,
+    "site_version": 256
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -402,7 +403,7 @@
     "homepage_latest_count": 3,
     "deduplicate_existing_guides": true
   },
-  "site_version": 255,
+  "site_version": 256,
   "monetization": {
     "provider": "Google AdSense",
     "publisher_id": "pub-8050187517048759",
@@ -415,26 +416,29 @@
     "editorial_images": "Every new article or update MUST use a completely new hero visual; no reuse, crop, resize, filter, rename, or derivation of previously published assets. Public figures may appear in relevant locations and settings, including relevant logos, for ordinary news; sensitive or painful contexts require a neutral isolated portrait.",
     "article_audio": "Prefer premium pre-generated neural audio when available; otherwise choose the best Italian premium/enhanced deep voice exposed by the device, with natural sentence chunking, rate 0.92 and pitch 0.78."
   },
-  "version": "v255",
-  "release_version": "v255",
-  "last_release_date": "2026-08-31",
+  "version": "v256",
+  "release_version": "v256",
+  "last_release_date": "2026-09-01",
   "last_release": {
-    "version": 255,
-    "date": "2026-08-31",
-    "baseline_version": 254,
+    "version": 256,
+    "date": "2026-09-01",
+    "baseline_version": 255,
     "news_added": [
-      "sicilia-incendi-sciacca-ciminna-evacuati-intossicati-31-agosto-2026"
+      "cina-taiwan-forum-isole-pacifico-palau-1-settembre-2026",
+      "g20-finanze-asheville-pressione-usa-iran-31-agosto-2026",
+      "israele-regno-unito-espulsione-centro-gaza-cisgiordania-1-settembre-2026",
+      "pnrr-chiusura-fase-attuazione-31-agosto-2026"
     ],
-    "news_updated": [],
+    "news_updated": [
+      "svizzera-sparatoria-rave-aarau-morto-cinque-feriti-30-agosto-2026",
+      "governo-proroga-taglio-accise-carburanti-25-agosto-2026"
+    ],
     "evergreen_added": [],
-    "daily_question_added": "quale-ferita-passata-sta-ancora-parlando-quando-diciamo-sono-fatto-cosi",
-    "ebook_added": "quale-ferita-passata-sta-ancora-parlando-quando-diciamo-sono-fatto-cosi",
-    "guides_added": [
-      "come-recuperare-password-gmail-facebook-instagram-wifi",
-      "come-installare-app-android-iphone"
-    ],
+    "daily_question_added": null,
+    "ebook_added": null,
+    "guides_added": [],
     "ads_txt": "preserved-authorized-v254",
-    "image_policy_applied": "sensitive-wildfire-context-no-visible-victims-v255"
+    "image_policy_applied": "test-automazione-3-mondo-3-italia-nessun-volto-scena-in-scena-scomoda"
   },
   "release_notes": {
     "v208": "Correzioni mobile: deduplica per URL, immagine UEFA/Infantino, bootstrap critico, AVIF LCP, aria/inert per navigazione agentica."
