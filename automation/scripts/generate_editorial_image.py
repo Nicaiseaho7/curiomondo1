@@ -24,6 +24,7 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parents[2]
 IMAGE_DIR = ROOT / "assets/images/editorial-auto"
 REGISTRY_PATH = ROOT / "assets/data/editorial-images-v210.json"
+REQUESTS_DIR = ROOT / "automation/state/image-requests"
 DISCLOSURE = "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria."
 MASTER_W, MASTER_H = 1600, 1067  # 3:2, coerente con il layout esistente del sito
 VARIANT_WIDTHS = (480, 800, 1200)
@@ -90,33 +91,21 @@ def save_variants(master_bytes: bytes, filename_base: str) -> list[dict]:
     return variants
 
 
-def update_registry(item: dict) -> None:
+def update_registry(items: list[dict]) -> None:
+    if not items:
+        return
     registry = json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
     registry.setdefault("items", [])
-    registry["items"] = [i for i in registry["items"] if i.get("key") != item["key"]]
-    registry["items"].insert(0, item)
+    keys = {i["key"] for i in items}
+    registry["items"] = [i for i in registry["items"] if i.get("key") not in keys]
+    registry["items"] = items + registry["items"]
     REGISTRY_PATH.write_text(json.dumps(registry, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def main() -> int:
-    base_prompt = env("IMAGE_PROMPT")
-    filename_base = env("FILENAME_BASE")
-    article_path = env("ARTICLE_PATH")
-    alt_text = env("ALT_TEXT")
-    is_portrait = env("IS_PORTRAIT", "false").lower() == "true"
-    sensitive = env("SENSITIVE", "false").lower() == "true"
-
-    if not base_prompt or not filename_base or not article_path or not alt_text:
-        print(json.dumps({"status": "error", "reason": "missing_required_input"}))
-        return 2
-    if is_portrait and "ritratto editoriale neutrale" not in alt_text.lower():
-        print(json.dumps({"status": "error", "reason": "portrait_alt_text_missing_required_phrase"}))
-        return 3
-
+def build_item(base_prompt: str, filename_base: str, article_path: str, alt_text: str, is_portrait: bool, sensitive: bool) -> dict:
     full_prompt = build_prompt(base_prompt, is_portrait)
     master_bytes = fetch_master_image(full_prompt)
     variants = save_variants(master_bytes, filename_base)
-
     item = {
         "key": filename_base,
         "article": article_path,
@@ -133,10 +122,79 @@ def main() -> int:
     }
     if is_portrait:
         item["syntheticLikeness"] = "public-figure"
-    update_registry(item)
+    return item
 
-    print(json.dumps({"status": "ok", "key": filename_base, "variants": variants}, ensure_ascii=False))
+
+def process_single_request(req: dict) -> dict | None:
+    base_prompt = (req.get("prompt") or "").strip()
+    filename_base = (req.get("filename_base") or "").strip()
+    article_path = (req.get("article_path") or "").strip()
+    alt_text = (req.get("alt_text") or "").strip()
+    is_portrait = bool(req.get("is_portrait", False))
+    sensitive = bool(req.get("sensitive", False))
+    if not base_prompt or not filename_base or not article_path or not alt_text:
+        print(json.dumps({"status": "error", "reason": "missing_required_field", "request": req}, ensure_ascii=False))
+        return None
+    if is_portrait and "ritratto editoriale neutrale" not in alt_text.lower():
+        print(json.dumps({"status": "error", "reason": "portrait_alt_text_missing_required_phrase", "key": filename_base}, ensure_ascii=False))
+        return None
+    return build_item(base_prompt, filename_base, article_path, alt_text, is_portrait, sensitive)
+
+
+def main_single_from_env() -> int:
+    """Modalità singola per workflow_dispatch manuale/di test (input diretti)."""
+    req = {
+        "prompt": env("IMAGE_PROMPT"),
+        "filename_base": env("FILENAME_BASE"),
+        "article_path": env("ARTICLE_PATH"),
+        "alt_text": env("ALT_TEXT"),
+        "is_portrait": env("IS_PORTRAIT", "false").lower() == "true",
+        "sensitive": env("SENSITIVE", "false").lower() == "true",
+    }
+    item = process_single_request(req)
+    if item is None:
+        return 2
+    update_registry([item])
+    print(json.dumps({"status": "ok", "key": item["key"], "variants": item["variants"]}, ensure_ascii=False))
     return 0
+
+
+def main_batch_from_requests_dir() -> int:
+    """Modalità principale della pipeline: elabora tutte le richieste immagine
+    accodate in automation/state/image-requests/*.json da un ciclo editoriale
+    (scritte via git push semplice, senza bisogno dell'API GitHub/connettore)."""
+    if not REQUESTS_DIR.exists():
+        print(json.dumps({"status": "no_requests", "reason": "requests_dir_missing"}, ensure_ascii=False))
+        return 0
+    request_files = sorted(REQUESTS_DIR.glob("*.json"))
+    if not request_files:
+        print(json.dumps({"status": "no_requests"}, ensure_ascii=False))
+        return 0
+
+    items: list[dict] = []
+    errors: list[str] = []
+    for path in request_files:
+        try:
+            req = json.loads(path.read_text(encoding="utf-8"))
+        except Exception as exc:  # noqa: BLE001
+            errors.append(f"{path.name}: json non valido ({exc})")
+            continue
+        item = process_single_request(req)
+        if item is None:
+            errors.append(f"{path.name}: richiesta non valida")
+            continue
+        items.append(item)
+        path.unlink()
+
+    update_registry(items)
+    print(json.dumps({"status": "ok", "processed": [i["key"] for i in items], "errors": errors}, ensure_ascii=False))
+    return 0 if items else 1
+
+
+def main() -> int:
+    if env("IMAGE_PROMPT"):
+        return main_single_from_env()
+    return main_batch_from_requests_dir()
 
 
 if __name__ == "__main__":

@@ -19,6 +19,19 @@ riporta markup letterale, va riusato esattamente in quella forma.
 Se uno di questi file manca o è incoerente con questo manuale, interrompere il
 ciclo senza pubblicare nulla e segnalarlo (nessuna pubblicazione forzata).
 
+### Accesso al repository in questa sessione
+
+Le sessioni generate da questa Routine **non hanno il connettore
+GitHub/le API GitHub** (limite dell'organizzazione: le Routine non possono
+portare connettori). Funzionano invece normalmente il git da riga di comando
+(clone, fetch, pull, push con le credenziali già disponibili nella sessione)
+e gli strumenti di ricerca web. Se il repository non risulta già disponibile
+in locale, usare `add_repo` (owner `Nicaiseaho7`, repo `curiomondo1`,
+`access: "push"`) e poi clonarlo con git normale su `main`. Tutto il
+coordinamento con GitHub Actions in questo ciclo (§4) avviene quindi solo
+via git (push di file, poi poll con `git fetch`), mai via chiamate dirette
+alle API GitHub.
+
 ## 1. Ricerca notizie
 
 - Fonti primarie: i feed RSS Google News già filtrati in `automation/live-sources.json`
@@ -102,26 +115,41 @@ all'auto-rail e alle card, con la card più vecchia che scorre giù/esce.
 - Sotto ogni immagine, `<figcaption>` con **esattamente**:
   `Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.`
 
-### Come generare l'immagine (workflow, non generazione diretta)
+### Come generare l'immagine (via richiesta file + GitHub Actions, non generazione diretta)
 
 Questa sessione non ha accesso a servizi di generazione immagini (rete
-ristretta). Per ogni articolo:
+ristretta) e le sessioni orarie di questa Routine **non hanno il connettore
+GitHub/le API GitHub Actions** (limite dell'organizzazione: le Routine non
+possono portare connettori alle sessioni che generano). Il coordinamento con
+il workflow immagine avviene quindi **solo con git semplice** (clone/pull/push),
+che invece funziona regolarmente in ogni sessione con accesso al repository:
+
 1. Scrivere il prompt in inglese seguendo `automation/prompts/image-generation-contract.txt`.
-2. Triggerare `.github/workflows/genera-immagine-editoriale.yml` con
-   `mcp__github__actions_run_trigger` (`method: run_workflow`, `workflow_id: genera-immagine-editoriale.yml`,
-   `ref: main`, `inputs: {prompt, filename_base, article_path, alt_text, is_portrait, sensitive}`).
-   `filename_base` deve essere uno slug deterministico e unico, es.
-   `<slug-notizia>-ai-v<NNN>` (NNN = prossimo `site_version`).
-3. Individuare la run con `mcp__github__actions_list` (`method: list_workflow_runs`,
-   `workflow_runs_filter: {event: "workflow_dispatch"}`), poi attenderla con
-   `mcp__github__actions_get` (`method: get_workflow_run`) finché `status == "completed"`.
-   Se `conclusion != "success"`, leggere i log con `mcp__github__get_job_logs`
-   (`run_id`, `failed_only: true`, `return_content: true`) e NON pubblicare quel
-   singolo articolo (gli altri del ciclo possono proseguire se non dipendono da esso).
-4. Dopo il successo, `git pull origin main` per prendere i file appena pubblicati
-   dal workflow: `assets/images/editorial-auto/<filename_base>-480.webp`,
-   `-800.webp`, `-1200.webp`, e la voce aggiornata in
-   `assets/data/editorial-images-v210.json`.
+2. Per ogni articolo, creare un file di richiesta
+   `automation/state/image-requests/<filename_base>.json` con:
+   ```json
+   {"prompt": "...", "filename_base": "<slug-notizia>-ai-v<NNN>", "article_path": "/notizie/<slug>.html", "alt_text": "...", "is_portrait": false, "sensitive": false}
+   ```
+   `filename_base` deve essere uno slug deterministico e unico (NNN = prossimo `site_version`).
+   Aggiungere e pushare **tutti** i file di richiesta del ciclo in un unico
+   commit `git add automation/state/image-requests/ && git commit -m "..." && git push origin main`.
+   Questo push, per via del filtro `paths` nel workflow, avvia
+   automaticamente `.github/workflows/genera-immagine-editoriale.yml`, che
+   gira su un runner con rete piena, genera le immagini per tutte le
+   richieste trovate, aggiorna `assets/data/editorial-images-v210.json`,
+   cancella i file di richiesta elaborati e fa commit+push da solo su `main`.
+3. Attendere il completamento **solo con git**, senza alcuna chiamata API:
+   ripetere `git fetch origin main` a intervalli di una decina di secondi
+   (per non più di ~5 minuti in totale) finché, guardando
+   `origin/main`, i file attesi non compaiono in
+   `assets/images/editorial-auto/<filename_base>-{480,800,1200}.webp` **e**
+   il file di richiesta corrispondente non è più presente. Se dopo
+   l'attesa massima le immagini non sono comparse, quel singolo articolo
+   non si pubblica in questo ciclo (gli altri possono proseguire se non
+   dipendono da esso).
+4. Una volta confermato, `git pull origin main` per portare in locale i
+   file appena pubblicati dal workflow prima di scrivere l'HTML
+   dell'articolo che li referenzia.
 
 ## 5. Template markup esatto da riusare
 

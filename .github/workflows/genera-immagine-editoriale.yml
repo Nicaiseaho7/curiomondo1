@@ -1,6 +1,9 @@
 name: Genera immagine editoriale IA
 
 on:
+  push:
+    paths:
+      - 'automation/state/image-requests/*.json'
   workflow_dispatch:
     inputs:
       prompt:
