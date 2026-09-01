@@ -7,8 +7,8 @@
     "current_protocol_version": "1.8",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-08-30",
-    "current_site_version": 257,
-    "site_version": 257
+    "current_site_version": 258,
+    "site_version": 258
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -403,7 +403,7 @@
     "homepage_latest_count": 3,
     "deduplicate_existing_guides": true
   },
-  "site_version": 257,
+  "site_version": 258,
   "monetization": {
     "provider": "Google AdSense",
     "publisher_id": "pub-8050187517048759",
@@ -416,21 +416,25 @@
     "editorial_images": "Every new article or update MUST use a completely new hero visual; no reuse, crop, resize, filter, rename, or derivation of previously published assets. Public figures may appear in relevant locations and settings, including relevant logos, for ordinary news; sensitive or painful contexts require a neutral isolated portrait.",
     "article_audio": "Prefer premium pre-generated neural audio when available; otherwise choose the best Italian premium/enhanced deep voice exposed by the device, with natural sentence chunking, rate 0.92 and pitch 0.78."
   },
-  "version": "v257",
-  "release_version": "v257",
+  "version": "v258",
+  "release_version": "v258",
   "last_release_date": "2026-09-01",
   "last_release": {
-    "version": 257,
+    "version": 258,
     "date": "2026-09-01",
-    "baseline_version": 256,
-    "news_added": [],
+    "baseline_version": 257,
+    "news_added": [
+      "siccita-po-lombardia-piemonte-record-autobotti-1-settembre-2026",
+      "istat-inflazione-agosto-2026-energia-3-3-per-cento",
+      "ue-fondi-kiev-progressi-piano-90-miliardi-1-settembre-2026"
+    ],
     "news_updated": [],
     "evergreen_added": [],
-    "daily_question_added": "cosa-temiamo-di-perdere-quando-temiamo-di-non-essere-piu-noi",
-    "ebook_added": "cosa-temiamo-di-perdere-quando-temiamo-di-non-essere-piu-noi",
+    "daily_question_added": null,
+    "ebook_added": null,
     "guides_added": [],
     "ads_txt": "preserved-authorized-v254",
-    "image_policy_applied": "test-automazione-3-mondo-3-italia-nessun-volto-scena-in-scena-scomoda"
+    "image_policy_applied": "nessun-volto-solo-scene-loghi-pertinenti-v258"
   },
   "release_notes": {
     "v208": "Correzioni mobile: deduplica per URL, immagine UEFA/Infantino, bootstrap critico, AVIF LCP, aria/inert per navigazione agentica."
