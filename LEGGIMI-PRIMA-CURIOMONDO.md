@@ -88,9 +88,14 @@ Le immagini editoriali devono restare pulite, senza testo sovrapposto. La dicitu
 - Tutte le pagine editoriali pubbliche devono essere indicizzabili.
 - Biblioteca/eBook: niente page-flip o swipe; navigazione soltanto con grandi controlli blu `Indietro` e `Avanti` sotto la pagina.
 
-## v248 — nuova lunghezza articoli e divieto assoluto di ripetizioni
-- Dal 30 agosto 2026, ore 10:04 (Europe/Rome), ogni nuovo articolo e ogni aggiornamento sostanziale deve avere **2.000–4.500 caratteri nel corpo `.art-body`**.
-- Nessuna eccezione di lunghezza: se non ci sono abbastanza informazioni verificate per 2.000 caratteri senza diluire il testo, non si pubblica un articolo autonomo.
+## v248 — nuova lunghezza articoli e divieto assoluto di ripetizioni (superata da v257)
+- Dal 30 agosto 2026, ore 10:04 (Europe/Rome), ogni nuovo articolo e ogni aggiornamento sostanziale doveva avere **2.000–4.500 caratteri nel corpo `.art-body`**.
+- Nessuna eccezione di lunghezza: se non c'erano abbastanza informazioni verificate per 2.000 caratteri senza diluire il testo, non si pubblicava un articolo autonomo.
 - Ogni fatto e concetto può comparire una sola volta, anche se riscritto con parole diverse. Ogni paragrafo deve aggiungere informazione nuova.
+
+## v257 — lunghezza articoli aggiornata a 3.000–7.000 caratteri
+- Dal 1° settembre 2026, ore 12:00 (Europe/Rome), ogni nuovo articolo e ogni aggiornamento sostanziale deve avere **3.000–7.000 caratteri nel corpo `.art-body`**. Sostituisce il limite 2.000–4.500 della regola v248 per tutti i contenuti pubblicati/aggiornati da questo momento in poi; gli articoli già pubblicati prima non vengono toccati retroattivamente.
+- Nessuna eccezione di lunghezza, ma la lunghezza segue le informazioni disponibili, non un target fisso: l'articolo deve essere lungo quando la notizia ha abbastanza sostanza verificata da riempire il corpo, e corto — sempre sopra i 3.000 caratteri — quando le informazioni sono poche. Non si allunga un articolo solo per avvicinarsi al tetto di 7.000, e non si pubblica un articolo autonomo se non si raggiungono almeno 3.000 caratteri senza diluire o ripetere.
+- Restano invariati il divieto assoluto di ripetizioni e l'obbligo del passaggio anti-ridondanza prima del conteggio finale dei caratteri.
 - Vietati riepiloghi finali ridondanti, parafrasi del lead, ripetizioni di cifre già spiegate e frasi di riempimento.
 - Il predeploy v248 applica il controllo di lunghezza ai contenuti soggetti alla nuova regola e intercetta duplicazioni testuali evidenti.

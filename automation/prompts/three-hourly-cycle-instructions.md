@@ -71,9 +71,15 @@ all'auto-rail e alle card, con la card più vecchia che scorre giù/esce.
 
 ## 3. Regole editoriali del corpo articolo (invarianti, da `editorial-contract.txt`)
 
-- Corpo `.art-body` tra **2.000 e 4.500 caratteri** di testo visibile, nessuna
-  eccezione. Se non si hanno almeno 2.000 caratteri di informazione verificata e
-  non ripetitiva, non pubblicare quell'articolo come pezzo autonomo.
+- Corpo `.art-body` tra **3.000 e 7.000 caratteri** di testo visibile (regola
+  v257, in vigore dal 1° settembre 2026 ore 12:00 — sostituisce il precedente
+  2.000-4.500), nessuna eccezione. **La lunghezza segue le informazioni
+  disponibili, non un target fisso**: scrivi un articolo lungo quando la notizia
+  ha davvero abbastanza sostanza verificata da riempire il corpo, e corto — ma
+  sempre sopra i 3.000 caratteri — quando le informazioni verificate sono poche.
+  Non allungare mai un articolo con riempitivo o ripetizioni solo per avvicinarti
+  al tetto di 7.000. Se non si hanno almeno 3.000 caratteri di informazione
+  verificata e non ripetitiva, non pubblicare quell'articolo come pezzo autonomo.
 - **Zero ripetizioni**: nessun fatto, cifra, causa o conseguenza compare due volte,
   nemmeno parafrasata. Fare un passaggio anti-ridondanza frase per frase e
   paragrafo per paragrafo prima di contare i caratteri.
@@ -214,7 +220,7 @@ che invece funziona regolarmente in ogni sessione con accesso al repository:
 <div class="cm-insight-grid"><div><b>N</b><small>ETICHETTA</small></div>
 <div><b>N</b><small>ETICHETTA</small></div><div><b>N</b><small>ETICHETTA</small></div></div></section>
 
-<article class="art-body" data-length-policy="2000-4500">
+<article class="art-body" data-length-policy="3000-7000">
 <p>Paragrafo 1...</p>
 <!-- 5-8 paragrafi, incluso il gancio di conoscenza come paragrafo normale -->
 <p>Ultimo paragrafo (prossimi sviluppi, senza ripetere quanto già detto)...</p>
@@ -242,8 +248,8 @@ che invece funziona regolarmente in ogni sessione con accesso al repository:
 
 **Regole non negoziabili verificate da `tools/predeploy.py`** (leggerlo prima di
 pubblicare, gira comunque nel passo 8 sotto, ma è utile saperlo prima):
-- `data-length-policy="2000-4500"` deve essere presente e il testo visibile in
-  `.art-body` deve essere davvero 2000–4500 caratteri.
+- `data-length-policy="3000-7000"` deve essere presente e il testo visibile in
+  `.art-body` deve essere davvero 3000-7000 caratteri.
 - Nessuna frase duplicata, nessun paragrafo quasi-duplicato.
 - `curio-related` non può linkare l'articolo stesso (stesso URL canonico o stesso
   titolo H1).
@@ -258,7 +264,7 @@ Vive fisicamente in `notizie/` (non in `approfondimenti/`, che è solo l'indice)
 con slug tipo `come-funziona-...`/`perche-...`/`cosa-sono-...` senza data. Stessa
 struttura dell'articolo ma: `<div class="badge">Approfondimento · Tema</div>`,
 riga meta "Guida aggiornata il ...", **nessun `data-length-policy`** su `art-body`
-(esente dal cancello 2000-4500), chiusura con
+(esente dal cancello 3000-7000), chiusura con
 `<div class="art-flow-continuation"><p>...</p></div>` prima di `art-sources`.
 Aggiungere link **in entrambe le direzioni**: dall'articolo di notizia verso
 l'approfondimento (link inline nel testo o card in `curio-related` con

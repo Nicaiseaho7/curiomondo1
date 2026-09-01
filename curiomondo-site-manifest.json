@@ -158,11 +158,11 @@
       "news_sitemap_xml_if_eligible"
     ],
     "article_body_characters": {
-      "mandatory_min": 2000,
-      "mandatory_max": 4500,
+      "mandatory_min": 3000,
+      "mandatory_max": 7000,
       "count_scope": "visible_text_inside_.art-body_only",
-      "effective_from_site_version": 248,
-      "effective_from": "2026-08-30T10:04:00+02:00",
+      "effective_from_site_version": 257,
+      "effective_from": "2026-09-01T12:00:00+02:00",
       "exceptions_allowed": false,
       "if_insufficient_verified_information": "do_not_publish_standalone_article",
       "if_over_max": "rewrite_and_remove_secondary_or_redundant_material",

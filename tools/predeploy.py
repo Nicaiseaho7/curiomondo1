@@ -36,13 +36,13 @@ if config_path.exists():
         if likeness.get('sensitive_news',{}).get('neutral_isolated_portrait_required') is not True: errors.append('ritratto neutrale per casi sensibili assente nella config')
         if likeness.get('documentary_claim_forbidden') is not True: errors.append('divieto documentario assente nella config')
         articles_cfg=config.get('articles',{})
-        if articles_cfg.get('body_min_chars')!=2000: errors.append('minimo articoli v248 non impostato a 2000 nella config')
-        if articles_cfg.get('body_max_chars')!=4500: errors.append('massimo articoli v248 non impostato a 4500 nella config')
-        if articles_cfg.get('length_exceptions_allowed') is not False: errors.append('eccezioni lunghezza articoli v248 non disabilitate')
+        if articles_cfg.get('body_min_chars')!=3000: errors.append('minimo articoli v257 non impostato a 3000 nella config')
+        if articles_cfg.get('body_max_chars')!=7000: errors.append('massimo articoli v257 non impostato a 7000 nella config')
+        if articles_cfg.get('length_exceptions_allowed') is not False: errors.append('eccezioni lunghezza articoli v257 non disabilitate')
         if articles_cfg.get('semantic_repetition_forbidden') is not True: errors.append('divieto ripetizioni semantiche assente nella config')
-        length_policy_effective_from=articles_cfg.get('length_policy_effective_from','2026-08-30T10:04:00+02:00')
+        length_policy_effective_from=articles_cfg.get('length_policy_effective_from','2026-09-01T12:00:00+02:00')
         try: length_policy_effective_dt=datetime.fromisoformat(length_policy_effective_from)
-        except Exception: errors.append('timestamp efficacia policy lunghezza non valido'); length_policy_effective_dt=datetime.fromisoformat('2026-08-30T10:04:00+02:00')
+        except Exception: errors.append('timestamp efficacia policy lunghezza non valido'); length_policy_effective_dt=datetime.fromisoformat('2026-09-01T12:00:00+02:00')
     except Exception as exc: errors.append(f'automation/config.json non valido: {exc}')
 if manifest_path.exists():
     try:
@@ -55,7 +55,7 @@ if manifest_path.exists():
         if likeness.get('sensitive_news',{}).get('neutral_isolated_portrait_required') is not True: errors.append('ritratto neutrale per casi sensibili assente nel manifest')
         if likeness.get('must_never_be_presented_as_documentary_evidence') is not True: errors.append('divieto di prova documentaria assente nel manifest')
         body_policy=manifest.get('news',{}).get('article_body_characters',{})
-        if body_policy.get('mandatory_min')!=2000 or body_policy.get('mandatory_max')!=4500: errors.append('policy manifest articoli non impostata a 2000–4500')
+        if body_policy.get('mandatory_min')!=3000 or body_policy.get('mandatory_max')!=7000: errors.append('policy manifest articoli non impostata a 3000–7000')
         if body_policy.get('exceptions_allowed') is not False: errors.append('manifest consente eccezioni di lunghezza non ammesse')
         if body_policy.get('semantic_repetition_forbidden') is not True: errors.append('manifest non vieta le ripetizioni semantiche')
     except Exception as exc: errors.append(f'curiomondo-site-manifest.json non valido: {exc}')
@@ -113,7 +113,7 @@ def near_duplicate(a,b):
     return seq>=0.90 or (seq>=0.72 and containment>=0.84 and jaccard>=0.62)
 def article_policy_active(doc):
     bodies=doc.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," art-body ")]')
-    if bodies and bodies[0].get('data-length-policy')=='2000-4500': return True
+    if bodies and bodies[0].get('data-length-policy')=='3000-7000': return True
     for raw in doc.xpath('//script[@type="application/ld+json"]/text()'):
         try: obj=json.loads(raw)
         except Exception: continue
@@ -138,11 +138,11 @@ for p in news:
     if not bodies: errors.append(f'testo articolo assente: {p.name}')
     elif article_policy_active(d):
         body=bodies[0]
-        if body.get('data-length-policy')!='2000-4500': errors.append(f'policy lunghezza v248 non dichiarata nel markup: {p.name}')
+        if body.get('data-length-policy')!='3000-7000': errors.append(f'policy lunghezza v257 non dichiarata nel markup: {p.name}')
         body_text=re.sub(r'\s+',' ',' '.join(body.itertext())).strip()
         body_chars=len(body_text)
-        if body_chars<2000: errors.append(f'articolo v248 sotto 2000 caratteri: {p.name} ({body_chars})')
-        if body_chars>4500: errors.append(f'articolo v248 sopra 4500 caratteri: {p.name} ({body_chars})')
+        if body_chars<3000: errors.append(f'articolo v257 sotto 3000 caratteri: {p.name} ({body_chars})')
+        if body_chars>7000: errors.append(f'articolo v257 sopra 7000 caratteri: {p.name} ({body_chars})')
         paras=[re.sub(r'\s+',' ',' '.join(x.itertext())).strip() for x in body.xpath('.//p')]
         paras=[x for x in paras if x]
         sentences=[]
