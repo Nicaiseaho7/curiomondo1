@@ -3,6 +3,39 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "israele-uk-centro-gaza-cisgiordania-1-settembre-2026-ai-v256",
+      "article": "/notizie/israele-regno-unito-espulsione-centro-gaza-cisgiordania-1-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Wide editorial photograph of the exterior of a modern coordination center compound in southern Israel, a large clean flagpole with an Israeli flag and a smaller British flag nearby, plain concrete buildings, desert hills in the far background, clear daylight, empty foreground, absolutely no text, no watermark, no logos, no signage, no numbers, no captions anywhere in the image, documentary composition, no people Ultra-realistic photojournalistic editorial photography, natural cinematic lighting, sharp focus, no text, no watermark, no logo overlay.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/israele-uk-centro-gaza-cisgiordania-1-settembre-2026-ai-v256-480.webp",
+          "sha256": "e0bc48db6f8028a111ca28546e8c207eef5b7d74f4fc8c96f37a9e0d71ed5d21",
+          "bytes": 8914
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/israele-uk-centro-gaza-cisgiordania-1-settembre-2026-ai-v256-800.webp",
+          "sha256": "00797509c25594b03828b3661d9cc3f19e9a51e776e3f9ae12e0fd6329dbf5e0",
+          "bytes": 16560
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/israele-uk-centro-gaza-cisgiordania-1-settembre-2026-ai-v256-1200.webp",
+          "sha256": "b45e97171f6ae2524f4606bb75eeaca46ea8f33e666bba53bba6a45a0a48eacc",
+          "bytes": 26740
+        }
+      ],
+      "alt": "Illustrazione editoriale IA dell'esterno di un centro di coordinamento civile-militare nel sud di Israele, con bandiere di più nazioni",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
       "key": "aarau-sparatoria-rave-scena-30-agosto-2026-ai-v256",
       "article": "/notizie/aarau-sparatoria-rave-italiana-uccisa-maria-spinelli-30-agosto-2026.html",
       "aiGenerated": true,
@@ -129,39 +162,6 @@
         }
       ],
       "alt": "Illustrazione editoriale IA di una sala per l'incontro dei ministri delle finanze del G20 ad Asheville, con bandiere dei paesi partecipanti",
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "portraitOnly": false,
-      "portraitFormat": "contextual-editorial-scene",
-      "reenactedEvent": false
-    },
-    {
-      "key": "israele-uk-centro-gaza-cisgiordania-1-settembre-2026-ai-v256",
-      "article": "/notizie/israele-regno-unito-espulsione-centro-gaza-cisgiordania-1-settembre-2026.html",
-      "aiGenerated": true,
-      "sensitiveContext": false,
-      "documentaryPhoto": false,
-      "prompt": "Wide editorial photograph of a modern military-civilian coordination center exterior in southern Israel, multiple national flags including British and Israeli on flagpoles, secure perimeter fencing, desert daylight, documentary composition, no readable text, no people in distress, no weapons in focus Ultra-realistic photojournalistic editorial photography, natural cinematic lighting, sharp focus, no text, no watermark, no logo overlay.",
-      "variants": [
-        {
-          "w": 480,
-          "src": "/assets/images/editorial-auto/israele-uk-centro-gaza-cisgiordania-1-settembre-2026-ai-v256-480.webp",
-          "sha256": "c8e30b1382f8314f65b2f878bedf32e34c0994e32f47c14a675ffeda5c4a6319",
-          "bytes": 9304
-        },
-        {
-          "w": 800,
-          "src": "/assets/images/editorial-auto/israele-uk-centro-gaza-cisgiordania-1-settembre-2026-ai-v256-800.webp",
-          "sha256": "93e40e6259507d69b93d691c5fca3270aa96df88e4b5769f53089a6880525512",
-          "bytes": 18916
-        },
-        {
-          "w": 1200,
-          "src": "/assets/images/editorial-auto/israele-uk-centro-gaza-cisgiordania-1-settembre-2026-ai-v256-1200.webp",
-          "sha256": "8d70e5284d4c616672fab1e8ebf5f01bcef454a60c197f6592cc3eb802bd0726",
-          "bytes": 30766
-        }
-      ],
-      "alt": "Illustrazione editoriale IA dell'esterno di un centro di coordinamento civile-militare nel sud di Israele, con bandiere di più nazioni",
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "portraitOnly": false,
       "portraitFormat": "contextual-editorial-scene",
