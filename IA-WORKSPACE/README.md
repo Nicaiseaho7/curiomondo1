@@ -1,8 +1,10 @@
 # IA-WORKSPACE — CurioMondo
 
-Workspace ridotto e autosufficiente per **creare nuovi articoli di notizie
-(`notizie/`)** e integrarli in tutti i punti del sito, senza avere bisogno
-dell'intero repository.
+Copia di lavoro quasi completa del sito, per **creare nuovi articoli** e per
+**modifiche più profonde** (homepage, categorie, Biblioteca, Domanda del
+giorno, Approfondimenti, pagine statiche, stile, script) senza avere bisogno
+dell'intero repository Git (niente `.git`, niente cronologia commit, niente
+strumenti di build una-tantum superati).
 
 **Ogni percorso in questa cartella corrisponde 1:1 al percorso reale nel
 repository GitHub**, a partire dalla radice del sito. Esempio:
@@ -11,10 +13,12 @@ Quando restituisci i file aggiornati, **mantieni esattamente questi stessi
 percorsi/nomi file**: chi li reintegra deve solo sovrascrivere/aggiungere
 file allo stesso posto, senza indovinare nulla.
 
-Questa cartella riguarda **solo `notizie/` (le notizie)**. Biblioteca,
-Domanda del giorno e Approfondimenti sono contenuti separati con regole
-proprie e non sono nello scope di questo workspace (l'indice di
-`approfondimenti/` è incluso solo perché una notizia può doverlo collegare).
+Contiene **tutto l'archivio notizie**, **tutta la Biblioteca**, **tutta la
+Domanda del giorno**, **tutte le immagini editoriali già pubblicate**
+(`assets/images/`) e **tutti** i CSS/JS del sito — non solo gli ultimi
+articoli. Questo è intenzionale: avere l'intera libreria immagini/articoli
+visibile evita di generare per errore un nome file già usato o un'immagine
+doppione di una già pubblicata (vedi §2).
 
 ---
 
@@ -32,6 +36,8 @@ proprie e non sono nello scope di questo workspace (l'indice di
    (§5) e la checklist file-per-file (§6) su cui si basa questo README.
    In caso di dubbio o conflitto, **quel file vince** perché è il più
    aggiornato e il più specifico.
+9. Per modifiche a Biblioteca/eBook: anche `automation/prompts/library-contract.txt`
+   (ora incluso) e la sezione Biblioteca del Protocollo Maestro.
 
 Se una di queste regole non può essere rispettata per un articolo, **non
 pubblicare quell'articolo** (meglio niente che un pezzo non conforme).
@@ -41,16 +47,14 @@ pubblicare quell'articolo** (meglio niente che un pezzo non conforme).
 ## 1. Dove va salvato un nuovo articolo
 
 - File: **`notizie/<slug-notizia>.html`** (un file HTML per articolo, slug
-  minuscolo con trattini, spesso con la data in fondo, es.
-  `notizie/istat-inflazione-agosto-2026-energia-3-3-per-cento.html`).
-- **Usa come riferimento esatto** l'articolo completo già incluso qui:
-  `notizie/siccita-po-lombardia-piemonte-record-autobotti-1-settembre-2026.html`.
-  È un articolo reale, pubblicato, che rispetta tutte le regole correnti
-  (v257): riusa la sua struttura `<head>`, il markup del corpo, della
-  figure/immagine, del box fonti e del blocco "Potrebbe interessarti anche"
-  copiandone la forma esatta e cambiando solo i contenuti.
-- Asset CSS/JS richiamati in `<head>`/fondo pagina (**non modificarli, non
-  servono file nuovi**, esistono già nel sito reale):
+  minuscolo con trattini, spesso con la data in fondo). Ci sono oltre 200
+  articoli reali già in `notizie/` da usare come riferimento diretto per
+  qualunque taglio editoriale (geopolitica, economia, cronaca, sport…):
+  riusa la struttura `<head>`, il markup del corpo, della figure/immagine,
+  del box fonti e del blocco "Potrebbe interessarti anche" copiandone la
+  forma esatta e cambiando solo i contenuti.
+- Asset CSS/JS richiamati in `<head>`/fondo pagina di un articolo (**non
+  modificarli per pubblicare un articolo normale**, esistono già):
   `assets/css/site-base-v210.css`, `assets/css/curiomondo-article-v211.css?v=SITE_VERSION`,
   `assets/js/site-common-v210.js`, `assets/js/curiomondo-article-v210.js?v=SITE_VERSION`
   (il numero dopo `?v=` è l'attuale `site_version`, vedi §5 sotto).
@@ -60,8 +64,8 @@ pubblicare quell'articolo** (meglio niente che un pezzo non conforme).
   `data-length-policy`), **non** in `approfondimenti/`, che contiene solo
   l'indice. Registralo anche in `approfondimenti/index.html`.
 - **Prima di scrivere un nuovo articolo**, controlla che la stessa storia
-  non sia già raccontata in `notizie/index.html` (l'elenco archivio incluso
-  qui) o in `assets/data/search-index-v210.json`, per evitare duplicati.
+  non sia già raccontata in `notizie/index.html` o in
+  `assets/data/search-index-v210.json`, per evitare duplicati.
 
 ### Regole editoriali invarianti del corpo (`editorial-contract.txt` + manifest)
 
@@ -84,20 +88,29 @@ pubblicare quell'articolo** (meglio niente che un pezzo non conforme).
 
 ## 2. Dove vanno salvate le immagini degli articoli
 
-- Cartella corretta: **`assets/images/editorial-auto/`** (unica cartella
-  "viva" per le nuove immagini editoriali; le altre sottocartelle
-  `assets/images/editorial-vNNN/` che potresti vedere nel repo completo
-  sono archivio storico e **non vanno usate**).
+- Cartella corretta per le nuove immagini: **`assets/images/editorial-auto/`**.
+- Le altre sottocartelle `assets/images/editorial-vNNN/` (v210, v213, v228…)
+  sono **archivio storico** di build passate: sono incluse solo per
+  completezza/verifica di unicità, ma **non vanno usate** per nuove immagini.
 - Per ogni articolo servono **3 file WebP**, stesso nome base, tre larghezze:
   ```
   assets/images/editorial-auto/<filename_base>-480.webp
   assets/images/editorial-auto/<filename_base>-800.webp
   assets/images/editorial-auto/<filename_base>-1200.webp
   ```
-  `<filename_base>` = slug descrittivo univoco, es.
-  `siccita-po-lombardia-piemonte-1-settembre-2026-ai-v258` (i 6 file WebP
-  inclusi in questo workspace sotto `assets/images/editorial-auto/` sono
-  due esempi reali già pubblicati, da usare come riferimento di formato/peso).
+- **Il nome file deve essere sempre nuovo, anche quando si sostituisce
+  l'immagine di un articolo già pubblicato**: `/assets/images/*` ha
+  `Cache-Control: public, max-age=31536000, immutable` (vedi `_headers`,
+  incluso qui). Riusare un nome file esistente con un contenuto diverso
+  significa che browser e CDN continueranno a servire i byte vecchi per
+  un anno, deploy o non deploy. Se aggiorni un'immagine già pubblicata,
+  cambia il suffisso di versione nel nome e aggiorna ogni riferimento.
+- **Prima di generare un'immagine, controlla che il nome file scelto non
+  esista già** in `assets/images/editorial-auto/` (ora incluso per intero)
+  e che il registro `assets/data/editorial-images-v210.json` non contenga
+  già un'immagine per quell'URL articolo: se l'articolo esiste già ed ha
+  già un'immagine reale, non generarne una nuova senza che sia stato
+  esplicitamente richiesto.
 - Specifiche immagine (da `image-generation-contract.txt` e
   `AI-EDITORIAL-IMAGE-PROTOCOL.md`, lettura obbligatoria integrale prima di
   generare qualunque immagine):
@@ -107,56 +120,49 @@ pubblicare quell'articolo** (meglio niente che un pezzo non conforme).
   - **Mai testo, watermark o didascalie dentro i pixel dell'immagine.**
   - Persone pubbliche: consentite in scena solo per notizie "ordinarie";
     per incidenti/morte/malattia/violenza/lutto e altri temi sensibili è
-    **obbligatorio** un ritratto neutrale isolato (testa-spalle o mezzobusto,
-    sfondo neutro, nessuna scena ricostruita).
+    **obbligatorio** un ritratto neutrale isolato.
 - Nell'HTML dell'articolo, subito sotto l'immagine, la `<figcaption>` deve
   contenere **esattamente**:
   `Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.`
-- Se il volto di una persona pubblica è raffigurato, il tag `<figure>`
-  richiede anche `data-synthetic-likeness="public-figure"
-  data-sensitive-context="true|false"` (+ `data-portrait-format="neutral-isolated"`
-  se sensibile) — vedi il file di esempio in `notizie/` per la sintassi
-  esatta del markup `<figure>`/`<picture>`.
 - **Se un'immagine non è ancora pronta**: pubblica comunque il testo
-  dell'articolo omettendo del tutto il blocco `<figure>`, usa
+  omettendo del tutto il blocco `<figure>`, usa
   `https://curiomondo.it/curiomondo-logo-512.png` come `og:image`/JSON-LD
-  `image`, e come immagine card in homepage/dati usa
-  `curiomondo-logo-512.png?pending=<slug>`. Registra l'articolo in
-  `automation/state/pending-images.json` (schema e dettagli completi in
-  `automation/prompts/three-hourly-cycle-instructions.md` §4bis). Appena
-  l'immagine reale è pronta, sostituiscila ovunque e rimuovi la voce da
-  `pending-images.json`.
+  `image`, e `curiomondo-logo-512.png?pending=<slug>` come immagine card.
+  Registra l'articolo in `automation/state/pending-images.json` (schema in
+  `automation/prompts/three-hourly-cycle-instructions.md` §4bis).
 
 ---
 
 ## 3. Tutti i file da modificare per far comparire il nuovo articolo nel sito
 
-Per **ogni** articolo pubblicato, aggiorna in modo coerente tra loro tutti
-questi file (tutti inclusi in questo workspace, pronti da modificare):
-
 | # | File | Cosa fare |
 |---|------|-----------|
 | 1 | `notizie/<slug>.html` | Nuovo file, uno per articolo (vedi §1). |
-| 2 | `notizie/index.html` | Aggiungi una nuova `<li>` in cima alla lista archivio e aggiorna il contatore "N articoli, ordinati per data.". |
-| 3 | `index.html` → `class="ticker-track"` | **Due copie** identiche (nav accessibile + div `aria-hidden` duplicato): prepend del nuovo titolo, restano sempre **esattamente 10** link, il più vecchio esce. |
-| 4 | `index.html` → `class="auto-rail"` | Prepend della card (titolo + estratto + immagine), restano **esattamente 5**. |
-| 5 | `index.html` → `id="cards"` | Prepend della card in cima alla griglia "Tutte le notizie". |
-| 6 | `index.html` → `class="featured"` (unico) | Se questo è l'articolo editorialmente più importante del momento, sostituiscilo con il nuovo (l'attuale "featured" scende in cima all'auto-rail). |
-| 7 | `index.html` → `class="cm-home-deep-links"` | Solo se hai creato un nuovo approfondimento: prepend del link (restano 3), rimuovi il quarto più vecchio. |
-| 8 | `assets/data/home-feed-v210.json` | Prepend di un oggetto in `items` (schema completo sotto) e bump di `version`. Deve restare sincronizzato con `#cards` in homepage. |
-| 9 | `assets/data/search-index-v210.json` | Prepend di un oggetto in `items` (schema più semplice, sotto) e bump di `version`. |
-| 10 | `feed.xml` | Prepend di un `<item>` (title/link/guid/pubDate RFC-822 con offset `+0200`/`+0100`/description). |
-| 11 | `sitemap.xml` | Aggiungi `<url>` per l'articolo: `changefreq daily`, `priority 0.9`. |
-| 12 | `news-sitemap.xml` | Aggiungi `<url>`/`<news:news>` (con `publication_date` ISO 8601 e offset) **e rimuovi le voci più vecchie di 48 ore** (finestra rolling richiesta dalla Google News Sitemap). |
-| 13 | `_redirects` | Aggiungi una riga con lo stesso pattern delle altre: `/notizie/<slug>  /notizie/<slug>.html  301!` (alias extensionless → URL canonica). |
-| 14 | `assets/data/editorial-images-v210.json` | Se generi le immagini, registra qui la nuova voce con lo stesso schema delle esistenti (coerenza controllata da `tools/predeploy.py`). |
-| 15 | `curiomondo-site-manifest.json` + `CURIOMONDO-RELEASE-STATE.json` + `RELEASE-STATE.json` | Bump coerente di `site_version`/`currentVersion`/conteggio articoli, aggiorna data/ultimo rilascio e (nel manifest) il blocco `last_release` con gli slug pubblicati. |
-| 16 | `automation/state/pending-images.json` | Aggiungi una voce se pubblichi senza immagine reale (§4bis del manuale ciclo); rimuovi la voce quando l'immagine viene completata. |
-| 17 | `approfondimenti/index.html` | Solo se hai creato un nuovo approfondimento evergreen: aggiungilo all'indice. |
+| 2 | `notizie/index.html` | Nuova `<li>` in cima all'archivio; aggiorna il contatore "N articoli, ordinati per data.". |
+| 3 | `index.html` → `class="ticker-track"` | Due copie identiche (nav accessibile + div `aria-hidden`): prepend, restano sempre **esattamente 10** link. |
+| 4 | `index.html` → `class="auto-rail"` | Prepend, restano **esattamente 5**. |
+| 5 | `index.html` → `id="cards"` | Prepend in cima alla griglia "Tutte le notizie". |
+| 6 | `index.html` → `class="featured"` (unico) | Se è l'articolo più rilevante del ciclo, sostituiscilo (l'ex featured scende in cima all'auto-rail). |
+| 7 | `index.html` → `class="cm-home-deep-links"` | Solo se creato un nuovo approfondimento: prepend (restano 3). |
+| 8 | `index.html` → `class="cm-qday"` | Solo se cambia la Domanda del giorno: aggiorna data/href/titolo, mantenendo il markup esatto (incluso `cm-qday-hint`). |
+| 9 | `assets/data/home-feed-v210.json` | Prepend voce in `items`, bump `version`. |
+| 10 | `assets/data/search-index-v210.json` | Prepend voce in `items`, bump `version`. |
+| 11 | `feed.xml` | Prepend `<item>` RSS. |
+| 12 | `sitemap.xml` | Nuovo `<url>` (`changefreq daily`, `priority 0.9`). |
+| 13 | `news-sitemap.xml` | Nuovo `<url>`/`<news:news>`; **potare le voci più vecchie di 48 ore**. |
+| 14 | `_redirects` | Nuova riga, stesso pattern delle esistenti. |
+| 15 | `assets/data/editorial-images-v210.json` | Nuova voce con lo stesso schema delle esistenti. |
+| 16 | `curiomondo-site-manifest.json` + `CURIOMONDO-RELEASE-STATE.json` + `RELEASE-STATE.json` | Bump coerente di versione/conteggio articoli/data. |
+| 17 | `automation/state/pending-images.json` | Solo se pubblichi senza immagine reale. |
+| 18 | `approfondimenti/index.html` | Solo se creato un nuovo approfondimento evergreen. |
+| 19 | `domanda-del-giorno/<slug>/index.html` + `domanda-del-giorno/index.html` | Solo se pubblichi una nuova Domanda del giorno (vedi Protocollo Maestro per le regole di lunghezza/formato). |
+| 20 | `biblioteca/<categoria>/domande-per-conoscersi/<slug>/index.html` | Solo se la Domanda del giorno ha un eBook collegato (8-14 pagine, 15.000-30.000 caratteri nello stage del libro). |
 
-**Non serve toccare** `assets/css/*` o `assets/js/*`: un nuovo articolo
-riusa sempre le classi e gli script già esistenti nel sito. Non sono
-inclusi in questo workspace per questo motivo.
+**Non serve toccare** `assets/css/*` o `assets/js/*` per un articolo o una
+Domanda del giorno normali: si riusano sempre gli stessi file. Sono inclusi
+per intero solo perché una modifica strutturale più ampia potrebbe
+richiederlo esplicitamente — in quel caso, cambia il file CSS/JS reale
+riferito da più pagine, non crearne uno nuovo senza necessità.
 
 ### Schema `assets/data/home-feed-v210.json` (oggetto in `items`, in cima)
 
@@ -192,53 +198,45 @@ inclusi in questo workspace per questo motivo.
 ## 4. Validazione prima di restituire i file (`tools/predeploy.py`)
 
 Il repository reale esegue `python3 tools/predeploy.py` prima di ogni
-pubblicazione: controlla, tra l'altro, che non ci siano riferimenti/link
-rotti, che ogni `<img>` abbia `alt`, che `.art-body` abbia
-`data-length-policy="3000-7000"` e sia davvero in quel range di caratteri
-senza frasi/paragrafi duplicati, che il blocco "Potrebbe interessarti" non
-sia autoreferenziale, che la LIVE ticker abbia esattamente 10 link e
-l'auto-rail esattamente 5, che non ci siano immagini duplicate tra
-articoli, e altri controlli descritti nel file stesso (incluso qui come
-riferimento leggibile — chi reintegra i file lo eseguirà davvero nel
-repository completo). Scrivi/valida mentalmente contro queste stesse
-regole prima di restituire i file, così il primo tentativo passa il gate.
+pubblicazione (incluso qui, insieme ai vecchi `tools/build_v*.py` — questi
+ultimi sono script one-shot di release passate, **non fanno parte del
+flusso corrente**, solo `predeploy.py` è il gate valido). Controlla, tra
+l'altro: link interni rotti, `alt` mancanti, lunghezza/non-ripetizione del
+corpo articolo, didascalia IA esatta, classificazione immagini con persone
+pubbliche, numero esatto di voci in LIVE (10) e "Altre notizie" (5),
+immagini duplicate tra articoli, struttura della Domanda del giorno e
+dell'eBook del giorno corrente. Scrivi/valida mentalmente contro queste
+stesse regole prima di restituire i file.
 
 ---
 
 ## 5. Come restituire i file aggiornati
 
 1. Mantieni **esattamente gli stessi percorsi relativi** presenti in questo
-   workspace (es. `notizie/<slug>.html`, `assets/images/editorial-auto/...`,
-   `index.html` alla radice) così chi reintegra può sovrascrivere/aggiungere
-   file al posto giusto nel repository reale senza doverli rimappare.
-2. Restituisci **solo i file effettivamente cambiati o nuovi** (nuovo
-   articolo HTML, nuove immagini WebP, e le versioni aggiornate di tutti i
-   file elencati nella tabella del punto 3 che hai effettivamente
-   modificato) — non serve restituire file invariati.
-3. Per il numero di versione (`site_version`/`?v=SITE_VERSION` negli script,
+   workspace.
+2. Restituisci **solo i file effettivamente cambiati o nuovi** — non serve
+   restituire l'intero workspace invariato.
+3. Per il numero di versione (`site_version`/`?v=SITE_VERSION`,
    `currentVersion`) usa il valore attuale + 1 rispetto a quanto trovi in
-   `CURIOMONDO-RELEASE-STATE.json`/`curiomondo-site-manifest.json` inclusi
-   qui, e riportalo in modo coerente in **tutti** i punti che lo richiedono
-   (head dell'articolo, script `curiomondo-article-v210.js?v=`, manifest,
-   release state).
-4. Se non riesci a rispettare una regola obbligatoria (lunghezza, fonti,
-   unicità immagine, ecc.) per un articolo specifico, **non includerlo**
-   e segnalalo esplicitamente invece di pubblicare un pezzo non conforme.
+   `CURIOMONDO-RELEASE-STATE.json`/`curiomondo-site-manifest.json`, e
+   riportalo in modo coerente ovunque richiesto.
+4. Se non riesci a rispettare una regola obbligatoria per un articolo
+   specifico, **non includerlo** e segnalalo esplicitamente.
+5. **Non rigenerare né rinominare immagini di articoli già pubblicati** a
+   meno che non sia stato esplicitamente richiesto: questo workspace
+   include l'intera libreria immagini proprio per evitare doppioni
+   involontari.
 
 ---
 
 ## Cosa NON è incluso, e perché
 
-Questo workspace **non** contiene: `.git`, `node_modules`, cache/build,
-l'intero archivio storico di `notizie/*.html` (oltre 250 file — ne è
-incluso solo uno come riferimento/template), l'intera cartella
-`assets/images/` (centinaia di MB di immagini storiche — solo 2 set
-d'esempio da 3 file WebP ciascuno), i fogli CSS/JS versionati (non vanno
-mai toccati per pubblicare un articolo), `biblioteca/`, `domanda-del-giorno/`,
-`contenuti/` (contenuti/pipeline separati, fuori scope), i vari
-`RELEASE-NOTES-*.md`/`QA-REPORT-*.md` storici (changelog, non servono per
-pubblicare) e gli script di build una-tantum in `tools/build_v*.py`
-(superati, il gate valido è solo `tools/predeploy.py`). Se in futuro serve
-anche gestire Biblioteca/Domanda del giorno, va creato un workspace
-analogo dedicato con le sue regole (`automation/prompts/library-contract.txt`
-e la sezione relativa del Protocollo Maestro).
+Questo workspace **non** contiene: `.git` (nessuna cronologia commit),
+`contenuti/` (JSON grezzi legacy, `Disallow`'d in `robots.txt`, non letti
+da nessuna pagina viva), i vari `RELEASE-NOTES-*.md`/`QA-REPORT-*.md`/
+`AGGIORNAMENTO-*.txt` storici alla radice (changelog, non servono per
+pubblicare), `netlify.toml` e `package.json` (**non esistono nel
+repository reale**: il sito è un output statico puro, senza build step —
+non vanno creati). Tutto il resto — articoli, immagini, Biblioteca,
+Domanda del giorno, CSS, JS, automazione, strumenti — è incluso per
+intero.

@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "mode": "google_news_rss_discovery",
+  "notes": "Discovery only. CurioMondo does not link LIVE entries to external publishers. High-risk claims require corroboration or remain excluded.",
+  "feeds": [
+    {
+      "name": "Italia affidabili",
+      "enabled": true,
+      "url": "https://news.google.com/rss/search?q=(site%3Aansa.it%20OR%20site%3Aagi.it%20OR%20site%3Aadnkronos.com%20OR%20site%3Areuters.com)%20when%3A1h&hl=it&gl=IT&ceid=IT%3Ait"
+    },
+    {
+      "name": "Mondo affidabili",
+      "enabled": true,
+      "url": "https://news.google.com/rss/search?q=(site%3Areuters.com%20OR%20site%3Aapnews.com%20OR%20site%3Abloomberg.com%20OR%20site%3Aun.org)%20when%3A1h&hl=it&gl=IT&ceid=IT%3Ait"
+    }
+  ],
+  "trusted_publishers": [
+    "Reuters",
+    "Associated Press",
+    "AP News",
+    "Bloomberg",
+    "ANSA",
+    "AGI",
+    "Adnkronos",
+    "United Nations"
+  ],
+  "high_risk_terms": [
+    "guerra",
+    "missile",
+    "raid",
+    "ucciso",
+    "morto",
+    "morti",
+    "vittime",
+    "accusa",
+    "terror",
+    "ostaggi",
+    "nucleare",
+    "elezioni",
+    "epidemia",
+    "pandemia"
+  ],
+  "max_items": 10
+}

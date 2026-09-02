@@ -1,0 +1,11 @@
+{
+  "time": "2026-08-29T17:26:21.789718+00:00",
+  "mode": "articles",
+  "status": "dry_run",
+  "reason": "CURIOMONDO_AUTO_PUBLISH is not true",
+  "openai_key_present": false,
+  "image_prompt_loaded": true,
+  "image_prompt_path": "automation/prompts/image-generation-contract.txt",
+  "image_policy_loaded": true,
+  "image_policy_path": "AI-EDITORIAL-IMAGE-PROTOCOL.md"
+}
