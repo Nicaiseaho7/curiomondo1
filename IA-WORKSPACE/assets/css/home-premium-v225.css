@@ -1,0 +1,52 @@
+/* CurioMondo v225 — gerarchia delle sezioni, categorie e continuità di lettura. */
+
+/* Resta soltanto la lente compatta nella testata. */
+.cm-search-strip{display:none!important}
+
+/* Continua a leggere: ultima lettura incompleta con miniatura. */
+.continue-bar.on{display:flex!important;align-items:center;gap:10px;padding:10px 12px;border:1px solid #c9d8ec;border-radius:18px;background:linear-gradient(135deg,#fff,#f2f7ff);box-shadow:0 14px 34px rgba(18,54,99,.1)}
+.continue-link{display:grid;grid-template-columns:112px minmax(0,1fr);align-items:center;gap:14px;min-width:0}
+.continue-link.without-image{grid-template-columns:1fr}
+.continue-thumb{display:block;width:112px;height:76px;overflow:hidden;border-radius:12px;background:#dbe9f8}
+.continue-thumb img{display:block;width:100%;height:100%;object-fit:cover}
+.continue-copy{display:block;min-width:0}
+.continue-copy small{margin-bottom:5px;color:#1763ca!important;font-size:.67rem;font-weight:900;letter-spacing:.13em}
+.continue-copy strong{display:-webkit-box;overflow:hidden;color:#09264a;font-size:1rem!important;line-height:1.23;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+
+/* Domanda del giorno: blu e bianco, pulita e premium. */
+.cm-qday-card{border:1px solid rgba(42,111,227,.28)!important;border-left:5px solid #1768d5!important;background:radial-gradient(circle at 96% 8%,rgba(64,145,255,.2),transparent 36%),linear-gradient(120deg,#fafdff 0%,#edf5ff 58%,#fff 100%)!important;box-shadow:0 18px 42px rgba(23,82,156,.13),inset 0 1px 0 #fff!important}
+.cm-qday-card:before{border-color:#246fe6!important;background:linear-gradient(145deg,#0d61c7,#2f86ee)!important;color:#fff!important;box-shadow:0 10px 24px rgba(23,99,202,.27)!important}
+.cm-qday-card:after{color:#1768d5!important;text-shadow:none!important}
+.cm-qday-k{color:#1763ca!important;text-shadow:none!important}
+.cm-qday-title{color:#09264a!important;text-shadow:none!important}
+
+/* Etichette distinte per ogni argomento. */
+.auto-card .ameta,.card .meta{display:flex!important;flex-wrap:wrap;gap:4px;overflow:visible!important;white-space:normal!important}
+.cm-topic{display:inline-flex;align-items:center;min-height:18px;padding:3px 6px;border:1px solid color-mix(in srgb,var(--topic) 34%,transparent);border-radius:999px;background:color-mix(in srgb,var(--topic) 10%,white);color:var(--topic);font-size:.48rem;font-weight:900;line-height:1;letter-spacing:.055em;text-transform:uppercase}
+.cm-topic-urgent{--topic:#d51f2c}.cm-topic-italia{--topic:#047857}.cm-topic-mondo{--topic:#1d5fd1}.cm-topic-africa{--topic:#b45309}.cm-topic-ia{--topic:#7c3aed}.cm-topic-sicurezza{--topic:#c0262d}.cm-topic-politica{--topic:#334155}.cm-topic-economia{--topic:#0f766e}.cm-topic-ambiente{--topic:#3f7d20}.cm-topic-clima{--topic:#0284c7}.cm-topic-scienza{--topic:#087f8c}.cm-topic-tecnologia{--topic:#6d28d9}.cm-topic-sport{--topic:#c2410c}.cm-topic-salute{--topic:#15803d}.cm-topic-cultura{--topic:#be185d}.cm-topic-spazio{--topic:#4338ca}.cm-topic-default{--topic:#586a84}
+html.cm-dark .cm-topic{background:color-mix(in srgb,var(--topic) 28%,#071a33);color:color-mix(in srgb,var(--topic) 42%,white);border-color:color-mix(in srgb,var(--topic) 62%,transparent)}
+
+/* Cornice della card collegata alla categoria; Ultima ora resta sempre rossa. */
+.auto-card,.card{--card-accent:#3f73bd;border:2px solid color-mix(in srgb,var(--card-accent) 70%,#dbe6f5)!important;box-shadow:0 12px 29px color-mix(in srgb,var(--card-accent) 13%,transparent)!important}
+.cm-cat-italia{--card-accent:#059669}.cm-cat-mondo{--card-accent:#2563eb}.cm-cat-africa{--card-accent:#d97706}.cm-cat-ia{--card-accent:#7c3aed}.cm-cat-sicurezza{--card-accent:#c0262d}.cm-cat-politica{--card-accent:#475569}.cm-cat-economia{--card-accent:#0f766e}.cm-cat-ambiente{--card-accent:#4d7c0f}.cm-cat-scienza{--card-accent:#0891b2}.cm-cat-tecnologia{--card-accent:#6d28d9}.cm-cat-sport{--card-accent:#ea580c}.cm-cat-salute{--card-accent:#16a34a}.cm-cat-cultura{--card-accent:#db2777}.cm-cat-spazio{--card-accent:#4f46e5}
+.auto-card.cm-breaking,.card.cm-breaking{--card-accent:#d51f2c;border-color:#d51f2c!important;box-shadow:0 0 0 3px rgba(213,31,44,.08),0 16px 34px rgba(132,21,31,.18)!important}
+.featured{border:3px solid #d51f2c!important;box-shadow:0 0 0 4px rgba(213,31,44,.09),0 22px 55px rgba(108,16,26,.23)!important}
+
+/* Universo CurioMondo occupa davvero la parte finale della pagina. */
+.cm-orbit-experience{width:min(1440px,calc(100vw - 28px))!important;min-height:700px;margin-left:50%!important;margin-right:0!important;padding:64px clamp(32px,6vw,92px)!important;transform:translateX(-50%)}
+.cm-orbit-shell{min-height:570px;grid-template-columns:minmax(320px,.8fr) minmax(580px,1.2fr)!important;gap:clamp(48px,7vw,100px)!important}
+.cm-orbit-stage{width:min(100%,620px)!important}
+.cm-orbit-core{width:230px!important;min-height:230px!important}
+.cm-planet-btn{--orbit-radius:240px!important;width:104px!important;min-height:104px!important}
+
+@media(max-width:850px){
+  .cm-orbit-experience{min-height:820px!important;padding:46px 24px 34px!important}
+  .cm-orbit-shell{min-height:740px;grid-template-columns:1fr!important;gap:20px!important}
+  .cm-orbit-copy{text-align:center}.cm-orbit-copy h2,.cm-orbit-copy p{max-width:none!important}
+}
+@media(max-width:600px){
+  .continue-link{grid-template-columns:88px minmax(0,1fr);gap:11px}.continue-thumb{width:88px;height:64px}.continue-copy strong{font-size:.88rem!important}
+  .cm-topic{font-size:.43rem;padding:3px 5px}
+  .cm-orbit-experience{width:calc(100vw - 12px)!important;min-height:650px!important;padding:38px 13px 26px!important}
+  .cm-orbit-shell{min-height:590px}.cm-orbit-stage{max-width:390px!important;min-height:390px!important}.cm-orbit-core{width:168px!important;min-height:168px!important}.cm-planet-btn{--orbit-radius:146px!important;width:78px!important;min-height:78px!important}
+}

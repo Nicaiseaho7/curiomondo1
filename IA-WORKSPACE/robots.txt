@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /tools/
+Disallow: /contenuti/
+Disallow: /templates/
+Disallow: /_jscheck/
+Disallow: /_jscheck-library-empty/
+
+Sitemap: https://curiomondo.it/sitemap.xml
+Sitemap: https://curiomondo.it/news-sitemap.xml

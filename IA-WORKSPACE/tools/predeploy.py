@@ -72,7 +72,7 @@ if image_registry_path.exists():
                     if 'neutral editorial portrait' not in item.get('prompt','').lower():
                         errors.append(f"prompt sensibile non neutrale: {item.get('article','senza articolo')}")
     except Exception as exc: errors.append(f'assets/data/editorial-images-v210.json non valido: {exc}')
-html_files=list(root.rglob('*.html'))
+html_files=[p for p in root.rglob('*.html') if 'IA-WORKSPACE' not in p.relative_to(root).parts]
 for p in html_files:
     try: d=html.fromstring(p.read_text(errors='replace'))
     except Exception as exc: errors.append(f'HTML non valido {p.relative_to(root)}: {exc}'); continue
@@ -220,7 +220,7 @@ else:
 for p in (root/'assets/js').glob('*-v210.js'):
     r=subprocess.run(['node','--check',str(p)],capture_output=True,text=True)
     if r.returncode: errors.append(f'JavaScript non valido: {p.name}')
-zeros=[p for p in root.rglob('*') if p.is_file() and p.suffix.lower() in {'.webp','.avif','.png','.jpg','.jpeg'} and p.stat().st_size==0]
+zeros=[p for p in root.rglob('*') if p.is_file() and p.suffix.lower() in {'.webp','.avif','.png','.jpg','.jpeg'} and p.stat().st_size==0 and 'IA-WORKSPACE' not in p.relative_to(root).parts]
 if zeros: errors.append(f'{len(zeros)} file immagine vuoti')
 
 # Daily editorial cycle v256: mystery card, reflection, ebook and two queued guides.

@@ -1,0 +1,85 @@
+/* CurioMondo v240 — centratura strutturale, non dipendente dalla cascata storica. */
+.cm-orbit-experience .cm-orbit-shell{
+  min-width:0!important;
+}
+.cm-orbit-experience .cm-orbit-copy-centered{
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:center!important;
+  justify-content:center!important;
+  min-width:0!important;
+  width:100%!important;
+  margin-inline:auto!important;
+  text-align:center!important;
+}
+.cm-orbit-experience .cm-orbit-copy-centered>.cm-orbit-kicker{
+  display:block!important;
+  width:100%!important;
+  margin-inline:auto!important;
+  text-align:center!important;
+}
+.cm-orbit-experience #universo-curiomondo-title{
+  display:block!important;
+  box-sizing:border-box!important;
+  width:100%!important;
+  max-width:100%!important;
+  margin:13px auto 17px!important;
+  padding:0!important;
+  overflow:visible!important;
+  color:#f7fbff!important;
+  -webkit-text-fill-color:#f7fbff!important;
+  font-weight:900!important;
+  line-height:.94!important;
+  text-align:center!important;
+  white-space:normal!important;
+}
+.cm-orbit-experience .cm-universe-title-line{
+  display:block!important;
+  width:100%!important;
+  margin:0!important;
+  text-align:center!important;
+}
+.cm-orbit-experience .cm-universe-title-line+ .cm-universe-title-line{
+  margin-top:.08em!important;
+}
+.cm-orbit-experience .cm-universe-intro{
+  display:block!important;
+  box-sizing:border-box!important;
+  width:min(100%,31rem)!important;
+  max-width:31rem!important;
+  margin:0 auto!important;
+  padding:0 8px!important;
+  color:#d8e6f8!important;
+  text-align:center!important;
+}
+.cm-orbit-experience .cm-earth-stats{
+  align-self:center!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  text-align:center!important;
+}
+
+@media(max-width:850px){
+  .cm-orbit-experience .cm-orbit-copy-centered{
+    padding-inline:8px!important;
+  }
+  .cm-orbit-experience #universo-curiomondo-title{
+    font-size:clamp(2.45rem,12vw,3.35rem)!important;
+  }
+}
+
+@media(max-width:430px){
+  .cm-orbit-experience .cm-orbit-copy-centered{
+    padding-inline:4px!important;
+  }
+  .cm-orbit-experience #universo-curiomondo-title{
+    font-size:clamp(2.3rem,11.7vw,2.9rem)!important;
+    letter-spacing:-.045em!important;
+  }
+  .cm-orbit-experience .cm-universe-intro{
+    width:100%!important;
+    padding-inline:10px!important;
+    font-size:.88rem!important;
+    line-height:1.62!important;
+  }
+}

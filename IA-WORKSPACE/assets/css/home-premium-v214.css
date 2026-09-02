@@ -1,0 +1,150 @@
+/* CurioMondo v214 — densità editoriale, branding e Universo orbitale premium. */
+
+/* Testata: marchio più leggibile, tagline completa e comandi sempre disponibili. */
+.header{isolation:isolate}
+.header::after{content:"";position:absolute;inset:auto 0 0;height:1px;background:linear-gradient(90deg,transparent 4%,rgba(36,95,214,.25) 28%,rgba(42,111,227,.75) 50%,rgba(36,95,214,.25) 72%,transparent 96%)}
+.header .nav{min-height:88px}
+.header .logo{gap:10px;min-width:0}
+.header .cm-brand-logo{width:50px;height:50px}
+.header .cm-wordmark{font-size:2.34rem;line-height:.94;letter-spacing:-.075em;text-shadow:0 5px 18px rgba(19,70,143,.09)}
+.header .cm-brand-tagline{display:block;max-width:none;margin-top:7px;color:#5c6f86;font-size:.76rem;font-weight:760;line-height:1.15;letter-spacing:.025em;white-space:nowrap;overflow:visible;text-overflow:clip}
+.cm-header-actions{align-items:center}
+.header .icon-btn{width:50px;height:50px;border:1px solid rgba(35,74,124,.16);border-radius:16px;background:linear-gradient(145deg,rgba(255,255,255,.98),rgba(238,245,254,.96));box-shadow:0 9px 24px rgba(15,47,91,.10),inset 0 1px 0 #fff;color:#0a2849}
+.header .icon-btn:hover{border-color:rgba(42,111,227,.42);transform:translateY(-1px)}
+.header .cm-header-search-btn{display:grid!important}
+.header .cm-header-search-btn svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round}
+
+/* Firma editoriale più raffinata. */
+.cm-nicaise-signature{position:relative;display:inline-flex;flex-direction:column;justify-content:center;min-width:150px;margin-left:16px;padding:2px 8px 9px 17px;font-family:"Bodoni 72",Didot,"Times New Roman",serif;font-style:italic;isolation:isolate}
+.cm-nicaise-signature::before{content:"";position:absolute;left:0;top:8%;bottom:13%;width:1px;background:linear-gradient(180deg,transparent,#aebbd0 25%,#286fe8 70%,transparent)}
+.cm-nicaise-word{font-family:"Bodoni 72",Didot,"Times New Roman",serif;font-size:2rem;font-weight:500;line-height:.88;letter-spacing:-.06em;color:#0c336e;text-shadow:0 6px 18px rgba(20,64,126,.13);transform:skewX(-4deg)}
+.cm-nicaise-word b{font-size:1.34em;font-weight:600;color:#174e9e}
+.cm-nicaise-signature i{position:relative;width:100%;height:1px;margin-top:9px;background:linear-gradient(90deg,rgba(133,157,194,.18),#7595c8 30%,#286fe8 76%,transparent);transform:skewX(-18deg)}
+.cm-nicaise-signature i::after{content:"";position:absolute;right:-5px;top:-4px;width:17px;height:8px;border-top:1.5px solid #286fe8;border-radius:50%;transform:rotate(-14deg)}
+
+/* Drawer: nessun riquadro sul marchio, linea sottile e finitura editoriale. */
+.drawer-head{position:relative;border-bottom:0!important;background:linear-gradient(180deg,#fff 0%,#fbfdff 100%)}
+.drawer-head::after{content:"";position:absolute;left:20px;right:20px;bottom:0;height:1px;background:linear-gradient(90deg,transparent,#a7b9d4 18%,#246fe6 55%,#a7b9d4 82%,transparent);box-shadow:0 5px 15px rgba(36,111,230,.16)}
+.drawer-brand-home,.drawer-brand-home:focus,.drawer-brand-home:hover{border:0!important;outline:0;background:transparent!important;box-shadow:none!important}
+.drawer-brand-home{padding:0 5px 12px 0}
+.drawer-brand-home::before{display:none!important}
+.drawer-brand-home::after{left:0!important;right:auto!important;bottom:3px!important;width:100%!important;height:3px!important;border-radius:999px!important;background:linear-gradient(90deg,#071a33 0%,#1b56b9 46%,#2d7dff 84%,transparent 100%)!important;box-shadow:0 4px 11px rgba(37,111,232,.16)}
+.drawer .cm-wordmark{font-size:1.72rem;letter-spacing:-.075em}
+.cm-nicaise-drawer{min-width:132px;margin-left:0;padding-left:14px}
+.cm-nicaise-drawer .cm-nicaise-word{font-size:1.88rem}
+.drawer-close{background:linear-gradient(145deg,#07111f,#0b203d);box-shadow:0 12px 28px rgba(4,18,38,.24),inset 0 1px 0 rgba(255,255,255,.12)}
+
+/* Card compatte: immagini quadrate, ritmo serrato e bordi blu in Ultime notizie. */
+.auto-rail{grid-auto-columns:minmax(195px,calc((100% - 64px)/5));gap:13px;padding:4px 2px 18px}
+.auto-card{border:1.5px solid rgba(39,112,229,.56);border-radius:18px;box-shadow:0 13px 30px rgba(25,76,151,.11),0 0 0 3px rgba(61,128,237,.045)}
+.auto-card:hover{border-color:#246fe6;box-shadow:0 17px 35px rgba(25,76,151,.17)}
+.auto-card picture{aspect-ratio:1/1}
+.auto-card .abody{min-height:0;padding:12px 13px 14px;gap:7px}
+.auto-card .ameta{padding:4px 7px;font-size:.55rem;line-height:1.25}
+.auto-card h3{display:-webkit-box;min-height:3.45em;overflow:hidden;font-size:.9rem;line-height:1.15;-webkit-box-orient:vertical;-webkit-line-clamp:3}
+.auto-card p{display:none}
+.auto-card time{font-size:.62rem;color:#6a7d94}
+.cards{grid-auto-columns:minmax(205px,calc((100% - 56px)/4));gap:14px;padding:5px 2px 19px}
+.card{border-radius:18px;box-shadow:0 12px 29px rgba(20,58,104,.085)}
+.card picture{aspect-ratio:1/1}
+.card .body{min-height:0;padding:13px 14px 15px;gap:7px}
+.card .meta{padding:0;font-size:.57rem;line-height:1.3}
+.card h3{display:-webkit-box;min-height:3.6em;overflow:hidden;font-size:.94rem;line-height:1.2;-webkit-box-orient:vertical;-webkit-line-clamp:3}
+.card p{display:none}
+.card time{font-size:.62rem}
+
+/* Universo CurioMondo: sistema orbitale tridimensionale e interattivo. */
+.cm-orbit-experience{width:min(1180px,calc(100% - 36px));margin:46px auto 0;padding:48px 42px;border:1px solid rgba(111,175,255,.25);border-radius:38px;background:radial-gradient(circle at 76% 42%,rgba(37,113,231,.24),transparent 31%),radial-gradient(circle at 12% 90%,rgba(22,221,205,.13),transparent 30%),linear-gradient(145deg,#020816 0%,#071b38 48%,#092d5c 100%);box-shadow:0 35px 90px rgba(2,17,40,.32),inset 0 1px 0 rgba(255,255,255,.06);overflow:hidden}
+.cm-orbit-experience::before{background-image:radial-gradient(rgba(255,255,255,.85) .7px,transparent .8px),radial-gradient(rgba(99,176,255,.65) .7px,transparent .8px);background-position:0 0,15px 17px;background-size:31px 31px,47px 47px;opacity:.23}
+.cm-orbit-experience::after{content:"";position:absolute;inset:-45% -20%;background:conic-gradient(from 100deg,transparent,rgba(56,135,255,.07),transparent 25%);animation:cm-space-glow 18s linear infinite;pointer-events:none}
+.cm-orbit-shell{grid-template-columns:minmax(260px,.78fr) minmax(520px,1.22fr);gap:48px;align-items:center}
+.cm-orbit-copy{position:relative;z-index:3}
+.cm-orbit-kicker{color:#7ddaf1;font-size:.7rem;font-weight:850;letter-spacing:.2em}
+.cm-orbit-copy h2{max-width:9ch;margin:13px 0 17px;background:linear-gradient(125deg,#fff 15%,#a8d1ff 58%,#62efe1);-webkit-background-clip:text;background-clip:text;color:transparent;font-size:clamp(2.4rem,5vw,4.2rem);line-height:.93;letter-spacing:-.055em;text-shadow:none}
+.cm-orbit-copy p{max-width:38ch;color:#c9d9ef;font-size:.96rem;line-height:1.68}
+.cm-earth-stats{display:inline-flex;grid-column:auto;margin-top:16px;padding:9px 13px;border:1px solid rgba(123,181,255,.2);border-radius:999px;background:rgba(8,39,76,.56);color:#a9c5ea;font-size:.72rem;text-align:left;backdrop-filter:blur(8px)}
+.cm-orbit-stage{position:relative;display:block;width:min(100%,560px);aspect-ratio:1/1;margin:auto;border-radius:50%;isolation:isolate}
+.cm-orbit-stage::before,.cm-orbit-stage::after{content:"";position:absolute;left:50%;top:50%;border:1px solid rgba(115,176,255,.18);border-radius:50%;transform:translate(-50%,-50%) rotate(-10deg);pointer-events:none}
+.cm-orbit-stage::before{width:78%;height:78%;box-shadow:0 0 48px rgba(28,101,215,.12),inset 0 0 48px rgba(28,101,215,.08)}
+.cm-orbit-stage::after{width:96%;height:46%;border-color:rgba(115,176,255,.15);transform:translate(-50%,-50%) rotate(24deg)}
+.cm-orbit-core{position:absolute;left:50%;top:50%;z-index:5;width:210px;min-height:210px;margin:0;padding:26px;transform:translate(-50%,-50%);border:1px solid rgba(166,217,255,.56);background:radial-gradient(circle at 34% 25%,rgba(255,255,255,.88) 0 2%,#6ed5f2 3%,#2c8ae6 22%,#1657b5 47%,#092b64 72%,#020d25 100%);box-shadow:inset -28px -30px 46px rgba(0,4,18,.62),inset 18px 18px 32px rgba(121,225,255,.18),0 0 0 12px rgba(49,125,238,.055),0 0 72px rgba(46,130,255,.46),0 24px 52px rgba(0,0,0,.45);overflow:hidden}
+.cm-orbit-core::before{content:"";position:absolute;inset:7%;border-radius:50%;background:linear-gradient(115deg,transparent 15%,rgba(255,255,255,.23) 31%,transparent 46%);mix-blend-mode:screen;animation:cm-globe-shimmer 7s ease-in-out infinite;pointer-events:none}
+.cm-orbit-core::after{content:"";position:absolute;inset:17% -18%;border:1px solid rgba(155,225,255,.32);border-radius:50%;transform:rotate(-18deg);box-shadow:0 -23px 0 -22px rgba(194,239,255,.26),0 23px 0 -22px rgba(194,239,255,.18);pointer-events:none}
+.cm-curiomondo-orb-copy{position:relative;z-index:2;text-shadow:0 3px 14px rgba(0,15,50,.56)}
+.cm-curiomondo-orb-copy small{color:#d9f7ff;font-size:.5rem;letter-spacing:.18em}
+.cm-curiomondo-orb-copy strong{font-size:1.48rem;letter-spacing:-.065em}
+.cm-curiomondo-orb-copy strong b{color:#9be9ff}
+.cm-curiomondo-orb-copy em{color:#d7eaff;font-size:.59rem}
+.cm-planet-btn{--orbit-radius:215px;position:absolute;left:50%;top:50%;z-index:4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;width:94px;min-height:94px;padding:9px;transform-origin:center;border:1px solid rgba(158,209,255,.48);border-radius:50%;background:radial-gradient(circle at 31% 23%,#8ce8ff,#2b84da 34%,#153f85 69%,#07162f);box-shadow:inset -10px -12px 20px rgba(0,5,25,.46),inset 6px 6px 13px rgba(255,255,255,.15),0 10px 28px rgba(0,0,0,.38),0 0 25px rgba(45,132,240,.2);font-size:.63rem;line-height:1.14;text-align:center;animation:cm-planet-orbit 34s linear infinite;will-change:transform}
+.cm-planet-btn:nth-of-type(2){animation-delay:-8.5s;background:radial-gradient(circle at 31% 23%,#d9b8ff,#7b54df 35%,#35217b 70%,#120a2d)}
+.cm-planet-btn:nth-of-type(3){animation-delay:-17s;background:radial-gradient(circle at 31% 23%,#ffe49a,#d68b31 35%,#7b3e18 70%,#2b1006)}
+.cm-planet-btn:nth-of-type(4){animation-delay:-25.5s;background:radial-gradient(circle at 31% 23%,#a9ffdb,#2baf8d 35%,#155c57 70%,#07282a)}
+.cm-planet-btn b{font-size:1.05rem;line-height:1}
+.cm-planet-btn span{max-width:70px;font-weight:800}
+.cm-planet-btn:hover{border-color:#fff;filter:brightness(1.15)}
+.cm-orbit-stage.is-accelerating .cm-planet-btn{animation-duration:.9s}
+.cm-world-curiosity{position:absolute;z-index:12;left:50%;top:50%;grid-column:auto;width:min(88%,420px);padding:24px;transform:translate(-50%,-50%);border:1px solid rgba(142,203,255,.46);border-radius:23px;background:rgba(3,19,42,.94);box-shadow:0 28px 75px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.08);backdrop-filter:blur(18px)}
+
+@keyframes cm-planet-orbit{from{transform:translate(-50%,-50%) rotate(0deg) translateX(var(--orbit-radius)) rotate(0deg)}to{transform:translate(-50%,-50%) rotate(360deg) translateX(var(--orbit-radius)) rotate(-360deg)}}
+@keyframes cm-globe-shimmer{0%,100%{transform:translateX(-32%) rotate(8deg);opacity:.35}50%{transform:translateX(32%) rotate(8deg);opacity:.8}}
+@keyframes cm-space-glow{to{transform:rotate(360deg)}}
+
+html.cm-dark .header .cm-brand-tagline{color:#a9bdd8}
+html.cm-dark .header .icon-btn{background:linear-gradient(145deg,#0b2340,#07192f);border-color:#27425f;color:#eaf3ff}
+html.cm-dark .drawer-head{background:linear-gradient(180deg,#07192f,#081d36)}
+
+@media(max-width:850px){
+  .cm-orbit-shell{grid-template-columns:1fr;gap:18px}
+  .cm-orbit-copy{text-align:center}
+  .cm-orbit-copy h2,.cm-orbit-copy p{max-width:none}
+  .cm-earth-stats{justify-content:center}
+  .cm-orbit-stage{max-width:520px}
+}
+
+@media(max-width:600px){
+  .header .nav{min-height:82px;width:calc(100% - 20px);gap:6px}
+  .header .logo{gap:6px}
+  .header .cm-brand-logo{width:39px;height:39px}
+  .header .cm-wordmark{font-size:1.67rem}
+  .header .cm-brand-tagline{max-width:205px;margin-top:5px;font-size:.57rem;line-height:1.1;letter-spacing:0;white-space:normal}
+  .cm-header-actions{gap:5px}
+  .header .icon-btn{width:43px;height:43px;border-radius:14px;font-size:1.42rem}
+  .header .cm-header-search-btn svg{width:20px;height:20px}
+  .auto-rail{grid-auto-columns:min(56vw,218px);gap:11px;margin-right:calc(-1 * (50vw - 50%));padding-right:14px}
+  .auto-card{border-width:1.5px;border-radius:17px}
+  .auto-card .abody{min-height:0;padding:10px 11px 12px}
+  .auto-card h3{min-height:3.42em;font-size:.82rem}
+  .cards{grid-auto-columns:min(60vw,232px);gap:11px;margin-right:calc(-1 * (50vw - 50%));padding-right:14px}
+  .card .body{min-height:0;padding:11px 12px 13px}
+  .card h3{min-height:3.54em;font-size:.85rem}
+  .cm-orbit-experience{width:calc(100% - 20px);margin-top:38px;padding:31px 12px 25px;border-radius:30px}
+  .cm-orbit-copy{padding:0 10px}
+  .cm-orbit-copy h2{font-size:2.45rem}
+  .cm-orbit-copy p{font-size:.84rem;line-height:1.58}
+  .cm-orbit-stage{width:100%;max-width:360px;min-height:350px}
+  .cm-orbit-core{width:160px;min-height:160px;padding:19px}
+  .cm-curiomondo-orb-copy strong{font-size:1.2rem}
+  .cm-planet-btn{--orbit-radius:133px;width:76px;min-height:76px;padding:7px;font-size:.53rem}
+  .cm-planet-btn b{font-size:.88rem}
+  .cm-planet-btn span{max-width:58px}
+}
+
+@media(max-width:390px){
+  .header .cm-brand-logo{width:36px;height:36px}
+  .header .cm-wordmark{font-size:1.52rem}
+  .header .cm-brand-tagline{max-width:177px;font-size:.52rem}
+  .header .icon-btn{width:40px;height:40px}
+  .drawer-brand-line{gap:7px}
+  .drawer .cm-wordmark{font-size:1.5rem}
+  .cm-nicaise-drawer{min-width:106px;padding-left:10px}
+  .cm-nicaise-drawer .cm-nicaise-word{font-size:1.53rem}
+  .drawer-close{width:46px;height:46px}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .cm-orbit-experience::after,.cm-orbit-core::before,.cm-planet-btn{animation:none!important}
+  .cm-planet-btn:nth-of-type(2){transform:translate(-50%,-50%) translate(112px,-112px)}
+  .cm-planet-btn:nth-of-type(3){transform:translate(-50%,-50%) translate(-112px,-112px)}
+  .cm-planet-btn:nth-of-type(4){transform:translate(-50%,-50%) translate(-112px,112px)}
+  .cm-planet-btn:nth-of-type(5){transform:translate(-50%,-50%) translate(112px,112px)}
+}

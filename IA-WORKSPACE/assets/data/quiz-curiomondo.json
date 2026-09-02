@@ -1,0 +1,1629 @@
+{
+  "version": 1,
+  "updated": "2026-08-10",
+  "count": 96,
+  "items": [
+    {
+      "id": "cmq-001",
+      "category": "Cultura Generale",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Qual è la capitale dell’Australia?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Perth"
+      ],
+      "correctIndex": 2,
+      "explanation": "La capitale federale dell’Australia è Canberra.",
+      "curiosity": "Canberra fu scelta anche per evitare la rivalità tra Sydney e Melbourne.",
+      "image": null
+    },
+    {
+      "id": "cmq-002",
+      "category": "Cultura Generale",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale oceano è il più vasto della Terra?",
+      "options": [
+        "Atlantico",
+        "Indiano",
+        "Pacifico",
+        "Artico"
+      ],
+      "correctIndex": 2,
+      "explanation": "Il Pacifico è l’oceano più vasto del pianeta.",
+      "curiosity": "Copre una superficie maggiore di tutte le terre emerse messe insieme.",
+      "image": null
+    },
+    {
+      "id": "cmq-003",
+      "category": "Cultura Generale",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quanti lati ha un dodecagono?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "20"
+      ],
+      "correctIndex": 1,
+      "explanation": "Un dodecagono ha 12 lati.",
+      "curiosity": "Il prefisso “dodeca-” deriva dal greco e indica dodici.",
+      "image": null
+    },
+    {
+      "id": "cmq-004",
+      "category": "Cultura Generale",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale lingua ha il maggior numero di madrelingua al mondo?",
+      "options": [
+        "Inglese",
+        "Spagnolo",
+        "Cinese mandarino",
+        "Hindi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Il cinese mandarino è generalmente considerato la lingua con più madrelingua.",
+      "curiosity": "L’inglese, invece, è molto diffuso come seconda lingua.",
+      "image": null
+    },
+    {
+      "id": "cmq-005",
+      "category": "Cultura Generale",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "In quale continente si trova il deserto del Kalahari?",
+      "options": [
+        "Asia",
+        "Africa",
+        "Sud America",
+        "Australia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Il Kalahari si trova nell’Africa australe.",
+      "curiosity": "Si estende soprattutto in Botswana, Namibia e Sudafrica.",
+      "image": null
+    },
+    {
+      "id": "cmq-006",
+      "category": "Cultura Generale",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale elemento chimico ha simbolo “Au”?",
+      "options": [
+        "Argento",
+        "Oro",
+        "Alluminio",
+        "Rame"
+      ],
+      "correctIndex": 1,
+      "explanation": "Au è il simbolo chimico dell’oro.",
+      "curiosity": "Deriva dal latino “aurum”.",
+      "image": null
+    },
+    {
+      "id": "cmq-007",
+      "category": "Cultura Generale",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale di questi Paesi non usa l’euro come valuta nazionale?",
+      "options": [
+        "Portogallo",
+        "Polonia",
+        "Spagna",
+        "Irlanda"
+      ],
+      "correctIndex": 1,
+      "explanation": "La Polonia usa lo złoty.",
+      "curiosity": "La Polonia è nell’Unione europea ma non fa parte dell’area euro.",
+      "image": null
+    },
+    {
+      "id": "cmq-008",
+      "category": "Cultura Generale",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Qual è il fiume che attraversa Parigi?",
+      "options": [
+        "Danubio",
+        "Senna",
+        "Reno",
+        "Tamigi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Parigi è attraversata dalla Senna.",
+      "curiosity": "Le due rive storiche della città sono chiamate Rive Gauche e Rive Droite.",
+      "image": null
+    },
+    {
+      "id": "cmq-009",
+      "category": "Cultura Generale",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale animale è il più grande oggi vivente?",
+      "options": [
+        "Elefante africano",
+        "Squalo balena",
+        "Balenottera azzurra",
+        "Orca"
+      ],
+      "correctIndex": 2,
+      "explanation": "La balenottera azzurra è l’animale più grande oggi vivente.",
+      "curiosity": "Può superare i 25 metri di lunghezza.",
+      "image": null
+    },
+    {
+      "id": "cmq-010",
+      "category": "Cultura Generale",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale pianeta è noto per i suoi grandi anelli visibili?",
+      "options": [
+        "Marte",
+        "Venere",
+        "Saturno",
+        "Mercurio"
+      ],
+      "correctIndex": 2,
+      "explanation": "Saturno possiede il sistema di anelli più spettacolare e facilmente riconoscibile.",
+      "curiosity": "Anche altri giganti gassosi hanno anelli, ma molto meno evidenti.",
+      "image": null
+    },
+    {
+      "id": "cmq-011",
+      "category": "Cultura Generale",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Il Monte Everest si trova nella catena…",
+      "options": [
+        "Ande",
+        "Alpi",
+        "Himalaya",
+        "Caucaso"
+      ],
+      "correctIndex": 2,
+      "explanation": "L’Everest appartiene alla catena dell’Himalaya.",
+      "curiosity": "La cima si trova sul confine tra Nepal e Tibet.",
+      "image": null
+    },
+    {
+      "id": "cmq-012",
+      "category": "Cultura Generale",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale strumento misura la pressione atmosferica?",
+      "options": [
+        "Termometro",
+        "Barometro",
+        "Igrometro",
+        "Anemometro"
+      ],
+      "correctIndex": 1,
+      "explanation": "Il barometro misura la pressione atmosferica.",
+      "curiosity": "Le variazioni di pressione sono utili anche nelle previsioni meteorologiche.",
+      "image": null
+    },
+    {
+      "id": "cmq-013",
+      "category": "Italia nel Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale città italiana ospita la sede della FAO?",
+      "options": [
+        "Milano",
+        "Roma",
+        "Torino",
+        "Bologna"
+      ],
+      "correctIndex": 1,
+      "explanation": "La FAO ha sede a Roma.",
+      "curiosity": "Roma ospita anche altre importanti organizzazioni internazionali legate ad alimentazione e agricoltura.",
+      "image": null
+    },
+    {
+      "id": "cmq-014",
+      "category": "Italia nel Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale città italiana è famosa nel mondo per la Biennale d’arte?",
+      "options": [
+        "Venezia",
+        "Genova",
+        "Palermo",
+        "Verona"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Biennale di Venezia è una delle istituzioni culturali internazionali più note.",
+      "curiosity": "Comprende arte, architettura, cinema, danza, musica e teatro.",
+      "image": null
+    },
+    {
+      "id": "cmq-015",
+      "category": "Italia nel Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Il marchio UNESCO ha la sua sede centrale in quale città europea?",
+      "options": [
+        "Roma",
+        "Parigi",
+        "Firenze",
+        "Ginevra"
+      ],
+      "correctIndex": 1,
+      "explanation": "La sede centrale dell’UNESCO è a Parigi.",
+      "curiosity": "L’Italia è tra i Paesi con il maggior numero di siti iscritti nella Lista del Patrimonio Mondiale.",
+      "image": null
+    },
+    {
+      "id": "cmq-016",
+      "category": "Italia nel Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale scienziato italiano è associato agli studi fondamentali sulla radioattività artificiale e ai neutroni lenti?",
+      "options": [
+        "Enrico Fermi",
+        "Guglielmo Marconi",
+        "Alessandro Volta",
+        "Evangelista Torricelli"
+      ],
+      "correctIndex": 0,
+      "explanation": "Enrico Fermi ebbe un ruolo decisivo nella fisica nucleare del Novecento.",
+      "curiosity": "Ricevette il Nobel per la Fisica nel 1938.",
+      "image": null
+    },
+    {
+      "id": "cmq-017",
+      "category": "Italia nel Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale invenzione è legata al nome di Alessandro Volta?",
+      "options": [
+        "Telefono",
+        "Pila elettrica",
+        "Radio",
+        "Microscopio"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alessandro Volta sviluppò la pila voltaica.",
+      "curiosity": "L’unità di misura del potenziale elettrico, il volt, porta il suo nome.",
+      "image": null
+    },
+    {
+      "id": "cmq-018",
+      "category": "Italia nel Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale città italiana ospitò i Giochi olimpici invernali del 2006?",
+      "options": [
+        "Torino",
+        "Cortina d’Ampezzo",
+        "Milano",
+        "Trento"
+      ],
+      "correctIndex": 0,
+      "explanation": "Torino ospitò i Giochi olimpici invernali del 2006.",
+      "curiosity": "Cortina aveva già ospitato l’edizione del 1956.",
+      "image": null
+    },
+    {
+      "id": "cmq-019",
+      "category": "Italia nel Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale mare bagna sia l’Italia sia la costa occidentale dei Balcani?",
+      "options": [
+        "Mar Baltico",
+        "Mar Adriatico",
+        "Mar Nero",
+        "Mar del Nord"
+      ],
+      "correctIndex": 1,
+      "explanation": "Il Mar Adriatico separa la penisola italiana dai Balcani occidentali.",
+      "curiosity": "È un braccio del Mediterraneo.",
+      "image": null
+    },
+    {
+      "id": "cmq-020",
+      "category": "Italia nel Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale città italiana è sede dell’Agenzia Spaziale Italiana?",
+      "options": [
+        "Roma",
+        "Napoli",
+        "Pisa",
+        "Trieste"
+      ],
+      "correctIndex": 0,
+      "explanation": "La sede centrale dell’ASI è a Roma.",
+      "curiosity": "L’Italia partecipa a numerose missioni spaziali europee e internazionali.",
+      "image": null
+    },
+    {
+      "id": "cmq-021",
+      "category": "Italia nel Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale compositore italiano scrisse “La traviata”?",
+      "options": [
+        "Giacomo Puccini",
+        "Giuseppe Verdi",
+        "Antonio Vivaldi",
+        "Gioachino Rossini"
+      ],
+      "correctIndex": 1,
+      "explanation": "“La traviata” è un’opera di Giuseppe Verdi.",
+      "curiosity": "Debuttò al Teatro La Fenice di Venezia nel 1853.",
+      "image": null
+    },
+    {
+      "id": "cmq-022",
+      "category": "Italia nel Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale città italiana è famosa per il distretto del design e il Salone del Mobile?",
+      "options": [
+        "Milano",
+        "Bari",
+        "Perugia",
+        "Cagliari"
+      ],
+      "correctIndex": 0,
+      "explanation": "Milano è uno dei principali centri internazionali del design.",
+      "curiosity": "Ogni anno la Milano Design Week richiama visitatori da tutto il mondo.",
+      "image": null
+    },
+    {
+      "id": "cmq-023",
+      "category": "Italia nel Mondo",
+      "difficulty": "medio",
+      "type": "boolean",
+      "question": "Vero o falso: San Marino è completamente circondato dal territorio italiano.",
+      "options": [
+        "Vero",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "explanation": "San Marino è un microstato interamente circondato dall’Italia.",
+      "curiosity": "È uno dei più antichi Stati sovrani ancora esistenti.",
+      "image": null
+    },
+    {
+      "id": "cmq-024",
+      "category": "Italia nel Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale automobile italiana porta nel simbolo un cavallino rampante?",
+      "options": [
+        "Lamborghini",
+        "Ferrari",
+        "Maserati",
+        "Alfa Romeo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Il cavallino rampante è il simbolo della Ferrari.",
+      "curiosity": "Il marchio è legato a Maranello, in Emilia-Romagna.",
+      "image": null
+    },
+    {
+      "id": "cmq-025",
+      "category": "Indovinello Intelligente",
+      "difficulty": "facile",
+      "type": "multiple",
+      "question": "Più ne togli, più diventa grande. Che cos’è?",
+      "options": [
+        "Un buco",
+        "Una montagna",
+        "Una candela",
+        "Un’ombra"
+      ],
+      "correctIndex": 0,
+      "explanation": "È un buco: togliendo materiale, il buco diventa più grande.",
+      "curiosity": "È un classico indovinello basato sull’inversione del significato di “togliere”.",
+      "image": null
+    },
+    {
+      "id": "cmq-026",
+      "category": "Indovinello Intelligente",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Ha città senza case, fiumi senza acqua e montagne senza alberi. Cos’è?",
+      "options": [
+        "Un sogno",
+        "Una mappa",
+        "Un libro",
+        "Un deserto"
+      ],
+      "correctIndex": 1,
+      "explanation": "Una mappa rappresenta città, fiumi e montagne senza contenerli fisicamente.",
+      "curiosity": "La risposta sfrutta la differenza tra rappresentazione e realtà.",
+      "image": null
+    },
+    {
+      "id": "cmq-027",
+      "category": "Indovinello Intelligente",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Un padre e un figlio hanno in totale 66 anni. Il padre ha 42 anni più del figlio. Quanti anni ha il figlio?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "24"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se il figlio ha 12 anni, il padre ne ha 54: insieme fanno 66.",
+      "curiosity": "L’equazione è x + (x + 42) = 66.",
+      "image": null
+    },
+    {
+      "id": "cmq-028",
+      "category": "Indovinello Intelligente",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Se superi il secondo classificato in una gara, in che posizione sei?",
+      "options": [
+        "Primo",
+        "Secondo",
+        "Terzo",
+        "Dipende"
+      ],
+      "correctIndex": 1,
+      "explanation": "Superando il secondo, prendi il suo posto: diventi secondo.",
+      "curiosity": "L’errore comune è pensare automaticamente di diventare primo.",
+      "image": null
+    },
+    {
+      "id": "cmq-029",
+      "category": "Indovinello Intelligente",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale numero manca? 2, 6, 12, 20, 30, …",
+      "options": [
+        "36",
+        "40",
+        "42",
+        "44"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le differenze sono 4, 6, 8, 10; la successiva è 12. Quindi 30 + 12 = 42.",
+      "curiosity": "La sequenza può anche essere letta come n×(n+1).",
+      "image": null
+    },
+    {
+      "id": "cmq-030",
+      "category": "Indovinello Intelligente",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Hai tre interruttori e una lampadina in un’altra stanza. Puoi entrare nella stanza una sola volta. Quale proprietà della lampadina può aiutarti?",
+      "options": [
+        "Il colore",
+        "Il calore",
+        "La forma",
+        "Il peso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Accendendo un interruttore per un po’ e poi spegnendolo, il calore della lampadina permette di distinguerlo.",
+      "curiosity": "L’indovinello usa due informazioni: luce e temperatura.",
+      "image": null
+    },
+    {
+      "id": "cmq-031",
+      "category": "Indovinello Intelligente",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Una famiglia ha due genitori e sei figli. Ogni figlio ha una sorella. Quante persone ci sono almeno?",
+      "options": [
+        "8",
+        "9",
+        "12",
+        "14"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ci sono 2 genitori, 6 figli maschi e una sorella condivisa: almeno 9 persone.",
+      "curiosity": "“Ogni figlio ha una sorella” non implica una sorella diversa per ciascuno.",
+      "image": null
+    },
+    {
+      "id": "cmq-032",
+      "category": "Indovinello Intelligente",
+      "difficulty": "difficile",
+      "type": "multiple",
+      "question": "Quale parola diventa più corta quando aggiungi due lettere?",
+      "options": [
+        "Corta",
+        "Breve",
+        "Lunga",
+        "Piccola"
+      ],
+      "correctIndex": 0,
+      "explanation": "È un gioco di parole: “corta” con l’idea di aggiungere lettere rimanda al paradosso linguistico, non a una trasformazione letterale universale.",
+      "curiosity": "Gli indovinelli di parole dipendono spesso dalla lingua; qui la logica è metalinguistica.",
+      "image": null
+    },
+    {
+      "id": "cmq-033",
+      "category": "Indovinello Intelligente",
+      "difficulty": "difficile",
+      "type": "multiple",
+      "question": "Se ieri fosse domani, oggi sarebbe venerdì. Che giorno è oggi?",
+      "options": [
+        "Mercoledì",
+        "Giovedì",
+        "Domenica",
+        "Sabato"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spostare “ieri” a “domani” equivale a traslare il riferimento di due giorni: se nel mondo ipotetico oggi è venerdì, nel reale è mercoledì.",
+      "curiosity": "È un esercizio di cambio del sistema di riferimento.",
+      "image": null
+    },
+    {
+      "id": "cmq-034",
+      "category": "Indovinello Intelligente",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Due monete sommano 30 centesimi e una delle due non è da 10 centesimi. Quali sono?",
+      "options": [
+        "20 e 10",
+        "15 e 15",
+        "25 e 5",
+        "30 e 0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Una delle due non è da 10: può esserlo l’altra. Quindi 20 + 10.",
+      "curiosity": "La frase non dice che nessuna delle due sia da 10 centesimi.",
+      "image": null
+    },
+    {
+      "id": "cmq-035",
+      "category": "Indovinello Intelligente",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Un orologio segna le 3:00. Qual è l’angolo minore tra le lancette?",
+      "options": [
+        "30°",
+        "60°",
+        "90°",
+        "120°"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alle 3:00 la lancetta dei minuti è sul 12 e quella delle ore sul 3: l’angolo è 90°.",
+      "curiosity": "Il quadrante divide il giro in 12 settori da 30° ciascuno.",
+      "image": null
+    },
+    {
+      "id": "cmq-036",
+      "category": "Indovinello Intelligente",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Tre medici dicono che Luca è loro fratello. Luca dice di non avere fratelli. Com’è possibile?",
+      "options": [
+        "I medici mentono",
+        "Sono le sue sorelle",
+        "Luca è figlio unico",
+        "È un errore"
+      ],
+      "correctIndex": 1,
+      "explanation": "I tre medici possono essere le sorelle di Luca.",
+      "curiosity": "L’indovinello sfrutta un’assunzione implicita sul genere della parola “medici”.",
+      "image": null
+    },
+    {
+      "id": "cmq-037",
+      "category": "Scienza & Natura",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale gas costituisce la maggior parte dell’atmosfera terrestre?",
+      "options": [
+        "Ossigeno",
+        "Azoto",
+        "Anidride carbonica",
+        "Argon"
+      ],
+      "correctIndex": 1,
+      "explanation": "L’azoto costituisce circa il 78% dell’atmosfera terrestre.",
+      "curiosity": "L’ossigeno è circa il 21%.",
+      "image": null
+    },
+    {
+      "id": "cmq-038",
+      "category": "Scienza & Natura",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Qual è l’organo più esteso del corpo umano?",
+      "options": [
+        "Fegato",
+        "Polmone",
+        "Pelle",
+        "Intestino"
+      ],
+      "correctIndex": 2,
+      "explanation": "La pelle è l’organo più esteso del corpo umano.",
+      "curiosity": "Funziona da barriera, contribuisce alla termoregolazione e contiene recettori sensoriali.",
+      "image": null
+    },
+    {
+      "id": "cmq-039",
+      "category": "Scienza & Natura",
+      "difficulty": "medio",
+      "type": "boolean",
+      "question": "Vero o falso: i fulmini possono essere più caldi della superficie del Sole.",
+      "options": [
+        "Vero",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "explanation": "Il canale di un fulmine può raggiungere temperature di decine di migliaia di gradi.",
+      "curiosity": "È un picco estremamente breve e localizzato.",
+      "image": null
+    },
+    {
+      "id": "cmq-040",
+      "category": "Scienza & Natura",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale parte della cellula contiene principalmente il DNA nelle cellule eucariotiche?",
+      "options": [
+        "Nucleo",
+        "Ribosoma",
+        "Membrana",
+        "Lisosoma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nelle cellule eucariotiche la maggior parte del DNA è nel nucleo.",
+      "curiosity": "Una piccola quantità di DNA è presente anche nei mitocondri.",
+      "image": null
+    },
+    {
+      "id": "cmq-041",
+      "category": "Scienza & Natura",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Le api comunicano la posizione di fonti di cibo anche attraverso…",
+      "options": [
+        "Una danza",
+        "Un ululato",
+        "Un cambio di colore",
+        "Un fischio"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le api possono usare la cosiddetta danza dell’addome per comunicare direzione e distanza.",
+      "curiosity": "Il comportamento è stato studiato in dettaglio dall’etologo Karl von Frisch.",
+      "image": null
+    },
+    {
+      "id": "cmq-042",
+      "category": "Scienza & Natura",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale unità misura la frequenza?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Hertz",
+        "Pascal"
+      ],
+      "correctIndex": 2,
+      "explanation": "La frequenza si misura in hertz (Hz).",
+      "curiosity": "Un hertz corrisponde a un ciclo al secondo.",
+      "image": null
+    },
+    {
+      "id": "cmq-043",
+      "category": "Scienza & Natura",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale animale possiede tre cuori?",
+      "options": [
+        "Polpo",
+        "Delfino",
+        "Pinguino",
+        "Coccodrillo"
+      ],
+      "correctIndex": 0,
+      "explanation": "I polpi hanno tre cuori.",
+      "curiosity": "Due pompano sangue verso le branchie, uno verso il resto del corpo.",
+      "image": null
+    },
+    {
+      "id": "cmq-044",
+      "category": "Scienza & Natura",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "La fotosintesi usa principalmente luce, acqua e…",
+      "options": [
+        "Azoto",
+        "Anidride carbonica",
+        "Elio",
+        "Metano"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le piante usano anidride carbonica e acqua, grazie all’energia luminosa, per produrre composti organici.",
+      "curiosity": "L’ossigeno viene rilasciato come sottoprodotto.",
+      "image": null
+    },
+    {
+      "id": "cmq-045",
+      "category": "Scienza & Natura",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale scala è comunemente usata per esprimere l’acidità di una soluzione?",
+      "options": [
+        "Scala Beaufort",
+        "Scala pH",
+        "Scala Mohs",
+        "Scala Richter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Il pH indica quanto una soluzione è acida o basica.",
+      "curiosity": "A temperatura ambiente, un pH intorno a 7 è considerato neutro.",
+      "image": null
+    },
+    {
+      "id": "cmq-046",
+      "category": "Scienza & Natura",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Qual è il mammifero terrestre più veloce?",
+      "options": [
+        "Leone",
+        "Ghepardo",
+        "Antilope",
+        "Cavallo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Il ghepardo è il mammifero terrestre più veloce su brevi distanze.",
+      "curiosity": "La sua velocità elevata non può essere mantenuta a lungo.",
+      "image": null
+    },
+    {
+      "id": "cmq-047",
+      "category": "Scienza & Natura",
+      "difficulty": "medio",
+      "type": "boolean",
+      "question": "Vero o falso: il vetro è un liquido che scorre lentamente a temperatura ambiente.",
+      "options": [
+        "Vero",
+        "Falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Il vetro comune è un solido amorfo, non un liquido che scorre lentamente a temperatura ambiente.",
+      "curiosity": "Le irregolarità dei vecchi vetri dipendono soprattutto dai processi storici di fabbricazione.",
+      "image": null
+    },
+    {
+      "id": "cmq-048",
+      "category": "Scienza & Natura",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale pianeta del Sistema Solare ha il giorno più lungo in termini di rotazione?",
+      "options": [
+        "Terra",
+        "Venere",
+        "Marte",
+        "Giove"
+      ],
+      "correctIndex": 1,
+      "explanation": "Venere ruota molto lentamente sul proprio asse.",
+      "curiosity": "La sua rotazione è anche retrograda rispetto alla maggior parte dei pianeti.",
+      "image": null
+    },
+    {
+      "id": "cmq-049",
+      "category": "Spazio",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quanto impiega circa la luce del Sole a raggiungere la Terra?",
+      "options": [
+        "8 secondi",
+        "8 minuti",
+        "80 minuti",
+        "8 ore"
+      ],
+      "correctIndex": 1,
+      "explanation": "La luce solare impiega circa 8 minuti e 20 secondi per arrivare sulla Terra.",
+      "curiosity": "La distanza media Terra-Sole è circa 150 milioni di chilometri.",
+      "image": null
+    },
+    {
+      "id": "cmq-050",
+      "category": "Spazio",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Qual è il pianeta più grande del Sistema Solare?",
+      "options": [
+        "Saturno",
+        "Giove",
+        "Nettuno",
+        "Terra"
+      ],
+      "correctIndex": 1,
+      "explanation": "Giove è il pianeta più grande del Sistema Solare.",
+      "curiosity": "La sua massa è superiore a quella di tutti gli altri pianeti messi insieme, escluso il Sole.",
+      "image": null
+    },
+    {
+      "id": "cmq-051",
+      "category": "Spazio",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Come si chiama la nostra galassia?",
+      "options": [
+        "Andromeda",
+        "Via Lattea",
+        "Sombrero",
+        "Triangolo"
+      ],
+      "correctIndex": 1,
+      "explanation": "La Terra si trova nella Via Lattea.",
+      "curiosity": "Il Sistema Solare è in una regione periferica del disco galattico.",
+      "image": null
+    },
+    {
+      "id": "cmq-052",
+      "category": "Spazio",
+      "difficulty": "medio",
+      "type": "boolean",
+      "question": "Vero o falso: sulla Luna il suono può propagarsi all’aperto come sulla Terra.",
+      "options": [
+        "Vero",
+        "Falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sulla Luna non c’è un’atmosfera abbastanza densa da trasmettere il suono come sulla Terra.",
+      "curiosity": "Il suono richiede un mezzo materiale per propagarsi.",
+      "image": null
+    },
+    {
+      "id": "cmq-053",
+      "category": "Spazio",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale pianeta è più vicino al Sole?",
+      "options": [
+        "Venere",
+        "Mercurio",
+        "Terra",
+        "Marte"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mercurio è il pianeta più vicino al Sole.",
+      "curiosity": "Nonostante ciò, Venere ha una temperatura media superficiale più alta a causa del forte effetto serra.",
+      "image": null
+    },
+    {
+      "id": "cmq-054",
+      "category": "Spazio",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Che cos’è una supernova?",
+      "options": [
+        "Un pianeta appena nato",
+        "Una potente esplosione stellare",
+        "Una cometa gigante",
+        "Un buco nero in miniatura"
+      ],
+      "correctIndex": 1,
+      "explanation": "Una supernova è un’esplosione stellare estremamente energetica.",
+      "curiosity": "Può avvenire alla fine della vita di alcune stelle o in particolari sistemi binari.",
+      "image": null
+    },
+    {
+      "id": "cmq-055",
+      "category": "Spazio",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale corpo celeste domina con la sua gravità il Sistema Solare?",
+      "options": [
+        "Giove",
+        "Terra",
+        "Sole",
+        "Saturno"
+      ],
+      "correctIndex": 2,
+      "explanation": "Il Sole contiene quasi tutta la massa del Sistema Solare.",
+      "curiosity": "La sua gravità mantiene pianeti e molti corpi minori nelle rispettive orbite.",
+      "image": null
+    },
+    {
+      "id": "cmq-056",
+      "category": "Spazio",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Gli astronauti sulla Stazione Spaziale Internazionale sembrano senza peso perché…",
+      "options": [
+        "Non esiste gravità",
+        "Sono in caduta libera orbitale",
+        "La ISS annulla la gravità",
+        "La tuta li solleva"
+      ],
+      "correctIndex": 1,
+      "explanation": "La ISS e gli astronauti sono continuamente in caduta libera intorno alla Terra.",
+      "curiosity": "La gravità a quell’altitudine è ancora significativa.",
+      "image": null
+    },
+    {
+      "id": "cmq-057",
+      "category": "Spazio",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale pianeta è famoso per la Grande Macchia Rossa?",
+      "options": [
+        "Marte",
+        "Giove",
+        "Urano",
+        "Venere"
+      ],
+      "correctIndex": 1,
+      "explanation": "La Grande Macchia Rossa è una gigantesca tempesta nell’atmosfera di Giove.",
+      "curiosity": "È osservata da secoli, anche se dimensioni e intensità cambiano nel tempo.",
+      "image": null
+    },
+    {
+      "id": "cmq-058",
+      "category": "Spazio",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Che cos’è un anno luce?",
+      "options": [
+        "Un’unità di tempo",
+        "Un’unità di distanza",
+        "Un tipo di stella",
+        "Un’unità di luminosità"
+      ],
+      "correctIndex": 1,
+      "explanation": "L’anno luce è la distanza percorsa dalla luce nel vuoto in un anno.",
+      "curiosity": "Vale circa 9,46 mila miliardi di chilometri.",
+      "image": null
+    },
+    {
+      "id": "cmq-059",
+      "category": "Spazio",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale fu il primo essere umano a camminare sulla Luna?",
+      "options": [
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "John Glenn"
+      ],
+      "correctIndex": 1,
+      "explanation": "Neil Armstrong fu il primo a mettere piede sulla Luna nel 1969.",
+      "curiosity": "Buzz Aldrin lo seguì poco dopo durante la missione Apollo 11.",
+      "image": null
+    },
+    {
+      "id": "cmq-060",
+      "category": "Spazio",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale pianeta ruota “sdraiato” con un’inclinazione assiale estrema?",
+      "options": [
+        "Urano",
+        "Mercurio",
+        "Marte",
+        "Giove"
+      ],
+      "correctIndex": 0,
+      "explanation": "Urano ha un’inclinazione assiale di circa 98 gradi.",
+      "curiosity": "Questo produce stagioni molto particolari e prolungate.",
+      "image": null
+    },
+    {
+      "id": "cmq-061",
+      "category": "Storia & Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "In quale anno cadde il Muro di Berlino?",
+      "options": [
+        "1961",
+        "1979",
+        "1989",
+        "1999"
+      ],
+      "correctIndex": 2,
+      "explanation": "Il Muro di Berlino cadde nel 1989.",
+      "curiosity": "L’evento divenne uno dei simboli della fine della Guerra fredda in Europa.",
+      "image": null
+    },
+    {
+      "id": "cmq-062",
+      "category": "Storia & Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale civiltà costruì Machu Picchu?",
+      "options": [
+        "Maya",
+        "Inca",
+        "Aztechi",
+        "Fenici"
+      ],
+      "correctIndex": 1,
+      "explanation": "Machu Picchu fu costruita dalla civiltà Inca.",
+      "curiosity": "Si trova nelle Ande peruviane.",
+      "image": null
+    },
+    {
+      "id": "cmq-063",
+      "category": "Storia & Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "La Magna Carta fu siglata nel Medioevo in quale Paese?",
+      "options": [
+        "Francia",
+        "Inghilterra",
+        "Spagna",
+        "Italia"
+      ],
+      "correctIndex": 1,
+      "explanation": "La Magna Carta fu concessa in Inghilterra nel 1215.",
+      "curiosity": "È spesso citata nella storia dello sviluppo dei limiti al potere monarchico.",
+      "image": null
+    },
+    {
+      "id": "cmq-064",
+      "category": "Storia & Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale città fu sepolta dall’eruzione del Vesuvio del 79 d.C.?",
+      "options": [
+        "Pompei",
+        "Atene",
+        "Cartagine",
+        "Ravenna"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pompei fu sepolta dall’eruzione del Vesuvio del 79 d.C.",
+      "curiosity": "La cenere vulcanica contribuì a conservarne molti elementi.",
+      "image": null
+    },
+    {
+      "id": "cmq-065",
+      "category": "Storia & Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Chi fu il primo imperatore romano?",
+      "options": [
+        "Nerone",
+        "Augusto",
+        "Traiano",
+        "Costantino"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ottaviano Augusto è considerato il primo imperatore romano.",
+      "curiosity": "Il suo principato iniziò nel 27 a.C.",
+      "image": null
+    },
+    {
+      "id": "cmq-066",
+      "category": "Storia & Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale antica civiltà sviluppò la scrittura cuneiforme?",
+      "options": [
+        "Sumeri",
+        "Romani",
+        "Vichinghi",
+        "Inca"
+      ],
+      "correctIndex": 0,
+      "explanation": "La scrittura cuneiforme nacque in Mesopotamia presso i Sumeri.",
+      "curiosity": "Fu poi usata e adattata da varie culture della regione.",
+      "image": null
+    },
+    {
+      "id": "cmq-067",
+      "category": "Storia & Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale esploratore guidò la spedizione che avviò la prima circumnavigazione del globo?",
+      "options": [
+        "Cristoforo Colombo",
+        "Ferdinando Magellano",
+        "James Cook",
+        "Marco Polo"
+      ],
+      "correctIndex": 1,
+      "explanation": "La spedizione fu avviata da Ferdinando Magellano e completata dopo la sua morte da Juan Sebastián Elcano.",
+      "curiosity": "Il viaggio si concluse nel 1522.",
+      "image": null
+    },
+    {
+      "id": "cmq-068",
+      "category": "Storia & Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale città era il centro politico dell’Impero bizantino?",
+      "options": [
+        "Roma",
+        "Costantinopoli",
+        "Alessandria",
+        "Vienna"
+      ],
+      "correctIndex": 1,
+      "explanation": "Costantinopoli fu la capitale dell’Impero romano d’Oriente, poi chiamato bizantino.",
+      "curiosity": "Oggi la città è Istanbul.",
+      "image": null
+    },
+    {
+      "id": "cmq-069",
+      "category": "Storia & Mondo",
+      "difficulty": "medio",
+      "type": "boolean",
+      "question": "Vero o falso: l’Antico Egitto durò più a lungo dell’Impero romano d’Occidente.",
+      "options": [
+        "Vero",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "explanation": "La civiltà dell’Antico Egitto attraversò millenni di storia, molto più del solo Impero romano d’Occidente.",
+      "curiosity": "Confrontare civiltà e imperi richiede definizioni precise, ma la differenza di durata è enorme.",
+      "image": null
+    },
+    {
+      "id": "cmq-070",
+      "category": "Storia & Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale documento americano del 1776 proclamò la separazione delle Tredici Colonie dalla Gran Bretagna?",
+      "options": [
+        "Costituzione",
+        "Dichiarazione d’Indipendenza",
+        "Bill of Rights",
+        "Federalist Papers"
+      ],
+      "correctIndex": 1,
+      "explanation": "La Dichiarazione d’Indipendenza fu adottata nel 1776.",
+      "curiosity": "La Costituzione degli Stati Uniti arrivò successivamente.",
+      "image": null
+    },
+    {
+      "id": "cmq-071",
+      "category": "Storia & Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "In quale area nacquero i primi Giochi olimpici antichi?",
+      "options": [
+        "Grecia",
+        "Egitto",
+        "Persia",
+        "Gallia"
+      ],
+      "correctIndex": 0,
+      "explanation": "I Giochi olimpici antichi nacquero in Grecia, a Olimpia.",
+      "curiosity": "Erano legati a celebrazioni religiose e competizioni atletiche.",
+      "image": null
+    },
+    {
+      "id": "cmq-072",
+      "category": "Storia & Mondo",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale invenzione di Gutenberg rivoluzionò la diffusione dei libri in Europa?",
+      "options": [
+        "Carta",
+        "Stampa a caratteri mobili",
+        "Pergamena",
+        "Penna stilografica"
+      ],
+      "correctIndex": 1,
+      "explanation": "La stampa a caratteri mobili rese molto più rapida la produzione di libri in Europa.",
+      "curiosity": "La diffusione delle idee aumentò enormemente nei secoli successivi.",
+      "image": null
+    },
+    {
+      "id": "cmq-073",
+      "category": "Curiosità Visiva",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale simbolo ha una simmetria rotazionale perfetta di 180°?",
+      "options": [
+        "▲",
+        "S",
+        "L",
+        "F"
+      ],
+      "correctIndex": 1,
+      "explanation": "Una “S” stilizzata può mantenere la stessa forma dopo una rotazione di 180°, a seconda del carattere.",
+      "curiosity": "La simmetria dipende anche dal font: qui si considera una S geometrica semplice.",
+      "image": null
+    },
+    {
+      "id": "cmq-074",
+      "category": "Curiosità Visiva",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Se un quadrato viene tagliato lungo una diagonale, quali figure ottieni?",
+      "options": [
+        "Due triangoli",
+        "Due cerchi",
+        "Un rettangolo e un triangolo",
+        "Due pentagoni"
+      ],
+      "correctIndex": 0,
+      "explanation": "La diagonale divide un quadrato in due triangoli rettangoli congruenti.",
+      "curiosity": "I due triangoli hanno la stessa area.",
+      "image": null
+    },
+    {
+      "id": "cmq-075",
+      "category": "Curiosità Visiva",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale colore si ottiene mescolando luce rossa e luce verde in un sistema RGB?",
+      "options": [
+        "Giallo",
+        "Blu",
+        "Viola",
+        "Nero"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nella sintesi additiva RGB, rosso + verde produce giallo.",
+      "curiosity": "La mescolanza di luci è diversa dalla mescolanza di pigmenti.",
+      "image": null
+    },
+    {
+      "id": "cmq-076",
+      "category": "Curiosità Visiva",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale figura ha il maggior numero di assi di simmetria?",
+      "options": [
+        "Triangolo scaleno",
+        "Quadrato",
+        "Rettangolo non quadrato",
+        "Parallelogramma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Il quadrato ha quattro assi di simmetria.",
+      "curiosity": "Un rettangolo non quadrato ne ha due.",
+      "image": null
+    },
+    {
+      "id": "cmq-077",
+      "category": "Curiosità Visiva",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Guarda la sequenza: ◯ ◯ ● ◯ ◯ ● … Quale simbolo viene dopo?",
+      "options": [
+        "●",
+        "◯",
+        "▲",
+        "■"
+      ],
+      "correctIndex": 1,
+      "explanation": "Il pattern ripete due cerchi vuoti e uno pieno. Dopo il pieno riparte con un cerchio vuoto.",
+      "curiosity": "Riconoscere blocchi ripetuti è una forma semplice di pattern recognition.",
+      "image": null
+    },
+    {
+      "id": "cmq-078",
+      "category": "Curiosità Visiva",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale figura rimane uguale se ruotata di 90°?",
+      "options": [
+        "Quadrato",
+        "Triangolo equilatero",
+        "Rettangolo 2:1",
+        "Semicerchio"
+      ],
+      "correctIndex": 0,
+      "explanation": "Il quadrato coincide con se stesso dopo rotazioni di 90°, 180° e 270°.",
+      "curiosity": "Questa proprietà si chiama simmetria rotazionale.",
+      "image": null
+    },
+    {
+      "id": "cmq-079",
+      "category": "Curiosità Visiva",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale simbolo completa il pattern? ★ ☆ ★ ☆ ★ …",
+      "options": [
+        "★",
+        "☆",
+        "●",
+        "▲"
+      ],
+      "correctIndex": 1,
+      "explanation": "La sequenza alterna stella piena e stella vuota.",
+      "curiosity": "Il prossimo elemento è quindi la stella vuota.",
+      "image": null
+    },
+    {
+      "id": "cmq-080",
+      "category": "Curiosità Visiva",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "In un’immagine specchiata orizzontalmente, cosa succede alla destra e alla sinistra?",
+      "options": [
+        "Si scambiano",
+        "Restano identiche",
+        "Si scambiano alto e basso",
+        "L’immagine ruota di 90°"
+      ],
+      "correctIndex": 0,
+      "explanation": "Uno specchio verticale produce un’inversione apparente tra destra e sinistra.",
+      "curiosity": "Geometricamente si tratta di una riflessione rispetto a un asse.",
+      "image": null
+    },
+    {
+      "id": "cmq-081",
+      "category": "Curiosità Visiva",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale colore complementare del blu è spesso indicato nei modelli artistici tradizionali?",
+      "options": [
+        "Arancione",
+        "Verde",
+        "Viola",
+        "Ciano"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nel modello tradizionale RYB, il complementare del blu è l’arancione.",
+      "curiosity": "Nei modelli digitali i rapporti tra colori dipendono dallo spazio cromatico usato.",
+      "image": null
+    },
+    {
+      "id": "cmq-082",
+      "category": "Curiosità Visiva",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale forma tridimensionale ha tutte le facce quadrate?",
+      "options": [
+        "Cubo",
+        "Tetraedro",
+        "Cilindro",
+        "Cono"
+      ],
+      "correctIndex": 0,
+      "explanation": "Un cubo ha sei facce quadrate congruenti.",
+      "curiosity": "Ha anche 12 spigoli e 8 vertici.",
+      "image": null
+    },
+    {
+      "id": "cmq-083",
+      "category": "Curiosità Visiva",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quante diagonali ha un quadrato?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "correctIndex": 1,
+      "explanation": "Un quadrato ha due diagonali.",
+      "curiosity": "Si incontrano al centro, sono uguali e perpendicolari.",
+      "image": null
+    },
+    {
+      "id": "cmq-084",
+      "category": "Curiosità Visiva",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale sequenza cresce raddoppiando ogni volta?",
+      "options": [
+        "1, 2, 4, 8",
+        "1, 3, 5, 7",
+        "2, 5, 8, 11",
+        "10, 9, 8, 7"
+      ],
+      "correctIndex": 0,
+      "explanation": "1, 2, 4, 8 raddoppia a ogni passaggio.",
+      "curiosity": "Il termine successivo sarebbe 16.",
+      "image": null
+    },
+    {
+      "id": "cmq-085",
+      "category": "Parole & Logica",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale parola è l’intrusa?",
+      "options": [
+        "Mela",
+        "Pera",
+        "Carota",
+        "Pesca"
+      ],
+      "correctIndex": 2,
+      "explanation": "Carota è un ortaggio; le altre sono frutti.",
+      "curiosity": "È una classificazione semantica semplice.",
+      "image": null
+    },
+    {
+      "id": "cmq-086",
+      "category": "Parole & Logica",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Completa l’analogia: Libro sta a leggere come musica sta a…",
+      "options": [
+        "Guardare",
+        "Ascoltare",
+        "Toccare",
+        "Pesare"
+      ],
+      "correctIndex": 1,
+      "explanation": "La musica si ascolta, come un libro si legge.",
+      "curiosity": "Le analogie mettono in relazione funzioni o proprietà equivalenti.",
+      "image": null
+    },
+    {
+      "id": "cmq-087",
+      "category": "Parole & Logica",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Se tutti i Luri sono blu e nessun oggetto blu è caldo, un Luri può essere caldo?",
+      "options": [
+        "Sì",
+        "No",
+        "Solo di notte",
+        "Non si può sapere"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se tutti i Luri sono blu e nessun blu è caldo, nessun Luri può essere caldo.",
+      "curiosity": "È un sillogismo basato su due premesse universali.",
+      "image": null
+    },
+    {
+      "id": "cmq-088",
+      "category": "Parole & Logica",
+      "difficulty": "facile",
+      "type": "multiple",
+      "question": "Quale di queste parole è un palindromo?",
+      "options": [
+        "Radar",
+        "Tavolo",
+        "Mondo",
+        "Libro"
+      ],
+      "correctIndex": 0,
+      "explanation": "“Radar” si legge nello stesso modo da sinistra a destra e da destra a sinistra.",
+      "curiosity": "Le parole o frasi con questa proprietà sono chiamate palindromi.",
+      "image": null
+    },
+    {
+      "id": "cmq-089",
+      "category": "Parole & Logica",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale numero completa la serie: 3, 6, 12, 24, …?",
+      "options": [
+        "30",
+        "36",
+        "42",
+        "48"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ogni termine raddoppia: 24 × 2 = 48.",
+      "curiosity": "È una progressione geometrica di ragione 2.",
+      "image": null
+    },
+    {
+      "id": "cmq-090",
+      "category": "Parole & Logica",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Se A è più alto di B e B è più alto di C, quale affermazione è certa?",
+      "options": [
+        "C è più alto di A",
+        "A è più alto di C",
+        "A e C sono uguali",
+        "Non si può sapere"
+      ],
+      "correctIndex": 1,
+      "explanation": "Per transitività, se A > B e B > C, allora A > C.",
+      "curiosity": "È una relazione d’ordine transitiva.",
+      "image": null
+    },
+    {
+      "id": "cmq-091",
+      "category": "Parole & Logica",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale coppia ha la stessa relazione di “chiave : serratura”?",
+      "options": [
+        "Penna : carta",
+        "Password : account",
+        "Scarpa : strada",
+        "Pioggia : nuvola"
+      ],
+      "correctIndex": 1,
+      "explanation": "Una password consente l’accesso a un account, come una chiave a una serratura.",
+      "curiosity": "È un’analogia funzione-accesso.",
+      "image": null
+    },
+    {
+      "id": "cmq-092",
+      "category": "Parole & Logica",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale lettera viene dopo? A, C, F, J, O, …",
+      "options": [
+        "T",
+        "U",
+        "V",
+        "W"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le posizioni aumentano di +2, +3, +4, +5; poi +6: O è 15, 15+6=21, cioè U.",
+      "curiosity": "La sequenza usa incrementi crescenti.",
+      "image": null
+    },
+    {
+      "id": "cmq-093",
+      "category": "Parole & Logica",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Una frase è vera se e solo se la sua negazione è…",
+      "options": [
+        "Vera",
+        "Falsa",
+        "Uguale",
+        "Più lunga"
+      ],
+      "correctIndex": 1,
+      "explanation": "In logica classica, se una proposizione è vera, la sua negazione è falsa.",
+      "curiosity": "Il principio vale per proposizioni ben definite con valore di verità.",
+      "image": null
+    },
+    {
+      "id": "cmq-094",
+      "category": "Parole & Logica",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Quale numero non appartiene al gruppo? 2, 3, 5, 7, 9, 11",
+      "options": [
+        "2",
+        "5",
+        "9",
+        "11"
+      ],
+      "correctIndex": 2,
+      "explanation": "9 non è primo; gli altri numeri lo sono.",
+      "curiosity": "9 è divisibile per 3.",
+      "image": null
+    },
+    {
+      "id": "cmq-095",
+      "category": "Parole & Logica",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Se CATENA viene codificato come 3-1-20-5-14-1, quale numero rappresenta T?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "correctIndex": 2,
+      "explanation": "Usando la posizione nell’alfabeto, T è la ventesima lettera.",
+      "curiosity": "Questo tipo di codice sostituisce ogni lettera con il suo numero ordinale.",
+      "image": null
+    },
+    {
+      "id": "cmq-096",
+      "category": "Parole & Logica",
+      "difficulty": "medio",
+      "type": "multiple",
+      "question": "Qual è l’opposto logico di “Tutti i corvi sono neri”?",
+      "options": [
+        "Nessun corvo è nero",
+        "Almeno un corvo non è nero",
+        "Tutti i corvi sono bianchi",
+        "Almeno un corvo è nero"
+      ],
+      "correctIndex": 1,
+      "explanation": "La negazione di “tutti hanno la proprietà” è “esiste almeno uno che non la ha”.",
+      "curiosity": "È una regola fondamentale della logica dei quantificatori.",
+      "image": null
+    }
+  ]
+}

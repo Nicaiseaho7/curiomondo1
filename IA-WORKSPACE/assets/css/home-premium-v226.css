@@ -1,0 +1,16 @@
+/* CurioMondo v226 — card senza cornici e feedback del caricamento. */
+
+.featured,.auto-card,.card,.auto-card.cm-breaking,.card.cm-breaking{
+  border:0!important;
+  box-shadow:0 14px 34px rgba(17,50,91,.11)!important;
+}
+.featured{box-shadow:0 22px 55px rgba(5,24,52,.22)!important}
+.cm-topic{border:0!important}
+
+.cm-feed-more{position:relative}
+.cm-feed-more button[aria-busy="true"]{cursor:wait;opacity:.72}
+.cm-load-status{flex-basis:100%;min-height:1.3em;margin:0;color:#1763ca;font-size:.78rem;font-weight:750;text-align:center}
+
+html.cm-dark .featured,html.cm-dark .auto-card,html.cm-dark .card{
+  box-shadow:0 16px 38px rgba(0,0,0,.28)!important;
+}

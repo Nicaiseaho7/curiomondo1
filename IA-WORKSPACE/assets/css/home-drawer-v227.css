@@ -1,0 +1,60 @@
+/* CurioMondo v227 — menu laterale fedele al riferimento mobile. */
+.drawer{position:fixed!important;inset:0 auto 0 0!important;width:min(80vw,420px)!important;height:100dvh!important;max-height:100dvh!important;margin:0!important;padding:0!important;overflow-x:hidden!important;overflow-y:auto!important;border:0!important;border-radius:0 24px 24px 0!important;background:linear-gradient(145deg,#fff 0%,#fbfdff 60%,#f7faff 100%)!important;color:#09264a!important;font-family:Georgia,"Times New Roman",serif!important;box-shadow:22px 0 60px rgba(17,42,79,.2)!important;overscroll-behavior:contain}
+.drawer::backdrop{background:rgba(24,46,76,.32)!important;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.drawer[open]{display:block!important;animation:cm-drawer-reference-in .26s ease-out}
+@keyframes cm-drawer-reference-in{from{transform:translateX(-100%);opacity:.75}to{transform:none;opacity:1}}
+.drawer-head{position:relative!important;display:flex!important;align-items:center!important;justify-content:space-between!important;gap:10px!important;min-height:94px!important;margin:0!important;padding:20px 16px 15px 22px!important;border:0!important;background:transparent!important}
+.drawer-head::after{display:none!important}
+.drawer-brand-line{display:flex!important;align-items:center!important;gap:10px!important;min-width:0!important;flex:1!important}
+.drawer-brand-home{display:block!important;flex:none!important;margin:0!important;padding:0!important;border:0!important;background:transparent!important;text-decoration:none!important;white-space:nowrap!important}
+.drawer-brand-home::after,.drawer-brand-home::before{display:none!important}
+.drawer .drawer-brand-home .cm-wordmark{color:#082a57!important;font:700 clamp(1.52rem,7.1vw,1.86rem)/1 Georgia,"Times New Roman",serif!important;letter-spacing:-.055em!important}
+.drawer .drawer-brand-home .cm-wordmark>span{color:#245fd6!important}
+.cm-nicaise-drawer{position:relative!important;display:inline-flex!important;min-width:0!important;margin:0!important;padding:2px 0 4px 13px!important;border-left:1px solid #dce5f2!important}
+.cm-nicaise-drawer::before,.cm-nicaise-drawer i{display:none!important}
+.cm-nicaise-drawer .cm-nicaise-word{color:#123f8c!important;font:500 clamp(1.45rem,6.7vw,1.9rem)/.9 "Snell Roundhand","Segoe Script","Brush Script MT",cursive!important;letter-spacing:-.03em!important;white-space:nowrap!important;transform:none!important;text-shadow:none!important}
+.cm-nicaise-drawer .cm-nicaise-word b{color:inherit!important;font:inherit!important}
+.drawer-close{display:grid!important;place-items:center!important;flex:none!important;width:50px!important;height:50px!important;padding:0!important;border:1px solid #e8eef7!important;border-radius:50%!important;background:#fff!important;color:#071f42!important;font:300 2rem/1 Arial,sans-serif!important;box-shadow:0 8px 24px rgba(34,65,107,.13)!important}
+.drawer-close:hover{background:#f5f8fd!important}
+.drawer-content{padding:0 20px 24px}
+.drawer-tools{display:grid!important;gap:11px!important;margin:0 0 13px!important;padding:0!important;background:transparent!important}
+.drawer-tool{display:flex!important;align-items:center!important;gap:14px!important;width:100%!important;min-height:82px!important;padding:13px 15px!important;border:1px solid #edf1f7!important;border-radius:18px!important;background:#fff!important;color:#09264a!important;text-align:left!important;box-shadow:0 9px 26px rgba(23,62,112,.08)!important}
+.drawer-tool:hover,.drawer-tool:active{background:#fbfdff!important;color:#09264a!important}
+.drawer-tool-icon,.drawer-nav-icon{display:grid!important;place-items:center!important;flex:none!important;width:46px!important;height:46px!important;border-radius:15px!important;background:linear-gradient(145deg,#eff5ff,#e5efff)!important;color:#154fa8!important}
+.drawer-tool-icon svg,.drawer-nav-icon svg{width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.drawer-tool-copy{display:flex!important;flex-direction:column!important;min-width:0!important;flex:1!important}
+.drawer-tool-copy strong{color:#09264a;font:700 1.02rem/1.16 Georgia,"Times New Roman",serif}
+.drawer-tool-copy small{margin-top:5px;color:#7084a2;font:400 .76rem/1.2 Georgia,"Times New Roman",serif}
+.drawer-switch{position:relative;display:block!important;flex:none;width:43px;height:25px;border-radius:999px;background:#cfd5dd;box-shadow:inset 0 1px 3px rgba(28,45,69,.16)}
+.drawer-switch::after{content:"";position:absolute;left:3px;top:3px;width:19px;height:19px;border-radius:50%;background:#fff;box-shadow:0 2px 5px rgba(0,0,0,.18);transition:transform .2s}
+.drawer-tool[aria-pressed="true"] .drawer-switch{background:#245fd6}.drawer-tool[aria-pressed="true"] .drawer-switch::after{transform:translateX(18px)}
+.drawer-chevron{display:block!important;margin-left:auto;color:#607793;font:400 2rem/1 Arial,sans-serif}
+.drawer-nav{list-style:none!important;margin:0!important;padding:0!important}
+.drawer-nav>li{margin:0!important;border-bottom:1px solid #dfe7f2!important}
+.drawer-nav a,.drawer-nav summary{display:flex!important;align-items:center!important;gap:13px!important;min-height:56px!important;padding:5px 8px!important;border:0!important;border-radius:0!important;background:transparent!important;color:#0a2a55!important;text-decoration:none!important;font:700 .94rem/1.2 Georgia,"Times New Roman",serif!important;list-style:none!important}
+.drawer-nav a:hover,.drawer-nav summary:hover{background:#f7faff!important}
+.drawer-nav summary::-webkit-details-marker{display:none!important}
+.drawer-nav summary::after{content:""!important;width:8px;height:8px;margin-left:auto;margin-right:6px;border-right:2px solid #607793;border-bottom:2px solid #607793;transform:rotate(45deg);transition:transform .2s}
+.drawer-nav details[open] summary::after{transform:rotate(225deg)}
+.drawer-nav .drawer-nav-icon{width:42px!important;height:42px!important;border-radius:13px!important}
+.drawer-nav .drawer-nav-icon svg{width:24px;height:24px}
+.drawer-nav a>.drawer-chevron{font-size:1.75rem}
+.drawer-nav details{padding:0!important;border:0!important;border-radius:0!important}
+.drawer-nav details>div{padding:0 0 8px 55px!important;background:#f8fbff!important}
+.drawer-nav details>div a{min-height:36px!important;padding:7px 12px!important;color:#5d7190!important;font:600 .78rem/1.2 Arial,sans-serif!important}
+.drawer-library{font-weight:700!important}
+.drawer-brand-card{position:relative;display:flex!important;align-items:center!important;gap:15px!important;min-height:96px!important;margin:14px 0 0!important;padding:14px 16px!important;overflow:hidden!important;border:1px solid #bcd2f3!important;border-radius:17px!important;background:radial-gradient(circle at 92% 8%,rgba(86,145,231,.16),transparent 38%),linear-gradient(135deg,#fff,#f3f7ff)!important;text-decoration:none!important;box-shadow:0 10px 28px rgba(27,74,137,.08)!important}
+.drawer-brand-card::after{content:"";position:absolute;right:-24px;bottom:-52px;width:190px;height:95px;border:1px solid rgba(53,112,202,.16);border-radius:50%;transform:rotate(-22deg)}
+.drawer-brand-card img{position:relative;z-index:1;flex:none;width:58px;height:58px;border-radius:50%;object-fit:cover;box-shadow:0 7px 18px rgba(28,83,161,.18)}
+.drawer-brand-card>span{position:relative;z-index:1;display:flex;flex-direction:column;min-width:0}
+.drawer-brand-card strong{color:#09264a;font:700 1.47rem/1 Georgia,"Times New Roman",serif;letter-spacing:-.04em}.drawer-brand-card strong span{color:#245fd6}.drawer-brand-card small{margin-top:7px;color:#295fae;font:italic 600 .72rem/1.15 Georgia,"Times New Roman",serif}
+html.cm-dark .drawer,html.cm-dark .drawer-head{background:linear-gradient(145deg,#fff,#f7faff)!important;color:#09264a!important}
+html.cm-dark .drawer-nav a,html.cm-dark .drawer-nav summary,html.cm-dark .drawer-tool{color:#09264a!important}
+@media(max-width:430px){
+  .drawer{width:80vw!important;max-width:none!important;border-radius:0 22px 22px 0!important}
+  .drawer-head{min-height:88px!important;padding:17px 12px 13px 17px!important;gap:7px!important}
+  .drawer-brand-line{gap:7px!important}.drawer .drawer-brand-home .cm-wordmark{font-size:1.43rem!important}.cm-nicaise-drawer{padding-left:8px!important}.cm-nicaise-drawer .cm-nicaise-word{font-size:1.35rem!important}.drawer-close{width:46px!important;height:46px!important;font-size:1.8rem!important}
+  .drawer-content{padding:0 15px 18px}.drawer-tool{min-height:76px!important;padding:11px 12px!important}.drawer-tool-icon{width:43px!important;height:43px!important}.drawer-tool-copy strong{font-size:.94rem}.drawer-tool-copy small{font-size:.7rem}.drawer-switch{width:39px;height:23px}.drawer-switch::after{width:17px;height:17px}.drawer-tool[aria-pressed="true"] .drawer-switch::after{transform:translateX(16px)}
+  .drawer-nav a,.drawer-nav summary{min-height:53px!important;padding:4px 6px!important;font-size:.86rem!important;gap:11px!important}.drawer-nav .drawer-nav-icon{width:40px!important;height:40px!important}.drawer-brand-card{min-height:90px!important;padding:12px!important}.drawer-brand-card img{width:52px;height:52px}.drawer-brand-card strong{font-size:1.25rem}.drawer-brand-card small{font-size:.65rem}
+}
+@media(prefers-reduced-motion:reduce){.drawer[open]{animation:none}.drawer-switch::after{transition:none}}

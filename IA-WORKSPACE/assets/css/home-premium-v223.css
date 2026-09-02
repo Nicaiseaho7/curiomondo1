@@ -1,0 +1,114 @@
+/* CurioMondo v223 — gerarchia tipografica editoriale delle card. */
+
+/* Le informazioni seguono l'ordine editoriale: categoria, titolo, sintesi, data. */
+.auto-card .abody,.card .body{
+  gap:0!important;
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.auto-card .ameta,.card .meta{
+  order:0!important;
+  display:block!important;
+  width:100%!important;
+  max-width:100%!important;
+  margin:0 0 7px!important;
+  padding:0!important;
+  overflow:hidden;
+  border:0!important;
+  border-radius:0!important;
+  background:transparent!important;
+  color:#1763ca!important;
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;
+  font-size:.54rem!important;
+  font-weight:850!important;
+  line-height:1.25!important;
+  letter-spacing:.105em!important;
+  text-overflow:ellipsis;
+  text-transform:uppercase;
+  white-space:nowrap;
+}
+.auto-card h3,.card h3{
+  order:1!important;
+  display:-webkit-box!important;
+  min-height:0!important;
+  margin:0!important;
+  overflow:hidden!important;
+  color:#09264a!important;
+  font-family:Georgia,"Times New Roman",serif!important;
+  font-size:.9rem!important;
+  font-weight:700!important;
+  font-feature-settings:"kern" 1,"liga" 1;
+  line-height:1.16!important;
+  letter-spacing:-.018em!important;
+  overflow-wrap:break-word;
+  text-wrap:pretty;
+  -webkit-box-orient:vertical!important;
+  -webkit-line-clamp:3!important;
+}
+.auto-card p,.card p{
+  order:2!important;
+  display:-webkit-box!important;
+  margin:7px 0 0!important;
+  overflow:hidden!important;
+  color:#617188!important;
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;
+  font-size:.67rem!important;
+  font-weight:500!important;
+  line-height:1.34!important;
+  letter-spacing:.002em!important;
+  -webkit-box-orient:vertical!important;
+  -webkit-line-clamp:2!important;
+}
+.auto-card time,.card time{
+  order:3!important;
+  display:block!important;
+  margin-top:auto!important;
+  padding-top:8px;
+  color:#8190a5!important;
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;
+  font-size:.61rem!important;
+  font-weight:560;
+  line-height:1.2;
+  letter-spacing:.025em;
+}
+
+/* Spazio sufficiente: il testo non viene più schiacciato sotto l'immagine. */
+.auto-card{height:286px!important}
+.auto-card picture{flex:0 0 43%!important}
+.auto-card .abody{padding:13px 13px 12px!important}
+.card{height:326px!important}
+.card picture{flex:0 0 50%!important}
+.card .body{padding:15px 16px 14px!important}
+.card .meta{font-size:.59rem!important;margin-bottom:8px!important}
+.card h3{font-size:1rem!important;line-height:1.18!important}
+.card p{font-size:.72rem!important;line-height:1.38!important;margin-top:8px!important}
+.card time{font-size:.66rem!important;padding-top:9px}
+
+html.cm-dark .auto-card h3,html.cm-dark .card h3,body.dark .auto-card h3,body.dark .card h3{color:#f3f7ff!important}
+html.cm-dark .auto-card p,html.cm-dark .card p,body.dark .auto-card p,body.dark .card p{color:#b5c2d5!important}
+html.cm-dark .auto-card .ameta,html.cm-dark .card .meta,body.dark .auto-card .ameta,body.dark .card .meta{color:#79aaff!important}
+
+@media(max-width:700px){
+  .auto-rail{grid-auto-columns:min(44vw,168px)}
+  .auto-card{height:248px!important}
+  .auto-card picture{flex-basis:41%!important}
+  .auto-card .abody{padding:10px 10px 10px!important}
+  .auto-card .ameta{font-size:.46rem!important;letter-spacing:.09em!important;margin-bottom:6px!important}
+  .auto-card h3{font-size:.8rem!important;line-height:1.15!important;-webkit-line-clamp:4!important}
+  .auto-card p{font-size:.59rem!important;line-height:1.3!important;margin-top:6px!important;-webkit-line-clamp:1!important}
+  .auto-card time{font-size:.55rem!important;padding-top:7px}
+
+  .cards{grid-auto-columns:min(78vw,286px)}
+  .card{height:334px!important}
+  .card picture{flex-basis:51%!important}
+  .card .body{padding:13px 14px 13px!important}
+  .card .meta{font-size:.54rem!important;letter-spacing:.095em!important;margin-bottom:7px!important}
+  .card h3{font-size:.94rem!important;line-height:1.17!important;-webkit-line-clamp:3!important}
+  .card p{font-size:.68rem!important;line-height:1.34!important;margin-top:7px!important;-webkit-line-clamp:2!important}
+  .card time{font-size:.62rem!important;padding-top:8px}
+}
+
+@media(max-width:390px){
+  .auto-rail{grid-auto-columns:min(45vw,164px)}
+  .auto-card h3{font-size:.77rem!important}
+  .auto-card p{font-size:.57rem!important}
+}

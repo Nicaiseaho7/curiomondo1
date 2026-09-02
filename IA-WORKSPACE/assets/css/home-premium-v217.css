@@ -1,0 +1,19 @@
+/* CurioMondo v217 — gerarchia definitiva delle card. */
+.auto-card,.card{display:flex!important;flex-direction:column!important}
+.auto-card picture,.card picture{display:block!important;order:0;flex:0 0 52%;width:100%!important;max-width:none!important;height:auto!important;aspect-ratio:auto!important;border-right:0!important}
+.auto-card img,.card img{display:block!important;width:100%!important;height:100%!important;object-fit:cover!important}
+.auto-card .abody,.card .body{display:flex!important;flex:1 1 auto!important;flex-direction:column!important;min-height:0!important;height:auto!important;overflow:hidden;padding:11px 14px 12px!important}
+.auto-card h3,.card h3{display:-webkit-box!important;order:1!important;visibility:visible!important;opacity:1!important;min-height:0!important;margin:0!important;overflow:hidden!important;color:var(--cm-ink)!important;font-size:.91rem!important;font-weight:850!important;line-height:1.2!important;letter-spacing:-.02em!important;-webkit-box-orient:vertical!important;-webkit-line-clamp:3!important}
+.auto-card .ameta,.card .meta{order:2!important;margin-top:7px!important}
+.auto-card p,.card p{display:none!important}
+.auto-card time,.card time{display:block!important;order:3!important;margin-top:auto!important}
+html.cm-dark .auto-card h3,html.cm-dark .card h3{color:#f3f7ff!important}
+.site-footer>.cm-nicaise-signature{display:none!important}
+
+@media(max-width:600px){
+  .auto-card,.card{height:264px!important}
+  .auto-card picture,.card picture{flex-basis:54%}
+  .auto-card .abody,.card .body{padding:10px 12px 11px!important}
+  .auto-card h3,.card h3{font-size:.84rem!important;line-height:1.18!important}
+  .auto-card .ameta,.card .meta{margin-top:6px!important;font-size:.49rem!important}
+}

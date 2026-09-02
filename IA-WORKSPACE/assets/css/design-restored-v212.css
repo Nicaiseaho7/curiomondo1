@@ -1,0 +1,78 @@
+/* Ripristino della testata e del menu CurioMondo mostrati nel riferimento. */
+.header{background:rgba(248,251,255,.97);box-shadow:0 6px 24px rgba(14,39,72,.06)}
+.header .nav{min-height:86px}
+.header .cm-brand-logo{width:48px;height:48px;box-shadow:0 5px 18px rgba(20,45,75,.12)}
+.header .cm-wordmark{font-size:2.15rem}
+.header .cm-brand-tagline{font-size:.72rem;color:#68788e;letter-spacing:.02em}
+.header .icon-btn{width:54px;height:54px;border-radius:18px;background:linear-gradient(180deg,#fff,#f7f9fc);border-color:#dbe2eb;color:#102640;box-shadow:0 7px 22px rgba(16,38,64,.06);font-size:1.65rem;font-weight:800}
+.cm-search-strip{max-width:none;margin:0;padding:20px max(18px,calc((100% - 1200px)/2));background:linear-gradient(180deg,#f8fbff,#eef6fc);border-bottom:1px solid #dce6ee}
+.cm-search-strip button{min-height:64px;border-radius:24px;border-color:#d3e0e8;background:rgba(255,255,255,.96);box-shadow:0 10px 28px rgba(15,48,68,.07);font-size:1rem;color:#5c7782}
+.cm-search-strip button>span:first-child{font-size:2rem;line-height:1;transform:rotate(-20deg)}
+
+.drawer{position:fixed;inset:0 auto 0 0;width:min(82vw,410px);height:100dvh;max-height:none;margin:0;padding:0;border:0;border-radius:0;background:#fff;color:#111;overflow:auto;overscroll-behavior:contain;box-shadow:24px 0 70px rgba(0,0,0,.28)}
+.drawer::backdrop{background:rgba(7,18,31,.48);backdrop-filter:blur(5px)}
+.drawer[open]{display:block;animation:cm-drawer-in .24s ease-out}
+@keyframes cm-drawer-in{from{transform:translateX(-100%)}to{transform:translateX(0)}}
+.drawer-head{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:112px;margin:0;padding:25px 18px 20px 22px;border-bottom:1px solid #e3e7ec;background:#fff}
+.drawer-brand-line{display:flex;align-items:center;min-width:0;gap:13px;flex:1}
+.drawer-brand-home{position:relative;display:block;padding:0 8px 13px 0;text-decoration:none;white-space:nowrap}
+.drawer-brand-home::after{content:"";position:absolute;left:0;bottom:4px;width:100%;height:4px;border-radius:999px;background:linear-gradient(90deg,#111827,#2563eb)}
+.drawer .cm-wordmark{font-size:1.62rem;color:#070b12}
+.drawer .cm-wordmark>span{color:#286fe8}
+.cm-nicaise-drawer{position:relative;display:inline-flex;flex-direction:column;min-width:118px;margin:0;padding:0 2px 8px 15px}
+.cm-nicaise-drawer::before{content:"";position:absolute;left:0;top:6%;bottom:12%;width:1px;background:linear-gradient(180deg,transparent,#94a3b8 25%,#cbd5e1 75%,transparent)}
+.cm-nicaise-drawer .cm-nicaise-word{font-family:"Bodoni 72",Didot,"Times New Roman",serif;font-size:1.85rem;font-style:italic;font-weight:500;line-height:.9;letter-spacing:-.055em;color:#0b2b65;white-space:nowrap}
+.cm-nicaise-drawer .cm-nicaise-word b{font-size:1.28em;font-weight:600;color:#123f8c}
+.cm-nicaise-drawer i{position:relative;display:block;width:100%;height:1px;margin-top:8px;background:linear-gradient(90deg,#c4cbd5,#2968da 70%,transparent);transform:skewX(-18deg)}
+.drawer-close{display:grid;place-items:center;flex:none;width:48px;height:48px;padding:0;border:0;border-radius:16px;background:#0b0b0c;color:#fff;font-size:2rem;line-height:1}
+.drawer-tools{display:grid;gap:10px;margin:0;padding:17px 16px}
+.drawer-tool{display:flex;align-items:center;gap:14px;width:100%;min-height:58px;padding:13px 18px;border:1px solid #dfe3e8;border-radius:18px;background:#fafafa;color:#111;font-size:1rem;font-weight:800;text-align:left}
+.drawer-tool>span:first-child{display:grid;place-items:center;width:24px;font-size:1.25rem}
+.drawer-nav{list-style:none;margin:12px 0 0;padding:0}
+.drawer-nav>li{margin:0;border-bottom:1px solid #e1e5ea}
+.drawer-nav a,.drawer-nav summary{display:flex;align-items:center;min-height:56px;padding:14px 24px;color:#151515;text-decoration:none;font-size:1rem;line-height:1.3}
+.drawer-nav details{padding:0;border:0;border-radius:0}
+.drawer-nav summary{position:relative;font-weight:800;cursor:pointer;list-style:none}
+.drawer-nav summary::-webkit-details-marker{display:none}
+.drawer-nav summary::after{content:"▼";margin-left:auto;color:#8b8e91;font-size:.7rem;transition:transform .2s}
+.drawer-nav details[open] summary::after{transform:rotate(180deg)}
+.drawer-nav details>div{padding:0 0 9px;background:#fafbfc}
+.drawer-nav details a{min-height:42px;padding:9px 32px;color:#55606d;font-size:.9rem}
+.drawer-library{font-weight:850}
+.drawer-nav a:hover,.drawer-nav summary:hover{background:#f4f6f8}
+html.cm-dark .drawer,html.cm-dark .drawer-head{background:#07192f;color:#f2f6fb}
+html.cm-dark .drawer .cm-wordmark,html.cm-dark .drawer-nav a,html.cm-dark .drawer-nav summary{color:#f2f6fb}
+html.cm-dark .drawer-tool{background:#0b2441;color:#f2f6fb;border-color:#263c56}
+html.cm-dark .drawer-nav>li,html.cm-dark .drawer-head{border-color:#26384d}
+html.cm-dark .drawer-nav details>div{background:#091f38}
+html.cm-dark .cm-nicaise-drawer .cm-nicaise-word{color:#f8fafc}
+
+@media(max-width:600px){
+  .ticker{min-height:40px;font-size:.78rem}
+  .ticker-label{padding-inline:13px;font-size:.78rem}
+  .header .nav{min-height:80px;width:calc(100% - 24px)}
+  .header .cm-brand-logo{width:42px;height:42px}
+  .header .cm-wordmark{font-size:1.72rem}
+  .header .cm-brand-tagline{display:block;max-width:245px;overflow:hidden;text-overflow:ellipsis;font-size:.62rem;white-space:nowrap}
+  .header .cm-nicaise-signature{display:none}
+  .header .icon-btn{width:56px;height:56px;border-radius:19px;font-size:1.8rem}
+  .cm-search-strip{padding:18px 14px 21px}
+  .cm-search-strip button{min-height:59px;padding:13px 17px;border-radius:22px;font-size:.96rem}
+  .drawer{width:82vw;max-width:390px}
+  .drawer-head{min-height:110px;padding-left:19px;padding-right:13px}
+  .drawer-brand-line{gap:9px}
+  .drawer .cm-wordmark{font-size:1.42rem}
+  .cm-nicaise-drawer{min-width:110px;padding-left:11px}
+  .cm-nicaise-drawer .cm-nicaise-word{font-size:1.62rem}
+  .drawer-close{width:48px;height:48px;border-radius:16px}
+  .drawer-tool{min-height:58px;font-size:1rem}
+  .drawer-nav a,.drawer-nav summary{min-height:56px;font-size:1rem}
+}
+@media(max-width:390px){
+  .header .cm-brand-tagline{max-width:210px}
+  .drawer{width:86vw}
+  .drawer-head{padding-left:16px}
+  .cm-nicaise-drawer{min-width:96px}
+  .cm-nicaise-drawer .cm-nicaise-word{font-size:1.45rem}
+}
+@media(prefers-reduced-motion:reduce){.drawer[open]{animation:none}}

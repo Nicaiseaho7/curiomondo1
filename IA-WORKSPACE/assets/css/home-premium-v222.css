@@ -1,0 +1,140 @@
+/* CurioMondo v222 — scala responsive corretta sul riferimento mobile. */
+
+/* Desktop e tablet: pagina meno larga, testata più composta e moduli più densi. */
+.container{
+  width:min(1120px,calc(100% - 32px));
+  max-width:none;
+  padding-left:0;
+  padding-right:0;
+}
+.header .nav{min-height:72px;padding:10px 0}
+.header .cm-brand-logo{width:46px;height:46px}
+.header .cm-wordmark{font-size:clamp(1.85rem,3.2vw,2.4rem);letter-spacing:-.055em}
+.header .cm-brand-tagline{font-size:.7rem;line-height:1.15;margin-top:4px}
+.header .icon-btn{width:44px;height:44px}
+
+.ticker{height:36px;min-height:36px}
+.ticker-label{margin-left:12px;padding:5px 10px;font-size:.68rem}
+.ticker-track{padding-block:5px}
+.ticker-news{font-size:.74rem}
+
+.cm-search-strip{
+  width:min(1120px,calc(100% - 32px));
+  max-width:none;
+  margin:10px auto 14px;
+  padding:0;
+}
+.cm-search-strip button{height:50px;min-height:50px;border-radius:16px;font-size:.9rem}
+
+.cm-discovery-row{gap:12px;margin:12px 0}
+.cm-library-spotlight,.cm-insights-spotlight{
+  min-height:88px;
+  padding:17px 21px;
+  border-radius:18px;
+}
+.cm-discovery-row strong{font-size:1.32rem}
+.cm-discovery-row small{font-size:.78rem}
+
+.cm-qday{margin:12px 0 16px}
+.cm-qday-card{min-height:78px;padding:16px 56px 15px 70px;border-radius:18px}
+.cm-qday-card:before{left:18px;top:19px;width:38px;height:38px;border-width:2px;font-size:1.35rem}
+.cm-qday-card:after{right:20px;top:25px;font-size:1.7rem}
+.cm-qday-k{font-size:.68rem;letter-spacing:.08em}
+.cm-qday-title{margin-top:5px;font-size:1.05rem;line-height:1.22}
+
+.featured{
+  min-height:clamp(340px,35vw,430px);
+  max-height:430px;
+  margin:14px 0 24px;
+  border-radius:22px;
+}
+.featured .txt{width:min(610px,68%);padding:30px}
+.featured .tag{padding:6px 10px;font-size:.67rem}
+.featured h1{font-size:clamp(1.75rem,3.4vw,2.55rem);line-height:1.07;margin:11px 0 9px}
+.featured p{max-width:540px;font-size:.9rem;line-height:1.5}
+.featured .cta{font-size:.92rem}
+
+.auto-rail-label{margin:10px 0 12px;font-size:1.45rem}
+.auto-rail{grid-auto-columns:minmax(0,calc((100% - 48px)/5));gap:12px;padding-bottom:14px}
+.auto-card{
+  min-width:0;
+  max-width:none;
+  height:264px!important;
+  border-radius:15px;
+}
+.auto-card picture{flex-basis:47%!important;height:auto}
+.auto-card .abody{padding:10px 11px 11px!important}
+.auto-card h3{font-size:.82rem!important;line-height:1.18!important;-webkit-line-clamp:3!important}
+.auto-card p{font-size:.61rem!important;line-height:1.27!important;margin-top:4px!important}
+.auto-card .ameta{font-size:.5rem!important;margin-top:5px!important}
+.auto-card time{font-size:.58rem}
+
+@media(max-width:900px){
+  .auto-rail{grid-auto-columns:minmax(184px,calc((100% - 36px)/4))}
+}
+
+@media(max-width:700px){
+  .container{width:calc(100% - 24px);padding-left:0;padding-right:0}
+  .header .nav{width:calc(100% - 24px);min-height:64px;padding:7px 0;gap:7px}
+  .header .brand-line{gap:7px}
+  .header .logo{gap:6px;min-width:0}
+  .header .cm-brand-logo{width:38px;height:38px}
+  .header .cm-wordmark{font-size:1.7rem;line-height:.96}
+  .header .cm-brand-tagline{max-width:178px;font-size:.54rem;line-height:1.1;white-space:normal}
+  .header .cm-header-actions{gap:6px}
+  .header .icon-btn{width:40px;height:40px;border-radius:13px;font-size:1.2rem}
+  .header .icon-btn svg{width:19px;height:19px}
+
+  .ticker{height:34px;min-height:34px}
+  .ticker-label{margin-left:8px;padding:4px 8px;font-size:.61rem}
+  .ticker-news{font-size:.68rem}
+
+  .cm-search-strip{width:calc(100% - 24px);margin:8px auto 11px;padding:0}
+  .cm-search-strip button{height:44px;min-height:44px;padding:9px 13px;border-radius:14px;font-size:.78rem}
+
+  .cm-discovery-row{grid-template-columns:1fr 1fr;gap:8px;margin:9px 0}
+  .cm-library-spotlight,.cm-insights-spotlight{min-height:74px;padding:11px 12px;border-radius:15px}
+  .cm-discovery-row strong{font-size:1rem;line-height:1.1}
+  .cm-discovery-row small{font-size:.61rem;line-height:1.25;margin-top:4px}
+
+  .cm-qday{margin:9px 0 13px}
+  .cm-qday-card{min-height:68px;padding:12px 42px 12px 54px;border-radius:15px}
+  .cm-qday-card:before{left:13px;top:17px;width:32px;height:32px;font-size:1.05rem}
+  .cm-qday-card:after{right:13px;top:21px;font-size:1.35rem}
+  .cm-qday-k{font-size:.58rem}
+  .cm-qday-title{font-size:.88rem;line-height:1.18}
+
+  .featured{min-height:300px;max-height:330px;margin:12px 0 20px;border-radius:19px}
+  .featured .txt{width:100%;min-height:300px;padding:19px}
+  .featured .tag{padding:5px 8px;font-size:.58rem}
+  .featured h1{max-width:18ch;font-size:clamp(1.45rem,7vw,1.85rem);line-height:1.06;margin:9px 0 7px}
+  .featured p{font-size:.75rem;line-height:1.42;-webkit-line-clamp:2}
+  .featured .cta{min-height:30px;font-size:.79rem}
+
+  .auto-rail-label{margin:9px 0 10px;font-size:1.18rem}
+  .auto-rail{
+    grid-auto-columns:min(46vw,176px);
+    gap:9px;
+    margin-right:calc(-1 * (50vw - 50%));
+    padding-right:12px;
+  }
+  .auto-card{height:224px!important;min-width:0;max-width:none;border-radius:14px}
+  .auto-card picture{flex-basis:46%!important}
+  .auto-card .abody{padding:8px 9px 9px!important}
+  .auto-card h3{font-size:.72rem!important;line-height:1.16!important;-webkit-line-clamp:3!important}
+  .auto-card p{font-size:.54rem!important;line-height:1.22!important;margin-top:3px!important;-webkit-line-clamp:2!important}
+  .auto-card .ameta{font-size:.43rem!important;line-height:1.2!important;margin-top:4px!important}
+  .auto-card time{font-size:.5rem}
+
+  .section-title{margin:22px 0 12px;font-size:1.05rem}
+  .cards{grid-auto-columns:min(78vw,280px);gap:11px}
+  .card{height:268px!important;border-radius:17px}
+}
+
+@media(max-width:390px){
+  .header .cm-wordmark{font-size:1.55rem}
+  .header .cm-brand-tagline{max-width:150px;font-size:.49rem}
+  .header .icon-btn{width:38px;height:38px}
+  .auto-rail{grid-auto-columns:min(47vw,168px)}
+}
+
