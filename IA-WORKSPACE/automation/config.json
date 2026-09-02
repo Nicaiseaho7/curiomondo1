@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "timezone": "Europe/Rome",
+  "safe_mode": true,
+  "live": {
+    "interval_minutes": 10,
+    "max_items": 10,
+    "full_deploy": false
+  },
+  "articles": {
+    "interval_hours": 3,
+    "max_deploys_per_cycle": 1,
+    "max_articles_per_cycle": 8,
+    "publish_only_if_valid": true,
+    "auto_publish_enabled_env": "CURIOMONDO_AUTO_PUBLISH",
+    "auto_publish_pipeline": "claude_code_remote_routine",
+    "cycle_instructions": "automation/prompts/three-hourly-cycle-instructions.md",
+    "image_generation_prompt": "automation/prompts/image-generation-contract.txt",
+    "image_policy": "AI-EDITORIAL-IMAGE-PROTOCOL.md",
+    "image_generation_blocking": false,
+    "image_generation_mode": "fire_and_forget_then_backfill",
+    "pending_images_tracking": "automation/state/pending-images.json",
+    "public_figure_synthetic_likeness": {
+      "allowed": true,
+      "scope": "living_or_deceased_public_figures_when_directly_editorially_relevant",
+      "style": "ultra_realistic_photorealistic",
+      "common_term": "deepfake",
+      "editorial_term": "synthetic_editorial_likeness",
+      "policy_mode": "context_sensitive",
+      "ordinary_news": {
+        "contextual_scenes_allowed": true,
+        "relevant_locations_allowed": true,
+        "relevant_people_objects_vehicles_and_clothing_allowed": true,
+        "relevant_logos_allowed": true,
+        "fabricated_specific_events_as_evidence_forbidden": true
+      },
+      "sensitive_news": {
+        "neutral_isolated_portrait_required": true,
+        "triggers": [
+          "incident",
+          "death_or_obituary",
+          "illness_diagnosis_or_hospitalization",
+          "violence_war_or_disaster",
+          "arrest_or_serious_allegation",
+          "grief_suffering_or_other_painful_context"
+        ],
+        "portrait_framing": [
+          "close_up",
+          "head_and_shoulders",
+          "waist_up"
+        ],
+        "depiction_of_trauma_injury_treatment_or_grief_forbidden": true
+      },
+      "documentary_claim_forbidden": true,
+      "fabricated_events_or_conditions_forbidden": true,
+      "visible_disclosure_required": true,
+      "figure_attributes": {
+        "data-ai-generated": "true",
+        "data-synthetic-likeness": "public-figure",
+        "data-sensitive-context": "true|false",
+        "data-portrait-format": "neutral-isolated_when_sensitive"
+      },
+      "do_not_bypass_tool_platform_or_law_restrictions": true
+    },
+    "image_ai_disclosure_required": true,
+    "image_ai_disclosure_texts": [
+      "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria."
+    ],
+    "knowledge_hook_required_default": true,
+    "knowledge_hook_label": "Una cosa utile da sapere",
+    "evergreen_deep_dive_required_by_default": true,
+    "evergreen_deep_dive_exception": "Only when no durable historical, institutional, procedural, technical or cultural context can reasonably add value.",
+    "public_pages_indexable_required": true,
+    "body_min_chars": 3000,
+    "body_max_chars": 7000,
+    "body_char_count_scope": "visible_text_inside_.art-body_only",
+    "length_policy_effective_from": "2026-09-01T12:00:00+02:00",
+    "length_exceptions_allowed": false,
+    "if_below_min": "do_not_publish_standalone_article",
+    "if_above_max": "rewrite_and_trim",
+    "semantic_repetition_forbidden": true,
+    "each_paragraph_must_add_new_information": true,
+    "anti_repetition_review_required": true,
+    "closing_recap_repetition_forbidden": true
+  },
+  "library": {
+    "daily": true,
+    "target_guides": 2,
+    "quality_over_quantity": true,
+    "min_guides": 2,
+    "exact_daily_guides": 2,
+    "guide_min_chars": 3000,
+    "guide_max_chars": 15000,
+    "ebook_min_chars": 15000,
+    "ebook_max_chars": 30000,
+    "question_answer_min_chars": 1000,
+    "question_answer_max_chars": 3000,
+    "visual_theme": "premium_white_blue",
+    "guide_topic_queue": "automation/state/guide-topics.json",
+    "topic_source_mode": "canonical_queue_only",
+    "remove_topic_after_successful_publication": true,
+    "page_flip_effects": false,
+    "swipe_page_navigation": false,
+    "ebook_navigation": "large_blue_previous_next_controls_only"
+  },
+  "excluded_automations": [
+    "social_autopost",
+    "youtube_autopost",
+    "newsletter_autosend"
+  ],
+  "quality_gate": {
+    "fail_closed": true,
+    "predeploy_required": true,
+    "source_verification_required": true,
+    "dedupe_required": true,
+    "performance_target_min": 90
+  }
+}
