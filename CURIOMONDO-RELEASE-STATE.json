@@ -1,9 +1,9 @@
 {
-  "site_version": 258,
-  "articleCount": 208,
-  "generatedEditorialImages": 90,
-  "baseline_version": 257,
-  "release_date": "2026-09-01",
+  "site_version": 259,
+  "articleCount": 211,
+  "generatedEditorialImages": 93,
+  "baseline_version": 258,
+  "release_date": "2026-09-02",
   "protocol_files": [
     "AGENTS.md",
     "AI-EDITORIAL-IMAGE-PROTOCOL.md",
@@ -13,12 +13,12 @@
     "curiomondo-site-manifest.json"
   ],
   "last_daily_question_date": "2026-09-01",
-  "version": "258",
-  "date": "2026-09-01",
-  "baseline": "curiomondo-v257-1-settembre-2026-domanda-lunghezza-articoli.zip",
-  "last_update": "siccita-po-istat-inflazione-ue-kiev-v258",
-  "performance_pass": "Tre nuove immagini WebP responsive 480/800/1200 generate via workflow GitHub Actions; homepage e feed aggiornati senza immagini duplicate.",
-  "currentVersion": 258,
-  "baselineVersion": 257,
-  "designRestored": "Ciclo editoriale: siccità record Po (Lombardia/Piemonte), inflazione ISTAT agosto +3,3%, aggiornamento UE fondi Kiev; home, LIVE e indici riallineati."
+  "version": "259",
+  "date": "2026-09-02",
+  "baseline": "curiomondo-v258-1-settembre-2026-siccita-po-istat-ue-kiev.zip",
+  "last_update": "usa-iran-hormuz-germania-lipsia-mercati-petrolio-v259",
+  "performance_pass": "Tre nuove immagini WebP responsive 480/800/1200 generate per i 3 nuovi articoli; homepage e feed aggiornati senza immagini duplicate.",
+  "currentVersion": 259,
+  "baselineVersion": 258,
+  "designRestored": "Ciclo editoriale 2 settembre: 3 nuovi articoli (USA-Iran/Hormuz, Germania-Russia/Lipsia, mercati petrolio-borse) con 3 nuove immagini editoriali IA; home, LIVE e indici riallineati."
 }
