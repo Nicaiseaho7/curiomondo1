@@ -7,8 +7,8 @@
     "current_protocol_version": "1.8",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-08-30",
-    "current_site_version": 258,
-    "site_version": 258
+    "current_site_version": 262,
+    "site_version": 262
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -18,7 +18,7 @@
     "legacy_update_notes"
   ],
   "daily_state": {
-    "last_question_date": "2026-09-01",
+    "last_question_date": "2026-09-02",
     "question_archive_path": "/domanda-del-giorno/",
     "question_library_root": "/biblioteca/vita-relazioni/",
     "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE",
@@ -39,7 +39,7 @@
       "library_theme": "premium_white_blue",
       "page_turn": "disabled_accessible_buttons_only"
     },
-    "last_question_slug": "cosa-temiamo-di-perdere-quando-temiamo-di-non-essere-piu-noi"
+    "last_question_slug": "siamo-responsabili-anche-delle-conseguenze-che-non-potevamo-prevedere"
   },
   "daily_question": {
     "required": true,
@@ -403,7 +403,7 @@
     "homepage_latest_count": 3,
     "deduplicate_existing_guides": true
   },
-  "site_version": 261,
+  "site_version": 262,
   "monetization": {
     "provider": "Google AdSense",
     "publisher_id": "pub-8050187517048759",
@@ -416,21 +416,27 @@
     "editorial_images": "Every new article or update MUST use a completely new hero visual; no reuse, crop, resize, filter, rename, or derivation of previously published assets. Public figures may appear in relevant locations and settings, including relevant logos, for ordinary news; sensitive or painful contexts require a neutral isolated portrait.",
     "article_audio": "Prefer premium pre-generated neural audio when available; otherwise choose the best Italian premium/enhanced deep voice exposed by the device, with natural sentence chunking, rate 0.92 and pitch 0.78."
   },
-  "version": "v261",
-  "release_version": "v261",
+  "version": "v262",
+  "release_version": "v262",
   "last_release_date": "2026-09-02",
   "last_release": {
-    "version": 261,
+    "version": 262,
     "date": "2026-09-02",
-    "baseline_version": 260,
-    "news_added": [],
+    "baseline_version": 261,
+    "news_added": [
+      "sanita-italia-spesa-62-pil-58-milioni-rinunciano-cure-2-settembre-2026",
+      "india-136-miliardi-afflussi-valutari-riserve-rupia-2-settembre-2026",
+      "uber-taglia-3300-posti-riorganizzazione-robotaxi-2-settembre-2026",
+      "usa-ondata-caldo-rischio-blackout-pjm-miso-2-settembre-2026",
+      "lottomatica-cirsa-fusione-28-miliardi-blackstone-2-settembre-2026"
+    ],
     "news_updated": [],
     "evergreen_added": [],
-    "daily_question_added": null,
-    "ebook_added": null,
+    "daily_question_added": "siamo-responsabili-anche-delle-conseguenze-che-non-potevamo-prevedere",
+    "ebook_added": "siamo-responsabili-anche-delle-conseguenze-che-non-potevamo-prevedere",
     "guides_added": [],
     "ads_txt": "preserved-authorized-v254",
-    "image_policy_applied": "Rinominate (nuovo filename, cache-busting) le 10 immagini editoriali sostituite in v260, che riusavano il vecchio nome ed erano quindi bloccate dalla cache immutabile di 1 anno; nessun nuovo articolo."
+    "image_policy_applied": "Cinque immagini editoriali originali, fotorealistiche, senza testo nei pixel, con tre varianti WebP ciascuna."
   },
   "release_notes": {
     "v208": "Correzioni mobile: deduplica per URL, immagine UEFA/Infantino, bootstrap critico, AVIF LCP, aria/inert per navigazione agentica."

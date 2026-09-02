@@ -1,8 +1,8 @@
 {
-  "site_version": 261,
-  "articleCount": 211,
-  "generatedEditorialImages": 93,
-  "baseline_version": 260,
+  "site_version": 262,
+  "articleCount": 216,
+  "generatedEditorialImages": 98,
+  "baseline_version": 261,
   "release_date": "2026-09-02",
   "protocol_files": [
     "AGENTS.md",
@@ -12,13 +12,13 @@
     "CURIO-MONDO-PROTOCOLLO-MAESTRO.md",
     "curiomondo-site-manifest.json"
   ],
-  "last_daily_question_date": "2026-09-01",
-  "version": "261",
+  "last_daily_question_date": "2026-09-02",
+  "version": "262",
   "date": "2026-09-02",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "rinomina-cache-busting-10-immagini-v261",
+  "last_update": "5-notizie-domanda-giorno-2-settembre-2026",
   "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
-  "currentVersion": 261,
-  "baselineVersion": 260,
-  "designRestored": "Corretto cache-busting: le 10 immagini rigenerate in v260 avevano lo stesso nome file delle precedenti, quindi restavano bloccate dalla cache immutabile di 1 anno del sito. Rinominate con suffisso v260 e aggiornati tutti i riferimenti (articoli, home-feed, registro immagini, homepage)."
+  "currentVersion": 262,
+  "baselineVersion": 261,
+  "designRestored": "Preservato il design esistente; aggiunte 5 notizie con immagini originali e aggiornata la Domanda del giorno con eBook."
 }
