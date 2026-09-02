@@ -1,8 +1,8 @@
 {
-  "site_version": 260,
+  "site_version": 261,
   "articleCount": 211,
   "generatedEditorialImages": 93,
-  "baseline_version": 259,
+  "baseline_version": 260,
   "release_date": "2026-09-02",
   "protocol_files": [
     "AGENTS.md",
@@ -13,12 +13,12 @@
     "curiomondo-site-manifest.json"
   ],
   "last_daily_question_date": "2026-09-01",
-  "version": "260",
+  "version": "261",
   "date": "2026-09-02",
-  "baseline": "curiomondo-v259-2-settembre-2026-usa-iran-germania-mercati.zip",
-  "last_update": "refresh-10-immagini-editoriali-v260",
-  "performance_pass": "10 immagini editoriali WebP responsive 480/800/1200 rigenerate su richiesta esplicita per articoli gia pubblicati; nessun nuovo articolo, nessuna immagine duplicata.",
-  "currentVersion": 260,
-  "baselineVersion": 259,
-  "designRestored": "Rigenerate su richiesta 10 immagini editoriali IA di articoli gia pubblicati (istat inflazione, PNRR, G20 Asheville, Israele-Regno Unito, Cina-Taiwan Palau, decreto carburanti, UE fondi Kiev, siccita Po, sparatoria Aarau, incendi Sicilia); nessun nuovo articolo in questo ciclo."
+  "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
+  "last_update": "rinomina-cache-busting-10-immagini-v261",
+  "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
+  "currentVersion": 261,
+  "baselineVersion": 260,
+  "designRestored": "Corretto cache-busting: le 10 immagini rigenerate in v260 avevano lo stesso nome file delle precedenti, quindi restavano bloccate dalla cache immutabile di 1 anno del sito. Rinominate con suffisso v260 e aggiornati tutti i riferimenti (articoli, home-feed, registro immagini, homepage)."
 }

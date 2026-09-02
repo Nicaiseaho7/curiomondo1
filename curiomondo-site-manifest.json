@@ -403,7 +403,7 @@
     "homepage_latest_count": 3,
     "deduplicate_existing_guides": true
   },
-  "site_version": 260,
+  "site_version": 261,
   "monetization": {
     "provider": "Google AdSense",
     "publisher_id": "pub-8050187517048759",
@@ -416,13 +416,13 @@
     "editorial_images": "Every new article or update MUST use a completely new hero visual; no reuse, crop, resize, filter, rename, or derivation of previously published assets. Public figures may appear in relevant locations and settings, including relevant logos, for ordinary news; sensitive or painful contexts require a neutral isolated portrait.",
     "article_audio": "Prefer premium pre-generated neural audio when available; otherwise choose the best Italian premium/enhanced deep voice exposed by the device, with natural sentence chunking, rate 0.92 and pitch 0.78."
   },
-  "version": "v260",
-  "release_version": "v260",
+  "version": "v261",
+  "release_version": "v261",
   "last_release_date": "2026-09-02",
   "last_release": {
-    "version": 260,
+    "version": 261,
     "date": "2026-09-02",
-    "baseline_version": 259,
+    "baseline_version": 260,
     "news_added": [],
     "news_updated": [],
     "evergreen_added": [],
@@ -430,7 +430,7 @@
     "ebook_added": null,
     "guides_added": [],
     "ads_txt": "preserved-authorized-v254",
-    "image_policy_applied": "10 immagini editoriali IA rigenerate su richiesta esplicita per articoli gia pubblicati (stesso filename, contenuto visivo aggiornato); nessun nuovo articolo."
+    "image_policy_applied": "Rinominate (nuovo filename, cache-busting) le 10 immagini editoriali sostituite in v260, che riusavano il vecchio nome ed erano quindi bloccate dalla cache immutabile di 1 anno; nessun nuovo articolo."
   },
   "release_notes": {
     "v208": "Correzioni mobile: deduplica per URL, immagine UEFA/Infantino, bootstrap critico, AVIF LCP, aria/inert per navigazione agentica."
