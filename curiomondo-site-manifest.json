@@ -403,7 +403,7 @@
     "homepage_latest_count": 3,
     "deduplicate_existing_guides": true
   },
-  "site_version": 259,
+  "site_version": 260,
   "monetization": {
     "provider": "Google AdSense",
     "publisher_id": "pub-8050187517048759",
@@ -416,25 +416,21 @@
     "editorial_images": "Every new article or update MUST use a completely new hero visual; no reuse, crop, resize, filter, rename, or derivation of previously published assets. Public figures may appear in relevant locations and settings, including relevant logos, for ordinary news; sensitive or painful contexts require a neutral isolated portrait.",
     "article_audio": "Prefer premium pre-generated neural audio when available; otherwise choose the best Italian premium/enhanced deep voice exposed by the device, with natural sentence chunking, rate 0.92 and pitch 0.78."
   },
-  "version": "v259",
-  "release_version": "v259",
+  "version": "v260",
+  "release_version": "v260",
   "last_release_date": "2026-09-02",
   "last_release": {
-    "version": 259,
+    "version": 260,
     "date": "2026-09-02",
-    "baseline_version": 258,
-    "news_added": [
-      "usa-iran-nuovi-raid-hormuz-2-settembre-2026",
-      "germania-russia-lipsia-attacco-ibrido-2-settembre-2026",
-      "mercati-petrolio-borse-guerra-iran-2-settembre-2026"
-    ],
+    "baseline_version": 259,
+    "news_added": [],
     "news_updated": [],
     "evergreen_added": [],
     "daily_question_added": null,
     "ebook_added": null,
     "guides_added": [],
     "ads_txt": "preserved-authorized-v254",
-    "image_policy_applied": "3 nuove immagini editoriali IA v259, una per ciascun nuovo articolo; nessuna immagine gia pubblicata sostituita."
+    "image_policy_applied": "10 immagini editoriali IA rigenerate su richiesta esplicita per articoli gia pubblicati (stesso filename, contenuto visivo aggiornato); nessun nuovo articolo."
   },
   "release_notes": {
     "v208": "Correzioni mobile: deduplica per URL, immagine UEFA/Infantino, bootstrap critico, AVIF LCP, aria/inert per navigazione agentica."

@@ -1,8 +1,8 @@
 {
-  "site_version": 259,
+  "site_version": 260,
   "articleCount": 211,
   "generatedEditorialImages": 93,
-  "baseline_version": 258,
+  "baseline_version": 259,
   "release_date": "2026-09-02",
   "protocol_files": [
     "AGENTS.md",
@@ -13,12 +13,12 @@
     "curiomondo-site-manifest.json"
   ],
   "last_daily_question_date": "2026-09-01",
-  "version": "259",
+  "version": "260",
   "date": "2026-09-02",
-  "baseline": "curiomondo-v258-1-settembre-2026-siccita-po-istat-ue-kiev.zip",
-  "last_update": "usa-iran-hormuz-germania-lipsia-mercati-petrolio-v259",
-  "performance_pass": "Tre nuove immagini WebP responsive 480/800/1200 generate per i 3 nuovi articoli; homepage e feed aggiornati senza immagini duplicate.",
-  "currentVersion": 259,
-  "baselineVersion": 258,
-  "designRestored": "Ciclo editoriale 2 settembre: 3 nuovi articoli (USA-Iran/Hormuz, Germania-Russia/Lipsia, mercati petrolio-borse) con 3 nuove immagini editoriali IA; home, LIVE e indici riallineati."
+  "baseline": "curiomondo-v259-2-settembre-2026-usa-iran-germania-mercati.zip",
+  "last_update": "refresh-10-immagini-editoriali-v260",
+  "performance_pass": "10 immagini editoriali WebP responsive 480/800/1200 rigenerate su richiesta esplicita per articoli gia pubblicati; nessun nuovo articolo, nessuna immagine duplicata.",
+  "currentVersion": 260,
+  "baselineVersion": 259,
+  "designRestored": "Rigenerate su richiesta 10 immagini editoriali IA di articoli gia pubblicati (istat inflazione, PNRR, G20 Asheville, Israele-Regno Unito, Cina-Taiwan Palau, decreto carburanti, UE fondi Kiev, siccita Po, sparatoria Aarau, incendi Sicilia); nessun nuovo articolo in questo ciclo."
 }
