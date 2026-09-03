@@ -1,7 +1,172 @@
 {
-  "version": 262,
+  "version": 264,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "nvidia-hugging-face-modelli-aperti-3-settembre-2026-ai-v264",
+      "article": "/notizie/nvidia-compra-hugging-face-1293-miliardi-modelli-aperti-3-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Brand-new ultra-photorealistic editorial scene created specifically for this article, with credible natural lighting and no text in the pixels.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/nvidia-hugging-face-modelli-aperti-3-settembre-2026-ai-v264-480.webp",
+          "sha256": "048dd1a4d8c317b398cdea757d106623d72cdcda46cef27b9700f240244065cc",
+          "bytes": 38348
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/nvidia-hugging-face-modelli-aperti-3-settembre-2026-ai-v264-800.webp",
+          "sha256": "0fe43d7a81919e06722f338bc329f8bebf51a02d5f26f9ed8653fb19e6b4c731",
+          "bytes": 89682
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/nvidia-hugging-face-modelli-aperti-3-settembre-2026-ai-v264-1200.webp",
+          "sha256": "873944df770458e48c224716ee67148f4aebc47abd802100005f4e90ee6b49cd",
+          "bytes": 170774
+        }
+      ],
+      "alt": "Illustrazione editoriale IA di sviluppatori al lavoro tra server e sistemi per modelli di intelligenza artificiale",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "siria-armi-chimiche-opcw-3-settembre-2026-ai-v264",
+      "article": "/notizie/siria-distruzione-armi-chimiche-assad-opcw-42-bombe-3-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "prompt": "Brand-new ultra-photorealistic editorial scene created specifically for this article, with credible natural lighting and no text in the pixels.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/siria-armi-chimiche-opcw-3-settembre-2026-ai-v264-480.webp",
+          "sha256": "1bd7f7c21ed422575d963ecf3c8febce8141000a28178e2f369caf80baa26aa4",
+          "bytes": 21578
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/siria-armi-chimiche-opcw-3-settembre-2026-ai-v264-800.webp",
+          "sha256": "d5cfadff6e406736772d727256202ebd17e98aaf00ee74b9e9e8926a5989ef4f",
+          "bytes": 41344
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/siria-armi-chimiche-opcw-3-settembre-2026-ai-v264-1200.webp",
+          "sha256": "81513c0a4a303572dc79bcc606ffbde3f3e1abd978d82515f8f7666502144857",
+          "bytes": 66538
+        }
+      ],
+      "alt": "Illustrazione editoriale IA di ispettori in equipaggiamento protettivo durante una verifica di disarmo chimico",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "norvegia-nave-russa-svalbard-3-settembre-2026-ai-v264",
+      "article": "/notizie/norvegia-sequestra-nave-russa-svalbard-naftogaz-crimea-3-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Brand-new ultra-photorealistic editorial scene created specifically for this article, with credible natural lighting and no text in the pixels.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/norvegia-nave-russa-svalbard-3-settembre-2026-ai-v264-480.webp",
+          "sha256": "72158d1091cbc79d4fb6cef4128b29cc43b277dc845cb249da357d1069aff391",
+          "bytes": 16700
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/norvegia-nave-russa-svalbard-3-settembre-2026-ai-v264-800.webp",
+          "sha256": "55f68f8da1de5f26314be8c12aba0e733d430c9c7bb1f3396cc84690170df55e",
+          "bytes": 41180
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/norvegia-nave-russa-svalbard-3-settembre-2026-ai-v264-1200.webp",
+          "sha256": "5104c76de56af44879fe784542e9e3ca5c0f62cb0fb258b98931955fcb964c0c",
+          "bytes": 82792
+        }
+      ],
+      "alt": "Illustrazione editoriale IA di una nave da ricerca ormeggiata in un porto artico delle Svalbard",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "sudan-droni-rapporto-onu-3-settembre-2026-ai-v264",
+      "article": "/notizie/sudan-droni-sostegno-estero-crimini-guerra-rapporto-onu-3-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "prompt": "Brand-new ultra-photorealistic editorial scene created specifically for this article, with credible natural lighting and no text in the pixels.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/sudan-droni-rapporto-onu-3-settembre-2026-ai-v264-480.webp",
+          "sha256": "1a4c6b5d645d9b2b9a1ac0a8829ac9728b29d068eff20c95aed741ea0f9f2ca1",
+          "bytes": 22628
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/sudan-droni-rapporto-onu-3-settembre-2026-ai-v264-800.webp",
+          "sha256": "69b91aff2abf5920bffcf3e9e2ea30c9dd17d8bea5ed6a105fb022e93901eb53",
+          "bytes": 54622
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/sudan-droni-rapporto-onu-3-settembre-2026-ai-v264-1200.webp",
+          "sha256": "e423d39877408589cc6a6760615b29ec7e10c5fe28c7345d71389fb6ed07c740",
+          "bytes": 107842
+        }
+      ],
+      "alt": "Illustrazione editoriale IA di una strada urbana sudanese danneggiata con un drone lontano nel cielo",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "italia-servizi-pmi-3-settembre-2026-ai-v264",
+      "article": "/notizie/italia-servizi-pmi-552-agosto-crescita-tre-anni-3-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Brand-new ultra-photorealistic editorial scene created specifically for this article, with credible natural lighting and no text in the pixels.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/italia-servizi-pmi-3-settembre-2026-ai-v264-480.webp",
+          "sha256": "6c6b871c1e0a7f2bb3f90c043bb9710cc460b435c0d2224cdda840c9c4f20003",
+          "bytes": 33982
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/italia-servizi-pmi-3-settembre-2026-ai-v264-800.webp",
+          "sha256": "1e7b39db64a680e46dd1d25ab83b5bd4c9effd7d30d9a7912ef4d5fff6d0c98a",
+          "bytes": 74164
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/italia-servizi-pmi-3-settembre-2026-ai-v264-1200.webp",
+          "sha256": "95e6023cb6d162c2da2b953a472db956a0d3ea9e98bf6d995347b72a4af2a19b",
+          "bytes": 131242
+        }
+      ],
+      "alt": "Illustrazione editoriale IA di personale e clienti in un moderno albergo e ristorante italiano",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "sanita-italia-spesa-rinuncia-cure-2-settembre-2026-ai-v262",
       "article": "/notizie/sanita-italia-spesa-62-pil-58-milioni-rinunciano-cure-2-settembre-2026.html",
