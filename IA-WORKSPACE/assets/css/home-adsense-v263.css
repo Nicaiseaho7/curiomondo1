@@ -1,0 +1,10 @@
+/* Rende l'area Universo più compatta sui telefoni e nasconde il contatore finché è a zero. */
+.cm-earth-stats[hidden]{display:none!important}
+@media(max-width:700px){
+  .cm-orbit-experience{margin-top:42px!important}
+  .cm-orbit-shell{padding:30px 18px 26px!important;min-height:0!important}
+  .cm-orbit-copy-centered{min-height:0!important}
+  .cm-universe-intro{margin-bottom:10px!important}
+  .cm-orbit-stage{min-height:430px!important;transform:scale(.91);transform-origin:top center;margin-bottom:-38px!important}
+}
+

@@ -7,8 +7,8 @@
     "current_protocol_version": "1.8",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-08-30",
-    "current_site_version": 262,
-    "site_version": 262
+    "current_site_version": 263,
+    "site_version": 263
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -403,7 +403,7 @@
     "homepage_latest_count": 3,
     "deduplicate_existing_guides": true
   },
-  "site_version": 262,
+  "site_version": 263,
   "monetization": {
     "provider": "Google AdSense",
     "publisher_id": "pub-8050187517048759",
@@ -416,27 +416,25 @@
     "editorial_images": "Every new article or update MUST use a completely new hero visual; no reuse, crop, resize, filter, rename, or derivation of previously published assets. Public figures may appear in relevant locations and settings, including relevant logos, for ordinary news; sensitive or painful contexts require a neutral isolated portrait.",
     "article_audio": "Prefer premium pre-generated neural audio when available; otherwise choose the best Italian premium/enhanced deep voice exposed by the device, with natural sentence chunking, rate 0.92 and pitch 0.78."
   },
-  "version": "v262",
+  "version": "v263",
   "release_version": "v262",
   "last_release_date": "2026-09-02",
   "last_release": {
-    "version": 262,
+    "version": 263,
     "date": "2026-09-02",
-    "baseline_version": 261,
-    "news_added": [
-      "sanita-italia-spesa-62-pil-58-milioni-rinunciano-cure-2-settembre-2026",
-      "india-136-miliardi-afflussi-valutari-riserve-rupia-2-settembre-2026",
-      "uber-taglia-3300-posti-riorganizzazione-robotaxi-2-settembre-2026",
-      "usa-ondata-caldo-rischio-blackout-pjm-miso-2-settembre-2026",
-      "lottomatica-cirsa-fusione-28-miliardi-blackstone-2-settembre-2026"
-    ],
+    "baseline_version": 262,
+    "news_added": [],
     "news_updated": [],
     "evergreen_added": [],
-    "daily_question_added": "siamo-responsabili-anche-delle-conseguenze-che-non-potevamo-prevedere",
-    "ebook_added": "siamo-responsabili-anche-delle-conseguenze-che-non-potevamo-prevedere",
+    "daily_question_added": null,
+    "ebook_added": null,
     "guides_added": [],
     "ads_txt": "preserved-authorized-v254",
-    "image_policy_applied": "Cinque immagini editoriali originali, fotorealistiche, senza testo nei pixel, con tre varianti WebP ciascuna."
+    "quality_hardening": {
+      "weak_articles_noindex_noads": 76,
+      "book_chapters_unique_metadata": 42,
+      "trust_pages_added": 5
+    }
   },
   "release_notes": {
     "v208": "Correzioni mobile: deduplica per URL, immagine UEFA/Infantino, bootstrap critico, AVIF LCP, aria/inert per navigazione agentica."

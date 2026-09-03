@@ -1,8 +1,8 @@
 {
-  "site_version": 262,
+  "site_version": 263,
   "articleCount": 216,
   "generatedEditorialImages": 98,
-  "baseline_version": 261,
+  "baseline_version": 262,
   "release_date": "2026-09-02",
   "protocol_files": [
     "AGENTS.md",
@@ -13,12 +13,12 @@
     "curiomondo-site-manifest.json"
   ],
   "last_daily_question_date": "2026-09-02",
-  "version": "262",
+  "version": "263",
   "date": "2026-09-02",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "5-notizie-domanda-giorno-2-settembre-2026",
+  "last_update": "adsense-quality-hardening-v263",
   "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
-  "currentVersion": 262,
-  "baselineVersion": 261,
-  "designRestored": "Preservato il design esistente; aggiunte 5 notizie con immagini originali e aggiornata la Domanda del giorno con eBook."
+  "currentVersion": 263,
+  "baselineVersion": 262,
+  "designRestored": "Design preservato; rafforzati qualità editoriale, trasparenza, architettura e segnali di fiducia."
 }

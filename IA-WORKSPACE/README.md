@@ -56,8 +56,27 @@ pubblicare quell'articolo** (meglio niente che un pezzo non conforme).
 - Asset CSS/JS richiamati in `<head>`/fondo pagina di un articolo (**non
   modificarli per pubblicare un articolo normale**, esistono già):
   `assets/css/site-base-v210.css`, `assets/css/curiomondo-article-v211.css?v=SITE_VERSION`,
-  `assets/js/site-common-v210.js`, `assets/js/curiomondo-article-v210.js?v=SITE_VERSION`
+  `assets/css/editorial-trust-v263.css` (aggiunto in v263, obbligatorio su ogni
+  articolo — vedi sotto), `assets/js/site-common-v210.js`,
+  `assets/js/curiomondo-article-v210.js?v=SITE_VERSION`
   (il numero dopo `?v=` è l'attuale `site_version`, vedi §5 sotto).
+- **Firma redazionale e link di trasparenza (introdotti in v263, obbligatori
+  su ogni nuovo articolo)**: subito prima del blocco `.actions`, un paragrafo
+  `<p class="cm-article-byline">A cura della <a href="/pagine/redazione.html" rel="author">Redazione CurioMondo</a> · <a href="/pagine/metodo-editoriale.html">Come lavoriamo</a></p>`.
+  Nel `<footer class="site-footer">`, dopo il pulsante "Gestisci cookie",
+  aggiungere: `<a href="/pagine/redazione.html">Redazione</a> · <a href="/pagine/metodo-editoriale.html">Metodo editoriale</a> · <a href="/pagine/correzioni.html">Correzioni</a> · <a href="/pagine/intelligenza-artificiale.html">Uso dell'IA</a> · <a href="/pagine/termini.html">Termini</a>`.
+  Nel JSON-LD `NewsArticle`, `author` deve avere anche
+  `"url":"https://curiomondo.it/pagine/redazione.html"`. Usa un articolo
+  recente in `notizie/` come riferimento esatto per la sintassi.
+- **Articoli storici sotto lo standard di qualità (regola v263)**: se rivedi
+  o correggi un articolo esistente che risulta sotto i 2.000 caratteri o con
+  meno di 2 fonti collegate, e non lo riporti sopra quella soglia, deve avere
+  `<meta name="robots" content="noindex,follow">` e **non** caricare lo
+  script AdSense (`pagead2.googlesyndication.com`); va inoltre rimosso da
+  `sitemap.xml`, `news-sitemap.xml`, `feed.xml` e da
+  `assets/data/home-feed-v210.json`/`search-index-v210.json`. Se invece lo
+  porti sopra soglia, fai l'opposto: `index,follow`, pubblicità reintegrata,
+  e rimesso in tutti quei file. Non creare nuovi articoli sotto queste soglie.
 - Se l'articolo merita anche un **approfondimento evergreen** (guida
   autonoma, senza data, tipo "come funziona…"/"perché…"): va anch'esso
   fisicamente in `notizie/<slug-guida>.html` (stessa struttura, senza
