@@ -30,7 +30,7 @@
 <link href="/assets/css/home-drawer-v227.css" rel="stylesheet">
 <link href="/assets/css/home-live-v229.css" rel="stylesheet">
 <link href="/assets/css/home-brand-universe-v239.css" rel="stylesheet">
-<link href="/assets/css/home-universe-centered-v240.css" rel="stylesheet"><link rel="stylesheet" href="/assets/css/home-adsense-v263.css"></head>
+<link href="/assets/css/home-universe-centered-v240.css" rel="stylesheet"><link rel="stylesheet" href="/assets/css/home-adsense-v263.css"><link rel="stylesheet" href="/assets/css/home-editorial-signature-v265.css"></head>
 <body>
 <div class="ticker">
 <strong class="ticker-label">Live</strong>
@@ -115,8 +115,34 @@
 <button id="loadMoreNews" type="button">Carica altre notizie</button>
 <a href="/notizie/">Apri l’archivio completo</a>
 <p aria-live="polite" class="cm-load-status" id="loadMoreStatus"></p>
-</div><section aria-labelledby="universo-curiomondo-title" class="cm-orbit-experience"><div class="cm-orbit-shell"><div class="cm-orbit-copy cm-orbit-copy-centered" style="display:flex!important;flex-direction:column!important;align-items:center!important;width:100%!important;text-align:center!important"><small class="cm-orbit-kicker" style="display:block!important;width:100%!important;text-align:center!important">Esplora · Scopri · Ricorda</small><h2 id="universo-curiomondo-title" style="display:block!important;width:100%!important;max-width:100%!important;margin:13px auto 17px!important;text-align:center!important;white-space:normal!important"><span class="cm-universe-title-line">Universo</span><span class="cm-universe-title-line">CurioMondo</span></h2><p class="cm-universe-intro" style="display:block!important;width:min(100%,31rem)!important;margin-left:auto!important;margin-right:auto!important;text-align:center!important">Ogni notizia è una porta. Entra nel nostro universo e scopri curiosità, quiz e storie che aiutano a capire meglio il mondo.</p><div class="cm-earth-stats" style="align-self:center!important;margin-left:auto!important;margin-right:auto!important;text-align:center!important;justify-content:center!important">Curiosità scoperte: <strong id="worldLearnedCount">0</strong></div></div><div class="cm-orbit-stage"><button aria-label="Scopri una curiosità" class="cm-orbit-core" id="worldCore" type="button"><span class="cm-curiomondo-orb-copy"><small>TOCCA IL PIANETA</small><strong>Curio<b>Mondo</b></strong><em>Scopri qualcosa di nuovo</em></span></button><button class="cm-planet-btn" data-orbit-action="quiz" type="button"><b>?</b><span>Quiz CurioMondo</span></button><button class="cm-planet-btn" data-orbit-action="favs" type="button"><b>★</b><span>I tuoi preferiti</span></button><button class="cm-planet-btn" data-orbit-action="about" type="button"><b>CM</b><span>Chi siamo</span></button><button class="cm-planet-btn" data-orbit-action="contact" type="button"><b>↗</b><span>Contatti</span></button><div class="cm-world-curiosity" hidden="" id="worldFact"><button aria-label="Chiudi" class="cm-world-curiosity-close" id="worldFactClose" type="button">×</button><div class="cm-world-curiosity-top"><span id="worldFactCategory">Curiosità</span><span>Scoperta n. <b id="worldFactCount">1</b></span></div><p id="worldFactText"></p><small>Una nuova curiosità ti aspetta ogni volta che tocchi il pianeta.</small></div></div></div></section>
-</main>
+</div><section class="cm-editorial-signature" aria-labelledby="cm-editorial-signature-title">
+  <div class="cm-editorial-signature__top">
+    <div class="cm-editorial-signature__copy">
+      <div class="cm-editorial-signature__brand"><span class="cm-editorial-signature__monogram" aria-hidden="true">CM</span><span>CurioMondo · Testata editoriale digitale</span></div>
+      <small class="cm-editorial-signature__eyebrow">Conoscere · Capire · Andare oltre</small>
+      <h2 id="cm-editorial-signature-title">Il mondo, spiegato con chiarezza.</h2>
+      <p class="cm-editorial-signature__lead">Selezioniamo le notizie che meritano attenzione, verifichiamo le fonti e aggiungiamo il contesto necessario per comprenderle davvero. Informazione accessibile, rigorosa e senza rumore.</p>
+      <div class="cm-editorial-signature__actions">
+        <a class="cm-editorial-signature__action cm-editorial-signature__action--primary" href="/notizie/">Esplora le notizie</a>
+        <a class="cm-editorial-signature__action" href="/pagine/metodo-editoriale.html">Scopri come lavoriamo</a>
+      </div>
+    </div>
+    <aside class="cm-editorial-signature__proof" aria-label="Il nostro impegno editoriale">
+      <small>Il nostro impegno</small>
+      <div class="cm-editorial-signature__proof-row"><b>01</b><div><strong>Fonti selezionate</strong><span>Agenzie, istituzioni e documenti consultabili.</span></div></div>
+      <div class="cm-editorial-signature__proof-row"><b>02</b><div><strong>Contesto, non rumore</strong><span>Ogni articolo aggiunge una conoscenza utile.</span></div></div>
+      <div class="cm-editorial-signature__proof-row"><b>03</b><div><strong>Trasparenza reale</strong><span>Correzioni, metodo e uso dell’IA dichiarati.</span></div></div>
+    </aside>
+  </div>
+  <nav class="cm-editorial-signature__nav" aria-label="Esplora CurioMondo">
+    <a class="cm-editorial-signature__link" href="/notizie/"><small>Attualità</small><strong>Le notizie che contano, verificate</strong><span class="cm-editorial-signature__arrow" aria-hidden="true">→</span></a>
+    <a class="cm-editorial-signature__link" href="/biblioteca/"><small>Conoscenza</small><strong>Guide per capire meglio il presente</strong><span class="cm-editorial-signature__arrow" aria-hidden="true">→</span></a>
+    <a class="cm-editorial-signature__link" href="/domanda-del-giorno/"><small>Riflessione</small><strong>Una domanda nuova ogni giorno</strong><span class="cm-editorial-signature__arrow" aria-hidden="true">→</span></a>
+    <a class="cm-editorial-signature__link" href="/pagine/chi-siamo.html"><small>CurioMondo</small><strong>La nostra identità editoriale</strong><span class="cm-editorial-signature__arrow" aria-hidden="true">→</span></a>
+  </nav>
+  <div class="cm-editorial-signature__trust" aria-label="Principi editoriali"><span><i aria-hidden="true"></i>Fonti sempre indicate</span><span><i aria-hidden="true"></i>Immagini IA dichiarate</span><span><i aria-hidden="true"></i>Correzioni pubbliche</span></div>
+  <span class="cm-earth-stats" hidden>Curiosità scoperte: <strong id="worldLearnedCount">0</strong></span>
+</section></main>
 <footer class="site-footer">
 <nav class="site-footer-links">
 <a href="/pagine/chi-siamo.html">Chi siamo</a>

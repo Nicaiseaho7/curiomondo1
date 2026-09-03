@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CurioMondo v264 static pre-deploy audit."""
+"""CurioMondo v265 static pre-deploy audit."""
 from pathlib import Path
 from collections import Counter
 from lxml import html
@@ -260,6 +260,6 @@ for guide_path in guide_paths:
     guide=html.fromstring(guide_path.read_text(errors='replace'))
     visible=re.sub(r'\s+',' ',' '.join(guide.xpath('//main//article//text()'))).strip()
     if not 3000<=len(visible)<=15000: errors.append(f'guida v255 fuori 3000–15000 caratteri: {guide_path.parent.name} ({len(visible)})')
-report={'version':264,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
+report={'version':265,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
 print(json.dumps(report,ensure_ascii=False,indent=2))
 raise SystemExit(1 if errors else 0)

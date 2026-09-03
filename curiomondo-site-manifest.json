@@ -7,8 +7,8 @@
     "current_protocol_version": "1.8",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-08-30",
-    "current_site_version": 264,
-    "site_version": 264
+    "current_site_version": 265,
+    "site_version": 265
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -403,7 +403,7 @@
     "homepage_latest_count": 3,
     "deduplicate_existing_guides": true
   },
-  "site_version": 264,
+  "site_version": 265,
   "monetization": {
     "provider": "Google AdSense",
     "publisher_id": "pub-8050187517048759",
@@ -416,22 +416,15 @@
     "editorial_images": "Every new article or update MUST use a completely new hero visual; no reuse, crop, resize, filter, rename, or derivation of previously published assets. Public figures may appear in relevant locations and settings, including relevant logos, for ordinary news; sensitive or painful contexts require a neutral isolated portrait.",
     "article_audio": "Prefer premium pre-generated neural audio when available; otherwise choose the best Italian premium/enhanced deep voice exposed by the device, with natural sentence chunking, rate 0.92 and pitch 0.78."
   },
-  "version": "v264",
-  "release_version": "v264",
+  "version": "v265",
+  "release_version": "v265",
   "last_release_date": "2026-09-03",
   "last_release": {
-    "version": 264,
+    "version": 265,
     "date": "2026-09-03",
-    "type": "daily-news-update",
-    "news_added": 5,
-    "article_body_policy": "3000-7000",
-    "slugs": [
-      "nvidia-compra-hugging-face-1293-miliardi-modelli-aperti-3-settembre-2026",
-      "siria-distruzione-armi-chimiche-assad-opcw-42-bombe-3-settembre-2026",
-      "norvegia-sequestra-nave-russa-svalbard-naftogaz-crimea-3-settembre-2026",
-      "sudan-droni-sostegno-estero-crimini-guerra-rapporto-onu-3-settembre-2026",
-      "italia-servizi-pmi-552-agosto-crescita-tre-anni-3-settembre-2026"
-    ]
+    "type": "homepage-design-update",
+    "change": "Replaced Universo CurioMondo with premium editorial signature",
+    "article_body_policy": "3000-7000"
   },
   "release_notes": {
     "v208": "Correzioni mobile: deduplica per URL, immagine UEFA/Infantino, bootstrap critico, AVIF LCP, aria/inert per navigazione agentica."
