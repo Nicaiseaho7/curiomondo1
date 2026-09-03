@@ -1,0 +1,7 @@
+.cm-article-byline{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;margin:14px 0 20px;color:#5c7390;font:750 .88rem/1.45 system-ui,sans-serif}
+.cm-article-byline a{color:#2563eb;text-decoration:none;border-bottom:1px solid rgba(37,99,235,.25)}
+.cm-review-note{display:grid;gap:4px;margin:18px 0 24px;padding:16px 18px;border:1px solid rgba(217,119,6,.25);border-radius:16px;background:#fff8e8;color:#713f12;font:500 .88rem/1.5 system-ui,sans-serif}
+.cm-review-note strong{font-weight:900}.cm-review-note span{color:#854d0e}
+html.cm-dark .cm-article-byline{color:#a8bed8}html.cm-dark .cm-article-byline a{color:#93c5fd}
+html.cm-dark .cm-review-note{background:#3b2b0d;color:#fef3c7;border-color:rgba(251,191,36,.28)}html.cm-dark .cm-review-note span{color:#fde68a}
+

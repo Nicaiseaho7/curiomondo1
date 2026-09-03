@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CurioMondo v255 static pre-deploy audit."""
+"""CurioMondo v263 static pre-deploy audit."""
 from pathlib import Path
 from collections import Counter
 from lxml import html
@@ -112,6 +112,8 @@ def near_duplicate(a,b):
     jaccard=len(ta & tb)/max(1,len(ta | tb))
     return seq>=0.90 or (seq>=0.72 and containment>=0.84 and jaccard>=0.62)
 def article_policy_active(doc):
+    robots=' '.join(doc.xpath('//meta[@name="robots"]/@content')).lower()
+    if 'noindex' in robots: return False
     bodies=doc.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," art-body ")]')
     if bodies and bodies[0].get('data-length-policy')=='3000-7000': return True
     for raw in doc.xpath('//script[@type="application/ld+json"]/text()'):
@@ -177,8 +179,11 @@ for p in news:
                 if figures[0].get('data-portrait-format')!='neutral-isolated': errors.append(f'formato ritratto sensibile non dichiarato: {p.name}')
                 alt=' '.join(figures[0].xpath('.//img/@alt')).lower()
                 if 'ritratto editoriale neutrale' not in alt: errors.append(f'alt sensibile non descrive ritratto neutrale: {p.name}')
-    if '29-agosto-2026' in p.name and len(d.xpath('//div[contains(@class,"art-sources")]//a[@href]'))<2:
-        errors.append(f'meno di due fonti nell’articolo recente: {p.name}')
+    robots=' '.join(d.xpath('//meta[@name="robots"]/@content')).lower()
+    if 'noindex' not in robots and len(d.xpath('//div[contains(@class,"art-sources")]//a[@href]'))<2:
+        errors.append(f'meno di due fonti nell’articolo indicizzabile: {p.name}')
+    if 'noindex' in robots and d.xpath('//script[contains(@src,"pagead2.googlesyndication.com")]'):
+        errors.append(f'pubblicità presente in articolo noindex: {p.name}')
     def related_key(value):
         value=unquote(urlparse(value or '').path).rstrip('/')
         if value.endswith('/index.html'): value=value[:-11]
@@ -223,8 +228,8 @@ for p in (root/'assets/js').glob('*-v210.js'):
 zeros=[p for p in root.rglob('*') if p.is_file() and p.suffix.lower() in {'.webp','.avif','.png','.jpg','.jpeg'} and p.stat().st_size==0 and 'IA-WORKSPACE' not in p.relative_to(root).parts]
 if zeros: errors.append(f'{len(zeros)} file immagine vuoti')
 
-# Daily editorial cycle v256: mystery card, reflection, ebook and two queued guides.
-daily_slug='cosa-temiamo-di-perdere-quando-temiamo-di-non-essere-piu-noi'
+# Daily editorial cycle v263: mystery card, reflection, ebook and two queued guides.
+daily_slug='siamo-responsabili-anche-delle-conseguenze-che-non-potevamo-prevedere'
 daily_path=root/'domanda-del-giorno'/daily_slug/'index.html'
 book_path=root/'biblioteca/vita-relazioni/domande-per-conoscersi'/daily_slug/'index.html'
 guide_paths=[
@@ -255,6 +260,6 @@ for guide_path in guide_paths:
     guide=html.fromstring(guide_path.read_text(errors='replace'))
     visible=re.sub(r'\s+',' ',' '.join(guide.xpath('//main//article//text()'))).strip()
     if not 3000<=len(visible)<=15000: errors.append(f'guida v255 fuori 3000–15000 caratteri: {guide_path.parent.name} ({len(visible)})')
-report={'version':255,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
+report={'version':263,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
 print(json.dumps(report,ensure_ascii=False,indent=2))
 raise SystemExit(1 if errors else 0)

@@ -384,13 +384,16 @@
       $('#worldFactCount').textContent = String(count);
       $('#worldFact').hidden = false;
       $('#worldLearnedCount').textContent = String(count);
+      $('#worldLearnedCount').closest('.cm-earth-stats').hidden = count === 0;
     } catch {
       CM.toast('Curiosità non disponibile.');
     }
   }
   $('#worldCore')?.addEventListener('click', showFact);
   $('#worldFactClose')?.addEventListener('click', () => { $('#worldFact').hidden = true; });
-  $('#worldLearnedCount').textContent = String(CM.read('cm_world_count_v210', 0));
+  var learnedCount = CM.read('cm_world_count_v210', 0);
+  $('#worldLearnedCount').textContent = String(learnedCount);
+  $('#worldLearnedCount').closest('.cm-earth-stats').hidden = learnedCount === 0;
   $$('[data-orbit-action]').forEach((button) => button.addEventListener('click', () => {
     const stage = button.closest('.cm-orbit-stage');
     const action = button.dataset.orbitAction;
