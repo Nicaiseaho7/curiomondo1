@@ -1,0 +1,192 @@
+/* CurioMondo v271 — Domanda del giorno, folio editoriale midnight luxury. */
+.cm-qday{
+  margin:clamp(20px,2.8vw,34px) 0!important;
+  content-visibility:visible;
+  contain-intrinsic-size:none;
+}
+
+.cm-qday-link{
+  display:block;
+  color:inherit;
+  text-decoration:none;
+  border-radius:26px;
+}
+
+.cm-qday-card{
+  position:relative;
+  isolation:isolate;
+  display:grid!important;
+  grid-template-columns:96px minmax(0,1fr) auto;
+  align-items:center!important;
+  gap:clamp(20px,3vw,40px);
+  min-height:132px!important;
+  padding:14px 18px 14px 14px!important;
+  overflow:hidden;
+  border:1px solid rgba(151,202,255,.3)!important;
+  border-radius:26px!important;
+  background:
+    radial-gradient(circle at 84% 8%,rgba(80,153,239,.28) 0,rgba(80,153,239,0) 34%),
+    linear-gradient(118deg,#031326 0%,#06284e 56%,#0b3d72 100%)!important;
+  box-shadow:
+    0 24px 56px rgba(2,24,49,.24),
+    0 5px 16px rgba(4,39,76,.13),
+    inset 0 1px 0 rgba(255,255,255,.14)!important;
+  transition:transform .28s ease,border-color .28s ease,box-shadow .28s ease!important;
+}
+
+.cm-qday-card::before{
+  content:""!important;
+  display:block!important;
+  position:absolute;
+  z-index:-1;
+  inset:1px;
+  border:1px solid rgba(255,255,255,.06);
+  border-radius:24px;
+  pointer-events:none;
+}
+
+.cm-qday-card::after{
+  content:""!important;
+  display:block!important;
+  position:absolute;
+  z-index:-1;
+  top:-54px;
+  right:clamp(110px,18vw,250px);
+  width:1px;
+  height:240px;
+  background:linear-gradient(to bottom,transparent,rgba(177,215,255,.3),transparent);
+  transform:rotate(24deg);
+  pointer-events:none;
+}
+
+.cm-qday-date{
+  align-self:stretch;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  min-width:96px;
+  color:#fff;
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:18px;
+  background:linear-gradient(145deg,rgba(255,255,255,.13),rgba(255,255,255,.055));
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 10px 26px rgba(0,13,30,.15);
+  font-family:Arial,Helvetica,sans-serif;
+  font-style:normal;
+  backdrop-filter:blur(10px);
+}
+
+.cm-qday-date strong{
+  display:block;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:2.42rem;
+  font-weight:400;
+  line-height:.9;
+  letter-spacing:-.06em;
+}
+
+.cm-qday-date span{
+  display:block;
+  margin-top:10px;
+  color:#c9e2ff;
+  font-size:.75rem;
+  font-weight:700;
+  line-height:1;
+  letter-spacing:.12em;
+}
+
+.cm-qday-k{
+  min-width:0;
+  color:#f8fbff!important;
+  font-family:Georgia,"Times New Roman",serif!important;
+  font-size:clamp(1.55rem,2.55vw,2.12rem)!important;
+  font-weight:400!important;
+  line-height:1.08!important;
+  letter-spacing:-.032em!important;
+  text-transform:none!important;
+  text-shadow:0 2px 18px rgba(0,12,30,.18)!important;
+}
+
+.cm-qday-cta{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  min-height:50px;
+  padding:0 9px 0 20px;
+  color:#092d58!important;
+  border:1px solid rgba(255,255,255,.82);
+  border-radius:999px;
+  background:rgba(255,255,255,.96);
+  box-shadow:0 10px 24px rgba(0,20,46,.2),inset 0 1px 0 #fff;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.8rem;
+  font-weight:800;
+  line-height:1;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  transition:transform .25s ease,background-color .25s ease,box-shadow .25s ease;
+}
+
+.cm-qday-cta i{
+  display:grid;
+  place-items:center;
+  width:34px;
+  height:34px;
+  color:#fff!important;
+  border:0!important;
+  border-radius:50%;
+  background:#1763ca;
+  font-size:1rem;
+  font-style:normal;
+  transition:transform .25s ease,background-color .25s ease;
+}
+
+.cm-qday-link:hover .cm-qday-card{
+  transform:translateY(-3px);
+  border-color:rgba(177,218,255,.52)!important;
+  background:
+    radial-gradient(circle at 84% 8%,rgba(96,169,255,.34) 0,rgba(96,169,255,0) 36%),
+    linear-gradient(118deg,#031326 0%,#072f5b 56%,#0d477f 100%)!important;
+  box-shadow:0 30px 68px rgba(2,24,49,.29),0 7px 20px rgba(4,39,76,.16),inset 0 1px 0 rgba(255,255,255,.17)!important;
+}
+
+.cm-qday-link:hover .cm-qday-cta{
+  transform:translateX(2px);
+  background:#fff;
+  box-shadow:0 12px 28px rgba(0,20,46,.25),inset 0 1px 0 #fff;
+}
+
+.cm-qday-link:hover .cm-qday-cta i{
+  transform:translateX(2px);
+  background:#0f55b7;
+}
+
+.cm-qday-link:focus-visible{
+  outline:3px solid rgba(36,95,214,.34);
+  outline-offset:5px;
+}
+
+@media(max-width:600px){
+  .cm-qday{margin:16px 0!important}
+  .cm-qday-link{border-radius:20px}
+  .cm-qday-card{
+    grid-template-columns:68px minmax(0,1fr) 44px;
+    gap:14px;
+    min-height:98px!important;
+    padding:10px!important;
+    border-radius:20px!important;
+  }
+  .cm-qday-card::before{border-radius:18px}
+  .cm-qday-card::after{right:82px}
+  .cm-qday-date{min-width:68px;border-radius:14px}
+  .cm-qday-date strong{font-size:1.8rem}
+  .cm-qday-date span{margin-top:7px;font-size:.75rem;letter-spacing:.08em}
+  .cm-qday-k{font-size:1.2rem!important;line-height:1.12!important}
+  .cm-qday-cta{width:42px;min-height:42px;padding:0;font-size:0;gap:0;background:rgba(255,255,255,.96)}
+  .cm-qday-cta i{width:32px;height:32px;font-size:.95rem}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .cm-qday-card,.cm-qday-cta,.cm-qday-cta i{transition:none!important}
+}

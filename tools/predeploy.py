@@ -237,9 +237,15 @@ guide_paths=[
     root/'biblioteca/tecnologia-ai/smartphone-computer/come-installare-app-android-iphone/index.html',
 ]
 qday=home.xpath('//section[contains(concat(" ",normalize-space(@class)," ")," cm-qday ")]')
-if len(qday)!=1: errors.append('card Domanda del giorno v255 assente o duplicata')
-elif not qday[0].xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-qday-link ")]//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-card ")]//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-hint ")]'):
-    errors.append('struttura mystery card v255 incompleta')
+if len(qday)!=1: errors.append('card Domanda del giorno assente o duplicata')
+else:
+    qcard=qday[0].xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-qday-link ")]/*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-card ")]')
+    if len(qcard)!=1: errors.append('struttura Domanda del giorno v270 incompleta')
+    else:
+        if not qcard[0].xpath('.//time[contains(concat(" ",normalize-space(@class)," ")," cm-qday-date ")][@datetime="2026-09-04"]'): errors.append('data Domanda del giorno v270 assente')
+        if not qcard[0].xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-k ")]'): errors.append('etichetta Domanda del giorno v270 assente')
+        if not qcard[0].xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-cta ")]'): errors.append('CTA Domanda del giorno v270 assente')
+        if qcard[0].xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-title ") or contains(concat(" ",normalize-space(@class)," ")," cm-qday-hint ")]'): errors.append('testi ridondanti ancora presenti nella Domanda del giorno v270')
 if daily_path.exists():
     daily=html.fromstring(daily_path.read_text(errors='replace'))
     if daily.xpath('//h2|//h3'): errors.append('Domanda del giorno v255 contiene H2/H3 vietati')
@@ -260,6 +266,6 @@ for guide_path in guide_paths:
     guide=html.fromstring(guide_path.read_text(errors='replace'))
     visible=re.sub(r'\s+',' ',' '.join(guide.xpath('//main//article//text()'))).strip()
     if not 3000<=len(visible)<=15000: errors.append(f'guida v255 fuori 3000–15000 caratteri: {guide_path.parent.name} ({len(visible)})')
-report={'version':269,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
+report={'version':271,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
 print(json.dumps(report,ensure_ascii=False,indent=2))
 raise SystemExit(1 if errors else 0)

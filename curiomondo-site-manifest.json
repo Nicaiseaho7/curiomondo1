@@ -7,8 +7,8 @@
     "current_protocol_version": "1.8",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-08-30",
-    "current_site_version": 269,
-    "site_version": 269
+    "current_site_version": 271,
+    "site_version": 271
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -403,7 +403,7 @@
     "homepage_latest_count": 3,
     "deduplicate_existing_guides": true
   },
-  "site_version": 269,
+  "site_version": 271,
   "monetization": {
     "provider": "Google AdSense",
     "publisher_id": "pub-8050187517048759",
@@ -416,14 +416,14 @@
     "editorial_images": "Every new article or update MUST use a completely new hero visual; no reuse, crop, resize, filter, rename, or derivation of previously published assets. Public figures may appear in relevant locations and settings, including relevant logos, for ordinary news; sensitive or painful contexts require a neutral isolated portrait.",
     "article_audio": "Prefer premium pre-generated neural audio when available; otherwise choose the best Italian premium/enhanced deep voice exposed by the device, with natural sentence chunking, rate 0.92 and pitch 0.78."
   },
-  "version": "v269",
-  "release_version": "v269",
+  "version": "v271",
+  "release_version": "v271",
   "last_release_date": "2026-09-04",
   "last_release": {
-    "version": 269,
+    "version": 271,
     "date": "2026-09-04",
-    "type": "content-update",
-    "change": "4 nuovi articoli del 4 settembre (drone su sede SBU a Kyiv, salvataggio in Nepal, dati lavoro USA, indice FAO prezzi alimentari) e 4 approfondimenti evergreen collegati",
+    "type": "homepage-design-update",
+    "change": "Card Domanda del giorno ridisegnata come folio editoriale luxury (superficie blu notte, data serif, etichetta, singola CTA); nessuna modifica a notizie o deduplicazione",
     "article_body_policy": "3000-7000"
   },
   "release_notes": {
