@@ -1,9 +1,9 @@
 {
-  "site_version": 265,
-  "articleCount": 221,
-  "generatedEditorialImages": 103,
-  "baseline_version": 264,
-  "release_date": "2026-09-03",
+  "site_version": 268,
+  "articleCount": 226,
+  "generatedEditorialImages": 108,
+  "baseline_version": 265,
+  "release_date": "2026-09-04",
   "protocol_files": [
     "AGENTS.md",
     "AI-EDITORIAL-IMAGE-PROTOCOL.md",
@@ -12,14 +12,14 @@
     "CURIO-MONDO-PROTOCOLLO-MAESTRO.md",
     "curiomondo-site-manifest.json"
   ],
-  "last_daily_question_date": "2026-09-02",
-  "version": "265",
-  "date": "2026-09-03",
+  "last_daily_question_date": "2026-09-04",
+  "version": "268",
+  "date": "2026-09-04",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "homepage-editorial-signature-v265",
+  "last_update": "5-nuovi-articoli-4-settembre-testata-editoriale-v268",
   "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
-  "currentVersion": 265,
-  "baselineVersion": 264,
-  "designRestored": "Sostituito Universo CurioMondo con una firma editoriale premium, sobria e professionale.",
+  "currentVersion": 268,
+  "baselineVersion": 265,
+  "designRestored": "Testata editoriale premium aperta sulla pagina bianca, senza contenitore a riquadro; deduplicazione automatica di Tutte le notizie.",
   "status": "ready"
 }

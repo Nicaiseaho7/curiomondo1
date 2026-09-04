@@ -229,9 +229,9 @@ zeros=[p for p in root.rglob('*') if p.is_file() and p.suffix.lower() in {'.webp
 if zeros: errors.append(f'{len(zeros)} file immagine vuoti')
 
 # Daily editorial cycle v263: mystery card, reflection, ebook and two queued guides.
-daily_slug='siamo-responsabili-anche-delle-conseguenze-che-non-potevamo-prevedere'
+daily_slug='quanta-parte-della-tua-vita-hai-scelto-davvero'
 daily_path=root/'domanda-del-giorno'/daily_slug/'index.html'
-book_path=root/'biblioteca/vita-relazioni/domande-per-conoscersi'/daily_slug/'index.html'
+book_path=root/'biblioteca/vita-relazioni/scelte-consapevoli'/daily_slug/'index.html'
 guide_paths=[
     root/'biblioteca/tecnologia-ai/smartphone-computer/come-recuperare-password-gmail-facebook-instagram-wifi/index.html',
     root/'biblioteca/tecnologia-ai/smartphone-computer/come-installare-app-android-iphone/index.html',
@@ -260,6 +260,6 @@ for guide_path in guide_paths:
     guide=html.fromstring(guide_path.read_text(errors='replace'))
     visible=re.sub(r'\s+',' ',' '.join(guide.xpath('//main//article//text()'))).strip()
     if not 3000<=len(visible)<=15000: errors.append(f'guida v255 fuori 3000–15000 caratteri: {guide_path.parent.name} ({len(visible)})')
-report={'version':265,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
+report={'version':268,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
 print(json.dumps(report,ensure_ascii=False,indent=2))
 raise SystemExit(1 if errors else 0)

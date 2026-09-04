@@ -157,7 +157,16 @@
     const response = await fetch('/assets/data/home-feed-v210.json?v=236', { credentials: 'same-origin' });
     if (!response.ok) throw new Error('Feed non disponibile');
     const payload = await response.json();
-    feedItems = Array.isArray(payload.items) ? payload.items : [];
+    const promotedNewsPaths = new Set(
+      $$('.featured[href], .auto-rail a[href], .ticker-track a[href]').map((link) => new URL(link.href, location.href).pathname)
+    );
+    feedItems = (Array.isArray(payload.items) ? payload.items : []).filter((entry) => {
+      try {
+        return !promotedNewsPaths.has(new URL(entry.url, location.href).pathname);
+      } catch {
+        return false;
+      }
+    });
     return feedItems;
   }
   function picture(entry) {
