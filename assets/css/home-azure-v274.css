@@ -49,14 +49,7 @@ body{
 .ticker-news::before{color:#ec3550!important}
 .ticker-news:hover,.ticker-news:focus-visible{color:#087dc4!important;text-decoration-color:#ec3550!important}
 
-/* Ultima ora: azzurro editoriale, senza la pesante lastra blu notte. */
-.featured{
-  background:#148fd2!important;
-  box-shadow:0 18px 46px rgba(20,129,194,.18)!important;
-}
-.featured picture::after{
-  background:linear-gradient(90deg,rgba(6,104,169,.95) 0%,rgba(12,130,198,.82) 48%,rgba(42,166,223,.34) 78%,rgba(79,191,238,.12) 100%)!important;
-}
+/* Ultima ora: la foto dell'articolo resta lo sfondo, nessuna lastra blu sopra. */
 .featured .tag{background:#e2243f!important}
 
 /* Domanda del giorno: folio chiaro, arioso e azzurro. */
@@ -131,7 +124,6 @@ body{
 @media(max-width:600px){
   .ticker{height:38px!important;min-height:38px!important}
   .ticker-label{min-width:76px!important;padding:0 12px!important;font-size:.65rem!important}
-  .featured picture::after{background:linear-gradient(0deg,rgba(5,101,165,.96) 0%,rgba(15,137,201,.82) 54%,rgba(67,181,228,.16) 100%)!important}
 }
 
 @media(prefers-contrast:more){
