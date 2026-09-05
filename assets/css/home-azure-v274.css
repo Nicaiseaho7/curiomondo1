@@ -1,0 +1,140 @@
+/* CurioMondo v274 — palette azzurro luminoso e fascia LIVE rossa piena. */
+:root{
+  --cm-blue:#218be7;
+  --cm-azure:#37aaf1;
+  --cm-sky:#82d1ff;
+  --cm-pale:#eaf8ff;
+}
+
+body{
+  background:
+    radial-gradient(900px 430px at 88% -6%,rgba(83,190,255,.15),transparent 67%),
+    linear-gradient(180deg,#fff 0%,#f5fbff 48%,#edf8ff 100%);
+}
+
+/* La fascia LIVE parte dal bordo: nessun margine blu dietro l'etichetta. */
+.ticker{
+  height:40px!important;
+  min-height:40px!important;
+  align-items:stretch!important;
+  overflow:hidden!important;
+  background:linear-gradient(90deg,#f7fcff 0%,#e7f7ff 52%,#d9f2ff 100%)!important;
+  border-bottom:1px solid #bfe7fb!important;
+  box-shadow:0 5px 18px rgba(30,132,195,.1)!important;
+}
+
+.ticker-label{
+  align-self:stretch!important;
+  min-width:88px!important;
+  height:auto!important;
+  margin:0!important;
+  padding:0 18px 0 max(18px,env(safe-area-inset-left))!important;
+  justify-content:center!important;
+  border:0!important;
+  border-radius:0!important;
+  background:linear-gradient(135deg,#d71936 0%,#f0354d 100%)!important;
+  box-shadow:8px 0 20px rgba(185,20,47,.16),inset 0 1px 0 rgba(255,255,255,.2)!important;
+  color:#fff!important;
+  font-size:.72rem!important;
+  letter-spacing:.09em!important;
+}
+
+.ticker-label::before{
+  background:#fff!important;
+  box-shadow:0 0 0 5px rgba(255,255,255,.14),0 0 12px rgba(255,255,255,.65)!important;
+}
+
+.ticker-viewport{background:transparent!important}
+.ticker-news{color:#14517c!important;text-shadow:none!important}
+.ticker-news::before{color:#ec3550!important}
+.ticker-news:hover,.ticker-news:focus-visible{color:#087dc4!important;text-decoration-color:#ec3550!important}
+
+/* Ultima ora: azzurro editoriale, senza la pesante lastra blu notte. */
+.featured{
+  background:#148fd2!important;
+  box-shadow:0 18px 46px rgba(20,129,194,.18)!important;
+}
+.featured picture::after{
+  background:linear-gradient(90deg,rgba(6,104,169,.95) 0%,rgba(12,130,198,.82) 48%,rgba(42,166,223,.34) 78%,rgba(79,191,238,.12) 100%)!important;
+}
+.featured .tag{background:#e2243f!important}
+
+/* Domanda del giorno: folio chiaro, arioso e azzurro. */
+.cm-qday-card{
+  border-color:rgba(43,151,226,.28)!important;
+  background:
+    radial-gradient(circle at 88% 0,rgba(111,207,255,.3),transparent 38%),
+    linear-gradient(118deg,#ffffff 0%,#eaf8ff 57%,#d8f2ff 100%)!important;
+  box-shadow:0 20px 48px rgba(37,139,205,.13),inset 0 1px 0 #fff!important;
+}
+.cm-qday-card::before{border-color:rgba(255,255,255,.74)!important}
+.cm-qday-card::after{background:linear-gradient(to bottom,transparent,rgba(27,139,216,.2),transparent)!important}
+.cm-qday-date{
+  border-color:rgba(255,255,255,.72)!important;
+  background:linear-gradient(145deg,#55bdf4,#238ed9)!important;
+  box-shadow:0 12px 28px rgba(23,136,207,.2),inset 0 1px 0 rgba(255,255,255,.3)!important;
+}
+.cm-qday-date span{color:#effaff!important}
+.cm-qday-k{color:#0b5f96!important;text-shadow:none!important}
+.cm-qday-cta{
+  color:#0c659f!important;
+  border-color:#b9e4fb!important;
+  background:rgba(255,255,255,.96)!important;
+  box-shadow:0 10px 24px rgba(35,139,205,.13),inset 0 1px 0 #fff!important;
+}
+.cm-qday-cta i{background:#2293dd!important}
+.cm-qday-link:hover .cm-qday-card{
+  border-color:rgba(38,151,225,.42)!important;
+  background:
+    radial-gradient(circle at 88% 0,rgba(105,205,255,.36),transparent 40%),
+    linear-gradient(118deg,#ffffff 0%,#e5f7ff 57%,#caedff 100%)!important;
+  box-shadow:0 25px 58px rgba(37,139,205,.17),inset 0 1px 0 #fff!important;
+}
+.cm-qday-link:hover .cm-qday-cta i{background:#1484cd!important}
+
+/* Universo CurioMondo: atmosfera luminosa anziché pannello notturno. */
+.cm-orbit-experience{
+  color:#0b4f7b!important;
+  border-color:#a8ddfa!important;
+  background:
+    radial-gradient(circle at 78% 20%,rgba(60,181,241,.24),transparent 32%),
+    radial-gradient(circle at 8% 90%,rgba(108,212,255,.28),transparent 34%),
+    linear-gradient(145deg,#f8fdff 0%,#ddf4ff 55%,#c9ebff 100%)!important;
+  box-shadow:0 26px 68px rgba(29,133,197,.16),inset 0 1px 0 #fff!important;
+}
+.cm-orbit-experience::before{background-image:radial-gradient(rgba(29,139,209,.28) 1px,transparent 1px)!important;opacity:.2!important}
+.cm-orbit-experience .cm-orbit-kicker{color:#0f7fbe!important}
+.cm-orbit-experience #universo-curiomondo-title{color:#075b91!important;-webkit-text-fill-color:#075b91!important;text-shadow:none!important}
+.cm-orbit-experience .cm-universe-intro,.cm-orbit-experience .cm-orbit-copy p{color:#3c6c8d!important}
+.cm-orbit-experience .cm-earth-stats{color:#3f7192!important}
+.cm-orbit-core{
+  border-color:rgba(255,255,255,.75)!important;
+  background:radial-gradient(circle at 34% 24%,#8edcff 0%,#32aae9 42%,#1280c5 78%,#0b6bad 100%)!important;
+  box-shadow:inset -12px -14px 28px rgba(3,79,131,.24),0 0 0 14px rgba(54,172,234,.09),0 0 52px rgba(54,172,234,.25)!important;
+}
+.cm-planet-btn{
+  color:#0d5d91!important;
+  border-color:#b2ddf5!important;
+  background:rgba(255,255,255,.86)!important;
+  box-shadow:0 10px 26px rgba(25,124,184,.1)!important;
+}
+.cm-planet-btn:hover,.cm-planet-btn:focus-visible{background:#fff!important;border-color:#6cc3ef!important}
+.cm-world-curiosity{
+  color:#164f74!important;
+  border-color:#acd9f2!important;
+  background:rgba(255,255,255,.92)!important;
+  box-shadow:0 16px 38px rgba(26,124,184,.12)!important;
+}
+.cm-world-curiosity-close{color:#0d659e!important}
+.cm-world-curiosity-top,.cm-world-curiosity>small{color:#4d7896!important}
+
+@media(max-width:600px){
+  .ticker{height:38px!important;min-height:38px!important}
+  .ticker-label{min-width:76px!important;padding:0 12px!important;font-size:.65rem!important}
+  .featured picture::after{background:linear-gradient(0deg,rgba(5,101,165,.96) 0%,rgba(15,137,201,.82) 54%,rgba(67,181,228,.16) 100%)!important}
+}
+
+@media(prefers-contrast:more){
+  .ticker-news{color:#083f65!important}
+  .cm-qday-k{color:#074a75!important}
+}

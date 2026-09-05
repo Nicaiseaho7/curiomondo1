@@ -211,10 +211,27 @@ if len(home.xpath('//nav[contains(@class,"ticker-track")][1]/a'))!=10: errors.ap
 if len(home.xpath('//div[contains(@class,"auto-rail")]/a'))!=5: errors.append('Ultime notizie non contiene 5 articoli')
 if len(home.xpath('//div[contains(@class,"auto-rail")]/a/h3 | //div[contains(@class,"auto-rail")]/a//h3'))!=5: errors.append('titoli mancanti nelle card Ultime notizie')
 if len(home.xpath('//div[contains(@class,"auto-rail")]/a//p[normalize-space()]'))!=5: errors.append('spiegazioni iniziali mancanti nelle card Ultime notizie')
-if len(home.xpath('//div[@id="cards"]/a//h3[normalize-space()]'))<12: errors.append('titoli mancanti nelle card Tutte le notizie')
-if len(home.xpath('//div[@id="cards"]/a//p[normalize-space()]'))<12: errors.append('spiegazioni iniziali mancanti nelle card Tutte le notizie')
+promoted_urls=set(home.xpath('//nav[contains(@class,"ticker-track")][1]/a/@href | //a[contains(@class,"featured")]/@href | //div[contains(@class,"auto-rail")]/a/@href'))
+all_news_urls=home.xpath('//div[@id="cards"]/a/@href')
+if promoted_urls.intersection(all_news_urls): errors.append('notizie promosse duplicate in Tutte le notizie')
+if len(all_news_urls)<12: errors.append('titoli mancanti nelle card Tutte le notizie')
+if len(home.xpath('//div[@id="cards"]/a//h3[normalize-space()]'))!=len(all_news_urls): errors.append('titoli mancanti nelle card Tutte le notizie')
+if len(home.xpath('//div[@id="cards"]/a//p[normalize-space()]'))!=len(all_news_urls): errors.append('spiegazioni iniziali mancanti nelle card Tutte le notizie')
 if len(home.xpath('//a[contains(@class,"featured")]'))!=1: errors.append('apertura principale non unica')
-if len(home.xpath('//section[contains(@class,"cm-home-deep-links")]//a'))!=3: errors.append('approfondimenti home non sono 3')
+if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-home-deep-links ")]'): errors.append('card Approfondimenti ancora presente in homepage')
+if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-discovery-row ")]'): errors.append('card Biblioteca/Approfondimenti ancora presenti in homepage')
+if len(home.xpath('//ul[contains(concat(" ",normalize-space(@class)," ")," drawer-nav ")]//a[@href="/biblioteca/"]'))!=1: errors.append('Biblioteca non presente una sola volta nel menu drawer')
+if len(home.xpath('//ul[contains(concat(" ",normalize-space(@class)," ")," drawer-nav ")]//a[@href="/approfondimenti/"]'))!=1: errors.append('Approfondimenti non presenti una sola volta nel menu drawer')
+if home.xpath('//a[(@href="/biblioteca/" or @href="/approfondimenti/") and not(ancestor::ul[contains(concat(" ",normalize-space(@class)," ")," drawer-nav ")])]'): errors.append('Biblioteca o Approfondimenti ancora collegati fuori dal menu drawer in homepage')
+if len(home.xpath('//section[contains(@class,"cm-editorial-signature")][@data-layout="open-white-canvas"]'))!=1: errors.append('testata editoriale non impostata sulla pagina bianca aperta')
+azure_css_path=root/'assets/css/home-azure-v274.css'
+if not home.xpath('//link[contains(@href,"home-azure-v274.css")]'): errors.append('stile palette azzurra v274 non collegato in home')
+if not home.xpath('//meta[@name="theme-color"][@content="#eaf8ff"]'): errors.append('theme-color v274 non impostato su azzurro chiaro')
+if not azure_css_path.exists(): errors.append('foglio palette azzurra v274 assente')
+else:
+    azure_css=azure_css_path.read_text(errors='replace')
+    for marker in ('.ticker{','.ticker-label{','margin:0!important','border-radius:0!important','#d71936','#e7f7ff'):
+        if marker not in azure_css: errors.append(f'contratto LIVE v274 incompleto: {marker}')
 if 'home-original-v101' in (root/'index.html').read_text(): errors.append('runtime home legacy ancora attivo')
 if not (root/'llms.txt').exists(): errors.append('llms.txt assente')
 else:
@@ -229,12 +246,12 @@ zeros=[p for p in root.rglob('*') if p.is_file() and p.suffix.lower() in {'.webp
 if zeros: errors.append(f'{len(zeros)} file immagine vuoti')
 
 # Daily editorial cycle v263: mystery card, reflection, ebook and two queued guides.
-daily_slug='quanta-parte-della-tua-vita-hai-scelto-davvero'
+daily_slug='quanto-tempo-della-tua-giornata-appartiene-davvero-a-te'
 daily_path=root/'domanda-del-giorno'/daily_slug/'index.html'
-book_path=root/'biblioteca/vita-relazioni/scelte-consapevoli'/daily_slug/'index.html'
+book_path=root/'biblioteca/vita-relazioni/attenzione-tempo'/daily_slug/'index.html'
 guide_paths=[
-    root/'biblioteca/tecnologia-ai/smartphone-computer/come-recuperare-password-gmail-facebook-instagram-wifi/index.html',
-    root/'biblioteca/tecnologia-ai/smartphone-computer/come-installare-app-android-iphone/index.html',
+    root/'biblioteca/vita-relazioni/attenzione-tempo/proteggere-concentrazione-notifiche-smartphone/index.html',
+    root/'biblioteca/vita-relazioni/attenzione-tempo/creare-spazi-propri-giornata-impegni/index.html',
 ]
 qday=home.xpath('//section[contains(concat(" ",normalize-space(@class)," ")," cm-qday ")]')
 if len(qday)!=1: errors.append('card Domanda del giorno assente o duplicata')
@@ -242,13 +259,19 @@ else:
     qcard=qday[0].xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-qday-link ")]/*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-card ")]')
     if len(qcard)!=1: errors.append('struttura Domanda del giorno v270 incompleta')
     else:
-        if not qcard[0].xpath('.//time[contains(concat(" ",normalize-space(@class)," ")," cm-qday-date ")][@datetime="2026-09-04"]'): errors.append('data Domanda del giorno v270 assente')
+        if not qcard[0].xpath('.//time[contains(concat(" ",normalize-space(@class)," ")," cm-qday-date ")][@datetime="2026-09-05"]'): errors.append('data Domanda del giorno v270 assente')
         if not qcard[0].xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-k ")]'): errors.append('etichetta Domanda del giorno v270 assente')
         if not qcard[0].xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-cta ")]'): errors.append('CTA Domanda del giorno v270 assente')
         if qcard[0].xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-title ") or contains(concat(" ",normalize-space(@class)," ")," cm-qday-hint ")]'): errors.append('testi ridondanti ancora presenti nella Domanda del giorno v270')
 if daily_path.exists():
     daily=html.fromstring(daily_path.read_text(errors='replace'))
     if daily.xpath('//h2|//h3'): errors.append('Domanda del giorno v255 contiene H2/H3 vietati')
+    if not daily.xpath('//body[contains(concat(" ",normalize-space(@class)," ")," cm-daily-page ")]'): errors.append('tela editoriale Domanda del giorno v273 assente')
+    if len(daily.xpath('//header[contains(concat(" ",normalize-space(@class)," ")," cm-q-masthead ")]'))!=1: errors.append('testata premium Domanda del giorno v273 assente o duplicata')
+    if len(daily.xpath('//a[contains(concat(" ",normalize-space(@class)," ")," cm-q-back ")][@href="/"]'))!=1: errors.append('ritorno premium alla home v273 assente')
+    if daily.xpath('//a[contains(concat(" ",normalize-space(@class)," ")," cm-q-back ")][contains(normalize-space(.),"Indietro")]'): errors.append('pulsante Indietro generico ancora presente nella Domanda del giorno v273')
+    if not daily.xpath('//link[contains(@href,"daily-question-v273.css")]'): errors.append('stile Domanda del giorno v273 non collegato')
+    if len(daily.xpath('//a[contains(concat(" ",normalize-space(@class)," ")," cm-daily-book-link ")]'))!=1: errors.append('invito eBook premium v273 assente')
     answer=' '.join(daily.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," q-flow ")]/p[not(contains(@class,"q-sign"))]//text()'))
     if not 1000<=len(re.sub(r'\s+',' ',answer).strip())<=3000: errors.append('risposta Domanda del giorno v255 fuori 1000–3000 caratteri')
 else: errors.append('pagina Domanda del giorno v255 assente')
@@ -266,6 +289,6 @@ for guide_path in guide_paths:
     guide=html.fromstring(guide_path.read_text(errors='replace'))
     visible=re.sub(r'\s+',' ',' '.join(guide.xpath('//main//article//text()'))).strip()
     if not 3000<=len(visible)<=15000: errors.append(f'guida v255 fuori 3000–15000 caratteri: {guide_path.parent.name} ({len(visible)})')
-report={'version':271,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
+report={'version':274,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
 print(json.dumps(report,ensure_ascii=False,indent=2))
 raise SystemExit(1 if errors else 0)
