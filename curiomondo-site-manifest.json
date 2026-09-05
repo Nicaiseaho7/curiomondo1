@@ -12,6 +12,7 @@
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
+    "PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md",
     "CURIO-MONDO-PROTOCOLLO-MAESTRO.md",
     "curiomondo-site-manifest.json",
     "current_site_implementation",
@@ -178,7 +179,10 @@
     "knowledge_hook_required": true,
     "knowledge_hook_rule": "Explain at least one useful, non-obvious element inside each story; create or link an evergreen deep-dive when the concept merits durable explanation.",
     "anti_repetition_required": true,
-    "anti_repetition_rule": "Every fact, number, explanation, cause, consequence and context may appear only once in the article body, including paraphrases. Delete or merge any sentence or paragraph that restates an already expressed idea."
+    "anti_repetition_rule": "Every fact, number, explanation, cause, consequence and context may appear only once in the article body, including paraphrases. Delete or merge any sentence or paragraph that restates an already expressed idea.",
+    "minimum_reliable_sources": 3,
+    "sources_preference": "when_possible_at_least_one_primary_or_official_and_one_independent",
+    "no_low_value_rewrites_of_external_sources": true
   },
   "images": {
     "new_editorial_images_must_be_ai_generated": true,
@@ -409,7 +413,18 @@
     "publisher_id": "pub-8050187517048759",
     "ads_txt_required_at_root": true,
     "ads_txt_record": "google.com, pub-8050187517048759, DIRECT, f08c47fec0942fa0",
-    "predeploy_must_fail_if_missing_or_mismatched": true
+    "predeploy_must_fail_if_missing_or_mismatched": true,
+    "ads_forbidden_on_low_value_or_service_pages": true,
+    "ads_forbidden_on_noindex_pages": true
+  },
+  "editorial_quality_adsense_protocol": {
+    "canonical_policy_file": "PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md",
+    "version": "2.0",
+    "effective_from": "2026-09-05",
+    "status": "mandatory_fail_closed",
+    "prevails_over_speed_or_quantity_instructions": true,
+    "pre_publish_check": "Un lettore arrivato direttamente su CurioMondo, senza passare da Google, considererebbe questa pagina completa, affidabile e utile?",
+    "no_publish_if_insufficient_verified_information": true
   },
   "permanent_rules": {
     "library_palette": "premium white + CurioMondo blue; green only functional, never dominant",
