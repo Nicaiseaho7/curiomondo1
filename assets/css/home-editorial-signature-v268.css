@@ -17,7 +17,7 @@
   left:0;
   width:76px;
   height:3px;
-  background:#1764c4;
+  background:#1877f2;
 }
 .cm-editorial-signature:after{
   content:"CM";
@@ -51,7 +51,7 @@
   width:auto;
   height:auto;
   padding-right:14px;
-  color:#1764c4;
+  color:#1877f2;
   background:none;
   border:0;
   border-right:1px solid #b9c9d9;
@@ -73,7 +73,7 @@
 .cm-editorial-signature__eyebrow{
   display:block;
   margin-bottom:18px;
-  color:#1764c4;
+  color:#1877f2;
   font:800 .68rem/1.4 system-ui,sans-serif;
   letter-spacing:.22em;
   text-transform:uppercase;
@@ -119,9 +119,9 @@
   border-color:#0a2542;
 }
 .cm-editorial-signature__action:hover{
-  color:#1764c4;
+  color:#1877f2;
   background:none;
-  border-color:#1764c4;
+  border-color:#1877f2;
   transform:none;
 }
 .cm-editorial-signature__proof{
@@ -135,7 +135,7 @@
 .cm-editorial-signature__proof>small{
   display:block;
   padding-bottom:17px;
-  color:#1764c4;
+  color:#1877f2;
   font:800 .65rem/1.3 system-ui,sans-serif;
   letter-spacing:.19em;
   text-transform:uppercase;
@@ -148,7 +148,7 @@
   border-top:1px solid #dce5ee;
 }
 .cm-editorial-signature__proof-row b{
-  color:#1764c4;
+  color:#1877f2;
   font:800 .67rem/1.45 system-ui,sans-serif;
   letter-spacing:.08em;
 }
@@ -184,7 +184,7 @@
 .cm-editorial-signature__link:not(:first-child){padding-left:28px}
 .cm-editorial-signature__link:last-child{border-right:0}
 .cm-editorial-signature__link:hover{
-  color:#1764c4;
+  color:#1877f2;
   background:transparent;
   padding-left:32px;
 }
@@ -207,7 +207,7 @@
   position:absolute;
   right:25px;
   bottom:25px;
-  color:#1764c4;
+  color:#1877f2;
   font:400 1.28rem/1 system-ui,sans-serif;
 }
 .cm-editorial-signature__trust{
@@ -226,7 +226,7 @@
   text-transform:uppercase;
 }
 .cm-editorial-signature__trust span{display:flex;align-items:center;gap:9px}
-.cm-editorial-signature__trust i{width:4px;height:4px;background:#1764c4;border-radius:50%}
+.cm-editorial-signature__trust i{width:4px;height:4px;background:#1877f2;border-radius:50%}
 .cm-earth-stats[hidden]{display:none!important}
 
 html.cm-dark .cm-editorial-signature{color:#eaf2fb;background:transparent;border-color:transparent;box-shadow:none}

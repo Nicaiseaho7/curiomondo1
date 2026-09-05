@@ -226,11 +226,11 @@ if home.xpath('//a[(@href="/biblioteca/" or @href="/approfondimenti/") and not(a
 if len(home.xpath('//section[contains(@class,"cm-editorial-signature")][@data-layout="open-white-canvas"]'))!=1: errors.append('testata editoriale non impostata sulla pagina bianca aperta')
 azure_css_path=root/'assets/css/home-azure-v274.css'
 if not home.xpath('//link[contains(@href,"home-azure-v274.css")]'): errors.append('stile palette azzurra v274 non collegato in home')
-if not home.xpath('//meta[@name="theme-color"][@content="#eaf8ff"]'): errors.append('theme-color v274 non impostato su azzurro chiaro')
+if not home.xpath('//meta[@name="theme-color"][@content="#1877f2"]'): errors.append('theme-color v274 non impostato sul blu Facebook')
 if not azure_css_path.exists(): errors.append('foglio palette azzurra v274 assente')
 else:
     azure_css=azure_css_path.read_text(errors='replace')
-    for marker in ('.ticker{','.ticker-label{','margin:0!important','border-radius:0!important','#d71936','#e7f7ff'):
+    for marker in ('.ticker{','.ticker-label{','margin:0!important','border-radius:0!important','#d71936','#1877f2'):
         if marker not in azure_css: errors.append(f'contratto LIVE v274 incompleto: {marker}')
 if 'home-original-v101' in (root/'index.html').read_text(): errors.append('runtime home legacy ancora attivo')
 if not (root/'llms.txt').exists(): errors.append('llms.txt assente')
