@@ -7,8 +7,8 @@
     "current_protocol_version": "1.8",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-08-30",
-    "current_site_version": 277,
-    "site_version": 277
+    "current_site_version": 278,
+    "site_version": 278
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -403,7 +403,7 @@
     "homepage_latest_count": 3,
     "deduplicate_existing_guides": true
   },
-  "site_version": 277,
+  "site_version": 278,
   "monetization": {
     "provider": "Google AdSense",
     "publisher_id": "pub-8050187517048759",
@@ -416,14 +416,14 @@
     "editorial_images": "Every new article or update MUST use a completely new hero visual; no reuse, crop, resize, filter, rename, or derivation of previously published assets. Public figures may appear in relevant locations and settings, including relevant logos, for ordinary news; sensitive or painful contexts require a neutral isolated portrait.",
     "article_audio": "Prefer premium pre-generated neural audio when available; otherwise choose the best Italian premium/enhanced deep voice exposed by the device, with natural sentence chunking, rate 0.92 and pitch 0.78."
   },
-  "version": "v277",
-  "release_version": "v277",
+  "version": "v278",
+  "release_version": "v278",
   "last_release_date": "2026-09-05",
   "last_release": {
-    "version": 277,
+    "version": 278,
     "date": "2026-09-05",
     "type": "content-update",
-    "change": "2 cronache dall'Italia: agguato mortale a Udine (caccia all'uomo) e truffa dello specchietto a Torino (inseguimento a 200 km/h)",
+    "change": "3 nuovi articoli: EuroVolley Italia-Polonia (finale con la Turchia), studio Cernobbio sulla fuga dei talenti (11 miliardi l'anno), visita di Meloni a Policoro dopo il maltempo",
     "article_body_policy": "3000-7000"
   },
   "release_notes": {
