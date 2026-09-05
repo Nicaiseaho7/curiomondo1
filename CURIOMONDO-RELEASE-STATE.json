@@ -1,8 +1,8 @@
 {
-  "site_version": 275,
-  "articleCount": 236,
-  "generatedEditorialImages": 118,
-  "baseline_version": 274,
+  "site_version": 276,
+  "articleCount": 237,
+  "generatedEditorialImages": 119,
+  "baseline_version": 275,
   "release_date": "2026-09-05",
   "protocol_files": [
     "AGENTS.md",
@@ -13,13 +13,13 @@
     "curiomondo-site-manifest.json"
   ],
   "last_daily_question_date": "2026-09-05",
-  "version": "275",
+  "version": "276",
   "date": "2026-09-05",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "3-nuovi-articoli-5-settembre-us-open-cgia-codacons-v275",
+  "last_update": "intestazione-globale-v275-mediazione-usa-mosca-kiev-v276",
   "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
-  "currentVersion": 275,
-  "baselineVersion": 274,
-  "designRestored": "Biblioteca e Approfondimenti spostati nel menu drawer; testata premium sulla pagina Domanda del giorno; palette blu Facebook e fascia LIVE rossa piena.",
+  "currentVersion": 276,
+  "baselineVersion": 275,
+  "designRestored": "Intestazione globale unificata su tutte le pagine interne (374 pagine); palette blu Facebook e fascia LIVE rossa piena confermate.",
   "status": "ready"
 }

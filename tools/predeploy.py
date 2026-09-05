@@ -76,6 +76,17 @@ html_files=[p for p in root.rglob('*.html') if 'IA-WORKSPACE' not in p.relative_
 for p in html_files:
     try: d=html.fromstring(p.read_text(errors='replace'))
     except Exception as exc: errors.append(f'HTML non valido {p.relative_to(root)}: {exc}'); continue
+    if p!=root/'index.html':
+        global_headers=d.xpath('//header[@data-cm-global-header="v275"]')
+        if len(global_headers)!=1: errors.append(f'intestazione globale v275 assente o duplicata: {p.relative_to(root)}')
+        else:
+            global_header=global_headers[0]
+            brand=''.join(global_header.xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-global-header__brand ")]//text()')).strip()
+            arrow=global_header.xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-global-header__back ")][@href="/"]//path/@d')
+            if brand!='CurioMondo': errors.append(f'marchio intestazione non canonico: {p.relative_to(root)}')
+            if arrow!=['M19 12H5','m11 18-6-6 6-6']: errors.append(f'simbolo indietro non canonico: {p.relative_to(root)}')
+        if not d.xpath('//link[contains(@href,"/assets/css/global-header-v275.css")]'): errors.append(f'CSS intestazione globale v275 assente: {p.relative_to(root)}')
+        if not d.xpath('//script[contains(@src,"/assets/js/global-header-v275.js")]'): errors.append(f'JS intestazione globale v275 assente: {p.relative_to(root)}')
     ids=d.xpath('//*[@id]/@id')
     if len(ids)!=len(set(ids)): errors.append(f'ID duplicati: {p.relative_to(root)}')
     if d.xpath('//footer//*[contains(concat(" ",normalize-space(@class)," ")," cm-nicaise-signature ")]'): errors.append(f'firma Nicaise nel footer: {p.relative_to(root)}')
@@ -267,9 +278,6 @@ if daily_path.exists():
     daily=html.fromstring(daily_path.read_text(errors='replace'))
     if daily.xpath('//h2|//h3'): errors.append('Domanda del giorno v255 contiene H2/H3 vietati')
     if not daily.xpath('//body[contains(concat(" ",normalize-space(@class)," ")," cm-daily-page ")]'): errors.append('tela editoriale Domanda del giorno v273 assente')
-    if len(daily.xpath('//header[contains(concat(" ",normalize-space(@class)," ")," cm-q-masthead ")]'))!=1: errors.append('testata premium Domanda del giorno v273 assente o duplicata')
-    if len(daily.xpath('//a[contains(concat(" ",normalize-space(@class)," ")," cm-q-back ")][@href="/"]'))!=1: errors.append('ritorno premium alla home v273 assente')
-    if daily.xpath('//a[contains(concat(" ",normalize-space(@class)," ")," cm-q-back ")][contains(normalize-space(.),"Indietro")]'): errors.append('pulsante Indietro generico ancora presente nella Domanda del giorno v273')
     if not daily.xpath('//link[contains(@href,"daily-question-v273.css")]'): errors.append('stile Domanda del giorno v273 non collegato')
     if len(daily.xpath('//a[contains(concat(" ",normalize-space(@class)," ")," cm-daily-book-link ")]'))!=1: errors.append('invito eBook premium v273 assente')
     answer=' '.join(daily.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," q-flow ")]/p[not(contains(@class,"q-sign"))]//text()'))
@@ -289,6 +297,6 @@ for guide_path in guide_paths:
     guide=html.fromstring(guide_path.read_text(errors='replace'))
     visible=re.sub(r'\s+',' ',' '.join(guide.xpath('//main//article//text()'))).strip()
     if not 3000<=len(visible)<=15000: errors.append(f'guida v255 fuori 3000–15000 caratteri: {guide_path.parent.name} ({len(visible)})')
-report={'version':275,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
+report={'version':276,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
 print(json.dumps(report,ensure_ascii=False,indent=2))
 raise SystemExit(1 if errors else 0)

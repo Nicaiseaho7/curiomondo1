@@ -1,0 +1,106 @@
+/* CurioMondo v275 — intestazione interna unica e permanente. */
+:root{
+  --cm-global-head-ink:#113c5a;
+  --cm-global-head-blue:#1877f2;
+  --cm-global-head-line:#cdeaf9;
+  --cm-global-head-paper:rgba(255,255,255,.92);
+}
+
+.cm-global-header{
+  position:sticky;
+  top:0;
+  z-index:80;
+  width:100%;
+  margin:0;
+  padding:0;
+  border:0;
+  border-bottom:1px solid var(--cm-global-head-line);
+  background:var(--cm-global-head-paper);
+  box-shadow:0 8px 28px rgba(22,126,186,.08);
+  backdrop-filter:blur(18px) saturate(150%);
+  -webkit-backdrop-filter:blur(18px) saturate(150%);
+}
+
+.cm-global-header__inner{
+  box-sizing:border-box;
+  width:min(960px,calc(100% - 28px));
+  min-height:64px;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:48px minmax(0,1fr) 48px;
+  align-items:center;
+  gap:12px;
+}
+
+.cm-global-header__back,
+.cm-global-header__theme{
+  box-sizing:border-box;
+  width:44px;
+  height:44px;
+  display:grid;
+  place-items:center;
+  margin:0;
+  padding:0;
+  border:1px solid #bfe4f7;
+  border-radius:50%;
+  background:linear-gradient(145deg,#fff,#e8f7ff);
+  color:#0f77b5;
+  box-shadow:0 8px 20px rgba(20,132,197,.11),inset 0 1px 0 #fff;
+  text-decoration:none;
+  cursor:pointer;
+  transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;
+}
+
+.cm-global-header__back{justify-self:start}
+.cm-global-header__theme{justify-self:end;font:700 1.08rem/1 system-ui,-apple-system,"Segoe UI",sans-serif}
+.cm-global-header__back-icon{width:20px;height:20px;display:block}
+.cm-global-header__back-icon svg{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+
+.cm-global-header__brand{
+  justify-self:center;
+  min-width:0;
+  color:var(--cm-global-head-ink);
+  font:850 clamp(1.28rem,2.8vw,1.52rem)/1 Georgia,"Times New Roman",serif;
+  letter-spacing:-.045em;
+  text-decoration:none;
+  white-space:nowrap;
+}
+.cm-global-header__brand span span{color:var(--cm-global-head-blue)}
+
+.cm-global-header__back:hover,
+.cm-global-header__back:focus-visible,
+.cm-global-header__theme:hover,
+.cm-global-header__theme:focus-visible{
+  transform:translateY(-1px);
+  border-color:#70c7ef;
+  box-shadow:0 11px 24px rgba(20,132,197,.16),inset 0 1px 0 #fff;
+  outline:none;
+}
+
+html.cm-dark .cm-global-header,
+html.dark .cm-global-header{
+  --cm-global-head-ink:#f4f9ff;
+  --cm-global-head-blue:#7fd4ff;
+  --cm-global-head-line:rgba(129,202,239,.16);
+  --cm-global-head-paper:rgba(6,24,43,.9);
+  box-shadow:0 8px 28px rgba(0,0,0,.16);
+}
+html.cm-dark .cm-global-header__back,
+html.cm-dark .cm-global-header__theme,
+html.dark .cm-global-header__back,
+html.dark .cm-global-header__theme{
+  color:#b9e8ff;
+  border-color:rgba(132,207,245,.2);
+  background:linear-gradient(145deg,rgba(19,66,99,.96),rgba(9,42,69,.96));
+  box-shadow:0 8px 20px rgba(0,0,0,.18),inset 0 1px 0 rgba(255,255,255,.08);
+}
+
+@media(max-width:600px){
+  .cm-global-header__inner{width:calc(100% - 20px);min-height:60px;grid-template-columns:44px minmax(0,1fr) 44px;gap:8px}
+  .cm-global-header__back,.cm-global-header__theme{width:42px;height:42px}
+  .cm-global-header__brand{font-size:1.28rem}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .cm-global-header__back,.cm-global-header__theme{transition:none}
+}
