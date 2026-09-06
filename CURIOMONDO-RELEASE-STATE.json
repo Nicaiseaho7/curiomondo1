@@ -1,8 +1,8 @@
 {
-  "site_version": 279,
-  "articleCount": 242,
-  "generatedEditorialImages": 124,
-  "baseline_version": 278,
+  "site_version": 281,
+  "articleCount": 245,
+  "generatedEditorialImages": 127,
+  "baseline_version": 279,
   "release_date": "2026-09-06",
   "protocol_files": [
     "AGENTS.md",
@@ -14,13 +14,13 @@
     "curiomondo-site-manifest.json"
   ],
   "last_daily_question_date": "2026-09-06",
-  "version": "279",
+  "version": "281",
   "date": "2026-09-06",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "domanda-del-giorno-maschere-utili-v279",
+  "last_update": "3-notizie-casa-bianca-libano-laquila-v281",
   "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
-  "currentVersion": 279,
-  "baselineVersion": 278,
+  "currentVersion": 281,
+  "baselineVersion": 279,
   "designRestored": "Intestazione globale unificata su tutte le pagine interne; palette blu Facebook e fascia LIVE rossa piena confermate.",
   "status": "ready"
 }
