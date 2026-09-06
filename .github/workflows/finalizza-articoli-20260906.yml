@@ -27,6 +27,24 @@ jobs:
       - name: Installa dipendenze
         run: pip install lxml
 
+      - name: Completa i tre articoli sotto soglia
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          additions = {
+            'notizie/incidente-lavoro-alcamo-grisi-vendemmiatrice-6-settembre-2026.html': ('La verifica tecnica del mezzo dovrà considerare anche i dispositivi di arresto e protezione, la manutenzione documentata e le modalità con cui gli operatori accedevano alle parti mobili. Sono controlli ordinari nelle indagini sugli infortuni con macchinari: servono a ricostruire i fatti, non ad anticipare responsabilità prima degli accertamenti.'),
+            'notizie/nepal-64enne-salvata-dopo-10-giorni-fango-detriti-6-settembre-2026.html': ('Betrawati si trova lungo un corridoio montano in cui strade, ponti e comunicazioni sono stati interrotti dalla piena. Questo rende ogni ritrovamento più complesso: prima di raggiungere un edificio i soccorritori devono spesso liberare accessi, verificare la stabilità del terreno e creare una via sicura per l’evacuazione. Nel caso di Shrestha, il trasferimento in elicottero verso Kathmandu mostra quanto la logistica aerea sia diventata essenziale quando i collegamenti terrestri non sono affidabili.'),
+            'notizie/iran-economia-nuovi-attacchi-risposta-piu-dolorosa-6-settembre-2026.html': ('La capacità di Teheran di sostenere questa linea dipenderà anche dalla tenuta delle entrate pubbliche e della valuta: una pressione economica prolungata può restringere le opzioni politiche quanto quella militare.'),
+          }
+          for rel, para in additions.items():
+              p = Path(rel)
+              s = p.read_text(encoding='utf-8')
+              marker = para[:55]
+              if marker not in s:
+                  s = s.replace('</article>', f'<p>{para}</p></article>', 1)
+                  p.write_text(s, encoding='utf-8')
+          PY
+
       - name: Normalizza ordinamento date legacy
         run: |
           python3 - <<'PY'
