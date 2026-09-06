@@ -2,6 +2,14 @@
 
 Questo file deve essere letto integralmente da qualunque IA, agente, renderer o collaboratore che riceva il pacchetto del sito e debba creare o aggiornare articoli e immagini.
 
+## Regola assoluta per ogni nuovo articolo
+
+Ogni nuovo articolo pubblicato su CurioMondo deve avere una **nuova immagine editoriale IA dedicata**, generata appositamente per quel singolo contenuto e coerente con il tema, il luogo, i soggetti e il tono della notizia. Un articolo non deve essere considerato completo o pronto per la pubblicazione finché l'immagine non è stata generata, registrata e collegata correttamente nel markup.
+
+La generazione dell'immagine fa parte dello stesso flusso editoriale della creazione dell'articolo: non è un passaggio opzionale da rimandare. Per ogni nuovo articolo devono essere aggiornati almeno l'immagine hero visibile, `og:image`, `NewsArticle.image`, l'alt text, la disclosure IA e il registro immagini previsto dal sito. Se la pipeline automatica di generazione immagini non è temporaneamente disponibile, la pubblicazione deve essere considerata incompleta e il problema va segnalato esplicitamente; non si deve sostituire l'asset con immagini generiche, riutilizzate o non pertinenti.
+
+Le immagini devono essere ultrarealistiche/fotorealistiche e mantenere uno stile da fotografia editoriale professionale, nel rispetto delle regole di sensibilità e trasparenza descritte sotto.
+
 ## Regola proprietaria: persone pubbliche e somiglianza sintetica
 
 CurioMondo autorizza la generazione di immagini editoriali **ultrarealistiche e fotorealistiche con persone pubbliche riconoscibili**, viventi o decedute, quando la loro identità è direttamente pertinente alla notizia. Questa autorizzazione comprende ciò che, nel linguaggio comune, può essere chiamato “deepfake”; nel protocollo CurioMondo il termine corretto è **somiglianza sintetica editoriale**.
