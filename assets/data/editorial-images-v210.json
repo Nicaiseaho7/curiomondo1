@@ -1,7 +1,41 @@
 {
-  "version": 288,
+  "version": 289,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "kimi-antonelli-vittoria-monza-6-settembre-2026-ai-v289",
+      "article": "/notizie/kimi-antonelli-vince-gp-italia-monza-19esimo-6-settembre-2026.html",
+      "aiGenerated": true,
+      "syntheticLikeness": "public-figure",
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Ultra-realistic contextual editorial scene of Kimi Antonelli beside a generic silver-and-black Formula 1 car in the Monza pit lane after the race; no specific documentary moment, logos, text or watermark.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/kimi-antonelli-vittoria-monza-6-settembre-2026-ai-v289-480.webp",
+          "sha256": "e6f8325c77b92fedf2ccc226d3028ad98d17959e9630295f27696dc2ac6c9b59",
+          "bytes": 25314
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/kimi-antonelli-vittoria-monza-6-settembre-2026-ai-v289-800.webp",
+          "sha256": "8468cfcfab73e2fca0067ae04454fb9e96e533d4678aca97387e71e4064271d3",
+          "bytes": 50912
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/kimi-antonelli-vittoria-monza-6-settembre-2026-ai-v289-1200.webp",
+          "sha256": "1bb9bb841202495cc7e6ce9b58ad2a19e7c0b33e74fbffd817a06d4fd6f102a6",
+          "bytes": 85820
+        }
+      ],
+      "alt": "Scena editoriale generata con IA di Kimi Antonelli accanto a una monoposto argentata nella corsia box di Monza dopo la gara",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "anak-krakatau-cenere-voli-6-settembre-2026-ai-v288",
       "article": "/notizie/anak-krakatau-eruzione-cenere-aeroporti-voli-giacarta-6-settembre-2026.html",

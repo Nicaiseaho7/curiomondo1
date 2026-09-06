@@ -7,8 +7,8 @@
     "current_protocol_version": "2.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-06",
-    "current_site_version": 288,
-    "site_version": 288
+    "current_site_version": 289,
+    "site_version": 289
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -82,6 +82,18 @@
   },
   "images": {
     "new_editorial_images_must_be_ai_generated": true,
+    "public_figure_synthetic_likeness_policy": {
+      "allowed": true,
+      "policy_mode": "context_sensitive",
+      "ordinary_news": {
+        "contextual_scenes_allowed": true,
+        "relevant_logos_allowed": true
+      },
+      "sensitive_news": {
+        "neutral_isolated_portrait_required": true
+      },
+      "must_never_be_presented_as_documentary_evidence": true
+    },
     "new_image_required_for_each_new_article_or_substantive_update": true,
     "generation_blocking": true,
     "article_complete_only_after_image_generated_registered_and_attached": true,
