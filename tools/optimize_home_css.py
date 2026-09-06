@@ -62,18 +62,15 @@ if len(matches) < 20:
 first = matches[0].start()
 new_head = link_re.sub("", head)
 bundle_tag = '<link rel="stylesheet" href="/assets/css/home-bundle-v291.css?v=291">\n'
-# Dopo le rimozioni, reinserisce il bundle nella posizione del primo stylesheet originale.
-removed_before_first = sum(m.end() - m.start() for m in matches if m.start() < first)
-insert_at = first - removed_before_first
-new_head = new_head[:insert_at] + bundle_tag + new_head[insert_at:]
-
+new_head = new_head[:first] + bundle_tag + new_head[first:]
 INDEX.write_text(new_head + tail, encoding="utf-8")
 
-# Controlli minimi di sicurezza.
+# Controlli minimi di sicurezza: deve restare un solo stylesheet locale, il bundle.
 updated = INDEX.read_text(encoding="utf-8")
-local_styles = link_re.findall(updated[:updated.find("</head>")])
-if local_styles:
-    raise SystemExit("Sono rimasti stylesheet locali separati in homepage")
+updated_head = updated[:updated.find("</head>")]
+local_styles = link_re.findall(updated_head)
+if len(local_styles) != 1 or "home-bundle-v291.css" not in local_styles[0]:
+    raise SystemExit(f"Configurazione stylesheet homepage non valida: {local_styles}")
 if updated.count("home-bundle-v291.css") != 1:
     raise SystemExit("Bundle CSS non collegato esattamente una volta")
 
