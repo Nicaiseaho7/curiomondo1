@@ -1,0 +1,58 @@
+name: Ottimizza CSS homepage
+
+on:
+  push:
+    paths:
+      - 'automation/state/optimize-home-css-trigger.txt'
+      - 'tools/optimize_home_css.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Genera bundle CSS homepage
+        run: python3 tools/optimize_home_css.py
+
+      - name: Predeploy completo
+        run: python3 tools/predeploy.py
+
+      - name: Verifica struttura homepage
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          s=Path('index.html').read_text(encoding='utf-8')
+          head=s.split('</head>',1)[0]
+          links=re.findall(r'<link\b[^>]*rel=["\']stylesheet["\'][^>]*>', head, flags=re.I)
+          local=[x for x in links if '/assets/css/' in x]
+          assert len(local)==1, f'Stylesheet locali homepage: {len(local)}'
+          assert 'home-bundle-v291.css' in local[0]
+          assert Path('assets/css/home-bundle-v291.css').stat().st_size > 1000
+          print({'homepage_local_stylesheets': len(local), 'bundle_bytes': Path('assets/css/home-bundle-v291.css').stat().st_size})
+          PY
+
+      - name: Commit su main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html assets/css/home-bundle-v291.css
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica da pubblicare"
+            exit 0
+          fi
+          git commit -m "v291: consolida CSS homepage per migliorare PageSpeed mobile"
+          git push
