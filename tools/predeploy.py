@@ -257,9 +257,9 @@ zeros=[p for p in root.rglob('*') if p.is_file() and p.suffix.lower() in {'.webp
 if zeros: errors.append(f'{len(zeros)} file immagine vuoti')
 
 # Daily editorial cycle v263: mystery card, reflection, ebook and two queued guides.
-daily_slug='quanto-tempo-della-tua-giornata-appartiene-davvero-a-te'
+daily_slug='chi-siamo-nei-cinque-minuti-prima-di-addormentarci-quando-cadono-le-maschere-utili'
 daily_path=root/'domanda-del-giorno'/daily_slug/'index.html'
-book_path=root/'biblioteca/vita-relazioni/attenzione-tempo'/daily_slug/'index.html'
+book_path=root/'biblioteca/vita-relazioni/domande-per-conoscersi'/daily_slug/'index.html'
 guide_paths=[
     root/'biblioteca/vita-relazioni/attenzione-tempo/proteggere-concentrazione-notifiche-smartphone/index.html',
     root/'biblioteca/vita-relazioni/attenzione-tempo/creare-spazi-propri-giornata-impegni/index.html',
@@ -270,7 +270,7 @@ else:
     qcard=qday[0].xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-qday-link ")]/*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-card ")]')
     if len(qcard)!=1: errors.append('struttura Domanda del giorno v270 incompleta')
     else:
-        if not qcard[0].xpath('.//time[contains(concat(" ",normalize-space(@class)," ")," cm-qday-date ")][@datetime="2026-09-05"]'): errors.append('data Domanda del giorno v270 assente')
+        if not qcard[0].xpath('.//time[contains(concat(" ",normalize-space(@class)," ")," cm-qday-date ")][@datetime="2026-09-06"]'): errors.append('data Domanda del giorno v270 assente')
         if not qcard[0].xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-k ")]'): errors.append('etichetta Domanda del giorno v270 assente')
         if not qcard[0].xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-cta ")]'): errors.append('CTA Domanda del giorno v270 assente')
         if qcard[0].xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-title ") or contains(concat(" ",normalize-space(@class)," ")," cm-qday-hint ")]'): errors.append('testi ridondanti ancora presenti nella Domanda del giorno v270')
@@ -297,6 +297,6 @@ for guide_path in guide_paths:
     guide=html.fromstring(guide_path.read_text(errors='replace'))
     visible=re.sub(r'\s+',' ',' '.join(guide.xpath('//main//article//text()'))).strip()
     if not 3000<=len(visible)<=15000: errors.append(f'guida v255 fuori 3000–15000 caratteri: {guide_path.parent.name} ({len(visible)})')
-report={'version':278,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
+report={'version':279,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
 print(json.dumps(report,ensure_ascii=False,indent=2))
 raise SystemExit(1 if errors else 0)
