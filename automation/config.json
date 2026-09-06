@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "timezone": "Europe/Rome",
   "safe_mode": true,
   "live": {
@@ -17,9 +17,34 @@
     "cycle_instructions": "automation/prompts/three-hourly-cycle-instructions.md",
     "image_generation_prompt": "automation/prompts/image-generation-contract.txt",
     "image_policy": "AI-EDITORIAL-IMAGE-PROTOCOL.md",
-    "image_generation_blocking": false,
-    "image_generation_mode": "fire_and_forget_then_backfill",
+    "image_generation_blocking": true,
+    "image_generation_mode": "blocking_generate_validate_attach_before_publish",
     "pending_images_tracking": "automation/state/pending-images.json",
+    "article_complete_only_when_image_ready": true,
+    "publish_completeness_gate": true,
+    "required_publication_surfaces": [
+      "article_html",
+      "homepage_or_editorial_listing",
+      "archive",
+      "search",
+      "feed",
+      "sitemap",
+      "news_sitemap_if_eligible",
+      "canonical",
+      "newsarticle_json_ld",
+      "editorial_image"
+    ],
+    "post_deploy_verification_required": true,
+    "post_deploy_checks": [
+      "article_http_200",
+      "hero_image_http_200",
+      "canonical_matches_public_url",
+      "article_visible_in_expected_listing",
+      "archive_contains_article",
+      "feed_contains_article_if_eligible",
+      "sitemap_contains_article",
+      "news_sitemap_contains_article_if_eligible"
+    ],
     "public_figure_synthetic_likeness": {
       "allowed": true,
       "scope": "living_or_deceased_public_figures_when_directly_editorially_relevant",
@@ -68,8 +93,9 @@
     ],
     "knowledge_hook_required_default": true,
     "knowledge_hook_label": "Una cosa utile da sapere",
-    "evergreen_deep_dive_required_by_default": true,
-    "evergreen_deep_dive_exception": "Only when no durable historical, institutional, procedural, technical or cultural context can reasonably add value.",
+    "evergreen_deep_dive_required_by_default": false,
+    "evergreen_deep_dive_rule": "create_or_link_only_when_it_adds_durable_non_redundant_value",
+    "evergreen_deep_dive_if_existing": "link_existing_equivalent_instead_of_creating_duplicate",
     "public_pages_indexable_required": true,
     "body_min_chars": 3000,
     "body_max_chars": 7000,
@@ -113,6 +139,7 @@
     "predeploy_required": true,
     "source_verification_required": true,
     "dedupe_required": true,
-    "performance_target_min": 90
+    "performance_target_min": 90,
+    "publication_complete_only_after_predeploy_and_postdeploy_checks": true
   }
 }
