@@ -1,7 +1,73 @@
 {
-  "version": 289,
+  "version": 290,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "opec-plus-quote-ottobre-6-settembre-2026-ai-v290",
+      "article": "/notizie/opec-plus-congela-quote-petrolio-ottobre-6-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Ultra-realistic editorial view of a Gulf oil terminal and distant tanker suggesting physical oil supply and Hormuz; no conflict, people, logos, text or documentary claim.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-480.webp",
+          "sha256": "bbad2baf3c60d7c04fefff8c9485cddd1284dda2b742ffd594af746a381672c5",
+          "bytes": 18740
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-800.webp",
+          "sha256": "b39683bb6396abcb7ebc2f75070dad9a68910643a349265fe4c01253befebcd0",
+          "bytes": 51932
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-1200.webp",
+          "sha256": "7c4357d99fd59dac858c3b5fb345168815be3941e98eaca01381060e67937f93",
+          "bytes": 107194
+        }
+      ],
+      "alt": "Scena editoriale generata con IA di un terminal petrolifero e una petroliera in transito in un passaggio marittimo del Golfo",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290",
+      "article": "/notizie/ebola-bundibugyo-congo-piano-emergenza-180-giorni-6-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "prompt": "Neutral editorial portrait of an anonymous African public-health worker in clean PPE on an isolated clinical backdrop; no patients, symptoms, suffering, procedures, text or logos.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-480.webp",
+          "sha256": "e430f067348a0c34792c7ba4c9448d3fc8b2c1c036830782ccb810548e9e5ee7",
+          "bytes": 8974
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-800.webp",
+          "sha256": "816729d03979a13a0c82892766c741a5a67a4c904c35440d64c8b86c24c14340",
+          "bytes": 16874
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-1200.webp",
+          "sha256": "d48e87b2b72e70dcb8aff5c3d117e339e737f65bde2a63524417df5a59dca3ea",
+          "bytes": 27266
+        }
+      ],
+      "alt": "Ritratto editoriale neutrale generato con IA di un’operatrice sanitaria anonima con dispositivi di protezione, senza pazienti o sofferenza",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false
+    },
     {
       "key": "kimi-antonelli-vittoria-monza-6-settembre-2026-ai-v289",
       "article": "/notizie/kimi-antonelli-vince-gp-italia-monza-19esimo-6-settembre-2026.html",
