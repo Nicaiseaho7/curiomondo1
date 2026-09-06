@@ -122,3 +122,19 @@
    in modalità scura perché due regole successive (.header{background:...})
    di pari specificità sovrascrivevano quella basata su var(--cm-paper). */
 html.cm-dark .header{background:var(--cm-paper)!important;border-bottom-color:var(--cm-border)!important;box-shadow:0 6px 24px rgba(0,0,0,.28)!important}
+
+/* Correzione contrasto v282: card "Domanda del giorno", "Continua a
+   leggere" e rail "Ultime notizie" restavano bianche/chiare perché
+   .cm-qday-card (v274), .continue-bar.on (v225) e .auto-card (v221)
+   fissavano uno sfondo chiaro con !important o pari specificità, mentre
+   il testo diventava comunque chiaro tramite var(--cm-ink)/var(--cm-muted):
+   testo chiaro su sfondo chiaro, illeggibile. */
+html.cm-dark .cm-qday-card{background:var(--cm-paper)!important;border-color:rgba(78,155,255,.28)!important;box-shadow:0 20px 48px rgba(0,0,0,.28)!important}
+html.cm-dark .cm-qday-card::before{border-color:rgba(147,197,253,.16)!important}
+html.cm-dark .cm-qday-cta{color:#4e9bff!important;border-color:rgba(147,197,253,.24)!important;background:#0f2140!important;box-shadow:0 10px 24px rgba(0,0,0,.24)!important}
+html.cm-dark .cm-qday-link:hover .cm-qday-card{background:var(--cm-paper)!important;border-color:rgba(78,155,255,.4)!important}
+html.cm-dark .continue-bar.on{background:var(--cm-paper)!important;border-color:var(--cm-border)!important;box-shadow:0 14px 34px rgba(0,0,0,.28)!important}
+html.cm-dark .continue-copy strong{color:var(--cm-ink)!important}
+html.cm-dark .continue-thumb{background:#0f2140!important}
+html.cm-dark .auto-card{background:var(--cm-paper)!important}
+html.cm-dark .auto-card picture{background:#0f2140!important}
