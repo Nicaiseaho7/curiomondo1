@@ -110,7 +110,7 @@
     const existing=new Set(Array.from(grid.querySelectorAll('a[href]')).map(a=>routeKey(a.href)).filter(Boolean));
     existing.add(canonicalRoute);
     try{
-      const response=await fetch('/assets/data/home-feed-v210.json?v=236',{credentials:'same-origin'});if(!response.ok)return;
+      const response=await fetch('/assets/data/home-feed-v210.json?v=283',{credentials:'same-origin'});if(!response.ok)return;
       const payload=await response.json(),items=Array.isArray(payload.items)?payload.items:[];
       const mediaByUrl=new Map(items.filter(item=>item?.url).map(item=>[routeKey(item.url),item]));
       Array.from(grid.querySelectorAll('a[href]')).forEach(link=>{const path=routeKey(link.href);if(!mediaByUrl.get(path)?.image)link.remove();});

@@ -130,6 +130,11 @@
     "hero_section_label": "Ultima ora",
     "live_exact_count": 10,
     "live_order": "newest_first",
+    "chronological_continuity": {
+      "rule": "featured + auto-rail (Ultime notizie) + #cards (Tutte le notizie) devono formare un'unica sequenza continua, senza salti, ordinata per data di pubblicazione decrescente su tutti gli articoli idonei (non noindex, con immagine editoriale). Una notizia che esce da Ultime notizie per mancanza di spazio deve ricomparire come prima card in Tutte le notizie.",
+      "ticker_exempt": "il ticker LIVE (.ticker-track) è una fascia indipendente: la presenza di una notizia nel ticker non la esclude da Ultime notizie o Tutte le notizie",
+      "enforced_by": "tools/predeploy.py (confronto automatico tra la sequenza reale della homepage e l'ordine cronologico ricavato da datePublished di ogni articolo)"
+    },
     "image_cards": {
       "size_style": "small_compact",
       "text_overlay": false

@@ -144,8 +144,26 @@ def article_policy_active(doc):
             except Exception: pass
     return False
 caption='Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.'
+card_eligible_dates={}
 for p in news:
     d=html.fromstring(p.read_text(errors='replace'))
+    robots_l=' '.join(d.xpath('//meta[@name="robots"]/@content')).lower()
+    if 'noindex' not in robots_l and d.xpath('//main//figure[1]//img/@src'):
+        for raw in d.xpath('//script[@type="application/ld+json"]/text()'):
+            try: obj=json.loads(raw)
+            except Exception: continue
+            objs=obj if isinstance(obj,list) else [obj]
+            for item in objs:
+                if not isinstance(item,dict): continue
+                stamp=item.get('datePublished')
+                if not stamp: continue
+                try:
+                    stamp_norm=str(stamp)
+                    if len(stamp_norm)<=10: stamp_norm+='T00:00:00+02:00'
+                    dt=datetime.fromisoformat(stamp_norm.replace('Z','+00:00'))
+                    card_eligible_dates[f'/notizie/{p.name}']=dt
+                except Exception: pass
+                break
     if not d.xpath('//main[contains(@class,"wrap")]'): errors.append(f'main non vincolato: {p.name}')
     bodies=d.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," art-body ")]')
     if not bodies: errors.append(f'testo articolo assente: {p.name}')
@@ -222,13 +240,26 @@ if len(home.xpath('//nav[contains(@class,"ticker-track")][1]/a'))!=10: errors.ap
 if len(home.xpath('//div[contains(@class,"auto-rail")]/a'))!=5: errors.append('Ultime notizie non contiene 5 articoli')
 if len(home.xpath('//div[contains(@class,"auto-rail")]/a/h3 | //div[contains(@class,"auto-rail")]/a//h3'))!=5: errors.append('titoli mancanti nelle card Ultime notizie')
 if len(home.xpath('//div[contains(@class,"auto-rail")]/a//p[normalize-space()]'))!=5: errors.append('spiegazioni iniziali mancanti nelle card Ultime notizie')
-promoted_urls=set(home.xpath('//nav[contains(@class,"ticker-track")][1]/a/@href | //a[contains(@class,"featured")]/@href | //div[contains(@class,"auto-rail")]/a/@href'))
+promoted_urls=set(home.xpath('//a[contains(@class,"featured")]/@href | //div[contains(@class,"auto-rail")]/a/@href'))
 all_news_urls=home.xpath('//div[@id="cards"]/a/@href')
 if promoted_urls.intersection(all_news_urls): errors.append('notizie promosse duplicate in Tutte le notizie')
 if len(all_news_urls)<12: errors.append('titoli mancanti nelle card Tutte le notizie')
 if len(home.xpath('//div[@id="cards"]/a//h3[normalize-space()]'))!=len(all_news_urls): errors.append('titoli mancanti nelle card Tutte le notizie')
 if len(home.xpath('//div[@id="cards"]/a//p[normalize-space()]'))!=len(all_news_urls): errors.append('spiegazioni iniziali mancanti nelle card Tutte le notizie')
 if len(home.xpath('//a[contains(@class,"featured")]'))!=1: errors.append('apertura principale non unica')
+
+featured_href=home.xpath('//a[contains(@class,"featured")]/@href')
+rail_hrefs=home.xpath('//div[contains(@class,"auto-rail")]/a/@href')
+sequence_hrefs=list(featured_href)+list(rail_hrefs)+list(all_news_urls)
+chronological=[url for url,_ in sorted(card_eligible_dates.items(),key=lambda kv: kv[1],reverse=True)]
+expected_sequence=chronological[:len(sequence_hrefs)]
+if sequence_hrefs!=expected_sequence:
+    for i,(got,want) in enumerate(zip(sequence_hrefs,expected_sequence)):
+        if got!=want:
+            errors.append(f'sequenza cronologica homepage non continua alla posizione {i+1}: trovato {got} ({card_eligible_dates.get(got)}) invece di {want} ({card_eligible_dates.get(want)}) — significa che una notizia più recente è stata saltata/nascosta')
+            break
+    if len(sequence_hrefs)!=len(expected_sequence):
+        errors.append(f'homepage (apertura+Ultime notizie+Tutte le notizie) contiene {len(sequence_hrefs)} notizie ma le notizie pubblicate idonee sono {len(chronological)}: verificare articoli mancanti o duplicati')
 if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-home-deep-links ")]'): errors.append('card Approfondimenti ancora presente in homepage')
 if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-discovery-row ")]'): errors.append('card Biblioteca/Approfondimenti ancora presenti in homepage')
 if len(home.xpath('//ul[contains(concat(" ",normalize-space(@class)," ")," drawer-nav ")]//a[@href="/biblioteca/"]'))!=1: errors.append('Biblioteca non presente una sola volta nel menu drawer')
