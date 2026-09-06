@@ -7,8 +7,8 @@
     "current_protocol_version": "1.8",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-08-30",
-    "current_site_version": 282,
-    "site_version": 282
+    "current_site_version": 286,
+    "site_version": 286
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -412,7 +412,7 @@
     "homepage_latest_count": 3,
     "deduplicate_existing_guides": true
   },
-  "site_version": 282,
+  "site_version": 286,
   "monetization": {
     "provider": "Google AdSense",
     "publisher_id": "pub-8050187517048759",
@@ -434,16 +434,17 @@
   "permanent_rules": {
     "library_palette": "premium white + CurioMondo blue; green only functional, never dominant",
     "editorial_images": "Every new article or update MUST use a completely new hero visual; no reuse, crop, resize, filter, rename, or derivation of previously published assets. Public figures may appear in relevant locations and settings, including relevant logos, for ordinary news; sensitive or painful contexts require a neutral isolated portrait.",
-    "article_audio": "Prefer premium pre-generated neural audio when available; otherwise choose the best Italian premium/enhanced deep voice exposed by the device, with natural sentence chunking, rate 0.92 and pitch 0.78."
+    "article_audio": "Prefer premium pre-generated neural audio when available; otherwise choose the best Italian premium/enhanced deep voice exposed by the device, with natural sentence chunking, rate 0.92 and pitch 0.78.",
+    "evergreen_and_plain_language": "Every article must include a useful evergreen knowledge hook when applicable. Explain technical, uncommon or difficult words naturally at first occurrence, in pleasant accessible Italian, without glossary-like interruptions or repetition."
   },
-  "version": "v282",
-  "release_version": "v282",
+  "version": "v286",
+  "release_version": "v286",
   "last_release_date": "2026-09-06",
   "last_release": {
-    "version": 282,
+    "version": 286,
     "date": "2026-09-06",
     "type": "content-update",
-    "change": "3 nuovi articoli: tregua aerea di 72 ore Ucraina con missione Witkoff-Kushner a Kyiv, elezioni regionali in Sassonia-Anhalt con AfD favorita nei sondaggi, il viaggio in triciclo di Angelo Catanzaro da Ivrea a Strasburgo per i diritti delle persone con disabilità",
+    "change": "2 nuovi articoli Formula 1 su Monza: tributo Vettel-F2002 e incidente di Charles Leclerc, con 2 approfondimenti evergreen su F2002 e sicurezza, nuove immagini editoriali IA e regola permanente per spiegare i termini difficili",
     "article_body_policy": "3000-7000"
   },
   "release_notes": {

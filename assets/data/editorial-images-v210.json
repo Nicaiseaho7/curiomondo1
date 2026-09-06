@@ -1,7 +1,75 @@
 {
-  "version": 285,
+  "version": 286,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "monza-vettel-f2002-schumacher-6-settembre-2026-ai-v286",
+      "article": "/notizie/monza-vip-sinner-elkann-chiellini-vettel-f2002-schumacher-6-settembre-2026.html",
+      "aiGenerated": true,
+      "syntheticLikeness": "public-figure",
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Ultra-realistic editorial scene of Sebastian Vettel beside an F2002-inspired historic red Formula 1 car in the Monza pit lane.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/monza-vettel-f2002-schumacher-6-settembre-2026-ai-v286-480.webp",
+          "sha256": "6a98493907df9c64eb6cbf322f76b0e79f1c4908e1783bef6ddeb4b03ebae624",
+          "bytes": 22708
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/monza-vettel-f2002-schumacher-6-settembre-2026-ai-v286-800.webp",
+          "sha256": "af25c38feb38e47ea3c287a50f366a0e5f72f6a84b4722c06ce5184f52507cef",
+          "bytes": 43208
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/monza-vettel-f2002-schumacher-6-settembre-2026-ai-v286-1200.webp",
+          "sha256": "2d893d66542d466af8869d43424a9079a48314a708e87602e5d56804f236ec1a",
+          "bytes": 71712
+        }
+      ],
+      "alt": "Scena editoriale generata con IA di Sebastian Vettel accanto a una monoposto rossa dei primi anni Duemila nella corsia box di Monza",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "charles-leclerc-ritratto-incidente-monza-6-settembre-2026-ai-v286",
+      "article": "/notizie/leclerc-incidente-terzo-giro-gp-monza-ritiro-6-settembre-2026.html",
+      "aiGenerated": true,
+      "syntheticLikeness": "public-figure",
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "prompt": "Neutral editorial portrait of Charles Leclerc, isolated against a simple studio background; no crash, injury or reenactment.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/charles-leclerc-ritratto-incidente-monza-6-settembre-2026-ai-v286-480.webp",
+          "sha256": "60fe407359212e632810262de5a8852f8fbc5d8ced016f8826ddd965626a06d2",
+          "bytes": 6994
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/charles-leclerc-ritratto-incidente-monza-6-settembre-2026-ai-v286-800.webp",
+          "sha256": "356cee8fb6202010c699674632c5c82bfd5e65db8389968e9f0ef5f0c4ab6b58",
+          "bytes": 15066
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/charles-leclerc-ritratto-incidente-monza-6-settembre-2026-ai-v286-1200.webp",
+          "sha256": "90bab6d94bcba56995181f9c463c8e0fd98e5ab250533c8acf2e7c215ac0af24",
+          "bytes": 27490
+        }
+      ],
+      "alt": "Ritratto editoriale neutrale generato con IA di Charles Leclerc in tuta rossa, senza rappresentare l’incidente o conseguenze fisiche",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false
+    },
     {
       "key": "cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285",
       "article": "/notizie/confine-cina-nepal-alluvione-porto-gyirong-distrutto-6-settembre-2026.html",

@@ -1,6 +1,30 @@
 {
-  "version": 285,
+  "version": 286,
   "items": [
+    {
+      "title": "Ferrari F2002: perché è ricordata come una Formula 1 dominante",
+      "excerpt": "Motore V10, aerodinamica, cambio e affidabilità: come un progetto equilibrato trasformò velocità e costanza in una stagione storica.",
+      "url": "/approfondimenti/ferrari-f2002-perche-dominante.html",
+      "section": "Formula 1 / Tecnica"
+    },
+    {
+      "title": "Sicurezza in Formula 1: come funzionano halo e cellula di sopravvivenza",
+      "excerpt": "Dalla struttura in carbonio alle zone deformabili: che cosa protegge il pilota durante un impatto e perché nessun dispositivo lavora da solo.",
+      "url": "/approfondimenti/sicurezza-formula-1-halo-cellula-sopravvivenza.html",
+      "section": "Formula 1 / Sicurezza"
+    },
+    {
+      "title": "F1, incidente per Leclerc al terzo giro a Monza: illeso, ma costretto al ritiro",
+      "excerpt": "Il ferrarista è finito contro le barriere nelle prime fasi del Gran Premio d’Italia. È uscito da solo dall’abitacolo; la gara è stata fermata con la bandiera rossa.",
+      "url": "/notizie/leclerc-incidente-terzo-giro-gp-monza-ritiro-6-settembre-2026.html",
+      "section": "Sport / Formula 1 / GP d’Italia"
+    },
+    {
+      "title": "Monza, da Sinner a Elkann e Chiellini: Vettel riporta in pista la F2002 di Schumacher",
+      "excerpt": "Sportivi, imprenditori e artisti nel paddock del GP d’Italia. Prima della gara Sebastian Vettel ha guidato la Ferrari F2002, simbolo della stagione 2002 di Michael Schumacher.",
+      "url": "/notizie/monza-vip-sinner-elkann-chiellini-vettel-f2002-schumacher-6-settembre-2026.html",
+      "section": "Sport / Formula 1 / Monza"
+    },
     {
       "title": "Papa Leone XIV: «Sull’Ucraina spazio al dialogo e alla diplomazia»",
       "excerpt": "Dopo l’Angelus del 6 settembre, il Pontefice condanna i recenti attacchi contro città e infrastrutture civili e auspica che i nuovi tentativi negoziali producano risultati concreti.",
@@ -668,15 +692,15 @@
       "section": "Mondo / Africa"
     },
     {
-      "title": "Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
-      "excerpt": "La legge statunitense COPPA regola la raccolta dei dati personali dei bambini sotto i 13 anni. Ecco come funziona il consenso dei genitori, quali obblighi hanno le piattaforme e perché le verifiche dell’età sono diventate centrali.",
-      "url": "/notizie/come-funziona-coppa-privacy-minori-online.html",
-      "section": "Tecnologia / Privacy"
-    },
-    {
       "title": "TikTok e ByteDance, accordo da 400 milioni di dollari negli USA sulla privacy dei minori",
       "excerpt": "TikTok, ByteDance e società collegate hanno raggiunto con il Dipartimento di Giustizia USA un accordo da 400 milioni di dollari per chiudere il contenzioso sulle presunte violazioni della privacy dei bambini. Il DOJ precisa che le accuse sono state risolte senza una determinazione di responsabilità.",
       "url": "/notizie/tiktok-bytedance-400-milioni-privacy-minori-usa-22-agosto-2026.html",
+      "section": "Tecnologia / Privacy"
+    },
+    {
+      "title": "Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
+      "excerpt": "La legge statunitense COPPA regola la raccolta dei dati personali dei bambini sotto i 13 anni. Ecco come funziona il consenso dei genitori, quali obblighi hanno le piattaforme e perché le verifiche dell’età sono diventate centrali.",
+      "url": "/notizie/come-funziona-coppa-privacy-minori-online.html",
       "section": "Tecnologia / Privacy"
     },
     {
@@ -854,15 +878,15 @@
       "section": "Italia / Cultura / Patrimonio"
     },
     {
-      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
-      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
-      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
-      "section": "Mondo / Ambiente / Incendi"
-    },
-    {
       "title": "Perché gli incendi nelle torbiere sono così difficili da spegnere e possono ripartire?",
       "excerpt": "La torba può bruciare lentamente sotto terra, sfuggire ai controlli e riaccendere le fiamme in superficie. Ecco che cosa accade e come si interviene.",
       "url": "/notizie/perche-incendi-torbiere-difficili-spegnere.html",
+      "section": "Mondo / Ambiente / Incendi"
+    },
+    {
+      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
+      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
+      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
       "section": "Mondo / Ambiente / Incendi"
     },
     {
@@ -950,16 +974,16 @@
       "section": "Mondo / Stati Uniti"
     },
     {
-      "title": "Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
-      "excerpt": "A Roma è iniziato un nuovo round di colloqui tra Israele e Libano facilitato dagli Stati Uniti. Sul tavolo sicurezza, ritiro e autorità nel Sud del Libano.",
-      "url": "/notizie/israele-libano-negoziati-roma-mediazione-usa.html",
-      "section": "Roma / Diplomazia"
-    },
-    {
       "title": "Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
       "excerpt": "A Gaza City si è tenuto il funerale collettivo di 112 persone i cui corpi sono stati recuperati dalle macerie di un attacco israeliano del novembre 2023.",
       "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
       "section": "Gaza / Cronaca"
+    },
+    {
+      "title": "Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
+      "excerpt": "A Roma è iniziato un nuovo round di colloqui tra Israele e Libano facilitato dagli Stati Uniti. Sul tavolo sicurezza, ritiro e autorità nel Sud del Libano.",
+      "url": "/notizie/israele-libano-negoziati-roma-mediazione-usa.html",
+      "section": "Roma / Diplomazia"
     },
     {
       "title": "Risoluzione ONU 1701: che cosa prevede per Libano e Israele",
