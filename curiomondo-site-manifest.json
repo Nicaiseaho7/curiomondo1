@@ -1,12 +1,12 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "site": {
     "name": "CurioMondo",
     "base_url": "https://curiomondo.it/",
-    "deployment": "Netlify manual static drop deployment — prebuilt output, no build configuration file",
-    "current_protocol_version": "1.8",
+    "deployment": "GitHub main branch connected to Netlify automatic deployment",
+    "current_protocol_version": "2.0",
     "protocol_introduced_in_site_version": 139,
-    "protocol_date": "2026-08-30",
+    "protocol_date": "2026-09-06",
     "current_site_version": 288,
     "site_version": 288
   },
@@ -22,127 +22,22 @@
     "last_question_date": "2026-09-06",
     "question_archive_path": "/domanda-del-giorno/",
     "question_library_root": "/biblioteca/vita-relazioni/",
-    "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE",
-    "library_contract_v175": {
-      "question_answer_characters": {
-        "min": 1000,
-        "max": 3000
-      },
-      "ebook_characters": {
-        "min": 15000,
-        "max": 30000
-      },
-      "daily_guides": 2,
-      "guide_characters": {
-        "min": 3000,
-        "max": 15000
-      },
-      "library_theme": "premium_white_blue",
-      "page_turn": "disabled_accessible_buttons_only"
-    },
-    "last_question_slug": "chi-siamo-nei-cinque-minuti-prima-di-addormentarci-quando-cadono-le-maschere-utili"
-  },
-  "daily_question": {
-    "required": true,
-    "frequency": "daily",
-    "homepage_read_time_minutes": {
-      "min": 1,
-      "max": 3
-    },
-    "library_ebook_characters": {
-      "min": 15000,
-      "max": 30000
-    },
-    "topics": "unrestricted_useful_human_or_practical_topics",
-    "must_be": [
-      "deep",
-      "original",
-      "useful",
-      "non_trivial",
-      "well_explained"
-    ],
-    "must_create_library_entry": true,
-    "may_create_new_library_categories": true,
-    "must_archive": true,
-    "homepage_mode": "mystery_card_only",
-    "homepage_preview_lines_max": 3,
-    "homepage_must_not_contain_full_answer": true,
-    "dedicated_answer_page_required": true,
-    "dedicated_answer_read_time_minutes": {
-      "min": 3,
-      "max": 5
-    },
-    "dedicated_answer_max_intermediate_subheadings": 0,
-    "dedicated_answer_style": "fluid_continuous_reading_no_subheadings",
-    "homepage_preview_must_equal_answer_opening": false,
-    "avoid_large_vertical_gaps": true,
-    "homepage_show_question": false,
-    "homepage_show_answer_preview": false,
-    "homepage_show_topic_hint": false,
-    "homepage_show_only": [
-      "label",
-      "current_date",
-      "neutral_cta_optional"
-    ],
-    "homepage_entire_card_clickable": true,
-    "reveal_question_only_on_dedicated_page": true,
-    "dedicated_page_visual_identity": "premium_distinct_from_news_articles",
-    "dedicated_answer_typography": "premium_editorial_magazine",
-    "dedicated_answer_paragraphs_required": true,
-    "dedicated_answer_key_passage_treatment": "editorial_pull_quote_without_changing_copy",
-    "dedicated_answer_mobile_reading_rhythm_required": true,
-    "dedicated_page_palette": [
-      "blue",
-      "white"
-    ],
-    "dedicated_page_use_bespoke_hero": true,
-    "dedicated_page_heavy_visual_assets": false,
-    "dedicated_page_design_must_preserve_performance": true,
-    "dedicated_answer_language": [
-      "simple",
-      "clear",
-      "deep_but_easy_to_understand",
-      "pleasant_to_read",
-      "no_broken_sentences",
-      "no_unnecessary_jargon"
-    ],
-    "dedicated_page_forbidden_phrases": [
-      "Una domanda. Nessuna risposta automatica."
-    ],
-    "dedicated_page_approved_eyebrow": "Uno spazio per fermarsi e pensare.",
-    "homepage_card_dom_contract": {
-      "wrapper_class": "cm-qday",
-      "link_class": "cm-qday-link",
-      "card_class": "cm-qday-card",
-      "label_class": "cm-qday-k",
-      "hint_class": "cm-qday-hint",
-      "preserve_existing_premium_design": true,
-      "only_date_link_and_text_may_change": true
-    },
-    "answer_characters": {
-      "min": 1000,
-      "max": 3000
-    }
+    "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE"
   },
   "homepage": {
+    "hero_section_label": "Ultima ora",
+    "hero_selection_mode": "editorial_importance_among_recent_eligible_articles",
     "featured_section_label": "Ultime notizie",
     "featured_exact_count": 5,
-    "hero_section_label": "Ultima ora",
     "live_exact_count": 10,
     "live_order": "newest_first",
     "chronological_continuity": {
-      "rule": "featured + auto-rail (Ultime notizie) + #cards (Tutte le notizie) devono formare un'unica sequenza continua, senza salti, ordinata per data di pubblicazione decrescente su tutti gli articoli idonei (non noindex, con immagine editoriale). Una notizia che esce da Ultime notizie per mancanza di spazio deve ricomparire come prima card in Tutte le notizie.",
-      "ticker_exempt": "il ticker LIVE (.ticker-track) è una fascia indipendente: la presenza di una notizia nel ticker non la esclude da Ultime notizie o Tutte le notizie",
-      "enforced_by": "tools/predeploy.py (confronto automatico tra la sequenza reale della homepage e l'ordine cronologico ricavato da datePublished di ogni articolo)"
-    },
-    "image_cards": {
-      "size_style": "small_compact",
-      "text_overlay": false
-    },
-    "daily_question_must_not_dominate_viewport": true,
-    "daily_question_button_high_contrast": true,
-    "category_pill_rows_visible": false,
-    "categories_available_via_hamburger_only": true
+      "rule": "auto-rail (Ultime notizie) + #cards (Tutte le notizie) formano una sequenza continua, senza salti, ordinata per datePublished decrescente tra gli articoli idonei escluso quello eventualmente occupato dalla card featured/Ultima ora",
+      "featured_exempt_from_strict_chronology": true,
+      "featured_must_not_hide_article_from_other_required_surfaces": true,
+      "ticker_exempt": true,
+      "enforced_by": "tools/predeploy.py"
+    }
   },
   "news": {
     "deduplicate": true,
@@ -154,8 +49,8 @@
       "seo_metadata",
       "canonical",
       "NewsArticle_JSON_LD",
-      "homepage_update",
-      "category_update",
+      "editorial_image",
+      "homepage_or_editorial_listing_update",
       "archive_update",
       "search_update",
       "internal_links",
@@ -163,163 +58,47 @@
       "sitemap_xml",
       "news_sitemap_xml_if_eligible"
     ],
+    "publication_complete_only_when_all_required_outputs_exist": true,
     "article_body_characters": {
       "mandatory_min": 3000,
       "mandatory_max": 7000,
       "count_scope": "visible_text_inside_.art-body_only",
-      "effective_from_site_version": 264,
-      "effective_from": "2026-09-03T00:00:00+02:00",
       "exceptions_allowed": false,
       "if_insufficient_verified_information": "do_not_publish_standalone_article",
       "if_over_max": "rewrite_and_remove_secondary_or_redundant_material",
       "padding_for_length_forbidden": true,
       "semantic_repetition_forbidden": true,
       "each_paragraph_must_add_new_information": true,
-      "closing_recap_that_repeats_body_forbidden": true,
-      "target_reading_minutes": {
-        "min": 2,
-        "max": 4
-      }
+      "closing_recap_that_repeats_body_forbidden": true
     },
     "knowledge_hook_required": true,
-    "knowledge_hook_rule": "Explain at least one useful, non-obvious element inside each story; create or link an evergreen deep-dive when the concept merits durable explanation.",
-    "anti_repetition_required": true,
-    "anti_repetition_rule": "Every fact, number, explanation, cause, consequence and context may appear only once in the article body, including paraphrases. Delete or merge any sentence or paragraph that restates an already expressed idea.",
+    "knowledge_hook_rule": "Explain at least one useful non-obvious element inside each story.",
+    "evergreen_deep_dive_rule": "create_or_link_only_when_the_concept_adds_durable_non_redundant_value; explain_in_body_when_that_is_sufficient",
     "minimum_reliable_sources": 3,
     "sources_preference": "when_possible_at_least_one_primary_or_official_and_one_independent",
+    "source_independence_rule": "three_sources_repeating_the_same_wire_or_origin_do_not_automatically_count_as_three_independent_confirmations",
+    "quote_and_sensitive_claim_source_required": true,
     "no_low_value_rewrites_of_external_sources": true
   },
   "images": {
     "new_editorial_images_must_be_ai_generated": true,
-    "public_figures_allowed_when_editorially_relevant": true,
-    "public_figure_synthetic_likeness_policy": {
-      "allowed": true,
-      "covers_living_and_deceased_public_figures": true,
-      "recognizable_identity_allowed": true,
-      "ultra_realistic_photorealistic_allowed": true,
-      "common_term": "deepfake",
-      "preferred_editorial_term": "synthetic_editorial_likeness",
-      "direct_editorial_relevance_required": true,
-      "policy_mode": "context_sensitive",
-      "ordinary_news": {
-        "contextual_scenes_allowed": true,
-        "relevant_locations_allowed": true,
-        "relevant_people_objects_vehicles_and_clothing_allowed": true,
-        "relevant_logos_allowed": true,
-        "fabricated_specific_events_as_evidence_forbidden": true
-      },
-      "sensitive_news": {
-        "neutral_isolated_portrait_required": true,
-        "triggers": [
-          "incident",
-          "death_or_obituary",
-          "illness_diagnosis_or_hospitalization",
-          "violence_war_or_disaster",
-          "arrest_or_serious_allegation",
-          "grief_suffering_or_other_painful_context"
-        ],
-        "allowed_framing": [
-          "close_up",
-          "head_and_shoulders",
-          "waist_up"
-        ],
-        "depiction_of_trauma_injury_treatment_or_grief_forbidden": true
-      },
-      "must_never_be_presented_as_documentary_evidence": true,
-      "verified_context_only": true,
-      "fabricated_actions_events_quotes_locations_medical_conditions_or_endorsements_forbidden": true,
-      "sexual_humiliating_defamatory_fraudulent_or_voter_deceptive_content_forbidden": true,
-      "voice_cloning_and_fabricated_audio_video_statements_forbidden": true,
-      "html_figure_attributes_required": {
-        "data-ai-generated": "true",
-        "data-synthetic-likeness": "public-figure",
-        "data-sensitive-context": "true|false",
-        "data-portrait-format": "neutral-isolated_when_sensitive"
-      },
-      "visible_disclosure_exact": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "canonical_policy_file": "AI-EDITORIAL-IMAGE-PROTOCOL.md",
-      "generator_contract_file": "automation/prompts/image-generation-contract.txt",
-      "tool_platform_and_applicable_law_restrictions_must_be_respected": true
-    },
+    "new_image_required_for_each_new_article_or_substantive_update": true,
+    "generation_blocking": true,
+    "article_complete_only_after_image_generated_registered_and_attached": true,
+    "hero_og_newsarticle_must_match": true,
     "must_disclose_ai_generation": true,
-    "article_or_card_text_overlay": false,
-    "quality": [
-      "ultra_realistic_photorealistic_editorial",
-      "high_resolution",
-      "cinematic_but_credible",
-      "sharp_subject",
-      "high_micro_detail",
-      "natural_textures",
-      "credible_lighting",
-      "strong_news_composition",
-      "distinctive_non_generic_concept"
-    ],
-    "reject_if": [
-      "blurred",
-      "soft",
-      "muddy",
-      "plastic_looking",
-      "compression_degraded",
-      "obvious_artifacts",
-      "generic",
-      "low_impact",
-      "visually_banal",
-      "anatomically_implausible",
-      "incoherent_background"
-    ],
-    "retry_on_failure": true,
-    "must_not_be": [
-      "generic_stock_like",
-      "banal_or_flat",
-      "website_mockup",
-      "ui_screenshot",
-      "collage",
-      "text_overlay_unless_explicitly_requested",
-      "decorative_without_editorial_relevance"
-    ],
-    "retry_until_premium_quality_within_execution_limits": true,
+    "canonical_policy_file": "AI-EDITORIAL-IMAGE-PROTOCOL.md",
+    "generator_contract_file": "automation/prompts/image-generation-contract.txt",
     "mobile_and_hero_crop_check_required": true,
-    "editorial_goal": "no_image_should_feel_banal_every_visual_must_strengthen_curiomondo_premium_identity"
+    "retry_on_failure": true
   },
   "deep_dives": {
     "separate_from_news_article": true,
     "create_when_useful": true,
     "must_add_new_value": true,
+    "forced_creation_for_simple_terms_forbidden": true,
+    "link_existing_equivalent_instead_of_duplicate": true,
     "internal_linking_required": true
-  },
-  "library": {
-    "root": "/biblioteca/",
-    "dynamic_categories_allowed": true,
-    "daily_question_ebook_chars": {
-      "min": 15000,
-      "max": 30000
-    },
-    "daily_question_ebook_reader": {
-      "mode": "paginated_book",
-      "default_total_pages": 12,
-      "allowed_total_pages": {
-        "min": 8,
-        "max": 14
-      },
-      "cover_required": true,
-      "max_h2_total": 7,
-      "max_visible_subheadings_per_page": 1,
-      "previous_next_controls_required": true,
-      "page_counter_required": true,
-      "keyboard_navigation_required": false,
-      "touch_swipe_required": false,
-      "page_turn_animation_forbidden": true,
-      "shared_css": "/assets/css/biblioteca-book-reader-v1.css",
-      "shared_js": "/assets/js/biblioteca-book-reader-v1.js"
-    },
-    "avoid_empty_placeholder_pages_when_content_exists": true,
-    "daily_guides": 2,
-    "guide_characters": {
-      "min": 3000,
-      "max": 15000
-    },
-    "visual_theme": "premium_white_blue",
-    "allow_new_categories_when_useful": true
   },
   "seo": {
     "sitemap": "/sitemap.xml",
@@ -335,119 +114,23 @@
     "priority": "mobile",
     "quality_must_not_be_sacrificed_for_image_optimization": true
   },
-  "versioning": {
-    "one_version_per_cycle": true,
-    "increment_only_after_zip_created_and_verified": true,
-    "zip_integrity_check_required": true,
-    "physical_new_file_presence_check_required": true,
-    "filename_pattern": "curiomondo-vNNN-GG-mese-AAAA.zip"
-  },
   "predeploy": {
     "required": true,
+    "must_exit_zero": true,
+    "publication_blocked_on_error": true
+  },
+  "post_deploy": {
+    "required": true,
     "checks": [
-      "zip_crc",
-      "new_html_exists",
-      "new_images_exist",
-      "homepage_featured_exact_5",
-      "live_exact_10",
-      "daily_question_current_date",
-      "seo",
-      "feed",
-      "sitemaps",
-      "internal_links",
-      "performance_regression"
-    ]
-  },
-  "deep_dives_homepage": {
-    "label": "Approfondimenti collegati",
-    "exact_count": 3,
-    "order": "newest_first",
-    "on_new_item": "prepend_new_and_remove_fourth_from_home_block",
-    "older_items_remain_in_archive": true
-  },
-  "automation": {
-    "introduced_in_version": 166,
-    "safe_mode": true,
-    "live": {
-      "enabled": false,
-      "interval_minutes": 10,
-      "backend": "Static homepage ticker",
-      "full_deploy_per_refresh": false,
-      "homepage_poll_seconds": 0,
-      "unlinked_items_not_clickable": true
-    },
-    "articles": {
-      "scheduled": true,
-      "interval_hours": 3,
-      "single_deploy_per_cycle": true,
-      "multiple_articles_per_cycle": true,
-      "fail_closed": true,
-      "auto_publish_active": true,
-      "pipeline": "claude_code_remote_routine",
-      "cycle_instructions": "automation/prompts/three-hourly-cycle-instructions.md",
-      "image_generation_workflow": ".github/workflows/genera-immagine-editoriale.yml"
-    },
-    "library": {
-      "scheduled": true,
-      "daily": true,
-      "target_guides": 2,
-      "quality_over_quantity": true,
-      "auto_publish_active": false
-    },
-    "excluded": [
-      "social_autopost",
-      "youtube_autopost",
-      "newsletter_autosend"
-    ]
-  },
-  "editorial_explainers": {
-    "required_when_concept_needs_context": true,
-    "must_answer": [
-      "che cos’è",
-      "come funziona",
-      "perché esiste o viene usato",
-      "perché conta nella notizia"
+      "article_http_200",
+      "hero_image_http_200",
+      "canonical_matches_public_url",
+      "expected_editorial_listing_contains_article",
+      "archive_contains_article",
+      "feed_contains_article_if_eligible",
+      "sitemap_contains_article",
+      "news_sitemap_contains_article_if_eligible"
     ],
-    "bidirectional_links_required": true,
-    "homepage_latest_count": 3,
-    "deduplicate_existing_guides": true
-  },
-  "site_version": 288,
-  "monetization": {
-    "provider": "Google AdSense",
-    "publisher_id": "pub-8050187517048759",
-    "ads_txt_required_at_root": true,
-    "ads_txt_record": "google.com, pub-8050187517048759, DIRECT, f08c47fec0942fa0",
-    "predeploy_must_fail_if_missing_or_mismatched": true,
-    "ads_forbidden_on_low_value_or_service_pages": true,
-    "ads_forbidden_on_noindex_pages": true
-  },
-  "editorial_quality_adsense_protocol": {
-    "canonical_policy_file": "PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md",
-    "version": "2.0",
-    "effective_from": "2026-09-05",
-    "status": "mandatory_fail_closed",
-    "prevails_over_speed_or_quantity_instructions": true,
-    "pre_publish_check": "Un lettore arrivato direttamente su CurioMondo, senza passare da Google, considererebbe questa pagina completa, affidabile e utile?",
-    "no_publish_if_insufficient_verified_information": true
-  },
-  "permanent_rules": {
-    "library_palette": "premium white + CurioMondo blue; green only functional, never dominant",
-    "editorial_images": "Every new article or update MUST use a completely new hero visual; no reuse, crop, resize, filter, rename, or derivation of previously published assets. Public figures may appear in relevant locations and settings, including relevant logos, for ordinary news; sensitive or painful contexts require a neutral isolated portrait.",
-    "article_audio": "Prefer premium pre-generated neural audio when available; otherwise choose the best Italian premium/enhanced deep voice exposed by the device, with natural sentence chunking, rate 0.92 and pitch 0.78.",
-    "evergreen_and_plain_language": "Every article must include a useful evergreen knowledge hook when applicable. Explain technical, uncommon or difficult words naturally at first occurrence, in pleasant accessible Italian, without glossary-like interruptions or repetition."
-  },
-  "version": "v288",
-  "release_version": "v288",
-  "last_release_date": "2026-09-06",
-  "last_release": {
-    "version": 288,
-    "date": "2026-09-06",
-    "type": "content-update",
-    "change": "Nuovo articolo sull’eruzione dell’Anak Krakatau e la sospensione di otto aeroporti, con immagine IA originale e approfondimento evergreen sulla cenere vulcanica e la sicurezza aerea",
-    "article_body_policy": "3000-7000"
-  },
-  "release_notes": {
-    "v208": "Correzioni mobile: deduplica per URL, immagine UEFA/Infantino, bootstrap critico, AVIF LCP, aria/inert per navigazione agentica."
+    "commit_success_is_not_equal_to_verified_publication": true
   }
 }
