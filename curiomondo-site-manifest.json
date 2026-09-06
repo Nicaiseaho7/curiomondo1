@@ -7,8 +7,8 @@
     "current_protocol_version": "2.1",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-06",
-    "current_site_version": 292,
-    "site_version": 292
+    "current_site_version": 293,
+    "site_version": 293
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -104,7 +104,10 @@
     "canonical_policy_file": "AI-EDITORIAL-IMAGE-PROTOCOL.md",
     "generator_contract_file": "automation/prompts/image-generation-contract.txt",
     "mobile_and_hero_crop_check_required": true,
-    "retry_on_failure": true
+    "retry_on_failure": true,
+    "real_public_figures_allowed": true,
+    "real_brands_logos_and_places_allowed_when_editorially_relevant": true,
+    "no_false_sponsorship_or_documentary_claim": true
   },
   "deep_dives": {
     "separate_from_news_article": true,
