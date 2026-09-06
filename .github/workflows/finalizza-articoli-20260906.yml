@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'tools/finalize_articles_20260906.py'
+      - 'automation/state/finalize-20260906-trigger.txt'
   workflow_dispatch:
 
 permissions:
@@ -25,6 +26,18 @@ jobs:
 
       - name: Installa dipendenze
         run: pip install lxml
+
+      - name: Normalizza ordinamento date legacy
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('tools/finalize_articles_20260906.py')
+          s=p.read_text(encoding='utf-8')
+          s=s.replace('infos.sort(key=lambda x: x["_dt"], reverse=True)', 'infos.sort(key=lambda x: x["dateISO"], reverse=True)')
+          s=s.replace('latest = infos[0]["_dt"]', 'latest_date = infos[0]["dateISO"][:10]')
+          s=s.replace('if (latest - info["_dt"]).total_seconds() > 48*3600: continue', 'if info["dateISO"][:10] < "2026-09-04": continue')
+          p.write_text(s,encoding='utf-8')
+          PY
 
       - name: Collega immagini e aggiorna superfici editoriali
         run: python3 tools/finalize_articles_20260906.py
