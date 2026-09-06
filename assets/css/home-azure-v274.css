@@ -117,3 +117,8 @@
   .ticker-news{color:#fff!important}
   .cm-qday-k{color:#0f5dc2!important}
 }
+
+/* Correzione contrasto v281: l'intestazione ricca della home restava chiara
+   in modalità scura perché due regole successive (.header{background:...})
+   di pari specificità sovrascrivevano quella basata su var(--cm-paper). */
+html.cm-dark .header{background:var(--cm-paper)!important;border-bottom-color:var(--cm-border)!important;box-shadow:0 6px 24px rgba(0,0,0,.28)!important}

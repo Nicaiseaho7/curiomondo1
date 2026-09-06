@@ -31,6 +31,11 @@ html{background:var(--cb-bg)}body{background:radial-gradient(900px 520px at 0 -8
 .cb-grid>.cb-card h2,.cb-grid>.cb-subcard h2{color:#0a2a50!important;text-shadow:none!important}.cb-grid>.cb-card p,.cb-grid>.cb-subcard p{color:#61728a!important;text-shadow:none!important}.cb-grid>.cb-card b,.cb-grid>.cb-subcard b,.cb-grid>.cb-card .cb-number{color:#1769e0!important;text-shadow:none!important}
 html.cm-dark{--cb-bg:#06162d;--cb-ink:#f0f6ff;--cb-muted:#aec2dd;--cb-card:rgba(9,34,68,.95);--cb-line:rgba(132,190,255,.17)}html.cm-dark body{background:radial-gradient(820px 480px at 0 -5%,rgba(49,129,236,.20),transparent 58%),linear-gradient(180deg,#051329,#081e3d 58%,#06162d)}html.cm-dark .cb-header{background:rgba(5,19,41,.88)}html.cm-dark .cb-card,html.cm-dark .cb-subcard,html.cm-dark .cb-manual-card{background:linear-gradient(145deg,#0a274e,#071c39)}
 html.cm-dark .cb-grid>.cb-card,html.cm-dark .cb-grid>.cb-subcard{background-image:linear-gradient(145deg,#0a274e,#071c39)!important;background-color:#0a274e!important}html.cm-dark .cb-grid>.cb-card h2,html.cm-dark .cb-grid>.cb-subcard h2{color:#f0f6ff!important}html.cm-dark .cb-grid>.cb-card p,html.cm-dark .cb-grid>.cb-subcard p{color:#aec2dd!important}
+/* Correzione contrasto v281: --cm-premium-navy non aveva una variante scura,
+   rendendo illeggibili i titoli h1 di cb-hero/cb-page-head/cb-reader-main;
+   .cb-stat restava con sfondo bianco fisso mentre il testo diventava chiaro. */
+html.cm-dark{--cm-premium-navy:#f0f6ff;--cm-premium-ink:#edf6ff;--cm-premium-muted:#aec2dd}
+html.cm-dark .cb-stat{background:rgba(9,34,68,.95)!important}
 
 /* Sistema editoriale premium condiviso — v192 */
 :root{--cm-premium-blue:#1769df;--cm-premium-navy:#071f3b;--cm-premium-ink:#102d49;--cm-premium-muted:#58718a;--cm-premium-line:rgba(23,105,223,.14);--cm-premium-paper:#fff;--cm-premium-shadow:0 28px 82px rgba(12,62,119,.12)}
