@@ -84,7 +84,7 @@
   const normalize = (value) => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('it');
   async function getSearchEntries() {
     if (searchEntries) return searchEntries;
-    const response = await fetch('/assets/data/search-index-v210.json?v=284', { credentials: 'same-origin' });
+    const response = await fetch('/assets/data/search-index-v210.json?v=285', { credentials: 'same-origin' });
     if (!response.ok) throw new Error('Indice non disponibile');
     const payload = await response.json();
     searchEntries = Array.isArray(payload.items) ? payload.items : [];
@@ -154,7 +154,7 @@
   let feedCursor = Number($('#cards')?.dataset.initialCount || 0);
   async function getFeed() {
     if (feedItems) return feedItems;
-    const response = await fetch('/assets/data/home-feed-v210.json?v=284', { credentials: 'same-origin' });
+    const response = await fetch('/assets/data/home-feed-v210.json?v=285', { credentials: 'same-origin' });
     if (!response.ok) throw new Error('Feed non disponibile');
     const payload = await response.json();
     const promotedNewsPaths = new Set(
