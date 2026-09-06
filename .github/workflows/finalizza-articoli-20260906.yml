@@ -1,0 +1,45 @@
+name: Finalizza sei articoli 6 settembre 2026
+
+on:
+  push:
+    paths:
+      - 'tools/finalize_articles_20260906.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  finalizza:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scarica repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Imposta Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installa dipendenze
+        run: pip install lxml
+
+      - name: Collega immagini e aggiorna superfici editoriali
+        run: python3 tools/finalize_articles_20260906.py
+
+      - name: Controllo predeploy
+        run: python3 tools/predeploy.py
+
+      - name: Pubblica modifiche
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica da pubblicare"
+            exit 0
+          fi
+          git commit -m "v284: completa i sei articoli con immagini, homepage, feed e sitemap"
+          git push
