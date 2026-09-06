@@ -5,6 +5,7 @@ on:
     paths:
       - 'automation/state/optimize-home-css-trigger.txt'
       - 'tools/optimize_home_css.py'
+      - '.github/workflows/ottimizza-home-css.yml'
   workflow_dispatch:
 
 permissions:
@@ -23,6 +24,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Installa dipendenze predeploy
+        run: pip install lxml
 
       - name: Genera bundle CSS homepage
         run: python3 tools/optimize_home_css.py
