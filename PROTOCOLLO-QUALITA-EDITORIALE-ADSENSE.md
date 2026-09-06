@@ -1,7 +1,7 @@
 # Protocollo permanente qualità editoriale e idoneità Google AdSense
 
-Versione protocollo: 2.0
-Data: 5 settembre 2026
+Versione protocollo: 2.1
+Data: 6 settembre 2026
 Stato: obbligatorio, fail-closed, prevalente su qualunque istruzione che privilegi quantità o velocità.
 
 ## Obiettivo e limite di garanzia
@@ -10,7 +10,7 @@ CurioMondo deve pubblicare contenuti originali, affidabili e realmente utili all
 
 ## Divieto assoluto di contenuti di bassa qualità
 
-È vietato pubblicare articoli che siano soltanto riscritture, riassunti, traduzioni o aggregazioni di fonti esterne. Citare fonti affidabili è obbligatorio, ma non costituisce da solo valore editoriale. Ogni pagina deve offrire un contributo originale CurioMondo: selezione ragionata dei fatti, contesto, spiegazione delle conseguenze, distinzione tra fatti e dichiarazioni, chiarimento dei termini difficili e almeno una conoscenza utile che resti valida oltre l'evento del giorno.
+È vietato pubblicare articoli che siano soltanto riscritture, riassunti, traduzioni o aggregazioni di fonti esterne. Citare fonti affidabili è obbligatorio, ma non costituisce da solo valore editoriale. Ogni pagina deve offrire un contributo originale CurioMondo: selezione ragionata dei fatti, contesto, spiegazione delle conseguenze, distinzione tra fatti e dichiarazioni e almeno una conoscenza utile che resti valida oltre l'evento del giorno.
 
 Se non esistono informazioni verificate sufficienti per produrre un articolo completo, originale e non ripetitivo, l'articolo non deve essere pubblicato. Nessuna scadenza, ciclo automatico, tendenza, obiettivo di traffico o quota numerica può superare questo divieto.
 
@@ -23,7 +23,7 @@ Un articolo può essere pubblicato soltanto se supera tutti i controlli seguenti
 3. Titolo, apertura, struttura, spiegazioni e conclusioni sono originali e non imitano la formulazione delle fonti.
 4. Ogni paragrafo aggiunge un fatto, un contesto, una conseguenza o una spiegazione nuova.
 5. È presente un gancio di conoscenza verificato e utile, non un semplice riquadro decorativo.
-6. Termini tecnici o poco comuni sono spiegati con linguaggio naturale alla prima comparsa.
+6. Il testo usa un italiano chiaro e naturale, senza spiegazioni automatiche o sistematiche di termini tecnici, sigle o parole poco comuni; una precisazione breve è ammessa soltanto quando ometterla comprometterebbe comprensione, accuratezza o sicurezza.
 7. Quando il tema lo consente, viene creato o collegato un approfondimento evergreen autonomo, indicizzabile e non duplicato.
 8. Sono visibili autore, collegamento al metodo editoriale, data di pubblicazione e data di modifica reale.
 9. Sono presenti tre collegamenti interni pertinenti e non autoreferenziali.
@@ -47,17 +47,17 @@ Gli annunci non devono superare o oscurare il contenuto, spingerlo fuori dallo s
 
 Le pagine `noindex` non devono contenere codice pubblicitario. Le pagine storiche che non superano gli standard correnti devono essere revisionate oppure mantenute senza indicizzazione e senza pubblicità.
 
-## Protocollo approfondimenti evergreen e parole difficili
+## Protocollo approfondimenti evergreen e chiarezza
 
 Ogni nuovo articolo CurioMondo deve essere comprensibile anche a un lettore che non conosce già l'argomento.
 
-1. Quando la notizia contiene termini tecnici, economici, scientifici, giuridici, politici, sportivi o poco comuni, il loro significato deve essere spiegato con parole semplici alla prima comparsa.
+1. Ogni nuovo articolo deve preferire parole comuni e frasi naturali. È vietato inserire spiegazioni automatiche o sistematiche di termini tecnici, sigle e parole non comuni.
 2. Quando utile, l'articolo deve includere un approfondimento evergreen che spieghi un meccanismo, un contesto o una domanda destinati a rimanere validi anche dopo la fine della notizia.
 3. L'approfondimento deve aggiungere conoscenza reale. Non deve ripetere la notizia, riassumere quanto già scritto o essere utilizzato per aumentare artificialmente la lunghezza dell'articolo.
 4. Se esiste già una guida evergreen pertinente nella Biblioteca o nella sezione Approfondimenti, deve essere inserito un collegamento interno. Le relative card non devono comparire nella home page e devono restare accessibili dal menu a tre righe o dai collegamenti interni degli articoli.
-5. Le spiegazioni devono essere brevi, corrette e naturali, senza interrompere il ritmo della lettura. Possono essere inserite nel testo oppure in un riquadro editoriale leggero come `Da sapere`, `In parole semplici` o `Per capire`.
-6. Non devono essere creati approfondimenti forzati quando non aggiungono valore. In questi casi è sufficiente spiegare chiaramente le eventuali parole difficili.
-7. Prima della pubblicazione deve essere verificato che non vi siano termini importanti lasciati senza spiegazione, che ogni paragrafo aggiunga informazioni nuove, che l'approfondimento sia basato su fonti affidabili e che non contenga tecnicismi inutili o testo di riempimento.
+5. Una precisazione breve è ammessa soltanto se indispensabile per capire correttamente un fatto, evitare un equivoco rilevante o seguire un'indicazione di sicurezza. Niente effetto glossario, parentesi continue o definizioni forzate.
+6. Non devono essere creati approfondimenti forzati quando non aggiungono valore. L'evergreen deve offrire informazioni durevoli, operative e non ripetitive.
+7. Prima della pubblicazione deve essere verificato che il testo sia chiaro senza sovraspiegazioni, che ogni paragrafo aggiunga informazioni nuove, che l'approfondimento sia basato su fonti affidabili e che non contenga tecnicismi inutili o testo di riempimento.
 
 Questa regola è obbligatoria per tutti gli articoli futuri e deve essere applicata durante scrittura, revisione e controllo pre-pubblicazione.
 

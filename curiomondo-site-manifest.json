@@ -4,11 +4,11 @@
     "name": "CurioMondo",
     "base_url": "https://curiomondo.it/",
     "deployment": "GitHub main branch connected to Netlify automatic deployment",
-    "current_protocol_version": "2.0",
+    "current_protocol_version": "2.1",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-06",
-    "current_site_version": 290,
-    "site_version": 290
+    "current_site_version": 292,
+    "site_version": 292
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -72,13 +72,15 @@
       "closing_recap_that_repeats_body_forbidden": true
     },
     "knowledge_hook_required": true,
-    "knowledge_hook_rule": "Explain at least one useful non-obvious element inside each story.",
+    "knowledge_hook_rule": "Add at least one useful non-obvious context element; this does not require defining difficult words.",
     "evergreen_deep_dive_rule": "create_or_link_only_when_the_concept_adds_durable_non_redundant_value; explain_in_body_when_that_is_sufficient",
     "minimum_reliable_sources": 3,
     "sources_preference": "when_possible_at_least_one_primary_or_official_and_one_independent",
     "source_independence_rule": "three_sources_repeating_the_same_wire_or_origin_do_not_automatically_count_as_three_independent_confirmations",
     "quote_and_sensitive_claim_source_required": true,
-    "no_low_value_rewrites_of_external_sources": true
+    "no_low_value_rewrites_of_external_sources": true,
+    "automatic_difficult_word_explanations": false,
+    "terminology_rule": "use_clear_natural_italian; clarify_only_when_omission_would_impair_understanding_accuracy_or_safety; no_glossary_effect"
   },
   "images": {
     "new_editorial_images_must_be_ai_generated": true,

@@ -19,7 +19,7 @@ OBBLIGHI ASSOLUTI
 - NewsArticle JSON-LD, SEO, canonical, fonti, archivi, ricerca, feed, sitemap e News Sitemap obbligatori.
 - Ultime notizie in homepage: esattamente 5. Ultima ora solo se realmente giustificata. LIVE: 10.
 - Approfondimenti separati dagli articoli; in homepage mostrarne gli ultimi 3.
-- Ogni articolo deve contenere almeno un “gancio di conoscenza”: spiegare in modo semplice un elemento poco noto ma utile presente nella notizia (istituzione, organismo, termine, procedura, tecnologia, ruolo, regola o contesto). Chiarire, quando pertinente, che cos’è, cosa fa, cosa non fa, chi lo controlla e perché conta. Vietato usarlo come riempitivo. Se il tema merita valore evergreen, creare o collegare una guida autonoma.
+- Ogni articolo deve contenere almeno un “gancio di conoscenza”: aggiungere un elemento di contesto poco noto ma utile presente nella notizia, senza trasformarlo in una definizione obbligatoria. Può chiarire un meccanismo, una procedura, un'istituzione o una conseguenza quando serve davvero. Vietato usarlo come riempitivo. Se il tema merita valore evergreen, creare o collegare una guida autonoma.
 - Se un gate fallisce: NON PUBBLICARE.
 
 - AUDIT GLOBALE HERO OBBLIGATORIO: confrontare tutti gli hero degli articoli per percorso, SHA-256 e somiglianza percettiva; crop, resize e ricompressioni dello stesso visual sono duplicati e bloccano la release.
@@ -29,4 +29,4 @@ OBBLIGHI ASSOLUTI
 - **UNA COSA UTILE DA SAPERE:** mantenere nel flusso dell'articolo un box breve, leggibile e realmente utile quando esiste un concetto che merita una spiegazione immediata. Il box non sostituisce l'approfondimento evergreen quando quest'ultimo è giustificato.
 - **INDICIZZAZIONE:** ogni pagina editoriale approvata — notizia, approfondimento, guida, Biblioteca, Domanda del giorno ed eBook — deve essere indicizzabile e avere canonical coerente. Le pagine storiche poste esplicitamente in revisione qualità sono l’unica eccezione: devono usare `noindex,follow`, non mostrare pubblicità e non apparire in sitemap, feed, ricerca interna o aree promozionali fino all’approvazione.
 
-- **EVERGREEN E PAROLE DIFFICILI — REGOLA PERMANENTE DEL PROPRIETARIO:** ogni articolo deve offrire un aggancio evergreen utile e autonomo quando il tema lo consente. Termini tecnici, sigle e parole non comuni devono essere spiegati alla prima occorrenza con linguaggio naturale, piacevole e comprensibile, senza trasformare il testo in un glossario e senza ripetizioni.
+- **EVERGREEN E CHIAREZZA — REGOLA PERMANENTE DEL PROPRIETARIO, aggiornata il 6 settembre 2026:** ogni articolo deve offrire un aggancio evergreen utile e autonomo quando il tema lo consente. È vietato spiegare automaticamente o sistematicamente termini tecnici, sigle e parole non comuni. Scrivere in italiano chiaro e naturale; aggiungere una breve precisazione soltanto quando è indispensabile per comprensione corretta, sicurezza o accuratezza. Nessun effetto glossario.

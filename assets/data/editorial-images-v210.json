@@ -1,7 +1,40 @@
 {
-  "version": 290,
+  "version": 292,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "carabiniere-calitri-aggressione-ex-6-settembre-2026-ai-v292",
+      "article": "/notizie/calitri-avellino-28enne-fermato-aggressione-ex-compagna-6-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "prompt": "Ultra-realistic neutral editorial portrait of an anonymous Italian Carabiniere on an isolated institutional street backdrop; no victim, suspect, weapon, injury, blood, struggle, reenactment, text, logos or documentary claim.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/carabiniere-calitri-aggressione-ex-6-settembre-2026-ai-v292-480.webp",
+          "sha256": "4f835b81914c3ebd192e416ef8310bd969482a1bf325d392013f5dec35a5ed88",
+          "bytes": 11754
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/carabiniere-calitri-aggressione-ex-6-settembre-2026-ai-v292-800.webp",
+          "sha256": "bc905b74ef21672f78e33459146ccdce7bd6b332f6933ea882cb4aa91f7760d4",
+          "bytes": 22550
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/carabiniere-calitri-aggressione-ex-6-settembre-2026-ai-v292-1200.webp",
+          "sha256": "c369eb08bb6b8c735b1c27bdfe1813d7b18d88b888bcb74d92454fc49bd5a881",
+          "bytes": 37642
+        }
+      ],
+      "alt": "Ritratto editoriale neutrale generato con IA di un Carabiniere anonimo davanti a un edificio istituzionale, senza rappresentazione dell’aggressione",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false
+    },
     {
       "key": "opec-plus-quote-ottobre-6-settembre-2026-ai-v290",
       "article": "/notizie/opec-plus-congela-quote-petrolio-ottobre-6-settembre-2026.html",
