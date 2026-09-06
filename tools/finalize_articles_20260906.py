@@ -188,7 +188,7 @@ for p in (ROOT / "notizie").glob("*.html"):
         info = None
     if info:
         infos.append(info)
-infos.sort(key=lambda x: x["_dt"], reverse=True)
+infos.sort(key=lambda x: x["dateISO"], reverse=True)
 by_url = {i["url"]: i for i in infos}
 
 # Feed homepage: preserva i dati esistenti dove utili, ma riallinea ordine e immagini dai file reali.
@@ -314,9 +314,9 @@ ET.indent(rss_tree, space="  "); rss_tree.write(rss_path, encoding="utf-8", xml_
 NEWS_NS = "http://www.google.com/schemas/sitemap-news/0.9"; SM_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 ET.register_namespace("", SM_NS); ET.register_namespace("news", NEWS_NS)
 ns_tree = ET.ElementTree(ET.Element(f"{{{SM_NS}}}urlset")); ns_root = ns_tree.getroot()
-latest = infos[0]["_dt"]
+latest_date = infos[0]["dateISO"][:10]
 for info in infos:
-    if (latest - info["_dt"]).total_seconds() > 48*3600: continue
+    if info["dateISO"][:10] < "2026-09-04": continue
     u = ET.SubElement(ns_root, f"{{{SM_NS}}}url"); ET.SubElement(u, f"{{{SM_NS}}}loc").text = "https://curiomondo.it" + info["url"]
     news = ET.SubElement(u, f"{{{NEWS_NS}}}news"); pub = ET.SubElement(news, f"{{{NEWS_NS}}}publication")
     ET.SubElement(pub, f"{{{NEWS_NS}}}name").text = "CurioMondo"; ET.SubElement(pub, f"{{{NEWS_NS}}}language").text = "it"
