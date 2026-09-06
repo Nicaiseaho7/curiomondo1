@@ -7,8 +7,8 @@
     "current_protocol_version": "1.8",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-08-30",
-    "current_site_version": 287,
-    "site_version": 287
+    "current_site_version": 288,
+    "site_version": 288
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -412,7 +412,7 @@
     "homepage_latest_count": 3,
     "deduplicate_existing_guides": true
   },
-  "site_version": 287,
+  "site_version": 288,
   "monetization": {
     "provider": "Google AdSense",
     "publisher_id": "pub-8050187517048759",
@@ -437,14 +437,14 @@
     "article_audio": "Prefer premium pre-generated neural audio when available; otherwise choose the best Italian premium/enhanced deep voice exposed by the device, with natural sentence chunking, rate 0.92 and pitch 0.78.",
     "evergreen_and_plain_language": "Every article must include a useful evergreen knowledge hook when applicable. Explain technical, uncommon or difficult words naturally at first occurrence, in pleasant accessible Italian, without glossary-like interruptions or repetition."
   },
-  "version": "v287",
-  "release_version": "v287",
+  "version": "v288",
+  "release_version": "v288",
   "last_release_date": "2026-09-06",
   "last_release": {
-    "version": 287,
+    "version": 288,
     "date": "2026-09-06",
     "type": "content-update",
-    "change": "Aggiornamento elezioni Sassonia-Anhalt con affluenza delle 14, nuovo visual IA e approfondimento evergreen su Landtag, coalizioni e Brandmauer",
+    "change": "Nuovo articolo sull’eruzione dell’Anak Krakatau e la sospensione di otto aeroporti, con immagine IA originale e approfondimento evergreen sulla cenere vulcanica e la sicurezza aerea",
     "article_body_policy": "3000-7000"
   },
   "release_notes": {

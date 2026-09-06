@@ -1,7 +1,40 @@
 {
-  "version": 287,
+  "version": 288,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "anak-krakatau-cenere-voli-6-settembre-2026-ai-v288",
+      "article": "/notizie/anak-krakatau-eruzione-cenere-aeroporti-voli-giacarta-6-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "prompt": "Sensitive-context ultra-realistic editorial view of distant Anak Krakatau ash plume and an aircraft diverting at a safe distance; no people, casualties, damage, text, logos or disaster reenactment.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/anak-krakatau-cenere-voli-6-settembre-2026-ai-v288-480.webp",
+          "sha256": "b26b03eaa15c017a25029c3d673d3b97c59d2d74b9e2b8e3be0364da28db8d8b",
+          "bytes": 8454
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/anak-krakatau-cenere-voli-6-settembre-2026-ai-v288-800.webp",
+          "sha256": "9171108e35a2543046cbc630c0a6a56abeac72c188e961029cbfffa2a6eb3d37",
+          "bytes": 19904
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/anak-krakatau-cenere-voli-6-settembre-2026-ai-v288-1200.webp",
+          "sha256": "8b98a1c11dd9f6785ac2d18d76a97ccbe2a5f29f205ec34253b7ca51646dac88",
+          "bytes": 36678
+        }
+      ],
+      "alt": "Scena editoriale generata con IA dell’Anak Krakatau con una colonna di cenere e un aereo lontano che mantiene una rotta sicura, senza rappresentare vittime",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "sassonia-anhalt-elettori-6-settembre-2026-ai-v287",
       "article": "/notizie/sassonia-anhalt-voto-afd-favorita-urne-6-settembre-2026.html",
