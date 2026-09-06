@@ -28,6 +28,8 @@ Non limitarti alla singola modifica richiesta: esegui anche gli obblighi automat
 
 Prima di creare una nuova versione, confronta la data corrente con `daily_state.last_question_date` nel manifest.
 
+La data corrente deve essere calcolata **sempre nel fuso `Europe/Rome`**, compreso il passaggio all’ora legale. Non usare UTC, il fuso del server o una data fissata manualmente. Dopo la mezzanotte italiana la nuova data deve propagarsi automaticamente a homepage, pagina dedicata, eBook, archivi, ricerca, sitemap e `daily_state.last_question_date`.
+
 ## 1.1 Domanda del giorno
 
 Se la data corrente è successiva all'ultima Domanda del giorno pubblicata:

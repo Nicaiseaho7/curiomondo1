@@ -6,6 +6,7 @@ from lxml import html
 from urllib.parse import urlparse, unquote
 import argparse, json, subprocess, re
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from difflib import SequenceMatcher
 
 ap=argparse.ArgumentParser(); ap.add_argument('--root',default='.'); args=ap.parse_args()
@@ -251,8 +252,6 @@ if len(home.xpath('//a[contains(@class,"featured")]'))!=1: errors.append('apertu
 featured_href=home.xpath('//a[contains(@class,"featured")]/@href')
 rail_hrefs=home.xpath('//div[contains(@class,"auto-rail")]/a/@href')
 chronological=[url for url,_ in sorted(card_eligible_dates.items(),key=lambda kv: kv[1],reverse=True)]
-# v291: Ultima ora è una scelta editoriale distinta dalla continuità cronologica.
-# Dopo aver escluso l'hero, Ultime notizie + Tutte le notizie devono restare senza salti.
 if featured_href and featured_href[0] not in card_eligible_dates:
     errors.append(f'Ultima ora non idonea alle card editoriali: {featured_href[0]}')
 chronological_after_featured=[url for url in chronological if url not in set(featured_href)]
@@ -301,10 +300,11 @@ for p in (root/'assets/js').glob('*-v210.js'):
 zeros=[p for p in root.rglob('*') if p.is_file() and p.suffix.lower() in {'.webp','.avif','.png','.jpg','.jpeg'} and p.stat().st_size==0 and 'IA-WORKSPACE' not in p.relative_to(root).parts]
 if zeros: errors.append(f'{len(zeros)} file immagine vuoti')
 
-# Daily editorial cycle v263: mystery card, reflection, ebook and two queued guides.
-daily_slug='chi-siamo-nei-cinque-minuti-prima-di-addormentarci-quando-cadono-le-maschere-utili'
-daily_path=root/'domanda-del-giorno'/daily_slug/'index.html'
-book_path=root/'biblioteca/vita-relazioni/domande-per-conoscersi'/daily_slug/'index.html'
+# Daily editorial cycle: resolve the current package from Europe/Rome and the
+# live mystery-card target. Never freeze the date or slug in this audit.
+rome_today=datetime.now(ZoneInfo('Europe/Rome')).date().isoformat()
+daily_path=None
+book_path=None
 guide_paths=[
     root/'biblioteca/vita-relazioni/attenzione-tempo/proteggere-concentrazione-notifiche-smartphone/index.html',
     root/'biblioteca/vita-relazioni/attenzione-tempo/creare-spazi-propri-giornata-impegni/index.html',
@@ -312,14 +312,18 @@ guide_paths=[
 qday=home.xpath('//section[contains(concat(" ",normalize-space(@class)," ")," cm-qday ")]')
 if len(qday)!=1: errors.append('card Domanda del giorno assente o duplicata')
 else:
+    qlinks=qday[0].xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-qday-link ")]')
+    if len(qlinks)==1:
+        href=qlinks[0].get('href','')
+        daily_path=root/href.strip('/')/'index.html'
     qcard=qday[0].xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-qday-link ")]/*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-card ")]')
     if len(qcard)!=1: errors.append('struttura Domanda del giorno v270 incompleta')
     else:
-        if not qcard[0].xpath('.//time[contains(concat(" ",normalize-space(@class)," ")," cm-qday-date ")][@datetime="2026-09-06"]'): errors.append('data Domanda del giorno v270 assente')
+        if not qcard[0].xpath(f'.//time[contains(concat(" ",normalize-space(@class)," ")," cm-qday-date ")][@datetime="{rome_today}"]'): errors.append(f'data Domanda del giorno non aggiornata a Europe/Rome: attesa {rome_today}')
         if not qcard[0].xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-k ")]'): errors.append('etichetta Domanda del giorno v270 assente')
         if not qcard[0].xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-cta ")]'): errors.append('CTA Domanda del giorno v270 assente')
         if qcard[0].xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-title ") or contains(concat(" ",normalize-space(@class)," ")," cm-qday-hint ")]'): errors.append('testi ridondanti ancora presenti nella Domanda del giorno v270')
-if daily_path.exists():
+if daily_path and daily_path.exists():
     daily=html.fromstring(daily_path.read_text(errors='replace'))
     if daily.xpath('//h2|//h3'): errors.append('Domanda del giorno v255 contiene H2/H3 vietati')
     if not daily.xpath('//body[contains(concat(" ",normalize-space(@class)," ")," cm-daily-page ")]'): errors.append('tela editoriale Domanda del giorno v273 assente')
@@ -327,8 +331,10 @@ if daily_path.exists():
     if len(daily.xpath('//a[contains(concat(" ",normalize-space(@class)," ")," cm-daily-book-link ")]'))!=1: errors.append('invito eBook premium v273 assente')
     answer=' '.join(daily.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," q-flow ")]/p[not(contains(@class,"q-sign"))]//text()'))
     if not 1000<=len(re.sub(r'\s+',' ',answer).strip())<=3000: errors.append('risposta Domanda del giorno v255 fuori 1000–3000 caratteri')
+    book_links=daily.xpath('//a[contains(concat(" ",normalize-space(@class)," ")," cm-daily-book-link ")]/@href')
+    if len(book_links)==1: book_path=root/book_links[0].strip('/')/'index.html'
 else: errors.append('pagina Domanda del giorno v255 assente')
-if book_path.exists():
+if book_path and book_path.exists():
     book=html.fromstring(book_path.read_text(errors='replace'))
     pages=book.xpath('//*[@data-book-page]')
     book_text=re.sub(r'\s+',' ',' '.join(book.xpath('//div[contains(concat(" ",normalize-space(@class)," ")," cm-book-stage ")]//p//text()'))).strip()
