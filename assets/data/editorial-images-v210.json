@@ -1,7 +1,40 @@
 {
-  "version": 286,
+  "version": 287,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "sassonia-anhalt-elettori-6-settembre-2026-ai-v287",
+      "article": "/notizie/sassonia-anhalt-voto-afd-favorita-urne-6-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Ultra-realistic neutral editorial photo of voters entering a polling station in Saxony-Anhalt; no politicians, party symbols, readable text or implied result.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/sassonia-anhalt-elettori-6-settembre-2026-ai-v287-480.webp",
+          "sha256": "63e44438801cca2152937cbde3cdfc129a1a33dfbcc43fcf5176500c785aa6fe",
+          "bytes": 17962
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/sassonia-anhalt-elettori-6-settembre-2026-ai-v287-800.webp",
+          "sha256": "04a45dad9a4b898e51e5f85f5a6f6976dd544aa997ab66dbc252c8277bc4aa11",
+          "bytes": 37298
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/sassonia-anhalt-elettori-6-settembre-2026-ai-v287-1200.webp",
+          "sha256": "7b72cc489252c35525be6e17a70c9e0cc54c8139d41c0cce1002bf37a6f5d1db",
+          "bytes": 62098
+        }
+      ],
+      "alt": "Scena editoriale generata con IA di elettori in fila davanti a un seggio della Sassonia-Anhalt, senza simboli di partito o risultati rappresentati",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "monza-vettel-f2002-schumacher-6-settembre-2026-ai-v286",
       "article": "/notizie/monza-vip-sinner-elkann-chiellini-vettel-f2002-schumacher-6-settembre-2026.html",
