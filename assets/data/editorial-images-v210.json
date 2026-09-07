@@ -1,7 +1,73 @@
 {
-  "version": 301,
+  "version": 302,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "friuli-inclusione-scolastica-disabilita-bes-dsa-7-settembre-2026-ai-v302",
+      "article": "/notizie/friuli-venezia-giulia-2-7-milioni-disabilita-bes-dsa-scuola-7-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Ultra-realistic premium editorial image of a contemporary inclusive classroom in Friuli Venezia Giulia, a female teacher supporting diverse students including one wheelchair user and accessible learning materials, respectful natural interaction, bright morning light, no readable text, logos, captions or watermark.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/friuli-inclusione-scolastica-disabilita-bes-dsa-7-settembre-2026-ai-v302-480.webp",
+          "sha256": "d9b0b7ff2fe516a92a236d06c43a0fcc377c2bc74494c6919eeb34cfdc9a591b",
+          "bytes": 38538
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/friuli-inclusione-scolastica-disabilita-bes-dsa-7-settembre-2026-ai-v302-800.webp",
+          "sha256": "6b9414ca7adf3d0b69fa31b8ccbe567148f37d5c4807a210bb770ae02a13b6a6",
+          "bytes": 79114
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/friuli-inclusione-scolastica-disabilita-bes-dsa-7-settembre-2026-ai-v302-1200.webp",
+          "sha256": "392d36235da363be3b16aaeb1072de52547c83176095a648e160817889166eb1",
+          "bytes": 131698
+        }
+      ],
+      "alt": "Docente al lavoro con una classe inclusiva e studenti che utilizzano strumenti didattici accessibili, illustrazione editoriale fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "italia-estate-2026-piu-calda-dal-1950-cnr-ai-v302",
+      "article": "/notizie/italia-estate-2026-piu-calda-dal-1950-battuto-2003-cnr.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Ultra-realistic premium editorial image of a scientific weather station in a heat-shimmering Italian agricultural landscape, dry field edges and distant Apennine foothills, harsh summer daylight, sober factual mood, no readable displays, text, logos, captions, flags or watermark.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/italia-estate-2026-piu-calda-dal-1950-cnr-ai-v302-480.webp",
+          "sha256": "11626d91efbfcee71192bba1feb6faae5151161d8a87c1ee74fabde839daf365",
+          "bytes": 42428
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/italia-estate-2026-piu-calda-dal-1950-cnr-ai-v302-800.webp",
+          "sha256": "6afece2470913bcd1c21f6324f5974cfe0f485128e86d3aa1dbfafaced8e0de6",
+          "bytes": 112552
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/italia-estate-2026-piu-calda-dal-1950-cnr-ai-v302-1200.webp",
+          "sha256": "2cfcf8f2a292abc4d81aa4e947748c310e753ca431b7cfd2575beb703565fba4",
+          "bytes": 221098
+        }
+      ],
+      "alt": "Stazione meteorologica in un paesaggio agricolo italiano durante una giornata estiva molto calda, illustrazione editoriale fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "toscana-economia-circolare-bando-rifiuti-7-settembre-2026-ai-v301",
       "article": "/notizie/toscana-bando-15-milioni-economia-circolare-rifiuti-7-settembre-2026.html",
