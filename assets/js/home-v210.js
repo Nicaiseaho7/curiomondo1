@@ -257,7 +257,17 @@
   const category = params.get('cat') || params.get('categoria');
   if (category) {
     getFeed().then((items) => {
-      const selected = items.filter((entry) => normalize(entry.section).includes(normalize(category)));
+      const categoryAliases = {
+        politica: ['politica', 'elezioni', 'diplomazia', 'geopolitica', 'governo', 'parlamento'],
+        cronaca: ['cronaca', 'giustizia', 'sicurezza'],
+        ambiente: ['ambiente', 'clima', 'natura', 'sostenibilita', 'alluvione', 'vulcani']
+      };
+      const categoryKey = normalize(category);
+      const categoryTerms = categoryAliases[categoryKey] || [categoryKey];
+      const selected = items.filter((entry) => {
+        const section = normalize(entry.section);
+        return categoryTerms.some((term) => section.includes(normalize(term)));
+      });
       const cards = $('#cards');
       cards.replaceChildren(...selected.slice(0, 24).map(feedCard));
       feedCursor = Math.min(24, selected.length);
