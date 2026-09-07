@@ -1,6 +1,6 @@
 # Protocollo permanente qualità editoriale e idoneità Google AdSense
 
-Versione protocollo: 3.0
+Versione protocollo: 3.1
 Data: 7 settembre 2026
 Stato: obbligatorio, fail-closed, prevalente su qualunque istruzione che privilegi quantità o velocità.
 
@@ -41,7 +41,7 @@ Se non sono disponibili almeno due elementi, non pubblicare il pezzo autonomo.
 
 ## Tipi di contenuto e lunghezza editoriale
 
-La lunghezza dipende dal tipo e dalle informazioni, non da una soglia artificiale in caratteri.
+Ogni articolo deve contenere obbligatoriamente da 3.000 a 7.000 caratteri di testo editoriale principale. La soglia non sostituisce il giudizio di qualità e non consente ripetizioni, definizioni ovvie o paragrafi di riempimento. Se le informazioni verificate non bastano per raggiungere il minimo in modo utile, l'articolo non deve essere pubblicato.
 
 - **Notizia:** usa la lunghezza più corta capace di contenere tutti i fatti e almeno due valori aggiunti. Come riferimento: servizi e bandi 250–400 parole; dati da decodificare 500–800; riepiloghi multi-evento 700–1.000 soltanto se ogni blocco introduce fatti nuovi. Struttura: titolo fattuale, occhiello non ripetitivo, tre dati duri, lead completo, metodo o limiti, contesto minimo o cosa cambia, poi stop. Vietata la chiusura-riassunto o morale.
 - **Approfondimento:** un solo meccanismo, 500–900 parole e massimo quattro concetti. Parte dal problema del lettore e termina con tre domande utili per interpretare la prossima notizia.

@@ -4,11 +4,11 @@
     "name": "CurioMondo",
     "base_url": "https://curiomondo.it/",
     "deployment": "GitHub main branch connected to Netlify automatic deployment",
-    "current_protocol_version": "3.0",
+    "current_protocol_version": "3.1",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-07",
-    "current_site_version": 304,
-    "site_version": 304
+    "current_site_version": 305,
+    "site_version": 305
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -62,7 +62,9 @@
     ],
     "publication_complete_only_when_all_required_outputs_exist": true,
     "article_body_characters": {
-      "policy": "type_based_no_fixed_character_minimum",
+      "policy": "fixed_3000_7000_characters",
+      "minimum": 3000,
+      "maximum": 7000,
       "minimum_value_add_elements": 2,
       "service_notice_reference_words": "250-400",
       "data_explainer_reference_words": "500-800",
