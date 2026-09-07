@@ -324,14 +324,14 @@ for info in infos:
     ET.SubElement(news, f"{{{NEWS_NS}}}title").text = info["title"]
 ET.indent(ns_tree, space="  "); ns_tree.write(ROOT / "news-sitemap.xml", encoding="utf-8", xml_declaration=True)
 
-# Sitemap generale: aggiunge i sei URL se assenti, davanti agli altri senza eliminare pagine non-news.
+# Sitemap generale: riallinea tutte le notizie pubbliche, senza eliminare pagine non-news.
 sitemap_path = ROOT / "sitemap.xml"
 sm_tree = ET.parse(sitemap_path); sm_root = sm_tree.getroot(); ns = {"sm": SM_NS}
-new_urls = {"https://curiomondo.it" + i["url"] for i in feed_items[:6]}
+new_urls = {"https://curiomondo.it" + i["url"] for i in feed_items}
 for node in list(sm_root):
     loc = node.find(f"{{{SM_NS}}}loc")
     if loc is not None and loc.text in new_urls: sm_root.remove(node)
-for item in reversed(feed_items[:6]):
+for item in reversed(feed_items):
     node = ET.Element(f"{{{SM_NS}}}url")
     ET.SubElement(node, f"{{{SM_NS}}}loc").text = "https://curiomondo.it" + item["url"]
     ET.SubElement(node, f"{{{SM_NS}}}lastmod").text = item["dateLabel"]
