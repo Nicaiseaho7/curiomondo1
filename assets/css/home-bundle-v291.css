@@ -78,12 +78,23 @@ body.cm-modal-open{overflow:hidden}.container{width:min(1200px,calc(100% - 36px)
 .drawer-nav details>div{padding:0 0 9px;background:#fafbfc}
 .drawer-nav details a{min-height:42px;padding:9px 32px;color:#55606d;font-size:.9rem}
 .drawer-library{font-weight:850}
+.drawer-nav .drawer-featured{border-bottom:0!important;margin:10px 0!important}
+.drawer-nav .drawer-featured>a{min-height:78px!important;border:1px solid #bfd5fa!important;border-radius:19px!important;background:linear-gradient(135deg,#f7fbff,#eaf3ff)!important;box-shadow:0 12px 30px rgba(23,105,224,.12)!important}
+.drawer-nav .drawer-featured .drawer-nav-icon{background:linear-gradient(145deg,#1769e0,#0e4fae)!important;color:#fff!important;box-shadow:0 8px 18px rgba(23,105,224,.24)!important}
+.drawer-nav-copy{display:flex;min-width:0;flex:1;flex-direction:column;gap:4px}
+.drawer-nav-copy strong{color:#082a57;font:800 1.02rem/1.15 Georgia,"Times New Roman",serif}
+.drawer-nav-copy small{color:#587397;font-size:.72rem;line-height:1.25}
+.drawer-nav-heading{margin:20px 12px 7px!important;border:0!important;color:#59718f!important;font-size:.68rem!important;font-weight:900!important;letter-spacing:.12em!important;text-transform:uppercase}
+.drawer-nav .drawer-deep-dives{font-weight:800!important}
 .drawer-nav a:hover,.drawer-nav summary:hover{background:#f4f6f8}
 html.cm-dark .drawer,html.cm-dark .drawer-head{background:#07192f;color:#f2f6fb}
 html.cm-dark .drawer .cm-wordmark,html.cm-dark .drawer-nav a,html.cm-dark .drawer-nav summary{color:#f2f6fb}
 html.cm-dark .drawer-tool{background:#0b2441;color:#f2f6fb;border-color:#263c56}
 html.cm-dark .drawer-nav>li,html.cm-dark .drawer-head{border-color:#26384d}
 html.cm-dark .drawer-nav details>div{background:#091f38}
+html.cm-dark .drawer-nav .drawer-featured>a{border-color:#285b96!important;background:linear-gradient(135deg,#0d2b4d,#103866)!important}
+html.cm-dark .drawer-nav-copy strong{color:#f4f8ff}
+html.cm-dark .drawer-nav-copy small,html.cm-dark .drawer-nav-heading{color:#a9bfdb!important}
 html.cm-dark .cm-nicaise-drawer .cm-nicaise-word{color:#f8fafc}
 
 @media(max-width:600px){
