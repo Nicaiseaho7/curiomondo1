@@ -1,7 +1,73 @@
 {
-  "version": 296,
+  "version": 297,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "zelensky-witkoff-kushner-negoziati-7-settembre-2026-ai-v297",
+      "article": "/notizie/ucraina-zelenskyy-riavviare-negoziati-inviati-usa-7-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Ultra-realistic contextual editorial scene of Ukrainian President Volodymyr Zelenskyy meeting U.S. envoys Steve Witkoff and Jared Kushner in Kyiv after diplomatic talks, recognizable real public figures, Ukrainian and U.S. flags naturally present, sober institutional lighting; no added headline, caption, watermark, fabricated document text or false claim that this is an authentic documentary photograph.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/zelensky-witkoff-kushner-negoziati-7-settembre-2026-ai-v297-480.webp",
+          "sha256": "296c7987e1ffd8bf3290ae09e8546665c470b37870e5341bf0596d46a957e3c4",
+          "bytes": 16850
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/zelensky-witkoff-kushner-negoziati-7-settembre-2026-ai-v297-800.webp",
+          "sha256": "3d94c9b4cee6d0f9c3518c19d234f9178898559fff9599eca5538a7830b5992a",
+          "bytes": 31188
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/zelensky-witkoff-kushner-negoziati-7-settembre-2026-ai-v297-1200.webp",
+          "sha256": "2f035cb9e6745e892a361a6ee3b7ee559d40374e07ddf0dd04408eddeb86651d",
+          "bytes": 52072
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA di Volodymyr Zelenskyy a colloquio con Steve Witkoff e Jared Kushner in una sala istituzionale a Kyiv",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "afd-sassonia-anhalt-vittoria-7-settembre-2026-ai-v297",
+      "article": "/notizie/germania-afd-vince-sassonia-anhalt-43-8-7-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Ultra-realistic contextual editorial scene of real AfD lead candidate Ulrich Siegmund at an election-night podium in Magdeburg after the 2026 Saxony-Anhalt vote, accurate AfD branding and German and Saxony-Anhalt flags naturally present, press and supporters softly out of focus, sober stage lighting; no invented vote numbers, added headline, caption, watermark or false claim that this is an authentic documentary photograph.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/afd-sassonia-anhalt-vittoria-7-settembre-2026-ai-v297-480.webp",
+          "sha256": "be64f88cf9a31b0c074ccbb6d64921631e7e00f7382cd938857e96d407ab18b2",
+          "bytes": 13066
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/afd-sassonia-anhalt-vittoria-7-settembre-2026-ai-v297-800.webp",
+          "sha256": "3d31e7edfe1811fae1cba190613d3ae03ccb82380cbab7121ba98293aabee3e0",
+          "bytes": 24112
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/afd-sassonia-anhalt-vittoria-7-settembre-2026-ai-v297-1200.webp",
+          "sha256": "80e0303efea091f92c739bbfcef1cbbcc3307d65f27f3cbfe2a149b4302d14d2",
+          "bytes": 39476
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA di Ulrich Siegmund sul palco elettorale dell’AfD in Sassonia-Anhalt dopo il risultato regionale",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "scuola-bolzano-primo-giorno-7-settembre-2026-ai-v296",
       "article": "/notizie/bolzano-primo-giorno-scuola-7-settembre-2026.html",
