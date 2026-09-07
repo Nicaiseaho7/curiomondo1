@@ -1,7 +1,73 @@
 {
-  "version": 295,
+  "version": 296,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "scuola-bolzano-primo-giorno-7-settembre-2026-ai-v296",
+      "article": "/notizie/bolzano-primo-giorno-scuola-7-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Ultra-realistic contextual editorial photograph, morning outside an Italian-language primary school in Bolzano on the first day of school, children with backpacks and parents entering, Alpine setting, Italian and European flags appearing naturally, warm documentary-style light; ordinary contextual people only, no identifiable public figure, no added headline, no watermark, no claim that this is a real event photograph.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/scuola-bolzano-primo-giorno-7-settembre-2026-ai-v296-480.webp",
+          "sha256": "383971011a04137edf01079cf480a94fb83e53cfdaf188a224f36be519a4af11",
+          "bytes": 33404
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/scuola-bolzano-primo-giorno-7-settembre-2026-ai-v296-800.webp",
+          "sha256": "22111627f25d9d0f2ff8100756b107d41afe444f6d95231c5b0856471ca14892",
+          "bytes": 75090
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/scuola-bolzano-primo-giorno-7-settembre-2026-ai-v296-1200.webp",
+          "sha256": "8ca85fe6cbd21e8ee3f5b358c6ef5cdb546ac5a9a9bb04b7ea04171e746820fd",
+          "bytes": 129444
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA di studenti e famiglie all’ingresso di una scuola primaria di Bolzano nel primo giorno dell’anno scolastico",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "inps-case-maestro-soggiorni-invernali-2026-ai-v296",
+      "article": "/notizie/inps-case-del-maestro-domande-soggiorni-invernali-7-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Ultra-realistic contextual editorial photograph of a mature Italian woman completing an online public-service application on a laptop at home, travel documents and a winter bag nearby, a welcoming mountain lodge and snow visible through the window, natural neutral interface shapes without readable personal data, no added headline, no watermark, no false documentary claim.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/inps-case-maestro-soggiorni-invernali-2026-ai-v296-480.webp",
+          "sha256": "1a63a42a2e7dbc38f1edd12dbb5f00e5e2bf2c928e9940c5f939d66cb0cb563c",
+          "bytes": 25582
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/inps-case-maestro-soggiorni-invernali-2026-ai-v296-800.webp",
+          "sha256": "af1c2c19df239a6d95970aa5cc7addbf17d983b6317408528cf1a129dd9cfd8b",
+          "bytes": 52018
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/inps-case-maestro-soggiorni-invernali-2026-ai-v296-1200.webp",
+          "sha256": "55865f6f98acae33cd6e8b9609f085d64dba310755a7ee718ed3ccbb6b21bc8d",
+          "bytes": 90632
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA di una donna che prepara al computer la domanda per un soggiorno invernale nelle Case del Maestro",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "sciopero-fs-7-8-settembre-2026-ai-v293",
       "article": "/notizie/sciopero-fs-nazionale-7-8-settembre-2026-orari-treni-garantiti.html",
