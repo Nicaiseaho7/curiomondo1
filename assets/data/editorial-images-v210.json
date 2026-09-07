@@ -1,7 +1,41 @@
 {
-  "version": 305,
+  "version": 306,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "alessandro-di-battista-terapia-intensiva-avana-7-settembre-2026-ai-v306",
+      "article": "/notizie/alessandro-di-battista-ricoverato-cuba-trasferimento-avana-29-agosto-2026.html",
+      "aiGenerated": true,
+      "syntheticLikeness": "public-figure",
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "prompt": "Sensitive-context neutral editorial portrait of Alessandro Di Battista, isolated studio background, no hospital or medical depiction, no text.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/alessandro-di-battista-terapia-intensiva-avana-7-settembre-2026-ai-v306-480.webp",
+          "sha256": "4b78f239feacf7aae8fe940373c864aaed5cabb7b98884015a7e524df7dbb1db",
+          "bytes": 5896
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/alessandro-di-battista-terapia-intensiva-avana-7-settembre-2026-ai-v306-800.webp",
+          "sha256": "82bcf60568535c6554793691466290ce295cdc2226edc333724b60d9713e735a",
+          "bytes": 13902
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/alessandro-di-battista-terapia-intensiva-avana-7-settembre-2026-ai-v306-1200.webp",
+          "sha256": "55f1e15621dd67587dfaabc044eeca00a74466a7e347eb7b4df18542c18913bf",
+          "bytes": 27908
+        }
+      ],
+      "alt": "Ritratto editoriale neutrale di Alessandro Di Battista su sfondo scuro, somiglianza sintetica fotorealistica generata con IA per una notizia sanitaria sensibile",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false
+    },
     {
       "key": "russia-colloqui-ucraina-usa-7-settembre-2026-ai-v304",
       "article": "/notizie/russia-ripresa-colloqui-ucraina-stati-uniti-7-settembre-2026.html",
@@ -2979,41 +3013,6 @@
       "reenactedEvent": false
     },
     {
-      "key": "alessandro-di-battista-ritratto-neutrale-29-agosto-2026-ai-v235",
-      "article": "/notizie/alessandro-di-battista-ricoverato-cuba-trasferimento-avana-29-agosto-2026.html",
-      "aiGenerated": true,
-      "syntheticLikeness": "public-figure",
-      "publicFigure": "Alessandro Di Battista",
-      "sensitiveContext": true,
-      "documentaryPhoto": false,
-      "prompt": "Use case: photorealistic-natural. Article hero, 1536x1024 landscape. Create an ultra-realistic, highly recognizable, calm neutral editorial portrait of Italian public figure Alessandro Di Battista. Disclosed synthetic editorial likeness, not documentary evidence. Person alone, head-and-shoulders, calm neutral expression, sober unbranded dark jacket and light shirt, premium blue studio gradient, natural skin and credible soft studio light. No hospital, ambulance, stretcher, doctors, medical devices, oxygen, tubes, bandages, injury, pain, distress, unconsciousness, illness symptoms, reenactment, travel, airplane, airport, Cuba cues, logos, flags, text, watermark, props or sensationalism.",
-      "variants": [
-        {
-          "w": 480,
-          "src": "/assets/images/editorial-v235/alessandro-di-battista-ritratto-neutrale-29-agosto-2026-ai-v235-480.webp",
-          "sha256": "0f614fce0f75b4e8c6882269f0bf564b25bb413762972a61dd4681d8af6fd237",
-          "bytes": 10252
-        },
-        {
-          "w": 800,
-          "src": "/assets/images/editorial-v235/alessandro-di-battista-ritratto-neutrale-29-agosto-2026-ai-v235-800.webp",
-          "sha256": "52c44a7ebd8d9449e36e789b0f1965266fcd36c12422b8d947b501af8944860f",
-          "bytes": 22702
-        },
-        {
-          "w": 1200,
-          "src": "/assets/images/editorial-v235/alessandro-di-battista-ritratto-neutrale-29-agosto-2026-ai-v235-1200.webp",
-          "sha256": "54aa702fe3ca69ac1fb8322d07332d15bb25c590c5e75cd2abf10671e78557dd",
-          "bytes": 43752
-        }
-      ],
-      "alt": "Ritratto editoriale neutrale ultrarealistico di Alessandro Di Battista su uno sfondo blu da studio",
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "portraitOnly": true,
-      "portraitFormat": "neutral-isolated",
-      "reenactedEvent": false
-    },
-    {
       "key": "trump-usa-venezuela-petrolio-29-agosto-2026-ai",
       "article": "/notizie/usa-venezuela-accordo-petrolio-65-miliardi-barili-29-agosto-2026.html",
       "aiGenerated": true,
@@ -4773,29 +4772,6 @@
           "bytes": 118576
         }
       ]
-    },
-    {
-      "key": "di-battista-trasferimento-cuba-29-agosto-2026-ai",
-      "article": "/notizie/alessandro-di-battista-ricoverato-cuba-trasferimento-avana-29-agosto-2026.html",
-      "aiGenerated": true,
-      "prompt": "Respectful photorealistic editorial scene of an urgent medical transfer in Cuba: unbranded ambulance on the road from Santa Clara toward Havana after rain, no patient or identifiable faces, no diagnosis implied, no text or logos, horizontal 3:2.",
-      "variants": [
-        {
-          "w": 480,
-          "src": "/assets/images/editorial-v228/di-battista-trasferimento-cuba-29-agosto-2026-ai-480.webp"
-        },
-        {
-          "w": 800,
-          "src": "/assets/images/editorial-v228/di-battista-trasferimento-cuba-29-agosto-2026-ai-800.webp"
-        },
-        {
-          "w": 1200,
-          "src": "/assets/images/editorial-v228/di-battista-trasferimento-cuba-29-agosto-2026-ai-1200.webp"
-        }
-      ],
-      "alt": "Ambulanza in viaggio su una strada cubana tra Santa Clara e L’Avana in un’immagine editoriale non documentaria",
-      "superseded": true,
-      "supersededBy": "alessandro-di-battista-ritratto-neutrale-29-agosto-2026-ai-v235"
     }
   ]
 }
