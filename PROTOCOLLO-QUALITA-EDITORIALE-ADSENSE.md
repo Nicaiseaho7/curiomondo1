@@ -1,7 +1,7 @@
 # Protocollo permanente qualità editoriale e idoneità Google AdSense
 
-Versione protocollo: 2.1
-Data: 6 settembre 2026
+Versione protocollo: 3.0
+Data: 7 settembre 2026
 Stato: obbligatorio, fail-closed, prevalente su qualunque istruzione che privilegi quantità o velocità.
 
 ## Obiettivo e limite di garanzia
@@ -14,24 +14,76 @@ CurioMondo deve pubblicare contenuti originali, affidabili e realmente utili all
 
 Se non esistono informazioni verificate sufficienti per produrre un articolo completo, originale e non ripetitivo, l'articolo non deve essere pubblicato. Nessuna scadenza, ciclo automatico, tendenza, obiettivo di traffico o quota numerica può superare questo divieto.
 
-## Gate obbligatori per ogni articolo indicizzabile
+## Gate di qualità prima della scrittura
 
-Un articolo può essere pubblicato soltanto se supera tutti i controlli seguenti:
+Aprire un articolo soltanto quando tutte le condizioni seguenti sono vere:
 
-1. Il corpo `.art-body` contiene da 3.000 a 7.000 caratteri realmente informativi, senza riempitivo o ripetizioni.
-2. Sono presenti almeno tre fonti attendibili e pertinenti. Quando possibile, almeno una deve essere primaria o ufficiale e almeno una indipendente.
-3. Titolo, apertura, struttura, spiegazioni e conclusioni sono originali e non imitano la formulazione delle fonti.
-4. Ogni paragrafo aggiunge un fatto, un contesto, una conseguenza o una spiegazione nuova.
-5. È presente un gancio di conoscenza verificato e utile, non un semplice riquadro decorativo.
-6. Il testo usa un italiano chiaro e naturale, senza spiegazioni automatiche o sistematiche di termini tecnici, sigle o parole poco comuni; una precisazione breve è ammessa soltanto quando ometterla comprometterebbe comprensione, accuratezza o sicurezza.
-7. Quando il tema lo consente, viene creato o collegato un approfondimento evergreen autonomo, indicizzabile e non duplicato.
-8. Sono visibili autore, collegamento al metodo editoriale, data di pubblicazione e data di modifica reale.
-9. Sono presenti tre collegamenti interni pertinenti e non autoreferenziali.
-10. Canonical, meta description, dati strutturati `NewsArticle`, immagine, sitemap, archivio, ricerca e feed sono coerenti.
-11. Le affermazioni controverse, politiche, mediche, finanziarie o relative alla sicurezza sono attribuite con precisione e non presentate come fatti quando sono dichiarazioni o stime.
-12. Una revisione editoriale finale conferma che il lettore ottiene una risposta completa e non deve cercare altrove le informazioni essenziali.
+1. Esiste una fonte primaria oppure almeno due fonti secondarie indipendenti e nominabili.
+2. È possibile dichiarare in una frase quale valore aggiunto porta CurioMondo: spiegazione di un dato, limite del dato, confronto, scheda pratica, meccanismo o aggiornamento sostanziale.
+3. Un bando o avviso già ripreso da molti siti viene pubblicato soltanto se utile come scheda di servizio con date, requisiti, procedura, esclusioni e link ufficiale; non viene presentato come breaking news.
+4. Esiste abbastanza materia verificata per un pezzo autonomo. Se manca, non allungare: accorpare, attendere o non pubblicare.
 
-Il mancato superamento anche di un solo gate blocca la release.
+Se manca il valore aggiunto, l'esito obbligatorio è: `NON PUBBLICARE — solo riscrittura`.
+
+## Valore aggiunto minimo
+
+Ogni articolo deve contenere almeno due elementi tra:
+
+1. spiegazione di un dato o metodo, compreso ciò che non misura;
+2. limite o incertezza espliciti;
+3. confronto utile con periodo, media, luogo o precedente pertinente;
+4. scheda pratica con date, destinatari, procedura o conseguenze per il lettore;
+5. definizione di una sola parola tecnica necessaria;
+6. collegamento utile a un approfondimento CurioMondo già esistente e non duplicato;
+7. aggiornamento sostanziale rispetto a una versione precedente.
+
+Se non sono disponibili almeno due elementi, non pubblicare il pezzo autonomo.
+
+## Tipi di contenuto e lunghezza editoriale
+
+La lunghezza dipende dal tipo e dalle informazioni, non da una soglia artificiale in caratteri.
+
+- **Notizia:** usa la lunghezza più corta capace di contenere tutti i fatti e almeno due valori aggiunti. Come riferimento: servizi e bandi 250–400 parole; dati da decodificare 500–800; riepiloghi multi-evento 700–1.000 soltanto se ogni blocco introduce fatti nuovi. Struttura: titolo fattuale, occhiello non ripetitivo, tre dati duri, lead completo, metodo o limiti, contesto minimo o cosa cambia, poi stop. Vietata la chiusura-riassunto o morale.
+- **Approfondimento:** un solo meccanismo, 500–900 parole e massimo quattro concetti. Parte dal problema del lettore e termina con tre domande utili per interpretare la prossima notizia.
+- **Domanda del giorno:** lettura di 2–4 minuti, una sola metafora e ultima frase legata al presente. Non entra in “Ultima ora”.
+- **Scheda di servizio:** elenca chi, requisiti, date, link ufficiale, eccezioni e ciò che non è ancora noto. Può essere breve: corto e utile prevale su lungo e vuoto.
+
+## Stile, fonti e chiusura obbligatoria
+
+- Italiano standard, adulto e preciso; una sola idea per frase e paragrafi di 2–4 frasi.
+- Massimo una definizione tecnica in evidenza, soltanto se necessaria. Vietate spiegazioni ovvie.
+- Titoli fattuali e coerenti con H1, URL e contenuto. Vietati clickbait, keyword stuffing e promesse non mantenute.
+- Citazioni soltanto quando presenti nelle fonti, tra virgolette e attribuite. Vietato inventare scene, emozioni, cause o citazioni.
+- Preferire ente, comunicato, dataset, regolamento o atto ufficiale. ANSA, Reuters e altre agenzie sono conferme, non l'unica materia del pezzo.
+- Inserire da tre a sei fonti in fondo indicando cosa confermano. Se le fonti discordano, dichiararlo esplicitamente.
+- La data e l'ora di aggiornamento cambiano soltanto quando cambia la sostanza.
+- Inserire da uno a tre link interni soltanto quando utili.
+- Il blocco finale riporta: `Redazione CurioMondo · Come lavoriamo`, originalità del testo, fonti consultate, ultimo aggiornamento editoriale e disclosure IA quando applicabile.
+
+## Regole homepage
+
+- “Ultima ora” è riservata ai fatti in evoluzione nelle ultime 24 ore.
+- Bandi e avvisi istituzionali entrano nella sezione servizio e non nella hero, salvo eccezione editoriale motivata.
+- Ogni gruppo di dieci notizie in home deve includere almeno tre articoli sotto le 400 parole, almeno uno basato su una fonte primaria e non più di due bandi in evidenza.
+
+## Checklist pre-pubblicazione
+
+Ogni risposta editoriale deve compilare SÌ/NO per tutti i punti seguenti; un solo NO blocca la pubblicazione:
+
+1. il lead sta in piedi da solo;
+2. sono presenti almeno due elementi di valore aggiunto;
+3. non è la parafrasi di una sola agenzia;
+4. contiene al massimo una definizione e nessuna morale finale;
+5. ogni cifra ha una fonte;
+6. non contiene fatti inventati o cause speculative;
+7. titolo, URL e contenuto coincidono;
+8. firma, fonti, data e disclosure IA sono presenti quando richiesti;
+9. il lettore apprende qualcosa che il titolo non contiene già;
+10. il testo non è intercambiabile con quello di siti-clone;
+11. lingua, nomi e toponimi sono corretti;
+12. il pezzo termina quando terminano i fatti.
+
+Prima di scrivere, fonti e valore aggiunto vengono verificati internamente in cinque righe e non pubblicati sul sito. Se il gate fallisce, rispondere soltanto `NON PUBBLICARE — motivo`. La checklist compilata va mostrata nella consegna editoriale, non inserita nella pagina pubblica.
 
 ## Contenuti replicati e uso dell'automazione
 

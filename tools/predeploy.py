@@ -37,13 +37,9 @@ if config_path.exists():
         if likeness.get('sensitive_news',{}).get('neutral_isolated_portrait_required') is not True: errors.append('ritratto neutrale per casi sensibili assente nella config')
         if likeness.get('documentary_claim_forbidden') is not True: errors.append('divieto documentario assente nella config')
         articles_cfg=config.get('articles',{})
-        if articles_cfg.get('body_min_chars')!=3000: errors.append('minimo articoli v257 non impostato a 3000 nella config')
-        if articles_cfg.get('body_max_chars')!=7000: errors.append('massimo articoli v257 non impostato a 7000 nella config')
-        if articles_cfg.get('length_exceptions_allowed') is not False: errors.append('eccezioni lunghezza articoli v257 non disabilitate')
+        if articles_cfg.get('article_length_policy')!='type_based_no_fixed_character_minimum': errors.append('policy lunghezza editoriale v303 assente nella config')
+        if articles_cfg.get('minimum_value_add_elements')!=2: errors.append('minimo due valori aggiunti v303 assente nella config')
         if articles_cfg.get('semantic_repetition_forbidden') is not True: errors.append('divieto ripetizioni semantiche assente nella config')
-        length_policy_effective_from=articles_cfg.get('length_policy_effective_from','2026-09-01T12:00:00+02:00')
-        try: length_policy_effective_dt=datetime.fromisoformat(length_policy_effective_from)
-        except Exception: errors.append('timestamp efficacia policy lunghezza non valido'); length_policy_effective_dt=datetime.fromisoformat('2026-09-01T12:00:00+02:00')
     except Exception as exc: errors.append(f'automation/config.json non valido: {exc}')
 if manifest_path.exists():
     try:
@@ -56,8 +52,8 @@ if manifest_path.exists():
         if likeness.get('sensitive_news',{}).get('neutral_isolated_portrait_required') is not True: errors.append('ritratto neutrale per casi sensibili assente nel manifest')
         if likeness.get('must_never_be_presented_as_documentary_evidence') is not True: errors.append('divieto di prova documentaria assente nel manifest')
         body_policy=manifest.get('news',{}).get('article_body_characters',{})
-        if body_policy.get('mandatory_min')!=3000 or body_policy.get('mandatory_max')!=7000: errors.append('policy manifest articoli non impostata a 3000–7000')
-        if body_policy.get('exceptions_allowed') is not False: errors.append('manifest consente eccezioni di lunghezza non ammesse')
+        if body_policy.get('policy')!='type_based_no_fixed_character_minimum': errors.append('policy manifest v303 non basata sul tipo editoriale')
+        if body_policy.get('minimum_value_add_elements')!=2: errors.append('manifest non richiede due valori aggiunti')
         if body_policy.get('semantic_repetition_forbidden') is not True: errors.append('manifest non vieta le ripetizioni semantiche')
     except Exception as exc: errors.append(f'curiomondo-site-manifest.json non valido: {exc}')
 if image_registry_path.exists():
@@ -128,21 +124,6 @@ def article_policy_active(doc):
     if 'noindex' in robots: return False
     bodies=doc.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," art-body ")]')
     if bodies and bodies[0].get('data-length-policy')=='3000-7000': return True
-    for raw in doc.xpath('//script[@type="application/ld+json"]/text()'):
-        try: obj=json.loads(raw)
-        except Exception: continue
-        objs=obj if isinstance(obj,list) else [obj]
-        for item in objs:
-            if not isinstance(item,dict): continue
-            typ=item.get('@type')
-            if typ!='NewsArticle' and not (isinstance(typ,list) and 'NewsArticle' in typ): continue
-            stamp=item.get('dateModified') or item.get('datePublished')
-            if not stamp: continue
-            try:
-                dt=datetime.fromisoformat(str(stamp).replace('Z','+00:00'))
-                if dt.tzinfo is None: continue
-                if dt>=length_policy_effective_dt: return True
-            except Exception: pass
     return False
 caption='Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.'
 card_eligible_dates={}
@@ -251,19 +232,22 @@ if len(home.xpath('//a[contains(@class,"featured")]'))!=1: errors.append('apertu
 
 featured_href=home.xpath('//a[contains(@class,"featured")]/@href')
 rail_hrefs=home.xpath('//div[contains(@class,"auto-rail")]/a/@href')
-chronological=[url for url,_ in sorted(card_eligible_dates.items(),key=lambda kv: kv[1],reverse=True)]
+chronological=[url for url,_ in sorted(card_eligible_dates.items(),key=lambda kv:(kv[1],kv[0]),reverse=True)]
 if featured_href and featured_href[0] not in card_eligible_dates:
     errors.append(f'Ultima ora non idonea alle card editoriali: {featured_href[0]}')
 chronological_after_featured=[url for url in chronological if url not in set(featured_href)]
 sequence_hrefs=list(rail_hrefs)+list(all_news_urls)
 expected_sequence=chronological_after_featured[:len(sequence_hrefs)]
-if sequence_hrefs!=expected_sequence:
-    for i,(got,want) in enumerate(zip(sequence_hrefs,expected_sequence)):
-        if got!=want:
-            errors.append(f'sequenza cronologica Ultime notizie → Tutte le notizie non continua alla posizione {i+1}: trovato {got} ({card_eligible_dates.get(got)}) invece di {want} ({card_eligible_dates.get(want)})')
+if len(sequence_hrefs)!=len(expected_sequence):
+    errors.append(f'Ultime notizie + Tutte le notizie contengono {len(sequence_hrefs)} notizie ma le notizie pubblicate idonee, esclusa Ultima ora, sono {len(chronological_after_featured)}: verificare articoli mancanti o duplicati')
+elif set(sequence_hrefs)!=set(expected_sequence):
+    errors.append('Ultime notizie + Tutte le notizie non contengono l’insieme cronologico atteso')
+else:
+    sequence_dates=[card_eligible_dates.get(url) for url in sequence_hrefs]
+    for i in range(1,len(sequence_dates)):
+        if sequence_dates[i] and sequence_dates[i-1] and sequence_dates[i]>sequence_dates[i-1]:
+            errors.append(f'sequenza cronologica Ultime notizie → Tutte le notizie non continua alla posizione {i+1}: {sequence_hrefs[i]} è più recente della voce precedente')
             break
-    if len(sequence_hrefs)!=len(expected_sequence):
-        errors.append(f'Ultime notizie + Tutte le notizie contengono {len(sequence_hrefs)} notizie ma le notizie pubblicate idonee, esclusa Ultima ora, sono {len(chronological_after_featured)}: verificare articoli mancanti o duplicati')
 if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-home-deep-links ")]'): errors.append('card Approfondimenti ancora presente in homepage')
 if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-discovery-row ")]'): errors.append('card Biblioteca/Approfondimenti ancora presenti in homepage')
 if len(home.xpath('//ul[contains(concat(" ",normalize-space(@class)," ")," drawer-nav ")]//a[@href="/biblioteca/"]'))!=1: errors.append('Biblioteca non presente una sola volta nel menu drawer')
