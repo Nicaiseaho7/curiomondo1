@@ -16,7 +16,7 @@ CATEGORIES = {
     "tecnologia": ("Tecnologia", "Innovazione, intelligenza artificiale, piattaforme e industria digitale.", ["tecnologia"]),
     "cultura": ("Cultura", "Arte, spettacolo, televisione, libri e patrimonio culturale.", ["cultura"]),
     "scienza": ("Scienza", "Ricerca, spazio, salute e scoperte scientifiche.", ["scienza", "spazio", "salute"]),
-    "ambiente": ("Ambiente", "Clima, natura, sostenibilità, vulcani e fenomeni ambientali.", ["ambiente", "clima", "natura", "sostenibilita", "alluvione", "vulcani"]),
+    "ambiente": ("Ambiente", "Clima, natura, sostenibilità, vulcani e fenomeni ambientali.", ["ambiente", "clima", "natura", "sostenibilita", "alluvione", "vulcani", "economia circolare", "rifiuti", "riciclo", "economia circolare", "rifiuti", "riciclo"]),
 }
 
 

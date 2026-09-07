@@ -1,7 +1,73 @@
 {
-  "version": 297,
+  "version": 301,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "toscana-economia-circolare-bando-rifiuti-7-settembre-2026-ai-v301",
+      "article": "/notizie/toscana-bando-15-milioni-economia-circolare-rifiuti-7-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Ultra-realistic wide editorial photograph-style scene of a modern indoor recycling and materials recovery facility in Tuscany, clean conveyor systems sorting paper plastic and metal, two adult technicians in safety equipment inspecting the line, subtle Tuscan hills visible through large windows, natural morning light, credible industrial details, no logos, no readable text, no watermark, no dumping, no disaster imagery.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/toscana-economia-circolare-bando-rifiuti-7-settembre-2026-ai-v301-480.webp",
+          "sha256": "70f16a350133f091cab8a77c3a2e6db45be34bc538b842004e9b6e9e800c422a",
+          "bytes": 70290
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/toscana-economia-circolare-bando-rifiuti-7-settembre-2026-ai-v301-800.webp",
+          "sha256": "916377a109cff36940f04ae4e92e76e253a1afea2c617475c6eaa261da0b4034",
+          "bytes": 167516
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/toscana-economia-circolare-bando-rifiuti-7-settembre-2026-ai-v301-1200.webp",
+          "sha256": "7bb2a63b609b7b0b27e9c4e94ce7522b27a4ca067be96855c52b92cad2c32687",
+          "bytes": 320662
+        }
+      ],
+      "alt": "Impianto moderno di selezione e recupero dei rifiuti inserito nel paesaggio toscano, illustrazione editoriale fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "australia-farmaci-donne-pbs-7-settembre-2026-ai-v301",
+      "article": "/notizie/australia-un-milione-donne-farmaci-piu-economici-7-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Ultra-realistic wide editorial photograph-style scene inside a contemporary Australian community pharmacy, an adult female pharmacist professionally assisting a diverse group of adult women of different ages, discreet medicine packages with no readable labels, bright natural daylight, authentic Australian pharmacy atmosphere, respectful health context, no logos, no readable text, no watermark, no medical procedure.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/australia-farmaci-donne-pbs-7-settembre-2026-ai-v301-480.webp",
+          "sha256": "681f0a14f0d38e26ab3f73ae4a1a81dad6782ac5cca0d8f67095eae16456ef6b",
+          "bytes": 34164
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/australia-farmaci-donne-pbs-7-settembre-2026-ai-v301-800.webp",
+          "sha256": "509c0a573892f31aa2ce61459adf23f733e12122d05047745f66a0cad6ce6e1f",
+          "bytes": 66580
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/australia-farmaci-donne-pbs-7-settembre-2026-ai-v301-1200.webp",
+          "sha256": "55835a1cabf1def4fa023b3d903ec98253671891a38623a1d2b46ad2662f75ee",
+          "bytes": 110742
+        }
+      ],
+      "alt": "Farmacista in una moderna farmacia australiana assiste diverse donne adulte, illustrazione editoriale fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "zelensky-witkoff-kushner-negoziati-7-settembre-2026-ai-v297",
       "article": "/notizie/ucraina-zelenskyy-riavviare-negoziati-inviati-usa-7-settembre-2026.html",
