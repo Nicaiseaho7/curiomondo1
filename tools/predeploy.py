@@ -37,7 +37,8 @@ if config_path.exists():
         if likeness.get('sensitive_news',{}).get('neutral_isolated_portrait_required') is not True: errors.append('ritratto neutrale per casi sensibili assente nella config')
         if likeness.get('documentary_claim_forbidden') is not True: errors.append('divieto documentario assente nella config')
         articles_cfg=config.get('articles',{})
-        if articles_cfg.get('article_length_policy')!='type_based_no_fixed_character_minimum': errors.append('policy lunghezza editoriale v303 assente nella config')
+        if articles_cfg.get('article_length_policy')!='fixed_3000_7000_characters': errors.append('policy lunghezza 3000-7000 assente nella config')
+        if articles_cfg.get('article_min_chars')!=3000 or articles_cfg.get('article_max_chars')!=7000: errors.append('limiti 3000-7000 assenti nella config')
         if articles_cfg.get('minimum_value_add_elements')!=2: errors.append('minimo due valori aggiunti v303 assente nella config')
         if articles_cfg.get('semantic_repetition_forbidden') is not True: errors.append('divieto ripetizioni semantiche assente nella config')
     except Exception as exc: errors.append(f'automation/config.json non valido: {exc}')
@@ -52,7 +53,8 @@ if manifest_path.exists():
         if likeness.get('sensitive_news',{}).get('neutral_isolated_portrait_required') is not True: errors.append('ritratto neutrale per casi sensibili assente nel manifest')
         if likeness.get('must_never_be_presented_as_documentary_evidence') is not True: errors.append('divieto di prova documentaria assente nel manifest')
         body_policy=manifest.get('news',{}).get('article_body_characters',{})
-        if body_policy.get('policy')!='type_based_no_fixed_character_minimum': errors.append('policy manifest v303 non basata sul tipo editoriale')
+        if body_policy.get('policy')!='fixed_3000_7000_characters': errors.append('policy manifest 3000-7000 assente')
+        if body_policy.get('minimum')!=3000 or body_policy.get('maximum')!=7000: errors.append('limiti manifest 3000-7000 assenti')
         if body_policy.get('minimum_value_add_elements')!=2: errors.append('manifest non richiede due valori aggiunti')
         if body_policy.get('semantic_repetition_forbidden') is not True: errors.append('manifest non vieta le ripetizioni semantiche')
     except Exception as exc: errors.append(f'curiomondo-site-manifest.json non valido: {exc}')
@@ -151,7 +153,7 @@ for p in news:
     if not bodies: errors.append(f'testo articolo assente: {p.name}')
     elif article_policy_active(d):
         body=bodies[0]
-        if body.get('data-length-policy')!='3000-7000': errors.append(f'policy lunghezza v257 non dichiarata nel markup: {p.name}')
+        if body.get('data-length-policy')!='3000-7000': errors.append(f'policy lunghezza 3000-7000 non dichiarata nel markup: {p.name}')
         body_text=re.sub(r'\s+',' ',' '.join(body.itertext())).strip()
         body_chars=len(body_text)
         if body_chars<3000: errors.append(f'articolo v257 sotto 3000 caratteri: {p.name} ({body_chars})')
