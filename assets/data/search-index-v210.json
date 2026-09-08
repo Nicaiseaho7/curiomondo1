@@ -1,6 +1,12 @@
 {
-  "version": 306,
+  "version": 307,
   "items": [
+    {
+      "title": "Sciopero ferroviario nazionale in corso fino alle 21: cosa deve sapere chi viaggia",
+      "excerpt": "L’agitazione prosegue fino alle 21 dell’8 settembre. Possibili cancellazioni e variazioni anche prima e dopo; il Regionale mantiene le fasce essenziali 6–9 e 18–21.",
+      "url": "/notizie/sciopero-fs-nazionale-7-8-settembre-2026-orari-treni-garantiti.html",
+      "section": "Italia / Trasporti"
+    },
     {
       "title": "Alessandro Di Battista resta in terapia intensiva a Cuba dopo l’intervento",
       "excerpt": "Dopo alcune ore di incoscienza ha parlato con i medici. Prosegue il trasferimento da Santa Clara all’Avana; il governo ha predisposto un aereo sanitario, ma l’eventuale rimpatrio dipenderà dalla valutazione clinica.",
@@ -104,12 +110,6 @@
       "section": "Italia / INPS / Servizi"
     },
     {
-      "title": "Sciopero FS nazionale dalle 21:18 del 7 settembre: cosa cambia per i treni",
-      "excerpt": "L’agitazione prosegue fino alle 21 dell’8 settembre. Possibili cancellazioni e variazioni anche prima e dopo; il Regionale mantiene le fasce essenziali 6–9 e 18–21.",
-      "url": "/notizie/sciopero-fs-nazionale-7-8-settembre-2026-orari-treni-garantiti.html",
-      "section": "Italia / Trasporti / Ferrovie"
-    },
-    {
       "title": "Calitri, 28enne fermato dopo l’aggressione dell’ex compagna",
       "excerpt": "Una donna di 28 anni è ricoverata in prognosi riservata al San Carlo di Potenza. I Carabinieri hanno rintracciato l’ex compagno a Lioni; le verifiche giudiziarie proseguono.",
       "url": "/notizie/calitri-avellino-28enne-fermato-aggressione-ex-compagna-6-settembre-2026.html",
@@ -134,16 +134,16 @@
       "section": "Sport / Volley / Europei"
     },
     {
-      "title": "OPEC+ congela le quote petrolifere per ottobre",
-      "excerpt": "Sette produttori mantengono per ottobre i livelli richiesti a settembre. La guerra con l’Iran e le difficoltà nello Stretto di Hormuz continuano però a frenare l’offerta fisica.",
-      "url": "/notizie/opec-plus-congela-quote-petrolio-ottobre-6-settembre-2026.html",
-      "section": "Economia / Energia / OPEC+"
-    },
-    {
       "title": "Ebola Bundibugyo, il Congo vara un piano d’emergenza di 180 giorni",
       "excerpt": "Il governo congolese e i partner sanitari rafforzano per sei mesi la risposta all’epidemia. Sorveglianza, laboratori, prevenzione e coordinamento transfrontaliero sono gli assi centrali.",
       "url": "/notizie/ebola-bundibugyo-congo-piano-emergenza-180-giorni-6-settembre-2026.html",
       "section": "Mondo / Salute / Congo"
+    },
+    {
+      "title": "OPEC+ congela le quote petrolifere per ottobre",
+      "excerpt": "Sette produttori mantengono per ottobre i livelli richiesti a settembre. La guerra con l’Iran e le difficoltà nello Stretto di Hormuz continuano però a frenare l’offerta fisica.",
+      "url": "/notizie/opec-plus-congela-quote-petrolio-ottobre-6-settembre-2026.html",
+      "section": "Economia / Energia / OPEC+"
     },
     {
       "title": "Antonelli, impresa a Monza: vince il GP d’Italia partendo 19°",
@@ -524,16 +524,16 @@
       "section": "Italia / Esteri / Cronaca"
     },
     {
-      "title": "Rivolta nel carcere di Siracusa, agenti costretti a lanciarsi dal tetto: dieci poliziotti in ospedale, chiesta un’inchiesta",
-      "excerpt": "Nuovi dettagli sui disordini nel carcere di Siracusa: alcuni agenti sono saltati da circa quattro metri per sfuggire al lancio di pietre. I sindacati chiedono un’inchiesta sulla gestione dell’intervento.",
-      "url": "/notizie/siracusa-rivolta-carcere-agenti-tetto-inchiesta-30-agosto-2026.html",
-      "section": "Italia / Cronaca / Carceri / Sicurezza"
-    },
-    {
       "title": "Affitto dimezzato per i genitori separati: pronta la norma da 60 milioni, contributi fino a 6.000 euro l’anno",
       "excerpt": "Il MIT dichiara pronta la norma per il sostegno abitativo: 50% dell’affitto fino a 6.000 euro l’anno, reddito IRPEF entro 35.000 euro e prima platea stimata in almeno 5.000 beneficiari.",
       "url": "/notizie/affitto-genitori-separati-fondo-60-milioni-30-agosto-2026.html",
       "section": "Italia / Economia / Casa / Famiglie"
+    },
+    {
+      "title": "Rivolta nel carcere di Siracusa, agenti costretti a lanciarsi dal tetto: dieci poliziotti in ospedale, chiesta un’inchiesta",
+      "excerpt": "Nuovi dettagli sui disordini nel carcere di Siracusa: alcuni agenti sono saltati da circa quattro metri per sfuggire al lancio di pietre. I sindacati chiedono un’inchiesta sulla gestione dell’intervento.",
+      "url": "/notizie/siracusa-rivolta-carcere-agenti-tetto-inchiesta-30-agosto-2026.html",
+      "section": "Italia / Cronaca / Carceri / Sicurezza"
     },
     {
       "title": "Nancy Grace Roman, domani il lancio: il telescopio NASA che mapperà miliardi di galassie",
@@ -734,16 +734,16 @@
       "section": "Italia / Politica / Economia"
     },
     {
-      "title": "Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
-      "excerpt": "Richiesta, invio, firma, buste, scadenze e conteggio: una guida semplice per capire come funziona il voto postale negli Stati Uniti e perché le regole cambiano da Stato a Stato.",
-      "url": "/notizie/voto-postale-usa-come-funziona-regole-controlli.html",
-      "section": "Mondo / Stati Uniti / Elezioni"
-    },
-    {
       "title": "Che cos’è la Coalizione dei Volenterosi e perché organizza esercitazioni per l’Ucraina?",
       "excerpt": "Una guida chiara alla Coalizione dei Volenterosi: chi ne fa parte, quale ruolo ha la forza multinazionale, perché vengono organizzate esercitazioni e cosa significa partecipare.",
       "url": "/notizie/coalizione-volenterosi-ucraina-cosa-e-esercitazioni-come-funzionano.html",
       "section": "Mondo / Europa / Ucraina"
+    },
+    {
+      "title": "Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
+      "excerpt": "Richiesta, invio, firma, buste, scadenze e conteggio: una guida semplice per capire come funziona il voto postale negli Stati Uniti e perché le regole cambiano da Stato a Stato.",
+      "url": "/notizie/voto-postale-usa-come-funziona-regole-controlli.html",
+      "section": "Mondo / Stati Uniti / Elezioni"
     },
     {
       "title": "Gli USA estendono le sanzioni all’Iran, Teheran promette ritorsioni",
@@ -1016,27 +1016,27 @@
       "section": "Italia / Cultura / Patrimonio"
     },
     {
-      "title": "Perché gli incendi nelle torbiere sono così difficili da spegnere e possono ripartire?",
-      "excerpt": "La torba può bruciare lentamente sotto terra, sfuggire ai controlli e riaccendere le fiamme in superficie. Ecco che cosa accade e come si interviene.",
-      "url": "/notizie/perche-incendi-torbiere-difficili-spegnere.html",
-      "section": "Mondo / Ambiente / Incendi"
-    },
-    {
       "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
       "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
       "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
       "section": "Mondo / Ambiente / Incendi"
     },
     {
-      "title": "Uragano Lala sfiora la Big Island senza toccare terra: blackout, alluvioni e una vittima",
-      "excerpt": "Lala ha costeggiato la Big Island senza un impatto diretto, ma ha portato piogge torrenziali, raffiche violente, alluvioni e blackout a decine di migliaia di utenze.",
-      "url": "/notizie/uragano-lala-hawaii-big-island-blackout-alluvioni-16-agosto-2026.html",
-      "section": "Mondo / Meteo estremo / USA"
+      "title": "Perché gli incendi nelle torbiere sono così difficili da spegnere e possono ripartire?",
+      "excerpt": "La torba può bruciare lentamente sotto terra, sfuggire ai controlli e riaccendere le fiamme in superficie. Ecco che cosa accade e come si interviene.",
+      "url": "/notizie/perche-incendi-torbiere-difficili-spegnere.html",
+      "section": "Mondo / Ambiente / Incendi"
     },
     {
       "title": "Perché gli uragani colpiscono raramente le Hawaii e quando diventano pericolosi?",
       "excerpt": "Le Hawaii si trovano nel Pacifico tropicale, ma gli impatti diretti restano rari. Ecco come rotte, acqua, vento e montagne cambiano il rischio.",
       "url": "/notizie/perche-uragani-colpiscono-raramente-hawaii.html",
+      "section": "Mondo / Meteo estremo / USA"
+    },
+    {
+      "title": "Uragano Lala sfiora la Big Island senza toccare terra: blackout, alluvioni e una vittima",
+      "excerpt": "Lala ha costeggiato la Big Island senza un impatto diretto, ma ha portato piogge torrenziali, raffiche violente, alluvioni e blackout a decine di migliaia di utenze.",
+      "url": "/notizie/uragano-lala-hawaii-big-island-blackout-alluvioni-16-agosto-2026.html",
       "section": "Mondo / Meteo estremo / USA"
     },
     {
@@ -1112,16 +1112,16 @@
       "section": "Mondo / Stati Uniti"
     },
     {
-      "title": "Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
-      "excerpt": "A Gaza City si è tenuto il funerale collettivo di 112 persone i cui corpi sono stati recuperati dalle macerie di un attacco israeliano del novembre 2023.",
-      "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
-      "section": "Gaza / Cronaca"
-    },
-    {
       "title": "Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
       "excerpt": "A Roma è iniziato un nuovo round di colloqui tra Israele e Libano facilitato dagli Stati Uniti. Sul tavolo sicurezza, ritiro e autorità nel Sud del Libano.",
       "url": "/notizie/israele-libano-negoziati-roma-mediazione-usa.html",
       "section": "Roma / Diplomazia"
+    },
+    {
+      "title": "Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
+      "excerpt": "A Gaza City si è tenuto il funerale collettivo di 112 persone i cui corpi sono stati recuperati dalle macerie di un attacco israeliano del novembre 2023.",
+      "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
+      "section": "Gaza / Cronaca"
     },
     {
       "title": "Cosa faremmo se il tempo tornasse indietro di dieci anni, sapendo ciò che sappiamo ora?",

@@ -1,7 +1,40 @@
 {
-  "version": 306,
+  "version": 307,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "sciopero-ferroviario-nazionale-8-settembre-2026-ai-v307",
+      "article": "/notizie/sciopero-fs-nazionale-7-8-settembre-2026-orari-treni-garantiti.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Italian passenger train at a station during a national rail strike; waiting travelers; neutral photorealistic editorial scene; no logos or documentary claim.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/sciopero-ferroviario-nazionale-8-settembre-2026-ai-v307-480.webp",
+          "sha256": "6e58837a54944bae8c8499b354684c8e85fa2aa193e05f2c494734c60755fc34",
+          "bytes": 36952
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/sciopero-ferroviario-nazionale-8-settembre-2026-ai-v307-800.webp",
+          "sha256": "c74d8bd9352282269ca754d2bc92723cccd4077c4238e80739cc76288298f1a8",
+          "bytes": 83808
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/sciopero-ferroviario-nazionale-8-settembre-2026-ai-v307-1200.webp",
+          "sha256": "f4edb3ffc50d244aed350d95a80cfb4e3c77bc869057ce2dcf6de112c1ecef08",
+          "bytes": 154736
+        }
+      ],
+      "alt": "Treno passeggeri fermo in una stazione italiana con viaggiatori in attesa, illustrazione editoriale fotorealistica generata con IA sullo sciopero ferroviario",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "alessandro-di-battista-terapia-intensiva-avana-7-settembre-2026-ai-v306",
       "article": "/notizie/alessandro-di-battista-ricoverato-cuba-trasferimento-avana-29-agosto-2026.html",
@@ -559,39 +592,6 @@
         }
       ],
       "alt": "Scena editoriale contestuale generata con IA di una donna che prepara al computer la domanda per un soggiorno invernale nelle Case del Maestro",
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "portraitOnly": false,
-      "portraitFormat": "contextual-editorial-scene",
-      "reenactedEvent": false
-    },
-    {
-      "key": "sciopero-fs-7-8-settembre-2026-ai-v293",
-      "article": "/notizie/sciopero-fs-nazionale-7-8-settembre-2026-orari-treni-garantiti.html",
-      "aiGenerated": true,
-      "sensitiveContext": false,
-      "documentaryPhoto": false,
-      "prompt": "Ultra-realistic contextual editorial scene of a real Italian high-speed train at a large railway station before a national strike; real brands, logos and stations may appear naturally when accurate; no added text or documentary claim.",
-      "variants": [
-        {
-          "w": 480,
-          "src": "/assets/images/editorial-auto/sciopero-fs-7-8-settembre-2026-ai-v293-480.webp",
-          "sha256": "9931c1e9f45cc5f61ddd9e604ae5c99be41c81e66475739f56a64b9eceff29b5",
-          "bytes": 23716
-        },
-        {
-          "w": 800,
-          "src": "/assets/images/editorial-auto/sciopero-fs-7-8-settembre-2026-ai-v293-800.webp",
-          "sha256": "73710a71e5911d6358ca5232e56a65726c50f6cd253bfd9fa1bf323a799a1ee6",
-          "bytes": 53938
-        },
-        {
-          "w": 1200,
-          "src": "/assets/images/editorial-auto/sciopero-fs-7-8-settembre-2026-ai-v293-1200.webp",
-          "sha256": "84c4fd8499c50d645142c02b6b3e9412947e998439e2137e35eac6a820a9df8f",
-          "bytes": 97790
-        }
-      ],
-      "alt": "Scena editoriale contestuale generata con IA di un treno ad alta velocità in una stazione italiana alla vigilia dello sciopero nazionale",
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "portraitOnly": false,
       "portraitFormat": "contextual-editorial-scene",

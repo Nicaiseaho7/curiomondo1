@@ -7,8 +7,8 @@
     "current_protocol_version": "3.1",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-07",
-    "current_site_version": 306,
-    "site_version": 306
+    "current_site_version": 307,
+    "site_version": 307
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -19,7 +19,7 @@
     "legacy_update_notes"
   ],
   "daily_state": {
-    "last_question_date": "2026-09-07",
+    "last_question_date": "2026-09-08",
     "question_archive_path": "/domanda-del-giorno/",
     "question_library_root": "/biblioteca/vita-relazioni/",
     "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE",
