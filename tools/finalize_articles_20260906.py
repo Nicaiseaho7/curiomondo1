@@ -230,7 +230,7 @@ def make_featured(item):
     a = etree.Element("a", {"class": "featured", "href": item["url"]})
     picture(a, item, True)
     txt = etree.SubElement(a, "div", {"class": "txt"})
-    tag = etree.SubElement(txt, "span", {"class": "tag"}); tag.text = "Ultima ora"
+    tag = etree.SubElement(txt, "span", {"class": "tag"}); tag.text = "In evidenza"
     h1 = etree.SubElement(txt, "h1"); h1.text = item["title"]
     p = etree.SubElement(txt, "p"); p.text = item["excerpt"]
     cta = etree.SubElement(txt, "span", {"class": "cta"}); cta.text = "Leggi l’articolo →"

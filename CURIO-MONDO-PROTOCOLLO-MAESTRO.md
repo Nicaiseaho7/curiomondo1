@@ -84,7 +84,7 @@ Quando viene aggiunta una nuova notizia, questa entra nella card di apertura (`f
 - Il gancio di conoscenza può essere integrato nel corpo con un riquadro editoriale discreto o trasformato/collegato a un approfondimento evergreen autonomo quando l’argomento merita una pagina riutilizzabile. Se esiste già una guida equivalente, collegarla invece di duplicarla. L’obiettivo è che ogni notizia lasci al lettore almeno una conoscenza utile che resti valida anche dopo che l’attualità è passata. Non richiede la spiegazione automatica di parole difficili.
 - Quando una notizia offre un meccanismo, un servizio o un contesto con valore durevole e non ridondante, creare o collegare un approfondimento evergreen autonomo. La guida deve essere realmente utile al lettore e non una scusa per definire parole. Prima di crearne uno nuovo verificare che non esista già un approfondimento equivalente.
 - Ogni nuovo approfondimento deve essere collegato in entrambe le direzioni: dalla notizia alla guida e dalla guida alla notizia di origine; deve entrare in ricerca, archivio degli approfondimenti, sitemap e feed. In homepage restano visibili soltanto gli ultimi 3 approfondimenti.
-- “Ultima ora” non è assegnata per semplice cronologia: ogni nuova notizia riceve un peso editoriale e la posizione va alla notizia più importante del lotto recente.
+- “In evidenza” compare soltanto sulla card principale della homepage e non sulle card piccole. Non è assegnata per semplice cronologia: ogni nuova notizia riceve un peso editoriale e la posizione va alla notizia più importante del lotto recente.
 - Il menu hamburger deve mostrare il nome “Nicaise” con resa tipografica premium, elegante e riconoscibile.
 
 ## Prompt macchina obbligatorio per la generazione immagini — v183

@@ -17,7 +17,7 @@ OBBLIGHI ASSOLUTI
 - Ogni nuovo articolo o aggiornamento deve avere una scena nuova, non un riuso/crop/resize/variante di immagini già pubblicate.
 - PERSONAGGI PUBBLICI: è consentito generarli riconoscibili in stile ultrarealistico, anche con somiglianza sintetica comunemente detta “deepfake”, quando sono direttamente pertinenti alla notizia. Nelle notizie ordinarie sono ammessi luoghi, ambientazioni, persone, oggetti e loghi coerenti. Il ritratto neutrale isolato è obbligatorio soltanto per incidenti, morte, salute, violenza, tragedie, lutto, sofferenza e altre situazioni sensibili. La resa è sempre un'illustrazione editoriale dichiarata, mai una prova fotografica. Leggere integralmente `AI-EDITORIAL-IMAGE-PROTOCOL.md`.
 - NewsArticle JSON-LD, SEO, canonical, fonti, archivi, ricerca, feed, sitemap e News Sitemap obbligatori.
-- Ultime notizie in homepage: esattamente 5. Ultima ora solo se realmente giustificata. LIVE: 10.
+- Ultime notizie in homepage: esattamente 5. La dicitura “In evidenza” compare solo sulla card principale, mai sulle card piccole. LIVE: 10.
 - Approfondimenti separati dagli articoli; in homepage mostrarne gli ultimi 3.
 - Ogni articolo deve contenere almeno un “gancio di conoscenza”: aggiungere un elemento di contesto poco noto ma utile presente nella notizia, senza trasformarlo in una definizione obbligatoria. Può chiarire un meccanismo, una procedura, un'istituzione o una conseguenza quando serve davvero. Vietato usarlo come riempitivo. Se il tema merita valore evergreen, creare o collegare una guida autonoma.
 - Se un gate fallisce: NON PUBBLICARE.
