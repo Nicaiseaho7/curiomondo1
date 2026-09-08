@@ -88,7 +88,7 @@ Se emergono più notizie valide nello stesso ciclo, pubblicarle tutte (fino al
 tetto `automation/config.json` → `articles.max_articles_per_cycle`, attualmente 8),
 ma con **un solo commit/deploy per l'intero ciclo** (`max_deploys_per_cycle: 1`).
 La notizia editorialmente più pesante del ciclo (per impatto, novità, portata)
-diventa il nuovo blocco "featured"/Ultima ora in homepage; l'attuale featured
+diventa il nuovo blocco principale "featured"/In evidenza in homepage; l'attuale featured
 scende in cima all'"auto-rail". Le altre notizie del ciclo entrano in cima
 all'auto-rail e alle card, con la card più vecchia che scorre giù/esce.
 

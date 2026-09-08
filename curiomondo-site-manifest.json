@@ -7,8 +7,8 @@
     "current_protocol_version": "3.1",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-07",
-    "current_site_version": 308,
-    "site_version": 308
+    "current_site_version": 309,
+    "site_version": 309
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -28,14 +28,14 @@
     "last_question_slug": "quale-parte-della-tua-vita-stai-vivendo-in-attesa-di-sentirti-finalmente-pronto"
   },
   "homepage": {
-    "hero_section_label": "Ultima ora",
+    "hero_section_label": "In evidenza",
     "hero_selection_mode": "editorial_importance_among_recent_eligible_articles",
     "featured_section_label": "Ultime notizie",
     "featured_exact_count": 5,
     "live_exact_count": 10,
     "live_order": "newest_first",
     "chronological_continuity": {
-      "rule": "auto-rail (Ultime notizie) + #cards (Tutte le notizie) formano una sequenza continua, senza salti, ordinata per datePublished decrescente tra gli articoli idonei escluso quello eventualmente occupato dalla card featured/Ultima ora",
+      "rule": "auto-rail (Ultime notizie) + #cards (Tutte le notizie) formano una sequenza continua, senza salti, ordinata per datePublished decrescente tra gli articoli idonei escluso quello eventualmente occupato dalla card principale In evidenza",
       "featured_exempt_from_strict_chronology": true,
       "featured_must_not_hide_article_from_other_required_surfaces": true,
       "ticker_exempt": true,
