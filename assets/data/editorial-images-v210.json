@@ -1,7 +1,103 @@
 {
-  "version": 285,
+  "version": 310,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "emma-bonino-ricovero-8-settembre-2026-ai-v310",
+      "article": "/notizie/emma-bonino-ricoverata-crisi-respiratoria-8-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/emma-bonino-ricovero-8-settembre-2026-ai-v310-480.webp",
+          "sha256": "2f7a88f67868f20a455f9ff97d2d4a64ec56bd7dd478f91dc85a01b48de1926f",
+          "bytes": 18456
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/emma-bonino-ricovero-8-settembre-2026-ai-v310-800.webp",
+          "sha256": "341fdaef7052cb96896da72417be7538dc16d69392c6a44c72ef110f904ce2af",
+          "bytes": 36010
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/emma-bonino-ricovero-8-settembre-2026-ai-v310-1200.webp",
+          "sha256": "1289116a3889f968db168447d709edc3b56ebf9065fd15d8a9bc392f3b3470a8",
+          "bytes": 59502
+        }
+      ],
+      "alt": "Corridoio ospedaliero con apparecchiatura per il monitoraggio respiratorio, illustrazione editoriale fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "tajani-argentina-brasile-imprese-8-settembre-2026-ai-v310",
+      "article": "/notizie/tajani-missione-argentina-brasile-oltre-100-imprese-8-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/tajani-argentina-brasile-imprese-8-settembre-2026-ai-v310-480.webp",
+          "sha256": "8c7d2f92209f8fb5123d643cbfa18f95625ad7c0278a55a1461f04a1217a38a0",
+          "bytes": 33144
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/tajani-argentina-brasile-imprese-8-settembre-2026-ai-v310-800.webp",
+          "sha256": "5eb561dc80850c1678cc7fc9e20c01dde5877911707a290f3ef438c84a9bd8fd",
+          "bytes": 68288
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/tajani-argentina-brasile-imprese-8-settembre-2026-ai-v310-1200.webp",
+          "sha256": "8664a69bfa398b7ae3d853cd7ca0cb836bdccea45f9f946ff50489f757d6454f",
+          "bytes": 112334
+        }
+      ],
+      "alt": "Delegazione imprenditoriale in partenza per una missione internazionale, illustrazione editoriale fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "udine-scuola-intelligenza-artificiale-8-settembre-2026-ai-v310",
+      "article": "/notizie/udine-scuole-docenti-intelligenza-artificiale-creativita-8-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/udine-scuola-intelligenza-artificiale-8-settembre-2026-ai-v310-480.webp",
+          "sha256": "4dd047d7ae916890618b065d665fb3271e2a700a43986bb2b8aef649b1ec60f4",
+          "bytes": 26338
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/udine-scuola-intelligenza-artificiale-8-settembre-2026-ai-v310-800.webp",
+          "sha256": "7b3304bdc8df130ede470440bac7cbf191dba5de80131c052995b5cb9517023c",
+          "bytes": 52780
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/udine-scuola-intelligenza-artificiale-8-settembre-2026-ai-v310-1200.webp",
+          "sha256": "f5e3c922050982fb1d700e217fe29d9467fae387bdbf48496bacd773e67ca350",
+          "bytes": 88108
+        }
+      ],
+      "alt": "Docenti riuniti in un’aula magna durante un seminario sull’intelligenza artificiale, illustrazione editoriale fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "sciopero-ferroviario-nazionale-8-settembre-2026-ai-v307",
       "article": "/notizie/sciopero-fs-nazionale-7-8-settembre-2026-orari-treni-garantiti.html",
