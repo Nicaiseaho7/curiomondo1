@@ -1,7 +1,103 @@
 {
-  "version": 311,
+  "version": 312,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "re-harald-v-ritratto-neutrale-ai-v312",
+      "article": "/notizie/norvegia-funerali-stato-re-harald-v-oslo-9-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/re-harald-v-ritratto-neutrale-ai-v312-480.webp",
+          "sha256": "c334f93fead683777b9c849b607f255e327ea806305e069b4298133d50b486ee",
+          "bytes": 5780
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/re-harald-v-ritratto-neutrale-ai-v312-800.webp",
+          "sha256": "dec4fb3e173474db9130756c9e550fd90fe3e19728d5a0a13215b234c92e111a",
+          "bytes": 12196
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/re-harald-v-ritratto-neutrale-ai-v312-1200.webp",
+          "sha256": "bf0305a3a2939ce08dffbe1866d27ce152aa441208b07b96e6ab22fb242620c2",
+          "bytes": 23536
+        }
+      ],
+      "alt": "Ritratto editoriale neutrale isolato di re Harald V su sfondo blu scuro, somiglianza sintetica fotorealistica generata con IA per un contesto sensibile",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false
+    },
+    {
+      "key": "usa-canada-divieti-commerciali-ai-v312",
+      "article": "/notizie/usa-divieti-importazioni-canada-alcol-latticini-moto-bombardier-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/usa-canada-divieti-commerciali-ai-v312-480.webp",
+          "sha256": "f4226e2764f21eadf426085d7a358f4a312da0ab397976fc0c1427ea33452d8b",
+          "bytes": 19584
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/usa-canada-divieti-commerciali-ai-v312-800.webp",
+          "sha256": "cb447399a1370365c2b6e8aeddcf0de74edec1c6494eb860e327ae6e5d3a25e7",
+          "bytes": 41852
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/usa-canada-divieti-commerciali-ai-v312-1200.webp",
+          "sha256": "c0d46faf7c3013f8ca8b236326a808165be78ff66e9588ebf4e7fc3bca5ed42d",
+          "bytes": 77436
+        }
+      ],
+      "alt": "Camion merci in coda a un valico tra Stati Uniti e Canada, scena editoriale contestuale fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "electrolux-sciopero-italia-ai-v312",
+      "article": "/notizie/electrolux-sciopero-15-settembre-esuberi-chiusura-cerreto-desi-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/electrolux-sciopero-italia-ai-v312-480.webp",
+          "sha256": "4d5c990ac62f462f6aa1aa17dfec6f380a99bf3c547b4b62aac9f99af910368c",
+          "bytes": 17712
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/electrolux-sciopero-italia-ai-v312-800.webp",
+          "sha256": "f50f7688721f14e77cd94ebd9f54cac8a89601ada754859fa61f30f0763d4995",
+          "bytes": 36550
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/electrolux-sciopero-italia-ai-v312-1200.webp",
+          "sha256": "350d5cd926926860a8ed92da38cf9f1f9676aa90d90149aee6d60212a5ca7243",
+          "bytes": 67240
+        }
+      ],
+      "alt": "Lavoratori all’esterno di uno stabilimento Electrolux in Italia, scena editoriale contestuale fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "iran-usa-hormuz-petrolio-ai-v311",
       "article": "/notizie/iran-attacchi-base-usa-giordania-navi-hormuz-petrolio-9-settembre-2026.html",
