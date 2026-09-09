@@ -1,7 +1,71 @@
 {
-  "version": 310,
+  "version": 311,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "iran-usa-hormuz-petrolio-ai-v311",
+      "article": "/notizie/iran-attacchi-base-usa-giordania-navi-hormuz-petrolio-9-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/iran-usa-hormuz-petrolio-ai-v311-480.webp",
+          "sha256": "0a3e4c037fe58a599343358f7620a0c8723722ea583aa902d6fe6b84ee4a9829",
+          "bytes": 15414
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/iran-usa-hormuz-petrolio-ai-v311-800.webp",
+          "sha256": "8b22c9240a9fda6046612c9bbd262a0dd0732dfc250e4e7b9f49c90f35339bd2",
+          "bytes": 43732
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/iran-usa-hormuz-petrolio-ai-v311-1200.webp",
+          "sha256": "10b726cb505f7f11ebdc1616a47c54bd85fee58c98788dd0b5b8902dee992b1b",
+          "bytes": 101638
+        }
+      ],
+      "alt": "Petroliere nello Stretto di Hormuz sorvegliate a distanza da unità navali, scena editoriale fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "italia-banche-manovra-2027-ai-v311",
+      "article": "/notizie/italia-banche-contributo-manovra-2027-proposta-lega-8-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/italia-banche-manovra-2027-ai-v311-480.webp",
+          "sha256": "3461476b065ac907b8a8166f70e3877b4e8d66289e20b106fb24cb4f120a7be9",
+          "bytes": 24274
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/italia-banche-manovra-2027-ai-v311-800.webp",
+          "sha256": "9c92405752df22c70b6df8e981650b61b5c6c78bd26612e4c4c10dcad00ec989",
+          "bytes": 46400
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/italia-banche-manovra-2027-ai-v311-1200.webp",
+          "sha256": "290f807b1b355d5becfc005f27e1db37673019ad6eb8f7ea76adc4f1a65620b6",
+          "bytes": 83662
+        }
+      ],
+      "alt": "Edifici istituzionali italiani e settore bancario, scena editoriale contestuale fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "emma-bonino-ricovero-8-settembre-2026-ai-v310",
       "article": "/notizie/emma-bonino-ricoverata-crisi-respiratoria-8-settembre-2026.html",

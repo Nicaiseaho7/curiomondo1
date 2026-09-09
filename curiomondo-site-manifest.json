@@ -7,8 +7,8 @@
     "current_protocol_version": "3.1",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-07",
-    "current_site_version": 310,
-    "site_version": 310
+    "current_site_version": 311,
+    "site_version": 311
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -19,13 +19,13 @@
     "legacy_update_notes"
   ],
   "daily_state": {
-    "last_question_date": "2026-09-08",
+    "last_question_date": "2026-09-09",
     "question_archive_path": "/domanda-del-giorno/",
     "question_library_root": "/biblioteca/vita-relazioni/",
     "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE",
     "timezone": "Europe/Rome",
     "date_source": "current_datetime_in_Europe_Rome_never_UTC",
-    "last_question_slug": "quale-parte-della-tua-vita-stai-vivendo-in-attesa-di-sentirti-finalmente-pronto"
+    "last_question_slug": "quando-la-prudenza-smette-di-proteggerci-e-comincia-a-trattenerci"
   },
   "homepage": {
     "hero_section_label": "In evidenza",
