@@ -1,7 +1,7 @@
 # Protocollo permanente qualità editoriale e idoneità Google AdSense
 
-Versione protocollo: 3.1
-Data: 7 settembre 2026
+Versione protocollo: 4.0
+Data: 10 settembre 2026
 Stato: obbligatorio, fail-closed, prevalente su qualunque istruzione che privilegi quantità o velocità.
 
 ## Obiettivo e limite di garanzia
@@ -33,25 +33,46 @@ Ogni articolo deve contenere almeno due elementi tra:
 2. limite o incertezza espliciti;
 3. confronto utile con periodo, media, luogo o precedente pertinente;
 4. scheda pratica con date, destinatari, procedura o conseguenze per il lettore;
-5. definizione di una sola parola tecnica necessaria;
-6. collegamento utile a un approfondimento CurioMondo già esistente e non duplicato;
-7. aggiornamento sostanziale rispetto a una versione precedente.
+5. collegamento utile a un approfondimento CurioMondo già esistente e non duplicato;
+6. aggiornamento sostanziale rispetto a una versione precedente.
 
 Se non sono disponibili almeno due elementi, non pubblicare il pezzo autonomo.
 
 ## Tipi di contenuto e lunghezza editoriale
 
-Ogni articolo deve contenere obbligatoriamente da 3.000 a 7.000 caratteri di testo editoriale principale. La soglia non sostituisce il giudizio di qualità e non consente ripetizioni, definizioni ovvie o paragrafi di riempimento. Se le informazioni verificate non bastano per raggiungere il minimo in modo utile, l'articolo non deve essere pubblicato.
+Dal protocollo 4.0 non esiste una soglia unica in caratteri. La lunghezza dipende dal formato e dalla quantità di informazioni verificate. È vietato aggiungere contesto generico, definizioni, aggettivi o riepiloghi per raggiungere un conteggio.
 
-- **Notizia:** usa la lunghezza più corta capace di contenere tutti i fatti e almeno due valori aggiunti. Come riferimento: servizi e bandi 250–400 parole; dati da decodificare 500–800; riepiloghi multi-evento 700–1.000 soltanto se ogni blocco introduce fatti nuovi. Struttura: titolo fattuale, occhiello non ripetitivo, tre dati duri, lead completo, metodo o limiti, contesto minimo o cosa cambia, poi stop. Vietata la chiusura-riassunto o morale.
-- **Approfondimento:** un solo meccanismo, 500–900 parole e massimo quattro concetti. Parte dal problema del lettore e termina con tre domande utili per interpretare la prossima notizia.
+- **Flash news / Ultima ora:** 100–250 parole. Solo fatti essenziali: chi, cosa, quando, dove e perché, se il perché è verificato.
+- **Articolo standard di cronaca o attualità:** 300–600 parole. Sviluppa il fatto con dettagli, numeri, citazioni attribuite e contesto necessario, senza stancare la lettura su smartphone.
+- **Approfondimento / Analisi:** 800–1.500 parole o più soltanto quando la materia lo richiede. Usa sezioni brevi e titoletti informativi. Resta una pagina autonoma distinta dalla notizia.
+- **Scheda di servizio:** elenca chi, requisiti, date, link ufficiale, eccezioni e ciò che non è ancora noto. Può rientrare nella fascia flash o standard: corto e utile prevale su lungo e vuoto.
+
+Gli aggiornamenti sostanziali possono superare la fascia iniziale quando aggiungono nuovi fatti verificati. La misura resta una conseguenza dell'informazione, mai l'obiettivo.
+
+## Struttura obbligatoria: piramide invertita
+
+1. **Titolo:** chiaro, informativo, coerente con il fatto e privo di clickbait.
+2. **Sommario o catenaccio:** una o due frasi che completano il titolo con un dettaglio chiave senza ripeterlo.
+3. **Lead:** il primo paragrafo contiene il nocciolo della notizia e risponde subito a chi, cosa, quando, dove e perché. Se una delle 5 W non è ancora nota, lo dichiara senza ipotesi.
+4. **Corpo:** dettagli, cifre, citazioni e contesto in ordine decrescente di importanza.
+5. **Chiusura:** solo background storico o precedente pertinente. Sono vietati morale, commento editoriale e riepilogo del lead.
+
+## Sintassi, ritmo e pulizia
+
+- Una sola idea per paragrafo; 2–4 frasi e non più di 60 parole.
+- Frasi brevi e lineari, con struttura prevalente soggetto + verbo + complemento. Obiettivo: 20–25 parole per frase.
+- Eliminare ripetizioni lessicali e concettuali. Usare sinonimi precisi, iperonimi, pronomi o perifrasi solo quando non alterano il significato.
+- Eliminare riempitivi, avverbi inutili e aggettivi enfatici. In particolare evitare `attualmente`, `fondamentalmente` e `ovviamente` quando non aggiungono un'informazione verificabile.
+- Preferire verbi d'azione precisi al presente o al passato prossimo. Ridurre forme passive e subordinate incassate.
+- Non usare prima persona, giudizi di valore o formule emotive. Fatti, dati e citazioni attribuite sostengono ogni affermazione.
+- Usare il grassetto soltanto per 1–2 parole chiave essenziali per paragrafo. Non evidenziare frasi intere.
 - **Domanda del giorno:** lettura di 2–4 minuti, una sola metafora e ultima frase legata al presente. Non entra in “Ultima ora”.
 - **Scheda di servizio:** elenca chi, requisiti, date, link ufficiale, eccezioni e ciò che non è ancora noto. Può essere breve: corto e utile prevale su lungo e vuoto.
 
 ## Stile, fonti e chiusura obbligatoria
 
 - Italiano standard, adulto e preciso; una sola idea per frase e paragrafi di 2–4 frasi.
-- Massimo una definizione tecnica in evidenza, soltanto se necessaria. Vietate spiegazioni ovvie.
+- Non inserire spiegazioni di parole difficili, sigle o termini tecnici nel corpo della notizia. Preferire un lessico comune. Se un tema richiede vera spiegazione, creare o collegare un approfondimento autonomo.
 - Titoli fattuali e coerenti con H1, URL e contenuto. Vietati clickbait, keyword stuffing e promesse non mantenute.
 - Citazioni soltanto quando presenti nelle fonti, tra virgolette e attribuite. Vietato inventare scene, emozioni, cause o citazioni.
 - Preferire ente, comunicato, dataset, regolamento o atto ufficiale. ANSA, Reuters e altre agenzie sono conferme, non l'unica materia del pezzo.
@@ -73,7 +94,7 @@ Ogni risposta editoriale deve compilare SÌ/NO per tutti i punti seguenti; un so
 1. il lead sta in piedi da solo;
 2. sono presenti almeno due elementi di valore aggiunto;
 3. non è la parafrasi di una sola agenzia;
-4. contiene al massimo una definizione e nessuna morale finale;
+4. non contiene glossari o spiegazioni di parole difficili e non chiude con una morale;
 5. ogni cifra ha una fonte;
 6. non contiene fatti inventati o cause speculative;
 7. titolo, URL e contenuto coincidono;
@@ -103,11 +124,11 @@ Le pagine `noindex` non devono contenere codice pubblicitario. Le pagine storich
 
 Ogni nuovo articolo CurioMondo deve essere comprensibile anche a un lettore che non conosce già l'argomento.
 
-1. Ogni nuovo articolo deve preferire parole comuni e frasi naturali. È vietato inserire spiegazioni automatiche o sistematiche di termini tecnici, sigle e parole non comuni.
-2. Quando utile, l'articolo deve includere un approfondimento evergreen che spieghi un meccanismo, un contesto o una domanda destinati a rimanere validi anche dopo la fine della notizia.
+1. Ogni nuovo articolo deve preferire parole comuni e frasi naturali. È vietato spiegare nel corpo della notizia parole difficili, sigle o termini tecnici con inciso, parentesi, box, glossario o formula didascalica.
+2. Quando una spiegazione aggiunge valore reale, deve essere sviluppata in un approfondimento autonomo con pagina dedicata, non inserita per allungare la notizia.
 3. L'approfondimento deve aggiungere conoscenza reale. Non deve ripetere la notizia, riassumere quanto già scritto o essere utilizzato per aumentare artificialmente la lunghezza dell'articolo.
 4. Se esiste già una guida evergreen pertinente nella Biblioteca o nella sezione Approfondimenti, deve essere inserito un collegamento interno. Le relative card non devono comparire nella home page e devono restare accessibili dal menu a tre righe o dai collegamenti interni degli articoli.
-5. Una precisazione breve è ammessa soltanto se indispensabile per capire correttamente un fatto, evitare un equivoco rilevante o seguire un'indicazione di sicurezza. Niente effetto glossario, parentesi continue o definizioni forzate.
+5. Una precisazione fattuale resta ammessa soltanto per evitare un errore, distinguere una dichiarazione da un fatto o fornire un'indicazione di sicurezza. Non deve trasformarsi nella spiegazione lessicale di un termine.
 6. Non devono essere creati approfondimenti forzati quando non aggiungono valore. L'evergreen deve offrire informazioni durevoli, operative e non ripetitive.
 7. Prima della pubblicazione deve essere verificato che il testo sia chiaro senza sovraspiegazioni, che ogni paragrafo aggiunga informazioni nuove, che l'approfondimento sia basato su fonti affidabili e che non contenga tecnicismi inutili o testo di riempimento.
 

@@ -20,8 +20,14 @@ prompt_path=root/'automation/prompts/image-generation-contract.txt'
 config_path=root/'automation/config.json'
 manifest_path=root/'curiomondo-site-manifest.json'
 image_registry_path=root/'assets/data/editorial-images-v210.json'
-for required_path in (policy_path,prompt_path,config_path,manifest_path,root/'AGENTS.md'):
+editorial_protocol_path=root/'PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md'
+master_protocol_path=root/'CURIO-MONDO-PROTOCOLLO-MAESTRO.md'
+for required_path in (policy_path,prompt_path,config_path,manifest_path,root/'AGENTS.md',editorial_protocol_path,master_protocol_path):
     if not required_path.exists(): errors.append(f'protocollo IA assente: {required_path.relative_to(root)}')
+if editorial_protocol_path.exists():
+    editorial_protocol=editorial_protocol_path.read_text(errors='replace')
+    for marker in ('Versione protocollo: 4.0','piramide invertita','100–250 parole','300–600 parole','800–1.500 parole','non più di 60 parole','È vietato spiegare nel corpo della notizia parole difficili'):
+        if marker not in editorial_protocol: errors.append(f'direttiva editoriale v4 assente: {marker}')
 if prompt_path.exists():
     prompt=prompt_path.read_text(errors='replace')
     for marker in ('PUBLIC FIGURES AND SYNTHETIC LIKENESS','data-synthetic-likeness="public-figure"','data-sensitive-context="true|false"','AI-EDITORIAL-IMAGE-PROTOCOL.md','ORDINARY public-figure news','SENSITIVE public-figure news','neutral isolated portrait','buildings and logos are allowed'):
@@ -37,8 +43,13 @@ if config_path.exists():
         if likeness.get('sensitive_news',{}).get('neutral_isolated_portrait_required') is not True: errors.append('ritratto neutrale per casi sensibili assente nella config')
         if likeness.get('documentary_claim_forbidden') is not True: errors.append('divieto documentario assente nella config')
         articles_cfg=config.get('articles',{})
-        if articles_cfg.get('article_length_policy')!='fixed_3000_7000_characters': errors.append('policy lunghezza 3000-7000 assente nella config')
-        if articles_cfg.get('article_min_chars')!=3000 or articles_cfg.get('article_max_chars')!=7000: errors.append('limiti 3000-7000 assenti nella config')
+        if articles_cfg.get('article_length_policy')!='word_count_by_format': errors.append('policy lunghezza per formato assente nella config')
+        if articles_cfg.get('editorial_protocol_version')!='4.0': errors.append('protocollo editoriale 4.0 assente nella config')
+        if articles_cfg.get('format_word_ranges')!={'flash':[100,250],'standard':[300,600],'feature':[800,1500]}: errors.append('fasce parole per formato non conformi nella config')
+        if articles_cfg.get('feature_may_exceed_reference_range') is not True: errors.append('estensione feature oltre 1.500 parole non abilitata nella config')
+        if articles_cfg.get('inverted_pyramid_required') is not True or articles_cfg.get('lead_five_w_required') is not True: errors.append('piramide invertita o 5 W assenti nella config')
+        if articles_cfg.get('paragraph_max_words')!=60: errors.append('limite 60 parole per paragrafo assente nella config')
+        if articles_cfg.get('difficult_word_explanations_in_news_forbidden') is not True: errors.append('divieto spiegazioni lessicali assente nella config')
         if articles_cfg.get('minimum_value_add_elements')!=2: errors.append('minimo due valori aggiunti v303 assente nella config')
         if articles_cfg.get('semantic_repetition_forbidden') is not True: errors.append('divieto ripetizioni semantiche assente nella config')
     except Exception as exc: errors.append(f'automation/config.json non valido: {exc}')
@@ -53,8 +64,12 @@ if manifest_path.exists():
         if likeness.get('sensitive_news',{}).get('neutral_isolated_portrait_required') is not True: errors.append('ritratto neutrale per casi sensibili assente nel manifest')
         if likeness.get('must_never_be_presented_as_documentary_evidence') is not True: errors.append('divieto di prova documentaria assente nel manifest')
         body_policy=manifest.get('news',{}).get('article_body_characters',{})
-        if body_policy.get('policy')!='fixed_3000_7000_characters': errors.append('policy manifest 3000-7000 assente')
-        if body_policy.get('minimum')!=3000 or body_policy.get('maximum')!=7000: errors.append('limiti manifest 3000-7000 assenti')
+        if body_policy.get('policy')!='word_count_by_format': errors.append('policy manifest per formato assente')
+        if body_policy.get('editorial_protocol_version')!='4.0': errors.append('protocollo 4.0 assente nel manifest')
+        if body_policy.get('format_word_ranges')!={'flash':[100,250],'standard':[300,600],'feature':[800,1500]}: errors.append('fasce parole manifest non conformi')
+        if body_policy.get('feature_may_exceed_reference_range') is not True: errors.append('estensione feature oltre 1.500 parole non abilitata nel manifest')
+        if body_policy.get('inverted_pyramid_required') is not True or body_policy.get('lead_five_w_required') is not True: errors.append('piramide invertita o 5 W assenti nel manifest')
+        if body_policy.get('paragraph_max_words')!=60: errors.append('limite paragrafi assente nel manifest')
         if body_policy.get('minimum_value_add_elements')!=2: errors.append('manifest non richiede due valori aggiunti')
         if body_policy.get('semantic_repetition_forbidden') is not True: errors.append('manifest non vieta le ripetizioni semantiche')
     except Exception as exc: errors.append(f'curiomondo-site-manifest.json non valido: {exc}')
@@ -127,6 +142,17 @@ def article_policy_active(doc):
     bodies=doc.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," art-body ")]')
     if bodies and bodies[0].get('data-length-policy')=='3000-7000': return True
     return False
+def article_v4_required(doc):
+    threshold=datetime.fromisoformat('2026-09-10T20:00:00+02:00')
+    for raw in doc.xpath('//script[@type="application/ld+json"]/text()'):
+        try: obj=json.loads(raw)
+        except Exception: continue
+        objs=obj if isinstance(obj,list) else [obj]
+        for item in objs:
+            if not isinstance(item,dict) or item.get('@type')!='NewsArticle' or not item.get('datePublished'): continue
+            try: return datetime.fromisoformat(str(item['datePublished']).replace('Z','+00:00'))>=threshold
+            except Exception: return False
+    return False
 caption='Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.'
 card_eligible_dates={}
 for p in news:
@@ -181,6 +207,22 @@ for p in news:
                         errors.append(f'paragrafi ridondanti nell’articolo v248: {p.name} ({i+1}/{j+1})')
                         found_para=True; break
                 if found_para: break
+    if bodies and article_v4_required(d):
+        body=bodies[0]
+        if body.get('data-editorial-protocol')!='4.0': errors.append(f'protocollo editoriale 4.0 non dichiarato: {p.name}')
+        fmt=body.get('data-article-format')
+        ranges={'flash':(100,250),'standard':(300,600),'feature':(800,1500)}
+        if fmt not in ranges: errors.append(f'formato editoriale v4 assente o non valido: {p.name}')
+        else:
+            text_words=re.findall(r"\b[0-9A-Za-zÀ-ÖØ-öø-ÿ'’]+\b",' '.join(body.itertext()))
+            lower,upper=ranges[fmt]
+            substantial=body.get('data-substantive-update')=='true'
+            if len(text_words)<lower or (len(text_words)>upper and fmt!='feature' and not substantial): errors.append(f'lunghezza {fmt} v4 non conforme: {p.name} ({len(text_words)} parole)')
+            if fmt=='feature' and len(body.xpath('.//h2|.//h3'))<2: errors.append(f'approfondimento v4 senza titoletti sufficienti: {p.name}')
+        for idx,para in enumerate(body.xpath('.//p'),1):
+            words=re.findall(r"\b[0-9A-Za-zÀ-ÖØ-öø-ÿ'’]+\b",' '.join(para.itertext()))
+            if len(words)>60: errors.append(f'paragrafo v4 oltre 60 parole: {p.name} ({idx}: {len(words)})')
+            if len(para.xpath('.//strong|.//b'))>2: errors.append(f'troppi grassetti nel paragrafo v4: {p.name} ({idx})')
     figures=d.xpath('//main/figure[1]')
     if figures:
         refs += figures[0].xpath('.//img/@src')
