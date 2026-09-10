@@ -1,6 +1,32 @@
 {
-  "version": 312,
+  "version": 313,
   "items": [
+    {
+      "title": "Spazio, firmati a Parigi due accordi industriali tra Italia e Francia",
+      "excerpt": "AIKO e Leaf Space lavoreranno con gruppi francesi su intelligenza artificiale per le operazioni satellitari e comunicazioni ottiche. Le intese sono state annunciate al vertice internazionale di Parigi.",
+      "url": "/notizie/italia-francia-due-accordi-industriali-spazio-parigi-9-settembre-2026.html",
+      "section": "Italia / Tecnologia / Spazio",
+      "dateISO": "2026-09-10T07:20:00+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/italia-francia-spazio-accordi-ai-v313-800.webp",
+      "imageAlt": "Scena editoriale contestuale fotorealistica di tecnici italiani e francesi riuniti intorno a sistemi satellitari durante un vertice spaziale a Parigi, generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/italia-francia-spazio-accordi-ai-v313-480.webp 480w, /assets/images/editorial-auto/italia-francia-spazio-accordi-ai-v313-800.webp 800w, /assets/images/editorial-auto/italia-francia-spazio-accordi-ai-v313-1200.webp 1200w"
+    },
+    {
+      "title": "Petrolio, Brent oltre 100 dollari mentre cresce il rischio nello Stretto di Hormuz",
+      "excerpt": "Gli attacchi alle navi e i flussi ridotti dal Golfo mantengono il greggio sopra la soglia dei 100 dollari. L’EIA alza la previsione per la seconda metà del 2026.",
+      "url": "/notizie/brent-oltre-100-dollari-attacchi-navi-stretto-hormuz-10-settembre-2026.html",
+      "section": "Mondo / Economia / Energia",
+      "dateISO": "2026-09-10T07:10:00+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/brent-oltre-100-hormuz-ai-v313-800.webp",
+      "imageAlt": "Scena editoriale contestuale fotorealistica di petroliere in navigazione nello Stretto di Hormuz all’alba, generata con IA senza rappresentare attacchi",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/brent-oltre-100-hormuz-ai-v313-480.webp 480w, /assets/images/editorial-auto/brent-oltre-100-hormuz-ai-v313-800.webp 800w, /assets/images/editorial-auto/brent-oltre-100-hormuz-ai-v313-1200.webp 1200w"
+    },
     {
       "title": "Electrolux, sciopero nazionale il 15 settembre contro esuberi e chiusura di Cerreto d’Esi",
       "excerpt": "I sindacati fermano per otto ore gli stabilimenti italiani dopo il mancato avanzamento della trattativa. Il piano indicato prevede 1.450 esuberi e la chiusura del sito marchigiano.",
@@ -392,19 +418,6 @@
       "srcset": "/assets/images/editorial-auto/italia-turchia-finale-europei-volley-6-settembre-2026-ai-v293-480.webp 480w, /assets/images/editorial-auto/italia-turchia-finale-europei-volley-6-settembre-2026-ai-v293-800.webp 800w, /assets/images/editorial-auto/italia-turchia-finale-europei-volley-6-settembre-2026-ai-v293-1200.webp 1200w"
     },
     {
-      "title": "OPEC+ congela le quote petrolifere per ottobre",
-      "excerpt": "Sette produttori mantengono per ottobre i livelli richiesti a settembre. La guerra con l’Iran e le difficoltà nello Stretto di Hormuz continuano però a frenare l’offerta fisica.",
-      "url": "/notizie/opec-plus-congela-quote-petrolio-ottobre-6-settembre-2026.html",
-      "section": "Economia / Energia / OPEC+",
-      "dateISO": "2026-09-06T18:45:00+02:00",
-      "dateLabel": "2026-09-06",
-      "image": "/assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-800.webp",
-      "imageAlt": "Scena editoriale generata con IA di un terminal petrolifero e una petroliera in transito in un passaggio marittimo del Golfo",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-480.webp 480w, /assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-800.webp 800w, /assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-1200.webp 1200w"
-    },
-    {
       "title": "Ebola Bundibugyo, il Congo vara un piano d’emergenza di 180 giorni",
       "excerpt": "Il governo congolese e i partner sanitari rafforzano per sei mesi la risposta all’epidemia. Sorveglianza, laboratori, prevenzione e coordinamento transfrontaliero sono gli assi centrali.",
       "url": "/notizie/ebola-bundibugyo-congo-piano-emergenza-180-giorni-6-settembre-2026.html",
@@ -416,6 +429,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-480.webp 480w, /assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-800.webp 800w, /assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-1200.webp 1200w"
+    },
+    {
+      "title": "OPEC+ congela le quote petrolifere per ottobre",
+      "excerpt": "Sette produttori mantengono per ottobre i livelli richiesti a settembre. La guerra con l’Iran e le difficoltà nello Stretto di Hormuz continuano però a frenare l’offerta fisica.",
+      "url": "/notizie/opec-plus-congela-quote-petrolio-ottobre-6-settembre-2026.html",
+      "section": "Economia / Energia / OPEC+",
+      "dateISO": "2026-09-06T18:45:00+02:00",
+      "dateLabel": "2026-09-06",
+      "image": "/assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-800.webp",
+      "imageAlt": "Scena editoriale generata con IA di un terminal petrolifero e una petroliera in transito in un passaggio marittimo del Golfo",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-480.webp 480w, /assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-800.webp 800w, /assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-1200.webp 1200w"
     },
     {
       "title": "Antonelli, impresa a Monza: vince il GP d’Italia partendo 19°",
@@ -535,19 +561,6 @@
       "srcset": "/assets/images/editorial-auto/iran-economia-attacchi-piu-dolorosi-6-settembre-2026-ai-v285-480.webp 480w, /assets/images/editorial-auto/iran-economia-attacchi-piu-dolorosi-6-settembre-2026-ai-v285-800.webp 800w, /assets/images/editorial-auto/iran-economia-attacchi-piu-dolorosi-6-settembre-2026-ai-v285-1200.webp 1200w"
     },
     {
-      "title": "Confine Cina-Nepal, il porto di Gyirong cancellato dall’alluvione",
-      "excerpt": "Il valico che collegava Tibet e Nepal è stato travolto dalla colata di fango del 26 agosto. Del complesso doganale restano solo frammenti, mentre le ricerche dei dispersi continuano.",
-      "url": "/notizie/confine-cina-nepal-alluvione-porto-gyirong-distrutto-6-settembre-2026.html",
-      "section": "Mondo / Cina / Nepal",
-      "dateISO": "2026-09-06T14:20:00+02:00",
-      "dateLabel": "2026-09-06",
-      "image": "/assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-800.webp",
-      "imageAlt": "Scena editoriale contestuale sensibile del valico di Gyirong-Rasuwa tra Cina e Nepal con strada e infrastrutture danneggiate dall’alluvione, senza persone ferite",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-480.webp 480w, /assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-800.webp 800w, /assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-1200.webp 1200w"
-    },
-    {
       "title": "Ucraina, tregua aerea di 72 ore: Witkoff e Kushner oggi a Kyiv",
       "excerpt": "La pausa riguarda gli attacchi aerei contro le due capitali durante la missione americana, ma non tutti i combattimenti. Dopo il colloquio al Cremlino, gli inviati statunitensi sono attesi da Zelensky.",
       "url": "/notizie/ucraina-tregua-aerea-72-ore-witkoff-kushner-kyiv-6-settembre-2026.html",
@@ -559,6 +572,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-480.webp 480w, /assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-800.webp 800w, /assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-1200.webp 1200w"
+    },
+    {
+      "title": "Confine Cina-Nepal, il porto di Gyirong cancellato dall’alluvione",
+      "excerpt": "Il valico che collegava Tibet e Nepal è stato travolto dalla colata di fango del 26 agosto. Del complesso doganale restano solo frammenti, mentre le ricerche dei dispersi continuano.",
+      "url": "/notizie/confine-cina-nepal-alluvione-porto-gyirong-distrutto-6-settembre-2026.html",
+      "section": "Mondo / Cina / Nepal",
+      "dateISO": "2026-09-06T14:20:00+02:00",
+      "dateLabel": "2026-09-06",
+      "image": "/assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-800.webp",
+      "imageAlt": "Scena editoriale contestuale sensibile del valico di Gyirong-Rasuwa tra Cina e Nepal con strada e infrastrutture danneggiate dall’alluvione, senza persone ferite",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-480.webp 480w, /assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-800.webp 800w, /assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-1200.webp 1200w"
     },
     {
       "title": "Sassonia-Anhalt al voto, affluenza in forte aumento: l’AfD cerca una svolta storica",
@@ -1237,19 +1263,6 @@
       "srcset": "/assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-480.webp 480w, /assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-800.webp 800w, /assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-1200.webp 1200w"
     },
     {
-      "title": "Rivolta nel carcere di Siracusa, agenti costretti a lanciarsi dal tetto: dieci poliziotti in ospedale, chiesta un’inchiesta",
-      "excerpt": "Nuovi dettagli sui disordini nel carcere di Siracusa: alcuni agenti sono saltati da circa quattro metri per sfuggire al lancio di pietre. I sindacati chiedono un’inchiesta sulla gestione dell’intervento.",
-      "url": "/notizie/siracusa-rivolta-carcere-agenti-tetto-inchiesta-30-agosto-2026.html",
-      "section": "Italia / Cronaca / Carceri / Sicurezza",
-      "dateISO": "2026-08-30T00:19:00+02:00",
-      "dateLabel": "2026-08-30",
-      "image": "/assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-800.webp",
-      "imageAlt": "Scena editoriale IA fotorealistica di un istituto penitenziario siciliano durante una situazione di emergenza, con agenti in sicurezza e senza mostrare ferite o il salto dal tetto",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-1200.webp 1200w"
-    },
-    {
       "title": "Affitto dimezzato per i genitori separati: pronta la norma da 60 milioni, contributi fino a 6.000 euro l’anno",
       "excerpt": "Il MIT dichiara pronta la norma per il sostegno abitativo: 50% dell’affitto fino a 6.000 euro l’anno, reddito IRPEF entro 35.000 euro e prima platea stimata in almeno 5.000 beneficiari.",
       "url": "/notizie/affitto-genitori-separati-fondo-60-milioni-30-agosto-2026.html",
@@ -1261,6 +1274,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-1200.webp 1200w"
+    },
+    {
+      "title": "Rivolta nel carcere di Siracusa, agenti costretti a lanciarsi dal tetto: dieci poliziotti in ospedale, chiesta un’inchiesta",
+      "excerpt": "Nuovi dettagli sui disordini nel carcere di Siracusa: alcuni agenti sono saltati da circa quattro metri per sfuggire al lancio di pietre. I sindacati chiedono un’inchiesta sulla gestione dell’intervento.",
+      "url": "/notizie/siracusa-rivolta-carcere-agenti-tetto-inchiesta-30-agosto-2026.html",
+      "section": "Italia / Cronaca / Carceri / Sicurezza",
+      "dateISO": "2026-08-30T00:19:00+02:00",
+      "dateLabel": "2026-08-30",
+      "image": "/assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-800.webp",
+      "imageAlt": "Scena editoriale IA fotorealistica di un istituto penitenziario siciliano durante una situazione di emergenza, con agenti in sicurezza e senza mostrare ferite o il salto dal tetto",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-1200.webp 1200w"
     },
     {
       "title": "Nancy Grace Roman, domani il lancio: il telescopio NASA che mapperà miliardi di galassie",
@@ -1692,19 +1718,6 @@
       "srcset": "/assets/images/optimized/salvini-scostamento-manovra-2027-25-agosto-2026-fotorealistico-v177-640-v204.webp 640w, /assets/images/optimized/salvini-scostamento-manovra-2027-25-agosto-2026-fotorealistico-v177-960-v204.webp 960w"
     },
     {
-      "title": "Che cos’è la Coalizione dei Volenterosi e perché organizza esercitazioni per l’Ucraina?",
-      "excerpt": "Una guida chiara alla Coalizione dei Volenterosi: chi ne fa parte, quale ruolo ha la forza multinazionale, perché vengono organizzate esercitazioni e cosa significa partecipare.",
-      "url": "/notizie/coalizione-volenterosi-ucraina-cosa-e-esercitazioni-come-funzionano.html",
-      "section": "Mondo / Europa / Ucraina",
-      "dateISO": "2026-08-25T07:35:00+00:00",
-      "dateLabel": "2026-08-25",
-      "image": "/assets/images/editorial-v210/coalizione-volenterosi-800.webp",
-      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Che cos’è la Coalizione dei Volenterosi e perché organizza esercitazioni per l’Ucraina?",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v210/coalizione-volenterosi-480.webp 480w, /assets/images/editorial-v210/coalizione-volenterosi-800.webp 800w, /assets/images/editorial-v210/coalizione-volenterosi-1200.webp 1200w"
-    },
-    {
       "title": "Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
       "excerpt": "Richiesta, invio, firma, buste, scadenze e conteggio: una guida semplice per capire come funziona il voto postale negli Stati Uniti e perché le regole cambiano da Stato a Stato.",
       "url": "/notizie/voto-postale-usa-come-funziona-regole-controlli.html",
@@ -1716,6 +1729,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v210/voto-postale-usa-480.webp 480w, /assets/images/editorial-v210/voto-postale-usa-800.webp 800w, /assets/images/editorial-v210/voto-postale-usa-1200.webp 1200w"
+    },
+    {
+      "title": "Che cos’è la Coalizione dei Volenterosi e perché organizza esercitazioni per l’Ucraina?",
+      "excerpt": "Una guida chiara alla Coalizione dei Volenterosi: chi ne fa parte, quale ruolo ha la forza multinazionale, perché vengono organizzate esercitazioni e cosa significa partecipare.",
+      "url": "/notizie/coalizione-volenterosi-ucraina-cosa-e-esercitazioni-come-funzionano.html",
+      "section": "Mondo / Europa / Ucraina",
+      "dateISO": "2026-08-25T07:35:00+00:00",
+      "dateLabel": "2026-08-25",
+      "image": "/assets/images/editorial-v210/coalizione-volenterosi-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Che cos’è la Coalizione dei Volenterosi e perché organizza esercitazioni per l’Ucraina?",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v210/coalizione-volenterosi-480.webp 480w, /assets/images/editorial-v210/coalizione-volenterosi-800.webp 800w, /assets/images/editorial-v210/coalizione-volenterosi-1200.webp 1200w"
     },
     {
       "title": "Gli USA estendono le sanzioni all’Iran, Teheran promette ritorsioni",
@@ -2303,6 +2329,19 @@
       "srcset": "/assets/images/editorial-v210/recupero-opere-arte-480.webp 480w, /assets/images/editorial-v210/recupero-opere-arte-800.webp 800w, /assets/images/editorial-v210/recupero-opere-arte-1200.webp 1200w"
     },
     {
+      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
+      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
+      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
+      "section": "Mondo / Ambiente / Incendi",
+      "dateISO": "2026-08-16T12:00:00+02:00",
+      "dateLabel": "2026-08-16",
+      "image": "/assets/images/optimized/incendio-belgio-high-fens-16-agosto-2026-ai-960.webp",
+      "imageAlt": "Immagine illustrativa di vigili del fuoco impegnati contro un incendio in una torbiera delle Hautes Fagnes in Belgio",
+      "imageWidth": 640,
+      "imageHeight": 960,
+      "srcset": ""
+    },
+    {
       "title": "Perché gli incendi nelle torbiere sono così difficili da spegnere e possono ripartire?",
       "excerpt": "La torba può bruciare lentamente sotto terra, sfuggire ai controlli e riaccendere le fiamme in superficie. Ecco che cosa accade e come si interviene.",
       "url": "/notizie/perche-incendi-torbiere-difficili-spegnere.html",
@@ -2316,14 +2355,14 @@
       "srcset": "/assets/images/editorial-v210/incendi-torbiere-480.webp 480w, /assets/images/editorial-v210/incendi-torbiere-800.webp 800w, /assets/images/editorial-v210/incendi-torbiere-1200.webp 1200w"
     },
     {
-      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
-      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
-      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
-      "section": "Mondo / Ambiente / Incendi",
-      "dateISO": "2026-08-16T12:00:00+02:00",
+      "title": "Uragano Lala sfiora la Big Island senza toccare terra: blackout, alluvioni e una vittima",
+      "excerpt": "Lala ha costeggiato la Big Island senza un impatto diretto, ma ha portato piogge torrenziali, raffiche violente, alluvioni e blackout a decine di migliaia di utenze.",
+      "url": "/notizie/uragano-lala-hawaii-big-island-blackout-alluvioni-16-agosto-2026.html",
+      "section": "Mondo / Meteo estremo / USA",
+      "dateISO": "2026-08-16T10:00:00+02:00",
       "dateLabel": "2026-08-16",
-      "image": "/assets/images/optimized/incendio-belgio-high-fens-16-agosto-2026-ai-960.webp",
-      "imageAlt": "Immagine illustrativa di vigili del fuoco impegnati contro un incendio in una torbiera delle Hautes Fagnes in Belgio",
+      "image": "/assets/images/optimized/uragano-lala-hawaii-big-island-16-agosto-2026-ai-960.webp",
+      "imageAlt": "Immagine illustrativa di pioggia intensa, vento e mare agitato lungo la costa della Big Island alle Hawaii",
       "imageWidth": 640,
       "imageHeight": 960,
       "srcset": ""
@@ -2340,19 +2379,6 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v210/uragani-hawaii-480.webp 480w, /assets/images/editorial-v210/uragani-hawaii-800.webp 800w, /assets/images/editorial-v210/uragani-hawaii-1200.webp 1200w"
-    },
-    {
-      "title": "Uragano Lala sfiora la Big Island senza toccare terra: blackout, alluvioni e una vittima",
-      "excerpt": "Lala ha costeggiato la Big Island senza un impatto diretto, ma ha portato piogge torrenziali, raffiche violente, alluvioni e blackout a decine di migliaia di utenze.",
-      "url": "/notizie/uragano-lala-hawaii-big-island-blackout-alluvioni-16-agosto-2026.html",
-      "section": "Mondo / Meteo estremo / USA",
-      "dateISO": "2026-08-16T10:00:00+02:00",
-      "dateLabel": "2026-08-16",
-      "image": "/assets/images/optimized/uragano-lala-hawaii-big-island-16-agosto-2026-ai-960.webp",
-      "imageAlt": "Immagine illustrativa di pioggia intensa, vento e mare agitato lungo la costa della Big Island alle Hawaii",
-      "imageWidth": 640,
-      "imageHeight": 960,
-      "srcset": ""
     },
     {
       "title": "Quando un trasferimento nel calciomercato è davvero ufficiale? Visite mediche, contratto e comunicati spiegati",
@@ -2511,19 +2537,6 @@
       "srcset": ""
     },
     {
-      "title": "Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
-      "excerpt": "A Gaza City si è tenuto il funerale collettivo di 112 persone i cui corpi sono stati recuperati dalle macerie di un attacco israeliano del novembre 2023.",
-      "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
-      "section": "Gaza / Cronaca",
-      "dateISO": "2026-08-05T09:00:00+02:00",
-      "dateLabel": "2026-08-05",
-      "image": "/assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-800.webp",
-      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-480.webp 480w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-800.webp 800w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-1200.webp 1200w"
-    },
-    {
       "title": "Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
       "excerpt": "A Roma è iniziato un nuovo round di colloqui tra Israele e Libano facilitato dagli Stati Uniti. Sul tavolo sicurezza, ritiro e autorità nel Sud del Libano.",
       "url": "/notizie/israele-libano-negoziati-roma-mediazione-usa.html",
@@ -2535,6 +2548,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-480.webp 480w, /assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-800.webp 800w, /assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-1200.webp 1200w"
+    },
+    {
+      "title": "Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
+      "excerpt": "A Gaza City si è tenuto il funerale collettivo di 112 persone i cui corpi sono stati recuperati dalle macerie di un attacco israeliano del novembre 2023.",
+      "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
+      "section": "Gaza / Cronaca",
+      "dateISO": "2026-08-05T09:00:00+02:00",
+      "dateLabel": "2026-08-05",
+      "image": "/assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-480.webp 480w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-800.webp 800w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-1200.webp 1200w"
     }
   ]
 }

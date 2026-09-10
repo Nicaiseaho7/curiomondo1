@@ -32,6 +32,8 @@ La data corrente deve essere calcolata **sempre nel fuso `Europe/Rome`**, compre
 
 ## 1.1 Domanda del giorno
 
+**Fonte canonica dal 10 settembre 2026:** ogni nuova Domanda del giorno deve essere scelta esclusivamente tra le 1.125 domande numerate del PDF privato `Mille_e_piu_domande_per_pensare.pdf` fornito dal proprietario. Il PDF non deve essere inserito nel sito pubblico. Registrare nel manifest il numero usato, non riutilizzare una domanda già pubblicata e mantenere invariato il testo della domanda, salvo soli apostrofi tipografici. Se la fonte privata non è disponibile, il ciclo giornaliero deve fermarsi.
+
 Se la data corrente è successiva all'ultima Domanda del giorno pubblicata:
 
 **DEVI crearne una nuova nello stesso ciclo**, anche se la richiesta dell'utente riguarda soltanto una notizia, una guida, una correzione o un'altra modifica.

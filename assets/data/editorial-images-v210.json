@@ -1,7 +1,71 @@
 {
-  "version": 312,
+  "version": 313,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "brent-oltre-100-hormuz-ai-v313",
+      "article": "/notizie/brent-oltre-100-dollari-attacchi-navi-stretto-hormuz-10-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/brent-oltre-100-hormuz-ai-v313-480.webp",
+          "sha256": "abe2bf55e43223de1ab7d3c7d03863ef4c4f53822ac49a4aa812c30cbf7cc879",
+          "bytes": 14412
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/brent-oltre-100-hormuz-ai-v313-800.webp",
+          "sha256": "95b4e4e54305e79a9628f8731880472e85f69b2191cc7334bfc89083fc07b171",
+          "bytes": 38400
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/brent-oltre-100-hormuz-ai-v313-1200.webp",
+          "sha256": "66269c7b72316a2d9600cee68c489e45ea25f4c9674f841e0f6f4b056d26290b",
+          "bytes": 83012
+        }
+      ],
+      "alt": "Scena editoriale contestuale fotorealistica di petroliere in navigazione nello Stretto di Hormuz all’alba, generata con IA senza rappresentare attacchi",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "italia-francia-spazio-accordi-ai-v313",
+      "article": "/notizie/italia-francia-due-accordi-industriali-spazio-parigi-9-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/italia-francia-spazio-accordi-ai-v313-480.webp",
+          "sha256": "0c0c3bf30b2783e163cf77b412a56a5721baf3a169c42cbf39fccbe32dc7e1f3",
+          "bytes": 22144
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/italia-francia-spazio-accordi-ai-v313-800.webp",
+          "sha256": "6490c2463afffe6361b3dce4b3ceb8357dd1b07aaf16d80fa1e2b2c3fca31275",
+          "bytes": 41792
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/italia-francia-spazio-accordi-ai-v313-1200.webp",
+          "sha256": "731e3bdc1fa89a7ff89416a48c3190c6d724fc126f6c511eb9f720d01fadd379",
+          "bytes": 71962
+        }
+      ],
+      "alt": "Scena editoriale contestuale fotorealistica di tecnici italiani e francesi riuniti intorno a sistemi satellitari durante un vertice spaziale a Parigi, generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "re-harald-v-ritratto-neutrale-ai-v312",
       "article": "/notizie/norvegia-funerali-stato-re-harald-v-oslo-9-settembre-2026.html",
