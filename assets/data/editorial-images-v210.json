@@ -1,7 +1,71 @@
 {
-  "version": 314,
+  "version": 315,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "agosto-record-caldo-ai-v315",
+      "article": "/notizie/agosto-2026-mese-piu-caldo-record-copernicus.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/agosto-record-caldo-ai-v315-480.webp",
+          "sha256": "f81f2f441a23ce1f1e0943765a422413398a48867da98e0feaa26b3cef5beb73",
+          "bytes": 25178
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/agosto-record-caldo-ai-v315-800.webp",
+          "sha256": "153fb14d295666dd050b458e97d3b7ff5aa6fb6f50abdc2e3d42ec834e7f2a2a",
+          "bytes": 66428
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/agosto-record-caldo-ai-v315-1200.webp",
+          "sha256": "86144a9a5e42e0110fc031c543ae0b82bd8ce9c3907d3621059220f22535914a",
+          "bytes": 132910
+        }
+      ],
+      "alt": "Scena editoriale contestuale fotorealistica di Roma durante un’intensa ondata di calore con il Tevere basso, generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "bce-rialzo-tassi-ai-v315",
+      "article": "/notizie/bce-alza-tassi-2-50-inflazione-energia-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-480.webp",
+          "sha256": "30c69ffcc5a003c96120826f709aad603f25ef56f50f9c708265e6eda4f87066",
+          "bytes": 19190
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-800.webp",
+          "sha256": "cb6d3ddfa9da95495f8fd54e2990a791a881fe9c8fb9ddd8a953c4040dbbe80f",
+          "bytes": 42902
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-1200.webp",
+          "sha256": "607ffe9c210b3ab23d016bee1f5395dbcd7b3372d732adb588c8895444d579aa",
+          "bytes": 79864
+        }
+      ],
+      "alt": "Scena editoriale contestuale fotorealistica della sede della Banca centrale europea con il simbolo dell’euro, generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "cavi-sottomarini-artico-ai-v314",
       "article": "/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html",
