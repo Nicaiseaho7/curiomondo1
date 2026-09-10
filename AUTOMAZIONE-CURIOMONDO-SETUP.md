@@ -22,15 +22,14 @@ Non inserire mai chiavi API nel codice o nei file del repository. Usare GitHub S
 Ogni ciclo giornaliero completo deve produrre insieme: 1 Domanda del giorno, 1 eBook collegato da 15.000–30.000 caratteri e 2 guide Biblioteca da 3.000–15.000 caratteri ciascuna. La risposta breve alla domanda resta tra 1.000 e 3.000 caratteri. Le guide devono essere assegnate alla categoria corretta e la Biblioteca e gli eBook usano il tema premium bianco + blu CurioMondo; il verde non è una palette dominante.
 
 
-## Contratto editoriale articoli — aggiornamento v248
+## Contratto editoriale articoli — protocollo 4.0 (aggiornato 10 settembre 2026)
 - Ogni ciclo articoli parte da fonti autorevoli e applica deduplicazione e verifica prima della pubblicazione.
 - Pubblicare solo sviluppi realmente nuovi, significativi e con conseguenze concrete; aggiornamenti minori, rumor, gossip, duplicati e dichiarazioni senza sviluppo non bastano.
 - Per guerre e geopolitica, una dichiarazione proveniente da una sola parte non va presentata come fatto accertato.
-- Ogni nuovo articolo e ogni aggiornamento editoriale sostanziale deve avere un corpo compreso **obbligatoriamente tra 3.000 e 7.000 caratteri** (regola aggiornata l'1 settembre 2026, ore 12:00). Nessuna eccezione: sotto 3.000 non si pubblica un articolo autonomo; sopra 7.000 si riscrive e si taglia. All'interno del range, la lunghezza segue le informazioni realmente disponibili: lungo quando la notizia ha abbastanza sostanza verificata, corto (ma sempre sopra i 3.000) quando ne ha meno — mai allungato per riempire.
+- **NON ESISTE PIÙ ALCUN LIMITE OBBLIGATORIO DI 3.000–7.000 CARATTERI.** La lunghezza dipende esclusivamente dal formato e dalla quantità di materia verificata, secondo `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md` v4.0. Riferimenti editoriali: flash 100–250 parole; notizia standard 300–600 parole; approfondimento 800–1.500+ parole quando la materia lo richiede. Non allungare né tagliare artificialmente un articolo per raggiungere un conteggio.
 - **Zero ripetizioni:** lo stesso fatto o concetto non può comparire due volte, neppure parafrasato. Ogni paragrafo deve aggiungere informazione nuova; riepiloghi ridondanti e conclusioni che ripetono l’apertura sono vietati.
-- Prima del rendering eseguire un passaggio anti-ridondanza frase-per-frase e paragrafo-per-paragrafo; solo dopo effettuare il conteggio finale dei caratteri del corpo `.art-body`.
-- Ogni articolo deve contenere almeno un GANCIO DI CONOSCENZA: spiegare in linguaggio semplice un elemento poco noto ma utile contenuto nella notizia (istituzione, organizzazione, meccanismo, procedura, termine tecnico, tecnologia, ruolo, luogo strategico o precedente storico), chiarendo quando utile che cos’è, cosa fa, cosa non fa, chi lo controlla e perché conta.
-- Quando il concetto merita utilità nel tempo, creare o collegare un approfondimento evergreen autonomo; prima verificare che non esista già. Notizia e approfondimento devono linkarsi in entrambe le direzioni.
+- Prima del rendering eseguire un passaggio anti-ridondanza frase-per-frase e paragrafo-per-paragrafo.
+- Non spiegare parole difficili nel corpo della notizia. Quando un concetto merita utilità nel tempo, creare o collegare un approfondimento evergreen autonomo; prima verificare che non esista già. Notizia e approfondimento devono linkarsi in entrambe le direzioni.
 - Ogni nuova notizia richiede una propria immagine editoriale fotorealistica, specifica e mai riutilizzata né derivata da un hero già pubblicato.
 - **PROMPT IMMAGINI OBBLIGATORIO E MACHINE-READABLE:** prima di generare il visual di qualunque articolo, qualsiasi IA/renderer deve caricare e leggere integralmente `automation/prompts/image-generation-contract.txt`. Il percorso è dichiarato anche in `automation/config.json` (`articles.image_generation_prompt`) e viene caricato da `automation/run_cycle.py`. Se il file manca, il ciclo deve bloccarsi.
 - **PERSONAGGI PUBBLICI E DEEPFAKE EDITORIALE:** qualsiasi IA deve inoltre leggere `AI-EDITORIAL-IMAGE-PROTOCOL.md`. Nelle notizie ordinarie sono ammessi personaggi riconoscibili in luoghi e ambientazioni pertinenti, anche con loghi coerenti. Per incidenti, morte, salute, violenza, tragedie, lutto, sofferenza o altri temi sensibili è obbligatorio il ritratto neutrale isolato e non si rappresenta il momento doloroso. Il ciclo si blocca se il protocollo manca o se il contratto del generatore non contiene entrambe le regole.
@@ -38,6 +37,14 @@ Ogni ciclo giornaliero completo deve produrre insieme: 1 Domanda del giorno, 1 e
 - Ogni pubblicazione deve aggiornare SEO, canonical, NewsArticle JSON-LD, homepage/sezioni pertinenti, archivio, ricerca, collegamenti interni, feed, sitemap e Google News Sitemap quando applicabile.
 - La posizione “Ultima ora” dipende dal peso editoriale, non dalla sola cronologia.
 - Nessun deploy se non ci sono notizie valide; se ce ne sono più di una, possono essere pubblicate nello stesso ciclo con un solo deploy.
+
+## Domanda del giorno — controllo data obbligatorio
+- Ogni ciclo automatico deve calcolare la data corrente nel fuso `Europe/Rome` e confrontarla con `daily_state.last_question_date` in `curiomondo-site-manifest.json`.
+- Se la data è cambiata, **prima di concludere il ciclo deve pubblicare automaticamente la nuova Domanda del giorno**, anche se il ciclo era stato avviato per cercare notizie.
+- La domanda deve essere scelta **esclusivamente** dal PDF privato `Mille_e_piu_domande_per_pensare.pdf`, che contiene 1.125 domande numerate. Il PDF non deve essere pubblicato né copiato nel sito.
+- Usare una domanda non ancora presente in `daily_state.used_question_source_numbers`; conservarne il testo invariato salvo apostrofi tipografici e registrare nel manifest il numero scelto, aggiornando `current_question_source_number`, `used_question_source_numbers`, `last_question_date` e `last_question_slug`.
+- Se il PDF privato non è disponibile al ciclo, la pubblicazione della Domanda del giorno deve fermarsi in modalità fail-closed: non inventare né sostituire la domanda con una fonte diversa.
+- Deve esistere una sola Domanda del giorno per ciascuna data italiana. Aggiornare nello stesso ciclo homepage/card mistero, pagina dedicata, archivio, ricerca, sitemap e gli altri output previsti dal Protocollo Maestro.
 
 ## Stato reale dell’automazione
 - `automation/run_cycle.py` è ancora fail-closed: senza `CURIOMONDO_AUTO_PUBLISH=true` esegue soltanto dry-run; anche con la variabile attiva blocca la pubblicazione finché il renderer automatico non viene abilitato dopo un test preview controllato.
@@ -49,6 +56,6 @@ Leggere `automation/state/guide-topics.json`; scegliere solo da `remaining_topic
 
 ### Regola disclosure immagini e approfondimenti
 - Sotto ogni immagine IA articolo usare esattamente: `Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.`
-- `Una cosa utile da sapere` è un inserto interno consigliato/obbligatorio quando utile, ma sulla maggior parte delle notizie va inoltre creato o collegato un approfondimento evergreen indicizzabile.
+- Gli approfondimenti evergreen si creano o collegano soltanto quando aggiungono valore durevole e non ridondante; non sono obbligatori per ogni notizia.
 - Tutte le pagine editoriali pubbliche devono essere indicizzabili.
 - Biblioteca/eBook: niente page-flip o swipe; navigazione soltanto con grandi controlli blu `Indietro` e `Avanti` sotto la pagina.
