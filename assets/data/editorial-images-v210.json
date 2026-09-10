@@ -1,7 +1,71 @@
 {
-  "version": 313,
+  "version": 314,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "cavi-sottomarini-artico-ai-v314",
+      "article": "/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-480.webp",
+          "sha256": "5e8232d1efa79fd02bacf9a7a7b1113b70041e6c79494f31202870358d5d68ca",
+          "bytes": 18810
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-800.webp",
+          "sha256": "3071f0c6abbae7bff877cb85dfa4c2e6eb3d4191d5d6f023db662cf9f91cf8ac",
+          "bytes": 40780
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-1200.webp",
+          "sha256": "5961ee1506d394d02fe7d616b3f8090aec5e42f191ec36c9761a108ce91c6bfc",
+          "bytes": 70730
+        }
+      ],
+      "alt": "Scena editoriale contestuale fotorealistica delle acque artiche presso le Svalbard con navi distanti e un cavo sottomarino integro, generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "istat-economia-italia-ai-v314",
+      "article": "/notizie/istat-economia-italiana-pil-industria-inflazione-luglio-agosto-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/istat-economia-italia-ai-v314-480.webp",
+          "sha256": "abe9681a8ccb0881620e274143713284c10656c55eb31315c4c790c8f9a5d9b2",
+          "bytes": 39786
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/istat-economia-italia-ai-v314-800.webp",
+          "sha256": "2f2e78765f8da98d78bf7e0844d67b03cc99f4db4a5a882c60e24d0cf159a1af",
+          "bytes": 79794
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/istat-economia-italia-ai-v314-1200.webp",
+          "sha256": "715a25a93737307dc977f2fecce7739ecdc3570f89429011151f16c7ed3f76f3",
+          "bytes": 130280
+        }
+      ],
+      "alt": "Scena editoriale contestuale fotorealistica di un moderno impianto manifatturiero italiano in attività, generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "brent-oltre-100-hormuz-ai-v313",
       "article": "/notizie/brent-oltre-100-dollari-attacchi-navi-stretto-hormuz-10-settembre-2026.html",

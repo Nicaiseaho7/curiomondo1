@@ -7,8 +7,8 @@
     "current_protocol_version": "3.1",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-07",
-    "current_site_version": 313,
-    "site_version": 313
+    "current_site_version": 314,
+    "site_version": 314
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -22,7 +22,9 @@
     "question_source": "Mille_e_piu_domande_per_pensare.pdf (fonte privata fornita dal proprietario; non pubblicare nel sito)",
     "question_source_rule": "choose every future daily question only from the 1125 numbered questions in this PDF and record its number",
     "current_question_source_number": 87,
-    "used_question_source_numbers": [87],
+    "used_question_source_numbers": [
+      87
+    ],
     "last_question_date": "2026-09-10",
     "question_archive_path": "/domanda-del-giorno/",
     "question_library_root": "/biblioteca/vita-relazioni/",
