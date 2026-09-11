@@ -1,0 +1,84 @@
+name: Finalizza West Nile 11 settembre 2026
+
+on:
+  push:
+    paths:
+      - '.github/workflows/finalizza-west-nile-20260911.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  finalizza:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Dipendenze
+        run: pip install lxml
+
+      - name: Prepara finalizzatore v321
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          p=Path('tools/finalize_articles_20260906.py')
+          s=p.read_text(encoding='utf-8')
+          s=re.sub(r'TARGETS = \{.*?\}\n\nREG_PATH', 'TARGETS = {\n    "notizie/west-nile-italia-594-casi-41-decessi-10-settembre-2026.html": "west-nile-italia-594-casi-ai-v321",\n}\n\nREG_PATH', s, count=1, flags=re.S)
+          s=s.replace('285','321')
+          s=s.replace('if info["dateISO"][:10] < "2026-09-04": continue','if info["dateISO"][:10] < "2026-09-09": continue')
+          p.write_text(s,encoding='utf-8')
+          PY
+
+      - name: Aggiorna superfici editoriali
+        run: python3 tools/finalize_articles_20260906.py
+
+      - name: Aggiorna stato release
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          for name in ('curiomondo-site-manifest.json','RELEASE-STATE.json','CURIOMONDO-RELEASE-STATE.json'):
+              p=Path(name)
+              if not p.exists(): continue
+              d=json.loads(p.read_text(encoding='utf-8'))
+              if name=='curiomondo-site-manifest.json':
+                  d.setdefault('site',{})['current_site_version']=321
+                  d['site']['site_version']=321
+              else:
+                  for k in ('site_version','currentVersion'):
+                      if k in d: d[k]=321
+                  if 'version' in d: d['version']='321'
+                  if 'baseline_version' in d: d['baseline_version']=320
+                  if 'baselineVersion' in d: d['baselineVersion']=320
+                  if 'articleCount' in d: d['articleCount']=int(d['articleCount'])+1
+                  if 'generatedEditorialImages' in d: d['generatedEditorialImages']=int(d['generatedEditorialImages'])+1
+                  if 'release_date' in d: d['release_date']='2026-09-11'
+                  if 'date' in d: d['date']='2026-09-11'
+                  if 'last_update' in d: d['last_update']='west-nile-594-casi-41-decessi-v321'
+              p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+
+      - name: Gate predeploy
+        run: python3 tools/predeploy.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica"
+            exit 0
+          fi
+          git commit -m "v321: pubblica aggiornamento West Nile in Italia"
+          git push
