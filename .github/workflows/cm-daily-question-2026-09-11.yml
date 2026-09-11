@@ -1,3 +1,4 @@
+# trigger after workflow registration
 name: CurioMondo Daily Question 2026-09-11
 
 on:
@@ -49,7 +50,6 @@ jobs:
           page_path.parent.mkdir(parents=True, exist_ok=True)
           page_path.write_text(page, encoding='utf-8')
 
-          # Homepage: replace only the compact mystery card, without revealing question/theme.
           home_path = Path('index.html')
           home = home_path.read_text(encoding='utf-8')
           new_card = f'''<section class="cm-qday" aria-label="Domanda del giorno">\n<a aria-label="Scopri la Domanda del giorno del {DATE_LABEL}" class="cm-qday-link" href="{URL}">\n<div class="cm-qday-card">\n<time class="cm-qday-date" datetime="{TODAY}"><strong>11</strong><span>SET · 2026</span></time>\n<span class="cm-qday-k">Domanda del giorno</span>\n<span class="cm-qday-cta">Scopri <i aria-hidden="true">→</i></span>\n</div>\n</a>\n</section>'''
@@ -58,7 +58,6 @@ jobs:
               raise SystemExit('Card Domanda del giorno non trovata in homepage: blocco fail-closed.')
           home_path.write_text(home2, encoding='utf-8')
 
-          # Archive: prepend today to the existing cards.
           archive_path = Path('domanda-del-giorno/index.html')
           archive = archive_path.read_text(encoding='utf-8')
           card = f'<a class="cb-subcard" href="{URL}"><span class="cb-kicker">{DATE_LABEL}</span><h2>{html.escape(QUESTION)}</h2><p>{html.escape(EXCERPT)}</p><b>Leggi →</b></a>'
@@ -68,7 +67,6 @@ jobs:
           archive = archive.replace(marker, marker + card, 1)
           archive_path.write_text(archive, encoding='utf-8')
 
-          # Internal search index.
           search_path = Path('assets/data/search-index-v210.json')
           search = json.loads(search_path.read_text(encoding='utf-8'))
           items = [x for x in search.get('items', []) if x.get('url') != URL]
@@ -77,7 +75,6 @@ jobs:
           search['version'] = max(int(search.get('version', 0)), 318)
           search_path.write_text(json.dumps(search, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-          # Sitemap (not News Sitemap: this is an evergreen/daily editorial page, not breaking news).
           sitemap_path = Path('sitemap.xml')
           sitemap = sitemap_path.read_text(encoding='utf-8')
           full_url = 'https://curiomondo.it' + URL
@@ -86,7 +83,6 @@ jobs:
               sitemap = re.sub(r'(<urlset[^>]*>\s*)', lambda m: m.group(1) + entry, sitemap, count=1)
           sitemap_path.write_text(sitemap, encoding='utf-8')
 
-          # Manifest/state.
           used.append(NUMBER)
           state['current_question_source_number'] = NUMBER
           state['used_question_source_numbers'] = used
@@ -96,7 +92,6 @@ jobs:
           manifest['site']['site_version'] = max(int(manifest['site'].get('site_version', 0)), 318)
           manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-          # Sanity checks before the repository predeploy gate.
           assert QUESTION in page_path.read_text(encoding='utf-8')
           assert f'datetime="{TODAY}"' in home_path.read_text(encoding='utf-8')
           assert full_url in sitemap_path.read_text(encoding='utf-8')
