@@ -3,6 +3,39 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "hormuz-traffico-sette-navi-ai-v320",
+      "article": "/notizie/stretto-hormuz-traffico-sette-navi-11-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Wide editorial maritime scene of the Strait of Hormuz at dawn, viewed from a high coastal vantage point, only a few large commercial cargo ships and tankers visible in the shipping lanes, rugged Omani and Iranian coastlines in hazy distance, realistic sea traffic spacing, subtle navigation wake trails, tense but non-combat atmosphere, no explosions, no warships in foreground, no text, no flags, no logos, highly realistic international news photography Ultra-realistic photojournalistic editorial photography, natural cinematic lighting, sharp focus, no text, no watermark, no logo overlay.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/hormuz-traffico-sette-navi-ai-v320-480.webp",
+          "sha256": "e4355a77dd4217bd07359d72417b5ce98c91d680499f0b32afa4a993a97a7936",
+          "bytes": 6760
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/hormuz-traffico-sette-navi-ai-v320-800.webp",
+          "sha256": "b63230da46dddaf9c5699da08ee13b0e4ee1f91fad6882d738e4f0997733c560",
+          "bytes": 15590
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/hormuz-traffico-sette-navi-ai-v320-1200.webp",
+          "sha256": "722960d58b1c807c0748a680c08f11efe9cf0ef429905b7c5d0bd7ed82b2e714",
+          "bytes": 27246
+        }
+      ],
+      "alt": "Poche navi commerciali attraversano lo Stretto di Hormuz, illustrazione editoriale fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
       "key": "hsiao-italia-ventotene-ai-v319",
       "article": "/notizie/taiwan-vicepresidente-hsiao-italia-ventotene-11-settembre-2026.html",
       "aiGenerated": true,
