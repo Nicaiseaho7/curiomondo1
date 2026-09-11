@@ -1,0 +1,133 @@
+from pathlib import Path
+import json, re, html
+
+TODAY='2026-09-11'
+DATE_LABEL='11 settembre 2026'
+SLUG='la-consapevolezza-della-morte-ci-rende-piu-buoni-o-soltanto-piu-precipitosi'
+QUESTION='La consapevolezza della morte ci rende più buoni o soltanto più precipitosi?'
+Q_URL=f'/domanda-del-giorno/{SLUG}/'
+BOOK_URL=f'/biblioteca/vita-relazioni/domande-per-conoscersi/{SLUG}/'
+BOOK_TITLE='Vivere sapendo che il tempo è limitato'
+BOOK_EXCERPT='Un eBook CurioMondo su finitezza, priorità, cura, urgenza e sul confine tra vivere con intensità e vivere di fretta.'
+
+# Keep protocol 4.0 semantics while matching the canonical machine-readable policy key.
+mp=Path('curiomondo-site-manifest.json')
+manifest=json.loads(mp.read_text(encoding='utf-8'))
+manifest.setdefault('news',{}).setdefault('article_body_characters',{})['policy']='word_count_by_format'
+mp.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+# Add the mandatory premium eBook invitation to today's question.
+qp=Path('domanda-del-giorno')/SLUG/'index.html'
+q=qp.read_text(encoding='utf-8')
+if 'cm-daily-book-link' not in q:
+    link=(f'<a class="cm-daily-book-link" href="{BOOK_URL}"><span><small>Continua la riflessione</small>'
+          f'<strong>Leggi l’eBook collegato</strong></span><span class="cm-daily-book-arrow" aria-hidden="true">→</span></a>')
+    q=q.replace('</article>',link+'</article>',1)
+qp.write_text(q,encoding='utf-8')
+
+pages=[
+('La finitezza cambia la scala delle cose',[
+'Pensare alla morte non significa vivere con una clessidra davanti agli occhi. Significa riconoscere che il tempo personale non è una risorsa astratta e infinita. Quando questa idea diventa concreta, alcune preoccupazioni perdono volume e altre acquistano peso. Non perché diventiamo improvvisamente saggi, ma perché siamo costretti a scegliere una misura.',
+'La vita quotidiana tende a nascondere il limite. Calendari, rinnovi, piani annuali e abitudini fanno sembrare il futuro una prosecuzione automatica. La finitezza interrompe questa illusione senza dirci però che cosa dobbiamo fare. Ci ricorda soltanto che ogni sì occupa uno spazio che non potrà essere usato per altro.',
+'Questa consapevolezza può renderci più attenti agli altri. Un litigio non risolto, una visita rimandata, una gratitudine mai pronunciata smettono di sembrare dettagli facilmente recuperabili. Non tutto deve essere sistemato subito, ma diventa più difficile fingere che ogni occasione tornerà nelle stesse condizioni.',
+'Può accadere anche l’opposto. Il limite può trasformarsi in pressione: vedere tutto, provare tutto, non perdere nulla. La finitezza allora non produce profondità ma consumo accelerato. Il problema non è desiderare esperienze; è usare il numero delle esperienze come difesa dalla paura che il tempo finisca.',
+'Una vita consapevole del limite non deve essere piena in ogni minuto. Può contenere attese, riposo, giornate ordinarie e perfino noia. Il valore non nasce dall’occupazione continua, ma dalla coerenza tra ciò che diciamo importante e il modo concreto in cui distribuiamo attenzione, energia e presenza.',
+'Per questo la domanda sulla morte diventa presto una domanda sulla vita. Non chiede quanto manca, dato che quasi mai lo sappiamo. Chiede che cosa merita di essere protetto oggi e che cosa, invece, continuiamo a trascinare soltanto perché non abbiamo ancora deciso di lasciarlo andare.'
+]),
+('Essere più buoni non è un riflesso automatico',[
+'La vicinanza al limite può aprire uno spazio di compassione, ma non esiste una legge secondo cui ricordare la morte renda automaticamente migliori. Le persone possono reagire con generosità, paura, controllo, rabbia o indifferenza. La finitezza intensifica alcune domande; non garantisce la qualità delle risposte.',
+'Essere più buoni, se questa parola deve avere un significato concreto, riguarda il modo in cui consideriamo l’effetto delle nostre azioni sugli altri. Un tempo limitato può farci capire che ferire per orgoglio ha un costo reale, che chiedere scusa non riduce il nostro valore e che una relazione non è un deposito inesauribile di seconde occasioni.',
+'La bontà però non coincide con il sacrificio permanente. Sapere che la vita è breve non obbliga a tollerare abusi, restare in rapporti distruttivi o dire sempre di sì. Anche proteggere i propri confini può essere una forma di rispetto, perché evita di trasformare la cura in risentimento e l’aiuto in una promessa impossibile.',
+'La consapevolezza della fine può inoltre ridurre il bisogno di vincere ogni discussione. Molti conflitti quotidiani sopravvivono perché perdere una posizione sembra perdere una parte di sé. Ricordare la sproporzione tra certe battaglie e il tempo che consumano può restituire la libertà di scegliere quali meritano davvero energia.',
+'Ci sono però situazioni in cui la gentilezza apparente serve a evitare una verità necessaria. Essere presenti non significa rendere ogni conversazione piacevole. A volte la cura richiede un no, una critica precisa o una decisione che delude qualcuno. Il criterio non è l’assenza di attrito, ma la responsabilità con cui produciamo quell’attrito.',
+'La finitezza può dunque rendere più visibile la relazione tra carattere e gesto. Non siamo ciò che pensiamo di fare un giorno; siamo anche ciò che ripetiamo nelle ore normali. Se il tempo è limitato, la qualità di una vita non si misura soltanto nei grandi momenti, ma nel modo in cui trattiamo chi ci sta accanto quando non c’è nulla da celebrare.'
+]),
+('La trappola della fretta',[
+'Quando una persona sente di avere perso tempo, la reazione più immediata può essere accelerare. Cambiare tutto, prenotare tutto, dire tutto. La fretta offre una sensazione potente: finalmente ci stiamo muovendo. Ma movimento e direzione non sono sinonimi, e l’urgenza può farci confondere una decisione necessaria con una decisione impulsiva.',
+'La fretta riduce il campo visivo. Cerca sollievo dalla tensione più che una scelta capace di durare. Questo è particolarmente importante quando sono coinvolti denaro, salute, lavoro o relazioni: il pensiero del tempo che passa può rendere seducente una soluzione rapida proprio quando servirebbero informazioni migliori.',
+'Rallentare non significa tornare al rinvio indefinito. Significa distinguere ciò che può essere fatto subito senza danni da ciò che richiede una verifica. Una telefonata può essere immediata; una scelta finanziaria irreversibile merita tempo. Una dichiarazione sincera può essere urgente; una promessa che non possiamo mantenere no.',
+'Un buon criterio è chiedere se l’azione di oggi aumenta o diminuisce le nostre possibilità domani. I passi reversibili, informativi e proporzionati spesso permettono di uscire dall’immobilità senza consegnarsi all’impulso. Producono realtà da osservare invece di altre fantasie da anticipare.',
+'La fretta ha anche un linguaggio riconoscibile: “adesso o mai più”, “devo recuperare”, “non posso perdere altro tempo”. A volte queste frasi descrivono davvero una scadenza; spesso trasformano un disagio emotivo in un’emergenza. Dare un nome alla differenza è già un modo per recuperare libertà.',
+'Una vita non diventa più piena perché ogni minuto è saturo. La densità può essere anche attenzione: ascoltare senza guardare il telefono, camminare senza produrre, restare in una conversazione difficile abbastanza a lungo da comprenderla. Il limite del tempo può insegnare a selezionare, non soltanto ad accelerare.'
+]),
+('Priorità: ciò che diciamo e ciò che facciamo',[
+'Ognuno possiede una lista dichiarata di priorità: famiglia, salute, libertà, amicizia, lavoro, curiosità. Ma il calendario racconta una seconda lista, spesso diversa. La finitezza rende interessante proprio questa distanza, perché trasforma le preferenze astratte in una domanda verificabile: dove stanno andando davvero le nostre ore?',
+'Non tutto ciò che occupa tempo è una scelta libera. Lavoro, cura, problemi economici e responsabilità possono restringere radicalmente il margine disponibile. Per questo il confronto non deve diventare colpa. Serve piuttosto a cercare le zone in cui una piccola redistribuzione è possibile e significativa.',
+'Una priorità reale non richiede sempre grandi quantità di tempo. Dieci minuti di attenzione piena possono valere più di un’intera serata trascorsa insieme ma distratti. Un messaggio preciso può riaprire un rapporto. Un appuntamento fissato può proteggere la salute più di mesi di buone intenzioni.',
+'Esiste anche il problema delle priorità ereditate. Possiamo dedicare anni a obiettivi che avevano senso per la nostra famiglia, il nostro ambiente o una versione precedente di noi. Il limite del tempo ci autorizza a verificare se quelle mete ci appartengono ancora, senza trasformare il cambiamento in un’accusa verso il passato.',
+'Lasciare andare una priorità non significa necessariamente avere sbagliato. Alcune scelte sono state giuste per un periodo e smettono di esserlo quando cambiano condizioni, responsabilità o desideri. La coerenza non è ripetere per sempre una decisione; è assumersi la responsabilità di riesaminarla quando i fatti cambiano.',
+'Una pratica semplice consiste nel guardare la settimana appena trascorsa senza giudicarla e chiedere: che cosa ho protetto con il mio tempo? La risposta non deve essere perfetta. Serve a vedere se la vita concreta sta lentamente assomigliando a ciò che diciamo di voler difendere.'
+]),
+('Relazioni e parole non dette',[
+'La consapevolezza della morte rende visibile un fatto scomodo: molte relazioni importanti vivono di presunzioni. Presumiamo che ci sarà un’altra cena, un altro compleanno, un altro momento adatto per parlare. Questa fiducia è necessaria per vivere, ma può diventare una scusa quando rimandiamo sistematicamente ciò che avrebbe bisogno di presenza.',
+'Non significa telefonare a tutti mossi dalla paura. Significa riconoscere quali parole restano bloccate non perché il momento sia sbagliato, ma perché temiamo la vulnerabilità. Dire “mi sei mancato”, “ho sbagliato”, “non posso continuare così” o “grazie” può cambiare la qualità di un rapporto senza garantire il risultato che desideriamo.',
+'Anche il perdono va trattato con precisione. Sapere che il tempo è limitato non obbliga a riconciliarsi con chi ha fatto male, né cancella la necessità di protezione. Possiamo smettere di nutrire un conflitto senza riaprire una relazione. Possiamo accettare che una storia sia finita senza fingere che ciò che è accaduto sia irrilevante.',
+'La presenza nelle relazioni include inoltre la capacità di ascoltare senza usare subito l’esperienza altrui come specchio della nostra. Quando il tempo sembra infinito, interrompere o distrarsi appare recuperabile. Quando lo consideriamo limitato, l’attenzione diventa una forma concreta di riconoscimento.',
+'Le relazioni non si salvano tutte con un gesto finale. Sono costruite dalla ripetizione: rispondere, esserci, mantenere promesse proporzionate, correggere quando sbagliamo. La finitezza non rende inutili questi dettagli; al contrario, mostra che una vita condivisa è composta quasi interamente da dettagli.',
+'Forse la domanda utile non è chi chiameremmo se fosse l’ultimo giorno, perché quella situazione estrema distorce tutto. È chi continuiamo a considerare importante mentre lasciamo che settimane e mesi passino senza un gesto coerente. Il presente è meno drammatico dell’ultimo giorno, ma è l’unico luogo in cui una relazione può essere realmente toccata.'
+]),
+('Ambizione, lavoro e il rischio di rimandare la vita',[
+'Il lavoro può offrire identità, stabilità, competenza e contributo. Può anche assorbire progressivamente ogni margine proprio perché le sue richieste sono misurabili e urgenti, mentre amicizia, riposo e curiosità non mandano notifiche. La finitezza costringe a chiedere quale parte di noi stiamo finanziando con il tempo venduto.',
+'Non esiste una risposta universale. In alcuni periodi lavorare molto è necessario o scelto con convinzione. Il problema nasce quando una fase temporanea non ha più una data di verifica e diventa la normalità per inerzia. Dire “solo fino a quando…” senza sapere quando quel quando arriverà può trasformare anni in una parentesi permanente.',
+'L’ambizione non è nemica della presenza. Un progetto importante può meritare fatica, rinunce e concentrazione. Ma proprio perché il tempo è limitato, è utile distinguere il costo scelto dal costo invisibile. Se un obiettivo richiede sistematicamente di sacrificare tutto ciò che dovrebbe rendere desiderabile il risultato, la sua logica merita di essere riesaminata.',
+'Il denaro complica questa riflessione perché protegge bisogni reali e libertà future. Non è sensato romantizzare il rischio. La domanda non è semplicemente “lavorerei se sapessi di morire?”, ma quale sicurezza serve davvero, quale crescita desideriamo e quale quantità di vita siamo disposti a scambiare per ottenerla.',
+'Anche il prestigio può diventare una forma di rinvio. Aspettiamo un titolo, una cifra, un riconoscimento per autorizzarci a sentirci arrivati. Ma ogni traguardo produce rapidamente un nuovo confronto. La finitezza può aiutarci a separare il piacere del miglioramento dalla speranza impossibile che un risultato cancelli definitivamente l’insicurezza.',
+'Una carriera ben riuscita non è necessariamente quella che occupa più spazio. Può essere quella che sostiene una vita coerente, sviluppa capacità e lascia abbastanza energia per ciò che non compare nel curriculum. Il criterio non si trova in una formula: si costruisce osservando costi, benefici e persone che diventiamo mentre perseguiamo i nostri obiettivi.'
+]),
+('La morte come pensiero, non come ossessione',[
+'Riflettere sulla finitezza può essere utile soltanto se non diventa una sorveglianza continua. Una persona non deve ricordarsi della morte in ogni momento per vivere bene. Il pensiero del limite è uno strumento di prospettiva, non un obbligo morale né una prova di profondità.',
+'Quando questa idea produce ansia persistente, paura ingestibile o interferisce con la vita quotidiana, la risposta non è filosofare di più per forza. Può essere importante parlarne con una persona fidata o con un professionista qualificato. La riflessione esistenziale non sostituisce il sostegno necessario quando la sofferenza diventa intensa.',
+'Anche le culture trattano la morte in modi diversi: alcune la rendono visibile attraverso rituali e memoria, altre la tengono ai margini della vita pubblica. Nessuna abitudine culturale elimina completamente l’incertezza. Ma il modo in cui una comunità parla del limite influenza ciò che consideriamo dicibile, normale o spaventoso.',
+'Un pensiero sano della morte lascia spazio alla vita ordinaria. Non trasforma ogni scelta in una scena definitiva. Ci permette di comprare il pane, perdere tempo, ridere di qualcosa di stupido e programmare l’anno prossimo senza contraddizione. Sapere che il futuro non è garantito non significa comportarsi come se non esistesse.',
+'La prospettiva migliore forse alterna distanza e vicinanza. Costruiamo progetti come se avessimo tempo, ma non usiamo quel progetto come scusa per rimandare indefinitamente ciò che conta. Accettiamo l’incertezza senza pretendere che ogni giorno debba essere memorabile.',
+'Il limite diventa allora un correttivo gentile. Quando ci accorgiamo di vivere soltanto in funzione di un futuro ipotetico, ci riporta al presente. Quando invece l’ansia ci impedisce di progettare, ci ricorda che vivere comprende anche scommettere sul domani. Entrambe le direzioni richiedono equilibrio.'
+]),
+(None,[
+'La domanda da portare con sé non è se la morte ci renda migliori. È troppo grande per ricevere una risposta stabile e troppo dipendente dalle circostanze. Una domanda più concreta è che cosa succede alle nostre scelte quando smettiamo di trattare il tempo come una risorsa automaticamente rinnovabile.',
+'Possiamo osservare tre segnali. Il primo è l’attenzione: siamo più presenti o più agitati? Il secondo è la relazione: diventiamo più capaci di cura o più impazienti con chi non segue il nostro ritmo? Il terzo è la decisione: distinguiamo meglio ciò che conta o stiamo semplicemente accumulando esperienze per paura di perderle?',
+'Questi segnali non chiedono una rivoluzione. Possono essere verificati in una settimana normale. Una conversazione affrontata, un’ora protetta, un impegno lasciato cadere, una pausa non riempita: piccoli gesti mostrano se la consapevolezza del limite sta aumentando la qualità della vita oppure soltanto la velocità.',
+'È utile anche accettare che alcune cose resteranno incompiute. Nessuna organizzazione del tempo permette di vivere tutte le vite possibili. Scegliere significa inevitabilmente rinunciare. La maturità non elimina questa perdita; prova a renderla coerente con ciò che abbiamo riconosciuto come importante.',
+'La bontà, in questo quadro, assomiglia meno a un sentimento e più a una pratica di proporzione. Non spendere mesi per un’offesa piccola. Non usare una persona come strumento di una nostra urgenza. Non sacrificare tutto il presente a un futuro che non sappiamo se arriverà. Non smettere però di costruire quel futuro soltanto perché non è garantito.',
+'La fretta promette di battere il tempo. La presenza rinuncia a questa battaglia e prova a usare bene ciò che c’è. Una giornata presente può contenere lavoro, responsabilità, attese e perfino errori; non deve essere perfetta per essere vissuta con consapevolezza.',
+'Alla fine restano scelte molto ordinarie: chi ascoltiamo, a cosa diciamo no, quale promessa manteniamo, quale paura smettiamo di trattare come un ordine. Il pensiero della morte non offre un manuale. Può però impedire che alcune decisioni vengano rimandate fino a quando non sono più decisioni.',
+'Oggi, senza trasformare la vita in un’emergenza, possiamo scegliere una sola cosa da fare con più cura e una sola cosa da smettere di accelerare. È un modo concreto per lasciare che il limite chiarisca il presente senza diventarne il padrone.'
+])]
+
+# Build an 8-page, 15k–30k character eBook with the existing premium reader contract.
+sections=[]
+for idx,(heading,paras) in enumerate(pages,1):
+    active=' is-active' if idx==1 else ''
+    hidden='' if idx==1 else ' aria-hidden="true"'
+    h2=f'<h2>{html.escape(heading)}</h2>' if heading else ''
+    phtml=''.join(f'<p>{html.escape(p)}</p>' for p in paras)
+    sections.append(f'<section class="cm-book-page{active}" data-book-page{hidden}><span class="cm-book-kicker">eBook CurioMondo · {DATE_LABEL}</span><h1>{BOOK_TITLE}</h1>{h2}{phtml}<span class="cm-book-page-number">{idx} / 8</span></section>')
+book=f'''<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{BOOK_TITLE} | eBook CurioMondo</title><meta name="description" content="{BOOK_EXCERPT}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://curiomondo.it{BOOK_URL}"><link rel="stylesheet" href="/assets/css/biblioteca-v1.css?v=308"><link rel="stylesheet" href="/assets/css/biblioteca-book-reader-v1.css?v=273"><link rel="stylesheet" href="/assets/css/global-header-v275.css"><script defer src="/assets/js/global-header-v275.js"></script></head><body><header class="cm-global-header" data-cm-global-header="v275"><nav class="cm-global-header__inner" aria-label="Navigazione della pagina"><a class="cm-global-header__back" href="/" aria-label="Torna alla home di CurioMondo"><span class="cm-global-header__back-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M19 12H5"></path><path d="m11 18-6-6 6-6"></path></svg></span></a><a class="cm-global-header__brand" href="/" aria-label="CurioMondo, home"><span aria-hidden="true">Curio<span>Mondo</span></span></a><button class="cm-global-header__theme" data-cm-global-theme type="button" aria-label="Attiva modalità scura" aria-pressed="false"><span aria-hidden="true">☾</span></button></nav></header><main class="cb-shell"><article class="cm-book-shell"><div class="cm-book-stage">{''.join(sections)}</div><nav class="cm-book-controls" aria-label="Navigazione eBook"><button data-book-prev type="button">← Indietro</button><button data-book-next type="button">Avanti →</button></nav><a class="cm-book-back" href="{Q_URL}">← Torna alla Domanda del giorno</a></article></main><noscript><style>.cm-book-page{{display:block!important;min-height:0;margin-bottom:20px}}</style></noscript><script defer src="/assets/js/biblioteca-book-reader-v1.js?v=273"></script><footer class="cb-footer"><div class="cb-shell">© 2026 CurioMondo</div></footer></body></html>'''
+bp=Path('biblioteca/vita-relazioni/domande-per-conoscersi')/SLUG/'index.html'
+bp.parent.mkdir(parents=True,exist_ok=True)
+bp.write_text(book,encoding='utf-8')
+
+# Add eBook to search and sitemap as an indexable Biblioteca page.
+sp=Path('assets/data/search-index-v210.json')
+s=json.loads(sp.read_text(encoding='utf-8'))
+s['items']=[x for x in s.get('items',[]) if x.get('url')!=BOOK_URL]
+s['items'].insert(1,{'title':BOOK_TITLE,'excerpt':BOOK_EXCERPT,'url':BOOK_URL,'section':'Biblioteca / Vita e relazioni / eBook'})
+s['version']=max(int(s.get('version',0)),318)
+sp.write_text(json.dumps(s,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+smp=Path('sitemap.xml')
+sm=smp.read_text(encoding='utf-8')
+full='https://curiomondo.it'+BOOK_URL
+if full not in sm:
+    entry=f'  <url>\n    <loc>{full}</loc>\n    <lastmod>{TODAY}</lastmod>\n  </url>\n'
+    sm=re.sub(r'(<urlset[^>]*>\s*)',lambda m:m.group(1)+entry,sm,count=1)
+smp.write_text(sm,encoding='utf-8')
+
+# Assert key machine contracts before the canonical predeploy runs.
+assert q.count('cm-daily-book-link')>=0
+book_text=' '.join(re.findall(r'<p>(.*?)</p>',book,re.S))
+book_text=re.sub(r'<[^>]+>','',book_text)
+assert 15000 <= len(html.unescape(book_text)) <= 30000, len(html.unescape(book_text))
+assert book.count('data-book-page')==8
+assert book.count('<h2>')<=7
+assert book.count('data-book-prev')==1 and book.count('data-book-next')==1
+print('Daily eBook and protocol compatibility prepared.')
