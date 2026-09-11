@@ -1,7 +1,105 @@
 {
-  "version": 316,
+  "version": 319,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "hsiao-italia-ventotene-ai-v319",
+      "article": "/notizie/taiwan-vicepresidente-hsiao-italia-ventotene-11-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/hsiao-italia-ventotene-ai-v319-480.webp",
+          "sha256": "1bc0eaedb315ae2a118722cd588b85fea5fa56167bbf7a9adb438537b79b3ac3",
+          "bytes": 6014
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/hsiao-italia-ventotene-ai-v319-800.webp",
+          "sha256": "6d5c7aa68c762f2ef1a08a028c6837bdf37e4b841f59075590567580a3d3e5aa",
+          "bytes": 13024
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/hsiao-italia-ventotene-ai-v319-1200.webp",
+          "sha256": "37ff0e8ac97b0c69a7d1a56e4e59c0c76d1f669657c2a43211cece2272adf92d",
+          "bytes": 24960
+        }
+      ],
+      "alt": "ritratto editoriale neutrale di Hsiao Bi-khim su sfondo blu, illustrazione fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigure": "Hsiao Bi-khim"
+    },
+    {
+      "key": "malpensa-easyjet-emergenza-ai-v319",
+      "article": "/notizie/malpensa-easyjet-emergenza-146-passeggeri-10-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-480.webp",
+          "sha256": "2d0632ffce39093445a9601ac2dfe877a336fc23e48063a6bacaa16a678022ac",
+          "bytes": 17314
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-800.webp",
+          "sha256": "1458e570aec356826c916b9008cb03afbab59157fa560a46e5bab9a36ba1a244",
+          "bytes": 36894
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-1200.webp",
+          "sha256": "cd51f2139fc71c0d877036aaf4a61790a4e17543927dd331d934403251828627",
+          "bytes": 65038
+        }
+      ],
+      "alt": "Aereo passeggeri fermo su una pista aeroportuale con mezzi antincendio, illustrazione editoriale fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "diesel-accise-proroga-ai-v319",
+      "article": "/notizie/diesel-sconto-accise-proroga-17-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/diesel-accise-proroga-ai-v319-480.webp",
+          "sha256": "c3b07d12a344f5e592e0375d7c6fe7b1347cbec218e86341d8ccbf6874f5c3ed",
+          "bytes": 20906
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/diesel-accise-proroga-ai-v319-800.webp",
+          "sha256": "817bac628d828fbc9d93e02d4edb0a10fdcc5df7dab5af8f83170a7d5f7de28b",
+          "bytes": 40558
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/diesel-accise-proroga-ai-v319-1200.webp",
+          "sha256": "2d179071d4b6d206434e4efe92e6772a6559db2c8274a6274c9844b09d41bfe6",
+          "bytes": 67596
+        }
+      ],
+      "alt": "Distributore di gasolio in Italia durante un rifornimento, illustrazione editoriale fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "piantedosi-casapound-ai-v316",
       "article": "/notizie/piantedosi-casapound-roma-sara-sgomberata-settembre-2026.html",
