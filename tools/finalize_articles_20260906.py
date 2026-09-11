@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CAPTION = "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria."
 
 TARGETS = {
-    "notizie/emma-bonino-morta-78-anni-11-settembre-2026.html": "emma-bonino-ritratto-neutrale-morte-ai-v323",
+    "notizie/yemen-houthi-dhubab-bab-el-mandeb-11-settembre-2026.html": "yemen-dhubab-bab-el-mandeb-ai-v321",
 }
 
 REG_PATH = ROOT / "assets/data/editorial-images-v210.json"
