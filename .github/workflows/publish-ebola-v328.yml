@@ -1,0 +1,60 @@
+name: Pubblica aggiornamento Ebola v328
+on:
+  push:
+    branches: [staging-ebola-v328]
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install lxml
+      - name: Aggiorna superfici editoriali
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re, json
+          article='notizie/ebola-congo-6757-casi-3267-decessi-10-settembre-2026.html'
+          key='ebola-congo-6757-casi-ai-openai-v325'
+          p=Path('tools/finalize_articles_20260906.py')
+          s=p.read_text(encoding='utf-8')
+          s=re.sub(r'TARGETS = \{.*?\}\n\nREG_PATH',f'TARGETS = {{"{article}": "{key}"}}\n\nREG_PATH',s,count=1,flags=re.S)
+          s=s.replace('323','328').replace('?v=322','?v=328')
+          Path('tools/.finalize_v328_tmp.py').write_text(s,encoding='utf-8')
+          old='Ebola in Congo, l’OMS registra 6.757 casi e 3.267 decessi'
+          new='Ebola in Congo supera 7.000 casi e raggiunge la settima provincia'
+          for cp in [Path('categorie/mondo/index.html')]:
+              if cp.exists():
+                  t=cp.read_text(encoding='utf-8').replace(old,new)
+                  cp.write_text(t,encoding='utf-8')
+          for state in ['CURIOMONDO-RELEASE-STATE.json','RELEASE-STATE.json','curiomondo-site-manifest.json']:
+              q=Path(state)
+              if q.exists():
+                  d=json.loads(q.read_text(encoding='utf-8'))
+                  if 'version' in d: d['version']=328
+                  if 'releaseVersion' in d: d['releaseVersion']=328
+                  if 'lastUpdated' in d: d['lastUpdated']='2026-09-11T23:50:00+02:00'
+                  q.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+          python3 tools/.finalize_v328_tmp.py
+          rm tools/.finalize_v328_tmp.py
+      - name: Predeploy gate
+        run: python3 tools/predeploy.py
+      - name: Pubblica su main con commit unico
+        env:
+          BASE_SHA: b8efb01caaea41e30e2b84723eaed0b52bf76418
+        run: |
+          rm -f .github/workflows/publish-ebola-v328.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git reset --soft "$BASE_SHA"
+          git add -A
+          git commit -m "v328: aggiorna Ebola oltre 7.000 casi e settima provincia"
+          git push origin HEAD:main --force-with-lease=main:$BASE_SHA
+          git push origin --delete staging-ebola-v328 || true
