@@ -10,6 +10,10 @@ La generazione dell'immagine fa parte dello stesso flusso editoriale della creaz
 
 Le immagini devono essere ultrarealistiche/fotorealistiche e mantenere uno stile da fotografia editoriale professionale, nel rispetto delle regole di sensibilità e trasparenza descritte sotto.
 
+## Divieto permanente Pollinations
+
+È vietato usare Pollinations, `pollinations.ai`, `image.pollinations.ai` o qualunque suo endpoint, modello o asset per generare, scaricare o pubblicare immagini su CurioMondo. Le immagini editoriali devono essere generate direttamente con gli strumenti immagini di ChatGPT/OpenAI autorizzati dal proprietario e devono essere controllate visivamente prima della pubblicazione. Qualunque asset con watermark, firma o marchio del generatore è bloccante e non può essere pubblicato.
+
 ## Regola proprietaria: persone pubbliche e somiglianza sintetica
 
 CurioMondo autorizza la generazione di immagini editoriali **ultrarealistiche e fotorealistiche con persone pubbliche riconoscibili**, viventi o decedute, quando la loro identità è direttamente pertinente alla notizia. Questa autorizzazione comprende ciò che, nel linguaggio comune, può essere chiamato “deepfake”; nel protocollo CurioMondo il termine corretto è **somiglianza sintetica editoriale**.

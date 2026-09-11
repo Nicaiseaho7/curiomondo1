@@ -57,6 +57,14 @@ if manifest_path.exists():
     try:
         manifest=json.loads(manifest_path.read_text())
         likeness=manifest.get('images',{}).get('public_figure_synthetic_likeness_policy',{})
+        image_policy=manifest.get('images',{})
+        forbidden_providers={str(value).casefold() for value in image_policy.get('forbidden_image_providers',[])}
+        if 'pollinations' not in forbidden_providers or 'pollinations.ai' not in forbidden_providers or 'image.pollinations.ai' not in forbidden_providers:
+            errors.append('divieto permanente Pollinations assente nel manifest')
+        if image_policy.get('allowed_generation_path')!='owner-authorized ChatGPT/OpenAI image tools':
+            errors.append('percorso immagini ChatGPT/OpenAI non vincolante nel manifest')
+        if image_policy.get('generator_watermark_is_blocking') is not True:
+            errors.append('watermark del generatore non configurato come bloccante')
         if likeness.get('allowed') is not True: errors.append('protocollo personaggi pubblici non abilitato nel manifest')
         if likeness.get('policy_mode')!='context_sensitive': errors.append('modalità contestuale immagini pubbliche assente nel manifest')
         if likeness.get('ordinary_news',{}).get('contextual_scenes_allowed') is not True: errors.append('scene ordinarie non abilitate nel manifest')
@@ -73,6 +81,10 @@ if manifest_path.exists():
         if body_policy.get('minimum_value_add_elements')!=2: errors.append('manifest non richiede due valori aggiunti')
         if body_policy.get('semantic_repetition_forbidden') is not True: errors.append('manifest non vieta le ripetizioni semantiche')
     except Exception as exc: errors.append(f'curiomondo-site-manifest.json non valido: {exc}')
+if (root/'automation/scripts/generate_editorial_image.py').exists():
+    errors.append('generatore automatico esterno ancora presente')
+if (root/'.github/workflows/genera-immagine-editoriale.yml').exists():
+    errors.append('workflow del generatore automatico esterno ancora presente')
 if image_registry_path.exists():
     try:
         image_registry=json.loads(image_registry_path.read_text())
