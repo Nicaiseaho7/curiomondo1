@@ -3,6 +3,39 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "yemen-dhubab-bab-el-mandeb-ai-v321",
+      "article": "/notizie/yemen-houthi-dhubab-bab-el-mandeb-11-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "prompt": "Aerial editorial view of the Bab el-Mandeb Strait near Dhubab, Yemen, rugged arid coastline and narrow blue shipping channel, a few distant commercial cargo vessels navigating cautiously, no combat, no explosions, no weapons, no injured people, geographically plausible Red Sea and Gulf of Aden atmosphere Ultra-realistic photojournalistic editorial photography, natural cinematic lighting, sharp focus, no text, no watermark, no logo overlay.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/yemen-dhubab-bab-el-mandeb-ai-v321-480.webp",
+          "sha256": "8d145ea375c9bbb99eb5affe468fcb9a8a16ade94376268fe351bed1df98d727",
+          "bytes": 14444
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/yemen-dhubab-bab-el-mandeb-ai-v321-800.webp",
+          "sha256": "10ce5dbadc4d6df1d65de8e63bad516731edf2312c92c585de7dd1371d522d07",
+          "bytes": 30526
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/yemen-dhubab-bab-el-mandeb-ai-v321-1200.webp",
+          "sha256": "cc8be1744ac20d785528ef27d691c8d92dc03d98843e45788c05247ec7e52403",
+          "bytes": 50812
+        }
+      ],
+      "alt": "Veduta editoriale del Bab el-Mandeb presso Dhubab con costa yemenita e navi commerciali lontane, illustrazione fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
       "key": "emma-bonino-ritratto-neutrale-morte-ai-v323",
       "article": "/notizie/emma-bonino-morta-78-anni-11-settembre-2026.html",
       "aiGenerated": true,
