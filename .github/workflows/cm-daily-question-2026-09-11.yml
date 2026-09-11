@@ -23,6 +23,8 @@ jobs:
         run: python3 -m pip install --disable-pip-version-check lxml
       - name: Prepare daily question
         run: python3 tools/publish_daily_20260911.py
+      - name: Complete daily eBook and protocol compatibility
+        run: python3 tools/fix_daily_20260911.py
       - name: Run mandatory predeploy gate
         run: python3 tools/predeploy.py
       - name: Commit verified publication
@@ -30,6 +32,7 @@ jobs:
         run: |
           rm .github/workflows/cm-daily-question-2026-09-11.yml
           rm tools/publish_daily_20260911.py
+          rm tools/fix_daily_20260911.py
           git config user.name "CurioMondo Automation"
           git config user.email "automation@curiomondo.it"
           git add -A
