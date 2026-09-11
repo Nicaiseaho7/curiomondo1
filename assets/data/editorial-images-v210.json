@@ -3,6 +3,39 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "ebola-congo-6757-casi-ai-v322",
+      "article": "/notizie/ebola-congo-6757-casi-3267-decessi-10-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "prompt": "Ultra-realistic editorial laboratory macro photograph representing Bundibugyo ebolavirus research and outbreak monitoring, a sealed transparent laboratory sample vial and gloved hands in a high-containment clinical laboratory, no patients, no suffering, no blood, no identifiable people, subdued professional lighting, realistic materials, documentary-style composition without implying a specific photographed event, no text, no logos, no infographic elements, professional international news photography Ultra-realistic photojournalistic editorial photography, natural cinematic lighting, sharp focus, no text, no watermark, no logo overlay.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ebola-congo-6757-casi-ai-v322-480.webp",
+          "sha256": "83a086bd0ef0df4b60924237ae280749b37b9be3e10881ee0014fc4e7f9bd317",
+          "bytes": 5998
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ebola-congo-6757-casi-ai-v322-800.webp",
+          "sha256": "eba41f40f3e3d960592004fa24d7c805307f9c46b245f8fdec96c050290a936c",
+          "bytes": 11954
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ebola-congo-6757-casi-ai-v322-1200.webp",
+          "sha256": "85cd31dabd4b79fe6b7c8e6de85e18bb05d66422eef2ceeeec1266361420d695",
+          "bytes": 20056
+        }
+      ],
+      "alt": "Laboratorio ad alta sicurezza per la sorveglianza dell'Ebola, illustrazione editoriale fotorealistica generata con IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
       "key": "west-nile-italia-594-casi-ai-v321",
       "article": "/notizie/west-nile-italia-594-casi-41-decessi-10-settembre-2026.html",
       "aiGenerated": true,
