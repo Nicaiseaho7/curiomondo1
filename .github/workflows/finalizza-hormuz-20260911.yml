@@ -26,6 +26,19 @@ jobs:
       - name: Dipendenze
         run: pip install lxml
 
+      - name: Correggi articolo Hormuz
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('notizie/stretto-hormuz-traffico-sette-navi-11-settembre-2026.html')
+          s=p.read_text(encoding='utf-8')
+          old='<p>Il valore aggiunto del dato odierno non è quindi soltanto il numero sette. La combinazione tra traffico marittimo ridotto, limiti delle rotte alternative e rialzo del petrolio mostra quanto un restringimento prolungato di Hormuz possa propagarsi rapidamente dai trasporti ai prezzi dell’energia e, infine, ai costi per imprese e famiglie. Le prossime rilevazioni serviranno a capire se il traffico resterà stabilmente in singola cifra o se si tratta di una nuova oscillazione dentro una fase già eccezionale.</p>'
+          new='<p>Il valore aggiunto del dato odierno non è quindi soltanto il numero sette. La combinazione tra traffico marittimo ridotto, limiti delle rotte alternative e rialzo del petrolio mostra quanto un restringimento prolungato di Hormuz possa propagarsi dai trasporti ai prezzi dell’energia e ai costi per imprese e famiglie.</p><p>Le prossime rilevazioni serviranno a capire se il traffico resterà stabilmente in singola cifra oppure se il dato rappresenta una nuova oscillazione dentro una fase già eccezionale.</p>'
+          if old not in s:
+              raise SystemExit('paragrafo da correggere non trovato')
+          p.write_text(s.replace(old,new),encoding='utf-8')
+          PY
+
       - name: Prepara finalizzatore v320
         run: |
           python3 - <<'PY'
@@ -60,8 +73,8 @@ jobs:
                   if 'version' in d: d['version']='320'
                   if 'baseline_version' in d: d['baseline_version']=319
                   if 'baselineVersion' in d: d['baselineVersion']=319
-                  if 'articleCount' in d: d['articleCount']=int(d['articleCount'])+1
-                  if 'generatedEditorialImages' in d: d['generatedEditorialImages']=int(d['generatedEditorialImages'])+1
+                  if 'articleCount' in d and int(d['articleCount']) < 252: d['articleCount']=int(d['articleCount'])+1
+                  if 'generatedEditorialImages' in d and int(d['generatedEditorialImages']) < 134: d['generatedEditorialImages']=int(d['generatedEditorialImages'])+1
                   if 'release_date' in d: d['release_date']='2026-09-11'
                   if 'date' in d: d['date']='2026-09-11'
                   if 'last_update' in d: d['last_update']='hormuz-traffico-sette-navi-v320'
