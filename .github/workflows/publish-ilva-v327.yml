@@ -1,0 +1,42 @@
+name: Finalizza pubblicazione ex Ilva v327
+on:
+  push:
+    paths:
+      - 'automation/state/publish-ilva-v327-trigger.txt'
+permissions:
+  contents: write
+jobs:
+  finalizza:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install lxml
+      - name: Ricostruisci superfici
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          p=Path('tools/finalize_articles_20260906.py')
+          s=p.read_text(encoding='utf-8')
+          s=re.sub(r'TARGETS = \{.*?\}\n\nREG_PATH','TARGETS = {}\n\nREG_PATH',s,count=1,flags=re.S)
+          s=s.replace('323','327').replace('?v=322','?v=327')
+          Path('tools/.finalize_v327_tmp.py').write_text(s,encoding='utf-8')
+          PY
+          python3 tools/.finalize_v327_tmp.py
+          rm tools/.finalize_v327_tmp.py
+      - name: Predeploy
+        run: python3 tools/predeploy.py
+      - name: Commit finale
+        run: |
+          rm -f automation/state/publish-ilva-v327-trigger.txt .github/workflows/publish-ilva-v327.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "v327: aggiorna homepage, ricerca, feed e sitemap ex Ilva"
+          git push
