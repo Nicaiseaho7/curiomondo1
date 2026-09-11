@@ -1,6 +1,12 @@
 {
-  "version": 320,
+  "version": 323,
   "items": [
+    {
+      "title": "È morta Emma Bonino, storica leader radicale ed ex ministra degli Esteri",
+      "excerpt": "La scomparsa, a 78 anni, è stata annunciata da +Europa. Nei giorni precedenti era stata ricoverata a Roma per una crisi respiratoria.",
+      "url": "/notizie/emma-bonino-morta-78-anni-11-settembre-2026.html",
+      "section": "Italia / Politica"
+    },
     {
       "title": "Ebola in Congo, l’OMS registra 6.757 casi e 3.267 decessi",
       "excerpt": "L’epidemia causata dal virus Bundibugyo raggiunge 61 zone sanitarie in sei province. L’OMS segnala trasmissione ancora sostenuta e rischio di ulteriore diffusione regionale.",
@@ -356,16 +362,16 @@
       "section": "Mondo / Iran / Geopolitica"
     },
     {
-      "title": "Confine Cina-Nepal, il porto di Gyirong cancellato dall’alluvione",
-      "excerpt": "Il valico che collegava Tibet e Nepal è stato travolto dalla colata di fango del 26 agosto. Del complesso doganale restano solo frammenti, mentre le ricerche dei dispersi continuano.",
-      "url": "/notizie/confine-cina-nepal-alluvione-porto-gyirong-distrutto-6-settembre-2026.html",
-      "section": "Mondo / Cina / Nepal"
-    },
-    {
       "title": "Ucraina, tregua aerea di 72 ore: Witkoff e Kushner oggi a Kyiv",
       "excerpt": "La pausa riguarda gli attacchi aerei contro le due capitali durante la missione americana, ma non tutti i combattimenti. Dopo il colloquio al Cremlino, gli inviati statunitensi sono attesi da Zelensky.",
       "url": "/notizie/ucraina-tregua-aerea-72-ore-witkoff-kushner-kyiv-6-settembre-2026.html",
       "section": "Mondo / Ucraina / Diplomazia"
+    },
+    {
+      "title": "Confine Cina-Nepal, il porto di Gyirong cancellato dall’alluvione",
+      "excerpt": "Il valico che collegava Tibet e Nepal è stato travolto dalla colata di fango del 26 agosto. Del complesso doganale restano solo frammenti, mentre le ricerche dei dispersi continuano.",
+      "url": "/notizie/confine-cina-nepal-alluvione-porto-gyirong-distrutto-6-settembre-2026.html",
+      "section": "Mondo / Cina / Nepal"
     },
     {
       "title": "Sassonia-Anhalt al voto, affluenza in forte aumento: l’AfD cerca una svolta storica",
@@ -986,15 +992,15 @@
       "section": "Mondo / Africa"
     },
     {
-      "title": "Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
-      "excerpt": "La legge statunitense COPPA regola la raccolta dei dati personali dei bambini sotto i 13 anni. Ecco come funziona il consenso dei genitori, quali obblighi hanno le piattaforme e perché le verifiche dell’età sono diventate centrali.",
-      "url": "/notizie/come-funziona-coppa-privacy-minori-online.html",
-      "section": "Tecnologia / Privacy"
-    },
-    {
       "title": "TikTok e ByteDance, accordo da 400 milioni di dollari negli USA sulla privacy dei minori",
       "excerpt": "TikTok, ByteDance e società collegate hanno raggiunto con il Dipartimento di Giustizia USA un accordo da 400 milioni di dollari per chiudere il contenzioso sulle presunte violazioni della privacy dei bambini. Il DOJ precisa che le accuse sono state risolte senza una determinazione di responsabilità.",
       "url": "/notizie/tiktok-bytedance-400-milioni-privacy-minori-usa-22-agosto-2026.html",
+      "section": "Tecnologia / Privacy"
+    },
+    {
+      "title": "Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
+      "excerpt": "La legge statunitense COPPA regola la raccolta dei dati personali dei bambini sotto i 13 anni. Ecco come funziona il consenso dei genitori, quali obblighi hanno le piattaforme e perché le verifiche dell’età sono diventate centrali.",
+      "url": "/notizie/come-funziona-coppa-privacy-minori-online.html",
       "section": "Tecnologia / Privacy"
     },
     {
@@ -1268,16 +1274,16 @@
       "section": "Mondo / Stati Uniti"
     },
     {
-      "title": "Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
-      "excerpt": "A Roma è iniziato un nuovo round di colloqui tra Israele e Libano facilitato dagli Stati Uniti. Sul tavolo sicurezza, ritiro e autorità nel Sud del Libano.",
-      "url": "/notizie/israele-libano-negoziati-roma-mediazione-usa.html",
-      "section": "Roma / Diplomazia"
-    },
-    {
       "title": "Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
       "excerpt": "A Gaza City si è tenuto il funerale collettivo di 112 persone i cui corpi sono stati recuperati dalle macerie di un attacco israeliano del novembre 2023.",
       "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
       "section": "Gaza / Cronaca"
+    },
+    {
+      "title": "Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
+      "excerpt": "A Roma è iniziato un nuovo round di colloqui tra Israele e Libano facilitato dagli Stati Uniti. Sul tavolo sicurezza, ritiro e autorità nel Sud del Libano.",
+      "url": "/notizie/israele-libano-negoziati-roma-mediazione-usa.html",
+      "section": "Roma / Diplomazia"
     },
     {
       "title": "La consapevolezza della morte ci rende più buoni o soltanto più precipitosi?",

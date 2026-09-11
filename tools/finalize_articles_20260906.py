@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CAPTION = "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria."
 
 TARGETS = {
-    "notizie/ebola-congo-6757-casi-3267-decessi-10-settembre-2026.html": "ebola-congo-6757-casi-ai-v322",
+    "notizie/emma-bonino-morta-78-anni-11-settembre-2026.html": "emma-bonino-ritratto-neutrale-morte-ai-v323",
 }
 
 REG_PATH = ROOT / "assets/data/editorial-images-v210.json"
@@ -80,13 +80,13 @@ def inject_image(rel, key):
     doc = html.fromstring(source)
     item = reg_by_key[key]
     img = image_data(item)
-    public_figure = key.startswith("papa-leone-")
+    public_figure = item.get("syntheticLikeness") == "public-figure"
 
     # Corregge il collegamento registro -> URL articolo reale.
     item["article"] = "/" + rel.replace("\\", "/")
     if public_figure:
         item["syntheticLikeness"] = "public-figure"
-        item["sensitiveContext"] = False
+        item.setdefault("sensitiveContext", False)
 
     # OpenGraph: un solo og:image e alt, coerenti con hero e NewsArticle.image.
     head = doc.xpath("//head")[0]
@@ -109,7 +109,9 @@ def inject_image(rel, key):
     figure = etree.Element("figure", {"class": "article-image", "data-ai-generated": "true"})
     if public_figure:
         figure.set("data-synthetic-likeness", "public-figure")
-        figure.set("data-sensitive-context", "false")
+        figure.set("data-sensitive-context", "true" if item.get("sensitiveContext") is True else "false")
+        if item.get("sensitiveContext") is True:
+            figure.set("data-portrait-format", "neutral-isolated")
     elif item.get("sensitiveContext") is True:
         figure.set("data-sensitive-context", "true")
     picture = etree.SubElement(figure, "picture")
@@ -131,7 +133,7 @@ def inject_image(rel, key):
 for rel, key in TARGETS.items():
     inject_image(rel, key)
 
-reg["version"] = 320
+reg["version"] = 323
 REG_PATH.write_text(json.dumps(reg, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
@@ -197,7 +199,7 @@ for info in infos:
     if old.get("excerpt") and info["url"] not in {"/" + x for x in TARGETS}:
         merged["excerpt"] = old["excerpt"]
     feed_items.append(merged)
-home_feed["version"] = 320
+home_feed["version"] = 323
 home_feed["items"] = feed_items
 home_feed_path.write_text(json.dumps(home_feed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -206,7 +208,7 @@ search_path = ROOT / "assets/data/search-index-v210.json"
 search = json.loads(search_path.read_text(encoding="utf-8"))
 non_news = [i for i in search.get("items", []) if not str(i.get("url", "")).startswith("/notizie/")]
 search_news = [{k: i[k] for k in ("title", "excerpt", "url", "section")} for i in feed_items]
-search["version"] = 320
+search["version"] = 323
 search["items"] = search_news + non_news
 search_path.write_text(json.dumps(search, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -255,7 +257,7 @@ def make_card(item):
 
 # Homepage: apertura + 5 ultime + 39 "Tutte" = top 45 articoli idonei, senza buchi cronologici.
 home_path = ROOT / "index.html"
-home_source = home_path.read_text(encoding="utf-8").replace("?v=320", "?v=320")
+home_source = home_path.read_text(encoding="utf-8").replace("?v=322", "?v=323")
 home = html.fromstring(home_source)
 for track in home.xpath('//nav[contains(concat(" ",normalize-space(@class)," ")," ticker-track ")][1] | //div[contains(concat(" ",normalize-space(@class)," ")," ticker-track ")]'):
     for child in list(track): track.remove(child)
@@ -337,6 +339,6 @@ ET.indent(sm_tree, space="  "); sm_tree.write(sitemap_path, encoding="utf-8", xm
 for rel in ("assets/js/home-v210.js", "assets/js/curiomondo-article-v210.js"):
     p = ROOT / rel
     if p.exists():
-        p.write_text(p.read_text(encoding="utf-8").replace("?v=320", "?v=320"), encoding="utf-8")
+        p.write_text(p.read_text(encoding="utf-8").replace("?v=322", "?v=323"), encoding="utf-8")
 
-print(json.dumps({"status":"ok","version":320,"new_articles":["/"+x for x in TARGETS],"homepage_top":[i["url"] for i in feed_items[:10]]}, ensure_ascii=False, indent=2))
+print(json.dumps({"status":"ok","version":323,"new_articles":["/"+x for x in TARGETS],"homepage_top":[i["url"] for i in feed_items[:10]]}, ensure_ascii=False, indent=2))

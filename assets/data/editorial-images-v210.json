@@ -1,7 +1,42 @@
 {
-  "version": 320,
+  "version": 323,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "emma-bonino-ritratto-neutrale-morte-ai-v323",
+      "article": "/notizie/emma-bonino-morta-78-anni-11-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/emma-bonino-ritratto-neutrale-morte-ai-v323-480.webp",
+          "sha256": "6eaba3157caff200a7b46751f79305bce83e604ef535eb10d49dcc70f7d32749",
+          "bytes": 7298
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/emma-bonino-ritratto-neutrale-morte-ai-v323-800.webp",
+          "sha256": "d2e2a244b50af5e3fa3100af7e8479acca0ecfe255e772c586202c77c58998b2",
+          "bytes": 19184
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/emma-bonino-ritratto-neutrale-morte-ai-v323-1200.webp",
+          "sha256": "76508b321ad75f2c2524f74665cf6df2ce252da9c8134111742e93ebb8801249",
+          "bytes": 37154
+        }
+      ],
+      "alt": "Ritratto editoriale neutrale e isolato di Emma Bonino su sfondo blu, somiglianza sintetica fotorealistica generata con IA per una notizia sensibile",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "syntheticLikeness": "public-figure",
+      "publicFigure": "Emma Bonino",
+      "prompt": "Sensitive obituary context: neutral editorial portrait of Emma Bonino, isolated head-and-shoulders composition on a simple blue-gray studio background; no hospital, funeral, suffering, text or documentary reenactment.",
+      "reenactedEvent": false
+    },
     {
       "key": "ebola-congo-6757-casi-ai-v322",
       "article": "/notizie/ebola-congo-6757-casi-3267-decessi-10-settembre-2026.html",
