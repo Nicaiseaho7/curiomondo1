@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CAPTION = "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria."
 
 TARGETS = {
-    "notizie/west-nile-italia-594-casi-41-decessi-10-settembre-2026.html": "west-nile-italia-594-casi-ai-v321",
+    "notizie/ebola-congo-6757-casi-3267-decessi-10-settembre-2026.html": "ebola-congo-6757-casi-ai-v322",
 }
 
 REG_PATH = ROOT / "assets/data/editorial-images-v210.json"
