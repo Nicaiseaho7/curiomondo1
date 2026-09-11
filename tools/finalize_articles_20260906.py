@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CAPTION = "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria."
 
 TARGETS = {
-    "notizie/stretto-hormuz-traffico-sette-navi-11-settembre-2026.html": "hormuz-traffico-sette-navi-ai-v320",
+    "notizie/west-nile-italia-594-casi-41-decessi-10-settembre-2026.html": "west-nile-italia-594-casi-ai-v321",
 }
 
 REG_PATH = ROOT / "assets/data/editorial-images-v210.json"
