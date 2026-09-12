@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install lxml
-      - name: Allinea Domanda del giorno
+      - name: Allinea Domanda del giorno ed eBook
         run: |
           python3 - <<'PY'
           from pathlib import Path
@@ -29,7 +29,7 @@ jobs:
           SLUG='il-tempo-e-un-nemico-da-sconfiggere-o-un-alleato-da-ascoltare'
           TITLE='Il tempo è un nemico da sconfiggere o un alleato da ascoltare?'
           EXCERPT='Una riflessione sul rapporto con il tempo: controllo, fretta, attesa e capacità di riconoscere quando accelerare e quando lasciare maturare le cose.'
-          OLD='esiste-un-modo-di-morire-che-sia-coerente-con-il-modo-in-cui-si-e-vissuti'
+          BOOK=f'/biblioteca/vita-relazioni/domande-per-conoscersi/{SLUG}/'
 
           p=Path('curiomondo-site-manifest.json')
           m=json.loads(p.read_text(encoding='utf-8'))
@@ -43,6 +43,25 @@ jobs:
           m['site']['site_version']=341
           p.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
+          qp=Path(f'domanda-del-giorno/{SLUG}/index.html')
+          q=qp.read_text(encoding='utf-8')
+          q=re.sub(r'<a class="cm-daily-book-link" href="[^"]+">.*?</a>',
+                   f'<a class="cm-daily-book-link" href="{BOOK}"><span><small>Continua la riflessione</small><strong>Leggi l’eBook collegato</strong></span><span class="cm-daily-book-arrow" aria-hidden="true">→</span></a>',
+                   q,count=1,flags=re.S)
+          qp.write_text(q,encoding='utf-8')
+
+          home=Path('index.html')
+          h=home.read_text(encoding='utf-8')
+          new_section=(
+            f'<section class="cm-qday" aria-label="Domanda del giorno">'
+            f'<a aria-label="Scopri la Domanda del giorno del 13 settembre 2026" class="cm-qday-link" href="/domanda-del-giorno/{SLUG}/">'
+            f'<div class="cm-qday-card"><time class="cm-qday-date" datetime="{DATE}"><strong>13</strong><span>SET · 2026</span></time>'
+            f'<span class="cm-qday-k">Domanda del giorno</span><span class="cm-qday-cta">Scopri <i aria-hidden="true">→</i></span></div></a></section>'
+          )
+          h,n=re.subn(r'<section class="cm-qday"[^>]*>.*?</section>',new_section,h,count=1,flags=re.S)
+          if n!=1: raise SystemExit('card Domanda del giorno non trovata')
+          home.write_text(h,encoding='utf-8')
+
           arch=Path('domanda-del-giorno/index.html')
           text=arch.read_text(encoding='utf-8')
           href=f'/domanda-del-giorno/{SLUG}/'
@@ -51,36 +70,32 @@ jobs:
               text=text.replace('<section class="cb-subgrid">','<section class="cb-subgrid">'+card,1)
               arch.write_text(text,encoding='utf-8')
 
-          home=Path('index.html')
-          h=home.read_text(encoding='utf-8')
-          pat=re.compile(r'<a[^>]+href="/domanda-del-giorno/'+re.escape(OLD)+r'/"[^>]*>.*?</a>',re.S)
-          card=f'<a href="/domanda-del-giorno/{SLUG}/"><span>Domanda del giorno</span><strong>{TITLE}</strong><small>13 settembre 2026</small></a>'
-          h2,n=pat.subn(card,h,count=1)
-          if n:
-              home.write_text(h2,encoding='utf-8')
-
           sp=Path('assets/data/search-index-v210.json')
           s=json.loads(sp.read_text(encoding='utf-8'))
-          items=s.get('items',[])
-          url=href
-          items=[x for x in items if x.get('url')!=url]
-          items.append({'title':TITLE,'excerpt':EXCERPT,'url':url,'section':'Domanda del giorno'})
+          items=[x for x in s.get('items',[]) if x.get('url') not in (href,BOOK)]
+          items.extend([
+              {'title':TITLE,'excerpt':EXCERPT,'url':href,'section':'Domanda del giorno'},
+              {'title':'Il tempo come misura, non come nemico','excerpt':'Un eBook CurioMondo sul rapporto con il tempo: fretta, attesa, relazioni, lavoro e scelte che hanno bisogno di ritmi diversi.','url':BOOK,'section':'Biblioteca / Vita e relazioni'}
+          ])
           s['items']=items; s['version']=341
           sp.write_text(json.dumps(s,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
           sm=Path('sitemap.xml')
           sx=sm.read_text(encoding='utf-8')
-          loc=f'https://curiomondo.it/domanda-del-giorno/{SLUG}/'
-          if loc not in sx:
-              block=f'  <url><loc>{loc}</loc><lastmod>{DATE}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>\n'
-              sx=sx.replace('</urlset>',block+'</urlset>')
-              sm.write_text(sx,encoding='utf-8')
+          for loc,priority in (
+              (f'https://curiomondo.it/domanda-del-giorno/{SLUG}/','0.7'),
+              (f'https://curiomondo.it{BOOK}','0.6'),
+          ):
+              if loc not in sx:
+                  block=f'  <url><loc>{loc}</loc><lastmod>{DATE}</lastmod><changefreq>daily</changefreq><priority>{priority}</priority></url>\n'
+                  sx=sx.replace('</urlset>',block+'</urlset>')
+          sm.write_text(sx,encoding='utf-8')
           PY
       - name: Aggiorna superfici articolo
         run: |
           python3 tools/finalize_articles_20260906.py
           python3 tools/generate_category_pages.py
-      - name: Porta aggiornamento IA in evidenza e allinea release
+      - name: Allinea release v341
         run: |
           python3 - <<'PY'
           from pathlib import Path
