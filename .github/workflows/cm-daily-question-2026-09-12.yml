@@ -54,4 +54,4 @@ jobs:
           git commit -m "Pubblica domanda del giorno 12 settembre 2026"
           git push origin HEAD:main
 
-# final rerun after canonical back/H2 patch
+# rerun after canonical global header alignment
