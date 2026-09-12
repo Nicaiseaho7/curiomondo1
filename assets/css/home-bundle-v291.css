@@ -1992,9 +1992,12 @@ html.cm-dark .auto-card picture::after,html.cm-dark .card picture::after{
 /* source: assets/css/home-cards-clean-v342.css */
 /* v342 — card più compatta in evidenza e superfici uniformi nel feed. */
 .featured{
-  min-height:clamp(300px,29vw,360px);
-  max-height:360px;
+  min-height:clamp(280px,27vw,330px);
+  max-height:330px;
 }
+.featured .txt{padding:24px 27px}
+.cm-featured-stats{gap:9px;margin-top:12px}
+.cm-featured-foot{margin-top:10px}
 
 .auto-card,.card{
   background:var(--cm-paper)!important;
@@ -2025,6 +2028,9 @@ html.cm-dark .auto-card:hover,html.cm-dark .card:hover{
 }
 
 @media(max-width:600px){
-  .featured{min-height:410px;max-height:410px}
-  .featured .txt{min-height:410px;padding:17px 18px}
+  .featured{min-height:360px;max-height:360px}
+  .featured .txt{min-height:360px;padding:15px 17px}
+  .featured h1{font-size:clamp(1.3rem,6.3vw,1.65rem)}
+  .featured p{-webkit-line-clamp:1;margin-bottom:5px}
+  .cm-featured-stats{margin-top:9px}
 }
