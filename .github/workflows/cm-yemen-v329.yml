@@ -22,16 +22,58 @@ jobs:
       - name: Install dependencies
         run: python3 -m pip install --disable-pip-version-check pillow lxml
       - name: Prepare substantive Yemen update
+        shell: bash
         run: |
-          python3 tools/update_yemen_v329.py
-          python3 tools/finalize_articles_20260906.py 329
+          set +e
+          {
+            echo '=== update_yemen_v329.py ==='
+            python3 tools/update_yemen_v329.py
+            c1=$?
+            echo "helper_exit=$c1"
+            if [ "$c1" -eq 0 ]; then
+              echo '=== finalize_articles_20260906.py ==='
+              python3 tools/finalize_articles_20260906.py 329
+              c2=$?
+            else
+              c2=99
+            fi
+            echo "finalize_exit=$c2"
+          } > /tmp/cm-yemen-prepare.log 2>&1
+          code=$?
+          cat /tmp/cm-yemen-prepare.log
+          helper_code=$(grep 'helper_exit=' /tmp/cm-yemen-prepare.log | tail -1 | cut -d= -f2)
+          finalize_code=$(grep 'finalize_exit=' /tmp/cm-yemen-prepare.log | tail -1 | cut -d= -f2)
+          if [ "$helper_code" != "0" ] || [ "$finalize_code" != "0" ]; then
+            cp /tmp/cm-yemen-prepare.log automation/state/yemen-v329-prepare.log
+            git config user.name "CurioMondo Automation"
+            git config user.email "automation@curiomondo.it"
+            git add automation/state/yemen-v329-prepare.log
+            git commit -m "Registra errore preparazione Yemen v329"
+            git push origin HEAD:main
+            exit 1
+          fi
       - name: Run mandatory predeploy gate
-        run: python3 tools/predeploy.py
+        shell: bash
+        run: |
+          set +e
+          python3 tools/predeploy.py > /tmp/cm-yemen-predeploy.log 2>&1
+          code=$?
+          cat /tmp/cm-yemen-predeploy.log
+          if [ "$code" -ne 0 ]; then
+            cp /tmp/cm-yemen-predeploy.log automation/state/yemen-v329-predeploy.log
+            git config user.name "CurioMondo Automation"
+            git config user.email "automation@curiomondo.it"
+            git add automation/state/yemen-v329-predeploy.log
+            git commit -m "Registra errore predeploy Yemen v329"
+            git push origin HEAD:main
+            exit "$code"
+          fi
       - name: Commit verified update
         shell: bash
         run: |
           rm .github/workflows/cm-yemen-v329.yml
           rm tools/update_yemen_v329.py
+          rm -f automation/state/yemen-v329-prepare.log automation/state/yemen-v329-predeploy.log
           git config user.name "CurioMondo Automation"
           git config user.email "automation@curiomondo.it"
           git add -A
