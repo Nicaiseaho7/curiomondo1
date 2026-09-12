@@ -13,8 +13,6 @@
       "category": "Tecnologia e informatica",
       "remaining_topics": [
         "Come formattare PC / hard disk",
-        "Come velocizzare PC / smartphone",
-        "Come togliere virus / malware",
         "Come collegare stampante Wi-Fi",
         "Come fare screen recording",
         "Come condividere schermo",
@@ -42,14 +40,15 @@
         "Come scaricare video da YouTube",
         "Come fare backup (WhatsApp, foto, PC)",
         "Come recuperare password (Gmail, Facebook, Instagram, Wi-Fi)",
-        "Come installare app (Android/iOS)"
+        "Come installare app (Android/iOS)",
+        "Come velocizzare PC / smartphone",
+        "Come togliere virus / malware"
       ]
     },
     {
       "category": "Burocrazia, documenti e PA",
       "remaining_topics": [
         "Come rinnovare la CIE (Carta d’Identità Elettronica)",
-        "Come fare la dichiarazione dei redditi / 730",
         "Come iscriversi al Servizio Sanitario Nazionale",
         "Come fare il codice fiscale",
         "Come richiedere lo SPID",
@@ -67,7 +66,8 @@
       ],
       "published_from_queue": [
         "Come fare lo SPID",
-        "Come fare il passaporto"
+        "Come fare il passaporto",
+        "Come fare la dichiarazione dei redditi / 730"
       ]
     },
     {
@@ -156,14 +156,15 @@
         "Come fare soldi (online, extra, ecc.)",
         "Come investire (azioni, ETF, criptovalute)",
         "Come fare un budget familiare",
-        "Come risparmiare soldi",
         "Come aprire un conto corrente",
         "Come richiedere un prestito / mutuo",
         "Come fare trading",
         "Come dichiarare le criptovalute",
         "Come fare soldi con YouTube / TikTok / affiliate"
       ],
-      "published_from_queue": []
+      "published_from_queue": [
+        "Come risparmiare soldi"
+      ]
     },
     {
       "category": "Casa, fai-da-te e pulizie",
@@ -198,7 +199,6 @@
     {
       "category": "Lavoro, curriculum e carriera",
       "remaining_topics": [
-        "Come fare un curriculum / CV",
         "Come scrivere una lettera di presentazione",
         "Come prepararsi a un colloquio",
         "Come trovare lavoro",
@@ -207,7 +207,9 @@
         "Come chiedere un aumento",
         "Come licenziarsi"
       ],
-      "published_from_queue": []
+      "published_from_queue": [
+        "Come fare un curriculum / CV"
+      ]
     },
     {
       "category": "Viaggi e vestirsi",
