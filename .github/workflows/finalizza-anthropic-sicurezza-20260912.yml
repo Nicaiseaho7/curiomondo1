@@ -117,8 +117,8 @@ jobs:
           from pathlib import Path
           p=Path('notizie/filippine-incendio-traghetto-june-aster-76-morti-12-settembre-2026.html')
           s=p.read_text(encoding='utf-8')
-          old='Il dato più importante resta in evoluzione: le squadre di recupero stanno ancora lavorando sul relitto e il numero definitivo delle vittime potrà cambiare con l’identificazione dei resti e la verifica dell’elenco dei dispersi.'</p>'
-          new='Il dato più importante resta in evoluzione: le squadre di recupero stanno ancora lavorando sul relitto e il numero definitivo delle vittime potrà cambiare con l’identificazione dei resti e la verifica dell’elenco dei dispersi. Le operazioni proseguono nell’area di Coron, dove soccorritori e investigatori stanno lavorando in parallelo sul relitto e sull’identificazione delle vittime.'</p>'
+          old="Il dato più importante resta in evoluzione: le squadre di recupero stanno ancora lavorando sul relitto e il numero definitivo delle vittime potrà cambiare con l’identificazione dei resti e la verifica dell’elenco dei dispersi.</p>"
+          new="Il dato più importante resta in evoluzione: le squadre di recupero stanno ancora lavorando sul relitto e il numero definitivo delle vittime potrà cambiare con l’identificazione dei resti e la verifica dell’elenco dei dispersi. Le operazioni proseguono nell’area di Coron, dove soccorritori e investigatori stanno lavorando in parallelo sul relitto e sull’identificazione delle vittime.</p>"
           if old not in s:
               raise SystemExit('Paragrafo June Aster non trovato')
           p.write_text(s.replace(old,new,1),encoding='utf-8')
