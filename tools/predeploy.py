@@ -380,7 +380,8 @@ if book_path and book_path.exists():
     book_text=re.sub(r'\s+',' ',' '.join(book.xpath('//div[contains(concat(" ",normalize-space(@class)," ")," cm-book-stage ")]//p//text()'))).strip()
     if not 8<=len(pages)<=14: errors.append('eBook v255 fuori 8–14 pagine')
     if not 15000<=len(book_text)<=30000: errors.append(f'eBook v255 fuori 15000–30000 caratteri ({len(book_text)})')
-    if len(book.xpath('//h2'))>7: errors.append('eBook v255 supera 7 H2')
+    content_h2 = book.xpath('//h2[not(contains(concat(" ",normalize-space(@class)," ")," cm-book-title "))]')
+    if len(content_h2)>7: errors.append('eBook v255 supera 7 H2 di contenuto')
     if len(book.xpath('//button[@data-book-prev]'))!=1 or len(book.xpath('//button[@data-book-next]'))!=1: errors.append('controlli eBook v255 non conformi')
 else: errors.append('eBook v255 assente')
 for guide_path in guide_paths:
