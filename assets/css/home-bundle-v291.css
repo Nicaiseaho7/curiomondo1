@@ -1963,13 +1963,25 @@ html.cm-dark .auto-card picture::after,html.cm-dark .card picture::after{
 .featured .tag::before{content:"\26A1"}
 .cm-featured-category{position:absolute;top:24px;right:24px;z-index:2;display:inline-flex;align-items:center;padding:7px 14px;border-radius:999px;background:rgba(4,14,30,.86);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:#fff;font-size:.66rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;max-width:min(46%,220px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .featured h1{font-weight:800}
+.cm-featured-hl{color:#5b9dff;font-weight:900}
+.cm-featured-stats{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 2px}
+.cm-featured-stat{display:flex;flex-direction:column;gap:2px;padding:9px 14px;border-radius:14px;background:rgba(4,14,30,.55);border:1px solid rgba(255,255,255,.16)}
+.cm-featured-stat b{font-size:.92rem;font-weight:800;color:#fff;white-space:nowrap}
+.cm-featured-stat span{font-size:.6rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:#b9c8e0;white-space:nowrap}
 .cm-featured-foot{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px 18px;margin-top:16px}
 .featured .cta{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:0 20px;border-radius:999px;background:#0f63d6;color:#fff;font-weight:800;box-shadow:0 12px 26px rgba(15,99,214,.4);transition:background .2s ease}
 .featured:hover .cta{background:#0d55ba}
 .cm-featured-date{display:inline-flex;align-items:center;gap:6px;padding:7px 13px;border-radius:999px;background:rgba(4,14,30,.86);border:1px solid rgba(255,255,255,.2);color:#fff;font-size:.72rem;font-weight:700;white-space:nowrap}
+.featured{min-height:clamp(400px,40vw,560px);max-height:560px}
+@media(max-width:700px){.featured{min-height:400px;max-height:480px}}
 @media(max-width:600px){
+  .featured{min-height:410px;max-height:490px}
   .cm-featured-category{top:18px;right:18px;padding:6px 11px;font-size:.6rem;max-width:44%}
   .cm-featured-date{font-size:.66rem;padding:6px 11px}
   .cm-featured-foot{gap:10px 14px;margin-top:12px}
+  .cm-featured-stats{gap:8px;margin:10px 0 2px}
+  .cm-featured-stat{padding:7px 11px;border-radius:12px}
+  .cm-featured-stat b{font-size:.8rem}
+  .cm-featured-stat span{font-size:.54rem}
 }
 @media(prefers-reduced-motion:reduce){.featured .tag{animation:none}}
