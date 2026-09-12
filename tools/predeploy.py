@@ -167,6 +167,7 @@ def article_v4_required(doc):
     return False
 caption='Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.'
 card_eligible_dates={}
+publication_date_errors=[]
 for p in news:
     d=html.fromstring(p.read_text(errors='replace'))
     robots_l=' '.join(d.xpath('//meta[@name="robots"]/@content')).lower()
@@ -184,6 +185,22 @@ for p in news:
                     if len(stamp_norm)<=10: stamp_norm+='T00:00:00+02:00'
                     dt=datetime.fromisoformat(stamp_norm.replace('Z','+00:00'))
                     card_eligible_dates[f'/notizie/{p.name}']=dt
+                    # Dal protocollo editoriale v4, datePublished deve indicare
+                    # la prima pubblicazione CurioMondo, non la data della fonte
+                    # o dell'evento. Il commit di creazione è il riferimento
+                    # verificabile disponibile nella pipeline.
+                    if dt >= datetime.fromisoformat('2026-09-10T00:00:00+02:00'):
+                        try:
+                            import subprocess
+                            rel=p.relative_to(root).as_posix()
+                            proc=subprocess.run(['git','log','--diff-filter=A','--follow','--format=%aI','--',rel],cwd=root,capture_output=True,text=True,check=True)
+                            stamps=[x.strip() for x in proc.stdout.splitlines() if x.strip()]
+                            if stamps:
+                                first_added=datetime.fromisoformat(stamps[-1].replace('Z','+00:00'))
+                                if first_added > dt:
+                                    publication_date_errors.append(f'datePublished precedente alla pubblicazione CurioMondo: {p.name}')
+                        except Exception:
+                            pass
                 except Exception: pass
                 break
     if not d.xpath('//main[contains(@class,"wrap")]'): errors.append(f'main non vincolato: {p.name}')
@@ -268,6 +285,7 @@ for p in news:
         errors.append(f'cache correlati senza versione numerica: {p.name}')
 for url,count in Counter(refs).items():
     if count>1: errors.append(f'immagine articolo duplicata ({count}): {url}')
+errors.extend(publication_date_errors)
 
 home=html.fromstring((root/'index.html').read_text(errors='replace'))
 if home.xpath('//footer//*[contains(concat(" ",normalize-space(@class)," ")," cm-nicaise-signature ")]'): errors.append('firma Nicaise ancora presente nel footer home')

@@ -8,6 +8,7 @@ from pathlib import Path
 import html as html_std
 import json
 import re
+import subprocess
 import xml.etree.ElementTree as ET
 
 from lxml import etree, html
@@ -74,6 +75,39 @@ def image_data(item):
     }
 
 
+def actual_publication_iso(path: Path, declared_iso: str) -> str:
+    """Use the first repository publication, never the source/event timestamp.
+
+    Older imported pages predate the reliable Git history used by the current
+    publishing pipeline, so the correction is deliberately limited to the
+    current editorial generation (10 September 2026 onward).
+    """
+    try:
+        relative = path.relative_to(ROOT).as_posix()
+        result = subprocess.run(
+            ["git", "log", "--diff-filter=A", "--follow", "--format=%aI", "--", relative],
+            cwd=ROOT,
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        stamps = [line.strip() for line in result.stdout.splitlines() if line.strip()]
+        if not stamps:
+            return declared_iso
+        first_added = datetime.fromisoformat(stamps[-1].replace("Z", "+00:00"))
+        threshold = datetime.fromisoformat("2026-09-10T00:00:00+02:00")
+        if first_added < threshold:
+            return declared_iso
+        declared = datetime.fromisoformat(declared_iso.replace("Z", "+00:00"))
+        # A timestamp a few minutes after the commit may be an intentional
+        # scheduled publication. Only repair dates that predate publication.
+        if first_added > declared:
+            return first_added.isoformat(timespec="seconds")
+    except (OSError, ValueError, subprocess.SubprocessError):
+        pass
+    return declared_iso
+
+
 def inject_image(rel, key):
     path = ROOT / rel
     source = path.read_text(encoding="utf-8")
@@ -138,15 +172,22 @@ REG_PATH.write_text(json.dumps(reg, ensure_ascii=False, indent=2) + "\n", encodi
 
 
 def article_info(path: Path):
-    doc = html.fromstring(path.read_text(encoding="utf-8"))
+    source = path.read_text(encoding="utf-8")
+    doc = html.fromstring(source)
     robots = " ".join(doc.xpath('//meta[@name="robots"]/@content')).lower()
     hero = doc.xpath('//main//figure[1]//img[1]')
     if "noindex" in robots or not hero:
         return None
-    _, ld = news_json(doc)
+    ld_node, ld = news_json(doc)
     iso = ld.get("datePublished")
     if not iso:
         return None
+    corrected_iso = actual_publication_iso(path, iso)
+    if corrected_iso != iso:
+        ld["datePublished"] = corrected_iso
+        ld_node.text = json.dumps(ld, ensure_ascii=False, separators=(",", ":"))
+        path.write_text('<!doctype html>\n' + html.tostring(doc, encoding="unicode", method="html"), encoding="utf-8")
+        iso = corrected_iso
     title = text_of(doc.xpath('//main[contains(@class,"wrap")]//h1[1]//text()')) or ld.get("headline", "")
     subtitle = text_of(doc.xpath('//main[contains(@class,"wrap")]//p[contains(concat(" ",normalize-space(@class)," ")," subtitle ")][1]//text()'))
     desc = (doc.xpath('//meta[@name="description"]/@content') or [subtitle])[0]
