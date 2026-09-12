@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 326,
-    "site_version": 326
+    "current_site_version": 328,
+    "site_version": 328
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -21,12 +21,13 @@
   "daily_state": {
     "question_source": "Mille_e_piu_domande_per_pensare.pdf (fonte privata fornita dal proprietario; non pubblicare nel sito)",
     "question_source_rule": "choose every future daily question only from the 1125 numbered questions in this PDF and record its number",
-    "current_question_source_number": 88,
+    "current_question_source_number": 89,
     "used_question_source_numbers": [
       87,
-      88
+      88,
+      89
     ],
-    "last_question_date": "2026-09-11",
+    "last_question_date": "2026-09-12",
     "question_archive_path": "/domanda-del-giorno/",
     "question_library_root": "/biblioteca/vita-relazioni/",
     "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE",
@@ -35,7 +36,7 @@
     "private_source_required_fail_closed": true,
     "timezone": "Europe/Rome",
     "date_source": "current_datetime_in_Europe_Rome_never_UTC",
-    "last_question_slug": "la-consapevolezza-della-morte-ci-rende-piu-buoni-o-soltanto-piu-precipitosi"
+    "last_question_slug": "esiste-un-modo-di-morire-che-sia-coerente-con-il-modo-in-cui-si-e-vissuti"
   },
   "homepage": {
     "hero_section_label": "In evidenza",
