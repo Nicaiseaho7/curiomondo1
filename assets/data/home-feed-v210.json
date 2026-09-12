@@ -1,5 +1,5 @@
 {
-  "version": 326,
+  "version": 323,
   "items": [
     {
       "title": "Roma, 56enne sequestrata, violentata e rapinata in casa: arrestato un 32enne",
@@ -41,14 +41,14 @@
       "srcset": "/assets/images/editorial-auto/usa-inflazione-agosto-fed-tassi-ai-openai-v326-480.webp 480w, /assets/images/editorial-auto/usa-inflazione-agosto-fed-tassi-ai-openai-v326-800.webp 800w, /assets/images/editorial-auto/usa-inflazione-agosto-fed-tassi-ai-openai-v326-1200.webp 1200w"
     },
     {
-      "title": "Yemen, gli Houthi raggiungono Perim nel Bab el-Mandeb",
-      "excerpt": "L’avanzata porta le forze Houthi direttamente su uno dei passaggi marittimi più sensibili al mondo, già indebolito da anni di attacchi e deviazioni delle rotte commerciali.",
+      "title": "Bab el-Mandeb, Houthi su Perim: fermato l’oleodotto saudita Est-Ovest",
+      "excerpt": "Dopo Dhubab, l’avanzata arriva sull’isola che divide in due il passaggio meridionale del Mar Rosso. Nelle stesse ore un attacco ha temporaneamente fermato anche l’oleodotto saudita Est-Ovest.",
       "url": "/notizie/yemen-houthi-dhubab-bab-el-mandeb-11-settembre-2026.html",
       "section": "Mondo / Medio Oriente / Geopolitica",
       "dateISO": "2026-09-11T11:05:00+02:00",
       "dateLabel": "2026-09-11",
       "image": "/assets/images/editorial-auto/yemen-dhubab-bab-el-mandeb-ai-openai-v325-800.webp",
-      "imageAlt": "Veduta editoriale del Bab el-Mandeb presso la costa yemenita con navi commerciali lontane",
+      "imageAlt": "Veduta editoriale del Bab el-Mandeb presso Dhubab con costa yemenita e navi commerciali lontane, illustrazione fotorealistica generata con IA",
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/yemen-dhubab-bab-el-mandeb-ai-openai-v325-480.webp 480w, /assets/images/editorial-auto/yemen-dhubab-bab-el-mandeb-ai-openai-v325-800.webp 800w, /assets/images/editorial-auto/yemen-dhubab-bab-el-mandeb-ai-openai-v325-1200.webp 1200w"
@@ -2810,19 +2810,6 @@
       "srcset": ""
     },
     {
-      "title": "Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
-      "excerpt": "A Gaza City si è tenuto il funerale collettivo di 112 persone i cui corpi sono stati recuperati dalle macerie di un attacco israeliano del novembre 2023.",
-      "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
-      "section": "Gaza / Cronaca",
-      "dateISO": "2026-08-05T09:00:00+02:00",
-      "dateLabel": "2026-08-05",
-      "image": "/assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-800.webp",
-      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-480.webp 480w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-800.webp 800w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-1200.webp 1200w"
-    },
-    {
       "title": "Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
       "excerpt": "A Roma è iniziato un nuovo round di colloqui tra Israele e Libano facilitato dagli Stati Uniti. Sul tavolo sicurezza, ritiro e autorità nel Sud del Libano.",
       "url": "/notizie/israele-libano-negoziati-roma-mediazione-usa.html",
@@ -2834,6 +2821,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-480.webp 480w, /assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-800.webp 800w, /assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-1200.webp 1200w"
+    },
+    {
+      "title": "Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
+      "excerpt": "A Gaza City si è tenuto il funerale collettivo di 112 persone i cui corpi sono stati recuperati dalle macerie di un attacco israeliano del novembre 2023.",
+      "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
+      "section": "Gaza / Cronaca",
+      "dateISO": "2026-08-05T09:00:00+02:00",
+      "dateLabel": "2026-08-05",
+      "image": "/assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-480.webp 480w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-800.webp 800w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-1200.webp 1200w"
     }
   ]
 }
