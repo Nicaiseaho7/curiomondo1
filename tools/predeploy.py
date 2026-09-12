@@ -303,6 +303,8 @@ if len(all_news_urls)<12: errors.append('titoli mancanti nelle card Tutte le not
 if len(home.xpath('//div[@id="cards"]/a//h3[normalize-space()]'))!=len(all_news_urls): errors.append('titoli mancanti nelle card Tutte le notizie')
 if len(home.xpath('//div[@id="cards"]/a//p[normalize-space()]'))!=len(all_news_urls): errors.append('spiegazioni iniziali mancanti nelle card Tutte le notizie')
 if len(home.xpath('//a[contains(@class,"featured")]'))!=1: errors.append('apertura principale non unica')
+if not home.xpath('//a[contains(@class,"featured")]//h1//span[contains(@class,"cm-featured-key")]'): errors.append('parole chiave blu mancanti nella card In evidenza')
+if len(home.xpath('//a[contains(@class,"featured")]//*[contains(concat(" ",normalize-space(@class)," ")," cm-featured-stat ")]'))!=3: errors.append('la card In evidenza non contiene esattamente 3 mini-dati')
 
 featured_href=home.xpath('//a[contains(@class,"featured")]/@href')
 rail_hrefs=home.xpath('//div[contains(@class,"auto-rail")]/a/@href')

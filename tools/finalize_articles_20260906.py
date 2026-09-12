@@ -239,6 +239,9 @@ for info in infos:
     merged = {k: v for k, v in info.items() if not k.startswith("_")}
     if old.get("excerpt") and info["url"] not in {"/" + x for x in TARGETS}:
         merged["excerpt"] = old["excerpt"]
+    for presentation_key in ("featuredHighlights", "featuredStats"):
+        if old.get(presentation_key):
+            merged[presentation_key] = old[presentation_key]
     feed_items.append(merged)
 home_feed["version"] = 323
 home_feed["items"] = feed_items
@@ -269,9 +272,33 @@ def make_featured(item):
     picture(a, item, True)
     txt = etree.SubElement(a, "div", {"class": "txt"})
     tag = etree.SubElement(txt, "span", {"class": "tag"}); tag.text = "In evidenza"
-    h1 = etree.SubElement(txt, "h1"); h1.text = item["title"]
+    h1 = etree.SubElement(txt, "h1")
+    highlights = [str(value) for value in item.get("featuredHighlights", []) if value]
+    title = item["title"]
+    if highlights:
+        pattern = re.compile("(" + "|".join(re.escape(value) for value in sorted(highlights, key=len, reverse=True)) + ")", re.I)
+        parts = pattern.split(title)
+        h1.text = parts[0]
+        for part in parts[1:]:
+            if pattern.fullmatch(part):
+                mark = etree.SubElement(h1, "span", {"class": "cm-featured-key"}); mark.text = part
+            else:
+                h1[-1].tail = (h1[-1].tail or "") + part
+    else:
+        h1.text = title
     p = etree.SubElement(txt, "p"); p.text = item["excerpt"]
-    cta = etree.SubElement(txt, "span", {"class": "cta"}); cta.text = "Leggi l’articolo →"
+    stats = item.get("featuredStats", [])[:3]
+    if len(stats) == 3:
+        stats_box = etree.SubElement(txt, "div", {"class": "cm-featured-stats", "aria-label": "Dati principali"})
+        for stat in stats:
+            row = etree.SubElement(stats_box, "span", {"class": "cm-featured-stat"})
+            icon = etree.SubElement(row, "i", {"aria-hidden": "true"}); icon.text = str(stat.get("icon", "•"))
+            copy = etree.SubElement(row, "span")
+            value = etree.SubElement(copy, "strong"); value.text = str(stat.get("value", ""))
+            label = etree.SubElement(copy, "small"); label.text = str(stat.get("label", ""))
+    foot = etree.SubElement(txt, "span", {"class": "cm-featured-foot"})
+    cta = etree.SubElement(foot, "span", {"class": "cta"}); cta.text = "Leggi l’articolo →"
+    date = etree.SubElement(foot, "time", {"class": "cm-featured-date", "datetime": item["dateISO"]}); date.text = italian_date(item["dateISO"])
     return a
 
 

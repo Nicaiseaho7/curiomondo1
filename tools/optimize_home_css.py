@@ -65,7 +65,7 @@ if not matches:
 
 first = matches[0].start()
 new_head = link_re.sub("", head)
-bundle_tag = '<link rel="stylesheet" href="/assets/css/home-bundle-v291.css?v=336">\n'
+bundle_tag = '<link rel="stylesheet" href="/assets/css/home-bundle-v291.css?v=340">\n'
 new_head = new_head[:first] + bundle_tag + new_head[first:]
 INDEX.write_text(new_head + tail, encoding="utf-8")
 

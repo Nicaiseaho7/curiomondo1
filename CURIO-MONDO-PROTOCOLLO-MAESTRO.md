@@ -172,6 +172,12 @@ All final responses must be written in Italian.
 
 ## AUTOMAZIONE CURIOMONDO — CONTRATTO OPERATIVO
 
+### Card «In evidenza» — regola permanente v340
+- Il titolo della notizia in evidenza deve colorare in blu CurioMondo soltanto le parole o i numeri decisivi, senza compromettere la leggibilità.
+- Sotto il sommario devono comparire esattamente tre mini-dati verificati, brevi e pertinenti alla notizia, ciascuno con icona, valore e descrizione.
+- Parole evidenziate e mini-dati devono essere definiti editorialmente nei campi `featuredHighlights` e `featuredStats`; è vietato inventarli o ricavarli da informazioni non verificate.
+- La resa deve restare accessibile, leggibile su mobile e coerente in modalità scura.
+
 - LIVE: scansione ogni 5–10 minuti; implementazione corrente ogni 10 minuti; aggiornamento dati senza full deploy.
 - Una voce LIVE è cliccabile solo se esiste un articolo CurioMondo corrispondente.
 - Articoli: ciclo automatico ogni 2 ore. Più articoli validi possono essere pubblicati nello stesso ciclo; massimo un deploy per ciclo; zero notizie valide = zero deploy.

@@ -1,5 +1,5 @@
 {
-  "version": 339,
+  "version": 340,
   "items": [
     {
       "title": "Ucraina, attacchi in più regioni: almeno sei morti e decine di feriti",
@@ -12,7 +12,28 @@
       "imageAlt": "Scena editoriale sensibile generata con IA di edifici danneggiati in una città ucraina con soccorritori al lavoro, senza vittime visibili",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/ucraina-attacchi-regioni-ai-openai-v339-480.webp 480w, /assets/images/editorial-auto/ucraina-attacchi-regioni-ai-openai-v339-800.webp 800w, /assets/images/editorial-auto/ucraina-attacchi-regioni-ai-openai-v339-1200.webp 1200w"
+      "srcset": "/assets/images/editorial-auto/ucraina-attacchi-regioni-ai-openai-v339-480.webp 480w, /assets/images/editorial-auto/ucraina-attacchi-regioni-ai-openai-v339-800.webp 800w, /assets/images/editorial-auto/ucraina-attacchi-regioni-ai-openai-v339-1200.webp 1200w",
+      "featuredHighlights": [
+        "sei morti",
+        "decine di feriti"
+      ],
+      "featuredStats": [
+        {
+          "icon": "†",
+          "value": "6",
+          "label": "vittime confermate"
+        },
+        {
+          "icon": "+",
+          "value": "Decine",
+          "label": "persone ferite"
+        },
+        {
+          "icon": "◎",
+          "value": "Più regioni",
+          "label": "colpite dagli attacchi"
+        }
+      ]
     },
     {
       "title": "Corea del Nord, lanciati più missili balistici a corto raggio da Wonsan",

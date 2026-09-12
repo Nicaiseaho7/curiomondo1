@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 339,
-    "site_version": 339
+    "current_site_version": 340,
+    "site_version": 340
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -43,6 +43,12 @@
     "hero_selection_mode": "editorial_importance_among_recent_eligible_articles",
     "featured_section_label": "Ultime notizie",
     "featured_exact_count": 5,
+    "featured_card_presentation": {
+      "important_words_blue": true,
+      "mini_stats_exact_count": 3,
+      "mini_stats_position": "below_excerpt",
+      "required_for_future_featured_news": true
+    },
     "live_exact_count": 10,
     "live_order": "newest_first",
     "chronological_continuity": {
