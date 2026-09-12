@@ -1,0 +1,120 @@
+name: Pubblica June Aster 12 settembre 2026
+
+on:
+  push:
+    paths:
+      - '.github/workflows/pubblica-june-aster-20260912.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pubblica:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Pubblica articolo e superfici editoriali
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json, re, html
+
+          slug = 'filippine-incendio-traghetto-june-aster-76-morti-12-settembre-2026'
+          url = f'/notizie/{slug}.html'
+          full = 'https://curiomondo.it' + url
+          image = '/assets/images/editorial-auto/filippine-june-aster-incendio-ai-openai-v332-320.webp'
+          title = 'Filippine, incendio sul traghetto June Aster: almeno 76 morti e 13 dispersi'
+          excerpt = 'Il bilancio dell’incendio vicino a Coron è salito ad almeno 76 vittime. Tredici persone risultano ancora disperse e 43 sono sopravvissute; le cause restano sotto indagine.'
+          section = 'Mondo / Asia / Cronaca'
+          date_iso = '2026-09-12T16:55:00+02:00'
+          date_label = '12 settembre 2026'
+          alt = 'Scena editoriale fotorealistica generata con IA di un traghetto in fiamme di notte nelle acque filippine, senza persone ferite visibili'
+          disclosure = 'Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.'
+
+          assert Path('.' + image).exists(), 'Immagine editoriale dedicata mancante'
+
+          article = f'''<!doctype html>
+          <html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>{title} | CurioMondo</title><meta name="description" content="{excerpt}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="{full}"><meta property="og:type" content="article"><meta property="og:title" content="{title}"><meta property="og:description" content="{excerpt}"><meta property="og:url" content="{full}"><meta property="og:image" content="https://curiomondo.it{image}"><meta property="og:image:alt" content="{alt}"><meta name="theme-color" content="#071a33"><link rel="stylesheet" href="../assets/css/site-base-v210.css"><link rel="stylesheet" href="../assets/css/curiomondo-article-v211.css?v=324"><link rel="stylesheet" href="../assets/css/editorial-trust-v263.css"><link rel="stylesheet" href="/assets/css/global-header-v275.css"><script type="application/ld+json">{{"@context":"https://schema.org","@type":"NewsArticle","headline":{json.dumps(title, ensure_ascii=False)},"description":{json.dumps(excerpt, ensure_ascii=False)},"datePublished":"{date_iso}","dateModified":"{date_iso}","mainEntityOfPage":"{full}","inLanguage":"it-IT","author":{{"@type":"Organization","name":"Redazione CurioMondo","url":"https://curiomondo.it/pagine/redazione.html"}},"publisher":{{"@type":"Organization","name":"CurioMondo"}},"image":["https://curiomondo.it{image}"]}}</script><script defer src="/assets/js/global-header-v275.js"></script></head><body data-article-id="{slug}"><header class="cm-global-header" data-cm-global-header="v275"><nav class="cm-global-header__inner" aria-label="Navigazione della pagina"><a class="cm-global-header__back" href="/" aria-label="Torna alla home di CurioMondo">←</a><a class="cm-global-header__brand" href="/">Curio<span>Mondo</span></a></nav></header><main class="wrap"><figure class="article-image" data-ai-generated="true" data-sensitive-context="true"><picture><img src="..{image}" width="320" height="213" alt="{alt}" loading="eager" decoding="async" fetchpriority="high"></picture><figcaption>{disclosure}</figcaption></figure><div class="badge">{section}</div><h1>{title}</h1><p class="subtitle">{excerpt}</p><div class="meta">12 settembre 2026 · Aggiornato alle 16:55 · <span id="readTime">4 min di lettura</span></div><p class="cm-article-byline">A cura della <a href="/pagine/redazione.html" rel="author">Redazione CurioMondo</a></p><article class="art-body" data-editorial-protocol="4.0" data-article-format="standard"><p><strong>È salito ad almeno 76 morti il bilancio dell’incendio del traghetto M/V June Aster nelle Filippine.</strong> Reuters e Associated Press riferiscono che sabato i soccorritori hanno recuperato altri resti dal relitto, mentre 13 persone risultano ancora disperse e 43 sono sopravvissute.</p><p>Il traghetto era partito da Manila ed era diretto a Coron, nella provincia di Palawan. L’incendio è scoppiato il 9 settembre, quando la nave si trovava ormai vicino alla destinazione, al termine di un viaggio di oltre venti ore. A bordo risultavano 132 persone effettivamente imbarcate secondo gli ultimi conteggi citati dalle agenzie.</p><p>Le operazioni di recupero sono state rallentate per ore dal calore e dal fumo all’interno della nave. Gran parte dei resti è stata individuata nell’area degli alloggi di classe economica, una delle sezioni più danneggiate dalle fiamme.</p><p>Alcuni sopravvissuti hanno riferito di avere sentito esplosioni prima che il fuoco si propagasse rapidamente. Le autorità, però, non hanno ancora stabilito la causa dell’incendio e stanno conducendo sia un’indagine sulla sicurezza marittima sia accertamenti di natura penale.</p><p>La Guardia Costiera filippina sta verificando anche le procedure adottate dall’equipaggio durante l’emergenza, compresi gli allarmi ai passeggeri e le modalità di evacuazione. Reuters segnala inoltre che la posizione del comandante non era ancora chiarita nelle ore dell’ultimo aggiornamento.</p><p>L’incidente riporta l’attenzione sulla sicurezza del trasporto marittimo nelle Filippine, un arcipelago in cui i traghetti sono essenziali per collegare migliaia di isole. Il Paese ha una lunga storia di gravi disastri navali e le autorità hanno promesso di chiarire responsabilità e dinamica dell’incendio.</p><p>Il dato più importante resta in evoluzione: le squadre di recupero stanno ancora lavorando sul relitto e il numero definitivo delle vittime potrà cambiare con l’identificazione dei resti e la verifica dell’elenco dei dispersi.</p></article><div class="art-sources"><h2>Fonti consultate</h2><ul><li><a href="https://www.reuters.com/world/asia-pacific/philippines-begins-identifying-victims-ferry-fire-dozens-still-missing-2026-09-12/" rel="noopener noreferrer" target="_blank">Reuters — 12 settembre 2026 — bilancio aggiornato, recupero dei resti e indagini</a></li><li><a href="https://apnews.com/article/bc9474e96f2c9febe84c745ced6e9553" rel="noopener noreferrer" target="_blank">Associated Press — 12 settembre 2026 — 76 vittime, 13 dispersi, 43 sopravvissuti e inchiesta</a></li><li><a href="https://www.afp.com/en/philippine-ferry-fire-kills-5-dozens-missing" rel="noopener noreferrer" target="_blank">AFP — 10 settembre 2026 — primo bilancio e comunicazioni della Guardia Costiera</a></li></ul><p><small><strong>Redazione CurioMondo</strong><br>Testo originale CurioMondo. Ultimo aggiornamento editoriale: 12 settembre 2026, ore 16:55.</small></p></div></main><footer class="site-footer"><nav class="site-footer-links"><a href="../pagine/chi-siamo.html">Chi siamo</a><a href="../pagine/contatti.html">Contatti</a><a href="../pagine/privacy.html">Privacy</a><a href="../notizie/">Archivio</a></nav></footer><script src="../assets/js/site-common-v210.js" defer></script></body></html>'''
+          Path('notizie').mkdir(exist_ok=True)
+          Path('notizie', slug + '.html').write_text(article, encoding='utf-8')
+
+          ticker = f'<a class="ticker-news" href="{url}">{title}</a>'
+          card = f'<a class="auto-card" href="{url}"><picture><img src="{image}" width="320" height="213" alt="{alt}" loading="lazy" decoding="async"></picture><div class="abody"><div class="ameta">{section}</div><h3>{title}</h3><p>{excerpt}</p><time datetime="{date_iso}">{date_label}</time></div></a>'
+
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+          if url not in s:
+              s = s.replace('<nav aria-label="Ultime notizie in diretta" class="ticker-track">', '<nav aria-label="Ultime notizie in diretta" class="ticker-track">' + ticker, 1)
+              s = re.sub(r'(<div aria-hidden="true" class="ticker-track"[^>]*>)', r'\1' + ticker, s, count=1)
+              s = s.replace('<div class="auto-rail">', '<div class="auto-rail">' + card, 1)
+              p.write_text(s, encoding='utf-8')
+
+          for ap in [Path('notizie/index.html'), Path('categorie/mondo/index.html')]:
+              if not ap.exists():
+                  continue
+              t = ap.read_text(encoding='utf-8')
+              if url in t:
+                  continue
+              if '<div class="auto-rail">' in t:
+                  t = t.replace('<div class="auto-rail">', '<div class="auto-rail">' + card, 1)
+              elif '</main>' in t:
+                  t = t.replace('</main>', '<section class="auto-rail">' + card + '</section></main>', 1)
+              ap.write_text(t, encoding='utf-8')
+
+          item_rich = {"title": title, "excerpt": excerpt, "url": url, "section": section, "dateISO": date_iso, "dateLabel": "2026-09-12", "image": image, "imageAlt": alt, "imageWidth": 320, "imageHeight": 213, "srcset": ""}
+          item_light = {"title": title, "excerpt": excerpt, "url": url, "section": section}
+          for jp in Path('.').rglob('*.json'):
+              try:
+                  if jp.stat().st_size > 3_000_000: continue
+                  data = json.loads(jp.read_text(encoding='utf-8'))
+              except Exception:
+                  continue
+              if not isinstance(data, dict) or not isinstance(data.get('items'), list):
+                  continue
+              items = data['items']
+              if any(isinstance(x, dict) and x.get('url') == url for x in items):
+                  continue
+              sample = next((x for x in items if isinstance(x, dict) and 'url' in x and 'title' in x), None)
+              if not sample:
+                  continue
+              data['items'].insert(0, item_rich if 'image' in sample else item_light)
+              jp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          rss_item = f'<item><title>{html.escape(title)}</title><link>{full}</link><guid>{full}</guid><pubDate>Sat, 12 Sep 2026 16:55:00 +0200</pubDate><description>{html.escape(excerpt)}</description></item>'
+          for xp in Path('.').rglob('*.xml'):
+              try: x = xp.read_text(encoding='utf-8')
+              except Exception: continue
+              if full in x: continue
+              low = xp.name.lower()
+              if '<rss' in x and '<channel>' in x:
+                  x = x.replace('<channel>', '<channel>' + rss_item, 1)
+                  xp.write_text(x, encoding='utf-8')
+              elif 'sitemap' in low and '</urlset>' in x:
+                  if 'news' in low:
+                      entry = f'<url><loc>{full}</loc><news:news><news:publication><news:name>CurioMondo</news:name><news:language>it</news:language></news:publication><news:publication_date>2026-09-12T16:55:00+02:00</news:publication_date><news:title>{html.escape(title)}</news:title></news:news></url>'
+                  else:
+                      entry = f'<url><loc>{full}</loc><lastmod>2026-09-12</lastmod></url>'
+                  xp.write_text(x.replace('</urlset>', entry + '</urlset>', 1), encoding='utf-8')
+
+          # Fail closed su requisiti minimi editoriali.
+          checks = [Path('notizie', slug + '.html').exists(), url in Path('index.html').read_text(encoding='utf-8'), Path('.' + image).exists(), disclosure in article, 'Reuters' in article and 'Associated Press' in article]
+          if not all(checks):
+              raise SystemExit('Gate editoriale fallito')
+          print('Gate editoriale superato')
+          PY
+      - name: Commit pubblicazione
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica da pubblicare"
+            exit 0
+          fi
+          git commit -m "v332: pubblica incendio traghetto June Aster nelle Filippine"
+          git push
