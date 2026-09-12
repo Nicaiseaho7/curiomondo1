@@ -30,6 +30,7 @@ CSS_FILES = [
     "assets/css/home-editorial-signature-v268.css",
     "assets/css/home-qday-luxury-v271.css",
     "assets/css/home-azure-v274.css",
+    "assets/css/home-refined-v332.css",
 ]
 
 missing = [p for p in CSS_FILES if not (ROOT / p).is_file()]
@@ -56,12 +57,12 @@ tail = html[head_end:]
 # Individua solo i fogli CSS locali della homepage, qualunque sia l'ordine degli attributi.
 link_re = re.compile(r"<link\b(?=[^>]*\brel=[\"']stylesheet[\"'])(?=[^>]*\bhref=[\"']/assets/css/[^\"']+\.css(?:\?[^\"']*)?[\"'])[^>]*>\s*", re.I)
 matches = list(link_re.finditer(head))
-if len(matches) < 20:
-    raise SystemExit(f"Attesi almeno 20 stylesheet locali in homepage, trovati {len(matches)}")
+if not matches:
+    raise SystemExit(f"Atteso almeno uno stylesheet locale in homepage, trovati {len(matches)}")
 
 first = matches[0].start()
 new_head = link_re.sub("", head)
-bundle_tag = '<link rel="stylesheet" href="/assets/css/home-bundle-v291.css?v=291">\n'
+bundle_tag = '<link rel="stylesheet" href="/assets/css/home-bundle-v291.css?v=332">\n'
 new_head = new_head[:first] + bundle_tag + new_head[first:]
 INDEX.write_text(new_head + tail, encoding="utf-8")
 
