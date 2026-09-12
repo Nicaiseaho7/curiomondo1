@@ -1,0 +1,69 @@
+/* v335 — trattamento premium per le card (elevazione, bordo sottile, sfumature). */
+/* Solo box-shadow/gradienti/pseudo-elementi in position:absolute: nessuna modifica */
+/* a padding, gap o dimensioni del testo, per non toccare i budget di altezza fissa esistenti. */
+
+.auto-card,.card{
+  position:relative;
+  border:0!important;
+  border-radius:20px!important;
+  background:linear-gradient(180deg,#ffffff 0%,#f8fbff 100%)!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(16,41,64,.07),
+    0 1px 2px rgba(16,41,64,.05),
+    0 22px 44px -18px rgba(16,41,64,.28)!important;
+}
+html.cm-dark .auto-card,html.cm-dark .card{
+  background:linear-gradient(180deg,#122542 0%,#0d1c34 100%)!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,.06),
+    0 1px 2px rgba(0,0,0,.3),
+    0 22px 44px -18px rgba(0,0,0,.55)!important;
+}
+.auto-card:hover,.card:hover{
+  box-shadow:
+    inset 0 0 0 1px rgba(24,119,242,.28),
+    0 2px 6px rgba(16,41,64,.08),
+    0 30px 60px -16px rgba(24,119,242,.34)!important;
+}
+html.cm-dark .auto-card:hover,html.cm-dark .card:hover{
+  box-shadow:
+    inset 0 0 0 1px rgba(78,155,255,.4),
+    0 2px 6px rgba(0,0,0,.35),
+    0 30px 60px -16px rgba(0,0,0,.6)!important;
+}
+
+/* filo luminoso in cima, rivelato al passaggio del mouse */
+.auto-card::before,.card::before{
+  content:"";position:absolute;inset:0 0 auto 0;height:3px;border-radius:20px 20px 0 0;
+  background:linear-gradient(90deg,#1877f2,#4e9bff,#1877f2);
+  opacity:0;transform:scaleX(.6);transition:opacity .3s ease,transform .3s ease;
+  z-index:3;pointer-events:none;
+}
+.auto-card:hover::before,.card:hover::before{opacity:1;transform:scaleX(1)}
+
+/* riflesso sottile al passaggio del mouse, per un tocco più ricercato */
+.auto-card::after,.card::after{
+  content:"";position:absolute;inset:0;border-radius:20px;
+  background:linear-gradient(115deg,rgba(255,255,255,.5) 0%,rgba(255,255,255,0) 32%);
+  opacity:0;transition:opacity .35s ease;pointer-events:none;z-index:2;mix-blend-mode:overlay;
+}
+.auto-card:hover::after,.card:hover::after{opacity:1}
+html.cm-dark .auto-card::after,html.cm-dark .card::after{background:linear-gradient(115deg,rgba(255,255,255,.14) 0%,rgba(255,255,255,0) 32%)}
+
+/* dissolvenza morbida tra fotografia e testo, per un taglio più editoriale */
+.auto-card picture,.card picture{position:relative}
+.auto-card picture::after,.card picture::after{
+  content:"";position:absolute;inset:auto 0 0 0;height:30%;
+  background:linear-gradient(0deg,rgba(255,255,255,.92),rgba(255,255,255,0));
+  pointer-events:none;
+}
+html.cm-dark .auto-card picture::after,html.cm-dark .card picture::after{
+  background:linear-gradient(0deg,rgba(13,28,52,.92),rgba(13,28,52,0));
+}
+
+/* pillole categoria: profilo netto senza cambiarne l'ingombro */
+.cm-topic{box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--topic) 30%,transparent)!important}
+
+@media(prefers-reduced-motion:reduce){
+  .auto-card::before,.card::before,.auto-card::after,.card::after{transition:none!important}
+}
