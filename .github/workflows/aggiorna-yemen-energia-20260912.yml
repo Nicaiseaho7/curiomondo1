@@ -39,29 +39,10 @@ jobs:
           new_title = 'Bab el-Mandeb, Houthi su Perim: fermato l’oleodotto saudita Est-Ovest'
           s = s.replace(old_title, new_title)
 
-          s = re.sub(
-              r'<meta name="description" content="[^"]*">',
-              '<meta name="description" content="Gli Houthi consolidano la presa su Perim mentre l’Arabia Saudita ferma temporaneamente l’oleodotto Est-Ovest dopo un attacco con droni partito dall’Iraq. Riyadh chiede assistenza militare agli Stati Uniti.">',
-              s,
-              count=1,
-          )
-          s = re.sub(
-              r'<meta property="og:description" content="[^"]*">',
-              '<meta property="og:description" content="Perim e l’oleodotto Est-Ovest mettono sotto pressione due rotte energetiche decisive tra Mar Rosso e Golfo.">',
-              s,
-              count=1,
-          )
-          s = re.sub(
-              r'<meta name="twitter:description" content="[^"]*">',
-              '<meta name="twitter:description" content="Perim e l’oleodotto Est-Ovest mettono sotto pressione due rotte energetiche decisive tra Mar Rosso e Golfo.">',
-              s,
-              count=1,
-          )
-          s = re.sub(
-              r'"dateModified":"[^"]+"',
-              '"dateModified":"2026-09-12T07:30:00+02:00"',
-              s,
-          )
+          s = re.sub(r'<meta name="description" content="[^"]*">','<meta name="description" content="Gli Houthi consolidano la presa su Perim mentre l’Arabia Saudita ferma temporaneamente l’oleodotto Est-Ovest dopo un attacco con droni partito dall’Iraq. Riyadh chiede assistenza militare agli Stati Uniti.">',s,count=1)
+          s = re.sub(r'<meta property="og:description" content="[^"]*">','<meta property="og:description" content="Perim e l’oleodotto Est-Ovest mettono sotto pressione due rotte energetiche decisive tra Mar Rosso e Golfo.">',s,count=1)
+          s = re.sub(r'<meta name="twitter:description" content="[^"]*">','<meta name="twitter:description" content="Perim e l’oleodotto Est-Ovest mettono sotto pressione due rotte energetiche decisive tra Mar Rosso e Golfo.">',s,count=1)
+          s = re.sub(r'"dateModified":"[^"]+"','"dateModified":"2026-09-12T07:30:00+02:00"',s)
 
           marker = '<h2>Perché Perim conta così tanto</h2>'
           update = '''<section class="article-update" aria-labelledby="aggiornamento-12-settembre"><h2 id="aggiornamento-12-settembre">Aggiornamento del 12 settembre: fermato l’oleodotto Est-Ovest</h2><p>L’Arabia Saudita ha fermato temporaneamente il suo oleodotto Est-Ovest dopo un attacco con droni che, secondo Riyadh e Baghdad, è partito dall’Iraq. Il ministero saudita dell’Energia ha indicato la chiusura come misura precauzionale mentre sono in corso le verifiche sui danni.</p><p>La condotta lunga circa 1.200 chilometri permette di trasferire greggio verso il Mar Rosso evitando lo Stretto di Hormuz. Secondo Reuters, negli ultimi mesi trasportava fra 4 e 5 milioni di barili al giorno, pari a circa il 4-5% dell’offerta mondiale: per questo la sua indisponibilità, insieme alla pressione sul Bab el-Mandeb, aumenta il rischio per i flussi energetici globali.</p><p>Fonti citate da Reuters riferiscono inoltre che il principe ereditario Mohammed bin Salman ha chiesto a Washington assistenza militare contro gli Houthi. Gli Stati Uniti non avrebbero accettato per ora attacchi diretti, offrendo invece condivisione di intelligence e supporto al targeting. L’Iraq ha intanto rimosso un comandante militare nella provincia di Maysan e chiuso in via precauzionale il valico di Shalamcheh con l’Iran mentre proseguono le indagini sull’origine dell’attacco.</p><p>Il quadro resta in rapido sviluppo: non è stata attribuita pubblicamente una responsabilità definitiva per l’attacco all’oleodotto, mentre l’Arabia Saudita ha dichiarato di non voler reagire nell’immediato su richiesta del governo iracheno, riservandosi però misure per proteggere infrastrutture e sicurezza nazionale.</p></section>'''
@@ -85,7 +66,7 @@ jobs:
           import re
           p=Path('tools/finalize_articles_20260906.py')
           s=p.read_text(encoding='utf-8')
-          s=re.sub(r'TARGETS = \{.*?\}\n\nREG_PATH', 'TARGETS = {\n    "notizie/yemen-houthi-dhubab-bab-el-mandeb-11-settembre-2026.html": "yemen-dhubab-bab-el-mandeb-ai-v321",\n}\n\nREG_PATH', s, count=1, flags=re.S)
+          s=re.sub(r'TARGETS = \{.*?\}\n\nREG_PATH', 'TARGETS = {\n    "notizie/yemen-houthi-dhubab-bab-el-mandeb-11-settembre-2026.html": "yemen-dhubab-bab-el-mandeb-ai-openai-v325",\n}\n\nREG_PATH', s, count=1, flags=re.S)
           s=s.replace('285','330')
           s=s.replace('if info["dateISO"][:10] < "2026-09-04": continue','if info["dateISO"][:10] < "2026-09-10": continue')
           p.write_text(s,encoding='utf-8')
