@@ -253,15 +253,56 @@
   const cardsRoot = $('#cards');
   if (cardsRoot) new MutationObserver(() => decorateCards(cardsRoot)).observe(cardsRoot, { childList: true });
 
+  function highlightNumbers(h1) {
+    if (!h1) return;
+    const text = h1.textContent;
+    const re = /(\d{1,3}(?:[.,]\d+)?\s?%|[€$]\s?\d[\d.,]*|\b\d[\d.,]*\b|\b[A-Z]{2,6}\b|(?<=\s)[A-ZÀ-Ý][a-zà-öø-ÿ''’]+)/g;
+    if (!re.test(text)) return;
+    re.lastIndex = 0;
+    const frag = document.createDocumentFragment();
+    let last = 0;
+    let match;
+    while ((match = re.exec(text))) {
+      if (match.index > last) frag.append(text.slice(last, match.index));
+      const span = document.createElement('span');
+      span.className = 'cm-featured-hl';
+      span.textContent = match[0];
+      frag.append(span);
+      last = match.index + match[0].length;
+    }
+    if (last < text.length) frag.append(text.slice(last));
+    h1.replaceChildren(frag);
+  }
+  function freshnessValue(date) {
+    const diffMs = Date.now() - date.getTime();
+    const hours = diffMs / 3600000;
+    if (hours < 1) return 'Ora';
+    if (hours < 24) return `${Math.round(hours)}h fa`;
+    const days = Math.round(hours / 24);
+    if (days === 1) return 'Ieri';
+    return `${days}gg fa`;
+  }
+  function addStat(row, icon, value, label) {
+    if (!value) return;
+    const stat = document.createElement('div');
+    stat.className = 'cm-featured-stat';
+    const strong = document.createElement('b');
+    strong.textContent = `${icon} ${value}`;
+    const small = document.createElement('span');
+    small.textContent = label;
+    stat.append(strong, small);
+    row.append(stat);
+  }
   async function decorateFeatured() {
     const link = $('.featured[href]');
     if (!link || link.dataset.cmFeaturedDecorated === 'true') return;
     let entry;
+    let items = [];
     try {
       const response = await fetch('/assets/data/home-feed-v210.json?v=285', { credentials: 'same-origin' });
       if (!response.ok) return;
       const payload = await response.json();
-      const items = Array.isArray(payload.items) ? payload.items : [];
+      items = Array.isArray(payload.items) ? payload.items : [];
       const path = new URL(link.href, location.href).pathname;
       entry = items.find((item) => {
         try { return new URL(item.url, location.href).pathname === path; } catch { return false; }
@@ -281,6 +322,42 @@
     }
     const txt = link.querySelector('.txt');
     const cta = txt?.querySelector('.cta');
+    highlightNumbers(txt?.querySelector('h1'));
+
+    let readingMinutes = null;
+    try {
+      const articleResponse = await fetch(link.href, { credentials: 'same-origin' });
+      if (articleResponse.ok) {
+        const articleHtml = await articleResponse.text();
+        const doc = new DOMParser().parseFromString(articleHtml, 'text/html');
+        const body = doc.querySelector('.art-body');
+        const words = (body?.textContent || '').trim().split(/\s+/).filter(Boolean);
+        if (words.length > 40) readingMinutes = Math.max(1, Math.round(words.length / 200));
+      }
+    } catch {
+      readingMinutes = null;
+    }
+
+    if (txt) {
+      const statsRow = document.createElement('div');
+      statsRow.className = 'cm-featured-stats';
+      addStat(statsRow, '⏱️', readingMinutes ? `${readingMinutes} min` : null, 'Tempo di lettura');
+      if (category) {
+        const sameCategory = items.filter((item) => {
+          const itemSegments = String(item.section || '').split(/\s*\/\s*/).filter(Boolean);
+          return (itemSegments[1] || itemSegments[0]) === category;
+        });
+        addStat(statsRow, '📰', sameCategory.length ? String(sameCategory.length) : null, `Notizie in ${category}`);
+      }
+      if (entry.dateISO) {
+        const published = new Date(entry.dateISO);
+        if (!Number.isNaN(published.getTime())) {
+          addStat(statsRow, '🕓', freshnessValue(published), 'Pubblicato');
+        }
+      }
+      if (statsRow.children.length) txt.insertBefore(statsRow, cta || null);
+    }
+
     if (txt && cta) {
       const foot = document.createElement('div');
       foot.className = 'cm-featured-foot';
