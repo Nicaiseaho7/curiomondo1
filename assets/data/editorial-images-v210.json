@@ -1,7 +1,103 @@
 {
-  "version": 323,
+  "version": 339,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "brics-new-delhi-dichiarazione-ai-openai-v339",
+      "article": "/notizie/brics-dichiarazione-new-delhi-medio-oriente-12-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/brics-new-delhi-dichiarazione-ai-openai-v339-480.webp",
+          "sha256": "c97fe4cbb9cb67d70a6f9dacfaf93ab9b8fa69a0d8a790f8c21cab259a99bbf7",
+          "bytes": 34574
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/brics-new-delhi-dichiarazione-ai-openai-v339-800.webp",
+          "sha256": "1f2327c97c450cff1f82cb900d93fb35e9e7bd27341c36eea513affaf3f7a73e",
+          "bytes": 74166
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/brics-new-delhi-dichiarazione-ai-openai-v339-1200.webp",
+          "sha256": "d4d9969f81e1d156595092f3f2d318a0d4d538e33abebff9877d6dde5ac7ccaf",
+          "bytes": 130960
+        }
+      ],
+      "alt": "Scena editoriale contestuale ordinaria generata con IA di una sala del vertice BRICS a New Delhi con delegazioni e bandiere, senza incontri specifici ricostruiti",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "corea-nord-missili-wonsan-ai-openai-v339",
+      "article": "/notizie/corea-nord-missili-balistici-wonsan-12-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/corea-nord-missili-wonsan-ai-openai-v339-480.webp",
+          "sha256": "0fc884f4a22c8b554161e262d6aba42c0fa4d4d6386883a9b5d573e0026bfabb",
+          "bytes": 8544
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/corea-nord-missili-wonsan-ai-openai-v339-800.webp",
+          "sha256": "f0cef2ddbd50fbc8e1dd5631cde8248b5ae7fb4204079c72a0626b5b7d54d306",
+          "bytes": 21618
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/corea-nord-missili-wonsan-ai-openai-v339-1200.webp",
+          "sha256": "edfc104fce59fa0c81732c9b6f0297d6786d2ee73ca08751536ed95ffb79f21a",
+          "bytes": 45916
+        }
+      ],
+      "alt": "Scena editoriale contestuale ordinaria generata con IA di lanci missilistici lontani dalla costa di Wonsan verso il mare, senza persone visibili",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "ucraina-attacchi-regioni-ai-openai-v339",
+      "article": "/notizie/ucraina-attacchi-sei-morti-decine-feriti-12-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ucraina-attacchi-regioni-ai-openai-v339-480.webp",
+          "sha256": "878dc7eac74b29236f18724aeb5a62048f914b8f1d84e1bc2b02b36bf9bf7fe7",
+          "bytes": 33812
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ucraina-attacchi-regioni-ai-openai-v339-800.webp",
+          "sha256": "872add160c858fba751e9d467596dc2a58332cf483237c5b40df2bd6fcc0159e",
+          "bytes": 90544
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ucraina-attacchi-regioni-ai-openai-v339-1200.webp",
+          "sha256": "545c6e98df68a193a39abf4fa5c99c366739fbfdce71ad887d013b0e533cae06",
+          "bytes": 183136
+        }
+      ],
+      "alt": "Scena editoriale sensibile generata con IA di edifici danneggiati in una città ucraina con soccorritori al lavoro, senza vittime visibili",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "anthropic-ai-sicurezza-rallentare-ai-openai-v338",
       "article": "/notizie/anthropic-amodei-rallentare-intelligenza-artificiale-sicurezza-12-settembre-2026.html",

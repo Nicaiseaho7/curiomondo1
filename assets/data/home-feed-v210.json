@@ -1,6 +1,45 @@
 {
-  "version": 323,
+  "version": 339,
   "items": [
+    {
+      "title": "Ucraina, attacchi in più regioni: almeno sei morti e decine di feriti",
+      "excerpt": "Missili e droni colpiscono abitazioni e infrastrutture da Žytomyr a Zaporižžja. I bilanci locali restano provvisori e le rivendicazioni militari delle parti non sono verificabili in modo indipendente.",
+      "url": "/notizie/ucraina-attacchi-sei-morti-decine-feriti-12-settembre-2026.html",
+      "section": "Mondo / Ucraina / Guerra",
+      "dateISO": "2026-09-12T22:15:00+02:00",
+      "dateLabel": "2026-09-12",
+      "image": "/assets/images/editorial-auto/ucraina-attacchi-regioni-ai-openai-v339-800.webp",
+      "imageAlt": "Scena editoriale sensibile generata con IA di edifici danneggiati in una città ucraina con soccorritori al lavoro, senza vittime visibili",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/ucraina-attacchi-regioni-ai-openai-v339-480.webp 480w, /assets/images/editorial-auto/ucraina-attacchi-regioni-ai-openai-v339-800.webp 800w, /assets/images/editorial-auto/ucraina-attacchi-regioni-ai-openai-v339-1200.webp 1200w"
+    },
+    {
+      "title": "Corea del Nord, lanciati più missili balistici a corto raggio da Wonsan",
+      "excerpt": "Seul rileva più lanci verso il Mar Orientale dopo l’esercitazione trilaterale con Stati Uniti e Giappone. I vettori avrebbero percorso circa 250 chilometri.",
+      "url": "/notizie/corea-nord-missili-balistici-wonsan-12-settembre-2026.html",
+      "section": "Mondo / Asia / Sicurezza",
+      "dateISO": "2026-09-12T22:05:00+02:00",
+      "dateLabel": "2026-09-12",
+      "image": "/assets/images/editorial-auto/corea-nord-missili-wonsan-ai-openai-v339-800.webp",
+      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA di lanci missilistici lontani dalla costa di Wonsan verso il mare, senza persone visibili",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/corea-nord-missili-wonsan-ai-openai-v339-480.webp 480w, /assets/images/editorial-auto/corea-nord-missili-wonsan-ai-openai-v339-800.webp 800w, /assets/images/editorial-auto/corea-nord-missili-wonsan-ai-openai-v339-1200.webp 1200w"
+    },
+    {
+      "title": "BRICS, dichiarazione comune sul Medio Oriente: appello alla massima moderazione",
+      "excerpt": "Iran ed Emirati Arabi Uniti sostengono il testo approvato a New Delhi. Il documento chiede protezione dei civili, sovranità degli Stati e sicurezza dei flussi commerciali ed energetici.",
+      "url": "/notizie/brics-dichiarazione-new-delhi-medio-oriente-12-settembre-2026.html",
+      "section": "Mondo / Politica / Diplomazia",
+      "dateISO": "2026-09-12T21:55:00+02:00",
+      "dateLabel": "2026-09-12",
+      "image": "/assets/images/editorial-auto/brics-new-delhi-dichiarazione-ai-openai-v339-800.webp",
+      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA di una sala del vertice BRICS a New Delhi con delegazioni e bandiere, senza incontri specifici ricostruiti",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/brics-new-delhi-dichiarazione-ai-openai-v339-480.webp 480w, /assets/images/editorial-auto/brics-new-delhi-dichiarazione-ai-openai-v339-800.webp 800w, /assets/images/editorial-auto/brics-new-delhi-dichiarazione-ai-openai-v339-1200.webp 1200w"
+    },
     {
       "title": "Anthropic, Amodei chiede di rallentare lo sviluppo dell’IA per motivi di sicurezza",
       "excerpt": "Il CEO di Anthropic propone di rallentare la corsa ai modelli più potenti, introducendo più controlli indipendenti e standard comuni prima che le capacità avanzino oltre le misure di sicurezza.",
@@ -171,17 +210,17 @@
       "srcset": "/assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-480.webp 480w, /assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-800.webp 800w, /assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-1200.webp 1200w"
     },
     {
-      "title": "Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro",
-      "excerpt": "Un drone centra una stazione Ukrnafta a Kyiv, con quattro feriti. A Dnipro due morti e cinque feriti nell'impianto per l'olio di girasole del gruppo Bunge.",
-      "url": "/notizie/attacchi-russi-kyiv-dnipro-ukrnafta-bunge-settembre-2026.html",
-      "section": "Mondo / Ucraina / Cronaca",
+      "title": "Pensioni, il Governo valuta un «libretto previdenziale» dalla nascita",
+      "excerpt": "La ministra Calderone presenta l'ipotesi come opzione allo studio e rilancia previdenza complementare e modello multipilastro. Non è ancora una misura approvata.",
+      "url": "/notizie/pensioni-libretto-previdenziale-dalla-nascita-calderone-2026.html",
+      "section": "Italia / Economia / Pensioni",
       "dateISO": "2026-09-10T19:43:49+02:00",
       "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-800.webp",
-      "imageAlt": "Stabilimento agroindustriale danneggiato e isolato dopo un attacco in Ucraina, illustrazione editoriale fotorealistica generata con IA",
+      "image": "/assets/images/editorial-auto/libretto-previdenziale-ai-v316-800.webp",
+      "imageAlt": "Libretto simbolico senza scritte accanto a un giocattolo per neonati e monete euro, illustrazione editoriale fotorealistica generata con IA",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-480.webp 480w, /assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-800.webp 800w, /assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-1200.webp 1200w"
+      "srcset": "/assets/images/editorial-auto/libretto-previdenziale-ai-v316-480.webp 480w, /assets/images/editorial-auto/libretto-previdenziale-ai-v316-800.webp 800w, /assets/images/editorial-auto/libretto-previdenziale-ai-v316-1200.webp 1200w"
     },
     {
       "title": "Legge elettorale, il Senato entra nel vivo dell'esame della riforma",
@@ -197,30 +236,17 @@
       "srcset": "/assets/images/editorial-auto/senato-legge-elettorale-ai-v316-480.webp 480w, /assets/images/editorial-auto/senato-legge-elettorale-ai-v316-800.webp 800w, /assets/images/editorial-auto/senato-legge-elettorale-ai-v316-1200.webp 1200w"
     },
     {
-      "title": "Pensioni, il Governo valuta un «libretto previdenziale» dalla nascita",
-      "excerpt": "La ministra Calderone presenta l'ipotesi come opzione allo studio e rilancia previdenza complementare e modello multipilastro. Non è ancora una misura approvata.",
-      "url": "/notizie/pensioni-libretto-previdenziale-dalla-nascita-calderone-2026.html",
-      "section": "Italia / Economia / Pensioni",
+      "title": "Incendio di Gombio, il bilancio: oltre 130 ettari bruciati",
+      "excerpt": "La Regione Emilia-Romagna ricostruisce cinque giorni di operazioni nel Reggiano. Mobilitati Vigili del Fuoco, Protezione civile, volontari, Canadair ed elicotteri.",
+      "url": "/notizie/incendio-gombio-reggio-emilia-130-ettari-bilancio-2026.html",
+      "section": "Italia / Emilia-Romagna / Ambiente / Cronaca",
       "dateISO": "2026-09-10T19:43:49+02:00",
       "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/libretto-previdenziale-ai-v316-800.webp",
-      "imageAlt": "Libretto simbolico senza scritte accanto a un giocattolo per neonati e monete euro, illustrazione editoriale fotorealistica generata con IA",
+      "image": "/assets/images/editorial-auto/incendio-gombio-ai-v316-800.webp",
+      "imageAlt": "Ampia area di bosco bruciato sull'Appennino reggiano dopo l'incendio di Gombio, illustrazione editoriale fotorealistica generata con IA",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/libretto-previdenziale-ai-v316-480.webp 480w, /assets/images/editorial-auto/libretto-previdenziale-ai-v316-800.webp 800w, /assets/images/editorial-auto/libretto-previdenziale-ai-v316-1200.webp 1200w"
-    },
-    {
-      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
-      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
-      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
-      "section": "Mondo / Ucraina / Canada / Difesa",
-      "dateISO": "2026-09-10T19:43:49+02:00",
-      "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp",
-      "imageAlt": "Volodymyr Zelenskyy e Mark Carney durante un incontro istituzionale in Canada, illustrazione editoriale fotorealistica generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-480.webp 480w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp 800w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-1200.webp 1200w"
+      "srcset": "/assets/images/editorial-auto/incendio-gombio-ai-v316-480.webp 480w, /assets/images/editorial-auto/incendio-gombio-ai-v316-800.webp 800w, /assets/images/editorial-auto/incendio-gombio-ai-v316-1200.webp 1200w"
     },
     {
       "title": "Piantedosi: «CasaPound a Roma sarà sgomberata»",
@@ -236,17 +262,30 @@
       "srcset": "/assets/images/editorial-auto/piantedosi-casapound-ai-v316-480.webp 480w, /assets/images/editorial-auto/piantedosi-casapound-ai-v316-800.webp 800w, /assets/images/editorial-auto/piantedosi-casapound-ai-v316-1200.webp 1200w"
     },
     {
-      "title": "Incendio di Gombio, il bilancio: oltre 130 ettari bruciati",
-      "excerpt": "La Regione Emilia-Romagna ricostruisce cinque giorni di operazioni nel Reggiano. Mobilitati Vigili del Fuoco, Protezione civile, volontari, Canadair ed elicotteri.",
-      "url": "/notizie/incendio-gombio-reggio-emilia-130-ettari-bilancio-2026.html",
-      "section": "Italia / Emilia-Romagna / Ambiente / Cronaca",
+      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
+      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
+      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
+      "section": "Mondo / Ucraina / Canada / Difesa",
       "dateISO": "2026-09-10T19:43:49+02:00",
       "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/incendio-gombio-ai-v316-800.webp",
-      "imageAlt": "Ampia area di bosco bruciato sull'Appennino reggiano dopo l'incendio di Gombio, illustrazione editoriale fotorealistica generata con IA",
+      "image": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp",
+      "imageAlt": "Volodymyr Zelenskyy e Mark Carney durante un incontro istituzionale in Canada, illustrazione editoriale fotorealistica generata con IA",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/incendio-gombio-ai-v316-480.webp 480w, /assets/images/editorial-auto/incendio-gombio-ai-v316-800.webp 800w, /assets/images/editorial-auto/incendio-gombio-ai-v316-1200.webp 1200w"
+      "srcset": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-480.webp 480w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp 800w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-1200.webp 1200w"
+    },
+    {
+      "title": "Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro",
+      "excerpt": "Un drone centra una stazione Ukrnafta a Kyiv, con quattro feriti. A Dnipro due morti e cinque feriti nell'impianto per l'olio di girasole del gruppo Bunge.",
+      "url": "/notizie/attacchi-russi-kyiv-dnipro-ukrnafta-bunge-settembre-2026.html",
+      "section": "Mondo / Ucraina / Cronaca",
+      "dateISO": "2026-09-10T19:43:49+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-800.webp",
+      "imageAlt": "Stabilimento agroindustriale danneggiato e isolato dopo un attacco in Ucraina, illustrazione editoriale fotorealistica generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-480.webp 480w, /assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-800.webp 800w, /assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-1200.webp 1200w"
     },
     {
       "title": "Agosto 2026 è il mese più caldo mai registrato insieme a luglio 2023",
@@ -275,19 +314,6 @@
       "srcset": "/assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-480.webp 480w, /assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-800.webp 800w, /assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-1200.webp 1200w"
     },
     {
-      "title": "Istat, l’industria italiana riparte a luglio ma l’inflazione accelera",
-      "excerpt": "La produzione cresce dello 0,7% sul mese, mentre il Pil del secondo trimestre avanza dello 0,2%. L’energia spinge l’inflazione IPCA al 3,2%.",
-      "url": "/notizie/istat-economia-italiana-pil-industria-inflazione-luglio-agosto-2026.html",
-      "section": "Italia / Economia",
-      "dateISO": "2026-09-10T12:45:41+02:00",
-      "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/istat-economia-italia-ai-v314-800.webp",
-      "imageAlt": "Scena editoriale contestuale fotorealistica di un moderno impianto manifatturiero italiano in attività, generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/istat-economia-italia-ai-v314-480.webp 480w, /assets/images/editorial-auto/istat-economia-italia-ai-v314-800.webp 800w, /assets/images/editorial-auto/istat-economia-italia-ai-v314-1200.webp 1200w"
-    },
-    {
       "title": "Cavi artici, Reuters: alleati NATO hanno fermato un’esercitazione russa",
       "excerpt": "Secondo fonti occidentali citate dall’agenzia, sommergibili russi simulavano l’uso di una tecnologia contro i collegamenti delle Svalbard. Nessun cavo è stato danneggiato.",
       "url": "/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html",
@@ -299,6 +325,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-480.webp 480w, /assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-800.webp 800w, /assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-1200.webp 1200w"
+    },
+    {
+      "title": "Istat, l’industria italiana riparte a luglio ma l’inflazione accelera",
+      "excerpt": "La produzione cresce dello 0,7% sul mese, mentre il Pil del secondo trimestre avanza dello 0,2%. L’energia spinge l’inflazione IPCA al 3,2%.",
+      "url": "/notizie/istat-economia-italiana-pil-industria-inflazione-luglio-agosto-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-09-10T12:45:41+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/istat-economia-italia-ai-v314-800.webp",
+      "imageAlt": "Scena editoriale contestuale fotorealistica di un moderno impianto manifatturiero italiano in attività, generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/istat-economia-italia-ai-v314-480.webp 480w, /assets/images/editorial-auto/istat-economia-italia-ai-v314-800.webp 800w, /assets/images/editorial-auto/istat-economia-italia-ai-v314-1200.webp 1200w"
     },
     {
       "title": "Spazio, firmati a Parigi due accordi industriali tra Italia e Francia",
@@ -717,19 +756,6 @@
       "srcset": "/assets/images/editorial-auto/italia-turchia-finale-europei-volley-6-settembre-2026-ai-v293-480.webp 480w, /assets/images/editorial-auto/italia-turchia-finale-europei-volley-6-settembre-2026-ai-v293-800.webp 800w, /assets/images/editorial-auto/italia-turchia-finale-europei-volley-6-settembre-2026-ai-v293-1200.webp 1200w"
     },
     {
-      "title": "Ebola Bundibugyo, il Congo vara un piano d’emergenza di 180 giorni",
-      "excerpt": "Il governo congolese e i partner sanitari rafforzano per sei mesi la risposta all’epidemia. Sorveglianza, laboratori, prevenzione e coordinamento transfrontaliero sono gli assi centrali.",
-      "url": "/notizie/ebola-bundibugyo-congo-piano-emergenza-180-giorni-6-settembre-2026.html",
-      "section": "Mondo / Salute / Congo",
-      "dateISO": "2026-09-06T18:45:00+02:00",
-      "dateLabel": "2026-09-06",
-      "image": "/assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-800.webp",
-      "imageAlt": "Ritratto editoriale neutrale generato con IA di un’operatrice sanitaria anonima con dispositivi di protezione, senza pazienti o sofferenza",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-480.webp 480w, /assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-800.webp 800w, /assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-1200.webp 1200w"
-    },
-    {
       "title": "OPEC+ congela le quote petrolifere per ottobre",
       "excerpt": "Sette produttori mantengono per ottobre i livelli richiesti a settembre. La guerra con l’Iran e le difficoltà nello Stretto di Hormuz continuano però a frenare l’offerta fisica.",
       "url": "/notizie/opec-plus-congela-quote-petrolio-ottobre-6-settembre-2026.html",
@@ -741,6 +767,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-480.webp 480w, /assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-800.webp 800w, /assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-1200.webp 1200w"
+    },
+    {
+      "title": "Ebola Bundibugyo, il Congo vara un piano d’emergenza di 180 giorni",
+      "excerpt": "Il governo congolese e i partner sanitari rafforzano per sei mesi la risposta all’epidemia. Sorveglianza, laboratori, prevenzione e coordinamento transfrontaliero sono gli assi centrali.",
+      "url": "/notizie/ebola-bundibugyo-congo-piano-emergenza-180-giorni-6-settembre-2026.html",
+      "section": "Mondo / Salute / Congo",
+      "dateISO": "2026-09-06T18:45:00+02:00",
+      "dateLabel": "2026-09-06",
+      "image": "/assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-800.webp",
+      "imageAlt": "Ritratto editoriale neutrale generato con IA di un’operatrice sanitaria anonima con dispositivi di protezione, senza pazienti o sofferenza",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-480.webp 480w, /assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-800.webp 800w, /assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-1200.webp 1200w"
     },
     {
       "title": "Antonelli, impresa a Monza: vince il GP d’Italia partendo 19°",
@@ -2017,19 +2056,6 @@
       "srcset": "/assets/images/optimized/salvini-scostamento-manovra-2027-25-agosto-2026-fotorealistico-v177-640-v204.webp 640w, /assets/images/optimized/salvini-scostamento-manovra-2027-25-agosto-2026-fotorealistico-v177-960-v204.webp 960w"
     },
     {
-      "title": "Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
-      "excerpt": "Richiesta, invio, firma, buste, scadenze e conteggio: una guida semplice per capire come funziona il voto postale negli Stati Uniti e perché le regole cambiano da Stato a Stato.",
-      "url": "/notizie/voto-postale-usa-come-funziona-regole-controlli.html",
-      "section": "Mondo / Stati Uniti / Elezioni",
-      "dateISO": "2026-08-25T07:35:00+00:00",
-      "dateLabel": "2026-08-25",
-      "image": "/assets/images/editorial-v210/voto-postale-usa-800.webp",
-      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v210/voto-postale-usa-480.webp 480w, /assets/images/editorial-v210/voto-postale-usa-800.webp 800w, /assets/images/editorial-v210/voto-postale-usa-1200.webp 1200w"
-    },
-    {
       "title": "Che cos’è la Coalizione dei Volenterosi e perché organizza esercitazioni per l’Ucraina?",
       "excerpt": "Una guida chiara alla Coalizione dei Volenterosi: chi ne fa parte, quale ruolo ha la forza multinazionale, perché vengono organizzate esercitazioni e cosa significa partecipare.",
       "url": "/notizie/coalizione-volenterosi-ucraina-cosa-e-esercitazioni-come-funzionano.html",
@@ -2041,6 +2067,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v210/coalizione-volenterosi-480.webp 480w, /assets/images/editorial-v210/coalizione-volenterosi-800.webp 800w, /assets/images/editorial-v210/coalizione-volenterosi-1200.webp 1200w"
+    },
+    {
+      "title": "Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
+      "excerpt": "Richiesta, invio, firma, buste, scadenze e conteggio: una guida semplice per capire come funziona il voto postale negli Stati Uniti e perché le regole cambiano da Stato a Stato.",
+      "url": "/notizie/voto-postale-usa-come-funziona-regole-controlli.html",
+      "section": "Mondo / Stati Uniti / Elezioni",
+      "dateISO": "2026-08-25T07:35:00+00:00",
+      "dateLabel": "2026-08-25",
+      "image": "/assets/images/editorial-v210/voto-postale-usa-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v210/voto-postale-usa-480.webp 480w, /assets/images/editorial-v210/voto-postale-usa-800.webp 800w, /assets/images/editorial-v210/voto-postale-usa-1200.webp 1200w"
     },
     {
       "title": "Gli USA estendono le sanzioni all’Iran, Teheran promette ritorsioni",
@@ -2628,19 +2667,6 @@
       "srcset": "/assets/images/editorial-v210/recupero-opere-arte-480.webp 480w, /assets/images/editorial-v210/recupero-opere-arte-800.webp 800w, /assets/images/editorial-v210/recupero-opere-arte-1200.webp 1200w"
     },
     {
-      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
-      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
-      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
-      "section": "Mondo / Ambiente / Incendi",
-      "dateISO": "2026-08-16T12:00:00+02:00",
-      "dateLabel": "2026-08-16",
-      "image": "/assets/images/optimized/incendio-belgio-high-fens-16-agosto-2026-ai-960.webp",
-      "imageAlt": "Immagine illustrativa di vigili del fuoco impegnati contro un incendio in una torbiera delle Hautes Fagnes in Belgio",
-      "imageWidth": 640,
-      "imageHeight": 960,
-      "srcset": ""
-    },
-    {
       "title": "Perché gli incendi nelle torbiere sono così difficili da spegnere e possono ripartire?",
       "excerpt": "La torba può bruciare lentamente sotto terra, sfuggire ai controlli e riaccendere le fiamme in superficie. Ecco che cosa accade e come si interviene.",
       "url": "/notizie/perche-incendi-torbiere-difficili-spegnere.html",
@@ -2652,6 +2678,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v210/incendi-torbiere-480.webp 480w, /assets/images/editorial-v210/incendi-torbiere-800.webp 800w, /assets/images/editorial-v210/incendi-torbiere-1200.webp 1200w"
+    },
+    {
+      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
+      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
+      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
+      "section": "Mondo / Ambiente / Incendi",
+      "dateISO": "2026-08-16T12:00:00+02:00",
+      "dateLabel": "2026-08-16",
+      "image": "/assets/images/optimized/incendio-belgio-high-fens-16-agosto-2026-ai-960.webp",
+      "imageAlt": "Immagine illustrativa di vigili del fuoco impegnati contro un incendio in una torbiera delle Hautes Fagnes in Belgio",
+      "imageWidth": 640,
+      "imageHeight": 960,
+      "srcset": ""
     },
     {
       "title": "Perché gli uragani colpiscono raramente le Hawaii e quando diventano pericolosi?",
@@ -2836,19 +2875,6 @@
       "srcset": ""
     },
     {
-      "title": "Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
-      "excerpt": "A Roma è iniziato un nuovo round di colloqui tra Israele e Libano facilitato dagli Stati Uniti. Sul tavolo sicurezza, ritiro e autorità nel Sud del Libano.",
-      "url": "/notizie/israele-libano-negoziati-roma-mediazione-usa.html",
-      "section": "Roma / Diplomazia",
-      "dateISO": "2026-08-05T09:00:00+02:00",
-      "dateLabel": "2026-08-05",
-      "image": "/assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-800.webp",
-      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-480.webp 480w, /assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-800.webp 800w, /assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-1200.webp 1200w"
-    },
-    {
       "title": "Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
       "excerpt": "A Gaza City si è tenuto il funerale collettivo di 112 persone i cui corpi sono stati recuperati dalle macerie di un attacco israeliano del novembre 2023.",
       "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
@@ -2860,6 +2886,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-480.webp 480w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-800.webp 800w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-1200.webp 1200w"
+    },
+    {
+      "title": "Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
+      "excerpt": "A Roma è iniziato un nuovo round di colloqui tra Israele e Libano facilitato dagli Stati Uniti. Sul tavolo sicurezza, ritiro e autorità nel Sud del Libano.",
+      "url": "/notizie/israele-libano-negoziati-roma-mediazione-usa.html",
+      "section": "Roma / Diplomazia",
+      "dateISO": "2026-08-05T09:00:00+02:00",
+      "dateLabel": "2026-08-05",
+      "image": "/assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-480.webp 480w, /assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-800.webp 800w, /assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-1200.webp 1200w"
     }
   ]
 }

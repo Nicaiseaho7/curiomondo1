@@ -1,6 +1,39 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://curiomondo.it/notizie/ucraina-attacchi-sei-morti-decine-feriti-12-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-12T22:15:00+02:00</news:publication_date>
+      <news:title>Ucraina, attacchi in più regioni: almeno sei morti e decine di feriti</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/corea-nord-missili-balistici-wonsan-12-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-12T22:05:00+02:00</news:publication_date>
+      <news:title>Corea del Nord, lanciati più missili balistici a corto raggio da Wonsan</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/brics-dichiarazione-new-delhi-medio-oriente-12-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-12T21:55:00+02:00</news:publication_date>
+      <news:title>BRICS, dichiarazione comune sul Medio Oriente: appello alla massima moderazione</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://curiomondo.it/notizie/anthropic-amodei-rallentare-intelligenza-artificiale-sicurezza-12-settembre-2026.html</loc>
     <news:news>
       <news:publication>
@@ -144,14 +177,14 @@
     </news:news>
   </url>
   <url>
-    <loc>https://curiomondo.it/notizie/attacchi-russi-kyiv-dnipro-ukrnafta-bunge-settembre-2026.html</loc>
+    <loc>https://curiomondo.it/notizie/pensioni-libretto-previdenziale-dalla-nascita-calderone-2026.html</loc>
     <news:news>
       <news:publication>
         <news:name>CurioMondo</news:name>
         <news:language>it</news:language>
       </news:publication>
       <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
-      <news:title>Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro</news:title>
+      <news:title>Pensioni, il Governo valuta un «libretto previdenziale» dalla nascita</news:title>
     </news:news>
   </url>
   <url>
@@ -166,25 +199,14 @@
     </news:news>
   </url>
   <url>
-    <loc>https://curiomondo.it/notizie/pensioni-libretto-previdenziale-dalla-nascita-calderone-2026.html</loc>
+    <loc>https://curiomondo.it/notizie/incendio-gombio-reggio-emilia-130-ettari-bilancio-2026.html</loc>
     <news:news>
       <news:publication>
         <news:name>CurioMondo</news:name>
         <news:language>it</news:language>
       </news:publication>
       <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
-      <news:title>Pensioni, il Governo valuta un «libretto previdenziale» dalla nascita</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
-      <news:title>Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea</news:title>
+      <news:title>Incendio di Gombio, il bilancio: oltre 130 ettari bruciati</news:title>
     </news:news>
   </url>
   <url>
@@ -199,14 +221,25 @@
     </news:news>
   </url>
   <url>
-    <loc>https://curiomondo.it/notizie/incendio-gombio-reggio-emilia-130-ettari-bilancio-2026.html</loc>
+    <loc>https://curiomondo.it/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html</loc>
     <news:news>
       <news:publication>
         <news:name>CurioMondo</news:name>
         <news:language>it</news:language>
       </news:publication>
       <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
-      <news:title>Incendio di Gombio, il bilancio: oltre 130 ettari bruciati</news:title>
+      <news:title>Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/attacchi-russi-kyiv-dnipro-ukrnafta-bunge-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
+      <news:title>Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro</news:title>
     </news:news>
   </url>
   <url>
@@ -232,17 +265,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://curiomondo.it/notizie/istat-economia-italiana-pil-industria-inflazione-luglio-agosto-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T12:45:41+02:00</news:publication_date>
-      <news:title>Istat, l’industria italiana riparte a luglio ma l’inflazione accelera</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://curiomondo.it/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html</loc>
     <news:news>
       <news:publication>
@@ -251,6 +273,17 @@
       </news:publication>
       <news:publication_date>2026-09-10T12:45:41+02:00</news:publication_date>
       <news:title>Cavi artici, Reuters: alleati NATO hanno fermato un’esercitazione russa</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/istat-economia-italiana-pil-industria-inflazione-luglio-agosto-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-10T12:45:41+02:00</news:publication_date>
+      <news:title>Istat, l’industria italiana riparte a luglio ma l’inflazione accelera</news:title>
     </news:news>
   </url>
   <url>
