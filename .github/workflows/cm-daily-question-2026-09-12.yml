@@ -22,7 +22,9 @@ jobs:
       - name: Install predeploy dependency
         run: python3 -m pip install --disable-pip-version-check lxml
       - name: Prepare daily question
-        run: python3 tools/publish_daily_20260912.py
+        run: |
+          python3 tools/publish_daily_20260912.py
+          python3 tools/patch_daily_20260912.py
       - name: Run mandatory predeploy gate
         shell: bash
         run: |
@@ -44,6 +46,7 @@ jobs:
         run: |
           rm .github/workflows/cm-daily-question-2026-09-12.yml
           rm tools/publish_daily_20260912.py
+          rm tools/patch_daily_20260912.py
           rm -f automation/state/predeploy-daily-20260912.log
           git config user.name "CurioMondo Automation"
           git config user.email "automation@curiomondo.it"
@@ -51,4 +54,4 @@ jobs:
           git commit -m "Pubblica domanda del giorno 12 settembre 2026"
           git push origin HEAD:main
 
-# rerun after v4 and eBook gate fixes
+# final rerun after canonical back/H2 patch
