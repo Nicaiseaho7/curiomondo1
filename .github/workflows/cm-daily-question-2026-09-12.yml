@@ -50,3 +50,5 @@ jobs:
           git add -A
           git commit -m "Pubblica domanda del giorno 12 settembre 2026"
           git push origin HEAD:main
+
+# rerun after v4 and eBook gate fixes
