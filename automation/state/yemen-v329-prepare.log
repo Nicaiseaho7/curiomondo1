@@ -1,0 +1,19 @@
+=== update_yemen_v329.py ===
+Traceback (most recent call last):
+  File "/home/runner/work/curiomondo1/curiomondo1/tools/update_yemen_v329.py", line 9, in <module>
+    im=Image.open(BASE).convert('RGB')
+       ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/PIL/Image.py", line 3689, in open
+    im = _open_core(fp, filename, prefix, formats)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/PIL/Image.py", line 3677, in _open_core
+    im = factory(fp, filename)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/PIL/ImageFile.py", line 150, in __init__
+    self._open()
+  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/PIL/WebPImagePlugin.py", line 54, in _open
+    self._decoder = _webp.WebPAnimDecoder(s)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: could not create decoder object
+helper_exit=1
+finalize_exit=99
