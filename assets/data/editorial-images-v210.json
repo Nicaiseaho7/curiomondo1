@@ -1,7 +1,39 @@
 {
-  "version": 323,
+  "version": 326,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "usa-inflazione-agosto-fed-tassi-ai-openai-v326",
+      "article": "/notizie/usa-inflazione-agosto-34-percento-fed-tassi-11-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/usa-inflazione-agosto-fed-tassi-ai-openai-v326-480.webp",
+          "sha256": "1c275a7bb6aac1b47d23a2f55c7c714fca8fa53b084313308585c076c1f5369d",
+          "bytes": 17480
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/usa-inflazione-agosto-fed-tassi-ai-openai-v326-800.webp",
+          "sha256": "ee4cfe3d8984266a68f454042953c8468dc34e1f44e1ac6c33aa554c2461c916",
+          "bytes": 33770
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/usa-inflazione-agosto-fed-tassi-ai-openai-v326-1200.webp",
+          "sha256": "5daf1702552e4de70ec189671da5ba964d79fb484dcb3564484a23a2fe94e491",
+          "bytes": 54876
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA di una consumatrice a un distributore statunitense, con spesa nell'auto e Campidoglio sullo sfondo",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
     {
       "key": "yemen-dhubab-bab-el-mandeb-ai-openai-v325",
       "article": "/notizie/yemen-houthi-dhubab-bab-el-mandeb-11-settembre-2026.html",
