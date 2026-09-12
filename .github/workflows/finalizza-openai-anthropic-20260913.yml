@@ -1,0 +1,74 @@
+name: Finalizza aggiornamento OpenAI Anthropic 13 settembre 2026
+
+on:
+  push:
+    paths:
+      - '.github/workflows/finalizza-openai-anthropic-20260913.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  finalizza:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install lxml
+      - name: Aggiorna superfici editoriali
+        run: |
+          python3 tools/finalize_articles_20260906.py
+          python3 tools/generate_category_pages.py
+      - name: Porta l'aggiornamento IA in evidenza e allinea versione
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          VERSION=341
+          URL='/notizie/anthropic-amodei-rallentare-intelligenza-artificiale-sicurezza-12-settembre-2026.html'
+          TITLE='IA, Altman esclude l’IPO OpenAI nel 2026 e sostiene il rallentamento chiesto da Amodei'
+          EXCERPT='OpenAI esclude una quotazione nel 2026 mentre Sam Altman sostiene il rallentamento dei modelli di frontiera proposto da Dario Amodei per rafforzare la sicurezza.'
+          for rel in ('assets/data/home-feed-v210.json','assets/data/search-index-v210.json'):
+              p=Path(rel)
+              d=json.loads(p.read_text(encoding='utf-8'))
+              items=d.get('items',[])
+              found=None
+              for i,x in enumerate(items):
+                  if x.get('url')==URL:
+                      found=items.pop(i); break
+              if found:
+                  found['title']=TITLE; found['excerpt']=EXCERPT
+                  items.insert(0,found)
+              d['items']=items; d['version']=VERSION
+              p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          rp=Path('assets/data/editorial-images-v210.json')
+          r=json.loads(rp.read_text(encoding='utf-8')); r['version']=VERSION
+          rp.write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          mp=Path('curiomondo-site-manifest.json')
+          m=json.loads(mp.read_text(encoding='utf-8'))
+          if isinstance(m.get('site'),dict):
+              m['site']['current_site_version']=VERSION; m['site']['site_version']=VERSION
+          mp.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          for rel in ('CURIOMONDO-RELEASE-STATE.json','RELEASE-STATE.json'):
+              p=Path(rel); d=json.loads(p.read_text(encoding='utf-8'))
+              d['site_version']=VERSION; d['version']=str(VERSION); d['currentVersion']=VERSION
+              d['baseline_version']=340; d['baselineVersion']=340
+              d['date']='2026-09-13'; d['release_date']='2026-09-13'
+              d['last_update']='openai-altman-ipo-sicurezza-ai-v341'
+              p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+      - name: Controllo predeploy
+        run: python3 tools/predeploy.py
+      - name: Pubblica
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "v341: aggiorna OpenAI, IPO e sicurezza IA"
+          git push
