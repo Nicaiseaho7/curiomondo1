@@ -1,0 +1,23 @@
+/* v334 — rifiniture leggere (solo CSS, nessuna nuova richiesta di rete): micro-interazioni coerenti su card ed elementi chiave. */
+.auto-card,.card{transition:transform .22s cubic-bezier(.22,1,.36,1),box-shadow .22s ease,border-color .22s ease}
+.auto-card:hover,.card:hover{transform:translateY(-4px)}
+.auto-card:hover{box-shadow:0 18px 36px rgba(24,105,224,.16)}
+.card:hover{box-shadow:0 18px 36px rgba(24,105,224,.14);border-color:#245fd660}
+.auto-card picture,.card picture{overflow:hidden}
+.auto-card picture img,.card picture img{transition:transform .35s cubic-bezier(.22,1,.36,1)}
+.auto-card:hover picture img,.card:hover picture img{transform:scale(1.045)}
+
+.featured{transition:box-shadow .25s ease}
+.featured picture img{transition:transform .5s cubic-bezier(.22,1,.36,1)}
+.featured:hover picture img{transform:scale(1.035)}
+
+.section-title,.auto-rail-label{position:relative}
+.section-title::before,.auto-rail-label::before{content:"";width:10px;height:10px;margin-right:2px;border-radius:3px;background:linear-gradient(135deg,#1877f2,#4e9bff);flex:none}
+
+.cm-edition-nav a{transition:background-color .18s ease,border-color .18s ease,color .18s ease,transform .18s ease,box-shadow .18s ease}
+.cm-edition-nav a:hover{transform:translateY(-2px)}
+
+@media(prefers-reduced-motion:reduce){
+  .auto-card,.card,.auto-card picture img,.card picture img,.featured picture img,.cm-edition-nav a{transition:none!important}
+  .auto-card:hover,.card:hover,.cm-edition-nav a:hover,.featured:hover picture img{transform:none!important}
+}
