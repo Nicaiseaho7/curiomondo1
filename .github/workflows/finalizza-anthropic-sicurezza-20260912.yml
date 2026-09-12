@@ -39,6 +39,38 @@ jobs:
               im.resize((w,h),Image.Resampling.LANCZOS).save(out,'WEBP',quality=78,method=6)
           PY
 
+      - name: Registra immagine editoriale
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib, json
+          p=Path('assets/data/editorial-images-v210.json')
+          d=json.loads(p.read_text(encoding='utf-8'))
+          key='anthropic-ai-sicurezza-rallentare-ai-openai-v337'
+          if not any(i.get('key')==key for i in d.get('items', [])):
+              variants=[]
+              for w in (480,800,1200):
+                  f=Path(f'assets/images/editorial-auto/{key}-{w}.webp')
+                  raw=f.read_bytes()
+                  variants.append({'w':w,'src':'/'+f.as_posix(),'sha256':hashlib.sha256(raw).hexdigest(),'bytes':len(raw)})
+              d['items'].insert(0,{
+                  'key':key,
+                  'article':'/notizie/anthropic-amodei-rallentare-intelligenza-artificiale-sicurezza-12-settembre-2026.html',
+                  'aiGenerated':True,
+                  'sensitiveContext':False,
+                  'documentaryPhoto':False,
+                  'prompt':'Scena editoriale contestuale ordinaria, laboratorio professionale di ricerca e sicurezza sull’intelligenza artificiale, ricercatori non riconoscibili davanti a sistemi di monitoraggio e visualizzazioni di reti neurali, fotografia ultrarealistica, nessun testo editoriale nei pixel.',
+                  'variants':variants,
+                  'alt':'Scena editoriale contestuale ordinaria generata con IA di un laboratorio di ricerca sull’intelligenza artificiale con ricercatori e sistemi di monitoraggio, senza persone pubbliche riconoscibili',
+                  'disclosure':'Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.',
+                  'portraitOnly':False,
+                  'portraitFormat':'contextual-editorial-scene',
+                  'reenactedEvent':False
+              })
+          d['version']=337
+          p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+
       - name: Prepara finalizzatore v337
         run: |
           python3 - <<'PY'
