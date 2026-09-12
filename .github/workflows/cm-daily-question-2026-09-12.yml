@@ -1,0 +1,37 @@
+name: CurioMondo Daily Question 2026-09-12
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/cm-daily-question-2026-09-12.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install predeploy dependency
+        run: python3 -m pip install --disable-pip-version-check lxml
+      - name: Prepare daily question
+        run: python3 tools/publish_daily_20260912.py
+      - name: Run mandatory predeploy gate
+        run: python3 tools/predeploy.py
+      - name: Commit verified publication
+        shell: bash
+        run: |
+          rm .github/workflows/cm-daily-question-2026-09-12.yml
+          rm tools/publish_daily_20260912.py
+          git config user.name "CurioMondo Automation"
+          git config user.email "automation@curiomondo.it"
+          git add -A
+          git commit -m "Pubblica domanda del giorno 12 settembre 2026"
+          git push origin HEAD:main
