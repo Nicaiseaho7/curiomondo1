@@ -30,7 +30,7 @@ CSS_FILES = [
     "assets/css/home-editorial-signature-v268.css",
     "assets/css/home-qday-luxury-v271.css",
     "assets/css/home-azure-v274.css",
-    "assets/css/home-refined-v332.css",
+    "assets/css/home-edition-nav-v333.css",
 ]
 
 missing = [p for p in CSS_FILES if not (ROOT / p).is_file()]
@@ -62,7 +62,7 @@ if not matches:
 
 first = matches[0].start()
 new_head = link_re.sub("", head)
-bundle_tag = '<link rel="stylesheet" href="/assets/css/home-bundle-v291.css?v=332">\n'
+bundle_tag = '<link rel="stylesheet" href="/assets/css/home-bundle-v291.css?v=333">\n'
 new_head = new_head[:first] + bundle_tag + new_head[first:]
 INDEX.write_text(new_head + tail, encoding="utf-8")
 
