@@ -1956,3 +1956,20 @@ html.cm-dark .auto-card picture::after,html.cm-dark .card picture::after{
 @media(prefers-reduced-motion:reduce){
   .auto-card::before,.card::before,.auto-card::after,.card::after{transition:none!important}
 }
+
+/* source: assets/css/home-featured-evidenza-v336.css */
+/* Card "In evidenza": badge rosso a fulmine, badge categoria e data in vetro scuro, CTA a pillola blu. */
+.featured .tag{display:inline-flex;align-items:center;gap:6px;border-radius:999px;box-shadow:0 8px 20px rgba(226,36,63,.4)}
+.featured .tag::before{content:"\26A1"}
+.cm-featured-category{position:absolute;top:24px;right:24px;z-index:2;display:inline-flex;align-items:center;padding:7px 14px;border-radius:999px;background:rgba(4,14,30,.86);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:#fff;font-size:.66rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;max-width:min(46%,220px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.featured h1{font-weight:800}
+.cm-featured-foot{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px 18px;margin-top:16px}
+.featured .cta{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:0 20px;border-radius:999px;background:#0f63d6;color:#fff;font-weight:800;box-shadow:0 12px 26px rgba(15,99,214,.4);transition:background .2s ease}
+.featured:hover .cta{background:#0d55ba}
+.cm-featured-date{display:inline-flex;align-items:center;gap:6px;padding:7px 13px;border-radius:999px;background:rgba(4,14,30,.86);border:1px solid rgba(255,255,255,.2);color:#fff;font-size:.72rem;font-weight:700;white-space:nowrap}
+@media(max-width:600px){
+  .cm-featured-category{top:18px;right:18px;padding:6px 11px;font-size:.6rem;max-width:44%}
+  .cm-featured-date{font-size:.66rem;padding:6px 11px}
+  .cm-featured-foot{gap:10px 14px;margin-top:12px}
+}
+@media(prefers-reduced-motion:reduce){.featured .tag{animation:none}}
