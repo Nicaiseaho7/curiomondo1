@@ -1,6 +1,12 @@
 {
-  "version": 323,
+  "version": 341,
   "items": [
+    {
+      "title": "IA, Altman esclude l’IPO OpenAI nel 2026 e sostiene il rallentamento chiesto da Amodei",
+      "excerpt": "OpenAI esclude una quotazione nel 2026 mentre Sam Altman sostiene il rallentamento dei modelli di frontiera proposto da Dario Amodei per rafforzare la sicurezza.",
+      "url": "/notizie/anthropic-amodei-rallentare-intelligenza-artificiale-sicurezza-12-settembre-2026.html",
+      "section": "Mondo / Tecnologia / Intelligenza artificiale"
+    },
     {
       "title": "Ucraina, attacchi in più regioni: almeno sei morti e decine di feriti",
       "excerpt": "Missili e droni colpiscono abitazioni e infrastrutture da Žytomyr a Zaporižžja. I bilanci locali restano provvisori e le rivendicazioni militari delle parti non sono verificabili in modo indipendente.",
@@ -18,12 +24,6 @@
       "excerpt": "Iran ed Emirati Arabi Uniti sostengono il testo approvato a New Delhi. Il documento chiede protezione dei civili, sovranità degli Stati e sicurezza dei flussi commerciali ed energetici.",
       "url": "/notizie/brics-dichiarazione-new-delhi-medio-oriente-12-settembre-2026.html",
       "section": "Mondo / Politica / Diplomazia"
-    },
-    {
-      "title": "Anthropic, Amodei chiede di rallentare lo sviluppo dell’IA per motivi di sicurezza",
-      "excerpt": "Il CEO di Anthropic propone di rallentare la corsa ai modelli più potenti, introducendo più controlli indipendenti e standard comuni prima che le capacità avanzino oltre le misure di sicurezza.",
-      "url": "/notizie/anthropic-amodei-rallentare-intelligenza-artificiale-sicurezza-12-settembre-2026.html",
-      "section": "Mondo / Tecnologia / Intelligenza artificiale"
     },
     {
       "title": "Filippine, incendio sul traghetto June Aster: almeno 76 morti e 13 dispersi",
@@ -2208,6 +2208,18 @@
       "excerpt": "Condizioni essenziali per consultare e utilizzare i contenuti di CurioMondo.",
       "url": "/pagine/termini.html",
       "section": "Trasparenza"
+    },
+    {
+      "title": "Il tempo è un nemico da sconfiggere o un alleato da ascoltare?",
+      "excerpt": "Una riflessione sul rapporto con il tempo: controllo, fretta, attesa e capacità di riconoscere quando accelerare e quando lasciare maturare le cose.",
+      "url": "/domanda-del-giorno/il-tempo-e-un-nemico-da-sconfiggere-o-un-alleato-da-ascoltare/",
+      "section": "Domanda del giorno"
+    },
+    {
+      "title": "Il tempo come misura, non come nemico",
+      "excerpt": "Un eBook CurioMondo sul rapporto con il tempo: fretta, attesa, relazioni, lavoro e scelte che hanno bisogno di ritmi diversi.",
+      "url": "/biblioteca/vita-relazioni/domande-per-conoscersi/il-tempo-e-un-nemico-da-sconfiggere-o-un-alleato-da-ascoltare/",
+      "section": "Biblioteca / Vita e relazioni"
     }
   ]
 }
