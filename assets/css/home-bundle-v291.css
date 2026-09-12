@@ -1992,8 +1992,8 @@ html.cm-dark .auto-card picture::after,html.cm-dark .card picture::after{
 /* source: assets/css/home-cards-clean-v342.css */
 /* v342 — card più compatta in evidenza e superfici uniformi nel feed. */
 .featured{
-  min-height:clamp(320px,32vw,400px);
-  max-height:400px;
+  min-height:clamp(300px,29vw,360px);
+  max-height:360px;
 }
 
 .auto-card,.card{
@@ -2025,6 +2025,6 @@ html.cm-dark .auto-card:hover,html.cm-dark .card:hover{
 }
 
 @media(max-width:600px){
-  .featured{min-height:470px;max-height:470px}
-  .featured .txt{min-height:470px}
+  .featured{min-height:410px;max-height:410px}
+  .featured .txt{min-height:410px;padding:17px 18px}
 }
