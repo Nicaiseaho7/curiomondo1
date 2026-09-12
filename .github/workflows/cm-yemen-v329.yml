@@ -1,0 +1,39 @@
+name: CurioMondo Yemen Update v329
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/cm-yemen-v329.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python3 -m pip install --disable-pip-version-check pillow lxml
+      - name: Prepare substantive Yemen update
+        run: |
+          python3 tools/update_yemen_v329.py
+          python3 tools/finalize_articles_20260906.py 329
+      - name: Run mandatory predeploy gate
+        run: python3 tools/predeploy.py
+      - name: Commit verified update
+        shell: bash
+        run: |
+          rm .github/workflows/cm-yemen-v329.yml
+          rm tools/update_yemen_v329.py
+          git config user.name "CurioMondo Automation"
+          git config user.email "automation@curiomondo.it"
+          git add -A
+          git commit -m "v329: aggiorna Yemen, Riad chiede aiuto agli Usa"
+          git push origin HEAD:main
