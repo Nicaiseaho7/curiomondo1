@@ -1,6 +1,9 @@
-.cm-edition-nav{display:flex;align-items:center;gap:10px;overflow-x:auto;scrollbar-width:thin;padding:14px 0 16px;margin:0 0 6px}
-.cm-edition-nav a{flex:none;display:flex;align-items:center;min-height:40px;padding:9px 18px;border:1px solid var(--cm-border);border-radius:999px;background:var(--cm-paper);color:var(--cm-ink);font-size:.85rem;font-weight:750;text-decoration:none;white-space:nowrap;box-shadow:var(--cm-shadow)}
-.cm-edition-nav a:first-child{background:var(--cm-blue);border-color:var(--cm-blue);color:#fff}
-.cm-edition-nav a:hover{border-color:#245fd660}
-.cm-edition-nav a:first-child:hover{background:#0f63d6}
-@media(max-width:700px){.cm-edition-nav{gap:8px;padding:12px 0 14px}.cm-edition-nav a{padding:8px 14px;font-size:.8rem;min-height:38px}}
+/* v333/v336 — barra categorie: fascia scura, sempre coerente con l'header e la hero. */
+.cm-edition-nav{background:#0a1830;border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08)}
+.cm-edition-nav-inner{display:flex;align-items:center;gap:10px;overflow-x:auto;scrollbar-width:thin;padding:14px 0;margin:0}
+.cm-edition-nav-inner a{flex:none;display:flex;align-items:center;min-height:38px;padding:8px 16px;border:1px solid rgba(255,255,255,.14);border-radius:999px;background:rgba(255,255,255,.04);color:#dce8ff;font-size:.82rem;font-weight:700;text-decoration:none;white-space:nowrap;transition:background-color .18s ease,border-color .18s ease,transform .18s ease,box-shadow .18s ease}
+.cm-edition-nav-inner a:first-child{background:linear-gradient(135deg,#0f63d6,#0d55ba);border-color:transparent;color:#fff;box-shadow:0 8px 20px rgba(24,119,242,.35)}
+.cm-edition-nav-inner a:hover{border-color:rgba(255,255,255,.32);background:rgba(255,255,255,.1);transform:translateY(-1px)}
+.cm-edition-nav-inner a:first-child:hover{background:linear-gradient(135deg,#125ec2,#0f63d6)}
+.cm-edition-nav-inner a:focus-visible{outline-color:#fff;outline-offset:2px}
+@media(max-width:700px){.cm-edition-nav-inner{gap:8px;padding:12px 0}.cm-edition-nav-inner a{padding:7px 14px;font-size:.78rem;min-height:36px}}
