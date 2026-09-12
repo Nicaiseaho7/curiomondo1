@@ -253,6 +253,55 @@
   const cardsRoot = $('#cards');
   if (cardsRoot) new MutationObserver(() => decorateCards(cardsRoot)).observe(cardsRoot, { childList: true });
 
+  async function decorateFeatured() {
+    const link = $('.featured[href]');
+    if (!link || link.dataset.cmFeaturedDecorated === 'true') return;
+    let entry;
+    try {
+      const response = await fetch('/assets/data/home-feed-v210.json?v=285', { credentials: 'same-origin' });
+      if (!response.ok) return;
+      const payload = await response.json();
+      const items = Array.isArray(payload.items) ? payload.items : [];
+      const path = new URL(link.href, location.href).pathname;
+      entry = items.find((item) => {
+        try { return new URL(item.url, location.href).pathname === path; } catch { return false; }
+      });
+    } catch {
+      return;
+    }
+    if (!entry) return;
+    link.dataset.cmFeaturedDecorated = 'true';
+    const segments = String(entry.section || '').split(/\s*\/\s*/).filter(Boolean);
+    const category = segments[1] || segments[0];
+    if (category) {
+      const badge = document.createElement('span');
+      badge.className = 'cm-featured-category';
+      badge.textContent = category;
+      link.append(badge);
+    }
+    const txt = link.querySelector('.txt');
+    const cta = txt?.querySelector('.cta');
+    if (txt && cta) {
+      const foot = document.createElement('div');
+      foot.className = 'cm-featured-foot';
+      cta.remove();
+      foot.append(cta);
+      if (entry.dateISO) {
+        const date = new Date(entry.dateISO);
+        if (!Number.isNaN(date.getTime())) {
+          const label = new Intl.DateTimeFormat('it-IT', { day: '2-digit', month: 'short', year: 'numeric' })
+            .format(date).replace(/\./g, '').toUpperCase();
+          const dateBadge = document.createElement('span');
+          dateBadge.className = 'cm-featured-date';
+          dateBadge.textContent = '📅 ' + label;
+          foot.append(dateBadge);
+        }
+      }
+      txt.append(foot);
+    }
+  }
+  decorateFeatured();
+
   const params = new URLSearchParams(location.search);
   const category = params.get('cat') || params.get('categoria');
   if (category) {
