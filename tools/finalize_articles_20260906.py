@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CAPTION = "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria."
 
 TARGETS = {
-    "notizie/yemen-houthi-dhubab-bab-el-mandeb-11-settembre-2026.html": "yemen-dhubab-bab-el-mandeb-ai-openai-v325",
+    "notizie/anthropic-amodei-rallentare-intelligenza-artificiale-sicurezza-12-settembre-2026.html": "anthropic-ai-sicurezza-rallentare-ai-openai-v337",
 }
 
 REG_PATH = ROOT / "assets/data/editorial-images-v210.json"

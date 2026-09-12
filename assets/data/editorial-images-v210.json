@@ -3,6 +3,39 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "anthropic-ai-sicurezza-rallentare-ai-openai-v337",
+      "article": "/notizie/anthropic-amodei-rallentare-intelligenza-artificiale-sicurezza-12-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "prompt": "Scena editoriale contestuale ordinaria, laboratorio professionale di ricerca e sicurezza sull’intelligenza artificiale, ricercatori non riconoscibili davanti a sistemi di monitoraggio e visualizzazioni di reti neurali, fotografia ultrarealistica, nessun testo editoriale nei pixel.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/anthropic-ai-sicurezza-rallentare-ai-openai-v337-480.webp",
+          "sha256": "983fae7c79dd1213558254579b0b43051e49a087695a7b02ffbd47c4ff9e8243",
+          "bytes": 1562
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/anthropic-ai-sicurezza-rallentare-ai-openai-v337-800.webp",
+          "sha256": "5b28338fea75d8cf3f2acbd8aa2f4f53e6296fd258481fbe429980f8bc57ad0b",
+          "bytes": 2784
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/anthropic-ai-sicurezza-rallentare-ai-openai-v337-1200.webp",
+          "sha256": "594b31d2c89e22c7e0927cc339ad68ed9f3d88a5d37ca748cbc343d85f1421a2",
+          "bytes": 4708
+        }
+      ],
+      "alt": "Scena editoriale contestuale ordinaria generata con IA di un laboratorio di ricerca sull’intelligenza artificiale con ricercatori e sistemi di monitoraggio, senza persone pubbliche riconoscibili",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
       "key": "usa-inflazione-agosto-fed-tassi-ai-openai-v326",
       "article": "/notizie/usa-inflazione-agosto-34-percento-fed-tassi-11-settembre-2026.html",
       "aiGenerated": true,
