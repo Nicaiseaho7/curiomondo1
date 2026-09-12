@@ -326,8 +326,7 @@ if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-home-de
 if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-discovery-row ")]'): errors.append('card Biblioteca/Approfondimenti ancora presenti in homepage')
 if len(home.xpath('//ul[contains(concat(" ",normalize-space(@class)," ")," drawer-nav ")]//a[@href="/biblioteca/"]'))!=1: errors.append('Biblioteca non presente una sola volta nel menu drawer')
 if len(home.xpath('//ul[contains(concat(" ",normalize-space(@class)," ")," drawer-nav ")]//a[@href="/approfondimenti/"]'))!=1: errors.append('Approfondimenti non presenti una sola volta nel menu drawer')
-if home.xpath('//a[(@href="/biblioteca/" or @href="/approfondimenti/") and not(ancestor::ul[contains(concat(" ",normalize-space(@class)," ")," drawer-nav ")]) and not(ancestor::section[contains(concat(" ",normalize-space(@class)," ")," cm-library-banner ")])]'): errors.append('Biblioteca o Approfondimenti collegati fuori dal menu drawer o dal banner Biblioteca in homepage')
-if len(home.xpath('//section[contains(concat(" ",normalize-space(@class)," ")," cm-library-banner ")]'))!=1: errors.append('banner Biblioteca/Approfondimenti assente o duplicato in homepage')
+if home.xpath('//a[(@href="/biblioteca/" or @href="/approfondimenti/") and not(ancestor::ul[contains(concat(" ",normalize-space(@class)," ")," drawer-nav ")])]'): errors.append('Biblioteca o Approfondimenti ancora collegati fuori dal menu drawer in homepage')
 if len(home.xpath('//section[contains(@class,"cm-editorial-signature")][@data-layout="open-white-canvas"]'))!=1: errors.append('testata editoriale non impostata sulla pagina bianca aperta')
 azure_css_path=root/'assets/css/home-azure-v274.css'
 home_bundle_path=root/'assets/css/home-bundle-v291.css'

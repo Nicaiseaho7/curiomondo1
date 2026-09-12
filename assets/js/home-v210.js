@@ -150,18 +150,6 @@
     runSearch(pageQuery);
   }
 
-  const qdayQuestion = $('[data-cm-question]');
-  const qdayLink = $('.cm-qday-link');
-  if (qdayQuestion && qdayLink) {
-    getSearchEntries().then((items) => {
-      const href = new URL(qdayLink.href, location.href).pathname;
-      const entry = items.find((item) => {
-        try { return new URL(item.url, location.href).pathname === href; } catch { return false; }
-      });
-      if (entry && entry.title) qdayQuestion.textContent = entry.title;
-    }).catch(() => {});
-  }
-
   let feedItems;
   let feedCursor = Number($('#cards')?.dataset.initialCount || 0);
   async function getFeed() {
