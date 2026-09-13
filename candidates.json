@@ -72,6 +72,24 @@
    "url": "https://ansa.it/sito/notizie/sport/f1/2026/09/13/f1-antonelli-vola-anche-a-madrid-e-allunga-per-il-mondiale_41f6549b-d709-404c-8233-846ee8a569b3.html",
    "url_key": "0042327ab7b3f510ecda"
   },
+  "008de44e2d703d1ea78a": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:22+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:20:22+00:00",
+   "reason": "duplicato_di:f19d5148af774f1375ee",
+   "score": 0.0,
+   "source": "BBC World",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Questions mount over what an AI 'slowdown' would look like",
+   "topic_key": "2deba874bd8f90e3da15",
+   "updated_at": "2026-09-13T18:32:22+00:00",
+   "url": "https://bbc.co.uk/news/articles/cwyzp47py48o",
+   "url_key": "008de44e2d703d1ea78a"
+  },
   "00997e847c1308979de4": {
    "article": {},
    "attempts": 0,
@@ -522,7 +540,7 @@
    "status": "seen",
    "title": "Crossbench MPs launch push to stop Australian military exports being used in human rights breaches",
    "topic_key": "b890eed0b4ef8a881d98",
-   "updated_at": "2026-09-13T18:28:32+00:00",
+   "updated_at": "2026-09-13T18:32:26+00:00",
    "url": "https://theguardian.com/australia-news/2026/sep/14/crossbench-mps-launch-push-to-stop-australian-military-exports-being-used-in-human-rights-breaches",
    "url_key": "03b09931218606005fca"
   },
@@ -795,6 +813,24 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwQllVdHdBWWRxdDNwMWFfYUNUWU5vY2ZPOU5sSlRqQkFYekh6aFV5ZGZKc3VsZWRmZnFXcnhHXzFaWVRKQVEweEVkVXloZGlzcHU3SzBuNndsN2ZnQy1F",
    "url_key": "05588ea2a2ad83bcd096"
+  },
+  "05781e3a34d69f4c8c09": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T15:40:03+00:00",
+   "reason": "duplicato_di:439b32c98cf0faf9b2f9",
+   "score": 0.0,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "- uat.apnews.com",
+   "topic_key": "0866e5a3e909ad931711",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd05RaUdFWExmVEV1aDhYNGo0ZnBUZGlJM2lVcVQ1V3YxX3JzQ2dGV3Z5Z2UyVks4QUZjSDZXQWkwM1pSZmtMVkppZmNQZmI3NHhWUGVUcTZXYkZWOVlvOGNmVHAzeFF3SnZIaVB2LVJqTHI1czU0ajgzYXBPd3JCR3NMMHhfUUpQa3M1YzN1MDVfZzMwUmpDTl9NaXo5dnFhR2x2U3ZpQQ",
+   "url_key": "05781e3a34d69f4c8c09"
   },
   "05b9d712b370b89484ba": {
    "article": {},
@@ -2802,6 +2838,24 @@
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSU5GdTNMX21qOUVBT05SR1UzejJqS1ZLZkx3azFBcGk3RGNJNkhxTTRiMHB6T191di1OTjN3SGZDX1Yzc2NLc1FuT0N6SjhOMTdkeFdGNi1BcnpiRXd5SWF5eVkyeXlpcTBlNWFBODQ0bkQ4Wmt6Rjlqdk5HT3R6R3pmM3hldXhPaDZHcTFEUmJmZUswNUhZRE9Ta1BiQQ",
    "url_key": "154538c010e27f9ea885"
   },
+  "156a2f7d52eb3ce406cf": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:17:17+00:00",
+   "reason": "duplicato_di:fa8868e3ed90e703e559",
+   "score": 0.0,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Il Napoli torna a vincere dopo tre ko, Bologna battuto 1-0",
+   "topic_key": "168831178add7375e6da",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBhalJ4ZzJ0M1RzTFVRX3RhWFFyY19WMkNlMk5Kblp2a3F2WVZvZU5CbHhvczA2SkVlTU1weTg1UGFaY201Q2VXOTBiUF8xczJMbVFjZ0dBWTYxU1ZaTDV5U1BsaVUtY3FTeXhfRUxzOGJmQkFkMjJ0Z0JEZ3I",
+   "url_key": "156a2f7d52eb3ce406cf"
+  },
   "15770b576ecd06ba0bc9": {
    "article": {},
    "attempts": 0,
@@ -3324,6 +3378,24 @@
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jTXJ3WjhVUV91NlFVckgtYTJmb0VteWVndGlmLXM2X19xSXlHSVpLcFpjUDNtRzQwVVpvQmtZbmpJcXV3VjVKWEs0WGtsWTNIR3dQd0dROWNWSGxkZkpqck00SFlYWU0",
    "url_key": "196bdb44974c5739b83e"
   },
+  "199b484511f8ab5409f0": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:22+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:20:49+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.765,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "(688825.SS) | Stock Price & Latest News",
+   "topic_key": "08a0dd54309c0c6fd3ec",
+   "updated_at": "2026-09-13T18:32:31+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5kTWJXRzB1cWFQSjlUVENBZ04tQm9jVUtPTGhJdzVOWllRQUs3NUFxVGFJU1V6UjE4UHBpNlJCa3JKTTlpRXVCb1pobERmejc3eW1KN1poUzFhSGdyNXZNc1JR",
+   "url_key": "199b484511f8ab5409f0"
+  },
   "1a1c0b084c1201ded66b": {
    "article": {},
    "attempts": 0,
@@ -3485,6 +3557,24 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03WVRjbXQ0aml1NlQ4ZFRHTEQ4S0FoMnFmNUwtckhzNjJZQ0szVW1DdTJZbnNwWF9zZmU1UHBEb3kySDNUYTFHbjhlbUFEWGpSZmVRamJ0eDVNX3BybExF",
    "url_key": "1c26e1c0a503352cc277"
+  },
+  "1c2dd4176372b6982f0f": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2013-06-06T12:07:35+00:00",
+   "reason": "troppo_vecchia",
+   "score": 0.0,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Repubblica Ceca",
+   "topic_key": "",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVjh4NndydURCRmdSckxrXzEyM2hvY1BMV0JuLUdaTVN3dVhiSkNUQmRlcmJUMXZVei14SEM0RXRyZlgweFVkbm9nMXJ1b0psOGt5elVCSUJXcUoyZnNnV2ZydWh6NG1uTmZHMlBBajNwd1NDZzVITm5fZHEyYjgzSE82MEtsaG1VUDQxQm5PSTA",
+   "url_key": "1c2dd4176372b6982f0f"
   },
   "1c3323fd88ab79703890": {
    "article": {},
@@ -4388,6 +4478,24 @@
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUTFfNVZGUldRUG1nWjExVlJzbi1CN28zM1hnZ0Nxd0R5RzRGaDdXYTlYd21Qa0ptMnZxY3lieXhTckpha090TjFEbHVPekJDSlVaZ0sybFlfeWFSY2tId2FTdEx3Z3JIdzRVMEM0Z1llRC1oaWM3WW83eDF5b0RoYzJySFNHQ3FYbmI3NFdpZHYwMkxFNkg3QTVUNFJtcUR3NDdCdDdWb3FLWm5ONXFxRDNPX3h3UEF2Wm9YQ2Ewd3BZaTRRR05lRQ",
    "url_key": "23eb943fad80e172aa11"
   },
+  "23ee7102b76de3dce5d5": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:58:33+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "\"Sui rischi dell'IA vi hanno mentito\". La dura accusa del Ceo di Anthropic",
+   "topic_key": "6df720820d39b84b0b18",
+   "updated_at": "2026-09-13T18:32:27+00:00",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUnhvekpWcWVRV2xmeDBrZVZld3c2MURfVU1qR2VYSV92bDRjbW9LQno3M0l5Z0hJbEdkanVwM3dlX2UyMktPcnRGYjBsQ2JGdHAyLUl2Y1B1SEpEU2g4bHJqVm1RdjB5V0k4QjhJdC1MS3RxT3JiNEhzX3d4RlRzMWtxZTk",
+   "url_key": "23ee7102b76de3dce5d5"
+  },
   "23f9b3cbf79de1680658": {
    "article": {},
    "attempts": 0,
@@ -4513,6 +4621,24 @@
    "updated_at": "2026-09-13T18:28:36+00:00",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNEQ3dVJEY0NueWVyVTZSRnNzSFpCb3hiLXhNTEs4b3JsdWdYbVJoS0JacnNfRUVsSGpxUlRfbERVckhXNzlZamg5ZjJPNFhKSnc4NU0xUk5Yb2U0YlNYVzBHdElUSVNMeUdjMkFCTWtSSXd0ZENJVHN1U1dSVUZFbUQyWVRvSzc3Z0h0WDZMcEdLbW8",
    "url_key": "24f95f1794af79734d07"
+  },
+  "2517194e62934777f367": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:09:52+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "Mondo ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "PAOK vs Aris: Greek Super League stats & head-to-head",
+   "topic_key": "b51f92e506cbcf4146a3",
+   "updated_at": "2026-09-13T18:32:27+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRQXpLQ3VHcDhSeXhfSFROVjJXSEdmOHl0NklmQzZzV1NPTkpac1Y3bEgwUXMtbVRBWjlFbGhsckFfTVk1UHVWZTZpczVFb0VxREFSSEZ6SUFja1NQS1JVQ3RUWQ",
+   "url_key": "2517194e62934777f367"
   },
   "252301b9d610c141a0c2": {
    "article": {},
@@ -5002,6 +5128,24 @@
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56QzFTa2VYY1dGLXdRaW1TWG53QTlXSE1JM1hfQnU1RklQN21wMWdWb01hdFVuRVFsQTh5Tk12VTFlN3F2R2ZhektJbnM4ZmgwWnMySDdiTnNJbC0tY2Ztal9OVXBtM1E1bzM3eVp6dTFhZmZaVmNMZGpHZFM1QQ",
    "url_key": "27dbf59c449215249cce"
   },
+  "27f35bccabd00a4a7ad1": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:54:19+00:00",
+   "reason": "duplicato_di:a14a8e00197cc9b8a920",
+   "score": 0.0,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Mostra del cinema di Venezia, Occhipinti: 'Fondamentale che ai festival arrivino anche tragedie come Gaza'",
+   "topic_key": "b219584b6c63de1da52c",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPWTV6U0E1VmF6M19XMVUxRkdBWTh2MUdaeXBwcEh1aVpkX0NVNlZCMmlpbHVfSVZTOUNIVGNpM1kxOS1UaGd2SVRSRjZFOEtxbEx0OHRackNPWmVHZ09rcjJjbURKcHlSWFNtU0E5bmczVXFEV3k3YTNqcEpnTWVWQnlRcGpHYVRwajJsc0JreVpONHFaMUtZblpVR2RYX3h3TjVLOU8zWWVUdV85QVgyekFUMnJjckk0TW05WWFRNWc4bmkzQTV0ODJKbkhLTTNBcnRxNndGSkdSUmc2eVF5NUx1MlV6WjFDUExkMWxSSHlmMF9CbXJIYldsSDFONEI5bVdqUmpRQk1OektXSlHSAY4CQVVfeXFMT1k1elNBNVZhejNfVzFVMUZHQVk4djFHWnlwcHBIdWlaZF9DVTZWQjJpaWx1X0lWUzlDSFRjaTNZMTktVGhndklUUkY2RThLcWxMdDh0WnJDT1plR2dPa3IyY21ESnB5UlhTbVNBOW5nM1VxRFd5N2EzanBKZ01lVkJ5UXBqR2FUcGoybHNCa3laTjRxWjFLWW5aVUdkWF94d041SzlPM1llVHVfOUFYMnpBVDJyY3JJNE1tOVlhUTVnOG5pM0E1dDgySm5IS00zQXJ0cTZ3RkpHUlJnNnlReTVMdTJVeloxQ1BMZDFsUkh5ZjBfQm1ySGJXbEgxTjRCOW1XalJqUUJNTnpLV0pR",
+   "url_key": "27f35bccabd00a4a7ad1"
+  },
   "283a734dc1a80dd55554": {
    "article": {
     "high_risk": true
@@ -5473,6 +5617,24 @@
    "updated_at": "2026-09-13T17:44:34+00:00",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vRnpURVdqaU54THZfSGVSbGpkdVVLNGlrVENPQjlvTW1YenNXNzB2b3lWWW0ybVEyamxzX0tVVU1JVERldzRqTFlBZXVBbDRjRlE",
    "url_key": "2af11b06afff01516bc5"
+  },
+  "2b1dded577d9d50d369d": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:27:23+00:00",
+   "reason": "duplicato_di:f28c584cfcf85f6b21f6",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "- Reuters",
+   "topic_key": "",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBMYUU1UGYyRnN1STZuQkVOeEJzanhEYURkRTlKRWJzcDVTNWE1MUdzUWlYc296MUVROTk5SkxnTk1iREhQY21jX0JqN0QtUXVrbDRhajllWVV1am9JQjBoSXVKZm04aG4tMklJZ0Z3T1EzSTNKVHJzemthTQ",
+   "url_key": "2b1dded577d9d50d369d"
   },
   "2b2f266d51ab75f71e7d": {
    "article": {},
@@ -5978,6 +6140,24 @@
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1qelgxZUlQanJfbzBtNndEdFg5RFotWWhlT0w5ZDlkREtwSDVzV2JXTG1oM3FxdEdKZkFqTDVNMUFFZEEyS09fNldfb21uczB4SWlIb01vdHpLaGdmNzBN",
    "url_key": "2e0cb4dcdc04876dd0ef"
   },
+  "2e2839b767959df21bda": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:48:02+00:00",
+   "reason": "duplicato_di:e90f80a220f231c65926",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Trump calls $5,000 payouts 'easy' to fit into federal budget",
+   "topic_key": "df423e5c7001c66338ed",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSXpBeXlYbG1TNnR0Uk9BQlI2NEZVQURtY3A0Mjlad2VUSWtrcnlpUlJTcVFmbXVDRUlnM0dVQVdoV3dCVEtiZkdWMnVMN3NkcjVyTDR3X3ZCSGpzODdEdlN0S0RqS2loQnpla1lTYld5Rm9fRGppMGNLS2hKT0hQOXd5OUFtQWdkaW9YYV80N0NrTkJwUU5fekRIdURNbHFqdlhBaHM4SQ",
+   "url_key": "2e2839b767959df21bda"
+  },
   "2e84103b8d549befe69a": {
    "article": {},
    "attempts": 0,
@@ -5995,6 +6175,24 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLW1MdFhvMzdaNGR5SzhoaHFUeVVPYjJXaFpySVQ1M3pwN29LOUJnNHo3RGJOcGFrQzhKNENEclh0QktDeHI2ZGFyeFpSWXBuTXVoUHlmdEMxX2FucFpZNVo5SzU1R0Z0YTJQby1aVjNuNjJwc0l2Nlo5RXZ1SnJOTHdGT3pZR2JTYUdlMkRLRk9YQks1X3FHWk82elFjYncwMlZENG0yWGM5SnpNNmZzM0xrRlZSQQ",
    "url_key": "2e84103b8d549befe69a"
+  },
+  "2ec39c6d72bdc3d1d1bd": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:27:23+00:00",
+   "reason": "duplicato_di:f28c584cfcf85f6b21f6",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "- Reuters",
+   "topic_key": "",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55RG4waHRZQnluM1l3LUY5ZUxTMEQ0d2h4VUtTemdYdXpYM2QxMllMVUgzbS1EY0pSUFU1Wkd0MFZDbDZBaUhPTkVvWk80bXdEbUtJOV9tajJBX3Z5ZDBZRXkyU0hvSWwwc1Z4MnFjM09jMFZYcU4wM1JZSQ",
+   "url_key": "2ec39c6d72bdc3d1d1bd"
   },
   "2ec8b81aaff1e360ae06": {
    "article": {},
@@ -8050,6 +8248,24 @@
    "url": "https://theguardian.com/politics/2026/sep/13/reform-latest-millions-honest-bob-jenrick",
    "url_key": "423ce010495cacd21a0a"
   },
+  "426bde2a3b538f46e017": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:14:17+00:00",
+   "reason": "duplicato_di:dd33c08603a9152c187e",
+   "score": 0.0,
+   "source": "Mondo ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Horse Racing",
+   "topic_key": "",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wY25DdWx5X016NlQ2VWxkVnp2dHRiOW5lMkx4Y21ub2tjZDdtZEs2a0k1YnIza1FYR1ZYazFfSThfZDNRZWRJVi1Na3NGeGZrdEJFV3BlMldtQWhEdUlfSXFXMA",
+   "url_key": "426bde2a3b538f46e017"
+  },
   "426d78074565fe949cf0": {
    "article": {},
    "attempts": 0,
@@ -8505,6 +8721,24 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVDBBbnhfY2hmTFkxbFl4N0VWOURKY1BCOVp0UkYzX2N2RVBBU2RLeVI4LW9pU2hoY1kyaHVvZVAzVTdHWnA2MTgxVHlQLWdLRUwxcU9YV0doOV9lVERqSmEwT1Mza016dHFRTkVyRzRFN20wSjU3MTh0WXdfVTBGcTl3Tl9fdmFj",
    "url_key": "4488b426e10028259184"
+  },
+  "44db79d92f4da500d4c4": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:27:23+00:00",
+   "reason": "duplicato_di:f28c584cfcf85f6b21f6",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "- Reuters",
+   "topic_key": "",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1Ry1ORUIyODdTcXVnU1J0QjBxS1N0QXR4dEk4eXlPUzlSclQtVmRUemN4V2FBa2lnRl8yUzRhc3FqYVNOa2paOWZfYkZMdjZYZlZuNmx3OWszUFZHekQ3cWVYZS10c0pIbVg3dHB3MXAxc2tNZldpb295bw",
+   "url_key": "44db79d92f4da500d4c4"
   },
   "44ea7a070c9d66759ca5": {
    "article": {},
@@ -10172,6 +10406,24 @@
    "url": "https://ec.europa.eu/commission/presscorner/detail/it/ip_26_1842",
    "url_key": "526492d12e6b3cf5e7fe"
   },
+  "5265e0fe02b582db0587": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2022-02-22T02:59:11+00:00",
+   "reason": "duplicato_di:4e01f7b8bf081cff3c6b",
+   "score": 0.0,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Ultime notizie Lombardia",
+   "topic_key": "567498d193af14f18986",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5odkZ5LTJ0dFNEZFRxUFAtTkZsSGVraEhnbjRBNF9qLXdPaS13Wks3RTdUeDhoSm5ZTkZrMkNac1VPUG1OckhvQ1BneS1LbkJCQlRLNFFhZTNBWW00VGVlYw",
+   "url_key": "5265e0fe02b582db0587"
+  },
   "526b6832b455d1edd55f": {
    "article": {},
    "attempts": 0,
@@ -10649,7 +10901,7 @@
    "status": "seen",
    "title": "Morta in piscina, famiglia si oppone ad archiviazione inchiesta",
    "topic_key": "cf587113ce9e79f19a56",
-   "updated_at": "2026-09-13T18:28:30+00:00",
+   "updated_at": "2026-09-13T18:32:26+00:00",
    "url": "https://ansa.it/sito/notizie/cronaca/2026/09/13/morta-in-piscina-famiglia-si-oppone-ad-archiviazione-inchiesta_86358ac9-9018-40f0-9272-d8785059320f.html",
    "url_key": "553b9fb168e64aba8748"
   },
@@ -10850,6 +11102,24 @@
    "updated_at": "2026-09-13T17:44:41+00:00",
    "url": "https://ansa.it/sito/notizie/cronaca/2026/09/12/scontro-con-un-furgone-muore-motociclista-ferita-gravemente-la-passeggera_bb3a7d2c-0baa-4b7d-89c6-22a1787f4a69.html",
    "url_key": "56b26640b45b865fcf9a"
+  },
+  "56bd35ca025e2fd5d443": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:08:58+00:00",
+   "reason": "duplicato_di:f28c584cfcf85f6b21f6",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "- Reuters",
+   "topic_key": "",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeE12SUFkajVMTzVfN1BBSnhGODQ3WmphbkJ4TWdOTk9sQTQxTDExd0tjdThHQ2pRZGVHemxNR1FVMDBkTElPUVRZWjJEcC1qazhVR0dzRzRsbUdnWFozeTRlZGdndEQwM0UxSy1rWDJ5LTZfcGIxdHc5TEhJRGVJdHRzeURHaTB6TFEyRU05WUY0SlhNTm12MF84NmF0UFo0eGRvVkdiWjhwMHJUUnZxYTI1Z0FPYldzMk8taXA5cTE",
+   "url_key": "56bd35ca025e2fd5d443"
   },
   "56f7e4f88b4ae2fef8ba": {
    "article": {},
@@ -12562,6 +12832,24 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOFd5ajRKWWpwcTlmaEZ5NlhDSV9KTEs5WFd5UUZzRTFHZTV4Y3FxRkdYS3Jqcy1xdlM2VVZtdjU0OWczRTJMUWF6bVVuVW83T3MtQ3Vvb2JQZ2IxX09pZkt1UHMxd1ZFWmVnazMzVnBEajBTaTlOV1M3VTFyMGhuVjBLdGduUDlIVXpB",
    "url_key": "6441d412399e88bbc7ae"
+  },
+  "6448f7cc49a42159c6f5": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:29:17+00:00",
+   "reason": "titolo_troppo_corto",
+   "score": 0.0,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Formula One",
+   "topic_key": "",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5VU0YyT2UzVlNWWUIxaTZhMTg0c2JuTUZXTEs0bkZZd1U2MjVLZTBUa19YR3VUOUlpNTdTQ0tBanE3QUx1TjlVRDdB",
+   "url_key": "6448f7cc49a42159c6f5"
   },
   "6470f487e683f0f9b033": {
    "article": {},
@@ -14317,6 +14605,24 @@
    "url": "https://cnbc.com/2026/09/11/dan-chung-rebuilt-a-decimated-alger-management-after-9/11-hes-still-finding-the-markets-winners.html",
    "url_key": "709ab259ae0f5931a281"
   },
+  "7102a6dbee43b16babc5": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:36:12+00:00",
+   "reason": "duplicato_di:4910ffe4def185128656",
+   "score": 0.0,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Oltre 150mila visitatori alle Gallerie d'Italia - Napoli per Shepard Fairey",
+   "topic_key": "f7f5fb9d937c62501d8e",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPWlNaeFBpTFFmbVBTVVZRWjRxU2xscE11MUNCRXhCM0tsVzlzRS1jS3NQQi1kZzFVVTlXWnJ2WHFaejNhTGZyMUVqXzBFZC1KamFKS2F1cHlxSFJtMGNWcFFYbzNFdnc0Y0RIeTFPV2hZTkg0SzRWY2pObHlDaWtvcmx5QWdYZXJJSW8zQkNvYlQ3el9QMG5RcG9UN3pXZGZvWjlwWXJ5aXM0aEl3TDdQREhIZkZyOWluWGJCaHZ6RzgzcjhUZy1qZ18yNEpwLW9iMU9zTlJxRUdHMkpJMjgwU044QkFuRDZncElOVkhPME1rdktTUjM2eEs1a9IB-wFBVV95cUxPWlNaeFBpTFFmbVBTVVZRWjRxU2xscE11MUNCRXhCM0tsVzlzRS1jS3NQQi1kZzFVVTlXWnJ2WHFaejNhTGZyMUVqXzBFZC1KamFKS2F1cHlxSFJtMGNWcFFYbzNFdnc0Y0RIeTFPV2hZTkg0SzRWY2pObHlDaWtvcmx5QWdYZXJJSW8zQkNvYlQ3el9QMG5RcG9UN3pXZGZvWjlwWXJ5aXM0aEl3TDdQREhIZkZyOWluWGJCaHZ6RzgzcjhUZy1qZ18yNEpwLW9iMU9zTlJxRUdHMkpJMjgwU044QkFuRDZncElOVkhPME1rdktTUjM2eEs1aw",
+   "url_key": "7102a6dbee43b16babc5"
+  },
   "71162cbf9250082df480": {
    "article": {},
    "attempts": 0,
@@ -15221,6 +15527,24 @@
    "url": "https://bbc.co.uk/news/videos/c8r2074l0rmo",
    "url_key": "7a36b97705e36b59a7fe"
   },
+  "7a3cb07c5657c73c57ab": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:08:58+00:00",
+   "reason": "duplicato_di:f28c584cfcf85f6b21f6",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "- Reuters",
+   "topic_key": "",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMEhwQVdURVQ3SzI2VVNITUhGSmMzRWpVdWZrZkVIVTA3eGgxTFJueEVYQ19BcjVxVEl4N2hHMUVnR1JZaC1HQ2ZoMGEzWmQ5RUhCYzlCLVJxS1NWTnRyeXVkWUk1RVJkbUhOUDJMd2pSUHVsRXAzNFZBNDZkU2hvNUpxRkFleC16T2JMN1BQVGF2TlJSTWhUbXpkOEdjMTVJMi1pOGJ1Y2ZGRFc0aFZySVhsckJJS1djYjBBNms2V2FxZw",
+   "url_key": "7a3cb07c5657c73c57ab"
+  },
   "7a3fd4a857f030b29ba7": {
    "article": {},
    "attempts": 0,
@@ -15939,7 +16263,7 @@
    "status": "seen",
    "title": "Will record donations to Reform go down as a moment of political change?",
    "topic_key": "9108a2a745e40d0c4ef9",
-   "updated_at": "2026-09-13T18:28:43+00:00",
+   "updated_at": "2026-09-13T18:32:27+00:00",
    "url": "https://bbc.co.uk/news/articles/cr7dl593k8yo",
    "url_key": "7fa27c1a35515ead9bb6"
   },
@@ -16281,7 +16605,7 @@
    "status": "seen",
    "title": "As Japan’s yen peaks, is the era of budget-friendly trips coming to an end for Australian travellers?",
    "topic_key": "2eda4d1d50d517fad643",
-   "updated_at": "2026-09-13T18:28:32+00:00",
+   "updated_at": "2026-09-13T18:32:26+00:00",
    "url": "https://theguardian.com/australia-news/2026/sep/14/as-japans-yen-peaks-is-the-era-of-budget-friendly-trips-coming-to-an-end-for-australian-travellers",
    "url_key": "8286e4e5d217a9aeeae7"
   },
@@ -17081,6 +17405,24 @@
    "url": "https://bbc.co.uk/sport/athletics/videos/ce876r2n351o",
    "url_key": "8851c5317589c2bd7db9"
   },
+  "8860eea132caf8db6f23": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T16:58:24+00:00",
+   "reason": "titolo_troppo_corto",
+   "score": 0.0,
+   "source": "Mondo ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "- BBC",
+   "topic_key": "",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE14dHFqSHpfYkhvTnZyaFYyVHY3V29fQ2V3ZDgtMk5XVXdtN053SUdjMFpCVXczSzNCOXBwejZ6YlM2MmFhVHJFUVJkRTVXcWdfTkE",
+   "url_key": "8860eea132caf8db6f23"
+  },
   "8908209b661e6e8b977e": {
    "article": {},
    "attempts": 0,
@@ -17601,7 +17943,7 @@
    "status": "seen",
    "title": "Pregnant woman among more than 10 killed in Israeli attacks on Gaza",
    "topic_key": "06379434ec85a0944ee5",
-   "updated_at": "2026-09-13T18:28:30+00:00",
+   "updated_at": "2026-09-13T18:32:26+00:00",
    "url": "https://theguardian.com/world/2026/sep/13/pregnant-woman-killed-israeli-attacks-gaza",
    "url_key": "8cf1d22f2ea527d7c296"
   },
@@ -18093,6 +18435,24 @@
    "url": "https://ansa.it/sito/notizie/mondo/asia/2026/09/12/cina-minaccia-di-far-saltare-il-vertice-xi-trump-se-usa-vendessero-armi-a-taiwan_7477f16b-3047-4492-99b4-7c3ccf93a050.html",
    "url_key": "9049b51686bddc8e317f"
   },
+  "90574a3ed0d59d681f53": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:04:16+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "Mondo ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Gençlerbirliği vs Kasımpaşa: Turkish Süper Lig stats & head-to-head",
+   "topic_key": "01075ec3ba9bffe6a3f4",
+   "updated_at": "2026-09-13T18:32:28+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9paXZRZzhXb0NQUDZaRGllWWpTZjFxY1p6dVFXZXJ2cFF0NHI0RnYwM0k1N2FFQ0QwaVZGeHIyQmpybnVsc1pla050YXBQUW9SdElZMXBOaXpFekpHdXp4dkpRQQ",
+   "url_key": "90574a3ed0d59d681f53"
+  },
   "90797b5e54651b644be8": {
    "article": {},
    "attempts": 0,
@@ -18201,6 +18561,24 @@
    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQYWJrU0JLYkJsM3RXb2dGWUhZU1FpVk9Xa3Q4endVZGo5dFh5dkRuWU4yX2VGa3hCclg1RkJhMUZtaXNRN2FUZWFmcXJsaTY5a3JndXhwVUxxSHFlU1JlWFJ3b3dQTHcyQm5VOEF4ZEhjWGREV29PMGJGR3ZtQ09UNnlKeDhJMllZWW9FVUZSMTlsYy14VTBYcW9nUU9HeHJTSTZ2dk5CTXhHUTUtT0daTmpWTGxUYUNQSWRNaXNVa2FpV2ZRaWNxRDFsMF9NZ1Z4eGVvSmxIdzBlZGhKeUN6WkEwNWlFVmxFRVIwOHRWUVc",
    "url_key": "910e915286fe16ff4168"
   },
+  "9142fb5703042f67ff2d": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:11:00+00:00",
+   "reason": "duplicato_di:542831a5e325d5f62dcb",
+   "score": 0.0,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "++ Centrosinistra di Andersson in testa in Svezia, arretra l'ultradestra ++",
+   "topic_key": "b33e766b9c27601bf578",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNU2JaakNWVjAxY3V2MEFYT1ZtM1BNNDVSRjRmZm5Zb3dvdGFscy1KeEdkQklibjk1MDVra1pfdjVURC1xZThRZzFQbHctLVdtckF5S3pKdzNhLXEzTF9RUmtEaFlWMWh0UGUtU0MzVkQxUTNlSkdiVFZBeVNLTnV2MjFfX2NSdjZZeHNWQmswMWFoa21UNVlhdFNhV1lDUGx6el9IWUFEUDR1OWdtbHVFejNud3VKZUoxTzIxN0d3ZHg1UC1fT21DenhlQzluUWt0X2dHTzU4QTJKUUt1YWJCNl81NURuVVBWS3VKaFNfMlp6UGY4c0w3bEhQRzJnWkFnVGFzVWZkY9IBjAJBVV95cUxNUzF6OFBzZkZNV3VaT2dBUk5vekVzbVl4RmtUT1FoT2lFZUsxMG9xM2NYNjZiTFJaLWtqeXc5eV9KTjlRQlZyNWhGaXpYYnNaOG41UlJOUFdaNmtQVDVEcm1OSHJiNHFMSmxIVkxlb1BORC1lNFJ2TmM3M1M4bTlLRWx0dXNoRkM1Z3NqeE8zdTI4OXhIbDRpZGFlWkpYZTFMc2xxSzVSZzJ0aXRiLXk3a0x1eFR6UVFTUWZEY0xBN0VTdWU2Y2pFeE1rQ2F3LWNKcnZsSkNPZ0FobVNCVE96S1NLZG5tWEd2VndvejVJenJWMTFrMmpWSXo4QkxsWm5WdnROcHRfTm9hVzhE",
+   "url_key": "9142fb5703042f67ff2d"
+  },
   "916354dc41e125587cc5": {
    "article": {},
    "attempts": 0,
@@ -18308,6 +18686,24 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR0E3NFY3WVpFcV96SFByZG9iNU54OWlrV2NiTTR2MXk1NXh1UWh2UEpwTG1MZFl0NGEza1pHbnBDS0o1UE1EU3htTU04b1dLRGZteFEwQjNvWFJHUW9WWE5HYnR0LW1oZ19JYW8ydDBXLU1JUERFMlcwblhsSndUQ3pQMXRVYi1BSUxuMjdkc2cxaVd4YlFSY01aZmtQUU1sRnhOLVVsNTJ4MjY2",
    "url_key": "9184da6fb072a6864178"
+  },
+  "9190f76bcbce21553c7a": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:10:00+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Milano, ragazza investita da treno ad Alta Velocità a Lambrate: cosa sta succedendo",
+   "topic_key": "123b8ffdf9fdcf9ae89c",
+   "updated_at": "2026-09-13T18:32:28+00:00",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQm43TVJWeUp3eFRTbC11bDZSWkMwTHFYVnFtemtpOXBpSnVtbkdIMk5oUlprRHFITDBXdEx5ME8wSGNaOVM4M0tLdmhpSmdIM2xrRXgwZUNPcVRJZ01YYmN1ZjJkN0dWTVNFLUNMRmhjWGRoelJ0aUF1azdUa2tiQzEySW1YRWxka29BLUFnc09WUnVUYnE4eW1xZGpHdkxnR1EyZ0UyWQ",
+   "url_key": "9190f76bcbce21553c7a"
   },
   "919afe269c4088039e71": {
    "article": {},
@@ -18904,6 +19300,44 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbFJTZ3Z5YXVHNThzVFFhSjEwTjB6WnRieWZhSG5VVFJMZXk4bHp0dXF0eS1HeG5MT09lVXRYR2lrRVdzYzk0WWVOWjFxMmIwaVgyeDZCQ1Q4Zzk0RzVpZldrZUJRM3V6OUdwem1OYURDdGxOTUVNUzROYV9yaEt1el9fenQ",
    "url_key": "956e99b58c5242b0e53a"
+  },
+  "96175cae07f326ccb241": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:26:52+00:00",
+   "reason": "duplicato_di:f28c584cfcf85f6b21f6",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "- Reuters",
+   "topic_key": "",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZTBuLXA1WW9NRV9QWDh0V2RFc24tc2FmdHVwbklpLVd4dHlmZ1dZZEc0dGQ1cWY5NEJoUV9oQ0JOc1FValR1U010WXl4b0hOdzNrcHE4SElHQ1ZRczlQNjZFWTc5VVU2WFFLWWFOUHoyR3dmM2wxVWtEY2xjTnFpZ0dOa0xmdF9JdG42a3ozOWloLXRyYUc3SGFMbG1zQVhCamhESGZCWlNRNV8wdndUY092bGtvMVZGeERmSDg0czJpUQ",
+   "url_key": "96175cae07f326ccb241"
+  },
+  "967df517ff3237e33ed0": {
+   "article": {
+    "high_risk": true
+   },
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:38:00+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "Mondo ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Man arrested after teenager dies in crash in Worcestershire",
+   "topic_key": "79e7b1e3819a7fa1e825",
+   "updated_at": "2026-09-13T18:32:28+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ub0d1ZEtiUi1RMkgySjFLY2QtQmIxRlpTVlJDd09lWjBrekhwTXpGZjFEdjUwTmxia3JJSWcyZWRYRWowcHNJUHVHbGxGZ0ZOdHdvV0J2WGJ2dw",
+   "url_key": "967df517ff3237e33ed0"
   },
   "96b1ecc13e45cbaac1f1": {
    "article": {},
@@ -20701,6 +21135,24 @@
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUlNQX1ZTVXRkbHhERjBNSVlURDJBYW50OHpFMzJBYWZPVVI2cnE0ZUhKVTNpT3JwWG9ZOUhYRngtUVQ5SVh3Q01rbUtGNzhiVGNrZ3lMUmk1dTVDWjNIWkJVSTdPbU1ZV3hZeHdwaFpnMld2aTEwYXJzSHBhOGVHMEl2bTFRdHdjVDZFVnJzMG1RU1hNZnV1ZjZXQWZFdXdYT1hZS0xsMkFwTVJtRFpqalNybUVXWTFibHVqX1gzeWlmTjdJdFRvTGpnb01nRGQ4VEc40gHYAUFVX3lxTFB1WHlJOTg2TnExdkxTd1p2Ylp3ZHBIeTVJT01rRGM1VUZ3bzRMQzgta3M1U0dDb3dGVEJsak5FNy01TGwyRnR1cm1YX1ZraGt6ckdUSU53bERDLWRYYWJqcFRsYXJieGdncHBqTkJXRWEtR0wtQ0NxQ2U5MTJ3d1lPbmI5eGZKenBOd0JCQ3pVd1lHVDdPZXFrWm9ySFV3U2VtNlE5ZldLbEF5ckt2RGtuVVR5WnVFX0lOcGczeWViX2FjZEk5b2pCZ3FqSmY2VHZDc3k0N1lFcQ",
    "url_key": "a6c7249c76e0e4f9c3d4"
   },
+  "a6eefcdee3f0dc306c1c": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:27:00+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Boston’s Willson Contreras activated from injured list as Anthony Seigler goes on IL",
+   "topic_key": "e0ecd48844753b4938f2",
+   "updated_at": "2026-09-13T18:32:29+00:00",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVFZVdzlkUFZ4STFTRWJfRUVPdW1ScWJlTnA2elpFNzV4X1FkemNqTFpScXNOR21NbmVtbEJqY1p6SHo2SF9aTWpzWHQwZTF0bENvMTAxZlJrbDJmU2FGajNycXZtRjFmd0libFhBZXlvcnpVQ3g2djVmMmk1Z0F6N3Jic0RIdHdCSmdrMWNUY1lvY1dX",
+   "url_key": "a6eefcdee3f0dc306c1c"
+  },
   "a7153a45c27eac355d83": {
    "article": {},
    "attempts": 0,
@@ -21733,6 +22185,24 @@
    "url": "https://ansa.it/sito/notizie/economia/2026/09/13/il-governo-studia-nuovo-ecobonus-al-65-per-infissi-e-condizionatori_85047a3a-8a90-4fbf-993d-e0a519b312ec.html",
    "url_key": "b16ce058eeaec0ba4f49"
   },
+  "b1707ae3c93780a0c146": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:40:53+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.7,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Shelton Zverev oggi - Adnkronos",
+   "topic_key": "ef7a78e22affafbd69ee",
+   "updated_at": "2026-09-13T18:32:31+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94ck4zR2dmMGl6cHpFS0xHRVZqdVFaNURQTUJvMGhZN2Fxc1RlRUVPY3NOMmpEcFptNjFlenNBOVVMaGVFR25peG9vTEhHYUJvWTN1bENVektOMjE3cDhB",
+   "url_key": "b1707ae3c93780a0c146"
+  },
   "b18825966917f8f53373": {
    "article": {},
    "attempts": 0,
@@ -21951,7 +22421,7 @@
    "status": "seen",
    "title": "Serie A: il Napoli batte il Bologna 1-0",
    "topic_key": "3f86399b2ae4e9275b24",
-   "updated_at": "2026-09-13T18:28:46+00:00",
+   "updated_at": "2026-09-13T18:32:30+00:00",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSVlYOHhDbi1NcVJ0MmN0ZnJBbjQxLWM3UWJFMDRvbXdKQWRUR0l6RG5zdFdmYnlPME00ZkRVbFl4bUIyeE9MdTMzdUZUNGlRWG1LYWtvTTVBSHB6NFZDd3FMTnduT3Q5VlJrYnlkV2dpZDRfQ05nQThUY1h2OHJmNTdNSEo2YWxUY2Z0eF82RmlzVll6N0hLdlpzUUVGMlRTRTROWTU5bllLWk05ZXVOLU5qeXVGRUdHemxlRS1feFZ4UFMxTkhQU0k3M2lDZW83NEVB",
    "url_key": "b2c0aaffb6346c35a2d9"
   },
@@ -22061,7 +22531,7 @@
    "status": "seen",
    "title": "Russian drone hits Kyiv-Warsaw passenger train near Polish border",
    "topic_key": "416c67ceaf93a5856e85",
-   "updated_at": "2026-09-13T18:28:30+00:00",
+   "updated_at": "2026-09-13T18:32:26+00:00",
    "url": "https://theguardian.com/world/2026/sep/13/russian-drone-hits-kyiv-warsaw-passenger-train-polish-border",
    "url_key": "b398d0d12e367a41ec44"
   },
@@ -26113,6 +26583,24 @@
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CU0V3dGdYQWpQQVp0ZnRKelk2ZlpLVnhEVnE4UHV2SUtGOFdkeVVvVU1ydTRhNjY0RXR3M000MXViTGhlR2hudG5lZ1dtdXBRUFZlMEUxOEVXVTloU0dn",
    "url_key": "d42f09db1579b8369f8c"
   },
+  "d4750aa87da3ff1789b4": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:50:03+00:00",
+   "reason": "categoria_esclusa",
+   "score": 0.0,
+   "source": "Mondo ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Man City analysis: Big call goes visitors' way when it matters",
+   "topic_key": "72656dd03054676c9cda",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQeGNrTzcwYmJiNVdlbjU4bXhuVlgxR0pPeGdLUVNtR09DWE5mdG9VSEpLUGtvYURQeWRPaDAwV28zeTdsYUZpZGsxdWdBMFJPek1xQi1wMWR3M2pTZlZ4OUFaOTFKNmpRMV9QNWlSaThZRms3VUhuQ2NmZWxHcUF0eFUxbUVtRFZsN1BSeWl3czJpN01BMks0YnlIRGNaOW5vR045emdWal8tUTZ6Njl2Zzg0anRlUHFiMkNvcHJaRnJXMUlkYWQxVkF2MmtPUmM5SnRpemhzdkl0WTFsUUhkY0hsZTY4dFBsalVuYVhwMlk",
+   "url_key": "d4750aa87da3ff1789b4"
+  },
   "d47c18933709a147716b": {
    "article": {},
    "attempts": 0,
@@ -26130,6 +26618,24 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://ansa.it/sito/notizie/cronaca/2026/09/13/legale-di-daniel-maldini-sta-bene-ed-e-stato-subito-dimesso_6596d971-fadf-4722-8e5b-c4cdd58055f1.html",
    "url_key": "d47c18933709a147716b"
+  },
+  "d4b2b51487f068e840f2": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:27:23+00:00",
+   "reason": "duplicato_di:f28c584cfcf85f6b21f6",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "- Reuters",
+   "topic_key": "",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CNWFudTE0TG5vREIxYkhyNVkwaGx0YWtnampZZ0NRNmNPMHZDN1BSSk1KVXh3dmEwR0VkejlIUi1jLWtJLVNkMHJXMFY0WE1GbThfaEMyRjE5b2xfNVRsNTU2QUpzUmtvU3NvcDgzc3FrdEFPX05OVTMyQQ",
+   "url_key": "d4b2b51487f068e840f2"
   },
   "d4d43adfabf8d9ee1290": {
    "article": {},
@@ -26580,6 +27086,24 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://bbc.co.uk/sport/football/articles/cvgykg48nxdo",
    "url_key": "d7cd678f3d5ce0cbeba9"
+  },
+  "d864bb310820ff461ade": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:27:23+00:00",
+   "reason": "duplicato_di:f28c584cfcf85f6b21f6",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "- Reuters",
+   "topic_key": "",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9sYUJxTGZPRFRJSUY1YXo4LUpreWpsSEM3M0ZoNnJLQjk5ZFZ6eG5UVWh0Zzd2VXZ0MzQ3UWF5UVE2OUh2LU14X0tOWlJURTMwYlBoSk9lV0pSaGdSLTlGeXpWd3FmeTh2SnpfLV9ZLVJmVkNCYzRQTVJZZw",
+   "url_key": "d864bb310820ff461ade"
   },
   "d8e725f244dcea7c2879": {
    "article": {},
@@ -28371,6 +28895,24 @@
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSHNwQnJPTVdJbVRieXR2RFNaQnJNb2N0MF9IMnpKbjBvcEdIOWlscUw0TDV2czhHMFBTZXRQak1aRFM1ektqdEhuakFnek1GVG9YbHVjQmItYThBSWZNdXNRQ2RQbGtVTS1OTGMwRHNnMFNGc1pXb2EyVDB3bW9iRnc4bFd2QUFObUNtS3JfZTF1dlFqMGdhdGM2eDF1UnN1YWRrNU44MUhpRkJnczlSeFNESEYwTFdzcWdLb2lOdnFjZw",
    "url_key": "e8a452ac61a83811b0b0"
   },
+  "e8bd9afbc2c9e932ed72": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:26:23+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "Mondo ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Leeds United vs Newcastle United: Premier League preview, team news, stats & head-to-head",
+   "topic_key": "5ee0f7cf05f66f415219",
+   "updated_at": "2026-09-13T18:32:30+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE85NnpUcjR1NElydDlfU2lMbFV5eW5JbzJ0Rk9NN25COUI5X3dyd0xhZmE0VjZJdGt1OGVfQWpxakZ5VkJteXVnWThSTnNqX1V4RkJWY09INHo5WGhoLWs1ZVFhRQ",
+   "url_key": "e8bd9afbc2c9e932ed72"
+  },
   "e8cfcbcc74d31b7ac74c": {
    "article": {},
    "attempts": 0,
@@ -29418,6 +29960,24 @@
    "updated_at": "2026-09-13T17:44:37+00:00",
    "url": "https://bbc.co.uk/sport/football/articles/cvgydkv0yxdo",
    "url_key": "f2bbc06b49bcb251543b"
+  },
+  "f2db88c72cf49f5de283": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T18:32:23+00:00",
+   "priority": "normal",
+   "published_at": "2022-07-04T19:13:06+00:00",
+   "reason": "duplicato_di:d22a80b3c129a5ea0a3d",
+   "score": 0.0,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Ultime notizie Puglia",
+   "topic_key": "298b341c6cab35936c6d",
+   "updated_at": "2026-09-13T18:32:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9uNENLRlhlZlBETWJKQmpBbFlWUWl1TVl4YXdKRUdRTWkwc0xaMGVWcG9JeFBybi1hV1JLd0UzNWVKZ2t1bWpLWG1tRDUwak51QlZKZDM1Q2JWTTRyVmc",
+   "url_key": "f2db88c72cf49f5de283"
   },
   "f3352381b364de397659": {
    "article": {},
@@ -30976,5 +31536,5 @@
    "url_key": "fffee37376b8c909bc12"
   }
  },
- "updated_at": "2026-09-13T18:28:48+00:00"
+ "updated_at": "2026-09-13T18:32:31+00:00"
 }

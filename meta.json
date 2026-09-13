@@ -1,7 +1,7 @@
 {
  "cycles": {
   "post_deploy_verify": {
-   "at": "2026-09-13T18:28:27+00:00",
+   "at": "2026-09-13T18:32:23+00:00",
    "pending": [],
    "verified": []
   },
@@ -12,10 +12,10 @@
    "raw_items": 1655
   },
   "watch_fast": {
-   "accepted": 25,
-   "at": "2026-09-13T18:28:26+00:00",
+   "accepted": 9,
+   "at": "2026-09-13T18:32:23+00:00",
    "feeds": 11,
-   "raw_items": 540
+   "raw_items": 537
   }
  },
  "feed_cache": {
@@ -35,7 +35,7 @@
    "last_modified": ""
   },
   "ansa-cronaca": {
-   "checked_at": "2026-09-13T18:28:24+00:00",
+   "checked_at": "2026-09-13T18:32:22+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -45,7 +45,7 @@
    "last_modified": ""
   },
   "ansa-mondo": {
-   "checked_at": "2026-09-13T18:28:24+00:00",
+   "checked_at": "2026-09-13T18:32:22+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -55,12 +55,12 @@
    "last_modified": ""
   },
   "ansa-top": {
-   "checked_at": "2026-09-13T18:28:24+00:00",
+   "checked_at": "2026-09-13T18:32:22+00:00",
    "etag": "",
    "last_modified": ""
   },
   "ap-gn": {
-   "checked_at": "2026-09-13T18:28:23+00:00",
+   "checked_at": "2026-09-13T18:32:22+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -85,12 +85,12 @@
    "last_modified": ""
   },
   "bbc-top": {
-   "checked_at": "2026-09-13T18:28:22+00:00",
+   "checked_at": "2026-09-13T18:32:21+00:00",
    "etag": "",
    "last_modified": ""
   },
   "bbc-world": {
-   "checked_at": "2026-09-13T18:28:22+00:00",
+   "checked_at": "2026-09-13T18:32:21+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -150,12 +150,12 @@
    "last_modified": ""
   },
   "gn-italia-breaking": {
-   "checked_at": "2026-09-13T18:28:23+00:00",
+   "checked_at": "2026-09-13T18:32:22+00:00",
    "etag": "",
    "last_modified": ""
   },
   "gn-mondo-breaking": {
-   "checked_at": "2026-09-13T18:28:23+00:00",
+   "checked_at": "2026-09-13T18:32:22+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -170,7 +170,7 @@
    "last_modified": ""
   },
   "ingv-terremoti": {
-   "checked_at": "2026-09-13T18:28:23+00:00",
+   "checked_at": "2026-09-13T18:32:22+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -210,12 +210,12 @@
    "last_modified": ""
   },
   "protezione-civile": {
-   "checked_at": "2026-09-13T18:28:23+00:00",
+   "checked_at": "2026-09-13T18:32:21+00:00",
    "etag": "",
    "last_modified": ""
   },
   "reuters-gn": {
-   "checked_at": "2026-09-13T18:28:23+00:00",
+   "checked_at": "2026-09-13T18:32:22+00:00",
    "etag": "",
    "last_modified": ""
   },
