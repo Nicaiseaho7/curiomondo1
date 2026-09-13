@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from .sources import fetch_feed, load_feeds
@@ -15,23 +16,38 @@ from .sources import fetch_feed, load_feeds
 SOURCES_PATH = Path(__file__).resolve().parent / "sources.json"
 
 
-def check_all(sources_path: Path = SOURCES_PATH, timeout: int = 15) -> dict:
+def _check_one(feed, timeout: int) -> dict:
+    items, report = fetch_feed(feed, cache={}, timeout=timeout, retries=1)
+    return {
+        "id": feed.id,
+        "name": feed.name,
+        "tier": feed.tier,
+        "cadence": feed.cadence,
+        "direct": feed.direct,
+        "status": report["status"],
+        "items": report.get("items", 0),
+        "error": report.get("error", ""),
+        "sample": items[0].title[:80] if items else "",
+    }
+
+
+def check_all(sources_path: Path = SOURCES_PATH, timeout: int = 15, workers: int = 8) -> dict:
+    """Interroga tutte le fonti in parallelo: in sequenza servirebbero minuti."""
     feeds = load_feeds(sources_path, cadence="deep")
     rows = []
-    for feed in feeds:
-        items, report = fetch_feed(feed, cache={}, timeout=timeout, retries=1)
-        sample = items[0].title[:80] if items else ""
-        rows.append({
-            "id": feed.id,
-            "name": feed.name,
-            "tier": feed.tier,
-            "cadence": feed.cadence,
-            "direct": feed.direct,
-            "status": report["status"],
-            "items": report.get("items", 0),
-            "error": report.get("error", ""),
-            "sample": sample,
-        })
+    if feeds:
+        with ThreadPoolExecutor(max_workers=max(1, min(workers, len(feeds)))) as pool:
+            futures = {pool.submit(_check_one, feed, timeout): feed for feed in feeds}
+            for future in as_completed(futures):
+                feed = futures[future]
+                try:
+                    rows.append(future.result())
+                except Exception as exc:
+                    rows.append({"id": feed.id, "name": feed.name, "tier": feed.tier,
+                                 "cadence": feed.cadence, "direct": feed.direct,
+                                 "status": "error", "items": 0,
+                                 "error": type(exc).__name__, "sample": ""})
+    rows.sort(key=lambda r: (r["status"] != "error", r["tier"], r["id"]))
     healthy = [r for r in rows if r["status"] in ("ok", "not_modified") and r["items"] > 0]
     empty = [r for r in rows if r["status"] == "ok" and r["items"] == 0]
     broken = [r for r in rows if r["status"] == "error"]
