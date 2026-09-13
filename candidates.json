@@ -323,6 +323,25 @@
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5YbG1uZTRuNlZEd25aYWZnTDVUWjdiVmFvZnZyUllkelA4WGJCeGh4M0x2cVRuQXc3YTBMMEpEUERnS21XM1FfbUxxdDg3NFlhdlpRX0NnVW0zbk9XNmRaSnFR",
    "url_key": "0144052512caf470526d"
   },
+  "01706027a23f6a6f21c9": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:33:25+00:00",
+   "reason": "duplicato_di:fde4e57d666a0ac77eb3",
+   "score": 0.0,
+   "source": "Sport italiano",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "- La Gazzetta dello Sport",
+   "topic_key": "",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:26+00:00",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdF9RSXg0amtoTEd3RUpsOWE0Wkw4RnN5WE5Rb2FrOVZBTTkzeHpHUU5uZDNNOXNKTUhydWc3NWlkLXlUTFkzaG1rTzlqaGNEb2RtcWdJbzI1UXlHVXB0LXFHWHVrSGpCbm1oXzllNFFqWGlCMXZLbm5KRXRvMjlkeGpiRUpLdmlDWHlMVzFDbkcyOFVra1U1dmkzVmdkaXlEb1BWOWRoNnAzV1FqTGlFdU9kMFc4dUFpQ0FSSVB3",
+   "url_key": "01706027a23f6a6f21c9"
+  },
   "019084426d15be7150ba": {
    "article": {},
    "attempts": 0,
@@ -688,6 +707,25 @@
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50VUZQa0YzMWJLYzR3ckxPNDFfdXZkSDRRNmd0ZW5yWGdibHRVWW1mRjM0VDFEdjBJc0NILUlJcm1OMEZfUHo2emhWeTBMM3FtN1AxMERnak85a3ZvSXBSVTZvbw",
    "url_key": "033d8bb579a5fe459dcc"
   },
+  "036ccff37a8649c0efff": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T01:39:42+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE04SThhZGJQYnNsVTB3THdhYnhlN2NPT0s3Z0NYcDh1YW1QalE5cF9iNU1HelhucUlJR0ZNMmNERHJqcUZtdUJObGc1U0VTdUhQckNsTmxaOUJFV0xBUjY1WG45RXJWRVhtUUhYRg",
+   "url_key": "036ccff37a8649c0efff"
+  },
   "037266494442e18cde7d": {
    "article": {},
    "attempts": 0,
@@ -728,7 +766,7 @@
   },
   "03b09931218606005fca": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T17:44:38+00:00",
    "priority": "breaking",
@@ -741,9 +779,28 @@
    "title": "Crossbench MPs launch push to stop Australian military exports being used in human rights breaches",
    "topic_key": "b890eed0b4ef8a881d98",
    "trust": "",
-   "updated_at": "2026-09-13T21:24:30+00:00",
+   "updated_at": "2026-09-13T21:30:30+00:00",
    "url": "https://theguardian.com/australia-news/2026/sep/14/crossbench-mps-launch-push-to-stop-australian-military-exports-being-used-in-human-rights-breaches",
    "url_key": "03b09931218606005fca"
+  },
+  "03b4d23d33566336377f": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:50:11+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "AFP",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Scottish, Northern Irish and Welsh leaders said planning effort to dissolve the UK",
+   "topic_key": "0345ec353a75f6728145",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:33+00:00",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM1QtMGVjNmJ0ejN4aTREaThfZXZubllGR09sVGtZRWppdnhpd3ZfRlZaWG9CWmlENkdsN0huVVN0RHFkWld1ZU9NNjlxRTZVcGxqckFrd29BQllSZjlMNWMtN3JZUmVYYVlscVRPWUhJLW9NaUc3bEJOX1haSGFFZThNd3J1N0RfcmdPclkxWXNjeUducGVMcTV1alAtWGc4MndocW5JZl92ZlF4TzY0WGR30gG3AUFVX3lxTE5lRTF0N0tiYzJCVHJxT2lVekZ4MFFhblRfMWRlbTh5WU9IeXNGZHJ6b2pDTkZBSzJUeXRDbGRiSWpUN1RfYnRWN1VCOE1LODJLTzJhX19STHJJN1F0WWJTTFhFaXhISzFPMzNVc3BOSV9NenFuUURqUmtvb2lfS0kwdHJtMUdmcFoyU2dnYUFyMXFrX0VBSFBPOUFHZldHYUFxdk1XaFdPRllWVlFNeEJBdk5oQ0tqbw",
+   "url_key": "03b4d23d33566336377f"
   },
   "03c7e8d2837b2691ce55": {
    "article": {},
@@ -801,6 +858,25 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://ansa.it/sito/notizie/mondo/2026/09/13/carney-muove-per-rendere-il-canada-membro-associato-dellue_cbbe9067-0453-4b25-af68-3b0c4c6b5140.html",
    "url_key": "03ef42bfc84d6bb87a2f"
+  },
+  "040d7771c08f8eb3c9bc": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:15:59+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.615,
+   "source": "Adnkronos",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "omicidio a padova - Adnkronos",
+   "topic_key": "d869ba0c8fc6ad67c37f",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:50+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fVVJiVEt3UUtfcGk0SEtxUHEwY1Y0RHpkamkyRkg1VjV1S1FXamJMVWxkQTN3TTZXYVc3MG80c183a1h4dGt1TUI0WW5JN2U3NWdrOF90NDc1ZUJW",
+   "url_key": "040d7771c08f8eb3c9bc"
   },
   "04412f8ef502b289411b": {
    "article": {},
@@ -1523,6 +1599,25 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40Vm9BRHJwMElqZTZVWHdWcjctdk5mbXBodmo4MkxKZWZmeDVma1NHRV9NSk5FbU1OVi1ON2tTUXR1aFMteVJKWmt0U3pJbVRfbUFWdkZCV1ZhMGkyR3c",
    "url_key": "06a24d7d7f6e2ad25a27"
+  },
+  "06b9af90638b2765b44e": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:27+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T12:20:48+00:00",
+   "reason": "titolo_troppo_corto",
+   "score": 0.0,
+   "source": "Financial Times",
+   "source_tier": "markets",
+   "status": "rejected",
+   "title": "Home",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:27+00:00",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1PeHNucWJCc3lzSEp3Q0xhRGNhOGdSczVxQUZ6c25Vb2x6Q0RCQm1CbGhuN0JMRWR4Nm1uN1duU3NGSVdtQ0xHQW5PRkR5UE9tQ3dGNWRlZXBCaGR6cTg0Q3ZFTUl3cXNQdW1CYy1YMjZRa1lnVjRZSVg0YW11QQ",
+   "url_key": "06b9af90638b2765b44e"
   },
   "06c891c6985eec236f6d": {
    "article": {},
@@ -2404,6 +2499,25 @@
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4ckhwdXhOc3BkVHZHcXVYa3FPQm9KNng3d1pUMmprSnE2R3hlRDF3Zk5pOF83aGhWWDlTLWxEQV9QRE9TQmRxeDNPMjhxSDFHT08tLTNleGZHQ1dRT2xZekl5T0VwMEJ6dXBUVA",
    "url_key": "0b755d9d3b84732251e9"
   },
+  "0b9300ba6a50f57da1f0": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T12:38:28+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xS2Uzek5MaTlGTGFISmF1aHAyRzJiSW9MV3NOWVFTSHptb0psbHdWU3dKUWtZWTAtd2VlTTV2X0hjd1RtdDBud1N3dmRKaS1DVndDTUhMNTRtUF81WXI0OUFHSEk3QUtVMDFEWQ",
+   "url_key": "0b9300ba6a50f57da1f0"
+  },
   "0badc384197b1b8f3f0c": {
    "article": {},
    "attempts": 0,
@@ -2672,6 +2786,25 @@
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQd0hrTkx2VkhGSzdERy1GNWdsQlhwT3NpTHY2SjdoZGR2S2ZfN1VGVHdyZVJNeXR4bkxKaEJCYWc2Nk5mWGtUaHdlSEpKLVhmS29aTkc5NXRwbm5xQTU3Tkk5YTVFeXl5OS1ZSkNLaDRtcHFDbjZNaGZIazFLY2p1aHNzMlJrbWFTTEhEWXRjU3liVFRzWk1vMVNHTnE2ZW1OckN3c3hqcVEybWprS0o0djhB",
    "url_key": "0d178a17572872ff0894"
   },
+  "0d3ccaf874a83083134a": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:26:12+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.595,
+   "source": "Adnkronos",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Nave della Salute' di One Health Foundation - Adnkronos",
+   "topic_key": "ade7b2d4ee131ad309e4",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:52+00:00",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GM0FEQUp6dHRHNmpPZVppdnJrWFEyWmI3ZG1xVE9HN3pQY2dvMll3WWhWM2Vwc2VWN3JfYy1jcnpydnFHYUJhZHFzOXptRVVRWHhpS1lRNGY3djEyZm9tYWFzeUV6dnJpZDh6bzYtOElXMGNjQy1sUUFxQkRnMDA",
+   "url_key": "0d3ccaf874a83083134a"
+  },
   "0d45ab6548938d10ef7b": {
    "article": {},
    "attempts": 0,
@@ -2747,6 +2880,25 @@
    "updated_at": "2026-09-13T17:44:57+00:00",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVVBoNUtsbk9nckRPT1NRTkNiWmQ3T1JXaHB4VUg3ZGVaSklyM0FaYnI4bkx2WHBfdlJ6U0R1Q3R4UUVPVEpoNlBxeU9ibExOY2dwR05UblJzN2pVaVhBcEtqLVdTTFViOEYteG5fZUNYbUxJZ0E2WEk4RnFvZ2NkaXhzRmRVUXRXek1kTWM4allUdzZmN3NrVWJ0anUtYjJkaHpFYlhwMXdVSXBGV2ZFNFBVaXFVcHpiWkp5dHREN2xqQmvSAcgBQVVfeXFMT0pGUDZTc3duZFdlZnZnZ2c2Tmh4TWhpNWg2bFFuU2pLcmh2YzlVbloyOFFoVlVjeFJNY2J5ZDNKU2dFLTcyVTh2Rm1qeEhsdkZ1a2c3QkVJTk1Tck9iaTNCQmtYYU9xbnR5ZlRsOXBTczBkR2hkem53M3FSZlVwd3l5c29BVFFfOTgyQ1pDLWxJX0dFc3NCdzVGclctc0lMXzJWbEFNU3hXVm55TmRIUmRMeDNKakhBZ1RENzFycFBvd2l0UUpjVnc",
    "url_key": "0dc4f08be7a4ad9ef10b"
+  },
+  "0dd705b7169d5eaa3fa8": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T03:07:49+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FYzVUejlHWS1rQzRJUElzRWhESUNyS1lfTmZBRWwyLVRSaDRZREJwT2wtaVo1VUpKS2ZNeDNnZkhQMDJZbGRuZjItdG9RTHMwMm4yTXNyRi0yaEJYOTRWWmNaNk1nSGN1b21PWA",
+   "url_key": "0dd705b7169d5eaa3fa8"
   },
   "0ddd27a971cfc018a3b4": {
    "article": {
@@ -2844,6 +2996,25 @@
    "updated_at": "2026-09-13T17:44:56+00:00",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTEdwbzJkMklJVXA2OHJtV3dNMWFjWEZ6Z1ItLUowQUxpbEsybURnUC1lQ2w0bVlpRU81SE1UaEwtZ3JlZ0pKcFljcVRHVkdzLU1WN0pWcVVwWFBqUlBxMno3RFhuSzBPZmNnbXFPMjZmcDl1Vjc4bGdxYkJKVEFJUFVLd3RtS0N4RWc",
    "url_key": "0e0999ff1d04a3c71411"
+  },
+  "0e2bb4992af516766b3a": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:27+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:10:00+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.525,
+   "source": "MarketWatch",
+   "source_tier": "markets",
+   "status": "rejected",
+   "title": "These are the 10 biggest retirement fears",
+   "topic_key": "f262f8f238af4837ec50",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:54+00:00",
+   "url": "https://marketwatch.com/story/these-are-the-10-biggest-retirement-fears-and-what-you-can-do-about-them-4dde8b9c?mod=mw_rss_topstories",
+   "url_key": "0e2bb4992af516766b3a"
   },
   "0e2f542e696cad1da256": {
    "article": {},
@@ -3091,6 +3262,25 @@
    "updated_at": "2026-09-13T18:28:28+00:00",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zRGVNQVlrS0wwaEFVR19YZDFhTy0yb0t6cHoxeDFYVjBXbC1MZnpBNksxWEZIenlOSDRZcEpzNUMxck5TWlZneUxuNmcweXpPR0s3b1ZB",
    "url_key": "0f3901a0b7cf06f8a421"
+  },
+  "0f3b513beb2a0a97ff44": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T19:28:02+00:00",
+   "reason": "punteggio_basso",
+   "score": 0.371,
+   "source": "Sport italiano",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "Colonia - Werder B.: 1-1 | Bundesliga - Risultati",
+   "topic_key": "666e7e908aab03ce657a",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdldEUThUUkxKV05QcExGS0hPVC1zZE9jdVZCQlZOQzJNOS11SWtjSFpBYlVEMm92SDFleUlDMU1JYlF5VkpRQTBuZ2N5S3lLNlhzT0RuUGp2OWVpSmg4LUNreDJuRkxDZURiY2FYbUpmVjNhOG9MaTF1ZzR0ZmRCaA",
+   "url_key": "0f3b513beb2a0a97ff44"
   },
   "0f5598469b8c1a1989d5": {
    "article": {},
@@ -3377,6 +3567,25 @@
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNU1RxamxYNW5KNGx5dnBHWTdtVV95LXJPSFYweHExZjZuczhESnZCc0hGYUtqRE9MV2N0am1QaTE4c3BuQ2Q5bFN3aXZDajRpbU1KRGtQTlV3NGpIT1I1SjhvZkdRQWJ6NzVWUkZMZjh6dkpwblhOTUszVWxtTjM4NzB4NURiQVEzS2FhYVRvRlg0RUVLQk1QRnZ1dWtsanJMeW1BSGRJVjNrc2pRRlp0eQ",
    "url_key": "113c78c349fac7652e37"
   },
+  "1156dc59fa9469f215b7": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:58:18+00:00",
+   "reason": "duplicato_di:2dc4a67dce7766d96a9d",
+   "score": 0.0,
+   "source": "Sky Sport Italia",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "Sassuolo-Juventus 3-2: gol e highlights",
+   "topic_key": "fa3cbc8df5cd47429d65",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRmtKUEdLSXRiWE5EOWRaWV9sUVo1V3l5QXdlN3AwMUV3cW4zU0p0YjJ1LXQ5MlpUXzV1QUtCdEVDeGVnMFFkaklCUG9lRHFnZU1FN2V6T1dVdWlxTzlyVklXRlVJNDNzaEdNR0ZWUG9Dc2E5SklXaHJHUmJVeGFoV2Z3b0laeFNwU3FvY2x5bFlMLTE1UlFYUw",
+   "url_key": "1156dc59fa9469f215b7"
+  },
   "11c5036944a0a0ae0d49": {
    "article": {},
    "attempts": 0,
@@ -3605,6 +3814,25 @@
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12cWFzc0JjS3lSU1lvS0xUOTB0Ymk1ZUJTdnpJazRjRGRFcC1FRi0zWWlxLXgwdmFWd0ZVV2JUN2V4M2h4Yk9XcmJORF9ybW9ETFhPRHQxZmU4TEJuNEFmcXhDbC1XUTA",
    "url_key": "12826b5426663666effb"
   },
+  "12881443ceea3e82d2bf": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T13:54:08+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JcFFSU2FhczVMTlVJdll3UVJtN2tXNmVBOGQ3alY0UWpvT09ncHpwcEhYZjlwZm45dElKWTBhV0hWYnAtbGxsVmM5S0luUm9vTG1kSDVHR3Y5RFhUQzlWVHplaGZiZmdUQnZmUg",
+   "url_key": "12881443ceea3e82d2bf"
+  },
   "12a8efb3a75a012f6850": {
    "article": {},
    "attempts": 0,
@@ -3623,6 +3851,25 @@
    "updated_at": "2026-09-13T17:44:46+00:00",
    "url": "https://phys.org/news/2026-09-magnetic-nanoparticles-amoxicillin-allergy-sensitivity.html",
    "url_key": "12a8efb3a75a012f6850"
+  },
+  "12b230e1fea7442ab447": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-12T22:31:30+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Wc0lkOEx3WmMwU19tQUNyZjZLUHB1V1JWbGJZdHNLTkIxUVU5cjVORG8tek0tQnFqTmdoUFdrUTFUNllCUVB3SWVJMnJ2dHNWZnV3LXJmcnJTd0JLOHBJX2wxS2I5QllrVHlmMA",
+   "url_key": "12b230e1fea7442ab447"
   },
   "12ba3fe10e8bcf0ccf9f": {
    "article": {},
@@ -5999,6 +6246,25 @@
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSk5IOXJsT21wMTFJa1cyNHU1S3N0OXZQWExMenA3TGx4ZklMYk1fbGtVZU5jNkVYZlFmN2xLVkN2Q3RXWHVlSFRYSlJkdVIxRUVsWDg3Q0VPRVRpLWtXajNvYXAwTU9hOENRSFVsdTJzYl8zS2I3WnhfQlBnR1RTY1N0ZlprZDBMeGNDVi1R",
    "url_key": "1f202a5329ce828983a9"
   },
+  "1f3097a1f551565f31b3": {
+   "article": {},
+   "attempts": 1,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:18:05+00:00",
+   "reason": "in_attesa_di_una_seconda_fonte",
+   "score": 0.85,
+   "source": "The Guardian World",
+   "source_tier": "agency",
+   "status": "seen",
+   "title": "Politics live: electrifying push for Australians to save $5,000 a year; bumper weekend for auctions",
+   "topic_key": "d8020eeb0dd08e8a422c",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:33+00:00",
+   "url": "https://theguardian.com/australia-news/live/2026/sep/14/australia-politics-live-question-time-electric-vehicles-auction-rates-housing-crisis-albanese-labor-coalition-one-nation-ntwnfb",
+   "url_key": "1f3097a1f551565f31b3"
+  },
   "1f476d07bf507de89815": {
    "article": {},
    "attempts": 0,
@@ -6228,6 +6494,25 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTd3lQRWkwVGhFbXZBQnFMaTh1ZlpiQTNMMDdGZ1BXMk1fMUNDTUs1eG44TVkxUUU2MkJLUWFKeXFfbFhycXVvdzFqLUZBZkZ4djc5VmQ5VWlJZw",
    "url_key": "21647db99380e5fded54"
+  },
+  "218ca6c6a14d10e42d01": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T15:18:51+00:00",
+   "reason": "duplicato_di:9d257318318c0d69d4f8",
+   "score": 0.0,
+   "source": "AFP",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "World championship leader Antonelli wins Spanish GP",
+   "topic_key": "f4863698f739c02b0104",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc3RWVkEwZ0ctVlpHLTlGdy1BdzdPUlY5dW84VWVpQnRvTklxTE53UDQtbUh4cUYwRWNlUU5NYTVVQmNQQlNFaFJZLUFMOVdKYlpuWGFfclJETVpRYUw2RU5xR2szTkxNQ2tuRzh6bjZRbzR5WU40cVk4NXA5TS04T2poM1BBc1hybXJfWkxDYkdwa0NCRzF6TVMyQ3NEWVA0ZWc",
+   "url_key": "218ca6c6a14d10e42d01"
   },
   "2192536847f018ce543a": {
    "article": {},
@@ -7160,6 +7445,44 @@
    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNU1BUS1lpbVhNN3RxNVhWcVBjbVZOeVR1RU9MeGNGRFZ0NUF1bzA1cGhNWE9HZHQtWW1qXzJiOEJaNU85MVZEUzBSd0EtVkZTckxacExBSTlFRTJqR0N6WTFiSHVqcDI3N202TElBRlM4UWlfRFFTOUJ2bVNhTVRmSk5fdlJ4S3o0bzBjalNlN2dsNGJHY0dHLUl1N0dvRkRjc1RVdVBUOWhUcUotTUI0Y3ZPU2xIeWNJQlVxazg4dlBrc3FiZVQ1UTcxMmVsQnBJMzVyeW8wMjJfdC1ydmk0YnRLUzB2X21MVEgxSENwSUdneWlPZzFXZFdENXrSAYICQVVfeXFMTXQwTnlDbGxndXZ5ZnhtSXd6WUhwNVpKTkdBdzhhY205VG9ZdHJtcTN1a0FrdHRoSkZUQ1ZwNGJBMWdBV2NQWTh6OU5uM1ZpbFk5eUlTVjBKeGFKc01KZW5PR2xaMHdEbXlkQmRvOWdQRWtZSjc3SUk1eFNBQ3NTZnVuQ05uUnVBVGpaU21ybFdHZzF2TE9jMWFfU0tlSzJrV2VyVV81aWtCYklNc0xlc3ZFZ1dubkRjRTVEaElHb1E0WDdNREtjN1pFOE9YRWNWbEoxTElpR1pJVzd1RWJBcWpOaXJkSHQtYnBQMG82WUtGdFJyN2Jvd3VWYWZ6VFpjQTFR",
    "url_key": "260879965c2ddbd1118e"
   },
+  "260f6fc1fc7a37e6cc36": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T19:58:07+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.765,
+   "source": "Bloomberg",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Ganeshkumar Dattayangandul, PB Global Ltd: Profile and Biography",
+   "topic_key": "65540aff19eaac851b1d",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:45+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xZmtkMUx2VmFXeTdWNXd3NGVPczRheWxnQmZOQmRJSXVkdUxyZWFFVFdNZ185UUZnUWIxLXZrdUROcmxlUVloQXlncmZwY1pxT1Z4dmZMVnJzeDFvTlE",
+   "url_key": "260f6fc1fc7a37e6cc36"
+  },
+  "2653a9fbe79cc4b08e27": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T19:29:16+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.615,
+   "source": "Adnkronos",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "funerali bonino - Adnkronos",
+   "topic_key": "a6e1ce9738be6ad289e5",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:51+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tdFI5SUQ3VXMzeDlsSW13LUlZaTdRVUE3UjZJUmppVldUUnRqZzRnUXN2c2M3SWRyNXBrdmF2bEpaRXB1d0x5eWtQc3RJY0VQbWFUYkU5RjBwZw",
+   "url_key": "2653a9fbe79cc4b08e27"
+  },
   "26672d2646729c4c3fd7": {
    "article": {},
    "attempts": 0,
@@ -7888,6 +8211,25 @@
    "url": "https://phys.org/news/2026-09-antibiotic-resistance-copper-infections.html",
    "url_key": "2993c11b3880b3172f10"
   },
+  "29993cab5293da0fa806": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-12T22:29:46+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LTFBLSFdCVkppVmVOQlJ0TG5lSVpmaGxNVEdHREVJcG1sR2c4cUJzeHAwV21FZks1SlBYdHVrMHl6TDFLMVNSTjYyeW8wTDZja3A5ZHd6N2hzOWpUOENzTG11QlFianI5bkhwSw",
+   "url_key": "29993cab5293da0fa806"
+  },
   "29a8e7f9b46ade4252cf": {
    "article": {},
    "attempts": 0,
@@ -8115,6 +8457,25 @@
    "updated_at": "2026-09-13T21:08:00+00:00",
    "url": "https://marketwatch.com/story/the-future-of-retirement-work-until-you-die-6d0e5341?mod=mw_rss_topstories",
    "url_key": "2ab3701365a369181b17"
+  },
+  "2abbf51badf82b84c875": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-08T20:00:00+00:00",
+   "reason": "titolo_troppo_corto",
+   "score": 0.0,
+   "source": "BBC Technology",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Tech Life",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:23+00:00",
+   "url": "https://bbc.co.uk/sounds/play/live:bbc_world_service_news_internet",
+   "url_key": "2abbf51badf82b84c875"
   },
   "2ac5f681804ff2e1ca96": {
    "article": {},
@@ -8780,6 +9141,25 @@
    "updated_at": "2026-09-13T17:44:47+00:00",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE82T1lreTNyOEM2eDRfR3NOSUZTVW9jQmNtTEpNT2VySmxIVUx1bVhhbUFFTzNOU21ublhralpzRUM2TTUzMi1Ndi1lX0o3RkhBdzc2VlJKV3c",
    "url_key": "2d1daf20e6f19889b878"
+  },
+  "2d2322d1a7484bd0ebd5": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:27+00:00",
+   "priority": "normal",
+   "published_at": "2017-02-04T19:35:31+00:00",
+   "reason": "duplicato_di:f2eaafa36a1c4785e86e",
+   "score": 0.0,
+   "source": "Financial Times",
+   "source_tier": "markets",
+   "status": "rejected",
+   "title": "Invesco American Franchise Fund Class A, VAFAX historical prices",
+   "topic_key": "2b3d1927a005bf44b8f0",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:27+00:00",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HN0hNOVZnb2JESFYtNGR2Ql85U2xibTNscTJvS3EyQTJnbS1NZS1xU2pNT1Rqbk9yd3c2QmYzb2ZjQkt6YVNWNnZCbmhmTnU3TXBKWFRDU1MxbW91Ri0tNzZNZ29UZ2ItcnRBU0Y2WQ",
+   "url_key": "2d2322d1a7484bd0ebd5"
   },
   "2d2bb92d143f2f870722": {
    "article": {},
@@ -9909,6 +10289,25 @@
    "updated_at": "2026-09-13T17:44:30+00:00",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TRDhKZGFYc0g3NkpuYjV2MVVCZGk1WDBtancwd2FsamlGci1NX0hoMzE2UGtRWWpOUWJndlRkbEI5WUFWUUdNRkZ6NHNmMFdsTXc1cFFlUkJnNXpxbXBGbmVxQk5Ib0k",
    "url_key": "34c31b402405c9c41193"
+  },
+  "34cdcb19c6e7c53f1f99": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:22:00+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Brandon Lowe helps the Pirates top the Cubs 4-3 in series finale",
+   "topic_key": "a1685f0ed80b0d066fc3",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:33+00:00",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVFI0NXRBMXRWNjVPT2lrd01rTnQzTzNSOVRtREFadUxreTlPNmxER0FiOEpsdUs5eEtGOTdTdEhLMFFsNzI3dGhQQUU5SzlTOGdnUDBqZEMyV0h5LVVCVlh1Y3YwWUdwb3BaaTdjZEMtVWlEeHRMZWE4elliNmtuUGx5WWo",
+   "url_key": "34cdcb19c6e7c53f1f99"
   },
   "34d5c8c01e8c286c011e": {
    "article": {},
@@ -11208,6 +11607,25 @@
    "url": "https://ansa.it/sito/notizie/cronaca/2026/09/11/tolte-le-barriere-in-darsena-a-milano-sul-naviglio-navigazione-ancora-vietata_779f7e77-def1-4e09-81bf-cf152019c198.html",
    "url_key": "3c496edf97a71c2f76eb"
   },
+  "3c83579159b50d2d1d8b": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T17:20:11+00:00",
+   "reason": "titolo_troppo_corto",
+   "score": 0.0,
+   "source": "Bloomberg",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Energy",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:26+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HRmg2QUZicWhxYkF0Q2NfSWo0aVlTTTc3T09aWDA5cXBWVHdsT25zQjRhSmNjdWxaVzVYWUxQbzF3MFdRX0d2RkJYN2ZrOXdEUUVIY2lB",
+   "url_key": "3c83579159b50d2d1d8b"
+  },
   "3cab1251def322ed49ec": {
    "article": {},
    "attempts": 0,
@@ -11723,7 +12141,7 @@
   },
   "3f1f7cddbdcdfc427a09": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T21:07:56+00:00",
    "priority": "breaking",
@@ -11736,7 +12154,7 @@
    "title": "US schools and police warn about viral ‘Cat in the Hat’ trend after teens’ arrests",
    "topic_key": "39ce1e8d2c62ebdbddd0",
    "trust": "",
-   "updated_at": "2026-09-13T21:24:30+00:00",
+   "updated_at": "2026-09-13T21:30:30+00:00",
    "url": "https://theguardian.com/us-news/2026/sep/13/cat-in-the-hat-social-media-trend-arrests-school-warnings",
    "url_key": "3f1f7cddbdcdfc427a09"
   },
@@ -12119,6 +12537,25 @@
    "updated_at": "2026-09-13T19:21:48+00:00",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb1BLYXJUeHAwU2J0X0JXby1tUHVhX3RwN2x0cmFYNFNkbXM2WDdiVFZqa19MVHVZMEY3Zy1tdTlmdlQzcmNkMC1nc3hfWE4yMHBVNVA4YVZQOWVuS3RmUGphQU91QTJQNmpvN3RtOEFhTWhPWWNfTmU2Z0tvUlFHYXFQSk0",
    "url_key": "4104b6f61625a2a686f2"
+  },
+  "411a692ccefb09f2e287": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:27+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:22:46+00:00",
+   "reason": "duplicato_di:e4b4ed4ea3821fa58d24",
+   "score": 0.0,
+   "source": "Financial Times",
+   "source_tier": "markets",
+   "status": "rejected",
+   "title": "- ft.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:27+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rblMyNXUtM2l4Qk91dlkybUQ0c1l3emltTXotWXdZZzZsRFdLREphamxVcXhQWDFpWDBqZmVvdC01NFdUZElaS05MODQydXNkREhzc3lLWQ",
+   "url_key": "411a692ccefb09f2e287"
   },
   "41510440a662cd7d2760": {
    "article": {},
@@ -13703,6 +14140,25 @@
    "url": "https://bbc.co.uk/sport/football/articles/cg59eymd40eo",
    "url_key": "49549c51ac03b76fad4d"
   },
+  "496414619a26e4005fad": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:40:35+00:00",
+   "reason": "titolo_troppo_corto",
+   "score": 0.0,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Germany",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:26+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1WaHR3anJGc21mNko3XzlIalNnSzk0SHlpWk42dm42d05rMzlncTVxWlcxNldJcVhSVmN0bjRHSWdISXQ3",
+   "url_key": "496414619a26e4005fad"
+  },
   "497ebe246396d5e5f937": {
    "article": {},
    "attempts": 0,
@@ -13803,6 +14259,7 @@
   "4a54c4e6de3a9e5d5909": {
    "article": {
     "categoria": "Scienza",
+    "category_full": "Mondo / Scienza",
     "conferme": [],
     "dati_chiave": [
      {
@@ -13862,6 +14319,7 @@
      "Chandra",
      "AT 2016blu"
     ],
+    "published": "2026-09-13T23:31:48+02:00",
     "slug": "chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu",
     "sommario": "Osservazioni ai raggi X durante un outburst previsto e il calcolo del tasso di accrezione indicano che le esplosioni non preludono a una supernova. Lo studio guidato da Mojgan Aghakhanloo descrive una binaria a grande massa con oggetto compatto.",
     "titolo": "Chandra rileva compagno compatto dietro le eruzioni di AT 2016blu",
@@ -13884,11 +14342,11 @@
    "score": 0.562,
    "source": "Phys.org",
    "source_tier": "science",
-   "status": "drafted",
+   "status": "published",
    "title": "Astronomers unmask a supernova impostor",
    "topic_key": "068cdae568ca2e0b6258",
    "trust": "",
-   "updated_at": "2026-09-13T21:26:53+00:00",
+   "updated_at": "2026-09-13T21:32:05+00:00",
    "url": "https://phys.org/news/2026-09-astronomers-unmask-supernova-impostor.html",
    "url_key": "4a54c4e6de3a9e5d5909"
   },
@@ -15536,6 +15994,25 @@
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb2Faa29PSFphVVVkeWVYYnpnV05iVjNpNWROUVdaVVpmcXYxRjQ1WElTRVVfaW1LZFNXRllyWGRsODNPMUpkblg1RW5aWW5vQ3hNd0ZKbC1LenJuM0ZndEpQeXdEaFpyLXR3V2VpT2V2Yl8tV2xMSkdHN2tuelNOT2V3a2FmclFENTdhaEQ4LXc0dDlSeXMwMXpmVHNhSndHczM0UUlEb1JXclNWOW1aRHhPQQ",
    "url_key": "5329194237b3acefb0a9"
   },
+  "532941f1e4c5281308d2": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:33:25+00:00",
+   "reason": "duplicato_di:fde4e57d666a0ac77eb3",
+   "score": 0.0,
+   "source": "Sport italiano",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "- La Gazzetta dello Sport",
+   "topic_key": "",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:26+00:00",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYTUtdkdkQ0lTUEtEOEw3VFJwS1BGSV85YXdXUFpucFNici1Ocng3a09yXzFwNVhkY1dOVk5VNG1MNUpreXg5aXdWU0kzaUNjZ28xV3hyYnVqcTdjSWpYZ2l0WFo3ZG1WSE9ReHVyQ00yQkhueUh0Z2p4dTByUS04bFU1R1MtUFRqUlgySTBtQTk4ZmQwOUR4SzdrMjQ4czZLUzJjUnZFb1V2eDhvb0NzOWtObmUtMW9QMFpmbGZKelUzaDhIeVZ3",
+   "url_key": "532941f1e4c5281308d2"
+  },
   "532d464a742f9ad11044": {
    "article": {},
    "attempts": 0,
@@ -16045,7 +16522,7 @@
    "article": {
     "high_risk": true
    },
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T17:44:41+00:00",
    "priority": "breaking",
@@ -16058,7 +16535,7 @@
    "title": "Morta in piscina, famiglia si oppone ad archiviazione inchiesta",
    "topic_key": "cf587113ce9e79f19a56",
    "trust": "",
-   "updated_at": "2026-09-13T21:24:29+00:00",
+   "updated_at": "2026-09-13T21:30:29+00:00",
    "url": "https://ansa.it/sito/notizie/cronaca/2026/09/13/morta-in-piscina-famiglia-si-oppone-ad-archiviazione-inchiesta_86358ac9-9018-40f0-9272-d8785059320f.html",
    "url_key": "553b9fb168e64aba8748"
   },
@@ -16830,7 +17307,7 @@
   },
   "589ae7631bda9ced53e3": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T21:24:24+00:00",
    "priority": "normal",
@@ -16843,7 +17320,7 @@
    "title": "Swedish party blocs tied after Sunday vote, projections say",
    "topic_key": "e7b1ad26759ac94358db",
    "trust": "high",
-   "updated_at": "2026-09-13T21:26:54+00:00",
+   "updated_at": "2026-09-13T21:30:34+00:00",
    "url": "https://bbc.co.uk/news/articles/c0qx5d79kdeo",
    "url_key": "589ae7631bda9ced53e3"
   },
@@ -17055,6 +17532,25 @@
    "updated_at": "2026-09-13T21:04:56+00:00",
    "url": "https://ansa.it/sito/notizie/mondo/mediooriente/2026/09/13/oman-annullato-incontro-previsto-per-domani-tra-i-paesi-del-golfo_97ef7619-0efb-4ae3-a0e6-b4c9716df4ac.html",
    "url_key": "595a5c6a9803e2b5d6aa"
+  },
+  "5974c40125fe21dec0bc": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:04:00+00:00",
+   "reason": "duplicato_di:2dc4a67dce7766d96a9d",
+   "score": 0.0,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Calcio: Sassuolo-Juventus 3-2",
+   "topic_key": "a092bba6317034eee8ba",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaHNxcks5R1JCc1ZhWVFnbVNQRUo4Y2ljZTNIbFhKbDlRUGNUeEZwSnZWMktMMi1iOHFUa1BDT0Fna3NHTV95Q3Vkakp6Q1BOLVFWYmlOWU9sVmtoNGF6U3pMZnZuNUQ3d21PNHBZSlF1aFNsU2NOQi1pV09ybS16aXMzcVZkMEdZb3FELUNGXzE1SEhfSHRMalZvcUxaUm0yOUpINDRGT2VDS0hDeTdpV2NYSU15UktRcjFTTGx0ZXNOZ9IBxwFBVV95cUxQMmJFRlprUkcxeS04NFl3LVBJYjVPbUhNQVI4eWpxVHBtMFdBVUZvS3hNMEJycHp3Q3FlWUxOR2tfSi1HdlNZc2IxYUFJWXotUFA2MGxZcHZsQWc3em9LelcyMTR4QzJxTUZMaWFkX2RHUmtQdFpObGpqVFoxOGZhRXkwTXJTUHBjQjFxbzZCUVlRVFhNZWtyVXh2Q09oV29FazNwWmE0MEZpRGJ4bXlyUENIdzhQSEpQX0NPQXVVZlBmSjJydUZj",
+   "url_key": "5974c40125fe21dec0bc"
   },
   "59911a40ecfbe10eea13": {
    "article": {},
@@ -17778,6 +18274,25 @@
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTmxQQjZKTVNaUFd0QlIzUEhOSTVZNTBOS2luRFpGcWYycG1IdDlIdjczVDhTYk9aRV9NWk9vU2RFR3lZOENqN0FCY0Rnb1lwSmNacVVFQ1RDa241WUdsYWp6ZjFNbTJqeEZoektVWGREbWZHZHNBLWlNVTh0NzNPUFkxUGJuNkxrVjZaU2NsN0gxeXg3OG1LQ0ZYVlpKMnlzQTM2MWVCMU9jU1BLNnNPeWxhRzM",
    "url_key": "5d74e18411ffd666960a"
   },
+  "5d79896bc002be97d1ad": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:16:25+00:00",
+   "reason": "duplicato_di:fde4e57d666a0ac77eb3",
+   "score": 0.0,
+   "source": "Sport italiano",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "- La Gazzetta dello Sport",
+   "topic_key": "",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeE5RVVp2Z29WRGhQRWVYN0I5eW9jcUJSQWFFeHhfcnNhWXI1SW5Ka09iSUZuQ2lyZ0FHSzY5dEtSbnVrN0VlaXFLcGhJNk1KYV9Td2hXblo3b1AtMUJDTUlDZWxvZWtCamVLNURjdnZHQ0NFcjlOSWVFbURrWE9fVUJrTTlsc00xZDFHSTM2QjZqRGhrNFgzd29MejBIYjhWaGUzTWZvV2hsb3lZVTVxeHlZYw",
+   "url_key": "5d79896bc002be97d1ad"
+  },
   "5d7a0092b89e92bbc9d0": {
    "article": {},
    "attempts": 0,
@@ -18005,6 +18520,25 @@
    "updated_at": "2026-09-13T21:04:57+00:00",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4yYzdxeGpyUXJLQ0NxWXJ0UGg1c004SHpoc09JYTdHRHJyNnc3aFJUU3Z0U1o3LTQ5Nnp3Tm5YMlRaZ2s3emFIQ0x6bUVDUUNENlEwMUVaZmN3aDdCRWQzWkxmQQ",
    "url_key": "5ee228cdc2199da0cc90"
+  },
+  "5eee8a072538d9c449f2": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T03:39:27+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pZEE1T1lZbF8xVTZYazhWY2pPckM3RnV4cV9sMThEUGRDMTA3cUV6R0hJLVR3OWs3alYwRzZieFNNNEtNZ2d3T3NmU2Zac3dNWFByd1JCcjNCeGZjbHVDUmU4Q3QxM3VSRnY1MA",
+   "url_key": "5eee8a072538d9c449f2"
   },
   "5f0920d9344ec70da210": {
    "article": {},
@@ -18347,6 +18881,25 @@
    "updated_at": "2026-09-13T17:44:29+00:00",
    "url": "https://who.int/news/item/11-03-2025-frank--in-depth-discussion-as-belgium-and-who-map-ahead-priorities-for-collaboration",
    "url_key": "60e6061f89a35dbee511"
+  },
+  "613730fc5aff45c46b19": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2022-06-28T12:06:42+00:00",
+   "reason": "duplicato_di:a467a2d9a60c08eb95ff",
+   "score": 0.0,
+   "source": "Sky Sport Italia",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "Calendario e Risultati Premier League 2026/2027",
+   "topic_key": "1b3862a883f2a9317c6a",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12bzZlYXU0Q1RzdW5ERk1Yb3FRaGlFcmJmMTlzc1kzUE9tVEM5Q0lkUzBXSXN5dnRETGQyZ3N5TGU5dWpnMXRHckwxcnhjSko5cXBOSkRlR1Jaa0VYVkdTZkdFemg4NVFQcU9seUY0cms",
+   "url_key": "613730fc5aff45c46b19"
   },
   "61378d5074c24ce0f206": {
    "article": {},
@@ -20328,6 +20881,25 @@
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5vcGFTaVM4RTRlVDlOWVNndG9hX2tWeVpaVzAyZ3FGVE9nc3pfdVlUemhNWWo5cDVjdWdhNkMtakZrWjN5Y25zVWtrcGpNWUh4VXpxa3R5bHAzQzJxYUE",
    "url_key": "6b412ef5d7fe25131931"
   },
+  "6b52a7d7251f62704625": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:48:15+00:00",
+   "reason": "duplicato_di:c859fc7f03841057d850",
+   "score": 0.0,
+   "source": "AFP",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Sweden's election too close to call as far right loses ground",
+   "topic_key": "39617f5a50e095c0b1ac",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQ1hFeENkbk9pVjRjLW5vWTVrTG9sOWNjc0JyNGtLWFNJSHRrWUptRXpZYnJKZUpMSW5uX3NYV1hlVTdBRXVCS3RnNEZRby1OV2Z1aW91eW1TWXZiT0NFX1hGNElidlM0ZndOMWtZN3ZIZVpCSjVRbHYzRUsxbzVfQTBUa3lUd1kySUtHeHYycURzVDlsczBpZHVOYURUSGw0MUdDRkV5ZkR3M1VTcnNHMg",
+   "url_key": "6b52a7d7251f62704625"
+  },
   "6b6064a7f7158a775e14": {
    "article": {},
    "attempts": 0,
@@ -20670,6 +21242,25 @@
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZGJ2WHBENkJ3Wkp0c2E4dExQaEMwaEY1YlNzQ0dHY2g2STluTmxNX3dicDFub2JSTVgyVDBYbWdxLUozS1JkRmRzZ0NDSUJ5NFhBcDF0UmhjV2otZ1dpazVhVk56ZDlGenhrYktndE9fNFdUTjN1eHg2U2VvWmxRa0ZteVQtdlpoQXBMLUlJbl92N214VFF0RThWeUhwZEpUUi01a3Z1VW8yVjljd2N0MVZR",
    "url_key": "6cd2d899e183648c601e"
   },
+  "6cef77529691a9fe0019": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:42:00+00:00",
+   "reason": "duplicato_di:1e8e969eec3b7408fa95",
+   "score": 0.0,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Guerrero has four hits, including first HR at home, as Blue Jays thump Orioles 8-1",
+   "topic_key": "8e8fb808263b92418e20",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:26+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcVdrZTFoRzl2eVF1eFAzd0o1djgtOFBOYktBc0xmcnY2Z0VqeVgzU2xBeEVIS1l1N2Q5bXI0WXhmM3VqUHN4T3NpR3Z2Z3lvS1ZsVG93OF9qZFNpeEZFbjlrTU1McFVicFA2M2tVajE2dWJxUzQzc2txbmhjbk9TTEpMRGlRbUpLa1dR",
+   "url_key": "6cef77529691a9fe0019"
+  },
   "6d3eecc6c3b74c76d223": {
    "article": {},
    "attempts": 0,
@@ -20764,6 +21355,25 @@
    "updated_at": "2026-09-13T17:44:43+00:00",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lNmpFbnlZTWZqU2ZmZ2ZRZVJCTnhDNzFBajdFTTUtZXZPNU4zbEtEdjBCOHdRZWVwWUVoTWVGMEt2WUpFS2RUTGJBdUd5SjJCV056Y0k1R3lXcnBnbDhsSG9lcmdFbGkxZmRHZ3B3",
    "url_key": "6dbab6f596417fa29710"
+  },
+  "6de3757de78b5ece5dac": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:36:05+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.7,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "report m5s - Adnkronos",
+   "topic_key": "1e4db171c37b31d3bed2",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:48+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TR3Q2X2k3MmJmckFtQ1AyUHhGYVNHUXFyN0FPS3gxaTZDd01aTWh3eF92QkItX1JQZWdxdll6MGcyRDl4M3FMOUNmQWVOSFE2OXFR",
+   "url_key": "6de3757de78b5ece5dac"
   },
   "6df241058b92d5e1dc70": {
    "article": {},
@@ -20898,9 +21508,28 @@
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NX3FqeU9xX3JPcTFGNEtienJoR0MtX012NEFfZlJiWnFXX2c5bk85RlQzTnVHcW1aUDJrSDlXLWFHdUVIeDdJZzhpT1oxVWs4N014RUxxNVI2VVQ1Z3I0",
    "url_key": "6ec2506f86a03a1da44c"
   },
+  "6ec3ed3a7e42c6b9e678": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T14:37:36+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.595,
+   "source": "Bloomberg",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Kim Je-Sung, FSN Co Ltd: Profile and Biography",
+   "topic_key": "a02243e7e8258f89e926",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:53+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB2N1JSeU5SSENPYWdmYzdxeXBENjVPeWU5Sk1vbXJjZGVVSG1wSFRtOVRvblVfZHBZazE5OEx6MlJ4ZF9ESmZmV0pqZ2dJNVBnQ0lmbzRCNXNVTGNtRnc",
+   "url_key": "6ec3ed3a7e42c6b9e678"
+  },
   "6f2aa05938b60513eb92": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [
     {
      "source": "ANSA Cronaca",
@@ -20919,7 +21548,7 @@
    "title": "I ragazzi di Crans tornano a scuola, 'altro passo verso normalità'",
    "topic_key": "e6c4f35f814e756f18a7",
    "trust": "",
-   "updated_at": "2026-09-13T21:26:57+00:00",
+   "updated_at": "2026-09-13T21:30:36+00:00",
    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPZkVLTGplLVRtNFZLak5pTklPQU55U24wblVqV0ZVVjNicjFQXzBFelM2MnZsX2dOY2FocnZnQTd3VzlvRFk5VWZZMkwtc0lBOGNEY0lvWVI0Qk03eUttSFZEZGh2V0NxUHBfQU9rc0F6WW1xR1dySXl0YW1MbU5oTUtSMzJUNmxoQ0VGWmliUGxDcng1enZXZE9sLXplcXBtb3NZT3hpdk1XUDA1RzlEQThmbXRSNVl4XzZpNGNQTzZ0NVVwTC1tZXVNSG8ya1FrY3otbW5hYWlZdWZVNi1LNUZEcjdtZkMyeDRMQjB1WHAwdXhaSlN5VWtENVdHenk50gGAAkFVX3lxTE9mRUtMamUtVG00VktqTmlOSU9BTnlTbjBuVWpXRlVWM2JyMVBfMEV6UzYydmxfZ05jYWhydmdBN3dXOW9EWTlVZlkyTC1zSUE4Y0RjSW9ZUjRCTTd5S21IVkRkaHZXQ3FQcF9BT2tzQXpZbXFHV3JJeXRhbUxtTmhNS1IzMlQ2bGhDRUZaaWJQbENyeDV6dldkT2wtemVxcG1vc1lPeGl2TVdQMDVHOURBOGZtdFI1WXhfNmk0Y1BPNnQ1VXBMLW1ldU1IbzJrUWtjei1tbmFhaVl1ZlU2LUs1RkRyN21mQzJ4NExCMHVYcDB1eFpKU3lVa0Q1V0d6eTk",
    "url_key": "6f2aa05938b60513eb92"
   },
@@ -21443,6 +22072,25 @@
    "updated_at": "2026-09-13T17:44:42+00:00",
    "url": "https://ansa.it/sito/notizie/cronaca/2026/09/11/lascia-il-vescovo-con-la-tesla-il-papa-accetta-le-dimissioni_896685d6-74a3-4967-9cb8-b7835f7344a7.html",
    "url_key": "716e9e143cd4f1d6531e"
+  },
+  "718e1ade493dffe27868": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2022-08-30T08:44:36+00:00",
+   "reason": "duplicato_di:9c5a502802846e7b0e44",
+   "score": 0.0,
+   "source": "Sky Sport Italia",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "MotoGP, i piloti con più vittorie a Misano: Marc Marquez conquista il 7° trionfo",
+   "topic_key": "c0ec96416e40e61c1244",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85VnBpN3haeWdqRU9TUkFXT2NGcVEwZkIwZUFMY0p2VTh2OU1UVkkzOEVBUzh3aE5nYk1KQmJ1dnpxNHlvaFFVZzBQcEJPcWUtajF6SmpVU2czcnc5cnJtRmpIN3cxaDdyYjVMcw",
+   "url_key": "718e1ade493dffe27868"
   },
   "71a29b9f77d0da49ef51": {
    "article": {},
@@ -21977,6 +22625,25 @@
    "updated_at": "2026-09-13T17:44:31+00:00",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVUFxR3VpeHNJLVlXNVozc0VvNWRpOXJhWkVFbmRpQlVST2hremRNekpOOWdNMjJaMHBBR2UtX0duaUNMZ0tjazN1eEtFZUhfSWJicDFJdHNJSzZ6OGlZbWV4OThmQjhKcllRWnJIUk5Uci1ZUVJtbWpFWDJYRF8xSGhXcWM0eDA5SC1kSGpVSmtXenhKbUNR0gFaQVVfeXFMTlJXUGcwdFpIQVpZd3VZWVJURzhCSTBZbXRXQmhJVU83eVE4eXYzNy1CcHhkZVo1U1dQalNmS2xaMjk2emlMYzlSa3JRRTFhODlBZWFWdGZiTWp3",
    "url_key": "74c3635f4af6515eb62a"
+  },
+  "74d23b262f1cf1035975": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2022-06-28T13:12:51+00:00",
+   "reason": "duplicato_di:91d9e23cec338b44baba",
+   "score": 0.0,
+   "source": "Sky Sport Italia",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "Calendario e Risultati Serie A 2026/2027",
+   "topic_key": "252189cd0efbd74b77fa",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xeHVfMnpaV3JYT2h0OXdFai0zdF9iSE55SnlWc0xpX3lNOTExM25SdHZyWDdsbF9CcGV5YTJscVI3SEtpQ1pheEFCYkZDRXp5YW5WSXIyUUc1SE91RFJwWjFKUlBFT28",
+   "url_key": "74d23b262f1cf1035975"
   },
   "753d85dad3cde91d1a59": {
    "article": {},
@@ -23620,6 +24287,25 @@
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVTNTMTZDbjNkczdnN240c2lFdU5EM2poZTh5S3MyQ3RNVENLMEltQnB4YTZkYWgyUzlvT19rclZGN05PTTBVTmhmQTM0THZqUWExSm9FN2FpNjI3dVZILV9DWE9UUXB1VHVnSi1MVk1vMTBFYnN0U3BDMTNSYVlKY0FnRU0",
    "url_key": "7e882205cd4b4e7b6303"
   },
+  "7e8e68878f19f06b5dec": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:22:38+00:00",
+   "reason": "duplicato_di:24e157456e4a95ddfb75",
+   "score": 0.0,
+   "source": "Askanews",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Calcio, i risultati di Serie A. Napoli a quota 6 punti",
+   "topic_key": "206682dd266744824f53",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUGNKX2tWN2NaWGZvQUFsN0ViZjRiU194Nk1RcUUxQi11YUYwQWtmRGVNUUtQbTlBYU5iQXg2YWdjX3V2Mnc5Vzd3X1hSRlV0V2psRV96UWkzXzkxOWdXc0JmQ2hFMnJQTTJULXZESFk0WXVpVG9nTjhpTE13QXIwNWh3LU9fcEdpSXFJag",
+   "url_key": "7e8e68878f19f06b5dec"
+  },
   "7e95d5dcdbe7f5772762": {
    "article": {},
    "attempts": 0,
@@ -24063,6 +24749,25 @@
    "url": "https://theguardian.com/global-development/2026/sep/10/nagaland-colonialism-ethnography-ethics-oxford-pitt-rivers-museum-return-human-remains",
    "url_key": "80b0a0ac703eaf9367f8"
   },
+  "80c4d4a21ff203d3f3c0": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:55:46+00:00",
+   "reason": "duplicato_di:199b484511f8ab5409f0",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "1782.HK - | Stock Price & Latest News",
+   "topic_key": "08d1f07d3b81ca6f1dea",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:26+00:00",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRzFlSXVKVTJrQ0hzdERTR3NSd3hnSmxZeWZjYUdxbkZfSEZyZjFJXzNjWjJRTXViMWp2UmJfYUYwM2ZHQktNS0hyVTRZLWV1Q29aWm1Kb2prck1ZUWdKQlltV1lWWm5HNGI3LTBhVzNyV2JMYlJhaDdWc3BJUno3MW8zSk4wVDFWZEd4Ull5V1I",
+   "url_key": "80c4d4a21ff203d3f3c0"
+  },
   "80e4fcd3ead640877c81": {
    "article": {},
    "attempts": 0,
@@ -24234,6 +24939,25 @@
    "url": "https://ansa.it/sito/videogallery/italia/2026/09/13/djprof-da-il-benvenuto-agli-studenti-con-una-canzone-fatta-di-letteratura_c0a07464-53ea-4a11-a594-7cbf9c5b2a36.html",
    "url_key": "819286a1e1a4af1394ab"
   },
+  "81a52770c5212fbadfdb": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:27+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:09:00+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.7,
+   "source": "Financial Times",
+   "source_tier": "markets",
+   "status": "rejected",
+   "title": "Jazz Aviation LP and the Canadian Flight Attendant Union Reach Tentative Collective Agreement Resolving all Collective Bargaining Disputes – Company Announcement - FT.com",
+   "topic_key": "9b38b9880bf4ed3e7fb1",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:49+00:00",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdWF3N1NRMVF1Q2hEVE1CcWl5RFd0cDQ0bk00ZG92cW11am9oaFl2TlVHdFpYTlVBVURIY2p6QVlWWUswRTVWXzQ1Q0xyYU5uMVdCN1piZG5GMWRWZUh3emxxd0NWaDJsQXdwLW5LUHRYMWFvOTFKNXE0Nm1qMFJGRTlaVEZqZDI3OWVvaG43UU5CbkVLeUE",
+   "url_key": "81a52770c5212fbadfdb"
+  },
   "81a93260fcea7608c694": {
    "article": {},
    "attempts": 0,
@@ -24386,6 +25110,25 @@
    "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPRVk1UU5FbVZoLWJOYjZrdGVBN2RBX2Mxd2pUQnpIRXBoNFVlSWNSWW03MFdsUllDSVhfV1B4aTBPQ2RobTZzMndWWU9hZVBNV0RtUThkRkwyV3B0Nk1DNTkzaUVkZTdGYmFQRGlpTFIwMUFsWTRONmh4b0huQ2xtS0w1Tndkemh3M2VuRmFMOE5CSU5LYnZ3bEdDaXlZLUs0dU1nWHM2VEpVWG0xX2RCb1NmQ0tnX0xRQ2Q1aE9VcWxjRHMtSXdrYjdpZ1NFNG52N0dUUi1RWjhCZm9TbE84ejM5WUJ2THB2VGRLalNrQl9LU3Y3Rlg4aWYwVUI1Z09tVTAxbUdCdmwzMHM",
    "url_key": "82317fbe69526e7c3b84"
   },
+  "823f0b1afa52546b52c1": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:51:48+00:00",
+   "reason": "duplicato_di:40c14f20c64442e27ba4",
+   "score": 0.0,
+   "source": "The Guardian World",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "New Charlie Kirk statue vandalized at Turning Point USA headquarters",
+   "topic_key": "2e3316b2151986930671",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://theguardian.com/us-news/2026/sep/13/charlie-kirk-statue-vandalized-tpusa-arizona",
+   "url_key": "823f0b1afa52546b52c1"
+  },
   "827c46c28b4bb645a3a0": {
    "article": {},
    "attempts": 0,
@@ -24407,7 +25150,7 @@
   },
   "8286e4e5d217a9aeeae7": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T17:44:38+00:00",
    "priority": "breaking",
@@ -24420,7 +25163,7 @@
    "title": "As Japan’s yen peaks, is the era of budget-friendly trips coming to an end for Australian travellers?",
    "topic_key": "2eda4d1d50d517fad643",
    "trust": "",
-   "updated_at": "2026-09-13T21:24:30+00:00",
+   "updated_at": "2026-09-13T21:30:30+00:00",
    "url": "https://theguardian.com/australia-news/2026/sep/14/as-japans-yen-peaks-is-the-era-of-budget-friendly-trips-coming-to-an-end-for-australian-travellers",
    "url_key": "8286e4e5d217a9aeeae7"
   },
@@ -24442,6 +25185,25 @@
    "updated_at": "2026-09-13T17:44:30+00:00",
    "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1828",
    "url_key": "8287c7f69feb8133e85f"
+  },
+  "828955432915a1dddded": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T13:05:15+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93QkdlTzJ1dWtNcms4R2NWTlRQYnlVRDBZQUIyaGkwSkhwbDlCUVQxcGpxNXpnNUxwTk50c2FSQnFRek9JMm15cWVzQ295LS1yZGVBNTVGZTVqd2hwQWF0NXBJYTNmcGk5N3c",
+   "url_key": "828955432915a1dddded"
   },
   "828f0a3acef5b1de99ec": {
    "article": {},
@@ -26218,7 +26980,7 @@
    "article": {
     "high_risk": true
    },
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T17:44:38+00:00",
    "priority": "breaking",
@@ -26231,7 +26993,7 @@
    "title": "Pregnant woman among more than 10 killed in Israeli attacks on Gaza",
    "topic_key": "06379434ec85a0944ee5",
    "trust": "",
-   "updated_at": "2026-09-13T21:24:30+00:00",
+   "updated_at": "2026-09-13T21:30:30+00:00",
    "url": "https://theguardian.com/world/2026/sep/13/pregnant-woman-killed-israeli-attacks-gaza",
    "url_key": "8cf1d22f2ea527d7c296"
   },
@@ -26559,6 +27321,25 @@
    "updated_at": "2026-09-13T17:44:45+00:00",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOLXAzeUExTUZhSi1CQ1VlZzBJemZtbzFtbFpxTkZrUEt1dnVCVGlxRFhIbElwR0JtR292YXFLT2FTTUFDMFU5aXhyQWVGSlNZRE8xVnd1dVNZbERUTFBlb3U2SUw2N1NUUVkycE5SNnhVX1lnV3dsc29RR2xrMXYzZk53",
    "url_key": "8e59f2c8e282ddeca9b6"
+  },
+  "8e5f01cd2641bb2667fb": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:47:55+00:00",
+   "reason": "duplicato_di:199b484511f8ab5409f0",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "603819.SS - | Stock Price & Latest News",
+   "topic_key": "0f126918a52470aa028b",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:26+00:00",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYVRLYXJRV2M5aHJrQkx6VzdvaHA2X3lVWmkxaUgzTlZXU2xrS0loZDhNanN1TzBvT2ZNRU1CSnhwemFMQU81YnFDaDZfZy1LMWtESjBPQzRudjdBNFg3WHQ1UjdxTWJBU2xUY1JPMU9Gd21haFBHZXVpMUhZWFh3QU93N0dYVlEzbGwwUA",
+   "url_key": "8e5f01cd2641bb2667fb"
   },
   "8e9e26e993972b40ee13": {
    "article": {},
@@ -27357,6 +28138,25 @@
    "updated_at": "2026-09-13T17:44:49+00:00",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0wajVta2FqMmZjUGM2bFBTS2pCNV9RN04yNWhVck9RYUhtejlzaXR4UzZVa2pqdDV0VzA4dmlHakZKZW9tcFNZS0FXMkhFNklETmRVWF8yNnB4dzc3S0U0",
    "url_key": "91d55ad979251c3d4135"
+  },
+  "91d9e23cec338b44baba": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2022-06-28T12:04:50+00:00",
+   "reason": "duplicato_di:a467a2d9a60c08eb95ff",
+   "score": 0.0,
+   "source": "Sky Sport Italia",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "Calendario e Risultati Serie B 2026/2027",
+   "topic_key": "252189cd0efbd74b77fa",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1JLW9FT3JUcUtVWEQ2aVBNZDllMnpycnNMc3g1VkxJdHpmZHAtYXp4ZlYzUnpkOXhVNHlPMDdFZjgwMUFLeUdHM1A4ZG1xOExfMzRrRDBiQUtrQ09vbEpFOW9kUFZoSUk",
+   "url_key": "91d9e23cec338b44baba"
   },
   "92077054672c6c72367d": {
    "article": {},
@@ -28470,6 +29270,25 @@
    "url": "https://ansa.it/sito/notizie/politica/2026/09/13/la-lega-incalza-sui-soldati-in-strada.-crosetto-frena-meglio-una-legge_f0929700-793f-4cc3-94b6-cb4ebd6056af.html",
    "url_key": "974b8508f034beb99faa"
   },
+  "978a5d950ba2e74bdec3": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T19:15:04+00:00",
+   "reason": "punteggio_basso",
+   "score": 0.371,
+   "source": "Sport italiano",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "Borussia D. - Paderborn: 3-0 | Bundesliga - Risultati",
+   "topic_key": "f657c87f49a6acad455f",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaW9NRms3QXZ4Qy1SWG54alZtR25NRmVFVS0zWnlSblktTFBEYW9pUFZUUGsyMWRXU1dINDlJTzRpa28yUTRrc2dXNFJXM1lWZ3Awdm1VQWRzRFpzS0dUYVgwdXc1c3BLMGk5ZnpSWTJvdkVoWXVGZWk1SWZkWGRQUXFWWmFlanlDaUNhdFFCZGg",
+   "url_key": "978a5d950ba2e74bdec3"
+  },
   "97a46c3ad5e97b63a5c8": {
    "article": {},
    "attempts": 0,
@@ -28818,6 +29637,25 @@
    "url": "https://ansa.it/sito/notizie/cronaca/2026/09/12/libera-da-8-comuni-su-10-elenco-sul-web-dei-beni-confiscati-a-mafie_d994539b-8173-45d2-9f05-55303e749d5d.html",
    "url_key": "996725b8fe2a9397347b"
   },
+  "997e328b80e86a72194c": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:22:09+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Sweden's centre-left opposition bloc seen winning by one seat, election authority projects",
+   "topic_key": "72e4cc0d5890e8cee5d5",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:37+00:00",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNGh1ZVhMSTRCU0NaQkxEWlhVNG9ZUS0zc2hNdmtSaUhYOGJnVXVjelJtUS1RQnZ0ak5vSkthZjMzOGNFemNlQkQ0R1Rlem9xbHdpaWM2U1hEVVB6R0Nud3JRN3hRcG5YU205VFhMQjJUYWV0R2FUMWhTZGdzdXZ2WC1CY2t3QXFFZDhrSk84MDZubWh0clF4V0VGU1RRVllmTEV0RXZFMFQyZlhTVm1wTno5ZkhMUnlUV2NrcVZiUmJ6X3QxakVUOC1mOGJnVmRTSGJiRGdEczZtUnh5RkxSSHZsdFJWZw",
+   "url_key": "997e328b80e86a72194c"
+  },
   "9981550f3cd92a7988a2": {
    "article": {},
    "attempts": 0,
@@ -29045,6 +29883,25 @@
    "updated_at": "2026-09-13T17:44:41+00:00",
    "url": "https://ansa.it/sito/notizie/cronaca/2026/09/12/sequestrato-lappartamento-di-denise-ad-ariccia_64d8acdf-16c5-4b38-b461-3ab136196cf4.html",
    "url_key": "9b38c3ea49417bac27cd"
+  },
+  "9b39611bc11b586968dd": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T13:48:49+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5USDR0NWR1MGc1R1J3bWdUWmFobkNvZ19ManlTd2JRYjc5amtfU2pVVnNhUWJaZGkwa290SVBzb003Y3Fhd3lfcEFQTDRuaTQycElqQ01OUnZxTFhsS1RwdktrZzkxSDV2UEU0ZQ",
+   "url_key": "9b39611bc11b586968dd"
   },
   "9b5657cd9d39ad84941b": {
    "article": {},
@@ -29885,6 +30742,25 @@
    "updated_at": "2026-09-13T17:44:56+00:00",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU0ZfbDViSnJHNlR3WlIzUlZFM2tZZ0hpcmxVdkFBa05xN1ZsYWZpWGpFTXR0cHZ4RTlQaVN2V1dvZURGNmN5YzJFMjR0RTB6RUlYS0Iyc2kzaERqbi1oQ0Z3Zm9ydHNQV1hRYWtJMmFLYzJXUVJPNndjaUNEalNzeWQ4cWFrSGI3TnI4OGRIeDQ1TGN0RUpGUHVyTXJxbEJSZDBz",
    "url_key": "9fdad3e50f57867b68b9"
+  },
+  "9fe943ec8d11923c10ab": {
+   "article": {},
+   "attempts": 1,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:04:31+00:00",
+   "reason": "in_attesa_di_una_seconda_fonte",
+   "score": 0.85,
+   "source": "BBC News",
+   "source_tier": "agency",
+   "status": "seen",
+   "title": "First ministers of Wales, Scotland and Northern Ireland to meet in Cardiff",
+   "topic_key": "b36b64f341d0e56d415a",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:37+00:00",
+   "url": "https://bbc.co.uk/news/articles/c62enegxyl9o",
+   "url_key": "9fe943ec8d11923c10ab"
   },
   "9ff08e48613313140c53": {
    "article": {},
@@ -30941,6 +31817,25 @@
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcTFIdFdSdW1BYmlCM214Z0FfNkFMWUhnNlYtSmlQSjhIb2NPMmFBZW5WbDdxUm96UEN3TGljc016LWx2RDUyN0kxRjNKdFpvaE1CN3MxT1JfTTZjRlFQdnZlbl8xVFB1eW01VlFBZm42YVpSZXB0YWE5YjMyMjYzc2o1M3NDVXFhSTl3SjFFb0NvOFE",
    "url_key": "a5b516c474e43a8fa1a2"
   },
+  "a5db062c591de4dbd398": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:46:44+00:00",
+   "reason": "punteggio_basso",
+   "score": 0.371,
+   "source": "Sport italiano",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "LIVE MotoGP Misano - La Gazzetta dello Sport",
+   "topic_key": "a953591c1dce1d602845",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:26+00:00",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcmhIaWV2TmtVT1ROMS1NQnFORzF5VTFpQ0NDNW54aDVmQW1qbHZVd2N4b3k2Smd1ekFqS1B3MjdoRVZZa3B3OW1JanlkRHpBX19EN2t5QmtQNU4xSWlYRHptM2plUjFvODUxdVIwaUlCT0xkdFE2SXNGR21XZnFXbkVwVEQ3X3ZaNm1iOGpvNl9XNkplczBRVjNuX2dLSEsxcXZhWm5iNTRjMlduY2ZOREdKQU1ibmE5NThWWTFlbE1GWUpUd21jbWNfemo4Zw",
+   "url_key": "a5db062c591de4dbd398"
+  },
   "a60b5acfe8f3f3e5dac6": {
    "article": {},
    "attempts": 0,
@@ -31301,6 +32196,44 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQjVYQV8wU2lYdVdWWlFrbm43VWpfMVUydG8yMW50bHRvM1ZPRVdUQUxWOFd4bG9jVWZLNTJGQnl5UzFHOFRXck91RXZFVFpvSy1kWjRfaXFsTDVGd21BOEJfWDRCSzl1S1p6N2RQSng3Y0cwNHFMOXlDcnVPS1lwNWtUZFYyTUxpazk4Uk9SWE5iTjRUWTZGckdyYVIxYjNpdDlSbUtTVEM1eHBZRkx3SWFGeExOTWQwOVpfM3MzR1hOTE0tTHhrTUN0cVl5dkozMDg4bFF4TUljMGZZTFE",
    "url_key": "a8096f8d0be9e8948c72"
+  },
+  "a81c2f54f4d48f63e4d7": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:27+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T13:49:24+00:00",
+   "reason": "duplicato_di:e4b4ed4ea3821fa58d24",
+   "score": 0.0,
+   "source": "Financial Times",
+   "source_tier": "markets",
+   "status": "rejected",
+   "title": "- ft.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:27+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBPQ0VzOEQ2cDVqVkFDLVFCYkRvckVhZzV0cFlKdmJKTllPN2VJVkpJeG0tNGVSS2x1ekZZcWF5Wll3c2xFblVFdllJUXZzcVlY",
+   "url_key": "a81c2f54f4d48f63e4d7"
+  },
+  "a822a0a1f6cf324ff129": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:20:17+00:00",
+   "reason": "duplicato_di:2a9f8b47b85082ea5f9e",
+   "score": 0.0,
+   "source": "Sport italiano",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "GP Spagna, le pagelle: Kimi fortuna meritata, 9 Russell altra delusione, 5",
+   "topic_key": "406069a20c03e5552819",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaXJfd1libVpZa1Q2VXhEMW9uTklwNkFXZTdpbjVPTm0zWVkyVWRYdjFtcG9USktCSmNsdXV2LXZPMkEta0hqb2Z4V1NUYzlpeHc0eG1uUEk1TllJNm00UHNSNURpbThFT0k4N2U3TUxIWVo0eVlQMzNaaGZfZDhXa2RpSzE3X0xsOHhtVVBzbHlITTFnZkhUQUh6OVfSAZwBQVVfeXFMTWlyX3dZYm1aWWtUNlV4RDFvbk5JcDZBV2U3aW41T05tM1lZMlVkWHYxbXBvVEpLQkpjbHV1di12TzJBLWtIam9meFdTVGM5aXh3NHhtblBJNU5ZSTZtNFBzUjVEaW04RU9JODdlN01MSFlaNHlZUDMzWmhmX2Q4V2tkaUsxN19MbDh4bVVQc2x5SE0xZ2ZIVEFIejlX",
+   "url_key": "a822a0a1f6cf324ff129"
   },
   "a88db824ba46087da5ae": {
    "article": {},
@@ -31721,6 +32654,25 @@
    "updated_at": "2026-09-13T19:21:40+00:00",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BT2piZEJhNmU3S2V0c1h5VzBRekpicE1YdmJQZHM2YllWY1RmcGJjeU1mZHQwTkhnZXFTOFNGdnRJU1N5cF9velhhN283QjdXSzZ6Z2wtV3JGcDE0NG1BbWw5MWsyaWJSM1ZxdXdpOG1MVWE0THc2YXZHNA",
    "url_key": "abb89e9e5fcdbe473134"
+  },
+  "abb9784f72abf3eb6566": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2026-08-31T12:20:17+00:00",
+   "reason": "troppo_vecchia",
+   "score": 0.0,
+   "source": "Sky Sport Italia",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "La classifica marcatori della Serie A 2026-2027: Malen in testa",
+   "topic_key": "16af91cabbc2dc69379a",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Hb1Q2SE02U05BSnlhNWQ5N0cyUk5kSkJ4WHY2SDZ5b1hyTEJISDBIUE4wYkZqM1hHeUFpdkJvUk8yLUxELUp3N0M5OVVQS0JBd01INktFUEdPWE9iTHNXdHBDZjN1UEtGRmxwR20wNDVBOUhyd0VSdmplS2pFQUU",
+   "url_key": "abb9784f72abf3eb6566"
   },
   "abe29099ff3c1babbdfb": {
    "article": {},
@@ -32159,6 +33111,25 @@
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9vZTNlbGhDcW9DU2xIQm1yTkVDREwtd1c1aXpvb2pGSE1Nc1pES2pNdWNiZjJuNEJjUEFBV2VEN3JLZ1lsaGFBYll1ZDBjYkY1S2txU29kSVFDSlRSb09iV1R5bnZxb3E2alMtNWcyM3o",
    "url_key": "ae48e0d182fcdecabd58"
   },
+  "ae73f5d5d9d28b96c1b8": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T13:11:05+00:00",
+   "reason": "duplicato_di:69e54f84b78d72ab3231",
+   "score": 0.0,
+   "source": "AFP",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Indonesia says six killed, 129 missing after ferry capsizes off Java",
+   "topic_key": "912e44dafef20df96e82",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN2hfVktNcTQ5QTAwMlUtTndvN3FjLWZsMm1oVERaRUFDUlhWMWJuVXFoUlN2VFZoMHFlSjVRSkVnSkhUVmJHMDdNQmx1NjFkaEhIUGZwOGdsbVdpQzZ6dGg2NnpUU2FWN0xKcVA3V1dDWm12dVVMejBoVUUwd2RILUpWbE5zTGhSRjY1ajIyeU0wTTNyX2docDFwWVpPOHZseVJ5SEEzYmFDakE",
+   "url_key": "ae73f5d5d9d28b96c1b8"
+  },
   "aea2426187f0a84233b6": {
    "article": {},
    "attempts": 0,
@@ -32502,6 +33473,25 @@
    "updated_at": "2026-09-13T17:44:58+00:00",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdHRuZGxLTjNKc1dCOG1HR094cU9FOW8tOHRGLUI0eURSbkNsaS1MLVlJWjB4TW1ocjE1VU90VjJjcGJFakd3YjE3VU00QkNoUWhuZHFTU3RhSC1qZktNWGQ3eWpnRUxsT3dPdWxCQndaZ3NtVjhPaDA5bGxXUzRjU0NtMG1LR2JfcnFqa2hYV0xabHVVNElTaVlpR2J6a1pDYmc4dTF0bkdnekM0ZUEtVlkzUi1xTXQ5Vi02SDFXUWplYmJEMm1Bczg3TzfSAdIBQVVfeXFMUEgyaDJlZWZnYzlOUEk5Ny1IbU5qUnM4dHp5MzRoWVE1a0hzYlByRnowME5ObkMxNE04X0xqTW9RbjRueFNEQ1pzQmV3TWtXa0dLOGoyVFdsNEpLRnRoVjBuVUxFdDdUZXpOWGYyRzhIX1B6RTZORXJYU3B3SkZLbXhseXdMMTZoNE13Snk2dGJGZ3FxMnIxeFNsWDVCQ0FObDZjbV80UDZyUTQyUG5KUmlFU1A2ZmtJbHA2QXIyT1dlS19PVzdTVHNHRlBIN2M4N1ZB",
    "url_key": "b094cfdd927289c067a2"
+  },
+  "b0a2c07e10921c9ff314": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T04:27:45+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqUmxLUV9Eb2tjNzk3XzB5bUlqc1VUdkdZNTZGcERNMjlqekp0UGZKR1oyOFJVTENHZndvMVNpamZKYTlTRVljVGR1eWtEQlFxZko0MnNDZncxMzBFMm1nTW9DNE5WUXJhSWc",
+   "url_key": "b0a2c07e10921c9ff314"
   },
   "b0a388a4376edec98471": {
    "article": {},
@@ -32906,7 +33896,7 @@
   },
   "b2c0aaffb6346c35a2d9": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [
     {
      "source": "ANSA",
@@ -32925,7 +33915,7 @@
    "title": "Serie A: il Napoli batte il Bologna 1-0",
    "topic_key": "3f86399b2ae4e9275b24",
    "trust": "",
-   "updated_at": "2026-09-13T21:27:09+00:00",
+   "updated_at": "2026-09-13T21:30:41+00:00",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSVlYOHhDbi1NcVJ0MmN0ZnJBbjQxLWM3UWJFMDRvbXdKQWRUR0l6RG5zdFdmYnlPME00ZkRVbFl4bUIyeE9MdTMzdUZUNGlRWG1LYWtvTTVBSHB6NFZDd3FMTnduT3Q5VlJrYnlkV2dpZDRfQ05nQThUY1h2OHJmNTdNSEo2YWxUY2Z0eF82RmlzVll6N0hLdlpzUUVGMlRTRTROWTU5bllLWk05ZXVOLU5qeXVGRUdHemxlRS1feFZ4UFMxTkhQU0k3M2lDZW83NEVB",
    "url_key": "b2c0aaffb6346c35a2d9"
   },
@@ -33066,7 +34056,7 @@
    "article": {
     "high_risk": true
    },
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T17:44:38+00:00",
    "priority": "breaking",
@@ -33079,7 +34069,7 @@
    "title": "Russian drone hits Kyiv-Warsaw passenger train near Polish border",
    "topic_key": "416c67ceaf93a5856e85",
    "trust": "",
-   "updated_at": "2026-09-13T21:24:30+00:00",
+   "updated_at": "2026-09-13T21:30:30+00:00",
    "url": "https://theguardian.com/world/2026/sep/13/russian-drone-hits-kyiv-warsaw-passenger-train-polish-border",
    "url_key": "b398d0d12e367a41ec44"
   },
@@ -33500,6 +34490,25 @@
    "updated_at": "2026-09-13T17:44:34+00:00",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVHhiUTgzajBFSnR1NnhuckVYMDZpU1J1NVluWDZtejdWNjB6d2ZaMVVCRXRtZWtqdVBRcUJtNjhqb3RvZnpPRVpmekNHaVVzRTktX2Jua250ZUxzbmZpc3VqLVQzMTJILTVDOTlGY1dWSE91RnF5NjhXaWNfVWZPUXg4TEpIdjRmNVdSbkpEUlBnVTRIcXZVSkZfSi0xQQ",
    "url_key": "b58d12414f6bf5217b82"
+  },
+  "b5abfa4a270cbffce052": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:27+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:14:47+00:00",
+   "reason": "duplicato_di:0cbec451245950688d96",
+   "score": 0.0,
+   "source": "Financial Times",
+   "source_tier": "markets",
+   "status": "rejected",
+   "title": "Gulf states postpone talks with Iran over Hormuz impasse",
+   "topic_key": "13b8f3958fa72c0fa425",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:27+00:00",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS19fUlNXLWZxOF9IVTF0RVpxcDBRSFNvWmRKT2V3Q1hKbTVKLWV3LU9tM2tMMkZleXZMM0Q3OHFmZXhiU0ZKUW9KZHphMlB6WVVkdUNuUE42Wk51dERDZ1VOVFN4NkJKTlMxUno2bUs5OFM5SVd4eVluam95bzhXN2tnb3E",
+   "url_key": "b5abfa4a270cbffce052"
   },
   "b5cbff457affcf6db79b": {
    "article": {},
@@ -34006,6 +35015,25 @@
    "updated_at": "2026-09-13T17:44:39+00:00",
    "url": "https://dw.com/en/a-romani-artist-in-hungary-reclaims-his-identity/a-79247266?maca=en-rss-en-eu-2092-rdf",
    "url_key": "b902084d7746c01913f2"
+  },
+  "b91bbfe2a1def404542a": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T00:59:12+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ZeExDdUVIaGpTU3hkaF8zVUU3cnRlUUhlZWdrSFlyeW9kcUM4OHJuckw5MTlrV2VWellpaWxRclVfZXN1R3BPeUFwM2pQNnVLLXlQRHBJenN3VVMxMVBndWJ5TWdReWtYWmUzXw",
+   "url_key": "b91bbfe2a1def404542a"
   },
   "b92c77b0bd4e135408e3": {
    "article": {},
@@ -34542,6 +35570,25 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rUWZPM3VWbXRRdlV5X19NYXY0RC1yQkFkVzRVN0dxYnRka2p4VmpCNlpabXhlYk94MFdnck1nb193Yllha3FrYmtMdmY0RUtmbXRQMDBoNVk4SHpOQmdB",
    "url_key": "bd34da7813c5b3670e32"
+  },
+  "bd3b99f878e381ce32d6": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T07:37:53+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fTzlaWGtHdExTUzdmZXhrNFoxUFE0bXJwc1dwcFpKY29tNmJqX2k0S0xsbnhEWVdXallEQlVoWGV5dkl2ZmV6VG1NUEozNy1UUFN1U3FIN3k1cGRlMWs0dC1vRE5qTWNhUlE",
+   "url_key": "bd3b99f878e381ce32d6"
   },
   "bd3dfca4e692678093ed": {
    "article": {},
@@ -35457,6 +36504,25 @@
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWkcyMi1IamNDSWtHend4Y0daZFZvXzNoXzItQTRXU0RMNG15aE5DZE00NHJCRDBmckozNjVsNUJPMjY3MW1NZU1DcTlhMXZTX1ZDdTRPQWhSUUktRlpVNElFalJGbUU1ZkpNVmVxZDNEMTVnNUlaQXF3UXlZakhjb1BXYTVGMk9wRE5uTGozTjh0OEx2dzlOalFZbkxzbGJqLXItdE00WnI3a3B1d0dNNDdVcTQyTGQ0RHlWbQ",
    "url_key": "c0ad385e4caea2f6d459"
   },
+  "c0c6318c5f066e96c0f8": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-12T22:08:33+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vVjd1U1ZZNXlJSzBQNHh5dmlxdmlxRUpNdUpUS01LREpiVWVrRGVTNFNpWllLcEwyWlM4YlYwLW1IdXljMTZBTk44WUVqdFVtZS1SRE5BaE9qQi1tRlNHQUV5ODJJU29q",
+   "url_key": "c0c6318c5f066e96c0f8"
+  },
   "c0e19f639f9d16bbc026": {
    "article": {},
    "attempts": 0,
@@ -35761,6 +36827,25 @@
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85bGV6clJydGZCeDVsLUMwYUhYSWJ0dFZXeE43Znpra1VjQ2JteHJKNVBHY3lBejRndVE3LXRIZktabm4tSlhIRG5jTF9zQ05TZVdObkI5MHdFVVNhQk5F",
    "url_key": "c225aed77301d8b8fde7"
   },
+  "c28098c562b231ab63c6": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2017-08-01T07:52:16+00:00",
+   "reason": "troppo_vecchia",
+   "score": 0.0,
+   "source": "Sky Sport Italia",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "Probabile Formazione Juventus",
+   "topic_key": "1cbb142a8c43839ea9f4",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8yRGlOTDl4OXZaeTRVRjdZQUt4ZHJBQkpHWENSMlpFSTVHT2Z0dGRwaTRIVW9pNWNoNUpQNndmSHh1bHlOTHpnUDBZcUl3ZnhlQUthUzNFUXBnT29hV2ctSGVlOUNUYmJzRTFMcy1HTGhzbXc",
+   "url_key": "c28098c562b231ab63c6"
+  },
   "c2a8dc9a9f13034e5adc": {
    "article": {},
    "attempts": 0,
@@ -35856,6 +36941,25 @@
    "url": "https://ansa.it/sito/notizie/cronaca/2026/09/11/fiori-e-lacrime-per-denise-calabresi-milano-le-dedichi-un-luogo-vivo_f916a6de-a487-4cda-bb01-90554536f3de.html",
    "url_key": "c2c12d4798c18762fa23"
   },
+  "c2f062cea2f8db8094a5": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T19:37:00+00:00",
+   "reason": "duplicato_di:0d45ab6548938d10ef7b",
+   "score": 0.0,
+   "source": "AGI",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Ultime Notizie Online",
+   "topic_key": "311224e70f6a49ab21a0",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOERZMGtnNVZBZ3JOMEtWZTQyRElneGk1akVpTFBqT1EwMVFTSjBTYl9tc29VdjZYcnBINlVtbDJkRHF3bHNLZVd0Q25kSEpHVjJObHRyZVVFT1BXdzhZQW5UMXk2V08zSVdkZ1FBOTZkSXFBYlEzblpaMWNFZ0I5TjFXUWhCbHp5R2xhQmRaSFBwMllxS3c3OGdkNXhWUzZpeXc",
+   "url_key": "c2f062cea2f8db8094a5"
+  },
   "c300b0b3a241802df7b4": {
    "article": {},
    "attempts": 0,
@@ -35931,6 +37035,25 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNckoxOTZEdUllZDdKYVVNZFM5M1RCVjloYTZTUlBmdUl6WVRtV2V2UHlQUG4ybnhGVTBsMFpmcDJtMnRQV0NDVjFpQ3h1R2EyaHNFcWIwZDlnNjdNQVVyRTJfZV94NEFCVmVxYTNLRHE4SUxjX0NWNlpsUDJzaW1RUHB0RQ",
    "url_key": "c32fce106cfe9a7e0b15"
+  },
+  "c3752eed57bae1659a8f": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T03:26:19+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE92ZUEyWG0wLXdNMXpfRWttRXozVUYwUUVBOUNtZEVrT1NRYm1CWmJSbkNwQzFCWTl6NG1MSUFKMHJFTjUyVDVITTdyV0RCSG4tX0VWcWUxemxmRExwV2NTUWdQeWFlc3dCc3c",
+   "url_key": "c3752eed57bae1659a8f"
   },
   "c377775a44a3ce96891c": {
    "article": {},
@@ -36315,6 +37438,25 @@
    "updated_at": "2026-09-13T21:04:57+00:00",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSDJDbkxLa2RDNGR5TVNrQzRDQ1p0OUdrV3ZvcnZsX1hBczRXSmhIZU92N3VhWkZaS2JUVVlrTllKTGRsZWZWUGZVOXRGSFpIaVh3NkRNNXV2dk5PcU9TU28xZjN4Q3I5dFlXX3VHYUszZldGVnVqMnY0di1MSlNPMXZMQnlpckloaGVvRGhZQnNib1QwMFcwbE9lUXhja2NGZEJtN1Z2ZkQyN1VTY19vMDdxbjZzMzU2QlloaUthRXEzZzUzZHc0",
    "url_key": "c5970a23f9f2bbba476e"
+  },
+  "c5a3d16499a1f89eb4d5": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2026-08-04T10:53:29+00:00",
+   "reason": "duplicato_di:1131d238246e794f1c23",
+   "score": 0.0,
+   "source": "Sky Sport Italia",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "2026 giornata-6 psv-sparta-rotterdam preview",
+   "topic_key": "4fd43c49ecd57253dfdb",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRkhZTzFIX2xuQmd6VDF5ZS1FaHNWTEplY2pzSDVrQ0lnVUhsUTRPLXMwQ3dVVms2ZC1IbnVXTDlHMGlPc01fUE1lZGpwRld1cWQxTDhuRWphNFgzdWFJa1RXeWl0cDBpMEpUeTViLVhrZUc4WWZ4UC16V1doRHBOd2NnOXdCTGlsNmRn",
+   "url_key": "c5a3d16499a1f89eb4d5"
   },
   "c5bbf311d7a9f0d5df16": {
    "article": {},
@@ -37037,6 +38179,25 @@
    "updated_at": "2026-09-13T19:21:48+00:00",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xUWFrUEh3anNJOEVDVWI1bzVtci1zWFlhWlYtSXZKNGRORnZSbXA0TkJiZzBuWjd2V0MzenlJN0NoMzNBZ1JVeUNkQXJhYmQtS0xQVTVqenEzMzdPRG5jT1R1bjh2RUFJZFZhTFFwdDJObGhTcEZrb3hSQUJyeUk",
    "url_key": "c96ff036f35b02ebf5d7"
+  },
+  "c9a8c15edf5ef8d8bae7": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:27+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:19:35+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "Mondo ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Savage - SURELY that has to be ruled out?",
+   "topic_key": "45f9fdd0ed5dfc99e782",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:41+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5aNFQ5MXYxdlIyVVEzdnUxemxvUzNRdVBoaFhmNDNFMFQ1c09rSERiSlNNT3VnRV8xR0FsS2stemJGZGJCcFh0clFBdl84bTBvS2JTLU1uSWM",
+   "url_key": "c9a8c15edf5ef8d8bae7"
   },
   "c9b0bd817ade7095c2f5": {
    "article": {},
@@ -38026,6 +39187,25 @@
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5qM2ZyMFdfU1BEbmt2b0tUb0s4UWtzVEZjNzZJcnNFUzQ4Y29ZTlBRM1dUVVcydm1JMmtnWGxwTmhPSW94NkgxQURNVjZqcjNZUzd4VFBCREs",
    "url_key": "ce89bee5ac5220948d9b"
   },
+  "ced4321c680063b25bc7": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T00:50:25+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wcThMaExpMC1sTmFULVNkY0tXc2pOV1dyU0JSU1VXT1ZNd2NnNTNBYUZMaGZ3Z2F0bVpUTkdYN2NfMkNLLWtSR3hZX2EyM3ZJWWlJd21wRE1qZmh3cWJWVEpUUDVpQTRySGc",
+   "url_key": "ced4321c680063b25bc7"
+  },
   "cef137d1539732abfe6b": {
    "article": {},
    "attempts": 0,
@@ -38237,7 +39417,7 @@
   },
   "d074c5a990429e955b48": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T21:07:56+00:00",
    "priority": "normal",
@@ -38250,7 +39430,7 @@
    "title": "San Jose officer fired for misusing Flock camera database in domestic abuse case",
    "topic_key": "88017bfacb13190793eb",
    "trust": "",
-   "updated_at": "2026-09-13T21:27:12+00:00",
+   "updated_at": "2026-09-13T21:30:45+00:00",
    "url": "https://theguardian.com/us-news/2026/sep/13/san-jose-officer-fired-flock-camera-misuse",
    "url_key": "d074c5a990429e955b48"
   },
@@ -39928,6 +41108,25 @@
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc3k1QlhXbmJHNHlQWXRCNno1bm9nWFhhbE9uUGFGNnB2bDlPWC1kRnI3dHEyUlhBWGk5eDZwMndLVXpiQzRxX095bGcyR1FfWUsyN0xMNHZJMk9VZ1BfZ3QtV3pMWUpsbEpCaUZzR3VjOEFBYmZDZVUxUFRjd1RKekhaZDI",
    "url_key": "d8e725f244dcea7c2879"
   },
+  "d8e95b73b8ff6d35e527": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:29:16+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.765,
+   "source": "Bloomberg",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Yang Xia, Xiamen UX IC Co Ltd: Profile and Biography",
+   "topic_key": "61a2158e1ceb1818fbd9",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:46+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkNDRseGxCcXZOeFNfUm1OM1V3NHFoSE5qXzE1bU85a2FraUpndkJsUXNZUmZfSTVMWnVkM1U5NnZ3dUFYWU5jcGJiRlI5NmdQQXZEZDQyemRFMG5hc0E",
+   "url_key": "d8e95b73b8ff6d35e527"
+  },
   "d9143f3acfc83b80024f": {
    "article": {},
    "attempts": 0,
@@ -40578,6 +41777,44 @@
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fYVROY2FwY0NsM0trY0puTkszVk4xbzFtU3F2RThibEk4Y0lGMlJyU3ZNN1B2YXdlM0V0NktuUG1Ed3phdEREN1BtVHBxZjFiaEE",
    "url_key": "dc278eeabf0048d42628"
   },
+  "dc282c3872d646cb0e48": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T03:27:46+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nMFhfSDg4S3JOdElKemFMWFU1UlJGTzJfM2Q5amJtZ3pTSVRhQUU5MnRmck9IaENwWDFIQk00ZGNPOF9JVm9adUhwTU5hSjRZS3hNZkVCNjNsaXV3MU40bmhUNkI0LV84NTVnQw",
+   "url_key": "dc282c3872d646cb0e48"
+  },
+  "dc5c66a96af94ae9e29d": {
+   "article": {},
+   "attempts": 1,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:10:27+00:00",
+   "reason": "in_attesa_di_una_seconda_fonte",
+   "score": 0.9,
+   "source": "ONU",
+   "source_tier": "primary",
+   "status": "seen",
+   "title": "Sexual and gender-based violence - UN News - the United Nations",
+   "topic_key": "61e9d675db6904b02c81",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:32+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aVXAxdjhObTFGTnktamh0NmdWZzlqTGppY0hrdUpEbzF1MVBZUnBDYkhsQlVhUkZVU3hDRVNFdm1YUlVQemNST24wS0EzMG1DWFg0c3llcWZYVFNEQUU5N0ZKdUlGQkp6MmM3Zg",
+   "url_key": "dc5c66a96af94ae9e29d"
+  },
   "dc5f400966e9721ae42b": {
    "article": {},
    "attempts": 0,
@@ -40787,6 +42024,25 @@
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOV9tMFI3bXpaT3FtblV2WUhvY1pSRVREeTFyRFRiMjFBVFp5N2gtT1ZPZDRraElINVU4ZzU3MEhnbzZXYnVyUThOZzZFNWNMYzdlS1loZTNOMjh5UzdTTXU1Wlo4eHJlMjh0Wi0tNzg3NUMwTThQaHpZcUQ4ZHRSeGZ5LXV3TGpQc3lGRA",
    "url_key": "dd583a6da414394e8112"
   },
+  "dd721077f77b471e5f85": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:16:07+00:00",
+   "reason": "duplicato_di:984ce87390c9d6aaaa4d",
+   "score": 0.0,
+   "source": "AFP",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Phil Foden FIRES BACK! Man City star trolls furious Manchester United fans after controversial derby victory",
+   "topic_key": "a1ee15beb5de2a062d02",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQTYtcUYzR0YzWlkxRFBTMUw2ZEhZNW1TWldCZDV3emhYOEFrdjZrTkVtYkpCOEFNTlhCdkFMeXlmTzU2VjZObFhSZ3BmTEU2N3c3V3lTcTJVQTdWY0xydFNXa1hMaGFWQng5Zm9ubGVULTVpVzg3YUh1WjlyTnpvNGw0a2xFUXR0emF6TlJDVXBncVA0REFGUFBmeWNoOGdNZ0l0NzVqaVhMQkh5NXY0Mzk4S1lBNWNIVTcwV1ZZcnBLSDdzSDJhXzRR",
+   "url_key": "dd721077f77b471e5f85"
+  },
   "dd858e989fa7c272f36b": {
    "article": {},
    "attempts": 0,
@@ -40843,6 +42099,25 @@
    "updated_at": "2026-09-13T17:44:37+00:00",
    "url": "https://bbc.co.uk/sport/football/videos/cg59117eg1vo",
    "url_key": "ddd2f61b389601ee73e6"
+  },
+  "ddda9f68e340d0e07113": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:46:44+00:00",
+   "reason": "duplicato_di:fde4e57d666a0ac77eb3",
+   "score": 0.0,
+   "source": "Sport italiano",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "- La Gazzetta dello Sport",
+   "topic_key": "",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORFllclA3TGpOc1hyMGdvRk9hYkVXYVcxYnNNcVRpaTEta3ctMFpkVGhHNFIwdWxrX1JHT0gxQUZaSllUNlMtWmdBQ242SUtzZlFhY1VqUXJkM2EwU2RILVF6RV92VXhPbVdkWWpyRlNJdFVWb0dsUTVUY1daVzhsRjd1QVNBcXpFT01uaUo4SnIwRHYyN0w1RzVldnJ2VDVRWEhqMFN2eFdURmc3M19IclRZaENSR3pn",
+   "url_key": "ddda9f68e340d0e07113"
   },
   "de153a0ca0785d368070": {
    "article": {},
@@ -40939,6 +42214,25 @@
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FcUVpRGNUUkcydC1TY0JEZlJ5bGZILTVDLUtXTWg5ZkpwTnJ1dzNxRWRiMEpGUWtqbFJEVUItSmpBcEc5MWJQZDQwM05QcHBoNWNtX3RJS3pKVXFGQUxPcWw2YWdyclJPc2JqWVpQS0ZDZXEyWFBQbnhtbGdfOFE",
    "url_key": "de3f02d42e6d8ec9ab3c"
   },
+  "de50cd84492277f7662e": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:27+00:00",
+   "priority": "normal",
+   "published_at": "2021-07-28T18:22:09+00:00",
+   "reason": "duplicato_di:634d3aee8789790a2cba",
+   "score": 0.0,
+   "source": "Financial Times",
+   "source_tier": "markets",
+   "status": "rejected",
+   "title": "Sprott Physical Uranium Trust, U.U:TOR historical prices",
+   "topic_key": "5b93ebe5ddabcfe63e4b",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:27+00:00",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE44OXVmNzl5b3N3Zkxyb05OS3ZyNTJSakxiVXY0WEpVT1AwMm5SaTBEeGRYR1BqSWVJWmhEbzVWWUVOV2FDSlNiODJ0U1NLam54NGVWU2p2S0NrMXZuSlVhSGpjaUFwUGN5VnhYRzNMd1hoQQ",
+   "url_key": "de50cd84492277f7662e"
+  },
   "de6488f7a587814d6248": {
    "article": {},
    "attempts": 0,
@@ -40976,6 +42270,25 @@
    "updated_at": "2026-09-13T17:44:30+00:00",
    "url": "https://esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/MTG-I2_reaches_its_final_orbit",
    "url_key": "de71f19a0afa725a9240"
+  },
+  "de7aa2da9754a2b0fd1c": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T14:00:00+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.595,
+   "source": "Bloomberg",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Helicopters and $1,440 Cocktails: Hollywood, Wall Street Vie for Luxury in Toronto",
+   "topic_key": "248dc0b2e748f13b5e73",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:54+00:00",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ0lyVTN2X3RsUWR4amNNajlfcXdTOUUxOWNhS2wteW9xZVIzMnM1THQ5M1I1NDJaVlpuMzFVTWRncTdUdWJzc1VJdzYwZVdzZnR5RE5nWUR6enVOV2hQd2swN2NPWkxWNVV2ZktKRF9KMUdwOV9WQktROXRIYUUzaWtDTTZYTGRtOEZpaDhhT1dXNEhxa0dHc0VJSU5ra0ZwRF93ODYyemRFYkVJM1FjR1hIMXZQM2NkdEd6c2RRRDk4djE2Qnc",
+   "url_key": "de7aa2da9754a2b0fd1c"
   },
   "dec38bd6828ad186c795": {
    "article": {},
@@ -41033,6 +42346,25 @@
    "updated_at": "2026-09-13T17:44:37+00:00",
    "url": "https://bbc.co.uk/sport/football/videos/ckgw13ng43xo",
    "url_key": "dedf68017290869fa956"
+  },
+  "df1603e9fa2a1d52e235": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T16:28:45+00:00",
+   "reason": "punteggio_basso",
+   "score": 0.375,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "Mitophagy | Scientific Reviews",
+   "topic_key": "db73d7d8fc4a9a739fc9",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8xdEotcVV0NXdKTXlDX05mM0ZYSEJ3Z1VrMjhsZ2lIdUtBcXNrWEhzSkxFYVZMUXN2amhpVmpobURDTXk3TEhGbXhhZWdiSjQwb2FRSFRwTmw0dmxY",
+   "url_key": "df1603e9fa2a1d52e235"
   },
   "df193cf2cd5bdb07e9a9": {
    "article": {},
@@ -41515,6 +42847,25 @@
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfN1hqMkkzeUJpV3Y3UEctZ01LandVbHo2WUgzVVo2bXU3MTAzVmlTaWlJQ1JTdkFpMVJxMFBvS1hlelpnc1VsakxMMnJEMGVvc3NSb1VoRHRYblpPZ1Br",
    "url_key": "e1825b20ff44d5278349"
   },
+  "e18fd45867c9c652355d": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2018-11-20T14:20:27+00:00",
+   "reason": "titolo_troppo_corto",
+   "score": 0.0,
+   "source": "Askanews",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Askanews.it",
+   "topic_key": "",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiN0FVX3lxTFBLTXNMSlhLMG1oX0hOSkJRSHJMNVlFZ3pwVTYyOXNsUVRjNEFOYUVfM1RCcWllTXc",
+   "url_key": "e18fd45867c9c652355d"
+  },
   "e1942b2a866e38ac41df": {
    "article": {
     "high_risk": true
@@ -41573,6 +42924,25 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9rU0o1UnlfMEh1QU4yX01ZQlRYaEJUdVdWRFU5RG1ySWhlWFB1WXd6OTd5WEg1NEZFdkRQOEtxLXU4dXRiTkZPd3JQZjhuZHZtQVZPZjNXTWtiS3dqekE",
    "url_key": "e1a9c8e71b6d512a027d"
+  },
+  "e1c0074ed923d62bb1e5": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:06:29+00:00",
+   "reason": "punteggio_basso",
+   "score": 0.413,
+   "source": "Sport italiano",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "\"Spalletti out\", \"Povera Juve\": le reazioni social a Sassuolo-Juve",
+   "topic_key": "977e7f28a288e52c14d2",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUzB0aWo5VTE2Z0FQcHdwUVM3Ump1S2pQZ0tiUlVlcUkyTXlaZmhPX096U2oxQVJidGlnaHFNN1ZJTnVITlNJeHRvN2NWd2xCSlVuTl9PVWJIemIzMnNuQmk1YkxxMXBUd3JUcUc0SzVmZndpYlpfemdmNFRURTV5cG5Tb0YwVEUzVEM2U1N2TlpacVVJMVljWXVaLWFXT1VtcGFTbDd2S3BVbDBuei05N01zZjRYTVpsQWVTYWpZd2ZnY25KSVJLYkFQRdIB0AFBVV95cUxPdUdqbTVBTnlqc3Z0UWh0cTB3MGVzY2YzVThsRDhZZk80LXZtT1VBbGpGNW1yV2hFXzhDcjFBLV91eVNLS3pYSTVXZE96cjBIVjZIY1doTDNnNTZCUUYwWFFVcGFGZ0pBSno0aTJyQWhBX3Q4eDdadTN5a1llX2I1Y1JyM2N0QnZlOV9ncWNrNjM0amkxaVRYOWFfRzNhQTk1ckFKTWlid1RGei1VYjBnR2lLcmc4YXdKQWNGUkEwMXZKbHIxSDB6QXg2ZXRvRE4z",
+   "url_key": "e1c0074ed923d62bb1e5"
   },
   "e2061aa2a01786e6fb71": {
    "article": {
@@ -41727,6 +43097,25 @@
    "updated_at": "2026-09-13T19:21:40+00:00",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMzVUOWRBaW5pV0wtTXA5OU5vanRHejhEaHJ0TnY0aTN2TmNGM2o4T3dQT052VWFVYkx5SFA5aE1faC1UZ0tRamhYMHdLV3hYc3E0SDdUQXpBc28tNGYxZkhUTnJ1RmJZMVRkdjJVdmMzYi0tSkloTDl0V0lrdTA1YWpSNnV6TmlLQWx0X0FlRTVaYkxpVERGbGhQUlYwZXI2cGxINWh1MDVQbXpIbENiQjFuVE5WcGc2",
    "url_key": "e34b05f4467203d581ef"
+  },
+  "e35efbbcfd76a8545279": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T19:22:19+00:00",
+   "reason": "duplicato_di:fde4e57d666a0ac77eb3",
+   "score": 0.0,
+   "source": "Sport italiano",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "- La Gazzetta dello Sport",
+   "topic_key": "",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUjE5bGl3ajhKcWdOTWIwQVVrbjROX3BPNmJzZWlxWlBTRklwSDRjdkc4eVNkZnpFLXFNYVYwZkY2Q01xRWh4OUpWcjQ0S2JEZ2psbjVwUDNIdHF3RkRkRm5nTE5fZjNZVTY0TWtwTUZHOVhMZW1QOS1HUk4zRVZpcEhiZkl4bUZlWEswZnBNTDBkc19sTEhOanhJR0hlNHlNYmR5bDEtVi1IeHJCSlFkTHZ1VlI3bFA5Z243cXRkdnJZTE8zWkZnMmFpLThORjBxSlRB",
+   "url_key": "e35efbbcfd76a8545279"
   },
   "e36b6b308534ef74434d": {
    "article": {},
@@ -42070,6 +43459,25 @@
    "url": "https://ansa.it/sito/notizie/politica/2026/09/13/vannacci-puntiamo-a-fare-meglio-dellafd-in-sassonia_c016a8bb-ca20-4509-9b8b-9178b28ad1f7.html",
    "url_key": "e54a85f9c0933d825c5e"
   },
+  "e57e4b35d75b2a8f4afc": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2026-08-04T14:22:12+00:00",
+   "reason": "duplicato_di:67412089979d3ca5035c",
+   "score": 0.0,
+   "source": "Sky Sport Italia",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "2026 giornata-4 sassuolo-juventus preview",
+   "topic_key": "9c7a2e6018a5caeab15e",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX1RIRUpsd3ZGR2FPOGRMVUNuc2s3ZzBKVG9BbWhtX2xXazdvaW9FT0JibTNVWnc3RTdLdjFROENUVEZvQU1JbWJpNWFKckhnTXZ2Qm1DenBSdXV4RFlDaTBQM3N5ZUM1QWhkcG1mTGlaTHllNFRxM3l6Y1VscjRMNXdYTQ",
+   "url_key": "e57e4b35d75b2a8f4afc"
+  },
   "e59178066984decc2a36": {
    "article": {},
    "attempts": 0,
@@ -42374,6 +43782,25 @@
    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFb2stc3VoY1IxN1l1a0ZTNzVnOFlsNHhCQW1KNV94elRpUW45aVFDOFhkZTFsdS1yZGNQYWVwemNCV2lmNS1hc0l1SXZwc0VOaW4zLWVmU0dyUVhj",
    "url_key": "e757979115d730c99446"
   },
+  "e77aa12e725e0a0bc4a8": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:23+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T13:03:03+00:00",
+   "reason": "duplicato_di:a4e3b94e5a6742f2347e",
+   "score": 0.0,
+   "source": "AFP",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Rescuers search for about 130 missing people after Indonesia ferry capsizes",
+   "topic_key": "879d2be0102303d17ac8",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:23+00:00",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQY3N3MjRqeGNubUMzYnVCdE9XanZHRUtLOHAwc2VMYlNJUWZMQzYwdDJoMlhiVGV1ZnpNQklheDBremRyam9jNG9YbWhCb05CS1hmektqWS0zS01TbW90dnNyUk5jVEdTRGd1OFpmaUotcTNHemdXa1BEYzNFR0RQY3VFM1BmdFJlakQxOUU5bVVDdWZXcjNiZGRZdEtsZjJ4czdxZUlQbU9NY3R4TEHSAbMBQVVfeXFMTVMzNDVXbjdSWHRUNTRkYVcyV3JNVXMtOGkxaGhFQ1ZKeExZZlpwSWNtTVlHa19XYlNyNTdNWS1ibGMtN3dTVUFXNlRTRGNxakcyQUg0NVdhTVRuSGtYWXU5Q3F4NC1vQngwTXVDNFZqaWNoLU9rZ19ubGVVaUNzekZ0Z3RaY0RSU1NBaEt0Y1ZxbnBlYUR6OUJ6Rm05eVZWNV8xS0ZFd3dWV0k2NS1BdEFOVnM",
+   "url_key": "e77aa12e725e0a0bc4a8"
+  },
   "e794a693756bf0617c83": {
    "article": {},
    "attempts": 0,
@@ -42660,6 +44087,25 @@
    "updated_at": "2026-09-13T18:32:30+00:00",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE85NnpUcjR1NElydDlfU2lMbFV5eW5JbzJ0Rk9NN25COUI5X3dyd0xhZmE0VjZJdGt1OGVfQWpxakZ5VkJteXVnWThSTnNqX1V4RkJWY09INHo5WGhoLWs1ZVFhRQ",
    "url_key": "e8bd9afbc2c9e932ed72"
+  },
+  "e8c184c4a38043e1a24a": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:22:09+00:00",
+   "reason": "duplicato_di:997e328b80e86a72194c",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Sweden's centre-left opposition bloc seen winning by one seat, election authority projects",
+   "topic_key": "72e4cc0d5890e8cee5d5",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:26+00:00",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVURhajdrRmRpeDU1S1dfcG1VNWFscW9YS3haTnlCMlY1OWFSSjl1TFVDcHJVcnZDRmtoR0JrdVZMMHRJY2k4QWZSTlljYnI2TXJnQnlTeEFZd2lGVGJIZUFwdHRmdkRHNlN5UVBZV1E0ek1KR0k1X3p2ZER1NnQ4MlBDQVdlNldob2xlZFFFXzZPVzVkWUFUZE85bzZJNWtpN1dYQ242LThjWFhWay1EbUlvUHN4R3hlczJYU0ZrZmY0MUVOVjhGNk5MX3pMTEJwbnZPQw",
+   "url_key": "e8c184c4a38043e1a24a"
   },
   "e8cfcbcc74d31b7ac74c": {
    "article": {},
@@ -43463,6 +44909,25 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQa0xhRVFsQkdpOWFzamFGTTVFQTBzUURPcWZWblpTaHM5LTdSUHd2aXh6MFkyd3NxMkI5NnA1UW9Hci00YS1LWVZ3bXBKMmd2dlNBdVZ0N19KaXh1SVAzNVhpekIyeVFQdG9WLVFXczc2MkdSZndqMWNHc09KNW9wREpWdWRfTEpPRXk5WHFZVWJRRjlEc3BNZmg4MFI",
    "url_key": "ed501ce7adb444640a24"
   },
+  "ed5e416bcbfd8a2c3c91": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T07:32:48+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ENGxRQ2cyN3Jid1QtNzBhWE1MSG9sd2Q2WEtyUzhXem9idHBaRC0wa0tqemhRMWh5bjRYWC1QWDN2bVcwcEJlSzZ5V1IzaGh1V2g3YmlZNTYwYjJ1RGxxVko1aUtoVkc1V2F2bw",
+   "url_key": "ed5e416bcbfd8a2c3c91"
+  },
   "edc01d3aa1f0bb89ab01": {
    "article": {},
    "attempts": 0,
@@ -43830,6 +45295,25 @@
    "url": "https://phys.org/news/2026-09-japan-hayabusa2-laser-ranging-asteroid.html",
    "url_key": "f02dd9e76a2f186daa6b"
   },
+  "f08f6c498ba5ee289046": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T19:32:19+00:00",
+   "reason": "duplicato_di:fde4e57d666a0ac77eb3",
+   "score": 0.0,
+   "source": "Sport italiano",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "- La Gazzetta dello Sport",
+   "topic_key": "",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:26+00:00",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaUIwOXc3eHlsWHVyYm9qa0p0d2NWSWJHY0FTVm1WUmkwVmlUNnVpT0VnMDQ5RVcwQ3ZPS0ctbWF6d1RoaVBrNlNjZEIwalRDRGR3Z1dYc0xFYW9XUFNtSl9yUGZnOTJiVjZ3amxSUjJoN1BkLUNCcWdIVmNFNGFPNE5XUVI1OFFCWG9ZVlFzbXVqb2hKMDRIZkJaWlR4YzQxM05RUWM4c0d4MnhRQ1E",
+   "url_key": "f08f6c498ba5ee289046"
+  },
   "f08faf0d2819935741a8": {
    "article": {},
    "attempts": 0,
@@ -43905,6 +45389,25 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSHF2b2hGRktBREl0R0JBM0xrVUM0c1UwUnFTMFBHV0pEU0lOWUY2MmYya1E3Sk1pa2dGeHA3RU1oOFJvcHAzTmhmNV9vdG1xdnJtcDZBRXdzYmVkc3VlOE9sNnFvQ3JCRVU5aFdZRTVxNUNMLWtSTG0zbV9JUHVhVFVIM0M",
    "url_key": "f0c709cbbfcab404e9e9"
+  },
+  "f0eaa1d59e53d11beeac": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:24+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T07:32:39+00:00",
+   "reason": "duplicato_di:e3a7890af019e008f25f",
+   "score": 0.0,
+   "source": "Nature",
+   "source_tier": "science",
+   "status": "rejected",
+   "title": "- nature.com",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:30:24+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9abW9ienJoSmRHWVhmMlhhZVVFYkxjSDUtcTNVQmFVN2ZkRUdTam9iY0V1UFBVSGZTakRiWDBiOHQtdEtNRXFaYmREcU44VVBfZnMtdTBiRmJlMDdCU1BiWjRTSGlDRWdtWEZ3ag",
+   "url_key": "f0eaa1d59e53d11beeac"
   },
   "f151275932e39bf0c489": {
    "article": {},
@@ -44628,6 +46131,25 @@
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSTVLbDFuWDdnSlVXYTgwd29DSVR5aURtWVhWYUE4LUFaSGlCTHlkWHluTEVxU182RnllbGQyTGhySDFpb2NxeXNYSWpNbFg3YTEzc3E4b2VCZEU5VDRPNmlJZ0RDS2JwbGhudlhQdzJWanYtTUhtb1RJbFU2blBHWll0WmpUZHppWkJ1MDJocUhra1FmVE9fVg",
    "url_key": "f499697927271a370ef6"
   },
+  "f49fb7d158baee0937e6": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:25+00:00",
+   "priority": "normal",
+   "published_at": "2026-01-01T07:46:39+00:00",
+   "reason": "gia_pubblicato_sul_sito",
+   "score": 0.0,
+   "source": "Sky Sport Italia",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "Le corse più importanti della stagione: Pogacar trionfa il Tour, ora la Vuelta? Il calendario 2026",
+   "topic_key": "d456c2b404057665a61b",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:25+00:00",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvNWp4MHJtM1o1Z2IzNFJiLW1xbkRkTkxXenFJTzFxWnRwcFJBSWx0Z3dsUFB3WXY0ajg1bnVNQlRpTGlvS2tNQ1diQmRDLWRoeEJRQ0ZVYi11MnotaUVUWU4xX29NdV9KVGk5QUU5TjA2QQ",
+   "url_key": "f49fb7d158baee0937e6"
+  },
   "f4a8fe1a5ed0e7be3a93": {
    "article": {},
    "attempts": 0,
@@ -45349,6 +46871,25 @@
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQUZXeDFjNThUQWlHa1NSQkxRdWg2TDIxeThrNHp3TVgwY0h6ZFNzQ19xVDYxcjgxTnc1MkhoaDQ4TFRobENBdEV0WjhEc1hLR2xyYWVJR2w5ODB1LXdLVUhPSENOOVRCcVgxczBzbE9Hc1NNeUo5LUlmZDhEakpLaGpKbV9PaWgxZ2FWZUZzYWhlcUxsVm53NUVNQlpzOGI1RzAwb1ltb2JmaGhi",
    "url_key": "f9a88d427d1f8d93a4af"
   },
+  "f9ae62212efc8e9bd4a0": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:30:26+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:24:29+00:00",
+   "reason": "duplicato_di:fde4e57d666a0ac77eb3",
+   "score": 0.0,
+   "source": "Sport italiano",
+   "source_tier": "sport",
+   "status": "rejected",
+   "title": "- La Gazzetta dello Sport",
+   "topic_key": "",
+   "trust": "medium",
+   "updated_at": "2026-09-13T21:30:26+00:00",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHSGNRa0xfbjFBVE1UbE51VGJDLUNTUUxVeW1helNtbllLSW9scFRlZ3NyU2p6Z3c0QmFXZVFab1RZZm9nUzN4eTZvakJSOVd0OTBjWDdlb2xfUy1fUFFITUVuci1FbkI4a3RXTkhCWTZqU2c5S09ybkJYejY",
+   "url_key": "f9ae62212efc8e9bd4a0"
+  },
   "f9b374fffbd005c4394e": {
    "article": {},
    "attempts": 0,
@@ -45560,7 +47101,7 @@
   },
   "fadd6a23e34d6cd0d01a": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [
     {
      "source": "ANSA",
@@ -45579,7 +47120,7 @@
    "title": "Scontro in laguna a Venezia, lui muore e la moglie è dispersa",
    "topic_key": "2e6aaf22497888d63e8d",
    "trust": "",
-   "updated_at": "2026-09-13T21:27:12+00:00",
+   "updated_at": "2026-09-13T21:30:44+00:00",
    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYTZucTB3ejhjdGxrcXlPbFJqQzBCcFp4blVBUVR1eUFmd2t3ZGdJNG9STGkyTExNZThqaVhQQnBBREtYNWl6TmtQUDl1N01OVUszWExzbDJMQ252VFZyejVvcDdNNkxOeDhEeUtHZWhyeWJjckY5QTJaLThsU1JRSHAxWk1rZG5FSUJLdEFvTjVLZDNpVzVfVVlmbnJ0T1RPSzljRTVHdGZhVVdPSHhmaW1vZGVGUUdHNXU0bGxJQmpEX1M3OTBHcHdreFp3X01HZV9lVS1QdG5aYmhZcm40WXNuT1dWYU5UdkHSAe8BQVVfeXFMUHAybTVwYk9pNFJOUmdra0QxTGo5SDkzdWtuWjJ3MkZEQjFrQWZSZzMxVF9FT2R2aUk2aG5Cd0tCMW5qWmt2ZUUtcWJPNzlyWmN1ZjZJazl6dWRkMEtnSndVbEpoZnNPZEtHZGpJOUJ0cFdvZlg0RFJybjF6RHRldl9vXzF4YnM5OGYtc3ZncFlFaDZocmVmZGw1Qk03NE9HaGdmcWNibWlKcEtQY252TlpOTkV2VHhxcDdiVHZsTk83d2xISmZBd1plNXJjRTNhQ21wSzlQMV9rNS0zbFg4WnRPMld4empVcjRxaE96MWM",
    "url_key": "fadd6a23e34d6cd0d01a"
   },
@@ -46411,5 +47952,5 @@
    "url_key": "fffee37376b8c909bc12"
   }
  },
- "updated_at": "2026-09-13T21:27:12+00:00"
+ "updated_at": "2026-09-13T21:32:05+00:00"
 }
