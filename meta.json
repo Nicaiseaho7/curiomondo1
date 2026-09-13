@@ -1,9 +1,10 @@
 {
  "cycles": {
   "post_deploy_verify": {
-   "at": "2026-09-13T21:34:33+00:00",
+   "at": "2026-09-13T21:42:24+00:00",
    "pending": [
-    "chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu"
+    "chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu",
+    "inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-13-09-2026"
    ],
    "verified": []
   },
@@ -28,10 +29,10 @@
    "raw_items": 1733
   },
   "watch_fast": {
-   "accepted": 5,
-   "at": "2026-09-13T21:34:31+00:00",
+   "accepted": 7,
+   "at": "2026-09-13T21:42:20+00:00",
    "feeds": 11,
-   "raw_items": 583
+   "raw_items": 585
   }
  },
  "feed_cache": {
@@ -51,7 +52,7 @@
    "last_modified": ""
   },
   "ansa-cronaca": {
-   "checked_at": "2026-09-13T21:34:30+00:00",
+   "checked_at": "2026-09-13T21:42:19+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -61,7 +62,7 @@
    "last_modified": ""
   },
   "ansa-mondo": {
-   "checked_at": "2026-09-13T21:34:30+00:00",
+   "checked_at": "2026-09-13T21:42:19+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -71,12 +72,12 @@
    "last_modified": ""
   },
   "ansa-top": {
-   "checked_at": "2026-09-13T21:34:30+00:00",
+   "checked_at": "2026-09-13T21:42:19+00:00",
    "etag": "",
    "last_modified": ""
   },
   "ap-gn": {
-   "checked_at": "2026-09-13T21:34:29+00:00",
+   "checked_at": "2026-09-13T21:42:18+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -101,12 +102,12 @@
    "last_modified": ""
   },
   "bbc-top": {
-   "checked_at": "2026-09-13T21:34:29+00:00",
+   "checked_at": "2026-09-13T21:42:18+00:00",
    "etag": "",
    "last_modified": ""
   },
   "bbc-world": {
-   "checked_at": "2026-09-13T21:34:29+00:00",
+   "checked_at": "2026-09-13T21:42:18+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -166,12 +167,12 @@
    "last_modified": ""
   },
   "gn-italia-breaking": {
-   "checked_at": "2026-09-13T21:34:29+00:00",
+   "checked_at": "2026-09-13T21:42:18+00:00",
    "etag": "",
    "last_modified": ""
   },
   "gn-mondo-breaking": {
-   "checked_at": "2026-09-13T21:34:30+00:00",
+   "checked_at": "2026-09-13T21:42:19+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -186,7 +187,7 @@
    "last_modified": ""
   },
   "ingv-terremoti": {
-   "checked_at": "2026-09-13T21:34:29+00:00",
+   "checked_at": "2026-09-13T21:42:18+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -226,12 +227,12 @@
    "last_modified": ""
   },
   "protezione-civile": {
-   "checked_at": "2026-09-13T21:34:29+00:00",
+   "checked_at": "2026-09-13T21:42:18+00:00",
    "etag": "",
    "last_modified": ""
   },
   "reuters-gn": {
-   "checked_at": "2026-09-13T21:34:29+00:00",
+   "checked_at": "2026-09-13T21:42:18+00:00",
    "etag": "",
    "last_modified": ""
   },
