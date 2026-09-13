@@ -1,5 +1,3 @@
-[codex/newsroom-trigger 0d8c14a] Limita il trigger di prova al ramo principale
- 1 file changed, 1 insertion(+)
 name: Redazione · Watcher notizie
 
 # Il watcher gira spesso ed è volutamente economico. Soltanto quando trova
@@ -39,7 +37,7 @@ concurrency:
 
 jobs:
   watch:
-    if: github.event_name != 'push' || github.ref == 'refs/heads/main'
+    if: ${{ github.event_name != 'push' || github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
