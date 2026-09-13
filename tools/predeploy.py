@@ -281,7 +281,9 @@ for p in news:
         if related_key(link.get('href'))==current_key or (current_title and linked_title==current_title):
             errors.append(f'articolo autoreferenziale in Potrebbe interessarti: {p.name}')
     scripts=d.xpath('//script[contains(@src,"curiomondo-article-v210.js")]/@src')
-    if scripts and not any(re.search(r'[?&]v=\d+(?:&|$)', value) for value in scripts):
+    if len(scripts)!=1:
+        errors.append(f'controller articolo mancante o duplicato: {p.name}')
+    elif not any(re.search(r'[?&]v=\d+(?:&|$)', value) for value in scripts):
         errors.append(f'cache correlati senza versione numerica: {p.name}')
 for url,count in Counter(refs).items():
     if count>1: errors.append(f'immagine articolo duplicata ({count}): {url}')
