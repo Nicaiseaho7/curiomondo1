@@ -13,6 +13,13 @@ on:
         type: boolean
         default: true
         required: false
+  # Si riesegue solo quando cambia il controllo stesso: serve a poterlo provare
+  # da un branch, visto che un workflow nuovo non è avviabile a mano finché non
+  # esiste su main.
+  push:
+    paths:
+      - 'automation/newsroom/openai_check.py'
+      - '.github/workflows/newsroom-openai-check.yml'
 
 permissions:
   contents: read
@@ -43,7 +50,9 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          if [ "${{ inputs.genera }}" = "false" ]; then
+          # Di norma si prova anche una generazione minima. La si salta solo se
+          # chi avvia il workflow a mano sceglie esplicitamente di non farla.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.genera }}" = "false" ]; then
             python3 -m automation.newsroom.openai_check | tee /tmp/esito.json
           else
             python3 -m automation.newsroom.openai_check --genera | tee /tmp/esito.json
