@@ -30,10 +30,15 @@ def leggi(url: str, timeout: int = 25) -> tuple[int, bytes]:
 
 
 def ultime_notizie(corpo: bytes, quante: int) -> list[str]:
-    """Ricava dalla mappa delle notizie gli ultimi articoli pubblicati."""
+    """Ricava dalla mappa delle notizie gli articoli pubblicati piu di recente.
+
+    La mappa e ordinata dal piu nuovo: contano le prime voci, perche sono
+    quelle appena pubblicate — ed e proprio su quelle che serve sapere se il
+    deploy e arrivato davvero online.
+    """
     indirizzi = re.findall(rb"<loc>\s*([^<\s]+)\s*</loc>", corpo)
     puliti = [u.decode("utf-8", "ignore") for u in indirizzi]
-    return [u for u in puliti if "/notizie/" in u][-quante:]
+    return [u for u in puliti if "/notizie/" in u][:quante]
 
 
 def main(argv: list[str] | None = None) -> int:
