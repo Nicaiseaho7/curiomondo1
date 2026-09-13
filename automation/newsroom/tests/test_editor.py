@@ -277,3 +277,25 @@ def test_la_natura_della_fonte_viene_detta_al_modello():
                     [estratto_ok()], conferme=[], alto_rischio=False,
                     tier="agency", trust="high")
     assert "agency" in client.chiamate[0]["user"]
+
+
+def test_due_volte_la_stessa_pagina_non_fa_due_fonti():
+    stessa = articolo_valido(fonti=[
+        {"url": "https://theguardian.com/x", "descrizione": "il fatto"},
+        {"url": "https://theguardian.com/x/", "descrizione": "le dichiarazioni"},
+    ])
+    assert any("fonti distinte" in p for p in editor.controlla_articolo(stessa))
+
+
+def test_gli_indirizzi_citabili_includono_conferme_e_documenti_ufficiali():
+    letto = Extracted("https://ansa.it/a", "t", "testo", ["testo"], True,
+                      links=["https://www.istat.it/comunicato"])
+    citabili = editor.url_citabili([letto], [{"url": "https://reuters.com/b", "source": "Reuters"}])
+    assert citabili == ["https://ansa.it/a", "https://reuters.com/b", "https://www.istat.it/comunicato"]
+
+
+def test_gli_indirizzi_citabili_non_si_ripetono():
+    letto = Extracted("https://ansa.it/a", "t", "testo", ["testo"], True,
+                      links=["https://ansa.it/a", "https://www.istat.it/c"])
+    assert editor.url_citabili([letto], [{"url": "https://ansa.it/a"}]) == [
+        "https://ansa.it/a", "https://www.istat.it/c"]

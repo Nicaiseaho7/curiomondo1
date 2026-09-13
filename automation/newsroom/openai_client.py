@@ -56,6 +56,7 @@ class OpenAIError(RuntimeError):
 @dataclass
 class Usage:
     calls: int = 0
+    seconds: float = 0.0
     input_tokens: int = 0
     output_tokens: int = 0
     images: int = 0
@@ -63,6 +64,7 @@ class Usage:
 
     def add(self, other: "Usage") -> None:
         self.calls += other.calls
+        self.seconds = round(self.seconds + other.seconds, 2)
         self.input_tokens += other.input_tokens
         self.output_tokens += other.output_tokens
         self.images += other.images
@@ -71,6 +73,7 @@ class Usage:
     def to_dict(self) -> dict[str, Any]:
         return {
             "calls": self.calls,
+            "seconds": round(self.seconds, 2),
             "input_tokens": self.input_tokens,
             "output_tokens": self.output_tokens,
             "images": self.images,
@@ -148,8 +151,10 @@ class Client:
     def __init__(
         self,
         budget: BudgetGuard | None = None,
-        timeout: int = 90,
-        retries: int = 3,
+        # Un modello che ragiona su 9000 token puo impiegare minuti: con un
+        # timeout stretto si scartano risposte gia pagate e si ritenta a vuoto.
+        timeout: int = 300,
+        retries: int = 2,
         api_key: str | None = None,
     ):
         self.api_key = (api_key if api_key is not None else os.getenv("OPENAI_API_KEY", "")).strip()
@@ -226,11 +231,14 @@ class Client:
             }
             if modello_ragiona(model):
                 payload["reasoning_effort"] = sforzo
+            avvio = time.monotonic()
             risposta = self._post("/chat/completions", payload)
+            durata = round(time.monotonic() - avvio, 2)
 
             uso_api = risposta.get("usage", {})
             uso = Usage(
                 calls=1,
+                seconds=durata,
                 input_tokens=int(uso_api.get("prompt_tokens", 0)),
                 output_tokens=int(uso_api.get("completion_tokens", 0)),
             )

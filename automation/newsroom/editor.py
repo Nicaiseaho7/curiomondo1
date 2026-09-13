@@ -105,6 +105,12 @@ Regole di scrittura, tutte obbligatorie:
 - Le dichiarazioni vanno attribuite ("secondo il ministero", "ha riferito
   l'agenzia"). Una rivendicazione di parte non diventa mai un fatto accertato.
 - Vietato aggiungere contesto generico solo per allungare il testo.
+- Attribuisci a chi ha parlato o deciso (l'ente, l'azienda, la persona), non
+  alla testata che ha dato la notizia: il nome della testata puo comparire al
+  massimo una volta, e solo se serve davvero.
+- Se un dato non e noto, dillo nel punto in cui servirebbe. Vietato chiudere
+  con un elenco di cio che il materiale non dice: non e un articolo, e un
+  verbale.
 
 Rispondi solo in JSON."""
 
@@ -145,6 +151,25 @@ def _materiale(titolo: str, fonte: str, estratti: list[Extracted], limite_caratt
         pezzi.append(f"[FONTE {indice}] {estratto.title or '(senza titolo)'}\nURL: {estratto.url}\n{estratto.text[:quota]}")
         pezzi.append("")
     return "\n".join(pezzi)
+
+
+def url_citabili(estratti: list[Extracted], conferme: list[dict[str, Any]]) -> list[str]:
+    """Indirizzi che l'articolo puo citare come fonte, senza ripetizioni.
+
+    Sono le pagine lette, le testate che riportano lo stesso fatto e i documenti
+    ufficiali richiamati dentro gli articoli. Servono due indirizzi distinti:
+    citare due volte la stessa pagina non fa due fonti.
+    """
+    indirizzi: list[str] = []
+    for estratto in estratti:
+        if estratto.ok:
+            indirizzi.append(estratto.url)
+    for conferma in conferme:
+        if conferma.get("url"):
+            indirizzi.append(str(conferma["url"]))
+    for estratto in estratti:
+        indirizzi.extend(estratto.links)
+    return list(dict.fromkeys(i for i in indirizzi if i))
 
 
 def verifica(
@@ -271,6 +296,9 @@ CATEGORIA: {verdetto.categoria}
 VALORE AGGIUNTO da rendere esplicito nel testo:
 - """ + "\n- ".join(verdetto.valore_aggiunto)
 
+    citabili = url_citabili(estratti, conferme)
+    istruzioni += "\n\nINDIRIZZI CITABILI (usane almeno due DIVERSI, copiati esattamente):\n- " + "\n- ".join(citabili)
+
     if verdetto.sensibile:
         istruzioni += (
             "\n\nTEMA DELICATO: attribuisci ogni numero e ogni responsabilita. "
@@ -343,9 +371,12 @@ def controlla_articolo(articolo: dict[str, Any]) -> list[str]:
         problemi.append("sommario assente")
 
     fonti = articolo.get("fonti") or []
-    valide = [f for f in fonti if str(f.get("url", "")).startswith("http")]
-    if len(valide) < 2:
-        problemi.append(f"meno di due fonti con URL ({len(valide)})")
+    # Distinte: la stessa pagina citata due volte non fa due fonti, e il gate
+    # del sito conta i link senza accorgersi che sono lo stesso indirizzo.
+    distinte = {str(f.get("url", "")).rstrip("/") for f in fonti
+                if str(f.get("url", "")).startswith("http")}
+    if len(distinte) < 2:
+        problemi.append(f"meno di due fonti distinte ({len(distinte)})")
 
     dati_chiave = articolo.get("dati_chiave") or []
     if len(dati_chiave) != 3:

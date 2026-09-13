@@ -16,7 +16,7 @@ import io
 import re
 import urllib.error
 import urllib.request
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from lxml import html as LH
 
@@ -41,6 +41,22 @@ CANDIDATE_XPATHS = (
 DROP_TAGS = ('script', 'style', 'noscript', 'nav', 'header', 'footer', 'aside', 'form', 'figure')
 
 
+# Domini che compaiono in ogni pagina e non sono mai una fonte della notizia.
+RUMORE = (
+    "facebook.com", "twitter.com", "x.com", "instagram.com", "linkedin.com",
+    "whatsapp.com", "youtube.com", "google.com", "apple.com", "telegram",
+    "pinterest.com", "reddit.com", "tiktok.com", "amazon.", "/cdn-cgi/",
+)
+# Domini di chi pubblica atti, dati e comunicati: sono le fonti che vale la
+# pena citare accanto alla testata che ha dato la notizia.
+ISTITUZIONALI = (
+    ".gov", ".gov.it", ".europa.eu", ".int", "istat.it", "ecb.europa.eu",
+    "who.int", "un.org", "nasa.gov", "esa.int", "ingv.it", "protezionecivile.it",
+    "governo.it", "camera.it", "senato.it", "bancaditalia.it", "consob.it",
+    "doi.org", "nature.com", "science.org", "arxiv.org", "pubmed",
+)
+
+
 @dataclass
 class Extracted:
     url: str
@@ -49,6 +65,10 @@ class Extracted:
     paragraphs: list[str]
     ok: bool
     reason: str = ""
+    # Collegamenti a documenti ufficiali citati dentro l'articolo: sono fonti
+    # vere, e spesso sono la differenza fra un pezzo con due fonti e una
+    # riscrittura che cita due volte la stessa pagina.
+    links: list[str] = field(default_factory=list)
 
     @property
     def words(self) -> int:
@@ -69,6 +89,25 @@ def _fetch(url: str, timeout: int = TIMEOUT) -> tuple[bytes, str]:
             except OSError:
                 pass
         return raw, response.geturl()
+
+
+def _collegamenti_utili(node, origine: str) -> list[str]:
+    """Estrae dal corpo dell'articolo i link a documenti ufficiali."""
+    dominio = origine.split("/")[2] if "//" in origine else ""
+    trovati: list[str] = []
+    for href in node.xpath('.//a/@href'):
+        indirizzo = str(href).split("#")[0].strip()
+        if not indirizzo.startswith("http"):
+            continue
+        if dominio and dominio in indirizzo:
+            continue
+        if any(r in indirizzo for r in RUMORE):
+            continue
+        if not any(i in indirizzo for i in ISTITUZIONALI):
+            continue
+        if indirizzo not in trovati:
+            trovati.append(indirizzo)
+    return trovati[:4]
 
 
 def _clean_paragraphs(node) -> list[str]:
@@ -121,11 +160,13 @@ def extract(url: str, timeout: int = TIMEOUT, min_words: int = 120) -> Extracted
                 break
 
     migliore: list[str] = []
+    collegamenti: list[str] = []
     for xp in CANDIDATE_XPATHS:
         for nodo in doc.xpath(xp):
+            trovati = _collegamenti_utili(nodo, url)
             paragrafi = _clean_paragraphs(nodo)
             if len(' '.join(paragrafi)) > len(' '.join(migliore)):
-                migliore = paragrafi
+                migliore, collegamenti = paragrafi, trovati
         if len(re.findall(r"\w+", ' '.join(migliore))) >= min_words:
             break
 
@@ -136,7 +177,7 @@ def extract(url: str, timeout: int = TIMEOUT, min_words: int = 120) -> Extracted
     parole = len(re.findall(r"\w+", testo))
     if parole < min_words:
         return Extracted(final_url, titolo, testo, migliore, False, f"testo_insufficiente_{parole}")
-    return Extracted(final_url, titolo, testo, migliore, True)
+    return Extracted(final_url, titolo, testo, migliore, True, links=collegamenti)
 
 
 def gather(urls: list[str], limit: int = 3, timeout: int = TIMEOUT) -> list[Extracted]:

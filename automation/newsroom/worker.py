@@ -85,9 +85,25 @@ def lavora(
             log.event("scartato", motivo="fonti_non_leggibili", titolo=candidato.title[:70])
             continue
 
-        # 2. Verifica editoriale.
+        # 2. Due fonti citabili, o non si scrive. Il gate del sito ne pretende
+        # due e citare due volte la stessa pagina non fa due fonti: meglio
+        # accorgersene adesso, prima di pagare una verifica e una stesura.
+        citabili = editor.url_citabili(estratti, candidato.corroborations)
+        if len(citabili) < 2:
+            tentativi = candidato.attempts + 1
+            if tentativi >= 3:
+                store.update(candidato.url_key, status=REJECTED, reason="fonte_unica")
+                log.event("scartato", motivo="fonte_unica", titolo=candidato.title[:70])
+            else:
+                # Resta in attesa: spesso la conferma arriva nei cicli successivi.
+                store.update(candidato.url_key, attempts=tentativi,
+                             reason="in_attesa_di_una_seconda_fonte")
+                log.count("in_attesa_di_conferma")
+            continue
+
+        # 3. Verifica editoriale.
         try:
-            verdetto, _ = editor.verifica(
+            verdetto, uso_verifica = editor.verifica(
                 client, modello_verifica, candidato.title, candidato.source,
                 estratti, candidato.corroborations,
                 alto_rischio=bool(candidato.article.get("high_risk")),
@@ -104,16 +120,17 @@ def lavora(
             continue
 
         log.event("verdetto", pubblicare=verdetto.pubblicare, motivo=verdetto.motivo,
-                  formato=verdetto.formato, categoria=verdetto.categoria)
+                  formato=verdetto.formato, categoria=verdetto.categoria,
+                  secondi=uso_verifica.seconds)
         if not verdetto.pubblicare:
             store.update(candidato.url_key, status=REJECTED,
                          reason=f"editoriale:{verdetto.motivo[:80]}")
             log.count("scartati_dalla_verifica")
             continue
 
-        # 3. Stesura.
+        # 4. Stesura.
         try:
-            articolo, _ = editor.scrivi(
+            articolo, uso_stesura = editor.scrivi(
                 client, modello_stesura, candidato.title, candidato.source,
                 estratti, verdetto, candidato.corroborations,
             )
@@ -125,7 +142,7 @@ def lavora(
             log.event("errore_stesura", dettaglio=str(exc)[:200])
             continue
 
-        # 4. Controllo del contratto, prima di spendere altro.
+        # 5. Controllo del contratto, prima di spendere altro.
         problemi = editor.controlla_articolo(articolo)
         if problemi:
             store.update(candidato.url_key, attempts=candidato.attempts + 1,
@@ -148,6 +165,7 @@ def lavora(
         bozze.append(articolo)
         log.count("bozze_prodotte")
         log.event("bozza_pronta", titolo=articolo["titolo"][:90],
+                  secondi=uso_stesura.seconds,
                   parole=len(" ".join(articolo["paragrafi"]).split()),
                   formato=articolo["formato"], categoria=articolo["categoria"])
 
