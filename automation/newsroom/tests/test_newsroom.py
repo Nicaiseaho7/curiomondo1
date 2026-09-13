@@ -355,3 +355,37 @@ def test_sisma_forte_resta_breaking():
 def test_magnitudo_non_confonde_altre_cifre():
     assert not filters.magnitudo_trascurabile("Il PIL cresce dello 0,3% nel trimestre")
     assert filters.magnitudo_trascurabile("Scossa di magnitudo 3,1 in Appennino")
+
+
+# ------------------------------------------------------ riconoscimento fatti
+def test_due_testate_che_titolano_diversamente_sono_lo_stesso_fatto():
+    """Senza questo la redazione non raccoglie mai una seconda testata."""
+    assert normalize.stesso_fatto(
+        "Il Napoli torna a vincere dopo tre ko, Bologna battuto 1-0",
+        "Serie A: il Napoli batte il Bologna 1-0")
+
+
+def test_due_notizie_diverse_sullo_stesso_tema_restano_separate():
+    assert not normalize.stesso_fatto(
+        "Trump downplays warnings of AI risks as he cites rivalry with China",
+        "Trump says China trade deal is close after talks")
+    assert not normalize.stesso_fatto(
+        "Inter-Milan finisce 1-0 al Meazza",
+        "Serie A: il Napoli batte il Bologna 1-0")
+
+
+def test_le_cifre_composte_restano_intere():
+    assert "1-0" in normalize.parole_forti("Serie A: il Napoli batte il Bologna 1-0")
+    assert "6.2" in normalize.parole_forti("Terremoto di magnitudo 6.2 in Giappone")
+
+
+def test_lo_store_aggancia_la_conferma_al_candidato_giusto(tmp_path):
+    store = Store(tmp_path)
+    store.add(Candidate(url_key="a", topic_key="t1", url="https://ansa.it/a",
+                        title="Serie A: il Napoli batte il Bologna 1-0",
+                        source="ANSA", source_tier="agency"))
+    store.add(Candidate(url_key="b", topic_key="t2", url="https://ansa.it/b",
+                        title="Morta in piscina, la famiglia si oppone",
+                        source="ANSA", source_tier="agency"))
+    trovato = store.find_similar("Il Napoli torna a vincere dopo tre ko, Bologna battuto 1-0")
+    assert trovato is not None and trovato.url_key == "a"

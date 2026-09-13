@@ -172,17 +172,26 @@ class Store:
         sono la stessa notizia ma hanno impronte diverse. Qui confrontiamo le
         parole significative, che è ciò che conta davvero.
         """
-        from .normalize import title_similarity  # import locale: evita cicli
+        from .normalize import (  # import locale: evita cicli
+            parole_forti, stesso_fatto, title_similarity,
+        )
 
         if not title:
             return None
         recent = sorted(self._candidates.values(), key=lambda c: c.first_seen, reverse=True)[:limit]
         best: Candidate | None = None
-        best_score = threshold
+        best_score = 0.0
+        forti = parole_forti(title)
         for candidate in recent:
-            score = title_similarity(title, candidate.title)
-            if score >= best_score:
-                best, best_score = candidate, score
+            if not stesso_fatto(title, candidate.title, soglia=threshold):
+                continue
+            # A parita di fatto teniamo il piu somigliante, cosi la conferma
+            # viene agganciata al candidato giusto quando ce n'e piu d'uno.
+            punteggio = title_similarity(title, candidate.title) + 0.01 * len(
+                forti & parole_forti(candidate.title)
+            )
+            if punteggio >= best_score:
+                best, best_score = candidate, punteggio
         return best
 
     def add(self, candidate: Candidate) -> Candidate:

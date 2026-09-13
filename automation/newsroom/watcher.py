@@ -14,7 +14,7 @@ from typing import Any
 
 from . import filters
 from .observability import CycleLogger
-from .normalize import title_similarity
+from .normalize import stesso_fatto
 from .sources import fetch_all, load_feeds
 from .state import Candidate, Store, existing_site_titles, _now
 
@@ -89,7 +89,7 @@ def run_watch(
                 published_at=item.published_at, status="rejected", reason=reason,
             ))
 
-        if any(title_similarity(item.title, known) >= 0.62 for known in site_titles):
+        if any(stesso_fatto(item.title, known) for known in site_titles):
             remember_rejected("gia_pubblicato_sul_sito")
             log.count("scartati_gia_sul_sito")
             continue

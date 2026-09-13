@@ -119,6 +119,42 @@ def title_tokens(title: str) -> list[str]:
     return sorted(set(keep))
 
 
+# Quante parole forti devono coincidere perche due titoli diversi raccontino lo
+# stesso fatto. Due sono poche — "Trump" e "Cina" stanno in dieci notizie al
+# giorno — tre bastano a distinguere: "napoli", "bologna", "1-0".
+PAROLE_IN_COMUNE_MINIME = 3
+
+
+_CIFRE_COMPOSTE = re.compile(r"\d+(?:[.,:\-]\d+)+")
+
+
+def parole_forti(title: str) -> set[str]:
+    """Parole del titolo che identificano un fatto: nomi propri, luoghi, cifre.
+
+    Le parole corte e i verbi comuni non aiutano a riconoscere la stessa
+    notizia raccontata da due testate: contano i nomi e i numeri. Le cifre
+    composte restano intere — "1-0" e "6.2" sono l'impronta di un fatto, e
+    spezzate in singole cifre non dicono piu niente.
+    """
+    forti = {t for t in title_tokens(title) if len(t) >= 4 or t.isdigit()}
+    forti.update(_CIFRE_COMPOSTE.findall(strip_accents(title or "").lower()))
+    return forti
+
+
+def stesso_fatto(primo: str, secondo: str, soglia: float = 0.62) -> bool:
+    """Vero se due titoli raccontano, quasi certamente, la stessa notizia.
+
+    La sola somiglianza lessicale non basta: "Il Napoli torna a vincere dopo
+    tre ko" e "Serie A: il Napoli batte il Bologna 1-0" si somigliano per 0,22
+    pur essendo la stessa partita. Senza questo riconoscimento la redazione non
+    raccoglie mai una seconda testata, e con una sola fonte non pubblica.
+    """
+    if title_similarity(primo, secondo) >= soglia:
+        return True
+    comuni = parole_forti(primo) & parole_forti(secondo)
+    return len(comuni) >= PAROLE_IN_COMUNE_MINIME
+
+
 def topic_key(title: str) -> str:
     """Impronta grossolana della notizia, usata come raggruppamento rapido.
 
