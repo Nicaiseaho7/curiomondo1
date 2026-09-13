@@ -6,7 +6,8 @@
     "cadence: fast = incluso nel controllo ogni ~5 minuti; deep = incluso nella scansione ampia ogni ~45 minuti.",
     "direct=true significa feed ufficiale della fonte; direct=false significa scoperta via Google News (le agenzie non espongono piu RSS pubblici affidabili).",
     "enabled viene aggiornato in base al report di salute: automation/newsroom/health.py verifica quali feed rispondono davvero.",
-    "Verifica del 13 settembre 2026: 28/44 fonti rispondevano. Le anglofone sono state spostate sull'edizione inglese di Google News (sull'edizione italiana tornavano zero risultati) e i feed istituzionali irraggiungibili (403/404) sono stati mantenuti come fonte ma raggiunti via Google News."
+    "Verifica del 13 settembre 2026: 28/44 fonti rispondevano. Le anglofone sono state spostate sull'edizione inglese di Google News (sull'edizione italiana tornavano zero risultati) e i feed istituzionali irraggiungibili (403/404) sono stati mantenuti come fonte ma raggiunti via Google News.",
+    "Le fonti istituzionali (Consiglio UE, Istat, Protezione civile, ECDC) pubblicano nei giorni feriali: usano una finestra di 72-96 ore perche' con 24 ore risultano vuote nel fine settimana. Il filtro del watcher scarta comunque le notizie oltre le 36 ore."
   ],
   "google_news_template": "https://news.google.com/rss/search?q={query}&hl=it&gl=IT&ceid=IT%3Ait",
   "feeds": [
@@ -258,7 +259,7 @@
       "cadence": "deep",
       "direct": false,
       "trust": "high",
-      "url": "https://news.google.com/rss/search?q=site%3Aconsilium.europa.eu+when%3A24h&hl=it&gl=IT&ceid=IT%3Ait"
+      "url": "https://news.google.com/rss/search?q=site%3Aconsilium.europa.eu+when%3A72h&hl=it&gl=IT&ceid=IT%3Ait"
     },
     {
       "id": "ecb-press",
@@ -288,7 +289,7 @@
       "cadence": "fast",
       "direct": false,
       "trust": "high",
-      "url": "https://news.google.com/rss/search?q=site%3Aprotezionecivile.gov.it+when%3A24h&hl=it&gl=IT&ceid=IT%3Ait"
+      "url": "https://news.google.com/rss/search?q=site%3Aprotezionecivile.gov.it+when%3A72h&hl=it&gl=IT&ceid=IT%3Ait"
     },
     {
       "id": "ingv-terremoti",
@@ -308,7 +309,7 @@
       "cadence": "deep",
       "direct": false,
       "trust": "high",
-      "url": "https://news.google.com/rss/search?q=site%3Aistat.it+when%3A24h&hl=it&gl=IT&ceid=IT%3Ait"
+      "url": "https://news.google.com/rss/search?q=site%3Aistat.it+when%3A72h&hl=it&gl=IT&ceid=IT%3Ait"
     },
     {
       "id": "nasa-news",
@@ -378,7 +379,7 @@
       "cadence": "deep",
       "direct": false,
       "trust": "high",
-      "url": "https://news.google.com/rss/search?q=site%3Aecdc.europa.eu+when%3A48h&hl=en-US&gl=US&ceid=US%3Aen"
+      "url": "https://news.google.com/rss/search?q=site%3Aecdc.europa.eu+when%3A96h&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "id": "cnbc-top",
