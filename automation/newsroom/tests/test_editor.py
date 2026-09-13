@@ -211,7 +211,7 @@ def test_scarta_lunghezza_fuori_fascia():
 
 def test_pretende_almeno_due_fonti():
     una = articolo_valido(fonti=[{"url": "https://istat.it/x", "descrizione": "dati"}])
-    assert any("due fonti" in p for p in editor.controlla_articolo(una))
+    assert any("due testate" in p for p in editor.controlla_articolo(una))
 
 
 def test_pretende_esattamente_tre_dati_chiave():
@@ -279,12 +279,21 @@ def test_la_natura_della_fonte_viene_detta_al_modello():
     assert "agency" in client.chiamate[0]["user"]
 
 
-def test_due_volte_la_stessa_pagina_non_fa_due_fonti():
+def test_lo_stesso_lancio_sotto_due_indirizzi_non_fa_due_fonti():
+    """Successo sul campo: due link ANSA diversi erano lo stesso identico pezzo."""
     stessa = articolo_valido(fonti=[
-        {"url": "https://theguardian.com/x", "descrizione": "il fatto"},
-        {"url": "https://theguardian.com/x/", "descrizione": "le dichiarazioni"},
+        {"url": "https://www.ansa.it/sito/notizie/sport/napoli-bologna_bcd5.html", "descrizione": "il risultato"},
+        {"url": "https://ansa.it/sito/notizie/sport/il-napoli-batte-il-bologna_bcd5.html", "descrizione": "le formazioni"},
     ])
-    assert any("fonti distinte" in p for p in editor.controlla_articolo(stessa))
+    assert any("testate distinte" in p for p in editor.controlla_articolo(stessa))
+
+
+def test_due_testate_diverse_vanno_bene():
+    due = articolo_valido(fonti=[
+        {"url": "https://www.ansa.it/x", "descrizione": "il risultato"},
+        {"url": "https://www.bbc.co.uk/sport/y", "descrizione": "il contesto"},
+    ])
+    assert editor.controlla_articolo(due) == []
 
 
 def test_gli_indirizzi_citabili_includono_conferme_e_documenti_ufficiali():
@@ -299,3 +308,12 @@ def test_gli_indirizzi_citabili_non_si_ripetono():
                       links=["https://ansa.it/a", "https://www.istat.it/c"])
     assert editor.url_citabili([letto], [{"url": "https://ansa.it/a"}]) == [
         "https://ansa.it/a", "https://www.istat.it/c"]
+
+
+def test_una_conferma_dalla_stessa_testata_non_conta():
+    c = Candidate(url_key="k", topic_key="t", url="https://www.ansa.it/a",
+                  title="t", source="ANSA", source_tier="agency")
+    assert not c.add_corroboration("Italia ultima ora", "https://ansa.it/altro-slug", "Stesso fatto")
+    assert c.independent_sources == 1
+    assert c.add_corroboration("BBC", "https://www.bbc.co.uk/news/x", "Same story")
+    assert c.independent_sources == 2

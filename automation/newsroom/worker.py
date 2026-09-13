@@ -17,6 +17,7 @@ from typing import Any
 
 from . import editor
 from .extract import gather
+from .normalize import dominio
 from .observability import CycleLogger
 from .openai_client import BudgetExceeded, BudgetGuard, Client, OpenAIError
 from .state import DRAFTED, REJECTED, SEEN, Store, existing_site_titles
@@ -89,7 +90,8 @@ def lavora(
         # due e citare due volte la stessa pagina non fa due fonti: meglio
         # accorgersene adesso, prima di pagare una verifica e una stesura.
         citabili = editor.url_citabili(estratti, candidato.corroborations)
-        if len(citabili) < 2:
+        testate = {dominio(u) for u in citabili} - {""}
+        if len(testate) < 2:
             tentativi = candidato.attempts + 1
             if tentativi >= 3:
                 store.update(candidato.url_key, status=REJECTED, reason="fonte_unica")

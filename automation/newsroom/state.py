@@ -18,6 +18,8 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
+from .normalize import dominio
+
 # Ciclo di vita di un candidato.
 SEEN = "seen"              # rilevato dal watcher
 REJECTED = "rejected"      # scartato (filtro economico o verifica editoriale)
@@ -77,8 +79,17 @@ class Candidate:
     article: dict[str, Any] = field(default_factory=dict)
 
     def add_corroboration(self, source: str, url: str, title: str) -> bool:
-        """Registra una conferma, evitando di contare due volte la stessa fonte."""
+        """Registra una conferma, evitando di contare due volte la stessa fonte.
+
+        Il confronto e sul dominio oltre che sul nome: lo stesso lancio ANSA
+        ripreso da un aggregatore arriva con un altro nome e un altro indirizzo,
+        ma non e una seconda testata.
+        """
+        casa = dominio(url)
         if any(c.get("source") == source for c in self.corroborations):
+            return False
+        if casa and (casa == dominio(self.url)
+                     or any(dominio(str(c.get("url", ""))) == casa for c in self.corroborations)):
             return False
         self.corroborations.append({"source": source, "url": url, "title": title})
         return True

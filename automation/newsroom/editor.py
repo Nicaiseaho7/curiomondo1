@@ -21,6 +21,7 @@ from dataclasses import dataclass
 from typing import Any
 
 from .extract import Extracted
+from .normalize import dominio
 from .openai_client import Client, Usage
 
 # Categorie reali del sito: il modello non deve inventarne di nuove.
@@ -371,12 +372,14 @@ def controlla_articolo(articolo: dict[str, Any]) -> list[str]:
         problemi.append("sommario assente")
 
     fonti = articolo.get("fonti") or []
-    # Distinte: la stessa pagina citata due volte non fa due fonti, e il gate
-    # del sito conta i link senza accorgersi che sono lo stesso indirizzo.
-    distinte = {str(f.get("url", "")).rstrip("/") for f in fonti
-                if str(f.get("url", "")).startswith("http")}
-    if len(distinte) < 2:
-        problemi.append(f"meno di due fonti distinte ({len(distinte)})")
+    # Due testate, non due indirizzi: lo stesso lancio ANSA ripreso da un
+    # aggregatore cambia URL ma resta una fonte sola, e il gate del sito conta
+    # i link senza accorgersene.
+    testate = {dominio(str(f.get("url", ""))) for f in fonti
+               if str(f.get("url", "")).startswith("http")}
+    testate.discard("")
+    if len(testate) < 2:
+        problemi.append(f"meno di due testate distinte fra le fonti ({len(testate)})")
 
     dati_chiave = articolo.get("dati_chiave") or []
     if len(dati_chiave) != 3:

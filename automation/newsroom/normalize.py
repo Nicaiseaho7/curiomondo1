@@ -66,6 +66,33 @@ def canonical_url(url: str) -> str:
     return rebuilt
 
 
+# Suffissi a due livelli: senza questi "bbc.co.uk" diventerebbe "co.uk" e tutte
+# le testate britanniche sembrerebbero la stessa fonte.
+_SUFFISSI_COMPOSTI = (
+    "co.uk", "org.uk", "gov.uk", "ac.uk", "com.au", "net.au", "org.au",
+    "co.jp", "com.br", "co.in", "com.tr", "europa.eu", "gov.it",
+)
+
+
+def dominio(url: str) -> str:
+    """Testata a cui appartiene un indirizzo, ridotta al dominio registrabile.
+
+    Serve a non contare due volte la stessa fonte: lo stesso lancio ANSA
+    ripreso da un aggregatore arriva con un indirizzo diverso, ma non e una
+    conferma indipendente — e la stessa testata.
+    """
+    host = urlsplit(url or "").netloc.lower().split("@")[-1].split(":")[0]
+    if host.startswith("www."):
+        host = host[4:]
+    parti = host.split(".")
+    if len(parti) <= 2:
+        return host
+    ultimi_due = ".".join(parti[-2:])
+    if ultimi_due in _SUFFISSI_COMPOSTI:
+        return ".".join(parti[-3:])
+    return ultimi_due
+
+
 def url_key(url: str) -> str:
     canonical = canonical_url(url)
     return hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:20] if canonical else ""
