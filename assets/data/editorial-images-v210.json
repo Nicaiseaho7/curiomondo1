@@ -1,9 +1,42 @@
 {
-  "version": 343,
+  "version": 344,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
-      "key": "brics-new-delhi-dichiarazione-ai-openai-v339",
+      "key": "meloni-alleanze-ucraina-intervista-ai-openai-v344",
+      "article": "/notizie/meloni-alleanze-sostegno-ucraina-12-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/meloni-alleanze-ucraina-intervista-ai-openai-v344-480.webp",
+          "sha256": "7f26053786919d38c9696552f33676e950bc0a68764b5701fe7c85bf1c236a18",
+          "bytes": 14018
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/meloni-alleanze-ucraina-intervista-ai-openai-v344-800.webp",
+          "sha256": "85758a920f822c44da5b02319f9a12184f29c1920d2b1668226ceabd7d1d7ae1",
+          "bytes": 28600
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/meloni-alleanze-ucraina-intervista-ai-openai-v344-1200.webp",
+          "sha256": "0f7aae8ccea8b83c4b1bc99edc14fd18ede611587300d163880058091e24c3e9",
+          "bytes": 49074
+        }
+      ],
+      "alt": "Scena editoriale contestuale ordinaria generata con IA di Giorgia Meloni durante un’intervista istituzionale a Roma",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure"
+    },
+    {
+      "key": "brics-modi-new-delhi-secondo-giorno-ai-openai-v344",
       "article": "/notizie/brics-dichiarazione-new-delhi-medio-oriente-12-settembre-2026.html",
       "aiGenerated": true,
       "sensitiveContext": false,
@@ -11,24 +44,121 @@
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/brics-new-delhi-dichiarazione-ai-openai-v339-480.webp",
-          "sha256": "c97fe4cbb9cb67d70a6f9dacfaf93ab9b8fa69a0d8a790f8c21cab259a99bbf7",
-          "bytes": 34574
+          "src": "/assets/images/editorial-auto/brics-modi-new-delhi-secondo-giorno-ai-openai-v344-480.webp",
+          "sha256": "d19206177bf883ed91e495c1c02713970fa848acb6797cddd579963f7ba57d96",
+          "bytes": 36034
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/brics-new-delhi-dichiarazione-ai-openai-v339-800.webp",
-          "sha256": "1f2327c97c450cff1f82cb900d93fb35e9e7bd27341c36eea513affaf3f7a73e",
-          "bytes": 74166
+          "src": "/assets/images/editorial-auto/brics-modi-new-delhi-secondo-giorno-ai-openai-v344-800.webp",
+          "sha256": "f4ac349e00415701e137ff3685817637dccd892a4ccdf4f4d543f32f68e45eaf",
+          "bytes": 74754
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/brics-new-delhi-dichiarazione-ai-openai-v339-1200.webp",
-          "sha256": "d4d9969f81e1d156595092f3f2d318a0d4d538e33abebff9877d6dde5ac7ccaf",
-          "bytes": 130960
+          "src": "/assets/images/editorial-auto/brics-modi-new-delhi-secondo-giorno-ai-openai-v344-1200.webp",
+          "sha256": "165032da0b329fb637ec98d8da0e32f756fb6bf2f2e42cb47124e613d132e972",
+          "bytes": 125928
         }
       ],
-      "alt": "Scena editoriale contestuale ordinaria generata con IA di una sala del vertice BRICS a New Delhi con delegazioni e bandiere, senza incontri specifici ricostruiti",
+      "alt": "Scena editoriale contestuale ordinaria generata con IA di Narendra Modi durante il vertice BRICS a New Delhi",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure"
+    },
+    {
+      "key": "odesa-attacco-droni-residenze-ai-openai-v344",
+      "article": "/notizie/odesa-attacco-russo-droni-cinque-feriti-13-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/odesa-attacco-droni-residenze-ai-openai-v344-480.webp",
+          "sha256": "a082389f83b34cb1a16a26e778e90a2715df41613c8cd0dd9d298e8472d3c32f",
+          "bytes": 45286
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/odesa-attacco-droni-residenze-ai-openai-v344-800.webp",
+          "sha256": "d047036d4d2f7fa8a4a79106392f2c4fb46848f0a0aab81cae8a4da109c2e9b3",
+          "bytes": 111420
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/odesa-attacco-droni-residenze-ai-openai-v344-1200.webp",
+          "sha256": "89c393b45236501024fd26ab72eb9d81aa99b1bbf3414803996e7e0527de6974",
+          "bytes": 226252
+        }
+      ],
+      "alt": "Scena editoriale sensibile generata con IA di edifici residenziali danneggiati a Odesa con soccorritori, senza vittime visibili",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344",
+      "article": "/notizie/energia-attacchi-rotte-petrolio-pipeline-est-ovest-13-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-480.webp",
+          "sha256": "2d4de3691945d859fda9f83f910b18df89a5b1c747b09e65af728a25defb25c8",
+          "bytes": 33694
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-800.webp",
+          "sha256": "1259bd8f1f31e5146941436591ef3004b395495ed698bdb4e3a3afab90192407",
+          "bytes": 95280
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-1200.webp",
+          "sha256": "d3bd5e3303fedcc6fd3011ba34921b61ff7e8a1b3ebe43b81295405fa922c400",
+          "bytes": 203362
+        }
+      ],
+      "alt": "Scena editoriale contestuale ordinaria generata con IA della pipeline saudita Est-Ovest verso il Mar Rosso con squadre di ispezione",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "portraitOnly": false,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false
+    },
+    {
+      "key": "hormuz-nave-iraniana-qeshm-ai-openai-v344",
+      "article": "/notizie/stretto-hormuz-traffico-sette-navi-11-settembre-2026.html",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/hormuz-nave-iraniana-qeshm-ai-openai-v344-480.webp",
+          "sha256": "7ba4c5b258391eac1a63b331c9aca698931827695300afda990af67c6dcb2422",
+          "bytes": 28954
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/hormuz-nave-iraniana-qeshm-ai-openai-v344-800.webp",
+          "sha256": "4f0d5b328a3e2579d713286189516bcf1270f28ec5a9b3fc7d76505387ab6333",
+          "bytes": 78792
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/hormuz-nave-iraniana-qeshm-ai-openai-v344-1200.webp",
+          "sha256": "a353628ac3745887009097bf4fa6e625c371e349261f0c43b98553bb2f480e96",
+          "bytes": 164814
+        }
+      ],
+      "alt": "Scena editoriale sensibile generata con IA di una nave commerciale danneggiata vicino a Qeshm con mezzi di soccorso, senza vittime visibili",
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "portraitOnly": false,
       "portraitFormat": "contextual-editorial-scene",
@@ -292,39 +422,6 @@
         }
       ],
       "alt": "Zanzara Culex in ambiente naturale, illustrazione editoriale fotorealistica generata con IA",
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "portraitOnly": false,
-      "portraitFormat": "contextual-editorial-scene",
-      "reenactedEvent": false
-    },
-    {
-      "key": "hormuz-traffico-sette-navi-ai-openai-v325",
-      "article": "/notizie/stretto-hormuz-traffico-sette-navi-11-settembre-2026.html",
-      "aiGenerated": true,
-      "sensitiveContext": false,
-      "documentaryPhoto": false,
-      "prompt": "Wide editorial maritime scene of the Strait of Hormuz at dawn, viewed from a high coastal vantage point, only a few large commercial cargo ships and tankers visible in the shipping lanes, rugged Omani and Iranian coastlines in hazy distance, realistic sea traffic spacing, subtle navigation wake trails, tense but non-combat atmosphere, no explosions, no warships in foreground, no text, no flags, no logos, highly realistic international news photography Ultra-realistic photojournalistic editorial photography, natural cinematic lighting, sharp focus, no text, no watermark, no logo overlay.",
-      "variants": [
-        {
-          "w": 480,
-          "src": "/assets/images/editorial-auto/hormuz-traffico-sette-navi-ai-openai-v325-480.webp",
-          "sha256": "b3369ec464e2a34563a08a7bc1678c31d5891b57572b125bab752883faf2dd45",
-          "bytes": 9140
-        },
-        {
-          "w": 800,
-          "src": "/assets/images/editorial-auto/hormuz-traffico-sette-navi-ai-openai-v325-800.webp",
-          "sha256": "f54bb7de5d4b25ef76853097731596118cfd5a42399cd43aa8c2136949f2d8ee",
-          "bytes": 26606
-        },
-        {
-          "w": 1200,
-          "src": "/assets/images/editorial-auto/hormuz-traffico-sette-navi-ai-openai-v325-1200.webp",
-          "sha256": "32255e520c99883b3a0d476dc8b1756042259ac22f6c9bfabd7467bfdce5738d",
-          "bytes": 62100
-        }
-      ],
-      "alt": "Poche navi commerciali attraversano lo Stretto di Hormuz, illustrazione editoriale fotorealistica generata con IA",
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "portraitOnly": false,
       "portraitFormat": "contextual-editorial-scene",

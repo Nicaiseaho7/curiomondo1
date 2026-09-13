@@ -195,7 +195,10 @@ for p in news:
                     # la prima pubblicazione CurioMondo, non la data della fonte
                     # o dell'evento. Il commit di creazione è il riferimento
                     # verificabile disponibile nella pipeline.
-                    if dt >= datetime.fromisoformat('2026-09-10T00:00:00+02:00'):
+                    # Uno shallow clone non conserva necessariamente la commit
+                    # di creazione: il bordo dello snapshot produrrebbe falsi
+                    # positivi su tutte le date editoriali già pubblicate.
+                    if dt >= datetime.fromisoformat('2026-09-10T00:00:00+02:00') and not (root/'.git'/'shallow').exists():
                         try:
                             import subprocess
                             rel=p.relative_to(root).as_posix()

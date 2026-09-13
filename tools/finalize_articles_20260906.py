@@ -83,6 +83,10 @@ def actual_publication_iso(path: Path, declared_iso: str) -> str:
     current editorial generation (10 September 2026 onward).
     """
     try:
+        # In uno shallow clone la prima commit visibile non coincide con la
+        # pubblicazione reale del file e non deve riscrivere le date storiche.
+        if (ROOT / ".git" / "shallow").exists():
+            return declared_iso
         relative = path.relative_to(ROOT).as_posix()
         result = subprocess.run(
             ["git", "log", "--diff-filter=A", "--follow", "--format=%aI", "--", relative],
@@ -157,7 +161,11 @@ def inject_image(rel, key):
     hero.set("alt", img["alt"]); hero.set("loading", "eager"); hero.set("decoding", "async"); hero.set("fetchpriority", "high")
     cap = etree.SubElement(figure, "figcaption"); cap.text = CAPTION
     actions = main.xpath('./div[contains(concat(" ",normalize-space(@class)," ")," actions ")]')
-    insert_at = main.index(actions[0]) + 1 if actions else 0
+    if actions:
+        insert_at = main.index(actions[0]) + 1
+    else:
+        byline = main.xpath('./p[contains(concat(" ",normalize-space(@class)," ")," cm-article-byline ")]')
+        insert_at = main.index(byline[0]) + 1 if byline else min(5, len(main))
     main.insert(insert_at, figure)
 
     out = '<!doctype html>\n' + html.tostring(doc, encoding="unicode", method="html")

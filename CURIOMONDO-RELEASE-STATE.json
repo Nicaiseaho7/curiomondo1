@@ -1,5 +1,5 @@
 {
-  "site_version": 343,
+  "site_version": 344,
   "articleCount": 261,
   "generatedEditorialImages": 143,
   "baseline_version": 342,
@@ -13,13 +13,13 @@
     "CURIO-MONDO-PROTOCOLLO-MAESTRO.md",
     "curiomondo-site-manifest.json"
   ],
-  "last_daily_question_date": "2026-09-12",
-  "version": "343",
+  "last_daily_question_date": "2026-09-13",
+  "version": "344",
   "date": "2026-09-13",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "rybakina-us-open-v343",
+  "last_update": "notizie-13-settembre-v344",
   "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
-  "currentVersion": 343,
+  "currentVersion": 344,
   "baselineVersion": 342,
   "designRestored": "Intestazione globale unificata su tutte le pagine interne; palette blu Facebook e fascia LIVE rossa piena confermate.",
   "status": "ready"

@@ -1,6 +1,79 @@
 {
-  "version": 343,
+  "version": 344,
   "items": [
+    {
+      "title": "Energia, nuovo allarme globale dopo gli attacchi alle rotte del petrolio",
+      "excerpt": "La pipeline saudita Est-Ovest, capace di trasportare 4–5 milioni di barili al giorno, è stata fermata per precauzione. La durata dello stop determinerà la pressione effettiva sull’offerta.",
+      "url": "/notizie/energia-attacchi-rotte-petrolio-pipeline-est-ovest-13-settembre-2026.html",
+      "section": "Mondo / Economia / Energia",
+      "dateISO": "2026-09-13T13:20:00+02:00",
+      "dateLabel": "2026-09-13",
+      "image": "/assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-800.webp",
+      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA della pipeline saudita Est-Ovest verso il Mar Rosso con squadre di ispezione",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-480.webp 480w, /assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-800.webp 800w, /assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-1200.webp 1200w",
+      "featuredHighlights": [
+        "allarme globale",
+        "rotte del petrolio"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "4–5 mln",
+          "label": "barili al giorno nella pipeline"
+        },
+        {
+          "icon": "↗",
+          "value": "4–5%",
+          "label": "quota indicativa dell’offerta mondiale"
+        },
+        {
+          "icon": "●",
+          "value": "1.200 km",
+          "label": "lunghezza della rotta Est-Ovest"
+        }
+      ]
+    },
+    {
+      "title": "Ucraina, nuovo attacco russo con droni su Odesa: almeno cinque feriti",
+      "excerpt": "Colpite aree residenziali in più quartieri della città portuale. Il raid arriva un giorno dopo l’attacco che aveva causato due morti e 26 feriti.",
+      "url": "/notizie/odesa-attacco-russo-droni-cinque-feriti-13-settembre-2026.html",
+      "section": "Mondo / Ucraina / Guerra",
+      "dateISO": "2026-09-13T12:55:00+02:00",
+      "dateLabel": "2026-09-13",
+      "image": "/assets/images/editorial-auto/odesa-attacco-droni-residenze-ai-openai-v344-800.webp",
+      "imageAlt": "Scena editoriale sensibile generata con IA di edifici residenziali danneggiati a Odesa con soccorritori, senza vittime visibili",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/odesa-attacco-droni-residenze-ai-openai-v344-480.webp 480w, /assets/images/editorial-auto/odesa-attacco-droni-residenze-ai-openai-v344-800.webp 800w, /assets/images/editorial-auto/odesa-attacco-droni-residenze-ai-openai-v344-1200.webp 1200w"
+    },
+    {
+      "title": "Meloni: «Non mi alleo con chi vota contro il sostegno all’Ucraina»",
+      "excerpt": "La presidente del Consiglio rivendica continuità sulla politica verso Kyiv e respinge cambi di linea per calcolo elettorale. La frase arriva in un’intervista al Foglio.",
+      "url": "/notizie/meloni-alleanze-sostegno-ucraina-12-settembre-2026.html",
+      "section": "Italia / Politica",
+      "dateISO": "2026-09-13T12:10:00+02:00",
+      "dateLabel": "2026-09-13",
+      "image": "/assets/images/editorial-auto/meloni-alleanze-ucraina-intervista-ai-openai-v344-800.webp",
+      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA di Giorgia Meloni durante un’intervista istituzionale a Roma",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/meloni-alleanze-ucraina-intervista-ai-openai-v344-480.webp 480w, /assets/images/editorial-auto/meloni-alleanze-ucraina-intervista-ai-openai-v344-800.webp 800w, /assets/images/editorial-auto/meloni-alleanze-ucraina-intervista-ai-openai-v344-1200.webp 1200w"
+    },
+    {
+      "title": "Stretto di Hormuz, colpita una nave commerciale iraniana: un morto",
+      "excerpt": "Una nave commerciale iraniana è stata colpita vicino all’isola di Qeshm: almeno un membro dell’equipaggio è morto e almeno tre sono rimasti feriti. La responsabilità dell’attacco non è ancora stata chiarita.",
+      "url": "/notizie/stretto-hormuz-traffico-sette-navi-11-settembre-2026.html",
+      "section": "Mondo / Medio Oriente / Cronaca",
+      "dateISO": "2026-09-13T08:57:00+02:00",
+      "dateLabel": "2026-09-13",
+      "image": "/assets/images/editorial-auto/hormuz-nave-iraniana-qeshm-ai-openai-v344-800.webp",
+      "imageAlt": "Scena editoriale sensibile generata con IA di una nave commerciale danneggiata vicino a Qeshm con mezzi di soccorso, senza vittime visibili",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/hormuz-nave-iraniana-qeshm-ai-openai-v344-480.webp 480w, /assets/images/editorial-auto/hormuz-nave-iraniana-qeshm-ai-openai-v344-800.webp 800w, /assets/images/editorial-auto/hormuz-nave-iraniana-qeshm-ai-openai-v344-1200.webp 1200w"
+    },
     {
       "title": "US Open, Rybakina batte Sabalenka e conquista il numero uno mondiale",
       "excerpt": "La kazaka vince la finale in tre set, 6-4 5-7 6-2, e ottiene il primo titolo a New York. Da lunedì guiderà per la prima volta la classifica WTA.",
@@ -83,17 +156,17 @@
       "srcset": "/assets/images/editorial-auto/corea-nord-missili-wonsan-ai-openai-v339-480.webp 480w, /assets/images/editorial-auto/corea-nord-missili-wonsan-ai-openai-v339-800.webp 800w, /assets/images/editorial-auto/corea-nord-missili-wonsan-ai-openai-v339-1200.webp 1200w"
     },
     {
-      "title": "BRICS, dichiarazione comune sul Medio Oriente: appello alla massima moderazione",
+      "title": "BRICS, Modi: tensioni e shock alle forniture minacciano la stabilità",
       "excerpt": "Iran ed Emirati Arabi Uniti sostengono il testo approvato a New Delhi. Il documento chiede protezione dei civili, sovranità degli Stati e sicurezza dei flussi commerciali ed energetici.",
       "url": "/notizie/brics-dichiarazione-new-delhi-medio-oriente-12-settembre-2026.html",
       "section": "Mondo / Politica / Diplomazia",
       "dateISO": "2026-09-12T21:55:00+02:00",
       "dateLabel": "2026-09-12",
-      "image": "/assets/images/editorial-auto/brics-new-delhi-dichiarazione-ai-openai-v339-800.webp",
-      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA di una sala del vertice BRICS a New Delhi con delegazioni e bandiere, senza incontri specifici ricostruiti",
+      "image": "/assets/images/editorial-auto/brics-modi-new-delhi-secondo-giorno-ai-openai-v344-800.webp",
+      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA di Narendra Modi durante il vertice BRICS a New Delhi",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/brics-new-delhi-dichiarazione-ai-openai-v339-480.webp 480w, /assets/images/editorial-auto/brics-new-delhi-dichiarazione-ai-openai-v339-800.webp 800w, /assets/images/editorial-auto/brics-new-delhi-dichiarazione-ai-openai-v339-1200.webp 1200w"
+      "srcset": "/assets/images/editorial-auto/brics-modi-new-delhi-secondo-giorno-ai-openai-v344-480.webp 480w, /assets/images/editorial-auto/brics-modi-new-delhi-secondo-giorno-ai-openai-v344-800.webp 800w, /assets/images/editorial-auto/brics-modi-new-delhi-secondo-giorno-ai-openai-v344-1200.webp 1200w"
     },
     {
       "title": "IA, Altman esclude l’IPO OpenAI nel 2026 e sostiene il rallentamento chiesto da Amodei",
@@ -213,19 +286,6 @@
       "srcset": "/assets/images/editorial-auto/west-nile-italia-594-casi-ai-openai-v325-480.webp 480w, /assets/images/editorial-auto/west-nile-italia-594-casi-ai-openai-v325-800.webp 800w, /assets/images/editorial-auto/west-nile-italia-594-casi-ai-openai-v325-1200.webp 1200w"
     },
     {
-      "title": "Stretto di Hormuz, nave iraniana colpita vicino a Qeshm: un morto e almeno tre feriti",
-      "excerpt": "Una nave commerciale iraniana è stata colpita vicino all’isola di Qeshm: almeno un membro dell’equipaggio è morto e almeno tre sono rimasti feriti. La responsabilità dell’attacco non è ancora stata chiarita.",
-      "url": "/notizie/stretto-hormuz-traffico-sette-navi-11-settembre-2026.html",
-      "section": "Mondo / Medio Oriente / Energia / Trasporti",
-      "dateISO": "2026-09-11T06:58:00+02:00",
-      "dateLabel": "2026-09-11",
-      "image": "/assets/images/editorial-auto/hormuz-traffico-sette-navi-ai-openai-v325-800.webp",
-      "imageAlt": "Poche navi commerciali attraversano lo Stretto di Hormuz, illustrazione editoriale fotorealistica generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/hormuz-traffico-sette-navi-ai-openai-v325-480.webp 480w, /assets/images/editorial-auto/hormuz-traffico-sette-navi-ai-openai-v325-800.webp 800w, /assets/images/editorial-auto/hormuz-traffico-sette-navi-ai-openai-v325-1200.webp 1200w"
-    },
-    {
       "title": "Diesel, prorogato fino al 17 settembre lo sconto di 17 centesimi",
       "excerpt": "Il Consiglio dei ministri estende per altri sette giorni la riduzione sul gasolio. Il decreto costa 86 milioni e rinvia la scelta sulle misure successive.",
       "url": "/notizie/diesel-sconto-accise-proroga-17-settembre-2026.html",
@@ -265,19 +325,6 @@
       "srcset": "/assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-480.webp 480w, /assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-800.webp 800w, /assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-1200.webp 1200w"
     },
     {
-      "title": "Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro",
-      "excerpt": "Un drone centra una stazione Ukrnafta a Kyiv, con quattro feriti. A Dnipro due morti e cinque feriti nell'impianto per l'olio di girasole del gruppo Bunge.",
-      "url": "/notizie/attacchi-russi-kyiv-dnipro-ukrnafta-bunge-settembre-2026.html",
-      "section": "Mondo / Ucraina / Cronaca",
-      "dateISO": "2026-09-10T19:43:49+02:00",
-      "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-800.webp",
-      "imageAlt": "Stabilimento agroindustriale danneggiato e isolato dopo un attacco in Ucraina, illustrazione editoriale fotorealistica generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-480.webp 480w, /assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-800.webp 800w, /assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-1200.webp 1200w"
-    },
-    {
       "title": "Legge elettorale, il Senato entra nel vivo dell'esame della riforma",
       "excerpt": "L'Aula prosegue l'esame del testo per Camera e Senato. La conclusione, con dichiarazioni e voto finale, è programmata per il 15 settembre.",
       "url": "/notizie/legge-elettorale-senato-esame-riforma-10-settembre-2026.html",
@@ -289,45 +336,6 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/senato-legge-elettorale-ai-v316-480.webp 480w, /assets/images/editorial-auto/senato-legge-elettorale-ai-v316-800.webp 800w, /assets/images/editorial-auto/senato-legge-elettorale-ai-v316-1200.webp 1200w"
-    },
-    {
-      "title": "Pensioni, il Governo valuta un «libretto previdenziale» dalla nascita",
-      "excerpt": "La ministra Calderone presenta l'ipotesi come opzione allo studio e rilancia previdenza complementare e modello multipilastro. Non è ancora una misura approvata.",
-      "url": "/notizie/pensioni-libretto-previdenziale-dalla-nascita-calderone-2026.html",
-      "section": "Italia / Economia / Pensioni",
-      "dateISO": "2026-09-10T19:43:49+02:00",
-      "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/libretto-previdenziale-ai-v316-800.webp",
-      "imageAlt": "Libretto simbolico senza scritte accanto a un giocattolo per neonati e monete euro, illustrazione editoriale fotorealistica generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/libretto-previdenziale-ai-v316-480.webp 480w, /assets/images/editorial-auto/libretto-previdenziale-ai-v316-800.webp 800w, /assets/images/editorial-auto/libretto-previdenziale-ai-v316-1200.webp 1200w"
-    },
-    {
-      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
-      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
-      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
-      "section": "Mondo / Ucraina / Canada / Difesa",
-      "dateISO": "2026-09-10T19:43:49+02:00",
-      "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp",
-      "imageAlt": "Volodymyr Zelenskyy e Mark Carney durante un incontro istituzionale in Canada, illustrazione editoriale fotorealistica generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-480.webp 480w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp 800w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-1200.webp 1200w"
-    },
-    {
-      "title": "Piantedosi: «CasaPound a Roma sarà sgomberata»",
-      "excerpt": "Il ministro dell'Interno afferma che l'immobile occupato sarà liberato. Nessuna data operativa è stata indicata; nello stesso intervento parla anche dell'iniziativa di Vannacci.",
-      "url": "/notizie/piantedosi-casapound-roma-sara-sgomberata-settembre-2026.html",
-      "section": "Italia / Politica / Cronaca",
-      "dateISO": "2026-09-10T19:43:49+02:00",
-      "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/piantedosi-casapound-ai-v316-800.webp",
-      "imageAlt": "Ritratto istituzionale neutrale del ministro Matteo Piantedosi con bandiere italiana ed europea, illustrazione editoriale fotorealistica generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/piantedosi-casapound-ai-v316-480.webp 480w, /assets/images/editorial-auto/piantedosi-casapound-ai-v316-800.webp 800w, /assets/images/editorial-auto/piantedosi-casapound-ai-v316-1200.webp 1200w"
     },
     {
       "title": "Incendio di Gombio, il bilancio: oltre 130 ettari bruciati",
@@ -343,17 +351,56 @@
       "srcset": "/assets/images/editorial-auto/incendio-gombio-ai-v316-480.webp 480w, /assets/images/editorial-auto/incendio-gombio-ai-v316-800.webp 800w, /assets/images/editorial-auto/incendio-gombio-ai-v316-1200.webp 1200w"
     },
     {
-      "title": "Agosto 2026 è il mese più caldo mai registrato insieme a luglio 2023",
-      "excerpt": "Copernicus misura una temperatura globale media di 16,96 °C, pari a 1,65 °C sopra il livello preindustriale. Ma un singolo mese non equivale al superamento definitivo della soglia di Parigi.",
-      "url": "/notizie/agosto-2026-mese-piu-caldo-record-copernicus.html",
-      "section": "Mondo / Ambiente / Scienza",
-      "dateISO": "2026-09-10T17:30:02+02:00",
+      "title": "Piantedosi: «CasaPound a Roma sarà sgomberata»",
+      "excerpt": "Il ministro dell'Interno afferma che l'immobile occupato sarà liberato. Nessuna data operativa è stata indicata; nello stesso intervento parla anche dell'iniziativa di Vannacci.",
+      "url": "/notizie/piantedosi-casapound-roma-sara-sgomberata-settembre-2026.html",
+      "section": "Italia / Politica / Cronaca",
+      "dateISO": "2026-09-10T19:43:49+02:00",
       "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/agosto-record-caldo-ai-v315-800.webp",
-      "imageAlt": "Scena editoriale contestuale fotorealistica di Roma durante un’intensa ondata di calore con il Tevere basso, generata con IA",
+      "image": "/assets/images/editorial-auto/piantedosi-casapound-ai-v316-800.webp",
+      "imageAlt": "Ritratto istituzionale neutrale del ministro Matteo Piantedosi con bandiere italiana ed europea, illustrazione editoriale fotorealistica generata con IA",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/agosto-record-caldo-ai-v315-480.webp 480w, /assets/images/editorial-auto/agosto-record-caldo-ai-v315-800.webp 800w, /assets/images/editorial-auto/agosto-record-caldo-ai-v315-1200.webp 1200w"
+      "srcset": "/assets/images/editorial-auto/piantedosi-casapound-ai-v316-480.webp 480w, /assets/images/editorial-auto/piantedosi-casapound-ai-v316-800.webp 800w, /assets/images/editorial-auto/piantedosi-casapound-ai-v316-1200.webp 1200w"
+    },
+    {
+      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
+      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
+      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
+      "section": "Mondo / Ucraina / Canada / Difesa",
+      "dateISO": "2026-09-10T19:43:49+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp",
+      "imageAlt": "Volodymyr Zelenskyy e Mark Carney durante un incontro istituzionale in Canada, illustrazione editoriale fotorealistica generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-480.webp 480w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp 800w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-1200.webp 1200w"
+    },
+    {
+      "title": "Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro",
+      "excerpt": "Un drone centra una stazione Ukrnafta a Kyiv, con quattro feriti. A Dnipro due morti e cinque feriti nell'impianto per l'olio di girasole del gruppo Bunge.",
+      "url": "/notizie/attacchi-russi-kyiv-dnipro-ukrnafta-bunge-settembre-2026.html",
+      "section": "Mondo / Ucraina / Cronaca",
+      "dateISO": "2026-09-10T19:43:49+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-800.webp",
+      "imageAlt": "Stabilimento agroindustriale danneggiato e isolato dopo un attacco in Ucraina, illustrazione editoriale fotorealistica generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-480.webp 480w, /assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-800.webp 800w, /assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-1200.webp 1200w"
+    },
+    {
+      "title": "Pensioni, il Governo valuta un «libretto previdenziale» dalla nascita",
+      "excerpt": "La ministra Calderone presenta l'ipotesi come opzione allo studio e rilancia previdenza complementare e modello multipilastro. Non è ancora una misura approvata.",
+      "url": "/notizie/pensioni-libretto-previdenziale-dalla-nascita-calderone-2026.html",
+      "section": "Italia / Economia / Pensioni",
+      "dateISO": "2026-09-10T19:43:49+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/libretto-previdenziale-ai-v316-800.webp",
+      "imageAlt": "Libretto simbolico senza scritte accanto a un giocattolo per neonati e monete euro, illustrazione editoriale fotorealistica generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/libretto-previdenziale-ai-v316-480.webp 480w, /assets/images/editorial-auto/libretto-previdenziale-ai-v316-800.webp 800w, /assets/images/editorial-auto/libretto-previdenziale-ai-v316-1200.webp 1200w"
     },
     {
       "title": "La BCE alza i tassi al 2,50% contro l’inflazione spinta dall’energia",
@@ -369,17 +416,17 @@
       "srcset": "/assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-480.webp 480w, /assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-800.webp 800w, /assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-1200.webp 1200w"
     },
     {
-      "title": "Istat, l’industria italiana riparte a luglio ma l’inflazione accelera",
-      "excerpt": "La produzione cresce dello 0,7% sul mese, mentre il Pil del secondo trimestre avanza dello 0,2%. L’energia spinge l’inflazione IPCA al 3,2%.",
-      "url": "/notizie/istat-economia-italiana-pil-industria-inflazione-luglio-agosto-2026.html",
-      "section": "Italia / Economia",
-      "dateISO": "2026-09-10T12:45:41+02:00",
+      "title": "Agosto 2026 è il mese più caldo mai registrato insieme a luglio 2023",
+      "excerpt": "Copernicus misura una temperatura globale media di 16,96 °C, pari a 1,65 °C sopra il livello preindustriale. Ma un singolo mese non equivale al superamento definitivo della soglia di Parigi.",
+      "url": "/notizie/agosto-2026-mese-piu-caldo-record-copernicus.html",
+      "section": "Mondo / Ambiente / Scienza",
+      "dateISO": "2026-09-10T17:30:02+02:00",
       "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/istat-economia-italia-ai-v314-800.webp",
-      "imageAlt": "Scena editoriale contestuale fotorealistica di un moderno impianto manifatturiero italiano in attività, generata con IA",
+      "image": "/assets/images/editorial-auto/agosto-record-caldo-ai-v315-800.webp",
+      "imageAlt": "Scena editoriale contestuale fotorealistica di Roma durante un’intensa ondata di calore con il Tevere basso, generata con IA",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/istat-economia-italia-ai-v314-480.webp 480w, /assets/images/editorial-auto/istat-economia-italia-ai-v314-800.webp 800w, /assets/images/editorial-auto/istat-economia-italia-ai-v314-1200.webp 1200w"
+      "srcset": "/assets/images/editorial-auto/agosto-record-caldo-ai-v315-480.webp 480w, /assets/images/editorial-auto/agosto-record-caldo-ai-v315-800.webp 800w, /assets/images/editorial-auto/agosto-record-caldo-ai-v315-1200.webp 1200w"
     },
     {
       "title": "Cavi artici, Reuters: alleati NATO hanno fermato un’esercitazione russa",
@@ -393,6 +440,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-480.webp 480w, /assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-800.webp 800w, /assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-1200.webp 1200w"
+    },
+    {
+      "title": "Istat, l’industria italiana riparte a luglio ma l’inflazione accelera",
+      "excerpt": "La produzione cresce dello 0,7% sul mese, mentre il Pil del secondo trimestre avanza dello 0,2%. L’energia spinge l’inflazione IPCA al 3,2%.",
+      "url": "/notizie/istat-economia-italiana-pil-industria-inflazione-luglio-agosto-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-09-10T12:45:41+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/istat-economia-italia-ai-v314-800.webp",
+      "imageAlt": "Scena editoriale contestuale fotorealistica di un moderno impianto manifatturiero italiano in attività, generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/istat-economia-italia-ai-v314-480.webp 480w, /assets/images/editorial-auto/istat-economia-italia-ai-v314-800.webp 800w, /assets/images/editorial-auto/istat-economia-italia-ai-v314-1200.webp 1200w"
     },
     {
       "title": "Spazio, firmati a Parigi due accordi industriali tra Italia e Francia",
@@ -811,19 +871,6 @@
       "srcset": "/assets/images/editorial-auto/italia-turchia-finale-europei-volley-6-settembre-2026-ai-v293-480.webp 480w, /assets/images/editorial-auto/italia-turchia-finale-europei-volley-6-settembre-2026-ai-v293-800.webp 800w, /assets/images/editorial-auto/italia-turchia-finale-europei-volley-6-settembre-2026-ai-v293-1200.webp 1200w"
     },
     {
-      "title": "Ebola Bundibugyo, il Congo vara un piano d’emergenza di 180 giorni",
-      "excerpt": "Il governo congolese e i partner sanitari rafforzano per sei mesi la risposta all’epidemia. Sorveglianza, laboratori, prevenzione e coordinamento transfrontaliero sono gli assi centrali.",
-      "url": "/notizie/ebola-bundibugyo-congo-piano-emergenza-180-giorni-6-settembre-2026.html",
-      "section": "Mondo / Salute / Congo",
-      "dateISO": "2026-09-06T18:45:00+02:00",
-      "dateLabel": "2026-09-06",
-      "image": "/assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-800.webp",
-      "imageAlt": "Ritratto editoriale neutrale generato con IA di un’operatrice sanitaria anonima con dispositivi di protezione, senza pazienti o sofferenza",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-480.webp 480w, /assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-800.webp 800w, /assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-1200.webp 1200w"
-    },
-    {
       "title": "OPEC+ congela le quote petrolifere per ottobre",
       "excerpt": "Sette produttori mantengono per ottobre i livelli richiesti a settembre. La guerra con l’Iran e le difficoltà nello Stretto di Hormuz continuano però a frenare l’offerta fisica.",
       "url": "/notizie/opec-plus-congela-quote-petrolio-ottobre-6-settembre-2026.html",
@@ -835,6 +882,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-480.webp 480w, /assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-800.webp 800w, /assets/images/editorial-auto/opec-plus-quote-ottobre-6-settembre-2026-ai-v290-1200.webp 1200w"
+    },
+    {
+      "title": "Ebola Bundibugyo, il Congo vara un piano d’emergenza di 180 giorni",
+      "excerpt": "Il governo congolese e i partner sanitari rafforzano per sei mesi la risposta all’epidemia. Sorveglianza, laboratori, prevenzione e coordinamento transfrontaliero sono gli assi centrali.",
+      "url": "/notizie/ebola-bundibugyo-congo-piano-emergenza-180-giorni-6-settembre-2026.html",
+      "section": "Mondo / Salute / Congo",
+      "dateISO": "2026-09-06T18:45:00+02:00",
+      "dateLabel": "2026-09-06",
+      "image": "/assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-800.webp",
+      "imageAlt": "Ritratto editoriale neutrale generato con IA di un’operatrice sanitaria anonima con dispositivi di protezione, senza pazienti o sofferenza",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-480.webp 480w, /assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-800.webp 800w, /assets/images/editorial-auto/ebola-bundibugyo-operatrice-sanitaria-congo-6-settembre-2026-ai-v290-1200.webp 1200w"
     },
     {
       "title": "Antonelli, impresa a Monza: vince il GP d’Italia partendo 19°",
@@ -954,19 +1014,6 @@
       "srcset": "/assets/images/editorial-auto/iran-economia-attacchi-piu-dolorosi-6-settembre-2026-ai-v285-480.webp 480w, /assets/images/editorial-auto/iran-economia-attacchi-piu-dolorosi-6-settembre-2026-ai-v285-800.webp 800w, /assets/images/editorial-auto/iran-economia-attacchi-piu-dolorosi-6-settembre-2026-ai-v285-1200.webp 1200w"
     },
     {
-      "title": "Confine Cina-Nepal, il porto di Gyirong cancellato dall’alluvione",
-      "excerpt": "Il valico che collegava Tibet e Nepal è stato travolto dalla colata di fango del 26 agosto. Del complesso doganale restano solo frammenti, mentre le ricerche dei dispersi continuano.",
-      "url": "/notizie/confine-cina-nepal-alluvione-porto-gyirong-distrutto-6-settembre-2026.html",
-      "section": "Mondo / Cina / Nepal",
-      "dateISO": "2026-09-06T14:20:00+02:00",
-      "dateLabel": "2026-09-06",
-      "image": "/assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-800.webp",
-      "imageAlt": "Scena editoriale contestuale sensibile del valico di Gyirong-Rasuwa tra Cina e Nepal con strada e infrastrutture danneggiate dall’alluvione, senza persone ferite",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-480.webp 480w, /assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-800.webp 800w, /assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-1200.webp 1200w"
-    },
-    {
       "title": "Ucraina, tregua aerea di 72 ore: Witkoff e Kushner oggi a Kyiv",
       "excerpt": "La pausa riguarda gli attacchi aerei contro le due capitali durante la missione americana, ma non tutti i combattimenti. Dopo il colloquio al Cremlino, gli inviati statunitensi sono attesi da Zelensky.",
       "url": "/notizie/ucraina-tregua-aerea-72-ore-witkoff-kushner-kyiv-6-settembre-2026.html",
@@ -978,6 +1025,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-480.webp 480w, /assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-800.webp 800w, /assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-1200.webp 1200w"
+    },
+    {
+      "title": "Confine Cina-Nepal, il porto di Gyirong cancellato dall’alluvione",
+      "excerpt": "Il valico che collegava Tibet e Nepal è stato travolto dalla colata di fango del 26 agosto. Del complesso doganale restano solo frammenti, mentre le ricerche dei dispersi continuano.",
+      "url": "/notizie/confine-cina-nepal-alluvione-porto-gyirong-distrutto-6-settembre-2026.html",
+      "section": "Mondo / Cina / Nepal",
+      "dateISO": "2026-09-06T14:20:00+02:00",
+      "dateLabel": "2026-09-06",
+      "image": "/assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-800.webp",
+      "imageAlt": "Scena editoriale contestuale sensibile del valico di Gyirong-Rasuwa tra Cina e Nepal con strada e infrastrutture danneggiate dall’alluvione, senza persone ferite",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-480.webp 480w, /assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-800.webp 800w, /assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-1200.webp 1200w"
     },
     {
       "title": "Sassonia-Anhalt al voto, affluenza in forte aumento: l’AfD cerca una svolta storica",
@@ -1656,19 +1716,6 @@
       "srcset": "/assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-480.webp 480w, /assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-800.webp 800w, /assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-1200.webp 1200w"
     },
     {
-      "title": "Affitto dimezzato per i genitori separati: pronta la norma da 60 milioni, contributi fino a 6.000 euro l’anno",
-      "excerpt": "Il MIT dichiara pronta la norma per il sostegno abitativo: 50% dell’affitto fino a 6.000 euro l’anno, reddito IRPEF entro 35.000 euro e prima platea stimata in almeno 5.000 beneficiari.",
-      "url": "/notizie/affitto-genitori-separati-fondo-60-milioni-30-agosto-2026.html",
-      "section": "Italia / Economia / Casa / Famiglie",
-      "dateISO": "2026-08-30T00:19:00+02:00",
-      "dateLabel": "2026-08-30",
-      "image": "/assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-800.webp",
-      "imageAlt": "Illustrazione editoriale IA di una chiave di casa davanti a un edificio residenziale italiano, simbolo del sostegno all’affitto",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-1200.webp 1200w"
-    },
-    {
       "title": "Rivolta nel carcere di Siracusa, agenti costretti a lanciarsi dal tetto: dieci poliziotti in ospedale, chiesta un’inchiesta",
       "excerpt": "Nuovi dettagli sui disordini nel carcere di Siracusa: alcuni agenti sono saltati da circa quattro metri per sfuggire al lancio di pietre. I sindacati chiedono un’inchiesta sulla gestione dell’intervento.",
       "url": "/notizie/siracusa-rivolta-carcere-agenti-tetto-inchiesta-30-agosto-2026.html",
@@ -1680,6 +1727,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-1200.webp 1200w"
+    },
+    {
+      "title": "Affitto dimezzato per i genitori separati: pronta la norma da 60 milioni, contributi fino a 6.000 euro l’anno",
+      "excerpt": "Il MIT dichiara pronta la norma per il sostegno abitativo: 50% dell’affitto fino a 6.000 euro l’anno, reddito IRPEF entro 35.000 euro e prima platea stimata in almeno 5.000 beneficiari.",
+      "url": "/notizie/affitto-genitori-separati-fondo-60-milioni-30-agosto-2026.html",
+      "section": "Italia / Economia / Casa / Famiglie",
+      "dateISO": "2026-08-30T00:19:00+02:00",
+      "dateLabel": "2026-08-30",
+      "image": "/assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di una chiave di casa davanti a un edificio residenziale italiano, simbolo del sostegno all’affitto",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-1200.webp 1200w"
     },
     {
       "title": "Nancy Grace Roman, domani il lancio: il telescopio NASA che mapperà miliardi di galassie",
@@ -2319,19 +2379,6 @@
       "srcset": ""
     },
     {
-      "title": "Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
-      "excerpt": "La legge statunitense COPPA regola la raccolta dei dati personali dei bambini sotto i 13 anni. Ecco come funziona il consenso dei genitori, quali obblighi hanno le piattaforme e perché le verifiche dell’età sono diventate centrali.",
-      "url": "/notizie/come-funziona-coppa-privacy-minori-online.html",
-      "section": "Tecnologia / Privacy",
-      "dateISO": "2026-08-22T15:18:00+02:00",
-      "dateLabel": "2026-08-22",
-      "image": "/assets/images/editorial-v210/coppa-privacy-bambini-800.webp",
-      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v210/coppa-privacy-bambini-480.webp 480w, /assets/images/editorial-v210/coppa-privacy-bambini-800.webp 800w, /assets/images/editorial-v210/coppa-privacy-bambini-1200.webp 1200w"
-    },
-    {
       "title": "TikTok e ByteDance, accordo da 400 milioni di dollari negli USA sulla privacy dei minori",
       "excerpt": "TikTok, ByteDance e società collegate hanno raggiunto con il Dipartimento di Giustizia USA un accordo da 400 milioni di dollari per chiudere il contenzioso sulle presunte violazioni della privacy dei bambini. Il DOJ precisa che le accuse sono state risolte senza una determinazione di responsabilità.",
       "url": "/notizie/tiktok-bytedance-400-milioni-privacy-minori-usa-22-agosto-2026.html",
@@ -2343,6 +2390,19 @@
       "imageWidth": 960,
       "imageHeight": 540,
       "srcset": ""
+    },
+    {
+      "title": "Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
+      "excerpt": "La legge statunitense COPPA regola la raccolta dei dati personali dei bambini sotto i 13 anni. Ecco come funziona il consenso dei genitori, quali obblighi hanno le piattaforme e perché le verifiche dell’età sono diventate centrali.",
+      "url": "/notizie/come-funziona-coppa-privacy-minori-online.html",
+      "section": "Tecnologia / Privacy",
+      "dateISO": "2026-08-22T15:18:00+02:00",
+      "dateLabel": "2026-08-22",
+      "image": "/assets/images/editorial-v210/coppa-privacy-bambini-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v210/coppa-privacy-bambini-480.webp 480w, /assets/images/editorial-v210/coppa-privacy-bambini-800.webp 800w, /assets/images/editorial-v210/coppa-privacy-bambini-1200.webp 1200w"
     },
     {
       "title": "Difterite a Palermo, positivo anche il cuginetto della bambina morta: si cerca il paziente zero",
@@ -2722,19 +2782,6 @@
       "srcset": "/assets/images/editorial-v210/recupero-opere-arte-480.webp 480w, /assets/images/editorial-v210/recupero-opere-arte-800.webp 800w, /assets/images/editorial-v210/recupero-opere-arte-1200.webp 1200w"
     },
     {
-      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
-      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
-      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
-      "section": "Mondo / Ambiente / Incendi",
-      "dateISO": "2026-08-16T12:00:00+02:00",
-      "dateLabel": "2026-08-16",
-      "image": "/assets/images/optimized/incendio-belgio-high-fens-16-agosto-2026-ai-960.webp",
-      "imageAlt": "Immagine illustrativa di vigili del fuoco impegnati contro un incendio in una torbiera delle Hautes Fagnes in Belgio",
-      "imageWidth": 640,
-      "imageHeight": 960,
-      "srcset": ""
-    },
-    {
       "title": "Perché gli incendi nelle torbiere sono così difficili da spegnere e possono ripartire?",
       "excerpt": "La torba può bruciare lentamente sotto terra, sfuggire ai controlli e riaccendere le fiamme in superficie. Ecco che cosa accade e come si interviene.",
       "url": "/notizie/perche-incendi-torbiere-difficili-spegnere.html",
@@ -2746,6 +2793,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v210/incendi-torbiere-480.webp 480w, /assets/images/editorial-v210/incendi-torbiere-800.webp 800w, /assets/images/editorial-v210/incendi-torbiere-1200.webp 1200w"
+    },
+    {
+      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
+      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
+      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
+      "section": "Mondo / Ambiente / Incendi",
+      "dateISO": "2026-08-16T12:00:00+02:00",
+      "dateLabel": "2026-08-16",
+      "image": "/assets/images/optimized/incendio-belgio-high-fens-16-agosto-2026-ai-960.webp",
+      "imageAlt": "Immagine illustrativa di vigili del fuoco impegnati contro un incendio in una torbiera delle Hautes Fagnes in Belgio",
+      "imageWidth": 640,
+      "imageHeight": 960,
+      "srcset": ""
     },
     {
       "title": "Perché gli uragani colpiscono raramente le Hawaii e quando diventano pericolosi?",
@@ -2788,7 +2848,7 @@
     },
     {
       "title": "Come si elegge il presidente FIFA? Voti, mandato e regole spiegati",
-      "excerpt": "Come funziona l’elezione del presidente FIFA: chi vota, quanti voti servono, quanto dura il mandato e perché le confederazioni non controllano automaticamente i voti.",
+      "excerpt": "Dalle 211 federazioni al Congresso, fino alla maggioranza richiesta: ecco come funziona davvero l’elezione del presidente della FIFA.",
       "url": "/notizie/come-si-elegge-presidente-fifa-voti-mandato-regole.html",
       "section": "Sport / Calcio / FIFA",
       "dateISO": "2026-08-14",
@@ -2866,7 +2926,7 @@
     },
     {
       "title": "UEFA, CONCACAF e AFC contro Infantino: «fiducia tradita» sul progetto Mondiali",
-      "excerpt": "UEFA, CONCACAF e AFC attaccano Gianni Infantino sul fallito progetto di cessione di una quota dei diritti commerciali dei Mondiali a investitori privati e chiedono una revisione indipendente.",
+      "excerpt": "Tre confederazioni continentali accusano il presidente FIFA di inganno e di una fondamentale violazione della fiducia sul progetto, poi abbandonato, di aprire a investitori privati i diritti commerciali dei Mondiali.",
       "url": "/notizie/uefa-concacaf-afc-infantino-scontro-fifa-10-agosto-2026.html",
       "section": "Sport / Calcio mondiale / Governance",
       "dateISO": "2026-08-10",
