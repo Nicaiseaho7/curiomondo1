@@ -12,6 +12,10 @@ name: Redazione · Watcher notizie
 # carico può ritardarli. Il target è ogni 5 minuti, la realtà sarà spesso 5-15.
 
 on:
+  push:
+    paths:
+      - '.github/workflows/newsroom-watch.yml'
+      - 'automation/newsroom/**'
   schedule:
     - cron: '*/5 * * * *'      # controllo rapido: fonti prioritarie e ultima ora
     - cron: '17,47 * * * *'    # scansione ampia: istituzionali, scienza, economia
