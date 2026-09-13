@@ -263,15 +263,23 @@ VALORE AGGIUNTO da rendere esplicito nel testo:
   "parole_chiave_titolo": ["fino a 2 parole o cifre PRESENTI NEL TITOLO da evidenziare"],
   "dati_chiave": [
     {"icona": "un solo carattere tipo ◆ ▲ ●", "valore": "cifra o parola breve", "etichetta": "cosa rappresenta, max 6 parole"}
-  ]
+  ],
+  "immagine": {
+    "prompt": "descrizione in inglese di una fotografia editoriale ultrarealistica specifica per questa notizia, senza testo, titoli, watermark o infografiche",
+    "alt": "alt text italiano che dichiara scena editoriale contestuale ordinaria oppure ritratto editoriale neutrale per situazione sensibile",
+    "personaggio_pubblico": true oppure false,
+    "contesto_sensibile": true oppure false
+  }
 }
 
 Vincoli tassativi:
 - ogni paragrafo: massimo 60 parole, da 2 a 4 frasi;
 - nessuna frase puo somigliare a un'altra: un controllo automatico rifiuta l'articolo;
-- almeno 2 fonti, con URL presi dal materiale fornito e mai inventati;
+- da 3 a 6 fonti, con URL presi dal materiale fornito e mai inventati;
 - esattamente 3 elementi in "dati_chiave", tutti ricavati da cifre o fatti presenti nel materiale;
-- "parole_chiave_titolo" deve contenere parole che compaiono ESATTAMENTE nel titolo che hai scritto."""
+- "parole_chiave_titolo" deve contenere parole che compaiono ESATTAMENTE nel titolo che hai scritto;
+- il prompt immagine deve descrivere una fotografia editoriale professionale nuova e specifica, senza testo nei pixel;
+- se la notizia riguarda morte, incidente, malattia, violenza, guerra, catastrofe, arresto, accuse gravi, lutto o sofferenza, il visual non deve ricostruire il trauma. Se raffigura un personaggio pubblico deve essere soltanto un ritratto neutrale isolato."""
 
     dati, uso = client.complete_json(
         model=modello,
@@ -286,7 +294,10 @@ Vincoli tassativi:
     return dati, uso
 
 
-def controlla_articolo(articolo: dict[str, Any]) -> list[str]:
+def controlla_articolo(
+    articolo: dict[str, Any],
+    allowed_source_urls: set[str] | None = None,
+) -> list[str]:
     """Verifica in codice i vincoli che il gate applicherà comunque.
 
     Serve a scartare subito un articolo difettoso, invece di scoprirlo alla
@@ -319,8 +330,17 @@ def controlla_articolo(articolo: dict[str, Any]) -> list[str]:
 
     fonti = articolo.get("fonti") or []
     valide = [f for f in fonti if str(f.get("url", "")).startswith("http")]
-    if len(valide) < 2:
-        problemi.append(f"meno di due fonti con URL ({len(valide)})")
+    if len(valide) < 3:
+        problemi.append(f"meno di tre fonti con URL ({len(valide)})")
+    urls = [str(f.get("url", "")).strip() for f in valide]
+    if len(set(urls)) != len(urls):
+        problemi.append("fonti duplicate")
+    if len(urls) > 6:
+        problemi.append(f"piu di sei fonti ({len(urls)})")
+    if allowed_source_urls is not None:
+        inventate = [url for url in urls if url not in allowed_source_urls]
+        if inventate:
+            problemi.append("URL fonte non presente nel materiale")
 
     dati_chiave = articolo.get("dati_chiave") or []
     if len(dati_chiave) != 3:
@@ -334,5 +354,16 @@ def controlla_articolo(articolo: dict[str, Any]) -> list[str]:
         problemi.append(f"parole chiave non presenti nel titolo: {', '.join(assenti)}")
     if not chiavi:
         problemi.append("nessuna parola chiave da evidenziare nel titolo")
+
+    immagine = articolo.get("immagine") or {}
+    prompt = str(immagine.get("prompt", "")).strip()
+    alt = str(immagine.get("alt", "")).strip()
+    if len(prompt) < 80:
+        problemi.append("prompt immagine assente o troppo generico")
+    if not alt:
+        problemi.append("alt text immagine assente")
+    if articolo.get("verifica", {}).get("sensibile") and immagine.get("personaggio_pubblico"):
+        if not immagine.get("contesto_sensibile"):
+            problemi.append("personaggio pubblico sensibile senza contesto_sensibile")
 
     return problemi

@@ -84,6 +84,13 @@ def lavora(
             store.update(candidato.url_key, status=REJECTED, reason="fonti_non_leggibili")
             log.event("scartato", motivo="fonti_non_leggibili", titolo=candidato.title[:70])
             continue
+        if len(leggibili) < 3:
+            # Il protocollo impone 3-6 fonti consultate. Il candidato resta
+            # attivo: il watcher potra aggiungere conferme nei cicli seguenti.
+            store.update(candidato.url_key, reason=f"in_attesa_fonti:{len(leggibili)}/3")
+            log.event("in_attesa", motivo="meno_di_tre_fonti_leggibili",
+                      titolo=candidato.title[:70], fonti=len(leggibili))
+            continue
 
         # 2. Verifica editoriale.
         try:
@@ -123,8 +130,17 @@ def lavora(
             log.event("errore_stesura", dettaglio=str(exc)[:200])
             continue
 
+        articolo["verifica"] = {
+            "motivo": verdetto.motivo,
+            "valore_aggiunto": verdetto.valore_aggiunto,
+            "fonte_primaria": verdetto.fonte_primaria,
+            "sensibile": verdetto.sensibile,
+        }
+
         # 4. Controllo del contratto, prima di spendere altro.
-        problemi = editor.controlla_articolo(articolo)
+        problemi = editor.controlla_articolo(
+            articolo, {e.url for e in leggibili}
+        )
         if problemi:
             store.update(candidato.url_key, attempts=candidato.attempts + 1,
                          reason="articolo_non_conforme")
@@ -134,13 +150,6 @@ def lavora(
 
         articolo["fonte_originale"] = candidato.url
         articolo["conferme"] = [c.get("source") for c in candidato.corroborations]
-        articolo["verifica"] = {
-            "motivo": verdetto.motivo,
-            "valore_aggiunto": verdetto.valore_aggiunto,
-            "fonte_primaria": verdetto.fonte_primaria,
-            "sensibile": verdetto.sensibile,
-        }
-
         if not solo_prova:
             store.update(candidato.url_key, status=DRAFTED, article=articolo)
         bozze.append(articolo)

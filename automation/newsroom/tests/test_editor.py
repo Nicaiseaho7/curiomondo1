@@ -183,6 +183,7 @@ def articolo_valido(**extra):
         "fonti": [
             {"url": "https://istat.it/x", "descrizione": "dati ufficiali"},
             {"url": "https://reuters.com/y", "descrizione": "conferma"},
+            {"url": "https://ec.europa.eu/z", "descrizione": "confronto europeo"},
         ],
         "parole_chiave_titolo": ["0,3%", "PIL"],
         "dati_chiave": [
@@ -190,6 +191,12 @@ def articolo_valido(**extra):
             {"icona": "▲", "valore": "2026", "etichetta": "anno di riferimento"},
             {"icona": "●", "valore": "Servizi", "etichetta": "settore trainante"},
         ],
+        "immagine": {
+            "prompt": "Ultra realistic editorial photograph of Italian economic data analysts in a modern newsroom, natural light, no text or watermark",
+            "alt": "Scena editoriale contestuale ordinaria generata con IA su analisti economici italiani",
+            "personaggio_pubblico": False,
+            "contesto_sensibile": False,
+        },
     }
     base.update(extra)
     return base
@@ -209,9 +216,15 @@ def test_scarta_lunghezza_fuori_fascia():
     assert any("fuori fascia" in p for p in editor.controlla_articolo(corto))
 
 
-def test_pretende_almeno_due_fonti():
+def test_pretende_almeno_tre_fonti():
     una = articolo_valido(fonti=[{"url": "https://istat.it/x", "descrizione": "dati"}])
-    assert any("due fonti" in p for p in editor.controlla_articolo(una))
+    assert any("tre fonti" in p for p in editor.controlla_articolo(una))
+
+
+def test_rifiuta_url_fonte_inventati():
+    articolo = articolo_valido()
+    consentite = {"https://istat.it/x", "https://ansa.it/y"}
+    assert any("non presente" in p for p in editor.controlla_articolo(articolo, consentite))
 
 
 def test_pretende_esattamente_tre_dati_chiave():

@@ -1,8 +1,8 @@
 name: Redazione · Watcher notizie
 
-# Il watcher gira spesso ed è volutamente economico: interroga le fonti, elimina
-# i doppioni e registra i candidati. Non chiama modelli a pagamento e non
-# pubblica nulla.
+# Il watcher gira spesso ed è volutamente economico. Soltanto quando trova
+# candidati reali attiva verifica, stesura e immagine OpenAI; gli articoli
+# conformi vengono pubblicati insieme con un solo push/deploy per ciclo.
 #
 # Lo stato vive sul branch "automation-state", mai su main: Netlify pubblica la
 # root di main, quindi scrivere lo stato sul ramo di produzione significherebbe
@@ -43,6 +43,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Dipendenze della redazione
+        run: pip install --quiet lxml Pillow
+
       - name: Scegli la velocità
         id: mode
         run: |
@@ -76,7 +79,72 @@ jobs:
             | tee /tmp/riepilogo.json
           echo "nuovi=$(python3 -c "import json;print(json.load(open('/tmp/riepilogo.json'))['nuovi_candidati'])")" >> "$GITHUB_OUTPUT"
 
+      - name: Verifica i deploy precedenti sul sito pubblico
+        run: python3 -m automation.newsroom.verify --state .state
+
+      - name: Verifica, scrive e prepara il lotto
+        id: editor
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python3 -m automation.newsroom.worker \
+            --state .state \
+            --max 3 \
+            --articles notizie \
+            > /tmp/editor.json
+          cat /tmp/editor.json
+
+      - name: Genera immagini e sincronizza il sito
+        id: publish
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          CURIOMONDO_AUTO_PUBLISH: 'true'
+        run: |
+          python3 -m automation.newsroom.publisher --state .state --max 3 > /tmp/publish.json
+          cat /tmp/publish.json
+          echo "articoli=$(python3 -c "import json;print(json.load(open('/tmp/publish.json')).get('articoli',0))")" >> "$GITHUB_OUTPUT"
+
+      - name: Gate completo prima del deploy
+        if: steps.publish.outputs.articoli != '0'
+        run: python3 tools/predeploy.py
+
+      - name: Pubblica il lotto su main
+        id: deploy
+        if: steps.publish.outputs.articoli != '0'
+        env:
+          REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        run: |
+          git config user.name "curiomondo-newsroom[bot]"
+          git config user.email "curiomondo-newsroom@users.noreply.github.com"
+          git add notizie assets/data assets/images/editorial-auto categorie index.html feed.xml sitemap.xml news-sitemap.xml curiomondo-site-manifest.json
+          if git diff --cached --quiet; then
+            echo "::error::Il renderer dichiarava articoli pronti ma non ha modificato il sito."
+            exit 1
+          fi
+          git commit -m "Redazione automatica: pubblica lotto $(date -u +%Y-%m-%dT%H:%MZ)"
+          for tentativo in 1 2 3; do
+            if git push "$REPO_URL" HEAD:main; then
+              echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "Push non riuscito (tentativo $tentativo), riallineo e rivalido."
+            git pull --rebase "$REPO_URL" main
+            python3 tools/predeploy.py
+          done
+          exit 1
+
+      - name: Conferma nello stato gli articoli pubblicati
+        if: steps.deploy.outputs.commit != ''
+        run: |
+          python3 -m automation.newsroom.publisher \
+            --state .state --confirm --commit "${{ steps.deploy.outputs.commit }}"
+
+      - name: Recupera il lotto se gate o push falliscono
+        if: failure() && steps.publish.outputs.articoli != '0'
+        run: python3 -m automation.newsroom.publisher --state .state --rollback
+
       - name: Salva lo stato aggiornato
+        if: always() && steps.watch.outcome == 'success'
         env:
           REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
         run: |
@@ -88,7 +156,7 @@ jobs:
             echo "Nessuna novità: niente da salvare."
             exit 0
           fi
-          git commit --quiet -m "watcher ${{ steps.mode.outputs.cadence }}: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git commit --quiet -m "redazione ${{ steps.mode.outputs.cadence }}: $(date -u +%Y-%m-%dT%H:%MZ)"
           for tentativo in 1 2 3; do
             if git push --quiet "$REPO_URL" automation-state; then
               exit 0
@@ -101,11 +169,13 @@ jobs:
           exit 1
 
       - name: Riepilogo
+        if: always()
         run: |
           {
             echo "### Watcher ${{ steps.mode.outputs.cadence }}"
             echo ""
             echo "Nuovi candidati: **${{ steps.watch.outputs.nuovi }}**"
+            echo "Articoli pubblicati nel lotto: **${{ steps.publish.outputs.articoli || '0' }}**"
             echo ""
             echo '```json'
             cat /tmp/riepilogo.json

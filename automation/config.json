@@ -1,7 +1,7 @@
 {
   "version": 3,
   "timezone": "Europe/Rome",
-  "safe_mode": true,
+  "safe_mode": false,
   "live": {
     "interval_minutes": 10,
     "max_items": 10,
@@ -173,6 +173,8 @@
   "newsroom": {
     "modello_verifica": "gpt-5",
     "modello_stesura": "gpt-5",
+    "modello_immagine": "gpt-image-1",
+    "modello_verifica_immagine": "gpt-4o",
     "tetto_giornaliero_usd": 5.0,
     "soglia_allerta": 0.8,
     "max_bozze_per_ciclo": 3,

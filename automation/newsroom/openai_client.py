@@ -12,6 +12,7 @@ from __future__ import annotations
 import json
 import os
 import time
+import base64
 import urllib.error
 import urllib.request
 from dataclasses import dataclass, field
@@ -226,3 +227,90 @@ class Client:
             return json.loads(testo), uso
         except json.JSONDecodeError as exc:
             raise OpenAIError(f"risposta non in JSON valido: {exc}") from None
+
+    def generate_image(
+        self,
+        model: str,
+        prompt: str,
+        size: str = "1536x1024",
+        quality: str = "high",
+    ) -> tuple[bytes, Usage]:
+        """Genera un'immagine e restituisce i byte PNG senza scrivere segreti nei log."""
+        if self.budget is not None:
+            self.budget.check(IMAGE_PRICE_EACH)
+        risposta = self._post("/images/generations", {
+            "model": model,
+            "prompt": prompt,
+            "size": size,
+            "quality": quality,
+            "output_format": "png",
+            "n": 1,
+        })
+        immagini = risposta.get("data") or []
+        encoded = immagini[0].get("b64_json", "") if immagini else ""
+        if not encoded:
+            raise OpenAIError("generazione immagine senza dati")
+        try:
+            payload = base64.b64decode(encoded, validate=True)
+        except Exception as exc:
+            raise OpenAIError("immagine restituita in formato non valido") from exc
+        if len(payload) < 10_000:
+            raise OpenAIError("immagine generata troppo piccola o corrotta")
+        uso = Usage(calls=1, images=1, cost_usd=IMAGE_PRICE_EACH)
+        self.usage.add(uso)
+        if self.budget is not None:
+            self.budget.record(uso)
+        return payload, uso
+
+    def inspect_image(
+        self,
+        model: str,
+        image_bytes: bytes,
+        brief: str,
+    ) -> tuple[dict[str, Any], Usage]:
+        """Applica un controllo visivo fail-closed prima della pubblicazione."""
+        encoded = base64.b64encode(image_bytes).decode("ascii")
+        payload = {
+            "model": model,
+            "messages": [{
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": (
+                            "Sei il controllo qualita visivo di una redazione. "
+                            "Valuta soltanto l'immagine allegata rispetto al brief. "
+                            "Rispondi in JSON con: approvata (boolean), fotorealistica "
+                            "(boolean), coerente (boolean), testo_nei_pixel (boolean), "
+                            "contenuto_sensibile_non_consentito (boolean), motivo (string). "
+                            "Approva solo se e fotorealistica, coerente, senza testo, loghi "
+                            "aggiunti o watermark e senza scene traumatiche inventate.\n\n"
+                            f"Brief: {brief}"
+                        ),
+                    },
+                    {"type": "image_url", "image_url": {
+                        "url": f"data:image/png;base64,{encoded}", "detail": "low"
+                    }},
+                ],
+            }],
+            "response_format": {"type": "json_object"},
+            "max_completion_tokens": 500,
+        }
+        risposta = self._post("/chat/completions", payload)
+        uso_api = risposta.get("usage", {})
+        uso = Usage(
+            calls=1,
+            input_tokens=int(uso_api.get("prompt_tokens", 0)),
+            output_tokens=int(uso_api.get("completion_tokens", 0)),
+        )
+        uso.cost_usd = estimate_cost(model, uso.input_tokens, uso.output_tokens)
+        self.usage.add(uso)
+        if self.budget is not None:
+            self.budget.record(uso)
+        choices = risposta.get("choices") or []
+        if not choices:
+            raise OpenAIError("verifica immagine senza contenuto")
+        try:
+            return json.loads(choices[0]["message"]["content"]), uso
+        except (KeyError, TypeError, json.JSONDecodeError) as exc:
+            raise OpenAIError("verifica immagine non in JSON valido") from exc

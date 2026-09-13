@@ -23,10 +23,10 @@ minuti non consuma neanche un build.
 | Fase | Contenuto | Stato |
 |---|---|---|
 | 1 | Watcher, fonti, deduplicazione, filtri, stato persistente | ✅ completata |
-| 2 | Verifica editoriale e stesura articolo (OpenAI) | da fare |
-| 3 | Immagine editoriale fotorealistica (OpenAI) | da fare |
-| 4 | Coda di pubblicazione e deploy a lotti | da fare |
-| 5 | Verifica post-deploy sul sito pubblico e recupero automatico | da fare |
+| 2 | Verifica editoriale e stesura articolo (OpenAI) | ✅ completata |
+| 3 | Immagine editoriale fotorealistica (OpenAI) | ✅ completata |
+| 4 | Coda di pubblicazione e deploy a lotti | ✅ completata |
+| 5 | Verifica post-deploy sul sito pubblico e recupero automatico | ✅ completata |
 
 ## Componenti della Fase 1
 
