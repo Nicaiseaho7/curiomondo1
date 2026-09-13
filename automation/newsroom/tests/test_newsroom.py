@@ -333,3 +333,22 @@ def test_watch_registra_le_conferme_invece_di_buttarle(tmp_path, monkeypatch):
     assert len(vivi) == 1, "una sola notizia, non due"
     assert vivi[0].independent_sources == 2, "la seconda testata deve contare come conferma"
     assert vivi[0].corroborations[0]["source"] in ("ANSA", "Reuters")
+
+
+def test_sisma_lieve_non_e_notizia():
+    """Le reti sismiche pubblicano ogni scossa: senza filtro il worker
+    spenderebbe una verifica a pagamento per ogni micro-sisma."""
+    d = filters.screen("Earthquake 1 km W Terenzo (PR), Magnitude ML 2.0", "",
+                       "primary", "high", iso(0.2), now=NOW)
+    assert not d.accepted and d.reason == "sisma_sotto_soglia"
+
+
+def test_sisma_forte_resta_breaking():
+    d = filters.screen("Terremoto di magnitudo 6.4 al largo della Grecia", "",
+                       "agency", "high", iso(0.2), now=NOW)
+    assert d.accepted and d.priority == "breaking"
+
+
+def test_magnitudo_non_confonde_altre_cifre():
+    assert not filters.magnitudo_trascurabile("Il PIL cresce dello 0,3% nel trimestre")
+    assert filters.magnitudo_trascurabile("Scossa di magnitudo 3,1 in Appennino")
