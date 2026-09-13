@@ -1,7 +1,36 @@
 {
-  "version": 347,
+  "version": 350,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu-ai-openai-v350",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu-ai-openai-v350-480.webp",
+          "sha256": "e7920bde03ad8e6bbe5594496f2a8190e5d0390fcd55968cc0ffdfd980a8e8d8",
+          "bytes": 12852
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu-ai-openai-v350-800.webp",
+          "sha256": "efee0ce39eeb7064f39d64bfcd6220f6601f49d17213f782297108541a3113bb",
+          "bytes": 27054
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu-ai-openai-v350-1200.webp",
+          "sha256": "18ebf2fa95911d436b0707e42f32060fc7bd8950bde3cd82d51610f8dc0a3786",
+          "bytes": 52026
+        }
+      ],
+      "alt": "Scena editoriale in sala controllo durante osservazioni ai raggi X su un outburst stellare",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "article": "/notizie/chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu.html"
+    },
     {
       "key": "virgo-transport-8-indonesia-ai-openai-v347",
       "article": "/notizie/indonesia-traghetto-virgo-transport-8-129-dispersi-13-settembre-2026.html",
