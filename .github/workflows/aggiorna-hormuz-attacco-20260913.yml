@@ -1,0 +1,203 @@
+name: Aggiorna Hormuz 13 settembre 2026
+
+on:
+  push:
+    paths:
+      - '.github/workflows/aggiorna-hormuz-attacco-20260913.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Dipendenze
+        run: pip install lxml beautifulsoup4
+
+      - name: Aggiorna articolo Hormuz
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from bs4 import BeautifulSoup
+          import json, re
+
+          path = Path('notizie/stretto-hormuz-traffico-sette-navi-11-settembre-2026.html')
+          html = path.read_text(encoding='utf-8')
+          soup = BeautifulSoup(html, 'html.parser')
+
+          title = 'Stretto di Hormuz, nave colpita da un proiettile: cresce il rischio per petrolio e traffici'
+          desc = 'UKMTO segnala una nave colpita da un proiettile nello Stretto di Hormuz. I danni non sono ancora noti mentre la crisi energetica regionale resta sotto pressione.'
+          subtitle = 'UKMTO segnala una nave colpita da un proiettile nello Stretto di Hormuz. I danni non sono ancora noti, mentre Brent sopra 100 dollari e tensioni regionali aumentano il rischio per l’energia.'
+          modified = '2026-09-13T04:54:00+02:00'
+
+          soup.title.string = title + ' | CurioMondo'
+          for tag in soup.find_all('meta'):
+              if tag.get('name') == 'description': tag['content'] = desc
+              if tag.get('property') == 'og:title': tag['content'] = title
+              if tag.get('property') == 'og:description': tag['content'] = desc
+          h1 = soup.find('h1')
+          if h1: h1.string = title
+          st = soup.find('p', class_='subtitle')
+          if st: st.string = subtitle
+          meta = soup.find('div', class_='meta')
+          if meta:
+              meta.clear()
+              meta.append('11 settembre 2026 · Aggiornato 13 settembre 2026 · Mondo · ')
+              span = soup.new_tag('span', id='readTime')
+              span.string = '5 min di lettura'
+              meta.append(span)
+
+          ld = soup.find('script', attrs={'type':'application/ld+json'})
+          if ld and ld.string:
+              data = json.loads(ld.string)
+              data['headline'] = title
+              data['description'] = desc
+              data['dateModified'] = modified
+              ld.string = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
+
+          insight = soup.find('section', class_='cm-insight')
+          if insight:
+              insight.clear()
+              kicker = soup.new_tag('span', attrs={'class':'cm-kicker'})
+              kicker.string = 'Il punto in tre dati'
+              insight.append(kicker)
+              grid = soup.new_tag('div', attrs={'class':'cm-insight-grid'})
+              for strong_text, span_text in [
+                  ('1', 'nave segnalata colpita da un proiettile'),
+                  ('4–5 mln', 'barili al giorno trasportati dalla pipeline saudita Est-Ovest nei mesi recenti'),
+                  ('>100 $', 'Brent sopra quota 100 dollari al barile')
+              ]:
+                  d = soup.new_tag('div')
+                  s1 = soup.new_tag('strong'); s1.string = strong_text
+                  s2 = soup.new_tag('span'); s2.string = span_text
+                  d.append(s1); d.append(s2); grid.append(d)
+              insight.append(grid)
+
+          body = soup.find('article', class_='art-body')
+          if not body:
+              raise SystemExit('corpo articolo non trovato')
+          body.clear()
+          paras = [
+              'Una nave è stata colpita da un proiettile nello Stretto di Hormuz, secondo una segnalazione diffusa il 13 settembre da UK Maritime Trade Operations e riportata da Reuters. L’entità dei danni non è ancora nota. L’episodio riporta al centro la sicurezza della navigazione in uno dei passaggi energetici più importanti del mondo.',
+              'La nuova segnalazione arriva mentre la regione è già sotto forte pressione. L’Arabia Saudita ha temporaneamente chiuso la pipeline Est-Ovest dopo un attacco con droni. Negli ultimi mesi quella condotta aveva trasportato circa 4-5 milioni di barili al giorno, pari a circa il 4-5% dell’offerta petrolifera mondiale, diventando ancora più importante durante le difficoltà nello Stretto di Hormuz.',
+              'Reuters riferisce che il presidente statunitense Donald Trump ha attribuito probabilmente all’Iran la responsabilità dell’attacco alla pipeline saudita. Si tratta di un’attribuzione politica, non di una responsabilità accertata in modo indipendente. Teheran non va quindi indicata come responsabile certa senza ulteriori prove verificabili.',
+              'Anche il contesto marittimo resta fragile. I transiti commerciali attraverso Hormuz erano già scesi in singola cifra nella rilevazione dell’11 settembre, contro circa 125 grandi navi al giorno prima della guerra. I dati AIS possono però sottostimare il traffico reale perché alcune unità spengono i transponder per ragioni di sicurezza.',
+              'Lo Stretto di Hormuz collega il Golfo Persico con il Golfo di Oman. Secondo la U.S. Energy Information Administration, nella prima metà del 2025 vi transitavano in media 20,9 milioni di barili al giorno di petrolio e prodotti liquidi, circa il 20% del consumo mondiale. Per questo anche un singolo nuovo incidente può avere un impatto immediato sulle aspettative dei mercati.',
+              'Il Brent resta sopra i 100 dollari al barile, livello che riflette il premio per il rischio geopolitico e il timore di nuove interruzioni dell’offerta. Le rotte terrestri alternative di Arabia Saudita ed Emirati Arabi Uniti non hanno capacità sufficiente per sostituire integralmente i volumi che storicamente attraversano Hormuz.',
+              'La segnalazione di UKMTO non chiarisce ancora quale nave sia stata colpita, quale tipo di proiettile sia stato utilizzato né chi abbia condotto l’attacco. Questi elementi restano quindi in verifica e CurioMondo non li presenta come fatti accertati.',
+              'Il rischio principale è l’effetto cumulativo. La chiusura temporanea della pipeline saudita, la compressione del traffico marittimo e ora un nuovo episodio contro una nave aumentano contemporaneamente l’incertezza su trasporti, assicurazioni, tempi di consegna e prezzi dell’energia.',
+              'Le autorità marittime stanno continuando a monitorare l’area. Per le prossime ore saranno decisivi eventuali aggiornamenti sui danni alla nave, sull’identificazione del vettore dell’attacco e sulla sicurezza dei transiti commerciali.'
+          ]
+          for text in paras:
+              p = soup.new_tag('p'); p.string = text; body.append(p)
+
+          src = soup.find('div', class_='art-sources')
+          if src:
+              ul = src.find('ul')
+              if ul:
+                  li = soup.new_tag('li')
+                  a = soup.new_tag('a', href='https://www.reuters.com/business/energy/new-report-attack-strait-hormuz-shipping-fans-fears-threats-oil-supplies-2026-09-13/', target='_blank', rel='noopener noreferrer')
+                  a.string = 'Reuters — 13 settembre 2026 — nave colpita da un proiettile nello Stretto di Hormuz e impatto sui rischi energetici'
+                  li.append(a)
+                  ul.insert(0, li)
+              small = src.find('small')
+              if small:
+                  text = str(small)
+                  text = re.sub(r'Ultimo aggiornamento editoriale:.*?<br/>', 'Ultimo aggiornamento editoriale: 13 settembre 2026, ore italiane.<br/>', text, flags=re.S)
+                  repl = BeautifulSoup(text, 'html.parser').find('small')
+                  small.replace_with(repl)
+
+          path.write_text(str(soup), encoding='utf-8')
+          PY
+
+      - name: Aggiorna superfici editoriali
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json, re
+
+          url = '/notizie/stretto-hormuz-traffico-sette-navi-11-settembre-2026.html'
+          title = 'Stretto di Hormuz, nave colpita da un proiettile: cresce il rischio per petrolio e traffici'
+          excerpt = 'UKMTO segnala una nave colpita da un proiettile nello Stretto di Hormuz. I danni non sono ancora noti mentre la crisi energetica regionale resta sotto pressione.'
+
+          for name in ('assets/data/home-feed-v210.json','assets/data/search-index-v210.json'):
+              p=Path(name)
+              if not p.exists():
+                  continue
+              d=json.loads(p.read_text(encoding='utf-8'))
+              items=d.get('items',[]) if isinstance(d,dict) else d
+              found=None
+              for i,item in enumerate(items):
+                  if item.get('url')==url:
+                      found=items.pop(i)
+                      break
+              if found:
+                  found['title']=title
+                  found['excerpt']=excerpt
+                  items.insert(0,found)
+              if isinstance(d,dict):
+                  if 'version' in d: d['version']=342
+                  d['items']=items
+              else: d=items
+              p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          for name in ('feed.xml','sitemap-news.xml','sitemap.xml','notizie/index.html','index.html'):
+              p=Path(name)
+              if not p.exists():
+                  continue
+              s=p.read_text(encoding='utf-8')
+              s=s.replace('Stretto di Hormuz, i transiti commerciali scendono a sette', title)
+              s=s.replace('I passaggi registrati restano in singola cifra mentre la crisi regionale spinge il petrolio oltre 100 dollari. I dati AIS possono però sottostimare il traffico reale.', excerpt)
+              p.write_text(s,encoding='utf-8')
+          PY
+
+      - name: Aggiorna stato release v342
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          for name in ('curiomondo-site-manifest.json','RELEASE-STATE.json','CURIOMONDO-RELEASE-STATE.json'):
+              p=Path(name)
+              if not p.exists(): continue
+              d=json.loads(p.read_text(encoding='utf-8'))
+              if name=='curiomondo-site-manifest.json':
+                  d.setdefault('site',{})['current_site_version']=342
+                  d['site']['site_version']=342
+              else:
+                  if 'site_version' in d: d['site_version']=342
+                  if 'currentVersion' in d: d['currentVersion']=342
+                  if 'version' in d: d['version']='342'
+                  if 'baseline_version' in d: d['baseline_version']=341
+                  if 'baselineVersion' in d: d['baselineVersion']=341
+                  if 'release_date' in d: d['release_date']='2026-09-13'
+                  if 'date' in d: d['date']='2026-09-13'
+                  if 'last_update' in d: d['last_update']='hormuz-nave-colpita-proiettile-v342'
+              p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+
+      - name: Gate predeploy
+        run: python3 tools/predeploy.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica"
+            exit 0
+          fi
+          git commit -m "v342: aggiorna Hormuz dopo attacco a nave"
+          git push
