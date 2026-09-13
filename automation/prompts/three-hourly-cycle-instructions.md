@@ -57,14 +57,24 @@ alle API GitHub.
 
 ## 1. Ricerca notizie
 
+- **FRESCHEZZA FERREA — ultima istruzione del proprietario:** cercare e proporre
+  soltanto notizie pubblicate o sviluppatesi nel giorno corrente in fuso
+  `Europe/Rome`. Non usare come nuove notizie fatti usciti da giorni, settimane
+  o mesi, anche se sono interessanti o evergreen. Una storia precedente può
+  rientrare nel ciclo solo se oggi esiste uno sviluppo sostanziale nuovo
+  (decisione ufficiale, bilancio aggiornato, nuova misura, nuova conferma,
+  conseguenza concreta) e l'articolo deve mettere in apertura lo sviluppo di
+  oggi, non riciclare la storia base. Se la fonte primaria o le conferme non
+  riportano una data/ora compatibile con oggi, scartare la notizia.
 - Fonti primarie: i feed RSS Google News già filtrati in `automation/live-sources.json`
   (`trusted_publishers`: Reuters, Associated Press/AP News, Bloomberg, ANSA, AGI,
   Adnkronos, United Nations). Le query dei feed usano `when:1h`; dato che il ciclo
-  gira ogni 3 ore, ripetere la ricerca coprendo l'intera finestra dall'ultima
-  pubblicazione (guardare `CURIOMONDO-RELEASE-STATE.json` → `release_date`/`last_update`
-  e i timestamp degli articoli più recenti in `notizie/`), non solo l'ultima ora.
+  gira ogni 3 ore, ripetere la ricerca coprendo l'intera finestra recente del
+  giorno corrente, non solo l'ultima ora, ma senza arretrare a giorni precedenti
+  salvo il caso di uno sviluppo nuovo avvenuto oggi.
 - Riscontro aggiuntivo con WebSearch/WebFetch per confermare che una notizia sia
-  reale, recente e correttamente riportata (titolo, cifre, nomi).
+  reale, pubblicata/sviluppata oggi e correttamente riportata (titolo, cifre,
+  nomi). Annotare mentalmente la data/ora delle fonti prima di selezionare.
 - **Termini ad alto rischio** (`automation/live-sources.json` → `high_risk_terms`:
   guerra, missile, raid, ucciso, morto, morti, vittime, accusa, terror, ostaggi,
   nucleare, elezioni, epidemia, pandemia): servono almeno 2 fonti indipendenti e
