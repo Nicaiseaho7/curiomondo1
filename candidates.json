@@ -140,15 +140,15 @@
    "first_seen": "2026-09-13T22:18:11+00:00",
    "priority": "normal",
    "published_at": "2026-09-13T22:00:00+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "fonte_unica",
    "score": 0.7,
    "source": "Italia ultima ora",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "rejected",
    "title": "NOTIZIARIO ANSAMED",
    "topic_key": "",
    "trust": "high",
-   "updated_at": "2026-09-13T22:41:41+00:00",
+   "updated_at": "2026-09-13T23:01:52+00:00",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaFpfUzhGMHRZWUJsMlZ1Tm5DRElwVnlpcW8xTnZFVnNnOTNjbDlCOXdVMnN5UXBIM3c2WTR4eEYxb2xHMDFxV3dIT1k4UnhoWDJPNUE1SUZKcDhHR2FHMTBYZkN0UVF3dFZYaVViVHRpRnlUTjNmb3I3bVFJQUw5SUZpd3hUeHhBWXM4aXlFS0dubUhscTVabFNfNE9Hd2lTaF9MaXlrcE5lMHB0clJaVEVvM0ZVNjVPU2paekM0d19oOFZkak5R0gHMAUFVX3lxTE9qdV9MSmNubkxTaXhpZ0RVMjRQSDhobmtJd2dFX1I5RElXUGhGejRoTVZGQkdmeHdwSlVXRnR3eDVfQUdvcnB5MzJuTDZYdUJNQml5MVRKV2tLQjZjUVo4UDRiUEwyZGVVbFpPTEdMNXVNSGxQOW5OZ2p1Ty1iN2dfaGpUcWk4NV9kaXEtLWg2Uk44VjJKem1vb1pYZmZtZHpOZE9xMGtVNl94YnVjSnlUbkhtcG5VQmFsRXFjVUdQTXNvXzBQUmhHN3JSag",
    "url_key": "009adf6b08b9b98d3d82"
   },
@@ -1676,6 +1676,25 @@
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40Vm9BRHJwMElqZTZVWHdWcjctdk5mbXBodmo4MkxKZWZmeDVma1NHRV9NSk5FbU1OVi1ON2tTUXR1aFMteVJKWmt0U3pJbVRfbUFWdkZCV1ZhMGkyR3c",
    "url_key": "06a24d7d7f6e2ad25a27"
   },
+  "06ac03efcab3450b8779": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:26:00+00:00",
+   "reason": "duplicato_di:1a3109e09c2e0db18d63",
+   "score": 0.0,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Derrick Henry's rushes for 3 TDs and Lamar Jackson lights up the Colts in the Ravens' 41-23 win",
+   "topic_key": "d4d46c41606240283725",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:19+00:00",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM1hZSHhCQmxzQXlSU3Z3MjEzYTZ4WEI5eWhtQUNPNlpDTEhnMGdDVHpOaXJnTlVtQ25YRDMzcC1CNDhXNWk5czczbnZXa2ZHM1FPNEhyX29QNTZQR3owVVdvdXN4SmVwU1lYclFpNXd0VzRHU1QyZHVqMEpkRHZ3ZVJqd1o",
+   "url_key": "06ac03efcab3450b8779"
+  },
   "06b9af90638b2765b44e": {
    "article": {},
    "attempts": 0,
@@ -2135,6 +2154,25 @@
    "updated_at": "2026-09-13T18:28:25+00:00",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVW5naGNOSjlUWGVlaktpVGZIX0dtMTNoVTZ6YlVKd0tQcUNZRzdpeDlzaTJSU21ib0todExWSXpXN2xOek5RcV9VSkNkQkRuQVpKZHJMSGdDMjJubDdkLTdMUzVOaWRNZ1FUMFk4amE2cjBHUEdwQkowTFlmLTF1cQ",
    "url_key": "09896b09e0ab861a6a7d"
+  },
+  "09acb99bf5bcbe6da486": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:46:00+00:00",
+   "reason": "duplicato_di:c1bd475b01fdfe9d6621",
+   "score": 0.0,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Houston Dash fire coach Fabrice Gautrat and technical director Twila Kilgore",
+   "topic_key": "0e5ab226b5209c1080cb",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:19+00:00",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPV0llWUFLcXdGUkJ1SFZlV0FKZmlQdGZRNmhTQ1g3b0ZjNExTN1d4d2M2OGxDV1pfMjlwZmZBTEwxbGVyYXI5cXNLMndnTlphVHA5anNFX0NJVHhqc2Z0eTI5a0hIMVdxa19zQVpKbGtuRlF2aFJBVlVLZWNIT195X2JIS1EyWWc",
+   "url_key": "09acb99bf5bcbe6da486"
   },
   "09c0a128cd6266565a63": {
    "article": {},
@@ -2607,15 +2645,15 @@
    "first_seen": "2026-09-13T22:18:11+00:00",
    "priority": "normal",
    "published_at": "2026-09-13T22:04:00+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "fonte_unica",
    "score": 0.85,
    "source": "Italia ultima ora",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "rejected",
    "title": "Ministro della Difesa argentino apre alla mediazione di Trump sulle Falkland-Malvinas",
    "topic_key": "16bf370ec046b9c4d65a",
    "trust": "high",
-   "updated_at": "2026-09-13T22:37:25+00:00",
+   "updated_at": "2026-09-13T23:00:29+00:00",
    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPUWwtLV9IT254TjJ6UlRwbTFKVUo3SHlORXkxOWRTN2N1dzA5eG1TLWpIdGRXX2ZzY2cxb2dfTWxaUC1LZEtLVHNqV3RWY0NjQmtlczNQOElQdklPQUVFeHVRS0tZeThfam02ZmY3Tl9VY1BVaHE1dWU0VTZjVEtjQmJERjZyQ1JsZHlLc2pkcDFLTlRYVDJudTYwVHl4NDlic21JbFc3TktySXZZVzJkODFSUmpfQTlTcW81U3FwUm9oZXI2a2Y2UHVfU0FYdWhBQ01vN2RqcThMSEFxZHlDMUMwN2luYUpUM1lHZGF4Tm1lRFFjQklyMlJtbEnSAYICQVVfeXFMT2dGa3ZxWWxxYm5BbHBsYTl2SHQ3RGUwVF9NYXFxai1JOEV0RUhWYTJTU3c0bEJpeWVEWWZFb3VFdlFjblItc0xTZHdRT3RWdDgzbUl4ejVKWTl4XzB6aHJCQjh5QmZiZlZrOUNicWptQ3Y2a0Jtbl91ZGs5c1czN1JoaE5GRnFyMm5DenNxODFYVUJRbDhzV1Vqc0lPdzM3eERYMnhScW1leDRTclMtaHgtWktETko4UGlVdllkOHpVOC1IVXE4U2M5aGFPN3NHNTRtNjVZckExRnlxZjNnWXlmY2ZLdjVLb1RPMHhZbGc0STl0QmttMjhtSWZycHhWLWFB",
    "url_key": "0b81c134f2cb0fdd8093"
   },
@@ -4080,7 +4118,7 @@
      ]
     }
    },
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [
     {
      "source": "BBC Science",
@@ -4091,7 +4129,7 @@
    "first_seen": "2026-09-13T22:18:13+00:00",
    "priority": "normal",
    "published_at": "2026-09-13T22:07:22+00:00",
-   "reason": "pubblicazione_da_ritentare",
+   "reason": "immagine_o_render:ValueError:slug già esistente: ghiacciai-himalaiani-perdita-di-massa-65-rispetto-a-10-anni-fa-rischio-per-l-economia-indi-14-09-202",
    "score": 0.85,
    "source": "Mondo ultima ora",
    "source_tier": "agency",
@@ -4099,7 +4137,7 @@
    "title": "Nepal floods: The Himalayas are melting faster - and India's economy is 'at risk'",
    "topic_key": "cb7b382ed453734367c6",
    "trust": "high",
-   "updated_at": "2026-09-13T22:45:15+00:00",
+   "updated_at": "2026-09-13T23:04:37+00:00",
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HSXNuM2xtN1IyaUhITXI3VVFqMENUNXlCUXZlRnBvVDlqSUZaOTZmR1ZNaVN6cTdzQm5ZY3hNZlRDa0FYTm10YUQ2cV9xeWxoRUxvM0kydzFtdw",
    "url_key": "125abae57eb40dbb4edf"
   },
@@ -6250,6 +6288,25 @@
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPenFlODJIekRYcDdzVTFYRWd1QzhsNVU1U0Z6WFluN3o5eEJiMi15YnI3M0ZjUldHODVEWEIyUkxMeVNrQzNINFo0YnJLLWMycVoyX0k3YXdIM3BHM2tLN3FFQmNOYjBsS1hCaURQWlg5Y25sZ09JNFhCN1daeDlKaTJialhkT28",
    "url_key": "1c42346e0639503a2c8d"
   },
+  "1c7d03589a74394d5f77": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:20+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T22:54:00+00:00",
+   "reason": "duplicato_di:7e882205cd4b4e7b6303",
+   "score": 0.0,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Kellen Moore goes for 2 to give Saints a chance to win in OT but effort falls short",
+   "topic_key": "20afc081cf8c94ea8fa2",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:20+00:00",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR29fUElQVlNXZEY5cW5NZElvenpWSTJGYW9FdXpHWVBDd2d1SXRMTWJfdUxuTEJwNU5IeUdSckdmaHdQYlduTUYzN3hyZ2FhRU41ckhzdEllXzhMU2NqTkVlWmRRQzRSVTdqUWt1Y3F6S3BIaDg4ekNWcEtPNEhXTV9WNmc",
+   "url_key": "1c7d03589a74394d5f77"
+  },
   "1c7fe5fde145d26920f7": {
    "article": {},
    "attempts": 0,
@@ -6289,8 +6346,76 @@
    "url_key": "1c8d4d36c9898a559ed2"
   },
   "1c8f787c09181a893166": {
-   "article": {},
-   "attempts": 6,
+   "article": {
+    "categoria": "Economia",
+    "conferme": [
+     "Mondo ultima ora"
+    ],
+    "dati_chiave": [
+     {
+      "etichetta": "Rendimento titoli UK",
+      "icona": "●",
+      "valore": "10 anni"
+     },
+     {
+      "etichetta": "Vertice a Downing St",
+      "icona": "▲",
+      "valore": "lunedì sera"
+     },
+     {
+      "etichetta": "Mese dato positivo",
+      "icona": "◆",
+      "valore": "luglio"
+     }
+    ],
+    "fonte_originale": "https://bbc.co.uk/news/articles/clyl18x4734o",
+    "fonti": [
+     {
+      "descrizione": "Dichiarazioni di Burnham, agenda e partecipanti all'incontro a Downing Street.",
+      "url": "https://www.bbc.co.uk/news/articles/clyl18x4734o"
+     },
+     {
+      "descrizione": "Contesto su costi di finanziamento, rendimento decennale UK e giudizi di Healey e Lopez.",
+      "url": "https://www.bbc.com/news/articles/clyl18x4734o"
+     },
+     {
+      "descrizione": "Rimando all'articolo BBC con dettagli su crescita di luglio e pressioni energetiche.",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HS2ZOWlRBX0U3a1FGV1FkLWtCWWpCd2w2OUdYV1hWWTJyaWR1dldhdXJycExIaVlnaVFvd3hXMGgydldsd2RLVGFmb2w4Z18tZENvSndJZzIzUQ"
+     }
+    ],
+    "formato": "flash",
+    "immagine": {
+     "alt": "Ritratto editoriale neutrale di Andy Burnham che arriva a Downing Street per un incontro con dirigenti d’azienda",
+     "contesto_sensibile": false,
+     "personaggio_pubblico": true,
+     "prompt": "Editorial photo of UK Prime Minister Andy Burnham walking toward the black door of 10 Downing Street at dusk, flanked by aides, metal railings and security visible, wet pavement, natural light, no text or graphics"
+    },
+    "luogo": "Londra",
+    "paragrafi": [
+     "Il primo ministro Andy Burnham ha invocato un cambio di cultura nel modo di fare impresa, prima di un vertice con grandi aziende. Lunedì sera vedrà amministratori delegati a Downing Street per sostenere chi rischia e rafforzare i poteri dei leader locali.",
+     "Downing Street ha indicato tra i partecipanti i vertici di BP, Shell, HSBC, Morrisons, Sainsbury's, BT, Vodafone e Rolls-Royce, oltre ad altri. Burnham ospiterà un ricevimento con leader locali, poi un incontro privato con i capi azienda al Number 10.",
+     "Il rendimento dei titoli decennali UK misura il costo del debito pubblico ed è un riferimento per la spesa statale. È superiore a Stati Uniti, Francia e Giappone. Secondo esperti, pesano scarsa fiducia legata a più premier, cancellieri e retromarce in poco tempo.",
+     "Costi di prestito più alti riducono lo spazio per sostegni o investimenti pubblici alle imprese. A luglio i dati ufficiali hanno segnalato un miglioramento in parte spinto dagli investimenti in AI, ma esperti prevedono rallentamento per energia cara.",
+     "Il governo è criticato per maggiori oneri dopo i cambi su contributi dei datori e salario minimo sotto Keir Starmer. In un'intervista alla BBC, il cancelliere John Healey ha invocato “confidence about Britain”, pur ammettendo costi di indebitamento “storicamente alti”. La conservatrice Julia Lopez chiede tagli fiscali. Al momento restano impegni generici, senza misure operative."
+    ],
+    "parole_chiave_titolo": [
+     "svolta",
+     "impresa"
+    ],
+    "slug": "burnham-chiede-una-svolta-culturale-nel-fare-impresa-nel-regno-unito",
+    "sommario": "Prima del vertice con amministratori delegati a Downing Street, il premier promette sostegno a chi assume rischi e più strumenti ai leader locali. L'appello arriva in un contesto di costi di indebitamento elevati.",
+    "titolo": "Burnham chiede una svolta culturale nel fare impresa nel Regno Unito",
+    "verifica": {
+     "fonte_primaria": false,
+     "motivo": "BBC riporta direttamente incontro e dichiarazioni del premier; possiamo aggiungere spiegazione su rendimenti e limiti delle promesse senza dettagli di policy.",
+     "sensibile": false,
+     "valore_aggiunto": [
+      "spiegazione di cosa misura il rendimento del decennale UK e perché incide su investimenti e costi per le imprese",
+      "limiti e incertezze: al momento sono impegni generici senza misure operative dettagliate"
+     ]
+    }
+   },
+   "attempts": 7,
    "corroborations": [
     {
      "source": "Mondo ultima ora",
@@ -6301,21 +6426,21 @@
    "first_seen": "2026-09-13T21:34:30+00:00",
    "priority": "normal",
    "published_at": "2026-09-13T21:30:21+00:00",
-   "reason": "articolo_non_conforme",
+   "reason": "immagine_o_render:OpenAIError:immagine bocciata dal controllo visivo: The person depicted cannot be UK Prime Minister as the current UK Prime Minister",
    "score": 0.85,
    "source": "BBC News",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "failed",
    "title": "'Culture shift' needed in how UK does business, PM urges",
    "topic_key": "dcb203a06fabac6a48c4",
    "trust": "high",
-   "updated_at": "2026-09-13T22:41:08+00:00",
+   "updated_at": "2026-09-13T23:05:31+00:00",
    "url": "https://bbc.co.uk/news/articles/clyl18x4734o",
    "url_key": "1c8f787c09181a893166"
   },
   "1c8fb8a5003b14cec683": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T22:37:10+00:00",
    "priority": "normal",
@@ -6328,7 +6453,7 @@
    "title": "Townsville Man Charged with Child Abuse Material",
    "topic_key": "63d340058f88b1af89bf",
    "trust": "high",
-   "updated_at": "2026-09-13T22:41:37+00:00",
+   "updated_at": "2026-09-13T23:01:49+00:00",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNjhWTnFKWG53UG9KYWZjemY3XzNuN2FNZS1PdnVYcTRuU0VOY0hMb3V6RjJQN1NxLWJzQmtIN1c1N3NKWTkxczZzRk4xVkdwMy1lLWdhTUVxMW1JQTM1OTJHUG5BNTIxY3pJNDZnRXNhOERoOC1FTy1TelBQZnNlNkNLeFltZ2VDVnp3Uw",
    "url_key": "1c8fb8a5003b14cec683"
   },
@@ -9735,15 +9860,15 @@
    "first_seen": "2026-09-13T22:18:12+00:00",
    "priority": "normal",
    "published_at": "2026-09-13T22:10:00+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "fonte_unica",
    "score": 0.85,
    "source": "Italia ultima ora",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "rejected",
    "title": "Chi ha fatto saltare l'accordo di pace tra Usa e Iran: la ricostruzione del New York Times",
    "topic_key": "45b03d99db4182ececc8",
    "trust": "high",
-   "updated_at": "2026-09-13T22:41:13+00:00",
+   "updated_at": "2026-09-13T23:01:44+00:00",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNalIySEFOSGdCMkc3dkJDQTlVanc4U0l6UnZ0WF84djJQTXhpV19WUHBGM0lwNnZPcXBtNXNvRW56cnFqZlVwS29vVlFJQTRoS3dJV1JLTEZ6NE9LWktjbzRvTHBKd0lMQzMycjhsSDZEYjFfMnlJUi0wQ25WR20wUVdETzR4MlpNWi1ybE80UmhnM0JWME8zaWxpeU15VWVNdEpIRGZR",
    "url_key": "2c694c9e34b22e80d06c"
   },
@@ -9917,6 +10042,25 @@
    "updated_at": "2026-09-13T17:44:35+00:00",
    "url": "https://bbc.co.uk/news/articles/cwyze8ed774o",
    "url_key": "2d04b07424fbd2f117fe"
+  },
+  "2d140539e30a86f884cd": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:20+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:20:00+00:00",
+   "reason": "duplicato_di:686f4580d71349143072",
+   "score": 0.0,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "FIBA Women’s World Cup Glance",
+   "topic_key": "d652c21aca85e48196bf",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:20+00:00",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcU8zYXdDVkNKcVRoSmJsN3dZSG5Ea0hBNHBqRmdBVk5LU0U0TnJVdlVRNURDbHJ3RjlWR0dKamJWUktzTXZVUERtUUJaUEhzTHlSc2NuSkNZa1o4S093R0FBTVpNQ3M3T19Cc19XYnFZeHhNbk9CdnltMHBKQWluZkxMbklpa0JPNDlRcWZmcXpOaWp4endkSk1R",
+   "url_key": "2d140539e30a86f884cd"
   },
   "2d1baa96424732002ec6": {
    "article": {},
@@ -10202,6 +10346,25 @@
    "updated_at": "2026-09-13T21:04:53+00:00",
    "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE8xOXluQWtwTGprc2dkRnBmUEJuU1BmWjlsNFNmb1pZRF9NYTJySnF0WTVnTDZDZEZETXZHQkpZdWU",
    "url_key": "2e30cc03550aa51ed286"
+  },
+  "2e381d1dbe00c9f31bdc": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:20+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:42:00+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.765,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Alonso and Sainz exchange accusations after disastrous Spanish GP for home drivers",
+   "topic_key": "93ed46f0a1859b1cbe70",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:01:50+00:00",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYmR5UkE5RUc1bDBYUVNDUlJUM1NSZFc1M01RS1NkNjFqd0VLR29WS1pGaEZUTEx1cTFIQ3Q1cm1ZdTBrWEhNX3RqUzgxRDFLS2otNi1obkgwUTJjRDU4c0ZqZUVIRmgzUHk3SjNUTEF4NE9wY1lGLWc1Q25wTE00OVE3d0U5dUo3N2V4aWYzMA",
+   "url_key": "2e381d1dbe00c9f31bdc"
   },
   "2e6d599a0c35a257aff7": {
    "article": {},
@@ -11459,7 +11622,7 @@
   },
   "35225fdbd0a75dcd7867": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T22:37:10+00:00",
    "priority": "normal",
@@ -11472,7 +11635,7 @@
    "title": "Oasis a Roma nel 2027, il video prima dell'annuncio",
    "topic_key": "6e6da2a7be76ced466cb",
    "trust": "high",
-   "updated_at": "2026-09-13T22:41:38+00:00",
+   "updated_at": "2026-09-13T23:01:51+00:00",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM3JGR1I2UVB1X1ljdVJ4NC1nWDlkYXBkRkpXOGR1UktZUGtHY2ZBWEJMUXBJLWNrNHN4NG5HR2s2Nk9YWG5mRERTbGpIZXJQM2FTRHozazM1ZVdxbkFrWmFFMXZHb2FUT1ZjcFlWbWxnSlBfVGQ2UTV5em9TZjdWWFFEWWt6dmRKd0JEZXFMMTBCUXVDendTWWNud1FuSTdNSEtZTDlxR0xJTGg3eFZTdUdheXJqWjJxbXVMSjh4a2NRWUJmWmc",
    "url_key": "35225fdbd0a75dcd7867"
   },
@@ -11915,7 +12078,7 @@
   },
   "371087cb7436796c9745": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T22:37:11+00:00",
    "priority": "normal",
@@ -11928,7 +12091,7 @@
    "title": "Andy Burnham to host entrepreneurs and local mayors at No 10 on Monday",
    "topic_key": "e1ba86fd0152ce5c7e6a",
    "trust": "high",
-   "updated_at": "2026-09-13T22:41:38+00:00",
+   "updated_at": "2026-09-13T23:01:51+00:00",
    "url": "https://theguardian.com/politics/2026/sep/13/andy-burnham-host-business-leaders-local-mayors-no-10",
    "url_key": "371087cb7436796c9745"
   },
@@ -12349,6 +12512,25 @@
    "updated_at": "2026-09-13T17:44:29+00:00",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWDhkbVNuLW92MS1PLW1zazBtelNrS196UXBMazNsNDhfUE94MFh4TGVSaWVHM3VMNjJWcUpYcFoyNXp5T2hUTGVDcVdaTld6cGZjdW85ZENSQk9xaVZKMjZPT0pvajRKU1ZKZlVKQW4wYU4wYkNSWXo5ZlNnT3g0N3VNSzNXaS14cU1QdkZVNlRoeW9RM3QybG5NaWxaRHNaYlZ0YTBsSQ",
    "url_key": "395ea0a283edf7eb18d7"
+  },
+  "397995c02a021de861d2": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:53:19+00:00",
+   "reason": "duplicato_di:b7a947d21d5d22f28657",
+   "score": 0.0,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "- AP News",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:19+00:00",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORUVyMWVvNGhiYzROeUpyTUNkZnFOdXBFLUxDcVJxRWtFWmFERVJBMUotZXBpWVh1NjNRX1VJc3FxaXp0akNMVzVuXzN2SlhvUWJJNl9HV3dJUkpPZVJxNTVvcjZXeG04N2F4ekd2d1JERU9wRzlkVWpRRVJHclo1MVE1TWdad1p1a2JRY1F3Wi1CTUJiVUJBLTFkeXdUcXBXM1BEeGxjWUdaWlFxS05xbTBhZTdkeDA",
+   "url_key": "397995c02a021de861d2"
   },
   "39ae77bdafcbf979cfc0": {
    "article": {},
@@ -15815,15 +15997,15 @@
    "first_seen": "2026-09-13T22:18:11+00:00",
    "priority": "normal",
    "published_at": "2026-09-13T22:02:29+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "fonte_unica",
    "score": 0.85,
    "source": "BBC News",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "rejected",
    "title": "Zverev caps transformational year with US Open triumph",
    "topic_key": "14db194a7d343b30e0cf",
    "trust": "high",
-   "updated_at": "2026-09-13T22:41:13+00:00",
+   "updated_at": "2026-09-13T23:01:45+00:00",
    "url": "https://bbc.co.uk/sport/tennis/articles/c1wx9qpxjg3o",
    "url_key": "4aace9c741e7832e94fb"
   },
@@ -21534,7 +21716,71 @@
    "url_key": "65e03992565af839e617"
   },
   "65ef7642a409a260bd59": {
-   "article": {},
+   "article": {
+    "categoria": "Economia",
+    "conferme": [
+     "Bloomberg"
+    ],
+    "dati_chiave": [
+     {
+      "etichetta": "Nasdaq-100 futures",
+      "icona": "●",
+      "valore": "-1,2%"
+     },
+     {
+      "etichetta": "S&P 500 futures",
+      "icona": "◆",
+      "valore": "-0,6%"
+     },
+     {
+      "etichetta": "Prob. rialzo Fed",
+      "icona": "▲",
+      "valore": "86%"
+     }
+    ],
+    "fonte_originale": "https://cnbc.com/2026/09/13/stock-futures-today-live-updates.html",
+    "fonti": [
+     {
+      "descrizione": "Conferma calo dei futures, rialzo del petrolio, rinvio IPO OpenAI, appello di Anthropic, probabilità di rialzo Fed all’86% e assenza di dati/conti lunedì.",
+      "url": "https://www.cnbc.com/2026/09/13/stock-futures-today-live-updates.html"
+     },
+     {
+      "descrizione": "Riferisce aggiornamenti su calo dei futures USA, andamento del petrolio e attenzione su AI.",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN2lGQUtDelJmdFZJeERjWWxaVXVFeEcwUUxtQjJ1bG40VVJZZmZyR1dzMDRvVkg4aG4zWFZaOWRtTlVRTW9lY05sZ3JzNGFSbTZwc25DNG9ONlZTUEJGSlkwTDZLSlJ1MmVtMm01SGZhdmxTRTBHWnowWmlrMFhDUmF4WWtHRnRqX1FUTE9Sbk1PMFJEU29fWFZhQTRpS3ZGcGljYWJneXgzb3EtYVE"
+     }
+    ],
+    "formato": "flash",
+    "immagine": {
+     "alt": "Sala trading a New York con monitor che mostrano grafici in calo e andamento del petrolio, scena editoriale ordinaria pre-apertura.",
+     "contesto_sensibile": false,
+     "personaggio_pubblico": false,
+     "prompt": "A low-lit U.S. trading floor before market open, traders watching multiple monitors with downward red line charts and an oil price graph, no visible text or logos, candid editorial style, shallow depth of field, realistic lighting"
+    },
+    "luogo": "New York",
+    "paragrafi": [
+     "Futures azionari USA sono scesi domenica sera, mentre gli investitori valutavano scossoni nelle IPO di intelligenza artificiale, timori sulla sicurezza e il balzo del petrolio. Il movimento precede la riunione di settembre della Fed prevista questa settimana, secondo CNBC.",
+     "Dow futures hanno perso circa 179 punti, pari allo 0,4%; S&P 500 -0,6% e Nasdaq-100 -1,2%, ha riportato CNBC. Il petrolio è salito oltre il 2% dopo la chiusura di un oleodotto saudita, con il greggio USA sopra 100 dollari la scorsa settimana.",
+     "Sam Altman ha detto sabato che OpenAI non si quoterà quest’anno, definendo l’IPO sconsigliabile, dopo l’obiettivo indicato dalla CFO Sarah Friar entro il 2027. Dario Amodei di Anthropic ha chiesto di rallentare i modelli migliori per motivi di sicurezza, ha riferito CNBC.",
+     "I futures indicano le aspettative prima dell’apertura e sintetizzano le posizioni degli operatori, ma restano indicativi e possono invertire direzione con nuove informazioni. Volumi sottili e notizie improvvise ne limitano la capacità predittiva sulle sedute ufficiali.",
+     "La Fed si riunisce questa settimana per la decisione di settembre; i futures sui Fed funds stimano circa l’86% di probabilità di un rialzo, secondo il FedWatch citato da CNBC. Secondo Julia Hermann di New York Life Investment Management, l’orientamento del mercato dipende da rialzi Fed o da tassi a lungo dominanti. Lunedì non sono attese pubblicazioni o conti rilevanti."
+    ],
+    "parole_chiave_titolo": [
+     "Futures",
+     "AI"
+    ],
+    "slug": "futures-usa-in-calo-su-sicurezza-ai-e-petrolio-in-rialzo",
+    "sommario": "Nasdaq-100 -1,2% nel premercato; OpenAI non si quoterà nel 2026 e Anthropic invoca prudenza sui modelli. Il petrolio sale oltre il 2% e i mercati prezzano l’86% di probabilità di rialzo Fed questa settimana.",
+    "titolo": "Futures USA in calo su sicurezza AI e petrolio in rialzo",
+    "verifica": {
+     "fonte_primaria": false,
+     "motivo": "Due fonti indipendenti riportano il calo dei futures e l’effetto delle preoccupazioni su AI e petrolio; possiamo aggiungere contesto su cosa misurano (e non) i futures e sul calendario/impatti della riunione Fed.",
+     "sensibile": false,
+     "valore_aggiunto": [
+      "spiegazione del dato: cosa indicano i futures azionari e i loro limiti predittivi",
+      "scheda pratica: calendario e possibili esiti della riunione Fed e impatto su mercati"
+     ]
+    }
+   },
    "attempts": 1,
    "corroborations": [
     {
@@ -21550,11 +21796,11 @@
    "score": 0.525,
    "source": "CNBC",
    "source_tier": "markets",
-   "status": "seen",
+   "status": "drafted",
    "title": "Stock futures fall as investors weigh AI safety concerns, oil gains: Live updates",
    "topic_key": "b713117a59a1ef289f3f",
    "trust": "medium",
-   "updated_at": "2026-09-13T22:44:07+00:00",
+   "updated_at": "2026-09-13T23:03:47+00:00",
    "url": "https://cnbc.com/2026/09/13/stock-futures-today-live-updates.html",
    "url_key": "65ef7642a409a260bd59"
   },
@@ -22078,6 +22324,25 @@
    "updated_at": "2026-09-13T17:44:56+00:00",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVFRweG1PR1hHWldyODRzUXExTy1nOVFpX0pYMm9pVjlwVkJRc0M4UVVLRzZBbFVWVzBDTGd5RUt5dkFiQ01tY3BxZ2tTZ0FaZnZoSFpGTFA0RTlMbzhyejZ2VHVwUXgtd0VTX24tOEtQTmxVWkJWZFFpVHdIblIwV3k2TThFNEEyQm04b2VpZ2VMVURYME9v",
    "url_key": "6773d2c3040e8d07baa7"
+  },
+  "6783abe047123faef4f5": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:14:35+00:00",
+   "reason": "duplicato_di:199b484511f8ab5409f0",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "6675.HK - | Stock Price & Latest News",
+   "topic_key": "3b65683b047c1d0a76e9",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:19+00:00",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1FaWVqVDRiUzdibVB1RkRGbW0zd2luY052MEtNSnpvQzJwaUFTOUxIa1VISUFmUFo2RGpGV0Q4RXIta3dWX3dNcVhwREpFQ1lZeTBENDlXUEx0ZVhsZTJ2cFJXMHJFS0s1OTVqY0RSOA",
+   "url_key": "6783abe047123faef4f5"
   },
   "67b07cbe824954dc1252": {
    "article": {},
@@ -22971,6 +23236,25 @@
    "updated_at": "2026-09-13T17:44:44+00:00",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORDVhRm5pelFHRVZjOGdCMlBjVnBhYjdFVjNDZmJlOWdlWmZzMldkY2NSLW9GSDZnakJhZkZiTWdiYWtPeGdZeUd6Y0tUTERGTVRiSndXWkdzREw4QUgtZmtqdjFxMkU3XzZSSW00UUM3S1pDRW1lMmc0bG1PUThFZjItQnZ3enNSQ2V2X3hvczZNQnlyN2c",
    "url_key": "6bf8ca6d7a6c96ef9fb9"
+  },
+  "6c1c8a988d6c8deee1d7": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T22:46:12+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "China's Ligent Technologies seeks $723 million in Hong Kong IPO",
+   "topic_key": "1ff42c2083a303d43f17",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:01:45+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZUhTV2VqdE5wNk0wWjFkaUloYnF5dzROVl8xcGh2bHhtUGV3MEFZV2pWbWgwSjN1N2ozd1FQMDk4S29lR2VXX0g3MTVaTjV3SzVJd1NqLURpOEg1djZxeXJvLUVweXI2MlFXTGY2WERGOUh0alRWLW4taUZaUExsMDhyaDZRdm44OGV3bzNUckVyQ1pRa3JzbkdETHRJQzRKWTRqa1gybG1VT2t1dXQwMm5Kc0RqbGRI",
+   "url_key": "6c1c8a988d6c8deee1d7"
   },
   "6c3e00a9714289c75d1c": {
    "article": {},
@@ -24031,7 +24315,7 @@
   },
   "710b11e8dd5689da787f": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T22:37:11+00:00",
    "priority": "normal",
@@ -24044,7 +24328,7 @@
    "title": "JWST ruled out finding tiny moons around an exoplanet—that's great news",
    "topic_key": "edfbb76bbb5f05d5c3bc",
    "trust": "medium",
-   "updated_at": "2026-09-13T22:43:17+00:00",
+   "updated_at": "2026-09-13T23:02:56+00:00",
    "url": "https://phys.org/news/2026-09-jwst-tiny-moons-exoplanet-great.html",
    "url_key": "710b11e8dd5689da787f"
   },
@@ -26378,6 +26662,25 @@
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5meHRIZXQ2Zk1sSFJPclRhV1BBd0pNSXpZVll2RVhDNVhHczJzRmsyWXRJb1FTcWhMbzVfX0VjTk4xcUdId3poWlVjRkNUR1NNUDY4SEdrX0pTUElJWUE",
    "url_key": "7d901037c865621ca371"
   },
+  "7da718f3f4b4f827438c": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T22:38:00+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Jesse Minter’s head coaching debut goes off without a hitch as Ravens beat up on Colts",
+   "topic_key": "c5689c4d27d5c880e35e",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:01:46+00:00",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRkJpVzZGRGZVekhIQjRXN2RBVWkzUmZ4U1pDX3dVTHBEbTYtbjBLRVI0cEQ0VGoxMDMtekdoNFE1bTc2bTRZYzJmQmxFZFA4UkpGRE4zSzl5YmhUQVFhaVQyUzc5YXpZa1ZiVnM5aFcxdDAwdnh0anAwWVFrbDQ3ZlkyUEMtemlodEtGSnFn",
+   "url_key": "7da718f3f4b4f827438c"
+  },
   "7db30741a5ab0939e26d": {
    "article": {},
    "attempts": 0,
@@ -28018,6 +28321,25 @@
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeWNYYTdydG1nUnVvT2ZZVnVoU2dFbE85dnJ6eHNMNGE2c2ZlNGI1NnZuUUk2R1ZhTkQ2Umk3WUJNcXVGMmtZSVp5VWdoaU9EQVR2MlZ2aTlQYzVIZ3ZfT0RHRDBoYUVnWUtOY2RYRjVRTjJLTmZIQk8zYmI4UUVWblB1RTRvbTdZamp0LUhNc25wWVdMb1E1bTc2ekJoQk83a0RXUkNSdHc",
    "url_key": "84f7e778d663449c0ecc"
   },
+  "84feb9102e4194111797": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:09:00+00:00",
+   "reason": "duplicato_di:c15b6ecda7ebc9c0bd58",
+   "score": 0.0,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "US wins fifth straight women’s FIBA World Cup title, beating France 97-79",
+   "topic_key": "fcdb507ff04a119f214b",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:19+00:00",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMHFXeDN4QTNfWHE2UUNyUkg3ZU1QclhHRHAwMVBsNUE4NkloWGxIZWF0Si1WQnBMZG9ITGJWWWFJOTBRMDAwckJEQTJaSUZ4NEEzZDZWV2RhR2M4NHJjazRlMWw3aHlyd2x3RVdRaXdEVng0RHFOTVhUMnhfRU1QdU1Zb0dmcjdnLUdETjh3",
+   "url_key": "84feb9102e4194111797"
+  },
   "8513fba78db481ce6e79": {
    "article": {},
    "attempts": 0,
@@ -29126,7 +29448,7 @@
   },
   "8b7a657f76d460821407": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T22:37:11+00:00",
    "priority": "normal",
@@ -29139,7 +29461,7 @@
    "title": "NOTIZIARIO PICCOLE E MEDIE IMPRESE",
    "topic_key": "ef727588e70633ebcb07",
    "trust": "high",
-   "updated_at": "2026-09-13T22:41:27+00:00",
+   "updated_at": "2026-09-13T23:01:47+00:00",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRnVNcUZ2b1Q2WnV2b2szc3hodnNlcUlYNVhhTXViQktEZTVxa0cyZllySzRjT0t3XzNTMHgzX0pKR3BDOFpZMkFiZ1NSNW0xNHhnNHo0Yml6OGxOZzhpYXg4UWlkTkhTM2E5SlFORHFMQXo5Ti00Z3hnaGtnM2hfdlROdHh0UkxhTmljNXhQSE5jcWNwdmxaSkZrc1JaWEpVRTdQNHc1TjRFaW9nUkJrTWFsZE1TMFRCeUQ4YUo4V2NnMTdoVGdGd085VVhCZ9IB0wFBVV95cUxNYmFyU1dQeFB6SFF2LUxVZmpGY25Zemc0Y1cyV2dYQWVYT1dzUmZqbEdtdVZBTndRcnlDanhDX1BhOFo1UHFhOWUzU0lIdGlGOURPY2JoVEsxalhfTFY2ai1vZHBtTlkxcHlQSlRadEdsM1d1MnhVekFweWY0a1NGa0k4M05USDVtbWxVZ1g2V3FNb3ZHdWhCaDc3RF9Jd2Z0Zmxqd0V3ZVFwVWhpMkNmRkdaLU5NdThVS3EwbU81STZ1UElGLUlMaWdDOUFkLWJNX09V",
    "url_key": "8b7a657f76d460821407"
   },
@@ -31258,6 +31580,25 @@
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rV3pQUXdhQm5adEREUml4aE85aHVtZ3h2RFR1SzlJZkk4YTZIR25MNVRkRWx6MXUzb2lhXzctRDExWi1GUXNnZmNZa0NXdFBuS1pTMjRoemZ3ZU9QcHpFNkd2NldTR1NWbG1ObVBuTjAzcDQ",
    "url_key": "93f070891c39a27afd58"
   },
+  "940fbd38c1da72139abd": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2026-04-29T17:43:12+00:00",
+   "reason": "troppo_vecchia",
+   "score": 0.0,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Previsioni Meteo Pavia Lombardia - Meteo",
+   "topic_key": "cdfef895a5e0d397cda9",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:19+00:00",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RdXNqZ3NxSTBYN3hhUzVYT2Y0dzUwMno3S2tFb1I0T05BcHpXYUlMLXU0TnBPeVZZYTZabDZhMEVpZ2ZBVG1QREc1Wkd6UXI4R1FWdGFWaDlQeGx3U3BGQ3FkWVFOZ0gzRnJDZnJWMmVOUlhRN2FHSjZwQ3I",
+   "url_key": "940fbd38c1da72139abd"
+  },
   "9423d1090cd807602693": {
    "article": {},
    "attempts": 0,
@@ -33135,6 +33476,25 @@
    "updated_at": "2026-09-13T17:44:31+00:00",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS1YweVAtQk1hZ3RHU2pOek84QUFoXy1aTWVEaGxUd0lpZ001eXZIbFV4ODJzd3hGU3NQMU0wYmN0YTltNVQtYTkzdVo3R2xqSTNkWDdSdGhtSXNSR3hsYVZNU1BydjFZaU03X0p0OGxjblBxNFNXODlfUUYtY25lNmk0LWV3d0tOakU2aV85blI1d9IBkgFBVV95cUxOS1YweVAtQk1hZ3RHU2pOek84QUFoXy1aTWVEaGxUd0lpZ001eXZIbFV4ODJzd3hGU3NQMU0wYmN0YTltNVQtYTkzdVo3R2xqSTNkWDdSdGhtSXNSR3hsYVZNU1BydjFZaU03X0p0OGxjblBxNFNXODlfUUYtY25lNmk0LWV3d0tOakU2aV85blI1dw",
    "url_key": "9d642da90a7edd1b884b"
+  },
+  "9d65d57a3b0f34d3219c": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:12:39+00:00",
+   "reason": "duplicato_di:3de83363b2d97aa24476",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Guardians creep closer to AL Central lead by hammering Twins",
+   "topic_key": "149630d92809d3ac5868",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:19+00:00",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMEM4UmMySFdnUjJ6alMtYy1ISDItbHVXd0RYMG52VFFzWDBBblhQMDZBR1paWDVkVXdzd2k1cC13N0YyZU1mLTloTU1LNnJSX1R3UWU0WWlYQ1IwRDlvc2x6Q09OYkgzZ2d3S3RFQnVxTjlPX2draWk5eVBuRDg5MS1MVjI4UDg0ZWljX1I0Qk4wUVJCTVV6RGtKTEZiRG9KUXFqOUJHRGcxd1BLbWRRbDdWeG0zUWRJdFNNRThpakZDLWlwSWc",
+   "url_key": "9d65d57a3b0f34d3219c"
   },
   "9d8292cab377116a8ae9": {
    "article": {
@@ -35238,6 +35598,25 @@
    "url": "https://ansa.it/sito/notizie/cronaca/2026/09/11/chiesto-larresto-di-un-sindaco-calabrese-per-alterazione-delle-acque_7d444150-d66d-4df6-b109-877750615ebd.html",
    "url_key": "a8d87e42353b8e3adae4"
   },
+  "a909cfba1068a7092eb2": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2024-06-22T22:39:03+00:00",
+   "reason": "duplicato_di:ff829fff5cec486bb233",
+   "score": 0.0,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Calabria - Meteo",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:19+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9yWGJLTlFyd1RNQzhhTVo4Yk44ZC11cHBpNVVRNWZEamlGblNBR1pfTUpZM2xxc3RtZnVBbDkzNGNZS21ac3F6NEVNNFBMdzduUDJYeC1tcE5OYVhHdV9YUzBQeFdLV3hTbGdyZVhn",
+   "url_key": "a909cfba1068a7092eb2"
+  },
   "a935eb696d781e950e73": {
    "article": {},
    "attempts": 0,
@@ -35446,6 +35825,25 @@
    "updated_at": "2026-09-13T17:44:40+00:00",
    "url": "https://ansa.it/sito/notizie/mondo/europa/2026/09/13/il-cremlino-non-esclude-colloqui-trilaterali-con-usa-e-ucraina-in-ottobre_3d281777-952b-4ae9-bc9f-c38eb7fb0209.html",
    "url_key": "aad521482f35ebadd327"
+  },
+  "aad616d2716db2c35ace": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T22:00:00+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.615,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Transcript - Reuters",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:01:52+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaGVHQU1MY2x2c2wzRndFNDNYdHpuczJaVWxEUXVlYkdJdUh1Uy1Td1V0RUVndGNqUW9Ea1dBdzZ0a3BONVl0dHFzMGxUd0I5TlRSMFFTWUFRS0o3ckNlMV9yT2pfRHFHTy1mRXA4aGRWUHAwRGRxRlppSm9JaEhRUFFjdTBORUpJNHRn",
+   "url_key": "aad616d2716db2c35ace"
   },
   "aaf6bbf2ef832033e545": {
    "article": {},
@@ -35831,7 +36229,7 @@
   },
   "acf773c04bd5aa225b1b": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T22:37:11+00:00",
    "priority": "normal",
@@ -35844,7 +36242,7 @@
    "title": "‘Sweat the asset’: new development minister plots path to make UK aid count",
    "topic_key": "59c970603e51c48b5dc5",
    "trust": "high",
-   "updated_at": "2026-09-13T22:41:39+00:00",
+   "updated_at": "2026-09-13T23:01:51+00:00",
    "url": "https://theguardian.com/politics/2026/sep/13/sweat-the-asset-new-development-minister-plots-path-to-make-uk-aid-count",
    "url_key": "acf773c04bd5aa225b1b"
   },
@@ -40995,6 +41393,25 @@
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSHF3Q00wNU5tR2pfeTRrcVZhTGxnUDlTd1dabEFEbmtjYk92NjdnUXBlUnFVeGtaM0RaT1huZEtQbm5JWXZucFd6Z3BHVm5WOE9vMmU3TW1fUTNudHQ2UU5nRHg2dU9NTHU0LWVfSXhKQXo2elZkczRPSmVYR3l6S1hNVDB4dnc",
    "url_key": "c663edc05a58cba6fd1a"
   },
+  "c68620f357c5d88410fb": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2022-02-22T22:34:47+00:00",
+   "reason": "duplicato_di:3bb7a42ee35d8ccb248e",
+   "score": 0.0,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Mondo",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:19+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hMlVSQmlRRE10TFpqQUxONFMwaDZ5UUl4aDc0VVF3dERkME5UY3djdEQ2RUhIQ05SV3BYVGRLQVZYMndPXzgtbm9mcXh0cFdfc2dRZ3ctMWU0RnhXai00Z0R3",
+   "url_key": "c68620f357c5d88410fb"
+  },
   "c68ef823f750518a5c9e": {
    "article": {},
    "attempts": 0,
@@ -41469,6 +41886,25 @@
    "updated_at": "2026-09-13T22:20:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOME1ITEhNRnF2a3k4S1hpZ2dFM2JoVHhmbURYSWMyWkV6TEt3bXB2ajktN3RYR25sTjZxQzNCR1FaVUcyS2lZZ2xWUGYyZU91NWNiQmE1Y0JDVGNzV1ZrdlFWMVJ2STJ3ZXZnUHdnVFBGU0RJVlJvM2ZFNFFmUV82RENBMXhDQ0VMTlliWl9ZZnVQdDVLUElNLUNWRQ",
    "url_key": "c8b178b51daf3dddbd08"
+  },
+  "c9067ff55d10f9610d65": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T22:30:00+00:00",
+   "reason": "duplicato_di:2681d4c3ce30d1d96e4a",
+   "score": 0.0,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Leader opposizione Svezia, 'pronti a governare, attendiamo risultato finale'",
+   "topic_key": "8aba9a6ec9bc50818fee",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:19+00:00",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNSWNGOUhMc2RSQU5haXpFRUs2UjFtY0tsT0dpdlkwRzBoVF9WMVlNQ29JQXJybDE2bEg4clQ3T3ZGOXB2b2w0Z1VxajhZR0lxbXk0aGwxc1NnNkl3ajRkSmhKU1FteU5SNkNpVTVrOGUyMWM3MUpoRElxdVpvc19yZDhfQjJycV8yU2xBblZHY0NRU3l3V0ZxbzVMRUd2djA1c0s1Uzl3ZngxQlQ4aUhQVVRKdzBhZmREcVFLVGVUbnliTnZjajNnSzRkalloTEdrOE5kWnhUQ2pyQzJfeTJWbEdVUlY0REJORVkxbko1SE1SSEVPVVVF0gH8AUFVX3lxTE84MGtIVTFaUDR5OU9GaTFial9sZURCOG1URi1HRkQyWERVUHhzc3dMT3VIeWpOeUpnMlhYMG5la0M5WldXeHNWWHBOUHI3QlNMNXd6Z0FJbkZmZkNoZnA2S25LeUdvR3NWYTRLWnlJR1BmeEZrZVFwcmpBUUJmVWtYWHJiaHVuRkdUalNlM0hWZ2dWVnJRSWdlTXZrWXhvdU9qODNXb25Ra19XQjlMNnE3cm9udXM4Tk9yamlFWFFaTGNJMmxrYU5CVnhsWnNTVE9mVnVHeXpJdWdBeTlJbVA2VlQ3X0dZZFNtckZqQVNVZ0xEc015MmlOMl9pWg",
+   "url_key": "c9067ff55d10f9610d65"
   },
   "c91acf5f66aaf5d43da3": {
    "article": {},
@@ -44303,6 +44739,25 @@
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQmJZUzRJeWlzOWZheEMzSG9pTzJaRUtBRlUzOU1jYzhHY0hWRHBtNWtJNzZRMmo2cHU5MjV4aUtmUmdWbjJjN1BkR2prMHdLLVFvanZDdGVSQzlOMEkwVmpFNmtvbDZLOEN1bS1aREFJaUxkWWs4a0NneUxzZnliQkdyNDJWMmswYjFGMTVsS3RPNkFzbGFQQ0xRNUdySGU4amJaMUk0US1TWjFrUWVSaVRn",
    "url_key": "d62c1eab7e7ec73cb26d"
   },
+  "d65238eb305dc1464e5f": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2023-07-13T11:13:57+00:00",
+   "reason": "titolo_troppo_corto",
+   "score": 0.0,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Lazio - Meteo",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:19+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE13RzI0eUxfLTRoN1VJbU9MRmE3X0VJNWRKQTZ3NW9jeUZ4cl80MUxVanZsRzFQLUhJVGxrY2dSMVBKTEdlOVB6dTI3ajhaWmItbzVMOGViMnZxN2UzT0RMY3JjbmdWVTQ",
+   "url_key": "d65238eb305dc1464e5f"
+  },
   "d67552781604d721a347": {
    "article": {},
    "attempts": 0,
@@ -45331,6 +45786,25 @@
    "url": "https://phys.org/news/2026-09-cataract-surgery-space-surgeon.html",
    "url_key": "db25fd24ddd901fafdec"
   },
+  "db51c1f35e0a144aff9c": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:32:16+00:00",
+   "reason": "duplicato_di:330fdf77910a0dad1c03",
+   "score": 0.0,
+   "source": "BBC News",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Patrols to start in Essex locations visited by asylum seekers",
+   "topic_key": "f8c24946a4abe15c1a9e",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:19+00:00",
+   "url": "https://bbc.co.uk/news/articles/cj9xyjdw1wmo",
+   "url_key": "db51c1f35e0a144aff9c"
+  },
   "db608f1d1be8d10b9b49": {
    "article": {},
    "attempts": 0,
@@ -46340,6 +46814,25 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeVVzZVFkRjdyMF9ydnpVcjUzbjE0d0I1OTlyaFdFWFpLUk1sa3BYYTQ0eFBscVRtT3pvT2hXQTdjT2dKSm5TcTM2OWVHSkV5UHhmc2FNTWFNUjc1aGtsSEUtbUFzMkxXNUFOYUFHSlY4ZFM0RGlXX01jMnNhZzk2S0t3SDJjejRnN1hxcXJwZS00Ym1xU0lLVFc4V1U1T2dnOTJpeHgzUjZMaklEVkE",
    "url_key": "df44011bdfbf289dc970"
   },
+  "df6e46ab6c51b9c57806": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T22:47:06+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Attack hits Panguna camp as Bougainville backs copper mine restart",
+   "topic_key": "ef5f02e957f4708ba936",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:01:48+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeTJCMXM0QjNWSjBSM0VIUkJIOTZRSFQ0eVNUNFRLZ0NqcHltQzE1bS11NU5VQmI4eEI2UGtOMGZBaThrUVY0SmRMZTJrWm1WZm1scnplWnFaajdSbzRrOFlsVk5keGU0Y29Qd3RwS2VhTW1XUTRmdWwyTC12aUQyM3VmS24wRGNONzd1X3dnRTBna25JNEZISWU5eWpfT3o3aG9KVXFhdGgyMHdILXZoM2cyVTdoejNpcnc",
+   "url_key": "df6e46ab6c51b9c57806"
+  },
   "df882d9954a08482a0f3": {
    "article": {},
    "attempts": 0,
@@ -46383,6 +46876,25 @@
    "updated_at": "2026-09-13T19:21:48+00:00",
    "url": "https://ansa.it/sito/notizie/sport/calcio/2026/09/13/serie-a-in-campo-sassuolo-juventus-diretta_48fdc61e-1f1c-41f6-975e-ca747d608379.html",
    "url_key": "dfa22a8050ae9828de8c"
+  },
+  "dfaff0d6c1026e9cee30": {
+   "article": {},
+   "attempts": 1,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:20+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T22:07:24+00:00",
+   "reason": "in_attesa_di_una_seconda_fonte",
+   "score": 0.85,
+   "source": "Mondo ultima ora",
+   "source_tier": "agency",
+   "status": "seen",
+   "title": "Ali Carter wins first English Open",
+   "topic_key": "3402801794f53c8ad83b",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:01:48+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBzT05XSWZfb3hZX21PTmZFYWs2eEdzcG5PblNfbFJlVGhsakxFRktrUXBKbGFOTFB6U2FuNjBsZ1gtLTlKd1VVX3dCRm1BMGcwMXlURGtjOS1WeEJ6MDdkWFhFcTl6dw",
+   "url_key": "dfaff0d6c1026e9cee30"
   },
   "dfb0e0cba25032ad8e29": {
    "article": {},
@@ -47356,6 +47868,25 @@
    "updated_at": "2026-09-13T19:21:44+00:00",
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82bkhJVUkzZ1hoSVBOLTRQODNDMXNuMzJmUWxjQzI4MUtOa2QwdTlqVXBQdGNoUU0wX1d6STNrSXZKM2FvSzRabVhTTkRyRlBReGxmbVpsRkhOdw",
    "url_key": "e5320263e6b320003557"
+  },
+  "e53b6509826ad27fe7aa": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:20+00:00",
+   "priority": "normal",
+   "published_at": "2024-04-23T14:51:56+00:00",
+   "reason": "duplicato_di:065ce30ab37e297a0dcb",
+   "score": 0.0,
+   "source": "Mondo ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Scores & Fixtures - Football",
+   "topic_key": "3cc92cd101d889c451e7",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:20+00:00",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDQ0NmaVAzeHIya29ydUFWem4wXzI2cHFfVFQ2Ykl1RUEzd1lsaXR5OUlYcGFST0c1NC14U0ZvS0JKNFIwWHlMc3Yta0RVWGxheGNPLVBRdk50VWkzemQzS3lfd0VqWDgzaDZaaDZB",
+   "url_key": "e53b6509826ad27fe7aa"
   },
   "e545871adde7bb37755a": {
    "article": {},
@@ -48374,6 +48905,25 @@
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNV3o3M0VUakFueE11SnktTzBLcTBOdWNQWXVKS2drSDQwNVB4YVNaWUM2czBuOW00VTlEMWpwVmJnekNnSW9VQ1UwOWJzQ3l3eG5JdWRYeVNXdGVpV3dfUjVIVDNVRGkxSjcxWEZwRzBGOXpXWEI2MTNkQ0FRRlN4U28wVThucDNpUEpoTHJVMXRnZHIzMVd3S2hjS2VEdWtF",
    "url_key": "ea8388a7b68fb766ef2f"
   },
+  "ea9f4a72df04b9fc6062": {
+   "article": {},
+   "attempts": 1,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T22:09:00+00:00",
+   "reason": "in_attesa_di_una_seconda_fonte",
+   "score": 0.85,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "seen",
+   "title": "Sole e clima mite a inizio settimana, ma quanto durerà? Ecco quando arriva il maltempo",
+   "topic_key": "93479cb930d78f662bdf",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:01:49+00:00",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaHJwc0U5dGRQakcwQkpaY3ZqQnp2UTA5NU1tZjhadGhhRC1WbFlRNWRxLTRlRDd6c0s0VlMyal92VkUzMjZ6YVg2Z0tDZGVObnZ1bnhic2dNUmF4RVNCUGtZSUhvYlVlLWE2RUdBN3lfaGRGNlpOR2VLM2JKVlVUak93WTVoZ0UxT01hM0RzTEdMRjNiTTBqZk1YMzdCd1pZT1p5Tg",
+   "url_key": "ea9f4a72df04b9fc6062"
+  },
   "eab2aecf838bbe99b450": {
    "article": {},
    "attempts": 0,
@@ -48954,7 +49504,7 @@
   },
   "ee2ae4cb1c8bc66fd5c8": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T22:37:10+00:00",
    "priority": "normal",
@@ -48967,7 +49517,7 @@
    "title": "Trump administration reluctant to slow AI, Democrats see urgent need",
    "topic_key": "53210e095f9bf6c5bcc7",
    "trust": "high",
-   "updated_at": "2026-09-13T22:41:47+00:00",
+   "updated_at": "2026-09-13T23:01:53+00:00",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbXFjalpxUWRyYlRpd1FOWl9qZG1ELW9BRkUtR1V5WHVUWHBYRFR3SlNpNjAycm41UHJwV1BIbnpHcFZScUF5YlI3cHpaZWhBUXM3QTVMc0M0a1hIU241N216a1pSN1Nfd2JRdmR0SENOQk53TGRwaXQ4UG16dU1jTllET0xpUQ",
    "url_key": "ee2ae4cb1c8bc66fd5c8"
   },
@@ -50281,6 +50831,25 @@
    "updated_at": "2026-09-13T19:21:43+00:00",
    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYWhQb3pWS09uS01OMnNuRENZckloTnpROXoxTExrTmFjSnVJUEVBREh3UXRLNlNXeXItTWNVS2thZ0VEdTI3Ulg4ZElPOHplYVJ6RjN2OUtHM000N2RZc2lfc18yRzg4NVN3UzN3bVNJNmJWUFpXWlExT0ZONVMzQU9fZWhUYjlVOU5WR2hDUk1XMFFNY0NJbXZTT3E5Zkpia3NhdndMdW1YSTRHdEx2Qk9SR0hQS2RsTXRDa2NIVzBodkQtRmNQZ1NqbGtaQ3poWEtoNS1ESlNGRUxkbEHSAeMBQVVfeXFMTmNLWU94SENiOVRMTi1NbHNxR3NZMGJnVElJNmZIRlpxOXZBeW11cG1rbXBrWjhKMzVkT0pqSjY5ajllbWNmTmRYM1B3WGtXMDQzM1FwVkhyOXJ1bFRRUkJZWkFReVd6QlhlT2pKNnNRMHBxcVFsbUNUWXg0eDdNM2NiOWJmNFhLTDJFOHNNdlItZHB3SFk4elZJazkxN1FBUFJoRUNlSjdQRk1XNnI0aWxEZHpMcjZRbkZlZmpGMFRGa3NSOFNpdDRIWWlQUlRsZG9PYUtONFNwVGRwV2hUYVV4cGs",
    "url_key": "f4bd03ce054fd710f0d3"
+  },
+  "f4c6891ccb68bf57e74f": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T23:00:19+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T22:03:43+00:00",
+   "reason": "duplicato_di:009adf6b08b9b98d3d82",
+   "score": 0.0,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "NOTIZIARIO ANSAMED",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T23:00:19+00:00",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPanVfTEpjbm5MU2l4aWdEVTI0UEg4aG5rSXdnRV9SOURJV1BoRno0aE1WRkJHZnh3cEpVV0Z0d3g1X0FHb3JweTMybkw2WHVCTUJpeTFUSldrS0I2Y1FaOFA0YlBMMmRlVWxaT0xHTDV1TUhsUDluTmdqdU8tYjdnX2hqVHFpODVfZGlxLS1oNlJOOFYySnptb29aWGZmbWR6TmRPcTBrVTZfeGJ1Y0p5VG5IbXBuVUJhbEVxY1VHUE1zb18wUFJoRzdyUmo",
+   "url_key": "f4c6891ccb68bf57e74f"
   },
   "f4ce4772b94096a9b0ae": {
    "article": {},
@@ -52295,5 +52864,5 @@
    "url_key": "fffee37376b8c909bc12"
   }
  },
- "updated_at": "2026-09-13T22:45:15+00:00"
+ "updated_at": "2026-09-13T23:05:32+00:00"
 }
