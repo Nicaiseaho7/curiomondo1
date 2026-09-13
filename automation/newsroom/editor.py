@@ -41,8 +41,14 @@ riassunti, traduzioni o aggregazioni di fonti esterne. Citare fonti affidabili
 è obbligatorio ma non è di per sé valore editoriale.
 
 Apri un articolo solo se TUTTE queste condizioni sono vere:
-1. Esiste una fonte primaria (ente, comunicato, dataset, atto ufficiale) oppure
-   almeno due fonti secondarie indipendenti e nominabili.
+1. La notizia poggia su una base solida, cioe almeno una fra queste:
+   - una fonte primaria (ente, comunicato, dataset, atto ufficiale);
+   - il resoconto diretto di un'agenzia o di una testata di prima fascia
+     (ANSA, AFP, Reuters, AP, BBC, Guardian, Deutsche Welle e simili);
+   - due fonti indipendenti e nominabili che riportano lo stesso fatto.
+   Il resoconto di una sola testata affidabile e una base sufficiente per una
+   notizia ordinaria: cio che conta e che i fatti siano attribuiti a chi li ha
+   riferiti. Per i temi delicati questa base non basta (vedi sotto).
 2. Sai dire in una frase quale valore aggiunto porta CurioMondo.
 3. C'è abbastanza materia verificata per un pezzo autonomo. Se manca, non si
    allunga: si attende o non si pubblica.
@@ -56,6 +62,8 @@ Il valore aggiunto deve essere ALMENO DUE tra:
 
 Standard piu severi per notizie delicate (guerra, morti, incidenti, salute,
 giustizia, geopolitica, elezioni):
+- serve una fonte primaria oppure una conferma indipendente: il resoconto di
+  una sola testata non basta per aprire il pezzo;
 - la dichiarazione di una sola parte NON e un fatto accertato;
 - se le fonti discordano, o se il fatto e rivendicato da una parte in conflitto,
   serve una conferma indipendente oppure l'articolo non si apre;
@@ -148,6 +156,8 @@ def verifica(
     conferme: list[dict[str, Any]],
     alto_rischio: bool,
     gia_pubblicati: list[str] | None = None,
+    tier: str = "",
+    trust: str = "",
 ) -> tuple[Verdetto, Usage]:
     """Decide se la notizia merita una pagina CurioMondo."""
     leggibili = [e for e in estratti if e.ok]
@@ -155,6 +165,12 @@ def verifica(
         _materiale(titolo, fonte, estratti),
         f"FONTI INDIPENDENTI CHE RIPORTANO IL FATTO: {1 + len(conferme)}",
     ]
+    if tier or trust:
+        # Il modello non puo indovinare se chi segnala e un'agenzia o un blog:
+        # senza questo dato tende a rifiutare tutto per prudenza.
+        contesto.append(
+            f"NATURA DELLA FONTE SEGNALANTE: {tier or 'ignota'}, affidabilita {trust or 'ignota'}"
+        )
     if conferme:
         contesto.append("Altre testate: " + ", ".join(c.get("source", "") for c in conferme))
     if alto_rischio:
@@ -208,6 +224,11 @@ def verifica(
         pubblicare, motivo = False, "rischio di disinformazione alto"
     if pubblicare and dati.get("dichiarazione_di_parte") and (1 + len(conferme)) < 2:
         pubblicare, motivo = False, "rivendicazione di una sola parte senza conferme indipendenti"
+    # Sui temi delicati il resoconto di una sola testata non basta: o c'e un
+    # atto ufficiale, o c'e qualcun altro che riporta lo stesso fatto.
+    if (pubblicare and bool(dati.get("sensibile"))
+            and not dati.get("fonte_primaria") and (1 + len(conferme)) < 2):
+        pubblicare, motivo = False, "tema delicato senza fonte primaria ne conferma indipendente"
     if pubblicare and categoria not in CATEGORIE:
         categoria = "Mondo"
 

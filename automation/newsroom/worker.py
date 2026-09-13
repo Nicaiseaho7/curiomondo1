@@ -92,6 +92,8 @@ def lavora(
                 estratti, candidato.corroborations,
                 alto_rischio=bool(candidato.article.get("high_risk")),
                 gia_pubblicati=titoli_esistenti,
+                tier=candidato.source_tier,
+                trust=candidato.trust,
             )
         except BudgetExceeded as exc:
             log.event("budget_esaurito", dettaglio=str(exc))

@@ -236,3 +236,44 @@ def test_candidato_raccoglie_conferme_senza_duplicare_la_fonte():
     assert c.add_corroboration("Reuters", "https://r/1", "Titolo")
     assert not c.add_corroboration("Reuters", "https://r/2", "Altro titolo")
     assert c.independent_sources == 2
+
+
+# ------------------------------------------------- taratura della severita
+def test_notizia_ordinaria_da_agenzia_non_pretende_una_seconda_fonte():
+    """Una sola agenzia affidabile basta per una notizia ordinaria.
+
+    La prima prova sul campo rifiutava tutto perche il protocollo chiedeva due
+    fonti indipendenti per qualunque fatto: una redazione cosi non pubblica mai.
+    """
+    risposta = dict(VERDETTO_BUONO, sensibile=False, fonte_primaria=False)
+    verdetto, _ = editor.verifica(
+        ClienteFinto([risposta]), "gpt-5", "Il Napoli batte il Bologna 1-0", "ANSA",
+        [estratto_ok()], conferme=[], alto_rischio=False, tier="agency", trust="high",
+    )
+    assert verdetto.pubblicare
+
+
+def test_tema_delicato_con_una_sola_fonte_non_si_apre():
+    risposta = dict(VERDETTO_BUONO, sensibile=True, fonte_primaria=False)
+    verdetto, _ = editor.verifica(
+        ClienteFinto([risposta]), "gpt-5", "Raid sulla citta, dieci vittime", "The Guardian",
+        [estratto_ok()], conferme=[], alto_rischio=True, tier="agency", trust="high",
+    )
+    assert not verdetto.pubblicare and "delicato" in verdetto.motivo
+
+
+def test_tema_delicato_con_atto_ufficiale_si_apre():
+    risposta = dict(VERDETTO_BUONO, sensibile=True, fonte_primaria=True)
+    verdetto, _ = editor.verifica(
+        ClienteFinto([risposta]), "gpt-5", "La procura chiude l'inchiesta", "ANSA",
+        [estratto_ok()], conferme=[], alto_rischio=True, tier="agency", trust="high",
+    )
+    assert verdetto.pubblicare
+
+
+def test_la_natura_della_fonte_viene_detta_al_modello():
+    client = ClienteFinto([VERDETTO_BUONO])
+    editor.verifica(client, "gpt-5", "Titolo lungo abbastanza", "ANSA",
+                    [estratto_ok()], conferme=[], alto_rischio=False,
+                    tier="agency", trust="high")
+    assert "agency" in client.chiamate[0]["user"]

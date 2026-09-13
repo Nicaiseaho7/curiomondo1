@@ -59,6 +59,9 @@ class Candidate:
     title: str
     source: str
     source_tier: str
+    # Affidabilita dichiarata nel registro delle fonti: serve alla verifica
+    # editoriale, che altrimenti non sa distinguere un'agenzia da un blog.
+    trust: str = ""
     published_at: str = ""
     first_seen: str = field(default_factory=_now)
     updated_at: str = field(default_factory=_now)

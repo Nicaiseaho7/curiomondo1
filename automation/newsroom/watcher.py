@@ -83,7 +83,7 @@ def run_watch(
             """Registra lo scarto: così il link non viene rivalutato ogni ciclo."""
             store.add(Candidate(
                 url_key=key, topic_key=topic, url=item.url, title=item.title,
-                source=item.source, source_tier=item.source_tier,
+                source=item.source, source_tier=item.source_tier, trust=item.trust,
                 published_at=item.published_at, status="rejected", reason=reason,
             ))
 
@@ -112,7 +112,7 @@ def run_watch(
         )
         candidate = Candidate(
             url_key=key, topic_key=topic, url=item.url, title=item.title,
-            source=item.source, source_tier=item.source_tier,
+            source=item.source, source_tier=item.source_tier, trust=item.trust,
             published_at=item.published_at,
             status="seen" if decision.accepted else "rejected",
             reason=decision.reason,

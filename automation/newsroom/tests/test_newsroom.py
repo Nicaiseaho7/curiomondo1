@@ -18,7 +18,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 from automation.newsroom import filters, normalize, sources, watcher
 from automation.newsroom.state import Candidate, Store
 
-NOW = datetime(2026, 9, 13, 12, 0, tzinfo=timezone.utc)
+# Ora di riferimento presa all'avvio: il watcher usa l'orologio vero, quindi
+# una data fissa farebbe invecchiare le notizie di prova con il passare delle
+# ore e i test fallirebbero a seconda del momento in cui si eseguono.
+NOW = datetime.now(timezone.utc)
 
 
 def iso(hours_ago: float) -> str:
