@@ -1,7 +1,7 @@
 {
  "cycles": {
   "post_deploy_verify": {
-   "at": "2026-09-13T23:20:43+00:00",
+   "at": "2026-09-13T23:39:33+00:00",
    "pending": [
     "chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu",
     "inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-13-09-2026"
@@ -17,16 +17,16 @@
   },
   "publish_prepare": {
    "articles": [
-    "futures-usa-in-calo-su-sicurezza-ai-e-petrolio-in-rialzo-14-09-2026"
+    "stacking-di-transiti-jwst-fissa-il-limite-a-0-1-raggi-terrestri-su-lp-890-9-c-14-09-2026"
    ],
-   "at": "2026-09-13T23:24:07+00:00",
-   "version": 348
+   "at": "2026-09-13T23:42:42+00:00",
+   "version": 349
   },
   "publish_rollback": {
    "articles": [
-    "futures-usa-in-calo-su-sicurezza-ai-e-petrolio-in-rialzo-14-09-2026"
+    "stacking-di-transiti-jwst-fissa-il-limite-a-0-1-raggi-terrestri-su-lp-890-9-c-14-09-2026"
    ],
-   "at": "2026-09-13T23:24:22+00:00"
+   "at": "2026-09-13T23:42:58+00:00"
   },
   "watch_deep": {
    "accepted": 25,
@@ -35,10 +35,10 @@
    "raw_items": 1697
   },
   "watch_fast": {
-   "accepted": 13,
-   "at": "2026-09-13T23:20:37+00:00",
+   "accepted": 9,
+   "at": "2026-09-13T23:39:27+00:00",
    "feeds": 11,
-   "raw_items": 542
+   "raw_items": 546
   }
  },
  "feed_cache": {
@@ -58,7 +58,7 @@
    "last_modified": ""
   },
   "ansa-cronaca": {
-   "checked_at": "2026-09-13T23:20:35+00:00",
+   "checked_at": "2026-09-13T23:39:25+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -68,7 +68,7 @@
    "last_modified": ""
   },
   "ansa-mondo": {
-   "checked_at": "2026-09-13T23:20:34+00:00",
+   "checked_at": "2026-09-13T23:39:25+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -78,12 +78,12 @@
    "last_modified": ""
   },
   "ansa-top": {
-   "checked_at": "2026-09-13T23:20:34+00:00",
+   "checked_at": "2026-09-13T23:39:25+00:00",
    "etag": "",
    "last_modified": ""
   },
   "ap-gn": {
-   "checked_at": "2026-09-13T23:20:33+00:00",
+   "checked_at": "2026-09-13T23:39:24+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -108,12 +108,12 @@
    "last_modified": ""
   },
   "bbc-top": {
-   "checked_at": "2026-09-13T23:20:33+00:00",
+   "checked_at": "2026-09-13T23:39:24+00:00",
    "etag": "",
    "last_modified": ""
   },
   "bbc-world": {
-   "checked_at": "2026-09-13T23:20:33+00:00",
+   "checked_at": "2026-09-13T23:39:24+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -173,12 +173,12 @@
    "last_modified": ""
   },
   "gn-italia-breaking": {
-   "checked_at": "2026-09-13T23:20:34+00:00",
+   "checked_at": "2026-09-13T23:39:24+00:00",
    "etag": "",
    "last_modified": ""
   },
   "gn-mondo-breaking": {
-   "checked_at": "2026-09-13T23:20:34+00:00",
+   "checked_at": "2026-09-13T23:39:24+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -193,7 +193,7 @@
    "last_modified": ""
   },
   "ingv-terremoti": {
-   "checked_at": "2026-09-13T23:20:34+00:00",
+   "checked_at": "2026-09-13T23:39:24+00:00",
    "etag": "",
    "last_modified": ""
   },
@@ -233,12 +233,12 @@
    "last_modified": ""
   },
   "protezione-civile": {
-   "checked_at": "2026-09-13T23:20:33+00:00",
+   "checked_at": "2026-09-13T23:39:24+00:00",
    "etag": "",
    "last_modified": ""
   },
   "reuters-gn": {
-   "checked_at": "2026-09-13T23:20:33+00:00",
+   "checked_at": "2026-09-13T23:39:24+00:00",
    "etag": "",
    "last_modified": ""
   },
