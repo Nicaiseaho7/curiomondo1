@@ -31,7 +31,7 @@ jobs:
           python3 - <<'PY'
           from pathlib import Path
           from PIL import Image
-          import json, re, html
+          import json, re, html, base64, shutil
 
           ROOT = Path('.')
           article = ROOT/'notizie/brics-dichiarazione-new-delhi-medio-oriente-12-settembre-2026.html'
@@ -48,8 +48,12 @@ jobs:
 
           imgdir = ROOT/'assets/images/editorial-auto'
           src = imgdir/f'{new_key}-800.webp'
-          if not src.exists():
-              raise SystemExit(f'Immagine base mancante: {src}')
+          chunk_dir = ROOT/'.github/image-chunks/brics-v344'
+          chunk_files = sorted(chunk_dir.glob('part-*'))
+          if not chunk_files:
+              raise SystemExit('Chunk immagine mancanti')
+          encoded = ''.join(x.read_text(encoding='utf-8').strip() for x in chunk_files)
+          src.write_bytes(base64.b64decode(encoded))
           im = Image.open(src).convert('RGB')
           for w in (480, 1200):
               h = round(w * 2 / 3)
@@ -132,6 +136,8 @@ jobs:
               if 'last_update' in d: d['last_update']='brics-ai-open-source-new-delhi'
               if 'generatedEditorialImages' in d: d['generatedEditorialImages']=int(d['generatedEditorialImages'])+1
               p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          if chunk_dir.exists():
+              shutil.rmtree(chunk_dir)
           print(f'BRICS aggiornato; versione sito {version}')
           PY
 
