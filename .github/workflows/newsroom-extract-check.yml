@@ -17,6 +17,10 @@ on:
       - 'automation/newsroom/googlenews.py'
       - 'automation/newsroom/extract_check.py'
       - 'automation/newsroom/resa.py'
+      # La resa dipende da come si riconosce lo stesso fatto e da come si
+      # registrano le conferme: se cambiano, va rimisurata.
+      - 'automation/newsroom/normalize.py'
+      - 'automation/newsroom/state.py'
       - '.github/workflows/newsroom-extract-check.yml'
 
 permissions:
