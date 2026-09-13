@@ -1,5 +1,3 @@
-error: patch failed: tools/finalize_articles_20260906.py:333
-error: tools/finalize_articles_20260906.py: patch does not apply
 #!/usr/bin/env python3
 from __future__ import annotations
 
