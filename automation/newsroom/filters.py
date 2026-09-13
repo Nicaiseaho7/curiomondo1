@@ -62,8 +62,31 @@ class Decision:
     high_risk: bool = False
 
 
+# Una scossa lieve non è una notizia: in Italia se ne registrano decine al
+# giorno. Sotto questa magnitudo il sisma viene trattato come rumore di fondo.
+MAGNITUDO_MINIMA = 4.0
+_MAGNITUDO_RE = re.compile(
+    r"(?:magnitudo|magnitude|\bml\b|\bmw\b|\bmb\b)[\s:]*([0-9]+(?:[.,][0-9]+)?)", re.I
+)
+
+
+def magnitudo_trascurabile(testo: str) -> bool:
+    """Vero se il testo parla di un sisma e la magnitudo è sotto la soglia."""
+    trovate = [float(m.replace(",", ".")) for m in _MAGNITUDO_RE.findall(testo or "")]
+    if not trovate:
+        return False
+    return max(trovate) < MAGNITUDO_MINIMA
+
+
 def is_breaking(title: str, summary: str = "") -> bool:
-    return bool(_BREAKING_RE.search(f"{title} {summary}"))
+    testo = f"{title} {summary}"
+    if not _BREAKING_RE.search(testo):
+        return False
+    # Le parole d'allarme non bastano: un terremoto di magnitudo 2.0 contiene
+    # "terremoto" ma non è ultima ora.
+    if magnitudo_trascurabile(testo):
+        return False
+    return True
 
 
 def is_high_risk(title: str, summary: str = "") -> bool:
@@ -123,6 +146,11 @@ def screen(
         return Decision(False, "titolo_troppo_corto")
     if _EXCLUDED_RE.search(text):
         return Decision(False, "categoria_esclusa")
+
+    if magnitudo_trascurabile(text):
+        # Le reti sismiche pubblicano ogni scossa: senza questo filtro il
+        # worker spenderebbe una verifica per ogni micro-sisma della giornata.
+        return Decision(False, "sisma_sotto_soglia")
 
     age = _age_hours(published_at, now)
     if age is not None and age > max_age_hours:

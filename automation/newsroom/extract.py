@@ -1,0 +1,138 @@
+"""Recupero del testo reale di una notizia.
+
+Il watcher conosce solo titolo e sommario: troppo poco per scrivere un
+articolo. Chiedere a un modello di sviluppare 400 parole partendo da un titolo
+significa invitarlo a inventare i dettagli. Qui si legge la pagina della fonte,
+una sola volta per candidato, come farebbe un lettore.
+
+Non è uno scraper aggressivo: una richiesta, un limite di dimensione, un
+timeout, e nessun tentativo di aggirare blocchi. Se la fonte non si lascia
+leggere, il candidato resta senza materiale e non verrà scritto.
+"""
+from __future__ import annotations
+
+import gzip
+import io
+import re
+import urllib.error
+import urllib.request
+from dataclasses import dataclass
+
+from lxml import html as LH
+
+USER_AGENT = "CurioMondoNewsroom/1.0 (+https://curiomondo.it; redazione automatica)"
+MAX_BYTES = 2_000_000
+TIMEOUT = 20
+
+# Contenitori dove di norma vive il testo dell'articolo, dal più specifico.
+CANDIDATE_XPATHS = (
+    '//article',
+    '//*[@itemprop="articleBody"]',
+    '//*[contains(@class,"article-body")]',
+    '//*[contains(@class,"articleBody")]',
+    '//*[contains(@class,"story-body")]',
+    '//*[contains(@class,"entry-content")]',
+    '//*[contains(@class,"post-content")]',
+    '//main',
+)
+
+DROP_TAGS = ('script', 'style', 'noscript', 'nav', 'header', 'footer', 'aside', 'form', 'figure')
+
+
+@dataclass
+class Extracted:
+    url: str
+    title: str
+    text: str
+    paragraphs: list[str]
+    ok: bool
+    reason: str = ""
+
+    @property
+    def words(self) -> int:
+        return len(re.findall(r"\w+", self.text))
+
+
+def _fetch(url: str, timeout: int = TIMEOUT) -> tuple[bytes, str]:
+    request = urllib.request.Request(url)
+    request.add_header("User-Agent", USER_AGENT)
+    request.add_header("Accept", "text/html,application/xhtml+xml")
+    request.add_header("Accept-Language", "it-IT,it;q=0.9,en;q=0.8")
+    request.add_header("Accept-Encoding", "gzip")
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        raw = response.read(MAX_BYTES)
+        if response.headers.get("Content-Encoding") == "gzip":
+            try:
+                raw = gzip.GzipFile(fileobj=io.BytesIO(raw)).read(MAX_BYTES)
+            except OSError:
+                pass
+        return raw, response.geturl()
+
+
+def _clean_paragraphs(node) -> list[str]:
+    for tag in DROP_TAGS:
+        for bad in node.xpath(f'.//{tag}'):
+            parent = bad.getparent()
+            if parent is not None:
+                parent.remove(bad)
+    paragrafi = []
+    for p in node.xpath('.//p'):
+        testo = re.sub(r'\s+', ' ', ' '.join(p.itertext())).strip()
+        # I paragrafi brevissimi sono didascalie, crediti o inviti al consenso.
+        if len(testo) >= 60:
+            paragrafi.append(testo)
+    return paragrafi
+
+
+def extract(url: str, timeout: int = TIMEOUT, min_words: int = 120) -> Extracted:
+    """Scarica una notizia e ne estrae il testo principale."""
+    try:
+        raw, final_url = _fetch(url, timeout=timeout)
+    except urllib.error.HTTPError as exc:
+        return Extracted(url, "", "", [], False, f"http_{exc.code}")
+    except Exception as exc:
+        return Extracted(url, "", "", [], False, type(exc).__name__)
+
+    try:
+        doc = LH.fromstring(raw)
+    except Exception:
+        return Extracted(url, "", "", [], False, "html_non_valido")
+
+    titolo = ""
+    for xp in ('//meta[@property="og:title"]/@content', '//h1//text()', '//title/text()'):
+        valori = doc.xpath(xp)
+        if valori:
+            titolo = re.sub(r'\s+', ' ', str(valori[0])).strip()
+            if titolo:
+                break
+
+    migliore: list[str] = []
+    for xp in CANDIDATE_XPATHS:
+        for nodo in doc.xpath(xp):
+            paragrafi = _clean_paragraphs(nodo)
+            if len(' '.join(paragrafi)) > len(' '.join(migliore)):
+                migliore = paragrafi
+        if len(re.findall(r"\w+", ' '.join(migliore))) >= min_words:
+            break
+
+    if not migliore:
+        migliore = _clean_paragraphs(doc)
+
+    testo = '\n\n'.join(migliore)
+    parole = len(re.findall(r"\w+", testo))
+    if parole < min_words:
+        return Extracted(final_url, titolo, testo, migliore, False, f"testo_insufficiente_{parole}")
+    return Extracted(final_url, titolo, testo, migliore, True)
+
+
+def gather(urls: list[str], limit: int = 3, timeout: int = TIMEOUT) -> list[Extracted]:
+    """Legge il materiale di più fonti sullo stesso fatto.
+
+    Più fonti indipendenti significano sia più contesto per scrivere sia, e
+    soprattutto, la possibilità di verificare che raccontino la stessa cosa.
+    """
+    risultati = []
+    for url in urls[:limit]:
+        esito = extract(url, timeout=timeout)
+        risultati.append(esito)
+    return risultati

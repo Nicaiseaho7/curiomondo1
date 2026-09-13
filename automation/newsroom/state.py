@@ -67,7 +67,23 @@ class Candidate:
     priority: str = "normal"          # "breaking" oppure "normal"
     score: float = 0.0
     attempts: int = 0
+    # Altre fonti che raccontano lo stesso fatto. Non sono rumore da scartare:
+    # sono le conferme indipendenti che la verifica editoriale pretende prima
+    # di trattare una notizia delicata come accertata.
+    corroborations: list[dict[str, Any]] = field(default_factory=list)
     article: dict[str, Any] = field(default_factory=dict)
+
+    def add_corroboration(self, source: str, url: str, title: str) -> bool:
+        """Registra una conferma, evitando di contare due volte la stessa fonte."""
+        if any(c.get("source") == source for c in self.corroborations):
+            return False
+        self.corroborations.append({"source": source, "url": url, "title": title})
+        return True
+
+    @property
+    def independent_sources(self) -> int:
+        """Quante fonti distinte riportano il fatto, compresa quella originale."""
+        return 1 + len(self.corroborations)
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)

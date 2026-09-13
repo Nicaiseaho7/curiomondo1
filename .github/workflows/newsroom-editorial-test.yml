@@ -1,0 +1,119 @@
+name: Redazione · Prova editoriale controllata
+
+# Prova l'intera catena editoriale senza pubblicare niente: legge le fonti,
+# chiede la verifica, scrive l'articolo e lo mostra per una lettura umana.
+#
+# È il passaggio che il protocollo impone prima di abilitare la pubblicazione
+# automatica: si guarda cosa produce davvero la pipeline, su una notizia vera,
+# prima di lasciarla scrivere sul sito.
+
+on:
+  workflow_dispatch:
+    inputs:
+      quante:
+        description: 'Quante bozze produrre'
+        type: string
+        default: '1'
+        required: false
+      tetto:
+        description: 'Tetto di spesa per questa prova (USD)'
+        type: string
+        default: '1.0'
+        required: false
+  push:
+    paths:
+      - 'automation/newsroom/worker.py'
+      - 'automation/newsroom/editor.py'
+      - '.github/workflows/newsroom-editorial-test.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: newsroom-editorial-test
+  cancel-in-progress: false
+
+jobs:
+  prova:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet lxml
+
+      - name: Recupera lo stato del watcher
+        env:
+          REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        run: |
+          if git ls-remote --exit-code --heads origin automation-state >/dev/null 2>&1; then
+            git clone --quiet --branch automation-state --depth 5 "$REPO_URL" .state
+          else
+            echo "Nessuno stato salvato: eseguo prima una scansione delle fonti."
+            mkdir -p .state
+          fi
+
+      - name: Cerca notizie se lo stato è vuoto
+        run: |
+          if [ ! -s .state/candidates.json ]; then
+            python3 -m automation.newsroom.watcher --state .state --cadence deep --articles notizie
+          fi
+          python3 - <<'PY'
+          import json, pathlib
+          p = pathlib.Path('.state/candidates.json')
+          items = json.loads(p.read_text())['items'] if p.exists() else {}
+          attesa = [c for c in items.values() if c['status'] == 'seen']
+          print(f"Candidati in attesa di verifica: {len(attesa)}")
+          for c in sorted(attesa, key=lambda x: x['score'], reverse=True)[:5]:
+              print(f"  {c['score']:.2f} [{c['priority']}] {c['source']}: {c['title'][:80]}")
+          PY
+
+      - name: Verifica e scrivi (senza pubblicare)
+        id: prova
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python3 -m automation.newsroom.worker \
+            --state .state \
+            --max "${{ inputs.quante || '1' }}" \
+            --tetto-giornaliero "${{ inputs.tetto || '1.0' }}" \
+            --articles notizie \
+            --solo-prova \
+            > /tmp/esito.json
+          cat /tmp/esito.json
+
+      - name: Mostra l'articolo prodotto
+        if: always()
+        run: |
+          python3 - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
+          import json, pathlib
+          p = pathlib.Path('/tmp/esito.json')
+          if not p.exists():
+              print("### Prova editoriale\n\nNessun esito prodotto."); raise SystemExit(0)
+          e = json.loads(p.read_text())
+          print("## Prova editoriale controllata\n")
+          print(f"- candidati esaminati: **{e.get('esaminati', 0)}**")
+          print(f"- bozze prodotte: **{e.get('bozze', 0)}**")
+          print(f"- costo di questa prova: **{e.get('costo_usd', 0)} USD** ({e.get('token', 0)} token)")
+          print(f"- speso oggi: {e.get('speso_oggi_usd', 0)} / {e.get('tetto_usd', 0)} USD\n")
+          for art in e.get('anteprima', []):
+              print(f"### {art['titolo']}\n")
+              print(f"*{art['sommario']}*\n")
+              print(f"**{art['categoria']}** · {art.get('luogo','')} · formato {art['formato']} · "
+                    f"{len(' '.join(art['paragrafi']).split())} parole\n")
+              for par in art['paragrafi']:
+                  print(par + "\n")
+              print("**Dati chiave della card:** " + " · ".join(
+                  f"{d.get('valore')} ({d.get('etichetta')})" for d in art.get('dati_chiave', [])))
+              print("\n**Parole evidenziate:** " + ", ".join(art.get('parole_chiave_titolo', [])))
+              print("\n**Fonti:**")
+              for f in art.get('fonti', []):
+                  print(f"- [{f.get('descrizione','fonte')}]({f.get('url')})")
+              v = art.get('verifica', {})
+              print(f"\n**Perché è stato aperto:** {v.get('motivo','')}")
+              print(f"**Valore aggiunto:** {'; '.join(v.get('valore_aggiunto', []))}")
+              print(f"**Tema delicato:** {'sì' if v.get('sensibile') else 'no'} · "
+                    f"**fonte primaria:** {'sì' if v.get('fonte_primaria') else 'no'}")
+          PY

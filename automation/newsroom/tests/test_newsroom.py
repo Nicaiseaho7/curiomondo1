@@ -308,3 +308,47 @@ def test_log_non_contiene_segreti(tmp_path, monkeypatch):
     # Anche senza variabile d'ambiente, la forma da chiave viene riconosciuta.
     monkeypatch.delenv("OPENAI_API_KEY")
     assert finta not in scrub(f"testo con {finta} dentro")
+
+
+def test_watch_registra_le_conferme_invece_di_buttarle(tmp_path, monkeypatch):
+    """Due testate sullo stesso fatto: la seconda diventa una conferma.
+
+    Serve alla verifica editoriale, che per i temi delicati pretende una fonte
+    indipendente prima di trattare un fatto come accertato.
+    """
+    items = [
+        sources.Item("Terremoto di magnitudo 6.2 colpisce la costa del Giappone",
+                     "https://reuters.com/a", iso(0.3), "Reuters", "agency", "mondo", "high"),
+        sources.Item("Giappone, terremoto magnitudo 6.2 sulla costa",
+                     "https://ansa.it/b", iso(0.4), "ANSA", "agency", "mondo", "high"),
+    ]
+    monkeypatch.setattr(watcher, "fetch_all", lambda f, cache=None, timeout=12: (items, [], cache or {}))
+    monkeypatch.setattr(watcher, "load_feeds", lambda *a, **k: [_feed()])
+    articles = tmp_path / "notizie"; articles.mkdir()
+
+    watcher.run_watch(tmp_path / "state", articles_dir=articles)
+
+    store = Store(tmp_path / "state")
+    vivi = [c for c in store.all_candidates() if c.status == "seen"]
+    assert len(vivi) == 1, "una sola notizia, non due"
+    assert vivi[0].independent_sources == 2, "la seconda testata deve contare come conferma"
+    assert vivi[0].corroborations[0]["source"] in ("ANSA", "Reuters")
+
+
+def test_sisma_lieve_non_e_notizia():
+    """Le reti sismiche pubblicano ogni scossa: senza filtro il worker
+    spenderebbe una verifica a pagamento per ogni micro-sisma."""
+    d = filters.screen("Earthquake 1 km W Terenzo (PR), Magnitude ML 2.0", "",
+                       "primary", "high", iso(0.2), now=NOW)
+    assert not d.accepted and d.reason == "sisma_sotto_soglia"
+
+
+def test_sisma_forte_resta_breaking():
+    d = filters.screen("Terremoto di magnitudo 6.4 al largo della Grecia", "",
+                       "agency", "high", iso(0.2), now=NOW)
+    assert d.accepted and d.priority == "breaking"
+
+
+def test_magnitudo_non_confonde_altre_cifre():
+    assert not filters.magnitudo_trascurabile("Il PIL cresce dello 0,3% nel trimestre")
+    assert filters.magnitudo_trascurabile("Scossa di magnitudo 3,1 in Appennino")

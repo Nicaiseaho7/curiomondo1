@@ -1,7 +1,7 @@
 {
   "version": 3,
   "timezone": "Europe/Rome",
-  "safe_mode": true,
+  "safe_mode": false,
   "live": {
     "interval_minutes": 10,
     "max_items": 10,
@@ -101,15 +101,27 @@
     "editorial_protocol_version": "4.0",
     "quality_gate_effective_from": "2026-09-10T20:00:00+02:00",
     "format_word_ranges": {
-      "flash": [100, 250],
-      "standard": [300, 600],
-      "feature": [800, 1500]
+      "flash": [
+        100,
+        250
+      ],
+      "standard": [
+        300,
+        600
+      ],
+      "feature": [
+        800,
+        1500
+      ]
     },
     "feature_may_exceed_reference_range": true,
     "substantive_updates_may_exceed_range": true,
     "inverted_pyramid_required": true,
     "lead_five_w_required": true,
-    "paragraph_sentence_range": [2, 4],
+    "paragraph_sentence_range": [
+      2,
+      4
+    ],
     "paragraph_max_words": 60,
     "sentence_target_max_words": 25,
     "strategic_bold_max_per_paragraph": 2,
@@ -157,5 +169,16 @@
     "dedupe_required": true,
     "performance_target_min": 90,
     "publication_complete_only_after_predeploy_and_postdeploy_checks": true
+  },
+  "newsroom": {
+    "modello_verifica": "gpt-5",
+    "modello_stesura": "gpt-5",
+    "modello_immagine": "gpt-image-1",
+    "modello_verifica_immagine": "gpt-4o",
+    "tetto_giornaliero_usd": 5.0,
+    "soglia_allerta": 0.8,
+    "max_bozze_per_ciclo": 3,
+    "max_fonti_lette_per_notizia": 3,
+    "note": "Modelli confermati disponibili sull'account il 13 settembre 2026. Il tetto e giornaliero e persistente: superato, il worker si rifiuta di chiamare il modello."
   }
 }
