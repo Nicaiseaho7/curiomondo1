@@ -31,7 +31,11 @@ jobs:
       - name: Nessuna chiave segreta nel codice
         run: |
           # Rete di sicurezza: una chiave API non deve mai entrare nel repository.
-          if grep -rnE '(sk-[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9]{20,})' \
+          #
+          # Il pattern pretende una sequenza alfanumerica ininterrotta, come nelle
+          # chiavi vere. Ammettere anche i trattini faceva scattare l'allarme su
+          # normalissimi slug italiani: "Dorohusk-attacco-confine" contiene "sk-".
+          if grep -rnE '(sk-(proj-)?[A-Za-z0-9]{24,}|gh[pousr]_[A-Za-z0-9]{30,})' \
                --include='*.py' --include='*.json' --include='*.yml' --include='*.md' \
                automation/ tools/ .github/ 2>/dev/null; then
             echo "Trovata una possibile credenziale nel repository."

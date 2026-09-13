@@ -294,10 +294,17 @@ def test_watch_rispetta_il_limite_per_ciclo(tmp_path, monkeypatch):
 
 
 def test_log_non_contiene_segreti(tmp_path, monkeypatch):
-    from automation.newsroom.observability import CycleLogger
-    monkeypatch.setenv("OPENAI_API_KEY", "sk-test-1234567890abcdefghij")
+    """Una chiave non deve finire nei log nemmeno se qualcuno la mette in un messaggio."""
+    from automation.newsroom.observability import CycleLogger, scrub
+
+    # Stringa di forma realistica (sequenza alfanumerica lunga), ma inventata.
+    finta = "sk-" + "AbCd1234" * 5
+    monkeypatch.setenv("OPENAI_API_KEY", finta)
     log = CycleLogger("t", log_dir=tmp_path, echo=False)
-    log.event("prova", messaggio="chiave sk-test-1234567890abcdefghij dentro il testo")
+    log.event("prova", messaggio=f"chiave {finta} dentro il testo", dati={"annidato": [finta]})
     scritto = (tmp_path / f"{datetime.now(timezone.utc):%Y-%m-%d}.jsonl").read_text(encoding="utf-8")
-    assert "sk-test-1234567890abcdefghij" not in scritto
+    assert finta not in scritto
     assert "[REDACTED]" in scritto
+    # Anche senza variabile d'ambiente, la forma da chiave viene riconosciuta.
+    monkeypatch.delenv("OPENAI_API_KEY")
+    assert finta not in scrub(f"testo con {finta} dentro")
