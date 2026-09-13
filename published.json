@@ -1,13 +1,33 @@
 {
  "items": {
   "chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu": {
+   "checked_at": "2026-09-13T21:34:33+00:00",
+   "checks": {
+    "archive_contains_article": false,
+    "article_http_200": true,
+    "article_visible_in_expected_listing": false,
+    "canonical_matches_public_url": true,
+    "feed_contains_article_if_eligible": true,
+    "hero_image_http_200": true,
+    "news_sitemap_contains_article_if_eligible": true,
+    "sitemap_contains_article": true
+   },
    "commit_sha": "3ebdc1c0378751b27c78aa73f9289b725fcc76c6",
    "public_url": "https://curiomondo.it/notizie/chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu.html",
    "published_at": "2026-09-13T21:32:05+00:00",
+   "reason": "article_visible_in_expected_listing,archive_contains_article",
    "slug": "chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu",
    "url_key": "4a54c4e6de3a9e5d5909",
+   "verification": "unverified"
+  },
+  "inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-13-09-2026": {
+   "commit_sha": "db5be75057eb6a8e66bc737841b2f41883a810e3",
+   "public_url": "https://curiomondo.it/notizie/inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-13-09-2026.html",
+   "published_at": "2026-09-13T21:38:24+00:00",
+   "slug": "inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-13-09-2026",
+   "url_key": "1047fe2259ff697ce973",
    "verification": "pending"
   }
  },
- "updated_at": "2026-09-13T21:32:05+00:00"
+ "updated_at": "2026-09-13T21:38:24+00:00"
 }

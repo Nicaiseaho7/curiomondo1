@@ -771,15 +771,15 @@
    "first_seen": "2026-09-13T17:44:38+00:00",
    "priority": "breaking",
    "published_at": "2026-09-13T15:00:09+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "fonte_unica",
    "score": 0.765,
    "source": "The Guardian World",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "rejected",
    "title": "Crossbench MPs launch push to stop Australian military exports being used in human rights breaches",
    "topic_key": "b890eed0b4ef8a881d98",
    "trust": "",
-   "updated_at": "2026-09-13T21:30:30+00:00",
+   "updated_at": "2026-09-13T21:34:35+00:00",
    "url": "https://theguardian.com/australia-news/2026/sep/14/crossbench-mps-launch-push-to-stop-australian-military-exports-being-used-in-human-rights-breaches",
    "url_key": "03b09931218606005fca"
   },
@@ -3434,6 +3434,105 @@
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DRTBuLVZvUVd3MFFZU1FmcEJ2MDdmdzFMUGZDZWh5a2xNVzREN19ObnhKNzA5ZHNCNmdhZ0lUZHNHaVJiV0lhTWgtRU5iaEoyUEgxUzlWalVUMG50RGdSc081aFI",
    "url_key": "10322ffa909947f62909"
   },
+  "1047fe2259ff697ce973": {
+   "article": {
+    "categoria": "Mondo",
+    "category_full": "Mondo",
+    "conferme": [
+     "Mondo ultima ora"
+    ],
+    "dati_chiave": [
+     {
+      "etichetta": "entrata in vigore",
+      "icona": "◆",
+      "valore": "2027"
+     },
+     {
+      "etichetta": "scuole con breakfast club",
+      "icona": "●",
+      "valore": "1.250"
+     },
+     {
+      "etichetta": "pasta integrale settimanale",
+      "icona": "▲",
+      "valore": "50%"
+     }
+    ],
+    "fonte_originale": "https://bbc.co.uk/news/articles/cy4zrepw78eo",
+    "fonti": [
+     {
+      "descrizione": "Conferma divieto dei fritti, limiti a dessert e carni lavorate, pane ad alto contenuto di fibre, tempistica 2027, obblighi online e monitoraggio con FSA.",
+      "url": "https://www.bbc.co.uk/news/articles/cy4zrepw78eo"
+     },
+     {
+      "descrizione": "Dettaglia regole per i breakfast club da settembre, esclusioni e tetto zuccheri; riporta dichiarazioni di Lucy Powell e dell'ASCL su enforcement e investimenti.",
+      "url": "https://www.bbc.com/news/articles/cy4zrepw78eo"
+     },
+     {
+      "descrizione": "Riporta il caso Oasis Blakenhale a Birmingham, stima sui pasti gratuiti, numero di scuole con breakfast club e differenze per Galles e Scozia.",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04QWlaaVJ5NlRxLUFQRkU4SUwzUHUyYldxTFBlZVd2bWNGTnVtd0lwOW9MS3o1X1ZISWxtODdFRUZKVnFjWmJYa0hBOEJfdW1zd1VJck4tRklWdw"
+     }
+    ],
+    "formato": "standard",
+    "immagine": {
+     "alt": "Scena editoriale ordinaria in una mensa scolastica inglese con personale che serve patatine al forno, pasta integrale e frutta a studenti in uniforme.",
+     "contesto_sensibile": false,
+     "personaggio_pubblico": false,
+     "prompt": "Editorial ultra-realistic photo inside an English school cafeteria at lunchtime: kitchen staff serve oven-baked chips, wholewheat pasta, and fruit portions to uniformed pupils; stainless steel counters; natural daylight; no visible text or logos."
+    },
+    "luogo": "Inghilterra",
+    "paragrafi": [
+     "Il governo inglese aggiorna gli standard alimentari scolastici, vieta i cibi fritti e amplia frutta e verdura nei menù. Le nuove regole si applicheranno in Inghilterra dal 2027 e puntano ad aumentare fibre e integrali, secondo il Dipartimento dell'Istruzione. Il Dipartimento afferma che intende contrastare l'obesità infantile e migliorare nutrizione, concentrazione, apprendimento e benessere degli alunni nelle scuole.",
+     "I dessert zuccherati scendono a due volte a settimana nelle secondarie e una nelle primarie, e dovranno sempre essere serviti con una porzione di frutta. Le carni lavorate passano a una volta a settimana, le patatine saranno al forno, una pasta settimanale al 50% integrale e pane ricco di fibre.",
+     "Le norme riguardano scuole primarie e secondarie in Inghilterra e includono per la prima volta regole nutrizionali anche per i breakfast club. Gli istituti dovranno pubblicare online politiche alimentari e menù, con modalità di monitoraggio sviluppate insieme alla Food Standards Agency. Il governo precisa che il finanziamento avverrà con risorse già assegnate alle scuole, senza stanziamenti aggiuntivi dedicati alla riforma.",
+     "Per i breakfast club non esisteva guida; da settembre prossimo saranno esclusi prodotti di pasticceria e uova fritte, con tetti allo zucchero nei cereali. Secondo il governo, Coco Pops non saranno più un'opzione e la crema al cioccolato non è consentita nei menù della colazione.",
+     "Dal febbraio di quest'anno, 1.250 scuole hanno attivato club per la colazione gratuiti per gli alunni. La dirigente Farzana Ahmed afferma che la scuola vede positivamente le misure e ritiene necessario un monitoraggio, chiedendo ulteriori indicazioni operative. Ahmed indica che circa il 60% degli alunni riceve pasti gratuiti e prevede benefici per circa il 70% con l'ampliamento dell'idoneità.",
+     "L'Associazione dei dirigenti scolastici accoglie le novità, ma teme che i controlli diventino 'un altro bastone' contro i presidi. Il segretario Pepe Di'Iasio segnala che pochi si considerano esperti di nutrizione e sollecita investimenti in cucine e formazione degli chef scolastici. I dettagli sull'enforcement e il monitoraggio restano da definire con la Food Standards Agency, lasciando incerta l'applicazione pratica quotidiana.",
+     "La segretaria all'Istruzione Lucy Powell parla di cambiamenti 'once-in-a-generation' che 'trasformeranno' l'alimentazione scolastica per i bambini in tutto il Paese. La madre lavoratrice Kinza Butt riferisce che i pasti gratuiti hanno alleggerito un 'peso dalle spalle' e migliorato l'esperienza alimentare del figlio.",
+     "Gli standard si applicheranno in Inghilterra, mentre le regole per le mense scolastiche variano nelle altre nazioni del Regno Unito. In Galles, una nuova guida entrerà entro fine anno, con due porzioni quotidiane di verdure e bevande limitate ad acqua, latte o alternative vegetali. La Scozia ha aggiornato la legislazione nel 2020; altri dettagli non sono disponibili nel materiale fornito."
+    ],
+    "parole_chiave_titolo": [
+     "Inghilterra",
+     "fritti"
+    ],
+    "published": "2026-09-13T23:38:03+02:00",
+    "slug": "inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-13-09-2026",
+    "sommario": "Le nuove norme aumentano frutta, verdura, fibre e integrali, riducono dessert e carni lavorate e impongono regole ai breakfast club. Entrano dal 2027, con monitoraggio da definire con la Food Standards Agency e finanziamenti invariati.",
+    "titolo": "Inghilterra, stop ai fritti nelle mense scolastiche con le nuove regole",
+    "verifica": {
+     "fonte_primaria": false,
+     "motivo": "C’è una base solida (BBC) e possiamo offrire una scheda pratica delle nuove regole con confronto UK interno e i nodi aperti su monitoraggio e risorse.",
+     "sensibile": false,
+     "valore_aggiunto": [
+      "scheda pratica con cosa cambia, quando entra in vigore e per chi",
+      "confronto con le regole già in vigore in Scozia e in arrivo in Galles",
+      "limiti/incertezze su enforcement, monitoraggio con FSA e fondi invariati"
+     ]
+    }
+   },
+   "attempts": 0,
+   "corroborations": [
+    {
+     "source": "Mondo ultima ora",
+     "title": "Deep-fried food banned under new school dinner rules in England",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04QWlaaVJ5NlRxLUFQRkU4SUwzUHUyYldxTFBlZVd2bWNGTnVtd0lwOW9MS3o1X1ZISWxtODdFRUZKVnFjWmJYa0hBOEJfdW1zd1VJck4tRklWdw"
+    }
+   ],
+   "first_seen": "2026-09-13T21:34:30+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:30:29+00:00",
+   "reason": "",
+   "score": 0.85,
+   "source": "BBC News",
+   "source_tier": "agency",
+   "status": "published",
+   "title": "Deep-fried food banned under new school dinner rules in England",
+   "topic_key": "c1c824f6982c6fad85e5",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:38:24+00:00",
+   "url": "https://bbc.co.uk/news/articles/cy4zrepw78eo",
+   "url_key": "1047fe2259ff697ce973"
+  },
   "107512d2267d4d8d4104": {
    "article": {},
    "attempts": 0,
@@ -4821,6 +4920,25 @@
    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oZGo2SVFKTlhzY0pHTzNYTThTMmxwSFVOTnhJdXhxUy1MM1BkYjN5bXh6VWtRcXVKNUlqVU9XUzZ5cS1mcGhOeVZ2U1U5SkJBVDA0b0dHaFVISEZx",
    "url_key": "166bbc7ffb31e068bbd9"
   },
+  "166cfd04eb684319cd52": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:34:30+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:42:06+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.7,
+   "source": "Italia ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "consumo di birra - Adnkronos",
+   "topic_key": "529cc4c211d598b2a886",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:37:06+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5aZUhOTGY5VFF2YXc5bGV4Y0RTUXlaeFBiYlJ0NG9UX0lBUmtKdzNyVHZDc0NYSlBzclpmd19LR0JTQ0ltYlZVanhFUkRJQ2FDQndheVhVRHh0VTQ",
+   "url_key": "166cfd04eb684319cd52"
+  },
   "16909d6d2df5c4ff5fd0": {
    "article": {},
    "attempts": 0,
@@ -5790,6 +5908,25 @@
    "url": "https://ec.europa.eu/commission/presscorner/detail/it/mex_26_1856",
    "url_key": "1c8d4d36c9898a559ed2"
   },
+  "1c8f787c09181a893166": {
+   "article": {},
+   "attempts": 1,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:34:30+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:30:21+00:00",
+   "reason": "in_attesa_di_una_seconda_fonte",
+   "score": 0.85,
+   "source": "BBC News",
+   "source_tier": "agency",
+   "status": "seen",
+   "title": "'Culture shift' needed in how UK does business, PM urges",
+   "topic_key": "dcb203a06fabac6a48c4",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:36:58+00:00",
+   "url": "https://bbc.co.uk/news/articles/clyl18x4734o",
+   "url_key": "1c8f787c09181a893166"
+  },
   "1cdd6c0aa8b0b58386aa": {
    "article": {},
    "attempts": 0,
@@ -6248,7 +6385,7 @@
   },
   "1f3097a1f551565f31b3": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T21:30:23+00:00",
    "priority": "normal",
@@ -6261,7 +6398,7 @@
    "title": "Politics live: electrifying push for Australians to save $5,000 a year; bumper weekend for auctions",
    "topic_key": "d8020eeb0dd08e8a422c",
    "trust": "high",
-   "updated_at": "2026-09-13T21:30:33+00:00",
+   "updated_at": "2026-09-13T21:36:58+00:00",
    "url": "https://theguardian.com/australia-news/live/2026/sep/14/australia-politics-live-question-time-electric-vehicles-auction-rates-housing-crisis-albanese-labor-coalition-one-nation-ntwnfb",
    "url_key": "1f3097a1f551565f31b3"
   },
@@ -9655,6 +9792,25 @@
    "url": "https://ansa.it/sito/notizie/mondo/americalatina/2026/09/13/messico-figli-dei-narcos-studiano-nelle-scuole-delite-degli-usa_e4211304-9821-43d2-b903-48b4734e9f1b.html",
    "url_key": "2faea61ab09ef93ea7db"
   },
+  "2faefacada6384c0d225": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:34:30+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T19:22:39+00:00",
+   "reason": "duplicato_di:199b484511f8ab5409f0",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "SNAP.A - | Stock Price & Latest News",
+   "topic_key": "95b43d19621f91bd85b5",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:34:30+00:00",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43TW9IRXhCOFYwU3E3OG5NQXF4N21FN2JRVi1BbHVobjU1MzdPMXFFT2Yya1NwMk5JNlM5OEFFaFk2RU9xV29DRjJyTmtacWVYeHlia3JPck5XU3hfTmpwQWliUEczZGcwM1dUMGVtU25HQmNqdTNlVGhiV1pjVlU",
+   "url_key": "2faefacada6384c0d225"
+  },
   "2fb89898ee90ab306696": {
    "article": {},
    "attempts": 0,
@@ -12146,15 +12302,15 @@
    "first_seen": "2026-09-13T21:07:56+00:00",
    "priority": "breaking",
    "published_at": "2026-09-13T19:15:57+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "fonte_unica",
    "score": 0.765,
    "source": "The Guardian World",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "rejected",
    "title": "US schools and police warn about viral ‘Cat in the Hat’ trend after teens’ arrests",
    "topic_key": "39ce1e8d2c62ebdbddd0",
    "trust": "",
-   "updated_at": "2026-09-13T21:30:30+00:00",
+   "updated_at": "2026-09-13T21:34:35+00:00",
    "url": "https://theguardian.com/us-news/2026/sep/13/cat-in-the-hat-social-media-trend-arrests-school-warnings",
    "url_key": "3f1f7cddbdcdfc427a09"
   },
@@ -16527,15 +16683,15 @@
    "first_seen": "2026-09-13T17:44:41+00:00",
    "priority": "breaking",
    "published_at": "2026-09-13T16:17:50+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "fonte_unica",
    "score": 0.865,
    "source": "ANSA Cronaca",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "rejected",
    "title": "Morta in piscina, famiglia si oppone ad archiviazione inchiesta",
    "topic_key": "cf587113ce9e79f19a56",
    "trust": "",
-   "updated_at": "2026-09-13T21:30:29+00:00",
+   "updated_at": "2026-09-13T21:34:34+00:00",
    "url": "https://ansa.it/sito/notizie/cronaca/2026/09/13/morta-in-piscina-famiglia-si-oppone-ad-archiviazione-inchiesta_86358ac9-9018-40f0-9272-d8785059320f.html",
    "url_key": "553b9fb168e64aba8748"
   },
@@ -17312,15 +17468,15 @@
    "first_seen": "2026-09-13T21:24:24+00:00",
    "priority": "normal",
    "published_at": "2026-09-13T21:17:15+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "fonte_unica",
    "score": 0.85,
    "source": "BBC World",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "rejected",
    "title": "Swedish party blocs tied after Sunday vote, projections say",
    "topic_key": "e7b1ad26759ac94358db",
    "trust": "high",
-   "updated_at": "2026-09-13T21:30:34+00:00",
+   "updated_at": "2026-09-13T21:36:58+00:00",
    "url": "https://bbc.co.uk/news/articles/c0qx5d79kdeo",
    "url_key": "589ae7631bda9ced53e3"
   },
@@ -18577,6 +18733,25 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ1llNGRfRWhrS1pIMkVkS2JRaXBfLVpUZnBjRl9rOWR6bVAyTXU1d0FBNUhWTlhId1p3THNjcUN5QUVkZ1dON3pnRnJnb19pZ0FuanhENjhVS0NGZkw3ME1SNkw5QTh4LUpXTWd0ZHBRYlFHNHZSYjVyNEFzSFhXVHdDZTZuTXlXdFp5bGwxZl9mc2FnSUVVSXZsSVg",
    "url_key": "5f21fd3fa0e67faa9254"
+  },
+  "5f228ad631b7a7d3fa46": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:34:30+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:53:18+00:00",
+   "reason": "duplicato_di:199b484511f8ab5409f0",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "BTDPY.PK - | Stock Price & Latest News",
+   "topic_key": "0d8eee51b6231a869a09",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:34:30+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNGRKRG9RLXAyYVprVDVhN3N5QlZaakZBaHB3UXJrNlFiM0ZpVHFXOXNSZXZsSzJpZFRRWHVtZ3FaZkpJOFVjT1JqTEdHZ0hrMjE0a0JrYjNiam1LQjlvU2d6RlhZX1VKYlcxR2JqUGh5aEVFdE8yYU9rMGFsTTI5R25n",
+   "url_key": "5f228ad631b7a7d3fa46"
   },
   "5f232b5bc2760af764cb": {
    "article": {},
@@ -21540,15 +21715,15 @@
    "first_seen": "2026-09-13T21:04:56+00:00",
    "priority": "normal",
    "published_at": "2026-09-13T20:09:16+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "fonte_unica",
    "score": 0.85,
    "source": "Italia ultima ora",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "rejected",
    "title": "I ragazzi di Crans tornano a scuola, 'altro passo verso normalità'",
    "topic_key": "e6c4f35f814e756f18a7",
    "trust": "",
-   "updated_at": "2026-09-13T21:30:36+00:00",
+   "updated_at": "2026-09-13T21:37:00+00:00",
    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPZkVLTGplLVRtNFZLak5pTklPQU55U24wblVqV0ZVVjNicjFQXzBFelM2MnZsX2dOY2FocnZnQTd3VzlvRFk5VWZZMkwtc0lBOGNEY0lvWVI0Qk03eUttSFZEZGh2V0NxUHBfQU9rc0F6WW1xR1dySXl0YW1MbU5oTUtSMzJUNmxoQ0VGWmliUGxDcng1enZXZE9sLXplcXBtb3NZT3hpdk1XUDA1RzlEQThmbXRSNVl4XzZpNGNQTzZ0NVVwTC1tZXVNSG8ya1FrY3otbW5hYWlZdWZVNi1LNUZEcjdtZkMyeDRMQjB1WHAwdXhaSlN5VWtENVdHenk50gGAAkFVX3lxTE9mRUtMamUtVG00VktqTmlOSU9BTnlTbjBuVWpXRlVWM2JyMVBfMEV6UzYydmxfZ05jYWhydmdBN3dXOW9EWTlVZlkyTC1zSUE4Y0RjSW9ZUjRCTTd5S21IVkRkaHZXQ3FQcF9BT2tzQXpZbXFHV3JJeXRhbUxtTmhNS1IzMlQ2bGhDRUZaaWJQbENyeDV6dldkT2wtemVxcG1vc1lPeGl2TVdQMDVHOURBOGZtdFI1WXhfNmk0Y1BPNnQ1VXBMLW1ldU1IbzJrUWtjei1tbmFhaVl1ZlU2LUs1RkRyN21mQzJ4NExCMHVYcDB1eFpKU3lVa0Q1V0d6eTk",
    "url_key": "6f2aa05938b60513eb92"
   },
@@ -22796,6 +22971,25 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBfWDlZOENEUURUYUg5MmRyXzFUcFViWUh5Ynk4U25aeUUwVlVhVXdWcHJGdFhIQ2V4V05vSWtzajNCR3JpY1pMUjdmSnZBMm9wdmZBYWtBZ2hQekdoUjJ1RlB3RnFsZmVGQjZIdWMzQmY",
    "url_key": "7653ea80cad70b1f7001"
+  },
+  "7662e2b26fbc5d26d9c5": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:34:31+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T20:13:13+00:00",
+   "reason": "duplicato_di:4d8c4bd52bd4a26958a7",
+   "score": 0.0,
+   "source": "Mondo ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Guterres: Old global order must change as power shifts to emerging economies",
+   "topic_key": "523493f551339b3997df",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:34:31+00:00",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTTdWeS1WR3ppY0NsSC1WZzFDMVVUYUc0VDNPUnR2UUpwSWpsa0Rja1ZwWDZUUktoS3Q2YWpCcTRaR2w0MjJkenhZa0RFVTN2d3ZJMGFmQ2k2SEtYNGdPLWtfeE9jZnNrQldDek9ySDczMkI3cl9sU25VT0RfbHFZakQ3cUMyM2pRcEEza3A3VGltUG5HblE",
+   "url_key": "7662e2b26fbc5d26d9c5"
   },
   "768660eac63bef9c6f86": {
    "article": {},
@@ -25155,15 +25349,15 @@
    "first_seen": "2026-09-13T17:44:38+00:00",
    "priority": "breaking",
    "published_at": "2026-09-13T15:00:09+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "fonte_unica",
    "score": 0.765,
    "source": "The Guardian World",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "rejected",
    "title": "As Japan’s yen peaks, is the era of budget-friendly trips coming to an end for Australian travellers?",
    "topic_key": "2eda4d1d50d517fad643",
    "trust": "",
-   "updated_at": "2026-09-13T21:30:30+00:00",
+   "updated_at": "2026-09-13T21:34:35+00:00",
    "url": "https://theguardian.com/australia-news/2026/sep/14/as-japans-yen-peaks-is-the-era-of-budget-friendly-trips-coming-to-an-end-for-australian-travellers",
    "url_key": "8286e4e5d217a9aeeae7"
   },
@@ -26985,15 +27179,15 @@
    "first_seen": "2026-09-13T17:44:38+00:00",
    "priority": "breaking",
    "published_at": "2026-09-13T15:51:33+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "fonte_unica",
    "score": 0.865,
    "source": "The Guardian World",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "rejected",
    "title": "Pregnant woman among more than 10 killed in Israeli attacks on Gaza",
    "topic_key": "06379434ec85a0944ee5",
    "trust": "",
-   "updated_at": "2026-09-13T21:30:30+00:00",
+   "updated_at": "2026-09-13T21:34:34+00:00",
    "url": "https://theguardian.com/world/2026/sep/13/pregnant-woman-killed-israeli-attacks-gaza",
    "url_key": "8cf1d22f2ea527d7c296"
   },
@@ -29270,6 +29464,25 @@
    "url": "https://ansa.it/sito/notizie/politica/2026/09/13/la-lega-incalza-sui-soldati-in-strada.-crosetto-frena-meglio-una-legge_f0929700-793f-4cc3-94b6-cb4ebd6056af.html",
    "url_key": "974b8508f034beb99faa"
   },
+  "9769a47824d13f34b092": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:34:30+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T22:21:25+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "BBC News",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Watch: Match of the Day",
+   "topic_key": "62c4cb4dff2e7aaaa78c",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:37:00+00:00",
+   "url": "https://bbc.co.uk/iplayer/live/bbcone",
+   "url_key": "9769a47824d13f34b092"
+  },
   "978a5d950ba2e74bdec3": {
    "article": {},
    "attempts": 0,
@@ -30745,7 +30958,7 @@
   },
   "9fe943ec8d11923c10ab": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T21:30:23+00:00",
    "priority": "normal",
@@ -30758,7 +30971,7 @@
    "title": "First ministers of Wales, Scotland and Northern Ireland to meet in Cardiff",
    "topic_key": "b36b64f341d0e56d415a",
    "trust": "high",
-   "updated_at": "2026-09-13T21:30:37+00:00",
+   "updated_at": "2026-09-13T21:37:00+00:00",
    "url": "https://bbc.co.uk/news/articles/c62enegxyl9o",
    "url_key": "9fe943ec8d11923c10ab"
   },
@@ -33907,15 +34120,15 @@
    "first_seen": "2026-09-13T18:28:25+00:00",
    "priority": "normal",
    "published_at": "2026-09-13T17:58:56+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "fonte_unica",
    "score": 0.85,
    "source": "Italia ultima ora",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "rejected",
    "title": "Serie A: il Napoli batte il Bologna 1-0",
    "topic_key": "3f86399b2ae4e9275b24",
    "trust": "",
-   "updated_at": "2026-09-13T21:30:41+00:00",
+   "updated_at": "2026-09-13T21:37:03+00:00",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSVlYOHhDbi1NcVJ0MmN0ZnJBbjQxLWM3UWJFMDRvbXdKQWRUR0l6RG5zdFdmYnlPME00ZkRVbFl4bUIyeE9MdTMzdUZUNGlRWG1LYWtvTTVBSHB6NFZDd3FMTnduT3Q5VlJrYnlkV2dpZDRfQ05nQThUY1h2OHJmNTdNSEo2YWxUY2Z0eF82RmlzVll6N0hLdlpzUUVGMlRTRTROWTU5bllLWk05ZXVOLU5qeXVGRUdHemxlRS1feFZ4UFMxTkhQU0k3M2lDZW83NEVB",
    "url_key": "b2c0aaffb6346c35a2d9"
   },
@@ -34061,15 +34274,15 @@
    "first_seen": "2026-09-13T17:44:38+00:00",
    "priority": "breaking",
    "published_at": "2026-09-13T16:57:43+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "fonte_unica",
    "score": 0.85,
    "source": "The Guardian World",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "rejected",
    "title": "Russian drone hits Kyiv-Warsaw passenger train near Polish border",
    "topic_key": "416c67ceaf93a5856e85",
    "trust": "",
-   "updated_at": "2026-09-13T21:30:30+00:00",
+   "updated_at": "2026-09-13T21:34:35+00:00",
    "url": "https://theguardian.com/world/2026/sep/13/russian-drone-hits-kyiv-warsaw-passenger-train-polish-border",
    "url_key": "b398d0d12e367a41ec44"
   },
@@ -34718,6 +34931,25 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qd2hTYzRUTkpUNFRTREtMd29sMGhUVWctSHljblhrRFp1TFVfZmxFYm9DNWxZbHhmWm1tOXhPVGhtUkJCOUFwX2NxbGNxbTBma1ZWblo1MFN6VHlkZEFJ",
    "url_key": "b730b746cb7be8c4f054"
+  },
+  "b747928b57e20dfb6302": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:34:31+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:28:00+00:00",
+   "reason": "fonti_non_leggibili",
+   "score": 0.85,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Vikings QB Murray leaves his debut in the 1st quarter with a concussion after a hit to the head",
+   "topic_key": "e5ec0fd975b75ecac8e5",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:37:03+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYXA1a1dPNXlLelZMdHlnU1NjcF8zaUlvc3kteWdPLTBJajhaUGNWNE9kTWZ5a25GRUJFNlJ4dDFtSS1TVmVkNTJfSDZNMl9EdXNnZGRMVkdQTG1oQTZqMWVjcmVZQy1SM19OT1YySTJ4VTh3blU3S1AyZWN6cmhyVmRvb3JZLVFWVlE",
+   "url_key": "b747928b57e20dfb6302"
   },
   "b776f2b284ad3b71ff1f": {
    "article": {},
@@ -39358,6 +39590,25 @@
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5sQXo2Um1zR2JVLTN3ZFVTdjQ3RUZBQ2Y0eTJHVFFxRW1FVmxqZkhzTHA3Tk9HM0J2ZVgxWEJxTm12cks1YURBMjdVWUxuQQ",
    "url_key": "cf9587484640ec21eeab"
   },
+  "cfd788b1d32453e163d5": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:34:31+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:30:29+00:00",
+   "reason": "duplicato_di:1047fe2259ff697ce973",
+   "score": 0.0,
+   "source": "Mondo ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Deep-fried food banned under new school dinner rules in England",
+   "topic_key": "c1c824f6982c6fad85e5",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:34:31+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04QWlaaVJ5NlRxLUFQRkU4SUwzUHUyYldxTFBlZVd2bWNGTnVtd0lwOW9MS3o1X1ZISWxtODdFRUZKVnFjWmJYa0hBOEJfdW1zd1VJck4tRklWdw",
+   "url_key": "cfd788b1d32453e163d5"
+  },
   "d01014f29991ce276fa9": {
    "article": {},
    "attempts": 0,
@@ -39422,15 +39673,15 @@
    "first_seen": "2026-09-13T21:07:56+00:00",
    "priority": "normal",
    "published_at": "2026-09-13T20:05:22+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "fonte_unica",
    "score": 0.765,
    "source": "The Guardian World",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "rejected",
    "title": "San Jose officer fired for misusing Flock camera database in domestic abuse case",
    "topic_key": "88017bfacb13190793eb",
    "trust": "",
-   "updated_at": "2026-09-13T21:30:45+00:00",
+   "updated_at": "2026-09-13T21:37:04+00:00",
    "url": "https://theguardian.com/us-news/2026/sep/13/san-jose-officer-fired-flock-camera-misuse",
    "url_key": "d074c5a990429e955b48"
   },
@@ -41798,7 +42049,7 @@
   },
   "dc5c66a96af94ae9e29d": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T21:30:23+00:00",
    "priority": "normal",
@@ -41811,7 +42062,7 @@
    "title": "Sexual and gender-based violence - UN News - the United Nations",
    "topic_key": "61e9d675db6904b02c81",
    "trust": "high",
-   "updated_at": "2026-09-13T21:30:32+00:00",
+   "updated_at": "2026-09-13T21:34:35+00:00",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aVXAxdjhObTFGTnktamh0NmdWZzlqTGppY0hrdUpEbzF1MVBZUnBDYkhsQlVhUkZVU3hDRVNFdm1YUlVQemNST24wS0EzMG1DWFg0c3llcWZYVFNEQUU5N0ZKdUlGQkp6MmM3Zg",
    "url_key": "dc5c66a96af94ae9e29d"
   },
@@ -42346,6 +42597,25 @@
    "updated_at": "2026-09-13T17:44:37+00:00",
    "url": "https://bbc.co.uk/sport/football/videos/ckgw13ng43xo",
    "url_key": "dedf68017290869fa956"
+  },
+  "dee04bfa867437a656e7": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:34:30+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:40:34+00:00",
+   "reason": "titolo_troppo_corto",
+   "score": 0.0,
+   "source": "Associated Press",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "Georgia",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:34:30+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9XdjNTUWRyQTJJYmk3TXhzNFBYOUxUa3lac3hJYzlrSXN1bmR5N1UzOUVLb0Rha1pWcXdobU1wVzFIa2RL",
+   "url_key": "dee04bfa867437a656e7"
   },
   "df1603e9fa2a1d52e235": {
    "article": {},
@@ -47112,15 +47382,15 @@
    "first_seen": "2026-09-13T21:04:56+00:00",
    "priority": "normal",
    "published_at": "2026-09-13T20:07:56+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "fonte_unica",
    "score": 0.85,
    "source": "Italia ultima ora",
    "source_tier": "agency",
-   "status": "seen",
+   "status": "rejected",
    "title": "Scontro in laguna a Venezia, lui muore e la moglie è dispersa",
    "topic_key": "2e6aaf22497888d63e8d",
    "trust": "",
-   "updated_at": "2026-09-13T21:30:44+00:00",
+   "updated_at": "2026-09-13T21:37:04+00:00",
    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYTZucTB3ejhjdGxrcXlPbFJqQzBCcFp4blVBUVR1eUFmd2t3ZGdJNG9STGkyTExNZThqaVhQQnBBREtYNWl6TmtQUDl1N01OVUszWExzbDJMQ252VFZyejVvcDdNNkxOeDhEeUtHZWhyeWJjckY5QTJaLThsU1JRSHAxWk1rZG5FSUJLdEFvTjVLZDNpVzVfVVlmbnJ0T1RPSzljRTVHdGZhVVdPSHhmaW1vZGVGUUdHNXU0bGxJQmpEX1M3OTBHcHdreFp3X01HZV9lVS1QdG5aYmhZcm40WXNuT1dWYU5UdkHSAe8BQVVfeXFMUHAybTVwYk9pNFJOUmdra0QxTGo5SDkzdWtuWjJ3MkZEQjFrQWZSZzMxVF9FT2R2aUk2aG5Cd0tCMW5qWmt2ZUUtcWJPNzlyWmN1ZjZJazl6dWRkMEtnSndVbEpoZnNPZEtHZGpJOUJ0cFdvZlg0RFJybjF6RHRldl9vXzF4YnM5OGYtc3ZncFlFaDZocmVmZGw1Qk03NE9HaGdmcWNibWlKcEtQY252TlpOTkV2VHhxcDdiVHZsTk83d2xISmZBd1plNXJjRTNhQ21wSzlQMV9rNS0zbFg4WnRPMld4empVcjRxaE96MWM",
    "url_key": "fadd6a23e34d6cd0d01a"
   },
@@ -47952,5 +48222,5 @@
    "url_key": "fffee37376b8c909bc12"
   }
  },
- "updated_at": "2026-09-13T21:32:05+00:00"
+ "updated_at": "2026-09-13T21:38:24+00:00"
 }
