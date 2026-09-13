@@ -308,3 +308,28 @@ def test_log_non_contiene_segreti(tmp_path, monkeypatch):
     # Anche senza variabile d'ambiente, la forma da chiave viene riconosciuta.
     monkeypatch.delenv("OPENAI_API_KEY")
     assert finta not in scrub(f"testo con {finta} dentro")
+
+
+def test_watch_registra_le_conferme_invece_di_buttarle(tmp_path, monkeypatch):
+    """Due testate sullo stesso fatto: la seconda diventa una conferma.
+
+    Serve alla verifica editoriale, che per i temi delicati pretende una fonte
+    indipendente prima di trattare un fatto come accertato.
+    """
+    items = [
+        sources.Item("Terremoto di magnitudo 6.2 colpisce la costa del Giappone",
+                     "https://reuters.com/a", iso(0.3), "Reuters", "agency", "mondo", "high"),
+        sources.Item("Giappone, terremoto magnitudo 6.2 sulla costa",
+                     "https://ansa.it/b", iso(0.4), "ANSA", "agency", "mondo", "high"),
+    ]
+    monkeypatch.setattr(watcher, "fetch_all", lambda f, cache=None, timeout=12: (items, [], cache or {}))
+    monkeypatch.setattr(watcher, "load_feeds", lambda *a, **k: [_feed()])
+    articles = tmp_path / "notizie"; articles.mkdir()
+
+    watcher.run_watch(tmp_path / "state", articles_dir=articles)
+
+    store = Store(tmp_path / "state")
+    vivi = [c for c in store.all_candidates() if c.status == "seen"]
+    assert len(vivi) == 1, "una sola notizia, non due"
+    assert vivi[0].independent_sources == 2, "la seconda testata deve contare come conferma"
+    assert vivi[0].corroborations[0]["source"] in ("ANSA", "Reuters")

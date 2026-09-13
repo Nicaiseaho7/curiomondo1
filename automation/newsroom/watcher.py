@@ -16,7 +16,7 @@ from . import filters
 from .observability import CycleLogger
 from .normalize import title_similarity
 from .sources import fetch_all, load_feeds
-from .state import Candidate, Store, existing_site_titles
+from .state import Candidate, Store, existing_site_titles, _now
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCES_PATH = Path(__file__).resolve().parent / "sources.json"
@@ -94,6 +94,14 @@ def run_watch(
 
         twin = store.knows_topic(topic) or store.find_similar(item.title, threshold=0.62)
         if twin is not None:
+            # Una seconda testata sullo stesso fatto non è rumore: è una conferma
+            # indipendente, e la verifica editoriale la pretende per i temi
+            # delicati. La registriamo sul candidato già noto.
+            if twin.status in ("seen", "drafted", "queued") and twin.add_corroboration(
+                item.source, item.url, item.title
+            ):
+                twin.updated_at = _now()
+                log.count("conferme_raccolte")
             remember_rejected(f"duplicato_di:{twin.url_key}")
             log.count("duplicati_stessa_notizia")
             continue
