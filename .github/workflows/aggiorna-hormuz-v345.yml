@@ -1,0 +1,84 @@
+name: Aggiorna Hormuz 13 settembre mattina
+
+on:
+  push:
+    paths:
+      - '.github/workflows/aggiorna-hormuz-v345.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Aggiorna articolo e superfici editoriali
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          old_title = "Stretto di Hormuz, nuova nave colpita: aumenta il rischio per petrolio e traffici"
+          new_title = "Stretto di Hormuz, nave iraniana colpita vicino a Qeshm: un morto e almeno tre feriti"
+          old_excerpt = "UKMTO segnala una nuova nave colpita nello Stretto di Hormuz. I danni non sono ancora noti mentre la crisi energetica regionale resta sotto pressione."
+          new_excerpt = "Una nave commerciale iraniana è stata colpita vicino all’isola di Qeshm: almeno un membro dell’equipaggio è morto e almeno tre sono rimasti feriti. La responsabilità dell’attacco non è ancora stata chiarita."
+          old_excerpt2 = "UKMTO segnala una nuova nave colpita nello Stretto di Hormuz. I danni non sono ancora noti, mentre il Brent resta sopra 100 dollari e cresce il rischio per i traffici energetici."
+          for p in Path('.').rglob('*'):
+              if not p.is_file() or '.git' in p.parts or p.suffix.lower() not in {'.html','.json','.xml','.md'}:
+                  continue
+              try:
+                  s = p.read_text(encoding='utf-8')
+              except Exception:
+                  continue
+              n = s.replace(old_title, new_title).replace(old_excerpt, new_excerpt).replace(old_excerpt2, new_excerpt)
+              if n != s:
+                  p.write_text(n, encoding='utf-8')
+
+          p = Path('notizie/stretto-hormuz-traffico-sette-navi-11-settembre-2026.html')
+          s = p.read_text(encoding='utf-8')
+          s = s.replace('"dateModified":"2026-09-13T04:54:00+02:00"','"dateModified":"2026-09-13T08:57:00+02:00"')
+          s = s.replace('<strong>1</strong><span>nuova nave segnalata colpita</span>', '<strong>1 morto</strong><span>nell’attacco alla nave commerciale iraniana vicino a Qeshm</span>')
+          old = '''<p>Una nave è stata colpita nello Stretto di Hormuz, secondo una segnalazione diffusa il 13 settembre da UK Maritime Trade Operations e riportata da Reuters. L’entità dei danni non è ancora nota. Il nuovo episodio riporta al centro la sicurezza della navigazione in uno dei passaggi energetici più importanti del mondo.</p><p>La segnalazione arriva mentre la regione è già sotto forte pressione. L’Arabia Saudita ha temporaneamente chiuso la pipeline Est-Ovest dopo un attacco con droni.</p>'''
+          new = '''<p>Una nave commerciale iraniana è stata colpita da un proiettile nelle acque vicino all’isola di Qeshm, nello Stretto di Hormuz, nelle prime ore del 13 settembre. Secondo i media statali iraniani citati da Associated Press, almeno un membro dell’equipaggio è morto e almeno tre persone sono rimaste ferite. UK Maritime Trade Operations ha confermato separatamente che una nave era stata colpita nell’area.</p><p>Non è ancora chiaro chi abbia effettuato l’attacco. Le autorità iraniane hanno attribuito l’episodio a un «nemico terrorista», ma non hanno fornito prove pubbliche sull’origine del colpo. CurioMondo presenta quindi l’attribuzione come una dichiarazione iraniana e non come un fatto accertato in modo indipendente.</p><p>La segnalazione arriva mentre la regione è già sotto forte pressione. L’Arabia Saudita ha temporaneamente chiuso la pipeline Est-Ovest dopo un attacco con droni.</p>'''
+          s = s.replace(old, new)
+          s = s.replace('<p>UKMTO non ha ancora chiarito tutti i dettagli dell’incidente né chi ne sia responsabile. Questi elementi restano quindi in verifica e CurioMondo non li presenta come fatti accertati.</p>', '<p>UKMTO non ha indicato il responsabile dell’attacco. Anche il collegamento tra la sua segnalazione e la nave descritta dai media iraniani resta da trattare con cautela finché non saranno disponibili ulteriori dettagli ufficiali.</p>')
+          s = s.replace('<p>Le autorità marittime continuano a monitorare l’area. Per le prossime ore saranno decisivi gli aggiornamenti sui danni alla nave e sulla sicurezza dei transiti commerciali.</p>', '<p>Le autorità marittime continuano a monitorare l’area. Per le prossime ore saranno decisivi gli aggiornamenti sull’identità della nave, sulle condizioni dei feriti, sull’origine del proiettile e sulla sicurezza dei transiti commerciali.</p>')
+          ap = '<li><a href="https://apnews.com/article/aa034da0d8226f5a3b4794b10afb8b3b" rel="noopener noreferrer" target="_blank">Associated Press — 13 settembre 2026 — nave iraniana colpita vicino a Qeshm, un morto e feriti</a></li>'
+          marker = '<ul><li><a href="https://www.reuters.com/business/energy/new-report-attack-strait-hormuz-shipping-fans-fears-threats-oil-supplies-2026-09-13/"'
+          if ap not in s and marker in s:
+              s = s.replace('<ul>', '<ul>'+ap, 1)
+          p.write_text(s, encoding='utf-8')
+          PY
+
+      - name: Aggiorna versione minima
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          for name in ['curiomondo-site-manifest.json','site-release.json']:
+              p=Path(name)
+              if not p.exists():
+                  continue
+              try: d=json.loads(p.read_text(encoding='utf-8'))
+              except Exception: continue
+              for k in ['site_version','currentVersion','version']:
+                  if k in d:
+                      try: d[k] = 345 if isinstance(d[k], int) else '345'
+                      except: pass
+              if 'baseline_version' in d: d['baseline_version']=344
+              if 'baselineVersion' in d: d['baselineVersion']=344
+              if 'last_update' in d: d['last_update']='hormuz-qeshm-v345'
+              p.write_text(json.dumps(d, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          PY
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica"
+            exit 0
+          fi
+          git commit -m "v345: aggiorna Hormuz con vittime vicino a Qeshm"
+          git push
