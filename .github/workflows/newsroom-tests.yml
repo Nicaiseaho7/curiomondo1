@@ -1,0 +1,40 @@
+name: Redazione · Test
+
+# La pipeline editoriale decide cosa finisce online: la sua logica di
+# deduplicazione e filtro va protetta da test, non verificata a mano.
+
+on:
+  push:
+    paths:
+      - 'automation/newsroom/**'
+      - '.github/workflows/newsroom-tests.yml'
+  pull_request:
+    paths:
+      - 'automation/newsroom/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet pytest
+      - name: Test della redazione automatica
+        run: python3 -m pytest automation/newsroom/tests -q
+      - name: Nessuna chiave segreta nel codice
+        run: |
+          # Rete di sicurezza: una chiave API non deve mai entrare nel repository.
+          if grep -rnE '(sk-[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9]{20,})' \
+               --include='*.py' --include='*.json' --include='*.yml' --include='*.md' \
+               automation/ tools/ .github/ 2>/dev/null; then
+            echo "Trovata una possibile credenziale nel repository."
+            exit 1
+          fi
+          echo "Nessuna credenziale trovata."

@@ -1,0 +1,47 @@
+name: Redazione · Salute delle fonti
+
+# Verifica quali feed del registro rispondono davvero. Serve perché un registro
+# di fonti invecchia: i feed cambiano indirizzo o vengono chiusi, e un elenco
+# che mente è peggio di un elenco corto.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 6 * * 1'   # ogni lunedì mattina
+
+permissions:
+  contents: read
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Interroga tutte le fonti
+        run: |
+          python3 -m automation.newsroom.health --out /tmp/fonti.json | tail -5
+
+      - name: Riepilogo leggibile
+        run: |
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          r = json.load(open('/tmp/fonti.json'))
+          print(f"### Fonti: {r['funzionanti']}/{r['totale']} funzionanti\n")
+          print(f"- vuote: {r['vuote']}\n- in errore: {r['in_errore']}\n")
+          if r['da_disattivare']:
+              print("**Da rivedere:** " + ", ".join(r['da_disattivare']) + "\n")
+          print("| fonte | stato | voci | esempio |")
+          print("|---|---|---|---|")
+          for row in r['dettaglio']:
+              print(f"| {row['name']} (`{row['id']}`) | {row['status']}{' ' + row['error'] if row['error'] else ''} | {row['items']} | {row['sample'][:60]} |")
+          PY
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: salute-fonti
+          path: /tmp/fonti.json
