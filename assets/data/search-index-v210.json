@@ -1,6 +1,12 @@
 {
-  "version": 345,
+  "version": 346,
   "items": [
+    {
+      "title": "Zaporizhzhia, la gestione russa denuncia oltre dieci attacchi con droni",
+      "excerpt": "La direzione dell’impianto accusa le forze ucraine di avere colpito ripetutamente l’area del centro di addestramento. L’attribuzione non è verificata in modo indipendente.",
+      "url": "/notizie/zaporizhzhia-dieci-attacchi-droni-centro-addestramento-13-settembre-2026.html",
+      "section": "Mondo / Ucraina / Sicurezza nucleare"
+    },
     {
       "title": "Energia, nuovo allarme globale dopo gli attacchi alle rotte del petrolio",
       "excerpt": "La pipeline saudita Est-Ovest, capace di trasportare 4–5 milioni di barili al giorno, è stata fermata per precauzione. La durata dello stop determinerà la pressione effettiva sull’offerta.",
@@ -134,12 +140,6 @@
       "section": "Italia / Salute / Sanità pubblica"
     },
     {
-      "title": "Diesel, prorogato fino al 17 settembre lo sconto di 17 centesimi",
-      "excerpt": "Il Consiglio dei ministri estende per altri sette giorni la riduzione sul gasolio. Il decreto costa 86 milioni e rinvia la scelta sulle misure successive.",
-      "url": "/notizie/diesel-sconto-accise-proroga-17-settembre-2026.html",
-      "section": "Italia / Economia / Carburanti"
-    },
-    {
       "title": "Taiwan, la vicepresidente Hsiao in Italia per il forum di Ventotene",
       "excerpt": "La visita, mantenuta riservata fino all'arrivo, è rara per un'esponente taiwanese di questo livello. Con lei il ministro degli Esteri Lin Chia-lung.",
       "url": "/notizie/taiwan-vicepresidente-hsiao-italia-ventotene-11-settembre-2026.html",
@@ -152,16 +152,10 @@
       "section": "Italia / Lombardia / Cronaca / Trasporti"
     },
     {
-      "title": "Legge elettorale, il Senato entra nel vivo dell'esame della riforma",
-      "excerpt": "L'Aula prosegue l'esame del testo per Camera e Senato. La conclusione, con dichiarazioni e voto finale, è programmata per il 15 settembre.",
-      "url": "/notizie/legge-elettorale-senato-esame-riforma-10-settembre-2026.html",
-      "section": "Italia / Politica"
-    },
-    {
-      "title": "Incendio di Gombio, il bilancio: oltre 130 ettari bruciati",
-      "excerpt": "La Regione Emilia-Romagna ricostruisce cinque giorni di operazioni nel Reggiano. Mobilitati Vigili del Fuoco, Protezione civile, volontari, Canadair ed elicotteri.",
-      "url": "/notizie/incendio-gombio-reggio-emilia-130-ettari-bilancio-2026.html",
-      "section": "Italia / Emilia-Romagna / Ambiente / Cronaca"
+      "title": "Diesel, prorogato fino al 17 settembre lo sconto di 17 centesimi",
+      "excerpt": "Il Consiglio dei ministri estende per altri sette giorni la riduzione sul gasolio. Il decreto costa 86 milioni e rinvia la scelta sulle misure successive.",
+      "url": "/notizie/diesel-sconto-accise-proroga-17-settembre-2026.html",
+      "section": "Italia / Economia / Carburanti"
     },
     {
       "title": "Piantedosi: «CasaPound a Roma sarà sgomberata»",
@@ -170,10 +164,10 @@
       "section": "Italia / Politica / Cronaca"
     },
     {
-      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
-      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
-      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
-      "section": "Mondo / Ucraina / Canada / Difesa"
+      "title": "Incendio di Gombio, il bilancio: oltre 130 ettari bruciati",
+      "excerpt": "La Regione Emilia-Romagna ricostruisce cinque giorni di operazioni nel Reggiano. Mobilitati Vigili del Fuoco, Protezione civile, volontari, Canadair ed elicotteri.",
+      "url": "/notizie/incendio-gombio-reggio-emilia-130-ettari-bilancio-2026.html",
+      "section": "Italia / Emilia-Romagna / Ambiente / Cronaca"
     },
     {
       "title": "Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro",
@@ -188,6 +182,18 @@
       "section": "Italia / Economia / Pensioni"
     },
     {
+      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
+      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
+      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
+      "section": "Mondo / Ucraina / Canada / Difesa"
+    },
+    {
+      "title": "Legge elettorale, il Senato entra nel vivo dell'esame della riforma",
+      "excerpt": "L'Aula prosegue l'esame del testo per Camera e Senato. La conclusione, con dichiarazioni e voto finale, è programmata per il 15 settembre.",
+      "url": "/notizie/legge-elettorale-senato-esame-riforma-10-settembre-2026.html",
+      "section": "Italia / Politica"
+    },
+    {
       "title": "La BCE alza i tassi al 2,50% contro l’inflazione spinta dall’energia",
       "excerpt": "Secondo rialzo del 2026: Francoforte aumenta il costo del denaro di 25 punti base. Crescita dell’Eurozona rivista allo 0,9%, inflazione attesa al 3%.",
       "url": "/notizie/bce-alza-tassi-2-50-inflazione-energia-settembre-2026.html",
@@ -200,16 +206,16 @@
       "section": "Mondo / Ambiente / Scienza"
     },
     {
-      "title": "Cavi artici, Reuters: alleati NATO hanno fermato un’esercitazione russa",
-      "excerpt": "Secondo fonti occidentali citate dall’agenzia, sommergibili russi simulavano l’uso di una tecnologia contro i collegamenti delle Svalbard. Nessun cavo è stato danneggiato.",
-      "url": "/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html",
-      "section": "Mondo / Sicurezza / Tecnologia"
-    },
-    {
       "title": "Istat, l’industria italiana riparte a luglio ma l’inflazione accelera",
       "excerpt": "La produzione cresce dello 0,7% sul mese, mentre il Pil del secondo trimestre avanza dello 0,2%. L’energia spinge l’inflazione IPCA al 3,2%.",
       "url": "/notizie/istat-economia-italiana-pil-industria-inflazione-luglio-agosto-2026.html",
       "section": "Italia / Economia"
+    },
+    {
+      "title": "Cavi artici, Reuters: alleati NATO hanno fermato un’esercitazione russa",
+      "excerpt": "Secondo fonti occidentali citate dall’agenzia, sommergibili russi simulavano l’uso di una tecnologia contro i collegamenti delle Svalbard. Nessun cavo è stato danneggiato.",
+      "url": "/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html",
+      "section": "Mondo / Sicurezza / Tecnologia"
     },
     {
       "title": "Spazio, firmati a Parigi due accordi industriali tra Italia e Francia",
@@ -470,16 +476,16 @@
       "section": "Mondo / Iran / Geopolitica"
     },
     {
-      "title": "Ucraina, tregua aerea di 72 ore: Witkoff e Kushner oggi a Kyiv",
-      "excerpt": "La pausa riguarda gli attacchi aerei contro le due capitali durante la missione americana, ma non tutti i combattimenti. Dopo il colloquio al Cremlino, gli inviati statunitensi sono attesi da Zelensky.",
-      "url": "/notizie/ucraina-tregua-aerea-72-ore-witkoff-kushner-kyiv-6-settembre-2026.html",
-      "section": "Mondo / Ucraina / Diplomazia"
-    },
-    {
       "title": "Confine Cina-Nepal, il porto di Gyirong cancellato dall’alluvione",
       "excerpt": "Il valico che collegava Tibet e Nepal è stato travolto dalla colata di fango del 26 agosto. Del complesso doganale restano solo frammenti, mentre le ricerche dei dispersi continuano.",
       "url": "/notizie/confine-cina-nepal-alluvione-porto-gyirong-distrutto-6-settembre-2026.html",
       "section": "Mondo / Cina / Nepal"
+    },
+    {
+      "title": "Ucraina, tregua aerea di 72 ore: Witkoff e Kushner oggi a Kyiv",
+      "excerpt": "La pausa riguarda gli attacchi aerei contro le due capitali durante la missione americana, ma non tutti i combattimenti. Dopo il colloquio al Cremlino, gli inviati statunitensi sono attesi da Zelensky.",
+      "url": "/notizie/ucraina-tregua-aerea-72-ore-witkoff-kushner-kyiv-6-settembre-2026.html",
+      "section": "Mondo / Ucraina / Diplomazia"
     },
     {
       "title": "Sassonia-Anhalt al voto, affluenza in forte aumento: l’AfD cerca una svolta storica",
@@ -794,16 +800,16 @@
       "section": "Italia / Esteri / Cronaca"
     },
     {
-      "title": "Rivolta nel carcere di Siracusa, agenti costretti a lanciarsi dal tetto: dieci poliziotti in ospedale, chiesta un’inchiesta",
-      "excerpt": "Nuovi dettagli sui disordini nel carcere di Siracusa: alcuni agenti sono saltati da circa quattro metri per sfuggire al lancio di pietre. I sindacati chiedono un’inchiesta sulla gestione dell’intervento.",
-      "url": "/notizie/siracusa-rivolta-carcere-agenti-tetto-inchiesta-30-agosto-2026.html",
-      "section": "Italia / Cronaca / Carceri / Sicurezza"
-    },
-    {
       "title": "Affitto dimezzato per i genitori separati: pronta la norma da 60 milioni, contributi fino a 6.000 euro l’anno",
       "excerpt": "Il MIT dichiara pronta la norma per il sostegno abitativo: 50% dell’affitto fino a 6.000 euro l’anno, reddito IRPEF entro 35.000 euro e prima platea stimata in almeno 5.000 beneficiari.",
       "url": "/notizie/affitto-genitori-separati-fondo-60-milioni-30-agosto-2026.html",
       "section": "Italia / Economia / Casa / Famiglie"
+    },
+    {
+      "title": "Rivolta nel carcere di Siracusa, agenti costretti a lanciarsi dal tetto: dieci poliziotti in ospedale, chiesta un’inchiesta",
+      "excerpt": "Nuovi dettagli sui disordini nel carcere di Siracusa: alcuni agenti sono saltati da circa quattro metri per sfuggire al lancio di pietre. I sindacati chiedono un’inchiesta sulla gestione dell’intervento.",
+      "url": "/notizie/siracusa-rivolta-carcere-agenti-tetto-inchiesta-30-agosto-2026.html",
+      "section": "Italia / Cronaca / Carceri / Sicurezza"
     },
     {
       "title": "Nancy Grace Roman, domani il lancio: il telescopio NASA che mapperà miliardi di galassie",
@@ -1004,16 +1010,16 @@
       "section": "Italia / Politica / Economia"
     },
     {
-      "title": "Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
-      "excerpt": "Richiesta, invio, firma, buste, scadenze e conteggio: una guida semplice per capire come funziona il voto postale negli Stati Uniti e perché le regole cambiano da Stato a Stato.",
-      "url": "/notizie/voto-postale-usa-come-funziona-regole-controlli.html",
-      "section": "Mondo / Stati Uniti / Elezioni"
-    },
-    {
       "title": "Che cos’è la Coalizione dei Volenterosi e perché organizza esercitazioni per l’Ucraina?",
       "excerpt": "Una guida chiara alla Coalizione dei Volenterosi: chi ne fa parte, quale ruolo ha la forza multinazionale, perché vengono organizzate esercitazioni e cosa significa partecipare.",
       "url": "/notizie/coalizione-volenterosi-ucraina-cosa-e-esercitazioni-come-funzionano.html",
       "section": "Mondo / Europa / Ucraina"
+    },
+    {
+      "title": "Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
+      "excerpt": "Richiesta, invio, firma, buste, scadenze e conteggio: una guida semplice per capire come funziona il voto postale negli Stati Uniti e perché le regole cambiano da Stato a Stato.",
+      "url": "/notizie/voto-postale-usa-come-funziona-regole-controlli.html",
+      "section": "Mondo / Stati Uniti / Elezioni"
     },
     {
       "title": "Gli USA estendono le sanzioni all’Iran, Teheran promette ritorsioni",
@@ -1286,27 +1292,27 @@
       "section": "Italia / Cultura / Patrimonio"
     },
     {
-      "title": "Perché gli incendi nelle torbiere sono così difficili da spegnere e possono ripartire?",
-      "excerpt": "La torba può bruciare lentamente sotto terra, sfuggire ai controlli e riaccendere le fiamme in superficie. Ecco che cosa accade e come si interviene.",
-      "url": "/notizie/perche-incendi-torbiere-difficili-spegnere.html",
-      "section": "Mondo / Ambiente / Incendi"
-    },
-    {
       "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
       "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
       "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
       "section": "Mondo / Ambiente / Incendi"
     },
     {
-      "title": "Perché gli uragani colpiscono raramente le Hawaii e quando diventano pericolosi?",
-      "excerpt": "Le Hawaii si trovano nel Pacifico tropicale, ma gli impatti diretti restano rari. Ecco come rotte, acqua, vento e montagne cambiano il rischio.",
-      "url": "/notizie/perche-uragani-colpiscono-raramente-hawaii.html",
-      "section": "Mondo / Meteo estremo / USA"
+      "title": "Perché gli incendi nelle torbiere sono così difficili da spegnere e possono ripartire?",
+      "excerpt": "La torba può bruciare lentamente sotto terra, sfuggire ai controlli e riaccendere le fiamme in superficie. Ecco che cosa accade e come si interviene.",
+      "url": "/notizie/perche-incendi-torbiere-difficili-spegnere.html",
+      "section": "Mondo / Ambiente / Incendi"
     },
     {
       "title": "Uragano Lala sfiora la Big Island senza toccare terra: blackout, alluvioni e una vittima",
       "excerpt": "Lala ha costeggiato la Big Island senza un impatto diretto, ma ha portato piogge torrenziali, raffiche violente, alluvioni e blackout a decine di migliaia di utenze.",
       "url": "/notizie/uragano-lala-hawaii-big-island-blackout-alluvioni-16-agosto-2026.html",
+      "section": "Mondo / Meteo estremo / USA"
+    },
+    {
+      "title": "Perché gli uragani colpiscono raramente le Hawaii e quando diventano pericolosi?",
+      "excerpt": "Le Hawaii si trovano nel Pacifico tropicale, ma gli impatti diretti restano rari. Ecco come rotte, acqua, vento e montagne cambiano il rischio.",
+      "url": "/notizie/perche-uragani-colpiscono-raramente-hawaii.html",
       "section": "Mondo / Meteo estremo / USA"
     },
     {

@@ -1,6 +1,40 @@
 {
-  "version": 345,
+  "version": 346,
   "items": [
+    {
+      "title": "Zaporizhzhia, la gestione russa denuncia oltre dieci attacchi con droni",
+      "excerpt": "La direzione dell’impianto accusa le forze ucraine di avere colpito ripetutamente l’area del centro di addestramento. L’attribuzione non è verificata in modo indipendente.",
+      "url": "/notizie/zaporizhzhia-dieci-attacchi-droni-centro-addestramento-13-settembre-2026.html",
+      "section": "Mondo / Ucraina / Sicurezza nucleare",
+      "dateISO": "2026-09-13T15:30:00+02:00",
+      "dateLabel": "2026-09-13",
+      "image": "/assets/images/editorial-auto/zaporizhzhia-centro-addestramento-droni-ai-openai-v346-800.webp",
+      "imageAlt": "Illustrazione editoriale della centrale di Zaporizhzhia e di droni nei pressi del centro di addestramento",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/zaporizhzhia-centro-addestramento-droni-ai-openai-v346-480.webp 480w, /assets/images/editorial-auto/zaporizhzhia-centro-addestramento-droni-ai-openai-v346-800.webp 800w, /assets/images/editorial-auto/zaporizhzhia-centro-addestramento-droni-ai-openai-v346-1200.webp 1200w",
+      "featuredHighlights": [
+        "gestione russa",
+        "oltre dieci attacchi"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "Oltre 10",
+          "label": "attacchi denunciati dalla gestione russa"
+        },
+        {
+          "icon": "●",
+          "value": "0",
+          "label": "vittime riferite nelle prime verifiche"
+        },
+        {
+          "icon": "⬡",
+          "value": "6",
+          "label": "reattori presenti nell’impianto"
+        }
+      ]
+    },
     {
       "title": "Energia, nuovo allarme globale dopo gli attacchi alle rotte del petrolio",
       "excerpt": "La pipeline saudita Est-Ovest, capace di trasportare 4–5 milioni di barili al giorno, è stata fermata per precauzione. La durata dello stop determinerà la pressione effettiva sull’offerta.",
@@ -351,19 +385,6 @@
       "srcset": "/assets/images/editorial-auto/west-nile-italia-594-casi-ai-openai-v325-480.webp 480w, /assets/images/editorial-auto/west-nile-italia-594-casi-ai-openai-v325-800.webp 800w, /assets/images/editorial-auto/west-nile-italia-594-casi-ai-openai-v325-1200.webp 1200w"
     },
     {
-      "title": "Diesel, prorogato fino al 17 settembre lo sconto di 17 centesimi",
-      "excerpt": "Il Consiglio dei ministri estende per altri sette giorni la riduzione sul gasolio. Il decreto costa 86 milioni e rinvia la scelta sulle misure successive.",
-      "url": "/notizie/diesel-sconto-accise-proroga-17-settembre-2026.html",
-      "section": "Italia / Economia / Carburanti",
-      "dateISO": "2026-09-11T06:13:20+02:00",
-      "dateLabel": "2026-09-11",
-      "image": "/assets/images/editorial-auto/diesel-accise-proroga-ai-v319-800.webp",
-      "imageAlt": "Distributore di gasolio in Italia durante un rifornimento, illustrazione editoriale fotorealistica generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/diesel-accise-proroga-ai-v319-480.webp 480w, /assets/images/editorial-auto/diesel-accise-proroga-ai-v319-800.webp 800w, /assets/images/editorial-auto/diesel-accise-proroga-ai-v319-1200.webp 1200w"
-    },
-    {
       "title": "Taiwan, la vicepresidente Hsiao in Italia per il forum di Ventotene",
       "excerpt": "La visita, mantenuta riservata fino all'arrivo, è rara per un'esponente taiwanese di questo livello. Con lei il ministro degli Esteri Lin Chia-lung.",
       "url": "/notizie/taiwan-vicepresidente-hsiao-italia-ventotene-11-settembre-2026.html",
@@ -390,30 +411,17 @@
       "srcset": "/assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-480.webp 480w, /assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-800.webp 800w, /assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-1200.webp 1200w"
     },
     {
-      "title": "Legge elettorale, il Senato entra nel vivo dell'esame della riforma",
-      "excerpt": "L'Aula prosegue l'esame del testo per Camera e Senato. La conclusione, con dichiarazioni e voto finale, è programmata per il 15 settembre.",
-      "url": "/notizie/legge-elettorale-senato-esame-riforma-10-settembre-2026.html",
-      "section": "Italia / Politica",
-      "dateISO": "2026-09-10T19:43:49+02:00",
-      "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/senato-legge-elettorale-ai-v316-800.webp",
-      "imageAlt": "Aula del Senato della Repubblica durante una seduta parlamentare, illustrazione editoriale fotorealistica generata con IA",
+      "title": "Diesel, prorogato fino al 17 settembre lo sconto di 17 centesimi",
+      "excerpt": "Il Consiglio dei ministri estende per altri sette giorni la riduzione sul gasolio. Il decreto costa 86 milioni e rinvia la scelta sulle misure successive.",
+      "url": "/notizie/diesel-sconto-accise-proroga-17-settembre-2026.html",
+      "section": "Italia / Economia / Carburanti",
+      "dateISO": "2026-09-11T06:13:20+02:00",
+      "dateLabel": "2026-09-11",
+      "image": "/assets/images/editorial-auto/diesel-accise-proroga-ai-v319-800.webp",
+      "imageAlt": "Distributore di gasolio in Italia durante un rifornimento, illustrazione editoriale fotorealistica generata con IA",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/senato-legge-elettorale-ai-v316-480.webp 480w, /assets/images/editorial-auto/senato-legge-elettorale-ai-v316-800.webp 800w, /assets/images/editorial-auto/senato-legge-elettorale-ai-v316-1200.webp 1200w"
-    },
-    {
-      "title": "Incendio di Gombio, il bilancio: oltre 130 ettari bruciati",
-      "excerpt": "La Regione Emilia-Romagna ricostruisce cinque giorni di operazioni nel Reggiano. Mobilitati Vigili del Fuoco, Protezione civile, volontari, Canadair ed elicotteri.",
-      "url": "/notizie/incendio-gombio-reggio-emilia-130-ettari-bilancio-2026.html",
-      "section": "Italia / Emilia-Romagna / Ambiente / Cronaca",
-      "dateISO": "2026-09-10T19:43:49+02:00",
-      "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/incendio-gombio-ai-v316-800.webp",
-      "imageAlt": "Ampia area di bosco bruciato sull'Appennino reggiano dopo l'incendio di Gombio, illustrazione editoriale fotorealistica generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/incendio-gombio-ai-v316-480.webp 480w, /assets/images/editorial-auto/incendio-gombio-ai-v316-800.webp 800w, /assets/images/editorial-auto/incendio-gombio-ai-v316-1200.webp 1200w"
+      "srcset": "/assets/images/editorial-auto/diesel-accise-proroga-ai-v319-480.webp 480w, /assets/images/editorial-auto/diesel-accise-proroga-ai-v319-800.webp 800w, /assets/images/editorial-auto/diesel-accise-proroga-ai-v319-1200.webp 1200w"
     },
     {
       "title": "Piantedosi: «CasaPound a Roma sarà sgomberata»",
@@ -429,17 +437,17 @@
       "srcset": "/assets/images/editorial-auto/piantedosi-casapound-ai-v316-480.webp 480w, /assets/images/editorial-auto/piantedosi-casapound-ai-v316-800.webp 800w, /assets/images/editorial-auto/piantedosi-casapound-ai-v316-1200.webp 1200w"
     },
     {
-      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
-      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
-      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
-      "section": "Mondo / Ucraina / Canada / Difesa",
+      "title": "Incendio di Gombio, il bilancio: oltre 130 ettari bruciati",
+      "excerpt": "La Regione Emilia-Romagna ricostruisce cinque giorni di operazioni nel Reggiano. Mobilitati Vigili del Fuoco, Protezione civile, volontari, Canadair ed elicotteri.",
+      "url": "/notizie/incendio-gombio-reggio-emilia-130-ettari-bilancio-2026.html",
+      "section": "Italia / Emilia-Romagna / Ambiente / Cronaca",
       "dateISO": "2026-09-10T19:43:49+02:00",
       "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp",
-      "imageAlt": "Volodymyr Zelenskyy e Mark Carney durante un incontro istituzionale in Canada, illustrazione editoriale fotorealistica generata con IA",
+      "image": "/assets/images/editorial-auto/incendio-gombio-ai-v316-800.webp",
+      "imageAlt": "Ampia area di bosco bruciato sull'Appennino reggiano dopo l'incendio di Gombio, illustrazione editoriale fotorealistica generata con IA",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-480.webp 480w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp 800w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-1200.webp 1200w"
+      "srcset": "/assets/images/editorial-auto/incendio-gombio-ai-v316-480.webp 480w, /assets/images/editorial-auto/incendio-gombio-ai-v316-800.webp 800w, /assets/images/editorial-auto/incendio-gombio-ai-v316-1200.webp 1200w"
     },
     {
       "title": "Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro",
@@ -468,6 +476,32 @@
       "srcset": "/assets/images/editorial-auto/libretto-previdenziale-ai-v316-480.webp 480w, /assets/images/editorial-auto/libretto-previdenziale-ai-v316-800.webp 800w, /assets/images/editorial-auto/libretto-previdenziale-ai-v316-1200.webp 1200w"
     },
     {
+      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
+      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
+      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
+      "section": "Mondo / Ucraina / Canada / Difesa",
+      "dateISO": "2026-09-10T19:43:49+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp",
+      "imageAlt": "Volodymyr Zelenskyy e Mark Carney durante un incontro istituzionale in Canada, illustrazione editoriale fotorealistica generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-480.webp 480w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp 800w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-1200.webp 1200w"
+    },
+    {
+      "title": "Legge elettorale, il Senato entra nel vivo dell'esame della riforma",
+      "excerpt": "L'Aula prosegue l'esame del testo per Camera e Senato. La conclusione, con dichiarazioni e voto finale, è programmata per il 15 settembre.",
+      "url": "/notizie/legge-elettorale-senato-esame-riforma-10-settembre-2026.html",
+      "section": "Italia / Politica",
+      "dateISO": "2026-09-10T19:43:49+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/senato-legge-elettorale-ai-v316-800.webp",
+      "imageAlt": "Aula del Senato della Repubblica durante una seduta parlamentare, illustrazione editoriale fotorealistica generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/senato-legge-elettorale-ai-v316-480.webp 480w, /assets/images/editorial-auto/senato-legge-elettorale-ai-v316-800.webp 800w, /assets/images/editorial-auto/senato-legge-elettorale-ai-v316-1200.webp 1200w"
+    },
+    {
       "title": "La BCE alza i tassi al 2,50% contro l’inflazione spinta dall’energia",
       "excerpt": "Secondo rialzo del 2026: Francoforte aumenta il costo del denaro di 25 punti base. Crescita dell’Eurozona rivista allo 0,9%, inflazione attesa al 3%.",
       "url": "/notizie/bce-alza-tassi-2-50-inflazione-energia-settembre-2026.html",
@@ -494,19 +528,6 @@
       "srcset": "/assets/images/editorial-auto/agosto-record-caldo-ai-v315-480.webp 480w, /assets/images/editorial-auto/agosto-record-caldo-ai-v315-800.webp 800w, /assets/images/editorial-auto/agosto-record-caldo-ai-v315-1200.webp 1200w"
     },
     {
-      "title": "Cavi artici, Reuters: alleati NATO hanno fermato un’esercitazione russa",
-      "excerpt": "Secondo fonti occidentali citate dall’agenzia, sommergibili russi simulavano l’uso di una tecnologia contro i collegamenti delle Svalbard. Nessun cavo è stato danneggiato.",
-      "url": "/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html",
-      "section": "Mondo / Sicurezza / Tecnologia",
-      "dateISO": "2026-09-10T12:45:41+02:00",
-      "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-800.webp",
-      "imageAlt": "Scena editoriale contestuale fotorealistica delle acque artiche presso le Svalbard con navi distanti e un cavo sottomarino integro, generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-480.webp 480w, /assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-800.webp 800w, /assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-1200.webp 1200w"
-    },
-    {
       "title": "Istat, l’industria italiana riparte a luglio ma l’inflazione accelera",
       "excerpt": "La produzione cresce dello 0,7% sul mese, mentre il Pil del secondo trimestre avanza dello 0,2%. L’energia spinge l’inflazione IPCA al 3,2%.",
       "url": "/notizie/istat-economia-italiana-pil-industria-inflazione-luglio-agosto-2026.html",
@@ -518,6 +539,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/istat-economia-italia-ai-v314-480.webp 480w, /assets/images/editorial-auto/istat-economia-italia-ai-v314-800.webp 800w, /assets/images/editorial-auto/istat-economia-italia-ai-v314-1200.webp 1200w"
+    },
+    {
+      "title": "Cavi artici, Reuters: alleati NATO hanno fermato un’esercitazione russa",
+      "excerpt": "Secondo fonti occidentali citate dall’agenzia, sommergibili russi simulavano l’uso di una tecnologia contro i collegamenti delle Svalbard. Nessun cavo è stato danneggiato.",
+      "url": "/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html",
+      "section": "Mondo / Sicurezza / Tecnologia",
+      "dateISO": "2026-09-10T12:45:41+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-800.webp",
+      "imageAlt": "Scena editoriale contestuale fotorealistica delle acque artiche presso le Svalbard con navi distanti e un cavo sottomarino integro, generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-480.webp 480w, /assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-800.webp 800w, /assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-1200.webp 1200w"
     },
     {
       "title": "Spazio, firmati a Parigi due accordi industriali tra Italia e Francia",
@@ -1079,19 +1113,6 @@
       "srcset": "/assets/images/editorial-auto/iran-economia-attacchi-piu-dolorosi-6-settembre-2026-ai-v285-480.webp 480w, /assets/images/editorial-auto/iran-economia-attacchi-piu-dolorosi-6-settembre-2026-ai-v285-800.webp 800w, /assets/images/editorial-auto/iran-economia-attacchi-piu-dolorosi-6-settembre-2026-ai-v285-1200.webp 1200w"
     },
     {
-      "title": "Ucraina, tregua aerea di 72 ore: Witkoff e Kushner oggi a Kyiv",
-      "excerpt": "La pausa riguarda gli attacchi aerei contro le due capitali durante la missione americana, ma non tutti i combattimenti. Dopo il colloquio al Cremlino, gli inviati statunitensi sono attesi da Zelensky.",
-      "url": "/notizie/ucraina-tregua-aerea-72-ore-witkoff-kushner-kyiv-6-settembre-2026.html",
-      "section": "Mondo / Ucraina / Diplomazia",
-      "dateISO": "2026-09-06T14:20:00+02:00",
-      "dateLabel": "2026-09-06",
-      "image": "/assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-800.webp",
-      "imageAlt": "Scena editoriale contestuale IA con Volodymyr Zelensky durante un colloquio istituzionale con gli inviati statunitensi a Kyiv",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-480.webp 480w, /assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-800.webp 800w, /assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-1200.webp 1200w"
-    },
-    {
       "title": "Confine Cina-Nepal, il porto di Gyirong cancellato dall’alluvione",
       "excerpt": "Il valico che collegava Tibet e Nepal è stato travolto dalla colata di fango del 26 agosto. Del complesso doganale restano solo frammenti, mentre le ricerche dei dispersi continuano.",
       "url": "/notizie/confine-cina-nepal-alluvione-porto-gyirong-distrutto-6-settembre-2026.html",
@@ -1103,6 +1124,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-480.webp 480w, /assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-800.webp 800w, /assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-1200.webp 1200w"
+    },
+    {
+      "title": "Ucraina, tregua aerea di 72 ore: Witkoff e Kushner oggi a Kyiv",
+      "excerpt": "La pausa riguarda gli attacchi aerei contro le due capitali durante la missione americana, ma non tutti i combattimenti. Dopo il colloquio al Cremlino, gli inviati statunitensi sono attesi da Zelensky.",
+      "url": "/notizie/ucraina-tregua-aerea-72-ore-witkoff-kushner-kyiv-6-settembre-2026.html",
+      "section": "Mondo / Ucraina / Diplomazia",
+      "dateISO": "2026-09-06T14:20:00+02:00",
+      "dateLabel": "2026-09-06",
+      "image": "/assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-800.webp",
+      "imageAlt": "Scena editoriale contestuale IA con Volodymyr Zelensky durante un colloquio istituzionale con gli inviati statunitensi a Kyiv",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-480.webp 480w, /assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-800.webp 800w, /assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-1200.webp 1200w"
     },
     {
       "title": "Sassonia-Anhalt al voto, affluenza in forte aumento: l’AfD cerca una svolta storica",
@@ -1781,19 +1815,6 @@
       "srcset": "/assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-480.webp 480w, /assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-800.webp 800w, /assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-1200.webp 1200w"
     },
     {
-      "title": "Rivolta nel carcere di Siracusa, agenti costretti a lanciarsi dal tetto: dieci poliziotti in ospedale, chiesta un’inchiesta",
-      "excerpt": "Nuovi dettagli sui disordini nel carcere di Siracusa: alcuni agenti sono saltati da circa quattro metri per sfuggire al lancio di pietre. I sindacati chiedono un’inchiesta sulla gestione dell’intervento.",
-      "url": "/notizie/siracusa-rivolta-carcere-agenti-tetto-inchiesta-30-agosto-2026.html",
-      "section": "Italia / Cronaca / Carceri / Sicurezza",
-      "dateISO": "2026-08-30T00:19:00+02:00",
-      "dateLabel": "2026-08-30",
-      "image": "/assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-800.webp",
-      "imageAlt": "Scena editoriale IA fotorealistica di un istituto penitenziario siciliano durante una situazione di emergenza, con agenti in sicurezza e senza mostrare ferite o il salto dal tetto",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-1200.webp 1200w"
-    },
-    {
       "title": "Affitto dimezzato per i genitori separati: pronta la norma da 60 milioni, contributi fino a 6.000 euro l’anno",
       "excerpt": "Il MIT dichiara pronta la norma per il sostegno abitativo: 50% dell’affitto fino a 6.000 euro l’anno, reddito IRPEF entro 35.000 euro e prima platea stimata in almeno 5.000 beneficiari.",
       "url": "/notizie/affitto-genitori-separati-fondo-60-milioni-30-agosto-2026.html",
@@ -1805,6 +1826,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-1200.webp 1200w"
+    },
+    {
+      "title": "Rivolta nel carcere di Siracusa, agenti costretti a lanciarsi dal tetto: dieci poliziotti in ospedale, chiesta un’inchiesta",
+      "excerpt": "Nuovi dettagli sui disordini nel carcere di Siracusa: alcuni agenti sono saltati da circa quattro metri per sfuggire al lancio di pietre. I sindacati chiedono un’inchiesta sulla gestione dell’intervento.",
+      "url": "/notizie/siracusa-rivolta-carcere-agenti-tetto-inchiesta-30-agosto-2026.html",
+      "section": "Italia / Cronaca / Carceri / Sicurezza",
+      "dateISO": "2026-08-30T00:19:00+02:00",
+      "dateLabel": "2026-08-30",
+      "image": "/assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-800.webp",
+      "imageAlt": "Scena editoriale IA fotorealistica di un istituto penitenziario siciliano durante una situazione di emergenza, con agenti in sicurezza e senza mostrare ferite o il salto dal tetto",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-1200.webp 1200w"
     },
     {
       "title": "Nancy Grace Roman, domani il lancio: il telescopio NASA che mapperà miliardi di galassie",
@@ -2236,19 +2270,6 @@
       "srcset": "/assets/images/optimized/salvini-scostamento-manovra-2027-25-agosto-2026-fotorealistico-v177-640-v204.webp 640w, /assets/images/optimized/salvini-scostamento-manovra-2027-25-agosto-2026-fotorealistico-v177-960-v204.webp 960w"
     },
     {
-      "title": "Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
-      "excerpt": "Richiesta, invio, firma, buste, scadenze e conteggio: una guida semplice per capire come funziona il voto postale negli Stati Uniti e perché le regole cambiano da Stato a Stato.",
-      "url": "/notizie/voto-postale-usa-come-funziona-regole-controlli.html",
-      "section": "Mondo / Stati Uniti / Elezioni",
-      "dateISO": "2026-08-25T07:35:00+00:00",
-      "dateLabel": "2026-08-25",
-      "image": "/assets/images/editorial-v210/voto-postale-usa-800.webp",
-      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v210/voto-postale-usa-480.webp 480w, /assets/images/editorial-v210/voto-postale-usa-800.webp 800w, /assets/images/editorial-v210/voto-postale-usa-1200.webp 1200w"
-    },
-    {
       "title": "Che cos’è la Coalizione dei Volenterosi e perché organizza esercitazioni per l’Ucraina?",
       "excerpt": "Una guida chiara alla Coalizione dei Volenterosi: chi ne fa parte, quale ruolo ha la forza multinazionale, perché vengono organizzate esercitazioni e cosa significa partecipare.",
       "url": "/notizie/coalizione-volenterosi-ucraina-cosa-e-esercitazioni-come-funzionano.html",
@@ -2260,6 +2281,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v210/coalizione-volenterosi-480.webp 480w, /assets/images/editorial-v210/coalizione-volenterosi-800.webp 800w, /assets/images/editorial-v210/coalizione-volenterosi-1200.webp 1200w"
+    },
+    {
+      "title": "Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
+      "excerpt": "Richiesta, invio, firma, buste, scadenze e conteggio: una guida semplice per capire come funziona il voto postale negli Stati Uniti e perché le regole cambiano da Stato a Stato.",
+      "url": "/notizie/voto-postale-usa-come-funziona-regole-controlli.html",
+      "section": "Mondo / Stati Uniti / Elezioni",
+      "dateISO": "2026-08-25T07:35:00+00:00",
+      "dateLabel": "2026-08-25",
+      "image": "/assets/images/editorial-v210/voto-postale-usa-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v210/voto-postale-usa-480.webp 480w, /assets/images/editorial-v210/voto-postale-usa-800.webp 800w, /assets/images/editorial-v210/voto-postale-usa-1200.webp 1200w"
     },
     {
       "title": "Gli USA estendono le sanzioni all’Iran, Teheran promette ritorsioni",
@@ -2847,6 +2881,19 @@
       "srcset": "/assets/images/editorial-v210/recupero-opere-arte-480.webp 480w, /assets/images/editorial-v210/recupero-opere-arte-800.webp 800w, /assets/images/editorial-v210/recupero-opere-arte-1200.webp 1200w"
     },
     {
+      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
+      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
+      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
+      "section": "Mondo / Ambiente / Incendi",
+      "dateISO": "2026-08-16T12:00:00+02:00",
+      "dateLabel": "2026-08-16",
+      "image": "/assets/images/optimized/incendio-belgio-high-fens-16-agosto-2026-ai-960.webp",
+      "imageAlt": "Immagine illustrativa di vigili del fuoco impegnati contro un incendio in una torbiera delle Hautes Fagnes in Belgio",
+      "imageWidth": 640,
+      "imageHeight": 960,
+      "srcset": ""
+    },
+    {
       "title": "Perché gli incendi nelle torbiere sono così difficili da spegnere e possono ripartire?",
       "excerpt": "La torba può bruciare lentamente sotto terra, sfuggire ai controlli e riaccendere le fiamme in superficie. Ecco che cosa accade e come si interviene.",
       "url": "/notizie/perche-incendi-torbiere-difficili-spegnere.html",
@@ -2860,14 +2907,14 @@
       "srcset": "/assets/images/editorial-v210/incendi-torbiere-480.webp 480w, /assets/images/editorial-v210/incendi-torbiere-800.webp 800w, /assets/images/editorial-v210/incendi-torbiere-1200.webp 1200w"
     },
     {
-      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
-      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
-      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
-      "section": "Mondo / Ambiente / Incendi",
-      "dateISO": "2026-08-16T12:00:00+02:00",
+      "title": "Uragano Lala sfiora la Big Island senza toccare terra: blackout, alluvioni e una vittima",
+      "excerpt": "Lala ha costeggiato la Big Island senza un impatto diretto, ma ha portato piogge torrenziali, raffiche violente, alluvioni e blackout a decine di migliaia di utenze.",
+      "url": "/notizie/uragano-lala-hawaii-big-island-blackout-alluvioni-16-agosto-2026.html",
+      "section": "Mondo / Meteo estremo / USA",
+      "dateISO": "2026-08-16T10:00:00+02:00",
       "dateLabel": "2026-08-16",
-      "image": "/assets/images/optimized/incendio-belgio-high-fens-16-agosto-2026-ai-960.webp",
-      "imageAlt": "Immagine illustrativa di vigili del fuoco impegnati contro un incendio in una torbiera delle Hautes Fagnes in Belgio",
+      "image": "/assets/images/optimized/uragano-lala-hawaii-big-island-16-agosto-2026-ai-960.webp",
+      "imageAlt": "Immagine illustrativa di pioggia intensa, vento e mare agitato lungo la costa della Big Island alle Hawaii",
       "imageWidth": 640,
       "imageHeight": 960,
       "srcset": ""
@@ -2884,19 +2931,6 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v210/uragani-hawaii-480.webp 480w, /assets/images/editorial-v210/uragani-hawaii-800.webp 800w, /assets/images/editorial-v210/uragani-hawaii-1200.webp 1200w"
-    },
-    {
-      "title": "Uragano Lala sfiora la Big Island senza toccare terra: blackout, alluvioni e una vittima",
-      "excerpt": "Lala ha costeggiato la Big Island senza un impatto diretto, ma ha portato piogge torrenziali, raffiche violente, alluvioni e blackout a decine di migliaia di utenze.",
-      "url": "/notizie/uragano-lala-hawaii-big-island-blackout-alluvioni-16-agosto-2026.html",
-      "section": "Mondo / Meteo estremo / USA",
-      "dateISO": "2026-08-16T10:00:00+02:00",
-      "dateLabel": "2026-08-16",
-      "image": "/assets/images/optimized/uragano-lala-hawaii-big-island-16-agosto-2026-ai-960.webp",
-      "imageAlt": "Immagine illustrativa di pioggia intensa, vento e mare agitato lungo la costa della Big Island alle Hawaii",
-      "imageWidth": 640,
-      "imageHeight": 960,
-      "srcset": ""
     },
     {
       "title": "Quando un trasferimento nel calciomercato è davvero ufficiale? Visite mediche, contratto e comunicati spiegati",

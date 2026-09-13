@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://curiomondo.it/notizie/zaporizhzhia-dieci-attacchi-droni-centro-addestramento-13-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-13T15:30:00+02:00</news:publication_date>
+      <news:title>Zaporizhzhia, la gestione russa denuncia oltre dieci attacchi con droni</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://curiomondo.it/notizie/energia-attacchi-rotte-petrolio-pipeline-est-ovest-13-settembre-2026.html</loc>
     <news:news>
       <news:publication>
@@ -243,17 +254,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://curiomondo.it/notizie/diesel-sconto-accise-proroga-17-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11T06:13:20+02:00</news:publication_date>
-      <news:title>Diesel, prorogato fino al 17 settembre lo sconto di 17 centesimi</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://curiomondo.it/notizie/taiwan-vicepresidente-hsiao-italia-ventotene-11-settembre-2026.html</loc>
     <news:news>
       <news:publication>
@@ -276,25 +276,14 @@
     </news:news>
   </url>
   <url>
-    <loc>https://curiomondo.it/notizie/legge-elettorale-senato-esame-riforma-10-settembre-2026.html</loc>
+    <loc>https://curiomondo.it/notizie/diesel-sconto-accise-proroga-17-settembre-2026.html</loc>
     <news:news>
       <news:publication>
         <news:name>CurioMondo</news:name>
         <news:language>it</news:language>
       </news:publication>
-      <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
-      <news:title>Legge elettorale, il Senato entra nel vivo dell'esame della riforma</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/incendio-gombio-reggio-emilia-130-ettari-bilancio-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
-      <news:title>Incendio di Gombio, il bilancio: oltre 130 ettari bruciati</news:title>
+      <news:publication_date>2026-09-11T06:13:20+02:00</news:publication_date>
+      <news:title>Diesel, prorogato fino al 17 settembre lo sconto di 17 centesimi</news:title>
     </news:news>
   </url>
   <url>
@@ -309,14 +298,14 @@
     </news:news>
   </url>
   <url>
-    <loc>https://curiomondo.it/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html</loc>
+    <loc>https://curiomondo.it/notizie/incendio-gombio-reggio-emilia-130-ettari-bilancio-2026.html</loc>
     <news:news>
       <news:publication>
         <news:name>CurioMondo</news:name>
         <news:language>it</news:language>
       </news:publication>
       <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
-      <news:title>Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea</news:title>
+      <news:title>Incendio di Gombio, il bilancio: oltre 130 ettari bruciati</news:title>
     </news:news>
   </url>
   <url>
@@ -342,6 +331,28 @@
     </news:news>
   </url>
   <url>
+    <loc>https://curiomondo.it/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
+      <news:title>Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/legge-elettorale-senato-esame-riforma-10-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
+      <news:title>Legge elettorale, il Senato entra nel vivo dell'esame della riforma</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://curiomondo.it/notizie/bce-alza-tassi-2-50-inflazione-energia-settembre-2026.html</loc>
     <news:news>
       <news:publication>
@@ -364,17 +375,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://curiomondo.it/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T12:45:41+02:00</news:publication_date>
-      <news:title>Cavi artici, Reuters: alleati NATO hanno fermato un’esercitazione russa</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://curiomondo.it/notizie/istat-economia-italiana-pil-industria-inflazione-luglio-agosto-2026.html</loc>
     <news:news>
       <news:publication>
@@ -383,6 +383,17 @@
       </news:publication>
       <news:publication_date>2026-09-10T12:45:41+02:00</news:publication_date>
       <news:title>Istat, l’industria italiana riparte a luglio ma l’inflazione accelera</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-10T12:45:41+02:00</news:publication_date>
+      <news:title>Cavi artici, Reuters: alleati NATO hanno fermato un’esercitazione russa</news:title>
     </news:news>
   </url>
   <url>
