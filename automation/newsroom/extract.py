@@ -20,6 +20,8 @@ from dataclasses import dataclass
 
 from lxml import html as LH
 
+from . import googlenews
+
 USER_AGENT = "CurioMondoNewsroom/1.0 (+https://curiomondo.it; redazione automatica)"
 MAX_BYTES = 2_000_000
 TIMEOUT = 20
@@ -85,7 +87,19 @@ def _clean_paragraphs(node) -> list[str]:
 
 
 def extract(url: str, timeout: int = TIMEOUT, min_words: int = 120) -> Extracted:
-    """Scarica una notizia e ne estrae il testo principale."""
+    """Scarica una notizia e ne estrae il testo principale.
+
+    I feed di Google News non puntano all'articolo ma a un rimando opaco: va
+    sciolto prima, altrimenti si legge una pagina vuota e la notizia viene
+    scartata per un difetto nostro, non della fonte.
+    """
+    if googlenews.e_google_news(url):
+        risoluzione = googlenews.risolvi(url, timeout=timeout)
+        if not risoluzione.risolto:
+            return Extracted(url, "", "", [], False,
+                             f"google_news_non_risolto:{risoluzione.motivo or 'ignoto'}")
+        url = risoluzione.url
+
     try:
         raw, final_url = _fetch(url, timeout=timeout)
     except urllib.error.HTTPError as exc:

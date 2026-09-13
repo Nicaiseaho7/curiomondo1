@@ -34,6 +34,16 @@ PRICES_PER_MTOK = {
 FALLBACK_PRICE = {"in": 2.50, "out": 10.00}   # prudente: sovrastima, non sottostima
 IMAGE_PRICE_EACH = 0.04                        # stima prudente per immagine generata
 
+# Famiglie che ragionano prima di rispondere: i token di ragionamento vengono
+# scalati dallo stesso tetto della risposta, quindi il tetto va dimensionato
+# per entrambi e lo sforzo va dichiarato.
+MODELLI_CHE_RAGIONANO = ("gpt-5", "o1", "o3", "o4")
+TETTO_TOKEN_MASSIMO = 16000
+
+
+def modello_ragiona(model: str) -> bool:
+    return any(str(model).startswith(prefisso) for prefisso in MODELLI_CHE_RAGIONANO)
+
 
 class BudgetExceeded(RuntimeError):
     """Il tetto di spesa configurato è stato raggiunto."""
@@ -192,37 +202,63 @@ class Client:
         user: str,
         schema_hint: str = "",
         max_tokens: int = 2000,
+        sforzo: str = "low",
     ) -> tuple[dict[str, Any], Usage]:
-        """Chiede una risposta in JSON e la restituisce già interpretata."""
-        payload = {
-            "model": model,
-            "messages": [
-                {"role": "system", "content": system},
-                {"role": "user", "content": user + (f"\n\n{schema_hint}" if schema_hint else "")},
-            ],
-            "response_format": {"type": "json_object"},
-            "max_completion_tokens": max_tokens,
-        }
-        risposta = self._post("/chat/completions", payload)
+        """Chiede una risposta in JSON e la restituisce già interpretata.
 
-        uso_api = risposta.get("usage", {})
-        uso = Usage(
-            calls=1,
-            input_tokens=int(uso_api.get("prompt_tokens", 0)),
-            output_tokens=int(uso_api.get("completion_tokens", 0)),
-        )
-        uso.cost_usd = estimate_cost(model, uso.input_tokens, uso.output_tokens)
-        self.usage.add(uso)
-        if self.budget is not None:
-            self.budget.record(uso)
+        I modelli che ragionano consumano il tetto di token prima ancora di
+        scrivere: se il tetto è stretto la risposta arriva vuota e troncata,
+        pagata per intero. Per questo il ragionamento viene tenuto basso — qui
+        serve un giudizio su materiale già fornito, non una dimostrazione — e
+        un troncamento fa scattare un solo secondo tentativo più largo.
+        """
+        messaggio = user + (f"\n\n{schema_hint}" if schema_hint else "")
+        tetto = max_tokens
+        for tentativo in range(2):
+            payload: dict[str, Any] = {
+                "model": model,
+                "messages": [
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": messaggio},
+                ],
+                "response_format": {"type": "json_object"},
+                "max_completion_tokens": tetto,
+            }
+            if modello_ragiona(model):
+                payload["reasoning_effort"] = sforzo
+            risposta = self._post("/chat/completions", payload)
 
-        scelte = risposta.get("choices", [])
-        if not scelte:
-            raise OpenAIError("risposta senza contenuto")
-        testo = scelte[0].get("message", {}).get("content", "") or ""
-        if scelte[0].get("finish_reason") == "length":
-            raise OpenAIError("risposta troncata: alzare max_tokens o accorciare il materiale")
-        try:
-            return json.loads(testo), uso
-        except json.JSONDecodeError as exc:
-            raise OpenAIError(f"risposta non in JSON valido: {exc}") from None
+            uso_api = risposta.get("usage", {})
+            uso = Usage(
+                calls=1,
+                input_tokens=int(uso_api.get("prompt_tokens", 0)),
+                output_tokens=int(uso_api.get("completion_tokens", 0)),
+            )
+            uso.cost_usd = estimate_cost(model, uso.input_tokens, uso.output_tokens)
+            self.usage.add(uso)
+            if self.budget is not None:
+                self.budget.record(uso)
+
+            scelte = risposta.get("choices", [])
+            if not scelte:
+                raise OpenAIError("risposta senza contenuto")
+            testo = scelte[0].get("message", {}).get("content", "") or ""
+
+            if scelte[0].get("finish_reason") == "length" or not testo.strip():
+                ragionamento = int(
+                    uso_api.get("completion_tokens_details", {}).get("reasoning_tokens", 0)
+                )
+                if tentativo == 0 and tetto < TETTO_TOKEN_MASSIMO:
+                    tetto = min(tetto * 3, TETTO_TOKEN_MASSIMO)
+                    continue
+                raise OpenAIError(
+                    f"risposta troncata a {tetto} token "
+                    f"({ragionamento} spesi in ragionamento): accorciare il materiale"
+                )
+
+            try:
+                return json.loads(testo), uso
+            except json.JSONDecodeError as exc:
+                raise OpenAIError(f"risposta non in JSON valido: {exc}") from None
+
+        raise OpenAIError("risposta troncata due volte di seguito")

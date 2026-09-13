@@ -30,7 +30,7 @@ class ClienteFinto(Client):
         self.risposte = list(risposte)
         self.chiamate = []
 
-    def complete_json(self, model, system, user, schema_hint="", max_tokens=2000):
+    def complete_json(self, model, system, user, schema_hint="", max_tokens=2000, sforzo="low"):
         self.chiamate.append({"model": model, "user": user})
         if not self.risposte:
             raise AssertionError("chiamata inattesa al modello")

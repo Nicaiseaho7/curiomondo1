@@ -187,7 +187,10 @@ def verifica(
         system=SISTEMA_VERIFICA,
         user="\n\n".join(contesto),
         schema_hint=schema,
-        max_tokens=1200,
+        # Il giudizio è breve, ma il modello ragiona prima di darlo: il tetto
+        # deve coprire il ragionamento, altrimenti si paga una risposta vuota.
+        max_tokens=4000,
+        sforzo="low",
     )
 
     pubblicare = bool(dati.get("pubblicare"))
@@ -278,7 +281,8 @@ Vincoli tassativi:
         system=SISTEMA_STESURA,
         user=_materiale(titolo, fonte, estratti) + "\n\n" + istruzioni,
         schema_hint=schema,
-        max_tokens=3000,
+        max_tokens=9000,
+        sforzo="medium",
     )
     dati["formato"] = verdetto.formato
     dati["categoria"] = verdetto.categoria

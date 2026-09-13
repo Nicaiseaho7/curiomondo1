@@ -1,0 +1,41 @@
+name: Redazione · Diagnosi lettura fonti
+
+# Misura quante notizie si lasciano davvero leggere da un runner, e perché le
+# altre no. Non chiama mai il modello: è gratis e si può ripetere quanto serve.
+
+on:
+  workflow_dispatch:
+    inputs:
+      per_fonte:
+        description: 'Quante notizie provare per fonte'
+        type: string
+        default: '2'
+        required: false
+  push:
+    paths:
+      - 'automation/newsroom/extract.py'
+      - 'automation/newsroom/googlenews.py'
+      - 'automation/newsroom/extract_check.py'
+      - '.github/workflows/newsroom-extract-check.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: newsroom-extract-check
+  cancel-in-progress: true
+
+jobs:
+  diagnosi:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet lxml
+      - name: Prova a leggere le fonti
+        run: |
+          python3 -m automation.newsroom.extract_check \
+            --per-fonte "${{ inputs.per_fonte || '2' }}" | tee -a "$GITHUB_STEP_SUMMARY"
