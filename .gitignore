@@ -8,6 +8,10 @@ venv/
 .pytest_cache/
 .mypy_cache/
 
+# Stato della redazione automatica: vive sul branch automation-state,
+# non deve mai finire su main (ogni commit su main è un deploy Netlify).
+.state/
+
 # Operating-system and editor files
 .DS_Store
 Thumbs.db

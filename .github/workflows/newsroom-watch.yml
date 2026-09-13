@@ -1,0 +1,113 @@
+name: Redazione · Watcher notizie
+
+# Il watcher gira spesso ed è volutamente economico: interroga le fonti, elimina
+# i doppioni e registra i candidati. Non chiama modelli a pagamento e non
+# pubblica nulla.
+#
+# Lo stato vive sul branch "automation-state", mai su main: Netlify pubblica la
+# root di main, quindi scrivere lo stato sul ramo di produzione significherebbe
+# un deploy ogni cinque minuti.
+#
+# Nota onesta sulla frequenza: GitHub esegue i cron "al meglio possibile" e sotto
+# carico può ritardarli. Il target è ogni 5 minuti, la realtà sarà spesso 5-15.
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'      # controllo rapido: fonti prioritarie e ultima ora
+    - cron: '17,47 * * * *'    # scansione ampia: istituzionali, scienza, economia
+  workflow_dispatch:
+    inputs:
+      cadence:
+        description: 'Velocità della scansione'
+        type: choice
+        options: [fast, deep]
+        default: deep
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: newsroom-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Codice del sito
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Scegli la velocità
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "cadence=${{ inputs.cadence }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "17,47 * * * *" ]; then
+            echo "cadence=deep" >> "$GITHUB_OUTPUT"
+          else
+            echo "cadence=fast" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Recupera lo stato precedente
+        env:
+          REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        run: |
+          if git ls-remote --exit-code --heads origin automation-state >/dev/null 2>&1; then
+            git clone --quiet --branch automation-state --depth 30 "$REPO_URL" .state
+          else
+            echo "Primo avvio: creo il ramo di stato."
+            mkdir -p .state && cd .state
+            git init --quiet && git checkout --quiet -b automation-state
+          fi
+
+      - name: Controlla le fonti
+        id: watch
+        run: |
+          python3 -m automation.newsroom.watcher \
+            --state .state \
+            --cadence "${{ steps.mode.outputs.cadence }}" \
+            --articles notizie \
+            | tee /tmp/riepilogo.json
+          echo "nuovi=$(python3 -c "import json;print(json.load(open('/tmp/riepilogo.json'))['nuovi_candidati'])")" >> "$GITHUB_OUTPUT"
+
+      - name: Salva lo stato aggiornato
+        env:
+          REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        run: |
+          cd .state
+          git config user.name "curiomondo-newsroom[bot]"
+          git config user.email "curiomondo-newsroom@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nessuna novità: niente da salvare."
+            exit 0
+          fi
+          git commit --quiet -m "watcher ${{ steps.mode.outputs.cadence }}: $(date -u +%Y-%m-%dT%H:%MZ)"
+          for tentativo in 1 2 3; do
+            if git push --quiet "$REPO_URL" automation-state; then
+              exit 0
+            fi
+            echo "Push non riuscito (tentativo $tentativo), riallineo e riprovo."
+            git pull --quiet --rebase "$REPO_URL" automation-state || true
+            sleep $((tentativo * 3))
+          done
+          echo "Impossibile salvare lo stato dopo tre tentativi."
+          exit 1
+
+      - name: Riepilogo
+        run: |
+          {
+            echo "### Watcher ${{ steps.mode.outputs.cadence }}"
+            echo ""
+            echo "Nuovi candidati: **${{ steps.watch.outputs.nuovi }}**"
+            echo ""
+            echo '```json'
+            cat /tmp/riepilogo.json
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

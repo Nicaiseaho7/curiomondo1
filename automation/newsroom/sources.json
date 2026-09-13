@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "notes": [
+    "Solo RSS/Atom pubblici o query RSS ufficiali di Google News: nessuno scraper fragile.",
+    "tier: primary = fonte istituzionale/primaria; agency = agenzia di stampa; science/markets/sport = verticali.",
+    "cadence: fast = incluso nel controllo ogni ~5 minuti; deep = incluso nella scansione ampia ogni ~45 minuti.",
+    "direct=true significa feed ufficiale della fonte; direct=false significa scoperta via Google News (le agenzie non espongono piu RSS pubblici affidabili).",
+    "enabled viene aggiornato in base al report di salute: automation/newsroom/health.py verifica quali feed rispondono davvero."
+  ],
+  "google_news_template": "https://news.google.com/rss/search?q={query}&hl=it&gl=IT&ceid=IT%3Ait",
+  "feeds": [
+    {"id": "ansa-top", "name": "ANSA", "tier": "agency", "category": "italia", "cadence": "fast", "direct": true, "trust": "high", "url": "https://www.ansa.it/sito/ansait_rss.xml"},
+    {"id": "ansa-mondo", "name": "ANSA Mondo", "tier": "agency", "category": "mondo", "cadence": "fast", "direct": true, "trust": "high", "url": "https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml"},
+    {"id": "ansa-politica", "name": "ANSA Politica", "tier": "agency", "category": "politica", "cadence": "deep", "direct": true, "trust": "high", "url": "https://www.ansa.it/sito/notizie/politica/politica_rss.xml"},
+    {"id": "ansa-economia", "name": "ANSA Economia", "tier": "agency", "category": "economia", "cadence": "deep", "direct": true, "trust": "high", "url": "https://www.ansa.it/sito/notizie/economia/economia_rss.xml"},
+    {"id": "ansa-cronaca", "name": "ANSA Cronaca", "tier": "agency", "category": "cronaca", "cadence": "fast", "direct": true, "trust": "high", "url": "https://www.ansa.it/sito/notizie/cronaca/cronaca_rss.xml"},
+
+    {"id": "reuters-gn", "name": "Reuters", "tier": "agency", "category": "mondo", "cadence": "fast", "direct": false, "trust": "high", "url": "https://news.google.com/rss/search?q=site%3Areuters.com+when%3A2h&hl=it&gl=IT&ceid=IT%3Ait"},
+    {"id": "ap-gn", "name": "Associated Press", "tier": "agency", "category": "mondo", "cadence": "fast", "direct": false, "trust": "high", "url": "https://news.google.com/rss/search?q=site%3Aapnews.com+when%3A2h&hl=it&gl=IT&ceid=IT%3Ait"},
+    {"id": "afp-gn", "name": "AFP", "tier": "agency", "category": "mondo", "cadence": "deep", "direct": false, "trust": "high", "url": "https://news.google.com/rss/search?q=site%3Abarrons.com+OR+site%3Afrance24.com+AFP+when%3A6h&hl=it&gl=IT&ceid=IT%3Ait"},
+    {"id": "bloomberg-gn", "name": "Bloomberg", "tier": "agency", "category": "economia", "cadence": "deep", "direct": false, "trust": "high", "url": "https://news.google.com/rss/search?q=site%3Abloomberg.com+when%3A6h&hl=it&gl=IT&ceid=IT%3Ait"},
+    {"id": "agi-gn", "name": "AGI", "tier": "agency", "category": "italia", "cadence": "deep", "direct": false, "trust": "high", "url": "https://news.google.com/rss/search?q=site%3Aagi.it+when%3A6h&hl=it&gl=IT&ceid=IT%3Ait"},
+    {"id": "adnkronos-gn", "name": "Adnkronos", "tier": "agency", "category": "italia", "cadence": "deep", "direct": false, "trust": "high", "url": "https://news.google.com/rss/search?q=site%3Aadnkronos.com+when%3A6h&hl=it&gl=IT&ceid=IT%3Ait"},
+    {"id": "lapresse-gn", "name": "LaPresse", "tier": "agency", "category": "italia", "cadence": "deep", "direct": false, "trust": "medium", "url": "https://news.google.com/rss/search?q=site%3Alapresse.it+when%3A6h&hl=it&gl=IT&ceid=IT%3Ait"},
+    {"id": "askanews-gn", "name": "Askanews", "tier": "agency", "category": "italia", "cadence": "deep", "direct": false, "trust": "medium", "url": "https://news.google.com/rss/search?q=site%3Aaskanews.it+when%3A6h&hl=it&gl=IT&ceid=IT%3Ait"},
+
+    {"id": "bbc-world", "name": "BBC World", "tier": "agency", "category": "mondo", "cadence": "fast", "direct": true, "trust": "high", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
+    {"id": "bbc-top", "name": "BBC News", "tier": "agency", "category": "mondo", "cadence": "fast", "direct": true, "trust": "high", "url": "https://feeds.bbci.co.uk/news/rss.xml"},
+    {"id": "bbc-science", "name": "BBC Science", "tier": "agency", "category": "scienza", "cadence": "deep", "direct": true, "trust": "high", "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"},
+    {"id": "bbc-tech", "name": "BBC Technology", "tier": "agency", "category": "tecnologia", "cadence": "deep", "direct": true, "trust": "high", "url": "https://feeds.bbci.co.uk/news/technology/rss.xml"},
+    {"id": "bbc-sport", "name": "BBC Sport", "tier": "agency", "category": "sport", "cadence": "deep", "direct": true, "trust": "high", "url": "https://feeds.bbci.co.uk/sport/rss.xml"},
+    {"id": "guardian-world", "name": "The Guardian World", "tier": "agency", "category": "mondo", "cadence": "deep", "direct": true, "trust": "high", "url": "https://www.theguardian.com/world/rss"},
+    {"id": "dw-europe", "name": "Deutsche Welle", "tier": "agency", "category": "mondo", "cadence": "deep", "direct": true, "trust": "high", "url": "https://rss.dw.com/rdf/rss-en-eu"},
+
+    {"id": "un-news", "name": "ONU", "tier": "primary", "category": "mondo", "cadence": "deep", "direct": true, "trust": "high", "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml"},
+    {"id": "who-news", "name": "OMS", "tier": "primary", "category": "salute", "cadence": "deep", "direct": true, "trust": "high", "url": "https://www.who.int/rss-feeds/news-english.xml"},
+    {"id": "nato-news", "name": "NATO", "tier": "primary", "category": "mondo", "cadence": "deep", "direct": true, "trust": "high", "url": "https://www.nato.int/cps/en/natohq/rss_news.xml"},
+    {"id": "ec-press", "name": "Commissione europea", "tier": "primary", "category": "mondo", "cadence": "deep", "direct": true, "trust": "high", "url": "https://ec.europa.eu/commission/presscorner/api/rss?language=it&pagesize=25"},
+    {"id": "consilium-press", "name": "Consiglio UE", "tier": "primary", "category": "mondo", "cadence": "deep", "direct": true, "trust": "high", "url": "https://www.consilium.europa.eu/en/press/press-releases/?format=rss"},
+    {"id": "ecb-press", "name": "BCE", "tier": "primary", "category": "economia", "cadence": "deep", "direct": true, "trust": "high", "url": "https://www.ecb.europa.eu/rss/press.html"},
+    {"id": "governo-it", "name": "Governo italiano", "tier": "primary", "category": "politica", "cadence": "deep", "direct": true, "trust": "high", "url": "https://www.governo.it/it/articoli-ultimi-comunicati/rss.xml"},
+    {"id": "protezione-civile", "name": "Protezione civile", "tier": "primary", "category": "cronaca", "cadence": "fast", "direct": true, "trust": "high", "url": "https://www.protezionecivile.gov.it/it/rss/notizie/"},
+    {"id": "ingv-terremoti", "name": "INGV terremoti", "tier": "primary", "category": "scienza", "cadence": "fast", "direct": true, "trust": "high", "url": "https://terremoti.ingv.it/events/rss"},
+    {"id": "istat", "name": "Istat", "tier": "primary", "category": "economia", "cadence": "deep", "direct": true, "trust": "high", "url": "https://www.istat.it/it/archivio/comunicati-stampa/rss"},
+
+    {"id": "nasa-news", "name": "NASA", "tier": "primary", "category": "scienza", "cadence": "deep", "direct": true, "trust": "high", "url": "https://www.nasa.gov/news-release/feed/"},
+    {"id": "esa-news", "name": "ESA", "tier": "primary", "category": "scienza", "cadence": "deep", "direct": true, "trust": "high", "url": "https://www.esa.int/rssfeed/Our_Activities/Space_News"},
+    {"id": "eurekalert", "name": "EurekAlert!", "tier": "science", "category": "scienza", "cadence": "deep", "direct": true, "trust": "high", "url": "https://www.eurekalert.org/rss/technology_engineering.xml"},
+    {"id": "phys-org", "name": "Phys.org", "tier": "science", "category": "scienza", "cadence": "deep", "direct": true, "trust": "medium", "url": "https://phys.org/rss-feed/"},
+    {"id": "nature-news", "name": "Nature", "tier": "science", "category": "scienza", "cadence": "deep", "direct": true, "trust": "high", "url": "https://www.nature.com/nature.rss"},
+    {"id": "science-news", "name": "Science", "tier": "science", "category": "scienza", "cadence": "deep", "direct": true, "trust": "high", "url": "https://www.science.org/rss/news_current.xml"},
+    {"id": "ecdc", "name": "ECDC", "tier": "primary", "category": "salute", "cadence": "deep", "direct": true, "trust": "high", "url": "https://www.ecdc.europa.eu/en/taxonomy/term/1341/feed"},
+
+    {"id": "cnbc-top", "name": "CNBC", "tier": "markets", "category": "economia", "cadence": "deep", "direct": true, "trust": "medium", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"},
+    {"id": "marketwatch", "name": "MarketWatch", "tier": "markets", "category": "economia", "cadence": "deep", "direct": true, "trust": "medium", "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories"},
+    {"id": "ft-gn", "name": "Financial Times", "tier": "markets", "category": "economia", "cadence": "deep", "direct": false, "trust": "high", "url": "https://news.google.com/rss/search?q=site%3Aft.com+when%3A6h&hl=it&gl=IT&ceid=IT%3Ait"},
+
+    {"id": "skysport-gn", "name": "Sky Sport Italia", "tier": "sport", "category": "sport", "cadence": "deep", "direct": false, "trust": "medium", "url": "https://news.google.com/rss/search?q=site%3Asport.sky.it+when%3A6h&hl=it&gl=IT&ceid=IT%3Ait"},
+    {"id": "gazzetta-gn", "name": "Sport italiano", "tier": "sport", "category": "sport", "cadence": "deep", "direct": false, "trust": "medium", "url": "https://news.google.com/rss/search?q=(site%3Agazzetta.it+OR+site%3Acorrieredellosport.it)+when%3A6h&hl=it&gl=IT&ceid=IT%3Ait"},
+
+    {"id": "gn-italia-breaking", "name": "Italia ultima ora", "tier": "agency", "category": "italia", "cadence": "fast", "direct": false, "trust": "high", "url": "https://news.google.com/rss/search?q=(site%3Aansa.it+OR+site%3Aagi.it+OR+site%3Aadnkronos.com+OR+site%3Areuters.com)+when%3A1h&hl=it&gl=IT&ceid=IT%3Ait"},
+    {"id": "gn-mondo-breaking", "name": "Mondo ultima ora", "tier": "agency", "category": "mondo", "cadence": "fast", "direct": false, "trust": "high", "url": "https://news.google.com/rss/search?q=(site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abloomberg.com+OR+site%3Aun.org)+when%3A1h&hl=it&gl=IT&ceid=IT%3Ait"}
+  ]
+}
