@@ -1,14 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://curiomondo.it/notizie/kimi-antonelli-vince-gp-spagna-madrid-madring-13-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-13T22:58:00+02:00</news:publication_date>
+      <news:title>Formula 1, Antonelli vince il primo GP di Madrid e allunga nel Mondiale</news:title>
+    </news:news>
+  </url>
   <url>
     <loc>https://curiomondo.it/notizie/indonesia-traghetto-virgo-transport-8-129-dispersi-13-settembre-2026.html</loc>
     <news:news>
-      <news:publication><news:name>CurioMondo</news:name><news:language>it</news:language></news:publication>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
       <news:publication_date>2026-09-13T19:16:54+02:00</news:publication_date>
       <news:title>Indonesia, traghetto si capovolge nel Mar di Giava: 6 morti e 129 dispersi</news:title>
     </news:news>
   </url>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-  <url><loc>https://curiomondo.it/notizie/kimi-antonelli-vince-gp-spagna-madrid-madring-13-settembre-2026.html</loc><news:news><news:publication><news:name>CurioMondo</news:name><news:language>it</news:language></news:publication><news:publication_date>2026-09-13T22:58:00+02:00</news:publication_date><news:title>Formula 1, Antonelli vince il primo GP di Madrid e allunga nel Mondiale</news:title></news:news></url>
   <url>
     <loc>https://curiomondo.it/notizie/zaporizhzhia-dieci-attacchi-droni-centro-addestramento-13-settembre-2026.html</loc>
     <news:news>
@@ -28,7 +41,62 @@
         <news:language>it</news:language>
       </news:publication>
       <news:publication_date>2026-09-13T13:20:00+02:00</news:publication_date>
-      <news:title>Energia, nuovo allarme globale dopo gli attacchi alle rotte del petrolio</news:title>
+      <news:title>Energia, Trump apre all’idea di una presenza USA in Iran per il petrolio</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/positano-incendio-frana-statale-amalfitana-13-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-13T12:58:46+02:00</news:publication_date>
+      <news:title>Positano, vasto incendio provoca una frana: chiusa la statale Amalfitana</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/dengue-italia-265-casi-24-autoctoni-8-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-13T12:58:46+02:00</news:publication_date>
+      <news:title>Dengue, in Italia 265 casi confermati: 24 sono autoctoni</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/russia-attacco-confine-polonia-yahodyn-dorohusk-13-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-13T12:58:46+02:00</news:publication_date>
+      <news:title>Russia colpisce vicino al confine polacco: danneggiato anche un treno Kyiv–Varsavia</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/carburanti-decreto-157-accise-17-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-13T12:58:46+02:00</news:publication_date>
+      <news:title>Carburanti, operativo il decreto: accise ridotte fino al 17 settembre</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/ricerca-cancro-italia-495-trial-europa-13-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-13T12:58:46+02:00</news:publication_date>
+      <news:title>Ricerca sul cancro, Italia a 495 trial mentre l’Europa perde terreno</news:title>
     </news:news>
   </url>
   <url>
@@ -54,50 +122,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://curiomondo.it/notizie/russia-attacco-confine-polonia-yahodyn-dorohusk-13-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-13T12:00:00+02:00</news:publication_date>
-      <news:title>Russia colpisce vicino al confine polacco: stop temporaneo al valico Dorohusk–Yahodyn</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/carburanti-decreto-157-accise-17-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-13T11:20:00+02:00</news:publication_date>
-      <news:title>Carburanti, operativo il decreto: accise ridotte fino al 17 settembre</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/dengue-italia-265-casi-24-autoctoni-8-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-13T10:50:00+02:00</news:publication_date>
-      <news:title>Dengue, in Italia 265 casi confermati: 24 sono autoctoni</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/ricerca-cancro-italia-495-trial-europa-13-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-13T10:20:00+02:00</news:publication_date>
-      <news:title>Ricerca sul cancro, Italia a 495 trial mentre l’Europa perde terreno</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://curiomondo.it/notizie/stretto-hormuz-traffico-sette-navi-11-settembre-2026.html</loc>
     <news:news>
       <news:publication>
@@ -106,17 +130,6 @@
       </news:publication>
       <news:publication_date>2026-09-13T08:57:00+02:00</news:publication_date>
       <news:title>Stretto di Hormuz, colpita una nave commerciale iraniana: un morto</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/positano-incendio-frana-statale-amalfitana-13-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-13T08:19:00+02:00</news:publication_date>
-      <news:title>Positano, vasto incendio provoca una frana: chiusa la statale Amalfitana</news:title>
     </news:news>
   </url>
   <url>
@@ -194,292 +207,6 @@
       </news:publication>
       <news:publication_date>2026-09-12T06:21:23+02:00</news:publication_date>
       <news:title>USA, inflazione al 3,4% in agosto: aumenta la pressione sulla Fed</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/ex-ilva-taranto-stop-area-caldo-28-ottobre-11-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11T23:11:19+02:00</news:publication_date>
-      <news:title>Ex Ilva, confermato lo stop dell’area a caldo entro il 28 ottobre</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/roma-monti-56enne-sequestrata-violentata-rapinata-arrestato-11-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11T21:48:49+02:00</news:publication_date>
-      <news:title>Roma, 56enne sequestrata, violentata e rapinata in casa: arrestato un 32enne</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/yemen-houthi-dhubab-bab-el-mandeb-11-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11T11:05:00+02:00</news:publication_date>
-      <news:title>Bab el-Mandeb, Houthi su Perim: Trump accusa l’Iran per l’attacco alla pipeline saudita</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/emma-bonino-morta-78-anni-11-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11T09:57:36+02:00</news:publication_date>
-      <news:title>È morta Emma Bonino, storica leader radicale ed ex ministra degli Esteri</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/ebola-congo-6757-casi-3267-decessi-10-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11T09:14:00+02:00</news:publication_date>
-      <news:title>Ebola in Congo, oltre 7.000 casi e 3.398 decessi: colpita anche Sud-Ubangi</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/west-nile-italia-594-casi-41-decessi-10-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11T07:40:00+02:00</news:publication_date>
-      <news:title>West Nile in Italia, 594 casi e 41 decessi nel nuovo bollettino ISS</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/taiwan-vicepresidente-hsiao-italia-ventotene-11-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11T06:13:20+02:00</news:publication_date>
-      <news:title>Taiwan, la vicepresidente Hsiao in Italia per il forum di Ventotene</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/malpensa-easyjet-emergenza-146-passeggeri-10-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11T06:13:20+02:00</news:publication_date>
-      <news:title>Malpensa, emergenza su un volo EasyJet: evacuati 146 passeggeri</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/diesel-sconto-accise-proroga-17-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11T06:13:20+02:00</news:publication_date>
-      <news:title>Diesel, prorogato fino al 17 settembre lo sconto di 17 centesimi</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/piantedosi-casapound-roma-sara-sgomberata-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
-      <news:title>Piantedosi: «CasaPound a Roma sarà sgomberata»</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/incendio-gombio-reggio-emilia-130-ettari-bilancio-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
-      <news:title>Incendio di Gombio, il bilancio: oltre 130 ettari bruciati</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/attacchi-russi-kyiv-dnipro-ukrnafta-bunge-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
-      <news:title>Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/pensioni-libretto-previdenziale-dalla-nascita-calderone-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
-      <news:title>Pensioni, il Governo valuta un «libretto previdenziale» dalla nascita</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
-      <news:title>Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/legge-elettorale-senato-esame-riforma-10-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T19:43:49+02:00</news:publication_date>
-      <news:title>Legge elettorale, il Senato entra nel vivo dell'esame della riforma</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/bce-alza-tassi-2-50-inflazione-energia-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T17:30:02+02:00</news:publication_date>
-      <news:title>La BCE alza i tassi al 2,50% contro l’inflazione spinta dall’energia</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/agosto-2026-mese-piu-caldo-record-copernicus.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T17:30:02+02:00</news:publication_date>
-      <news:title>Agosto 2026 è il mese più caldo mai registrato insieme a luglio 2023</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/istat-economia-italiana-pil-industria-inflazione-luglio-agosto-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T12:45:41+02:00</news:publication_date>
-      <news:title>Istat, l’industria italiana riparte a luglio ma l’inflazione accelera</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T12:45:41+02:00</news:publication_date>
-      <news:title>Cavi artici, Reuters: alleati NATO hanno fermato un’esercitazione russa</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/italia-francia-due-accordi-industriali-spazio-parigi-9-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T07:20:00+02:00</news:publication_date>
-      <news:title>Spazio, firmati a Parigi due accordi industriali tra Italia e Francia</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/brent-oltre-100-dollari-attacchi-navi-stretto-hormuz-10-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T07:14:46+02:00</news:publication_date>
-      <news:title>Petrolio, Brent oltre 100 dollari mentre cresce il rischio nello Stretto di Hormuz</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/electrolux-sciopero-15-settembre-esuberi-chiusura-cerreto-desi-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-09T18:20:00+02:00</news:publication_date>
-      <news:title>Electrolux, sciopero nazionale il 15 settembre contro esuberi e chiusura di Cerreto d’Esi</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/usa-divieti-importazioni-canada-alcol-latticini-moto-bombardier-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-09T18:10:00+02:00</news:publication_date>
-      <news:title>USA-Canada, dai dazi ai divieti d’importazione: cosa cambia a settembre</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/norvegia-funerali-stato-re-harald-v-oslo-9-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-09T18:00:00+02:00</news:publication_date>
-      <news:title>La Norvegia saluta re Harald V con i funerali di Stato a Oslo</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/italia-banche-contributo-manovra-2027-proposta-lega-8-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-09T07:05:00+02:00</news:publication_date>
-      <news:title>Manovra 2027, la Lega propone fino a 3 miliardi dalle banche</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/iran-attacchi-base-usa-giordania-navi-hormuz-petrolio-9-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-09T06:55:00+02:00</news:publication_date>
-      <news:title>Iran-USA, nuova escalation tra Giordania e Stretto di Hormuz</news:title>
     </news:news>
   </url>
 </urlset>
