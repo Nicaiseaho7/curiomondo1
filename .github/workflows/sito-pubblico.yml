@@ -1,0 +1,25 @@
+name: Sito · Controllo pubblico
+
+# Interroga curiomondo.it come farebbe un lettore. Serve a rispondere alla sola
+# domanda che conta dopo un deploy: le pagine ci sono davvero?
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'automation/newsroom/sito_pubblico.py'
+      - '.github/workflows/sito-pubblico.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  controllo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m automation.newsroom.sito_pubblico --articoli 5 | tee -a "$GITHUB_STEP_SUMMARY"

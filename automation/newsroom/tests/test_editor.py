@@ -30,7 +30,7 @@ class ClienteFinto(Client):
         self.risposte = list(risposte)
         self.chiamate = []
 
-    def complete_json(self, model, system, user, schema_hint="", max_tokens=2000):
+    def complete_json(self, model, system, user, schema_hint="", max_tokens=2000, sforzo="low"):
         self.chiamate.append({"model": model, "user": user})
         if not self.risposte:
             raise AssertionError("chiamata inattesa al modello")
@@ -216,9 +216,9 @@ def test_scarta_lunghezza_fuori_fascia():
     assert any("fuori fascia" in p for p in editor.controlla_articolo(corto))
 
 
-def test_pretende_almeno_tre_fonti():
+def test_pretende_almeno_due_testate():
     una = articolo_valido(fonti=[{"url": "https://istat.it/x", "descrizione": "dati"}])
-    assert any("tre fonti" in p for p in editor.controlla_articolo(una))
+    assert any("due testate" in p for p in editor.controlla_articolo(una))
 
 
 def test_rifiuta_url_fonte_inventati():
@@ -248,4 +248,85 @@ def test_candidato_raccoglie_conferme_senza_duplicare_la_fonte():
     assert c.independent_sources == 1
     assert c.add_corroboration("Reuters", "https://r/1", "Titolo")
     assert not c.add_corroboration("Reuters", "https://r/2", "Altro titolo")
+    assert c.independent_sources == 2
+
+
+# ------------------------------------------------- taratura della severita
+def test_notizia_ordinaria_da_agenzia_non_pretende_una_seconda_fonte():
+    """Una sola agenzia affidabile basta per una notizia ordinaria.
+
+    La prima prova sul campo rifiutava tutto perche il protocollo chiedeva due
+    fonti indipendenti per qualunque fatto: una redazione cosi non pubblica mai.
+    """
+    risposta = dict(VERDETTO_BUONO, sensibile=False, fonte_primaria=False)
+    verdetto, _ = editor.verifica(
+        ClienteFinto([risposta]), "gpt-5", "Il Napoli batte il Bologna 1-0", "ANSA",
+        [estratto_ok()], conferme=[], alto_rischio=False, tier="agency", trust="high",
+    )
+    assert verdetto.pubblicare
+
+
+def test_tema_delicato_con_una_sola_fonte_non_si_apre():
+    risposta = dict(VERDETTO_BUONO, sensibile=True, fonte_primaria=False)
+    verdetto, _ = editor.verifica(
+        ClienteFinto([risposta]), "gpt-5", "Raid sulla citta, dieci vittime", "The Guardian",
+        [estratto_ok()], conferme=[], alto_rischio=True, tier="agency", trust="high",
+    )
+    assert not verdetto.pubblicare and "delicato" in verdetto.motivo
+
+
+def test_tema_delicato_con_atto_ufficiale_si_apre():
+    risposta = dict(VERDETTO_BUONO, sensibile=True, fonte_primaria=True)
+    verdetto, _ = editor.verifica(
+        ClienteFinto([risposta]), "gpt-5", "La procura chiude l'inchiesta", "ANSA",
+        [estratto_ok()], conferme=[], alto_rischio=True, tier="agency", trust="high",
+    )
+    assert verdetto.pubblicare
+
+
+def test_la_natura_della_fonte_viene_detta_al_modello():
+    client = ClienteFinto([VERDETTO_BUONO])
+    editor.verifica(client, "gpt-5", "Titolo lungo abbastanza", "ANSA",
+                    [estratto_ok()], conferme=[], alto_rischio=False,
+                    tier="agency", trust="high")
+    assert "agency" in client.chiamate[0]["user"]
+
+
+def test_lo_stesso_lancio_sotto_due_indirizzi_non_fa_due_fonti():
+    """Successo sul campo: due link ANSA diversi erano lo stesso identico pezzo."""
+    stessa = articolo_valido(fonti=[
+        {"url": "https://www.ansa.it/sito/notizie/sport/napoli-bologna_bcd5.html", "descrizione": "il risultato"},
+        {"url": "https://ansa.it/sito/notizie/sport/il-napoli-batte-il-bologna_bcd5.html", "descrizione": "le formazioni"},
+    ])
+    assert any("testate distinte" in p for p in editor.controlla_articolo(stessa))
+
+
+def test_due_testate_diverse_vanno_bene():
+    due = articolo_valido(fonti=[
+        {"url": "https://www.ansa.it/x", "descrizione": "il risultato"},
+        {"url": "https://www.bbc.co.uk/sport/y", "descrizione": "il contesto"},
+    ])
+    assert editor.controlla_articolo(due) == []
+
+
+def test_gli_indirizzi_citabili_includono_conferme_e_documenti_ufficiali():
+    letto = Extracted("https://ansa.it/a", "t", "testo", ["testo"], True,
+                      links=["https://www.istat.it/comunicato"])
+    citabili = editor.url_citabili([letto], [{"url": "https://reuters.com/b", "source": "Reuters"}])
+    assert citabili == ["https://ansa.it/a", "https://reuters.com/b", "https://www.istat.it/comunicato"]
+
+
+def test_gli_indirizzi_citabili_non_si_ripetono():
+    letto = Extracted("https://ansa.it/a", "t", "testo", ["testo"], True,
+                      links=["https://ansa.it/a", "https://www.istat.it/c"])
+    assert editor.url_citabili([letto], [{"url": "https://ansa.it/a"}]) == [
+        "https://ansa.it/a", "https://www.istat.it/c"]
+
+
+def test_una_conferma_dalla_stessa_testata_non_conta():
+    c = Candidate(url_key="k", topic_key="t", url="https://www.ansa.it/a",
+                  title="t", source="ANSA", source_tier="agency")
+    assert not c.add_corroboration("Italia ultima ora", "https://ansa.it/altro-slug", "Stesso fatto")
+    assert c.independent_sources == 1
+    assert c.add_corroboration("BBC", "https://www.bbc.co.uk/news/x", "Same story")
     assert c.independent_sources == 2

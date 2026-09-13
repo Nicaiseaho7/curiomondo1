@@ -14,7 +14,7 @@ from typing import Any
 
 from . import filters
 from .observability import CycleLogger
-from .normalize import title_similarity
+from .normalize import stesso_fatto
 from .sources import fetch_all, load_feeds
 from .state import Candidate, Store, existing_site_titles, _now
 
@@ -61,8 +61,10 @@ def run_watch(
     seen_this_cycle: set[str] = set()
 
     # Le fonti più autorevoli vengono valutate per prime: se due testate
-    # raccontano lo stesso fatto, teniamo quella con la fonte migliore.
-    items.sort(key=lambda i: filters.TIER_WEIGHT.get(i.source_tier, 0.6), reverse=True)
+    # raccontano lo stesso fatto, teniamo quella con la fonte migliore. A parità
+    # conta prima chi si lascia leggere: la testata che tiene il testo dietro un
+    # abbonamento resta buona come conferma, ma non puo fornire il materiale.
+    items.sort(key=lambda i: (i.materiale, filters.TIER_WEIGHT.get(i.source_tier, 0.6)), reverse=True)
 
     for item in items:
         key = item.url_key
@@ -83,11 +85,11 @@ def run_watch(
             """Registra lo scarto: così il link non viene rivalutato ogni ciclo."""
             store.add(Candidate(
                 url_key=key, topic_key=topic, url=item.url, title=item.title,
-                source=item.source, source_tier=item.source_tier,
+                source=item.source, source_tier=item.source_tier, trust=item.trust,
                 published_at=item.published_at, status="rejected", reason=reason,
             ))
 
-        if any(title_similarity(item.title, known) >= 0.62 for known in site_titles):
+        if any(stesso_fatto(item.title, known) for known in site_titles):
             remember_rejected("gia_pubblicato_sul_sito")
             log.count("scartati_gia_sul_sito")
             continue
@@ -112,7 +114,7 @@ def run_watch(
         )
         candidate = Candidate(
             url_key=key, topic_key=topic, url=item.url, title=item.title,
-            source=item.source, source_tier=item.source_tier,
+            source=item.source, source_tier=item.source_tier, trust=item.trust,
             published_at=item.published_at,
             status="seen" if decision.accepted else "rejected",
             reason=decision.reason,

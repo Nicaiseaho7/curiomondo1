@@ -21,6 +21,7 @@ from dataclasses import dataclass
 from typing import Any
 
 from .extract import Extracted
+from .normalize import dominio
 from .openai_client import Client, Usage
 
 # Categorie reali del sito: il modello non deve inventarne di nuove.
@@ -41,8 +42,14 @@ riassunti, traduzioni o aggregazioni di fonti esterne. Citare fonti affidabili
 è obbligatorio ma non è di per sé valore editoriale.
 
 Apri un articolo solo se TUTTE queste condizioni sono vere:
-1. Esiste una fonte primaria (ente, comunicato, dataset, atto ufficiale) oppure
-   almeno due fonti secondarie indipendenti e nominabili.
+1. La notizia poggia su una base solida, cioe almeno una fra queste:
+   - una fonte primaria (ente, comunicato, dataset, atto ufficiale);
+   - il resoconto diretto di un'agenzia o di una testata di prima fascia
+     (ANSA, AFP, Reuters, AP, BBC, Guardian, Deutsche Welle e simili);
+   - due fonti indipendenti e nominabili che riportano lo stesso fatto.
+   Il resoconto di una sola testata affidabile e una base sufficiente per una
+   notizia ordinaria: cio che conta e che i fatti siano attribuiti a chi li ha
+   riferiti. Per i temi delicati questa base non basta (vedi sotto).
 2. Sai dire in una frase quale valore aggiunto porta CurioMondo.
 3. C'è abbastanza materia verificata per un pezzo autonomo. Se manca, non si
    allunga: si attende o non si pubblica.
@@ -56,6 +63,8 @@ Il valore aggiunto deve essere ALMENO DUE tra:
 
 Standard piu severi per notizie delicate (guerra, morti, incidenti, salute,
 giustizia, geopolitica, elezioni):
+- serve una fonte primaria oppure una conferma indipendente: il resoconto di
+  una sola testata non basta per aprire il pezzo;
 - la dichiarazione di una sola parte NON e un fatto accertato;
 - se le fonti discordano, o se il fatto e rivendicato da una parte in conflitto,
   serve una conferma indipendente oppure l'articolo non si apre;
@@ -97,6 +106,12 @@ Regole di scrittura, tutte obbligatorie:
 - Le dichiarazioni vanno attribuite ("secondo il ministero", "ha riferito
   l'agenzia"). Una rivendicazione di parte non diventa mai un fatto accertato.
 - Vietato aggiungere contesto generico solo per allungare il testo.
+- Attribuisci a chi ha parlato o deciso (l'ente, l'azienda, la persona), non
+  alla testata che ha dato la notizia: il nome della testata puo comparire al
+  massimo una volta, e solo se serve davvero.
+- Se un dato non e noto, dillo nel punto in cui servirebbe. Vietato chiudere
+  con un elenco di cio che il materiale non dice: non e un articolo, e un
+  verbale.
 
 Rispondi solo in JSON."""
 
@@ -139,6 +154,25 @@ def _materiale(titolo: str, fonte: str, estratti: list[Extracted], limite_caratt
     return "\n".join(pezzi)
 
 
+def url_citabili(estratti: list[Extracted], conferme: list[dict[str, Any]]) -> list[str]:
+    """Indirizzi che l'articolo puo citare come fonte, senza ripetizioni.
+
+    Sono le pagine lette, le testate che riportano lo stesso fatto e i documenti
+    ufficiali richiamati dentro gli articoli. Servono due indirizzi distinti:
+    citare due volte la stessa pagina non fa due fonti.
+    """
+    indirizzi: list[str] = []
+    for estratto in estratti:
+        if estratto.ok:
+            indirizzi.append(estratto.url)
+    for conferma in conferme:
+        if conferma.get("url"):
+            indirizzi.append(str(conferma["url"]))
+    for estratto in estratti:
+        indirizzi.extend(estratto.links)
+    return list(dict.fromkeys(i for i in indirizzi if i))
+
+
 def verifica(
     client: Client,
     modello: str,
@@ -148,6 +182,8 @@ def verifica(
     conferme: list[dict[str, Any]],
     alto_rischio: bool,
     gia_pubblicati: list[str] | None = None,
+    tier: str = "",
+    trust: str = "",
 ) -> tuple[Verdetto, Usage]:
     """Decide se la notizia merita una pagina CurioMondo."""
     leggibili = [e for e in estratti if e.ok]
@@ -155,6 +191,12 @@ def verifica(
         _materiale(titolo, fonte, estratti),
         f"FONTI INDIPENDENTI CHE RIPORTANO IL FATTO: {1 + len(conferme)}",
     ]
+    if tier or trust:
+        # Il modello non puo indovinare se chi segnala e un'agenzia o un blog:
+        # senza questo dato tende a rifiutare tutto per prudenza.
+        contesto.append(
+            f"NATURA DELLA FONTE SEGNALANTE: {tier or 'ignota'}, affidabilita {trust or 'ignota'}"
+        )
     if conferme:
         contesto.append("Altre testate: " + ", ".join(c.get("source", "") for c in conferme))
     if alto_rischio:
@@ -187,7 +229,10 @@ def verifica(
         system=SISTEMA_VERIFICA,
         user="\n\n".join(contesto),
         schema_hint=schema,
-        max_tokens=1200,
+        # Il giudizio è breve, ma il modello ragiona prima di darlo: il tetto
+        # deve coprire il ragionamento, altrimenti si paga una risposta vuota.
+        max_tokens=4000,
+        sforzo="low",
     )
 
     pubblicare = bool(dati.get("pubblicare"))
@@ -205,6 +250,11 @@ def verifica(
         pubblicare, motivo = False, "rischio di disinformazione alto"
     if pubblicare and dati.get("dichiarazione_di_parte") and (1 + len(conferme)) < 2:
         pubblicare, motivo = False, "rivendicazione di una sola parte senza conferme indipendenti"
+    # Sui temi delicati il resoconto di una sola testata non basta: o c'e un
+    # atto ufficiale, o c'e qualcun altro che riporta lo stesso fatto.
+    if (pubblicare and bool(dati.get("sensibile"))
+            and not dati.get("fonte_primaria") and (1 + len(conferme)) < 2):
+        pubblicare, motivo = False, "tema delicato senza fonte primaria ne conferma indipendente"
     if pubblicare and categoria not in CATEGORIE:
         categoria = "Mondo"
 
@@ -247,6 +297,9 @@ CATEGORIA: {verdetto.categoria}
 VALORE AGGIUNTO da rendere esplicito nel testo:
 - """ + "\n- ".join(verdetto.valore_aggiunto)
 
+    citabili = url_citabili(estratti, conferme)
+    istruzioni += "\n\nINDIRIZZI CITABILI (usane almeno due DIVERSI, copiati esattamente):\n- " + "\n- ".join(citabili)
+
     if verdetto.sensibile:
         istruzioni += (
             "\n\nTEMA DELICATO: attribuisci ogni numero e ogni responsabilita. "
@@ -286,7 +339,8 @@ Vincoli tassativi:
         system=SISTEMA_STESURA,
         user=_materiale(titolo, fonte, estratti) + "\n\n" + istruzioni,
         schema_hint=schema,
-        max_tokens=3000,
+        max_tokens=9000,
+        sforzo="medium",
     )
     dati["formato"] = verdetto.formato
     dati["categoria"] = verdetto.categoria
@@ -330,13 +384,19 @@ def controlla_articolo(
 
     fonti = articolo.get("fonti") or []
     valide = [f for f in fonti if str(f.get("url", "")).startswith("http")]
-    if len(valide) < 3:
-        problemi.append(f"meno di tre fonti con URL ({len(valide)})")
     urls = [str(f.get("url", "")).strip() for f in valide]
+    if len(valide) < 2:
+        problemi.append(f"meno di due fonti con URL ({len(valide)})")
     if len(set(urls)) != len(urls):
         problemi.append("fonti duplicate")
     if len(urls) > 6:
         problemi.append(f"piu di sei fonti ({len(urls)})")
+    # Due testate, non due indirizzi: lo stesso lancio ANSA ripreso da un
+    # aggregatore cambia URL ma resta una fonte sola, e il gate del sito conta
+    # i link senza accorgersene.
+    testate = {dominio(u) for u in urls} - {""}
+    if len(testate) < 2:
+        problemi.append(f"meno di due testate distinte fra le fonti ({len(testate)})")
     if allowed_source_urls is not None:
         inventate = [url for url in urls if url not in allowed_source_urls]
         if inventate:

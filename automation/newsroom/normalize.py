@@ -66,6 +66,33 @@ def canonical_url(url: str) -> str:
     return rebuilt
 
 
+# Suffissi a due livelli: senza questi "bbc.co.uk" diventerebbe "co.uk" e tutte
+# le testate britanniche sembrerebbero la stessa fonte.
+_SUFFISSI_COMPOSTI = (
+    "co.uk", "org.uk", "gov.uk", "ac.uk", "com.au", "net.au", "org.au",
+    "co.jp", "com.br", "co.in", "com.tr", "europa.eu", "gov.it",
+)
+
+
+def dominio(url: str) -> str:
+    """Testata a cui appartiene un indirizzo, ridotta al dominio registrabile.
+
+    Serve a non contare due volte la stessa fonte: lo stesso lancio ANSA
+    ripreso da un aggregatore arriva con un indirizzo diverso, ma non e una
+    conferma indipendente — e la stessa testata.
+    """
+    host = urlsplit(url or "").netloc.lower().split("@")[-1].split(":")[0]
+    if host.startswith("www."):
+        host = host[4:]
+    parti = host.split(".")
+    if len(parti) <= 2:
+        return host
+    ultimi_due = ".".join(parti[-2:])
+    if ultimi_due in _SUFFISSI_COMPOSTI:
+        return ".".join(parti[-3:])
+    return ultimi_due
+
+
 def url_key(url: str) -> str:
     canonical = canonical_url(url)
     return hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:20] if canonical else ""
@@ -90,6 +117,42 @@ def title_tokens(title: str) -> list[str]:
         elif len(word) >= 3:
             keep.append(word)
     return sorted(set(keep))
+
+
+# Quante parole forti devono coincidere perche due titoli diversi raccontino lo
+# stesso fatto. Due sono poche — "Trump" e "Cina" stanno in dieci notizie al
+# giorno — tre bastano a distinguere: "napoli", "bologna", "1-0".
+PAROLE_IN_COMUNE_MINIME = 3
+
+
+_CIFRE_COMPOSTE = re.compile(r"\d+(?:[.,:\-]\d+)+")
+
+
+def parole_forti(title: str) -> set[str]:
+    """Parole del titolo che identificano un fatto: nomi propri, luoghi, cifre.
+
+    Le parole corte e i verbi comuni non aiutano a riconoscere la stessa
+    notizia raccontata da due testate: contano i nomi e i numeri. Le cifre
+    composte restano intere — "1-0" e "6.2" sono l'impronta di un fatto, e
+    spezzate in singole cifre non dicono piu niente.
+    """
+    forti = {t for t in title_tokens(title) if len(t) >= 4 or t.isdigit()}
+    forti.update(_CIFRE_COMPOSTE.findall(strip_accents(title or "").lower()))
+    return forti
+
+
+def stesso_fatto(primo: str, secondo: str, soglia: float = 0.62) -> bool:
+    """Vero se due titoli raccontano, quasi certamente, la stessa notizia.
+
+    La sola somiglianza lessicale non basta: "Il Napoli torna a vincere dopo
+    tre ko" e "Serie A: il Napoli batte il Bologna 1-0" si somigliano per 0,22
+    pur essendo la stessa partita. Senza questo riconoscimento la redazione non
+    raccoglie mai una seconda testata, e con una sola fonte non pubblica.
+    """
+    if title_similarity(primo, secondo) >= soglia:
+        return True
+    comuni = parole_forti(primo) & parole_forti(secondo)
+    return len(comuni) >= PAROLE_IN_COMUNE_MINIME
 
 
 def topic_key(title: str) -> str:

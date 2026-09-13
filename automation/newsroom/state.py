@@ -18,6 +18,8 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
+from .normalize import dominio
+
 # Ciclo di vita di un candidato.
 SEEN = "seen"              # rilevato dal watcher
 REJECTED = "rejected"      # scartato (filtro economico o verifica editoriale)
@@ -59,6 +61,9 @@ class Candidate:
     title: str
     source: str
     source_tier: str
+    # Affidabilita dichiarata nel registro delle fonti: serve alla verifica
+    # editoriale, che altrimenti non sa distinguere un'agenzia da un blog.
+    trust: str = ""
     published_at: str = ""
     first_seen: str = field(default_factory=_now)
     updated_at: str = field(default_factory=_now)
@@ -74,8 +79,17 @@ class Candidate:
     article: dict[str, Any] = field(default_factory=dict)
 
     def add_corroboration(self, source: str, url: str, title: str) -> bool:
-        """Registra una conferma, evitando di contare due volte la stessa fonte."""
+        """Registra una conferma, evitando di contare due volte la stessa fonte.
+
+        Il confronto e sul dominio oltre che sul nome: lo stesso lancio ANSA
+        ripreso da un aggregatore arriva con un altro nome e un altro indirizzo,
+        ma non e una seconda testata.
+        """
+        casa = dominio(url)
         if any(c.get("source") == source for c in self.corroborations):
+            return False
+        if casa and (casa == dominio(self.url)
+                     or any(dominio(str(c.get("url", ""))) == casa for c in self.corroborations)):
             return False
         self.corroborations.append({"source": source, "url": url, "title": title})
         return True
@@ -158,17 +172,26 @@ class Store:
         sono la stessa notizia ma hanno impronte diverse. Qui confrontiamo le
         parole significative, che è ciò che conta davvero.
         """
-        from .normalize import title_similarity  # import locale: evita cicli
+        from .normalize import (  # import locale: evita cicli
+            parole_forti, stesso_fatto, title_similarity,
+        )
 
         if not title:
             return None
         recent = sorted(self._candidates.values(), key=lambda c: c.first_seen, reverse=True)[:limit]
         best: Candidate | None = None
-        best_score = threshold
+        best_score = 0.0
+        forti = parole_forti(title)
         for candidate in recent:
-            score = title_similarity(title, candidate.title)
-            if score >= best_score:
-                best, best_score = candidate, score
+            if not stesso_fatto(title, candidate.title, soglia=threshold):
+                continue
+            # A parita di fatto teniamo il piu somigliante, cosi la conferma
+            # viene agganciata al candidato giusto quando ce n'e piu d'uno.
+            punteggio = title_similarity(title, candidate.title) + 0.01 * len(
+                forti & parole_forti(candidate.title)
+            )
+            if punteggio >= best_score:
+                best, best_score = candidate, punteggio
         return best
 
     def add(self, candidate: Candidate) -> Candidate:

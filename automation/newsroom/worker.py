@@ -17,6 +17,7 @@ from typing import Any
 
 from . import editor
 from .extract import gather
+from .normalize import dominio
 from .observability import CycleLogger
 from .openai_client import BudgetExceeded, BudgetGuard, Client, OpenAIError
 from .state import DRAFTED, REJECTED, SEEN, Store, existing_site_titles
@@ -84,21 +85,34 @@ def lavora(
             store.update(candidato.url_key, status=REJECTED, reason="fonti_non_leggibili")
             log.event("scartato", motivo="fonti_non_leggibili", titolo=candidato.title[:70])
             continue
-        if len(leggibili) < 3:
-            # Il protocollo impone 3-6 fonti consultate. Il candidato resta
-            # attivo: il watcher potra aggiungere conferme nei cicli seguenti.
-            store.update(candidato.url_key, reason=f"in_attesa_fonti:{len(leggibili)}/3")
-            log.event("in_attesa", motivo="meno_di_tre_fonti_leggibili",
-                      titolo=candidato.title[:70], fonti=len(leggibili))
+        # 2. Due testate citabili, o non si scrive. Pretendere tre pagine
+        # leggibili fermava tutto: le fonti raggiungibili da un runner sono
+        # poche e le conferme arrivano col tempo. Quello che conta davvero e
+        # che l'articolo possa citare due testate distinte, come pretende il
+        # gate del sito — e citare due volte la stessa pagina non fa due fonti.
+        citabili = editor.url_citabili(estratti, candidato.corroborations)
+        testate = {dominio(u) for u in citabili} - {""}
+        if len(testate) < 2:
+            tentativi = candidato.attempts + 1
+            if tentativi >= 3:
+                store.update(candidato.url_key, status=REJECTED, reason="fonte_unica")
+                log.event("scartato", motivo="fonte_unica", titolo=candidato.title[:70])
+            else:
+                # Resta in attesa: spesso la conferma arriva nei cicli successivi.
+                store.update(candidato.url_key, attempts=tentativi,
+                             reason="in_attesa_di_una_seconda_fonte")
+                log.count("in_attesa_di_conferma")
             continue
 
-        # 2. Verifica editoriale.
+        # 3. Verifica editoriale.
         try:
-            verdetto, _ = editor.verifica(
+            verdetto, uso_verifica = editor.verifica(
                 client, modello_verifica, candidato.title, candidato.source,
                 estratti, candidato.corroborations,
                 alto_rischio=bool(candidato.article.get("high_risk")),
                 gia_pubblicati=titoli_esistenti,
+                tier=candidato.source_tier,
+                trust=candidato.trust,
             )
         except BudgetExceeded as exc:
             log.event("budget_esaurito", dettaglio=str(exc))
@@ -109,16 +123,17 @@ def lavora(
             continue
 
         log.event("verdetto", pubblicare=verdetto.pubblicare, motivo=verdetto.motivo,
-                  formato=verdetto.formato, categoria=verdetto.categoria)
+                  formato=verdetto.formato, categoria=verdetto.categoria,
+                  secondi=uso_verifica.seconds)
         if not verdetto.pubblicare:
             store.update(candidato.url_key, status=REJECTED,
                          reason=f"editoriale:{verdetto.motivo[:80]}")
             log.count("scartati_dalla_verifica")
             continue
 
-        # 3. Stesura.
+        # 4. Stesura.
         try:
-            articolo, _ = editor.scrivi(
+            articolo, uso_stesura = editor.scrivi(
                 client, modello_stesura, candidato.title, candidato.source,
                 estratti, verdetto, candidato.corroborations,
             )
@@ -137,10 +152,10 @@ def lavora(
             "sensibile": verdetto.sensibile,
         }
 
-        # 4. Controllo del contratto, prima di spendere altro.
-        problemi = editor.controlla_articolo(
-            articolo, {e.url for e in leggibili}
-        )
+        # 5. Controllo del contratto, prima di spendere altro. Gli URL ammessi
+        # sono quelli del materiale: una fonte inventata non deve arrivare in
+        # pagina.
+        problemi = editor.controlla_articolo(articolo, set(citabili))
         if problemi:
             store.update(candidato.url_key, attempts=candidato.attempts + 1,
                          reason="articolo_non_conforme")
@@ -155,6 +170,7 @@ def lavora(
         bozze.append(articolo)
         log.count("bozze_prodotte")
         log.event("bozza_pronta", titolo=articolo["titolo"][:90],
+                  secondi=uso_stesura.seconds,
                   parole=len(" ".join(articolo["paragrafi"]).split()),
                   formato=articolo["formato"], categoria=articolo["categoria"])
 
