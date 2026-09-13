@@ -268,9 +268,9 @@ def picture(parent, item, eager=False):
 
 
 def make_featured(item):
-    a = etree.Element("a", {"class": "featured", "href": item["url"]})
-    picture(a, item, True)
-    txt = etree.SubElement(a, "div", {"class": "txt"})
+    featured = etree.Element("article", {"class": "featured"})
+    picture(featured, item, True)
+    txt = etree.SubElement(featured, "div", {"class": "txt"})
     tag = etree.SubElement(txt, "span", {"class": "tag"}); tag.text = "In evidenza"
     h1 = etree.SubElement(txt, "h1")
     highlights = [str(value) for value in item.get("featuredHighlights", []) if value]
@@ -297,9 +297,9 @@ def make_featured(item):
             value = etree.SubElement(copy, "strong"); value.text = str(stat.get("value", ""))
             label = etree.SubElement(copy, "small"); label.text = str(stat.get("label", ""))
     foot = etree.SubElement(txt, "span", {"class": "cm-featured-foot"})
-    cta = etree.SubElement(foot, "span", {"class": "cta"}); cta.text = "Leggi l’articolo →"
+    cta = etree.SubElement(foot, "a", {"class": "cta", "href": item["url"]}); cta.text = "Leggi l’articolo →"
     date = etree.SubElement(foot, "time", {"class": "cm-featured-date", "datetime": item["dateISO"]}); date.text = italian_date(item["dateISO"])
-    return a
+    return featured
 
 
 def make_rail(item):

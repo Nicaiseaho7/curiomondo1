@@ -764,6 +764,9 @@ html.cm-dark .auto-card .ameta,html.cm-dark .card .meta,body.dark .auto-card .am
 /* CurioMondo v224 — immagini premium, gerarchia notizie e Arial. */
 body,button,input,select,textarea,.cm-wordmark,.cm-brand-tagline,.ticker,.cm-search-strip,.cm-discovery-row,.cm-qday,.featured,.auto-rail-label,.section-title,.auto-card,.card,.cm-home-deep-links,.cm-feed-more{font-family:Arial,Helvetica,sans-serif!important}
 .featured h1,.featured p,.featured .cta,.auto-card h3,.auto-card p,.auto-card .ameta,.auto-card time,.card h3,.card p,.card .meta,.card time,.cm-discovery-row strong,.cm-discovery-row small,.cm-qday-k,.cm-qday-title{font-family:Arial,Helvetica,sans-serif!important}
+.featured:hover picture img{transform:none}
+.featured:hover .cta{background:#0f63d6}
+.featured .cta:hover,.featured .cta:focus-visible{background:#0d55ba}
 
 /* Biblioteca e Approfondimenti: fotografie editoriali con testo leggibile. */
 .cm-discovery-row>a{position:relative;isolation:isolate;min-height:116px;padding:23px 26px;overflow:hidden;border:1px solid rgba(255,255,255,.3)!important;border-radius:22px;color:#fff!important;background-position:center!important;background-size:cover!important;box-shadow:0 16px 36px rgba(7,31,74,.16),inset 0 1px 0 rgba(255,255,255,.22)!important}

@@ -296,17 +296,20 @@ if len(home.xpath('//nav[contains(@class,"ticker-track")][1]/a'))!=10: errors.ap
 if len(home.xpath('//div[contains(@class,"auto-rail")]/a'))!=5: errors.append('Ultime notizie non contiene 5 articoli')
 if len(home.xpath('//div[contains(@class,"auto-rail")]/a/h3 | //div[contains(@class,"auto-rail")]/a//h3'))!=5: errors.append('titoli mancanti nelle card Ultime notizie')
 if len(home.xpath('//div[contains(@class,"auto-rail")]/a//p[normalize-space()]'))!=5: errors.append('spiegazioni iniziali mancanti nelle card Ultime notizie')
-promoted_urls=set(home.xpath('//a[contains(@class,"featured")]/@href | //div[contains(@class,"auto-rail")]/a/@href'))
+promoted_urls=set(home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//a[contains(@class,"cta")]/@href | //div[contains(@class,"auto-rail")]/a/@href'))
 all_news_urls=home.xpath('//div[@id="cards"]/a/@href')
 if promoted_urls.intersection(all_news_urls): errors.append('notizie promosse duplicate in Tutte le notizie')
 if len(all_news_urls)<12: errors.append('titoli mancanti nelle card Tutte le notizie')
 if len(home.xpath('//div[@id="cards"]/a//h3[normalize-space()]'))!=len(all_news_urls): errors.append('titoli mancanti nelle card Tutte le notizie')
 if len(home.xpath('//div[@id="cards"]/a//p[normalize-space()]'))!=len(all_news_urls): errors.append('spiegazioni iniziali mancanti nelle card Tutte le notizie')
-if len(home.xpath('//a[contains(@class,"featured")]'))!=1: errors.append('apertura principale non unica')
-if not home.xpath('//a[contains(@class,"featured")]//h1//span[contains(@class,"cm-featured-key")]'): errors.append('parole chiave blu mancanti nella card In evidenza')
-if len(home.xpath('//a[contains(@class,"featured")]//*[contains(concat(" ",normalize-space(@class)," ")," cm-featured-stat ")]'))!=3: errors.append('la card In evidenza non contiene esattamente 3 mini-dati')
+featured_cards=home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]')
+if len(featured_cards)!=1: errors.append('apertura principale non unica')
+if not home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//h1//span[contains(@class,"cm-featured-key")]'): errors.append('parole chiave blu mancanti nella card In evidenza')
+if len(home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//*[contains(concat(" ",normalize-space(@class)," ")," cm-featured-stat ")]'))!=3: errors.append('la card In evidenza non contiene esattamente 3 mini-dati')
+if len(home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//a[@href]'))!=1 or not home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//a[contains(@class,"cta") and normalize-space()="Leggi l’articolo →"]'):
+    errors.append('nella card In evidenza deve essere cliccabile soltanto Leggi l’articolo')
 
-featured_href=home.xpath('//a[contains(@class,"featured")]/@href')
+featured_href=home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//a[contains(@class,"cta")]/@href')
 rail_hrefs=home.xpath('//div[contains(@class,"auto-rail")]/a/@href')
 chronological=[url for url,_ in sorted(card_eligible_dates.items(),key=lambda kv:(kv[1],kv[0]),reverse=True)]
 if featured_href and featured_href[0] not in card_eligible_dates:

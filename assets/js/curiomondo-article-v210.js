@@ -104,25 +104,27 @@
     }
     let grid=section.querySelector('.curio-related-grid,.cm-related-grid');
     if(!grid){grid=document.createElement('div');grid.className='curio-related-grid';section.append(grid);}
+    const relatedHeading=section.querySelector('h2');if(relatedHeading)relatedHeading.textContent='Potrebbe interessarti anche…';
+    const isNewsArticle=value=>routeKey(value).startsWith('/notizie/');
     const uniqueLinks=new Set();
-    Array.from(grid.querySelectorAll('a[href]')).forEach(link=>{const key=routeKey(link.href),sameTitle=normalizeText(link.querySelector('strong')?.textContent)===normalizeText(articleTitle);if(!key||isCurrentArticle(link.href)||sameTitle||uniqueLinks.has(key))link.remove();else uniqueLinks.add(key);});
+    Array.from(grid.querySelectorAll('a[href]')).forEach(link=>{const key=routeKey(link.href),sameTitle=normalizeText(link.querySelector('strong')?.textContent)===normalizeText(articleTitle);if(!key||!isNewsArticle(link.href)||isCurrentArticle(link.href)||sameTitle||uniqueLinks.has(key))link.remove();else uniqueLinks.add(key);});
     Array.from(grid.querySelectorAll('a[href]')).slice(3).forEach(link=>link.remove());
-    const existing=new Set(Array.from(grid.querySelectorAll('a[href]')).map(a=>routeKey(a.href)).filter(Boolean));
-    existing.add(canonicalRoute);
     try{
-      const response=await fetch('/assets/data/home-feed-v210.json?v=285',{credentials:'same-origin'});if(!response.ok)return;
-      const payload=await response.json(),items=Array.isArray(payload.items)?payload.items:[];
+      const response=await fetch('/assets/data/home-feed-v210.json?v=344',{credentials:'same-origin'});if(!response.ok)return;
+      const payload=await response.json(),items=(Array.isArray(payload.items)?payload.items:[]).filter(item=>item?.url&&isNewsArticle(item.url));
       const mediaByUrl=new Map(items.filter(item=>item?.url).map(item=>[routeKey(item.url),item]));
-      Array.from(grid.querySelectorAll('a[href]')).forEach(link=>{const path=routeKey(link.href);if(!mediaByUrl.get(path)?.image)link.remove();});
       const context=normalizeText([articleTitle,document.querySelector('.badge')?.textContent,document.querySelector('.meta')?.textContent].join(' '));
       const stop=new Set(['della','delle','degli','dello','alla','alle','agli','nella','nelle','negli','dopo','come','sono','anche','ultime','notizia','notizie','articolo']);
       const terms=new Set(context.split(/[^a-z0-9]+/).filter(word=>word.length>3&&!stop.has(word)));
-      const ranked=items.filter(item=>item?.url&&item?.title&&item?.image&&!isCurrentArticle(item.url)&&normalizeText(item.title)!==normalizeText(articleTitle)&&!existing.has(routeKey(item.url))).map(item=>{
+      const ranked=items.filter(item=>item?.title&&item?.image&&!isCurrentArticle(item.url)&&normalizeText(item.title)!==normalizeText(articleTitle)).map(item=>{
         const haystack=normalizeText([item.title,item.excerpt,item.section].join(' '));let score=0;terms.forEach(term=>{if(haystack.includes(term))score+=term.length>7?3:1;});
         const currentSection=normalizeText(document.querySelector('.badge')?.textContent||document.querySelector('.meta')?.textContent||'');
         if(currentSection&&normalizeText(item.section).split(/[^a-z]+/).some(token=>token.length>4&&currentSection.includes(token)))score+=4;
         return {item,score};
       }).sort((a,b)=>b.score-a.score);
+      if(ranked.length<3)return;
+      grid.replaceChildren();
+      const existing=new Set([canonicalRoute]);
       for(const {item} of ranked){
         if(grid.querySelectorAll('a[href]').length>=3)break;
         const path=routeKey(item.url);if(!path||isCurrentArticle(item.url)||existing.has(path))continue;existing.add(path);
