@@ -61,8 +61,10 @@ def run_watch(
     seen_this_cycle: set[str] = set()
 
     # Le fonti più autorevoli vengono valutate per prime: se due testate
-    # raccontano lo stesso fatto, teniamo quella con la fonte migliore.
-    items.sort(key=lambda i: filters.TIER_WEIGHT.get(i.source_tier, 0.6), reverse=True)
+    # raccontano lo stesso fatto, teniamo quella con la fonte migliore. A parità
+    # conta prima chi si lascia leggere: la testata che tiene il testo dietro un
+    # abbonamento resta buona come conferma, ma non puo fornire il materiale.
+    items.sort(key=lambda i: (i.materiale, filters.TIER_WEIGHT.get(i.source_tier, 0.6)), reverse=True)
 
     for item in items:
         key = item.url_key

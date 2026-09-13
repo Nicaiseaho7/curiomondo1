@@ -37,6 +37,10 @@ class Feed:
     trust: str = "medium"
     direct: bool = True
     enabled: bool = True
+    # Falso per le testate che pubblicano il testo solo dietro registrazione o
+    # pagamento: restano utili come conferma di un fatto, ma non possono
+    # fornire il materiale per scriverlo.
+    materiale: bool = True
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "Feed":
@@ -56,6 +60,7 @@ class Item:
     category: str
     trust: str
     summary: str = ""
+    materiale: bool = True
 
     @property
     def url_key(self) -> str:
@@ -154,6 +159,7 @@ def parse_feed(payload: bytes, feed: Feed) -> list[Item]:
                 category=feed.category,
                 trust=feed.trust,
                 summary=summary,
+                materiale=feed.materiale,
             )
         )
     return items

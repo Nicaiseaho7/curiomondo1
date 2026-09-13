@@ -69,7 +69,8 @@
       "cadence": "fast",
       "direct": false,
       "trust": "high",
-      "url": "https://news.google.com/rss/search?q=site%3Areuters.com+when%3A3h&hl=en-US&gl=US&ceid=US%3Aen"
+      "url": "https://news.google.com/rss/search?q=site%3Areuters.com+when%3A3h&hl=en-US&gl=US&ceid=US%3Aen",
+      "materiale": false
     },
     {
       "id": "ap-gn",
@@ -79,7 +80,8 @@
       "cadence": "fast",
       "direct": false,
       "trust": "high",
-      "url": "https://news.google.com/rss/search?q=site%3Aapnews.com+when%3A3h&hl=en-US&gl=US&ceid=US%3Aen"
+      "url": "https://news.google.com/rss/search?q=site%3Aapnews.com+when%3A3h&hl=en-US&gl=US&ceid=US%3Aen",
+      "materiale": false
     },
     {
       "id": "afp-gn",
@@ -99,7 +101,8 @@
       "cadence": "deep",
       "direct": false,
       "trust": "high",
-      "url": "https://news.google.com/rss/search?q=site%3Abloomberg.com+when%3A12h&hl=en-US&gl=US&ceid=US%3Aen"
+      "url": "https://news.google.com/rss/search?q=site%3Abloomberg.com+when%3A12h&hl=en-US&gl=US&ceid=US%3Aen",
+      "materiale": false
     },
     {
       "id": "agi-gn",
@@ -369,7 +372,8 @@
       "cadence": "deep",
       "direct": true,
       "trust": "high",
-      "url": "https://www.science.org/rss/news_current.xml"
+      "url": "https://www.science.org/rss/news_current.xml",
+      "materiale": false
     },
     {
       "id": "ecdc",
@@ -399,7 +403,8 @@
       "cadence": "deep",
       "direct": true,
       "trust": "medium",
-      "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories"
+      "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+      "materiale": false
     },
     {
       "id": "ft-gn",
@@ -409,7 +414,8 @@
       "cadence": "deep",
       "direct": false,
       "trust": "high",
-      "url": "https://news.google.com/rss/search?q=site%3Aft.com+when%3A12h&hl=en-US&gl=US&ceid=US%3Aen"
+      "url": "https://news.google.com/rss/search?q=site%3Aft.com+when%3A12h&hl=en-US&gl=US&ceid=US%3Aen",
+      "materiale": false
     },
     {
       "id": "skysport-gn",
@@ -449,7 +455,8 @@
       "cadence": "fast",
       "direct": false,
       "trust": "high",
-      "url": "https://news.google.com/rss/search?q=(site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Aun.org)+when%3A2h&hl=en-US&gl=US&ceid=US%3Aen"
+      "url": "https://news.google.com/rss/search?q=(site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Aun.org)+when%3A2h&hl=en-US&gl=US&ceid=US%3Aen",
+      "materiale": false
     }
   ]
 }
