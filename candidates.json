@@ -5967,12 +5967,18 @@
   },
   "1c8f787c09181a893166": {
    "article": {},
-   "attempts": 2,
-   "corroborations": [],
+   "attempts": 3,
+   "corroborations": [
+    {
+     "source": "Mondo ultima ora",
+     "title": "'Culture shift' needed in how UK does business, PM urges",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HS2ZOWlRBX0U3a1FGV1FkLWtCWWpCd2w2OUdYV1hWWTJyaWR1dldhdXJycExIaVlnaVFvd3hXMGgydldsd2RLVGFmb2w4Z18tZENvSndJZzIzUQ"
+    }
+   ],
    "first_seen": "2026-09-13T21:34:30+00:00",
    "priority": "normal",
    "published_at": "2026-09-13T21:30:21+00:00",
-   "reason": "in_attesa_di_una_seconda_fonte",
+   "reason": "articolo_non_conforme",
    "score": 0.85,
    "source": "BBC News",
    "source_tier": "agency",
@@ -5980,7 +5986,7 @@
    "title": "'Culture shift' needed in how UK does business, PM urges",
    "topic_key": "dcb203a06fabac6a48c4",
    "trust": "high",
-   "updated_at": "2026-09-13T21:42:24+00:00",
+   "updated_at": "2026-09-13T21:44:08+00:00",
    "url": "https://bbc.co.uk/news/articles/clyl18x4734o",
    "url_key": "1c8f787c09181a893166"
   },
@@ -6401,6 +6407,25 @@
    "updated_at": "2026-09-13T21:26:54+00:00",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcUhiMFBFc211WmJRYkhLZ0RiTEVfSzhpRWFOclVrMzRLbGZBbVM0ekNvdUdfYlpyVjNIRXVDc3ZfZWVxTHJyTlVjV3NUX2psbWhKWGo0Z3FLRE9qT3pEeng1Z2c0dmtISy1QaDBFdkotcEVQVnpDLWdheDFfdVkwZ0RYSDBtWU5URGhCTVdQX0xuRGpVV2xZUGN3",
    "url_key": "1e8e969eec3b7408fa95"
+  },
+  "1eea73f249e758fdf5e9": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:43:07+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T18:55:29+00:00",
+   "reason": "titolo_troppo_corto",
+   "score": 0.0,
+   "source": "Reuters",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "ASCM.CA",
+   "topic_key": "",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:43:07+00:00",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ3NJWTVQVXN5Zk1RaDl1QkEybXl6b2loRjZ1T3N2VFlseHBsdXRvNDRRVWFPZ2FLRWdDUEtEMWRiMU9fR1I2cFdld3hxOHlkU2dzNkxyeWR3c0poTjQ3SW41TzUwWkcyc3NaT2FWTG8zY1J6SERpLW52VGhybEx2M2J6ZHpLdDVwSWJncVBwR2JZNFE",
+   "url_key": "1eea73f249e758fdf5e9"
   },
   "1f13d571151dbf2c13ca": {
    "article": {},
@@ -10326,6 +10351,25 @@
    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1858",
    "url_key": "33003b98c4b1d627018b"
   },
+  "330fdf77910a0dad1c03": {
+   "article": {},
+   "attempts": 1,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:43:07+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:32:16+00:00",
+   "reason": "articolo_non_conforme",
+   "score": 0.85,
+   "source": "Mondo ultima ora",
+   "source_tier": "agency",
+   "status": "seen",
+   "title": "Essex security patrols to start in three places near asylum base",
+   "topic_key": "23e27af0b4dc2a76ec8d",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:45:01+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LUUJlWlpOUTNoMjBSQ20yTFhwV3E5TDBDemZpNmYxd2tTZnE1b2FCMFd0M3Q5N2tsSzZEY0trTXI2UnBTejhwVzlXSXVLMWpBSkhTWTBBU3ZYZw",
+   "url_key": "330fdf77910a0dad1c03"
+  },
   "333e093a355ba0452141": {
    "article": {},
    "attempts": 0,
@@ -12978,6 +13022,25 @@
    "updated_at": "2026-09-13T17:44:59+00:00",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYWVRSUFNekRRSzZ3dWRyRjJxa0luMTJMR3dZU1JYUlBheklRN2hPVmVHWmxReE52VzBrY3JOTXBQdTZNT2t5WmtjMWZxNVA3enVhNWpTZkoyM1dsa2FMNGVpcUdBdFFUUkxfaWFONGRVR2RTUE5qRWx2REtCSUdhRFc1YjRjbFVTNWJySGpmYWJCVy1ZMFgtZGFrcmlaMWVORUlUSHc2LURRa2c",
    "url_key": "41caa965194d54c1aa57"
+  },
+  "41cf4917ed0c71fa3b57": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:43:07+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:01:16+00:00",
+   "reason": "duplicato_di:9fe943ec8d11923c10ab",
+   "score": 0.0,
+   "source": "Mondo ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "First ministers of Wales, Scotland and Northern Ireland to meet in Cardiff",
+   "topic_key": "b36b64f341d0e56d415a",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:43:07+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JcDlBWmVzNkd2TktxNnE1cW9RV1V2Um9SNXZwQWZjUUNVYW1GdHBfLWVMM0U5VHZMMTRyQjdnOHNOaFVNZ1ZsbFRveHBUZTdEY0tqdk5oVUtGQQ",
+   "url_key": "41cf4917ed0c71fa3b57"
   },
   "41f8188a1ef5c620598d": {
    "article": {},
@@ -16095,7 +16158,7 @@
   },
   "521d563bd9aeb8094efb": {
    "article": {},
-   "attempts": 1,
+   "attempts": 2,
    "corroborations": [],
    "first_seen": "2026-09-13T21:42:20+00:00",
    "priority": "normal",
@@ -16108,7 +16171,7 @@
    "title": "Man set for release from prison after serving 21 years for phone robbery",
    "topic_key": "6ead6e17a2b8a918d328",
    "trust": "high",
-   "updated_at": "2026-09-13T21:42:25+00:00",
+   "updated_at": "2026-09-13T21:45:01+00:00",
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wNlZJdEJlX1VGNEhOYkNCVnE3TWhoN2xjM1pibmhfcE0xQ05kMDJFNDVZc1pQNkxEZ2ZUM2o0MXFiUUx0U0NvcUFYU3NKdU9hVUQ2cHlXemgwdw",
    "url_key": "521d563bd9aeb8094efb"
   },
@@ -46762,6 +46825,25 @@
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1tNThNd2Q3czdlTU0zbjA0WFVwN2NoSXdZU2tCUG1lY2IyZ1Bia1hTYlRIUUQ2RWdzb29nNWVnVVZpNUxCTDdiVXhYd2lZQUQ3QmVZQlBIbU83dTkyMktHME9VZ2VzdEk5WEJ3b3F4bw",
    "url_key": "f534edf3e20710433997"
   },
+  "f56a87dc54738f0ce380": {
+   "article": {},
+   "attempts": 0,
+   "corroborations": [],
+   "first_seen": "2026-09-13T21:43:07+00:00",
+   "priority": "normal",
+   "published_at": "2026-09-13T21:30:21+00:00",
+   "reason": "duplicato_di:1c8f787c09181a893166",
+   "score": 0.0,
+   "source": "Mondo ultima ora",
+   "source_tier": "agency",
+   "status": "rejected",
+   "title": "'Culture shift' needed in how UK does business, PM urges",
+   "topic_key": "dcb203a06fabac6a48c4",
+   "trust": "high",
+   "updated_at": "2026-09-13T21:43:07+00:00",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HS2ZOWlRBX0U3a1FGV1FkLWtCWWpCd2w2OUdYV1hWWTJyaWR1dldhdXJycExIaVlnaVFvd3hXMGgydldsd2RLVGFmb2w4Z18tZENvSndJZzIzUQ",
+   "url_key": "f56a87dc54738f0ce380"
+  },
   "f56b2973ba9513d7325c": {
    "article": {},
    "attempts": 0,
@@ -48507,5 +48589,5 @@
    "url_key": "fffee37376b8c909bc12"
   }
  },
- "updated_at": "2026-09-13T21:42:27+00:00"
+ "updated_at": "2026-09-13T21:45:01+00:00"
 }
