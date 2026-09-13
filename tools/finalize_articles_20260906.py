@@ -1,3 +1,5 @@
+error: patch failed: tools/finalize_articles_20260906.py:333
+error: tools/finalize_articles_20260906.py: patch does not apply
 #!/usr/bin/env python3
 from __future__ import annotations
 
@@ -333,7 +335,7 @@ for track in home.xpath('//nav[contains(concat(" ",normalize-space(@class)," "),
         attrs = {"class": "ticker-news", "href": item["url"]}
         if track.tag == "div" and n >= 6: attrs["tabindex"] = "-1"
         a = etree.SubElement(track, "a", attrs); a.text = item["title"]
-featured = home.xpath('//a[contains(concat(" ",normalize-space(@class)," ")," featured ")]')[0]
+featured = home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]')[0]
 featured.getparent().replace(featured, make_featured(feed_items[0]))
 rail = home.xpath('//div[contains(concat(" ",normalize-space(@class)," ")," auto-rail ")]')[0]
 for child in list(rail): rail.remove(child)
