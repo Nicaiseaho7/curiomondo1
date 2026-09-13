@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 351,
-    "site_version": 351
+    "current_site_version": 346,
+    "site_version": 346
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -61,6 +61,12 @@
     }
   },
   "news": {
+    "freshness_rule": {
+      "current_owner_instruction": "Durante la ricerca automatica pubblicare solo notizie pubblicate o sviluppatesi nel giorno corrente in Europe/Rome.",
+      "reject_old_news": "Non usare come ultime notizie fatti usciti da giorni, settimane o mesi.",
+      "allowed_exception": "Una storia precedente puo rientrare solo con uno sviluppo sostanziale nuovo avvenuto oggi e verificato da fonti datate oggi.",
+      "article_lead_rule": "In caso di sviluppo su storia gia esistente, l'apertura deve essere lo sviluppo di oggi, non la storia base."
+    },
     "deduplicate": true,
     "update_requires_substantive_development": true,
     "if_update_but_origin_missing": "explain_origin_first_then_new_development",
