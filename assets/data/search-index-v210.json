@@ -1,17 +1,11 @@
 {
-  "version": 342,
+  "version": 343,
   "items": [
     {
-      "title": "Stretto di Hormuz, nuova nave colpita: aumenta il rischio per petrolio e traffici",
-      "excerpt": "UKMTO segnala una nuova nave colpita nello Stretto di Hormuz. I danni non sono ancora noti mentre la crisi energetica regionale resta sotto pressione.",
-      "url": "/notizie/stretto-hormuz-traffico-sette-navi-11-settembre-2026.html",
-      "section": "Mondo / Medio Oriente / Energia / Trasporti"
-    },
-    {
-      "title": "IA, Altman esclude l’IPO OpenAI nel 2026 e sostiene il rallentamento chiesto da Amodei",
-      "excerpt": "OpenAI esclude una quotazione nel 2026 mentre Sam Altman sostiene il rallentamento dei modelli di frontiera proposto da Dario Amodei per rafforzare la sicurezza.",
-      "url": "/notizie/anthropic-amodei-rallentare-intelligenza-artificiale-sicurezza-12-settembre-2026.html",
-      "section": "Mondo / Tecnologia / Intelligenza artificiale"
+      "title": "US Open, Rybakina batte Sabalenka e conquista il numero uno mondiale",
+      "excerpt": "La kazaka vince la finale in tre set, 6-4 5-7 6-2, e ottiene il primo titolo a New York. Da lunedì guiderà per la prima volta la classifica WTA.",
+      "url": "/notizie/rybakina-vince-us-open-sabalenka-numero-uno-wta-13-settembre-2026.html",
+      "section": "Sport / Tennis / US Open"
     },
     {
       "title": "Ucraina, attacchi in più regioni: almeno sei morti e decine di feriti",
@@ -30,6 +24,12 @@
       "excerpt": "Iran ed Emirati Arabi Uniti sostengono il testo approvato a New Delhi. Il documento chiede protezione dei civili, sovranità degli Stati e sicurezza dei flussi commerciali ed energetici.",
       "url": "/notizie/brics-dichiarazione-new-delhi-medio-oriente-12-settembre-2026.html",
       "section": "Mondo / Politica / Diplomazia"
+    },
+    {
+      "title": "IA, Altman esclude l’IPO OpenAI nel 2026 e sostiene il rallentamento chiesto da Amodei",
+      "excerpt": "OpenAI esclude una quotazione nel 2026 mentre Sam Altman sostiene il rallentamento dei modelli di frontiera proposto da Dario Amodei per rafforzare la sicurezza.",
+      "url": "/notizie/anthropic-amodei-rallentare-intelligenza-artificiale-sicurezza-12-settembre-2026.html",
+      "section": "Mondo / Tecnologia / Intelligenza artificiale"
     },
     {
       "title": "Filippine, incendio sul traghetto June Aster: almeno 76 morti e 13 dispersi",
@@ -80,16 +80,10 @@
       "section": "Italia / Salute / Sanità pubblica"
     },
     {
-      "title": "Diesel, prorogato fino al 17 settembre lo sconto di 17 centesimi",
-      "excerpt": "Il Consiglio dei ministri estende per altri sette giorni la riduzione sul gasolio. Il decreto costa 86 milioni e rinvia la scelta sulle misure successive.",
-      "url": "/notizie/diesel-sconto-accise-proroga-17-settembre-2026.html",
-      "section": "Italia / Economia / Carburanti"
-    },
-    {
-      "title": "Taiwan, la vicepresidente Hsiao in Italia per il forum di Ventotene",
-      "excerpt": "La visita, mantenuta riservata fino all'arrivo, è rara per un'esponente taiwanese di questo livello. Con lei il ministro degli Esteri Lin Chia-lung.",
-      "url": "/notizie/taiwan-vicepresidente-hsiao-italia-ventotene-11-settembre-2026.html",
-      "section": "Mondo / Italia / Taiwan / Diplomazia"
+      "title": "Stretto di Hormuz, nuova nave colpita: aumenta il rischio per petrolio e traffici",
+      "excerpt": "UKMTO segnala una nuova nave colpita nello Stretto di Hormuz. I danni non sono ancora noti mentre la crisi energetica regionale resta sotto pressione.",
+      "url": "/notizie/stretto-hormuz-traffico-sette-navi-11-settembre-2026.html",
+      "section": "Mondo / Medio Oriente / Energia / Trasporti"
     },
     {
       "title": "Malpensa, emergenza su un volo EasyJet: evacuati 146 passeggeri",
@@ -98,10 +92,22 @@
       "section": "Italia / Lombardia / Cronaca / Trasporti"
     },
     {
-      "title": "Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro",
-      "excerpt": "Un drone centra una stazione Ukrnafta a Kyiv, con quattro feriti. A Dnipro due morti e cinque feriti nell'impianto per l'olio di girasole del gruppo Bunge.",
-      "url": "/notizie/attacchi-russi-kyiv-dnipro-ukrnafta-bunge-settembre-2026.html",
-      "section": "Mondo / Ucraina / Cronaca"
+      "title": "Taiwan, la vicepresidente Hsiao in Italia per il forum di Ventotene",
+      "excerpt": "La visita, mantenuta riservata fino all'arrivo, è rara per un'esponente taiwanese di questo livello. Con lei il ministro degli Esteri Lin Chia-lung.",
+      "url": "/notizie/taiwan-vicepresidente-hsiao-italia-ventotene-11-settembre-2026.html",
+      "section": "Mondo / Italia / Taiwan / Diplomazia"
+    },
+    {
+      "title": "Diesel, prorogato fino al 17 settembre lo sconto di 17 centesimi",
+      "excerpt": "Il Consiglio dei ministri estende per altri sette giorni la riduzione sul gasolio. Il decreto costa 86 milioni e rinvia la scelta sulle misure successive.",
+      "url": "/notizie/diesel-sconto-accise-proroga-17-settembre-2026.html",
+      "section": "Italia / Economia / Carburanti"
+    },
+    {
+      "title": "Piantedosi: «CasaPound a Roma sarà sgomberata»",
+      "excerpt": "Il ministro dell'Interno afferma che l'immobile occupato sarà liberato. Nessuna data operativa è stata indicata; nello stesso intervento parla anche dell'iniziativa di Vannacci.",
+      "url": "/notizie/piantedosi-casapound-roma-sara-sgomberata-settembre-2026.html",
+      "section": "Italia / Politica / Cronaca"
     },
     {
       "title": "Legge elettorale, il Senato entra nel vivo dell'esame della riforma",
@@ -116,22 +122,22 @@
       "section": "Italia / Economia / Pensioni"
     },
     {
-      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
-      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
-      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
-      "section": "Mondo / Ucraina / Canada / Difesa"
-    },
-    {
-      "title": "Piantedosi: «CasaPound a Roma sarà sgomberata»",
-      "excerpt": "Il ministro dell'Interno afferma che l'immobile occupato sarà liberato. Nessuna data operativa è stata indicata; nello stesso intervento parla anche dell'iniziativa di Vannacci.",
-      "url": "/notizie/piantedosi-casapound-roma-sara-sgomberata-settembre-2026.html",
-      "section": "Italia / Politica / Cronaca"
+      "title": "Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro",
+      "excerpt": "Un drone centra una stazione Ukrnafta a Kyiv, con quattro feriti. A Dnipro due morti e cinque feriti nell'impianto per l'olio di girasole del gruppo Bunge.",
+      "url": "/notizie/attacchi-russi-kyiv-dnipro-ukrnafta-bunge-settembre-2026.html",
+      "section": "Mondo / Ucraina / Cronaca"
     },
     {
       "title": "Incendio di Gombio, il bilancio: oltre 130 ettari bruciati",
       "excerpt": "La Regione Emilia-Romagna ricostruisce cinque giorni di operazioni nel Reggiano. Mobilitati Vigili del Fuoco, Protezione civile, volontari, Canadair ed elicotteri.",
       "url": "/notizie/incendio-gombio-reggio-emilia-130-ettari-bilancio-2026.html",
       "section": "Italia / Emilia-Romagna / Ambiente / Cronaca"
+    },
+    {
+      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
+      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
+      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
+      "section": "Mondo / Ucraina / Canada / Difesa"
     },
     {
       "title": "Agosto 2026 è il mese più caldo mai registrato insieme a luglio 2023",
@@ -146,16 +152,16 @@
       "section": "Mondo / Economia"
     },
     {
-      "title": "Istat, l’industria italiana riparte a luglio ma l’inflazione accelera",
-      "excerpt": "La produzione cresce dello 0,7% sul mese, mentre il Pil del secondo trimestre avanza dello 0,2%. L’energia spinge l’inflazione IPCA al 3,2%.",
-      "url": "/notizie/istat-economia-italiana-pil-industria-inflazione-luglio-agosto-2026.html",
-      "section": "Italia / Economia"
-    },
-    {
       "title": "Cavi artici, Reuters: alleati NATO hanno fermato un’esercitazione russa",
       "excerpt": "Secondo fonti occidentali citate dall’agenzia, sommergibili russi simulavano l’uso di una tecnologia contro i collegamenti delle Svalbard. Nessun cavo è stato danneggiato.",
       "url": "/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html",
       "section": "Mondo / Sicurezza / Tecnologia"
+    },
+    {
+      "title": "Istat, l’industria italiana riparte a luglio ma l’inflazione accelera",
+      "excerpt": "La produzione cresce dello 0,7% sul mese, mentre il Pil del secondo trimestre avanza dello 0,2%. L’energia spinge l’inflazione IPCA al 3,2%.",
+      "url": "/notizie/istat-economia-italiana-pil-industria-inflazione-luglio-agosto-2026.html",
+      "section": "Italia / Economia"
     },
     {
       "title": "Spazio, firmati a Parigi due accordi industriali tra Italia e Francia",
@@ -350,16 +356,16 @@
       "section": "Sport / Volley / Europei"
     },
     {
-      "title": "Ebola Bundibugyo, il Congo vara un piano d’emergenza di 180 giorni",
-      "excerpt": "Il governo congolese e i partner sanitari rafforzano per sei mesi la risposta all’epidemia. Sorveglianza, laboratori, prevenzione e coordinamento transfrontaliero sono gli assi centrali.",
-      "url": "/notizie/ebola-bundibugyo-congo-piano-emergenza-180-giorni-6-settembre-2026.html",
-      "section": "Mondo / Salute / Congo"
-    },
-    {
       "title": "OPEC+ congela le quote petrolifere per ottobre",
       "excerpt": "Sette produttori mantengono per ottobre i livelli richiesti a settembre. La guerra con l’Iran e le difficoltà nello Stretto di Hormuz continuano però a frenare l’offerta fisica.",
       "url": "/notizie/opec-plus-congela-quote-petrolio-ottobre-6-settembre-2026.html",
       "section": "Economia / Energia / OPEC+"
+    },
+    {
+      "title": "Ebola Bundibugyo, il Congo vara un piano d’emergenza di 180 giorni",
+      "excerpt": "Il governo congolese e i partner sanitari rafforzano per sei mesi la risposta all’epidemia. Sorveglianza, laboratori, prevenzione e coordinamento transfrontaliero sono gli assi centrali.",
+      "url": "/notizie/ebola-bundibugyo-congo-piano-emergenza-180-giorni-6-settembre-2026.html",
+      "section": "Mondo / Salute / Congo"
     },
     {
       "title": "Antonelli, impresa a Monza: vince il GP d’Italia partendo 19°",
@@ -416,16 +422,16 @@
       "section": "Mondo / Iran / Geopolitica"
     },
     {
-      "title": "Confine Cina-Nepal, il porto di Gyirong cancellato dall’alluvione",
-      "excerpt": "Il valico che collegava Tibet e Nepal è stato travolto dalla colata di fango del 26 agosto. Del complesso doganale restano solo frammenti, mentre le ricerche dei dispersi continuano.",
-      "url": "/notizie/confine-cina-nepal-alluvione-porto-gyirong-distrutto-6-settembre-2026.html",
-      "section": "Mondo / Cina / Nepal"
-    },
-    {
       "title": "Ucraina, tregua aerea di 72 ore: Witkoff e Kushner oggi a Kyiv",
       "excerpt": "La pausa riguarda gli attacchi aerei contro le due capitali durante la missione americana, ma non tutti i combattimenti. Dopo il colloquio al Cremlino, gli inviati statunitensi sono attesi da Zelensky.",
       "url": "/notizie/ucraina-tregua-aerea-72-ore-witkoff-kushner-kyiv-6-settembre-2026.html",
       "section": "Mondo / Ucraina / Diplomazia"
+    },
+    {
+      "title": "Confine Cina-Nepal, il porto di Gyirong cancellato dall’alluvione",
+      "excerpt": "Il valico che collegava Tibet e Nepal è stato travolto dalla colata di fango del 26 agosto. Del complesso doganale restano solo frammenti, mentre le ricerche dei dispersi continuano.",
+      "url": "/notizie/confine-cina-nepal-alluvione-porto-gyirong-distrutto-6-settembre-2026.html",
+      "section": "Mondo / Cina / Nepal"
     },
     {
       "title": "Sassonia-Anhalt al voto, affluenza in forte aumento: l’AfD cerca una svolta storica",
@@ -950,16 +956,16 @@
       "section": "Italia / Politica / Economia"
     },
     {
-      "title": "Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
-      "excerpt": "Richiesta, invio, firma, buste, scadenze e conteggio: una guida semplice per capire come funziona il voto postale negli Stati Uniti e perché le regole cambiano da Stato a Stato.",
-      "url": "/notizie/voto-postale-usa-come-funziona-regole-controlli.html",
-      "section": "Mondo / Stati Uniti / Elezioni"
-    },
-    {
       "title": "Che cos’è la Coalizione dei Volenterosi e perché organizza esercitazioni per l’Ucraina?",
       "excerpt": "Una guida chiara alla Coalizione dei Volenterosi: chi ne fa parte, quale ruolo ha la forza multinazionale, perché vengono organizzate esercitazioni e cosa significa partecipare.",
       "url": "/notizie/coalizione-volenterosi-ucraina-cosa-e-esercitazioni-come-funzionano.html",
       "section": "Mondo / Europa / Ucraina"
+    },
+    {
+      "title": "Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
+      "excerpt": "Richiesta, invio, firma, buste, scadenze e conteggio: una guida semplice per capire come funziona il voto postale negli Stati Uniti e perché le regole cambiano da Stato a Stato.",
+      "url": "/notizie/voto-postale-usa-come-funziona-regole-controlli.html",
+      "section": "Mondo / Stati Uniti / Elezioni"
     },
     {
       "title": "Gli USA estendono le sanzioni all’Iran, Teheran promette ritorsioni",
@@ -1232,15 +1238,15 @@
       "section": "Italia / Cultura / Patrimonio"
     },
     {
-      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
-      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
-      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
-      "section": "Mondo / Ambiente / Incendi"
-    },
-    {
       "title": "Perché gli incendi nelle torbiere sono così difficili da spegnere e possono ripartire?",
       "excerpt": "La torba può bruciare lentamente sotto terra, sfuggire ai controlli e riaccendere le fiamme in superficie. Ecco che cosa accade e come si interviene.",
       "url": "/notizie/perche-incendi-torbiere-difficili-spegnere.html",
+      "section": "Mondo / Ambiente / Incendi"
+    },
+    {
+      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
+      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
+      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
       "section": "Mondo / Ambiente / Incendi"
     },
     {

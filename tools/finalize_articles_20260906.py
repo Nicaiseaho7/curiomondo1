@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CAPTION = "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria."
 
 TARGETS = {
-    "notizie/anthropic-amodei-rallentare-intelligenza-artificiale-sicurezza-12-settembre-2026.html": "anthropic-ai-sicurezza-rallentare-ai-openai-v338",
+    "notizie/rybakina-vince-us-open-sabalenka-numero-uno-wta-13-settembre-2026.html": "rybakina-us-open-2026-ai-openai-v343",
 }
 
 REG_PATH = ROOT / "assets/data/editorial-images-v210.json"
@@ -167,7 +167,7 @@ def inject_image(rel, key):
 for rel, key in TARGETS.items():
     inject_image(rel, key)
 
-reg["version"] = 323
+reg["version"] = 343
 REG_PATH.write_text(json.dumps(reg, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
@@ -243,7 +243,7 @@ for info in infos:
         if old.get(presentation_key):
             merged[presentation_key] = old[presentation_key]
     feed_items.append(merged)
-home_feed["version"] = 323
+home_feed["version"] = 343
 home_feed["items"] = feed_items
 home_feed_path.write_text(json.dumps(home_feed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -252,7 +252,7 @@ search_path = ROOT / "assets/data/search-index-v210.json"
 search = json.loads(search_path.read_text(encoding="utf-8"))
 non_news = [i for i in search.get("items", []) if not str(i.get("url", "")).startswith("/notizie/")]
 search_news = [{k: i[k] for k in ("title", "excerpt", "url", "section")} for i in feed_items]
-search["version"] = 323
+search["version"] = 343
 search["items"] = search_news + non_news
 search_path.write_text(json.dumps(search, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -409,4 +409,4 @@ for rel in ("assets/js/home-v210.js", "assets/js/curiomondo-article-v210.js"):
     if p.exists():
         p.write_text(p.read_text(encoding="utf-8").replace("?v=322", "?v=323"), encoding="utf-8")
 
-print(json.dumps({"status":"ok","version":323,"new_articles":["/"+x for x in TARGETS],"homepage_top":[i["url"] for i in feed_items[:10]]}, ensure_ascii=False, indent=2))
+print(json.dumps({"status":"ok","version":343,"new_articles":["/"+x for x in TARGETS],"homepage_top":[i["url"] for i in feed_items[:10]]}, ensure_ascii=False, indent=2))

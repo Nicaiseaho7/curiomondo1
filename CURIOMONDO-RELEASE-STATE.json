@@ -1,8 +1,8 @@
 {
-  "site_version": 342,
-  "articleCount": 260,
-  "generatedEditorialImages": 142,
-  "baseline_version": 341,
+  "site_version": 343,
+  "articleCount": 261,
+  "generatedEditorialImages": 143,
+  "baseline_version": 342,
   "release_date": "2026-09-13",
   "protocol_files": [
     "AGENTS.md",
@@ -14,13 +14,13 @@
     "curiomondo-site-manifest.json"
   ],
   "last_daily_question_date": "2026-09-12",
-  "version": "342",
+  "version": "343",
   "date": "2026-09-13",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "hormuz-nave-colpita-v342",
+  "last_update": "rybakina-us-open-v343",
   "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
-  "currentVersion": 342,
-  "baselineVersion": 341,
+  "currentVersion": 343,
+  "baselineVersion": 342,
   "designRestored": "Intestazione globale unificata su tutte le pagine interne; palette blu Facebook e fascia LIVE rossa piena confermate.",
   "status": "ready"
 }

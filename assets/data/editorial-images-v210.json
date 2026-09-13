@@ -1,5 +1,5 @@
 {
-  "version": 341,
+  "version": 343,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
@@ -5840,6 +5840,34 @@
           "path": "/assets/images/editorial-v210/canale-panama-acqua-siccita-1200.webp",
           "sha256": "2db4d088158597c988bfe9f31f98f4d195362cbc193ba09ae6c23f80b8598158",
           "bytes": 118576
+        }
+      ]
+    },
+    {
+      "key": "rybakina-us-open-2026-ai-openai-v343",
+      "article": "/notizie/rybakina-vince-us-open-sabalenka-numero-uno-wta-13-settembre-2026.html",
+      "alt": "Scena editoriale contestuale ordinaria generata con IA di Elena Rybakina che saluta il pubblico su un campo da tennis dopo una finale",
+      "generator": "OpenAI / ChatGPT image generation",
+      "syntheticLikeness": "public-figure",
+      "sensitiveContext": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/rybakina-us-open-2026-ai-openai-v343-480.webp",
+          "sha256": "97c4da1709b2c8a6fa2c901e4b625f07232c54a38170830058fc7264b2136625",
+          "bytes": 24190
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/rybakina-us-open-2026-ai-openai-v343-800.webp",
+          "sha256": "b5113e3ec09335eaec830675c0290195b446e23fa966a82b6e171ebab224dfff",
+          "bytes": 48674
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/rybakina-us-open-2026-ai-openai-v343-1200.webp",
+          "sha256": "4da7b3347603270b1dec729e53f4ec3c9402ab02c770e4d695c6aeb889b0a2f6",
+          "bytes": 81082
         }
       ]
     }
