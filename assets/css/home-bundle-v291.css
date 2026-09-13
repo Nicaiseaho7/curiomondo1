@@ -1971,7 +1971,7 @@ html.cm-dark .auto-card picture::after,html.cm-dark .card picture::after{
 .cm-featured-stat strong{font-size:.93rem;line-height:1.15;color:#fff}
 .cm-featured-stat small{margin-top:3px;color:#bdd2eb;font-size:.58rem;line-height:1.25;font-weight:750;letter-spacing:.035em;text-transform:uppercase}
 .cm-featured-foot{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px 18px;margin-top:16px}
-.featured .cta{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:0 20px;border-radius:999px;background:#0f63d6;color:#fff;font-weight:800;box-shadow:0 12px 26px rgba(15,99,214,.4);transition:background .2s ease}
+.featured .cta{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:0 20px;border-radius:999px;background:#0f63d6;color:#fff;font-weight:800;text-decoration:none;box-shadow:0 12px 26px rgba(15,99,214,.4);transition:background .2s ease}
 .featured:hover .cta{background:#0d55ba}
 .cm-featured-date{display:inline-flex;align-items:center;gap:6px;padding:7px 13px;border-radius:999px;background:rgba(4,14,30,.86);border:1px solid rgba(255,255,255,.2);color:#fff;font-size:.72rem;font-weight:700;white-space:nowrap}
 @media(max-width:600px){
