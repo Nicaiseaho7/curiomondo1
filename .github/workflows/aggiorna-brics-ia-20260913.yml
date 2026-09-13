@@ -1,0 +1,151 @@
+name: Aggiorna BRICS IA 13 settembre 2026
+
+on:
+  push:
+    paths:
+      - '.github/workflows/aggiorna-brics-ia-20260913.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Dipendenze immagini
+        run: pip install pillow
+
+      - name: Genera varianti immagine e aggiorna articolo
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          import json, re, html
+
+          ROOT = Path('.')
+          article = ROOT/'notizie/brics-dichiarazione-new-delhi-medio-oriente-12-settembre-2026.html'
+          old_title = 'BRICS, dichiarazione comune sul Medio Oriente: appello alla massima moderazione'
+          new_title = 'BRICS, Xi propone zona IA open source e nuove partnership'
+          old_excerpt = 'Iran ed Emirati Arabi Uniti sostengono il testo approvato a New Delhi. Il documento chiede protezione dei civili, sovranità degli Stati e sicurezza dei flussi commerciali ed energetici.'
+          new_excerpt = 'A New Delhi Xi Jinping propone una zona BRICS per l’IA open source, una rete tra zone economiche speciali e un forum sul commercio dei servizi.'
+          old_key = 'brics-new-delhi-dichiarazione-ai-openai-v339'
+          new_key = 'brics-new-delhi-ai-cooperazione-ai-openai-v344'
+          old_alt = 'Scena editoriale contestuale ordinaria generata con IA di una sala del vertice BRICS a New Delhi con delegazioni e bandiere, senza incontri specifici ricostruiti'
+          new_alt = 'Scena editoriale contestuale ordinaria generata con IA di una conferenza multilaterale a New Delhi con visualizzazioni astratte su IA, commercio e reti globali, senza ricostruire incontri specifici'
+          modified = '2026-09-13T10:55:00+02:00'
+          slug = 'brics-dichiarazione-new-delhi-medio-oriente-12-settembre-2026'
+
+          imgdir = ROOT/'assets/images/editorial-auto'
+          src = imgdir/f'{new_key}-800.webp'
+          if not src.exists():
+              raise SystemExit(f'Immagine base mancante: {src}')
+          im = Image.open(src).convert('RGB')
+          for w in (480, 1200):
+              h = round(w * 2 / 3)
+              out = im.resize((w,h), Image.Resampling.LANCZOS)
+              out.save(imgdir/f'{new_key}-{w}.webp', 'WEBP', quality=88, method=6)
+
+          replacements = [(old_title,new_title),(old_excerpt,new_excerpt),(old_alt,new_alt),(old_key,new_key)]
+          for p in ROOT.rglob('*'):
+              if not p.is_file() or '.git' in p.parts: continue
+              if p.suffix.lower() not in {'.html','.json','.xml'}: continue
+              try: s=p.read_text(encoding='utf-8')
+              except UnicodeDecodeError: continue
+              t=s
+              for a,b in replacements: t=t.replace(a,b)
+              if t != s: p.write_text(t,encoding='utf-8')
+
+          s=article.read_text(encoding='utf-8')
+          s=re.sub(r'"dateModified":"[^"]+"', f'"dateModified":"{modified}"', s, count=1)
+          s=s.replace('12 settembre 2026 · New Delhi · <span id="readTime">4 min di lettura</span>','13 settembre 2026 · New Delhi · aggiornato · <span id="readTime">4 min di lettura</span>')
+          body=[
+            'Al vertice BRICS di New Delhi il presidente cinese Xi Jinping ha proposto domenica 13 settembre tre nuovi strumenti di cooperazione economica e tecnologica: una BRICS AI Open Source Zone, una partnership tra zone economiche speciali e un BRICS Service Trade Forum che la Cina intende ospitare. Reuters ha descritto le iniziative come parte del tentativo di dare al gruppo allargato un ruolo più incisivo nell’economia globale.',
+            'Le proposte non equivalgono, al momento, a nuovi trattati o a misure già operative. Non sono stati annunciati nel dettaglio budget, sedi permanenti, criteri di adesione o regole comuni per la zona dedicata all’intelligenza artificiale. La distinzione è importante: il vertice ha prodotto un indirizzo politico, mentre l’attuazione richiederà decisioni successive dei governi e degli organismi BRICS.',
+            'Sul fronte dell’IA, l’iniziativa si inserisce in una strategia cinese già visibile prima del summit. In un intervento pubblicato dal ministero degli Esteri cinese il 7 settembre, l’ambasciatore a New Delhi ricordava che Pechino ha già creato un Centro Cina-BRICS per lo sviluppo e la cooperazione sull’intelligenza artificiale e invitava i partner a usare l’IA in industria, sanità, agricoltura ed educazione. La nuova zona open source punta quindi ad allargare una cooperazione che dispone già di alcune strutture.',
+            'La partnership tra zone economiche speciali ha invece un obiettivo più industriale: collegare aree che offrono regimi dedicati agli investimenti e facilitare rapporti tra imprese, logistica e filiere produttive. Il forum sul commercio dei servizi dovrebbe aggiungere un canale di confronto su settori digitali e professionali. Anche in questo caso, però, i risultati dipenderanno dagli accordi concreti che seguiranno agli annunci.',
+            'Il nuovo pacchetto arriva dopo la dichiarazione comune approvata il 12 settembre, con cui i membri avevano chiesto moderazione nella guerra in Medio Oriente e discusso riforma della governance globale, energia e sviluppo. L’agenda del 13 settembre sposta parte dell’attenzione dalla diplomazia di crisi alla costruzione di infrastrutture economiche condivise.',
+            'Il significato politico va quindi separato dall’effetto economico immediato. Un gruppo che riunisce grandi economie emergenti può creare standard, reti industriali e piattaforme commerciali rilevanti, ma l’esistenza di interessi nazionali differenti rende decisiva la fase di implementazione. CurioMondo considererà le iniziative operative solo quando saranno pubblicati strumenti formali, regole, finanziamenti o progetti con una tempistica verificabile.',
+            'Il prossimo banco di prova sarà la trasformazione delle proposte in programmi misurabili. La Cina assumerà la presidenza BRICS nel 2027: ciò offrirà a Pechino la possibilità di portare avanti la zona open source, la rete tra zone economiche speciali e il forum dei servizi. Fino ad allora, gli annunci di New Delhi restano proposte politiche di alto livello, non risultati economici già realizzati.'
+          ]
+          paras=''.join(f'<p>{html.escape(x)}</p>' for x in body)
+          s,n=re.subn(r'<article class="art-body"[^>]*>.*?</article>',f'<article class="art-body" data-editorial-protocol="4.0" data-article-format="standard">{paras}</article>',s,count=1,flags=re.S)
+          if n != 1: raise SystemExit('Blocco art-body non trovato')
+          sources=[
+            ('https://www.reuters.com/business/aerospace-defense/xi-pushes-greater-brics-economic-ties-give-bloc-larger-global-role-2026-09-13/','Reuters — 13 settembre 2026 — proposte di Xi su IA open source, zone economiche speciali e commercio dei servizi'),
+            ('https://www.fmprc.gov.cn/zwbd_673032/wjzs/202609/t20260908_12018322.shtml','Ministero degli Esteri cinese — 7 settembre 2026 — piattaforme Cina-BRICS già attive e priorità su IA, digitale e industria'),
+            ('https://www.fmprc.gov.cn/web/gjhdq_676201/gj_676203/yz_676205/1206_677220/xgxw_677226/202609/t20260912_12021080.shtml','Ministero degli Esteri cinese — 12 settembre 2026 — partecipazione di Xi al vertice BRICS di New Delhi'),
+            ('https://www.reuters.com/business/aerospace-defense/brics-agrees-joint-declaration-before-new-delhi-summit-sources-say-2026-09-12/','Reuters — 12 settembre 2026 — dichiarazione comune e contesto diplomatico del vertice')
+          ]
+          lis=''.join(f'<li><a href="{html.escape(u,quote=True)}" rel="noopener noreferrer" target="_blank">{html.escape(t)}</a></li>' for u,t in sources)
+          source_block=f'<div class="art-sources"><h2>Fonti consultate</h2><ul>{lis}</ul><p><small><strong>Redazione CurioMondo · <a href="/pagine/metodo-editoriale.html">Come lavoriamo</a></strong><br>Testo originale CurioMondo. Ultimo aggiornamento editoriale: 13 settembre 2026, ore italiane.</small></p></div>'
+          s,n=re.subn(r'<div class="art-sources">.*?</div>',source_block,s,count=1,flags=re.S)
+          if n != 1: raise SystemExit('Blocco fonti non trovato')
+          article.write_text(s,encoding='utf-8')
+
+          sm=ROOT/'sitemap.xml'
+          if sm.exists():
+              x=sm.read_text(encoding='utf-8')
+              pat=rf'(<url>\s*<loc>https://curiomondo\.it/notizie/{re.escape(slug)}\.html</loc>.*?<lastmod>)[^<]+(</lastmod>)'
+              x2,cnt=re.subn(pat,r'\g<1>2026-09-13\g<2>',x,count=1,flags=re.S)
+              if cnt: sm.write_text(x2,encoding='utf-8')
+
+          versions=[]
+          for name in ('RELEASE-STATE.json','CURIOMONDO-RELEASE-STATE.json'):
+              p=ROOT/name
+              if p.exists():
+                  try:
+                      d=json.loads(p.read_text(encoding='utf-8'))
+                      for k in ('site_version','currentVersion'):
+                          if isinstance(d.get(k),int): versions.append(d[k])
+                      if isinstance(d.get('version'),int): versions.append(d['version'])
+                      elif isinstance(d.get('version'),str) and d['version'].isdigit(): versions.append(int(d['version']))
+                  except Exception: pass
+          mpath=ROOT/'curiomondo-site-manifest.json'
+          manifest=json.loads(mpath.read_text(encoding='utf-8'))
+          site=manifest.setdefault('site',{})
+          for k in ('current_site_version','site_version'):
+              if isinstance(site.get(k),int): versions.append(site[k])
+          version=max(versions+[343])+1
+          site['current_site_version']=version
+          site['site_version']=version
+          mpath.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          for name in ('RELEASE-STATE.json','CURIOMONDO-RELEASE-STATE.json'):
+              p=ROOT/name
+              if not p.exists(): continue
+              d=json.loads(p.read_text(encoding='utf-8'))
+              if 'site_version' in d: d['site_version']=version
+              if 'currentVersion' in d: d['currentVersion']=version
+              if 'version' in d: d['version']=str(version) if isinstance(d['version'],str) else version
+              if 'release_date' in d: d['release_date']='2026-09-13'
+              if 'date' in d: d['date']='2026-09-13'
+              if 'last_update' in d: d['last_update']='brics-ai-open-source-new-delhi'
+              if 'generatedEditorialImages' in d: d['generatedEditorialImages']=int(d['generatedEditorialImages'])+1
+              p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(f'BRICS aggiornato; versione sito {version}')
+          PY
+
+      - name: Gate predeploy
+        run: python3 tools/predeploy.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica"
+            exit 0
+          fi
+          git commit -m "Aggiorna BRICS: IA open source e cooperazione economica"
+          git push
