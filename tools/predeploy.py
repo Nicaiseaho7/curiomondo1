@@ -118,6 +118,12 @@ for p in html_files:
     if d.xpath('//footer//*[contains(concat(" ",normalize-space(@class)," ")," cm-nicaise-signature ")]'): errors.append(f'firma Nicaise nel footer: {p.relative_to(root)}')
     for img in d.xpath('//img'):
         if img.get('alt') is None: errors.append(f'alt assente: {p.relative_to(root)}')
+    heading=d.xpath('//main//h1')
+    figure=d.xpath('//main//figure[contains(concat(" ",normalize-space(@class)," ")," article-image ")]')
+    if heading and figure:
+        sequence=list(d.iter())
+        if sequence.index(figure[0])<sequence.index(heading[0]):
+            errors.append(f'immagine prima del titolo: {p.relative_to(root)}')
     for url in d.xpath('//@src|//@href'):
         if not url or url.startswith(('#','http://','https://','mailto:','tel:','data:','javascript:')): continue
         url=url.split('?')[0].split('#')[0]
