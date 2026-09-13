@@ -1,0 +1,79 @@
+name: Redazione · Verifica chiave OpenAI
+
+# Conferma che il segreto arrivi al workflow e che la chiave sia valida.
+# Non stampa mai la chiave, nemmeno parzialmente: riporta solo esito e
+# modelli disponibili, che servono a configurare la fase editoriale senza
+# tirare a indovinare i nomi dei modelli.
+
+on:
+  workflow_dispatch:
+    inputs:
+      genera:
+        description: 'Prova anche una generazione minima (costo trascurabile)'
+        type: boolean
+        default: true
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  verifica:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Il segreto arriva al workflow?
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "::error::Il segreto OPENAI_API_KEY non è configurato nel repository."
+            echo "Aggiungilo in Settings > Secrets and variables > Actions > New repository secret."
+            exit 1
+          fi
+          echo "Segreto ricevuto (valore non mostrato)."
+
+      - name: Verifica chiave e modelli disponibili
+        id: verifica
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ "${{ inputs.genera }}" = "false" ]; then
+            python3 -m automation.newsroom.openai_check | tee /tmp/esito.json
+          else
+            python3 -m automation.newsroom.openai_check --genera | tee /tmp/esito.json
+          fi
+
+      - name: Riepilogo
+        if: always()
+        run: |
+          python3 - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
+          import json, pathlib
+          p = pathlib.Path('/tmp/esito.json')
+          if not p.exists():
+              print("### Verifica chiave OpenAI\n\nNessun esito prodotto: il segreto probabilmente manca.")
+              raise SystemExit(0)
+          e = json.loads(p.read_text())
+          stato = e.get('stato', 'sconosciuto')
+          titoli = {
+              'valida': '✅ Chiave valida e funzionante',
+              'chiave_rifiutata': '❌ Chiave rifiutata da OpenAI',
+              'errore_api': '⚠️ Errore nel contattare OpenAI',
+              'non_configurata': '❌ Segreto non configurato',
+          }
+          print(f"### {titoli.get(stato, stato)}\n")
+          if stato == 'valida':
+              print(f"- modelli accessibili: **{e.get('modelli_totali')}**")
+              print(f"- modelli testo utilizzabili: `{', '.join(e.get('modelli_testo_disponibili') or ['nessuno'])}`")
+              print(f"- modelli immagine utilizzabili: `{', '.join(e.get('modelli_immagine_disponibili') or ['nessuno'])}`")
+              if 'generazione' in e:
+                  print(f"- prova di generazione: **{e['generazione']}**"
+                        + (f" con `{e.get('modello_provato')}` ({e.get('token_usati')} token)" if e.get('generazione') == 'riuscita' else ""))
+          else:
+              print(f"- dettaglio: {e.get('dettaglio') or e.get('come_risolvere') or '—'}")
+          PY
