@@ -18,7 +18,7 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install pillow
       - name: Genera articolo e superfici
-        run: python tools/build_v353.py
+        run: PYTHONPATH=. python tools/build_v353.py
       - name: Verifica predeploy
         run: python tools/predeploy.py
       - name: Commit pubblicazione
