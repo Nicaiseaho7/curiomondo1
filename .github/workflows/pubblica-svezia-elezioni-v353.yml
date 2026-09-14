@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install pillow
+      - run: python -m pip install -r automation/requirements.txt
       - name: Genera articolo e superfici
         run: PYTHONPATH=. python tools/build_v353.py
       - name: Verifica predeploy
