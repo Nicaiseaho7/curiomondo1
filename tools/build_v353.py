@@ -16,7 +16,7 @@ ARTICLE={
  "slug":SLUG,
  "titolo":"Svezia, centrosinistra avanti di tre seggi nelle elezioni: risultato ancora provvisorio",
  "sommario":"Il blocco guidato dalla socialdemocratica Magdalena Andersson ottiene 176 seggi contro 173 secondo il conteggio preliminare. Restano da scrutinare voti che possono incidere sull’equilibrio finale.",
- "categoria":"Mondo / Politica",
+ "categoria":"Politica",
  "luogo":"Svezia",
  "formato":"standard",
  "parole_chiave_titolo":["centrosinistra avanti","risultato ancora provvisorio"],
