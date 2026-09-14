@@ -12,7 +12,7 @@ from automation.newsroom.site import CAPTION, register_image, sync_surfaces, wri
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = 351
 SLUG = "borse-asiatiche-sell-off-titoli-intelligenza-artificiale-14-settembre-2026"
-PUBLISHED = "2026-09-14T06:00:00+02:00"
+PUBLISHED = "2026-09-14T06:51:05+02:00"
 IMAGE_KEY = f"{SLUG}-ai-openai-v{VERSION}"
 SOURCE_IMAGE = ROOT / "generated_images" / "exec-5bd27c04-5b53-44da-a323-d680079b85a3.png"
 
@@ -80,7 +80,7 @@ def main() -> None:
     slug = write_article(ARTICLE, image, VERSION)
     article_path = ROOT / "notizie" / f"{slug}.html"
     page = article_path.read_text(encoding="utf-8")
-    # L'orario è quello dello sviluppo Reuters indicato dal proprietario, non l'ora di esecuzione del renderer.
+    # datePublished indica la prima pubblicazione CurioMondo; l'ora dello sviluppo resta nel testo.
     import re
     page = re.sub(r'"datePublished":"[^"]+"', f'"datePublished":"{PUBLISHED}"', page)
     page = re.sub(r'"dateModified":"[^"]+"', f'"dateModified":"{PUBLISHED}"', page)

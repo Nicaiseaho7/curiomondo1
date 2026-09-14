@@ -226,7 +226,10 @@ def render_book_page(question_url: str, book_url: str, package: dict) -> str:
     for index, page in enumerate(package["book_pages"]):
         body = "".join(f"<p>{escape(p)}</p>" for p in page["paragraphs"])
         heading = f'<h2>{escape(page["title"])}</h2>' if index < 7 else f'<p class="cm-book-page-title">{escape(page["title"])}</p>'
-        pages.append(f'<section class="cm-book-page" data-book-page>{heading}{body}</section>')
+        active = " is-active" if index == 0 else ""
+        hidden = "" if index == 0 else ' aria-hidden="true"'
+        book_title = f'<h1>{escape(package["book_title"])}</h1>' if index == 0 else ""
+        pages.append(f'<section class="cm-book-page{active}" data-book-page{hidden}>{book_title}{heading}{body}</section>')
     return f'''<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{escape(package["book_title"])} | eBook CurioMondo</title><meta name="description" content="{escape(package["book_deck"], quote=True)}"><meta name="robots" content="index,follow"><link rel="canonical" href="{BASE_URL}{book_url}"><link rel="stylesheet" href="/assets/css/biblioteca-v1.css?v=346"><link rel="stylesheet" href="/assets/css/biblioteca-book-reader-v1.css?v=273"><link rel="stylesheet" href="/assets/css/global-header-v275.css"><script defer src="/assets/js/global-header-v275.js"></script></head><body>{site_header()}<main class="cb-shell"><article class="cm-book-shell"><div class="cm-book-stage">{''.join(pages)}</div><nav class="cm-book-controls" aria-label="Navigazione eBook"><button data-book-prev type="button">← Indietro</button><button data-book-next type="button">Avanti →</button></nav><a class="cm-book-back" href="{question_url}">← Torna alla Domanda del giorno</a></article></main><noscript><style>.cm-book-page{{display:block!important;min-height:0;margin-bottom:20px}}</style></noscript><script defer src="/assets/js/biblioteca-book-reader-v1.js?v=273"></script><footer class="cb-footer"><div class="cb-shell">© 2026 CurioMondo</div></footer></body></html>'''
 
 
