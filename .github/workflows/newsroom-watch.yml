@@ -12,11 +12,14 @@ name: Redazione · Watcher notizie
 # a ogni ciclo, anche quando non si pubblica nulla.
 
 on:
-  push:
-    paths:
-      - '.github/workflows/newsroom-watch.yml'
-      - 'automation/newsroom/**'
-      - 'tools/ciclo_redazione.sh'
+  # PAUSA — richiesta il 14 settembre 2026. Anche l'innesco su modifica della
+  # pipeline e sospeso: durante la pausa nessuna modifica al codice deve far
+  # partire un ciclo che pubblica. Per riprendere, togliere il commento.
+  # push:
+  #   paths:
+  #     - '.github/workflows/newsroom-watch.yml'
+  #     - 'automation/newsroom/**'
+  #     - 'tools/ciclo_redazione.sh'
   workflow_dispatch:
     inputs:
       cadence:

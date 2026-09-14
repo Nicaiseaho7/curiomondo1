@@ -22,8 +22,12 @@ on:
         type: string
         default: '320'
         required: false
-  schedule:
-    - cron: '7 * * * *'     # rimette in pista la staffetta se si e fermata
+  # PAUSA — richiesta il 14 settembre 2026.
+  # La staffetta non riparte piu da sola: resta solo l'avvio a mano.
+  # Per riprendere la cadenza continua, togliere il commento dalle due righe
+  # seguenti e avviare una staffetta da Actions.
+  # schedule:
+  #   - cron: '7 * * * *'     # rimette in pista la staffetta se si e fermata
 
 permissions:
   contents: write
