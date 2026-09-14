@@ -1,40 +1,6 @@
 {
-  "version": 351,
+  "version": 347,
   "items": [
-    {
-      "title": "Inghilterra, stop ai fritti nelle mense scolastiche con le nuove regole",
-      "excerpt": "Le nuove norme aumentano frutta, verdura, fibre e integrali, riducono dessert e carni lavorate e impongono regole ai breakfast club. Entrano dal 2027, con monitoraggio da definire con la Food Standards Agency e finanziamenti invariati.",
-      "url": "/notizie/inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-13-09-2026.html",
-      "section": "Mondo",
-      "dateISO": "2026-09-13T23:38:03+02:00",
-      "dateLabel": "2026-09-13",
-      "image": "/assets/images/editorial-auto/inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-ai-openai-v351-800.webp",
-      "imageAlt": "Scena editoriale ordinaria in una mensa scolastica inglese con personale che serve patatine al forno, pasta integrale e frutta a studenti in uniforme.",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-ai-openai-v351-480.webp 480w, /assets/images/editorial-auto/inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-ai-openai-v351-800.webp 800w, /assets/images/editorial-auto/inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-ai-openai-v351-1200.webp 1200w",
-      "featuredHighlights": [
-        "Inghilterra",
-        "fritti"
-      ],
-      "featuredStats": [
-        {
-          "icon": "◆",
-          "value": "2027",
-          "label": "entrata in vigore"
-        },
-        {
-          "icon": "●",
-          "value": "1.250",
-          "label": "scuole con breakfast club"
-        },
-        {
-          "icon": "▲",
-          "value": "50%",
-          "label": "pasta integrale settimanale"
-        }
-      ]
-    },
     {
       "title": "Chandra rileva compagno compatto dietro le eruzioni di AT 2016blu",
       "excerpt": "Osservazioni ai raggi X durante un outburst previsto e il calcolo del tasso di accrezione indicano che le esplosioni non preludono a una supernova. Lo studio guidato da Mojgan Aghakhanloo descrive una binaria a grande massa con oggetto compatto.",
@@ -151,10 +117,10 @@
       ]
     },
     {
-      "title": "Energia, Trump apre all’idea di una presenza USA in Iran per il petrolio",
+      "title": "Petrolio oltre 108 dollari dopo nuovi attacchi in Arabia Saudita e Hormuz",
       "excerpt": "Il presidente statunitense ha ipotizzato che gli Stati Uniti possano restare in Iran e trattenere petrolio, paragonando lo scenario al rapporto costruito con il Venezuela. È una dichiarazione politica, non una decisione operativa annunciata.",
       "url": "/notizie/energia-attacchi-rotte-petrolio-pipeline-est-ovest-13-settembre-2026.html",
-      "section": "Mondo / Politica / Economia / Energia",
+      "section": "Mondo / Economia / Energia",
       "dateISO": "2026-09-13T13:20:00+02:00",
       "dateLabel": "2026-09-13",
       "image": "/assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-800.webp",
@@ -162,32 +128,6 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-480.webp 480w, /assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-800.webp 800w, /assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-1200.webp 1200w"
-    },
-    {
-      "title": "Carburanti, operativo il decreto: accise ridotte fino al 17 settembre",
-      "excerpt": "Il decreto-legge 157 è in vigore dall’11 settembre. Ridetermina temporaneamente l’accisa sul gasolio e accelera procedure energetiche strategiche.",
-      "url": "/notizie/carburanti-decreto-157-accise-17-settembre-2026.html",
-      "section": "Italia / Economia / Energia",
-      "dateISO": "2026-09-13T12:58:46+02:00",
-      "dateLabel": "2026-09-13",
-      "image": "/assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-800.webp",
-      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA di automobilisti in una stazione di servizio italiana",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-480.webp 480w, /assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-800.webp 800w, /assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-1200.webp 1200w"
-    },
-    {
-      "title": "Ricerca sul cancro, Italia a 495 trial mentre l’Europa perde terreno",
-      "excerpt": "In Europa sono circa 3.000 gli studi oncologici aperti al reclutamento, contro 5.200 negli Stati Uniti e 5.300 in Asia.",
-      "url": "/notizie/ricerca-cancro-italia-495-trial-europa-13-settembre-2026.html",
-      "section": "Italia / Salute / Ricerca",
-      "dateISO": "2026-09-13T12:58:46+02:00",
-      "dateLabel": "2026-09-13",
-      "image": "/assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-800.webp",
-      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA di ricercatori oncologici italiani che esaminano dati clinici anonimi",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-480.webp 480w, /assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-800.webp 800w, /assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-1200.webp 1200w"
     },
     {
       "title": "Positano, vasto incendio provoca una frana: chiusa la statale Amalfitana",
@@ -227,6 +167,32 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/yahodyn-dorohusk-attacco-confine-ai-openai-v345-480.webp 480w, /assets/images/editorial-auto/yahodyn-dorohusk-attacco-confine-ai-openai-v345-800.webp 800w, /assets/images/editorial-auto/yahodyn-dorohusk-attacco-confine-ai-openai-v345-1200.webp 1200w"
+    },
+    {
+      "title": "Carburanti, operativo il decreto: accise ridotte fino al 17 settembre",
+      "excerpt": "Il decreto-legge 157 è in vigore dall’11 settembre. Ridetermina temporaneamente l’accisa sul gasolio e accelera procedure energetiche strategiche.",
+      "url": "/notizie/carburanti-decreto-157-accise-17-settembre-2026.html",
+      "section": "Italia / Economia / Energia",
+      "dateISO": "2026-09-13T12:58:46+02:00",
+      "dateLabel": "2026-09-13",
+      "image": "/assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-800.webp",
+      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA di automobilisti in una stazione di servizio italiana",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-480.webp 480w, /assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-800.webp 800w, /assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-1200.webp 1200w"
+    },
+    {
+      "title": "Ricerca sul cancro, Italia a 495 trial mentre l’Europa perde terreno",
+      "excerpt": "In Europa sono circa 3.000 gli studi oncologici aperti al reclutamento, contro 5.200 negli Stati Uniti e 5.300 in Asia.",
+      "url": "/notizie/ricerca-cancro-italia-495-trial-europa-13-settembre-2026.html",
+      "section": "Italia / Salute / Ricerca",
+      "dateISO": "2026-09-13T12:58:46+02:00",
+      "dateLabel": "2026-09-13",
+      "image": "/assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-800.webp",
+      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA di ricercatori oncologici italiani che esaminano dati clinici anonimi",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-480.webp 480w, /assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-800.webp 800w, /assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-1200.webp 1200w"
     },
     {
       "title": "Ucraina, nuovo attacco russo con droni su Odesa: almeno cinque feriti",
@@ -437,6 +403,19 @@
       "srcset": "/assets/images/editorial-auto/west-nile-italia-594-casi-ai-openai-v325-480.webp 480w, /assets/images/editorial-auto/west-nile-italia-594-casi-ai-openai-v325-800.webp 800w, /assets/images/editorial-auto/west-nile-italia-594-casi-ai-openai-v325-1200.webp 1200w"
     },
     {
+      "title": "Malpensa, emergenza su un volo EasyJet: evacuati 146 passeggeri",
+      "excerpt": "Fumo e un principio d'incendio vengono segnalati durante il rullaggio del volo diretto a Praga. Nessun ferito; lo scalo è rimasto chiuso per circa un'ora.",
+      "url": "/notizie/malpensa-easyjet-emergenza-146-passeggeri-10-settembre-2026.html",
+      "section": "Italia / Lombardia / Cronaca / Trasporti",
+      "dateISO": "2026-09-11T06:13:20+02:00",
+      "dateLabel": "2026-09-11",
+      "image": "/assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-800.webp",
+      "imageAlt": "Aereo passeggeri fermo su una pista aeroportuale con mezzi antincendio, illustrazione editoriale fotorealistica generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-480.webp 480w, /assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-800.webp 800w, /assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-1200.webp 1200w"
+    },
+    {
       "title": "Diesel, prorogato fino al 17 settembre lo sconto di 17 centesimi",
       "excerpt": "Il Consiglio dei ministri estende per altri sette giorni la riduzione sul gasolio. Il decreto costa 86 milioni e rinvia la scelta sulle misure successive.",
       "url": "/notizie/diesel-sconto-accise-proroga-17-settembre-2026.html",
@@ -463,19 +442,6 @@
       "srcset": "/assets/images/editorial-auto/hsiao-italia-ventotene-ai-v319-480.webp 480w, /assets/images/editorial-auto/hsiao-italia-ventotene-ai-v319-800.webp 800w, /assets/images/editorial-auto/hsiao-italia-ventotene-ai-v319-1200.webp 1200w"
     },
     {
-      "title": "Malpensa, emergenza su un volo EasyJet: evacuati 146 passeggeri",
-      "excerpt": "Fumo e un principio d'incendio vengono segnalati durante il rullaggio del volo diretto a Praga. Nessun ferito; lo scalo è rimasto chiuso per circa un'ora.",
-      "url": "/notizie/malpensa-easyjet-emergenza-146-passeggeri-10-settembre-2026.html",
-      "section": "Italia / Lombardia / Cronaca / Trasporti",
-      "dateISO": "2026-09-11T06:13:20+02:00",
-      "dateLabel": "2026-09-11",
-      "image": "/assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-800.webp",
-      "imageAlt": "Aereo passeggeri fermo su una pista aeroportuale con mezzi antincendio, illustrazione editoriale fotorealistica generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-480.webp 480w, /assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-800.webp 800w, /assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-1200.webp 1200w"
-    },
-    {
       "title": "Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro",
       "excerpt": "Un drone centra una stazione Ukrnafta a Kyiv, con quattro feriti. A Dnipro due morti e cinque feriti nell'impianto per l'olio di girasole del gruppo Bunge.",
       "url": "/notizie/attacchi-russi-kyiv-dnipro-ukrnafta-bunge-settembre-2026.html",
@@ -487,6 +453,32 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-480.webp 480w, /assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-800.webp 800w, /assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-1200.webp 1200w"
+    },
+    {
+      "title": "Incendio di Gombio, il bilancio: oltre 130 ettari bruciati",
+      "excerpt": "La Regione Emilia-Romagna ricostruisce cinque giorni di operazioni nel Reggiano. Mobilitati Vigili del Fuoco, Protezione civile, volontari, Canadair ed elicotteri.",
+      "url": "/notizie/incendio-gombio-reggio-emilia-130-ettari-bilancio-2026.html",
+      "section": "Italia / Emilia-Romagna / Ambiente / Cronaca",
+      "dateISO": "2026-09-10T19:43:49+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/incendio-gombio-ai-v316-800.webp",
+      "imageAlt": "Ampia area di bosco bruciato sull'Appennino reggiano dopo l'incendio di Gombio, illustrazione editoriale fotorealistica generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/incendio-gombio-ai-v316-480.webp 480w, /assets/images/editorial-auto/incendio-gombio-ai-v316-800.webp 800w, /assets/images/editorial-auto/incendio-gombio-ai-v316-1200.webp 1200w"
+    },
+    {
+      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
+      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
+      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
+      "section": "Mondo / Ucraina / Canada / Difesa",
+      "dateISO": "2026-09-10T19:43:49+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp",
+      "imageAlt": "Volodymyr Zelenskyy e Mark Carney durante un incontro istituzionale in Canada, illustrazione editoriale fotorealistica generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-480.webp 480w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp 800w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-1200.webp 1200w"
     },
     {
       "title": "Legge elettorale, il Senato entra nel vivo dell'esame della riforma",
@@ -515,19 +507,6 @@
       "srcset": "/assets/images/editorial-auto/libretto-previdenziale-ai-v316-480.webp 480w, /assets/images/editorial-auto/libretto-previdenziale-ai-v316-800.webp 800w, /assets/images/editorial-auto/libretto-previdenziale-ai-v316-1200.webp 1200w"
     },
     {
-      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
-      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
-      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
-      "section": "Mondo / Ucraina / Canada / Difesa",
-      "dateISO": "2026-09-10T19:43:49+02:00",
-      "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp",
-      "imageAlt": "Volodymyr Zelenskyy e Mark Carney durante un incontro istituzionale in Canada, illustrazione editoriale fotorealistica generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-480.webp 480w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp 800w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-1200.webp 1200w"
-    },
-    {
       "title": "Piantedosi: «CasaPound a Roma sarà sgomberata»",
       "excerpt": "Il ministro dell'Interno afferma che l'immobile occupato sarà liberato. Nessuna data operativa è stata indicata; nello stesso intervento parla anche dell'iniziativa di Vannacci.",
       "url": "/notizie/piantedosi-casapound-roma-sara-sgomberata-settembre-2026.html",
@@ -541,17 +520,17 @@
       "srcset": "/assets/images/editorial-auto/piantedosi-casapound-ai-v316-480.webp 480w, /assets/images/editorial-auto/piantedosi-casapound-ai-v316-800.webp 800w, /assets/images/editorial-auto/piantedosi-casapound-ai-v316-1200.webp 1200w"
     },
     {
-      "title": "Incendio di Gombio, il bilancio: oltre 130 ettari bruciati",
-      "excerpt": "La Regione Emilia-Romagna ricostruisce cinque giorni di operazioni nel Reggiano. Mobilitati Vigili del Fuoco, Protezione civile, volontari, Canadair ed elicotteri.",
-      "url": "/notizie/incendio-gombio-reggio-emilia-130-ettari-bilancio-2026.html",
-      "section": "Italia / Emilia-Romagna / Ambiente / Cronaca",
-      "dateISO": "2026-09-10T19:43:49+02:00",
+      "title": "La BCE alza i tassi al 2,50% contro l’inflazione spinta dall’energia",
+      "excerpt": "Secondo rialzo del 2026: Francoforte aumenta il costo del denaro di 25 punti base. Crescita dell’Eurozona rivista allo 0,9%, inflazione attesa al 3%.",
+      "url": "/notizie/bce-alza-tassi-2-50-inflazione-energia-settembre-2026.html",
+      "section": "Mondo / Economia",
+      "dateISO": "2026-09-10T17:30:02+02:00",
       "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/incendio-gombio-ai-v316-800.webp",
-      "imageAlt": "Ampia area di bosco bruciato sull'Appennino reggiano dopo l'incendio di Gombio, illustrazione editoriale fotorealistica generata con IA",
+      "image": "/assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-800.webp",
+      "imageAlt": "Scena editoriale contestuale fotorealistica della sede della Banca centrale europea con il simbolo dell’euro, generata con IA",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/incendio-gombio-ai-v316-480.webp 480w, /assets/images/editorial-auto/incendio-gombio-ai-v316-800.webp 800w, /assets/images/editorial-auto/incendio-gombio-ai-v316-1200.webp 1200w"
+      "srcset": "/assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-480.webp 480w, /assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-800.webp 800w, /assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-1200.webp 1200w"
     },
     {
       "title": "Agosto 2026 è il mese più caldo mai registrato insieme a luglio 2023",
@@ -565,19 +544,6 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/agosto-record-caldo-ai-v315-480.webp 480w, /assets/images/editorial-auto/agosto-record-caldo-ai-v315-800.webp 800w, /assets/images/editorial-auto/agosto-record-caldo-ai-v315-1200.webp 1200w"
-    },
-    {
-      "title": "La BCE alza i tassi al 2,50% contro l’inflazione spinta dall’energia",
-      "excerpt": "Secondo rialzo del 2026: Francoforte aumenta il costo del denaro di 25 punti base. Crescita dell’Eurozona rivista allo 0,9%, inflazione attesa al 3%.",
-      "url": "/notizie/bce-alza-tassi-2-50-inflazione-energia-settembre-2026.html",
-      "section": "Mondo / Economia",
-      "dateISO": "2026-09-10T17:30:02+02:00",
-      "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-800.webp",
-      "imageAlt": "Scena editoriale contestuale fotorealistica della sede della Banca centrale europea con il simbolo dell’euro, generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-480.webp 480w, /assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-800.webp 800w, /assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-1200.webp 1200w"
     },
     {
       "title": "Istat, l’industria italiana riparte a luglio ma l’inflazione accelera",
@@ -1165,19 +1131,6 @@
       "srcset": "/assets/images/editorial-auto/iran-economia-attacchi-piu-dolorosi-6-settembre-2026-ai-v285-480.webp 480w, /assets/images/editorial-auto/iran-economia-attacchi-piu-dolorosi-6-settembre-2026-ai-v285-800.webp 800w, /assets/images/editorial-auto/iran-economia-attacchi-piu-dolorosi-6-settembre-2026-ai-v285-1200.webp 1200w"
     },
     {
-      "title": "Confine Cina-Nepal, il porto di Gyirong cancellato dall’alluvione",
-      "excerpt": "Il valico che collegava Tibet e Nepal è stato travolto dalla colata di fango del 26 agosto. Del complesso doganale restano solo frammenti, mentre le ricerche dei dispersi continuano.",
-      "url": "/notizie/confine-cina-nepal-alluvione-porto-gyirong-distrutto-6-settembre-2026.html",
-      "section": "Mondo · Cina/Nepal",
-      "dateISO": "2026-09-06T14:20:00+02:00",
-      "dateLabel": "2026-09-06",
-      "image": "/assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-800.webp",
-      "imageAlt": "Scena editoriale contestuale sensibile del valico di Gyirong-Rasuwa tra Cina e Nepal con strada e infrastrutture danneggiate dall’alluvione, senza persone ferite",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-480.webp 480w, /assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-800.webp 800w, /assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-1200.webp 1200w"
-    },
-    {
       "title": "Ucraina, tregua aerea di 72 ore: Witkoff e Kushner oggi a Kyiv",
       "excerpt": "La pausa riguarda gli attacchi aerei contro le due capitali durante la missione americana, ma non tutti i combattimenti. Dopo il colloquio al Cremlino, gli inviati statunitensi sono attesi dal presidente Volodymyr Zelensky.",
       "url": "/notizie/ucraina-tregua-aerea-72-ore-witkoff-kushner-kyiv-6-settembre-2026.html",
@@ -1189,6 +1142,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-480.webp 480w, /assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-800.webp 800w, /assets/images/editorial-auto/ucraina-tregua-witkoff-kushner-kyiv-6-settembre-2026-ai-v282-1200.webp 1200w"
+    },
+    {
+      "title": "Confine Cina-Nepal, il porto di Gyirong cancellato dall’alluvione",
+      "excerpt": "Il valico che collegava Tibet e Nepal è stato travolto dalla colata di fango del 26 agosto. Del complesso doganale restano solo frammenti, mentre le ricerche dei dispersi continuano.",
+      "url": "/notizie/confine-cina-nepal-alluvione-porto-gyirong-distrutto-6-settembre-2026.html",
+      "section": "Mondo · Cina/Nepal",
+      "dateISO": "2026-09-06T14:20:00+02:00",
+      "dateLabel": "2026-09-06",
+      "image": "/assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-800.webp",
+      "imageAlt": "Scena editoriale contestuale sensibile del valico di Gyirong-Rasuwa tra Cina e Nepal con strada e infrastrutture danneggiate dall’alluvione, senza persone ferite",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-480.webp 480w, /assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-800.webp 800w, /assets/images/editorial-auto/cina-nepal-gyirong-alluvione-6-settembre-2026-ai-v285-1200.webp 1200w"
     },
     {
       "title": "Sassonia-Anhalt al voto, affluenza in forte aumento: l’AfD cerca una svolta storica",
@@ -1867,19 +1833,6 @@
       "srcset": "/assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-480.webp 480w, /assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-800.webp 800w, /assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-1200.webp 1200w"
     },
     {
-      "title": "Affitto dimezzato per i genitori separati: pronta la norma da 60 milioni, contributi fino a 6.000 euro l’anno",
-      "excerpt": "Il MIT dichiara pronta la norma per il sostegno abitativo: 50% dell’affitto fino a 6.000 euro l’anno, reddito IRPEF entro 35.000 euro e prima platea stimata in almeno 5.000 beneficiari.",
-      "url": "/notizie/affitto-genitori-separati-fondo-60-milioni-30-agosto-2026.html",
-      "section": "Italia · Economia / Casa / Famiglie",
-      "dateISO": "2026-08-30T00:19:00+02:00",
-      "dateLabel": "2026-08-30",
-      "image": "/assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-800.webp",
-      "imageAlt": "Illustrazione editoriale IA di una chiave di casa davanti a un edificio residenziale italiano, simbolo del sostegno all’affitto",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-1200.webp 1200w"
-    },
-    {
       "title": "Rivolta nel carcere di Siracusa, agenti costretti a lanciarsi dal tetto: dieci poliziotti in ospedale, chiesta un’inchiesta",
       "excerpt": "Nuovi dettagli sui disordini nel carcere di Siracusa: alcuni agenti sono saltati da circa quattro metri per sfuggire al lancio di pietre. I sindacati chiedono un’inchiesta sulla gestione dell’intervento.",
       "url": "/notizie/siracusa-rivolta-carcere-agenti-tetto-inchiesta-30-agosto-2026.html",
@@ -1891,6 +1844,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-1200.webp 1200w"
+    },
+    {
+      "title": "Affitto dimezzato per i genitori separati: pronta la norma da 60 milioni, contributi fino a 6.000 euro l’anno",
+      "excerpt": "Il MIT dichiara pronta la norma per il sostegno abitativo: 50% dell’affitto fino a 6.000 euro l’anno, reddito IRPEF entro 35.000 euro e prima platea stimata in almeno 5.000 beneficiari.",
+      "url": "/notizie/affitto-genitori-separati-fondo-60-milioni-30-agosto-2026.html",
+      "section": "Italia · Economia / Casa / Famiglie",
+      "dateISO": "2026-08-30T00:19:00+02:00",
+      "dateLabel": "2026-08-30",
+      "image": "/assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di una chiave di casa davanti a un edificio residenziale italiano, simbolo del sostegno all’affitto",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-1200.webp 1200w"
     },
     {
       "title": "Nancy Grace Roman, domani il lancio: il telescopio NASA che mapperà miliardi di galassie",
@@ -2933,19 +2899,6 @@
       "srcset": "/assets/images/editorial-v210/recupero-opere-arte-480.webp 480w, /assets/images/editorial-v210/recupero-opere-arte-800.webp 800w, /assets/images/editorial-v210/recupero-opere-arte-1200.webp 1200w"
     },
     {
-      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
-      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
-      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
-      "section": "Aggiornamento · Belgio · Incendio record",
-      "dateISO": "2026-08-16T12:00:00+02:00",
-      "dateLabel": "2026-08-16",
-      "image": "/assets/images/optimized/incendio-belgio-high-fens-16-agosto-2026-ai-960.webp",
-      "imageAlt": "Immagine illustrativa di vigili del fuoco impegnati contro un incendio in una torbiera delle Hautes Fagnes in Belgio",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": ""
-    },
-    {
       "title": "Perché gli incendi nelle torbiere sono così difficili da spegnere e possono ripartire?",
       "excerpt": "La torba può bruciare lentamente sotto terra, sfuggire ai controlli e riaccendere le fiamme in superficie. Ecco che cosa accade e come si interviene.",
       "url": "/notizie/perche-incendi-torbiere-difficili-spegnere.html",
@@ -2957,6 +2910,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v210/incendi-torbiere-480.webp 480w, /assets/images/editorial-v210/incendi-torbiere-800.webp 800w, /assets/images/editorial-v210/incendi-torbiere-1200.webp 1200w"
+    },
+    {
+      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
+      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
+      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
+      "section": "Aggiornamento · Belgio · Incendio record",
+      "dateISO": "2026-08-16T12:00:00+02:00",
+      "dateLabel": "2026-08-16",
+      "image": "/assets/images/optimized/incendio-belgio-high-fens-16-agosto-2026-ai-960.webp",
+      "imageAlt": "Immagine illustrativa di vigili del fuoco impegnati contro un incendio in una torbiera delle Hautes Fagnes in Belgio",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": ""
     },
     {
       "title": "Perché gli uragani colpiscono raramente le Hawaii e quando diventano pericolosi?",
@@ -3089,19 +3055,6 @@
       "srcset": "/assets/images/editorial-v210/uefa-concacaf-afc-congresso-480.webp 480w, /assets/images/editorial-v210/uefa-concacaf-afc-congresso-800.webp 800w, /assets/images/editorial-v210/uefa-concacaf-afc-congresso-1200.webp 1200w"
     },
     {
-      "title": "Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
-      "excerpt": "Le delegazioni discutono sicurezza, ritiro israeliano e ritorno dell’autorità libanese nel Sud. I colloqui proseguono fino a giovedì e restano inseriti in un quadro regionale molto instabile.",
-      "url": "/notizie/israele-libano-negoziati-roma-mediazione-usa.html",
-      "section": "Roma · Diplomazia",
-      "dateISO": "2026-08-05T09:00:00+02:00",
-      "dateLabel": "2026-08-05",
-      "image": "/assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-800.webp",
-      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-480.webp 480w, /assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-800.webp 800w, /assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-1200.webp 1200w"
-    },
-    {
       "title": "Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
       "excerpt": "I corpi sono stati estratti dalle macerie del quartiere Sabra di Gaza City quasi tre anni dopo il bombardamento. La cerimonia riapre il tema delle persone disperse e dell’identificazione delle vittime.",
       "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
@@ -3113,6 +3066,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-480.webp 480w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-800.webp 800w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-1200.webp 1200w"
+    },
+    {
+      "title": "Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
+      "excerpt": "Le delegazioni discutono sicurezza, ritiro israeliano e ritorno dell’autorità libanese nel Sud. I colloqui proseguono fino a giovedì e restano inseriti in un quadro regionale molto instabile.",
+      "url": "/notizie/israele-libano-negoziati-roma-mediazione-usa.html",
+      "section": "Roma · Diplomazia",
+      "dateISO": "2026-08-05T09:00:00+02:00",
+      "dateLabel": "2026-08-05",
+      "image": "/assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-480.webp 480w, /assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-800.webp 800w, /assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-1200.webp 1200w"
     }
   ]
 }
