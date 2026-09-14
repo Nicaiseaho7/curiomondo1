@@ -1,0 +1,69 @@
+name: Redazione · Ultime notizie automatica
+
+on:
+  push:
+    paths:
+      - '.github/workflows/newsroom-watch.yml'
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+    inputs:
+      cadence:
+        description: 'Velocità della scansione'
+        type: choice
+        options: [fast, deep]
+        default: deep
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: newsroom-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    if: ${{ github.event_name != 'push' || github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Codice del sito
+        uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dipendenze della redazione
+        run: pip install --quiet lxml Pillow
+      - name: Recupera lo stato precedente
+        env:
+          REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        run: |
+          if git ls-remote --exit-code --heads "$REPO_URL" automation-state >/dev/null 2>&1; then
+            git clone --quiet --branch automation-state --depth 30 "$REPO_URL" .state
+          else
+            mkdir -p .state && cd .state && git init --quiet && git checkout --quiet -b automation-state
+          fi
+      - name: Ciclo completo della redazione
+        env:
+          REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          CADENZA: ${{ github.event_name == 'push' && 'deep' || inputs.cadence || 'fast' }}
+          MASSIMO: '3'
+        run: |
+          git config user.name "curiomondo-newsroom[bot]"
+          git config user.email "curiomondo-newsroom@users.noreply.github.com"
+          cd .state && git config user.name "curiomondo-newsroom[bot]" && git config user.email "curiomondo-newsroom@users.noreply.github.com" && cd ..
+          bash tools/ciclo_redazione.sh
+      - name: Riepilogo
+        if: always()
+        run: |
+          {
+            echo "### Ciclo redazione"
+            echo '~~~json'
+            cat /tmp/riepilogo.json 2>/dev/null || echo '{}'
+            echo '~~~'
+            echo '~~~json'
+            cat /tmp/publish.json 2>/dev/null || echo '{}'
+            echo '~~~'
+          } >> "$GITHUB_STEP_SUMMARY"
