@@ -275,6 +275,17 @@ for p in news:
     robots=' '.join(d.xpath('//meta[@name="robots"]/@content')).lower()
     if 'noindex' not in robots and len(d.xpath('//div[contains(@class,"art-sources")]//a[@href]'))<2:
         errors.append(f'meno di due fonti nell’articolo indicizzabile: {p.name}')
+    # Ascolto, condivisione e salvataggio fanno parte dell'articolo CurioMondo:
+    # sono mancati per settimane nelle pagine prodotte dal renderer automatico
+    # senza che nessun controllo se ne accorgesse.
+    if 'noindex' not in robots:
+        azioni=d.xpath('//main//div[contains(concat(" ",normalize-space(@class)," ")," actions ")]')
+        mancanti=[k for k in ('listenBtn','data-share-article','cmSaveBtn')
+                  if not (azioni and azioni[0].xpath(f'.//button[@id="{k}"] | .//button[@{k}]'))]
+        if not azioni:
+            errors.append(f'pulsanti ascolto/condivisione/salvataggio assenti: {p.name}')
+        elif mancanti:
+            errors.append(f'pulsanti articolo incompleti ({", ".join(mancanti)}): {p.name}')
     if 'noindex' in robots and d.xpath('//script[contains(@src,"pagead2.googlesyndication.com")]'):
         errors.append(f'pubblicità presente in articolo noindex: {p.name}')
     def related_key(value):
