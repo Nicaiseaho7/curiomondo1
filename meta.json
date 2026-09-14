@@ -1,7 +1,7 @@
 {
  "cycles": {
   "post_deploy_verify": {
-   "at": "2026-09-14T03:05:34+00:00",
+   "at": "2026-09-14T03:58:48+00:00",
    "pending": [
     "chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu",
     "inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-13-09-2026"
@@ -17,20 +17,24 @@
   },
   "publish_prepare": {
    "articles": [
-    "regno-unito-affitti-in-accelerazione-previsti-aumenti-fino-al-5-14-09-2026"
+    "megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026",
+    "comitato-parlamentare-britannico-chiede-una-legge-sull-ai-per-tutelare-i-diritti-umani-14-09-2026"
    ],
-   "at": "2026-09-14T00:56:34+00:00",
-   "version": 351
+   "at": "2026-09-14T04:08:55+00:00",
+   "version": 348
   },
   "publish_rollback": {
-   "articles": [],
-   "at": "2026-09-14T01:13:17+00:00"
+   "articles": [
+    "megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026",
+    "comitato-parlamentare-britannico-chiede-una-legge-sull-ai-per-tutelare-i-diritti-umani-14-09-2026"
+   ],
+   "at": "2026-09-14T04:09:08+00:00"
   },
   "watch_deep": {
    "accepted": 25,
-   "at": "2026-09-14T02:14:46+00:00",
+   "at": "2026-09-14T03:58:45+00:00",
    "feeds": 44,
-   "raw_items": 1490
+   "raw_items": 1429
   },
   "watch_fast": {
    "accepted": 7,
@@ -41,222 +45,222 @@
  },
  "feed_cache": {
   "adnkronos-gn": {
-   "checked_at": "2026-09-14T02:14:38+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "afp-gn": {
-   "checked_at": "2026-09-14T02:14:38+00:00",
+   "checked_at": "2026-09-14T03:58:31+00:00",
    "etag": "",
    "last_modified": ""
   },
   "agi-gn": {
-   "checked_at": "2026-09-14T02:14:38+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "ansa-cronaca": {
-   "checked_at": "2026-09-14T03:05:28+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "ansa-economia": {
-   "checked_at": "2026-09-14T02:14:39+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "ansa-mondo": {
-   "checked_at": "2026-09-14T03:05:27+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "ansa-politica": {
-   "checked_at": "2026-09-14T02:14:39+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "ansa-top": {
-   "checked_at": "2026-09-14T03:05:27+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "ap-gn": {
-   "checked_at": "2026-09-14T03:05:26+00:00",
+   "checked_at": "2026-09-14T03:58:31+00:00",
    "etag": "",
    "last_modified": ""
   },
   "askanews-gn": {
-   "checked_at": "2026-09-14T02:14:38+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "bbc-science": {
-   "checked_at": "2026-09-14T02:14:38+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "bbc-sport": {
-   "checked_at": "2026-09-14T02:14:39+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "bbc-tech": {
-   "checked_at": "2026-09-14T02:14:38+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "bbc-top": {
-   "checked_at": "2026-09-14T03:05:26+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "bbc-world": {
-   "checked_at": "2026-09-14T03:05:26+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "bloomberg-gn": {
-   "checked_at": "2026-09-14T02:14:38+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "cnbc-top": {
-   "checked_at": "2026-09-14T02:14:40+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
    "last_modified": ""
   },
   "consilium-press": {
-   "checked_at": "2026-09-14T02:14:39+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "dw-europe": {
-   "checked_at": "2026-09-14T02:14:39+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
    "last_modified": ""
   },
   "ec-press": {
-   "checked_at": "2026-09-14T02:14:41+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
    "last_modified": ""
   },
   "ecb-press": {
-   "checked_at": "2026-09-14T02:14:40+00:00",
-   "etag": "\"myra-def84558\"",
+   "checked_at": "2026-09-14T03:58:33+00:00",
+   "etag": "\"myra-defb9c1a\"",
    "last_modified": ""
   },
   "ecdc": {
-   "checked_at": "2026-09-14T02:14:40+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
    "last_modified": ""
   },
   "esa-news": {
-   "checked_at": "2026-09-14T02:14:40+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
-   "last_modified": "Mon, 14 Sep 2026 02:10:05 GMT"
+   "last_modified": "Mon, 14 Sep 2026 03:51:17 GMT"
   },
   "eurekalert": {
-   "checked_at": "2026-09-14T02:14:39+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
    "last_modified": ""
   },
   "ft-gn": {
-   "checked_at": "2026-09-14T02:14:40+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
    "last_modified": ""
   },
   "gazzetta-gn": {
-   "checked_at": "2026-09-14T02:14:40+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
    "last_modified": ""
   },
   "gn-italia-breaking": {
-   "checked_at": "2026-09-14T03:05:26+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
    "last_modified": ""
   },
   "gn-mondo-breaking": {
-   "checked_at": "2026-09-14T03:05:27+00:00",
+   "checked_at": "2026-09-14T03:58:34+00:00",
    "etag": "",
    "last_modified": ""
   },
   "governo-it": {
-   "checked_at": "2026-09-14T02:14:39+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "guardian-world": {
-   "checked_at": "2026-09-14T02:14:39+00:00",
-   "etag": "W/\"hash-1947407055191718644\"",
+   "checked_at": "2026-09-14T03:58:32+00:00",
+   "etag": "W/\"hash6821692233223012426\"",
    "last_modified": ""
   },
   "ingv-terremoti": {
-   "checked_at": "2026-09-14T03:05:27+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
    "last_modified": ""
   },
   "istat": {
-   "checked_at": "2026-09-14T02:14:39+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
    "last_modified": ""
   },
   "lapresse-gn": {
-   "checked_at": "2026-09-14T02:14:38+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "marketwatch": {
-   "checked_at": "2026-09-14T02:14:40+00:00",
-   "etag": "W/\"1e6e-zZ3azDd0VUzw03t/haLCcWdnS6I\"",
+   "checked_at": "2026-09-14T03:58:33+00:00",
+   "etag": "W/\"1e6e-ou4CUxDHNO0ojDGbeUM/3NguimQ\"",
    "last_modified": ""
   },
   "nasa-news": {
-   "checked_at": "2026-09-14T02:14:39+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "\"4c6d57e66f1ec7930430c7ab9ce8afe5\"",
    "last_modified": "Sun, 13 Sep 2026 20:09:27 GMT"
   },
   "nato-news": {
-   "checked_at": "2026-09-14T02:14:39+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "nature-news": {
-   "checked_at": "2026-09-14T02:14:40+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
    "last_modified": ""
   },
   "phys-org": {
-   "checked_at": "2026-09-14T02:14:40+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
    "last_modified": ""
   },
   "protezione-civile": {
-   "checked_at": "2026-09-14T03:05:26+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
    "last_modified": ""
   },
   "reuters-gn": {
-   "checked_at": "2026-09-14T03:05:26+00:00",
+   "checked_at": "2026-09-14T03:58:31+00:00",
    "etag": "",
    "last_modified": ""
   },
   "science-news": {
-   "checked_at": "2026-09-14T02:14:40+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
-   "last_modified": "Mon, 14 Sep 2026 02:14:06 GMT"
+   "last_modified": "Mon, 14 Sep 2026 03:35:50 GMT"
   },
   "skysport-gn": {
-   "checked_at": "2026-09-14T02:14:40+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
    "last_modified": ""
   },
   "un-news": {
-   "checked_at": "2026-09-14T02:14:39+00:00",
+   "checked_at": "2026-09-14T03:58:32+00:00",
    "etag": "",
    "last_modified": ""
   },
   "who-news": {
-   "checked_at": "2026-09-14T02:14:39+00:00",
+   "checked_at": "2026-09-14T03:58:33+00:00",
    "etag": "",
    "last_modified": "Sun, 13 Sep 2026 16:00:59 GMT"
   }

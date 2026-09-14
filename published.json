@@ -1,7 +1,7 @@
 {
  "items": {
   "chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu": {
-   "checked_at": "2026-09-14T03:05:32+00:00",
+   "checked_at": "2026-09-14T03:58:48+00:00",
    "checks": {
     "archive_contains_article": false,
     "article_http_200": true,
@@ -21,25 +21,16 @@
    "verification": "unverified"
   },
   "inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-13-09-2026": {
-   "checked_at": "2026-09-14T03:05:34+00:00",
-   "checks": {
-    "archive_contains_article": false,
-    "article_http_200": true,
-    "article_visible_in_expected_listing": false,
-    "canonical_matches_public_url": true,
-    "feed_contains_article_if_eligible": true,
-    "hero_image_http_200": true,
-    "news_sitemap_contains_article_if_eligible": true,
-    "sitemap_contains_article": true
-   },
+   "checked_at": "2026-09-14T03:58:48+00:00",
+   "checks": {},
    "commit_sha": "db5be75057eb6a8e66bc737841b2f41883a810e3",
    "public_url": "https://curiomondo.it/notizie/inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-13-09-2026.html",
    "published_at": "2026-09-13T21:38:24+00:00",
-   "reason": "article_visible_in_expected_listing,archive_contains_article",
+   "reason": "HTTPError:HTTP Error 404: Not Found",
    "slug": "inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-13-09-2026",
    "url_key": "1047fe2259ff697ce973",
    "verification": "unverified"
   }
  },
- "updated_at": "2026-09-14T03:06:55+00:00"
+ "updated_at": "2026-09-14T04:09:08+00:00"
 }
