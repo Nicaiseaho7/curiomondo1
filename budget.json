@@ -1,11 +1,18 @@
 {
  "days": {
   "2026-09-13": {
-   "cost_usd": 2.50623,
-   "calls": 65,
-   "input_tokens": 115550,
-   "output_tokens": 191838,
+   "cost_usd": 2.62241,
+   "calls": 69,
+   "input_tokens": 126966,
+   "output_tokens": 202029,
    "images": 11
+  },
+  "2026-09-14": {
+   "cost_usd": 0.150147,
+   "calls": 5,
+   "input_tokens": 3743,
+   "output_tokens": 6483,
+   "images": 2
   }
  }
 }
