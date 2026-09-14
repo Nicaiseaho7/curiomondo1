@@ -1,7 +1,7 @@
 {
  "items": {
   "chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu": {
-   "checked_at": "2026-09-14T03:58:48+00:00",
+   "checked_at": "2026-09-14T04:10:26+00:00",
    "checks": {
     "archive_contains_article": false,
     "article_http_200": true,
@@ -20,8 +20,16 @@
    "url_key": "4a54c4e6de3a9e5d5909",
    "verification": "unverified"
   },
+  "comitato-parlamentare-britannico-chiede-una-legge-sull-ai-per-tutelare-i-diritti-umani-14-09-2026": {
+   "commit_sha": "f71aa7b48578b20521392e0a6362ce98d6751fbe",
+   "public_url": "https://curiomondo.it/notizie/comitato-parlamentare-britannico-chiede-una-legge-sull-ai-per-tutelare-i-diritti-umani-14-09-2026.html",
+   "published_at": "2026-09-14T04:16:59+00:00",
+   "slug": "comitato-parlamentare-britannico-chiede-una-legge-sull-ai-per-tutelare-i-diritti-umani-14-09-2026",
+   "url_key": "f64cecc9774092e9219c",
+   "verification": "pending"
+  },
   "inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-13-09-2026": {
-   "checked_at": "2026-09-14T03:58:48+00:00",
+   "checked_at": "2026-09-14T04:10:26+00:00",
    "checks": {},
    "commit_sha": "db5be75057eb6a8e66bc737841b2f41883a810e3",
    "public_url": "https://curiomondo.it/notizie/inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-13-09-2026.html",
@@ -30,7 +38,15 @@
    "slug": "inghilterra-stop-ai-fritti-nelle-mense-scolastiche-con-le-nuove-regole-13-09-2026",
    "url_key": "1047fe2259ff697ce973",
    "verification": "unverified"
+  },
+  "megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026": {
+   "commit_sha": "f71aa7b48578b20521392e0a6362ce98d6751fbe",
+   "public_url": "https://curiomondo.it/notizie/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026.html",
+   "published_at": "2026-09-14T04:16:59+00:00",
+   "slug": "megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026",
+   "url_key": "401dea709333448f78f0",
+   "verification": "pending"
   }
  },
- "updated_at": "2026-09-14T04:09:08+00:00"
+ "updated_at": "2026-09-14T04:16:59+00:00"
 }
