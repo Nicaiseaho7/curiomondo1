@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '.github/workflows/domanda-del-giorno-automatica.yml'
+      - 'automation/state/daily-questions.json'
   schedule:
     - cron: '0 22,23 * * *'
   workflow_dispatch:
