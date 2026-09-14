@@ -1,37 +1,71 @@
 {
-  "version": 351,
+  "version": 352,
   "items": [
     {
-      "title": "Megan Davey riaccende le ambizioni internazionali con il Galles",
-      "excerpt": "La mediano di mischia di 26 anni è stata chiamata il mese scorso nel gruppo di 39 per il WXV, che vedrà il Galles contro Sudafrica, USA e Giappone. Resta incerto il suo impiego per la concorrenza nel ruolo.",
-      "url": "/notizie/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026.html",
-      "section": "Italia / Sport",
-      "dateISO": "2026-09-14T06:16:57+02:00",
+      "title": "Yemen, gli Houthi conquistano le isole Hanish nel Mar Rosso",
+      "excerpt": "Grande Hanish e Piccola Hanish passano sotto il controllo dei ribelli, rafforzandone la presenza lungo una rotta decisiva tra Mar Rosso e Golfo di Aden.",
+      "url": "/notizie/yemen-houthi-isole-hanish-mar-rosso-14-settembre-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-09-14T13:18:00+02:00",
       "dateLabel": "2026-09-14",
-      "image": "/assets/images/editorial-auto/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026-ai-openai-v349-800.webp",
-      "imageAlt": "Ritratto editoriale ordinario di Megan Davey con un pallone da rugby durante un allenamento.",
+      "image": "/assets/images/editorial-auto/yemen-houthi-isole-hanish-mar-rosso-14-settembre-2026-ai-openai-v352-800.webp",
+      "imageAlt": "Scena editoriale ordinaria ultrarealistica delle isole Hanish nel Mar Rosso con una nave commerciale in lontananza.",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026-ai-openai-v349-480.webp 480w, /assets/images/editorial-auto/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026-ai-openai-v349-800.webp 800w, /assets/images/editorial-auto/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026-ai-openai-v349-1200.webp 1200w",
+      "srcset": "/assets/images/editorial-auto/yemen-houthi-isole-hanish-mar-rosso-14-settembre-2026-ai-openai-v352-480.webp 480w, /assets/images/editorial-auto/yemen-houthi-isole-hanish-mar-rosso-14-settembre-2026-ai-openai-v352-800.webp 800w, /assets/images/editorial-auto/yemen-houthi-isole-hanish-mar-rosso-14-settembre-2026-ai-openai-v352-1200.webp 1200w",
       "featuredHighlights": [
-        "Megan Davey",
-        "Galles"
+        "isole Hanish",
+        "Mar Rosso"
       ],
       "featuredStats": [
         {
-          "icon": "●",
-          "value": "39",
-          "label": "giocatrici convocate"
+          "icon": "◆",
+          "value": "2",
+          "label": "isole conquistate"
         },
         {
-          "icon": "▲",
-          "value": "26",
-          "label": "età di Davey"
+          "icon": "↔",
+          "value": "30 km",
+          "label": "estensione dell’arcipelago"
+        },
+        {
+          "icon": "●",
+          "value": "80.000+",
+          "label": "sfollati nell’escalation"
+        }
+      ]
+    },
+    {
+      "title": "Borse asiatiche, forte sell-off sui titoli legati all’intelligenza artificiale",
+      "excerpt": "SoftBank perde fino al 13,2% e scendono anche Kioxia, SK Hynix e Samsung. Gli investitori reagiscono agli appelli dei vertici di Anthropic, OpenAI e xAI per rallentare lo sviluppo dei modelli più avanzati.",
+      "url": "/notizie/borse-asiatiche-sell-off-titoli-intelligenza-artificiale-14-settembre-2026.html",
+      "section": "Mondo / Economia",
+      "dateISO": "2026-09-14T06:51:05+02:00",
+      "dateLabel": "2026-09-14",
+      "image": "/assets/images/editorial-auto/borse-asiatiche-sell-off-titoli-intelligenza-artificiale-14-settembre-2026-ai-openai-v351-800.webp",
+      "imageAlt": "Scena editoriale ordinaria in una sala mercati asiatica con grafici in forte calo e componenti per semiconduttori.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/borse-asiatiche-sell-off-titoli-intelligenza-artificiale-14-settembre-2026-ai-openai-v351-480.webp 480w, /assets/images/editorial-auto/borse-asiatiche-sell-off-titoli-intelligenza-artificiale-14-settembre-2026-ai-openai-v351-800.webp 800w, /assets/images/editorial-auto/borse-asiatiche-sell-off-titoli-intelligenza-artificiale-14-settembre-2026-ai-openai-v351-1200.webp 1200w",
+      "featuredHighlights": [
+        "forte sell-off",
+        "intelligenza artificiale"
+      ],
+      "featuredStats": [
+        {
+          "icon": "▼",
+          "value": "−13,2%",
+          "label": "calo massimo di SoftBank"
         },
         {
           "icon": "◆",
-          "value": "8",
-          "label": "presenze Galles"
+          "value": "−9,8%",
+          "label": "ribasso iniziale di Kioxia"
+        },
+        {
+          "icon": "●",
+          "value": "−5,3%",
+          "label": "flessione di SK Hynix"
         }
       ]
     },
@@ -70,36 +104,36 @@
       ]
     },
     {
-      "title": "Borse asiatiche, forte sell-off sui titoli legati all’intelligenza artificiale",
-      "excerpt": "SoftBank perde fino al 13,2% e scendono anche Kioxia, SK Hynix e Samsung. Gli investitori reagiscono agli appelli dei vertici di Anthropic, OpenAI e xAI per rallentare lo sviluppo dei modelli più avanzati.",
-      "url": "/notizie/borse-asiatiche-sell-off-titoli-intelligenza-artificiale-14-settembre-2026.html",
-      "section": "Mondo / Economia",
-      "dateISO": "2026-09-14T06:00:00+02:00",
+      "title": "Megan Davey riaccende le ambizioni internazionali con il Galles",
+      "excerpt": "La mediano di mischia di 26 anni è stata chiamata il mese scorso nel gruppo di 39 per il WXV, che vedrà il Galles contro Sudafrica, USA e Giappone. Resta incerto il suo impiego per la concorrenza nel ruolo.",
+      "url": "/notizie/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026.html",
+      "section": "Italia / Sport",
+      "dateISO": "2026-09-14T06:16:57+02:00",
       "dateLabel": "2026-09-14",
-      "image": "/assets/images/editorial-auto/borse-asiatiche-sell-off-titoli-intelligenza-artificiale-14-settembre-2026-ai-openai-v351-800.webp",
-      "imageAlt": "Scena editoriale ordinaria in una sala mercati asiatica con grafici in forte calo e componenti per semiconduttori.",
+      "image": "/assets/images/editorial-auto/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026-ai-openai-v349-800.webp",
+      "imageAlt": "Ritratto editoriale ordinario di Megan Davey con un pallone da rugby durante un allenamento.",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/borse-asiatiche-sell-off-titoli-intelligenza-artificiale-14-settembre-2026-ai-openai-v351-480.webp 480w, /assets/images/editorial-auto/borse-asiatiche-sell-off-titoli-intelligenza-artificiale-14-settembre-2026-ai-openai-v351-800.webp 800w, /assets/images/editorial-auto/borse-asiatiche-sell-off-titoli-intelligenza-artificiale-14-settembre-2026-ai-openai-v351-1200.webp 1200w",
+      "srcset": "/assets/images/editorial-auto/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026-ai-openai-v349-480.webp 480w, /assets/images/editorial-auto/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026-ai-openai-v349-800.webp 800w, /assets/images/editorial-auto/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026-ai-openai-v349-1200.webp 1200w",
       "featuredHighlights": [
-        "forte sell-off",
-        "intelligenza artificiale"
+        "Megan Davey",
+        "Galles"
       ],
       "featuredStats": [
         {
-          "icon": "▼",
-          "value": "−13,2%",
-          "label": "calo massimo di SoftBank"
+          "icon": "●",
+          "value": "39",
+          "label": "giocatrici convocate"
+        },
+        {
+          "icon": "▲",
+          "value": "26",
+          "label": "età di Davey"
         },
         {
           "icon": "◆",
-          "value": "−9,8%",
-          "label": "ribasso iniziale di Kioxia"
-        },
-        {
-          "icon": "●",
-          "value": "−5,3%",
-          "label": "flessione di SK Hynix"
+          "value": "8",
+          "label": "presenze Galles"
         }
       ]
     },
@@ -232,45 +266,6 @@
       "srcset": "/assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-480.webp 480w, /assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-800.webp 800w, /assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-1200.webp 1200w"
     },
     {
-      "title": "Ricerca sul cancro, Italia a 495 trial mentre l’Europa perde terreno",
-      "excerpt": "In Europa sono circa 3.000 gli studi oncologici aperti al reclutamento, contro 5.200 negli Stati Uniti e 5.300 in Asia.",
-      "url": "/notizie/ricerca-cancro-italia-495-trial-europa-13-settembre-2026.html",
-      "section": "Italia / Salute / Ricerca",
-      "dateISO": "2026-09-13T12:58:46+02:00",
-      "dateLabel": "2026-09-13",
-      "image": "/assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-800.webp",
-      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA di ricercatori oncologici italiani che esaminano dati clinici anonimi",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-480.webp 480w, /assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-800.webp 800w, /assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-1200.webp 1200w"
-    },
-    {
-      "title": "Carburanti, operativo il decreto: accise ridotte fino al 17 settembre",
-      "excerpt": "Il decreto-legge 157 è in vigore dall’11 settembre. Ridetermina temporaneamente l’accisa sul gasolio e accelera procedure energetiche strategiche.",
-      "url": "/notizie/carburanti-decreto-157-accise-17-settembre-2026.html",
-      "section": "Italia / Economia / Energia",
-      "dateISO": "2026-09-13T12:58:46+02:00",
-      "dateLabel": "2026-09-13",
-      "image": "/assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-800.webp",
-      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA di automobilisti in una stazione di servizio italiana",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-480.webp 480w, /assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-800.webp 800w, /assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-1200.webp 1200w"
-    },
-    {
-      "title": "Dengue, in Italia 265 casi confermati: 24 sono autoctoni",
-      "excerpt": "L’ISS aggiorna la sorveglianza all’8 settembre: 241 infezioni sono associate a viaggi all’estero. Nessun decesso segnalato.",
-      "url": "/notizie/dengue-italia-265-casi-24-autoctoni-8-settembre-2026.html",
-      "section": "Italia / Salute / Scienza",
-      "dateISO": "2026-09-13T12:58:46+02:00",
-      "dateLabel": "2026-09-13",
-      "image": "/assets/images/editorial-auto/dengue-italia-sorveglianza-iss-ai-openai-v345-800.webp",
-      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA di ricercatori che analizzano zanzare e dati epidemiologici in Italia",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/dengue-italia-sorveglianza-iss-ai-openai-v345-480.webp 480w, /assets/images/editorial-auto/dengue-italia-sorveglianza-iss-ai-openai-v345-800.webp 800w, /assets/images/editorial-auto/dengue-italia-sorveglianza-iss-ai-openai-v345-1200.webp 1200w"
-    },
-    {
       "title": "Positano, vasto incendio provoca una frana: chiusa la statale Amalfitana",
       "excerpt": "Le fiamme, alimentate dal forte vento nella notte, hanno interessato il versante di San Pietro. Vigili del fuoco al lavoro e SS 163 chiusa al km 16,300.",
       "url": "/notizie/positano-incendio-frana-statale-amalfitana-13-settembre-2026.html",
@@ -295,6 +290,45 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/yahodyn-dorohusk-attacco-confine-ai-openai-v345-480.webp 480w, /assets/images/editorial-auto/yahodyn-dorohusk-attacco-confine-ai-openai-v345-800.webp 800w, /assets/images/editorial-auto/yahodyn-dorohusk-attacco-confine-ai-openai-v345-1200.webp 1200w"
+    },
+    {
+      "title": "Dengue, in Italia 265 casi confermati: 24 sono autoctoni",
+      "excerpt": "L’ISS aggiorna la sorveglianza all’8 settembre: 241 infezioni sono associate a viaggi all’estero. Nessun decesso segnalato.",
+      "url": "/notizie/dengue-italia-265-casi-24-autoctoni-8-settembre-2026.html",
+      "section": "Italia / Salute / Scienza",
+      "dateISO": "2026-09-13T12:58:46+02:00",
+      "dateLabel": "2026-09-13",
+      "image": "/assets/images/editorial-auto/dengue-italia-sorveglianza-iss-ai-openai-v345-800.webp",
+      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA di ricercatori che analizzano zanzare e dati epidemiologici in Italia",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/dengue-italia-sorveglianza-iss-ai-openai-v345-480.webp 480w, /assets/images/editorial-auto/dengue-italia-sorveglianza-iss-ai-openai-v345-800.webp 800w, /assets/images/editorial-auto/dengue-italia-sorveglianza-iss-ai-openai-v345-1200.webp 1200w"
+    },
+    {
+      "title": "Carburanti, operativo il decreto: accise ridotte fino al 17 settembre",
+      "excerpt": "Il decreto-legge 157 è in vigore dall’11 settembre. Ridetermina temporaneamente l’accisa sul gasolio e accelera procedure energetiche strategiche.",
+      "url": "/notizie/carburanti-decreto-157-accise-17-settembre-2026.html",
+      "section": "Italia / Economia / Energia",
+      "dateISO": "2026-09-13T12:58:46+02:00",
+      "dateLabel": "2026-09-13",
+      "image": "/assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-800.webp",
+      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA di automobilisti in una stazione di servizio italiana",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-480.webp 480w, /assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-800.webp 800w, /assets/images/editorial-auto/carburanti-accise-decreto-157-ai-openai-v345-1200.webp 1200w"
+    },
+    {
+      "title": "Ricerca sul cancro, Italia a 495 trial mentre l’Europa perde terreno",
+      "excerpt": "In Europa sono circa 3.000 gli studi oncologici aperti al reclutamento, contro 5.200 negli Stati Uniti e 5.300 in Asia.",
+      "url": "/notizie/ricerca-cancro-italia-495-trial-europa-13-settembre-2026.html",
+      "section": "Italia / Salute / Ricerca",
+      "dateISO": "2026-09-13T12:58:46+02:00",
+      "dateLabel": "2026-09-13",
+      "image": "/assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-800.webp",
+      "imageAlt": "Scena editoriale contestuale ordinaria generata con IA di ricercatori oncologici italiani che esaminano dati clinici anonimi",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-480.webp 480w, /assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-800.webp 800w, /assets/images/editorial-auto/oncologia-trial-italia-europa-ai-openai-v345-1200.webp 1200w"
     },
     {
       "title": "Ucraina, nuovo attacco russo con droni su Odesa: almeno cinque feriti",
@@ -518,19 +552,6 @@
       "srcset": "/assets/images/editorial-auto/diesel-accise-proroga-ai-v319-480.webp 480w, /assets/images/editorial-auto/diesel-accise-proroga-ai-v319-800.webp 800w, /assets/images/editorial-auto/diesel-accise-proroga-ai-v319-1200.webp 1200w"
     },
     {
-      "title": "Taiwan, la vicepresidente Hsiao in Italia per il forum di Ventotene",
-      "excerpt": "La visita, mantenuta riservata fino all'arrivo, è rara per un'esponente taiwanese di questo livello. Con lei il ministro degli Esteri Lin Chia-lung.",
-      "url": "/notizie/taiwan-vicepresidente-hsiao-italia-ventotene-11-settembre-2026.html",
-      "section": "Mondo / Italia / Taiwan / Diplomazia",
-      "dateISO": "2026-09-11T06:13:20+02:00",
-      "dateLabel": "2026-09-11",
-      "image": "/assets/images/editorial-auto/hsiao-italia-ventotene-ai-v319-800.webp",
-      "imageAlt": "ritratto editoriale neutrale di Hsiao Bi-khim su sfondo blu, illustrazione fotorealistica generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/hsiao-italia-ventotene-ai-v319-480.webp 480w, /assets/images/editorial-auto/hsiao-italia-ventotene-ai-v319-800.webp 800w, /assets/images/editorial-auto/hsiao-italia-ventotene-ai-v319-1200.webp 1200w"
-    },
-    {
       "title": "Malpensa, emergenza su un volo EasyJet: evacuati 146 passeggeri",
       "excerpt": "Fumo e un principio d'incendio vengono segnalati durante il rullaggio del volo diretto a Praga. Nessun ferito; lo scalo è rimasto chiuso per circa un'ora.",
       "url": "/notizie/malpensa-easyjet-emergenza-146-passeggeri-10-settembre-2026.html",
@@ -544,30 +565,17 @@
       "srcset": "/assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-480.webp 480w, /assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-800.webp 800w, /assets/images/editorial-auto/malpensa-easyjet-emergenza-ai-v319-1200.webp 1200w"
     },
     {
-      "title": "Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro",
-      "excerpt": "Un drone centra una stazione Ukrnafta a Kyiv, con quattro feriti. A Dnipro due morti e cinque feriti nell'impianto per l'olio di girasole del gruppo Bunge.",
-      "url": "/notizie/attacchi-russi-kyiv-dnipro-ukrnafta-bunge-settembre-2026.html",
-      "section": "Mondo / Ucraina / Cronaca",
-      "dateISO": "2026-09-10T19:43:49+02:00",
-      "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-800.webp",
-      "imageAlt": "Stabilimento agroindustriale danneggiato e isolato dopo un attacco in Ucraina, illustrazione editoriale fotorealistica generata con IA",
+      "title": "Taiwan, la vicepresidente Hsiao in Italia per il forum di Ventotene",
+      "excerpt": "La visita, mantenuta riservata fino all'arrivo, è rara per un'esponente taiwanese di questo livello. Con lei il ministro degli Esteri Lin Chia-lung.",
+      "url": "/notizie/taiwan-vicepresidente-hsiao-italia-ventotene-11-settembre-2026.html",
+      "section": "Mondo / Italia / Taiwan / Diplomazia",
+      "dateISO": "2026-09-11T06:13:20+02:00",
+      "dateLabel": "2026-09-11",
+      "image": "/assets/images/editorial-auto/hsiao-italia-ventotene-ai-v319-800.webp",
+      "imageAlt": "ritratto editoriale neutrale di Hsiao Bi-khim su sfondo blu, illustrazione fotorealistica generata con IA",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-480.webp 480w, /assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-800.webp 800w, /assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-1200.webp 1200w"
-    },
-    {
-      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
-      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
-      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
-      "section": "Mondo / Ucraina / Canada / Difesa",
-      "dateISO": "2026-09-10T19:43:49+02:00",
-      "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp",
-      "imageAlt": "Volodymyr Zelenskyy e Mark Carney durante un incontro istituzionale in Canada, illustrazione editoriale fotorealistica generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-480.webp 480w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp 800w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-1200.webp 1200w"
+      "srcset": "/assets/images/editorial-auto/hsiao-italia-ventotene-ai-v319-480.webp 480w, /assets/images/editorial-auto/hsiao-italia-ventotene-ai-v319-800.webp 800w, /assets/images/editorial-auto/hsiao-italia-ventotene-ai-v319-1200.webp 1200w"
     },
     {
       "title": "Incendio di Gombio, il bilancio: oltre 130 ettari bruciati",
@@ -583,6 +591,32 @@
       "srcset": "/assets/images/editorial-auto/incendio-gombio-ai-v316-480.webp 480w, /assets/images/editorial-auto/incendio-gombio-ai-v316-800.webp 800w, /assets/images/editorial-auto/incendio-gombio-ai-v316-1200.webp 1200w"
     },
     {
+      "title": "Piantedosi: «CasaPound a Roma sarà sgomberata»",
+      "excerpt": "Il ministro dell'Interno afferma che l'immobile occupato sarà liberato. Nessuna data operativa è stata indicata; nello stesso intervento parla anche dell'iniziativa di Vannacci.",
+      "url": "/notizie/piantedosi-casapound-roma-sara-sgomberata-settembre-2026.html",
+      "section": "Italia / Politica / Cronaca",
+      "dateISO": "2026-09-10T19:43:49+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/piantedosi-casapound-ai-v316-800.webp",
+      "imageAlt": "Ritratto istituzionale neutrale del ministro Matteo Piantedosi con bandiere italiana ed europea, illustrazione editoriale fotorealistica generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/piantedosi-casapound-ai-v316-480.webp 480w, /assets/images/editorial-auto/piantedosi-casapound-ai-v316-800.webp 800w, /assets/images/editorial-auto/piantedosi-casapound-ai-v316-1200.webp 1200w"
+    },
+    {
+      "title": "Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro",
+      "excerpt": "Un drone centra una stazione Ukrnafta a Kyiv, con quattro feriti. A Dnipro due morti e cinque feriti nell'impianto per l'olio di girasole del gruppo Bunge.",
+      "url": "/notizie/attacchi-russi-kyiv-dnipro-ukrnafta-bunge-settembre-2026.html",
+      "section": "Mondo / Ucraina / Cronaca",
+      "dateISO": "2026-09-10T19:43:49+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-800.webp",
+      "imageAlt": "Stabilimento agroindustriale danneggiato e isolato dopo un attacco in Ucraina, illustrazione editoriale fotorealistica generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-480.webp 480w, /assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-800.webp 800w, /assets/images/editorial-auto/attacchi-kyiv-dnipro-ai-v316-1200.webp 1200w"
+    },
+    {
       "title": "Legge elettorale, il Senato entra nel vivo dell'esame della riforma",
       "excerpt": "L'Aula prosegue l'esame del testo per Camera e Senato. La conclusione, con dichiarazioni e voto finale, è programmata per il 15 settembre.",
       "url": "/notizie/legge-elettorale-senato-esame-riforma-10-settembre-2026.html",
@@ -596,17 +630,17 @@
       "srcset": "/assets/images/editorial-auto/senato-legge-elettorale-ai-v316-480.webp 480w, /assets/images/editorial-auto/senato-legge-elettorale-ai-v316-800.webp 800w, /assets/images/editorial-auto/senato-legge-elettorale-ai-v316-1200.webp 1200w"
     },
     {
-      "title": "Piantedosi: «CasaPound a Roma sarà sgomberata»",
-      "excerpt": "Il ministro dell'Interno afferma che l'immobile occupato sarà liberato. Nessuna data operativa è stata indicata; nello stesso intervento parla anche dell'iniziativa di Vannacci.",
-      "url": "/notizie/piantedosi-casapound-roma-sara-sgomberata-settembre-2026.html",
-      "section": "Italia / Politica / Cronaca",
+      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
+      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
+      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
+      "section": "Mondo / Ucraina / Canada / Difesa",
       "dateISO": "2026-09-10T19:43:49+02:00",
       "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/piantedosi-casapound-ai-v316-800.webp",
-      "imageAlt": "Ritratto istituzionale neutrale del ministro Matteo Piantedosi con bandiere italiana ed europea, illustrazione editoriale fotorealistica generata con IA",
+      "image": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp",
+      "imageAlt": "Volodymyr Zelenskyy e Mark Carney durante un incontro istituzionale in Canada, illustrazione editoriale fotorealistica generata con IA",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/piantedosi-casapound-ai-v316-480.webp 480w, /assets/images/editorial-auto/piantedosi-casapound-ai-v316-800.webp 800w, /assets/images/editorial-auto/piantedosi-casapound-ai-v316-1200.webp 1200w"
+      "srcset": "/assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-480.webp 480w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-800.webp 800w, /assets/images/editorial-auto/canada-ucraina-difesa-aerea-ai-v316-1200.webp 1200w"
     },
     {
       "title": "Pensioni, il Governo valuta un «libretto previdenziale» dalla nascita",
@@ -648,19 +682,6 @@
       "srcset": "/assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-480.webp 480w, /assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-800.webp 800w, /assets/images/editorial-auto/bce-rialzo-tassi-ai-v315-1200.webp 1200w"
     },
     {
-      "title": "Cavi artici, Reuters: alleati NATO hanno fermato un’esercitazione russa",
-      "excerpt": "Secondo fonti occidentali citate dall’agenzia, sommergibili russi simulavano l’uso di una tecnologia contro i collegamenti delle Svalbard. Nessun cavo è stato danneggiato.",
-      "url": "/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html",
-      "section": "Mondo / Sicurezza / Tecnologia",
-      "dateISO": "2026-09-10T12:45:41+02:00",
-      "dateLabel": "2026-09-10",
-      "image": "/assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-800.webp",
-      "imageAlt": "Scena editoriale contestuale fotorealistica delle acque artiche presso le Svalbard con navi distanti e un cavo sottomarino integro, generata con IA",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-480.webp 480w, /assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-800.webp 800w, /assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-1200.webp 1200w"
-    },
-    {
       "title": "Istat, l’industria italiana riparte a luglio ma l’inflazione accelera",
       "excerpt": "La produzione cresce dello 0,7% sul mese, mentre il Pil del secondo trimestre avanza dello 0,2%. L’energia spinge l’inflazione IPCA al 3,2%.",
       "url": "/notizie/istat-economia-italiana-pil-industria-inflazione-luglio-agosto-2026.html",
@@ -672,6 +693,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/istat-economia-italia-ai-v314-480.webp 480w, /assets/images/editorial-auto/istat-economia-italia-ai-v314-800.webp 800w, /assets/images/editorial-auto/istat-economia-italia-ai-v314-1200.webp 1200w"
+    },
+    {
+      "title": "Cavi artici, Reuters: alleati NATO hanno fermato un’esercitazione russa",
+      "excerpt": "Secondo fonti occidentali citate dall’agenzia, sommergibili russi simulavano l’uso di una tecnologia contro i collegamenti delle Svalbard. Nessun cavo è stato danneggiato.",
+      "url": "/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html",
+      "section": "Mondo / Sicurezza / Tecnologia",
+      "dateISO": "2026-09-10T12:45:41+02:00",
+      "dateLabel": "2026-09-10",
+      "image": "/assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-800.webp",
+      "imageAlt": "Scena editoriale contestuale fotorealistica delle acque artiche presso le Svalbard con navi distanti e un cavo sottomarino integro, generata con IA",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-480.webp 480w, /assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-800.webp 800w, /assets/images/editorial-auto/cavi-sottomarini-artico-ai-v314-1200.webp 1200w"
     },
     {
       "title": "Spazio, firmati a Parigi due accordi industriali tra Italia e Francia",
@@ -1935,19 +1969,6 @@
       "srcset": "/assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-480.webp 480w, /assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-800.webp 800w, /assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-1200.webp 1200w"
     },
     {
-      "title": "Rivolta nel carcere di Siracusa, agenti costretti a lanciarsi dal tetto: dieci poliziotti in ospedale, chiesta un’inchiesta",
-      "excerpt": "Nuovi dettagli sui disordini nel carcere di Siracusa: alcuni agenti sono saltati da circa quattro metri per sfuggire al lancio di pietre. I sindacati chiedono un’inchiesta sulla gestione dell’intervento.",
-      "url": "/notizie/siracusa-rivolta-carcere-agenti-tetto-inchiesta-30-agosto-2026.html",
-      "section": "Italia · Cronaca / Carceri / Sicurezza",
-      "dateISO": "2026-08-30T00:19:00+02:00",
-      "dateLabel": "2026-08-30",
-      "image": "/assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-800.webp",
-      "imageAlt": "Scena editoriale IA fotorealistica di un istituto penitenziario siciliano durante una situazione di emergenza, con agenti in sicurezza e senza mostrare ferite o il salto dal tetto",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-1200.webp 1200w"
-    },
-    {
       "title": "Affitto dimezzato per i genitori separati: pronta la norma da 60 milioni, contributi fino a 6.000 euro l’anno",
       "excerpt": "Il MIT dichiara pronta la norma per il sostegno abitativo: 50% dell’affitto fino a 6.000 euro l’anno, reddito IRPEF entro 35.000 euro e prima platea stimata in almeno 5.000 beneficiari.",
       "url": "/notizie/affitto-genitori-separati-fondo-60-milioni-30-agosto-2026.html",
@@ -1959,6 +1980,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v246/affitto-genitori-separati-30-agosto-2026-ai-1200.webp 1200w"
+    },
+    {
+      "title": "Rivolta nel carcere di Siracusa, agenti costretti a lanciarsi dal tetto: dieci poliziotti in ospedale, chiesta un’inchiesta",
+      "excerpt": "Nuovi dettagli sui disordini nel carcere di Siracusa: alcuni agenti sono saltati da circa quattro metri per sfuggire al lancio di pietre. I sindacati chiedono un’inchiesta sulla gestione dell’intervento.",
+      "url": "/notizie/siracusa-rivolta-carcere-agenti-tetto-inchiesta-30-agosto-2026.html",
+      "section": "Italia · Cronaca / Carceri / Sicurezza",
+      "dateISO": "2026-08-30T00:19:00+02:00",
+      "dateLabel": "2026-08-30",
+      "image": "/assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-800.webp",
+      "imageAlt": "Scena editoriale IA fotorealistica di un istituto penitenziario siciliano durante una situazione di emergenza, con agenti in sicurezza e senza mostrare ferite o il salto dal tetto",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v247/siracusa-carcere-rivolta-30-agosto-2026-ai-1200.webp 1200w"
     },
     {
       "title": "Nancy Grace Roman, domani il lancio: il telescopio NASA che mapperà miliardi di galassie",
@@ -2390,19 +2424,6 @@
       "srcset": "/assets/images/optimized/salvini-scostamento-manovra-2027-25-agosto-2026-fotorealistico-v177-640-v204.webp 640w, /assets/images/optimized/salvini-scostamento-manovra-2027-25-agosto-2026-fotorealistico-v177-960-v204.webp 960w"
     },
     {
-      "title": "Che cos’è la Coalizione dei Volenterosi e perché organizza esercitazioni per l’Ucraina?",
-      "excerpt": "Una guida chiara alla Coalizione dei Volenterosi: chi ne fa parte, quale ruolo ha la forza multinazionale, perché vengono organizzate esercitazioni e cosa significa partecipare.",
-      "url": "/notizie/coalizione-volenterosi-ucraina-cosa-e-esercitazioni-come-funzionano.html",
-      "section": "Geopolitica · Ucraina · Come funziona",
-      "dateISO": "2026-08-25T07:35:00+00:00",
-      "dateLabel": "2026-08-25",
-      "image": "/assets/images/editorial-v210/coalizione-volenterosi-800.webp",
-      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Che cos’è la Coalizione dei Volenterosi e perché organizza esercitazioni per l’Ucraina?",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v210/coalizione-volenterosi-480.webp 480w, /assets/images/editorial-v210/coalizione-volenterosi-800.webp 800w, /assets/images/editorial-v210/coalizione-volenterosi-1200.webp 1200w"
-    },
-    {
       "title": "Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
       "excerpt": "Richiesta, invio, firma, buste, scadenze e conteggio: una guida semplice per capire come funziona il voto postale negli Stati Uniti e perché le regole cambiano da Stato a Stato.",
       "url": "/notizie/voto-postale-usa-come-funziona-regole-controlli.html",
@@ -2414,6 +2435,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v210/voto-postale-usa-480.webp 480w, /assets/images/editorial-v210/voto-postale-usa-800.webp 800w, /assets/images/editorial-v210/voto-postale-usa-1200.webp 1200w"
+    },
+    {
+      "title": "Che cos’è la Coalizione dei Volenterosi e perché organizza esercitazioni per l’Ucraina?",
+      "excerpt": "Una guida chiara alla Coalizione dei Volenterosi: chi ne fa parte, quale ruolo ha la forza multinazionale, perché vengono organizzate esercitazioni e cosa significa partecipare.",
+      "url": "/notizie/coalizione-volenterosi-ucraina-cosa-e-esercitazioni-come-funzionano.html",
+      "section": "Geopolitica · Ucraina · Come funziona",
+      "dateISO": "2026-08-25T07:35:00+00:00",
+      "dateLabel": "2026-08-25",
+      "image": "/assets/images/editorial-v210/coalizione-volenterosi-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Che cos’è la Coalizione dei Volenterosi e perché organizza esercitazioni per l’Ucraina?",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v210/coalizione-volenterosi-480.webp 480w, /assets/images/editorial-v210/coalizione-volenterosi-800.webp 800w, /assets/images/editorial-v210/coalizione-volenterosi-1200.webp 1200w"
     },
     {
       "title": "Gli USA estendono le sanzioni all’Iran, Teheran promette ritorsioni",
@@ -2598,19 +2632,6 @@
       "srcset": ""
     },
     {
-      "title": "Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
-      "excerpt": "La legge statunitense COPPA regola la raccolta dei dati personali dei bambini sotto i 13 anni. Ecco come funziona il consenso dei genitori, quali obblighi hanno le piattaforme e perché le verifiche dell’età sono diventate centrali.",
-      "url": "/notizie/come-funziona-coppa-privacy-minori-online.html",
-      "section": "Approfondimento / Privacy digitale",
-      "dateISO": "2026-08-22T15:18:00+02:00",
-      "dateLabel": "2026-08-22",
-      "image": "/assets/images/editorial-v210/coppa-privacy-bambini-800.webp",
-      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v210/coppa-privacy-bambini-480.webp 480w, /assets/images/editorial-v210/coppa-privacy-bambini-800.webp 800w, /assets/images/editorial-v210/coppa-privacy-bambini-1200.webp 1200w"
-    },
-    {
       "title": "TikTok e ByteDance, accordo da 400 milioni di dollari negli USA sulla privacy dei minori",
       "excerpt": "TikTok, ByteDance e società collegate hanno raggiunto con il Dipartimento di Giustizia USA un accordo da 400 milioni di dollari per chiudere il contenzioso sulle presunte violazioni della privacy dei bambini. Il DOJ precisa che le accuse sono state risolte senza una determinazione di responsabilità.",
       "url": "/notizie/tiktok-bytedance-400-milioni-privacy-minori-usa-22-agosto-2026.html",
@@ -2622,6 +2643,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": ""
+    },
+    {
+      "title": "Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
+      "excerpt": "La legge statunitense COPPA regola la raccolta dei dati personali dei bambini sotto i 13 anni. Ecco come funziona il consenso dei genitori, quali obblighi hanno le piattaforme e perché le verifiche dell’età sono diventate centrali.",
+      "url": "/notizie/come-funziona-coppa-privacy-minori-online.html",
+      "section": "Approfondimento / Privacy digitale",
+      "dateISO": "2026-08-22T15:18:00+02:00",
+      "dateLabel": "2026-08-22",
+      "image": "/assets/images/editorial-v210/coppa-privacy-bambini-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v210/coppa-privacy-bambini-480.webp 480w, /assets/images/editorial-v210/coppa-privacy-bambini-800.webp 800w, /assets/images/editorial-v210/coppa-privacy-bambini-1200.webp 1200w"
     },
     {
       "title": "Difterite a Palermo, positivo anche il cuginetto della bambina morta: si cerca il paziente zero",
@@ -3001,19 +3035,6 @@
       "srcset": "/assets/images/editorial-v210/recupero-opere-arte-480.webp 480w, /assets/images/editorial-v210/recupero-opere-arte-800.webp 800w, /assets/images/editorial-v210/recupero-opere-arte-1200.webp 1200w"
     },
     {
-      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
-      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
-      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
-      "section": "Aggiornamento · Belgio · Incendio record",
-      "dateISO": "2026-08-16T12:00:00+02:00",
-      "dateLabel": "2026-08-16",
-      "image": "/assets/images/optimized/incendio-belgio-high-fens-16-agosto-2026-ai-960.webp",
-      "imageAlt": "Immagine illustrativa di vigili del fuoco impegnati contro un incendio in una torbiera delle Hautes Fagnes in Belgio",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": ""
-    },
-    {
       "title": "Perché gli incendi nelle torbiere sono così difficili da spegnere e possono ripartire?",
       "excerpt": "La torba può bruciare lentamente sotto terra, sfuggire ai controlli e riaccendere le fiamme in superficie. Ecco che cosa accade e come si interviene.",
       "url": "/notizie/perche-incendi-torbiere-difficili-spegnere.html",
@@ -3027,17 +3048,17 @@
       "srcset": "/assets/images/editorial-v210/incendi-torbiere-480.webp 480w, /assets/images/editorial-v210/incendi-torbiere-800.webp 800w, /assets/images/editorial-v210/incendi-torbiere-1200.webp 1200w"
     },
     {
-      "title": "Perché gli uragani colpiscono raramente le Hawaii e quando diventano pericolosi?",
-      "excerpt": "Le Hawaii si trovano nel Pacifico tropicale, ma gli impatti diretti restano rari. Ecco come rotte, acqua, vento e montagne cambiano il rischio.",
-      "url": "/notizie/perche-uragani-colpiscono-raramente-hawaii.html",
-      "section": "Meteo · Hawaii · Come funziona",
-      "dateISO": "2026-08-16T10:00:00+02:00",
+      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
+      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
+      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
+      "section": "Aggiornamento · Belgio · Incendio record",
+      "dateISO": "2026-08-16T12:00:00+02:00",
       "dateLabel": "2026-08-16",
-      "image": "/assets/images/editorial-v210/uragani-hawaii-800.webp",
-      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Perché gli uragani colpiscono raramente le Hawaii e quando diventano pericolosi?",
+      "image": "/assets/images/optimized/incendio-belgio-high-fens-16-agosto-2026-ai-960.webp",
+      "imageAlt": "Immagine illustrativa di vigili del fuoco impegnati contro un incendio in una torbiera delle Hautes Fagnes in Belgio",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v210/uragani-hawaii-480.webp 480w, /assets/images/editorial-v210/uragani-hawaii-800.webp 800w, /assets/images/editorial-v210/uragani-hawaii-1200.webp 1200w"
+      "srcset": ""
     },
     {
       "title": "Uragano Lala sfiora la Big Island senza toccare terra: blackout, alluvioni e una vittima",
@@ -3051,6 +3072,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": ""
+    },
+    {
+      "title": "Perché gli uragani colpiscono raramente le Hawaii e quando diventano pericolosi?",
+      "excerpt": "Le Hawaii si trovano nel Pacifico tropicale, ma gli impatti diretti restano rari. Ecco come rotte, acqua, vento e montagne cambiano il rischio.",
+      "url": "/notizie/perche-uragani-colpiscono-raramente-hawaii.html",
+      "section": "Meteo · Hawaii · Come funziona",
+      "dateISO": "2026-08-16T10:00:00+02:00",
+      "dateLabel": "2026-08-16",
+      "image": "/assets/images/editorial-v210/uragani-hawaii-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Perché gli uragani colpiscono raramente le Hawaii e quando diventano pericolosi?",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v210/uragani-hawaii-480.webp 480w, /assets/images/editorial-v210/uragani-hawaii-800.webp 800w, /assets/images/editorial-v210/uragani-hawaii-1200.webp 1200w"
     },
     {
       "title": "Quando un trasferimento nel calciomercato è davvero ufficiale? Visite mediche, contratto e comunicati spiegati",
@@ -3157,19 +3191,6 @@
       "srcset": "/assets/images/editorial-v210/uefa-concacaf-afc-congresso-480.webp 480w, /assets/images/editorial-v210/uefa-concacaf-afc-congresso-800.webp 800w, /assets/images/editorial-v210/uefa-concacaf-afc-congresso-1200.webp 1200w"
     },
     {
-      "title": "Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
-      "excerpt": "I corpi sono stati estratti dalle macerie del quartiere Sabra di Gaza City quasi tre anni dopo il bombardamento. La cerimonia riapre il tema delle persone disperse e dell’identificazione delle vittime.",
-      "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
-      "section": "Gaza · Cronaca",
-      "dateISO": "2026-08-05T09:00:00+02:00",
-      "dateLabel": "2026-08-05",
-      "image": "/assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-800.webp",
-      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-480.webp 480w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-800.webp 800w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-1200.webp 1200w"
-    },
-    {
       "title": "Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
       "excerpt": "Le delegazioni discutono sicurezza, ritiro israeliano e ritorno dell’autorità libanese nel Sud. I colloqui proseguono fino a giovedì e restano inseriti in un quadro regionale molto instabile.",
       "url": "/notizie/israele-libano-negoziati-roma-mediazione-usa.html",
@@ -3181,6 +3202,19 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-480.webp 480w, /assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-800.webp 800w, /assets/images/editorial-v210/israele-libano-negoziati-roma-mediazione-usa-1200.webp 1200w"
+    },
+    {
+      "title": "Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
+      "excerpt": "I corpi sono stati estratti dalle macerie del quartiere Sabra di Gaza City quasi tre anni dopo il bombardamento. La cerimonia riapre il tema delle persone disperse e dell’identificazione delle vittime.",
+      "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
+      "section": "Gaza · Cronaca",
+      "dateISO": "2026-08-05T09:00:00+02:00",
+      "dateLabel": "2026-08-05",
+      "image": "/assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica per: Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-480.webp 480w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-800.webp 800w, /assets/images/editorial-v210/gaza-funerale-112-vittime-attacco-2023-1200.webp 1200w"
     }
   ]
 }

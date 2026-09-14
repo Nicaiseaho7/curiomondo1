@@ -1,11 +1,17 @@
 {
-  "version": 351,
+  "version": 352,
   "items": [
     {
-      "title": "Megan Davey riaccende le ambizioni internazionali con il Galles",
-      "excerpt": "La mediano di mischia di 26 anni è stata chiamata il mese scorso nel gruppo di 39 per il WXV, che vedrà il Galles contro Sudafrica, USA e Giappone. Resta incerto il suo impiego per la concorrenza nel ruolo.",
-      "url": "/notizie/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026.html",
-      "section": "Italia / Sport"
+      "title": "Yemen, gli Houthi conquistano le isole Hanish nel Mar Rosso",
+      "excerpt": "Grande Hanish e Piccola Hanish passano sotto il controllo dei ribelli, rafforzandone la presenza lungo una rotta decisiva tra Mar Rosso e Golfo di Aden.",
+      "url": "/notizie/yemen-houthi-isole-hanish-mar-rosso-14-settembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Borse asiatiche, forte sell-off sui titoli legati all’intelligenza artificiale",
+      "excerpt": "SoftBank perde fino al 13,2% e scendono anche Kioxia, SK Hynix e Samsung. Gli investitori reagiscono agli appelli dei vertici di Anthropic, OpenAI e xAI per rallentare lo sviluppo dei modelli più avanzati.",
+      "url": "/notizie/borse-asiatiche-sell-off-titoli-intelligenza-artificiale-14-settembre-2026.html",
+      "section": "Mondo / Economia"
     },
     {
       "title": "Comitato parlamentare britannico chiede una legge sull’AI per tutelare i diritti umani",
@@ -14,10 +20,10 @@
       "section": "Mondo / Tecnologia"
     },
     {
-      "title": "Borse asiatiche, forte sell-off sui titoli legati all’intelligenza artificiale",
-      "excerpt": "SoftBank perde fino al 13,2% e scendono anche Kioxia, SK Hynix e Samsung. Gli investitori reagiscono agli appelli dei vertici di Anthropic, OpenAI e xAI per rallentare lo sviluppo dei modelli più avanzati.",
-      "url": "/notizie/borse-asiatiche-sell-off-titoli-intelligenza-artificiale-14-settembre-2026.html",
-      "section": "Mondo / Economia"
+      "title": "Megan Davey riaccende le ambizioni internazionali con il Galles",
+      "excerpt": "La mediano di mischia di 26 anni è stata chiamata il mese scorso nel gruppo di 39 per il WXV, che vedrà il Galles contro Sudafrica, USA e Giappone. Resta incerto il suo impiego per la concorrenza nel ruolo.",
+      "url": "/notizie/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026.html",
+      "section": "Italia / Sport"
     },
     {
       "title": "Chandra rileva compagno compatto dietro le eruzioni di AT 2016blu",
@@ -50,24 +56,6 @@
       "section": "Mondo / Economia / Energia"
     },
     {
-      "title": "Ricerca sul cancro, Italia a 495 trial mentre l’Europa perde terreno",
-      "excerpt": "In Europa sono circa 3.000 gli studi oncologici aperti al reclutamento, contro 5.200 negli Stati Uniti e 5.300 in Asia.",
-      "url": "/notizie/ricerca-cancro-italia-495-trial-europa-13-settembre-2026.html",
-      "section": "Italia / Salute / Ricerca"
-    },
-    {
-      "title": "Carburanti, operativo il decreto: accise ridotte fino al 17 settembre",
-      "excerpt": "Il decreto-legge 157 è in vigore dall’11 settembre. Ridetermina temporaneamente l’accisa sul gasolio e accelera procedure energetiche strategiche.",
-      "url": "/notizie/carburanti-decreto-157-accise-17-settembre-2026.html",
-      "section": "Italia / Economia / Energia"
-    },
-    {
-      "title": "Dengue, in Italia 265 casi confermati: 24 sono autoctoni",
-      "excerpt": "L’ISS aggiorna la sorveglianza all’8 settembre: 241 infezioni sono associate a viaggi all’estero. Nessun decesso segnalato.",
-      "url": "/notizie/dengue-italia-265-casi-24-autoctoni-8-settembre-2026.html",
-      "section": "Italia / Salute / Scienza"
-    },
-    {
       "title": "Positano, vasto incendio provoca una frana: chiusa la statale Amalfitana",
       "excerpt": "Le fiamme, alimentate dal forte vento nella notte, hanno interessato il versante di San Pietro. Vigili del fuoco al lavoro e SS 163 chiusa al km 16,300.",
       "url": "/notizie/positano-incendio-frana-statale-amalfitana-13-settembre-2026.html",
@@ -78,6 +66,24 @@
       "excerpt": "Dopo il camion colpito a circa 800 metri dalla Polonia, un drone russo ha danneggiato una carrozza evacuata del treno Kyiv–Varsavia vicino al valico Yahodyn–Dorohusk.",
       "url": "/notizie/russia-attacco-confine-polonia-yahodyn-dorohusk-13-settembre-2026.html",
       "section": "Mondo / Ucraina / Guerra"
+    },
+    {
+      "title": "Dengue, in Italia 265 casi confermati: 24 sono autoctoni",
+      "excerpt": "L’ISS aggiorna la sorveglianza all’8 settembre: 241 infezioni sono associate a viaggi all’estero. Nessun decesso segnalato.",
+      "url": "/notizie/dengue-italia-265-casi-24-autoctoni-8-settembre-2026.html",
+      "section": "Italia / Salute / Scienza"
+    },
+    {
+      "title": "Carburanti, operativo il decreto: accise ridotte fino al 17 settembre",
+      "excerpt": "Il decreto-legge 157 è in vigore dall’11 settembre. Ridetermina temporaneamente l’accisa sul gasolio e accelera procedure energetiche strategiche.",
+      "url": "/notizie/carburanti-decreto-157-accise-17-settembre-2026.html",
+      "section": "Italia / Economia / Energia"
+    },
+    {
+      "title": "Ricerca sul cancro, Italia a 495 trial mentre l’Europa perde terreno",
+      "excerpt": "In Europa sono circa 3.000 gli studi oncologici aperti al reclutamento, contro 5.200 negli Stati Uniti e 5.300 in Asia.",
+      "url": "/notizie/ricerca-cancro-italia-495-trial-europa-13-settembre-2026.html",
+      "section": "Italia / Salute / Ricerca"
     },
     {
       "title": "Ucraina, nuovo attacco russo con droni su Odesa: almeno cinque feriti",
@@ -182,28 +188,16 @@
       "section": "Italia / Economia / Carburanti"
     },
     {
-      "title": "Taiwan, la vicepresidente Hsiao in Italia per il forum di Ventotene",
-      "excerpt": "La visita, mantenuta riservata fino all'arrivo, è rara per un'esponente taiwanese di questo livello. Con lei il ministro degli Esteri Lin Chia-lung.",
-      "url": "/notizie/taiwan-vicepresidente-hsiao-italia-ventotene-11-settembre-2026.html",
-      "section": "Mondo / Italia / Taiwan / Diplomazia"
-    },
-    {
       "title": "Malpensa, emergenza su un volo EasyJet: evacuati 146 passeggeri",
       "excerpt": "Fumo e un principio d'incendio vengono segnalati durante il rullaggio del volo diretto a Praga. Nessun ferito; lo scalo è rimasto chiuso per circa un'ora.",
       "url": "/notizie/malpensa-easyjet-emergenza-146-passeggeri-10-settembre-2026.html",
       "section": "Italia / Lombardia / Cronaca / Trasporti"
     },
     {
-      "title": "Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro",
-      "excerpt": "Un drone centra una stazione Ukrnafta a Kyiv, con quattro feriti. A Dnipro due morti e cinque feriti nell'impianto per l'olio di girasole del gruppo Bunge.",
-      "url": "/notizie/attacchi-russi-kyiv-dnipro-ukrnafta-bunge-settembre-2026.html",
-      "section": "Mondo / Ucraina / Cronaca"
-    },
-    {
-      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
-      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
-      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
-      "section": "Mondo / Ucraina / Canada / Difesa"
+      "title": "Taiwan, la vicepresidente Hsiao in Italia per il forum di Ventotene",
+      "excerpt": "La visita, mantenuta riservata fino all'arrivo, è rara per un'esponente taiwanese di questo livello. Con lei il ministro degli Esteri Lin Chia-lung.",
+      "url": "/notizie/taiwan-vicepresidente-hsiao-italia-ventotene-11-settembre-2026.html",
+      "section": "Mondo / Italia / Taiwan / Diplomazia"
     },
     {
       "title": "Incendio di Gombio, il bilancio: oltre 130 ettari bruciati",
@@ -212,16 +206,28 @@
       "section": "Italia / Emilia-Romagna / Ambiente / Cronaca"
     },
     {
+      "title": "Piantedosi: «CasaPound a Roma sarà sgomberata»",
+      "excerpt": "Il ministro dell'Interno afferma che l'immobile occupato sarà liberato. Nessuna data operativa è stata indicata; nello stesso intervento parla anche dell'iniziativa di Vannacci.",
+      "url": "/notizie/piantedosi-casapound-roma-sara-sgomberata-settembre-2026.html",
+      "section": "Italia / Politica / Cronaca"
+    },
+    {
+      "title": "Ucraina, attacchi colpiscono Kyiv e uno stabilimento agroindustriale a Dnipro",
+      "excerpt": "Un drone centra una stazione Ukrnafta a Kyiv, con quattro feriti. A Dnipro due morti e cinque feriti nell'impianto per l'olio di girasole del gruppo Bunge.",
+      "url": "/notizie/attacchi-russi-kyiv-dnipro-ukrnafta-bunge-settembre-2026.html",
+      "section": "Mondo / Ucraina / Cronaca"
+    },
+    {
       "title": "Legge elettorale, il Senato entra nel vivo dell'esame della riforma",
       "excerpt": "L'Aula prosegue l'esame del testo per Camera e Senato. La conclusione, con dichiarazioni e voto finale, è programmata per il 15 settembre.",
       "url": "/notizie/legge-elettorale-senato-esame-riforma-10-settembre-2026.html",
       "section": "Italia / Politica"
     },
     {
-      "title": "Piantedosi: «CasaPound a Roma sarà sgomberata»",
-      "excerpt": "Il ministro dell'Interno afferma che l'immobile occupato sarà liberato. Nessuna data operativa è stata indicata; nello stesso intervento parla anche dell'iniziativa di Vannacci.",
-      "url": "/notizie/piantedosi-casapound-roma-sara-sgomberata-settembre-2026.html",
-      "section": "Italia / Politica / Cronaca"
+      "title": "Ucraina, il Canada prepara un nuovo pacchetto per la difesa aerea",
+      "excerpt": "Zelenskyy annuncia un'intesa con Ottawa per rafforzare la protezione dei cieli e sostenere il settore energetico. Carney conferma ulteriore assistenza a Kyiv.",
+      "url": "/notizie/canada-nuovo-pacchetto-difesa-aerea-ucraina-settembre-2026.html",
+      "section": "Mondo / Ucraina / Canada / Difesa"
     },
     {
       "title": "Pensioni, il Governo valuta un «libretto previdenziale» dalla nascita",
@@ -242,16 +248,16 @@
       "section": "Mondo / Economia"
     },
     {
-      "title": "Cavi artici, Reuters: alleati NATO hanno fermato un’esercitazione russa",
-      "excerpt": "Secondo fonti occidentali citate dall’agenzia, sommergibili russi simulavano l’uso di una tecnologia contro i collegamenti delle Svalbard. Nessun cavo è stato danneggiato.",
-      "url": "/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html",
-      "section": "Mondo / Sicurezza / Tecnologia"
-    },
-    {
       "title": "Istat, l’industria italiana riparte a luglio ma l’inflazione accelera",
       "excerpt": "La produzione cresce dello 0,7% sul mese, mentre il Pil del secondo trimestre avanza dello 0,2%. L’energia spinge l’inflazione IPCA al 3,2%.",
       "url": "/notizie/istat-economia-italiana-pil-industria-inflazione-luglio-agosto-2026.html",
       "section": "Italia / Economia"
+    },
+    {
+      "title": "Cavi artici, Reuters: alleati NATO hanno fermato un’esercitazione russa",
+      "excerpt": "Secondo fonti occidentali citate dall’agenzia, sommergibili russi simulavano l’uso di una tecnologia contro i collegamenti delle Svalbard. Nessun cavo è stato danneggiato.",
+      "url": "/notizie/nato-operazione-russa-cavi-sottomarini-artico-svalbard-2026.html",
+      "section": "Mondo / Sicurezza / Tecnologia"
     },
     {
       "title": "Spazio, firmati a Parigi due accordi industriali tra Italia e Francia",
@@ -836,16 +842,16 @@
       "section": "Ultima ora · Italia / Esteri / Cronaca"
     },
     {
-      "title": "Rivolta nel carcere di Siracusa, agenti costretti a lanciarsi dal tetto: dieci poliziotti in ospedale, chiesta un’inchiesta",
-      "excerpt": "Nuovi dettagli sui disordini nel carcere di Siracusa: alcuni agenti sono saltati da circa quattro metri per sfuggire al lancio di pietre. I sindacati chiedono un’inchiesta sulla gestione dell’intervento.",
-      "url": "/notizie/siracusa-rivolta-carcere-agenti-tetto-inchiesta-30-agosto-2026.html",
-      "section": "Italia · Cronaca / Carceri / Sicurezza"
-    },
-    {
       "title": "Affitto dimezzato per i genitori separati: pronta la norma da 60 milioni, contributi fino a 6.000 euro l’anno",
       "excerpt": "Il MIT dichiara pronta la norma per il sostegno abitativo: 50% dell’affitto fino a 6.000 euro l’anno, reddito IRPEF entro 35.000 euro e prima platea stimata in almeno 5.000 beneficiari.",
       "url": "/notizie/affitto-genitori-separati-fondo-60-milioni-30-agosto-2026.html",
       "section": "Italia · Economia / Casa / Famiglie"
+    },
+    {
+      "title": "Rivolta nel carcere di Siracusa, agenti costretti a lanciarsi dal tetto: dieci poliziotti in ospedale, chiesta un’inchiesta",
+      "excerpt": "Nuovi dettagli sui disordini nel carcere di Siracusa: alcuni agenti sono saltati da circa quattro metri per sfuggire al lancio di pietre. I sindacati chiedono un’inchiesta sulla gestione dell’intervento.",
+      "url": "/notizie/siracusa-rivolta-carcere-agenti-tetto-inchiesta-30-agosto-2026.html",
+      "section": "Italia · Cronaca / Carceri / Sicurezza"
     },
     {
       "title": "Nancy Grace Roman, domani il lancio: il telescopio NASA che mapperà miliardi di galassie",
@@ -1046,16 +1052,16 @@
       "section": "Italia · Manovra 2027"
     },
     {
-      "title": "Che cos’è la Coalizione dei Volenterosi e perché organizza esercitazioni per l’Ucraina?",
-      "excerpt": "Una guida chiara alla Coalizione dei Volenterosi: chi ne fa parte, quale ruolo ha la forza multinazionale, perché vengono organizzate esercitazioni e cosa significa partecipare.",
-      "url": "/notizie/coalizione-volenterosi-ucraina-cosa-e-esercitazioni-come-funzionano.html",
-      "section": "Geopolitica · Ucraina · Come funziona"
-    },
-    {
       "title": "Che cos’è il voto postale negli Stati Uniti e come vengono controllate le schede?",
       "excerpt": "Richiesta, invio, firma, buste, scadenze e conteggio: una guida semplice per capire come funziona il voto postale negli Stati Uniti e perché le regole cambiano da Stato a Stato.",
       "url": "/notizie/voto-postale-usa-come-funziona-regole-controlli.html",
       "section": "Stati Uniti · Elezioni · Come funziona"
+    },
+    {
+      "title": "Che cos’è la Coalizione dei Volenterosi e perché organizza esercitazioni per l’Ucraina?",
+      "excerpt": "Una guida chiara alla Coalizione dei Volenterosi: chi ne fa parte, quale ruolo ha la forza multinazionale, perché vengono organizzate esercitazioni e cosa significa partecipare.",
+      "url": "/notizie/coalizione-volenterosi-ucraina-cosa-e-esercitazioni-come-funzionano.html",
+      "section": "Geopolitica · Ucraina · Come funziona"
     },
     {
       "title": "Gli USA estendono le sanzioni all’Iran, Teheran promette ritorsioni",
@@ -1142,16 +1148,16 @@
       "section": "Ultima ora · Nigeria"
     },
     {
-      "title": "Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
-      "excerpt": "La legge statunitense COPPA regola la raccolta dei dati personali dei bambini sotto i 13 anni. Ecco come funziona il consenso dei genitori, quali obblighi hanno le piattaforme e perché le verifiche dell’età sono diventate centrali.",
-      "url": "/notizie/come-funziona-coppa-privacy-minori-online.html",
-      "section": "Approfondimento / Privacy digitale"
-    },
-    {
       "title": "TikTok e ByteDance, accordo da 400 milioni di dollari negli USA sulla privacy dei minori",
       "excerpt": "TikTok, ByteDance e società collegate hanno raggiunto con il Dipartimento di Giustizia USA un accordo da 400 milioni di dollari per chiudere il contenzioso sulle presunte violazioni della privacy dei bambini. Il DOJ precisa che le accuse sono state risolte senza una determinazione di responsabilità.",
       "url": "/notizie/tiktok-bytedance-400-milioni-privacy-minori-usa-22-agosto-2026.html",
       "section": "Ultima ora"
+    },
+    {
+      "title": "Privacy dei minori online: che cos’è la COPPA e quali obblighi impone alle piattaforme?",
+      "excerpt": "La legge statunitense COPPA regola la raccolta dei dati personali dei bambini sotto i 13 anni. Ecco come funziona il consenso dei genitori, quali obblighi hanno le piattaforme e perché le verifiche dell’età sono diventate centrali.",
+      "url": "/notizie/come-funziona-coppa-privacy-minori-online.html",
+      "section": "Approfondimento / Privacy digitale"
     },
     {
       "title": "Difterite a Palermo, positivo anche il cuginetto della bambina morta: si cerca il paziente zero",
@@ -1328,28 +1334,28 @@
       "section": "Cultura · Sicurezza · Come funziona"
     },
     {
-      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
-      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
-      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
-      "section": "Aggiornamento · Belgio · Incendio record"
-    },
-    {
       "title": "Perché gli incendi nelle torbiere sono così difficili da spegnere e possono ripartire?",
       "excerpt": "La torba può bruciare lentamente sotto terra, sfuggire ai controlli e riaccendere le fiamme in superficie. Ecco che cosa accade e come si interviene.",
       "url": "/notizie/perche-incendi-torbiere-difficili-spegnere.html",
       "section": "Ambiente · Incendi · Come funziona"
     },
     {
-      "title": "Perché gli uragani colpiscono raramente le Hawaii e quando diventano pericolosi?",
-      "excerpt": "Le Hawaii si trovano nel Pacifico tropicale, ma gli impatti diretti restano rari. Ecco come rotte, acqua, vento e montagne cambiano il rischio.",
-      "url": "/notizie/perche-uragani-colpiscono-raramente-hawaii.html",
-      "section": "Meteo · Hawaii · Come funziona"
+      "title": "Belgio, l’incendio più grande mai registrato raggiunge 3.000 ettari e avanza verso la Germania",
+      "excerpt": "L’incendio nelle Hautes Fagnes ha bruciato circa 3.000 ettari. Il fronte si muove verso il confine tedesco mentre prosegue una vasta operazione internazionale.",
+      "url": "/notizie/incendio-belgio-3000-ettari-germania-16-agosto-2026.html",
+      "section": "Aggiornamento · Belgio · Incendio record"
     },
     {
       "title": "Uragano Lala sfiora la Big Island senza toccare terra: blackout, alluvioni e una vittima",
       "excerpt": "Lala ha costeggiato la Big Island senza un impatto diretto, ma ha portato piogge torrenziali, raffiche violente, alluvioni e blackout a decine di migliaia di utenze.",
       "url": "/notizie/uragano-lala-hawaii-big-island-blackout-alluvioni-16-agosto-2026.html",
       "section": "Ultima ora · Hawaii · Uragano"
+    },
+    {
+      "title": "Perché gli uragani colpiscono raramente le Hawaii e quando diventano pericolosi?",
+      "excerpt": "Le Hawaii si trovano nel Pacifico tropicale, ma gli impatti diretti restano rari. Ecco come rotte, acqua, vento e montagne cambiano il rischio.",
+      "url": "/notizie/perche-uragani-colpiscono-raramente-hawaii.html",
+      "section": "Meteo · Hawaii · Come funziona"
     },
     {
       "title": "Quando un trasferimento nel calciomercato è davvero ufficiale? Visite mediche, contratto e comunicati spiegati",
@@ -1400,16 +1406,16 @@
       "section": "Sport · Calcio mondiale · Governance"
     },
     {
-      "title": "Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
-      "excerpt": "I corpi sono stati estratti dalle macerie del quartiere Sabra di Gaza City quasi tre anni dopo il bombardamento. La cerimonia riapre il tema delle persone disperse e dell’identificazione delle vittime.",
-      "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
-      "section": "Gaza · Cronaca"
-    },
-    {
       "title": "Israele e Libano, nuovo round di negoziati a Roma con la mediazione degli Stati Uniti",
       "excerpt": "Le delegazioni discutono sicurezza, ritiro israeliano e ritorno dell’autorità libanese nel Sud. I colloqui proseguono fino a giovedì e restano inseriti in un quadro regionale molto instabile.",
       "url": "/notizie/israele-libano-negoziati-roma-mediazione-usa.html",
       "section": "Roma · Diplomazia"
+    },
+    {
+      "title": "Gaza, funerale collettivo per 112 vittime recuperate dopo l’attacco del 2023",
+      "excerpt": "I corpi sono stati estratti dalle macerie del quartiere Sabra di Gaza City quasi tre anni dopo il bombardamento. La cerimonia riapre il tema delle persone disperse e dell’identificazione delle vittime.",
+      "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
+      "section": "Gaza · Cronaca"
     },
     {
       "title": "Quale abitudine difendi come parte del tuo carattere, anche se ormai limita la persona che potresti diventare?",
