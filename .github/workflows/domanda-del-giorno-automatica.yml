@@ -1,5 +1,7 @@
 name: Domanda del giorno automatica
 
+# Generatore e gate editoriale allineati il 14 settembre 2026.
+
 on:
   push:
     paths:
