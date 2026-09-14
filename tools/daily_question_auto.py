@@ -197,7 +197,7 @@ Regole:
 - italiano naturale, profondo, chiaro, non motivazionale generico;
 - la risposta breve deve essere tra 1000 e 3000 caratteri complessivi;
 - nessun sottotitolo H2/H3 nella risposta della pagina Domanda del giorno;
-- l'eBook deve contenere 8 pagine e tra 15.000 e 30.000 caratteri complessivi; usa 5-6 paragrafi sostanziosi per pagina;
+- l'eBook deve contenere esattamente 8 pagine e almeno 19.000 caratteri complessivi, restando sotto 30.000; usa 6 paragrafi da circa 400-500 caratteri per pagina;
 - usa un titolo per ciascuna pagina, ma soltanto le prime 7 pagine avranno un H2 nel markup;
 - niente effetto sfoglia;
 - niente riferimenti a IA, prompt, automazioni o fonti private.
