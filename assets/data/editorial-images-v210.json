@@ -1,7 +1,66 @@
 {
-  "version": 351,
+  "version": 349,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "comitato-parlamentare-britannico-chiede-una-legge-sull-ai-per-tutelare-i-diritti-umani-14-09-2026-ai-openai-v349",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/comitato-parlamentare-britannico-chiede-una-legge-sull-ai-per-tutelare-i-diritti-umani-14-09-2026-ai-openai-v349-480.webp",
+          "sha256": "215b3f37f0ba7cff9b15586968c9794a395ebaab3ab1e71367b225dc15a0058a",
+          "bytes": 31224
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/comitato-parlamentare-britannico-chiede-una-legge-sull-ai-per-tutelare-i-diritti-umani-14-09-2026-ai-openai-v349-800.webp",
+          "sha256": "0ffee4e14e21142a5b140cb121189b1f8a6d168980e7132d4d6697d5e7e1f477",
+          "bytes": 80138
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/comitato-parlamentare-britannico-chiede-una-legge-sull-ai-per-tutelare-i-diritti-umani-14-09-2026-ai-openai-v349-1200.webp",
+          "sha256": "0c2f29a6e45dd0a8d980655edd4e2cb4b27cd881c1d55e3557182fd1b843c2d8",
+          "bytes": 184696
+        }
+      ],
+      "alt": "Interno di una sala di commissione parlamentare britannica con tavolo, microfoni e documenti, scena editoriale ordinaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "article": "/notizie/comitato-parlamentare-britannico-chiede-una-legge-sull-ai-per-tutelare-i-diritti-umani-14-09-2026.html"
+    },
+    {
+      "key": "megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026-ai-openai-v349",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026-ai-openai-v349-480.webp",
+          "sha256": "1ac10b10fe8908756afaa1ce679fa969de4872f60831cccd41699b0a67498ee3",
+          "bytes": 14878
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026-ai-openai-v349-800.webp",
+          "sha256": "53302a7a8e9b8e3ae6647d2f6fd14f15a08c396c5e48b42ee4a6f26464c63d19",
+          "bytes": 37902
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026-ai-openai-v349-1200.webp",
+          "sha256": "11412053fc3d2bf3cea777738752fee243efc741f964ab7785068a89785a84ff",
+          "bytes": 87846
+        }
+      ],
+      "alt": "Ritratto editoriale ordinario di Megan Davey con un pallone da rugby durante un allenamento.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026.html"
+    },
     {
       "key": "chandra-rileva-compagno-compatto-dietro-le-eruzioni-di-at-2016blu-ai-openai-v350",
       "aiGenerated": true,
