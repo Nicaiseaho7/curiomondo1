@@ -1,0 +1,32 @@
+{
+  "titolo": "Cina, nuove restrizioni all'espatrio per proteggere tecnologia e sicurezza",
+  "sommario": "Il regolamento entrato in vigore amplia i casi in cui un cittadino può essere fermato alla frontiera. Nuove sanzioni riguardano anche le dichiarazioni false degli stranieri.",
+  "luogo": "Pechino, Cina",
+  "categoria": "Politica",
+  "formato": "standard",
+  "paragrafi": [
+    "In Cina sono entrate in vigore lunedì 15 settembre nuove norme che ampliano i motivi per limitare l'uscita dei cittadini dal Paese. Il regolamento collega per la prima volta alcuni divieti di espatrio alla protezione della sicurezza industriale, tecnologica e delle esportazioni.",
+    "Il testo, adottato dal Consiglio di Stato con il decreto numero 841 e annunciato a luglio, consente alle autorità di bloccare alla frontiera chi è coinvolto in violazioni dei controlli sull'export o delle regole sul trasferimento di tecnologia. La misura può essere applicata quando il caso è ritenuto pericoloso per la sicurezza nazionale.",
+    "Una seconda disposizione riguarda i cittadini cinesi rimpatriati dopo attività illegali o criminali commesse all'estero. Se tali condotte hanno danneggiato la sicurezza o gli interessi nazionali, l'uscita può essere vietata per un periodo compreso tra sei mesi e tre anni.",
+    "Cambiano anche le conseguenze per gli stranieri che forniscono informazioni false nelle domande di visto o nei documenti di ingresso. Il nuovo quadro prevede un divieto di entrata compreso tra uno e cinque anni, oltre alle altre sanzioni eventualmente applicabili.",
+    "Le tre previsioni hanno destinatari e presupposti differenti: non introducono un blocco generale dei viaggi. Estendono però gli strumenti amministrativi disponibili in casi legati a controlli commerciali, trasferimenti di competenze e condotte che Pechino considera contrarie ai propri interessi strategici.",
+    "La questione è particolarmente sensibile per i settori dei semiconduttori, dell'intelligenza artificiale e della manifattura avanzata. Imprese multinazionali e lavoratori specializzati dovranno valutare con maggiore attenzione obblighi di riservatezza, autorizzazioni all'esportazione e possibili contestazioni prima di attraversare il confine.",
+    "Taiwan aveva già rafforzato i controlli sui trasferimenti di personale e conoscenze verso la Cina continentale, temendo la perdita di competenze nei chip. Pechino sostiene invece che il regolamento chiarisca le procedure e migliori le garanzie legali per le persone sottoposte a misure restrittive.",
+    "Reuters e Financial Times collegano l'entrata in vigore alla crescente competizione tecnologica tra Cina e Stati Uniti. L'impatto concreto dipenderà ora dall'applicazione da parte delle autorità: numero dei provvedimenti, motivazioni comunicate e possibilità effettive di ricorso saranno i principali elementi da verificare."
+  ],
+  "fonti": [
+    {"url": "https://xzfg.moj.gov.cn/", "descrizione": "Banca dati ufficiale del regolamento cinese sull'amministrazione di ingresso e uscita"},
+    {"url": "https://www.reuters.com/world/china/chinas-new-tech-national-security-exit-rules-take-effect-2026-09-15/", "descrizione": "Dettagli sull'entrata in vigore e sulle conseguenze per il settore tecnologico"},
+    {"url": "https://www.ft.com/content/3f2b2172-0c1a-4708-aba2-559eb37eabc8", "descrizione": "Conferma indipendente e contesto sulla competizione tecnologica"}
+  ],
+  "parole_chiave_titolo": ["restrizioni", "tecnologia"],
+  "dati_chiave": [
+    {"icona": "●", "valore": "15 settembre", "etichetta": "entrata in vigore"},
+    {"icona": "◆", "valore": "6 mesi-3 anni", "etichetta": "divieto per cittadini"},
+    {"icona": "▲", "valore": "1-5 anni", "etichetta": "stop agli stranieri"}
+  ],
+  "immagine": {
+    "alt": "Scena editoriale ordinaria a un controllo passaporti aeroportuale cinese con viaggiatore d'affari davanti ai varchi elettronici",
+    "url": ""
+  }
+}
