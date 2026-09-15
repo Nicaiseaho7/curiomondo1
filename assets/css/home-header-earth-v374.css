@@ -1,6 +1,6 @@
-/* Owner-supplied Earth image; crop via CSS only, original file unchanged. */
+/* Owner-selected night Earth (option 2); original composition preserved. */
 .header{isolation:isolate;background:#07182d!important;overflow:hidden}
-.header::before{content:"";position:absolute;inset:0;z-index:0;background:url('/assets/images/header-earth-owner-v374.jpeg') center 49%/100% auto no-repeat;opacity:1;pointer-events:none}
+.header::before{content:"";position:absolute;inset:0;z-index:0;background:url('/assets/images/header-earth-night-v377.webp') center 49%/cover no-repeat;opacity:1;pointer-events:none}
 .header::after{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(90deg,rgba(3,15,32,.93),rgba(3,15,32,.78) 48%,rgba(3,15,32,.15) 78%);pointer-events:none}
 .header .nav{position:relative;z-index:1}
 .header .cm-wordmark,html.cm-dark .header .cm-wordmark{color:#fff!important;-webkit-text-fill-color:#fff!important;text-shadow:0 2px 5px #031020,0 0 12px #031020}
@@ -9,5 +9,5 @@
 .header .cm-brand-logo{background:#fff;box-shadow:0 0 0 3px #ffffffb3,0 5px 18px #0005}
 .header .icon-btn,html.cm-dark .header .icon-btn{background:#f5f9ff!important;color:#102c4b!important;border-color:#c7d7ea!important}
 .header .icon-btn:focus-visible,.header .logo:focus-visible{outline:3px solid #ffd778;outline-offset:3px}
-@media(max-width:700px){.header::before{background-size:100% auto;background-position:center 49%}}
+@media(max-width:700px){.header::before{background-size:cover;background-position:center 49%}}
 @media(prefers-reduced-transparency:reduce){.header .cm-brand-copy{background:#07182d;border-radius:6px}}
