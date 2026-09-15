@@ -254,7 +254,9 @@ def sync_surfaces(new_articles: list[dict[str, Any]], featured_url: str, version
             info = None
         if info:
             infos.append(info)
-    infos.sort(key=lambda i: i["dateISO"], reverse=True)
+    # Match the predeploy tie-breaker so articles published at the same second
+    # keep one deterministic order across homepage and validation.
+    infos.sort(key=lambda i: (i["dateISO"], i["url"]), reverse=True)
     new_by_url = {f"/notizie/{a['slug']}.html": a for a in new_articles}
 
     home_feed_path = ROOT / "assets/data/home-feed-v210.json"

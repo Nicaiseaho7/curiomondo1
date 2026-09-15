@@ -1,7 +1,65 @@
 {
-  "version": 353,
+  "version": 354,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "houthi-arabia-saudita-rotte-petrolio-ai-openai-v354",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/houthi-arabia-saudita-rotte-petrolio-ai-openai-v354-480.webp",
+          "sha256": "7b40bddd588d4aa8cfc4c76f1d924612ad23d8cc3d4dbe89481de121ce59f29a",
+          "bytes": 24022
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/houthi-arabia-saudita-rotte-petrolio-ai-openai-v354-800.webp",
+          "sha256": "f8698554bf71205bb3affb508237694d85dafd3f4ebd83fcb6e3d9995c1937fc",
+          "bytes": 64742
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/houthi-arabia-saudita-rotte-petrolio-ai-openai-v354-1200.webp",
+          "sha256": "d693c3925a1a1afd58f40d83997216639982088d27bdb55f5d8c4397744270e5",
+          "bytes": 130844
+        }
+      ],
+      "alt": "Scena editoriale sensibile ultrarealistica e non documentaria nel Mar Rosso, con petroliera al largo e infrastrutture energetiche saudite sulla costa, senza attacchi o vittime visibili.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": true,
+      "article": "/notizie/houthi-attacchi-arabia-saudita-rotte-petrolio-15-settembre-2026.html"
+    },
+    {
+      "key": "italia-idroelettrico-proprieta-nazionale-ai-openai-v354",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/italia-idroelettrico-proprieta-nazionale-ai-openai-v354-480.webp",
+          "sha256": "67290e5032ce68305c13c0d8e3f3f999f326732c2528e06c44125aca42a46c97",
+          "bytes": 40634
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/italia-idroelettrico-proprieta-nazionale-ai-openai-v354-800.webp",
+          "sha256": "e66ff12c57a82e5ae41efe497d3f761787f14c42ed5231e090efbe588cdd7b4b",
+          "bytes": 103374
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/italia-idroelettrico-proprieta-nazionale-ai-openai-v354-1200.webp",
+          "sha256": "4feb599628994829eac6c0976277995c152431421e1d6c0185b43fd874b073b4",
+          "bytes": 199948
+        }
+      ],
+      "alt": "Scena editoriale ordinaria ultrarealistica di una grande diga idroelettrica nelle Alpi italiane, con bacino e infrastrutture energetiche.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "article": "/notizie/italia-centrali-idroelettriche-proprieta-nazionale-15-settembre-2026.html"
+    },
     {
       "key": "svezia-centrosinistra-avanti-elezioni-14-settembre-2026-ai-openai-v353",
       "aiGenerated": true,

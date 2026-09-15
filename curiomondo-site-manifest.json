@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 353,
-    "site_version": 353
+    "current_site_version": 354,
+    "site_version": 354
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -21,15 +21,16 @@
   "daily_state": {
     "question_source": "Mille_e_piu_domande_per_pensare.pdf (fonte privata fornita dal proprietario; non pubblicare nel sito)",
     "question_source_rule": "choose every future daily question only from the 1125 numbered questions in this PDF and record its number",
-    "current_question_source_number": 1001,
+    "current_question_source_number": 1002,
     "used_question_source_numbers": [
       87,
       88,
       89,
       90,
-      1001
+      1001,
+      1002
     ],
-    "last_question_date": "2026-09-14",
+    "last_question_date": "2026-09-15",
     "question_archive_path": "/domanda-del-giorno/",
     "question_library_root": "/biblioteca/vita-relazioni/",
     "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE",
@@ -38,7 +39,7 @@
     "private_source_required_fail_closed": true,
     "timezone": "Europe/Rome",
     "date_source": "current_datetime_in_Europe_Rome_never_UTC",
-    "last_question_slug": "quale-abitudine-difendi-come-parte-del-tuo-carattere-anche-se-ormai-limita-la-persona-che-potresti-diventare"
+    "last_question_slug": "se-potessi-conoscere-in-anticipo-il-prezzo-reale-di-ogni-scelta-avresti-ancora-il-coraggio-di-scegliere"
   },
   "homepage": {
     "hero_section_label": "In evidenza",
