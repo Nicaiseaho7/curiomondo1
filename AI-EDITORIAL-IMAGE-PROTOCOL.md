@@ -2,6 +2,19 @@
 
 Questo file deve essere letto integralmente da qualunque IA, agente, renderer o collaboratore che riceva il pacchetto del sito e debba creare o aggiornare articoli e immagini.
 
+## Soggetto principale obbligatorio — correzione dell'editore, 15 settembre 2026
+
+La coerenza con il soggetto della notizia viene prima della bellezza dello sfondo. Un'immagine non è adeguata soltanto perché mostra un bel paesaggio, una città o un impianto della stessa disciplina sportiva.
+
+- Se titolo e apertura riguardano un giocatore, allenatore, pilota, tennista o altro personaggio pubblico, genera **quella persona specifica, riconoscibile e protagonista dell'immagine**. Non sostituirla con un atleta anonimo, una silhouette, un pallone, uno stadio vuoto, uno skyline o un paesaggio.
+- Per una notizia ordinaria è ammessa una scena editoriale contestuale fotorealistica con il protagonista: il ritratto neutrale non è il formato obbligatorio per tutte le immagini. Abbigliamento, squadra, stagione, attrezzatura e ambientazione devono essere coerenti con i fatti verificati. Non rappresentare firme, premiazioni, incontri o azioni specifiche non documentate come se fossero fotografie dell'evento.
+- Per una partita o una notizia di squadra, rappresenta i protagonisti o gli elementi identificativi realmente pertinenti a quella sfida o squadra; non un campo generico intercambiabile con qualunque articolo.
+- Paesaggi, panorami, edifici e impianti possono essere il soggetto principale **soltanto quando il luogo o l'infrastruttura è davvero il centro della notizia**. Non sono la soluzione predefinita né un ripiego per evitare persone pubbliche.
+- Nelle notizie sensibili continua a rappresentare la persona pertinente, quando è il soggetto della notizia, ma mediante il ritratto neutrale isolato previsto sotto: non ricostruire sofferenza, traumi o accuse.
+- Prima di generare, identifica il soggetto principale dal titolo e dal lead. Controlla visivamente che il risultato mostri il soggetto corretto e riconoscibile, senza personaggi estranei, scritte editoriali o watermark. Scarta e rigenera un'immagine non pertinente; non accettarla soltanto perché esteticamente riuscita e non ripiegare su un paesaggio generico.
+
+Restano obbligatorie le regole di trasparenza, sensibilità, originalità e assenza di testo sovrapposto. La disclosure IA resta nel markup sotto l'immagine, non nei pixel.
+
 ## Regola assoluta per ogni nuovo articolo
 
 Ogni nuovo articolo pubblicato su CurioMondo deve avere una **nuova immagine editoriale IA dedicata**, generata appositamente per quel singolo contenuto e coerente con il tema, il luogo, i soggetti e il tono della notizia. Un articolo non deve essere considerato completo o pronto per la pubblicazione finché l'immagine non è stata generata, registrata e collegata correttamente nel markup.
@@ -37,6 +50,6 @@ CurioMondo autorizza inoltre la rappresentazione di **marchi, loghi, prodotti, e
 
 ## Istruzione pronta per il generatore
 
-> Prima classifica la notizia come `ordinaria` o `sensibile`. Se è ordinaria, genera una scena editoriale CurioMondo ultrarealistica con il personaggio pubblico riconoscibile in un luogo o contesto pertinente; luoghi, persone, oggetti e loghi coerenti sono ammessi, senza inventare uno specifico evento come prova. Se riguarda incidente, morte, salute, violenza, tragedia, lutto o sofferenza, genera soltanto un ritratto editoriale neutrale isolato, senza rappresentare il momento doloroso. Nessun testo nei pixel. La pagina dichiarerà in modo visibile che l'immagine è generata con IA e non è una fotografia documentaria.
+> Prima identifica il soggetto principale dal titolo e dal lead: se è un personaggio pubblico, raffigura proprio quella persona riconoscibile, non un paesaggio o un atleta anonimo. Classifica poi la notizia come `ordinaria` o `sensibile`. Se è ordinaria, genera una scena editoriale CurioMondo ultrarealistica con il personaggio pubblico riconoscibile in un luogo o contesto pertinente; luoghi, persone, oggetti e loghi coerenti sono ammessi, senza inventare uno specifico evento come prova. Se riguarda incidente, morte, salute, violenza, tragedia, lutto o sofferenza, genera soltanto un ritratto editoriale neutrale isolato, senza rappresentare il momento doloroso. Un luogo può essere il soggetto principale soltanto quando è realmente al centro della notizia. Nessun testo editoriale nei pixel. La pagina dichiarerà in modo visibile che l'immagine è generata con IA e non è una fotografia documentaria.
 
 Il contratto operativo completo è in `automation/prompts/image-generation-contract.txt`; le regole editoriali generali sono in `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`; i campi machine-readable sono in `curiomondo-site-manifest.json` e `automation/config.json`.
