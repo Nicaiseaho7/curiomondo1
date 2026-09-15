@@ -52,6 +52,13 @@ def _section(category: str) -> str:
 
 
 def _related(article: dict[str, Any]) -> list[dict[str, str]]:
+    explicit = article.get("correlati") or []
+    if explicit:
+        return [
+            {"url": str(i["url"]), "title": str(i["titolo"])}
+            for i in explicit[:3]
+            if isinstance(i, dict) and i.get("url") and i.get("titolo")
+        ]
     path = ROOT / "assets/data/home-feed-v210.json"
     if not path.exists():
         return []

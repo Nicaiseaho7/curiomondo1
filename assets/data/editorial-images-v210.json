@@ -1,7 +1,33 @@
 {
-  "version": 365,
+  "version": 366,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Illustrazione editoriale IA di due Eurofighter in missione notturna sopra la Lituania mentre intercettano un drone lontano; scena non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/lituania-eurofighter-italiani-neutralizzano-un-drone-entrato-nello-spazio-aereo-nato-v366-480.webp",
+          "sha256": "b92a44e916bd60f388a1d07eb78b9992ec698e2a1cbc8cbcb15cad489bf28342",
+          "bytes": 11466
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/lituania-eurofighter-italiani-neutralizzano-un-drone-entrato-nello-spazio-aereo-nato-v366-800.webp",
+          "sha256": "2cc271e6dff981722e2bb1d5d9d69f0dc082993c1d18aee1d1de5cca42baeb8c",
+          "bytes": 24174
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/lituania-eurofighter-italiani-neutralizzano-un-drone-entrato-nello-spazio-aereo-nato-v366-1200.webp",
+          "sha256": "eef8ca0e67702dd38d7e0dd9392c26b6d2862ce6ff3af9d5ae03cb032bffcce2",
+          "bytes": 43880
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "article": "/notizie/lituania-eurofighter-italiani-neutralizzano-un-drone-entrato-nello-spazio-aereo-nato-15-09-2026.html"
+    },
     {
       "key": "cinema-uscite-italia-14-20-settembre-2026-ai-openai-v365",
       "aiGenerated": true,
