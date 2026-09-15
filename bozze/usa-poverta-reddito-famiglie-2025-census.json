@@ -1,0 +1,42 @@
+{
+  "titolo": "Stati Uniti, povertà al 10,2% e reddito familiare al nuovo record",
+  "sommario": "Il Census Bureau rileva un calo di mezzo punto del tasso ufficiale di povertà nel 2025. Il reddito mediano delle famiglie sale del 2,6% a 87.460 dollari, ma l'indicatore più ampio della povertà resta al 13,1%.",
+  "luogo": "Stati Uniti",
+  "categoria": "Mondo",
+  "formato": "standard",
+  "paragrafi": [
+    "Il tasso ufficiale di povertà negli Stati Uniti è sceso al 10,2% nel 2025, mezzo punto percentuale in meno rispetto all'anno precedente. Il dato è stato pubblicato il 15 settembre dal Census Bureau insieme alle nuove statistiche nazionali su redditi e copertura sanitaria. Il miglioramento riguarda l'intero anno solare 2025.",
+    "Nello stesso periodo il reddito mediano delle famiglie è aumentato del 2,6%, raggiungendo 87.460 dollari: il valore più alto registrato nella serie. La mediana indica il livello che divide le famiglie in due gruppi uguali, una metà con redditi superiori e l'altra con redditi inferiori. Non coincide quindi con il reddito medio.",
+    "La crescita comunicata correttamente è del 2,6%. Reuters ha rettificato una prima versione del proprio lancio che indicava erroneamente un aumento del 6%. La correzione è rilevante perché modifica in modo sostanziale la lettura della velocità con cui è migliorato il potere economico delle famiglie.",
+    "Il quadro cambia osservando la misura supplementare della povertà, fissata al 13,1%. Questo indicatore affianca alla disponibilità monetaria anche imposte, trasferimenti pubblici, spese per lavoro e cure mediche, oltre alle differenze nel costo della vita. Per questo descrive pressioni che la soglia ufficiale non intercetta completamente.",
+    "I due tassi non sono in contraddizione: rispondono a domande diverse e impiegano metodologie differenti. Il dato ufficiale consente confronti storici uniformi, mentre la misura supplementare prova a rappresentare con maggiore precisione le risorse effettivamente utilizzabili dalle famiglie. La distanza fra 10,2% e 13,1% resta quindi una parte centrale della notizia.",
+    "Anche il record del reddito mediano richiede cautela. Un valore nazionale aggregato non mostra automaticamente come i guadagni siano distribuiti tra aree geografiche, gruppi demografici o fasce di reddito. Inoltre, il livello espresso in dollari va letto insieme all'andamento dei prezzi e alle spese essenziali sostenute dalle famiglie.",
+    "La pubblicazione annuale del Census Bureau è uno dei riferimenti principali per valutare le condizioni economiche e sociali degli Stati Uniti. I dati vengono utilizzati nel dibattito su salari, fisco, assistenza pubblica e accesso alle cure. La nuova fotografia precede inoltre decisioni politiche che possono modificare trasferimenti e costi a carico delle famiglie.",
+    "Il segnale complessivo è di un miglioramento misurabile, ma non uniforme. Meno persone ricadono sotto la soglia ufficiale e il reddito mediano raggiunge un massimo, mentre la misura supplementare continua a collocare una quota più ampia della popolazione in difficoltà. È questa combinazione, più dei singoli record, a descrivere lo stato sociale del Paese.",
+    "I prossimi confronti dovranno verificare se la crescita dei redditi reali continuerà e se il calo della povertà resisterà ai cambiamenti dei prezzi e delle politiche pubbliche. Saranno particolarmente importanti i dettagli per età, composizione familiare e territorio. La serie 2025 costituisce ora la base ufficiale per misurare questi sviluppi nel corso del 2026."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.census.gov/newsroom/press-kits/2026/income-poverty-health-insurance.html",
+      "descrizione": "U.S. Census Bureau, materiali ufficiali e rapporti 2025 su reddito, povertà e assicurazione sanitaria, pubblicati il 15 settembre 2026."
+    },
+    {
+      "url": "https://www.reuters.com/world/us-poverty-rate-102-2025-census-bureau-says-2026-09-15/",
+      "descrizione": "Reuters, conferma indipendente dei dati e correzione dell'aumento del reddito mediano al 2,6%."
+    },
+    {
+      "url": "https://fred.stlouisfed.org/release?rid=249",
+      "descrizione": "Federal Reserve Bank of St. Louis, serie economiche collegate alla pubblicazione annuale Income and Poverty in the United States."
+    }
+  ],
+  "parole_chiave_titolo": ["povertà", "reddito familiare"],
+  "dati_chiave": [
+    {"icona": "↓", "valore": "10,2%", "etichetta": "tasso ufficiale di povertà"},
+    {"icona": "$", "valore": "87.460", "etichetta": "dollari di reddito mediano"},
+    {"icona": "◆", "valore": "13,1%", "etichetta": "misura supplementare"}
+  ],
+  "immagine": {
+    "alt": "Immagine editoriale IA di una cucina familiare statunitense con spesa, ricevute e calcolatrice, senza persone identificabili",
+    "url": ""
+  }
+}

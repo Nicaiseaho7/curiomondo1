@@ -1,6 +1,40 @@
 {
-  "version": 361,
+  "version": 362,
   "items": [
+    {
+      "title": "Stati Uniti, povertà al 10,2% e reddito familiare al nuovo record",
+      "excerpt": "Il Census Bureau rileva un calo di mezzo punto del tasso ufficiale di povertà nel 2025. Il reddito mediano delle famiglie sale del 2,6% a 87.460 dollari, ma l'indicatore più ampio della povertà resta al 13,1%.",
+      "url": "/notizie/stati-uniti-poverta-al-10-2-e-reddito-familiare-al-nuovo-record-15-09-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-09-15T17:09:20+02:00",
+      "dateLabel": "2026-09-15",
+      "image": "/assets/images/editorial-auto/stati-uniti-poverta-al-10-2-e-reddito-familiare-al-nuovo-record-v362-800.webp",
+      "imageAlt": "Immagine editoriale IA di una cucina familiare statunitense con spesa, ricevute e calcolatrice, senza persone identificabili",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/stati-uniti-poverta-al-10-2-e-reddito-familiare-al-nuovo-record-v362-480.webp 480w, /assets/images/editorial-auto/stati-uniti-poverta-al-10-2-e-reddito-familiare-al-nuovo-record-v362-800.webp 800w, /assets/images/editorial-auto/stati-uniti-poverta-al-10-2-e-reddito-familiare-al-nuovo-record-v362-1200.webp 1200w",
+      "featuredHighlights": [
+        "povertà",
+        "reddito familiare"
+      ],
+      "featuredStats": [
+        {
+          "icon": "↓",
+          "value": "10,2%",
+          "label": "tasso ufficiale di povertà"
+        },
+        {
+          "icon": "$",
+          "value": "87.460",
+          "label": "dollari di reddito mediano"
+        },
+        {
+          "icon": "◆",
+          "value": "13,1%",
+          "label": "misura supplementare"
+        }
+      ]
+    },
     {
       "title": "Legge elettorale, il Senato approva la riforma: ora torna alla Camera",
       "excerpt": "Palazzo Madama dà il via libera con 113 sì, 71 no e 2 astenuti. Il testo introduce un sistema proporzionale con premio oltre il 42%, ma non è ancora legge.",
