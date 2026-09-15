@@ -1,0 +1,44 @@
+{
+  "titolo": "Voto postale USA, la Corte Suprema blocca le nuove restrizioni per le elezioni",
+  "sommario": "I giudici lasciano sospesa la regola USPS su elenchi e buste con codici univoci. Gli Stati potranno continuare a spedire le schede con le procedure già in uso.",
+  "luogo": "Stati Uniti",
+  "categoria": "Politica",
+  "formato": "standard",
+  "paragrafi": [
+    "La Corte Suprema degli Stati Uniti ha respinto la richiesta urgente dell’amministrazione Trump di applicare nuove condizioni alla spedizione delle schede elettorali per posta. La decisione lascia in vigore l’ingiunzione preliminare emessa il 4 settembre da una giudice federale del Massachusetts e mantiene invariate le procedure usate dagli Stati in vista delle elezioni di novembre.",
+    "La regola contestata avrebbe obbligato gli uffici elettorali a consegnare al servizio postale gli elenchi dei destinatari e a utilizzare buste approvate dall’USPS, dotate di codici a barre univoci. In caso di mancata conformità, il servizio postale avrebbe potuto rifiutare le schede, creando il rischio che alcuni elettori non le ricevessero in tempo.",
+    "Nel fascicolo ufficiale del caso, United States Postal Service contro California, i giudici scrivono che il governo difficilmente riuscirà a dimostrare la fondatezza del proprio ricorso e che i criteri di equità non giustificano un intervento d’emergenza. Il provvedimento non chiude il processo, ma impedisce l’applicazione delle restrizioni durante l’attuale ciclo elettorale.",
+    "Il giudice Brett Kavanaugh ha votato con la maggioranza e ha spiegato che introdurre il nuovo sistema a ridosso del voto avrebbe creato un rischio eccessivo di confusione. Ha però lasciato aperta la possibilità che, in futuro, il servizio postale possa avere l’autorità di adottare requisiti simili dopo un esame giudiziario completo.",
+    "Samuel Alito e Clarence Thomas hanno dissentito. Secondo la loro posizione, il nuovo standard rientrerebbe nei poteri operativi dell’USPS e l’ordine del tribunale inferiore interferirebbe con la gestione della posta elettorale. La divisione interna alla Corte mostra quindi che la questione giuridica non è definitivamente risolta.",
+    "La conseguenza immediata è pratica: Alabama, Carolina del Nord e Wisconsin avevano già iniziato a inviare le schede, mentre altri Stati stanno entrando nella fase operativa del voto. La posta rappresenta quasi un terzo dei voti espressi negli Stati Uniti, perciò anche una modifica tecnica può incidere su milioni di elettori e sui tempi di scrutinio.",
+    "L’amministrazione sosteneva che elenchi e codici univoci fossero necessari per verificare i destinatari e migliorare la tracciabilità. Gli Stati e le organizzazioni ricorrenti temevano invece ritardi, rifiuti e disomogeneità fra territori. Fino a una decisione nel merito, prevale la continuità delle regole già utilizzate dalle autorità elettorali locali."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26a305.html",
+      "descrizione": "Corte Suprema degli Stati Uniti, fascicolo ufficiale 26A305 e ordine del 14 settembre 2026."
+    },
+    {
+      "url": "https://www.reuters.com/world/loss-trump-us-supreme-court-wont-let-postal-service-restrict-mail-ballots-2026-09-14/",
+      "descrizione": "Reuters, ricostruzione della decisione e delle posizioni espresse dai giudici."
+    },
+    {
+      "url": "https://apnews.com/article/trump-mail-voting-executive-order-lawsuit-78a4fbeb48d9c5fd27d1c865529fc65f",
+      "descrizione": "Associated Press, conferma indipendente e quadro delle conseguenze operative per gli Stati."
+    },
+    {
+      "url": "https://www.ft.com/content/b3674c9d-9db2-448d-bd57-f1c040de2d54",
+      "descrizione": "Financial Times, conferma indipendente della decisione della Corte Suprema."
+    }
+  ],
+  "parole_chiave_titolo": ["voto postale", "Corte Suprema"],
+  "dati_chiave": [
+    {"icona": "◆", "valore": "1/3", "etichetta": "voti espressi per posta, circa"},
+    {"icona": "▲", "valore": "2", "etichetta": "giudici dissenzienti"},
+    {"icona": "●", "valore": "3", "etichetta": "Stati con invii già avviati"}
+  ],
+  "immagine": {
+    "alt": "Immagine editoriale IA di operatori che ordinano buste elettorali sigillate in vaschette postali",
+    "url": ""
+  }
+}
