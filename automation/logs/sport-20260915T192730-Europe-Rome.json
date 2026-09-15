@@ -1,0 +1,56 @@
+{
+  "run_started_at": "2026-09-15T19:27:30+02:00",
+  "timezone": "Europe/Rome",
+  "status": "BLOCKED_IMAGE_VALIDATION",
+  "repository_head_inspected": "2660795d2073e34bfb62e3c4ad92507d377703a8",
+  "new_articles_published": 0,
+  "articles_updated": 0,
+  "research": {
+    "coverage_target": 500,
+    "coverage_complete": false,
+    "discovery_search_queries": 10,
+    "distinct_external_pages_opened_and_read": 7,
+    "distinct_external_domains": 3,
+    "counting_method": "Only successful explicit page opens/clicks, deduplicated by canonical URL. Search snippets, repeated opens, failed accesses, GitHub files and CurioMondo pages excluded.",
+    "external_pages": [
+      "https://www.uefa.com/",
+      "https://www.uefa.com/news-media/news/02a9-21989b5df6ad-ebfe9f757b14-1000--munich-and-barcelona-to-host-uefa-champions-league-finals/",
+      "https://www.uefa.com/uefachampionsleague/draws/2027/2002239/",
+      "https://sport.sky.it/",
+      "https://sport.sky.it/calcio/champions-league/2026/09/15/champions-league-sedi-finali-2028-2029",
+      "https://www.figc.it/it",
+      "https://www.figc.it/it/federazione/news/la-finale-della-uefa-conference-league-2028-si-giochera-allo-juventus-stadium-di-torino-malago-i-grandi-eventi-un-investimento-sul-futuro-dello-sport-italiano-u8jfz5bx"
+    ],
+    "limitations": ["Coverage target of 500 not reached; this run is not a complete sports scan.", "EuroLeague homepage retrieval failed; search snippets were not used to publish a basketball article."]
+  },
+  "existing_publication_verified": {
+    "slug": "nba-kawhi-leonard-torna-a-toronto-trade-ufficiale-con-i-raptors-15-09-2026",
+    "url": "https://curiomondo.it/notizie/nba-kawhi-leonard-torna-a-toronto-trade-ufficiale-con-i-raptors-15-09-2026",
+    "article_text_visible": true,
+    "homepage_listing_visible": true,
+    "sport_category_listing_visible": true,
+    "action": "No duplicate created; no new claim that this run published the article."
+  },
+  "candidate": {
+    "event_id": "uefa-executive-committee-20260915-finals-hosts-turin-2028",
+    "title": "Conference League 2028, finale a Torino: assegnate anche le sedi della Champions",
+    "category": "Sport",
+    "verification_status": "UFFICIALE",
+    "event_date": "2026-09-15",
+    "event_time": null,
+    "editorial_score": 8,
+    "sources_in_draft": 4,
+    "source_domains_in_draft": 3,
+    "draft_path": "automation/state/sport-pending/conference-league-2028-torino-20260915.json",
+    "publication_status": "PREPARATO_NON_PUBBLICATO",
+    "image_status": "REJECTED",
+    "image_rejection_reason": "The image-generation result was a screenshot-like composition with editorial text, unrelated matches and a 2025 date, not the required text-free illustration of the selected 2028 Turin final announcement. It was not uploaded or linked on the site and must not be treated as news evidence.",
+    "predeploy_status": "NOT_RUN_NO_VALID_IMAGE",
+    "public_url_verified": false
+  },
+  "daily_agenda_created": false,
+  "public_news_files_changed": false,
+  "workflows_changed": false,
+  "five_minute_automation_reenabled": false,
+  "retry_rule": "Before publishing, revalidate freshness and sources, obtain and visually validate the correct new image, run the existing publishing checks, and verify the public article and listings. Never reuse the rejected generated image."
+}
