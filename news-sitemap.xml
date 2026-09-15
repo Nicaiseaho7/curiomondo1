@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://curiomondo.it/notizie/titoli-di-stato-il-rendimento-usa-a-10-anni-tocca-il-massimo-dal-2007.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-15T09:01:04+02:00</news:publication_date>
+      <news:title>Titoli di Stato, il rendimento USA a 10 anni tocca il massimo dal 2007</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://curiomondo.it/notizie/cina-nuove-restrizioni-all-espatrio-per-proteggere-tecnologia-e-sicurezza-15-09-2026.html</loc>
     <news:news>
       <news:publication>
@@ -229,17 +240,6 @@
       </news:publication>
       <news:publication_date>2026-09-13T12:13:30+02:00</news:publication_date>
       <news:title>Meloni: «Non mi alleo con chi vota contro il sostegno all’Ucraina»</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/stretto-hormuz-traffico-sette-navi-11-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-13T08:57:00+02:00</news:publication_date>
-      <news:title>Stretto di Hormuz, colpita una nave commerciale iraniana: un morto</news:title>
     </news:news>
   </url>
 </urlset>

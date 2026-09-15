@@ -1,0 +1,45 @@
+{
+  "titolo": "Titoli di Stato, il rendimento USA a 10 anni tocca il massimo dal 2007",
+  "sommario": "Il tasso di mercato ha superato il 5,02% durante gli scambi asiatici. Petrolio caro e attese per le banche centrali hanno accelerato le vendite sui bond globali.",
+  "luogo": "Stati Uniti",
+  "categoria": "Economia",
+  "formato": "standard",
+  "paragrafi": [
+    "Il rendimento del Treasury statunitense a dieci anni ha raggiunto il 5,0266% negli scambi asiatici di martedì 15 settembre. È il livello intraday più alto dal 2007, mentre gli investitori hanno continuato a vendere titoli di Stato prima delle riunioni della Federal Reserve e della Banca del Giappone.",
+    "Il movimento non rappresenta un aumento deciso direttamente dal Tesoro americano. Quando il prezzo di un'obbligazione già emessa scende sul mercato, il suo rendimento sale: il nuovo massimo segnala quindi quanto gli investitori chiedono per detenere debito pubblico statunitense a lunga scadenza.",
+    "La pressione non riguarda soltanto Washington. Il rendimento del titolo giapponese a dieci anni è salito al 3,025%, massimo da trent'anni, mostrando che la correzione coinvolge più grandi mercati obbligazionari nello stesso momento.",
+    "Il petrolio ha aggiunto un nuovo fattore di rischio. Nella rilevazione Reuters, il Brent guadagnava l'1,6% a 107,37 dollari al barile e il greggio statunitense saliva dell'1,82% a 103,24 dollari, sostenuto dai timori per le forniture saudite.",
+    "L'energia più costosa può rallentare la discesa dell'inflazione e mantenere elevati i tassi per più tempo. I mercati assegnavano circa il 90% di probabilità a un aumento dei tassi della Federal Reserve, atteso mercoledì: sarebbe il primo rialzo dalla metà del 2023.",
+    "Il rendimento decennale è un riferimento per il costo del denaro negli Stati Uniti, ma non determina automaticamente ogni prestito. Un livello più alto tende però a trasferirsi nel tempo sui finanziamenti a imprese e famiglie, oltre ad aumentare la spesa per rifinanziare il debito federale.",
+    "Il confronto storico richiede cautela perché la rilevazione del 5,0266% è intraday. MarketWatch aveva già registrato lunedì un picco al 5,013%, mentre la serie giornaliera della Federal Reserve indicava il 4,96% per l'11 settembre; il dato ufficiale di chiusura viene pubblicato con ritardo.",
+    "Le borse asiatiche hanno risentito della combinazione tra rendimenti, petrolio e cautela sull'intelligenza artificiale. L'indice MSCI dell'area Asia-Pacifico escluso il Giappone perdeva lo 0,8%, mentre i future sull'S&P 500 erano in calo dello 0,22% nelle prime ore europee."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-09-15/",
+      "descrizione": "Livelli intraday di Treasury, bond giapponesi, petrolio e mercati azionari il 15 settembre 2026."
+    },
+    {
+      "url": "https://www.ft.com/content/5e2327aa-dbd0-4a79-8c99-622a893876d7",
+      "descrizione": "Conferma indipendente del massimo del rendimento decennale statunitense dal 2007 e del rialzo globale dei rendimenti."
+    },
+    {
+      "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-ai-safety-concerns-grow-oil-prices-tension-middle-east/card/10-year-yield-touches-5-for-the-first-time-in-3-years-CoVwHRHwDzYoG2pspoW3",
+      "descrizione": "Picco intraday del 14 settembre e confronto con l'ultima chiusura superiore al 5%."
+    },
+    {
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "descrizione": "Serie ufficiale della Federal Reserve sui rendimenti giornalieri dei Treasury a dieci anni."
+    }
+  ],
+  "parole_chiave_titolo": ["rendimento", "massimo"],
+  "dati_chiave": [
+    {"icona": "▲", "valore": "5,0266%", "etichetta": "Treasury USA a 10 anni"},
+    {"icona": "◆", "valore": "2007", "etichetta": "precedente livello comparabile"},
+    {"icona": "●", "valore": "3,025%", "etichetta": "decennale giapponese"}
+  ],
+  "immagine": {
+    "alt": "Illustrazione editoriale IA di una sala mercati con grafici obbligazionari e un globo",
+    "url": ""
+  }
+}
