@@ -52,6 +52,12 @@
       "mini_stats_position": "below_excerpt",
       "required_for_future_featured_news": true
     },
+    "featured_layout": {
+      "desktop": "hero principale dominante a sinistra e tre card editoriali compatte impilate a destra",
+      "side_cards_exact_order": ["Sport", "Film e serie TV", "Italia"],
+      "mobile": "hero a sinistra e tre card compatte impilate a destra; Ultime notizie sotto l'intero blocco",
+      "required_on_future_homepage_updates": true
+    },
     "live_exact_count": 10,
     "live_order": "newest_first",
     "chronological_continuity": {
