@@ -1,0 +1,51 @@
+/* v373 — globo editoriale nella testata, sempre subordinato ai contenuti. */
+.header{
+  position:sticky;
+  isolation:isolate;
+  overflow:hidden;
+}
+.header::before{
+  content:"";
+  position:absolute;
+  z-index:-2;
+  width:clamp(250px,31vw,390px);
+  aspect-ratio:1;
+  left:48%;
+  top:50%;
+  border-radius:50%;
+  background:url("/assets/images/terra-curiomondo-orbita.webp") center/cover no-repeat;
+  opacity:.12;
+  transform:translate(-50%,-50%) rotate(-5deg);
+  filter:saturate(.82) contrast(1.04);
+  pointer-events:none;
+}
+.header::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background:linear-gradient(90deg,rgba(255,255,255,.9) 0%,rgba(255,255,255,.67) 49%,rgba(255,255,255,.92) 100%);
+  pointer-events:none;
+}
+.header .nav{position:relative;z-index:1}
+.header .logo,.header .cm-header-actions{position:relative;z-index:2}
+.header .cm-wordmark{text-shadow:0 1px 0 rgba(255,255,255,.95),0 3px 18px rgba(255,255,255,.9)}
+.header .cm-brand-tagline{color:#526985;text-shadow:0 1px 0 #fff,0 2px 12px rgba(255,255,255,.95)}
+.header .icon-btn{background:rgba(255,255,255,.88);backdrop-filter:blur(8px)}
+
+html.cm-dark .header::before{opacity:.1;filter:saturate(.7) brightness(1.25)}
+html.cm-dark .header::after{background:linear-gradient(90deg,rgba(7,21,39,.88),rgba(7,21,39,.7) 50%,rgba(7,21,39,.9))}
+html.cm-dark .header .cm-wordmark,html.cm-dark .header .cm-brand-tagline{text-shadow:0 2px 16px rgba(0,0,0,.82)}
+html.cm-dark .header .cm-brand-tagline{color:#b7c9de}
+html.cm-dark .header .icon-btn{background:rgba(12,34,59,.86)}
+
+@media(max-width:700px){
+  .header::before{width:245px;left:49%;opacity:.1}
+  .header::after{background:linear-gradient(90deg,rgba(255,255,255,.92),rgba(255,255,255,.7) 52%,rgba(255,255,255,.94))}
+  html.cm-dark .header::after{background:linear-gradient(90deg,rgba(7,21,39,.92),rgba(7,21,39,.72) 52%,rgba(7,21,39,.94))}
+}
+@media(prefers-reduced-transparency:reduce){
+  .header::before{opacity:.07}
+  .header::after{background:rgba(255,255,255,.9)}
+  html.cm-dark .header::after{background:rgba(7,21,39,.9)}
+}
