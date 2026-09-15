@@ -1,0 +1,41 @@
+{
+  "titolo": "Guerra USA-Iran, rapporto ufficiale: scorte sotto pressione e basi danneggiate",
+  "sommario": "L’ispettorato del Pentagono segnala carenze strategiche di munizioni, colli di bottiglia produttivi e gravi danni alle infrastrutture americane in Medio Oriente.",
+  "luogo": "Stati Uniti",
+  "categoria": "Politica",
+  "formato": "standard",
+  "paragrafi": [
+    "Il primo rapporto pubblico degli ispettori generali statunitensi sull’operazione Epic Fury descrive un impatto molto più ampio delle singole perdite annunciate durante la guerra con l’Iran. Il documento, trasmesso al Congresso e diffuso il 14 settembre, copre le attività comprese tra aprile e giugno 2026.",
+    "Secondo l’Ufficio del sottosegretario alla Difesa per acquisizioni e sostegno, l’impiego di armamenti ha prodotto carenze strategiche negli inventari e ha esposto colli di bottiglia nella capacità industriale di rifornirli. Il rapporto precisa che ampliare le linee produttive richiede tempi significativi, soprattutto per motori a propellente solido, esplosivi e materiali propellenti.",
+    "Il Pentagono sta cercando di accorciare le procedure di acquisto, accumulare componenti critici e rafforzare le catene di fornitura insieme agli alleati. Queste misure, tuttavia, indicano che la disponibilità di munizioni non dipende soltanto dai fondi stanziati, ma anche dalla capacità concreta delle fabbriche e dalla presenza di manodopera specializzata.",
+    "Il bilancio materiale è rilevante. Il Comando centrale statunitense ha riferito che gli attacchi iraniani hanno danneggiato o distrutto centinaia di edifici e strutture in basi americane distribuite fra Kuwait, Bahrein, Qatar, Emirati Arabi Uniti, Arabia Saudita, Iraq, Oman e Giordania.",
+    "La tabella sulle perdite aeree registra fino a 30 droni MQ-9 distrutti in circostanze diverse. Sette aerocisterne KC-135 risultano danneggiate o distrutte: due nella collisione avvenuta sull’Iraq e cinque colpite a terra in Arabia Saudita da munizioni iraniane. Il documento elenca inoltre perdite o danni ad altri velivoli da combattimento e supporto.",
+    "La pressione ha riguardato anche la logistica. Lo spostamento di parte del sostegno verso Diego Garcia ha allungato le rotte marittime, creando cicli di rifornimento da 14 a 18 giorni. Il comando europeo ha quindi fornito basi, trasporti, carburante, munizioni e infrastrutture per sostenere le operazioni in Medio Oriente.",
+    "Anche le sedi diplomatiche hanno subito conseguenze dirette. Il Dipartimento di Stato ha stimato circa 184 milioni di dollari di danni fisici alle strutture americane in quattro Paesi, oltre a ritardi mensili nelle opere e ai costi legati alle partenze ordinate e alle evacuazioni dei cittadini.",
+    "La Casa Bianca sostiene che produzione e consegne restino robuste, mentre il Pentagono contesta l’idea di una carenza generale. Il rapporto usa però una definizione più precisa: parla di deficit strategici per specifiche munizioni e di vincoli industriali, elementi che possono condizionare la durata delle operazioni e la capacità di ricostituire rapidamente le scorte."
+  ],
+  "fonti": [
+    {
+      "url": "https://media.defense.gov/2026/Sep/09/2003993626/-1/-1/1/OEF_Q3_JUN2026_FINAL_508%20SECURE.PDF",
+      "descrizione": "Rapporto ufficiale degli ispettori generali statunitensi sull’operazione Epic Fury, aprile-giugno 2026."
+    },
+    {
+      "url": "https://apnews.com/article/iran-war-damage-pentagon-inspector-general-87cbe4e2ac208a849cd1554c4bb44bbf",
+      "descrizione": "Associated Press, verifica indipendente dei dati su scorte, basi, aeromobili e costi diplomatici."
+    },
+    {
+      "url": "https://www.reuters.com/world/middle-east/six-consequences-six-months-war-iran-2026-08-27/",
+      "descrizione": "Reuters, contesto indipendente precedente sulle perdite di mezzi e sull’impatto della guerra sulla prontezza militare statunitense."
+    }
+  ],
+  "parole_chiave_titolo": ["rapporto", "scorte"],
+  "dati_chiave": [
+    {"icona": "◆", "valore": "30", "etichetta": "MQ-9 distrutti, fino a"},
+    {"icona": "▲", "valore": "7", "etichetta": "KC-135 danneggiati o distrutti"},
+    {"icona": "●", "valore": "14–18 giorni", "etichetta": "ciclo logistico via Diego Garcia"}
+  ],
+  "immagine": {
+    "alt": "Immagine editoriale IA di un hangar logistico militare con scaffali e aerei cargo sullo sfondo",
+    "url": ""
+  }
+}
