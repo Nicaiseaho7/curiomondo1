@@ -5,7 +5,7 @@ from collections import Counter
 from lxml import html
 from urllib.parse import urlparse, unquote
 import argparse, json, subprocess, re
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from difflib import SequenceMatcher
 
@@ -194,7 +194,10 @@ for p in news:
                     # Dal protocollo editoriale v4, datePublished deve indicare
                     # la prima pubblicazione CurioMondo, non la data della fonte
                     # o dell'evento. Il commit di creazione è il riferimento
-                    # verificabile disponibile nella pipeline.
+                    # verificabile disponibile nella pipeline. La generazione
+                    # precede necessariamente il commit: tolleriamo solo il
+                    # breve intervallo tecnico di pubblicazione, continuando a
+                    # bloccare date ricavate dalla fonte o dall'evento.
                     # Uno shallow clone non conserva necessariamente la commit
                     # di creazione: il bordo dello snapshot produrrebbe falsi
                     # positivi su tutte le date editoriali già pubblicate.
@@ -206,7 +209,7 @@ for p in news:
                             stamps=[x.strip() for x in proc.stdout.splitlines() if x.strip()]
                             if stamps:
                                 first_added=datetime.fromisoformat(stamps[-1].replace('Z','+00:00'))
-                                if first_added > dt:
+                                if first_added - dt > timedelta(minutes=15):
                                     publication_date_errors.append(f'datePublished precedente alla pubblicazione CurioMondo: {p.name}')
                         except Exception:
                             pass
@@ -357,6 +360,7 @@ if home.xpath('//a[(@href="/biblioteca/" or @href="/approfondimenti/") and not(a
 if len(home.xpath('//section[contains(@class,"cm-editorial-signature")][@data-layout="open-white-canvas"]'))!=1: errors.append('testata editoriale non impostata sulla pagina bianca aperta')
 azure_css_path=root/'assets/css/home-azure-v274.css'
 home_bundle_path=root/'assets/css/home-bundle-v291.css'
+featured_layout_path=root/'assets/css/home-cards-clean-v342.css'
 azure_direct=bool(home.xpath('//link[contains(@href,"home-azure-v274.css")]'))
 bundle_linked=bool(home.xpath('//link[contains(@href,"home-bundle-v291.css")]'))
 if not azure_direct and not bundle_linked:
@@ -366,6 +370,14 @@ if bundle_linked:
         errors.append('bundle CSS homepage v291 collegato ma assente')
     elif 'source: assets/css/home-azure-v274.css' not in home_bundle_path.read_text(errors='replace'):
         errors.append('bundle CSS homepage v291 non contiene la palette azzurra v274')
+if not featured_layout_path.exists():
+    errors.append('foglio layout card In evidenza assente')
+else:
+    featured_layout=featured_layout_path.read_text(errors='replace')
+    if 'max-height:330px' in featured_layout or 'max-height:360px' in featured_layout:
+        errors.append('card In evidenza vincolata a un’altezza che può tagliare titoli lunghi')
+    if featured_layout.count('max-height:none') < 2:
+        errors.append('card In evidenza non adattiva su desktop e mobile')
 if not home.xpath('//meta[@name="theme-color"][@content="#1877f2"]'): errors.append('theme-color v274 non impostato sul blu Facebook')
 if not azure_css_path.exists(): errors.append('foglio palette azzurra v274 assente')
 else:
