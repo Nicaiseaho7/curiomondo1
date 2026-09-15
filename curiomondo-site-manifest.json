@@ -50,6 +50,8 @@
       "important_words_blue": true,
       "mini_stats_exact_count": 3,
       "mini_stats_position": "below_excerpt",
+      "mini_stats_value_and_explanation_required": true,
+      "mini_stats_explanation_visible_on_mobile": true,
       "required_for_future_featured_news": true
     },
     "live_exact_count": 10,
@@ -67,6 +69,11 @@
       "label": "Film e serie TV",
       "applies_to": ["film", "cinema", "serie televisive", "streaming"],
       "forbidden_label": "Cultura"
+    },
+    "category_integrity": {
+      "nba_and_foreign_basketball_label": "Sport",
+      "italia_allowed_only_when_central_subject": true,
+      "forbidden_nba_labels": ["Italia", "Italia / Sport"]
     },
     "freshness_rule": {
       "current_owner_instruction": "Durante la ricerca automatica pubblicare solo notizie pubblicate o sviluppatesi nel giorno corrente in Europe/Rome.",

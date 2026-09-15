@@ -42,8 +42,10 @@ html.cm-dark .auto-card .ameta,html.cm-dark .card .meta{background:#102b4d;color
   .featured p{font-size:.78rem;line-height:1.4;-webkit-line-clamp:1}
   .cm-featured-stats{gap:8px;margin-top:10px}
   .cm-featured-stat>i{display:none}
-  .cm-featured-stat strong{font-size:.68rem}
-  .cm-featured-stat small{display:none}
+  .cm-featured-stat{display:flex;flex-direction:column;align-items:flex-start;gap:3px;padding:8px 7px;border-top:1px solid rgba(255,255,255,.2)}
+  .cm-featured-stat>span{display:flex;flex-direction:column;gap:3px}
+  .cm-featured-stat strong{font-size:.72rem;line-height:1.15}
+  .cm-featured-stat small{display:block;color:#c9daf0;font-size:.54rem;line-height:1.22;font-weight:650;letter-spacing:0;text-transform:none}
   .cm-featured-foot{margin-top:10px}
   .featured .cta{min-height:36px;padding:0 15px;font-size:.76rem}
   .auto-rail-label{margin-top:28px;font-size:1.18rem}

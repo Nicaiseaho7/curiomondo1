@@ -102,6 +102,25 @@ diventa il nuovo blocco principale "featured"/In evidenza in homepage; l'attuale
 scende in cima all'"auto-rail". Le altre notizie del ciclo entrano in cima
 all'auto-rail e alle card, con la card più vecchia che scorre giù/esce.
 
+Regole inderogabili per questo spostamento:
+- `datePublished` è l'ora reale della prima pubblicazione su CurioMondo, in
+  `Europe/Rome`, e non la data del fatto, della fonte o dell'ultimo aggiornamento;
+- l'articolo che lascia `featured` deve entrare nelle `Ultime notizie` nella
+  posizione determinata da `datePublished`: non può essere eliminato né saltato;
+- `Ultime notizie` e `Tutte le notizie` si rigenerano dall'elenco completo degli
+  articoli idonei, ordinato per `datePublished` decrescente, escludendo soltanto
+  l'articolo che in quel momento occupa `featured`;
+- non ricostruire l'ordine con date scritte a mano o con l'ordine dei file.
+
+La categoria deve descrivere il contenuto, non il luogo del lettore o della
+redazione. NBA, basket e campionati esteri usano `Sport`; `Italia` si aggiunge
+solo quando l'Italia è un soggetto reale e centrale della notizia. È vietato
+pubblicare una card NBA con il tag `Italia` o `Italia / Sport`.
+
+I tre dati della card `featured` devono sempre avere sia un valore sia una breve
+spiegazione autosufficiente visibile anche su mobile. Numeri, orari o durate senza
+etichetta esplicativa sono vietati.
+
 ## 3. Regole editoriali del corpo articolo (invarianti, da `editorial-contract.txt`)
 
 - Corpo `.art-body` tra **3.000 e 7.000 caratteri** di testo visibile (regola

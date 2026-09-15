@@ -234,7 +234,7 @@ for p in (ROOT / "notizie").glob("*.html"):
         info = None
     if info:
         infos.append(info)
-infos.sort(key=lambda x: x["dateISO"], reverse=True)
+infos.sort(key=lambda x: (x["_dt"], x["url"]), reverse=True)
 by_url = {i["url"]: i for i in infos}
 
 # Feed homepage: preserva i dati esistenti dove utili, ma riallinea ordine e immagini dai file reali.

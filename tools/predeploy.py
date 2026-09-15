@@ -299,6 +299,9 @@ for p in news:
     canonical=d.xpath('//link[@rel="canonical"]/@href')
     current_key=related_key(canonical[0] if canonical else f'/notizie/{p.name}')
     current_title=' '.join(d.xpath('//main[contains(@class,"wrap")]//h1[1]//text()')).strip().casefold()
+    article_badge=' '.join(d.xpath('//main[contains(@class,"wrap")]//div[contains(concat(" ",normalize-space(@class)," ")," badge ")][1]//text()')).strip()
+    if re.search(r'\b(nba|basket|raptors|clippers)\b', current_title) and article_badge!='Sport':
+        errors.append(f'categoria NBA/basket non conforme (deve essere Sport): {p.name}')
     for link in d.xpath('//section[contains(@class,"curio-related") or contains(@class,"cm-related")]//a[@href]'):
         linked_title=' '.join(link.xpath('.//strong//text()')).strip().casefold()
         if related_key(link.get('href'))==current_key or (current_title and linked_title==current_title):
@@ -319,6 +322,12 @@ for card in home.xpath('//a[@href][.//h3]'):
     if any(term in signal for term in film_tv_terms):
         label=' '.join(card.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," ameta ") or contains(concat(" ",normalize-space(@class)," ")," meta ")]//text()')).strip()
         if label!='Film e serie TV': errors.append(f'tag film/serie non conforme in homepage: {card.get("href")}')
+nba_terms=('nba','basket','raptors','clippers')
+for card in home.xpath('//a[@href][.//h3]'):
+    signal=' '.join([card.get('href',''),' '.join(card.xpath('.//h3//text()'))]).casefold()
+    if any(term in signal for term in nba_terms):
+        label=' '.join(card.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," ameta ") or contains(concat(" ",normalize-space(@class)," ")," meta ")]//text()')).strip()
+        if label!='Sport': errors.append(f'tag NBA/basket non conforme in homepage: {card.get("href")}')
 if home.xpath('//footer//*[contains(concat(" ",normalize-space(@class)," ")," cm-nicaise-signature ")]'): errors.append('firma Nicaise ancora presente nel footer home')
 for selector,label in [('//div[contains(@class,"auto-rail")]//img/@src','Ultime notizie'),('//div[@id="cards"]//img/@src','Tutte le notizie')]:
     section_refs=home.xpath(selector)
@@ -337,6 +346,12 @@ featured_cards=home.xpath('//*[contains(concat(" ",normalize-space(@class)," "),
 if len(featured_cards)!=1: errors.append('apertura principale non unica')
 if not home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//h1//span[contains(@class,"cm-featured-key")]'): errors.append('parole chiave blu mancanti nella card In evidenza')
 if len(home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//*[contains(concat(" ",normalize-space(@class)," ")," cm-featured-stat ")]'))!=3: errors.append('la card In evidenza non contiene esattamente 3 mini-dati')
+for stat in home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//*[contains(concat(" ",normalize-space(@class)," ")," cm-featured-stat ")]'):
+    if not ' '.join(stat.xpath('.//strong//text()')).strip() or not ' '.join(stat.xpath('.//small//text()')).strip():
+        errors.append('ogni mini-dato In evidenza deve avere valore e spiegazione')
+premium_css=(root/'assets/css/home-editorial-cards-v371.css').read_text(errors='replace') if (root/'assets/css/home-editorial-cards-v371.css').exists() else ''
+if re.search(r'\.cm-featured-stat\s+small\s*\{[^}]*display\s*:\s*none', premium_css):
+    errors.append('le spiegazioni dei mini-dati In evidenza sono nascoste su mobile')
 if len(home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//a[@href]'))!=1 or not home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//a[contains(@class,"cta") and normalize-space()="Leggi l’articolo →"]'):
     errors.append('nella card In evidenza deve essere cliccabile soltanto Leggi l’articolo')
 
@@ -358,6 +373,34 @@ else:
         if sequence_dates[i] and sequence_dates[i-1] and sequence_dates[i]>sequence_dates[i-1]:
             errors.append(f'sequenza cronologica Ultime notizie → Tutte le notizie non continua alla posizione {i+1}: {sequence_hrefs[i]} è più recente della voce precedente')
             break
+# La data mostrata nelle card deve derivare dalla stessa datePublished usata
+# per l'ordinamento: evita che un'ex evidenza venga persa durante la rotazione.
+for card in home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")] | //div[contains(@class,"auto-rail")]/a | //div[@id="cards"]/a'):
+    hrefs=card.xpath('.//a[contains(@class,"cta")]/@href') if 'featured' in (card.get('class') or '').split() else [card.get('href')]
+    times=card.xpath('.//time/@datetime')
+    if hrefs and hrefs[0] in card_eligible_dates and times:
+        try:
+            shown=datetime.fromisoformat(times[0].replace('Z','+00:00'))
+            if shown!=card_eligible_dates[hrefs[0]]:
+                errors.append(f'data card diversa da datePublished: {hrefs[0]}')
+        except ValueError:
+            errors.append(f'data card non valida: {hrefs[0]}')
+try:
+    home_feed=json.loads((root/'assets/data/home-feed-v210.json').read_text())
+    feed_urls=[item.get('url') for item in home_feed.get('items',[])]
+    if featured_href and featured_href[0] not in feed_urls:
+        errors.append('l’articolo In evidenza non è conservato nel feed cronologico completo')
+    visible_rotation_urls=set((featured_href or [])+sequence_hrefs)
+    for item in home_feed.get('items',[]):
+        url=item.get('url'); raw=item.get('dateISO')
+        if url in visible_rotation_urls and url in card_eligible_dates:
+            try:
+                if datetime.fromisoformat(str(raw).replace('Z','+00:00'))!=card_eligible_dates[url]:
+                    errors.append(f'data home-feed diversa da datePublished: {url}')
+            except ValueError:
+                errors.append(f'data home-feed non valida: {url}')
+except Exception as exc:
+    errors.append(f'home-feed non verificabile per la rotazione cronologica: {exc}')
 if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-home-deep-links ")]'): errors.append('card Approfondimenti ancora presente in homepage')
 if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-discovery-row ")]'): errors.append('card Biblioteca/Approfondimenti ancora presenti in homepage')
 if len(home.xpath('//ul[contains(concat(" ",normalize-space(@class)," ")," drawer-nav ")]//a[@href="/biblioteca/"]'))!=1: errors.append('Biblioteca non presente una sola volta nel menu drawer')
