@@ -1,0 +1,465 @@
+{
+  "run_id": "cinema-series-2026-09-15T182213Z",
+  "started_at": "2026-09-15T20:22:13+02:00",
+  "timezone": "Europe/Rome",
+  "production_branch": "main",
+  "base_commit": "c2f0f08dadf2488020ea994a6e431bd6cce8a57b",
+  "last_successful_cinema_run_found": null,
+  "new_publications": 2,
+  "substantive_updates": 0,
+  "status": "published_verified_online",
+  "receipt_branch": "automation-state",
+  "receipt_path": "cinema-series/2026-09-15T182213Z.json",
+  "coverage": {
+    "target_distinct_contents": 500,
+    "coverage_complete": false,
+    "unique_substantive_pages_read": 23,
+    "substantive_urls": [
+      "https://9to5mac.com/2026/06/11/apple-announces-slow-horses-season-6-release-date-and-first-look/",
+      "https://eaglepictures.com/resident-evil",
+      "https://luxvide.it/en/news/lux-vide-is-working-on-chiaroscuro-a-new-light-crime-series-coming-soon-to-netflix/",
+      "https://toronto.citynews.ca/2026/09/15/cliff-booths-next-act-quentin-tarantinos-new-novel-arrives-as-david-fincher-directs-the-sequel/",
+      "https://tv.apple.com/it/show/slow-horses/umc.cmc.2szz3fdt71tl1ulnbp8utgq5o?ctx_brand=tvs.sbd.4000",
+      "https://www.ansa.it/sito/notizie/cultura/cinema/2026/09/15/andrea-bocelli-sara-la-voce-di-maserati-the-brothers_107bd58c-f627-4a29-b35d-c5aeda70abaa.html",
+      "https://www.ansa.it/sito/notizie/cultura/cinema/2026/09/15/o-sang.-il-miracolo-di-san-gennaro-al-cinema-fede-tradizione-e-identita-popolare_11acccfb-6eb9-4018-a8de-c19accdb0305.html",
+      "https://www.ansa.it/sito/notizie/cultura/cinema/2026/09/15/tarantino-riporta-cliff-booth-in-libreria-col-seguito-di-cera-una-volta_e854cbad-b7cd-4776-95e9-cfdd0a73a6d0.html",
+      "https://www.ansa.it/sito/notizie/cultura/tv/2026/09/15/apple-tv-annuncia-l8a-stagione-di-slow-horses-domani-il-primo-episodio-della_c9da6161-97fc-4403-b854-0cf07108fab5.html",
+      "https://www.ansa.it/sito/notizie/cultura/tv/2026/09/15/chiaroscuro-a-novembre-la-serie-su-netflix-con-spollon-gioli-vergano-lattanzi_d4e5af6d-661d-4403-8364-3be36c81c1e9.html",
+      "https://www.apple.com/it/apple-tv/",
+      "https://www.apple.com/it/tv-pr/originals/slow-horses/",
+      "https://www.apple.com/tv-pr/news/2026/06/apple-tv-unveils-first-look-at-season-six-of-emmy-and-bafta-award-winning-espionage-drama-slow-horses-starring-academy-award-winner-sir-gary-oldman/",
+      "https://www.apple.com/tv-pr/news/2026/09/apple-tv-announces-eighth-season-for-emmy-and-bafta-award-winning-spy-drama-slow-horses/",
+      "https://www.broadwayworld.com/bwwmusic/article/Andrea-Bocelli-Jennifer-Hudson-Record-One-Right-Here-for-MASERATI-THE-BROTHERS-20260915",
+      "https://www.comingsoon.it/serietv/news/chiaroscuro-data-di-uscita-e-prime-foto-del-light-crime-italiano-di/n231935/",
+      "https://www.fandango.it/film/ritorno-a-buenos-aires/",
+      "https://www.fctp.it/movie_item.php?id=5475",
+      "https://www.italyformovies.it/news/detail/2617/chiaroscuro-dall11-novembre-il-crime-in-8-episodi-ambientato-a-roma-nel-mondo-dellarte",
+      "https://www.labiennale.org/it/cinema/2026/venezia-83-concorso/ritorno-buenos-aires",
+      "https://www.netflix.com/title/81707977",
+      "https://www.nexostudios.it/movie/o-sang-il-miracolo-di-san-gennaro/",
+      "https://www.visiondistribution.it/film/dove-la-fiesta/"
+    ],
+    "cinema_segment": {
+      "unique_discovered_urls": 194,
+      "unique_successful_open_urls": 30,
+      "canonical_successful_open_pages": 29,
+      "failed_extra_urls": 5,
+      "fully_read_editorial_articles_or_title_sheets": 11,
+      "fully_read_minimal_utility_pages": 1
+    },
+    "streaming_segment": {
+      "unique_urls_submitted_to_open_or_click": 22,
+      "unique_urls_successfully_opened": 14,
+      "substantive_article_release_or_title_pages_read": 11,
+      "navigation_pages_without_news": 2,
+      "index_homepages_partially_scanned": 1,
+      "unique_urls_still_unavailable": 8,
+      "search_discovery_unique_url_count": null,
+      "search_discovery_count_note": "Risultati di ricerca non deduplicati; non inclusi nelle letture complete.",
+      "target_500_reached": false
+    },
+    "note": "Titoli e URL individuati non sono letture complete; conteggi deduplicati per URL. Risultati paywall/errore esclusi. Ricerca estesa ma copertura 500 incompleta."
+  },
+  "deduplication": {
+    "main": true,
+    "open_prs": true,
+    "drafts": true,
+    "automation_state_candidates_and_published": true,
+    "online_home": true,
+    "duplicates_found": false
+  },
+  "quality": {
+    "predeploy_exit_code": 0,
+    "predeploy_errors": [],
+    "article_checks": [
+      {
+        "slug": "slow-horses-ottava-stagione-sesta-uscita-italia-15-settembre-2026",
+        "title_before_image": true,
+        "image_identity_metadata": true,
+        "hero_og_schema_same_asset": true,
+        "all_surfaces": true,
+        "related_count": 1
+      },
+      {
+        "slug": "cinema-uscite-italia-14-20-settembre-2026",
+        "title_before_image": true,
+        "image_identity_metadata": true,
+        "hero_og_schema_same_asset": true,
+        "all_surfaces": true,
+        "related_count": 1
+      }
+    ],
+    "qotd_unchanged": true,
+    "workflows_unchanged": true,
+    "css_unchanged": true
+  },
+  "selected": [
+    {
+      "event_id": "slow-horses-season-8-renewal-2026-09-15",
+      "status": "UFFICIALE",
+      "editorial_score": 8.5,
+      "development_date": "2026-09-15",
+      "development_time": null,
+      "timezone": "Europe/Rome",
+      "sensibile": false,
+      "valore_aggiunto": [
+        "Calendario italiano della sesta stagione e modalità di accesso",
+        "Distinzione tra rinnovo dell’ottava, settima già annunciata e sesta in uscita"
+      ],
+      "publication_state": "published_verified_online",
+      "image_review": "approved_after_identity_check",
+      "visual_attempts": 1,
+      "publication_receipt_branch": "automation-state",
+      "publication_receipt_path": "cinema-series/2026-09-15T182213Z.json",
+      "slug": "slow-horses-ottava-stagione-sesta-uscita-italia-15-settembre-2026",
+      "sources": [
+        {
+          "url": "https://www.apple.com/tv-pr/news/2026/09/apple-tv-announces-eighth-season-for-emmy-and-bafta-award-winning-spy-drama-slow-horses/",
+          "descrizione": "Apple TV, 15 settembre 2026: annuncio ufficiale dell’ottava stagione, episodi, romanzo e autori"
+        },
+        {
+          "url": "https://www.apple.com/it/tv-pr/originals/slow-horses/",
+          "descrizione": "Apple TV Press Italia: data italiana della sesta stagione, titolo, protagonisti e premessa"
+        },
+        {
+          "url": "https://www.apple.com/tv-pr/news/2026/06/apple-tv-unveils-first-look-at-season-six-of-emmy-and-bafta-award-winning-espionage-drama-slow-horses-starring-academy-award-winner-sir-gary-oldman/",
+          "descrizione": "Apple TV, 11 giugno 2026: calendario settimanale della sesta stagione, adattamento e regia"
+        },
+        {
+          "url": "https://www.apple.com/it/apple-tv/",
+          "descrizione": "Apple Italia: modalità di abbonamento e dispositivi compatibili"
+        },
+        {
+          "url": "https://www.ansa.it/sito/notizie/cultura/tv/2026/09/15/apple-tv-annuncia-l8a-stagione-di-slow-horses-domani-il-primo-episodio-della_c9da6161-97fc-4403-b854-0cf07108fab5.html",
+          "descrizione": "ANSA, 15 settembre 2026: riscontro giornalistico del rinnovo basato sull’annuncio Apple, non conferma originaria indipendente"
+        }
+      ],
+      "url": "https://curiomondo.it/notizie/slow-horses-ottava-stagione-sesta-uscita-italia-15-settembre-2026.html",
+      "commit_sha": "dfa672a4784f921a9e8b4d239dde98f1e0fed95a",
+      "verified_at": "2026-09-15T20:40:43.827152+02:00"
+    },
+    {
+      "event_id": "italia-cinema-uscite-week-2026-09-14",
+      "status": "UFFICIALE",
+      "editorial_format": "weekly_release_guide",
+      "guide_period": {
+        "start": "2026-09-14",
+        "end": "2026-09-20",
+        "territory": "IT",
+        "availability": "cinema"
+      },
+      "development_date": "2026-09-17",
+      "development_time": null,
+      "timezone": "Europe/Rome",
+      "sensibile": false,
+      "valore_aggiunto": [
+        "Confronto di tre uscite italiane per genere, interpreti e premessa",
+        "Distinzione tra sala, partecipazione a festival e disponibilità digitale non annunciata"
+      ],
+      "publication_state": "published_verified_online",
+      "image_review": "approved_after_identity_check",
+      "visual_attempts": 2,
+      "publication_receipt_branch": "automation-state",
+      "publication_receipt_path": "cinema-series/2026-09-15T182213Z.json",
+      "slug": "cinema-uscite-italia-14-20-settembre-2026",
+      "sources": [
+        {
+          "url": "https://eaglepictures.com/resident-evil",
+          "descrizione": "Eagle Pictures: uscita italiana di Resident Evil, regia, protagonista, genere e premessa"
+        },
+        {
+          "url": "https://www.fandango.it/film/ritorno-a-buenos-aires/",
+          "descrizione": "Fandango: data italiana, cast, produzione e trama di Ritorno a Buenos Aires"
+        },
+        {
+          "url": "https://www.visiondistribution.it/film/dove-la-fiesta/",
+          "descrizione": "Vision Distribution: uscita, regista, interpreti e produzione di Dov’è la Fiesta?"
+        },
+        {
+          "url": "https://www.labiennale.org/it/cinema/2026/venezia-83-concorso/ritorno-buenos-aires",
+          "descrizione": "Biennale di Venezia: partecipazione al concorso, durata e commento originale di Marco Bechis"
+        }
+      ],
+      "url": "https://curiomondo.it/notizie/cinema-uscite-italia-14-20-settembre-2026.html",
+      "commit_sha": "dfa672a4784f921a9e8b4d239dde98f1e0fed95a",
+      "verified_at": "2026-09-15T20:40:43.827152+02:00"
+    }
+  ],
+  "discarded": [
+    {
+      "story_id": "tarantino-cliff-booth-novel-announcement-2026-09-15",
+      "title": "Le avventure di Cliff Booth",
+      "facts": "Libro di Tarantino annunciato 15/9; uscita Italia 8 dicembre La nave di Teseo. AP conferma pubblicazione USA tramite dichiarazione Harper.",
+      "source_urls": [
+        "https://www.ansa.it/sito/notizie/cultura/cinema/2026/09/15/tarantino-riporta-cliff-booth-in-libreria-col-seguito-di-cera-una-volta_e854cbad-b7cd-4776-95e9-cfdd0a73a6d0.html",
+        "https://toronto.citynews.ca/2026/09/15/cliff-booths-next-act-quentin-tarantinos-new-novel-arrives-as-david-fincher-directs-the-sequel/"
+      ],
+      "status": "Non scelta; pagina editore in challenge, primaria diretta non letta. Non validare date film Italia dalla sola ANSA."
+    },
+    {
+      "story_id": "bocelli-hudson-maserati-song-2026-09-15",
+      "title": "Bocelli e Hudson, One Right Here per Maserati",
+      "facts": "ANSA 15/9 18:10 e comunicato produttore ripreso da BroadwayWorld. Brano scritto Diane Warren. Link pre-save ufficiale attivo ma pagina minima.",
+      "source_urls": [
+        "https://www.ansa.it/sito/notizie/cultura/cinema/2026/09/15/andrea-bocelli-sara-la-voce-di-maserati-the-brothers_107bd58c-f627-4a29-b35d-c5aeda70abaa.html",
+        "https://www.broadwayworld.com/bwwmusic/article/Andrea-Bocelli-Jennifer-Hudson-Record-One-Right-Here-for-MASERATI-THE-BROTHERS-20260915",
+        "https://andreabocelli.lnk.to/OneRightHere"
+      ],
+      "status": "Non scelta; nessuna data cinema Italia confermata; social primaria in errore; riprese dello stesso comunicato non indipendenti."
+    }
+  ],
+  "commit_sha": "dfa672a4784f921a9e8b4d239dde98f1e0fed95a",
+  "verified_at": "2026-09-15T20:40:43.827152+02:00",
+  "online_verification": {
+    "verified_at": "2026-09-15T20:40:43.827152+02:00",
+    "commit_sha": "dfa672a4784f921a9e8b4d239dde98f1e0fed95a",
+    "all_verified": true,
+    "checks": [
+      {
+        "url": "https://curiomondo.it/",
+        "status_code": 200,
+        "headers": {
+          "content-type": "text/html; charset=UTF-8",
+          "server": "Netlify",
+          "etag": "\"dbc634b395b11e818674962125af4b91-ssl\"",
+          "x-nf-request-id": "01M2K5XS3RC0CMV44NBAG3SAFZ",
+          "date": "Tue, 15 Sep 2026 18:40:31 GMT"
+        },
+        "bytes": 73321,
+        "both_articles_present": true,
+        "verified": true
+      },
+      {
+        "url": "https://curiomondo.it/notizie/",
+        "status_code": 200,
+        "headers": {
+          "content-type": "text/html; charset=UTF-8",
+          "server": "Netlify",
+          "etag": "\"582b70617d1465593d2d5e77f625d9ed-ssl\"",
+          "x-nf-request-id": "01M2K5XS62MK8HCHWMG2A2DW45",
+          "date": "Tue, 15 Sep 2026 18:40:32 GMT"
+        },
+        "bytes": 56009,
+        "both_articles_present": true,
+        "verified": true
+      },
+      {
+        "url": "https://curiomondo.it/categorie/cultura/",
+        "status_code": 200,
+        "headers": {
+          "content-type": "text/html; charset=UTF-8",
+          "server": "Netlify",
+          "etag": "\"2ca08dcb117e3e372332f954594a7906-ssl\"",
+          "x-nf-request-id": "01M2K5XS898CH6BSKEG4YKN438",
+          "date": "Tue, 15 Sep 2026 18:40:32 GMT"
+        },
+        "bytes": 8513,
+        "both_articles_present": true,
+        "verified": true
+      },
+      {
+        "url": "https://curiomondo.it/assets/data/home-feed-v210.json",
+        "status_code": 200,
+        "headers": {
+          "content-type": "application/json",
+          "server": "Netlify",
+          "etag": "\"1766e6d34b7ab610b36e3395bbbfa6e6-ssl\"",
+          "x-nf-request-id": "01M2K5XS1D08AE2ZCQBAKH35Z0",
+          "date": "Tue, 15 Sep 2026 18:40:31 GMT"
+        },
+        "bytes": 286372,
+        "both_articles_present": true,
+        "verified": true
+      },
+      {
+        "url": "https://curiomondo.it/assets/data/search-index-v210.json",
+        "status_code": 200,
+        "headers": {
+          "content-type": "application/json",
+          "server": "Netlify",
+          "etag": "\"e24c636056afc2662c1c367bbf67dc98-ssl\"",
+          "x-nf-request-id": "01M2K5XS7NDWM1JW6J8SH28KCB",
+          "date": "Tue, 15 Sep 2026 18:40:32 GMT"
+        },
+        "bytes": 115796,
+        "both_articles_present": true,
+        "verified": true
+      },
+      {
+        "url": "https://curiomondo.it/feed.xml",
+        "status_code": 200,
+        "headers": {
+          "content-type": "application/xml",
+          "server": "Netlify",
+          "etag": "\"8a94c27c85252ee92dcbfa666a70cc2b-ssl\"",
+          "x-nf-request-id": "01M2K5XS19GQNY02EM22F8KZ3Q",
+          "date": "Tue, 15 Sep 2026 18:40:31 GMT"
+        },
+        "bytes": 157525,
+        "both_articles_present": true,
+        "verified": true
+      },
+      {
+        "url": "https://curiomondo.it/sitemap.xml",
+        "status_code": 200,
+        "headers": {
+          "content-type": "application/xml; charset=UTF-8",
+          "server": "Netlify",
+          "etag": "\"57d2e68c810d9a01f0c52f8324be3789-ssl\"",
+          "x-nf-request-id": "01M2K5XSAM14G905VQG4AKTXKD",
+          "date": "Tue, 15 Sep 2026 18:40:32 GMT"
+        },
+        "bytes": 73010,
+        "both_articles_present": true,
+        "verified": true
+      },
+      {
+        "url": "https://curiomondo.it/news-sitemap.xml",
+        "status_code": 200,
+        "headers": {
+          "content-type": "application/xml; charset=UTF-8",
+          "server": "Netlify",
+          "etag": "\"1b0c48bb6240f944237f7d0f8d3c32eb-ssl\"",
+          "x-nf-request-id": "01M2K5XS04S5573QY39RBW5YBZ",
+          "date": "Tue, 15 Sep 2026 18:40:31 GMT"
+        },
+        "bytes": 10513,
+        "both_articles_present": true,
+        "verified": true
+      },
+      {
+        "url": "https://curiomondo.it/notizie/slow-horses-ottava-stagione-sesta-uscita-italia-15-settembre-2026.html",
+        "status_code": 200,
+        "headers": {
+          "content-type": "text/html; charset=UTF-8",
+          "server": "Netlify",
+          "etag": "\"938aa61806b8ec59598ec7bf8a550dee-ssl\"",
+          "x-nf-request-id": "01M2K5Y4571NTYXWHG7TM8HF13",
+          "date": "Tue, 15 Sep 2026 18:40:43 GMT"
+        },
+        "bytes": 10238,
+        "matches_reviewed_html": false,
+        "reviewed_content_matches_after_host_link_rewrite": true,
+        "title": "Slow Horses rinnovata per l’ottava stagione: la sesta arriva il 16 settembre",
+        "complete_body_verified": true,
+        "verified": true
+      },
+      {
+        "url": "https://curiomondo.it/notizie/cinema-uscite-italia-14-20-settembre-2026.html",
+        "status_code": 200,
+        "headers": {
+          "content-type": "text/html; charset=UTF-8",
+          "server": "Netlify",
+          "etag": "\"ed3b60343a130f9b00d2fff7aee24236-ssl\"",
+          "x-nf-request-id": "01M2K5Y45AG1FD9KXK2856KV6Q",
+          "date": "Tue, 15 Sep 2026 18:40:43 GMT"
+        },
+        "bytes": 9774,
+        "matches_reviewed_html": false,
+        "reviewed_content_matches_after_host_link_rewrite": true,
+        "title": "Cinema, tre uscite dal 17 settembre: Resident Evil e due film italiani",
+        "complete_body_verified": true,
+        "verified": true
+      },
+      {
+        "url": "https://curiomondo.it/assets/images/editorial-auto/cinema-uscite-italia-14-20-settembre-2026-ai-openai-v365-480.webp",
+        "status_code": 200,
+        "headers": {
+          "content-type": "image/webp",
+          "server": "Netlify",
+          "etag": "\"1c0a5c0660f9c3b1cc4f7de805739722-ssl\"",
+          "x-nf-request-id": "01M2K5Y46RGKYMTW0SH6K1RRH6",
+          "date": "Tue, 15 Sep 2026 18:40:43 GMT"
+        },
+        "bytes": 16352,
+        "image_sha256": "9ce8afc01990550aca857e3eae2ad24117b9c42cad4356250528a73711ad6ce3",
+        "matches_reviewed_asset": true,
+        "verified": true
+      },
+      {
+        "url": "https://curiomondo.it/assets/images/editorial-auto/cinema-uscite-italia-14-20-settembre-2026-ai-openai-v365-800.webp",
+        "status_code": 200,
+        "headers": {
+          "content-type": "image/webp",
+          "server": "Netlify",
+          "etag": "\"1a25d0e921c66d75591c944b772c1cde-ssl\"",
+          "x-nf-request-id": "01M2K5Y45HF9G0GV3Y93DH44X7",
+          "date": "Tue, 15 Sep 2026 18:40:43 GMT"
+        },
+        "bytes": 33204,
+        "image_sha256": "bbd6d4bc8b5a1a6f0df4ce891d09382497ba76609cc9878c27042f06e329410f",
+        "matches_reviewed_asset": true,
+        "verified": true
+      },
+      {
+        "url": "https://curiomondo.it/assets/images/editorial-auto/cinema-uscite-italia-14-20-settembre-2026-ai-openai-v365-1200.webp",
+        "status_code": 200,
+        "headers": {
+          "content-type": "image/webp",
+          "server": "Netlify",
+          "etag": "\"cdb7ef4612e34586254225f6d0e507bd-ssl\"",
+          "x-nf-request-id": "01M2K5Y4D9JJDCH6E8AG3HMK3P",
+          "date": "Tue, 15 Sep 2026 18:40:43 GMT"
+        },
+        "bytes": 61378,
+        "image_sha256": "e047b93072cba8bb18abeb43354e4ecd87a19c029b11ea8b88651e2b19ac9d12",
+        "matches_reviewed_asset": true,
+        "verified": true
+      },
+      {
+        "url": "https://curiomondo.it/assets/images/editorial-auto/slow-horses-ottava-stagione-sesta-uscita-italia-15-settembre-2026-ai-openai-v365-480.webp",
+        "status_code": 200,
+        "headers": {
+          "content-type": "image/webp",
+          "server": "Netlify",
+          "etag": "\"cebdef733053df5c3a01f12be2621bb2-ssl\"",
+          "x-nf-request-id": "01M2K5Y46P4RVZVV6TMY0JR2AC",
+          "date": "Tue, 15 Sep 2026 18:40:43 GMT"
+        },
+        "bytes": 20468,
+        "image_sha256": "d18f4b89247f48c2c4d359f5a2358a168e1a295e301133a80de59ff68d09fb17",
+        "matches_reviewed_asset": true,
+        "verified": true
+      },
+      {
+        "url": "https://curiomondo.it/assets/images/editorial-auto/slow-horses-ottava-stagione-sesta-uscita-italia-15-settembre-2026-ai-openai-v365-800.webp",
+        "status_code": 200,
+        "headers": {
+          "content-type": "image/webp",
+          "server": "Netlify",
+          "etag": "\"5e9c00451664bcf69e251618ef4ec3a1-ssl\"",
+          "x-nf-request-id": "01M2K5Y48K7EENBVX73K17KWC3",
+          "date": "Tue, 15 Sep 2026 18:40:43 GMT"
+        },
+        "bytes": 46168,
+        "image_sha256": "d5d64b5970f46bb8a4d556a3d5533b36dd6a5543f0bffe2e3b46f8372ab6c27e",
+        "matches_reviewed_asset": true,
+        "verified": true
+      },
+      {
+        "url": "https://curiomondo.it/assets/images/editorial-auto/slow-horses-ottava-stagione-sesta-uscita-italia-15-settembre-2026-ai-openai-v365-1200.webp",
+        "status_code": 200,
+        "headers": {
+          "content-type": "image/webp",
+          "server": "Netlify",
+          "etag": "\"1ee52a8cf39ef6b6ac076b349cc87649-ssl\"",
+          "x-nf-request-id": "01M2K5Y4AVCKV101EGZ90CKCRW",
+          "date": "Tue, 15 Sep 2026 18:40:43 GMT"
+        },
+        "bytes": 87576,
+        "image_sha256": "08a7b5f2438773639900677fc2d024b3336f016b99500c6bdad5d3cfbe204650",
+        "matches_reviewed_asset": true,
+        "verified": true
+      }
+    ]
+  },
+  "failures_resolved": [
+    "Shell git push lacked credentials; equivalent tested Git tree published through connected GitHub tool",
+    "Netlify pretty URL rewriting identified and verified semantically; no content mismatch"
+  ],
+  "unresolved_failures": [],
+  "notifications": {
+    "new_verified_publications_to_notify": 2,
+    "routine_notification": false
+  }
+}
