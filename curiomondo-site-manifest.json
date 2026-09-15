@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 366,
-    "site_version": 366
+    "current_site_version": 367,
+    "site_version": 367
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -67,13 +67,21 @@
   "news": {
     "film_and_tv_tag": {
       "label": "Film e serie TV",
-      "applies_to": ["film", "cinema", "serie televisive", "streaming"],
+      "applies_to": [
+        "film",
+        "cinema",
+        "serie televisive",
+        "streaming"
+      ],
       "forbidden_label": "Cultura"
     },
     "category_integrity": {
       "nba_and_foreign_basketball_label": "Sport",
       "italia_allowed_only_when_central_subject": true,
-      "forbidden_nba_labels": ["Italia", "Italia / Sport"]
+      "forbidden_nba_labels": [
+        "Italia",
+        "Italia / Sport"
+      ]
     },
     "freshness_rule": {
       "current_owner_instruction": "Durante la ricerca automatica pubblicare solo notizie pubblicate o sviluppatesi nel giorno corrente in Europe/Rome.",

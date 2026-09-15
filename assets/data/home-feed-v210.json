@@ -1,6 +1,40 @@
 {
-  "version": 368,
+  "version": 367,
   "items": [
+    {
+      "title": "Guerra USA-Iran, il CBO stima costi per 38 miliardi di dollari",
+      "excerpt": "Il Congressional Budget Office calcola le spese del Pentagono fino al 1° agosto. La prosecuzione del conflitto può aggiungere 2–3 miliardi al mese e mantenere l’inflazione statunitense più alta nel 2027.",
+      "url": "/notizie/guerra-usa-iran-cbo-costi-38-miliardi-inflazione-15-09-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-09-15T23:53:02+02:00",
+      "dateLabel": "2026-09-15",
+      "image": "/assets/images/editorial-auto/guerra-usa-iran-cbo-costi-38-miliardi-inflazione-15-09-2026-v367-800.webp",
+      "imageAlt": "Illustrazione editoriale IA non documentaria di un centro logistico militare statunitense al tramonto, con aerei cargo, materiali e analisti al lavoro",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/guerra-usa-iran-cbo-costi-38-miliardi-inflazione-15-09-2026-v367-480.webp 480w, /assets/images/editorial-auto/guerra-usa-iran-cbo-costi-38-miliardi-inflazione-15-09-2026-v367-800.webp 800w, /assets/images/editorial-auto/guerra-usa-iran-cbo-costi-38-miliardi-inflazione-15-09-2026-v367-1200.webp 1200w",
+      "featuredHighlights": [
+        "CBO",
+        "38 miliardi"
+      ],
+      "featuredStats": [
+        {
+          "icon": "$",
+          "value": "38 mld",
+          "label": "costo stimato al 1° agosto"
+        },
+        {
+          "icon": "↗",
+          "value": "2–3 mld",
+          "label": "costo aggiuntivo al mese"
+        },
+        {
+          "icon": "◆",
+          "value": "+0,5 punti",
+          "label": "inflazione stimata nel 2027"
+        }
+      ]
+    },
     {
       "title": "Lituania, Eurofighter italiani neutralizzano un drone entrato nello spazio aereo NATO",
       "excerpt": "Due caccia dell'Aeronautica Militare, impiegati nella missione NATO sul fianco orientale, hanno intercettato e abbattuto un drone entrato in Lituania dalla direzione della Bielorussia. L'origine e lo scopo del velivolo restano sotto indagine; le autorità lituane riferiscono che a bordo è stato trovato un ordigno esplosivo.",
@@ -617,7 +651,7 @@
       "title": "Megan Davey riaccende le ambizioni internazionali con il Galles",
       "excerpt": "La mediano di mischia di 26 anni è stata chiamata il mese scorso nel gruppo di 39 per il WXV, che vedrà il Galles contro Sudafrica, USA e Giappone. Resta incerto il suo impiego per la concorrenza nel ruolo.",
       "url": "/notizie/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026.html",
-      "section": "Sport",
+      "section": "Italia / Sport",
       "dateISO": "2026-09-14T06:16:57+02:00",
       "dateLabel": "2026-09-14",
       "image": "/assets/images/editorial-auto/megan-davey-riaccende-le-ambizioni-internazionali-con-il-galles-14-09-2026-ai-openai-v349-800.webp",
