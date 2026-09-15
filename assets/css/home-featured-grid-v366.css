@@ -16,28 +16,24 @@
 html.cm-dark .cm-section-card{border-color:#30445f;background:#11233a;color:#edf4ff}
 @media(max-width:900px){.cm-featured-grid{grid-template-columns:minmax(0,1.75fr) minmax(230px,.85fr)}.cm-featured-grid>.featured{min-height:450px}.cm-featured-grid>.featured .txt{padding:28px}.cm-featured-grid>.featured h1{font-size:clamp(1.65rem,3.7vw,2.5rem)}.cm-section-card strong{font-size:.87rem}}
 @media(max-width:700px){
-  .cm-featured-grid{grid-template-columns:minmax(0,1.42fr) minmax(132px,1fr);gap:10px;margin-top:24px}
-  .cm-featured-grid>.featured{min-height:450px;max-height:480px}
-  .cm-featured-grid>.featured .txt{min-height:450px;width:100%;padding:64px 13px 16px}
-  .cm-featured-grid>.featured .tag{left:14px;top:14px;padding:6px 9px;font-size:.56rem}
-  .cm-featured-grid>.featured h1{max-width:100%;font-size:clamp(1.08rem,4.9vw,1.42rem);line-height:1.05}
-  .cm-featured-grid>.featured p{font-size:.7rem;line-height:1.35;-webkit-line-clamp:2}
-  .cm-featured-grid>.featured .cm-featured-stats{gap:5px;margin-top:10px}
-  .cm-featured-grid>.featured .cm-featured-stat{display:block}
-  .cm-featured-grid>.featured .cm-featured-stat>i{display:none}
-  .cm-featured-grid>.featured .cm-featured-stat strong{font-size:.62rem}
-  .cm-featured-grid>.featured .cm-featured-stat small{display:none}
-  .cm-featured-grid>.featured .cm-featured-foot{display:block;margin-top:10px}
-  .cm-featured-grid>.featured .cta{min-height:32px;padding:0 12px;font-size:.68rem}
+  .cm-featured-grid{grid-template-columns:minmax(0,59fr) minmax(0,40fr);grid-template-rows:1fr;gap:1.5%;height:auto;min-height:0;aspect-ratio:1.95/1;margin:18px 0 24px}
+  .cm-featured-grid>.featured{min-height:0!important;max-height:none!important;height:100%;border-radius:14px}
+  .cm-featured-grid>.featured .txt{min-height:0!important;height:100%;width:100%;justify-content:flex-end;padding:42px 12px 10px}
+  .cm-featured-grid>.featured .tag{left:10px;top:10px;padding:4px 7px;font-size:.44rem}
+  .cm-featured-grid>.featured h1{max-width:100%;margin:0 0 7px;font-size:clamp(.84rem,4vw,1.02rem);line-height:1.02}
+  .cm-featured-grid>.featured p{display:none}
+  .cm-featured-grid>.featured .cm-featured-stats{display:none}
+  .cm-featured-grid>.featured .cm-featured-foot{display:block;margin:0}
+  .cm-featured-grid>.featured .cta{min-height:25px;padding:0 9px;background:transparent;box-shadow:none;font-size:.53rem}
   .cm-featured-grid>.featured .cm-featured-date{display:none}
-  .cm-featured-side{grid-template-columns:1fr;grid-template-rows:repeat(3,minmax(0,1fr));gap:9px;margin:0}
-  .cm-section-card{min-height:0;border-radius:16px;grid-template-columns:1fr!important;grid-template-rows:minmax(0,54%) minmax(0,46%)!important;background:#fff!important;color:#102940!important}
+  .cm-featured-side{grid-template-columns:1fr;grid-template-rows:repeat(3,minmax(0,1fr));gap:3%;min-height:0;margin:0}
+  .cm-section-card{min-height:0;border-radius:11px;grid-template-columns:42% 58%!important;grid-template-rows:1fr!important;background:#fff!important;color:#102940!important}
   .cm-section-card>img{position:relative!important;inset:auto!important;z-index:0!important;display:block!important;grid-column:1!important;grid-row:1!important;width:100%!important;height:100%!important;min-height:0!important;object-fit:cover!important}
-  .cm-section-card>.cm-section-card-copy{position:relative!important;z-index:1!important;grid-column:1!important;grid-row:2!important;width:100%!important;background:#fff!important;color:#102940!important}
-  .cm-section-card::after{right:8px;bottom:7px;font-size:.65rem}
-  .cm-section-card-copy{justify-content:flex-start;gap:4px;padding:8px 17px 7px 9px}
-  .cm-section-card-kicker{font-size:.53rem;letter-spacing:.08em}
-  .cm-section-card strong{max-width:none;color:#102940!important;font-size:.72rem;line-height:1.08;-webkit-line-clamp:3}
+  .cm-section-card>.cm-section-card-copy{position:relative!important;z-index:1!important;grid-column:2!important;grid-row:1!important;width:100%!important;background:#fff!important;color:#102940!important}
+  .cm-section-card::after{right:5px;bottom:4px;font-size:.48rem}
+  .cm-section-card-copy{justify-content:center;gap:2px;padding:4px 10px 4px 6px}
+  .cm-section-card-kicker{font-size:.38rem;letter-spacing:.06em}
+  .cm-section-card strong{max-width:none;color:#102940!important;font-size:.51rem;line-height:1.04;-webkit-line-clamp:3}
   .cm-section-card time{display:none}
 }
 @media(prefers-reduced-motion:reduce){.cm-section-card img{transition:none}}

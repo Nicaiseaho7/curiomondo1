@@ -59,6 +59,7 @@
       "side_cards_selection": "latest_eligible_article_by_category_excluding_featured_and_already_selected_side_cards",
       "side_cards_excluded_from_latest_news": true,
       "mobile": "hero a sinistra e tre card compatte impilate a destra; Ultime notizie sotto l'intero blocco",
+      "reference_proportions": {"overall_aspect_ratio": 1.95, "hero_width_percent": 59, "side_width_percent": 40, "side_card_count": 3},
       "required_on_future_homepage_updates": true
     },
     "live_exact_count": 10,
