@@ -63,6 +63,11 @@
     }
   },
   "news": {
+    "film_and_tv_tag": {
+      "label": "Film e serie TV",
+      "applies_to": ["film", "cinema", "serie televisive", "streaming"],
+      "forbidden_label": "Cultura"
+    },
     "freshness_rule": {
       "current_owner_instruction": "Durante la ricerca automatica pubblicare solo notizie pubblicate o sviluppatesi nel giorno corrente in Europe/Rome.",
       "reject_old_news": "Non usare come ultime notizie fatti usciti da giorni, settimane o mesi.",

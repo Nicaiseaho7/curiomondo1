@@ -295,6 +295,11 @@ resto del template resta identico.
 <header class="topbar">... (riusare header esistente da un articolo recente) ...</header>
 <main class="wrap">
 <div class="badge">CATEGORIA · Sottocategoria</div>
+
+Per ogni notizia su film, cinema, serie televisive o streaming, il badge e la
+sezione mostrata nelle card devono essere esattamente `Film e serie TV`. Non
+usare `Cultura` per questi contenuti. `Cultura` resta riservata ad arte, libri,
+patrimonio, musica e spettacoli che non siano film o serie televisive.
 <h1>TITOLO ARTICOLO</h1>
 <p class="subtitle">SOTTOTITOLO/RIASSUNTO</p>
 <div class="meta">DATA · aggiornato alle ORA · CATEGORIA · <span id="readTime">N min di lettura</span></div>

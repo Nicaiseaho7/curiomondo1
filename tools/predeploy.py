@@ -313,6 +313,12 @@ for url,count in Counter(refs).items():
 errors.extend(publication_date_errors)
 
 home=html.fromstring((root/'index.html').read_text(errors='replace'))
+film_tv_terms=('cinema','film','serie tv','serie televis','streaming','slow horses','netflix','apple tv','prime video','disney+')
+for card in home.xpath('//a[@href][.//h3]'):
+    signal=' '.join([card.get('href',''),' '.join(card.xpath('.//h3//text()'))]).casefold()
+    if any(term in signal for term in film_tv_terms):
+        label=' '.join(card.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," ameta ") or contains(concat(" ",normalize-space(@class)," ")," meta ")]//text()')).strip()
+        if label!='Film e serie TV': errors.append(f'tag film/serie non conforme in homepage: {card.get("href")}')
 if home.xpath('//footer//*[contains(concat(" ",normalize-space(@class)," ")," cm-nicaise-signature ")]'): errors.append('firma Nicaise ancora presente nel footer home')
 for selector,label in [('//div[contains(@class,"auto-rail")]//img/@src','Ultime notizie'),('//div[@id="cards"]//img/@src','Tutte le notizie')]:
     section_refs=home.xpath(selector)

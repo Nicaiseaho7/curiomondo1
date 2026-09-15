@@ -31,7 +31,7 @@ Formato della risposta:
   "titolo": "titolo fattuale, massimo 100 caratteri, senza clickbait",
   "sommario": "una o due frasi che completano il titolo, 150-250 caratteri",
   "luogo": "citta o paese del fatto",
-  "categoria": "una tra Italia, Mondo, Politica, Cronaca, Economia, Sport, Tecnologia, Cultura, Scienza, Ambiente",
+  "categoria": "una tra Italia, Mondo, Politica, Cronaca, Economia, Sport, Tecnologia, Cultura, Film e serie TV, Scienza, Ambiente",
   "formato": "flash | standard | feature",
   "paragrafi": ["primo paragrafo con chi, cosa, quando, dove e perche", "secondo", "..."],
   "fonti": [
