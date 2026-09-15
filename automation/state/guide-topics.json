@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "policy": {
     "source": "user_canonical_guide_queue",
     "selection_rule": "Choose only from remaining_topics; remove exact topic after successful publication.",
@@ -12,8 +12,6 @@
     {
       "category": "Tecnologia e informatica",
       "remaining_topics": [
-        "Come formattare PC / hard disk",
-        "Come velocizzare PC / smartphone",
         "Come togliere virus / malware",
         "Come collegare stampante Wi-Fi",
         "Come fare screen recording",
@@ -42,7 +40,9 @@
         "Come scaricare video da YouTube",
         "Come fare backup (WhatsApp, foto, PC)",
         "Come recuperare password (Gmail, Facebook, Instagram, Wi-Fi)",
-        "Come installare app (Android/iOS)"
+        "Come installare app (Android/iOS)",
+        "Come formattare PC / hard disk",
+        "Come velocizzare PC / smartphone"
       ]
     },
     {
