@@ -55,6 +55,9 @@
     "featured_layout": {
       "desktop": "hero principale dominante a sinistra e tre card editoriali compatte impilate a destra",
       "side_cards_exact_order": ["Sport", "Film e serie TV", "Italia"],
+      "side_cards_link_target": "direct_article_url",
+      "side_cards_selection": "latest_eligible_article_by_category_excluding_featured_and_already_selected_side_cards",
+      "side_cards_excluded_from_latest_news": true,
       "mobile": "hero a sinistra e tre card compatte impilate a destra; Ultime notizie sotto l'intero blocco",
       "required_on_future_homepage_updates": true
     },

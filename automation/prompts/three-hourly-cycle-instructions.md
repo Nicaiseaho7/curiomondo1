@@ -389,6 +389,9 @@ in `curio-related`. Registrare il nuovo approfondimento anche in `approfondiment
      Sport, Film e serie TV, Italia, aggiornate con la notizia più recente pertinente.
      Anche su mobile le tre card restano a destra della hero; il blocco Ultime
      notizie comincia soltanto sotto l'intera griglia.
+     Dopo ogni inserimento eseguire `python3 tools/sync_home_lead_grid.py`: ciascuna
+     card laterale deve collegare direttamente l'articolo più recente della propria
+     categoria e gli URL di tutte e tre devono essere esclusi da `auto-rail`.
      sostituire con la notizia più pesante del ciclo; l'ex featured scende in cima
      all'auto-rail.
    - `class="cm-home-deep-links"` (esattamente 3 link): prepend se è stato creato un
