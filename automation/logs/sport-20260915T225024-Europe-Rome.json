@@ -1,0 +1,32 @@
+{
+  "run_started_at": "2026-09-15T22:50:24+02:00",
+  "timezone": "Europe/Rome",
+  "status": "VISUAL_CORRECTION_READY",
+  "repository_head_inspected": "9dbf4414c0df95cc471d3d49bfb129061046b7b1",
+  "new_articles_published": 0,
+  "articles_updated": 1,
+  "research": {
+    "coverage_target": 500,
+    "coverage_complete": false,
+    "distinct_external_pages_opened_and_read": 2,
+    "distinct_external_domains": 2,
+    "limitations": [
+      "Coverage target of 500 was not reached in this run.",
+      "Fresh James Rodriguez retirement reporting was identified, but a second independently read source and a correctly generated dedicated image were not both available in-session, so no new article was published."
+    ]
+  },
+  "update": {
+    "article": "/notizie/nba-kawhi-leonard-torna-a-toronto-trade-ufficiale-con-i-raptors-15-09-2026.html",
+    "type": "editorial_image_correction",
+    "reason": "The published asset at the existing Kawhi Leonard image paths was still a generic basketball court although page metadata already described Leonard. Replaced all three responsive variants with the previously generated and visually validated Kawhi Leonard Toronto Raptors illustration.",
+    "image_subject": "Kawhi Leonard",
+    "visual_review": {
+      "approved": true,
+      "recognizable_public_figure": true,
+      "team_context": "Toronto Raptors",
+      "text_overlay": false,
+      "watermark": false,
+      "sensitive_context": false
+    }
+  }
+}
