@@ -33,6 +33,9 @@
 #drawer .drawer-brand-card strong{font-size:21px;color:var(--menu-ink)}
 #drawer .drawer-brand-card small{font:400 11px/1.4 Arial,Helvetica,sans-serif;color:var(--menu-muted)!important}
 #drawer :is(a,button):focus-visible{outline:3px solid #245fd6!important;outline-offset:-3px}
+#drawer .drawer-brand-home:focus-visible{outline:none!important}
+#drawer .drawer-brand-home{-webkit-tap-highlight-color:transparent}
+#drawer .drawer-nav .drawer-about{margin:2px 0!important;padding:0!important;border:0!important}
 @media(hover:hover){#drawer .drawer-tool:hover,#drawer .drawer-primary>a:hover,#drawer .drawer-category-grid>a:hover{background:#edf3ff!important}#drawer .drawer-featured>a:hover{filter:brightness(1.12)}}
 html.cm-dark #drawer{--menu-ink:#eef4ff;--menu-muted:#aabbd2;--menu-line:#293951;--menu-paper:#14243b;background:#0c192c!important}
 html.cm-dark #drawer .drawer-tool-icon,html.cm-dark #drawer .drawer-nav .drawer-nav-icon{background:#213856!important;color:#a7c4ff!important}
