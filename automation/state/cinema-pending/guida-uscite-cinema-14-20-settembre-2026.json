@@ -1,0 +1,91 @@
+{
+  "titolo": "Cinema, tre uscite dal 17 settembre: Resident Evil e due film italiani",
+  "slug": "cinema-uscite-italia-14-20-settembre-2026",
+  "sommario": "Resident Evil, Ritorno a Buenos Aires e Dov’è la Fiesta? arrivano nelle sale italiane il 17 settembre. Una guida della settimana con cast, registi e premesse senza spoiler, dalle fonti ufficiali.",
+  "luogo": "Italia",
+  "categoria": "Cultura",
+  "formato": "standard",
+  "paragrafi": [
+    "Horror, memoria della dittatura argentina e commedia sentimentale: tre percorsi diversi arrivano nei cinema italiani giovedì 17 settembre 2026. Resident Evil, Ritorno a Buenos Aires e Dov’è la Fiesta? compongono questa selezione per la settimana dal 14 al 20 settembre, verificata sui siti dei rispettivi distributori il 15 settembre.",
+    "Per tutti e tre i titoli la disponibilità qui confermata riguarda la sala, con accesso tramite biglietto. Le date di distribuzione non garantiscono la programmazione in ogni comune: cinema, spettacoli e tariffe vanno controllati presso la struttura scelta. Le fonti consultate non indicano date italiane per streaming in abbonamento, noleggio o acquisto digitale.",
+    "Resident Evil. Il titolo italiano coincide con quello originale del nuovo film diretto da Zach Cregger, il regista di Barbarian e Weapons. Eagle Pictures ne conferma l’arrivo in Italia con Austin Abrams protagonista: interpreta Bryan, un corriere medico coinvolto in una notte in cui sopravvivere diventa una corsa contro il tempo.",
+    "Il motivo d’interesse è la nuova storia proposta dentro una saga già conosciuta, affidata a un autore del cinema horror recente. La scheda ufficiale presenta una vicenda inedita, centrata sul corriere e sulla sua sopravvivenza.",
+    "Ritorno a Buenos Aires. Marco Bechis dirige Adriano Giannini in un dramma prodotto tra Italia e Brasile e distribuito da Fandango. Il protagonista, Mariano Guerra, torna in Argentina nel 2008 per testimoniare al processo contro gli ex militari responsabili della sua prigionia durante la dittatura.",
+    "Il film è stato presentato in concorso a Venezia 83, ma il passaggio al festival va distinto dall’uscita nazionale nelle sale. Nel commento pubblicato dalla Biennale, Bechis chiarisce che la storia nasce da un’esperienza che conosce, ma Mariano non coincide con lui. Si tratta di finzione cinematografica.",
+    "Dov’è la Fiesta? Niccolò Gentili dirige Francesco Carril e Linda Caridi in una commedia distribuita da Vision Distribution. Leo e Irene si frequentano da poco e stanno per chiarire che cosa desiderano dalla loro relazione quando il furto dell’auto complica i loro programmi.",
+    "Questa uscita offre un’opzione sentimentale e quotidiana accanto all’horror e al dramma storico della selezione. La produzione riunisce Elsinore Film, The Apartment e Vision Distribution, in collaborazione con Sky. Quest’ultima partecipazione produttiva non costituisce, da sola, l’annuncio di una data televisiva o streaming."
+  ],
+  "fonti": [
+    {
+      "url": "https://eaglepictures.com/resident-evil",
+      "descrizione": "Eagle Pictures: uscita italiana di Resident Evil, regia, protagonista, genere e premessa"
+    },
+    {
+      "url": "https://www.fandango.it/film/ritorno-a-buenos-aires/",
+      "descrizione": "Fandango: data italiana, cast, produzione e trama di Ritorno a Buenos Aires"
+    },
+    {
+      "url": "https://www.visiondistribution.it/film/dove-la-fiesta/",
+      "descrizione": "Vision Distribution: uscita, regista, interpreti e produzione di Dov’è la Fiesta?"
+    },
+    {
+      "url": "https://www.labiennale.org/it/cinema/2026/venezia-83-concorso/ritorno-buenos-aires",
+      "descrizione": "Biennale di Venezia: partecipazione al concorso, durata e commento originale di Marco Bechis"
+    }
+  ],
+  "parole_chiave_titolo": [
+    "17 settembre",
+    "Resident Evil"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "17 settembre",
+      "etichetta": "uscita nelle sale italiane"
+    },
+    {
+      "icona": "●",
+      "valore": "3 film",
+      "etichetta": "selezione della settimana"
+    },
+    {
+      "icona": "▲",
+      "valore": "In sala",
+      "etichetta": "disponibilità confermata"
+    }
+  ],
+  "immagine": {
+    "alt": "Illustrazione editoriale IA contestuale di Austin Abrams, protagonista di Resident Evil, in un corridoio; immagine rappresentativa di uno dei film della guida, non un fotogramma ufficiale.",
+    "prompt": "Illustrazione fotorealistica originale di Austin Abrams con identità ancorata a una fotografia di riferimento di Cero Magazine, abiti casual e corridoio contestuale. Persona pubblica, contesto ordinario cinema, non fotogramma o foto ufficiale; no testo e watermark.",
+    "personaggio_pubblico": "Austin Abrams",
+    "contesto_sensibile": false,
+    "url": "https://curiomondo.it/assets/images/editorial-auto/cinema-uscite-italia-14-20-settembre-2026-ai-openai-v365-1200.webp",
+    "reference_source": "https://www.ceromagazine.com/articles/austin-abrams-wolfs-kid-euphoria-ethan-dash-lily-actor-interview"
+  },
+  "verifica": {
+    "event_id": "italia-cinema-uscite-week-2026-09-14",
+    "status": "UFFICIALE",
+    "editorial_format": "weekly_release_guide",
+    "guide_period": {
+      "start": "2026-09-14",
+      "end": "2026-09-20",
+      "territory": "IT",
+      "availability": "cinema"
+    },
+    "development_date": "2026-09-17",
+    "development_time": null,
+    "timezone": "Europe/Rome",
+    "sensibile": false,
+    "valore_aggiunto": [
+      "Confronto di tre uscite italiane per genere, interpreti e premessa",
+      "Distinzione tra sala, partecipazione a festival e disponibilità digitale non annunciata"
+    ],
+    "publication_state": "prepared_awaiting_commit_and_online_verification",
+    "image_review": "approved_after_identity_check",
+    "visual_attempts": 2,
+    "publication_receipt_branch": "automation-state",
+    "publication_receipt_path": "cinema-series/2026-09-15T182213Z.json"
+  },
+  "published": "2026-09-15T20:34:20+02:00",
+  "category_full": "Italia / Cultura"
+}

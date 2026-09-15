@@ -1,7 +1,85 @@
 {
-  "version": 364,
+  "version": 365,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "cinema-uscite-italia-14-20-settembre-2026-ai-openai-v365",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "OpenAI image_gen",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/cinema-uscite-italia-14-20-settembre-2026-ai-openai-v365-480.webp",
+          "sha256": "9ce8afc01990550aca857e3eae2ad24117b9c42cad4356250528a73711ad6ce3",
+          "bytes": 16352
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/cinema-uscite-italia-14-20-settembre-2026-ai-openai-v365-800.webp",
+          "sha256": "bbd6d4bc8b5a1a6f0df4ce891d09382497ba76609cc9878c27042f06e329410f",
+          "bytes": 33204
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/cinema-uscite-italia-14-20-settembre-2026-ai-openai-v365-1200.webp",
+          "sha256": "e047b93072cba8bb18abeb43354e4ecd87a19c029b11ea8b88651e2b19ac9d12",
+          "bytes": 61378
+        }
+      ],
+      "alt": "Illustrazione editoriale IA contestuale di Austin Abrams, protagonista di Resident Evil, in un corridoio; immagine rappresentativa di uno dei film della guida, non un fotogramma ufficiale.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "syntheticLikeness": "public-figure",
+      "sensitiveContext": false,
+      "visualReview": {
+        "approved": true,
+        "subject": "Austin Abrams",
+        "textOverlay": false,
+        "watermark": false,
+        "context": "ordinary-editorial"
+      },
+      "sourceReference": "https://www.ceromagazine.com/articles/austin-abrams-wolfs-kid-euphoria-ethan-dash-lily-actor-interview",
+      "article": "/notizie/cinema-uscite-italia-14-20-settembre-2026.html"
+    },
+    {
+      "key": "slow-horses-ottava-stagione-sesta-uscita-italia-15-settembre-2026-ai-openai-v365",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "OpenAI image_gen",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/slow-horses-ottava-stagione-sesta-uscita-italia-15-settembre-2026-ai-openai-v365-480.webp",
+          "sha256": "d18f4b89247f48c2c4d359f5a2358a168e1a295e301133a80de59ff68d09fb17",
+          "bytes": 20468
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/slow-horses-ottava-stagione-sesta-uscita-italia-15-settembre-2026-ai-openai-v365-800.webp",
+          "sha256": "d5d64b5970f46bb8a4d556a3d5533b36dd6a5543f0bffe2e3b46f8372ab6c27e",
+          "bytes": 46168
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/slow-horses-ottava-stagione-sesta-uscita-italia-15-settembre-2026-ai-openai-v365-1200.webp",
+          "sha256": "08a7b5f2438773639900677fc2d024b3336f016b99500c6bdad5d3cfbe204650",
+          "bytes": 87576
+        }
+      ],
+      "alt": "Illustrazione editoriale IA contestuale di Gary Oldman riconoscibile, protagonista di Slow Horses, in un ufficio londinese; scena non documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "syntheticLikeness": "public-figure",
+      "sensitiveContext": false,
+      "visualReview": {
+        "approved": true,
+        "subject": "Gary Oldman",
+        "textOverlay": false,
+        "watermark": false,
+        "context": "ordinary-editorial"
+      },
+      "sourceReference": null,
+      "article": "/notizie/slow-horses-ottava-stagione-sesta-uscita-italia-15-settembre-2026.html"
+    },
     {
       "alt": "Immagine editoriale IA di controlli documentali ordinati in un aeroporto europeo, senza persone identificabili",
       "variants": [
