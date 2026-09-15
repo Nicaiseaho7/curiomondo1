@@ -1,12 +1,7 @@
 /* Premium navigation. Scoped to the drawer to preserve the homepage. */
 #drawer{--menu-ink:#102b4d;--menu-muted:#60718a;--menu-line:#e1e7f0;--menu-paper:#fff;width:min(90vw,410px)!important;max-width:410px!important;border-radius:0 28px 28px 0!important;background:#f7f9fc!important;color:var(--menu-ink)!important;font-family:Arial,Helvetica,sans-serif!important;box-shadow:20px 0 80px #06152b40!important}
 #drawer::backdrop{background:#06152b70!important;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
-#drawer .drawer-head{padding:24px 20px 20px!important;min-height:112px!important;border-bottom:1px solid var(--menu-line)!important;background:var(--menu-paper)!important}
-#drawer .drawer-brand-line{flex-direction:column!important;align-items:flex-start!important;gap:8px!important}
-#drawer .drawer-brand-home .cm-wordmark{font-size:27px!important;letter-spacing:-1.2px!important;color:var(--menu-ink)!important}
-#drawer .drawer-brand-home .cm-wordmark>span{color:#245fd6!important}
-#drawer .cm-nicaise-drawer{padding:0!important;border:0!important}
-#drawer .cm-nicaise-word{font-size:18px!important;color:var(--menu-muted)!important}
+/* Brand typography and inline signature retain the original bundle styles. */
 #drawer .drawer-close{width:44px!important;height:44px!important;border-radius:14px!important;border:1px solid var(--menu-line)!important;background:var(--menu-paper)!important;color:var(--menu-ink)!important;box-shadow:0 4px 12px #102b4d08!important}
 #drawer .drawer-content{padding:18px 18px max(24px,env(safe-area-inset-bottom))}
 #drawer .drawer-tools{gap:0!important;margin-bottom:14px!important;border:1px solid var(--menu-line);border-radius:20px;overflow:hidden;box-shadow:0 6px 20px #102b4d05}
