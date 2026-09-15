@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://curiomondo.it/notizie/legge-elettorale-il-senato-approva-la-riforma-ora-torna-alla-camera-15-09-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-15T15:54:34+02:00</news:publication_date>
+      <news:title>Legge elettorale, il Senato approva la riforma: ora torna alla Camera</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://curiomondo.it/notizie/corea-del-sud-e-kazakistan-firmano-13-accordi-su-nucleare-petrolio-e-minerali-15-09-2026.html</loc>
     <news:news>
       <news:publication>
@@ -174,28 +185,6 @@
       </news:publication>
       <news:publication_date>2026-09-13T19:16:54+02:00</news:publication_date>
       <news:title>Indonesia, traghetto si capovolge nel Mar di Giava: 6 morti e 129 dispersi</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/zaporizhzhia-dieci-attacchi-droni-centro-addestramento-13-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-13T15:30:00+02:00</news:publication_date>
-      <news:title>Zaporizhzhia, la gestione russa denuncia oltre dieci attacchi con droni</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/energia-attacchi-rotte-petrolio-pipeline-est-ovest-13-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-13T13:20:00+02:00</news:publication_date>
-      <news:title>Petrolio oltre 108 dollari dopo nuovi attacchi in Arabia Saudita e Hormuz</news:title>
     </news:news>
   </url>
 </urlset>
