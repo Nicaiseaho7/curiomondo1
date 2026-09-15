@@ -4,7 +4,7 @@
 .header::after{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(90deg,rgba(3,15,32,.93),rgba(3,15,32,.78) 48%,rgba(3,15,32,.15) 78%);pointer-events:none}
 .header .nav{position:relative;z-index:1}
 .header .cm-wordmark,html.cm-dark .header .cm-wordmark{color:#fff!important;-webkit-text-fill-color:#fff!important;text-shadow:0 2px 5px #031020,0 0 12px #031020}
-.header .cm-wordmark>span,html.cm-dark .header .cm-wordmark>span{color:#a4dcff!important;-webkit-text-fill-color:#a4dcff!important}
+.header .cm-wordmark>span,html.cm-dark .header .cm-wordmark>span{color:#245fd6!important;-webkit-text-fill-color:#245fd6!important}
 .header .cm-brand-tagline,html.cm-dark .header .cm-brand-tagline{color:#f0f5ff!important;text-shadow:0 1px 4px #031020}
 .header .cm-brand-logo{background:#fff;box-shadow:0 0 0 3px #ffffffb3,0 5px 18px #0005}
 .header .icon-btn,html.cm-dark .header .icon-btn{background:#f5f9ff!important;color:#102c4b!important;border-color:#c7d7ea!important}
