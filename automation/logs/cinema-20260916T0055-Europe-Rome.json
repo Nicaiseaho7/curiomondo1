@@ -1,0 +1,50 @@
+{
+  "run_started_at": "2026-09-16T00:55:00+02:00",
+  "timezone": "Europe/Rome",
+  "status": "BLOCKED_IMAGE_GENERATION",
+  "repository_head_inspected": "eaebd5808b0c1e51d9c1133697a2a1a0321f686b",
+  "new_articles_published": 0,
+  "articles_updated": 0,
+  "research": {
+    "coverage_target": 500,
+    "coverage_complete": false,
+    "explicit_external_pages_opened_and_read": 9,
+    "note": "Search-result snippets and duplicate results are excluded from this count. The 500-content target was not reached in this run."
+  },
+  "deduplication": {
+    "existing_cinema_batch_found": {
+      "commit": "dfa672a4784f921a9e8b4d239dde98f1e0fed95a",
+      "message": "v365: pubblica Slow Horses e guida cinema 14-20 settembre"
+    }
+  },
+  "candidates": [
+    {
+      "event_id": "netflix-stranger-things-tales-from-85-s2-trailer-20260915",
+      "title": "Stranger Things: Tales From '85, trailer della stagione 2: uscita il 17 settembre",
+      "category": "Cultura",
+      "verification_status": "UFFICIALE",
+      "editorial_score": 8,
+      "primary_source": "https://www.netflix.com/tudum/articles/stranger-things-tales-from-85-season-2-release-date",
+      "italy_catalog_check": "https://www.netflix.com/it-en/title/81398721",
+      "independent_confirmation": "https://ew.com/2026-tv-premiere-dates-11854588",
+      "publication_status": "NON_PUBBLICATO",
+      "blocking_reason": "OpenAI image generation repeatedly returned unrelated Dune/Timothee Chalamet desert imagery instead of the requested Stranger Things animated editorial visual. The results were rejected and not uploaded."
+    },
+    {
+      "event_id": "netflix-the-diplomat-s4-main-trailer-20260915",
+      "title": "The Diplomat 4, Netflix pubblica il nuovo trailer: uscita il 15 ottobre",
+      "category": "Cultura",
+      "verification_status": "UFFICIALE",
+      "editorial_score": 8,
+      "primary_source": "https://www.netflix.com/tudum/articles/the-diplomat-season-4-trailer",
+      "italy_catalog_check": "https://www.netflix.com/it/title/81288983",
+      "independent_confirmation": "https://www.hollywoodreporter.com/tv/tv-news/the-diplomat-season-4-trailer-keri-russell-allison-janney-1236702047/",
+      "publication_status": "NON_PUBBLICATO",
+      "blocking_reason": "OpenAI image generation returned unrelated Dune/Timothee Chalamet visuals, including one with text inside the pixels, instead of Keri Russell in a diplomatic context. The results were rejected and not uploaded."
+    }
+  ],
+  "public_news_files_changed": false,
+  "workflows_changed": false,
+  "five_minute_automation_reenabled": false,
+  "retry_rule": "On the next run, revalidate freshness and duplicates. Publish only after obtaining a newly generated, visually validated image coherent with the selected article; never reuse any rejected Dune visual from this run."
+}
