@@ -321,7 +321,7 @@ if len(home.xpath('//nav[contains(@class,"ticker-track")][1]/a'))!=10: errors.ap
 if len(home.xpath('//div[contains(@class,"auto-rail")]/a'))!=5: errors.append('Ultime notizie non contiene 5 articoli')
 if len(home.xpath('//div[contains(@class,"auto-rail")]/a/h3 | //div[contains(@class,"auto-rail")]/a//h3'))!=5: errors.append('titoli mancanti nelle card Ultime notizie')
 if len(home.xpath('//div[contains(@class,"auto-rail")]/a//p[normalize-space()]'))!=5: errors.append('spiegazioni iniziali mancanti nelle card Ultime notizie')
-promoted_urls=set(home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]/@href | //div[contains(@class,"auto-rail")]/a/@href'))
+promoted_urls=set(home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//a[contains(@class,"cta")]/@href | //div[contains(@class,"auto-rail")]/a/@href'))
 all_news_urls=home.xpath('//div[@id="cards"]/a/@href')
 if promoted_urls.intersection(all_news_urls): errors.append('notizie promosse duplicate in Tutte le notizie')
 if len(all_news_urls)<12: errors.append('titoli mancanti nelle card Tutte le notizie')
@@ -331,32 +331,26 @@ featured_cards=home.xpath('//*[contains(concat(" ",normalize-space(@class)," "),
 if len(featured_cards)!=1: errors.append('apertura principale non unica')
 if not home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//h1//span[contains(@class,"cm-featured-key")]'): errors.append('parole chiave blu mancanti nella card In evidenza')
 if len(home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//*[contains(concat(" ",normalize-space(@class)," ")," cm-featured-stat ")]'))!=3: errors.append('la card In evidenza non contiene esattamente 3 mini-dati')
-if not home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")][self::a][starts-with(@href,"/notizie/")]'):
-    errors.append('la card In evidenza deve essere interamente cliccabile e collegare direttamente l’articolo')
+if len(home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//a[@href]'))!=1 or not home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//a[contains(@class,"cta") and normalize-space()="Leggi l’articolo →"]'):
+    errors.append('nella card In evidenza deve essere cliccabile soltanto Leggi l’articolo')
 
-featured_href=home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]/@href | //*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//a[contains(@class,"cta")]/@href')
+featured_href=home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//a[contains(@class,"cta")]/@href')
 rail_hrefs=home.xpath('//div[contains(@class,"auto-rail")]/a/@href')
-side_hrefs=home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-featured-side ")]/a/@href')
-if len(side_hrefs)!=3: errors.append('le card laterali devono essere esattamente tre')
-if len(side_hrefs)!=len(set(side_hrefs)): errors.append('articolo duplicato nelle card laterali')
-if set(side_hrefs)&set(rail_hrefs): errors.append('gli articoli delle card laterali sono duplicati in Ultime notizie')
-if any(not href.startswith('/notizie/') for href in side_hrefs): errors.append('le card laterali devono collegare direttamente gli articoli')
 chronological=[url for url,_ in sorted(card_eligible_dates.items(),key=lambda kv:(kv[1],kv[0]),reverse=True)]
 if featured_href and featured_href[0] not in card_eligible_dates:
     errors.append(f'Ultima ora non idonea alle card editoriali: {featured_href[0]}')
 chronological_after_featured=[url for url in chronological if url not in set(featured_href)]
-expected_rail=[url for url in chronological_after_featured if url not in set(side_hrefs)][:5]
-if rail_hrefs!=expected_rail:
-    errors.append('Ultime notizie non contiene le cinque notizie cronologiche attese dopo l’esclusione delle card laterali')
-expected_archive=[url for url in chronological_after_featured if url not in set(rail_hrefs)]
-if all_news_urls!=expected_archive[:len(all_news_urls)]:
-    errors.append('Tutte le notizie non prosegue la sequenza cronologica attesa')
+sequence_hrefs=list(rail_hrefs)+list(all_news_urls)
+expected_sequence=chronological_after_featured[:len(sequence_hrefs)]
+if len(sequence_hrefs)!=len(expected_sequence):
+    errors.append(f'Ultime notizie + Tutte le notizie contengono {len(sequence_hrefs)} notizie ma le notizie pubblicate idonee, esclusa Ultima ora, sono {len(chronological_after_featured)}: verificare articoli mancanti o duplicati')
+elif set(sequence_hrefs)!=set(expected_sequence):
+    errors.append('Ultime notizie + Tutte le notizie non contengono l’insieme cronologico atteso')
 else:
-    sequence_hrefs=list(all_news_urls)
-    sequence_dates=[card_eligible_dates.get(url) for url in all_news_urls]
+    sequence_dates=[card_eligible_dates.get(url) for url in sequence_hrefs]
     for i in range(1,len(sequence_dates)):
         if sequence_dates[i] and sequence_dates[i-1] and sequence_dates[i]>sequence_dates[i-1]:
-            errors.append(f'sequenza cronologica Tutte le notizie non continua alla posizione {i+1}: {sequence_hrefs[i]} è più recente della voce precedente')
+            errors.append(f'sequenza cronologica Ultime notizie → Tutte le notizie non continua alla posizione {i+1}: {sequence_hrefs[i]} è più recente della voce precedente')
             break
 if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-home-deep-links ")]'): errors.append('card Approfondimenti ancora presente in homepage')
 if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-discovery-row ")]'): errors.append('card Biblioteca/Approfondimenti ancora presenti in homepage')

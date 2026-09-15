@@ -52,16 +52,6 @@
       "mini_stats_position": "below_excerpt",
       "required_for_future_featured_news": true
     },
-    "featured_layout": {
-      "desktop": "hero principale dominante a sinistra e tre card editoriali compatte impilate a destra",
-      "side_cards_exact_order": ["Sport", "Film e serie TV", "Italia"],
-      "side_cards_link_target": "direct_article_url",
-      "side_cards_selection": "latest_eligible_article_by_category_excluding_featured_and_already_selected_side_cards",
-      "side_cards_excluded_from_latest_news": true,
-      "mobile": "hero a sinistra e tre card compatte impilate a destra; Ultime notizie sotto l'intero blocco",
-      "reference_proportions": {"overall_aspect_ratio": 1.95, "hero_width_percent": 59, "side_width_percent": 40, "side_card_count": 3},
-      "required_on_future_homepage_updates": true
-    },
     "live_exact_count": 10,
     "live_order": "newest_first",
     "chronological_continuity": {
