@@ -1,0 +1,26 @@
+{
+  "run_at": "2026-09-16T17:48:56+02:00",
+  "production_branch": "main",
+  "production_base_commit": "8d8a647275e77338284e070ac4628fed841e0869",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 3,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: ANSA, Reuters e guida ACI letti integralmente; esclusi titoli, snippet, pagine duplicate e risultati di ricerca. Obiettivo non raggiunto; nessuna consultazione inventata."
+  },
+  "processed": [
+    {
+      "slug": "bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026",
+      "action": "updated_existing_article",
+      "score": 9.4,
+      "status": "CONFERMATA DA PIÙ FONTI",
+      "public_url": "https://curiomondo.it/notizie/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026.html",
+      "sources": [
+        "https://www.ansa.it/canale_motori/notizie/istituzioni/2026/09/16/fonti-palazzo-chigi-oggi-via-il-bollo-per-auto-piccole-e-medie_cb12208d-db01-44ea-a5b5-7535dd0d2550.html",
+        "https://www.reuters.com/business/italy-scraps-road-tax-most-cars-election-nears-2026-09-16/",
+        "https://www.aci.it/servizi/guida-al-bollo-auto/"
+      ],
+      "publication_state": "pending_deploy"
+    }
+  ]
+}
