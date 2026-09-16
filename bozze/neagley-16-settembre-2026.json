@@ -46,8 +46,10 @@
     }
   ],
   "immagine": {
-    "alt": "Scena editoriale contestuale generata con IA: Maria Sten nei panni di Frances Neagley, protagonista della serie, in una Chicago notturna.",
-    "url": "bozze/neagley-16-settembre-2026-source.jpg"
+    "alt": "Scena editoriale contestuale ordinaria generata con IA: Maria Sten come protagonista di Neagley, in una Chicago notturna.",
+    "url": "bozze/neagley-16-settembre-2026-source.jpg",
+    "personaggio_pubblico": true,
+    "contesto_sensibile": false
   },
-  "run_retry": 4
+  "run_retry": 5
 }
