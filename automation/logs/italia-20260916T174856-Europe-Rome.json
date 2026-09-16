@@ -1,7 +1,7 @@
 {
   "run_at": "2026-09-16T17:48:56+02:00",
   "production_branch": "main",
-  "production_base_commit": "8d8a647275e77338284e070ac4628fed841e0869",
+  "production_base_commit": "6c91f1c519028c683c6033b1b168dbc3ae948717",
   "coverage": {
     "target_distinct_full_contents": 500,
     "distinct_full_contents_actually_read": 3,
@@ -20,7 +20,15 @@
         "https://www.reuters.com/business/italy-scraps-road-tax-most-cars-election-nears-2026-09-16/",
         "https://www.aci.it/servizi/guida-al-bollo-auto/"
       ],
-      "publication_state": "pending_deploy"
+      "publication_state": "verified_online",
+      "deployment_commit": "e3fd3d3147d605cedecca62813693f4b05cabe3c",
+      "verified_at": "2026-09-16T18:06:26+02:00",
+      "verified_surfaces": [
+        "https://curiomondo.it/",
+        "https://curiomondo.it/categorie/italia/",
+        "https://curiomondo.it/notizie/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026.html",
+        "https://curiomondo.it/assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383-800.webp"
+      ]
     }
   ]
 }
