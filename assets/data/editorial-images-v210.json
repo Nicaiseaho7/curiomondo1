@@ -1,7 +1,36 @@
 {
-  "version": 381,
+  "version": 382,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v382",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v382-480.webp",
+          "sha256": "9f0f0e8136e5cae3ed72cb831ec25a3e6da0fd1a4e628764826afc93b2d71a0b",
+          "bytes": 45226
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v382-800.webp",
+          "sha256": "945eea56c23f7af3d9f0043a8430e7dc696663c9c407fc07a6353a6c0a286656",
+          "bytes": 107832
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v382-1200.webp",
+          "sha256": "aed15fb8d606c63831d15d4961afef207fbe6d873414bc0a3409d538be753e3a",
+          "bytes": 194020
+        }
+      ],
+      "alt": "Illustrazione editoriale di un’auto compatta e uno scooter parcheggiati in una strada italiana, non fotografia dell’annuncio.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "article": "/notizie/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026.html"
+    },
     {
       "id": "ex-ilva-udienza-cassazione-ai-openai-v381",
       "article": "/notizie/ex-ilva-taranto-stop-area-caldo-28-ottobre-11-settembre-2026.html",
