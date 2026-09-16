@@ -15,7 +15,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import shutil
 import subprocess
 import sys
 import urllib.request
@@ -26,7 +25,13 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from automation.newsroom import editor, site  # noqa: E402
-from automation.newsroom.publisher import CAPTION, _save_variants, _validate_image  # noqa: E402
+from automation.newsroom.openai_client import Client, OpenAIError  # noqa: E402
+from automation.newsroom.publisher import (  # noqa: E402
+    CAPTION,
+    _save_variants,
+    _validate_image,
+    _validate_visual_report,
+)
 
 AGENTE = "CurioMondoNewsroom/1.0 (+https://curiomondo.it)"
 
@@ -37,7 +42,6 @@ def carica_bozza(percorso: str) -> dict[str, Any]:
         dati = json.loads(testo)
     except json.JSONDecodeError as errore:
         raise SystemExit(f"La bozza non e JSON valido: {errore}")
-    # ChatGPT a volte incarta la risposta in un oggetto: accettiamo entrambe le forme.
     return dati.get("articolo", dati) if isinstance(dati, dict) else dati
 
 
@@ -46,8 +50,12 @@ def prepara(articolo: dict[str, Any]) -> dict[str, Any]:
     articolo.setdefault("luogo", "")
     if not articolo.get("slug"):
         articolo["slug"] = editor.slugify(str(articolo.get("titolo", "")))
-    categoria = str(articolo.get("categoria", "")).strip().capitalize()
-    articolo["categoria"] = categoria if categoria in editor.CATEGORIE else "Mondo"
+    categoria = str(articolo.get("categoria", "")).strip()
+    if categoria.lower() == "film e serie tv":
+        articolo["categoria"] = "Film e serie TV"
+    else:
+        categoria = categoria.capitalize()
+        articolo["categoria"] = categoria if categoria in editor.CATEGORIE else "Mondo"
     return articolo
 
 
@@ -57,6 +65,16 @@ def scarica_immagine(origine: str) -> bytes:
         with urllib.request.urlopen(richiesta, timeout=60) as risposta:
             return risposta.read(20_000_000)
     return Path(origine).read_bytes()
+
+
+def genera_immagine(prompt: str) -> tuple[bytes, str]:
+    client = Client(timeout=300, retries=2)
+    if not client.available:
+        raise OpenAIError("OPENAI_API_KEY non configurata per la generazione dell'immagine")
+    raw, _ = client.generate_image("gpt-image-1", prompt, size="1536x1024", quality="high")
+    report, _ = client.inspect_image("gpt-4o", raw, prompt)
+    _validate_visual_report(report)
+    return raw, "OpenAI gpt-image-1"
 
 
 def errori_del_gate() -> list[str]:
@@ -81,32 +99,38 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Pubblica un articolo scritto a mano")
     parser.add_argument("--file", required=True, help="bozza JSON, oppure - per leggerla da stdin")
     parser.add_argument("--immagine", default="",
-                        help="file o indirizzo dell'immagine; se manca si usa immagine.url della bozza")
+                        help="file o indirizzo dell'immagine; se manca si usa immagine.url o si genera da immagine.prompt")
     parser.add_argument("--alt", default="", help="descrizione dell'immagine per chi non la vede")
     parser.add_argument("--non-in-evidenza", action="store_true",
                         help="non mettere l'articolo nella card principale della home")
     args = parser.parse_args(argv)
 
-    # Fotografia del gate prima di toccare il sito: un rosso che c'era gia — per
-    # esempio la Domanda del giorno non aggiornata — non e colpa di questo
-    # articolo e non deve impedirti di pubblicarlo. Cio che conta e non
-    # aggiungerne di nuovi.
     errori_preesistenti = set(errori_del_gate())
-
     articolo = prepara(carica_bozza(args.file))
 
-    # Il controllo pretende anche il brief per il generatore di immagini, che
-    # qui non serve: l'immagine la porti tu. Al suo posto resta l'obbligo vero,
-    # cioe la descrizione per chi la pagina non la vede.
     immagine_bozza = articolo.get("immagine") or {}
     alt = (args.alt or immagine_bozza.get("alt") or "").strip()
+    prompt = str(immagine_bozza.get("prompt") or "").strip()
+    origine = args.immagine or str(immagine_bozza.get("url") or "").strip()
+    public = bool(immagine_bozza.get("personaggio_pubblico"))
+    sensitive = bool(immagine_bozza.get("contesto_sensibile"))
+
     if not alt:
         print("Manca la descrizione dell'immagine: usa --alt oppure il campo immagine.alt.",
               file=sys.stderr)
         return 1
-    articolo["immagine"] = {"alt": alt, "url": str(immagine_bozza.get("url", "")),
-                            "prompt": "immagine fornita dalla redazione, non generata: "
-                                      "il brief non serve per questo percorso manuale."}
+    if not origine and not prompt:
+        print("Manca l'immagine: indica immagine.url oppure un immagine.prompt da generare con OpenAI.",
+              file=sys.stderr)
+        return 1
+
+    articolo["immagine"] = {
+        "alt": alt,
+        "url": origine,
+        "prompt": prompt or "immagine fornita dalla redazione",
+        "personaggio_pubblico": public,
+        "contesto_sensibile": sensitive,
+    }
 
     problemi = editor.controlla_articolo(articolo)
     if problemi:
@@ -115,17 +139,28 @@ def main(argv: list[str] | None = None) -> int:
             print(f"  - {p}", file=sys.stderr)
         return 1
 
-    origine = args.immagine or str(articolo.get("immagine", {}).get("url", "")).strip()
-    if not origine:
-        print("Manca l'immagine: indicala con --immagine oppure nel campo immagine.url.",
-              file=sys.stderr)
+    try:
+        if origine:
+            raw = scarica_immagine(origine)
+            generator = "fornita dalla redazione"
+        else:
+            raw, generator = genera_immagine(prompt)
+        immagine_grezza = _validate_image(raw)
+    except Exception as errore:
+        print(f"NON PUBBLICATO: immagine non disponibile o non conforme: {errore}", file=sys.stderr)
         return 1
-    immagine_grezza = _validate_image(scarica_immagine(origine))
 
     versione = site._version()
     variants = _save_variants(immagine_grezza, f"{articolo['slug']}-v{versione}")
-    immagine = {"alt": alt, "variants": variants, "disclosure": CAPTION,
-                "generator": "fornita dalla redazione"}
+    immagine: dict[str, Any] = {
+        "alt": alt,
+        "variants": variants,
+        "disclosure": CAPTION,
+        "generator": generator,
+        "sensitiveContext": sensitive,
+    }
+    if public:
+        immagine["syntheticLikeness"] = "public-figure"
 
     creati: list[Path] = [ROOT / v["src"].lstrip("/") for v in variants]
     try:
@@ -141,7 +176,6 @@ def main(argv: list[str] | None = None) -> int:
                 print(f"  gate: {errore}", file=sys.stderr)
             raise RuntimeError("il gate ha rifiutato l'articolo")
     except Exception as errore:
-        # Fail-closed: nessuna pubblicazione a meta. Si torna allo stato di prima.
         for percorso in creati:
             percorso.unlink(missing_ok=True)
         subprocess.run(["git", "checkout", "--", "assets/data", "index.html", "notizie/index.html",
@@ -151,8 +185,8 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     if errori_preesistenti:
-        print("Attenzione: il sito aveva gia questi problemi, non introdotti da questo "
-              "articolo:", file=sys.stderr)
+        print("Attenzione: il sito aveva gia questi problemi, non introdotti da questo articolo:",
+              file=sys.stderr)
         for errore in sorted(errori_preesistenti):
             print(f"  - {errore}", file=sys.stderr)
 
