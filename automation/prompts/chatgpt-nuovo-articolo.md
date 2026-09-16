@@ -60,8 +60,10 @@ Devono esserci **esattamente tre** elementi in `dati_chiave` e le
 
 1. Salva la risposta come file `.json` dentro la cartella `bozze/`
    (su GitHub: *Add file → Create new file*, nome per esempio `bozze/mia-notizia.json`).
-2. Nel JSON, `immagine.url` deve puntare a una figura raggiungibile: va bene un
-   indirizzo pubblico qualsiasi, purche l'immagine sia almeno 1000x650 pixel.
+2. Nel JSON, `immagine.url` e **obbligatorio** e deve puntare a una figura
+   raggiungibile: va bene un indirizzo pubblico qualsiasi, purche l'immagine sia
+   almeno 1000x650 pixel. Il sito non genera piu immagini da solo, perche non
+   usa piu chiavi a pagamento.
 3. Salva. Il sito si pubblica da solo entro un paio di minuti.
 
 Se qualcosa non rispetta le regole l'articolo **non viene pubblicato** e il

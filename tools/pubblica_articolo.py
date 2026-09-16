@@ -120,14 +120,20 @@ def main(argv: list[str] | None = None) -> int:
               file=sys.stderr)
         return 1
     if not origine and not prompt:
-        print("Manca l'immagine: indica immagine.url oppure un immagine.prompt da generare con OpenAI.",
+        print("Manca l'immagine: indica immagine.url con l'indirizzo di una figura gia pronta. "
+              "La generazione automatica non e piu disponibile: il sito non usa piu chiavi a pagamento.",
               file=sys.stderr)
         return 1
 
     articolo["immagine"] = {
         "alt": alt,
         "url": origine,
-        "prompt": prompt or "immagine fornita dalla redazione",
+        # Il controllo pretende un brief lungo perche serve al generatore
+        # automatico. Quando l'immagine arriva gia pronta quel brief non esiste:
+        # al suo posto resta scritto, per esteso, da dove viene la figura.
+        "prompt": prompt or ("immagine fornita dalla redazione insieme alla bozza e non "
+                             "generata automaticamente: il brief per il generatore non "
+                             "serve in questo percorso manuale."),
         "personaggio_pubblico": public,
         "contesto_sensibile": sensitive,
     }

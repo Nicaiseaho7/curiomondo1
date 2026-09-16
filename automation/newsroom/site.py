@@ -238,11 +238,23 @@ def _featured(item):
     return node
 
 
+# Le schede di cinema e serie sul sito portano un tag proprio: "Film e serie
+# TV", senza l'area davanti. Il gate lo pretende esatto, e una home rigenerata
+# con l'etichetta composta — "Mondo / Film e serie TV" — bloccava qualunque
+# pubblicazione, anche di articoli che con il cinema non c'entravano nulla.
+TAG_PROPRI = ("Film e serie TV",)
+
+
+def _etichetta(section: str) -> str:
+    coda = section.split("/")[-1].strip()
+    return coda if coda in TAG_PROPRI else section
+
+
 def _card(item, rail=False):
     node = etree.Element("a", {"class": "auto-card" if rail else "card", "href": item["url"]})
     _picture(node, item)
     body = etree.SubElement(node, "div", {"class": "abody" if rail else "body"})
-    etree.SubElement(body, "div", {"class": "ameta" if rail else "meta"}).text = item["section"]
+    etree.SubElement(body, "div", {"class": "ameta" if rail else "meta"}).text = _etichetta(item["section"])
     etree.SubElement(body, "h3").text = item["title"]
     etree.SubElement(body, "p").text = item["excerpt"]
     etree.SubElement(body, "time", {"datetime": item["dateISO"]}).text = _italian_date(item["dateISO"]) if rail else item["dateLabel"]
