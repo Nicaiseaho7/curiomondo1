@@ -1,7 +1,39 @@
 {
-  "version": 390,
+  "version": 391,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "ue-alleanza-assicurativa-clima-eventi-estremi-16-settembre-2026-ai-openai-v391",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ue-alleanza-assicurativa-clima-eventi-estremi-16-settembre-2026-ai-openai-v391-480.webp",
+          "sha256": "238e8ba15f3accb5f521238cc7c1b2ba0fbf3617751da83aa629d44a539338c3",
+          "bytes": 40836
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ue-alleanza-assicurativa-clima-eventi-estremi-16-settembre-2026-ai-openai-v391-800.webp",
+          "sha256": "9b82b51e26c1618c8d59028fa9b72f4856cc245b7458e3422a8f2d5627b9fb7e",
+          "bytes": 108510
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ue-alleanza-assicurativa-clima-eventi-estremi-16-settembre-2026-ai-openai-v391-1200.webp",
+          "sha256": "4ff6fb871d16d4a13beb53606e04f74974730614af1b62c6a621118ae5eccd32",
+          "bytes": 223384
+        }
+      ],
+      "alt": "Illustrazione editoriale IA di un centro europeo protetto da una barriera fluviale, tra zone umide ripristinate e territorio colpito dalla siccità; non documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Ultra-realistic European climate-resilience landscape with a riverside town, flood barrier, restored wetland, drought-exposed fields and a distant firefighting aircraft; no people, text, data, logo or watermark; not documentary.",
+      "article": "/notizie/ue-alleanza-assicurativa-clima-eventi-estremi-16-settembre-2026.html"
+    },
     {
       "key": "bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383",
       "aiGenerated": true,
