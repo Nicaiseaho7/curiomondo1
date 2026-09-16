@@ -12,25 +12,13 @@
     "Palladino prende così la guida della prima squadra con un accordo lungo, valido fino all'estate del 2029. Il tecnico ha già esperienza in Serie A: ha allenato Monza e Fiorentina e, nella stagione precedente, l'Atalanta. Reuters ricorda che con il club bergamasco ha chiuso il campionato al settimo posto, tre punti davanti al Bologna, ottavo.",
     "Il primo appuntamento della nuova gestione è Bologna-Torino, in programma sabato al Dall'Ara. Palladino avrà pochi giorni per preparare il debutto e lavorare su una squadra che ha raccolto un solo punto nelle prime quattro giornate. Il cambio diventa quindi subito rilevante anche per il prossimo turno di campionato.",
     "Il contratto fino al 2029 indica una scelta che va oltre l'emergenza delle prime giornate. Gli elementi confermati sono l'esonero di Tedesco, la nomina di Palladino, la durata dell'accordo e l'allenamento previsto oggi. CurioMondo non attribuisce al nuovo tecnico obiettivi, richieste di mercato o cambi tattici non annunciati.",
-    "La notizia è stata verificata attraverso più riscontri indipendenti. Reuters e ANSA confermano l'avvicendamento, mentre Sky Sport aveva seguito già dalle prime ore della mattina l'arrivo di Tedesco a Casteldebole e l'attesa per Palladino. L'ufficialità è arrivata successivamente con la nota del Bologna, che ha trasformato le anticipazioni in una decisione formalizzata."
+    "La notizia è stata verificata attraverso più riscontri indipendenti. Reuters e ANSA confermano l'avvicendamento, mentre Sky Sport aveva seguito già dalle prime ore della mattina l'attesa per il cambio in panchina. L'ufficialità è arrivata successivamente con la nota del Bologna, che ha trasformato le anticipazioni in una decisione formalizzata."
   ],
   "fonti": [
-    {
-      "url": "https://www.reuters.com/sports/soccer/bologna-replace-tedesco-after-just-four-matches-with-ex-fiorentina-atalanta-2026-09-16/",
-      "descrizione": "Reuters, 16 settembre 2026: conferma l'esonero di Tedesco, l'ingaggio di Palladino fino al 2029 e il bilancio del Bologna nelle prime quattro giornate."
-    },
-    {
-      "url": "https://videoembed.ansa.it/sito/notizie/sport/calcio/2026/09/16/e-ufficiale-il-bologna-esonera-tedesco-arriva-palladino_c910fccc-6aed-42e6-b991-567076dd5527.html",
-      "descrizione": "ANSA, 16 settembre 2026: riporta la nota ufficiale del Bologna, il contratto fino al 30 giugno 2029 e il primo allenamento previsto alle 16."
-    },
-    {
-      "url": "https://sport.sky.it/calcio/serie-a/2026/09/16/bologna-tedesco-esonero-palladino-allenatore-news",
-      "descrizione": "Sky Sport, 16 settembre 2026: ricostruzione dell'avvicendamento e del passaggio verso la nuova guida tecnica."
-    },
-    {
-      "url": "https://football-italia.net/official-bologna-sack-tedesco-hire-palladino/",
-      "descrizione": "Football Italia, 16 settembre 2026: riscontro indipendente sulla decisione ufficiale e sulla situazione di classifica del Bologna."
-    }
+    {"url": "https://www.bolognafc.it/nota-del-club-45/", "descrizione": "Bologna FC, 16 settembre 2026: comunicazione ufficiale dell'esonero di Domenico Tedesco, nomina di Raffaele Palladino, durata del contratto e primo allenamento."},
+    {"url": "https://www.bolognafc.it/domani-presentazione-ufficiale-di-raffaele-palladino/", "descrizione": "Bologna FC: profilo del nuovo allenatore e orario della presentazione ufficiale del 17 settembre."},
+    {"url": "https://www.reuters.com/sports/soccer/bologna-replace-tedesco-after-just-four-matches-with-ex-fiorentina-atalanta-2026-09-16/", "descrizione": "Reuters, 16 settembre 2026: conferma l'esonero di Tedesco, l'ingaggio di Palladino fino al 2029 e il bilancio del Bologna nelle prime quattro giornate."},
+    {"url": "https://videoembed.ansa.it/sito/notizie/sport/calcio/2026/09/16/e-ufficiale-il-bologna-esonera-tedesco-arriva-palladino_c910fccc-6aed-42e6-b991-567076dd5527.html", "descrizione": "ANSA, 16 settembre 2026: riscontro sull'annuncio ufficiale, il contratto fino al 30 giugno 2029 e il primo allenamento previsto alle 16."}
   ],
   "parole_chiave_titolo": ["Palladino", "2029"],
   "dati_chiave": [
@@ -39,8 +27,9 @@
     {"icona": "●", "valore": "16:00", "etichetta": "primo allenamento previsto"}
   ],
   "immagine": {
-    "alt": "Ritratto editoriale contestuale generato con IA di Raffaele Palladino, riconoscibile a bordo campo in un contesto calcistico con richiami cromatici rossoblù",
-    "prompt": "Ultra-realistic professional editorial sports photograph, horizontal 3:2 composition. Recognizable public figure Raffaele Palladino is the central subject, portrayed in a neutral ordinary coaching context on the touchline of a modern Italian football training ground or stadium. He wears elegant dark coaching attire with subtle red-and-blue visual accents in the environment to evoke Bologna without copying an exact club kit, badge or real photograph. Focused professional expression, natural daylight, premium sports journalism look, realistic skin and facial features. Do not depict a specific real training session, press conference or match event as documentary fact. No added editorial text, no headline, no scoreboard, no infographic, no watermark, no signature in the pixels.",
+    "alt": "Illustrazione editoriale generata con IA di Raffaele Palladino, riconoscibile e visivamente centrale, a bordo campo in un contesto calcistico professionale con richiami rossoblù al Bologna.",
+    "url": "assets/images/editorial-auto/palladino-bologna-source-16-settembre-2026.jpg",
+    "prompt": "Fotografia editoriale ultrarealistica, orizzontale 3:2, di Raffaele Palladino riconoscibile e visivamente centrale come nuovo allenatore del Bologna, in piedi a bordo di un campo di allenamento professionale. Abbigliamento tecnico elegante e sobrio con discreti richiami rosso e blu, sfondo di centro sportivo leggermente sfocato, luce naturale di settembre, espressione concentrata e professionale. Scena contestuale ordinaria e non documentaria, senza ricostruire firma del contratto, conferenza stampa, stretta di mano o un evento realmente accaduto. Nessun testo, nessuna statistica, nessuna infografica, nessun watermark.",
     "personaggio_pubblico": true,
     "contesto_sensibile": false
   }
