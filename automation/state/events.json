@@ -2,6 +2,31 @@
   "version": 1,
   "events": [
     {
+      "run_at": "2026-09-16T08:59:15+02:00",
+      "timezone": "Europe/Rome",
+      "repository_branch": "main",
+      "coverage": {
+        "distinct_full_pages_read": 6,
+        "target": 500,
+        "target_reached": false,
+        "note": "Conteggio conservativo: esclusi risultati di ricerca, titoli, snippet, pagine bloccate, duplicati e contenuti non letti integralmente. Il controllo ha riguardato soltanto sviluppi con legame diretto con l'Italia e ha incluso il confronto con sito, repository e storico editoriale."
+      },
+      "article": {
+        "title": "Mondiali di basket in carrozzina: Italia in semifinale dopo 16 anni",
+        "slug": "italia-semifinale-mondiali-basket-carrozzina-2026",
+        "status": "UFFICIALE",
+        "editorial_score": 8.3,
+        "sources": [
+          "https://www.comitatoparalimpico.it/comunicazione/attivita/notizie/dal-mondo/basket-in-carrozzina-mondiali-litalia-batte-la-polonia-e-approva-in-semifinale.html",
+          "https://ottawa2026.ca/day-7-womens-knockout-stage-set-mens-quarter-finals-deliver-drama/",
+          "https://www.eurosport.it/paralimpiadi/mondiali-basket-in-carrozzina-2026-storica-italia-e-in-semifinale-mondiale-dopo-16-anni-polonia-ko-75-68-ora-sfida-a-giappone-o-gran-bretagna_sto23337723/story.shtml",
+          "https://www.oasport.it/2026/09/basket-in-carrozzina-italia-sempre-piu-su-e-semifinale-ai-mondiali-polonia-battuta/"
+        ],
+        "url": "https://curiomondo.it/notizie/italia-semifinale-mondiali-basket-carrozzina-2026.html",
+        "publication_state": "published_verified_online"
+      }
+    },
+    {
       "run_at": "2026-09-16T07:56:40+02:00",
       "timezone": "Europe/Rome",
       "repository_branch": "main",
