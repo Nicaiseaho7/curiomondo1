@@ -1,0 +1,41 @@
+{
+  "run_at": "2026-09-16T19:50:59+02:00",
+  "production_branch": "main",
+  "production_commit_checked": "042954577625ee8d0b0e2473a6ea16035a26ab29",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 8,
+    "target_reached": false,
+    "note": "Conteggio prudenziale dei contenuti aperti integralmente nel controllo corrente: quattro cronache indipendenti sul verdetto e quattro fonti complete su candidate poi escluse. Titoli, snippet e riprese d'agenzia non sono conteggiati."
+  },
+  "processed": [
+    {
+      "slug": "carol-maltesi-ergastolo-davide-fontana-appello-ter-16-settembre-2026",
+      "action": "new_article",
+      "score": 8.3,
+      "status": "CONFERMATA DA PIÙ FONTI",
+      "public_url": "https://curiomondo.it/notizie/carol-maltesi-ergastolo-davide-fontana-appello-ter-16-settembre-2026.html",
+      "sources": [
+        "https://www.ilfattoquotidiano.it/2026/09/16/femminicidio-carol-maltesi-fontana-ergastolo-notizie/8508027/",
+        "https://milano.repubblica.it/cronaca/2026/09/16/news/femminicidio_carol_maltesi_processo_appello_ter_chiesto_ergastolo_premeditazione_fontana-425588374/",
+        "https://milano.corriere.it/notizie/cronaca/26_settembre_16/omicidio-carol-maltesi-ergastolo-per-davide-fontana-nell-appello-ter-a-milano-confermata-la-premeditazione-d991ced9-c63a-4358-a17a-afd7f9660xlk_amp.shtml",
+        "https://www.corrierealpi.it/italia/omicidio-carol-maltesi-ergastolo-per-davide-fontana-nellappello-ter-tlsuq7fg"
+      ],
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "excluded": [
+    {
+      "topic": "Revolut, verifiche del Garante e nuove indagini",
+      "reason": "Sviluppo rilevante ma privo, al momento del controllo, di una fonte primaria pubblica e di conferma indipendente sufficiente sui nuovi atti investigativi."
+    },
+    {
+      "topic": "Inflazione definitiva di agosto al 3,3%",
+      "reason": "Dato già coperto da un articolo sullo stesso evento; la conferma definitiva non modifica il valore principale."
+    },
+    {
+      "topic": "Meloni intende arrivare a fine legislatura",
+      "reason": "Dichiarazione politica senza conseguenza istituzionale immediata; punteggio inferiore a 8."
+    }
+  ]
+}

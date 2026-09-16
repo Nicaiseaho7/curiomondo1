@@ -1,7 +1,39 @@
 {
-  "version": 387,
+  "version": 388,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "carol-maltesi-ergastolo-davide-fontana-appello-ter-16-settembre-2026-ai-openai-v388",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-cronaca/carol-maltesi-ergastolo-davide-fontana-appello-ter-16-settembre-2026-ai-openai-v388-480.webp",
+          "sha256": "2db51eb903d4bc39793428a5145c5a65f7b60acfa5ccb25497980010ae813f7d",
+          "bytes": 20050
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-cronaca/carol-maltesi-ergastolo-davide-fontana-appello-ter-16-settembre-2026-ai-openai-v388-800.webp",
+          "sha256": "437421eef3469fd352d7ab96ef7485a4d9eb6a637105ac6dc9edefc075936d42",
+          "bytes": 41142
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-cronaca/carol-maltesi-ergastolo-davide-fontana-appello-ter-16-settembre-2026-ai-openai-v388-1200.webp",
+          "sha256": "65df4f34097ccb8651a21cf7e11b45b38bd6d1bf32df7ffea564f3ff3a997daf",
+          "bytes": 73852
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA in un tribunale italiano vuoto, con fascicolo neutro e bilancia; non documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": true,
+      "reenactedEvent": false,
+      "prompt": "Respectful contextual editorial image of an empty Italian courthouse corridor with a neutral case file and brass balance; no people, no reenactment, no readable text or watermark.",
+      "article": "/notizie/carol-maltesi-ergastolo-davide-fontana-appello-ter-16-settembre-2026.html"
+    },
     {
       "key": "von-der-leyen-social-minori-ue-ai-openai-v387",
       "aiGenerated": true,
