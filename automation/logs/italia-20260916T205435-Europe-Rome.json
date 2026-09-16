@@ -1,0 +1,39 @@
+{
+  "run_at": "2026-09-16T20:54:35+02:00",
+  "production_branch": "main",
+  "production_commit_checked": "20493dcde8a38f295ca5e4eef624aac5003498ac",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 5,
+    "target_reached": false,
+    "note": "Conteggio prudenziale dei contenuti aperti e leggibili integralmente: tre aggiornamenti ANSA sul caso Revolut e due articoli Reuters. Le pagine FT bloccate dal paywall, gli indici, i risultati di ricerca, i titoli e gli snippet non sono conteggiati."
+  },
+  "processed": [
+    {
+      "slug": "revolut-pec-istituzionale-italiana-dati-clienti-16-settembre-2026",
+      "action": "substantial_update_existing_article",
+      "score": 9.0,
+      "status": "IN SVILUPPO",
+      "public_url": "https://curiomondo.it/notizie/revolut-pec-istituzionale-italiana-dati-clienti-16-settembre-2026.html",
+      "development_at": "2026-09-16T20:09:00+02:00",
+      "sources": [
+        "https://www.ansa.it/sito/notizie/topnews/2026/09/16/revolut-inchiesta-pm-reggio-calabria-per-intrusione-in-sistema-informatico_cbd30156-2ced-4548-ab50-b481ff82b399.html",
+        "https://www.ansa.it/sito/notizie/topnews/2026/09/16/truffa-a-revolut-si-e-attivata-anche-la-dna_f3a9832e-8414-4e13-9de2-7bcce1d75a48.html",
+        "https://www.ft.com/content/d1f2c9bd-26ce-4e87-9da4-fe0238bd531d",
+        "https://www.reuters.com/legal/government/revolut-hackers-demand-3-million-ransom-ft-reports-2026-09-16/",
+        "https://www.reuters.com/legal/litigation/revolut-confirms-sensitive-customer-data-breach-falling-fake-government-requests-2026-09-12/"
+      ],
+      "publication_state": "pending_commit"
+    }
+  ],
+  "excluded": [
+    {
+      "topic": "Aggressione a un rabbino a Milano",
+      "reason": "Fatto grave e territorialmente rilevante, ma al controllo disponibile una sola fonte completa; dettagli su dinamica, movente e identificazione degli aggressori ancora preliminari."
+    },
+    {
+      "topic": "Meloni dichiara di voler arrivare a fine legislatura",
+      "reason": "Dichiarazione politica senza conseguenza istituzionale immediata; punteggio inferiore a 8."
+    }
+  ]
+}
