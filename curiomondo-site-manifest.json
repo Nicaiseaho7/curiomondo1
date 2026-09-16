@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 380,
-    "site_version": 380
+    "current_site_version": 381,
+    "site_version": 381
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -239,5 +239,19 @@
       "news_sitemap_contains_article_if_eligible"
     ],
     "commit_success_is_not_equal_to_verified_publication": true
+  },
+  "site_version": 381,
+  "version": "v381",
+  "release_version": "v381",
+  "last_release": {
+    "version": 381,
+    "date": "2026-09-16",
+    "type": "content-update",
+    "news_added": [],
+    "news_updated": [
+      "ex-ilva-taranto-stop-area-caldo-28-ottobre-11-settembre-2026"
+    ],
+    "change": "Aggiornamento ex Ilva: udienza in Cassazione il 20 ottobre, decreto rinviato e sospensione annunciata dei licenziamenti nell’indotto",
+    "image_policy_applied": "new-openai-editorial-image-for-substantive-update"
   }
 }

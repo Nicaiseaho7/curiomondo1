@@ -1,0 +1,26 @@
+{
+  "run_at": "2026-09-16T15:52:26+02:00",
+  "production_branch": "main",
+  "production_base_commit": "dc222bd2fc1af548e3d752745e391e81f463e2f4",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 3,
+    "note": "Conteggio prudenziale: esclusi titoli, snippet e risultati duplicati. Obiettivo non raggiunto; nessuna consultazione inventata."
+  },
+  "processed": [
+    {
+      "slug": "ex-ilva-taranto-stop-area-caldo-28-ottobre-11-settembre-2026",
+      "action": "updated_existing_article",
+      "score": 9.0,
+      "status": "IN SVILUPPO",
+      "public_url": "https://curiomondo.it/notizie/ex-ilva-taranto-stop-area-caldo-28-ottobre-11-settembre-2026.html",
+      "sources": [
+        "https://www.ansa.it/sito/notizie/cronaca/2026/09/16/ex-ilva-tavolo-con-sindacati-riaggiornato-nessun-decreto-oggi-in-cdm_38ad21a4-7a0c-4aba-8529-c7025078aecf.html",
+        "https://www.repubblica.it/economia/2026/09/16/news/ex_ilva_la_cassazione_anticipa_udienza_commissari_decreto_cdm-425588679/",
+        "https://www.ilfattoquotidiano.it/2026/09/16/ilva-cassazione-anticipo-udienza-commissari-richiesta-sospensione-decreto-news/8508187/",
+        "https://www.reuters.com/business/italian-court-confirms-shutdown-large-steelworks-blow-to-meloni-2026-09-11/"
+      ],
+      "publication_state": "pending_deploy"
+    }
+  ]
+}

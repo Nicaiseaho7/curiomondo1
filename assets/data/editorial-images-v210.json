@@ -1,7 +1,33 @@
 {
-  "version": 380,
+  "version": 381,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "id": "ex-ilva-udienza-cassazione-ai-openai-v381",
+      "article": "/notizie/ex-ilva-taranto-stop-area-caldo-28-ottobre-11-settembre-2026.html",
+      "alt": "Illustrazione editoriale generata con IA di due lavoratori anonimi davanti a un impianto siderurgico costiero, non fotografia dell’evento",
+      "aiGenerated": true,
+      "generator": "OpenAI ImageGen",
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "variants": [
+        {
+          "src": "/assets/images/editorial-auto/ex-ilva-udienza-cassazione-ai-openai-v381-480.webp",
+          "w": 480,
+          "h": 320
+        },
+        {
+          "src": "/assets/images/editorial-auto/ex-ilva-udienza-cassazione-ai-openai-v381-800.webp",
+          "w": 800,
+          "h": 533
+        },
+        {
+          "src": "/assets/images/editorial-auto/ex-ilva-udienza-cassazione-ai-openai-v381-1200.webp",
+          "w": 1200,
+          "h": 800
+        }
+      ]
+    },
     {
       "alt": "Scena editoriale contestuale generata con IA di Elizabeth Bennet e Mr. Darcy in abiti Regency davanti a una tenuta inglese, per rappresentare Pride and Prejudice",
       "variants": [
