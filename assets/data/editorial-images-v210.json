@@ -1,7 +1,39 @@
 {
-  "version": 385,
+  "version": 386,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "csm-test-psicoattitudinali-magistrati-criteri-16-settembre-2026-ai-openai-v386",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-politica/csm-test-psicoattitudinali-magistrati-criteri-16-settembre-2026-ai-openai-v386-480.webp",
+          "sha256": "471dd13033b4cb59d212b22f947cd961a1757ea985854e8c9adb8c22e1a50ec7",
+          "bytes": 28586
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-politica/csm-test-psicoattitudinali-magistrati-criteri-16-settembre-2026-ai-openai-v386-800.webp",
+          "sha256": "6f7ce08025caa621ef609ce23b34de33345300b54a479bde7e9c6d1d661285fa",
+          "bytes": 56796
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-politica/csm-test-psicoattitudinali-magistrati-criteri-16-settembre-2026-ai-openai-v386-1200.webp",
+          "sha256": "2d434b2acfd272206254512806b34935ffd8521d563d45d0887f21e1762380ae",
+          "bytes": 97450
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA in una sala istituzionale italiana, con toga da magistrato e schede astratte di valutazione; non documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Ordinary contextual editorial scene about the CSM criteria for magistrates' aptitude tests; empty Italian institutional room, judicial robe and abstract assessment cards; no real vote reenacted, no text or watermark.",
+      "article": "/notizie/csm-test-psicoattitudinali-magistrati-criteri-16-settembre-2026.html"
+    },
     {
       "key": "bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383",
       "aiGenerated": true,

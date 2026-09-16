@@ -1,0 +1,26 @@
+{
+  "run_at": "2026-09-16T18:56:43+02:00",
+  "production_branch": "main",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 4,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: registrazione integrale del plenum, ANSA, Il Fatto Quotidiano e la Repubblica. Esclusi titoli, snippet e riprese della stessa agenzia; nessuna consultazione inventata."
+  },
+  "processed": [
+    {
+      "slug": "csm-test-psicoattitudinali-magistrati-criteri-16-settembre-2026",
+      "action": "new_article",
+      "score": 8.4,
+      "status": "CONFERMATA DA PIÙ FONTI",
+      "public_url": "https://curiomondo.it/notizie/csm-test-psicoattitudinali-magistrati-criteri-16-settembre-2026.html",
+      "sources": [
+        "https://www.radioradicale.it/scheda/798664/plenum-dl-csm",
+        "https://www.ansa.it/sito/notizie/cronaca/2026/09/16/il-csm-approva-la-delibera-sui-test-psicoattitudinali-per-i-magistrati_f3f027b2-fd28-493a-afae-65e78bfa2c75.html",
+        "https://www.ilfattoquotidiano.it/2026/09/16/test-psicoattitudinali-magistrati-csm-criteri-notizie/8507980/",
+        "https://www.repubblica.it/politica/2026/09/16/news/csm_test_psicoattitudinali_magistrati-425588342/"
+      ],
+      "publication_state": "pending_deploy"
+    }
+  ]
+}
