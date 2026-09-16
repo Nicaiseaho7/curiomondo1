@@ -1,0 +1,26 @@
+{
+  "run_at": "2026-09-16T19:48:39+02:00",
+  "production_branch": "main",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 4,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: discorso ufficiale della Commissione europea, Associated Press, Reuters ed Euronews. Esclusi titoli, snippet e duplicati; nessuna consultazione inventata."
+  },
+  "processed": [
+    {
+      "slug": "ue-social-media-divieto-sotto-13-anni-proposta-von-der-leyen-16-settembre-2026",
+      "action": "new_article",
+      "score": 9.0,
+      "status": "UFFICIALE",
+      "public_url": "https://curiomondo.it/notizie/ue-social-media-divieto-sotto-13-anni-proposta-von-der-leyen-16-settembre-2026.html",
+      "sources": [
+        "https://cyprus.representation.ec.europa.eu/news/2026-state-union-address-president-von-der-leyen-2026-09-16_en",
+        "https://apnews.com/article/europe-leyen-social-media-ban-kids-3e7176ea409ba4af0a069f5ca7dd9680",
+        "https://www.reuters.com/world/eus-von-der-leyen-invite-frontier-labs-talks-tackling-ai-risks-2026-09-16/",
+        "https://www.euronews.com/my-europe/2026/09/16/state-of-the-union-five-takeaways-from-ursula-von-der-leyens-speech"
+      ],
+      "publication_state": "pending_deploy"
+    }
+  ]
+}

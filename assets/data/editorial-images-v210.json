@@ -1,7 +1,40 @@
 {
-  "version": 386,
+  "version": 387,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "von-der-leyen-social-minori-ue-ai-openai-v387",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/von-der-leyen-social-minori-ue-ai-openai-v387-480.webp",
+          "sha256": "3ae0682c637e126b042c4f14fba0780daa764e8c6c0ba40daf448c1578f6b690",
+          "bytes": 15420
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/von-der-leyen-social-minori-ue-ai-openai-v387-800.webp",
+          "sha256": "86b2700b898c73cf4ea38a1dba22750579899b77c0efdc97bdf2a1057ad418c2",
+          "bytes": 32212
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/von-der-leyen-social-minori-ue-ai-openai-v387-1200.webp",
+          "sha256": "84151be04950929cd33df180f0265fc7d8ac5acfc43b7360ae6930bdd9de0928",
+          "bytes": 63012
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA con Ursula von der Leyen in un ambiente istituzionale europeo e uno smartphone con simbolo astratto di protezione dei minori; non documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "syntheticLikeness": "public-figure",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Ordinary contextual editorial synthetic likeness of Ursula von der Leyen in a European institutional setting, with a generic smartphone and child-safety shield; no specific speech reenacted, no text or watermark.",
+      "article": "/notizie/ue-social-media-divieto-sotto-13-anni-proposta-von-der-leyen-16-settembre-2026.html"
+    },
     {
       "key": "csm-test-psicoattitudinali-magistrati-criteri-16-settembre-2026-ai-openai-v386",
       "aiGenerated": true,

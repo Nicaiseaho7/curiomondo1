@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 386,
-    "site_version": 386
+    "current_site_version": 387,
+    "site_version": 387
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -240,18 +240,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 386,
-  "version": "v386",
-  "release_version": "v386",
+  "site_version": 387,
+  "version": "v387",
+  "release_version": "v387",
   "last_release": {
-    "version": 386,
+    "version": 387,
     "date": "2026-09-16",
     "type": "content-release",
     "news_added": [
-      "csm-test-psicoattitudinali-magistrati-criteri-16-settembre-2026"
+      "ue-social-media-divieto-sotto-13-anni-proposta-von-der-leyen-16-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Nuovo articolo sui criteri CSM per i test psicoattitudinali dei magistrati",
-    "image_policy_applied": "new-openai-contextual-editorial-image"
+    "change": "Nuovo articolo sulla proposta UE per l’accesso dei minori ai social media",
+    "image_policy_applied": "new-openai-ordinary-public-figure-contextual-image"
   }
 }
