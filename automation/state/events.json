@@ -1,4 +1,28 @@
 {
   "version": 1,
-  "events": []
+  "events": [
+    {
+      "run_at": "2026-09-16T05:59:00+02:00",
+      "timezone": "Europe/Rome",
+      "repository_branch": "main",
+      "coverage": {
+        "distinct_full_pages_read": 8,
+        "target": 500,
+        "target_reached": false,
+        "note": "Conteggio conservativo: esclusi titoli, snippet, duplicati e risultati non aperti integralmente."
+      },
+      "article": {
+        "title": "Mecca, l’Arabia Saudita dice di aver intercettato un drone Houthi",
+        "slug": "mecca-arabia-saudita-intercettato-drone-houthi-16-settembre-2026",
+        "status": "IN SVILUPPO",
+        "editorial_score": 8.3,
+        "sources": [
+          "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-it-destroys-houthi-drone-south-mecca-2026-09-16/",
+          "https://apnews.com/article/saudi-arabia-egypt-houthis-red-sea-oil-pipeline-5696629010c86b8cc83f69cbd093e3f1",
+          "https://www.aljazeera.com/news/liveblog/2026/9/16/iran-war-live-irans-top-diplomat-heads-to-china-as-war-drags-on"
+        ],
+        "publication_state": "ready_for_commit"
+      }
+    }
+  ]
 }
