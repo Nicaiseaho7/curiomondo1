@@ -16,22 +16,10 @@
     "La nuova versione nasce dall'opera pubblicata da Austen nel 1813 e conserva Elizabeth Bennet e Mr. Darcy come fulcro della storia. La produzione vede tra gli executive producer anche Alderton, Lyn ed Emma Corrin, oltre a Laura Lankester, Will Johnston e Louise Mutter per Lookout Point."
   ],
   "fonti": [
-    {
-      "url": "https://www.netflix.com/tudum/articles/pride-and-prejudice-photos-release-date-teaser-art",
-      "descrizione": "Fonte primaria per data del 3 dicembre, numero di episodi, primo sguardo al cast e ruoli principali."
-    },
-    {
-      "url": "https://www.netflix.com/it-en/title/81737965",
-      "descrizione": "Scheda ufficiale Netflix disponibile per il territorio italiano, con cast e classificazione del titolo."
-    },
-    {
-      "url": "https://variety.com/2026/tv/news/tv-news-roundup-week-of-september-14-1236862035/",
-      "descrizione": "Riscontro indipendente sulla data di uscita e sulle nuove immagini della miniserie."
-    },
-    {
-      "url": "https://deadline.com/gallery/pride-and-prejudice-netflix-release-date-first-look-photos-cast/",
-      "descrizione": "Conferma indipendente del debutto del 3 dicembre e del cast mostrato nel primo sguardo."
-    }
+    {"url": "https://www.netflix.com/tudum/articles/pride-and-prejudice-photos-release-date-teaser-art", "descrizione": "Fonte primaria per data del 3 dicembre, numero di episodi, primo sguardo al cast e ruoli principali."},
+    {"url": "https://www.netflix.com/it-en/title/81737965", "descrizione": "Scheda ufficiale Netflix disponibile per il territorio italiano, con cast e classificazione del titolo."},
+    {"url": "https://variety.com/2026/tv/news/tv-news-roundup-week-of-september-14-1236862035/", "descrizione": "Riscontro indipendente sulla data di uscita e sulle nuove immagini della miniserie."},
+    {"url": "https://deadline.com/gallery/pride-and-prejudice-netflix-release-date-first-look-photos-cast/", "descrizione": "Conferma indipendente del debutto del 3 dicembre e del cast mostrato nel primo sguardo."}
   ],
   "parole_chiave_titolo": ["Netflix", "3 dicembre"],
   "dati_chiave": [
@@ -40,9 +28,10 @@
     {"icona": "●", "valore": "11", "etichetta": "personaggi nel first look"}
   ],
   "immagine": {
-    "alt": "Scena editoriale contestuale generata con IA con Emma Corrin e Jack Lowden riconoscibili in abiti ispirati all'epoca Regency, per rappresentare la nuova serie Pride and Prejudice",
-    "prompt": "Ultra-realistic professional editorial photograph, horizontal 3:2 composition. Recognizable public figures Emma Corrin and Jack Lowden are the central subjects, portrayed in an ordinary contextual editorial scene inspired by early-19th-century Regency England for a new Pride and Prejudice television adaptation. Elegant period-inspired clothing, English country estate and garden in the background, natural overcast daylight, restrained romantic atmosphere, premium cinematic realism. Do not recreate an exact Netflix still, costume, set, poster or specific scene from the series. No added editorial text, no title, no logos, no infographic, no watermark, no signature in the pixels.",
-    "personaggio_pubblico": true,
+    "alt": "Scena editoriale contestuale generata con IA di Elizabeth Bennet e Mr. Darcy in abiti Regency davanti a una tenuta inglese, per rappresentare Pride and Prejudice",
+    "url": "bozze/pride-and-prejudice-netflix-source.jpg",
+    "prompt": "Ultra-realistic professional editorial photograph, horizontal 3:2 composition. Elizabeth Bennet and Mr. Darcy are the central fictional characters in an ordinary contextual scene inspired by early-19th-century Regency England for a Pride and Prejudice television adaptation. Elegant period clothing, English country estate and garden, natural daylight, restrained romantic atmosphere, premium cinematic realism. Do not recreate an exact Netflix still, costume, set, poster or a specific scene from the series. No added editorial text, title, logos, infographic, watermark or signature in the pixels.",
+    "personaggio_pubblico": false,
     "contesto_sensibile": false
   }
 }
