@@ -37,6 +37,7 @@ jobs:
         id: pubblica
         env:
           REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           shopt -s nullglob
           bozze=(bozze/*.json)
