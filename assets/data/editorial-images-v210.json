@@ -1,7 +1,39 @@
 {
-  "version": 391,
+  "version": 393,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "usa-camera-sanzioni-russia-dazi-100-percento-16-settembre-2026-ai-openai-v393",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/usa-camera-sanzioni-russia-dazi-100-percento-16-settembre-2026-ai-openai-v393-480.webp",
+          "sha256": "648df46c36ced6b41bde4e463e08d1c355e3c62facb7c2e0977a48f49b3e5ec8",
+          "bytes": 27868
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/usa-camera-sanzioni-russia-dazi-100-percento-16-settembre-2026-ai-openai-v393-800.webp",
+          "sha256": "a30459348697635557154233ad668be6782076f87c41b41e7dbf449a86afc576",
+          "bytes": 56902
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/usa-camera-sanzioni-russia-dazi-100-percento-16-settembre-2026-ai-openai-v393-1200.webp",
+          "sha256": "1011729913d4c450db734b9d3281bf154f3eb90d6470dae3603fee23b2c58b65",
+          "bytes": 95238
+        }
+      ],
+      "alt": "Illustrazione editoriale IA del Campidoglio statunitense con un dossier, una petroliera e container in primo piano; non documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Ultra-realistic conceptual editorial scene of the US Capitol at blue hour with an unmarked policy folder, an oil tanker model and generic cargo containers; no people, text, data, logos or watermark; not documentary.",
+      "article": "/notizie/usa-camera-sanzioni-russia-dazi-100-percento-16-settembre-2026.html"
+    },
     {
       "key": "ue-alleanza-assicurativa-clima-eventi-estremi-16-settembre-2026-ai-openai-v391",
       "aiGenerated": true,
