@@ -2,6 +2,32 @@
   "version": 1,
   "events": [
     {
+      "run_at": "2026-09-16T07:56:40+02:00",
+      "timezone": "Europe/Rome",
+      "repository_branch": "main",
+      "coverage": {
+        "distinct_full_pages_read": 9,
+        "target": 500,
+        "target_reached": false,
+        "note": "Conteggio conservativo: esclusi risultati di ricerca, titoli, snippet, duplicati e pagine non aperte integralmente. La selezione ha riguardato soltanto notizie con legame diretto con l'Italia e sviluppo del 15-16 settembre 2026."
+      },
+      "article": {
+        "title": "Bonus colonnine domestiche 2026: domande dal 22 settembre",
+        "slug": "bonus-colonnine-domestiche-2026-domande-dal-22-settembre",
+        "status": "UFFICIALE",
+        "editorial_score": 8.1,
+        "sources": [
+          "https://www.mimit.gov.it/it/notizie-stampa/automotive-al-via-bonus-colonnine-urso-necessario-per-la-transizione-industriale-e-ambientale",
+          "https://www.mimit.gov.it/it/incentivi/bonus-colonnine-domestiche",
+          "https://www.invitalia.it/incentivi-e-strumenti/bonus-colonnine-domestiche/presenta-la-domanda",
+          "https://www.ansa.it/sito/notizie/economia/2026/09/15/automotive-al-via-il-bonus-colonnine-domande-dal-22-settembre_13637ba9-c7bf-47a0-b5f7-71cead2f0801.html",
+          "https://www.motus-e.org/news-associative/bonus-colonnine-domestiche-motus-e-misura-importante-per-lo-sviluppo-della-mobilita-elettrica-in-italia/"
+        ],
+        "url": "https://curiomondo.it/notizie/bonus-colonnine-domestiche-2026-domande-dal-22-settembre.html",
+        "publication_state": "ready_for_commit"
+      }
+    },
+    {
       "run_at": "2026-09-16T06:50:15+02:00",
       "timezone": "Europe/Rome",
       "repository_branch": "main",
