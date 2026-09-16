@@ -2094,3 +2094,4 @@ html.cm-dark .auto-card .ameta,html.cm-dark .card .meta{background:#102b4d;color
   .auto-card h3{font-size:1.08rem}
 }
 @media(prefers-reduced-motion:reduce){.auto-card,.card,.auto-card picture,.card picture,.auto-card img,.card img{transition:none!important;transform:none!important}}
+.cmc-links a{color:#1d4ed8;font-weight:800}
