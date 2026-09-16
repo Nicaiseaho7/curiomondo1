@@ -1,7 +1,34 @@
 {
-  "version": 374,
+  "version": 375,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Scena editoriale contestuale generata con IA: tre specialisti esaminano documenti su un’operazione bancaria in un ufficio istituzionale italiano",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT/OpenAI image generation",
+      "sensitiveContext": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/antitrust-istruttoria-intesa-mps-concorrenza-16-settembre-2026-v375-480.webp",
+          "sha256": "d8c5abe6ae3fe181c011e62460fff01f2d5cba1cccccaf8e3a3f6eb4f544d8cc",
+          "bytes": 17544
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/antitrust-istruttoria-intesa-mps-concorrenza-16-settembre-2026-v375-800.webp",
+          "sha256": "3001280915b6aa5fae7c0e37bbb24feca9ed6d749b18e424a6183d897d6846c5",
+          "bytes": 33378
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/antitrust-istruttoria-intesa-mps-concorrenza-16-settembre-2026-v375-1200.webp",
+          "sha256": "1c17e10aabc58143b112b7dc4a17c9a1b1cefcaf2bf9b0cdff913fa4eff29fa2",
+          "bytes": 55742
+        }
+      ],
+      "article": "/notizie/antitrust-istruttoria-intesa-mps-concorrenza-16-settembre-2026.html"
+    },
     {
       "alt": "Scena editoriale contestuale generata con IA: cinque atleti della Nazionale italiana di basket in carrozzina celebrano insieme su un campo coperto",
       "variants": [

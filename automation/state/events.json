@@ -2,6 +2,31 @@
   "version": 1,
   "events": [
     {
+      "run_at": "2026-09-16T10:00:24+02:00",
+      "timezone": "Europe/Rome",
+      "repository_branch": "main",
+      "coverage": {
+        "distinct_full_pages_read": 8,
+        "target": 500,
+        "target_reached": false,
+        "note": "Conteggio conservativo: esclusi risultati di ricerca, titoli, snippet, duplicati e pagine non lette. Oltre alla candidata pubblicata sono stati verificati e scartati come duplicati o insufficientemente nuovi gli sviluppi sul drone neutralizzato dagli Eurofighter italiani, sulla riforma elettorale e sui controlli Schengen."
+      },
+      "article": {
+        "title": "Intesa-MPS, l’Antitrust apre l’istruttoria sui rischi per la concorrenza",
+        "slug": "antitrust-istruttoria-intesa-mps-concorrenza-16-settembre-2026",
+        "status": "UFFICIALE",
+        "editorial_score": 8.4,
+        "sources": [
+          "https://www.agcm.it/media/comunicati-stampa/2026/9/C12836",
+          "https://www.agcm.it/dotcmsdoc/allegati-news/C12836_avvio.pdf",
+          "https://www.reuters.com/world/italys-competition-authority-opens-probe-into-intesas-bid-monte-dei-paschi-2026-09-15/",
+          "https://group.intesasanpaolo.com/it/newsroom/tutte-le-news/news/2026/intesa-sanpaolo-opas-monte-paschi-siena-mps"
+        ],
+        "url": "https://curiomondo.it/notizie/antitrust-istruttoria-intesa-mps-concorrenza-16-settembre-2026.html",
+        "publication_state": "published_verified_online"
+      }
+    },
+    {
       "run_at": "2026-09-16T08:59:15+02:00",
       "timezone": "Europe/Rome",
       "repository_branch": "main",
