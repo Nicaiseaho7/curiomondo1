@@ -13,7 +13,7 @@
     {
       "slug": "europa-league-oggi-milan-benfica-e-tutte-le-partite-del-16-settembre-orari-e-tv-16-09-2026",
       "action": "substantial_update_existing_daily_guide",
-      "score": 9.0,
+      "score": 9,
       "status": "CONFERMATA DA PIU FONTI",
       "public_url": "https://curiomondo.it/notizie/europa-league-oggi-milan-benfica-e-tutte-le-partite-del-16-settembre-orari-e-tv-16-09-2026.html",
       "development_date": "2026-09-16",
@@ -27,15 +27,25 @@
         "https://www.juventus.com/it/news/articoli/uefa-europa-league-dove-vedere-juventus-nec"
       ],
       "production_commit": "c5ef24cf589b5449bed9d701dbc419d53dc7e045",
-      "publication_state": "commit_created_deploy_not_verified",
+      "publication_state": "published_verified_online",
       "verification": {
         "repository_article_updated": true,
         "existing_relevant_image_retained": true,
-        "public_article_updated": false,
+        "public_article_updated": true,
         "public_home_listing_present": true,
         "public_sport_listing_present_before_update": true,
         "predeploy_executed": false,
-        "predeploy_note": "tools/predeploy.py non eseguibile direttamente nell'ambiente collegato: il repository non è disponibile come working tree locale e l'accesso rete del container è bloccato. Non sono stati usati GitHub Actions o API esterne come ripiego."
+        "predeploy_note": "tools/predeploy.py non eseguibile direttamente nell'ambiente collegato: il repository non è disponibile come working tree locale e l'accesso rete del container è bloccato. Non sono stati usati GitHub Actions o API esterne come ripiego.",
+        "public_sport_listing_present": true,
+        "public_image_available": true,
+        "article_http_status": 200,
+        "home_http_status": 200,
+        "sport_http_status": 200,
+        "image_http_status": 200,
+        "image_content_type": "image/webp",
+        "image_dimensions": "800x533",
+        "verified_at": "2026-09-16T23:55:27+02:00",
+        "verification_note": "Controllo diretto del sito pubblico con cache-busting: titolo, sintesi aggiornata, risultato Milan-Benfica 0-2 e marcatori presenti nell’articolo; presenza verificata in homepage e categoria Sport; asset WebP disponibile."
       }
     }
   ],
