@@ -36,10 +36,10 @@ html.cm-dark .auto-card,html.cm-dark .card{border-color:rgba(255,255,255,.09)!im
 html.cm-dark .auto-card .ameta,html.cm-dark .card .meta{background:#102b4d;color:#7bb6ff}
 
 @media(max-width:600px){
-  .featured{width:100%;min-height:0!important;max-height:none!important;aspect-ratio:1/1;border-radius:28px;margin:24px 0 28px}
-  .featured .txt{min-height:0!important;height:100%;padding:64px 22px 21px}
+  .featured{width:100%;min-height:0!important;max-height:none!important;aspect-ratio:auto;border-radius:28px;margin:24px 0 28px}
+  .featured .txt{min-height:560px!important;height:auto;padding:64px 22px 21px}
   .featured h1{max-width:16ch;font-size:clamp(1.45rem,7.1vw,2rem);line-height:1.02}
-  .featured p{font-size:.78rem;line-height:1.4;-webkit-line-clamp:1}
+  .featured p{display:block;overflow:visible;font-size:.78rem;line-height:1.4;-webkit-line-clamp:unset}
   .cm-featured-stats{gap:8px;margin-top:10px}
   .cm-featured-stat>i{display:none}
   .cm-featured-stat{display:flex;flex-direction:column;align-items:flex-start;gap:3px;padding:8px 7px;border-top:1px solid rgba(255,255,255,.2)}
