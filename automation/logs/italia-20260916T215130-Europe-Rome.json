@@ -23,7 +23,16 @@
         "https://www.rainews.it/amp/articoli/2026/09/cdm-anche-proroga-taglio-accise-carburanti-e-abolizione-bollo-auto-moto-55273aeb-5402-4f5d-8421-2c9f7188c878.html",
         "https://www.aci.it/servizi/guida-al-bollo-auto/"
       ],
-      "publication_state": "pending_deploy"
+      "publication_state": "published_verified_online",
+      "production_commit": "b6c8f6e99650d763e4a47715e3fca455c7dc8816",
+      "verified_at": "2026-09-16T22:08:00+02:00",
+      "verification": {
+        "article_title_text_image": true,
+        "home_listing": true,
+        "category_listing": true,
+        "related_content": true,
+        "primary_source_link": true
+      }
     }
   ],
   "excluded": []
