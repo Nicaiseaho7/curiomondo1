@@ -315,8 +315,11 @@ def sync_surfaces(new_articles: list[dict[str, Any]], featured_url: str, version
             attrs = {"class": "ticker-news", "href": item["url"]}
             if track.tag == "div" and n >= 6: attrs["tabindex"] = "-1"
             etree.SubElement(track, "a", attrs).text = item["title"]
-    featured = next((i for i in feed_items if i["url"] == featured_url), feed_items[0])
-    ordered = [i for i in feed_items if i["url"] != featured["url"]]
+    # La card "In evidenza" segue sempre la notizia pubblicata più di recente.
+    # In passato featured_url poteva mantenere in home una selezione vecchia mentre
+    # ticker e ultime notizie avanzavano, facendo sembrare la sezione bloccata.
+    featured = feed_items[0]
+    ordered = feed_items[1:]
     old_featured = doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]')[0]
     old_featured.getparent().replace(old_featured, _featured(featured))
     rail = doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," auto-rail ")]')[0]
