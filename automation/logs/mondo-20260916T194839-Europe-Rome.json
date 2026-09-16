@@ -20,7 +20,17 @@
         "https://www.reuters.com/world/eus-von-der-leyen-invite-frontier-labs-talks-tackling-ai-risks-2026-09-16/",
         "https://www.euronews.com/my-europe/2026/09/16/state-of-the-union-five-takeaways-from-ursula-von-der-leyens-speech"
       ],
-      "publication_state": "pending_deploy"
+      "publication_state": "verified_online",
+      "deployment_commit": "fb45b68930f17a8795137ab756be62c0fa449c88",
+      "verified_at": "2026-09-16T19:56:25+02:00",
+      "verified_surfaces": [
+        "canonical_article",
+        "article_image",
+        "homepage_featured",
+        "category_mondo",
+        "related_articles",
+        "source_links"
+      ]
     }
   ]
 }
