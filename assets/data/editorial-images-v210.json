@@ -1,7 +1,39 @@
 {
-  "version": 388,
+  "version": 389,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "federal-reserve-alza-tassi-3-75-4-percento-16-settembre-2026-ai-openai-v389",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/federal-reserve-alza-tassi-3-75-4-percento-16-settembre-2026-ai-openai-v389-480.webp",
+          "sha256": "d73c1724c0adb7f8adcbc22593977d7d49ccfad1237eb99bc112191057a06027",
+          "bytes": 24526
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/federal-reserve-alza-tassi-3-75-4-percento-16-settembre-2026-ai-openai-v389-800.webp",
+          "sha256": "d56006d61b47cfb5ad0ba9449d20a389bfb7e07870e13951e6596aa6999e1677",
+          "bytes": 49002
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/federal-reserve-alza-tassi-3-75-4-percento-16-settembre-2026-ai-openai-v389-1200.webp",
+          "sha256": "0e8abb3ed1eb0c7361061117c49d9b69b1e0779d0ae0141ef4493ba9321e36d4",
+          "bytes": 80272
+        }
+      ],
+      "alt": "Scena editoriale ordinaria generata con IA della sede della Federal Reserve al crepuscolo, con simbolo percentuale e blocchi in crescita; non documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Ultra-realistic ordinary contextual editorial scene of the Federal Reserve headquarters at dusk, with a restrained percentage sculpture and unmarked rising blocks; no people, readable text, data, logo or watermark; not documentary.",
+      "article": "/notizie/federal-reserve-alza-tassi-3-75-4-percento-16-settembre-2026.html"
+    },
     {
       "key": "carol-maltesi-ergastolo-davide-fontana-appello-ter-16-settembre-2026-ai-openai-v388",
       "aiGenerated": true,

@@ -1,7 +1,7 @@
 {
-  "site_version": 388,
-  "articleCount": 265,
-  "generatedEditorialImages": 148,
+  "site_version": 389,
+  "articleCount": 266,
+  "generatedEditorialImages": 149,
   "baseline_version": 342,
   "release_date": "2026-09-16",
   "protocol_files": [
@@ -14,12 +14,12 @@
     "curiomondo-site-manifest.json"
   ],
   "last_daily_question_date": "2026-09-16",
-  "version": "388",
+  "version": "389",
   "date": "2026-09-16",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "carol-maltesi-appello-ter-v388",
+  "last_update": "federal-reserve-rialzo-tassi-v389",
   "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
-  "currentVersion": 388,
+  "currentVersion": 389,
   "baselineVersion": 342,
   "designRestored": "Intestazione globale unificata su tutte le pagine interne; palette blu Facebook e fascia LIVE rossa piena confermate.",
   "status": "ready"

@@ -1,0 +1,37 @@
+{
+  "run_at": "2026-09-16T21:14:24+02:00",
+  "production_branch": "main",
+  "production_commit_checked": "41cde0c",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 4,
+    "target_reached": false,
+    "note": "Conteggio prudenziale dei contenuti aperti integralmente per la notizia pubblicata: comunicato FOMC, proiezioni ufficiali, Reuters e Associated Press. Titoli e snippet non sono conteggiati."
+  },
+  "processed": [
+    {
+      "slug": "federal-reserve-alza-tassi-3-75-4-percento-16-settembre-2026",
+      "action": "new_article",
+      "score": 9.5,
+      "status": "UFFICIALE",
+      "public_url": "https://curiomondo.it/notizie/federal-reserve-alza-tassi-3-75-4-percento-16-settembre-2026.html",
+      "sources": [
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+        "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+        "https://www.reuters.com/business/warshs-words-may-matter-more-than-anticipated-fed-rate-hike-2026-09-16/",
+        "https://apnews.com/article/bab1bcb07e973bfb2dd0c3e5fbbb73b1"
+      ],
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "excluded": [
+    {
+      "topic": "Attacco con drone contro un autobus in Ucraina",
+      "reason": "Sviluppo del mattino, meno recente della decisione FOMC e con dettagli operativi ancora attribuiti alle parti in conflitto."
+    },
+    {
+      "topic": "Francia e rinnovo delle sanzioni UE ad Alisher Usmanov",
+      "reason": "Aggiornamento negoziale della vicenda già trattata, senza decisione finale nuova."
+    }
+  ]
+}
