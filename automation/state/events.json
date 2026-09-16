@@ -2,6 +2,32 @@
   "version": 1,
   "events": [
     {
+      "run_at": "2026-09-16T06:50:15+02:00",
+      "timezone": "Europe/Rome",
+      "repository_branch": "main",
+      "coverage": {
+        "distinct_full_pages_read": 7,
+        "target": 500,
+        "target_reached": false,
+        "note": "Conteggio conservativo: esclusi titoli, snippet, duplicati e risultati non aperti integralmente. La selezione e stata limitata alle notizie con legame diretto con l'Italia e sviluppo utile per il 16 settembre 2026."
+      },
+      "article": {
+        "title": "Medici di famiglia in sciopero oggi: cosa resta garantito",
+        "slug": "medici-famiglia-sciopero-oggi-cosa-resta-garantito-16-settembre-2026",
+        "status": "UFFICIALE",
+        "editorial_score": 8.2,
+        "sources": [
+          "https://sindacatomedicitaliani.it/index.php/2026/09/14/comunicato-stampa-scioperonazionale-1516settembre/",
+          "https://sindacatomedicitaliani.it/index.php/2026/09/15/comunicato-stampa-scioperonazionale-adesioni-onotri/",
+          "https://www.asst-mantova.it/news/sciopero-nazionale-sindacato-medici-italiani-15-e-16-settembre-2026",
+          "https://www.rainews.it/tgr/lazio/articoli/2026/09/scioperano-i-medici-di-base-visite-a-rischio-per-due-giorni-eb28d5c6-6775-426f-905d-f1b9e6a94e4e.html",
+          "https://www.ansa.it/canale_saluteebenessere/notizie/sanita/2026/09/14/il-15-e-16-settembre-sciopero-dei-medici-di-base-manifestazioni-in-diverse-citta_badb5f05-a763-4627-99ad-69bae39ecc76.html"
+        ],
+        "url": "https://curiomondo.it/notizie/medici-famiglia-sciopero-oggi-cosa-resta-garantito-16-settembre-2026.html",
+        "publication_state": "ready_for_commit"
+      }
+    },
+    {
       "run_at": "2026-09-16T05:59:00+02:00",
       "timezone": "Europe/Rome",
       "repository_branch": "main",
