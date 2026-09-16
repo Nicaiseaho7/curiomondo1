@@ -2,6 +2,30 @@
   "version": 1,
   "events": [
     {
+      "run_at": "2026-09-16T12:56:27+02:00",
+      "timezone": "Europe/Rome",
+      "repository_branch": "main",
+      "coverage": {
+        "distinct_full_pages_read": 3,
+        "target": 500,
+        "target_reached": false,
+        "note": "Conteggio conservativo: esclusi indici, risultati di ricerca, titoli, snippet, duplicati e pagine non lette integralmente. Sono stati letti integralmente il rapporto Istat, il rapporto metodologico Eurostat e il resoconto ufficiale del Consiglio regionale della Sardegna; quest'ultimo sviluppo è stato scartato perché di portata regionale rispetto alla soglia di rilevanza nazionale. L'ex Ilva è stato ricontrollato ma non risultava ancora approvato il decreto annunciato."
+      },
+      "article": {
+        "title": "Violenza prima dei 16 anni: l’Istat stima 3 milioni di donne italiane coinvolte",
+        "slug": "violenza-prima-dei-16-anni-l-istat-stima-3-milioni-di-donne-italiane-coinvolte-16-09-2026",
+        "status": "UFFICIALE",
+        "editorial_score": 9.0,
+        "sources": [
+          "https://www.istat.it/comunicato-stampa/violenza-contro-le-donne-dallinfanzia-alleta-adulta-anno-2025/",
+          "https://ec.europa.eu/eurostat/web/products-statistical-reports/w/ks-01-26-030-en-n",
+          "https://www.1522.eu/"
+        ],
+        "url": "https://curiomondo.it/notizie/violenza-prima-dei-16-anni-l-istat-stima-3-milioni-di-donne-italiane-coinvolte-16-09-2026.html",
+        "publication_state": "ready_for_commit"
+      }
+    },
+    {
       "run_at": "2026-09-16T12:00:00+02:00",
       "timezone": "Europe/Rome",
       "repository_branch": "main",
