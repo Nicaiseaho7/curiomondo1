@@ -1,5 +1,5 @@
 {
-  "version": 376,
+  "version": 377,
   "items": [
     {
       "title": "Revolut, PEC istituzionale italiana usata per ottenere dati di 680 clienti",
@@ -1311,8 +1311,8 @@
       "srcset": "/assets/images/editorial-auto/usa-inflazione-agosto-fed-tassi-ai-openai-v326-480.webp 480w, /assets/images/editorial-auto/usa-inflazione-agosto-fed-tassi-ai-openai-v326-800.webp 800w, /assets/images/editorial-auto/usa-inflazione-agosto-fed-tassi-ai-openai-v326-1200.webp 1200w"
     },
     {
-      "title": "Ex Ilva, confermato lo stop dell’area a caldo entro il 28 ottobre",
-      "excerpt": "La Corte d’Appello di Milano ha respinto la richiesta urgente di sospendere il provvedimento che impone il fermo dell’area a caldo dello stabilimento di Taranto. La scadenza del 28 ottobre resta quindi efficace.",
+      "title": "Ex Ilva, il governo annuncia tutele e una CIG diversa dalla cessazione",
+      "excerpt": "Dopo il tavolo con i sindacati, Palazzo Chigi indica una cassa integrazione diversa da quella per cessazione e un decreto atteso in Consiglio dei ministri. Misure e platea non sono ancora definitive.",
       "url": "/notizie/ex-ilva-taranto-stop-area-caldo-28-ottobre-11-settembre-2026.html",
       "section": "Italia / Economia / Industria",
       "dateISO": "2026-09-11T23:11:19+02:00",
@@ -1321,7 +1321,28 @@
       "imageAlt": "Stabilimento siderurgico costiero al tramonto, illustrazione editoriale fotorealistica generata con IA",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/taranto-ex-ilva-area-caldo-ai-openai-v327-480.webp 480w, /assets/images/editorial-auto/taranto-ex-ilva-area-caldo-ai-openai-v327-800.webp 800w, /assets/images/editorial-auto/taranto-ex-ilva-area-caldo-ai-openai-v327-1200.webp 1200w"
+      "srcset": "/assets/images/editorial-auto/taranto-ex-ilva-area-caldo-ai-openai-v327-480.webp 480w, /assets/images/editorial-auto/taranto-ex-ilva-area-caldo-ai-openai-v327-800.webp 800w, /assets/images/editorial-auto/taranto-ex-ilva-area-caldo-ai-openai-v327-1200.webp 1200w",
+      "featuredHighlights": [
+        "Ex Ilva",
+        "CIG"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "28 ottobre",
+          "label": "scadenza per l’area a caldo"
+        },
+        {
+          "icon": "◆",
+          "value": "Oggi",
+          "label": "decreto atteso in Cdm"
+        },
+        {
+          "icon": "◆",
+          "value": "2.500",
+          "label": "lavoratori dell’indotto coinvolti"
+        }
+      ]
     },
     {
       "title": "Roma, 56enne sequestrata, violentata e rapinata in casa: arrestato un 32enne",

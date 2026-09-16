@@ -2,6 +2,30 @@
   "version": 1,
   "events": [
     {
+      "run_at": "2026-09-16T12:00:00+02:00",
+      "timezone": "Europe/Rome",
+      "repository_branch": "main",
+      "coverage": {
+        "distinct_full_pages_read": 7,
+        "target": 500,
+        "target_reached": false,
+        "note": "Conteggio conservativo: esclusi risultati di ricerca, titoli, snippet, duplicati e pagine non lette integralmente. Sono stati verificati il nuovo tavolo sull'ex Ilva, le perquisizioni sui certificati anti-Cpr e i Daspo ai tifosi della Roma; questi ultimi due sviluppi sono stati scartati per conferme primarie o rilevanza insufficienti rispetto alla soglia editoriale."
+      },
+      "article": {
+        "title": "Ex Ilva, il governo annuncia tutele e una CIG diversa dalla cessazione",
+        "slug": "ex-ilva-taranto-stop-area-caldo-28-ottobre-11-settembre-2026",
+        "status": "IN SVILUPPO",
+        "editorial_score": 8.7,
+        "sources": [
+          "https://www.ansa.it/sito/notizie/topnews/2026/09/16/ex-ilva-impegno-del-governo-per-modello-di-cig-diverso-da-quella-per_63cd1e0c-4691-4338-853f-088f2381cf43.html",
+          "https://tg24.sky.it/economia/2026/09/16/ex-ilva-taranto-sindacati-governo-cdm-oggi",
+          "https://www.reuters.com/business/italian-court-confirms-shutdown-large-steelworks-blow-to-meloni-2026-09-11/"
+        ],
+        "url": "https://curiomondo.it/notizie/ex-ilva-taranto-stop-area-caldo-28-ottobre-11-settembre-2026.html",
+        "publication_state": "published_verified_online"
+      }
+    },
+    {
       "run_at": "2026-09-16T10:54:46+02:00",
       "timezone": "Europe/Rome",
       "repository_branch": "main",
