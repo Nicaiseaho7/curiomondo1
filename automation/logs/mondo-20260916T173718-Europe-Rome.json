@@ -1,0 +1,25 @@
+{
+  "run_at": "2026-09-16T17:37:18+02:00",
+  "production_branch": "main",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 4,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: comunicato e aggiornamento ufficiale KSC, Reuters e Associated Press; esclusi titoli, snippet e duplicati. Obiettivo non raggiunto; nessuna consultazione inventata."
+  },
+  "processed": [
+    {
+      "slug": "kosovo-hashim-thaci-condannato-25-anni-crimini-guerra-16-settembre-2026",
+      "action": "new_article",
+      "score": 9.2,
+      "status": "UFFICIALE",
+      "public_url": "https://curiomondo.it/notizie/kosovo-hashim-thaci-condannato-25-anni-crimini-guerra-16-settembre-2026.html",
+      "sources": [
+        "https://www.scp-ks.org/en/hashim-thaci-and-co-defendants-found-guilty-war-crimes",
+        "https://www.reuters.com/world/kosovo-ex-president-thaci-faces-war-crimes-verdict-hague-2026-09-16/",
+        "https://apnews.com/article/thaci-kosovo-serbia-war-crimes-0b24b81d6e1ca8f01d8b8b54bb465ee9"
+      ],
+      "publication_state": "pending_deploy"
+    }
+  ]
+}

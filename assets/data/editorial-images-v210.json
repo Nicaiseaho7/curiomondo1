@@ -1,7 +1,42 @@
 {
-  "version": 382,
+  "version": 384,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "hashim-thaci-ritratto-neutro-sentenza-v384",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/hashim-thaci-ritratto-neutro-sentenza-v384-480.webp",
+          "sha256": "25eafc8fbe9a74cb62171fc1fdb99ea05244bcb2511130a698db7cd5ea89153f",
+          "bytes": 7764
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/hashim-thaci-ritratto-neutro-sentenza-v384-800.webp",
+          "sha256": "39ac2c8a376cb1c223775d45fc8cdca8aec1ae6607f4a9544ac324040652cdfa",
+          "bytes": 16812
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/hashim-thaci-ritratto-neutro-sentenza-v384-1200.webp",
+          "sha256": "7bd58ac3d12e2c0cdfe1f47791e67c92c789224d3f356669efc88065f51adc0f",
+          "bytes": 32840
+        }
+      ],
+      "alt": "Ritratto editoriale neutrale generato con IA di Hashim Thaçi su sfondo blu scuro, realizzato per una notizia sensibile e non documentario.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "syntheticLikeness": "public-figure",
+      "sensitiveContext": true,
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false,
+      "prompt": "Sensitive-context neutral editorial portrait of Hashim Thaci, neutral isolated studio background, no reenacted event, no text or watermark.",
+      "article": "/notizie/kosovo-hashim-thaci-condannato-25-anni-crimini-guerra-16-settembre-2026.html"
+    },
     {
       "key": "bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v382",
       "aiGenerated": true,
