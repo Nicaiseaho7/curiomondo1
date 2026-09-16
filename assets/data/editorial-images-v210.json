@@ -1,7 +1,33 @@
 {
-  "version": 372,
+  "version": 373,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Scena editoriale contestuale generata con IA: una residente e un elettricista osservano una colonnina domestica collegata a un’auto elettrica in un garage condominiale",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/bonus-colonnine-domestiche-2026-domande-dal-22-settembre-v373-480.webp",
+          "sha256": "ce21df6b1a574de2a4ebddc2ba4c0bc0622ccb2e2d362eca7f4d40ddd04acd29",
+          "bytes": 30720
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/bonus-colonnine-domestiche-2026-domande-dal-22-settembre-v373-800.webp",
+          "sha256": "96f31f3545c541b92ae7fd7b9516fe241c77ff2cf669eabd87b94f6479ae96bc",
+          "bytes": 65756
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/bonus-colonnine-domestiche-2026-domande-dal-22-settembre-v373-1200.webp",
+          "sha256": "593fb79a9358faf066dd95f2cd7199962023607500491caed113c10288e23971",
+          "bytes": 113054
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT/OpenAI image generation",
+      "article": "/notizie/bonus-colonnine-domestiche-2026-domande-dal-22-settembre.html"
+    },
     {
       "alt": "Illustrazione editoriale IA non documentaria di un medico di famiglia che posa lo stetoscopio sulla scrivania in un ambulatorio italiano",
       "variants": [
