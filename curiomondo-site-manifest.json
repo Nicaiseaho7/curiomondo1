@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 384,
-    "site_version": 384
+    "current_site_version": 383,
+    "site_version": 383
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -240,18 +240,20 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 384,
-  "version": "v384",
-  "release_version": "v384",
+  "site_version": 383,
+  "version": "v383",
+  "release_version": "v383",
   "last_release": {
-    "version": 384,
+    "version": 383,
     "date": "2026-09-16",
     "type": "content-release",
     "news_added": [
-      "kosovo-hashim-thaci-condannato-25-anni-crimini-guerra-16-settembre-2026"
+      "william-solo-procura-chiede-arresto-finti-incidenti-16-settembre-2026"
     ],
-    "news_updated": [],
-    "change": "Nuovo articolo sulla condanna di Hashim Thaçi per crimini di guerra",
-    "image_policy_applied": "new-openai-sensitive-public-figure-neutral-portrait"
+    "news_updated": [
+      "bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026"
+    ],
+    "change": "Aggiornato il decreto bollo/accise e pubblicata l’inchiesta William Solo",
+    "image_policy_applied": "two-new-openai-editorial-images"
   }
 }

@@ -1,41 +1,69 @@
 {
-  "version": 384,
+  "version": 383,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
-      "key": "hashim-thaci-ritratto-neutro-sentenza-v384",
+      "key": "william-solo-procura-chiede-arresto-finti-incidenti-16-settembre-2026-ai-openai-v383",
       "aiGenerated": true,
       "documentaryPhoto": false,
-      "generator": "ChatGPT/OpenAI image generation",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/hashim-thaci-ritratto-neutro-sentenza-v384-480.webp",
-          "sha256": "25eafc8fbe9a74cb62171fc1fdb99ea05244bcb2511130a698db7cd5ea89153f",
-          "bytes": 7764
+          "src": "/assets/images/editorial-cronaca/william-solo-procura-chiede-arresto-finti-incidenti-16-settembre-2026-ai-openai-v383-480.webp",
+          "sha256": "f8d8ad8d66eea0c105b8340a6ed9f27d39d2899222db4a5abf4d695f5be36caa",
+          "bytes": 7738
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/hashim-thaci-ritratto-neutro-sentenza-v384-800.webp",
-          "sha256": "39ac2c8a376cb1c223775d45fc8cdca8aec1ae6607f4a9544ac324040652cdfa",
-          "bytes": 16812
+          "src": "/assets/images/editorial-cronaca/william-solo-procura-chiede-arresto-finti-incidenti-16-settembre-2026-ai-openai-v383-800.webp",
+          "sha256": "eca4082cf6cabaf8b7d2941db0302e01fea37b21ce27ef06613e13152eec11c3",
+          "bytes": 19478
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/hashim-thaci-ritratto-neutro-sentenza-v384-1200.webp",
-          "sha256": "7bd58ac3d12e2c0cdfe1f47791e67c92c789224d3f356669efc88065f51adc0f",
-          "bytes": 32840
+          "src": "/assets/images/editorial-cronaca/william-solo-procura-chiede-arresto-finti-incidenti-16-settembre-2026-ai-openai-v383-1200.webp",
+          "sha256": "3f46203b3985441a6a1bab2c55581cd39e021bfc75c7790f106997b3b9fa2f23",
+          "bytes": 41324
         }
       ],
-      "alt": "Ritratto editoriale neutrale generato con IA di Hashim Thaçi su sfondo blu scuro, realizzato per una notizia sensibile e non documentario.",
+      "alt": "Ritratto editoriale neutrale e isolato dello youtuber William Solo in un contesto giudiziario sensibile; somiglianza sintetica non documentaria.",
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "syntheticLikeness": "public-figure",
       "sensitiveContext": true,
+      "syntheticLikeness": "public-figure",
       "portraitOnly": true,
       "portraitFormat": "neutral-isolated",
       "reenactedEvent": false,
-      "prompt": "Sensitive-context neutral editorial portrait of Hashim Thaci, neutral isolated studio background, no reenacted event, no text or watermark.",
-      "article": "/notizie/kosovo-hashim-thaci-condannato-25-anni-crimini-guerra-16-settembre-2026.html"
+      "prompt": "Sensitive-context neutral editorial portrait of public figure William Solo, neutral isolated studio portrait, no arrest, accident or alleged conduct depicted.",
+      "article": "/notizie/william-solo-procura-chiede-arresto-finti-incidenti-16-settembre-2026.html"
+    },
+    {
+      "key": "bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383-480.webp",
+          "sha256": "f614ae96f3fb45b5a31c6a9398bc0cb0d32701be373f1f9b112bab6f28353e97",
+          "bytes": 38574
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383-800.webp",
+          "sha256": "9adb5f581ed4f258ab9596809da2c41748738e3b3d168818a1b37f2f84f298fa",
+          "bytes": 91838
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383-1200.webp",
+          "sha256": "8d409e66345bc50b9ad190e3f275d96868a060c30f7a92aaf8aef0c6441d1cff",
+          "bytes": 171494
+        }
+      ],
+      "alt": "Scena editoriale contestuale con auto compatta, motocicletta e ciclomotore presso un distributore italiano, non fotografia del Consiglio dei ministri.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "article": "/notizie/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026.html"
     },
     {
       "key": "bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v382",
