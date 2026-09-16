@@ -1,0 +1,43 @@
+{
+  "run_at": "2026-09-16T23:27:44+02:00",
+  "production_branch": "main",
+  "production_base_commit": "d354f4210df4d62a9d66ac1eb1b822af06bbdedb",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 12,
+    "distinct_news_domains_read": 11,
+    "target_reached": false,
+    "note": "Conteggio prudenziale dei contenuti effettivamente aperti e letti per la verifica: UEFA, The Guardian, AS, Sparta Praha, Omonia, Juventus, Sky Sport, AC Milan, Benfica, TNT Sports e ANSA. Titoli, snippet duplicati e risultati di ricerca non sono conteggiati come letture integrali. Copertura inferiore al target di 500, senza sacrificare la verifica delle informazioni pubblicate."
+  },
+  "processed": [
+    {
+      "slug": "europa-league-oggi-milan-benfica-e-tutte-le-partite-del-16-settembre-orari-e-tv-16-09-2026",
+      "action": "substantial_update_existing_daily_guide",
+      "score": 9.0,
+      "status": "CONFERMATA DA PIU FONTI",
+      "public_url": "https://curiomondo.it/notizie/europa-league-oggi-milan-benfica-e-tutte-le-partite-del-16-settembre-orari-e-tv-16-09-2026.html",
+      "development_date": "2026-09-16",
+      "development_time_note": "Orario esatto del fischio finale non disponibile nelle fonti consultate; gara iniziata alle 21:00 Europe/Rome.",
+      "sources": [
+        "https://it.uefa.com/uefaeuropaleague/news/02a8-2177210756a1-8a73728da31d-1000--europa-league-2026-27-il-calendario-della-fase-campionato/",
+        "https://www.theguardian.com/football/live/2026/sep/16/sunderland-v-az-milan-v-benfica-and-more-europa-league-clockwatch-live",
+        "https://as.com/futbol/uefa/patinazo-sin-modric-f202609-n/",
+        "https://sparta.cz/en/novinky/45206-winning-start-to-the-league-phase",
+        "https://www.omonoiafc.com.cy/match-report-%CF%84%CE%B5%CF%81%CE%AC%CF%83%CF%84%CE%B9%CE%B1-%CE%BD%CE%AF%CE%BA%CE%B7-%CE%BC%CE%B5-1-0-%CE%B5%CF%80%CE%AF-%CF%84%CE%B7%CF%82-celta-vigo/",
+        "https://www.juventus.com/it/news/articoli/uefa-europa-league-dove-vedere-juventus-nec"
+      ],
+      "production_commit": "c5ef24cf589b5449bed9d701dbc419d53dc7e045",
+      "publication_state": "commit_created_deploy_not_verified",
+      "verification": {
+        "repository_article_updated": true,
+        "existing_relevant_image_retained": true,
+        "public_article_updated": false,
+        "public_home_listing_present": true,
+        "public_sport_listing_present_before_update": true,
+        "predeploy_executed": false,
+        "predeploy_note": "tools/predeploy.py non eseguibile direttamente nell'ambiente collegato: il repository non è disponibile come working tree locale e l'accesso rete del container è bloccato. Non sono stati usati GitHub Actions o API esterne come ripiego."
+      }
+    }
+  ],
+  "excluded": []
+}
