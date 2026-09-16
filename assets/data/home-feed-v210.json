@@ -1,6 +1,40 @@
 {
-  "version": 375,
+  "version": 376,
   "items": [
+    {
+      "title": "Revolut, PEC istituzionale italiana usata per ottenere dati di 680 clienti",
+      "excerpt": "La Polizia postale indaga sulla casella compromessa. Revolut conferma di avere inviato informazioni sensibili a soggetti non autorizzati, ma precisa che sistemi e fondi non sono stati violati.",
+      "url": "/notizie/revolut-pec-istituzionale-italiana-dati-clienti-16-settembre-2026.html",
+      "section": "Italia / Cronaca",
+      "dateISO": "2026-09-16T10:58:54+02:00",
+      "dateLabel": "2026-09-16",
+      "image": "/assets/images/editorial-auto/revolut-pec-istituzionale-italiana-dati-clienti-16-settembre-2026-v376-800.webp",
+      "imageAlt": "Scena editoriale contestuale generata con IA: postazione informatica in un ufficio istituzionale italiano con un avviso di sicurezza su una casella email; nessun dato reale visibile",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/revolut-pec-istituzionale-italiana-dati-clienti-16-settembre-2026-v376-480.webp 480w, /assets/images/editorial-auto/revolut-pec-istituzionale-italiana-dati-clienti-16-settembre-2026-v376-800.webp 800w, /assets/images/editorial-auto/revolut-pec-istituzionale-italiana-dati-clienti-16-settembre-2026-v376-1200.webp 1200w",
+      "featuredHighlights": [
+        "Revolut",
+        "PEC istituzionale"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "680",
+          "label": "account stimati dal FT"
+        },
+        {
+          "icon": "▲",
+          "value": "1 PEC",
+          "label": "casella istituzionale compromessa"
+        },
+        {
+          "icon": "●",
+          "value": "0 fondi",
+          "label": "toccati secondo Revolut"
+        }
+      ]
+    },
     {
       "title": "Intesa-MPS, l’Antitrust apre l’istruttoria sui rischi per la concorrenza",
       "excerpt": "L’AGCM esaminerà gli effetti dell’operazione su depositi, credito, risparmio gestito e assicurazioni. L’avvio del procedimento non equivale a un divieto dell’offerta.",

@@ -2,6 +2,31 @@
   "version": 1,
   "events": [
     {
+      "run_at": "2026-09-16T10:54:46+02:00",
+      "timezone": "Europe/Rome",
+      "repository_branch": "main",
+      "coverage": {
+        "distinct_full_pages_read": 12,
+        "target": 500,
+        "target_reached": false,
+        "note": "Conteggio conservativo: esclusi titoli, snippet, risultati di ricerca, duplicati e pagine non lette. Sono state verificate la candidata pubblicata e le fonti sulla PEC istituzionale, oltre a sviluppi poi scartati come duplicati o insufficientemente nuovi su Eurofighter italiani, inflazione e meteo."
+      },
+      "article": {
+        "title": "Revolut, PEC istituzionale italiana usata per ottenere dati di 680 clienti",
+        "slug": "revolut-pec-istituzionale-italiana-dati-clienti-16-settembre-2026",
+        "status": "CONFERMATA DA PIÙ FONTI",
+        "editorial_score": 8.6,
+        "sources": [
+          "https://www.reuters.com/legal/litigation/revolut-confirms-sensitive-customer-data-breach-falling-fake-government-requests-2026-09-12/",
+          "https://www.ft.com/content/97f3d2b7-0282-42a7-bbb7-538624441a8a",
+          "https://www.ansa.it/sito/notizie/cronaca/2026/09/15/truffa-a-revolut-con-pec-italiana-compromessa-indaga-la-postale_b3b5047d-80a0-4242-93d2-8574c7f2f310.html",
+          "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/"
+        ],
+        "url": "https://curiomondo.it/notizie/revolut-pec-istituzionale-italiana-dati-clienti-16-settembre-2026.html",
+        "publication_state": "published_verified_online"
+      }
+    },
+    {
       "run_at": "2026-09-16T10:00:24+02:00",
       "timezone": "Europe/Rome",
       "repository_branch": "main",
