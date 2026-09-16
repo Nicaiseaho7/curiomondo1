@@ -23,7 +23,15 @@
         "https://www.reuters.com/legal/government/revolut-hackers-demand-3-million-ransom-ft-reports-2026-09-16/",
         "https://www.reuters.com/legal/litigation/revolut-confirms-sensitive-customer-data-breach-falling-fake-government-requests-2026-09-12/"
       ],
-      "publication_state": "pending_commit"
+      "publication_state": "published_verified_online",
+      "production_commit": "4841db205a3d8ccc2e104def1bcd7ee1f6a2573e",
+      "verified_at": "2026-09-16T21:08:36+02:00",
+      "verification": {
+        "article_title_text_image": true,
+        "home_listing": true,
+        "category_listing": true,
+        "related_content": true
+      }
     }
   ],
   "excluded": [
