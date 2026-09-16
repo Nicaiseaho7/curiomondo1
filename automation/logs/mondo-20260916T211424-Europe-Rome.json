@@ -21,7 +21,19 @@
         "https://www.reuters.com/business/warshs-words-may-matter-more-than-anticipated-fed-rate-hike-2026-09-16/",
         "https://apnews.com/article/bab1bcb07e973bfb2dd0c3e5fbbb73b1"
       ],
-      "publication_state": "pending_deploy"
+      "publication_state": "published_verified_online",
+      "production_commit": "eec108be08396c302757695eb48d51306e9bb6d7",
+      "verified_at": "2026-09-16T21:25:17+02:00",
+      "verification": {
+        "article_title_text_sources": true,
+        "hero_image_loaded": true,
+        "hero_image_dimensions": "1200x800",
+        "canonical_og_newsarticle_image_coherent": true,
+        "home_featured": true,
+        "category_listing": true,
+        "related_content": true,
+        "feed_sitemaps_generated_and_predeploy_validated": true
+      }
     }
   ],
   "excluded": [
