@@ -1,7 +1,36 @@
 {
-  "version": 389,
+  "version": 390,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383-480.webp",
+          "sha256": "f614ae96f3fb45b5a31c6a9398bc0cb0d32701be373f1f9b112bab6f28353e97",
+          "bytes": 38574
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383-800.webp",
+          "sha256": "9adb5f581ed4f258ab9596809da2c41748738e3b3d168818a1b37f2f84f298fa",
+          "bytes": 91838
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383-1200.webp",
+          "sha256": "8d409e66345bc50b9ad190e3f275d96868a060c30f7a92aaf8aef0c6441d1cff",
+          "bytes": 171494
+        }
+      ],
+      "alt": "Illustrazione editoriale di un’auto compatta e uno scooter parcheggiati in una strada italiana, non fotografia dell’annuncio.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "article": "/notizie/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026.html"
+    },
     {
       "key": "federal-reserve-alza-tassi-3-75-4-percento-16-settembre-2026-ai-openai-v389",
       "aiGenerated": true,
@@ -130,35 +159,6 @@
       "reenactedEvent": false,
       "prompt": "Ordinary contextual editorial scene about the CSM criteria for magistrates' aptitude tests; empty Italian institutional room, judicial robe and abstract assessment cards; no real vote reenacted, no text or watermark.",
       "article": "/notizie/csm-test-psicoattitudinali-magistrati-criteri-16-settembre-2026.html"
-    },
-    {
-      "key": "bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383",
-      "aiGenerated": true,
-      "documentaryPhoto": false,
-      "variants": [
-        {
-          "w": 480,
-          "src": "/assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383-480.webp",
-          "sha256": "f614ae96f3fb45b5a31c6a9398bc0cb0d32701be373f1f9b112bab6f28353e97",
-          "bytes": 38574
-        },
-        {
-          "w": 800,
-          "src": "/assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383-800.webp",
-          "sha256": "9adb5f581ed4f258ab9596809da2c41748738e3b3d168818a1b37f2f84f298fa",
-          "bytes": 91838
-        },
-        {
-          "w": 1200,
-          "src": "/assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383-1200.webp",
-          "sha256": "8d409e66345bc50b9ad190e3f275d96868a060c30f7a92aaf8aef0c6441d1cff",
-          "bytes": 171494
-        }
-      ],
-      "alt": "Illustrazione editoriale di un’auto compatta e uno scooter parcheggiati in una strada italiana, non fotografia dell’annuncio.",
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "sensitiveContext": false,
-      "article": "/notizie/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026.html"
     },
     {
       "key": "william-solo-procura-chiede-arresto-finti-incidenti-16-settembre-2026-ai-openai-v383",

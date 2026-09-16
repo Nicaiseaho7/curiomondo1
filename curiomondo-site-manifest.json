@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 389,
-    "site_version": 389
+    "current_site_version": 390,
+    "site_version": 390
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -240,18 +240,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 389,
-  "version": "v389",
-  "release_version": "v389",
+  "site_version": 390,
+  "version": "v390",
+  "release_version": "v390",
   "last_release": {
-    "version": 389,
+    "version": 390,
     "date": "2026-09-16",
-    "type": "content-release",
-    "news_added": [
-      "federal-reserve-alza-tassi-3-75-4-percento-16-settembre-2026"
+    "type": "content-update",
+    "news_added": [],
+    "news_updated": [
+      "bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026"
     ],
-    "news_updated": [],
-    "change": "Nuovo articolo sulla decisione della Federal Reserve di alzare i tassi",
-    "image_policy_applied": "new-openai-contextual-editorial-image"
+    "change": "Comunicato ufficiale Cdm n. 189: calendario accise e stato ufficiale del decreto sul bollo",
+    "image_policy_applied": "existing-dedicated-editorial-image-retained"
   }
 }
