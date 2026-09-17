@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 411,
-    "site_version": 411
+    "current_site_version": 412,
+    "site_version": 412
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -241,18 +241,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 411,
-  "version": "v411",
-  "release_version": "v411",
+  "site_version": 412,
+  "version": "v412",
+  "release_version": "v412",
   "last_release": {
-    "version": 411,
+    "version": 412,
     "date": "2026-09-17",
     "type": "content-release",
     "news_added": [
-      "rally-italia-sardegna-finale-mondiale-wrc-2026"
+      "leucemia-pediatrica-immunoterapia-blinatumomab-studio-2026"
     ],
     "news_updated": [],
-    "change": "Pubblicata la finale WRC 2026 al Rally Italia Sardegna",
-    "image_policy_applied": "new-openai-contextual-editorial-image-no-text-no-logo"
+    "change": "Pubblicati i risultati dello studio AIEOP-BFM ALL 2017 sulla leucemia pediatrica",
+    "image_policy_applied": "new-openai-conceptual-editorial-image-no-text-no-logo-no-patient"
   }
 }

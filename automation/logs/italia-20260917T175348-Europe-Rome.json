@@ -1,0 +1,48 @@
+{
+  "run_at": "2026-09-17T17:53:48+02:00",
+  "scope": "Italia / Salute e scienza",
+  "production_branch": "main",
+  "base_commit": "08cc848053279c2498851085fa7e95adf2b8a706",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 12,
+    "distinct_domains": 9,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: il target di 500 contenuti non è stato raggiunto e non è stato inventato. Sono stati letti il lavoro NEJM, la documentazione della Fondazione Tettamanti e conferme sanitarie indipendenti; le altre candidate sono state escluse per rilevanza, territorialità o assenza di conferme."
+  },
+  "processed": [
+    {
+      "title": "Leucemia pediatrica, immunoterapia riduce le recidive dal 21,4% all'11,8%",
+      "editorial_score": 8.6,
+      "status": "CONFERMATA DA PIÙ FONTI",
+      "decision": "publish",
+      "sources": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2604166",
+        "https://fondazionetettamanti.it/2026/09/17/leucemia-linfoblastica-acuta-pediatrica-ad-alto-rischio-limmunoterapia-dimezza-le-recidive-e-riduce-gli-effetti-collaterali-gravi/",
+        "https://www.ansa.it/canale_saluteebenessere/notizie/salute_bambini/news/2026/09/17/leucemia-acuta-pediatrica-limmunoterapia-dimezza-le-recidive_b3701232-43ac-4a80-86c9-a243c2af79e1.html",
+        "https://www.quotidianosanita.it/scienza-e-farmaci/leucemia-pediatrica-ad-alto-rischio-limmunoterapia-dimezza-le-recidive-lo-studio-che-ha-coinvolto-litalia/",
+        "https://oncodaily.com/hematology/blinatumomab-all-eha2026-520664"
+      ],
+      "public_url": "https://curiomondo.it/notizie/leucemia-pediatrica-immunoterapia-blinatumomab-studio-2026",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "discarded": [
+    {
+      "title": "Bambino di cinque anni precipita da un balcone a Montelanico",
+      "reason": "grave fatto locale, ma una sola fonte disponibile e rilevanza nazionale sotto soglia"
+    },
+    {
+      "title": "Visita di Giorgia Meloni in Norvegia",
+      "reason": "agenda diplomatica senza accordi o atti conclusivi documentati al momento del controllo"
+    },
+    {
+      "title": "Piano nazionale per la sicurezza del paziente",
+      "reason": "attività preparatoria annunciata, senza piano adottato né testo disponibile"
+    }
+  ],
+  "publication": {
+    "site_version": 412,
+    "state": "pending_deploy"
+  }
+}

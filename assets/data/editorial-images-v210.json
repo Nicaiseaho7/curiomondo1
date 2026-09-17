@@ -1,7 +1,39 @@
 {
-  "version": 411,
+  "version": 412,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "leucemia-pediatrica-immunoterapia-blinatumomab-studio-2026-v412",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/leucemia-pediatrica-immunoterapia-blinatumomab-studio-2026-v412-480.webp",
+          "sha256": "5fa478987656243fc7ad9d1534dd76ad0c2fdc9f8441fed08f541b43db601ee1",
+          "bytes": 25266
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/leucemia-pediatrica-immunoterapia-blinatumomab-studio-2026-v412-800.webp",
+          "sha256": "1dfc56229e576b060e5fe4e7db607079da3f13df55d6886850b14d0128b20f67",
+          "bytes": 46794
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/leucemia-pediatrica-immunoterapia-blinatumomab-studio-2026-v412-1200.webp",
+          "sha256": "3e6f56c3d53f2da2f9b20619ca0d2d5a3f0c42ad5a76f557348032ef04b98aec",
+          "bytes": 74964
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA di un laboratorio oncologico con provette, microscopio e pompa d'infusione; scena concettuale non documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": true,
+      "reenactedEvent": false,
+      "prompt": "Ultrarealistic conceptual pediatric oncology research laboratory with sample tubes and infusion pump; no patient, text, logos or watermark.",
+      "article": "/notizie/leucemia-pediatrica-immunoterapia-blinatumomab-studio-2026.html"
+    },
     {
       "key": "rally-italia-sardegna-finale-mondiale-wrc-2026-v411",
       "aiGenerated": true,
