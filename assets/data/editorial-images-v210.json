@@ -1,7 +1,34 @@
 {
-  "version": 393,
+  "version": 394,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Illustrazione editoriale IA di un temporale intenso su una strada costiera del Nord Italia, con pioggia, vento e fulmini; non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/maltempo-allerta-arancione-liguria-emilia-romagna-17-settembre-2026-v394-480.webp",
+          "sha256": "03325332926480d62eb5a8d517357a33817f04a29ca886855cc8b86b10856af5",
+          "bytes": 41258
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/maltempo-allerta-arancione-liguria-emilia-romagna-17-settembre-2026-v394-800.webp",
+          "sha256": "44248f4d94c3070e0cb804a31becfef2377b53a75af79b255b049d0e8910c740",
+          "bytes": 108316
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/maltempo-allerta-arancione-liguria-emilia-romagna-17-settembre-2026-v394-1200.webp",
+          "sha256": "d1c6af30713d85dc5c728e7f8827a58070ef7fc91ab37cf902afce67abc34052",
+          "bytes": 213156
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "sensitiveContext": false,
+      "article": "/notizie/maltempo-allerta-arancione-liguria-emilia-romagna-17-settembre-2026.html"
+    },
     {
       "key": "usa-camera-sanzioni-russia-dazi-100-percento-16-settembre-2026-ai-openai-v393",
       "aiGenerated": true,

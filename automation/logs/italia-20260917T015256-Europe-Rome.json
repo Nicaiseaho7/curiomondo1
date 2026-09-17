@@ -1,0 +1,35 @@
+{
+  "run_at": "2026-09-17T01:52:56+02:00",
+  "scope": "Italia",
+  "production_branch": "main",
+  "base_commit": "d2fe64f05e2a21b90226cf345c86e9f0736f50b3",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 4,
+    "headlines_or_snippets_excluded_from_count": true,
+    "note": "Copertura inferiore all’obiettivo: conteggio limitato ai documenti effettivamente aperti e letti; nessun titolo o snippet contato come lettura completa."
+  },
+  "processed": [
+    {
+      "title": "Maltempo oggi, allerta arancione in Liguria ed Emilia-Romagna",
+      "territorial_filter": "passed",
+      "editorial_score": 8.6,
+      "category": "Ambiente",
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "reason": "Allerta operativa nazionale con conseguenze pratiche immediate in più regioni italiane, documentata da autorità competenti.",
+      "sources": [
+        "https://www.protezionecivile.gov.it/it/comunicato-stampa/maltempo-allerta-arancione-liguria-e-emilia-romagna-1/",
+        "https://www.arpal.liguria.it/home-page/notizie-tematiche/item/domani-17-settembre-allerta-gialla-e-poi-arancione-sul-centro-levante.html",
+        "https://allertameteo.regione.emilia-romagna.it/"
+      ],
+      "public_url": "https://curiomondo.it/notizie/maltempo-allerta-arancione-liguria-emilia-romagna-17-settembre-2026.html",
+      "publication_state": "committed_pending_online_verification"
+    }
+  ],
+  "publication": {
+    "site_version": 394,
+    "predeploy_errors": [],
+    "state": "committed_pending_online_verification"
+  }
+}
