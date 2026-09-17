@@ -1,0 +1,46 @@
+{
+  "run_at": "2026-09-17T21:51:44+02:00",
+  "production_branch": "main",
+  "production_base_commit": "920799b91e5d7c510b5930a8431fcccf6d2d1877",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 4,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: comunicazione ANSA basata sulla nota del Quirinale, articolo Reuters, homepage ANSA e articolo CurioMondo esistente. Titoli, snippet e risultati di ricerca esclusi; il comunicato di Palazzo Chigi ha restituito HTTP 403 e non è contato come lettura integrale in questo turno."
+  },
+  "processed": [
+    {
+      "slug": "bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026",
+      "action": "substantial_update_existing_article",
+      "score": 9.1,
+      "status": "UFFICIALE",
+      "development_at": "2026-09-17T19:47:00+02:00",
+      "public_url": "https://curiomondo.it/notizie/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026.html",
+      "sources": [
+        "https://www.governo.it/it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-189/32596",
+        "https://www.ansa.it/sito/notizie/politica/2026/09/17/mattarella-emana-il-decreto-sullo-stop-al-bollo-e-il-taglio-delle-accise_0659884b-fcca-4a31-af33-34f2489babd6.html",
+        "https://www.reuters.com/business/italy-scraps-road-tax-most-cars-election-nears-2026-09-16/",
+        "https://www.rainews.it/amp/articoli/2026/09/cdm-anche-proroga-taglio-accise-carburanti-e-abolizione-bollo-auto-moto-55273aeb-5402-4f5d-8421-2c9f7188c878.html",
+        "https://www.aci.it/servizi/guida-al-bollo-auto/"
+      ],
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "excluded": [
+    {
+      "candidate": "Meloni in Norvegia",
+      "score": 6.8,
+      "reason": "agenda e dichiarazioni senza accordo sostanziale concluso"
+    },
+    {
+      "candidate": "CSM e test psicoattitudinali",
+      "score": 7.4,
+      "reason": "sviluppo del 16 settembre, non nuovo nell’ultima ora"
+    },
+    {
+      "candidate": "Europa League Juventus-NEC",
+      "score": 7.8,
+      "reason": "partita ancora in corso al momento del controllo"
+    }
+  ]
+}
