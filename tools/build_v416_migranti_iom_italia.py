@@ -129,6 +129,7 @@ def main() -> None:
     page = re.sub(r'"datePublished":"[^"]+"', f'"datePublished":"{PUBLISHED}"', page)
     page = re.sub(r'"dateModified":"[^"]+"', f'"dateModified":"{PUBLISHED}"', page)
     page = page.replace('<section class="curio-related">', '<section class="curio-related" data-curated-related="true">', 1)
+    page = page.replace('curiomondo-article-v210.js?v=416', 'curiomondo-article-v210.js?v=416-related1', 1)
     page_path.write_text(page, encoding="utf-8")
 
     ARTICLE["published"] = PUBLISHED
