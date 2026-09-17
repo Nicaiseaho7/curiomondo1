@@ -20,12 +20,23 @@
         "https://www.istat.it/comunicato-stampa/prezzi-delle-abitazioni-dati-provvisori-ii-trimestre-2026/",
         "https://www.agenziaentrate.gov.it/portale/documents/d/guest/statisticheomi_res_ii_2026"
       ],
-      "public_url": "https://curiomondo.it/notizie/prezzi-case-italia-secondo-trimestre-2026.html",
-      "publication_state": "pending_deploy"
+      "public_url": "https://curiomondo.it/notizie/prezzi-case-italia-secondo-trimestre-2026",
+      "publication_state": "verified_online"
     }
   ],
   "publication": {
     "site_version": 408,
-    "state": "pending_deploy"
+    "state": "verified_online",
+    "verified_at": "2026-09-17T15:04:15+02:00",
+    "checks": {
+      "article": true,
+      "category_italia": true,
+      "news_archive": true,
+      "title": true,
+      "body": true,
+      "image": true,
+      "sources": true,
+      "homepage": true
+    }
   }
 }
