@@ -23,7 +23,8 @@
         "https://www.eeas.europa.eu/eunavfor-aspides/eunavfor-aspides-mandate-video_en"
       ],
       "public_url": "https://curiomondo.it/notizie/bab-el-mandeb-crosetto-missione-navale-mercantili-italiani-17-settembre-2026.html",
-      "publication_state": "pending_deploy"
+      "publication_state": "verified_online",
+      "verified_online_at": "2026-09-17T20:11:31+02:00"
     },
     {
       "title": "Pioggia agli Uffizi, acqua sulla teca del Bacco di Caravaggio",
@@ -39,6 +40,14 @@
   ],
   "publication": {
     "site_version": 414,
-    "state": "pending_deploy"
+    "state": "verified_online",
+    "verified_online_at": "2026-09-17T20:11:31+02:00",
+    "verification": {
+      "article_title": true,
+      "article_body": true,
+      "responsive_image": true,
+      "homepage_feature": true,
+      "politica_category": true
+    }
   }
 }
