@@ -1,0 +1,47 @@
+{
+  "run_at": "2026-09-17T11:52:15+02:00",
+  "production_branch": "main",
+  "production_base_commit": "9850d5f58ea9fe73e0c2231718db83e5cab75dd1",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 9,
+    "headlines_or_snippets_excluded_from_count": true,
+    "target_reached": false,
+    "note": "Conteggio prudenziale dei soli contenuti aperti integralmente; titoli, snippet, duplicati e pagine non accessibili sono esclusi."
+  },
+  "processed": [
+    {
+      "slug": "rabbino-aggredito-milano-bande-nere-17-settembre-2026",
+      "action": "updated_existing_article",
+      "editorial_score": 8.7,
+      "category": "Cronaca",
+      "status": "IN SVILUPPO",
+      "sources": [
+        "https://www.ansa.it/sito/notizie/cronaca/2026/09/17/rabbino-aggredito-un-arresto-e-due-denunce-sono-ventenni-dediti-a-rapine_73a2b425-fbae-4767-a945-6e173ee23f83.html",
+        "https://www.ansa.it/sito/notizie/cronaca/2026/09/16/a-milano-rabbino-aggredito-preso-a-calci-e-pugni-a-fermata-del-bus_75d9797f-e106-492f-97fc-6d4e2f8d8e5b.html",
+        "https://www.rainews.it/tgr/lombardia/articoli/2026/09/a-milano-rabbino-aggredito-preso-a-calci-e-pugni-alla-fermata-del-bus-61e3d111-d134-4f03-8fad-f7c642a0fa2b.html",
+        "https://milano.corriere.it/notizie/cronaca/26_settembre_16/milano-rabbino-aggredito-da-tre-sconosciuti-alla-fermata-dell-autobus-preso-a-calci-e-pugni-lui-li-filma-e-li-denuncia-8a0f5bc5-1944-4dd2-8052-114cfa5f8xlk_amp.shtml"
+      ],
+      "public_url": "https://curiomondo.it/notizie/rabbino-aggredito-milano-bande-nere-17-settembre-2026.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "excluded": [
+    {
+      "topic": "Prezzi delle abitazioni nel secondo trimestre",
+      "reason": "Dato ufficiale rilevante ma rilascio trimestrale ordinario, valutato sotto 8/10 in questa selezione."
+    },
+    {
+      "topic": "Operazione contro la pedopornografia online",
+      "reason": "Candidata potenzialmente rilevante, rinviata in attesa dei dettagli ufficiali annunciati in conferenza stampa."
+    },
+    {
+      "topic": "Busta con proiettile indirizzata al ministro Valditara",
+      "reason": "Unica ricostruzione disponibile e dettagli ancora insufficienti per una pubblicazione completa."
+    }
+  ],
+  "publication": {
+    "site_version": 406,
+    "state": "pending_deploy"
+  }
+}
