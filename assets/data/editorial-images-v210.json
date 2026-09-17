@@ -1,7 +1,39 @@
 {
-  "version": 396,
+  "version": 397,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "parita-genere-italia-83-rapporto-wef-2026-v397",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/parita-genere-italia-83-rapporto-wef-2026-v397-480.webp",
+          "sha256": "5aeb147dc52a4f005123c9137a338d1941ba61b700ebb220bc6ca1cb18e26786",
+          "bytes": 29280
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/parita-genere-italia-83-rapporto-wef-2026-v397-800.webp",
+          "sha256": "c0120bce2b019c1172082950eb50163d2a27dab9a4dd7f2ae135e8ec434ee61f",
+          "bytes": 57736
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/parita-genere-italia-83-rapporto-wef-2026-v397-1200.webp",
+          "sha256": "80789066a09b03d59fb8cf20fc4ed687f16981e94cc66009f93090502ef59d83",
+          "bytes": 94990
+        }
+      ],
+      "alt": "Illustrazione editoriale IA di professioniste e professionisti riuniti in un ambiente di lavoro italiano; non rappresenta un evento specifico.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Ultra-realistic non-documentary editorial scene of diverse Italian professionals collaborating in a contemporary workplace, with women active in decision-making; natural morning light; no text, charts, logos or watermark.",
+      "article": "/notizie/parita-genere-italia-83-rapporto-wef-2026.html"
+    },
     {
       "key": "milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026-v396",
       "aiGenerated": true,

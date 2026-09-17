@@ -1,0 +1,46 @@
+{
+  "run_at": "2026-09-17T04:48:38+02:00",
+  "scope": "Italia",
+  "production_branch": "main",
+  "base_commit": "92ddb34357bfbbfea3b589fc6a57b7954808c16b",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 8,
+    "headlines_or_snippets_excluded_from_count": true,
+    "target_reached": false,
+    "note": "Conteggio prudenziale dei documenti effettivamente aperti e letti; la copertura è inferiore all'obiettivo e non include titoli o snippet."
+  },
+  "processed": [
+    {
+      "title": "Parità di genere, Italia 83ª nel rapporto WEF: è 121ª nell'economia",
+      "territorial_filter": "passed",
+      "editorial_score": 8.2,
+      "category": "Italia",
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "reason": "Rapporto ufficiale appena pubblicato con graduatorie nazionali rilevanti per lavoro, crescita e rappresentanza.",
+      "sources": [
+        "https://www.weforum.org/publications/global-gender-gap-report-2026/digest/",
+        "https://www.weforum.org/publications/global-gender-gap-report-2026/economy-profiles-global-gender-gap-report-2026/",
+        "https://www.ansa.it/donne/notizie/2026/09/16/il-global-gender-gap-report-2026-la-parita-di-genere-fa-progressi-record-nel_94f9ce45-cfef-436d-a323-418f9e6a3eca.html",
+        "https://www.reuters.com/business/italy-lags-peers-womens-employment-hampering-growth-report-shows-2026-03-18/"
+      ],
+      "public_url": "https://curiomondo.it/notizie/parita-genere-italia-83-rapporto-wef-2026.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "excluded": [
+    {
+      "topic": "Milano Greco Pirelli",
+      "reason": "Nessun nuovo comunicato ufficiale sul ripristino completo rispetto all'articolo già pubblicato."
+    },
+    {
+      "topic": "Lavoratore su una gru a Milano",
+      "reason": "Evento locale senza elementi sufficienti per la soglia di rilevanza nazionale."
+    }
+  ],
+  "publication": {
+    "site_version": 397,
+    "state": "pending_deploy"
+  }
+}
