@@ -1,0 +1,32 @@
+{
+  "run_at": "2026-09-17T07:11:14+02:00",
+  "scope": "Mondo",
+  "production_branch": "main",
+  "base_commit": "baaf13740514c96af4f881212c93cddbf91f1724",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 11,
+    "distinct_domains": 8,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: titoli e snippet non sono stati contati. Sono state lette integralmente le fonti decisive; le rivendicazioni militari non indipendentemente verificabili sono attribuite e non trattate come fatti accertati."
+  },
+  "processed": [
+    {
+      "title": "Guerra USA-Iran, il fronte si allarga: scontri tra Houthi e Arabia Saudita",
+      "editorial_score": 8.6,
+      "status": "IN SVILUPPO",
+      "decision": "publish",
+      "sources": [
+        "https://www.reuters.com/world/middle-east/trump-hopes-iran-war-nearing-end-houthi-saudi-fighting-escalates-2026-09-17/",
+        "https://apnews.com/article/5bb1f82555c147514fc2e8d2d61baf0c",
+        "https://travel.state.gov/en/international-travel/travel-advisories/saudi-arabia.html"
+      ],
+      "public_url": "https://curiomondo.it/notizie/guerra-iran-yemen-houthi-arabia-saudita-17-settembre-2026.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "publication": {
+    "site_version": 401,
+    "state": "pending_deploy"
+  }
+}

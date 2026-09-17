@@ -1,7 +1,40 @@
 {
-  "version": 400,
+  "version": 401,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "guerra-iran-yemen-houthi-arabia-saudita-17-settembre-2026-v401",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/guerra-iran-yemen-houthi-arabia-saudita-17-settembre-2026-v401-480.webp",
+          "sha256": "b05c90dbd8c07207a731161479bf5e1dbadb825f3a49bf243ef364f6081d565b",
+          "bytes": 24612
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/guerra-iran-yemen-houthi-arabia-saudita-17-settembre-2026-v401-800.webp",
+          "sha256": "87dba21c1029d8b0bce6134bc2cd21a2a7fa7344f32637428b3bf62bd22b9f29",
+          "bytes": 65352
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/guerra-iran-yemen-houthi-arabia-saudita-17-settembre-2026-v401-1200.webp",
+          "sha256": "334b28aae2c55a0e1ea049a2f3bbaf39d8839d78dacd7122e10d9fd1bce38630",
+          "bytes": 135400
+        }
+      ],
+      "alt": "Terminale energetico e navi mercantili sul Mar Rosso all'alba, illustrazione editoriale fotorealistica generata con IA e non riferita a un luogo reale specifico.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": true,
+      "portraitFormat": "contextual-editorial-scene",
+      "reenactedEvent": false,
+      "prompt": "Contextual editorial Red Sea energy terminal and commercial shipping at sunrise; no attack, weapons, people, flags, text or watermark.",
+      "article": "/notizie/guerra-iran-yemen-houthi-arabia-saudita-17-settembre-2026.html"
+    },
     {
       "key": "rabbino-aggredito-milano-bande-nere-17-settembre-2026-v400",
       "aiGenerated": true,
