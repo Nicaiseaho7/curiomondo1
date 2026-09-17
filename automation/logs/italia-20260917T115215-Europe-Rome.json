@@ -23,7 +23,7 @@
         "https://milano.corriere.it/notizie/cronaca/26_settembre_16/milano-rabbino-aggredito-da-tre-sconosciuti-alla-fermata-dell-autobus-preso-a-calci-e-pugni-lui-li-filma-e-li-denuncia-8a0f5bc5-1944-4dd2-8052-114cfa5f8xlk_amp.shtml"
       ],
       "public_url": "https://curiomondo.it/notizie/rabbino-aggredito-milano-bande-nere-17-settembre-2026.html",
-      "publication_state": "pending_deploy"
+      "publication_state": "verified_online"
     }
   ],
   "excluded": [
@@ -42,6 +42,13 @@
   ],
   "publication": {
     "site_version": 406,
-    "state": "pending_deploy"
+    "state": "verified_online",
+    "verified_online_at": "2026-09-17T12:09:38+02:00",
+    "checks": {
+      "article": "https://curiomondo.it/notizie/rabbino-aggredito-milano-bande-nere-17-settembre-2026.html",
+      "homepage": "https://curiomondo.it/",
+      "category": "https://curiomondo.it/categorie/cronaca/",
+      "image": "https://curiomondo.it/assets/images/editorial-auto/rabbino-aggredito-milano-arresto-v406-800.webp"
+    }
   }
 }
