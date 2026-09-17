@@ -24,12 +24,23 @@
         "https://allertameteo.regione.emilia-romagna.it/"
       ],
       "public_url": "https://curiomondo.it/notizie/maltempo-allerta-arancione-liguria-emilia-romagna-17-settembre-2026.html",
-      "publication_state": "committed_pending_online_verification"
+      "publication_state": "published_verified_online",
+      "verified_online_at": "2026-09-17T02:09:24+02:00",
+      "online_checks": {
+        "article_http": 200,
+        "homepage_present": true,
+        "category_ambiente_present": true,
+        "image_http": 200,
+        "image_dimensions": "800x533",
+        "image_sha256": "44248f4d94c3070e0cb804a31becfef2377b53a75af79b255b049d0e8910c740"
+      }
     }
   ],
   "publication": {
     "site_version": 394,
     "predeploy_errors": [],
-    "state": "committed_pending_online_verification"
+    "state": "published_verified_online",
+    "verified_online_at": "2026-09-17T02:09:24+02:00",
+    "production_commit": "4aa4eed9f4bc2fe77e096f1d3dea8600475808b6"
   }
 }
