@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 401,
-    "site_version": 401
+    "current_site_version": 402,
+    "site_version": 402
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -241,18 +241,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 401,
-  "version": "v401",
-  "release_version": "v401",
+  "site_version": 402,
+  "version": "v402",
+  "release_version": "v402",
   "last_release": {
-    "version": 401,
+    "version": 402,
     "date": "2026-09-17",
     "type": "content-release",
     "news_added": [
-      "guerra-iran-yemen-houthi-arabia-saudita-17-settembre-2026"
+      "sardegna-legge-minori-diabete-tipo-1-scuola-sport-17-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Pubblicato l'allargamento del conflitto al fronte saudita-yemenita",
-    "image_policy_applied": "new-openai-contextual-sensitive-non-documentary"
+    "change": "Pubblicata la legge sarda per l'inclusione dei minori con diabete di tipo 1",
+    "image_policy_applied": "new-openai-sensitive-contextual-still-life-no-identifiable-minors"
   }
 }

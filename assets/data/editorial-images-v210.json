@@ -1,7 +1,40 @@
 {
-  "version": 401,
+  "version": 402,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "sardegna-legge-minori-diabete-tipo-1-scuola-sport-17-settembre-2026-v402",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/sardegna-legge-minori-diabete-tipo-1-scuola-sport-17-settembre-2026-v402-480.webp",
+          "sha256": "0273465c5eef30bdee2a98dd6b1cf2dca7c69041d2736583179de8f26edc9f4b",
+          "bytes": 31834
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/sardegna-legge-minori-diabete-tipo-1-scuola-sport-17-settembre-2026-v402-800.webp",
+          "sha256": "658e432d62d216948777331e3c5e99670478f06dd0eef237204c4d3029a2842a",
+          "bytes": 68622
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/sardegna-legge-minori-diabete-tipo-1-scuola-sport-17-settembre-2026-v402-1200.webp",
+          "sha256": "5369d97a437347acaec1bdfea8b652198d6ace8ff2270bfc75e17c15af2efa6a",
+          "bytes": 127028
+        }
+      ],
+      "alt": "Scena editoriale fotorealistica generata con IA con zaino scolastico, borsa sportiva e kit per il monitoraggio del diabete in una scuola sarda; nessun minore identificabile.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": true,
+      "portraitFormat": "contextual-editorial-still-life",
+      "reenactedEvent": false,
+      "prompt": "Health-sensitive editorial still life in a Sardinian school gym with backpack, sports bag and glucose monitoring kit; no identifiable child, treatment, distress, text, logo or watermark.",
+      "article": "/notizie/sardegna-legge-minori-diabete-tipo-1-scuola-sport-17-settembre-2026.html"
+    },
     {
       "key": "guerra-iran-yemen-houthi-arabia-saudita-17-settembre-2026-v401",
       "aiGenerated": true,

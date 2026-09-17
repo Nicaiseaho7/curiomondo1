@@ -1,0 +1,25 @@
+{
+  "run_at": "2026-09-17T07:36:05+02:00",
+  "scope": "Italia / Salute / Scuola",
+  "production_branch": "main",
+  "base_commit": "9cc66f1a657045f2a6b5cede10e5b80e7a86ac65",
+  "processed": [
+    {
+      "title": "Sardegna, una rete per i minori con diabete tra scuola e sport",
+      "editorial_score": 8.2,
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "sources": [
+        "https://www.consregsardegna.it/nota-stampa-della-seduta-n-148/",
+        "https://www.consregsardegna.it/wp-content/uploads/2026/09/TU126-138A.pdf",
+        "https://www.ansa.it/canale_saluteebenessere/notizie/diabete/2026/09/15/in-sardegna-la-prima-legge-in-italia-sulla-tutela-dei-minori-col-diabete_5cb5f9af-10ae-4a58-87a1-92916a8a886f.html"
+      ],
+      "public_url": "https://curiomondo.it/notizie/sardegna-legge-minori-diabete-tipo-1-scuola-sport-17-settembre-2026.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "publication": {
+    "site_version": 402,
+    "state": "pending_deploy"
+  }
+}
