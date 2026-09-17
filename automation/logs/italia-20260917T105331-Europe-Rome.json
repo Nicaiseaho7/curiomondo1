@@ -25,7 +25,7 @@
         "https://www.wired.com/story/the-eu-bans-social-media-for-under-13s/"
       ],
       "public_url": "https://curiomondo.it/notizie/ue-social-media-divieto-sotto-13-anni-proposta-von-der-leyen-16-settembre-2026.html",
-      "publication_state": "pending_deploy"
+      "publication_state": "deployed_verified"
     }
   ],
   "excluded": [
@@ -40,6 +40,12 @@
   ],
   "publication": {
     "site_version": 404,
-    "state": "pending_deploy"
+    "state": "deployed_verified",
+    "verified_at": "2026-09-17T11:08:12+02:00",
+    "verified_urls": [
+      "https://curiomondo.it/notizie/ue-social-media-divieto-sotto-13-anni-proposta-von-der-leyen-16-settembre-2026.html",
+      "https://curiomondo.it/categorie/politica/",
+      "https://curiomondo.it/assets/images/editorial-auto/eu-kids-act-famiglie-italia-ai-openai-v404-800.webp"
+    ]
   }
 }
