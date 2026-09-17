@@ -1,0 +1,41 @@
+{
+  "run_at": "2026-09-17T02:56:14+02:00",
+  "scope": "Sport",
+  "production_branch": "main",
+  "base_commit": "dbebd3e1ba7c161530256d5b97cc6f3fca5cca79",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_content_pages_examined": 12,
+    "distinct_domains": 7,
+    "headlines_or_snippets_excluded_from_count": true,
+    "note": "Copertura inferiore all’obiettivo: il conteggio include solo pagine con contenuto sostanziale effettivamente esaminato nella sessione. Nessuna quantità è stata usata in sostituzione della verifica puntuale."
+  },
+  "processed": [
+    {
+      "slug": "europa-league-oggi-milan-benfica-e-tutte-le-partite-del-16-settembre-orari-e-tv-16-09-2026",
+      "action": "substantial_update_existing_daily_guide",
+      "score": 8.5,
+      "category": "Sport",
+      "status": "UFFICIALE",
+      "development_date": "2026-09-17",
+      "decision": "update",
+      "reason": "Aggiornamento di servizio per la seconda serata della prima giornata: Juventus-N.E.C. è ora l'appuntamento italiano del giorno; verificati orario, copertura TV/streaming, conferenza stampa e informazione di Spalletti sull'impiego di McKennie senza presentarla come formazione ufficiale.",
+      "sources": [
+        "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures/",
+        "https://www.juventus.com/it/news/articoli/uefa-europa-league-dove-vedere-juventus-nec",
+        "https://www.juventus.com/it/news/articoli/le-parole-di-kalulu-e-spalletti-alla-vigilia-di-juventus-nec",
+        "https://www.juventus.com/it/news/articoli/uefa-europa-league-juventus-nec-i-precedenti",
+        "https://sport.sky.it/calcio/europa-league/2026/09/15/europa-league-calendario-orari-partite-giornata-1",
+        "https://sport.sky.it/calcio/europa-league/2026/09/16/juventus-nec-spalletti-video-conferenza"
+      ],
+      "public_url": "https://curiomondo.it/notizie/europa-league-oggi-milan-benfica-e-tutte-le-partite-del-16-settembre-orari-e-tv-16-09-2026.html",
+      "existing_relevant_image_retained": true,
+      "publication_state": "commit_pending"
+    }
+  ],
+  "publication": {
+    "predeploy_executed": false,
+    "predeploy_note": "tools/predeploy.py non eseguibile direttamente: il repository non è disponibile come working tree locale e il container non ha accesso rete. Non sono stati usati GitHub Actions o API esterne come ripiego.",
+    "state": "commit_pending"
+  }
+}
