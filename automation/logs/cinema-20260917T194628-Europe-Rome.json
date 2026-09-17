@@ -23,11 +23,25 @@
         "https://gizmodo.com/the-new-sunrise-on-the-reaping-trailer-asks-whats-haymitchs-story-2000812588"
       ],
       "public_url": "https://curiomondo.it/notizie/hunger-games-alba-mietitura-trailer-italiano-19-novembre-2026.html",
-      "publication_state": "pending_deploy"
+      "publication_state": "deployed_verified",
+      "verified_online_at": "2026-09-17T19:55:14+02:00"
     }
   ],
   "publication": {
     "site_version": 413,
-    "state": "pending_deploy"
+    "state": "deployed_verified",
+    "commit": "e7dd2d89c25a4c3953d3a452bf28d10b60aaf5ef",
+    "verified_online_at": "2026-09-17T19:55:14+02:00",
+    "checks": {
+      "article_title_body_canonical": true,
+      "hero_image_loaded": true,
+      "homepage": true,
+      "latest_and_archive": true,
+      "category_cultura": true,
+      "search_index": true,
+      "feed": true,
+      "sitemap": true,
+      "news_sitemap": true
+    }
   }
 }
