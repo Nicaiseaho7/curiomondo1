@@ -23,8 +23,9 @@
         "https://www.quotidianosanita.it/scienza-e-farmaci/leucemia-pediatrica-ad-alto-rischio-limmunoterapia-dimezza-le-recidive-lo-studio-che-ha-coinvolto-litalia/",
         "https://oncodaily.com/hematology/blinatumomab-all-eha2026-520664"
       ],
-      "public_url": "https://curiomondo.it/notizie/leucemia-pediatrica-immunoterapia-blinatumomab-studio-2026",
-      "publication_state": "pending_deploy"
+      "public_url": "https://curiomondo.it/notizie/leucemia-pediatrica-immunoterapia-blinatumomab-studio-2026.html",
+      "publication_state": "published_verified_online",
+      "verified_online_at": "2026-09-17T18:01:39+02:00"
     }
   ],
   "discarded": [
@@ -43,6 +44,15 @@
   ],
   "publication": {
     "site_version": 412,
-    "state": "pending_deploy"
+    "state": "published_verified_online",
+    "commit": "65aeb2c7f7c9ca4718d583077e718beaf1fffbd6",
+    "verified_online_at": "2026-09-17T18:01:39+02:00",
+    "checks": {
+      "article_http": 200,
+      "image_http": 200,
+      "homepage": true,
+      "archive": true,
+      "category_italia": true
+    }
   }
 }
