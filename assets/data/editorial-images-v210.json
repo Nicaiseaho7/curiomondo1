@@ -1,7 +1,38 @@
 {
-  "version": 395,
+  "version": 396,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026-v396",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026-v396-480.webp",
+          "sha256": "c002844f11b2cf39f0af40fca75e5ca3e945e4422004c254307ab5bf151e9736",
+          "bytes": 35696
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026-v396-800.webp",
+          "sha256": "315e368076ad5c2e21c51bd6aa998ebed3a89404dbaf83ffcccdd3aa88f0c433",
+          "bytes": 84410
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026-v396-1200.webp",
+          "sha256": "d44c731af86b7134724d5b69f1cce8fc8d8be3ca0fdca9c3e245d7c5c13eef56",
+          "bytes": 156218
+        }
+      ],
+      "alt": "Illustrazione editoriale IA di un nodo ferroviario notturno con un treno merci fermo e tecnici sui binari; non è una fotografia dell'incidente di Milano Greco Pirelli.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": true,
+      "article": "/notizie/milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026.html"
+    },
     {
       "key": "nepal-riscaldamento-indebolito-versante-disastro-17-settembre-2026-ai-openai-v395",
       "aiGenerated": true,

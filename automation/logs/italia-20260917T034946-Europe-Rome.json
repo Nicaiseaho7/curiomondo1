@@ -1,0 +1,36 @@
+{
+  "run_at": "2026-09-17T03:49:46+02:00",
+  "scope": "Italia",
+  "production_branch": "main",
+  "base_commit": "3cff5a51370545d257996a502c54c33faedf0956",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 4,
+    "headlines_or_snippets_excluded_from_count": true,
+    "note": "Copertura inferiore all'obiettivo: conteggio limitato ai quattro documenti ferroviari effettivamente aperti e letti integralmente; nessun titolo o snippet contato come lettura completa."
+  },
+  "processed": [
+    {
+      "title": "Milano Greco Pirelli, treni interrotti dopo il deragliamento di un carro merci",
+      "territorial_filter": "passed",
+      "editorial_score": 8.5,
+      "category": "Italia",
+      "status": "IN SVILUPPO",
+      "decision": "publish",
+      "reason": "Interruzione di più direttrici ferroviarie lombarde con effetti concreti sui pendolari del mattino; evento verificato da RFI e più fonti indipendenti, con ripristino completo ancora da confermare.",
+      "sources": [
+        "https://www.rfi.it/it/news-e-media/infomobilita/aggiornamenti/2026/9/16/linea-milano---chiasso--milano---lecco-dalle-ore-20-45-circolazi.html",
+        "https://milano.repubblica.it/cronaca/2026/09/16/news/deraglia_un_carro_merci_nella_stazione_di_greco_pirelli_a_milano-425589630/",
+        "https://milano.corriere.it/notizie/cronaca/26_settembre_16/milano-deraglia-treno-merci-a-greco-pirelli-circolazione-sospesa-su-linee-per-como-sondrio-e-tirano-esclusa-fuoriuscita-di-d25f7dba-316c-4282-9497-8246b071exlk.shtml",
+        "https://it.marketscreener.com/notizie/riattivata-la-circolazione-solo-sulla-milano-lecco-sondrio-ce785bd2d088f221"
+      ],
+      "public_url": "https://curiomondo.it/notizie/milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "publication": {
+    "site_version": 396,
+    "predeploy_errors": [],
+    "state": "pending_deploy"
+  }
+}
