@@ -30,12 +30,19 @@
       ],
       "public_url": "https://curiomondo.it/notizie/europa-league-oggi-milan-benfica-e-tutte-le-partite-del-16-settembre-orari-e-tv-16-09-2026.html",
       "existing_relevant_image_retained": true,
-      "publication_state": "commit_pending"
+      "content_commit": "2586e59860c61e95e9d2434e20d36b70a807708e",
+      "publication_state": "committed_pending_online_verification"
     }
   ],
   "publication": {
     "predeploy_executed": false,
     "predeploy_note": "tools/predeploy.py non eseguibile direttamente: il repository non è disponibile come working tree locale e il container non ha accesso rete. Non sono stati usati GitHub Actions o API esterne come ripiego.",
-    "state": "commit_pending"
+    "state": "committed_pending_online_verification",
+    "online_verification": {
+      "checked": true,
+      "result": "stale_public_version",
+      "observed_at": "2026-09-17T03:00:00+02:00",
+      "note": "La pagina pubblica continua a mostrare la versione precedente del 16 settembre; nessuna notifica di pubblicazione inviata."
+    }
   }
 }
