@@ -25,7 +25,18 @@
         "https://www.theguardian.com/football/live/2026/sep/17/real-sociedad-v-bournemouth-crystal-palace-v-lech-poznan-and-more-europa-league-live"
       ],
       "public_url": "https://curiomondo.it/notizie/juventus-nec-5-0-europa-league-17-settembre-2026.html",
-      "publication_state": "pending_deploy"
+      "publication_state": "verified_online",
+      "verified_at": "2026-09-18T00:11:43+02:00",
+      "production_commit": "3411cacfed572bc388f701935fd68e6f35f4bcdf",
+      "live_checks": {
+        "article_http_and_render": "passed",
+        "title_and_body": "passed",
+        "hero_image": "passed; 800x533 on article",
+        "homepage": "passed",
+        "category_sport": "passed; first article",
+        "related_items": 3,
+        "source_links": 4
+      }
     }
   ],
   "excluded": [
@@ -41,6 +52,8 @@
   ],
   "publication": {
     "site_version": 418,
-    "state": "pending_deploy"
+    "state": "verified_online",
+    "production_commit": "3411cacfed572bc388f701935fd68e6f35f4bcdf",
+    "verified_at": "2026-09-18T00:11:43+02:00"
   }
 }
