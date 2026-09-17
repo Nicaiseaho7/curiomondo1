@@ -23,7 +23,17 @@
         "https://www.rainews.it/amp/articoli/2026/09/cdm-anche-proroga-taglio-accise-carburanti-e-abolizione-bollo-auto-moto-55273aeb-5402-4f5d-8421-2c9f7188c878.html",
         "https://www.aci.it/servizi/guida-al-bollo-auto/"
       ],
-      "publication_state": "pending_deploy"
+      "publication_state": "verified_online",
+      "verified_at": "2026-09-17T21:58:40+02:00",
+      "production_commit": "f9a517f4b22fc15e94557f70267aa837020086a6",
+      "live_checks": [
+        "titolo presente",
+        "data di aggiornamento 17 settembre 2026 alle 21:51",
+        "paragrafo sull'emanazione di Mattarella presente",
+        "fonte ANSA sull'emanazione presente",
+        "immagine editoriale caricata a 800x533 pixel",
+        "tre contenuti pertinenti nella sezione Potrebbe interessarti anche"
+      ]
     }
   ],
   "excluded": [
