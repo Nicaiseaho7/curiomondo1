@@ -1,5 +1,5 @@
 {
-  "version": 403,
+  "version": 404,
   "items": [
     {
       "title": "Sardegna, una rete per i minori con diabete tra scuola e sport",
@@ -444,36 +444,36 @@
       ]
     },
     {
-      "title": "Social media, von der Leyen propone il divieto UE sotto i 13 anni",
-      "excerpt": "La presidente della Commissione propone account vietati sotto i 13 anni, profili supervisionati fino a 15 e progettazione sicura fino a 18. Il piano non è ancora legge e dovrà essere definito, discusso e approvato.",
+      "title": "EU Kids Act, adottata la proposta sul divieto social sotto i 13 anni",
+      "excerpt": "Il testo prevede account autonomi dai 15 anni, profili supervisionati a 13 e 14 anni e obblighi di sicurezza per piattaforme, videogiochi e chatbot. Non è ancora legge: servirà l'accordo di Parlamento europeo e Consiglio.",
       "url": "/notizie/ue-social-media-divieto-sotto-13-anni-proposta-von-der-leyen-16-settembre-2026.html",
-      "section": "Mondo",
+      "section": "Italia / Politica",
       "dateISO": "2026-09-16T19:48:39+02:00",
       "dateLabel": "2026-09-16",
-      "image": "/assets/images/editorial-auto/von-der-leyen-social-minori-ue-ai-openai-v387-800.webp",
-      "imageAlt": "Scena editoriale contestuale generata con IA con Ursula von der Leyen in un ambiente istituzionale europeo e uno smartphone con simbolo astratto di protezione dei minori; non documentaria.",
+      "image": "/assets/images/editorial-auto/eu-kids-act-famiglie-italia-ai-openai-v404-800.webp",
+      "imageAlt": "Scena editoriale contestuale generata con IA di una madre e un adolescente italiani che controllano insieme le impostazioni di uno smartphone; non documentaria.",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/von-der-leyen-social-minori-ue-ai-openai-v387-480.webp 480w, /assets/images/editorial-auto/von-der-leyen-social-minori-ue-ai-openai-v387-800.webp 800w, /assets/images/editorial-auto/von-der-leyen-social-minori-ue-ai-openai-v387-1200.webp 1200w",
+      "srcset": "/assets/images/editorial-auto/eu-kids-act-famiglie-italia-ai-openai-v404-480.webp 480w, /assets/images/editorial-auto/eu-kids-act-famiglie-italia-ai-openai-v404-800.webp 800w, /assets/images/editorial-auto/eu-kids-act-famiglie-italia-ai-openai-v404-1200.webp 1200w",
       "featuredHighlights": [
-        "divieto UE",
-        "sotto i 13 anni"
+        "EU Kids Act",
+        "social vietati"
       ],
       "featuredStats": [
         {
           "icon": "◆",
           "value": "< 13",
-          "label": "accesso ai social da vietare"
+          "label": "nessun account social"
         },
         {
           "icon": "●",
-          "value": "13–15",
-          "label": "solo account supervisionati"
+          "value": "13–14",
+          "label": "solo profili supervisionati"
         },
         {
-          "icon": "▲",
-          "value": "15–18",
-          "label": "design sicuro obbligatorio"
+          "icon": "↗",
+          "value": "15 anni",
+          "label": "account autonomo"
         }
       ]
     },

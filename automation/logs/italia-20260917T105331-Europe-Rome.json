@@ -1,0 +1,45 @@
+{
+  "run_at": "2026-09-17T10:53:31+02:00",
+  "production_branch": "main",
+  "production_base_commit": "a250e9a1f5055faf250d440c56f243dce5395b98",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 6,
+    "headlines_or_snippets_excluded_from_count": true,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: comunicato, panoramica e FAQ della Commissione, ANSA, Reuters e WIRED. Esclusi titoli, snippet, paywall e duplicati; nessuna consultazione inventata."
+  },
+  "processed": [
+    {
+      "slug": "ue-social-media-divieto-sotto-13-anni-proposta-von-der-leyen-16-settembre-2026",
+      "action": "updated_existing_article",
+      "editorial_score": 9.1,
+      "category": "Politica",
+      "status": "UFFICIALE",
+      "status_note": "Ufficiale l'adozione della proposta da parte della Commissione; non ancora legge.",
+      "sources": [
+        "https://digital-strategy.ec.europa.eu/en/news/eu-kids-act-restrict-social-media-platforms-access-children-eu",
+        "https://digital-strategy.ec.europa.eu/en/faqs/kids-act-explained",
+        "https://www.ansa.it/sito/notizie/topnews/2026/09/17/lue-approva-il-kids-act-divieto-dei-social-per-gli-under_e9ce2fd4-9b14-4c10-9c2e-23200167950d.html",
+        "https://www.reuters.com/legal/litigation/eu-is-set-propose-ban-social-media-ai-chatbots-under-15s-2026-09-14/",
+        "https://www.wired.com/story/the-eu-bans-social-media-for-under-13s/"
+      ],
+      "public_url": "https://curiomondo.it/notizie/ue-social-media-divieto-sotto-13-anni-proposta-von-der-leyen-16-settembre-2026.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "excluded": [
+    {
+      "topic": "Prezzi dei carburanti del 17 settembre",
+      "reason": "Rialzo quotidiano rilevante ma senza sviluppo autonomo sufficiente rispetto all'articolo già pubblicato su bollo e accise; voto inferiore a 8/10."
+    },
+    {
+      "topic": "Caso Roggero, rigettato il differimento pena",
+      "reason": "Sviluppo giudiziario locale sotto la soglia di rilevanza nazionale."
+    }
+  ],
+  "publication": {
+    "site_version": 404,
+    "state": "pending_deploy"
+  }
+}

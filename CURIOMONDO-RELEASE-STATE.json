@@ -1,7 +1,7 @@
 {
-  "site_version": 403,
+  "site_version": 404,
   "articleCount": 379,
-  "generatedEditorialImages": 195,
+  "generatedEditorialImages": 196,
   "baseline_version": 342,
   "release_date": "2026-09-17",
   "protocol_files": [
@@ -14,12 +14,12 @@
     "curiomondo-site-manifest.json"
   ],
   "last_daily_question_date": "2026-09-17",
-  "version": "403",
+  "version": "404",
   "date": "2026-09-17",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "italia-milano-greco-ripristino-v403",
+  "last_update": "eu-kids-act-proposta-ufficiale-v404",
   "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
-  "currentVersion": 403,
+  "currentVersion": 404,
   "baselineVersion": 342,
   "designRestored": "Intestazione globale unificata su tutte le pagine interne; palette blu Facebook e fascia LIVE rossa piena confermate.",
   "status": "ready"

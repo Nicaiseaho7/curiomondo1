@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 403,
-    "site_version": 403
+    "current_site_version": 404,
+    "site_version": 404
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -241,18 +241,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 403,
-  "version": "v403",
-  "release_version": "v403",
+  "site_version": 404,
+  "version": "v404",
+  "release_version": "v404",
   "last_release": {
-    "version": 403,
+    "version": 404,
     "date": "2026-09-17",
     "type": "content-update",
     "news_added": [],
     "news_updated": [
-      "milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026"
+      "ue-social-media-divieto-sotto-13-anni-proposta-von-der-leyen-16-settembre-2026"
     ],
-    "change": "Aggiornato il deragliamento di Milano Greco Pirelli con il ripristino ufficiale della circolazione",
-    "image_policy_applied": "existing-dedicated-editorial-image-retained"
+    "change": "EU KIDS Act: proposta ufficiale adottata dalla Commissione, dettagli applicativi e iter legislativo",
+    "image_policy_applied": "new-openai-contextual-editorial-image-for-substantive-update"
   }
 }
