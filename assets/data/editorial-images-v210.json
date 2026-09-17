@@ -1,7 +1,39 @@
 {
-  "version": 394,
+  "version": 395,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "nepal-riscaldamento-indebolito-versante-disastro-17-settembre-2026-ai-openai-v395",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/nepal-riscaldamento-indebolito-versante-disastro-17-settembre-2026-ai-openai-v395-480.webp",
+          "sha256": "47583005f0ce82292018bc66a1f1df0f44100be35bba4ef3617ed3710d5b6604",
+          "bytes": 46086
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/nepal-riscaldamento-indebolito-versante-disastro-17-settembre-2026-ai-openai-v395-800.webp",
+          "sha256": "5ef9a140c4d974aa413f5682e41f88fe31ae5a6cc4689a5398358ef480183f62",
+          "bytes": 118460
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/nepal-riscaldamento-indebolito-versante-disastro-17-settembre-2026-ai-openai-v395-1200.webp",
+          "sha256": "49efc5eccb1b3a2167e5f5d6fc835e08e7fe4be6e4b6f8736059f837548df622",
+          "bytes": 226248
+        }
+      ],
+      "alt": "Illustrazione editoriale IA concettuale di un versante himalayano fratturato accanto a un ghiacciaio in ritiro; non documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": true,
+      "reenactedEvent": false,
+      "prompt": "Ultra-realistic conceptual Himalayan rock-and-ice slope with a retreating glacier and fractured granite at dawn; no people, victims, buildings, text, logos or watermark; generic non-documentary reconstruction.",
+      "article": "/notizie/nepal-riscaldamento-indebolito-versante-disastro-17-settembre-2026.html"
+    },
     {
       "alt": "Illustrazione editoriale IA di un temporale intenso su una strada costiera del Nord Italia, con pioggia, vento e fulmini; non documentaria.",
       "variants": [
