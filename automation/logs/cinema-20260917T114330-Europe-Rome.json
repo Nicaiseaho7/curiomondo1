@@ -37,13 +37,25 @@
         "https://www.primevideo.com/-/it/detail/0RZB1U1IL8TB1J9Z2UN3UF7H2C"
       ],
       "public_url": "https://curiomondo.it/notizie/cinema-uscite-italia-14-20-settembre-2026.html",
-      "publication_state": "pending_deploy"
+      "publication_state": "deployed_verified"
     }
   ],
   "new_publications": 0,
   "substantive_updates": 1,
   "publication": {
     "site_version": 405,
-    "state": "pending_deploy"
+    "state": "deployed_verified",
+    "content_commit": "f21d41e937976b3d3254f58eb448276bc4b7fcc2",
+    "verified_at": "2026-09-17T11:58:51+02:00",
+    "verified_urls": [
+      "https://curiomondo.it/notizie/cinema-uscite-italia-14-20-settembre-2026.html",
+      "https://curiomondo.it/categorie/cultura/",
+      "https://curiomondo.it/notizie/",
+      "https://curiomondo.it/",
+      "https://curiomondo.it/feed.xml",
+      "https://curiomondo.it/news-sitemap.xml",
+      "https://curiomondo.it/sitemap.xml",
+      "https://curiomondo.it/assets/images/editorial-auto/cinema-uscite-italia-14-20-settembre-2026-ai-openai-v365-1200.webp"
+    ]
   }
 }
