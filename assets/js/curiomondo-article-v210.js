@@ -123,15 +123,18 @@
         return {item,score};
       }).sort((a,b)=>b.score-a.score);
       if(ranked.length<3)return;
-      grid.replaceChildren();
-      const existing=new Set([canonicalRoute]);
-      for(const {item} of ranked){
-        if(grid.querySelectorAll('a[href]').length>=3)break;
-        const path=routeKey(item.url);if(!path||isCurrentArticle(item.url)||existing.has(path))continue;existing.add(path);
-        const link=document.createElement('a');link.href=item.url;
-        const small=document.createElement('small');small.textContent=item.section||'Articolo correlato';
-        const strong=document.createElement('strong');strong.textContent=item.title;
-        link.append(small,strong);grid.append(link);
+      const curated=section.dataset.curatedRelated==='true'&&grid.querySelectorAll('a[href]').length>0;
+      if(!curated){
+        grid.replaceChildren();
+        const existing=new Set([canonicalRoute]);
+        for(const {item} of ranked){
+          if(grid.querySelectorAll('a[href]').length>=3)break;
+          const path=routeKey(item.url);if(!path||isCurrentArticle(item.url)||existing.has(path))continue;existing.add(path);
+          const link=document.createElement('a');link.href=item.url;
+          const small=document.createElement('small');small.textContent=item.section||'Articolo correlato';
+          const strong=document.createElement('strong');strong.textContent=item.title;
+          link.append(small,strong);grid.append(link);
+        }
       }
       Array.from(grid.querySelectorAll('a[href]')).forEach(link=>{
         const path=routeKey(link.href),item=mediaByUrl.get(path);

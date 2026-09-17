@@ -128,6 +128,7 @@ def main() -> None:
     page = page_path.read_text(encoding="utf-8")
     page = re.sub(r'"datePublished":"[^"]+"', f'"datePublished":"{PUBLISHED}"', page)
     page = re.sub(r'"dateModified":"[^"]+"', f'"dateModified":"{PUBLISHED}"', page)
+    page = page.replace('<section class="curio-related">', '<section class="curio-related" data-curated-related="true">', 1)
     page_path.write_text(page, encoding="utf-8")
 
     ARTICLE["published"] = PUBLISHED
