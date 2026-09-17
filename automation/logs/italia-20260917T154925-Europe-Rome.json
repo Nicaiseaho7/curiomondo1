@@ -22,11 +22,18 @@
         "https://www.ansa.it/sito/notizie/cronaca/2026/09/17/maltempo-scatta-lallerta-arancione-per-temporali-sul-centro-piogge-intense_3f7a2954-eac8-44fc-839a-b57362319686.html"
       ],
       "public_url": "https://curiomondo.it/notizie/maltempo-allerta-arancione-liguria-emilia-romagna-17-settembre-2026",
-      "publication_state": "pending_deploy"
+      "publication_state": "verified_online",
+      "verified_online_at": "2026-09-17T16:02:41+02:00"
     }
   ],
   "publication": {
     "site_version": 410,
-    "state": "pending_deploy"
+    "state": "verified_online",
+    "verified_online_at": "2026-09-17T16:02:41+02:00",
+    "checks": [
+      "pagina articolo HTTP 200 con titolo, testo e fonti aggiornati",
+      "immagine editoriale HTTP 200",
+      "presenza verificata negli archivi Ambiente, Italia e Ultime notizie"
+    ]
   }
 }
