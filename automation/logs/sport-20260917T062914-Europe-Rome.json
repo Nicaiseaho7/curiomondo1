@@ -1,0 +1,40 @@
+{
+  "run_at": "2026-09-17T06:29:14+02:00",
+  "scope": "Sport",
+  "production_branch": "main",
+  "base_commit": "59817b3",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 18,
+    "distinct_domains": 12,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: l'obiettivo di 500 contenuti non è stato raggiunto nei limiti della sessione; ogni elemento pubblicato è stato verificato con fonte primaria e riscontri indipendenti."
+  },
+  "processed": [
+    {
+      "title": "Formula 1, nel 2027 dieci Sprint: debutta Monaco e torna Monza",
+      "editorial_score": 8.4,
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "sources": [
+        "https://corp.formula1.com/2027-calendar-announced-with-10-sprint-events/",
+        "https://www.formula1.com/en/latest/article/whats-new-with-the-f1-sprint-in-2027.6UiqFIVYRoMSgPvAA8yiiZ",
+        "https://www.reuters.com/sports/formula1/monaco-become-one-record-10-f1-sprint-weekends-2027-2026-09-16/",
+        "https://www.theguardian.com/sport/2026/sep/16/number-of-sprint-races-increased-f1-2027-calendar"
+      ],
+      "public_url": "https://curiomondo.it/notizie/formula-1-calendario-2027-dieci-sprint-monaco-monza.html",
+      "publication_state": "pending_deploy"
+    },
+    {
+      "title": "Milan-Benfica 0-2: Lukébakio e Kamiński decidono il debutto europeo",
+      "status": "CONFERMATA DA PIÙ FONTI",
+      "decision": "substantive_update",
+      "public_url": "https://curiomondo.it/notizie/milan-benfica-oggi-16-settembre-2026-europa-league-orario-tv.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "publication": {
+    "site_version": 399,
+    "state": "pending_deploy"
+  }
+}

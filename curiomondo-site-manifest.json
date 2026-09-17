@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 398,
-    "site_version": 398
+    "current_site_version": 399,
+    "site_version": 399
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -241,18 +241,20 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 398,
-  "version": "v398",
-  "release_version": "v398",
+  "site_version": 399,
+  "version": "v399",
+  "release_version": "v399",
   "last_release": {
-    "version": 398,
+    "version": 399,
     "date": "2026-09-17",
     "type": "content-release",
     "news_added": [
-      "trump-ue-canada-associazione-dazi-17-settembre-2026"
+      "formula-1-calendario-2027-dieci-sprint-monaco-monza"
     ],
-    "news_updated": [],
-    "change": "Nuovo articolo sulla minaccia tariffaria USA dopo la proposta UE-Canada",
-    "image_policy_applied": "new-openai-contextual-editorial-image"
+    "news_updated": [
+      "milan-benfica-oggi-16-settembre-2026-europa-league-orario-tv"
+    ],
+    "change": "Pubblicato il calendario F1 2027 e aggiornato Milan-Benfica con il risultato finale",
+    "image_policy_applied": "new-openai-contextual-editorial-image; existing-relevant-image-preserved-on-update"
   }
 }

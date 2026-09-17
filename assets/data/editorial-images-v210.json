@@ -1,7 +1,39 @@
 {
-  "version": 398,
+  "version": 399,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "formula-1-calendario-2027-dieci-sprint-monaco-monza-v399",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/formula-1-calendario-2027-dieci-sprint-monaco-monza-v399-480.webp",
+          "sha256": "73fe8a4641f3bccf1bde75735b3dd3db2be6a8181b52f3b0d68ea4c5636b9d72",
+          "bytes": 43702
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/formula-1-calendario-2027-dieci-sprint-monaco-monza-v399-800.webp",
+          "sha256": "4b2345a2f604440158fede9e0cc6fd766ad9a675d7ed1b9f1fbfcbf5ad644c40",
+          "bytes": 104386
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/formula-1-calendario-2027-dieci-sprint-monaco-monza-v399-1200.webp",
+          "sha256": "26f1eb4f4e5f38f4bade092cd7e018697a6c2eb7f9405f881dfcc308ba180faf",
+          "bytes": 183366
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: due monoposto di Formula 1 affrontano una curva del circuito cittadino di Monaco; non rappresenta una gara specifica.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Ultra-realistic editorial motorsport scene of two Formula 1 cars on Monaco street circuit; no text, infographic or watermark.",
+      "article": "/notizie/formula-1-calendario-2027-dieci-sprint-monaco-monza.html"
+    },
     {
       "key": "trump-ue-canada-associazione-dazi-17-settembre-2026-v398",
       "aiGenerated": true,
