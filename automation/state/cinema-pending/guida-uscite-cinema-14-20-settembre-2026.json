@@ -1,9 +1,9 @@
 {
-  "titolo": "Cinema, tre uscite dal 17 settembre: Resident Evil e due film italiani",
+  "titolo": "Cinema, sette uscite tra 16 e 17 settembre: film e streaming in Italia",
   "slug": "cinema-uscite-italia-14-20-settembre-2026",
-  "sommario": "Resident Evil, Ritorno a Buenos Aires e Dov’è la Fiesta? arrivano nelle sale italiane il 17 settembre. Una guida della settimana con cast, registi e premesse senza spoiler, dalle fonti ufficiali.",
+  "sommario": "Da The Invite a Resident Evil, Cars, Normal e due film italiani: sette titoli selezionati sono ora nelle sale. Su Netflix arrivano Monster: La storia di Lizzie Borden e Plastic Beauty.",
   "luogo": "Italia",
-  "categoria": "Cultura",
+  "categoria": "Film e serie TV",
   "formato": "standard",
   "paragrafi": [
     "Horror, memoria della dittatura argentina e commedia sentimentale: tre percorsi diversi arrivano nei cinema italiani giovedì 17 settembre 2026. Resident Evil, Ritorno a Buenos Aires e Dov’è la Fiesta? compongono questa selezione per la settimana dal 14 al 20 settembre, verificata sui siti dei rispettivi distributori il 15 settembre.",
@@ -77,15 +77,18 @@
     "timezone": "Europe/Rome",
     "sensibile": false,
     "valore_aggiunto": [
-      "Confronto di tre uscite italiane per genere, interpreti e premessa",
-      "Distinzione tra sala, partecipazione a festival e disponibilità digitale non annunciata"
+      "Correzione dell'elenco con quattro uscite italiane verificate aggiuntive",
+      "Distinzione tra prima uscita, riedizione e disponibilità streaming in Italia"
     ],
-    "publication_state": "prepared_awaiting_commit_and_online_verification",
+    "publication_state": "updated_pending_deploy",
     "image_review": "approved_after_identity_check",
     "visual_attempts": 2,
     "publication_receipt_branch": "automation-state",
-    "publication_receipt_path": "cinema-series/2026-09-15T182213Z.json"
+    "publication_receipt_path": "cinema-series/2026-09-15T182213Z.json",
+    "last_checked_at": "2026-09-17T11:43:30+02:00",
+    "coverage_note": "Guida ampliata senza modificare la data originaria; immagine esistente conservata perché ancora pertinente."
   },
   "published": "2026-09-15T20:34:20+02:00",
-  "category_full": "Italia / Cultura"
+  "category_full": "Film e serie TV",
+  "updated": "2026-09-17T11:43:30+02:00"
 }

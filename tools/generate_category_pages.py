@@ -14,7 +14,7 @@ CATEGORIES = {
     "economia": ("Economia", "Mercati, lavoro, imprese, energia e finanza spiegati con chiarezza.", ["economia"]),
     "sport": ("Sport", "Risultati, competizioni, protagonisti e storie dal mondo dello sport.", ["sport"]),
     "tecnologia": ("Tecnologia", "Innovazione, intelligenza artificiale, piattaforme e industria digitale.", ["tecnologia"]),
-    "cultura": ("Cultura", "Arte, spettacolo, televisione, libri e patrimonio culturale.", ["cultura"]),
+    "cultura": ("Cultura", "Arte, spettacolo, televisione, libri e patrimonio culturale.", ["cultura", "film e serie tv"]),
     "scienza": ("Scienza", "Ricerca, spazio, salute e scoperte scientifiche.", ["scienza", "spazio", "salute"]),
     "ambiente": ("Ambiente", "Clima, natura, sostenibilità, vulcani e fenomeni ambientali.", ["ambiente", "clima", "natura", "sostenibilita", "alluvione", "vulcani", "economia circolare", "rifiuti", "riciclo", "economia circolare", "rifiuti", "riciclo"]),
 }
