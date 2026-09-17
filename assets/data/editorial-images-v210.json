@@ -1,7 +1,39 @@
 {
-  "version": 397,
+  "version": 398,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "trump-ue-canada-associazione-dazi-17-settembre-2026-v398",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/trump-ue-canada-associazione-dazi-17-settembre-2026-v398-480.webp",
+          "sha256": "92a890f106247a7616a4e1c767c5781b86038de2c873201eaff050f7518ede00",
+          "bytes": 25360
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/trump-ue-canada-associazione-dazi-17-settembre-2026-v398-800.webp",
+          "sha256": "662fe0f4e1a109f6d6106d3b2074ec24cd75b22c4248d929edafbc1370ff7bf4",
+          "bytes": 50562
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/trump-ue-canada-associazione-dazi-17-settembre-2026-v398-1200.webp",
+          "sha256": "83aed9d2b1c02a848594be9a21ca544817b1eb3294bac0b454d9df380f65f5e3",
+          "bytes": 82186
+        }
+      ],
+      "alt": "Illustrazione editoriale IA di un tavolo negoziale con bandiere di Unione europea, Canada e Stati Uniti davanti a un porto commerciale; non documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Photorealistic conceptual editorial meeting room with EU, Canadian and US flags, cargo port in the background, no people, text, graphics or watermark.",
+      "article": "/notizie/trump-ue-canada-associazione-dazi-17-settembre-2026.html"
+    },
     {
       "key": "parita-genere-italia-83-rapporto-wef-2026-v397",
       "aiGenerated": true,

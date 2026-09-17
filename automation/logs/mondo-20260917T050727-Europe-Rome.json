@@ -1,0 +1,46 @@
+{
+  "run_at": "2026-09-17T05:07:27+02:00",
+  "scope": "Italia e mondo",
+  "production_branch": "main",
+  "base_commit": "f984e33",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 9,
+    "headlines_or_snippets_excluded_from_count": true,
+    "target_reached": false,
+    "note": "Conteggio prudenziale dei documenti aperti e letti integralmente o nelle sezioni pertinenti; non include titoli, snippet o duplicati."
+  },
+  "processed": [
+    {
+      "title": "Trump minaccia nuovi dazi all’UE per il progetto di associazione del Canada",
+      "editorial_score": 8.7,
+      "category": "Mondo",
+      "status": "CONFERMATA DA PIÙ FONTI",
+      "decision": "publish",
+      "reason": "Escalation commerciale tra Stati Uniti e UE su una proposta strategica che riguarda commercio, difesa e autonomia canadese.",
+      "sources": [
+        "https://cyprus.representation.ec.europa.eu/news/2026-state-union-address-president-von-der-leyen-2026-09-16_en",
+        "https://apnews.com/article/4078e9549ff9caa5ded08f7dd2f99065",
+        "https://www.reuters.com/world/eu-opens-door-canada-become-first-associate-member-eu-commission-president-says-2026-09-16/",
+        "https://www.ft.com/content/7b0f8f90-b3ad-4640-916a-f8b5495920a3",
+        "https://www.theguardian.com/world/2026/sep/17/trump-calls-eu-offer-to-canada-associate-membership-laughable-threatens-tariffs"
+      ],
+      "public_url": "https://curiomondo.it/notizie/trump-ue-canada-associazione-dazi-17-settembre-2026.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "excluded": [
+    {
+      "topic": "Bollo auto 2027",
+      "reason": "Già pubblicato nel repository; escluso come duplicato."
+    },
+    {
+      "topic": "Voto della Camera USA sulla guerra con l'Iran",
+      "reason": "Sviluppo del 16 settembre in Italia, fuori dalla finestra di freschezza del giorno corrente."
+    }
+  ],
+  "publication": {
+    "site_version": 398,
+    "state": "pending_deploy"
+  }
+}
