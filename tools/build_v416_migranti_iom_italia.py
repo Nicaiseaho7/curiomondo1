@@ -48,7 +48,7 @@ ARTICLE = {
     ],
     "fonti": [
         {
-            "url": "https://www.iom.int/news/migrant-arrivals-europe-fall-39-2026-while-deaths-continue-rise",
+            "url": "https://www.iom.int/news/new-iom-data-migrant-arrivals-europe-fall-39-2026-while-deaths-continue-rise",
             "descrizione": "IOM — comunicato con i dati aggiornati al 15 settembre su arrivi, morti e dispersi lungo le rotte marittime europee.",
         },
         {
