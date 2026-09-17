@@ -23,11 +23,18 @@
         "https://www.ilgiornale.it/news/nazionale/pedopornografia-online-blitz-della-polizia-17-misure-cautelari-nelloperazione-fly-trap/"
       ],
       "public_url": "https://curiomondo.it/notizie/pedopornografia-online-17-arresti-rete-mille-utenti-17-settembre-2026.html",
-      "publication_state": "pending_deploy"
+      "publication_state": "verified_online"
     }
   ],
   "publication": {
     "site_version": 407,
-    "state": "pending_deploy"
+    "state": "verified_online",
+    "verified_at": "2026-09-17T14:08:22+02:00",
+    "checks": [
+      "articolo pubblico aperto con titolo, testo e immagine editoriale",
+      "articolo presente in apertura della homepage",
+      "articolo presente al primo posto nella categoria Cronaca",
+      "articolo presente al primo posto nell'archivio notizie"
+    ]
   }
 }
