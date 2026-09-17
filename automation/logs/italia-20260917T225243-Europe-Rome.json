@@ -18,7 +18,17 @@
       "public_url": "https://curiomondo.it/notizie/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026.html",
       "primary_source": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2026-09-17&atto.codiceRedazionale=26G00181&elenco30giorni=false",
       "confirmation": "https://www.ansa.it/sito/notizie/politica/2026/09/17/meloni-il-bollo-abolito-non-solo-per-il-2027-la-misura-e-strutturale.-le-stime_01a925ca-c780-4377-be0c-cc6e8f2b45e0.html",
-      "publication_state": "pending_deploy"
+      "publication_state": "verified_online",
+      "verified_at": "2026-09-17T22:58:38+02:00",
+      "production_commit": "e2fd445b7596e5b9ce74589c5c287edd80219b97",
+      "live_checks": [
+        "titolo presente",
+        "data di aggiornamento 17 settembre 2026 alle 22:52",
+        "lead con decreto-legge n. 162, Gazzetta n. 216 e decorrenza 18 settembre",
+        "fonte primaria della Gazzetta Ufficiale presente",
+        "immagine editoriale caricata a 800x533 pixel",
+        "tre contenuti pertinenti nella sezione Potrebbe interessarti anche"
+      ]
     }
   ],
   "excluded": [
