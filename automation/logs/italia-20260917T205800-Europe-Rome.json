@@ -22,7 +22,8 @@
         "https://www.reuters.com/world/europe-migrant-sea-crossings-fall-become-more-deadly-iom-says-2026-09-17/"
       ],
       "public_url": "https://curiomondo.it/notizie/migranti-arrivi-italia-dimezzati-996-morti-dispersi-iom-17-settembre-2026.html",
-      "publication_state": "pending_deploy"
+      "publication_state": "verified_online",
+      "verified_online_at": "2026-09-17T21:13:24+02:00"
     },
     {
       "title": "Visita della presidente Meloni in Norvegia",
@@ -33,6 +34,8 @@
   ],
   "publication": {
     "site_version": 416,
-    "state": "pending_deploy"
+    "state": "verified_online",
+    "verified_online_at": "2026-09-17T21:13:24+02:00",
+    "production_commit": "5469716bf599221d2caaf531ee511ccfe3b78f24"
   }
 }
