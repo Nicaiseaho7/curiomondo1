@@ -1,6 +1,40 @@
 {
-  "version": 407,
+  "version": 408,
   "items": [
+    {
+      "title": "Prezzi delle case, +4% in un anno: Torino accelera all'8,5%",
+      "excerpt": "L'Istat stima nel secondo trimestre un aumento dell'1,7% rispetto ai primi tre mesi del 2026 e del 4% su base annua. Le compravendite restano quasi ferme, mentre Torino e Roma registrano i rincari più marcati tra le città osservate.",
+      "url": "/notizie/prezzi-case-italia-secondo-trimestre-2026.html",
+      "section": "Italia",
+      "dateISO": "2026-09-17T14:53:53+02:00",
+      "dateLabel": "2026-09-17",
+      "image": "/assets/images/editorial-auto/prezzi-case-italia-secondo-trimestre-2026-v408-800.webp",
+      "imageAlt": "Scena editoriale fotorealistica generata con IA: chiavi di casa in primo piano e un quartiere residenziale italiano con edifici nuovi ed esistenti.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/prezzi-case-italia-secondo-trimestre-2026-v408-480.webp 480w, /assets/images/editorial-auto/prezzi-case-italia-secondo-trimestre-2026-v408-800.webp 800w, /assets/images/editorial-auto/prezzi-case-italia-secondo-trimestre-2026-v408-1200.webp 1200w",
+      "featuredHighlights": [
+        "+4% in un anno",
+        "Torino accelera all'8,5%"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "+4,0%",
+          "label": "prezzi in un anno"
+        },
+        {
+          "icon": "●",
+          "value": "+1,7%",
+          "label": "rispetto al trimestre precedente"
+        },
+        {
+          "icon": "↗",
+          "value": "+0,1%",
+          "label": "compravendite su base annua"
+        }
+      ]
+    },
     {
       "title": "Pedopornografia online, 17 arresti: rete da oltre mille utenti",
       "excerpt": "L'operazione Fly Trap, coordinata dalla Dda di Roma, ha portato a 17 misure cautelari, dieci delle quali eseguite in flagranza. Un agente sotto copertura ha ricostruito per circa un anno la struttura del gruppo.",

@@ -1,0 +1,31 @@
+{
+  "run_at": "2026-09-17T14:53:53+02:00",
+  "scope": "Italia / Economia",
+  "production_branch": "main",
+  "base_commit": "aa0cbe38ad723cd90ac536f0567783403899b769",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 6,
+    "distinct_domains": 5,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: l'obiettivo di 500 contenuti completi non è stato raggiunto. La candidata è stata verificata sul comunicato e sulla nota metodologica Istat, sui dati OMI dell'Agenzia delle Entrate e su riscontri editoriali; sono state inoltre esaminate e scartate l'agenda della visita in Norvegia e altre notizie prive di sviluppi concreti."
+  },
+  "processed": [
+    {
+      "title": "Prezzi delle case, +4% in un anno: Torino accelera all'8,5%",
+      "editorial_score": 8.2,
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "sources": [
+        "https://www.istat.it/comunicato-stampa/prezzi-delle-abitazioni-dati-provvisori-ii-trimestre-2026/",
+        "https://www.agenziaentrate.gov.it/portale/documents/d/guest/statisticheomi_res_ii_2026"
+      ],
+      "public_url": "https://curiomondo.it/notizie/prezzi-case-italia-secondo-trimestre-2026.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "publication": {
+    "site_version": 408,
+    "state": "pending_deploy"
+  }
+}
