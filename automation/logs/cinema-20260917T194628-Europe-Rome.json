@@ -1,0 +1,33 @@
+{
+  "run_at": "2026-09-17T19:46:28+02:00",
+  "scope": "Cinema e serie / trailer e uscite italiane",
+  "production_branch": "main",
+  "base_commit": "6ea1b8b1a10e887fbbe122f3ee5086d3917d8557",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 9,
+    "distinct_domains": 8,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: esclusi snippet, duplicati, pagine bloccate e risultati non aperti. Sono state lette pagine ufficiali e redazionali su uscite, cataloghi e trailer; le candidature vecchie, già coperte o prive di disponibilità italiana verificata sono state scartate."
+  },
+  "processed": [
+    {
+      "title": "Hunger Games, nuovo trailer italiano: al cinema il 19 novembre",
+      "editorial_score": 8.6,
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "sources": [
+        "https://notoriouspictures.it/movie/hunger-games-lalba-sulla-mietitura/",
+        "https://www.youtube.com/watch?v=lYXtL5TreOE",
+        "https://tg24.sky.it/spettacolo/cinema/video/2026/09/17/hunger-games-l-alba-sulla-mietitura-trailer-1125229",
+        "https://gizmodo.com/the-new-sunrise-on-the-reaping-trailer-asks-whats-haymitchs-story-2000812588"
+      ],
+      "public_url": "https://curiomondo.it/notizie/hunger-games-alba-mietitura-trailer-italiano-19-novembre-2026.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "publication": {
+    "site_version": 413,
+    "state": "pending_deploy"
+  }
+}

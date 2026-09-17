@@ -1,7 +1,41 @@
 {
-  "version": 412,
+  "version": 413,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "hunger-games-alba-mietitura-trailer-italiano-19-novembre-2026-v413",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/hunger-games-alba-mietitura-trailer-italiano-19-novembre-2026-v413-480.webp",
+          "sha256": "95e4d422796ca109eeb2f9180118d1a133aac7b841c04c3769d40c8dc6bca2db",
+          "bytes": 18814
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/hunger-games-alba-mietitura-trailer-italiano-19-novembre-2026-v413-800.webp",
+          "sha256": "9438456baeb3b9225e01f5a6d303436fe90e83dcb955d1dd36e41c04c96af84d",
+          "bytes": 37488
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/hunger-games-alba-mietitura-trailer-italiano-19-novembre-2026-v413-1200.webp",
+          "sha256": "87ba4920ebee8f032ed3ff7f6cc8087df6caa41439848f885bb2e8565e9fea04",
+          "bytes": 66454
+        }
+      ],
+      "alt": "Illustrazione editoriale fotorealistica generata con IA di Joseph Zada, con giacca verde scuro davanti a strutture circolari color bronzo e un bosco sfocato.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "portraitFormat": "editorial-contextual-portrait",
+      "reenactedEvent": false,
+      "prompt": "Ultrarealistic editorial illustration of adult actor Joseph Zada alone in a restrained cinema-studio setting, dark olive field jacket, abstract bronze circular structures and softly blurred woodland backdrop; no text, logos, posters, statistics, weapons, violence or watermark.",
+      "article": "/notizie/hunger-games-alba-mietitura-trailer-italiano-19-novembre-2026.html"
+    },
     {
       "key": "leucemia-pediatrica-immunoterapia-blinatumomab-studio-2026-v412",
       "aiGenerated": true,

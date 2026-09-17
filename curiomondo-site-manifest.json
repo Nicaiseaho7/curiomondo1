@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 412,
-    "site_version": 412
+    "current_site_version": 413,
+    "site_version": 413
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -241,18 +241,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 412,
-  "version": "v412",
-  "release_version": "v412",
+  "site_version": 413,
+  "version": "v413",
+  "release_version": "v413",
   "last_release": {
-    "version": 412,
+    "version": 413,
     "date": "2026-09-17",
     "type": "content-release",
     "news_added": [
-      "leucemia-pediatrica-immunoterapia-blinatumomab-studio-2026"
+      "hunger-games-alba-mietitura-trailer-italiano-19-novembre-2026"
     ],
     "news_updated": [],
-    "change": "Pubblicati i risultati dello studio AIEOP-BFM ALL 2017 sulla leucemia pediatrica",
-    "image_policy_applied": "new-openai-conceptual-editorial-image-no-text-no-logo-no-patient"
+    "change": "Pubblicato il nuovo trailer italiano di Hunger Games: L'alba sulla mietitura",
+    "image_policy_applied": "new-openai-public-figure-contextual-portrait-no-text-no-logo"
   }
 }
