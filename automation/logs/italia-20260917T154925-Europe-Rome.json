@@ -1,0 +1,32 @@
+{
+  "run_at": "2026-09-17T15:49:25+02:00",
+  "scope": "Italia / Ambiente",
+  "production_branch": "main",
+  "base_commit": "383f78d2cf51d66c29033ba2b14c98991e2c1d08",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 3,
+    "distinct_domains": 3,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: letti integralmente il comunicato del Comune di Empoli, l'aggiornamento ANSA sul maltempo e l'articolo CurioMondo esistente. Il target di 500 contenuti non è stato raggiunto e non è stato inventato."
+  },
+  "processed": [
+    {
+      "title": "Maltempo, Empoli attiva il Coc dopo 43 mm di pioggia in mezz'ora",
+      "editorial_score": 8.3,
+      "status": "UFFICIALE",
+      "decision": "update_existing",
+      "sources": [
+        "https://www.comune.empoli.fi.it/Novita/Comunicati/Attivato-il-Centro-Operativo-Comunale-per-allerta-meteo-codice-giallo",
+        "https://www.protezionecivile.gov.it/it/comunicato-stampa/maltempo-allerta-arancione-liguria-e-emilia-romagna-1/",
+        "https://www.ansa.it/sito/notizie/cronaca/2026/09/17/maltempo-scatta-lallerta-arancione-per-temporali-sul-centro-piogge-intense_3f7a2954-eac8-44fc-839a-b57362319686.html"
+      ],
+      "public_url": "https://curiomondo.it/notizie/maltempo-allerta-arancione-liguria-emilia-romagna-17-settembre-2026",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "publication": {
+    "site_version": 410,
+    "state": "pending_deploy"
+  }
+}

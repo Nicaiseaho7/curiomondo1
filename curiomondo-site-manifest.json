@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 409,
-    "site_version": 409
+    "current_site_version": 410,
+    "site_version": 410
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -241,18 +241,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 409,
-  "version": "v409",
-  "release_version": "v409",
+  "site_version": 410,
+  "version": "v410",
+  "release_version": "v410",
   "last_release": {
-    "version": 409,
+    "version": 410,
     "date": "2026-09-17",
-    "type": "content-release",
-    "news_added": [
-      "spider-man-brand-new-day-record-box-office-nord-america-17-settembre-2026"
+    "type": "content-update",
+    "news_added": [],
+    "news_updated": [
+      "maltempo-allerta-arancione-liguria-emilia-romagna-17-settembre-2026"
     ],
-    "news_updated": [],
-    "change": "Pubblicato il record nordamericano di Spider-Man: Brand New Day",
-    "image_policy_applied": "new-openai-public-figure-contextual-portrait-no-text-no-logo"
+    "change": "Aggiornato il maltempo con l'attivazione del Coc di Empoli e le criticità accertate",
+    "image_policy_applied": "existing-editorial-image-retained"
   }
 }
