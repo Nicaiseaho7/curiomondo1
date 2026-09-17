@@ -1,0 +1,33 @@
+{
+  "run_at": "2026-09-17T16:51:08+02:00",
+  "scope": "Italia / Sport",
+  "production_branch": "main",
+  "base_commit": "0932c434958980eb70de4ab0dc4df9750166367b",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 6,
+    "distinct_domains": 5,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: il target di 500 contenuti non è stato raggiunto e non è stato inventato. La candidata pubblicata è stata verificata su comunicato FIA riportato integralmente, Reuters, WRC e canali ufficiali della gara."
+  },
+  "processed": [
+    {
+      "title": "Rally Italia Sardegna diventa la finale del Mondiale WRC 2026",
+      "editorial_score": 8.4,
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "sources": [
+        "https://www.reuters.com/sports/italy-replaces-saudi-arabia-final-round-2026-world-rally-championship-2026-09-17/",
+        "https://dirtfish.com/rally/wrc/wrc-drops-2026-season-finale-and-wont-replace-it/",
+        "https://www.wrc.com/en/events/wrc-rally-italia-sardegna-2026",
+        "https://rallyitaliasardegna.com/2026/06/01/ecco-il-percorso-del-rally-italia-sardegna-2026/"
+      ],
+      "public_url": "https://curiomondo.it/notizie/rally-italia-sardegna-finale-mondiale-wrc-2026",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "publication": {
+    "site_version": 411,
+    "state": "pending_deploy"
+  }
+}

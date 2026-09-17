@@ -1,7 +1,39 @@
 {
-  "version": 409,
+  "version": 411,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "rally-italia-sardegna-finale-mondiale-wrc-2026-v411",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/rally-italia-sardegna-finale-mondiale-wrc-2026-v411-480.webp",
+          "sha256": "af6ef7bc16ffb927c8d4cf8ba11aeb5d211cb85c6272891c94a14e9d36d9bab8",
+          "bytes": 35502
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/rally-italia-sardegna-finale-mondiale-wrc-2026-v411-800.webp",
+          "sha256": "04db2076c10db6f0aff45c2e2f48e196424d3bd024d19a97472fb8ff3ae91911",
+          "bytes": 89176
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/rally-italia-sardegna-finale-mondiale-wrc-2026-v411-1200.webp",
+          "sha256": "96084c4ae4d43e76628f1c80618070dd4ba094c1042c72d65ad16af3e74f8c40",
+          "bytes": 175822
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA di un'auto da rally su una strada sterrata della Sardegna, con costa mediterranea sullo sfondo; non documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Ultrarealistic editorial rally car on a Sardinian gravel stage with Mediterranean coast; no text, logos or watermark.",
+      "article": "/notizie/rally-italia-sardegna-finale-mondiale-wrc-2026.html"
+    },
     {
       "key": "spider-man-brand-new-day-record-box-office-nord-america-17-settembre-2026-v409",
       "aiGenerated": true,
