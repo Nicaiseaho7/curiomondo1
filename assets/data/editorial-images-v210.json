@@ -1,7 +1,72 @@
 {
-  "version": 414,
+  "version": 415,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "svezia-kristersson-si-dimette-andersson-176-seggi-17-settembre-2026-v415",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/svezia-kristersson-si-dimette-andersson-176-seggi-17-settembre-2026-v415-480.webp",
+          "sha256": "0ba91bab95c1d4c21616d3b6f414d82255c7654bbdd932e5935ecbeda0cc0171",
+          "bytes": 14622
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/svezia-kristersson-si-dimette-andersson-176-seggi-17-settembre-2026-v415-800.webp",
+          "sha256": "109e9f8f839d8845cdf9a0a47aac6824eb49d13ad393005089f81ba516ace8e7",
+          "bytes": 30612
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/svezia-kristersson-si-dimette-andersson-176-seggi-17-settembre-2026-v415-1200.webp",
+          "sha256": "f88896fb7460edf0e08015e0654d8f7a9f2ba86fe2a28dbe2c098276764031bb",
+          "bytes": 56272
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: Ulf Kristersson fuori da un edificio governativo a Stoccolma; somiglianza sintetica, non una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Ultra-realistic editorial photograph of Ulf Kristersson outside Rosenbad in Stockholm; contextual ordinary political scene, no text or watermark.",
+      "article": "/notizie/svezia-kristersson-si-dimette-andersson-176-seggi-17-settembre-2026.html"
+    },
+    {
+      "key": "uffizi-infiltrazione-teca-bacco-caravaggio-17-settembre-2026-v415",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/uffizi-infiltrazione-teca-bacco-caravaggio-17-settembre-2026-v415-480.webp",
+          "sha256": "2d67def53e71a0e965bb54bc3c37cc1347219666becf5ebaaf2646865d1cd670",
+          "bytes": 30430
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/uffizi-infiltrazione-teca-bacco-caravaggio-17-settembre-2026-v415-800.webp",
+          "sha256": "dab3eab21868b4df05cd3cb703d41543137177d9495818afde8bafe0fd50801e",
+          "bytes": 72942
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/uffizi-infiltrazione-teca-bacco-caravaggio-17-settembre-2026-v415-1200.webp",
+          "sha256": "444d34287a5c8b28722ab0bd8186abdb65112601a2bb74e00d22e5e64d118604",
+          "bytes": 138188
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: sala della Galleria degli Uffizi con teca vuota e pavimento bagnato sotto un lucernario; non è una fotografia documentaria dell'infiltrazione.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Ultra-realistic editorial news photograph of Uffizi Gallery interior, empty glass display case, wet marble floor under a skylight after rain; no text, watermark or infographic.",
+      "article": "/notizie/uffizi-infiltrazione-teca-bacco-caravaggio-17-settembre-2026.html"
+    },
     {
       "key": "bab-el-mandeb-crosetto-missione-navale-mercantili-italiani-17-settembre-2026-v414",
       "aiGenerated": true,

@@ -1,0 +1,36 @@
+{
+  "run_at": "2026-09-17T20:52:00+02:00",
+  "scope": "Italia+Mondo",
+  "production_branch": "main",
+  "processed": [
+    {
+      "title": "Uffizi, la pioggia bagna la teca del Bacco di Caravaggio: nessuna opera danneggiata",
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "sources": [
+        "https://www.ansa.it/sito/notizie/cronaca/2026/09/17/la-pioggia-si-infiltra-agli-uffizi-e-bagna-la-teca-del-bacco-di-caravaggio_073cc186-e20b-422e-a5d7-ea3397fda99b.html",
+        "https://corrierefiorentino.corriere.it/notizie/cronaca/26_settembre_17/firenze-al-museo-degli-uffizi-piove-sulla-teca-del-bacco-di-caravaggio-d488c5d3-c019-47fa-8d4a-a678f6a63xlk.shtml",
+        "https://www.ilmessaggero.it/italia/firenze_bomba_d_acqua_galleria_uffizi_ultima_ora-9769523.html",
+        "https://www.lanazione.it/firenze/cronaca/nubifragio-a-firenze-piove-dentro-la-galleria-degli-uffizi-acqua-sulla-teca-del-bacco-di-caravaggio-jr9vxsqc",
+        "https://www.open.online/2026/09/17/uffizi-infiltrazione-teca-bacco-caravaggio-firenze/"
+      ],
+      "public_url": "https://curiomondo.it/notizie/uffizi-infiltrazione-teca-bacco-caravaggio-17-settembre-2026.html"
+    },
+    {
+      "title": "Svezia, Kristersson si dimette: il centrosinistra chiude 176-173 e Andersson forma il governo",
+      "status": "CONFERMATA DA PIÙ FONTI",
+      "decision": "publish",
+      "sources": [
+        "https://www.reuters.com/fr/affaires/sude-le-centre-gauche-majoritaire-aprs-les-lgislatives-2026-09-17/",
+        "https://www.ansa.it/sito/notizie/mondo/2026/09/17/terminato-lo-scrutinio-il-centro-sinistra-vince-di-misura-in-svezia_8ab52f09-7bf3-4618-bed2-54a92d9552ec.html",
+        "https://tg24.sky.it/mondo/2026/09/17/elezioni-svezia-risultato",
+        "https://www.ilsole24ore.com/art/svezia-centro-sinistra-vince-fotofinish-andersson-avanti-tre-seggi-kristersson-si-dimette-AJZk5DGB"
+      ],
+      "public_url": "https://curiomondo.it/notizie/svezia-kristersson-si-dimette-andersson-176-seggi-17-settembre-2026.html"
+    }
+  ],
+  "publication": {
+    "site_version": 415,
+    "state": "pending_deploy"
+  }
+}

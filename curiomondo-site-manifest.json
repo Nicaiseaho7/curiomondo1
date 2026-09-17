@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 414,
-    "site_version": 414
+    "current_site_version": 415,
+    "site_version": 415
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -241,18 +241,19 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 414,
-  "version": "v414",
-  "release_version": "v414",
+  "site_version": 415,
+  "version": "v415",
+  "release_version": "v415",
   "last_release": {
-    "version": 414,
+    "version": 415,
     "date": "2026-09-17",
     "type": "content-release",
     "news_added": [
-      "bab-el-mandeb-crosetto-missione-navale-mercantili-italiani-17-settembre-2026"
+      "uffizi-infiltrazione-teca-bacco-caravaggio-17-settembre-2026",
+      "svezia-kristersson-si-dimette-andersson-176-seggi-17-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Pubblicata l'attivazione preparatoria della Marina per Bab el-Mandeb",
-    "image_policy_applied": "new-openai-contextual-editorial-image-no-text-no-logo"
+    "change": "Pubblicate l'infiltrazione agli Uffizi sul Bacco di Caravaggio e le dimissioni di Kristersson in Svezia",
+    "image_policy_applied": "new-openai-contextual-editorial-images"
   }
 }
