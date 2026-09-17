@@ -9,7 +9,16 @@
   "development_time_note": "L'analisi primaria non indica l'ora esatta; Associated Press l'ha pubblicata alle 02:08:09 Europe/Rome.",
   "status": "UFFICIALE",
   "public_url": "https://curiomondo.it/notizie/nepal-riscaldamento-indebolito-versante-disastro-17-settembre-2026.html",
-  "publication_state": "pending_deploy",
+  "publication_state": "published_verified_online",
+  "verified_at": "2026-09-17T03:41:49+02:00",
+  "verification": {
+    "article": "HTTP page rendered with correct title and complete body",
+    "hero_image": "loaded successfully at 800 px natural width",
+    "homepage": true,
+    "category": "Ambiente",
+    "archive": true,
+    "feed_and_sitemaps": "present in deployed release; local predeploy passed, public XML navigation blocked by browser client"
+  },
   "editorial_score": 8.6,
   "value_add": [
     "Spiega il meccanismo fisico senza confondere fattore destabilizzante e causa diretta.",
