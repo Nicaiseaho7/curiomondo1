@@ -25,11 +25,25 @@
         "https://www.hollywoodreporter.com/movies/movie-news/spider-man-brand-new-day-domestic-box-office-force-awakens-1236703398/"
       ],
       "public_url": "https://curiomondo.it/notizie/spider-man-brand-new-day-record-box-office-nord-america-17-settembre-2026.html",
-      "publication_state": "pending_deploy"
+      "publication_state": "deployed_verified",
+      "verified_online_at": "2026-09-17T15:54:30+02:00"
     }
   ],
   "publication": {
     "site_version": 409,
-    "state": "pending_deploy"
+    "state": "deployed_verified",
+    "commit": "f820cda2e6566bf710492fb3ecf8f279b129b952",
+    "verified_online_at": "2026-09-17T15:54:30+02:00",
+    "checks": {
+      "article_title_body_canonical": true,
+      "hero_image_loaded": true,
+      "homepage": true,
+      "category_cultura": true,
+      "archive": true,
+      "search_index": true,
+      "feed": true,
+      "sitemap": true,
+      "news_sitemap": true
+    }
   }
 }
