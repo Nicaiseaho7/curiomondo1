@@ -1,0 +1,35 @@
+{
+  "run_at": "2026-09-17T15:42:27+02:00",
+  "scope": "Cinema e serie / box office",
+  "production_branch": "main",
+  "base_commit": "13188db5e2e1dd2b4b088ecd58eaf8ae8910fb05",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 9,
+    "distinct_domains": 7,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: esclusi snippet, duplicati e pagine bloccate da paywall. Sono state lette le schede dati Box Office Mojo e Cinetel, le pagine ufficiali Sony ed Eagle, il riscontro completo di People e ulteriori pagine editoriali; candidature meno recenti o insufficientemente rilevanti sono state scartate."
+  },
+  "processed": [
+    {
+      "title": "Spider-Man supera Star Wars: record da 936,8 milioni in Nord America",
+      "editorial_score": 9.1,
+      "status": "CONFERMATA DA PIÙ FONTI",
+      "decision": "publish",
+      "sources": [
+        "https://www.boxofficemojo.com/release/rl2299756545/",
+        "https://amministrazione.cinetel.it/pages/boxoffice.php?edperiodo=c3RhZ2lvbmFsZQ%3D%3D",
+        "https://www.sonypictures.com/movies/spidermanbrandnewday",
+        "https://eaglepictures.com/spiderman-brand-new-day",
+        "https://people.com/spider-man-beats-star-wars-the-force-awakens-as-top-movie-ever-in-north-america-12124189",
+        "https://www.hollywoodreporter.com/movies/movie-news/spider-man-brand-new-day-domestic-box-office-force-awakens-1236703398/"
+      ],
+      "public_url": "https://curiomondo.it/notizie/spider-man-brand-new-day-record-box-office-nord-america-17-settembre-2026.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "publication": {
+    "site_version": 409,
+    "state": "pending_deploy"
+  }
+}

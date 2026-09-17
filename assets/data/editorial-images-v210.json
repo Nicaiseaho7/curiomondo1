@@ -1,7 +1,41 @@
 {
-  "version": 408,
+  "version": 409,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "spider-man-brand-new-day-record-box-office-nord-america-17-settembre-2026-v409",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/spider-man-brand-new-day-record-box-office-nord-america-17-settembre-2026-v409-480.webp",
+          "sha256": "c22a15aead26084fd1c9981771df096ad15afcef141967063d37c58aedeb4550",
+          "bytes": 19116
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/spider-man-brand-new-day-record-box-office-nord-america-17-settembre-2026-v409-800.webp",
+          "sha256": "5c233717b70b4561b15733923a7546b1f877142b4095d66a3715e1dfb5b8f43e",
+          "bytes": 35134
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/spider-man-brand-new-day-record-box-office-nord-america-17-settembre-2026-v409-1200.webp",
+          "sha256": "88cdf4acb438dedca42bbb4c19818eb90135acfbf665a58c749d6647d662f5ee",
+          "bytes": 57012
+        }
+      ],
+      "alt": "Ritratto editoriale fotorealistico generato con IA di Tom Holland in un foyer cinematografico, con abito blu scuro e illuminazione rossa e blu.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "portraitFormat": "editorial-contextual-portrait",
+      "reenactedEvent": false,
+      "prompt": "Neutral ultrarealistic editorial portrait of adult actor Tom Holland standing alone in a contemporary cinema foyer; dark navy suit, warm red and blue ambient light; no text, logos, charts, posters or watermark.",
+      "article": "/notizie/spider-man-brand-new-day-record-box-office-nord-america-17-settembre-2026.html"
+    },
     {
       "key": "prezzi-case-italia-secondo-trimestre-2026-v408",
       "aiGenerated": true,
