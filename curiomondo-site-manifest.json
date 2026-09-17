@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 406,
-    "site_version": 406
+    "current_site_version": 407,
+    "site_version": 407
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -241,18 +241,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 406,
-  "version": "v406",
-  "release_version": "v406",
+  "site_version": 407,
+  "version": "v407",
+  "release_version": "v407",
   "last_release": {
-    "version": 406,
+    "version": 407,
     "date": "2026-09-17",
-    "type": "content-update",
-    "news_added": [],
-    "news_updated": [
-      "rabbino-aggredito-milano-bande-nere-17-settembre-2026"
+    "type": "content-release",
+    "news_added": [
+      "pedopornografia-online-17-arresti-rete-mille-utenti-17-settembre-2026"
     ],
-    "change": "Aggiornato il caso del rabbino aggredito a Milano con un arresto da convalidare e due denunce",
-    "image_policy_applied": "new-openai-neutral-isolated-portrait-for-sensitive-substantive-update"
+    "news_updated": [],
+    "change": "Pubblicata l'operazione Fly Trap contro una rete pedopornografica transnazionale",
+    "image_policy_applied": "new-openai-sensitive-contextual-still-life-no-minors-no-explicit-content"
   }
 }

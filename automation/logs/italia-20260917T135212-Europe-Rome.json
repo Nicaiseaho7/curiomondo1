@@ -1,0 +1,33 @@
+{
+  "run_at": "2026-09-17T13:52:12+02:00",
+  "scope": "Italia / Cronaca",
+  "production_branch": "main",
+  "base_commit": "b23d9dc22665d9da4e18c43ef4e74d34e676e74d",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 4,
+    "distinct_domains": 4,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: l'obiettivo di 500 contenuti completi non è stato raggiunto. La candidata pubblicata è stata verificata sul resoconto della nota ufficiale e della conferenza stampa, con tre riscontri editoriali distinti."
+  },
+  "processed": [
+    {
+      "title": "Pedopornografia online, 17 arresti: rete da oltre mille utenti",
+      "editorial_score": 8.8,
+      "status": "CONFERMATA DA PIÙ FONTI",
+      "decision": "publish",
+      "sources": [
+        "https://www.ansa.it/sito/notizie/cronaca/2026/09/17/pedopornografia-online-la-polizia-arresta-17-persone_ad32372f-9816-4668-b1f6-7451c66f16c7.html",
+        "https://tg24.sky.it/cronaca/2026/09/17/pedopornografia-operazione-arresti",
+        "https://www.tgcom24.mediaset.it/cronaca/pedopornografia-arresti_116685688-202602k.shtml",
+        "https://www.ilgiornale.it/news/nazionale/pedopornografia-online-blitz-della-polizia-17-misure-cautelari-nelloperazione-fly-trap/"
+      ],
+      "public_url": "https://curiomondo.it/notizie/pedopornografia-online-17-arresti-rete-mille-utenti-17-settembre-2026.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "publication": {
+    "site_version": 407,
+    "state": "pending_deploy"
+  }
+}

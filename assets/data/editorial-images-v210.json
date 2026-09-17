@@ -1,7 +1,40 @@
 {
-  "version": 406,
+  "version": 407,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "pedopornografia-online-17-arresti-rete-mille-utenti-17-settembre-2026-v407",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/pedopornografia-online-17-arresti-rete-mille-utenti-17-settembre-2026-v407-480.webp",
+          "sha256": "b64f39d25be804c4c8601ba47c29cb3d949c57aadb502c4872bb3f458e1b788f",
+          "bytes": 22970
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/pedopornografia-online-17-arresti-rete-mille-utenti-17-settembre-2026-v407-800.webp",
+          "sha256": "4eebf1e0cad38bdf174045dd5f18cfdcce3a443a24d44890b479bda765176745",
+          "bytes": 42886
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/pedopornografia-online-17-arresti-rete-mille-utenti-17-settembre-2026-v407-1200.webp",
+          "sha256": "fe41604e54cba5785cda088865d2e0bcb7e617b708b6d468627940bbd83560ac",
+          "bytes": 68914
+        }
+      ],
+      "alt": "Scena editoriale fotorealistica generata con IA: mani guantate esaminano dispositivi di memoria in un laboratorio informatico; nessuna persona identificabile e nessun contenuto illecito visibile.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": true,
+      "portraitFormat": "contextual-editorial-still-life",
+      "reenactedEvent": false,
+      "prompt": "Sensitive cybercrime editorial still life with gloved investigators examining storage devices; no minors, faces, suspects, explicit material, logos, readable text or watermark.",
+      "article": "/notizie/pedopornografia-online-17-arresti-rete-mille-utenti-17-settembre-2026.html"
+    },
     {
       "key": "rabbino-aggredito-milano-arresto-v406",
       "aiGenerated": true,
