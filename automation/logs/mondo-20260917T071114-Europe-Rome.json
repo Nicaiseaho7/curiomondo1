@@ -27,6 +27,8 @@
   ],
   "publication": {
     "site_version": 401,
-    "state": "pending_deploy"
+    "state": "pending_deploy",
+    "deploy_retry_at": "2026-09-17T07:47:01+02:00",
+    "deploy_retry_reason": "Il commit risulta su main, ma il sito pubblico serve ancora la versione precedente; nuovo evento di push richiesto tramite Contents API."
   }
 }
