@@ -25,12 +25,24 @@
         "https://it.marketscreener.com/notizie/riattivata-la-circolazione-solo-sulla-milano-lecco-sondrio-ce785bd2d088f221"
       ],
       "public_url": "https://curiomondo.it/notizie/milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026.html",
-      "publication_state": "pending_deploy"
+      "publication_state": "published_verified_online",
+      "verified_online_at": "2026-09-17T04:06:53+02:00",
+      "online_checks": {
+        "article_rendered": true,
+        "title_and_body_complete": true,
+        "homepage_present": true,
+        "category_italia_present": true,
+        "image_loaded": true,
+        "image_dimensions": "800x533",
+        "image_sha256": "315e368076ad5c2e21c51bd6aa998ebed3a89404dbaf83ffcccdd3aa88f0c433"
+      }
     }
   ],
   "publication": {
     "site_version": 396,
     "predeploy_errors": [],
-    "state": "pending_deploy"
+    "state": "published_verified_online",
+    "verified_online_at": "2026-09-17T04:06:53+02:00",
+    "production_commit": "f0e7d05d5ae4f6178ca405ae23e9fed64f105c7a"
   }
 }
