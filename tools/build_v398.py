@@ -16,7 +16,7 @@ from automation.newsroom.site import CAPTION, register_image, sync_surfaces, wri
 
 VERSION = 398
 SLUG = "trump-ue-canada-associazione-dazi-17-settembre-2026"
-PUBLISHED = "2026-09-17T05:24:00+02:00"
+PUBLISHED = "2026-09-17T05:20:17+02:00"
 PUBLIC_URL = f"https://curiomondo.it/notizie/{SLUG}.html"
 IMAGE_KEY = f"{SLUG}-v{VERSION}"
 SOURCE_IMAGE = ROOT.parent / "generated_images" / "exec-560bc53f-7fbd-481c-a5df-c40288b9eb2c.png"

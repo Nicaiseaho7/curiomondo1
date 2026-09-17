@@ -26,7 +26,19 @@
         "https://www.theguardian.com/world/2026/sep/17/trump-calls-eu-offer-to-canada-associate-membership-laughable-threatens-tariffs"
       ],
       "public_url": "https://curiomondo.it/notizie/trump-ue-canada-associazione-dazi-17-settembre-2026.html",
-      "publication_state": "pending_deploy"
+      "publication_state": "published_verified_online",
+      "verified_online_at": "2026-09-17T05:22:31+02:00",
+      "online_checks": {
+        "article_rendered": true,
+        "title_and_body_complete": true,
+        "homepage_present": true,
+        "category_mondo_present": true,
+        "archive_present": true,
+        "image_loaded": true,
+        "image_dimensions": "800x533",
+        "related_links": 3,
+        "editorial_sources": 5
+      }
     }
   ],
   "excluded": [
@@ -41,6 +53,8 @@
   ],
   "publication": {
     "site_version": 398,
-    "state": "pending_deploy"
+    "state": "published_verified_online",
+    "verified_online_at": "2026-09-17T05:22:31+02:00",
+    "production_commit": "e5913b60c7269395689e989cd136955340a599ed"
   }
 }
