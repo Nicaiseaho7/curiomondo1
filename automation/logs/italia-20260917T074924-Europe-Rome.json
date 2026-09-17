@@ -1,0 +1,32 @@
+{
+  "run_at": "2026-09-17T07:49:24+02:00",
+  "scope": "Italia / Trasporti",
+  "production_branch": "main",
+  "base_commit": "be1b34f02d5c148d69ce6269f9a2b1e4478df500",
+  "coverage": {
+    "distinct_full_contents_consulted": 5,
+    "target": 500,
+    "target_reached": false,
+    "note": "Conteggio limitato ai contenuti aperti integralmente in questa esecuzione; titoli e snippet esclusi."
+  },
+  "processed": [
+    {
+      "title": "Milano Greco Pirelli, circolazione regolare dopo il deragliamento",
+      "editorial_score": 8.1,
+      "status": "UFFICIALE",
+      "decision": "update_existing_article",
+      "sources": [
+        "https://www.rfi.it/it/news-e-media/infomobilita/aggiornamenti/2026/9/16/linea-milano---chiasso--milano---lecco-dalle-ore-20-45-circolazi.html",
+        "https://milano.repubblica.it/cronaca/2026/09/16/news/deraglia_un_carro_merci_nella_stazione_di_greco_pirelli_a_milano-425589630/",
+        "https://milano.corriere.it/notizie/cronaca/26_settembre_16/milano-deraglia-treno-merci-a-greco-pirelli-circolazione-sospesa-su-linee-per-como-sondrio-e-tirano-esclusa-fuoriuscita-di-d25f7dba-316c-4282-9497-8246b071exlk.shtml",
+        "https://it.marketscreener.com/notizie/riattivata-la-circolazione-solo-sulla-milano-lecco-sondrio-ce785bd2d088f221"
+      ],
+      "public_url": "https://curiomondo.it/notizie/milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "publication": {
+    "site_version": 403,
+    "state": "pending_deploy"
+  }
+}

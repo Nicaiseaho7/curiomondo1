@@ -1,5 +1,5 @@
 {
-  "version": 402,
+  "version": 403,
   "items": [
     {
       "title": "Sardegna, una rete per i minori con diabete tra scuola e sport",
@@ -206,8 +206,8 @@
       ]
     },
     {
-      "title": "Milano Greco Pirelli, treni interrotti dopo il deragliamento di un carro merci",
-      "excerpt": "Un carro di un convoglio merci è uscito dai binari nella stazione di Milano Greco Pirelli. La circolazione verso Como, Lecco, Sondrio e Ponte San Pietro è stata sospesa; in tarda serata risultava riattivata soltanto la direttrice Milano-Lecco-Sondrio.",
+      "title": "Milano Greco Pirelli, circolazione regolare dopo il deragliamento",
+      "excerpt": "RFI comunica che dalle 05:40 del 17 settembre la circolazione sulle linee Milano-Chiasso e Milano-Lecco è tornata regolare. Il deragliamento di un carro merci aveva provocato rallentamenti, cancellazioni e limitazioni; non risultano feriti né fuoriuscite.",
       "url": "/notizie/milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026.html",
       "section": "Italia",
       "dateISO": "2026-09-17T04:01:16+02:00",
@@ -219,7 +219,7 @@
       "srcset": "/assets/images/editorial-auto/milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026-v396-480.webp 480w, /assets/images/editorial-auto/milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026-v396-800.webp 800w, /assets/images/editorial-auto/milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026-v396-1200.webp 1200w",
       "featuredHighlights": [
         "Greco Pirelli",
-        "deragliamento"
+        "circolazione regolare"
       ],
       "featuredStats": [
         {
@@ -228,14 +228,14 @@
           "label": "inizio della sospensione"
         },
         {
-          "icon": "↗",
-          "value": "4",
-          "label": "direttrici interessate"
+          "icon": "✓",
+          "value": "05:40",
+          "label": "circolazione tornata regolare"
         },
         {
-          "icon": "✓",
-          "value": "23:07",
-          "label": "prima riapertura parziale"
+          "icon": "●",
+          "value": "0",
+          "label": "feriti segnalati"
         }
       ]
     },
