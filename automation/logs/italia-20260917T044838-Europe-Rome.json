@@ -26,7 +26,18 @@
         "https://www.reuters.com/business/italy-lags-peers-womens-employment-hampering-growth-report-shows-2026-03-18/"
       ],
       "public_url": "https://curiomondo.it/notizie/parita-genere-italia-83-rapporto-wef-2026.html",
-      "publication_state": "pending_deploy"
+      "publication_state": "published_verified_online",
+      "verified_online_at": "2026-09-17T04:59:18+02:00",
+      "online_checks": {
+        "article_rendered": true,
+        "title_and_body_complete": true,
+        "homepage_present": true,
+        "category_italia_present": true,
+        "image_loaded": true,
+        "image_dimensions": "800x533",
+        "related_links": 3,
+        "editorial_sources": 4
+      }
     }
   ],
   "excluded": [
@@ -41,6 +52,8 @@
   ],
   "publication": {
     "site_version": 397,
-    "state": "pending_deploy"
+    "state": "published_verified_online",
+    "verified_online_at": "2026-09-17T04:59:18+02:00",
+    "production_commit": "c88973c544d715100b7afe9269816a4dff1db622"
   }
 }
