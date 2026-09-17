@@ -1,0 +1,32 @@
+{
+  "run_at": "2026-09-17T06:51:07+02:00",
+  "scope": "Italia",
+  "production_branch": "main",
+  "base_commit": "667d795f87aff4bcaf02532e3d7ceb3751066694",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 7,
+    "distinct_domains": 6,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: titoli e snippet non sono stati conteggiati. La candidata pubblicata è stata letta integralmente su tre fonti e verificata distinguendo fatti, dichiarazioni e punti non ancora accertati."
+  },
+  "processed": [
+    {
+      "title": "Milano, rabbino aggredito alla fermata del bus: tre persone individuate",
+      "editorial_score": 8.3,
+      "status": "CONFERMATA DA PIÙ FONTI",
+      "decision": "publish",
+      "sources": [
+        "https://www.ansa.it/sito/notizie/cronaca/2026/09/16/a-milano-rabbino-aggredito-preso-a-calci-e-pugni-a-fermata-del-bus_75d9797f-e106-492f-97fc-6d4e2f8d8e5b.html",
+        "https://www.rainews.it/tgr/lombardia/articoli/2026/09/a-milano-rabbino-aggredito-preso-a-calci-e-pugni-alla-fermata-del-bus-61e3d111-d134-4f03-8fad-f7c642a0fa2b.html",
+        "https://milano.corriere.it/notizie/cronaca/26_settembre_16/milano-rabbino-aggredito-da-tre-sconosciuti-alla-fermata-dell-autobus-preso-a-calci-e-pugni-lui-li-filma-e-li-denuncia-8a0f5bc5-1944-4dd2-8052-114cfa5f8xlk_amp.shtml"
+      ],
+      "public_url": "https://curiomondo.it/notizie/rabbino-aggredito-milano-bande-nere-17-settembre-2026.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "publication": {
+    "site_version": 400,
+    "state": "pending_deploy"
+  }
+}

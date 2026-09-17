@@ -1,7 +1,40 @@
 {
-  "version": 399,
+  "version": 400,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "rabbino-aggredito-milano-bande-nere-17-settembre-2026-v400",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/rabbino-aggredito-milano-bande-nere-17-settembre-2026-v400-480.webp",
+          "sha256": "3de7921e55e5a4e798c550257fe90c4e67754a5d776848188f886aa45363fc07",
+          "bytes": 9376
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/rabbino-aggredito-milano-bande-nere-17-settembre-2026-v400-800.webp",
+          "sha256": "bd62c55cf5a80415603689b4d78355113b53734a83b0fb83a183b6f9d895d145",
+          "bytes": 23742
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/rabbino-aggredito-milano-bande-nere-17-settembre-2026-v400-1200.webp",
+          "sha256": "cd5c15a8dc48bc612224244f01a24bfd406cf7e9e4a129b164fe8339bfcc34cb",
+          "bytes": 49436
+        }
+      ],
+      "alt": "Ritratto editoriale neutrale e non identificativo generato con IA di un rabbino adulto; non raffigura la vittima reale né l'aggressione.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false,
+      "prompt": "Sensitive-context neutral isolated non-identifying editorial portrait of an anonymous rabbi; no violence, injuries, text or watermark.",
+      "article": "/notizie/rabbino-aggredito-milano-bande-nere-17-settembre-2026.html"
+    },
     {
       "key": "formula-1-calendario-2027-dieci-sprint-monaco-monza-v399",
       "aiGenerated": true,

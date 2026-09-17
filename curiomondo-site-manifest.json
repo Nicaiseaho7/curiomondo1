@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 399,
-    "site_version": 399
+    "current_site_version": 400,
+    "site_version": 400
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -241,20 +241,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 399,
-  "version": "v399",
-  "release_version": "v399",
+  "site_version": 400,
+  "version": "v400",
+  "release_version": "v400",
   "last_release": {
-    "version": 399,
+    "version": 400,
     "date": "2026-09-17",
     "type": "content-release",
     "news_added": [
-      "formula-1-calendario-2027-dieci-sprint-monaco-monza"
+      "rabbino-aggredito-milano-bande-nere-17-settembre-2026"
     ],
-    "news_updated": [
-      "milan-benfica-oggi-16-settembre-2026-europa-league-orario-tv"
-    ],
-    "change": "Pubblicato il calendario F1 2027 e aggiornato Milan-Benfica con il risultato finale",
-    "image_policy_applied": "new-openai-contextual-editorial-image; existing-relevant-image-preserved-on-update"
+    "news_updated": [],
+    "change": "Pubblicata la notizia sull'aggressione a un rabbino nel quartiere Bande Nere a Milano",
+    "image_policy_applied": "new-openai-sensitive-neutral-non-identifying-portrait"
   }
 }
