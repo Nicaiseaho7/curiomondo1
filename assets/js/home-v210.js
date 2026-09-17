@@ -49,6 +49,23 @@
     card.dataset.cmDecorated = 'true';
   }
   const decorateCards = (root = document) => root.querySelectorAll('.auto-card,.card').forEach(decorateCard);
+  const decorateCardsChunked = (root) => {
+    if (!root) return;
+    const cards = Array.from(root.querySelectorAll('.card'));
+    let cursor = 0;
+    const schedule = window.requestIdleCallback
+      ? (callback) => window.requestIdleCallback(callback, { timeout: 1800 })
+      : (callback) => window.setTimeout(() => callback({ didTimeout: true, timeRemaining: () => 0 }), 32);
+    const step = (deadline) => {
+      let processed = 0;
+      while (cursor < cards.length && processed < 4 && (deadline.didTimeout || deadline.timeRemaining() > 3)) {
+        decorateCard(cards[cursor++]);
+        processed += 1;
+      }
+      if (cursor < cards.length) schedule(step);
+    };
+    schedule(step);
+  };
 
   function open(id) {
     const node = document.getElementById(id);
@@ -249,8 +266,9 @@
   }
   $('#loadMoreNews')?.addEventListener('click', appendFeed);
 
-  decorateCards();
+  decorateCards($('.auto-rail'));
   const cardsRoot = $('#cards');
+  decorateCardsChunked(cardsRoot);
   if (cardsRoot) new MutationObserver(() => decorateCards(cardsRoot)).observe(cardsRoot, { childList: true });
 
   async function decorateFeatured() {

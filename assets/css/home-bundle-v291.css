@@ -1886,6 +1886,9 @@ html.cm-dark .auto-card picture{background:#0f2140!important}
   .auto-card:hover,.card:hover,.cm-edition-nav a:hover,.featured:hover picture img{transform:none!important}
 }
 
+/* Preserve the card layout while skipping initial paint work below the fold. */
+.cards .card{content-visibility:auto;contain-intrinsic-size:auto 420px}
+
 /* source: assets/css/home-cards-premium-v335.css */
 /* v335 — trattamento premium per le card (elevazione, bordo sottile, sfumature). */
 /* Solo box-shadow/gradienti/pseudo-elementi in position:absolute: nessuna modifica */
