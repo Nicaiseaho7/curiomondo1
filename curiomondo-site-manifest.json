@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 413,
-    "site_version": 413
+    "current_site_version": 414,
+    "site_version": 414
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -241,18 +241,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 413,
-  "version": "v413",
-  "release_version": "v413",
+  "site_version": 414,
+  "version": "v414",
+  "release_version": "v414",
   "last_release": {
-    "version": 413,
+    "version": 414,
     "date": "2026-09-17",
     "type": "content-release",
     "news_added": [
-      "hunger-games-alba-mietitura-trailer-italiano-19-novembre-2026"
+      "bab-el-mandeb-crosetto-missione-navale-mercantili-italiani-17-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Pubblicato il nuovo trailer italiano di Hunger Games: L'alba sulla mietitura",
-    "image_policy_applied": "new-openai-public-figure-contextual-portrait-no-text-no-logo"
+    "change": "Pubblicata l'attivazione preparatoria della Marina per Bab el-Mandeb",
+    "image_policy_applied": "new-openai-contextual-editorial-image-no-text-no-logo"
   }
 }

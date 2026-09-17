@@ -1,0 +1,44 @@
+{
+  "run_at": "2026-09-17T19:57:00+02:00",
+  "scope": "Italia / Politica",
+  "production_branch": "main",
+  "base_commit": "e7dd2d89c25a4c3953d3a452bf28d10b60aaf5ef",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 11,
+    "distinct_domains": 4,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: il target di 500 contenuti non è stato raggiunto e non è stato inventato. Sono state aperte le principali sezioni ANSA e lette integralmente le fonti pertinenti; la candidata pubblicata è stata verificata sulla dichiarazione ufficiale del Ministero, Reuters, ANSA e documentazione UE."
+  },
+  "processed": [
+    {
+      "title": "Bab el-Mandeb, Crosetto prepara una missione navale per i mercantili italiani",
+      "editorial_score": 8.6,
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "sources": [
+        "https://www.instagram.com/p/DdZKz-6AlS2/",
+        "https://www.reuters.com/world/italy-readies-navy-protect-its-shipping-amid-bab-el-mandeb-tensions-2026-09-17/",
+        "https://www.ansa.it/sito/notizie/politica/2026/09/17/crosetto-navi-militari-italiane-a-bab-el-mandeb-per-ripristino-dei-traffici_5b0db8d7-6df3-4d2b-838c-9d5eca2fce0e.html",
+        "https://www.eeas.europa.eu/eunavfor-aspides/eunavfor-aspides-mandate-video_en"
+      ],
+      "public_url": "https://curiomondo.it/notizie/bab-el-mandeb-crosetto-missione-navale-mercantili-italiani-17-settembre-2026.html",
+      "publication_state": "pending_deploy"
+    },
+    {
+      "title": "Pioggia agli Uffizi, acqua sulla teca del Bacco di Caravaggio",
+      "editorial_score": 6.6,
+      "decision": "exclude_below_threshold_no_damage_to_work",
+      "source": "https://www.ansa.it/sito/notizie/cronaca/2026/09/17/maltempo-pioggia-si-infiltra-agli-uffizi-e-bagna-teca-di-un-caravaggio_7a36b18b-72a9-4de1-8024-abdebc7faf34.html"
+    },
+    {
+      "title": "Visita della presidente Meloni in Norvegia",
+      "editorial_score": 6.8,
+      "decision": "exclude_agenda_only_no_substantive_signed_outcome"
+    }
+  ],
+  "publication": {
+    "site_version": 414,
+    "state": "pending_deploy"
+  }
+}
