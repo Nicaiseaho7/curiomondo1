@@ -1,0 +1,47 @@
+{
+  "run_at": "2026-09-17T02:50:30+02:00",
+  "scope": "Italia",
+  "production_branch": "main",
+  "base_commit": "5346358eba5b600c53703b0b0a5fad7d0a01bb69",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 2,
+    "headlines_or_snippets_excluded_from_count": true,
+    "note": "Controllo incrementale delle fonti disponibili nelle ultime ore. Conteggio limitato alle pagine aperte integralmente; risultati, titoli e snippet non sono conteggiati."
+  },
+  "processed": [
+    {
+      "title": "Meloni esclude elezioni anticipate e punta a fine legislatura",
+      "territorial_filter": "passed",
+      "editorial_score": 7.1,
+      "category": "Politica",
+      "decision": "reject_below_threshold",
+      "reason": "Dichiarazione politica rilevante ma senza atto, calendario elettorale modificato o conseguenza operativa; non supera la soglia 8/10.",
+      "sources": [
+        "https://www.reuters.com/world/italys-meloni-says-she-aims-remain-office-until-end-term-2026-09-16/"
+      ]
+    },
+    {
+      "title": "Donna ferita da un piombino a Roma, denunciato un cinquantenne",
+      "territorial_filter": "passed",
+      "editorial_score": 5.3,
+      "category": "Cronaca",
+      "decision": "reject_below_threshold",
+      "reason": "Episodio locale privo, al momento, di impatto nazionale o sviluppo autonomo sufficiente.",
+      "sources": [
+        "https://www.ansa.it/"
+      ]
+    },
+    {
+      "title": "Allerta arancione in Liguria ed Emilia-Romagna",
+      "territorial_filter": "passed",
+      "editorial_score": 8.6,
+      "decision": "reject_duplicate",
+      "reason": "Evento già pubblicato e verificato online nella precedente esecuzione; nessun cambiamento sostanziale dei livelli di allerta rilevato."
+    }
+  ],
+  "publication": {
+    "state": "no_publication",
+    "reason": "Nessuna candidata nuova ha superato insieme soglia editoriale, verifica e controllo duplicati."
+  }
+}
