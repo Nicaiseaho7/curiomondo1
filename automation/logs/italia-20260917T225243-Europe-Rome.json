@@ -1,0 +1,41 @@
+{
+  "run_at": "2026-09-17T22:52:43+02:00",
+  "production_branch": "main",
+  "production_base_commit": "5c1f8f2039c50066a371026bc5c14f4e353f3fb2",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 7,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: pagina iniziale e fascicolo n. 216 della Gazzetta Ufficiale, scheda del decreto-legge n. 162, articoli 1, 2 e 8 del testo ufficiale, articolo ANSA delle 22:17. Titoli e snippet non sono conteggiati."
+  },
+  "processed": [
+    {
+      "slug": "bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026",
+      "action": "substantial_update_existing_article",
+      "score": 9.6,
+      "status": "UFFICIALE",
+      "development_at": "2026-09-17T22:17:00+02:00",
+      "public_url": "https://curiomondo.it/notizie/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026.html",
+      "primary_source": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2026-09-17&atto.codiceRedazionale=26G00181&elenco30giorni=false",
+      "confirmation": "https://www.ansa.it/sito/notizie/politica/2026/09/17/meloni-il-bollo-abolito-non-solo-per-il-2027-la-misura-e-strutturale.-le-stime_01a925ca-c780-4377-be0c-cc6e8f2b45e0.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "excluded": [
+    {
+      "candidate": "Dichiarazioni Conte-Schlein-Meloni",
+      "score": 6.6,
+      "reason": "polemica politica senza atto o conseguenza nuova documentata"
+    },
+    {
+      "candidate": "Prezzo del diesel negli Stati Uniti",
+      "score": 2.0,
+      "reason": "nessun legame diretto e specifico con l’Italia"
+    },
+    {
+      "candidate": "Usa-Iran e Assemblea Onu",
+      "score": 2.4,
+      "reason": "sviluppo internazionale senza conseguenza concreta documentata per l’Italia"
+    }
+  ]
+}
