@@ -1,7 +1,39 @@
 {
-  "version": 415,
+  "version": 416,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "migranti-arrivi-italia-dimezzati-996-morti-dispersi-iom-17-settembre-2026-v416",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/migranti-arrivi-italia-dimezzati-996-morti-dispersi-iom-17-settembre-2026-v416-480.webp",
+          "sha256": "9d48e8a22043e8a624cc53093cbdf34a7dc348c7efdb973b6c00fac16e7a0560",
+          "bytes": 22634
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/migranti-arrivi-italia-dimezzati-996-morti-dispersi-iom-17-settembre-2026-v416-800.webp",
+          "sha256": "1db5cd382158131eabd4a2a22b54c90d9f27c9d6d7a04241dd44125d785695d9",
+          "bytes": 54342
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/migranti-arrivi-italia-dimezzati-996-morti-dispersi-iom-17-settembre-2026-v416-1200.webp",
+          "sha256": "b920befda64c6f937bf858a756324c442d3c6cf7560e576db332399fe3c20c3a",
+          "bytes": 106214
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA: un'imbarcazione di soccorso e una piccola barca nel Mediterraneo al tramonto; scena simbolica, non documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": true,
+      "reenactedEvent": false,
+      "prompt": "Ultrarealistic contextual editorial image of a generic rescue vessel and a small boat at distance on the Mediterranean at dawn; no real event, text, logos or watermark.",
+      "article": "/notizie/migranti-arrivi-italia-dimezzati-996-morti-dispersi-iom-17-settembre-2026.html"
+    },
     {
       "key": "svezia-kristersson-si-dimette-andersson-176-seggi-17-settembre-2026-v415",
       "aiGenerated": true,

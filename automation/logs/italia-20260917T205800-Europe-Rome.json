@@ -1,0 +1,38 @@
+{
+  "run_at": "2026-09-17T20:58:00+02:00",
+  "scope": "Italia",
+  "production_branch": "main",
+  "base_commit": "6ac2eb0e7044ccd276c299f7c1dd68fefb426eb1",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 2,
+    "distinct_domains": 3,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: il target di 500 contenuti non è stato raggiunto e non è stato inventato. Sono stati letti integralmente i riscontri Reuters e Associated Press; i dati centrali derivano dal comunicato ufficiale IOM identificato e sono stati confrontati nelle due fonti indipendenti."
+  },
+  "processed": [
+    {
+      "title": "Migranti, arrivi via mare verso l'Italia oltre dimezzati: 996 morti o dispersi",
+      "editorial_score": 8.4,
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "sources": [
+        "https://www.iom.int/news/migrant-arrivals-europe-fall-39-2026-while-deaths-continue-rise",
+        "https://apnews.com/article/migration-refugees-deaths-mediterranean-atlantic-shipwrecks-fa512b3ac2a31b8c4a79ae0e981ec94c",
+        "https://www.reuters.com/world/europe-migrant-sea-crossings-fall-become-more-deadly-iom-says-2026-09-17/"
+      ],
+      "public_url": "https://curiomondo.it/notizie/migranti-arrivi-italia-dimezzati-996-morti-dispersi-iom-17-settembre-2026.html",
+      "publication_state": "pending_deploy"
+    },
+    {
+      "title": "Visita della presidente Meloni in Norvegia",
+      "editorial_score": 6.8,
+      "decision": "exclude_agenda_only_no_substantive_signed_outcome",
+      "source": "https://www.reuters.com/business/energy/italys-meloni-visits-norway-boost-energy-critical-minerals-ties-2026-09-17/"
+    }
+  ],
+  "publication": {
+    "site_version": 416,
+    "state": "pending_deploy"
+  }
+}
