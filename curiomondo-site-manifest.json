@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 416,
-    "site_version": 416
+    "current_site_version": 418,
+    "site_version": 418
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -241,18 +241,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 416,
-  "version": "v416",
-  "release_version": "v416",
+  "site_version": 418,
+  "version": "v418",
+  "release_version": "v418",
   "last_release": {
-    "version": 416,
+    "version": 418,
     "date": "2026-09-17",
     "type": "content-release",
     "news_added": [
-      "migranti-arrivi-italia-dimezzati-996-morti-dispersi-iom-17-settembre-2026"
+      "juventus-nec-5-0-europa-league-17-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Pubblicati i dati IOM sulla rotta del Mediterraneo centrale verso l'Italia",
-    "image_policy_applied": "new-openai-contextual-editorial-image-no-text-no-logo"
+    "change": "Pubblicato il 5-0 della Juventus sul NEC in Europa League",
+    "image_policy_applied": "new-openai-contextual-public-figure-editorial-image-no-text"
   }
 }

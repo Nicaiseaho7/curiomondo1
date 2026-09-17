@@ -1,0 +1,46 @@
+{
+  "run_at": "2026-09-17T23:55:56+02:00",
+  "scope": "Italia / Sport",
+  "production_branch": "main",
+  "base_commit": "d72e4ae4d55854cf325efc35a5c247e5d823a012",
+  "coverage": {
+    "target_distinct_full_contents": 500,
+    "distinct_full_contents_actually_read": 4,
+    "distinct_domains": 4,
+    "target_reached": false,
+    "note": "Conteggio prudenziale: letti integralmente referto e calendario UEFA, resoconto ufficiale Juventus, cronaca ANSA e diretta The Guardian. Titoli e snippet non sono conteggiati."
+  },
+  "processed": [
+    {
+      "title": "Juventus-NEC 5-0, goleada all'esordio in Europa League",
+      "slug": "juventus-nec-5-0-europa-league-17-settembre-2026",
+      "editorial_score": 8.5,
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "development_at": "2026-09-17T22:50:00+02:00",
+      "sources": [
+        "https://www.uefa.com/uefaeuropaleague/match/2050066--juventus-vs-n-e-c/",
+        "https://www.juventus.com/it/news/articoli/uefa-europa-league-juventus-nec-la-partita",
+        "https://www.ansa.it/sito/notizie/sport/calcio/2026/09/17/europa-league-la-juventus-asfalta-5-0-il-nec_6e175d87-1b2f-479a-89bb-cc9982cc094c.html",
+        "https://www.theguardian.com/football/live/2026/sep/17/real-sociedad-v-bournemouth-crystal-palace-v-lech-poznan-and-more-europa-league-live"
+      ],
+      "public_url": "https://curiomondo.it/notizie/juventus-nec-5-0-europa-league-17-settembre-2026.html",
+      "publication_state": "pending_deploy"
+    }
+  ],
+  "excluded": [
+    {
+      "candidate": "Nuovi dettagli sul finanziamento del decreto bollo auto",
+      "editorial_score": 6.8,
+      "reason": "sviluppo secondario già coperto nell'articolo aggiornato alle 22:17; nessun nuovo atto autonomo"
+    },
+    {
+      "candidate": "Studio IMBIE sui ghiacci polari",
+      "reason": "già presente nel ramo di produzione corrente; escluso come duplicato"
+    }
+  ],
+  "publication": {
+    "site_version": 418,
+    "state": "pending_deploy"
+  }
+}

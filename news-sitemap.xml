@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://curiomondo.it/notizie/juventus-nec-5-0-europa-league-17-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-17T23:55:56+02:00</news:publication_date>
+      <news:title>Juventus-NEC 5-0, goleada all'esordio in Europa League</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://curiomondo.it/notizie/migranti-arrivi-italia-dimezzati-996-morti-dispersi-iom-17-settembre-2026.html</loc>
     <news:news>
       <news:publication>
@@ -427,28 +438,6 @@
       </news:publication>
       <news:publication_date>2026-09-16T03:42:02+02:00</news:publication_date>
       <news:title>Milan-Benfica 0-2: Lukébakio e Kamiński decidono il debutto europeo</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/guerra-usa-iran-cbo-costi-38-miliardi-inflazione-15-09-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15T23:53:02+02:00</news:publication_date>
-      <news:title>Guerra USA-Iran, il CBO stima costi per 38 miliardi di dollari</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/lituania-eurofighter-italiani-neutralizzano-un-drone-entrato-nello-spazio-aereo-nato-15-09-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15T21:45:52+02:00</news:publication_date>
-      <news:title>Lituania, Eurofighter italiani neutralizzano un drone entrato nello spazio aereo NATO</news:title>
     </news:news>
   </url>
 </urlset>
