@@ -1,0 +1,69 @@
+{
+  "run_at": "2026-09-18T21:50:00+02:00",
+  "skill": "ultime-notizie-scoop",
+  "desks": [
+    "ricerche-google-italia"
+  ],
+  "processed": [
+    {
+      "title": "Mancini convoca 34 azzurri: 9 esordienti, tornano Zaniolo e Maldini",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/convocati-italia-mancini-nations-league-34-nomi-18-settembre-2026.html"
+    },
+    {
+      "title": "Ticket sanitari, dal 21 settembre il nuovo tariffario: +5,8% medio",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/aumento-ticket-sanitari-21-settembre-2026-tariffario-visite.html"
+    }
+  ],
+  "discarded": [
+    {
+      "topic": "perth squalo",
+      "reason": "già pubblicato oggi"
+    },
+    {
+      "topic": "tassa rifiuti TARI IMU",
+      "reason": "già pubblicato oggi"
+    },
+    {
+      "topic": "accise diesel",
+      "reason": "articoli esistenti, niente nuovo prezzo ufficiale di oggi"
+    },
+    {
+      "topic": "eurofighter",
+      "reason": "già coperto scramble Lituania"
+    },
+    {
+      "topic": "barbara d'urso",
+      "reason": "gossip, niente Rai"
+    },
+    {
+      "topic": "chanel totti",
+      "reason": "Verissimo/gossip"
+    },
+    {
+      "topic": "ranucci boccia",
+      "reason": "smentita di una foto, non fatto verificabile oltre la querela"
+    },
+    {
+      "topic": "freddo settembre",
+      "reason": "PC: temperature nessun fenomeno significativo"
+    },
+    {
+      "topic": "bonus trasporti 2027",
+      "reason": "decreto attuativo atteso marzo 2027, misura non operativa"
+    },
+    {
+      "topic": "bonus ristrutturazioni 2027",
+      "reason": "norma già nota, non breaking di oggi"
+    },
+    {
+      "topic": "de rossi genoa",
+      "reason": "conferenza, impatto sotto i convocati FIGC"
+    },
+    {
+      "topic": "pignoramento / università / sagre / bruzzone",
+      "reason": "evergreen o senza primaria del giorno"
+    }
+  ]
+}
