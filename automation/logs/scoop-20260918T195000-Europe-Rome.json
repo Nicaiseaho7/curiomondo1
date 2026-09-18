@@ -1,0 +1,33 @@
+{
+  "run_at": "2026-09-18T19:50:00+02:00",
+  "skill": "ultime-notizie-scoop",
+  "desks": [
+    "tassa-rifiuti",
+    "barbara-durso",
+    "armenia"
+  ],
+  "processed": [
+    {
+      "title": "Cirielli chiude la missione in Armenia: AICS apre a Jerevan da ottobre",
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/cirielli-armenia-aics-jerevan-18-settembre-2026.html"
+    },
+    {
+      "title": "TARI, dichiarazione entro 90 giorni: le regole del decreto 147 già in vigore",
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/tari-dichiarazione-90-giorni-decreto-147-imu-sanzioni-18-settembre-2026.html"
+    }
+  ],
+  "discarded": [
+    {
+      "topic": "Barbara D'Urso a Ballando",
+      "reason": "solo Vanity Fair/Libero; nessun comunicato Rai o Ballando"
+    }
+  ],
+  "publication": {
+    "site_version": 435,
+    "state": "pending_deploy"
+  }
+}
