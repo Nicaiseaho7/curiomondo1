@@ -1,7 +1,39 @@
 {
-  "version": 430,
+  "version": 431,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "serie-a-quinta-giornata-orari-tv-monza-sassuolo-roma-inter-18-settembre-2026-v431",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/serie-a-quinta-giornata-orari-tv-monza-sassuolo-roma-inter-18-settembre-2026-v431-480.webp",
+          "sha256": "ea923d5dd01b6d4658e88958fff870723d09fd61bae752b494492828f9db2d97",
+          "bytes": 17158
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/serie-a-quinta-giornata-orari-tv-monza-sassuolo-roma-inter-18-settembre-2026-v431-800.webp",
+          "sha256": "fd6dde5d24c7bd413811c7288575db340e06cff1f35edebd7c13eed38406aab9",
+          "bytes": 40872
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/serie-a-quinta-giornata-orari-tv-monza-sassuolo-roma-inter-18-settembre-2026-v431-1200.webp",
+          "sha256": "a48270cc839876a3c0fba53271f06b6bc82249b227c8765a88684daf0c6d364a",
+          "bytes": 79900
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: stadio italiano illuminato in serata, senza stemmi di club; non è la fotografia documentaria di una partita.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Photorealistic Italian football stadium at dusk, floodlights, empty pitch, no crests, no text.",
+      "article": "/notizie/serie-a-quinta-giornata-orari-tv-monza-sassuolo-roma-inter-18-settembre-2026.html"
+    },
     {
       "key": "meloni-beretta-500-anni-gardone-val-trompia-18-settembre-2026-v430",
       "aiGenerated": true,

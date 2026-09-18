@@ -1,0 +1,33 @@
+{
+  "run_at": "2026-09-18T18:10:00+02:00",
+  "skill": "ultime-notizie-scoop",
+  "desks": [
+    "nba",
+    "calcio",
+    "programmi-partite"
+  ],
+  "processed": [
+    {
+      "title": "Serie A, quinta giornata: stasera Monza-Sassuolo, sabato Roma-Inter",
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "primary_source": "https://www.legaseriea.it/serie-a/news/date-orari-e-programmazione-tv-delle-prime-cinque-giornate",
+      "kickoff": "2026-09-18T20:45:00+02:00",
+      "public_url": "https://curiomondo.it/notizie/serie-a-quinta-giornata-orari-tv-monza-sassuolo-roma-inter-18-settembre-2026.html"
+    }
+  ],
+  "discarded": [
+    {
+      "topic": "NBA partite del weekend",
+      "reason": "nessuna gara NBA il 18-20 settembre; training camp dal 29, preseason dal 3 ottobre"
+    },
+    {
+      "topic": "formazioni Monza-Sassuolo",
+      "reason": "solo convocati ufficiali e conferenze; distinta non ancora pubblicata"
+    }
+  ],
+  "publication": {
+    "site_version": 431,
+    "state": "pending_deploy"
+  }
+}
