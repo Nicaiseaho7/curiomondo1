@@ -1,0 +1,23 @@
+{
+  "run_at": "2026-09-18T14:28:00+02:00",
+  "scope": "Economia+Politica",
+  "production_branch": "main",
+  "processed": [
+    {
+      "title": "Buffett lascia la presidenza di Berkshire: Howard al posto del padre, Abel resta ceo",
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/buffett-lascia-presidenza-berkshire-howard-18-settembre-2026.html"
+    },
+    {
+      "title": "Giorgetti: lo shock delle guerre peserà sulle bollette. Chiesta all’Ue la deroga 0,6%",
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/giorgetti-eurogruppo-shock-energia-bollette-18-settembre-2026.html"
+    }
+  ],
+  "publication": {
+    "site_version": 428,
+    "state": "pending_deploy"
+  }
+}

@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 427,
-    "site_version": 427
+    "current_site_version": 428,
+    "site_version": 428
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -243,20 +243,19 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 427,
-  "version": "v427",
-  "release_version": "v427",
+  "site_version": 428,
+  "version": "v428",
+  "release_version": "v428",
   "last_release": {
-    "version": 427,
+    "version": 428,
     "date": "2026-09-18",
     "type": "content-release",
     "news_added": [
-      "salvini-rinvio-blocco-diesel-euro-5-2027-18-settembre-2026",
-      "sciopero-apple-store-italia-iphone-18-pro-18-settembre-2026",
-      "corea-sud-lee-niente-truppe-guerra-iran-18-settembre-2026"
+      "buffett-lascia-presidenza-berkshire-howard-18-settembre-2026",
+      "giorgetti-eurogruppo-shock-energia-bollette-18-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Pubblicati rinvio Euro 5, sciopero Apple e no sudcoreano alla guerra in Iran",
+    "change": "Pubblicati il passaggio di presidenza Berkshire e l’allarme di Giorgetti sulle bollette",
     "image_policy_applied": "new-openai-contextual-editorial-images"
   }
 }

@@ -1,7 +1,73 @@
 {
-  "version": 427,
+  "version": 428,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "giorgetti-eurogruppo-shock-energia-bollette-18-settembre-2026-v428",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/giorgetti-eurogruppo-shock-energia-bollette-18-settembre-2026-v428-480.webp",
+          "sha256": "f57b02afd15f611f49e9dfadb541cbcaa77d81258630c76ebf3fb72a8bfdd34a",
+          "bytes": 12792
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/giorgetti-eurogruppo-shock-energia-bollette-18-settembre-2026-v428-800.webp",
+          "sha256": "3eb2d964d250c2a95c8f377de64a76e79bf997d0638e66154920e3fa72f566dc",
+          "bytes": 26018
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/giorgetti-eurogruppo-shock-energia-bollette-18-settembre-2026-v428-1200.webp",
+          "sha256": "ef4077ef095d75da418df47d8346af6394ae17c11a6575d6ce44bc51573eac36",
+          "bytes": 49960
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: Giancarlo Giorgetti riconoscibile in un interno istituzionale; somiglianza sintetica, non una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Photorealistic editorial photograph of Giancarlo Giorgetti in an institutional interior, no text.",
+      "article": "/notizie/giorgetti-eurogruppo-shock-energia-bollette-18-settembre-2026.html"
+    },
+    {
+      "key": "buffett-lascia-presidenza-berkshire-howard-18-settembre-2026-v428",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/buffett-lascia-presidenza-berkshire-howard-18-settembre-2026-v428-480.webp",
+          "sha256": "1822136da41288d7c18cea8f46d5bb34a7444ab15043bc447ea569018507f5cc",
+          "bytes": 14926
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/buffett-lascia-presidenza-berkshire-howard-18-settembre-2026-v428-800.webp",
+          "sha256": "cd17e742f93bfb45d103860770bbb45a11ef169162766db4d59d4a17ff3f1224",
+          "bytes": 37338
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/buffett-lascia-presidenza-berkshire-howard-18-settembre-2026-v428-1200.webp",
+          "sha256": "adc19acf1b99b3c23e6dcb4d6c329a8b5c5c8ce1e0447bf54d78e971b9b33592",
+          "bytes": 76334
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: Warren Buffett riconoscibile a una scrivania; somiglianza sintetica, non una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Photorealistic editorial photograph of Warren Buffett at a desk, ordinary contextual portrait, no text.",
+      "article": "/notizie/buffett-lascia-presidenza-berkshire-howard-18-settembre-2026.html"
+    },
     {
       "key": "corea-sud-lee-niente-truppe-guerra-iran-18-settembre-2026-v427",
       "aiGenerated": true,
