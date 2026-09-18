@@ -1,7 +1,39 @@
 {
-  "version": 428,
+  "version": 429,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "istat-produzione-costruzioni-luglio-calo-14-18-settembre-2026-v429",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/istat-produzione-costruzioni-luglio-calo-14-18-settembre-2026-v429-480.webp",
+          "sha256": "f12120a07817545e2d0c5bda173d6403fb8f0a10f616964781bf787e2d8d4f92",
+          "bytes": 34156
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/istat-produzione-costruzioni-luglio-calo-14-18-settembre-2026-v429-800.webp",
+          "sha256": "c6df7be83f9f0cb5fb9d32ffde6ab7b9cd9ef4638681916f4a9e1bc82e859c64",
+          "bytes": 89204
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/istat-produzione-costruzioni-luglio-calo-14-18-settembre-2026-v429-1200.webp",
+          "sha256": "7189b94a52291bf7a8d7bf1b1b06874d8a445a775e6fcbf45980e3965d13572d",
+          "bytes": 177444
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: cantiere italiano con ponteggi, senza persone riconoscibili; non è una fotografia documentaria di un cantiere specifico.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Photorealistic Italian construction site, scaffolding, no identifiable people, no text.",
+      "article": "/notizie/istat-produzione-costruzioni-luglio-calo-14-18-settembre-2026.html"
+    },
     {
       "key": "giorgetti-eurogruppo-shock-energia-bollette-18-settembre-2026-v428",
       "aiGenerated": true,

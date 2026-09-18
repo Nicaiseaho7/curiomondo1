@@ -1,7 +1,7 @@
 {
-  "site_version": 428,
-  "articleCount": 407,
-  "generatedEditorialImages": 225,
+  "site_version": 429,
+  "articleCount": 408,
+  "generatedEditorialImages": 226,
   "baseline_version": 342,
   "release_date": "2026-09-18",
   "protocol_files": [
@@ -14,12 +14,12 @@
     "curiomondo-site-manifest.json"
   ],
   "last_daily_question_date": "2026-09-18",
-  "version": "428",
+  "version": "429",
   "date": "2026-09-18",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "buffett-giorgetti-v428",
+  "last_update": "istat-costruzioni-v429",
   "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
-  "currentVersion": 428,
+  "currentVersion": 429,
   "baselineVersion": 342,
   "designRestored": "Intestazione globale unificata su tutte le pagine interne; palette blu Facebook e fascia LIVE rossa piena confermate.",
   "status": "ready"

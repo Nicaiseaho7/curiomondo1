@@ -1,6 +1,40 @@
 {
-  "version": 428,
+  "version": 429,
   "items": [
+    {
+      "title": "Istat: produzione nelle costruzioni -1,4% a luglio, seconda flessione di fila",
+      "excerpt": "Calo anche dell’1,2% su base annua. Nei primi sette mesi l’indice resta in crescita. Comunicato ufficiale uscito stamattina alle 10.",
+      "url": "/notizie/istat-produzione-costruzioni-luglio-calo-14-18-settembre-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-09-18T17:40:00+02:00",
+      "dateLabel": "2026-09-18",
+      "image": "/assets/images/editorial-auto/istat-produzione-costruzioni-luglio-calo-14-18-settembre-2026-v429-800.webp",
+      "imageAlt": "Scena editoriale contestuale generata con IA: cantiere italiano con ponteggi, senza persone riconoscibili; non è una fotografia documentaria di un cantiere specifico.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/istat-produzione-costruzioni-luglio-calo-14-18-settembre-2026-v429-480.webp 480w, /assets/images/editorial-auto/istat-produzione-costruzioni-luglio-calo-14-18-settembre-2026-v429-800.webp 800w, /assets/images/editorial-auto/istat-produzione-costruzioni-luglio-calo-14-18-settembre-2026-v429-1200.webp 1200w",
+      "featuredHighlights": [
+        "Istat",
+        "costruzioni"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "-1,4%",
+          "label": "luglio su giugno, destagionalizzato"
+        },
+        {
+          "icon": "●",
+          "value": "-1,2%",
+          "label": "luglio su luglio 2025"
+        },
+        {
+          "icon": "↗",
+          "value": "+2,0%",
+          "label": "primi sette mesi, indice grezzo"
+        }
+      ]
+    },
     {
       "title": "Giorgetti: lo shock delle guerre peserà sulle bollette. Chiesta all’Ue la deroga 0,6%",
       "excerpt": "Dal Eurogruppo di Dublino il ministro dice che l’inflazione è da offerta, non da domanda. Sul bollo: coperture nazionali da risparmi Pnrr, obiettivo renderlo strutturale.",

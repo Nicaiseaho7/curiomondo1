@@ -1,0 +1,29 @@
+{
+  "run_at": "2026-09-18T17:40:00+02:00",
+  "skill": "ultime-notizie-scoop",
+  "primary_first": true,
+  "processed": [
+    {
+      "title": "Istat: produzione nelle costruzioni -1,4% a luglio, seconda flessione di fila",
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "primary_source": "https://www.istat.it/comunicato-stampa/produzione-nelle-costruzioni-luglio-2026/",
+      "primary_time": "2026-09-18T10:00:00+02:00",
+      "public_url": "https://curiomondo.it/notizie/istat-produzione-costruzioni-luglio-calo-14-18-settembre-2026.html"
+    }
+  ],
+  "discarded": [
+    {
+      "topic": "Meloni a Gardone per i 500 anni Beretta",
+      "reason": "cerimonia confermata da agenda e Radiocor, ma senza testo ufficiale del discorso: materia insufficiente senza riempitivo"
+    },
+    {
+      "topic": "Monza-Sassuolo",
+      "reason": "partita alle 20:45, nessun risultato"
+    }
+  ],
+  "publication": {
+    "site_version": 429,
+    "state": "pending_deploy"
+  }
+}

@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 428,
-    "site_version": 428
+    "current_site_version": 429,
+    "site_version": 429
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -243,19 +243,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 428,
-  "version": "v428",
-  "release_version": "v428",
+  "site_version": 429,
+  "version": "v429",
+  "release_version": "v429",
   "last_release": {
-    "version": 428,
+    "version": 429,
     "date": "2026-09-18",
     "type": "content-release",
     "news_added": [
-      "buffett-lascia-presidenza-berkshire-howard-18-settembre-2026",
-      "giorgetti-eurogruppo-shock-energia-bollette-18-settembre-2026"
+      "istat-produzione-costruzioni-luglio-calo-14-18-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Pubblicati il passaggio di presidenza Berkshire e l’allarme di Giorgetti sulle bollette",
+    "change": "Pubblicato il dato Istat sulla produzione nelle costruzioni di luglio",
     "image_policy_applied": "new-openai-contextual-editorial-images"
   }
 }
