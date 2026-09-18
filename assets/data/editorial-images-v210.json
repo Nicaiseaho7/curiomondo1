@@ -1,7 +1,40 @@
 {
-  "version": 431,
+  "version": 432,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "tajani-bolat-turchia-farnesina-hormuz-commercio-18-settembre-2026-v432",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "syntheticLikeness": "public-figure",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/tajani-bolat-turchia-farnesina-hormuz-commercio-18-settembre-2026-v432-480.webp",
+          "sha256": "fa8e9e30159ab82a19f3922012d875dd4387fce2f84ed03324ad019c1ef2bebb",
+          "bytes": 14666
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/tajani-bolat-turchia-farnesina-hormuz-commercio-18-settembre-2026-v432-800.webp",
+          "sha256": "326a16637f19979d04d74c108df4f045aa04c6a9d039fa82596216acaa9eb6f8",
+          "bytes": 30216
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/tajani-bolat-turchia-farnesina-hormuz-commercio-18-settembre-2026-v432-1200.webp",
+          "sha256": "ed64ec70ec662c8e7633b6ef508769f601bfbfcb1f5137f0d276844020cd1a62",
+          "bytes": 59170
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: Antonio Tajani riconoscibile, occhiali e capelli grigi, in un salone diplomatico con bandiere italiane; somiglianza sintetica, non è una fotografia documentaria dell’incontro.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Ultra-photorealistic Antonio Tajani with glasses, Farnesina diplomatic salon, Italian flags, no text.",
+      "article": "/notizie/tajani-bolat-turchia-farnesina-hormuz-commercio-18-settembre-2026.html"
+    },
     {
       "key": "serie-a-quinta-giornata-orari-tv-monza-sassuolo-roma-inter-18-settembre-2026-v431",
       "aiGenerated": true,

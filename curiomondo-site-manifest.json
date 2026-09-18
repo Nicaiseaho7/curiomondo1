@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 431,
-    "site_version": 431
+    "current_site_version": 432,
+    "site_version": 432
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -243,18 +243,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 431,
-  "version": "v431",
-  "release_version": "v431",
+  "site_version": 432,
+  "version": "v432",
+  "release_version": "v432",
   "last_release": {
-    "version": 431,
+    "version": 432,
     "date": "2026-09-18",
     "type": "content-release",
     "news_added": [
-      "serie-a-quinta-giornata-orari-tv-monza-sassuolo-roma-inter-18-settembre-2026"
+      "tajani-bolat-turchia-farnesina-hormuz-commercio-18-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Pubblicato il programma della quinta giornata di Serie A",
+    "change": "Pubblicato l’incontro Tajani-Bolat alla Farnesina",
     "image_policy_applied": "new-openai-contextual-editorial-images"
   }
 }

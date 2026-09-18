@@ -1,0 +1,43 @@
+{
+  "run_at": "2026-09-18T18:55:00+02:00",
+  "skill": "ultime-notizie-scoop",
+  "processed": [
+    {
+      "title": "Tajani vede Bolat alla Farnesina: Hormuz e Mar Rosso sul tavolo commerciale",
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "primary_source": "https://www.esteri.it/it/sala_stampa/archivionotizie/comunicati/2026/09/tajani-incontra-il-ministro-del-commercio-turco-omer-bolat/",
+      "public_url": "https://curiomondo.it/notizie/tajani-bolat-turchia-farnesina-hormuz-commercio-18-settembre-2026.html"
+    }
+  ],
+  "discarded": [
+    {
+      "topic": "ESA ESTEC Open Day",
+      "reason": "invito media per il 27 settembre, non notizia del giorno"
+    },
+    {
+      "topic": "allerta gialla Protezione civile",
+      "reason": "criticità ordinaria, già coperta il 17; niente escalation ad arancione"
+    },
+    {
+      "topic": "FTSE MIB -1,6%",
+      "reason": "chiusura di seduta ordinaria, impatto sotto soglia senza fatto nuovo istituzionale"
+    },
+    {
+      "topic": "fentanyl d.m. Salute",
+      "reason": "comunicato del 10 settembre, fuori finestra"
+    },
+    {
+      "topic": "Pakistan attentato Kohat",
+      "reason": "cronaca estera senza fonte primaria italiana letta per intero"
+    },
+    {
+      "topic": "NBA partite",
+      "reason": "nessuna gara questo weekend"
+    }
+  ],
+  "publication": {
+    "site_version": 432,
+    "state": "pending_deploy"
+  }
+}
