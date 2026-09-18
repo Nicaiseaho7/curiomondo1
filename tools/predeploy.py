@@ -264,6 +264,20 @@ for p in news:
             words=re.findall(r"\b[0-9A-Za-zÀ-ÖØ-öø-ÿ'’]+\b",' '.join(para.itertext()))
             if len(words)>60: errors.append(f'paragrafo v4 oltre 60 parole: {p.name} ({idx}: {len(words)})')
             if len(para.xpath('.//strong|.//b'))>2: errors.append(f'troppi grassetti nel paragrafo v4: {p.name} ({idx})')
+        body_plain=' '.join(body.itertext())
+        forbidden_body=(
+            'Fonti:', 'Fonte:', 'Fonte primaria:', 'Conferma:', 'Conferme:', 'Letture:',
+            'Europe/Rome', 'al momento della verifica', 'nei testi consultati',
+            'abbiamo verificato', 'restiamo sulle conferme', 'le fonti coincidono',
+            'le testate allineano', 'non pubblichiamo', 'non confondere',
+            'il valore aggiunto è', 'quello che è verificato', 'la notizia corretta è',
+            'fonti riportate in fondo',
+        )
+        lowered=body_plain.casefold().replace('’', "'")
+        for phrase in forbidden_body:
+            if phrase.casefold() in lowered:
+                errors.append(f'nota interna o elenco fonti nel corpo v4: {p.name} ({phrase})')
+                break
     figures=d.xpath('//main/figure[1]')
     if figures:
         refs += figures[0].xpath('.//img/@src')
