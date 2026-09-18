@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 418,
-    "site_version": 418
+    "current_site_version": 419,
+    "site_version": 419
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -21,7 +21,7 @@
   "daily_state": {
     "question_source": "Mille_e_piu_domande_per_pensare.pdf (fonte privata fornita dal proprietario; non pubblicare nel sito)",
     "question_source_rule": "choose every future daily question only from the 1125 numbered questions in this PDF and record its number",
-    "current_question_source_number": 1004,
+    "current_question_source_number": 1005,
     "used_question_source_numbers": [
       87,
       88,
@@ -30,9 +30,10 @@
       1001,
       1002,
       1003,
-      1004
+      1004,
+      1005
     ],
-    "last_question_date": "2026-09-17",
+    "last_question_date": "2026-09-18",
     "question_archive_path": "/domanda-del-giorno/",
     "question_library_root": "/biblioteca/vita-relazioni/",
     "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE",
@@ -41,12 +42,12 @@
     "private_source_required_fail_closed": true,
     "timezone": "Europe/Rome",
     "date_source": "current_datetime_in_Europe_Rome_never_UTC",
-    "last_question_slug": "quale-promessa-fatta-a-te-stesso-continui-a-rimandare-come-se-il-tempo-fosse-infinito",
+    "last_question_slug": "se-la-memoria-potesse-conservare-soltanto-dieci-giorni-della-tua-vita-quali-vorresti-salvare",
     "last_daily_guides": [
-      "come-rimuovere-virus-malware-pc-smartphone",
-      "come-collegare-stampante-wifi-pc-mac-smartphone"
+      "come-fare-screen-recording",
+      "come-condividere-schermo"
     ],
-    "last_daily_package_date": "2026-09-17"
+    "last_daily_package_date": "2026-09-18"
   },
   "homepage": {
     "hero_section_label": "In evidenza",
