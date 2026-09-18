@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 419,
-    "site_version": 419
+    "current_site_version": 424,
+    "site_version": 424
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -42,12 +42,13 @@
     "private_source_required_fail_closed": true,
     "timezone": "Europe/Rome",
     "date_source": "current_datetime_in_Europe_Rome_never_UTC",
-    "last_question_slug": "se-la-memoria-potesse-conservare-soltanto-dieci-giorni-della-tua-vita-quali-vorresti-salvare",
+    "last_question_slug": "cos-e-davvero-la-liberta",
     "last_daily_guides": [
       "come-fare-screen-recording",
       "come-condividere-schermo"
     ],
-    "last_daily_package_date": "2026-09-18"
+    "last_daily_package_date": "2026-09-18",
+    "current_question_owner_override": "Cos’è davvero la libertà?"
   },
   "homepage": {
     "hero_section_label": "In evidenza",
