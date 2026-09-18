@@ -1,0 +1,35 @@
+{
+  "run_at": "2026-09-18T07:50:00+02:00",
+  "scope": "Italia+Mondo",
+  "production_branch": "main",
+  "processed": [
+    {
+      "title": "Meloni a Oslo: la Norvegia resta il quarto fornitore di gas, sul tavolo Fen e l’industria",
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "sources": [
+        "https://www.governo.it/it/articolo/conferenza-stampa-con-il-primo-ministro-norvegese-st-re-lintroduzione-del-presidente-meloni",
+        "https://en.ilsole24ore.com/art/energy-defence-critical-raw-materials-meloni-strengthens-ties-with-norway-with-an-eye-on-the-arctic-AJ5v0OGB",
+        "https://tg24.sky.it/mondo/2026/09/17/meloni-norvegia-oggi",
+        "https://www.lastampa.it/politica/2026/09/18/news/meloni_caccia_italiani_contro_jet_russi_non_dobbiamo_rispondere-15741981/"
+      ],
+      "public_url": "https://curiomondo.it/notizie/meloni-oslo-norvegia-gas-fen-saipem-17-settembre-2026.html"
+    },
+    {
+      "title": "Hormuz, i pasdaran dicono di aver colpito la petroliera Trend: incendio e nave ferma",
+      "status": "CONFERMATA DA PIÙ FONTI",
+      "decision": "publish",
+      "sources": [
+        "https://www.thehindu.com/news/international/togo-flagged-tanker-stuck-in-strait-of-hormuz-iran-guards/article71478387.ece",
+        "https://www.repubblica.it/esteri/2026/09/18/diretta/guerra_iran_usa_israele_news_oggi-425591966/",
+        "https://www.aljazeera.net/news/2026/9/18/5187",
+        "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_18"
+      ],
+      "public_url": "https://curiomondo.it/notizie/hormuz-pasdaran-petroliera-trend-togo-17-settembre-2026.html"
+    }
+  ],
+  "publication": {
+    "site_version": 425,
+    "state": "pending_deploy"
+  }
+}

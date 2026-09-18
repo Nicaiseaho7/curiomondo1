@@ -1,7 +1,72 @@
 {
-  "version": 418,
+  "version": 425,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "hormuz-pasdaran-petroliera-trend-togo-17-settembre-2026-v425",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/hormuz-pasdaran-petroliera-trend-togo-17-settembre-2026-v425-480.webp",
+          "sha256": "b990e6fe730fe38e19e5d3abf235ae93a15d7c9b04f2eaf7bff44223017d69a2",
+          "bytes": 16158
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/hormuz-pasdaran-petroliera-trend-togo-17-settembre-2026-v425-800.webp",
+          "sha256": "cb21dc51bd88f7b177c97dacefbeea026b622b3f52edeb1a1bbf50688fe9f3dc",
+          "bytes": 44816
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/hormuz-pasdaran-petroliera-trend-togo-17-settembre-2026-v425-1200.webp",
+          "sha256": "2ac8b1773a799975fd377f33a4131a6db6991075e8318c72135acc67463e67ee",
+          "bytes": 96710
+        }
+      ],
+      "alt": "Scena editoriale del luogo generata con IA: petroliera intatta a distanza nello Stretto di Hormuz, senza incendio né persone; non è una fotografia documentaria dell’attacco.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": true,
+      "reenactedEvent": false,
+      "prompt": "Photorealistic distant oil tanker intact in the Strait of Hormuz, no fire, no crew, no attack reconstruction, no text.",
+      "article": "/notizie/hormuz-pasdaran-petroliera-trend-togo-17-settembre-2026.html"
+    },
+    {
+      "key": "meloni-oslo-norvegia-gas-fen-saipem-17-settembre-2026-v425",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/meloni-oslo-norvegia-gas-fen-saipem-17-settembre-2026-v425-480.webp",
+          "sha256": "0b52744ea7817b12e22de8e675ff0a2baea122ecdc7c99bd84d5668adccf7a4b",
+          "bytes": 15268
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/meloni-oslo-norvegia-gas-fen-saipem-17-settembre-2026-v425-800.webp",
+          "sha256": "6a6b0a4b4f4841696814b8eb1187e7bd7c328e0ff3890b5cce6d23f4b10b0420",
+          "bytes": 29344
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/meloni-oslo-norvegia-gas-fen-saipem-17-settembre-2026-v425-1200.webp",
+          "sha256": "110f5a96694ba5fee63b47515bbe572b344d605bd89422c446f6261ef8ff89b3",
+          "bytes": 51810
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: Giorgia Meloni riconoscibile all’aperto a Oslo con bandiere norvegesi; somiglianza sintetica, non una fotografia documentaria della visita.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Photorealistic editorial photograph of Giorgia Meloni in Oslo with Norwegian flags; ordinary contextual scene, no text or watermark.",
+      "article": "/notizie/meloni-oslo-norvegia-gas-fen-saipem-17-settembre-2026.html"
+    },
     {
       "key": "juventus-nec-5-0-europa-league-17-settembre-2026-v418",
       "aiGenerated": true,
