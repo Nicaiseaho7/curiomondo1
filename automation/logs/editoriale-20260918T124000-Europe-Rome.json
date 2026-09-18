@@ -1,0 +1,29 @@
+{
+  "run_at": "2026-09-18T12:40:00+02:00",
+  "scope": "Politica+Italia+Mondo",
+  "production_branch": "main",
+  "processed": [
+    {
+      "title": "Diesel Euro 5, Salvini: nel prossimo Cdm un decreto per rinviare lo stop al 2027",
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/salvini-rinvio-blocco-diesel-euro-5-2027-18-settembre-2026.html"
+    },
+    {
+      "title": "Sciopero Apple in Italia nel giorno dell’iPhone 18 Pro: 1.600 addetti, i negozi restano aperti",
+      "status": "CONFERMATA DA PIÙ FONTI",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/sciopero-apple-store-italia-iphone-18-pro-18-settembre-2026.html"
+    },
+    {
+      "title": "Corea del Sud, Lee: nessuna truppa nella guerra in Iran. Si valuta solo la scorta alle navi",
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/corea-sud-lee-niente-truppe-guerra-iran-18-settembre-2026.html"
+    }
+  ],
+  "publication": {
+    "site_version": 427,
+    "state": "pending_deploy"
+  }
+}

@@ -1,7 +1,105 @@
 {
-  "version": 426,
+  "version": 427,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "corea-sud-lee-niente-truppe-guerra-iran-18-settembre-2026-v427",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/corea-sud-lee-niente-truppe-guerra-iran-18-settembre-2026-v427-480.webp",
+          "sha256": "685ee33aafeb77af970cd882e2ba8a5e93732afa667cce77047e7c014d97aae2",
+          "bytes": 12006
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/corea-sud-lee-niente-truppe-guerra-iran-18-settembre-2026-v427-800.webp",
+          "sha256": "f2138ebe95ede256343f05c7540d426e47eddfe90eaac3c56e1d3392afb293a5",
+          "bytes": 22010
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/corea-sud-lee-niente-truppe-guerra-iran-18-settembre-2026-v427-1200.webp",
+          "sha256": "a51255e86aa2c9c42238126f403a00ea09edc833bb008133014297b299253e25",
+          "bytes": 36450
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: Lee Jae Myung riconoscibile a un podio con bandiere sudcoreane; somiglianza sintetica, non una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Photorealistic editorial photograph of Lee Jae Myung at a press-conference lectern, no text.",
+      "article": "/notizie/corea-sud-lee-niente-truppe-guerra-iran-18-settembre-2026.html"
+    },
+    {
+      "key": "sciopero-apple-store-italia-iphone-18-pro-18-settembre-2026-v427",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/sciopero-apple-store-italia-iphone-18-pro-18-settembre-2026-v427-480.webp",
+          "sha256": "f9e77135ec5b83de0a78fc995e30d42240020944d236141cd29f9d91e5ae0a7a",
+          "bytes": 29524
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/sciopero-apple-store-italia-iphone-18-pro-18-settembre-2026-v427-800.webp",
+          "sha256": "8c5c87b8d40f420a7c1ef02afd004a15b095aade5bf83d3689c55d15e1d89af8",
+          "bytes": 62812
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/sciopero-apple-store-italia-iphone-18-pro-18-settembre-2026-v427-1200.webp",
+          "sha256": "47151af4d605fd17ee215faa681fafa2d4d7dadeacb6ab0729a6cbec7f74a598",
+          "bytes": 110224
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: presidio di lavoratori davanti a un Apple Store in una piazza italiana; non è una fotografia documentaria dello sciopero.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Photorealistic picket outside an Apple Store on a European square, blank signs, no text in pixels.",
+      "article": "/notizie/sciopero-apple-store-italia-iphone-18-pro-18-settembre-2026.html"
+    },
+    {
+      "key": "salvini-rinvio-blocco-diesel-euro-5-2027-18-settembre-2026-v427",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/salvini-rinvio-blocco-diesel-euro-5-2027-18-settembre-2026-v427-480.webp",
+          "sha256": "838f5887c974d4fcdf1389aef8e15b24b5723cac25fbc44510fff1f578f512f0",
+          "bytes": 13594
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/salvini-rinvio-blocco-diesel-euro-5-2027-18-settembre-2026-v427-800.webp",
+          "sha256": "ec1dad27d9006786550920fd20656718070ffab2909b6102f0d54490855a3a8a",
+          "bytes": 27888
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/salvini-rinvio-blocco-diesel-euro-5-2027-18-settembre-2026-v427-1200.webp",
+          "sha256": "0269e6b83272f35af38e4ef667a663b1a82338bb568efc60e46566f042937ebe",
+          "bytes": 51870
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: Matteo Salvini riconoscibile all’aperto a Roma; somiglianza sintetica, non una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Photorealistic editorial photograph of Matteo Salvini in Rome, ordinary contextual political scene, no text.",
+      "article": "/notizie/salvini-rinvio-blocco-diesel-euro-5-2027-18-settembre-2026.html"
+    },
     {
       "key": "mar-cinese-cina-sperona-nave-bfar-palawan-18-settembre-2026-v426",
       "aiGenerated": true,
