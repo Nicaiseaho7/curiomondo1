@@ -114,9 +114,9 @@ MANCINI = {
         "I portieri sono quattro: Carnesecchi, Donnarumma, Pessina e Vicario. In difesa restano i punti fermi Bastoni, Calafiori, Di Lorenzo, Dimarco, Gianluca Mancini e Scalvini, con Ahanor e Coppola. Kayode e Kouadio arrivano alla prima chiamata. Ghilardi è la novità romanista.",
         "A centrocampo: Barella, Cristante, Doumbia, Fagioli, Frattesi, Mandragora, Romano, Tonali. In attacco: Cambiaghi, Pio Esposito, Sebastiano Esposito, Inacio, Kean, Maldini, Raspadori, Scamacca, Vergara, Zaniolo, Zoma. La lista è allargata proprio per il turnover: non è la formazione del 25.",
         "Mancini non ha indicato titolari. Repubblica segnala Diana Bianchedi come capo delegazione. La FIGC è la fonte primaria; Il Fatto e Il Mattino pubblicano lo stesso elenco di 34 nomi. Non confondere questa lista con vecchie convocazioni di Gattuso.",
-        "Il numero 34 serve a coprire Belgio, doppia Turchia e Francia senza svuotare i club. Chi cerca De Rossi trova un’altra notizia: oggi il tecnico del Genoa ha parlato in conferenza prima di Parma, non è in questa lista.",
+        "Il numero 34 serve a coprire Belgio, doppia Turchia e Francia senza svuotare i club tra una gara e l’altra. Non è una rosa da tenere ferma per tutte e quattro le partite.",
         "Kean è al Como, Donnarumma al Manchester City, Tonali al Tottenham, Calafiori all’Arsenal. I club esteri sono parte della lista, non un’eccezione. Chi non è scritto sopra non è convocato.",
-        "18 settembre 2026, ore 21.50 Europe/Rome. Lista ufficiale FIGC. Chanel Totti a Verissimo e Barbara D’Urso a Ballando restano gossip: niente articolo da quelle query.",
+        "L’elenco è quello comunicato dalla FIGC il 18 settembre. Il raduno è previsto domenica sera a Coverciano. Mancini non ha indicato i titolari per Italia-Belgio.",
     ],
     "fonti": [
         {
@@ -168,9 +168,9 @@ TICKET = {
         "Molte prime visite passano da 25 a 26 euro: neurologia, ginecologia, ortopedia, pneumologia, endocrinologia, gastroenterologia. La prima visita cardiologica con ECG va da 33,60 a 38 euro. Agoaspirato della mammella: da 31,25 a 36,50.",
         "Il rincaro della tariffa non è il ticket pagato dal paziente. In molte Regioni il tetto ordinario resta 36,15 euro a ricetta. Chi è esente non paga. Chi ha già prenotato prima del 21 settembre va verificato in Regione: le prestazioni fino al 20 restano sul vecchio nomenclatore.",
         "Il decreto rimborsa le strutture accreditate, non «alza il ticket» in blocco. Sky TG24, Corriere, Il Fatto e Quotidiano Sanità allineano i numeri. Manca, al momento della verifica, il PDF unico in evidenza su salute.gov.it: restiamo sulle conferme incrociate e sull’intesa del 23 luglio.",
-        "Non è il bonus trasporti 2027, ancora senza decreto attuativo (atteso entro marzo). Non è la TARI: quella è il decreto 147 già in vigore dal 12 agosto. Qui si parla solo di tariffe SSN.",
+        "Il provvedimento riguarda il rimborso delle strutture accreditate. Le esenzioni per reddito, patologia o invalidità restano quelle già previste dalle Regioni e non sono toccate da questo tariffario.",
         "Fonti: Quotidiano Sanità (intesa 23 luglio), Il Sole 24 Ore, Sky TG24 e Corriere del 18 settembre. 18 settembre 2026, ore 21.52 Europe/Rome.",
-        "Chi cerca «freddo di settembre»: il bollettino di Protezione civile di oggi indica «nessun fenomeno significativo» sulle temperature. Non pubblichiamo un’ondata di freddo che le mappe ufficiali non danno.",
+        "Le prestazioni erogate fino al 20 settembre restano sul nomenclatore precedente. Dal 21 settembre le strutture accreditate applicano le nuove tariffe. Le esenzioni già riconosciute restano valide e non vanno chieste di nuovo solo per il cambio di tariffario.",
     ],
     "fonti": [
         {

@@ -118,7 +118,7 @@ ARMENIA = {
         "Non confondere l’annuncio con un ufficio già aperto: la sede parte a ottobre. Né con un trattato di pace: la normalizzazione con Baku è «passata in rassegna», senza esito descritto. Resta un fatto politico, non un cessate-il-fuoco.",
         "Cirielli è vice ministro, non il titolare della Farnesina. Tajani, lo stesso 18 settembre, ha ricevuto a Roma il ministro del Commercio turco Ömer Bolat, con Hormuz e Mar Rosso sul tavolo. Sono due missioni distinte.",
         "Conferma: il comunicato MAECI in italiano e la scheda in inglese della stessa data. Nessuna cifra commerciale nel testo ufficiale. 18 settembre 2026, ore 19.50 Europe/Rome.",
-        "Restano fuori da questo pezzo le indiscrezioni su Barbara D’Urso a Ballando: niente annuncio Rai. La TARI, invece, è coperta a parte con il decreto 147 già in Gazzetta.",
+        "La sede AICS di Jerevan partirà dai primi di ottobre. Fino ad allora resta un annuncio congiunto dei due vice ministri, non un ufficio già operativo sul territorio armeno.",
     ],
     "fonti": [
         {
@@ -168,7 +168,7 @@ TARI = {
         "Per le utenze non domestiche che avviano rifiuti urbani a riciclo o recupero fuori dal servizio pubblico, la quota variabile si riduce in proporzione. La scelta tra servizio pubblico e mercato dura almeno due anni e va comunicata entro il 30 giugno, con effetto dal 1° gennaio successivo.",
         "Il decreto chiude la delega sul federalismo fiscale regionale. Non azzera la TARI e non fissa le tariffe comunali: quelle restano dei Comuni e di ARERA. Chi cerca l’importo 2026 deve aprire l’avviso del proprio Comune, non questo decreto.",
         "Fonti primarie: Normattiva e Gazzetta 185/2026. Letture: PMI.it, Il Sole 24 Ore del 12 agosto, Il Messaggero del 18 settembre. 18 settembre 2026, ore 19.52 Europe/Rome.",
-        "Barbara D’Urso a Ballando resta un’indiscrezione di gossip: niente comunicato Rai, quindi niente articolo. L’Armenia, con Cirielli e AICS, è coperta a parte.",
+        "Chi deve dichiarare un’occupazione o una variazione conta 90 giorni dalla data del fatto, non dal 30 giugno dell’anno successivo. Le tariffe 2026 restano quelle del proprio Comune.",
     ],
     "fonti": [
         {
