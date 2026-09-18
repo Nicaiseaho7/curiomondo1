@@ -1,6 +1,40 @@
 {
-  "version": 433,
+  "version": 434,
   "items": [
+    {
+      "title": "Perth, nuotatore morto in un attacco di squalo a Sorrento Beach",
+      "excerpt": "La polizia dell'Australia Occidentale conferma il decesso. Le spiagge a nord della città restano chiuse almeno fino a mezzogiorno di sabato. È il secondo attacco nello Stato in cinque giorni.",
+      "url": "/notizie/perth-sorrento-attacco-squalo-18-settembre-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-09-18T19:33:05+02:00",
+      "dateLabel": "2026-09-18",
+      "image": "/assets/images/editorial-auto/perth-sorrento-attacco-squalo-18-settembre-2026-v434-800.webp",
+      "imageAlt": "Illustrazione editoriale contestuale generata con IA: spiaggia vuota a nord di Perth, groyne di calcare e bandiera di chiusura, senza ricostruire l'attacco.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/perth-sorrento-attacco-squalo-18-settembre-2026-v434-480.webp 480w, /assets/images/editorial-auto/perth-sorrento-attacco-squalo-18-settembre-2026-v434-800.webp 800w, /assets/images/editorial-auto/perth-sorrento-attacco-squalo-18-settembre-2026-v434-1200.webp 1200w",
+      "featuredHighlights": [
+        "Perth",
+        "Sorrento Beach"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "10:15",
+          "label": "chiamata ai soccorsi, ora locale"
+        },
+        {
+          "icon": "▲",
+          "value": "12 km",
+          "label": "tratto di costa chiuso"
+        },
+        {
+          "icon": "●",
+          "value": "2°",
+          "label": "attacco in WA in cinque giorni"
+        }
+      ]
+    },
     {
       "title": "Music Awards stasera all’Arena: Conti, Incontrada e i big su Rai 1",
       "excerpt": "Ventesima edizione, diretta alle 21.30. Premi FIMI e SIAE, non una gara. Palco sold out con Mengoni, Emma, Annalisa, Geolier, Elisa e Pooh.",

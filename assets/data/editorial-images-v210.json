@@ -1,7 +1,34 @@
 {
-  "version": 433,
+  "version": 434,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Illustrazione editoriale contestuale generata con IA: spiaggia vuota a nord di Perth, groyne di calcare e bandiera di chiusura, senza ricostruire l'attacco.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/perth-sorrento-attacco-squalo-18-settembre-2026-v434-480.webp",
+          "sha256": "03db78be5e4e9f9dfbd3bb8274338abe9533f8b1bf65580c40ae8201b00798c3",
+          "bytes": 33516
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/perth-sorrento-attacco-squalo-18-settembre-2026-v434-800.webp",
+          "sha256": "5e8aeb948599934b8020cb4398b7c4ba2505b989bc131c006797bbe94add74ab",
+          "bytes": 99472
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/perth-sorrento-attacco-squalo-18-settembre-2026-v434-1200.webp",
+          "sha256": "869cfb983cb5b43266056386de1213314c11dc7a5a7609d940e6e502bee62c73",
+          "bytes": 210822
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "sensitiveContext": true,
+      "article": "/notizie/perth-sorrento-attacco-squalo-18-settembre-2026.html"
+    },
     {
       "key": "byd-music-awards-arena-verona-conti-incontrada-rai1-18-settembre-2026-v433",
       "aiGenerated": true,
