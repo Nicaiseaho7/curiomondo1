@@ -1,0 +1,42 @@
+{
+  "run_at": "2026-09-18T19:05:00+02:00",
+  "skill": "ultime-notizie-scoop",
+  "desks": [
+    "personaggi-famosi"
+  ],
+  "processed": [
+    {
+      "title": "Music Awards stasera all’Arena: Conti, Incontrada e i big su Rai 1",
+      "status": "CONFERMATA DA PIÙ FONTI",
+      "decision": "publish",
+      "primary_source": "https://tg24.sky.it/spettacolo/musica/2026/09/18/byd-music-awards-2026",
+      "public_url": "https://curiomondo.it/notizie/byd-music-awards-arena-verona-conti-incontrada-rai1-18-settembre-2026.html"
+    }
+  ],
+  "discarded": [
+    {
+      "topic": "Sinner-Ferrero",
+      "reason": "indiscrezione su allenatore, rientro non confermato dallo staff"
+    },
+    {
+      "topic": "Mattarella Maschere teatro",
+      "reason": "in agenda Quirinale 17.30, manca resoconto post-udienza"
+    },
+    {
+      "topic": "Matano giuria Ballando",
+      "reason": "annuncio tv, impatto sotto soglia rispetto ai Music Awards"
+    },
+    {
+      "topic": "Resident Evil Cregger",
+      "reason": "uscita italiana 17 settembre, già in sala"
+    },
+    {
+      "topic": "Malika Ayane album",
+      "reason": "intervista, non breaking"
+    }
+  ],
+  "publication": {
+    "site_version": 433,
+    "state": "pending_deploy"
+  }
+}

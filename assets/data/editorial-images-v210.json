@@ -1,7 +1,40 @@
 {
-  "version": 432,
+  "version": 433,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "byd-music-awards-arena-verona-conti-incontrada-rai1-18-settembre-2026-v433",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "syntheticLikeness": "public-figure",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/byd-music-awards-arena-verona-conti-incontrada-rai1-18-settembre-2026-v433-480.webp",
+          "sha256": "43765084bc4044eebb08bcc7bc08a82c244e5a5c041702a56436ff5845ed1138",
+          "bytes": 11944
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/byd-music-awards-arena-verona-conti-incontrada-rai1-18-settembre-2026-v433-800.webp",
+          "sha256": "6ec35644dc48be6ff94fa71fb74838f7f05aa5b62e90acc2a428bc91962bbd57",
+          "bytes": 23962
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/byd-music-awards-arena-verona-conti-incontrada-rai1-18-settembre-2026-v433-1200.webp",
+          "sha256": "37f78dc3aaf0c80b02d4bf163a182152b2181e724ead8c6cd7e1af95ccd748a5",
+          "bytes": 47540
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: Carlo Conti riconoscibile, occhiali e abito scuro, palco notturno ispirato all’Arena di Verona; somiglianza sintetica, non è una fotografia documentaria della serata.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Ultra-photorealistic Carlo Conti with glasses, Arena di Verona stage lights, no text.",
+      "article": "/notizie/byd-music-awards-arena-verona-conti-incontrada-rai1-18-settembre-2026.html"
+    },
     {
       "key": "tajani-bolat-turchia-farnesina-hormuz-commercio-18-settembre-2026-v432",
       "aiGenerated": true,
