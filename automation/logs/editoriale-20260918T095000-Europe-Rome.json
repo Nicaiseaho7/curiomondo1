@@ -1,0 +1,35 @@
+{
+  "run_at": "2026-09-18T09:50:00+02:00",
+  "scope": "Italia+Mondo",
+  "production_branch": "main",
+  "processed": [
+    {
+      "title": "Schlein propone a Meloni 14 miliardi per clima ed energia. Conte: non ci sono le condizioni",
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "sources": [
+        "https://www.open.online/2026/09/17/elly-schlein-lettera-giorgia-meloni-miliardi-energia/",
+        "https://www.repubblica.it/politica/2026/09/17/news/meloni_risponde_lettera_schlein_non_ho_pregiudizi-425591428/",
+        "https://www.ansa.it/sito/notizie/politica/2026/09/17/conte-schlein-non-ci-sono-le-condizioni-per-lavorare-insieme-a-meloni_fe0983cc-c330-46e9-9549-d58a6e069aa5.html",
+        "https://www.adnkronos.com/politica/schlein-lettera-meloni-conte-governo_5TavQ6kWfmHTy1lzUZC3vG"
+      ],
+      "public_url": "https://curiomondo.it/notizie/schlein-lettera-meloni-14-miliardi-energia-conte-17-settembre-2026.html"
+    },
+    {
+      "title": "Mar Cinese, Manila: una nave della Guardia costiera cinese sperona un’unità della BFAR",
+      "status": "CONFERMATA DA PIÙ FONTI",
+      "decision": "publish",
+      "sources": [
+        "https://www.reuters.com/world/china/china-vessel-rams-damages-philippine-fishing-boat-coast-guard-says-2026-09-18/",
+        "https://www.bloomberg.com/news/articles/2026-09-18/philippines-says-china-coast-guard-rammed-its-fisheries-boat",
+        "https://www.manilatimes.net/2026/09/18/news/chinese-ship-rams-philippine-vessel-in-south-china-sea/2428073",
+        "https://www.gmanetwork.com/news/topstories/nation/1002818/chinese-vessel-rams-ph-ship-on-fuel-subsidy-mission-near-palawan/story/"
+      ],
+      "public_url": "https://curiomondo.it/notizie/mar-cinese-cina-sperona-nave-bfar-palawan-18-settembre-2026.html"
+    }
+  ],
+  "publication": {
+    "site_version": 426,
+    "state": "pending_deploy"
+  }
+}

@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 425,
-    "site_version": 425
+    "current_site_version": 426,
+    "site_version": 426
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -243,19 +243,19 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 425,
-  "version": "v425",
-  "release_version": "v425",
+  "site_version": 426,
+  "version": "v426",
+  "release_version": "v426",
   "last_release": {
-    "version": 425,
+    "version": 426,
     "date": "2026-09-18",
     "type": "content-release",
     "news_added": [
-      "meloni-oslo-norvegia-gas-fen-saipem-17-settembre-2026",
-      "hormuz-pasdaran-petroliera-trend-togo-17-settembre-2026"
+      "schlein-lettera-meloni-14-miliardi-energia-conte-17-settembre-2026",
+      "mar-cinese-cina-sperona-nave-bfar-palawan-18-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Pubblicate la visita di Meloni a Oslo e la rivendicazione iraniana sulla petroliera Trend a Hormuz",
+    "change": "Pubblicate la lettera Schlein-Meloni sui 14 miliardi e lo speronamento nel Mar Cinese",
     "image_policy_applied": "new-openai-contextual-editorial-images"
   }
 }
