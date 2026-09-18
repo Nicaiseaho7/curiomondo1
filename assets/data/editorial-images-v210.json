@@ -1,7 +1,40 @@
 {
-  "version": 429,
+  "version": 430,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "meloni-beretta-500-anni-gardone-val-trompia-18-settembre-2026-v430",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/meloni-beretta-500-anni-gardone-val-trompia-18-settembre-2026-v430-480.webp",
+          "sha256": "adbd16fa5954cb47e76e3f4d4d3069744eb15a30c739dee7e40555288b54bb3e",
+          "bytes": 13852
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/meloni-beretta-500-anni-gardone-val-trompia-18-settembre-2026-v430-800.webp",
+          "sha256": "60bba9b6675f86e16f277e581f81ab4adb88af88fd2d914d94a3e668e424e97c",
+          "bytes": 27710
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/meloni-beretta-500-anni-gardone-val-trompia-18-settembre-2026-v430-1200.webp",
+          "sha256": "3aedecab7a3dbbf5e295b6d842864f54bb68834d103273b0ffe2276d418d96e3",
+          "bytes": 51150
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: Giorgia Meloni riconoscibile all’aperto; somiglianza sintetica, non una fotografia documentaria della visita a Gardone.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Photorealistic editorial photograph of Giorgia Meloni outdoors with Italian flags, ordinary contextual portrait, no text.",
+      "article": "/notizie/meloni-beretta-500-anni-gardone-val-trompia-18-settembre-2026.html"
+    },
     {
       "key": "istat-produzione-costruzioni-luglio-calo-14-18-settembre-2026-v429",
       "aiGenerated": true,

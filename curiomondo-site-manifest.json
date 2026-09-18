@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 429,
-    "site_version": 429
+    "current_site_version": 430,
+    "site_version": 430
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -243,18 +243,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 429,
-  "version": "v429",
-  "release_version": "v429",
+  "site_version": 430,
+  "version": "v430",
+  "release_version": "v430",
   "last_release": {
-    "version": 429,
+    "version": 430,
     "date": "2026-09-18",
     "type": "content-release",
     "news_added": [
-      "istat-produzione-costruzioni-luglio-calo-14-18-settembre-2026"
+      "meloni-beretta-500-anni-gardone-val-trompia-18-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Pubblicato il dato Istat sulla produzione nelle costruzioni di luglio",
+    "change": "Pubblicata la visita di Meloni a Gardone per i 500 anni Beretta",
     "image_policy_applied": "new-openai-contextual-editorial-images"
   }
 }

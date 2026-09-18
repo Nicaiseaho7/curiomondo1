@@ -1,0 +1,47 @@
+{
+  "run_at": "2026-09-18T17:50:00+02:00",
+  "skill": "ultime-notizie-scoop",
+  "desks": [
+    "sport",
+    "cinema-serie",
+    "politica",
+    "cronaca"
+  ],
+  "processed": [
+    {
+      "title": "Meloni a Gardone per i 500 anni della Beretta. Poi le Frecce Tricolori",
+      "status": "UFFICIALE",
+      "decision": "publish",
+      "primary_source": "https://www.governo.it/it/agenda/2026-09-18t000000/celebrazioni-il-500-anniversario-della-fabbrica-beretta/32613",
+      "primary_time": "2026-09-18T13:11:00+02:00",
+      "arrival_confirmed": "2026-09-18T15:16:00+02:00",
+      "public_url": "https://curiomondo.it/notizie/meloni-beretta-500-anni-gardone-val-trompia-18-settembre-2026.html"
+    }
+  ],
+  "discarded": [
+    {
+      "topic": "Monza-Sassuolo / Serie A",
+      "reason": "partita alle 20:45, nessun risultato ufficiale"
+    },
+    {
+      "topic": "Coppa Davis qualificazioni",
+      "reason": "tie in corso, Italia già qualificata, parziali non chiudono la notizia"
+    },
+    {
+      "topic": "Netflix Best of the Best",
+      "reason": "uscita catalogo ufficiale ma impatto basso per il lettore italiano rispetto al protocollo 8/10"
+    },
+    {
+      "topic": "Tajani Forum Acqua",
+      "reason": "conferenza 16:00 in agenda, manca il comunicato post-evento con dichiarazioni verificabili"
+    },
+    {
+      "topic": "cronaca questure",
+      "reason": "nessun comunicato di polizia/carabinieri di oggi con fatto verificato e senza dati di vittime"
+    }
+  ],
+  "publication": {
+    "site_version": 430,
+    "state": "pending_deploy"
+  }
+}
