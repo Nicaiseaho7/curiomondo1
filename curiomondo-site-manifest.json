@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 444,
-    "site_version": 444
+    "current_site_version": 445,
+    "site_version": 445
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -244,20 +244,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 444,
-  "version": "v444",
-  "release_version": "v444",
+  "site_version": 445,
+  "version": "v445",
+  "release_version": "v445",
   "last_release": {
-    "version": 444,
+    "version": 445,
     "date": "2026-09-19",
     "type": "content-release",
     "news_added": [
-      "juventus-atalanta-guida-orario-tv-20-settembre-2026",
-      "milan-lecce-guida-orario-tv-san-siro-20-settembre-2026",
-      "riforma-legge-elettorale-42-percento-camera-19-settembre-2026"
+      "centrodestra-supermedia-40-7-sotto-41-percento-19-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Guide Juventus-Atalanta e Milan-Lecce, riforma elettorale",
+    "change": "Supermedia: centrodestra al 40,7%",
     "image_policy_applied": "new-openai-contextual-editorial-images"
   }
 }
