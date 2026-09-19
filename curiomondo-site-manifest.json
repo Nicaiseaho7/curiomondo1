@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 443,
-    "site_version": 443
+    "current_site_version": 444,
+    "site_version": 444
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -244,20 +244,20 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 443,
-  "version": "v443",
-  "release_version": "v443",
+  "site_version": 444,
+  "version": "v444",
+  "release_version": "v444",
   "last_release": {
-    "version": 443,
+    "version": 444,
     "date": "2026-09-19",
     "type": "content-release",
     "news_added": [
-      "juventus-roma-finale-serie-a-womens-cup-19-settembre-2026",
-      "villa-medici-film-festival-programma-19-settembre-2026",
-      "batman-day-2026-italia-two-worlds-19-settembre-2026"
+      "juventus-atalanta-guida-orario-tv-20-settembre-2026",
+      "milan-lecce-guida-orario-tv-san-siro-20-settembre-2026",
+      "riforma-legge-elettorale-42-percento-camera-19-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Calcio femminile, Villa Medici e Batman Day",
+    "change": "Guide Juventus-Atalanta e Milan-Lecce, riforma elettorale",
     "image_policy_applied": "new-openai-contextual-editorial-images"
   }
 }

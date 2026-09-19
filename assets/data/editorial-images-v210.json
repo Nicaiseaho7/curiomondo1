@@ -3,6 +3,102 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "riforma-legge-elettorale-42-percento-camera-19-settembre-2026-v444",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/riforma-legge-elettorale-42-percento-camera-19-settembre-2026-v444-480.webp",
+          "sha256": "8077c74587498617f3f147505cccce959cc858bea8c405ae9a50ab5b03f9886c",
+          "bytes": 30000
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/riforma-legge-elettorale-42-percento-camera-19-settembre-2026-v444-800.webp",
+          "sha256": "3a5b183d9826a97fb4b58864b7bd892a31fcb1b8b3a77b4e56bcf7b76df6adbc",
+          "bytes": 57170
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/riforma-legge-elettorale-42-percento-camera-19-settembre-2026-v444-1200.webp",
+          "sha256": "e84c64f2987d7f0b847d0139ab222ded5a561d04fb18bdb9a240c23a116281aa",
+          "bytes": 93864
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: documenti parlamentari nell’aula italiana durante l’iter della legge elettorale; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Iter della riforma elettorale nel Parlamento italiano, fotografia editoriale istituzionale senza testo.",
+      "article": "/notizie/riforma-legge-elettorale-42-percento-camera-19-settembre-2026.html"
+    },
+    {
+      "key": "milan-lecce-guida-orario-tv-san-siro-20-settembre-2026-v444",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/milan-lecce-guida-orario-tv-san-siro-20-settembre-2026-v444-480.webp",
+          "sha256": "28da9bdcb45e7e45eb09e6cbcfeb70d3bf60514050a0f51be488b86e8d1af2d8",
+          "bytes": 38776
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/milan-lecce-guida-orario-tv-san-siro-20-settembre-2026-v444-800.webp",
+          "sha256": "183055739691347f33fb07775ca8013a65ad02a1ccce0cb775a09ecac1761810",
+          "bytes": 89568
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/milan-lecce-guida-orario-tv-san-siro-20-settembre-2026-v444-1200.webp",
+          "sha256": "ce8888a297a41be4003ce3270a0310a8ccc1fc51ac9c942a94b2ec358bf0e4e2",
+          "bytes": 156780
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: calciatori in rossonero e giallorosso si preparano a Milan-Lecce; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Milan-Lecce, preparazione al posticipo a San Siro, fotografia editoriale senza testo.",
+      "article": "/notizie/milan-lecce-guida-orario-tv-san-siro-20-settembre-2026.html"
+    },
+    {
+      "key": "juventus-atalanta-guida-orario-tv-20-settembre-2026-v444",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/juventus-atalanta-guida-orario-tv-20-settembre-2026-v444-480.webp",
+          "sha256": "6d6771ac28f01e0e0fb5346810932a94bb44130a0e45fd73b182d975eceec601",
+          "bytes": 41902
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/juventus-atalanta-guida-orario-tv-20-settembre-2026-v444-800.webp",
+          "sha256": "b90aca561288b1e42b49941127e444ac31a143a024ab3f7fbc44fc01d9874793",
+          "bytes": 99358
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/juventus-atalanta-guida-orario-tv-20-settembre-2026-v444-1200.webp",
+          "sha256": "bf684e2c8fd8a8e8366ce17a3626686c630399b0c7c1d80be648637e8751ad32",
+          "bytes": 174294
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: calciatori in bianconero e nerazzurro si preparano a Juventus-Atalanta; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Juventus-Atalanta, riscaldamento prepartita a Torino, fotografia editoriale senza testo.",
+      "article": "/notizie/juventus-atalanta-guida-orario-tv-20-settembre-2026.html"
+    },
+    {
       "key": "batman-day-2026-italia-two-worlds-19-settembre-2026-v443",
       "aiGenerated": true,
       "documentaryPhoto": false,
