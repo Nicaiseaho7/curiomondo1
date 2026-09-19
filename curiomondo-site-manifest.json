@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 446,
-    "site_version": 446
+    "current_site_version": 447,
+    "site_version": 447
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -244,19 +244,19 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 446,
-  "version": "v446",
-  "release_version": "v446",
+  "site_version": 447,
+  "version": "v447",
+  "release_version": "v447",
   "last_release": {
-    "version": 446,
+    "version": 447,
     "date": "2026-09-19",
     "type": "content-release",
     "news_added": [
-      "bonus-ristrutturazioni-2027-aliquote-36-30-cosa-cambia-19-settembre-2026",
-      "bonus-trasporti-puglia-studenti-2026-2027-domanda-requisiti"
+      "tottenham-aston-villa-2-3-prima-vittoria-emery-19-settembre-2026",
+      "resident-evil-film-2026-cinema-zach-cregger-austin-abrams-19-settembre"
     ],
     "news_updated": [],
-    "change": "Bonus ristrutturazioni 2027 e bonus trasporti Puglia",
-    "image_policy_applied": "new-openai-contextual-editorial-images"
+    "change": "Tottenham-Aston Villa e Resident Evil di Zach Cregger",
+    "image_policy_applied": "new-openai-public-figure-editorial-images"
   }
 }

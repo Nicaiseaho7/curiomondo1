@@ -1,7 +1,73 @@
 {
-  "version": 446,
+  "version": 447,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "resident-evil-film-2026-cinema-zach-cregger-austin-abrams-19-settembre-v447",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/resident-evil-film-2026-cinema-zach-cregger-austin-abrams-19-settembre-v447-480.webp",
+          "sha256": "75368c1f13ed5843565791346aecd769e9db8564f6a50f26a937c22410133ed9",
+          "bytes": 21266
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/resident-evil-film-2026-cinema-zach-cregger-austin-abrams-19-settembre-v447-800.webp",
+          "sha256": "c78892118c048bfe0d9fd992f60e73488e798469f8f0902465d3378ea0736e22",
+          "bytes": 40430
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/resident-evil-film-2026-cinema-zach-cregger-austin-abrams-19-settembre-v447-1200.webp",
+          "sha256": "147663fa377e2ecbfee21797385af99b4d303921857a791c402cd79b27cf2439",
+          "bytes": 68888
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA: Zach Cregger in una sala di proiezione cinematografica; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Photorealistic editorial portrait of Zach Cregger in a cinema projection room, moody non-graphic horror atmosphere, no text or watermark.",
+      "article": "/notizie/resident-evil-film-2026-cinema-zach-cregger-austin-abrams-19-settembre.html"
+    },
+    {
+      "key": "tottenham-aston-villa-2-3-prima-vittoria-emery-19-settembre-2026-v447",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/tottenham-aston-villa-2-3-prima-vittoria-emery-19-settembre-2026-v447-480.webp",
+          "sha256": "8155ccb014d180dc689bf837d42c1e22e4511488ae9b2549f5b75409eb699931",
+          "bytes": 21336
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/tottenham-aston-villa-2-3-prima-vittoria-emery-19-settembre-2026-v447-800.webp",
+          "sha256": "bafbee9a79f837ac8ab2253e674ef1437607042e6353d3c68a3b74697998d1d8",
+          "bytes": 40034
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/tottenham-aston-villa-2-3-prima-vittoria-emery-19-settembre-2026-v447-1200.webp",
+          "sha256": "c25a198005c8e09088efd7f1f1064ed92305f56c59e62c57aae291f72d3cb579",
+          "bytes": 65622
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA: Unai Emery a bordo campo dopo Tottenham-Aston Villa; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Photorealistic editorial depiction of Unai Emery on a London stadium touchline after an Aston Villa match, no logos, text or watermark.",
+      "article": "/notizie/tottenham-aston-villa-2-3-prima-vittoria-emery-19-settembre-2026.html"
+    },
     {
       "key": "bonus-trasporti-puglia-studenti-2026-2027-domanda-requisiti-v446",
       "aiGenerated": true,
