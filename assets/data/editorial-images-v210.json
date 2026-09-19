@@ -1,7 +1,73 @@
 {
-  "version": 447,
+  "version": 448,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "giochi-asiatici-aichi-nagoya-prime-medaglie-20-settembre-2026-v448",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/giochi-asiatici-aichi-nagoya-prime-medaglie-20-settembre-2026-v448-480.webp",
+          "sha256": "9dc1b873dae71d97ba613ed6c1e7dbb25a0cc845097ad03f2abf1f616a1b2449",
+          "bytes": 46580
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/giochi-asiatici-aichi-nagoya-prime-medaglie-20-settembre-2026-v448-800.webp",
+          "sha256": "48175eb22f5783b3a7508dea5517ca1df2b31833001c6b598a6d67b04b29258d",
+          "bytes": 97776
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/giochi-asiatici-aichi-nagoya-prime-medaglie-20-settembre-2026-v448-1200.webp",
+          "sha256": "d1f119b1c956d6d941a273ae4869f2805855e64ca2279310e64df88ed2aafc2c",
+          "bytes": 174614
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: triatleti asiatici in bicicletta a Nagoya durante una gara multisportiva; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": null,
+      "prompt": "Asian triathletes cycling in Nagoya at sunrise for a multisport event, photorealistic, no text or logos.",
+      "article": "/notizie/giochi-asiatici-aichi-nagoya-prime-medaglie-20-settembre-2026.html"
+    },
+    {
+      "key": "cina-zona-volo-vietato-pechino-in-vigore-20-settembre-2026-v448",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/cina-zona-volo-vietato-pechino-in-vigore-20-settembre-2026-v448-480.webp",
+          "sha256": "727f38c1eedce56572ec71742dcadf82cbdda8f828abaf394801f26520182e8c",
+          "bytes": 18780
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/cina-zona-volo-vietato-pechino-in-vigore-20-settembre-2026-v448-800.webp",
+          "sha256": "3a230b85f85c9b92a6793270677417cc71473d802fcc839b19cc021ac76a568a",
+          "bytes": 42838
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/cina-zona-volo-vietato-pechino-in-vigore-20-settembre-2026-v448-1200.webp",
+          "sha256": "f031247b9dbe7a4318e2f79b80ef346be625f883a380e25a716683c67adc83c4",
+          "bytes": 82120
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: spazio aereo controllato sopra Pechino con un volo commerciale autorizzato; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": null,
+      "prompt": "Beijing skyline and controlled airspace with authorized commercial flight and grounded light aircraft, photorealistic, no text.",
+      "article": "/notizie/cina-zona-volo-vietato-pechino-in-vigore-20-settembre-2026.html"
+    },
     {
       "key": "resident-evil-film-2026-cinema-zach-cregger-austin-abrams-19-settembre-v447",
       "aiGenerated": true,
