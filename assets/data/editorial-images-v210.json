@@ -1,7 +1,103 @@
 {
-  "version": 442,
+  "version": 443,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "batman-day-2026-italia-two-worlds-19-settembre-2026-v443",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/batman-day-2026-italia-two-worlds-19-settembre-2026-v443-480.webp",
+          "sha256": "2e6efd1685b41952a5e8aa161d038773078196f071f8cb9837cf997f86b2c22d",
+          "bytes": 41694
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/batman-day-2026-italia-two-worlds-19-settembre-2026-v443-800.webp",
+          "sha256": "a0066a893f5db503a1d5830d7289408210824ff77f79f358bc098d472018cbf4",
+          "bytes": 87242
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/batman-day-2026-italia-two-worlds-19-settembre-2026-v443-1200.webp",
+          "sha256": "a64e4213012f2d7ad182ea04f37657b6d5d4260d9b865069d1c6ec3995a2efde",
+          "bytes": 147692
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: fumetteria con simbolo luminoso a forma di pipistrello per il Batman Day; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Fumetteria italiana con proiezione luminosa a forma di pipistrello per una celebrazione dei fumetti, fotografia editoriale, senza testo.",
+      "article": "/notizie/batman-day-2026-italia-two-worlds-19-settembre-2026.html"
+    },
+    {
+      "key": "villa-medici-film-festival-programma-19-settembre-2026-v443",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/villa-medici-film-festival-programma-19-settembre-2026-v443-480.webp",
+          "sha256": "ab37ea95fde96cbe29247a657116be387043702c820f353c727da1e7dbb3fb6f",
+          "bytes": 36940
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/villa-medici-film-festival-programma-19-settembre-2026-v443-800.webp",
+          "sha256": "a8d3a5b3e6814391eca36791910da44959b39f3c866a6be6bd90dbf356b3d058",
+          "bytes": 92514
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/villa-medici-film-festival-programma-19-settembre-2026-v443-1200.webp",
+          "sha256": "46ebf32c7acdf1a53b9918c48799d5858c56e94cedd6be18f6876303e563757e",
+          "bytes": 173974
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: proiezione cinematografica nei giardini di Villa Medici a Roma; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Festival cinematografico contemporaneo nei giardini di Villa Medici al tramonto, fotografia editoriale, senza testo.",
+      "article": "/notizie/villa-medici-film-festival-programma-19-settembre-2026.html"
+    },
+    {
+      "key": "juventus-roma-finale-serie-a-womens-cup-19-settembre-2026-v443",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/juventus-roma-finale-serie-a-womens-cup-19-settembre-2026-v443-480.webp",
+          "sha256": "89b3a0885bd77916dc44c2472f6d5b92ef183e07796ca2658e3a081e433a7e18",
+          "bytes": 35626
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/juventus-roma-finale-serie-a-womens-cup-19-settembre-2026-v443-800.webp",
+          "sha256": "14b01937c2e76c6c9a9d3308b0f625586686061e58a7bd3b73760bf547f251df",
+          "bytes": 74630
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/juventus-roma-finale-serie-a-womens-cup-19-settembre-2026-v443-1200.webp",
+          "sha256": "5c1384122d2b7d29c2734bc95831b471b5243c6ece0946f5a525adbe06d64ee0",
+          "bytes": 128174
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: due squadre di calcio femminile in bianconero e rosso si preparano alla finale; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Finale italiana di calcio femminile, squadre in bianconero e rosso prima del calcio d’inizio, fotografia editoriale, senza testo.",
+      "article": "/notizie/juventus-roma-finale-serie-a-womens-cup-19-settembre-2026.html"
+    },
     {
       "key": "luke-lindberg-nuovo-direttore-programma-alimentare-mondiale-19-settembre-2026-v442",
       "aiGenerated": true,

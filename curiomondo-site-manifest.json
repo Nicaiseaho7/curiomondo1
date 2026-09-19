@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 442,
-    "site_version": 442
+    "current_site_version": 443,
+    "site_version": 443
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -244,19 +244,20 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 442,
-  "version": "v442",
-  "release_version": "v442",
+  "site_version": 443,
+  "version": "v443",
+  "release_version": "v443",
   "last_release": {
-    "version": 442,
+    "version": 443,
     "date": "2026-09-19",
     "type": "content-release",
     "news_added": [
-      "nuovo-codice-doganale-ue-autorita-data-hub-19-settembre-2026",
-      "luke-lindberg-nuovo-direttore-programma-alimentare-mondiale-19-settembre-2026"
+      "juventus-roma-finale-serie-a-womens-cup-19-settembre-2026",
+      "villa-medici-film-festival-programma-19-settembre-2026",
+      "batman-day-2026-italia-two-worlds-19-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Nuovo Codice doganale UE e nomina Luke Lindberg al WFP",
+    "change": "Calcio femminile, Villa Medici e Batman Day",
     "image_policy_applied": "new-openai-contextual-editorial-images"
   }
 }

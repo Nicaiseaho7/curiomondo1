@@ -1,7 +1,7 @@
 {
-  "site_version": 442,
-  "articleCount": 429,
-  "generatedEditorialImages": 255,
+  "site_version": 443,
+  "articleCount": 432,
+  "generatedEditorialImages": 258,
   "baseline_version": 342,
   "release_date": "2026-09-19",
   "protocol_files": [
@@ -14,12 +14,12 @@
     "curiomondo-site-manifest.json"
   ],
   "last_daily_question_date": "2026-09-19",
-  "version": "442",
+  "version": "443",
   "date": "2026-09-19",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "news-v442",
+  "last_update": "news-v443",
   "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
-  "currentVersion": 442,
+  "currentVersion": 443,
   "baselineVersion": 342,
   "designRestored": "Intestazione globale unificata su tutte le pagine interne; palette blu Facebook e fascia LIVE rossa piena confermate.",
   "status": "ready"
