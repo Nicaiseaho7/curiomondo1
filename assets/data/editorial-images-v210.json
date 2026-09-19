@@ -1,7 +1,72 @@
 {
-  "version": 440,
+  "version": 442,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "luke-lindberg-nuovo-direttore-programma-alimentare-mondiale-19-settembre-2026-v442",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "syntheticLikeness": "public-figure",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/luke-lindberg-nuovo-direttore-programma-alimentare-mondiale-19-settembre-2026-v442-480.webp",
+          "sha256": "d6a1afae85ef786614ea259a22db1b77cbda2458456f6466c3a06dcece45ded7",
+          "bytes": 18210
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/luke-lindberg-nuovo-direttore-programma-alimentare-mondiale-19-settembre-2026-v442-800.webp",
+          "sha256": "be93f82856b8a686783509e7688dfa746c76dc762bb34fc74d15e74a7e222d47",
+          "bytes": 35936
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/luke-lindberg-nuovo-direttore-programma-alimentare-mondiale-19-settembre-2026-v442-1200.webp",
+          "sha256": "61ca33db312b46447914645904c401b25962808312cc0ee56c7ac277ef794d2c",
+          "bytes": 66380
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: Luke Lindberg riconoscibile in un centro logistico umanitario, con bandiera ONU sfocata; somiglianza sintetica, non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Ordinary contextual editorial portrait of Luke Lindberg in a humanitarian logistics warehouse, UN-blue atmosphere, no ceremony, no text or watermark.",
+      "article": "/notizie/luke-lindberg-nuovo-direttore-programma-alimentare-mondiale-19-settembre-2026.html"
+    },
+    {
+      "key": "nuovo-codice-doganale-ue-autorita-data-hub-19-settembre-2026-v442",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/nuovo-codice-doganale-ue-autorita-data-hub-19-settembre-2026-v442-480.webp",
+          "sha256": "df7a9f0954f900223552fd153a8f8311432a67a98ec64195a170ccac3eddabde",
+          "bytes": 30338
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/nuovo-codice-doganale-ue-autorita-data-hub-19-settembre-2026-v442-800.webp",
+          "sha256": "8c2fbfdaf9c9e9950966c49c0a4ed138e70738224abc43416eafca0dcb4e88f2",
+          "bytes": 66020
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/nuovo-codice-doganale-ue-autorita-data-hub-19-settembre-2026-v442-1200.webp",
+          "sha256": "6e6f0d572709e95b5ffdefb18e37ff76c24848c78087016dc365be2a2983ec0f",
+          "bytes": 117172
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: terminal merci europeo con varco doganale, camion, container e bandiera UE; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Photorealistic European cargo terminal and customs checkpoint at blue hour, freight trucks, containers, EU flag, no text or watermark.",
+      "article": "/notizie/nuovo-codice-doganale-ue-autorita-data-hub-19-settembre-2026.html"
+    },
     {
       "key": "usa-camera-sanzioni-russia-dazi-100-percento-16-settembre-2026-v440",
       "aiGenerated": true,

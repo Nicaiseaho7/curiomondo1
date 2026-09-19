@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 441,
-    "site_version": 441
+    "current_site_version": 442,
+    "site_version": 442
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -244,21 +244,19 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 440,
-  "version": "v440",
-  "release_version": "v440",
+  "site_version": 442,
+  "version": "v442",
+  "release_version": "v442",
   "last_release": {
-    "version": 440,
+    "version": 442,
     "date": "2026-09-19",
-    "type": "image-release",
-    "news_added": [],
-    "news_updated": [
-      "monza-sassuolo-2-1-varela-juric-prima-vittoria-18-settembre-2026",
-      "cirielli-comitato-congiunto-260-milioni-cooperazione-18-settembre-2026",
-      "convocati-italia-mancini-nations-league-34-nomi-18-settembre-2026",
-      "usa-camera-sanzioni-russia-dazi-100-percento-16-settembre-2026"
+    "type": "content-release",
+    "news_added": [
+      "nuovo-codice-doganale-ue-autorita-data-hub-19-settembre-2026",
+      "luke-lindberg-nuovo-direttore-programma-alimentare-mondiale-19-settembre-2026"
     ],
-    "change": "Ritratti editoriali a profondità 3D sobria, senza mani tese né cornici",
+    "news_updated": [],
+    "change": "Nuovo Codice doganale UE e nomina Luke Lindberg al WFP",
     "image_policy_applied": "new-openai-contextual-editorial-images"
   }
 }
