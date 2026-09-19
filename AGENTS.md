@@ -2,14 +2,18 @@
 
 Prima di creare o aggiornare articoli o visual CurioMondo, leggere integralmente, nell'ordine:
 
-1. `AI-EDITORIAL-IMAGE-PROTOCOL.md`
-2. `automation/prompts/image-generation-contract.txt`
-3. `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`
-4. `PROTOCOLLO-REDAZIONE-CORPO.md`
-5. `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`
-6. `curiomondo-site-manifest.json`
+1. `PROTOCOLLO-SCOPERTA-NOTIZIE.md`
+2. `AI-EDITORIAL-IMAGE-PROTOCOL.md`
+3. `automation/prompts/image-generation-contract.txt`
+4. `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`
+5. `PROTOCOLLO-REDAZIONE-CORPO.md`
+6. `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`
+7. `curiomondo-site-manifest.json`
 
 È consentito raffigurare persone pubbliche riconoscibili con immagini ultrarealistiche quando editorialmente pertinenti. Nelle notizie ordinarie il personaggio può comparire in luoghi e ambientazioni coerenti con l'articolo; sono ammessi anche loghi pertinenti. Il **ritratto neutrale isolato** è obbligatorio soltanto per incidenti, morte, malattia, ricoveri, violenza, tragedie, lutto e altre situazioni sensibili che possono provocare dolore. Ogni somiglianza sintetica deve essere dichiarata come illustrazione IA non documentaria e non deve trasformare una scena inventata in una falsa prova. Se uno dei file obbligatori manca o le regole non possono essere rispettate, interrompere la pubblicazione.
+
+## Prevalenza ricerca notizie — 19 settembre 2026
+Per richieste di ultime notizie e per la fase di scoperta dei cicli editoriali, `PROTOCOLLO-SCOPERTA-NOTIZIE.md` è obbligatorio e prevale sulle vecchie priorità che mettono le agenzie prima delle fonti ufficiali o dei documenti primari. La regola delle cinque storie riguarda l’output di scouting richiesto dall’utente e non obbliga a pubblicare contenuti che non superano i gate editoriali.
 
 ## Regola editoriale articoli v317 — prevalenza assoluta
 Ogni articolo segue il protocollo 4.0 in `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md` e il `PROTOCOLLO-REDAZIONE-CORPO.md`: piramide invertita; lead con le 5 W; paragrafi di 2–4 frasi e massimo 60 parole; frasi preferibilmente entro 20–25 parole; nessuna ripetizione, prima persona, enfasi, riempitivo, elenco di fonti nel corpo o nota interna. La lunghezza dipende dal formato: flash 100–250 parole, notizia standard 300–600, approfondimento autonomo 800–1.500+ parole. Gli aggiornamenti sostanziali possono superare la fascia. È vietato spiegare parole difficili nel corpo della notizia: usare un lessico chiaro oppure creare o collegare una pagina di approfondimento quando serve. Restano obbligatori il gate preventivo e almeno due elementi reali di valore aggiunto. Se manca materia verificata, l'esito è `NON PUBBLICARE — motivo`.
