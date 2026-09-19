@@ -1,7 +1,73 @@
 {
-  "version": 445,
+  "version": 446,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "bonus-trasporti-puglia-studenti-2026-2027-domanda-requisiti-v446",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/bonus-trasporti-puglia-studenti-2026-2027-domanda-requisiti-v446-480.webp",
+          "sha256": "13a34829eb194bffbdb3a5e857b3955fd66cadda8c9c04339157cb3c70a1d418",
+          "bytes": 32724
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/bonus-trasporti-puglia-studenti-2026-2027-domanda-requisiti-v446-800.webp",
+          "sha256": "4eef94eeb5895d5fd22a70b39f57cc58996863492e0526c26342e0d5f56b45e5",
+          "bytes": 66504
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/bonus-trasporti-puglia-studenti-2026-2027-domanda-requisiti-v446-1200.webp",
+          "sha256": "e922b26fddb9ddf90111ed96498f2247e41ac316f54a1c539e9c413d6c63ecc8",
+          "bytes": 114254
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: studenti pendolari salgono su un autobus urbano in Puglia; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": null,
+      "prompt": "Photorealistic student commuters boarding a regional bus in southern Italy, morning light, no readable text or watermark.",
+      "article": "/notizie/bonus-trasporti-puglia-studenti-2026-2027-domanda-requisiti.html"
+    },
+    {
+      "key": "bonus-ristrutturazioni-2027-aliquote-36-30-cosa-cambia-19-settembre-2026-v446",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/bonus-ristrutturazioni-2027-aliquote-36-30-cosa-cambia-19-settembre-2026-v446-480.webp",
+          "sha256": "945b5ad57f7755246b26819206aa3f7c3c97b0729b13350e8fc0809188955d30",
+          "bytes": 37354
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/bonus-ristrutturazioni-2027-aliquote-36-30-cosa-cambia-19-settembre-2026-v446-800.webp",
+          "sha256": "46a83905a38d718672044a6243a1faf82856d5f31a98e130d1fdfc726839abc1",
+          "bytes": 77020
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/bonus-ristrutturazioni-2027-aliquote-36-30-cosa-cambia-19-settembre-2026-v446-1200.webp",
+          "sha256": "a9238ee6f2b1c50dc6b42f50ed43792547e2000eb58b98452dc5af9d1cdb6d03",
+          "bytes": 132834
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: professionisti valutano progetti in un appartamento italiano in ristrutturazione; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": null,
+      "prompt": "Photorealistic Italian apartment renovation with craftsperson, plans and realistic tools, natural daylight, no text or watermark.",
+      "article": "/notizie/bonus-ristrutturazioni-2027-aliquote-36-30-cosa-cambia-19-settembre-2026.html"
+    },
     {
       "key": "centrodestra-supermedia-40-7-sotto-41-percento-19-settembre-2026-v445",
       "aiGenerated": true,
