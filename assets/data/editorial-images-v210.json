@@ -1,7 +1,74 @@
 {
-  "version": 437,
+  "version": 438,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "allerta-gialla-sei-regioni-temporali-19-settembre-2026-v438",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/allerta-gialla-sei-regioni-temporali-19-settembre-2026-v438-480.webp",
+          "sha256": "51109c24c7a7063c47e4ef9e371a38e346545c583af7051d0b086553ebba5a51",
+          "bytes": 31128
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/allerta-gialla-sei-regioni-temporali-19-settembre-2026-v438-800.webp",
+          "sha256": "adaa3f7c8876d62fbfbc48eb8711cb5a0d46c3a54e45057bf28c3920f616c02a",
+          "bytes": 90986
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/allerta-gialla-sei-regioni-temporali-19-settembre-2026-v438-1200.webp",
+          "sha256": "83f5d333c33c06f14757c0ced44df411ad101091e6d397ec45c4231aa8cb8ecd",
+          "bytes": 195142
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: strada costiera bagnata nel Sud Italia sotto nubi; non è una fotografia documentaria di un evento specifico.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Photorealistic rainy southern Italy coastal road, no people in distress, no text.",
+      "article": "/notizie/allerta-gialla-sei-regioni-temporali-19-settembre-2026.html"
+    },
+    {
+      "key": "sandro-mazzola-morto-83-anni-inter-nazionale-19-settembre-2026-v438",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "syntheticLikeness": "public-figure",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/sandro-mazzola-morto-83-anni-inter-nazionale-19-settembre-2026-v438-480.webp",
+          "sha256": "70929fa350f25237ff72a0d4acc9147c3e52492bdb29b0a55fc8e3546240cc98",
+          "bytes": 9876
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/sandro-mazzola-morto-83-anni-inter-nazionale-19-settembre-2026-v438-800.webp",
+          "sha256": "56601e86623395033aa6969f40644426551c14826746b1725af071838038c673",
+          "bytes": 26480
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/sandro-mazzola-morto-83-anni-inter-nazionale-19-settembre-2026-v438-1200.webp",
+          "sha256": "3d3b664f09d451e40739cdabc0dfb36de032549672733bc5e8567f1ea82e1906",
+          "bytes": 57196
+        }
+      ],
+      "alt": "Ritratto editoriale neutrale isolato generato con IA di Sandro Mazzola anziano, baffi e capelli grigi, su fondo scuro; somiglianza sintetica, non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": true,
+      "reenactedEvent": false,
+      "prompt": "Sensitive-context neutral editorial portrait of Sandro Mazzola, elderly mustache grey hair, isolated dark studio background, no stadium, no reenacted event, no text.",
+      "article": "/notizie/sandro-mazzola-morto-83-anni-inter-nazionale-19-settembre-2026.html",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated"
+    },
     {
       "key": "papa-leone-inchiesta-diocesana-don-luigi-di-liegro-18-settembre-2026-v437",
       "aiGenerated": true,

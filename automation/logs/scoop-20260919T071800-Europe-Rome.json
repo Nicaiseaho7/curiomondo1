@@ -1,0 +1,64 @@
+{
+  "run_at": "2026-09-19T07:18:00+02:00",
+  "skill": "ultime-notizie-scoop",
+  "desks": [
+    "cronaca",
+    "politica",
+    "italia",
+    "mondo",
+    "sport",
+    "cinema"
+  ],
+  "processed": [
+    {
+      "title": "Sandro Mazzola è morto: aveva 83 anni, bandiera dell’Inter",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/sandro-mazzola-morto-83-anni-inter-nazionale-19-settembre-2026.html"
+    },
+    {
+      "title": "Allerta gialla oggi su sei regioni del Centro-Sud",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/allerta-gialla-sei-regioni-temporali-19-settembre-2026.html"
+    },
+    {
+      "title": "Trump firma la legge sulle sanzioni a Russia e Iran",
+      "decision": "update",
+      "public_url": "https://curiomondo.it/notizie/usa-camera-sanzioni-russia-dazi-100-percento-16-settembre-2026.html"
+    },
+    {
+      "title": "Bab el-Mandeb, la fregata Bergamini scorta il mercantile Jolly Oro",
+      "decision": "update",
+      "public_url": "https://curiomondo.it/notizie/bab-el-mandeb-crosetto-missione-navale-mercantili-italiani-17-settembre-2026.html"
+    }
+  ],
+  "discarded": [
+    {
+      "topic": "Hashim Thaçi",
+      "reason": "già pubblicato il 16 settembre"
+    },
+    {
+      "topic": "Roma-Inter",
+      "reason": "gara alle 18, niente risultato; coperta nel calendario quinta giornata"
+    },
+    {
+      "topic": "Music Awards serata 2",
+      "reason": "stesso evento già in pagina; niente albo ufficiale Rai"
+    },
+    {
+      "topic": "Resident Evil Cinetel",
+      "reason": "incasso venerdì utile ma sotto la soglia rispetto a Mazzola e allerta odierna"
+    },
+    {
+      "topic": "Kohat",
+      "reason": "bilancio vittime ancora discordante"
+    },
+    {
+      "topic": "Riad esplosioni",
+      "reason": "allarme e all-clear, senza conferma ufficiale su obiettivo e danni"
+    },
+    {
+      "topic": "Eurofighter Ta'if",
+      "reason": "notizia di venerdì, fuori dal ciclo notturno; da riprendere se arrivano nuovi fatti"
+    }
+  ]
+}
