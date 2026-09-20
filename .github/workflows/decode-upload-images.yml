@@ -1,0 +1,40 @@
+name: Decode uploaded images
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'assets/uploads/**/*.b64'
+jobs:
+  decode:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decode b64 to jpg
+        run: |
+          set -e
+          shopt -s globstar nullglob
+          count=0
+          for f in assets/uploads/**/*.b64; do
+            out="${f%.b64}"
+            base64 -d "$f" > "$out"
+            rm "$f"
+            count=$((count+1))
+            echo "decoded $out"
+          done
+          if [ "$count" -eq 0 ]; then
+            echo "Nothing to decode"
+            exit 0
+          fi
+      - name: Commit images
+        run: |
+          git config user.name "CurioMondo Bot"
+          git config user.email "bot@curiomondo.it"
+          git add -A assets/uploads
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Aggiunge immagini editoriali (decode b64)"
+          git push
