@@ -1,7 +1,76 @@
 {
-  "version": 464,
+  "version": 465,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "germania-elezioni-berlino-meclemburgo-20-settembre-2026-v465",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/germania-elezioni-berlino-meclemburgo-20-settembre-2026-v465-1200.webp",
+          "sha256": "a39794fc550cdcdb322d2470d46e500bb4735a1f0881cd7401898981ea93fe20",
+          "bytes": 95222
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/germania-elezioni-berlino-meclemburgo-20-settembre-2026-v465-800.webp",
+          "sha256": "b39ab4b5705b44b888bfaa62ca033f2370020cecf6b08ed7999cf4d9812cc157",
+          "bytes": 43076
+        },
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/germania-elezioni-berlino-meclemburgo-20-settembre-2026-v465-480.webp",
+          "sha256": "c96c415714ba812905dffb433dd40074c68cf6dec849c58a1ebfec84eef16396",
+          "bytes": 15396
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA: il palazzo del Reichstag a Berlino illuminato di notte, con bandiere tedesche e mezzi della televisione in piazza, senza politici riconoscibili; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": false,
+      "prompt": "Photorealistic Reichstag in Berlin at night on election night, German flags, broadcast vans, no identifiable politicians.",
+      "portraitOnly": false,
+      "article": "/notizie/germania-elezioni-berlino-meclemburgo-20-settembre-2026.html"
+    },
+    {
+      "key": "silvia-sardone-candidata-sindaco-milano-20-settembre-2026-v465",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/silvia-sardone-candidata-sindaco-milano-20-settembre-2026-v465-1200.webp",
+          "sha256": "86bd6c24f590c88d01faf1801bc66d249edb17b217332cf9c07eee8f1b977838",
+          "bytes": 33556
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/silvia-sardone-candidata-sindaco-milano-20-settembre-2026-v465-800.webp",
+          "sha256": "02d759311a2b634569a5f8054e4436aa08497a86087f019b854555d91926826a",
+          "bytes": 14930
+        },
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/silvia-sardone-candidata-sindaco-milano-20-settembre-2026-v465-480.webp",
+          "sha256": "a6538982432bb7b0e4966d7b6ab25bfb92716ed8e0f9feecd3dd8ce69e992b50",
+          "bytes": 5700
+        }
+      ],
+      "alt": "Ritratto editoriale neutrale generato con IA di Silvia Sardone, eurodeputata della Lega, in giacca blu su sfondo grigio di studio; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Neutral isolated editorial studio portrait of Silvia Sardone, navy blazer, gray background.",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "article": "/notizie/silvia-sardone-candidata-sindaco-milano-20-settembre-2026.html"
+    },
     {
       "key": "tajani-non-siamo-in-guerra-con-gli-houthi-kallas-e-il-rafforzamento-di-aspides-20-09-2026-v464",
       "aiGenerated": true,

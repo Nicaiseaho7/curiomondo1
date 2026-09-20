@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 464,
-    "site_version": 464
+    "current_site_version": 465,
+    "site_version": 465
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -244,23 +244,17 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 464,
-  "version": "v464",
-  "release_version": "v464",
+  "site_version": 465,
+  "version": "v465",
+  "release_version": "v465",
   "last_release": {
-    "version": 464,
+    "version": 465,
     "date": "2026-09-20",
-    "type": "editorial-revision",
-    "news_added": [],
-    "news_updated": [
-      "roma-prof-accoltellata-i-carabinieri-cercano-eventuali-istigatori-online-20-09-2026",
-      "trump-sull-iran-via-fox-decidero-se-e-quando-aperto-a-pezeshkian-20-09-2026",
-      "meloni-in-arrivo-tetto-agli-stranieri-in-classe-e-divieto-di-burqa-a-scuola-20-09-2026",
-      "trump-annuncia-una-forza-per-l-ia-sul-modello-della-space-force-20-09-2026",
-      "legge-elettorale-alla-camera-l-ultimo-passaggio-della-riforma-20-09-2026",
-      "tajani-non-siamo-in-guerra-con-gli-houthi-kallas-e-il-rafforzamento-di-aspides-20-09-2026"
+    "type": "editorial-cycle",
+    "news_added": [
+      "germania-elezioni-berlino-meclemburgo-20-settembre-2026",
+      "silvia-sardone-candidata-sindaco-milano-20-settembre-2026"
     ],
-    "change": "Revisione professionale degli ultimi sei articoli e sei nuove immagini editoriali uniche",
-    "image_policy_applied": "six-new-openai-editorial-images-with-context-and-relevant-logos"
+    "news_updated": []
   }
 }
