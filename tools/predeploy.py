@@ -15,6 +15,22 @@ ads_path=root/'ads.txt'
 ads_record='google.com, pub-8050187517048759, DIRECT, f08c47fec0942fa0'
 if not ads_path.exists(): errors.append('ads.txt assente nella radice del sito')
 elif ads_path.read_text(errors='replace').strip()!=ads_record: errors.append('ads.txt non autorizza il publisher AdSense del sito')
+headers_path=root/'_headers'
+if headers_path.exists():
+    headers_text=headers_path.read_text(errors='replace')
+    if re.search(r'/assets/js/\*\s+Cache-Control:[^\n]*(?:immutable|max-age=31536000)',headers_text):
+        errors.append('cache JavaScript impedisce la correzione immediata degli articoli esistenti')
+    if re.search(r'/assets/js/\*-v210\.js\s+Cache-Control:[^\n]*(?:immutable|max-age=31536000)',headers_text):
+        errors.append('cache controller articolo v210 non rivalidata')
+else:
+    errors.append('_headers assente')
+article_controller_path=root/'assets/js/curiomondo-article-v210.js'
+if article_controller_path.exists():
+    article_controller=article_controller_path.read_text(errors='replace')
+    if "if(ranked.length<3)return" in article_controller:
+        errors.append('correlati: ritorno anticipato blocca il caricamento delle miniature')
+    for marker in ("if(!item?.image)link.remove()", "cache:'no-cache'", "curio-related-thumb"):
+        if marker not in article_controller: errors.append(f'correlati: protezione immagini assente ({marker})')
 policy_path=root/'AI-EDITORIAL-IMAGE-PROTOCOL.md'
 prompt_path=root/'automation/prompts/image-generation-contract.txt'
 config_path=root/'automation/config.json'

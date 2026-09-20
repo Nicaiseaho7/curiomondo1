@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 450,
-    "site_version": 450
+    "current_site_version": 452,
+    "site_version": 452
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -244,21 +244,16 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 450,
-  "version": "v450",
-  "release_version": "v450",
+  "site_version": 452,
+  "version": "v452",
+  "release_version": "v452",
   "last_release": {
-    "version": 450,
+    "version": 452,
     "date": "2026-09-20",
-    "type": "related-and-cache-fix",
+    "type": "related-images-global-fix",
     "news_added": [],
-    "news_updated": [
-      "australia-albanese-tim-cook-sicurezza-social-minori-20-settembre-2026",
-      "russia-elezioni-duma-voto-kamchatka-18-settembre-2026",
-      "cina-zona-volo-vietato-pechino-in-vigore-20-settembre-2026",
-      "giochi-asiatici-aichi-nagoya-prime-medaglie-20-settembre-2026"
-    ],
-    "change": "Correlati editoriali preservati e cache HTML/dati impostata a rivalidazione immediata",
+    "news_updated": [],
+    "change": "Miniature correlate ripristinate globalmente e controller JavaScript rivalidato su tutti gli articoli",
     "design_changed": false
   }
 }

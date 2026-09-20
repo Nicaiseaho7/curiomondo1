@@ -1,0 +1,9 @@
+{
+  "run_at": "2026-09-20T07:52:00+02:00",
+  "type": "related-images-global-fix",
+  "articles_audited": 443,
+  "related_sections_found": 412,
+  "related_links_audited": 1167,
+  "links_without_media_index_before_fix": 107,
+  "fix": "remove non-renderable links, refill to three relevant image-backed cards, revalidate shared JS"
+}
