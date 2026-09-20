@@ -1,7 +1,106 @@
 {
-  "version": 452,
+  "version": 453,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "netflix-novita-weekend-film-serie-20-settembre-2026-v453",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/netflix-novita-weekend-film-serie-20-settembre-2026-v453-480.webp",
+          "sha256": "1aba93e85858a48d7b4b0532f73fef9089da6c92215d840e946d9530abf3625f",
+          "bytes": 32672
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/netflix-novita-weekend-film-serie-20-settembre-2026-v453-800.webp",
+          "sha256": "72a108dcbe82636fed7f5cde9c86f780a2ae63025f283953e41e64e37d808eb2",
+          "bytes": 64172
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/netflix-novita-weekend-film-serie-20-settembre-2026-v453-1200.webp",
+          "sha256": "969486069a4b1931edd32eab5b353cb2ce9ee49d7e56f88588997b1520a8e543",
+          "bytes": 107318
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: salotto italiano con televisore acceso su una selezione astratta di film e serie, senza poster o marchi leggibili; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": null,
+      "prompt": "Italian living room with streaming selection mood, photorealistic entertainment editorial scene, no text.",
+      "article": "/notizie/netflix-novita-weekend-film-serie-20-settembre-2026.html"
+    },
+    {
+      "key": "pontida-salvini-lega-unita-tensioni-interne-20-settembre-2026-v453",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/pontida-salvini-lega-unita-tensioni-interne-20-settembre-2026-v453-480.webp",
+          "sha256": "b3c08f102d1d33a7eda5bad0a27776992f6e17e782979a9867ac80cc6d2b65cf",
+          "bytes": 25374
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/pontida-salvini-lega-unita-tensioni-interne-20-settembre-2026-v453-800.webp",
+          "sha256": "cd233b57a6d638ba9a8e4001216faa5fa6feebb431f2c62b89930aa075e6e062",
+          "bytes": 47884
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/pontida-salvini-lega-unita-tensioni-interne-20-settembre-2026-v453-1200.webp",
+          "sha256": "d90e3ccd604fedd3257331eb979d824b68f6da02ba7ada7ad219b50ef2e034ea",
+          "bytes": 78426
+        }
+      ],
+      "alt": "Scena editoriale contestuale ordinaria generata con IA: Matteo Salvini riconoscibile parla a un raduno della Lega a Pontida; somiglianza sintetica, non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Matteo Salvini speaking at Pontida rally, photorealistic ordinary editorial scene, no text.",
+      "article": "/notizie/pontida-salvini-lega-unita-tensioni-interne-20-settembre-2026.html"
+    },
+    {
+      "key": "roma-inter-2-2-lautaro-doppietta-rimonta-19-settembre-2026-v453",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/roma-inter-2-2-lautaro-doppietta-rimonta-19-settembre-2026-v453-480.webp",
+          "sha256": "dfcb455daf63f4dd91eda17781b4db7320ac37c2f5fe83b780c0aef9de409ab9",
+          "bytes": 23984
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/roma-inter-2-2-lautaro-doppietta-rimonta-19-settembre-2026-v453-800.webp",
+          "sha256": "46e26ba4a026f1be6ba6d7c71a4af3e8df9d75fd1d66ca682c9692d7441480c9",
+          "bytes": 45452
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/roma-inter-2-2-lautaro-doppietta-rimonta-19-settembre-2026-v453-1200.webp",
+          "sha256": "fe23813a1b227acee8d0ba4dfd42199645c9c1da82ce0b5e195127d8ef042f28",
+          "bytes": 75860
+        }
+      ],
+      "alt": "Scena editoriale contestuale ordinaria generata con IA: Lautaro Martínez riconoscibile celebra in maglia nerazzurra con calciatori della Roma sullo sfondo; somiglianza sintetica, non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Lautaro Martinez celebrating in Inter kit at the Olimpico, photorealistic ordinary editorial scene, no text.",
+      "article": "/notizie/roma-inter-2-2-lautaro-doppietta-rimonta-19-settembre-2026.html"
+    },
     {
       "key": "russia-elezioni-duma-voto-kamchatka-18-settembre-2026-v449",
       "aiGenerated": true,
