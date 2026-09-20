@@ -1,4 +1,4 @@
-name: Assemble HTML articles from b64
+name: Assemble HTML from b64 parts
 on:
   workflow_dispatch:
   push:
@@ -11,34 +11,55 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Assemble and write notizie HTML
+      - name: Assemble b64 manifests into target files
         run: |
           set -euo pipefail
           shopt -s nullglob
           DIR=assets/uploads/2026-09-20/html-parts
-          for man in "$DIR"/*.manifest; do
-            base=$(basename "$man" .manifest)   # e.g. notizie__foo.html.b64
-            target_b64="$DIR/$base"
-            : > "$target_b64"
+          if [ -f "$DIR/index.html.b64.manifest" ]; then
+            : > "$DIR/index.html.b64"
             while IFS= read -r part; do
               [ -z "$part" ] && continue
-              cat "$DIR/$part" >> "$target_b64"
-              rm -f "$DIR/$part"
+              cat "$DIR/$part" >> "$DIR/index.html.b64"
+            done < "$DIR/index.html.b64.manifest"
+            base64 -d "$DIR/index.html.b64" > index.html
+            rm -f "$DIR/index.html.b64"
+            echo "wrote index.html ($(wc -c < index.html) bytes)"
+          fi
+          if [ -f "$DIR/notizie__index.html.b64.manifest" ]; then
+            : > "$DIR/notizie__index.html.b64"
+            while IFS= read -r part; do
+              [ -z "$part" ] && continue
+              cat "$DIR/$part" >> "$DIR/notizie__index.html.b64"
+            done < "$DIR/notizie__index.html.b64.manifest"
+            mkdir -p notizie
+            base64 -d "$DIR/notizie__index.html.b64" > notizie/index.html
+            rm -f "$DIR/notizie__index.html.b64"
+            echo "wrote notizie/index.html ($(wc -c < notizie/index.html) bytes)"
+          fi
+          for man in "$DIR"/notizie__*.b64.manifest; do
+            [ -f "$man" ] || continue
+            base=$(basename "$man" .manifest)
+            case "$base" in
+              notizie__index.html.b64) continue ;;
+            esac
+            : > "$DIR/$base"
+            while IFS= read -r part; do
+              [ -z "$part" ] && continue
+              cat "$DIR/$part" >> "$DIR/$base"
             done < "$man"
-            rm -f "$man"
-            # base is like notizie__slug.html.b64
             out="${base%.b64}"
-            out="${out//__//}"   # notizie/slug.html
+            out="${out//__//}"
             mkdir -p "$(dirname "$out")"
-            base64 -d "$target_b64" > "$out"
-            rm -f "$target_b64"
+            base64 -d "$DIR/$base" > "$out"
+            rm -f "$DIR/$base"
             echo "wrote $out ($(wc -c < "$out") bytes)"
           done
-      - name: Commit
+      - name: Commit assembled HTML
         run: |
           git config user.name "CurioMondo Bot"
           git config user.email "bot@curiomondo.it"
-          git add -A notizie assets/uploads/2026-09-20/html-parts
+          git add -A index.html notizie assets/uploads/2026-09-20/html-parts
           if git diff --cached --quiet; then echo No changes; exit 0; fi
-          git commit -m "Pubblica articoli HTML da b64 (20-09-2026)"
+          git commit -m "Ripristina index.html homepage con articoli 20-09-2026"
           git push
