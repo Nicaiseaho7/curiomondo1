@@ -1,0 +1,43 @@
+name: Assemble HTML articles from b64
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'assets/uploads/2026-09-20/html-parts/**'
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble and write notizie HTML
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          DIR=assets/uploads/2026-09-20/html-parts
+          for man in "$DIR"/*.manifest; do
+            base=$(basename "$man" .manifest)
+            target_b64="$DIR/$base"
+            : > "$target_b64"
+            while IFS= read -r part; do
+              [ -z "$part" ] && continue
+              cat "$DIR/$part" >> "$target_b64"
+              rm -f "$DIR/$part"
+            done < "$man"
+            rm -f "$man"
+            out="${base%.b64}"
+            out="${out//__//}"
+            mkdir -p "$(dirname "$out")"
+            base64 -d "$target_b64" > "$out"
+            rm -f "$target_b64"
+            echo "wrote $out ($(wc -c < "$out") bytes)"
+          done
+      - name: Commit
+        run: |
+          git config user.name "CurioMondo Bot"
+          git config user.email "bot@curiomondo.it"
+          git add -A notizie assets/uploads/2026-09-20/html-parts
+          if git diff --cached --quiet; then echo No changes; exit 0; fi
+          git commit -m "Pubblica articoli HTML da b64 (20-09-2026)"
+          git push
