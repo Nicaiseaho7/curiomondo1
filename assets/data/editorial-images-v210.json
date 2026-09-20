@@ -1,33 +1,208 @@
 {
-  "version": 458,
+  "version": 464,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
-      "alt": "Illustrazione editoriale IA di una fregata europea in scorta nel Mar Rosso al crepuscolo, con un mercantile in lontananza",
+      "key": "tajani-non-siamo-in-guerra-con-gli-houthi-kallas-e-il-rafforzamento-di-aspides-20-09-2026-v464",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/tajani-non-siamo-in-guerra-con-gli-houthi-kallas-e-il-rafforzamento-di-aspides-v458-480.webp",
-          "sha256": "67395c6f27d0a38745870b9c3323571755c8eabb2d56f92437eec4c75de5ce30",
-          "bytes": 1826
+          "src": "/assets/images/editorial-auto/tajani-non-siamo-in-guerra-con-gli-houthi-kallas-e-il-rafforzamento-di-aspides-20-09-2026-v464-480.webp",
+          "sha256": "7eef6652208ad20784daf7ffa0e39470dc58def75df602d72e856d1ae0c8ca41",
+          "bytes": 20492
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/tajani-non-siamo-in-guerra-con-gli-houthi-kallas-e-il-rafforzamento-di-aspides-v458-800.webp",
-          "sha256": "9be751d583a635ba3dac7c19eb764fbf5928b6453ebebd69dee12f59930e0e66",
-          "bytes": 4106
+          "src": "/assets/images/editorial-auto/tajani-non-siamo-in-guerra-con-gli-houthi-kallas-e-il-rafforzamento-di-aspides-20-09-2026-v464-800.webp",
+          "sha256": "da648009c0adf87463c174004d5514657b0cb49b058ab57b1da6d42fa5505f1f",
+          "bytes": 41142
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/tajani-non-siamo-in-guerra-con-gli-houthi-kallas-e-il-rafforzamento-di-aspides-v458-1200.webp",
-          "sha256": "8d42d77df9adeb7024ae93a8a92300fd3f69c18e42f1ab3487fa9dfe055c8fbc",
-          "bytes": 7088
+          "src": "/assets/images/editorial-auto/tajani-non-siamo-in-guerra-con-gli-houthi-kallas-e-il-rafforzamento-di-aspides-20-09-2026-v464-1200.webp",
+          "sha256": "d7f99a57c6d3376d66cf4f85959baffaf64463b5ed886b6022b75525bb084232",
+          "bytes": 67938
         }
       ],
+      "alt": "Ritratto editoriale neutrale generato con IA di Antonio Tajani al podio del Ministero degli Affari Esteri, con bandiere italiana ed europea; non è una fotografia documentaria.",
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
-      "sensitiveContext": false,
+      "sensitiveContext": true,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Neutral editorial portrait of Antonio Tajani at the Italian Foreign Ministry; isolated subject with Italian and EU flags, no warship, weapons or conflict imagery.",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
       "article": "/notizie/tajani-non-siamo-in-guerra-con-gli-houthi-kallas-e-il-rafforzamento-di-aspides-20-09-2026.html"
+    },
+    {
+      "key": "legge-elettorale-alla-camera-l-ultimo-passaggio-della-riforma-20-09-2026-v464",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/legge-elettorale-alla-camera-l-ultimo-passaggio-della-riforma-20-09-2026-v464-480.webp",
+          "sha256": "cae9c634ba7c02f12a5c293def62e699288a338bc91a1d12f0eda22c5797812f",
+          "bytes": 41552
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/legge-elettorale-alla-camera-l-ultimo-passaggio-della-riforma-20-09-2026-v464-800.webp",
+          "sha256": "ce836a542603cf440acb49ab4ab0a0b4ae1a499b5b5313bd0d12f70b03f84029",
+          "bytes": 93782
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/legge-elettorale-alla-camera-l-ultimo-passaggio-della-riforma-20-09-2026-v464-1200.webp",
+          "sha256": "7c528c3fd1c0158f4b2ef3fa19e44e15abc594c0d3de38e88db0ecbef7ad1fc9",
+          "bytes": 171190
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA: Aula della Camera dei deputati con bandiere italiana ed europea e fascicolo in primo piano recante la scritta Riforma elettorale; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": null,
+      "prompt": "Realistic Chamber of Deputies hall with Italian and EU flags and a foreground folder labelled RIFORMA ELETTORALE; no politicians or invented vote tally.",
+      "article": "/notizie/legge-elettorale-alla-camera-l-ultimo-passaggio-della-riforma-20-09-2026.html"
+    },
+    {
+      "key": "trump-annuncia-una-forza-per-l-ia-sul-modello-della-space-force-20-09-2026-v464",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/trump-annuncia-una-forza-per-l-ia-sul-modello-della-space-force-20-09-2026-v464-480.webp",
+          "sha256": "148f5d88109e907f58ffc4e8d50739ddb9713556c8286591adee15a85bb3a5f4",
+          "bytes": 22164
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/trump-annuncia-una-forza-per-l-ia-sul-modello-della-space-force-20-09-2026-v464-800.webp",
+          "sha256": "979369af29b6f088ce3930d97ca4fdc09d3d1e0a80f3221f6659a6f3c8a97261",
+          "bytes": 39286
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/trump-annuncia-una-forza-per-l-ia-sul-modello-della-space-force-20-09-2026-v464-1200.webp",
+          "sha256": "3782522973ff4627100b84772cf6bdff1c28e2e6822d3af48fa59d7ec69ac536",
+          "bytes": 64866
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA: Donald Trump parla a un evento tecnologico davanti a una bandiera statunitense e a uno schermo con la scritta AI; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Donald Trump at an ordinary technology-policy event, US flag and clean screen reading AI; no military imagery, fake official seal or added headline.",
+      "article": "/notizie/trump-annuncia-una-forza-per-l-ia-sul-modello-della-space-force-20-09-2026.html"
+    },
+    {
+      "key": "meloni-in-arrivo-tetto-agli-stranieri-in-classe-e-divieto-di-burqa-a-scuola-20-09-2026-v464",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/meloni-in-arrivo-tetto-agli-stranieri-in-classe-e-divieto-di-burqa-a-scuola-20-09-2026-v464-480.webp",
+          "sha256": "5b4c128833e9bf583f17cdc1de050577db9bfeb020e7581fc0577f2ba4a018c6",
+          "bytes": 24138
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/meloni-in-arrivo-tetto-agli-stranieri-in-classe-e-divieto-di-burqa-a-scuola-20-09-2026-v464-800.webp",
+          "sha256": "12514f7bdea9b2d0b89a80b34e64b5a8bdbd61e4f449f0e0238110bdf45b1842",
+          "bytes": 43854
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/meloni-in-arrivo-tetto-agli-stranieri-in-classe-e-divieto-di-burqa-a-scuola-20-09-2026-v464-1200.webp",
+          "sha256": "fdb47bda61bef5d554f31cfb74830c8d1768b4e1f74b68cbc8182b973d16f23d",
+          "bytes": 68918
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA: Giorgia Meloni parla sul palco di FENIX con bandiere italiana ed europea e loghi FENIX e Fratelli d’Italia visibili; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Giorgia Meloni speaking at FENIX with Italian and EU flags and naturally visible FENIX and Fratelli d’Italia logos; no stereotypes or added headline.",
+      "article": "/notizie/meloni-in-arrivo-tetto-agli-stranieri-in-classe-e-divieto-di-burqa-a-scuola-20-09-2026.html"
+    },
+    {
+      "key": "trump-sull-iran-via-fox-decidero-se-e-quando-aperto-a-pezeshkian-20-09-2026-v464",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/trump-sull-iran-via-fox-decidero-se-e-quando-aperto-a-pezeshkian-20-09-2026-v464-480.webp",
+          "sha256": "388342933574b05905ec1f0e3b85b8338ca9374c18f2d0e97f5142a1b8141341",
+          "bytes": 21352
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/trump-sull-iran-via-fox-decidero-se-e-quando-aperto-a-pezeshkian-20-09-2026-v464-800.webp",
+          "sha256": "2e53e2282b1706a4b86b6c2802876e1d7aac1f5e6b685b05d1da67da6c240daf",
+          "bytes": 37948
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/trump-sull-iran-via-fox-decidero-se-e-quando-aperto-a-pezeshkian-20-09-2026-v464-1200.webp",
+          "sha256": "4552df0d5ab16c379ccc2e065d6b7ef86271e7e0c74ad6b4c7a99091ac8b8931",
+          "bytes": 61818
+        }
+      ],
+      "alt": "Ritratto editoriale neutrale generato con IA di Donald Trump al podio della Casa Bianca, con bandiera statunitense; non è una fotografia documentaria dell’intervista citata.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": true,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Neutral editorial portrait of Donald Trump at a White House lectern for a sensitive Iran story; isolated subject, one US flag, no weapons, Iranian imagery or aggressive gesture.",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "article": "/notizie/trump-sull-iran-via-fox-decidero-se-e-quando-aperto-a-pezeshkian-20-09-2026.html"
+    },
+    {
+      "key": "roma-prof-accoltellata-i-carabinieri-cercano-eventuali-istigatori-online-20-09-2026-v464",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/roma-prof-accoltellata-i-carabinieri-cercano-eventuali-istigatori-online-20-09-2026-v464-480.webp",
+          "sha256": "c113ee5f5b9f84dfd821e2f85d64105ac3d17b36317ceb309cb75f0804e0ebac",
+          "bytes": 40764
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/roma-prof-accoltellata-i-carabinieri-cercano-eventuali-istigatori-online-20-09-2026-v464-800.webp",
+          "sha256": "e98f423a7e8ce52b562f45b50a70a47b981205d8df332ac75bdb9b1b8b627b56",
+          "bytes": 105602
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/roma-prof-accoltellata-i-carabinieri-cercano-eventuali-istigatori-online-20-09-2026-v464-1200.webp",
+          "sha256": "d270ff8c4daadf28b322df8e143ac64e11941522ff39a24f601f0fa2667904b4",
+          "bytes": 219758
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA: ingresso dell’Istituto Giovanni Verga di Roma con auto dei Carabinieri, scritte CARABINIERI e 112 visibili, senza persone o scene di violenza; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": true,
+      "reenactedEvent": false,
+      "syntheticLikeness": null,
+      "prompt": "Neutral exterior of Istituto Giovanni Verga in Rome with a marked Carabinieri car; no people, violence or reenactment; authentic school and Carabinieri lettering.",
+      "article": "/notizie/roma-prof-accoltellata-i-carabinieri-cercano-eventuali-istigatori-online-20-09-2026.html"
     },
     {
       "key": "mosca-attacco-record-droni-ultimo-giorno-voto-russia-20-settembre-2026-v457",
