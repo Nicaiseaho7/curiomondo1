@@ -1,0 +1,64 @@
+{
+  "slug": "mosca-attacco-record-droni-ultimo-giorno-voto-russia-20-settembre-2026",
+  "title": "Mosca, attacco record di droni nell’ultimo giorno del voto russo",
+  "excerpt": "Le autorità russe attribuiscono all’Ucraina oltre mille lanci, almeno 450 diretti sulla capitale. Segnalati due morti, venti feriti e danni a una raffineria.",
+  "category": "Mondo",
+  "published_at": "2026-09-20T16:30:22+02:00",
+  "updated_at": "2026-09-20T16:30:22+02:00",
+  "development_at": "2026-09-20",
+  "status": "IN SVILUPPO — DATI ATTRIBUITI ALLE AUTORITÀ RUSSE",
+  "public_url": "https://curiomondo.it/notizie/mosca-attacco-record-droni-ultimo-giorno-voto-russia-20-settembre-2026.html",
+  "publication_state": "pending_deploy",
+  "body": [
+    "Le autorità russe hanno attribuito all’Ucraina il più grande attacco di droni mai diretto contro Mosca, avvenuto nell’ultimo giorno delle elezioni parlamentari. Il ministero della Difesa russo sostiene di aver intercettato 1.110 velivoli tra Russia, Crimea occupata e Mar Nero, almeno 450 dei quali verso la capitale.",
+    "Secondo le autorità regionali, due persone sono morte e venti sono rimaste ferite nell’area di Mosca. Sono stati inoltre segnalati danni a un impianto petrolifero e a edifici residenziali; centinaia di abitanti sarebbero stati evacuati nel distretto di Ramenskoye.",
+    "I numeri provengono in larga parte da fonti ufficiali russe e non sono verificabili in modo indipendente nell’immediato. Reuters e Associated Press hanno comunque descritto l’operazione come senza precedenti per scala; Kiev non aveva diffuso una ricostruzione completa nelle prime ore.",
+    "L’attacco coincide con la chiusura del voto per la Duma, il primo dall’invasione su vasta scala del 2022. Il Cremlino lo ha definito un tentativo di interrompere le elezioni, mentre l’esito resta atteso tra la serata di domenica e lunedì."
+  ],
+  "sources": [
+    {
+      "url": "https://www.reuters.com/world/europe/two-dead-moscow-region-drones-hit-oil-refinery-russian-capital-2026-09-20/",
+      "descrizione": "Reuters — vittime, danni e conteggio comunicato dalle autorità russe."
+    },
+    {
+      "url": "https://apnews.com/article/5f7889d027c0247ca2c2c64425b9ffa9",
+      "descrizione": "Associated Press — scala dell’attacco, feriti e contesto della guerra dei droni."
+    },
+    {
+      "url": "https://www.reuters.com/world/europe/russian-election-cast-test-support-ukraine-war-enters-final-day-2026-09-20/",
+      "descrizione": "Reuters — collegamento temporale con l’ultimo giorno delle elezioni parlamentari russe."
+    }
+  ],
+  "image": {
+    "key": "mosca-attacco-record-droni-ultimo-giorno-voto-russia-20-settembre-2026-v457",
+    "aiGenerated": true,
+    "documentaryPhoto": false,
+    "generator": "ChatGPT/OpenAI image generation",
+    "variants": [
+      {
+        "w": 480,
+        "src": "/assets/images/editorial-auto/mosca-attacco-record-droni-ultimo-giorno-voto-russia-20-settembre-2026-v457-480.webp",
+        "sha256": "beb1c65faba97bbc2a01f881c5234086afebf1bfa10af2b77692e88f5d6a2e16",
+        "bytes": 24384
+      },
+      {
+        "w": 800,
+        "src": "/assets/images/editorial-auto/mosca-attacco-record-droni-ultimo-giorno-voto-russia-20-settembre-2026-v457-800.webp",
+        "sha256": "722bf96ef1cfa4ba62cc191ea0f36d083ea2c3381d0e9a9e80b107c331832a1f",
+        "bytes": 60928
+      },
+      {
+        "w": 1200,
+        "src": "/assets/images/editorial-auto/mosca-attacco-record-droni-ultimo-giorno-voto-russia-20-settembre-2026-v457-1200.webp",
+        "sha256": "5c18bdaaa1c505651a6d595de00a14c9963d941103be546f6e6d08a921ebe1c3",
+        "bytes": 122520
+      }
+    ],
+    "alt": "Illustrazione editoriale generata con IA: skyline notturno di Mosca con droni e scie della difesa aerea in lontananza, senza persone o danni visibili; non è una fotografia documentaria.",
+    "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+    "sensitiveContext": true,
+    "reenactedEvent": false,
+    "syntheticLikeness": null,
+    "prompt": "Distant Moscow night skyline with small drone silhouettes and restrained air-defence trails; neutral non-graphic sensitive-context illustration; no casualties, headline or watermark."
+  }
+}

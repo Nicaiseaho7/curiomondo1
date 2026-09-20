@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 456,
-    "site_version": 456
+    "current_site_version": 457,
+    "site_version": 457
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -244,18 +244,20 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 456,
-  "version": "v456",
-  "release_version": "v456",
+  "site_version": 457,
+  "version": "v457",
+  "release_version": "v457",
   "last_release": {
-    "version": 456,
+    "version": 457,
     "date": "2026-09-20",
-    "type": "breaking-news",
+    "type": "news-batch",
     "news_added": [
-      "veroli-badante-arrestata-maltrattamenti-donna-disabile-20-settembre-2026"
+      "pedro-acosta-prima-vittoria-motogp-gp-austria-20-settembre-2026",
+      "meloni-tetto-alunni-stranieri-divieto-veli-scuola-20-settembre-2026",
+      "mosca-attacco-record-droni-ultimo-giorno-voto-russia-20-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Flash sull’ex badante arrestata a Veroli dopo la condanna definitiva",
-    "image_policy_applied": "new-openai-sensitive-context-neutral-editorial-image"
+    "change": "Ultime notizie: droni su Mosca, annuncio scuola di Meloni e vittoria MotoGP di Acosta",
+    "image_policy_applied": "three-new-openai-contextual-editorial-images-with-relevant-logos-preserved"
   }
 }
