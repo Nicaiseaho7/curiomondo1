@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 448,
-    "site_version": 448
+    "current_site_version": 449,
+    "site_version": 449
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -244,19 +244,20 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 448,
-  "version": "v448",
-  "release_version": "v448",
+  "site_version": 449,
+  "version": "v449",
+  "release_version": "v449",
   "last_release": {
-    "version": 448,
+    "version": 449,
     "date": "2026-09-20",
-    "type": "daily-package-and-news",
+    "type": "news-update",
     "news_added": [
-      "cina-zona-volo-vietato-pechino-in-vigore-20-settembre-2026",
-      "giochi-asiatici-aichi-nagoya-prime-medaglie-20-settembre-2026"
+      "australia-albanese-tim-cook-sicurezza-social-minori-20-settembre-2026"
     ],
-    "news_updated": [],
-    "change": "Notizie del 20 settembre, Domanda del giorno n. 452 e due guide Biblioteca",
+    "news_updated": [
+      "russia-elezioni-duma-voto-kamchatka-18-settembre-2026"
+    ],
+    "change": "Nuovo articolo su sicurezza online e aggiornamento delle elezioni russe",
     "image_policy_applied": "new-openai-contextual-editorial-images"
   }
 }

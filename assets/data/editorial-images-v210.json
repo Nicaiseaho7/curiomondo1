@@ -1,7 +1,73 @@
 {
-  "version": 448,
+  "version": 449,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "russia-elezioni-duma-voto-kamchatka-18-settembre-2026-v449",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/russia-elezioni-duma-voto-kamchatka-18-settembre-2026-v449-480.webp",
+          "sha256": "06d0180d60a366a2c85231060d6d1a649e4b1ec3c0ba8dc68e372f3dc08df6ca",
+          "bytes": 28772
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/russia-elezioni-duma-voto-kamchatka-18-settembre-2026-v449-800.webp",
+          "sha256": "d644b0a43bf9a011ac247c500fd4c9c4747b7e7c9fb6faf0bf7ee96ea0da6a29",
+          "bytes": 65356
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/russia-elezioni-duma-voto-kamchatka-18-settembre-2026-v449-1200.webp",
+          "sha256": "6a50c9b33507ce48c544020ab380989994663773dd5627cee29558d14c51b2b4",
+          "bytes": 113398
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: elettori in un seggio russo depositano schede in un’urna trasparente; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": null,
+      "prompt": "Final day of Russia State Duma election in a Moscow polling station, voters and transparent ballot box, photorealistic ordinary editorial scene, no text.",
+      "article": "/notizie/russia-elezioni-duma-voto-kamchatka-18-settembre-2026.html"
+    },
+    {
+      "key": "australia-albanese-tim-cook-sicurezza-social-minori-20-settembre-2026-v449",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/australia-albanese-tim-cook-sicurezza-social-minori-20-settembre-2026-v449-480.webp",
+          "sha256": "d86e212ea4b7783dcf94eda8042d62c453c46281607b49ba357b1dcb6cc3ad23",
+          "bytes": 20388
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/australia-albanese-tim-cook-sicurezza-social-minori-20-settembre-2026-v449-800.webp",
+          "sha256": "39ca5cb8616c2802023412c60a9853c99bcbe4f12abbb4f2f5efab60058779df",
+          "bytes": 38394
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/australia-albanese-tim-cook-sicurezza-social-minori-20-settembre-2026-v449-1200.webp",
+          "sha256": "34bb5ea8f503531539cf2bb2f7aa012daf09e536400476907d22bb390e7e66f2",
+          "bytes": 65604
+        }
+      ],
+      "alt": "Scena editoriale contestuale generata con IA: Anthony Albanese e Tim Cook riconoscibili durante un confronto professionale in un campus tecnologico; somiglianze sintetiche, non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Anthony Albanese and Tim Cook in a calm professional discussion at an Apple campus, photorealistic ordinary editorial scene, no text or fabricated handshake.",
+      "article": "/notizie/australia-albanese-tim-cook-sicurezza-social-minori-20-settembre-2026.html"
+    },
     {
       "key": "giochi-asiatici-aichi-nagoya-prime-medaglie-20-settembre-2026-v448",
       "aiGenerated": true,
