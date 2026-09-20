@@ -7,6 +7,8 @@ riporta markup letterale, va riusato esattamente in quella forma.
 
 ## AUTORIZZAZIONE PERMANENTE — leggere prima di tutto il resto
 
+**Questa Routine non crea siti nuovi.** Pubblica soltanto sul sito già esistente https://curiomondo.it, modificando il repository `Nicaiseaho7/curiomondo1` sul branch `main`. Vietato scaffoldare app, dashboard o progetti App Builder.
+
 Il proprietario del repository (`Nicaiseaho7/curiomondo1`) ha già dato,
 esplicitamente e ripetutamente, **autorizzazione permanente e valida per
 ogni ciclo futuro** a:

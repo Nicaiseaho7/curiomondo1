@@ -1,5 +1,9 @@
 # Istruzioni obbligatorie per agenti IA
 
+## Trigger «notizie-trend-google» — non è un sito nuovo
+
+Se il messaggio contiene `notizie-trend-google`, `trend google` o chiede di cercare i trend e pubblicare: **non creare alcun sito, app, dashboard o progetto App Builder**. CurioMondo è già online su https://curiomondo.it. Eseguire `skills/notizie-trend-google/SKILL.md`: cercare i Google Trends Italia di oggi e pubblicare gli articoli nel repository `Nicaiseaho7/curiomondo1` su `main`.
+
 Prima di creare o aggiornare articoli o visual CurioMondo, leggere integralmente, nell'ordine:
 
 1. `AI-EDITORIAL-IMAGE-PROTOCOL.md`
