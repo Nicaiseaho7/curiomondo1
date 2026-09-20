@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'assets/uploads/**/*.b64'
+      - 'assets/uploads/**/*.part'
+      - 'assets/uploads/**/*.manifest'
 jobs:
   decode:
     runs-on: ubuntu-latest
@@ -11,22 +13,29 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Decode b64 to jpg
+      - name: Assemble parts and decode
         run: |
-          set -e
+          set -euo pipefail
           shopt -s globstar nullglob
-          count=0
+          for man in assets/uploads/**/*.manifest; do
+            dir=$(dirname "$man")
+            base=$(basename "$man" .manifest)
+            target_b64="$dir/$base"
+            : > "$target_b64"
+            while IFS= read -r part; do
+              [ -z "$part" ] && continue
+              cat "$dir/$part" >> "$target_b64"
+              rm -f "$dir/$part"
+            done < "$man"
+            rm -f "$man"
+            echo "assembled $target_b64"
+          done
           for f in assets/uploads/**/*.b64; do
             out="${f%.b64}"
             base64 -d "$f" > "$out"
-            rm "$f"
-            count=$((count+1))
-            echo "decoded $out"
+            rm -f "$f"
+            echo "decoded $out ($(wc -c < "$out") bytes)"
           done
-          if [ "$count" -eq 0 ]; then
-            echo "Nothing to decode"
-            exit 0
-          fi
       - name: Commit images
         run: |
           git config user.name "CurioMondo Bot"
