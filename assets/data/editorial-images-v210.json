@@ -1,7 +1,40 @@
 {
-  "version": 455,
+  "version": 456,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "veroli-badante-arrestata-maltrattamenti-donna-disabile-20-settembre-2026-v456",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/veroli-badante-arrestata-maltrattamenti-donna-disabile-20-settembre-2026-v456-480.webp",
+          "sha256": "c4a4cd699678b8c9ea17fde3567d23288c44446f04453bc6474ffa21d33181f3",
+          "bytes": 30260
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/veroli-badante-arrestata-maltrattamenti-donna-disabile-20-settembre-2026-v456-800.webp",
+          "sha256": "4cdf339e5674c506ddef4f045bb69f3633eecc9e9d95619920c5f1cb9a014b72",
+          "bytes": 73028
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/veroli-badante-arrestata-maltrattamenti-donna-disabile-20-settembre-2026-v456-1200.webp",
+          "sha256": "b512897af04f9413fbd5a403dc67bc018c3c66395bbcedc99531e4533ebb07ad",
+          "bytes": 134612
+        }
+      ],
+      "alt": "Scena editoriale neutrale generata con IA: auto dei Carabinieri con scritte CARABINIERI e 112 davanti all’ingresso di un istituto penitenziario, senza persone arrestate o vittime visibili; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": true,
+      "reenactedEvent": false,
+      "syntheticLikeness": null,
+      "prompt": "Neutral sensitive-context editorial scene outside an Italian prison entrance with a Carabinieri patrol car and authentic CARABINIERI and 112 markings; no victim, detained person, violence, handcuffs, headline, added label or watermark.",
+      "article": "/notizie/veroli-badante-arrestata-maltrattamenti-donna-disabile-20-settembre-2026.html"
+    },
     {
       "key": "milano-lite-strada-25enne-accoltellato-gola-20-settembre-2026-v455",
       "aiGenerated": true,
