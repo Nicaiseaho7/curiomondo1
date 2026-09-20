@@ -110,7 +110,7 @@
     Array.from(grid.querySelectorAll('a[href]')).forEach(link=>{const key=routeKey(link.href),sameTitle=normalizeText(link.querySelector('strong')?.textContent)===normalizeText(articleTitle);if(!key||!isNewsArticle(link.href)||isCurrentArticle(link.href)||sameTitle||uniqueLinks.has(key))link.remove();else uniqueLinks.add(key);});
     Array.from(grid.querySelectorAll('a[href]')).slice(3).forEach(link=>link.remove());
     try{
-      const response=await fetch('/assets/data/home-feed-v210.json?v=344',{credentials:'same-origin'});if(!response.ok)return;
+      const response=await fetch('/assets/data/home-feed-v210.json?v=450',{credentials:'same-origin',cache:'no-cache'});if(!response.ok)return;
       const payload=await response.json(),items=(Array.isArray(payload.items)?payload.items:[]).filter(item=>item?.url&&isNewsArticle(item.url));
       const mediaByUrl=new Map(items.filter(item=>item?.url).map(item=>[routeKey(item.url),item]));
       const context=normalizeText([articleTitle,document.querySelector('.badge')?.textContent,document.querySelector('.meta')?.textContent].join(' '));
@@ -123,7 +123,7 @@
         return {item,score};
       }).sort((a,b)=>b.score-a.score);
       if(ranked.length<3)return;
-      const curated=section.dataset.curatedRelated==='true'&&grid.querySelectorAll('a[href]').length>0;
+      const curated=grid.querySelectorAll('a[href]').length>0;
       if(!curated){
         grid.replaceChildren();
         const existing=new Set([canonicalRoute]);
