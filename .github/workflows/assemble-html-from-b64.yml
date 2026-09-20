@@ -17,7 +17,7 @@ jobs:
           shopt -s nullglob
           DIR=assets/uploads/2026-09-20/html-parts
           for man in "$DIR"/*.manifest; do
-            base=$(basename "$man" .manifest)
+            base=$(basename "$man" .manifest)   # e.g. notizie__foo.html.b64
             target_b64="$DIR/$base"
             : > "$target_b64"
             while IFS= read -r part; do
@@ -26,8 +26,9 @@ jobs:
               rm -f "$DIR/$part"
             done < "$man"
             rm -f "$man"
+            # base is like notizie__slug.html.b64
             out="${base%.b64}"
-            out="${out//__//}"
+            out="${out//__//}"   # notizie/slug.html
             mkdir -p "$(dirname "$out")"
             base64 -d "$target_b64" > "$out"
             rm -f "$target_b64"
