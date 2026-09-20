@@ -1,7 +1,40 @@
 {
-  "version": 453,
+  "version": 454,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "milano-lite-strada-25enne-accoltellato-gola-20-settembre-2026-v454",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/milano-lite-strada-25enne-accoltellato-gola-20-settembre-2026-v454-480.webp",
+          "sha256": "fa61cce2620037ecf1f51597ad4739a7396c1159e8b882725327f328ebc307fe",
+          "bytes": 45748
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/milano-lite-strada-25enne-accoltellato-gola-20-settembre-2026-v454-800.webp",
+          "sha256": "84ae324ab865815e5f2b74b0d7eba05cf62979c80d0cc30c335990b817e40124",
+          "bytes": 104798
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/milano-lite-strada-25enne-accoltellato-gola-20-settembre-2026-v454-1200.webp",
+          "sha256": "584ae3babbb9650dcd775d438b4979aee1ee0bd9b760c9e59ad7810d1d9086e8",
+          "bytes": 181528
+        }
+      ],
+      "alt": "Scena editoriale neutrale generata con IA: pattuglia dei carabinieri e ambulanza in una strada di Milano di notte, senza persone ferite né ricostruzione dell’aggressione; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": true,
+      "reenactedEvent": false,
+      "syntheticLikeness": null,
+      "prompt": "Neutral sensitive-context Milan emergency response scene, no victim, injury, blood, weapon, attacker or readable text.",
+      "article": "/notizie/milano-lite-strada-25enne-accoltellato-gola-20-settembre-2026.html"
+    },
     {
       "key": "netflix-novita-weekend-film-serie-20-settembre-2026-v453",
       "aiGenerated": true,

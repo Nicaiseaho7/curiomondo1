@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 453,
-    "site_version": 453
+    "current_site_version": 454,
+    "site_version": 454
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -244,20 +244,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 453,
-  "version": "v453",
-  "release_version": "v453",
+  "site_version": 454,
+  "version": "v454",
+  "release_version": "v454",
   "last_release": {
-    "version": 453,
+    "version": 454,
     "date": "2026-09-20",
-    "type": "news-update",
+    "type": "breaking-news",
     "news_added": [
-      "roma-inter-2-2-lautaro-doppietta-rimonta-19-settembre-2026",
-      "pontida-salvini-lega-unita-tensioni-interne-20-settembre-2026",
-      "netflix-novita-weekend-film-serie-20-settembre-2026"
+      "milano-lite-strada-25enne-accoltellato-gola-20-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Nuove notizie su Roma-Inter, Pontida e uscite streaming",
-    "image_policy_applied": "new-openai-contextual-editorial-images"
+    "change": "Flash in sviluppo sull’accoltellamento di un 25enne a Milano",
+    "image_policy_applied": "new-openai-sensitive-context-editorial-image"
   }
 }
