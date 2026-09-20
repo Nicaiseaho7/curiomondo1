@@ -419,7 +419,7 @@ def main() -> None:
             "date": "2026-09-20",
             "release_date": "2026-09-20",
             "last_update": "editorial-revision-v464",
-            "generatedEditorialImages": max(285, int(state.get("generatedEditorialImages", 0)) + 6),
+            "generatedEditorialImages": 285,
         })
         write_json(Path(name), state)
     write_json(Path("automation/logs/revisione-ultimi-sei-20260920.json"), {
