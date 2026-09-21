@@ -1,7 +1,35 @@
 {
-  "version": 472,
+  "version": 473,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Illustrazione editoriale generata con IA: Francesco Lollobrigida al podio di una conferenza stampa ministeriale a Roma, bandiere italiane sullo sfondo; non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/carta-dedicata-a-te-500-euro-4-novembre-2026-v473-480.webp",
+          "sha256": "deff14e2f941a17eefc077ca015a410d588d5dbf22f3b4373833adc79897563e",
+          "bytes": 15510
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/carta-dedicata-a-te-500-euro-4-novembre-2026-v473-800.webp",
+          "sha256": "8a74bf0abb54afaf3070d0d7c784f0b7eced8e8be8a0a1ce99b658f917b18c6c",
+          "bytes": 31884
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/carta-dedicata-a-te-500-euro-4-novembre-2026-v473-1200.webp",
+          "sha256": "6dfabb9193726e2146fc0c0c6a0ec4c6e440c388b9049082a814c07ddf9fd8e8",
+          "bytes": 62004
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/carta-dedicata-a-te-500-euro-4-novembre-2026.html"
+    },
     {
       "alt": "Scena editoriale neutrale generata con IA: auto dei Carabinieri con scritte CARABINIERI e 112 in una via residenziale all’alba, senza persone arrestate visibili; non è una fotografia documentaria.",
       "variants": [
