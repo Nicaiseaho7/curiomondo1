@@ -1,5 +1,39 @@
 # CurioMondo — Protocollo scoperta notizie in tempo reale
 
+## Revisione v471 — selezione inclusiva e verifica proporzionata
+
+**Data:** 21 settembre 2026  
+**Prevalenza:** questa sezione sostituisce ogni criterio precedente incompatibile che scarti automaticamente una storia per età, assenza di esclusività, singola fonte primaria competente o rilevanza non nazionale.
+
+La scoperta deve individuare sia breaking news sia contenuti utili, ricercati e documentati. La selezione considera:
+
+- interesse pubblico o territoriale;
+- utilità pratica;
+- potenziale di ricerca;
+- curiosità documentata;
+- interesse per personaggi, squadre, film, serie o temi seguiti;
+- sviluppo concreto di una vicenda;
+- disponibilità di un contributo editoriale CurioMondo.
+
+Non serve che tutti i criteri siano presenti: ne basta almeno uno, insieme a verifica adeguata e materia sufficiente.
+
+### Verifica per livello
+
+- **Alto rischio:** fonte primaria più conferma indipendente, oppure due fonti secondarie indipendenti.
+- **Ordinario:** una fonte primaria autentica e competente è sufficiente; la conferma aggiuntiva è consigliata.
+- **Servizio:** è sufficiente la fonte ufficiale pertinente.
+
+L'assenza temporanea di una seconda fonte non comporta lo scarto di una notizia ordinaria o di servizio. Non abbassare invece la soglia per accuse, salute, minori, vittime, guerre, sicurezza, politica sensibile o finanza.
+
+### Freschezza
+
+Le ultime ore hanno priorità, ma non esiste uno scarto automatico dopo 24 ore. Sono ammesse storie meno recenti se ancora attuali, ricercate, utili, nuove per CurioMondo o arricchite da uno sviluppo, una guida, un confronto o conseguenze concrete.
+
+### Esito
+
+Una storia che supera il gate editoriale ma incontra un problema tecnico riparabile deve essere classificata **APPROVATA — PUBBLICAZIONE DA COMPLETARE**, non scartata. La pubblicazione resta conclusa soltanto dopo validazione tecnica e live.
+
+
 **Stato:** obbligatorio, fail-closed  
 **Data:** 19 settembre 2026  
 **Ambito:** richieste «ultime notizie Italia», «ultime notizie mondo» ed equivalenti; ricerca preliminare dei cicli editoriali.  
