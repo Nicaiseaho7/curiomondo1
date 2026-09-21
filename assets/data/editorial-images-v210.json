@@ -1,7 +1,73 @@
 {
-  "version": 468,
+  "version": 469,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "legge-elettorale-italia-rosatellum-stabilicum-come-funziona-ai-v469",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/legge-elettorale-italia-rosatellum-stabilicum-come-funziona-ai-v469-480.webp",
+          "sha256": "e9c3a08d03b93e9453d685709a7de923f57061bf9e7d2251f2307487ab0675d3",
+          "bytes": 26432
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/legge-elettorale-italia-rosatellum-stabilicum-come-funziona-ai-v469-800.webp",
+          "sha256": "ecc1672fde91386d84f58ecdaa16f4a48dc6b8f8d99745cc0653046e2953d937",
+          "bytes": 50444
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/legge-elettorale-italia-rosatellum-stabilicum-come-funziona-ai-v469-1200.webp",
+          "sha256": "1de6ffaf985bdba75f82f5617ad58cb1a5593e63e49d5fbfe0fc1df120558be4",
+          "bytes": 87078
+        }
+      ],
+      "alt": "Seggio elettorale italiano con cabine di cartone, schede e urna trasparente; illustrazione editoriale IA, non una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Ordinary contextual editorial scene: Italian polling station interior with cardboard booths, paper ballots and transparent ballot box; no recognizable politicians; no text in image.",
+      "portraitOnly": false,
+      "article": "/approfondimenti/legge-elettorale-italia-rosatellum-stabilicum-come-funziona.html"
+    },
+    {
+      "key": "come-si-forma-un-tifone-allerta-giappone-jma-ai-v469",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/come-si-forma-un-tifone-allerta-giappone-jma-ai-v469-480.webp",
+          "sha256": "a54a0d5915278ee6141768b977672d7b77b782b041f4589babc7acd8c4ec2bcd",
+          "bytes": 37104
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/come-si-forma-un-tifone-allerta-giappone-jma-ai-v469-800.webp",
+          "sha256": "e1be2367614baf1e4430f49ae6b15c7f7fc8415cccc3538f1a118f2910f6289c",
+          "bytes": 89038
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/come-si-forma-un-tifone-allerta-giappone-jma-ai-v469-1200.webp",
+          "sha256": "d5ee46ce5f92c292d5d1a658950b36cdc9506487e73de97d92ef486b759cc895",
+          "bytes": 169282
+        }
+      ],
+      "alt": "Sala operativa meteorologica con schermi satellitari di un ciclone tropicale; illustrazione editoriale IA, non una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Ordinary contextual editorial scene: Tokyo meteorological operations room, meteorologists watching a tropical cyclone satellite display; no readable text on screens; no public figures.",
+      "portraitOnly": false,
+      "article": "/approfondimenti/come-si-forma-un-tifone-allerta-giappone-jma.html"
+    },
     {
       "key": "legge-elettorale-camera-audizioni-21-settembre-2026-v468",
       "aiGenerated": true,

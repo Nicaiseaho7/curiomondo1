@@ -7,12 +7,13 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 468,
-    "site_version": 468
+    "current_site_version": 469,
+    "site_version": 469
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
     "skills/notizie-trend-google/SKILL.md",
+    "skills/approfondimenti-evergreen/SKILL.md",
     "PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md",
     "CURIO-MONDO-PROTOCOLLO-MAESTRO.md",
     "curiomondo-site-manifest.json",
@@ -249,14 +250,17 @@
   "version": "v468",
   "release_version": "v468",
   "last_release": {
-    "version": 468,
+    "version": 469,
     "date": "2026-09-21",
-    "type": "editorial-cycle",
-    "news_added": [
-      "sport-settimana-21-settembre-2026-serie-a-nazioni-volley-ganna",
-      "film-serie-settimana-21-settembre-2026-youth-minerva-netflix",
-      "legge-elettorale-camera-audizioni-21-settembre-2026"
+    "type": "evergreen-cycle",
+    "news_added": [],
+    "news_updated": [
+      "legge-elettorale-camera-audizioni-21-settembre-2026",
+      "tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026"
     ],
-    "news_updated": []
+    "evergreen_added": [
+      "legge-elettorale-italia-rosatellum-stabilicum-come-funziona",
+      "come-si-forma-un-tifone-allerta-giappone-jma"
+    ]
   }
 }
