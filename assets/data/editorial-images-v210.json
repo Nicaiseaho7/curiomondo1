@@ -1,7 +1,40 @@
 {
-  "version": 475,
+  "version": 477,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "papa-leone-xiv-intelligenza-artificiale-pace-ai4peace-21-settembre-2026-v477",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/papa-leone-xiv-intelligenza-artificiale-pace-ai4peace-21-settembre-2026-v477-480.webp",
+          "sha256": "e7da5006ce4db76fc418d7202880d758fbd6046ca9a643d1f4f6f66d48ae821b",
+          "bytes": 16396
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/papa-leone-xiv-intelligenza-artificiale-pace-ai4peace-21-settembre-2026-v477-800.webp",
+          "sha256": "ebfd6a62a9d144e76ec2c5fb9a565d08dfdd27f31f5869d52762e6bdadbde763",
+          "bytes": 30660
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/papa-leone-xiv-intelligenza-artificiale-pace-ai4peace-21-settembre-2026-v477-1200.webp",
+          "sha256": "e857f3a8c6da173bc7da8970d19a58466463b62a5f4d1f4f4ca3a8c22089c786",
+          "bytes": 48504
+        }
+      ],
+      "alt": "Scena editoriale contestuale ordinaria generata con IA: Papa Leone XIV riconoscibile in un interno istituzionale romano, con espressione serena; somiglianza sintetica, non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "prompt": "Pope Leo XIV in a dignified Roman university interior, ordinary contextual editorial scene about AI and peace; no fabricated action, text or watermark.",
+      "article": "/notizie/papa-leone-xiv-intelligenza-artificiale-pace-ai4peace-21-settembre-2026.html"
+    },
     {
       "alt": "Illustrazione editoriale generata con IA: Xi Jinping in abito scuro in un salone cerimoniale a Pechino, scena contestuale ordinaria; non è una fotografia documentaria.",
       "variants": [

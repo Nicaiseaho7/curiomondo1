@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 475,
-    "site_version": 475
+    "current_site_version": 477,
+    "site_version": 477
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -23,7 +23,7 @@
   "daily_state": {
     "question_source": "Mille_e_piu_domande_per_pensare.pdf (fonte privata fornita dal proprietario; non pubblicare nel sito)",
     "question_source_rule": "choose every future daily question only from the 1125 numbered questions in this PDF and record its number",
-    "current_question_source_number": 452,
+    "current_question_source_number": 453,
     "used_question_source_numbers": [
       87,
       88,
@@ -35,9 +35,10 @@
       1004,
       1005,
       451,
-      452
+      452,
+      453
     ],
-    "last_question_date": "2026-09-20",
+    "last_question_date": "2026-09-21",
     "question_archive_path": "/domanda-del-giorno/",
     "question_library_root": "/biblioteca/vita-relazioni/",
     "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE",
@@ -46,7 +47,7 @@
     "private_source_required_fail_closed": true,
     "timezone": "Europe/Rome",
     "date_source": "current_datetime_in_Europe_Rome_never_UTC",
-    "last_question_slug": "e-possibile-amare-un-altra-persona-se-non-si-impara-prima-ad-amare-se-stessi",
+    "last_question_slug": "lamore-e-un-sentimento-una-decisione-o-una-pratica-quotidiana",
     "last_daily_guides": [
       "come-usare-vpn-gratis",
       "come-cambiare-dns"
@@ -253,21 +254,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 475,
-  "version": "v475",
-  "release_version": "v475",
+  "site_version": 477,
+  "version": "v477",
+  "release_version": "v477",
   "last_release": {
-    "version": 475,
+    "version": 477,
     "date": "2026-09-21",
-    "type": "ultime-notizie-scoop",
+    "type": "notizia-tecnologia",
     "news_added": [
-      "xi-jinping-visita-stato-usa-23-25-settembre-2026",
-      "btp-green-12-anni-tesoro-mandato-21-settembre-2026"
+      "papa-leone-xiv-intelligenza-artificiale-pace-ai4peace-21-settembre-2026"
     ],
-    "news_updated": [
-      "duma-russia-unita-57-percento-spoglio-parziale-21-settembre-2026"
-    ],
+    "news_updated": [],
     "evergreen_added": [],
-    "protocol_rule": "scouting 5 storie, pubblicazione solo se superano i gate"
+    "change": "Messaggio di Leone XIV all’AI4Peace sull’intelligenza artificiale al servizio della pace"
   }
 }

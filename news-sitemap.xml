@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-      <url>
+  <url>
+    <loc>https://curiomondo.it/notizie/papa-leone-xiv-intelligenza-artificiale-pace-ai4peace-21-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-21T19:57:02+02:00</news:publication_date>
+      <news:title>Leone XIV all’AI4Peace: l’intelligenza artificiale deve unire, non dividere</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://curiomondo.it/notizie/xi-jinping-visita-stato-usa-23-25-settembre-2026.html</loc>
     <news:news>
       <news:publication>
@@ -22,7 +33,7 @@
       <news:title>Tesoro, mandato per un nuovo BTP Green a 12 anni</news:title>
     </news:news>
   </url>
-<url>
+  <url>
     <loc>https://curiomondo.it/notizie/google-multa-403-milioni-dpc-irlanda-geolocalizzazione-21-settembre-2026.html</loc>
     <news:news>
       <news:publication>
@@ -55,7 +66,7 @@
       <news:title>Private equity, raccolta a 674 milioni: −60% nel primo semestre</news:title>
     </news:news>
   </url>
-<url>
+  <url>
     <loc>https://curiomondo.it/notizie/carta-dedicata-a-te-500-euro-4-novembre-2026.html</loc>
     <news:news>
       <news:publication>
@@ -85,7 +96,7 @@
         <news:language>it</news:language>
       </news:publication>
       <news:publication_date>2026-09-21T09:49:51+02:00</news:publication_date>
-      <news:title>Duma, Russia Unita al 57,8% dopo lo spoglio: dati ancora parziali</news:title>
+      <news:title>Duma, Russia Unita a 355 seggi: maggioranza record secondo la commissione</news:title>
     </news:news>
   </url>
   <url>
@@ -405,17 +416,6 @@
       </news:publication>
       <news:publication_date>2026-09-19T22:16:00+02:00</news:publication_date>
       <news:title>Bonus trasporti Puglia 2026/27: sconto del 50% per studenti pendolari</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/centrodestra-supermedia-40-7-sotto-41-percento-19-settembre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-19T14:38:00+02:00</news:publication_date>
-      <news:title>Centrodestra al 40,7% nella Supermedia: prima volta sotto il 41%</news:title>
     </news:news>
   </url>
 </urlset>
