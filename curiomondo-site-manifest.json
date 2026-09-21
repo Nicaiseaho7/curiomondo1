@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 477,
-    "site_version": 477
+    "current_site_version": 478,
+    "site_version": 478
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -254,18 +254,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 477,
-  "version": "v477",
-  "release_version": "v477",
+  "site_version": 478,
+  "version": "v478",
+  "release_version": "v478",
   "last_release": {
-    "version": 477,
+    "version": 478,
     "date": "2026-09-21",
-    "type": "notizia-tecnologia",
+    "type": "notizia-economia",
     "news_added": [
-      "papa-leone-xiv-intelligenza-artificiale-pace-ai4peace-21-settembre-2026"
+      "veneto-4-milioni-per-rendere-piu-sicuri-i-macchinari-delle-imprese-metalmeccaniche-21-09-2026"
     ],
     "news_updated": [],
     "evergreen_added": [],
-    "change": "Messaggio di Leone XIV all’AI4Peace sull’intelligenza artificiale al servizio della pace"
+    "change": "Bando Metalmeccanica Veneto 2026: 4 milioni per la sicurezza dei macchinari"
   }
 }
