@@ -1,7 +1,35 @@
 {
-  "version": 478,
+  "version": 479,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Scena editoriale contestuale ordinaria generata con IA: Antonio Tajani e Marco Rubio in abito scuro a un tavolo diplomatico a New York, con bandiere italiana e statunitense; non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/tajani-rubio-intesa-minerali-critici-new-york-21-settembre-2026-v479-480.webp",
+          "sha256": "905c0f18fc7f3d4421c689e0c592fdf6701113177494813d8e6e01762f48231e",
+          "bytes": 21772
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/tajani-rubio-intesa-minerali-critici-new-york-21-settembre-2026-v479-800.webp",
+          "sha256": "b894ff9854b129ef85ad1c0cd15f594c213fc3c80710314f84f5801856bb3df5",
+          "bytes": 45022
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/tajani-rubio-intesa-minerali-critici-new-york-21-settembre-2026-v479-1200.webp",
+          "sha256": "46dc2f9648ab738fee5c1a65f271ea58a008b070f828cce28079629ee1e0a432",
+          "bytes": 86336
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/tajani-rubio-intesa-minerali-critici-new-york-21-settembre-2026.html"
+    },
     {
       "alt": "Scena editoriale contestuale ordinaria generata con IA: due lavoratori con dispositivi di protezione osservano un macchinario metalmeccanico dotato di ripari e sistemi di sicurezza; non è una fotografia documentaria.",
       "variants": [
