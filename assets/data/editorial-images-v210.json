@@ -1,7 +1,108 @@
 {
-  "version": 467,
+  "version": 468,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "legge-elettorale-camera-audizioni-21-settembre-2026-v468",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/legge-elettorale-camera-audizioni-21-settembre-2026-v468-480.webp",
+          "sha256": "c2fa33595f5b12f7bbcfa7acddca9f94c6c5b675a70eec7c92529612da6b7b57",
+          "bytes": 45000
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/legge-elettorale-camera-audizioni-21-settembre-2026-v468-800.webp",
+          "sha256": "7720003ddeb45bb0bf9812b363656b3ff5d38a6f94d48a7cc151626e071632ca",
+          "bytes": 123324
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/legge-elettorale-camera-audizioni-21-settembre-2026-v468-1200.webp",
+          "sha256": "07e6dff23f1cada9a19377b449ebf6d6c3f98ff9a1261a5e8377ccc9cfa7f02c",
+          "bytes": 262668
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA: facciata di Palazzo Montecitorio a Roma con bandiere italiana ed europea, senza politici riconoscibili; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Palazzo Montecitorio exterior with Italian and EU flags, no identifiable politicians.",
+      "portraitOnly": false,
+      "article": "/notizie/legge-elettorale-camera-audizioni-21-settembre-2026.html"
+    },
+    {
+      "key": "film-serie-settimana-21-settembre-2026-youth-minerva-netflix-v468",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/film-serie-settimana-21-settembre-2026-youth-minerva-netflix-v468-480.webp",
+          "sha256": "c3a3b11bfd5d18403317be9cd412d5fc5cfc67f670a33a911274e515fa65ba1d",
+          "bytes": 13434
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/film-serie-settimana-21-settembre-2026-youth-minerva-netflix-v468-800.webp",
+          "sha256": "1f7c9485cb1a770bb1d166733fa5093d319a9eadd3725ad21c1c620ecef5308b",
+          "bytes": 27842
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/film-serie-settimana-21-settembre-2026-youth-minerva-netflix-v468-1200.webp",
+          "sha256": "4ad0a1f05bda78c01b63b843561f74b410607cbbad1ab01f7134939909b929c6",
+          "bytes": 51072
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA: Sharon Horgan, attrice e autrice di Youth, seduta in un soggiorno londinese in luce diurna, scena contestuale ordinaria; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Sharon Horgan in a London living room, ordinary contextual editorial scene for Youth.",
+      "portraitOnly": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/film-serie-settimana-21-settembre-2026-youth-minerva-netflix.html"
+    },
+    {
+      "key": "sport-settimana-21-settembre-2026-serie-a-nazioni-volley-ganna-v468",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/sport-settimana-21-settembre-2026-serie-a-nazioni-volley-ganna-v468-480.webp",
+          "sha256": "e2d908a7b6b2160c733c5d9e5b6fe316e15add84d656956247e2fea6fbfc7c7c",
+          "bytes": 17844
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/sport-settimana-21-settembre-2026-serie-a-nazioni-volley-ganna-v468-800.webp",
+          "sha256": "060b7f6f4738610772be11f51e49e3b0e93bcaad1c61559f636762c92a5c3c5c",
+          "bytes": 36266
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/sport-settimana-21-settembre-2026-serie-a-nazioni-volley-ganna-v468-1200.webp",
+          "sha256": "3a95c4d9ff7a3fab34e45b4d3609e7838e4e2a6b774860a87fcaf626decd334c",
+          "bytes": 67206
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA: Roberto Mancini in tuta azzurra della Nazionale sul campo di Coverciano, scena contestuale ordinaria; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Roberto Mancini in Italy tracksuit at Coverciano training ground, ordinary contextual scene.",
+      "portraitOnly": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/sport-settimana-21-settembre-2026-serie-a-nazioni-volley-ganna.html"
+    },
     {
       "key": "australia-nuova-zelanda-plan-tasman-marine-21-settembre-2026-v467",
       "aiGenerated": true,

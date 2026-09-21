@@ -1,0 +1,45 @@
+{
+  "run_at": "2026-09-21T05:52:00+02:00",
+  "skill": "ultime-notizie-scoop",
+  "desks": [
+    "sport",
+    "cultura",
+    "politica",
+    "italia"
+  ],
+  "processed": [
+    {
+      "title": "Mancini a Coverciano, Serie A chiusa: la settimana di sport dal 21 settembre",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/sport-settimana-21-settembre-2026-serie-a-nazioni-volley-ganna.html"
+    },
+    {
+      "title": "Youth su Max e Minerva su Netflix: film e serie della settimana",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/film-serie-settimana-21-settembre-2026-youth-minerva-netflix.html"
+    },
+    {
+      "title": "Legge elettorale, oggi audizioni alla Camera: niente voto",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/legge-elettorale-camera-audizioni-21-settembre-2026.html"
+    }
+  ],
+  "discarded": [
+    {
+      "topic": "Ottavi Eurovolley Belgio-Cechia e Slovenia-Serbia",
+      "reason": "partite in corso o non ancora giocate: niente punteggi"
+    },
+    {
+      "topic": "Carta dedicata a te, conferenza stampa delle 10.00",
+      "reason": "non ancora avvenuta al momento della chiusura del ciclo"
+    },
+    {
+      "topic": "Cronometro Under 23 Montreal",
+      "reason": "risultati non ancora ufficiali in pagina"
+    },
+    {
+      "topic": "Esiti audizioni I Commissione",
+      "reason": "audizioni alle 11.00, nessun resoconto da pubblicare"
+    }
+  ]
+}
