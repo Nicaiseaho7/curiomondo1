@@ -1,7 +1,34 @@
 {
-  "version": 471,
+  "version": 472,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Scena editoriale neutrale generata con IA: auto dei Carabinieri con scritte CARABINIERI e 112 in una via residenziale all’alba, senza persone arrestate visibili; non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/caivano-casoria-34-misure-cautelari-clan-angelino-21-settembre-2026-v472-480.webp",
+          "sha256": "641fbf30b18e78fc01d1f4d9de6f0373cd0d29bdfec598d546c3e1060db82151",
+          "bytes": 38818
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/caivano-casoria-34-misure-cautelari-clan-angelino-21-settembre-2026-v472-800.webp",
+          "sha256": "1b25db14e2a7b0a58d7c94c0c6f36f1c3d317ad6a8e78b32437fea208f7c9203",
+          "bytes": 102252
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/caivano-casoria-34-misure-cautelari-clan-angelino-21-settembre-2026-v472-1200.webp",
+          "sha256": "0e51078b7dabeec41b38b3c924b13131b071e9553b6d8ca1179fe58f3cbd4db5",
+          "bytes": 203894
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "sensitiveContext": true,
+      "article": "/notizie/caivano-casoria-34-misure-cautelari-clan-angelino-21-settembre-2026.html"
+    },
     {
       "alt": "Illustrazione editoriale generata con IA: facciata della Duma di Stato a Mosca in una mattina nuvolosa, marciapiede quasi vuoto, senza scritte; non è una fotografia documentaria.",
       "variants": [

@@ -1,0 +1,25 @@
+{
+  "ciclo": "ultime-notizie-scoop",
+  "fuso": "Europe/Rome",
+  "ora_chiusura": "2026-09-21T09:58:00+02:00",
+  "pubblicato": {
+    "titolo": "Caivano e Casoria, 34 misure cautelari: blitz dei carabinieri all’alba",
+    "categoria": "Cronaca",
+    "formato": "flash",
+    "slug": "caivano-casoria-34-misure-cautelari-clan-angelino-21-settembre-2026",
+    "path": "notizie/caivano-casoria-34-misure-cautelari-clan-angelino-21-settembre-2026.html",
+    "fonte_primaria": "Nota del Comando provinciale Carabinieri di Napoli, citata da Sky TG24 alle 07:08 CEST",
+    "stato": "UFFICIALE"
+  },
+  "scartati": [
+    {"titolo": "Zelensky-Trump, telefonata e incontro a New York", "motivo": "Fatto di domenica 20 settembre ~20:16 CEST, oltre la fascia 0-6h; già sulle agenzie; incontro non ancora avvenuto"},
+    {"titolo": "Navi neozelandesi nello Stretto di Taiwan", "motivo": "Transito del 18 settembre, comunicato lunedì; impatto inferiore per il lettore italiano; già un pezzo Australia-NZ oggi"},
+    {"titolo": "Tifone Dujuan, aggiornamento Kanto", "motivo": "Articolo già sul sito; nuovo sviluppo (Shinkansen) non ancora un aggiornamento sostanziale autonomo"},
+    {"titolo": "Raid pakistani in Afghanistan", "motivo": "Vittime contestate, Pakistan militare senza comunicato univoco; tema ad alto rischio"},
+    {"titolo": "Albania firma Artemis Accords", "motivo": "Cerimonia alle 18:00 CEST, non ancora firmata"},
+    {"titolo": "Tajani-Rubio MoU minerali critici", "motivo": "In agenda UNGA, non ancora firmato"},
+    {"titolo": "Carta dedicata a te", "motivo": "Evento delle 10:00; decreto già di giugno, niente numeri post-evento"},
+    {"titolo": "Cersaie Bologna inaugurazione", "motivo": "Taglio del nastro 10:45, nessun comunicato post-apertura"},
+    {"titolo": "NASA StarBurst SpaceX", "motivo": "Comunicato del 17 settembre, fuori finestra"}
+  ]
+}
