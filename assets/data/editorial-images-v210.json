@@ -1,7 +1,41 @@
 {
-  "version": 465,
+  "version": 466,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "meteo-italia-21-settembre-2026-sole-allerta-gialla-sud-v466",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/meteo-italia-21-settembre-2026-sole-allerta-gialla-sud-v466-1200.webp",
+          "sha256": "cea4a2bc70da0bdd70a7ed5f264dd8bcb0a2ef4bf959f1887e6186d9d33e3651",
+          "bytes": 115180
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/meteo-italia-21-settembre-2026-sole-allerta-gialla-sud-v466-800.webp",
+          "sha256": "cc210e9b5c1dade77f38d5672ad07fc88f64397d613e942699233a7ef3b36198",
+          "bytes": 61364
+        },
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/meteo-italia-21-settembre-2026-sole-allerta-gialla-sud-v466-480.webp",
+          "sha256": "94fa76c67e9e8ac3b067f8d750133099d786508671e3cdef84ccd198dc6caace",
+          "bytes": 24416
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA: costa italiana a fine settembre con sole sulle facciate e nubi temporalesche sul mare, senza vittime né scritte; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": false,
+      "prompt": "Photorealistic late-September southern Italian coast with sunshine on town facades and storm clouds over the sea, no victims, no text.",
+      "portraitOnly": false,
+      "article": "/notizie/meteo-italia-21-settembre-2026-sole-allerta-gialla-sud.html"
+    },
     {
       "key": "germania-elezioni-berlino-meclemburgo-20-settembre-2026-v465",
       "aiGenerated": true,

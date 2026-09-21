@@ -22,7 +22,7 @@
   "daily_state": {
     "question_source": "Mille_e_piu_domande_per_pensare.pdf (fonte privata fornita dal proprietario; non pubblicare nel sito)",
     "question_source_rule": "choose every future daily question only from the 1125 numbered questions in this PDF and record its number",
-    "current_question_source_number": 453,
+    "current_question_source_number": 452,
     "used_question_source_numbers": [
       87,
       88,
@@ -34,10 +34,9 @@
       1004,
       1005,
       451,
-      452,
-      453
+      452
     ],
-    "last_question_date": "2026-09-21",
+    "last_question_date": "2026-09-20",
     "question_archive_path": "/domanda-del-giorno/",
     "question_library_root": "/biblioteca/vita-relazioni/",
     "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE",
@@ -46,7 +45,7 @@
     "private_source_required_fail_closed": true,
     "timezone": "Europe/Rome",
     "date_source": "current_datetime_in_Europe_Rome_never_UTC",
-    "last_question_slug": "lamore-e-un-sentimento-una-decisione-o-una-pratica-quotidiana",
+    "last_question_slug": "e-possibile-amare-un-altra-persona-se-non-si-impara-prima-ad-amare-se-stessi",
     "last_daily_guides": [
       "come-usare-vpn-gratis",
       "come-cambiare-dns"
@@ -201,4 +200,61 @@
     "generator_contract_file": "automation/prompts/image-generation-contract.txt",
     "mobile_and_hero_crop_check_required": true,
     "retry_on_failure": true,
-    "real_public_figur
+    "real_public_figures_allowed": true,
+    "real_brands_logos_and_places_allowed_when_editorially_relevant": true,
+    "no_false_sponsorship_or_documentary_claim": true
+  },
+  "deep_dives": {
+    "separate_from_news_article": true,
+    "create_when_useful": true,
+    "must_add_new_value": true,
+    "forced_creation_for_simple_terms_forbidden": true,
+    "link_existing_equivalent_instead_of_duplicate": true,
+    "internal_linking_required": true
+  },
+  "seo": {
+    "sitemap": "/sitemap.xml",
+    "news_sitemap": "/news-sitemap.xml",
+    "feed": "/feed.xml",
+    "orphan_pages_forbidden": true
+  },
+  "performance": {
+    "lighthouse_pagespeed_target": {
+      "min": 90,
+      "max": 100
+    },
+    "priority": "mobile",
+    "quality_must_not_be_sacrificed_for_image_optimization": true
+  },
+  "predeploy": {
+    "required": true,
+    "must_exit_zero": true,
+    "publication_blocked_on_error": true
+  },
+  "post_deploy": {
+    "required": true,
+    "checks": [
+      "article_http_200",
+      "hero_image_http_200",
+      "canonical_matches_public_url",
+      "expected_editorial_listing_contains_article",
+      "archive_contains_article",
+      "feed_contains_article_if_eligible",
+      "sitemap_contains_article",
+      "news_sitemap_contains_article_if_eligible"
+    ],
+    "commit_success_is_not_equal_to_verified_publication": true
+  },
+  "site_version": 466,
+  "version": "v466",
+  "release_version": "v466",
+  "last_release": {
+    "version": 466,
+    "date": "2026-09-21",
+    "type": "editorial-cycle",
+    "news_added": [
+      "meteo-italia-21-settembre-2026-sole-allerta-gialla-sud"
+    ],
+    "news_updated": []
+  }
+}
