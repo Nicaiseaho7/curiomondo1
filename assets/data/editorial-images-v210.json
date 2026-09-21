@@ -1,7 +1,34 @@
 {
-  "version": 469,
+  "version": 471,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Illustrazione editoriale generata con IA: facciata della Duma di Stato a Mosca in una mattina nuvolosa, marciapiede quasi vuoto, senza scritte; non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/duma-russia-unita-57-percento-spoglio-parziale-21-settembre-2026-v471-480.webp",
+          "sha256": "01c179f4fb15d7ff29d520cfa8108d9928451fb4ea7ea60164e2d8de907a5640",
+          "bytes": 36110
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/duma-russia-unita-57-percento-spoglio-parziale-21-settembre-2026-v471-800.webp",
+          "sha256": "5c3d57b3817e6cfc63853222608a9ddeac8ad531fadb7c51a2974aed93838537",
+          "bytes": 96830
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/duma-russia-unita-57-percento-spoglio-parziale-21-settembre-2026-v471-1200.webp",
+          "sha256": "d9def8ba1d09d3995f4a4cdc86bb09250e5516f9061b4f655a5d27577d8b44dd",
+          "bytes": 203862
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "sensitiveContext": true,
+      "article": "/notizie/duma-russia-unita-57-percento-spoglio-parziale-21-settembre-2026.html"
+    },
     {
       "key": "legge-elettorale-italia-rosatellum-stabilicum-come-funziona-ai-v469",
       "aiGenerated": true,

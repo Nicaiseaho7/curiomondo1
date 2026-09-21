@@ -1,0 +1,48 @@
+{
+  "run_at": "2026-09-21T09:48:00+02:00",
+  "skill": "ultime-notizie-scoop",
+  "desks": ["mondo", "italia", "politica", "scienza", "sport"],
+  "processed": [
+    {
+      "title": "Duma, Russia Unita al 57,8% dopo lo spoglio: dati ancora parziali",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/duma-russia-unita-57-percento-spoglio-parziale-21-settembre-2026.html",
+      "fonte_primaria": "Commissione elettorale centrale russa, via Vedomosti e Kommersant, 21 settembre 2026 (Europe/Rome)",
+      "stato": "UFFICIALE (dati parziali, non verificabili in modo indipendente)"
+    }
+  ],
+  "discarded": [
+    {
+      "topic": "NASA Earth Observatory, stagione di fusione del ghiaccio artico",
+      "reason": "studio Boisvert et al. pubblicato il 23 aprile 2026; l’Image of the Day di oggi è un riciclo, non un fatto delle ultime 24 ore"
+    },
+    {
+      "topic": "Albania firma gli Artemis Accords",
+      "reason": "cerimonia prevista alle 18:00 CEST, non ancora avvenuta"
+    },
+    {
+      "topic": "Tajani-Rubio memorandum minerali critici",
+      "reason": "firma prevista oggi a New York, non ancora avvenuta"
+    },
+    {
+      "topic": "Carta dedicata a te 2026",
+      "reason": "presentazione in agenda alle 10, nessun comunicato post-evento con numeri nuovi; il decreto è di giugno"
+    },
+    {
+      "topic": "Cersaie 2026 Bologna",
+      "reason": "inaugurazione in corso, niente comunicato post-taglio del nastro"
+    },
+    {
+      "topic": "Tifone Dujuan",
+      "reason": "già in pagina stamattina; aggiornamenti su voli e millimetri non cambiano il quadro"
+    },
+    {
+      "topic": "Milan-Lecce 3-0",
+      "reason": "partita di domenica 20 settembre, fuori dalla finestra del giorno corrente"
+    },
+    {
+      "topic": "Meloni tetto alunni stranieri",
+      "reason": "già coperta da articolo del 20 settembre"
+    }
+  ]
+}
