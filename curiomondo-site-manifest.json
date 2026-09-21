@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 466,
-    "site_version": 466
+    "current_site_version": 467,
+    "site_version": 467
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -245,15 +245,16 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 466,
-  "version": "v466",
-  "release_version": "v466",
+  "site_version": 467,
+  "version": "v467",
+  "release_version": "v467",
   "last_release": {
-    "version": 466,
+    "version": 467,
     "date": "2026-09-21",
     "type": "editorial-cycle",
     "news_added": [
-      "meteo-italia-21-settembre-2026-sole-allerta-gialla-sud"
+      "tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026",
+      "australia-nuova-zelanda-plan-tasman-marine-21-settembre-2026"
     ],
     "news_updated": []
   }

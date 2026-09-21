@@ -1,6 +1,53 @@
 {
-  "version": 466,
+  "version": 467,
   "items": [
+    {
+      "title": "Tifone Dujuan verso Tokyo: allerta piogge e frane nel Kanto",
+      "excerpt": "Passaggio previsto stasera sulla penisola di Boso. Fino a 350 millimetri nel Tokai; possibili ritardi sul Tokaido Shinkansen. Nessun bilancio ufficiale di vittime.",
+      "url": "/notizie/tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-09-21T05:12:00+02:00",
+      "dateLabel": "2026-09-21",
+      "image": "/assets/images/editorial-auto/tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026-v467-800.webp",
+      "imageAlt": "Illustrazione editoriale generata con IA: costa giapponese sotto nubi da tifone, onde alte su un lungomare vuoto, senza vittime né scritte; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026-v467-480.webp 480w, /assets/images/editorial-auto/tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026-v467-800.webp 800w, /assets/images/editorial-auto/tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026-v467-1200.webp 1200w",
+      "featuredHighlights": [
+        "Dujuan",
+        "Kanto"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "960 hPa",
+          "label": "pressione al centro, alle 10 ora locale"
+        },
+        {
+          "icon": "●",
+          "value": "350 mm",
+          "label": "pioggia prevista nel Tokai in 24 ore"
+        },
+        {
+          "icon": "▦",
+          "value": "198 km/h",
+          "label": "raffiche massime secondo l’agenzia"
+        }
+      ]
+    },
+    {
+      "title": "Australia e Nuova Zelanda firmano Plan Tasman: marine più integrate",
+      "excerpt": "L’accordo copre addestramento, personale e operazioni. Segue il Tasman Navy Framework del novembre 2024. Non crea una nuova alleanza.",
+      "url": "/notizie/australia-nuova-zelanda-plan-tasman-marine-21-settembre-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-09-21T05:11:00+02:00",
+      "dateLabel": "2026-09-21",
+      "image": "/assets/images/editorial-auto/australia-nuova-zelanda-plan-tasman-marine-21-settembre-2026-v467-800.webp",
+      "imageAlt": "Illustrazione editoriale generata con IA: due navi da guerra australiane e neozelandesi in navigazione congiunta, senza combattimento; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/australia-nuova-zelanda-plan-tasman-marine-21-settembre-2026-v467-480.webp 480w, /assets/images/editorial-auto/australia-nuova-zelanda-plan-tasman-marine-21-settembre-2026-v467-800.webp 800w, /assets/images/editorial-auto/australia-nuova-zelanda-plan-tasman-marine-21-settembre-2026-v467-1200.webp 1200w"
+    },
     {
       "title": "Meteo, oggi sole e fino a 31 gradi: allerta gialla in Calabria e Sicilia",
       "excerpt": "L’anticiclone delle Azzorre tiene fino a metà settimana. Da martedì le temperature scendono; giovedì arrivano piogge più intense al Nord-Est, poi al Sud.",
@@ -12,28 +59,7 @@
       "imageAlt": "Illustrazione editoriale generata con IA: costa italiana a fine settembre con sole sulle facciate e nubi temporalesche sul mare, senza vittime né scritte; non è una fotografia documentaria.",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/meteo-italia-21-settembre-2026-sole-allerta-gialla-sud-v466-480.webp 480w, /assets/images/editorial-auto/meteo-italia-21-settembre-2026-sole-allerta-gialla-sud-v466-800.webp 800w, /assets/images/editorial-auto/meteo-italia-21-settembre-2026-sole-allerta-gialla-sud-v466-1200.webp 1200w",
-      "featuredHighlights": [
-        "Sole",
-        "gialla"
-      ],
-      "featuredStats": [
-        {
-          "icon": "◆",
-          "value": "26–31°",
-          "label": "massime oggi, sopra la media"
-        },
-        {
-          "icon": "●",
-          "value": "2",
-          "label": "regioni in allerta gialla, Calabria e Sicilia"
-        },
-        {
-          "icon": "▦",
-          "value": "n. 3",
-          "label": "perturbazione attesa da giovedì"
-        }
-      ]
+      "srcset": "/assets/images/editorial-auto/meteo-italia-21-settembre-2026-sole-allerta-gialla-sud-v466-480.webp 480w, /assets/images/editorial-auto/meteo-italia-21-settembre-2026-sole-allerta-gialla-sud-v466-800.webp 800w, /assets/images/editorial-auto/meteo-italia-21-settembre-2026-sole-allerta-gialla-sud-v466-1200.webp 1200w"
     },
     {
       "title": "Germania, la Linke prima a Berlino e l’AfD in Meclemburgo: Merz parla di «disastro»",

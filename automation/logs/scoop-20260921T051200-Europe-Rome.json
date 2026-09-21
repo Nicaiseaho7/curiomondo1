@@ -1,0 +1,45 @@
+{
+  "run_at": "2026-09-21T05:12:00+02:00",
+  "skill": "ultime-notizie-scoop",
+  "desks": [
+    "mondo",
+    "italia",
+    "cronaca",
+    "politica",
+    "sport"
+  ],
+  "processed": [
+    {
+      "title": "Tifone Dujuan verso Tokyo: allerta piogge e frane nel Kanto",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026.html"
+    },
+    {
+      "title": "Australia e Nuova Zelanda firmano Plan Tasman: marine più integrate",
+      "decision": "publish",
+      "public_url": "https://curiomondo.it/notizie/australia-nuova-zelanda-plan-tasman-marine-21-settembre-2026.html"
+    }
+  ],
+  "discarded": [
+    {
+      "topic": "Milan-Lecce 3-0",
+      "reason": "partita di domenica 20 settembre, fuori dal giorno corrente"
+    },
+    {
+      "topic": "Evenepoel-Ganna crono",
+      "reason": "mondiali di domenica 20 settembre"
+    },
+    {
+      "topic": "Germania scrutinio preliminare",
+      "reason": "aggiornamento della storia già in pagina; numeri da confermare sul verbale ufficiale"
+    },
+    {
+      "topic": "Albanese candidatura Consiglio di Sicurezza ONU",
+      "reason": "lancio di campagna per il 2029, meno urgente del tifone in corso"
+    },
+    {
+      "topic": "Carta dedicata a te",
+      "reason": "conferenza stampa alle 10, non ancora avvenuta"
+    }
+  ]
+}

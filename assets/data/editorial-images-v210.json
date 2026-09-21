@@ -1,7 +1,75 @@
 {
-  "version": 466,
+  "version": 467,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "australia-nuova-zelanda-plan-tasman-marine-21-settembre-2026-v467",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/australia-nuova-zelanda-plan-tasman-marine-21-settembre-2026-v467-1200.webp",
+          "sha256": "d0bdf3888c5707c7454cc7ec73f917b563d49a4683c52197b42bfcbf4279f626",
+          "bytes": 104538
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/australia-nuova-zelanda-plan-tasman-marine-21-settembre-2026-v467-800.webp",
+          "sha256": "cff2c7be330cf6e74a5aee20a0c2378905b7c3010ce5235d6869235aa5d18ec6",
+          "bytes": 54212
+        },
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/australia-nuova-zelanda-plan-tasman-marine-21-settembre-2026-v467-480.webp",
+          "sha256": "4ca06a7399e913ac7b221a67bd91e62dcbaa925fb25b287ab78b8c348a437bb6",
+          "bytes": 21302
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA: due navi da guerra australiane e neozelandesi in navigazione congiunta, senza combattimento; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": false,
+      "prompt": "Photorealistic Australian and New Zealand navy ships sailing together, no combat.",
+      "portraitOnly": false,
+      "article": "/notizie/australia-nuova-zelanda-plan-tasman-marine-21-settembre-2026.html"
+    },
+    {
+      "key": "tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026-v467",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI image generation",
+      "variants": [
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026-v467-1200.webp",
+          "sha256": "102d80e07ccfb9a49d0c6b8ac1bbda3afe629f8b99bea0e161667b37607020b6",
+          "bytes": 120650
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026-v467-800.webp",
+          "sha256": "48071e0f66640cdcf03c4822e34eb56f89939b6b2d7383518819837d413bd564",
+          "bytes": 60564
+        },
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026-v467-480.webp",
+          "sha256": "f5984784d321ac1f5a382dca9d7a609c24bd4b09b1f5f0d9edb779d059af7a85",
+          "bytes": 21534
+        }
+      ],
+      "alt": "Illustrazione editoriale generata con IA: costa giapponese sotto nubi da tifone, onde alte su un lungomare vuoto, senza vittime né scritte; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": false,
+      "prompt": "Photorealistic Japanese Pacific coast under Typhoon Dujuan, empty waterfront, no victims.",
+      "portraitOnly": false,
+      "article": "/notizie/tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026.html"
+    },
     {
       "key": "meteo-italia-21-settembre-2026-sole-allerta-gialla-sud-v466",
       "aiGenerated": true,
