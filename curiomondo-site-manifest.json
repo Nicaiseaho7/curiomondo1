@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 469,
-    "site_version": 469
+    "current_site_version": 470,
+    "site_version": 470
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -211,7 +211,14 @@
     "must_add_new_value": true,
     "forced_creation_for_simple_terms_forbidden": true,
     "link_existing_equivalent_instead_of_duplicate": true,
-    "internal_linking_required": true
+    "internal_linking_required": true,
+    "under_related_articles_required": true,
+    "reader_block_class": "cm-evergreen-reader",
+    "reader_block_position": "immediately_after_art_body",
+    "related_card_is_not_sufficient": true,
+    "archive_alone_is_not_sufficient": true,
+    "max_reader_blocks_per_article": 2,
+    "cta_label": "Leggi l’approfondimento →"
   },
   "seo": {
     "sitemap": "/sitemap.xml",
@@ -246,21 +253,19 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 468,
-  "version": "v468",
-  "release_version": "v468",
+  "site_version": 470,
+  "version": "v470",
+  "release_version": "v470",
   "last_release": {
-    "version": 469,
+    "version": 470,
     "date": "2026-09-21",
-    "type": "evergreen-cycle",
+    "type": "protocol-evergreen-under-article",
     "news_added": [],
     "news_updated": [
       "legge-elettorale-camera-audizioni-21-settembre-2026",
       "tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026"
     ],
-    "evergreen_added": [
-      "legge-elettorale-italia-rosatellum-stabilicum-come-funziona",
-      "come-si-forma-un-tifone-allerta-giappone-jma"
-    ]
+    "evergreen_added": [],
+    "protocol_rule": "every evergreen must appear under related news via cm-evergreen-reader"
   }
 }

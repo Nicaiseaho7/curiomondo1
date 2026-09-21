@@ -54,7 +54,7 @@ Clonare o aggiornare il repo (`git pull origin main`) **prima** di scrivere. Poi
 6. Se non resta nessuna notizia valida: **non pubblicare nulla**. Non inventare pezzi per riempire lo slot.
 7. Scrivere articoli originali nello stile CurioMondo (protocollo 4.0: piramide invertita, niente H2/H3 nel corpo, fonti solo in `.art-sources`, byline Redazione CurioMondo). Copiare il markup da un articolo recente (es. `notizie/veroli-badante-arrestata-maltrattamenti-donna-disabile-20-settembre-2026.html`).
 8. Immagine IA nuova per ogni pezzo, tre WebP 480/800/1200 in `assets/images/editorial-auto/`, figcaption esatta, `og:image` e JSON-LD allineati. Personaggi pubblici: somiglianza sintetica dichiarata; ritratto isolato se il contesto è sensibile.
-9. Aggiornare nello stesso ciclo: articolo, homepage (ticker ×2, featured, auto-rail da 5, `#cards`), `notizie/index.html`, categorie, `home-feed-v210.json`, `search-index-v210.json`, `feed.xml`, `sitemap.xml`, `news-sitemap.xml`, `_redirects`, `editorial-images-v210.json`, file di versione (`site_version` +1).
+9. Aggiornare nello stesso ciclo: articolo, homepage (ticker ×2, featured, auto-rail da 5, `#cards`), `notizie/index.html`, categorie, `home-feed-v210.json`, `search-index-v210.json`, `feed.xml`, `sitemap.xml`, `news-sitemap.xml`, `_redirects`, `editorial-images-v210.json`, file di versione (`site_version` +1). Se esiste un approfondimento evergreen pertinente, inserire sotto il corpo il blocco `.cm-evergreen-reader` (regola v470): non basta un link nei correlati.
 10. `python3 tools/predeploy.py` deve uscire **0**. Poi `git push origin main`.
 11. Verificare gli URL pubblici `200` (articolo + hero). Solo allora la pubblicazione è completa.
 

@@ -49,9 +49,35 @@ La Domanda del giorno deve:
 - la pagina non deve sembrare un manuale a capitoli: il mini e-book della Biblioteca può avere una struttura più articolata;
 - le categorie tematiche tipo “Scienze & Natura”, “Mente & Corpo”, “Animali”, ecc. **non devono comparire come pillole orizzontali nella homepage**: restano disponibili nel menu hamburger.
 
-## Approfondimenti collegati in homepage
+## Approfondimenti evergreen sotto ogni articolo correlato — v470 (21 settembre 2026)
 
-La sezione `Approfondimenti collegati` deve mostrare **sempre e soltanto gli ultimi 3 approfondimenti inseriti**, ordinati dal più recente al meno recente. Non mostrarne 4, 5 o 6. Quando viene aggiunto un nuovo approfondimento, inserirlo in prima posizione e rimuovere automaticamente dalla sezione il quarto più vecchio. Le pagine degli approfondimenti più vecchi restano nel sito e negli archivi: vengono soltanto tolte da questo blocco homepage.
+**Stato:** obbligatorio, fail-closed, permanente.
+
+D’ora in poi ogni approfondimento evergreen inserito nel sito deve essere collegato visibilmente **sotto ogni articolo di notizia che lo riguarda**. La sezione `/approfondimenti/` resta l’archivio; non è più l’unico punto in cui il lettore trova la guida.
+
+### Cosa deve vedere il lettore
+Dopo il corpo della notizia deve comparire il blocco `.cm-evergreen-reader`: kicker `Approfondimento`, titolo della guida, una frase di anteprima e il pulsante `Leggi l’approfondimento →`. Un click apre la pagina dell’approfondimento. Chi arriva per la cronaca trova l’evergreen già pronto sotto il testo, senza dover passare dall’indice.
+
+### Posizione
+Subito dopo `.art-body` (e dopo `.art-flow-continuation` se presente). Prima di `Potrebbe interessarti anche` e prima di `Fonti consultate`. Mai dentro il corpo della notizia.
+
+### Quali articoli
+- la notizia di origine;
+- ogni altra notizia sullo stesso meccanismo, procedura, luogo, istituzione o fenomeno.
+
+Una card in `curio-related` **non basta**. L’indice Approfondimenti **non basta**. In homepage gli approfondimenti non hanno una griglia propria: restano nel menu, nell’archivio e **sotto gli articoli correlati**.
+
+### Limiti
+Al massimo due blocchi `.cm-evergreen-reader` per articolo, i più pertinenti. Non inventare un evergreen se manca un contesto durevole. Se esiste già una guida equivalente, collegare quella.
+
+### Pubblicazione completa
+Un approfondimento non è pubblicato finché:
+1. esiste `approfondimenti/<slug>.html` e la card in `approfondimenti/index.html`;
+2. almeno una notizia correlata mostra il blocco cliccabile sotto il testo;
+3. la guida rimanda alle notizie di origine;
+4. ricerca, sitemap e archivio sono aggiornati.
+
+Quando si pubblica una nuova notizia e esiste già un evergreen pertinente, il blocco va aggiunto sotto quella notizia nello stesso ciclo.
 
 
 ### Identità visiva della pagina “Domanda del giorno”
@@ -85,7 +111,7 @@ Quando viene aggiunta una nuova notizia, questa entra nella card di apertura (`f
 - **APPROFONDIMENTO SOLO QUANDO SERVE:** durante la scrittura valutare se un meccanismo, una procedura o un contesto meritano una pagina autonoma e riutilizzabile. Non inserire nella notizia riquadri, glossari o spiegazioni di parole difficili. Se il valore durevole è reale, creare o collegare l’approfondimento dedicato; altrimenti mantenere la notizia concentrata sui fatti.
 - Se esiste già una guida equivalente, collegarla invece di duplicarla. Nessun gancio di conoscenza è obbligatorio e nessun approfondimento può essere creato per raggiungere una lunghezza o aggiungere parole chiave.
 - Quando una notizia offre un meccanismo, un servizio o un contesto con valore durevole e non ridondante, creare o collegare un approfondimento evergreen autonomo. La guida deve essere realmente utile al lettore e non una scusa per definire parole. Prima di crearne uno nuovo verificare che non esista già un approfondimento equivalente.
-- Ogni nuovo approfondimento deve essere collegato in entrambe le direzioni: dalla notizia alla guida e dalla guida alla notizia di origine; deve entrare in ricerca, archivio degli approfondimenti, sitemap e feed. In homepage restano visibili soltanto gli ultimi 3 approfondimenti.
+- Ogni nuovo approfondimento deve comparire sotto ogni articolo correlato nel blocco visibile `.cm-evergreen-reader` (regola v470), oltre che nell’archivio Approfondimenti, in ricerca e in sitemap. Una card in `curio-related` non sostituisce il blocco sotto l’articolo. La guida rimanda alle notizie di origine.
 - “In evidenza” compare soltanto sulla card principale della homepage e non sulle card piccole. Non è assegnata per semplice cronologia: ogni nuova notizia riceve un peso editoriale e la posizione va alla notizia più importante del lotto recente.
 - Il menu hamburger deve mostrare il nome “Nicaise” con resa tipografica premium, elegante e riconoscibile.
 
@@ -248,7 +274,7 @@ Queste regole sostituiscono qualunque limite precedente incompatibile relativo a
 - L'approfondimento deve spiegare il contesto che trasforma la cronaca in cultura generale: origini di un conflitto, storia e funzionamento di un'istituzione, meccanismo di un'elezione, nascita di una tecnologia, logica di una procedura, cause e tappe di un fenomeno.
 - Esempi vincolanti: per Russia-Ucraina spiegare origini, passaggi storici e sviluppo del conflitto; per le elezioni presidenziali USA spiegare come funzionano, come sono nate, primarie, Electoral College e passaggi costituzionali.
 - Non creare un approfondimento artificiale per notizie casuali prive di un contesto durevole sensato. In quel caso il box interno può essere sufficiente.
-- Gli approfondimenti devono essere autonomi, SEO-friendly, indicizzabili, collegati dalla notizia e, quando utile, rimandare alla notizia o al cluster tematico di origine.
+- Gli approfondimenti devono essere autonomi, SEO-friendly, indicizzabili e visibili sotto ogni articolo correlato nel blocco `.cm-evergreen-reader`. Devono anche rimandare alla notizia o al cluster tematico di origine. Non possono restare soltanto nella sezione Approfondimenti.
 
 ### Navigazione paginata Biblioteca/eBook — accessibilità
 - È vietato l'effetto di sfoglio e qualsiasi imitazione di un libro fisico che ruota o gira pagina.

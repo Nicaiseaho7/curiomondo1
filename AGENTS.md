@@ -39,3 +39,6 @@ Se uno qualunque di questi punti manca, segnalare la pubblicazione come **incomp
 
 ## Regola approfondimenti coerente
 Nessun glossario o gancio didascalico è obbligatorio dentro la notizia. Un approfondimento autonomo va creato o collegato **solo quando aggiunge valore durevole, non ridondante e realmente utile**. Se esiste già una guida equivalente, collegarla invece di crearne una nuova. Le spiegazioni tematiche necessarie vivono nella pagina dedicata; la notizia resta concentrata sui fatti.
+
+## Regola permanente v470 — evergreen sotto l’articolo
+Ogni approfondimento evergreen deve comparire **sotto ogni notizia che lo riguarda**, nel blocco visibile `.cm-evergreen-reader` (kicker, titolo, anteprima, `Leggi l’approfondimento →`). Non basta l’indice `/approfondimenti/` né una card in `curio-related`. Posizione: subito dopo `.art-body`. Massimo due blocchi per articolo. Un approfondimento senza almeno un blocco sotto un articolo correlato non è pubblicato.

@@ -127,7 +127,7 @@ Ogni nuovo articolo CurioMondo deve essere comprensibile anche a un lettore che 
 1. Ogni nuovo articolo deve preferire parole comuni e frasi naturali. È vietato spiegare nel corpo della notizia parole difficili, sigle o termini tecnici con inciso, parentesi, box, glossario o formula didascalica.
 2. Quando una spiegazione aggiunge valore reale, deve essere sviluppata in un approfondimento autonomo con pagina dedicata, non inserita per allungare la notizia.
 3. L'approfondimento deve aggiungere conoscenza reale. Non deve ripetere la notizia, riassumere quanto già scritto o essere utilizzato per aumentare artificialmente la lunghezza dell'articolo.
-4. Se esiste già una guida evergreen pertinente nella Biblioteca o nella sezione Approfondimenti, deve essere inserito un collegamento interno. Le relative card non devono comparire nella home page e devono restare accessibili dal menu a tre righe o dai collegamenti interni degli articoli.
+4. Se esiste già una guida evergreen pertinente nella Biblioteca o nella sezione Approfondimenti, deve comparire sotto l’articolo il blocco visibile `.cm-evergreen-reader` (sotto ogni articolo correlato), con titolo, anteprima e pulsante `Leggi l’approfondimento →` verso la pagina della guida. Una card in `curio-related` o il solo indice `/approfondimenti/` non bastano. Le card non devono comparire nella home page; restano nel menu a tre righe, nell’archivio e sotto gli articoli che le riguardano.
 5. Una precisazione fattuale resta ammessa soltanto per evitare un errore, distinguere una dichiarazione da un fatto o fornire un'indicazione di sicurezza. Non deve trasformarsi nella spiegazione lessicale di un termine.
 6. Non devono essere creati approfondimenti forzati quando non aggiungono valore. L'evergreen deve offrire informazioni durevoli, operative e non ripetitive.
 7. Prima della pubblicazione deve essere verificato che il testo sia chiaro senza sovraspiegazioni, che ogni paragrafo aggiunga informazioni nuove, che l'approfondimento sia basato su fonti affidabili e che non contenga tecnicismi inutili o testo di riempimento.
@@ -146,14 +146,29 @@ Requisiti obbligatori:
 4. Titolo SEO e meta description originali e descrittivi.
 5. Dati strutturati `Article` o altra tipologia Schema.org realmente pertinente.
 6. Inserimento nella sitemap XML generale, ma non nella News Sitemap se non costituisce una notizia recente.
-7. Collegamenti interni provenienti dagli articoli pertinenti, dalla Biblioteca o dalla sezione Approfondimenti.
+7. Collegamenti interni provenienti dagli articoli pertinenti — obbligatorio il blocco `.cm-evergreen-reader` sotto ogni notizia correlata — dalla Biblioteca e dalla sezione Approfondimenti.
 8. Inserimento nell'indice di ricerca interno del sito.
 9. Contenuto disponibile direttamente nell'HTML e non caricato esclusivamente tramite JavaScript.
 10. Risposta HTTP prevista `200`, assenza della direttiva `noindex` e assenza di blocchi nel file `robots.txt`.
 11. Testo originale, completo e realmente utile: sono vietate pagine troppo brevi, duplicate o create soltanto per intercettare parole chiave.
 12. Data di pubblicazione e data di aggiornamento devono essere reali. La data di modifica può cambiare soltanto dopo un aggiornamento sostanziale.
 
-Gli approfondimenti possono rimanere esclusi dalla home page, ma devono essere raggiungibili dal menu a tre righe, dalla pagina indice degli Approfondimenti, dai collegamenti interni e dalla sitemap. Nessun approfondimento evergreen deve risultare isolato o privo di collegamenti interni.
+Gli approfondimenti restano esclusi dalla home page, ma devono stare sotto ogni articolo che li riguarda, nel menu a tre righe, nella pagina indice degli Approfondimenti e nella sitemap. Nessun approfondimento evergreen deve risultare isolato o visibile soltanto nell’archivio.
+
+## Blocco evergreen sotto l’articolo — v470
+
+Ogni approfondimento evergreen deve comparire sotto ogni articolo correlato, non soltanto nella parte Approfondimenti.
+
+Requisiti:
+
+1. Markup `.cm-evergreen-reader` subito dopo il corpo della notizia.
+2. Kicker `Approfondimento`, titolo della guida, una frase di anteprima.
+3. Pulsante `Leggi l’approfondimento →` che apre la pagina dell’approfondimento.
+4. Notizia di origine e ogni altra notizia sullo stesso tema.
+5. Massimo due blocchi per articolo.
+6. `tools/predeploy.py` blocca il rilascio se una guida punta a una notizia priva del blocco.
+
+Questa regola è obbligatoria per tutti gli approfondimenti futuri e per quelli già collegati a una notizia.
 
 ## Revisione del sito prima di una nuova richiesta AdSense
 

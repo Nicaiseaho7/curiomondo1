@@ -30,7 +30,7 @@ Italiano professionale, naturale, preciso. Verbi diretti. Niente prima persona e
 
 ## Fonti nel corpo
 
-Le fonti complete stanno solo in **Fonti consultate** (`.art-sources`), fuori da `.art-body`.
+Le fonti complete stanno solo in **Fonti consultate** (`.art-sources`), fuori da `.art-body`. L’eventuale approfondimento evergreen sta sotto l’articolo nel blocco `.cm-evergreen-reader`, mai nel corpo della notizia.
 
 Nel corpo sono vietati elenchi di testate, note sul fact-checking, `Fonti:`, `Fonte primaria:`, `Conferma:`, `Letture:`, `Europe/Rome`, orari di lavorazione, «al momento della verifica», «nei testi consultati», «le testate allineano», «fonti riportate in fondo».
 

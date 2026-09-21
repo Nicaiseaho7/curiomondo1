@@ -350,6 +350,13 @@ patrimonio, musica e spettacoli che non siano film o serie televisive.
 <p>Ultimo paragrafo (prossimi sviluppi, senza ripetere quanto già detto)...</p>
 </article>
 
+<section aria-labelledby="cm-evergreen-SLUG" class="cm-evergreen-reader">
+<small>Approfondimento · Tema</small>
+<h2 id="cm-evergreen-SLUG">Titolo della guida evergreen</h2>
+<p>Una frase di anteprima che dice che cosa impara il lettore.</p>
+<a href="/approfondimenti/SLUG.html">Leggi l’approfondimento →</a>
+</section>
+
 <section class="curio-related" aria-labelledby="curio-related-title">
 <h2 id="curio-related-title">Potrebbe interessarti anche…</h2>
 <div class="curio-related-grid">
@@ -394,10 +401,14 @@ struttura dell'articolo ma: `<div class="badge">Approfondimento · Tema</div>`,
 riga meta "Guida aggiornata il ...", **nessun `data-length-policy`** su `art-body`
 (esente dal cancello 3000-7000), chiusura con
 `<div class="art-flow-continuation"><p>...</p></div>` prima di `art-sources`.
-Aggiungere link **in entrambe le direzioni**: dall'articolo di notizia verso
-l'approfondimento (link inline nel testo o card in `curio-related` con
-`<small>Approfondimento · Tema</small>`), e dall'approfondimento verso la notizia
-in `curio-related`. Registrare il nuovo approfondimento anche in `approfondimenti/index.html`.
+Aggiungere link **in entrambe le direzioni**, con il blocco obbligatorio v470:
+dopo `.art-body` di ogni notizia correlata inserire `.cm-evergreen-reader`
+(kicker, titolo, anteprima, `Leggi l’approfondimento →` verso
+`/approfondimenti/SLUG.html`). Una card in `curio-related` non basta.
+Dall'approfondimento verso la notizia in `curio-related`. Registrare il nuovo
+approfondimento anche in `approfondimenti/index.html`. Gli approfondimenti non
+devono stare soltanto nell'indice: chi legge la notizia deve trovare l'evergreen
+già pronto sotto il testo.
 
 ## 6. File da aggiornare per OGNI pubblicazione (in un unico batch/commit per ciclo)
 

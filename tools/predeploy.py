@@ -40,9 +40,13 @@ editorial_protocol_path=root/'PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md'
 master_protocol_path=root/'CURIO-MONDO-PROTOCOLLO-MAESTRO.md'
 for required_path in (policy_path,prompt_path,config_path,manifest_path,root/'AGENTS.md',editorial_protocol_path,master_protocol_path):
     if not required_path.exists(): errors.append(f'protocollo IA assente: {required_path.relative_to(root)}')
+if master_protocol_path.exists():
+    master_protocol=master_protocol_path.read_text(errors='replace')
+    for marker in ('cm-evergreen-reader','sotto ogni articolo','Leggi l’approfondimento'):
+        if marker not in master_protocol: errors.append(f'direttiva evergreen sotto articolo assente nel protocollo maestro: {marker}')
 if editorial_protocol_path.exists():
     editorial_protocol=editorial_protocol_path.read_text(errors='replace')
-    for marker in ('Versione protocollo: 4.0','piramide invertita','100–250 parole','300–600 parole','800–1.500 parole','non più di 60 parole','È vietato spiegare nel corpo della notizia parole difficili'):
+    for marker in ('Versione protocollo: 4.0','piramide invertita','100–250 parole','300–600 parole','800–1.500 parole','non più di 60 parole','È vietato spiegare nel corpo della notizia parole difficili','cm-evergreen-reader','sotto ogni articolo'):
         if marker not in editorial_protocol: errors.append(f'direttiva editoriale v4 assente: {marker}')
 if prompt_path.exists():
     prompt=prompt_path.read_text(errors='replace')
@@ -525,6 +529,43 @@ for guide_path in guide_paths:
     guide=html.fromstring(guide_path.read_text(errors='replace'))
     visible=re.sub(r'\s+',' ',' '.join(guide.xpath('//main//article//text()'))).strip()
     if not 3000<=len(visible)<=15000: errors.append(f'guida v255 fuori 3000–15000 caratteri: {guide_path.parent.name} ({len(visible)})')
-report={'version':282,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
+
+# v470: every evergreen must appear under the news articles it points to.
+evergreen_dir=root/'approfondimenti'
+if evergreen_dir.exists():
+    for guide in sorted(evergreen_dir.glob('*.html')):
+        if guide.name=='index.html': continue
+        try: gd=html.fromstring(guide.read_text(errors='replace'))
+        except Exception as exc:
+            errors.append(f'approfondimento non valido {guide.name}: {exc}'); continue
+        guide_url=f'/approfondimenti/{guide.name}'
+        news_hrefs=[]
+        for href in gd.xpath('//a/@href'):
+            if not href: continue
+            path=urlparse(href).path
+            if path.startswith('/notizie/') and path.endswith('.html'):
+                news_hrefs.append(path)
+        for news_path in sorted(set(news_hrefs)):
+            news_file=root/news_path.lstrip('/')
+            if not news_file.exists():
+                errors.append(f'approfondimento {guide.name} punta a notizia assente: {news_path}')
+                continue
+            try: nd=html.fromstring(news_file.read_text(errors='replace'))
+            except Exception as exc:
+                errors.append(f'notizia correlata non valida {news_path}: {exc}'); continue
+            readers=nd.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-evergreen-reader ")]')
+            linked=False
+            for reader in readers:
+                for href in reader.xpath('.//a/@href'):
+                    href_path=urlparse(href).path or href
+                    if guide.name in href_path:
+                        linked=True
+                        break
+            if not readers:
+                errors.append(f'evergreen sotto articolo assente: {news_path} deve mostrare {guide_url}')
+            elif not linked:
+                errors.append(f'evergreen sotto articolo non punta alla guida: {news_path} → {guide_url}')
+
+report={'version':283,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
 print(json.dumps(report,ensure_ascii=False,indent=2))
 raise SystemExit(1 if errors else 0)
