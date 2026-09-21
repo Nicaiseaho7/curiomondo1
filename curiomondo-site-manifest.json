@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 473,
-    "site_version": 473
+    "current_site_version": 474,
+    "site_version": 474
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -253,19 +253,20 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 470,
-  "version": "v470",
-  "release_version": "v470",
+  "site_version": 474,
+  "version": "v474",
+  "release_version": "v474",
   "last_release": {
-    "version": 470,
+    "version": 474,
     "date": "2026-09-21",
-    "type": "protocol-evergreen-under-article",
-    "news_added": [],
-    "news_updated": [
-      "legge-elettorale-camera-audizioni-21-settembre-2026",
-      "tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026"
+    "type": "ultime-notizie-scoop",
+    "news_added": [
+      "google-multa-403-milioni-dpc-irlanda-geolocalizzazione-21-settembre-2026",
+      "cnn-ms-now-politico-causa-trump-casa-bianca-21-settembre-2026",
+      "aifi-private-equity-raccolta-674-milioni-semestre-21-settembre-2026"
     ],
+    "news_updated": [],
     "evergreen_added": [],
-    "protocol_rule": "every evergreen must appear under related news via cm-evergreen-reader"
+    "protocol_rule": "scouting 5 storie, pubblicazione solo se superano i gate"
   }
 }
