@@ -153,21 +153,26 @@ etichetta esplicativa sono vietati.
 ## 4. Regole immagini (vincolo specifico di questa automazione, più severo del
    protocollo generale del sito)
 
-- **Se la notizia riguarda una persona pubblica reale e riconoscibile**: è
-  ammesso generare il suo volto, ma **sempre e solo come ritratto/foto profilo
-  neutrale isolato** (inquadratura testa-spalle o mezzobusto, sfondo neutro,
-  espressione calma), **mai** inserito in una scena, situazione, luogo o momento
-  ricostruito/scomodo. Questo vale sempre, non solo per i casi sensibili.
-  - Nel workflow immagine: `is_portrait: true`.
-  - Il testo `alt` deve contenere la frase esatta "ritratto editoriale neutrale"
-    (in minuscolo), richiesta anche da `tools/predeploy.py`.
-  - Nel markup `<figure>`: `data-ai-generated="true" data-synthetic-likeness="public-figure" data-sensitive-context="true|false" data-portrait-format="neutral-isolated"`.
+- **Persone vere, loghi veri (21 settembre 2026, bloccante):** le immagini
+  devono essere fotorealistiche e mostrare i protagonisti **reali**. Vietato
+  inventare volti, extra generici, maglie lisce o loghi di fantasia.
+  - Persona nominata nel titolo o nel lead: quel volto riconoscibile.
+  - Squadra o nazionale: giocatori del roster e maglia ufficiale (stemma,
+    sponsor, fornitore, numeri/nomi).
+  - Prima di generare: cercare foto di riferimento recenti e usarle.
+  - Dopo: se un lettore italiano non riconoscerebbe il soggetto, scartare
+    e rigenerare.
+- **Se la notizia riguarda una persona pubblica reale e riconoscibile**:
+  raffigura quella persona. Nelle notizie **ordinarie** è ammessa una scena
+  contestuale (studio, campo, palazzo, evento) con maglia e loghi veri.
+  Nelle notizie **sensibili** (incidente, morte, salute, violenza, lutto)
+  resta obbligatorio il ritratto neutrale isolato della **stessa persona
+  reale**, mai una ricostruzione traumatica.
+  - Nel markup `<figure>`: `data-ai-generated="true" data-synthetic-likeness="public-figure" data-sensitive-context="true|false"`.
+    Se sensibile: anche `data-portrait-format="neutral-isolated"`.
 - **Se la notizia non richiede il volto di una persona specifica**: immagine
-  fotorealistica della scena/luogo/edificio/oggetto pertinente. Loghi e luoghi
-  riconosciuti sono ammessi. `is_portrait: false`.
-  - Nel markup `<figure>`: `data-ai-generated="true"` (+ `data-sensitive-context="true"`
-    se il tema è sensibile, come negli esempi con `data-ai-generated="true"
-    data-sensitive-context="true"`).
+  fotorealistica della scena/luogo/edificio/oggetto **reale** pertinente.
+  Loghi e luoghi riconosciuti sono ammessi. Non inventare un protagonista.
 - Mai testo, watermark, didascalie o loghi editoriali dentro i pixel dell'immagine.
 - Mai scene che raffigurino direttamente ferite, sangue, corpi, manette, funerali,
   pianto: per i temi sensibili senza volto specifico, restare su scene ambientali

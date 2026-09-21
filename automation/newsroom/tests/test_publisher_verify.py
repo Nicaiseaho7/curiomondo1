@@ -8,7 +8,7 @@ def test_controllo_visivo_json(monkeypatch):
     client = Client(api_key="finta")
     monkeypatch.setattr(client, "_post", lambda *a, **k: {
         "usage": {"prompt_tokens": 10, "completion_tokens": 5},
-        "choices": [{"message": {"content": '{"approvata":true,"fotorealistica":true,"coerente":true,"testo_nei_pixel":false,"contenuto_sensibile_non_consentito":false,"motivo":"ok"}'}}],
+        "choices": [{"message": {"content": '{"approvata":true,"fotorealistica":true,"coerente":true,"soggetto_reale":true,"persone_inventate":false,"testo_nei_pixel":false,"contenuto_sensibile_non_consentito":false,"motivo":"ok"}'}}],
     })
     report, _ = client.inspect_image("gpt-4o", b"png", "una piazza")
     _validate_visual_report(report)

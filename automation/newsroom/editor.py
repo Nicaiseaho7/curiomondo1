@@ -318,7 +318,7 @@ VALORE AGGIUNTO da rendere esplicito nel testo:
     {"icona": "un solo carattere tipo ◆ ▲ ●", "valore": "cifra o parola breve", "etichetta": "cosa rappresenta, max 6 parole"}
   ],
   "immagine": {
-    "prompt": "descrizione in inglese di una fotografia editoriale ultrarealistica specifica per questa notizia, senza testo, titoli, watermark o infografiche",
+    "prompt": "descrizione in inglese di una fotografia editoriale ultrarealistica specifica per questa notizia, con le persone reali nominate, maglie e loghi ufficiali veri, senza volti inventati, testo, titoli, watermark o infografiche",
     "alt": "alt text italiano che dichiara scena editoriale contestuale ordinaria oppure ritratto editoriale neutrale per situazione sensibile",
     "personaggio_pubblico": true oppure false,
     "contesto_sensibile": true oppure false
@@ -331,7 +331,7 @@ Vincoli tassativi:
 - da 3 a 6 fonti, con URL presi dal materiale fornito e mai inventati;
 - esattamente 3 elementi in "dati_chiave", tutti ricavati da cifre o fatti presenti nel materiale;
 - "parole_chiave_titolo" deve contenere parole che compaiono ESATTAMENTE nel titolo che hai scritto;
-- il prompt immagine deve descrivere una fotografia editoriale professionale nuova e specifica, senza testo nei pixel;
+- il prompt immagine deve descrivere una fotografia editoriale professionale nuova e specifica, con le persone reali nominate e i loghi/maglie ufficiali, senza volti inventati e senza testo nei pixel;
 - se la notizia riguarda morte, incidente, malattia, violenza, guerra, catastrofe, arresto, accuse gravi, lutto o sofferenza, il visual non deve ricostruire il trauma. Se raffigura un personaggio pubblico deve essere soltanto un ritratto neutrale isolato."""
 
     dati, uso = client.complete_json(

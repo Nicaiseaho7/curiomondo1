@@ -76,7 +76,7 @@ Sostituiti gli hero del 25 agosto (Verona/Cerea, Andora, Salvini/manovra e SAFE)
 Prima di creare o aggiornare qualunque articolo, leggere `automation/prompts/image-generation-contract.txt`. È il contratto canonico e machine-readable per la generazione delle immagini editoriali e la disclosure IA.
 
 ## Protocollo personaggi pubblici e somiglianza sintetica v234
-Prima di generare immagini con persone pubbliche, leggere anche `AI-EDITORIAL-IMAGE-PROTOCOL.md`. CurioMondo autorizza persone pubbliche riconoscibili, viventi o decedute, in immagini ultrarealistiche direttamente pertinenti alla notizia. Nelle notizie ordinarie sono ammessi posti, luoghi, ambientazioni e loghi coerenti. Soltanto per incidenti, morte, salute, violenza, tragedie, lutto, sofferenza e altre situazioni sensibili è obbligatorio un ritratto neutrale isolato, senza rappresentare il momento doloroso. Le immagini restano illustrazioni editoriali IA dichiarate e non documentarie.
+Prima di generare immagini con persone pubbliche, leggere anche `AI-EDITORIAL-IMAGE-PROTOCOL.md`. CurioMondo autorizza persone pubbliche riconoscibili, viventi o decedute, in immagini ultrarealistiche direttamente pertinenti alla notizia. **I protagonisti devono essere persone, maglie e marchi veri: vietato inventare volti o extra generici.** Cercare foto di riferimento reali e rigenerare se il soggetto non è riconoscibile. Nelle notizie ordinarie sono ammessi posti, luoghi, ambientazioni e loghi coerenti. Soltanto per incidenti, morte, salute, violenza, tragedie, lutto, sofferenza e altre situazioni sensibili è obbligatorio un ritratto neutrale isolato, senza rappresentare il momento doloroso. Le immagini restano illustrazioni editoriali IA dichiarate e non documentarie.
 
 
 ## Disclosure immagini IA

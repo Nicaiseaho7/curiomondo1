@@ -41,6 +41,7 @@ def _image_prompt(article: dict[str, Any]) -> str:
         "\nArticle summary: " + str(article.get("sommario", "")) +
         "\nSpecific visual brief: " + str(image.get("prompt", "")) +
         "\n" + safety +
+        "\nREAL PEOPLE AND REAL LOGOS: if the article names a public figure, team or brand, depict that real recognizable subject with official kit, crest and sponsors. Invented faces, generic extras and fantasy uniforms are forbidden."
         "\nNo headline, caption, statistics, watermark, signature or added editorial text inside the pixels."
     )
 
@@ -60,8 +61,8 @@ def _validate_image(raw: bytes) -> Image.Image:
 
 
 def _validate_visual_report(report: dict[str, Any]) -> None:
-    required_true = ("approvata", "fotorealistica", "coerente")
-    forbidden_true = ("testo_nei_pixel", "contenuto_sensibile_non_consentito")
+    required_true = ("approvata", "fotorealistica", "coerente", "soggetto_reale")
+    forbidden_true = ("testo_nei_pixel", "contenuto_sensibile_non_consentito", "persone_inventate")
     if not all(report.get(key) is True for key in required_true):
         raise OpenAIError(f"immagine bocciata dal controllo visivo: {report.get('motivo', '')[:120]}")
     if any(report.get(key) is True for key in forbidden_true):

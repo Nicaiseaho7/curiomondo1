@@ -57,6 +57,10 @@
         "relevant_locations_allowed": true,
         "relevant_people_objects_vehicles_and_clothing_allowed": true,
         "relevant_logos_allowed": true,
+        "real_named_people_required": true,
+        "invented_faces_or_generic_extras_forbidden": true,
+        "real_kits_crests_and_sponsors_required_for_teams": true,
+        "reference_photos_required_before_generation": true,
         "fabricated_specific_events_as_evidence_forbidden": true
       },
       "sensitive_news": {
