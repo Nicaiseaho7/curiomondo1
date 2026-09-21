@@ -1,5 +1,56 @@
 # Protocollo permanente qualità editoriale e idoneità Google AdSense
 
+## Revisione v471 — gate proporzionato al rischio
+
+**Data:** 21 settembre 2026  
+**Stato:** obbligatorio e prevalente sulle disposizioni incompatibili contenute in questo file o in versioni precedenti.
+
+Il controllo editoriale è proporzionato al rischio della notizia:
+
+1. **Livello A — alto rischio:** politica sensibile, accuse, reati, salute, minori, vittime, guerre, sicurezza e finanza. Richiede una fonte primaria con conferma indipendente oppure almeno due fonti secondarie realmente indipendenti.
+2. **Livello B — ordinario:** sport, cinema, serie TV, cultura, tecnologia, spettacolo, comunicati aziendali e fatti non controversi. È sufficiente una fonte primaria autentica e competente; una seconda fonte è consigliata ma non obbligatoria.
+3. **Livello C — servizio:** calendari, orari, programmi, uscite, bandi, risultati e guide pratiche. È sufficiente la fonte ufficiale pertinente.
+
+### Gate editoriale aggiornato
+
+Una storia è pubblicabile quando:
+
+- i fatti sono verificati o attribuiti con precisione;
+- dispone delle fonti richieste dal proprio livello di rischio;
+- non è la semplice ripetizione di un articolo già presente;
+- offre interesse pubblico, utilità pratica, potenziale di ricerca, curiosità documentata, impatto territoriale oppure uno sviluppo concreto;
+- può essere raccontata professionalmente senza inventare informazioni.
+
+Non è necessario che ogni notizia sia esclusiva, eccezionale o di rilevanza nazionale. Una storia locale, sportiva, culturale o di servizio può essere valida per CurioMondo se è affidabile e utile.
+
+### Freschezza
+
+Il limite di 24 ore non è un motivo automatico di scarto. Una notizia meno recente è pubblicabile quando resta attuale o ricercata, contiene uno sviluppo recente, manca ancora dal sito, interessa il pubblico italiano oppure consente una guida, un confronto o una spiegazione originale. “Ultima ora” resta riservata agli sviluppi effettivamente recenti.
+
+### Valore aggiunto
+
+Per flash, notizie ordinarie e schede di servizio è richiesto **almeno un elemento concreto** tra contesto, conseguenze, cronologia, numeri verificati, indicazioni pratiche, confronto, spiegazione o collegamento utile con sviluppi precedenti. Due elementi restano richiesti soltanto per analisi e approfondimenti autonomi.
+
+Questa regola sostituisce, per i formati ordinari, qualsiasi obbligo precedente di due elementi di valore aggiunto. Il contenuto deve comunque essere originale e non una parafrasi meccanica.
+
+### Duplicati e aggiornamenti
+
+- stesso dossier con nuovi fatti: aggiornare l'articolo esistente;
+- angolazione, conseguenza o pubblico realmente diversi: nuovo articolo collegato;
+- guida o spiegazione autonoma: nuovo contenuto;
+- ripetizione degli stessi fatti senza apporto: non pubblicare.
+
+### Lunghezza e fonti finali
+
+La lunghezza dipende dalla sostanza verificata: flash 100–250 parole, standard 300–700, approfondimento 800+ solo quando giustificato. Non esiste una soglia minima rigida. Il blocco finale può contenere da una a sei fonti, in funzione del livello di rischio e della materia disponibile; ciascuna deve indicare cosa conferma.
+
+### Gate tecnico separato
+
+Un guasto a immagine, feed, sitemap, collegamenti o deploy non rende la storia editorialmente invalida. La storia resta approvata, ma non può essere dichiarata pubblicata finché il problema non viene corretto e la pagina completa non supera i controlli tecnici e live.
+
+Restano sempre bloccanti: falsità, accuse non verificate, fonti contraffatte, dati o citazioni inventati, immagini ingannevoli e contenuti privi di sostanza.
+
+
 Versione protocollo: 4.0
 Data: 10 settembre 2026
 Stato: obbligatorio, fail-closed, prevalente su qualunque istruzione che privilegi quantità o velocità.
