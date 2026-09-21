@@ -6,6 +6,30 @@
 
 ---
 
+## 0.1 REVISIONE EDITORIALE v471 — PUBBLICARE DI PIÙ, SENZA RIDURRE L'AFFIDABILITÀ
+
+**Data:** 21 settembre 2026  
+**Stato:** obbligatorio, permanente e prevalente sulle regole precedenti incompatibili.
+
+CurioMondo non richiede che ogni notizia sia eccezionale, esclusiva o sostenuta dallo stesso numero di fonti. La decisione è proporzionata al rischio:
+
+- **Alto rischio:** politica sensibile, accuse, reati, salute, minori, vittime, guerre, sicurezza e finanza richiedono fonte primaria più conferma indipendente oppure due fonti secondarie indipendenti.
+- **Ordinario:** sport, cinema, serie TV, cultura, tecnologia, spettacolo, comunicati aziendali e fatti non controversi possono basarsi su una fonte primaria autentica e competente.
+- **Servizio:** calendari, orari, programmi, uscite, bandi, risultati e guide pratiche possono basarsi sulla fonte ufficiale pertinente.
+
+Una storia è pubblicabile quando è accurata, adeguatamente verificata per il proprio rischio, non ripete semplicemente un contenuto esistente e possiede almeno un valore tra interesse, utilità, ricerca, curiosità documentata, impatto territoriale o sviluppo concreto.
+
+Il limite di 24 ore non è automatico: contenuti meno recenti restano pubblicabili se attuali, ricercati, utili, nuovi per il sito o arricchiti da uno sviluppo o da un contributo originale.
+
+Per flash, notizie ordinarie e servizio basta almeno un elemento concreto di valore aggiunto. Due elementi restano obbligatori per analisi e approfondimenti autonomi. La lunghezza segue la materia verificata, senza soglie minime rigide e senza riempitivo.
+
+Lo stesso dossier può produrre un aggiornamento dell'articolo esistente oppure un nuovo pezzo quando cambiano angolazione, conseguenze o utilità. Soltanto la ripetizione sostanziale degli stessi fatti è un duplicato.
+
+Un problema tecnico riparabile non causa lo scarto editoriale: la storia resta approvata, ma la pubblicazione non è completa finché tutti gli asset, gli indici, il deploy e la verifica live non risultano corretti.
+
+Restano sempre bloccanti falsità, accuse non verificate, fonti contraffatte, dati inventati, immagini ingannevoli e contenuti privi di sostanza.
+
+
 ## 0. PRINCIPIO GENERALE
 
 CurioMondo è un sito di notizie + Biblioteca di contenuti evergreen + funzioni editoriali ricorrenti.
