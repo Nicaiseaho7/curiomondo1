@@ -485,10 +485,17 @@ if zeros: errors.append(f'{len(zeros)} file immagine vuoti')
 rome_today=datetime.now(ZoneInfo('Europe/Rome')).date().isoformat()
 daily_path=None
 book_path=None
-guide_paths=[
-    root/'biblioteca/vita-relazioni/attenzione-tempo/proteggere-concentrazione-notifiche-smartphone/index.html',
-    root/'biblioteca/vita-relazioni/attenzione-tempo/creare-spazi-propri-giornata-impegni/index.html',
-]
+guide_paths=[]
+try:
+    daily_manifest=json.loads(manifest_path.read_text())
+    daily_slugs=daily_manifest.get('daily_state',{}).get('last_daily_guides',[])
+    if len(daily_slugs)!=2:
+        errors.append('manifest senza esattamente due guide giornaliere')
+    for slug in daily_slugs:
+        matches=list((root/'biblioteca').glob(f'**/{slug}/index.html'))
+        guide_paths.append(matches[0] if matches else root/'biblioteca'/slug/'index.html')
+except Exception as exc:
+    errors.append(f'guide giornaliere non risolvibili dal manifest: {exc}')
 qday=home.xpath('//section[contains(concat(" ",normalize-space(@class)," ")," cm-qday ")]')
 if len(qday)!=1: errors.append('card Domanda del giorno assente o duplicata')
 else:

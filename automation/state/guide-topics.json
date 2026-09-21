@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "policy": {
     "source": "user_canonical_guide_queue",
     "selection_rule": "Choose only from remaining_topics; remove exact topic after successful publication.",
@@ -12,8 +12,6 @@
     {
       "category": "Tecnologia e informatica",
       "remaining_topics": [
-        "Come attivare modalità scura",
-        "Come sincronizzare Google Drive / OneDrive",
         "Come creare PDF",
         "Come comprimere file / foto",
         "Come usare ChatGPT / Gemini / AI",
@@ -42,7 +40,9 @@
         "Come fare screen recording",
         "Come condividere schermo",
         "Come usare VPN gratis",
-        "Come cambiare DNS"
+        "Come cambiare DNS",
+        "Come attivare modalità scura",
+        "Come sincronizzare Google Drive / OneDrive"
       ]
     },
     {
