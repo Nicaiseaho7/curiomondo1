@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 474,
-    "site_version": 474
+    "current_site_version": 475,
+    "site_version": 475
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -253,19 +253,20 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 474,
-  "version": "v474",
-  "release_version": "v474",
+  "site_version": 475,
+  "version": "v475",
+  "release_version": "v475",
   "last_release": {
-    "version": 474,
+    "version": 475,
     "date": "2026-09-21",
     "type": "ultime-notizie-scoop",
     "news_added": [
-      "google-multa-403-milioni-dpc-irlanda-geolocalizzazione-21-settembre-2026",
-      "cnn-ms-now-politico-causa-trump-casa-bianca-21-settembre-2026",
-      "aifi-private-equity-raccolta-674-milioni-semestre-21-settembre-2026"
+      "xi-jinping-visita-stato-usa-23-25-settembre-2026",
+      "btp-green-12-anni-tesoro-mandato-21-settembre-2026"
     ],
-    "news_updated": [],
+    "news_updated": [
+      "duma-russia-unita-57-percento-spoglio-parziale-21-settembre-2026"
+    ],
     "evergreen_added": [],
     "protocol_rule": "scouting 5 storie, pubblicazione solo se superano i gate"
   }

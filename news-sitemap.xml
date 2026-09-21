@@ -1,6 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-    <url>
+      <url>
+    <loc>https://curiomondo.it/notizie/xi-jinping-visita-stato-usa-23-25-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-21T18:32:00+02:00</news:publication_date>
+      <news:title>Xi Jinping in visita di Stato negli Usa dal 23 al 25 settembre</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/btp-green-12-anni-tesoro-mandato-21-settembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-21T18:30:00+02:00</news:publication_date>
+      <news:title>Tesoro, mandato per un nuovo BTP Green a 12 anni</news:title>
+    </news:news>
+  </url>
+<url>
     <loc>https://curiomondo.it/notizie/google-multa-403-milioni-dpc-irlanda-geolocalizzazione-21-settembre-2026.html</loc>
     <news:news>
       <news:publication>

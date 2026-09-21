@@ -1,6 +1,108 @@
 {
-  "version": 474,
+  "version": 475,
   "items": [
+    {
+      "title": "Xi Jinping in visita di Stato negli Usa dal 23 al 25 settembre",
+      "excerpt": "Pechino conferma l’invito di Trump. Accoglienza ad Andrews mercoledì; cerimonia e pranzo di Stato giovedì alla Casa Bianca.",
+      "url": "/notizie/xi-jinping-visita-stato-usa-23-25-settembre-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-09-21T18:32:00+02:00",
+      "dateLabel": "2026-09-21",
+      "image": "/assets/images/editorial-auto/xi-jinping-visita-stato-usa-23-25-settembre-2026-v475-800.webp",
+      "imageAlt": "Illustrazione editoriale generata con IA: Xi Jinping in abito scuro in un salone cerimoniale a Pechino, scena contestuale ordinaria; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/xi-jinping-visita-stato-usa-23-25-settembre-2026-v475-480.webp 480w, /assets/images/editorial-auto/xi-jinping-visita-stato-usa-23-25-settembre-2026-v475-800.webp 800w, /assets/images/editorial-auto/xi-jinping-visita-stato-usa-23-25-settembre-2026-v475-1200.webp 1200w",
+      "featuredHighlights": [
+        "Xi Jinping",
+        "visita di Stato"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "23-25 set",
+          "label": "visite di Stato negli Stati Uniti"
+        },
+        {
+          "icon": "▲",
+          "value": "479",
+          "label": "militari alla cerimonia di giovedì"
+        },
+        {
+          "icon": "●",
+          "value": "maggio",
+          "label": "ultima visita di Trump a Pechino"
+        }
+      ]
+    },
+    {
+      "title": "Tesoro, mandato per un nuovo BTP Green a 12 anni",
+      "excerpt": "Scadenza 30 ottobre 2038. Importo e cedola non sono ancora fissati: la transazione partirà in base al mercato.",
+      "url": "/notizie/btp-green-12-anni-tesoro-mandato-21-settembre-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-09-21T18:30:00+02:00",
+      "dateLabel": "2026-09-21",
+      "image": "/assets/images/editorial-auto/btp-green-12-anni-tesoro-mandato-21-settembre-2026-v475-800.webp",
+      "imageAlt": "Illustrazione editoriale generata con IA: facciata del palazzo del ministero dell’Economia a Roma, bandiere italiane, pomeriggio nuvoloso; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/btp-green-12-anni-tesoro-mandato-21-settembre-2026-v475-480.webp 480w, /assets/images/editorial-auto/btp-green-12-anni-tesoro-mandato-21-settembre-2026-v475-800.webp 800w, /assets/images/editorial-auto/btp-green-12-anni-tesoro-mandato-21-settembre-2026-v475-1200.webp 1200w",
+      "featuredHighlights": [
+        "Tesoro",
+        "BTP Green"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "12 anni",
+          "label": "durata del nuovo titolo Green"
+        },
+        {
+          "icon": "▲",
+          "value": "30 ott 2038",
+          "label": "scadenza comunicata dal Mef"
+        },
+        {
+          "icon": "●",
+          "value": "6 banche",
+          "label": "mandatarie del collocamento"
+        }
+      ]
+    },
+    {
+      "title": "Duma, Russia Unita a 355 seggi: maggioranza record secondo la commissione",
+      "excerpt": "Con oltre il 95% dei verbali Pamfilova dà al partito il 57,83% sulla lista. L’Ue non riconosce il voto nei territori occupati.",
+      "url": "/notizie/duma-russia-unita-57-percento-spoglio-parziale-21-settembre-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-09-21T09:49:51+02:00",
+      "dateLabel": "2026-09-21",
+      "image": "/assets/images/editorial-auto/duma-russia-unita-355-seggi-21-settembre-2026-v475-800.webp",
+      "imageAlt": "Illustrazione editoriale generata con IA: facciata della Duma di Stato a Mosca in una mattina nuvolosa, marciapiede quasi vuoto, senza scritte editoriali; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/duma-russia-unita-355-seggi-21-settembre-2026-v475-480.webp 480w, /assets/images/editorial-auto/duma-russia-unita-355-seggi-21-settembre-2026-v475-800.webp 800w, /assets/images/editorial-auto/duma-russia-unita-355-seggi-21-settembre-2026-v475-1200.webp 1200w",
+      "featuredHighlights": [
+        "Duma",
+        "355 seggi"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "355",
+          "label": "seggi su 450 secondo la commissione"
+        },
+        {
+          "icon": "▲",
+          "value": "57,83%",
+          "label": "lista federale di Russia Unita"
+        },
+        {
+          "icon": "●",
+          "value": "25 set",
+          "label": "proclamazione ufficiale non prima"
+        }
+      ]
+    },
     {
       "title": "Google, multa da 403 milioni in Irlanda sui dati di geolocalizzazione",
       "excerpt": "La Data Protection Commission ha deciso oggi. Sei mesi per adeguarsi. Google parla di policy già aggiornate.",
@@ -168,40 +270,6 @@
           "icon": "●",
           "value": "Gip Napoli",
           "label": "ordinanza su richiesta Dda"
-        }
-      ]
-    },
-    {
-      "title": "Duma, Russia Unita al 57,8% dopo lo spoglio: dati ancora parziali",
-      "excerpt": "Dopo oltre il 90% dei verbali la commissione russa dà il partito di governo in testa sulla lista federale. I risultati definitivi sono attesi non prima del 25 settembre.",
-      "url": "/notizie/duma-russia-unita-57-percento-spoglio-parziale-21-settembre-2026.html",
-      "section": "Mondo",
-      "dateISO": "2026-09-21T09:49:51+02:00",
-      "dateLabel": "2026-09-21",
-      "image": "/assets/images/editorial-auto/duma-russia-unita-57-percento-spoglio-parziale-21-settembre-2026-v471-800.webp",
-      "imageAlt": "Illustrazione editoriale generata con IA: facciata della Duma di Stato a Mosca in una mattina nuvolosa, marciapiede quasi vuoto, senza scritte; non è una fotografia documentaria.",
-      "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/duma-russia-unita-57-percento-spoglio-parziale-21-settembre-2026-v471-480.webp 480w, /assets/images/editorial-auto/duma-russia-unita-57-percento-spoglio-parziale-21-settembre-2026-v471-800.webp 800w, /assets/images/editorial-auto/duma-russia-unita-57-percento-spoglio-parziale-21-settembre-2026-v471-1200.webp 1200w",
-      "featuredHighlights": [
-        "Duma",
-        "Russia Unita"
-      ],
-      "featuredStats": [
-        {
-          "icon": "◆",
-          "value": "57,86%",
-          "label": "lista federale Russia Unita"
-        },
-        {
-          "icon": "▲",
-          "value": "90,43%",
-          "label": "verbali già scrutinati"
-        },
-        {
-          "icon": "●",
-          "value": "25 set",
-          "label": "proclamazione non prima"
         }
       ]
     },
