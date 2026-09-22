@@ -1,4 +1,4 @@
-/* CurioMondo v504 — one responsive renderer for every editorial homepage card. */
+/* CurioMondo v506 — category pairs: lead card followed by its horizontal rail. */
 (() => {
   'use strict';
   const A = window.CMHomepageAllocation;
@@ -90,17 +90,20 @@
     block.dataset.category = category.id;
     block.style.setProperty('--cm-category-color', category.color);
     if (lead) block.append(largeCard(lead, category.label, category.color));
-    block.append(el('h2', 'cm-topic-section__title', category.label));
+    const rail = el('div', 'cm-topic-section__rail');
+    rail.dataset.forCategory = category.id;
+    rail.append(el('h2', 'cm-topic-section__title', category.label));
     if (cards.length) {
       const grid = el('div', 'cm-topic-grid');
       grid.append(...cards.map((entry) => smallCard(entry, category)));
-      block.append(grid);
+      rail.append(grid);
     }
     if (category.archive) {
       const archive = el('a', 'cm-topic-archive', category.id === 'meteo' ? 'Tutte le notizie Meteo →' : `Tutte le notizie di ${category.label} →`);
       archive.href = category.archive;
-      block.append(archive);
+      rail.append(archive);
     }
+    block.append(rail);
     return block;
   };
   function updateRest(allocation) {
