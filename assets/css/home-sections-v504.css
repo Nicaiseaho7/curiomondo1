@@ -9,6 +9,9 @@
 .cm-topic-label{display:inline-flex;align-self:flex-start;color:#fff;background:var(--cm-category-color);border-radius:999px;padding:7px 11px;font-size:.78rem;font-weight:850;letter-spacing:.055em;text-transform:uppercase}
 .cm-topic-lead__title{margin:13px 0 10px;color:#fff;font-size:clamp(1.65rem,4vw,3.25rem);line-height:1.04;text-wrap:balance;text-shadow:0 2px 18px rgba(0,0,0,.3)}
 .cm-topic-lead picture{z-index:-2;display:block;width:100%;height:100%;background:#102940}
+.cm-topic-lead picture,.cm-topic-card picture{contain:layout paint;transform:translateZ(0);backface-visibility:hidden}
+.cm-image-frame--error{background:linear-gradient(135deg,#dfe8ef,#edf3f7)!important}
+.cm-image-frame--error img{visibility:hidden}
 .cm-topic-lead img,.cm-topic-card img{display:block;width:100%;height:100%;object-fit:cover}
 .cm-topic-lead__summary{max-width:780px;margin:0 0 15px;color:rgba(255,255,255,.9);font-size:clamp(.94rem,1.6vw,1.08rem);line-height:1.5}
 .cm-topic-lead__footer{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
