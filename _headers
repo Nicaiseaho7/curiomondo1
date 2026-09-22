@@ -6,6 +6,10 @@
   Content-Type: application/xml; charset=UTF-8
   Cache-Control: public, max-age=60, must-revalidate
 
+/feed.xml
+  Content-Type: application/xml; charset=UTF-8
+  Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+
 /robots.txt
   Content-Type: text/plain; charset=UTF-8
   Cache-Control: public, max-age=300, must-revalidate
