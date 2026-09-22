@@ -164,6 +164,29 @@ def confirm_release(state_dir: Path, commit_sha: str) -> dict[str, Any]:
     return {"status": "ok", "confirmed": confirmed, "commit": commit_sha}
 
 
+
+def repair_release(state_dir: Path) -> dict[str, Any]:
+    """Rigenera in modo idempotente le superfici del lotto già renderizzato."""
+    store = Store(state_dir)
+    queued = [candidate.article for candidate in store.by_status(QUEUED) if candidate.article]
+    if not queued:
+        return {"status": "blocked", "reason": "nessun lotto in coda da riparare"}
+    version = _version()
+    best = max(queued, key=lambda article: float(article.get("score", 0) or 0))
+    featured_url = f"/notizie/{best['slug']}.html"
+    sync_surfaces(queued, featured_url, version)
+    store.note_cycle("publish_auto_repair", {
+        "version": version,
+        "articles": [article.get("slug") for article in queued],
+    })
+    store.save()
+    return {
+        "status": "ok",
+        "repaired": [article.get("slug") for article in queued],
+        "version": version,
+    }
+
+
 def rollback_release(state_dir: Path) -> dict[str, Any]:
     """Rimette in bozza il lotto se gate o push falliscono."""
     store = Store(state_dir); restored = []
@@ -181,12 +204,15 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--max", type=int, default=3)
     parser.add_argument("--confirm", action="store_true")
     parser.add_argument("--rollback", action="store_true")
+    parser.add_argument("--repair", action="store_true")
     parser.add_argument("--commit", default="")
     args = parser.parse_args(argv)
-    if args.confirm and args.rollback:
-        parser.error("--confirm e --rollback sono mutuamente esclusivi")
+    if sum((args.confirm, args.rollback, args.repair)) > 1:
+        parser.error("--confirm, --rollback e --repair sono mutuamente esclusivi")
     if args.confirm:
         result = confirm_release(Path(args.state), args.commit)
+    elif args.repair:
+        result = repair_release(Path(args.state))
     elif args.rollback:
         result = rollback_release(Path(args.state))
     else:
