@@ -7,7 +7,7 @@ il workflow pubblica soltanto dopo il gate ``tools/predeploy.py``.
 from __future__ import annotations
 
 from datetime import datetime, timedelta
-from email.utils import format_datetime
+from email.utils import format_datetime, parsedate_to_datetime
 from html import escape
 import json
 import re
@@ -358,14 +358,32 @@ def sync_surfaces(new_articles: list[dict[str, Any]], featured_url: str, version
     archive_path.write_text('<!doctype html>\n' + html.tostring(archive, encoding="unicode", method="html"), encoding="utf-8")
 
     rss_path = ROOT / "feed.xml"; tree = ET.parse(rss_path); channel = tree.getroot().find("channel")
+    # Il feed contiene anche Domanda del giorno, eBook e guide. Il deploy
+    # AdSense rigenera le sole notizie: conservarne gli item non-news evita
+    # che il build cancelli dal feed il pacchetto quotidiano appena pubblicato.
+    preserved = []
     for node in list(channel):
-        if node.tag == "item": channel.remove(node)
+        if node.tag != "item":
+            continue
+        target = (node.findtext("guid") or node.findtext("link") or "").strip()
+        if "/notizie/" not in target:
+            preserved.append(node)
+        channel.remove(node)
+    news_nodes = []
     for item in feed_items:
-        node = ET.SubElement(channel, "item"); full = "https://curiomondo.it" + item["url"]
+        node = ET.Element("item"); full = "https://curiomondo.it" + item["url"]
         ET.SubElement(node, "title").text = item["title"]; ET.SubElement(node, "link").text = full
         ET.SubElement(node, "guid").text = full
         ET.SubElement(node, "pubDate").text = format_datetime(datetime.fromisoformat(item["dateISO"].replace("Z", "+00:00")))
         ET.SubElement(node, "description").text = item["excerpt"]
+        news_nodes.append(node)
+    def rss_timestamp(node: ET.Element) -> float:
+        try:
+            return parsedate_to_datetime(node.findtext("pubDate") or "").timestamp()
+        except (TypeError, ValueError, OverflowError):
+            return 0.0
+    for node in sorted(preserved + news_nodes, key=rss_timestamp, reverse=True):
+        channel.append(node)
     ET.indent(tree, space="  "); tree.write(rss_path, encoding="utf-8", xml_declaration=True)
 
     ET.register_namespace("", SM_NS); ET.register_namespace("news", NEWS_NS)

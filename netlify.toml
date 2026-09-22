@@ -1,6 +1,6 @@
 [build]
   publish = "."
-  command = "python3 -m pip install --disable-pip-version-check -q -r requirements-netlify.txt && python3 tools/adsense_structural_review.py --apply --threshold 300 --version 520 && python3 tools/adsense_deploy_gate.py"
+  command = "python3 -m pip install --disable-pip-version-check -q -r requirements-netlify.txt && python3 tools/adsense_structural_review.py --apply --threshold 300 && python3 tools/adsense_deploy_gate.py"
 
 [build.environment]
   PYTHON_VERSION = "3.12"

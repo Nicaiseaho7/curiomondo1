@@ -51,8 +51,14 @@ def main():
     parser=argparse.ArgumentParser()
     parser.add_argument("--apply",action="store_true")
     parser.add_argument("--threshold",type=int,default=300)
-    parser.add_argument("--version",type=int,default=520)
+    parser.add_argument("--version",type=int)
     args=parser.parse_args()
+    version=args.version
+    if version is None:
+        manifest=json.loads((ROOT/"curiomondo-site-manifest.json").read_text(encoding="utf-8"))
+        site=manifest.get("site",{})
+        version=int(manifest.get("site_version") or manifest.get("version") or
+                    site.get("site_version") or site.get("current_site_version") or 0)
     rows=[inspect(p) for p in sorted((ROOT/"notizie").glob("*.html")) if p.name!="index.html"]
     weak=[r for r in rows if r["indexed"] and r["words"]<args.threshold]
     report={"policy":"indexed news below 300 words require substantive revision",
@@ -65,7 +71,7 @@ def main():
             if 'data-editorial-status="revision-required"' in page.read_text(encoding="utf-8",errors="replace"):
                 quarantine(page)
         from automation.newsroom.site import sync_surfaces
-        sync_surfaces([],"",args.version)
+        sync_surfaces([],"",version)
         report["applied"]=True; report["indexed_after"]=report["indexed_before"]-len(weak)
     out=ROOT/"reports"/"adsense-structural-review.json"; out.parent.mkdir(exist_ok=True)
     out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
