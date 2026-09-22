@@ -53,18 +53,19 @@
   const largeCard = (entry, label, color, primary = false) => {
     const article = el('article', 'cm-topic-lead' + (primary ? ' cm-topic-lead--primary' : ''));
     article.style.setProperty('--cm-category-color', color);
+    const visual = picture(entry, primary);
     const body = el('div', 'cm-topic-lead__body');
     body.append(el('span', 'cm-topic-label', label));
     const title = el(primary ? 'h1' : 'h3', 'cm-topic-lead__title', entry.title);
     body.append(title);
-    const visual = picture(entry, primary);
-    if (visual) body.append(visual);
     if (entry.excerpt) body.append(el('p', 'cm-topic-lead__summary', entry.excerpt));
-    body.append(time(entry));
+    const footer = el('div', 'cm-topic-lead__footer');
     const link = el('a', 'cm-topic-lead__cta', 'Leggi l’articolo →');
     link.href = entry.url;
-    body.append(link);
+    footer.append(link, time(entry));
+    body.append(footer);
     article.append(body);
+    if (visual) article.append(visual);
     return article;
   };
   const smallCard = (entry, category) => {
