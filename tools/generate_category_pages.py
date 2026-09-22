@@ -13,6 +13,7 @@ CATEGORIES = {
     "cronaca": ("Cronaca", "Fatti di cronaca, giustizia, sicurezza e avvenimenti dai territori.", ["cronaca", "giustizia", "sicurezza"]),
     "economia": ("Economia", "Mercati, lavoro, imprese, energia e finanza spiegati con chiarezza.", ["economia"]),
     "sport": ("Sport", "Risultati, competizioni, protagonisti e storie dal mondo dello sport.", ["sport"]),
+    "meteo": ("Meteo", "Previsioni, allerte e fenomeni meteorologici spiegati con fonti verificabili.", ["meteo", "previsioni", "maltempo"]),
     "tecnologia": ("Tecnologia", "Innovazione, intelligenza artificiale, piattaforme e industria digitale.", ["tecnologia"]),
     "cultura": ("Cultura", "Arte, spettacolo, televisione, libri e patrimonio culturale.", ["cultura", "film e serie tv"]),
     "scienza": ("Scienza", "Ricerca, spazio, salute e scoperte scientifiche.", ["scienza", "spazio", "salute"]),
@@ -51,7 +52,7 @@ def main():
     data = json.loads(DATA.read_text(encoding="utf-8"))
     news = [item for item in data["items"] if item.get("url", "").startswith("/notizie/")]
     for slug, (label, description, terms) in CATEGORIES.items():
-        selected = [item for item in news if any(term in normalize(item.get("section")) for term in terms)]
+        selected = [item for item in news if any(term in normalize(" ".join((item.get("section", ""), item.get("title", "")))) for term in terms)]
         target = ROOT / "categorie" / slug / "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(render(slug, label, description, selected), encoding="utf-8")
