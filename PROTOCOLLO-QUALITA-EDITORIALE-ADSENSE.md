@@ -1,5 +1,23 @@
 # Protocollo permanente qualità editoriale e idoneità Google AdSense
 
+## REVISIONE v503 — GATE PROPORZIONATO E AUTORIPARAZIONE
+
+**Data:** 22 settembre 2026  
+**Stato:** obbligatorio, permanente e prevalente sulle regole incompatibili precedenti.
+
+L'obiettivo operativo è pubblicare un numero maggiore di articoli interessanti senza ridurre accuratezza, trasparenza o sicurezza.
+
+- Per notizie ordinarie e contenuti di servizio è sufficiente una fonte primaria o ufficiale autentica e competente. La seconda conferma è consigliata, non obbligatoria.
+- Per flash, notizie ordinarie e servizio basta un solo elemento concreto di utilità o valore aggiunto. Due elementi sono richiesti soltanto per analisi e approfondimenti autonomi.
+- La rilevanza nazionale, l'esclusività e la pubblicazione entro 24 ore non sono requisiti. Sono ammesse notizie locali, di nicchia, culturali, sportive, di spettacolo e sviluppi fino a sette giorni o oltre quando ancora attuali, ricercati, utili o nuovi per CurioMondo.
+- Una storia già trattata può produrre un nuovo articolo se cambia l'angolazione, il pubblico, la conseguenza o l'utilità. È duplicato soltanto il contenuto sostanzialmente identico.
+- Un difetto tecnico riparabile non comporta lo scarto dell'articolo. L'agente è autorizzato a correggere autonomamente file, indici, feed, sitemap, canonical, dati strutturati, immagini, collegamenti, categorie, cache-busting e pipeline necessari alla pubblicazione, limitandosi al repository CurioMondo e preservando i contenuti già validi.
+- Dopo una riparazione, rieseguire il gate tecnico. Dichiarare conclusa la pubblicazione solo dopo il superamento dei controlli predeploy e live.
+- Restano bloccanti: fatti inventati, fonti false, accuse o dati sensibili non verificati, citazioni inesistenti, immagini fuorvianti, violazioni legali, contenuti privi di sostanza e problemi tecnici non risolti dopo i tentativi sicuri di riparazione.
+
+Il principio è: **riparare e pubblicare quando la storia è valida; bloccare soltanto quando il difetto editoriale non è sanabile o il rilascio tecnico resta non valido.**
+
+
 ## Revisione v471 — gate proporzionato al rischio
 
 **Data:** 21 settembre 2026  
