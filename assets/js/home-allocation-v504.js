@@ -1,4 +1,4 @@
-/* CurioMondo v513 — a permanent first-position featured card without duplicates. */
+/* CurioMondo v514 — mobile category rails with up to ten unique cards. */
 (function (root, factory) {
   const api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
@@ -10,7 +10,7 @@
     timeZone: 'Europe/Rome',
     promotionHours: 3,
     latestCapacity: 5,
-    smallCardsPerCategory: 3,
+    smallCardsPerCategory: 11,
     categories: Object.freeze([
       { id: 'sport', label: 'Sport', color: '#1565C0', archive: '/categorie/sport/', aliases: ['sport', 'calcio', 'basket', 'tennis', 'motogp'] },
       { id: 'politica', label: 'Politica', color: '#B91C1C', archive: '/categorie/politica/', aliases: ['politica', 'governo', 'parlamento', 'elezioni'] },

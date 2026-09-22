@@ -1,4 +1,4 @@
-/* CurioMondo v513 — unified large cards and persistent images. */
+/* CurioMondo v514 — mobile-first featured card and ten-card category rails. */
 (() => {
   'use strict';
   const A = window.CMHomepageAllocation;
@@ -12,7 +12,12 @@
   const legacyLatestTitle = $('.auto-rail-label');
   const legacyLatest = $('.auto-rail');
   if (!legacyFeatured || !legacyLatestTitle || !legacyLatest) return;
-  legacyFeatured.before(zone);
+  const mobileLayout = window.matchMedia('(max-width: 760px)');
+  const placeZone = () => {
+    const anchor = mobileLayout.matches ? $('.cm-qday') : legacyFeatured;
+    (anchor || legacyFeatured).before(zone);
+  };
+  placeZone();
   const hideLegacy = () => [legacyFeatured, legacyLatestTitle, legacyLatest].forEach((node) => {
     node.hidden = true;
     node.setAttribute('aria-hidden', 'true');
@@ -158,15 +163,21 @@
     const overrides = editorialConfig && editorialConfig.articles || {};
     const items = (Array.isArray(payload.items) ? payload.items : []).map((entry) => ({ ...entry, ...(overrides[entry.url] || {}) }));
     if (current !== generation) return;
-    const allocation = A.allocate(items, { now: new Date() });
+    const allocation = A.allocate(items, {
+      now: new Date(),
+      latestCapacity: mobileLayout.matches ? 0 : A.CONFIG.latestCapacity,
+      smallCardsPerCategory: 11
+    });
     const fragment = document.createDocumentFragment();
     if (allocation.featured) fragment.append(largeCard(allocation.featured, 'In primo piano', '#B91C1C', true));
-    const latestSection = el('section', 'cm-latest-section');
-    latestSection.append(el('h2', 'cm-latest-title', 'Ultime notizie'));
-    const latestGrid = el('div', 'cm-latest-grid');
-    latestGrid.append(...allocation.latest.map(latestCard));
-    latestSection.append(latestGrid);
-    fragment.append(latestSection);
+    if (allocation.latest.length) {
+      const latestSection = el('section', 'cm-latest-section');
+      latestSection.append(el('h2', 'cm-latest-title', 'Ultime notizie'));
+      const latestGrid = el('div', 'cm-latest-grid');
+      latestGrid.append(...allocation.latest.map(latestCard));
+      latestSection.append(latestGrid);
+      fragment.append(latestSection);
+    }
     allocation.sections.forEach((item) => fragment.append(section(item)));
     zone.replaceChildren(fragment);
     hideLegacy();
@@ -179,6 +190,10 @@
     zone.dataset.state = 'feed-error';
     zone.dataset.error = String(error && error.message || error).slice(0, 180);
     console.error('CurioMondo homepage v504:', error);
+  });
+  mobileLayout.addEventListener?.('change', () => {
+    placeZone();
+    refresh();
   });
   refresh();
 })();

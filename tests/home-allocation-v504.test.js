@@ -28,6 +28,10 @@ assert.ok(!result.latest.some((entry) => entry.id === 'lead'), 'il primo piano n
 assert.ok(!result.sections.flatMap((s) => s.cards).some((entry) => result.latest.includes(entry)), 'le categorie non devono ripetere le ultime');
 const fallbackFeatured = A.allocate([item('older', '2026-09-21T08:00:00+02:00')], { now });
 assert.equal(fallbackFeatured.featured.id, 'older', 'la homepage deve avere sempre una prima card In primo piano');
+const mobileItems = Array.from({ length: 13 }, (_, i) => item(`mobile-${i}`, `2026-09-22T0${Math.floor(i / 6)}:${59 - i}:00+02:00`));
+const mobileResult = A.allocate(mobileItems, { now, latestCapacity: 0, smallCardsPerCategory: 11 });
+assert.equal(mobileResult.latest.length, 0, 'su telefono Ultime notizie non deve essere allocata');
+assert.equal(mobileResult.sections[0].cards.length, 10, 'il carosello categoria deve contenere dieci card uniche');
 assert.ok(result.sections.every((section) => section.lead), 'ogni categoria visualizzata deve avere una card grande prima del carosello');
 assert.ok(result.sections.every((section) => section.cards.length > 0), 'nessuna card grande deve apparire senza carosello');
 assert.ok(result.sections.every((section) => 1 + section.cards.length <= A.CONFIG.smallCardsPerCategory), 'la card grande deve provenire dal carosello senza aumentare il numero di card');
