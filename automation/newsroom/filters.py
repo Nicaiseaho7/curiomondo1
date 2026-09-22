@@ -49,7 +49,7 @@ _EXCLUDED_RE = re.compile("|".join(EXCLUDED_PATTERNS), re.I)
 _BREAKING_RE = re.compile("|".join(BREAKING_PATTERNS), re.I)
 _HIGH_RISK_RE = re.compile("|".join(HIGH_RISK_PATTERNS), re.I)
 
-TIER_WEIGHT = {"primary": 1.0, "agency": 0.85, "science": 0.75, "markets": 0.7, "sport": 0.55}
+TIER_WEIGHT = {"primary": 1.0, "agency": 0.9, "science": 0.85, "markets": 0.8, "sport": 0.75}
 TRUST_WEIGHT = {"high": 1.0, "medium": 0.75, "low": 0.4}
 
 
@@ -64,7 +64,7 @@ class Decision:
 
 # Una scossa lieve non è una notizia: in Italia se ne registrano decine al
 # giorno. Sotto questa magnitudo il sisma viene trattato come rumore di fondo.
-MAGNITUDO_MINIMA = 4.0
+MAGNITUDO_MINIMA = 3.0
 _MAGNITUDO_RE = re.compile(
     r"(?:magnitudo|magnitude|\bml\b|\bmw\b|\bmb\b)[\s:]*([0-9]+(?:[.,][0-9]+)?)", re.I
 )
@@ -121,7 +121,7 @@ def score_item(title: str, tier: str, trust: str, published_at: str, now: dateti
     elif age <= 24:
         freshness = 0.5
     else:
-        freshness = 0.25
+        freshness = 0.4
     bonus = 0.1 if is_breaking(title) else 0.0
     # Un titolo troppo corto di solito è una scheda, non una notizia.
     words = len(re.findall(r"\w+", strip_accents(title)))
@@ -136,8 +136,8 @@ def screen(
     trust: str,
     published_at: str,
     *,
-    max_age_hours: float = 36.0,
-    min_score: float = 0.45,
+    max_age_hours: float = 168.0,
+    min_score: float = 0.28,
     now: datetime | None = None,
 ) -> Decision:
     """Filtro preliminare economico applicato prima di qualunque chiamata IA."""
