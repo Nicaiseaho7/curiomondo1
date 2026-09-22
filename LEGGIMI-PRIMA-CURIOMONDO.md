@@ -1,8 +1,12 @@
 # CurioMondo — stato del pacchetto
 
-**Versione:** v248  
-**Data:** 30 agosto 2026  
+**Versione:** v502  
+**Data:** 22 settembre 2026  
 **Baseline verificata:** `curiomondo-v230-29-agosto-2026-netlify.zip`
+
+## v502 — standard scrittura professionale
+
+Dal 22 settembre 2026, ore 06:00 (Europe/Rome), il testo pubblico di ogni nuovo articolo e di ogni revisione richiesta segue `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`. La regola v257 (3.000–7.000 caratteri) e la regola v248 (2.000–4.500) non si applicano più ai nuovi pezzi. La lunghezza dipende dalla materia verificata. Vietato allungare. Vietato dichiarare `data-length-policy="3000-7000"` sui nuovi articoli.
 
 Questo ZIP contiene il sito statico completo pronto per il caricamento manuale su Netlify. Non usa un comando di build, `netlify.toml`, Netlify Functions, `package.json` o dipendenze Node. È un output statico già pronto: va caricato direttamente nella zona Deploys/drag-and-drop del sito Netlify.
 

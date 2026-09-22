@@ -1,5 +1,29 @@
 # Istruzioni obbligatorie per agenti IA
 
+## Standard scrittura professionale v502 — prevalenza assoluta sul testo pubblico
+
+Dal 22 settembre 2026, ore 06:00 (Europe/Rome), ogni nuovo articolo CurioMondo e ogni revisione richiesta di un articolo già pubblicato seguono `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`.
+
+Questo file prevale su qualunque istruzione precedente incompatibile relativa a titolo, lead, piramide invertita, paragrafi, attribuzione, citazioni, numeri, stile, meta-commenti, contesto, SEO, lunghezza, sottotitoli e chiusura.
+
+Sostituisce in particolare:
+
+- le soglie fisse di caratteri (v248, v257 e successive, compreso l’obbligo 3.000–7.000);
+- l’obbligo di allungare un pezzo per raggiungere una fascia;
+- il divieto meccanico di H2/H3 nel corpo quando un sottotitolo informativo aiuta davvero la lettura.
+
+Non sostituisce:
+
+- il gate di rischio e la verifica delle fonti (`PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`, revisione v471);
+- `PROTOCOLLO-SCOPERTA-NOTIZIE.md`;
+- il protocollo immagini;
+- il gate tecnico di pubblicazione completa.
+
+Le fasce flash / standard / approfondimento restano un orientamento di formato, non un obiettivo di riempimento. Se la materia verificata sta sotto le 300 parole, il pezzo è un flash. Se manca materia, non si pubblica.
+
+I nuovi articoli non devono dichiarare `data-length-policy="3000-7000"`.
+
+
 ## Regola editoriale flessibile v471 — prevalenza assoluta
 
 Per selezione, verifica e pubblicazione delle notizie prevale la revisione v471 del 21 settembre 2026. Il protocollo deve favorire la pubblicazione di contenuti affidabili e utili, senza pretendere che ogni notizia sia eccezionale, esclusiva o assimilabile a un'inchiesta.
@@ -27,21 +51,22 @@ Se il messaggio contiene `approfondimenti-evergreen`, `guide evergreen` o chiede
 
 Prima di creare o aggiornare articoli o visual CurioMondo, leggere integralmente, nell'ordine:
 
-1. `PROTOCOLLO-SCOPERTA-NOTIZIE.md`
-2. `AI-EDITORIAL-IMAGE-PROTOCOL.md`
-3. `automation/prompts/image-generation-contract.txt`
-4. `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`
-5. `PROTOCOLLO-REDAZIONE-CORPO.md`
-6. `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`
-7. `curiomondo-site-manifest.json`
+1. `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`
+2. `PROTOCOLLO-SCOPERTA-NOTIZIE.md`
+3. `AI-EDITORIAL-IMAGE-PROTOCOL.md`
+4. `automation/prompts/image-generation-contract.txt`
+5. `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`
+6. `PROTOCOLLO-REDAZIONE-CORPO.md`
+7. `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`
+8. `curiomondo-site-manifest.json`
 
 È consentito raffigurare persone pubbliche riconoscibili con immagini ultrarealistiche quando editorialmente pertinenti. Nelle notizie ordinarie il personaggio può comparire in luoghi e ambientazioni coerenti con l'articolo; sono ammessi anche loghi pertinenti. **I protagonisti devono essere persone, maglie e marchi veri: vietato inventare volti, extra generici o divise di fantasia.** Cercare foto di riferimento reali prima di generare; se il lettore non riconoscerebbe il soggetto, scartare e rigenerare. Il **ritratto neutrale isolato** è obbligatorio soltanto per incidenti, morte, malattia, ricoveri, violenza, tragedie, lutto e altre situazioni sensibili che possono provocare dolore. Ogni somiglianza sintetica deve essere dichiarata come illustrazione IA non documentaria e non deve trasformare una scena inventata in una falsa prova. Se uno dei file obbligatori manca o le regole non possono essere rispettate, interrompere la pubblicazione.
 
 ## Prevalenza ricerca notizie — 19 settembre 2026
 Per richieste di ultime notizie e per la fase di scoperta dei cicli editoriali, `PROTOCOLLO-SCOPERTA-NOTIZIE.md` è obbligatorio e prevale sulle vecchie priorità che mettono le agenzie prima delle fonti ufficiali o dei documenti primari. La regola delle cinque storie riguarda l’output di scouting richiesto dall’utente e non obbliga a pubblicare contenuti che non superano i gate editoriali.
 
-## Regola editoriale articoli v317 — prevalenza assoluta
-Ogni articolo segue il protocollo 4.0 in `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md` e il `PROTOCOLLO-REDAZIONE-CORPO.md`: piramide invertita; lead con le 5 W; paragrafi di 2–4 frasi e massimo 60 parole; frasi preferibilmente entro 20–25 parole; nessuna ripetizione, prima persona, enfasi, riempitivo, elenco di fonti nel corpo o nota interna. La lunghezza dipende dal formato: flash 100–250 parole, notizia standard 300–600, approfondimento autonomo 800–1.500+ parole. Gli aggiornamenti sostanziali possono superare la fascia. È vietato spiegare parole difficili nel corpo della notizia: usare un lessico chiaro oppure creare o collegare una pagina di approfondimento quando serve. Restano obbligatori il gate preventivo e almeno due elementi reali di valore aggiunto. Se manca materia verificata, l'esito è `NON PUBBLICARE — motivo`.
+## Regola editoriale articoli v317 — superata per la scrittura da v502
+Ogni articolo segue `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` per il testo pubblico e il protocollo 4.0 in `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md` per gate di rischio, originalità e AdSense. Piramide invertita; lead con le 5 W quando note; nessuna ripetizione, prima persona, enfasi, riempitivo, elenco di fonti nel corpo o nota interna. La lunghezza dipende dalla materia verificata, non da una quota. È vietato spiegare parole difficili nel corpo della notizia: usare un lessico chiaro oppure creare o collegare una pagina di approfondimento quando serve. Se manca materia verificata, l'esito è `NON PUBBLICARE — motivo`.
 
 ## Gate di pubblicazione completa — obbligatorio
 Un articolo non deve mai essere considerato pubblicato soltanto perché il file HTML esiste nel repository. La pubblicazione è completa soltanto quando, nello stesso ciclo:

@@ -42,7 +42,7 @@ Questa regola sostituisce, per i formati ordinari, qualsiasi obbligo precedente 
 
 ### Lunghezza e fonti finali
 
-La lunghezza dipende dalla sostanza verificata: flash 100–250 parole, standard 300–700, approfondimento 800+ solo quando giustificato. Non esiste una soglia minima rigida. Il blocco finale può contenere da una a sei fonti, in funzione del livello di rischio e della materia disponibile; ciascuna deve indicare cosa conferma.
+La lunghezza del testo pubblico è regolata da `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` (v502): dipende dalla sostanza verificata, senza quota fissa di caratteri. Flash, standard e approfondimento restano orientamenti di formato. Non esiste una soglia minima rigida. Il blocco finale può contenere da una a sei fonti, in funzione del livello di rischio e della materia disponibile; ciascuna deve indicare cosa conferma.
 
 ### Gate tecnico separato
 

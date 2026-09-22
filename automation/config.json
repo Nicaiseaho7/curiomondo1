@@ -102,6 +102,10 @@
     "evergreen_deep_dive_if_existing": "link_existing_equivalent_instead_of_creating_duplicate",
     "public_pages_indexable_required": true,
     "article_length_policy": "word_count_by_format",
+    "professional_writing_protocol": "PROTOCOLLO-SCRITTURA-PROFESSIONALE.md",
+    "professional_writing_protocol_version": "5.0",
+    "professional_writing_effective_from": "2026-09-22T06:00:00+02:00",
+    "new_articles_must_not_declare_3000_7000_length_policy": true,
     "editorial_protocol_version": "4.0",
     "quality_gate_effective_from": "2026-09-10T20:00:00+02:00",
     "format_word_ranges": {

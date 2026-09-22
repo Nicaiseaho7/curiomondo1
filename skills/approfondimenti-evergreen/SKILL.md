@@ -35,11 +35,12 @@ Clonare o aggiornare il repo (`git pull origin main`) **prima** di scrivere. Poi
 
 1. Questo file
 2. `AGENTS.md`
-3. `automation/prompts/three-hourly-cycle-instructions.md` (template approfondimento)
-4. `PROTOCOLLO-REDAZIONE-CORPO.md`
-5. `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`
-6. `AI-EDITORIAL-IMAGE-PROTOCOL.md`
-7. `automation/prompts/image-generation-contract.txt`
+3. `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`
+4. `automation/prompts/three-hourly-cycle-instructions.md` (template approfondimento)
+5. `PROTOCOLLO-REDAZIONE-CORPO.md`
+6. `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`
+7. `AI-EDITORIAL-IMAGE-PROTOCOL.md`
+8. `automation/prompts/image-generation-contract.txt`
 
 ## Cosa fare
 

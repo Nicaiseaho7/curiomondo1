@@ -35,12 +35,13 @@ Clonare o aggiornare il repo (`git pull origin main`) **prima** di scrivere. Poi
 
 1. Questo file
 2. `AGENTS.md`
-3. `automation/prompts/three-hourly-cycle-instructions.md`
-4. `PROTOCOLLO-SCOPERTA-NOTIZIE.md`
-5. `PROTOCOLLO-REDAZIONE-CORPO.md`
-6. `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`
-7. `AI-EDITORIAL-IMAGE-PROTOCOL.md`
-8. `automation/prompts/image-generation-contract.txt`
+3. `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`
+4. `automation/prompts/three-hourly-cycle-instructions.md`
+5. `PROTOCOLLO-SCOPERTA-NOTIZIE.md`
+6. `PROTOCOLLO-REDAZIONE-CORPO.md`
+7. `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`
+8. `AI-EDITORIAL-IMAGE-PROTOCOL.md`
+9. `automation/prompts/image-generation-contract.txt`
 
 ## Cosa fare
 
@@ -52,7 +53,7 @@ Clonare o aggiornare il repo (`git pull origin main`) **prima** di scrivere. Poi
 4. Deduplica su `notizie/*.html` e `assets/data/search-index-v210.json`. Niente doppioni. Uno sviluppo nuovo su una storia già pubblicata vale solo se è sostanziale e va in apertura.
 5. Scartare: gossip, indiscrezioni, palinsesti TV magri, risultati sportivi **non finiti**, query senza fatto verificato di oggi.
 6. Se non resta nessuna notizia valida: **non pubblicare nulla**. Non inventare pezzi per riempire lo slot.
-7. Scrivere articoli originali nello stile CurioMondo (protocollo 4.0: piramide invertita, niente H2/H3 nel corpo, fonti solo in `.art-sources`, byline Redazione CurioMondo). Copiare il markup da un articolo recente (es. `notizie/veroli-badante-arrestata-maltrattamenti-donna-disabile-20-settembre-2026.html`).
+7. Scrivere articoli originali secondo `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` (v502): piramide invertita, lead immediato, nessuna lunghezza fissa, H2/H3 solo se utili, fonti solo in `.art-sources`, byline Redazione CurioMondo. Copiare il markup da un articolo recente (es. `notizie/google-multa-403-milioni-dpc-irlanda-geolocalizzazione-21-settembre-2026.html`).
 8. Immagine IA nuova per ogni pezzo, tre WebP 480/800/1200 in `assets/images/editorial-auto/`, figcaption esatta, `og:image` e JSON-LD allineati. Personaggi pubblici: somiglianza sintetica dichiarata; ritratto isolato se il contesto è sensibile.
 9. Aggiornare nello stesso ciclo: articolo, homepage (ticker ×2, featured, auto-rail da 5, `#cards`), `notizie/index.html`, categorie, `home-feed-v210.json`, `search-index-v210.json`, `feed.xml`, `sitemap.xml`, `news-sitemap.xml`, `_redirects`, `editorial-images-v210.json`, file di versione (`site_version` +1). Se esiste un approfondimento evergreen pertinente, inserire sotto il corpo il blocco `.cm-evergreen-reader` (regola v470): non basta un link nei correlati.
 10. `python3 tools/predeploy.py` deve uscire **0**. Poi `git push origin main`.

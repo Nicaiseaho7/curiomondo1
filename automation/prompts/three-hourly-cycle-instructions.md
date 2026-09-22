@@ -123,32 +123,19 @@ I tre dati della card `featured` devono sempre avere sia un valore sia una breve
 spiegazione autosufficiente visibile anche su mobile. Numeri, orari o durate senza
 etichetta esplicativa sono vietati.
 
-## 3. Regole editoriali del corpo articolo (invarianti, da `editorial-contract.txt`)
+## 3. Regole editoriali del corpo articolo (invarianti)
 
-- Corpo `.art-body` tra **3.000 e 7.000 caratteri** di testo visibile (regola
-  v257, in vigore dal 1° settembre 2026 ore 12:00 — sostituisce il precedente
-  2.000-4.500), nessuna eccezione. **La lunghezza segue le informazioni
-  disponibili, non un target fisso**: scrivi un articolo lungo quando la notizia
-  ha davvero abbastanza sostanza verificata da riempire il corpo, e corto — ma
-  sempre sopra i 3.000 caratteri — quando le informazioni verificate sono poche.
-  Non allungare mai un articolo con riempitivo o ripetizioni solo per avvicinarti
-  al tetto di 7.000. Se non si hanno almeno 3.000 caratteri di informazione
-  verificata e non ripetitiva, non pubblicare quell'articolo come pezzo autonomo.
-- **Zero ripetizioni**: nessun fatto, cifra, causa o conseguenza compare due volte,
-  nemmeno parafrasata. Fare un passaggio anti-ridondanza frase per frase e
-  paragrafo per paragrafo prima di contare i caratteri.
-- Nessun sottotitolo H2/H3 dentro il corpo (i paragrafi bastano, come negli
-  articoli esistenti).
-- Ogni articolo contiene almeno un **gancio di conoscenza**: un paragrafo che
-  spiega in modo semplice un elemento poco noto ma utile della notizia (istituzione,
-  meccanismo, termine tecnico, procedura, luogo strategico, precedente storico).
-  **Non esiste un box/markup dedicato per questo** — è un paragrafo normale dentro
-  `art-body`, esattamente come negli articoli pubblicati (verificato leggendo il
-  markup reale). Non inventare classi CSS nuove tipo `.cm-nugget`.
-- Quando il tema lo giustifica, creare o collegare un **approfondimento evergreen**
-  indicizzabile (vedi §6). L'eccezione è ammessa solo se davvero non esiste un
-  contesto durevole utile.
+Il testo pubblico segue `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` (v502). Questo paragrafo sostituisce la quota 3.000–7.000 caratteri (v257) e il divieto meccanico di H2/H3.
+
+- Costruire l’articolo attorno al fatto verificato, non attorno a una lunghezza-obiettivo.
+- **Zero ripetizioni**: nessun fatto, cifra, causa o conseguenza compare due volte, nemmeno parafrasata.
+- Titolo fattuale; lead con il cuore della notizia; piramide invertita per hard news.
+- H2/H3 nel corpo solo se informativi e utili. Vietati i titoletti generici. Nelle notizie standard corte i paragrafi possono bastare.
+- Non inserire ganci didascalici, glossari o meta-commenti di redazione nel corpo.
+- Quando il tema lo giustifica, creare o collegare un **approfondimento evergreen** indicizzabile (vedi §6). L'eccezione è ammessa solo se davvero non esiste un contesto durevole utile.
 - Almeno 2-3 fonti attendibili elencate in `art-sources`.
+- Markup: `data-editorial-protocol="4.0"` e `data-article-format` coerente. **Non** usare `data-length-policy="3000-7000"` sui nuovi articoli.
+
 
 ## 4. Regole immagini (vincolo specifico di questa automazione, più severo del
    protocollo generale del sito)
