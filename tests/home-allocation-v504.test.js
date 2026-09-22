@@ -15,7 +15,7 @@ assert.equal(A.isPromotable(item('future', '2026-09-22T10:01:00+02:00'), now), f
 const items = [
   item('lead', '2026-09-22T09:30:00+02:00', 'Mondo / Politica', { homepagePriority: 90 }),
   item('lead-alias', '2026-09-22T09:29:00+02:00', 'Politica', { url: '/notizie/lead.html' }),
-  ...Array.from({ length: 7 }, (_, i) => item(`sport-${i}`, `2026-09-22T09:${20 - i}:00+02:00`)),
+  ...Array.from({ length: 7 }, (_, i) => item(`sport-${i}`, `2026-09-22T09:${20 - i}:00+02:00`, 'Italia / Sport', i === 5 ? { homepagePriority: 50 } : {})),
   item('multi', '2026-09-22T08:30:00+02:00', 'Italia / Politica', { primaryCategory: 'politica' })
 ];
 const result = A.allocate(items, { now });
@@ -26,6 +26,7 @@ assert.equal(shown.length, new Set(shown).size, 'tutti gli identificativi mostra
 assert.ok(!result.latest.some((entry) => entry.id === 'lead'), 'il primo piano non deve ripetersi nelle ultime');
 assert.ok(!result.sections.flatMap((s) => s.cards).some((entry) => result.latest.includes(entry)), 'le categorie non devono ripetere le ultime');
 assert.ok(result.sections.every((section) => section.lead), 'ogni categoria visualizzata deve avere una card grande prima del carosello');
+assert.ok(result.sections.every((section) => section.cards.length > 0), 'nessuna card grande deve apparire senza carosello');
 assert.ok(result.sections.every((section) => section.cards.every((entry) => A.categoryFor(entry)?.id === section.category.id)), 'ogni carosello deve contenere soltanto card della propria categoria');
 assert.equal(A.categoryFor(items.at(-1)).id, 'politica', 'primaryCategory deve prevalere sulle categorie multiple');
 console.log('home-allocation-v504: tutti i test superati');
