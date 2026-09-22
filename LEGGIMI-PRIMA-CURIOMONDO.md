@@ -1,8 +1,12 @@
 # CurioMondo — stato del pacchetto
 
-**Versione:** v502  
+**Versione:** v503  
 **Data:** 22 settembre 2026  
 **Baseline verificata:** `curiomondo-v230-29-agosto-2026-netlify.zip`
+
+## v503 — prima applicazione dello standard professionale
+
+22 settembre 2026, mattina (Europe/Rome). Due articoli nuovi scritti con `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`: Vogue World a Milano (servizio su chiusure e trasporti) e il sondaggio Reuters/Ipsos sull’approvazione di Trump al 32%. Nessuna riscrittura dell’archivio.
 
 ## v502 — standard scrittura professionale
 
