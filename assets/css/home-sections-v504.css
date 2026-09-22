@@ -33,6 +33,7 @@
 .cm-topic-grid>.cm-topic-card{flex:0 0 clamp(250px,31vw,360px);scroll-snap-align:start}
 .cm-latest-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
 .cm-topic-section{--cm-category-color:#475569;margin:0 0 46px}
+.cm-topic-section__rail{display:block;margin-top:0}
 .cm-topic-card{display:block;min-width:0;color:inherit;background:var(--cm-paper,#fff);border:1px solid var(--cm-border,#dbe5ee);border-top:3px solid var(--cm-category-color);border-radius:15px;box-shadow:0 10px 24px rgba(16,41,64,.09);overflow:hidden;text-decoration:none}
 .cm-topic-card__body{display:flex;flex-direction:column;height:100%;padding:15px}
 .cm-topic-card__title{order:1;margin:8px 0 12px;color:var(--cm-ink,#102940);font-size:1.03rem;line-height:1.25;overflow-wrap:anywhere}
