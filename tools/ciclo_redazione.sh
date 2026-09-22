@@ -71,11 +71,24 @@ if [ "$ARTICOLI" = "0" ]; then
 fi
 
 annota "gate completo prima del deploy"
-if ! python3 tools/predeploy.py; then
-  annota "GATE FALLITO: non pubblico e ritiro il lotto"
-  python3 -m automation.newsroom.publisher --state "$STATO" --rollback || true
-  salva_stato
-  exit 1
+if ! python3 tools/predeploy.py > /tmp/predeploy.json; then
+  annota "gate tecnico rosso: tento autoriparazione delle superfici"
+  RIPARATO=""
+  for tentativo in 1 2; do
+    python3 -m automation.newsroom.publisher --state "$STATO" --repair || true
+    if python3 tools/predeploy.py > /tmp/predeploy.json; then
+      RIPARATO="si"
+      annota "autoriparazione riuscita al tentativo $tentativo"
+      break
+    fi
+  done
+  if [ -z "$RIPARATO" ]; then
+    annota "GATE ANCORA FALLITO: ritiro il lotto senza perdere le bozze"
+    cat /tmp/predeploy.json 2>/dev/null || true
+    python3 -m automation.newsroom.publisher --state "$STATO" --rollback || true
+    salva_stato
+    exit 1
+  fi
 fi
 
 annota "pubblico il lotto ($ARTICOLI articoli)"
