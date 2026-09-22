@@ -1,4 +1,4 @@
-/* CurioMondo v514 — mobile category rails with up to ten unique cards. */
+/* CurioMondo v515 — stable carousels and future-only refresh scheduling. */
 (function (root, factory) {
   const api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
@@ -112,7 +112,10 @@
       if (zonedDay(new Date(middle)) === today) low = middle;
       else high = middle;
     }
-    return new Date(Math.min(high, ...leads.map((entry) => firstPublished(entry).getTime() + CONFIG.promotionHours * 3600000)));
+    const futureExpiries = leads
+      .map((entry) => firstPublished(entry).getTime() + CONFIG.promotionHours * 3600000)
+      .filter((timestamp) => timestamp > now.getTime());
+    return new Date(Math.min(high, ...futureExpiries));
   }
   return { CONFIG, allocate, canonicalKey, categoryFor, firstPublished, importance, isPromotable, nextExpiry, zonedDay };
 }));

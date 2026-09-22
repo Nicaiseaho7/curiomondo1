@@ -1,4 +1,4 @@
-/* CurioMondo v514 — mobile-first featured card and ten-card category rails. */
+/* CurioMondo v515 — stable mobile carousels without reset loops. */
 (() => {
   'use strict';
   const A = window.CMHomepageAllocation;
