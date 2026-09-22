@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "timezone": "Europe/Rome",
   "safe_mode": false,
   "live": {
@@ -135,11 +135,14 @@
     "strategic_bold_max_per_paragraph": 2,
     "difficult_word_explanations_in_news_forbidden": true,
     "dedicated_deep_dive_when_explanation_adds_value": true,
-    "minimum_value_add_elements": 2,
+    "minimum_value_add_elements": 1,
+    "minimum_value_add_elements_for_analysis": 2,
+    "ordinary_and_service_single_authoritative_source_allowed": true,
+    "older_story_allowed_when_current_useful_or_new_to_site": true,
     "service_notice_reference_words": "100-600 according to format",
     "data_explainer_reference_words": "300-600; use a separate feature for deeper analysis",
     "multi_event_wrap_reference_words": "300-600; exceed only for substantive verified updates",
-    "if_gate_fails": "NON PUBBLICARE — motivo",
+    "if_gate_fails": "RIPARA SE POSSIBILE; NON PUBBLICARE solo per difetti editoriali non sanabili — motivo",
     "semantic_repetition_forbidden": true,
     "each_paragraph_must_add_new_information": true,
     "anti_repetition_review_required": true,
@@ -172,6 +175,9 @@
   ],
   "quality_gate": {
     "fail_closed": true,
+    "editorial_gate_mode": "risk_proportionate_permissive",
+    "technical_failure_action": "auto_repair_then_revalidate",
+    "auto_repair_attempts": 2,
     "predeploy_required": true,
     "source_verification_required": true,
     "dedupe_required": true,
@@ -186,7 +192,7 @@
     "tetto_giornaliero_usd": 5.0,
     "soglia_allerta": 0.8,
     "max_bozze_per_ciclo": 3,
-    "max_fonti_lette_per_notizia": 3,
+    "max_fonti_lette_per_notizia": 6,
     "note": "Modelli confermati disponibili sull'account il 13 settembre 2026. Il tetto e giornaliero e persistente: superato, il worker si rifiuta di chiamare il modello."
   }
 }
