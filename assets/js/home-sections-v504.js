@@ -1,4 +1,4 @@
-/* CurioMondo v515 — stable mobile carousels without reset loops. */
+/* CurioMondo v516 — question of the day before the stable mobile newsroom. */
 (() => {
   'use strict';
   const A = window.CMHomepageAllocation;
@@ -14,8 +14,9 @@
   if (!legacyFeatured || !legacyLatestTitle || !legacyLatest) return;
   const mobileLayout = window.matchMedia('(max-width: 760px)');
   const placeZone = () => {
-    const anchor = mobileLayout.matches ? $('.cm-qday') : legacyFeatured;
-    (anchor || legacyFeatured).before(zone);
+    const question = $('.cm-qday');
+    if (mobileLayout.matches && question) question.after(zone);
+    else legacyFeatured.before(zone);
   };
   placeZone();
   const hideLegacy = () => [legacyFeatured, legacyLatestTitle, legacyLatest].forEach((node) => {
