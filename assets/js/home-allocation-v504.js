@@ -1,4 +1,4 @@
-/* CurioMondo v509 — promote one existing rail card without increasing card count. */
+/* CurioMondo v513 — a permanent first-position featured card without duplicates. */
 (function (root, factory) {
   const api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
@@ -83,8 +83,10 @@
     const take = (entry) => { if (entry) used.add(entry._key); return entry || null; };
     const remaining = () => available.filter((entry) => !used.has(entry._key));
 
-    const featured = take(remaining().filter((entry) => isPromotable(entry, now) && isImportant(entry))
-      .sort((a, b) => importance(b) - importance(a) || b._published - a._published)[0]);
+    const featuredCandidate = remaining().filter((entry) => isPromotable(entry, now) && isImportant(entry))
+      .sort((a, b) => importance(b) - importance(a) || b._published - a._published)[0]
+      || remaining()[0];
+    const featured = take(featuredCandidate);
     const latest = remaining().slice(0, latestCapacity).map(take);
     const sections = [];
     CONFIG.categories.forEach((category) => {

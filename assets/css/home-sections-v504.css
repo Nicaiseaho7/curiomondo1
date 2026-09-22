@@ -2,28 +2,24 @@
 .featured[hidden],.auto-rail-label[hidden],.auto-rail[hidden]{display:none!important}
 .cm-home-editorial{display:block;margin:18px 0 34px}
 .cm-home-editorial:empty{min-height:0}
-.cm-topic-lead{--cm-category-color:#475569;position:relative;display:grid;min-height:clamp(430px,52vw,610px);margin:0 0 24px;border:1px solid rgba(255,255,255,.18);border-radius:22px;box-shadow:0 18px 42px rgba(16,41,64,.18);overflow:hidden;background:#102940;isolation:isolate}
-.cm-topic-lead::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(3,12,22,.04) 15%,rgba(3,12,22,.48) 52%,rgba(3,12,22,.94) 100%);pointer-events:none}
-.cm-topic-lead__body,.cm-topic-lead picture{grid-area:1/1}
-.cm-topic-lead__body{z-index:2;display:flex;flex-direction:column;justify-content:flex-end;padding:clamp(22px,4vw,44px)}
+.cm-topic-lead{--cm-category-color:#475569;position:relative;display:flex;flex-direction:column;min-height:0;margin:0 0 24px;border:1px solid var(--cm-border,#dbe5ee);border-top:4px solid var(--cm-category-color);border-radius:15px;box-shadow:0 12px 28px rgba(16,41,64,.11);overflow:hidden;background:var(--cm-paper,#fff)}
+.cm-topic-lead::after{display:none}
+.cm-topic-lead__body{order:1;display:flex;flex-direction:column;padding:clamp(20px,3vw,34px);background:var(--cm-paper,#fff)}
 .cm-topic-label{display:inline-flex;align-self:flex-start;color:#fff;background:var(--cm-category-color);border-radius:999px;padding:7px 11px;font-size:.78rem;font-weight:850;letter-spacing:.055em;text-transform:uppercase}
-.cm-topic-lead__title{margin:13px 0 10px;color:#fff;font-size:clamp(1.65rem,4vw,3.25rem);line-height:1.04;text-wrap:balance;text-shadow:0 2px 18px rgba(0,0,0,.3)}
-.cm-topic-lead picture{z-index:-2;display:block;width:100%;height:100%;background:#102940}
+.cm-topic-lead__title{margin:13px 0 10px;color:var(--cm-ink,#102940);font-size:clamp(1.6rem,3.2vw,2.65rem);line-height:1.08;text-wrap:balance;text-shadow:none}
+.cm-topic-lead picture{order:2;position:relative;display:block;width:auto;margin:0 clamp(20px,3vw,34px) clamp(20px,3vw,34px);aspect-ratio:16/9;overflow:hidden;border-radius:10px;background:#e9eef3}
 .cm-topic-lead picture,.cm-topic-card picture{position:relative;contain:none;transform:none;backface-visibility:visible;content-visibility:visible}
 .cm-image-frame--error{background:linear-gradient(135deg,#dfe8ef,#edf3f7)!important}
 .cm-image-frame--error img{visibility:visible}
 .cm-topic-lead img,.cm-topic-card img{display:block;width:100%;height:100%;object-fit:cover;opacity:1!important;visibility:visible!important;transform:none!important;backface-visibility:visible!important}
-.cm-topic-lead__summary{max-width:780px;margin:0 0 15px;color:rgba(255,255,255,.9);font-size:clamp(.94rem,1.6vw,1.08rem);line-height:1.5}
+.cm-topic-lead__summary{max-width:780px;margin:0 0 15px;color:var(--cm-muted,#526476);font-size:clamp(.94rem,1.6vw,1.08rem);line-height:1.5}
 .cm-topic-lead__footer{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.cm-topic-lead time{color:rgba(255,255,255,.8);font-size:.84rem}
+.cm-topic-lead time{color:var(--cm-muted,#526476);font-size:.84rem}
 .cm-topic-lead__cta{align-self:flex-start;color:#fff;background:var(--cm-category-color);border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:11px 17px;font-weight:800;text-decoration:none}
 .cm-topic-lead__cta:focus-visible,.cm-topic-card:focus-visible,.cm-topic-archive:focus-visible{outline:3px solid #0091FF;outline-offset:4px}
 .cm-topic-lead--primary{--cm-category-color:var(--cm-featured-red);margin-bottom:30px}
 .cm-topic-lead--primary .cm-topic-label{color:#fff;background:var(--cm-featured-red);text-shadow:0 1px 2px rgba(0,0,0,.22)}
-.cm-topic-lead--primary{display:flex;flex-direction:column;min-height:0;background:var(--cm-paper,#fff);border:1px solid var(--cm-border,#dbe5ee);border-top:4px solid var(--cm-featured-red);box-shadow:0 12px 28px rgba(16,41,64,.11);isolation:auto}
-.cm-topic-lead--primary::after{display:none}
-.cm-topic-lead--primary .cm-topic-lead__body{order:1;padding:clamp(20px,3vw,34px);background:var(--cm-paper,#fff)}
-.cm-topic-lead--primary picture{order:2;position:relative;z-index:auto;width:100%;aspect-ratio:16/9;background:#e9eef3}
+.cm-topic-lead--primary{border-top-color:var(--cm-featured-red)}
 .cm-topic-lead--primary .cm-topic-lead__title{color:var(--cm-ink,#102940);font-size:clamp(1.6rem,3.2vw,2.65rem);line-height:1.08;text-shadow:none}
 .cm-topic-lead--primary .cm-topic-lead__summary{color:var(--cm-muted,#526476)}
 .cm-topic-lead--primary time{color:var(--cm-muted,#526476)}
@@ -47,4 +43,4 @@ html.cm-dark .cm-topic-lead,html.cm-dark .cm-topic-card{background:var(--cm-pape
 html.cm-dark .cm-topic-lead--primary .cm-topic-lead__body{background:var(--cm-paper)}
 @media(max-width:1050px){.cm-latest-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:760px){.cm-latest-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cm-topic-grid>.cm-topic-card{flex-basis:min(82vw,330px)}}
-@media(max-width:540px){.cm-home-editorial{margin-top:14px}.cm-latest-grid{grid-template-columns:1fr}.cm-topic-lead{min-height:520px;border-radius:16px}.cm-topic-lead__body{padding:18px}.cm-topic-lead__title{font-size:clamp(1.55rem,8vw,2.15rem)}.cm-topic-lead__summary{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.cm-topic-lead--primary{min-height:0}.cm-topic-lead--primary .cm-topic-lead__body{padding:18px}.cm-topic-card__title{font-size:1.08rem}.cm-topic-card picture{aspect-ratio:16/9}}
+@media(max-width:540px){.cm-home-editorial{margin-top:14px}.cm-latest-grid{grid-template-columns:1fr}.cm-topic-lead{min-height:0;border-radius:15px}.cm-topic-lead__body{padding:18px}.cm-topic-lead picture{margin:0 18px 18px}.cm-topic-lead__title{font-size:clamp(1.55rem,8vw,2.15rem)}.cm-topic-lead__summary{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.cm-topic-lead--primary{min-height:0}.cm-topic-lead--primary .cm-topic-lead__body{padding:18px}.cm-topic-card__title{font-size:1.08rem}.cm-topic-card picture{aspect-ratio:16/9}}

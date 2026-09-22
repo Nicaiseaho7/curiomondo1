@@ -1,4 +1,4 @@
-/* CurioMondo v511 — persistent images without iOS compositing flicker. */
+/* CurioMondo v513 — unified large cards and persistent images. */
 (() => {
   'use strict';
   const A = window.CMHomepageAllocation;
