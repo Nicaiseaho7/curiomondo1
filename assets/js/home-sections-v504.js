@@ -146,7 +146,11 @@
     const expiry = A.nextExpiry(allocation);
     if (expiry) timer = window.setTimeout(refresh, Math.max(50, expiry.getTime() - Date.now() + 25));
   }
-  const refresh = () => render().catch(() => { zone.dataset.state = 'feed-error'; });
+  const refresh = () => render().catch((error) => {
+    zone.dataset.state = 'feed-error';
+    zone.dataset.error = String(error && error.message || error).slice(0, 180);
+    console.error('CurioMondo homepage v504:', error);
+  });
   window.addEventListener('pageshow', refresh);
   document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
   window.addEventListener('focus', refresh);
