@@ -27,6 +27,7 @@ assert.ok(!result.latest.some((entry) => entry.id === 'lead'), 'il primo piano n
 assert.ok(!result.sections.flatMap((s) => s.cards).some((entry) => result.latest.includes(entry)), 'le categorie non devono ripetere le ultime');
 assert.ok(result.sections.every((section) => section.lead), 'ogni categoria visualizzata deve avere una card grande prima del carosello');
 assert.ok(result.sections.every((section) => section.cards.length > 0), 'nessuna card grande deve apparire senza carosello');
+assert.ok(result.sections.every((section) => 1 + section.cards.length <= A.CONFIG.smallCardsPerCategory), 'la card grande deve provenire dal carosello senza aumentare il numero di card');
 assert.ok(result.sections.every((section) => section.cards.every((entry) => A.categoryFor(entry)?.id === section.category.id)), 'ogni carosello deve contenere soltanto card della propria categoria');
 assert.equal(A.categoryFor(items.at(-1)).id, 'politica', 'primaryCategory deve prevalere sulle categorie multiple');
 console.log('home-allocation-v504: tutti i test superati');
