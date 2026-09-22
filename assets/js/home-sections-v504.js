@@ -1,4 +1,4 @@
-/* CurioMondo v506 — category pairs: lead card followed by its horizontal rail. */
+/* CurioMondo v508 — lightweight category pairs: lead followed by its rail. */
 (() => {
   'use strict';
   const A = window.CMHomepageAllocation;
@@ -161,8 +161,5 @@
     zone.dataset.error = String(error && error.message || error).slice(0, 180);
     console.error('CurioMondo homepage v504:', error);
   });
-  window.addEventListener('pageshow', refresh);
-  document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
-  window.addEventListener('focus', refresh);
   refresh();
 })();
