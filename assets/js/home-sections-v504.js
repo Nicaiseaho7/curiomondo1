@@ -1,4 +1,4 @@
-/* CurioMondo v510 — stable image frames for every category card. */
+/* CurioMondo v511 — persistent images without iOS compositing flicker. */
 (() => {
   'use strict';
   const A = window.CMHomepageAllocation;
@@ -13,7 +13,10 @@
   const legacyLatest = $('.auto-rail');
   if (!legacyFeatured || !legacyLatestTitle || !legacyLatest) return;
   legacyFeatured.before(zone);
-  [legacyFeatured, legacyLatestTitle, legacyLatest].forEach((node) => { node.hidden = true; node.setAttribute('aria-hidden', 'true'); });
+  const hideLegacy = () => [legacyFeatured, legacyLatestTitle, legacyLatest].forEach((node) => {
+    node.hidden = true;
+    node.setAttribute('aria-hidden', 'true');
+  });
 
   let timer = 0;
   let generation = 0;
@@ -40,11 +43,23 @@
     image.height = entry.imageHeight || 533;
     image.loading = eager ? 'eager' : 'lazy';
     image.decoding = 'async';
+    image.dataset.cmPersistentImage = 'true';
     if (eager) image.fetchPriority = 'high';
+    let retries = 0;
+    image.addEventListener('load', () => {
+      wrap.classList.remove('cm-image-frame--error');
+      image.classList.add('cm-image-loaded');
+    });
     image.addEventListener('error', () => {
+      if (retries++ === 0) {
+        image.removeAttribute('srcset');
+        image.removeAttribute('sizes');
+        const separator = entry.image.includes('?') ? '&' : '?';
+        image.src = entry.image + separator + 'cm_img_retry=1';
+        return;
+      }
       wrap.classList.add('cm-image-frame--error');
-      image.setAttribute('aria-hidden', 'true');
-    }, { once: true });
+    });
     wrap.append(image);
     return wrap;
   };
@@ -56,7 +71,7 @@
   const largeCard = (entry, label, color, primary = false) => {
     const article = el('article', 'cm-topic-lead' + (primary ? ' cm-topic-lead--primary' : ''));
     article.style.setProperty('--cm-category-color', color);
-    const visual = picture(entry, primary);
+    const visual = picture(entry, true);
     const body = el('div', 'cm-topic-lead__body');
     body.append(el('span', 'cm-topic-label', label));
     const title = el(primary ? 'h1' : 'h3', 'cm-topic-lead__title', entry.title);
@@ -71,14 +86,14 @@
     if (visual) article.append(visual);
     return article;
   };
-  const smallCard = (entry, category) => {
+  const smallCard = (entry, category, eager = true) => {
     const link = el('a', 'cm-topic-card');
     link.href = entry.url;
     link.style.setProperty('--cm-category-color', category.color);
     const body = el('div', 'cm-topic-card__body');
     body.append(el('span', 'cm-topic-label', category.label));
     body.append(el('h3', 'cm-topic-card__title', entry.title));
-    const visual = picture(entry);
+    const visual = picture(entry, eager);
     if (visual) body.append(visual);
     body.append(time(entry));
     link.append(body);
@@ -115,7 +130,7 @@
     const limit = Number(cards.dataset.initialCount || 41);
     cards.replaceChildren(...allocation.rest.slice(0, limit).map((entry) => {
       const category = A.categoryFor(entry) || { label: String(entry.section || 'Notizie').split('/').pop().trim(), color: '#475569' };
-      const card = smallCard(entry, category);
+      const card = smallCard(entry, category, false);
       card.classList.add('card');
       return card;
     }));
@@ -154,6 +169,7 @@
     fragment.append(latestSection);
     allocation.sections.forEach((item) => fragment.append(section(item)));
     zone.replaceChildren(fragment);
+    hideLegacy();
     updateRest(allocation);
     verifyUnique();
     const expiry = A.nextExpiry(allocation);

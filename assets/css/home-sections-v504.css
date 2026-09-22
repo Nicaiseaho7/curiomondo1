@@ -1,5 +1,5 @@
 :root{--cm-featured-red:#B91C1C}
-.featured,.auto-rail-label,.auto-rail{display:none!important}
+.featured[hidden],.auto-rail-label[hidden],.auto-rail[hidden]{display:none!important}
 .cm-home-editorial{display:block;margin:18px 0 34px}
 .cm-home-editorial:empty{min-height:0}
 .cm-topic-lead{--cm-category-color:#475569;position:relative;display:grid;min-height:clamp(430px,52vw,610px);margin:0 0 24px;border:1px solid rgba(255,255,255,.18);border-radius:22px;box-shadow:0 18px 42px rgba(16,41,64,.18);overflow:hidden;background:#102940;isolation:isolate}
@@ -9,10 +9,10 @@
 .cm-topic-label{display:inline-flex;align-self:flex-start;color:#fff;background:var(--cm-category-color);border-radius:999px;padding:7px 11px;font-size:.78rem;font-weight:850;letter-spacing:.055em;text-transform:uppercase}
 .cm-topic-lead__title{margin:13px 0 10px;color:#fff;font-size:clamp(1.65rem,4vw,3.25rem);line-height:1.04;text-wrap:balance;text-shadow:0 2px 18px rgba(0,0,0,.3)}
 .cm-topic-lead picture{z-index:-2;display:block;width:100%;height:100%;background:#102940}
-.cm-topic-lead picture,.cm-topic-card picture{contain:layout paint;transform:translateZ(0);backface-visibility:hidden}
+.cm-topic-lead picture,.cm-topic-card picture{position:relative;contain:none;transform:none;backface-visibility:visible;content-visibility:visible}
 .cm-image-frame--error{background:linear-gradient(135deg,#dfe8ef,#edf3f7)!important}
-.cm-image-frame--error img{visibility:hidden}
-.cm-topic-lead img,.cm-topic-card img{display:block;width:100%;height:100%;object-fit:cover}
+.cm-image-frame--error img{visibility:visible}
+.cm-topic-lead img,.cm-topic-card img{display:block;width:100%;height:100%;object-fit:cover;opacity:1!important;visibility:visible!important;transform:none!important;backface-visibility:visible!important}
 .cm-topic-lead__summary{max-width:780px;margin:0 0 15px;color:rgba(255,255,255,.9);font-size:clamp(.94rem,1.6vw,1.08rem);line-height:1.5}
 .cm-topic-lead__footer{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .cm-topic-lead time{color:rgba(255,255,255,.8);font-size:.84rem}
