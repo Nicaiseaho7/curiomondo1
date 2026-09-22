@@ -25,5 +25,7 @@ const shown = [result.featured, ...result.latest, ...result.sections.flatMap((s)
 assert.equal(shown.length, new Set(shown).size, 'tutti gli identificativi mostrati devono essere unici');
 assert.ok(!result.latest.some((entry) => entry.id === 'lead'), 'il primo piano non deve ripetersi nelle ultime');
 assert.ok(!result.sections.flatMap((s) => s.cards).some((entry) => result.latest.includes(entry)), 'le categorie non devono ripetere le ultime');
+assert.ok(result.sections.every((section) => section.lead), 'ogni categoria visualizzata deve avere una card grande prima del carosello');
+assert.ok(result.sections.every((section) => section.cards.every((entry) => A.categoryFor(entry)?.id === section.category.id)), 'ogni carosello deve contenere soltanto card della propria categoria');
 assert.equal(A.categoryFor(items.at(-1)).id, 'politica', 'primaryCategory deve prevalere sulle categorie multiple');
 console.log('home-allocation-v504: tutti i test superati');
