@@ -1,6 +1,7 @@
 'use strict';
 const assert = require('node:assert/strict');
 const A = require('../assets/js/home-allocation-v504.js');
+const fs = require('node:fs');
 const now = new Date('2026-09-22T10:00:00+02:00');
 const item = (id, date, section = 'Italia / Sport', extra = {}) => ({ id, url: `/notizie/${id}.html`, title: id, dateISO: date, firstPublishedAt: date, section, ...extra });
 
@@ -30,4 +31,5 @@ assert.ok(result.sections.every((section) => section.cards.length > 0), 'nessuna
 assert.ok(result.sections.every((section) => 1 + section.cards.length <= A.CONFIG.smallCardsPerCategory), 'la card grande deve provenire dal carosello senza aumentare il numero di card');
 assert.ok(result.sections.every((section) => section.cards.every((entry) => A.categoryFor(entry)?.id === section.category.id)), 'ogni carosello deve contenere soltanto card della propria categoria');
 assert.equal(A.categoryFor(items.at(-1)).id, 'politica', 'primaryCategory deve prevalere sulle categorie multiple');
+assert.ok(!fs.readFileSync(require.resolve('../assets/js/home-sections-v504.js'), 'utf8').includes('wrap.remove()'), 'un errore immagine non deve eliminare il riquadro e causare salti');
 console.log('home-allocation-v504: tutti i test superati');
