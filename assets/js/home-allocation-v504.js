@@ -1,4 +1,4 @@
-/* CurioMondo v508 — category leads are earned, paired and never synthesized. */
+/* CurioMondo v509 — promote one existing rail card without increasing card count. */
 (function (root, factory) {
   const api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
@@ -89,9 +89,8 @@
     const sections = [];
     CONFIG.categories.forEach((category) => {
       const pool = remaining().filter((entry) => categoryFor(entry)?.id === category.id);
-      const leadCandidate = pool.filter((entry) => isPromotable(entry, now) && isImportant(entry))
-        .sort((a, b) => importance(b) - importance(a) || b._published - a._published)[0];
-      const cardCandidates = pool.filter((entry) => entry !== leadCandidate).slice(0, smallCapacity);
+      const leadCandidate = pool[0];
+      const cardCandidates = pool.slice(1, smallCapacity);
       if (!leadCandidate || !cardCandidates.length) return;
       const lead = take(leadCandidate);
       const cards = cardCandidates.map(take);
