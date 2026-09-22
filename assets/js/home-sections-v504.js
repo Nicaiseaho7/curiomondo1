@@ -126,11 +126,17 @@
   async function render() {
     const current = ++generation;
     clearTimeout(timer);
-    const response = await fetch('/assets/data/home-feed-v210.json?homepage=v504&t=' + Date.now(), { credentials: 'same-origin', cache: 'no-store' });
-    if (!response.ok) throw new Error('Feed homepage non disponibile');
-    const payload = await response.json();
+    const nonce = Date.now();
+    const [response, configResponse] = await Promise.all([
+      fetch('/assets/data/home-feed-v210.json?homepage=v504&t=' + nonce, { credentials: 'same-origin', cache: 'no-store' }),
+      fetch('/assets/data/homepage-config-v504.json?t=' + nonce, { credentials: 'same-origin', cache: 'no-store' })
+    ]);
+    if (!response.ok || !configResponse.ok) throw new Error('Feed homepage non disponibile');
+    const [payload, editorialConfig] = await Promise.all([response.json(), configResponse.json()]);
+    const overrides = editorialConfig && editorialConfig.articles || {};
+    const items = (Array.isArray(payload.items) ? payload.items : []).map((entry) => ({ ...entry, ...(overrides[entry.url] || {}) }));
     if (current !== generation) return;
-    const allocation = A.allocate(payload.items, { now: new Date() });
+    const allocation = A.allocate(items, { now: new Date() });
     const fragment = document.createDocumentFragment();
     if (allocation.featured) fragment.append(largeCard(allocation.featured, 'In primo piano', '#B91C1C', true));
     const latestSection = el('section', 'cm-latest-section');
