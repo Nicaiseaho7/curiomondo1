@@ -1,4 +1,4 @@
-/* CurioMondo v504 — pure homepage allocation rules (browser + Node tests). */
+/* CurioMondo v507 — every category keeps one lead card above its rail. */
 (function (root, factory) {
   const api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
@@ -89,8 +89,7 @@
     const sections = [];
     CONFIG.categories.forEach((category) => {
       let pool = remaining().filter((entry) => categoryFor(entry)?.id === category.id);
-      const lead = take(pool.filter((entry) => isPromotable(entry, now) && isImportant(entry))
-        .sort((a, b) => importance(b) - importance(a) || b._published - a._published)[0]);
+      const lead = take(pool.sort((a, b) => importance(b) - importance(a) || b._published - a._published)[0]);
       pool = remaining().filter((entry) => categoryFor(entry)?.id === category.id);
       const cards = pool.slice(0, smallCapacity).map(take);
       if (lead || cards.length) sections.push({ category, lead, cards });
