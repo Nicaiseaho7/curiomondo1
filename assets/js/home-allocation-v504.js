@@ -1,4 +1,4 @@
-/* CurioMondo v515 — stable carousels and future-only refresh scheduling. */
+/* CurioMondo v519 — three-item featured carousel with category handoff. */
 (function (root, factory) {
   const api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
@@ -9,6 +9,7 @@
   const CONFIG = Object.freeze({
     timeZone: 'Europe/Rome',
     promotionHours: 3,
+    featuredCapacity: 3,
     latestCapacity: 5,
     smallCardsPerCategory: 11,
     categories: Object.freeze([
@@ -76,6 +77,7 @@
   };
   function allocate(items, options = {}) {
     const now = options.now instanceof Date ? options.now : new Date(options.now || Date.now());
+    const featuredCapacity = Number.isInteger(options.featuredCapacity) ? options.featuredCapacity : CONFIG.featuredCapacity;
     const latestCapacity = Number.isInteger(options.latestCapacity) ? options.latestCapacity : CONFIG.latestCapacity;
     const smallCapacity = Number.isInteger(options.smallCardsPerCategory) ? options.smallCardsPerCategory : CONFIG.smallCardsPerCategory;
     const available = prepare(items, now);
@@ -83,11 +85,10 @@
     const take = (entry) => { if (entry) used.add(entry._key); return entry || null; };
     const remaining = () => available.filter((entry) => !used.has(entry._key));
 
-    const featuredCandidate = remaining().filter((entry) => isPromotable(entry, now) && isImportant(entry))
-      .sort((a, b) => importance(b) - importance(a) || b._published - a._published)[0]
-      || remaining()[0];
-    const featured = take(featuredCandidate);
-    const latest = remaining().slice(0, latestCapacity).map(take);
+    // The three newest published entries belong exclusively to the main carousel.
+    // When a fourth entry arrives, the displaced one becomes available to its category.
+    const featuredItems = remaining().slice(0, featuredCapacity).map(take);
+    const featured = featuredItems[0] || null;
     const sections = [];
     CONFIG.categories.forEach((category) => {
       const pool = remaining().filter((entry) => categoryFor(entry)?.id === category.id);
@@ -98,10 +99,13 @@
       const cards = cardCandidates.map(take);
       sections.push({ category, lead, cards });
     });
-    return { featured, latest, sections, rest: remaining(), used, now };
+    // Desktop may still show the legacy latest strip, but only with entries not already
+    // reserved by the featured carousel or a category.
+    const latest = remaining().slice(0, latestCapacity).map(take);
+    return { featured, featuredItems, latest, sections, rest: remaining(), used, now };
   }
   function nextExpiry(allocation) {
-    const leads = [allocation && allocation.featured].concat((allocation && allocation.sections || []).map((section) => section.lead)).filter(Boolean);
+    const leads = (allocation && allocation.featuredItems || [allocation && allocation.featured]).concat((allocation && allocation.sections || []).map((section) => section.lead)).filter(Boolean);
     if (!leads.length) return null;
     const now = allocation.now instanceof Date ? allocation.now : new Date();
     const today = zonedDay(now);
