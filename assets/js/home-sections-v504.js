@@ -1,4 +1,4 @@
-/* CurioMondo v508 — lightweight category pairs: lead followed by its rail. */
+/* CurioMondo v510 — stable image frames for every category card. */
 (() => {
   'use strict';
   const A = window.CMHomepageAllocation;
@@ -41,7 +41,10 @@
     image.loading = eager ? 'eager' : 'lazy';
     image.decoding = 'async';
     if (eager) image.fetchPriority = 'high';
-    image.addEventListener('error', () => wrap.remove(), { once: true });
+    image.addEventListener('error', () => {
+      wrap.classList.add('cm-image-frame--error');
+      image.setAttribute('aria-hidden', 'true');
+    }, { once: true });
     wrap.append(image);
     return wrap;
   };
