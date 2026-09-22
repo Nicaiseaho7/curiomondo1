@@ -1,4 +1,4 @@
-/* CurioMondo v507 — every category keeps one lead card above its rail. */
+/* CurioMondo v508 — category leads are earned, paired and never synthesized. */
 (function (root, factory) {
   const api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
@@ -88,11 +88,14 @@
     const latest = remaining().slice(0, latestCapacity).map(take);
     const sections = [];
     CONFIG.categories.forEach((category) => {
-      let pool = remaining().filter((entry) => categoryFor(entry)?.id === category.id);
-      const lead = take(pool.sort((a, b) => importance(b) - importance(a) || b._published - a._published)[0]);
-      pool = remaining().filter((entry) => categoryFor(entry)?.id === category.id);
-      const cards = pool.slice(0, smallCapacity).map(take);
-      if (lead || cards.length) sections.push({ category, lead, cards });
+      const pool = remaining().filter((entry) => categoryFor(entry)?.id === category.id);
+      const leadCandidate = pool.filter((entry) => isPromotable(entry, now) && isImportant(entry))
+        .sort((a, b) => importance(b) - importance(a) || b._published - a._published)[0];
+      const cardCandidates = pool.filter((entry) => entry !== leadCandidate).slice(0, smallCapacity);
+      if (!leadCandidate || !cardCandidates.length) return;
+      const lead = take(leadCandidate);
+      const cards = cardCandidates.map(take);
+      sections.push({ category, lead, cards });
     });
     return { featured, latest, sections, rest: remaining(), used, now };
   }
