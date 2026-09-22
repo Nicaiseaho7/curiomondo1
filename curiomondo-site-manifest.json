@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 503,
-    "site_version": 503
+    "current_site_version": 520,
+    "site_version": 520
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -255,21 +255,25 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 501,
-  "version": "v503",
-  "release_version": "v503",
+  "site_version": 520,
+  "version": "v520",
+  "release_version": "v520",
   "last_release": {
-    "version": 501,
+    "version": 520,
     "date": "2026-09-22",
-    "type": "daily-editorial-package",
-    "news_added": [],
-    "news_updated": [],
-    "daily_question_added": "quando-perdonare-diventa-liberta-e-quando-rischia-di-diventare-una-scusa-per-non-cambiare",
-    "ebook_added": "quando-perdonare-diventa-liberta-e-quando-rischia-di-diventare-una-scusa-per-non-cambiare",
-    "guides_added": [
-      "come-attivare-modalita-scura",
-      "come-sincronizzare-google-drive-onedrive"
+    "type": "editorial-news-cycle",
+    "news_added": [
+      "italia-oro-staffetta-mista-mondiali-ciclismo-montreal-2026",
+      "enisa-2026-pubblica-amministrazione-32-percento-attacchi-informatici",
+      "iea-elettrificazione-importazioni-combustibili-400-miliardi-2035",
+      "michael-kayode-prima-convocazione-nazionale-serie-d-premier-2026",
+      "brothers-apple-tv-debutto-23-settembre-mcconaughey-harrelson-22-09-2026",
+      "italia-bielorussia-femminile-biglietti-firenze-13-ottobre-2026-22-09-2026"
     ],
-    "change": "Domanda del giorno n. 1006, eBook collegato e due guide Biblioteca"
+    "news_updated": [
+      "bonus-colonnine-domestiche-2026-domande-dal-22-settembre",
+      "ue-rinnova-sanzioni-russia-tre-anni-rimuove-usmanov-fridman-22-settembre-2026"
+    ],
+    "change": "Sei notizie verificate e due aggiornamenti, inclusa la biglietteria FIGC"
   }
 }

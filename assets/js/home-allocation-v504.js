@@ -15,7 +15,7 @@
     categories: Object.freeze([
       { id: 'sport', label: 'Sport', color: '#1565C0', archive: '/categorie/sport/', aliases: ['sport', 'calcio', 'basket', 'tennis', 'motogp'] },
       { id: 'politica', label: 'Politica', color: '#B91C1C', archive: '/categorie/politica/', aliases: ['politica', 'governo', 'parlamento', 'elezioni'] },
-      { id: 'film-tv', label: 'Film e Serie TV', color: '#6D28D9', archive: '/categorie/cultura/', aliases: ['film e serie tv', 'film', 'cinema', 'serie tv', 'streaming'] },
+      { id: 'film-tv', label: 'Film e Serie TV', color: '#6D28D9', archive: '/categorie/film-serie-tv/', aliases: ['film e serie tv', 'film', 'cinema', 'serie tv', 'streaming'] },
       { id: 'meteo', label: 'Meteo', color: '#047857', archive: '/categorie/meteo/', aliases: ['meteo', 'previsioni', 'maltempo'] },
       { id: 'cronaca', label: 'Cronaca', color: '#9A3412', archive: '/categorie/cronaca/', aliases: ['cronaca', 'giustizia', 'sicurezza'] },
       { id: 'tecnologia', label: 'Tecnologia', color: '#0E7490', archive: '/categorie/tecnologia/', aliases: ['tecnologia', 'digitale', 'intelligenza artificiale'] },

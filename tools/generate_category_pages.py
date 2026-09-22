@@ -15,7 +15,8 @@ CATEGORIES = {
     "sport": ("Sport", "Risultati, competizioni, protagonisti e storie dal mondo dello sport.", ["sport"]),
     "meteo": ("Meteo", "Previsioni, allerte e fenomeni meteorologici spiegati con fonti verificabili.", ["meteo", "previsioni", "maltempo"]),
     "tecnologia": ("Tecnologia", "Innovazione, intelligenza artificiale, piattaforme e industria digitale.", ["tecnologia"]),
-    "cultura": ("Cultura", "Arte, spettacolo, televisione, libri e patrimonio culturale.", ["cultura", "film e serie tv"]),
+    "cultura": ("Cultura", "Arte, libri e patrimonio culturale.", ["cultura"]),
+    "film-serie-tv": ("Film e Serie TV", "Uscite, produzioni e protagonisti del cinema e delle serie televisive.", ["film e serie tv", "film e serie TV"]),
     "scienza": ("Scienza", "Ricerca, spazio, salute e scoperte scientifiche.", ["scienza", "spazio", "salute"]),
     "ambiente": ("Ambiente", "Clima, natura, sostenibilità, vulcani e fenomeni ambientali.", ["ambiente", "clima", "natura", "sostenibilita", "alluvione", "vulcani", "economia circolare", "rifiuti", "riciclo", "economia circolare", "rifiuti", "riciclo"]),
 }
