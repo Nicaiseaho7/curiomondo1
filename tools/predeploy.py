@@ -70,7 +70,7 @@ if config_path.exists():
         if articles_cfg.get('inverted_pyramid_required') is not True or articles_cfg.get('lead_five_w_required') is not True: errors.append('piramide invertita o 5 W assenti nella config')
         if articles_cfg.get('paragraph_max_words')!=60: errors.append('limite 60 parole per paragrafo assente nella config')
         if articles_cfg.get('difficult_word_explanations_in_news_forbidden') is not True: errors.append('divieto spiegazioni lessicali assente nella config')
-        if articles_cfg.get('minimum_value_add_elements')!=2: errors.append('minimo due valori aggiunti v303 assente nella config')
+        if articles_cfg.get('minimum_value_add_elements')!=1 or articles_cfg.get('minimum_value_add_elements_for_analysis')!=2: errors.append('gate proporzionato v503 assente nella config')
         if articles_cfg.get('semantic_repetition_forbidden') is not True: errors.append('divieto ripetizioni semantiche assente nella config')
     except Exception as exc: errors.append(f'automation/config.json non valido: {exc}')
 if manifest_path.exists():
@@ -98,7 +98,7 @@ if manifest_path.exists():
         if body_policy.get('feature_may_exceed_reference_range') is not True: errors.append('estensione feature oltre 1.500 parole non abilitata nel manifest')
         if body_policy.get('inverted_pyramid_required') is not True or body_policy.get('lead_five_w_required') is not True: errors.append('piramide invertita o 5 W assenti nel manifest')
         if body_policy.get('paragraph_max_words')!=60: errors.append('limite paragrafi assente nel manifest')
-        if body_policy.get('minimum_value_add_elements')!=2: errors.append('manifest non richiede due valori aggiunti')
+        if body_policy.get('minimum_value_add_elements') not in (1,2): errors.append('manifest non dichiara una soglia valida di valore aggiunto')
         if body_policy.get('semantic_repetition_forbidden') is not True: errors.append('manifest non vieta le ripetizioni semantiche')
     except Exception as exc: errors.append(f'curiomondo-site-manifest.json non valido: {exc}')
 if (root/'automation/scripts/generate_editorial_image.py').exists():

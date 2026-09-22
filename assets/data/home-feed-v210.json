@@ -1,6 +1,176 @@
 {
-  "version": 503,
+  "version": 505,
   "items": [
+    {
+      "title": "Carburanti, in Italia benzina +6,3% e diesel +5,2% in un mese",
+      "excerpt": "Eurostat misura i rincari tra luglio e agosto 2026. Nell’UE i carburanti costano il 23,8% in più rispetto a un anno prima.",
+      "url": "/notizie/carburanti-italia-benzina-diesel-aumenti-eurostat-agosto-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-09-22T12:20:00+02:00",
+      "dateLabel": "2026-09-22",
+      "image": "/assets/images/editorial-auto/carburanti-italia-aumenti-eurostat-agosto-2026-v505-800.webp",
+      "imageAlt": "Illustrazione editoriale generata con IA di una stazione di servizio in Italia con automobili e pompe di carburante; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/carburanti-italia-aumenti-eurostat-agosto-2026-v505-480.webp 480w, /assets/images/editorial-auto/carburanti-italia-aumenti-eurostat-agosto-2026-v505-800.webp 800w, /assets/images/editorial-auto/carburanti-italia-aumenti-eurostat-agosto-2026-v505-1200.webp 1200w",
+      "featuredHighlights": [
+        "6,3%",
+        "5,2%"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "6,3%",
+          "label": "aumento mensile della benzina in Italia"
+        },
+        {
+          "icon": "▲",
+          "value": "5,2%",
+          "label": "aumento mensile del diesel in Italia"
+        },
+        {
+          "icon": "●",
+          "value": "23,8%",
+          "label": "rincaro annuo dei carburanti nell’UE"
+        }
+      ]
+    },
+    {
+      "title": "Petrolio, l’UE paga il 55,8% in più con volumi quasi stabili",
+      "excerpt": "Nel secondo trimestre le importazioni petrolifere sono cresciute soltanto dell’1,2% in quantità. Stati Uniti, Norvegia e Kazakistan restano i principali fornitori.",
+      "url": "/notizie/importazioni-petrolio-ue-valore-56-percento-volume-stabile-q2-2026.html",
+      "section": "Economia / Energia",
+      "dateISO": "2026-09-22T12:18:00+02:00",
+      "dateLabel": "2026-09-22",
+      "image": "/assets/images/editorial-auto/importazioni-petrolio-ue-valore-volume-q2-2026-v505-800.webp",
+      "imageAlt": "Illustrazione editoriale generata con IA di una petroliera in un porto energetico europeo con serbatoi e condotte; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/importazioni-petrolio-ue-valore-volume-q2-2026-v505-480.webp 480w, /assets/images/editorial-auto/importazioni-petrolio-ue-valore-volume-q2-2026-v505-800.webp 800w, /assets/images/editorial-auto/importazioni-petrolio-ue-valore-volume-q2-2026-v505-1200.webp 1200w",
+      "featuredHighlights": [
+        "55,8%",
+        "1,2%"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "55,8%",
+          "label": "aumento del valore importato"
+        },
+        {
+          "icon": "▲",
+          "value": "1,2%",
+          "label": "crescita del volume di petrolio"
+        },
+        {
+          "icon": "●",
+          "value": "36,7 mln t",
+          "label": "volume medio mensile nel trimestre"
+        }
+      ]
+    },
+    {
+      "title": "Sport, nell’UE lavorano 1,8 milioni di persone",
+      "excerpt": "Eurostat pubblica i dati alla vigilia della Settimana europea dello sport: 5.380 produttori di articoli sportivi generano 8 miliardi di euro.",
+      "url": "/notizie/lavoro-sport-europa-1-8-milioni-occupati-eurostat-2025.html",
+      "section": "Sport / Lavoro",
+      "dateISO": "2026-09-22T12:16:00+02:00",
+      "dateLabel": "2026-09-22",
+      "image": "/assets/images/editorial-auto/lavoro-sport-europa-eurostat-2025-v505-800.webp",
+      "imageAlt": "Illustrazione editoriale generata con IA di due professionisti al lavoro in un moderno centro sportivo; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/lavoro-sport-europa-eurostat-2025-v505-480.webp 480w, /assets/images/editorial-auto/lavoro-sport-europa-eurostat-2025-v505-800.webp 800w, /assets/images/editorial-auto/lavoro-sport-europa-eurostat-2025-v505-1200.webp 1200w",
+      "featuredHighlights": [
+        "1,8 mln",
+        "5.380"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "1,8 mln",
+          "label": "occupati nello sport nell’UE"
+        },
+        {
+          "icon": "▲",
+          "value": "5.380",
+          "label": "produttori di articoli sportivi"
+        },
+        {
+          "icon": "●",
+          "value": "8 mld €",
+          "label": "fatturato complessivo dei produttori"
+        }
+      ]
+    },
+    {
+      "title": "IA nella ricerca sanitaria, l’OMS chiede controlli etici più forti",
+      "excerpt": "Il rapporto indica rischi per trasparenza, equità, privacy e responsabilità. I comitati etici potrebbero aver bisogno di nuove competenze.",
+      "url": "/notizie/oms-etica-intelligenza-artificiale-ricerca-sanitaria-21-settembre-2026.html",
+      "section": "Salute / Tecnologia",
+      "dateISO": "2026-09-22T12:14:00+02:00",
+      "dateLabel": "2026-09-22",
+      "image": "/assets/images/editorial-auto/oms-etica-ia-ricerca-sanitaria-2026-v505-800.webp",
+      "imageAlt": "Illustrazione editoriale generata con IA di un comitato multidisciplinare che valuta applicazioni dell’intelligenza artificiale nella ricerca sanitaria; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/oms-etica-ia-ricerca-sanitaria-2026-v505-480.webp 480w, /assets/images/editorial-auto/oms-etica-ia-ricerca-sanitaria-2026-v505-800.webp 800w, /assets/images/editorial-auto/oms-etica-ia-ricerca-sanitaria-2026-v505-1200.webp 1200w",
+      "featuredHighlights": [
+        "3 ambiti",
+        "intero ciclo"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "3 ambiti",
+          "label": "categorie di ricerca considerate"
+        },
+        {
+          "icon": "▲",
+          "value": "intero ciclo",
+          "label": "controlli dal progetto all’applicazione"
+        },
+        {
+          "icon": "●",
+          "value": "più competenze",
+          "label": "richiesta per i comitati etici"
+        }
+      ]
+    },
+    {
+      "title": "BRICS, impegni comuni su sanità, vaccini e nuove pandemie",
+      "excerpt": "L’OMS richiama la Dichiarazione di New Delhi: priorità a cure primarie, finanziamenti sostenibili e produzione regionale di vaccini e test.",
+      "url": "/notizie/brics-impegni-sanita-vaccini-pandemie-oms-21-settembre-2026.html",
+      "section": "Mondo / Salute",
+      "dateISO": "2026-09-22T12:12:00+02:00",
+      "dateLabel": "2026-09-22",
+      "image": "/assets/images/editorial-auto/brics-sanita-vaccini-pandemie-new-delhi-2026-v505-800.webp",
+      "imageAlt": "Illustrazione editoriale generata con IA di una riunione diplomatica internazionale a New Delhi dedicata alla cooperazione sanitaria; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/brics-sanita-vaccini-pandemie-new-delhi-2026-v505-480.webp 480w, /assets/images/editorial-auto/brics-sanita-vaccini-pandemie-new-delhi-2026-v505-800.webp 800w, /assets/images/editorial-auto/brics-sanita-vaccini-pandemie-new-delhi-2026-v505-1200.webp 1200w",
+      "featuredHighlights": [
+        "18° vertice",
+        "3 priorità"
+      ],
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "18° vertice",
+          "label": "riunione BRICS a New Delhi"
+        },
+        {
+          "icon": "▲",
+          "value": "3 priorità",
+          "label": "cure, preparazione e produzione"
+        },
+        {
+          "icon": "●",
+          "value": "2027",
+          "label": "presidenza successiva affidata alla Cina"
+        }
+      ]
+    },
     {
       "title": "Vogue World a Milano: Galleria chiusa dalle 15, la M1 salta Duomo",
       "excerpt": "Stop al traffico dalle 17.30 in centro. Lo show alle 20, in diretta streaming.",

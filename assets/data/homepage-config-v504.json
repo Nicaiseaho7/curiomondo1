@@ -1,5 +1,5 @@
 {
-  "version": 504,
+  "version": 505,
   "articles": {
     "/notizie/vogue-world-milano-galleria-chiusure-m1-duomo-22-settembre-2026.html": {
       "firstPublishedAt": "2026-09-22T06:18:00+02:00",
@@ -13,6 +13,31 @@
     },
     "/notizie/meteo-italia-21-settembre-2026-sole-allerta-gialla-sud.html": {
       "primaryCategory": "meteo"
+    },
+    "/notizie/carburanti-italia-benzina-diesel-aumenti-eurostat-agosto-2026.html": {
+      "firstPublishedAt": "2026-09-22T12:20:00+02:00",
+      "homepagePriority": 100,
+      "primaryCategory": "italia"
+    },
+    "/notizie/importazioni-petrolio-ue-valore-56-percento-volume-stabile-q2-2026.html": {
+      "firstPublishedAt": "2026-09-22T12:18:00+02:00",
+      "homepagePriority": 95,
+      "primaryCategory": "economia"
+    },
+    "/notizie/lavoro-sport-europa-1-8-milioni-occupati-eurostat-2025.html": {
+      "firstPublishedAt": "2026-09-22T12:16:00+02:00",
+      "homepagePriority": 85,
+      "primaryCategory": "sport"
+    },
+    "/notizie/oms-etica-intelligenza-artificiale-ricerca-sanitaria-21-settembre-2026.html": {
+      "firstPublishedAt": "2026-09-22T12:14:00+02:00",
+      "homepagePriority": 92,
+      "primaryCategory": "tecnologia"
+    },
+    "/notizie/brics-impegni-sanita-vaccini-pandemie-oms-21-settembre-2026.html": {
+      "firstPublishedAt": "2026-09-22T12:12:00+02:00",
+      "homepagePriority": 88,
+      "primaryCategory": "mondo"
     }
   }
 }
