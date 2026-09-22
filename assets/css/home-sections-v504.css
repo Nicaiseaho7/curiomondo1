@@ -44,3 +44,20 @@ html.cm-dark .cm-topic-lead--primary .cm-topic-lead__body{background:var(--cm-pa
 @media(max-width:1050px){.cm-latest-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:760px){.cm-latest-section{display:none!important}.cm-topic-grid>.cm-topic-card{flex-basis:min(82vw,330px)}}
 @media(max-width:540px){.cm-home-editorial{margin-top:14px}.cm-latest-grid{grid-template-columns:1fr}.cm-topic-lead{min-height:0;border-radius:15px}.cm-topic-lead__body{padding:18px}.cm-topic-lead picture{margin:0 18px 18px}.cm-topic-lead__title{font-size:clamp(1.55rem,8vw,2.15rem)}.cm-topic-lead__summary{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.cm-topic-lead--primary{min-height:0}.cm-topic-lead--primary .cm-topic-lead__body{padding:18px}.cm-topic-card__title{font-size:1.08rem}.cm-topic-card picture{aspect-ratio:16/9}}
+
+/* v519 — main three-story carousel */
+.cm-featured-carousel{position:relative;margin:0 0 30px}
+.cm-featured-carousel__viewport{width:100%;overflow-x:auto;overscroll-behavior-inline:contain;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:15px}
+.cm-featured-carousel__viewport::-webkit-scrollbar{display:none}
+.cm-featured-carousel__viewport:focus-visible{outline:3px solid #0091ff;outline-offset:4px}
+.cm-featured-carousel__track{display:flex;align-items:stretch}
+.cm-featured-carousel__slide{flex:0 0 100%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always}
+.cm-featured-carousel__slide .cm-topic-lead--primary{height:calc(100% - 2px);margin:0 1px}
+.cm-featured-carousel__controls{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:12px}
+.cm-featured-carousel__arrow,.cm-featured-carousel__dot{border:0;cursor:pointer}
+.cm-featured-carousel__arrow{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;color:#fff;background:var(--cm-featured-red);font-size:1.35rem;font-weight:900;box-shadow:0 7px 18px rgba(185,28,28,.24)}
+.cm-featured-carousel__dot{width:10px;height:10px;padding:0;border-radius:50%;background:#c7d2dc}
+.cm-featured-carousel__dot.is-active{width:28px;border-radius:999px;background:var(--cm-featured-red)}
+.cm-featured-carousel__dots{display:flex;align-items:center;justify-content:center;gap:8px}
+.cm-featured-carousel__arrow:focus-visible,.cm-featured-carousel__dot:focus-visible{outline:3px solid #0091ff;outline-offset:3px}
+@media(max-width:540px){.cm-featured-carousel{margin-bottom:26px}.cm-featured-carousel__arrow{width:38px;height:38px}.cm-featured-carousel__controls{margin-top:10px}}
