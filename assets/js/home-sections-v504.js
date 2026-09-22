@@ -1,4 +1,4 @@
-/* CurioMondo v516 — question of the day before the stable mobile newsroom. */
+/* CurioMondo v519 — three-item featured carousel and automatic category handoff. */
 (() => {
   'use strict';
   const A = window.CMHomepageAllocation;
@@ -92,6 +92,51 @@
     if (visual) article.append(visual);
     return article;
   };
+  const featuredCarousel = (entries) => {
+    const block = el('section', 'cm-featured-carousel');
+    block.setAttribute('aria-label', 'Notizie in primo piano');
+    const viewport = el('div', 'cm-featured-carousel__viewport');
+    viewport.tabIndex = 0;
+    const track = el('div', 'cm-featured-carousel__track');
+    const dots = el('div', 'cm-featured-carousel__dots');
+    const slides = entries.map((entry, index) => {
+      const slide = el('div', 'cm-featured-carousel__slide');
+      slide.dataset.index = String(index);
+      slide.append(largeCard(entry, 'In primo piano', '#B91C1C', index === 0));
+      const dot = el('button', 'cm-featured-carousel__dot');
+      dot.type = 'button';
+      dot.setAttribute('aria-label', `Vai alla notizia ${index + 1}`);
+      dot.addEventListener('click', () => slide.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' }));
+      dots.append(dot);
+      return slide;
+    });
+    track.append(...slides);
+    viewport.append(track);
+    const controls = el('div', 'cm-featured-carousel__controls');
+    const previous = el('button', 'cm-featured-carousel__arrow', '←');
+    const next = el('button', 'cm-featured-carousel__arrow', '→');
+    previous.type = next.type = 'button';
+    previous.setAttribute('aria-label', 'Notizia precedente');
+    next.setAttribute('aria-label', 'Notizia successiva');
+    const currentIndex = () => Math.max(0, Math.min(slides.length - 1, Math.round(viewport.scrollLeft / Math.max(1, viewport.clientWidth))));
+    const update = () => Array.from(dots.children).forEach((dot, index) => {
+      const active = index === currentIndex();
+      dot.classList.toggle('is-active', active);
+      dot.setAttribute('aria-current', active ? 'true' : 'false');
+    });
+    const go = (delta) => viewport.scrollTo({ left: (currentIndex() + delta + slides.length) % slides.length * viewport.clientWidth, behavior: 'smooth' });
+    previous.addEventListener('click', () => go(-1));
+    next.addEventListener('click', () => go(1));
+    viewport.addEventListener('scroll', update, { passive: true });
+    viewport.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowLeft') { event.preventDefault(); go(-1); }
+      if (event.key === 'ArrowRight') { event.preventDefault(); go(1); }
+    });
+    controls.append(previous, dots, next);
+    block.append(viewport, controls);
+    requestAnimationFrame(update);
+    return block;
+  };
   const smallCard = (entry, category, eager = true) => {
     const link = el('a', 'cm-topic-card');
     link.href = entry.url;
@@ -170,7 +215,7 @@
       smallCardsPerCategory: 11
     });
     const fragment = document.createDocumentFragment();
-    if (allocation.featured) fragment.append(largeCard(allocation.featured, 'In primo piano', '#B91C1C', true));
+    if (allocation.featuredItems && allocation.featuredItems.length) fragment.append(featuredCarousel(allocation.featuredItems));
     if (allocation.latest.length) {
       const latestSection = el('section', 'cm-latest-section');
       latestSection.append(el('h2', 'cm-latest-title', 'Ultime notizie'));
