@@ -1,7 +1,35 @@
 {
-  "version": 525,
+  "version": 526,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "phishing-smishing-vishing-ai-openai-v526",
+      "alt": "Persona che verifica un messaggio sospetto mentre un portatile mostra una pagina di accesso contraffatta e un secondo telefono riceve una chiamata",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/phishing-smishing-vishing-ai-openai-v526-480.webp",
+          "sha256": "7be865fc5e9d01a57d47033e670f473310b09d2d583bab79b5e0d03b1180ae67",
+          "bytes": 16062
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/phishing-smishing-vishing-ai-openai-v526-800.webp",
+          "sha256": "032582da8b0e70ecfcb0d9a2549d6c9d3c47740fd0d5c722d58869a3c287ea16",
+          "bytes": 30414
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/phishing-smishing-vishing-ai-openai-v526-1200.webp",
+          "sha256": "45b387fb286bdfb29acacf80c540817318b05108d1b1b7c8ba2b6d99345fb67b",
+          "bytes": 49928
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare phishing, smishing e vishing; non è una fotografia documentaria.",
+      "generator": "OpenAI image tool",
+      "sensitiveContext": false,
+      "article": "/approfondimenti/phishing-smishing-vishing-come-riconoscere-truffe.html"
+    },
     {
       "key": "davis-cup-italia-corea-sud-quarti-bologna-25-novembre-2026-v525",
       "alt": "Arena editoriale IA di tennis a Bologna illuminata con i colori di Italia e Corea del Sud; scena non documentaria.",
