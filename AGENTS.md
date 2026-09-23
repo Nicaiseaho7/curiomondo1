@@ -110,3 +110,26 @@ Nessun glossario o gancio didascalico è obbligatorio dentro la notizia. Un appr
 
 ## Regola permanente v470 — evergreen sotto l’articolo
 Ogni approfondimento evergreen deve comparire **sotto ogni notizia che lo riguarda**, nel blocco visibile `.cm-evergreen-reader` (kicker, titolo, anteprima, `Leggi l’approfondimento →`). Non basta l’indice `/approfondimenti/` né una card in `curio-related`. Posizione: subito dopo `.art-body`. Massimo due blocchi per articolo. Un approfondimento senza almeno un blocco sotto un articolo correlato non è pubblicato.
+
+## Deploy Netlify — nessun build command, nessun netlify.toml
+
+**Data:** 23 settembre 2026 — obbligatorio.
+
+CurioMondo e un sito statico: Netlify deve limitarsi a pubblicare la cartella.
+`netlify.toml` e `requirements-netlify.txt` non devono esistere nel repository,
+coerentemente con il divieto gia previsto dal protocollo maestro.
+
+Il 22 settembre un build command in `netlify.toml` installava Python e lxml e
+poi eseguiva quattro gate dentro la build. Ha bloccato i deploy per un giorno —
+quattordici commit fra riparazioni e deploy forzati — e con essi dodici articoli
+gia conformi: i gate passavano, la build no. Una pipeline dentro il deploy e una
+macchina in piu che puo guastarsi, e quando si guasta non pubblica niente.
+
+I controlli restano obbligatori ma **prima del push**, dove un errore ferma
+l'articolo sbagliato invece dell'intero sito:
+
+    python3 tools/repository_integrity_gate.py
+    python3 tools/adsense_deploy_gate.py
+    python3 tools/predeploy.py
+
+`tools/pubblica_articolo.py` li esegue gia tutti e tre a ogni pubblicazione.
