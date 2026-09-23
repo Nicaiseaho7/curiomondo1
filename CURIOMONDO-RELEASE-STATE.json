@@ -1,7 +1,7 @@
 {
-  "site_version": 525,
-  "articleCount": 480,
-  "generatedEditorialImages": 316,
+  "site_version": 527,
+  "articleCount": 481,
+  "generatedEditorialImages": 317,
   "baseline_version": 342,
   "release_date": "2026-09-23",
   "protocol_files": [
@@ -16,12 +16,12 @@
     "curiomondo-site-manifest.json"
   ],
   "last_daily_question_date": "2026-09-23",
-  "version": "525",
+  "version": "527",
   "date": "2026-09-23",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "politica-sport-cronaca-v525",
+  "last_update": "gpt-6-sol-luna-v527",
   "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
-  "currentVersion": 525,
+  "currentVersion": 527,
   "baselineVersion": 342,
   "designRestored": "Intestazione globale unificata su tutte le pagine interne; palette blu Facebook e fascia LIVE rossa piena confermate.",
   "status": "ready"

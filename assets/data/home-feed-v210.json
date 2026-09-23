@@ -1,6 +1,40 @@
 {
-  "version": 525,
+  "version": 527,
   "items": [
+    {
+      "title": "OpenAI lancia GPT-6 Sol e Luna: prezzi API dimezzati e debutto in ChatGPT Work",
+      "excerpt": "I due modelli portano la famiglia GPT-6 su fasce più rapide ed economiche. Sol costa 2 dollari per milione di token in input, Luna 10 centesimi; il rilascio parte da ChatGPT Work, Codex e API.",
+      "url": "/notizie/openai-gpt-6-sol-luna-prezzi-disponibilita-22-settembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-09-23T08:50:00+02:00",
+      "dateLabel": "2026-09-23",
+      "image": "/assets/images/editorial-auto/openai-gpt-6-sol-luna-prezzi-disponibilita-22-settembre-2026-v527-800.webp",
+      "imageAlt": "Due sistemi di intelligenza artificiale visualizzati su monitor in un laboratorio digitale, illustrazione editoriale non documentaria",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/openai-gpt-6-sol-luna-prezzi-disponibilita-22-settembre-2026-v527-480.webp 480w, /assets/images/editorial-auto/openai-gpt-6-sol-luna-prezzi-disponibilita-22-settembre-2026-v527-800.webp 800w, /assets/images/editorial-auto/openai-gpt-6-sol-luna-prezzi-disponibilita-22-settembre-2026-v527-1200.webp 1200w",
+      "featuredHighlights": [
+        "GPT-6 Sol e Luna",
+        "prezzi API dimezzati"
+      ],
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "−50%",
+          "label": "prezzi rispetto alle tariffe promozionali GPT-5.6"
+        },
+        {
+          "icon": "•",
+          "value": "$2 / $10",
+          "label": "Sol: input e output per milione di token"
+        },
+        {
+          "icon": "•",
+          "value": "$0,10 / $0,50",
+          "label": "Luna: input e output per milione di token"
+        }
+      ]
+    },
     {
       "title": "EuroLeague, la Virtus debutta a Istanbul contro il Fenerbahçe",
       "excerpt": "La prima gara europea dei bolognesi è in programma venerdì 25 settembre alle 19:45 sul campo del Fenerbahçe. Il calendario ufficiale corregge l’indicazione della gara in casa.",

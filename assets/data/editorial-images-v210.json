@@ -1,7 +1,35 @@
 {
-  "version": 526,
+  "version": 527,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "openai-gpt-6-sol-luna-prezzi-disponibilita-22-settembre-2026-v527",
+      "alt": "Due sistemi di intelligenza artificiale visualizzati su monitor in un laboratorio digitale, illustrazione editoriale non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/openai-gpt-6-sol-luna-prezzi-disponibilita-22-settembre-2026-v527-480.webp",
+          "sha256": "a85252680d7605dbe33b7f541ae545ef9265d7a908f01d277c0b4c50ee7a279f",
+          "bytes": 32604
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/openai-gpt-6-sol-luna-prezzi-disponibilita-22-settembre-2026-v527-800.webp",
+          "sha256": "eff19c4adeb01e61566cf92af8b82be4334c7209a61df1e1002fa26de169fbc2",
+          "bytes": 72966
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/openai-gpt-6-sol-luna-prezzi-disponibilita-22-settembre-2026-v527-1200.webp",
+          "sha256": "e2c54e1df2e400d37e071e1ebc738751d37600b40029c9bce0518a1a5bdc9314",
+          "bytes": 131340
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image tool",
+      "sensitiveContext": false,
+      "article": "/notizie/openai-gpt-6-sol-luna-prezzi-disponibilita-22-settembre-2026.html"
+    },
     {
       "key": "phishing-smishing-vishing-ai-openai-v526",
       "alt": "Persona che verifica un messaggio sospetto mentre un portatile mostra una pagina di accesso contraffatta e un secondo telefono riceve una chiamata",
