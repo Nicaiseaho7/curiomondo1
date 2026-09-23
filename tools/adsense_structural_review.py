@@ -61,7 +61,7 @@ def main():
                     site.get("site_version") or site.get("current_site_version") or 0)
     rows=[inspect(p) for p in sorted((ROOT/"notizie").glob("*.html")) if p.name!="index.html"]
     weak=[r for r in rows if r["indexed"] and r["words"]<args.threshold]
-    report={"policy":"indexed news below 300 words require substantive revision",
+    report={"policy":f"indexed news below {args.threshold} words require substantive revision",
             "total_news":len(rows),"indexed_before":sum(r["indexed"] for r in rows),
             "quarantine_candidates":len(weak),"threshold_words":args.threshold,"items":weak}
     if args.apply:
