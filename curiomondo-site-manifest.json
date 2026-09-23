@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 531,
-    "site_version": 531
+    "current_site_version": 532,
+    "site_version": 532
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -256,29 +256,22 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 531,
-  "version": "v531",
-  "release_version": "v531",
+  "site_version": 532,
+  "version": "v532",
+  "release_version": "v532",
   "last_release": {
-    "version": 531,
+    "version": 532,
     "date": "2026-09-23",
-    "type": "evening-news-batch",
+    "type": "late-news-batch",
     "news_added": [
-      "weinstein-condannato-15-anni-new-york-23-settembre-2026",
-      "nucleare-senato-legge-delega-81-si-23-settembre-2026",
-      "iran-rezaei-minacce-aeroporti-sanzioni-usa-23-settembre-2026",
-      "italia-spagna-0-2-semifinale-mondiali-u20-femminili-2026",
-      "pnrr-decima-rata-28-4-miliardi-obiettivi-23-settembre-2026",
-      "crosetto-aspides-mezzi-navali-aerei-ue-23-settembre-2026",
-      "ue-proposta-sblocco-ungheria-4-2-miliardi-erasmus-23-settembre-2026",
-      "nasa-isaacman-due-astronauti-italiani-luna-2026",
-      "san-cataldo-sorelline-challenge-procura-archiviazione-2026",
-      "f1-baku-gp-sabato-26-settembre-2026-orari-antonelli"
+      "baldissero-alba-chiamata-112-mollo-indagine-23-settembre-2026",
+      "rottamazione-quinquies-seconda-rata-30-settembre-2026-tolleranza",
+      "polonia-elicottero-russo-spazio-aereo-42-secondi-23-settembre-2026"
     ],
     "news_updated": [
-      "meloni-in-arrivo-tetto-agli-stranieri-in-classe-e-divieto-di-burqa-a-scuola-20-09-2026",
-      "bonus-colonnine-domestiche-2026-domande-dal-22-settembre"
+      "xi-jinping-visita-stato-usa-23-25-settembre-2026",
+      "trump-onu-iran-accordo-dopo-midterm-avvertimento-militare-22-settembre-2026"
     ],
-    "change": "Dieci notizie nuove e aggiornamenti su scuola e bonus colonnine"
+    "change": "Tre notizie nuove e due aggiornamenti verificati"
   }
 }
