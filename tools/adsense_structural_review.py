@@ -24,6 +24,18 @@ def inspect(path):
             "sources":len(doc.xpath('//div[contains(concat(" ",normalize-space(@class)," ")," art-sources ")]//a[@href]')),
             "paragraphs":len(body.xpath(".//p")) if body is not None else 0}
 
+def minimum_words(row, standard_threshold):
+    """Soglia coerente con il protocollo editoriale, non una quota unica.
+
+    I flash sono intenzionalmente brevi: applicare loro la soglia degli
+    articoli standard li rende noindex e li cancella dalle superfici durante
+    il build Netlify.
+    """
+    article_format=(row.get("format") or "").strip().casefold()
+    if article_format=="flash":
+        return 100
+    return standard_threshold
+
 def quarantine(path):
     doc=html.fromstring(path.read_text(encoding="utf-8",errors="replace"))
     metas=doc.xpath('//meta[@name="robots"]')
@@ -60,10 +72,11 @@ def main():
         version=int(manifest.get("site_version") or manifest.get("version") or
                     site.get("site_version") or site.get("current_site_version") or 0)
     rows=[inspect(p) for p in sorted((ROOT/"notizie").glob("*.html")) if p.name!="index.html"]
-    weak=[r for r in rows if r["indexed"] and r["words"]<args.threshold]
+    weak=[r for r in rows if r["indexed"] and r["words"]<minimum_words(r,args.threshold)]
     report={"policy":f"indexed news below {args.threshold} words require substantive revision",
             "total_news":len(rows),"indexed_before":sum(r["indexed"] for r in rows),
-            "quarantine_candidates":len(weak),"threshold_words":args.threshold,"items":weak}
+            "quarantine_candidates":len(weak),"threshold_words":args.threshold,
+            "flash_threshold_words":100,"items":weak}
     if args.apply:
         for row in weak: quarantine(ROOT/row["path"])
         for row in rows:

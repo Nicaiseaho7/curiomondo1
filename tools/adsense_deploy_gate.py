@@ -20,14 +20,19 @@ for path in sorted((ROOT/"notizie").glob("*.html")):
     robots=" ".join(doc.xpath('//meta[@name="robots"]/@content')).casefold()
     bodies=doc.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," art-body ")]')
     count=len(WORD_RE.findall(" ".join(bodies[0].itertext()))) if bodies else 0
+    article_format=(bodies[0].get("data-article-format","") if bodies else "").strip().casefold()
+    minimum=100 if article_format=="flash" else 300
     sources=len(doc.xpath('//div[contains(concat(" ",normalize-space(@class)," ")," art-sources ")]//a[@href]'))
     if "noindex" in robots:
         quarantined.append(path.name)
         if doc.xpath('//script[contains(@src,"pagead2.googlesyndication.com")]'):
             errors.append(f"pubblicita presente sulla pagina in revisione: {path.name}")
     else:
-        if count<300:
-            errors.append(f"notizia indicizzabile sotto 300 parole: {path.name} ({count})")
+        if count<minimum:
+            errors.append(
+                f"notizia indicizzabile sotto la soglia {article_format or 'standard'} "
+                f"di {minimum} parole: {path.name} ({count})"
+            )
         if sources<2:
             errors.append(f"notizia indicizzabile con meno di due fonti: {path.name}")
         if not doc.xpath('//p[contains(concat(" ",normalize-space(@class)," ")," cm-article-byline ")] | //a[@href="/pagine/redazione.html"]'):
