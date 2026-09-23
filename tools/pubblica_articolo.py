@@ -14,6 +14,7 @@ che e anche il testo da dare a ChatGPT perche produca un JSON valido.
 from __future__ import annotations
 
 import argparse
+import ast
 import json
 import subprocess
 import sys
@@ -77,14 +78,40 @@ def genera_immagine(prompt: str) -> tuple[bytes, str]:
     return raw, "OpenAI gpt-image-1"
 
 
+# I tre controlli che devono passare prima che il sito cambi. Sono gli stessi
+# che per un giorno hanno vissuto dentro il build di Netlify, bloccando ogni
+# deploy quando la loro macchina si rompeva: qui fermano l'articolo sbagliato
+# invece dell'intero sito, ed e il posto giusto per loro.
+GATE = (
+    ("integrita del repository", "tools/repository_integrity_gate.py"),
+    ("qualita AdSense", "tools/adsense_deploy_gate.py"),
+    ("gate del sito", "tools/predeploy.py"),
+)
+
+
 def errori_del_gate() -> list[str]:
-    """Errori che il gate segnala sul sito cosi com'e adesso."""
-    esito = subprocess.run([sys.executable, "tools/predeploy.py"], cwd=ROOT,
-                           capture_output=True, text=True)
-    try:
-        return list(json.loads(esito.stdout).get("errors", []))
-    except Exception:
-        return ["gate non interpretabile: " + (esito.stderr or esito.stdout)[-300:]]
+    """Errori che i controlli segnalano sul sito cosi com'e adesso."""
+    trovati: list[str] = []
+    for nome, strumento in GATE:
+        esito = subprocess.run([sys.executable, strumento], cwd=ROOT,
+                               capture_output=True, text=True)
+        # Non tutti gli strumenti stampano JSON: adsense_deploy_gate.py stampa un
+        # dizionario Python. Si accettano entrambe le forme.
+        try:
+            dati = json.loads(esito.stdout)
+        except Exception:
+            try:
+                dati = ast.literal_eval(esito.stdout.strip())
+                if not isinstance(dati, dict):
+                    raise ValueError
+            except Exception:
+                trovati.append(f"{nome}: esito non interpretabile "
+                               + (esito.stderr or esito.stdout)[-200:])
+                continue
+        trovati.extend(f"{nome}: {e}" for e in dati.get("errors", []))
+        if esito.returncode != 0 and not dati.get("errors"):
+            trovati.append(f"{nome}: fallito senza spiegazione (codice {esito.returncode})")
+    return trovati
 
 
 def in_evidenza_attuale() -> str:

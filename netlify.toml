@@ -1,6 +1,20 @@
+# CurioMondo e un sito statico: Netlify deve limitarsi a pubblicare i file del
+# repository, senza costruire niente.
+#
+# Dal 22 settembre 2026 qui viveva un build command che installava Python e
+# lxml e poi eseguiva quattro controlli. Ha bloccato i deploy per un giorno
+# intero — quattordici commit fra riparazioni e deploy forzati — e con essi
+# dodici articoli gia pronti. I controlli passavano, il deploy no: il punto e
+# che una pipeline Python dentro il build di Netlify e una macchina in piu che
+# puo rompersi, e quando si rompe non pubblica nulla.
+#
+# I controlli non sono spariti: girano prima del push, dove un errore ferma
+# l'articolo sbagliato invece di fermare tutto il sito. Li esegue
+# tools/pubblica_articolo.py a ogni pubblicazione, e si possono lanciare a mano:
+#
+#   python3 tools/repository_integrity_gate.py
+#   python3 tools/adsense_deploy_gate.py
+#   python3 tools/predeploy.py
+
 [build]
   publish = "."
-  command = "python3 -m pip install --disable-pip-version-check -q -r requirements-netlify.txt && python3 tools/repository_integrity_gate.py && python3 tools/adsense_structural_review.py --apply --threshold 300 && python3 tools/repository_integrity_gate.py && python3 tools/adsense_deploy_gate.py && python3 tools/predeploy.py"
-
-[build.environment]
-  PYTHON_VERSION = "3.12"
