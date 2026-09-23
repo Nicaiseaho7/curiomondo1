@@ -206,11 +206,21 @@ def _article_info(path: Path) -> dict[str, Any] | None:
     h = hero[0]
     src = h.get("src", "").removeprefix("..")
     srcset = re.sub(r'(?:(?<=^)|(?<=, ))\.\./', '/', h.get("srcset", ""))
-    return {"title": title or str(ld.get("headline", "")), "excerpt": subtitle,
+    item = {"title": title or str(ld.get("headline", "")), "excerpt": subtitle,
             "url": f"/notizie/{path.name}", "section": badge or "Notizie",
             "dateISO": iso, "dateLabel": iso[:10], "image": src,
             "imageAlt": h.get("alt", ""), "imageWidth": 800, "imageHeight": 533,
             "srcset": srcset}
+    stats = []
+    for row in doc.xpath('//section[contains(@class,"cm-insight")]//div[contains(@class,"cm-insight-grid")]/div')[:3]:
+        value = _text(row.xpath('./strong//text()'))
+        label = _text(row.xpath('./span//text()'))
+        if value and label:
+            stats.append({"icon": "•", "value": value, "label": label})
+    if len(stats) == 3:
+        item["featuredStats"] = stats
+        item["featuredHighlights"] = [s["value"] for s in stats if s["value"].casefold() in item["title"].casefold()][:2]
+    return item
 
 
 def _picture(parent, item, eager=False):
