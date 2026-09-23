@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 528,
-    "site_version": 528
+    "current_site_version": 530,
+    "site_version": 530
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -256,20 +256,17 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 528,
-  "version": "v528",
-  "release_version": "v528",
+  "site_version": 530,
+  "version": "v530",
+  "release_version": "v530",
   "last_release": {
-    "version": 528,
+    "version": 530,
     "date": "2026-09-23",
-    "type": "environment-data-sport-world",
+    "type": "world-housing-news",
     "news_added": [
-      "lazio-15-risorse-genetiche-anagrafe-biodiversita-22-settembre-2026",
-      "istat-matrice-pendolarismo-studenti-comuni-censimento-2021",
-      "unity-euro-cup-2026-coverciano-sorteggio-22-squadre",
-      "antonio-costa-onu-piano-pace-gaza-due-stati-23-settembre-2026"
+      "maricarmen-87-anni-sfrattata-madrid-proteste-23-settembre-2026"
     ],
     "news_updated": [],
-    "change": "Quattro nuove notizie selezionate dall’editore"
+    "change": "Sfratto di Maricarmen Abascal a Madrid"
   }
 }

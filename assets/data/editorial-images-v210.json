@@ -1,7 +1,35 @@
 {
-  "version": 529,
+  "version": 530,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "maricarmen-87-anni-sfrattata-madrid-proteste-23-settembre-2026-v530",
+      "alt": "Illustrazione editoriale IA con una sedia e una valigia davanti a un edificio di Madrid, mentre una folla pacifica resta dietro un cordone di polizia; scena simbolica non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/maricarmen-87-anni-sfrattata-madrid-proteste-23-settembre-2026-v530-480.webp",
+          "sha256": "6ddd8a8f6a8140c987c05dbdc1e81814c3bebf2443295aca7cee45f9e2cfc103",
+          "bytes": 41548
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/maricarmen-87-anni-sfrattata-madrid-proteste-23-settembre-2026-v530-800.webp",
+          "sha256": "f9c207429860bd81f1c3b78e949a84e77918fa0d7d766ef8f925f3c44ef5c3be",
+          "bytes": 87242
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/maricarmen-87-anni-sfrattata-madrid-proteste-23-settembre-2026-v530-1200.webp",
+          "sha256": "3ca34705259ba69978981159f64d993900f1521d7b58b2b004f3aed2c4654de3",
+          "bytes": 153112
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image tool",
+      "sensitiveContext": true,
+      "article": "/notizie/maricarmen-87-anni-sfrattata-madrid-proteste-23-settembre-2026.html"
+    },
     {
       "key": "udinese-alaba-trattativa-teaser-sedia-visite-mediche-23-settembre-2026-v529",
       "alt": "Illustrazione editoriale IA concettuale di un tunnel da stadio con maglia bianconera e una sedia; scena non documentaria.",
