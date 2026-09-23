@@ -200,6 +200,14 @@ def article_v4_required(doc):
 caption='Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.'
 card_eligible_dates={}
 publication_date_errors=[]
+try:
+    head_proc=subprocess.run(
+        ['git','rev-parse','HEAD'], cwd=root, capture_output=True,
+        text=True, check=True,
+    )
+    current_head=head_proc.stdout.strip()
+except Exception:
+    current_head=''
 for p in news:
     d=html.fromstring(p.read_text(errors='replace'))
     robots_l=' '.join(d.xpath('//meta[@name="robots"]/@content')).lower()
@@ -224,18 +232,20 @@ for p in news:
                     # precede necessariamente il commit: tolleriamo solo il
                     # breve intervallo tecnico di pubblicazione, continuando a
                     # bloccare date ricavate dalla fonte o dall'evento.
-                    # Uno shallow clone non conserva necessariamente la commit
-                    # di creazione: il bordo dello snapshot produrrebbe falsi
-                    # positivi su tutte le date editoriali già pubblicate.
-                    if dt >= datetime.fromisoformat('2026-09-10T00:00:00+02:00') and not (root/'.git'/'shallow').exists():
+                    # Il gate deve giudicare gli articoli introdotti dal
+                    # rilascio corrente. Applicarlo retroattivamente a tutto lo
+                    # storico rende ogni deploy dipendente da vecchi intervalli
+                    # tra generazione e commit e produce falsi positivi in un
+                    # clone Git completo (come quello usato da Netlify).
+                    if dt >= datetime.fromisoformat('2026-09-10T00:00:00+02:00'):
                         try:
-                            import subprocess
                             rel=p.relative_to(root).as_posix()
-                            proc=subprocess.run(['git','log','--diff-filter=A','--follow','--format=%aI','--',rel],cwd=root,capture_output=True,text=True,check=True)
+                            proc=subprocess.run(['git','log','--diff-filter=A','--follow','--format=%H%x09%aI','--',rel],cwd=root,capture_output=True,text=True,check=True)
                             stamps=[x.strip() for x in proc.stdout.splitlines() if x.strip()]
                             if stamps:
-                                first_added=datetime.fromisoformat(stamps[-1].replace('Z','+00:00'))
-                                if first_added - dt > timedelta(minutes=15):
+                                first_sha, first_stamp=stamps[-1].split('\t',1)
+                                first_added=datetime.fromisoformat(first_stamp.replace('Z','+00:00'))
+                                if first_sha == current_head and first_added - dt > timedelta(minutes=15):
                                     publication_date_errors.append(f'datePublished precedente alla pubblicazione CurioMondo: {p.name}')
                         except Exception:
                             pass
