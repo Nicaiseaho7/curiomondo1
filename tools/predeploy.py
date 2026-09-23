@@ -11,6 +11,12 @@ from difflib import SequenceMatcher
 
 ap=argparse.ArgumentParser(); ap.add_argument('--root',default='.'); args=ap.parse_args()
 root=Path(args.root).resolve(); errors=[]
+integrity=subprocess.run(
+    ["python3", str(root/"tools/repository_integrity_gate.py")],
+    cwd=root, check=False, text=True, capture_output=True,
+)
+if integrity.returncode:
+    errors.append("integrità repository non valida: " + (integrity.stdout or integrity.stderr).strip())
 ads_path=root/'ads.txt'
 ads_record='google.com, pub-8050187517048759, DIRECT, f08c47fec0942fa0'
 if not ads_path.exists(): errors.append('ads.txt assente nella radice del sito')

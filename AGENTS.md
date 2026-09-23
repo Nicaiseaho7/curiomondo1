@@ -97,6 +97,14 @@ Un articolo non deve mai essere considerato pubblicato soltanto perché il file 
 
 Se uno qualunque di questi punti manca, segnalare la pubblicazione come **incompleta** e non dichiararla conclusa.
 
+## Integrità tecnica e verifica automatica — obbligatorio
+
+- Prima di ogni commit editoriale eseguire `python3 tools/repository_integrity_gate.py`. Dopo la sincronizzazione di tutte le superfici eseguire anche `python3 tools/predeploy.py`; entrambi devono terminare con exit code 0 prima del push.
+- Il gate di integrità deve validare UTF-8 e sintassi di tutti i JSON, le superfici pubbliche obbligatorie e le firme reali delle immagini editoriali. Un file troncato, binario al posto di testo o con estensione falsa blocca il deploy.
+- Netlify ripete il gate prima e dopo ogni rigenerazione della build. Nessun errore di decodifica può essere ignorato o sostituito silenziosamente.
+- Dopo il push, controllare l'URL pubblico dell'articolo, immagine hero, homepage, categoria, archivio, feed, sitemap e News Sitemap. Un commit presente su GitHub non equivale a una pubblicazione riuscita.
+- Dichiarare `PUBBLICATO` soltanto quando tutti i controlli live rispondono correttamente e contengono il nuovo slug. In caso contrario diagnosticare, autoriparare e rieseguire l'intero ciclo senza chiedere una nuova autorizzazione editoriale.
+
 ## Regola approfondimenti coerente
 Nessun glossario o gancio didascalico è obbligatorio dentro la notizia. Un approfondimento autonomo va creato o collegato **solo quando aggiunge valore durevole, non ridondante e realmente utile**. Se esiste già una guida equivalente, collegarla invece di crearne una nuova. Le spiegazioni tematiche necessarie vivono nella pagina dedicata; la notizia resta concentrata sui fatti.
 
