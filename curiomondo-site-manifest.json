@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 524,
-    "site_version": 524
+    "current_site_version": 525,
+    "site_version": 525
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -256,17 +256,25 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 524,
-  "version": "v524",
-  "release_version": "v524",
+  "site_version": 525,
+  "version": "v525",
+  "release_version": "v525",
   "last_release": {
-    "version": 524,
+    "version": 525,
     "date": "2026-09-23",
-    "type": "weather-image-update",
-    "news_added": [],
-    "news_updated": [
-      "meteo-italia-oggi-settimana-23-28-settembre-2026"
+    "type": "politics-sport-crime",
+    "news_added": [
+      "milano-indossa-kippa-presidio-piazza-san-carlo-22-settembre-2026",
+      "juventus-multa-10000-euro-minuto-silenzio-mazzola-22-settembre-2026",
+      "fenerbahce-virtus-bologna-eurolega-25-settembre-2026",
+      "davis-cup-italia-corea-sud-quarti-bologna-25-novembre-2026"
     ],
-    "change": "Mappa meteo con città, regioni, simboli e tendenza settimanale"
+    "news_updated": [
+      "carta-dedicata-a-te-500-euro-4-novembre-2026",
+      "convocati-italia-mancini-nations-league-34-nomi-18-settembre-2026",
+      "istat-deficit-2025-31-pil-italia-resta-procedura-ue-22-settembre-2026",
+      "meloni-in-arrivo-tetto-agli-stranieri-in-classe-e-divieto-di-burqa-a-scuola-20-09-2026"
+    ],
+    "change": "Quattro nuove notizie verificate e aggiornamenti a quattro articoli esistenti"
   }
 }
