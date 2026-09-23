@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 533,
-    "site_version": 533
+    "current_site_version": 534,
+    "site_version": 534
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -23,7 +23,7 @@
   "daily_state": {
     "question_source": "Mille_e_piu_domande_per_pensare.pdf (fonte privata fornita dal proprietario; non pubblicare nel sito)",
     "question_source_rule": "choose every future daily question only from the 1125 numbered questions in this PDF and record its number",
-    "current_question_source_number": 1007,
+    "current_question_source_number": 1008,
     "used_question_source_numbers": [
       87,
       88,
@@ -38,9 +38,10 @@
       452,
       453,
       1006,
-      1007
+      1007,
+      1008
     ],
-    "last_question_date": "2026-09-23",
+    "last_question_date": "2026-09-24",
     "question_archive_path": "/domanda-del-giorno/",
     "question_library_root": "/biblioteca/vita-relazioni/",
     "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE",
@@ -49,12 +50,12 @@
     "private_source_required_fail_closed": true,
     "timezone": "Europe/Rome",
     "date_source": "current_datetime_in_Europe_Rome_never_UTC",
-    "last_question_slug": "quale-parte-della-tua-identita-esisterebbe-ancora-se-nessuno-ricordasse-il-tuo-passato",
+    "last_question_slug": "e-piu-onesto-cambiare-idea-o-restare-fedeli-alla-persona-che-eravamo-quando-abbiamo-scelto",
     "last_daily_guides": [
-      "come-creare-pdf",
-      "come-comprimere-file-foto"
+      "come-usare-chatgpt-gemini-assistenti-ai",
+      "come-creare-action-figure-con-ai"
     ],
-    "last_daily_package_date": "2026-09-23"
+    "last_daily_package_date": "2026-09-24"
   },
   "homepage": {
     "hero_section_label": "In evidenza",
@@ -256,22 +257,21 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 532,
-  "version": "v532",
-  "release_version": "v532",
+  "site_version": 534,
+  "version": "v534",
+  "release_version": "v534",
   "last_release": {
-    "version": 532,
-    "date": "2026-09-23",
-    "type": "late-news-batch",
-    "news_added": [
-      "baldissero-alba-chiamata-112-mollo-indagine-23-settembre-2026",
-      "rottamazione-quinquies-seconda-rata-30-settembre-2026-tolleranza",
-      "polonia-elicottero-russo-spazio-aereo-42-secondi-23-settembre-2026"
+    "version": 534,
+    "date": "2026-09-24",
+    "type": "daily-editorial-package",
+    "news_added": [],
+    "news_updated": [],
+    "daily_question_added": "e-piu-onesto-cambiare-idea-o-restare-fedeli-alla-persona-che-eravamo-quando-abbiamo-scelto",
+    "ebook_added": "e-piu-onesto-cambiare-idea-o-restare-fedeli-alla-persona-che-eravamo-quando-abbiamo-scelto",
+    "guides_added": [
+      "come-usare-chatgpt-gemini-assistenti-ai",
+      "come-creare-action-figure-con-ai"
     ],
-    "news_updated": [
-      "xi-jinping-visita-stato-usa-23-25-settembre-2026",
-      "trump-onu-iran-accordo-dopo-midterm-avvertimento-militare-22-settembre-2026"
-    ],
-    "change": "Tre notizie nuove e due aggiornamenti verificati"
+    "change": "Domanda del giorno n. 1008, eBook collegato e due guide Biblioteca"
   }
 }
