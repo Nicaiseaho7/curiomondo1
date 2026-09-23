@@ -157,6 +157,9 @@
   const section = ({ category, lead, cards }) => {
     const block = el('section', 'cm-topic-section');
     block.dataset.category = category.id;
+    // Ancoraggio per la barra delle sezioni in alto: cliccando "Sport" la
+    // pagina scende fin qui invece di portare via dalla home.
+    block.id = 'categoria-' + category.id;
     block.style.setProperty('--cm-category-color', category.color);
     if (lead) block.append(largeCard(lead, category.label, category.color));
     const rail = el('div', 'cm-topic-section__rail');

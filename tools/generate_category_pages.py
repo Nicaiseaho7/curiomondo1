@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "assets/data/search-index-v210.json"
+FEED = ROOT / "assets/data/home-feed-v210.json"
 
 CATEGORIES = {
     "italia": ("Italia", "Notizie dall’Italia: istituzioni, territori, servizi e società.", ["italia"]),
@@ -26,8 +27,31 @@ def normalize(value):
     return (value or "").lower().translate(str.maketrans("àèéìòù", "aeeiou"))
 
 
+def piu_piccola(item):
+    """Indirizzo del taglio piu leggero dell'immagine dell'articolo.
+
+    Nell'elenco la figura e grande come un'icona: scaricare il taglio da 800
+    pixel per mostrarlo a 112 sarebbe uno spreco su una pagina con trenta voci.
+    """
+    for candidato in str(item.get("srcset", "")).split(","):
+        pezzi = candidato.strip().split()
+        if len(pezzi) == 2 and pezzi[1] == "480w":
+            return pezzi[0]
+    return item.get("image", "")
+
+
+def article_thumb(item):
+    """Miniatura dell'articolo, decorativa: il titolo la segue subito dopo."""
+    src = piu_piccola(item)
+    if not src:
+        return ""
+    return (f'<span class="category-card-thumb">'
+            f'<img src="{html.escape(src, quote=True)}" alt="" width="112" height="75" '
+            f'loading="lazy" decoding="async"></span>')
+
+
 def article_card(item):
-    return f'''<li><a href="{html.escape(item["url"], quote=True)}"><span class="category-card-copy"><small>{html.escape(item.get("section", "Notizie"))}</small><strong>{html.escape(item["title"])}</strong><span>{html.escape(item.get("excerpt", ""))}</span></span><span class="category-card-arrow" aria-hidden="true">→</span></a></li>'''
+    return f'''<li><a href="{html.escape(item["url"], quote=True)}">{article_thumb(item)}<span class="category-card-copy"><small>{html.escape(item.get("section", "Notizie"))}</small><strong>{html.escape(item["title"])}</strong><span>{html.escape(item.get("excerpt", ""))}</span></span><span class="category-card-arrow" aria-hidden="true">→</span></a></li>'''
 
 
 def render(slug, label, description, items):
@@ -49,9 +73,28 @@ def render(slug, label, description, items):
 '''
 
 
+def immagini_per_url():
+    """Le figure degli articoli, prese dal feed della home.
+
+    L'indice di ricerca non le contiene: senza questa lettura l'elenco della
+    categoria resterebbe di solo testo.
+    """
+    try:
+        feed = json.loads(FEED.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    return {voce["url"]: voce for voce in feed.get("items", []) if voce.get("url")}
+
+
 def main():
     data = json.loads(DATA.read_text(encoding="utf-8"))
+    figure = immagini_per_url()
     news = [item for item in data["items"] if item.get("url", "").startswith("/notizie/")]
+    for item in news:
+        voce = figure.get(item["url"], {})
+        if voce.get("image"):
+            item.setdefault("image", voce["image"])
+            item.setdefault("srcset", voce.get("srcset", ""))
     for slug, (label, description, terms) in CATEGORIES.items():
         selected = [item for item in news if any(term in normalize(" ".join((item.get("section", ""), item.get("title", "")))) for term in terms)]
         target = ROOT / "categorie" / slug / "index.html"

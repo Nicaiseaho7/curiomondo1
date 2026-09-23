@@ -61,3 +61,8 @@ html.cm-dark .cm-topic-lead--primary .cm-topic-lead__body{background:var(--cm-pa
 .cm-featured-carousel__dots{display:flex;align-items:center;justify-content:center;gap:8px}
 .cm-featured-carousel__arrow:focus-visible,.cm-featured-carousel__dot:focus-visible{outline:3px solid #0091ff;outline-offset:3px}
 @media(max-width:540px){.cm-featured-carousel{margin-bottom:26px}.cm-featured-carousel__arrow{width:38px;height:38px}.cm-featured-carousel__controls{margin-top:10px}}
+
+/* La barra in alto e fissa: senza questo margine il titolo della sezione
+   finirebbe nascosto sotto di essa quando si arriva con un'ancora. */
+.cm-topic-section{scroll-margin-top:92px}
+.cm-topic-section__title:focus{outline:none}
