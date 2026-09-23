@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 521,
-    "site_version": 521
+    "current_site_version": 522,
+    "site_version": 522
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -256,21 +256,26 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 521,
-  "version": "v521",
-  "release_version": "v521",
+  "site_version": 522,
+  "version": "v522",
+  "release_version": "v522",
   "last_release": {
-    "version": 521,
+    "version": 522,
     "date": "2026-09-23",
-    "type": "daily-editorial-package",
-    "news_added": [],
-    "news_updated": [],
-    "daily_question_added": "quale-parte-della-tua-identita-esisterebbe-ancora-se-nessuno-ricordasse-il-tuo-passato",
-    "ebook_added": "quale-parte-della-tua-identita-esisterebbe-ancora-se-nessuno-ricordasse-il-tuo-passato",
-    "guides_added": [
-      "come-creare-pdf",
-      "come-comprimere-file-foto"
+    "type": "editorial-news-cycle",
+    "news_added": [
+      "inail-2025-1189-morti-lavoratori-malattie-professionali",
+      "incendiamoeba-cascadensis-record-eucarioti-63-gradi-23-09-2026",
+      "nasa-spacex-crew-13-lancio-1-ottobre-2026",
+      "giornate-europee-patrimonio-26-27-settembre-2026",
+      "pio-sebastiano-esposito-insieme-nazionale-fratelli-italia-23-09-2026",
+      "roma-barcellona-femminile-biglietti-30-settembre-2026",
+      "docufilm-80-anni-fipav-rai-2-23-settembre-2026",
+      "meta-petal-cavo-transatlantico-petabit-francia-usa-2029",
+      "eurovolley-2026-francia-polonia-semifinali-3-0",
+      "btp-green-2038-collocati-otto-miliardi-rendimento"
     ],
-    "change": "Domanda del giorno n. 1007, eBook collegato e due guide Biblioteca"
+    "news_updated": [],
+    "change": "Dieci notizie verificate richieste dall’editore; evitato duplicato Under 21 già presente"
   }
 }
