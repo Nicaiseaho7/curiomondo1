@@ -1,7 +1,35 @@
 {
-  "version": 522,
+  "version": 523,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "meteo-italia-oggi-settimana-23-28-settembre-2026-v523",
+      "alt": "Vista editoriale IA fotorealistica dell’Italia dal satellite con cielo sereno sulla penisola e nubi più dense vicino a Sardegna e Sicilia; scena non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/meteo-italia-oggi-settimana-23-28-settembre-2026-v523-480.webp",
+          "sha256": "b81fb00e2b3d59e81a6b2a23c2c90a2e2964e0db5a7d0a9451182cd7a7ccffb7",
+          "bytes": 60202
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/meteo-italia-oggi-settimana-23-28-settembre-2026-v523-800.webp",
+          "sha256": "1e3bb2e295d074e0e47a443c49ab326a7990d91002305f55de7b3a1ca63447b4",
+          "bytes": 150760
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/meteo-italia-oggi-settimana-23-28-settembre-2026-v523-1200.webp",
+          "sha256": "0b8dbc6f704c2a98e11c03c9cee3bf857acd3c6586aaeaf43a0c137aa7c329e6",
+          "bytes": 305752
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image tool",
+      "sensitiveContext": false,
+      "article": "/notizie/meteo-italia-oggi-settimana-23-28-settembre-2026.html"
+    },
     {
       "alt": "Illustrazione editoriale IA del Ministero dell’Economia con documenti finanziari verdi relativi al BTP Green; scena non documentaria.",
       "variants": [
