@@ -128,6 +128,9 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--immagine", default="",
                         help="file o indirizzo dell'immagine; se manca si usa immagine.url o si genera da immagine.prompt")
     parser.add_argument("--alt", default="", help="descrizione dell'immagine per chi non la vede")
+    parser.add_argument("--foto-reale", action="store_true",
+                        help="dichiara che l'immagine e una fotografia vera, non un'illustrazione IA: "
+                             "cambia la didascalia pubblica di conseguenza")
     parser.add_argument("--non-in-evidenza", action="store_true",
                         help="non mettere l'articolo nella card principale della home")
     args = parser.parse_args(argv)
@@ -141,6 +144,12 @@ def main(argv: list[str] | None = None) -> int:
     origine = args.immagine or str(immagine_bozza.get("url") or "").strip()
     public = bool(immagine_bozza.get("personaggio_pubblico"))
     sensitive = bool(immagine_bozza.get("contesto_sensibile"))
+    # Un'immagine arrivata come file o URL non e per cio stesso una foto vera:
+    # e semplicemente l'unico modo di consegnarla, dato che la generazione
+    # automatica e spenta. Senza una dichiarazione esplicita si presume
+    # un'illustrazione editoriale, com'e sempre stato per il resto del sito;
+    # dichiararla vera quando non lo e (o viceversa) sarebbe una didascalia falsa.
+    foto_reale = bool(args.foto_reale or immagine_bozza.get("fotografia_reale"))
 
     if not alt:
         print("Manca la descrizione dell'immagine: usa --alt oppure il campo immagine.alt.",
@@ -185,7 +194,6 @@ def main(argv: list[str] | None = None) -> int:
 
     versione = site._version()
     variants = _save_variants(immagine_grezza, f"{articolo['slug']}-v{versione}")
-    foto_reale = generator == "fornita dalla redazione"
     immagine: dict[str, Any] = {
         "alt": alt,
         "variants": variants,

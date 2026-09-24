@@ -24,10 +24,10 @@
           "bytes": 177468
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine fornita insieme alla bozza (non generata dal sito, dichiarata come illustrazione editoriale non documentaria)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "sensitiveContext": true,
       "article": "/notizie/tumori-al-seno-komen-italia-fino-al-40-evitabile-con-stili-di-vita-sani-24-09-2026.html"
     },

@@ -46,10 +46,21 @@ Formato della risposta:
   ],
   "immagine": {
     "alt": "descrizione della figura per chi non puo vederla",
-    "url": "indirizzo pubblico dell'immagine da usare"
+    "url": "indirizzo pubblico dell'immagine da usare",
+    "fotografia_reale": false
   }
 }
 ```
+
+`immagine.fotografia_reale` dichiara cosa e davvero l'immagine, non come arriva
+al sito: **`true`** solo se e una fotografia vera (uno scatto reale di persone o
+luoghi reali, di cui hai il diritto di pubblicazione). **`false`** (o il campo
+assente) se e un'illustrazione, un grafico, un'immagine generata o comunque non
+una fotografia documentaria: il sito la dichiarera al lettore come
+"illustrazione editoriale generata con IA, non una fotografia documentaria",
+e questa e anche l'impostazione predefinita quando il campo manca. Dichiarare
+il valore sbagliato significa scrivere sotto l'immagine una frase falsa: se non
+sei sicuro dell'origine dell'immagine, lascia `false`.
 
 Devono esserci **esattamente tre** elementi in `dati_chiave` e le
 `parole_chiave_titolo` devono comparire lettera per lettera nel titolo scritto.
