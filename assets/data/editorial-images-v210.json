@@ -1,7 +1,71 @@
 {
-  "version": 541,
+  "version": 543,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Fascicoli fiscali, calcolatrice, monete e bandiera italiana su una scrivania; illustrazione editoriale IA sulla distribuzione dell’Irpef.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/irpef-il-47-dei-contribuenti-versa-il-5-24-8-milioni-non-pagano-v543-480.webp",
+          "sha256": "334c05a904a89b012660e8a1740dbd00a1c6185a2400527ef7b9683b3d311491",
+          "bytes": 37332
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/irpef-il-47-dei-contribuenti-versa-il-5-24-8-milioni-non-pagano-v543-800.webp",
+          "sha256": "b0f5e2e4ae7d6209177f07feb068c0e7ac100e32034c895db832b85aebce7397",
+          "bytes": 80320
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/irpef-il-47-dei-contribuenti-versa-il-5-24-8-milioni-non-pagano-v543-1200.webp",
+          "sha256": "300d0e1d8fbe4c1c4b3fcb37461be4643cdbdee3420eaca676012056f9183196",
+          "bytes": 146926
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/irpef-il-47-dei-contribuenti-versa-il-5-24-8-milioni-non-pagano-24-09-2026.html"
+    },
+    {
+      "alt": "Ritratto editoriale neutrale e isolato di Daniel Thomas, noto come Danny Tommo, su sfondo scuro; illustrazione IA per una notizia sensibile.",
+      "prompt": "Sensitive-context neutral editorial portrait of the real British public figure Daniel Thomas, known as Danny Tommo: recognizable head-and-shoulders likeness, neutral expression, isolated on a simple dark studio gradient, sober even lighting. No event reconstruction, boat, sea, knife, police, arrest, handcuffs, migrants, violence, text, logo or watermark.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v542-480.webp",
+          "sha256": "0cc33203641b0d92cb2060a7586e32aae923d685ffe4d0c7b60c9ec6319628ea",
+          "bytes": 9044
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v542-800.webp",
+          "sha256": "32aba375e1c1782beff06d414ba20483fd138caeafa1944a0b1a6d36fd90dbb4",
+          "bytes": 21716
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v542-1200.webp",
+          "sha256": "e88e40f327b2c3b617407ea79b7f418a9ee72792ffb56f555dfdf4492cb19ae6",
+          "bytes": 45924
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": true,
+      "syntheticLikeness": "public-figure",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false,
+      "article": "/notizie/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-24-09-2026.html"
+    },
     {
       "alt": "Donna adulta che si prepara a camminare in un parco italiano, con acqua e alimenti freschi accanto; illustrazione editoriale IA sugli stili di vita sani.",
       "variants": [

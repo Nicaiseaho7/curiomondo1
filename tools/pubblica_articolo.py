@@ -196,6 +196,7 @@ def main(argv: list[str] | None = None) -> int:
     variants = _save_variants(immagine_grezza, f"{articolo['slug']}-v{versione}")
     immagine: dict[str, Any] = {
         "alt": alt,
+        "prompt": prompt or str(articolo["immagine"].get("prompt") or ""),
         "variants": variants,
         # Una didascalia "generata con IA" sarebbe falsa su una fotografia
         # vera: la disclosure deve dire cio che l'immagine e davvero.
@@ -210,6 +211,13 @@ def main(argv: list[str] | None = None) -> int:
     }
     if public:
         immagine["syntheticLikeness"] = "public-figure"
+        if sensitive:
+            # Il gate delle notizie sensibili richiede che il registro dichiari
+            # esplicitamente ciò che il markup mostra già: ritratto neutrale,
+            # isolato e privo di ricostruzioni dell'evento.
+            immagine["portraitOnly"] = True
+            immagine["portraitFormat"] = "neutral-isolated"
+            immagine["reenactedEvent"] = False
 
     creati: list[Path] = [ROOT / v["src"].lstrip("/") for v in variants]
     try:
