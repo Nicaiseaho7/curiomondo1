@@ -198,6 +198,7 @@ def article_v4_required(doc):
             except Exception: return False
     return False
 caption='Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.'
+caption_foto='Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.'
 card_eligible_dates={}
 publication_date_errors=[]
 try:
@@ -317,7 +318,10 @@ for p in news:
     figures=d.xpath('//main/figure[1]')
     if figures:
         refs += figures[0].xpath('.//img/@src')
-        if ' '.join(figures[0].xpath('.//figcaption//text()')).strip()!=caption: errors.append(f'didascalia IA errata: {p.name}')
+        didascalia=' '.join(figures[0].xpath('.//figcaption//text()')).strip()
+        if figures[0].get('data-ai-generated')=='false':
+            if didascalia!=caption_foto: errors.append(f'didascalia fotografia reale errata: {p.name}')
+        elif didascalia!=caption: errors.append(f'didascalia IA errata: {p.name}')
         if figures[0].get('data-synthetic-likeness')=='public-figure':
             sensitive=figures[0].get('data-sensitive-context')
             if sensitive not in ('true','false'): errors.append(f'classificazione sensibilità figura assente: {p.name}')

@@ -185,11 +185,19 @@ def main(argv: list[str] | None = None) -> int:
 
     versione = site._version()
     variants = _save_variants(immagine_grezza, f"{articolo['slug']}-v{versione}")
+    foto_reale = generator == "fornita dalla redazione"
     immagine: dict[str, Any] = {
         "alt": alt,
         "variants": variants,
-        "disclosure": CAPTION,
+        # Una didascalia "generata con IA" sarebbe falsa su una fotografia
+        # vera: la disclosure deve dire cio che l'immagine e davvero.
+        "disclosure": (
+            "Fotografia editoriale fornita alla redazione CurioMondo; "
+            "non generata da intelligenza artificiale."
+        ) if foto_reale else CAPTION,
         "generator": generator,
+        "aiGenerated": not foto_reale,
+        "documentaryPhoto": foto_reale,
         "sensitiveContext": sensitive,
     }
     if public:
