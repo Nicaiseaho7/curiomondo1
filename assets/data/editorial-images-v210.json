@@ -1,7 +1,67 @@
 {
-  "version": 554,
+  "version": 556,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Illustrazione editoriale di Donald Trump e Xi Jinping a una cena formale con dirigenti tecnologici statunitensi",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/trump-xi-al-tavolo-i-big-tech-usa-ma-non-i-manager-cinesi-v556-480.webp",
+          "sha256": "327419a8cf43a306f2883eacb4ceaa6d010ebbae308694604efd74db3f0da878",
+          "bytes": 28904
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/trump-xi-al-tavolo-i-big-tech-usa-ma-non-i-manager-cinesi-v556-800.webp",
+          "sha256": "c6ce432afb02c3db5b30bba4f53beb5979cf10aa60d8074076d9915d382e929c",
+          "bytes": 55550
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/trump-xi-al-tavolo-i-big-tech-usa-ma-non-i-manager-cinesi-v556-1200.webp",
+          "sha256": "08428cf0e8eef989e9ed2f9b556bd799ff8c7f60261ba3b7b11987698e3c77b9",
+          "bytes": 87564
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/trump-xi-al-tavolo-i-big-tech-usa-ma-non-i-manager-cinesi-24-09-2026.html"
+    },
+    {
+      "alt": "Illustrazione editoriale di Jasmine Paolini e Sara Errani che festeggiano su un campo da tennis indoor",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-v555-480.webp",
+          "sha256": "b99565a679fe0b34dc0eb2eb584bc5d133a8c231e0e444fad988697b5167f2f2",
+          "bytes": 29776
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-v555-800.webp",
+          "sha256": "c2e5c01e640a287778770b8fb1543ff781ae904e6c86bb4f7b81753cbe777926",
+          "bytes": 59362
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-v555-1200.webp",
+          "sha256": "9d7e8c5a8cfe5ba034b44f8a5846ec987fe579ff690463fb1691701b42066c91",
+          "bytes": 101918
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-24-09-2026.html"
+    },
     {
       "alt": "Autostrada europea e terminal logistico con camion e merci diverse; illustrazione editoriale IA.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
