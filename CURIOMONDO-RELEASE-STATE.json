@@ -1,9 +1,9 @@
 {
-  "site_version": 532,
+  "site_version": 534,
   "articleCount": 495,
   "generatedEditorialImages": 335,
   "baseline_version": 342,
-  "release_date": "2026-09-23",
+  "release_date": "2026-09-24",
   "protocol_files": [
     "PROTOCOLLO-SCRITTURA-PROFESSIONALE.md",
     "AGENTS.md",
@@ -15,13 +15,13 @@
     "CURIO-MONDO-PROTOCOLLO-MAESTRO.md",
     "curiomondo-site-manifest.json"
   ],
-  "last_daily_question_date": "2026-09-23",
-  "version": "532",
-  "date": "2026-09-23",
+  "last_daily_question_date": "2026-09-24",
+  "version": "534",
+  "date": "2026-09-24",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "late-news-v532",
+  "last_update": "daily-package-v534",
   "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
-  "currentVersion": 532,
+  "currentVersion": 534,
   "baselineVersion": 342,
   "designRestored": "Intestazione globale unificata su tutte le pagine interne; palette blu Facebook e fascia LIVE rossa piena confermate.",
   "status": "ready"
