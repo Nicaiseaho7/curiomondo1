@@ -1,5 +1,5 @@
 {
-  "site_version": 534,
+  "site_version": 539,
   "articleCount": 495,
   "generatedEditorialImages": 335,
   "baseline_version": 342,
@@ -16,12 +16,12 @@
     "curiomondo-site-manifest.json"
   ],
   "last_daily_question_date": "2026-09-24",
-  "version": "534",
+  "version": "539",
   "date": "2026-09-24",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "daily-package-v534",
+  "last_update": "mappa-meteo-aggiornata-v539",
   "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
-  "currentVersion": 534,
+  "currentVersion": 539,
   "baselineVersion": 342,
   "designRestored": "Intestazione globale unificata su tutte le pagine interne; palette blu Facebook e fascia LIVE rossa piena confermate.",
   "status": "ready"
