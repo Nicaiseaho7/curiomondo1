@@ -1,7 +1,36 @@
 {
-  "version": 540,
+  "version": 541,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Donna adulta che si prepara a camminare in un parco italiano, con acqua e alimenti freschi accanto; illustrazione editoriale IA sugli stili di vita sani.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/tumori-al-seno-komen-italia-fino-al-40-evitabile-con-stili-di-vita-sani-v541-480.webp",
+          "sha256": "3d8797bd71d10dc9f7e4c08c3ed9ef92ad045ef840cb3119dbabf96520bd0ece",
+          "bytes": 50964
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/tumori-al-seno-komen-italia-fino-al-40-evitabile-con-stili-di-vita-sani-v541-800.webp",
+          "sha256": "3d855b5ca915501f9e99d2a7f661ecac11f7fde1d6d50f683b69b671a23e722f",
+          "bytes": 105296
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/tumori-al-seno-komen-italia-fino-al-40-evitabile-con-stili-di-vita-sani-v541-1200.webp",
+          "sha256": "e2d0c7e7a4c365b0f993f22f3f37de8a3059ebd62b2d20a6246c41acd2f13466",
+          "bytes": 177468
+        }
+      ],
+      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": false,
+      "documentaryPhoto": true,
+      "sensitiveContext": true,
+      "article": "/notizie/tumori-al-seno-komen-italia-fino-al-40-evitabile-con-stili-di-vita-sani-24-09-2026.html"
+    },
     {
       "key": "meteo-italia-24-settembre-1-ottobre-2026-v540",
       "alt": "Mappa meteo editoriale IA dell’Italia aggiornata al 24 settembre 2026, con condizioni regione per regione, città principali e nota di tendenza verso una fase più stabile dal 26 al 30 settembre.",
