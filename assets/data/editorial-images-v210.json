@@ -1,5 +1,5 @@
 {
-  "version": 543,
+  "version": 544,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
@@ -33,26 +33,26 @@
       "article": "/notizie/irpef-il-47-dei-contribuenti-versa-il-5-24-8-milioni-non-pagano-24-09-2026.html"
     },
     {
-      "alt": "Ritratto editoriale neutrale e isolato di Daniel Thomas, noto come Danny Tommo, su sfondo scuro; illustrazione IA per una notizia sensibile.",
-      "prompt": "Sensitive-context neutral editorial portrait of the real British public figure Daniel Thomas, known as Danny Tommo: recognizable head-and-shoulders likeness, neutral expression, isolated on a simple dark studio gradient, sober even lighting. No event reconstruction, boat, sea, knife, police, arrest, handcuffs, migrants, violence, text, logo or watermark.",
+    "alt": "Gommone grigio danneggiato ormeggiato in un porto britannico, con mezzi di soccorso sullo sfondo; illustrazione editoriale IA senza persone riconoscibili.",
+    "prompt": "Photorealistic editorial scene of a damaged grey inflatable dinghy secured beside a quay in a British Channel port, with distant coastguard and police vehicles softly out of focus. No recognizable person, face or portrait; no reenactment of the alleged act; no migrants in danger, violence, blood, text, logos or watermark.",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v542-480.webp",
-          "sha256": "0cc33203641b0d92cb2060a7586e32aae923d685ffe4d0c7b60c9ec6319628ea",
-          "bytes": 9044
+        "src": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v544-480.webp",
+        "sha256": "e002f91a2110eb6ce1b6ddc9a4905376b73d363f3fba5681454851de1fe3e81a",
+        "bytes": 21250
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v542-800.webp",
-          "sha256": "32aba375e1c1782beff06d414ba20483fd138caeafa1944a0b1a6d36fd90dbb4",
-          "bytes": 21716
+        "src": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v544-800.webp",
+        "sha256": "9de7f4910ecc5e661391a8a2144edb0e0137254331528ac36cdd08249e15120e",
+        "bytes": 45596
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v542-1200.webp",
-          "sha256": "e88e40f327b2c3b617407ea79b7f418a9ee72792ffb56f555dfdf4492cb19ae6",
-          "bytes": 45924
+        "src": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v544-1200.webp",
+        "sha256": "1aeed8a0ce72f6659fa3545c56770c58f1a09fc9eaf1f104aa9d3420f8de6cc9",
+        "bytes": 81860
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
@@ -60,10 +60,7 @@
       "aiGenerated": true,
       "documentaryPhoto": false,
       "sensitiveContext": true,
-      "syntheticLikeness": "public-figure",
-      "portraitOnly": true,
-      "portraitFormat": "neutral-isolated",
-      "reenactedEvent": false,
+    "reenactedEvent": false,
       "article": "/notizie/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-24-09-2026.html"
     },
     {
