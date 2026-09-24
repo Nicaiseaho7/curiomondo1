@@ -263,11 +263,11 @@
   "last_release": {
     "version": 539,
     "date": "2026-09-24",
-    "type": "weather-image-update",
-    "news_added": [],
-    "news_updated": [
-      "meteo-italia-oggi-settimana-23-28-settembre-2026"
+    "type": "weather-service",
+    "news_added": [
+      "meteo-italia-24-settembre-1-ottobre-2026"
     ],
-    "change": "Mappa meteo aggiornata al 24 settembre con condizioni regione per regione"
+    "news_updated": [],
+    "change": "Meteo Italia dal 24 settembre al 1 ottobre 2026 con quadro nazionale, temperature e limiti previsionali"
   }
 }

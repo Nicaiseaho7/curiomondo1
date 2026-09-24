@@ -3,6 +3,36 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "meteo-italia-24-settembre-1-ottobre-2026-v539",
+      "alt": "Vista satellitare editoriale IA dell’Italia con schiarite sulla penisola e nubi più dense tra Sardegna, Sicilia e settori tirrenici; scena meteorologica non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/meteo-italia-24-settembre-1-ottobre-2026-v539-480.webp",
+          "sha256": "56e00ddc7eff35567ecb843f5332749fc4ea9dca74132bd2065f4bf8dac450c8",
+          "bytes": 78726
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/meteo-italia-24-settembre-1-ottobre-2026-v539-800.webp",
+          "sha256": "828ff1734a483a33b3f093489bbb875e94b0a55d6fad1f188d345791c01ad928",
+          "bytes": 204470
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/meteo-italia-24-settembre-1-ottobre-2026-v539-1200.webp",
+          "sha256": "b10c7d76ad9828d735bbe0912b6696ee5f2125143d893543f6ce83873c6c36d9",
+          "bytes": 418326
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image tool",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/meteo-italia-24-settembre-1-ottobre-2026.html"
+    },
+    {
       "alt": "Foto d'archivio dell'aula del Senato durante il voto finale sulla delega per il nucleare sostenibile, con il tabellone che indica 112 favorevoli, 69 contrari, 3 astenuti e la dicitura approvato.",
       "variants": [
         {
