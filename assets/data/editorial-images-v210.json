@@ -1,7 +1,308 @@
 {
-  "version": 544,
+  "version": 554,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Autostrada europea e terminal logistico con camion e merci diverse; illustrazione editoriale IA.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/merci-strada-ue-13-29-miliardi-tonnellate-2025-24-settembre-2026-v554-480.webp",
+          "sha256": "0ffe358a58ff9be847f41f5c7f80372df292c11a920569a8f725126033f8921d",
+          "bytes": 55432
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/merci-strada-ue-13-29-miliardi-tonnellate-2025-24-settembre-2026-v554-800.webp",
+          "sha256": "9614e58cca5896eccf932cd1df05232e3030983ec8ec8caab641fd1b90d6c468",
+          "bytes": 138894
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/merci-strada-ue-13-29-miliardi-tonnellate-2025-24-settembre-2026-v554-1200.webp",
+          "sha256": "29bae438321b43b96567b84d4000b80d3d6d4620d407229d6dd6b16943ae8dcf",
+          "bytes": 274634
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/merci-strada-ue-13-29-miliardi-tonnellate-2025-24-settembre-2026.html"
+    },
+    {
+      "alt": "Calciatrici reali dell’Italia Under 20 in maglia azzurra davanti alla Colombia a Łódź; illustrazione editoriale IA.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/italia-colombia-under-20-femminile-finale-bronzo-26-settembre-2026-v553-480.webp",
+          "sha256": "48d737a7437d29d1b35d5224a00fd3236d4d94ef63ccb8903e0fab14d5e51956",
+          "bytes": 44298
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/italia-colombia-under-20-femminile-finale-bronzo-26-settembre-2026-v553-800.webp",
+          "sha256": "908e727c6923c337428192df7a4b49136fc0cc5936e6656893a197486b324efd",
+          "bytes": 88334
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/italia-colombia-under-20-femminile-finale-bronzo-26-settembre-2026-v553-1200.webp",
+          "sha256": "bc3df621cf5e9894eb9bdf6ff3935cc87df15b01c125a1123867220d30990b72",
+          "bytes": 147732
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/italia-colombia-under-20-femminile-finale-bronzo-26-settembre-2026.html"
+    },
+    {
+      "alt": "Test di un drone da soccorso sopra la costa adriatica con unità navale; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/drone-aid-finanziato-progetto-droni-soccorsi-mare-24-settembre-2026-v552-480.webp",
+          "sha256": "c0c21bfeef31d3a263c72e55fa101c976f5b406c73216a823366449d96bc358c",
+          "bytes": 48934
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/drone-aid-finanziato-progetto-droni-soccorsi-mare-24-settembre-2026-v552-800.webp",
+          "sha256": "0765be06dcafb87a96de3e724cb4ed36f0ecd2a1e2bc07b49770a1c134f53663",
+          "bytes": 117380
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/drone-aid-finanziato-progetto-droni-soccorsi-mare-24-settembre-2026-v552-1200.webp",
+          "sha256": "a41299f91294777688f23c761f5b2b30722915c200bb9552aad9aec2b08659b0",
+          "bytes": 215496
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/drone-aid-finanziato-progetto-droni-soccorsi-mare-24-settembre-2026.html"
+    },
+    {
+      "alt": "Piccola impresa italiana con lavoratori, robot collaborativo e controllo digitale; illustrazione editoriale IA.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/innovazione-imprese-crescita-piccole-aziende-2022-2024-24-settembre-2026-v551-480.webp",
+          "sha256": "ec131aaf13485d804e104bf6b2f2ce60863999c517d7ac29834df756d68e79ae",
+          "bytes": 43542
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/innovazione-imprese-crescita-piccole-aziende-2022-2024-24-settembre-2026-v551-800.webp",
+          "sha256": "0c321c0be8c273fafab63175f25164971abc7b18287264e02c664d6818bca916",
+          "bytes": 88348
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/innovazione-imprese-crescita-piccole-aziende-2022-2024-24-settembre-2026-v551-1200.webp",
+          "sha256": "b8b248318250a0174dab1ba11baeb1666b210e594a89979cdabb5af4a56850d0",
+          "bytes": 141226
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/innovazione-imprese-crescita-piccole-aziende-2022-2024-24-settembre-2026.html"
+    },
+    {
+      "alt": "Telescopio James Webb davanti a tre galassie primordiali circondate da gas arricchito; illustrazione scientifica IA.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/webb-carbonio-ossigeno-galassie-universo-primordiale-24-settembre-2026-v550-480.webp",
+          "sha256": "ccc88bde41f8497cdb4609f99a6c0fd1808797cfb43aa32062bdb1d9087ed412",
+          "bytes": 32938
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/webb-carbonio-ossigeno-galassie-universo-primordiale-24-settembre-2026-v550-800.webp",
+          "sha256": "a21f024e6226d4d92fddb62cc52792eea55e9327a96091bfb07897676680eea3",
+          "bytes": 78400
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/webb-carbonio-ossigeno-galassie-universo-primordiale-24-settembre-2026-v550-1200.webp",
+          "sha256": "8906729eec1adb4e21f0525a6f226d9575c3ea11b7036d7d40f75f3ae3d33927",
+          "bytes": 150588
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/webb-carbonio-ossigeno-galassie-universo-primordiale-24-settembre-2026.html"
+    },
+    {
+      "alt": "Ricercatori sanitari esaminano documenti di studi clinici in un ufficio universitario; illustrazione editoriale IA.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/inspect-sr-strumento-studi-clinici-inaffidabili-cochrane-24-settembre-2026-v549-480.webp",
+          "sha256": "f1292de4f03eb15fe1a5ed3a8a34a24ab3aadc86be10a65ed302e8493cfb0f2f",
+          "bytes": 27262
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/inspect-sr-strumento-studi-clinici-inaffidabili-cochrane-24-settembre-2026-v549-800.webp",
+          "sha256": "ea251a470cef84cca729ec79c2904f53012c795682ceb2e3ba1cc19a3246582b",
+          "bytes": 56140
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/inspect-sr-strumento-studi-clinici-inaffidabili-cochrane-24-settembre-2026-v549-1200.webp",
+          "sha256": "d883cdd52410746cbf0d14f470f2c292a2e6b83d68f88162ca02f19e4abfeee5",
+          "bytes": 95038
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/inspect-sr-strumento-studi-clinici-inaffidabili-cochrane-24-settembre-2026.html"
+    },
+    {
+      "alt": "Carlos Alcaraz e Jakub Mensik in doppio alla Laver Cup di Londra; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/laver-cup-programma-venerdi-alcaraz-doppio-25-settembre-2026-v548-480.webp",
+          "sha256": "b73795a12397c03fe6025a35cd17da8a8c25432a6578ff8eba617df8b5f07be3",
+          "bytes": 33520
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/laver-cup-programma-venerdi-alcaraz-doppio-25-settembre-2026-v548-800.webp",
+          "sha256": "abcebc6e82d83bbd8d8a99e1b66567e0788d952317ef9920510d79d5a5ae129c",
+          "bytes": 71416
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/laver-cup-programma-venerdi-alcaraz-doppio-25-settembre-2026-v548-1200.webp",
+          "sha256": "5f93c585388a6a0a431903f3f257cb4bf531e289ff92c2640ebc0f29964ab13e",
+          "bytes": 119952
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/laver-cup-programma-venerdi-alcaraz-doppio-25-settembre-2026.html"
+    },
+    {
+      "alt": "Laboratorio universitario italiano con ricercatori e officina di piccola impresa sullo sfondo; illustrazione editoriale IA.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ricerca-italiana-spesa-31-miliardi-universita-piccole-imprese-24-settembre-2026-v547-480.webp",
+          "sha256": "89b482f0778941d17c8ce7cd1026c9f8ae452e00e3fd6aba3f993f1f4234da97",
+          "bytes": 38290
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ricerca-italiana-spesa-31-miliardi-universita-piccole-imprese-24-settembre-2026-v547-800.webp",
+          "sha256": "8fbeef2c64f450b6552e6a4ca498a386d65134834003164fbc42f98ce4e2213b",
+          "bytes": 72932
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ricerca-italiana-spesa-31-miliardi-universita-piccole-imprese-24-settembre-2026-v547-1200.webp",
+          "sha256": "5b43c99d75dacb6dc601da6ca3f0a9edfc78ad947cd44e8029b90f65088efbd4",
+          "bytes": 117496
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/ricerca-italiana-spesa-31-miliardi-universita-piccole-imprese-24-settembre-2026.html"
+    },
+    {
+      "alt": "Colosseo reale a Roma con ingressi chiusi e corsie vuote; illustrazione editoriale IA.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/colosseo-chiuso-25-settembre-rimborsi-automatici-24-settembre-2026-v546-480.webp",
+          "sha256": "295336c043b7c572e257b7df9f8b68a69014e50c2f4fbe87ef5fb04b1434f5b3",
+          "bytes": 52914
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/colosseo-chiuso-25-settembre-rimborsi-automatici-24-settembre-2026-v546-800.webp",
+          "sha256": "17b39874979180e8e92326d4abd202246617f80769214f79cd6a6adb487e407c",
+          "bytes": 138952
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/colosseo-chiuso-25-settembre-rimborsi-automatici-24-settembre-2026-v546-1200.webp",
+          "sha256": "d32bc1a04b25076b21cf670739c51bd2847b988d22bde3f65c60c854b010dffb",
+          "bytes": 282822
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/colosseo-chiuso-25-settembre-rimborsi-automatici-24-settembre-2026.html"
+    },
+    {
+      "alt": "Studentessa-atleta in un campus universitario italiano con documenti, libri e borsa sportiva; illustrazione editoriale IA.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/studenti-atleti-universitari-borse-studio-domande-24-settembre-2026-v545-480.webp",
+          "sha256": "7ec12988ff19e7769ff16d2d4044e8d99d89830eef5a6ed3fee065f04bd81459",
+          "bytes": 41412
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/studenti-atleti-universitari-borse-studio-domande-24-settembre-2026-v545-800.webp",
+          "sha256": "72f0a68da6c8f126a34e4dd1c06acac8be4495943b4d3417ac872e6ed2c42365",
+          "bytes": 87728
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/studenti-atleti-universitari-borse-studio-domande-24-settembre-2026-v545-1200.webp",
+          "sha256": "915565dba6af98cdb2187a8ac6dbc2f0b5256f83e9cad05fa34bb255aadc72f1",
+          "bytes": 156596
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/studenti-atleti-universitari-borse-studio-domande-24-settembre-2026.html"
+    },
     {
       "alt": "Fascicoli fiscali, calcolatrice, monete e bandiera italiana su una scrivania; illustrazione editoriale IA sulla distribuzione dell’Irpef.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
@@ -33,26 +334,26 @@
       "article": "/notizie/irpef-il-47-dei-contribuenti-versa-il-5-24-8-milioni-non-pagano-24-09-2026.html"
     },
     {
-    "alt": "Gommone grigio danneggiato ormeggiato in un porto britannico, con mezzi di soccorso sullo sfondo; illustrazione editoriale IA senza persone riconoscibili.",
-    "prompt": "Photorealistic editorial scene of a damaged grey inflatable dinghy secured beside a quay in a British Channel port, with distant coastguard and police vehicles softly out of focus. No recognizable person, face or portrait; no reenactment of the alleged act; no migrants in danger, violence, blood, text, logos or watermark.",
+      "alt": "Gommone grigio danneggiato ormeggiato in un porto britannico, con mezzi di soccorso sullo sfondo; illustrazione editoriale IA senza persone riconoscibili.",
+      "prompt": "Photorealistic editorial scene of a damaged grey inflatable dinghy secured beside a quay in a British Channel port, with distant coastguard and police vehicles softly out of focus. No recognizable person, face or portrait; no reenactment of the alleged act; no migrants in danger, violence, blood, text, logos or watermark.",
       "variants": [
         {
           "w": 480,
-        "src": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v544-480.webp",
-        "sha256": "e002f91a2110eb6ce1b6ddc9a4905376b73d363f3fba5681454851de1fe3e81a",
-        "bytes": 21250
+          "src": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v544-480.webp",
+          "sha256": "e002f91a2110eb6ce1b6ddc9a4905376b73d363f3fba5681454851de1fe3e81a",
+          "bytes": 21250
         },
         {
           "w": 800,
-        "src": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v544-800.webp",
-        "sha256": "9de7f4910ecc5e661391a8a2144edb0e0137254331528ac36cdd08249e15120e",
-        "bytes": 45596
+          "src": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v544-800.webp",
+          "sha256": "9de7f4910ecc5e661391a8a2144edb0e0137254331528ac36cdd08249e15120e",
+          "bytes": 45596
         },
         {
           "w": 1200,
-        "src": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v544-1200.webp",
-        "sha256": "1aeed8a0ce72f6659fa3545c56770c58f1a09fc9eaf1f104aa9d3420f8de6cc9",
-        "bytes": 81860
+          "src": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v544-1200.webp",
+          "sha256": "1aeed8a0ce72f6659fa3545c56770c58f1a09fc9eaf1f104aa9d3420f8de6cc9",
+          "bytes": 81860
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
@@ -60,7 +361,7 @@
       "aiGenerated": true,
       "documentaryPhoto": false,
       "sensitiveContext": true,
-    "reenactedEvent": false,
+      "reenactedEvent": false,
       "article": "/notizie/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-24-09-2026.html"
     },
     {
