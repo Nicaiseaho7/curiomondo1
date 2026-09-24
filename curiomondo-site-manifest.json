@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 539,
-    "site_version": 539
+    "current_site_version": 540,
+    "site_version": 540
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -257,17 +257,17 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 539,
-  "version": "v539",
-  "release_version": "v539",
+  "site_version": 540,
+  "version": "v540",
+  "release_version": "v540",
   "last_release": {
-    "version": 539,
+    "version": 540,
     "date": "2026-09-24",
-    "type": "weather-service",
-    "news_added": [
+    "type": "weather-image-update",
+    "news_added": [],
+    "news_updated": [
       "meteo-italia-24-settembre-1-ottobre-2026"
     ],
-    "news_updated": [],
-    "change": "Meteo Italia dal 24 settembre al 1 ottobre 2026 con quadro nazionale, temperature e limiti previsionali"
+    "change": "Mappa meteo regione per regione al posto della vista satellitare"
   }
 }
