@@ -33,30 +33,30 @@
       "article": "/notizie/trump-xi-al-tavolo-i-big-tech-usa-ma-non-i-manager-cinesi-24-09-2026.html"
     },
     {
-      "alt": "Illustrazione editoriale di Jasmine Paolini e Sara Errani che festeggiano su un campo da tennis indoor",
-      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "alt": "Immagine editoriale fotorealistica di Jasmine Paolini e Sara Errani in divisa azzurra con stemma tricolore",
+      "prompt": "Copertina sportiva fotorealistica con Jasmine Paolini e Sara Errani in divisa azzurra dell’Italia, stemma tricolore visibile, arena indoor, nessun marchio commerciale.",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-v555-480.webp",
-          "sha256": "b99565a679fe0b34dc0eb2eb584bc5d133a8c231e0e444fad988697b5167f2f2",
-          "bytes": 29776
+          "src": "/assets/images/editorial-auto/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-v557-480.webp",
+          "sha256": "47d6238ec9fbbd5ab08dfad9aa1222beb1e2e1a5a799b085943e2e50d2c80558",
+          "bytes": 19758
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-v555-800.webp",
-          "sha256": "c2e5c01e640a287778770b8fb1543ff781ae904e6c86bb4f7b81753cbe777926",
-          "bytes": 59362
+          "src": "/assets/images/editorial-auto/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-v557-800.webp",
+          "sha256": "55f30e9227f2bc6fbaf1aa9a61693a4f24fdb35e94cde2da053c866f059464f3",
+          "bytes": 39512
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-v555-1200.webp",
-          "sha256": "9d7e8c5a8cfe5ba034b44f8a5846ec987fe579ff690463fb1691701b42066c91",
-          "bytes": 101918
+          "src": "/assets/images/editorial-auto/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-v557-1200.webp",
+          "sha256": "085de90b4dbf462af721cbfb1507f3b3ce97d1f49edecea057872795dcc18a7a",
+          "bytes": 67384
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "OpenAI image generation tool",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "sensitiveContext": false,
