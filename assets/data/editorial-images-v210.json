@@ -1,7 +1,227 @@
 {
-  "version": 557,
+  "version": 565,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Foto d'archivio di Roberto Vannacci al microfono accanto a Gianni Alemanno durante il Forum di Orvieto, con il logo di Futuro Nazionale sullo sfondo.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/vannacci-e-alemanno-chiudono-insieme-il-forum-di-orvieto-con-una-delegazione-afd-v564-480.webp",
+          "sha256": "8fd6a6ddf422a183313ee88e08e0b7b477538b9c963e12f498a00ebe8b66adfe",
+          "bytes": 20864
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/vannacci-e-alemanno-chiudono-insieme-il-forum-di-orvieto-con-una-delegazione-afd-v564-800.webp",
+          "sha256": "a945ee27767f6d31965e3a753fc6c91d6dc79f908e02c3704420ab1586d85f88",
+          "bytes": 35764
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/vannacci-e-alemanno-chiudono-insieme-il-forum-di-orvieto-con-una-delegazione-afd-v564-1200.webp",
+          "sha256": "f7295db13fd2a3713cddc75404485f1ea982a7ea70e2ef42ad4f45720938a0c9",
+          "bytes": 57766
+        }
+      ],
+      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": false,
+      "documentaryPhoto": true,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/vannacci-e-alemanno-chiudono-insieme-il-forum-di-orvieto-con-una-delegazione-afd-25-09-2026.html"
+    },
+    {
+      "alt": "Foto d'archivio di Robert Downey Jr. in giacca scura durante un evento pubblico legato a un film Marvel Studios.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/robert-downey-jr-torna-nel-marvel-cinematic-universe-sara-victor-von-doom-in-avengers-doom-v563-480.webp",
+          "sha256": "f6e7b95864d2ff77ec2446101c5b6e9f5be0edd5fff04249ba3c7fb383045529",
+          "bytes": 15760
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/robert-downey-jr-torna-nel-marvel-cinematic-universe-sara-victor-von-doom-in-avengers-doom-v563-800.webp",
+          "sha256": "7daba7a18f5ad201edbe815a08973608a83cac73d8e1cb359b61fe9824af35e8",
+          "bytes": 28742
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/robert-downey-jr-torna-nel-marvel-cinematic-universe-sara-victor-von-doom-in-avengers-doom-v563-1200.webp",
+          "sha256": "72f8575b0e405f95c3ca867b445344d0e8b53bcd2d8d21609c95aa3e3c3a109a",
+          "bytes": 46040
+        }
+      ],
+      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": false,
+      "documentaryPhoto": true,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/robert-downey-jr-torna-nel-marvel-cinematic-universe-sara-victor-von-doom-in-avengers-doom-25-09-2026.html"
+    },
+    {
+      "alt": "Copertina ufficiale di \"Grand Theft Auto VI: The Album\", con un'auto d'epoca su un lungomare al tramonto e il titolo del disco in caratteri stile anni Ottanta.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/gta-vi-the-album-la-colonna-sonora-ufficiale-con-34-brani-arriva-il-19-novembre-v562-480.webp",
+          "sha256": "067d05d65d935cd928c372f4e475e2c51bfbf5c17ef1da575f0e3f1943b44ed9",
+          "bytes": 38648
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/gta-vi-the-album-la-colonna-sonora-ufficiale-con-34-brani-arriva-il-19-novembre-v562-800.webp",
+          "sha256": "6519ec18036ff97c96ef68f71b06a9ea83187e65c6e403ca699ffff558363394",
+          "bytes": 68534
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/gta-vi-the-album-la-colonna-sonora-ufficiale-con-34-brani-arriva-il-19-novembre-v562-1200.webp",
+          "sha256": "0d0ce1d47ff9000ba9a58ac68765be24b7652fd299f763743c6aeb8888a97274",
+          "bytes": 102340
+        }
+      ],
+      "disclosure": "Immagine promozionale ufficiale fornita dagli aventi diritto; non generata da CurioMondo ne una fotografia di cronaca.",
+      "generator": "materiale ufficiale fornito dagli aventi diritto",
+      "aiGenerated": false,
+      "documentaryPhoto": false,
+      "officialArtwork": true,
+      "sensitiveContext": false,
+      "article": "/notizie/gta-vi-the-album-la-colonna-sonora-ufficiale-con-34-brani-arriva-il-19-novembre-25-09-2026.html"
+    },
+    {
+      "alt": "Illustrazione astronomica di un buco nero binario con un disco di accrescimento arancione e un getto luminoso diretto verso l'osservatore, su sfondo stellato.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/scoperto-il-primo-microblazar-della-via-lattea-il-getto-e-puntato-verso-la-terra-v561-480.webp",
+          "sha256": "6e1b21505d18cde40201d8ee2e4dc581f28ea95a7ca0adf47886414c31078168",
+          "bytes": 30338
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/scoperto-il-primo-microblazar-della-via-lattea-il-getto-e-puntato-verso-la-terra-v561-800.webp",
+          "sha256": "86940f921a39c46b17e6a0ea8d587fab6e505a02523579e8579abfadae96cd01",
+          "bytes": 55474
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/scoperto-il-primo-microblazar-della-via-lattea-il-getto-e-puntato-verso-la-terra-v561-1200.webp",
+          "sha256": "493dd913fb4e82ea28a05226ed41d4e469d2e4f6ae5773e0f914c278e3cb2cfa",
+          "bytes": 88142
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/scoperto-il-primo-microblazar-della-via-lattea-il-getto-e-puntato-verso-la-terra-25-09-2026.html"
+    },
+    {
+      "alt": "Foto d'archivio di una persona che rifornisce di diesel un'auto a un distributore, con i prezzi al litro visibili sul totem.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/diesel-a-2-23-euro-al-litro-nell-ue-record-dal-2005-v560-480.webp",
+          "sha256": "336e87df1732b9ad7a4dc2752a7e218e0168d0f7c809498b12806e797156422c",
+          "bytes": 19106
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/diesel-a-2-23-euro-al-litro-nell-ue-record-dal-2005-v560-800.webp",
+          "sha256": "2c556f517c4e223a264669f6fa4eef3f3f8336bba6a62f216db8b67fd54ad527",
+          "bytes": 33442
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/diesel-a-2-23-euro-al-litro-nell-ue-record-dal-2005-v560-1200.webp",
+          "sha256": "19e0a11ca5d4a73884141b9ee137ff5ac31a8405c5e09f81877fd08ffb5cebb0",
+          "bytes": 51380
+        }
+      ],
+      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": false,
+      "documentaryPhoto": true,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/diesel-a-2-23-euro-al-litro-nell-ue-record-dal-2005.html"
+    },
+    {
+      "alt": "Foto d'archivio di Nadia Rinaldi sorridente in studio televisivo durante un'intervista, con il logo del programma \"La volta buona\" sullo sfondo.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/nadia-rinaldi-da-150-a-67-chili-con-dieta-proteica-ma-il-calo-parte-dal-bypass-del-2001-v559-480.webp",
+          "sha256": "f7a675aea628c7384bf9b194bd8c4cf6a8324cc8cfc20ffb09625772891c2dbe",
+          "bytes": 21052
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/nadia-rinaldi-da-150-a-67-chili-con-dieta-proteica-ma-il-calo-parte-dal-bypass-del-2001-v559-800.webp",
+          "sha256": "668486630912956b2d6e72295a6538da2bc7dcc6f96c4c01aee0e3a2cc645992",
+          "bytes": 37640
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/nadia-rinaldi-da-150-a-67-chili-con-dieta-proteica-ma-il-calo-parte-dal-bypass-del-2001-v559-1200.webp",
+          "sha256": "42d12d10a8f1c633e1dd84858c798f398b50b0f1092c1e63e9be4365466d5cc6",
+          "bytes": 59644
+        }
+      ],
+      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": false,
+      "documentaryPhoto": true,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/nadia-rinaldi-da-150-a-67-chili-con-dieta-proteica-ma-il-calo-parte-dal-bypass-del-2001.html"
+    },
+    {
+      "alt": "Foto d'archivio di due militari della Guardia di Finanza davanti alla sede del Comando provinciale di Belluno.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/belluno-bancarotta-nel-turismo-la-finanza-accerta-distrazioni-per-4-milioni-v558-480.webp",
+          "sha256": "26d94ef8d48ab218a4cc89d2035a75f867f978fef396c6f7bc0594197ee775f9",
+          "bytes": 21772
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/belluno-bancarotta-nel-turismo-la-finanza-accerta-distrazioni-per-4-milioni-v558-800.webp",
+          "sha256": "2f0686f3e2d15b90b982acfd0e502c6904e339f4e623a0e61f45a802c0aee953",
+          "bytes": 38714
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/belluno-bancarotta-nel-turismo-la-finanza-accerta-distrazioni-per-4-milioni-v558-1200.webp",
+          "sha256": "a30b7c401e72b85d0fc00fb73f97667b607f8b82e4d1c2dae322735b2dd54cc8",
+          "bytes": 60336
+        }
+      ],
+      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": false,
+      "documentaryPhoto": true,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/belluno-bancarotta-nel-turismo-la-finanza-accerta-distrazioni-per-4-milioni-25-09-2026.html"
+    },
     {
       "key": "meteo-italia-25-settembre-2-ottobre-2026-v557",
       "alt": "Mappa meteo editoriale IA dell’Italia del 25 settembre 2026 con confini regionali, città principali, temperature massime, sole al Nord e rovesci sul versante adriatico e al Sud.",
@@ -64,34 +284,34 @@
       "article": "/notizie/trump-xi-al-tavolo-i-big-tech-usa-ma-non-i-manager-cinesi-24-09-2026.html"
     },
     {
-      "alt": "Immagine editoriale fotorealistica di Jasmine Paolini e Sara Errani in divisa azzurra con stemma tricolore",
-      "prompt": "Copertina sportiva fotorealistica con Jasmine Paolini e Sara Errani in divisa azzurra dell’Italia, stemma tricolore visibile, arena indoor, nessun marchio commerciale.",
+      "alt": "Foto d'archivio di Jasmine Paolini e Sara Errani che esultano abbracciate in divisa azzurra, con il logo della Billie Jean King Cup sullo sfondo.",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-v557-480.webp",
-          "sha256": "47d6238ec9fbbd5ab08dfad9aa1222beb1e2e1a5a799b085943e2e50d2c80558",
-          "bytes": 19758
+          "src": "/assets/images/editorial-auto/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-24-09-2026-v565-480.webp",
+          "sha256": "d3b9b6518d2bf7d3ef32b9d3c97c02c94fefb6e5bb908f8310e943165a06b5bd",
+          "bytes": 30876
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-v557-800.webp",
-          "sha256": "55f30e9227f2bc6fbaf1aa9a61693a4f24fdb35e94cde2da053c866f059464f3",
-          "bytes": 39512
+          "src": "/assets/images/editorial-auto/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-24-09-2026-v565-800.webp",
+          "sha256": "0c3a22a8bf8ce291fd62f6037b4e88fc230e4b30e41d077000f8114155a9faec",
+          "bytes": 55410
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-v557-1200.webp",
-          "sha256": "085de90b4dbf462af721cbfb1507f3b3ce97d1f49edecea057872795dcc18a7a",
-          "bytes": 67384
+          "src": "/assets/images/editorial-auto/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-24-09-2026-v565-1200.webp",
+          "sha256": "7688e81ec692819f8020823f85e875342d0667723faae962dfde098533935175",
+          "bytes": 86536
         }
       ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "OpenAI image generation tool",
-      "aiGenerated": true,
-      "documentaryPhoto": false,
+      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": false,
+      "documentaryPhoto": true,
       "sensitiveContext": false,
-      "article": "/notizie/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-24-09-2026.html"
+      "article": "/notizie/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-24-09-2026.html",
+      "key": "bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-24-09-2026-v565"
     },
     {
       "alt": "Autostrada europea e terminal logistico con camion e merci diverse; illustrazione editoriale IA.",

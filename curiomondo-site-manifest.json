@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 557,
-    "site_version": 557
+    "current_site_version": 565,
+    "site_version": 565
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -258,17 +258,17 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 557,
-  "version": "v557",
-  "release_version": "v557",
+  "site_version": 565,
+  "version": "v565",
+  "release_version": "v565",
   "last_release": {
-    "version": 557,
+    "version": 565,
     "date": "2026-09-25",
-    "type": "weather-service",
-    "news_added": [
-      "meteo-italia-25-settembre-2-ottobre-2026"
+    "type": "image-update",
+    "news_added": [],
+    "news_updated": [
+      "bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-24-09-2026"
     ],
-    "news_updated": [],
-    "change": "Meteo Italia dal 25 settembre al 2 ottobre 2026 con mappa regionale, città principali e tendenza a sette giorni"
+    "change": "Foto reale della squadra al posto dell'illustrazione IA"
   }
 }
