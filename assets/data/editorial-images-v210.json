@@ -1,7 +1,199 @@
 {
-  "version": 557,
+  "version": 560,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Ritratto editoriale neutrale di Elena Pero, commentatrice di Sky Sport, isolata su sfondo da studio",
+      "prompt": "Neutral editorial portrait of Elena Pero, isolated head-and-shoulders likeness from a reference photo, short light-brown hair, calm expression, plain gray studio background, no logos and no text.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/elena-pero-morta-voce-tennis-sky-sport-24-settembre-2026-v560-480.webp",
+          "sha256": "c8a2e6798cfc910df841ec572b2239f58c76bbe1772636c75d21dfbf39715b73",
+          "bytes": 9012
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/elena-pero-morta-voce-tennis-sky-sport-24-settembre-2026-v560-800.webp",
+          "sha256": "8e2edd028344013a16281a58b43965f9602fc40d4f174e99ac5763cd1f694ea0",
+          "bytes": 23424
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/elena-pero-morta-voce-tennis-sky-sport-24-settembre-2026-v560-1200.webp",
+          "sha256": "225d8a219e0566a596c444b361d755a19b631eaca2f2e71a566cd87820822894",
+          "bytes": 50742
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": true,
+      "syntheticLikeness": "public-figure",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false,
+      "article": "/notizie/elena-pero-morta-voce-tennis-sky-sport-24-settembre-2026.html"
+    },
+    {
+      "alt": "Ritratto editoriale di Guido Crosetto in abito scuro, in un ufficio, senza scene di attacco",
+      "prompt": "Ritratto editoriale fotorealistico di Guido Crosetto, ministro della Difesa, somiglianza sintetica da fotografia di riferimento: uomo calvo in abito gessato blu, camicia chiara e cravatta, seduto in un ufficio con libreria sfocata, espressione seria, senza testo, senza mappe e senza droni.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/crosetto-nessuna-conferma-allarme-el-mundo-droni-24-settembre-2026-v559-480.webp",
+          "sha256": "d2e86c5c29cdf2ce4be0ca26bdbb81e4ecd0f917127fa9f36084e5570e9f3e72",
+          "bytes": 21688
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/crosetto-nessuna-conferma-allarme-el-mundo-droni-24-settembre-2026-v559-800.webp",
+          "sha256": "5e57c0fc24a06d64c0e1c2fb0354d3a5667ca28e5bfa56094991e9b85d9a42b0",
+          "bytes": 45878
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/crosetto-nessuna-conferma-allarme-el-mundo-droni-24-settembre-2026-v559-1200.webp",
+          "sha256": "4e2a4dc7046b18e2193824e41f9e9c23a35cfe8dc1f965280fb16490b95c962a",
+          "bytes": 80606
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/crosetto-nessuna-conferma-allarme-el-mundo-droni-24-settembre-2026.html"
+    },
+    {
+      "alt": "Ritratto editoriale neutrale di Riccardo Bossi, isolato su sfondo da studio",
+      "prompt": "Neutral editorial portrait of Riccardo Bossi, isolated head-and-shoulders likeness from a reference photo, plain gray studio background, calm expression, no handcuffs, no courtroom, no text.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/riccardo-bossi-carcere-busto-arsizio-5-anni-9-mesi-24-settembre-2026-v558-480.webp",
+          "sha256": "029d767fb39cc15818fb6928ded455a44ffcbd06b38b2190da735bfa572e0112",
+          "bytes": 7042
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/riccardo-bossi-carcere-busto-arsizio-5-anni-9-mesi-24-settembre-2026-v558-800.webp",
+          "sha256": "387406aad6f2699db7377f7ba6f219e82fce8aee951ab8c882697b6b2f454da2",
+          "bytes": 17772
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/riccardo-bossi-carcere-busto-arsizio-5-anni-9-mesi-24-settembre-2026-v558-1200.webp",
+          "sha256": "dfbbfd3598c0a6fc7cfb232c330e76d7af7b2884c7928d26eac7384d772c4e51",
+          "bytes": 44972
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": true,
+      "syntheticLikeness": "public-figure",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false,
+      "article": "/notizie/riccardo-bossi-carcere-busto-arsizio-5-anni-9-mesi-24-settembre-2026.html"
+    },
+    {
+      "alt": "Cody Gakpo con la maglia arancione dell’Olanda, Nike e leone KNVB, in un’azione al volo in uno stadio",
+      "prompt": "Scena editoriale fotorealistica di Cody Gakpo, calciatore reale dell’Olanda, somiglianza e maglia prese da fotografie di riferimento: capelli corti, barba, maglia arancione con Nike e leone KNVB, tiro al volo in uno stadio di notte, mani realistiche, senza scritte illeggibili.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/olanda-germania-1-1-gakpo-klopp-nations-league-24-settembre-2026-v560-480.webp",
+          "sha256": "32b0482a1237bdc331341aa648fae75e3b43573bf6da6ebcd81b51a27527ae14",
+          "bytes": 28966
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/olanda-germania-1-1-gakpo-klopp-nations-league-24-settembre-2026-v560-800.webp",
+          "sha256": "89a364d0427e2fbd2e2f20a633137257501dca6d75c6ae8f0691dbf4383417e1",
+          "bytes": 62772
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/olanda-germania-1-1-gakpo-klopp-nations-league-24-settembre-2026-v560-1200.webp",
+          "sha256": "0bc8da0438ba8d10f9f95d0385f0ef5bbe112ad19162702ee6024382b6805ce6",
+          "bytes": 112390
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/olanda-germania-1-1-gakpo-klopp-nations-league-24-settembre-2026.html"
+    },
+    {
+      "alt": "João Félix con la maglia rossa del Portogallo numero 11, stemma e Puma, in un gesto di esultanza in campo",
+      "prompt": "Scena editoriale fotorealistica di João Félix, calciatore reale del Portogallo, somiglianza e maglia prese da fotografie di riferimento: capelli mossi, maglia rossa con logo Puma, stemma portoghese e numero 11, esultanza notturna in uno stadio, mani realistiche, senza scritte inventate.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/portogallo-galles-1-0-felix-ronaldo-nations-league-24-settembre-2026-v559-480.webp",
+          "sha256": "f1f0bb321ee315211a93ff7ed29b6b7725d9cf7671ac480b38b697d5bfe8fbd2",
+          "bytes": 20306
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/portogallo-galles-1-0-felix-ronaldo-nations-league-24-settembre-2026-v559-800.webp",
+          "sha256": "1933e0db060e2b77c149e3f04017c16215c5fdc605da250f127f7dba4e8ea9b8",
+          "bytes": 42150
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/portogallo-galles-1-0-felix-ronaldo-nations-league-24-settembre-2026-v559-1200.webp",
+          "sha256": "1e65f8b228c80362e37425efd1fc12bbf1fdce8d6c34252874ac87d4f1b5b0cb",
+          "bytes": 77538
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/portogallo-galles-1-0-felix-ronaldo-nations-league-24-settembre-2026.html"
+    },
+    {
+      "alt": "Erling Haaland con la maglia rossa della Norvegia numero 9, Nike e stemma, in corsa su un campo da calcio",
+      "prompt": "Scena editoriale fotorealistica di Erling Haaland, calciatore reale della Norvegia, somiglianza e maglia prese da fotografie di riferimento: chignon biondo, maglia rossa con Nike, stemma norvegese e numero 9, corsa in uno stadio, mani realistiche, senza scritte inventate.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/norvegia-danimarca-3-2-haaland-nations-league-24-settembre-2026-v558-480.webp",
+          "sha256": "87d0433eeaca5fb04877085296bfc68142c713b852cdc9003375bc9dd5a93433",
+          "bytes": 33368
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/norvegia-danimarca-3-2-haaland-nations-league-24-settembre-2026-v558-800.webp",
+          "sha256": "e339206a2bfcd7a53ca37274e5a53fa19a320c307e8a2f68df75aaf356991973",
+          "bytes": 68522
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/norvegia-danimarca-3-2-haaland-nations-league-24-settembre-2026-v558-1200.webp",
+          "sha256": "424ddfd0fb882a35af3395cf654a8e17055494133a8018b419e41fd670b910f4",
+          "bytes": 120680
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/norvegia-danimarca-3-2-haaland-nations-league-24-settembre-2026.html"
+    },
     {
       "key": "meteo-italia-25-settembre-2-ottobre-2026-v557",
       "alt": "Mappa meteo editoriale IA dell’Italia del 25 settembre 2026 con confini regionali, città principali, temperature massime, sole al Nord e rovesci sul versante adriatico e al Sud.",
