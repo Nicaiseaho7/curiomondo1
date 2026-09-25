@@ -1,7 +1,224 @@
 {
-  "version": 574,
+  "version": 581,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Maglie ufficiali di Italia e Belgio nel tunnel dello Stadio Olimpico prima della Nations League; illustrazione editoriale IA non documentaria.",
+      "prompt": "Immagine editoriale originale generata dalla redazione con OpenAI per questo specifico articolo, verificata come singola scena coerente, priva di testo sovrapposto e non presentata come fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/italia-belgio-apre-la-nations-league-degli-azzurri-orario-gruppo-e-nuovo-ciclo-v581-480.webp",
+          "sha256": "ef2f29d285e61c73a9e09d4240015540fa4622acdf95f74fcf43690e55d6679f",
+          "bytes": 33124
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/italia-belgio-apre-la-nations-league-degli-azzurri-orario-gruppo-e-nuovo-ciclo-v581-800.webp",
+          "sha256": "56dd390bb721e267c84205170436073fa6b2f49cc5949607e144ab247a0a4cb2",
+          "bytes": 72370
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/italia-belgio-apre-la-nations-league-degli-azzurri-orario-gruppo-e-nuovo-ciclo-v581-1200.webp",
+          "sha256": "d0e85f36c88988c83878570fc95ca9430b2a2ffef1f8a9448b6d2913907dea96",
+          "bytes": 130106
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation via ChatGPT Work",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/italia-belgio-apre-la-nations-league-degli-azzurri-orario-gruppo-e-nuovo-ciclo-25-09-2026.html"
+    },
+    {
+      "alt": "Maglie ufficiali di Virtus Bologna e Olimpia Milano nel tunnel di un’arena EuroLeague; illustrazione editoriale IA non documentaria.",
+      "prompt": "Immagine editoriale originale generata dalla redazione con OpenAI per questo specifico articolo, verificata come singola scena coerente, priva di testo sovrapposto e non presentata come fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/fenerbahce-virtus-bologna-eurolega-25-settembre-2026-v580-480.webp",
+          "sha256": "354b8965ab67e0070edb55a868550d8658b2985b7d2ef9648cb024b92b6ccceb",
+          "bytes": 42840
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/fenerbahce-virtus-bologna-eurolega-25-settembre-2026-v580-800.webp",
+          "sha256": "f6b1bdea18ec3fdd3e6e61a8e0237d319bf7dece435428489ecddbe892c8f4bc",
+          "bytes": 89960
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/fenerbahce-virtus-bologna-eurolega-25-settembre-2026-v580-1200.webp",
+          "sha256": "15cec909ab06eeae412b89a28d59e20db7e1691bc0f54c4887d086d14bdead72",
+          "bytes": 162202
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation via ChatGPT Work",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/fenerbahce-virtus-bologna-eurolega-25-settembre-2026.html"
+    },
+    {
+      "alt": "Capanno isolato e tavolo investigativo anni Novanta in un paesaggio montano; illustrazione editoriale IA non documentaria.",
+      "prompt": "Immagine editoriale originale generata dalla redazione con OpenAI per questo specifico articolo, verificata come singola scena coerente, priva di testo sovrapposto e non presentata come fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/unabomber-arriva-su-netflix-cast-e-struttura-del-film-di-janus-metz-v579-480.webp",
+          "sha256": "00edbfc483698466bb214be347ee41953bbd2af91b3ae5dbfd939a40fff90649",
+          "bytes": 46982
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/unabomber-arriva-su-netflix-cast-e-struttura-del-film-di-janus-metz-v579-800.webp",
+          "sha256": "6817216824dcc9dcd129d981741a3e01ced4c4d7545632fd7e205f4032243e2e",
+          "bytes": 101022
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/unabomber-arriva-su-netflix-cast-e-struttura-del-film-di-janus-metz-v579-1200.webp",
+          "sha256": "55f0317a4b277807e2977b51ec6c2ba84edfd6b6e9e2cafc759de97fc278281d",
+          "bytes": 165914
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation via ChatGPT Work",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/unabomber-arriva-su-netflix-cast-e-struttura-del-film-di-janus-metz-25-09-2026.html"
+    },
+    {
+      "alt": "Checkpoint di una corsa a cavallo nel West con una sfera d’acciaio in primo piano; illustrazione editoriale IA non documentaria.",
+      "prompt": "Immagine editoriale originale generata dalla redazione con OpenAI per questo specifico articolo, verificata come singola scena coerente, priva di testo sovrapposto e non presentata come fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/steel-ball-run-riparte-su-netflix-11-episodi-tra-seconda-e-terza-fase-v578-480.webp",
+          "sha256": "30291f4a2748ea519b8dcf6cc1650e4d9b019a5e0a84e9b549ff6a7c44e62c2a",
+          "bytes": 46660
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/steel-ball-run-riparte-su-netflix-11-episodi-tra-seconda-e-terza-fase-v578-800.webp",
+          "sha256": "906feeeac06f1be95ca9a6a37da700f9c73d8a30e0c5ae36129e34c08f26c616",
+          "bytes": 96790
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/steel-ball-run-riparte-su-netflix-11-episodi-tra-seconda-e-terza-fase-v578-1200.webp",
+          "sha256": "c3339fa75a9d8e6197425ab90084ef61d7115b64c6688e3b760871ca7f0a7c57",
+          "bytes": 169006
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation via ChatGPT Work",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/steel-ball-run-riparte-su-netflix-11-episodi-tra-seconda-e-terza-fase-25-09-2026.html"
+    },
+    {
+      "alt": "Cappelli da cowboy e casco da ranger spaziale davanti a un tablet in una cameretta; illustrazione editoriale IA non documentaria.",
+      "prompt": "Immagine editoriale originale generata dalla redazione con OpenAI per questo specifico articolo, verificata come singola scena coerente, priva di testo sovrapposto e non presentata come fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/toy-story-5-e-disponibile-su-disney-trama-personaggi-e-posto-nella-saga-v577-480.webp",
+          "sha256": "30c9d165cd5a26abaa05dfbfe31d9860cbda6452ebe929f4014c5bec41ab91a1",
+          "bytes": 36380
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/toy-story-5-e-disponibile-su-disney-trama-personaggi-e-posto-nella-saga-v577-800.webp",
+          "sha256": "a33f9c2ece42c157c0fc0f255253d03ff13ddf49252b1a17a49c80f974c2fa91",
+          "bytes": 72308
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/toy-story-5-e-disponibile-su-disney-trama-personaggi-e-posto-nella-saga-v577-1200.webp",
+          "sha256": "79db14fe75575948d13e62e357c1134e8ef52eff0200872a24fdc165119cdee7",
+          "bytes": 126794
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation via ChatGPT Work",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/toy-story-5-e-disponibile-su-disney-trama-personaggi-e-posto-nella-saga-25-09-2026.html"
+    },
+    {
+      "alt": "Auditorium Parco della Musica con tappeto rosso e un volto androide luminoso nel foyer; illustrazione editoriale IA non documentaria.",
+      "prompt": "Immagine editoriale originale generata dalla redazione con OpenAI per questo specifico articolo, verificata come singola scena coerente, priva di testo sovrapposto e non presentata come fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/visionquest-entra-nel-programma-della-festa-del-cinema-di-roma-v576-480.webp",
+          "sha256": "9c376e096a4ff52a9cdd4b1db9c1f40ae5a8f8a07f1c157079586c15a4d89176",
+          "bytes": 43316
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/visionquest-entra-nel-programma-della-festa-del-cinema-di-roma-v576-800.webp",
+          "sha256": "d612e93fc3001dfefec5d2ac272bee729d599ce13808db9971a88fb3c4706c96",
+          "bytes": 103046
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/visionquest-entra-nel-programma-della-festa-del-cinema-di-roma-v576-1200.webp",
+          "sha256": "ca285ef666286e09eb09c90d20a3614be55cbec17a30c077209626a77574f340",
+          "bytes": 201212
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation via ChatGPT Work",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/visionquest-entra-nel-programma-della-festa-del-cinema-di-roma-25-09-2026.html"
+    },
+    {
+      "alt": "Cappello e mantello viola di Darkwing Duck su un tetto notturno di St. Canard; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/darkwing-duck-tornera-con-una-nuova-serie-animata-su-disney-v575-480.webp",
+          "sha256": "37b6e085f71ce1a4ed94f69654da40f48193c76301283a8370655f1e2eb690b3",
+          "bytes": 41926
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/darkwing-duck-tornera-con-una-nuova-serie-animata-su-disney-v575-800.webp",
+          "sha256": "557f89f0548a0abf894965b799a9678ed70c3ab5645e3bdee5221d0c4528d506",
+          "bytes": 97046
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/darkwing-duck-tornera-con-una-nuova-serie-animata-su-disney-v575-1200.webp",
+          "sha256": "de600d9358bfb58b0ec0abe0f12682ae665333a2b8985b662ae9723cd0b50e72",
+          "bytes": 182654
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/darkwing-duck-tornera-con-una-nuova-serie-animata-su-disney-25-09-2026.html"
+    },
     {
       "alt": "Illustrazione editoriale di un gruppo di studentesse davanti all'ingresso di un istituto scolastico italiano, alcune con il capo coperto da velo, altre a viso scoperto.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
