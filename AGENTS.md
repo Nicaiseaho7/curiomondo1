@@ -103,6 +103,7 @@ Se uno qualunque di questi punti manca, segnalare la pubblicazione come **incomp
 - Il gate di integrità deve validare UTF-8 e sintassi di tutti i JSON, le superfici pubbliche obbligatorie e le firme reali delle immagini editoriali. Un file troncato, binario al posto di testo o con estensione falsa blocca il deploy.
 - Netlify ripete il gate prima e dopo ogni rigenerazione della build. Nessun errore di decodifica può essere ignorato o sostituito silenziosamente.
 - Dopo il push, controllare l'URL pubblico dell'articolo, immagine hero, homepage, categoria, archivio, feed, sitemap e News Sitemap. Un commit presente su GitHub non equivale a una pubblicazione riuscita.
+- Dopo ogni pubblicazione eseguire anche `python3 tools/verify_live_publication.py --slug SLUG --title "TITOLO"`. Il controllo deve decodificare come UTF-8 e JSON il file live `assets/data/home-feed-v210.json` e confermare la presenza degli asset `home-allocation-v504.js`, `home-sections-v504.js` e `home-sections-v504.css`. Un feed remoto troncato o binario è bloccante perché lascia visibile il vecchio fallback della homepage.
 - Dichiarare `PUBBLICATO` soltanto quando tutti i controlli live rispondono correttamente e contengono il nuovo slug. In caso contrario diagnosticare, autoriparare e rieseguire l'intero ciclo senza chiedere una nuova autorizzazione editoriale.
 
 ## Regola approfondimenti coerente
