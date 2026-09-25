@@ -1,10 +1,101 @@
 {
-  "version": 571,
+  "version": 574,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
-      "alt": "Foto d'archivio della polizia municipale e di un'ambulanza sul luogo di un incidente stradale a Palermo, con uno scooter, una bicicletta e una borsa termica Glovo a terra.",
+      "alt": "Illustrazione editoriale di un gruppo di studentesse davanti all'ingresso di un istituto scolastico italiano, alcune con il capo coperto da velo, altre a viso scoperto.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ho-16-anni-e-vado-a-scuola-con-il-niqab-la-studentessa-di-monfalcone-dopo-il-nuovo-decreto-v574-480.webp",
+          "sha256": "1c06ab5087611e1da453fc529f37c3d7ae15a00ae512ae7795b3fc1f84d2cadb",
+          "bytes": 33204
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ho-16-anni-e-vado-a-scuola-con-il-niqab-la-studentessa-di-monfalcone-dopo-il-nuovo-decreto-v574-800.webp",
+          "sha256": "ba706bf1b32c29d6d24b772ba1cd01a17a9eee2afe2832fea0256b796000f79c",
+          "bytes": 64654
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ho-16-anni-e-vado-a-scuola-con-il-niqab-la-studentessa-di-monfalcone-dopo-il-nuovo-decreto-v574-1200.webp",
+          "sha256": "c9c2b615d4027ad88d0a479e6885308a94d5fee96eaa5ae8aece3f6ee665dcb0",
+          "bytes": 103878
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/ho-16-anni-e-vado-a-scuola-con-il-niqab-la-studentessa-di-monfalcone-dopo-il-nuovo-decreto-25-09-2026.html"
+    },
+    {
+      "alt": "Illustrazione editoriale dell'ingresso del Parco Archeologico del Colosseo a Roma, con il cartello del parco in primo piano e l'anfiteatro sullo sfondo.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/giuli-il-colosseo-riapre-sabato-coesi-per-sicurezza-e-giustizia-v573-480.webp",
+          "sha256": "46d8aff62bc6b9cd2c1d8ee6767dcc466c2b74722beb28205939ddfde4239149",
+          "bytes": 49880
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/giuli-il-colosseo-riapre-sabato-coesi-per-sicurezza-e-giustizia-v573-800.webp",
+          "sha256": "7cd3cc32ed8d7ce9f0c54f231202cf80b8873676559a25b1c6df845b7321b709",
+          "bytes": 122958
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/giuli-il-colosseo-riapre-sabato-coesi-per-sicurezza-e-giustizia-v573-1200.webp",
+          "sha256": "49ed1a9e4f5a84219e36885e2ac4a7aa48f4903f39c4b0d7d5abc2f422a41de4",
+          "bytes": 244268
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/giuli-il-colosseo-riapre-sabato-coesi-per-sicurezza-e-giustizia-25-09-2026.html"
+    },
+    {
+      "alt": "Foto d'archivio di auto dei Carabinieri davanti a un casale in pietra circondato da ulivi in campagna toscana, con nastro segnaletico all'ingresso.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/roncola-contro-la-moglie-condannato-a-16-anni-la-vittima-resta-tetraplegica-v572-480.webp",
+          "sha256": "0916b9f0ee207a34c567d5df1369ec8b29bc2afcc59d29257030bbaddfe24ac0",
+          "bytes": 54794
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/roncola-contro-la-moglie-condannato-a-16-anni-la-vittima-resta-tetraplegica-v572-800.webp",
+          "sha256": "b179124bdf98c0a7d11aaba64cc7757cf3c1c001551dd61b6c6bc32965aaf5b0",
+          "bytes": 131578
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/roncola-contro-la-moglie-condannato-a-16-anni-la-vittima-resta-tetraplegica-v572-1200.webp",
+          "sha256": "5595afd7607f5c0a0873065ac53466c6c7fb7eaed57a5c9820e55c4768ae4a05",
+          "bytes": 243606
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/roncola-contro-la-moglie-condannato-a-16-anni-la-vittima-resta-tetraplegica-25-09-2026.html"
+    },
+    {
+      "alt": "Foto d'archivio della polizia municipale e di un'ambulanza sul luogo di un incidente stradale a Palermo, con uno scooter, una bicicletta e una borsa termica Glovo a terra.",
       "variants": [
         {
           "w": 480,
@@ -25,17 +116,16 @@
           "bytes": 215328
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "officialArtwork": false,
       "sensitiveContext": true,
       "article": "/notizie/scontro-con-una-bici-rider-in-scooter-muore-a-palermo-25-09-2026.html"
     },
     {
       "alt": "Foto d'archivio di un distributore Eni con i prezzi di benzina e diesel esposti, mentre un'auto viene rifornita di carburante.",
-      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
       "variants": [
         {
           "w": 480,
@@ -56,10 +146,10 @@
           "bytes": 121654
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "officialArtwork": false,
       "sensitiveContext": false,
       "article": "/notizie/eni-tetto-ai-prezzi-di-gasolio-e-benzina-dal-28-settembre-25-09-2026.html"
@@ -86,10 +176,10 @@
           "bytes": 93786
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "officialArtwork": false,
       "sensitiveContext": false,
       "syntheticLikeness": "public-figure",
@@ -97,7 +187,6 @@
     },
     {
       "alt": "Foto d'archivio di Robert Downey Jr. in giacca scura durante un evento pubblico legato a un film Marvel Studios.",
-      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
       "variants": [
         {
           "w": 480,
@@ -118,10 +207,10 @@
           "bytes": 46040
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "officialArtwork": false,
       "sensitiveContext": false,
       "syntheticLikeness": "public-figure",
@@ -149,11 +238,11 @@
           "bytes": 187262
         }
       ],
-      "disclosure": "Immagine promozionale ufficiale fornita dagli aventi diritto; non generata da CurioMondo ne una fotografia di cronaca.",
-      "generator": "materiale ufficiale fornito dagli aventi diritto",
-      "aiGenerated": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
       "documentaryPhoto": false,
-      "officialArtwork": true,
+      "officialArtwork": false,
       "sensitiveContext": false,
       "article": "/notizie/gta-vi-the-album-la-colonna-sonora-ufficiale-con-34-brani-arriva-il-19-novembre-25-09-2026.html"
     },
@@ -190,7 +279,6 @@
     },
     {
       "alt": "Foto d'archivio di una persona che rifornisce di diesel un'auto a un distributore, con i prezzi al litro visibili sul totem.",
-      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
       "variants": [
         {
           "w": 480,
@@ -211,17 +299,16 @@
           "bytes": 51380
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "officialArtwork": false,
       "sensitiveContext": false,
       "article": "/notizie/diesel-a-2-23-euro-al-litro-nell-ue-record-dal-2005.html"
     },
     {
       "alt": "Foto d'archivio di Nadia Rinaldi sorridente in studio televisivo durante un'intervista, con il logo del programma \"La volta buona\" sullo sfondo.",
-      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
       "variants": [
         {
           "w": 480,
@@ -242,10 +329,10 @@
           "bytes": 59644
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "officialArtwork": false,
       "sensitiveContext": false,
       "syntheticLikeness": "public-figure",
@@ -253,7 +340,6 @@
     },
     {
       "alt": "Foto d'archivio di due militari della Guardia di Finanza davanti alla sede del Comando provinciale di Belluno.",
-      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
       "variants": [
         {
           "w": 480,
@@ -274,10 +360,10 @@
           "bytes": 60336
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "officialArtwork": false,
       "sensitiveContext": false,
       "article": "/notizie/belluno-bancarotta-nel-turismo-la-finanza-accerta-distrazioni-per-4-milioni-25-09-2026.html"
@@ -403,10 +489,10 @@
           "bytes": 144024
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "sensitiveContext": false,
       "syntheticLikeness": "public-figure",
       "article": "/notizie/olanda-germania-1-1-gakpo-klopp-nations-league-24-settembre-2026.html",
@@ -557,13 +643,14 @@
           "bytes": 86536
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "sensitiveContext": false,
       "article": "/notizie/bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-24-09-2026.html",
-      "key": "bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-24-09-2026-v565"
+      "key": "bjk-cup-italia-in-semifinale-cina-battuta-2-1-nel-doppio-24-09-2026-v565",
+      "officialArtwork": false
     },
     {
       "alt": "Autostrada europea e terminal logistico con camion e merci diverse; illustrazione editoriale IA.",
@@ -1008,12 +1095,13 @@
           "bytes": 137496
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "sensitiveContext": false,
-      "article": "/notizie/senato-si-definitivo-alla-delega-sul-nucleare-sostenibile-24-09-2026.html"
+      "article": "/notizie/senato-si-definitivo-alla-delega-sul-nucleare-sostenibile-24-09-2026.html",
+      "officialArtwork": false
     },
     {
       "alt": "Foto d'archivio di due esponenti del Governo che escono da un edificio istituzionale a Roma davanti a fotografi e operatori tv, in un giorno di attività politica.",
@@ -1037,12 +1125,13 @@
           "bytes": 157394
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "sensitiveContext": false,
-      "article": "/notizie/scuola-il-decreto-sul-tetto-degli-studenti-stranieri-arriva-in-cdm-24-09-2026.html"
+      "article": "/notizie/scuola-il-decreto-sul-tetto-degli-studenti-stranieri-arriva-in-cdm-24-09-2026.html",
+      "officialArtwork": false
     },
     {
       "alt": "Foto d'archivio di due Carabinieri e di un agente con un sacchetto per prove all'ingresso di un istituto scolastico, con un'auto dei Carabinieri in primo piano.",
@@ -1066,12 +1155,13 @@
           "bytes": 166614
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "sensitiveContext": true,
-      "article": "/notizie/lamezia-terme-14enne-progettava-un-aggressione-a-scuola-piano-scoperto-dai-carabinieri-24-09-2026.html"
+      "article": "/notizie/lamezia-terme-14enne-progettava-un-aggressione-a-scuola-piano-scoperto-dai-carabinieri-24-09-2026.html",
+      "officialArtwork": false
     },
     {
       "alt": "Foto d'archivio di un'azione della partita di Women's Champions League tra Leuven e Roma, con la portiera avversaria che devia il pallone verso la traversa.",
@@ -1095,13 +1185,14 @@
           "bytes": 157382
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "sensitiveContext": false,
       "syntheticLikeness": "public-figure",
-      "article": "/notizie/champions-league-femminile-roma-0-0-a-leuven-24-09-2026.html"
+      "article": "/notizie/champions-league-femminile-roma-0-0-a-leuven-24-09-2026.html",
+      "officialArtwork": false
     },
     {
       "alt": "Foto d'archivio dei giocatori della nazionale italiana di volley maschile delusi in campo mentre i giocatori della Finlandia esultano dopo la vittoria agli Europei.",
@@ -1125,13 +1216,14 @@
           "bytes": 132268
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "immagine IA (ChatGPT) fornita alla redazione insieme alla bozza",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "sensitiveContext": false,
       "syntheticLikeness": "public-figure",
-      "article": "/notizie/volley-italia-eliminata-dalla-finlandia-agli-europei-24-09-2026.html"
+      "article": "/notizie/volley-italia-eliminata-dalla-finlandia-agli-europei-24-09-2026.html",
+      "officialArtwork": false
     },
     {
       "key": "polonia-elicottero-russo-spazio-aereo-42-secondi-23-settembre-2026-v532",
