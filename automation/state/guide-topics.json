@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "policy": {
     "source": "user_canonical_guide_queue",
     "selection_rule": "Choose only from remaining_topics; remove exact topic after successful publication.",
@@ -12,8 +12,6 @@
     {
       "category": "Tecnologia e informatica",
       "remaining_topics": [
-        "Come fare screen sul PC",
-        "Come aggiornare Windows / Android",
         "Come resettare telefono",
         "Come trasferire dati da Android a iPhone (e viceversa)",
         "Come usare Telegram / Discord",
@@ -42,7 +40,9 @@
         "Come creare PDF",
         "Come comprimere file / foto",
         "Come usare ChatGPT / Gemini / AI",
-        "Come fare action figure con AI"
+        "Come fare action figure con AI",
+        "Come fare screen sul PC",
+        "Come aggiornare Windows / Android"
       ]
     },
     {
