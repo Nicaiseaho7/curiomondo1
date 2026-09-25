@@ -1,7 +1,69 @@
 {
-  "version": 569,
+  "version": 571,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Foto d'archivio della polizia municipale e di un'ambulanza sul luogo di un incidente stradale a Palermo, con uno scooter, una bicicletta e una borsa termica Glovo a terra.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/scontro-con-una-bici-rider-in-scooter-muore-a-palermo-v571-480.webp",
+          "sha256": "13bddafae961eebbce92f8a762fcf0d1b8b18285e3b8da542ddafa1aff4603b4",
+          "bytes": 55768
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/scontro-con-una-bici-rider-in-scooter-muore-a-palermo-v571-800.webp",
+          "sha256": "5d4fc196ff1ded49922699c49482e8422ada6be20baf85a38c4214675ec7a53e",
+          "bytes": 120634
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/scontro-con-una-bici-rider-in-scooter-muore-a-palermo-v571-1200.webp",
+          "sha256": "e4f9814821f8709b4603f4c4e552997a6115379a7f07a229a1495bb7c1d177ac",
+          "bytes": 215328
+        }
+      ],
+      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": false,
+      "documentaryPhoto": true,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/scontro-con-una-bici-rider-in-scooter-muore-a-palermo-25-09-2026.html"
+    },
+    {
+      "alt": "Foto d'archivio di un distributore Eni con i prezzi di benzina e diesel esposti, mentre un'auto viene rifornita di carburante.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/eni-tetto-ai-prezzi-di-gasolio-e-benzina-dal-28-settembre-v570-480.webp",
+          "sha256": "8093046a5ba2f6471ca949a335d770cdef9c8ae1fc3e1a409854de4a120809aa",
+          "bytes": 37094
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/eni-tetto-ai-prezzi-di-gasolio-e-benzina-dal-28-settembre-v570-800.webp",
+          "sha256": "0cc485e96eafbed22cce8a013562245b3b0835f78593d57048ead55ac7a0abff",
+          "bytes": 73802
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/eni-tetto-ai-prezzi-di-gasolio-e-benzina-dal-28-settembre-v570-1200.webp",
+          "sha256": "b42d8d7376ce0f02f24fe3509d7f21bc906f478ed919924c3340655ff39bc257",
+          "bytes": 121654
+        }
+      ],
+      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": false,
+      "documentaryPhoto": true,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/eni-tetto-ai-prezzi-di-gasolio-e-benzina-dal-28-settembre-25-09-2026.html"
+    },
     {
       "alt": "Foto d'archivio di Roberto Vannacci al microfono con Gianni Alemanno accanto durante un momento del Forum di Orvieto, in una sala con bandiera italiana ed europea.",
       "variants": [
