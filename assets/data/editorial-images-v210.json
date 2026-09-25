@@ -1,7 +1,38 @@
 {
-  "version": 556,
+  "version": 557,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "meteo-italia-25-settembre-2-ottobre-2026-v557",
+      "alt": "Mappa meteo editoriale IA dell’Italia del 25 settembre 2026 con confini regionali, città principali, temperature massime, sole al Nord e rovesci sul versante adriatico e al Sud.",
+      "prompt": "Mappa meteorologica editoriale dell’Italia per il 25 settembre 2026, con confini regionali chiari, dieci città e temperature, simboli di sole, rovesci e vento, testo italiano leggibile.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/meteo-italia-25-settembre-2-ottobre-2026-v557-480.webp",
+          "sha256": "b185369b000f435e584407e8d6d11bcfb3bb31be96cd5d72b3a2d83699abc434",
+          "bytes": 57960
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/meteo-italia-25-settembre-2-ottobre-2026-v557-800.webp",
+          "sha256": "0b183809421f87c5c34c59c67a6367633c3b137efea4574e7c10433a9be8b670",
+          "bytes": 149874
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/meteo-italia-25-settembre-2-ottobre-2026-v557-1200.webp",
+          "sha256": "166003007b3d08f59428b2b4f77803e4bdf4fbe207b18f83afd30a8e893af5c3",
+          "bytes": 308284
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation tool",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/meteo-italia-25-settembre-2-ottobre-2026.html"
+    },
     {
       "alt": "Illustrazione editoriale di Donald Trump e Xi Jinping a una cena formale con dirigenti tecnologici statunitensi",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
