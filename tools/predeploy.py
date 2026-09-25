@@ -199,6 +199,7 @@ def article_v4_required(doc):
     return False
 caption='Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.'
 caption_foto='Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.'
+caption_ufficiale='Immagine promozionale ufficiale fornita dagli aventi diritto; non generata da CurioMondo ne una fotografia di cronaca.'
 card_eligible_dates={}
 publication_date_errors=[]
 try:
@@ -319,7 +320,9 @@ for p in news:
     if figures:
         refs += figures[0].xpath('.//img/@src')
         didascalia=' '.join(figures[0].xpath('.//figcaption//text()')).strip()
-        if figures[0].get('data-ai-generated')=='false':
+        if figures[0].get('data-official-artwork')=='true':
+            if didascalia!=caption_ufficiale: errors.append(f'didascalia materiale ufficiale errata: {p.name}')
+        elif figures[0].get('data-ai-generated')=='false':
             if didascalia!=caption_foto: errors.append(f'didascalia fotografia reale errata: {p.name}')
         elif didascalia!=caption: errors.append(f'didascalia IA errata: {p.name}')
         if figures[0].get('data-synthetic-likeness')=='public-figure':

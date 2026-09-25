@@ -141,7 +141,9 @@ def render_article(article: dict[str, Any], image: dict[str, Any], version: int)
     )
     ai_generated = bool(image.get("aiGenerated", True))
     attrs = ['class="article-image"', f'data-ai-generated="{str(ai_generated).lower()}"']
-    if not ai_generated:
+    if image.get("officialArtwork"):
+        attrs.append('data-official-artwork="true"')
+    elif not ai_generated:
         attrs.append('data-documentary-photo="true"')
     disclosure_text = escape(str(image.get("disclosure") or CAPTION))
     sensitive = bool(image.get("sensitiveContext"))

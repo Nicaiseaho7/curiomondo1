@@ -131,6 +131,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--foto-reale", action="store_true",
                         help="dichiara che l'immagine e una fotografia vera, non un'illustrazione IA: "
                              "cambia la didascalia pubblica di conseguenza")
+    parser.add_argument("--materiale-ufficiale", action="store_true",
+                        help="dichiara che l'immagine e materiale promozionale/ufficiale fornito da chi "
+                             "detiene i diritti (locandina, cover, key art): non e una foto di cronaca "
+                             "ne un'illustrazione generata da CurioMondo")
     parser.add_argument("--non-in-evidenza", action="store_true",
                         help="non mettere l'articolo nella card principale della home")
     args = parser.parse_args(argv)
@@ -150,6 +154,11 @@ def main(argv: list[str] | None = None) -> int:
     # un'illustrazione editoriale, com'e sempre stato per il resto del sito;
     # dichiararla vera quando non lo e (o viceversa) sarebbe una didascalia falsa.
     foto_reale = bool(args.foto_reale or immagine_bozza.get("fotografia_reale"))
+    materiale_ufficiale = bool(args.materiale_ufficiale or immagine_bozza.get("materiale_ufficiale"))
+    if foto_reale and materiale_ufficiale:
+        print("Un'immagine non puo essere insieme una fotografia di cronaca e un materiale "
+              "promozionale ufficiale: scegli una sola dichiarazione.", file=sys.stderr)
+        return 1
 
     if not alt:
         print("Manca la descrizione dell'immagine: usa --alt oppure il campo immagine.alt.",
@@ -184,7 +193,8 @@ def main(argv: list[str] | None = None) -> int:
     try:
         if origine:
             raw = scarica_immagine(origine)
-            generator = "fornita dalla redazione"
+            generator = ("materiale ufficiale fornito dagli aventi diritto" if materiale_ufficiale
+                        else "fornita dalla redazione")
         else:
             raw, generator = genera_immagine(prompt)
         immagine_grezza = _validate_image(raw)
@@ -199,14 +209,19 @@ def main(argv: list[str] | None = None) -> int:
         "prompt": prompt or str(articolo["immagine"].get("prompt") or ""),
         "variants": variants,
         # Una didascalia "generata con IA" sarebbe falsa su una fotografia
-        # vera: la disclosure deve dire cio che l'immagine e davvero.
+        # vera o su materiale ufficiale: la disclosure deve dire cio che
+        # l'immagine e davvero, non da dove e arrivata al sito.
         "disclosure": (
             "Fotografia editoriale fornita alla redazione CurioMondo; "
             "non generata da intelligenza artificiale."
-        ) if foto_reale else CAPTION,
+        ) if foto_reale else (
+            "Immagine promozionale ufficiale fornita dagli aventi diritto; "
+            "non generata da CurioMondo ne una fotografia di cronaca."
+        ) if materiale_ufficiale else CAPTION,
         "generator": generator,
-        "aiGenerated": not foto_reale,
+        "aiGenerated": not (foto_reale or materiale_ufficiale),
         "documentaryPhoto": foto_reale,
+        "officialArtwork": materiale_ufficiale,
         "sensitiveContext": sensitive,
     }
     if public:
