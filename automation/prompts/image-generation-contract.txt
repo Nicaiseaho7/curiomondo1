@@ -429,3 +429,9 @@ Mai sostituire una persona reale con una persona casuale facendola apparire come
 Mai rappresentare una ricostruzione AI come fotografia documentaria autentica.
 
 Per il meteo, utilizzare invece una mappa editoriale dell’Italia chiara, leggibile e informativa con città, regioni e simboli meteorologici pertinenti.
+
+PUBLIC FIGURES AND SYNTHETIC LIKENESS
+Read AI-EDITORIAL-IMAGE-PROTOCOL.md before generating.
+ORDINARY public-figure news may use a contextual scene when the likeness is reliable. buildings and logos are allowed only when they are the real ones and they render correctly.
+SENSITIVE public-figure news requires a neutral isolated portrait, never the traumatic moment.
+If the tool cannot produce a reliable likeness, do not invent a face: show the real place or object. The figure uses data-synthetic-likeness="public-figure" only when that person is actually recognizable, with data-sensitive-context="true|false".
