@@ -1,7 +1,100 @@
 {
-  "version": 610,
+  "version": 613,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Giornale aperto su un tavolo, con grafici sfocati, taccuino e matita",
+      "prompt": "Fotografia editoriale di un giornale aperto su un tavolo di legno, grafici sfocati senza numeri leggibili, taccuino bianco e matita, luce del mattino, nessun volto.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v613-480.webp",
+          "sha256": "31e9789de1583fd7f3625a55d0587bd289863ebdcb9e11579294f41931fdfc68",
+          "bytes": 14988
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v613-800.webp",
+          "sha256": "cf386ceea588ceb4ff5d74261e1d3121042eea9d712d1e1804af605e1bf2ab88",
+          "bytes": 33204
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v613-1200.webp",
+          "sha256": "d9f5434e5261263274e40c5ecde1d8ab89457f0e79cdf8954639aefe65b8b58c",
+          "bytes": 59720
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-26-09-2026.html"
+    },
+    {
+      "alt": "Binari vuoti lungo la costa, con il mare sullo sfondo e nessuna persona",
+      "prompt": "Fotografia editoriale di binari ferroviari vuoti lungo la costa adriatica, luce del mattino, mare sullo sfondo, nessuna persona e nessun incidente visibile.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/riccione-cattolica-circolazione-regolare-dalle-12-dopo-l-investimento-v612-480.webp",
+          "sha256": "a9d560306afb23325adbf446ae30dd6aa2307fefa116ff53402921a05d12ac71",
+          "bytes": 45128
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/riccione-cattolica-circolazione-regolare-dalle-12-dopo-l-investimento-v612-800.webp",
+          "sha256": "bb9e1518d621ae15683f1e83276519265075e0bd4cad393c4376f5eec08d8ed3",
+          "bytes": 120730
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/riccione-cattolica-circolazione-regolare-dalle-12-dopo-l-investimento-v612-1200.webp",
+          "sha256": "fc8e63c8541b70ea8a60881b388dc6a24f88bda64836230ce92fe41fc1159063",
+          "bytes": 239248
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/riccione-cattolica-circolazione-regolare-dalle-12-dopo-l-investimento-26-09-2026.html"
+    },
+    {
+      "alt": "Banchina vuota della metropolitana, con un treno fermo e le porte chiuse",
+      "prompt": "Fotografia editoriale di una banchina della metropolitana vuota, piastrelle chiare, treno fermo a porte chiuse, nessuna persona, nessun logo, nessun testo leggibile.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/metro-b-un-uomo-muore-investito-a-garbatella-v611-480.webp",
+          "sha256": "84dd5143f38322940a5f53ccbf0bc861344edc649b83383b96427f13ef629954",
+          "bytes": 19998
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/metro-b-un-uomo-muore-investito-a-garbatella-v611-800.webp",
+          "sha256": "1a25594dbec7eac0e875f9165eb66dafd98b33f1ebb99274d979c5f454368049",
+          "bytes": 52478
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/metro-b-un-uomo-muore-investito-a-garbatella-v611-1200.webp",
+          "sha256": "286fb1aa5940cb6b895a8ed7cd947f3b8e3018d426695bfd0acef6f498328708",
+          "bytes": 111374
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/metro-b-un-uomo-muore-investito-a-garbatella-26-09-2026.html"
+    },
     {
       "alt": "Cancello di una scuola storica al mattino con un telo bianco senza scritte, sagome lontane e nessun volto riconoscibile.",
       "prompt": "Cancello di una scuola a Genova al mattino, telo bianco senza testo, sagome lontane, nessun volto riconoscibile e nessuna divisa in primo piano.",

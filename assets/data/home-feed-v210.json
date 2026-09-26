@@ -1,6 +1,108 @@
 {
-  "version": 610,
+  "version": 613,
   "items": [
+    {
+      "title": "Sondaggio Ipsos: il Pd al 19,5%, Vannacci all'8,8%",
+      "excerpt": "Nella rilevazione Ipsos pubblicata dal Corriere, Fratelli d'Italia resta al 26,4% e il Pd scende al 19,5%. Futuro nazionale di Vannacci è stimato all'8,8%.",
+      "url": "/notizie/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-26-09-2026.html",
+      "section": "Italia / Politica",
+      "dateISO": "2026-09-26T13:05:14+02:00",
+      "dateLabel": "2026-09-26",
+      "image": "/assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v613-800.webp",
+      "imageAlt": "Giornale aperto su un tavolo, con grafici sfocati, taccuino e matita",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v613-480.webp 480w, /assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v613-800.webp 800w, /assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v613-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "●",
+          "value": "19,5%",
+          "label": "stima del Pd"
+        },
+        {
+          "icon": "●",
+          "value": "8,8%",
+          "label": "Futuro nazionale"
+        },
+        {
+          "icon": "●",
+          "value": "26,4%",
+          "label": "Fratelli d'Italia"
+        }
+      ],
+      "featuredHighlights": [
+        "Ipsos",
+        "19,5%"
+      ]
+    },
+    {
+      "title": "Riccione-Cattolica, circolazione regolare dalle 12 dopo l'investimento",
+      "excerpt": "Trenitalia dichiara regolare dalle 12 la linea tra Riccione e Cattolica, ferma dalle 7 per accertamenti giudiziari dopo l'investimento di una persona. Ritardi fino a 250 minuti.",
+      "url": "/notizie/riccione-cattolica-circolazione-regolare-dalle-12-dopo-l-investimento-26-09-2026.html",
+      "section": "Italia / Cronaca",
+      "dateISO": "2026-09-26T13:04:17+02:00",
+      "dateLabel": "2026-09-26",
+      "image": "/assets/images/editorial-auto/riccione-cattolica-circolazione-regolare-dalle-12-dopo-l-investimento-v612-800.webp",
+      "imageAlt": "Binari vuoti lungo la costa, con il mare sullo sfondo e nessuna persona",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/riccione-cattolica-circolazione-regolare-dalle-12-dopo-l-investimento-v612-480.webp 480w, /assets/images/editorial-auto/riccione-cattolica-circolazione-regolare-dalle-12-dopo-l-investimento-v612-800.webp 800w, /assets/images/editorial-auto/riccione-cattolica-circolazione-regolare-dalle-12-dopo-l-investimento-v612-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "●",
+          "value": "12:00",
+          "label": "circolazione di nuovo regolare"
+        },
+        {
+          "icon": "●",
+          "value": "250 minuti",
+          "label": "ritardo massimo indicato"
+        },
+        {
+          "icon": "●",
+          "value": "ore 7",
+          "label": "inizio della sospensione"
+        }
+      ],
+      "featuredHighlights": [
+        "Riccione",
+        "Cattolica"
+      ]
+    },
+    {
+      "title": "Metro B, un uomo muore investito a Garbatella",
+      "excerpt": "Un uomo è morto poco prima delle 10 alla stazione Garbatella, investito da un treno della metro B. Il servizio è fermo tra Laurentina e Castro Pretorio, con bus sostitutivi.",
+      "url": "/notizie/metro-b-un-uomo-muore-investito-a-garbatella-26-09-2026.html",
+      "section": "Italia / Cronaca",
+      "dateISO": "2026-09-26T13:03:17+02:00",
+      "dateLabel": "2026-09-26",
+      "image": "/assets/images/editorial-auto/metro-b-un-uomo-muore-investito-a-garbatella-v611-800.webp",
+      "imageAlt": "Banchina vuota della metropolitana, con un treno fermo e le porte chiuse",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/metro-b-un-uomo-muore-investito-a-garbatella-v611-480.webp 480w, /assets/images/editorial-auto/metro-b-un-uomo-muore-investito-a-garbatella-v611-800.webp 800w, /assets/images/editorial-auto/metro-b-un-uomo-muore-investito-a-garbatella-v611-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "●",
+          "value": "26 settembre",
+          "label": "giorno del fatto"
+        },
+        {
+          "icon": "●",
+          "value": "Garbatella",
+          "label": "stazione della metro B"
+        },
+        {
+          "icon": "●",
+          "value": "Laurentina–Castro Pretorio",
+          "label": "tratta interrotta"
+        }
+      ],
+      "featuredHighlights": [
+        "Metro B",
+        "Garbatella"
+      ]
+    },
     {
       "title": "Genova, striscione tolto alla Daneo: lunedì il presidio",
       "excerpt": "Venerdì due agenti hanno staccato dal cancello della primaria Daneo un telo fatto dai bambini. La Questura dice che è stato restituito subito. I genitori chiamano un presidio lunedì in piazza della Meridiana.",
