@@ -8,7 +8,8 @@ Il testo operativo è `automation/prompts/image-generation-contract.txt`. In cas
 
 - Un'immagine per notizia. Mai collage, riquadri o più notizie nella stessa foto.
 - Fotorealismo editoriale. Niente estetica da «immagine AI», niente testo, watermark, loghi inventati o scritte deformate. Eccezione unica: le mappe meteo dell'Italia, con città e simboli leggibili.
-- Ordine dell'editore, 26 settembre 2026, ore 19:58: i sosia dei personaggi pubblici sono autorizzati. Se la notizia nomina una persona pubblica, la copertina la mostra in volto, come somiglianza sintetica, nel luogo della notizia e con il marchio vero se è leggibile. Non si sostituisce più quella persona con un palazzo vuoto o con una figura di spalle. La didascalia dice che è un'illustrazione editoriale IA, non una foto documentaria. Un logo illeggibile non si pubblica.
+- Ordine dell'editore, 26 settembre 2026, ore 20:14: le persone di spalle sono vietate. Vale per tutti, protagonisti e comparse. Se in copertina c'è una persona, il viso si vede. Niente nuche, niente figure girate, niente caschi chiusi al posto del volto, niente sagome. Se lo strumento rifiuta il volto, non si pubblica una persona girata.
+- I sosia dei personaggi pubblici restano autorizzati, con la didascalia che è un'illustrazione editoriale e non una foto documentaria. Il viso è quello del protagonista, rivolto verso la camera.
 - Cronaca, morte, violenza e arresti: niente corpi, sangue, ferite o ricostruzioni spettacolari. Se serve il volto, solo un ritratto neutro isolato.
 - Non presentare la scena come fotografia documentaria dell'evento. La didascalia resta nel markup, non nei pixel.
 - I limiti tecnici dello strumento di generazione restano: se quello strumento rifiuta il volto, non si aggira.

@@ -5,10 +5,6 @@ name: Rigenera volti copertine 26 settembre
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - .github/workflows/rigenera-volti-20260926.yml
-      - automation/newsroom/rigenera_volti_20260926.py
 
 permissions:
   contents: write
