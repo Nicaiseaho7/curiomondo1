@@ -1,7 +1,38 @@
 {
-  "version": 596,
+  "version": 597,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Strada di Bangkok allagata all'alba, con auto ferme nell'acqua e pioggia fitta, illustrazione editoriale senza persone riconoscibili.",
+      "prompt": "Photorealistic editorial photo of a flooded Bangkok avenue at dawn, knee-deep water, stranded cars, monsoon rain, no readable text, no identifiable faces, no injured people.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/bangkok-dichiara-zona-di-calamita-tutti-i-50-distretti-v597-480.webp",
+          "sha256": "f99c2c36c107228658579908e13cdd9ab2b35f8a9058825c3c2136f8d367e8c1",
+          "bytes": 34154
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/bangkok-dichiara-zona-di-calamita-tutti-i-50-distretti-v597-800.webp",
+          "sha256": "bdec9d5cf9da7568065e0d43da7f531a770697cb6ae70fcb5aa39d66b912495f",
+          "bytes": 95238
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/bangkok-dichiara-zona-di-calamita-tutti-i-50-distretti-v597-1200.webp",
+          "sha256": "89304ae506609b32c15343439c1926a97e06bf0879b7777ef35243af4e55288b",
+          "bytes": 201470
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/bangkok-dichiara-zona-di-calamita-tutti-i-50-distretti-26-09-2026.html"
+    },
     {
       "alt": "Tavolo diplomatico con una linea telefonica rossa fra le bandiere di Stati Uniti e Cina, senza persone.",
       "prompt": "Photorealistic editorial photo of a red secure telephone between a United States flag and a China flag on a wooden table, empty chairs, no people, no readable text.",
