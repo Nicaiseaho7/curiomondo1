@@ -1,7 +1,38 @@
 {
-  "version": 613,
+  "version": 614,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Pennacchio di cenere sull'Etna verso una pista d'aeroporto lontana, senza loghi di compagnie",
+      "prompt": "Fotografia editoriale dell'Etna con un pennacchio di cenere grigia che va verso una pista e una torre di controllo lontane, nessun logo di compagnia, nessun testo, nessuna persona in primo piano, luce del giorno.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/etna-voli-sospesi-a-catania-fino-alle-12-di-domenica-v614-480.webp",
+          "sha256": "adc9fc948a2aa6870bebdd9f38893139d01c951ea7cad0f43f59ddf6c3ca9be4",
+          "bytes": 22838
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/etna-voli-sospesi-a-catania-fino-alle-12-di-domenica-v614-800.webp",
+          "sha256": "759216730c69d675818c266a05189e4793803d3df126aa9b7ec81be0b3e20241",
+          "bytes": 57102
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/etna-voli-sospesi-a-catania-fino-alle-12-di-domenica-v614-1200.webp",
+          "sha256": "976259002fc95eb63cd999e9246fd11e2f842a05d3eb447369c70ae05b8e58e8",
+          "bytes": 112130
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/etna-voli-sospesi-a-catania-fino-alle-12-di-domenica-26-09-2026.html"
+    },
     {
       "alt": "Giornale aperto su un tavolo, con grafici sfocati, taccuino e matita",
       "prompt": "Fotografia editoriale di un giornale aperto su un tavolo di legno, grafici sfocati senza numeri leggibili, taccuino bianco e matita, luce del mattino, nessun volto.",
