@@ -1,7 +1,100 @@
 {
-  "version": 620,
+  "version": 623,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Una grande piazza con file di sedie vuote, senza persone né scritte.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-v623-480.webp",
+          "sha256": "94ad3f678bb7a040bc715d7e486f9dea94e1c5eb7f9ffc4a4f47d63cef4975ad",
+          "bytes": 37438
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-v623-800.webp",
+          "sha256": "a96590ed690967db234ce56faa80d83ec9f400ba4c42639dd8c8fb0f7aed1494",
+          "bytes": 95484
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-v623-1200.webp",
+          "sha256": "5656be0eae7cbcbe17bb9a9a860a9e077154f69cbffb83c1cd439817980d863d",
+          "bytes": 185034
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-26-09-2026.html"
+    },
+    {
+      "alt": "Un podio vuoto con due microfoni, in una sala senza persone.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/tajani-ai-magistrati-colpirne-uno-per-educarne-cento-v622-480.webp",
+          "sha256": "6906548407f13e1b0bac1de4484d3639b08ff1dce8be388bb45194e37718bf11",
+          "bytes": 3864
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/tajani-ai-magistrati-colpirne-uno-per-educarne-cento-v622-800.webp",
+          "sha256": "a47e96c2e002edbf8594c96fc21b5843b3cd7260e1ac9d6794364f1e3593a559",
+          "bytes": 8840
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/tajani-ai-magistrati-colpirne-uno-per-educarne-cento-v622-1200.webp",
+          "sha256": "23cb78cb416fa3f56f4cf5732cbb6303120944817dfb6b73636a4bfb324f7515",
+          "bytes": 18032
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/tajani-ai-magistrati-colpirne-uno-per-educarne-cento-26-09-2026.html"
+    },
+    {
+      "alt": "Un traliccio dell'alta tensione in aperta campagna, senza persone.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/lodi-un-15enne-trovato-morto-sotto-un-traliccio-a-bottedo-v621-480.webp",
+          "sha256": "05404dabaea0156bd79eb59427bfff132b298e450f1b2d51cf906482519ea041",
+          "bytes": 21160
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/lodi-un-15enne-trovato-morto-sotto-un-traliccio-a-bottedo-v621-800.webp",
+          "sha256": "25ec466ed14367d5ae881261ad1f29c7049300d780da186331871819a3939d8c",
+          "bytes": 53790
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/lodi-un-15enne-trovato-morto-sotto-un-traliccio-a-bottedo-v621-1200.webp",
+          "sha256": "b39e0edcf59ccc9e473d6fe56bfa0137ad09f638f8628315047203957cb677ff",
+          "bytes": 108264
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/lodi-un-15enne-trovato-morto-sotto-un-traliccio-a-bottedo-26-09-2026.html"
+    },
     {
       "alt": "Container in un porto, senza scritte leggibili, nella luce del pomeriggio.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
