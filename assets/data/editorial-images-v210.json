@@ -1,7 +1,38 @@
 {
-  "version": 595,
+  "version": 596,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Tavolo diplomatico con una linea telefonica rossa fra le bandiere di Stati Uniti e Cina, senza persone.",
+      "prompt": "Photorealistic editorial photo of a red secure telephone between a United States flag and a China flag on a wooden table, empty chairs, no people, no readable text.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/usa-e-cina-canale-comune-per-gli-incidenti-dell-ia-v596-480.webp",
+          "sha256": "df10b67c0b5147b3918aeaacd571c21303bfc7a3a547e6780f8a055c3e24c252",
+          "bytes": 21118
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/usa-e-cina-canale-comune-per-gli-incidenti-dell-ia-v596-800.webp",
+          "sha256": "d418b1197d254cb4ca8bd6aecdd7848a2eddcf2b843c1c86b5c583199f238f96",
+          "bytes": 44178
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/usa-e-cina-canale-comune-per-gli-incidenti-dell-ia-v596-1200.webp",
+          "sha256": "bdbf775cdfe59753a3740fc26f1a129d26f200c1456ed5fc14fdb4ffe8b3ef8e",
+          "bytes": 77908
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/usa-e-cina-canale-comune-per-gli-incidenti-dell-ia-26-09-2026.html"
+    },
     {
       "alt": "Esterno di un centro nucleare al crepuscolo, con due figure di spalle e caschi blu lontane dal cancello, senza volti.",
       "prompt": "Photorealistic editorial photo of a nuclear research gate at dusk, two inspectors from behind far away, no faces, no readable text, no weapons.",
