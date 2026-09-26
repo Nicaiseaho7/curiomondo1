@@ -1,4 +1,4 @@
-/* CurioMondo v520 — apertura, riquadro Ultima ora, sezioni di categoria. */
+/* CurioMondo v528 — la home è già nel HTML. Il feed da 800 KB non parte al primo disegno. */
 (() => {
   'use strict';
   const A = window.CMHomepageAllocation;
@@ -243,10 +243,9 @@
   async function render() {
     const current = ++generation;
     clearTimeout(timer);
-    const nonce = Date.now();
     const [response, configResponse] = await Promise.all([
-      fetch('/assets/data/home-feed-v210.json?homepage=v504&t=' + nonce, { credentials: 'same-origin', cache: 'no-store' }),
-      fetch('/assets/data/homepage-config-v504.json?t=' + nonce, { credentials: 'same-origin', cache: 'no-store' })
+      fetch('/assets/data/home-feed-v210.json', { credentials: 'same-origin' }),
+      fetch('/assets/data/homepage-config-v504.json', { credentials: 'same-origin' })
     ]);
     if (!response.ok || !configResponse.ok) throw new Error('Feed homepage non disponibile');
     const [payload, editorialConfig] = await Promise.all([response.json(), configResponse.json()]);
@@ -283,7 +282,14 @@
   });
   mobileLayout.addEventListener?.('change', () => {
     placeZone();
-    refresh();
+    if (zone.dataset.started) refresh();
   });
-  refresh();
+  const start = () => {
+    if (zone.dataset.started) return;
+    zone.dataset.started = '1';
+    refresh();
+  };
+  window.addEventListener('pointerdown', start, { once: true, passive: true });
+  window.addEventListener('keydown', start, { once: true });
+  window.addEventListener('scroll', start, { once: true, passive: true });
 })();

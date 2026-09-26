@@ -405,6 +405,11 @@ def sync_surfaces(new_articles: list[dict[str, Any]], featured_url: str, version
     ordered = feed_items[1:]
     old_featured = doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]')[0]
     old_featured.getparent().replace(old_featured, _featured(featured))
+    for link in doc.xpath('//link[@rel="preload"][@as="image"]'):
+        link.set("href", featured["image"])
+        link.set("imagesrcset", featured["srcset"])
+        link.set("imagesizes", "(max-width:600px) 79vw,300px")
+        link.set("fetchpriority", "high")
     rail = doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," auto-rail ")]')[0]
     for child in list(rail): rail.remove(child)
     for item in ordered[:5]: rail.append(_card(item, True))
