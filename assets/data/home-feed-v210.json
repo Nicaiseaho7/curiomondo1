@@ -1,6 +1,108 @@
 {
-  "version": 614,
+  "version": 617,
   "items": [
+    {
+      "title": "Ondate di calore marine, estate record nei mari d'Europa",
+      "excerpt": "Un'analisi dei dati Noaa e Copernicus indica 21,6 gradi di media tra giugno e agosto, il massimo dal 1982. Mercator aveva già segnato giugno come record nel Mediterraneo.",
+      "url": "/notizie/ondate-di-calore-marine-estate-record-nei-mari-d-europa-26-09-2026.html",
+      "section": "Mondo / Ambiente",
+      "dateISO": "2026-09-26T15:56:59+02:00",
+      "dateLabel": "2026-09-26",
+      "image": "/assets/images/editorial-auto/ondate-di-calore-marine-estate-record-nei-mari-d-europa-v617-800.webp",
+      "imageAlt": "Porto peschereccio vuoto all'alba, foschia calda sul Mediterraneo, senza persone",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/ondate-di-calore-marine-estate-record-nei-mari-d-europa-v617-480.webp 480w, /assets/images/editorial-auto/ondate-di-calore-marine-estate-record-nei-mari-d-europa-v617-800.webp 800w, /assets/images/editorial-auto/ondate-di-calore-marine-estate-record-nei-mari-d-europa-v617-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "●",
+          "value": "21,6 °C",
+          "label": "media giugno-agosto, analisi di sabato"
+        },
+        {
+          "icon": "●",
+          "value": "24,07 °C",
+          "label": "giugno nel Mediterraneo, Mercator"
+        },
+        {
+          "icon": "●",
+          "value": "186 giorni",
+          "label": "ondata nel golfo di Biscaglia"
+        }
+      ],
+      "featuredHighlights": [
+        "Ondate di calore",
+        "Europa"
+      ]
+    },
+    {
+      "title": "Nor'easter, allerta inondazioni sulla costa est degli Stati Uniti",
+      "excerpt": "Il servizio meteorologico prevede mareggiate gravi, raffiche forti e pioggia per tutto il weekend, dalla Virginia al Maine. I blackout sono un rischio, non un bilancio.",
+      "url": "/notizie/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-26-09-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-09-26T15:55:55+02:00",
+      "dateLabel": "2026-09-26",
+      "image": "/assets/images/editorial-auto/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-v616-800.webp",
+      "imageAlt": "Mareggiata su una passeggiata vuota della costa atlantica, senza persone né scritte",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-v616-480.webp 480w, /assets/images/editorial-auto/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-v616-800.webp 800w, /assets/images/editorial-auto/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-v616-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "●",
+          "value": "45-65 mph",
+          "label": "raffiche su Long Island e New England"
+        },
+        {
+          "icon": "●",
+          "value": "lunedì",
+          "label": "il sistema può durare fino ad allora"
+        },
+        {
+          "icon": "●",
+          "value": "60-90 cm",
+          "label": "acqua possibile su parte di Long Island"
+        }
+      ],
+      "featuredHighlights": [
+        "Nor'easter",
+        "costa est"
+      ]
+    },
+    {
+      "title": "ShinyHunters, file medici dell'Fbi mostrati a due redazioni",
+      "excerpt": "Il gruppo dice di aver preso dati dal bureau, compresi esami clinici. L'Fbi indaga e non ha ancora detto se l'accesso è stato diretto.",
+      "url": "/notizie/shinyhunters-file-medici-dell-fbi-mostrati-a-due-redazioni-26-09-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-09-26T15:54:48+02:00",
+      "dateLabel": "2026-09-26",
+      "image": "/assets/images/editorial-auto/shinyhunters-file-medici-dell-fbi-mostrati-a-due-redazioni-v615-800.webp",
+      "imageAlt": "Palazzo federale vuoto all'imbrunire, senza stemmi né persone",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/shinyhunters-file-medici-dell-fbi-mostrati-a-due-redazioni-v615-480.webp 480w, /assets/images/editorial-auto/shinyhunters-file-medici-dell-fbi-mostrati-a-due-redazioni-v615-800.webp 800w, /assets/images/editorial-auto/shinyhunters-file-medici-dell-fbi-mostrati-a-due-redazioni-v615-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "●",
+          "value": "mercoledì",
+          "label": "l'Fbi dice che indaga"
+        },
+        {
+          "icon": "●",
+          "value": "MedLink",
+          "label": "sistema medico citato dagli hacker"
+        },
+        {
+          "icon": "●",
+          "value": "nessun riscatto",
+          "label": "chiedono di ritirare un avviso"
+        }
+      ],
+      "featuredHighlights": [
+        "ShinyHunters",
+        "Fbi"
+      ]
+    },
     {
       "title": "Etna, voli sospesi a Catania fino alle 12 di domenica",
       "excerpt": "La Sac, società di gestione dell'aeroporto di Catania, ha esteso lo stop a tutti i voli fino a mezzogiorno di domenica 27 settembre. La mattina la chiusura era stata fissata alle 16 di sabato. Restano chiusi i settori C1 e B3.",

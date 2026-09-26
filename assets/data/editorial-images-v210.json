@@ -1,7 +1,100 @@
 {
-  "version": 614,
+  "version": 617,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Porto peschereccio vuoto all'alba, foschia calda sul Mediterraneo, senza persone",
+      "prompt": "Fotografia editoriale di un piccolo porto di pesca vuoto all'alba, acqua ferma e foschia calda, reti arrotolate e barche piccole, nessuna persona, nessun pesce, nessun logo, nessun testo.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ondate-di-calore-marine-estate-record-nei-mari-d-europa-v617-480.webp",
+          "sha256": "fc785818d8aefc1bf5eeab2c3c3995870b67bdd20185fd750a18a6015dd7c55a",
+          "bytes": 22802
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ondate-di-calore-marine-estate-record-nei-mari-d-europa-v617-800.webp",
+          "sha256": "7d3a23b51524aa0d99bc07b6f89934fc3433c6e64655cdd004c1a589d969e177",
+          "bytes": 60254
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ondate-di-calore-marine-estate-record-nei-mari-d-europa-v617-1200.webp",
+          "sha256": "b48b64368aa049a306746aebc1babaf1faf3497e050932ee10e571dcab401781",
+          "bytes": 120170
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/ondate-di-calore-marine-estate-record-nei-mari-d-europa-26-09-2026.html"
+    },
+    {
+      "alt": "Mareggiata su una passeggiata vuota della costa atlantica, senza persone né scritte",
+      "prompt": "Fotografia editoriale di una mareggiata al crepuscolo su una passeggiata di legno vuota, onde alte contro una diga, pioggia e nuvole scure, nessuna persona, nessun testo, nessun logo.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-v616-480.webp",
+          "sha256": "afacc6f9e5c3ee4812dfc8c56ce0024fd162a7f1f4de4f9535773ec6d576f28e",
+          "bytes": 22824
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-v616-800.webp",
+          "sha256": "09f7127703c5a2f167958379821216e29c7bbb8f55ac5abf909cac211e8e7cdd",
+          "bytes": 61572
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-v616-1200.webp",
+          "sha256": "8831f68de61145f353efcdd42a2dd0cbce3901bcafb5df14a331a2a09b613156",
+          "bytes": 134638
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-26-09-2026.html"
+    },
+    {
+      "alt": "Palazzo federale vuoto all'imbrunire, senza stemmi né persone",
+      "prompt": "Fotografia editoriale di un palazzo istituzionale in pietra chiara al crepuscolo, piazza bagnata e porte vetrate spente, nessuna persona, nessuno stemma, nessuna bandiera, nessun documento, nessun testo leggibile.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/shinyhunters-file-medici-dell-fbi-mostrati-a-due-redazioni-v615-480.webp",
+          "sha256": "6722f8eb714aaead3a463c7fdd30788732412d77d743744629eb1d6d043ef9b8",
+          "bytes": 22810
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/shinyhunters-file-medici-dell-fbi-mostrati-a-due-redazioni-v615-800.webp",
+          "sha256": "3aa8fc66249062aa54a6aec152980b5d8d0f0959c53eb3a7d6d2f761121e0f17",
+          "bytes": 59434
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/shinyhunters-file-medici-dell-fbi-mostrati-a-due-redazioni-v615-1200.webp",
+          "sha256": "c1d3a0bd721c3852a313d76db44fb772a5b60f33098a6d7c0c0f57236bbcfbad",
+          "bytes": 128606
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/shinyhunters-file-medici-dell-fbi-mostrati-a-due-redazioni-26-09-2026.html"
+    },
     {
       "alt": "Pennacchio di cenere sull'Etna verso una pista d'aeroporto lontana, senza loghi di compagnie",
       "prompt": "Fotografia editoriale dell'Etna con un pennacchio di cenere grigia che va verso una pista e una torre di controllo lontane, nessun logo di compagnia, nessun testo, nessuna persona in primo piano, luce del giorno.",
