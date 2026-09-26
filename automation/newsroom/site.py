@@ -42,6 +42,15 @@ def _italian_date(iso: str) -> str:
     return f"{dt.day} {months[dt.month - 1]} {dt.year}"
 
 
+def _ora_breve(iso: str) -> str:
+    """Oggi resta l'orario. I giorni precedenti diventano «25 set»."""
+    dt = datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(ROME)
+    if dt.date() == datetime.now(ROME).date():
+        return dt.strftime("%H:%M")
+    short = ("gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic")
+    return f"{dt.day} {short[dt.month - 1]}"
+
+
 def _section(category: str) -> str:
     category = category.strip() or "Mondo"
     if category in {"Italia", "Mondo"}:
@@ -293,6 +302,41 @@ def _card(item, rail=False):
     return node
 
 
+def _sync_ultima_ora(doc, items: list[dict[str, Any]]) -> None:
+    """Aggiorna il riquadro Ultima ora con le dieci notizie più recenti."""
+    ol = etree.Element("ol", {"class": "cm-wire__list"})
+    for item in items[:10]:
+        li = etree.SubElement(ol, "li")
+        link = etree.SubElement(li, "a", {"class": "cm-wire__item", "href": item["url"]})
+        etree.SubElement(link, "time", {"class": "cm-wire__time", "datetime": item["dateISO"]}).text = _ora_breve(item["dateISO"])
+        etree.SubElement(link, "span", {"class": "cm-wire__title"}).text = item["title"]
+    found = doc.xpath('//*[@id="cm-ultima-ora"]')
+    if found:
+        block = found[0]
+        old = block.xpath('./ol[contains(@class,"cm-wire__list")]')
+        if old:
+            old[0].getparent().replace(old[0], ol)
+            return
+        more = block.xpath('./a[contains(@class,"cm-wire__more")]')
+        if more:
+            more[0].addprevious(ol)
+        else:
+            block.append(ol)
+        return
+    block = etree.Element("section", {"class": "cm-wire", "id": "cm-ultima-ora", "aria-label": "Ultima ora"})
+    head = etree.SubElement(block, "header", {"class": "cm-wire__head"})
+    kicker = etree.SubElement(head, "div", {"class": "cm-wire__kicker"})
+    etree.SubElement(kicker, "span", {"class": "cm-wire__dot", "aria-hidden": "true"})
+    etree.SubElement(kicker, "span").text = "Ultima ora"
+    block.append(ol)
+    etree.SubElement(block, "a", {"class": "cm-wire__more", "href": "/notizie/"}).text = "Tutte le notizie"
+    anchor = doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," auto-rail-label ")]')
+    if not anchor:
+        anchor = doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," auto-rail ")]')
+    if anchor:
+        anchor[0].addprevious(block)
+
+
 def sync_surfaces(new_articles: list[dict[str, Any]], featured_url: str, version: int) -> list[dict[str, Any]]:
     """Rigenera home, archivio, ricerca, feed, sitemap e categorie."""
     infos = []
@@ -361,6 +405,7 @@ def sync_surfaces(new_articles: list[dict[str, Any]], featured_url: str, version
     for child in list(cards): cards.remove(child)
     for item in ordered[5:44]: cards.append(_card(item))
     cards.set("data-initial-count", str(min(39, max(0, len(ordered) - 5))))
+    _sync_ultima_ora(doc, feed_items)
     home_path.write_text('<!doctype html>\n' + html.tostring(doc, encoding="unicode", method="html"), encoding="utf-8")
 
     archive_path = ROOT / "notizie/index.html"; archive = html.fromstring(archive_path.read_text(encoding="utf-8"))

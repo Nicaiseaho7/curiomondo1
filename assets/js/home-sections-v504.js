@@ -1,4 +1,4 @@
-/* CurioMondo v519 — three-item featured carousel and automatic category handoff. */
+/* CurioMondo v520 — apertura, riquadro Ultima ora, sezioni di categoria. */
 (() => {
   'use strict';
   const A = window.CMHomepageAllocation;
@@ -150,9 +150,42 @@
     link.append(body);
     return link;
   };
-  const latestCard = (entry) => {
-    const category = A.categoryFor(entry) || { label: String(entry.section || 'Notizie').split('/').pop().trim(), color: '#475569' };
-    return smallCard(entry, category);
+  const hourLabel = (entry) => {
+    const date = A.firstPublished(entry);
+    if (!date) return '';
+    const zone = A.CONFIG.timeZone;
+    if (A.zonedDay(date, zone) === A.zonedDay(new Date(), zone)) {
+      const parts = new Intl.DateTimeFormat('it-IT', { timeZone: zone, hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(date);
+      const pick = (type) => parts.find((part) => part.type === type)?.value || '';
+      return pick('hour') + ':' + pick('minute');
+    }
+    return new Intl.DateTimeFormat('it-IT', { timeZone: zone, day: 'numeric', month: 'short' }).format(date).replace('.', '');
+  };
+  const ultimaOra = (entries) => {
+    const block = el('section', 'cm-wire');
+    block.id = 'cm-ultima-ora';
+    block.setAttribute('aria-label', 'Ultima ora');
+    const head = el('header', 'cm-wire__head');
+    const kicker = el('div', 'cm-wire__kicker');
+    const dot = el('span', 'cm-wire__dot');
+    dot.setAttribute('aria-hidden', 'true');
+    kicker.append(dot, el('span', '', 'Ultima ora'));
+    head.append(kicker);
+    const list = el('ol', 'cm-wire__list');
+    entries.slice(0, 10).forEach((entry) => {
+      const item = el('li');
+      const link = el('a', 'cm-wire__item');
+      link.href = entry.url;
+      const stamp = el('time', 'cm-wire__time', hourLabel(entry));
+      stamp.dateTime = entry.firstPublishedAt || entry.dateISO || '';
+      link.append(stamp, el('span', 'cm-wire__title', entry.title));
+      item.append(link);
+      list.append(item);
+    });
+    const more = el('a', 'cm-wire__more', 'Tutte le notizie');
+    more.href = '/notizie/';
+    block.append(head, list, more);
+    return block;
   };
   const section = ({ category, lead, cards }) => {
     const block = el('section', 'cm-topic-section');
@@ -194,6 +227,7 @@
   }
   function verifyUnique() {
     const keys = Array.from(document.querySelectorAll('#cm-home-editorial-v504 a[href^="/notizie/"], #cards a[href^="/notizie/"]'))
+      .filter((link) => !link.closest('#cm-ultima-ora'))
       .map((link) => A.canonicalKey({ url: link.getAttribute('href') })).filter(Boolean);
     if (keys.length !== new Set(keys).size) throw new Error('Homepage CurioMondo: identificativi duplicati');
     zone.dataset.cardCount = String(keys.length);
@@ -219,14 +253,14 @@
     });
     const fragment = document.createDocumentFragment();
     if (allocation.featuredItems && allocation.featuredItems.length) fragment.append(featuredCarousel(allocation.featuredItems));
-    if (allocation.latest.length) {
-      const latestSection = el('section', 'cm-latest-section');
-      latestSection.append(el('h2', 'cm-latest-title', 'Ultime notizie'));
-      const latestGrid = el('div', 'cm-latest-grid');
-      latestGrid.append(...allocation.latest.map(latestCard));
-      latestSection.append(latestGrid);
-      fragment.append(latestSection);
-    }
+    const previousWire = document.getElementById('cm-ultima-ora');
+    if (previousWire) previousWire.remove();
+    const ranked = items.slice().sort((a, b) => {
+      const left = A.firstPublished(b);
+      const right = A.firstPublished(a);
+      return (left ? left.getTime() : 0) - (right ? right.getTime() : 0);
+    });
+    fragment.append(ultimaOra(ranked));
     allocation.sections.forEach((item) => fragment.append(section(item)));
     zone.replaceChildren(fragment);
     hideLegacy();
