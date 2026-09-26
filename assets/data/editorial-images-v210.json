@@ -1,7 +1,290 @@
 {
-  "version": 624,
+  "version": 626,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Premiati al Premio Solinas con trofeo, volti visibili, mare di La Maddalena",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/premio-solinas-vince-la-cerimonia-di-gaeta-e-nabavinejad-v700-480.webp",
+          "sha256": "a3893a5595945961170e44d6161c0c5ca83ebba9cd9e48b09278d807f9fda42b",
+          "bytes": 20514
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/premio-solinas-vince-la-cerimonia-di-gaeta-e-nabavinejad-v700-800.webp",
+          "sha256": "962633576a16faa96b32e8365d1f78923b20bb755549211130ada32d13574131",
+          "bytes": 41434
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/premio-solinas-vince-la-cerimonia-di-gaeta-e-nabavinejad-v700-1200.webp",
+          "sha256": "e96dea13fdb7976fd4a6a6301ec2796dc0c5852545a791fe1399bbb3df424287",
+          "bytes": 69684
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/premio-solinas-vince-la-cerimonia-di-gaeta-e-nabavinejad-26-09-2026.html"
+    },
+    {
+      "alt": "Avvocati con volti visibili davanti alla Corte di Cassazione a Roma",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ponticelli-la-cassazione-annulla-l-omicidio-volontario-per-autiero-v700-480.webp",
+          "sha256": "0018880772a995a0df1fa5837d7ab942670a8e800b87916bf5b5fdb46e0b7557",
+          "bytes": 34516
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ponticelli-la-cassazione-annulla-l-omicidio-volontario-per-autiero-v700-800.webp",
+          "sha256": "d9b3c192928430f5ab52998504165cf66e72e317977306e309cd632025e732a6",
+          "bytes": 80286
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ponticelli-la-cassazione-annulla-l-omicidio-volontario-per-autiero-v700-1200.webp",
+          "sha256": "cc1f6190903cc1b043ec6f3020099a3a8f1d79ed007118b76424334d8749725c",
+          "bytes": 152604
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/ponticelli-la-cassazione-annulla-l-omicidio-volontario-per-autiero-26-09-2026.html"
+    },
+    {
+      "alt": "Ritratto editoriale neutrale di Abbas Kamel, volto visibile, sfondo formale",
+      "prompt": "neutral editorial portrait of Abbas Kamel, Egyptian intelligence chief, face visible, neutral expression, isolated formal background, no dramatic scene",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/intelligence-egiziana-l-allarme-a-israele-prima-del-7-ottobre-v700-480.webp",
+          "sha256": "44ae9e8182e17296d50d90113ecc90adf53ffb404a08ed59ce713c8a596913b4",
+          "bytes": 10268
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/intelligence-egiziana-l-allarme-a-israele-prima-del-7-ottobre-v700-800.webp",
+          "sha256": "1d3f66396cb2f2d57ee05153d00b68de8121740da695347b2e0e3f0dab1d097d",
+          "bytes": 23474
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/intelligence-egiziana-l-allarme-a-israele-prima-del-7-ottobre-v700-1200.webp",
+          "sha256": "6fd94ca8407e15ea0abae244271280a43bd201619143ad59a6b1d09bf0314b56",
+          "bytes": 46338
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/intelligence-egiziana-l-allarme-a-israele-prima-del-7-ottobre-26-09-2026.html",
+      "syntheticLikeness": "public-figure",
+      "portraitFormat": "neutral-isolated",
+      "portraitOnly": true,
+      "reenactedEvent": false
+    },
+    {
+      "alt": "Medico sportivo in camice, volto visibile, anelli olimpici sullo sfondo",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/pigozzi-rieletto-a-capo-della-medicina-dello-sport-mondiale-v700-480.webp",
+          "sha256": "a2f38322a6da4da4c2807c75f92f2312fe6d3a67e2d966acc71a6212de365598",
+          "bytes": 9918
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/pigozzi-rieletto-a-capo-della-medicina-dello-sport-mondiale-v700-800.webp",
+          "sha256": "480558ae7a977473ee2f46af6552ec37276192423b07af5cf2a5b295bc082986",
+          "bytes": 20998
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/pigozzi-rieletto-a-capo-della-medicina-dello-sport-mondiale-v700-1200.webp",
+          "sha256": "e05cbc1fd2c169a3e4ec14f9c27daeb9cfda7516bfb3bd9371b966bd04a62df5",
+          "bytes": 38696
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/pigozzi-rieletto-a-capo-della-medicina-dello-sport-mondiale-26-09-2026.html"
+    },
+    {
+      "alt": "Checkpoint di polizia in Pakistan al tramonto, fumo lontano, senza corpi",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/pakistan-almeno-11-morti-in-un-attentato-a-un-posto-di-polizia-v700-480.webp",
+          "sha256": "1da1061d52469429ac54a63df641e21222da1cb00bdaebd4991cf75daf207d7d",
+          "bytes": 18030
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/pakistan-almeno-11-morti-in-un-attentato-a-un-posto-di-polizia-v700-800.webp",
+          "sha256": "3a918c7634baf60c387b89232119539f9f2e908c5e3de08199487950da147890",
+          "bytes": 49504
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/pakistan-almeno-11-morti-in-un-attentato-a-un-posto-di-polizia-v700-1200.webp",
+          "sha256": "80662fdf6e8e981b42237437878ca1d822a27f257385d763ff28bacdbdb0a5d5",
+          "bytes": 97788
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/pakistan-almeno-11-morti-in-un-attentato-a-un-posto-di-polizia-26-09-2026.html"
+    },
+    {
+      "alt": "Attivista al podio Terra Madre con pubblico, volti visibili",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/mukiibi-a-terra-madre-il-diritto-al-cibo-riguarda-le-persone-v700-480.webp",
+          "sha256": "3b6ac98df3f90e4859b771a7428a8f633b585504a1a8902151c569edea249bae",
+          "bytes": 18006
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/mukiibi-a-terra-madre-il-diritto-al-cibo-riguarda-le-persone-v700-800.webp",
+          "sha256": "637b1b1cf6cab0ec9ff1e32795e3ec4d45b3ef14fec3a4dc9c38abaaf9d84dca",
+          "bytes": 34412
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/mukiibi-a-terra-madre-il-diritto-al-cibo-riguarda-le-persone-v700-1200.webp",
+          "sha256": "29b47934b1311634173e39a9a9d4834c64e7af355f5bafa6db85695b197a8aa5",
+          "bytes": 57874
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/mukiibi-a-terra-madre-il-diritto-al-cibo-riguarda-le-persone-26-09-2026.html"
+    },
+    {
+      "alt": "Strada storica di Messina al crepuscolo, ingresso ospedale, senza persone",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/messina-un-avvocato-e-in-terapia-intensiva-dopo-un-aggressione-v700-480.webp",
+          "sha256": "15fb8f9285d7860762ae695349a74af6dcccd391dec7ca94790637f3cdc867e3",
+          "bytes": 23900
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/messina-un-avvocato-e-in-terapia-intensiva-dopo-un-aggressione-v700-800.webp",
+          "sha256": "290303bede263fb5580b3bc95073e9a153a790d09a80ce801765c757674e4232",
+          "bytes": 65360
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/messina-un-avvocato-e-in-terapia-intensiva-dopo-un-aggressione-v700-1200.webp",
+          "sha256": "e1cbc8b4dad11d4ffe8f15ba4915be9553798d4c0597ee90f874ee55d88062c5",
+          "bytes": 134244
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/messina-un-avvocato-e-in-terapia-intensiva-dopo-un-aggressione-26-09-2026.html"
+    },
+    {
+      "alt": "Fiume Livenza nella nebbia del mattino, rive vuote, senza persone",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/livenza-trovato-morto-il-conducente-finito-nel-fiume-v700-480.webp",
+          "sha256": "d068c5038ce9e2fa03b0362ceaf8db60ea8c85c13253289ca64969f1fa702550",
+          "bytes": 25176
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/livenza-trovato-morto-il-conducente-finito-nel-fiume-v700-800.webp",
+          "sha256": "36f85a5da4682d76ee58aa6d7ded2601c87d8c0cef1f6a80e458bf8e5755f0b9",
+          "bytes": 66778
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/livenza-trovato-morto-il-conducente-finito-nel-fiume-v700-1200.webp",
+          "sha256": "2663da2b9ce4a91dc8101e30b8017e129075ec64d57fcb6018ef1fe75222baee",
+          "bytes": 137704
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/livenza-trovato-morto-il-conducente-finito-nel-fiume-26-09-2026.html"
+    },
+    {
+      "alt": "Corridoio di tribunale italiano vuoto, luce naturale, contesto giudiziario sobrio",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/garlasco-la-difesa-di-sempio-attende-le-nuove-prove-v700-480.webp",
+          "sha256": "1df4f0bfd346ca15094fd3ad83c0520c140bddd66373b3282320caa7a0124d0c",
+          "bytes": 21452
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/garlasco-la-difesa-di-sempio-attende-le-nuove-prove-v700-800.webp",
+          "sha256": "4e458de2e2406a13ea3c37e76fe33b2d9cc6e9e15843eee814b6d104c202c578",
+          "bytes": 56288
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/garlasco-la-difesa-di-sempio-attende-le-nuove-prove-v700-1200.webp",
+          "sha256": "67b8ea2a3c12ab56b35fc3c3681758ac4c8a760bcd07a12307035536b80aa38d",
+          "bytes": 117404
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/garlasco-la-difesa-di-sempio-attende-le-nuove-prove-26-09-2026.html"
+    },
     {
       "alt": "Donald Trump al podio Casa Bianca, volto visibile, bandiere USA",
       "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
@@ -776,37 +1059,6 @@
       "officialArtwork": false,
       "sensitiveContext": false,
       "article": "/notizie/cgia-il-caro-carburante-pesa-su-camionisti-taxi-e-agenti-26-09-2026.html"
-    },
-    {
-      "alt": "Due persone di spalle a un tavolo in riva al mare, con pagine di una sceneggiatura.",
-      "prompt": "Due persone di spalle a un tavolo in riva al mare, con pagine di una sceneggiatura.",
-      "variants": [
-        {
-          "w": 480,
-          "src": "/assets/images/editorial-auto/premio-solinas-vince-la-cerimonia-di-gaeta-e-nabavinejad-v679-480.webp",
-          "sha256": "68b2be837f862748c4513bac12cd2b0528349c0e237bc8e2bac0e37074fa7b39",
-          "bytes": 17924
-        },
-        {
-          "w": 800,
-          "src": "/assets/images/editorial-auto/premio-solinas-vince-la-cerimonia-di-gaeta-e-nabavinejad-v679-800.webp",
-          "sha256": "5ec40922be4d644beb8722796bc22cbd16ed08865d4ca8bd6b24c481831b56c6",
-          "bytes": 39132
-        },
-        {
-          "w": 1200,
-          "src": "/assets/images/editorial-auto/premio-solinas-vince-la-cerimonia-di-gaeta-e-nabavinejad-v679-1200.webp",
-          "sha256": "289b65eadae937413d60ab3af07867ebfe851d0040852993d3fb03c6edebea0d",
-          "bytes": 70974
-        }
-      ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": true,
-      "documentaryPhoto": false,
-      "officialArtwork": false,
-      "sensitiveContext": false,
-      "article": "/notizie/premio-solinas-vince-la-cerimonia-di-gaeta-e-nabavinejad-26-09-2026.html"
     },
     {
       "alt": "Cantante rock con volto visibile sul palco, luci viola, concerto Bologna",
@@ -1956,35 +2208,35 @@
       "officialArtwork": false
     },
     {
-      "alt": "João Félix con la maglia rossa del Portogallo numero 11, stemma e Puma, in un gesto di esultanza in campo",
-      "prompt": "Scena editoriale fotorealistica di João Félix, calciatore reale del Portogallo, somiglianza e maglia prese da fotografie di riferimento: capelli mossi, maglia rossa con logo Puma, stemma portoghese e numero 11, esultanza notturna in uno stadio, mani realistiche, senza scritte inventate.",
+      "alt": "Calciatrice o tennista azzurra che esulta, volto visibile",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/portogallo-galles-1-0-felix-ronaldo-nations-league-24-settembre-2026-v559-480.webp",
-          "sha256": "f1f0bb321ee315211a93ff7ed29b6b7725d9cf7671ac480b38b697d5bfe8fbd2",
-          "bytes": 20306
+          "src": "/assets/images/editorial-auto/italia-colombia-under-20-femminile-finale-bronzo-26-settembre-2026-v700-480.webp",
+          "sha256": "8d3a03acca0c683056a3ff6143d01750a428fc858dd526ee958a76523f4fe105",
+          "bytes": 11118
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/portogallo-galles-1-0-felix-ronaldo-nations-league-24-settembre-2026-v559-800.webp",
-          "sha256": "1933e0db060e2b77c149e3f04017c16215c5fdc605da250f127f7dba4e8ea9b8",
-          "bytes": 42150
+          "src": "/assets/images/editorial-auto/italia-colombia-under-20-femminile-finale-bronzo-26-settembre-2026-v700-800.webp",
+          "sha256": "05cc88b888f29e7326937d88b42fdc27e0092a330fd7dddf7d0909d8d02f9fae",
+          "bytes": 26232
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/portogallo-galles-1-0-felix-ronaldo-nations-league-24-settembre-2026-v559-1200.webp",
-          "sha256": "1e65f8b228c80362e37425efd1fc12bbf1fdce8d6c34252874ac87d4f1b5b0cb",
-          "bytes": 77538
+          "src": "/assets/images/editorial-auto/italia-colombia-under-20-femminile-finale-bronzo-26-settembre-2026-v700-1200.webp",
+          "sha256": "ec8238b636dc7989de4202e99a7cfdc0cf0bc84cfde926bdb0723daa31933427",
+          "bytes": 52924
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
+      "officialArtwork": false,
       "sensitiveContext": false,
-      "syntheticLikeness": "public-figure",
-      "article": "/notizie/portogallo-galles-1-0-felix-ronaldo-nations-league-24-settembre-2026.html"
+      "article": "/notizie/italia-colombia-under-20-femminile-finale-bronzo-26-settembre-2026.html"
     },
     {
       "alt": "Erling Haaland con la maglia rossa della Norvegia numero 9, Nike e stemma, in corsa su un campo da calcio",
