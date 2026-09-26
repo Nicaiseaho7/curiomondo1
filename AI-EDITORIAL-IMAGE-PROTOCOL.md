@@ -2,6 +2,17 @@
 
 Questo file deve essere letto integralmente da qualunque IA, agente, renderer o collaboratore che riceva il pacchetto del sito e debba creare o aggiornare articoli e immagini.
 
+## Prompt master — correzione dell'editore, 26 settembre 2026
+
+Il testo operativo è `automation/prompts/image-generation-contract.txt`. In caso di conflitto con le regole del 21 settembre, vale questo:
+
+- Un'immagine per notizia. Mai collage, riquadri o più notizie nella stessa foto.
+- Fotorealismo editoriale. Niente estetica da «immagine AI», niente testo, watermark, loghi inventati o scritte deformate. Eccezione unica: le mappe meteo dell'Italia, con città e simboli leggibili.
+- Se la notizia nomina una persona, una squadra o un marchio, il soggetto deve essere quello vero. Se la somiglianza o il marchio non escono in modo affidabile, non pubblicare un sosia né un logo illeggibile: usare il luogo, l'edificio, l'infrastruttura o l'oggetto centrale della notizia.
+- Cronaca, morte, violenza e arresti: niente corpi, sangue, ferite o ricostruzioni spettacolari. Luogo o contesto, sobri.
+- Non presentare la scena come fotografia documentaria dell'evento. La didascalia resta nel markup, non nei pixel.
+- I limiti dello strumento di generazione restano vincolanti e non si aggirano.
+
 ## Persone vere, loghi veri — correzione dell'editore, 21 settembre 2026
 
 Le immagini degli articoli devono essere **fotorealistiche** e devono raffigurare **soggetti realmente esistenti**. È vietato inventare protagonisti.

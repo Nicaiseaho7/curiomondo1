@@ -41,7 +41,7 @@ def _image_prompt(article: dict[str, Any]) -> str:
         "\nArticle summary: " + str(article.get("sommario", "")) +
         "\nSpecific visual brief: " + str(image.get("prompt", "")) +
         "\n" + safety +
-        "\nREAL PEOPLE AND REAL LOGOS: if the article names a public figure, team or brand, depict that real recognizable subject with official kit, crest and sponsors. Invented faces, generic extras and fantasy uniforms are forbidden."
+        "\nSUBJECT: depict the real person, team or brand only when the likeness, kit and logo are reliable. If they are not, use the real place, building or object of THIS story. Never a lookalike, a random extra presented as the real person, a garbled logo or a collage."
         "\nNo headline, caption, statistics, watermark, signature or added editorial text inside the pixels."
     )
 
