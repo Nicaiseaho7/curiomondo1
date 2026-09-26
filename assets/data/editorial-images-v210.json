@@ -1,7 +1,100 @@
 {
-  "version": 617,
+  "version": 620,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Container in un porto, senza scritte leggibili, nella luce del pomeriggio.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-v620-480.webp",
+          "sha256": "91d845d7f56cfce9066d4bdd67631cb86a92e91abb0c1f43634e15dbe64db354",
+          "bytes": 20432
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-v620-800.webp",
+          "sha256": "304418855947da2980fb71b68285e8f7881018114838f434b05934ff27630e40",
+          "bytes": 47768
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-v620-1200.webp",
+          "sha256": "632b8ceb78afa15a48ec51dfc89894a1952c43181f6cf02b3c90ad6add7ce696",
+          "bytes": 88816
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-26-09-2026.html"
+    },
+    {
+      "alt": "Cascata tropicale vista da lontano, senza persone.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/stragliotto-morta-alla-cascata-ravana-in-sri-lanka-v619-480.webp",
+          "sha256": "25b12b0c2dc38e39c9093d1299fe7a9d5b3673c64e43c2ef5af6ee09e9ba1988",
+          "bytes": 59082
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/stragliotto-morta-alla-cascata-ravana-in-sri-lanka-v619-800.webp",
+          "sha256": "9b98378b3db1093a7072e198a85d267a48d4b24253e83ad6bf33acc785437b84",
+          "bytes": 157624
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/stragliotto-morta-alla-cascata-ravana-in-sri-lanka-v619-1200.webp",
+          "sha256": "55cd60a15fd11e1f97492029c12032cd9e145869d3351acaf542ed631babecea",
+          "bytes": 306414
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/stragliotto-morta-alla-cascata-ravana-in-sri-lanka-26-09-2026.html"
+    },
+    {
+      "alt": "Telefono e orologio senza marchi su un tavolo di legno, in luce diurna.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-v618-480.webp",
+          "sha256": "4a413e37ecf470d3345a9a36b9cacea54a2485bae725eafd814ff9723f4619b3",
+          "bytes": 32876
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-v618-800.webp",
+          "sha256": "e4b40db5bf55128f2387cff55ff1fb674203b52bcc0c35031ac133aa17760214",
+          "bytes": 83258
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-v618-1200.webp",
+          "sha256": "83d984af848616e1a38ee4b3785c6ce5d7a4f24d35d1f185003b930c4e50e7d8",
+          "bytes": 165518
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-26-09-2026.html"
+    },
     {
       "alt": "Porto peschereccio vuoto all'alba, foschia calda sul Mediterraneo, senza persone",
       "prompt": "Fotografia editoriale di un piccolo porto di pesca vuoto all'alba, acqua ferma e foschia calda, reti arrotolate e barche piccole, nessuna persona, nessun pesce, nessun logo, nessun testo.",
