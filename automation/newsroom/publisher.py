@@ -93,6 +93,11 @@ def prepare_release(state_dir: Path, massimo: int = 3) -> dict[str, Any]:
     if os.getenv("CURIOMONDO_AUTO_PUBLISH", "").lower() != "true":
         return {"status": "blocked", "reason": "CURIOMONDO_AUTO_PUBLISH non attivo"}
     cfg = _config().get("newsroom", {})
+    if str(cfg.get("modello_immagine", "")) == "agente-editoriale":
+        return {
+            "status": "deferred",
+            "reason": "le copertine le genera l'agente editoriale, non un modello a pagamento",
+        }
     budget = BudgetGuard(state_dir, float(cfg.get("tetto_giornaliero_usd", 5.0)))
     client = Client(budget=budget)
     if not client.available:

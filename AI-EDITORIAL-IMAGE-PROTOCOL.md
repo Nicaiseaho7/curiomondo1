@@ -12,7 +12,7 @@ Il testo operativo è `automation/prompts/image-generation-contract.txt`. In cas
 - I sosia dei personaggi pubblici restano autorizzati, con la didascalia che è un'illustrazione editoriale e non una foto documentaria. Il viso è quello del protagonista, rivolto verso la camera.
 - Cronaca, morte, violenza e arresti: niente corpi, sangue, ferite o ricostruzioni spettacolari. Se serve il volto, solo un ritratto neutro isolato.
 - Non presentare la scena come fotografia documentaria dell'evento. La didascalia resta nel markup, non nei pixel.
-- I limiti tecnici dello strumento di generazione restano: se quello strumento rifiuta il volto, non si aggira.
+- Ordine dell'editore, 26 settembre 2026, ore 20:16: il generatore delle copertine è l'agente editoriale di questa sessione. Non è gpt-image-1 e non serve una chiave OpenAI per le immagini. L'agente prepara il file e lo pubblica.
 - Correzione della sera del 26 settembre 2026: il modello di qualità sono le copertine già online con la persona riconoscibile, il luogo e il marchio veri. Esempi scelti dall'editore: Haaland con la maglia della Norvegia all'Ullevaal; Trump e Xi al tavolo con i manager citati; Isaacman davanti al logo NASA. Senza un nome proprio, la scena ha comunque persone al lavoro e l'oggetto della notizia. Niente palazzi deserti e niente testo deformato.
 
 ## Persone vere, loghi veri — correzione dell'editore, 21 settembre 2026
