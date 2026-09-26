@@ -1,7 +1,38 @@
 {
-  "version": 593,
+  "version": 594,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Jet privato fermo su un piazzale aeroportuale appartato, senza persone e senza scritte visibili.",
+      "prompt": "Photorealistic editorial photo of a small private jet alone on an isolated airport apron, no people, no readable text, calm light, not a crash.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/intelligence-egiziana-l-allarme-a-israele-prima-del-7-ottobre-v594-480.webp",
+          "sha256": "9392c570d87347e5b056a03c8b92ed67ba9b4cc46b13e2b29b78b71bd1662bb8",
+          "bytes": 12778
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/intelligence-egiziana-l-allarme-a-israele-prima-del-7-ottobre-v594-800.webp",
+          "sha256": "0d24eec2680f26f2d28f59ccfecd42eb3e1a3031cb6926092ea45b03d72a424d",
+          "bytes": 31038
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/intelligence-egiziana-l-allarme-a-israele-prima-del-7-ottobre-v594-1200.webp",
+          "sha256": "6915b647cdc83a928febf99a3d44812f044426f530df625ebfe76b962d06d82d",
+          "bytes": 59526
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/intelligence-egiziana-l-allarme-a-israele-prima-del-7-ottobre-26-09-2026.html"
+    },
     {
       "alt": "Petroliere in attesa all'alba nello Stretto di Hormuz, acqua calma e montagne sullo sfondo, senza azioni militari.",
       "prompt": "Photorealistic editorial photo of oil tankers waiting at dawn in the Strait of Hormuz, calm water, hazy mountains, no explosions, no readable text.",
