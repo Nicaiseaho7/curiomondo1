@@ -1,0 +1,64 @@
+{
+  "titolo": "Accise sul diesel dimezzate: il gasolio self a 2,357 euro",
+  "sommario": "Lo sconto fiscale sul gasolio scende da 12,2 a 6,1 centesimi. Il Mimit rileva 2,357 euro al litro sulla rete stradale e 2,439 in autostrada. L'aumento di oggi è inferiore al ritocco d'imposta.",
+  "luogo": "Roma",
+  "categoria": "Economia",
+  "parole_chiave_titolo": [
+    "diesel",
+    "accise"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "2,357 €",
+      "etichetta": "gasolio self, rete stradale"
+    },
+    {
+      "icona": "▲",
+      "valore": "2,439 €",
+      "etichetta": "gasolio self in autostrada"
+    },
+    {
+      "icona": "●",
+      "valore": "6,1 cent",
+      "etichetta": "sconto accise, era 12,2"
+    }
+  ],
+  "paragrafi": [
+    "Sabato 26 settembre lo sconto sulle accise del gasolio si è dimezzato, da 12,2 a 6,1 centesimi al litro. Il taglio ridotto resta in vigore fino al 5 ottobre, come aveva anticipato Repubblica venerdì.",
+    "L'Osservatorio prezzi del Mimit, aggiornato oggi, mette il gasolio self a 2,357 euro al litro sulla rete stradale. Ieri era a 2,338. La benzina self è a 2,158, da 2,154.",
+    "In autostrada il gasolio self medio è a 2,439 euro, da 2,421. La benzina self autostradale è a 2,252, da 2,247. Gli stessi numeri li riporta Il Sole 24 Ore Radiocor.",
+    "Sul diesel l'aumento osservato in un giorno è di 1,9 centesimi sulla rete ordinaria e di 1,8 in autostrada. Il ritocco fiscale vale 6,1 centesimi. Il prezzo alla pompa, stamattina, non ha quindi incorporato per intero il minor sconto.",
+    "Lo segnala anche l'Ansa: il rincaro di oggi tocca pure la benzina, ma per il gasolio resta inferiore alla componente fiscale. La benzina non è interessata da questo dimezzamento, e infatti si muove di pochi millesimi.",
+    "Il Codacons, citato da Motor1 alla vigilia, stimava un aggravio fino a circa 3 euro su un pieno standard per il solo mezzo sconto, e fino a 5,45 euro se si somma l'effetto del decreto partito il 18 settembre. È una stima dell'associazione, non lo scontrino medio del Mimit.",
+    "Dal 28 settembre, e per trenta giorni, Eni applica un tetto sulla rete Enilive: gasolio massimo a 2,19 euro al litro e benzina a 1,99, anche in autostrada. Lo ha scritto Repubblica. Il tetto riguarda le pompe del gruppo, non la media nazionale.",
+    "Chi fa il pieno oggi paga quindi la media Mimit, non il tetto Eni, che scatta lunedì. E paga un gasolio più caro di ieri, ma di meno di quanto varrebbe il solo dimezzamento dello sconto se fosse passato tutto e subito nel prezzo."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.mimit.gov.it/it/prezzi-carburanti-media-nazionale",
+      "descrizione": "Mimit — medie self del 26 settembre, strada e autostrada"
+    },
+    {
+      "url": "https://www.ilsole24ore.com/art/carburanti-mimit-prezzi-rialzo-benzina-2158-l-gasolio-2357-l-AJYF14PB",
+      "descrizione": "Il Sole 24 Ore — conferma dei prezzi Mimit"
+    },
+    {
+      "url": "https://www.repubblica.it/economia/2026/09/25/news/eni_tetto_prezzi_benzina_diesel-425607530/",
+      "descrizione": "la Repubblica — sconto dimezzato fino al 5 ottobre e tetto Eni"
+    },
+    {
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/09/26/sconto-accise-si-dimezza-diesel-sale-a-2357-euro-in-autostrada-a-2439_da1b7664-e176-4b60-bb3b-129ce4c6087a.html",
+      "descrizione": "ANSA — aumento del diesel inferiore al ritocco fiscale"
+    }
+  ],
+  "immagine": {
+    "alt": "Distributore di carburante in pieno giorno, display dei prezzi non leggibili e nessun marchio in evidenza.",
+    "url": "/workspace/artifacts/imagine_images/094c2a86-0ded-4004-8341-1ef6f7c035ee.jpg",
+    "prompt": "Distributore italiano in pieno giorno, prezzi e marchi non leggibili, nessun volto in primo piano, luce naturale.",
+    "fotografia_reale": false,
+    "personaggio_pubblico": false,
+    "contesto_sensibile": false
+  },
+  "formato": "standard"
+}

@@ -1,0 +1,61 @@
+{
+  "titolo": "Abbonamenti Av Trenitalia: da novembre la prenotazione costa 2 euro",
+  "sommario": "Assoutenti riferisce un piano presentato da Trenitalia: il canone mensile scende di 80 euro e ogni posto riservato costa 2 euro. Sotto i 40 viaggi il conto resta più basso.",
+  "luogo": "Roma",
+  "categoria": "Economia",
+  "parole_chiave_titolo": [
+    "Trenitalia",
+    "Abbonamenti"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "2 €",
+      "etichetta": "a prenotazione, da novembre"
+    },
+    {
+      "icona": "▲",
+      "valore": "−80 €",
+      "etichetta": "sul canone mensile dell'abbonamento Av"
+    },
+    {
+      "icona": "●",
+      "valore": "40",
+      "etichetta": "viaggi al mese: punto di pareggio"
+    }
+  ],
+  "paragrafi": [
+    "Da novembre, per chi ha un abbonamento ai treni Alta velocità di Trenitalia, riservare il posto non sarebbe più gratis. A dirlo è Assoutenti, dopo la presentazione del nuovo piano dell'azienda alle associazioni dei consumatori.",
+    "Il canone mensile scenderebbe di 80 euro. Ogni prenotazione costerebbe 2 euro fissi. L'esempio di Assoutenti è l'abbonamento standard Roma-Napoli: oggi 418 euro, da novembre 338, più 2 euro a viaggio prenotato.",
+    "Con 30 viaggi nel mese il risparmio, nel calcolo dell'associazione, è di 20 euro rispetto alle tariffe attuali. Il pareggio arriva a 40 viaggi: sotto quella soglia il passeggero spende meno, sopra inizia a pagare di più.",
+    "La guida pubblica di Trenitalia, ancora oggi, scrive un'altra regola: sui Frecciarossa e Frecciargento la prenotazione è obbligatoria, gratuita e compresa nel prezzo. Senza posto assegnato non si sale a bordo.",
+    "Finché quella pagina non cambia, i 2 euro restano l'annuncio riferito da Assoutenti e da La Stampa, non la condizione già scritta sul sito. Il passaggio è fissato a novembre, non a questo weekend.",
+    "Il motivo indicato è il riempimento dei treni. Oggi molti abbonati bloccano un posto senza poi usarlo, e quel sedile manca a chi compra un biglietto. Un costo fisso dovrebbe rendere la prenotazione meno automatica.",
+    "Assoutenti aggiunge che una maggiore disponibilità reale può pesare anche sui prezzi dinamici, più bassi quando i posti offerti aumentano. È un auspicio dell'associazione, non una simulazione pubblicata da Trenitalia.",
+    "In fase di acquisto, secondo lo stesso resoconto, comparirà un riquadro con il prezzo della prenotazione e un riepilogo che separa quota abbonamento e posti riservati. Il cliente vedrebbe le due componenti prima di pagare.",
+    "Il vantaggio sotto i quaranta viaggi non scatta da solo. Ogni posto tenuto costa due euro anche se poi non si sale, e i venti euro risparmiati con trenta corse valgono solo se quelle corse si fanno davvero."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/09/26/cambia-abbonamento-a-av-trenitalia-meno-caro-ma-prenotazione-diventa-a-pagamento_434f6b8b-014e-4f86-96b6-da2639c4042f.html",
+      "descrizione": "ANSA — piano riferito da Assoutenti, esempio Roma-Napoli"
+    },
+    {
+      "url": "https://www.lastampa.it/economia/2026/09/26/news/trenitalia_da_novembre_2_euro_a_tratta_per_prenotare_l_av_scendono_gli_abbonamenti-15749689/",
+      "descrizione": "La Stampa — riempimento dei treni e soglia dei 40 viaggi"
+    },
+    {
+      "url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/gli-abbonamenti-di-trenitalia.html",
+      "descrizione": "Trenitalia — guida ancora in vigore: prenotazione gratuita"
+    }
+  ],
+  "immagine": {
+    "alt": "Treno ad alta velocità rosso sui binari al mattino, senza loghi né persone in primo piano.",
+    "url": "/workspace/artifacts/imagine_images/ee2ef829-cc18-41b2-b889-e39d47307910.jpg",
+    "prompt": "Treno ad alta velocità rosso su una linea italiana al mattino, nessun logo leggibile e nessuna persona in primo piano.",
+    "fotografia_reale": false,
+    "personaggio_pubblico": false,
+    "contesto_sensibile": false
+  },
+  "formato": "standard"
+}

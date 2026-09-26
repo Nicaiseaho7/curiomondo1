@@ -1,0 +1,61 @@
+{
+  "titolo": "Etna, cenere lavica: stop ai voli a Catania fino alle 16",
+  "sommario": "L'Ingv ha emesso un avviso per il volo di colore rosso. Il nucleo di coordinamento ha chiuso il settore C1: zero atterraggi e zero decolli all'aeroporto di Catania fino alle 16.",
+  "luogo": "Catania",
+  "categoria": "Cronaca",
+  "parole_chiave_titolo": [
+    "Etna",
+    "Catania"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "rosso",
+      "etichetta": "Vona dell'Ingv, livello massimo"
+    },
+    {
+      "icona": "▲",
+      "valore": "4 km",
+      "etichetta": "altezza della nube eruttiva"
+    },
+    {
+      "icona": "●",
+      "valore": "16:00",
+      "etichetta": "stop a decolli e atterraggi"
+    }
+  ],
+  "paragrafi": [
+    "L'aeroporto di Catania ha sospeso decolli e atterraggi fino alle 16 di sabato per la cenere lavica dell'Etna. Lo riferisce l'Ansa: il nucleo di coordinamento operativo, dopo la chiusura degli spazi del settore C1, ha messo la restrizione a zero movimenti.",
+    "La cenere esce dal cratere di Nord-Est. L'Istituto nazionale di geofisica e vulcanologia di Catania descrive anche una nube eruttiva alta 4 chilometri.",
+    "Sull'Etna è in vigore il Vona, l'avviso per l'aviazione degli osservatori vulcanici, di colore rosso. È il grado più alto su una scala di quattro.",
+    "BlogSicilia, nella cronaca della mattina, contava già dieci voli dirottati: cinque a Palermo, tre a Trapani e due a Comiso. Da Comiso era anche partito il Catania-Verona di Volotea.",
+    "La stessa ricostruzione locale parla, in un primo momento, di un tetto di quattro atterraggi l'ora contro i dodici della piena operatività, e della chiusura degli arrivi decisa da Sac, la società di gestione dello scalo.",
+    "Il bollettino delle 9.42 dell'Ansa è più netto di quel tetto orario: zero atterraggi e zero decolli fino alle 16. È lo stato da usare per chi ha un volo in giornata, salvo un aggiornamento successivo della società di gestione.",
+    "La cenere si disperde verso sud. Nella notte su Catania c'era stato anche un temporale. I due fenomeni non vanno confusi: lo stop ai voli è legato alla cenere e al Vona rosso, non al solo maltempo.",
+    "Chi atterra o parte da Fontanarossa deve quindi considerare lo scalo fermo almeno fino alle 16 e verificare il singolo volo con la compagnia. I dirottamenti già contati riguardano Palermo, Trapani e Comiso.",
+    "Un volo già dirottato non rientra da solo allo scadere delle 16. La riapertura, se confermata dal gestore, riguarda i movimenti da quell'ora in poi, non i passeggeri già smistati sugli altri tre scali siciliani."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/09/26/cenere-lavica-delletna-sospese-le-attivita-di-volo-a-catania_e4643c59-d705-43f4-a65e-c901b14159f1.html",
+      "descrizione": "ANSA — zero movimenti fino alle 16, Vona rosso, nube a 4 km"
+    },
+    {
+      "url": "https://www.quotidiano.net/ultimaora/cenere-lavica-delletna-sospese-le-13874ef4",
+      "descrizione": "Quotidiano.net — stessa restrizione del nucleo di coordinamento"
+    },
+    {
+      "url": "https://www.blogsicilia.it/wp-json/stampa-articoli/v1/pdf/1301725",
+      "descrizione": "BlogSicilia — dieci dirottamenti e chiusura degli arrivi"
+    }
+  ],
+  "immagine": {
+    "alt": "Pennacchio di cenere sull'Etna sopra l'area dell'aeroporto di Catania, pista e torre in lontananza, senza loghi di compagnie.",
+    "url": "/workspace/artifacts/imagine_images/a3c385f1-fed0-4af3-8fd6-df12c43aebb0.jpg",
+    "prompt": "Pennacchio di cenere dell'Etna sopra l'aeroporto di Catania, pista e torre lontane, nessun logo di compagnia e nessun volto.",
+    "fotografia_reale": false,
+    "personaggio_pubblico": false,
+    "contesto_sensibile": false
+  },
+  "formato": "standard"
+}

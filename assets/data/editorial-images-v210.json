@@ -1,7 +1,379 @@
 {
-  "version": 598,
+  "version": 610,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Cancello di una scuola storica al mattino con un telo bianco senza scritte, sagome lontane e nessun volto riconoscibile.",
+      "prompt": "Cancello di una scuola a Genova al mattino, telo bianco senza testo, sagome lontane, nessun volto riconoscibile e nessuna divisa in primo piano.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/genova-striscione-tolto-alla-daneo-lunedi-il-presidio-v610-480.webp",
+          "sha256": "a263107ce44e6a0d05bb85113372234dff2178ccb51850cebb3a0aa293da3b86",
+          "bytes": 44242
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/genova-striscione-tolto-alla-daneo-lunedi-il-presidio-v610-800.webp",
+          "sha256": "4f6c8a7c162058d2fdef58f3dbc6f77a8b804712b57e7ae84d13f57f4de9c3ec",
+          "bytes": 111274
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/genova-striscione-tolto-alla-daneo-lunedi-il-presidio-v610-1200.webp",
+          "sha256": "9c2a9296f162d74426a809db795435202ef7320bae261675c32d3fae06d0333c",
+          "bytes": 222256
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/genova-striscione-tolto-alla-daneo-lunedi-il-presidio-26-09-2026.html"
+    },
+    {
+      "alt": "Treno regionale integro su una linea toscana in una valle verde, di giorno, senza persone in primo piano.",
+      "prompt": "Treno regionale integro su una linea toscana in una valle verde, luce del giorno, nessun incidente visibile e nessuna persona in primo piano.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/urto-tra-treni-nel-fiorentino-da-stamani-la-linea-e-aperta-v609-480.webp",
+          "sha256": "77d19a80e8173758a9b5e82640e5d376117a5a0db9e66a676b64ae9d6c3d049a",
+          "bytes": 55898
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/urto-tra-treni-nel-fiorentino-da-stamani-la-linea-e-aperta-v609-800.webp",
+          "sha256": "3420d07a38bfc483228ba495b0d48b6c7ac7de0b329e61febc394c43a63e8177",
+          "bytes": 149144
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/urto-tra-treni-nel-fiorentino-da-stamani-la-linea-e-aperta-v609-1200.webp",
+          "sha256": "6cbfde31bce9a1bb04e4afdf6cf1592d38341147d6f80aa6061ce63fdd2bbe01",
+          "bytes": 298592
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/urto-tra-treni-nel-fiorentino-da-stamani-la-linea-e-aperta-26-09-2026.html"
+    },
+    {
+      "alt": "Ponte di pietra a Vicenza di notte, con un'auto della polizia lontana e nessuna persona in primo piano.",
+      "prompt": "Ponte di pietra a Vicenza di notte e un'auto della polizia lontana, nessun volto, nessun minore e nessuna scena di violenza.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/sequestro-di-un-minorenne-due-arresti-a-vicenza-v608-480.webp",
+          "sha256": "535cbb1eed139726ec77902c253454fb0c955f261961e4ece54d7b621c384f69",
+          "bytes": 28226
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/sequestro-di-un-minorenne-due-arresti-a-vicenza-v608-800.webp",
+          "sha256": "316a8b7488f673b42388287192d18998d9b99cce2020e22325927d351a2f5c5c",
+          "bytes": 74748
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/sequestro-di-un-minorenne-due-arresti-a-vicenza-v608-1200.webp",
+          "sha256": "3df57510e348e6180efff671a6cb1028f76785d60d67399b7656affbb622e222",
+          "bytes": 153534
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/sequestro-di-un-minorenne-due-arresti-a-vicenza-26-09-2026.html"
+    },
+    {
+      "alt": "Facciata di un palazzo a Torino di notte, con un'auto della polizia lontana e nessuna persona riconoscibile.",
+      "prompt": "Palazzo di Torino di notte e un'auto della polizia in lontananza, nessun volto, nessuna scena di violenza e nessun dettaglio cruento.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/omicidio-a-torino-tre-fermi-si-attende-la-convalida-v607-480.webp",
+          "sha256": "facabfa9e568128a6451fdcba41f6c3d3bff70a8e8931b7c6b6f69736a2082c9",
+          "bytes": 10862
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/omicidio-a-torino-tre-fermi-si-attende-la-convalida-v607-800.webp",
+          "sha256": "729a5abff820595a5c744f9e27edd8539dcc28bbedff26604a20d6bcc1aa1265",
+          "bytes": 31390
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/omicidio-a-torino-tre-fermi-si-attende-la-convalida-v607-1200.webp",
+          "sha256": "ca0ebbccf0af04889352ac10f635d9288fb9b334ca91cb214d1ba5b820adc3e0",
+          "bytes": 69944
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/omicidio-a-torino-tre-fermi-si-attende-la-convalida-26-09-2026.html"
+    },
+    {
+      "alt": "Interno di una cappella vuota a Parigi con un fonte battesimale in pietra e luce dalle finestre, senza persone.",
+      "prompt": "Cappella vuota a Parigi con fonte battesimale in pietra e luce dalle finestre, nessuna persona e nessun testo leggibile.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-stupito-da-quanti-chiedono-il-battesimo-v606-480.webp",
+          "sha256": "219ea681f1cd2a23bc46fe467288bf8d65f6c4d8fc69c3bbee2a8132d30f1bf0",
+          "bytes": 24982
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-stupito-da-quanti-chiedono-il-battesimo-v606-800.webp",
+          "sha256": "ce573238fb98f1dabff26d3e892a52151a17e1a85f0c8babd18bd315cc82ead1",
+          "bytes": 61848
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-stupito-da-quanti-chiedono-il-battesimo-v606-1200.webp",
+          "sha256": "85fdd7cc7bfffca405f98859950d25fd9ec9bc0b062157b5171f7c4a36788e5d",
+          "bytes": 117838
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/leone-xiv-a-parigi-stupito-da-quanti-chiedono-il-battesimo-26-09-2026.html"
+    },
+    {
+      "alt": "Distributore di carburante in pieno giorno, display dei prezzi non leggibili e nessun marchio in evidenza.",
+      "prompt": "Distributore italiano in pieno giorno, prezzi e marchi non leggibili, nessun volto in primo piano, luce naturale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/accise-sul-diesel-dimezzate-il-gasolio-self-a-2-357-euro-v605-480.webp",
+          "sha256": "67d25cf70ce3be69843c2465789b8c8b5a5e5025df9e4017274994cb2c81b9d6",
+          "bytes": 24198
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/accise-sul-diesel-dimezzate-il-gasolio-self-a-2-357-euro-v605-800.webp",
+          "sha256": "177dd83afa28a6b53598cb9b633d37f3c4d6b9e670d6b358be0b402d7432c4ab",
+          "bytes": 66926
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/accise-sul-diesel-dimezzate-il-gasolio-self-a-2-357-euro-v605-1200.webp",
+          "sha256": "f200c03010b558c09f9bd0e124f53aa50a4008ab5661a7f7dcaddf42823b60c2",
+          "bytes": 144336
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/accise-sul-diesel-dimezzate-il-gasolio-self-a-2-357-euro-26-09-2026.html"
+    },
+    {
+      "alt": "Pennacchio di cenere sull'Etna sopra l'area dell'aeroporto di Catania, pista e torre in lontananza, senza loghi di compagnie.",
+      "prompt": "Pennacchio di cenere dell'Etna sopra l'aeroporto di Catania, pista e torre lontane, nessun logo di compagnia e nessun volto.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/etna-cenere-lavica-stop-ai-voli-a-catania-fino-alle-16-v604-480.webp",
+          "sha256": "a9e6c69c8ca45ee947a166056e32783e951baf60502836df0bc872fda3c0b1c0",
+          "bytes": 15560
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/etna-cenere-lavica-stop-ai-voli-a-catania-fino-alle-16-v604-800.webp",
+          "sha256": "83afb10b5fdc6eda729ac30bb7923ebbb83b472f69c0999df5eb12551348e598",
+          "bytes": 36636
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/etna-cenere-lavica-stop-ai-voli-a-catania-fino-alle-16-v604-1200.webp",
+          "sha256": "dde316d994b6da75865880f64c7cb7f71c84f58b440a86971e22d547c88cf260",
+          "bytes": 66312
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/etna-cenere-lavica-stop-ai-voli-a-catania-fino-alle-16-26-09-2026.html"
+    },
+    {
+      "alt": "Treno ad alta velocità rosso sui binari al mattino, senza loghi né persone in primo piano.",
+      "prompt": "Treno ad alta velocità rosso su una linea italiana al mattino, nessun logo leggibile e nessuna persona in primo piano.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/abbonamenti-av-trenitalia-da-novembre-la-prenotazione-costa-2-euro-v603-480.webp",
+          "sha256": "b3e057a7b7e5f47fd4793fae98291a6b66b323549e75f9129e90e06356e2968f",
+          "bytes": 36576
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/abbonamenti-av-trenitalia-da-novembre-la-prenotazione-costa-2-euro-v603-800.webp",
+          "sha256": "8e33e0027a9d1133c16d7e93dda05bd070c3fe4b3c3181c3a6ac04cb6a68adb3",
+          "bytes": 94656
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/abbonamenti-av-trenitalia-da-novembre-la-prenotazione-costa-2-euro-v603-1200.webp",
+          "sha256": "8cab4e942bb89fb1321543b12628292ed11c243803609562e56fcb9d7cd2b315",
+          "bytes": 185306
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/abbonamenti-av-trenitalia-da-novembre-la-prenotazione-costa-2-euro-26-09-2026.html"
+    },
+    {
+      "alt": "Autotrasportatore di spalle mentre fa rifornimento a un camion, all'alba, senza loghi né prezzi leggibili.",
+      "prompt": "Camionista di spalle al rifornimento in autostrada all'alba, nessun volto, nessun logo e nessun prezzo leggibile sul totem.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/cgia-il-caro-carburante-pesa-su-camionisti-taxi-e-agenti-v602-480.webp",
+          "sha256": "70246c4ef3313ed18b16bee3ae69a26ce1518ee9e20248d96dac657928cf6014",
+          "bytes": 15742
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/cgia-il-caro-carburante-pesa-su-camionisti-taxi-e-agenti-v602-800.webp",
+          "sha256": "51ad32e7787d1a0f9c9b4d1b63d10f56e55e0ab517e51f3f0555ddd154f900d3",
+          "bytes": 34216
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/cgia-il-caro-carburante-pesa-su-camionisti-taxi-e-agenti-v602-1200.webp",
+          "sha256": "af466fea1084dbcd942926cc2da58336f4a8428dac1dcf1a77a53ecd406f5d91",
+          "bytes": 62770
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/cgia-il-caro-carburante-pesa-su-camionisti-taxi-e-agenti-26-09-2026.html"
+    },
+    {
+      "alt": "Tavolo di legno in riva al mare, di sera, con fogli di una sceneggiatura e un biglietto senza scritte leggibili.",
+      "prompt": "Sera sul mare in Sardegna, tavolo con fogli di sceneggiatura e un riconoscimento senza testo leggibile, nessun volto.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/premio-solinas-vince-la-cerimonia-di-gaeta-e-nabavinejad-v601-480.webp",
+          "sha256": "a3ef9efdb1bf1bd93974150f3fc9b4360fcbeeabdffc7bb84f11a7a91b4015e8",
+          "bytes": 22588
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/premio-solinas-vince-la-cerimonia-di-gaeta-e-nabavinejad-v601-800.webp",
+          "sha256": "79eea4fcba0b5281fb9c65383ccd50a48bb5712cf9c02d667f2886de935d3a72",
+          "bytes": 49452
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/premio-solinas-vince-la-cerimonia-di-gaeta-e-nabavinejad-v601-1200.webp",
+          "sha256": "cc363c7b0885c7fc5809f97dc481de34395ee2c7878d9c8bf89c9653d261fd3f",
+          "bytes": 87766
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/premio-solinas-vince-la-cerimonia-di-gaeta-e-nabavinejad-26-09-2026.html"
+    },
+    {
+      "alt": "Palco vuoto di un'arena indoor con luci viola, senza musicisti né scritte leggibili.",
+      "prompt": "Palco vuoto di un'arena a Bologna prima di un concerto rock, luci viola, nessun volto, nessun logo e nessuna scritta leggibile.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/evanescence-a-bologna-unica-data-italiana-il-28-settembre-v600-480.webp",
+          "sha256": "a6707113fa51629308495eccd9edac70bab81010ad7b1929781f81987f37afd2",
+          "bytes": 17240
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/evanescence-a-bologna-unica-data-italiana-il-28-settembre-v600-800.webp",
+          "sha256": "625812300f46c85ae080f108c3b6ab69d34af6bd611161b361aab0c6b47438eb",
+          "bytes": 40746
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/evanescence-a-bologna-unica-data-italiana-il-28-settembre-v600-1200.webp",
+          "sha256": "aa83aa7248bae7f1590a0416ebdc92ee601bbc39ddca23695d8705832f0bd094",
+          "bytes": 78790
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/evanescence-a-bologna-unica-data-italiana-il-28-settembre-26-09-2026.html"
+    },
+    {
+      "alt": "Stadio vuoto al tramonto con uno smartphone in primo piano e una pagina biglietti sfocata, senza testi leggibili.",
+      "prompt": "Stadio vuoto a Roma al tramonto, smartphone con pagina biglietti sfocata, nessun volto, nessun logo e nessun testo leggibile.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/oasis-a-roma-la-polizia-avverte-il-codice-non-si-compra-v599-480.webp",
+          "sha256": "311d5057b3dec6c8eeac97f4004fe2906fb4d3420ac539d12d886abcb0b03a32",
+          "bytes": 20764
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/oasis-a-roma-la-polizia-avverte-il-codice-non-si-compra-v599-800.webp",
+          "sha256": "f90f81c69bf0c6ef351647d8fc7ab873988f4965e0bf56b008e82f54fa324967",
+          "bytes": 38856
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/oasis-a-roma-la-polizia-avverte-il-codice-non-si-compra-v599-1200.webp",
+          "sha256": "378893ea1c531d56886e7819bd7fe1d7a4d2c203e01760fd25ba536babe1357a",
+          "bytes": 64452
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/oasis-a-roma-la-polizia-avverte-il-codice-non-si-compra-26-09-2026.html"
+    },
     {
       "alt": "Place de la Concorde preparata per una messa all'aperto, con l'obelisco e file di sedie verso i Champs-Élysées, senza volti riconoscibili.",
       "prompt": "Photorealistic editorial photo of Place de la Concorde prepared for an outdoor mass, Luxor Obelisk, rows of chairs toward the Champs-Élysées, no identifiable faces, no readable text.",

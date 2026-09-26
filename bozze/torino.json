@@ -1,0 +1,60 @@
+{
+  "titolo": "Omicidio a Torino: tre fermi, si attende la convalida",
+  "sommario": "La Procura chiederà al giudice di convalidare il fermo di tre persone per la morte di Fabio Colapietro, 39 anni, in un appartamento di via Gulli. Il più giovane è accusato di omicidio. Le due donne, di favoreggiamento.",
+  "luogo": "Torino",
+  "categoria": "Cronaca",
+  "parole_chiave_titolo": [
+    "Torino",
+    "omicidio"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "3",
+      "etichetta": "persone in stato di fermo"
+    },
+    {
+      "icona": "▲",
+      "valore": "39 anni",
+      "etichetta": "Fabio Colapietro, la vittima"
+    },
+    {
+      "icona": "●",
+      "valore": "via Gulli",
+      "etichetta": "appartamento a Borgo Vittoria"
+    }
+  ],
+  "paragrafi": [
+    "La Procura di Torino si appresta a chiedere al giudice per le indagini preliminari la convalida di tre fermi, eseguiti per la morte di Fabio Colapietro. L'uomo, 39 anni, abitava a Settimo Torinese. Il corpo è stato trovato in un appartamento di via Gulli 46, a Borgo Vittoria.",
+    "I tre provvedimenti nascono da un decreto di fermo del pubblico ministero. Le indagini sono coordinate dalla pm Lea Lamonaca. La Squadra mobile sta ricostruendo il ruolo di ciascuno. Nessuno, in questa fase, è stato condannato.",
+    "Secondo La Stampa e LaPresse, il più esposto è un 26enne: è accusato di omicidio e di soppressione di cadavere. La Stampa scrive che avrebbe ammesso i fatti agli agenti, dopo una telefonata della madre al 112 giovedì sera, poco prima delle 22.",
+    "Con lui sono ferme due donne. Una ha 22 anni. L'altra è Nicole Formichetti, insegnante all'istituto Tommaso D'Oria di Ciriè, indicata da LaPresse come originaria della provincia di Rieti. Per entrambe l'accusa riportata è favoreggiamento e concorso nell'occultamento.",
+    "Le età dell'insegnante non coincidono tra i giornali: c'è chi scrive 46 anni e chi 49. Quel numero, finché le testate non si allineano, non entra nel conto. Il nome e la scuola, invece, sono gli stessi.",
+    "LaPresse colloca i fatti in un contesto di consumo di droga e parla di una colluttazione. Sono ipotesi investigative, non una sentenza. L'autopsia, scrive il Corriere Adriatico, è ancora da fare e dovrà chiarire la dinamica.",
+    "Il Corriere Adriatico, nel titolo, indica la vittima come 45enne e nel testo come 39enne. L'età usata qui è 39, quella di La Stampa e di LaPresse, non quella del titolo contraddetto dal suo stesso articolo.",
+    "Il passaggio atteso nelle prossime ore è quindi giuridico, non un nuovo nome: la richiesta di convalida dei fermi e delle misure cautelari. Fino a quel vaglio i tre restano fermati, con accuse diverse l'una dall'altra."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.lapresse.it/cronaca/2026/09/26/torino-39enne-ucciso-e-smembrato-in-casa-fermati-una-professoressa-e-due-ragazzi/",
+      "descrizione": "LaPresse — tre fermi, accuse e via Gulli"
+    },
+    {
+      "url": "https://www.lastampa.it/torino/2026/09/26/news/delitto_via_gulli_cosa_e_successo-15749494/",
+      "descrizione": "La Stampa — chiamata al 112, pm Lamonaca, ruoli"
+    },
+    {
+      "url": "https://www.corriereadriatico.it/attualita/omicidio_via_gulli_torino_vittima_chi_e_fabio_colapietro-9786789.html",
+      "descrizione": "Corriere Adriatico — identità della vittima e autopsia non ancora eseguita"
+    }
+  ],
+  "immagine": {
+    "alt": "Facciata di un palazzo a Torino di notte, con un'auto della polizia lontana e nessuna persona riconoscibile.",
+    "url": "/workspace/artifacts/imagine_images/0a4117e9-bfbb-49a9-8acc-a3617aaf257e.jpg",
+    "prompt": "Palazzo di Torino di notte e un'auto della polizia in lontananza, nessun volto, nessuna scena di violenza e nessun dettaglio cruento.",
+    "fotografia_reale": false,
+    "personaggio_pubblico": false,
+    "contesto_sensibile": true
+  },
+  "formato": "standard"
+}

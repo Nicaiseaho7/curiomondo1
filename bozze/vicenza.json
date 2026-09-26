@@ -1,0 +1,57 @@
+{
+  "titolo": "Sequestro di un minorenne: due arresti a Vicenza",
+  "sommario": "La Polizia di Vicenza ha arrestato due uomini di 22 e 24 anni, cittadini senegalesi, accusati di avere portato via un ragazzo in provincia di Bergamo. Il minore non è identificato. È stato rintracciato con il Gps del telefono.",
+  "luogo": "Vicenza",
+  "categoria": "Cronaca",
+  "parole_chiave_titolo": [
+    "Vicenza",
+    "minorenne"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "2",
+      "etichetta": "arresti, 22 e 24 anni"
+    },
+    {
+      "icona": "▲",
+      "valore": "Gps",
+      "etichetta": "il cellulare del ragazzo è rimasto acceso"
+    },
+    {
+      "icona": "●",
+      "valore": "ven. sera",
+      "etichetta": "blocco vicino al Ponte degli Angeli"
+    }
+  ],
+  "paragrafi": [
+    "La Polizia di Vicenza ha arrestato ieri sera due uomini di 22 e 24 anni, cittadini senegalesi, accusati di avere sequestrato un minorenne in provincia di Bergamo. Il ragazzo non viene nominato, né dall'Ansa né dal Gazzettino.",
+    "La denuncia è della madre ai Carabinieri di Ponte San Pietro. Aveva ricevuto messaggi del figlio dai quali, secondo gli investigatori, risultava una costrizione. Da lì è partita la ricerca.",
+    "Le verifiche dicono che il ragazzo era stato avvicinato la sera prima fuori da una pizzeria del Bergamasco e costretto a salire su un'auto diretta verso il Vicentino. Non è un allontanamento volontario, nell'impostazione della Polizia: è un sequestro.",
+    "Il telefono non gli è stato tolto. Con la geolocalizzazione, le Volanti della Questura di Vicenza hanno ristretto le ricerche al capoluogo e lo hanno trovato vicino al Ponte degli Angeli, ancora con i due uomini.",
+    "Era stato tenuto in un bed and breakfast, dove aveva passato la notte. I due sono stati bloccati e portati in carcere. L'Ansa parla di Casa circondariale, senza indicare contestazioni diverse dal sequestro.",
+    "Il movente riferito dalle due testate è una richiesta di denaro legata a una compravendita di banconote false. È la ricostruzione investigativa di queste ore, non una sentenza.",
+    "Il Gazzettino sottolinea un errore materiale dei due: non hanno spento né sequestrato il cellulare, e il ragazzo è riuscito ad avvisare la madre. È il dettaglio che ha accorciato le ricerche, non un merito da attribuire a una fuga.",
+    "Il minore è stato ritrovato. I nomi, l'età precisa e la scuola non sono negli articoli usati qui e non servono a capire i fatti: contano il luogo del blocco, le accuse e il fatto che i due siano in arresto da venerdì sera.",
+    "Ponte San Pietro, dove la madre ha sporto denuncia, è in provincia di Bergamo. Il blocco è avvenuto a Vicenza. Il sequestro parte nel Bergamasco. L'arresto è nel capoluogo berico."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.ansa.it/veneto/notizie/2026/09/26/rapiscono-un-minorenne-nel-bergamasco-trovati-e-arrestati-a-vicenza_57b14ebd-2539-4519-925d-09c6aedc88f1.html",
+      "descrizione": "ANSA — arresti, Gps e Ponte degli Angeli"
+    },
+    {
+      "url": "https://www.ilgazzettino.it/nordest/vicenza_bassano/minorenne_rapito_ragazzino_prigioniero_bnb-9786922.html",
+      "descrizione": "Il Gazzettino — bed and breakfast, messaggi alla madre, banconote"
+    }
+  ],
+  "immagine": {
+    "alt": "Ponte di pietra a Vicenza di notte, con un'auto della polizia lontana e nessuna persona in primo piano.",
+    "url": "/workspace/artifacts/imagine_images/80e8986e-8c62-40f4-93d6-af283aa82792.jpg",
+    "prompt": "Ponte di pietra a Vicenza di notte e un'auto della polizia lontana, nessun volto, nessun minore e nessuna scena di violenza.",
+    "fotografia_reale": false,
+    "personaggio_pubblico": false,
+    "contesto_sensibile": true
+  },
+  "formato": "standard"
+}

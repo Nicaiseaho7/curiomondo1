@@ -1,0 +1,60 @@
+{
+  "titolo": "Genova, striscione tolto alla Daneo: lunedì il presidio",
+  "sommario": "Venerdì due agenti hanno staccato dal cancello della primaria Daneo un telo fatto dai bambini. La Questura dice che è stato restituito subito. I genitori chiamano un presidio lunedì in piazza della Meridiana.",
+  "luogo": "Genova",
+  "categoria": "Cronaca",
+  "parole_chiave_titolo": [
+    "Genova",
+    "Daneo"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "ven. 8:20",
+      "etichetta": "orario indicato dai genitori"
+    },
+    {
+      "icona": "▲",
+      "valore": "lun. 8:30",
+      "etichetta": "presidio in piazza della Meridiana"
+    },
+    {
+      "icona": "●",
+      "valore": "restituito",
+      "etichetta": "lo striscione, secondo la Questura"
+    }
+  ],
+  "paragrafi": [
+    "Venerdì 25 settembre, davanti alla scuola primaria Daneo di Salita della Conciliazione, nel centro storico di Genova, è stato staccato uno striscione appeso al cancello. La scritta, realizzata dai bambini con i genitori, era «Qui nessun* è stranier*».",
+    "Il telo contestava il tetto del 30% di alunni stranieri nelle classi, misura su cui il governo ha dato il via libera nei giorni scorsi. L'istituto lo aveva esposto il giorno prima.",
+    "L'Associazione Daneo, in una lettera del presidente, colloca i fatti intorno alle 8:20, mentre alunni e maestri entravano. Due uomini in abiti civili avrebbero strappato il telo. Il distintivo, secondo i genitori sentiti da Primocanale, sarebbe stato mostrato solo dopo le insistenze.",
+    "La Questura dà un'altra sequenza, riportata da Primocanale. In zona c'era una pattuglia in borghese per controlli del territorio. Un operatore, di propria iniziativa, ha rimosso lo striscione. Capito che si trattava di un'iniziativa dei genitori, lo ha restituito subito.",
+    "Il questore ha aperto accertamenti interni sulle ragioni dell'intervento. Il Corriere scrive di due poliziotti della Digos, avvisati dalla polizia locale, e di una rimozione definita dai presenti «molto brusca», con gli agenti arrampicati sul cancello.",
+    "La sindaca Silvia Salis ha confermato che il telo è tornato al suo posto. Ha legato il gesto al profilo della scuola, che fa dell'inclusione un punto del proprio progetto, e ha ricordato che quella mattina la Daneo accoglieva la fiaccola della pace.",
+    "I genitori non chiudono la vicenda con la restituzione. Hanno chiesto gli atti alla Questura e hanno chiamato un presidio lunedì 28 settembre, dalle 8:30 alle 9:30, in piazza della Meridiana. L'invito è aperto alla città, con striscioni di solidarietà alle finestre del quartiere.",
+    "Restano quindi due piani. Uno è il fatto materiale, sul quale Questura e famiglie convergono: il telo è stato tolto e poi riconsegnato. L'altro è il giudizio sull'iniziativa del singolo operatore, ancora oggetto di verifiche interne."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.genovatoday.it/cronaca/scuola-daneo-genova-striscione-rimosso-questura-manifestazione.html",
+      "descrizione": "GenovaToday — lettera dell'associazione e presidio di lunedì"
+    },
+    {
+      "url": "https://www.primocanale.it/attualit%C3%A0/71827-striscione-antirazzista-rimosso-polizia-protesta-genitori-questura.html",
+      "descrizione": "Primocanale — versione della Questura e dei genitori"
+    },
+    {
+      "url": "https://www.corriere.it/politica/26_settembre_25/genova-digos-rimuove-striscione-contro-il-tetto-agli-stranieri-a-scuola-la-protesta-di-genitori-e-della-sindaca-salis-b80163b2-3da7-42fc-8303-2c7fee1cfxlk.shtml",
+      "descrizione": "Corriere — Digos, sindaca Salis e restituzione del telo"
+    }
+  ],
+  "immagine": {
+    "alt": "Cancello di una scuola storica al mattino con un telo bianco senza scritte, sagome lontane e nessun volto riconoscibile.",
+    "url": "/workspace/artifacts/imagine_images/79cb8eb2-c14f-48f6-a782-c77e888cf757.jpg",
+    "prompt": "Cancello di una scuola a Genova al mattino, telo bianco senza testo, sagome lontane, nessun volto riconoscibile e nessuna divisa in primo piano.",
+    "fotografia_reale": false,
+    "personaggio_pubblico": false,
+    "contesto_sensibile": false
+  },
+  "formato": "standard"
+}

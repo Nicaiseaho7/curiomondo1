@@ -1,0 +1,60 @@
+{
+  "titolo": "Urto tra treni nel Fiorentino: da stamani la linea è aperta",
+  "sommario": "Un merci della Cfi è uscito dai binari e un regionale lo ha urtato tra Rignano e Pontassieve. Nessun ferito. I passeggeri sono scesi dopo quattro ore. Alle 8 di stamani la circolazione era di nuovo regolare.",
+  "luogo": "Pontassieve",
+  "categoria": "Cronaca",
+  "parole_chiave_titolo": [
+    "treni",
+    "Fiorentino"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "15:20",
+      "etichetta": "stop di ieri sulla linea lenta"
+    },
+    {
+      "icona": "▲",
+      "valore": "0 feriti",
+      "etichetta": "tra i passeggeri del regionale"
+    },
+    {
+      "icona": "●",
+      "valore": "8:00",
+      "etichetta": "circolazione di nuovo regolare"
+    }
+  ],
+  "paragrafi": [
+    "Alle 8 di stamani è tornata regolare la circolazione fra Rignano sull'Arno e Pontassieve, sulla linea convenzionale Roma-Firenze. Lo stop durava dalle 15:20 di ieri, dopo l'urto tra un treno merci e un regionale.",
+    "L'Ansa scrive che il locomotore del merci è sviato e che il regionale ha riportato danni ad alcuni finestrini. Nessun passeggero è rimasto ferito. Il trasbordo si è chiuso alle 19: per circa quattro ore i viaggiatori sono restati a bordo.",
+    "Firenze Post ricostruisce la dinamica con un dettaglio in più. Il locomotore, della Cfi e proveniente da Sant'Ellero, sarebbe uscito di poco dai binari e si sarebbe fermato. Il regionale, partito da Pontassieve e diretto a Montevarchi, avrebbe frenato e lo avrebbe urtato.",
+    "La Repubblica conferma il blocco dalle 15:20 sulla linea lenta e l'assenza di feriti, legando lo stop allo sviamento di un carrello del merci. Sulla dinamica fine le testate non usano le stesse parole: l'esito, nessun ferito e linea chiusa, sì.",
+    "Nel pomeriggio e in serata Intercity e regionali hanno avuto ritardi, limitazioni e cancellazioni. È stato attivato un servizio bus tra Firenze e Figline. Firenze Post cita anche la Croce Azzurra di Reggello, chiamata dalla Protezione civile metropolitana insieme a Fs per assistere i passeggeri.",
+    "Virgilio, citando Ferrovie dello Stato, scrive che il trasferimento dei viaggiatori del regionale si è concluso e che i bus hanno coperto la tratta interrotta. Alle 21:15 di ieri, secondo Firenze Post, la linea era ancora ferma per gli accertamenti.",
+    "Il dato di stamani cambia quel bollettino serale. Dalle 8 il tratto Rignano-Pontassieve è di nuovo percorso dai treni. Chi aveva un regionale o un Intercity su quella linea lenta non deve più contare sullo stop di ieri pomeriggio.",
+    "Resta da distinguere questa linea convenzionale dai cantieri dell'alta velocità nel nodo di Firenze, che in luglio avevano tagliato un'altra fetta di traffico. L'urto di ieri non c'entra con quei lavori: è un incidente fra due convogli, chiuso senza feriti."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/09/26/urto-tra-treni-nel-fiorentino-circolazione-tornata-regolare-stamani_4c837bfb-becc-46f5-95d6-7a832020ae4d.html",
+      "descrizione": "ANSA — linea regolare dalle 8, nessun ferito, trasbordo alle 19"
+    },
+    {
+      "url": "https://www.firenzepost.it/2026/09/25/treni-linea-roma-firenze-convoglio-merci-esce-dai-binari-e-urta-regionale-a-pontassieve-stop-alla-circolazione-bus-sostitutivi/",
+      "descrizione": "Firenze Post — Cfi, Sant'Ellero, Montevarchi, bus"
+    },
+    {
+      "url": "https://firenze.repubblica.it/cronaca/2026/09/25/news/firenze_treni_pontassieve_rignano_urto_pendolari_spavento_incidente-425607699/",
+      "descrizione": "la Repubblica — stop dalle 15.20 e nessun ferito"
+    }
+  ],
+  "immagine": {
+    "alt": "Treno regionale integro su una linea toscana in una valle verde, di giorno, senza persone in primo piano.",
+    "url": "/workspace/artifacts/imagine_images/5d10771d-ac45-40ec-9269-10a1144d5049.jpg",
+    "prompt": "Treno regionale integro su una linea toscana in una valle verde, luce del giorno, nessun incidente visibile e nessuna persona in primo piano.",
+    "fotografia_reale": false,
+    "personaggio_pubblico": false,
+    "contesto_sensibile": false
+  },
+  "formato": "standard"
+}

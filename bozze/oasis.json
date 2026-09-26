@@ -1,0 +1,61 @@
+{
+  "titolo": "Oasis a Roma, la Polizia avverte: il codice non si compra",
+  "sommario": "La Polizia di Stato segnala falsi codici e biglietti per il concerto del 2027. Il codice, se si viene selezionati, è personale e non si acquista da un privato.",
+  "luogo": "Roma",
+  "categoria": "Cronaca",
+  "parole_chiave_titolo": [
+    "Oasis",
+    "Roma"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "2027",
+      "etichetta": "concerto degli Oasis a Roma"
+    },
+    {
+      "icona": "▲",
+      "valore": "personale",
+      "etichetta": "il codice di accesso non si trasferisce"
+    },
+    {
+      "icona": "●",
+      "valore": "26 set.",
+      "etichetta": "data dell'avviso della Polizia"
+    }
+  ],
+  "paragrafi": [
+    "La Polizia di Stato ha pubblicato un avviso su WhatsApp e sui social. Oggetto: falsi codici di accesso e biglietti per il concerto degli Oasis previsto a Roma nel 2027.",
+    "Il Gazzettino colloca la data a luglio, allo Stadio Olimpico. L'allerta non discute il calendario. Riguarda le offerte che circolano fuori dai rivenditori autorizzati, con codici e biglietti presentati come già in mano a qualcuno.",
+    "La raccomandazione è acquistare solo sui canali ufficiali e verificare chi vende. Non vanno fatti pagamenti a privati senza un controllo sulla legittimità. Vanno evitati gli annunci di sconosciuti sui social e le offerte sospette.",
+    "Il passaggio centrale della nota è netto: il codice di accesso non si compra. Chi viene selezionato riceve un codice personale e non trasferibile. Metterlo in vendita non è una cessione di posto. È una richiesta di denaro per un codice che non si può girare.",
+    "Se arriva una mail, prima di procedere va verificato che parta dall'indirizzo autorizzato a quelle comunicazioni. La Polizia segnala anche i siti clone, pagine costruite per somigliare ai rivenditori veri.",
+    "Da quei link non vanno inserite password, numeri della carta o altri dati personali. La stessa cautela vale per i messaggi ricevuti in chat, non solo per la posta elettronica.",
+    "Lo schema descritto è quello della prevendita a selezione: prima una lista, poi un codice, poi l'acquisto sul sito ufficiale. Pagare a un privato il secondo passaggio è proprio il caso indicato nell'avviso.",
+    "Il testo è di sabato 26 settembre. Ansa, Adnkronos e Il Mattino riportano la stessa nota. Non contiene un conteggio di chi abbia già pagato un falso codice, né un elenco di siti oscurati.",
+    "Il dato che resta utilizzabile è la regola pratica, mentre si cerca un posto per Roma: restare sul rivenditore ufficiale e trattare ogni codice in vendita tra privati come non valido."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.ansa.it/sito/notizie/cultura/musica/2026/09/26/polizia-attenzione-alle-truffe-on-line-per-vendita-biglietti-per-gli_34ebd545-de1d-44fe-8b65-fe05e752e0ff.html",
+      "descrizione": "ANSA — nota della Polizia su codici e biglietti Oasis"
+    },
+    {
+      "url": "https://www.adnkronos.com/cronaca/oasis-roma-2027-biglietti-truffe-online-alert-polizia_5C7r6Vri1H2NGSfgWdViNW",
+      "descrizione": "Adnkronos — stesso avviso, concerto a Roma nel 2027"
+    },
+    {
+      "url": "https://www.ilgazzettino.it/cultura/oasis_biglietti_truffa_codici-9786887.html",
+      "descrizione": "Il Gazzettino — luglio allo Stadio Olimpico e siti clone"
+    }
+  ],
+  "immagine": {
+    "alt": "Stadio vuoto al tramonto con uno smartphone in primo piano e una pagina biglietti sfocata, senza testi leggibili.",
+    "url": "/workspace/artifacts/imagine_images/e1e057ca-c331-4760-9fdb-c742e5ee90cb.jpg",
+    "prompt": "Stadio vuoto a Roma al tramonto, smartphone con pagina biglietti sfocata, nessun volto, nessun logo e nessun testo leggibile.",
+    "fotografia_reale": false,
+    "personaggio_pubblico": false,
+    "contesto_sensibile": false
+  },
+  "formato": "standard"
+}

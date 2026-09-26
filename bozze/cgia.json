@@ -1,0 +1,61 @@
+{
+  "titolo": "Cgia: il caro carburante pesa su camionisti, taxi e agenti",
+  "sommario": "L'ufficio studi indica, in sette mesi di guerra, benzina su del 29% e diesel del 36%. Taxi e agenti di commercio non riescono a scaricare il rincaro. I camionisti, raramente.",
+  "luogo": "Mestre",
+  "categoria": "Economia",
+  "parole_chiave_titolo": [
+    "Cgia",
+    "carburante"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "+29%",
+      "etichetta": "benzina in sette mesi, stima Cgia"
+    },
+    {
+      "icona": "▲",
+      "valore": "+36%",
+      "etichetta": "diesel nello stesso periodo, stima Cgia"
+    },
+    {
+      "icona": "●",
+      "valore": "~50%",
+      "etichetta": "peso di imposte e accise alla pompa"
+    }
+  ],
+  "paragrafi": [
+    "Nel giorno in cui lo sconto sulle accise del gasolio viene dimezzato, la Cgia di Mestre ha messo in fila il conto di sette mesi di carburanti cari. Il bilancio è quello riportato da Tgcom24, che cita un lancio Ansa.",
+    "Dal inizio del conflitto tra Stati Uniti e Iran, secondo l'ufficio studi, la benzina è salita del 29% e il diesel del 36%. Sono percentuali dell'associazione, non la rilevazione quotidiana del ministero delle Imprese.",
+    "Imposte e accise, scrive Tgcom24 riferendo la Cgia, arrivano a pesare fino a circa la metà del prezzo di ogni litro. Il rincaro industriale e la componente fiscale restano quindi due strati distinti dello stesso pieno.",
+    "Le categorie indicate come più esposte sono i camionisti, i tassisti e gli agenti di commercio. Per taxi e agenti il punto è che non possono trasferire l'aumento sui clienti o sulla filiera: lo assorbono loro.",
+    "I camionisti, nella stessa nota, possono scaricarlo di rado. Hanno però il credito d'imposta pensato per compensare il caro carburante, uno strumento che le altre due categorie, in questo passaggio, non hanno.",
+    "Non è la prima volta che la Cgia isola questi mestieri. Il 1° agosto Il Gazzettino riferiva un altro suo conteggio, allora con il diesel a +20,9% dall'inizio della guerra e con oltre 300 mila attività tra autotrasporto, taxi, Ncc e agenti.",
+    "Quel dato di agosto non va sommato a quello di oggi: misura un altro momento del prezzo. Serve a ricordare che l'allarme sulle professioni della strada è precedente al dimezzamento dello sconto entrato in vigore sabato.",
+    "I prezzi medi alla pompa di questa mattina, rilevati dal Mimit, sono un'altra scheda: media nazionale e autostrada, non la variazione a sette mesi calcolata dall'ufficio studi di Mestre.",
+    "Il credito d'imposta dei camionisti, nel lancio di oggi, non ha un importo aggiornato. La Cgia ne ricorda l'esistenza. Per taxi e agenti di commercio indica invece che uno strumento equivalente, in questo passaggio, non c'è."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.tgcom24.mediaset.it/economia/carburanti-cgia-prezzo-benzina-diesel_116999349-202602k.shtml",
+      "descrizione": "Tgcom24 — bilancio Cgia, +29% benzina e +36% diesel"
+    },
+    {
+      "url": "https://www.ilgazzettino.it/economia/news/diesel_costo_cgia_taxi_autotrasportatori_autonomi-9684951.html",
+      "descrizione": "Il Gazzettino — nota Cgia di agosto su taxi e autotrasporto"
+    },
+    {
+      "url": "https://www.mimit.gov.it/it/prezzi-carburanti-media-nazionale",
+      "descrizione": "Mimit — prezzi medi self del 26 settembre, scheda distinta"
+    }
+  ],
+  "immagine": {
+    "alt": "Autotrasportatore di spalle mentre fa rifornimento a un camion, all'alba, senza loghi né prezzi leggibili.",
+    "url": "/workspace/artifacts/imagine_images/f59b1223-a0dc-48d4-8617-b1eab091faa4.jpg",
+    "prompt": "Camionista di spalle al rifornimento in autostrada all'alba, nessun volto, nessun logo e nessun prezzo leggibile sul totem.",
+    "fotografia_reale": false,
+    "personaggio_pubblico": false,
+    "contesto_sensibile": false
+  },
+  "formato": "standard"
+}
