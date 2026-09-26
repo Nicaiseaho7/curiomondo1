@@ -1,7 +1,38 @@
 {
-  "version": 594,
+  "version": 595,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Esterno di un centro nucleare al crepuscolo, con due figure di spalle e caschi blu lontane dal cancello, senza volti.",
+      "prompt": "Photorealistic editorial photo of a nuclear research gate at dusk, two inspectors from behind far away, no faces, no readable text, no weapons.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/pezeshkian-si-agli-ispettori-nucleari-onu-dentro-un-negoziato-v595-480.webp",
+          "sha256": "0f8ae7ddda7388f5f3d990e66519d78fa12634e8c7f0467aa22f8b6710278576",
+          "bytes": 18038
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/pezeshkian-si-agli-ispettori-nucleari-onu-dentro-un-negoziato-v595-800.webp",
+          "sha256": "6dc9704ee3b1702b9a2eb8cdc87e708e96ef4057ee359f171b363f3d3f4c9419",
+          "bytes": 48532
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/pezeshkian-si-agli-ispettori-nucleari-onu-dentro-un-negoziato-v595-1200.webp",
+          "sha256": "1a93f3cc42ecfa7f684bc678920880ec09aa3f803706a137242689cabdd65482",
+          "bytes": 104510
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/pezeshkian-si-agli-ispettori-nucleari-onu-dentro-un-negoziato-26-09-2026.html"
+    },
     {
       "alt": "Jet privato fermo su un piazzale aeroportuale appartato, senza persone e senza scritte visibili.",
       "prompt": "Photorealistic editorial photo of a small private jet alone on an isolated airport apron, no people, no readable text, calm light, not a crash.",
