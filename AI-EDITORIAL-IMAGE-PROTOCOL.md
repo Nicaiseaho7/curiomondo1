@@ -12,7 +12,7 @@ Il testo operativo è `automation/prompts/image-generation-contract.txt`. In cas
 - Cronaca, morte, violenza e arresti: niente corpi, sangue, ferite o ricostruzioni spettacolari. Luogo o contesto, sobri.
 - Non presentare la scena come fotografia documentaria dell'evento. La didascalia resta nel markup, non nei pixel.
 - I limiti dello strumento di generazione restano vincolanti e non si aggirano.
-- Correzione della sera del 26 settembre 2026: nelle notizie ordinarie l'inquadratura ha persone, il luogo vero e il marchio vero se è leggibile. Niente palazzi deserti. Il luogo resta vuoto solo per morte, violenza, arresti, o quando il soggetto è solo un oggetto. Se il volto del personaggio pubblico non è affidabile, le persone ci sono comunque, ma non si fanno passare per lui.
+- Correzione della sera del 26 settembre 2026: il modello di qualità sono le copertine già online con la persona riconoscibile, il luogo e il marchio veri. Esempi scelti dall'editore: Haaland con la maglia della Norvegia all'Ullevaal; Trump e Xi al tavolo con i manager citati; Isaacman davanti al logo NASA. Senza un volto nominato, la scena ha comunque persone al lavoro e l'oggetto della notizia. Niente palazzi deserti e niente testo deformato. Un volto inaffidabile non si pubblica al posto della persona vera.
 
 ## Persone vere, loghi veri — correzione dell'editore, 21 settembre 2026
 
