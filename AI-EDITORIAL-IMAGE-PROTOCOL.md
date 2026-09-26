@@ -8,17 +8,17 @@ Il testo operativo è `automation/prompts/image-generation-contract.txt`. In cas
 
 - Un'immagine per notizia. Mai collage, riquadri o più notizie nella stessa foto.
 - Fotorealismo editoriale. Niente estetica da «immagine AI», niente testo, watermark, loghi inventati o scritte deformate. Eccezione unica: le mappe meteo dell'Italia, con città e simboli leggibili.
-- Se la notizia nomina una persona, una squadra o un marchio, il soggetto deve essere quello vero. Se la somiglianza o il marchio non escono in modo affidabile, non pubblicare un sosia né un logo illeggibile: usare il luogo, l'edificio, l'infrastruttura o l'oggetto centrale della notizia.
-- Cronaca, morte, violenza e arresti: niente corpi, sangue, ferite o ricostruzioni spettacolari. Luogo o contesto, sobri.
+- Ordine dell'editore, 26 settembre 2026, ore 19:58: i sosia dei personaggi pubblici sono autorizzati. Se la notizia nomina una persona pubblica, la copertina la mostra in volto, come somiglianza sintetica, nel luogo della notizia e con il marchio vero se è leggibile. Non si sostituisce più quella persona con un palazzo vuoto o con una figura di spalle. La didascalia dice che è un'illustrazione editoriale IA, non una foto documentaria. Un logo illeggibile non si pubblica.
+- Cronaca, morte, violenza e arresti: niente corpi, sangue, ferite o ricostruzioni spettacolari. Se serve il volto, solo un ritratto neutro isolato.
 - Non presentare la scena come fotografia documentaria dell'evento. La didascalia resta nel markup, non nei pixel.
-- I limiti dello strumento di generazione restano vincolanti e non si aggirano.
-- Correzione della sera del 26 settembre 2026: il modello di qualità sono le copertine già online con la persona riconoscibile, il luogo e il marchio veri. Esempi scelti dall'editore: Haaland con la maglia della Norvegia all'Ullevaal; Trump e Xi al tavolo con i manager citati; Isaacman davanti al logo NASA. Senza un volto nominato, la scena ha comunque persone al lavoro e l'oggetto della notizia. Niente palazzi deserti e niente testo deformato. Un volto inaffidabile non si pubblica al posto della persona vera.
+- I limiti tecnici dello strumento di generazione restano: se quello strumento rifiuta il volto, non si aggira.
+- Correzione della sera del 26 settembre 2026: il modello di qualità sono le copertine già online con la persona riconoscibile, il luogo e il marchio veri. Esempi scelti dall'editore: Haaland con la maglia della Norvegia all'Ullevaal; Trump e Xi al tavolo con i manager citati; Isaacman davanti al logo NASA. Senza un nome proprio, la scena ha comunque persone al lavoro e l'oggetto della notizia. Niente palazzi deserti e niente testo deformato.
 
 ## Persone vere, loghi veri — correzione dell'editore, 21 settembre 2026
 
 Le immagini degli articoli devono essere **fotorealistiche** e devono raffigurare **soggetti realmente esistenti**. È vietato inventare protagonisti.
 
-- Se la notizia nomina una persona pubblica (politico, atleta, allenatore, pilota, attore, conduttore, scienziato, dirigente), l'immagine deve mostrare **quella persona specifica, riconoscibile**. Non sostituirla con un volto generico, un extra, una silhouette, un manichino o «un uomo/una donna che gli somiglia».
+- Se la notizia nomina una persona pubblica (politico, atleta, allenatore, pilota, attore, conduttore, scienziato, dirigente), l'immagine mostra quella persona in volto, anche come sosia sintetico autorizzato dall'editore il 26 settembre 2026. Non sostituirla con un palazzo vuoto, una silhouette o un extra anonimo.
 - Se la notizia riguarda una squadra, una nazionale o una partita, mostra i **giocatori veri** di quel roster e la **maglia ufficiale vera**: stemma, sponsor, fornitore tecnico, numeri e nomi. Non usare maglie lisce, loghi inventati o atleti anonimi in divisa di fantasia.
 - Marchi, loghi, prodotti, mezzi, edifici e luoghi devono essere quelli **reali e pertinenti** (DHL/Erreà sulla maglia azzurra, stemma FIGC/FIPAV, logo CEV, livrea aziendale, facciata dell'istituzione). Non sostituirli con versioni generiche «per evitare marchi».
 - Prima di generare: cerca foto di riferimento recenti della persona, della maglia e dei loghi; usa quelle foto come riferimento visivo. Dopo la generazione, controlla se un lettore italiano riconoscerebbe il protagonista. Se il volto, la maglia o il logo sono inventati o illeggibili, **scarta e rigenera**.

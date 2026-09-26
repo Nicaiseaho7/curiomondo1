@@ -82,18 +82,11 @@ Se riguarda una specifica disciplina sportiva, campo, attrezzatura, abbigliament
 
 Massima attenzione quando la notizia riguarda persone realmente esistenti.
 
-Non rappresentare una persona diversa facendola apparire come il soggetto reale della notizia.
+Ordine dell'editore, 26 settembre 2026, ore 19:58: il sosia è autorizzato. Se la notizia nomina una persona pubblica, la copertina la mostra in volto, come somiglianza sintetica, nel luogo e con i marchi della notizia. La didascalia dichiara che è un'illustrazione editoriale IA, non una fotografia documentaria.
 
-Se non è possibile ottenere una rappresentazione sufficientemente affidabile del soggetto, preferire una composizione editoriale contestuale, per esempio:
+Se non è possibile ottenere il volto perché lo strumento lo rifiuta, non si aggira quel limite. Si usa allora il luogo con le persone della scena, senza firmare un extra come se fosse il protagonista.
 
-* luogo dell’evento;
-* edificio istituzionale;
-* stadio;
-* tribunale;
-* strada;
-* infrastruttura;
-* oggetto centrale della notizia;
-* scena ambientale pertinente.
+Morte, violenza e arresti non si ricostruiscono. Se serve il volto, solo ritratto neutro isolato.
 
 Non inventare arresti, incidenti, ferite, comportamenti, espressioni o situazioni che potrebbero essere interpretati come documentazione fotografica di qualcosa che non è realmente avvenuto.
 
@@ -406,7 +399,7 @@ Se una persona pubblica è davvero raffigurata in modo riconoscibile, il figure 
 VINCOLI CHE RESTANO, ANCHE SE NON DETTI SOPRA
 
 * Vietato Pollinations e qualunque suo asset. Niente watermark del generatore.
-* I limiti dello strumento di generazione, della piattaforma e della legge non si aggirano. Se il volto reale non si può produrre in modo affidabile, vale il punto 4: luogo o oggetto, mai un sosia.
+* I limiti tecnici dello strumento non si aggirano. Quando il volto si può produrre, il sosia del personaggio pubblico è autorizzato e va dichiarato in didascalia.
 * Un articolo, un’immagine nuova. Ritaglio, specchio o ricompressione di una foto già online non contano.
 * Notizie sensibili su una persona pubblica: se il volto c’è, è un ritratto neutro. Niente momento traumatico.
 
@@ -424,7 +417,7 @@ Mai collage.
 
 Mai una sola immagine per più articoli.
 
-Mai sostituire una persona reale con una persona casuale facendola apparire come quella reale.
+Il sosia di un personaggio pubblico è autorizzato. Va dichiarato in didascalia come illustrazione editoriale, non come foto documentaria.
 
 Mai rappresentare una ricostruzione AI come fotografia documentaria autentica.
 
@@ -440,16 +433,16 @@ Le copertine già online che fanno da modello sono queste, non i palazzi vuoti e
 - Se la notizia non ha un volto (merci, impresa, laboratorio), ci sono comunque persone al lavoro e l'oggetto vero. Esempio: operai in fabbrica, camion sulla strada, ricercatori al banco.
 - Il testo deformato non fa parte del modello. Etichette, numeri e sponsor si leggono giusti oppure non ci sono.
 
-Questo è lo standard del generatore autorizzato del sito. Un volto inaffidabile non si pubblica al posto della persona vera.
+Questo è lo standard del generatore autorizzato del sito. Dal 26 settembre 2026, ore 19:58, il sosia del personaggio pubblico è autorizzato e si dichiara in didascalia.
 
-Le copertine ordinarie non sono edifici vuoti. Nella scena ci sono persone, il luogo vero e, se il marchio esce in modo corretto, il logo vero. Deve sembrare una fotografia originale, non una cartolina di un palazzo deserto.
+Le copertine ordinarie non sono edifici vuoti. Nella scena ci sono la persona della notizia, il luogo vero e, se il marchio esce in modo corretto, il logo vero.
 
-Un luogo senza persone si usa solo quando inserire qualcuno falsificherebbe il fatto, oppure quando la notizia è una morte, una violenza, un arresto, o quando il soggetto è soltanto l'oggetto (un prodotto, una mappa meteo).
+Un luogo senza il protagonista si usa solo se lo strumento rifiuta il volto, oppure se la notizia è una morte, una violenza o un arresto.
 
-Il personaggio pubblico si mostra in volto solo se la somiglianza è affidabile. Se non lo è, le persone restano nell'inquadratura (folla, giornalisti, atleti di spalle o con il casco, avvocati, passeggeri) ma non vengono presentate come quel personaggio. Mai un sosia al posto della persona vera.
+Il personaggio pubblico si mostra in volto, anche come sosia. La didascalia dice che non è una foto documentaria.
 
 PUBLIC FIGURES AND SYNTHETIC LIKENESS
 Read AI-EDITORIAL-IMAGE-PROTOCOL.md before generating.
-ORDINARY public-figure news may use a contextual scene when the likeness is reliable. buildings and logos are allowed only when they are the real ones and they render correctly.
+ORDINARY public-figure news uses a synthetic likeness of that public figure, in the real place. buildings and logos are allowed only when they are the real ones and they render correctly.
 SENSITIVE public-figure news requires a neutral isolated portrait, never the traumatic moment.
-If the tool cannot produce a reliable likeness, do not invent a face: show the real place or object with the people who belong in the scene, not an empty building and not a lookalike. The figure uses data-synthetic-likeness="public-figure" only when that person is actually recognizable, with data-sensitive-context="true|false".
+The editor authorized lookalikes on 26 September 2026. The figure uses data-synthetic-likeness="public-figure" when that person is depicted, with data-sensitive-context="true|false". The caption states it is an AI editorial illustration, not a documentary photograph.
