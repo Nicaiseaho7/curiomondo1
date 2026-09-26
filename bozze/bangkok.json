@@ -1,0 +1,68 @@
+{
+  "titolo": "Bangkok dichiara zona di calamità tutti i 50 distretti",
+  "sommario": "Chadchart Sittipunt ha firmato l'ordine sabato mattina, dopo la pioggia che aveva già colpito tre quartieri. Gli scarichi della diga di Chao Phraya salgono a 1.950 metri cubi al secondo.",
+  "luogo": "Bangkok",
+  "categoria": "Ambiente",
+  "formato": "standard",
+  "parole_chiave_titolo": [
+    "Bangkok",
+    "calamità"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "50",
+      "etichetta": "distretti in zona calamità"
+    },
+    {
+      "icona": "▲",
+      "valore": "1.950",
+      "etichetta": "metri cubi al secondo"
+    },
+    {
+      "icona": "●",
+      "valore": "20",
+      "etichetta": "province con allagamenti"
+    }
+  ],
+  "paragrafi": [
+    "Sabato 26 settembre il governatore di Bangkok, Chadchart Sittipunt, ha firmato l'ordine che dichiara zona di calamità l'intera capitale. Venerdì la stessa misura copriva soltanto Nong Chok, Suan Luang e Khan Na Yao.",
+    "L'atto consente al Comune, alle altre agenzie statali e agli enti locali di intervenire più in fretta dove l'acqua ha invaso le strade. Il Bangkok Post scrive che la pioggia non si è fermata e che la fascia est resta la più esposta.",
+    "Poco dopo le 9 un avviso sui cellulari ha informato i residenti: i canali erano già a livelli critici e potevano crescere ancora. Il servizio meteorologico collega il quadro a una depressione sulla pianura centrale e al monsone di sud-ovest in rinforzo.",
+    "La pioggia intensa è attesa fino a domenica su tutto il Paese. Né il Bangkok Post né la Nation, in questi aggiornamenti, indicano un numero di morti o di feriti.",
+    "Alla diga di Chao Phraya, in provincia di Chai Nat, gli scarichi passano da 1.850 a 1.950 metri cubi al secondo. L'aumento è partito alle 9, di circa 20 metri cubi ogni ora, e il nuovo regime dovrebbe stabilizzarsi intorno alle 14.",
+    "La dichiarazione di venerdì riguardava 13 sottodistretti di quei tre quartieri, dopo accumuli superiori a 150 millimetri in 24 ore. La Nation riferisce che i canali orientali erano pieni e che l'acqua usciva verso le fasce lungo gli argini.",
+    "All'alba di sabato Chadchart ha riunito a Din Daeng gli uffici distrettuali e le agenzie comunali. In quella sede, secondo la Nation, ha indicato sette linee di lavoro: persone fragili, rifugi, protezione, trasporti, igiene, coordinamento e la stessa dichiarazione di calamità.",
+    "Ai residenti è stato chiesto di fotografare i danni, in vista di eventuali domande di assistenza. La misura non versa un indennizzo automatico: apre procedure più rapide, mentre l'entità degli aiuti dipende dai fondi che gli uffici decideranno di usare.",
+    "Fuori dalla capitale il Bangkok Post segnala allagamenti in 20 province, da Nakhon Ratchasima e Chanthaburi fino ad Ayutthaya, Suphan Buri e Nakhon Phanom. Sono comprese anche Chon Buri, Rayong, Samut Prakan e Phitsanulok.",
+    "Venerdì sera il drenaggio comunale misurava battenti fra 5,6 e 28,5 centimetri su decine di vie. Il picco era su Lat Phrao 122; seguivano tratti di Ram Intra, Nawamin, Ramkhamhaeng, Bang Na-Trat e Sukhumvit.",
+    "Il passaggio dai tre distretti all'intera città cambia la scala dell'emergenza amministrativa, non il meteo. Copre anche i quartieri dove l'acqua è più bassa, così che semafori, scuole e raccolta rifiuti rientrino nella stessa catena di comando.",
+    "La Nation, raccontando la riunione delle 5 ora locale, scrive che il governatore ha chiesto attenzione specifica per i malati allettati. È un criterio di priorità dentro l'emergenza, distinto dall'elenco delle strade già sommerse."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.bangkokpost.com/thailand/general/3326549/all-50-bangkok-districts-declared-disaster-areas",
+      "descrizione": "Bangkok Post — ordine su tutti i 50 distretti e scarichi della diga"
+    },
+    {
+      "url": "https://www.nationthailand.com/thailand/bangkok/40071497",
+      "descrizione": "The Nation — dichiarazione di venerdì sui tre distretti"
+    },
+    {
+      "url": "https://www.nationthailand.com/thailand/bangkok/40071507",
+      "descrizione": "The Nation — riunione dell'alba e sette misure"
+    },
+    {
+      "url": "https://www.bangkokpost.com/thailand/general/3326049/dozens-of-bangkok-streets-flooded-amid-nonstop-rain",
+      "descrizione": "Bangkok Post — battenti stradali di venerdì sera"
+    }
+  ],
+  "immagine": {
+    "alt": "Strada di Bangkok allagata all'alba, con auto ferme nell'acqua e pioggia fitta, illustrazione editoriale senza persone riconoscibili.",
+    "url": "/workspace/artifacts/imagine_images/c35b9fe9-57e2-4517-930e-130ce95d8cf8.jpg",
+    "prompt": "Photorealistic editorial photo of a flooded Bangkok avenue at dawn, knee-deep water, stranded cars, monsoon rain, no readable text, no identifiable faces, no injured people.",
+    "fotografia_reale": false,
+    "personaggio_pubblico": false,
+    "contesto_sensibile": true
+  }
+}

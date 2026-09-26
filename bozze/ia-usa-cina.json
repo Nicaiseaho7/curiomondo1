@@ -1,0 +1,63 @@
+{
+  "titolo": "Usa e Cina, canale comune per gli incidenti dell'IA",
+  "sommario": "L'ANSA attribuisce alla Casa Bianca l'annuncio di un contatto bilaterale e di un dialogo su rischi e benefici. Giovedì il resoconto cinese parlava già di prevenire gli usi impropri.",
+  "luogo": "Washington",
+  "categoria": "Tecnologia",
+  "formato": "standard",
+  "parole_chiave_titolo": [
+    "Cina",
+    "IA"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "26 set",
+      "etichetta": "nota riferita dalla Casa Bianca"
+    },
+    {
+      "icona": "▲",
+      "valore": "20 set",
+      "etichetta": "proposta Bessent a New York"
+    },
+    {
+      "icona": "●",
+      "valore": "giovedì",
+      "etichetta": "vertice Trump-Xi alla Casa Bianca"
+    }
+  ],
+  "paragrafi": [
+    "Washington e Pechino creeranno un canale di comunicazione dedicato agli incidenti dell'intelligenza artificiale. Lo scrive l'ANSA sabato 26 settembre, attribuendo l'annuncio a una nota della Casa Bianca.",
+    "La stessa sintesi parla di un dialogo sulla cosiddetta superintelligenza, per scambiarsi opinioni sui pericoli e sui vantaggi. Il testo integrale del comunicato americano non è riprodotto dall'agenzia.",
+    "Il tema era già sul tavolo giovedì, al termine dei colloqui fra Donald Trump e Xi Jinping. Il ministero degli Esteri cinese, nel proprio resoconto, attribuisce a Xi una formula vicina: proseguire il confronto e prevenire insieme abusi e usi distorti.",
+    "In pubblico, accanto al presidente americano, Xi ha detto che lo sviluppo di questi sistemi deve restare sotto controllo umano e servire il benessere delle persone. Poche ore prima Trump aveva scritto di voler lasciare la super intelligence esattamente dov'è, con il Dipartimento di Giustizia come unico argine.",
+    "Il contatto operativo era stato proposto domenica 20 settembre a New York, nell'incontro fra il segretario al Tesoro Scott Bessent e il vicepremier He Lifeng. Alla CNBC Bessent lo ha chiamato una linea da usare soprattutto se accade un incidente.",
+    "Politico, citando quattro persone informate dei colloqui, ha descritto un filo diretto fra i due responsabili, non un organismo di tecnici. Al 22 settembre quelle fonti dicevano che Pechino non aveva ancora accettato il meccanismo in pubblico.",
+    "Se la nota di sabato corrisponde alla sintesi dell'ANSA, Washington presenta ora il canale come un impegno, non più solo come un'idea americana. Il resoconto cinese di giovedì insiste sul dialogo e sul controllo umano, senza nominare un telefono di crisi.",
+    "Bessent ha limitato l'esempio pubblico agli episodi con effetti sulla sicurezza nazionale. Non ha elencato, in quell'intervista, se rientrino sistemi militari, reti civili o modelli usciti dal controllo di chi li ha addestrati.",
+    "La distinzione è pratica. Un confronto politico periodico non è la stessa cosa di una linea che squilla durante una crisi, e fino a venerdì le due formule viaggiavano separate.",
+    "The Next Web ricorda che, fino a venerdì mattina a Washington, la Casa Bianca non aveva pubblicato un proprio resoconto del vertice. L'annuncio riferito sabato dall'agenzia italiana arriva quindi dopo quel silenzio, e non è una semplice rilettura del comunicato di Pechino.",
+    "Il perimetro resta politico, non tecnico. Nessuna delle sintesi disponibili elenca un numero verde, un tempo massimo di risposta o un elenco di episodi che farebbero scattare la chiamata."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/09/26/usa-e-cina-un-canale-di-comunicazione-per-gli-incidenti-legati-allia_14d8a37b-e7a3-4ffe-92e7-9894ec109cf3.html",
+      "descrizione": "ANSA — nota della Casa Bianca sul canale per gli incidenti"
+    },
+    {
+      "url": "https://www.politico.com/news/2026/09/22/new-ai-safety-mechanism-is-a-channel-between-bessent-and-his-chinese-counterpart-01086967",
+      "descrizione": "Politico — proposta Bessent-He e limiti del meccanismo"
+    },
+    {
+      "url": "https://thenextweb.com/news/us-china-ai-dialogue-xi-trump-misuse",
+      "descrizione": "The Next Web — resoconto cinese del vertice su rischi e abusi"
+    }
+  ],
+  "immagine": {
+    "alt": "Tavolo diplomatico con una linea telefonica rossa fra le bandiere di Stati Uniti e Cina, senza persone.",
+    "url": "/workspace/artifacts/imagine_images/89f4e5a6-e2a9-47e8-85fc-c38d77c7d02d.jpg",
+    "prompt": "Photorealistic editorial photo of a red secure telephone between a United States flag and a China flag on a wooden table, empty chairs, no people, no readable text.",
+    "fotografia_reale": false,
+    "personaggio_pubblico": false,
+    "contesto_sensibile": false
+  }
+}

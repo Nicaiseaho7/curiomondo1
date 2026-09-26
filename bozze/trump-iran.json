@@ -1,0 +1,63 @@
+{
+  "titolo": "Trump respinge la tregua di sette giorni proposta dall'Iran",
+  "sommario": "Il Wall Street Journal, citando funzionari americani, scrive che il presidente prevede nuovi bombardamenti dopo le elezioni di metà mandato. Reuters non ha confermato subito quella ricostruzione.",
+  "luogo": "Washington",
+  "categoria": "Mondo",
+  "formato": "standard",
+  "parole_chiave_titolo": [
+    "Trump",
+    "Iran"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "7 giorni",
+      "etichetta": "durata della tregua proposta"
+    },
+    {
+      "icona": "▲",
+      "valore": "novembre",
+      "etichetta": "elezioni di metà mandato"
+    },
+    {
+      "icona": "●",
+      "valore": "Hormuz",
+      "etichetta": "stretto da riaprire nel piano"
+    }
+  ],
+  "paragrafi": [
+    "Donald Trump avrebbe respinto un piano iraniano di tregua per sette giorni e avrebbe detto ai collaboratori che prevede di riprendere i bombardamenti dopo le elezioni americane di metà mandato. È la ricostruzione del Wall Street Journal, basata su funzionari statunitensi non nominati.",
+    "Il Times of Israel, rilanciando lo stesso articolo, aggiunge un limite riferito da quei funzionari: il presidente sarebbe riluttante a riaprire subito operazioni di larga scala. L'ampiezza dei colpi non è definita e la linea potrebbe spostarsi anche in base al voto di novembre.",
+    "Stando a quel racconto, l'offerta prevedeva la riapertura dello Stretto di Hormuz e il ritorno ai negoziati sul nucleare. In cambio Washington avrebbe tolto il blocco dei porti, liberato parte dei beni congelati e allentato le sanzioni sul petrolio.",
+    "Il ministro degli Esteri Abbas Araghchi aveva già illustrato il piano venerdì, a margine dell'Assemblea delle Nazioni Unite. Ha detto che Teheran lo ha trasmesso tramite intermediari, fra cui il Qatar, e che se gli Stati Uniti sono seri nel riaprire lo stretto tutto è pronto.",
+    "Reuters ha raccolto un'altra versione da un funzionario americano: i contatti attraverso i mediatori sarebbero positivi e costruttivi, ma Trump resterebbe scettico in privato sulla disponibilità di Teheran a soddisfare le sue richieste. L'agenzia precisava di non poter confermare subito la bocciatura descritta dal Journal.",
+    "Il rifiuto riferito sabato non chiude quindi, da solo, il canale indiretto. Separa ciò che i mediatori discutono da ciò che il presidente, secondo i funzionari sentiti dal giornale, direbbe nel proprio staff.",
+    "Martedì, dal podio dell'Assemblea generale, Trump aveva messo in pubblico l'alternativa: un accordo che lasci all'Iran la possibilità di ricostruirsi, oppure annientare la Repubblica islamica in tempi brevi. Aveva aggiunto di credere che l'intesa arrivi dopo le elezioni.",
+    "La frase di martedì indicava un accordo come esito probabile. Il racconto di venerdì sera, se regge, indica invece che in privato considera probabile una nuova campagna aerea. Le due versioni convivono e la Casa Bianca non le ha riallineate in queste ore.",
+    "Il conflitto a cui si riferiscono i funzionari dura da circa sette mesi, con trattative intermittenti e il traffico nello stretto già ridotto. Nessun atto pubblicato indica un ordine già firmato per riprendere gli attacchi: l'elemento nuovo è un'intenzione riferita, non un calendario operativo.",
+    "Araghchi ha detto che il piano ricalca il memorandum di giugno e ne spezza le tappe, così che i colloqui sul nucleare partano alla fine della settimana e non dopo sessanta giorni. Anche questo è un annuncio iraniano, in attesa di una risposta americana formale.",
+    "Bloomberg ha ripreso la stessa ricostruzione del Journal nella notte fra venerdì e sabato, senza aggiungere dichiarazioni della Casa Bianca. Il quadro pubblico resta quindi quello di un rifiuto attribuito, non di un comunicato firmato dal presidente."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.timesofisrael.com/liveblog_entry/trump-rejects-iran-ceasefire-proposal-expects-to-renew-strikes-after-midterms-wsj/",
+      "descrizione": "Times of Israel — il Journal sui bombardamenti dopo le midterm"
+    },
+    {
+      "url": "https://www.al-monitor.com/originals/2026/09/trump-rejects-iranian-peace-proposal-wsj-reports",
+      "descrizione": "Al-Monitor / Reuters — piano di Araghchi e mancata conferma immediata"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-09-26/trump-rejects-iran-s-seven-day-ceasefire-proposal-wsj-reports",
+      "descrizione": "Bloomberg — sintesi della ricostruzione del Wall Street Journal"
+    }
+  ],
+  "immagine": {
+    "alt": "Petroliere in attesa all'alba nello Stretto di Hormuz, acqua calma e montagne sullo sfondo, senza azioni militari.",
+    "url": "/workspace/artifacts/imagine_images/d348ef47-e6f2-4fe8-9d99-2612256d770f.jpg",
+    "prompt": "Photorealistic editorial photo of oil tankers waiting at dawn in the Strait of Hormuz, calm water, hazy mountains, no explosions, no readable text.",
+    "fotografia_reale": false,
+    "personaggio_pubblico": false,
+    "contesto_sensibile": true
+  }
+}

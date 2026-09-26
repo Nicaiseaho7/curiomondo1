@@ -1,0 +1,59 @@
+{
+  "titolo": "Intelligence egiziana, l'allarme a Israele prima del 7 ottobre",
+  "sommario": "The Atlantic ricostruisce un volo di Abbas Kamel a Tel Aviv il 26 settembre 2023, undici giorni prima dell'attacco di Hamas. Non c'è un atto ufficiale che confermi l'incontro.",
+  "luogo": "Tel Aviv",
+  "categoria": "Mondo",
+  "formato": "standard",
+  "parole_chiave_titolo": [
+    "egiziana",
+    "Israele"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "26 set 2023",
+      "etichetta": "giorno del volo ricostruito"
+    },
+    {
+      "icona": "▲",
+      "valore": "11 giorni",
+      "etichetta": "prima dell'attacco di Hamas"
+    },
+    {
+      "icona": "●",
+      "valore": "2 ore",
+      "etichetta": "prima del discorso di Netanyahu"
+    }
+  ],
+  "paragrafi": [
+    "Abbas Kamel, allora capo dell'intelligence egiziana, avrebbe avvertito Israele che Hamas sembrava preparare un attacco di larga scala. Lo sostiene un'inchiesta di The Atlantic uscita il 25 settembre 2026, firmata da Vivian Salama.",
+    "Il racconto colloca il viaggio al 26 settembre 2023, undici giorni prima dell'assalto del 7 ottobre. Un Cessna collegato ai servizi del Cairo sarebbe atterrato al Ben Gurion, in un settore appartato riservato alle missioni sensibili.",
+    "L'arrivo precedeva di circa due ore un discorso di Benjamin Netanyahu a Gerusalemme, per i cinquant'anni della guerra del Kippur. In quell'intervento il premier definì l'attacco del 1973 una lezione sugli avvertimenti mancati e disse che Israele non sottovaluta alcuna minaccia.",
+    "Secondo funzionari israeliani, egiziani, arabi, americani ed europei informati dopo il massacro, Kamel disse che la finestra per evitare un disastro si stava chiudendo. Avrebbe consigliato concessioni economiche a Hamas per scongiurare lo scontro.",
+    "Un ex funzionario israeliano, aggiornato in un secondo momento, riassume la frase così: se non cambiate rotta, Gaza vi scoppierà in faccia. L'inchiesta presenta quella battuta come il ricordo di una persona, non come un verbale.",
+    "Non è stato pubblicato un documento israeliano dell'epoca né una conferma del governo di allora. Le fonti della rivista restano anonime e furono informate dopo il 7 ottobre: non sono un atto contemporaneo reso noto.",
+    "The Atlantic non scrive che Netanyahu, nel discorso del pomeriggio, si riferisse al volo di Kamel. Avvicina i due fatti nel tempo e li lascia distinti.",
+    "L'ANSA ha rilanciato la ricostruzione nella notte fra venerdì e sabato, da New York. Aggiunge che Kamel non avrebbe indicato il giorno dell'attacco e che non è chiaro quale funzionario israeliano abbia incontrato.",
+    "Quei due limiti descrivono ciò che la ricostruzione non fissa, non una smentita. In queste ore non compare una replica nominativa del Cairo o di Gerusalemme.",
+    "Finché non arriva un atto o una conferma pubblica, la notizia è il contenuto dell'inchiesta. Non dimostra che un allarme preciso sia stato ricevuto, discusso e scartato in una riunione identificata.",
+    "Lo stesso 26 settembre 2023 Israele commemorava l'attacco a sorpresa del 1973. L'inchiesta mette i due appuntamenti nello stesso giorno e non dimostra un nesso fra la cerimonia e l'atterraggio."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.theatlantic.com/national-security/2026/09/egypt-israel-gaza-hamas-palestinian-october-7/688720/",
+      "descrizione": "The Atlantic — inchiesta sul viaggio di Abbas Kamel"
+    },
+    {
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/09/26/media-intelligence-egiziana-aveva-avvertito-israele-prima-del-7-ottobre_494a87b9-048a-4412-a983-e30e5dbb973c.html",
+      "descrizione": "ANSA — rilancio con i limiti su data e interlocutore"
+    }
+  ],
+  "immagine": {
+    "alt": "Jet privato fermo su un piazzale aeroportuale appartato, senza persone e senza scritte visibili.",
+    "url": "/workspace/artifacts/imagine_images/ac7dbf12-4413-41c0-9ad7-69ec2542a3f5.jpg",
+    "prompt": "Photorealistic editorial photo of a small private jet alone on an isolated airport apron, no people, no readable text, calm light, not a crash.",
+    "fotografia_reale": false,
+    "personaggio_pubblico": false,
+    "contesto_sensibile": true
+  }
+}

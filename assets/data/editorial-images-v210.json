@@ -1,7 +1,38 @@
 {
-  "version": 592,
+  "version": 593,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Petroliere in attesa all'alba nello Stretto di Hormuz, acqua calma e montagne sullo sfondo, senza azioni militari.",
+      "prompt": "Photorealistic editorial photo of oil tankers waiting at dawn in the Strait of Hormuz, calm water, hazy mountains, no explosions, no readable text.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/trump-respinge-la-tregua-di-sette-giorni-proposta-dall-iran-v593-480.webp",
+          "sha256": "7278e24140fc315706ef4030c09178e7a79b8ce613d1f609d027484a9b24b2e4",
+          "bytes": 13692
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/trump-respinge-la-tregua-di-sette-giorni-proposta-dall-iran-v593-800.webp",
+          "sha256": "5c5268a6f196ce7e47d15556ff3ac00529e58622ef008003d5fc687355402dbc",
+          "bytes": 37760
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/trump-respinge-la-tregua-di-sette-giorni-proposta-dall-iran-v593-1200.webp",
+          "sha256": "b7cfed3bcea026b644845d309c14bc4bccb96516b916c80ccff44188c2c906d8",
+          "bytes": 75636
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/trump-respinge-la-tregua-di-sette-giorni-proposta-dall-iran-26-09-2026.html"
+    },
     {
       "key": "730-call-center-agenzia-entrate-26-settembre-2026-v592",
       "alt": "Sede dell’Agenzia delle Entrate con postazione telefonica di assistenza fiscale in primo piano; illustrazione editoriale IA non documentaria.",
