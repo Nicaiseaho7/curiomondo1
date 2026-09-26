@@ -1,5 +1,6 @@
 :root{--cm-featured-red:#B91C1C}
-.featured[hidden],.auto-rail-label[hidden],.auto-rail[hidden]{display:none!important}
+.featured,.featured[hidden],.auto-rail-label[hidden],.auto-rail[hidden],.cm-wire--legacy{display:none!important}
+main > #cm-ultima-ora{display:none!important}
 .cm-home-editorial{display:block;margin:18px 0 34px}
 .cm-home-editorial:empty{min-height:0}
 .cm-topic-lead{--cm-category-color:#475569;position:relative;display:flex;flex-direction:column;min-height:0;margin:0 0 24px;border:1px solid var(--cm-border,#dbe5ee);border-top:4px solid var(--cm-category-color);border-radius:15px;box-shadow:0 12px 28px rgba(16,41,64,.11);overflow:hidden;background:var(--cm-paper,#fff)}

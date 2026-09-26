@@ -419,6 +419,7 @@ def sync_surfaces(new_articles: list[dict[str, Any]], featured_url: str, version
     cards.set("data-initial-count", str(min(39, max(0, len(ordered) - 5))))
     _sync_ultima_ora(doc, feed_items)
     home_path.write_text('<!doctype html>\n' + html.tostring(doc, encoding="unicode", method="html"), encoding="utf-8")
+    subprocess.run(["node", str(ROOT / "tools/render_home_editorial.js")], cwd=ROOT, check=True)
 
     archive_path = ROOT / "notizie/index.html"; archive = html.fromstring(archive_path.read_text(encoding="utf-8"))
     main = archive.xpath('//main')[0]; lead = main.xpath('./p[1]')

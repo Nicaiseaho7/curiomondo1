@@ -1,6 +1,27 @@
-/* CurioMondo v528 — la home è già nel HTML. Il feed da 800 KB non parte al primo disegno. */
+/* CurioMondo v529 — la home nuova è già nel HTML. Nessun salto dopo il caricamento. */
 (() => {
   'use strict';
+  const existing = document.getElementById('cm-home-editorial-v504');
+  if (existing && existing.dataset.static === 'ready') {
+    const viewport = existing.querySelector('.cm-featured-carousel__viewport');
+    const slides = Array.from(existing.querySelectorAll('.cm-featured-carousel__slide'));
+    const dots = Array.from(existing.querySelectorAll('.cm-featured-carousel__dot'));
+    const arrows = existing.querySelectorAll('.cm-featured-carousel__arrow');
+    if (viewport && slides.length) {
+      const currentIndex = () => Math.max(0, Math.min(slides.length - 1, Math.round(viewport.scrollLeft / Math.max(1, viewport.clientWidth))));
+      const update = () => dots.forEach((dot, index) => {
+        const active = index === currentIndex();
+        dot.classList.toggle('is-active', active);
+        dot.setAttribute('aria-current', active ? 'true' : 'false');
+      });
+      const go = (delta) => viewport.scrollTo({ left: ((currentIndex() + delta + slides.length) % slides.length) * viewport.clientWidth, behavior: 'smooth' });
+      if (arrows[0]) arrows[0].addEventListener('click', () => go(-1));
+      if (arrows[1]) arrows[1].addEventListener('click', () => go(1));
+      dots.forEach((dot, index) => dot.addEventListener('click', () => slides[index].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })));
+      viewport.addEventListener('scroll', update, { passive: true });
+    }
+    return;
+  }
   const A = window.CMHomepageAllocation;
   if (!A) return;
   const $ = (selector, root = document) => root.querySelector(selector);
