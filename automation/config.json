@@ -187,12 +187,12 @@
   "newsroom": {
     "modello_verifica": "gpt-5",
     "modello_stesura": "gpt-5",
-    "modello_immagine": "agente-editoriale",
-    "modello_verifica_immagine": "agente-editoriale",
+    "modello_immagine": "gpt-image-1",
+    "modello_verifica_immagine": "gpt-4o",
     "tetto_giornaliero_usd": 5.0,
     "soglia_allerta": 0.8,
     "max_bozze_per_ciclo": 3,
     "max_fonti_lette_per_notizia": 6,
-    "note": "Dal 26 settembre 2026 le copertine le fa l'agente editoriale in sessione, non gpt-image-1. I modelli di testo restano per la stesura, se la chiave c'e."
+    "note": "Modelli confermati disponibili sull'account il 13 settembre 2026. Il tetto e giornaliero e persistente: superato, il worker si rifiuta di chiamare il modello."
   }
 }

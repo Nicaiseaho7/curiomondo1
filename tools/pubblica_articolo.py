@@ -26,7 +26,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from automation.newsroom import editor, site  # noqa: E402
-from automation.newsroom.openai_client import OpenAIError  # noqa: E402
+from automation.newsroom.openai_client import Client, OpenAIError  # noqa: E402
 from automation.newsroom.publisher import (  # noqa: E402
     CAPTION,
     _save_variants,
@@ -69,10 +69,13 @@ def scarica_immagine(origine: str) -> bytes:
 
 
 def genera_immagine(prompt: str) -> tuple[bytes, str]:
-    raise OpenAIError(
-        "le copertine le genera l'agente editoriale, non gpt-image-1. "
-        "Passa immagine.url con il file gia pronto."
-    )
+    client = Client(timeout=300, retries=2)
+    if not client.available:
+        raise OpenAIError("OPENAI_API_KEY non configurata per la generazione dell'immagine")
+    raw, _ = client.generate_image("gpt-image-1", prompt, size="1536x1024", quality="high")
+    report, _ = client.inspect_image("gpt-4o", raw, prompt)
+    _validate_visual_report(report)
+    return raw, "OpenAI gpt-image-1"
 
 
 # I tre controlli che devono passare prima che il sito cambi. Sono gli stessi
