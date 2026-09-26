@@ -1,7 +1,38 @@
 {
-  "version": 582,
+  "version": 584,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "meteo-italia-26-settembre-3-ottobre-2026-v584",
+      "alt": "Mappa meteo editoriale dell’Italia per sabato 26 settembre 2026 con regioni, città principali, temperature e tendenza dei successivi sette giorni.",
+      "prompt": "Mappa meteorologica editoriale dell’Italia per sabato 26 settembre 2026, con confini regionali chiari, città principali e temperature, simboli di sole e ultimi rovesci al Sud, testo italiano leggibile.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/meteo-italia-26-settembre-3-ottobre-2026-v584-480.webp",
+          "sha256": "ecedfa45aeb4ceb03f68507feea45445c3346aa6d6ab3cc87530f4ab3ef612ed",
+          "bytes": 50596
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/meteo-italia-26-settembre-3-ottobre-2026-v584-800.webp",
+          "sha256": "7f5e7a7ff259f7626f8ca4c70295f2e57bdc6e110026a1d47469479e64a8d170",
+          "bytes": 114384
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/meteo-italia-26-settembre-3-ottobre-2026-v584-1200.webp",
+          "sha256": "307bb1eca61c78b3db2d6d81911a5615f9c41428fdc17d6b79d9d7915bcee1cf",
+          "bytes": 196272
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation tool",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/meteo-italia-26-settembre-3-ottobre-2026.html"
+    },
     {
       "alt": "Karl Bushby con il carrello da spedizione su una costa della Manica all’alba; scena editoriale contestuale generata con IA, non documentaria.",
       "prompt": "Immagine editoriale originale generata dalla redazione con OpenAI per questo specifico articolo, verificata come singola scena coerente, priva di testo sovrapposto e non presentata come fotografia documentaria.",
