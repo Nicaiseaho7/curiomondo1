@@ -1,32 +1,125 @@
 {
-  "version": 623,
+  "version": 624,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
-      "alt": "Place de la Concorde a Parigi, con l'obelisco e la folla vista di spalle.",
-      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "alt": "Donald Trump al podio Casa Bianca, volto visibile, bandiere USA",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-v631-480.webp",
-          "sha256": "94ad3f678bb7a040bc715d7e486f9dea94e1c5eb7f9ffc4a4f47d63cef4975ad",
-          "bytes": 37438
+          "src": "/assets/images/editorial-auto/trump-le-fake-news-non-devono-entrare-alla-casa-bianca-v700-480.webp",
+          "sha256": "55c808a7c067c6c91265b5704c315444a83ea4dbc2703e8e481c361f81272461",
+          "bytes": 12010
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-v631-800.webp",
-          "sha256": "a96590ed690967db234ce56faa80d83ec9f400ba4c42639dd8c8fb0f7aed1494",
-          "bytes": 95484
+          "src": "/assets/images/editorial-auto/trump-le-fake-news-non-devono-entrare-alla-casa-bianca-v700-800.webp",
+          "sha256": "e0783ee806c1049f22de20c50c712880289f798d2f5351fc29a63e66819b108a",
+          "bytes": 23230
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-v631-1200.webp",
-          "sha256": "5656be0eae7cbcbe17bb9a9a860a9e077154f69cbffb83c1cd439817980d863d",
-          "bytes": 185034
+          "src": "/assets/images/editorial-auto/trump-le-fake-news-non-devono-entrare-alla-casa-bianca-v700-1200.webp",
+          "sha256": "fe1e666d0ef200aa4e3c4e9ec787c41a2f43a2475fdcc08e42df4dcb315a1aa2",
+          "bytes": 41502
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/trump-le-fake-news-non-devono-entrare-alla-casa-bianca-26-09-2026.html"
+    },
+    {
+      "alt": "Luna Rossa AC40 in foiling nel Golfo di Napoli con Vesuvio, equipaggio a bordo",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/luna-rossa-in-testa-a-napoli-i-francesi-tornano-in-acqua-v700-480.webp",
+          "sha256": "4f9e4e21f2037747f035e77199233bf52d6464ea680919d9f7afee77e3a19924",
+          "bytes": 28404
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/luna-rossa-in-testa-a-napoli-i-francesi-tornano-in-acqua-v700-800.webp",
+          "sha256": "37ec8ee2dc7b918ae491b9644b98d6d30a53b651af6cb13ae3147782ef44e5f4",
+          "bytes": 70992
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/luna-rossa-in-testa-a-napoli-i-francesi-tornano-in-acqua-v700-1200.webp",
+          "sha256": "4a1572bf442ddc0a136c9e2cc846685431c97b9b46a4af87327dc008dd41c246",
+          "bytes": 139000
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/luna-rossa-in-testa-a-napoli-i-francesi-tornano-in-acqua-26-09-2026.html"
+    },
+    {
+      "alt": "Ritratto editoriale showman in giacca di pelle, volto verso camera, sfondo nero",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/fiorello-annuncia-il-ritorno-su-rai1-con-un-video-muto-v700-480.webp",
+          "sha256": "21790ec812336a9787ea3fc59eb347dad544cd65714a979c1866608e8c67ea62",
+          "bytes": 5968
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/fiorello-annuncia-il-ritorno-su-rai1-con-un-video-muto-v700-800.webp",
+          "sha256": "3ea72e6397b26be0032b06f8ae6d470de15d360eedfab933bfb2219987040a01",
+          "bytes": 15612
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/fiorello-annuncia-il-ritorno-su-rai1-con-un-video-muto-v700-1200.webp",
+          "sha256": "7f148f6a370580d7455bb991eb2bec0170f5fc977a1b68bcad9275e6bdda2c22",
+          "bytes": 35050
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/fiorello-annuncia-il-ritorno-su-rai1-con-un-video-muto-26-09-2026.html"
+    },
+    {
+      "alt": "Papa Leone XIV di fronte al pubblico a Place de la Concorde durante la messa",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-v700-480.webp",
+          "sha256": "f02e34927cbba7ccb4e60f9c3883291099a25cba0b25915ef06aec2e48401786",
+          "bytes": 54182
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-v700-800.webp",
+          "sha256": "aa150f80b5670fb1f691447c2ff03f514d341a8d2a5e308ccc944081f7468dae",
+          "bytes": 142766
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-v700-1200.webp",
+          "sha256": "316cc205b9819c258408e5476feae342b566dc7eab0b0eba86309336f1f7b537",
+          "bytes": 281684
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
@@ -34,30 +127,30 @@
       "article": "/notizie/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-26-09-2026.html"
     },
     {
-      "alt": "Giornalisti davanti alla Farnesina, con la bandiera italiana.",
-      "prompt": "Giornalisti davanti alla Farnesina, con la bandiera italiana.",
+      "alt": "Antonio Tajani al Villaggio della legalità a Roma, volto visibile, ufficiali di polizia, luce naturale",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/tajani-ai-magistrati-colpirne-uno-per-educarne-cento-v660-480.webp",
-          "sha256": "8559244fc167a3c7df7ed77c857b5471777c26ca101139a0336be65cf5679dbe",
-          "bytes": 23608
+          "src": "/assets/images/editorial-auto/tajani-ai-magistrati-colpirne-uno-per-educarne-cento-v700-480.webp",
+          "sha256": "b4755ce16fcd84d4ea87756958789f7cc992b0356c7322748c0dbc51b099b419",
+          "bytes": 24546
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/tajani-ai-magistrati-colpirne-uno-per-educarne-cento-v660-800.webp",
-          "sha256": "3ae3f9f6ef60b68f097b4d5d8d76df728c45044832943032a43fbe6bb827ecd2",
-          "bytes": 58962
+          "src": "/assets/images/editorial-auto/tajani-ai-magistrati-colpirne-uno-per-educarne-cento-v700-800.webp",
+          "sha256": "c73ee057289cc75113d52d825c6e4210df05a594a3f205b3b11b008e45ab7e0c",
+          "bytes": 48656
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/tajani-ai-magistrati-colpirne-uno-per-educarne-cento-v660-1200.webp",
-          "sha256": "d2435bb155ceb58b1b52de679476259f25c692ccdcd697e624bb8e6f8df71c45",
-          "bytes": 123268
+          "src": "/assets/images/editorial-auto/tajani-ai-magistrati-colpirne-uno-per-educarne-cento-v700-1200.webp",
+          "sha256": "5f56e28550e72c8a371075f33884713269f2611d9f59be3abaf9fdff6ab5712d",
+          "bytes": 84088
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
@@ -65,30 +158,30 @@
       "article": "/notizie/tajani-ai-magistrati-colpirne-uno-per-educarne-cento-26-09-2026.html"
     },
     {
-      "alt": "Un traliccio dell'alta tensione in aperta campagna, senza persone.",
-      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "alt": "Traliccio alta tensione campagne Bottedo al crepuscolo con luci emergenza, senza persone",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/lodi-un-15enne-trovato-morto-sotto-un-traliccio-a-bottedo-v621-480.webp",
-          "sha256": "05404dabaea0156bd79eb59427bfff132b298e450f1b2d51cf906482519ea041",
-          "bytes": 21160
+          "src": "/assets/images/editorial-auto/lodi-un-15enne-trovato-morto-sotto-un-traliccio-a-bottedo-v700-480.webp",
+          "sha256": "a6d36446203bebf00940df3e3617434016756ebb3140130d09ac018d47a0c629",
+          "bytes": 17400
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/lodi-un-15enne-trovato-morto-sotto-un-traliccio-a-bottedo-v621-800.webp",
-          "sha256": "25ec466ed14367d5ae881261ad1f29c7049300d780da186331871819a3939d8c",
-          "bytes": 53790
+          "src": "/assets/images/editorial-auto/lodi-un-15enne-trovato-morto-sotto-un-traliccio-a-bottedo-v700-800.webp",
+          "sha256": "719581e714f85572e950972b6171f1b4647254cb9ceef0ca52c48bb6dd95965f",
+          "bytes": 46366
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/lodi-un-15enne-trovato-morto-sotto-un-traliccio-a-bottedo-v621-1200.webp",
-          "sha256": "b39e0edcf59ccc9e473d6fe56bfa0137ad09f638f8628315047203957cb677ff",
-          "bytes": 108264
+          "src": "/assets/images/editorial-auto/lodi-un-15enne-trovato-morto-sotto-un-traliccio-a-bottedo-v700-1200.webp",
+          "sha256": "0bb7cc1fbc9f6998a6c9debc4fc667d31e60a2c36d1cd20e98001b5039601f13",
+          "bytes": 94296
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
@@ -96,30 +189,30 @@
       "article": "/notizie/lodi-un-15enne-trovato-morto-sotto-un-traliccio-a-bottedo-26-09-2026.html"
     },
     {
-      "alt": "Funzionari di spalle davanti alla Casa Bianca, con le bandiere di Stati Uniti e Cina.",
-      "prompt": "Funzionari di spalle davanti alla Casa Bianca, con le bandiere di Stati Uniti e Cina.",
+      "alt": "Trump e Xi si stringono la mano in contesto diplomatico con documenti commerciali",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-v674-480.webp",
-          "sha256": "87912d5780d6206b483d7901cf55820a4316b40952cf53e9633a2b8d5cbb3ca8",
-          "bytes": 25550
+          "src": "/assets/images/editorial-auto/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-v700-480.webp",
+          "sha256": "536b482ac03d960def7c8bb4a0d0ec456bd13c4869c1177709d75eb2fbda64b5",
+          "bytes": 25750
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-v674-800.webp",
-          "sha256": "12761396d50ceec6b72ecb20b6f145c3f9d2bfb819ebecbff09c0678c8185e6c",
-          "bytes": 61404
+          "src": "/assets/images/editorial-auto/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-v700-800.webp",
+          "sha256": "d244d48f48077930f0d91eac6838619df608594717cee4d194abda4645d47b48",
+          "bytes": 49538
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-v674-1200.webp",
-          "sha256": "1907c693dba9071299ce0c7f9e2e115a468644a141774350b79b508fc8e823c1",
-          "bytes": 113608
+          "src": "/assets/images/editorial-auto/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-v700-1200.webp",
+          "sha256": "4db940379673d7855c6dcc725f9aa1e259ad5ef4bbdb4af56fced04979bafa0c",
+          "bytes": 82638
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
@@ -127,30 +220,30 @@
       "article": "/notizie/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-26-09-2026.html"
     },
     {
-      "alt": "La cascata Ravana, vicino a Ella nello Sri Lanka, senza persone.",
-      "prompt": "La cascata Ravana, vicino a Ella nello Sri Lanka, senza persone.",
+      "alt": "Cascata Ravana nello Sri Lanka con piattaforma vuota, senza persone",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/stragliotto-morta-alla-cascata-ravana-in-sri-lanka-v647-480.webp",
-          "sha256": "c466a294121e73998cbff9c3e5493a4fb8adee9087b5b76e755c8a775384a0a6",
-          "bytes": 45722
+          "src": "/assets/images/editorial-auto/stragliotto-morta-alla-cascata-ravana-in-sri-lanka-v700-480.webp",
+          "sha256": "ad73e105573b8e77597c498ef4accc502147a145c3ba905ec5c74c26aff9e6f9",
+          "bytes": 44592
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/stragliotto-morta-alla-cascata-ravana-in-sri-lanka-v647-800.webp",
-          "sha256": "10c7733b2c6d440b9c84233bc7ef2b1e8ca2f8148bf61c3f17334411bd2e4a5a",
-          "bytes": 121012
+          "src": "/assets/images/editorial-auto/stragliotto-morta-alla-cascata-ravana-in-sri-lanka-v700-800.webp",
+          "sha256": "0b311a874f0d57fd686a1bb1b9ff20150a0b07b8c45685364b2213e59c5ecfaa",
+          "bytes": 121910
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/stragliotto-morta-alla-cascata-ravana-in-sri-lanka-v647-1200.webp",
-          "sha256": "278a40a08c11c889384b7f61d90619d5df2c2b3c06b5e78fa8d408cf71210bc3",
-          "bytes": 240186
+          "src": "/assets/images/editorial-auto/stragliotto-morta-alla-cascata-ravana-in-sri-lanka-v700-1200.webp",
+          "sha256": "e45ff66b280ae8909bbacf10a15af1d85882c3b5841ebbf5f432d6651073cc4e",
+          "bytes": 253874
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
@@ -158,30 +251,30 @@
       "article": "/notizie/stragliotto-morta-alla-cascata-ravana-in-sri-lanka-26-09-2026.html"
     },
     {
-      "alt": "Mani che tengono un iPhone, con il logo Apple visibile.",
-      "prompt": "Mani che tengono un iPhone, con il logo Apple visibile.",
+      "alt": "Professionista con iPhone davanti ad Apple Park e logo Apple",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-v675-480.webp",
-          "sha256": "bbe986e7a1ba2c4840dab2975c1ae33b5101dd60b1989b52b896255535641e15",
-          "bytes": 9732
+          "src": "/assets/images/editorial-auto/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-v700-480.webp",
+          "sha256": "5c90744acd374c542b472cb16011cda62c3ec53acbf72266b2b2284e6702d91c",
+          "bytes": 30252
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-v675-800.webp",
-          "sha256": "3f667e09fd9d203f6f7c8fcdf5be1e5cbed499cb0889e0e38c097b3016dc4099",
-          "bytes": 20340
+          "src": "/assets/images/editorial-auto/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-v700-800.webp",
+          "sha256": "d5be60bda0d98435e6afa94ee27617e105a38036b68309e8c6ba310baa07b079",
+          "bytes": 60680
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-v675-1200.webp",
-          "sha256": "14c834d1bf2ab7755f9d92ab09785a9e62a1baa202b2ad614953fbfe8031d419",
-          "bytes": 36600
+          "src": "/assets/images/editorial-auto/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-v700-1200.webp",
+          "sha256": "aaadc37e941cff99453f8fc9488fed693154a40171d8c3e576535fe94cbab023",
+          "bytes": 96368
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
@@ -189,61 +282,61 @@
       "article": "/notizie/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-26-09-2026.html"
     },
     {
-      "alt": "Ricercatori su una barca accanto a una boa nel Mediterraneo.",
-      "prompt": "Ricercatori su una barca accanto a una boa nel Mediterraneo.",
+      "alt": "Etna in eruzione sopra aeroporto Catania, aerei a terra",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/ondate-di-calore-marine-estate-record-nei-mari-d-europa-v673-480.webp",
-          "sha256": "ad179fcfebd98f2dccb87b3d4c6cb7f816f9f82815336f0a1a4b9267bc5cf902",
-          "bytes": 14176
+          "src": "/assets/images/editorial-auto/etna-voli-sospesi-a-catania-fino-alle-12-di-domenica-v700-480.webp",
+          "sha256": "bbccecbbcebf64beb9a6a07a80d0d6d0a72fcd39ba61333e3318f26891d248e9",
+          "bytes": 15938
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/ondate-di-calore-marine-estate-record-nei-mari-d-europa-v673-800.webp",
-          "sha256": "98399d679367108091b3f845b0b393d68dab5af5857dcff2b4e25d9ff5ba07fa",
-          "bytes": 30006
+          "src": "/assets/images/editorial-auto/etna-voli-sospesi-a-catania-fino-alle-12-di-domenica-v700-800.webp",
+          "sha256": "1bc063d72ae160692c3b87c37b6cf149a4cbebff7f9776fc2e04928462ddf177",
+          "bytes": 35988
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/ondate-di-calore-marine-estate-record-nei-mari-d-europa-v673-1200.webp",
-          "sha256": "76aefc71602225455cc0d1967d4372a74220217734c6ededf2651b629c4cf82f",
-          "bytes": 50082
+          "src": "/assets/images/editorial-auto/etna-voli-sospesi-a-catania-fino-alle-12-di-domenica-v700-1200.webp",
+          "sha256": "2b50c39bb74e1f7df74d3dc08feb858f7f0e2bce76c3ac56d933d511a7b47776",
+          "bytes": 68770
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
       "sensitiveContext": false,
-      "article": "/notizie/ondate-di-calore-marine-estate-record-nei-mari-d-europa-26-09-2026.html"
+      "article": "/notizie/etna-voli-sospesi-a-catania-fino-alle-12-di-domenica-26-09-2026.html"
     },
     {
-      "alt": "Residenti di spalle su una passeggiata della costa atlantica, durante la mareggiata.",
-      "prompt": "Residenti di spalle su una passeggiata della costa atlantica, durante la mareggiata.",
+      "alt": "Residenti con volti visibili su boardwalk sotto nor'easter, onde alte",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-v676-480.webp",
-          "sha256": "5077c7d451d28df5785072c4b31f974d83fdd85694ea89eb0e5726809fb1867c",
-          "bytes": 24966
+          "src": "/assets/images/editorial-auto/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-v700-480.webp",
+          "sha256": "acf320ca5df6c99f667b0548f06824c947f6c4a4104b51a9a2b660ad38a39cee",
+          "bytes": 19932
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-v676-800.webp",
-          "sha256": "dc7a3a594c4247d4e440936947b34bfce1cc3c4098fc1af2785759fe70371c69",
-          "bytes": 62116
+          "src": "/assets/images/editorial-auto/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-v700-800.webp",
+          "sha256": "acb4920ca65c8c874e4c193a286f774a162f2de712a8cdd74cca0315cb8d6d0f",
+          "bytes": 48804
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-v676-1200.webp",
-          "sha256": "9ac49cfe61723ceeb00d692986d56ae299fe40f6230cf789a949b81e8d3e1dbb",
-          "bytes": 118120
+          "src": "/assets/images/editorial-auto/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-v700-1200.webp",
+          "sha256": "432ce0ac679f179bbbdc590388f3cb09cdbf2e23cc2a46b6835ff715cad6e67f",
+          "bytes": 93438
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
@@ -251,30 +344,30 @@
       "article": "/notizie/nor-easter-allerta-inondazioni-sulla-costa-est-degli-stati-uniti-26-09-2026.html"
     },
     {
-      "alt": "Passanti davanti al quartier generale dell'Fbi a Washington.",
-      "prompt": "Passanti davanti al quartier generale dell'Fbi a Washington.",
+      "alt": "Giornalisti con taccuini davanti al quartier generale FBI a Washington",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/shinyhunters-file-medici-dell-fbi-mostrati-a-due-redazioni-v671-480.webp",
-          "sha256": "8ffe1de4c5857247bfc39558ec889cbba1ce423af15c701942cab7f735cdf3f7",
-          "bytes": 22174
+          "src": "/assets/images/editorial-auto/shinyhunters-file-medici-dell-fbi-mostrati-a-due-redazioni-v700-480.webp",
+          "sha256": "f1645f2e94334940e1ccf02d2746c6a4eeb7d3360451408024f0d87803308aba",
+          "bytes": 23012
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/shinyhunters-file-medici-dell-fbi-mostrati-a-due-redazioni-v671-800.webp",
-          "sha256": "48ba457b3ed9f34c09668432c654fef8f8f7e8f97bf26417fd92fcfee09f2d70",
-          "bytes": 56672
+          "src": "/assets/images/editorial-auto/shinyhunters-file-medici-dell-fbi-mostrati-a-due-redazioni-v700-800.webp",
+          "sha256": "c764b6de5c9cbe50401d0b0a5e623e52498d5ff9e38d1261af9a2719139b9f01",
+          "bytes": 46568
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/shinyhunters-file-medici-dell-fbi-mostrati-a-due-redazioni-v671-1200.webp",
-          "sha256": "45ddcca4f4aeae63da8f69150d2b78dc5f8d93339ad5baee7302860e1fdf3615",
-          "bytes": 111434
+          "src": "/assets/images/editorial-auto/shinyhunters-file-medici-dell-fbi-mostrati-a-due-redazioni-v700-1200.webp",
+          "sha256": "633200c05bd7196cc6f620bd0b1c7b70a4de4e321116d292a0f73ac858cecb4c",
+          "bytes": 74824
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
@@ -313,123 +406,30 @@
       "article": "/notizie/etna-voli-sospesi-a-catania-fino-alle-12-di-domenica-26-09-2026.html"
     },
     {
-      "alt": "Persone e giornalisti davanti a Palazzo Montecitorio.",
-      "prompt": "Persone e giornalisti davanti a Palazzo Montecitorio.",
+      "alt": "Cancello e cortile di scuola storica a Genova al mattino, senza persone",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v661-480.webp",
-          "sha256": "842b0580195e86cc2d15b2a9d0eaa7913ebeb45249e8d6733d78aa316c8fa003",
-          "bytes": 35620
+          "src": "/assets/images/editorial-auto/genova-striscione-tolto-alla-daneo-lunedi-il-presidio-v700-480.webp",
+          "sha256": "cd692ca03f2cbafb41b807d8aef1529ecd1e9680c9cee9d4ca7be8155d4632a5",
+          "bytes": 31394
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v661-800.webp",
-          "sha256": "3d6f880070d9468ace1c6b49819d74254e73c41648cb326a0caf840902a1f89c",
-          "bytes": 85648
+          "src": "/assets/images/editorial-auto/genova-striscione-tolto-alla-daneo-lunedi-il-presidio-v700-800.webp",
+          "sha256": "5ebaf1d4ec46fe544b6aa72f13eaf675a8ca6f010e8e7eafcb06ec22eadc528c",
+          "bytes": 85634
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v661-1200.webp",
-          "sha256": "b299e6785409f6c232b108e07a7efef87ab35a8a30a4030fa432f5e4ed77f70c",
-          "bytes": 168678
+          "src": "/assets/images/editorial-auto/genova-striscione-tolto-alla-daneo-lunedi-il-presidio-v700-1200.webp",
+          "sha256": "8301fe1e964e55e22e148c79628a61f3e14eb93c9735d0d285c99db4daa5d427",
+          "bytes": 183796
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": true,
-      "documentaryPhoto": false,
-      "officialArtwork": false,
-      "sensitiveContext": false,
-      "article": "/notizie/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-26-09-2026.html"
-    },
-    {
-      "alt": "Binari vuoti lungo la costa, con il mare sullo sfondo e nessuna persona",
-      "prompt": "Fotografia editoriale di binari ferroviari vuoti lungo la costa adriatica, luce del mattino, mare sullo sfondo, nessuna persona e nessun incidente visibile.",
-      "variants": [
-        {
-          "w": 480,
-          "src": "/assets/images/editorial-auto/riccione-cattolica-circolazione-regolare-dalle-12-dopo-l-investimento-v612-480.webp",
-          "sha256": "a9d560306afb23325adbf446ae30dd6aa2307fefa116ff53402921a05d12ac71",
-          "bytes": 45128
-        },
-        {
-          "w": 800,
-          "src": "/assets/images/editorial-auto/riccione-cattolica-circolazione-regolare-dalle-12-dopo-l-investimento-v612-800.webp",
-          "sha256": "bb9e1518d621ae15683f1e83276519265075e0bd4cad393c4376f5eec08d8ed3",
-          "bytes": 120730
-        },
-        {
-          "w": 1200,
-          "src": "/assets/images/editorial-auto/riccione-cattolica-circolazione-regolare-dalle-12-dopo-l-investimento-v612-1200.webp",
-          "sha256": "fc8e63c8541b70ea8a60881b388dc6a24f88bda64836230ce92fe41fc1159063",
-          "bytes": 239248
-        }
-      ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": true,
-      "documentaryPhoto": false,
-      "officialArtwork": false,
-      "sensitiveContext": true,
-      "article": "/notizie/riccione-cattolica-circolazione-regolare-dalle-12-dopo-l-investimento-26-09-2026.html"
-    },
-    {
-      "alt": "Banchina vuota della metropolitana, con un treno fermo e le porte chiuse",
-      "prompt": "Fotografia editoriale di una banchina della metropolitana vuota, piastrelle chiare, treno fermo a porte chiuse, nessuna persona, nessun logo, nessun testo leggibile.",
-      "variants": [
-        {
-          "w": 480,
-          "src": "/assets/images/editorial-auto/metro-b-un-uomo-muore-investito-a-garbatella-v611-480.webp",
-          "sha256": "84dd5143f38322940a5f53ccbf0bc861344edc649b83383b96427f13ef629954",
-          "bytes": 19998
-        },
-        {
-          "w": 800,
-          "src": "/assets/images/editorial-auto/metro-b-un-uomo-muore-investito-a-garbatella-v611-800.webp",
-          "sha256": "1a25594dbec7eac0e875f9165eb66dafd98b33f1ebb99274d979c5f454368049",
-          "bytes": 52478
-        },
-        {
-          "w": 1200,
-          "src": "/assets/images/editorial-auto/metro-b-un-uomo-muore-investito-a-garbatella-v611-1200.webp",
-          "sha256": "286fb1aa5940cb6b895a8ed7cd947f3b8e3018d426695bfd0acef6f498328708",
-          "bytes": 111374
-        }
-      ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": true,
-      "documentaryPhoto": false,
-      "officialArtwork": false,
-      "sensitiveContext": true,
-      "article": "/notizie/metro-b-un-uomo-muore-investito-a-garbatella-26-09-2026.html"
-    },
-    {
-      "alt": "Cancello di una scuola storica al mattino con un telo bianco senza scritte, sagome lontane e nessun volto riconoscibile.",
-      "prompt": "Cancello di una scuola a Genova al mattino, telo bianco senza testo, sagome lontane, nessun volto riconoscibile e nessuna divisa in primo piano.",
-      "variants": [
-        {
-          "w": 480,
-          "src": "/assets/images/editorial-auto/genova-striscione-tolto-alla-daneo-lunedi-il-presidio-v610-480.webp",
-          "sha256": "a263107ce44e6a0d05bb85113372234dff2178ccb51850cebb3a0aa293da3b86",
-          "bytes": 44242
-        },
-        {
-          "w": 800,
-          "src": "/assets/images/editorial-auto/genova-striscione-tolto-alla-daneo-lunedi-il-presidio-v610-800.webp",
-          "sha256": "4f6c8a7c162058d2fdef58f3dbc6f77a8b804712b57e7ae84d13f57f4de9c3ec",
-          "bytes": 111274
-        },
-        {
-          "w": 1200,
-          "src": "/assets/images/editorial-auto/genova-striscione-tolto-alla-daneo-lunedi-il-presidio-v610-1200.webp",
-          "sha256": "9c2a9296f162d74426a809db795435202ef7320bae261675c32d3fae06d0333c",
-          "bytes": 222256
-        }
-      ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
@@ -437,35 +437,128 @@
       "article": "/notizie/genova-striscione-tolto-alla-daneo-lunedi-il-presidio-26-09-2026.html"
     },
     {
-      "alt": "Treno regionale integro su una linea toscana in una valle verde, di giorno, senza persone in primo piano.",
-      "prompt": "Treno regionale integro su una linea toscana in una valle verde, luce del giorno, nessun incidente visibile e nessuna persona in primo piano.",
+      "alt": "Treno regionale su linea toscana, circolazione regolare",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/urto-tra-treni-nel-fiorentino-da-stamani-la-linea-e-aperta-v609-480.webp",
-          "sha256": "77d19a80e8173758a9b5e82640e5d376117a5a0db9e66a676b64ae9d6c3d049a",
-          "bytes": 55898
+          "src": "/assets/images/editorial-auto/urto-tra-treni-nel-fiorentino-da-stamani-la-linea-e-aperta-v700-480.webp",
+          "sha256": "aba1b20e2b55501a2dc0cca5bc85ea21eb28e55333c9466f6681a5b97bb55a41",
+          "bytes": 22538
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/urto-tra-treni-nel-fiorentino-da-stamani-la-linea-e-aperta-v609-800.webp",
-          "sha256": "3420d07a38bfc483228ba495b0d48b6c7ac7de0b329e61febc394c43a63e8177",
-          "bytes": 149144
+          "src": "/assets/images/editorial-auto/urto-tra-treni-nel-fiorentino-da-stamani-la-linea-e-aperta-v700-800.webp",
+          "sha256": "07e33801ed1d2d1770e6a4e0e576047d94b77a1e56c3ecc4f775e0db8ac342f5",
+          "bytes": 46512
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/urto-tra-treni-nel-fiorentino-da-stamani-la-linea-e-aperta-v609-1200.webp",
-          "sha256": "6cbfde31bce9a1bb04e4afdf6cf1592d38341147d6f80aa6061ce63fdd2bbe01",
-          "bytes": 298592
+          "src": "/assets/images/editorial-auto/urto-tra-treni-nel-fiorentino-da-stamani-la-linea-e-aperta-v700-1200.webp",
+          "sha256": "20383e62cef62d1b0a0a0a1a503253aeceaa33049c5e1bff2101ef24d368f45e",
+          "bytes": 82814
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
       "sensitiveContext": false,
       "article": "/notizie/urto-tra-treni-nel-fiorentino-da-stamani-la-linea-e-aperta-26-09-2026.html"
+    },
+    {
+      "alt": "Basilica Palladiana a Vicenza di notte, piazza vuota",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/sequestro-di-un-minorenne-due-arresti-a-vicenza-v700-480.webp",
+          "sha256": "f31e826a626c209fbeb992f4849addb3c53b54107dfa442551e0c69e7bfcbee9",
+          "bytes": 15356
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/sequestro-di-un-minorenne-due-arresti-a-vicenza-v700-800.webp",
+          "sha256": "928cebcd46d61b6676c1fb0ddc8af53f3641a28e206369ed76662d8bbb2064da",
+          "bytes": 36384
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/sequestro-di-un-minorenne-due-arresti-a-vicenza-v700-1200.webp",
+          "sha256": "b20ddb4071fc3e69a4e6a81a5b0a1512949e0acc4e6426332e156f3a8f612d9f",
+          "bytes": 73520
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/sequestro-di-un-minorenne-due-arresti-a-vicenza-26-09-2026.html"
+    },
+    {
+      "alt": "Portici di Via Po a Torino di notte, strada bagnata, senza persone",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/omicidio-a-torino-tre-fermi-si-attende-la-convalida-v700-480.webp",
+          "sha256": "7847f31efadb5c11d6410741d2e62ca9cdc64fc53a34f11197dcd28808b00ef4",
+          "bytes": 22102
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/omicidio-a-torino-tre-fermi-si-attende-la-convalida-v700-800.webp",
+          "sha256": "99ce253ae56fda78dda45cf0f2b893f165f73b67823851f0ea62b92a6d0dd9c4",
+          "bytes": 65934
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/omicidio-a-torino-tre-fermi-si-attende-la-convalida-v700-1200.webp",
+          "sha256": "e3da8b15082881cb75d0a95b7410caa020e0d71e3c302bea1efddd4883b0540a",
+          "bytes": 146896
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/omicidio-a-torino-tre-fermi-si-attende-la-convalida-26-09-2026.html"
+    },
+    {
+      "alt": "Place de la Concorde preparata per messa, folla e bandiere",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-stupito-da-quanti-chiedono-il-battesimo-v700-480.webp",
+          "sha256": "a91cce7530c7a4d7649d35bdd7b053c1cb5d5e71ce5838a3615bdafa01de272b",
+          "bytes": 34056
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-stupito-da-quanti-chiedono-il-battesimo-v700-800.webp",
+          "sha256": "9298c56f627a7731d582469d5f39a739c1f1b1a117b2a049c9f65264face636c",
+          "bytes": 80258
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-stupito-da-quanti-chiedono-il-battesimo-v700-1200.webp",
+          "sha256": "bc56d8f506712ae3f5e31e20b4826077b827d49ff3689f01d3b85fa4e40b2398",
+          "bytes": 147082
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/leone-xiv-a-parigi-stupito-da-quanti-chiedono-il-battesimo-26-09-2026.html"
     },
     {
       "alt": "La Basilica Palladiana a Vicenza, di notte, senza persone.",
@@ -561,61 +654,61 @@
       "article": "/notizie/leone-xiv-a-parigi-stupito-da-quanti-chiedono-il-battesimo-26-09-2026.html"
     },
     {
-      "alt": "Un automobilista di spalle fa rifornimento, senza marchi né prezzi leggibili.",
-      "prompt": "Un automobilista di spalle fa rifornimento, senza marchi né prezzi leggibili.",
+      "alt": "Camionista al rifornimento diesel self service di notte, volto visibile",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/accise-sul-diesel-dimezzate-il-gasolio-self-a-2-357-euro-v677-480.webp",
-          "sha256": "95b6ebc035347b2e3de7d99493b4f2ae7d76729c54f5282b0bea8d0a6d940bd9",
-          "bytes": 19070
+          "src": "/assets/images/editorial-auto/cgia-il-caro-carburante-pesa-su-camionisti-taxi-e-agenti-v700-480.webp",
+          "sha256": "849c95086dffcf370edf6842d26fded97acdc95616b9ecacf1c722dc4c9bc3a6",
+          "bytes": 9078
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/accise-sul-diesel-dimezzate-il-gasolio-self-a-2-357-euro-v677-800.webp",
-          "sha256": "3dfd19225b8a47743e9f3b3f48146dab267b066170215f884709843a19fe01fc",
-          "bytes": 37826
+          "src": "/assets/images/editorial-auto/cgia-il-caro-carburante-pesa-su-camionisti-taxi-e-agenti-v700-800.webp",
+          "sha256": "41c98ec676dbf8c6dee96df7561a27e26c22ca0778ec493d5fea1a29ba11343e",
+          "bytes": 18230
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/accise-sul-diesel-dimezzate-il-gasolio-self-a-2-357-euro-v677-1200.webp",
-          "sha256": "f7cf8e918ebdad5f28cffd39fda17ac29dbe95b46c2a511634150a7768c2d7a2",
-          "bytes": 62450
+          "src": "/assets/images/editorial-auto/cgia-il-caro-carburante-pesa-su-camionisti-taxi-e-agenti-v700-1200.webp",
+          "sha256": "d0791e247f99b4fd0f8bd7f95d335044113745c9a764c52b067a25d48eb188f6",
+          "bytes": 31094
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
       "sensitiveContext": false,
-      "article": "/notizie/accise-sul-diesel-dimezzate-il-gasolio-self-a-2-357-euro-26-09-2026.html"
+      "article": "/notizie/cgia-il-caro-carburante-pesa-su-camionisti-taxi-e-agenti-26-09-2026.html"
     },
     {
-      "alt": "Passeggeri e personale a Catania, con la cenere sull'Etna.",
-      "prompt": "Passeggeri e personale a Catania, con la cenere sull'Etna.",
+      "alt": "Etna in eruzione sopra aeroporto Catania, aerei a terra e passeggeri che guardano il cielo",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/etna-cenere-lavica-stop-ai-voli-a-catania-fino-alle-16-v684-480.webp",
-          "sha256": "230161fd0bd04f8dc9c429494497cde174c83dc040b30dcf1a6230659ab04f13",
-          "bytes": 15128
+          "src": "/assets/images/editorial-auto/etna-cenere-lavica-stop-ai-voli-a-catania-fino-alle-16-v700-480.webp",
+          "sha256": "bbccecbbcebf64beb9a6a07a80d0d6d0a72fcd39ba61333e3318f26891d248e9",
+          "bytes": 15938
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/etna-cenere-lavica-stop-ai-voli-a-catania-fino-alle-16-v684-800.webp",
-          "sha256": "b5c6347b58fcd491907ce59bd3271a14db1205a6a37182d770b16388d3cf79c3",
-          "bytes": 37002
+          "src": "/assets/images/editorial-auto/etna-cenere-lavica-stop-ai-voli-a-catania-fino-alle-16-v700-800.webp",
+          "sha256": "1bc063d72ae160692c3b87c37b6cf149a4cbebff7f9776fc2e04928462ddf177",
+          "bytes": 35988
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/etna-cenere-lavica-stop-ai-voli-a-catania-fino-alle-16-v684-1200.webp",
-          "sha256": "013715e721ec6e8ecf13acac72105c34b83b9053ec54d8ed1118ee77854fe968",
-          "bytes": 68732
+          "src": "/assets/images/editorial-auto/etna-cenere-lavica-stop-ai-voli-a-catania-fino-alle-16-v700-1200.webp",
+          "sha256": "2b50c39bb74e1f7df74d3dc08feb858f7f0e2bce76c3ac56d933d511a7b47776",
+          "bytes": 68770
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
@@ -623,30 +716,30 @@
       "article": "/notizie/etna-cenere-lavica-stop-ai-voli-a-catania-fino-alle-16-26-09-2026.html"
     },
     {
-      "alt": "Passeggeri salgono su un treno ad alta velocità rosso.",
-      "prompt": "Passeggeri salgono su un treno ad alta velocità rosso.",
+      "alt": "Passeggeri salgono su Frecciarossa, capotreno e volti visibili, stazione italiana",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/abbonamenti-av-trenitalia-da-novembre-la-prenotazione-costa-2-euro-v678-480.webp",
-          "sha256": "3c91ec4ba5ee5f0b1baf2831e2e3c019e1dc4ec7361a4112ce9e2938a7cacf34",
-          "bytes": 18010
+          "src": "/assets/images/editorial-auto/abbonamenti-av-trenitalia-da-novembre-la-prenotazione-costa-2-euro-v700-480.webp",
+          "sha256": "aba1b20e2b55501a2dc0cca5bc85ea21eb28e55333c9466f6681a5b97bb55a41",
+          "bytes": 22538
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/abbonamenti-av-trenitalia-da-novembre-la-prenotazione-costa-2-euro-v678-800.webp",
-          "sha256": "18253429b54e12d7f77b8a1d7907bef5453d5ae1742b4fb4a5294bfe19a812c1",
-          "bytes": 37366
+          "src": "/assets/images/editorial-auto/abbonamenti-av-trenitalia-da-novembre-la-prenotazione-costa-2-euro-v700-800.webp",
+          "sha256": "07e33801ed1d2d1770e6a4e0e576047d94b77a1e56c3ecc4f775e0db8ac342f5",
+          "bytes": 46512
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/abbonamenti-av-trenitalia-da-novembre-la-prenotazione-costa-2-euro-v678-1200.webp",
-          "sha256": "1e21c88dfe085415895afdf8c8dea1e847653aff922a3033fa8195711a4e19fe",
-          "bytes": 64164
+          "src": "/assets/images/editorial-auto/abbonamenti-av-trenitalia-da-novembre-la-prenotazione-costa-2-euro-v700-1200.webp",
+          "sha256": "20383e62cef62d1b0a0a0a1a503253aeceaa33049c5e1bff2101ef24d368f45e",
+          "bytes": 82814
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
@@ -716,30 +809,30 @@
       "article": "/notizie/premio-solinas-vince-la-cerimonia-di-gaeta-e-nabavinejad-26-09-2026.html"
     },
     {
-      "alt": "Folla all'esterno dell'arena di Casalecchio, sul far della sera.",
-      "prompt": "Folla all'esterno dell'arena di Casalecchio, sul far della sera.",
+      "alt": "Cantante rock con volto visibile sul palco, luci viola, concerto Bologna",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/evanescence-a-bologna-unica-data-italiana-il-28-settembre-v668-480.webp",
-          "sha256": "53b3ad016d5667e31267ee9906fcd2d811be061915d209433eba4199e4d96ea0",
-          "bytes": 23452
+          "src": "/assets/images/editorial-auto/evanescence-a-bologna-unica-data-italiana-il-28-settembre-v700-480.webp",
+          "sha256": "503803d1e505d1d19e5f33d93207b6e49ed7ba4d5bbbb9d208f178d8b4c0c162",
+          "bytes": 12514
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/evanescence-a-bologna-unica-data-italiana-il-28-settembre-v668-800.webp",
-          "sha256": "78d7818d0340fbdf9308f8731d8e9fe6e07bdee327892bcf2c0b1ba822ecf74e",
-          "bytes": 53734
+          "src": "/assets/images/editorial-auto/evanescence-a-bologna-unica-data-italiana-il-28-settembre-v700-800.webp",
+          "sha256": "3b371f4c82495fa625e71b5bd944e28b336cf5c5ca3e4594739a72ca182762b6",
+          "bytes": 29920
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/evanescence-a-bologna-unica-data-italiana-il-28-settembre-v668-1200.webp",
-          "sha256": "f12c610531562fa9ab60f7d74f66ba3b260531b8c6faa0eeb575302c8efd2f21",
-          "bytes": 99198
+          "src": "/assets/images/editorial-auto/evanescence-a-bologna-unica-data-italiana-il-28-settembre-v700-1200.webp",
+          "sha256": "6a0fe11b447cf13ec660fb32303c0d01f3f50adf1e6d2846b8ce6ea864cd59bd",
+          "bytes": 59284
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
@@ -747,61 +840,61 @@
       "article": "/notizie/evanescence-a-bologna-unica-data-italiana-il-28-settembre-26-09-2026.html"
     },
     {
-      "alt": "Persone davanti allo Stadio Olimpico a Roma.",
-      "prompt": "Persone davanti allo Stadio Olimpico a Roma.",
+      "alt": "Diplomatici USA e Cina si stringono la mano al tavolo, bandiere e documenti IA",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/oasis-a-roma-la-polizia-avverte-il-codice-non-si-compra-v669-480.webp",
-          "sha256": "ff4bf12df56e6224e06d9917d287a206e1f2245367c02fdd943bd5962f5c5fbb",
-          "bytes": 31830
+          "src": "/assets/images/editorial-auto/usa-e-cina-canale-comune-per-gli-incidenti-dell-ia-v700-480.webp",
+          "sha256": "077b38413f7d029fc6abddbee705d3c9a7af890c9a3f2c68baeb72df9a3d5dfb",
+          "bytes": 17100
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/oasis-a-roma-la-polizia-avverte-il-codice-non-si-compra-v669-800.webp",
-          "sha256": "11d5f1838bd38feef96a3f5d2568aee2e4320acac2e673994b33bc209618b88a",
-          "bytes": 77470
+          "src": "/assets/images/editorial-auto/usa-e-cina-canale-comune-per-gli-incidenti-dell-ia-v700-800.webp",
+          "sha256": "22ee2357ed9c97a0b1bbc98b8412790c564baac56cc1e8ab94b966c9ef902bbc",
+          "bytes": 34836
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/oasis-a-roma-la-polizia-avverte-il-codice-non-si-compra-v669-1200.webp",
-          "sha256": "0318ba2851d60f54d0bdc94de25ffedcdfd55c001410be392c83c4f799cb6ec4",
-          "bytes": 148040
+          "src": "/assets/images/editorial-auto/usa-e-cina-canale-comune-per-gli-incidenti-dell-ia-v700-1200.webp",
+          "sha256": "02451f05fdbc203262efddd26871147200125bd05f4e05da209488963ae5eb74",
+          "bytes": 60896
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
       "sensitiveContext": false,
-      "article": "/notizie/oasis-a-roma-la-polizia-avverte-il-codice-non-si-compra-26-09-2026.html"
+      "article": "/notizie/usa-e-cina-canale-comune-per-gli-incidenti-dell-ia-26-09-2026.html"
     },
     {
-      "alt": "Place de la Concorde preparata per una messa all'aperto, con l'obelisco e file di sedie verso i Champs-Élysées, senza volti riconoscibili.",
-      "prompt": "Photorealistic editorial photo of Place de la Concorde prepared for an outdoor mass, Luxor Obelisk, rows of chairs toward the Champs-Élysées, no identifiable faces, no readable text.",
+      "alt": "Place de la Concorde preparata per messa all'aperto, folla e bandiere Francia e Vaticano",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/leone-xiv-seconda-giornata-messa-alla-concorde-e-lourdes-v598-480.webp",
-          "sha256": "9c154eeb752f47ab774db30a99a5f947fa6b0d2b4482a97d8d09e2314c83504e",
-          "bytes": 37778
+          "src": "/assets/images/editorial-auto/leone-xiv-seconda-giornata-messa-alla-concorde-e-lourdes-v700-480.webp",
+          "sha256": "a91cce7530c7a4d7649d35bdd7b053c1cb5d5e71ce5838a3615bdafa01de272b",
+          "bytes": 34056
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/leone-xiv-seconda-giornata-messa-alla-concorde-e-lourdes-v598-800.webp",
-          "sha256": "b3454e79c16e0c9c623be1c4a8fbca6ad66605c5ec4714657a6e8b06d215222f",
-          "bytes": 96880
+          "src": "/assets/images/editorial-auto/leone-xiv-seconda-giornata-messa-alla-concorde-e-lourdes-v700-800.webp",
+          "sha256": "9298c56f627a7731d582469d5f39a739c1f1b1a117b2a049c9f65264face636c",
+          "bytes": 80258
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/leone-xiv-seconda-giornata-messa-alla-concorde-e-lourdes-v598-1200.webp",
-          "sha256": "00103fc788ed674f0beb287478ea7f462828d4aa5c8908b656fa2ed24c2cadb5",
-          "bytes": 195122
+          "src": "/assets/images/editorial-auto/leone-xiv-seconda-giornata-messa-alla-concorde-e-lourdes-v700-1200.webp",
+          "sha256": "bc56d8f506712ae3f5e31e20b4826077b827d49ff3689f01d3b85fa4e40b2398",
+          "bytes": 147082
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
@@ -809,35 +902,35 @@
       "article": "/notizie/leone-xiv-seconda-giornata-messa-alla-concorde-e-lourdes-26-09-2026.html"
     },
     {
-      "alt": "Persone in una strada allagata di Bangkok, all'alba.",
-      "prompt": "Persone in una strada allagata di Bangkok, all'alba.",
+      "alt": "Ritratto neutrale Presidente Pezeshkian, volto visibile, bandiera Iran sfocata",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/bangkok-dichiara-zona-di-calamita-tutti-i-50-distretti-v681-480.webp",
-          "sha256": "49359035f2951fcb671ae7866edcae9d6e1b4de7fec01901abf926f9e2c646e0",
-          "bytes": 33892
+          "src": "/assets/images/editorial-auto/pezeshkian-si-agli-ispettori-nucleari-onu-dentro-un-negoziato-v700-480.webp",
+          "sha256": "7fae578782884d8a72800f08bf040ffc674351a3ab6899518d430d557ef26be1",
+          "bytes": 11026
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/bangkok-dichiara-zona-di-calamita-tutti-i-50-distretti-v681-800.webp",
-          "sha256": "3c0a42b6323c9b5a30e56791417e7614927dd2ae999b81d7a6a98c72fdab44f4",
-          "bytes": 85400
+          "src": "/assets/images/editorial-auto/pezeshkian-si-agli-ispettori-nucleari-onu-dentro-un-negoziato-v700-800.webp",
+          "sha256": "bc0cb34f82492d78401d1192be95ded4df1375b2e00a3a6d470074fdd6a8de38",
+          "bytes": 25526
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/bangkok-dichiara-zona-di-calamita-tutti-i-50-distretti-v681-1200.webp",
-          "sha256": "f4c9d6f2474d359b4c9072d80045e65577267531ac9fda7c53fe542aa4a1695c",
-          "bytes": 160728
+          "src": "/assets/images/editorial-auto/pezeshkian-si-agli-ispettori-nucleari-onu-dentro-un-negoziato-v700-1200.webp",
+          "sha256": "c626514d1f0cdeb99da74e3b8854a7e5a65d34b6e73bd55180be94e298e4f726",
+          "bytes": 50000
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
       "sensitiveContext": true,
-      "article": "/notizie/bangkok-dichiara-zona-di-calamita-tutti-i-50-distretti-26-09-2026.html"
+      "article": "/notizie/pezeshkian-si-agli-ispettori-nucleari-onu-dentro-un-negoziato-26-09-2026.html"
     },
     {
       "alt": "Due diplomatici di spalle, con le bandiere di Stati Uniti e Cina e un telefono rosso.",
@@ -871,97 +964,97 @@
       "article": "/notizie/usa-e-cina-canale-comune-per-gli-incidenti-dell-ia-26-09-2026.html"
     },
     {
-      "alt": "Esterno di un centro nucleare al crepuscolo, con due figure di spalle e caschi blu lontane dal cancello, senza volti.",
-      "prompt": "Photorealistic editorial photo of a nuclear research gate at dusk, two inspectors from behind far away, no faces, no readable text, no weapons.",
+      "alt": "Petroliere all'alba nello Stretto di Hormuz, costa rocciosa, senza persone",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/pezeshkian-si-agli-ispettori-nucleari-onu-dentro-un-negoziato-v595-480.webp",
-          "sha256": "0f8ae7ddda7388f5f3d990e66519d78fa12634e8c7f0467aa22f8b6710278576",
-          "bytes": 18038
+          "src": "/assets/images/editorial-auto/trump-respinge-la-tregua-di-sette-giorni-proposta-dall-iran-v700-480.webp",
+          "sha256": "8fffdb354940c6c8d2300ef4410f709843b774a5ff8be0e591495b86962c1527",
+          "bytes": 12114
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/pezeshkian-si-agli-ispettori-nucleari-onu-dentro-un-negoziato-v595-800.webp",
-          "sha256": "6dc9704ee3b1702b9a2eb8cdc87e708e96ef4057ee359f171b363f3d3f4c9419",
-          "bytes": 48532
+          "src": "/assets/images/editorial-auto/trump-respinge-la-tregua-di-sette-giorni-proposta-dall-iran-v700-800.webp",
+          "sha256": "31471cad6a8d4fbbc447983e37cdbc3be6ef70bd1c1d6bdd15c6f75635f56883",
+          "bytes": 33516
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/pezeshkian-si-agli-ispettori-nucleari-onu-dentro-un-negoziato-v595-1200.webp",
-          "sha256": "1a93f3cc42ecfa7f684bc678920880ec09aa3f803706a137242689cabdd65482",
-          "bytes": 104510
+          "src": "/assets/images/editorial-auto/trump-respinge-la-tregua-di-sette-giorni-proposta-dall-iran-v700-1200.webp",
+          "sha256": "7212855b6d96d3cd934e18f70683f49eb3fbd91ca0397837a1f432dd7b363f3c",
+          "bytes": 71596
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": true,
-      "documentaryPhoto": false,
-      "officialArtwork": false,
-      "sensitiveContext": true,
-      "article": "/notizie/pezeshkian-si-agli-ispettori-nucleari-onu-dentro-un-negoziato-26-09-2026.html"
-    },
-    {
-      "alt": "Due figure di spalle camminano verso un jet privato, al crepuscolo.",
-      "prompt": "Due figure di spalle camminano verso un jet privato, al crepuscolo.",
-      "variants": [
-        {
-          "w": 480,
-          "src": "/assets/images/editorial-auto/intelligence-egiziana-l-allarme-a-israele-prima-del-7-ottobre-v682-480.webp",
-          "sha256": "66d76e398299b0deed001f8689a957ed12ee43e090e8b0379892068a2bf57f0e",
-          "bytes": 10690
-        },
-        {
-          "w": 800,
-          "src": "/assets/images/editorial-auto/intelligence-egiziana-l-allarme-a-israele-prima-del-7-ottobre-v682-800.webp",
-          "sha256": "0c57fc4a3f2a2ab5554309ad1d940d0b9c4499cb1e15ad15428e75537b368c6a",
-          "bytes": 22528
-        },
-        {
-          "w": 1200,
-          "src": "/assets/images/editorial-auto/intelligence-egiziana-l-allarme-a-israele-prima-del-7-ottobre-v682-1200.webp",
-          "sha256": "00aa454b4a09daf2c6c72fd253d63dcb3a217c834ac21f3674ad983c6734ebff",
-          "bytes": 40498
-        }
-      ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": true,
-      "documentaryPhoto": false,
-      "officialArtwork": false,
-      "sensitiveContext": true,
-      "article": "/notizie/intelligence-egiziana-l-allarme-a-israele-prima-del-7-ottobre-26-09-2026.html"
-    },
-    {
-      "alt": "Petroliere in attesa all'alba nello Stretto di Hormuz, acqua calma e montagne sullo sfondo, senza azioni militari.",
-      "prompt": "Photorealistic editorial photo of oil tankers waiting at dawn in the Strait of Hormuz, calm water, hazy mountains, no explosions, no readable text.",
-      "variants": [
-        {
-          "w": 480,
-          "src": "/assets/images/editorial-auto/trump-respinge-la-tregua-di-sette-giorni-proposta-dall-iran-v593-480.webp",
-          "sha256": "7278e24140fc315706ef4030c09178e7a79b8ce613d1f609d027484a9b24b2e4",
-          "bytes": 13692
-        },
-        {
-          "w": 800,
-          "src": "/assets/images/editorial-auto/trump-respinge-la-tregua-di-sette-giorni-proposta-dall-iran-v593-800.webp",
-          "sha256": "5c5268a6f196ce7e47d15556ff3ac00529e58622ef008003d5fc687355402dbc",
-          "bytes": 37760
-        },
-        {
-          "w": 1200,
-          "src": "/assets/images/editorial-auto/trump-respinge-la-tregua-di-sette-giorni-proposta-dall-iran-v593-1200.webp",
-          "sha256": "b7cfed3bcea026b644845d309c14bc4bccb96516b916c80ccff44188c2c906d8",
-          "bytes": 75636
-        }
-      ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
       "sensitiveContext": true,
       "article": "/notizie/trump-respinge-la-tregua-di-sette-giorni-proposta-dall-iran-26-09-2026.html"
+    },
+    {
+      "alt": "Operatori call center Agenzia delle Entrate con cuffie e volti visibili",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/730-call-center-agenzia-entrate-26-settembre-2026-v700-480.webp",
+          "sha256": "6570a685d345708f03508aab225815af013e281fb72e06b480be8200ca1f7c96",
+          "bytes": 20090
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/730-call-center-agenzia-entrate-26-settembre-2026-v700-800.webp",
+          "sha256": "4a6a0c6be39aebf20b63e5d383e0c49b9009078871f3706c37cc613d50fb0810",
+          "bytes": 38644
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/730-call-center-agenzia-entrate-26-settembre-2026-v700-1200.webp",
+          "sha256": "a6a508f661cecee7695a5ba25a246f40d306c1fc2ec9a106468d87b03e1a7b58",
+          "bytes": 65192
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/730-call-center-agenzia-entrate-26-settembre-2026.html"
+    },
+    {
+      "alt": "Luna Rossa AC40 in foiling nel Golfo di Napoli",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/americas-cup-napoli-race-day-2-luna-rossa-26-settembre-2026-v700-480.webp",
+          "sha256": "4f9e4e21f2037747f035e77199233bf52d6464ea680919d9f7afee77e3a19924",
+          "bytes": 28404
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/americas-cup-napoli-race-day-2-luna-rossa-26-settembre-2026-v700-800.webp",
+          "sha256": "37ec8ee2dc7b918ae491b9644b98d6d30a53b651af6cb13ae3147782ef44e5f4",
+          "bytes": 70992
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/americas-cup-napoli-race-day-2-luna-rossa-26-settembre-2026-v700-1200.webp",
+          "sha256": "4a1572bf442ddc0a136c9e2cc846685431c97b9b46a4af87327dc008dd41c246",
+          "bytes": 139000
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/americas-cup-napoli-race-day-2-luna-rossa-26-settembre-2026.html"
     },
     {
       "key": "730-call-center-agenzia-entrate-26-settembre-2026-v592",
@@ -995,67 +1088,66 @@
       "article": "/notizie/730-call-center-agenzia-entrate-26-settembre-2026.html"
     },
     {
-      "key": "eurovolley-finale-polonia-francia-milano-26-settembre-2026-v666",
-      "alt": "Due pallavoliste di spalle, con le maglie biancorossa e blu.",
-      "prompt": "Due pallavoliste di spalle, con le maglie biancorossa e blu.",
+      "alt": "Pilota Ducati in curva al Cremona Circuit, casco con viso parzialmente visibile",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/eurovolley-finale-polonia-francia-milano-26-settembre-2026-v666-480.webp",
-          "sha256": "3aedf15d31fcae21bc34115afcc4e328e3e075a4b8c408f4747f5b0d16a3d2f8",
-          "bytes": 32386
+          "src": "/assets/images/editorial-auto/worldsbk-cremona-superpole-gara1-bulega-titolo-26-settembre-2026-v700-480.webp",
+          "sha256": "2a8d36580a4b64d93ac2ffb2a112d17cb4fac1c8bc7f97eeded114db1c4a9a55",
+          "bytes": 27186
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/eurovolley-finale-polonia-francia-milano-26-settembre-2026-v666-800.webp",
-          "sha256": "7e68ca77b85c031b356aa8e713e51ed353a5aea3a14d3b8bbe9c56fd68b51eb2",
-          "bytes": 62426
+          "src": "/assets/images/editorial-auto/worldsbk-cremona-superpole-gara1-bulega-titolo-26-settembre-2026-v700-800.webp",
+          "sha256": "8738ff78857df804978651c9e97851819338edd03785b2a09b4212960c9e6eb2",
+          "bytes": 63070
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/eurovolley-finale-polonia-francia-milano-26-settembre-2026-v666-1200.webp",
-          "sha256": "7025d5616b6f7572b44443f38e7f341ddfdc7d854d10e34f205122fae5f20799",
-          "bytes": 103184
+          "src": "/assets/images/editorial-auto/worldsbk-cremona-superpole-gara1-bulega-titolo-26-settembre-2026-v700-1200.webp",
+          "sha256": "683441e89a61e9c9c11be2e1bdb0f09dcc99acfec38b73bab98f02213357af40",
+          "bytes": 119114
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "OpenAI image generation tool",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
+      "officialArtwork": false,
       "sensitiveContext": false,
-      "article": "/notizie/eurovolley-finale-polonia-francia-milano-26-settembre-2026.html",
-      "syntheticLikeness": "public-figure"
+      "article": "/notizie/worldsbk-cremona-superpole-gara1-bulega-titolo-26-settembre-2026.html"
     },
     {
-      "key": "americas-cup-napoli-luna-rossa-race-day2-26-settembre-2026-v588",
-      "alt": "L’AC40 di Luna Rossa in foiling nel Golfo di Napoli con Castel dell’Ovo sullo sfondo; scena editoriale IA non documentaria.",
-      "prompt": "Fotografia editoriale sportiva ultrarealistica orizzontale 3:2. AC40 reale di Luna Rossa con livrea e loghi ufficiali 2026 in pieno foiling nel Golfo di Napoli, Castel dell’Ovo e lungomare riconoscibili sullo sfondo, altra flotta AC40 distante, mare realistico, luce mediterranea, nessun testo editoriale sovrapposto, nessun watermark. Scena contestuale ordinaria e non documentaria.",
+      "alt": "Tennista italiana in maglia azzurra che esulta, volto visibile, campo indoor",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/americas-cup-napoli-luna-rossa-race-day2-26-settembre-2026-v588-480.webp",
-          "sha256": "73299945cbb0c03b042c910c8a176b824e70eb8cf561dd0d69c614cb476a6d0b",
-          "bytes": 47540
+          "src": "/assets/images/editorial-auto/billie-jean-king-cup-italia-ucraina-semifinale-26-settembre-2026-v700-480.webp",
+          "sha256": "8d3a03acca0c683056a3ff6143d01750a428fc858dd526ee958a76523f4fe105",
+          "bytes": 11118
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/americas-cup-napoli-luna-rossa-race-day2-26-settembre-2026-v588-800.webp",
-          "sha256": "4888929f10b9fe5e3fd307ae045a4748428d0c8920e4812a15d1222c17b34ad5",
-          "bytes": 113644
+          "src": "/assets/images/editorial-auto/billie-jean-king-cup-italia-ucraina-semifinale-26-settembre-2026-v700-800.webp",
+          "sha256": "05cc88b888f29e7326937d88b42fdc27e0092a330fd7dddf7d0909d8d02f9fae",
+          "bytes": 26232
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/americas-cup-napoli-luna-rossa-race-day2-26-settembre-2026-v588-1200.webp",
-          "sha256": "e20a00e3744b970faed36830dcfcd83d497877b41deb53a23ede078f6f2375df",
-          "bytes": 209874
+          "src": "/assets/images/editorial-auto/billie-jean-king-cup-italia-ucraina-semifinale-26-settembre-2026-v700-1200.webp",
+          "sha256": "ec8238b636dc7989de4202e99a7cfdc0cf0bc84cfde926bdb0723daa31933427",
+          "bytes": 52924
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "OpenAI image generation tool",
+      "generator": "agente editoriale Imagine (Grok)",
       "aiGenerated": true,
       "documentaryPhoto": false,
+      "officialArtwork": false,
       "sensitiveContext": false,
-      "article": "/notizie/americas-cup-napoli-race-day-2-luna-rossa-26-settembre-2026.html"
+      "article": "/notizie/billie-jean-king-cup-italia-ucraina-semifinale-26-settembre-2026.html"
     },
     {
       "key": "worldsbk-cremona-bulega-gara1-26-settembre-2026-v665",
@@ -2675,37 +2767,35 @@
       "article": "/notizie/baldissero-alba-chiamata-112-mollo-indagine-23-settembre-2026.html"
     },
     {
-      "key": "trump-onu-iran-accordo-dopo-midterm-avvertimento-militare-22-settembre-2026-v532",
-      "alt": "Ritratto editoriale neutrale e isolato di Steve Witkoff e Abbas Araghchi; somiglianze sintetiche non documentarie.",
+      "alt": "Due monoposto F1 Mercedes e Ferrari affiancate sul circuito cittadino di Baku",
+      "prompt": "immagine ultrarealistica fornita dall'agente editoriale Imagine",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/trump-onu-iran-accordo-dopo-midterm-avvertimento-militare-22-settembre-2026-v532-480.webp",
-          "sha256": "662fab22fc43a0f90c9cd5c5272c12c9f5a4af9eb2160c468f59744ef16d3af0",
-          "bytes": 17568
+          "src": "/assets/images/editorial-auto/f1-baku-gp-sabato-26-settembre-2026-orari-antonelli-v700-480.webp",
+          "sha256": "b9ac5281e724bd4b3b482bcc88a80dcd50321b3e2f6af818cb5dd5c810d5265f",
+          "bytes": 25096
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/trump-onu-iran-accordo-dopo-midterm-avvertimento-militare-22-settembre-2026-v532-800.webp",
-          "sha256": "b272b2f504dd24ae3053d04cdcc9670c6af5e836e80cae6ab58ba6456ef6fb67",
-          "bytes": 42002
+          "src": "/assets/images/editorial-auto/f1-baku-gp-sabato-26-settembre-2026-orari-antonelli-v700-800.webp",
+          "sha256": "141b721ce9c935ff1f9d2bf2d8a84dc31c5ad2f3b9ac410003f2151e127d2166",
+          "bytes": 55030
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/trump-onu-iran-accordo-dopo-midterm-avvertimento-militare-22-settembre-2026-v532-1200.webp",
-          "sha256": "e295286df48884c05f8881d7f582a94216b00761bbf4bdd603849d4c7d1df34b",
-          "bytes": 86938
+          "src": "/assets/images/editorial-auto/f1-baku-gp-sabato-26-settembre-2026-orari-antonelli-v700-1200.webp",
+          "sha256": "a041d0250eea3817ad53c433fff0bb156004d74a9a3520159d24de63e6a24e8d",
+          "bytes": 97724
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "OpenAI image tool",
-      "sensitiveContext": true,
-      "syntheticLikeness": "public-figure",
-      "portraitOnly": true,
-      "portraitFormat": "neutral-isolated",
-      "reenactedEvent": false,
-      "prompt": "Neutral editorial portrait, isolated public figures, plain studio background; no reenactment of conflict or negotiations.",
-      "article": "/notizie/trump-onu-iran-accordo-dopo-midterm-avvertimento-militare-22-settembre-2026.html"
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/f1-baku-gp-sabato-26-settembre-2026-orari-antonelli.html"
     },
     {
       "key": "xi-jinping-visita-stato-usa-23-25-settembre-2026-v532",
