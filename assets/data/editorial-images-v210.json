@@ -3,24 +3,24 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
-      "alt": "Una grande piazza con file di sedie vuote, senza persone né scritte.",
+      "alt": "Place de la Concorde a Parigi, con l'obelisco e la folla vista di spalle.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-v623-480.webp",
+          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-v631-480.webp",
           "sha256": "94ad3f678bb7a040bc715d7e486f9dea94e1c5eb7f9ffc4a4f47d63cef4975ad",
           "bytes": 37438
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-v623-800.webp",
+          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-v631-800.webp",
           "sha256": "a96590ed690967db234ce56faa80d83ec9f400ba4c42639dd8c8fb0f7aed1494",
           "bytes": 95484
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-v623-1200.webp",
+          "src": "/assets/images/editorial-auto/leone-xiv-a-parigi-800-mila-alla-messa-poi-lourdes-v631-1200.webp",
           "sha256": "5656be0eae7cbcbe17bb9a9a860a9e077154f69cbffb83c1cd439817980d863d",
           "bytes": 185034
         }
@@ -96,24 +96,24 @@
       "article": "/notizie/lodi-un-15enne-trovato-morto-sotto-un-traliccio-a-bottedo-26-09-2026.html"
     },
     {
-      "alt": "Container in un porto, senza scritte leggibili, nella luce del pomeriggio.",
+      "alt": "La Casa Bianca, con le bandiere degli Stati Uniti e della Cina in primo piano.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-v620-480.webp",
+          "src": "/assets/images/editorial-auto/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-v632-480.webp",
           "sha256": "91d845d7f56cfce9066d4bdd67631cb86a92e91abb0c1f43634e15dbe64db354",
           "bytes": 20432
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-v620-800.webp",
+          "src": "/assets/images/editorial-auto/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-v632-800.webp",
           "sha256": "304418855947da2980fb71b68285e8f7881018114838f434b05934ff27630e40",
           "bytes": 47768
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-v620-1200.webp",
+          "src": "/assets/images/editorial-auto/dazi-30-miliardi-pechino-parla-di-intesa-washington-di-raccomandazioni-v632-1200.webp",
           "sha256": "632b8ceb78afa15a48ec51dfc89894a1952c43181f6cf02b3c90ad6add7ce696",
           "bytes": 88816
         }
@@ -158,24 +158,24 @@
       "article": "/notizie/stragliotto-morta-alla-cascata-ravana-in-sri-lanka-26-09-2026.html"
     },
     {
-      "alt": "Telefono e orologio senza marchi su un tavolo di legno, in luce diurna.",
+      "alt": "Un iPhone e un Apple Watch, con il logo Apple visibile.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-v618-480.webp",
+          "src": "/assets/images/editorial-auto/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-v634-480.webp",
           "sha256": "4a413e37ecf470d3345a9a36b9cacea54a2485bae725eafd814ff9723f4619b3",
           "bytes": 32876
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-v618-800.webp",
+          "src": "/assets/images/editorial-auto/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-v634-800.webp",
           "sha256": "e4b40db5bf55128f2387cff55ff1fb674203b52bcc0c35031ac133aa17760214",
           "bytes": 83258
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-v618-1200.webp",
+          "src": "/assets/images/editorial-auto/apple-oltre-5-7-miliardi-a-taction-per-i-brevetti-aptici-v634-1200.webp",
           "sha256": "83d984af848616e1a38ee4b3785c6ce5d7a4f24d35d1f185003b930c4e50e7d8",
           "bytes": 165518
         }
@@ -313,24 +313,24 @@
       "article": "/notizie/etna-voli-sospesi-a-catania-fino-alle-12-di-domenica-26-09-2026.html"
     },
     {
-      "alt": "Giornale aperto su un tavolo, con grafici sfocati, taccuino e matita",
+      "alt": "La facciata di Palazzo Montecitorio a Roma, sede della Camera.",
       "prompt": "Fotografia editoriale di un giornale aperto su un tavolo di legno, grafici sfocati senza numeri leggibili, taccuino bianco e matita, luce del mattino, nessun volto.",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v613-480.webp",
+          "src": "/assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v633-480.webp",
           "sha256": "31e9789de1583fd7f3625a55d0587bd289863ebdcb9e11579294f41931fdfc68",
           "bytes": 14988
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v613-800.webp",
+          "src": "/assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v633-800.webp",
           "sha256": "cf386ceea588ceb4ff5d74261e1d3121042eea9d712d1e1804af605e1bf2ab88",
           "bytes": 33204
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v613-1200.webp",
+          "src": "/assets/images/editorial-auto/sondaggio-ipsos-il-pd-al-19-5-vannacci-all-8-8-v633-1200.webp",
           "sha256": "d9f5434e5261263274e40c5ecde1d8ab89457f0e79cdf8954639aefe65b8b58c",
           "bytes": 59720
         }
