@@ -27,6 +27,22 @@ def normalize(value):
     return (value or "").lower().translate(str.maketrans("àèéìòù", "aeeiou"))
 
 
+COVERS = {
+    "italia": ("/assets/images/categorie/italia.jpg", "Roma al tramonto, con il Colosseo tra i tetti di cotto"),
+    "mondo": ("/assets/images/categorie/mondo.jpg", "La Terra vista dallo spazio, con Europa, Africa e Asia"),
+    "politica": ("/assets/images/categorie/politica.jpg", "Emiciclo parlamentare vuoto, con banchi di legno e sedute blu"),
+    "cronaca": ("/assets/images/categorie/cronaca.jpg", "Strada cittadina bagnata all'imbrunire, con un lampeggiante lontano"),
+    "economia": ("/assets/images/categorie/economia.jpg", "Grattacieli di un distretto finanziario al crepuscolo, riflessi sull'acqua"),
+    "sport": ("/assets/images/categorie/sport.jpg", "Stadio di calcio di notte, con il prato illuminato dai riflettori"),
+    "meteo": ("/assets/images/categorie/meteo.jpg", "Temporale su un borgo, con un fulmine e pioggia sugli olivi"),
+    "tecnologia": ("/assets/images/categorie/tecnologia.jpg", "Primo piano di un processore e dei circuiti, senza marchi"),
+    "cultura": ("/assets/images/categorie/cultura.jpg", "Galleria di un museo, con una scultura in marmo e quadri alle pareti"),
+    "film-serie-tv": ("/assets/images/categorie/film-serie-tv.jpg", "Sala cinematografica con poltrone rosse e schermo illuminato"),
+    "scienza": ("/assets/images/categorie/scienza.jpg", "Banco di un laboratorio, con microscopio e vetreria"),
+    "ambiente": ("/assets/images/categorie/ambiente.jpg", "Lago alpino all'alba, tra bosco e cime dolomitiche"),
+}
+
+
 def piu_piccola(item):
     """Indirizzo del taglio piu leggero dell'immagine dell'articolo.
 
@@ -65,10 +81,14 @@ def render(slug, label, description, items):
         f'<a href="/categorie/{key}/"{corrente if key == slug else ""}>{value[0]}</a>'
         for key, value in CATEGORIES.items()
     )
+    cover_src, cover_alt = COVERS[slug]
+    cover = (f'<img class="category-hero-cover" src="{html.escape(cover_src, quote=True)}" '
+             f'alt="{html.escape(cover_alt, quote=True)}" width="1600" height="900" '
+             f'fetchpriority="high" decoding="async">')
     return f'''<!doctype html>
-<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{label}: ultime notizie e approfondimenti | CurioMondo</title><meta name="description" content="{html.escape(description, quote=True)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://curiomondo.it/categorie/{slug}/"><link rel="stylesheet" href="/assets/css/site-base-v210.css"><link rel="stylesheet" href="/assets/css/global-header-v275.css"><link rel="stylesheet" href="/assets/css/category-pages-v300.css"><script type="application/ld+json">{schema}</script><script defer src="/assets/js/global-header-v275.js"></script></head>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{label}: ultime notizie e approfondimenti | CurioMondo</title><meta name="description" content="{html.escape(description, quote=True)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://curiomondo.it/categorie/{slug}/"><link rel="stylesheet" href="/assets/css/site-base-v210.css"><link rel="stylesheet" href="/assets/css/global-header-v275.css"><link rel="stylesheet" href="/assets/css/category-pages-v301.css"><script type="application/ld+json">{schema}</script><script defer src="/assets/js/global-header-v275.js"></script></head>
 <body><header class="cm-global-header" data-cm-global-header="v275"><nav class="cm-global-header__inner" aria-label="Navigazione della pagina"><a class="cm-global-header__back" href="/" aria-label="Torna alla home di CurioMondo"><span class="cm-global-header__back-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M19 12H5"></path><path d="m11 18-6-6 6-6"></path></svg></span></a><a class="cm-global-header__brand" href="/" aria-label="CurioMondo, home"><span aria-hidden="true">Curio<span>Mondo</span></span></a><button class="cm-global-header__theme" data-cm-global-theme type="button" aria-label="Attiva modalità scura" aria-pressed="false"><span aria-hidden="true">☾</span></button></nav></header>
-<main class="category-shell"><nav class="category-breadcrumb" aria-label="Percorso"><a href="/">Home</a><span>›</span><a href="/notizie/">Notizie</a><span>›</span><span>{label}</span></nav><header class="category-hero"><span class="category-kicker">CATEGORIA</span><h1>{label}</h1><p>{html.escape(description)}</p><strong>{len(items)} articoli</strong></header><nav class="category-switcher" aria-label="Altre categorie">{switches}</nav><section aria-labelledby="category-latest"><div class="category-section-head"><h2 id="category-latest">Ultimi articoli</h2><span>Dal più recente</span></div><ul class="category-list">{cards}</ul></section></main>
+<main class="category-shell"><nav class="category-breadcrumb" aria-label="Percorso"><a href="/">Home</a><span>›</span><a href="/notizie/">Notizie</a><span>›</span><span>{label}</span></nav><header class="category-hero"><div class="category-hero-copy"><span class="category-kicker">CATEGORIA</span><h1>{label}</h1><p>{html.escape(description)}</p><strong>{len(items)} articoli</strong></div>{cover}</header><nav class="category-switcher" aria-label="Altre categorie">{switches}</nav><section aria-labelledby="category-latest"><div class="category-section-head"><h2 id="category-latest">Ultimi articoli</h2><span>Dal più recente</span></div><ul class="category-list">{cards}</ul></section></main>
 </body></html>
 '''
 
