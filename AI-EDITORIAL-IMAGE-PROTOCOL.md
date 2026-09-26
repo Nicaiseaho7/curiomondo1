@@ -12,6 +12,7 @@ Il testo operativo è `automation/prompts/image-generation-contract.txt`. In cas
 - Cronaca, morte, violenza e arresti: niente corpi, sangue, ferite o ricostruzioni spettacolari. Luogo o contesto, sobri.
 - Non presentare la scena come fotografia documentaria dell'evento. La didascalia resta nel markup, non nei pixel.
 - I limiti dello strumento di generazione restano vincolanti e non si aggirano.
+- Correzione della sera del 26 settembre 2026: nelle notizie ordinarie l'inquadratura ha persone, il luogo vero e il marchio vero se è leggibile. Niente palazzi deserti. Il luogo resta vuoto solo per morte, violenza, arresti, o quando il soggetto è solo un oggetto. Se il volto del personaggio pubblico non è affidabile, le persone ci sono comunque, ma non si fanno passare per lui.
 
 ## Persone vere, loghi veri — correzione dell'editore, 21 settembre 2026
 

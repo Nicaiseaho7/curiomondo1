@@ -430,8 +430,16 @@ Mai rappresentare una ricostruzione AI come fotografia documentaria autentica.
 
 Per il meteo, utilizzare invece una mappa editoriale dell’Italia chiara, leggibile e informativa con città, regioni e simboli meteorologici pertinenti.
 
+CORREZIONE DELL'EDITORE, 26 SETTEMBRE 2026, SERA
+
+Le copertine ordinarie non sono edifici vuoti. Nella scena ci sono persone, il luogo vero e, se il marchio esce in modo corretto, il logo vero. Deve sembrare una fotografia originale, non una cartolina di un palazzo deserto.
+
+Un luogo senza persone si usa solo quando inserire qualcuno falsificherebbe il fatto, oppure quando la notizia è una morte, una violenza, un arresto, o quando il soggetto è soltanto l'oggetto (un prodotto, una mappa meteo).
+
+Il personaggio pubblico si mostra in volto solo se la somiglianza è affidabile. Se non lo è, le persone restano nell'inquadratura (folla, giornalisti, atleti di spalle o con il casco, avvocati, passeggeri) ma non vengono presentate come quel personaggio. Mai un sosia al posto della persona vera.
+
 PUBLIC FIGURES AND SYNTHETIC LIKENESS
 Read AI-EDITORIAL-IMAGE-PROTOCOL.md before generating.
 ORDINARY public-figure news may use a contextual scene when the likeness is reliable. buildings and logos are allowed only when they are the real ones and they render correctly.
 SENSITIVE public-figure news requires a neutral isolated portrait, never the traumatic moment.
-If the tool cannot produce a reliable likeness, do not invent a face: show the real place or object. The figure uses data-synthetic-likeness="public-figure" only when that person is actually recognizable, with data-sensitive-context="true|false".
+If the tool cannot produce a reliable likeness, do not invent a face: show the real place or object with the people who belong in the scene, not an empty building and not a lookalike. The figure uses data-synthetic-likeness="public-figure" only when that person is actually recognizable, with data-sensitive-context="true|false".
