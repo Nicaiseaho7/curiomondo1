@@ -28,18 +28,18 @@ def normalize(value):
 
 
 COVERS = {
-    "italia": ("/assets/images/categorie/italia.jpg", "Roma al tramonto, con il Colosseo tra i tetti di cotto"),
-    "mondo": ("/assets/images/categorie/mondo.jpg", "La Terra vista dallo spazio, con Europa, Africa e Asia"),
-    "politica": ("/assets/images/categorie/politica.jpg", "Emiciclo parlamentare vuoto, con banchi di legno e sedute blu"),
-    "cronaca": ("/assets/images/categorie/cronaca.jpg", "Strada cittadina bagnata all'imbrunire, con un lampeggiante lontano"),
-    "economia": ("/assets/images/categorie/economia.jpg", "Grattacieli di un distretto finanziario al crepuscolo, riflessi sull'acqua"),
-    "sport": ("/assets/images/categorie/sport.jpg", "Stadio di calcio di notte, con il prato illuminato dai riflettori"),
-    "meteo": ("/assets/images/categorie/meteo.jpg", "Temporale su un borgo, con un fulmine e pioggia sugli olivi"),
-    "tecnologia": ("/assets/images/categorie/tecnologia.jpg", "Primo piano di un processore e dei circuiti, senza marchi"),
-    "cultura": ("/assets/images/categorie/cultura.jpg", "Galleria di un museo, con una scultura in marmo e quadri alle pareti"),
-    "film-serie-tv": ("/assets/images/categorie/film-serie-tv.jpg", "Sala cinematografica con poltrone rosse e schermo illuminato"),
-    "scienza": ("/assets/images/categorie/scienza.jpg", "Banco di un laboratorio, con microscopio e vetreria"),
-    "ambiente": ("/assets/images/categorie/ambiente.jpg", "Lago alpino all'alba, tra bosco e cime dolomitiche"),
+    "italia": ("/assets/images/categorie/italia-v2.jpg", "I Sassi di Matera all’imbrunire, con le case scavate nella pietra"),
+    "mondo": ("/assets/images/categorie/mondo-v2.jpg", "La Terra di notte, con le luci delle città su Europa, Africa e Asia"),
+    "politica": ("/assets/images/categorie/politica-v2.jpg", "Banco vuoto di un’aula, con microfoni, caraffa e cartella di pelle"),
+    "cronaca": ("/assets/images/categorie/cronaca-v2.jpg", "Scalinata di un palazzo di giustizia all’alba, porta chiusa"),
+    "economia": ("/assets/images/categorie/economia-v2.jpg", "Mercato ortofrutticolo all’alba, cassette di limoni e arance"),
+    "sport": ("/assets/images/categorie/sport-v2.jpg", "Pallone sul bagnato, di notte, sotto i riflettori"),
+    "meteo": ("/assets/images/categorie/meteo-v2.jpg", "Nube a mensola sulla pianura, con un filare di pioppi"),
+    "tecnologia": ("/assets/images/categorie/tecnologia-v2.jpg", "Fibra ottica accesa davanti a una sala server"),
+    "cultura": ("/assets/images/categorie/cultura-v2.jpg", "Affresco crettato in luce radente, con pennello e spugna"),
+    "film-serie-tv": ("/assets/images/categorie/film-serie-tv-v2.jpg", "Macchina da presa su un carrello, in un teatro di posa"),
+    "scienza": ("/assets/images/categorie/scienza-v2.jpg", "Radiotelescopio sotto la Via Lattea"),
+    "ambiente": ("/assets/images/categorie/ambiente-v2.jpg", "Fronte di un ghiacciaio, con l’acqua di fusione"),
 }
 
 
