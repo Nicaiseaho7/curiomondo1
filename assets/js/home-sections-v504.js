@@ -165,12 +165,17 @@
     const block = el('section', 'cm-wire');
     block.id = 'cm-ultima-ora';
     block.setAttribute('aria-label', 'Ultima ora');
-    const head = el('header', 'cm-wire__head');
-    const kicker = el('div', 'cm-wire__kicker');
+    const details = el('details', 'cm-wire__details');
+    const summary = el('summary', 'cm-wire__toggle');
+    const kicker = el('span', 'cm-wire__kicker');
     const dot = el('span', 'cm-wire__dot');
     dot.setAttribute('aria-hidden', 'true');
     kicker.append(dot, el('span', '', 'Ultima ora'));
-    head.append(kicker);
+    const peek = el('span', 'cm-wire__peek', entries[0] ? entries[0].title : '');
+    const chevron = el('span', 'cm-wire__chevron');
+    chevron.setAttribute('aria-hidden', 'true');
+    summary.append(kicker, peek, chevron);
+    const panel = el('div', 'cm-wire__panel');
     const list = el('ol', 'cm-wire__list');
     entries.slice(0, 10).forEach((entry) => {
       const item = el('li');
@@ -184,7 +189,9 @@
     });
     const more = el('a', 'cm-wire__more', 'Tutte le notizie');
     more.href = '/notizie/';
-    block.append(head, list, more);
+    panel.append(list, more);
+    details.append(summary, panel);
+    block.append(details);
     return block;
   };
   const section = ({ category, lead, cards }) => {

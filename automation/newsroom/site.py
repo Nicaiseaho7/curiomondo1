@@ -303,33 +303,40 @@ def _card(item, rail=False):
 
 
 def _sync_ultima_ora(doc, items: list[dict[str, Any]]) -> None:
-    """Aggiorna il riquadro Ultima ora con le dieci notizie più recenti."""
+    """Aggiorna il riquadro Ultima ora. Resta chiuso: la lista si vede al clic."""
     ol = etree.Element("ol", {"class": "cm-wire__list"})
     for item in items[:10]:
         li = etree.SubElement(ol, "li")
         link = etree.SubElement(li, "a", {"class": "cm-wire__item", "href": item["url"]})
         etree.SubElement(link, "time", {"class": "cm-wire__time", "datetime": item["dateISO"]}).text = _ora_breve(item["dateISO"])
         etree.SubElement(link, "span", {"class": "cm-wire__title"}).text = item["title"]
+    peek = items[0]["title"] if items else ""
     found = doc.xpath('//*[@id="cm-ultima-ora"]')
     if found:
         block = found[0]
-        old = block.xpath('./ol[contains(@class,"cm-wire__list")]')
+        for node in block.xpath('.//*[contains(@class,"cm-wire__peek")]'):
+            node.text = peek
+        old = block.xpath('.//ol[contains(@class,"cm-wire__list")]')
         if old:
             old[0].getparent().replace(old[0], ol)
             return
-        more = block.xpath('./a[contains(@class,"cm-wire__more")]')
-        if more:
-            more[0].addprevious(ol)
-        else:
-            block.append(ol)
+        panel = block.xpath('.//*[contains(@class,"cm-wire__panel")]')
+        if panel:
+            panel[0].insert(0, ol)
+            return
+        block.append(ol)
         return
     block = etree.Element("section", {"class": "cm-wire", "id": "cm-ultima-ora", "aria-label": "Ultima ora"})
-    head = etree.SubElement(block, "header", {"class": "cm-wire__head"})
-    kicker = etree.SubElement(head, "div", {"class": "cm-wire__kicker"})
+    details = etree.SubElement(block, "details", {"class": "cm-wire__details"})
+    summary = etree.SubElement(details, "summary", {"class": "cm-wire__toggle"})
+    kicker = etree.SubElement(summary, "span", {"class": "cm-wire__kicker"})
     etree.SubElement(kicker, "span", {"class": "cm-wire__dot", "aria-hidden": "true"})
     etree.SubElement(kicker, "span").text = "Ultima ora"
-    block.append(ol)
-    etree.SubElement(block, "a", {"class": "cm-wire__more", "href": "/notizie/"}).text = "Tutte le notizie"
+    etree.SubElement(summary, "span", {"class": "cm-wire__peek"}).text = peek
+    etree.SubElement(summary, "span", {"class": "cm-wire__chevron", "aria-hidden": "true"})
+    panel = etree.SubElement(details, "div", {"class": "cm-wire__panel"})
+    panel.append(ol)
+    etree.SubElement(panel, "a", {"class": "cm-wire__more", "href": "/notizie/"}).text = "Tutte le notizie"
     anchor = doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," auto-rail-label ")]')
     if not anchor:
         anchor = doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," auto-rail ")]')
