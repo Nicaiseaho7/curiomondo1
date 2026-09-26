@@ -1,7 +1,38 @@
 {
-  "version": 597,
+  "version": 598,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Place de la Concorde preparata per una messa all'aperto, con l'obelisco e file di sedie verso i Champs-Élysées, senza volti riconoscibili.",
+      "prompt": "Photorealistic editorial photo of Place de la Concorde prepared for an outdoor mass, Luxor Obelisk, rows of chairs toward the Champs-Élysées, no identifiable faces, no readable text.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/leone-xiv-seconda-giornata-messa-alla-concorde-e-lourdes-v598-480.webp",
+          "sha256": "9c154eeb752f47ab774db30a99a5f947fa6b0d2b4482a97d8d09e2314c83504e",
+          "bytes": 37778
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/leone-xiv-seconda-giornata-messa-alla-concorde-e-lourdes-v598-800.webp",
+          "sha256": "b3454e79c16e0c9c623be1c4a8fbca6ad66605c5ec4714657a6e8b06d215222f",
+          "bytes": 96880
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/leone-xiv-seconda-giornata-messa-alla-concorde-e-lourdes-v598-1200.webp",
+          "sha256": "00103fc788ed674f0beb287478ea7f462828d4aa5c8908b656fa2ed24c2cadb5",
+          "bytes": 195122
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/leone-xiv-seconda-giornata-messa-alla-concorde-e-lourdes-26-09-2026.html"
+    },
     {
       "alt": "Strada di Bangkok allagata all'alba, con auto ferme nell'acqua e pioggia fitta, illustrazione editoriale senza persone riconoscibili.",
       "prompt": "Photorealistic editorial photo of a flooded Bangkok avenue at dawn, knee-deep water, stranded cars, monsoon rain, no readable text, no identifiable faces, no injured people.",

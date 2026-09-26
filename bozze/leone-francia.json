@@ -1,0 +1,41 @@
+{
+  "titolo": "Leone XIV, seconda giornata: messa alla Concorde e Lourdes",
+  "sommario": "Il calendario vaticano fissa la messa alle 15, il decollo da Orly alle 17.45 e la preghiera alla grotta di Massabielle alle 19.40. I 600 mila sono la soglia delle iscrizioni, non un conteggio dei presenti.",
+  "luogo": "Parigi",
+  "categoria": "Mondo",
+  "formato": "standard",
+  "parole_chiave_titolo": ["Leone", "Lourdes"],
+  "dati_chiave": [
+    {"icona": "◆", "valore": "15:00", "etichetta": "messa in Place de la Concorde"},
+    {"icona": "▲", "valore": "17.45", "etichetta": "partenza da Orly per Lourdes"},
+    {"icona": "●", "valore": "600 mila", "etichetta": "soglia delle iscrizioni alla messa"}
+  ],
+  "paragrafi": [
+    "Sabato 26 settembre è la seconda giornata del viaggio di Papa Leone XIV in Francia. Dopo gli appuntamenti a Parigi il calendario ufficiale prevede il volo verso Lourdes, nel santuario dei Pirenei.",
+    "Alle 9 è in agenda la visita alla Maison Bakhita, centro di accompagnamento e integrazione sociale dell'arcidiocesi, nel XVIII arrondissement. La tappa è senza pubblico: il Papa saluta ospiti e operatori. La struttura, aperta nel settembre 2021, lavora con persone in esilio.",
+    "Alle 10.15, all'Istituto cattolico, incontra i membri dell'assemblea sinodale provinciale, i catecumeni e i neofiti. Il calendario della Santa Sede prevede un discorso del Papa. L'incontro è su invito e viene trasmesso.",
+    "Alle 15 presiede la messa all'aperto in Place de la Concorde, con il perimetro che risale i Champs-Élysées. L'arcivescovo di Parigi Laurent Ulrich ha chiuso le iscrizioni il 16 settembre, quando si avvicinavano a 600 mila, e ha ottenuto di estendere la zona fino a place de l'Étoile e all'avenue de la Grande-Armée.",
+    "Quei 600 mila sono iscritti e un tetto di sicurezza, non il numero di chi è in piazza oggi. Il generale Hervé Wattecamps, coordinatore del viaggio a Parigi, il 9 settembre ha detto a franceinfo di ritenere certi almeno 600 mila e possibile un afflusso fra 800 mila e un milione, contando chi arriva senza registrazione.",
+    "La Croix, lo stesso 16 settembre, scriveva che la diocesi dava per acquisita una presenza di 500 mila e che gli organizzatori indicavano una forchetta fino a 600 mila, massimo concordato con le autorità. I due numeri misurano cose diverse: una base già stimata e il limite di sicurezza.",
+    "Alle 17.45 è prevista la partenza dall'aeroporto di Orly. L'arrivo a Tarbes-Lourdes-Pyrénées è in programma alle 19.05.",
+    "Alle 19.40 l'ultimo atto della giornata è la preghiera alla grotta delle apparizioni di Massabielle, nel santuario di Nostra Signora di Lourdes. Con quella sosta si apre la tappa pirenaica, che prosegue domenica.",
+    "Il viaggio, dal 25 al 28 settembre, tocca Parigi, Saint-Denis, Lourdes e Metz. Venerdì c'erano già stati l'Eliseo, l'Unesco, i vespri a Notre-Dame e la veglia dei giovani allo Stade de France.",
+    "È il primo viaggio di un papa in Francia dal settembre 2008, quando venne Benedetto XVI. Lo ricorda Vatican News nel pezzo con cui ha pubblicato il programma, il 7 agosto.",
+    "Il foglio orario di sabato è quello diffuso dalla Sala stampa vaticana il 5 agosto e ripreso dall'ambasciata di Francia presso la Santa Sede. In quelle pagine non c'è la stima della folla: arriva dalla diocesi e dal coordinamento della sicurezza."
+  ],
+  "fonti": [
+    {"url": "http://www.vatican.va/content/leo-xiv/en/travels/2026/documents/francia-25-28settembre2026.html", "descrizione": "Santa Sede — programma del 25-28 settembre, giornata di sabato"},
+    {"url": "https://va.diplomatie.gouv.fr/programme-du-voyage-apostolique-du-pape-en-france", "descrizione": "Ambasciata di Francia presso la Santa Sede — stessi orari ufficiali"},
+    {"url": "https://www.franceinfo.fr/societe/religion/la-venue-du-pape-leon-xiv-en-france-rassemblera-au-moins-600-000-fideles-lors-d-une-messe-geante-a-paris_8184548.html", "descrizione": "franceinfo — stima di Wattecamps, almeno 600 mila"},
+    {"url": "https://www.la-croix.com/religion/leon-xiv-a-paris-dernier-jour-pour-s-inscrire-a-la-messe-de-la-concorde-le-perimetre-elargi-pour-repondre-a-laffluence-20260916", "descrizione": "La Croix — forchetta fino a 600 mila e perimetro allargato"},
+    {"url": "https://www.vaticannews.va/en/pope/news/2026-08/pope-leos-packed-schedule-4-day-apostolic-journey-to-france.html", "descrizione": "Vatican News — Maison Bakhita e precedente di Benedetto XVI nel 2008"}
+  ],
+  "immagine": {
+    "alt": "Place de la Concorde preparata per una messa all'aperto, con l'obelisco e file di sedie verso i Champs-Élysées, senza volti riconoscibili.",
+    "url": "/workspace/artifacts/imagine_images/092b7c3b-16e5-4c1f-8462-0f4bf710f95c.jpg",
+    "prompt": "Photorealistic editorial photo of Place de la Concorde prepared for an outdoor mass, Luxor Obelisk, rows of chairs toward the Champs-Élysées, no identifiable faces, no readable text.",
+    "fotografia_reale": false,
+    "personaggio_pubblico": false,
+    "contesto_sensibile": false
+  }
+}
