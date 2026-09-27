@@ -83,6 +83,10 @@ Prima di creare o aggiornare articoli o visual CurioMondo, leggere integralmente
 ## Prevalenza ricerca notizie — 19 settembre 2026
 Per richieste di ultime notizie e per la fase di scoperta dei cicli editoriali, `PROTOCOLLO-SCOPERTA-NOTIZIE.md` è obbligatorio e prevale sulle vecchie priorità che mettono le agenzie prima delle fonti ufficiali o dei documenti primari. La regola delle cinque storie riguarda l’output di scouting richiesto dall’utente e non obbliga a pubblicare contenuti che non superano i gate editoriali.
 
+
+## Divieto fonti nel corpo — 27 settembre 2026 (fail-closed)
+**Mai** inserire nel corpo dell'articolo (`.art-body`) righe o paragrafi `Fonte: …`, `Fonti: …`, elenchi di testate a fine pezzo o formule equivalenti. Le fonti con link stanno **solo** nella sezione **«Fonti consultate»** (`.art-sources`) sotto l'articolo. L'attribuzione nel testo, se indispensabile, è solo narrativa («secondo il comunicato FIGC…»), mai una riga `Fonte:`. Violazione = articolo non pubblicabile. Vedi `PROTOCOLLO-REDAZIONE-CORPO.md` e `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`.
+
 ## Regola editoriale articoli v317 — superata per la scrittura da v502
 Ogni articolo segue `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` per il testo pubblico e il protocollo 4.0 in `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md` per gate di rischio, originalità e AdSense. Piramide invertita; lead con le 5 W quando note; nessuna ripetizione, prima persona, enfasi, riempitivo, elenco di fonti nel corpo o nota interna. La lunghezza dipende dalla materia verificata, non da una quota. È vietato spiegare parole difficili nel corpo della notizia: usare un lessico chiaro oppure creare o collegare una pagina di approfondimento quando serve. Se manca materia verificata, l'esito è `NON PUBBLICARE — motivo`.
 
