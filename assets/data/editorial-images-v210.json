@@ -1,5 +1,5 @@
 {
-  "version": 639,
+  "version": 640,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
@@ -158,8 +158,8 @@
       "prompt": "fotorealismo ultra-realistico, stile fotogiornalistico naturale"
     },
     {
-      "alt": "Ritratto di Noa Argamani, liberata dal rapimento del 7 ottobre; illustrazione editoriale IA non documentaria.",
-      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "alt": "Ritratto editoriale neutrale di Noa Argamani; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale. Descrizione verificata del visual esistente, non prompt di una nuova generazione: neutral editorial portrait, isolated head-and-shoulders portrait with a plain studio background; no reenactment of the kidnapping.",
       "variants": [
         {
           "w": 480,
@@ -185,8 +185,18 @@
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
-      "sensitiveContext": false,
-      "article": "/notizie/l-idf-uccide-a-gaza-il-terrorista-che-rapi-noa-argamani-27-09-2026.html"
+      "sensitiveContext": true,
+      "article": "/notizie/l-idf-uccide-a-gaza-il-terrorista-che-rapi-noa-argamani-27-09-2026.html",
+      "syntheticLikeness": "public-figure",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false,
+      "editorialReview": {
+        "date": "2026-09-27",
+        "scope": "visual classification of existing asset; original generation prompt unavailable",
+        "result": "neutral-isolated portrait",
+        "sha256": "800d783657335361b7288c3451ea0470066cb2c6d1d0becab70254c690a49ca8"
+      }
     },
     {
       "key": "meteo-italia-27-settembre-3-ottobre-2026-v628",

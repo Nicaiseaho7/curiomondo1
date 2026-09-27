@@ -8,6 +8,7 @@ import argparse, json, subprocess, re
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from difflib import SequenceMatcher
+from editorial_rules import FORMAT_WORD_RANGES, format_errors, source_errors
 
 ap=argparse.ArgumentParser(); ap.add_argument('--root',default='.'); args=ap.parse_args()
 root=Path(args.root).resolve(); errors=[]
@@ -71,7 +72,8 @@ if config_path.exists():
         articles_cfg=config.get('articles',{})
         if articles_cfg.get('article_length_policy')!='word_count_by_format': errors.append('policy lunghezza per formato assente nella config')
         if articles_cfg.get('editorial_protocol_version')!='4.0': errors.append('protocollo editoriale 4.0 assente nella config')
-        if articles_cfg.get('format_word_ranges')!={'flash':[100,250],'standard':[300,600],'feature':[800,1500]}: errors.append('fasce parole per formato non conformi nella config')
+        if articles_cfg.get('format_word_ranges')!=FORMAT_WORD_RANGES: errors.append('fasce orientative per formato non conformi nella config')
+        if articles_cfg.get('format_word_ranges_are_guidance') is not True: errors.append('fasce parole configurate come soglie rigide')
         if articles_cfg.get('feature_may_exceed_reference_range') is not True: errors.append('estensione feature oltre 1.500 parole non abilitata nella config')
         if articles_cfg.get('inverted_pyramid_required') is not True or articles_cfg.get('lead_five_w_required') is not True: errors.append('piramide invertita o 5 W assenti nella config')
         if articles_cfg.get('paragraph_max_words')!=60: errors.append('limite 60 parole per paragrafo assente nella config')
@@ -100,7 +102,8 @@ if manifest_path.exists():
         body_policy=manifest.get('news',{}).get('article_body_characters',{})
         if body_policy.get('policy')!='word_count_by_format': errors.append('policy manifest per formato assente')
         if body_policy.get('editorial_protocol_version')!='4.0': errors.append('protocollo 4.0 assente nel manifest')
-        if body_policy.get('format_word_ranges')!={'flash':[100,250],'standard':[300,600],'feature':[800,1500]}: errors.append('fasce parole manifest non conformi')
+        if body_policy.get('format_word_ranges')!=FORMAT_WORD_RANGES: errors.append('fasce orientative manifest non conformi')
+        if body_policy.get('format_word_ranges_are_guidance') is not True: errors.append('manifest non dichiara fasce orientative')
         if body_policy.get('feature_may_exceed_reference_range') is not True: errors.append('estensione feature oltre 1.500 parole non abilitata nel manifest')
         if body_policy.get('inverted_pyramid_required') is not True or body_policy.get('lead_five_w_required') is not True: errors.append('piramide invertita o 5 W assenti nel manifest')
         if body_policy.get('paragraph_max_words')!=60: errors.append('limite paragrafi assente nel manifest')
@@ -290,14 +293,11 @@ for p in news:
         body=bodies[0]
         if body.get('data-editorial-protocol')!='4.0': errors.append(f'protocollo editoriale 4.0 non dichiarato: {p.name}')
         fmt=body.get('data-article-format')
-        ranges={'flash':(100,250),'standard':(300,600),'feature':(800,1500)}
-        if fmt not in ranges: errors.append(f'formato editoriale v4 assente o non valido: {p.name}')
-        else:
-            text_words=re.findall(r"\b[0-9A-Za-zÀ-ÖØ-öø-ÿ'’]+\b",' '.join(body.itertext()))
-            lower,upper=ranges[fmt]
-            substantial=body.get('data-substantive-update')=='true'
-            if len(text_words)<lower or (len(text_words)>upper and fmt!='feature' and not substantial): errors.append(f'lunghezza {fmt} v4 non conforme: {p.name} ({len(text_words)} parole)')
-            if fmt=='feature' and len(body.xpath('.//h2|.//h3'))<2: errors.append(f'approfondimento v4 senza titoletti sufficienti: {p.name}')
+        errors.extend(f'{message}: {p.name}' for message in format_errors(body))
+        if fmt=='feature' and len(body.xpath('.//h2|.//h3'))<2: errors.append(f'approfondimento v4 senza titoletti sufficienti: {p.name}')
+        # Regola del 27 settembre: titoletti solo negli approfondimenti autonomi.
+        if fmt in ('flash','standard') and body.xpath('.//h2|.//h3'):
+            errors.append(f'titoletti nel corpo della notizia: {p.name}')
         for idx,para in enumerate(body.xpath('.//p'),1):
             words=re.findall(r"\b[0-9A-Za-zÀ-ÖØ-öø-ÿ'’]+\b",' '.join(para.itertext()))
             if len(words)>60: errors.append(f'paragrafo v4 oltre 60 parole: {p.name} ({idx}: {len(words)})')
@@ -333,8 +333,8 @@ for p in news:
                 alt=' '.join(figures[0].xpath('.//img/@alt')).lower()
                 if 'ritratto editoriale neutrale' not in alt: errors.append(f'alt sensibile non descrive ritratto neutrale: {p.name}')
     robots=' '.join(d.xpath('//meta[@name="robots"]/@content')).lower()
-    if 'noindex' not in robots and len(d.xpath('//div[contains(@class,"art-sources")]//a[@href]'))<2:
-        errors.append(f'meno di due fonti nell’articolo indicizzabile: {p.name}')
+    if 'noindex' not in robots:
+        errors.extend(f'{message}: {p.name}' for message in source_errors(d, bodies[0] if bodies else None))
     # Ascolto, condivisione e salvataggio fanno parte dell'articolo CurioMondo:
     # sono mancati per settimane nelle pagine prodotte dal renderer automatico
     # senza che nessun controllo se ne accorgesse.
@@ -495,9 +495,9 @@ except Exception as exc:
     errors.append(f'home-feed non verificabile per la rotazione cronologica: {exc}')
 if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-home-deep-links ")]'): errors.append('card Approfondimenti ancora presente in homepage')
 if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-discovery-row ")]'): errors.append('card Biblioteca/Approfondimenti ancora presenti in homepage')
-if len(home.xpath('//ul[contains(concat(" ",normalize-space(@class)," ")," drawer-nav ")]//a[@href="/biblioteca/"]'))!=1: errors.append('Biblioteca non presente una sola volta nel menu drawer')
-if len(home.xpath('//ul[contains(concat(" ",normalize-space(@class)," ")," drawer-nav ")]//a[@href="/approfondimenti/"]'))!=1: errors.append('Approfondimenti non presenti una sola volta nel menu drawer')
-if home.xpath('//a[(@href="/biblioteca/" or @href="/approfondimenti/") and not(ancestor::ul[contains(concat(" ",normalize-space(@class)," ")," drawer-nav ")])]'): errors.append('Biblioteca o Approfondimenti ancora collegati fuori dal menu drawer in homepage')
+if len(home.xpath('//dialog[@id="drawer"]//a[@href="/biblioteca/"]'))!=1: errors.append('Biblioteca non presente una sola volta nel menu drawer')
+if len(home.xpath('//dialog[@id="drawer"]//a[@href="/approfondimenti/"]'))!=1: errors.append('Approfondimenti non presenti una sola volta nel menu drawer')
+if home.xpath('//a[(@href="/biblioteca/" or @href="/approfondimenti/") and not(ancestor::dialog[@id="drawer"])]'): errors.append('Biblioteca o Approfondimenti ancora collegati fuori dal menu drawer in homepage')
 if len(home.xpath('//section[contains(@class,"cm-editorial-signature")][@data-layout="open-white-canvas"]'))!=1: errors.append('testata editoriale non impostata sulla pagina bianca aperta')
 azure_css_path=root/'assets/css/home-azure-v274.css'
 home_bundle_path=root/'assets/css/home-bundle-v291.css'

@@ -3,6 +3,7 @@
 from pathlib import Path
 from lxml import html
 import re, sys
+from editorial_rules import format_errors, source_errors
 
 ROOT=Path(__file__).resolve().parents[1]
 WORD_RE=re.compile(r"\b[0-9A-Za-zÀ-ÖØ-öø-ÿ'’]+\b")
@@ -21,20 +22,13 @@ for path in sorted((ROOT/"notizie").glob("*.html")):
     bodies=doc.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," art-body ")]')
     count=len(WORD_RE.findall(" ".join(bodies[0].itertext()))) if bodies else 0
     article_format=(bodies[0].get("data-article-format","") if bodies else "").strip().casefold()
-    minimum=100 if article_format=="flash" else 300
-    sources=len(doc.xpath('//div[contains(concat(" ",normalize-space(@class)," ")," art-sources ")]//a[@href]'))
     if "noindex" in robots:
         quarantined.append(path.name)
         if doc.xpath('//script[contains(@src,"pagead2.googlesyndication.com")]'):
             errors.append(f"pubblicita presente sulla pagina in revisione: {path.name}")
     else:
-        if count<minimum:
-            errors.append(
-                f"notizia indicizzabile sotto la soglia {article_format or 'standard'} "
-                f"di {minimum} parole: {path.name} ({count})"
-            )
-        if sources<2:
-            errors.append(f"notizia indicizzabile con meno di due fonti: {path.name}")
+        errors.extend(f"{message}: {path.name}" for message in format_errors(bodies[0] if bodies else None))
+        errors.extend(f"{message}: {path.name}" for message in source_errors(doc, bodies[0] if bodies else None))
         if not doc.xpath('//p[contains(concat(" ",normalize-space(@class)," ")," cm-article-byline ")] | //a[@href="/pagine/redazione.html"]'):
             errors.append(f"responsabilita editoriale assente: {path.name}")
 

@@ -136,7 +136,7 @@ home = home.replace(/<section class="cm-wire" id="cm-ultima-ora"/g, (match) => {
     ? match
     : '<section class="cm-wire cm-wire--legacy" id="cm-ultima-ora-legacy"';
 });
-const tickerItems = ranked.filter((entry) => entry.url && entry.title).slice(0, 8);
+const tickerItems = ranked.filter((entry) => entry.url && entry.title).slice(0, 10);
 const tickerLink = (entry, hidden) => `<a class="ticker-news" href="${esc(entry.url)}"${hidden ? ' tabindex="-1"' : ''}>${esc(entry.title)}</a>`;
 const tickerNav = `<nav aria-label="Ultime notizie in diretta" class="ticker-track">${tickerItems.map((entry) => tickerLink(entry, false)).join('')}</nav>`;
 const tickerCopy = `<div aria-hidden="true" class="ticker-track" inert="">${tickerItems.map((entry) => tickerLink(entry, true)).join('')}</div>`;

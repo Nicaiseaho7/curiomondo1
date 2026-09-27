@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 639,
-    "site_version": 639
+    "current_site_version": 640,
+    "site_version": 640
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -139,7 +139,7 @@
         ],
         "standard": [
           300,
-          600
+          700
         ],
         "feature": [
           800,
@@ -164,7 +164,8 @@
       "cutting_for_length_alone_forbidden": true,
       "semantic_repetition_forbidden": true,
       "each_paragraph_must_add_new_information": true,
-      "closing_recap_that_repeats_body_forbidden": true
+      "closing_recap_that_repeats_body_forbidden": true,
+      "format_word_ranges_are_guidance": true
     },
     "knowledge_hook_required": false,
     "knowledge_hook_rule": "Use a knowledge hook only when it is one of at least two genuine value-add elements; never force a glossary or evergreen box.",
@@ -259,18 +260,59 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 636,
-  "version": "v636",
-  "release_version": "v636",
+  "site_version": 640,
+  "version": "v640",
+  "release_version": "v640",
   "last_release": {
-    "version": 636,
+    "version": 640,
     "date": "2026-09-27",
-    "type": "image-update",
+    "type": "editorial-audit",
     "news_added": [],
     "news_updated": [
+      "americas-cup-napoli-ultima-giornata-race-village-42mila-27-09-2026",
+      "ballando-con-le-stelle-2026-debutto-3-ottobre-noemi-bocchi",
+      "bar-chiusi-confesercenti-24mila-in-6-anni-27-09-2026",
+      "berlusconi-90-anni-villa-certosa-famiglia-29-settembre-2026",
+      "bratan-espulso-milano-meda-video-27-09-2026",
+      "bulega-campione-mondo-superbike-2026-cremona-27-09-2026",
+      "carburanti-diesel-benzina-rialzo-mimit-27-09-2026",
+      "daniel-osvaldo-fuori-pericolo-terapia-intensiva-27-09-2026",
+      "etna-catania-aeroporto-chiuso-mezzanotte-27-09-2026",
+      "fairford-raf-arresti-esplosivi-regno-unito-27-09-2026",
+      "festa-del-cinema-roma-2026-jenna-ortega-jovanotti-27-09-2026",
+      "generazione-z-ia-lavoro-produttivita-reuters-27-09-2026",
+      "giorgio-armani-sfilata-milano-paillettes-pe2027-27-09-2026",
+      "ip-tetto-prezzi-carburante-effetto-traino-eni-27-09-2026",
+      "irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-27-09-2026",
+      "jovanotti-compie-60-anni-27-settembre-2026",
+      "juve-neto-torino-visite-mediche-ritorno-27-09-2026",
+      "l-idf-uccide-a-gaza-il-terrorista-che-rapi-noa-argamani-27-09-2026",
+      "leclerc-lapsus-motore-ferrari-addetta-stampa-virale-27-09-2026",
+      "lourdes-mosaici-di-rupnik-coperti-per-la-visita-del-papa-27-09-2026",
       "madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-27-09-2026",
-      "irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-27-09-2026"
+      "meteo-italia-27-settembre-3-ottobre-2026",
+      "mtv-vma-2026-madonna-taylor-swift-snoop-dogg-27-09-2026",
+      "nations-league-francia-in-belgio-senza-mbappe-primo-vero-test-per-zidane-27-09-2026",
+      "nazioni-league-italia-turchia-mancini-10-azzurri-coverciano-27-09-2026",
+      "openai-anthropic-incidenti-sicurezza-axios-27-09-2026",
+      "operaio-investito-a14-bologna-autista-alcol-27-09-2026",
+      "palazzo-chigi-tagli-100-milioni-ministri-sottosegretari-27-09-2026",
+      "papa-leone-xiv-lourdes-fine-vita-dignita-27-09-2026",
+      "papa-leone-xiv-lourdes-incontro-vittime-abusi-27-09-2026",
+      "report-attesa-sul-reintegro-di-ranucci-la-redazione-in-bilico-27-09-2026",
+      "siponto-resti-medievali-mamma-bimbo-scavi-foggia-27-09-2026",
+      "siracusano-vannacci-foto-ritoccata-reato-sessista-27-09-2026",
+      "suppletive-reggio-calabria-voto-27-28-settembre-2026",
+      "svizzera-referendum-neutralita-bocciato-68-8-27-09-2026",
+      "tempesta-costa-est-usa-morto-brooklyn-27-09-2026",
+      "tentato-femminicidio-melito-napoli-63enne-27-09-2026",
+      "torino-bimbo-5-anni-investito-ex-compagna-tentato-omicidio-27-09-2026",
+      "totti-50-anni-las-vegas-27-settembre-2026",
+      "trump-quiet-reporter-ms-now-gardner-casa-bianca-27-09-2026",
+      "uno-bianca-savi-occhipinti-procura-bologna-27-09-2026",
+      "vespa-80-anni-raduno-capri-36-registro-storico-27-09-2026",
+      "zuppi-mosca-missione-umanitaria-27-09-2026"
     ],
-    "change": "Hero ultra-realistiche fotogiornalistiche Madrid/Portadown"
+    "change": "Revisione dei 43 articoli del 27 settembre; una pagina in revisione per fonte unica; correzione anteprime e gate coerenti con il protocollo v502."
   }
 }
