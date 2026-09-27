@@ -63,9 +63,15 @@ html.cm-dark #drawer .mx-entry small,html.cm-dark #drawer .mx-topics p,html.cm-d
 #drawer .drawer-brand-home .cm-wordmark{
   position:relative!important;
   z-index:1!important;
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
   font-size:clamp(1.68rem,6.5vw,2.05rem)!important;
   line-height:1!important;
-  text-shadow:0 1px 0 rgba(255,255,255,.92),0 2px 0 rgba(8,32,74,.2),0 4px 0 rgba(8,32,74,.1),0 8px 14px rgba(10,30,70,.32)!important;
+  text-shadow:0 1px 0 #fff,0 2px 0 #16325c,0 3px 0 #102848,0 7px 12px rgba(8,24,48,.42)!important;
+}
+#drawer .drawer-brand-home .cm-wordmark>span{
+  color:#245fd6!important;
+  -webkit-text-fill-color:#245fd6!important;
 }
 #drawer .drawer-brand-home .cm-wordmark::after{
   content:""!important;
