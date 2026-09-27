@@ -185,3 +185,14 @@ Nelle **notizie** (`notizie/*.html`) è **vietato** inserire nel corpo `.art-bod
 Il pezzo racconta **fatti, contesto e fonti**. Metodo, disclosure IA e firma stanno **solo** in `art-sources` / footer / pagine istituzionali (`Come lavoriamo`), non nei paragrafi della notizia.
 Violazione = correggere prima del go-live.
 
+
+## Immagini incidenti / morti sul lavoro — vietati rottami e scene macabre (27 settembre 2026)
+
+Nelle hero e illustrazioni di **notizie su incidenti stradali, morti sul lavoro, cantieri, investimenti, incidenti autostradali**:
+- **MAI** auto rovesciate, carcasse, lamiere contorte, vetri infranti in primo piano, sangue, corpi, barelle, scene di soccorso gore o “re-enactment” spettacolari dell’incidente.
+- **Sì** a immagini sobrie di contesto: cantiere segnalato, coni e luci, tratto di strada vuoto, barriere, autostrada di notte **senza** veicolo incidentato.
+- Niente targhe (anche inventate) su qualsiasi veicolo.
+- Tone: documentario, rispettoso della vittima, non tabloid.
+
+Violazione = rigenerare l’immagine e aggiornare hero/og prima del go-live. **Non deve più succedere.**
+
