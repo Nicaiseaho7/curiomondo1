@@ -36,6 +36,11 @@ Il principio è: **riparare e pubblicare quando la storia è valida; bloccare so
 
 ---
 
+
+### Marchio uguale su tutti gli articoli (fail-closed)
+In **ogni** pagina articolo il nome del sito deve essere **identico**: testo `CurioMondo` (Curio + Mondo nello span canonico), `aria-label="CurioMondo, home"`, CSS `global-header-v275.css?v=633`, pulsante tema presente. Vietate varianti di spelling o markup semplificati che alterano il marchio.
+
+
 ## 0.1 REVISIONE EDITORIALE v471 — PUBBLICARE DI PIÙ, SENZA RIDURRE L'AFFIDABILITÀ
 
 **Data:** 21 settembre 2026  
