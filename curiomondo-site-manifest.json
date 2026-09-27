@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 627,
-    "site_version": 627
+    "current_site_version": 628,
+    "site_version": 628
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -259,17 +259,15 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 627,
-  "version": "v627",
-  "release_version": "v627",
+  "site_version": 628,
+  "version": "v628",
+  "release_version": "v628",
   "last_release": {
-    "version": 627,
+    "version": 628,
     "date": "2026-09-27",
-    "type": "weather-service",
-    "news_added": [
-      "meteo-italia-27-settembre-3-ottobre-2026"
-    ],
+    "type": "homepage-cover-video",
+    "news_added": [],
     "news_updated": [],
-    "change": "Meteo Italia dal 27 settembre al 3 ottobre 2026"
+    "change": "Copertina homepage: video loop città meteo giorno-notte"
   }
 }
