@@ -691,3 +691,17 @@ Il pezzo scorre solo a paragrafi (e liste solo se indispensabili per candidati/o
 I sottotitoli H2/H3 restano ammessi **solo** negli **approfondimenti** evergreen (`approfondimenti/` o formato feature), quando orientano una guida lunga.
 Non inserire mai titoletti del tipo «Il contesto», «Cosa sappiamo», «Il punto» nelle notizie.
 Violazione = articolo da correggere prima del go-live.
+
+
+## Vietati i commenti personali / meta della redazione nel corpo — 27 settembre 2026
+
+Nelle **notizie** (`notizie/*.html`) è **vietato** inserire nel corpo `.art-body` frasi meta, di metodo o di «voce CurioMondo», ad esempio:
+- «CurioMondo segue il caso con sobrietà…»
+- «CurioMondo aggiorna solo su fatti di agenzia…»
+- «CurioMondo non pubblica dettagli…»
+- «Non anticipiamo sentenze…» / «Aggiorneremo solo con fonti…»
+- qualsiasi chiusura in prima persona redazionale o auto-elogio del metodo
+
+Il pezzo racconta **fatti, contesto e fonti**. Metodo, disclosure IA e firma stanno **solo** in `art-sources` / footer / pagine istituzionali (`Come lavoriamo`), non nei paragrafi della notizia.
+Violazione = correggere prima del go-live.
+
