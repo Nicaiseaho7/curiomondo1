@@ -85,7 +85,10 @@
     let url;
     try { url = new URL(link.href, location.origin); } catch { return; }
     if (url.origin !== location.origin) return;
-    if (url.pathname === '/' || url.pathname === '/index.html') return;
+    if (url.pathname === '/' || url.pathname === '/index.html') {
+      try { sessionStorage.removeItem('cm_menu_return'); } catch {}
+      return;
+    }
     try { sessionStorage.setItem('cm_menu_return', '1'); } catch {}
   });
   function reopenMenu() {
