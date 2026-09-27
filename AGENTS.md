@@ -84,6 +84,23 @@ Prima di creare o aggiornare articoli o visual CurioMondo, leggere integralmente
 Per richieste di ultime notizie e per la fase di scoperta dei cicli editoriali, `PROTOCOLLO-SCOPERTA-NOTIZIE.md` è obbligatorio e prevale sulle vecchie priorità che mettono le agenzie prima delle fonti ufficiali o dei documenti primari. La regola delle cinque storie riguarda l’output di scouting richiesto dall’utente e non obbliga a pubblicare contenuti che non superano i gate editoriali.
 
 
+
+## Marchio intestazione CurioMondo — obbligatorio e identico su ogni articolo (27 settembre 2026)
+Il **nome del sito** in intestazione di **ogni** articolo, presente e futuro, deve essere **sempre e solo** `CurioMondo` (testo concatenato esatto, mai «Curio Mondo», «CM», «curiomondo» o altre varianti).
+
+Markup **canonico obbligatorio** (non semplificare):
+
+```html
+<link rel="stylesheet" href="/assets/css/global-header-v275.css?v=633">
+…
+<a class="cm-global-header__brand" href="/" aria-label="CurioMondo, home"><span aria-hidden="true">Curio<span>Mondo</span></span></a>
+<button class="cm-global-header__theme" data-cm-global-theme type="button" aria-label="Attiva modalità scura" aria-pressed="false"><span aria-hidden="true">☾</span></button>
+```
+
+- `title` e `publisher` JSON-LD: suffisso/nome **`CurioMondo`**
+- Predeploy blocca se il marchio non è esattamente `CurioMondo`
+- Violazione = articolo non pubblicabile
+
 ## Divieto fonti nel corpo — 27 settembre 2026 (fail-closed)
 **Mai** inserire nel corpo dell'articolo (`.art-body`) righe o paragrafi `Fonte: …`, `Fonti: …`, elenchi di testate a fine pezzo o formule equivalenti. Le fonti con link stanno **solo** nella sezione **«Fonti consultate»** (`.art-sources`) sotto l'articolo. L'attribuzione nel testo, se indispensabile, è solo narrativa («secondo il comunicato FIGC…»), mai una riga `Fonte:`. Violazione = articolo non pubblicabile. Vedi `PROTOCOLLO-REDAZIONE-CORPO.md` e `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`.
 
