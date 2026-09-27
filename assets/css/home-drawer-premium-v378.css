@@ -42,3 +42,25 @@ html.cm-dark #drawer .drawer-tool-icon,html.cm-dark #drawer .drawer-nav .drawer-
 html.cm-dark #drawer .drawer-featured .drawer-nav-icon{background:#ffffff14!important;color:#fff!important}
 @media(max-width:350px){#drawer .drawer-content{padding-left:12px;padding-right:12px}#drawer .drawer-head{padding-left:16px;padding-right:16px!important}#drawer .drawer-tool-copy strong{font-size:13px!important}#drawer .drawer-nav-copy strong{font-size:14px!important}}
 @media(prefers-reduced-motion:reduce){#drawer[open]{animation:none!important}#drawer *{transition:none!important}}
+
+/* Menu più compatto: le voci stanno in schede, marchio e firma restano invariati. */
+#drawer .drawer-content{display:flex;flex-direction:column;gap:14px;padding:14px 16px max(22px,env(safe-area-inset-bottom))!important}
+#drawer .drawer-tools{margin:0!important}
+#drawer .drawer-nav{display:flex;flex-direction:column;margin:0!important;padding:0!important}
+#drawer .drawer-nav>li{border:0!important;background:transparent}
+#drawer .drawer-about,
+#drawer .drawer-primary{margin:0!important;background:var(--menu-paper)!important;border:1px solid var(--menu-line)!important;box-shadow:0 6px 20px #102b4d05}
+#drawer .drawer-about{border-radius:18px 18px 0 0!important;border-bottom:0!important}
+#drawer .drawer-primary{border-radius:0 0 18px 18px!important;border-top:1px solid var(--menu-line)!important}
+#drawer .drawer-about>a,
+#drawer .drawer-primary>a{min-height:58px!important;padding:8px 12px!important;border-radius:0!important}
+#drawer .drawer-nav .drawer-nav-heading{display:flex;align-items:center;gap:8px;margin:16px 2px 8px!important;padding:0!important}
+#drawer .drawer-nav .drawer-nav-heading::before{content:"";width:14px;height:2px;border-radius:2px;background:#245fd6}
+#drawer .drawer-nav .drawer-featured{margin:0 0 8px!important}
+#drawer .drawer-nav .drawer-featured:last-of-type{margin-bottom:0!important}
+#drawer .drawer-nav .drawer-featured>a{min-height:74px!important;padding:14px 14px!important;border-radius:18px!important}
+#drawer .drawer-chevron{width:22px;font-size:18px!important;line-height:1;text-align:center;opacity:.72}
+#drawer .drawer-nav .drawer-category-grid{gap:8px!important;margin:0!important}
+#drawer .drawer-nav .drawer-category-grid>a{min-height:42px!important;border-radius:12px!important;font:650 12.5px/1.2 Arial,Helvetica,sans-serif!important;letter-spacing:-.01em}
+html.cm-dark #drawer .drawer-about,
+html.cm-dark #drawer .drawer-primary{background:var(--menu-paper)!important;border-color:var(--menu-line)!important;box-shadow:none}
