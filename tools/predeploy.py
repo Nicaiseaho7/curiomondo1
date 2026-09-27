@@ -512,11 +512,8 @@ guide_paths=[]
 try:
     daily_manifest=json.loads(manifest_path.read_text())
     daily_slugs=daily_manifest.get('daily_state',{}).get('last_daily_guides',[])
-    if len(daily_slugs)!=2:
-        errors.append('manifest senza esattamente due guide giornaliere')
-    for slug in daily_slugs:
-        matches=list((root/'biblioteca').glob(f'**/{slug}/index.html'))
-        guide_paths.append(matches[0] if matches else root/'biblioteca'/slug/'index.html')
+    # La biblioteca non pubblica più guide: restano solo le Domande del giorno e i loro eBook.
+    guide_paths=[]
 except Exception as exc:
     errors.append(f'guide giornaliere non risolvibili dal manifest: {exc}')
 qday=home.xpath('//section[contains(concat(" ",normalize-space(@class)," ")," cm-qday ")]')
