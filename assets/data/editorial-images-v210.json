@@ -1,68 +1,66 @@
 {
-  "version": 632,
+  "version": 634,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
-      "alt": "Manifestanti bloccano la Garvaghy Road a Portadown; fotografia editoriale.",
-      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "alt": "Residenti sulla Garvaghy Road a Portadown con bandiere irlandesi; illustrazione editoriale IA non documentaria.",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-v632-480.webp",
-          "sha256": "0cc8a98ba935cadd0c7307d400b857a9649273e4b9f6955ab0511c08a10e3cf0",
-          "bytes": 41338
+          "src": "/assets/images/editorial-auto/irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-v634-480.webp",
+          "sha256": "0e75026d10ce97e45468cc1889264f358623d3e2bb39ab9c33ebeec32d58ef64",
+          "bytes": 47218
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-v632-800.webp",
-          "sha256": "01108703f4b01062eadaef271ba32ef8e1823e77ca9959985c7b8cdc75cd93cf",
-          "bytes": 87956
+          "src": "/assets/images/editorial-auto/irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-v634-800.webp",
+          "sha256": "e8ea10baa483d0e09ba283f720e0185dd5704c515e61ff3c7356da8c0f2ac1d7",
+          "bytes": 120638
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-v632-1200.webp",
-          "sha256": "302246184db6b45cd722c7385f6d6f79ec78b419d8573cf58a0a899252d683fb",
-          "bytes": 148986
+          "src": "/assets/images/editorial-auto/irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-v634-1200.webp",
+          "sha256": "4e354da76f74ccef35192009100becbc09124a6fe6fcb66ab4d764d28dff3002",
+          "bytes": 220964
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
-      "officialArtwork": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "CurioMondo IA editoriale",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "sensitiveContext": false,
-      "article": "/notizie/irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-27-09-2026.html"
+      "article": "/notizie/irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-27-09-2026.html",
+      "prompt": "illustrazione editoriale IA dedicata, non documentaria"
     },
     {
-      "alt": "Tendopoli di protesta nella Puerta del Sol di Madrid; fotografia editoriale.",
-      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "alt": "Tendopoli editoriale nella Puerta del Sol di Madrid di fronte alla Real Casa de Correos; illustrazione IA non documentaria.",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-v631-480.webp",
-          "sha256": "f589ac8d79702f06068a04129f2f6845562037eee75c7d279710378eec0215d1",
-          "bytes": 38866
+          "src": "/assets/images/editorial-auto/madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-v634-480.webp",
+          "sha256": "f56ea31424dbc5ae04e971ae165c6b2d477fd101bb7ffc63e3cb5c9a52c0fb68",
+          "bytes": 43562
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-v631-800.webp",
-          "sha256": "70e973c3df3bcafbf7a3732d9b98ddabbebc8b42ec0d82ec220e64132f078a9e",
-          "bytes": 84672
+          "src": "/assets/images/editorial-auto/madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-v634-800.webp",
+          "sha256": "b9495a5b88c8fcecde297fa6d97ad019edfc6c478c73acbfc85bae6fc98b04dd",
+          "bytes": 106220
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-v631-1200.webp",
-          "sha256": "c821c94e311e0146aaf0dc19b32a24f54b7b2ec55704d26fa3c175e9aa1ea401",
-          "bytes": 137576
+          "src": "/assets/images/editorial-auto/madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-v634-1200.webp",
+          "sha256": "be8595ca7dc6e88f303abf8ecffc691303bfe81fb4b786b47402b1c8012925b5",
+          "bytes": 211300
         }
       ],
-      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
-      "generator": "fornita dalla redazione",
-      "aiGenerated": false,
-      "documentaryPhoto": true,
-      "officialArtwork": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "CurioMondo IA editoriale",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
       "sensitiveContext": false,
-      "article": "/notizie/madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-27-09-2026.html"
+      "article": "/notizie/madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-27-09-2026.html",
+      "prompt": "illustrazione editoriale IA dedicata, non documentaria"
     },
     {
       "alt": "Ritratto di Noa Argamani, liberata dal rapimento del 7 ottobre; illustrazione editoriale IA non documentaria.",
