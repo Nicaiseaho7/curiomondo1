@@ -256,3 +256,22 @@ html.cm-dark .cm-wire__chevron{border-color:#8eb6ff}
 @media(prefers-reduced-motion:reduce){
   .cm-wire__chevron{transition:none}
 }
+
+/* Marchio in testata: più grande e nitido, stessi colori. */
+.header .cm-wordmark{
+  font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif!important;
+  font-weight:700!important;
+  font-size:clamp(2.15rem,5.6vw,2.95rem)!important;
+  line-height:.9!important;
+  letter-spacing:-.028em!important;
+  text-rendering:geometricPrecision;
+  -webkit-font-smoothing:antialiased;
+  font-kerning:normal;
+  text-shadow:0 1px 0 #031020,0 2px 6px rgba(3,16,32,.85)!important;
+}
+@media(max-width:700px){
+  .header .cm-wordmark{font-size:1.92rem!important}
+}
+@media(max-width:360px){
+  .header .cm-wordmark{font-size:1.68rem!important}
+}
