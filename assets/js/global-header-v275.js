@@ -3,7 +3,10 @@
   'use strict';
   document.querySelectorAll('.cm-global-header__brand').forEach((link) => {
     link.addEventListener('click', () => {
-      try { sessionStorage.removeItem('cm_menu_return'); } catch {}
+      try {
+        sessionStorage.removeItem('cm_menu_return');
+        sessionStorage.setItem('cm_skip_menu', '1');
+      } catch {}
     });
   });
   document.querySelectorAll('.cm-global-header__back').forEach((link) => {

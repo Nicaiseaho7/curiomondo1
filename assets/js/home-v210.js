@@ -79,19 +79,49 @@
   });
 
   const drawer = document.getElementById('drawer');
+  function skipMenu() {
+    try {
+      sessionStorage.removeItem('cm_menu_return');
+      sessionStorage.setItem('cm_skip_menu', '1');
+    } catch {}
+  }
+  function closeMenu() {
+    if (drawer?.open) drawer.close();
+    document.body.classList.remove('cm-modal-open');
+  }
+  document.querySelectorAll('.logo, .drawer-brand-home, .drawer-brand-card').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      skipMenu();
+      if (location.pathname === '/' || location.pathname === '/index.html') {
+        event.preventDefault();
+        closeMenu();
+      }
+    });
+  });
   drawer?.addEventListener('click', (event) => {
     const link = event.target.closest('a');
     if (!link) return;
+    if (link.closest('.drawer-brand-home, .drawer-brand-card')) return;
     let url;
     try { url = new URL(link.href, location.origin); } catch { return; }
     if (url.origin !== location.origin) return;
     if (url.pathname === '/' || url.pathname === '/index.html') {
-      try { sessionStorage.removeItem('cm_menu_return'); } catch {}
+      skipMenu();
       return;
     }
     try { sessionStorage.setItem('cm_menu_return', '1'); } catch {}
   });
   function reopenMenu() {
+    let skip = false;
+    try { skip = sessionStorage.getItem('cm_skip_menu') === '1'; } catch {}
+    if (skip) {
+      try {
+        sessionStorage.removeItem('cm_skip_menu');
+        sessionStorage.removeItem('cm_menu_return');
+      } catch {}
+      closeMenu();
+      return;
+    }
     let back = false;
     try { back = sessionStorage.getItem('cm_menu_return') === '1'; } catch { return; }
     if (!back || !drawer) return;
