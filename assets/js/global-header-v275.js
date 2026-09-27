@@ -1,6 +1,16 @@
 /* CurioMondo v275 — tema dell'intestazione interna unica. */
 (() => {
   'use strict';
+  document.querySelectorAll('.cm-global-header__back').forEach((link) => {
+    link.addEventListener('click', (event) => {
+      let same = false;
+      try { same = new URL(document.referrer).origin === location.origin; } catch {}
+      if (same && history.length > 1) {
+        event.preventDefault();
+        history.back();
+      }
+    });
+  });
   const button=document.querySelector('[data-cm-global-theme]');
   if(!button)return;
   const root=document.documentElement;
