@@ -1,7 +1,100 @@
 {
-  "version": 628,
+  "version": 632,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Manifestanti bloccano la Garvaghy Road a Portadown; fotografia editoriale.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-v632-480.webp",
+          "sha256": "0cc8a98ba935cadd0c7307d400b857a9649273e4b9f6955ab0511c08a10e3cf0",
+          "bytes": 41338
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-v632-800.webp",
+          "sha256": "01108703f4b01062eadaef271ba32ef8e1823e77ca9959985c7b8cdc75cd93cf",
+          "bytes": 87956
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-v632-1200.webp",
+          "sha256": "302246184db6b45cd722c7385f6d6f79ec78b419d8573cf58a0a899252d683fb",
+          "bytes": 148986
+        }
+      ],
+      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": false,
+      "documentaryPhoto": true,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-27-09-2026.html"
+    },
+    {
+      "alt": "Tendopoli di protesta nella Puerta del Sol di Madrid; fotografia editoriale.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-v631-480.webp",
+          "sha256": "f589ac8d79702f06068a04129f2f6845562037eee75c7d279710378eec0215d1",
+          "bytes": 38866
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-v631-800.webp",
+          "sha256": "70e973c3df3bcafbf7a3732d9b98ddabbebc8b42ec0d82ec220e64132f078a9e",
+          "bytes": 84672
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-v631-1200.webp",
+          "sha256": "c821c94e311e0146aaf0dc19b32a24f54b7b2ec55704d26fa3c175e9aa1ea401",
+          "bytes": 137576
+        }
+      ],
+      "disclosure": "Fotografia editoriale fornita alla redazione CurioMondo; non generata da intelligenza artificiale.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": false,
+      "documentaryPhoto": true,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-27-09-2026.html"
+    },
+    {
+      "alt": "Ritratto di Noa Argamani, liberata dal rapimento del 7 ottobre; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/l-idf-uccide-a-gaza-il-terrorista-che-rapi-noa-argamani-v630-480.webp",
+          "sha256": "21b5c1ed05b6edc224a95fb1c20bed189a4249b6edf3aab637f5ba98f2872798",
+          "bytes": 16972
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/l-idf-uccide-a-gaza-il-terrorista-che-rapi-noa-argamani-v630-800.webp",
+          "sha256": "800d783657335361b7288c3451ea0470066cb2c6d1d0becab70254c690a49ca8",
+          "bytes": 48206
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/l-idf-uccide-a-gaza-il-terrorista-che-rapi-noa-argamani-v630-1200.webp",
+          "sha256": "c085b84f16e46e41d3c9fdd5e078f8da3477c24579b4291981cdd9def5ab2552",
+          "bytes": 105058
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/l-idf-uccide-a-gaza-il-terrorista-che-rapi-noa-argamani-27-09-2026.html"
+    },
     {
       "key": "meteo-italia-27-settembre-3-ottobre-2026-v628",
       "alt": "Mappa meteo editoriale dell’Italia per domenica 27 settembre 2026, con regioni, città principali, sole prevalente e tendenza fino al 3 ottobre.",
