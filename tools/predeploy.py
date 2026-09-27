@@ -391,6 +391,23 @@ for section in home.xpath('//section[contains(concat(" ",normalize-space(@class)
             break
 ticker=' '.join(home.xpath('//nav[contains(@class,"ticker-track")]//a[contains(@class,"ticker-news")]//text()')).strip()
 if not ticker: errors.append('ultime notizie assenti nel ticker')
+feed_path=root/'assets/data/home-feed-v210.json'
+if feed_path.exists():
+    feed_items=json.loads(feed_path.read_text(encoding='utf-8')).get('items') or []
+    ranked=[]
+    for index, item in enumerate(feed_items):
+        if item.get('draft') is True or item.get('published') is False: continue
+        raw=item.get('firstPublishedAt') or item.get('dateISO') or item.get('published') or item.get('date') or item.get('datetime') or ''
+        url=item.get('url') or item.get('href') or ''
+        try: stamp=datetime.fromisoformat(str(raw))
+        except ValueError: continue
+        if stamp.tzinfo is None: stamp=stamp.replace(tzinfo=ZoneInfo('Europe/Rome'))
+        if stamp<=datetime.now(stamp.tzinfo): ranked.append((stamp, index, url))
+    ranked.sort(key=lambda row: (-row[0].timestamp(), row[1]))
+    newest=[url for _, _, url in ranked[:3] if url]
+    carousel=home.xpath('//section[contains(@class,"cm-featured-carousel")]//a[contains(@class,"cm-topic-lead__cta")]/@href')[:3]
+    if newest!=carousel:
+        errors.append('il carosello in primo piano non parte dalle ultime notizie: '+' | '.join(carousel or ['vuoto']))
 film_tv_terms=('cinema','film','serie tv','serie televis','streaming','slow horses','netflix','apple tv','prime video','disney+')
 for card in home.xpath('//a[@href][.//h3]'):
     signal=' '.join([card.get('href',''),' '.join(card.xpath('.//h3//text()'))]).casefold()

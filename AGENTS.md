@@ -64,6 +64,9 @@ Ogni nuovo eBook della Domanda del giorno è un libro breve: **25.000 parole** (
 ## Categorie della home — mai mescolate
 In ogni sezione della homepage (Sport, Politica, Cronaca e le altre) possono comparire solo notizie di quella categoria. Una card di un'altra categoria è un errore bloccante. Dopo ogni pubblicazione rieseguire `node tools/render_home_editorial.js`: aggiorna sezioni, Ultima ora e ticker «Ultime notizie». `tools/predeploy.py` rifiuta la home se una sezione è mista o se il ticker è vuoto.
 
+## Primo piano
+Le ultime notizie, in ordine di pubblicazione, occupano sempre il carosello in primo piano. La più recente è la prima slide. Non si lascia una notizia più vecchia davanti a una più nuova. Vale per ogni aggiornamento del feed, qualunque sia il nome del campo data.
+
 
 
 

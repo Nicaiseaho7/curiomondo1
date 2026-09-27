@@ -30,11 +30,13 @@
 
   const normalize = (value) => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('it');
   const canonicalKey = (entry) => {
-    if (entry && entry.id) return 'id:' + String(entry.id).trim().toLowerCase();
     try {
-      const url = new URL(String(entry && entry.url || ''), 'https://curiomondo.it');
-      return 'url:' + url.pathname.replace(/\/{2,}/g, '/').replace(/\/$/, '') + url.search;
-    } catch { return ''; }
+      const url = new URL(String(entry && (entry.url || entry.href) || ''), 'https://curiomondo.it');
+      const path = url.pathname.replace(/\/{2,}/g, '/').replace(/\/$/, '') + url.search;
+      if (path && path !== '/') return 'url:' + path;
+    } catch { /* usa l'id solo se l'indirizzo manca */ }
+    if (entry && entry.id) return 'id:' + String(entry.id).trim().toLowerCase();
+    return '';
   };
   const zonedDay = (date, timeZone = CONFIG.timeZone) => {
     if (!(date instanceof Date) || Number.isNaN(date.getTime())) return '';
@@ -43,7 +45,7 @@
     return `${get('year')}-${get('month')}-${get('day')}`;
   };
   const firstPublished = (entry) => {
-    const raw = entry && (entry.firstPublishedAt || entry.dateISO);
+    const raw = entry && (entry.firstPublishedAt || entry.dateISO || entry.published || entry.date || entry.datetime);
     const date = new Date(raw || '');
     return Number.isNaN(date.getTime()) ? null : date;
   };
@@ -55,25 +57,35 @@
   const importance = (entry) => Number(entry && entry.homepagePriority) || 0;
   const isImportant = (entry) => importance(entry) > 0;
   const categoryFor = (entry) => {
-    const explicit = normalize(entry && entry.primaryCategory);
+    const explicit = normalize(entry && (entry.primaryCategory || entry.category || entry.section));
     if (explicit) {
       const match = CONFIG.categories.find((category) => category.id === explicit || normalize(category.label) === explicit);
       if (match) return match;
     }
-    const section = normalize(entry && entry.section);
+    const section = normalize(entry && (entry.section || entry.category));
     return CONFIG.categories.find((category) => category.aliases.some((alias) => section.split(/\s*[\/.·]\s*/).includes(normalize(alias))))
       || CONFIG.categories.find((category) => category.aliases.some((alias) => section.includes(normalize(alias))))
       || null;
   };
   const prepare = (items, now) => {
     const unique = new Map();
-    (Array.isArray(items) ? items : []).forEach((entry) => {
-      const key = canonicalKey(entry);
+    (Array.isArray(items) ? items : []).forEach((entry, index) => {
+      const key = canonicalKey({ ...entry, url: entry && (entry.url || entry.href) });
       const published = firstPublished(entry);
       if (!key || !published || published > now || entry.draft === true || entry.published === false) return;
-      if (!unique.has(key)) unique.set(key, { ...entry, _key: key, _published: published });
+      if (!unique.has(key)) unique.set(key, {
+        ...entry,
+        url: entry.url || entry.href,
+        section: entry.section || entry.category || '',
+        excerpt: entry.excerpt || entry.summary || '',
+        imageAlt: entry.imageAlt || entry.title || '',
+        dateISO: entry.dateISO || entry.published || entry.date || entry.datetime,
+        _key: key,
+        _index: index,
+        _published: published
+      });
     });
-    return Array.from(unique.values()).sort((a, b) => b._published - a._published || a._key.localeCompare(b._key));
+    return Array.from(unique.values()).sort((a, b) => b._published - a._published || a._index - b._index);
   };
   function allocate(items, options = {}) {
     const now = options.now instanceof Date ? options.now : new Date(options.now || Date.now());
