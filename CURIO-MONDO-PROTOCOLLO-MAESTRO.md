@@ -27,6 +27,21 @@ Il principio è: **riparare e pubblicare quando la storia è valida; bloccare so
 - Il tasto **Indietro** resta diverso: se l’utente era entrato in una pagina dal menu, Indietro riapre quel menu. Il nome e il logo non seguono mai questa regola.
 - Vale per l’intestazione, per il menu laterale e per ogni futura testata. I nuovi template devono collegare nome e logo a `/` con questo comportamento, senza eccezioni.
 
+## eBook della Domanda del giorno — libro vendibile, dal 28 settembre 2026
+
+**Stato:** obbligatorio e prevalente su v162 e v176 per ogni eBook pubblicato dal 28 settembre 2026 in poi. Gli eBook già online restano com’ sono.
+
+Un eBook della Domanda del giorno non è più un mini-libro da 15.000–30.000 caratteri. È un libro breve che si potrebbe vendere.
+
+- **25.000 parole** di testo utile, con tolleranza **22.000–32.000**. Sotto le 22.000 non si pubblica.
+- **8–12 capitoli**, una schermata per capitolo. Il capitolo si scorre. `Indietro` e `Avanti` cambiano capitolo, non paragrafi. Niente sfoglio, swipe o gesture.
+- Ogni capitolo ha **un solo H2** e sviluppa un passaggio solo. Un H3 è ammesso solo se il capitolo cambia davvero argomento. Vietato un titolo per ogni paragrafo.
+- Ordine: promessa, a chi serve e a chi no, problema concreto, punto di vista non già gratuito, esempi, metodo rifacibile, limiti, chiusura che fa fare un passo. La chiusura non riassume il libro.
+- Voce naturale, italiana, chiara. Niente tono da manuale, niente motivazione vuota, niente ripetizione della stessa idea con altre parole.
+- **Indicizzazione obbligatoria:** `index,follow`, canonical autoreferenziale, presenza in `sitemap.xml` e nell’indice di ricerca interno. È vietato `noindex` su questi eBook, presenti e futuri.
+
+
+
 
 
 

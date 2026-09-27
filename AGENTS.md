@@ -58,6 +58,11 @@ Per selezione, verifica e pubblicazione delle notizie prevale la revisione v471 
 
 Questa sezione sostituisce le precedenti regole incompatibili su doppia conferma universale, due valori aggiunti obbligatori per ogni formato, limite automatico di 24 ore, soglie quantitative di rilevanza e scarto editoriale causato da problemi tecnici riparabili.
 
+## eBook Domanda del giorno — dal 28 settembre 2026
+Ogni nuovo eBook della Domanda del giorno è un libro breve: **25.000 parole** (tolleranza 22.000–32.000), **8–12 capitoli**, una schermata per capitolo. Deve essere indicizzato (`index,follow`, canonical, sitemap, indice di ricerca). Gli eBook già pubblicati non si riscrivono per questa regola. Dettaglio in `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`.
+
+
+
 
 ## Trigger «notizie-trend-google» — non è un sito nuovo
 

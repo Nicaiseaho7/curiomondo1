@@ -545,11 +545,30 @@ if book_path and book_path.exists():
     book=html.fromstring(book_path.read_text(errors='replace'))
     pages=book.xpath('//*[@data-book-page]')
     book_text=re.sub(r'\s+',' ',' '.join(book.xpath('//div[contains(concat(" ",normalize-space(@class)," ")," cm-book-stage ")]//p//text()'))).strip()
-    if not 8<=len(pages)<=14: errors.append('eBook v255 fuori 8–14 pagine')
-    if not 15000<=len(book_text)<=30000: errors.append(f'eBook v255 fuori 15000–30000 caratteri ({len(book_text)})')
-    content_h2 = book.xpath('//h2[not(contains(concat(" ",normalize-space(@class)," ")," cm-book-title "))]')
-    if len(content_h2)>7: errors.append('eBook v255 supera 7 H2 di contenuto')
+    book_words=len(re.findall(r'\S+', book_text))
+    qdates=daily.xpath('//time[@datetime]/@datetime') if daily_path and daily_path.exists() else []
+    new_book=bool(qdates and qdates[0] >= '2026-09-28')
+    if new_book:
+        if not 8<=len(pages)<=12: errors.append(f'eBook fuori 8–12 capitoli ({len(pages)})')
+        if not 22000<=book_words<=32000: errors.append(f'eBook fuori 22000–32000 parole ({book_words})')
+        content_h2 = book.xpath('//h2')
+        if not 8<=len(content_h2)<=12: errors.append(f'eBook fuori 8–12 capitoli H2 ({len(content_h2)})')
+    else:
+        if not 8<=len(pages)<=14: errors.append('eBook v255 fuori 8–14 pagine')
+        if not 15000<=len(book_text)<=30000: errors.append(f'eBook v255 fuori 15000–30000 caratteri ({len(book_text)})')
+        content_h2 = book.xpath('//h2[not(contains(concat(" ",normalize-space(@class)," ")," cm-book-title "))]')
+        if len(content_h2)>7: errors.append('eBook v255 supera 7 H2 di contenuto')
     if len(book.xpath('//button[@data-book-prev]'))!=1 or len(book.xpath('//button[@data-book-next]'))!=1: errors.append('controlli eBook v255 non conformi')
+    robots=' '.join(book.xpath('//meta[@name="robots"]/@content')).lower()
+    if 'noindex' in robots or 'index,follow' not in robots.replace(' ',''): errors.append('eBook non indicizzabile: manca index,follow')
+    book_url='https://curiomondo.it/' + str(book_path.relative_to(root).parent).replace('\\','/') + '/'
+    if book_url not in (root/'sitemap.xml').read_text(errors='replace'): errors.append('eBook assente dalla sitemap')
+    try:
+        search_urls={item.get('url') for item in json.loads((root/'assets/data/search-index-v210.json').read_text()).get('items',[])}
+    except Exception as exc:
+        search_urls=set(); errors.append(f'indice di ricerca non leggibile: {exc}')
+    public_path='/' + str(book_path.relative_to(root).parent).replace('\\','/') + '/'
+    if public_path not in search_urls: errors.append('eBook assente dall’indice di ricerca')
 else: errors.append('eBook v255 assente')
 for guide_path in guide_paths:
     if not guide_path.exists(): errors.append(f'guida giornaliera v255 assente: {guide_path.parent.name}'); continue
