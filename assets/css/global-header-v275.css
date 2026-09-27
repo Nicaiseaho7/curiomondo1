@@ -1,9 +1,9 @@
 /* CurioMondo v275 — intestazione interna unica e permanente. */
 :root{
-  --cm-global-head-ink:#113c5a;
-  --cm-global-head-blue:#1877f2;
-  --cm-global-head-line:#cdeaf9;
-  --cm-global-head-paper:rgba(255,255,255,.92);
+  --cm-global-head-ink:#ffffff;
+  --cm-global-head-blue:#245fd6;
+  --cm-global-head-line:rgba(255,255,255,.14);
+  --cm-global-head-paper:#07182d;
 }
 
 .cm-global-header{
@@ -16,9 +16,7 @@
   border:0;
   border-bottom:1px solid var(--cm-global-head-line);
   background:var(--cm-global-head-paper);
-  box-shadow:0 8px 28px rgba(22,126,186,.08);
-  backdrop-filter:blur(18px) saturate(150%);
-  -webkit-backdrop-filter:blur(18px) saturate(150%);
+  box-shadow:0 8px 28px rgba(0,0,0,.18);
 }
 
 .cm-global-header__inner{
@@ -56,10 +54,12 @@
 .cm-global-header__back-icon{width:20px;height:20px;display:block}
 .cm-global-header__back-icon svg{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
 
-.cm-global-header__brand{
+.cm-global-header__brand,
+.cm-global-header__brand span[aria-hidden]{
   justify-self:center;
   min-width:0;
-  color:var(--cm-global-head-ink);
+  color:#fff;
+  -webkit-text-fill-color:#fff;
   font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
   font-weight:700;
   font-size:clamp(1.85rem,6.6vw,2.28rem);
@@ -70,8 +70,17 @@
   text-rendering:geometricPrecision;
   -webkit-font-smoothing:antialiased;
   font-kerning:normal;
+  text-shadow:0 1px 0 #031020,0 2px 6px rgba(3,16,32,.85);
 }
-.cm-global-header__brand span span{color:var(--cm-global-head-blue)}
+.cm-global-header__brand{justify-self:center}
+.cm-global-header__brand > span:not([aria-hidden]),
+.cm-global-header__brand span span{
+  color:#245fd6;
+  -webkit-text-fill-color:#245fd6;
+  font:inherit;
+  letter-spacing:inherit;
+  text-shadow:none;
+}
 
 .cm-global-header__back:hover,
 .cm-global-header__back:focus-visible,
@@ -85,10 +94,10 @@
 
 html.cm-dark .cm-global-header,
 html.dark .cm-global-header{
-  --cm-global-head-ink:#f4f9ff;
-  --cm-global-head-blue:#7fd4ff;
-  --cm-global-head-line:rgba(129,202,239,.16);
-  --cm-global-head-paper:rgba(6,24,43,.9);
+  --cm-global-head-ink:#ffffff;
+  --cm-global-head-blue:#245fd6;
+  --cm-global-head-line:rgba(255,255,255,.14);
+  --cm-global-head-paper:#07182d;
   box-shadow:0 8px 28px rgba(0,0,0,.16);
 }
 html.cm-dark .cm-global-header__back,
