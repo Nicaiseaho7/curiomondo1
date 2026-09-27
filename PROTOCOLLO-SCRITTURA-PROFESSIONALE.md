@@ -544,31 +544,12 @@ Questa regola sostituisce le soglie fisse di caratteri (v248, v257 e successive,
 
 ════════════════════════════════════
 20. SOTTOTITOLI
-════════════════════════════════════
 
-Utilizzare H2/H3 quando migliorano realmente la navigazione.
+Nelle **notizie** (`notizie/*.html`) i sottotitoli H2/H3 nel corpo sono **vietati**: solo paragrafi continui.
+Negli **approfondimenti** H2/H3 restano ammessi se informativi e utili.
+NON inserire un sottotitolo ogni due paragrafi. Vietati i titoletti generici («Il contesto», «Cosa sappiamo»).
 
-I sottotitoli devono descrivere ciò che segue.
 
-NON inserire un sottotitolo ogni due paragrafi automaticamente.
-
-NON utilizzare titoli generici come:
-
-- "Una situazione complessa"
-- "Le reazioni"
-- "Cosa sappiamo"
-
-quando è possibile essere più informativi.
-
-Preferire:
-
-- "Cosa prevede il provvedimento"
-- "Quando entra in vigore"
-- "Le conseguenze per i pendolari"
-
-Nelle breaking news e nelle notizie standard corte i paragrafi possono bastare. I titoletti restano obbligatori negli approfondimenti autonomi (`feature`) quando aiutano a orientarsi.
-
-════════════════════════════════════
 21. CHIUSURA
 ════════════════════════════════════
 
@@ -702,3 +683,11 @@ Non prevale su:
 In caso di conflitto sulla scrittura del testo pubblico, questo file vince.
 
 La checklist compilata va usata in redazione. Non va inserita nella pagina pubblica.
+
+## Sottotitoli H2/H3 nelle notizie — VIETATI (27 settembre 2026)
+
+**Nelle pagine `notizie/*.html` (flash e standard) i sottotitoli H2/H3 nel corpo `.art-body` sono vietati.**
+Il pezzo scorre solo a paragrafi (e liste solo se indispensabili per candidati/orari).
+I sottotitoli H2/H3 restano ammessi **solo** negli **approfondimenti** evergreen (`approfondimenti/` o formato feature), quando orientano una guida lunga.
+Non inserire mai titoletti del tipo «Il contesto», «Cosa sappiamo», «Il punto» nelle notizie.
+Violazione = articolo da correggere prima del go-live.
