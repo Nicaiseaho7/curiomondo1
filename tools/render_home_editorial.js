@@ -53,10 +53,11 @@ const time = (entry) => {
   return `<time datetime="${esc(raw)}">${esc(formatDate(entry))}</time>`;
 };
 
-const largeCard = (entry, label, color, primary) => {
+const largeCard = (entry, label, color, primary, categoryId) => {
   const cls = 'cm-topic-lead' + (primary ? ' cm-topic-lead--primary' : '');
   const title = primary ? 'h1' : 'h3';
-  return `<article class="${cls}" style="--cm-category-color:${esc(color)}"><div class="cm-topic-lead__body"><span class="cm-topic-label">${esc(label)}</span><${title} class="cm-topic-lead__title">${esc(entry.title)}</${title}>${entry.excerpt ? `<p class="cm-topic-lead__summary">${esc(entry.excerpt)}</p>` : ''}<div class="cm-topic-lead__footer"><a class="cm-topic-lead__cta" href="${esc(entry.url)}">Leggi l’articolo →</a>${time(entry)}</div></div>${picture(entry, primary)}</article>`;
+  const categoryAttr = categoryId ? ` data-category="${esc(categoryId)}"` : '';
+  return `<article class="${cls}"${categoryAttr} style="--cm-category-color:${esc(color)}"><div class="cm-topic-lead__body"><span class="cm-topic-label">${esc(label)}</span><${title} class="cm-topic-lead__title">${esc(entry.title)}</${title}>${entry.excerpt ? `<p class="cm-topic-lead__summary">${esc(entry.excerpt)}</p>` : ''}<div class="cm-topic-lead__footer"><a class="cm-topic-lead__cta" href="${esc(entry.url)}">Leggi l’articolo →</a>${time(entry)}</div></div>${picture(entry, primary)}</article>`;
 };
 
 const carousel = (entries) => {
@@ -79,19 +80,17 @@ const ultimaOra = (entries) => {
 
 const section = ({ category, lead, cards }) => {
   const label = category.id === 'film-tv' ? 'Film e serie TV' : category.label;
-  const own = cards.filter((entry) => {
-    const found = api.categoryFor(entry);
-    return found && found.id === category.id;
-  });
-  const small = own.map((entry) => {
-    const found = api.categoryFor(entry);
-    const badge = found ? (found.id === 'film-tv' ? 'Film e serie TV' : found.label) : label;
-    return `<a class="cm-topic-card" href="${esc(entry.url)}" style="--cm-category-color:${esc(category.color)}"><div class="cm-topic-card__body"><span class="cm-topic-label meta">${esc(badge)}</span><h3 class="cm-topic-card__title">${esc(entry.title)}</h3>${picture(entry, false)}${time(entry)}</div></a>`;
-  }).join('');
+  const belongs = (entry) => api.categoryFor(entry)?.id === category.id;
+  if (!belongs(lead)) return '';
+  const own = cards.filter(belongs);
+  if (!own.length) return '';
+  const small = own.map((entry) => (
+    `<a class="cm-topic-card" data-category="${esc(category.id)}" href="${esc(entry.url)}" style="--cm-category-color:${esc(category.color)}"><div class="cm-topic-card__body"><span class="cm-topic-label meta">${esc(label)}</span><h3 class="cm-topic-card__title">${esc(entry.title)}</h3>${picture(entry, false)}${time(entry)}</div></a>`
+  )).join('');
   const archive = category.archive
     ? `<a class="cm-topic-archive" href="${esc(category.archive)}">${esc(category.id === 'meteo' ? 'Tutte le notizie Meteo →' : `Tutte le notizie di ${label} →`)}</a>`
     : '';
-  return `<section class="cm-topic-section" data-category="${esc(category.id)}" id="categoria-${esc(category.id)}" style="--cm-category-color:${esc(category.color)}">${largeCard(lead, label, category.color, false)}<div class="cm-topic-section__rail" data-for-category="${esc(category.id)}"><h2 class="cm-topic-section__title">${esc(label)}</h2>${own.length ? `<div class="cm-topic-grid">${small}</div>` : ''}${archive}</div></section>`;
+  return `<section class="cm-topic-section" data-category="${esc(category.id)}" id="categoria-${esc(category.id)}" style="--cm-category-color:${esc(category.color)}">${largeCard(lead, label, category.color, false, category.id)}<div class="cm-topic-section__rail" data-for-category="${esc(category.id)}"><h2 class="cm-topic-section__title">${esc(label)}</h2><div class="cm-topic-grid">${small}</div>${archive}</div></section>`;
 };
 
 const feed = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/home-feed-v210.json'), 'utf8'));
@@ -137,5 +136,12 @@ home = home.replace(/<section class="cm-wire" id="cm-ultima-ora"/g, (match) => {
     ? match
     : '<section class="cm-wire cm-wire--legacy" id="cm-ultima-ora-legacy"';
 });
+const tickerItems = ranked.filter((entry) => entry.url && entry.title).slice(0, 8);
+const tickerLink = (entry, hidden) => `<a class="ticker-news" href="${esc(entry.url)}"${hidden ? ' tabindex="-1"' : ''}>${esc(entry.title)}</a>`;
+const tickerNav = `<nav aria-label="Ultime notizie in diretta" class="ticker-track">${tickerItems.map((entry) => tickerLink(entry, false)).join('')}</nav>`;
+const tickerCopy = `<div aria-hidden="true" class="ticker-track" inert="">${tickerItems.map((entry) => tickerLink(entry, true)).join('')}</div>`;
+if (!home.includes('class="ticker-track"')) throw new Error('ticker assente');
+home = home.replace(/<nav aria-label="Ultime notizie in diretta" class="ticker-track">[\s\S]*?<\/nav>/, tickerNav);
+home = home.replace(/<div aria-hidden="true" class="ticker-track" inert="">[\s\S]*?<\/div>/, tickerCopy);
 fs.writeFileSync(homePath, home);
 console.log('home-editorial', hero && hero.title, allocation.sections.length);

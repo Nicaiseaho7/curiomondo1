@@ -3,6 +3,11 @@
   'use strict';
   const existing = document.getElementById('cm-home-editorial-v504');
   if (existing && existing.dataset.static === 'ready') {
+    const mixed = Array.from(existing.querySelectorAll('.cm-topic-section')).some((section) => {
+      const id = section.dataset.category || '';
+      return Array.from(section.querySelectorAll('.cm-topic-card, .cm-topic-lead')).some((card) => card.dataset.category && card.dataset.category !== id);
+    });
+    if (!mixed) {
     const viewport = existing.querySelector('.cm-featured-carousel__viewport');
     const slides = Array.from(existing.querySelectorAll('.cm-featured-carousel__slide'));
     const dots = Array.from(existing.querySelectorAll('.cm-featured-carousel__dot'));
@@ -21,6 +26,7 @@
       viewport.addEventListener('scroll', update, { passive: true });
     }
     return;
+    }
   }
   const A = window.CMHomepageAllocation;
   if (!A) return;
@@ -95,8 +101,9 @@
     node.dateTime = entry.firstPublishedAt || entry.dateISO || '';
     return node;
   };
-  const largeCard = (entry, label, color, primary = false) => {
+  const largeCard = (entry, label, color, primary = false, categoryId = '') => {
     const article = el('article', 'cm-topic-lead' + (primary ? ' cm-topic-lead--primary' : ''));
+    if (categoryId) article.dataset.category = categoryId;
     article.style.setProperty('--cm-category-color', color);
     const visual = picture(entry, true);
     const body = el('div', 'cm-topic-lead__body');
@@ -160,6 +167,7 @@
   };
   const smallCard = (entry, category, eager = true) => {
     const link = el('a', 'cm-topic-card');
+    link.dataset.category = category.id;
     link.href = entry.url;
     link.style.setProperty('--cm-category-color', category.color);
     const body = el('div', 'cm-topic-card__body');
@@ -219,13 +227,14 @@
     // pagina scende fin qui invece di portare via dalla home.
     block.id = 'categoria-' + category.id;
     block.style.setProperty('--cm-category-color', category.color);
-    if (lead) block.append(largeCard(lead, category.label, category.color));
+    if (lead && A.categoryFor(lead)?.id === category.id) block.append(largeCard(lead, category.label, category.color, false, category.id));
     const rail = el('div', 'cm-topic-section__rail');
     rail.dataset.forCategory = category.id;
     rail.append(el('h2', 'cm-topic-section__title', category.label));
-    if (cards.length) {
+    const own = cards.filter((entry) => A.categoryFor(entry)?.id === category.id);
+    if (own.length) {
       const grid = el('div', 'cm-topic-grid');
-      grid.append(...cards.map((entry) => smallCard(entry, category)));
+      grid.append(...own.map((entry) => smallCard(entry, category)));
       rail.append(grid);
     }
     if (category.archive) {

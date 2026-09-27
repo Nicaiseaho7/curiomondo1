@@ -373,6 +373,24 @@ for url,count in Counter(refs).items():
 errors.extend(publication_date_errors)
 
 home=html.fromstring((root/'index.html').read_text(errors='replace'))
+for section in home.xpath('//section[contains(concat(" ",normalize-space(@class)," ")," cm-topic-section ")]'):
+    expected=(section.get('data-category') or '').strip()
+    title=' '.join(section.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-topic-section__title ")]//text()')).strip()
+    labels=[' '.join(node.xpath('.//text()')).strip() for node in section.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-topic-label ")]')]
+    if not expected or not title or not labels:
+        errors.append(f'sezione homepage incompleta: {expected or title or "sconosciuta"}')
+        continue
+    for label in labels:
+        same = label.casefold()==title.casefold() or (expected=='film-tv' and label.casefold().startswith('film'))
+        if not same:
+            errors.append(f'categorie miste in {title}: etichetta "{label}"')
+            break
+    for card in section.xpath('.//*[@data-category and (contains(concat(" ",normalize-space(@class)," ")," cm-topic-card ") or contains(concat(" ",normalize-space(@class)," ")," cm-topic-lead "))]'):
+        if card.get('data-category')!=expected:
+            errors.append(f'card di {card.get("data-category")} dentro {title}')
+            break
+ticker=' '.join(home.xpath('//nav[contains(@class,"ticker-track")]//a[contains(@class,"ticker-news")]//text()')).strip()
+if not ticker: errors.append('ultime notizie assenti nel ticker')
 film_tv_terms=('cinema','film','serie tv','serie televis','streaming','slow horses','netflix','apple tv','prime video','disney+')
 for card in home.xpath('//a[@href][.//h3]'):
     signal=' '.join([card.get('href',''),' '.join(card.xpath('.//h3//text()'))]).casefold()
