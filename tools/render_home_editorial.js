@@ -74,8 +74,7 @@ const ultimaOra = (entries) => {
     const raw = entry.firstPublishedAt || entry.dateISO || '';
     return `<li><a class="cm-wire__item" href="${esc(entry.url)}"><time class="cm-wire__time" datetime="${esc(raw)}">${esc(hourLabel(entry))}</time><span class="cm-wire__title">${esc(entry.title)}</span></a></li>`;
   }).join('');
-  const peek = entries[0] ? esc(entries[0].title) : '';
-  return `<section class="cm-wire" id="cm-ultima-ora" aria-label="Ultima ora"><details class="cm-wire__details"><summary class="cm-wire__toggle"><span class="cm-wire__kicker"><span class="cm-wire__dot" aria-hidden="true"></span><span>Ultima ora</span></span><span class="cm-wire__peek">${peek}</span><span class="cm-wire__chevron" aria-hidden="true"></span></summary><div class="cm-wire__panel"><ol class="cm-wire__list">${items}</ol><a class="cm-wire__more" href="/notizie/">Tutte le notizie</a></div></details></section>`;
+  return `<section class="cm-wire" id="cm-ultima-ora" aria-label="Ultima ora"><details class="cm-wire__details"><summary class="cm-wire__toggle"><span class="cm-wire__kicker"><span class="cm-wire__dot" aria-hidden="true"></span><span>Ultima ora</span></span><span class="cm-wire__chevron" aria-hidden="true"></span></summary></details><ol class="cm-wire__list">${items}</ol><a class="cm-wire__more" href="/notizie/">Tutte le notizie</a></section>`;
 };
 
 const section = ({ category, lead, cards }) => {
