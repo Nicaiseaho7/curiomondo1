@@ -2,8 +2,8 @@
 :root{
   --cm-global-head-ink:#ffffff;
   --cm-global-head-blue:#245fd6;
-  --cm-global-head-line:rgba(255,255,255,.14);
-  --cm-global-head-paper:#07182d;
+  --cm-global-head-line:rgba(35,91,151,.12);
+  --cm-global-head-paper:rgba(248,251,255,.94);
 }
 
 .cm-global-header{
@@ -15,8 +15,10 @@
   padding:0;
   border:0;
   border-bottom:1px solid var(--cm-global-head-line);
-  background:var(--cm-global-head-paper);
-  box-shadow:0 8px 28px rgba(0,0,0,.18);
+  background:rgba(248,251,255,.94)!important;
+  box-shadow:0 8px 28px rgba(22,126,186,.08);
+  backdrop-filter:blur(18px) saturate(150%);
+  -webkit-backdrop-filter:blur(18px) saturate(150%);
 }
 
 .cm-global-header__inner{
@@ -58,8 +60,10 @@
 .cm-global-header__brand span[aria-hidden]{
   justify-self:center;
   min-width:0;
-  color:#fff;
-  -webkit-text-fill-color:#fff;
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  background:none!important;
+  -webkit-background-clip:border-box!important;
   font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
   font-weight:700;
   font-size:clamp(1.85rem,6.6vw,2.28rem);
@@ -70,13 +74,15 @@
   text-rendering:geometricPrecision;
   -webkit-font-smoothing:antialiased;
   font-kerning:normal;
-  text-shadow:0 1px 0 #031020,0 2px 6px rgba(3,16,32,.85);
+  text-shadow:0 1px 0 #031020,0 2px 6px rgba(3,16,32,.55);
 }
 .cm-global-header__brand{justify-self:center}
 .cm-global-header__brand > span:not([aria-hidden]),
 .cm-global-header__brand span span{
-  color:#245fd6;
-  -webkit-text-fill-color:#245fd6;
+  color:#245fd6!important;
+  -webkit-text-fill-color:#245fd6!important;
+  background:none!important;
+  -webkit-background-clip:border-box!important;
   font:inherit;
   letter-spacing:inherit;
   text-shadow:none;
@@ -96,9 +102,9 @@ html.cm-dark .cm-global-header,
 html.dark .cm-global-header{
   --cm-global-head-ink:#ffffff;
   --cm-global-head-blue:#245fd6;
-  --cm-global-head-line:rgba(255,255,255,.14);
-  --cm-global-head-paper:#07182d;
-  box-shadow:0 8px 28px rgba(0,0,0,.16);
+  background:rgba(248,251,255,.94)!important;
+  border-bottom-color:rgba(35,91,151,.12)!important;
+  box-shadow:0 8px 28px rgba(22,126,186,.08);
 }
 html.cm-dark .cm-global-header__back,
 html.cm-dark .cm-global-header__theme,
