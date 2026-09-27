@@ -100,20 +100,57 @@
 
 html.cm-dark .cm-global-header,
 html.dark .cm-global-header{
-  --cm-global-head-ink:#ffffff;
-  --cm-global-head-blue:#245fd6;
-  background:rgba(248,251,255,.94)!important;
-  border-bottom-color:rgba(35,91,151,.12)!important;
-  box-shadow:0 8px 28px rgba(22,126,186,.08);
+  background:#07182d!important;
+  border-bottom-color:rgba(255,255,255,.14)!important;
+  box-shadow:0 8px 28px rgba(0,0,0,.28);
+}
+html.cm-dark .cm-global-header__brand,
+html.cm-dark .cm-global-header__brand span[aria-hidden],
+html.dark .cm-global-header__brand,
+html.dark .cm-global-header__brand span[aria-hidden]{
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+}
+html.cm-dark .cm-global-header__brand > span:not([aria-hidden]),
+html.cm-dark .cm-global-header__brand span span,
+html.dark .cm-global-header__brand > span:not([aria-hidden]),
+html.dark .cm-global-header__brand span span{
+  color:#8eb6ff!important;
+  -webkit-text-fill-color:#8eb6ff!important;
 }
 html.cm-dark .cm-global-header__back,
 html.cm-dark .cm-global-header__theme,
 html.dark .cm-global-header__back,
 html.dark .cm-global-header__theme{
-  color:#b9e8ff;
-  border-color:rgba(132,207,245,.2);
-  background:linear-gradient(145deg,rgba(19,66,99,.96),rgba(9,42,69,.96));
-  box-shadow:0 8px 20px rgba(0,0,0,.18),inset 0 1px 0 rgba(255,255,255,.08);
+  color:#e8f3ff!important;
+  border-color:rgba(142,182,255,.4)!important;
+  background:#12304d!important;
+  box-shadow:0 8px 20px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.08);
+}
+
+html.cm-dark,
+html.cm-dark body{
+  background:#0b1729!important;
+  color:#edf4ff!important;
+  color-scheme:dark;
+}
+html.cm-dark :where(.hero,.toc,.callout,.legalnav,.layout,.wrap,main,.art-sources,.curio-related,footer){
+  color:#edf4ff;
+}
+html.cm-dark :where(.hero,.toc,.callout,.art-sources,.curio-related a,.actions button:not(.primary)){
+  background:#10233c!important;
+  color:#edf4ff!important;
+  border-color:#30445f!important;
+}
+html.cm-dark :where(.hero,.toc,.callout) :where(h1,h2,h3,p,li,a,.lead,.eyebrow){
+  color:#edf4ff!important;
+}
+html.cm-dark :where(.toc,.legalnav) a{
+  color:#9ec0ff!important;
+}
+html.cm-dark .cm-insight,
+html.cm-dark .cm-insight :where(h2,p,span,strong,small,b){
+  color:#fff;
 }
 
 @media(max-width:600px){

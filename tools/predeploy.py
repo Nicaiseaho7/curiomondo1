@@ -137,7 +137,7 @@ for p in html_files:
             arrow=global_header.xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-global-header__back ")][@href="/"]//path/@d')
             if brand!='CurioMondo': errors.append(f'marchio intestazione non canonico: {p.relative_to(root)}')
             if arrow!=['M19 12H5','m11 18-6-6 6-6']: errors.append(f'simbolo indietro non canonico: {p.relative_to(root)}')
-        if not d.xpath('//link[contains(@href,"/assets/css/global-header-v275.css?v=631")]'): errors.append(f'CSS intestazione globale v275 assente: {p.relative_to(root)}')
+        if not d.xpath('//link[contains(@href,"/assets/css/global-header-v275.css?v=632")]'): errors.append(f'CSS intestazione globale v275 assente: {p.relative_to(root)}')
         if not d.xpath('//script[contains(@src,"/assets/js/global-header-v275.js")]'): errors.append(f'JS intestazione globale v275 assente: {p.relative_to(root)}')
     ids=d.xpath('//*[@id]/@id')
     if len(ids)!=len(set(ids)): errors.append(f'ID duplicati: {p.relative_to(root)}')
