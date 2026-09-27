@@ -106,6 +106,10 @@ Markup **canonico obbligatorio** (non semplificare):
 - Predeploy blocca se il marchio non è esattamente `CurioMondo`
 - Violazione = articolo non pubblicabile
 
+
+## Divieto sottotitoli H2/H3 nelle notizie — 27 settembre 2026
+Nelle pagine **notizie** (flash e standard) **non** usare H2/H3 nel corpo `.art-body`: solo paragrafi continui. H2/H3 ammessi solo negli **approfondimenti**. Vedi `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` e `PROTOCOLLO-REDAZIONE-CORPO.md`.
+
 ## Divieto fonti nel corpo — 27 settembre 2026 (fail-closed)
 **Mai** inserire nel corpo dell'articolo (`.art-body`) righe o paragrafi `Fonte: …`, `Fonti: …`, elenchi di testate a fine pezzo o formule equivalenti. Le fonti con link stanno **solo** nella sezione **«Fonti consultate»** (`.art-sources`) sotto l'articolo. L'attribuzione nel testo, se indispensabile, è solo narrativa («secondo il comunicato FIGC…»), mai una riga `Fonte:`. Violazione = articolo non pubblicabile. Vedi `PROTOCOLLO-REDAZIONE-CORPO.md` e `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`.
 
