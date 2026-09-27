@@ -14,7 +14,10 @@ def format_errors(body):
     if body is None:
         return ['corpo articolo assente']
     words = WORD_RE.findall(' '.join(body.itertext()))
-    fmt = body.get('data-article-format', 'standard')
+    # Lo storico senza protocollo esplicito usa standard; il protocollo 4.0
+    # deve continuare a dichiarare il formato nel markup.
+    default_format = '' if body.get('data-editorial-protocol') == '4.0' else 'standard'
+    fmt = body.get('data-article-format', default_format)
     errors = []
     if not words:
         errors.append('corpo articolo vuoto')

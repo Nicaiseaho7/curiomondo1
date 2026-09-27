@@ -1004,8 +1004,24 @@
     "repository_integrity_gate": "pass",
     "adsense_deploy_gate": "pass",
     "predeploy": "pass",
-    "editorial_rules_tests": "4 passed",
+    "editorial_rules_tests": "5 passed",
     "surface_consistency": "43 articles checked; publication dates unchanged; one article withheld from promotion",
     "scope": "Controllo editoriale e strutturale; le fonti riprese dalla stessa origine non sono state contate come riscontri indipendenti."
+  },
+  "liveValidation": {
+    "checkedAt": "2026-09-27T22:34:47+02:00",
+    "commit": "b0ea16a75d2842b35d36acc7bd3f8d317b05d7fa",
+    "homeFeedVersion": 640,
+    "articlePagesChecked": 43,
+    "articlePagesPassed": 43,
+    "fieldsCompared": [
+      "title",
+      "body",
+      "caption",
+      "robots",
+      "datePublished",
+      "dateModified"
+    ],
+    "publicationSurfaces": "pass: homepage, archive, RSS, sitemap, news sitemap and home feed"
   }
 }

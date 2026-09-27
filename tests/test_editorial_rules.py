@@ -13,6 +13,12 @@ class EditorialRulesTest(unittest.TestCase):
     def test_empty_article_is_blocked(self):
         self.assertIn('corpo articolo vuoto', format_errors(self.body('flash', 0)))
 
+    def test_v4_must_declare_its_format(self):
+        body = self.body('standard', 350)
+        body.set('data-editorial-protocol', '4.0')
+        del body.attrib['data-article-format']
+        self.assertIn('formato editoriale non valido', format_errors(body))
+
     def test_format_boundary_does_not_leave_251_to_299_word_gap(self):
         self.assertEqual(format_errors(self.body('flash', 299)), [])
         self.assertTrue(format_errors(self.body('flash', 300)))
