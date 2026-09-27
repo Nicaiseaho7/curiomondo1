@@ -162,7 +162,7 @@ def main() -> None:
     }
     image = {
         "key": f"{SLUG}-v{version}",
-        "alt": "Mappa meteo editoriale dell’Italia per il 27 settembre 2026, con sole su gran parte del Paese e la tendenza fino al 3 ottobre.",
+        "alt": "Mappa meteo editoriale dell’Italia per domenica 27 settembre 2026, con regioni, città principali, sole prevalente e tendenza fino al 3 ottobre.",
         "prompt": (
             "Mappa meteorologica editoriale dell’Italia per il 27 settembre 2026, orizzontale, "
             "con Sicilia e Sardegna, città principali, simboli di sole e qualche nube su Alpi "
