@@ -33,6 +33,39 @@ p{margin:0 0 1em}
   .contact-mail b{font-size:1.1rem}
 }
 
+
+/* contatti multipli v554 — email + X + TikTok */
+.contact-channels{margin-top:16px}
+.contact-channels-label{
+  margin:0 0 10px;
+  font:850 .68rem/1 system-ui,sans-serif;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:rgba(191,219,254,.9);
+}
+.contact-channels-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.contact-channel{
+  display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:center;
+  padding:14px 16px;border-radius:18px;
+  background:rgba(255,255,255,.10);
+  border:1px solid rgba(255,255,255,.18);
+  color:#fff!important;text-decoration:none!important;
+  backdrop-filter:blur(10px);
+  transition:transform .18s ease, background .18s ease;
+}
+.contact-channel:hover{transform:translateY(-2px);background:rgba(255,255,255,.16)}
+.contact-channel-ico{
+  width:40px;height:40px;border-radius:12px;
+  display:grid;place-items:center;
+  background:#fff;color:#0f172a;
+  font:900 1.05rem/1 system-ui,sans-serif;
+}
+.contact-channel small{display:block;font:850 .62rem system-ui;letter-spacing:.12em;color:#bfdbfe}
+.contact-channel strong{display:block;font:850 .88rem system-ui;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:520px){
+  .contact-channels-row{grid-template-columns:1fr}
+}
+
 </style>
 <script>try{if(localStorage.getItem("cm_theme")==="dark")document.documentElement.classList.add("cm-dark")}catch(e){}</script>
 <style id="cm-info-premium">
@@ -219,9 +252,24 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible{o
 <p class="contact-lead">Collaborazioni editoriali, segnalazioni, progetti, partnership o semplicemente un’idea che vale la pena ascoltare.</p>
 <a class="contact-mail" href="mailto:collaborazioni@curiomondo.it">
 <span class="mail-icon">✦</span>
-<span class="contact-mail-text"><small>UNICO CONTATTO</small><strong>collaborazioni@curiomondo.it</strong></span>
+<span class="contact-mail-text"><small>EMAIL</small><strong>collaborazioni@curiomondo.it</strong></span>
 <b>→</b>
 </a>
+
+<div class="contact-channels" aria-label="Altri contatti">
+  <p class="contact-channels-label">Anche sui social</p>
+  <div class="contact-channels-row">
+    <a class="contact-channel" href="https://x.com/curiomondo7?s=11" rel="noopener noreferrer" target="_blank" aria-label="CurioMondo su X">
+      <span class="contact-channel-ico" aria-hidden="true">𝕏</span>
+      <span><small>X / TWITTER</small><strong>@curiomondo7</strong></span>
+    </a>
+    <a class="contact-channel" href="https://www.tiktok.com/@curiomondo.it?_r=1&amp;_t=ZN-98hgGlwIiwg" rel="noopener noreferrer" target="_blank" aria-label="CurioMondo su TikTok">
+      <span class="contact-channel-ico" aria-hidden="true">♪</span>
+      <span><small>TIKTOK</small><strong>@curiomondo.it</strong></span>
+    </a>
+  </div>
+</div>
+
 </section>
 <section class="contact-grid">
 <article><span>01</span><h2>Collaborazioni</h2><p>Proposte editoriali, creator, professionisti e progetti con un valore concreto per i lettori.</p></article>
