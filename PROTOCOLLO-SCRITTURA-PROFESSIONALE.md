@@ -199,7 +199,7 @@ NON trasformare queste formule in fatti indipendenti se non esiste una verifica 
 
 L'attribuzione deve essere inserita nel corpo quando è necessaria per capire il grado di certezza dell'informazione.
 
-La sezione finale "Fonti" NON sostituisce l'attribuzione giornalistica necessaria nel testo.
+La sezione finale «Fonti consultate» raccoglie i link. L'attribuzione nel testo, se serve, è solo narrativa integrata: mai una riga `Fonte:`.
 
 ════════════════════════════════════
 7. FONTI
@@ -219,15 +219,26 @@ Quando possibile:
 - verificare date e orari;
 - controllare nomi, luoghi e cifre.
 
-NON inserire nel corpo formule tecniche rivolte alla redazione come:
+**DIVIETO ASSOLUTO (fail-closed, 27 settembre 2026):**
 
-- "Fonte:"
-- "Fonti consultate:"
+Nel corpo dell'articolo è **vietato** chiudere o interrompere il pezzo con righe del tipo:
+
+- `Fonte: …`
+- `Fonti: …`
+- `Fonte primaria: …`
+- `Fonti consultate: …`
+- elenchi di testate a fine testo («Fonte: ANSA, Reuters, BBC — settembre 2026»)
+
+Quelle informazioni stanno **solo** sotto l'articolo, nella sezione **«Fonti consultate»** (`.art-sources`) con i link. Non ripetere mai le fonti nel corpo.
+
+Sono vietate anche le formule tecniche rivolte alla redazione:
+
 - "Secondo le nostre fonti online:"
+- note di lavorazione o fact-checking rivolte all'interno
 
 Le fonti bibliografiche/link vanno nella sezione dedicata prevista dal sito.
 
-L'attribuzione giornalistica necessaria resta invece nel testo.
+L'attribuzione giornalistica necessaria resta nel testo **solo** come frase narrativa integrata (es. «secondo il comunicato FIGC…», «i dati Mimit indicano…»), mai come riga `Fonte:`.
 
 ════════════════════════════════════
 8. CITAZIONI
