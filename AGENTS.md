@@ -164,3 +164,7 @@ l'articolo sbagliato invece dell'intero sito:
     python3 tools/predeploy.py
 
 `tools/pubblica_articolo.py` li esegue gia tutti e tre a ogni pubblicazione.
+
+## Immagini forze dell’ordine — niente targhe (27 settembre 2026)
+Nelle illustrazioni di auto di **Carabinieri, Polizia, Guardia di Finanza, ambulanza, vigili del fuoco** **non** inserire mai targhe (neppure inventate o sfocate leggibili). Paraurti pulito, senza riquadro targa. Vale anche per veicoli esteri di polizia.
+
