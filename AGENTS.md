@@ -172,3 +172,16 @@ l'articolo sbagliato invece dell'intero sito:
 ## Immagini forze dell’ordine — niente targhe (27 settembre 2026)
 Nelle illustrazioni di auto di **Carabinieri, Polizia, Guardia di Finanza, ambulanza, vigili del fuoco** **non** inserire mai targhe (neppure inventate o sfocate leggibili). Paraurti pulito, senza riquadro targa. Vale anche per veicoli esteri di polizia.
 
+
+## Vietati i commenti personali / meta della redazione nel corpo — 27 settembre 2026
+
+Nelle **notizie** (`notizie/*.html`) è **vietato** inserire nel corpo `.art-body` frasi meta, di metodo o di «voce CurioMondo», ad esempio:
+- «CurioMondo segue il caso con sobrietà…»
+- «CurioMondo aggiorna solo su fatti di agenzia…»
+- «CurioMondo non pubblica dettagli…»
+- «Non anticipiamo sentenze…» / «Aggiorneremo solo con fonti…»
+- qualsiasi chiusura in prima persona redazionale o auto-elogio del metodo
+
+Il pezzo racconta **fatti, contesto e fonti**. Metodo, disclosure IA e firma stanno **solo** in `art-sources` / footer / pagine istituzionali (`Come lavoriamo`), non nei paragrafi della notizia.
+Violazione = correggere prima del go-live.
+
