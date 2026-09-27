@@ -78,6 +78,26 @@
     button.addEventListener('click', () => CM.closeDialog(button.closest('dialog')));
   });
 
+  const drawer = document.getElementById('drawer');
+  drawer?.addEventListener('click', (event) => {
+    const link = event.target.closest('a');
+    if (!link) return;
+    let url;
+    try { url = new URL(link.href, location.origin); } catch { return; }
+    if (url.origin !== location.origin) return;
+    if (url.pathname === '/' || url.pathname === '/index.html') return;
+    try { sessionStorage.setItem('cm_menu_return', '1'); } catch {}
+  });
+  function reopenMenu() {
+    let back = false;
+    try { back = sessionStorage.getItem('cm_menu_return') === '1'; } catch { return; }
+    if (!back || !drawer) return;
+    try { sessionStorage.removeItem('cm_menu_return'); } catch {}
+    CM.openDialog(drawer);
+  }
+  reopenMenu();
+  window.addEventListener('pageshow', reopenMenu);
+
   const continueBar = $('#continueBar');
   const lastRead = CM.read('cm_last_read', null);
   if (continueBar && lastRead && Number(lastRead.progress || 0) < .92 && typeof lastRead.url === 'string' && lastRead.url.startsWith('/notizie/')) {
