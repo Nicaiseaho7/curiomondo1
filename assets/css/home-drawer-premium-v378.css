@@ -56,3 +56,64 @@ html.cm-dark #drawer .mx-entry small,html.cm-dark #drawer .mx-topics p,html.cm-d
   #drawer .mx-entry:hover strong{color:#245fd6}
 }
 @media(prefers-reduced-motion:reduce){#drawer[open]{animation:none!important}#drawer *{transition:none!important}}
+
+/* Allineamento e rilievo dei due nomi, senza cambiare il menu. */
+#drawer .drawer-brand-line{align-items:center!important}
+#drawer .drawer-brand-home{display:flex!important;align-items:center!important}
+#drawer .drawer-brand-home .cm-wordmark{
+  position:relative!important;
+  z-index:1!important;
+  font-size:clamp(1.68rem,6.5vw,2.05rem)!important;
+  line-height:1!important;
+  text-shadow:0 1px 0 rgba(255,255,255,.92),0 2px 0 rgba(8,32,74,.2),0 4px 0 rgba(8,32,74,.1),0 8px 14px rgba(10,30,70,.32)!important;
+}
+#drawer .drawer-brand-home .cm-wordmark::after{
+  content:""!important;
+  display:block!important;
+  position:absolute!important;
+  left:4%!important;
+  right:2%!important;
+  top:62%!important;
+  height:.62em!important;
+  z-index:-1!important;
+  border-radius:50%!important;
+  background:radial-gradient(ellipse at center,rgba(16,42,90,.42),rgba(36,95,214,.2) 46%,transparent 74%)!important;
+  filter:blur(3px)!important;
+  pointer-events:none!important;
+}
+#drawer .cm-nicaise-drawer{
+  display:inline-flex!important;
+  align-items:center!important;
+  align-self:center!important;
+  padding:0 0 0 12px!important;
+}
+#drawer .cm-nicaise-drawer .cm-nicaise-word{
+  position:relative!important;
+  z-index:1!important;
+  font-size:clamp(1.76rem,6.6vw,2.18rem)!important;
+  line-height:1!important;
+  transform:translateY(.08em)!important;
+  text-shadow:0 1px 0 rgba(255,255,255,.88),0 2px 0 rgba(18,63,140,.22),0 4px 0 rgba(18,63,140,.12),0 8px 14px rgba(18,50,110,.32)!important;
+}
+#drawer .cm-nicaise-drawer .cm-nicaise-word::after{
+  content:""!important;
+  display:block!important;
+  position:absolute!important;
+  left:6%!important;
+  right:4%!important;
+  top:64%!important;
+  height:.62em!important;
+  z-index:-1!important;
+  border-radius:50%!important;
+  background:radial-gradient(ellipse at center,rgba(18,63,140,.4),rgba(36,95,214,.18) 48%,transparent 74%)!important;
+  filter:blur(3px)!important;
+  pointer-events:none!important;
+}
+html.cm-dark #drawer .drawer-brand-home .cm-wordmark,
+html.cm-dark #drawer .cm-nicaise-drawer .cm-nicaise-word{
+  text-shadow:0 1px 0 rgba(255,255,255,.28),0 3px 0 rgba(0,0,0,.35),0 8px 16px rgba(0,0,0,.45)!important;
+}
+html.cm-dark #drawer .drawer-brand-home .cm-wordmark::after,
+html.cm-dark #drawer .cm-nicaise-drawer .cm-nicaise-word::after{
+  background:radial-gradient(ellipse at center,rgba(120,170,255,.45),rgba(36,95,214,.2) 48%,transparent 74%)!important;
+}
