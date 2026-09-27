@@ -1,7 +1,102 @@
 {
-  "version": 636,
+  "version": 639,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Sigfrido Ranucci, giornalista; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/report-attesa-sul-reintegro-di-ranucci-la-redazione-in-bilico-v639-480.webp",
+          "sha256": "b17e51bd07d7e1aebf35a6fa44ec7fe5f4c226d952073256f50ca070bba9aee0",
+          "bytes": 22542
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/report-attesa-sul-reintegro-di-ranucci-la-redazione-in-bilico-v639-800.webp",
+          "sha256": "a75a3b00390d75d55f16d12d157cb0fb3bd8bc70c714e86a4417d6cffcb3a08c",
+          "bytes": 43904
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/report-attesa-sul-reintegro-di-ranucci-la-redazione-in-bilico-v639-1200.webp",
+          "sha256": "b3df66848721f4cb0074046bae4e9de8598f535387ba1edcd27f86383142ea0d",
+          "bytes": 75014
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/report-attesa-sul-reintegro-di-ranucci-la-redazione-in-bilico-27-09-2026.html"
+    },
+    {
+      "alt": "Zinédine Zidane in conferenza come ct della Francia; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/nations-league-francia-in-belgio-senza-mbappe-primo-vero-test-per-zidane-v638-480.webp",
+          "sha256": "0f88c6399fad94040cdd9839a71f0783aeb7bca11c67e57a01a2119331313089",
+          "bytes": 20618
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/nations-league-francia-in-belgio-senza-mbappe-primo-vero-test-per-zidane-v638-800.webp",
+          "sha256": "86dad65fd2511a6edd894cee230b524513ba41170f39b3b24ca8106d48326c29",
+          "bytes": 41282
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/nations-league-francia-in-belgio-senza-mbappe-primo-vero-test-per-zidane-v638-1200.webp",
+          "sha256": "d53ec7efc2cf68965e7b192a776668a170aff75b41d82cd3a62f771346da3f9d",
+          "bytes": 71928
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/nations-league-francia-in-belgio-senza-mbappe-primo-vero-test-per-zidane-27-09-2026.html"
+    },
+    {
+      "alt": "Basilica del Rosario a Lourdes con mosaici coperti e banner Leone XIV; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/lourdes-mosaici-di-rupnik-coperti-per-la-visita-del-papa-v637-480.webp",
+          "sha256": "79a93b6c8283ffbd9bfaa26338031239a495c2c0377f4d0122d295ea195a7f6a",
+          "bytes": 47718
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/lourdes-mosaici-di-rupnik-coperti-per-la-visita-del-papa-v637-800.webp",
+          "sha256": "0f144d6c441ab7eb0513d8caa8d64e18d8cb617648f09c6c656e720d990c961f",
+          "bytes": 126004
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/lourdes-mosaici-di-rupnik-coperti-per-la-visita-del-papa-v637-1200.webp",
+          "sha256": "7be27cb91233fa12df1ec887b018a7559d57a7c658d40eb5d0e8d391525806d5",
+          "bytes": 258352
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/lourdes-mosaici-di-rupnik-coperti-per-la-visita-del-papa-27-09-2026.html"
+    },
     {
       "alt": "Residenti in strada sulla Garvaghy Road a Portadown con bandiere irlandesi; illustrazione IA fotorealistica non documentaria.",
       "variants": [
