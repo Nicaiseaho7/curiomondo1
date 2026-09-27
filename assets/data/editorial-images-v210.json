@@ -1,7 +1,63 @@
 {
-  "version": 640,
+  "version": 641,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "article": "/notizie/mondiali-ciclismo-mcnulty-vince-a-montreal-oro-usa-dopo-33-anni-27-09-2026.html",
+      "alt": "Brandon McNulty celebra la vittoria in maglia Usa; illustrazione editoriale IA non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/mondiali-ciclismo-mcnulty-vince-a-montreal-oro-usa-dopo-33-anni-v641-480.webp",
+          "sha256": "c197282771f9ea38631003e1efee7cdb260ee4ebf66bae290bfc78c485f46287",
+          "bytes": 23090
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/mondiali-ciclismo-mcnulty-vince-a-montreal-oro-usa-dopo-33-anni-v641-800.webp",
+          "sha256": "4190f8a5bad4f28abd3b674c92683b649bca624b51a75123d5dc12a92616cb76",
+          "bytes": 45148
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/mondiali-ciclismo-mcnulty-vince-a-montreal-oro-usa-dopo-33-anni-v641-1200.webp",
+          "sha256": "f05687b0a38a79327728342fdf544bf687eeff623576e4e294e7a28e91132904",
+          "bytes": 76244
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "CurioMondo IA editoriale",
+      "aiGenerated": true,
+      "documentaryPhoto": false
+    },
+    {
+      "article": "/notizie/reggio-emilia-aggredisce-una-donna-al-distributore-e-investe-due-persone-arrestato-27-09-2026.html",
+      "alt": "Distributore di benzina di notte; illustrazione editoriale IA di contesto, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/reggio-emilia-aggredisce-una-donna-al-distributore-e-investe-due-persone-arrestato-v640-480.webp",
+          "sha256": "be8d2c6faf55e355243d085d6015349ad2f5cf3c9db55ed4be331652c63a8f80",
+          "bytes": 31814
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/reggio-emilia-aggredisce-una-donna-al-distributore-e-investe-due-persone-arrestato-v640-800.webp",
+          "sha256": "9b772e1cb87f86bbfd26b85761a725f88545e69ae851f0ba16ba9de197cbf5bb",
+          "bytes": 80546
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/reggio-emilia-aggredisce-una-donna-al-distributore-e-investe-due-persone-arrestato-v640-1200.webp",
+          "sha256": "7d4fb8a29ade21742f50ad1768a90f331b8e6507c60b85c77fcc94cd6cc59155",
+          "bytes": 157914
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "CurioMondo IA editoriale",
+      "aiGenerated": true,
+      "documentaryPhoto": false
+    },
     {
       "alt": "Sigfrido Ranucci, giornalista; illustrazione editoriale IA non documentaria.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
