@@ -22,7 +22,7 @@ Nel corpo pubblico non devono mai comparire appunti interni, verifiche automatic
 - **Sommario (`.subtitle`):** uno o due elementi non già nel titolo.
 - **Lead:** primo paragrafo di `.art-body`. Si regge da solo.
 - **Corpo:** `.art-body` con `data-editorial-protocol="4.0"` e `data-article-format` (`flash` | `standard` | `feature`). I nuovi articoli **non** dichiarano `data-length-policy="3000-7000"`.
-- **Sottotitoli H2/H3:** ammessi in `.art-body` solo se informativi e utili alla lettura. Vietati i titoletti generici. Obbligatori negli approfondimenti `feature` quando aiutano a orientarsi.
+- **Sottotitoli H2/H3:** **vietati** nelle notizie (`notizie/*.html`, flash e standard). Ammessi solo negli approfondimenti evergreen/feature se informativi. Vietati i titoletti generici.
 - **Fonti:** soltanto in `.art-sources`, fuori da `.art-body`.
 - **Evergreen:** blocco `.cm-evergreen-reader` sotto l’articolo, mai nel corpo della notizia.
 
@@ -67,3 +67,11 @@ Non presentare come fatto promesse, proposte, stime, indiscrezioni. Usare «ha a
 ## Controllo bloccante predeploy
 
 `tools/predeploy.py` analizza `.art-body` degli articoli v4 e blocca il deploy se trova le espressioni vietate o frasi duplicate. I nomi delle fonti restano obbligatori in `.art-sources`.
+
+## Sottotitoli H2/H3 nelle notizie — VIETATI (27 settembre 2026)
+
+**Nelle pagine `notizie/*.html` (flash e standard) i sottotitoli H2/H3 nel corpo `.art-body` sono vietati.**
+Il pezzo scorre solo a paragrafi (e liste solo se indispensabili per candidati/orari).
+I sottotitoli H2/H3 restano ammessi **solo** negli **approfondimenti** evergreen (`approfondimenti/` o formato feature), quando orientano una guida lunga.
+Non inserire mai titoletti del tipo «Il contesto», «Cosa sappiamo», «Il punto» nelle notizie.
+Violazione = articolo da correggere prima del go-live.
