@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 628,
-    "site_version": 628
+    "current_site_version": 629,
+    "site_version": 629
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -259,15 +259,15 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 628,
-  "version": "v628",
-  "release_version": "v628",
+  "site_version": 629,
+  "version": "v629",
+  "release_version": "v629",
   "last_release": {
-    "version": 628,
+    "version": 629,
     "date": "2026-09-27",
-    "type": "homepage-cover-video",
+    "type": "homepage-cover-removed",
     "news_added": [],
     "news_updated": [],
-    "change": "Copertina homepage: video loop città meteo giorno-notte"
+    "change": "Rimossa copertina video homepage su richiesta proprietario"
   }
 }
