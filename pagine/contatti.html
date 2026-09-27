@@ -18,6 +18,21 @@ a{color:#3b82f6;font-weight:600}
 h1{font-size:1.5rem;margin:12px 0}
 p{margin:0 0 1em}
 .top{padding:12px 0;border-bottom:1px solid rgba(0,0,0,.08);margin-bottom:16px}
+
+/* email attaccata v553 */
+.contact-mail strong,.contact-mail-text strong{
+  white-space:nowrap!important;
+  overflow-wrap:normal!important;
+  word-break:keep-all!important;
+  hyphens:none!important;
+}
+@media(max-width:380px){
+  .contact-mail{padding:14px 12px;gap:8px}
+  .contact-mail strong{font-size:.68rem!important;letter-spacing:-.02em}
+  .contact-mail .mail-icon{width:36px;height:36px;border-radius:11px}
+  .contact-mail b{font-size:1.1rem}
+}
+
 </style>
 <script>try{if(localStorage.getItem("cm_theme")==="dark")document.documentElement.classList.add("cm-dark")}catch(e){}</script>
 <style id="cm-info-premium">
@@ -67,8 +82,8 @@ linear-gradient(145deg,#031d30,#075a73 60%,#0eb8b1);box-shadow:0 28px 80px rgba(
 .contact-eyebrow{font:900 .74rem/1 system-ui;letter-spacing:.18em;color:#7cf2f3;margin-bottom:22px}
 .contact-hero h1{color:white!important;font-size:clamp(3rem,12vw,5.8rem)!important;margin:0 0 18px!important}
 .contact-lead{font-family:system-ui!important;color:#d9f2f5;font-size:clamp(1.05rem,4vw,1.3rem)!important;line-height:1.55!important;max-width:590px}
-.contact-mail{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;margin-top:28px;padding:16px 18px;border-radius:20px;background:rgba(255,255,255,.11);border:1px solid rgba(255,255,255,.20);color:white!important;text-decoration:none!important;backdrop-filter:blur(12px)}
-.contact-mail .mail-icon{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;background:#fff;color:#057e91;font-size:1.2rem}.contact-mail small{display:block;font:850 .65rem system-ui;letter-spacing:.14em;color:#bfdbfe}.contact-mail strong{display:block;font:850 clamp(.82rem,3.5vw,1rem) system-ui;overflow-wrap:anywhere}.contact-mail b{font-size:1.4rem}
+.contact-mail{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:12px;align-items:center;margin-top:28px;padding:16px 18px;border-radius:20px;background:rgba(255,255,255,.11);border:1px solid rgba(255,255,255,.20);color:white!important;text-decoration:none!important;backdrop-filter:blur(12px);max-width:100%;box-sizing:border-box}
+.contact-mail .mail-icon{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;background:#fff;color:#057e91;font-size:1.2rem}.contact-mail small{display:block;font:850 .65rem system-ui;letter-spacing:.14em;color:#bfdbfe}.contact-mail strong{display:block;font:850 clamp(.72rem,2.8vw,.95rem) system-ui;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;overflow-wrap:normal;word-break:keep-all}.contact-mail-text{min-width:0;overflow:hidden}.contact-mail-text strong{white-space:nowrap}.contact-mail b{font-size:1.4rem}
 .contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0}.contact-grid article{padding:22px;border-radius:23px;background:rgba(255,255,255,.78);border:1px solid rgba(7,70,88,.10);box-shadow:0 14px 35px rgba(5,45,61,.07)}.contact-grid span{font:900 .72rem system-ui;color:#0b9baa;letter-spacing:.14em}.contact-grid h2{font:900 1.08rem system-ui;margin:12px 0 8px}.contact-grid p{font:500 .91rem/1.55 system-ui!important;color:var(--muted)}
 .contact-social-title{text-align:center;font:900 .7rem system-ui;letter-spacing:.2em;color:var(--muted);margin-top:28px}
 html.cm-dark .contact-grid article{background:rgba(7,39,49,.82)}
@@ -204,7 +219,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible{o
 <p class="contact-lead">Collaborazioni editoriali, segnalazioni, progetti, partnership o semplicemente un’idea che vale la pena ascoltare.</p>
 <a class="contact-mail" href="mailto:collaborazioni@curiomondo.it">
 <span class="mail-icon">✦</span>
-<span><small>UNICO CONTATTO</small><strong>collaborazioni@curiomondo.it</strong></span>
+<span class="contact-mail-text"><small>UNICO CONTATTO</small><strong>collaborazioni@curiomondo.it</strong></span>
 <b>→</b>
 </a>
 </section>
