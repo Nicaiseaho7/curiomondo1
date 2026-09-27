@@ -44,9 +44,15 @@ Italiano professionale, naturale, preciso. Verbi diretti. Niente prima persona e
 
 ## Fonti nel corpo
 
-Nel corpo sono vietati elenchi di testate, note sul fact-checking, `Fonti:`, `Fonte primaria:`, `Conferma:`, `Letture:`, `Europe/Rome`, orari di lavorazione, «al momento della verifica», «nei testi consultati», «le testate allineano», «fonti riportate in fondo».
+**VIETATO** nel corpo dell'articolo (`.art-body`), in qualsiasi forma:
 
-Il nome di una fonte nel corpo è ammesso solo se indispensabile: citazione, dato esclusivo, distinzione tra ricostruzione e atto ufficiale.
+- paragrafi o frasi finali del tipo `Fonte: …`, `Fonti: …`, `Fonte primaria: …`, `Fonti consultate: …`;
+- elenchi di testate a fine pezzo («Fonte: ANSA, Reuters, BBC»);
+- note sul fact-checking, `Conferma:`, `Letture:`, `Europe/Rome`, orari di lavorazione, «al momento della verifica», «nei testi consultati», «le testate allineano», «fonti riportate in fondo».
+
+Le fonti con link stanno **solo** nella sezione dedicata **«Fonti consultate»** (`.art-sources`), già presente sotto l'articolo. **Non** ripetere le fonti nel testo.
+
+Il nome di una fonte nel corpo è ammesso **solo** se indispensabile per l'attribuzione giornalistica *dentro* la frase (citazione, dato esclusivo, distinzione tra ricostruzione e atto ufficiale), es.: «secondo il bollettino Mimit…», «la FIGC ha comunicato…». Mai come riga separata `Fonte: …`.
 
 ## Divieti nel testo pubblico
 
