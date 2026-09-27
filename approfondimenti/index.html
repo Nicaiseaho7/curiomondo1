@@ -7,6 +7,47 @@
 .cat-section h2.cat-title::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--cat-dot,#2777ea);box-shadow:0 0 0 4px rgba(39,119,234,.15)}
 .cat-section .grid{padding:0}
 .hero p{margin-bottom:18px}
+
+/* back-to-top v550 */
+.cm-back-top{
+  position:fixed;
+  right:max(16px, env(safe-area-inset-right));
+  bottom:max(20px, env(safe-area-inset-bottom));
+  z-index:90;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  min-width:48px;
+  min-height:48px;
+  padding:12px 16px;
+  border:0;
+  border-radius:999px;
+  background:linear-gradient(145deg,#1e3a8a,#2563eb);
+  color:#fff;
+  font:800 .82rem/1 system-ui,-apple-system,"Segoe UI",sans-serif;
+  letter-spacing:.02em;
+  box-shadow:0 12px 32px rgba(30,64,175,.35), 0 0 0 1px rgba(255,255,255,.12) inset;
+  cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+  transition:transform .18s ease, box-shadow .18s ease, opacity .18s ease;
+}
+.cm-back-top.is-visible{display:inline-flex}
+.cm-back-top:hover,.cm-back-top:focus-visible{
+  transform:translateY(-3px);
+  box-shadow:0 16px 40px rgba(30,64,175,.42), 0 0 0 1px rgba(255,255,255,.18) inset;
+  outline:none;
+}
+.cm-back-top:focus-visible{outline:3px solid #93c5fd;outline-offset:3px}
+.cm-back-top svg{width:18px;height:18px;flex:none}
+html.cm-dark .cm-back-top,body.dark .cm-back-top{
+  background:linear-gradient(145deg,#1e40af,#3b82f6);
+}
+@media(max-width:720px){
+  .cm-back-top{padding:12px 14px;font-size:.78rem}
+  .cm-back-top .cm-back-top-label{display:none}
+}
+
 </style><link rel="stylesheet" href="/assets/css/global-header-v275.css?v=633"><script defer src="/assets/js/global-header-v275.js"></script></head><body><header class="cm-global-header" data-cm-global-header="v275"><nav class="cm-global-header__inner" aria-label="Navigazione della pagina"><a class="cm-global-header__back" href="/" aria-label="Torna alla home di CurioMondo"><span class="cm-global-header__back-icon" aria-hidden="true"><svg viewbox="0 0 24 24"><path d="M19 12H5"></path><path d="m11 18-6-6 6-6"></path></svg></span></a><a class="cm-global-header__brand" href="/" aria-label="CurioMondo, home"><span aria-hidden="true">Curio<span>Mondo</span></span></a><button class="cm-global-header__theme" data-cm-global-theme type="button" aria-label="Attiva modalità scura" aria-pressed="false"><span aria-hidden="true">☾</span></button></nav></header><main class="shell">
 <section class="hero">
   <p class="eyebrow">GUIDE PERMANENTI</p>
@@ -68,4 +109,40 @@
 <a class="card" data-cm-cat="Mondo e geopolitica" style="background:linear-gradient(145deg,#1e293b,#334155 55%,#94a3b8)" href="../notizie/perche-indonesia-terremoti-frequenti-allerta-tsunami.html"><span class="tag">Mondo e geopolitica</span><div><h2>Perché in Indonesia i terremoti sono così frequenti?</h2><p>Cintura di Fuoco, allerta tsunami e cosa succede nelle prime ore.</p></div><b>Leggi l’approfondimento →</b></a></div></section><section class="cat-section" id="societ-e-diritto" style="--cat-dot:#7c3aed"><h2 class="cat-title">Società e diritto</h2><div class="grid"><a class="card" data-cm-cat="Società e diritto" style="background:linear-gradient(145deg,#4c1d95,#6d28d9 55%,#a78bfa)" href="../approfondimenti/violenza-domestica-chiedere-aiuto-112-1522.html" data-cm-evergreen-slug="violenza-domestica-chiedere-aiuto-112-1522"><span class="tag">Società e diritto</span><div><h2>Violenza domestica: come chiedere aiuto con 112, 1522 e centri antiviolenza</h2><p>Una guida essenziale ai contatti pubblici e alle precauzioni da valutare con persone esperte quando una situazione diventa pericolosa.</p></div><b>Leggi l’approfondimento →</b></a>
 <a class="card" data-cm-cat="Società e diritto" style="background:linear-gradient(145deg,#4c1d95,#6d28d9 55%,#a78bfa)" data-cm-evergreen-slug="come-si-rintracciano-recuperano-opere-arte-rubate" href="../notizie/come-si-rintracciano-recuperano-opere-arte-rubate.html"><span class="tag">Società e diritto</span><div><h2>Come si rintracciano e si recuperano le opere d’arte rubate?</h2><p>Dalla denuncia alle banche dati internazionali: ecco come fotografie, inventari, controlli doganali e verifiche sul mercato aiutano a recuperare i beni culturali.</p></div><b>Leggi l’approfondimento →</b></a>
 <a class="card" style="background:linear-gradient(145deg,#4c1d95,#6d28d9 55%,#a78bfa)" data-cm-cat="Società e diritto" href="../approfondimenti/che-cose-revoca-permesso-soggiorno-pericolosita-sociale.html" data-cm-evergreen-slug="che-cose-revoca-permesso-soggiorno-pericolosita-sociale"><span class="tag">Società e diritto</span><div><h2>Che cos’è la revoca del permesso di soggiorno per pericolosità sociale</h2><p>Provvedimento amministrativo, garanzie e ricorso.</p></div><b>Leggi l’approfondimento →</b></a></div></section><section class="cat-section" id="cultura-e-spettacolo" style="--cat-dot:#db2777"><h2 class="cat-title">Cultura e spettacolo</h2><div class="grid"><a class="card" style="background:linear-gradient(145deg,#831843,#9d174d 55%,#f472b6)" data-cm-cat="Cultura e spettacolo" href="../approfondimenti/come-funziona-ballando-con-le-stelle.html" data-cm-evergreen-slug="come-funziona-ballando-con-le-stelle"><span class="tag">Cultura e spettacolo</span><div><h2>Come funziona Ballando con le Stelle</h2><p>Format, televoto, giuria e maestri del talent Rai1.</p></div><b>Leggi l’approfondimento →</b></a></div></section>
-</main></body></html>
+</main>
+<button type="button" class="cm-back-top" id="cmBackTop" aria-label="Torna su all’inizio della pagina">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+  <span class="cm-back-top-label">Torna su</span>
+</button>
+<script>
+(function(){
+  var btn=document.getElementById("cmBackTop");
+  if(!btn) return;
+  var showAt=280;
+  function sync(){
+    if(window.scrollY>showAt) btn.classList.add("is-visible");
+    else btn.classList.remove("is-visible");
+  }
+  function goTop(e){
+    if(e) e.preventDefault();
+    try{ window.scrollTo({top:0,behavior:"smooth"}); }
+    catch(err){ window.scrollTo(0,0); }
+    // keep hash clean so next category click still works cleanly
+    if(history.replaceState){
+      try{ history.replaceState(null,"",location.pathname+location.search); }catch(e2){}
+    }
+  }
+  btn.addEventListener("click", goTop);
+  window.addEventListener("scroll", sync, {passive:true});
+  // after category jump (hash change), show button immediately
+  window.addEventListener("hashchange", function(){
+    setTimeout(sync, 50);
+    setTimeout(sync, 400);
+  });
+  // if landing with a category hash, show button after jump
+  if(location.hash){ setTimeout(sync, 300); }
+  sync();
+})();
+</script>
+
+</body></html>
