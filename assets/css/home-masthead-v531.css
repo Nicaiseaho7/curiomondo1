@@ -1,0 +1,79 @@
+/* Testata editoriale premium: pannello compatto, niente titolo tagliato dalla barra. */
+.header{z-index:40;box-shadow:0 12px 28px rgba(4,16,36,.22)}
+.cm-editorial-signature{
+  width:min(1080px,calc(100% - 28px));
+  margin:16px auto 28px;
+  padding:18px 22px 6px;
+  scroll-margin-top:96px;
+  border:1px solid #d7e4f4;
+  border-radius:26px;
+  background:
+    radial-gradient(420px 180px at 100% 0%,rgba(36,95,214,.16),transparent 68%),
+    linear-gradient(180deg,#f5f9ff 0%,#fff 46%);
+  box-shadow:0 16px 40px rgba(16,42,84,.07);
+}
+.cm-editorial-signature:before{
+  top:0;left:22px;width:64px;height:3px;border-radius:0 0 99px 99px;background:#245fd6;
+}
+.cm-editorial-signature:after{content:none}
+.cm-editorial-signature__top{
+  gap:36px;
+  padding:22px 0 28px;
+  border-top:0;
+}
+.cm-editorial-signature__brand{align-items:center;gap:10px 12px;margin-bottom:18px}
+.cm-editorial-signature__monogram{
+  display:grid;place-items:center;
+  width:34px;height:34px;padding:0;
+  border:0;border-radius:11px;
+  color:#fff;
+  background:linear-gradient(160deg,#4b86f5,#1d4ed8);
+  box-shadow:0 8px 16px rgba(29,78,216,.28);
+  font:800 .68rem/1 Georgia,"Times New Roman",serif;
+  letter-spacing:.04em;
+}
+.cm-editorial-signature__wordmark{font:700 1.2rem/1 Georgia,"Times New Roman",serif;letter-spacing:-.02em}
+.cm-editorial-signature__descriptor{padding:0;letter-spacing:.16em}
+.cm-editorial-signature__eyebrow{margin-bottom:10px;letter-spacing:.18em}
+.cm-editorial-signature h2{
+  max-width:12ch;
+  font:650 clamp(2.35rem,6vw,4.4rem)/1.02 Georgia,"Times New Roman",serif;
+  letter-spacing:-.045em;
+  scroll-margin-top:108px;
+}
+.cm-editorial-signature h2 em{font-style:italic;font-weight:650;color:#245fd6}
+.cm-editorial-signature__lead{margin-top:16px;max-width:38rem}
+.cm-editorial-signature__actions{gap:10px;margin-top:22px}
+.cm-editorial-signature__action{
+  min-height:44px;padding:0 16px;
+  border:1px solid #d5e2f2;border-radius:999px;
+  background:#fff;color:#16324f;
+  letter-spacing:0;
+}
+.cm-editorial-signature__action--primary{
+  border-color:#245fd6;background:#245fd6;color:#fff;
+  box-shadow:0 8px 18px rgba(36,95,214,.24);
+}
+.cm-editorial-signature__action:hover{color:#245fd6;border-color:#245fd6;background:#f4f8ff}
+.cm-editorial-signature__action--primary:hover{color:#fff;background:#1d4ed8;border-color:#1d4ed8}
+.cm-editorial-signature__proof{border-left-color:#d5e2f2}
+html.cm-dark .cm-editorial-signature{
+  border-color:#2c415c;
+  background:
+    radial-gradient(420px 180px at 100% 0%,rgba(80,140,255,.18),transparent 68%),
+    linear-gradient(180deg,#102038 0%,#0c1a2e 48%);
+  box-shadow:none;
+}
+html.cm-dark .cm-editorial-signature__action{background:#12233a;border-color:#2c415c;color:#e8f0fb}
+html.cm-dark .cm-editorial-signature__action--primary{background:#245fd6;border-color:#245fd6;color:#fff}
+html.cm-dark .cm-editorial-signature h2 em{color:#8eb6ff}
+@media(max-width:720px){
+  .cm-editorial-signature{width:calc(100% - 20px);margin-top:12px;padding:14px 16px 4px;border-radius:22px}
+  .cm-editorial-signature:after{content:none}
+  .cm-editorial-signature__top{padding:16px 0 22px;gap:26px}
+  .cm-editorial-signature__brand{margin-bottom:16px}
+  .cm-editorial-signature__descriptor{flex-basis:100%;padding-left:46px}
+  .cm-editorial-signature h2{font-size:clamp(2.2rem,10.5vw,3rem);line-height:1.02}
+  .cm-editorial-signature__actions{display:flex}
+  .cm-editorial-signature__proof{padding-top:18px}
+}
