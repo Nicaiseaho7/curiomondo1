@@ -17,6 +17,18 @@ L'obiettivo operativo è pubblicare un numero maggiore di articoli interessanti 
 
 Il principio è: **riparare e pubblicare quando la storia è valida; bloccare soltanto quando il difetto editoriale non è sanabile o il rilascio tecnico resta non valido.**
 
+## Regola permanente di navigazione — nome e logo
+
+**Stato:** obbligatorio, permanente, su ogni pagina presente e futura.
+
+- Ogni volta che l’utente schiaccia il **nome** del sito (`CurioMondo`, `Curio` + `Mondo`) oppure il **logo**, da qualunque pagina e in qualunque momento, deve essere portato **immediatamente alla homepage**.
+- Questa è l’unica azione che porta direttamente alla homepage senza riaprire il menu.
+- Il clic sul nome o sul logo **non** deve riaprire il menu, **non** deve usare `history.back()` e **non** deve restituire la pagina precedente.
+- Il tasto **Indietro** resta diverso: se l’utente era entrato in una pagina dal menu, Indietro riapre quel menu. Il nome e il logo non seguono mai questa regola.
+- Vale per l’intestazione, per il menu laterale e per ogni futura testata. I nuovi template devono collegare nome e logo a `/` con questo comportamento, senza eccezioni.
+
+
+
 
 **Stato:** obbligatorio e permanente  
 **Introdotto:** v139 — 22 agosto 2026  

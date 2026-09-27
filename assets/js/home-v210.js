@@ -111,7 +111,20 @@
     }
     try { sessionStorage.setItem('cm_menu_return', '1'); } catch {}
   });
-  function reopenMenu() {
+  function isHistoryBack(event) {
+    if (event && event.persisted) return true;
+    const nav = performance.getEntriesByType('navigation')[0];
+    return !!(nav && nav.type === 'back_forward');
+  }
+  function reopenMenu(event) {
+    if (!isHistoryBack(event)) {
+      try {
+        sessionStorage.removeItem('cm_skip_menu');
+        sessionStorage.removeItem('cm_menu_return');
+      } catch {}
+      closeMenu();
+      return;
+    }
     let skip = false;
     try { skip = sessionStorage.getItem('cm_skip_menu') === '1'; } catch {}
     if (skip) {

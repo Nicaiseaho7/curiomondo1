@@ -2,11 +2,15 @@
 (() => {
   'use strict';
   document.querySelectorAll('.cm-global-header__brand').forEach((link) => {
-    link.addEventListener('click', () => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      event.stopPropagation();
       try {
         sessionStorage.removeItem('cm_menu_return');
         sessionStorage.setItem('cm_skip_menu', '1');
       } catch {}
+      if (location.pathname === '/' || location.pathname === '/index.html') return;
+      location.assign('/');
     });
   });
   document.querySelectorAll('.cm-global-header__back').forEach((link) => {
