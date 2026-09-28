@@ -1,7 +1,39 @@
 {
-  "version": 677,
+  "version": 678,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "LeBron James a testa rasata con la maglia blu PHILA 23 dei Philadelphia 76ers al Media Day; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/lebron-james-debutta-da-sixer-non-ho-lasciato-la-famiglia-per-uscire-al-secondo-turno-v678-480.webp",
+          "sha256": "b12a0f591382518eaf09f45d8adcbc909df4201dda71ca2b4fe068c43992ecf8",
+          "bytes": 24420
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/lebron-james-debutta-da-sixer-non-ho-lasciato-la-famiglia-per-uscire-al-secondo-turno-v678-800.webp",
+          "sha256": "6868dab551c06d70fa3b4dea5b0dc3c84322d096bfd12a293c2d5cefedcdc629",
+          "bytes": 50400
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/lebron-james-debutta-da-sixer-non-ho-lasciato-la-famiglia-per-uscire-al-secondo-turno-v678-1200.webp",
+          "sha256": "e0560ea2e16d78c1ad14625f7cc0f05dbd486f7d437ea711c7dfefeb2da2406d",
+          "bytes": 93096
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/lebron-james-debutta-da-sixer-non-ho-lasciato-la-famiglia-per-uscire-al-secondo-turno-28-09-2026.html"
+    },
     {
       "alt": "Fabio Roscioli in abito scuro davanti a sfondo azzurro con logo Forza Italia; illustrazione editoriale IA non documentaria.",
       "prompt": "Photorealistic editorial portrait of Fabio Roscioli, Italian politician, dark suit, blue backdrop with Forza Italia heart logo, ordinary political news scene.",
