@@ -1,7 +1,42 @@
 {
-  "version": 675,
+  "version": 676,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Ritratto editoriale neutrale isolato di David Rossi; illustrazione IA non documentaria.",
+      "prompt": "Neutral editorial portrait of David Rossi, Italian manager, head and shoulders, calm expression, plain soft grey studio background, isolated, photorealistic, no trauma, no text, no watermark. Sensitive context: neutral isolated portrait only.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/david-rossi-simulazione-ris-non-suicidio-aggressione-28-09-2026-v676-480.webp",
+          "sha256": "ea92162e8c42341f330a964292dc09b79a68b36a79037054d8020d339df4e160",
+          "bytes": 9362
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/david-rossi-simulazione-ris-non-suicidio-aggressione-28-09-2026-v676-800.webp",
+          "sha256": "255603bd2f42b09cbe8357535402bce33c15de5231339e563d23fdb576b29cf6",
+          "bytes": 21530
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/david-rossi-simulazione-ris-non-suicidio-aggressione-28-09-2026-v676-1200.webp",
+          "sha256": "8090c900a99af998c8d76c39e235ceae36f7939f62545bf82aaec12aaaf36a68",
+          "bytes": 42972
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "syntheticLikeness": "public-figure",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false,
+      "article": "/notizie/david-rossi-simulazione-ris-non-suicidio-aggressione-28-09-2026.html"
+    },
     {
       "alt": "Ritratto editoriale neutrale isolato di Giulio Regeni; illustrazione IA non documentaria.",
       "prompt": "Neutral editorial portrait of Giulio Regeni, Italian researcher, head and shoulders, calm expression, plain soft grey studio background, isolated, photorealistic, no trauma, no text, no watermark. Sensitive context: neutral isolated portrait only.",
