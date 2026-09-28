@@ -1,7 +1,42 @@
 {
-  "version": 674,
+  "version": 675,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Ritratto editoriale neutrale isolato di Giulio Regeni; illustrazione IA non documentaria.",
+      "prompt": "Neutral editorial portrait of Giulio Regeni, Italian researcher, head and shoulders, calm expression, plain soft grey studio background, isolated, photorealistic, no trauma, no text, no watermark. Sensitive context: neutral isolated portrait only.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/regeni-sentenza-tre-condanne-dieci-anni-uno-assolto-28-09-2026-v675-480.webp",
+          "sha256": "ae2cbce2c5e4c2003398a7f4725c86937bcbb98bcd11150843a097dfb79a39d1",
+          "bytes": 9690
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/regeni-sentenza-tre-condanne-dieci-anni-uno-assolto-28-09-2026-v675-800.webp",
+          "sha256": "439f2f978b4f75883385a69b31770b3b80d4fdfa7839c00c7f3d138489a70577",
+          "bytes": 27048
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/regeni-sentenza-tre-condanne-dieci-anni-uno-assolto-28-09-2026-v675-1200.webp",
+          "sha256": "117d6c3084e3fa012d918cb8a23070a8103aeb2a71ab2cdc51e30c43137c1876",
+          "bytes": 65998
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "syntheticLikeness": "public-figure",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false,
+      "article": "/notizie/regeni-sentenza-tre-condanne-dieci-anni-uno-assolto-28-09-2026.html"
+    },
     {
       "alt": "Sezione elettorale italiana con urne e cabine; illustrazione editoriale IA non documentaria.",
       "prompt": "Photorealistic Italian polling station with blue voting booths and ballot boxes, no text, editorial news photo 3:2 for election results coverage.",
