@@ -90,6 +90,8 @@ Prima di creare o aggiornare articoli o visual CurioMondo, leggere integralmente
 7. `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`
 8. `curiomondo-site-manifest.json`
 
+**Curiosità e approfondimenti (obbligatorio, 28 settembre 2026):** prima di creare o rivedere una **curiosità** o un **approfondimento** (guide evergreen, pagine in `/approfondimenti/`, spiegazioni «che cos’è / come funziona / perché»), leggere integralmente anche `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md`. Quel file **prevale** sulle guide brevi tipo scheda e sul testo superficiale: servono contenuti premium, documentati e di reale profondità. Se manca o non si può rispettare, non pubblicare la guida.
+
 È consentito raffigurare persone pubbliche riconoscibili con immagini ultrarealistiche quando editorialmente pertinenti. Nelle notizie ordinarie il personaggio può comparire in luoghi e ambientazioni coerenti con l'articolo; sono ammessi anche loghi pertinenti. **I protagonisti devono essere persone, maglie e marchi veri: vietato inventare volti, extra generici o divise di fantasia.** Cercare foto di riferimento reali prima di generare; se il lettore non riconoscerebbe il soggetto, scartare e rigenerare. Il **ritratto neutrale isolato** è obbligatorio soltanto per incidenti, morte, malattia, ricoveri, violenza, tragedie, lutto e altre situazioni sensibili che possono provocare dolore. Ogni somiglianza sintetica deve essere dichiarata come illustrazione IA non documentaria e non deve trasformare una scena inventata in una falsa prova. Se uno dei file obbligatori manca o le regole non possono essere rispettate, interrompere la pubblicazione.
 
 ## Prevalenza ricerca notizie — 19 settembre 2026
@@ -145,6 +147,18 @@ Se uno qualunque di questi punti manca, segnalare la pubblicazione come **incomp
 
 ## Regola approfondimenti coerente
 Nessun glossario o gancio didascalico è obbligatorio dentro la notizia. Un approfondimento autonomo va creato o collegato **solo quando aggiunge valore durevole, non ridondante e realmente utile**. Se esiste già una guida equivalente, collegarla invece di crearne una nuova. Le spiegazioni tematiche necessarie vivono nella pagina dedicata; la notizia resta concentrata sui fatti.
+
+## Protocollo curiosità e approfondimenti — v1.0 (28 settembre 2026)
+**Obbligatorio e fail-closed.** File: `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md`.
+
+- Vietati contenuti brevi, superficiali, generici o da «scheda informativa».
+- Obiettivo: articolo editoriale premium (spiegazione, origine, contesto, cause, funzionamento, dati, falsi miti, limiti di ciò che non si sa).
+- Curiosità: risposta rapida + viaggio nell’argomento (orientativo 800–2.000+ parole secondo complessità).
+- Approfondimento: sistematico e completo (orientativo 1.500–3.000+, grandi temi anche 5.000+ se la materia verificata lo merita).
+- Nessuna lunghezza fissa da riempire: niente ripetizioni, niente filler; se manca materia, non pubblicare.
+- Ricerca reale su fonti primarie/istituzionali/scientifiche prima di scrivere; ipotesi distinte dai fatti.
+- H2/H3 ammessi e utili; box «In breve / Il dato / Attenzione» solo se migliorano la lettura.
+- Prevale sulle guide corte e sulle abitudini da chatbot. Non sostituisce AdSense, immagini, marchio e gate tecnici.
 
 ## Regola permanente v470 — evergreen sotto l’articolo
 Ogni approfondimento evergreen deve comparire **sotto ogni notizia che lo riguarda**, nel blocco visibile `.cm-evergreen-reader` (kicker, titolo, anteprima, `Leggi l’approfondimento →`). Non basta l’indice `/approfondimenti/` né una card in `curio-related`. Posizione: subito dopo `.art-body`. Massimo due blocchi per articolo. Un approfondimento senza almeno un blocco sotto un articolo correlato non è pubblicato.
