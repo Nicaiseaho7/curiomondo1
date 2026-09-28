@@ -1,7 +1,102 @@
 {
-  "version": 658,
+  "version": 661,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Corridoio di data center hyperscale con rack server e tecnico; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ia-big-tech-data-center-freno-governi-28-settembre-2026-v661-480.webp",
+          "sha256": "d625f7ca082d5601067b90a1b745fa07c5a70809a000b7fcbd11f945c2f5bbd6",
+          "bytes": 41586
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ia-big-tech-data-center-freno-governi-28-settembre-2026-v661-800.webp",
+          "sha256": "e8ba36cbd337e6911d9c19b8e358f504d794e07ddeb5d0b73071ae0b33ad3996",
+          "bytes": 108586
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ia-big-tech-data-center-freno-governi-28-settembre-2026-v661-1200.webp",
+          "sha256": "ee77bad99a8bf351df1af1383580f206ae6c84216196b1ad40cba7e92604996c",
+          "bytes": 229818
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/ia-big-tech-data-center-freno-governi-28-settembre-2026.html"
+    },
+    {
+      "alt": "Taylor Swift sul palco dei MTV VMA 2026 con il Moon Person; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/mtv-vma-2026-risultati-taylor-swift-madonna-28-settembre-v660-480.webp",
+          "sha256": "ad094bb88ce06dc967a717a50c3b80700e50ab04d91010b5a480230da26f8cb1",
+          "bytes": 18256
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/mtv-vma-2026-risultati-taylor-swift-madonna-28-settembre-v660-800.webp",
+          "sha256": "ff1e42ecbbc02c7789aba974185be236646cdcd4ac8a0400818442bcc346a969",
+          "bytes": 43952
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/mtv-vma-2026-risultati-taylor-swift-madonna-28-settembre-v660-1200.webp",
+          "sha256": "5e70ee8a065ba5498a97a691ec2dd80b3ac9fce203c5c16a13e29dc3a7f5f3aa",
+          "bytes": 92994
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/mtv-vma-2026-risultati-taylor-swift-madonna-28-settembre.html"
+    },
+    {
+      "alt": "Donald Trump al podio e Bill Gates in ritratto editoriale; illustrazione IA non documentaria sul dibattito regolamentazione IA.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ia-trump-non-preoccupato-gates-regole-28-settembre-2026-v659-480.webp",
+          "sha256": "a6f425c5518c9c6db09dc7c2d9b310b79fb69b951858c9d15d78f3f147e31ba2",
+          "bytes": 25688
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ia-trump-non-preoccupato-gates-regole-28-settembre-2026-v659-800.webp",
+          "sha256": "d1f2b218896a22318eda5cb4099a06bc9f75fda51aa5b81144ae1e6cfaca16ac",
+          "bytes": 62544
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ia-trump-non-preoccupato-gates-regole-28-settembre-2026-v659-1200.webp",
+          "sha256": "240fe49ae2d3ee25002f50a4b334557f9fcac4c8d44a1c6cd092d745a0391424",
+          "bytes": 121470
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/ia-trump-non-preoccupato-gates-regole-28-settembre-2026.html"
+    },
     {
       "key": "influenza-2026-2027-nove-vaccini-aifa-campagne-ottobre-v658",
       "alt": "Fiale e siringa per vaccino antinfluenzale, illustrazione editoriale IA.",
