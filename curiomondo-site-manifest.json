@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 646,
-    "site_version": 646
+    "current_site_version": 647,
+    "site_version": 647
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -258,16 +258,16 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 646,
-  "version": "v646",
-  "release_version": "v646",
+  "site_version": 647,
+  "version": "v647",
+  "release_version": "v647",
   "last_release": {
-    "version": 646,
+    "version": 647,
     "date": "2026-09-28",
     "type": "weather-image-update",
     "news_updated": [
       "meteo-italia-28-settembre-4-ottobre-2026"
     ],
-    "change": "Mappa meteo stile riferimento redazione con dati 28 settembre"
+    "change": "Mappa meteo scritte leggibili senza tagli"
   }
 }
