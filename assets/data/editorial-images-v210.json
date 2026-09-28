@@ -286,25 +286,25 @@
       }
     },
     {
-      "key": "meteo-italia-27-settembre-3-ottobre-2026-v628",
-      "alt": "Mappa meteo editoriale dell’Italia per domenica 27 settembre 2026, con regioni, città principali, sole prevalente e tendenza fino al 3 ottobre.",
+      "key": "meteo-italia-27-settembre-3-ottobre-2026-v712",
+      "alt": "Mappa meteo dell’Italia, stessa vista satellitare delle altre previsioni, con città, Mediterraneo e sole prevalente.",
       "prompt": "Mappa meteorologica editoriale dell’Italia, stile satellite con regioni, città e temperature, aggiornata a domenica 27 settembre 2026 e alla tendenza fino al 3 ottobre.",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/meteo-italia-27-settembre-3-ottobre-2026-v628-480.webp",
+          "src": "/assets/images/editorial-auto/meteo-italia-27-settembre-3-ottobre-2026-v712-480.webp",
           "sha256": "816616ff13a0315f1777d3432425b3e7a6a11232db4701ea6311143adeaab508",
           "bytes": 48740
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/meteo-italia-27-settembre-3-ottobre-2026-v628-800.webp",
+          "src": "/assets/images/editorial-auto/meteo-italia-27-settembre-3-ottobre-2026-v712-800.webp",
           "sha256": "8cb830159fcdb1b5b36fc8e963cbae9bfab6bb321af4aff4de59950baf42288e",
           "bytes": 107370
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/meteo-italia-27-settembre-3-ottobre-2026-v628-1200.webp",
+          "src": "/assets/images/editorial-auto/meteo-italia-27-settembre-3-ottobre-2026-v712-1200.webp",
           "sha256": "aac402c47ee8ce0a17f59c7999690e9a11657f9645dd0e5037594fd7820d1666",
           "bytes": 186916
         }
