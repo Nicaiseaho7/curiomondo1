@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 644,
-    "site_version": 644
+    "current_site_version": 645,
+    "site_version": 645
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -258,17 +258,17 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 644,
-  "version": "v644",
-  "release_version": "v644",
+  "site_version": 645,
+  "version": "v645",
+  "release_version": "v645",
   "last_release": {
-    "version": 644,
+    "version": 645,
     "date": "2026-09-28",
     "type": "weather-image-update",
     "news_added": [],
     "news_updated": [
       "meteo-italia-28-settembre-4-ottobre-2026"
     ],
-    "change": "Mappa meteo del 28 settembre aggiornata con palette verde coerente con le altre mappe"
+    "change": "Mappa meteo del 28 settembre con palette verde; asset immagine verificati"
   }
 }
