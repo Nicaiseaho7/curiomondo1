@@ -1,7 +1,101 @@
 {
-  "version": 661,
+  "version": 665,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Facciata sobria di un edificio giudiziario italiano con bandiere; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/caso-regeni-oggi-la-sentenza-a-roma-chieste-un-ergastolo-e-tre-condanne-v664-480.webp",
+          "sha256": "b6dd3f4fa5122a3d69edd650931f3451bb674fd8a65bd4f45e51136d0e1ac5d8",
+          "bytes": 25324
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/caso-regeni-oggi-la-sentenza-a-roma-chieste-un-ergastolo-e-tre-condanne-v664-800.webp",
+          "sha256": "7545b1754c1733bb6453984c3982faedb22d1da1fe5e5596ae093cd3fb4de6e6",
+          "bytes": 59440
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/caso-regeni-oggi-la-sentenza-a-roma-chieste-un-ergastolo-e-tre-condanne-v664-1200.webp",
+          "sha256": "8af5a33e5b25316c52d6d1d55aabff4ab3784c51e86497ca01942747a5eca0fb",
+          "bytes": 118898
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/caso-regeni-oggi-la-sentenza-a-roma-chieste-un-ergastolo-e-tre-condanne-28-09-2026.html"
+    },
+    {
+      "alt": "Nave portacontainer in mare aperto, simbolo del commercio internazionale; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/usa-e-cina-liste-per-tagliare-dazi-su-60-miliardi-di-dollari-di-merci-v663-480.webp",
+          "sha256": "f4261809b58c38a69c3c8c19ff3421ad8bab34912518b5cd27bf8f6c266d4d27",
+          "bytes": 32692
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/usa-e-cina-liste-per-tagliare-dazi-su-60-miliardi-di-dollari-di-merci-v663-800.webp",
+          "sha256": "de2f6fa251af42b67dda63fd1dd5c65faafc689bea2aa0472efc24e0301c19fb",
+          "bytes": 83260
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/usa-e-cina-liste-per-tagliare-dazi-su-60-miliardi-di-dollari-di-merci-v663-1200.webp",
+          "sha256": "5fecb76d665f1fa0cc25953dd7d553c5bfba94639d18103c4e27964c298f3cd2",
+          "bytes": 166550
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/usa-e-cina-liste-per-tagliare-dazi-su-60-miliardi-di-dollari-di-merci-28-09-2026.html"
+    },
+    {
+      "alt": "Papa Leone XIV in abiti bianchi davanti alla cattedrale gotica di Metz; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/papa-leone-xiv-a-metz-ultimo-giorno-in-francia-europa-pace-e-interreligioso-v662-480.webp",
+          "sha256": "be49f475df75bdf142d90617ab823d8383f186a3548e8ba919bd703cebd10ec4",
+          "bytes": 38820
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/papa-leone-xiv-a-metz-ultimo-giorno-in-francia-europa-pace-e-interreligioso-v662-800.webp",
+          "sha256": "af65be0ede56c417d02c5d4c6d450ca546a49e80da4b6b17450839061a368df1",
+          "bytes": 80276
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/papa-leone-xiv-a-metz-ultimo-giorno-in-francia-europa-pace-e-interreligioso-v662-1200.webp",
+          "sha256": "a342e542e46bf4fd5b3fef87b915af7c6c3ee723e14cbe47f702e2b0ed3f2478",
+          "bytes": 127986
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/papa-leone-xiv-a-metz-ultimo-giorno-in-francia-europa-pace-e-interreligioso-28-09-2026.html"
+    },
     {
       "alt": "Corridoio di data center hyperscale con rack server e tecnico; illustrazione editoriale IA non documentaria.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
@@ -10106,6 +10200,161 @@
       ],
       "alt": "Illustrazione editoriale di un traghetto capovolto nel Mar di Giava con mezzi di soccorso, senza vittime visibili",
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria."
+    },
+    {
+      "alt": "Corridoio di un data center con rack server illuminati di blu; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/che-cose-data-center-e-perche-servono-all-intelligenza-artificiale-v665-480.webp",
+          "sha256": "e1fb6b7727b9df4c796a26cca57507aab5e6054d3e6a42a529757677dd4caa2e",
+          "bytes": 25992
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/che-cose-data-center-e-perche-servono-all-intelligenza-artificiale-v665-800.webp",
+          "sha256": "111bbe1d99a79e0211775e9e5acd046953a5792b86fb06f0123cf7c5b733b3f3",
+          "bytes": 58512
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/che-cose-data-center-e-perche-servono-all-intelligenza-artificiale-v665-1200.webp",
+          "sha256": "589402c6cb4d95eeff5751a5ffc659b74f675ea8f8e8b692f09fa841929baf58",
+          "bytes": 112720
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/approfondimenti/che-cose-data-center-e-perche-servono-all-intelligenza-artificiale.html"
+    },
+    {
+      "alt": "Sala riunioni istituzionale con schermi e documenti su regolazione tecnologica; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/come-funziona-il-dibattito-sulla-regolamentazione-dell-ia-v665-480.webp",
+          "sha256": "8dc5ec4685b8eb167ba33bdc54d45cbd828a6c25e8020e364af3fa74e3bfb487",
+          "bytes": 20410
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/come-funziona-il-dibattito-sulla-regolamentazione-dell-ia-v665-800.webp",
+          "sha256": "94f10968ef2a07a38317635b0d5cccb2d2cc25220622f20ac336b54cd1b281b1",
+          "bytes": 44048
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/come-funziona-il-dibattito-sulla-regolamentazione-dell-ia-v665-1200.webp",
+          "sha256": "a0c2540a8f6954bc7159f78dbce114109c1d076304ca04a6169795c01e1e54c3",
+          "bytes": 81016
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/approfondimenti/come-funziona-il-dibattito-sulla-regolamentazione-dell-ia.html"
+    },
+    {
+      "alt": "Trofeo Moon Person MTV su palco illuminato; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/che-cose-i-mtv-video-music-awards-v665-480.webp",
+          "sha256": "5f7a39afb577f8e19cf9f7f376a56e7c33d53c95045bc762747733636a81242d",
+          "bytes": 8554
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/che-cose-i-mtv-video-music-awards-v665-800.webp",
+          "sha256": "bf3e692d041661a51c6fe553d33c49939b3b598c30fa6b9ebf85f78da0b1aec8",
+          "bytes": 18694
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/che-cose-i-mtv-video-music-awards-v665-1200.webp",
+          "sha256": "d0c22a9df215de870edef8261d66486fb76c633274f6ca6857d49b680d296f1e",
+          "bytes": 35826
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/approfondimenti/che-cose-i-mtv-video-music-awards.html"
+    },
+    {
+      "alt": "Fiala di vaccino antinfluenzale e siringa su piano clinico; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/come-funziona-la-campagna-vaccinale-antinfluenzale-in-italia-v665-480.webp",
+          "sha256": "ed6471fef3446590f310b041d20e6a0b9aa45f500c45ff67251a06b05ccccb9d",
+          "bytes": 7834
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/come-funziona-la-campagna-vaccinale-antinfluenzale-in-italia-v665-800.webp",
+          "sha256": "5f0766db684ca4a58f04244b01c40eef4a21b9acd75aa41feebb820888249572",
+          "bytes": 15022
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/come-funziona-la-campagna-vaccinale-antinfluenzale-in-italia-v665-1200.webp",
+          "sha256": "2e010e5d609cbee78dac64fc025883b038c28d49025b4518f9d40159edba68d8",
+          "bytes": 25032
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/approfondimenti/come-funziona-la-campagna-vaccinale-antinfluenzale-in-italia.html"
+    },
+    {
+      "alt": "Campo da tennis indoor con bandiere nazionali ai bordi; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/che-cose-la-billie-jean-king-cup-v665-480.webp",
+          "sha256": "d7cd890ac25cf16baee6e7dcd58b21dea42bd4c461884a6affb0bd1cd7f94e5f",
+          "bytes": 19646
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/che-cose-la-billie-jean-king-cup-v665-800.webp",
+          "sha256": "ac94ce8000364e59977fb9579608c23d9da0a547f88e90e5e44fb14ea2fce1d1",
+          "bytes": 43340
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/che-cose-la-billie-jean-king-cup-v665-1200.webp",
+          "sha256": "ab3121a504e2b2f390d4b99de5924a9606232a03ad7752e1dfc2969c3239d99c",
+          "bytes": 77188
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/approfondimenti/che-cose-la-billie-jean-king-cup.html"
     }
   ]
 }
