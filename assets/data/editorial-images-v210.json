@@ -1,7 +1,101 @@
 {
-  "version": 665,
+  "version": 668,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Agenti di polizia e metal detector sul lungomare di Napoli con barche a vela sullo sfondo; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/america-s-cup-a-napoli-prefetto-sicurezza-esemplare-grazie-a-forze-e-volontari-v668-480.webp",
+          "sha256": "93799ce826b56833882d460aa21ee57b96f13c9a13238ef3aa32ee23926a7e16",
+          "bytes": 35212
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/america-s-cup-a-napoli-prefetto-sicurezza-esemplare-grazie-a-forze-e-volontari-v668-800.webp",
+          "sha256": "9cabb378c73acdf589f1b7edffdae0a1c6e05f82b4afda0b4c75fb24b5dd8d96",
+          "bytes": 87026
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/america-s-cup-a-napoli-prefetto-sicurezza-esemplare-grazie-a-forze-e-volontari-v668-1200.webp",
+          "sha256": "a4b1f2f1449e593b440b549112c599324e395d32999ffc84a800d240c3c99ce4",
+          "bytes": 172394
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/america-s-cup-a-napoli-prefetto-sicurezza-esemplare-grazie-a-forze-e-volontari-28-09-2026.html"
+    },
+    {
+      "alt": "Liliana Segre seduta a un banco parlamentare con microfono, legge documenti; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/segre-sul-ddl-antisemitismo-si-approvi-all-unanimita-anche-con-una-modifica-v667-480.webp",
+          "sha256": "f5bca1538119c54e89569fb18dcadc4c37cd50b3fba2607c40889aa4877ad7f2",
+          "bytes": 21456
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/segre-sul-ddl-antisemitismo-si-approvi-all-unanimita-anche-con-una-modifica-v667-800.webp",
+          "sha256": "30b27bcc9f82b24fa435f7eba7c6dbca3f09ad336b229f56dc52ed4392b00086",
+          "bytes": 45972
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/segre-sul-ddl-antisemitismo-si-approvi-all-unanimita-anche-con-una-modifica-v667-1200.webp",
+          "sha256": "c7a9668ac1b9d360a72e28e0a8f80efab70627d374319bcb22f8423574e3d8b0",
+          "bytes": 86708
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/segre-sul-ddl-antisemitismo-si-approvi-all-unanimita-anche-con-una-modifica-28-09-2026.html"
+    },
+    {
+      "alt": "Bandiere dell'Unione europea e degli Stati membri davanti a un edificio istituzionale a Bruxelles; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/sanzioni-ue-a-10-russi-per-l-esclusione-di-yabloko-dalle-elezioni-v666-480.webp",
+          "sha256": "7b91e44f02bf790b4c25595562a14d5da96e34f671b04bd6c346591cc11bcc20",
+          "bytes": 28974
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/sanzioni-ue-a-10-russi-per-l-esclusione-di-yabloko-dalle-elezioni-v666-800.webp",
+          "sha256": "79ef568d920b284ed87ed045e049a3d9d015266c80833be3c1c45b4adc653cd7",
+          "bytes": 71668
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/sanzioni-ue-a-10-russi-per-l-esclusione-di-yabloko-dalle-elezioni-v666-1200.webp",
+          "sha256": "dc2f694a4e251cc9338890b7a79d5b3a3571e8bea352648fd538947fbd696da5",
+          "bytes": 143924
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/sanzioni-ue-a-10-russi-per-l-esclusione-di-yabloko-dalle-elezioni-28-09-2026.html"
+    },
     {
       "alt": "Facciata sobria di un edificio giudiziario italiano con bandiere; illustrazione editoriale IA non documentaria.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
