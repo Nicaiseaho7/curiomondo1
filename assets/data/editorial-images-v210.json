@@ -1,7 +1,224 @@
 {
-  "version": 672,
+  "version": 674,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Sezione elettorale italiana con urne e cabine; illustrazione editoriale IA non documentaria.",
+      "prompt": "Photorealistic Italian polling station with blue voting booths and ballot boxes, no text, editorial news photo 3:2 for election results coverage.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/suppletive-reggio-roscioli-verso-la-vittoria-vannacci-sotto-il-10-v674-480.webp",
+          "sha256": "141d1fe64f5dc03f78fefd43709730b5bb12826d364a00298a5ab7f44630c165",
+          "bytes": 26326
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/suppletive-reggio-roscioli-verso-la-vittoria-vannacci-sotto-il-10-v674-800.webp",
+          "sha256": "b5e79593a55d1f6b9b11665bd1a0f4ea802cd65b0d0f7c8b115e0b95e48aa9ff",
+          "bytes": 67492
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/suppletive-reggio-roscioli-verso-la-vittoria-vannacci-sotto-il-10-v674-1200.webp",
+          "sha256": "58c3d87e432ada0f67a78eddf4e32f4cecedfbe49fa933e9079f4cddff8e477d",
+          "bytes": 134894
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/suppletive-reggio-roscioli-verso-la-vittoria-vannacci-sotto-il-10-28-09-2026.html"
+    },
+    {
+      "alt": "Lago vulcanico Albano visto dall’alto con crateri e colline di Castel Gandolfo; illustrazione editoriale IA non documentaria.",
+      "prompt": "Editorial illustration for Lago Albano: cos’è un lago vulcanico e perché scende il livello",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/lago-albano-vulcano-perche-scende-il-livello-v678-480.webp",
+          "sha256": "edf8a4d6e8d70a44a4d1ec55017731c51c7071024277460f967fb31d56c7636b",
+          "bytes": 35786
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/lago-albano-vulcano-perche-scende-il-livello-v678-800.webp",
+          "sha256": "ce293679580974be6efde8ddd4b1869a5b3aa1ebb2ffbaf3f4a32d8a43910eee",
+          "bytes": 103862
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/lago-albano-vulcano-perche-scende-il-livello-v678-1200.webp",
+          "sha256": "73f16c2539295661f6d46a5a47224ba2fc5c8eb286bfc3dadecf5dae1bf44319",
+          "bytes": 221484
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/lago-albano-vulcano-perche-scende-il-livello.html"
+    },
+    {
+      "alt": "Braccio di calciatore con fascia nera su maglia verde; illustrazione editoriale IA non documentaria.",
+      "prompt": "Editorial illustration for Perché le fasce nere e i gesti di protesta nello sport",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/perche-fasce-nere-e-gesti-di-protesta-nello-sport-v677-480.webp",
+          "sha256": "c3985a0dbf57f09feedeba1d51dec9d9e56e9038c7574f7fa44b23c67012d00f",
+          "bytes": 10836
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/perche-fasce-nere-e-gesti-di-protesta-nello-sport-v677-800.webp",
+          "sha256": "87a8f12a1f1246dd09d633eb361ba2106f96760b0922c7c6e870466da68e41fd",
+          "bytes": 34308
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/perche-fasce-nere-e-gesti-di-protesta-nello-sport-v677-1200.webp",
+          "sha256": "982a9fd120e5eb0c6ecc224c9af4ca33b5a8917a574222c1eca706dfc1671304",
+          "bytes": 92230
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/perche-fasce-nere-e-gesti-di-protesta-nello-sport.html"
+    },
+    {
+      "alt": "Trofeo dorato a forma di pallone su piedistallo nero; illustrazione editoriale IA non documentaria.",
+      "prompt": "Editorial illustration for Che cos’è il Pallone d’Oro e come si vota",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/che-cose-pallone-d-oro-come-si-vota-v676-480.webp",
+          "sha256": "1873fc304d5e50c3a03114245b0494bfdfbad0ec20d779f503d2c6ec8f261200",
+          "bytes": 20358
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/che-cose-pallone-d-oro-come-si-vota-v676-800.webp",
+          "sha256": "f258b5d4c28b862be6d1afcb70a626f080cc1972f2414d826dd706091fb651f5",
+          "bytes": 49100
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/che-cose-pallone-d-oro-come-si-vota-v676-1200.webp",
+          "sha256": "a8995f3ce5e5fcaf386cb486d3e27f246ba76c635a8fb1f7809f68d5b5c811bf",
+          "bytes": 103210
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/che-cose-pallone-d-oro-come-si-vota.html"
+    },
+    {
+      "alt": "Distributore self service con pompe e auto; illustrazione editoriale IA non documentaria.",
+      "prompt": "Editorial illustration for Come funziona un tetto ai prezzi dei carburanti",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/come-funziona-price-cap-tetto-prezzi-carburanti-v675-480.webp",
+          "sha256": "2549af45c1bbe68024a4fe189164fb1fa9553108a9a50b8f44441a999f51c81b",
+          "bytes": 33728
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/come-funziona-price-cap-tetto-prezzi-carburanti-v675-800.webp",
+          "sha256": "dfc9c0ad2a5e94099353bd92adc39d6ec2e3208126855f10cf8a6cc496e26c19",
+          "bytes": 80698
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/come-funziona-price-cap-tetto-prezzi-carburanti-v675-1200.webp",
+          "sha256": "8df32cd8750abb326b35192bf604ddeccfa598a163b5844feb1533d544db5f67",
+          "bytes": 150632
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/come-funziona-price-cap-tetto-prezzi-carburanti.html"
+    },
+    {
+      "alt": "Codici e martelletto su scrivania di studio legale; illustrazione editoriale IA non documentaria.",
+      "prompt": "Editorial illustration for Che cos’è l’avviso di conclusione delle indagini (art. 415-bis)",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/che-cose-415-bis-avviso-conclusione-indagini-v674-480.webp",
+          "sha256": "b614de9f7833442982d9b6b1c941c3714e0b773610b793df98d1db4a5c451f9b",
+          "bytes": 16802
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/che-cose-415-bis-avviso-conclusione-indagini-v674-800.webp",
+          "sha256": "61d0c2d0827bed7355767b2b2ab512fe0400fa60b74382f87b55e4a472460d4b",
+          "bytes": 37980
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/che-cose-415-bis-avviso-conclusione-indagini-v674-1200.webp",
+          "sha256": "c9340443eaededafdebf8c11b02d0cb9d5c7b8e906a2d14909bd938638d6faf1",
+          "bytes": 70342
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/che-cose-415-bis-avviso-conclusione-indagini.html"
+    },
+    {
+      "alt": "Distributore self service italiano con auto in coda e pompe verdi; illustrazione editoriale IA non documentaria.",
+      "prompt": "Photorealistic Italian self-service gas station with green pumps and cars in short queue, daylight, no text overlays, editorial news photo for CurioMondo cover about fuel price cap, 3:2 aspect.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/carburanti-al-via-il-tetto-eni-e-ip-code-ai-distributori-e-scorte-esaurite-v673-480.webp",
+          "sha256": "2549af45c1bbe68024a4fe189164fb1fa9553108a9a50b8f44441a999f51c81b",
+          "bytes": 33728
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/carburanti-al-via-il-tetto-eni-e-ip-code-ai-distributori-e-scorte-esaurite-v673-800.webp",
+          "sha256": "dfc9c0ad2a5e94099353bd92adc39d6ec2e3208126855f10cf8a6cc496e26c19",
+          "bytes": 80698
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/carburanti-al-via-il-tetto-eni-e-ip-code-ai-distributori-e-scorte-esaurite-v673-1200.webp",
+          "sha256": "8df32cd8750abb326b35192bf604ddeccfa598a163b5844feb1533d544db5f67",
+          "bytes": 150632
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/carburanti-al-via-il-tetto-eni-e-ip-code-ai-distributori-e-scorte-esaurite-28-09-2026.html"
+    },
     {
       "alt": "Sezione elettorale italiana con urne e cabine blu; illustrazione editoriale IA non documentaria.",
       "prompt": "Photorealistic editorial image of an Italian polling station interior in Calabria, blue voting booths, ballot box on a table, empty room after closing, natural daylight from windows, sober documentary style, no faces of identifiable voters, no political logos, professional news photography, no text no watermark.",
@@ -637,8 +854,8 @@
     },
     {
       "key": "ucraina-zelensky-droni-bombe-data-center-kyiv-28-settembre-2026-v651",
-      "alt": "Ritratto editoriale di Volodymyr Zelensky, illustrazione IA, contesto aggiornamento attacchi aerei.",
-      "prompt": "Ritratto editoriale di Volodymyr Zelensky, illustrazione IA, contesto aggiornamento attacchi aerei.",
+      "alt": "Ritratto editoriale neutrale e isolato di Volodymyr Zelensky su sfondo semplice; illustrazione IA non documentaria.",
+      "prompt": "Neutral editorial portrait of Volodymyr Zelensky, head and shoulders, plain studio background, calm expression; isolated synthetic likeness for sensitive news context; no war scene.",
       "variants": [
         {
           "w": 480,
@@ -667,7 +884,9 @@
       "sensitiveContext": true,
       "syntheticLikeness": "public-figure",
       "portraitFormat": "neutral-isolated",
-      "article": "/notizie/ucraina-zelensky-droni-bombe-data-center-kyiv-28-settembre-2026.html"
+      "article": "/notizie/ucraina-zelensky-droni-bombe-data-center-kyiv-28-settembre-2026.html",
+      "portraitOnly": true,
+      "reenactedEvent": false
     },
     {
       "key": "meteo-italia-28-settembre-4-ottobre-2026-v648",
