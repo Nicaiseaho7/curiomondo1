@@ -39,7 +39,9 @@ main > #cm-ultima-ora{display:none!important}
 .cm-topic-card__title{order:1;margin:8px 0 12px;color:var(--cm-ink,#102940);font-size:1.03rem;line-height:1.25;overflow-wrap:anywhere}
 .cm-topic-card picture{order:2;display:block;margin:0 0 11px;aspect-ratio:16/10;overflow:hidden;border-radius:9px;background:#e9eef3}
 .cm-topic-card time{order:3;margin-top:auto;color:var(--cm-muted,#526476);font-size:.78rem}
-.cm-topic-archive{display:inline-flex;margin-top:16px;color:var(--cm-category-color);font-weight:800;text-underline-offset:4px}
+.cm-curiosita-rail{margin-top:-8px}
+.cm-curiosita-card__excerpt{order:3;margin:0;color:#526476;font-size:.84rem;line-height:1.4;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+html.cm-dark .cm-curiosita-card__excerpt{color:#aabbd2}
 html.cm-dark .cm-topic-lead,html.cm-dark .cm-topic-card{background:var(--cm-paper);border-color:var(--cm-border);box-shadow:0 14px 32px rgba(0,0,0,.3)}
 html.cm-dark .cm-topic-lead--primary .cm-topic-lead__body{background:var(--cm-paper)}
 @media(max-width:1050px){.cm-latest-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}

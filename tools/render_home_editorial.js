@@ -93,6 +93,46 @@ const section = ({ category, lead, cards }) => {
   return `<section class="cm-topic-section" data-category="${esc(category.id)}" id="categoria-${esc(category.id)}" style="--cm-category-color:${esc(category.color)}">${largeCard(lead, label, category.color, false, category.id)}<div class="cm-topic-section__rail" data-for-category="${esc(category.id)}"><h2 class="cm-topic-section__title">${esc(label)}</h2><div class="cm-topic-grid">${small}</div>${archive}</div></section>`;
 };
 
+const text = (value) => String(value || '')
+  .replace(/&/g, '&')
+  .replace(/</g, '<')
+  .replace(/>/g, '>')
+  .replace(/"/g, '"');
+
+const curiositaRail = () => {
+  const indexPath = path.join(root, 'approfondimenti/index.html');
+  if (!fs.existsSync(indexPath)) return '';
+  const source = fs.readFileSync(indexPath, 'utf8');
+  const found = [];
+  const pattern = /<a class="card"[^>]*href="([^"]+)"[^>]*>[\s\S]*?<h2>([^<]+)<\/h2><p>([^<]*)<\/p>/g;
+  const blocked = ['cinema', 'film', 'serie tv', 'serie televis', 'streaming', 'netflix', 'apple tv', 'prime video', 'disney+', 'nba', 'basket', 'raptors', 'clippers'];
+  let match;
+  while ((match = pattern.exec(source)) && found.length < 10) {
+    const href = match[1].replace('../', '/');
+    const title = match[2].replace(/\s+/g, ' ').trim();
+    const excerpt = match[3].replace(/\s+/g, ' ').trim();
+    const signal = (href + ' ' + title).toLocaleLowerCase('it');
+    if (blocked.some((term) => signal.includes(term))) continue;
+    const file = path.join(root, href.replace(/^\//, ''));
+    if (!fs.existsSync(file)) continue;
+    const page = fs.readFileSync(file, 'utf8');
+    const image = (page.match(/property="og:image" content="([^"]+)"/) || page.match(/<img[^>]+src="(\/assets\/images\/[^"]+)"/) || [])[1];
+    if (!image) continue;
+    const src = image.replace(/^https?:\/\/[^/]+/, '');
+    const sized = src.match(/^(.*)-1200\.webp$/);
+    const srcset = sized
+      ? [480, 800, 1200].filter((width) => fs.existsSync(path.join(root, sized[1].replace(/^\//, '') + '-' + width + '.webp')))
+        .map((width) => `${sized[1]}-${width}.webp ${width}w`).join(', ')
+      : '';
+    found.push({ href, title, excerpt, src, srcset });
+  }
+  if (!found.length) return '';
+  const cards = found.map((entry) => (
+    `<a class="cm-topic-card" data-category="curiosita" href="${text(entry.href)}" style="--cm-category-color:#6333bd"><div class="cm-topic-card__body"><span class="cm-topic-label meta">Curiosità e approfondimenti</span><h3 class="cm-topic-card__title">${text(entry.title)}</h3><picture><img src="${text(entry.src)}"${entry.srcset ? ` srcset="${text(entry.srcset)}"` : ''} sizes="(max-width: 600px) 82vw, 320px" alt="${text(entry.title)}" width="800" height="533" loading="lazy" decoding="async"></picture><p class="cm-curiosita-card__excerpt">${text(entry.excerpt)}</p></div></a>`
+  )).join('');
+  return `<section class="cm-topic-section cm-curiosita-rail" data-category="curiosita" id="categoria-curiosita" style="--cm-category-color:#6333bd"><div class="cm-topic-section__rail" data-for-category="curiosita"><h2 class="cm-topic-section__title">Curiosità e approfondimenti</h2><div class="cm-topic-grid">${cards}</div><a class="cm-topic-archive" href="/approfondimenti/">Tutte le curiosità e gli approfondimenti →</a></div></section>`;
+};
+
 const feed = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/home-feed-v210.json'), 'utf8'));
 const config = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/homepage-config-v504.json'), 'utf8'));
 const overrides = config.articles || {};
@@ -103,7 +143,12 @@ const ranked = items.slice().sort((a, b) => {
   const right = api.firstPublished(a);
   return (left ? left.getTime() : 0) - (right ? right.getTime() : 0);
 });
-const html = `<div class="cm-home-editorial" id="cm-home-editorial-v504" data-static="ready">${carousel(allocation.featuredItems)}${ultimaOra(ranked)}${allocation.sections.map(section).join('')}</div>`;
+const sectionsHtml = allocation.sections.map(section).join('');
+const curiosita = curiositaRail();
+const orderedSections = sectionsHtml.includes('id="categoria-politica"')
+  ? sectionsHtml.replace(/(<section class="cm-topic-section" data-category="politica"[\s\S]*?<\/section>)/, '$1' + curiosita)
+  : sectionsHtml + curiosita;
+const html = `<div class="cm-home-editorial" id="cm-home-editorial-v504" data-static="ready">${carousel(allocation.featuredItems)}${ultimaOra(ranked)}${orderedSections}</div>`;
 
 const homePath = path.join(root, 'index.html');
 let home = fs.readFileSync(homePath, 'utf8');
