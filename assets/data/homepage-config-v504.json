@@ -1,5 +1,5 @@
 {
-  "version": 627,
+  "version": 643,
   "articles": {
     "/notizie/vogue-world-milano-galleria-chiusure-m1-duomo-22-settembre-2026.html": {
       "firstPublishedAt": "2026-09-22T06:18:00+02:00",
@@ -307,6 +307,11 @@
     "/notizie/meteo-italia-27-settembre-3-ottobre-2026.html": {
       "firstPublishedAt": "2026-09-27T09:25:45+02:00",
       "homepagePriority": 94,
+      "primaryCategory": "meteo"
+    },
+    "/notizie/meteo-italia-28-settembre-4-ottobre-2026.html": {
+      "firstPublishedAt": "2026-09-28T03:30:00+02:00",
+      "homepagePriority": 96,
       "primaryCategory": "meteo"
     }
   }

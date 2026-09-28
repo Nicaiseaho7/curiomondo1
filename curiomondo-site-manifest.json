@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 642,
-    "site_version": 642
+    "current_site_version": 643,
+    "site_version": 643
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -258,18 +258,17 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 642,
-  "version": "v642",
-  "release_version": "v642",
+  "site_version": 643,
+  "version": "v643",
+  "release_version": "v643",
   "last_release": {
-    "version": 642,
+    "version": 643,
     "date": "2026-09-28",
-    "type": "daily-editorial-package",
-    "news_added": [],
+    "type": "weather-service",
+    "news_added": [
+      "meteo-italia-28-settembre-4-ottobre-2026"
+    ],
     "news_updated": [],
-    "daily_question_added": "una-vita-piena-si-misura-dalle-esperienze-vissute-o-dallattenzione-con-cui-le-abbiamo-attraversate",
-    "ebook_added": "una-vita-piena-si-misura-dalle-esperienze-vissute-o-dallattenzione-con-cui-le-abbiamo-attraversate",
-    "guides_added": [],
-    "change": "Domanda del giorno n. 1011 ed eBook lungo collegato"
+    "change": "Meteo Italia 28 settembre–4 ottobre 2026 con mappa e loghi"
   }
 }
