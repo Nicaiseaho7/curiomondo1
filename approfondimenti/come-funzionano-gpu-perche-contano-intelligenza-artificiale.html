@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Come funzionano le GPU e perché contano per l’intelligenza artificiale | CurioMondo</title>
+<meta name="description" content="Processori grafici paralleli, Tensor Core e data center: perché le GPU sono diventate l’infrastruttura fisica dei modelli di IA e cosa distingue NVIDIA e i rivali.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://curiomondo.it/approfondimenti/come-funzionano-gpu-perche-contano-intelligenza-artificiale.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Come funzionano le GPU e perché contano per l’intelligenza artificiale">
+<meta property="og:description" content="Processori grafici paralleli, Tensor Core e data center: perché le GPU sono diventate l’infrastruttura fisica dei modelli di IA e cosa distingue NVIDIA e i rivali.">
+<meta property="og:url" content="https://curiomondo.it/approfondimenti/come-funzionano-gpu-perche-contano-intelligenza-artificiale.html">
+<meta property="og:image" content="https://curiomondo.it/assets/images/editorial-auto/come-funzionano-gpu-perche-contano-intelligenza-artificiale-v680-1200.webp">
+<meta property="og:image:alt" content="Scheda GPU con circuiti illuminati in un rack di data center; illustrazione editoriale IA non documentaria.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Come funzionano le GPU e perché contano per l’intelligenza artificiale","description":"Processori grafici paralleli, Tensor Core e data center: perché le GPU sono diventate l’infrastruttura fisica dei modelli di IA e cosa distingue NVIDIA e i rivali.","datePublished":"2026-09-28T20:10:00+02:00","dateModified":"2026-09-28T20:10:00+02:00","mainEntityOfPage":"https://curiomondo.it/approfondimenti/come-funzionano-gpu-perche-contano-intelligenza-artificiale.html","inLanguage":"it-IT","author":{"@type":"Organization","name":"Redazione CurioMondo"},"publisher":{"@type":"Organization","name":"CurioMondo"},"image":["https://curiomondo.it/assets/images/editorial-auto/come-funzionano-gpu-perche-contano-intelligenza-artificiale-v680-1200.webp"]}</script>
+<link rel="stylesheet" href="../assets/css/site-base-v210.css">
+<link rel="stylesheet" href="../assets/css/curiomondo-article-v211.css?v=680">
+<link rel="stylesheet" href="/assets/css/global-header-v275.css?v=633">
+<script defer src="/assets/js/global-header-v275.js"></script>
+</head><body data-article-id="come-funzionano-gpu-perche-contano-intelligenza-artificiale">
+<header class="cm-global-header" data-cm-global-header="v275"><nav class="cm-global-header__inner">
+<a class="cm-global-header__back" href="/" aria-label="Torna alla home"><span class="cm-global-header__back-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M19 12H5"></path><path d="m11 18-6-6 6-6"></path></svg></span></a>
+<a class="cm-global-header__brand" href="/" aria-label="CurioMondo, home"><span aria-hidden="true">Curio<span>Mondo</span></span></a>
+<button class="cm-global-header__theme" data-cm-global-theme type="button" aria-label="Attiva modalità scura" aria-pressed="false"><span aria-hidden="true">☾</span></button>
+</nav></header>
+<main class="wrap">
+<div class="badge">Approfondimento · Tecnologia e digitale</div>
+<h1>Come funzionano le GPU e perché contano per l’intelligenza artificiale</h1>
+<p class="subtitle">Processori paralleli, Tensor Core e rack di data center: l’hardware dietro addestramento e inferenza dei modelli di IA.</p>
+<div class="meta">Guida aggiornata il 28 settembre 2026 · <span id="readTime">10 min di lettura</span></div>
+<p class="cm-article-byline">A cura della <a href="/pagine/redazione.html">Redazione CurioMondo</a></p>
+<figure class="article-image" data-ai-generated="true" data-sensitive-context="false">
+<picture><img src="../assets/images/editorial-auto/come-funzionano-gpu-perche-contano-intelligenza-artificiale-v680-800.webp" srcset="../assets/images/editorial-auto/come-funzionano-gpu-perche-contano-intelligenza-artificiale-v680-480.webp 480w, ../assets/images/editorial-auto/come-funzionano-gpu-perche-contano-intelligenza-artificiale-v680-800.webp 800w, ../assets/images/editorial-auto/come-funzionano-gpu-perche-contano-intelligenza-artificiale-v680-1200.webp 1200w" sizes="(max-width:832px) calc(100vw - 32px),800px" width="800" height="533" alt="Scheda GPU con circuiti illuminati in un rack di data center; illustrazione editoriale IA non documentaria." loading="eager" decoding="async" fetchpriority="high"></picture>
+<figcaption>Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.</figcaption>
+</figure>
+<article class="art-body" data-editorial-protocol="4.0" data-article-format="approfondimento">
+
+<p>Una GPU (Graphics Processing Unit) è un processore progettato per eseguire molte operazioni semplici in parallelo. Nata per calcolare pixel e geometria nei videogiochi e nella computer grafica, è diventata l’acceleratore standard per l’addestramento e l’inferenza dei modelli di intelligenza artificiale. La ragione è matematica: le reti neurali si basano su moltiplicazioni di matrici e su operazioni ripetute su grandi tensori di dati; le GPU eccellono proprio in quel tipo di carico.</p>
+<p>Una CPU (processore generale) ha pochi core potenti e ottimizzati per compiti sequenziali e di controllo. Una GPU ha migliaia di core più semplici, organizzati per lanciare lo stesso tipo di calcolo su migliaia di pezzi di dati contemporaneamente. Per il rendering 3D e per l’IA questo parallelismo riduce drasticamente i tempi.</p>
+<h2>Tensor Core e stack software</h2>
+<p>Dagli anni Dieci NVIDIA ha introdotto i Tensor Core: unità specializzate per matrici a bassa e mista precisione (FP16, BF16, FP8 e formati successivi). Non sostituiscono i core CUDA generali, ma accelerano le operazioni di deep learning. Accanto all’hardware c’è uno stack software (CUDA, cuDNN, TensorRT, framework come PyTorch e TensorFlow) che permette ai ricercatori di scrivere codice ad alto livello e di mappare le operazioni sulle GPU senza riscrivere kernel a mano per ogni modello.</p>
+<p>L’ecosistema software è una barriera all’ingresso: chi progetta un acceleratore concorrente deve offrire non solo silicio ma librerie, driver e compatibilità con i framework usati dai laboratori e dalle aziende. Per questo «avere una GPU» non è equivalente a «avere un sistema di addestramento IA completo».</p>
+<h2>Dal PC al data center</h2>
+<p>Le GPU consumer (serie GeForce) e workstation (RTX PRO) servono gaming, creation e prototipi di modelli. I cluster di data center usano GPU specializzate (serie Hopper, Blackwell e successive architetture NVIDIA; acceleratori AMD, Google TPU, e altri) collegate da reti ad alta banda (NVLink, InfiniBand) e raffreddate a liquido o ad aria. Un rack con decine di GPU agisce come un’unica macchina logica per modelli con centinaia di miliardi o trilioni di parametri.</p>
+<p>L’addestramento di un modello foundation può richiedere settimane su migliaia di GPU e consumare megawatt di energia. L’inferenza (usare un modello già addestrato per rispondere a una query) è meno pesante ma, su scala planetaria (chatbot, ricerca, agenti), richiede comunque flotte enormi di acceleratori. Da qui la corsa a data center, contratti di energia e chip di nuova generazione.</p>
+<h2>Perché NVIDIA è al centro (e i limiti)</h2>
+<p>NVIDIA ha costruito per primi l’accoppiata hardware+software per il deep learning e ha mantenuto un vantaggio di piattaforma. I concorrenti (AMD, Intel, Google, Amazon, start-up di chip specializzati) investono in silicio e software; alcuni carichi (inferenza a bassa latenza, edge) usano già alternative. Il mercato non è monolitico: gaming, cloud hyperscaler, enterprise e edge hanno requisiti diversi di memoria, banda, latenza e costo per token.</p>
+<p>Una GPU non «pensa»: esegue operazioni numeriche. L’IA emergente (capacità di linguaggio, visione, ragionamento) nasce dall’algoritmo, dai dati e dalla scala, non dal chip in sé. Il chip determina quanto è veloce e quanto costa arrivare a quella scala. Le limitazioni di memoria (VRAM), di interconnessione e di energia restano i colli di bottiglia pratici.</p>
+<h2>Cosa non è e collegamenti</h2>
+<p>Non è un processore «per i videogiochi che capita di fare IA». L’architettura è stata adattata e specializzata. Non è l’unico percorso: esistono ASIC (chip dedicati a un compito), FPGA e CPU con estensioni AI. Per un lettore che legge di buyback, di data center o di regolamentazione IA, la GPU è il pezzo fisico che lega software, energia e capex delle big tech.</p>
+<p>Per approfondire l’infrastruttura intorno al chip, CurioMondo ha già una guida su che cos’è un data center e perché serve all’IA. Le GPU sono il carico di lavoro principale di molti di quei centri; i data center sono l’edificio, l’energia e il raffreddamento che le tengono in funzione.</p>
+
+</article>
+<div class="art-sources"><h2>Fonti consultate</h2>
+<ul>
+<li><a href="https://www.nvidia.com/it-it/data-center/products/" rel="noopener noreferrer" target="_blank">NVIDIA — prodotti data center e architetture (Blackwell, Vera Rubin)</a></li>
+<li><a href="https://www.nvidia.com/it-it/data-center/technologies/blackwell-architecture/" rel="noopener noreferrer" target="_blank">NVIDIA — architettura Blackwell e Tensor Engine</a></li>
+<li><a href="https://www.nvidia.com/it-it/data-center/resources/mlperf-benchmarks/" rel="noopener noreferrer" target="_blank">NVIDIA — MLPerf e scale di addestramento/inferenza</a></li>
+<li><a href="https://curiomondo.it/approfondimenti/che-cose-data-center-e-perche-servono-all-intelligenza-artificiale.html" rel="noopener noreferrer" target="_blank">CurioMondo — Che cos’è un data center e perché serve all’IA (collegamento interno)</a></li>
+</ul>
+<p><small><strong>Redazione CurioMondo · <a href="/pagine/metodo-editoriale.html">Come lavoriamo</a></strong><br>Testo originale CurioMondo. Guida evergreen da query in ascesa.<br>Illustrazione editoriale CurioMondo generata con IA; non è una fotografia documentaria.</small></p>
+</div></main>
+<script src="../assets/js/site-common-v210.js" defer></script>
+<script src="../assets/js/curiomondo-article-v210.js?v=680" defer></script>
+</body></html>
