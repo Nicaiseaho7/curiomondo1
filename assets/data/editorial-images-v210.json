@@ -1,7 +1,39 @@
 {
-  "version": 676,
+  "version": 677,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Fabio Roscioli in abito scuro davanti a sfondo azzurro con logo Forza Italia; illustrazione editoriale IA non documentaria.",
+      "prompt": "Photorealistic editorial portrait of Fabio Roscioli, Italian politician, dark suit, blue backdrop with Forza Italia heart logo, ordinary political news scene.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/suppletive-reggio-roscioli-eletto-51-percento-vannacci-10-28-09-2026-v677-480.webp",
+          "sha256": "72b2a16810b9a04d276adbd1939a74cd4d94ad2d594b2b82375f7be0f5479b60",
+          "bytes": 10352
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/suppletive-reggio-roscioli-eletto-51-percento-vannacci-10-28-09-2026-v677-800.webp",
+          "sha256": "32ab71b1738dc22d97146c5848baa5cf477e721e750bc95613a4d77623e25d61",
+          "bytes": 21934
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/suppletive-reggio-roscioli-eletto-51-percento-vannacci-10-28-09-2026-v677-1200.webp",
+          "sha256": "82ad28c66cb6ef94d6da58fa4aa7d7d3fad516aa71d880b6011368e6e8a51b40",
+          "bytes": 40696
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/suppletive-reggio-roscioli-eletto-51-percento-vannacci-10-28-09-2026.html"
+    },
     {
       "alt": "Ritratto editoriale neutrale isolato di David Rossi; illustrazione IA non documentaria.",
       "prompt": "Neutral editorial portrait of David Rossi, Italian manager, head and shoulders, calm expression, plain soft grey studio background, isolated, photorealistic, no trauma, no text, no watermark. Sensitive context: neutral isolated portrait only.",
