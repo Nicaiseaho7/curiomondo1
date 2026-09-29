@@ -497,7 +497,9 @@ if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-home-de
 if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-discovery-row ")]'): errors.append('card Biblioteca/Approfondimenti ancora presenti in homepage')
 if len(home.xpath('//dialog[@id="drawer"]//a[@href="/biblioteca/"]'))!=1: errors.append('Biblioteca non presente una sola volta nel menu drawer')
 if len(home.xpath('//dialog[@id="drawer"]//a[@href="/approfondimenti/"]'))!=1: errors.append('Approfondimenti non presenti una sola volta nel menu drawer')
-if home.xpath('//a[(@href="/biblioteca/" or @href="/approfondimenti/") and not(ancestor::dialog[@id="drawer"])]'): errors.append('Biblioteca o Approfondimenti ancora collegati fuori dal menu drawer in homepage')
+# Il carosello Curiosità e approfondimenti, richiesto dal protocollo corrente,
+# può collegare il proprio archivio. Restano vietate le vecchie card esterne.
+if home.xpath('//a[(@href="/biblioteca/" or @href="/approfondimenti/") and not(ancestor::dialog[@id="drawer"]) and not(@href="/approfondimenti/" and ancestor::section[contains(concat(" ",normalize-space(@class)," ")," cm-curiosita-rail ")])]'): errors.append('Biblioteca o Approfondimenti collegati fuori dal menu drawer o dal carosello autorizzato in homepage')
 if len(home.xpath('//section[contains(@class,"cm-editorial-signature")][@data-layout="open-white-canvas"]'))!=1: errors.append('testata editoriale non impostata sulla pagina bianca aperta')
 azure_css_path=root/'assets/css/home-azure-v274.css'
 home_bundle_path=root/'assets/css/home-bundle-v291.css'

@@ -1,6 +1,108 @@
 {
-  "version": 701,
+  "version": 703,
   "items": [
+    {
+      "title": "USA e Israele, il consenso si divide: i sondaggi nel dibattito prima delle elezioni",
+      "excerpt": "Una puntata di Let’s Focus rilancia il confronto sull’effetto di Gaza nella politica americana. Gallup e Pew documentano il cambiamento delle opinioni, senza misurare una decisione sugli aiuti.",
+      "url": "/notizie/usa-israele-gaza-consenso-sondaggi-midterm-29-09-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-09-29T23:39:14+02:00",
+      "dateLabel": "2026-09-29",
+      "image": "/assets/images/editorial-auto/usa-israele-gaza-consenso-sondaggi-midterm-29-09-2026-ai-v703-800.webp",
+      "imageAlt": "Illustrazione IA del Campidoglio degli Stati Uniti, con prato e alberi autunnali, senza persone.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/usa-israele-gaza-consenso-sondaggi-midterm-29-09-2026-ai-v703-480.webp 480w, /assets/images/editorial-auto/usa-israele-gaza-consenso-sondaggi-midterm-29-09-2026-ai-v703-800.webp 800w, /assets/images/editorial-auto/usa-israele-gaza-consenso-sondaggi-midterm-29-09-2026-ai-v703-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "📊",
+          "value": "41% / 36%",
+          "label": "simpatie Gallup: palestinesi / israeliani, febbraio 2026"
+        },
+        {
+          "icon": "📊",
+          "value": "60%",
+          "label": "opinioni negative su Israele, Pew marzo 2026"
+        },
+        {
+          "icon": "🗳",
+          "value": "435",
+          "label": "seggi della Camera da rinnovare a novembre"
+        }
+      ],
+      "featuredHighlights": [
+        "USA e Israele",
+        "sondaggi"
+      ]
+    },
+    {
+      "title": "OpenAI, proteste al DevDay dopo lo stop al lancio di GPT-6.1 Astra",
+      "excerpt": "A San Francisco gruppi di lavoratori e associazioni contestano contratti governativi e impatto dei data center. Il modello previsto per ottobre è stato fermato per ragioni di sicurezza.",
+      "url": "/notizie/openai-devday-proteste-stop-gpt-6-1-astra-29-09-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-09-29T23:39:13+02:00",
+      "dateLabel": "2026-09-29",
+      "image": "/assets/images/editorial-auto/openai-devday-proteste-stop-gpt-6-1-astra-29-09-2026-ai-v703-800.webp",
+      "imageAlt": "Illustrazione IA di una conferenza a San Francisco con il logo OpenAI e partecipanti all’ingresso.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/openai-devday-proteste-stop-gpt-6-1-astra-29-09-2026-ai-v703-480.webp 480w, /assets/images/editorial-auto/openai-devday-proteste-stop-gpt-6-1-astra-29-09-2026-ai-v703-800.webp 800w, /assets/images/editorial-auto/openai-devday-proteste-stop-gpt-6-1-astra-29-09-2026-ai-v703-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "🤖",
+          "value": "GPT-6.1 Astra",
+          "label": "modello il cui lancio è stato cancellato"
+        },
+        {
+          "icon": "📅",
+          "value": "Ottobre",
+          "label": "mese previsto per il debutto"
+        },
+        {
+          "icon": "📍",
+          "value": "San Francisco",
+          "label": "sede della conferenza e della protesta"
+        }
+      ],
+      "featuredHighlights": [
+        "OpenAI",
+        "GPT-6.1 Astra"
+      ]
+    },
+    {
+      "title": "Iraq, le truppe USA lasciano la base di Baghdad: il termine del ritiro è il 30 settembre",
+      "excerpt": "Le autorità irachene annunciano la riconsegna di Victory, vicino all’aeroporto. La partenza dal complesso precede la scadenza concordata per la missione della coalizione.",
+      "url": "/notizie/iraq-truppe-usa-lasciano-base-baghdad-29-09-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-09-29T23:39:13+02:00",
+      "dateLabel": "2026-09-29",
+      "image": "/assets/images/editorial-auto/iraq-truppe-usa-lasciano-base-baghdad-29-09-2026-ai-v703-800.webp",
+      "imageAlt": "Illustrazione IA di infrastrutture aeroportuali a Baghdad con torre di controllo e barriere, senza militari.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/iraq-truppe-usa-lasciano-base-baghdad-29-09-2026-ai-v703-480.webp 480w, /assets/images/editorial-auto/iraq-truppe-usa-lasciano-base-baghdad-29-09-2026-ai-v703-800.webp 800w, /assets/images/editorial-auto/iraq-truppe-usa-lasciano-base-baghdad-29-09-2026-ai-v703-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "📍",
+          "value": "Victory",
+          "label": "base riconsegnata a Baghdad"
+        },
+        {
+          "icon": "📅",
+          "value": "30 settembre",
+          "label": "scadenza del ritiro annunciata dall’Iraq"
+        },
+        {
+          "icon": "🤝",
+          "value": "2024",
+          "label": "anno dell’intesa sul calendario"
+        }
+      ],
+      "featuredHighlights": [
+        "Iraq",
+        "30 settembre"
+      ]
+    },
     {
       "title": "Baldissero d’Alba, perizia: Mollo sparò al ladro da non più di 14 metri",
       "excerpt": "Dodici bossoli raggruppati dal balcone verso le torce degli intrusi. Distanza tra 10 e 30 metri, possibile entro 14. Indagine per omicidio: esiti ancora non definitivi.",
@@ -2354,17 +2456,38 @@
       "srcset": "/assets/images/editorial-auto/tentato-femminicidio-melito-napoli-63enne-27-09-2026-v703-480.webp 480w, /assets/images/editorial-auto/tentato-femminicidio-melito-napoli-63enne-27-09-2026-v703-800.webp 800w, /assets/images/editorial-auto/tentato-femminicidio-melito-napoli-63enne-27-09-2026-v703-1200.webp 1200w"
     },
     {
-      "title": "Regno Unito, cinque arresti vicino alla base RAF di Fairford",
-      "excerpt": "Cinque uomini arrestati vicino a RAF Fairford (UK) per sospetti reati su esplosivi. Base usata anche dagli USA.",
+      "title": "RAF Fairford, nessun esplosivo nei furgoni: cinque uomini rilasciati su cauzione",
+      "excerpt": "L’aggiornamento della polizia antiterrorismo conferma il ritrovamento di benzina e la prosecuzione delle indagini. Un coinvolgimento straniero resta un’ipotesi da verificare.",
       "url": "/notizie/fairford-raf-arresti-esplosivi-regno-unito-27-09-2026.html",
       "section": "Mondo",
       "dateISO": "2026-09-27T15:40:00+02:00",
       "dateLabel": "2026-09-27",
-      "image": "/assets/images/editorial-auto/fairford-raf-arresti-esplosivi-regno-unito-27-09-2026-v702-800.webp",
-      "imageAlt": "Cordonamento di polizia britannica presso area aeroportuale; illustrazione editoriale IA non documentaria.",
+      "image": "/assets/images/editorial-auto/fairford-raf-arresti-esplosivi-regno-unito-27-09-2026-ai-v703-800.webp",
+      "imageAlt": "Illustrazione IA di una pista e hangar della base RAF Fairford dietro una recinzione, senza persone o ordigni.",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/fairford-raf-arresti-esplosivi-regno-unito-27-09-2026-v702-480.webp 480w, /assets/images/editorial-auto/fairford-raf-arresti-esplosivi-regno-unito-27-09-2026-v702-800.webp 800w, /assets/images/editorial-auto/fairford-raf-arresti-esplosivi-regno-unito-27-09-2026-v702-1200.webp 1200w"
+      "srcset": "/assets/images/editorial-auto/fairford-raf-arresti-esplosivi-regno-unito-27-09-2026-ai-v703-480.webp 480w, /assets/images/editorial-auto/fairford-raf-arresti-esplosivi-regno-unito-27-09-2026-ai-v703-800.webp 800w, /assets/images/editorial-auto/fairford-raf-arresti-esplosivi-regno-unito-27-09-2026-ai-v703-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "🔎",
+          "value": "3 furgoni",
+          "label": "esaminati dagli specialisti"
+        },
+        {
+          "icon": "✓",
+          "value": "Nessun esplosivo",
+          "label": "risultato degli accertamenti annunciati"
+        },
+        {
+          "icon": "⚖",
+          "value": "5 uomini",
+          "label": "rilasciati con condizioni; indagine aperta"
+        }
+      ],
+      "featuredHighlights": [
+        "RAF Fairford",
+        "nessun esplosivo"
+      ]
     },
     {
       "title": "America’s Cup a Napoli: ultima giornata, 42 mila accessi al Race Village",
@@ -14789,17 +14912,38 @@
       "srcset": "/assets/images/editorial-auto/sciopero-ferroviario-nazionale-8-settembre-2026-ai-v307-480.webp 480w, /assets/images/editorial-auto/sciopero-ferroviario-nazionale-8-settembre-2026-ai-v307-800.webp 800w, /assets/images/editorial-auto/sciopero-ferroviario-nazionale-8-settembre-2026-ai-v307-1200.webp 1200w"
     },
     {
-      "title": "Alessandro Di Battista resta in terapia intensiva a Cuba dopo l’intervento",
-      "excerpt": "L’intervento eseguito all’ospedale Hermanos Ameijeiras è riuscito secondo fonti vicine all’ex deputato. Di Battista rimane sedato e il rientro in Italia non ha ancora una data.",
+      "title": "Alessandro Di Battista racconta il tumore e l’operazione a Cuba: ora prosegue le cure",
+      "excerpt": "L’ex deputato interviene a diMartedì dopo il rientro in Italia. Riferisce che il tumore è stato asportato quasi interamente e ringrazia i medici che lo hanno assistito.",
       "url": "/notizie/alessandro-di-battista-ricoverato-cuba-trasferimento-avana-29-agosto-2026.html",
-      "section": "Ultima ora · Italia / Politica",
+      "section": "Italia / Politica",
       "dateISO": "2026-09-07T21:35:00+02:00",
       "dateLabel": "2026-09-07",
-      "image": "/assets/images/editorial-auto/alessandro-di-battista-terapia-intensiva-avana-7-settembre-2026-ai-v306-800.webp",
-      "imageAlt": "Ritratto editoriale neutrale di Alessandro Di Battista su sfondo scuro, somiglianza sintetica fotorealistica generata con IA per una notizia sanitaria sensibile",
+      "image": "/assets/images/editorial-auto/alessandro-di-battista-ricoverato-cuba-trasferimento-avana-29-agosto-2026-ai-v703-800.webp",
+      "imageAlt": "Ritratto editoriale neutrale di Alessandro Di Battista generato con IA su sfondo grigio; non è una fotografia documentaria.",
       "imageWidth": 800,
       "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/alessandro-di-battista-terapia-intensiva-avana-7-settembre-2026-ai-v306-480.webp 480w, /assets/images/editorial-auto/alessandro-di-battista-terapia-intensiva-avana-7-settembre-2026-ai-v306-800.webp 800w, /assets/images/editorial-auto/alessandro-di-battista-terapia-intensiva-avana-7-settembre-2026-ai-v306-1200.webp 1200w"
+      "srcset": "/assets/images/editorial-auto/alessandro-di-battista-ricoverato-cuba-trasferimento-avana-29-agosto-2026-ai-v703-480.webp 480w, /assets/images/editorial-auto/alessandro-di-battista-ricoverato-cuba-trasferimento-avana-29-agosto-2026-ai-v703-800.webp 800w, /assets/images/editorial-auto/alessandro-di-battista-ricoverato-cuba-trasferimento-avana-29-agosto-2026-ai-v703-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "📺",
+          "value": "29 settembre",
+          "label": "racconto pubblico a diMartedì"
+        },
+        {
+          "icon": "📅",
+          "value": "12 settembre",
+          "label": "rientro in Italia dopo l’intervento a Cuba"
+        },
+        {
+          "icon": "⚕",
+          "value": "Cure in corso",
+          "label": "nessuna prognosi resa pubblica"
+        }
+      ],
+      "featuredHighlights": [
+        "Alessandro Di Battista",
+        "tumore"
+      ]
     },
     {
       "title": "Russia, il Cremlino non esclude nuovi colloqui con Ucraina e Stati Uniti",

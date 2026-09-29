@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 701,
-    "site_version": 701
+    "current_site_version": 703,
+    "site_version": 703
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -259,21 +259,22 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 681,
-  "version": "v681",
-  "release_version": "v681",
+  "site_version": 703,
+  "version": "v703",
+  "release_version": "v703",
   "last_release": {
-    "version": 681,
+    "version": 703,
     "date": "2026-09-29",
-    "type": "evergreen-guide",
-    "news_added": [],
-    "news_updated": [],
-    "evergreen_added": [
-      "che-cosa-sono-ondate-calore-marine-mediterraneo"
+    "type": "requested-news-batch",
+    "news_added": [
+      "iraq-truppe-usa-lasciano-base-baghdad-29-09-2026",
+      "openai-devday-proteste-stop-gpt-6-1-astra-29-09-2026",
+      "usa-israele-gaza-consenso-sondaggi-midterm-29-09-2026"
     ],
-    "related_news_linked": [
-      "/notizie/ondate-di-calore-marine-estate-record-nei-mari-d-europa-26-09-2026.html"
+    "news_updated": [
+      "fairford-raf-arresti-esplosivi-regno-unito-27-09-2026",
+      "alessandro-di-battista-ricoverato-cuba-trasferimento-avana-29-agosto-2026"
     ],
-    "change": "Guida alle ondate di calore marine: fonti primarie, esempi italiani, FAQ e copertina dedicata; rail curiosità limitata alle tre guide più recenti."
+    "change": "Tre notizie richieste e due aggiornamenti sostanziali; cinque nuove copertine IA e tutte le superfici editoriali sincronizzate."
   }
 }
