@@ -1,11 +1,45 @@
 {
-  "version": 678,
+  "version": 680,
   "items": [
+    {
+      "title": "Meteo Italia oggi e 7 giorni: sole fino a 31 gradi, allerta gialla in Sicilia",
+      "excerpt": "Martedì 29 settembre anticiclone e sole su quasi tutta l’Italia, con massime fino a 31 gradi in Sardegna. Allerta gialla per temporali in Sicilia sud-orientale; da venerdì possibili primi disturbi al Nord-Ovest.",
+      "url": "/notizie/meteo-italia-29-settembre-5-ottobre-2026.html",
+      "section": "Mondo / Meteo",
+      "dateISO": "2026-09-29T04:41:56+02:00",
+      "dateLabel": "2026-09-29",
+      "image": "/assets/images/editorial-auto/meteo-italia-29-settembre-5-ottobre-2026-v680-800.webp",
+      "imageAlt": "Mappa meteo editoriale dell’Italia per martedì 29 settembre 2026, con sole sulle regioni, temperature sulle città principali, allerta gialla in Sicilia e striscia dei sette giorni fino al 5 ottobre.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/meteo-italia-29-settembre-5-ottobre-2026-v680-480.webp 480w, /assets/images/editorial-auto/meteo-italia-29-settembre-5-ottobre-2026-v680-800.webp 800w, /assets/images/editorial-auto/meteo-italia-29-settembre-5-ottobre-2026-v680-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "29 settembre",
+          "label": "oggi, sole prevalente"
+        },
+        {
+          "icon": "▲",
+          "value": "fino a 31 °C",
+          "label": "picchi in Sardegna"
+        },
+        {
+          "icon": "●",
+          "value": "allerta gialla",
+          "label": "Sicilia SE, temporali"
+        }
+      ],
+      "featuredHighlights": [
+        "fino a 31 gradi",
+        "allerta gialla"
+      ]
+    },
     {
       "title": "LeBron James debutta da Sixer: «Non ho lasciato la famiglia per uscire al secondo turno»",
       "excerpt": "Al Media Day di Camden il massimo marcatore NBA si presenta a testa rasata con la maglia n. 23. Maxey e il quinto anello tra i motivi della scelta.",
       "url": "/notizie/lebron-james-debutta-da-sixer-non-ho-lasciato-la-famiglia-per-uscire-al-secondo-turno-28-09-2026.html",
-      "section": "Italia / Sport",
+      "section": "Sport / NBA",
       "dateISO": "2026-09-28T21:00:32+02:00",
       "dateLabel": "2026-09-28",
       "image": "/assets/images/editorial-auto/lebron-james-debutta-da-sixer-non-ho-lasciato-la-famiglia-per-uscire-al-secondo-turno-v678-800.webp",
