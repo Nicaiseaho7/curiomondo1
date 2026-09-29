@@ -1,0 +1,111 @@
+/* v714 — copertina Italia (landmark panoramica) dietro logo e wordmark CurioMondo. */
+.header{
+  isolation:isolate;
+  position:sticky;
+  top:0;
+  background:#0a1a2e!important;
+  overflow:hidden;
+  min-height:88px;
+}
+.header::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:0;
+  background:
+    url('/assets/images/header-italia-cover-v714.webp') right center / cover no-repeat;
+  opacity:1;
+  pointer-events:none;
+}
+.header::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:0;
+  /* Leggibilità logo e nome a sinistra; immagine leggibile a destra */
+  background:linear-gradient(
+    100deg,
+    rgba(4,16,34,.92) 0%,
+    rgba(4,16,34,.78) 38%,
+    rgba(4,16,34,.42) 62%,
+    rgba(4,16,34,.18) 82%,
+    rgba(4,16,34,.08) 100%
+  );
+  pointer-events:none;
+}
+.header .nav,
+.header .brand-line,
+.header .logo,
+.header .cm-header-actions{
+  position:relative;
+  z-index:1;
+}
+.header .cm-wordmark,
+html.cm-dark .header .cm-wordmark{
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  text-shadow:0 2px 6px rgba(3,16,32,.85),0 0 14px rgba(3,16,32,.55);
+}
+.header .cm-wordmark>span,
+html.cm-dark .header .cm-wordmark>span{
+  color:#5b9cff!important;
+  -webkit-text-fill-color:#5b9cff!important;
+  text-shadow:0 1px 0 #031020,0 2px 8px rgba(3,16,32,.5)!important;
+}
+.header .cm-brand-tagline,
+html.cm-dark .header .cm-brand-tagline{
+  color:#eef4ff!important;
+  text-shadow:0 1px 4px rgba(3,16,32,.9);
+}
+.header .cm-brand-logo{
+  background:#fff;
+  border-radius:10px;
+  box-shadow:0 0 0 3px rgba(255,255,255,.72),0 6px 20px rgba(0,0,0,.35);
+}
+.header .icon-btn,
+html.cm-dark .header .icon-btn{
+  background:rgba(255,255,255,.94)!important;
+  color:#102c4b!important;
+  border-color:rgba(199,215,234,.9)!important;
+  backdrop-filter:blur(8px);
+}
+.header .icon-btn:focus-visible,
+.header .logo:focus-visible{
+  outline:3px solid #ffd778;
+  outline-offset:3px;
+}
+.header .cm-nicaise-signature,
+.header .cm-nicaise-word{
+  color:rgba(255,255,255,.88)!important;
+  text-shadow:0 1px 3px rgba(0,0,0,.55);
+}
+@media(max-width:700px){
+  .header{min-height:76px}
+  .header::before{
+    background-size:cover;
+    background-position:62% center;
+  }
+  .header::after{
+    background:linear-gradient(
+      100deg,
+      rgba(4,16,34,.94) 0%,
+      rgba(4,16,34,.82) 48%,
+      rgba(4,16,34,.45) 100%
+    );
+  }
+}
+@media(min-width:1280px){
+  .header::before{
+    background-image:url('/assets/images/header-italia-cover-v714-1920.webp');
+  }
+}
+@media(prefers-reduced-transparency:reduce){
+  .header .cm-brand-copy{
+    background:rgba(7,24,45,.88);
+    border-radius:8px;
+    padding:4px 8px;
+  }
+  .header::after{
+    background:rgba(4,16,34,.72);
+  }
+}
