@@ -1,7 +1,131 @@
 {
-  "version": 684,
+  "version": 688,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Laptop con interfaccia AI e Campidoglio USA sullo sfondo; illustrazione editoriale IA.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/trump-america-gov-portale-ia-eta-dell-oro-cittadini-29-09-2026-v688-480.webp",
+          "sha256": "8226295e10e2ea68c53e804ca30ed7251b1db02ed8242482e1d766ade04ef0c2",
+          "bytes": 20598
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/trump-america-gov-portale-ia-eta-dell-oro-cittadini-29-09-2026-v688-800.webp",
+          "sha256": "5fdaa79bc393a9cdac80e3b3b6ad6e274dad89a1a3495ab6adcc1ee776d771d1",
+          "bytes": 45582
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/trump-america-gov-portale-ia-eta-dell-oro-cittadini-29-09-2026-v688-1200.webp",
+          "sha256": "62817b02d3c2659379c2148105bcfa26a675568f8f66709f1b5340628158d6f5",
+          "bytes": 83846
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/trump-america-gov-portale-ia-eta-dell-oro-cittadini-29-09-2026.html"
+    },
+    {
+      "alt": "Documenti e fascicoli Digos su tavolo investigativo; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/suprematismo-arrestato-17enne-digos-verona-trento-29-09-2026-v687-480.webp",
+          "sha256": "0246fd0892185f0c3e77548f18466ec8e261699a050ddfcdfd3ef629f6769b4f",
+          "bytes": 27112
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/suprematismo-arrestato-17enne-digos-verona-trento-29-09-2026-v687-800.webp",
+          "sha256": "993812e410585d02fd7ba5ca66d49c64654ed14ad38a541838cdb9a0e730c292",
+          "bytes": 61784
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/suprematismo-arrestato-17enne-digos-verona-trento-29-09-2026-v687-1200.webp",
+          "sha256": "990979f3645c186e320c6689c238458635b8ab53f88b065a5a16e2a632cbbc77",
+          "bytes": 115934
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/suprematismo-arrestato-17enne-digos-verona-trento-29-09-2026.html"
+    },
+    {
+      "alt": "Laboratorio forense con reperti sigillati; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/garlasco-portera-non-ho-analizzato-dna-bici-stasi-29-09-2026-v686-480.webp",
+          "sha256": "475ac5dcdbfed41ef6941ac9b36f997b1bc4ecf6a77b7582387c684293fe929e",
+          "bytes": 20158
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/garlasco-portera-non-ho-analizzato-dna-bici-stasi-29-09-2026-v686-800.webp",
+          "sha256": "e0b6fddd4423ab5271afec0abf066cb094cec110f400ded4ba95dc6f9e075f0c",
+          "bytes": 44380
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/garlasco-portera-non-ho-analizzato-dna-bici-stasi-29-09-2026-v686-1200.webp",
+          "sha256": "184e06a6fdaa01c38abee2bc2c7ff4f9c4a67fd1615023994b6ed6a8fd4fde8c",
+          "bytes": 77478
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/garlasco-portera-non-ho-analizzato-dna-bici-stasi-29-09-2026.html"
+    },
+    {
+      "alt": "Sede Commissione europea a Bruxelles con bandiere UE; illustrazione editoriale IA.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ue-jorgensen-difficolta-regolamento-metano-rinvio-29-09-2026-v685-480.webp",
+          "sha256": "0d7f95c6530cb4fcbd177e963b80ce767523c5daf096d6392ff0113f29e7fc5d",
+          "bytes": 32294
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ue-jorgensen-difficolta-regolamento-metano-rinvio-29-09-2026-v685-800.webp",
+          "sha256": "eb1b93f623970dc577167b74655cf1fed4f480561a573ed428286cb94638025a",
+          "bytes": 77004
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ue-jorgensen-difficolta-regolamento-metano-rinvio-29-09-2026-v685-1200.webp",
+          "sha256": "8a56b3ba184111b50f157eae838162d7661635c65b4b216b503d51a0c0d1286c",
+          "bytes": 148916
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/ue-jorgensen-difficolta-regolamento-metano-rinvio-29-09-2026.html"
+    },
     {
       "alt": "Podio e bandiere italiane in sede istituzionale; illustrazione editoriale IA non documentaria.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
