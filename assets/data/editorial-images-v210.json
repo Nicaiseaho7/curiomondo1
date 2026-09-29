@@ -1,7 +1,40 @@
 {
-  "version": 680,
+  "version": 681,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "che-cosa-sono-ondate-calore-marine-mediterraneo-v681",
+      "article": "/approfondimenti/che-cosa-sono-ondate-calore-marine-mediterraneo.html",
+      "alt": "Prateria mediterranea di Posidonia oceanica con pesci tra le foglie nastriformi; illustrazione editoriale IA non documentaria.",
+      "prompt": "Photorealistic single 3:2 underwater Mediterranean Posidonia oceanica meadow, natural ribbon-shaped leaves, pale sand channels and sea bream, sunlight through clear blue water. Ordinary living habitat, no fabricated mortality, no red heat effects, no tropical coral, no text, logos, watermarks, people, borders or collage. AI editorial illustration, not documentary evidence.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/che-cosa-sono-ondate-calore-marine-mediterraneo-v681-480.webp",
+          "sha256": "cefbe40ec4b20c3cb98d9775786918531bb88ad7c47a9dbe91b5dbde7c6fe518",
+          "bytes": 57958
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/che-cosa-sono-ondate-calore-marine-mediterraneo-v681-800.webp",
+          "sha256": "11351bf028d41e18c92a76941043f21ed5b448e6ba8f6788c92bd282f186b3e1",
+          "bytes": 145044
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/che-cosa-sono-ondate-calore-marine-mediterraneo-v681-1200.webp",
+          "sha256": "b8bb561a9ed23a818fac5c82751b0de1c6b726023c67318a2cca282d28174c48",
+          "bytes": 279302
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image_gen",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "visualReview": "Subject, natural underwater lighting, 3:2 crop, no text or watermark and mobile framing checked."
+    },
     {
       "key": "meteo-italia-29-settembre-5-ottobre-2026-v680",
       "alt": "Mappa meteo editoriale dell’Italia per martedì 29 settembre 2026, con sole sulle regioni, temperature sulle città principali, allerta gialla in Sicilia e striscia dei sette giorni fino al 5 ottobre.",

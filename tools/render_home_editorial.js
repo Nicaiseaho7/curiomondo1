@@ -107,7 +107,7 @@ const curiositaRail = () => {
   const pattern = /<a class="card"[^>]*href="([^"]+)"[^>]*>[\s\S]*?<h2>([^<]+)<\/h2><p>([^<]*)<\/p>/g;
   const blocked = ['cinema', 'film', 'serie tv', 'serie televis', 'streaming', 'netflix', 'apple tv', 'prime video', 'disney+', 'nba', 'basket', 'raptors', 'clippers'];
   let match;
-  while ((match = pattern.exec(source)) && found.length < 10) {
+  while ((match = pattern.exec(source))) {
     const href = match[1].replace('../', '/');
     const title = match[2].replace(/\s+/g, ' ').trim();
     const excerpt = match[3].replace(/\s+/g, ' ').trim();
@@ -124,10 +124,14 @@ const curiositaRail = () => {
       ? [480, 800, 1200].filter((width) => fs.existsSync(path.join(root, sized[1].replace(/^\//, '') + '-' + width + '.webp')))
         .map((width) => `${sized[1]}-${width}.webp ${width}w`).join(', ')
       : '';
-    found.push({ href, title, excerpt, src, srcset });
+    const published = (page.match(/"datePublished"\s*:\s*"([^"]+)"/) || [])[1];
+    const publishedAt = Date.parse(published || '');
+    found.push({ href, title, excerpt, src, srcset, publishedAt: Number.isFinite(publishedAt) ? publishedAt : 0 });
   }
   if (!found.length) return '';
-  const cards = found.map((entry) => (
+  // Protocollo curiosità v1.1.1: solo le tre guide più recenti in homepage.
+  // L'indice completo resta raggruppato per categoria, non per data.
+  const cards = found.sort((a, b) => b.publishedAt - a.publishedAt).slice(0, 3).map((entry) => (
     `<a class="cm-topic-card" data-category="curiosita" href="${text(entry.href)}" style="--cm-category-color:#6333bd"><div class="cm-topic-card__body"><span class="cm-topic-label meta">Curiosità e approfondimenti</span><h3 class="cm-topic-card__title">${text(entry.title)}</h3><picture><img src="${text(entry.src)}"${entry.srcset ? ` srcset="${text(entry.srcset)}"` : ''} sizes="(max-width: 600px) 82vw, 320px" alt="${text(entry.title)}" width="800" height="533" loading="lazy" decoding="async"></picture><p class="cm-curiosita-card__excerpt">${text(entry.excerpt)}</p></div></a>`
   )).join('');
   return `<section class="cm-topic-section cm-curiosita-rail" data-category="curiosita" id="categoria-curiosita" style="--cm-category-color:#6333bd"><div class="cm-topic-section__rail" data-for-category="curiosita"><h2 class="cm-topic-section__title">Curiosità e approfondimenti</h2><div class="cm-topic-grid">${cards}</div></div></section>`;
