@@ -295,7 +295,16 @@
     });
     fragment.append(ultimaOra(ranked));
     allocation.sections.forEach((item) => fragment.append(section(item)));
+    // Preserva la rail Curiosità e approfondimenti (max 10 card statiche, non derivate dal feed notizie)
+    const curiositaKeep = document.getElementById('categoria-curiosita');
+    const curiositaNode = curiositaKeep ? curiositaKeep.cloneNode(true) : null;
     zone.replaceChildren(fragment);
+    if (curiositaNode) {
+      const after = zone.querySelector('#categoria-politica') || zone.querySelector('#categoria-sport') || zone.lastElementChild;
+      if (after && after.nextSibling) after.after(curiositaNode);
+      else if (after) after.after(curiositaNode);
+      else zone.appendChild(curiositaNode);
+    }
     hideLegacy();
     updateRest(allocation);
     verifyUnique();
