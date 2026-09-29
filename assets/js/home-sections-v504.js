@@ -329,3 +329,83 @@
   window.addEventListener('keydown', start, { once: true });
   window.addEventListener('scroll', start, { once: true, passive: true });
 })();
+
+
+/* v532 — pulsante Torna su, visibile dopo lo scroll in homepage */
+(function initBackToTop() {
+  if (typeof document === 'undefined') return;
+  const make = () => {
+    if (document.getElementById('cm-back-to-top')) return;
+    const btn = document.createElement('button');
+    btn.id = 'cm-back-to-top';
+    btn.className = 'cm-back-to-top';
+    btn.type = 'button';
+    btn.setAttribute('aria-label', 'Torna all’inizio della pagina');
+    btn.title = 'Torna su';
+    btn.innerHTML = '↑';
+    btn.addEventListener('click', () => {
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+    });
+    document.body.appendChild(btn);
+    const threshold = 420;
+    const onScroll = () => {
+      if (window.scrollY > threshold) btn.classList.add('is-visible');
+      else btn.classList.remove('is-visible');
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', make);
+  else make();
+})();
+
+
+/* v533 — controlli scorrimento rail Curiosità (10 card) */
+(function initCuriositaRail() {
+  if (typeof document === 'undefined') return;
+  const setup = (section) => {
+    if (!section || section.dataset.railReady === '1') return;
+    const grid = section.querySelector('.cm-topic-grid');
+    if (!grid) return;
+    const cards = grid.querySelectorAll('.cm-topic-card');
+    if (cards.length < 2) return;
+    section.dataset.railReady = '1';
+    const rail = section.querySelector('.cm-topic-section__rail') || section;
+    const title = rail.querySelector('.cm-topic-section__title');
+    const controls = document.createElement('div');
+    controls.className = 'cm-curiosita-rail__controls';
+    controls.innerHTML = '<span class="cm-curiosita-rail__count" data-cm-count></span>'
+      + '<button type="button" class="cm-curiosita-rail__arrow" data-dir="-1" aria-label="Curiosità precedenti">←</button>'
+      + '<button type="button" class="cm-curiosita-rail__arrow" data-dir="1" aria-label="Curiosità successive">→</button>';
+    if (title && title.nextSibling) title.after(controls);
+    else rail.insertBefore(controls, grid);
+    const countEl = controls.querySelector('[data-cm-count]');
+    const prev = controls.querySelector('[data-dir="-1"]');
+    const next = controls.querySelector('[data-dir="1"]');
+    const step = () => Math.max(220, Math.round(grid.clientWidth * 0.85));
+    const update = () => {
+      const max = Math.max(0, grid.scrollWidth - grid.clientWidth - 2);
+      const left = grid.scrollLeft;
+      prev.disabled = left <= 4;
+      next.disabled = left >= max - 4;
+      if (countEl) countEl.textContent = cards.length + ' approfondimenti';
+    };
+    prev.addEventListener('click', () => grid.scrollBy({ left: -step(), behavior: 'smooth' }));
+    next.addEventListener('click', () => grid.scrollBy({ left: step(), behavior: 'smooth' }));
+    grid.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  };
+  const run = () => setup(document.getElementById('categoria-curiosita'));
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run);
+  else run();
+  const zone = document.getElementById('cm-home-editorial-v504');
+  if (zone && typeof MutationObserver !== 'undefined') {
+    const mo = new MutationObserver(() => {
+      const sec = document.getElementById('categoria-curiosita');
+      if (sec && sec.dataset.railReady !== '1') run();
+    });
+    mo.observe(zone, { childList: true, subtree: true });
+  }
+})();
