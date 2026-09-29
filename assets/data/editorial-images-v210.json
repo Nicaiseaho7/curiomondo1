@@ -1,7 +1,100 @@
 {
-  "version": 681,
+  "version": 684,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Podio e bandiere italiane in sede istituzionale; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/regeni-tajani-condannate-tre-persone-non-legitto-29-09-2026-v684-480.webp",
+          "sha256": "9a996ff63ca507b54f9acaa91d5cb333b5c8564d07f88256d5f81607f0135fe6",
+          "bytes": 9480
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/regeni-tajani-condannate-tre-persone-non-legitto-29-09-2026-v684-800.webp",
+          "sha256": "0e0c160a53e9a59d7f111e1447da09a551e4c1e977aa4425f1796a5073ca1336",
+          "bytes": 17686
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/regeni-tajani-condannate-tre-persone-non-legitto-29-09-2026-v684-1200.webp",
+          "sha256": "2eca1d721672a28c4af5b634b5133d63a68110a1b8d675097804b60e29b65d37",
+          "bytes": 30086
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/regeni-tajani-condannate-tre-persone-non-legitto-29-09-2026.html"
+    },
+    {
+      "alt": "Distribuzione di aiuti a famiglie in un campo; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/unhcr-83-milioni-rifugiati-rischio-taglio-aiuti-29-09-2026-v683-480.webp",
+          "sha256": "e06ecbc69240f20271d232e934f22b14a5dd6d61708abf5430457d5d3626a30e",
+          "bytes": 31728
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/unhcr-83-milioni-rifugiati-rischio-taglio-aiuti-29-09-2026-v683-800.webp",
+          "sha256": "023d46e681aa0b100eeee5eb0779e02d323b1b0399ee60c14a53ab7b62266017",
+          "bytes": 71766
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/unhcr-83-milioni-rifugiati-rischio-taglio-aiuti-29-09-2026-v683-1200.webp",
+          "sha256": "9ef03e982800668ffc1e12ecf3250e94755bc38a4c0120ba30b49e25e1374cb5",
+          "bytes": 127396
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/unhcr-83-milioni-rifugiati-rischio-taglio-aiuti-29-09-2026.html"
+    },
+    {
+      "alt": "Edificio e collina a Jalud in Cisgiordania; illustrazione editoriale IA non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/jalud-scontri-coloni-forze-sicurezza-israeliane-29-09-2026-v682-480.webp",
+          "sha256": "9f7515c464d8a97a765b5fa2d2f8668fcce5c80cc1b0b6574c09724217612f02",
+          "bytes": 38400
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/jalud-scontri-coloni-forze-sicurezza-israeliane-29-09-2026-v682-800.webp",
+          "sha256": "936cbc2854c021f46c51e2bae27255ba4bb623539b35f6b8f66f1662631a3ab6",
+          "bytes": 99334
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/jalud-scontri-coloni-forze-sicurezza-israeliane-29-09-2026-v682-1200.webp",
+          "sha256": "5cb3e83f7437f2d17c831206c9c1a7e3663955b960a0f3c4f10eddcd7545275b",
+          "bytes": 195864
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/jalud-scontri-coloni-forze-sicurezza-israeliane-29-09-2026.html"
+    },
     {
       "key": "che-cosa-sono-ondate-calore-marine-mediterraneo-v681",
       "article": "/approfondimenti/che-cosa-sono-ondate-calore-marine-mediterraneo.html",

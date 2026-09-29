@@ -1,6 +1,108 @@
 {
-  "version": 681,
+  "version": 684,
   "items": [
+    {
+      "title": "Regeni, Tajani: «Condannate tre persone, non l’Egitto»",
+      "excerpt": "Dopo le condanne a dieci anni per tre 007 egiziani, il ministro degli Esteri sottolinea che la sentenza è di primo grado e non condanna lo Stato egiziano. La famiglia chiede che il governo prenda atto.",
+      "url": "/notizie/regeni-tajani-condannate-tre-persone-non-legitto-29-09-2026.html",
+      "section": "Italia / Politica",
+      "dateISO": "2026-09-29T07:49:15+02:00",
+      "dateLabel": "2026-09-29",
+      "image": "/assets/images/editorial-auto/regeni-tajani-condannate-tre-persone-non-legitto-29-09-2026-v684-800.webp",
+      "imageAlt": "Podio e bandiere italiane in sede istituzionale; illustrazione editoriale IA non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/regeni-tajani-condannate-tre-persone-non-legitto-29-09-2026-v684-480.webp 480w, /assets/images/editorial-auto/regeni-tajani-condannate-tre-persone-non-legitto-29-09-2026-v684-800.webp 800w, /assets/images/editorial-auto/regeni-tajani-condannate-tre-persone-non-legitto-29-09-2026-v684-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "3",
+          "label": "condanne a 10 anni"
+        },
+        {
+          "icon": "▲",
+          "value": "1° grado",
+          "label": "sentenza di Assise"
+        },
+        {
+          "icon": "●",
+          "value": "Tajani",
+          "label": "commento governo"
+        }
+      ],
+      "featuredHighlights": [
+        "Regeni",
+        "Tajani"
+      ]
+    },
+    {
+      "title": "UNHCR: 8,3 milioni di rifugiati a rischio senza aiuti",
+      "excerpt": "L’agenzia ONU per i rifugiati avverte che quasi 8,3 milioni di persone rischiano di perdere assistenza vitale. Gap di finanziamento di circa 5,8 miliardi di dollari nel 2026.",
+      "url": "/notizie/unhcr-83-milioni-rifugiati-rischio-taglio-aiuti-29-09-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-09-29T07:47:58+02:00",
+      "dateLabel": "2026-09-29",
+      "image": "/assets/images/editorial-auto/unhcr-83-milioni-rifugiati-rischio-taglio-aiuti-29-09-2026-v683-800.webp",
+      "imageAlt": "Distribuzione di aiuti a famiglie in un campo; illustrazione editoriale IA non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/unhcr-83-milioni-rifugiati-rischio-taglio-aiuti-29-09-2026-v683-480.webp 480w, /assets/images/editorial-auto/unhcr-83-milioni-rifugiati-rischio-taglio-aiuti-29-09-2026-v683-800.webp 800w, /assets/images/editorial-auto/unhcr-83-milioni-rifugiati-rischio-taglio-aiuti-29-09-2026-v683-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "8,3 mln",
+          "label": "persone a rischio"
+        },
+        {
+          "icon": "▲",
+          "value": "5,8 mld $",
+          "label": "gap di finanziamenti"
+        },
+        {
+          "icon": "●",
+          "value": "32%",
+          "label": "fondi ricevuti a luglio"
+        }
+      ],
+      "featuredHighlights": [
+        "UNHCR",
+        "rifugiati"
+      ]
+    },
+    {
+      "title": "Jalud, scontri tra coloni e forze israeliane per lo sgombero",
+      "excerpt": "Nella notte circa 100 coloni si sono scontrati con le forze di sicurezza a Jalud, in Cisgiordania, dove un’ordinanza impone lo sgombero di case palestinesi occupate.",
+      "url": "/notizie/jalud-scontri-coloni-forze-sicurezza-israeliane-29-09-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-09-29T07:47:01+02:00",
+      "dateLabel": "2026-09-29",
+      "image": "/assets/images/editorial-auto/jalud-scontri-coloni-forze-sicurezza-israeliane-29-09-2026-v682-800.webp",
+      "imageAlt": "Edificio e collina a Jalud in Cisgiordania; illustrazione editoriale IA non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/jalud-scontri-coloni-forze-sicurezza-israeliane-29-09-2026-v682-480.webp 480w, /assets/images/editorial-auto/jalud-scontri-coloni-forze-sicurezza-israeliane-29-09-2026-v682-800.webp 800w, /assets/images/editorial-auto/jalud-scontri-coloni-forze-sicurezza-israeliane-29-09-2026-v682-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "~100",
+          "label": "coloni coinvolti"
+        },
+        {
+          "icon": "▲",
+          "value": "Jalud",
+          "label": "villaggio Cisgiordania"
+        },
+        {
+          "icon": "●",
+          "value": "notte",
+          "label": "28-29 settembre"
+        }
+      ],
+      "featuredHighlights": [
+        "Jalud",
+        "coloni"
+      ]
+    },
     {
       "title": "Turchia-Italia 1-4: prima vittoria di Mancini, gol di Bastoni, Frattesi, Kayode e Pio Esposito",
       "excerpt": "A Bursa la Nazionale ribalta la sconfitta col Belgio: tris nel primo tempo e poker in Nations League. Venerdì a Parigi contro la Francia.",
@@ -9,7 +111,7 @@
       "dateISO": "2026-09-29T04:50:00+02:00",
       "dateLabel": "2026-09-29",
       "image": "/assets/images/editorial-auto/turchia-italia-1-4-nations-league-bastoni-frattesi-kayode-esposito-28-09-2026-v713-800.webp",
-      "imageAlt": "Roberto Mancini esulta sotto la pioggia in maglia azzurra dopo Italia 4-1 sulla Turchia; illustrazione editoriale IA.",
+      "imageAlt": "Roberto Mancini esulta sotto la pioggia in maglia azzurra FIGC dopo Italia 4-1 sulla Turchia; illustrazione editoriale IA non documentaria.",
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/turchia-italia-1-4-nations-league-bastoni-frattesi-kayode-esposito-28-09-2026-v713-480.webp 480w, /assets/images/editorial-auto/turchia-italia-1-4-nations-league-bastoni-frattesi-kayode-esposito-28-09-2026-v713-800.webp 800w, /assets/images/editorial-auto/turchia-italia-1-4-nations-league-bastoni-frattesi-kayode-esposito-28-09-2026-v713-1200.webp 1200w",
@@ -27,7 +129,10 @@
           "label": "gol al debutto"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "1-4",
+        "Kayode"
+      ]
     },
     {
       "title": "Stadio della Roma a Pietralata: via libera definitivo dalla Conferenza dei servizi",
@@ -37,7 +142,7 @@
       "dateISO": "2026-09-29T04:50:00+02:00",
       "dateLabel": "2026-09-29",
       "image": "/assets/images/editorial-auto/stadio-roma-pietralata-via-libera-definitivo-conferenza-servizi-28-09-2026-v713-800.webp",
-      "imageAlt": "Rendering editoriale del nuovo stadio AS Roma a Pietralata; illustrazione IA non documentaria.",
+      "imageAlt": "Rendering editoriale del nuovo stadio AS Roma a Pietralata, arena moderna con pini e riflesso sull’acqua; illustrazione IA non documentaria.",
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/stadio-roma-pietralata-via-libera-definitivo-conferenza-servizi-28-09-2026-v713-480.webp 480w, /assets/images/editorial-auto/stadio-roma-pietralata-via-libera-definitivo-conferenza-servizi-28-09-2026-v713-800.webp 800w, /assets/images/editorial-auto/stadio-roma-pietralata-via-libera-definitivo-conferenza-servizi-28-09-2026-v713-1200.webp 1200w",
