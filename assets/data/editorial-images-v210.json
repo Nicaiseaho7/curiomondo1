@@ -1,7 +1,131 @@
 {
-  "version": 696,
+  "version": 701,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Agenti di polizia di spalle su una strada di paese; illustrazione editoriale IA non documentaria, senza vittime né armi.",
+      "prompt": "Photoreal neutral editorial illustration of two Italian police officers walking away on a cobbled village street with brick houses and a blue police van ahead, daylight, no weapons drawn, no victims, no blood, calm documentary news style, no text, 3:2 landscape",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/baldissero-perizia-balistica-mollo-14-metri-29-09-2026-v701-480.webp",
+          "sha256": "604a02e8cfc9f13c500d5ab55c532602c7247970cf1ac61a4f7aee48a1547b7d",
+          "bytes": 21024
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/baldissero-perizia-balistica-mollo-14-metri-29-09-2026-v701-800.webp",
+          "sha256": "dc648b7def3d2ba0590a969784ece8cdaded7940e7963f3de26d6e2ce81fe701",
+          "bytes": 40254
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/baldissero-perizia-balistica-mollo-14-metri-29-09-2026-v701-1200.webp",
+          "sha256": "9b0e9204096f851d68a966b985d18ef078e4b26dffde086e4e5cc83378e8047b",
+          "bytes": 64140
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/baldissero-perizia-balistica-mollo-14-metri-29-09-2026.html"
+    },
+    {
+      "alt": "Sala di Borsa con operatori e schermi di quotazioni; illustrazione editoriale IA non documentaria.",
+      "prompt": "Photoreal editorial illustration of a European stock exchange trading floor with monitors showing abstract price charts, traders in jackets, warm indoor light, financial journalism style, no readable logos or brand names, 3:2 landscape",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/spread-btp-bund-chiude-quota-100-29-09-2026-v700-480.webp",
+          "sha256": "461b60e7d6a186568c8eabffbf667898aff53ef8d5b085fda31ae426b48175ba",
+          "bytes": 14268
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/spread-btp-bund-chiude-quota-100-29-09-2026-v700-800.webp",
+          "sha256": "bca31f5cce47f57162c0bf91d9b5893bae9615cb10355cb617bfcfcbd974e263",
+          "bytes": 27638
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/spread-btp-bund-chiude-quota-100-29-09-2026-v700-1200.webp",
+          "sha256": "d9d7556db013dc060f548b20d7268791d5e24574d8fb00195314a17687b92779",
+          "bytes": 44958
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/spread-btp-bund-chiude-quota-100-29-09-2026.html"
+    },
+    {
+      "alt": "Interno di aereo di linea con corridoio e sedili visti da dietro; illustrazione editoriale IA non documentaria.",
+      "prompt": "Photoreal editorial illustration of an airplane cabin aisle viewed from behind seated passengers, only backs of heads visible, soft natural window light, calm journalistic travel style, no faces, no logos, no text overlays, 3:2 landscape",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/licenziato-paura-volare-corte-bologna-52mila-29-09-2026-v699-480.webp",
+          "sha256": "2989018e878c93a6a9486d275a10bf0cd5ebe947da50e3fec17ff67912a74f41",
+          "bytes": 13734
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/licenziato-paura-volare-corte-bologna-52mila-29-09-2026-v699-800.webp",
+          "sha256": "f8b47aa51591edd3da16715099dd55857bf7a088b5c06db58e15f6dcbf5bac3c",
+          "bytes": 29318
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/licenziato-paura-volare-corte-bologna-52mila-29-09-2026-v699-1200.webp",
+          "sha256": "db7adf4701c6f112d9f0e941f2810cf5f9b1cd690b6c05442519e13bf770687d",
+          "bytes": 48972
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/licenziato-paura-volare-corte-bologna-52mila-29-09-2026.html"
+    },
+    {
+      "alt": "Stadio Etihad e stemma Manchester City sul prato; illustrazione editoriale IA non documentaria.",
+      "prompt": "Photoreal empty Etihad Stadium pitch Manchester City crest on grass blue seats overcast light sports editorial no people",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/manchester-city-premier-colpevole-irregolarita-finanziarie-29-09-2026-v698-480.webp",
+          "sha256": "9b723edb6aaab8a8aa311673ed7fbb4c7025412577059269837827ff49153254",
+          "bytes": 57810
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/manchester-city-premier-colpevole-irregolarita-finanziarie-29-09-2026-v698-800.webp",
+          "sha256": "738060cf95ceb1f3b7d0cda750eabddbf05e25376560e4dc131c4b3d86f5c649",
+          "bytes": 150122
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/manchester-city-premier-colpevole-irregolarita-finanziarie-29-09-2026-v698-1200.webp",
+          "sha256": "2c4c0415cc66137a81f3cfc2018bb830ea673fbd14f83f061cc2529259d03b93",
+          "bytes": 306044
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/manchester-city-premier-colpevole-irregolarita-finanziarie-29-09-2026.html"
+    },
     {
       "alt": "Studenti riuniti fuori da un liceo parigino, polizia in lontananza; illustrazione editoriale IA non documentaria.",
       "prompt": "Studenti di spalle fuori da liceo parigino in pietra, zaini, polizia sfocata in fondo, luce diurna documentaria, volti non riconoscibili",
