@@ -1,7 +1,46 @@
 {
-  "version": 690,
+  "version": 691,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Portale di galleria ferroviaria in cantiere tra colline del Sud Italia, gru e reti arancioni; illustrazione editoriale IA non documentaria.",
+      "prompt": "Portale di galleria ferroviaria alta velocità in cantiere tra colline campane, gru gialla, reti arancioni",
+      "variants": [
+        {
+          "src": "/assets/images/editorial-auto/alta-velocita-napoli-bari-20-misure-cautelari-corruzione-e-caporalato-nei-cantieri-v691-480.webp",
+          "width": 480
+        },
+        {
+          "src": "/assets/images/editorial-auto/alta-velocita-napoli-bari-20-misure-cautelari-corruzione-e-caporalato-nei-cantieri-v691-800.webp",
+          "width": 800
+        },
+        {
+          "src": "/assets/images/editorial-auto/alta-velocita-napoli-bari-20-misure-cautelari-corruzione-e-caporalato-nei-cantieri-v691-1200.webp",
+          "width": 1200
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/alta-velocita-napoli-bari-20-misure-cautelari-corruzione-e-caporalato-nei-cantieri-29-09-2026.html"
+    },
+    {
+      "slug": "alta-velocita-napoli-bari-20-misure-cautelari-corruzione-e-caporalato-nei-cantieri-29-09-2026",
+      "version": 691,
+      "alt": "Portale di galleria ferroviaria in cantiere tra colline del Sud Italia, gru e reti arancioni; illustrazione editoriale IA non documentaria.",
+      "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "paths": {
+        "480": "/assets/images/editorial-auto/alta-velocita-napoli-bari-20-misure-cautelari-corruzione-e-caporalato-nei-cantieri-v691-480.webp",
+        "800": "/assets/images/editorial-auto/alta-velocita-napoli-bari-20-misure-cautelari-corruzione-e-caporalato-nei-cantieri-v691-800.webp",
+        "1200": "/assets/images/editorial-auto/alta-velocita-napoli-bari-20-misure-cautelari-corruzione-e-caporalato-nei-cantieri-v691-1200.webp"
+      },
+      "ai_generated": true,
+      "sensitive": false,
+      "article": "/notizie/alta-velocita-napoli-bari-20-misure-cautelari-corruzione-e-caporalato-nei-cantieri-29-09-2026.html"
+    },
     {
       "alt": "Monitor di laboratorio forense con elettroferogramma DNA a picchi viola su griglia scura; illustrazione editoriale IA non documentaria.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
