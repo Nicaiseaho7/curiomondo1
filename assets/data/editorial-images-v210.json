@@ -1,7 +1,69 @@
 {
-  "version": 693,
+  "version": 696,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Studenti riuniti fuori da un liceo parigino, polizia in lontananza; illustrazione editoriale IA non documentaria.",
+      "prompt": "Studenti di spalle fuori da liceo parigino in pietra, zaini, polizia sfocata in fondo, luce diurna documentaria, volti non riconoscibili",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/francia-sciopero-generale-e-licei-bloccati-scontri-e-lacrimogeni-v696-480.webp",
+          "sha256": "9f714b55ab270c5f12f1148d0e079bdfdccf5899e3f4bafb7d76369d28059cb3",
+          "bytes": 33124
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/francia-sciopero-generale-e-licei-bloccati-scontri-e-lacrimogeni-v696-800.webp",
+          "sha256": "faf528ab71f8a1b724ba63e453990e4982f2d4bd401c597a49bccfd9a77ec9f1",
+          "bytes": 65842
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/francia-sciopero-generale-e-licei-bloccati-scontri-e-lacrimogeni-v696-1200.webp",
+          "sha256": "39030ff6cb39d8164e6a36e17c8f7aca425d0dc51621bcda34239dd3458520c9",
+          "bytes": 106572
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/francia-sciopero-generale-e-licei-bloccati-scontri-e-lacrimogeni-29-09-2026.html"
+    },
+    {
+      "alt": "Giocatori del Brasile in maglia gialla esultano dopo un gol in stadio; illustrazione editoriale IA non documentaria.",
+      "prompt": "Giocatori Brasile maglia gialla esultano in campo, stadio notturno, fotorealismo sportivo, senza scritte inventate",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/brasile-rimonta-l-australia-4-2-ancelotti-torna-alla-vittoria-v695-480.webp",
+          "sha256": "5cca8791e8df60f311e37cbde49a867f217d8c2453d47ac85ebb9a9752272242",
+          "bytes": 33746
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/brasile-rimonta-l-australia-4-2-ancelotti-torna-alla-vittoria-v695-800.webp",
+          "sha256": "c1ead8a8bdbc2938e24501e7ac5c9412e50713b2df62c4acaf64535b472fcea4",
+          "bytes": 67676
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/brasile-rimonta-l-australia-4-2-ancelotti-torna-alla-vittoria-v695-1200.webp",
+          "sha256": "5323003b89fce8ce620cc8ee071ac1e3cfd1f515f009858cb2faee179dfbed94",
+          "bytes": 111264
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/brasile-rimonta-l-australia-4-2-ancelotti-torna-alla-vittoria-29-09-2026.html"
+    },
     {
       "alt": "Calciatore con maglia rossa Lille in campo, somiglianza sintetica a Olivier Giroud; illustrazione editoriale IA non documentaria.",
       "prompt": "Calciatore attaccante con barba e capelli biondi corti in maglia rossa e blu LOSC Lille sul campo di calcio, volto frontale, tribune sfocate, luce naturale, fotografia sportiva editoriale senza testo e senza sponsor inventati",
