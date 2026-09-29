@@ -1,6 +1,6 @@
 # PROTOCOLLO OBBLIGATORIO — CURIOSITÀ E APPROFONDIMENTI CURIOMONDO
 
-**Versione:** 1.1  
+**Versione:** 1.1.1  
 **Data:** 29 settembre 2026  
 **Stato:** obbligatorio, fail-closed  
 **Ambito:** ogni nuova **curiosità** e ogni nuovo **approfondimento** (evergreen, guida di comprensione, pagina in `/approfondimenti/`) pubblicati su CurioMondo  
@@ -76,6 +76,18 @@ I **Google Trends Italia 24–48 h** sono un **campanello**, non l’unico crite
 - Query senza oggetto durevole (“oggi cosa succede”, “chi è uscito”)  
 - Temi senza fonte verificabile  
 - Spike senza meccanismo da spiegare
+
+
+### 1.6 Volume di ciclo (v1.1.1)
+
+| Contesto | Massimo per ciclo |
+|----------|-------------------|
+| **Trends / curiosità in tendenza** (`approfondimenti-da-trend`) | **10** guide |
+| Evergreen sotto notizie del giorno (`approfondimenti-evergreen`) | 3 guide (o quanto già previsto dalla skill, senza superare 10) |
+| Homepage rail «Curiosità e approfondimenti» | **3** card in evidenza (sempre le più recenti) |
+| Indice `/approfondimenti/` | Tutte le guide pubblicate (nessun tetto di 3) |
+
+Non pubblicare 10 pezzi deboli: il tetto è un massimo, non una quota. Ogni pezzo deve passare i 3/5 criteri e la soglia di lunghezza.
 
 ### 1.5 Deduplica
 
@@ -244,14 +256,14 @@ Mai «Fonte:» nel corpo.
 
 ## 13. WORKFLOW DI PUBBLICAZIONE (obbligatorio)
 
-1. Seleziona fino a **3 temi** con i criteri §1  
+1. Seleziona fino a **10 temi** da Trends (o fino a 10 in un ciclo misto Trends + altri criteri §1); se non c’è materia valida, meno — mai filler  
 2. Verifica fonti primarie  
 3. Scrivi la guida intera (**2.000–5.000+** parole di corpo)  
 4. Hero 3:2 + webp  
 5. File `approfondimenti/<slug>.html` (stampo vivo del sito)  
 6. Stesso commit:  
    - card in cima a `approfondimenti/index.html`  
-   - homepage rail «Curiosità e approfondimenti» (max **3** card in evidenza, le più recenti)  
+   - homepage rail «Curiosità e approfondimenti» (max **3** card in evidenza = le 3 più recenti; le altre restano in `/approfondimenti/` e in index)  
    - blocco `.cm-evergreen-reader` sotto ogni notizia padre, se esiste  
    - `search-index` / sitemap / `_redirects` / manifest secondo pipeline  
 7. Gate: `python3 tools/repository_integrity_gate.py` e `python3 tools/predeploy.py` → exit 0  
@@ -301,7 +313,7 @@ Se sembra una scheda corta o un testo generico → **NON È PRONTA**.
 ```
 Esegui il PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md v1.1 (CurioMondo).
 
-1) Seleziona fino a 3 temi (volume stabile e/o Trends IT 24-48h + gap sito) che passano almeno 3/5 criteri §1.
+1) Seleziona fino a **10 temi** da Trends IT 24-48h (e/o volume stabile + gap sito) che passano almeno 3/5 criteri §1. Massimo 10 per ciclo; meno se manca materia.
 2) Per ciascun tema: guida evergreen 2000–5000+ parole di corpo, italiano da quotidiano, H2 meccanismi + esempi IT + fonti primarie + FAQ + box In sintesi. Minimo assoluto 1800; sotto soglia o senza sostanza → non pubblicare.
 3) Hero 3:2 protocollo immagini; pubblica in approfondimenti/, aggiorna index, homepage rail (max 3 card), evergreen-reader sotto padri, search-index, sitemap, redirects.
 4) Gate predeploy exit 0; commit+push main Nicaiseaho7/curiomondo1; verifica URL live 200.
@@ -332,5 +344,7 @@ Skill collegate (devono deferire a questo file):
 
 ---
 
-**Fine protocollo v1.1 — 29 settembre 2026.**  
-**Changelog v1.1:** criteri di selezione oltre i soli trend; fasce 2.000–5.000+ parole obbligatorie per le guide; minimo 1.800; priorità tematiche; prompt corto di ciclo; workflow homepage rail max 3; prevalenza esplicita sulle skill 800–1.500.
+**Fine protocollo v1.1.1 — 29 settembre 2026.**  
+**Changelog v1.1:** criteri di selezione oltre i soli trend; fasce 2.000–5.000+ parole; minimo 1.800; priorità tematiche; prompt corto; homepage rail max 3 in evidenza; **fino a 10 guide da Trends per ciclo** (v1.1.1); prevalenza sulle skill 800–1.500.
+
+**Changelog v1.1.1 (29 settembre 2026):** massimo guide da Trends / curiosità in tendenza per ciclo portato da 3 a **10**. L’index `/approfondimenti/` e la pubblicazione accettano fino a 10 pezzi; la rail homepage resta a max 3 card visibili (le più recenti).
