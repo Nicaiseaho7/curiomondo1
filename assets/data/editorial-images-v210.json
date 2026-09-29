@@ -1,7 +1,70 @@
 {
-  "version": 691,
+  "version": 693,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Calciatore con maglia rossa Lille in campo, somiglianza sintetica a Olivier Giroud; illustrazione editoriale IA non documentaria.",
+      "prompt": "Calciatore attaccante con barba e capelli biondi corti in maglia rossa e blu LOSC Lille sul campo di calcio, volto frontale, tribune sfocate, luce naturale, fotografia sportiva editoriale senza testo e senza sponsor inventati",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/giroud-lille-verso-il-ritiro-molto-probabilmente-e-la-mia-ultima-stagione-v693-480.webp",
+          "sha256": "31bd22f1a8d3452df66b1509bddcf22970de9ff0fe89cdaf62267bc1b869895e",
+          "bytes": 20052
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/giroud-lille-verso-il-ritiro-molto-probabilmente-e-la-mia-ultima-stagione-v693-800.webp",
+          "sha256": "f44042f078a6f02f819b7f2f1e9386a76dd44fab34f0e0d822752a321270f6ca",
+          "bytes": 42182
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/giroud-lille-verso-il-ritiro-molto-probabilmente-e-la-mia-ultima-stagione-v693-1200.webp",
+          "sha256": "74112e692f90ee773b0935bf8e4aceb7248e356ed732b59835035f3223629c1c",
+          "bytes": 75634
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/giroud-lille-verso-il-ritiro-molto-probabilmente-e-la-mia-ultima-stagione-29-09-2026.html"
+    },
+    {
+      "alt": "Fabbricato industriale abbandonato con nastro e coni in primo piano; illustrazione editoriale IA non documentaria.",
+      "prompt": "Fabbricato industriale abbandonato a più piani con finestre rotte in periferia romana, nastro bianco-rosso e coni arancioni in primo piano, cortile erboso, luce del mattino, nessuno, fotografia documentaria editoriale senza testo logo o targhe",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/tor-sapienza-sgomberato-il-fabbricato-di-via-tallone-due-arresti-e-droga-sequestrata-v692-480.webp",
+          "sha256": "2327a352010090c074b8f853acc910992c075c9b166f6c66d9bf979333bf23fa",
+          "bytes": 44724
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/tor-sapienza-sgomberato-il-fabbricato-di-via-tallone-due-arresti-e-droga-sequestrata-v692-800.webp",
+          "sha256": "b69a217e2e4c23b9b20e2b9b990e3299647e27f26dc729d424159ed644266138",
+          "bytes": 122050
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/tor-sapienza-sgomberato-il-fabbricato-di-via-tallone-due-arresti-e-droga-sequestrata-v692-1200.webp",
+          "sha256": "e8ec0a6757917bb33514ad42ead8042ce89fa23af26d7c0b209d90864bb287ea",
+          "bytes": 244670
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/tor-sapienza-sgomberato-il-fabbricato-di-via-tallone-due-arresti-e-droga-sequestrata-29-09-2026.html"
+    },
     {
       "alt": "Portale di galleria ferroviaria in cantiere tra colline del Sud Italia, gru e reti arancioni; illustrazione editoriale IA non documentaria.",
       "prompt": "Portale di galleria ferroviaria alta velocità in cantiere tra colline campane, gru gialla, reti arancioni",
