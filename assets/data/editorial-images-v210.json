@@ -1,7 +1,69 @@
 {
-  "version": 705,
+  "version": 709,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Illustrazione di un ufficio stampa a Stoccolma con un premio simbolico e fascicoli colorati.",
+      "prompt": "Illustrazione editoriale fotorealistica dell'annuncio del Right Livelihood Award a Stoccolma, ufficio stampa con addetta generica e oggetto simbolico, senza fingere di raffigurare i vincitori o la cerimonia futura, orizzontale e non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/right-livelihood-award-2026-gebru-haider-organizzazioni-30-settembre-2026-v709-480.webp",
+          "sha256": "4322c3f3ff373fa25d2603ad3171b421ba91688286a55961ca566fda5665e7f0",
+          "bytes": 33592
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/right-livelihood-award-2026-gebru-haider-organizzazioni-30-settembre-2026-v709-800.webp",
+          "sha256": "c212a606927ca15711dd08ec487da718ae3a125fb19069214f67b62c1fe36a25",
+          "bytes": 66226
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/right-livelihood-award-2026-gebru-haider-organizzazioni-30-settembre-2026-v709-1200.webp",
+          "sha256": "8fb901338e492b55c323883dc2aca5e36338bc5182fb8b42c5d0e587f72ef114",
+          "bytes": 109278
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/right-livelihood-award-2026-gebru-haider-organizzazioni-30-settembre-2026.html"
+    },
+    {
+      "alt": "Illustrazione di un addetto davanti alle pompe di un distributore Q8 al mattino.",
+      "prompt": "Illustrazione editoriale fotorealistica dedicata alla notizia sul tetto Q8 in Italia, distributore blu e giallo, addetto di fronte alle pompe, senza prezzi generati né targhe leggibili, composizione orizzontale e non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/q8-tetto-prezzi-carburanti-dal-1-ottobre-30-settembre-2026-v708-480.webp",
+          "sha256": "884a12fdfc2aef113ae76c45e5683361b9a56fc7261bb3ab8cf427a96060930e",
+          "bytes": 44478
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/q8-tetto-prezzi-carburanti-dal-1-ottobre-30-settembre-2026-v708-800.webp",
+          "sha256": "52fc139ff42fe81b3f7855744016bf2f8e35544d55f189a95668e709f70e6575",
+          "bytes": 100182
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/q8-tetto-prezzi-carburanti-dal-1-ottobre-30-settembre-2026-v708-1200.webp",
+          "sha256": "7f1cead2dc1f14d4656b3b3ef5fb1fd55f28e1b994167d40dfa67f16117cf712",
+          "bytes": 177530
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/q8-tetto-prezzi-carburanti-dal-1-ottobre-30-settembre-2026.html"
+    },
     {
       "alt": "Donald Trump parla ai giornalisti all’esterno della Casa Bianca, circondato da microfoni e telecamere.",
       "prompt": "Illustrazione editoriale fotorealistica di Donald Trump alla Casa Bianca durante un briefing stampa.",
