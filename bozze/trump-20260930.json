@@ -1,0 +1,64 @@
+{
+  "titolo": "Trump firma l’ordine esecutivo: l’era della «Super Intelligence»",
+  "sommario": "La Casa Bianca impone agli enti federali di usare «Super Intelligence» e «SI» al posto di «Artificial Intelligence» e «AI» nei documenti non legislativi.",
+  "luogo": "Washington",
+  "categoria": "Tecnologia",
+  "formato": "standard",
+  "parole_chiave_titolo": [
+    "ordine esecutivo",
+    "Super Intelligence"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "29 settembre",
+      "etichetta": "firma dell’ordine esecutivo"
+    },
+    {
+      "icona": "▲",
+      "valore": "SI",
+      "etichetta": "nuovo acronimo federale"
+    },
+    {
+      "icona": "●",
+      "valore": "agenzie USA",
+      "etichetta": "obbligo di terminologia"
+    }
+  ],
+  "paragrafi": [
+    "Il presidente Donald Trump ha firmato il 29 settembre 2026 un ordine esecutivo intitolato «Inaugurating the Era of Super Intelligence». Impone al ramo esecutivo di usare «Super Intelligence» e «SI» al posto di «Artificial Intelligence» e «AI».",
+    "Il testo pubblicato dalla Casa Bianca dice che le capacità in rapida evoluzione non sono più solo intelligenza artificiale e che il linguaggio federale deve riflettere «il potenziale e le opportunità» di queste tecnologie.",
+    "Nei limiti di legge, dipartimenti e agenzie dovranno usare i nuovi termini in corrispondenza ufficiale, comunicazioni pubbliche, siti, report e documenti di policy non legislativi. Non devono «riconoscere» l’uso di AI e Artificial Intelligence in quei contesti.",
+    "L’ordine non riscrive le norme di legge già approvate dal Congresso. Chiede all’assistente del presidente per la scienza e la tecnologia di proporre una definizione federale di Super Intelligence e eventuali ulteriori azioni esecutive.",
+    "Politico e The Verge hanno rilevato che il rebranding arriva dopo un pranzo alla Casa Bianca con manager tech e dopo un «accord» volontario sulla sicurezza definito da Trump «moralmente vincolante».",
+    "Tra i presenti al confronto con l’amministrazione figuravano, secondo le ricostruzioni di stampa, Elon Musk, Mark Zuckerberg, Jensen Huang, Dario Amodei, Sundar Pichai e altri vertici del settore.",
+    "La Casa Bianca ha anche pubblicato un fact sheet che collega l’ordine a piani già annunciati su infrastrutture e produttività. I costi di pubblicazione dell’ordine sono a carico dell’Office of Science and Technology Policy.",
+    "Il provvedimento è di natura terminologica e di policy interna: non introduce da solo nuovi obblighi di sicurezza tecnica, ma cambia come il governo federale statunitense nomina la tecnologia nei documenti esecutivi.",
+    "Il termine «superintelligence» esiste già nel gergo tecnico per modelli molto avanzati, ma l’ordine lo estende a etichetta generale al posto di AI. Superintelligent AI, scrivono gli analisti, non è ancora un fatto consolidato.",
+    "ANSA ha ripreso il lancio collegandolo all’agenda tecnologica di Trump. In Italia e in Europa il dibattito resta centrato su regole, non sul nome: l’ordine non vincola imprese o governi fuori dagli Stati Uniti."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/",
+      "descrizione": "Casa Bianca — testo integrale dell’ordine esecutivo del 29 settembre 2026."
+    },
+    {
+      "url": "https://www.politico.com/news/2026/09/29/trump-signs-executive-order-renaming-ai-to-super-intelligence-01098494",
+      "descrizione": "Politico — sintesi e contesto del rebranding AI → Super Intelligence."
+    },
+    {
+      "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
+      "descrizione": "The Verge — obblighi sulle agenzie e dichiarazione di Trump sul termine «super»."
+    },
+    {
+      "url": "https://www.presidency.ucsb.edu/documents/white-house-fact-sheet-president-donald-j-trump-inaugurates-the-era-super-intelligence",
+      "descrizione": "American Presidency Project — fact sheet ufficiale della Casa Bianca."
+    }
+  ],
+  "immagine": {
+    "alt": "Donald Trump parla ai giornalisti all’esterno della Casa Bianca, circondato da microfoni e telecamere.",
+    "prompt": "Illustrazione editoriale fotorealistica di Donald Trump alla Casa Bianca durante un briefing stampa.",
+    "personaggio_pubblico": true,
+    "contesto_sensibile": false
+  }
+}

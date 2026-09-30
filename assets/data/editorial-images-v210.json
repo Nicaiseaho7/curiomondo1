@@ -1,7 +1,39 @@
 {
-  "version": 704,
+  "version": 705,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Donald Trump parla ai giornalisti all’esterno della Casa Bianca, circondato da microfoni e telecamere.",
+      "prompt": "Illustrazione editoriale fotorealistica di Donald Trump alla Casa Bianca durante un briefing stampa.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/trump-firma-l-ordine-esecutivo-l-era-della-super-intelligence-v705-480.webp",
+          "sha256": "fdab261160d109ce59f43ee1e5c029a5480f726e04e6c3d58ee9505dc3266db5",
+          "bytes": 56232
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/trump-firma-l-ordine-esecutivo-l-era-della-super-intelligence-v705-800.webp",
+          "sha256": "5e1b6e06c19d66c3b3776d840d821f811fac940da33b565cb30e0e2d909297b8",
+          "bytes": 134876
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/trump-firma-l-ordine-esecutivo-l-era-della-super-intelligence-v705-1200.webp",
+          "sha256": "10fb8fe0f811db35c28af166ef67702b04b93048936c5b94bf5c200550271d6a",
+          "bytes": 246816
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/trump-firma-l-ordine-esecutivo-l-era-della-super-intelligence-30-09-2026.html"
+    },
     {
       "key": "meteo-italia-30-settembre-6-ottobre-2026-v704",
       "alt": "Mappa meteo editoriale dell’Italia per mercoledì 30 settembre 2026, con sole sulle regioni, temperature sulle città principali e nubi leggere al Nord-Ovest.",
