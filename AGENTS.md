@@ -126,7 +126,7 @@ Ogni pagina in `/notizie/`, presente e futura, porta sotto **CurioMondo** un nom
 - Una riga compatta nell’header, come la prova approvata: nome in maiuscolo, punto mediano, messaggio. Non è pubblicità e non cambia il logo.
 - Il messaggio è dedicato a quel nome: breve, umano, positivo. Non cita la notizia, CurioMondo, la politica o un marchio.
 - Nome e frase si fissano alla prima pubblicazione e non cambiano negli aggiornamenti. Non si riusa la stessa frase.
-- I nomi sono tutti quelli del catalogo `assets/data/nomi-italiani.json`. La notizia nuova prende il primo nome non ancora usato. Si ricomincia solo a elenco esaurito, mai prima di 40 notizie.
+- I nomi sono i **3.000 più usati in Italia**, in `assets/data/nomi-italiani.json`, dal più diffuso. La notizia nuova prende il primo nome non ancora usato. Si ricomincia solo a elenco esaurito, mai prima di 40 notizie.
 - Non va in homepage, biblioteca, curiosità o pagine istituzionali.
 - Senza questo blocco la notizia non è pubblicabile.
 

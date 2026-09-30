@@ -1,6 +1,6 @@
 """Assegna il pensiero con il nome sulle notizie.
 
-Il catalogo è l'elenco onomastico italiano in assets/data/nomi-italiani.json.
+Il catalogo è i 3.000 nomi propri più usati in Italia, in assets/data/nomi-italiani.json.
 Ogni notizia nuova prende il primo nome non ancora usato. Si ricomincia solo
 quando l'elenco è esaurito, mai prima di 40 notizie.
 """

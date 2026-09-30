@@ -68,8 +68,8 @@ Regole di assegnazione:
 
 - Un nome e un messaggio per pagina, fissati alla prima pubblicazione.
 - Un aggiornamento dello stesso articolo non cambia nome né frase.
-- Il catalogo è `assets/data/nomi-italiani.json`: tutti i nomi propri italiani dell’elenco onomastico, maschili e femminili, oltre diecimila. Non si usa un sottoinsieme di nomi frequenti.
-- Ogni notizia nuova prende il primo nome del catalogo non ancora presente in `/notizie/`. Si ripete un nome solo dopo che l’elenco è stato percorso per intero, e comunque non prima di 40 notizie.
+- Il catalogo è `assets/data/nomi-italiani.json`: i **3.000 nomi propri più usati in Italia**, in ordine di diffusione. I primi mille seguono la classifica della popolazione (Maria, Giuseppe, Anna e così via). Non si usano nomi rari fuori da questa lista.
+- Ogni notizia nuova prende il primo nome del catalogo non ancora presente in `/notizie/`. Si ripete un nome solo dopo che i 3.000 sono stati usati tutti, e comunque non prima di 40 notizie.
 - La stessa frase non si riusa. Si varia il testo, non solo il nome.
 - Solo il nome proprio, mai il cognome.
 - Se la pagina ha già un pensiero, non lo si sostituisce. L’eccezione già applicata il 30 settembre 2026 è l’estensione a tutto il catalogo: Valentina resta sull’articolo delle suppletive di Reggio.
