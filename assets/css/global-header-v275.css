@@ -162,3 +162,15 @@ html.cm-dark .cm-insight :where(h2,p,span,strong,small,b){
 @media(prefers-reduced-motion:reduce){
   .cm-global-header__back,.cm-global-header__theme{transition:none}
 }
+
+.cm-global-header:has(.cm-name-note) .cm-global-header__inner{min-height:52px}
+.cm-name-note{margin:-8px auto 0;padding:0 16px 6px;max-width:920px;text-align:center}
+.cm-name-note__name{display:inline;margin:0;font-family:Georgia,"Iowan Old Style",Palatino,serif;font-weight:700;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:#245fd6}
+.cm-name-note__name::after{content:" · ";letter-spacing:0;font-weight:500;color:#8aa0b8}
+.cm-name-note__text{display:inline;font:450 .7rem/1.25 system-ui,-apple-system,"Segoe UI",sans-serif;color:#3e5670}
+html.cm-dark .cm-global-header .cm-name-note__name,
+html.dark .cm-global-header .cm-name-note__name{color:#8eb6ff}
+html.cm-dark .cm-global-header .cm-name-note__text,
+html.dark .cm-global-header .cm-name-note__text{color:#d5e2f2}
+html.cm-dark .cm-global-header .cm-name-note__name::after,
+html.dark .cm-global-header .cm-name-note__name::after{color:#8ea4c4}
