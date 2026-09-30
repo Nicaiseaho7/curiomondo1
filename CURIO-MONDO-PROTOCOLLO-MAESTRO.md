@@ -55,6 +55,35 @@ Un eBook della Domanda del giorno non è più un mini-libro da 15.000–30.000 c
 ### Marchio uguale su tutti gli articoli (fail-closed)
 In **ogni** pagina articolo il nome del sito deve essere **identico**: testo `CurioMondo` (Curio + Mondo nello span canonico), `aria-label="CurioMondo, home"`, CSS `global-header-v275.css?v=633`, pulsante tema presente. Vietate varianti di spelling o markup semplificati che alterano il marchio.
 
+### Pensiero con il nome — obbligatorio su ogni pagina notizia (30 settembre 2026)
+Ogni pagina in `/notizie/` porta, sotto il nome CurioMondo e dentro l’header, un nome italiano e una frase breve. Vale per gli articoli già pubblicati e per ogni notizia nuova. Non va in homepage, biblioteca, curiosità, meteo di servizio o pagine istituzionali.
+
+Il blocco è una sola riga compatta, come nella prova approvata sull’articolo delle suppletive di Reggio. Il nome è in maiuscolo, leggermente più evidente della frase, seguito da un punto mediano e dal messaggio. Non è un titolo, non è una pubblicità, non cambia il logo e non allunga l’header.
+
+Esempio visivo, non da ricopiare su tutte le pagine: **VALENTINA** · Continua a credere in ciò che stai costruendo. Anche i piccoli passi possono portarti molto lontano.
+
+Il messaggio è dedicato a chi porta quel nome. Tono umano, breve, positivo. Può parlare di incoraggiamento, forza, amore, determinazione, speranza, fiducia in sé, sogni, futuro, perseveranza, momenti difficili, felicità o crescita. Una o due frasi corte. Niente slogan, niente hashtag, niente riferimenti alla notizia, a CurioMondo, alla politica o a marchi.
+
+Regole di assegnazione:
+
+- Un nome e un messaggio per pagina, fissati alla prima pubblicazione.
+- Un aggiornamento dello stesso articolo non cambia nome né frase.
+- Pagine vicine non ripetono lo stesso nome. Lo stesso nome non torna prima di almeno 40 notizie.
+- La stessa frase non si riusa. Si varia il testo, non solo il nome.
+- Nomi italiani di uso comune, solo il nome proprio, mai cognome: Valentina, Alessio, Alessandro, Matteo, Giulia, Sofia, Andrea, Luca, Martina, Francesca, Marco, Aurora, Lorenzo, Chiara, Simone, Elisa, Federico, Alice, Davide, Beatrice e altri dello stesso tipo.
+- Se la pagina esiste già e ha già un pensiero, non lo si sostituisce.
+
+Senza questo blocco la notizia non è pubblicabile.
+
+Markup canonico, dentro `.cm-global-header`, subito dopo `</nav>`:
+
+```html
+<p class="cm-name-note"><strong class="cm-name-note__name">Valentina</strong><span class="cm-name-note__text">Continua a credere in ciò che stai costruendo. Anche i piccoli passi possono portarti molto lontano.</span></p>
+```
+
+Lo stile resta quello della prova approvata: riga unica, nome in maiuscolo con lettera un po’ più evidente, frase subito dopo, header basso, leggibile su telefono e desktop e in modalità scura. Non ridisegnarlo.
+
+
 
 ## 0.1 REVISIONE EDITORIALE v471 — PUBBLICARE DI PIÙ, SENZA RIDURRE L'AFFIDABILITÀ
 

@@ -120,6 +120,15 @@ Markup **canonico obbligatorio** (non semplificare):
 - Violazione = articolo non pubblicabile
 
 
+## Pensiero con il nome — obbligatorio su ogni notizia (30 settembre 2026)
+Ogni pagina in `/notizie/`, presente e futura, porta sotto **CurioMondo** un nome italiano e una frase breve. Dettaglio, divieti e markup in `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`, sezione «Pensiero con il nome».
+
+- Una riga compatta nell’header, come la prova approvata: nome in maiuscolo, punto mediano, messaggio. Non è pubblicità e non cambia il logo.
+- Il messaggio è dedicato a quel nome: breve, umano, positivo. Non cita la notizia, CurioMondo, la politica o un marchio.
+- Nome e frase si fissano alla prima pubblicazione e non cambiano negli aggiornamenti. Non si riusa la stessa frase. Lo stesso nome non torna prima di 40 notizie.
+- Non va in homepage, biblioteca, curiosità o pagine istituzionali.
+- Senza questo blocco la notizia non è pubblicabile.
+
 ## Divieto sottotitoli H2/H3 nelle notizie — 27 settembre 2026
 Nelle pagine **notizie** (flash e standard) **non** usare H2/H3 nel corpo `.art-body`: solo paragrafi continui. H2/H3 ammessi solo negli **approfondimenti**. Vedi `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` e `PROTOCOLLO-REDAZIONE-CORPO.md`.
 
