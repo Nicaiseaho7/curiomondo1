@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 711,
-    "site_version": 711
+    "current_site_version": 716,
+    "site_version": 716
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -272,19 +272,27 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 715,
-  "version": "v715",
-  "release_version": "v715",
+  "site_version": 716,
+  "version": "v716",
+  "release_version": "v716",
   "last_release": {
-    "version": 715,
+    "version": 716,
     "date": "2026-09-30",
-    "type": "daily-editorial-package",
-    "news_added": [],
-    "news_updated": [],
-    "daily_question_added": "se-il-successo-non-fosse-visibile-a-nessuno-quale-obiettivo-continueresti-a-inseguire",
-    "ebook_linked": "una-vita-piena-si-misura-dalle-esperienze-vissute-o-dallattenzione-con-cui-le-abbiamo-attraversate",
-    "ebook_created": false,
-    "guides_added": [],
-    "change": "Domanda scelta esplicitamente dal proprietario; risposta originale ed eBook esistente pertinente collegato. Nessuna notizia modificata."
+    "type": "requested-news-batch",
+    "news_added": [
+      "istat-inflazione-settembre-2026-42-percento",
+      "kering-de-meo-produzione-italiana-no-delocalizzazione-30-09-2026",
+      "ucraina-attacco-russo-rete-energetica-30-settembre-2026",
+      "elio-la-crepa-primo-film-regia-riprese-novembre-2026",
+      "roma-barcellona-hacken-juventus-womens-champions-30-settembre-2026",
+      "euro-2032-dossier-stadi-italiani-scelta-cinque-sedi-2026",
+      "mbda-polo-campano-pomigliano-fusaro-30-settembre-2026",
+      "astrazeneca-italia-662-milioni-71-studi-clinici-2026",
+      "pinguini-gentoo-quattro-specie-classificazione-studio-2026"
+    ],
+    "news_updated": [
+      "nasa-spacex-crew-13-lancio-1-ottobre-2026"
+    ],
+    "change": "Nove notizie verificate e aggiornamento Crew-13, dieci copertine dedicate, sincronizzazione di tutte le superfici editoriali."
   }
 }

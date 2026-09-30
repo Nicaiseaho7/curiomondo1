@@ -6,6 +6,8 @@ import json
 import sys
 import time
 import urllib.request
+from datetime import datetime, timedelta, timezone
+from xml.etree import ElementTree
 from urllib.parse import urlparse
 from lxml import html
 
@@ -38,6 +40,20 @@ def main():
     if args.title not in article: errors.append("titolo assente dalla pagina articolo")
     if 'content="noindex' in article.casefold(): errors.append("articolo marcato noindex")
     if 'data-editorial-status="revision-required"' in article: errors.append("articolo in revisione")
+    # La News Sitemap contiene solo le prime pubblicazioni delle ultime 48 ore.
+    # Un aggiornamento non rinnova datePublished e resta nella sitemap generale.
+    article_doc=html.fromstring(article)
+    published=None
+    for raw in article_doc.xpath('//script[@type="application/ld+json"]/text()'):
+        try:
+            data=json.loads(raw)
+            for item in data if isinstance(data,list) else [data]:
+                if isinstance(item,dict) and item.get('@type')=='NewsArticle':
+                    published=datetime.fromisoformat(item['datePublished'].replace('Z','+00:00'))
+        except (ValueError,KeyError,TypeError):
+            continue
+    if not evergreen and (published is None or published.tzinfo is None):
+        errors.append("data di prima pubblicazione assente o non valida")
     surfaces=("/","/approfondimenti/","/sitemap.xml","/assets/data/search-index-v210.json") if evergreen else ("/","/notizie/","/feed.xml","/sitemap.xml","/news-sitemap.xml")
     for surface in surfaces:
         try:
@@ -47,7 +63,15 @@ def main():
             continue
         # Netlify Pretty URLs può rimuovere ".html" dagli href nella risposta
         # pubblica, quindi la superficie si valida sullo slug canonico.
-        if code!=200 or args.slug not in body:
+        if surface=="/news-sitemap.xml":
+            try:
+                ElementTree.fromstring(body)
+            except ElementTree.ParseError:
+                errors.append("News Sitemap XML non valida")
+            recent=published is not None and published.tzinfo is not None and published>=datetime.now(timezone.utc)-timedelta(days=2)
+            if code!=200 or (recent and args.slug not in body):
+                errors.append("notizia recente assente dalla News Sitemap o superficie non disponibile")
+        elif code!=200 or args.slug not in body:
             errors.append(f"articolo assente da {surface}")
         if surface.endswith(".json"):
             try:

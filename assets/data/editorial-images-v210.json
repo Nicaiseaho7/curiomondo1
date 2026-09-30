@@ -1,7 +1,300 @@
 {
-  "version": 711,
+  "version": 716,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Illustrazione editoriale IA di pinguini gentoo sulla costa subantartica; non fotografia degli individui esaminati nello studio.",
+      "prompt": "Illustrazione editoriale originale dedicata alla notizia, generata con ChatGPT e verificata visivamente secondo il protocollo CurioMondo.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/pinguini-gentoo-quattro-specie-classificazione-studio-2026-v716-480.webp",
+          "sha256": "79fdbdb83aefcfcb0965883dc6d658ea28ad0634c8aab50c6429227755ea6c02",
+          "bytes": 46208
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/pinguini-gentoo-quattro-specie-classificazione-studio-2026-v716-800.webp",
+          "sha256": "22d3a76cbc3c40a98f7e05e9052c2bd408d3c9f7ec1c6a830fc8593bb541b1e1",
+          "bytes": 100228
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/pinguini-gentoo-quattro-specie-classificazione-studio-2026-v716-1200.webp",
+          "sha256": "d7a10179070abf8f3d3d2dfd45adc4bc5798e7190860a8cd90c48c7d08f426ec",
+          "bytes": 179948
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT/OpenAI imagegen",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "article": "/notizie/pinguini-gentoo-quattro-specie-classificazione-studio-2026.html"
+    },
+    {
+      "alt": "Scena editoriale IA di documentazione e attività di ricerca clinica legata al piano AstraZeneca; non fotografia di uno studio reale.",
+      "prompt": "Illustrazione editoriale originale dedicata alla notizia, generata con ChatGPT e verificata visivamente secondo il protocollo CurioMondo.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/astrazeneca-italia-662-milioni-71-studi-clinici-2026-v716-480.webp",
+          "sha256": "4f9b7abc688430749c7d0bb9b1d63101ecf0597428e265df45e3ee63e84460da",
+          "bytes": 29184
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/astrazeneca-italia-662-milioni-71-studi-clinici-2026-v716-800.webp",
+          "sha256": "cc452ac8503baeea61972e2428c08be37e44c174e70039f56041ce5539531249",
+          "bytes": 58206
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/astrazeneca-italia-662-milioni-71-studi-clinici-2026-v716-1200.webp",
+          "sha256": "1ad41d39662a2fc20c2537072d439ed17e8a2cc2c661562faca4957d41a36553",
+          "bytes": 93926
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT/OpenAI imagegen",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "article": "/notizie/astrazeneca-italia-662-milioni-71-studi-clinici-2026.html"
+    },
+    {
+      "alt": "Scena editoriale IA di misurazione di un componente ceramico per la produzione MBDA; non fotografia del nuovo stabilimento.",
+      "prompt": "Illustrazione editoriale originale dedicata alla notizia, generata con ChatGPT e verificata visivamente secondo il protocollo CurioMondo.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/mbda-polo-campano-pomigliano-fusaro-30-settembre-2026-v716-480.webp",
+          "sha256": "89ea2700c46b3661fb1b8f89bf16ffad38987339bc0b13ef10881da73400a1a6",
+          "bytes": 27468
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/mbda-polo-campano-pomigliano-fusaro-30-settembre-2026-v716-800.webp",
+          "sha256": "c559eed8132e50316f75ff058c6e9a8ab79005f3ffc1a04b739c94d312e88986",
+          "bytes": 58012
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/mbda-polo-campano-pomigliano-fusaro-30-settembre-2026-v716-1200.webp",
+          "sha256": "089390e28c52df69fe20c902ae17062a08263a376fe8f4faff2c62ffffd6ab89",
+          "bytes": 103442
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT/OpenAI imagegen",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "article": "/notizie/mbda-polo-campano-pomigliano-fusaro-30-settembre-2026.html"
+    },
+    {
+      "alt": "Scena editoriale IA delle infrastrutture dello Stadio Olimpico; non indica una selezione definitiva per Euro 2032.",
+      "prompt": "Illustrazione editoriale originale dedicata alla notizia, generata con ChatGPT e verificata visivamente secondo il protocollo CurioMondo.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/euro-2032-dossier-stadi-italiani-scelta-cinque-sedi-2026-v716-480.webp",
+          "sha256": "5098783760a9b99f92a63f314f8057c333f6859275a882e319340e3d0c59fe95",
+          "bytes": 34514
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/euro-2032-dossier-stadi-italiani-scelta-cinque-sedi-2026-v716-800.webp",
+          "sha256": "48a05ba188f4f799695540ebffa857af579505917db505dc9c69935c76ebdcc9",
+          "bytes": 89656
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/euro-2032-dossier-stadi-italiani-scelta-cinque-sedi-2026-v716-1200.webp",
+          "sha256": "94a3667984223666e998842d59966fcd9e41676b556aa466b8507da71814b903",
+          "bytes": 186920
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT/OpenAI imagegen",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "article": "/notizie/euro-2032-dossier-stadi-italiani-scelta-cinque-sedi-2026.html"
+    },
+    {
+      "alt": "Somiglianze sintetiche editoriali di Valentina Bergamaschi e Julia Bartel; composizione illustrativa delle due squadre, non fotografia di un incontro tra loro.",
+      "prompt": "Illustrazione editoriale originale dedicata alla notizia, generata con ChatGPT e verificata visivamente secondo il protocollo CurioMondo.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/roma-barcellona-hacken-juventus-womens-champions-30-settembre-2026-v716-480.webp",
+          "sha256": "fb1ef4cbc2894c74e97292d9b357937f5fd4a42a32979afebb3f39af9d43b867",
+          "bytes": 29292
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/roma-barcellona-hacken-juventus-womens-champions-30-settembre-2026-v716-800.webp",
+          "sha256": "31c572392e9fc8902ccfc24f6db1705e51cc6c5bb699e8128100cda7c82884e3",
+          "bytes": 64930
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/roma-barcellona-hacken-juventus-womens-champions-30-settembre-2026-v716-1200.webp",
+          "sha256": "cbf81ba54ce82ea11c14747c11f475efdac6a57bc887ac489598e99c0a96b637",
+          "bytes": 121888
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT/OpenAI imagegen",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/roma-barcellona-hacken-juventus-womens-champions-30-settembre-2026.html"
+    },
+    {
+      "alt": "Somiglianza sintetica editoriale di Elio accanto a una macchina da presa; non è un fotogramma di La Crepa né una fotografia del set.",
+      "prompt": "Illustrazione editoriale originale dedicata alla notizia, generata con ChatGPT e verificata visivamente secondo il protocollo CurioMondo.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/elio-la-crepa-primo-film-regia-riprese-novembre-2026-v716-480.webp",
+          "sha256": "074ce812bf5ce3ac7f5f18834ec27e72b9566a791e9e952fec6bb84344258a7b",
+          "bytes": 24024
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/elio-la-crepa-primo-film-regia-riprese-novembre-2026-v716-800.webp",
+          "sha256": "52c6e17b6096a213f6009d8a68f9b57a4dffa68ed8aadd7a17c5fa1a6669329f",
+          "bytes": 50250
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/elio-la-crepa-primo-film-regia-riprese-novembre-2026-v716-1200.webp",
+          "sha256": "57844c9f908ba304715e61339a406ec9220c2cead3cf07b58d7e5026d41ca293",
+          "bytes": 86458
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT/OpenAI imagegen",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/elio-la-crepa-primo-film-regia-riprese-novembre-2026.html"
+    },
+    {
+      "alt": "Scena editoriale IA del paesaggio urbano di Kiev e infrastrutture elettriche; non ricostruisce i raid né i loro danni.",
+      "prompt": "Illustrazione editoriale originale dedicata alla notizia, generata con ChatGPT e verificata visivamente secondo il protocollo CurioMondo.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ucraina-attacco-russo-rete-energetica-30-settembre-2026-v716-480.webp",
+          "sha256": "008f786ba5d688cc5de09bcf16d995e0f5e3f3e059536d0a3b561373e762ae9b",
+          "bytes": 42522
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ucraina-attacco-russo-rete-energetica-30-settembre-2026-v716-800.webp",
+          "sha256": "a097d5a83eeaaf3add41ce1cffd9f2e47df966d3c44b84fcfac85aa6a142adc4",
+          "bytes": 109980
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ucraina-attacco-russo-rete-energetica-30-settembre-2026-v716-1200.webp",
+          "sha256": "b87e25de693c9f5e044bcfac814df52c3151ede9b1f0821bbe5750c7e917dd88",
+          "bytes": 204844
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT/OpenAI imagegen",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "article": "/notizie/ucraina-attacco-russo-rete-energetica-30-settembre-2026.html"
+    },
+    {
+      "alt": "Illustrazione editoriale IA di Crew Dragon in avvicinamento alla ISS; rappresentazione del profilo previsto, non dell’aggancio avvenuto.",
+      "prompt": "Illustrazione editoriale originale dedicata alla notizia, generata con ChatGPT e verificata visivamente secondo il protocollo CurioMondo.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/nasa-spacex-crew-13-lancio-1-ottobre-2026-v716-480.webp",
+          "sha256": "952d8d85bf0ca26ac9b12fa4667111cc95d866e5034451ce6defa76b6e9bf42c",
+          "bytes": 42408
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/nasa-spacex-crew-13-lancio-1-ottobre-2026-v716-800.webp",
+          "sha256": "587bda31c6d41baeaed0fecebbc8314a8adb8e2931b4165674b001e1727feecc",
+          "bytes": 103740
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/nasa-spacex-crew-13-lancio-1-ottobre-2026-v716-1200.webp",
+          "sha256": "02eae550221e035cf436c1c6b9b1aa5be3a2fb51f9e970a1d542edbb40fe89b2",
+          "bytes": 187018
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT/OpenAI imagegen",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "article": "/notizie/nasa-spacex-crew-13-lancio-1-ottobre-2026.html"
+    },
+    {
+      "alt": "Somiglianza sintetica editoriale di Luca de Meo in un contesto di lavorazione della pelle a Milano; scena non documentaria.",
+      "prompt": "Illustrazione editoriale originale dedicata alla notizia, generata con ChatGPT e verificata visivamente secondo il protocollo CurioMondo.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/kering-de-meo-produzione-italiana-no-delocalizzazione-30-09-2026-v716-480.webp",
+          "sha256": "240b293b07589c8f6a01072ddc4f4b5a12bf1d943434e546cd2ef6e27fef49a4",
+          "bytes": 32538
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/kering-de-meo-produzione-italiana-no-delocalizzazione-30-09-2026-v716-800.webp",
+          "sha256": "ec5f542254c639dfc119d21e91b3ad92bb0835c403ba38612e25a849e5323823",
+          "bytes": 60822
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/kering-de-meo-produzione-italiana-no-delocalizzazione-30-09-2026-v716-1200.webp",
+          "sha256": "91d4d60e7f05383059f062340d2d137dbf035685ca27b08e7827a5d32faf21bd",
+          "bytes": 102064
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT/OpenAI imagegen",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/kering-de-meo-produzione-italiana-no-delocalizzazione-30-09-2026.html"
+    },
+    {
+      "alt": "Scena editoriale IA di una consumatrice davanti ai prodotti freschi di un supermercato italiano; non documentaria.",
+      "prompt": "Illustrazione editoriale originale dedicata alla notizia, generata con ChatGPT e verificata visivamente secondo il protocollo CurioMondo.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/istat-inflazione-settembre-2026-42-percento-v716-480.webp",
+          "sha256": "82a6a2bfc0ddd9584f801c5f281af5c567992fe12d5848b3a5b05f3ee6915e85",
+          "bytes": 55814
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/istat-inflazione-settembre-2026-42-percento-v716-800.webp",
+          "sha256": "d1e57e108db65e0e5bb58ee1095f725459a7b183af5c6bf373e6621f0e57f6f2",
+          "bytes": 114720
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/istat-inflazione-settembre-2026-42-percento-v716-1200.webp",
+          "sha256": "6cd145360ee7596e36046267f27ad223cae1b93ff542542cfbafc5711acd4cc7",
+          "bytes": 188822
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT/OpenAI imagegen",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "article": "/notizie/istat-inflazione-settembre-2026-42-percento.html"
+    },
     {
       "id": "strage-brandizzo-udienza-preliminare-24-imputati-30-09-2026-v710",
       "alt": "Illustrazione editoriale della stazione di Brandizzo con cartello blu e treno Trenitalia; scena di contesto non documentaria generata con IA.",
@@ -6433,34 +6726,6 @@
       "key": "pio-sebastiano-esposito-insieme-nazionale-fratelli-italia-v522",
       "syntheticLikeness": "public-figure",
       "article": "/notizie/pio-sebastiano-esposito-insieme-nazionale-fratelli-italia-23-09-2026.html"
-    },
-    {
-      "alt": "Illustrazione editoriale IA di Falcon 9 e Crew Dragon sulla rampa a Cape Canaveral durante i preparativi di Crew-13; scena non documentaria.",
-      "variants": [
-        {
-          "w": 480,
-          "src": "/assets/images/editorial-auto/nasa-spacex-crew-13-lancio-1-ottobre-2026-v522-480.webp",
-          "sha256": "b99b45ef0d6a985b6720ce76d31927877eea13d83fb71a48c660023edad5fc44",
-          "bytes": 32524
-        },
-        {
-          "w": 800,
-          "src": "/assets/images/editorial-auto/nasa-spacex-crew-13-lancio-1-ottobre-2026-v522-800.webp",
-          "sha256": "ccaaf147a7b6c2a955b95f85eab2093b51812b753aae7d9e122acb3d854bdc52",
-          "bytes": 74044
-        },
-        {
-          "w": 1200,
-          "src": "/assets/images/editorial-auto/nasa-spacex-crew-13-lancio-1-ottobre-2026-v522-1200.webp",
-          "sha256": "d81c684e1b2910bee50bf479a6e0964f455e8a6092782a08a571995d5c46656e",
-          "bytes": 135156
-        }
-      ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "OpenAI image tool",
-      "sensitiveContext": false,
-      "key": "nasa-spacex-crew-13-lancio-1-ottobre-2026-v522",
-      "article": "/notizie/nasa-spacex-crew-13-lancio-1-ottobre-2026.html"
     },
     {
       "alt": "Illustrazione editoriale IA di Incendiamoeba cascadensis osservata in laboratorio vicino a una sorgente calda; scena non documentaria.",
