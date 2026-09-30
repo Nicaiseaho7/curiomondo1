@@ -1,7 +1,51 @@
 {
-  "version": 709,
+  "version": 711,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "id": "strage-brandizzo-udienza-preliminare-24-imputati-30-09-2026-v710",
+      "alt": "Illustrazione editoriale della stazione di Brandizzo con cartello blu e treno Trenitalia; scena di contesto non documentaria generata con IA.",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "variants": [
+        {
+          "src": "/assets/images/editorial-auto/strage-brandizzo-udienza-preliminare-24-imputati-30-09-2026-v710-480.webp",
+          "w": 480
+        },
+        {
+          "src": "/assets/images/editorial-auto/strage-brandizzo-udienza-preliminare-24-imputati-30-09-2026-v710-800.webp",
+          "w": 800
+        },
+        {
+          "src": "/assets/images/editorial-auto/strage-brandizzo-udienza-preliminare-24-imputati-30-09-2026-v710-1200.webp",
+          "w": 1200
+        }
+      ],
+      "article": "/notizie/strage-brandizzo-udienza-preliminare-24-imputati-30-09-2026.html"
+    },
+    {
+      "id": "flydubai-colluttazione-piloti-dubai-tel-aviv-30-09-2026-v709",
+      "alt": "Illustrazione editoriale di un Boeing Flydubai con livrea bianca blu e arancio su pista; scena non documentaria generata con IA.",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "variants": [
+        {
+          "src": "/assets/images/editorial-auto/flydubai-colluttazione-piloti-dubai-tel-aviv-30-09-2026-v709-480.webp",
+          "w": 480
+        },
+        {
+          "src": "/assets/images/editorial-auto/flydubai-colluttazione-piloti-dubai-tel-aviv-30-09-2026-v709-800.webp",
+          "w": 800
+        },
+        {
+          "src": "/assets/images/editorial-auto/flydubai-colluttazione-piloti-dubai-tel-aviv-30-09-2026-v709-1200.webp",
+          "w": 1200
+        }
+      ],
+      "article": "/notizie/flydubai-colluttazione-piloti-dubai-tel-aviv-30-09-2026.html"
+    },
     {
       "alt": "Illustrazione di un ufficio stampa a Stoccolma con un premio simbolico e fascicoli colorati.",
       "prompt": "Illustrazione editoriale fotorealistica dell'annuncio del Right Livelihood Award a Stoccolma, ufficio stampa con addetta generica e oggetto simbolico, senza fingere di raffigurare i vincitori o la cerimonia futura, orizzontale e non documentaria.",
