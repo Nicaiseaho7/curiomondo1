@@ -121,9 +121,7 @@ Markup **canonico obbligatorio** (non semplificare):
 
 
 ## Pensiero con il nome — obbligatorio su ogni notizia (30 settembre 2026)
-Ogni pagina in `/notizie/`, presente e futura, porta sotto **CurioMondo** un nome italiano e una frase breve. Dettaglio, divieti e markup in `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`, sezione «Pensiero con il nome».
-
-- Una riga compatta nell’header, come la prova approvata: nome in maiuscolo, punto mediano, messaggio. Non è pubblicità e non cambia il logo.
+Ogni pagina in `/notizie/`, presente e futura, chiude con un piccolo riquadro in fondo a `<main>`: «Un pensiero per» e il nome, poi la frase. Non sta nell’header, non è un’immagine e non entra nel corpo della notizia né nel JSON-LD. Dettaglio in `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`.
 - Il messaggio è una frase sola e il senso si capisce subito: un permesso, un augurio o un consiglio concreto. Niente metafore da interpretare e niente slogan. Le frasi stanno in `assets/data/frasi-nome.json`: si usa la prima non ancora pubblicata.
 - Nome e frase si fissano alla prima pubblicazione e non cambiano negli aggiornamenti. Non si riusa la stessa frase.
 - I nomi sono i **3.000 più usati in Italia**, in `assets/data/nomi-italiani.json`, dal più diffuso. La notizia nuova prende il primo nome non ancora usato. Si ricomincia solo a elenco esaurito, mai prima di 40 notizie.

@@ -72,10 +72,13 @@ def next_message(root: Path | None = None) -> str:
 def note_markup(root: Path | None = None) -> str:
     name = next_name(root)
     message = next_message(root)
+    safe_name = escape(name)
     return (
-        '<p class="cm-name-note"><strong class="cm-name-note__name">'
-        + escape(name)
-        + '</strong><span class="cm-name-note__text">'
+        '<aside class="cm-name-card" aria-label="Un pensiero per '
+        + escape(name, quote=True)
+        + '"><p class="cm-name-card__label">Un pensiero per <strong class="cm-name-note__name">'
+        + safe_name
+        + '</strong></p><p class="cm-name-card__text"><span class="cm-name-note__text">'
         + escape(message)
-        + "</span></p>"
+        + "</span></p></aside>"
     )

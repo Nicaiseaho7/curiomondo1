@@ -56,18 +56,18 @@ Un eBook della Domanda del giorno non è più un mini-libro da 15.000–30.000 c
 In **ogni** pagina articolo il nome del sito deve essere **identico**: testo `CurioMondo` (Curio + Mondo nello span canonico), `aria-label="CurioMondo, home"`, CSS `global-header-v275.css?v=633`, pulsante tema presente. Vietate varianti di spelling o markup semplificati che alterano il marchio.
 
 ### Pensiero con il nome — obbligatorio su ogni pagina notizia (30 settembre 2026)
-Ogni pagina in `/notizie/` porta, sotto il nome CurioMondo e dentro l’header, un nome italiano e una frase breve. Vale per gli articoli già pubblicati e per ogni notizia nuova. Non va in homepage, biblioteca, curiosità, meteo di servizio o pagine istituzionali.
+Ogni pagina in `/notizie/` porta, in fondo alla pagina e fuori dal corpo della notizia, un nome italiano e una frase breve. Vale per gli articoli già pubblicati e per ogni notizia nuova. Non va in homepage, biblioteca, curiosità, meteo di servizio o pagine istituzionali. Non sta nell’header e non modifica il logo.
 
-Il blocco è una sola riga compatta, come nella prova approvata sull’articolo delle suppletive di Reggio. Il nome è in maiuscolo, leggermente più evidente della frase, seguito da un punto mediano e dal messaggio. Non è un titolo, non è una pubblicità, non cambia il logo e non allunga l’header.
+Il blocco è un piccolo riquadro distinto, l’ultimo elemento visibile di `<main>`, dopo le fonti. È un `<aside>`, non un paragrafo dell’articolo e non entra nel JSON-LD. Il testo è HTML vero, leggibile da persone e da Google: non è un’immagine, non è nascosto, non è pubblicità.
 
-Esempio visivo, non da ricopiare: **VALENTINA** · Oggi hai già fatto abbastanza.
+In cima al riquadro c’è la riga «Un pensiero per» e, sotto, il nome. Poi la frase. Esempio, non da ricopiare: **Un pensiero per Valentina** — Oggi hai già fatto abbastanza.
 
 Il messaggio è dedicato a chi porta quel nome. Una frase sola, corta, e il senso si capisce al primo lettura: un permesso, un augurio o un consiglio concreto. Esempi del tono giusto: «Oggi hai già fatto abbastanza», «Puoi dire di no», «Se hai sete, bevi». Non si usano immagini da interpretare, elenchi di faccende, né slogan da poster («sei più forte», «non mollare», «credi in te», «i piccoli passi»). Niente hashtag, niente riferimenti alla notizia, a CurioMondo, alla politica o a marchi.
 
 Regole di assegnazione:
 
 - Un nome e un messaggio per pagina, fissati alla prima pubblicazione.
-- Un aggiornamento dello stesso articolo non cambia nome né frase.
+- Un aggiornamento dello stesso articolo non cambia nome né frase. Spostare il riquadro in fondo pagina non è un cambio di messaggio.
 - Il catalogo è `assets/data/nomi-italiani.json`: i **3.000 nomi propri più usati in Italia**, in ordine di diffusione. I primi mille seguono la classifica della popolazione (Maria, Giuseppe, Anna e così via). Non si usano nomi rari fuori da questa lista.
 - Ogni notizia nuova prende il primo nome del catalogo non ancora presente in `/notizie/`. Si ripete un nome solo dopo che i 3.000 sono stati usati tutti, e comunque non prima di 40 notizie.
 - La stessa frase non si riusa. Si cambia il modo di dirla, non si gira un modello.
@@ -77,13 +77,13 @@ Regole di assegnazione:
 
 Senza questo blocco la notizia non è pubblicabile.
 
-Markup canonico, dentro `.cm-global-header`, subito dopo `</nav>`:
+Markup canonico, ultimo elemento di `<main>`:
 
 ```html
-<p class="cm-name-note"><strong class="cm-name-note__name">Valentina</strong><span class="cm-name-note__text">Oggi hai già fatto abbastanza.</span></p>
+<aside class="cm-name-card" aria-label="Un pensiero per Valentina"><p class="cm-name-card__label">Un pensiero per <strong class="cm-name-note__name">Valentina</strong></p><p class="cm-name-card__text"><span class="cm-name-note__text">Oggi hai già fatto abbastanza.</span></p></aside>
 ```
 
-Lo stile resta quello della prova approvata: riga unica, nome in maiuscolo con lettera un po’ più evidente, frase subito dopo, header basso, leggibile su telefono e desktop e in modalità scura. Non ridisegnarlo.
+Lo stile è quello del riquadro in `global-header-v275.css`: piccolo, centrato, nome in blu, frase sotto, leggibile su telefono e desktop e in modalità scura. Non rimetterlo nell’header.
 
 
 
