@@ -68,10 +68,11 @@ Regole di assegnazione:
 
 - Un nome e un messaggio per pagina, fissati alla prima pubblicazione.
 - Un aggiornamento dello stesso articolo non cambia nome né frase.
-- Pagine vicine non ripetono lo stesso nome. Lo stesso nome non torna prima di almeno 40 notizie.
+- Il catalogo è `assets/data/nomi-italiani.json`: tutti i nomi propri italiani dell’elenco onomastico, maschili e femminili, oltre diecimila. Non si usa un sottoinsieme di nomi frequenti.
+- Ogni notizia nuova prende il primo nome del catalogo non ancora presente in `/notizie/`. Si ripete un nome solo dopo che l’elenco è stato percorso per intero, e comunque non prima di 40 notizie.
 - La stessa frase non si riusa. Si varia il testo, non solo il nome.
-- Nomi italiani di uso comune, solo il nome proprio, mai cognome: Valentina, Alessio, Alessandro, Matteo, Giulia, Sofia, Andrea, Luca, Martina, Francesca, Marco, Aurora, Lorenzo, Chiara, Simone, Elisa, Federico, Alice, Davide, Beatrice e altri dello stesso tipo.
-- Se la pagina esiste già e ha già un pensiero, non lo si sostituisce.
+- Solo il nome proprio, mai il cognome.
+- Se la pagina ha già un pensiero, non lo si sostituisce. L’eccezione già applicata il 30 settembre 2026 è l’estensione a tutto il catalogo: Valentina resta sull’articolo delle suppletive di Reggio.
 
 Senza questo blocco la notizia non è pubblicabile.
 
