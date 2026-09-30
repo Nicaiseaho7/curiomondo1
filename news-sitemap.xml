@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://curiomondo.it/notizie/meteo-italia-30-settembre-6-ottobre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-30T05:21:44+02:00</news:publication_date>
+      <news:title>Meteo Italia oggi e 7 giorni: sole e ottobrata, nessuna allerta nazionale</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://curiomondo.it/notizie/usa-israele-gaza-consenso-sondaggi-midterm-29-09-2026.html</loc>
     <news:news>
       <news:publication>
@@ -647,17 +658,6 @@
       </news:publication>
       <news:publication_date>2026-09-28T05:57:54+02:00</news:publication_date>
       <news:title>Ucraina, Zelensky: oltre 2.200 droni in una settimana, colpito un data center a Kyiv</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/meteo-italia-28-settembre-4-ottobre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-28T03:24:59+02:00</news:publication_date>
-      <news:title>Meteo Italia oggi e 7 giorni: sole e fino a 30 gradi fino al 4 ottobre</news:title>
     </news:news>
   </url>
 </urlset>

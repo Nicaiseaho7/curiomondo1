@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 703,
-    "site_version": 703
+    "current_site_version": 704,
+    "site_version": 704
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -259,9 +259,9 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 703,
-  "version": "v703",
-  "release_version": "v703",
+  "site_version": 704,
+  "version": "v704",
+  "release_version": "v704",
   "last_release": {
     "version": 703,
     "date": "2026-09-29",
