@@ -60,9 +60,9 @@ Ogni pagina in `/notizie/` porta, sotto il nome CurioMondo e dentro l’header, 
 
 Il blocco è una sola riga compatta, come nella prova approvata sull’articolo delle suppletive di Reggio. Il nome è in maiuscolo, leggermente più evidente della frase, seguito da un punto mediano e dal messaggio. Non è un titolo, non è una pubblicità, non cambia il logo e non allunga l’header.
 
-Esempio visivo, non da ricopiare su tutte le pagine: **VALENTINA** · Continua a credere in ciò che stai costruendo. Anche i piccoli passi possono portarti molto lontano.
+Esempio visivo, non da ricopiare: **VALENTINA** · Per stasera ti basta una cosa calda e una sedia.
 
-Il messaggio è dedicato a chi porta quel nome. Tono umano, breve, positivo. Può parlare di incoraggiamento, forza, amore, determinazione, speranza, fiducia in sé, sogni, futuro, perseveranza, momenti difficili, felicità o crescita. Una o due frasi corte. Niente slogan, niente hashtag, niente riferimenti alla notizia, a CurioMondo, alla politica o a marchi.
+Il messaggio è dedicato a chi porta quel nome. Si scrive come lo diresti a voce, in una frase sola, concreta e breve. Deve suonare detta da una persona, non da un poster. Vietati gli slogan e le frasi fatte: «sei più forte», «non mollare», «credi in te», «i piccoli passi», «il cuore sa», coppie di aforismi una dietro l’altra. Niente hashtag, niente riferimenti alla notizia, a CurioMondo, alla politica o a marchi. Niente elenco di faccende.
 
 Regole di assegnazione:
 
@@ -70,7 +70,8 @@ Regole di assegnazione:
 - Un aggiornamento dello stesso articolo non cambia nome né frase.
 - Il catalogo è `assets/data/nomi-italiani.json`: i **3.000 nomi propri più usati in Italia**, in ordine di diffusione. I primi mille seguono la classifica della popolazione (Maria, Giuseppe, Anna e così via). Non si usano nomi rari fuori da questa lista.
 - Ogni notizia nuova prende il primo nome del catalogo non ancora presente in `/notizie/`. Si ripete un nome solo dopo che i 3.000 sono stati usati tutti, e comunque non prima di 40 notizie.
-- La stessa frase non si riusa. Si varia il testo, non solo il nome.
+- La stessa frase non si riusa. Si cambia il modo di dirla, non si gira un modello.
+- Le frasi nuove si prendono da `assets/data/frasi-nome.json`, la prima non ancora usata. Sono frasi parlate, già pronte. Non si generano al momento accoppiando due slogan.
 - Solo il nome proprio, mai il cognome.
 - Se la pagina ha già un pensiero, non lo si sostituisce. L’eccezione già applicata il 30 settembre 2026 è l’estensione a tutto il catalogo: Valentina resta sull’articolo delle suppletive di Reggio.
 
@@ -79,7 +80,7 @@ Senza questo blocco la notizia non è pubblicabile.
 Markup canonico, dentro `.cm-global-header`, subito dopo `</nav>`:
 
 ```html
-<p class="cm-name-note"><strong class="cm-name-note__name">Valentina</strong><span class="cm-name-note__text">Continua a credere in ciò che stai costruendo. Anche i piccoli passi possono portarti molto lontano.</span></p>
+<p class="cm-name-note"><strong class="cm-name-note__name">Valentina</strong><span class="cm-name-note__text">Per stasera ti basta una cosa calda e una sedia.</span></p>
 ```
 
 Lo stile resta quello della prova approvata: riga unica, nome in maiuscolo con lettera un po’ più evidente, frase subito dopo, header basso, leggibile su telefono e desktop e in modalità scura. Non ridisegnarlo.

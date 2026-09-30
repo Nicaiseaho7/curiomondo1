@@ -124,7 +124,7 @@ Markup **canonico obbligatorio** (non semplificare):
 Ogni pagina in `/notizie/`, presente e futura, porta sotto **CurioMondo** un nome italiano e una frase breve. Dettaglio, divieti e markup in `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`, sezione «Pensiero con il nome».
 
 - Una riga compatta nell’header, come la prova approvata: nome in maiuscolo, punto mediano, messaggio. Non è pubblicità e non cambia il logo.
-- Il messaggio è dedicato a quel nome: breve, umano, positivo. Non cita la notizia, CurioMondo, la politica o un marchio.
+- Il messaggio è una frase sola, detta come si parla. Non è uno slogan e non è una coppia di aforismi. Le frasi stanno in `assets/data/frasi-nome.json`: si usa la prima non ancora pubblicata.
 - Nome e frase si fissano alla prima pubblicazione e non cambiano negli aggiornamenti. Non si riusa la stessa frase.
 - I nomi sono i **3.000 più usati in Italia**, in `assets/data/nomi-italiani.json`, dal più diffuso. La notizia nuova prende il primo nome non ancora usato. Si ricomincia solo a elenco esaurito, mai prima di 40 notizie.
 - Non va in homepage, biblioteca, curiosità o pagine istituzionali.
