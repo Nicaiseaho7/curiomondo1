@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 721,
-    "site_version": 721
+    "current_site_version": 722,
+    "site_version": 722
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -23,7 +23,7 @@
   "daily_state": {
     "question_source": "Mille_e_piu_domande_per_pensare.pdf (fonte privata fornita dal proprietario; non pubblicare nel sito)",
     "question_source_rule": "choose every future daily question only from the 1125 numbered questions in this PDF and record its number",
-    "current_question_source_number": null,
+    "current_question_source_number": 1014,
     "used_question_source_numbers": [
       87,
       88,
@@ -43,9 +43,11 @@
       1009,
       1010,
       1011,
-      1012
+      1012,
+      1013,
+      1014
     ],
-    "last_question_date": "2026-09-30",
+    "last_question_date": "2026-10-01",
     "question_archive_path": "/domanda-del-giorno/",
     "question_library_root": "/biblioteca/vita-relazioni/",
     "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE",
@@ -54,22 +56,10 @@
     "private_source_required_fail_closed": true,
     "timezone": "Europe/Rome",
     "date_source": "current_datetime_in_Europe_Rome_never_UTC",
-    "last_question_slug": "se-il-successo-non-fosse-visibile-a-nessuno-quale-obiettivo-continueresti-a-inseguire",
+    "last_question_slug": "quanto-siamo-liberi-nelle-scelte-che-facciamo-per-non-deludere-chi-amiamo",
     "last_daily_guides": [],
-    "last_daily_package_date": "2026-09-30",
-    "last_question_ebook_url": "/biblioteca/vita-relazioni/domande-per-conoscersi/una-vita-piena-si-misura-dalle-esperienze-vissute-o-dallattenzione-con-cui-le-abbiamo-attraversate/",
-    "current_question_owner_override": {
-      "date": "2026-09-30",
-      "question": "Se il successo non fosse visibile a nessuno, quale obiettivo continueresti a inseguire?",
-      "reason": "Scelta esplicita del proprietario dopo il confronto tra coda e PDF privato; non attribuita a un numero del PDF."
-    },
-    "used_owner_questions": [
-      {
-        "date": "2026-09-30",
-        "question": "Se il successo non fosse visibile a nessuno, quale obiettivo continueresti a inseguire?",
-        "slug": "se-il-successo-non-fosse-visibile-a-nessuno-quale-obiettivo-continueresti-a-inseguire"
-      }
-    ]
+    "last_daily_package_date": "2026-10-01",
+    "last_question_ebook_url": "/biblioteca/vita-relazioni/domande-per-conoscersi/quanto-siamo-liberi-nelle-scelte-che-facciamo-per-non-deludere-chi-amiamo/"
   },
   "homepage": {
     "hero_section_label": "In evidenza",
@@ -272,24 +262,18 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 720,
-  "version": "v720",
-  "release_version": "v720",
+  "site_version": 722,
+  "version": "v722",
+  "release_version": "v722",
   "last_release": {
-    "version": 720,
-    "date": "2026-09-30",
-    "type": "requested-news-batch",
-    "news_added": [
-      "cadoneghe-schiesaro-giuramento-cittadinanza-salvini-30-settembre-2026",
-      "peppino-mazzullo-morto-100-anni-voce-topo-gigio-2026",
-      "mattarella-monaco-prima-visita-stato-2-3-ottobre-2026",
-      "harry-meghan-paparazzi-scuola-figli-privacy-30-settembre-2026",
-      "regeni-chigi-smentisce-telefonata-italia-egitto-sentenza-2026",
-      "meloni-von-der-leyen-flessibilita-inflazione-energia-30-settembre-2026",
-      "zidane-francia-italia-2-ottobre-2026-venti-anni-berlino",
-      "ronaldo-portogallo-allenamento-jorge-jesus-tensione-30-settembre-2026"
-    ],
+    "version": 722,
+    "date": "2026-10-01",
+    "type": "daily-editorial-package",
+    "news_added": [],
     "news_updated": [],
-    "change": "Otto notizie richieste dagli screenshot ANSA, verificate e illustrate"
+    "daily_question_added": "quanto-siamo-liberi-nelle-scelte-che-facciamo-per-non-deludere-chi-amiamo",
+    "ebook_added": "quanto-siamo-liberi-nelle-scelte-che-facciamo-per-non-deludere-chi-amiamo",
+    "guides_added": [],
+    "change": "Domanda canonica n. 1014 ed eBook lungo dedicato; riparato anche il pacchetto canonico n. 1013 senza modificare notizie."
   }
 }
