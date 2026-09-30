@@ -60,9 +60,9 @@ Ogni pagina in `/notizie/` porta, sotto il nome CurioMondo e dentro l’header, 
 
 Il blocco è una sola riga compatta, come nella prova approvata sull’articolo delle suppletive di Reggio. Il nome è in maiuscolo, leggermente più evidente della frase, seguito da un punto mediano e dal messaggio. Non è un titolo, non è una pubblicità, non cambia il logo e non allunga l’header.
 
-Esempio visivo, non da ricopiare: **VALENTINA** · Per stasera ti basta una cosa calda e una sedia.
+Esempio visivo, non da ricopiare: **VALENTINA** · Oggi hai già fatto abbastanza.
 
-Il messaggio è dedicato a chi porta quel nome. Si scrive come lo diresti a voce, in una frase sola, concreta e breve. Deve suonare detta da una persona, non da un poster. Vietati gli slogan e le frasi fatte: «sei più forte», «non mollare», «credi in te», «i piccoli passi», «il cuore sa», coppie di aforismi una dietro l’altra. Niente hashtag, niente riferimenti alla notizia, a CurioMondo, alla politica o a marchi. Niente elenco di faccende.
+Il messaggio è dedicato a chi porta quel nome. Una frase sola, corta, e il senso si capisce al primo lettura: un permesso, un augurio o un consiglio concreto. Esempi del tono giusto: «Oggi hai già fatto abbastanza», «Puoi dire di no», «Se hai sete, bevi». Non si usano immagini da interpretare, elenchi di faccende, né slogan da poster («sei più forte», «non mollare», «credi in te», «i piccoli passi»). Niente hashtag, niente riferimenti alla notizia, a CurioMondo, alla politica o a marchi.
 
 Regole di assegnazione:
 
@@ -80,7 +80,7 @@ Senza questo blocco la notizia non è pubblicabile.
 Markup canonico, dentro `.cm-global-header`, subito dopo `</nav>`:
 
 ```html
-<p class="cm-name-note"><strong class="cm-name-note__name">Valentina</strong><span class="cm-name-note__text">Per stasera ti basta una cosa calda e una sedia.</span></p>
+<p class="cm-name-note"><strong class="cm-name-note__name">Valentina</strong><span class="cm-name-note__text">Oggi hai già fatto abbastanza.</span></p>
 ```
 
 Lo stile resta quello della prova approvata: riga unica, nome in maiuscolo con lettera un po’ più evidente, frase subito dopo, header basso, leggibile su telefono e desktop e in modalità scura. Non ridisegnarlo.
