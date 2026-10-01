@@ -1,190 +1,286 @@
 {
-  "version": 727,
+  "version": 730,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/censimento-istat-2026-rilevazioni-dal-5-ottobre-v727-480.webp"
+          "src": "/assets/images/editorial-auto/censimento-istat-2026-rilevazioni-dal-5-ottobre-v730-480.webp",
+          "sha256": "5127eb458bc4730c8a0981570144e150d0c4b817a40f82823672c88a3111a78b",
+          "bytes": 28070
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/censimento-istat-2026-rilevazioni-dal-5-ottobre-v727-800.webp"
+          "src": "/assets/images/editorial-auto/censimento-istat-2026-rilevazioni-dal-5-ottobre-v730-800.webp",
+          "sha256": "ab0c2549eb36900c71a0a51ee599122b9b19b0cbabcaedfe7df6b4229eace37d",
+          "bytes": 60518
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/censimento-istat-2026-rilevazioni-dal-5-ottobre-v727-1200.webp"
+          "src": "/assets/images/editorial-auto/censimento-istat-2026-rilevazioni-dal-5-ottobre-v730-1200.webp",
+          "sha256": "8bb9719f6ceacee231ad66980c5cc20fef951130f928a2e2a23c02d340f90052",
+          "bytes": 112386
         }
       ],
-      "alt": "Illustrazione editoriale di famiglia che compila un questionario online; scena non documentaria generata con IA.",
+      "alt": "Illustrazione editoriale IA di una coppia al computer con una comunicazione Istat sul censimento; scena non documentaria.",
       "aiGenerated": true,
       "officialArtwork": false,
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "sensitiveContext": false,
       "syntheticLikeness": false,
-      "article": "/notizie/censimento-istat-2026-rilevazioni-dal-5-ottobre.html"
+      "article": "/notizie/censimento-istat-2026-rilevazioni-dal-5-ottobre.html",
+      "prompt": "Generate one separate ultra photorealistic professional editorial landscape image, 16:9. This is an AI illustrative scene, not documentary evidence; disclosure will be added in HTML, never in pixels. Natural light, realistic materials, clean central subject safe for mobile crop. No headline, overlay text, watermark, collage, invented logo. People if any face the camera, no backs of heads. Subject: Italy Istat permanent population census, a household filling the statistical questionnaire at home. Two adult family members at a laptop around a light wooden kitchen table, three-quarter faces visible and natural attentive expressions, an official letter envelope marked only with the correctly spelled small authentic 'istat' institutional wordmark, no personal information, no invented questionnaire text, computer screen angled away enough to avoid visible generated UI. Contemporary realistic Italian apartment, daylight, no stock-photo posing.",
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI imagegen",
+      "version": 730,
+      "generatedAt": "2026-10-01T07:06:02.230896+02:00",
+      "reenactedEvent": false
     },
     {
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/consiglio-ue-valutazioni-ambientali-posizione-negoziale-30-09-2026-v726-480.webp"
+          "src": "/assets/images/editorial-auto/consiglio-ue-valutazioni-ambientali-posizione-negoziale-30-09-2026-v730-480.webp",
+          "sha256": "52aefcade7b068004df35735eff8be06227e5b484e6a5974d00a0f4768579160",
+          "bytes": 44710
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/consiglio-ue-valutazioni-ambientali-posizione-negoziale-30-09-2026-v726-800.webp"
+          "src": "/assets/images/editorial-auto/consiglio-ue-valutazioni-ambientali-posizione-negoziale-30-09-2026-v730-800.webp",
+          "sha256": "38dc9c627485da092ae2773c366aac6f237bfa4ed3de80274efca44a53e13227",
+          "bytes": 87818
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/consiglio-ue-valutazioni-ambientali-posizione-negoziale-30-09-2026-v726-1200.webp"
+          "src": "/assets/images/editorial-auto/consiglio-ue-valutazioni-ambientali-posizione-negoziale-30-09-2026-v730-1200.webp",
+          "sha256": "6ce35d16fb85fb7c8c9c3ab5def9e1c69368b9969d418b8318ba41ff40d6f074",
+          "bytes": 146188
         }
       ],
-      "alt": "Illustrazione editoriale di sala Consiglio UE; scena non documentaria generata con IA.",
+      "alt": "Illustrazione editoriale IA di addetti che esaminano documenti ambientali in un contesto del Consiglio Ue a Bruxelles; scena non documentaria.",
       "aiGenerated": true,
       "officialArtwork": false,
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "sensitiveContext": false,
       "syntheticLikeness": false,
-      "article": "/notizie/consiglio-ue-valutazioni-ambientali-posizione-negoziale-30-09-2026.html"
+      "article": "/notizie/consiglio-ue-valutazioni-ambientali-posizione-negoziale-30-09-2026.html",
+      "prompt": "Generate one separate ultra photorealistic professional editorial landscape image, 16:9. This is an AI illustrative scene, not documentary evidence; disclosure will be added in HTML, never in pixels. Natural light, realistic materials, clean central subject safe for mobile crop. No headline, overlay text, watermark, collage, invented logo. People if any face the camera, no backs of heads. Subject: Council of the European Union environmental assessment negotiations. Photorealistic interior of the real Europa building Brussels with its distinctive lantern-shaped glass atrium, recognizable glass and wooden window grid, EU flag. A pair of adult administrative staff at a foreground table, faces visible, examining environmental planning documents without readable text. No named politicians, no meeting depicted as actual historical event. Architectural and institutional specificity.",
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI imagegen",
+      "version": 730,
+      "generatedAt": "2026-10-01T07:06:01.815784+02:00",
+      "reenactedEvent": false
     },
     {
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/garante-privacy-parere-decreto-piattaforme-digitali-rider-2026-v725-480.webp"
+          "src": "/assets/images/editorial-auto/garante-privacy-parere-decreto-piattaforme-digitali-rider-2026-v730-480.webp",
+          "sha256": "8989552fdfaa9d4942c860b418dff015b4cef060e262eb0bc90e37be93a9d57c",
+          "bytes": 45112
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/garante-privacy-parere-decreto-piattaforme-digitali-rider-2026-v725-800.webp"
+          "src": "/assets/images/editorial-auto/garante-privacy-parere-decreto-piattaforme-digitali-rider-2026-v730-800.webp",
+          "sha256": "c12d7afb4a8de0c320aaa79d218d032d95eadddc9ab751b37b695348473e409a",
+          "bytes": 94740
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/garante-privacy-parere-decreto-piattaforme-digitali-rider-2026-v725-1200.webp"
+          "src": "/assets/images/editorial-auto/garante-privacy-parere-decreto-piattaforme-digitali-rider-2026-v730-1200.webp",
+          "sha256": "6df114d512270d4eaeae5e0dfd4ca1811223be0944ca570998659ac44e0c9269",
+          "bytes": 161900
         }
       ],
-      "alt": "Illustrazione editoriale di rider in città italiana; scena non documentaria generata con IA.",
+      "alt": "Illustrazione editoriale IA di un rider con bicicletta, telefono e borsa per consegne a Roma; scena non documentaria.",
       "aiGenerated": true,
       "officialArtwork": false,
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "sensitiveContext": false,
       "syntheticLikeness": false,
-      "article": "/notizie/garante-privacy-parere-decreto-piattaforme-digitali-rider-2026.html"
+      "article": "/notizie/garante-privacy-parere-decreto-piattaforme-digitali-rider-2026.html",
+      "prompt": "undefined Subject: Italy platform work and algorithmic management, courier rider protections raised by the Italian data protection authority. A delivery bicycle parked beside an adult courier facing the camera at a stone sidewalk in contemporary Rome, face unobscured and helmet open, plain dark jacket, insulated delivery bag without branding and phone held naturally. The bicycle and delivery bag are prominent, no fake data visualizations, no unreadable app screen, no vehicle plates. Candid realistic illustration of work, not a staged arrest or a specific real person.",
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI imagegen",
+      "version": 730,
+      "generatedAt": "2026-10-01T07:06:02.707106+02:00",
+      "reenactedEvent": false
     },
     {
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/garante-privacy-guida-recupero-crediti-aggiornata-30-09-2026-v724-480.webp"
+          "src": "/assets/images/editorial-auto/garante-privacy-guida-recupero-crediti-aggiornata-30-09-2026-v730-480.webp",
+          "sha256": "790d7b8588abf2ba28fef0a6c4d72bb5599eeb6077bbb55f247dacef2815593b",
+          "bytes": 24460
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/garante-privacy-guida-recupero-crediti-aggiornata-30-09-2026-v724-800.webp"
+          "src": "/assets/images/editorial-auto/garante-privacy-guida-recupero-crediti-aggiornata-30-09-2026-v730-800.webp",
+          "sha256": "72563d8191e0dd1c9210c1a32db8be6d8e36f945706751233eb011a02140f497",
+          "bytes": 46442
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/garante-privacy-guida-recupero-crediti-aggiornata-30-09-2026-v724-1200.webp"
+          "src": "/assets/images/editorial-auto/garante-privacy-guida-recupero-crediti-aggiornata-30-09-2026-v730-1200.webp",
+          "sha256": "3c5f6a4b3037765e3ecd5e01733f638d0220654b40e1335c8e65f6e942d7f67e",
+          "bytes": 77518
         }
       ],
-      "alt": "Illustrazione editoriale su privacy e documenti; scena non documentaria generata con IA.",
+      "alt": "Illustrazione editoriale IA di una consulente che esamina documenti riservati sul recupero crediti; scena non documentaria.",
       "aiGenerated": true,
       "officialArtwork": false,
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "sensitiveContext": false,
       "syntheticLikeness": false,
-      "article": "/notizie/garante-privacy-guida-recupero-crediti-aggiornata-30-09-2026.html"
+      "article": "/notizie/garante-privacy-guida-recupero-crediti-aggiornata-30-09-2026.html",
+      "prompt": "undefined Subject: privacy in debt collection, the Italian Garante privacy vademecum. Photorealistic close editorial scene at a professional Italian consumer advice desk: an adult adviser in front three-quarter profile visible face, seated reviewing a small closed folder and a plain sealed envelope, with a desk telephone handset resting untouched. Only symbolic official GPDP privacy emblem if rendered accurately, otherwise no logo or text. Focus on confidential handling of paperwork and discretion, no distressed person, no money piles, no arrows, no visible private data.",
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI imagegen",
+      "version": 730,
+      "generatedAt": "2026-10-01T07:06:03.042864+02:00",
+      "reenactedEvent": false
     },
     {
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/istat-fiducia-consumatori-imprese-settembre-2026-v723-480.webp"
+          "src": "/assets/images/editorial-auto/istat-fiducia-consumatori-imprese-settembre-2026-v730-480.webp",
+          "sha256": "dcd87890fe2bc8f76e20b6068adde0cc0a79121ccec93f3c210172c19fed6d72",
+          "bytes": 55862
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/istat-fiducia-consumatori-imprese-settembre-2026-v723-800.webp"
+          "src": "/assets/images/editorial-auto/istat-fiducia-consumatori-imprese-settembre-2026-v730-800.webp",
+          "sha256": "14a390094535fd12b575cd23371ad2c84bc1a3283416ecd9ed7afb04c6d94c0a",
+          "bytes": 115160
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/istat-fiducia-consumatori-imprese-settembre-2026-v723-1200.webp"
+          "src": "/assets/images/editorial-auto/istat-fiducia-consumatori-imprese-settembre-2026-v730-1200.webp",
+          "sha256": "7dac243981a90f17195c50773e2178108f34ce668ee2c91cdd1ef4107ba4b1b4",
+          "bytes": 194534
         }
       ],
-      "alt": "Illustrazione editoriale della sede Istat a Roma; scena non documentaria generata con IA.",
+      "alt": "Illustrazione editoriale IA di commerciante e cliente in un negozio alimentare italiano, per rappresentare la fiducia di consumatori e imprese.",
       "aiGenerated": true,
       "officialArtwork": false,
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "sensitiveContext": false,
       "syntheticLikeness": false,
-      "article": "/notizie/istat-fiducia-consumatori-imprese-settembre-2026.html"
+      "article": "/notizie/istat-fiducia-consumatori-imprese-settembre-2026.html",
+      "prompt": "undefined Subject: Italian consumers and business confidence data from Istat. Interior of a real small Italian grocery store with a middle-aged adult shopkeeper at the checkout facing camera in three-quarter view, freshly stocked seasonal produce in foreground, an adult customer also face visible, naturally considering purchases. Specific everyday retail economy setting, no emotional exaggeration, no recession symbolism, no money piles, no floating charts, no readable prices. Documentary visual style of neighborhood commerce in Rome, not a photo of a named person or exact event.",
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI imagegen",
+      "version": 730,
+      "generatedAt": "2026-10-01T07:06:04.038158+02:00",
+      "reenactedEvent": false
     },
     {
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/milano-domodossola-treni-sospesi-tre-weekend-ottobre-2026-v722-480.webp"
+          "src": "/assets/images/editorial-auto/milano-domodossola-treni-sospesi-tre-weekend-ottobre-2026-v730-480.webp",
+          "sha256": "04ec7f02fb2e9833e7952719763bb5b23546946a5a538b34a56888db0678cb2c",
+          "bytes": 51274
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/milano-domodossola-treni-sospesi-tre-weekend-ottobre-2026-v722-800.webp"
+          "src": "/assets/images/editorial-auto/milano-domodossola-treni-sospesi-tre-weekend-ottobre-2026-v730-800.webp",
+          "sha256": "2616e9082f66ffc9d812a0af5acfe7f210957bee549d91d6d6e41c93a225379c",
+          "bytes": 114258
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/milano-domodossola-treni-sospesi-tre-weekend-ottobre-2026-v722-1200.webp"
+          "src": "/assets/images/editorial-auto/milano-domodossola-treni-sospesi-tre-weekend-ottobre-2026-v730-1200.webp",
+          "sha256": "af66463aad8bd05fa2199d52663a85b972a544f99fb90089a460fa9eef1de7fb",
+          "bytes": 192938
         }
       ],
-      "alt": "Illustrazione editoriale della stazione di Domodossola; scena non documentaria generata con IA.",
+      "alt": "Illustrazione editoriale IA di viaggiatori e autobus davanti alla stazione di Domodossola; scena non documentaria.",
       "aiGenerated": true,
       "officialArtwork": false,
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "sensitiveContext": false,
       "syntheticLikeness": false,
-      "article": "/notizie/milano-domodossola-treni-sospesi-tre-weekend-ottobre-2026.html"
+      "article": "/notizie/milano-domodossola-treni-sospesi-tre-weekend-ottobre-2026.html",
+      "prompt": "undefined Subject: rail maintenance suspensions between Arona and Domodossola. Real Domodossola railway station forecourt, authentic ochre yellow symmetrical neoclassical station facade, recognizable central station clock, shuttered windows and Alpine foothills in autumn. A replacement coach parked to one side with no license plate visible, two adults travelers in front-facing three-quarter view beside luggage. No unreadable signs or headline text, only correct station name DOMODOSSOLA if visible. Bright morning natural journalistic light, no broken train, no accident.",
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI imagegen",
+      "version": 730,
+      "generatedAt": "2026-10-01T07:06:03.544582+02:00",
+      "reenactedEvent": false
     },
     {
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/roma-femminile-barcellona-0-6-tre-fontane-30-09-2026-v721-480.webp"
+          "src": "/assets/images/editorial-auto/roma-femminile-barcellona-0-6-tre-fontane-30-09-2026-v730-480.webp",
+          "sha256": "39808767a8d06569d238926ce702b26027081435a5882d2ce5ea1a37a84a2a56",
+          "bytes": 25176
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/roma-femminile-barcellona-0-6-tre-fontane-30-09-2026-v721-800.webp"
+          "src": "/assets/images/editorial-auto/roma-femminile-barcellona-0-6-tre-fontane-30-09-2026-v730-800.webp",
+          "sha256": "20f2d591d259140e164b88367603e1dc2ec2f490e1a22324d8bf515c7f8e1afc",
+          "bytes": 53276
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/roma-femminile-barcellona-0-6-tre-fontane-30-09-2026-v721-1200.webp"
+          "src": "/assets/images/editorial-auto/roma-femminile-barcellona-0-6-tre-fontane-30-09-2026-v730-1200.webp",
+          "sha256": "ecd3265538f4a54a075d62e187a22006a9262891533b38b08a93c19f2e04985e",
+          "bytes": 90464
         }
       ],
-      "alt": "Illustrazione editoriale di calciatrice Roma Femminile in maglia giallorossa in azione; scena non documentaria generata con IA.",
+      "alt": "Scena editoriale contestuale IA con somiglianza sintetica di Caroline Graham Hansen in divisa del Barcellona al Tre Fontane; non è una fotografia della partita.",
       "aiGenerated": true,
       "officialArtwork": false,
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "sensitiveContext": false,
       "syntheticLikeness": "public-figure",
-      "article": "/notizie/roma-femminile-barcellona-0-6-tre-fontane-30-09-2026.html"
+      "article": "/notizie/roma-femminile-barcellona-0-6-tre-fontane-30-09-2026.html",
+      "prompt": "undefined Subject: Roma Women versus FC Barcelona, Caroline Graham Hansen as recognizable focal player. Use attached official reference ONLY for identity and authentic FC Barcelona shirt colors/crest, create an entirely new editorial image not a crop or derivative. Hansen in front three-quarter view from waist up at the sideline of Rome's Tre Fontane stadium, natural composed focused expression, blue/garnet Barcelona kit accurately represented with Nike and club crest, no invented sponsor text. Background low stands and green pitch, no other players. NOT depiction of a goal or exact moment of match, no score overlay.",
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI imagegen",
+      "version": 730,
+      "generatedAt": "2026-10-01T07:06:04.400851+02:00",
+      "reenactedEvent": false
     },
     {
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/juventus-women-hacken-3-0-champions-league-30-09-2026-v720-480.webp"
+          "src": "/assets/images/editorial-auto/juventus-women-hacken-3-0-champions-league-30-09-2026-v730-480.webp",
+          "sha256": "eb0e3bdd57eb5a6d762a4f36f512c3bfcea35071246887125caefe05d1a226b9",
+          "bytes": 29338
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/juventus-women-hacken-3-0-champions-league-30-09-2026-v720-800.webp"
+          "src": "/assets/images/editorial-auto/juventus-women-hacken-3-0-champions-league-30-09-2026-v730-800.webp",
+          "sha256": "c214413d0b7a8e7db90bb369c3b99450f6319c778746bc32f7336af3f934a5ec",
+          "bytes": 61328
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/juventus-women-hacken-3-0-champions-league-30-09-2026-v720-1200.webp"
+          "src": "/assets/images/editorial-auto/juventus-women-hacken-3-0-champions-league-30-09-2026-v730-1200.webp",
+          "sha256": "85b75c82a52e1344c682e731b2487ab7deeb9abdaea04f50ac75e106024ecec7",
+          "bytes": 97916
         }
       ],
-      "alt": "Illustrazione editoriale di calciatrici Juventus Women in maglia bianconera che esultano; scena non documentaria generata con IA.",
+      "alt": "Scena editoriale contestuale IA con somiglianza sintetica di Tatiana Pinto in divisa Juventus Women a bordo campo; non è una fotografia della partita.",
       "aiGenerated": true,
       "officialArtwork": false,
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "sensitiveContext": false,
       "syntheticLikeness": "public-figure",
-      "article": "/notizie/juventus-women-hacken-3-0-champions-league-30-09-2026.html"
+      "article": "/notizie/juventus-women-hacken-3-0-champions-league-30-09-2026.html",
+      "prompt": "undefined Subject: Juventus Women victory in Sweden, Tatiana Pinto as recognizable focal player. Use attached official Juventus reference ONLY for accurate face and authentic black/white/pink team shirt/crest/sponsors. Generate an entirely new editorial portrait scene, waist up, Pinto facing camera on the edge of a football pitch in Gothenburg, evening stadium floodlights softly in background, natural composed slight smile rather than exaggerated celebration, realistic tattoos and hair. Preserve authentic Adidas Juventus Jeep Visit Detroit elements from reference, no invented lettering or extra players, no score text, not an exact documented goal.",
+      "documentaryPhoto": false,
+      "generator": "ChatGPT/OpenAI imagegen",
+      "version": 730,
+      "generatedAt": "2026-10-01T07:06:04.762614+02:00",
+      "reenactedEvent": false
     },
     {
       "variants": [
@@ -794,33 +890,39 @@
       "article": "/notizie/ucraina-attacco-russo-rete-energetica-30-settembre-2026.html"
     },
     {
-      "alt": "Illustrazione editoriale IA di Crew Dragon in avvicinamento alla ISS; rappresentazione del profilo previsto, non dell’aggancio avvenuto.",
-      "prompt": "Illustrazione editoriale originale dedicata alla notizia, generata con ChatGPT e verificata visivamente secondo il protocollo CurioMondo.",
+      "alt": "Illustrazione editoriale IA del razzo Falcon 9 con Crew Dragon sulla rampa di lancio a Cape Canaveral; scena non documentaria.",
+      "prompt": "Generate one separate ultra photorealistic professional editorial landscape image, 16:9. This is an AI illustrative scene, not documentary evidence; disclosure will be added in HTML, never in pixels. Natural light, realistic materials, clean central subject safe for mobile crop. No headline, overlay text, watermark, collage, invented logo. People if any face the camera, no backs of heads. Subject: the real SpaceX Falcon 9 rocket with Crew Dragon upright at Space Launch Complex 40 Cape Canaveral, prelaunch preparation in daylight. Accurate slender Falcon 9 first stage, black interstage, white Dragon capsule and crew access tower. No launch flames, no docking, no astronauts; vehicle itself is the subject of the NASA SpaceX Crew-13 launch readiness news. Wide ground-level close view with launch tower framing the upper capsule and Florida coastal sky.",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/nasa-spacex-crew-13-lancio-1-ottobre-2026-v716-480.webp",
-          "sha256": "952d8d85bf0ca26ac9b12fa4667111cc95d866e5034451ce6defa76b6e9bf42c",
-          "bytes": 42408
+          "src": "/assets/images/editorial-auto/nasa-spacex-crew-13-lancio-1-ottobre-2026-v730-480.webp",
+          "sha256": "e955a4197b89eba8a680f2bfa193e5a9438afdfe2d5d75810fb9807e65779fe7",
+          "bytes": 33722
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/nasa-spacex-crew-13-lancio-1-ottobre-2026-v716-800.webp",
-          "sha256": "587bda31c6d41baeaed0fecebbc8314a8adb8e2931b4165674b001e1727feecc",
-          "bytes": 103740
+          "src": "/assets/images/editorial-auto/nasa-spacex-crew-13-lancio-1-ottobre-2026-v730-800.webp",
+          "sha256": "729920df2d699f1fda743c95ad053cfa75eb0caad752796c83efaa4fcd33588d",
+          "bytes": 77218
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/nasa-spacex-crew-13-lancio-1-ottobre-2026-v716-1200.webp",
-          "sha256": "02eae550221e035cf436c1c6b9b1aa5be3a2fb51f9e970a1d542edbb40fe89b2",
-          "bytes": 187018
+          "src": "/assets/images/editorial-auto/nasa-spacex-crew-13-lancio-1-ottobre-2026-v730-1200.webp",
+          "sha256": "a90015ec90acaacba1652495518d1bc4eeead6edb5b420a28ededa1def5595af",
+          "bytes": 141690
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "generator": "ChatGPT/OpenAI imagegen",
       "aiGenerated": true,
       "sensitiveContext": false,
-      "article": "/notizie/nasa-spacex-crew-13-lancio-1-ottobre-2026.html"
+      "article": "/notizie/nasa-spacex-crew-13-lancio-1-ottobre-2026.html",
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "syntheticLikeness": false,
+      "version": 730,
+      "generatedAt": "2026-10-01T07:06:01.334710+02:00",
+      "reenactedEvent": false
     },
     {
       "alt": "Somiglianza sintetica editoriale di Luca de Meo in un contesto di lavorazione della pelle a Milano; scena non documentaria.",
