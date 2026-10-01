@@ -55,7 +55,6 @@ html.cm-dark .cm-topic-lead--primary .cm-topic-lead__body{background:var(--cm-pa
 .cm-featured-carousel__viewport:focus-visible{outline:3px solid #0091ff;outline-offset:4px}
 .cm-featured-carousel__track{display:flex;align-items:stretch}
 .cm-featured-carousel__slide{flex:0 0 100%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always}
-.cm-featured-carousel__slide:not(:first-child){content-visibility:auto;contain-intrinsic-size:auto 560px}
 .cm-featured-carousel__slide .cm-topic-lead--primary{height:calc(100% - 2px);margin:0 1px}
 .cm-featured-carousel__controls{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:12px}
 .cm-featured-carousel__arrow,.cm-featured-carousel__dot{border:0;cursor:pointer}
@@ -70,18 +69,6 @@ html.cm-dark .cm-topic-lead--primary .cm-topic-lead__body{background:var(--cm-pa
   .cm-featured-carousel__controls{margin-top:10px}
   .cm-featured-carousel .cm-topic-lead picture{order:0;margin:14px 14px 0}
   .cm-featured-carousel .cm-topic-lead__body{order:1}
-}
-/* Le card sotto la piega non partecipano a stile e layout del primo disegno. */
-#cards > .card,
-.cm-topic-section .cm-topic-card{
-  content-visibility:auto;
-  contain-intrinsic-size:auto 420px;
-}
-/* Il carosello riempie il primo schermo: il resto non va stilato al primo frame. */
-.cm-home-editorial > .cm-wire,
-.cm-home-editorial > .cm-topic-section{
-  content-visibility:auto;
-  contain-intrinsic-size:auto 880px;
 }
 
 /* La barra in alto e fissa: senza questo margine il titolo della sezione
