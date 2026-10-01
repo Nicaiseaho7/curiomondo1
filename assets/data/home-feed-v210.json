@@ -1,6 +1,40 @@
 {
-  "version": 721,
+  "version": 712,
   "items": [
+    {
+      "title": "Meteo Italia oggi e 7 giorni: sole e ottobrata, nessuna allerta nazionale",
+      "excerpt": "Giovedì 1 ottobre 2026 anticiclone su gran parte del Paese. Nubi e deboli piogge solo al Nord-Ovest e in Sardegna. Massime 24-29 °C fino al weekend.",
+      "url": "/notizie/meteo-italia-1-ottobre-8-ottobre-2026.html",
+      "section": "Italia",
+      "dateISO": "2026-10-01T05:30:14+02:00",
+      "dateLabel": "2026-10-01",
+      "image": "/assets/images/editorial-auto/meteo-italia-1-ottobre-8-ottobre-2026-v712-800.webp",
+      "imageAlt": "Mappa meteo Italia 1 ottobre 2026 con temperature e icone sole e nubi; infografica editoriale generata con IA.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/meteo-italia-1-ottobre-8-ottobre-2026-v712-480.webp 480w, /assets/images/editorial-auto/meteo-italia-1-ottobre-8-ottobre-2026-v712-800.webp 800w, /assets/images/editorial-auto/meteo-italia-1-ottobre-8-ottobre-2026-v712-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "verde",
+          "label": "nessuna allerta nazionale"
+        },
+        {
+          "icon": "▲",
+          "value": "24-29 °C",
+          "label": "massime tipiche"
+        },
+        {
+          "icon": "●",
+          "value": "1–8 ott",
+          "label": "tendenza settimanale"
+        }
+      ],
+      "featuredHighlights": [
+        "Meteo",
+        "ottobrata"
+      ]
+    },
     {
       "title": "Bologna, esonerato Tedesco: Palladino nuovo allenatore fino al 2029",
       "excerpt": "Il Bologna ha sollevato Domenico Tedesco dall'incarico dopo quattro giornate di Serie A e ha affidato la prima squadra a Raffaele Palladino, sotto contratto fino al 30 giugno 2029. Il nuovo tecnico dirige il primo allenamento nel pomeriggio del 16 settembre.",

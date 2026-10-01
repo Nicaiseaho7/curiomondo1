@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://curiomondo.it/notizie/meteo-italia-1-ottobre-8-ottobre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-01T05:30:14+02:00</news:publication_date>
+      <news:title>Meteo Italia oggi e 7 giorni: sole e ottobrata, nessuna allerta nazionale</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://curiomondo.it/notizie/bologna-esonera-tedesco-palladino-nuovo-allenatore-16-settembre-2026.html</loc>
     <news:news>
       <news:publication>
@@ -647,39 +658,6 @@
       </news:publication>
       <news:publication_date>2026-09-29T07:47:01+02:00</news:publication_date>
       <news:title>Jalud, scontri tra coloni e forze israeliane per lo sgombero</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/turchia-italia-1-4-nations-league-bastoni-frattesi-kayode-esposito-28-09-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-29T04:50:00+02:00</news:publication_date>
-      <news:title>Turchia-Italia 1-4: prima vittoria di Mancini, gol di Bastoni, Frattesi, Kayode e Pio Esposito</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/stadio-roma-pietralata-via-libera-definitivo-conferenza-servizi-28-09-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-29T04:50:00+02:00</news:publication_date>
-      <news:title>Stadio della Roma a Pietralata: via libera definitivo dalla Conferenza dei servizi</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/meteo-italia-29-settembre-5-ottobre-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-29T04:41:56+02:00</news:publication_date>
-      <news:title>Meteo Italia oggi e 7 giorni: sole fino a 31 gradi, allerta gialla in Sicilia</news:title>
     </news:news>
   </url>
 </urlset>
