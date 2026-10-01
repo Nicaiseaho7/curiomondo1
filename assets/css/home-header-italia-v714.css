@@ -16,14 +16,13 @@
   position:absolute;
   inset:0;
   z-index:0;
-  /* Su mobile la foto da 180KB sta sotto un velo quasi opaco: non si scarica. */
-  background:none;
+  background:
+    url('/assets/images/header-italia-cover-v714-800.webp') right center / cover no-repeat;
   pointer-events:none;
 }
 @media(min-width:701px){
   .header::before{
-    background:
-      url('/assets/images/header-italia-cover-v714.webp') right center / cover no-repeat;
+    background-image:url('/assets/images/header-italia-cover-v714.webp');
   }
 }
 .header::after{
