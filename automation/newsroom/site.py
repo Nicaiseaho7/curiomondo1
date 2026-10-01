@@ -253,7 +253,7 @@ def _picture(parent, item, eager=False):
 
 
 def _featured(item):
-    node = etree.Element("article", {"class": "featured"}); _picture(node, item, True)
+    node = etree.Element("article", {"class": "featured"}); _picture(node, item, False)
     txt = etree.SubElement(node, "div", {"class": "txt"})
     etree.SubElement(txt, "span", {"class": "tag"}).text = "In evidenza"
     h1 = etree.SubElement(txt, "h1"); title = item["title"]
@@ -403,10 +403,19 @@ def sync_surfaces(new_articles: list[dict[str, Any]], featured_url: str, version
     ordered = feed_items[1:]
     old_featured = doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]')[0]
     old_featured.getparent().replace(old_featured, _featured(featured))
+    for link in doc.xpath('//link[@rel="preload"][@as="image"]')[1:]:
+        link.getparent().remove(link)
     for link in doc.xpath('//link[@rel="preload"][@as="image"]'):
-        link.set("href", featured["image"])
-        link.set("imagesrcset", featured["srcset"])
-        link.set("imagesizes", "(max-width:600px) 79vw,300px")
+        srcset = featured["srcset"]
+        href = featured["image"]
+        for part in srcset.split(","):
+            piece = part.strip()
+            if piece.endswith("480w"):
+                href = piece.rsplit(" ", 1)[0]
+                break
+        link.set("href", href)
+        link.set("imagesrcset", srcset)
+        link.set("imagesizes", "(max-width: 700px) 250px, (max-width: 900px) calc(50vw - 32px), 380px")
         link.set("fetchpriority", "high")
     rail = doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," auto-rail ")]')[0]
     for child in list(rail): rail.remove(child)

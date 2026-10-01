@@ -40,12 +40,17 @@ const hourLabel = (entry) => {
     .format(date).replace('.', '');
 };
 
+const LCP_SIZES = '(max-width: 700px) 250px, (max-width: 900px) calc(50vw - 32px), 380px';
+
 const picture = (entry, eager) => {
   if (!entry.image) return '';
+  const parts = String(entry.srcset || '').split(',').map((part) => part.trim()).filter(Boolean);
+  const small = parts.find((part) => /\s480w$/.test(part));
+  const src = eager && small ? small.split(/\s+/)[0] : entry.image;
   const extra = eager
-    ? ' loading="eager" decoding="async" fetchpriority="high"'
+    ? ' loading="eager" decoding="sync" fetchpriority="high"'
     : ' loading="lazy" decoding="async"';
-  return `<picture><img src="${esc(entry.image)}"${entry.srcset ? ` srcset="${esc(entry.srcset)}"` : ''} sizes="(max-width: 600px) calc(100vw - 28px), (max-width: 900px) calc(50vw - 32px), 380px" alt="${esc(entry.imageAlt)}" width="${entry.imageWidth || 800}" height="${entry.imageHeight || 533}"${extra}></picture>`;
+  return `<picture><img src="${esc(src)}"${entry.srcset ? ` srcset="${esc(entry.srcset)}"` : ''} sizes="${LCP_SIZES}" alt="${esc(entry.imageAlt)}" width="${entry.imageWidth || 800}" height="${entry.imageHeight || 533}"${extra}></picture>`;
 };
 
 const time = (entry) => {
@@ -173,10 +178,20 @@ if (placed) {
   home = home.replace(qday[0], qday[0] + placed[0]);
 }
 if (hero && hero.image) {
-  home = home.replace(
-    /<link rel="preload" as="image" href="[^"]*" imagesrcset="[^"]*" imagesizes="[^"]*" fetchpriority="high">/,
-    `<link rel="preload" as="image" href="${hero.image}" imagesrcset="${hero.srcset || ''}" imagesizes="(max-width: 600px) calc(100vw - 28px), 380px" fetchpriority="high">`
-  );
+  const parts = String(hero.srcset || '').split(',').map((part) => part.trim()).filter(Boolean);
+  const small = parts.find((part) => /\s480w$/.test(part));
+  const href = small ? small.split(/\s+/)[0] : hero.image;
+  const preload = `<link rel="preload" as="image" href="${href}" imagesrcset="${hero.srcset || ''}" imagesizes="${LCP_SIZES}" fetchpriority="high">`;
+  if (/<link rel="preload" as="image"[^>]*>/.test(home)) {
+    let seen = false;
+    home = home.replace(/<link rel="preload" as="image"[^>]*>/g, (tag) => {
+      if (seen) return '';
+      seen = true;
+      return preload;
+    });
+  } else {
+    home = home.replace('</head>', preload + '</head>');
+  }
 }
 let wireCount = 0;
 home = home.replace(/<section class="cm-wire" id="cm-ultima-ora"/g, (match) => {

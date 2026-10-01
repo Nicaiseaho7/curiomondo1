@@ -30,21 +30,39 @@
     security_storage: 'granted',
     wait_for_update: 500
   });
+  var loaded = false;
+  function loadGa() {
+    if (loaded || document.querySelector('script[src*="googletagmanager.com/gtag/js"]')) {
+      loaded = true;
+      return;
+    }
+    loaded = true;
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + ID;
+    document.head.appendChild(script);
+  }
   var state = consentState();
-  if (state.analytics || state.marketing) gtag('consent', 'update', payload(state));
-  gtag('js', new Date());
-  gtag('config', ID, { anonymize_ip: true });
-  var script = document.createElement('script');
-  script.async = true;
-  script.src = 'https://www.googletagmanager.com/gtag/js?id=' + ID;
-  document.head.appendChild(script);
+  if (state.analytics) {
+    gtag('consent', 'update', payload(state));
+    gtag('js', new Date());
+    gtag('config', ID, { anonymize_ip: true });
+    loadGa();
+  }
   var counted = state.analytics;
   function sync() {
     var next = consentState();
     gtag('consent', 'update', payload(next));
-    if (next.analytics && !counted) {
-      counted = true;
-      gtag('event', 'page_view');
+    if (next.analytics) {
+      if (!loaded) {
+        gtag('js', new Date());
+        gtag('config', ID, { anonymize_ip: true });
+        loadGa();
+      }
+      if (!counted) {
+        counted = true;
+        gtag('event', 'page_view');
+      }
     }
     if (!next.analytics) counted = false;
   }
