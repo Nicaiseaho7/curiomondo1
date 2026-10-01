@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 731,
-    "site_version": 731
+    "current_site_version": 732,
+    "site_version": 732
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -262,18 +262,24 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 722,
-  "version": "v722",
-  "release_version": "v722",
+  "site_version": 732,
+  "version": "v732",
+  "release_version": "v732",
   "last_release": {
-    "version": 722,
+    "version": 732,
     "date": "2026-10-01",
-    "type": "daily-editorial-package",
-    "news_added": [],
-    "news_updated": [],
-    "daily_question_added": "quanto-siamo-liberi-nelle-scelte-che-facciamo-per-non-deludere-chi-amiamo",
-    "ebook_added": "quanto-siamo-liberi-nelle-scelte-che-facciamo-per-non-deludere-chi-amiamo",
+    "type": "verified-news-package",
+    "news_added": [
+      "tamoil-misure-prezzi-carburanti-31-ottobre-2026",
+      "istat-occupazione-agosto-disoccupazione-62-1-ottobre-2026",
+      "hegseth-discorso-quantico-autowarcom-1-ottobre-2026",
+      "supermedia-sondaggi-vannacci-pd-204-1-ottobre-2026",
+      "francia-proteste-studenti-scuole-lezioni-distanza-1-ottobre-2026"
+    ],
+    "news_updated": [
+      "meloni-von-der-leyen-flessibilita-inflazione-energia-30-settembre-2026"
+    ],
     "guides_added": [],
-    "change": "Domanda canonica n. 1014 ed eBook lungo dedicato; riparato anche il pacchetto canonico n. 1013 senza modificare notizie."
+    "change": "Cinque notizie verificate dagli screenshot e aggiornamento della lettera Meloni; nuove immagini IA dedicate e superfici editoriali sincronizzate."
   }
 }
