@@ -85,7 +85,7 @@ Prima di approvare un titolo, confrontarlo con gli ultimi **10 titoli di notizie
 3. Quando la materia lo consente, confrontare due o tre alternative realmente diverse; almeno una deve essere dichiarativa e informativa. Non creare varianti solo cambiando «cosa» con «quali».
 4. Scegliere il titolo più preciso e interessante per ciò che promette realmente il pezzo, non il più misterioso. Applicare il test Google e il test della promessa mantenuta.
 5. Confrontare gli ultimi 10 titoli e il lotto corrente secondo §4.
-6. Verificare che titolo, sommario e testo coincidano nei fatti e nel grado di certezza; sincronizzare tutte le superfici indicate nell'ambito.
+6. Verificare che titolo, sommario e testo coincidano nei fatti e nel grado di certezza; sincronizzare tutte le superfici indicate nell'ambito. Controllare anche il testo decodificato dell'HTML, comprese parole evidenziate e card di fallback: una ricerca della stringa nel sorgente non basta quando il titolo contiene tag.
 
 Checklist bloccante:
 
@@ -96,7 +96,7 @@ Checklist bloccante:
 - Non sono nascosti fatti essenziali, limiti o attribuzioni per ottenere il clic?
 - La domanda, se presente, è realmente giustificata e non seriale?
 - Il titolo evita formule intercambiabili, ripetizioni, enfasi e italiano artificiale?
-- H1, metadati, card, feed e indici sono coerenti?
+- H1, metadati, card, feed e indici sono coerenti, anche nei fallback e nei titoli con parole evidenziate?
 
 Se manca il motivo per approfondire, rivedere l'angolazione sui fatti disponibili, non aggiungere una domanda o una coda vaga. La valutazione di curiosità e veridicità è editoriale: un conteggio di `?`, della parola «cosa», di cifre o di caratteri non misura la qualità di un titolo.
 
