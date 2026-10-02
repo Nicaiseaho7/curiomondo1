@@ -3,6 +3,36 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/che-cose-lape-attestato-prestazione-energetica-ai-v734-480.webp",
+          "sha256": "b7490e1f489f6078e0693f0f9ea9a9f1ce73ea97308a8428a8f71657050253bb",
+          "bytes": 29960
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/che-cose-lape-attestato-prestazione-energetica-ai-v734-800.webp",
+          "sha256": "3578e1f3419cd1037227b7db4b632bb4fefa8efee86e9521197ad9d62638c869",
+          "bytes": 79066
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/che-cose-lape-attestato-prestazione-energetica-ai-v734-1200.webp",
+          "sha256": "7bf443356d865b2cba16652cdb35fc796a2dcae1daa8f99877ecdda46af5108a",
+          "bytes": 162784
+        }
+      ],
+      "aiGenerated": true,
+      "alt": "Palazzo residenziale italiano con facciata chiara e persiane verdi, al mattino; illustrazione editoriale IA, non una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "generator": "Grok Imagine",
+      "generatedAt": "2026-10-02T07:20:00+02:00",
+      "sourceSha256": "7bf443356d865b2cba16652cdb35fc796a2dcae1daa8f99877ecdda46af5108a",
+      "article": "/approfondimenti/che-cose-lape.html"
+    },
+    {
       "key": "meteo-italia-2-ottobre-9-ottobre-2026-v733",
       "alt": "Mappa meteo Italia 2 ottobre 2026 con temperature sulle città principali e icone sole e nubi; infografica editoriale generata con IA.",
       "prompt": "Mappa meteorologica editoriale dell’Italia 2–9 ottobre 2026 con sole, nubi e temperature.",
