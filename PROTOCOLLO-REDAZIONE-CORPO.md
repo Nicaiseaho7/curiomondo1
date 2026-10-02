@@ -18,7 +18,7 @@ Nel corpo pubblico non devono mai comparire appunti interni, verifiche automatic
 
 ## Markup
 
-- **Titolo (H1):** secondo `PROTOCOLLO-TITOLI-CTR.md`. Informativo, senza clickbait falso, coerente col fatto. Non chiude tutta la risposta: il dettaglio tenuto fuori sta nel sommario.
+- **Titolo (H1):** secondo `PROTOCOLLO-TITOLI-CTR.md` v2.0. Informativo e professionale; può già dare il fatto principale. Curiosità facoltativa, domande solo motivate, nessuno schema seriale «cosa…». Il sommario aggiunge dettagli, non recupera informazioni nascoste per il clic.
 - **Sommario (`.subtitle`):** uno o due elementi non già nel titolo.
 - **Lead:** primo paragrafo di `.art-body`. Si regge da solo.
 - **Corpo:** `.art-body` con `data-editorial-protocol="4.0"` e `data-article-format` (`flash` | `standard` | `feature`). I nuovi articoli **non** dichiarano `data-length-policy="3000-7000"`.
@@ -99,4 +99,3 @@ Nelle hero e illustrazioni di **notizie su incidenti stradali, morti sul lavoro,
 - Tone: documentario, rispettoso della vittima, non tabloid.
 
 Violazione = rigenerare l’immagine e aggiornare hero/og prima del go-live. **Non deve più succedere.**
-

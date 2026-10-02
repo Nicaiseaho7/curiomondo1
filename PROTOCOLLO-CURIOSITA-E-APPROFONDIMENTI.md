@@ -149,7 +149,7 @@ Ipotesi ≠ fatti.
 ## 5. STRUTTURA EDITORIALE OBBLIGATORIA
 
 ```
-1. H1 chiaro («Che cos’è…», «Perché…», «Come funziona…»)
+1. H1 chiaro e specifico: anche dichiarativo; domanda solo se descrive il reale intento della guida
 2. Lead 120–180 parole — risposta in pillola + perché conta
 3. Indice (opzionale se >3.000 parole)
 4. Corpo H2/H3:
@@ -166,7 +166,7 @@ Ipotesi ≠ fatti.
 ```
 
 ### Titolo
-Interessante ma **preciso**. Segue `PROTOCOLLO-TITOLI-CTR.md` (70/30, 55–70 caratteri, tema all’inizio). No clickbait falso. Deve mantenere la promessa.
+Interessante ma **preciso**. Segue `PROTOCOLLO-TITOLI-CTR.md` v2.0: la curiosità nasce dal tema e dai fatti, non da una domanda obbligatoria. Anche il titolo dichiarativo è valido. «Che cos'è», «come» e «perché» sono ammessi quando esprimono un reale intento di comprensione, non come schema seriale. Tema vicino all'inizio e 55–70 caratteri sono orientamenti; niente 70/30, informazioni nascoste per il clic o promesse non mantenute. Per i titoli prevale il protocollo dedicato.
 
 ### Lead
 Entra subito nel tema. Vietato: «Fin dall’alba dei tempi…», «In un mondo sempre più…».

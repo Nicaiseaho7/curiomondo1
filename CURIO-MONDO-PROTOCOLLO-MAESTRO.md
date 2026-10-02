@@ -1,5 +1,9 @@
 # CURIO MONDO — PROTOCOLLO MAESTRO EDITORIALE E TECNICO
 
+## Titoli professionali e vari — 2 ottobre 2026
+
+Per i titoli prevale `PROTOCOLLO-TITOLI-CTR.md` v2.0. Titoli dichiarativi, diretti e informativi come scelta ordinaria; curiosità facoltativa attraverso novità, dati, contrasti o conseguenze verificati. Domande solo quando il contenuto le giustifica, mai come schema seriale, anche senza `?` («cosa cambia», «quali…»). Confrontare gli ultimi 10 titoli reali e il lotto per evitare attacchi e code ripetuti. Aboliti 70/30, obbligo di suspense e divieto di titoli descrittivi; 55–70 caratteri è un orientamento. Non riscrivere titoli già online senza una richiesta di revisione.
+
 ## REVISIONE v503 — GATE PROPORZIONATO E AUTORIPARAZIONE
 
 **Data:** 22 settembre 2026  

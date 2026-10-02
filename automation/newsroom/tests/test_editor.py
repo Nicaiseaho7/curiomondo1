@@ -31,7 +31,8 @@ class ClienteFinto(Client):
         self.chiamate = []
 
     def complete_json(self, model, system, user, schema_hint="", max_tokens=2000, sforzo="low"):
-        self.chiamate.append({"model": model, "user": user})
+        self.chiamate.append({"model": model, "system": system, "user": user,
+                              "schema_hint": schema_hint})
         if not self.risposte:
             raise AssertionError("chiamata inattesa al modello")
         return self.risposte.pop(0), Usage(calls=1, input_tokens=100, output_tokens=50)
@@ -204,6 +205,75 @@ def articolo_valido(**extra):
 
 def test_articolo_valido_non_ha_problemi():
     assert editor.controlla_articolo(articolo_valido()) == []
+
+
+def test_stesura_legge_protocollo_titoli_canonico_e_confronta_titoli_reali():
+    client = ClienteFinto([articolo_valido()])
+    recenti = ["Ucraina, il piano attribuito a Mosca: cosa rischia la rete",
+               "Covid, segnali di risalita: cosa indicano davvero i dati"]
+    lotto = ["CDP-Luiss, 1.200 candidature per 40 posti nel Corporate MBA"]
+    editor.scrivi(client, "gpt-5", "Dato Istat", "Istat", [estratto_ok()],
+                  editor.Verdetto(True, "dato verificato", categoria="Economia"),
+                  [], titoli_recenti=recenti, titoli_lotto=lotto)
+    chiamata = client.chiamate[0]
+    assert editor.TITOLI_PROTOCOLLO_PATH.read_text(encoding="utf-8") in chiamata["system"]
+    assert "curiosità è facoltativa" in chiamata["system"]
+    assert "interrogative indirette" in chiamata["system"]
+    assert all(titolo in chiamata["user"] for titolo in recenti)
+    assert all(titolo in chiamata["user"] for titolo in lotto)
+    assert "55-70 caratteri indicativi" in chiamata["schema_hint"]
+
+
+def test_stesura_bloccata_se_protocollo_titoli_manca(monkeypatch, tmp_path):
+    monkeypatch.setattr(editor, "TITOLI_PROTOCOLLO_PATH", tmp_path / "mancante.md")
+    client = ClienteFinto([])
+    with pytest.raises(FileNotFoundError):
+        editor.scrivi(client, "gpt-5", "Dato Istat", "Istat", [estratto_ok()],
+                      editor.Verdetto(True, "dato verificato"), [])
+    assert client.chiamate == []
+
+
+def test_stesura_bloccata_se_protocollo_titoli_e_vuoto(monkeypatch):
+    monkeypatch.setattr(Path, "read_text", lambda self, **kwargs: " \n")
+    client = ClienteFinto([])
+    with pytest.raises(ValueError, match="protocollo titoli vuoto"):
+        editor.scrivi(client, "gpt-5", "Dato Istat", "Istat", [estratto_ok()],
+                      editor.Verdetto(True, "dato verificato"), [])
+    assert client.chiamate == []
+
+
+def test_titoli_recenti_usano_testo_reale_data_e_solo_notizie(monkeypatch):
+    feed = {"items": [
+        {"title": "Titolo meno recente", "url": "/notizie/slug-diverso.html",
+         "dateISO": "2026-10-01"},
+        {"title": "Guida esclusa", "url": "/approfondimenti/guida.html",
+         "dateISO": "2026-10-03T12:00:00+02:00"},
+        {"title": "Titolo davvero pubblicato", "url": "/notizie/altro-slug.html",
+         "dateISO": "2026-10-02T12:00:00+02:00"},
+    ]}
+    monkeypatch.setattr(Path, "read_text", lambda self, **kwargs: json.dumps(feed))
+    assert editor.leggi_titoli_recenti(Path("feed.json"), limite=1) == [
+        "Titolo davvero pubblicato"]
+
+
+def test_titoli_recenti_confrontano_offset_diversi(monkeypatch):
+    feed = {"items": [
+        {"title": "Mezzogiorno italiano", "url": "/notizie/a.html",
+         "dateISO": "2026-10-02T12:00:00+02:00"},
+        {"title": "Mezzogiorno e trenta italiano", "url": "/notizie/b.html",
+         "dateISO": "2026-10-02T10:30:00+00:00"},
+    ]}
+    monkeypatch.setattr(Path, "read_text", lambda self, **kwargs: json.dumps(feed))
+    assert editor.leggi_titoli_recenti(Path("feed.json")) == [
+        "Mezzogiorno e trenta italiano", "Mezzogiorno italiano"]
+
+
+@pytest.mark.parametrize("titolo", [
+    "Istat, il PIL italiano cresce dello 0,3% nel secondo trimestre",
+    "PIL in crescita dello 0,3%",
+])
+def test_titolo_diretto_e_sotto_55_caratteri_resta_valido(titolo):
+    assert editor.controlla_articolo(articolo_valido(titolo=titolo)) == []
 
 
 def test_scarta_paragrafo_troppo_lungo():

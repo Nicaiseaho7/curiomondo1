@@ -41,16 +41,18 @@ Le fasce flash / standard / approfondimento restano un orientamento di formato, 
 
 I nuovi articoli non devono dichiarare `data-length-policy="3000-7000"`.
 
-## Titoli ad alto CTR — 2 ottobre 2026
+## Titoli professionali e vari — revisione 2.0, 2 ottobre 2026
 
 Per il titolo di ogni articolo nuovo, e di ogni revisione di titolo richiesta, vale `PROTOCOLLO-TITOLI-CTR.md`.
 
-- Regola 70/30: il titolo chiarisce l’argomento e lascia fuori un dettaglio vero (impatto, svolta o data). Quel dettaglio sta nel sommario o nel lead. La promessa si mantiene nel testo.
-- Parola chiave e tema nei primi 35–40 caratteri. Lunghezza ideale 55–70 caratteri, senza contare ` | CurioMondo`.
-- Vietati i titoli freddi da agenzia e i titoli che chiudono già tutta la risposta. Vietato il clickbait falso.
+- Il titolo dichiarativo, diretto e informativo è la scelta ordinaria. La curiosità è facoltativa e nasce da fatti, novità, dati o conseguenze verificate.
+- Aboliti la regola 70/30, l'obbligo di nascondere un dettaglio e il divieto di titoli descrittivi. Non creare suspense su informazioni essenziali.
+- Domande solo se realmente giustificate dal contenuto, mai come schema seriale. Vale anche per «cosa cambia», «cosa rischia», «quali…» senza punto interrogativo.
+- Confrontare i titoli reali degli ultimi 10 articoli e quelli del lotto: evitare attacchi, code e strutture generiche ripetute; non ruotare sinonimi per mascherarle.
+- Tema vicino all'inizio; 55–70 caratteri come orientamento, non obbligo. Accuratezza, attribuzione e italiano naturale prevalgono sulla misura e sul clic.
 - Non si riscrivono i titoli già online solo per questa regola.
 
-Questa sezione prevale, solo sulla formulazione del titolo, sulle istruzioni incompatibili di `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`, `PROTOCOLLO-REDAZIONE-CORPO.md` e `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`.
+Questa sezione e `PROTOCOLLO-TITOLI-CTR.md` v2.0 prevalgono, solo sulla formulazione del titolo, sulle istruzioni incompatibili degli altri protocolli, prompt e riepiloghi legacy nelle skill. Non applicare eventuali richiami residui al 70/30.
 
 
 ## Regola editoriale flessibile v471 — prevalenza assoluta
@@ -236,4 +238,3 @@ Nelle hero e illustrazioni di **notizie su incidenti stradali, morti sul lavoro,
 - Tone: documentario, rispettoso della vittima, non tabloid.
 
 Violazione = rigenerare l’immagine e aggiornare hero/og prima del go-live. **Non deve più succedere.**
-

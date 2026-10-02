@@ -41,6 +41,8 @@ una richiesta di autorizzazione umana.
 7. `automation/config.json`
 8. `automation/live-sources.json`
 
+Prima della stesura leggere anche `PROTOCOLLO-TITOLI-CTR.md` v2.0: per la formulazione dei titoli prevale su qualsiasi riepilogo incompatibile di questo manuale.
+
 Se uno di questi file manca o è incoerente con questo manuale, interrompere il
 ciclo senza pubblicare nulla e segnalarlo (nessuna pubblicazione forzata).
 
@@ -129,7 +131,8 @@ Il testo pubblico segue `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` (v502). Questo p
 
 - Costruire l’articolo attorno al fatto verificato, non attorno a una lunghezza-obiettivo.
 - **Zero ripetizioni**: nessun fatto, cifra, causa o conseguenza compare due volte, nemmeno parafrasata.
-- Titolo fattuale; lead con il cuore della notizia; piramide invertita per hard news.
+- Titolo professionale secondo `PROTOCOLLO-TITOLI-CTR.md` v2.0: dichiarativo e informativo come scelta ordinaria, curiosità facoltativa e domande solo motivate. Aboliti 70/30 e obbligo di nascondere dettagli. Confrontare gli ultimi 10 titoli reali e il lotto: niente code seriali «cosa…», «quali…», «ecco…» o rotazioni di sinonimi. 55–70 caratteri è un orientamento, non una quota.
+- Lead con il cuore della notizia; piramide invertita per hard news.
 - H2/H3 nel corpo solo se informativi e utili. Vietati i titoletti generici. Nelle notizie standard corte i paragrafi possono bastare.
 - Non inserire ganci didascalici, glossari o meta-commenti di redazione nel corpo.
 - Quando il tema lo giustifica, creare o collegare un **approfondimento evergreen** indicizzabile (vedi §6). L'eccezione è ammessa solo se davvero non esiste un contesto durevole utile.

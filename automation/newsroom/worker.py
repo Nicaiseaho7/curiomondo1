@@ -66,6 +66,7 @@ def lavora(
         return log.summary("ok", bozze=0, motivo="nessun candidato in attesa")
 
     titoli_esistenti = existing_site_titles(articles_dir or (ROOT / "notizie"), limit=60)
+    titoli_recenti = editor.leggi_titoli_recenti(ROOT / "assets/data/home-feed-v210.json")
     bozze: list[dict[str, Any]] = []
     esaminati = 0
 
@@ -136,6 +137,8 @@ def lavora(
             articolo, uso_stesura = editor.scrivi(
                 client, modello_stesura, candidato.title, candidato.source,
                 estratti, verdetto, candidato.corroborations,
+                titoli_recenti=titoli_recenti,
+                titoli_lotto=[bozza["titolo"] for bozza in bozze],
             )
         except BudgetExceeded as exc:
             log.event("budget_esaurito", dettaglio=str(exc))

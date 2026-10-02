@@ -18,7 +18,10 @@ import json
 import re
 import unicodedata
 from dataclasses import dataclass
+from datetime import datetime
+from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 from .extract import Extracted
 from .normalize import dominio
@@ -31,6 +34,7 @@ CATEGORIE = (
 )
 
 FORMATI = {"flash": (100, 250), "standard": (300, 600), "feature": (800, 1500)}
+TITOLI_PROTOCOLLO_PATH = Path(__file__).resolve().parents[2] / "PROTOCOLLO-TITOLI-CTR.md"
 
 SISTEMA_VERIFICA = """Sei il caporedattore di CurioMondo, una testata italiana.
 
@@ -83,7 +87,9 @@ cifre, cause, scene, emozioni o citazioni che non siano nel materiale. Se un
 elemento non e noto, dichiaralo invece di ipotizzarlo.
 
 Struttura obbligatoria (piramide invertita):
-1. Titolo chiaro e fattuale, senza clickbait, coerente con il fatto.
+1. Titolo professionale, chiaro e fattuale secondo il protocollo titoli allegato.
+   Dichiarativo e informativo come scelta ordinaria; curiosita facoltativa sui
+   fatti. Domande solo motivate, mai una coda seriale "cosa..." o "quali...".
 2. Sommario di una o due frasi che completano il titolo con un dettaglio chiave,
    senza ripeterlo.
 3. Primo paragrafo: il nocciolo della notizia, con chi, cosa, quando, dove e
@@ -121,6 +127,27 @@ def slugify(testo: str) -> str:
     piatto = "".join(c for c in piatto if unicodedata.category(c) != "Mn").lower()
     piatto = re.sub(r"[^a-z0-9]+", "-", piatto).strip("-")
     return re.sub(r"-{2,}", "-", piatto)[:90].strip("-")
+
+
+def leggi_titoli_recenti(percorso_feed: Path, limite: int = 10) -> list[str]:
+    """Titoli reali delle notizie, ordinati per data, non ricavati dagli slug.
+
+    Un feed illeggibile o una data non valida interrompono la stesura: non si
+    sostituisce silenziosamente il controllo con un contesto inesistente.
+    """
+    dati = json.loads(percorso_feed.read_text(encoding="utf-8"))
+    notizie = [item for item in dati["items"]
+               if str(item.get("url", "")).startswith("/notizie/")
+               and item.get("title")]
+
+    def data_pubblicazione(item: dict[str, Any]) -> datetime:
+        data = datetime.fromisoformat(item["dateISO"])
+        # Lo storico contiene anche date senza ora/offset: sono date italiane,
+        # non UTC. Normalizzarle permette di confrontarle con le nuove ISO.
+        return data if data.tzinfo else data.replace(tzinfo=ZoneInfo("Europe/Rome"))
+
+    notizie.sort(key=data_pubblicazione, reverse=True)
+    return [str(item["title"]) for item in notizie[:limite]]
 
 
 @dataclass
@@ -281,8 +308,15 @@ def scrivi(
     estratti: list[Extracted],
     verdetto: Verdetto,
     conferme: list[dict[str, Any]],
+    titoli_recenti: list[str] | None = None,
+    titoli_lotto: list[str] | None = None,
 ) -> tuple[dict[str, Any], Usage]:
     """Genera l'articolo rispettando il contratto che il gate verifica."""
+    # Il documento canonico viene letto a ogni stesura: un aggiornamento del
+    # protocollo non deve dipendere da una copia vecchia dentro il prompt.
+    protocollo_titoli = TITOLI_PROTOCOLLO_PATH.read_text(encoding="utf-8")
+    if not protocollo_titoli.strip():
+        raise ValueError("protocollo titoli vuoto: stesura bloccata")
     minimo, massimo = FORMATI.get(verdetto.formato, FORMATI["standard"])
     obiettivo = int((minimo + massimo) / 2)
 
@@ -300,6 +334,20 @@ VALORE AGGIUNTO da rendere esplicito nel testo:
     citabili = url_citabili(estratti, conferme)
     istruzioni += "\n\nINDIRIZZI CITABILI (usane almeno due DIVERSI, copiati esattamente):\n- " + "\n- ".join(citabili)
 
+    if titoli_recenti:
+        istruzioni += (
+            "\n\nULTIMI 10 TITOLI REALI PUBBLICATI, dal piu recente:"
+            "\nConfronta attacchi, code e strutture: non replicare formule seriali,"
+            " ne sostituirle con sinonimi. I nomi e le keyword pertinenti possono ripetersi.\n- "
+            + "\n- ".join(titoli_recenti[:10])
+        )
+    if titoli_lotto:
+        istruzioni += (
+            "\n\nTITOLI GIA APPROVATI NEL LOTTO IN PREPARAZIONE:"
+            "\nEvita lo stesso attacco, coda o schema anche tra queste nuove notizie.\n- "
+            + "\n- ".join(titoli_lotto)
+        )
+
     if verdetto.sensibile:
         istruzioni += (
             "\n\nTEMA DELICATO: attribuisci ogni numero e ogni responsabilita. "
@@ -308,7 +356,7 @@ VALORE AGGIUNTO da rendere esplicito nel testo:
 
     schema = """Rispondi con questo JSON:
 {
-  "titolo": "titolo fattuale, max 100 caratteri, senza clickbait",
+  "titolo": "titolo professionale e informativo, preferibilmente dichiarativo; 55-70 caratteri indicativi, max 100; niente domande forzate o clickbait",
   "sommario": "una o due frasi che completano il titolo senza ripeterlo, 150-250 caratteri",
   "luogo": "citta o paese del fatto, una o due parole",
   "paragrafi": ["primo paragrafo con le 5 W", "secondo", "..."],
@@ -336,7 +384,7 @@ Vincoli tassativi:
 
     dati, uso = client.complete_json(
         model=modello,
-        system=SISTEMA_STESURA,
+        system=SISTEMA_STESURA + "\n\nPROTOCOLLO CANONICO TITOLI:\n" + protocollo_titoli,
         user=_materiale(titolo, fonte, estratti) + "\n\n" + istruzioni,
         schema_hint=schema,
         max_tokens=9000,

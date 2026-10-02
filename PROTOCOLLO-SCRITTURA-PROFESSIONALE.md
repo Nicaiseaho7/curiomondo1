@@ -44,9 +44,9 @@ Non aggiungere informazioni non verificate per rendere l'articolo apparentemente
 2. TITOLO
 ════════════════════════════════════
 
-Dal 2 ottobre 2026 la formulazione del titolo segue `PROTOCOLLO-TITOLI-CTR.md`: regola 70/30, tema nei primi 35–40 caratteri, 55–70 caratteri, niente titolo freddo da agenzia, niente risposta già chiusa nel titolo. Il dettaglio lasciato fuori compare nel sommario o nel lead. Il clickbait falso resta vietato, come le formule sensazionalistiche sotto.
+Dal 2 ottobre 2026 la formulazione del titolo segue `PROTOCOLLO-TITOLI-CTR.md` v2.0: titolo dichiarativo e informativo come scelta ordinaria, curiosità facoltativa basata sui fatti, domande solo motivate e controllo di varietà sugli ultimi 10 titoli e sul lotto. La regola 70/30 e l'obbligo di lasciare una risposta in sospeso sono aboliti. Tema vicino all'inizio e 55–70 caratteri restano orientamenti, non vincoli che giustificano parole inutili. Il clickbait falso e le formule sensazionalistiche sotto restano vietati.
 
-Il titolo deve comunicare il fatto principale, senza esaurirlo.
+Il titolo deve comunicare il fatto principale. Può già dare risultato, cifra, decisione o orario; il sommario e il lead aggiungono dettagli e contesto senza nascondere informazioni essenziali per ottenere il clic.
 
 Deve essere:
 
@@ -61,7 +61,7 @@ Preferire:
 
 SOGGETTO + FATTO/AZIONE + ELEMENTO NUOVO
 
-Evitare titoli costruiti con formule sensazionalistiche. La curiosità vera, nei limiti di `PROTOCOLLO-TITOLI-CTR.md`, è invece richiesta.
+Evitare titoli costruiti con formule sensazionalistiche. La curiosità vera è ammessa quando nasce da un elemento documentato, non è richiesta per ogni articolo e non impone una domanda.
 
 VIETATI, salvo che siano realmente giustificati dai fatti:
 
@@ -605,6 +605,10 @@ HEADLINE CHECK
 - [ ] titolo sostenuto dal testo
 - [ ] nessuna esagerazione
 - [ ] nessuna certezza superiore alle prove
+- [ ] titolo informativo anche senza aprire l'articolo
+- [ ] domanda realmente utile, se presente, anche in forma indiretta
+- [ ] nessun attacco, coda o schema generico ripetuto nel lotto o negli ultimi 10 titoli
+- [ ] nessuna informazione essenziale nascosta per il clic
 
 WRITING CHECK
 
@@ -682,7 +686,7 @@ Non prevale su:
 - protocollo immagini (`AI-EDITORIAL-IMAGE-PROTOCOL.md`);
 - gate tecnico di pubblicazione completa.
 
-In caso di conflitto sulla scrittura del testo pubblico, questo file vince.
+In caso di conflitto sulla scrittura del testo pubblico, questo file vince; per la formulazione del titolo prevale `PROTOCOLLO-TITOLI-CTR.md` v2.0.
 
 La checklist compilata va usata in redazione. Non va inserita nella pagina pubblica.
 
@@ -717,4 +721,3 @@ Nelle hero e illustrazioni di **notizie su incidenti stradali, morti sul lavoro,
 - Tone: documentario, rispettoso della vittima, non tabloid.
 
 Violazione = rigenerare l’immagine e aggiornare hero/og prima del go-live. **Non deve più succedere.**
-

@@ -87,6 +87,23 @@
     }
   },
   "news": {
+    "headline_policy": {
+      "canonical_file": "PROTOCOLLO-TITOLI-CTR.md",
+      "version": "2.0",
+      "effective_date": "2026-10-02",
+      "default_style": "professional_declarative_informative",
+      "curiosity_required": false,
+      "mandatory_70_30_rule": false,
+      "withhold_essential_information_for_clicks": false,
+      "questions_only_when_content_justifies_them": true,
+      "indirect_questions_included_in_repetition_review": true,
+      "recent_real_headlines_to_review": 10,
+      "review_current_batch_for_repeated_patterns": true,
+      "ideal_character_range": [55, 70],
+      "character_range_is_guidance_not_hard_limit": true,
+      "accuracy_and_attribution_before_length_or_ctr": true,
+      "automatic_retroactive_rewriting": false
+    },
     "film_and_tv_tag": {
       "label": "Film e serie TV",
       "applies_to": [

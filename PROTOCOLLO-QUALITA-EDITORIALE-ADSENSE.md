@@ -120,7 +120,7 @@ Gli aggiornamenti sostanziali possono superare la fascia iniziale quando aggiung
 
 ## Struttura obbligatoria: piramide invertita
 
-1. **Titolo:** secondo `PROTOCOLLO-TITOLI-CTR.md`. Chiaro, coerente con il fatto, senza clickbait falso e senza chiudere già tutta la risposta.
+1. **Titolo:** secondo `PROTOCOLLO-TITOLI-CTR.md` v2.0. Chiaro, professionale e coerente con il fatto; il titolo diretto è ordinario, la curiosità facoltativa e le domande solo motivate. Nessun obbligo di lasciare una risposta in sospeso; niente clickbait falso o formule seriali.
 2. **Sommario o catenaccio:** una o due frasi che completano il titolo con un dettaglio chiave senza ripeterlo.
 3. **Lead:** il primo paragrafo contiene il nocciolo della notizia e risponde subito a chi, cosa, quando, dove e perché. Se una delle 5 W non è ancora nota, lo dichiara senza ipotesi.
 4. **Corpo:** dettagli, cifre, citazioni e contesto in ordine decrescente di importanza.
