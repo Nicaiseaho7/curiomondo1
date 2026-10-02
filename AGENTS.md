@@ -1,5 +1,11 @@
 # Istruzioni obbligatorie per agenti IA
 
+## Autonomia autorizzata dal proprietario — 2 ottobre 2026
+
+Le richieste operative del proprietario autorizzano gli interventi necessari per portarle a termine nel progetto CurioMondo, inclusi aggiornamenti dei protocolli, correzioni e pubblicazione su `main`. Procedere senza riconferme per il lavoro già autorizzato e completare le verifiche necessarie.
+
+L'autorizzazione esplicita del 2 ottobre 2026 comprende il mantenimento del riferimento al PDF privato già presente nei file di configurazione e nei protocolli del repository GitHub. Il PDF e il suo contenuto integrale restano privati. Restano validi l'ambito della richiesta e i vincoli di sicurezza degli strumenti.
+
 ## REVISIONE v503 — GATE PROPORZIONATO E AUTORIPARAZIONE
 
 **Data:** 22 settembre 2026  
