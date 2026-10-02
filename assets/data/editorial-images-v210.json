@@ -1,7 +1,39 @@
 {
-  "version": 732,
+  "version": 733,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "meteo-italia-2-ottobre-9-ottobre-2026-v733",
+      "alt": "Mappa meteo Italia 2 ottobre 2026 con temperature sulle città principali e icone sole e nubi; infografica editoriale generata con IA.",
+      "prompt": "Mappa meteorologica editoriale dell’Italia 2–9 ottobre 2026 con sole, nubi e temperature.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/meteo-italia-2-ottobre-9-ottobre-2026-v733-480.webp",
+          "sha256": "526a6e26d61a0904ecdf9a336c816ac556ea90a1fd5f96bfffd5e6e6e4cadcf3",
+          "bytes": 46288
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/meteo-italia-2-ottobre-9-ottobre-2026-v733-800.webp",
+          "sha256": "6864e718d8f06e8014ee7c56a61a0e7fc6a1e229462c6db3cd7827b9bba9b231",
+          "bytes": 103080
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/meteo-italia-2-ottobre-9-ottobre-2026-v733-1200.webp",
+          "sha256": "84dcdf84888402a0a19c8dad54032a5731098b8889c81301dcd48a2604e71623",
+          "bytes": 190608
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "agente editoriale Imagine (Grok)",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/meteo-italia-2-ottobre-9-ottobre-2026.html"
+    },
     {
       "variants": [
         {

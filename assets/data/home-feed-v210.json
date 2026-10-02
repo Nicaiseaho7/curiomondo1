@@ -1,6 +1,40 @@
 {
-  "version": 732,
+  "version": 733,
   "items": [
+    {
+      "title": "Meteo Italia oggi e 7 giorni: sole e ottobrata, nessuna allerta nazionale",
+      "excerpt": "Venerdì 2 ottobre 2026 anticiclone su gran parte del Paese. Nubi e isolati piovaschi solo al Nord-Ovest e in Sardegna. Massime 23-29 °C; possibile pioggia dal 7-8 ottobre.",
+      "url": "/notizie/meteo-italia-2-ottobre-9-ottobre-2026.html",
+      "section": "Italia",
+      "dateISO": "2026-10-02T05:31:06+02:00",
+      "dateLabel": "2026-10-02",
+      "image": "/assets/images/editorial-auto/meteo-italia-2-ottobre-9-ottobre-2026-v733-800.webp",
+      "imageAlt": "Mappa meteo Italia 2 ottobre 2026 con temperature sulle città principali e icone sole e nubi; infografica editoriale generata con IA.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/meteo-italia-2-ottobre-9-ottobre-2026-v733-480.webp 480w, /assets/images/editorial-auto/meteo-italia-2-ottobre-9-ottobre-2026-v733-800.webp 800w, /assets/images/editorial-auto/meteo-italia-2-ottobre-9-ottobre-2026-v733-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "verde",
+          "label": "nessuna allerta nazionale"
+        },
+        {
+          "icon": "▲",
+          "value": "23-29 °C",
+          "label": "massime tipiche"
+        },
+        {
+          "icon": "●",
+          "value": "2–9 ott",
+          "label": "tendenza settimanale"
+        }
+      ],
+      "featuredHighlights": [
+        "sole e ottobrata",
+        "nessuna allerta"
+      ]
+    },
     {
       "title": "Proteste degli studenti in Francia: scuole bloccate e lezioni a distanza",
       "excerpt": "Il governo affronta le mobilitazioni per insegnanti e strutture scolastiche. A Marsiglia viene ridimensionata la prima ricostruzione dell’episodio che ha coinvolto un preside.",
