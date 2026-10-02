@@ -41,18 +41,19 @@ Le fasce flash / standard / approfondimento restano un orientamento di formato, 
 
 I nuovi articoli non devono dichiarare `data-length-policy="3000-7000"`.
 
-## Titoli professionali e vari — revisione 2.0, 2 ottobre 2026
+## Titoli con curiosità veritiera e professionale — revisione 2.1, 2 ottobre 2026
 
 Per il titolo di ogni articolo nuovo, e di ogni revisione di titolo richiesta, vale `PROTOCOLLO-TITOLI-CTR.md`.
 
-- Il titolo dichiarativo, diretto e informativo è la scelta ordinaria. La curiosità è facoltativa e nasce da fatti, novità, dati o conseguenze verificate.
+- Il titolo dichiarativo, diretto e informativo è la scelta ordinaria. Ogni titolo deve offrire un motivo concreto e veritiero per approfondire: dettaglio distintivo, novità, contrasto, conseguenza, limite o utilità documentati. Non basta essere corretto ma generico; non sono obbligatorie sorpresa o suspense.
 - Aboliti la regola 70/30, l'obbligo di nascondere un dettaglio e il divieto di titoli descrittivi. Non creare suspense su informazioni essenziali.
 - Domande solo se realmente giustificate dal contenuto, mai come schema seriale. Vale anche per «cosa cambia», «cosa rischia», «quali…» senza punto interrogativo.
 - Confrontare i titoli reali degli ultimi 10 articoli e quelli del lotto: evitare attacchi, code e strutture generiche ripetute; non ruotare sinonimi per mascherarle.
+- Individuare internamente il motivo per approfondire e il suo riscontro nel corpo e nelle fonti. Applicare il test del titolo isolato su Google e della promessa mantenuta: fatto comprensibile, interesse specifico, dettagli realmente presenti nel pezzo. Vietato anche il clickbait formalmente vero ma fuorviante.
 - Tema vicino all'inizio; 55–70 caratteri come orientamento, non obbligo. Accuratezza, attribuzione e italiano naturale prevalgono sulla misura e sul clic.
 - Non si riscrivono i titoli già online solo per questa regola.
 
-Questa sezione e `PROTOCOLLO-TITOLI-CTR.md` v2.0 prevalgono, solo sulla formulazione del titolo, sulle istruzioni incompatibili degli altri protocolli, prompt e riepiloghi legacy nelle skill. Non applicare eventuali richiami residui al 70/30.
+Questa sezione e `PROTOCOLLO-TITOLI-CTR.md` v2.1 prevalgono, solo sulla formulazione del titolo, sulle istruzioni incompatibili degli altri protocolli, manifest, prompt e riepiloghi legacy nelle skill, comprese le vecchie indicazioni di curiosità facoltativa. Non applicare eventuali richiami residui al 70/30.
 
 
 ## Regola editoriale flessibile v471 — prevalenza assoluta

@@ -88,8 +88,13 @@ elemento non e noto, dichiaralo invece di ipotizzarlo.
 
 Struttura obbligatoria (piramide invertita):
 1. Titolo professionale, chiaro e fattuale secondo il protocollo titoli allegato.
-   Dichiarativo e informativo come scelta ordinaria; curiosita facoltativa sui
-   fatti. Domande solo motivate, mai una coda seriale "cosa..." o "quali...".
+   Dichiarativo e informativo come scelta ordinaria. Ogni titolo deve offrire
+   un motivo concreto e veritiero per approfondire: dettaglio distintivo, dato,
+   contrasto, conseguenza, limite o utilita documentati. Non basta un titolo
+   corretto ma generico; non nascondere il fatto principale. Domande solo
+   motivate, mai una coda seriale "cosa..." o "quali...". La promessa deve
+   essere mantenuta nel corpo; niente clickbait, anche formalmente vero ma
+   fuorviante. Nei temi sensibili privilegia sempre attribuzione e sobrieta.
 2. Sommario di una o due frasi che completano il titolo con un dettaglio chiave,
    senza ripeterlo.
 3. Primo paragrafo: il nocciolo della notizia, con chi, cosa, quando, dove e
@@ -334,6 +339,18 @@ VALORE AGGIUNTO da rendere esplicito nel testo:
     citabili = url_citabili(estratti, conferme)
     istruzioni += "\n\nINDIRIZZI CITABILI (usane almeno due DIVERSI, copiati esattamente):\n- " + "\n- ".join(citabili)
 
+    istruzioni += (
+        "\n\nCHECK TITOLO - MOTIVO PER APPROFONDIRE:"
+        "\nIndividua un dettaglio distintivo realmente presente nel materiale,"
+        " il suo riscontro nelle fonti e il valore che il corpo aggiunge al titolo."
+        " Quando utile confronta due o tre formulazioni diverse, almeno una dichiarativa."
+        " Applica il test Google: il titolo da solo deve chiarire il fatto e"
+        " far percepire perche leggere il pezzo, senza promessa vaga o informazione essenziale nascosta."
+        " Verifica la promessa mantenuta: non suggerire spiegazioni, conseguenze"
+        " o certezze che il materiale non sostiene. Queste verifiche sono interne:"
+        " non aggiungere note di lavorazione al JSON, ai metadati o al testo pubblico."
+    )
+
     if titoli_recenti:
         istruzioni += (
             "\n\nULTIMI 10 TITOLI REALI PUBBLICATI, dal piu recente:"
@@ -356,7 +373,7 @@ VALORE AGGIUNTO da rendere esplicito nel testo:
 
     schema = """Rispondi con questo JSON:
 {
-  "titolo": "titolo professionale e informativo, preferibilmente dichiarativo; 55-70 caratteri indicativi, max 100; niente domande forzate o clickbait",
+  "titolo": "titolo professionale e informativo con un motivo concreto e veritiero per approfondire, preferibilmente dichiarativo; 55-70 caratteri indicativi, max 100; fatto chiaro e promessa mantenuta, niente domande forzate o clickbait",
   "sommario": "una o due frasi che completano il titolo senza ripeterlo, 150-250 caratteri",
   "luogo": "citta o paese del fatto, una o due parole",
   "paragrafi": ["primo paragrafo con le 5 W", "secondo", "..."],

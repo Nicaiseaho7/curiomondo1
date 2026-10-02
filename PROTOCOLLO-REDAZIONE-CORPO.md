@@ -18,7 +18,7 @@ Nel corpo pubblico non devono mai comparire appunti interni, verifiche automatic
 
 ## Markup
 
-- **Titolo (H1):** secondo `PROTOCOLLO-TITOLI-CTR.md` v2.0. Informativo e professionale; può già dare il fatto principale. Curiosità facoltativa, domande solo motivate, nessuno schema seriale «cosa…». Il sommario aggiunge dettagli, non recupera informazioni nascoste per il clic.
+- **Titolo (H1):** secondo `PROTOCOLLO-TITOLI-CTR.md` v2.1. Informativo e professionale, con un motivo concreto e veritiero per approfondire, fondato su dettagli, dati, contrasti, conseguenze, limiti o utilità documentati. Può già dare il fatto principale; domande solo motivate, nessuno schema seriale «cosa…». Test del titolo isolato su Google e della promessa mantenuta. Il sommario aggiunge dettagli, non recupera informazioni nascoste per il clic.
 - **Sommario (`.subtitle`):** uno o due elementi non già nel titolo.
 - **Lead:** primo paragrafo di `.art-body`. Si regge da solo.
 - **Corpo:** `.art-body` con `data-editorial-protocol="4.0"` e `data-article-format` (`flash` | `standard` | `feature`). I nuovi articoli **non** dichiarano `data-length-policy="3000-7000"`.

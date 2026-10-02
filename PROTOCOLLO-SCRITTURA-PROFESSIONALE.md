@@ -44,7 +44,7 @@ Non aggiungere informazioni non verificate per rendere l'articolo apparentemente
 2. TITOLO
 ════════════════════════════════════
 
-Dal 2 ottobre 2026 la formulazione del titolo segue `PROTOCOLLO-TITOLI-CTR.md` v2.0: titolo dichiarativo e informativo come scelta ordinaria, curiosità facoltativa basata sui fatti, domande solo motivate e controllo di varietà sugli ultimi 10 titoli e sul lotto. La regola 70/30 e l'obbligo di lasciare una risposta in sospeso sono aboliti. Tema vicino all'inizio e 55–70 caratteri restano orientamenti, non vincoli che giustificano parole inutili. Il clickbait falso e le formule sensazionalistiche sotto restano vietati.
+Dal 2 ottobre 2026 la formulazione del titolo segue `PROTOCOLLO-TITOLI-CTR.md` v2.1: titolo dichiarativo e informativo come scelta ordinaria, con un motivo concreto e veritiero per approfondire in ogni pezzo. La curiosità nasce da dettagli distintivi, dati, contrasti, conseguenze, limiti, meccanismi o utilità documentati; non da suspense o domande automatiche. Individuare il riscontro nel corpo e nelle fonti, applicare il test del titolo isolato su Google e della promessa mantenuta e controllare la varietà sugli ultimi 10 titoli e sul lotto. La regola 70/30 e l'obbligo di lasciare una risposta in sospeso restano aboliti. Tema vicino all'inizio e 55–70 caratteri restano orientamenti, non vincoli che giustificano parole inutili. Sono vietati sia il clickbait falso sia quello formalmente vero ma fuorviante, oltre alle formule sensazionalistiche sotto.
 
 Il titolo deve comunicare il fatto principale. Può già dare risultato, cifra, decisione o orario; il sommario e il lead aggiungono dettagli e contesto senza nascondere informazioni essenziali per ottenere il clic.
 
@@ -55,13 +55,14 @@ Deve essere:
 - naturale;
 - leggibile;
 - specifico;
+- interessante per una ragione concreta sostenuta dal pezzo;
 - coerente con ciò che è realmente confermato.
 
 Preferire:
 
 SOGGETTO + FATTO/AZIONE + ELEMENTO NUOVO
 
-Evitare titoli costruiti con formule sensazionalistiche. La curiosità vera è ammessa quando nasce da un elemento documentato, non è richiesta per ogni articolo e non impone una domanda.
+Evitare titoli costruiti con formule sensazionalistiche. Ogni titolo deve far percepire un motivo documentato per leggere il pezzo: l'intensità dell'interesse è proporzionata alla notizia e, nei servizi, può coincidere con l'utilità concreta. Non impone una domanda, una sorpresa o l'omissione del fatto principale.
 
 VIETATI, salvo che siano realmente giustificati dai fatti:
 
@@ -606,6 +607,9 @@ HEADLINE CHECK
 - [ ] nessuna esagerazione
 - [ ] nessuna certezza superiore alle prove
 - [ ] titolo informativo anche senza aprire l'articolo
+- [ ] motivo concreto e specifico per approfondire, riscontrato nel corpo e nelle fonti
+- [ ] promessa di contesto, spiegazioni o conseguenze realmente mantenuta nel pezzo
+- [ ] titolo comprensibile e non fuorviante anche isolato nei risultati Google
 - [ ] domanda realmente utile, se presente, anche in forma indiretta
 - [ ] nessun attacco, coda o schema generico ripetuto nel lotto o negli ultimi 10 titoli
 - [ ] nessuna informazione essenziale nascosta per il clic
@@ -686,7 +690,7 @@ Non prevale su:
 - protocollo immagini (`AI-EDITORIAL-IMAGE-PROTOCOL.md`);
 - gate tecnico di pubblicazione completa.
 
-In caso di conflitto sulla scrittura del testo pubblico, questo file vince; per la formulazione del titolo prevale `PROTOCOLLO-TITOLI-CTR.md` v2.0.
+In caso di conflitto sulla scrittura del testo pubblico, questo file vince; per la formulazione del titolo prevale `PROTOCOLLO-TITOLI-CTR.md` v2.1.
 
 La checklist compilata va usata in redazione. Non va inserita nella pagina pubblica.
 

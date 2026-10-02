@@ -217,11 +217,31 @@ def test_stesura_legge_protocollo_titoli_canonico_e_confronta_titoli_reali():
                   [], titoli_recenti=recenti, titoli_lotto=lotto)
     chiamata = client.chiamate[0]
     assert editor.TITOLI_PROTOCOLLO_PATH.read_text(encoding="utf-8") in chiamata["system"]
-    assert "curiosità è facoltativa" in chiamata["system"]
+    assert "**Versione:** 2.1" in chiamata["system"]
+    assert "curiosità è facoltativa" not in chiamata["system"]
+    assert "Ogni titolo deve offrire un motivo concreto per approfondire" in chiamata["system"]
     assert "interrogative indirette" in chiamata["system"]
     assert all(titolo in chiamata["user"] for titolo in recenti)
     assert all(titolo in chiamata["user"] for titolo in lotto)
     assert "55-70 caratteri indicativi" in chiamata["schema_hint"]
+
+
+def test_stesura_richiede_curiosita_documentata_e_promessa_mantenuta_senza_note_pubbliche():
+    risposta = articolo_valido()
+    client = ClienteFinto([risposta.copy()])
+    articolo, _ = editor.scrivi(
+        client, "gpt-5", "Dato Istat", "Istat", [estratto_ok()],
+        editor.Verdetto(True, "dato verificato", categoria="Economia"), [],
+    )
+    chiamata = client.chiamate[0]
+    assert "CHECK TITOLO - MOTIVO PER APPROFONDIRE" in chiamata["user"]
+    assert "riscontro nelle fonti" in chiamata["user"]
+    assert "test Google" in chiamata["user"]
+    assert "promessa mantenuta" in chiamata["user"]
+    assert "non aggiungere note di lavorazione al JSON" in chiamata["user"]
+    assert "motivo concreto e veritiero per approfondire" in chiamata["schema_hint"]
+    assert articolo["titolo"] == risposta["titolo"]
+    assert set(articolo) == set(risposta) | {"formato", "categoria", "slug"}
 
 
 def test_stesura_bloccata_se_protocollo_titoli_manca(monkeypatch, tmp_path):
