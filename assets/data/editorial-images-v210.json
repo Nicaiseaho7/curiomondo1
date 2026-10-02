@@ -1,36 +1,39 @@
 {
-  "version": 733,
+  "version": 735,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/che-cose-lape-attestato-prestazione-energetica-ai-v734-480.webp",
-          "sha256": "b7490e1f489f6078e0693f0f9ea9a9f1ce73ea97308a8428a8f71657050253bb",
-          "bytes": 29960
+          "src": "/assets/images/editorial-auto/che-cose-lape-attestato-prestazione-energetica-ai-v735-480.webp",
+          "sha256": "f235517caa5e7fbf3d4ecafc5bfc8cec8ddc6e62723fcb802bc6f366157d497d",
+          "bytes": 53130
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/che-cose-lape-attestato-prestazione-energetica-ai-v734-800.webp",
-          "sha256": "3578e1f3419cd1037227b7db4b632bb4fefa8efee86e9521197ad9d62638c869",
-          "bytes": 79066
+          "src": "/assets/images/editorial-auto/che-cose-lape-attestato-prestazione-energetica-ai-v735-800.webp",
+          "sha256": "fefee73d25852838ab2f0cea263806a9a640b9b5ca97eb57ab08ebc65c1d3094",
+          "bytes": 136954
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/che-cose-lape-attestato-prestazione-energetica-ai-v734-1200.webp",
-          "sha256": "7bf443356d865b2cba16652cdb35fc796a2dcae1daa8f99877ecdda46af5108a",
-          "bytes": 162784
+          "src": "/assets/images/editorial-auto/che-cose-lape-attestato-prestazione-energetica-ai-v735-1200.webp",
+          "sha256": "eb2e985585c8831ef3f2fbcfb6a35bb066a4a8195228727212f4e730d556fc0f",
+          "bytes": 264896
         }
       ],
       "aiGenerated": true,
-      "alt": "Palazzo residenziale italiano con facciata chiara e persiane verdi, al mattino; illustrazione editoriale IA, non una fotografia documentaria.",
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "alt": "Palazzo residenziale italiano riqualificato energeticamente: finestre ad alte prestazioni, persiane e pannelli solari sul tetto, luce del mattino; illustrazione editoriale IA, non una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa guida; non è una fotografia documentaria.",
       "sensitiveContext": false,
-      "generator": "Grok Imagine",
+      "generator": "agente editoriale Imagine (Grok)",
       "generatedAt": "2026-10-02T07:20:00+02:00",
       "sourceSha256": "7bf443356d865b2cba16652cdb35fc796a2dcae1daa8f99877ecdda46af5108a",
-      "article": "/approfondimenti/che-cose-lape.html"
+      "article": "/approfondimenti/che-cose-lape.html",
+      "key": "che-cose-lape-attestato-prestazione-energetica-ai-v735",
+      "documentaryPhoto": false,
+      "officialArtwork": false
     },
     {
       "key": "meteo-italia-2-ottobre-9-ottobre-2026-v733",
