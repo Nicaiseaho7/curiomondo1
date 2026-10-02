@@ -44,7 +44,9 @@ Non aggiungere informazioni non verificate per rendere l'articolo apparentemente
 2. TITOLO
 ════════════════════════════════════
 
-Il titolo deve comunicare il fatto principale.
+Dal 2 ottobre 2026 la formulazione del titolo segue `PROTOCOLLO-TITOLI-CTR.md`: regola 70/30, tema nei primi 35–40 caratteri, 55–70 caratteri, niente titolo freddo da agenzia, niente risposta già chiusa nel titolo. Il dettaglio lasciato fuori compare nel sommario o nel lead. Il clickbait falso resta vietato, come le formule sensazionalistiche sotto.
+
+Il titolo deve comunicare il fatto principale, senza esaurirlo.
 
 Deve essere:
 
@@ -59,7 +61,7 @@ Preferire:
 
 SOGGETTO + FATTO/AZIONE + ELEMENTO NUOVO
 
-Evitare titoli costruiti artificialmente per ottenere clic.
+Evitare titoli costruiti con formule sensazionalistiche. La curiosità vera, nei limiti di `PROTOCOLLO-TITOLI-CTR.md`, è invece richiesta.
 
 VIETATI, salvo che siano realmente giustificati dai fatti:
 

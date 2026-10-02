@@ -18,7 +18,7 @@ Nel corpo pubblico non devono mai comparire appunti interni, verifiche automatic
 
 ## Markup
 
-- **Titolo (H1):** informativo, senza clickbait, coerente col fatto.
+- **Titolo (H1):** secondo `PROTOCOLLO-TITOLI-CTR.md`. Informativo, senza clickbait falso, coerente col fatto. Non chiude tutta la risposta: il dettaglio tenuto fuori sta nel sommario.
 - **Sommario (`.subtitle`):** uno o due elementi non già nel titolo.
 - **Lead:** primo paragrafo di `.art-body`. Si regge da solo.
 - **Corpo:** `.art-body` con `data-editorial-protocol="4.0"` e `data-article-format` (`flash` | `standard` | `feature`). I nuovi articoli **non** dichiarano `data-length-policy="3000-7000"`.

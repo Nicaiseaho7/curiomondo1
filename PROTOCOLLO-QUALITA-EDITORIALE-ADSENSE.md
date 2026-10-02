@@ -120,7 +120,7 @@ Gli aggiornamenti sostanziali possono superare la fascia iniziale quando aggiung
 
 ## Struttura obbligatoria: piramide invertita
 
-1. **Titolo:** chiaro, informativo, coerente con il fatto e privo di clickbait.
+1. **Titolo:** secondo `PROTOCOLLO-TITOLI-CTR.md`. Chiaro, coerente con il fatto, senza clickbait falso e senza chiudere già tutta la risposta.
 2. **Sommario o catenaccio:** una o due frasi che completano il titolo con un dettaglio chiave senza ripeterlo.
 3. **Lead:** il primo paragrafo contiene il nocciolo della notizia e risponde subito a chi, cosa, quando, dove e perché. Se una delle 5 W non è ancora nota, lo dichiara senza ipotesi.
 4. **Corpo:** dettagli, cifre, citazioni e contesto in ordine decrescente di importanza.
@@ -142,7 +142,7 @@ Gli aggiornamenti sostanziali possono superare la fascia iniziale quando aggiung
 
 - Italiano standard, adulto e preciso; una sola idea per frase e paragrafi di 2–4 frasi.
 - Non inserire spiegazioni di parole difficili, sigle o termini tecnici nel corpo della notizia. Preferire un lessico comune. Se un tema richiede vera spiegazione, creare o collegare un approfondimento autonomo.
-- Titoli fattuali e coerenti con H1, URL e contenuto. Vietati clickbait, keyword stuffing e promesse non mantenute.
+- Titoli secondo `PROTOCOLLO-TITOLI-CTR.md`: fattuali, coerenti con H1, URL e contenuto. Vietati clickbait falso, keyword stuffing e promesse non mantenute.
 - Citazioni soltanto quando presenti nelle fonti, tra virgolette e attribuite. Vietato inventare scene, emozioni, cause o citazioni.
 - Preferire ente, comunicato, dataset, regolamento o atto ufficiale. ANSA, Reuters e altre agenzie sono conferme, non l'unica materia del pezzo.
 - Inserire da tre a sei fonti in fondo indicando cosa confermano. Se le fonti discordano, dichiararlo esplicitamente.

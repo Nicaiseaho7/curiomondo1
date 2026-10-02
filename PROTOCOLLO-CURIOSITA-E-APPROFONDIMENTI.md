@@ -166,7 +166,7 @@ Ipotesi ≠ fatti.
 ```
 
 ### Titolo
-Interessante ma **preciso**. No clickbait. Deve mantenere la promessa.
+Interessante ma **preciso**. Segue `PROTOCOLLO-TITOLI-CTR.md` (70/30, 55–70 caratteri, tema all’inizio). No clickbait falso. Deve mantenere la promessa.
 
 ### Lead
 Entra subito nel tema. Vietato: «Fin dall’alba dei tempi…», «In un mondo sempre più…».

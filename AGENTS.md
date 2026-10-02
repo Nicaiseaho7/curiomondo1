@@ -41,6 +41,17 @@ Le fasce flash / standard / approfondimento restano un orientamento di formato, 
 
 I nuovi articoli non devono dichiarare `data-length-policy="3000-7000"`.
 
+## Titoli ad alto CTR — 2 ottobre 2026
+
+Per il titolo di ogni articolo nuovo, e di ogni revisione di titolo richiesta, vale `PROTOCOLLO-TITOLI-CTR.md`.
+
+- Regola 70/30: il titolo chiarisce l’argomento e lascia fuori un dettaglio vero (impatto, svolta o data). Quel dettaglio sta nel sommario o nel lead. La promessa si mantiene nel testo.
+- Parola chiave e tema nei primi 35–40 caratteri. Lunghezza ideale 55–70 caratteri, senza contare ` | CurioMondo`.
+- Vietati i titoli freddi da agenzia e i titoli che chiudono già tutta la risposta. Vietato il clickbait falso.
+- Non si riscrivono i titoli già online solo per questa regola.
+
+Questa sezione prevale, solo sulla formulazione del titolo, sulle istruzioni incompatibili di `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`, `PROTOCOLLO-REDAZIONE-CORPO.md` e `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`.
+
 
 ## Regola editoriale flessibile v471 — prevalenza assoluta
 
@@ -86,13 +97,14 @@ Se il messaggio contiene `approfondimenti-da-trend`, `curiosità in tendenza`, `
 Prima di creare o aggiornare articoli o visual CurioMondo, leggere integralmente, nell'ordine:
 
 1. `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`
-2. `PROTOCOLLO-SCOPERTA-NOTIZIE.md`
-3. `AI-EDITORIAL-IMAGE-PROTOCOL.md`
-4. `automation/prompts/image-generation-contract.txt`
-5. `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`
-6. `PROTOCOLLO-REDAZIONE-CORPO.md`
-7. `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`
-8. `curiomondo-site-manifest.json`
+2. `PROTOCOLLO-TITOLI-CTR.md`
+3. `PROTOCOLLO-SCOPERTA-NOTIZIE.md`
+4. `AI-EDITORIAL-IMAGE-PROTOCOL.md`
+5. `automation/prompts/image-generation-contract.txt`
+6. `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`
+7. `PROTOCOLLO-REDAZIONE-CORPO.md`
+8. `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`
+9. `curiomondo-site-manifest.json`
 
 **Curiosità e approfondimenti (obbligatorio, v1.1 — 29 settembre 2026):** prima di creare o rivedere una **curiosità** o un **approfondimento** (guide evergreen, pagine in `/approfondimenti/`, spiegazioni «che cos’è / come funziona / perché»), leggere integralmente `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md` **v1.1.2**. Quel file **prevale** sulle guide brevi, sulle skill 800–1.500 e sul testo superficiale: corpo **2.000–5.000+** parole, criteri di selezione §1 (non solo trend), fonti primarie. Se manca o non si può rispettare, non pubblicare la guida.
 
