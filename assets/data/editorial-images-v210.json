@@ -1,7 +1,100 @@
 {
-  "version": 738,
+  "version": 741,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Tecnici ucraini al lavoro in una sottostazione elettrica innevata, scena editoriale IA non documentaria",
+      "prompt": "Horizontal 16:9 photorealistic editorial scene at a Ukrainian high-voltage electrical substation near Kyiv in early winter blue hour. Three Ukrainian grid technicians in navy cold-weather safety gear and helmets inspect transformers and protective barriers, faces naturally visible, light snow, power lines and pylons, documentary-style composition without depicting any actual attack. No explosions, missiles, weapons, injuries, flags, logos, readable text, captions, watermarks or infographic elements.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ucraina-piano-attribuito-mosca-rete-energetica-2-ottobre-2026-v741-480.webp",
+          "sha256": "b3c7981d46fd8adb9267cae15d97c3872ea2d46d9ca9f0c984a171fe02b0eee3",
+          "bytes": 46644
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ucraina-piano-attribuito-mosca-rete-energetica-2-ottobre-2026-v741-800.webp",
+          "sha256": "fe5f35c52867920c21aeae3cd16f2a00e2c06e780affee6e260138889ee74250",
+          "bytes": 98022
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ucraina-piano-attribuito-mosca-rete-energetica-2-ottobre-2026-v741-1200.webp",
+          "sha256": "00d356f5ba158af4b6d0726dba4ec1497e6fc9739de2f59be2e176ef4271a58d",
+          "bytes": 160956
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/ucraina-piano-attribuito-mosca-rete-energetica-2-ottobre-2026.html"
+    },
+    {
+      "alt": "Professionisti riuniti per una cerimonia di diploma davanti a una sede universitaria romana, scena editoriale IA",
+      "prompt": "Horizontal 16:9 photorealistic editorial scene outside Villa Blanc in Rome during a refined corporate graduation event. A diverse group of adult Italian professionals in understated black academic gowns hold blank diploma folders and talk on the steps, faces naturally visible, elegant historic building and greenery behind them, warm late-afternoon light, candid business-news photography. No named individuals, brands, logos, readable text, captions, watermarks or infographic elements.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/corporate-mba-cdp-1200-candidature-luiss-2-ottobre-2026-v740-480.webp",
+          "sha256": "08d3dacff5eacabc804c1878bf1b3123a050325622401db16782249c564ff6de",
+          "bytes": 44936
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/corporate-mba-cdp-1200-candidature-luiss-2-ottobre-2026-v740-800.webp",
+          "sha256": "5d860d65238f1d58a0155142f75869c2c2c66ba91069d75cc718cadafeb22627",
+          "bytes": 93752
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/corporate-mba-cdp-1200-candidature-luiss-2-ottobre-2026-v740-1200.webp",
+          "sha256": "35b620581cd43d95120aed29053c434d58e23ae25739251f6d6d7f68f7f00db3",
+          "bytes": 158940
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/corporate-mba-cdp-1200-candidature-luiss-2-ottobre-2026.html"
+    },
+    {
+      "alt": "Due ricercatori analizzano campioni in un laboratorio di virologia, scena editoriale IA non documentaria",
+      "prompt": "Horizontal 16:9 photorealistic editorial image inside a modern Italian public-health virology laboratory. Two adult scientists of different genders in clean white lab coats and blue gloves review PCR sample racks beside diagnostic instruments, faces naturally visible, calm professional mood, cool daylight, a subtle out-of-focus Rome skyline through the window. No patient, illness reenactment, virus illustration, logos, readable text, captions, watermarks or infographic elements.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/covid-segnali-risalita-dati-italia-2-ottobre-2026-v739-480.webp",
+          "sha256": "bebbd43ac4e0538d566775487d3d21cd72d1baa09c914fc1648c20d109f2b0d0",
+          "bytes": 33644
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/covid-segnali-risalita-dati-italia-2-ottobre-2026-v739-800.webp",
+          "sha256": "4d47df4933ff5fd738ef53ce3f44574ab8ddd6ae6bd42ed672673d7b925ec9c2",
+          "bytes": 65426
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/covid-segnali-risalita-dati-italia-2-ottobre-2026-v739-1200.webp",
+          "sha256": "bac3b12380afa3b31554eab4925dfec550eb2f63ea70e114edd03235cd2a7145",
+          "bytes": 108198
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/covid-segnali-risalita-dati-italia-2-ottobre-2026.html"
+    },
     {
       "id": "strage-ustica-gip-restituisce-atti-indagine-2-ottobre-2026-ai-v738",
       "key": "strage-ustica-gip-restituisce-atti-indagine-2-ottobre-2026-ai-v738",

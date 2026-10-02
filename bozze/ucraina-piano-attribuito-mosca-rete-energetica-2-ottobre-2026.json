@@ -1,0 +1,64 @@
+{
+  "slug": "ucraina-piano-attribuito-mosca-rete-energetica-2-ottobre-2026",
+  "titolo": "Ucraina, il piano attribuito a Mosca: cosa rischia la rete",
+  "sommario": "Kyiv dice di avere intercettato un progetto per colpire energia, acqua e riscaldamento con fino a 1.000 ordigni. Il documento, visionato dal New York Times, non è stato autenticato in modo indipendente.",
+  "luogo": "Ucraina",
+  "categoria": "Mondo",
+  "formato": "standard",
+  "parole_chiave_titolo": [
+    "Ucraina",
+    "piano attribuito"
+  ],
+  "dati_chiave": [
+    {
+      "icona": "◆",
+      "valore": "1.000",
+      "etichetta": "ordigni indicati nel piano"
+    },
+    {
+      "icona": "▲",
+      "valore": "3",
+      "etichetta": "centrali operative da isolare"
+    },
+    {
+      "icona": "●",
+      "valore": "15 GW",
+      "etichetta": "capacità indicata come bersaglio"
+    }
+  ],
+  "paragrafi": [
+    "Il governo ucraino sostiene di avere intercettato un piano russo per una vasta campagna invernale contro la rete energetica. Il documento, mostrato dal ministro dell’Energia Denys Shmyhal a partner europei, descriverebbe l’impiego di fino a 1.000 missili, droni e bombe contro infrastrutture civili.",
+    "Tra i bersagli elencati figurerebbero sottostazioni elettriche, centrali idroelettriche e termiche, impianti di riscaldamento e strutture idriche. Il progetto punterebbe a interrompere elettricità, calore e acqua nelle grandi città, con Kyiv, Kharkiv e Odesa indicate come obiettivi prioritari.",
+    "Il passaggio più delicato riguarda i nodi elettrici collegati alle tre centrali nucleari ucraine ancora operative. Il documento ipotizzerebbe attacchi agli impianti di smistamento esterni per scollegare le centrali dalla rete, non colpi diretti ai reattori.",
+    "La natura del materiale impone cautela. Il New York Times, che ne ha ottenuto una copia, ha dichiarato di non poterlo autenticare indipendentemente; il testo sarebbe in russo e datato agosto, mentre non è certo che Mosca seguirà quella strategia né che riuscirebbe ad attuarla.",
+    "Shmyhal aveva già riferito il 25 settembre che i servizi ucraini disponevano di due documenti con tabelle su obiettivi e armi assegnate. Interfax-Ukraine ha riportato la dichiarazione, che resta una valutazione ufficiale di Kyiv e non una conferma autonoma dell’origine dei file.",
+    "Il contesto operativo è però verificabile separatamente. Tra il 30 settembre e il primo ottobre nuovi attacchi russi hanno colpito impianti energetici e infrastrutture, causando interruzioni di corrente; Reuters ha inoltre documentato raid contro ponti e una centrale nell’area di Kyiv.",
+    "Secondo il documento, la sequenza mirerebbe prima alle connessioni con l’Europa, poi all’idroelettrico e infine ai collegamenti delle centrali nucleari. La capacità potenzialmente rimossa arriverebbe a quasi 15 gigawatt, valore vicino a quella disponibile in Ucraina alla fine dell’estate secondo Shmyhal.",
+    "Kyiv ha costruito protezioni sopra strutture critiche, riparato impianti e installato unità di generazione più piccole. Queste misure possono ridurre l’impatto, ma il rischio concreto dipenderà dal numero degli attacchi, dalla disponibilità russa di armi e dalla capacità ucraina di intercettarle e ripristinare la rete."
+  ],
+  "fonti": [
+    {
+      "url": "https://www.irishtimes.com/world/europe/2026/10/02/russia-plans-most-powerful-blow-yet-to-freeze-ukraine-this-winter/",
+      "descrizione": "Irish Times/New York Times — contenuto del documento, obiettivi dichiarati e limiti di autenticazione."
+    },
+    {
+      "url": "https://en.interfax.com.ua/news/general/1209746.html",
+      "descrizione": "Interfax-Ukraine — dichiarazioni precedenti di Shmyhal sui due documenti ricevuti dai servizi ucraini."
+    },
+    {
+      "url": "https://www.reuters.com/world/europe/russian-air-strikes-hit-southern-bridge-kyiv-again-mayor-says-2026-10-02/",
+      "descrizione": "Reuters — attacchi del 2 ottobre contro infrastrutture di Kyiv e richieste ucraine per la difesa aerea."
+    },
+    {
+      "url": "https://www.theguardian.com/world/2026/oct/01/ukraine-war-briefing-russia-pounds-power-grid-with-seven-killed-in-biggest-energy-attack-in-months",
+      "descrizione": "Guardian — attacchi recenti alla rete energetica e interruzioni d’emergenza."
+    }
+  ],
+  "immagine": {
+    "prompt": "Horizontal 16:9 photorealistic editorial scene at a Ukrainian high-voltage electrical substation near Kyiv in early winter blue hour. Three Ukrainian grid technicians in navy cold-weather safety gear and helmets inspect transformers and protective barriers, faces naturally visible, light snow, power lines and pylons, documentary-style composition without depicting any actual attack. No explosions, missiles, weapons, injuries, flags, logos, readable text, captions, watermarks or infographic elements.",
+    "alt": "Tecnici ucraini al lavoro in una sottostazione elettrica innevata, scena editoriale IA non documentaria",
+    "personaggio_pubblico": false,
+    "contesto_sensibile": true,
+    "fotografia_reale": false
+  }
+}
