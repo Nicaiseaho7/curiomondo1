@@ -166,6 +166,42 @@
       "variants": [
         {
           "w": 480,
+          "src": "/assets/images/editorial-auto/che-cose-leuribor-ai-v736-480.webp",
+          "sha256": "da6fd53ec4402ba8274d1e552522f48db3f44da9bc0ecd177d066726ec1cb97d",
+          "bytes": 18984
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/che-cose-leuribor-ai-v736-800.webp",
+          "sha256": "d6b6dec95ad114a43cffdc332aef1a758985fa539fa84543af1e411bed9887bd",
+          "bytes": 40156
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/che-cose-leuribor-ai-v736-1200.webp",
+          "sha256": "8f41b69b17d9c99258fc99809b05dce44a798a28fc8b9e4422e049cf6ce77f0e",
+          "bytes": 69630
+        },
+        {
+          "w": 1600,
+          "src": "/assets/images/editorial-auto/che-cose-leuribor-ai-v736-1600.webp",
+          "sha256": "e13a412d4cb12e13d24ea70f059331ae28049ed9f5c26ff8413136bc80e1af61",
+          "bytes": 99848
+        }
+      ],
+      "aiGenerated": true,
+      "alt": "Illustrazione editoriale di un modellino di casa, monete in euro, documenti e calcolatrice su una scrivania, con un computer sullo sfondo. Il grafico non è una serie reale dell’Euribor.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "generator": "cover fornita per la guida",
+      "generatedAt": "2026-10-02T06:43:35+02:00",
+      "reenactedEvent": false,
+      "article": "/approfondimenti/che-cose-leuribor.html"
+    },
+    {
+      "variants": [
+        {
+          "w": 480,
           "src": "/assets/images/editorial-auto/che-cose-lape-attestato-prestazione-energetica-ai-v735-480.webp",
           "sha256": "f235517caa5e7fbf3d4ecafc5bfc8cec8ddc6e62723fcb802bc6f366157d497d",
           "bytes": 53130
