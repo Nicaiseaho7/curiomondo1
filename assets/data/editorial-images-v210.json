@@ -1,7 +1,371 @@
 {
-  "version": 741,
+  "version": 745,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Illustrazione IA di un agricoltore che consulta un avviso previdenziale davanti al computer.",
+      "prompt": "Agricoltore in ufficio rurale con documento INPS e schermata previdenziale senza dati personali o testo inventato, visual fotorealistico.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/contributi-agricoli-avvisi-bonari-inps-2026-pagamenti-ai-v745-480.webp",
+          "sha256": "7fddb90195ef8e490f61b54e7030d3b0fc93960da133ca1eebdee3456a317821",
+          "bytes": 38260
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/contributi-agricoli-avvisi-bonari-inps-2026-pagamenti-ai-v745-800.webp",
+          "sha256": "d8edb90e54ff3482a602904b572e59fd55f6ef5f6a25cd225900aa005f93d90d",
+          "bytes": 77670
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/contributi-agricoli-avvisi-bonari-inps-2026-pagamenti-ai-v745-1200.webp",
+          "sha256": "06f3d7ed92308f9d455faceae4ad8b02744e713ee7a1b0f2c8c931133e040641",
+          "bytes": 134982
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/contributi-agricoli-avvisi-bonari-inps-2026-pagamenti.html"
+    },
+    {
+      "alt": "Illustrazione IA di una consulenza su documenti previdenziali in uno sportello INPS.",
+      "prompt": "Consulenza pensionistica in ufficio INPS italiano, documenti senza dati personali o regole leggibili inventate, fotorealismo editoriale sobrio.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/inps-pensioni-autonomi-contributi-decorrenza-messaggio-3113-2026-ai-v745-480.webp",
+          "sha256": "c33ef80782a64adf0005f075b19c2fb93b46f778844579863d995e82e52f36ab",
+          "bytes": 26532
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/inps-pensioni-autonomi-contributi-decorrenza-messaggio-3113-2026-ai-v745-800.webp",
+          "sha256": "549a94eec7c15f5346e022292fcbe9cc7bc162cea9289c07d21b3c02126669f6",
+          "bytes": 49344
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/inps-pensioni-autonomi-contributi-decorrenza-messaggio-3113-2026-ai-v745-1200.webp",
+          "sha256": "88f01e2559d2bc317fd06b8ec08628804aa54860e04928050f3dec862690b428",
+          "bytes": 82380
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/inps-pensioni-autonomi-contributi-decorrenza-messaggio-3113-2026.html"
+    },
+    {
+      "alt": "Illustrazione IA delle rovine termali di Ercolano durante un restauro.",
+      "prompt": "Terme Suburbane di Ercolano, architettura romana plausibile, cantiere di restauro sobrio e luce naturale; non una foto documentaria del tour.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ercolano-terme-suburbane-visite-restauro-10-ottobre-2026-ai-v745-480.webp",
+          "sha256": "cfff827d330a74368a5ee2261ff3164ae31bd75f3d12ad37193713ae1d529969",
+          "bytes": 59698
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ercolano-terme-suburbane-visite-restauro-10-ottobre-2026-ai-v745-800.webp",
+          "sha256": "c5d5c96f6bfbf103c3143c2fb22c6d87b9533e1d0a47b8802db6c023d5a8ae10",
+          "bytes": 159036
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ercolano-terme-suburbane-visite-restauro-10-ottobre-2026-ai-v745-1200.webp",
+          "sha256": "25c597dda4d58c576f9b2d0152ef46e5bd6a3698749b89fcffd38ed251bba6a6",
+          "bytes": 328086
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/ercolano-terme-suburbane-visite-restauro-10-ottobre-2026.html"
+    },
+    {
+      "alt": "Illustrazione IA di due calciatori dell’Italia Under 21 in maglia azzurra sul campo di allenamento.",
+      "prompt": "Favasuli e Fortini riconoscibili in autentica divisa FIGC, ritratto sportivo neutro senza rappresentare condizioni mediche, fotorealismo editoriale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/italia-under-21-favasuli-fortini-out-polonia-5-ottobre-2026-ai-v745-480.webp",
+          "sha256": "229bd79b514465ba537578de8f05cdd1d99bbdaadbbf09c70b84bc8b6c35707e",
+          "bytes": 32330
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/italia-under-21-favasuli-fortini-out-polonia-5-ottobre-2026-ai-v745-800.webp",
+          "sha256": "c545c544a732add0c0eaaa136ec83d9adb36bb5460accf407787a672db535b0a",
+          "bytes": 66234
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/italia-under-21-favasuli-fortini-out-polonia-5-ottobre-2026-ai-v745-1200.webp",
+          "sha256": "1b32df207a766fc77e8da653ff06d8f6048af877ec3bfdee8150925519c8f2f8",
+          "bytes": 119398
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/italia-under-21-favasuli-fortini-out-polonia-5-ottobre-2026.html"
+    },
+    {
+      "alt": "Illustrazione IA di un modello di ala luminosa nella galleria del vento NASA.",
+      "prompt": "Modello Benchmark Supercritical Wing in galleria del vento, vernice fluorescente sotto UV, strumenti di misura credibili, nessuna scritta inventata.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/nasa-vernice-pressione-ala-galleria-vento-2-ottobre-2026-ai-v745-480.webp",
+          "sha256": "85512a9095bda0dc514a72eba75220d4762a7ffd88f38eedf6ed433ce3999baa",
+          "bytes": 34544
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/nasa-vernice-pressione-ala-galleria-vento-2-ottobre-2026-ai-v745-800.webp",
+          "sha256": "749930e38be89c8f000b4e255d7d9f9a457c7a35edd4f6cf1d18050bb492b404",
+          "bytes": 73250
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/nasa-vernice-pressione-ala-galleria-vento-2-ottobre-2026-ai-v745-1200.webp",
+          "sha256": "fcf5b7ab36c4b2c2148668cc5f6fad570e5dcc00233adc150a2ddafb565f36e1",
+          "bytes": 131860
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/nasa-vernice-pressione-ala-galleria-vento-2-ottobre-2026.html"
+    },
+    {
+      "alt": "Illustrazione IA di Devon Hall in canotta Olimpia Milano sul parquet di Vitoria.",
+      "prompt": "Devon Hall riconoscibile nella vera divisa EA7 Milano a Vitoria, visual fotorealistico senza un’azione specifica simulata come prova.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/baskonia-olimpia-milano-86-76-rimonta-2-ottobre-2026-ai-v745-480.webp",
+          "sha256": "d0f3b23cde0aba85c65cbc84a0759791dbac4856c8b0368fbb162ac12f177c38",
+          "bytes": 34336
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/baskonia-olimpia-milano-86-76-rimonta-2-ottobre-2026-ai-v745-800.webp",
+          "sha256": "a0bcb2ba5d7ea76a1b24522147f0d9ae0e62ac6ad088ec32dfb5b60966404e20",
+          "bytes": 65734
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/baskonia-olimpia-milano-86-76-rimonta-2-ottobre-2026-ai-v745-1200.webp",
+          "sha256": "bdc5ffe362f8474e1ea421062350edc66eda8ed883cfda122464fca7218ec674",
+          "bytes": 108132
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/baskonia-olimpia-milano-86-76-rimonta-2-ottobre-2026.html"
+    },
+    {
+      "alt": "Illustrazione IA sobria di Manchester e di una vettura della polizia britannica, senza ritrarre sospettati o violenza.",
+      "prompt": "Manchester in inquadratura civica neutrale, vettura della polizia senza targa, nessuna ricostruzione di atti violenti o luoghi bersaglio inventati.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/manchester-due-accusati-piano-comunita-ebraica-2-ottobre-2026-ai-v745-480.webp",
+          "sha256": "9c249c28b64bb26a9cdcdda3f3a04c2b73177c6f6c4518adb995e212d0499cf8",
+          "bytes": 53362
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/manchester-due-accusati-piano-comunita-ebraica-2-ottobre-2026-ai-v745-800.webp",
+          "sha256": "6ab2d651df156170747233da9d9fb7d52a9135b984969acf7ceae46c8d284a8b",
+          "bytes": 139546
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/manchester-due-accusati-piano-comunita-ebraica-2-ottobre-2026-ai-v745-1200.webp",
+          "sha256": "1f5dfcf8eca9958999175f53130cd52b3e395f61a3bf3a957558787a93727a40",
+          "bytes": 271494
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": true,
+      "article": "/notizie/manchester-due-accusati-piano-comunita-ebraica-2-ottobre-2026.html"
+    },
+    {
+      "alt": "Illustrazione IA di un rapporto statistico del lavoro negli Stati Uniti.",
+      "prompt": "Rapporto BLS sul lavoro in ufficio pubblico americano, senza cifre o grafici inventati leggibili, visual editoriale fotorealistico.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/lavoro-usa-settembre-2026-29000-posti-revisioni-bls-ai-v745-480.webp",
+          "sha256": "d44dae2ac53ab19855e3f34ea2f42fdd96038516335b97f75725b00ae122e798",
+          "bytes": 27726
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/lavoro-usa-settembre-2026-29000-posti-revisioni-bls-ai-v745-800.webp",
+          "sha256": "64fd07036913f40fe31bc80ad95e6cb18e7e4ba1a9150d74faa0f7778c388311",
+          "bytes": 55810
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/lavoro-usa-settembre-2026-29000-posti-revisioni-bls-ai-v745-1200.webp",
+          "sha256": "5c9d0974d715b092de08d948d4811fc446b0c12998c01cd48318dc4335a63661",
+          "bytes": 93440
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/lavoro-usa-settembre-2026-29000-posti-revisioni-bls.html"
+    },
+    {
+      "alt": "Illustrazione IA di un autobus AMT nella città di Genova.",
+      "prompt": "Bus AMT con livrea autentica a Genova, fotorealismo editoriale, nessuna protesta inscenata o tabellone con corse inventate.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/sciopero-amt-genova-3-ottobre-2026-fasce-urbano-provincia-ai-v745-480.webp",
+          "sha256": "c6b73aee3dcfd8bd3d9d1a2b259169db39166eab784e99ce58543b8055c6456e",
+          "bytes": 47846
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/sciopero-amt-genova-3-ottobre-2026-fasce-urbano-provincia-ai-v745-800.webp",
+          "sha256": "02152feedeb38a432369f344e78f13108ace578d1e2577b3ca7093f65da933bd",
+          "bytes": 109658
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/sciopero-amt-genova-3-ottobre-2026-fasce-urbano-provincia-ai-v745-1200.webp",
+          "sha256": "444ee53a16f10b51959f6d263370e311ae680bb06273bd54187702b40dab126a",
+          "bytes": 193092
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "article": "/notizie/sciopero-amt-genova-3-ottobre-2026-fasce-urbano-provincia.html"
+    },
+    {
+      "alt": "Illustrazione IA di una consulenza riservata in uno sportello INPS.",
+      "prompt": "Sportello INPS realistico in Italia: colloquio rispettoso e non documentario, senza inscenare violenze o identificare beneficiarie vere; visual fotorealistico e sobrio.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/reddito-liberta-inps-39-milioni-domande-2026-ai-v745-480.webp",
+          "sha256": "aff7c13d163b845dfae9bf8993cd7acd58dd39d4466f9745388d0919b4632c5e",
+          "bytes": 23454
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/reddito-liberta-inps-39-milioni-domande-2026-ai-v745-800.webp",
+          "sha256": "eb23eabfd8f68e32e6095c4a0c62759bda26df30462fe0472528f28263360967",
+          "bytes": 43452
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/reddito-liberta-inps-39-milioni-domande-2026-ai-v745-1200.webp",
+          "sha256": "74452610646aa2bbd4d7da5d150d295ec84c7f630287f6b8f56e5e7d6b3a0a5d",
+          "bytes": 73264
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": true,
+      "article": "/notizie/reddito-liberta-inps-39-milioni-domande-2026.html"
+    },
+    {
+      "alt": "Illustrazione IA di Alessandro Bastoni e Gianluigi Donnarumma in divisa azzurra allo stadio.",
+      "prompt": "Ritratto editoriale fotorealistico di Bastoni e Donnarumma, entrambi riconoscibili con maglie FIGC corrette, nello stadio; nessuna ricostruzione di un gol o di una parata come prova.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/francia-italia-1-1-bastoni-olise-donnarumma-2-ottobre-2026-ai-v745-480.webp",
+          "sha256": "c194f74a98f5ab8a7630a33cb5e3565aa6bfee217f09206761d381a326c9f3ad",
+          "bytes": 37572
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/francia-italia-1-1-bastoni-olise-donnarumma-2-ottobre-2026-ai-v745-800.webp",
+          "sha256": "e0cac04b3325e35d793da2cf8bb8171d6ecf4d1df80e51772c04871942178e70",
+          "bytes": 84926
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/francia-italia-1-1-bastoni-olise-donnarumma-2-ottobre-2026-ai-v745-1200.webp",
+          "sha256": "55079528ba13eddf39eae21c34c390f70077b2dc822a4f880891d39288048fe8",
+          "bytes": 153814
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/francia-italia-1-1-bastoni-olise-donnarumma-2-ottobre-2026.html"
+    },
+    {
+      "alt": "Illustrazione IA di Jorge Martín in tuta Aprilia accanto alla moto nel paddock di Motegi.",
+      "prompt": "Ritratto editoriale fotorealistico di Jorge Martín, volto riconoscibile, tuta Aprilia Racing e moto 89 nel paddock di Motegi; nessuna simulazione del giro di qualifica o scritta nei pixel.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/motogp-motegi-martin-pole-record-marquez-3-ottobre-2026-ai-v745-480.webp",
+          "sha256": "cef273fbff888f8c55ccf57779c3b14068fa87d7e5fa59edf45ad200b24882cd",
+          "bytes": 53390
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/motogp-motegi-martin-pole-record-marquez-3-ottobre-2026-ai-v745-800.webp",
+          "sha256": "26358c3e3b88ee60617abb5f9bee0dc276a8f0ea9e48a25913790182c77318e1",
+          "bytes": 120252
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/motogp-motegi-martin-pole-record-marquez-3-ottobre-2026-ai-v745-1200.webp",
+          "sha256": "e2177406eccbe40f46785e40a5b6a9e2a1d84343da6d3b2b766e511d10e901ce",
+          "bytes": 217992
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/motogp-motegi-martin-pole-record-marquez-3-ottobre-2026.html"
+    },
     {
       "alt": "Tecnici ucraini al lavoro in una sottostazione elettrica innevata, scena editoriale IA non documentaria",
       "prompt": "Horizontal 16:9 photorealistic editorial scene at a Ukrainian high-voltage electrical substation near Kyiv in early winter blue hour. Three Ukrainian grid technicians in navy cold-weather safety gear and helmets inspect transformers and protective barriers, faces naturally visible, light snow, power lines and pylons, documentary-style composition without depicting any actual attack. No explosions, missiles, weapons, injuries, flags, logos, readable text, captions, watermarks or infographic elements.",
