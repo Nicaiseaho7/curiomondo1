@@ -222,6 +222,17 @@ l'articolo sbagliato invece dell'intero sito:
 
 `tools/pubblica_articolo.py` li esegue gia tutti e tre a ogni pubblicazione.
 
+### Rilasci a lotti e ora di prima pubblicazione
+
+Per più notizie nello stesso rilascio, preparare e controllare le singole bozze,
+scrivere le pagine, poi sincronizzare le superfici e avviare i tre gate **una
+sola volta sul lotto completo**. Se il trasferimento degli asset su GitHub è
+lento, caricare prima le immagini; fissare `datePublished` e `dateModified`
+all'ora del rilascio, rigenerare home, archivio, ricerca, feed e sitemap, ed
+eseguire i gate immediatamente prima del commit/push. L'ora della bozza non è
+la prima pubblicazione. Conservare l'ordine delle notizie del lotto e verificare
+il sito live dopo il deploy. Non spostare i gate dentro la build Netlify.
+
 ## Immagini forze dell’ordine — niente targhe (27 settembre 2026)
 Nelle illustrazioni di auto di **Carabinieri, Polizia, Guardia di Finanza, ambulanza, vigili del fuoco** **non** inserire mai targhe (neppure inventate o sfocate leggibili). Paraurti pulito, senza riquadro targa. Vale anche per veicoli esteri di polizia.
 

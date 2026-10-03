@@ -205,14 +205,27 @@ caption_foto='Fotografia editoriale fornita alla redazione CurioMondo; non gener
 caption_ufficiale='Immagine promozionale ufficiale fornita dagli aventi diritto; non generata da CurioMondo ne una fotografia di cronaca.'
 card_eligible_dates={}
 publication_date_errors=[]
+# Solo gli articoli aggiunti dal commit corrente richiedono il confronto con
+# la data del commit. Una singola diff evita un `git log --follow` per ciascuna
+# pagina dello storico (oltre 800 processi anche per un rilascio di un articolo).
+# Senza --root, il confine di un clone shallow non viene scambiato per un
+# commit iniziale che avrebbe aggiunto retroattivamente l'intero archivio.
+current_head_additions=set()
+current_head_date=None
 try:
-    head_proc=subprocess.run(
-        ['git','rev-parse','HEAD'], cwd=root, capture_output=True,
+    additions_proc=subprocess.run(
+        ['git','diff-tree','-m','--first-parent','--no-commit-id',
+         '--name-only','--diff-filter=A','-r','HEAD','--','notizie/'],
+        cwd=root, capture_output=True, text=True, check=True,
+    )
+    date_proc=subprocess.run(
+        ['git','show','-s','--format=%aI','HEAD'], cwd=root, capture_output=True,
         text=True, check=True,
     )
-    current_head=head_proc.stdout.strip()
+    current_head_additions=set(additions_proc.stdout.splitlines())
+    current_head_date=datetime.fromisoformat(date_proc.stdout.strip().replace('Z','+00:00'))
 except Exception:
-    current_head=''
+    pass
 for p in news:
     d=html.fromstring(p.read_text(errors='replace'))
     robots_l=' '.join(d.xpath('//meta[@name="robots"]/@content')).lower()
@@ -242,18 +255,11 @@ for p in news:
                     # storico rende ogni deploy dipendente da vecchi intervalli
                     # tra generazione e commit e produce falsi positivi in un
                     # clone Git completo (come quello usato da Netlify).
-                    if dt >= datetime.fromisoformat('2026-09-10T00:00:00+02:00'):
-                        try:
-                            rel=p.relative_to(root).as_posix()
-                            proc=subprocess.run(['git','log','--diff-filter=A','--follow','--format=%H%x09%aI','--',rel],cwd=root,capture_output=True,text=True,check=True)
-                            stamps=[x.strip() for x in proc.stdout.splitlines() if x.strip()]
-                            if stamps:
-                                first_sha, first_stamp=stamps[-1].split('\t',1)
-                                first_added=datetime.fromisoformat(first_stamp.replace('Z','+00:00'))
-                                if first_sha == current_head and first_added - dt > timedelta(minutes=15):
-                                    publication_date_errors.append(f'datePublished precedente alla pubblicazione CurioMondo: {p.name}')
-                        except Exception:
-                            pass
+                    if (dt >= datetime.fromisoformat('2026-09-10T00:00:00+02:00')
+                            and p.relative_to(root).as_posix() in current_head_additions
+                            and current_head_date is not None
+                            and current_head_date - dt > timedelta(minutes=15)):
+                        publication_date_errors.append(f'datePublished precedente alla pubblicazione CurioMondo: {p.name}')
                 except Exception: pass
                 break
     if not d.xpath('//main[contains(@class,"wrap")]'): errors.append(f'main non vincolato: {p.name}')

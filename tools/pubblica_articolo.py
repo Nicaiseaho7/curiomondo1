@@ -139,7 +139,6 @@ def main(argv: list[str] | None = None) -> int:
                         help="non mettere l'articolo nella card principale della home")
     args = parser.parse_args(argv)
 
-    errori_preesistenti = set(errori_del_gate())
     articolo = prepara(carica_bozza(args.file))
 
     immagine_bozza = articolo.get("immagine") or {}
@@ -242,9 +241,9 @@ def main(argv: list[str] | None = None) -> int:
         in_evidenza = f"/notizie/{slug}.html" if not args.non_in_evidenza else in_evidenza_attuale()
         site.sync_surfaces([articolo], in_evidenza, versione)
 
-        nuovi = [e for e in errori_del_gate() if e not in errori_preesistenti]
-        if nuovi:
-            for errore in nuovi:
+        problemi_gate = errori_del_gate()
+        if problemi_gate:
+            for errore in problemi_gate:
                 print(f"  gate: {errore}", file=sys.stderr)
             raise RuntimeError("il gate ha rifiutato l'articolo")
     except Exception as errore:
@@ -255,12 +254,6 @@ def main(argv: list[str] | None = None) -> int:
                         "curiomondo-site-manifest.json"], cwd=ROOT)
         print(f"NON PUBBLICATO: {errore}", file=sys.stderr)
         return 1
-
-    if errori_preesistenti:
-        print("Attenzione: il sito aveva gia questi problemi, non introdotti da questo articolo:",
-              file=sys.stderr)
-        for errore in sorted(errori_preesistenti):
-            print(f"  - {errore}", file=sys.stderr)
 
     print(json.dumps({"status": "pronto", "slug": slug,
                       "url": f"https://curiomondo.it/notizie/{slug}.html",
