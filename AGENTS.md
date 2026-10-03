@@ -81,6 +81,9 @@ Questa sezione sostituisce le precedenti regole incompatibili su doppia conferma
 ## eBook Domanda del giorno — dal 28 settembre 2026
 Ogni nuovo eBook della Domanda del giorno è un libro breve: **25.000 parole** (tolleranza 22.000–32.000), **8–12 capitoli**, una schermata per capitolo. Deve essere indicizzato (`index,follow`, canonical, sitemap, indice di ricerca). Gli eBook già pubblicati non si riscrivono per questa regola. Dettaglio in `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`.
 
+## Verifica della fonte Domanda del giorno — 3 ottobre 2026
+La coda `automation/state/daily-questions.json` è una cache e non sostituisce il PDF privato originale. È stata rilevata una divergenza tra la voce n. 1016 della coda e il PDF; per questa pubblicazione è stato verificato e usato il testo del PDF. Prima di ogni futura scelta confrontare numero e testo con il PDF originale, registrando in `source_verification` documento, pagina, numero, data della verifica e SHA-256 UTF-8 della domanda. Il selettore si ferma sulla prima voce non utilizzata se manca questa verifica o il testo è stato modificato. Non attribuire al PDF domande provenienti soltanto dalla cache. Non aggiungere il PDF o il suo contenuto integrale al sito.
+
 ## Categorie della home — mai mescolate
 In ogni sezione della homepage (Sport, Politica, Cronaca e le altre) possono comparire solo notizie di quella categoria. Una card di un'altra categoria è un errore bloccante. Dopo ogni pubblicazione rieseguire `node tools/render_home_editorial.js`: aggiorna sezioni, Ultima ora e ticker «Ultime notizie». `tools/predeploy.py` rifiuta la home se una sezione è mista o se il ticker è vuoto.
 

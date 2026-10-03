@@ -8,6 +8,7 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 import json
+import hashlib
 import os
 import re
 import sys
@@ -96,6 +97,7 @@ def load_question_queue() -> list[dict]:
             normalized.append({
                 "number": item.get("number") or item.get("id"),
                 "question": str(item.get("question") or item.get("text") or "").strip(),
+                "source_verification": item.get("source_verification"),
             })
     return [item for item in normalized if item["question"]]
 
@@ -116,6 +118,20 @@ def choose_question(manifest: dict) -> dict:
             continue
         if question in used_questions:
             continue
+        if manifest.get("daily_state", {}).get("private_source_required_fail_closed", True):
+            verification = item.get("source_verification") or {}
+            digest = hashlib.sha256(question.encode("utf-8")).hexdigest()
+            if (verification.get("document") != "Mille_e_piu_domande_per_pensare.pdf"
+                    or verification.get("number") != number
+                    or verification.get("question_sha256") != digest
+                    or not isinstance(verification.get("page"), int)
+                    or not verification.get("verified_on")):
+                print(json.dumps({
+                    "status": "blocked", "reason": "daily_question_pdf_verification_required",
+                    "number": number,
+                    "message": "Verify the next queue entry against the original private PDF before publication.",
+                }, ensure_ascii=False))
+                sys.exit(5)
         return item
     print(json.dumps({"status": "blocked", "reason": "daily_question_queue_exhausted"}, ensure_ascii=False))
     sys.exit(4)
