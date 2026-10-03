@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 750,
-    "site_version": 750
+    "current_site_version": 753,
+    "site_version": 753
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -24,7 +24,7 @@
   "daily_state": {
     "question_source": "Mille_e_piu_domande_per_pensare.pdf (fonte privata fornita dal proprietario; non pubblicare nel sito)",
     "question_source_rule": "choose every future daily question only from the 1125 numbered questions in this PDF and record its number",
-    "current_question_source_number": 1016,
+    "current_question_source_number": 1017,
     "used_question_source_numbers": [
       87,
       88,
@@ -48,9 +48,10 @@
       1013,
       1014,
       1015,
-      1016
+      1016,
+      1017
     ],
-    "last_question_date": "2026-10-03",
+    "last_question_date": "2026-10-04",
     "question_archive_path": "/domanda-del-giorno/",
     "question_library_root": "/biblioteca/vita-relazioni/",
     "on_any_update_if_current_date_is_newer": "CREATE_DAILY_QUESTION_BEFORE_RELEASE",
@@ -59,16 +60,19 @@
     "private_source_required_fail_closed": true,
     "timezone": "Europe/Rome",
     "date_source": "current_datetime_in_Europe_Rome_never_UTC",
-    "last_question_slug": "possiamo-amare-un-lavoro-e-insieme-proteggerci-da-esso",
-    "last_daily_guides": [],
-    "last_daily_package_date": "2026-10-03",
-    "last_question_ebook_url": "/biblioteca/vita-relazioni/domande-per-conoscersi/quanto-siamo-liberi-nelle-scelte-che-facciamo-per-non-deludere-chi-amiamo/",
+    "last_question_slug": "quanto-della-nostra-identita-sparirebbe-in-un-congedo-lungo",
+    "last_daily_guides": [
+      "come-resettare-telefono-android-iphone",
+      "come-trasferire-dati-android-iphone-e-viceversa"
+    ],
+    "last_daily_package_date": "2026-10-04",
+    "last_question_ebook_url": "/biblioteca/vita-relazioni/domande-per-conoscersi/se-il-successo-non-fosse-visibile-a-nessuno-quale-obiettivo-continueresti-a-inseguire/",
     "current_question_source_verification": {
       "document": "Mille_e_piu_domande_per_pensare.pdf",
-      "number": 1016,
+      "number": 1017,
       "page": 45,
-      "verified_on": "2026-10-03",
-      "question_sha256": "19e0346a2f879f83b2f6ff7f1cc08259f4474f5c7655496bf0a1b835d397246f"
+      "verified_on": "2026-10-04",
+      "question_sha256": "72503b154373f03b5489e78bdad110c9338b28068f3c33131b9c6a183e4c80ab"
     },
     "question_queue_rule": "La coda è una cache: ogni voce deve essere verificata sul PDF privato originale prima della pubblicazione."
   },
@@ -300,19 +304,22 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 744,
-  "version": "v744",
-  "release_version": "v744",
+  "site_version": 753,
+  "version": "v753",
+  "release_version": "v753",
   "last_release": {
-    "version": 744,
-    "date": "2026-10-03",
-    "type": "daily-question",
-    "daily_question_added": "possiamo-amare-un-lavoro-e-insieme-proteggerci-da-esso",
-    "ebook_linked": "/biblioteca/vita-relazioni/domande-per-conoscersi/quanto-siamo-liberi-nelle-scelte-che-facciamo-per-non-deludere-chi-amiamo/",
+    "version": 753,
+    "date": "2026-10-04",
+    "type": "daily-editorial-package",
+    "daily_question_added": "quanto-della-nostra-identita-sparirebbe-in-un-congedo-lungo",
+    "ebook_linked": "/biblioteca/vita-relazioni/domande-per-conoscersi/se-il-successo-non-fosse-visibile-a-nessuno-quale-obiettivo-continueresti-a-inseguire/",
     "ebook_created": false,
-    "guides_added": [],
+    "guides_added": [
+      "come-resettare-telefono-android-iphone",
+      "come-trasferire-dati-android-iphone-e-viceversa"
+    ],
     "news_added": [],
     "news_updated": [],
-    "change": "Domanda n. 1016 verificata sul PDF originale; corretta la cache divergente e collegato l’eBook esistente su autonomia, confini e scelte di lavoro."
+    "change": "Domanda n. 1017 verificata sul PDF originale, eBook conforme collegato e due guide Biblioteca pubblicate dalla coda canonica."
   }
 }
