@@ -1,7 +1,40 @@
 {
-  "version": 745,
+  "version": 747,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Mappa meteo dell’Italia dal 3 al 10 ottobre 2026 con confini e nomi delle 20 regioni, città principali, sole nel weekend e tendenza più variabile dal 7.",
+      "prompt": "Mappa editoriale d’Italia 3–10 ottobre 2026: confini ISTAT 2026, tutte le regioni, città principali in coordinate geografiche, situazione del 3 e tendenza differenziata per affidabilità; fotografia illustrativa IA per gli sfondi.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/meteo-italia-3-10-ottobre-2026-v747-480.webp",
+          "sha256": "39139490902e398bbd61fa08a320f444cd19430e5f82f51dff0b90e2e27172a8",
+          "bytes": 23822
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/meteo-italia-3-10-ottobre-2026-v747-800.webp",
+          "sha256": "38213fa4cd8ef41dc554bb22d96459cc9775a2839e908435aac41ac2ddec54b6",
+          "bytes": 50132
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/meteo-italia-3-10-ottobre-2026-v747-1200.webp",
+          "sha256": "a49596179e4caddd1afccdeb20b0e832d2557bad643c138eabd7e769ecbd16c9",
+          "bytes": 85976
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI imagegen per sfondo illustrativo; cartografia ISTAT e composizione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/meteo-italia-3-10-ottobre-2026.html",
+      "weatherMap": true,
+      "cartographySource": "ISTAT, confini regionali 2026 (CC BY 4.0)"
+    },
     {
       "alt": "Illustrazione IA di un agricoltore che consulta un avviso previdenziale davanti al computer.",
       "prompt": "Agricoltore in ufficio rurale con documento INPS e schermata previdenziale senza dati personali o testo inventato, visual fotorealistico.",

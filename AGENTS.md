@@ -90,6 +90,9 @@ In ogni sezione della homepage (Sport, Politica, Cronaca e le altre) possono com
 ## Primo piano
 Le ultime notizie, in ordine di pubblicazione, occupano sempre il carosello in primo piano. La più recente è la prima slide. Non si lascia una notizia più vecchia davanti a una più nuova. Vale per ogni aggiornamento del feed, qualunque sia il nome del campo data.
 
+## Immagini meteo — mappa d’Italia obbligatoria
+Ogni nuova notizia meteo nazionale usa come hero una mappa d’Italia dedicata alla previsione, con confini regionali riconoscibili e nomi delle città principali collocati correttamente. Vale anche per gli aggiornamenti futuri. Non usare un paesaggio generico come sostituto della mappa. Prima del rilascio controllare visivamente la leggibilità delle etichette e che simboli, date e dati corrispondano al testo verificato. Per evitare confini e città inventati, usare una base cartografica affidabile (per esempio ISTAT) e sovrapporre le informazioni editoriali; `tools/render_meteo_map.py` prepara la grafica da una bozza di tendenza, GeoJSON e illustrazione dedicata. Indicare la fonte dei confini e distinguere nella mappa i giorni più prevedibili dalla tendenza incerta. Il contratto `automation/prompts/image-generation-contract.txt`, §14, resta la regola completa.
+
 
 
 

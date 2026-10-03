@@ -30,7 +30,7 @@ from .openai_client import Client, Usage
 # Categorie reali del sito: il modello non deve inventarne di nuove.
 CATEGORIE = (
     "Italia", "Mondo", "Politica", "Cronaca", "Economia",
-    "Sport", "Tecnologia", "Cultura", "Scienza", "Ambiente",
+    "Sport", "Tecnologia", "Cultura", "Scienza", "Ambiente", "Meteo",
 )
 
 FORMATI = {"flash": (100, 250), "standard": (300, 600), "feature": (800, 1500)}

@@ -1,6 +1,40 @@
 {
-  "version": 746,
+  "version": 747,
   "items": [
+    {
+      "title": "Meteo Italia 3-10 ottobre: sole nel weekend, piogge possibili dal 7",
+      "excerpt": "Sabato e domenica prevale il sole con massime di 24-29 °C. Lunedì ancora stabile; da martedì i primi rovesci locali, poi una tendenza più incerta fino al 10 ottobre.",
+      "url": "/notizie/meteo-italia-3-10-ottobre-2026.html",
+      "section": "Mondo / Meteo",
+      "dateISO": "2026-10-03T07:49:52+02:00",
+      "dateLabel": "2026-10-03",
+      "image": "/assets/images/editorial-auto/meteo-italia-3-10-ottobre-2026-v747-800.webp",
+      "imageAlt": "Mappa meteo dell’Italia dal 3 al 10 ottobre 2026 con confini e nomi delle 20 regioni, città principali, sole nel weekend e tendenza più variabile dal 7.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/meteo-italia-3-10-ottobre-2026-v747-480.webp 480w, /assets/images/editorial-auto/meteo-italia-3-10-ottobre-2026-v747-800.webp 800w, /assets/images/editorial-auto/meteo-italia-3-10-ottobre-2026-v747-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "3–4 ott",
+          "label": "weekend in prevalenza stabile"
+        },
+        {
+          "icon": "▲",
+          "value": "24–29 °C",
+          "label": "massime attese nel weekend"
+        },
+        {
+          "icon": "●",
+          "value": "7–10 ott",
+          "label": "tendenza da aggiornare"
+        }
+      ],
+      "featuredHighlights": [
+        "sole nel weekend",
+        "piogge possibili"
+      ]
+    },
     {
       "title": "Avvisi INPS per i contributi agricoli: dove segnalare i pagamenti già fatti",
       "excerpt": "Le comunicazioni della gestione agricola sono nel Cassetto previdenziale. Chi ha già versato può inviare gli estremi attraverso la sezione «Contatti».",

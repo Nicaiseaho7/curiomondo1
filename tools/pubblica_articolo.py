@@ -140,6 +140,10 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     articolo = prepara(carica_bozza(args.file))
+    if (ROOT / "notizie" / f"{articolo['slug']}.html").exists():
+        print(f"Notizia già presente: {articolo['slug']}. Usa il flusso di aggiornamento.",
+              file=sys.stderr)
+        return 1
 
     immagine_bozza = articolo.get("immagine") or {}
     alt = (args.alt or immagine_bozza.get("alt") or "").strip()
@@ -162,6 +166,15 @@ def main(argv: list[str] | None = None) -> int:
     if not alt:
         print("Manca la descrizione dell'immagine: usa --alt oppure il campo immagine.alt.",
               file=sys.stderr)
+        return 1
+    if articolo["categoria"] == "Meteo" and (
+        immagine_bozza.get("tipo") != "mappa_meteo_italia"
+        or not str(immagine_bozza.get("base_cartografica") or "").strip()
+        or "mappa" not in alt.lower()
+    ):
+        print("Per le notizie meteo serve una mappa d'Italia con regioni e città: "
+              "indica immagine.tipo=mappa_meteo_italia, base_cartografica e un alt descrittivo. "
+              "Controlla visivamente la mappa prima della pubblicazione.", file=sys.stderr)
         return 1
     if not origine and not prompt:
         print("Manca l'immagine: indica immagine.url con l'indirizzo di una figura gia pronta. "
@@ -223,6 +236,9 @@ def main(argv: list[str] | None = None) -> int:
         "officialArtwork": materiale_ufficiale,
         "sensitiveContext": sensitive,
     }
+    if articolo["categoria"] == "Meteo":
+        immagine["weatherMap"] = True
+        immagine["cartographySource"] = str(immagine_bozza["base_cartografica"])
     if public:
         immagine["syntheticLikeness"] = "public-figure"
         if sensitive:
