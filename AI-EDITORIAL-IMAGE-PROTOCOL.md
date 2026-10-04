@@ -7,7 +7,7 @@ Questo file deve essere letto integralmente da qualunque IA, agente, renderer o 
 Il testo operativo è `automation/prompts/image-generation-contract.txt`. In caso di conflitto con le regole del 21 settembre, vale questo:
 
 - Un'immagine per notizia. Mai collage, riquadri o più notizie nella stessa foto.
-- Fotorealismo editoriale. Niente estetica da «immagine AI», niente testo, watermark, loghi inventati o scritte deformate. Eccezione unica: le mappe meteo dell'Italia, con città e simboli leggibili.
+- Fotorealismo editoriale. Niente estetica da «immagine AI», niente testo, watermark, loghi inventati o scritte deformate. Dal 3 ottobre 2026, per indicazione dell’editore, anche i nuovi bollettini meteo usano illustrazioni fotorealistiche dedicate senza mappa d’Italia e senza testo nei pixel; si applica il §14 del contratto immagini. Le mappe storiche restano negli articoli già pubblicati.
 - Ordine dell'editore, 26 settembre 2026, ore 20:14: le persone di spalle sono vietate. Vale per tutti, protagonisti e comparse. Se in copertina c'è una persona, il viso si vede. Niente nuche, niente figure girate, niente caschi chiusi al posto del volto, niente sagome. Se lo strumento rifiuta il volto, non si pubblica una persona girata.
 - I sosia dei personaggi pubblici restano autorizzati, con la didascalia che è un'illustrazione editoriale e non una foto documentaria. Il viso è quello del protagonista, rivolto verso la camera.
 - Cronaca, morte, violenza e arresti: niente corpi, sangue, ferite o ricostruzioni spettacolari. Se serve il volto, solo un ritratto neutro isolato.

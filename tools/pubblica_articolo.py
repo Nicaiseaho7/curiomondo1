@@ -167,14 +167,10 @@ def main(argv: list[str] | None = None) -> int:
         print("Manca la descrizione dell'immagine: usa --alt oppure il campo immagine.alt.",
               file=sys.stderr)
         return 1
-    if articolo["categoria"] == "Meteo" and (
-        immagine_bozza.get("tipo") != "mappa_meteo_italia"
-        or not str(immagine_bozza.get("base_cartografica") or "").strip()
-        or "mappa" not in alt.lower()
-    ):
-        print("Per le notizie meteo serve una mappa d'Italia con regioni e città: "
-              "indica immagine.tipo=mappa_meteo_italia, base_cartografica e un alt descrittivo. "
-              "Controlla visivamente la mappa prima della pubblicazione.", file=sys.stderr)
+    if articolo["categoria"] == "Meteo" and immagine_bozza.get("tipo") == "mappa_meteo_italia":
+        print("Per i nuovi bollettini meteo l’editore richiede un’illustrazione "
+              "fotorealistica dedicata, senza mappa d’Italia. Controlla visivamente "
+              "l’immagine prima della pubblicazione.", file=sys.stderr)
         return 1
     if not origine and not prompt:
         print("Manca l'immagine: indica immagine.url con l'indirizzo di una figura gia pronta. "
@@ -237,8 +233,7 @@ def main(argv: list[str] | None = None) -> int:
         "sensitiveContext": sensitive,
     }
     if articolo["categoria"] == "Meteo":
-        immagine["weatherMap"] = True
-        immagine["cartographySource"] = str(immagine_bozza["base_cartografica"])
+        immagine["weatherMap"] = False
     if public:
         immagine["syntheticLikeness"] = "public-figure"
         if sensitive:
