@@ -1,5 +1,5 @@
 {
-  "site_version": 762,
+  "site_version": 763,
   "articleCount": 813,
   "generatedEditorialImages": 303,
   "baseline_version": 342,
@@ -7,6 +7,7 @@
   "protocol_files": [
     "PROTOCOLLO-SCRITTURA-PROFESSIONALE.md",
     "PROTOCOLLO-TITOLI-CTR.md",
+    "PROTOCOLLO-ARTICOLI-PREMIUM.md",
     "AGENTS.md",
     "AI-EDITORIAL-IMAGE-PROTOCOL.md",
     "PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md",
@@ -17,12 +18,12 @@
     "curiomondo-site-manifest.json"
   ],
   "last_daily_question_date": "2026-10-04",
-  "version": "762",
+  "version": "763",
   "date": "2026-10-04",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "approfondimenti-senza-pensieri-v762",
-  "performance_pass": "Rimosso il riquadro «Un pensiero per» dagli approfondimenti, mantenendolo esclusivamente nelle pagine notizia come previsto dal protocollo maestro.",
-  "currentVersion": 762,
+  "last_update": "protocollo-articoli-premium-v763",
+  "performance_pass": "Introdotto lo standard articoli premium: composizione libera, contributo originale, flusso di aggiornamento, layout leggibile, hero 16:9, fiducia, performance e scorecard proporzionata.",
+  "currentVersion": 763,
   "baselineVersion": 342,
   "designRestored": "Intestazione globale unificata su tutte le pagine interne; palette blu Facebook e fascia LIVE rossa piena confermate.",
   "status": "ready"

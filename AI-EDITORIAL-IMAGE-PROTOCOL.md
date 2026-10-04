@@ -2,6 +2,16 @@
 
 Questo file deve essere letto integralmente da qualunque IA, agente, renderer o collaboratore che riceva il pacchetto del sito e debba creare o aggiornare articoli e immagini.
 
+## Formati premium — 4 ottobre 2026
+
+- Per le nuove notizie l'hero predefinita è **16:9**, larga almeno **1.200 px**, con soggetto leggibile anche nei ritagli mobile e nelle card.
+- Per approfondimenti e guide evergreen resta preferibile il formato **3:2**, salvo diversa necessità editoriale.
+- Quando la pipeline lo consente, preparare varianti ad alta risoluzione **16:9, 4:3 e 1:1** per dati strutturati e distribuzione. I crop devono conservare soggetto, contesto e verità visiva; non devono tagliare il protagonista né creare un significato ingannevole.
+- Hero visibile, `og:image` e `NewsArticle.image` restano coerenti. Le varianti dichiarate nei dati strutturati devono esistere realmente.
+- Dimensioni e rapporto non compensano un visual generico: pertinenza, fotorealismo, originalità, sicurezza, alt text e disclosure restano bloccanti.
+
+Il dettaglio editoriale e di layout è in `PROTOCOLLO-ARTICOLI-PREMIUM.md` v1.0.
+
 ## Prompt master — correzione dell'editore, 26 settembre 2026
 
 Il testo operativo è `automation/prompts/image-generation-contract.txt`. In caso di conflitto con le regole del 21 settembre, vale questo:

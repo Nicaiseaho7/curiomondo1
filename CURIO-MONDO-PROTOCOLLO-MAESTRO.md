@@ -4,6 +4,16 @@
 
 Per i titoli prevale `PROTOCOLLO-TITOLI-CTR.md` v2.1. Titoli dichiarativi, diretti e informativi come scelta ordinaria; ogni titolo deve offrire un motivo concreto e veritiero per approfondire attraverso dettagli distintivi, novità, dati, contrasti, conseguenze, limiti, meccanismi o utilità documentati, con intensità proporzionata alla notizia. Individuare internamente il riscontro nel corpo e nelle fonti, applicare il test del titolo isolato su Google e della promessa mantenuta. Domande solo quando il contenuto le giustifica, mai come schema seriale, anche senza `?` («cosa cambia», «quali…»). Confrontare gli ultimi 10 titoli reali e il lotto per evitare attacchi e code ripetuti. Vietato anche il clickbait formalmente vero ma fuorviante. Restano aboliti 70/30, obbligo di suspense e divieto di titoli descrittivi; 55–70 caratteri è un orientamento. Non riscrivere titoli già online senza una richiesta di revisione.
 
+## Standard articoli premium — v763, 4 ottobre 2026
+
+Per ogni nuova notizia e revisione sostanziale è obbligatorio `PROTOCOLLO-ARTICOLI-PREMIUM.md` v1.0. Lo standard trasferisce agli articoli di attualità la cura premium già richiesta alle guide: verifica proporzionata al rischio, contributo originale, chiarezza, contesto, trasparenza, aggiornamenti reali, hero dedicata e page experience veloce.
+
+Non introduce una scaletta fissa: la composizione segue la storia e non deve ripetere una struttura riconoscibile. Nelle notizie restano vietati H2/H3 e titoletti seriali; timeline, tabelle, documenti e box sono moduli facoltativi, ammessi soltanto quando aumentano la comprensione. La lunghezza segue la materia verificata e non si raggiunge con riempitivo.
+
+Per le urgenze vale il flusso a due velocità: prima versione breve ma verificata, poi aggiornamento della stessa pagina con prove, contesto e conseguenze. Conservare `datePublished`; cambiare `dateModified` soltanto per modifiche sostanziali. I pezzi dichiarati `premium` o `feature` devono raggiungere almeno 85/100 nella griglia dedicata; i formati ordinari restano regolati dai gate proporzionati v471/v503.
+
+Per le nuove notizie l'hero predefinita è 16:9 e larga almeno 1.200 px; per approfondimenti e guide evergreen resta preferibile il 3:2. Il protocollo definisce anche layout, pubblicità, mobile, accessibilità, Core Web Vitals, dati strutturati e misurazione dei primi dieci articoli.
+
 ## REVISIONE v503 — GATE PROPORZIONATO E AUTORIPARAZIONE
 
 **Data:** 22 settembre 2026  
@@ -280,7 +290,7 @@ All final responses must be written in Italian.
 - In homepage la card continua a non rivelare domanda, risposta o tema.
 - La risposta dedicata della Domanda del giorno non usa sottotitoli intermedi H2/H3: dopo la domanda parte direttamente una lettura continua.
 - Il linguaggio della risposta deve essere semplice, chiaro e naturale. Le spiegazioni restano profonde ma facili da capire, senza periodi spezzati, gergo inutile o costruzioni difficili. La lettura deve risultare piacevole e fluida.
-- **REGOLA OBBLIGATORIA DAL v317 (10 settembre 2026):** ogni notizia segue la piramide invertita e una lunghezza proporzionata al formato: flash 100–250 parole, standard 300–600, approfondimento autonomo 800–1.500+ parole. Gli aggiornamenti sostanziali possono essere più lunghi. Ogni paragrafo sviluppa una sola idea in 2–4 frasi e massimo 60 parole. Sono vietati ripetizioni, spiegazioni di parole difficili, enfasi e riempitivi; se la materia verificata non basta, la notizia non viene pubblicata.
+- **REGOLA OBBLIGATORIA DAL v317, aggiornata da v763:** ogni notizia segue la piramide invertita e una lunghezza proporzionata al formato. Per i nuovi articoli valgono le fasce orientative di `PROTOCOLLO-ARTICOLI-PREMIUM.md`; le vecchie fasce 100–250 / 300–600 / 800–1.500+ restano solo storiche. Gli aggiornamenti sostanziali possono essere più lunghi. Ogni paragrafo sviluppa una sola idea in 2–4 frasi e massimo 60 parole. Sono vietati ripetizioni, spiegazioni di parole difficili, enfasi e riempitivi; se la materia verificata non basta, la notizia non viene pubblicata.
 - Se non esiste materia sufficiente o il contenuto sarebbe soltanto una riscrittura, non creare un articolo autonomo: restituire `NON PUBBLICARE — motivo`, attendere sviluppi oppure integrare una storia esistente. Sono vietati riempitivo, ripetizioni, definizioni ovvie e chiusure che ricapitolano il lead.
 - **DIVIETO ASSOLUTO DI RIPETIZIONE:** ogni fatto, cifra, causa, conseguenza, spiegazione o contesto deve essere espresso una sola volta nel corpo. È vietato ripetere lo stesso concetto con sinonimi, parafrasi, formule di riepilogo o frasi costruite in modo diverso.
 - Ogni paragrafo deve introdurre almeno un elemento informativo nuovo e verificato. Se un paragrafo non aggiunge un fatto, una conseguenza, un contesto o una spiegazione realmente nuova, va eliminato o fuso con quello precedente.

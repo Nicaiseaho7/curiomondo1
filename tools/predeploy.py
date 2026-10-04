@@ -44,8 +44,9 @@ config_path=root/'automation/config.json'
 manifest_path=root/'curiomondo-site-manifest.json'
 image_registry_path=root/'assets/data/editorial-images-v210.json'
 editorial_protocol_path=root/'PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md'
+premium_protocol_path=root/'PROTOCOLLO-ARTICOLI-PREMIUM.md'
 master_protocol_path=root/'CURIO-MONDO-PROTOCOLLO-MAESTRO.md'
-for required_path in (policy_path,prompt_path,config_path,manifest_path,root/'AGENTS.md',editorial_protocol_path,master_protocol_path):
+for required_path in (policy_path,prompt_path,config_path,manifest_path,root/'AGENTS.md',editorial_protocol_path,premium_protocol_path,master_protocol_path):
     if not required_path.exists(): errors.append(f'protocollo IA assente: {required_path.relative_to(root)}')
 if master_protocol_path.exists():
     master_protocol=master_protocol_path.read_text(errors='replace')
@@ -53,8 +54,12 @@ if master_protocol_path.exists():
         if marker not in master_protocol: errors.append(f'direttiva evergreen sotto articolo assente nel protocollo maestro: {marker}')
 if editorial_protocol_path.exists():
     editorial_protocol=editorial_protocol_path.read_text(errors='replace')
-    for marker in ('Versione protocollo: 4.0','piramide invertita','100–250 parole','300–600 parole','800–1.500 parole','non più di 60 parole','È vietato spiegare nel corpo della notizia parole difficili','cm-evergreen-reader','sotto ogni articolo'):
+    for marker in ('Versione protocollo: 4.0','piramide invertita','250–450 parole','700–1.200 parole','1.200–2.200 parole','non più di 60 parole','È vietato spiegare nel corpo della notizia parole difficili','cm-evergreen-reader','sotto ogni articolo'):
         if marker not in editorial_protocol: errors.append(f'direttiva editoriale v4 assente: {marker}')
+if premium_protocol_path.exists():
+    premium_protocol=premium_protocol_path.read_text(errors='replace')
+    for marker in ('Non esiste una sequenza obbligatoria di sezioni','Contributo originale','Soglia premium: **85/100**','LCP non superiore a 2,5 secondi','hero predefinita è panoramica **16:9**'):
+        if marker not in premium_protocol: errors.append(f'direttiva articoli premium assente: {marker}')
 if prompt_path.exists():
     prompt=prompt_path.read_text(errors='replace')
     for marker in ('PUBLIC FIGURES AND SYNTHETIC LIKENESS','data-synthetic-likeness="public-figure"','data-sensitive-context="true|false"','AI-EDITORIAL-IMAGE-PROTOCOL.md','ORDINARY public-figure news','SENSITIVE public-figure news','neutral isolated portrait','buildings and logos are allowed'):

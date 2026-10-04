@@ -2,7 +2,7 @@
 
 **Stato:** obbligatorio, fail-closed  
 **Data:** 22 settembre 2026  
-**Prevalenza scrittura:** `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` (v502). Questo file resta il contratto tecnico del markup pubblico. Non sostituisce il protocollo qualità, il protocollo immagini né il gate di rischio v471.
+**Prevalenza scrittura:** `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` (v502) e `PROTOCOLLO-ARTICOLI-PREMIUM.md` (v1.0). Questo file resta il contratto tecnico del markup pubblico. Non sostituisce il protocollo qualità, il protocollo immagini né il gate di rischio v471.
 
 La velocità non prevale sulla qualità. Se le informazioni verificate non bastano per un articolo completo e originale: `NON PUBBLICARE`.
 
@@ -30,13 +30,18 @@ Nel corpo pubblico non devono mai comparire appunti interni, verifiche automatic
 
 La lunghezza dipende dalla materia verificata. Vietato allungare per quota.
 
-Orientamento di formato, non obiettivo:
+Orientamento per i nuovi articoli secondo il protocollo premium, mai obiettivo da riempire:
 
-- flash: circa 100–250 parole;
-- standard: circa 300–700 parole;
-- approfondimento: 800+ soltanto se la materia lo richiede.
+- flash verificato: circa 250–450 parole;
+- notizia completa: circa 700–1.200 parole;
+- articolo premium: circa 1.200–2.200 parole quando esistono materia e contributo originale sufficienti;
+- evento in evoluzione: lunghezza variabile.
 
-Sotto le 300 parole dopo la revisione: flash, non ripetizioni. Se manca materia anche per un flash: non pubblicare.
+Le fasce ammettono eccezioni editoriali motivate. Un flash può essere più corto quando il fatto è circoscritto; un'analisi può essere più lunga quando i documenti lo richiedono. Se manca materia anche per un flash: non pubblicare.
+
+## Composizione libera e moduli facoltativi
+
+Non usare una sequenza fissa di sezioni e non rendere seriale la struttura. Timeline, tabelle, dati chiave, documenti, calcoli e stati di verifica sono facoltativi e compaiono solo quando chiariscono la storia. Nelle pagine `notizie/*.html` non possono introdurre H2/H3 o titoletti generici vietati.
 
 ## Tono
 

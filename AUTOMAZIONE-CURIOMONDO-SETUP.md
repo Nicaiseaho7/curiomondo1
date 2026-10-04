@@ -22,11 +22,12 @@ Non inserire mai chiavi API nel codice o nei file del repository. Usare GitHub S
 Ogni ciclo giornaliero completo deve produrre insieme: 1 Domanda del giorno, 1 eBook collegato da 15.000–30.000 caratteri e 2 guide Biblioteca da 3.000–15.000 caratteri ciascuna. La risposta breve alla domanda resta tra 1.000 e 3.000 caratteri. Le guide devono essere assegnate alla categoria corretta e la Biblioteca e gli eBook usano il tema premium bianco + blu CurioMondo; il verde non è una palette dominante.
 
 
-## Contratto editoriale articoli — protocollo 4.0 (aggiornato 10 settembre 2026)
+## Contratto editoriale articoli — protocollo 4.0 + premium v763
 - Ogni ciclo articoli parte da fonti autorevoli e applica deduplicazione e verifica prima della pubblicazione.
 - Pubblicare solo sviluppi realmente nuovi, significativi e con conseguenze concrete; aggiornamenti minori, rumor, gossip, duplicati e dichiarazioni senza sviluppo non bastano.
 - Per guerre e geopolitica, una dichiarazione proveniente da una sola parte non va presentata come fatto accertato.
-- **NON ESISTE PIÙ ALCUN LIMITE OBBLIGATORIO DI 3.000–7.000 CARATTERI.** La lunghezza dipende esclusivamente dal formato e dalla quantità di materia verificata, secondo `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md` v4.0. Riferimenti editoriali: flash 100–250 parole; notizia standard 300–600 parole; approfondimento 800–1.500+ parole quando la materia lo richiede. Non allungare né tagliare artificialmente un articolo per raggiungere un conteggio.
+- **NON ESISTE ALCUN LIMITE OBBLIGATORIO DA RIEMPIRE.** La lunghezza dipende dal formato e dalla materia verificata secondo `PROTOCOLLO-ARTICOLI-PREMIUM.md`: flash circa 250–450 parole, notizia completa circa 700–1.200, articolo premium circa 1.200–2.200, evento in evoluzione variabile. Sono fasce orientative; non allungare né tagliare artificialmente un articolo per raggiungere un conteggio.
+- La composizione non usa una scaletta fissa o una struttura seriale. Timeline, tabelle, dati e documenti sono moduli facoltativi, soltanto quando aiutano davvero il lettore.
 - **Zero ripetizioni:** lo stesso fatto o concetto non può comparire due volte, neppure parafrasato. Ogni paragrafo deve aggiungere informazione nuova; riepiloghi ridondanti e conclusioni che ripetono l’apertura sono vietati.
 - Prima del rendering eseguire un passaggio anti-ridondanza frase-per-frase e paragrafo-per-paragrafo.
 - Non spiegare parole difficili nel corpo della notizia. Quando un concetto merita utilità nel tempo, creare o collegare un approfondimento evergreen autonomo; prima verificare che non esista già. Notizia e approfondimento devono linkarsi in entrambe le direzioni.

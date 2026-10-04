@@ -107,16 +107,17 @@ Ogni articolo deve contenere almeno due elementi tra:
 
 Se non sono disponibili almeno due elementi, non pubblicare il pezzo autonomo.
 
-## Tipi di contenuto e lunghezza editoriale
+## Tipi di contenuto e lunghezza editoriale — aggiornamento v763
 
 Dal protocollo 4.0 non esiste una soglia unica in caratteri. La lunghezza dipende dal formato e dalla quantità di informazioni verificate. È vietato aggiungere contesto generico, definizioni, aggettivi o riepiloghi per raggiungere un conteggio.
 
-- **Flash news / Ultima ora:** 100–250 parole. Solo fatti essenziali: chi, cosa, quando, dove e perché, se il perché è verificato.
-- **Articolo standard di cronaca o attualità:** 300–600 parole. Sviluppa il fatto con dettagli, numeri, citazioni attribuite e contesto necessario, senza stancare la lettura su smartphone.
-- **Approfondimento / Analisi:** 800–1.500 parole o più soltanto quando la materia lo richiede. Usa sezioni brevi e titoletti informativi. Resta una pagina autonoma distinta dalla notizia.
+- **Flash verificato:** circa 250–450 parole. Solo fatti essenziali, conferma e conseguenza immediata; può essere più corto quando il fatto è circoscritto.
+- **Notizia completa:** circa 700–1.200 parole quando esistono riscontri, contesto e impatto sufficienti.
+- **Articolo premium:** circa 1.200–2.200 parole o più soltanto quando documenti, confronto e contributo originale lo richiedono.
+- **Evento in evoluzione:** lunghezza variabile; aggiornare la stessa pagina con nuovi fatti sostanziali.
 - **Scheda di servizio:** elenca chi, requisiti, date, link ufficiale, eccezioni e ciò che non è ancora noto. Può rientrare nella fascia flash o standard: corto e utile prevale su lungo e vuoto.
 
-Gli aggiornamenti sostanziali possono superare la fascia iniziale quando aggiungono nuovi fatti verificati. La misura resta una conseguenza dell'informazione, mai l'obiettivo.
+Le fasce sono orientative secondo `PROTOCOLLO-ARTICOLI-PREMIUM.md`, non minimi da riempire. Gli aggiornamenti sostanziali possono superare la fascia iniziale quando aggiungono nuovi fatti verificati. La misura resta una conseguenza dell'informazione, mai l'obiettivo.
 
 ## Struttura obbligatoria: piramide invertita
 
