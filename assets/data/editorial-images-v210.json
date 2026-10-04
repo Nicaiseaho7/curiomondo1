@@ -1,7 +1,41 @@
 {
-  "version": 760,
+  "version": 761,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "differenza-tra-tan-e-taeg-ai-v761",
+      "article": "/approfondimenti/differenza-tra-tan-e-taeg.html",
+      "alt": "Illustrazione editoriale IA di una cliente e una consulente che confrontano due offerte di finanziamento con documenti e calcolatrice.",
+      "prompt": "Use case: photorealistic-natural. Asset type: CurioMondo editorial hero, landscape 3:2. A realistic contemporary Italian bank consultation: a female financial adviser and a female customer seated side by side at a desk, comparing two financing proposals. Include a calculator, organized documents, receipts and a tablet with a generic unlabeled chart. Natural daylight, restrained navy and teal palette, professional newspaper photography, realistic faces, hands and materials. No readable text, numbers, letters, logos, branding, watermark, title, UI or collage.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/differenza-tra-tan-e-taeg-ai-v761-480.webp",
+          "sha256": "bb5cc4188814a2d39ae85412bd56332279d097613b37a1dc69860511652100d9",
+          "bytes": 20698
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/differenza-tra-tan-e-taeg-ai-v761-800.webp",
+          "sha256": "28bd22af4e868c98f77b0ab1b869ed6dae641e206b06f1f3cf46e016c842e427",
+          "bytes": 40548
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/differenza-tra-tan-e-taeg-ai-v761-1200.webp",
+          "sha256": "6dae7bc0ec9d04a16fadf257aad8980b64f8a4af03a044ba5e11c684c19ae69d",
+          "bytes": 69350
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT/OpenAI image_gen",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "sourceSha256": "252d8705116797deb00723cd5d8acafd38fcd3e1d6606471153acbb8837ab824"
+    },
     {
       "key": "che-cose-lirs-di-un-mutuo-ai-v760",
       "article": "/approfondimenti/che-cose-lirs-di-un-mutuo.html",
