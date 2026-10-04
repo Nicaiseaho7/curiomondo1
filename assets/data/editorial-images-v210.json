@@ -1,7 +1,69 @@
 {
-  "version": 762,
+  "version": 764,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Illustrazione editoriale IA di trader a Wall Street davanti a monitor di mercato e bandiera Usa; scena non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/debito-usa-allarme-sui-costi-interessi-oltre-1-000-miliardi-l-anno-v764-480.webp",
+          "sha256": "136aba37f4c43359d0a0ec2c7edf832b2c934762ee946b94c41efd45cdad7051",
+          "bytes": 38130
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/debito-usa-allarme-sui-costi-interessi-oltre-1-000-miliardi-l-anno-v764-800.webp",
+          "sha256": "2d22ce84bb453920be313be91f9bfefe35eed83d7ed8162ae3880e3947c76267",
+          "bytes": 79084
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/debito-usa-allarme-sui-costi-interessi-oltre-1-000-miliardi-l-anno-v764-1200.webp",
+          "sha256": "947872b138122058a204ac6d1d270988f0b93d9407828198c5d6d09394fc7da9",
+          "bytes": 138362
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/debito-usa-allarme-sui-costi-interessi-oltre-1-000-miliardi-l-anno-04-10-2026.html"
+    },
+    {
+      "alt": "Illustrazione editoriale IA di auto Squadra Volanti Polizia di notte su strada vuota, senza targa; scena non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/catania-40enne-muore-in-questura-dopo-inseguimento-aperta-inchiesta-v763-480.webp",
+          "sha256": "a0959d07c08879b07e9f510ce54d48da2fdb58558d9adca5f81b36012b11d1b5",
+          "bytes": 29138
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/catania-40enne-muore-in-questura-dopo-inseguimento-aperta-inchiesta-v763-800.webp",
+          "sha256": "c19b375a4281b3df2fcd12ec438e6b5b465b38e356235c5b0676b9f8fae77bb2",
+          "bytes": 68136
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/catania-40enne-muore-in-questura-dopo-inseguimento-aperta-inchiesta-v763-1200.webp",
+          "sha256": "cf5a544ff9304bc62377ae0314ec72945f17f8717a744ac70cc37d43ca74d968",
+          "bytes": 125034
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/catania-40enne-muore-in-questura-dopo-inseguimento-aperta-inchiesta-04-10-2026.html"
+    },
     {
       "alt": "Illustrazione editoriale IA di Sergio Mattarella al podio ad Assisi davanti alla basilica; scena non documentaria.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
