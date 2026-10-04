@@ -1,6 +1,108 @@
 {
-  "version": 766,
+  "version": 767,
   "items": [
+    {
+      "title": "Djokovic rimonta Zverev a Pechino e conquista la semifinale",
+      "excerpt": "Il serbo perde il primo set, poi cambia ritmo e chiude 4-6, 6-4, 6-4 contro il numero 2 del mondo nel torneo ATP 500.",
+      "url": "/notizie/djokovic-batte-zverev-semifinale-pechino-4-ottobre-2026.html",
+      "section": "Italia / Sport",
+      "dateISO": "2026-10-04T17:37:57+02:00",
+      "dateLabel": "2026-10-04",
+      "image": "/assets/images/editorial-auto/djokovic-batte-zverev-semifinale-pechino-4-ottobre-2026-v767-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di Novak Djokovic durante un diritto su un campo in cemento blu; scena sportiva non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/djokovic-batte-zverev-semifinale-pechino-4-ottobre-2026-v767-480.webp 480w, /assets/images/editorial-auto/djokovic-batte-zverev-semifinale-pechino-4-ottobre-2026-v767-800.webp 800w, /assets/images/editorial-auto/djokovic-batte-zverev-semifinale-pechino-4-ottobre-2026-v767-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "4-6 6-4 6-4",
+          "label": "punteggio finale"
+        },
+        {
+          "icon": "▲",
+          "value": "ATP 500",
+          "label": "torneo di Pechino"
+        },
+        {
+          "icon": "●",
+          "value": "semifinale",
+          "label": "traguardo conquistato"
+        }
+      ],
+      "featuredHighlights": [
+        "Djokovic",
+        "Zverev"
+      ]
+    },
+    {
+      "title": "Gaza dopo tre anni di guerra: macerie e ricostruzione ancora ferma",
+      "excerpt": "La tregua non ha restituito normalità alla Striscia: gran parte degli edifici è danneggiata, gli sfollati restano in condizioni precarie e il piano per ricostruire non è ancora operativo.",
+      "url": "/notizie/gaza-tre-anni-guerra-macerie-ricostruzione-4-ottobre-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-10-04T17:37:56+02:00",
+      "dateLabel": "2026-10-04",
+      "image": "/assets/images/editorial-auto/gaza-tre-anni-guerra-macerie-ricostruzione-4-ottobre-2026-v767-800.webp",
+      "imageAlt": "Illustrazione editoriale IA del paesaggio urbano distrutto di Gaza con edifici in macerie e tende, senza persone; immagine di contesto non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/gaza-tre-anni-guerra-macerie-ricostruzione-4-ottobre-2026-v767-480.webp 480w, /assets/images/editorial-auto/gaza-tre-anni-guerra-macerie-ricostruzione-4-ottobre-2026-v767-800.webp 800w, /assets/images/editorial-auto/gaza-tre-anni-guerra-macerie-ricostruzione-4-ottobre-2026-v767-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "3 anni",
+          "label": "dall'inizio della guerra"
+        },
+        {
+          "icon": "▲",
+          "value": "82%",
+          "label": "strutture danneggiate, stima satellitare"
+        },
+        {
+          "icon": "●",
+          "value": "$71,4 mld",
+          "label": "fabbisogno decennale stimato"
+        }
+      ],
+      "featuredHighlights": [
+        "Gaza",
+        "tre anni"
+      ]
+    },
+    {
+      "title": "Torino, donna fugge dai vicini con la figlia: morto il compagno",
+      "excerpt": "Secondo la prima ricostruzione dei carabinieri, il 37enne avrebbe tentato di strangolare la donna e si sarebbe poi gettato dal decimo piano. Indagini a Barriera di Milano.",
+      "url": "/notizie/torino-donna-fugge-figlia-compagno-morto-4-ottobre-2026.html",
+      "section": "Italia / Cronaca",
+      "dateISO": "2026-10-04T17:37:55+02:00",
+      "dateLabel": "2026-10-04",
+      "image": "/assets/images/editorial-auto/torino-donna-fugge-figlia-compagno-morto-4-ottobre-2026-v767-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di un condominio torinese con ingresso delimitato e riflessi di lampeggianti, senza persone; nessuna ricostruzione della violenza.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/torino-donna-fugge-figlia-compagno-morto-4-ottobre-2026-v767-480.webp 480w, /assets/images/editorial-auto/torino-donna-fugge-figlia-compagno-morto-4-ottobre-2026-v767-800.webp 800w, /assets/images/editorial-auto/torino-donna-fugge-figlia-compagno-morto-4-ottobre-2026-v767-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "37 anni",
+          "label": "età dell'uomo"
+        },
+        {
+          "icon": "▲",
+          "value": "1 anno",
+          "label": "età della figlia"
+        },
+        {
+          "icon": "●",
+          "value": "10° piano",
+          "label": "caduta riferita"
+        }
+      ],
+      "featuredHighlights": [
+        "Torino",
+        "donna"
+      ]
+    },
     {
       "title": "Case nell’UE, prezzi +4,7%: il governo valuta aiuti ai giovani",
       "excerpt": "Nel secondo trimestre 2026 gli affitti sono saliti del 3% annuo. Per la manovra italiana si studiano interventi selettivi, ma misure e risorse non sono ancora definite.",
@@ -30,7 +132,9 @@
           "label": "case sul trimestre precedente"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "+4,7%"
+      ]
     },
     {
       "title": "Melissano, ex compagna aggredita: 23enne trasferito in carcere",
@@ -123,7 +227,9 @@
           "label": "aggravio stimato in sei mesi"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "6,1 cent"
+      ]
     },
     {
       "title": "Caivano, operaio muore dopo il ricovero: indagini sul capannone",

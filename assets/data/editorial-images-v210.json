@@ -1,7 +1,110 @@
 {
-  "version": 766,
+  "version": 767,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "torino-donna-fugge-figlia-compagno-morto-4-ottobre-2026-v767",
+      "alt": "Illustrazione editoriale IA di un condominio torinese con ingresso delimitato e riflessi di lampeggianti, senza persone; nessuna ricostruzione della violenza.",
+      "prompt": "Sober context image of a residential building in Turin with a cordoned entrance and subtle emergency-light reflections; no people or violence, wide 16:9.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/torino-donna-fugge-figlia-compagno-morto-4-ottobre-2026-v767-480.webp",
+          "sha256": "e98b99527ab5108467c05161639af55fd5799355903ddec0210ff71da6bc7f76",
+          "bytes": 34936
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/torino-donna-fugge-figlia-compagno-morto-4-ottobre-2026-v767-800.webp",
+          "sha256": "295703de86275f1104a7610675d57abf3fe2f7d120cdc521e80a2582bc7011dc",
+          "bytes": 87226
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/torino-donna-fugge-figlia-compagno-morto-4-ottobre-2026-v767-1200.webp",
+          "sha256": "a5bd949be441004b6bf329f65ad0c5c1e9b18b947ff2a77313af3768904fa6d1",
+          "bytes": 172964
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "reenactedEvent": false,
+      "article": "/notizie/torino-donna-fugge-figlia-compagno-morto-4-ottobre-2026.html"
+    },
+    {
+      "key": "gaza-tre-anni-guerra-macerie-ricostruzione-4-ottobre-2026-v767",
+      "alt": "Illustrazione editoriale IA del paesaggio urbano distrutto di Gaza con edifici in macerie e tende, senza persone; immagine di contesto non documentaria.",
+      "prompt": "Sober context image of Gaza after years of war: destroyed buildings, rubble roads and emergency tents; no people, bodies, weapons or active violence, wide 16:9.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/gaza-tre-anni-guerra-macerie-ricostruzione-4-ottobre-2026-v767-480.webp",
+          "sha256": "3776c916e74686342b38cf391c55ddceb1016ab38750d7c96d6ea7660e073a50",
+          "bytes": 48902
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/gaza-tre-anni-guerra-macerie-ricostruzione-4-ottobre-2026-v767-800.webp",
+          "sha256": "88ad087dbbc1e956e9c376e7e697144798fc2810d369e970f7bf09d8294ca10d",
+          "bytes": 126518
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/gaza-tre-anni-guerra-macerie-ricostruzione-4-ottobre-2026-v767-1200.webp",
+          "sha256": "f59696194801942b6528284bf5c3318f9c8428e8adf1f9c128b319dc3d79234c",
+          "bytes": 257894
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "sensitiveContext": true,
+      "reenactedEvent": false,
+      "article": "/notizie/gaza-tre-anni-guerra-macerie-ricostruzione-4-ottobre-2026.html"
+    },
+    {
+      "key": "djokovic-batte-zverev-semifinale-pechino-4-ottobre-2026-v767",
+      "alt": "Illustrazione editoriale IA di Novak Djokovic durante un diritto su un campo in cemento blu; scena sportiva non documentaria.",
+      "prompt": "Novak Djokovic playing a forehand on a blue hard court in Beijing; synthetic public-figure likeness, photorealistic editorial sport image, wide 16:9, no text or logos.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/djokovic-batte-zverev-semifinale-pechino-4-ottobre-2026-v767-480.webp",
+          "sha256": "537dee5f8f0f1d4efd2b3435cdfcc9aecb6bd5809f11d72b055bf8c280cb9fa6",
+          "bytes": 14664
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/djokovic-batte-zverev-semifinale-pechino-4-ottobre-2026-v767-800.webp",
+          "sha256": "097ed1f21893dbb3da1672e4c18ad94d7084e36a4a6fffeb56f41e289f88bdcc",
+          "bytes": 29088
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/djokovic-batte-zverev-semifinale-pechino-4-ottobre-2026-v767-1200.webp",
+          "sha256": "93522b86d08507145382b7c65a05642aa4be2f3051e327bdbb03637197adb21a",
+          "bytes": 50990
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/djokovic-batte-zverev-semifinale-pechino-4-ottobre-2026.html"
+    },
     {
       "key": "gasolio-fine-sconto-accise-mobili-5-ottobre-2026-v766",
       "alt": "Illustrazione editoriale IA di un automobilista durante il rifornimento in una stazione italiana; scena non documentaria.",
