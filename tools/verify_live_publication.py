@@ -8,7 +8,7 @@ import time
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from xml.etree import ElementTree
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urljoin
 from lxml import html
 
 BASE="https://curiomondo.it"
@@ -110,7 +110,7 @@ def main():
             paths={hero[0].get("src","")}
             paths.update(part.strip().split()[0] for part in hero[0].get("srcset","").split(",") if part.strip())
             for image in sorted(paths):
-                path=urlparse(image).path
+                path=urlparse(urljoin(BASE+article_path,image)).path
                 code,data=fetch_bytes(path)
                 if code!=200 or data[:4]!=b"RIFF" or data[8:12]!=b"WEBP":
                     errors.append(f"immagine WebP non valida: {path}")
