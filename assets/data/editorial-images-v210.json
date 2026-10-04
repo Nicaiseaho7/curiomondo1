@@ -1,7 +1,39 @@
 {
-  "version": 753,
+  "version": 754,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Illustrazione editoriale IA della costa ligure e del Golfo del Tigullio, con sole, mare calmo e nubi sui rilievi; scena non documentaria per il bollettino del 4–11 ottobre 2026.",
+      "prompt": "Photorealistic editorial landscape for the Italian weather report of 4 October 2026 and the trend for 5–11 October. Ligurian coast overlooking the Gulf of Tigullio from Monte di Portofino, warm natural light, mostly blue sky and realistic soft clouds over distant hills, Mediterranean vegetation, calm sea. One coherent wide scene; no text, dates, labels, map, icons, logos, watermark, people, extreme storms or floods. Synthetic editorial illustration, not an observed weather photograph.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/meteo-italia-4-11-ottobre-2026-v754-480.webp",
+          "sha256": "1ba8290a9b1e21b6d41a9340f1c5607ca370a89d7442cd966a904c87f1084b83",
+          "bytes": 45532
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/meteo-italia-4-11-ottobre-2026-v754-800.webp",
+          "sha256": "679006f681a91e32a811a71885088953f4510fb1b20ce0dcb54a584f49a4ba7b",
+          "bytes": 121098
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/meteo-italia-4-11-ottobre-2026-v754-1200.webp",
+          "sha256": "b44f6e456ea16464739cf9b5ecaf80728cbf54f7a8ff4b23e47e8e149b3c6eb4",
+          "bytes": 239260
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/meteo-italia-4-11-ottobre-2026.html"
+    },
     {
       "id": "sinner-salta-masters-shanghai-rischio-numero-1-3-ottobre-2026-ai-v752",
       "article": "/notizie/sinner-salta-masters-shanghai-rischio-numero-1-3-ottobre-2026.html",

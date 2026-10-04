@@ -1,6 +1,40 @@
 {
-  "version": 753,
+  "version": 754,
   "items": [
+    {
+      "title": "Meteo 4 ottobre: sole oggi, piogge possibili nella settimana",
+      "excerpt": "Domenica massime di 23–28 °C, con punte di 29–30 °C. Lunedì ancora mite; per il 5–11 ottobre la tendenza segnala più piogge in alcune regioni, con tempi e intensità da confermare.",
+      "url": "/notizie/meteo-italia-4-11-ottobre-2026.html",
+      "section": "Meteo",
+      "dateISO": "2026-10-04T07:04:20+02:00",
+      "dateLabel": "2026-10-04",
+      "image": "/assets/images/editorial-auto/meteo-italia-4-11-ottobre-2026-v754-800.webp",
+      "imageAlt": "Illustrazione editoriale IA della costa ligure e del Golfo del Tigullio, con sole, mare calmo e nubi sui rilievi; scena non documentaria per il bollettino del 4–11 ottobre 2026.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/meteo-italia-4-11-ottobre-2026-v754-480.webp 480w, /assets/images/editorial-auto/meteo-italia-4-11-ottobre-2026-v754-800.webp 800w, /assets/images/editorial-auto/meteo-italia-4-11-ottobre-2026-v754-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "☀",
+          "value": "23–28 °C",
+          "label": "massime prevalenti oggi"
+        },
+        {
+          "icon": "◆",
+          "value": "5–11 ottobre",
+          "label": "tendenza dei prossimi sette giorni"
+        },
+        {
+          "icon": "●",
+          "value": "Nessuna allerta",
+          "label": "bollettino nazionale per il 4"
+        }
+      ],
+      "featuredHighlights": [
+        "4 ottobre",
+        "piogge possibili"
+      ]
+    },
     {
       "title": "Sinner salta il Masters di Shanghai: Zverev può prendere il n.1",
       "excerpt": "Il numero 1 del mondo, fermo dal Wimbledon di luglio per un problema al ginocchio destro, annuncia il forfait anche a Shanghai (7-18 ottobre). Resta aperta la rincorsa di Alexander Zverev.",
