@@ -1,7 +1,41 @@
 {
-  "version": 759,
+  "version": 760,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "che-cose-lirs-di-un-mutuo-ai-v760",
+      "article": "/approfondimenti/che-cose-lirs-di-un-mutuo.html",
+      "alt": "Illustrazione editoriale IA di una consulenza per un mutuo a tasso fisso, con una coppia, un consulente, un modellino di casa e un grafico senza dati reali.",
+      "prompt": "Use case: photorealistic-natural. Asset type: CurioMondo editorial article hero, landscape 3:2. A highly photorealistic editorial photograph for an Italian explainer about IRS/Eurirs and fixed-rate mortgages: a mortgage adviser and a couple seated together around one table in a contemporary Italian consultation office, all faces clearly visible, with a realistic house model, keys, calculator and an unlabeled long-term rate curve. Natural daylight, restrained blue accents, professional newspaper photography, realistic hands and materials. No readable text, numbers, letters, logos, branding, watermark, title, UI, collage or people seen from behind.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/che-cose-lirs-di-un-mutuo-ai-v760-480.webp",
+          "sha256": "1c82a26da761e94089c0009f4b1c18882f4aaec2dbf09958e2ff2d6eb59f6af3",
+          "bytes": 33340
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/che-cose-lirs-di-un-mutuo-ai-v760-800.webp",
+          "sha256": "82dce271c1654cc5bb52e59c275ed68aaf1911293968f42efee0d84d2f6cb280",
+          "bytes": 68858
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/che-cose-lirs-di-un-mutuo-ai-v760-1200.webp",
+          "sha256": "5c20ab3921568170725e03439244add8c89da4f64477ea81ded16bb6be6d4212",
+          "bytes": 123318
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "ChatGPT/OpenAI image_gen",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "sourceSha256": "b5b1c22b77c87151a602b27a3eb28b4cbdab4d5269f9319029e6f7f3525b215d"
+    },
     {
       "key": "mattarella-assisi-san-francesco-discorso-loggia-4-ottobre-2026-v759",
       "article": "/notizie/mattarella-assisi-san-francesco-discorso-loggia-4-ottobre-2026.html",

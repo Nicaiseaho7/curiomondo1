@@ -1,7 +1,7 @@
 {
-  "site_version": 759,
-  "articleCount": 811,
-  "generatedEditorialImages": 301,
+  "site_version": 760,
+  "articleCount": 812,
+  "generatedEditorialImages": 302,
   "baseline_version": 342,
   "release_date": "2026-10-04",
   "protocol_files": [
@@ -17,12 +17,12 @@
     "curiomondo-site-manifest.json"
   ],
   "last_daily_question_date": "2026-10-04",
-  "version": "759",
+  "version": "760",
   "date": "2026-10-04",
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "images-ai-audit-v759",
-  "performance_pass": "Rinominate le 10 immagini sostituite in v260 (nuovo nome file, no riuso) per bypassare la cache immutabile di 1 anno su /assets/images/*; tutti i riferimenti aggiornati.",
-  "currentVersion": 759,
+  "last_update": "evergreen-irs-mutuo-v760",
+  "performance_pass": "Pubblicata guida premium IRS/Eurirs con hero IA 3:2, fonti primarie, esempi, ricerca, sitemap e collegamenti bidirezionali.",
+  "currentVersion": 760,
   "baselineVersion": 342,
   "designRestored": "Intestazione globale unificata su tutte le pagine interne; palette blu Facebook e fascia LIVE rossa piena confermate.",
   "status": "ready"
