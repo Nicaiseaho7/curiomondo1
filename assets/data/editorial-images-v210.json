@@ -1,7 +1,131 @@
 {
-  "version": 775,
+  "version": 777,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Illustrazione editoriale IA di busta e telecomando TV, tema canone Rai; scena non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/canone-rai-2026-ultima-rata-in-bolletta-a-ottobre-da-novembre-sparisce-v777-480.webp",
+          "sha256": "c49c493ff3e1eca97f18eee6edafdd7ffb83b1d0c68d293fbee9dbbb8cb76571",
+          "bytes": 12060
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/canone-rai-2026-ultima-rata-in-bolletta-a-ottobre-da-novembre-sparisce-v777-800.webp",
+          "sha256": "4be55cf1b860eb7aed2d8c65c1e9becb5f68b1b95defe2ce189bd28af73f4d11",
+          "bytes": 23210
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/canone-rai-2026-ultima-rata-in-bolletta-a-ottobre-da-novembre-sparisce-v777-1200.webp",
+          "sha256": "be2a154a02d6a89c0faa2635e3f9c38837d1315482cc1593e16aa5d49f318db8",
+          "bytes": 40276
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/canone-rai-2026-ultima-rata-in-bolletta-a-ottobre-da-novembre-sparisce.html"
+    },
+    {
+      "alt": "Illustrazione editoriale IA di pomodorini freschi su tagliere; scena non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/salmonella-e-pomodori-in-puglia-stop-al-crudo-nelle-mense-lotto-da-caltanissetta-v776-480.webp",
+          "sha256": "9018d7032a525ad05f43e74a44fc810754fd32b379227a3947a0ab10caf28fe5",
+          "bytes": 23124
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/salmonella-e-pomodori-in-puglia-stop-al-crudo-nelle-mense-lotto-da-caltanissetta-v776-800.webp",
+          "sha256": "7fd6e0f0bf47f3b24cbd302dd1c3501869863d23b9b90848271651cf45110ea8",
+          "bytes": 48048
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/salmonella-e-pomodori-in-puglia-stop-al-crudo-nelle-mense-lotto-da-caltanissetta-v776-1200.webp",
+          "sha256": "fb224a9bdf3fed8f3453a8dfb61debc33e09f7c21d94a654c1ab90f81e345a51",
+          "bytes": 83624
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/salmonella-e-pomodori-in-puglia-stop-al-crudo-nelle-mense-lotto-da-caltanissetta-05-10-2026.html"
+    },
+    {
+      "alt": "Illustrazione editoriale IA di orologio e smartphone, tema cambio ora; scena non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ora-solare-2026-lancette-indietro-il-25-ottobre-alle-3-tornano-le-2-v775-480.webp",
+          "sha256": "08cfcae275f45d44c5e96e4f3530d442af96b8bf99a86bb4b85d59afe93ea9bb",
+          "bytes": 25728
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ora-solare-2026-lancette-indietro-il-25-ottobre-alle-3-tornano-le-2-v775-800.webp",
+          "sha256": "58047d6f7a9adf465ff86b9eab86f277e88d44d12a671b310fb2eabb0121d750",
+          "bytes": 58856
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ora-solare-2026-lancette-indietro-il-25-ottobre-alle-3-tornano-le-2-v775-1200.webp",
+          "sha256": "6e28496c6f0acb1a69dbb3aa9434a6f2512cb85dec085f3ee19a5ad4abb73962",
+          "bytes": 103520
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/ora-solare-2026-lancette-indietro-il-25-ottobre-alle-3-tornano-le-2.html"
+    },
+    {
+      "alt": "Illustrazione editoriale IA di persona che consulta notizie sullo smartphone; scena non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/trends-italia-5-ottobre-ora-solare-canone-rai-salmonella-e-ballando-v774-480.webp",
+          "sha256": "ff1669e33f616a714fc8dafa7a036bdb569cdb8ed599e3e85662ed94e59ef9f9",
+          "bytes": 21734
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/trends-italia-5-ottobre-ora-solare-canone-rai-salmonella-e-ballando-v774-800.webp",
+          "sha256": "2ea66482efcf2c329daaae881b1b3d6d79a36b46afd7a8e17dfa75052f1417f3",
+          "bytes": 46692
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/trends-italia-5-ottobre-ora-solare-canone-rai-salmonella-e-ballando-v774-1200.webp",
+          "sha256": "208b64180f122d576e19828702717375869d228ff321c1eabd0bb4e1cd36ef9f",
+          "bytes": 80314
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/trends-italia-5-ottobre-ora-solare-canone-rai-salmonella-e-ballando-05-10-2026.html"
+    },
     {
       "alt": "Illustrazione editoriale IA di banconote euro, monete e calcolatrice su scrivania per liquidazione Tfr; scena non documentaria.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
