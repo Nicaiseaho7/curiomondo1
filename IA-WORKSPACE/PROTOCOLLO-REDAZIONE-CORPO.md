@@ -1,12 +1,14 @@
 # Protocollo redazione corpo articolo — CurioMondo
 
 **Stato:** obbligatorio, fail-closed  
-**Data:** 18 settembre 2026  
-**Prevalenza:** sul testo pubblico di ogni notizia; non sostituisce `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md` né il protocollo immagini.
+**Data:** 22 settembre 2026  
+**Prevalenza scrittura:** `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` (v502) e `PROTOCOLLO-ARTICOLI-PREMIUM.md` (v1.0). Questo file resta il contratto tecnico del markup pubblico. Non sostituisce il protocollo qualità, il protocollo immagini né il gate di rischio v471.
 
 La velocità non prevale sulla qualità. Se le informazioni verificate non bastano per un articolo completo e originale: `NON PUBBLICARE`.
 
 ## Principio
+
+Il testo pubblico segue lo standard professionale in `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`.
 
 Non ottimizzare il testo per «sembrare un giornale». Ottimizzarlo per essere utile al lettore.
 
@@ -14,15 +16,32 @@ Ogni articolo deve comunicare subito il fatto, distinguere fatti da dichiarazion
 
 Nel corpo pubblico non devono mai comparire appunti interni, verifiche automatiche, elenchi di testate, timestamp di lavorazione o conversazioni tra redattori.
 
-## Struttura
+## Markup
 
-- **Titolo:** informativo, senza clickbait, coerente col fatto.
-- **Sommario:** uno o due elementi non già nel titolo.
-- **Lead:** chi, cosa, quando, dove, perché e conseguenze immediate, quando noti. Si regge da solo.
-- **Corpo:** piramide invertita. Un’idea per paragrafo, 2–4 frasi, massimo 60 parole, almeno un’informazione nuova.
-- **Chiusura:** prossimo passaggio, scadenza, precedente o ciò che resta da accertare. Vietate morali, opinioni, riepiloghi del lead.
+- **Titolo (H1):** secondo `PROTOCOLLO-TITOLI-CTR.md` v2.1. Informativo e professionale, con un motivo concreto e veritiero per approfondire, fondato su dettagli, dati, contrasti, conseguenze, limiti o utilità documentati. Può già dare il fatto principale; domande solo motivate, nessuno schema seriale «cosa…». Test del titolo isolato su Google e della promessa mantenuta. Il sommario aggiunge dettagli, non recupera informazioni nascoste per il clic.
+- **Sommario (`.subtitle`):** uno o due elementi non già nel titolo.
+- **Lead:** primo paragrafo di `.art-body`. Si regge da solo.
+- **Corpo:** `.art-body` con `data-editorial-protocol="4.0"` e `data-article-format` (`flash` | `standard` | `feature`). I nuovi articoli **non** dichiarano `data-length-policy="3000-7000"`.
+- **Sottotitoli H2/H3:** **vietati** nelle notizie (`notizie/*.html`, flash e standard). Ammessi solo negli approfondimenti evergreen/feature se informativi. Vietati i titoletti generici.
+- **Fonti:** soltanto in `.art-sources`, fuori da `.art-body`.
+- **Evergreen:** blocco `.cm-evergreen-reader` sotto l’articolo, mai nel corpo della notizia.
 
-Formati: flash 100–250 parole; standard 300–600; approfondimento 800–1.500 o più solo se la materia lo richiede. Non allungare con riempitivi. Sotto le 300 parole dopo la revisione: flash, non ripetizioni.
+## Lunghezza
+
+La lunghezza dipende dalla materia verificata. Vietato allungare per quota.
+
+Orientamento per i nuovi articoli secondo il protocollo premium, mai obiettivo da riempire:
+
+- flash verificato: circa 250–450 parole;
+- notizia completa: circa 700–1.200 parole;
+- articolo premium: circa 1.200–2.200 parole quando esistono materia e contributo originale sufficienti;
+- evento in evoluzione: lunghezza variabile.
+
+Le fasce ammettono eccezioni editoriali motivate. Un flash può essere più corto quando il fatto è circoscritto; un'analisi può essere più lunga quando i documenti lo richiedono. Se manca materia anche per un flash: non pubblicare.
+
+## Composizione libera e moduli facoltativi
+
+Non usare una sequenza fissa di sezioni e non rendere seriale la struttura. Timeline, tabelle, dati chiave, documenti, calcoli e stati di verifica sono facoltativi e compaiono solo quando chiariscono la storia. Nelle pagine `notizie/*.html` non possono introdurre H2/H3 o titoletti generici vietati.
 
 ## Tono
 
@@ -30,11 +49,15 @@ Italiano professionale, naturale, preciso. Verbi diretti. Niente prima persona e
 
 ## Fonti nel corpo
 
-Le fonti complete stanno solo in **Fonti consultate** (`.art-sources`), fuori da `.art-body`.
+**VIETATO** nel corpo dell'articolo (`.art-body`), in qualsiasi forma:
 
-Nel corpo sono vietati elenchi di testate, note sul fact-checking, `Fonti:`, `Fonte primaria:`, `Conferma:`, `Letture:`, `Europe/Rome`, orari di lavorazione, «al momento della verifica», «nei testi consultati», «le testate allineano», «fonti riportate in fondo».
+- paragrafi o frasi finali del tipo `Fonte: …`, `Fonti: …`, `Fonte primaria: …`, `Fonti consultate: …`;
+- elenchi di testate a fine pezzo («Fonte: ANSA, Reuters, BBC»);
+- note sul fact-checking, `Conferma:`, `Letture:`, `Europe/Rome`, orari di lavorazione, «al momento della verifica», «nei testi consultati», «le testate allineano», «fonti riportate in fondo».
 
-Il nome di una fonte nel corpo è ammesso solo se indispensabile: citazione, dato esclusivo, distinzione tra ricostruzione e atto ufficiale.
+Le fonti con link stanno **solo** nella sezione dedicata **«Fonti consultate»** (`.art-sources`), già presente sotto l'articolo. **Non** ripetere le fonti nel testo.
+
+Il nome di una fonte nel corpo è ammesso **solo** se indispensabile per l'attribuzione giornalistica *dentro* la frase (citazione, dato esclusivo, distinzione tra ricostruzione e atto ufficiale), es.: «secondo il bollettino Mimit…», «la FIGC ha comunicato…». Mai come riga separata `Fonte: …`.
 
 ## Divieti nel testo pubblico
 
@@ -49,3 +72,43 @@ Non presentare come fatto promesse, proposte, stime, indiscrezioni. Usare «ha a
 ## Controllo bloccante predeploy
 
 `tools/predeploy.py` analizza `.art-body` degli articoli v4 e blocca il deploy se trova le espressioni vietate o frasi duplicate. I nomi delle fonti restano obbligatori in `.art-sources`.
+
+## Sottotitoli H2/H3 nelle notizie — VIETATI (27 settembre 2026)
+
+**Nelle pagine `notizie/*.html` (flash e standard) i sottotitoli H2/H3 nel corpo `.art-body` sono vietati.**
+Il pezzo scorre solo a paragrafi (e liste solo se indispensabili per candidati/orari).
+I sottotitoli H2/H3 restano ammessi **solo** negli **approfondimenti** evergreen (`approfondimenti/` o formato feature), quando orientano una guida lunga.
+Non inserire mai titoletti del tipo «Il contesto», «Cosa sappiamo», «Il punto» nelle notizie.
+Violazione = articolo da correggere prima del go-live.
+
+
+## Vietati i commenti personali / meta della redazione nel corpo — 27 settembre 2026
+
+Nelle **notizie** (`notizie/*.html`) è **vietato** inserire nel corpo `.art-body` frasi meta, di metodo o di «voce CurioMondo», ad esempio:
+- «CurioMondo segue il caso con sobrietà…»
+- «CurioMondo aggiorna solo su fatti di agenzia…»
+- «CurioMondo non pubblica dettagli…»
+- «Non anticipiamo sentenze…» / «Aggiorneremo solo con fonti…»
+- qualsiasi chiusura in prima persona redazionale o auto-elogio del metodo
+
+Il pezzo racconta **fatti, contesto e fonti**. Metodo, disclosure IA e firma stanno **solo** in `art-sources` / footer / pagine istituzionali (`Come lavoriamo`), non nei paragrafi della notizia.
+Violazione = correggere prima del go-live.
+
+
+## Immagini incidenti / morti sul lavoro — vietati rottami e scene macabre (27 settembre 2026)
+
+Nelle hero e illustrazioni di **notizie su incidenti stradali, morti sul lavoro, cantieri, investimenti, incidenti autostradali**:
+- **MAI** auto rovesciate, carcasse, lamiere contorte, vetri infranti in primo piano, sangue, corpi, barelle, scene di soccorso gore o “re-enactment” spettacolari dell’incidente.
+- **Sì** a immagini sobrie di contesto: cantiere segnalato, coni e luci, tratto di strada vuoto, barriere, autostrada di notte **senza** veicolo incidentato.
+- Niente targhe (anche inventate) su qualsiasi veicolo.
+- Tone: documentario, rispettoso della vittima, non tabloid.
+
+Violazione = rigenerare l’immagine e aggiornare hero/og prima del go-live. **Non deve più succedere.**
+
+
+## Notizie da radar Trends — corpo e fonti (5 ottobre 2026)
+
+- Nel corpo della notizia **non** si scrive di query, Google Trends, ricerche in ascesa, soglie o volumi. Solo fatti.
+- Il radar resta interno: scegli il tema da Trends, pubblica la notizia come un quotidiano.
+- In `.art-sources` ogni link ha il **nome reale** della fonte (`nome` / `descrizione` nella bozza), non «Fonte consultata».
+- Vedi anche la sezione omonima in `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` (5 ottobre 2026).

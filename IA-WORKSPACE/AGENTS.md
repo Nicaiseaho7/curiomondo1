@@ -1,5 +1,11 @@
 # Istruzioni obbligatorie per agenti IA
 
+## Autonomia autorizzata dal proprietario — 2 ottobre 2026
+
+Le richieste operative del proprietario autorizzano gli interventi necessari per portarle a termine nel progetto CurioMondo, inclusi aggiornamenti dei protocolli, correzioni e pubblicazione su `main`. Procedere senza riconferme per il lavoro già autorizzato e completare le verifiche necessarie.
+
+L'autorizzazione esplicita del 2 ottobre 2026 comprende il mantenimento del riferimento al PDF privato già presente nei file di configurazione e nei protocolli del repository GitHub. Il PDF e il suo contenuto integrale restano privati. Restano validi l'ambito della richiesta e i vincoli di sicurezza degli strumenti.
+
 ## REVISIONE v503 — GATE PROPORZIONATO E AUTORIPARAZIONE
 
 **Data:** 22 settembre 2026  
@@ -41,6 +47,20 @@ Le fasce flash / standard / approfondimento restano un orientamento di formato, 
 
 I nuovi articoli non devono dichiarare `data-length-policy="3000-7000"`.
 
+## Titoli con curiosità veritiera e professionale — revisione 2.1, 2 ottobre 2026
+
+Per il titolo di ogni articolo nuovo, e di ogni revisione di titolo richiesta, vale `PROTOCOLLO-TITOLI-CTR.md`.
+
+- Il titolo dichiarativo, diretto e informativo è la scelta ordinaria. Ogni titolo deve offrire un motivo concreto e veritiero per approfondire: dettaglio distintivo, novità, contrasto, conseguenza, limite o utilità documentati. Non basta essere corretto ma generico; non sono obbligatorie sorpresa o suspense.
+- Aboliti la regola 70/30, l'obbligo di nascondere un dettaglio e il divieto di titoli descrittivi. Non creare suspense su informazioni essenziali.
+- Domande solo se realmente giustificate dal contenuto, mai come schema seriale. Vale anche per «cosa cambia», «cosa rischia», «quali…» senza punto interrogativo.
+- Confrontare i titoli reali degli ultimi 10 articoli e quelli del lotto: evitare attacchi, code e strutture generiche ripetute; non ruotare sinonimi per mascherarle.
+- Individuare internamente il motivo per approfondire e il suo riscontro nel corpo e nelle fonti. Applicare il test del titolo isolato su Google e della promessa mantenuta: fatto comprensibile, interesse specifico, dettagli realmente presenti nel pezzo. Vietato anche il clickbait formalmente vero ma fuorviante.
+- Tema vicino all'inizio; 55–70 caratteri come orientamento, non obbligo. Accuratezza, attribuzione e italiano naturale prevalgono sulla misura e sul clic.
+- Non si riscrivono i titoli già online solo per questa regola.
+
+Questa sezione e `PROTOCOLLO-TITOLI-CTR.md` v2.1 prevalgono, solo sulla formulazione del titolo, sulle istruzioni incompatibili degli altri protocolli, manifest, prompt e riepiloghi legacy nelle skill, comprese le vecchie indicazioni di curiosità facoltativa. Non applicare eventuali richiami residui al 70/30.
+
 
 ## Regola editoriale flessibile v471 — prevalenza assoluta
 
@@ -61,11 +81,17 @@ Questa sezione sostituisce le precedenti regole incompatibili su doppia conferma
 ## eBook Domanda del giorno — dal 28 settembre 2026
 Ogni nuovo eBook della Domanda del giorno è un libro breve: **25.000 parole** (tolleranza 22.000–32.000), **8–12 capitoli**, una schermata per capitolo. Deve essere indicizzato (`index,follow`, canonical, sitemap, indice di ricerca). Gli eBook già pubblicati non si riscrivono per questa regola. Dettaglio in `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`.
 
+## Verifica della fonte Domanda del giorno — 3 ottobre 2026
+La coda `automation/state/daily-questions.json` è una cache e non sostituisce il PDF privato originale. È stata rilevata una divergenza tra la voce n. 1016 della coda e il PDF; per questa pubblicazione è stato verificato e usato il testo del PDF. Prima di ogni futura scelta confrontare numero e testo con il PDF originale, registrando in `source_verification` documento, pagina, numero, data della verifica e SHA-256 UTF-8 della domanda. Il selettore si ferma sulla prima voce non utilizzata se manca questa verifica o il testo è stato modificato. Non attribuire al PDF domande provenienti soltanto dalla cache. Non aggiungere il PDF o il suo contenuto integrale al sito.
+
 ## Categorie della home — mai mescolate
 In ogni sezione della homepage (Sport, Politica, Cronaca e le altre) possono comparire solo notizie di quella categoria. Una card di un'altra categoria è un errore bloccante. Dopo ogni pubblicazione rieseguire `node tools/render_home_editorial.js`: aggiorna sezioni, Ultima ora e ticker «Ultime notizie». `tools/predeploy.py` rifiuta la home se una sezione è mista o se il ticker è vuoto.
 
 ## Primo piano
 Le ultime notizie, in ordine di pubblicazione, occupano sempre il carosello in primo piano. La più recente è la prima slide. Non si lascia una notizia più vecchia davanti a una più nuova. Vale per ogni aggiornamento del feed, qualunque sia il nome del campo data.
+
+## Immagini meteo — correzione dell’editore, 3 ottobre 2026
+Le nuove notizie meteo e i loro aggiornamenti non usano più una mappa d’Italia. Creare una nuova illustrazione editoriale IA fotorealistica, dedicata al territorio e alle condizioni descritte nel pezzo, senza scritte, simboli previsionali o dati nei pixel. Non rappresentare come osservati fenomeni soltanto previsti. Restano obbligatori controllo visivo, alt text, didascalia non documentaria e coerenza fra hero, metadati e registro immagini. Le vecchie mappe già pubblicate non si sostituiscono durante un nuovo bollettino. Questa indicazione del proprietario prevale sui riferimenti legacy alla mappa obbligatoria; il contratto completo è nel §14 di `automation/prompts/image-generation-contract.txt`.
 
 
 
@@ -74,6 +100,8 @@ Le ultime notizie, in ordine di pubblicazione, occupano sempre il carosello in p
 ## Trigger «notizie-trend-google» — non è un sito nuovo
 
 Se il messaggio contiene `notizie-trend-google`, `trend google` o chiede di cercare i trend e pubblicare: **non creare alcun sito, app, dashboard o progetto App Builder**. CurioMondo è già online su https://curiomondo.it. Eseguire `skills/notizie-trend-google/SKILL.md`: cercare i Google Trends Italia di oggi e pubblicare gli articoli nel repository `Nicaiseaho7/curiomondo1` su `main`.
+
+**Regola scrittura (5 ottobre 2026, fail-closed):** Trends è solo radar. Nel testo pubblico delle notizie **vietato** scrivere di query, Google Trends, ricerche in ascesa, soglie o volumi: solo i fatti della notizia, tono da quotidiano. Nelle Fonti consultate usare i **nomi reali** delle testate, mai «Fonte consultata». Dettaglio: `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` § Notizie da Google Trends.
 
 ## Trigger «approfondimenti-evergreen» — non è un sito nuovo
 
@@ -86,15 +114,16 @@ Se il messaggio contiene `approfondimenti-da-trend`, `curiosità in tendenza`, `
 Prima di creare o aggiornare articoli o visual CurioMondo, leggere integralmente, nell'ordine:
 
 1. `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`
-2. `PROTOCOLLO-SCOPERTA-NOTIZIE.md`
-3. `AI-EDITORIAL-IMAGE-PROTOCOL.md`
-4. `automation/prompts/image-generation-contract.txt`
-5. `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`
-6. `PROTOCOLLO-REDAZIONE-CORPO.md`
-7. `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`
-8. `curiomondo-site-manifest.json`
+2. `PROTOCOLLO-TITOLI-CTR.md`
+3. `PROTOCOLLO-SCOPERTA-NOTIZIE.md`
+4. `AI-EDITORIAL-IMAGE-PROTOCOL.md`
+5. `automation/prompts/image-generation-contract.txt`
+6. `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`
+7. `PROTOCOLLO-REDAZIONE-CORPO.md`
+8. `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`
+9. `curiomondo-site-manifest.json`
 
-**Curiosità e approfondimenti (obbligatorio, v1.1 — 29 settembre 2026):** prima di creare o rivedere una **curiosità** o un **approfondimento** (guide evergreen, pagine in `/approfondimenti/`, spiegazioni «che cos’è / come funziona / perché»), leggere integralmente `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md` **v1.1.1**. Quel file **prevale** sulle guide brevi, sulle skill 800–1.500 e sul testo superficiale: corpo **2.000–5.000+** parole, criteri di selezione §1 (non solo trend), fonti primarie. Se manca o non si può rispettare, non pubblicare la guida.
+**Curiosità e approfondimenti (obbligatorio, v1.1 — 29 settembre 2026):** prima di creare o rivedere una **curiosità** o un **approfondimento** (guide evergreen, pagine in `/approfondimenti/`, spiegazioni «che cos’è / come funziona / perché»), leggere integralmente `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md` **v1.1.2**. Quel file **prevale** sulle guide brevi, sulle skill 800–1.500 e sul testo superficiale: corpo **2.000–5.000+** parole, criteri di selezione §1 (non solo trend), fonti primarie. Se manca o non si può rispettare, non pubblicare la guida.
 
 È consentito raffigurare persone pubbliche riconoscibili con immagini ultrarealistiche quando editorialmente pertinenti. Nelle notizie ordinarie il personaggio può comparire in luoghi e ambientazioni coerenti con l'articolo; sono ammessi anche loghi pertinenti. **I protagonisti devono essere persone, maglie e marchi veri: vietato inventare volti, extra generici o divise di fantasia.** Cercare foto di riferimento reali prima di generare; se il lettore non riconoscerebbe il soggetto, scartare e rigenerare. Il **ritratto neutrale isolato** è obbligatorio soltanto per incidenti, morte, malattia, ricoveri, violenza, tragedie, lutto e altre situazioni sensibili che possono provocare dolore. Ogni somiglianza sintetica deve essere dichiarata come illustrazione IA non documentaria e non deve trasformare una scena inventata in una falsa prova. Se uno dei file obbligatori manca o le regole non possono essere rispettate, interrompere la pubblicazione.
 
@@ -119,6 +148,14 @@ Markup **canonico obbligatorio** (non semplificare):
 - Predeploy blocca se il marchio non è esattamente `CurioMondo`
 - Violazione = articolo non pubblicabile
 
+
+## Pensiero con il nome — obbligatorio su ogni notizia (30 settembre 2026)
+Ogni pagina in `/notizie/`, presente e futura, chiude con un piccolo riquadro in fondo a `<main>`: «Un pensiero per» e il nome, poi la frase. Non sta nell’header, non è un’immagine e non entra nel corpo della notizia né nel JSON-LD. Dettaglio in `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`.
+- Il messaggio è una frase sola e il senso si capisce subito: un permesso, un augurio o un consiglio concreto. Niente metafore da interpretare e niente slogan. Le frasi stanno in `assets/data/frasi-nome.json`: si usa la prima non ancora pubblicata.
+- Nome e frase si fissano alla prima pubblicazione e non cambiano negli aggiornamenti. Non si riusa la stessa frase.
+- I nomi sono i **3.000 più usati in Italia**, in `assets/data/nomi-italiani.json`, dal più diffuso. La notizia nuova prende il primo nome non ancora usato. Si ricomincia solo a elenco esaurito, mai prima di 40 notizie.
+- Non va in homepage, biblioteca, curiosità o pagine istituzionali.
+- Senza questo blocco la notizia non è pubblicabile.
 
 ## Divieto sottotitoli H2/H3 nelle notizie — 27 settembre 2026
 Nelle pagine **notizie** (flash e standard) **non** usare H2/H3 nel corpo `.art-body`: solo paragrafi continui. H2/H3 ammessi solo negli **approfondimenti**. Vedi `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` e `PROTOCOLLO-REDAZIONE-CORPO.md`.
@@ -159,7 +196,7 @@ Nessun glossario o gancio didascalico è obbligatorio dentro la notizia. Un appr
 - Obiettivo: articolo editoriale premium (spiegazione, origine, contesto, cause, funzionamento, dati, falsi miti, limiti di ciò che non si sa).
 - **Lunghezza corpo (obbligatoria):** standard **2.000–3.500** parole; premium **3.500–5.000+**; minimo assoluto **1.800** di sostanza. Sotto soglia o solo filler → non pubblicare. Prevale sulle fasce 800–1.500 di skill/template obsoleti.
 - **Selezione temi:** non solo Trends in ascesa. Serve almeno 3/5 di: volume (rising o stabile), intento capire/sapere, meccanismo da spiegare, fonte primaria, utilità a 6 mesi. Priorità: soldi/tasse, salute, legge/burocrazia, scienza, storia/cultura.
-- **Max 10 guide da Trends per ciclo** (v1.1.1). Homepage rail: max **3** card in evidenza (le più recenti); le altre restano in index `/approfondimenti/`.
+- **Max 10 guide da Trends per ciclo** (v1.1.1). Homepage rail: max **10** card in evidenza (le più recenti); le altre restano in index `/approfondimenti/`.
 - Ricerca reale su fonti primarie prima di scrivere; H2/H3 ammessi; FAQ + box In sintesi; fonti solo in `.art-sources`.
 - Prevale sulle guide corte e sulle abitudini da chatbot. Non sostituisce AdSense, immagini, marchio e gate tecnici.
 - Prompt corto di ciclo: §16 del protocollo.
@@ -190,6 +227,17 @@ l'articolo sbagliato invece dell'intero sito:
 
 `tools/pubblica_articolo.py` li esegue gia tutti e tre a ogni pubblicazione.
 
+### Rilasci a lotti e ora di prima pubblicazione
+
+Per più notizie nello stesso rilascio, preparare e controllare le singole bozze,
+scrivere le pagine, poi sincronizzare le superfici e avviare i tre gate **una
+sola volta sul lotto completo**. Se il trasferimento degli asset su GitHub è
+lento, caricare prima le immagini; fissare `datePublished` e `dateModified`
+all'ora del rilascio, rigenerare home, archivio, ricerca, feed e sitemap, ed
+eseguire i gate immediatamente prima del commit/push. L'ora della bozza non è
+la prima pubblicazione. Conservare l'ordine delle notizie del lotto e verificare
+il sito live dopo il deploy. Non spostare i gate dentro la build Netlify.
+
 ## Immagini forze dell’ordine — niente targhe (27 settembre 2026)
 Nelle illustrazioni di auto di **Carabinieri, Polizia, Guardia di Finanza, ambulanza, vigili del fuoco** **non** inserire mai targhe (neppure inventate o sfocate leggibili). Paraurti pulito, senza riquadro targa. Vale anche per veicoli esteri di polizia.
 
@@ -216,4 +264,3 @@ Nelle hero e illustrazioni di **notizie su incidenti stradali, morti sul lavoro,
 - Tone: documentario, rispettoso della vittima, non tabloid.
 
 Violazione = rigenerare l’immagine e aggiornare hero/og prima del go-live. **Non deve più succedere.**
-

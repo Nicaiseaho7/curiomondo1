@@ -104,3 +104,11 @@ Nelle hero e illustrazioni di **notizie su incidenti stradali, morti sul lavoro,
 - Tone: documentario, rispettoso della vittima, non tabloid.
 
 Violazione = rigenerare l’immagine e aggiornare hero/og prima del go-live. **Non deve più succedere.**
+
+
+## Notizie da radar Trends — corpo e fonti (5 ottobre 2026)
+
+- Nel corpo della notizia **non** si scrive di query, Google Trends, ricerche in ascesa, soglie o volumi. Solo fatti.
+- Il radar resta interno: scegli il tema da Trends, pubblica la notizia come un quotidiano.
+- In `.art-sources` ogni link ha il **nome reale** della fonte (`nome` / `descrizione` nella bozza), non «Fonte consultata».
+- Vedi anche la sezione omonima in `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` (5 ottobre 2026).

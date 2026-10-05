@@ -321,11 +321,32 @@ for p in news:
             'le testate allineano', 'non pubblichiamo', 'non confondere',
             'il valore aggiunto è', 'quello che è verificato', 'la notizia corretta è',
             'fonti riportate in fondo',
+            # Radar Trends: vietato nel testo pubblico (protocollo 5 ottobre 2026)
+            'google trends', 'query in ascesa', 'ricerche in ascesa', 'trending now',
+            'soglia 100k', 'soglia 5k', '100k+', 'geo it', 'da quelle query',
+            'la query «', 'la query "', 'query trends', 'bucket trends',
         )
         lowered=body_plain.casefold().replace('’', "'")
         for phrase in forbidden_body:
             if phrase.casefold() in lowered:
                 errors.append(f'nota interna o elenco fonti nel corpo v4: {p.name} ({phrase})')
+                break
+        # Meta Trends anche in sommario / title / description
+        public_meta=' '.join([
+            ' '.join(d.xpath('//p[@class="subtitle"]//text()')),
+            ' '.join(d.xpath('//meta[@name="description"]/@content')),
+            ' '.join(d.xpath('//h1//text()')),
+        ]).casefold()
+        for phrase in ('google trends', 'query in ascesa', 'ricerche in ascesa', 'soglia 100k', '100k+', 'geo it'):
+            if phrase in public_meta:
+                errors.append(f'meta Trends/query nel pezzo pubblico: {p.name} ({phrase})')
+                break
+        # Fonti: vietato il placeholder generico
+        for a in d.xpath('//div[contains(@class,"art-sources")]//ul//a'):
+            label=(a.text or '').strip()
+            href=a.get('href') or ''
+            if href.startswith('http') and label.casefold()=='fonte consultata':
+                errors.append(f'fonte senza nome reale (Fonte consultata): {p.name}')
                 break
     figures=d.xpath('//main/figure[1]')
     if figures:

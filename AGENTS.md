@@ -101,6 +101,8 @@ Le nuove notizie meteo e i loro aggiornamenti non usano più una mappa d’Itali
 
 Se il messaggio contiene `notizie-trend-google`, `trend google` o chiede di cercare i trend e pubblicare: **non creare alcun sito, app, dashboard o progetto App Builder**. CurioMondo è già online su https://curiomondo.it. Eseguire `skills/notizie-trend-google/SKILL.md`: cercare i Google Trends Italia di oggi e pubblicare gli articoli nel repository `Nicaiseaho7/curiomondo1` su `main`.
 
+**Regola scrittura (5 ottobre 2026, fail-closed):** Trends è solo radar. Nel testo pubblico delle notizie **vietato** scrivere di query, Google Trends, ricerche in ascesa, soglie o volumi: solo i fatti della notizia, tono da quotidiano. Nelle Fonti consultate usare i **nomi reali** delle testate, mai «Fonte consultata». Dettaglio: `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` § Notizie da Google Trends.
+
 ## Trigger «approfondimenti-evergreen» — non è un sito nuovo
 
 Se il messaggio contiene `approfondimenti-evergreen`, `guide evergreen` o chiede di pubblicare approfondimenti: **non creare alcun sito, app, dashboard o progetto App Builder**. CurioMondo è già online su https://curiomondo.it. Eseguire `skills/approfondimenti-evergreen/SKILL.md`: creare fino a due guide evergreen collegate alle notizie del giorno e pubblicarle nel repository `Nicaiseaho7/curiomondo1` su `main`.
