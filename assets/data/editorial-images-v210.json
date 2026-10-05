@@ -1,37 +1,38 @@
 {
-  "version": 773,
+  "version": 775,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
-      "alt": "Illustrazione editoriale IA di scrivania con cartella e calcolatrice per calcoli Tfr; scena non documentaria.",
+      "alt": "Illustrazione editoriale IA di banconote euro, monete e calcolatrice su scrivania per liquidazione Tfr; scena non documentaria.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
       "variants": [
         {
           "w": 480,
-          "src": "/assets/images/editorial-auto/tfr-il-nuovo-tuir-conferma-i-prelievi-piu-favorevoli-dal-2027-v773-480.webp",
-          "sha256": "069fac648ba350f2302b5ab2fc7c0a0302f2a2cfc9b3e23a83d8adc9b5c05146",
-          "bytes": 18590
+          "src": "/assets/images/editorial-auto/tfr-il-nuovo-tuir-conferma-i-prelievi-piu-favorevoli-dal-2027-v775-480.webp",
+          "sha256": "96dce6f47d9f56d66cc2170cb3d08d17a1f2559a613a1df96ac636689e92d977",
+          "bytes": 33044
         },
         {
           "w": 800,
-          "src": "/assets/images/editorial-auto/tfr-il-nuovo-tuir-conferma-i-prelievi-piu-favorevoli-dal-2027-v773-800.webp",
-          "sha256": "8f4a38b4b33b1d9018a0993115a9107606ce8ec1d5b9e81eff501a5858679c3d",
-          "bytes": 41856
+          "src": "/assets/images/editorial-auto/tfr-il-nuovo-tuir-conferma-i-prelievi-piu-favorevoli-dal-2027-v775-800.webp",
+          "sha256": "24743cee027d3eabc76e4364ed0fcc0d45ffbdc8094247ecf9103fcaa8f4e489",
+          "bytes": 72006
         },
         {
           "w": 1200,
-          "src": "/assets/images/editorial-auto/tfr-il-nuovo-tuir-conferma-i-prelievi-piu-favorevoli-dal-2027-v773-1200.webp",
-          "sha256": "e68143069e2895f8867145f5a93d873e1b7ce858c19ac212aada96688681efc1",
-          "bytes": 77258
+          "src": "/assets/images/editorial-auto/tfr-il-nuovo-tuir-conferma-i-prelievi-piu-favorevoli-dal-2027-v775-1200.webp",
+          "sha256": "18e831876ae593e222b9ab79b8d1dae2ecfc1f29daa9bb355483960351bd2b67",
+          "bytes": 129782
         }
       ],
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "fornita dalla redazione",
+      "generator": "Grok Imagine",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,
       "sensitiveContext": false,
-      "article": "/notizie/tfr-il-nuovo-tuir-conferma-i-prelievi-piu-favorevoli-dal-2027.html"
+      "article": "/notizie/tfr-il-nuovo-tuir-conferma-i-prelievi-piu-favorevoli-dal-2027.html",
+      "version": 775
     },
     {
       "alt": "Ritratto editoriale di Greta Thunberg generato con IA, somiglianza sintetica non documentaria.",
