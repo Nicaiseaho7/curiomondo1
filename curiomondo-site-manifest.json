@@ -7,8 +7,8 @@
     "current_protocol_version": "4.0",
     "protocol_introduced_in_site_version": 139,
     "protocol_date": "2026-09-10",
-    "current_site_version": 769,
-    "site_version": 769
+    "current_site_version": 770,
+    "site_version": 770
   },
   "instruction_priority": [
     "latest_explicit_owner_instruction",
@@ -61,7 +61,7 @@
     "private_source_required_fail_closed": true,
     "timezone": "Europe/Rome",
     "date_source": "current_datetime_in_Europe_Rome_never_UTC",
-    "last_question_slug": "se-potessi-eliminare-un-rimpianto-perderesti-anche-la-lezione-che-ti-ha-lasciato",
+    "last_question_slug": "perche-abbiamo-paura",
     "last_daily_guides": [
       "come-usare-telegram-discord",
       "come-bloccare-chiamate-indesiderate"
@@ -75,7 +75,9 @@
       "verified_on": "2026-10-05",
       "question_sha256": "6033e785713aeca148f38fba36bf96f39169be7a809a3ad8e7ad7a366a9fd7ee"
     },
-    "question_queue_rule": "La coda è una cache: ogni voce deve essere verificata sul PDF privato originale prima della pubblicazione."
+    "question_queue_rule": "La coda è una cache: ogni voce deve essere verificata sul PDF privato originale prima della pubblicazione.",
+    "owner_override_question": "Perché abbiamo paura?",
+    "owner_override_note": "Domanda del giorno impostata su richiesta del proprietario: Perché abbiamo paura?"
   },
   "homepage": {
     "hero_section_label": "In evidenza",
@@ -305,18 +307,15 @@
     ],
     "commit_success_is_not_equal_to_verified_publication": true
   },
-  "site_version": 766,
-  "version": "v766",
-  "release_version": "v766",
+  "site_version": 770,
+  "version": "v770",
+  "release_version": "v770",
   "last_release": {
-    "version": 766,
+    "version": 770,
     "date": "2026-10-05",
-    "type": "daily-editorial-package",
-    "daily_question_added": "se-potessi-eliminare-un-rimpianto-perderesti-anche-la-lezione-che-ti-ha-lasciato",
+    "type": "daily-question-owner-override",
+    "daily_question_added": "perche-abbiamo-paura",
     "ebook_linked": "/biblioteca/vita-relazioni/domande-per-conoscersi/quale-paura-chiameresti-prudenza-se-dovessi-raccontarla-senza-vergogna/",
-    "guides_added": [
-      "come-usare-telegram-discord",
-      "come-bloccare-chiamate-indesiderate"
-    ]
+    "change": "Domanda del giorno sostituita su richiesta del proprietario: Perché abbiamo paura?"
   }
 }
