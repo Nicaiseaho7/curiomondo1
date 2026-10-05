@@ -1,7 +1,101 @@
 {
-  "version": 769,
+  "version": 773,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Illustrazione editoriale IA di scrivania con cartella e calcolatrice per calcoli Tfr; scena non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/tfr-il-nuovo-tuir-conferma-i-prelievi-piu-favorevoli-dal-2027-v773-480.webp",
+          "sha256": "069fac648ba350f2302b5ab2fc7c0a0302f2a2cfc9b3e23a83d8adc9b5c05146",
+          "bytes": 18590
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/tfr-il-nuovo-tuir-conferma-i-prelievi-piu-favorevoli-dal-2027-v773-800.webp",
+          "sha256": "8f4a38b4b33b1d9018a0993115a9107606ce8ec1d5b9e81eff501a5858679c3d",
+          "bytes": 41856
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/tfr-il-nuovo-tuir-conferma-i-prelievi-piu-favorevoli-dal-2027-v773-1200.webp",
+          "sha256": "e68143069e2895f8867145f5a93d873e1b7ce858c19ac212aada96688681efc1",
+          "bytes": 77258
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/tfr-il-nuovo-tuir-conferma-i-prelievi-piu-favorevoli-dal-2027.html"
+    },
+    {
+      "alt": "Ritratto editoriale di Greta Thunberg generato con IA, somiglianza sintetica non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/greta-thunberg-a-napoli-sabato-bagnoli-marea-village-con-albanese-v772-480.webp",
+          "sha256": "318537247202b7288654e1ddb04e87093c0de47c5a431f1cf1aa9f3e27b427d0",
+          "bytes": 19572
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/greta-thunberg-a-napoli-sabato-bagnoli-marea-village-con-albanese-v772-800.webp",
+          "sha256": "ff908cdd4ef27a2236abf402bb8047d03cebb2340c72711484e9cc7f6af963f1",
+          "bytes": 47704
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/greta-thunberg-a-napoli-sabato-bagnoli-marea-village-con-albanese-v772-1200.webp",
+          "sha256": "40b41431c5001beb0651bb364f94f08059f8d8e0f6312ddb562b1c51aa14dc34",
+          "bytes": 89796
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/greta-thunberg-a-napoli-sabato-bagnoli-marea-village-con-albanese-05-10-2026.html"
+    },
+    {
+      "alt": "Illustrazione editoriale IA dell'ex Fonderia Nebiolo a Torino; scena non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/moschea-a-torino-c-e-il-permesso-ex-nebiolo-lavori-entro-fine-2026-v771-480.webp",
+          "sha256": "1cdcc740297e2b9087ae3eb4abe683a460f4813cdc2b08b1603912354fc5769b",
+          "bytes": 37290
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/moschea-a-torino-c-e-il-permesso-ex-nebiolo-lavori-entro-fine-2026-v771-800.webp",
+          "sha256": "5b161cefd06d5de122018f58e1774643389315c743ad6d189ec7a0e7aef0ab09",
+          "bytes": 89028
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/moschea-a-torino-c-e-il-permesso-ex-nebiolo-lavori-entro-fine-2026-v771-1200.webp",
+          "sha256": "06f355711f413505b4ab097c34258575d892ecfd6521121391d7d542be96d6c4",
+          "bytes": 178194
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/moschea-a-torino-c-e-il-permesso-ex-nebiolo-lavori-entro-fine-2026.html"
+    },
     {
       "alt": "Ritratto editoriale di Pedro Sánchez generato con IA, somiglianza sintetica non documentaria.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
