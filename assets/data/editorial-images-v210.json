@@ -1,7 +1,102 @@
 {
-  "version": 764,
+  "version": 769,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Ritratto editoriale di Pedro Sánchez generato con IA, somiglianza sintetica non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/spagna-il-psoe-spinge-sanchez-al-voto-ipotesi-urne-il-29-novembre-v769-480.webp",
+          "sha256": "766c7bc6ec928aa031e0759007b91d198917941b8d406ce75de0e924621f390a",
+          "bytes": 14762
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/spagna-il-psoe-spinge-sanchez-al-voto-ipotesi-urne-il-29-novembre-v769-800.webp",
+          "sha256": "acda9b0baada2bd7a2bafe8458840073a619b7251122d958fa469b42a3102a1f",
+          "bytes": 36802
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/spagna-il-psoe-spinge-sanchez-al-voto-ipotesi-urne-il-29-novembre-v769-1200.webp",
+          "sha256": "6000b88d35cc531dfab044e3c5296805128b3d3f4d809088f3f9510815ba34d0",
+          "bytes": 70944
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/spagna-il-psoe-spinge-sanchez-al-voto-ipotesi-urne-il-29-novembre-05-10-2026.html"
+    },
+    {
+      "alt": "Ritratto editoriale di Friedrich Merz generato con IA, somiglianza sintetica non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/merz-a-sorpresa-a-kiev-con-1-miliardo-di-aiuti-putin-fermi-questa-guerra-v768-480.webp",
+          "sha256": "9b2bb7cc6c3a559e9a47301636e02cdf6f1c970802c6f23641e5bfd5f5ea3c66",
+          "bytes": 11968
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/merz-a-sorpresa-a-kiev-con-1-miliardo-di-aiuti-putin-fermi-questa-guerra-v768-800.webp",
+          "sha256": "732646f88b34c07f6f44d367fc414d5470320f6ea0f3b9f6f55fcb2bb2e21c09",
+          "bytes": 31520
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/merz-a-sorpresa-a-kiev-con-1-miliardo-di-aiuti-putin-fermi-questa-guerra-v768-1200.webp",
+          "sha256": "d6d94681fdf26439fe1c1d37c50b8a7ef5bda2b0cbec9b1aa979d8219bd49513",
+          "bytes": 66728
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/merz-a-sorpresa-a-kiev-con-1-miliardo-di-aiuti-putin-fermi-questa-guerra-05-10-2026.html"
+    },
+    {
+      "alt": "Illustrazione editoriale IA di temporale autunnale su colline italiane con vigneti; scena non documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/meteo-italia-5-12-ottobre-sole-in-cedimento-piogge-e-temporali-in-arrivo-v767-480.webp",
+          "sha256": "32f98a220863c672408de8b993bc4abbbfc03f68b9be591da6c5e8dec79206f3",
+          "bytes": 31566
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/meteo-italia-5-12-ottobre-sole-in-cedimento-piogge-e-temporali-in-arrivo-v767-800.webp",
+          "sha256": "c1343534fd8b60b3783360e228276d400c81542d039890ab90053f3f60eb014e",
+          "bytes": 83894
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/meteo-italia-5-12-ottobre-sole-in-cedimento-piogge-e-temporali-in-arrivo-v767-1200.webp",
+          "sha256": "741113fc60e29c8a0a9b894e999b7ca8e8759bbc28020c73347c7d9cd7daa4c9",
+          "bytes": 158222
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/meteo-italia-5-12-ottobre-sole-in-cedimento-piogge-e-temporali-in-arrivo-05-10-2026.html"
+    },
     {
       "alt": "Illustrazione editoriale IA di trader a Wall Street davanti a monitor di mercato e bandiera Usa; scena non documentaria.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
