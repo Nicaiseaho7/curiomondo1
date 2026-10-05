@@ -50,3 +50,19 @@ html.cm-dark .cm-insight,html.cm-dark .cm-data-cube{border-color:rgba(127,188,25
   .cm-insight-grid b,.cm-data-grid b{font-size:1.85rem}
   .cm-insight-grid small,.cm-data-grid small{font-size:.76rem}
 }
+
+
+/* v782 — approfondimenti: indice e box editoriali premium. */
+.cm-article-index{margin:0 0 34px;padding:24px 26px;border:1px solid color-mix(in srgb,var(--cm-blue) 18%,var(--cm-border));border-radius:22px;background:linear-gradient(145deg,color-mix(in srgb,var(--cm-blue) 7%,var(--cm-paper)),var(--cm-paper));box-shadow:0 16px 40px rgba(20,55,95,.08);font-family:system-ui,sans-serif}
+.cm-article-index h2{display:flex;align-items:center;gap:10px;margin:0 0 17px!important;color:var(--cm-ink);font-size:1.02rem!important;letter-spacing:-.01em}
+.cm-article-index h2::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--cm-blue);box-shadow:0 0 0 6px color-mix(in srgb,var(--cm-blue) 11%,transparent)}
+.cm-article-index ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 24px;margin:0!important;padding-left:1.35rem!important}
+.cm-article-index li{margin:0!important;padding:3px 0;color:var(--cm-muted);font-size:.84rem;line-height:1.45}
+.cm-article-index a{color:var(--cm-ink);text-decoration:none;text-decoration-thickness:1px;text-underline-offset:3px}
+.cm-article-index a:hover,.cm-article-index a:focus-visible{color:var(--cm-blue);text-decoration:underline}
+.art-body .conclusion{position:relative;overflow:hidden;margin:30px 0;padding:24px 26px 22px;border:1px solid color-mix(in srgb,var(--cm-blue) 22%,var(--cm-border));border-left:5px solid var(--cm-blue);border-radius:20px;background:linear-gradient(135deg,color-mix(in srgb,var(--cm-blue) 8%,var(--cm-paper)),var(--cm-paper));box-shadow:0 15px 38px rgba(24,61,104,.08)}
+.art-body .conclusion h2{margin:0 0 13px;font-size:1.18rem}
+.art-body .conclusion p:last-child,.art-body .conclusion ul:last-child{margin-bottom:0}
+.art-body .conclusion li{margin:.55em 0}
+html.cm-dark .cm-article-index,html.cm-dark .art-body .conclusion{box-shadow:none}
+@media(max-width:600px){.cm-article-index{padding:21px 19px;border-radius:18px}.cm-article-index ol{grid-template-columns:1fr;gap:6px}.art-body .conclusion{padding:21px 19px 19px;border-radius:17px}}
