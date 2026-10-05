@@ -77,7 +77,12 @@
     },
     "question_queue_rule": "La coda è una cache: ogni voce deve essere verificata sul PDF privato originale prima della pubblicazione.",
     "owner_override_question": "Perché abbiamo paura?",
-    "owner_override_note": "Domanda del giorno impostata su richiesta del proprietario: Perché abbiamo paura?"
+    "owner_override_note": "Domanda del 5 ottobre: solo «Perché abbiamo paura?». Rimossa la vecchia domanda sul rimpianto e il relativo eBook su ordine del proprietario.",
+    "removed_on_owner_request": {
+      "date": "2026-10-05",
+      "question_slug": "se-potessi-eliminare-un-rimpianto-perderesti-anche-la-lezione-che-ti-ha-lasciato",
+      "ebook_path": "/biblioteca/vita-relazioni/domande-per-conoscersi/se-potessi-eliminare-un-rimpianto-perderesti-anche-la-lezione-che-ti-ha-lasciato/"
+    }
   },
   "homepage": {
     "hero_section_label": "In evidenza",
