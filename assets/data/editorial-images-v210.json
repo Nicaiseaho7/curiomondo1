@@ -15988,6 +15988,138 @@
       "prompt": "Create ONE photorealistic editorial illustration, landscape 16:9, for a news article on Mike Flanagan's television adaptation of Stephen King's CARRIE. The input image is ONLY a facial identity reference for filmmaker Mike Flanagan. Show the real recognizable Flanagan, now middle-aged, bald with short hair at sides and subtle stubble, facing camera in a dark charcoal overshirt, upper-body portrait center-left. Nearby in the same continuous scene is a professional film cinema camera on a tripod, and beyond it a realistic softly defocused high-school gym film set with maroon drapes and subtle warm red lighting, restrained eerie mood. No actors, no minors, no blood, no violence, no empty corridor as main subject. This is an editorial portrait of the creator with filmmaking context, not an official Carrie still or publicity photograph. Do NOT place titles, streaming logos, labels, fake posters, watermarks, collage or text in the image. Face clearly lit and readable in a small card, no people seen from behind.",
       "sensitiveContext": false,
       "syntheticLikeness": "public-figure"
+    },
+    {
+      "alt": "Illustrazione editoriale IA per Catasto italiano: cos’è, come funziona e a che serve la visura; scena non documentaria.",
+      "prompt": "immagine editoriale dedicata generata per approfondimento evergreen",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/catasto-italiano-come-funziona-visura-rendita-ai-v781-480.webp",
+          "sha256": "ee45d15964055ea290b6d0ed67ed6dee8cd58b3a64f72a299aeb8d6b0bf2f660",
+          "bytes": 28766
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/catasto-italiano-come-funziona-visura-rendita-ai-v781-800.webp",
+          "sha256": "10bfd5b92e83341a9c345a44e500ba2353bbe9c2d08b085e469f4f36fbbae490",
+          "bytes": 62680
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/catasto-italiano-come-funziona-visura-rendita-ai-v781-1200.webp",
+          "sha256": "27be9674bd3fa29619c4065ea7750ca6b346b71e685204dec0682a592c76c39e",
+          "bytes": 111718
+        },
+        {
+          "w": 1600,
+          "src": "/assets/images/editorial-auto/catasto-italiano-come-funziona-visura-rendita-ai-v781-1600.webp",
+          "sha256": "80b47f69ffd6d2317f38cc8bd02a639bc81fc0e85b00406a029fc5e633b3a409",
+          "bytes": 164368
+        }
+      ],
+      "slug": "catasto-italiano-come-funziona-visura-rendita",
+      "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/approfondimenti/catasto-italiano-come-funziona-visura-rendita.html"
+    },
+    {
+      "alt": "Illustrazione editoriale IA per Titoli di Stato: cos’è un BTP, un BOT e come funzionano; scena non documentaria.",
+      "prompt": "immagine editoriale dedicata generata per approfondimento evergreen",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/titoli-di-stato-btp-bot-cct-come-funzionano-ai-v781-480.webp",
+          "sha256": "3f75d7b188f553b150c092b864accb2c53b54d0f44a8c6804f7ea38926f7a1fd",
+          "bytes": 24014
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/titoli-di-stato-btp-bot-cct-come-funzionano-ai-v781-800.webp",
+          "sha256": "754384b5a5979d66cc650864eea53665e871a33716b4cf52f15b6c6724afa397",
+          "bytes": 54798
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/titoli-di-stato-btp-bot-cct-come-funzionano-ai-v781-1200.webp",
+          "sha256": "9ab38f63f37e77f58c9b5c71c672409b8ebba3fd71c67534f6ca4c8c8db696f6",
+          "bytes": 104904
+        },
+        {
+          "w": 1600,
+          "src": "/assets/images/editorial-auto/titoli-di-stato-btp-bot-cct-come-funzionano-ai-v781-1600.webp",
+          "sha256": "150a7db36b0ac2d7a35b378943c090bf37e9f345a93686a47c794a744b09546a",
+          "bytes": 161662
+        }
+      ],
+      "slug": "titoli-di-stato-btp-bot-cct-come-funzionano",
+      "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/approfondimenti/titoli-di-stato-btp-bot-cct-come-funzionano.html"
+    },
+    {
+      "alt": "Illustrazione editoriale IA per Assegno unico universale: cos’è, come funziona e quanto spetta; scena non documentaria.",
+      "prompt": "immagine editoriale dedicata generata per approfondimento evergreen",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/assegno-unico-universale-come-funziona-ai-v781-480.webp",
+          "sha256": "73e2213f9044e77f9a781052e1e2e67cc9945af2fea17aabaea80b2e9aa65e80",
+          "bytes": 24450
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/assegno-unico-universale-come-funziona-ai-v781-800.webp",
+          "sha256": "1560d8d39899b561dea5052c117711ec45561e9ba518a0b39c32ce93ab0791f1",
+          "bytes": 51372
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/assegno-unico-universale-come-funziona-ai-v781-1200.webp",
+          "sha256": "ca0bf550a0085371696471aa34a1d89dd61e5a66a13540cc89beed6e697edab3",
+          "bytes": 91946
+        },
+        {
+          "w": 1600,
+          "src": "/assets/images/editorial-auto/assegno-unico-universale-come-funziona-ai-v781-1600.webp",
+          "sha256": "e459359ac30146058cf2a0b6f60b0c72a08c97687980b14bcaf3a15a6cd242d6",
+          "bytes": 136734
+        }
+      ],
+      "slug": "assegno-unico-universale-come-funziona",
+      "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/approfondimenti/assegno-unico-universale-come-funziona.html"
+    },
+    {
+      "alt": "Illustrazione editoriale IA per Inflazione: cos’è e come si misura in Italia (NIC, FOI, IPCA); scena non documentaria.",
+      "prompt": "immagine editoriale dedicata generata per approfondimento evergreen",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/inflazione-come-si-misura-italia-nic-foi-ipca-ai-v781-480.webp",
+          "sha256": "45f3726b1a85c5127343af6e7759fd2266aef65fdbd468e4217c50590aa25e57",
+          "bytes": 40960
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/inflazione-come-si-misura-italia-nic-foi-ipca-ai-v781-800.webp",
+          "sha256": "f1f77acbee28ac78771bc88b494815b09b22ee9dca83664a3e31fa0b11bcaa19",
+          "bytes": 83746
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/inflazione-come-si-misura-italia-nic-foi-ipca-ai-v781-1200.webp",
+          "sha256": "4770abc9541428e9776c849ae00b46fc016b096fe54d1a211197efcead6e69e5",
+          "bytes": 138544
+        },
+        {
+          "w": 1600,
+          "src": "/assets/images/editorial-auto/inflazione-come-si-misura-italia-nic-foi-ipca-ai-v781-1600.webp",
+          "sha256": "ee184b852457cadf64e91d06e8eae3c64bebb410346b678ab081d5c5873ec105",
+          "bytes": 196762
+        }
+      ],
+      "slug": "inflazione-come-si-misura-italia-nic-foi-ipca",
+      "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/approfondimenti/inflazione-come-si-misura-italia-nic-foi-ipca.html"
     }
   ],
   "images": [
@@ -27083,6 +27215,138 @@
       "officialArtwork": false,
       "sensitiveContext": false,
       "article": "/approfondimenti/che-cose-la-billie-jean-king-cup.html"
+    },
+    {
+      "alt": "Illustrazione editoriale IA per Catasto italiano: cos’è, come funziona e a che serve la visura; scena non documentaria.",
+      "prompt": "immagine editoriale dedicata generata per approfondimento evergreen",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/catasto-italiano-come-funziona-visura-rendita-ai-v781-480.webp",
+          "sha256": "ee45d15964055ea290b6d0ed67ed6dee8cd58b3a64f72a299aeb8d6b0bf2f660",
+          "bytes": 28766
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/catasto-italiano-come-funziona-visura-rendita-ai-v781-800.webp",
+          "sha256": "10bfd5b92e83341a9c345a44e500ba2353bbe9c2d08b085e469f4f36fbbae490",
+          "bytes": 62680
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/catasto-italiano-come-funziona-visura-rendita-ai-v781-1200.webp",
+          "sha256": "27be9674bd3fa29619c4065ea7750ca6b346b71e685204dec0682a592c76c39e",
+          "bytes": 111718
+        },
+        {
+          "w": 1600,
+          "src": "/assets/images/editorial-auto/catasto-italiano-come-funziona-visura-rendita-ai-v781-1600.webp",
+          "sha256": "80b47f69ffd6d2317f38cc8bd02a639bc81fc0e85b00406a029fc5e633b3a409",
+          "bytes": 164368
+        }
+      ],
+      "slug": "catasto-italiano-come-funziona-visura-rendita",
+      "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/approfondimenti/catasto-italiano-come-funziona-visura-rendita.html"
+    },
+    {
+      "alt": "Illustrazione editoriale IA per Titoli di Stato: cos’è un BTP, un BOT e come funzionano; scena non documentaria.",
+      "prompt": "immagine editoriale dedicata generata per approfondimento evergreen",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/titoli-di-stato-btp-bot-cct-come-funzionano-ai-v781-480.webp",
+          "sha256": "3f75d7b188f553b150c092b864accb2c53b54d0f44a8c6804f7ea38926f7a1fd",
+          "bytes": 24014
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/titoli-di-stato-btp-bot-cct-come-funzionano-ai-v781-800.webp",
+          "sha256": "754384b5a5979d66cc650864eea53665e871a33716b4cf52f15b6c6724afa397",
+          "bytes": 54798
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/titoli-di-stato-btp-bot-cct-come-funzionano-ai-v781-1200.webp",
+          "sha256": "9ab38f63f37e77f58c9b5c71c672409b8ebba3fd71c67534f6ca4c8c8db696f6",
+          "bytes": 104904
+        },
+        {
+          "w": 1600,
+          "src": "/assets/images/editorial-auto/titoli-di-stato-btp-bot-cct-come-funzionano-ai-v781-1600.webp",
+          "sha256": "150a7db36b0ac2d7a35b378943c090bf37e9f345a93686a47c794a744b09546a",
+          "bytes": 161662
+        }
+      ],
+      "slug": "titoli-di-stato-btp-bot-cct-come-funzionano",
+      "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/approfondimenti/titoli-di-stato-btp-bot-cct-come-funzionano.html"
+    },
+    {
+      "alt": "Illustrazione editoriale IA per Assegno unico universale: cos’è, come funziona e quanto spetta; scena non documentaria.",
+      "prompt": "immagine editoriale dedicata generata per approfondimento evergreen",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/assegno-unico-universale-come-funziona-ai-v781-480.webp",
+          "sha256": "73e2213f9044e77f9a781052e1e2e67cc9945af2fea17aabaea80b2e9aa65e80",
+          "bytes": 24450
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/assegno-unico-universale-come-funziona-ai-v781-800.webp",
+          "sha256": "1560d8d39899b561dea5052c117711ec45561e9ba518a0b39c32ce93ab0791f1",
+          "bytes": 51372
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/assegno-unico-universale-come-funziona-ai-v781-1200.webp",
+          "sha256": "ca0bf550a0085371696471aa34a1d89dd61e5a66a13540cc89beed6e697edab3",
+          "bytes": 91946
+        },
+        {
+          "w": 1600,
+          "src": "/assets/images/editorial-auto/assegno-unico-universale-come-funziona-ai-v781-1600.webp",
+          "sha256": "e459359ac30146058cf2a0b6f60b0c72a08c97687980b14bcaf3a15a6cd242d6",
+          "bytes": 136734
+        }
+      ],
+      "slug": "assegno-unico-universale-come-funziona",
+      "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/approfondimenti/assegno-unico-universale-come-funziona.html"
+    },
+    {
+      "alt": "Illustrazione editoriale IA per Inflazione: cos’è e come si misura in Italia (NIC, FOI, IPCA); scena non documentaria.",
+      "prompt": "immagine editoriale dedicata generata per approfondimento evergreen",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/inflazione-come-si-misura-italia-nic-foi-ipca-ai-v781-480.webp",
+          "sha256": "45f3726b1a85c5127343af6e7759fd2266aef65fdbd468e4217c50590aa25e57",
+          "bytes": 40960
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/inflazione-come-si-misura-italia-nic-foi-ipca-ai-v781-800.webp",
+          "sha256": "f1f77acbee28ac78771bc88b494815b09b22ee9dca83664a3e31fa0b11bcaa19",
+          "bytes": 83746
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/inflazione-come-si-misura-italia-nic-foi-ipca-ai-v781-1200.webp",
+          "sha256": "4770abc9541428e9776c849ae00b46fc016b096fe54d1a211197efcead6e69e5",
+          "bytes": 138544
+        },
+        {
+          "w": 1600,
+          "src": "/assets/images/editorial-auto/inflazione-come-si-misura-italia-nic-foi-ipca-ai-v781-1600.webp",
+          "sha256": "ee184b852457cadf64e91d06e8eae3c64bebb410346b678ab081d5c5873ec105",
+          "bytes": 196762
+        }
+      ],
+      "slug": "inflazione-come-si-misura-italia-nic-foi-ipca",
+      "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/approfondimenti/inflazione-come-si-misura-italia-nic-foi-ipca.html"
     }
   ]
 }
