@@ -136,7 +136,7 @@ def render_article(article: dict[str, Any], image: dict[str, Any], version: int)
     paragraphs = "".join(f"<p>{escape(str(p))}</p>" for p in article["paragrafi"])
     sources = "".join(
         f'<li><a href="{escape(str(f["url"]), quote=True)}" rel="noopener noreferrer" '
-        f'target="_blank">{escape(str(f.get("descrizione") or "Fonte consultata"))}</a></li>'
+        f'target="_blank">{escape(str(f.get("nome") or f.get("descrizione") or f.get("name") or "Fonte consultata"))}</a></li>'
         for f in article["fonti"][:6]
     )
     stats = "".join(
