@@ -1,7 +1,38 @@
 {
-  "version": 782,
+  "version": 783,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Illustrazione editoriale IA di un parco sobrio vicino a stazione a Roma al crepuscolo con auto di polizia lontana; non è una fotografia documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/roma-prenestino-giovane-trovato-morto-con-ferita-al-collo-indaga-la-polizia-v783-480.webp",
+          "sha256": "2b801e1684280d969838fab56ee22d6a41ccce48abca358d218d5b43d4c3cc10",
+          "bytes": 48520
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/roma-prenestino-giovane-trovato-morto-con-ferita-al-collo-indaga-la-polizia-v783-800.webp",
+          "sha256": "ea5d02873b721216a8c19930a489c0c091df999d6842b80f839816bbe5817934",
+          "bytes": 124660
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/roma-prenestino-giovane-trovato-morto-con-ferita-al-collo-indaga-la-polizia-v783-1200.webp",
+          "sha256": "d53870e2ef0dd060681afe43f0c4faeabaaa6801bb774d7aa7a6d70439c47211",
+          "bytes": 235124
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "article": "/notizie/roma-prenestino-giovane-trovato-morto-con-ferita-al-collo-indaga-la-polizia-05-10-2026.html"
+    },
     {
       "alt": "Illustrazione editoriale IA di centinaia di mongolfiere colorate al Balloon Fiesta di Albuquerque; non è una fotografia documentaria.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
