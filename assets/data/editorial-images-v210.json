@@ -1,7 +1,128 @@
 {
-  "version": 777,
+  "version": 779,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "slug": "assalto-portavalori-a14-foggia-cerignola-v1",
+      "article": "/notizie/assalto-portavalori-a14-foggia-cerignola-05-10-2026.html",
+      "path": "/assets/images/editorial-auto/assalto-portavalori-a14-foggia-cerignola-v1-1200.webp",
+      "alt": "Illustrazione editoriale IA di autostrada A14 con auto della Polizia e mezzi bruciati; scena non documentaria.",
+      "prompt": "Ultra-realistic editorial photograph of Italian police car with blue lights on A14 highway in Puglia, smoke rising from burned vehicles, chiodi spikes on asphalt, sober news style, no people, no blood.",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/assalto-portavalori-a14-foggia-cerignola-v1-480.webp",
+          "sha256": "a388d7d86ea81b0ca401ccbe580b8ad6da50b42eb8c9d8df62d79ec6318f828f",
+          "bytes": 33648
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/assalto-portavalori-a14-foggia-cerignola-v1-800.webp",
+          "sha256": "c56551778bf43330ed3a462b1b6bbcc17da6b1705a9ddc0b4b16e2ce5c7de0ce",
+          "bytes": 91884
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/assalto-portavalori-a14-foggia-cerignola-v1-1200.webp",
+          "sha256": "bdfb67180406469fe2c29df23be2f7973537abd5225444679b07c498bfbf04c9",
+          "bytes": 199300
+        }
+      ]
+    },
+    {
+      "slug": "okoye-rissa-oktoberfest-udinese-v1",
+      "article": "/notizie/okoye-rissa-oktoberfest-udinese-05-10-2026.html",
+      "path": "/assets/images/editorial-auto/okoye-rissa-oktoberfest-udinese-v1-1200.webp",
+      "alt": "Illustrazione editoriale IA di Maduka Okoye all'Oktoberfest; scena non documentaria.",
+      "prompt": "Ultra-realistic editorial photograph of Maduka Okoye at Oktoberfest Munich, face visible facing camera, casual clothes, festive beer tent, photorealistic.",
+      "aiGenerated": true,
+      "syntheticLikeness": "public-figure",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/okoye-rissa-oktoberfest-udinese-v1-480.webp",
+          "sha256": "9574d6d8948de6568673f911993571bba0e75df15e13c908eec8256b4180f507",
+          "bytes": 60212
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/okoye-rissa-oktoberfest-udinese-v1-800.webp",
+          "sha256": "d8a91ca827a217fc24492b4a96d5390c84f6824941cf2a722cf174c540e31f3a",
+          "bytes": 130354
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/okoye-rissa-oktoberfest-udinese-v1-1200.webp",
+          "sha256": "371c605d1d82732de10a1f8401e6c74920e28a35d473356bf2109b713bf2c1fd",
+          "bytes": 242688
+        }
+      ]
+    },
+    {
+      "slug": "incendio-scuola-primaria-buja-friuli-v1",
+      "article": "/notizie/incendio-scuola-primaria-buja-friuli-05-10-2026.html",
+      "path": "/assets/images/editorial-auto/incendio-scuola-primaria-buja-friuli-v1-1200.webp",
+      "alt": "Illustrazione editoriale IA di vigili del fuoco alla scuola di Buja; scena non documentaria.",
+      "prompt": "Ultra-realistic editorial photograph of Italian firefighters truck outside primary school in Friuli, smoke from kitchen, children safely outside, sunny morning.",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/incendio-scuola-primaria-buja-friuli-v1-480.webp",
+          "sha256": "78fbacada1a9925eef3570dac69b3a605dbfc3c3abfceb6382be0d2ae9f39299",
+          "bytes": 47782
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/incendio-scuola-primaria-buja-friuli-v1-800.webp",
+          "sha256": "b42edabe7de7dca5dcc7b8486fcb80db4a407c9211d458441df1bd04ba397729",
+          "bytes": 124350
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/incendio-scuola-primaria-buja-friuli-v1-1200.webp",
+          "sha256": "2b6cb930b2b3a4b15d5ffffb4fc08345df3e1224bb6068275ba30f16c3419387",
+          "bytes": 261940
+        }
+      ]
+    },
+    {
+      "slug": "un-women-11-7-milioni-donne-rischio-fame-medio-oriente-v1",
+      "article": "/notizie/un-women-11-7-milioni-donne-rischio-fame-medio-oriente-05-10-2026.html",
+      "path": "/assets/images/editorial-auto/un-women-11-7-milioni-donne-rischio-fame-medio-oriente-v1-1200.webp",
+      "alt": "Illustrazione editoriale IA di donne che trasportano acqua in zona arida; scena non documentaria.",
+      "prompt": "Ultra-realistic editorial photograph of two women in hijab carrying blue water jerrycans in arid landscape with tents, food insecurity Middle East, documentary style.",
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/un-women-11-7-milioni-donne-rischio-fame-medio-oriente-v1-480.webp",
+          "sha256": "8562a9e97c17459705e196babc327af6f497c7cbaaadc1594e777d367dd76d0c",
+          "bytes": 48860
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/un-women-11-7-milioni-donne-rischio-fame-medio-oriente-v1-800.webp",
+          "sha256": "8d558e731e488eeda07018023703bcd9d2dafa302ef283adb4f5d7aee54ec5ab",
+          "bytes": 115196
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/un-women-11-7-milioni-donne-rischio-fame-medio-oriente-v1-1200.webp",
+          "sha256": "3af798d8f64c51878743137a82701daaaf71a146e458a64cd41977f439af80d3",
+          "bytes": 209856
+        }
+      ]
+    },
     {
       "alt": "Illustrazione editoriale IA di busta e telecomando TV, tema canone Rai; scena non documentaria.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
