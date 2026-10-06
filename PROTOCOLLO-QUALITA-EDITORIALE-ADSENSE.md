@@ -194,9 +194,9 @@ Le pagine `noindex` non devono contenere codice pubblicitario. Le pagine storich
 
 Ogni nuovo articolo CurioMondo deve essere comprensibile anche a un lettore che non conosce già l'argomento.
 
-### Requisiti di leggibilità, monetizzazione responsabile ed E-E-A-T — v1.3
+### Requisiti di leggibilità, monetizzazione responsabile ed E-E-A-T — v1.4
 
-Per ogni nuova pagina in `/approfondimenti/` valgono inoltre gli otto elementi del §5.1 di `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md` v1.3:
+Per ogni nuova pagina in `/approfondimenti/` valgono inoltre gli otto elementi del §5.1 e il gate visuale §5.2 di `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md` v1.4:
 
 1. box «In sintesi» con 3–4 punti come primo blocco informativo ed entro i primi 100 px del contenuto editoriale;
 2. almeno una tabella HTML pertinente, accessibile e basata su dati verificati;
@@ -208,6 +208,8 @@ Per ogni nuova pagina in `/approfondimenti/` valgono inoltre gli otto elementi d
 8. per i temi YMYL, fonti primarie aggiornate, limiti e incertezze espliciti e disclaimer specifico che non sostituisce consulenza professionale.
 
 Gli annunci devono adattarsi al contenuto, non il contrario. Nessuna struttura editoriale può essere giustificata con promesse di CTR, RPM, ranking o riduzione del bounce rate; tali risultati non sono controllabili né garantiti.
+
+Box, tabelle e componenti editoriali devono utilizzare colori professionali e piacevoli, contrasto WCAG AA, gerarchia chiara, focus visibile e resa verificata in tema chiaro e scuro su mobile e desktop. Un componente esteticamente curato ma poco leggibile è non conforme e blocca la pubblicazione.
 
 1. Ogni nuovo articolo deve preferire parole comuni e frasi naturali. È vietato spiegare nel corpo della notizia parole difficili, sigle o termini tecnici con inciso, parentesi, box, glossario o formula didascalica.
 2. Quando una spiegazione aggiunge valore reale, deve essere sviluppata in un approfondimento autonomo con pagina dedicata, non inserita per allungare la notizia.

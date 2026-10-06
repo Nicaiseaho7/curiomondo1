@@ -109,7 +109,7 @@ Se il messaggio contiene `approfondimenti-evergreen`, `guide evergreen` o chiede
 
 ## Trigger «approfondimenti-da-trend» / curiosità in tendenza — non è un sito nuovo
 
-Se il messaggio contiene `approfondimenti-da-trend`, `curiosità in tendenza`, `approfondimenti da trend`, `query in ascesa` + guida, o chiede guide da Google Trends Italia: **non creare alcun sito nuovo**. Eseguire la skill trend → guide e **obbligatoriamente** `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md` v1.3 (corpo 2.000–5.000+, criteri 3/5, **max 10 temi** da Trends per ciclo e otto elementi operativi). Pubblicare in `Nicaiseaho7/curiomondo1` su `main`.
+Se il messaggio contiene `approfondimenti-da-trend`, `curiosità in tendenza`, `approfondimenti da trend`, `query in ascesa` + guida, o chiede guide da Google Trends Italia: **non creare alcun sito nuovo**. Eseguire la skill trend → guide e **obbligatoriamente** `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md` v1.4 (corpo 2.000–5.000+, criteri 3/5, **max 10 temi** da Trends per ciclo, otto elementi operativi e qualità visiva professionale). Pubblicare in `Nicaiseaho7/curiomondo1` su `main`.
 
 Prima di creare o aggiornare articoli o visual CurioMondo, leggere integralmente, nell'ordine:
 
@@ -123,7 +123,7 @@ Prima di creare o aggiornare articoli o visual CurioMondo, leggere integralmente
 8. `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`
 9. `curiomondo-site-manifest.json`
 
-**Curiosità e approfondimenti (obbligatorio, v1.3 — 6 ottobre 2026):** prima di creare o rivedere una **curiosità** o un **approfondimento** (guide evergreen, pagine in `/approfondimenti/`, spiegazioni «che cos’è / come funziona / perché»), leggere integralmente `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md` **v1.3**. Quel file **prevale** sulle guide brevi, sulle skill 800–1.500 e sul testo superficiale: corpo **2.000–5.000+** parole, criteri di selezione §1, fonti primarie e otto elementi §5.1. Sono obbligatori box «In sintesi» iniziale, tabella HTML, paragrafi brevi e H2/H3 naturali, interruzioni editoriali circa ogni 250–300 parole, FAQ 3–5 con markup coerente quando ammissibile, 2–3 link contestuali salvo eccezione motivata, tracciabilità editoriale ed E-E-A-T con disclaimer YMYL. Se manca o non si può rispettare il protocollo, non pubblicare la guida.
+**Curiosità e approfondimenti (obbligatorio, v1.4 — 6 ottobre 2026):** prima di creare o rivedere una **curiosità** o un **approfondimento** (guide evergreen, pagine in `/approfondimenti/`, spiegazioni «che cos’è / come funziona / perché»), leggere integralmente `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md` **v1.4**. Quel file **prevale** sulle guide brevi, sulle skill 800–1.500 e sul testo superficiale: corpo **2.000–5.000+** parole, criteri di selezione §1, otto elementi §5.1 e qualità visiva §5.2. Box, tabelle e componenti devono usare colori professionali, contrasto WCAG AA, resa light/dark, responsive mobile/desktop e classi condivise. Se manca o non si può rispettare il protocollo, non pubblicare la guida.
 
 È consentito raffigurare persone pubbliche riconoscibili con immagini ultrarealistiche quando editorialmente pertinenti. Nelle notizie ordinarie il personaggio può comparire in luoghi e ambientazioni coerenti con l'articolo; sono ammessi anche loghi pertinenti. **I protagonisti devono essere persone, maglie e marchi veri: vietato inventare volti, extra generici o divise di fantasia.** Cercare foto di riferimento reali prima di generare; se il lettore non riconoscerebbe il soggetto, scartare e rigenerare. Il **ritratto neutrale isolato** è obbligatorio soltanto per incidenti, morte, malattia, ricoveri, violenza, tragedie, lutto e altre situazioni sensibili che possono provocare dolore. Ogni somiglianza sintetica deve essere dichiarata come illustrazione IA non documentaria e non deve trasformare una scena inventata in una falsa prova. Se uno dei file obbligatori manca o le regole non possono essere rispettate, interrompere la pubblicazione.
 
@@ -189,8 +189,8 @@ Se uno qualunque di questi punti manca, segnalare la pubblicazione come **incomp
 ## Regola approfondimenti coerente
 Nessun glossario o gancio didascalico è obbligatorio dentro la notizia. Un approfondimento autonomo va creato o collegato **solo quando aggiunge valore durevole, non ridondante e realmente utile**. Se esiste già una guida equivalente, collegarla invece di crearne una nuova. Le spiegazioni tematiche necessarie vivono nella pagina dedicata; la notizia resta concentrata sui fatti.
 
-## Protocollo curiosità e approfondimenti — v1.3 (6 ottobre 2026)
-**Obbligatorio e fail-closed.** File: `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md` (v1.3).
+## Protocollo curiosità e approfondimenti — v1.4 (6 ottobre 2026)
+**Obbligatorio e fail-closed.** File: `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md` (v1.4).
 
 - Vietati contenuti brevi, superficiali, generici o da «scheda informativa».
 - Obiettivo: articolo editoriale premium (spiegazione, origine, contesto, cause, funzionamento, dati, falsi miti, limiti di ciò che non si sa).
@@ -200,6 +200,7 @@ Nessun glossario o gancio didascalico è obbligatorio dentro la notizia. Un appr
 - Ricerca reale su fonti primarie prima di scrivere; box «In sintesi» iniziale 3–4 punti; almeno una tabella HTML; paragrafi brevi; H2/H3 su intenti reali; interruzioni editoriali naturali circa ogni 250–300 parole; FAQ finali 3–5 con JSON-LD coerente quando ammissibile; fonti solo in `.art-sources`.
 - Inserire normalmente 2–3 link contestuali CurioMondo con anchor descrittive e URL canonici verificati. Se il catalogo non offre due destinazioni pertinenti, non forzare e registrare l'eccezione. Vietati link farm e reciprocità automatica.
 - Autore/redazione, metodo, date reali, fonti e disclosure devono essere tracciabili. Per YMYL: limiti, incertezze e disclaimer specifico; nessuna promessa di ranking, rich result, CTR o rendimento.
+- Layout, design e scrittura formano un unico gate: box e tabelle leggibili con palette professionale, contrasto WCAG AA, tema chiaro/scuro e verifica visuale mobile/desktop.
 - Prevale sulle guide corte e sulle abitudini da chatbot. Non sostituisce AdSense, immagini, marchio e gate tecnici.
 - Prompt corto di ciclo: §16 del protocollo.
 

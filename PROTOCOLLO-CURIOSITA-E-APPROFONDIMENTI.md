@@ -1,6 +1,6 @@
 # PROTOCOLLO OBBLIGATORIO — CURIOSITÀ E APPROFONDIMENTI CURIOMONDO
 
-**Versione:** 1.3
+**Versione:** 1.4
 **Data:** 6 ottobre 2026  
 **Stato:** obbligatorio, fail-closed  
 **Ambito:** ogni nuova **curiosità** e ogni nuovo **approfondimento** (evergreen, guida di comprensione, pagina in `/approfondimenti/`) pubblicati su CurioMondo  
@@ -189,6 +189,19 @@ Sezioni sostanziose, non micro-titoletti vuoti.
 
 Questi otto elementi servono prima di tutto la persona. Nessuno autorizza affermazioni come «Google adora», «garantisce il ranking», «riduce il bounce rate» o «aumenta il rendimento»: SEO, rich result, CTR e ricavi sono possibili effetti, mai risultati garantiti.
 
+### 5.2 Layout, box e qualità visiva professionale (obbligatorio, v1.4)
+
+La qualità visiva ha lo stesso peso della correttezza testuale. Una guida con box poco leggibili, colori casuali, tabelle spezzate o gerarchia confusa **non è pronta per la pubblicazione**.
+
+- Box «In sintesi», tabelle, FAQ, indici e richiami devono usare componenti condivisi del sito e una palette sobria, coerente con CurioMondo. Vietati colori fluorescenti, combinazioni aggressive, gradienti decorativi che riducono la lettura e CSS inline improvvisato quando esiste una classe comune.
+- Testo e icone devono mantenere contrasto almeno **WCAG AA**: 4,5:1 per testo normale e 3:1 per testo grande o componenti essenziali. Non usare grigio chiaro su bianco, blu scuro su nero o testo sopra immagini senza fondo protettivo.
+- Ogni componente deve essere leggibile sia in modalità chiara sia in modalità scura. Colore del testo, sfondo, bordi, link, hover e focus devono restare distinguibili in entrambi i temi.
+- Il box iniziale deve avere titolo evidente, 3–4 punti ariosi, padding coerente e nessuna riga compressa. La decorazione non deve competere con l'informazione.
+- Le tabelle devono avere intestazioni riconoscibili, righe facilmente seguibili, caption descrittiva, scorrimento orizzontale su mobile e celle che non tagliano parole o valori.
+- La pagina deve mantenere ritmo verticale regolare: spaziature coerenti tra lead, hero, box, indice, sezioni, tabella, FAQ e fonti. Evitare blocchi attaccati, vuoti eccessivi e salti di stile.
+- Prima del push eseguire un controllo visivo almeno a larghezza mobile e desktop, in tema chiaro e scuro. Verificare leggibilità reale, overflow, focus da tastiera, gerarchia H1/H2/H3 e assenza di sovrapposizioni.
+- Design e scrittura devono apparire parte dello stesso prodotto editoriale: titoli chiari, frasi curate, dati allineati e componenti che aiutano la scansione. Nessun elemento puramente ornamentale può indebolire comprensione o autorevolezza.
+
 ### Chiusura
 Non ripetere il lead. Lascia concetto chiave, conseguenza o domanda ancora aperta.
 
@@ -287,8 +300,8 @@ Mai «Fonte:» nel corpo.
 
 1. Seleziona fino a **10 temi** da Trends (o fino a 10 in un ciclo misto Trends + altri criteri §1); se non c’è materia valida, meno — mai filler  
 2. Verifica fonti primarie  
-3. Scrivi la guida intera (**2.000–5.000+** parole di corpo) applicando gli otto elementi del §5.1
-4. Verifica box iniziale, tabella HTML, paragrafi/H2-H3, interruzioni ogni 250–300 parole, FAQ visibili + JSON-LD coerente, E-E-A-T e disclaimer YMYL
+3. Scrivi la guida intera (**2.000–5.000+** parole di corpo) applicando gli otto elementi del §5.1 e la qualità visiva del §5.2
+4. Verifica box iniziale, tabella HTML, paragrafi/H2-H3, interruzioni ogni 250–300 parole, FAQ visibili + JSON-LD coerente, E-E-A-T, disclaimer YMYL, contrasto e resa light/dark
 5. Individua e inserisci i collegamenti interni contestuali previsti dal §10.1; valuta gli eventuali richiami utili dalle guide già online
 6. Hero 3:2 + webp
 7. File `approfondimenti/<slug>.html` (stampo vivo del sito)
@@ -321,6 +334,8 @@ Un pezzo solo in chat **non** è pubblicato.
 - [ ] 2–3 collegamenti interni contestuali verificati, oppure eccezione motivata se non esistono destinazioni pertinenti
 - [ ] Autore/redazione, metodo, date reali, fonti e disclosure presenti
 - [ ] Disclaimer chiaro e specifico nei temi YMYL; limiti e incertezze espliciti
+- [ ] Box e componenti usano colori professionali, contrasto WCAG AA e classi condivise
+- [ ] Controllo visivo mobile/desktop e modalità chiara/scura superato; nessun overflow o sovrapposizione
 - [ ] Hero 3:2 e gate immagini  
 - [ ] Index + homepage rail + (se serve) evergreen-reader  
 - [ ] predeploy exit 0 + URL live 200  
@@ -347,10 +362,10 @@ Se sembra una scheda corta o un testo generico → **NON È PRONTA**.
 ## 16. PROMPT CORTO DA INCOLLARE A OGNI CICLO
 
 ```
-Esegui il PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md v1.3 (CurioMondo).
+Esegui il PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md v1.4 (CurioMondo).
 
 1) Seleziona fino a **10 temi** da Trends IT 24-48h (e/o volume stabile + gap sito) che passano almeno 3/5 criteri §1. Massimo 10 per ciclo; meno se manca materia.
-2) Per ciascun tema: guida evergreen 2000–5000+ parole di corpo, italiano da quotidiano, box In sintesi iniziale 3–4 punti, almeno una tabella HTML utile, paragrafi brevi, H2/H3 su query reali, passaggi naturali ogni 250–300 parole, FAQ finali 3–5 con JSON-LD coerente quando ammissibile, tracciabilità ed E-E-A-T/YMYL. Minimo assoluto 1800; sotto soglia o senza sostanza → non pubblicare.
+2) Per ciascun tema: guida evergreen 2000–5000+ parole di corpo, italiano da quotidiano, box In sintesi iniziale 3–4 punti, almeno una tabella HTML utile, paragrafi brevi, H2/H3 su query reali, passaggi naturali ogni 250–300 parole, FAQ finali 3–5 con JSON-LD coerente quando ammissibile, tracciabilità ed E-E-A-T/YMYL. Box e tabelle devono avere colori professionali, contrasto WCAG AA, resa chiara/scura e layout mobile/desktop verificato. Minimo assoluto 1800; sotto soglia o senza sostanza → non pubblicare.
 3) Inserisci normalmente 2–3 collegamenti interni naturali verso pagine complementari (§10.1); se non esistono destinazioni pertinenti, non forzare e registra l'eccezione. Verifica URL canonici e richiami sensati dalle guide esistenti.
 4) Hero 3:2 protocollo immagini; pubblica in approfondimenti/, aggiorna index, homepage rail (max 10 card), evergreen-reader sotto padri, search-index, sitemap, redirects.
 5) Gate predeploy exit 0; commit+push main Nicaiseaho7/curiomondo1; verifica URL live 200 e link interni.
@@ -381,7 +396,7 @@ Skill collegate (devono deferire a questo file):
 
 ---
 
-**Fine protocollo v1.3 — 6 ottobre 2026.**
+**Fine protocollo v1.4 — 6 ottobre 2026.**
 **Changelog v1.1:** criteri di selezione oltre i soli trend; fasce 2.000–5.000+ parole; minimo 1.800; priorità tematiche; prompt corto; homepage rail max 3 in evidenza; **fino a 10 guide da Trends per ciclo** (v1.1.1); prevalenza sulle skill 800–1.500.
 
 **Changelog v1.1.1 (29 settembre 2026):** massimo guide da Trends / curiosità in tendenza per ciclo portato da 3 a **10**. L’index `/approfondimenti/` e la pubblicazione accettano fino a 10 pezzi.
@@ -391,3 +406,5 @@ Skill collegate (devono deferire a questo file):
 **Changelog v1.2 (6 ottobre 2026):** introdotto il collegamento interno contestuale tra approfondimenti complementari, senza quantità rigide, forzature SEO o reciprocità automatica; aggiunti controllo degli URL e verifica dei richiami utili dalle guide già pubblicate.
 
 **Changelog v1.3 (6 ottobre 2026):** introdotti otto requisiti operativi per ogni guida: box «In sintesi» iniziale, tabella HTML, paragrafi brevi e H2/H3 orientati agli intenti, interruzioni editoriali compatibili con gli annunci, FAQ visibili con markup coerente, 2–3 link contestuali salvo eccezione motivata, tracciabilità editoriale ed E-E-A-T con disclaimer YMYL. Escluse promesse automatiche di ranking, rich result, CTR o rendimento pubblicitario.
+
+**Changelog v1.4 (6 ottobre 2026):** resa obbligatoria la qualità visiva professionale di box, tabelle e componenti: palette coerente, contrasto WCAG AA, supporto light/dark, spaziatura editoriale, responsive mobile/desktop, accessibilità e controllo visivo prima del push. Layout, design e scrittura sono ora un unico gate editoriale.
