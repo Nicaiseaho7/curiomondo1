@@ -1,5 +1,5 @@
 {
-  "version": 785,
+  "version": 786,
   "items": [
     {
       "title": "Case del dispetto: edifici nati da lite, esempi in Italia",
@@ -33,6 +33,38 @@
       "featuredHighlights": [
         "Case del dispetto",
         "Italia"
+      ]
+    },
+    {
+      "title": "Allerta gialla su Lazio e Toscana per temporali, martedì 6 ottobre",
+      "excerpt": "Il bollettino nazionale della Protezione civile segnala criticità ordinaria per temporali e rischio idrogeologico. Attenzione anche a Roma.",
+      "url": "/notizie/allerta-gialla-lazio-toscana-temporali-06-10-2026.html",
+      "section": "Italia / Ambiente",
+      "dateISO": "2026-10-06T07:10:00+02:00",
+      "dateLabel": "2026-10-06",
+      "image": "/assets/images/editorial-auto/allerta-gialla-lazio-toscana-temporali-06-10-2026-v785-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di pioggia intensa su una costa tirrenica italiana con nubi scure e mare mosso; non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/allerta-gialla-lazio-toscana-temporali-06-10-2026-v785-480.webp 480w, /assets/images/editorial-auto/allerta-gialla-lazio-toscana-temporali-06-10-2026-v785-800.webp 800w, /assets/images/editorial-auto/allerta-gialla-lazio-toscana-temporali-06-10-2026-v785-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "value": "gialla",
+          "label": "criticità ordinaria"
+        },
+        {
+          "value": "2",
+          "label": "regioni in allerta"
+        },
+        {
+          "value": "6 ott",
+          "label": "validità bollettino"
+        }
+      ],
+      "featuredHighlights": [
+        "Bacini di Roma e coste laziali",
+        "Toscana sud e isole",
+        "Temporali e rischio idrogeologico"
       ]
     },
     {
