@@ -1,7 +1,61 @@
 {
-  "version": 790,
+  "version": 792,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "alt": "Illustrazione editoriale di sede bancaria contemporanea; non documentaria del gruppo citato.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/unicredit-putin-autorizza-vendita-attivita-russia-06-10-2026-v792-480.webp",
+          "bytes": 26470
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/unicredit-putin-autorizza-vendita-attivita-russia-06-10-2026-v792-800.webp",
+          "bytes": 63272
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/unicredit-putin-autorizza-vendita-attivita-russia-06-10-2026-v792-1200.webp",
+          "bytes": 118878
+        }
+      ],
+      "sensitiveContext": false,
+      "article": "/notizie/unicredit-putin-autorizza-vendita-attivita-russia-06-10-2026.html"
+    },
+    {
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "alt": "Illustrazione editoriale di edificio istituzionale tedesco; non documentaria dell’arresto.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/germania-arrestato-ex-capo-bnd-august-hanning-spionage-06-10-2026-v792-480.webp",
+          "bytes": 17646
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/germania-arrestato-ex-capo-bnd-august-hanning-spionage-06-10-2026-v792-800.webp",
+          "bytes": 41630
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/germania-arrestato-ex-capo-bnd-august-hanning-spionage-06-10-2026-v792-1200.webp",
+          "bytes": 77732
+        }
+      ],
+      "sensitiveContext": true,
+      "article": "/notizie/germania-arrestato-ex-capo-bnd-august-hanning-spionage-06-10-2026.html"
+    },
     {
       "alt": "Illustrazione editoriale IA di un borgo collinare laziale; non documentaria del sequestro.",
       "aiGenerated": true,
