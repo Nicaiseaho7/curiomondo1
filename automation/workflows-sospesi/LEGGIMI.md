@@ -1,13 +1,14 @@
 # Automazioni sospese
 
 Qui dentro stanno i workflow che avevano bisogno di una chiave OpenAI
-(`OPENAI_API_KEY`) o della coda privata delle domande
-(`CURIOMONDO_DAILY_QUESTIONS_JSON`). Sono stati spostati fuori da
+(`OPENAI_API_KEY`) o di altri input manuali. Il workflow della Domanda del
+giorno non usa più code private: può ricevere soltanto il titolo fornito
+esplicitamente dal proprietario. I workflow sono stati spostati fuori da
 `.github/workflows/` il 14 settembre 2026, quando il sito e tornato alla
 pubblicazione manuale: GitHub legge soltanto quella cartella, quindi da qui non
 partono e non falliscono piu.
 
-Non e stato cancellato niente. Per riattivarne uno basta rimetterlo al suo posto:
+Per riattivarne uno basta rimetterlo al suo posto:
 
     git mv automation/workflows-sospesi/<nome>.yml .github/workflows/
 

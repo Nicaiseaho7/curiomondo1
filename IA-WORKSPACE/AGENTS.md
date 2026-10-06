@@ -4,7 +4,7 @@
 
 Le richieste operative del proprietario autorizzano gli interventi necessari per portarle a termine nel progetto CurioMondo, inclusi aggiornamenti dei protocolli, correzioni e pubblicazione su `main`. Procedere senza riconferme per il lavoro già autorizzato e completare le verifiche necessarie.
 
-L'autorizzazione esplicita del 2 ottobre 2026 comprende il mantenimento del riferimento al PDF privato già presente nei file di configurazione e nei protocolli del repository GitHub. Il PDF e il suo contenuto integrale restano privati. Restano validi l'ambito della richiesta e i vincoli di sicurezza degli strumenti.
+Dal 6 ottobre 2026 il PDF privato usato in precedenza per la Domanda del giorno è ritirato e non deve più essere cercato, consultato, caricato o citato. Il titolo della Domanda del giorno viene fornito esclusivamente dal proprietario con una richiesta esplicita. Se il proprietario non fornisce il titolo, non inventare, non scegliere dalla vecchia coda e non pubblicare una Domanda del giorno sostitutiva; le attività editoriali non collegate possono proseguire normalmente. Restano validi l'ambito della richiesta e i vincoli di sicurezza degli strumenti.
 
 ## REVISIONE v503 — GATE PROPORZIONATO E AUTORIPARAZIONE
 
@@ -81,8 +81,8 @@ Questa sezione sostituisce le precedenti regole incompatibili su doppia conferma
 ## eBook Domanda del giorno — dal 28 settembre 2026
 Ogni nuovo eBook della Domanda del giorno è un libro breve: **25.000 parole** (tolleranza 22.000–32.000), **8–12 capitoli**, una schermata per capitolo. Deve essere indicizzato (`index,follow`, canonical, sitemap, indice di ricerca). Gli eBook già pubblicati non si riscrivono per questa regola. Dettaglio in `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`.
 
-## Verifica della fonte Domanda del giorno — 3 ottobre 2026
-La coda `automation/state/daily-questions.json` è una cache e non sostituisce il PDF privato originale. È stata rilevata una divergenza tra la voce n. 1016 della coda e il PDF; per questa pubblicazione è stato verificato e usato il testo del PDF. Prima di ogni futura scelta confrontare numero e testo con il PDF originale, registrando in `source_verification` documento, pagina, numero, data della verifica e SHA-256 UTF-8 della domanda. Il selettore si ferma sulla prima voce non utilizzata se manca questa verifica o il testo è stato modificato. Non attribuire al PDF domande provenienti soltanto dalla cache. Non aggiungere il PDF o il suo contenuto integrale al sito.
+## Fonte della Domanda del giorno — 6 ottobre 2026
+La sola fonte ammessa per una nuova Domanda del giorno è il titolo/domanda inviato esplicitamente dal proprietario. `automation/state/daily-questions.json` è materiale storico e non è una coda pubblicabile. Non selezionare domande automaticamente, non usare numerazioni o verifiche del vecchio PDF e non attribuire al proprietario testi che non ha fornito. In assenza di un nuovo titolo esplicito, saltare la Domanda del giorno senza bloccare notizie, guide o correzioni non collegate.
 
 ## Categorie della home — mai mescolate
 In ogni sezione della homepage (Sport, Politica, Cronaca e le altre) possono comparire solo notizie di quella categoria. Una card di un'altra categoria è un errore bloccante. Dopo ogni pubblicazione rieseguire `node tools/render_home_editorial.js`: aggiorna sezioni, Ultima ora e ticker «Ultime notizie». `tools/predeploy.py` rifiuta la home se una sezione è mista o se il ticker è vuoto.

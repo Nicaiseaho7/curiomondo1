@@ -19,7 +19,7 @@ Non inserire mai chiavi API nel codice o nei file del repository. Usare GitHub S
 
 
 ## Contratto editoriale quotidiano v175
-Ogni ciclo giornaliero completo deve produrre insieme: 1 Domanda del giorno, 1 eBook collegato da 15.000–30.000 caratteri e 2 guide Biblioteca da 3.000–15.000 caratteri ciascuna. La risposta breve alla domanda resta tra 1.000 e 3.000 caratteri. Le guide devono essere assegnate alla categoria corretta e la Biblioteca e gli eBook usano il tema premium bianco + blu CurioMondo; il verde non è una palette dominante.
+Quando il proprietario fornisce un nuovo titolo, il pacchetto della Domanda del giorno comprende 1 Domanda del giorno, 1 eBook collegato da 15.000–30.000 caratteri e 2 guide Biblioteca da 3.000–15.000 caratteri ciascuna. La risposta breve alla domanda resta tra 1.000 e 3.000 caratteri. Senza un titolo esplicito non viene creato alcun pacchetto sostitutivo. Le guide devono essere assegnate alla categoria corretta e la Biblioteca e gli eBook usano il tema premium bianco + blu CurioMondo; il verde non è una palette dominante.
 
 
 ## Contratto editoriale articoli — protocollo 4.0 + premium v763
@@ -41,10 +41,10 @@ Ogni ciclo giornaliero completo deve produrre insieme: 1 Domanda del giorno, 1 e
 
 ## Domanda del giorno — controllo data obbligatorio
 - Ogni ciclo automatico deve calcolare la data corrente nel fuso `Europe/Rome` e confrontarla con `daily_state.last_question_date` in `curiomondo-site-manifest.json`.
-- Se la data è cambiata, **prima di concludere il ciclo deve pubblicare automaticamente la nuova Domanda del giorno**, anche se il ciclo era stato avviato per cercare notizie.
-- La domanda deve essere scelta **esclusivamente** dal PDF privato `Mille_e_piu_domande_per_pensare.pdf`, che contiene 1.125 domande numerate. Il PDF non deve essere pubblicato né copiato nel sito.
-- Usare una domanda non ancora presente in `daily_state.used_question_source_numbers`; conservarne il testo invariato salvo apostrofi tipografici e registrare nel manifest il numero scelto, aggiornando `current_question_source_number`, `used_question_source_numbers`, `last_question_date` e `last_question_slug`.
-- Se il PDF privato non è disponibile al ciclo, la pubblicazione della Domanda del giorno deve fermarsi in modalità fail-closed: non inventare né sostituire la domanda con una fonte diversa.
+- Se la data è cambiata, pubblicare una nuova Domanda del giorno **solo se il proprietario ha fornito esplicitamente il titolo/domanda per quel ciclo**.
+- Non scegliere titoli da PDF, code, cache, modelli o fonti esterne. Il precedente PDF privato è ritirato e non deve essere cercato, consultato, caricato o citato.
+- Conservare il testo fornito dal proprietario, salvo correzioni tipografiche che non ne cambino il significato, verificare che non sia già pubblicato e aggiornare `last_question_date` e `last_question_slug` insieme alle superfici previste.
+- Se il titolo non è stato fornito, saltare la Domanda del giorno senza inventare sostituti e senza bloccare notizie, guide o correzioni non collegate.
 - Deve esistere una sola Domanda del giorno per ciascuna data italiana. Aggiornare nello stesso ciclo homepage/card mistero, pagina dedicata, archivio, ricerca, sitemap e gli altri output previsti dal Protocollo Maestro.
 
 ## Stato reale dell’automazione

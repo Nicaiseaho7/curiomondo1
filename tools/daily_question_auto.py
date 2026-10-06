@@ -8,7 +8,6 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 import json
-import hashlib
 import os
 import re
 import sys
@@ -73,37 +72,16 @@ def require_secret(name: str) -> str:
     return value
 
 
-def load_question_queue() -> list[dict]:
-    raw = os.getenv("CURIOMONDO_DAILY_QUESTIONS_JSON", "").strip()
-    if not raw:
-        private_path = ROOT / "automation/state/daily-questions.json"
-        if private_path.exists():
-            raw = private_path.read_text(encoding="utf-8")
-    if not raw:
+def load_owner_question() -> dict:
+    question = os.getenv("CURIOMONDO_DAILY_QUESTION_TITLE", "").strip()
+    if not question:
         print(json.dumps({
             "status": "blocked",
-            "reason": "daily_question_source_missing",
-            "message": "Add the private question queue as CURIOMONDO_DAILY_QUESTIONS_JSON."
+            "reason": "owner_question_title_missing",
+            "message": "Provide the title explicitly with CURIOMONDO_DAILY_QUESTION_TITLE."
         }, ensure_ascii=False))
         sys.exit(3)
-    queue = json.loads(raw)
-    if not isinstance(queue, list):
-        raise SystemExit("CURIOMONDO_DAILY_QUESTIONS_JSON must be a JSON array")
-    normalized = []
-    for item in queue:
-        if isinstance(item, str):
-            normalized.append({"number": None, "question": item.strip()})
-        elif isinstance(item, dict):
-            normalized.append({
-                "number": item.get("number") or item.get("id"),
-                "question": str(item.get("question") or item.get("text") or "").strip(),
-                "source_verification": item.get("source_verification"),
-            })
-    return [item for item in normalized if item["question"]]
 
-
-def choose_question(manifest: dict) -> dict:
-    used = set(manifest.get("daily_state", {}).get("used_question_source_numbers", []))
     used_questions = set()
     for page in (ROOT / "domanda-del-giorno").glob("*/index.html"):
         html = page.read_text(encoding="utf-8", errors="ignore")
@@ -111,30 +89,14 @@ def choose_question(manifest: dict) -> dict:
         if match:
             used_questions.add(re.sub(r"\s+", " ", re.sub(r"<.*?>", "", match.group(1))).strip())
 
-    for item in load_question_queue():
-        number = item.get("number")
-        question = item["question"]
-        if number is not None and number in used:
-            continue
-        if question in used_questions:
-            continue
-        if manifest.get("daily_state", {}).get("private_source_required_fail_closed", True):
-            verification = item.get("source_verification") or {}
-            digest = hashlib.sha256(question.encode("utf-8")).hexdigest()
-            if (verification.get("document") != "Mille_e_piu_domande_per_pensare.pdf"
-                    or verification.get("number") != number
-                    or verification.get("question_sha256") != digest
-                    or not isinstance(verification.get("page"), int)
-                    or not verification.get("verified_on")):
-                print(json.dumps({
-                    "status": "blocked", "reason": "daily_question_pdf_verification_required",
-                    "number": number,
-                    "message": "Verify the next queue entry against the original private PDF before publication.",
-                }, ensure_ascii=False))
-                sys.exit(5)
-        return item
-    print(json.dumps({"status": "blocked", "reason": "daily_question_queue_exhausted"}, ensure_ascii=False))
-    sys.exit(4)
+    if question in used_questions:
+        print(json.dumps({
+            "status": "blocked",
+            "reason": "owner_question_already_published",
+            "question": question,
+        }, ensure_ascii=False))
+        sys.exit(4)
+    return {"question": question, "source": "owner_supplied"}
 
 
 def openai_json(prompt: str) -> dict:
@@ -350,7 +312,7 @@ def main() -> None:
         print(json.dumps({"status": "noop", "reason": "daily_question_already_current", "date": date}, ensure_ascii=False))
         return
 
-    question_item = choose_question(manifest)
+    question_item = load_owner_question()
     question = question_item["question"]
     slug = slugify(question)
     qurl = f"/domanda-del-giorno/{slug}/"
@@ -366,7 +328,7 @@ def main() -> None:
     update_feed(now, question, package, qurl)
     update_state(now, slug, question_item)
 
-    print(json.dumps({"status": "ok", "date": date, "slug": slug, "question_number": question_item.get("number")}, ensure_ascii=False))
+    print(json.dumps({"status": "ok", "date": date, "slug": slug, "question_source": "owner_supplied"}, ensure_ascii=False))
 
 
 if __name__ == "__main__":

@@ -30,9 +30,7 @@ Prima di creare una nuova versione, confronta la data corrente con `daily_state.
 
 ## 1.1 Domanda del giorno
 
-Se la data corrente è successiva all'ultima Domanda del giorno pubblicata:
-
-**DEVI crearne una nuova nello stesso ciclo**, anche se la richiesta dell'utente riguarda soltanto una notizia, una guida, una correzione o un'altra modifica.
+Dal 6 ottobre 2026 il titolo/domanda viene fornito esclusivamente dal proprietario. Il precedente PDF privato e la vecchia coda non sono fonti utilizzabili. Se la data corrente è successiva all'ultima Domanda del giorno pubblicata, crearne una nuova solo quando il proprietario ha inviato esplicitamente il titolo; altrimenti saltarla senza inventare sostituti e senza bloccare le altre attività editoriali.
 
 La Domanda del giorno deve:
 
