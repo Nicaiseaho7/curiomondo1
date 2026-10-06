@@ -194,6 +194,21 @@ Le pagine `noindex` non devono contenere codice pubblicitario. Le pagine storich
 
 Ogni nuovo articolo CurioMondo deve essere comprensibile anche a un lettore che non conosce già l'argomento.
 
+### Requisiti di leggibilità, monetizzazione responsabile ed E-E-A-T — v1.3
+
+Per ogni nuova pagina in `/approfondimenti/` valgono inoltre gli otto elementi del §5.1 di `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md` v1.3:
+
+1. box «In sintesi» con 3–4 punti come primo blocco informativo ed entro i primi 100 px del contenuto editoriale;
+2. almeno una tabella HTML pertinente, accessibile e basata su dati verificati;
+3. paragrafi di 2–4 frasi e massimo 60 parole, con H2/H3 che rispondono a intenti reali senza keyword stuffing;
+4. interruzioni editoriali naturali circa ogni 250–300 parole, utilizzabili dalla pipeline per annunci In-Article senza inserire contenitori vuoti, inviti al clic o annunci manuali non approvati;
+5. FAQ finali 3–5, visibili e allineate all'eventuale JSON-LD `FAQPage`; nessuna promessa di rich result;
+6. normalmente 2–3 link interni contestuali, riducibili soltanto quando non esistono destinazioni pertinenti e senza creare link artificiali;
+7. autore o redazione, metodo, date reali, fonti e disclosure tracciabili;
+8. per i temi YMYL, fonti primarie aggiornate, limiti e incertezze espliciti e disclaimer specifico che non sostituisce consulenza professionale.
+
+Gli annunci devono adattarsi al contenuto, non il contrario. Nessuna struttura editoriale può essere giustificata con promesse di CTR, RPM, ranking o riduzione del bounce rate; tali risultati non sono controllabili né garantiti.
+
 1. Ogni nuovo articolo deve preferire parole comuni e frasi naturali. È vietato spiegare nel corpo della notizia parole difficili, sigle o termini tecnici con inciso, parentesi, box, glossario o formula didascalica.
 2. Quando una spiegazione aggiunge valore reale, deve essere sviluppata in un approfondimento autonomo con pagina dedicata, non inserita per allungare la notizia.
 3. L'approfondimento deve aggiungere conoscenza reale. Non deve ripetere la notizia, riassumere quanto già scritto o essere utilizzato per aumentare artificialmente la lunghezza dell'articolo.

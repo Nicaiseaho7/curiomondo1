@@ -1,6 +1,6 @@
 # PROTOCOLLO OBBLIGATORIO — CURIOSITÀ E APPROFONDIMENTI CURIOMONDO
 
-**Versione:** 1.2  
+**Versione:** 1.3
 **Data:** 6 ottobre 2026  
 **Stato:** obbligatorio, fail-closed  
 **Ambito:** ogni nuova **curiosità** e ogni nuovo **approfondimento** (evergreen, guida di comprensione, pagina in `/approfondimenti/`) pubblicati su CurioMondo  
@@ -150,9 +150,10 @@ Ipotesi ≠ fatti.
 
 ```
 1. H1 chiaro e specifico: anche dichiarativo; domanda solo se descrive il reale intento della guida
-2. Lead 120–180 parole — risposta in pillola + perché conta
-3. Indice (opzionale se >3.000 parole)
-4. Corpo H2/H3:
+2. Box «In sintesi» above the fold — 3–4 punti chiave entro i primi 100 px del contenuto editoriale
+3. Lead 120–180 parole — risposta in pillola + perché conta
+4. Indice (opzionale se >3.000 parole)
+5. Corpo H2/H3:
    - definizione precisa
    - origine / perché esiste
    - come funziona (passo-passo)
@@ -160,9 +161,9 @@ Ipotesi ≠ fatti.
    - cosa cambia per il cittadino / cosa sapere in pratica
    - limiti, eccezioni, miti da sfatare
    - contesto più ampio (se utile)
-5. FAQ 4–8 (da People also ask / correlate reali)
-6. Box «In sintesi» 5–8 bullet
-7. «Fonti consultate» (.art-sources) — mai «Fonte:» nel corpo
+6. Almeno una tabella HTML di dati o confronto, pertinente e accessibile
+7. FAQ visibili 3–5 (da domande reali) e markup `FAQPage` coerente, quando ammissibile
+8. «Fonti consultate» (`.art-sources`) — mai «Fonte:» nel corpo
 ```
 
 ### Titolo
@@ -174,6 +175,19 @@ Entra subito nel tema. Vietato: «Fin dall’alba dei tempi…», «In un mondo 
 ### Corpo
 H2/H3 ammessi e utili (vietati solo nelle notizie flash/standard).  
 Sezioni sostanziose, non micro-titoletti vuoti.
+
+### 5.1 Gli 8 elementi chiave di ogni guida o approfondimento (v1.3)
+
+1. **Box «In sintesi» above the fold.** Deve essere il primo blocco informativo dopo H1, eventuale sottotitolo e metadati, comunque entro i primi 100 px del contenuto editoriale e prima del lead esteso, dell'indice e della hero quando lo stampo consente tale ordine. Contiene **3–4 punti**, risponde subito all'intento e non duplica parola per parola il lead. Un riepilogo finale è facoltativo e deve aggiungere valore.
+2. **Tabella dati o confronto.** Ogni guida deve contenere almeno una vera tabella HTML (`table`, `thead`, `tbody`, intestazioni `th`, caption o testo introduttivo) con dati, requisiti, differenze, costi, tempi o scenari utili. La tabella deve essere leggibile su mobile, accessibile, basata su dati verificati e non creata come riempitivo. Se il tema non offre numeri, usare un confronto fattuale tra concetti o procedure.
+3. **Paragrafi brevi e H2/H3 orientati alle query.** Ogni paragrafo tratta una sola idea, usa normalmente 2–4 frasi e non supera 60 parole; evitare muri di testo. H2 e H3 devono rispondere a domande o sotto-intenti reali espressi con linguaggio naturale. Vietati keyword stuffing, titoli seriali e sottotitoli scritti soltanto per intercettare una query.
+4. **Interruzioni editoriali compatibili con gli annunci.** Organizzare il corpo in blocchi naturali di circa **250–300 parole**, separati da H2/H3, tabelle, box o passaggi di lettura. Questi punti possono ospitare In-Article Ads tramite la pipeline pubblicitaria approvata. Non inserire annunci manuali, contenitori vuoti, inviti al clic o spazi artificiali; contenuto, leggibilità e policy AdSense prevalgono sempre.
+5. **FAQ visibili con dati strutturati coerenti.** Inserire **3–5 domande e risposte** utili alla fine del corpo. Quando la pagina e il tema sono ammissibili, aggiungere JSON-LD `FAQPage`: ogni `Question` e `acceptedAnswer` deve riprodurre fedelmente contenuto visibile nella pagina. Il markup non garantisce rich result e non deve essere usato per domande promozionali, duplicate o nascoste.
+6. **Cross-linking interno.** Inserire normalmente **2–3 link contestuali** verso approfondimenti o articoli CurioMondo realmente complementari, nel punto in cui aiutano il lettore. Se il catalogo non offre due destinazioni pertinenti, non forzare: documentare l'eccezione nel controllo editoriale e usare soltanto i link utili. Restano vietati anchor generiche, ripetizioni e reti artificiali.
+7. **Tracciabilità editoriale.** Il punto 7, non esplicitato nell'elenco originario, viene reso operativo usando requisiti già obbligatori: autore o redazione identificabile, link a «Come lavoriamo», data di pubblicazione e aggiornamento reale, fonti primarie finali e disclosure delle immagini IA. Non inventare credenziali, revisioni o date.
+8. **E-E-A-T e tutela YMYL.** Per finanza, salute, diritto, sicurezza e tecnologia sensibile usare fonti primarie aggiornate, distinguere fatti, esempi e incertezze, indicare limiti ed eccezioni e chiudere con un disclaimer chiaro e specifico. Il tono deve essere autorevole ma non sostituire consulenza medica, legale o finanziaria; vietate promesse di risultato e formule assolute non supportate.
+
+Questi otto elementi servono prima di tutto la persona. Nessuno autorizza affermazioni come «Google adora», «garantisce il ranking», «riduce il bounce rate» o «aumenta il rendimento»: SEO, rich result, CTR e ricavi sono possibili effetti, mai risultati garantiti.
 
 ### Chiusura
 Non ripetere il lead. Lascia concetto chiave, conseguenza o domanda ancora aperta.
@@ -208,13 +222,13 @@ Se eliminando un paragrafo non si perde informazione utile, quel paragrafo **non
 
 | Elemento | Uso |
 |----------|-----|
-| In breve | 3–5 punti iniziali |
+| In sintesi | 3–4 punti iniziali, obbligatori above the fold |
 | Il dato | numero chiave |
 | Lo sapevi? | fatto documentato e sorprendente |
 | Attenzione | equivoco comune |
 | Cosa sappiamo davvero | fatti vs ipotesi |
 | Timeline | storia / norme nel tempo |
-| Tabelle | confronti |
+| Tabelle | almeno un confronto o set di dati HTML, obbligatorio |
 
 Clona classi e stampi **già presenti** sul sito. Non inventare CSS.
 
@@ -236,13 +250,13 @@ Qualità editoriale **prima** della densità keyword. Niente keyword stuffing.
 
 Slug consigliati: `che-cose-…`, `perche-…`, `come-funziona-…` (corti, italiani, senza data salvo necessità).
 
-### 10.1 Collegamenti interni tra approfondimenti (obbligatorio dal 6 ottobre 2026)
+### 10.1 Collegamenti interni tra approfondimenti (obbligatorio dal 6 ottobre 2026; aggiornato v1.3)
 
 Ogni nuovo approfondimento, e ogni approfondimento sottoposto a revisione sostanziale, deve essere confrontato con il catalogo già pubblicato per individuare eventuali guide realmente complementari.
 
 - Inserire collegamenti nel corpo **solo quando aiutano il lettore a capire, verificare un concetto preliminare o proseguire naturalmente il percorso**.
 - Il link deve comparire nel punto in cui nasce il bisogno informativo, dentro una frase normale e professionale; l'anchor text deve descrivere con chiarezza la pagina collegata.
-- Non esiste un numero minimo obbligatorio: se non c'è una relazione utile, non inserire link. Come orientamento, usare **1–4 collegamenti contestuali** per guida; superarli soltanto quando la struttura del tema lo giustifica.
+- Obiettivo ordinario: **2–3 collegamenti contestuali** per guida. Se non esistono almeno due destinazioni realmente pertinenti, non forzare: inserire soltanto i link utili e registrare l'eccezione nel controllo editoriale.
 - Preferire approfondimenti CurioMondo specifici e complementari. Non collegare due pagine soltanto perché appartengono alla stessa categoria.
 - Vietati link forzati, liste artificiali di keyword, anchor ripetitive o sovraottimizzate, formule generiche come «clicca qui» e blocchi creati solo per aumentare il numero di collegamenti.
 - Evitare di ripetere più volte lo stesso collegamento nella stessa guida, salvo una necessità editoriale concreta.
@@ -273,18 +287,19 @@ Mai «Fonte:» nel corpo.
 
 1. Seleziona fino a **10 temi** da Trends (o fino a 10 in un ciclo misto Trends + altri criteri §1); se non c’è materia valida, meno — mai filler  
 2. Verifica fonti primarie  
-3. Scrivi la guida intera (**2.000–5.000+** parole di corpo)  
-4. Individua e inserisci i collegamenti interni contestuali previsti dal §10.1; valuta gli eventuali richiami utili dalle guide già online  
-5. Hero 3:2 + webp  
-6. File `approfondimenti/<slug>.html` (stampo vivo del sito)  
-7. Stesso commit:  
+3. Scrivi la guida intera (**2.000–5.000+** parole di corpo) applicando gli otto elementi del §5.1
+4. Verifica box iniziale, tabella HTML, paragrafi/H2-H3, interruzioni ogni 250–300 parole, FAQ visibili + JSON-LD coerente, E-E-A-T e disclaimer YMYL
+5. Individua e inserisci i collegamenti interni contestuali previsti dal §10.1; valuta gli eventuali richiami utili dalle guide già online
+6. Hero 3:2 + webp
+7. File `approfondimenti/<slug>.html` (stampo vivo del sito)
+8. Stesso commit:
    - card in cima a `approfondimenti/index.html`  
    - homepage rail «Curiosità e approfondimenti» (max **10** card in evidenza = le 10 più recenti; le altre restano in `/approfondimenti/` e in index)  
    - blocco `.cm-evergreen-reader` sotto ogni notizia padre, se esiste  
    - `search-index` / sitemap / `_redirects` / manifest secondo pipeline  
-8. Gate: `python3 tools/repository_integrity_gate.py` e `python3 tools/predeploy.py` → exit 0  
-9. Push `main` (`Nicaiseaho7/curiomondo1`)  
-10. Verifica live HTTP 200 (pagina + hero e collegamenti interni). Solo allora → **PUBBLICATO**
+9. Gate: `python3 tools/repository_integrity_gate.py` e `python3 tools/predeploy.py` → exit 0
+10. Push `main` (`Nicaiseaho7/curiomondo1`)
+11. Verifica live HTTP 200 (pagina + hero e collegamenti interni). Solo allora → **PUBBLICATO**
 
 Un pezzo solo in chat **non** è pubblicato.
 
@@ -297,11 +312,15 @@ Un pezzo solo in chat **non** è pubblicato.
 - [ ] Risposta alla domanda principale nei primi paragrafi  
 - [ ] Almeno un esempio / dato italiano concreto  
 - [ ] Almeno una fonte primaria  
-- [ ] H2 che rispondono a domande vere  
-- [ ] FAQ non ripetono solo il lead  
-- [ ] Box In sintesi  
+- [ ] Box «In sintesi» iniziale con 3–4 punti entro i primi 100 px del corpo
+- [ ] Almeno una tabella HTML utile, accessibile e verificata
+- [ ] Paragrafi brevi; nessuno oltre 60 parole; H2/H3 rispondono a query reali senza stuffing
+- [ ] Interruzioni editoriali naturali circa ogni 250–300 parole, senza slot pubblicitari vuoti o inviti al clic
+- [ ] FAQ finali 3–5, non ripetitive, visibili e allineate all'eventuale JSON-LD `FAQPage`
 - [ ] Fonti solo in `.art-sources`  
-- [ ] Collegamenti interni contestuali verificati; nessun link forzato o rotto  
+- [ ] 2–3 collegamenti interni contestuali verificati, oppure eccezione motivata se non esistono destinazioni pertinenti
+- [ ] Autore/redazione, metodo, date reali, fonti e disclosure presenti
+- [ ] Disclaimer chiaro e specifico nei temi YMYL; limiti e incertezze espliciti
 - [ ] Hero 3:2 e gate immagini  
 - [ ] Index + homepage rail + (se serve) evergreen-reader  
 - [ ] predeploy exit 0 + URL live 200  
@@ -328,11 +347,11 @@ Se sembra una scheda corta o un testo generico → **NON È PRONTA**.
 ## 16. PROMPT CORTO DA INCOLLARE A OGNI CICLO
 
 ```
-Esegui il PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md v1.1 (CurioMondo).
+Esegui il PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md v1.3 (CurioMondo).
 
 1) Seleziona fino a **10 temi** da Trends IT 24-48h (e/o volume stabile + gap sito) che passano almeno 3/5 criteri §1. Massimo 10 per ciclo; meno se manca materia.
-2) Per ciascun tema: guida evergreen 2000–5000+ parole di corpo, italiano da quotidiano, H2 meccanismi + esempi IT + fonti primarie + FAQ + box In sintesi. Minimo assoluto 1800; sotto soglia o senza sostanza → non pubblicare.
-3) Inserisci collegamenti interni naturali verso approfondimenti complementari quando utili (§10.1), senza quote o forzature; verifica URL canonici e valuta richiami sensati dalle guide esistenti.
+2) Per ciascun tema: guida evergreen 2000–5000+ parole di corpo, italiano da quotidiano, box In sintesi iniziale 3–4 punti, almeno una tabella HTML utile, paragrafi brevi, H2/H3 su query reali, passaggi naturali ogni 250–300 parole, FAQ finali 3–5 con JSON-LD coerente quando ammissibile, tracciabilità ed E-E-A-T/YMYL. Minimo assoluto 1800; sotto soglia o senza sostanza → non pubblicare.
+3) Inserisci normalmente 2–3 collegamenti interni naturali verso pagine complementari (§10.1); se non esistono destinazioni pertinenti, non forzare e registra l'eccezione. Verifica URL canonici e richiami sensati dalle guide esistenti.
 4) Hero 3:2 protocollo immagini; pubblica in approfondimenti/, aggiorna index, homepage rail (max 10 card), evergreen-reader sotto padri, search-index, sitemap, redirects.
 5) Gate predeploy exit 0; commit+push main Nicaiseaho7/curiomondo1; verifica URL live 200 e link interni.
 6) Scarta gossip/sport result/meteo/streaming. Niente filler. Repo protocolli vincono su skill obsolete 800–1500.
@@ -362,7 +381,7 @@ Skill collegate (devono deferire a questo file):
 
 ---
 
-**Fine protocollo v1.2 — 6 ottobre 2026.**  
+**Fine protocollo v1.3 — 6 ottobre 2026.**
 **Changelog v1.1:** criteri di selezione oltre i soli trend; fasce 2.000–5.000+ parole; minimo 1.800; priorità tematiche; prompt corto; homepage rail max 3 in evidenza; **fino a 10 guide da Trends per ciclo** (v1.1.1); prevalenza sulle skill 800–1.500.
 
 **Changelog v1.1.1 (29 settembre 2026):** massimo guide da Trends / curiosità in tendenza per ciclo portato da 3 a **10**. L’index `/approfondimenti/` e la pubblicazione accettano fino a 10 pezzi.
@@ -370,3 +389,5 @@ Skill collegate (devono deferire a questo file):
 **Changelog v1.1.2 (29 settembre 2026):** rail homepage «Curiosità e approfondimenti» portata da max 3 a **max 10** card in evidenza (le più recenti).
 
 **Changelog v1.2 (6 ottobre 2026):** introdotto il collegamento interno contestuale tra approfondimenti complementari, senza quantità rigide, forzature SEO o reciprocità automatica; aggiunti controllo degli URL e verifica dei richiami utili dalle guide già pubblicate.
+
+**Changelog v1.3 (6 ottobre 2026):** introdotti otto requisiti operativi per ogni guida: box «In sintesi» iniziale, tabella HTML, paragrafi brevi e H2/H3 orientati agli intenti, interruzioni editoriali compatibili con gli annunci, FAQ visibili con markup coerente, 2–3 link contestuali salvo eccezione motivata, tracciabilità editoriale ed E-E-A-T con disclaimer YMYL. Escluse promesse automatiche di ranking, rich result, CTR o rendimento pubblicitario.
