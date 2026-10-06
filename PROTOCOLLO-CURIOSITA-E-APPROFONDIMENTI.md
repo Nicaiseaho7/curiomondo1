@@ -1,7 +1,7 @@
 # PROTOCOLLO OBBLIGATORIO — CURIOSITÀ E APPROFONDIMENTI CURIOMONDO
 
-**Versione:** 1.1.2  
-**Data:** 29 settembre 2026  
+**Versione:** 1.2  
+**Data:** 6 ottobre 2026  
 **Stato:** obbligatorio, fail-closed  
 **Ambito:** ogni nuova **curiosità** e ogni nuovo **approfondimento** (evergreen, guida di comprensione, pagina in `/approfondimenti/`) pubblicati su CurioMondo  
 **File operativo:** questo documento  
@@ -236,6 +236,21 @@ Qualità editoriale **prima** della densità keyword. Niente keyword stuffing.
 
 Slug consigliati: `che-cose-…`, `perche-…`, `come-funziona-…` (corti, italiani, senza data salvo necessità).
 
+### 10.1 Collegamenti interni tra approfondimenti (obbligatorio dal 6 ottobre 2026)
+
+Ogni nuovo approfondimento, e ogni approfondimento sottoposto a revisione sostanziale, deve essere confrontato con il catalogo già pubblicato per individuare eventuali guide realmente complementari.
+
+- Inserire collegamenti nel corpo **solo quando aiutano il lettore a capire, verificare un concetto preliminare o proseguire naturalmente il percorso**.
+- Il link deve comparire nel punto in cui nasce il bisogno informativo, dentro una frase normale e professionale; l'anchor text deve descrivere con chiarezza la pagina collegata.
+- Non esiste un numero minimo obbligatorio: se non c'è una relazione utile, non inserire link. Come orientamento, usare **1–4 collegamenti contestuali** per guida; superarli soltanto quando la struttura del tema lo giustifica.
+- Preferire approfondimenti CurioMondo specifici e complementari. Non collegare due pagine soltanto perché appartengono alla stessa categoria.
+- Vietati link forzati, liste artificiali di keyword, anchor ripetitive o sovraottimizzate, formule generiche come «clicca qui» e blocchi creati solo per aumentare il numero di collegamenti.
+- Evitare di ripetere più volte lo stesso collegamento nella stessa guida, salvo una necessità editoriale concreta.
+- Quando si pubblica una nuova guida, valutare anche se uno o più approfondimenti già online meritano un collegamento verso la nuova pagina. Aggiungerlo solo se migliora davvero il testo esistente; la reciprocità non è automatica.
+- Ogni collegamento deve usare l'URL canonico corretto, puntare a una pagina pubblicata e superare il controllo HTTP previsto dalla pipeline. Link rotti, redirect evitabili o destinazioni non equivalenti vanno corretti prima della pubblicazione.
+
+Il principio è: **costruire percorsi di lettura utili, non una rete artificiale di link SEO**.
+
 ---
 
 ## 11. ORIGINALITÀ
@@ -259,16 +274,17 @@ Mai «Fonte:» nel corpo.
 1. Seleziona fino a **10 temi** da Trends (o fino a 10 in un ciclo misto Trends + altri criteri §1); se non c’è materia valida, meno — mai filler  
 2. Verifica fonti primarie  
 3. Scrivi la guida intera (**2.000–5.000+** parole di corpo)  
-4. Hero 3:2 + webp  
-5. File `approfondimenti/<slug>.html` (stampo vivo del sito)  
-6. Stesso commit:  
+4. Individua e inserisci i collegamenti interni contestuali previsti dal §10.1; valuta gli eventuali richiami utili dalle guide già online  
+5. Hero 3:2 + webp  
+6. File `approfondimenti/<slug>.html` (stampo vivo del sito)  
+7. Stesso commit:  
    - card in cima a `approfondimenti/index.html`  
    - homepage rail «Curiosità e approfondimenti» (max **10** card in evidenza = le 10 più recenti; le altre restano in `/approfondimenti/` e in index)  
    - blocco `.cm-evergreen-reader` sotto ogni notizia padre, se esiste  
    - `search-index` / sitemap / `_redirects` / manifest secondo pipeline  
-7. Gate: `python3 tools/repository_integrity_gate.py` e `python3 tools/predeploy.py` → exit 0  
-8. Push `main` (`Nicaiseaho7/curiomondo1`)  
-9. Verifica live HTTP 200 (pagina + hero). Solo allora → **PUBBLICATO**
+8. Gate: `python3 tools/repository_integrity_gate.py` e `python3 tools/predeploy.py` → exit 0  
+9. Push `main` (`Nicaiseaho7/curiomondo1`)  
+10. Verifica live HTTP 200 (pagina + hero e collegamenti interni). Solo allora → **PUBBLICATO**
 
 Un pezzo solo in chat **non** è pubblicato.
 
@@ -285,6 +301,7 @@ Un pezzo solo in chat **non** è pubblicato.
 - [ ] FAQ non ripetono solo il lead  
 - [ ] Box In sintesi  
 - [ ] Fonti solo in `.art-sources`  
+- [ ] Collegamenti interni contestuali verificati; nessun link forzato o rotto  
 - [ ] Hero 3:2 e gate immagini  
 - [ ] Index + homepage rail + (se serve) evergreen-reader  
 - [ ] predeploy exit 0 + URL live 200  
@@ -315,9 +332,10 @@ Esegui il PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md v1.1 (CurioMondo).
 
 1) Seleziona fino a **10 temi** da Trends IT 24-48h (e/o volume stabile + gap sito) che passano almeno 3/5 criteri §1. Massimo 10 per ciclo; meno se manca materia.
 2) Per ciascun tema: guida evergreen 2000–5000+ parole di corpo, italiano da quotidiano, H2 meccanismi + esempi IT + fonti primarie + FAQ + box In sintesi. Minimo assoluto 1800; sotto soglia o senza sostanza → non pubblicare.
-3) Hero 3:2 protocollo immagini; pubblica in approfondimenti/, aggiorna index, homepage rail (max 10 card), evergreen-reader sotto padri, search-index, sitemap, redirects.
-4) Gate predeploy exit 0; commit+push main Nicaiseaho7/curiomondo1; verifica URL live 200.
-5) Scarta gossip/sport result/meteo/streaming. Niente filler. Repo protocolli vincono su skill obsolete 800–1500.
+3) Inserisci collegamenti interni naturali verso approfondimenti complementari quando utili (§10.1), senza quote o forzature; verifica URL canonici e valuta richiami sensati dalle guide esistenti.
+4) Hero 3:2 protocollo immagini; pubblica in approfondimenti/, aggiorna index, homepage rail (max 10 card), evergreen-reader sotto padri, search-index, sitemap, redirects.
+5) Gate predeploy exit 0; commit+push main Nicaiseaho7/curiomondo1; verifica URL live 200 e link interni.
+6) Scarta gossip/sport result/meteo/streaming. Niente filler. Repo protocolli vincono su skill obsolete 800–1500.
 ```
 
 ---
@@ -344,9 +362,11 @@ Skill collegate (devono deferire a questo file):
 
 ---
 
-**Fine protocollo v1.1.1 — 29 settembre 2026.**  
+**Fine protocollo v1.2 — 6 ottobre 2026.**  
 **Changelog v1.1:** criteri di selezione oltre i soli trend; fasce 2.000–5.000+ parole; minimo 1.800; priorità tematiche; prompt corto; homepage rail max 3 in evidenza; **fino a 10 guide da Trends per ciclo** (v1.1.1); prevalenza sulle skill 800–1.500.
 
 **Changelog v1.1.1 (29 settembre 2026):** massimo guide da Trends / curiosità in tendenza per ciclo portato da 3 a **10**. L’index `/approfondimenti/` e la pubblicazione accettano fino a 10 pezzi.
 
 **Changelog v1.1.2 (29 settembre 2026):** rail homepage «Curiosità e approfondimenti» portata da max 3 a **max 10** card in evidenza (le più recenti).
+
+**Changelog v1.2 (6 ottobre 2026):** introdotto il collegamento interno contestuale tra approfondimenti complementari, senza quantità rigide, forzature SEO o reciprocità automatica; aggiunti controllo degli URL e verifica dei richiami utili dalle guide già pubblicate.
