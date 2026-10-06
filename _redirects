@@ -1,3 +1,17 @@
+# Alias categorie errati / legacy (fix 2026-10-06)
+/categorie/film-e-serie-tv/*  /categorie/film-serie-tv/  301!
+/categorie/film-e-serie-tv  /categorie/film-serie-tv/  301!
+/categorie/film-e-serie-tv/  /categorie/film-serie-tv/  301!
+/categorie/salute/*  /categorie/scienza/  301!
+/categorie/salute  /categorie/scienza/  301!
+/categorie/salute/  /categorie/scienza/  301!
+/categorie/spettacolo/*  /categorie/cultura/  301!
+/categorie/spettacolo  /categorie/cultura/  301!
+/categorie/spettacolo/  /categorie/cultura/  301!
+/curiosita  /approfondimenti/  301!
+/curiosita/  /approfondimenti/  301!
+/curiosita/*  /approfondimenti/  301!
+
 /notizie/russia-nato-kaliningrad-isolamento-arsenale-29-09-2026  /notizie/russia-nato-kaliningrad-isolamento-arsenale-29-09-2026.html  200
 /notizie/lega-congresso-straordinario-milano-24-25-ottobre-2026  /notizie/lega-congresso-straordinario-milano-24-25-ottobre-2026.html  200
 /notizie/sabalenka-pechino-carica-salute-piu-forte-29-09-2026  /notizie/sabalenka-pechino-carica-salute-piu-forte-29-09-2026.html  200
