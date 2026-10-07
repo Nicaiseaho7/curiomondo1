@@ -349,7 +349,13 @@ def _sync_ultima_ora(doc, items: list[dict[str, Any]]) -> None:
         anchor[0].addprevious(block)
 
 
-def sync_surfaces(new_articles: list[dict[str, Any]], featured_url: str, version: int) -> list[dict[str, Any]]:
+def sync_surfaces(
+    new_articles: list[dict[str, Any]],
+    featured_url: str,
+    version: int,
+    *,
+    update_manifest: bool = True,
+) -> list[dict[str, Any]]:
     """Rigenera home, archivio, ricerca, feed, sitemap e categorie."""
     infos = []
     for path in (ROOT / "notizie").glob("*.html"):
@@ -500,8 +506,9 @@ def sync_surfaces(new_articles: list[dict[str, Any]], featured_url: str, version
     ET.indent(sitemap, space="  "); sitemap.write(ROOT / "sitemap.xml", encoding="utf-8", xml_declaration=True)
 
     subprocess.run(["python3", "tools/generate_category_pages.py"], cwd=ROOT, check=True)
-    manifest_path = ROOT / "curiomondo-site-manifest.json"
-    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    manifest["site"]["current_site_version"] = version; manifest["site"]["site_version"] = version
-    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if update_manifest:
+        manifest_path = ROOT / "curiomondo-site-manifest.json"
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        manifest["site"]["current_site_version"] = version; manifest["site"]["site_version"] = version
+        manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return feed_items
