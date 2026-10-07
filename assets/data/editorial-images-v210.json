@@ -3,6 +3,78 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "g20-sovracapacita-auto-elettriche-chip-07-10-2026-v799",
+      "alt": "Illustrazione editoriale IA di una fabbrica integrata di auto elettriche, batterie e pannelli solari; scena non documentaria.",
+      "prompt": "Grande fabbrica moderna con linea di assemblaggio di veicoli elettrici, moduli batteria e pannelli solari, tecnici al lavoro, fotografia industriale realistica, nessun logo e nessun testo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/g20-sovracapacita-auto-elettriche-chip-07-10-2026-v799-480.webp",
+          "sha256": "0c8c7694270ecb2ff147da19e1aa9e0133d20b630d538ef49d84657cf50f6c9d",
+          "bytes": 65492
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/g20-sovracapacita-auto-elettriche-chip-07-10-2026-v799-800.webp",
+          "sha256": "d65f794ff84e21c26221eda066ac016bae00157d4c7c3f825fbba0c9a9280758",
+          "bytes": 148176
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/g20-sovracapacita-auto-elettriche-chip-07-10-2026-v799-1200.webp",
+          "sha256": "03a281b521aa56384e7981924af168e1c82f2f30f819743c5be8a81801014b50",
+          "bytes": 258454
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/g20-sovracapacita-auto-elettriche-chip-07-10-2026.html"
+    },
+    {
+      "key": "libri-italiani-record-traduzioni-mercato-trade-2026-v799",
+      "alt": "Illustrazione editoriale IA di professionisti dei diritti editoriali tra libri alla Fiera di Francoforte; scena non documentaria.",
+      "prompt": "Fiera internazionale del libro a Francoforte, professionisti editoriali di diverse nazionalità discutono diritti di traduzione attorno a volumi aperti, fotografia editoriale realistica, luce naturale, nessun testo sovrapposto.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/libri-italiani-record-traduzioni-mercato-trade-2026-v799-480.webp",
+          "sha256": "1542d982b599479b4e6d9313c9f68130e4ec08cc416fd34e3fa5398ba6a95d53",
+          "bytes": 48900
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/libri-italiani-record-traduzioni-mercato-trade-2026-v799-800.webp",
+          "sha256": "b142c3951aac0036851b0d1755e43228aa2f7fa7ffbac9af313c884070df728b",
+          "bytes": 99848
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/libri-italiani-record-traduzioni-mercato-trade-2026-v799-1200.webp",
+          "sha256": "3e01d3f24473ae5870ba44cdca1f4dd407f4a0c11dc5c22c8390e93c49a7bfc7",
+          "bytes": 167338
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/libri-italiani-record-traduzioni-mercato-trade-2026.html"
+    },
+    {
       "key": "cpap-prezzi-manutenzione-scelta-ai-v799",
       "alt": "Macchina CPAP con maschera, tubo e umidificatore ordinati su un comodino in una camera illuminata all’alba; illustrazione editoriale IA non documentaria.",
       "prompt": "Fotografia editoriale IA fotorealistica dedicata al tema, senza testo, loghi o watermark.",
