@@ -62,7 +62,9 @@ const largeCard = (entry, label, color, primary, categoryId) => {
   const cls = 'cm-topic-lead' + (primary ? ' cm-topic-lead--primary' : '');
   const title = primary ? 'h1' : 'h3';
   const categoryAttr = categoryId ? ` data-category="${esc(categoryId)}"` : '';
-  return `<article class="${cls}"${categoryAttr} style="--cm-category-color:${esc(color)}"><div class="cm-topic-lead__body"><span class="cm-topic-label">${esc(label)}</span><${title} class="cm-topic-lead__title">${esc(entry.title)}</${title}>${entry.excerpt ? `<p class="cm-topic-lead__summary">${esc(entry.excerpt)}</p>` : ''}<div class="cm-topic-lead__footer"><a class="cm-topic-lead__cta" href="${esc(entry.url)}">Leggi l’articolo →</a>${time(entry)}</div></div>${picture(entry, primary)}</article>`;
+  const featured = label === 'In primo piano';
+  const labelMarkup = `<span class="cm-topic-label${featured ? ' cm-topic-label--featured' : ''}">${esc(label)}</span>`;
+  return `<article class="${cls}"${categoryAttr} style="--cm-category-color:${esc(color)}">${featured ? labelMarkup : ''}<div class="cm-topic-lead__body">${featured ? '' : labelMarkup}<${title} class="cm-topic-lead__title">${esc(entry.title)}</${title}>${entry.excerpt ? `<p class="cm-topic-lead__summary">${esc(entry.excerpt)}</p>` : ''}<div class="cm-topic-lead__footer"><a class="cm-topic-lead__cta" href="${esc(entry.url)}">Leggi l’articolo →</a>${time(entry)}</div></div>${picture(entry, primary)}</article>`;
 };
 
 const carousel = (entries) => {

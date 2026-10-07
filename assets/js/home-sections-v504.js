@@ -107,7 +107,14 @@
     article.style.setProperty('--cm-category-color', color);
     const visual = picture(entry, true);
     const body = el('div', 'cm-topic-lead__body');
-    body.append(el('span', 'cm-topic-label', label));
+    const labelNode = el('span', 'cm-topic-label', label);
+    const featured = label === 'In primo piano';
+    if (featured) {
+      labelNode.classList.add('cm-topic-label--featured');
+      article.append(labelNode);
+    } else {
+      body.append(labelNode);
+    }
     const title = el(primary ? 'h1' : 'h3', 'cm-topic-lead__title', entry.title);
     body.append(title);
     if (entry.excerpt) body.append(el('p', 'cm-topic-lead__summary', entry.excerpt));
