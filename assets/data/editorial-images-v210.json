@@ -1,7 +1,80 @@
 {
-  "version": 796,
+  "version": 798,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "sondrio-6-arresti-tentato-omicidio-castione-spaccio-07-10-2026-v798",
+      "alt": "Illustrazione editoriale IA di auto della polizia con lampeggianti blu in un parcheggio commerciale al crepuscolo; scena non documentaria, senza volti identificabili.",
+      "prompt": "Italian police cars blue lights commercial parking lot dusk operation, no identifiable faces.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/sondrio-6-arresti-tentato-omicidio-castione-spaccio-07-10-2026-v798-480.webp",
+          "sha256": "196340ebac069037a8b70c241852fc39d094cb844aa6a13268e0deb130172b31",
+          "bytes": 31336
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/sondrio-6-arresti-tentato-omicidio-castione-spaccio-07-10-2026-v798-800.webp",
+          "sha256": "4dcc438deb31b06339fd71d376785522d1cc6ec01d69a2ea9a961ed8237dae17",
+          "bytes": 78544
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/sondrio-6-arresti-tentato-omicidio-castione-spaccio-07-10-2026-v798-1200.webp",
+          "sha256": "24138bcf34d24818c376f0f0704739ced48bb074b073d7ce5494ea5dfd0fb8be",
+          "bytes": 156358
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "Grok Imagine",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/sondrio-6-arresti-tentato-omicidio-castione-spaccio-07-10-2026.html"
+    },
+    {
+      "key": "meloni-accise-mobili-160-milioni-iva-settembre-med9-spalato-07-10-2026-v798",
+      "alt": "Illustrazione editoriale IA di Giorgia Meloni al podio durante una conferenza stampa internazionale; somiglianza sintetica non documentaria.",
+      "prompt": "Giorgia Meloni at podium after Med9 summit press conference, ultra-realistic editorial, European flags background.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/meloni-accise-mobili-160-milioni-iva-settembre-med9-spalato-07-10-2026-v798-480.webp",
+          "sha256": "517c8ae96cdb9b12619bdfc99b8d9be699e6323bd9dccc91ba31d55a66580b58",
+          "bytes": 20742
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/meloni-accise-mobili-160-milioni-iva-settembre-med9-spalato-07-10-2026-v798-800.webp",
+          "sha256": "40f62e9bb566ce9b865cd4d1aa68b7dd0a666ef9f3818be49c0aa2c7b1b4117a",
+          "bytes": 44040
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/meloni-accise-mobili-160-milioni-iva-settembre-med9-spalato-07-10-2026-v798-1200.webp",
+          "sha256": "0df03383e7aee03a857458dd450a5a3c2129af5d4c76fc212cfddd57a0a7758a",
+          "bytes": 80026
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "Grok Imagine",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/meloni-accise-mobili-160-milioni-iva-settembre-med9-spalato-07-10-2026.html"
+    },
     {
       "id": "serie-a-classifica-roma-inter-lazio-13-punti-07-10-2026",
       "alt": "Illustrazione editoriale di un pallone e di maglie di Roma, Inter e Lazio su un campo di Serie A; non è una fotografia documentaria.",
