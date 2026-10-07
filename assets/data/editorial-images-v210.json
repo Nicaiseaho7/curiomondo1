@@ -1,7 +1,79 @@
 {
-  "version": 798,
+  "version": 799,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "cpap-prezzi-manutenzione-scelta-ai-v799",
+      "alt": "Macchina CPAP con maschera, tubo e umidificatore ordinati su un comodino in una camera illuminata all’alba; illustrazione editoriale IA non documentaria.",
+      "prompt": "Fotografia editoriale IA fotorealistica dedicata al tema, senza testo, loghi o watermark.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/cpap-prezzi-manutenzione-scelta-ai-v799-480.webp",
+          "sha256": "591927d7ef8f8341ecfeded5ed00cf3f416432065ac0fab4051d6ca07632c456",
+          "bytes": 21520
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/cpap-prezzi-manutenzione-scelta-ai-v799-800.webp",
+          "sha256": "975345038542718b7d613fa46ec63235c374ba16c6f9bb61869b070b78346644",
+          "bytes": 43770
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/cpap-prezzi-manutenzione-scelta-ai-v799-1200.webp",
+          "sha256": "9fbec7aeb92bd7cff92de283abe7e9943fa14d1ad0789425cd4549c6a2b47c98",
+          "bytes": 80350
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/approfondimenti/cpap-prezzi-manutenzione-scelta.html"
+    },
+    {
+      "key": "fibra-aziende-costi-sla-ai-v799",
+      "alt": "Tecnico di rete mentre controlla un pannello di permutazione in fibra ottica e apparati ridondanti in una sala server aziendale; illustrazione editoriale IA non documentaria.",
+      "prompt": "Fotografia editoriale IA fotorealistica dedicata al tema, senza testo, loghi o watermark.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/fibra-aziende-costi-sla-ai-v799-480.webp",
+          "sha256": "5bccedad0f8f52b99e5352585d6e71e68e1b5a4e3bc2b77cda659c7e53e6db1e",
+          "bytes": 37778
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/fibra-aziende-costi-sla-ai-v799-800.webp",
+          "sha256": "7b1ae145edd042668ca05ff423cfae24a6dd599da8cd32b56bd5cb71c6c2b1b0",
+          "bytes": 81390
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/fibra-aziende-costi-sla-ai-v799-1200.webp",
+          "sha256": "79f575e98c46609d4edafb7494003cd1f812036eed8e6bb541f5d3cb807f49c9",
+          "bytes": 141850
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/approfondimenti/fibra-aziende-costi-sla.html"
+    },
     {
       "key": "sondrio-6-arresti-tentato-omicidio-castione-spaccio-07-10-2026-v798",
       "alt": "Illustrazione editoriale IA di auto della polizia con lampeggianti blu in un parcheggio commerciale al crepuscolo; scena non documentaria, senza volti identificabili.",
