@@ -1,6 +1,108 @@
 {
-  "version": 793,
+  "version": 794,
   "items": [
+    {
+      "title": "Crew-12 lascia la ISS: ammaraggio previsto l’8 ottobre",
+      "excerpt": "NASA ed ESA programmano il distacco della capsula Dragon alle 14:05 italiane del 7 ottobre. Il rientro al largo della California resta subordinato al meteo e alla prontezza dei sistemi.",
+      "url": "/notizie/crew-12-lascia-iss-ammaraggio-8-ottobre-2026.html",
+      "section": "Mondo / Scienza",
+      "dateISO": "2026-10-07T06:24:00+02:00",
+      "dateLabel": "2026-10-07",
+      "image": "/assets/images/editorial-auto/crew-12-lascia-iss-ammaraggio-8-ottobre-2026-v794-800.webp",
+      "imageAlt": "Illustrazione editoriale IA della capsula Dragon Crew-12 in allontanamento dalla Stazione spaziale internazionale; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/crew-12-lascia-iss-ammaraggio-8-ottobre-2026-v794-480.webp 480w, /assets/images/editorial-auto/crew-12-lascia-iss-ammaraggio-8-ottobre-2026-v794-800.webp 800w, /assets/images/editorial-auto/crew-12-lascia-iss-ammaraggio-8-ottobre-2026-v794-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "14:05",
+          "label": "distacco del 7 ottobre"
+        },
+        {
+          "icon": "▲",
+          "value": "17:34",
+          "label": "ammaraggio previsto l’8"
+        },
+        {
+          "icon": "●",
+          "value": "4",
+          "label": "membri dell’equipaggio"
+        }
+      ],
+      "featuredHighlights": [
+        "Crew-12",
+        "8 ottobre"
+      ]
+    },
+    {
+      "title": "Imprese IA europee, la BCE rileva più debito di mercato",
+      "excerpt": "Le aziende dei settori più legati all’intelligenza artificiale usano ancora molto capitale interno, ma il finanziamento obbligazionario sta crescendo. I dati arrivano fino al secondo trimestre 2025.",
+      "url": "/notizie/bce-imprese-ia-europee-finanziamento-mercato-07-10-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-07T06:23:00+02:00",
+      "dateLabel": "2026-10-07",
+      "image": "/assets/images/editorial-auto/bce-imprese-ia-europee-finanziamento-mercato-07-10-2026-v794-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di un gruppo europeo di tecnologia e finanza riunito davanti a dati aziendali; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/bce-imprese-ia-europee-finanziamento-mercato-07-10-2026-v794-480.webp 480w, /assets/images/editorial-auto/bce-imprese-ia-europee-finanziamento-mercato-07-10-2026-v794-800.webp 800w, /assets/images/editorial-auto/bce-imprese-ia-europee-finanziamento-mercato-07-10-2026-v794-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "2023-2025",
+          "label": "adozione IA più che raddoppiata"
+        },
+        {
+          "icon": "▲",
+          "value": "2° trim 2025",
+          "label": "ultimi dati societari"
+        },
+        {
+          "icon": "●",
+          "value": "mercati",
+          "label": "debito in crescita"
+        }
+      ],
+      "featuredHighlights": [
+        "Imprese IA europee",
+        "debito di mercato"
+      ]
+    },
+    {
+      "title": "Meteo Italia 7-14 ottobre: più piogge, temperature ancora miti",
+      "excerpt": "La tendenza dell’Aeronautica Militare indica precipitazioni sopra la media in diverse regioni e valori termici generalmente elevati. Le indicazioni oltre 48–72 ore restano probabilistiche.",
+      "url": "/notizie/meteo-italia-7-14-ottobre-2026.html",
+      "section": "Mondo / Meteo",
+      "dateISO": "2026-10-07T06:22:00+02:00",
+      "dateLabel": "2026-10-07",
+      "image": "/assets/images/editorial-auto/meteo-italia-7-14-ottobre-2026-v794-800.webp",
+      "imageAlt": "Illustrazione editoriale IA della costa ligure sotto nubi variabili e schiarite, senza dati o simboli nei pixel; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/meteo-italia-7-14-ottobre-2026-v794-480.webp 480w, /assets/images/editorial-auto/meteo-italia-7-14-ottobre-2026-v794-800.webp 800w, /assets/images/editorial-auto/meteo-italia-7-14-ottobre-2026-v794-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "7-14 ott",
+          "label": "periodo della tendenza"
+        },
+        {
+          "icon": "▲",
+          "value": "12-18 ott",
+          "label": "seconda fase più incerta"
+        },
+        {
+          "icon": "●",
+          "value": "sopra media",
+          "label": "temperature prevalenti"
+        }
+      ],
+      "featuredHighlights": [
+        "più piogge",
+        "temperature ancora miti"
+      ]
+    },
     {
       "title": "Hormuz, colpita la petroliera On Peace: 12 feriti evacuati in Oman",
       "excerpt": "Il ministero degli Esteri indiano e la Difesa dell’Oman confermano l’attacco alla MT On Peace: 12 feriti, dieci evacuati a Khasab.",
@@ -8,11 +110,11 @@
       "section": "Mondo",
       "dateISO": "2026-10-07T06:10:00+02:00",
       "dateLabel": "2026-10-07",
-      "image": "/assets/images/editorial-auto/hormuz-petroliera-on-peace-12-feriti-evacuati-oman-07-10-2026-v793-800.webp",
-      "imageAlt": "Illustrazione editoriale IA di una petroliera al crepuscolo nello Stretto di Hormuz, con bagliore sul ponte; non documentaria.",
+      "image": "/assets/images/editorial-auto/hormuz-petroliera-on-peace-12-feriti-evacuati-oman-07-10-2026-v794-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di una petroliera nello Stretto di Hormuz in piena luce, con la costa montuosa dell’Oman sullo sfondo; scena non documentaria.",
       "imageWidth": 800,
       "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/hormuz-petroliera-on-peace-12-feriti-evacuati-oman-07-10-2026-v793-480.webp 480w, /assets/images/editorial-auto/hormuz-petroliera-on-peace-12-feriti-evacuati-oman-07-10-2026-v793-800.webp 800w, /assets/images/editorial-auto/hormuz-petroliera-on-peace-12-feriti-evacuati-oman-07-10-2026-v793-1200.webp 1200w",
+      "srcset": "/assets/images/editorial-auto/hormuz-petroliera-on-peace-12-feriti-evacuati-oman-07-10-2026-v794-480.webp 480w, /assets/images/editorial-auto/hormuz-petroliera-on-peace-12-feriti-evacuati-oman-07-10-2026-v794-800.webp 800w, /assets/images/editorial-auto/hormuz-petroliera-on-peace-12-feriti-evacuati-oman-07-10-2026-v794-1200.webp 1200w",
       "featuredStats": [
         {
           "icon": "•",
@@ -81,7 +183,23 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/unicredit-putin-autorizza-vendita-attivita-russia-06-10-2026-v792-480.webp 480w, /assets/images/editorial-auto/unicredit-putin-autorizza-vendita-attivita-russia-06-10-2026-v792-800.webp 800w, /assets/images/editorial-auto/unicredit-putin-autorizza-vendita-attivita-russia-06-10-2026-v792-1200.webp 1200w",
-      "featuredStats": [],
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "100%",
+          "label": "azioni autorizzate"
+        },
+        {
+          "icon": "•",
+          "value": "1H 2027",
+          "label": "closing atteso"
+        },
+        {
+          "icon": "•",
+          "value": "UAE",
+          "label": "buyer preliminare"
+        }
+      ],
       "featuredHighlights": [
         "UniCredit",
         "Putin"

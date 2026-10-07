@@ -1,7 +1,151 @@
 {
-  "version": 793,
+  "version": 794,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "crew-12-lascia-iss-ammaraggio-8-ottobre-2026-v794",
+      "alt": "Illustrazione editoriale IA della capsula Dragon Crew-12 in allontanamento dalla Stazione spaziale internazionale; scena non documentaria.",
+      "prompt": "Capsula Crew Dragon separata dalla Stazione spaziale internazionale sopra la Terra, geometria plausibile, luce orbitale, nessun testo o logo inventato.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/crew-12-lascia-iss-ammaraggio-8-ottobre-2026-v794-480.webp",
+          "sha256": "65d6b2fc00f181de8422742c051965a155f7747922392e3bd737807ce58e41f4",
+          "bytes": 50938
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/crew-12-lascia-iss-ammaraggio-8-ottobre-2026-v794-800.webp",
+          "sha256": "ad5e63a938822a10b347597f3a79287269af89b19669e65eb35c60ba88875a06",
+          "bytes": 125424
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/crew-12-lascia-iss-ammaraggio-8-ottobre-2026-v794-1200.webp",
+          "sha256": "2bb4e844855daa168752c2b028ec76e0f90b832547fd26d91a9d9b992d363589",
+          "bytes": 237254
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/crew-12-lascia-iss-ammaraggio-8-ottobre-2026.html"
+    },
+    {
+      "key": "bce-imprese-ia-europee-finanziamento-mercato-07-10-2026-v794",
+      "alt": "Illustrazione editoriale IA di un gruppo europeo di tecnologia e finanza riunito davanti a dati aziendali; scena non documentaria.",
+      "prompt": "Team europeo di professionisti della tecnologia e della finanza in riunione, volti visibili, laptop e grafici neutri, nessun logo o testo leggibile.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/bce-imprese-ia-europee-finanziamento-mercato-07-10-2026-v794-480.webp",
+          "sha256": "ed00385de54de3fd65ff402de8bffa2b77ababab58fd5236c75eb67927881ed7",
+          "bytes": 35346
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/bce-imprese-ia-europee-finanziamento-mercato-07-10-2026-v794-800.webp",
+          "sha256": "35d1af2ac13e0768ea5b3b231072ec29141935dd7d2ed76f9904557ec305ab77",
+          "bytes": 70968
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/bce-imprese-ia-europee-finanziamento-mercato-07-10-2026-v794-1200.webp",
+          "sha256": "8dc2a0342579ed2856ae0e289e103e554b83e70296bac54622c0a2e816f70985",
+          "bytes": 127576
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/bce-imprese-ia-europee-finanziamento-mercato-07-10-2026.html"
+    },
+    {
+      "key": "meteo-italia-7-14-ottobre-2026-v794",
+      "alt": "Illustrazione editoriale IA della costa ligure sotto nubi variabili e schiarite, senza dati o simboli nei pixel; scena non documentaria.",
+      "prompt": "Costa ligure in ottobre con nubi stratificate e una schiarita luminosa sul mare; scena fotorealistica, senza mappe, icone, temperature, date o testo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/meteo-italia-7-14-ottobre-2026-v794-480.webp",
+          "sha256": "6f08f609541feaa99481eab59799e1269d38cb3471c7a4807a412329768ed5e2",
+          "bytes": 47874
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/meteo-italia-7-14-ottobre-2026-v794-800.webp",
+          "sha256": "c1cd794f6b82527007e995bd5c75c718caf2154e6df0490a6effa17ae861b65b",
+          "bytes": 124046
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/meteo-italia-7-14-ottobre-2026-v794-1200.webp",
+          "sha256": "c6408fa2b5f0759f06eff4137ee9a60b4d2c866647babd2db9f2824f17e147f1",
+          "bytes": 252956
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/meteo-italia-7-14-ottobre-2026.html"
+    },
+    {
+      "key": "hormuz-petroliera-on-peace-12-feriti-evacuati-oman-07-10-2026-v794",
+      "alt": "Illustrazione editoriale IA di una petroliera nello Stretto di Hormuz in piena luce, con la costa montuosa dell’Oman sullo sfondo; scena non documentaria.",
+      "prompt": "Petroliera moderna in navigazione nello Stretto di Hormuz, costa del Musandam e Oman visibile, luce chiara del mattino, scena contestuale sobria senza attacco, feriti, fumo o testo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/hormuz-petroliera-on-peace-12-feriti-evacuati-oman-07-10-2026-v794-480.webp",
+          "sha256": "3fa2d196cca9dd4d9085100fa705e4f8a6a0310dfbfa92250af9fe65edfa7ec2",
+          "bytes": 33750
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/hormuz-petroliera-on-peace-12-feriti-evacuati-oman-07-10-2026-v794-800.webp",
+          "sha256": "4f2a45f92e2c1719b3418fc2827a980acd219e36e704565e5fc4ff9021b01eee",
+          "bytes": 87766
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/hormuz-petroliera-on-peace-12-feriti-evacuati-oman-07-10-2026-v794-1200.webp",
+          "sha256": "2a68132e334194c9b5a55aed06753158f78e9f50d9de8b29af813e9efbebf1e8",
+          "bytes": 182618
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "article": "/notizie/hormuz-petroliera-on-peace-12-feriti-evacuati-oman-07-10-2026.html"
+    },
     {
       "aiGenerated": true,
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
