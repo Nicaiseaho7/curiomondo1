@@ -681,6 +681,23 @@ if evergreen_dir.exists():
             elif not linked:
                 errors.append(f'evergreen sotto articolo non punta alla guida: {news_path} → {guide_url}')
 
-report={'version':283,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
+
+# Homepage contract: il carosello Curiosità e approfondimenti deve sopravvivere a ogni rigenerazione.
+try:
+    home_doc=html.fromstring((root/'index.html').read_text(errors='replace'))
+    curiosity_sections=home_doc.xpath('//section[@id="categoria-curiosita" and contains(concat(" ",normalize-space(@class)," ")," cm-curiosita-rail ")]')
+    if len(curiosity_sections)!=1:
+        errors.append('carosello Curiosità e approfondimenti assente o duplicato in homepage')
+    else:
+        curiosity=curiosity_sections[0]
+        curiosity_cards=curiosity.xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-topic-card ")]')
+        if not curiosity_cards: errors.append('carosello Curiosità e approfondimenti senza card')
+        if len(curiosity_cards)>10: errors.append(f'carosello Curiosità e approfondimenti oltre 10 card: {len(curiosity_cards)}')
+        if not curiosity.xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-topic-archive ")][@href="/approfondimenti/"]'):
+            errors.append('link archivio approfondimenti assente dal carosello homepage')
+except Exception as exc:
+    errors.append(f'controllo carosello approfondimenti non eseguibile: {exc}')
+
+report={'version':284,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
 print(json.dumps(report,ensure_ascii=False,indent=2))
 raise SystemExit(1 if errors else 0)
