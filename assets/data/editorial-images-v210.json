@@ -3,6 +3,108 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "alt": "Illustrazione editoriale del presidente Sergio Mattarella al Quirinale mentre firma documenti ufficiali; non è una fotografia documentaria.",
+      "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/mattarella-tre-grazie-guido-gianni-07-10-2026-v800-480.webp",
+          "sha256": "288d2ab01e3ce9bed9a249e612c3422e2030a8fb10db0be2a8230e54dad2d951",
+          "bytes": 21806
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/mattarella-tre-grazie-guido-gianni-07-10-2026-v800-800.webp",
+          "sha256": "9ab4e6055966efa4ffc57a418e3d4a890dc29913ba5cc3227c8faaf4628c7255",
+          "bytes": 44888
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/mattarella-tre-grazie-guido-gianni-07-10-2026-v800-1200.webp",
+          "sha256": "5f272449bf412c1a5cb99a0732046f3a116561f6e1b4e39b74ffc15298ed4311",
+          "bytes": 77150
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/mattarella-tre-grazie-guido-gianni-07-10-2026.html"
+    },
+    {
+      "alt": "Ritratto editoriale neutrale isolato del presidente Volodymyr Zelensky; illustrazione IA non documentaria del raid.",
+      "prompt": "Neutral editorial portrait of Ukrainian President Volodymyr Zelensky, isolated studio background, head and shoulders, calm serious expression, olive green shirt, soft grey backdrop; no war scene, no destruction, no reenactment of the attack.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ucraina-raid-pryluky-18-morti-zelensky-07-10-2026-v799-480.webp",
+          "sha256": "2b47489a94ccff5946c6e39bcf36f3bac88d03571b11f7b72171616909732797",
+          "bytes": 9636
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ucraina-raid-pryluky-18-morti-zelensky-07-10-2026-v799-800.webp",
+          "sha256": "cb92caafadf0dcdf65d55f7c543b7bcde2736a11a7d5d31e0328f86f65e7ddb7",
+          "bytes": 25074
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ucraina-raid-pryluky-18-morti-zelensky-07-10-2026-v799-1200.webp",
+          "sha256": "5f461f6329b6462e4f633d81ba9401ec30dfc9304653d2602ea93c5970fa793c",
+          "bytes": 59880
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "syntheticLikeness": "public-figure",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false,
+      "article": "/notizie/ucraina-raid-pryluky-18-morti-zelensky-07-10-2026.html"
+    },
+    {
+      "alt": "Ritratto editoriale neutrale isolato di anziana donna per rappresentare Maricarmen Abascal; illustrazione IA non documentaria.",
+      "prompt": "Neutral editorial portrait of elderly Spanish woman Maricarmen Abascal, isolated studio background, head and shoulders, calm expression, soft grey backdrop; no hospital, no stretcher, no crowd, no reenactment of eviction or death.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/maricarmen-morta-spagna-proteste-casa-07-10-2026-v798-480.webp",
+          "sha256": "eb3e9a4a3a83f221b827a4cd43852641e78c57432109b6f39e238d5884f1ac7c",
+          "bytes": 17126
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/maricarmen-morta-spagna-proteste-casa-07-10-2026-v798-800.webp",
+          "sha256": "203ed3d5856ea72027add9f0287cb92ade1195a78518346cf59edfed1b99ed57",
+          "bytes": 45780
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/maricarmen-morta-spagna-proteste-casa-07-10-2026-v798-1200.webp",
+          "sha256": "ab4957644a52dfce1c622d17c56ad2d33e37a474e42bb625ed871303ccfaa718",
+          "bytes": 89592
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "fornita dalla redazione",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "syntheticLikeness": "public-figure",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "reenactedEvent": false,
+      "article": "/notizie/maricarmen-morta-spagna-proteste-casa-07-10-2026.html"
+    },
+    {
       "key": "sole-quattro-regioni-attive-attivita-moderata-07-10-2026-v800",
       "alt": "Illustrazione editoriale IA di due ricercatori che osservano immagini del Sole in un osservatorio; scena non documentaria.",
       "variants": [
