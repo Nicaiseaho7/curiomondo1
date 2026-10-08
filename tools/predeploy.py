@@ -10,10 +10,10 @@ from zoneinfo import ZoneInfo
 from difflib import SequenceMatcher
 from editorial_rules import FORMAT_WORD_RANGES, format_errors, source_errors
 
-ap=argparse.ArgumentParser(); ap.add_argument('--root',default='.'); args=ap.parse_args()
+ap=argparse.ArgumentParser(); ap.add_argument('--root',default='.'); ap.add_argument('--exclude-manifest',action='store_true',help='Non legge il manifest su richiesta del proprietario'); args=ap.parse_args()
 root=Path(args.root).resolve(); errors=[]
 integrity=subprocess.run(
-    ["python3", str(root/"tools/repository_integrity_gate.py")],
+    ["python3", str(root/"tools/repository_integrity_gate.py")] + (["--exclude-manifest"] if args.exclude_manifest else []),
     cwd=root, check=False, text=True, capture_output=True,
 )
 if integrity.returncode:
@@ -86,7 +86,7 @@ if config_path.exists():
         if articles_cfg.get('minimum_value_add_elements')!=1 or articles_cfg.get('minimum_value_add_elements_for_analysis')!=2: errors.append('gate proporzionato v503 assente nella config')
         if articles_cfg.get('semantic_repetition_forbidden') is not True: errors.append('divieto ripetizioni semantiche assente nella config')
     except Exception as exc: errors.append(f'automation/config.json non valido: {exc}')
-if manifest_path.exists():
+if manifest_path.exists() and not args.exclude_manifest:
     try:
         manifest=json.loads(manifest_path.read_text())
         likeness=manifest.get('images',{}).get('public_figure_synthetic_likeness_policy',{})
@@ -579,7 +579,7 @@ daily_path=None
 book_path=None
 guide_paths=[]
 try:
-    daily_manifest=json.loads(manifest_path.read_text())
+    daily_manifest={} if args.exclude_manifest else json.loads(manifest_path.read_text())
     daily_slugs=daily_manifest.get('daily_state',{}).get('last_daily_guides',[])
     # La biblioteca non pubblica più guide: restano solo le Domande del giorno e i loro eBook.
     guide_paths=[]

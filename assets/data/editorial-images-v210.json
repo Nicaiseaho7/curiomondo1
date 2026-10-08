@@ -1,7 +1,79 @@
 {
-  "version": 804,
+  "version": 805,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "master-online-o-in-presenza-v805",
+      "article": "/approfondimenti/master-online-o-in-presenza.html",
+      "alt": "Partecipanti adulti a un seminario con docente in aula e collegamento su laptop; illustrazione IA non documentaria.",
+      "prompt": "Seminario universitario italiano con partecipanti adulti in volto, docente in aula e docente remota su laptop, ambiente realistico 3:2, nessun testo o logo.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/master-online-o-in-presenza-v805-480.webp",
+          "sha256": "76e15ef31e2178bb40c65e1ff0ff17ef5feb2c53cb013db1747c930ea86d951b",
+          "bytes": 32974
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/master-online-o-in-presenza-v805-800.webp",
+          "sha256": "b6c1c7e6b3c2e3f3cc5088f3ed2f89c2364141bf124b98a1323ac227e0fee659",
+          "bytes": 68500
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/master-online-o-in-presenza-v805-1200.webp",
+          "sha256": "2efae05c6fabb46c61d7b6604b707088de68533e59abb8c0e0953f5cc13e13c9",
+          "bytes": 118410
+        }
+      ]
+    },
+    {
+      "key": "domotica-cablata-o-wireless-v805",
+      "article": "/approfondimenti/domotica-cablata-o-wireless.html",
+      "alt": "Tecnica con sensore radio e comando cablato accanto a un quadro domotico domestico; illustrazione IA non documentaria.",
+      "prompt": "Impianto domotico domestico, tecnica in volto con sensore radio e comando cablato, quadro protetto e soggiorno, fotorealismo editoriale 3:2, nessun testo.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/domotica-cablata-o-wireless-v805-480.webp",
+          "sha256": "3b06c1b42a5c7488fff10a14cd7e03884a99b61e0da6c22098b23019ad75d5e1",
+          "bytes": 32542
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/domotica-cablata-o-wireless-v805-800.webp",
+          "sha256": "e8eca4c7c066b332c11134477f5ff4b5b71ab05a2276d3123f091ae6f02aed13",
+          "bytes": 65400
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/domotica-cablata-o-wireless-v805-1200.webp",
+          "sha256": "b2dd39f874e079f028c6a99f70adac0b5f08c1c5f6f5c021fe24cc9f0188002e",
+          "bytes": 110712
+        }
+      ]
+    },
     {
       "key": "nobel-chimica-2026-kagan-soai-sintesi-asimmetrica-08-10-2026-v804",
       "alt": "Illustrazione editoriale IA di Henri B. Kagan e Kenso Soai in un laboratorio di chimica; scena non documentaria.",

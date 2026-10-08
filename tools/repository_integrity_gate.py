@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import argparse
 import sys
 from pathlib import Path
 
@@ -27,9 +28,14 @@ IMAGE_SIGNATURES = {
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--exclude-manifest', action='store_true',
+                        help='Esclude il manifest dalla lettura su richiesta del proprietario')
+    args = parser.parse_args()
     errors: list[str] = []
 
-    json_paths = sorted(path for path in ROOT.rglob("*.json") if ".git" not in path.parts)
+    json_paths = sorted(path for path in ROOT.rglob("*.json") if ".git" not in path.parts
+                        and not (args.exclude_manifest and path.name == 'curiomondo-site-manifest.json'))
     for path in json_paths:
         relative = path.relative_to(ROOT).as_posix()
         try:
@@ -44,6 +50,8 @@ def main() -> int:
             errors.append(f"JSON non valido: {relative} ({exc})")
 
     for relative in TEXT_SURFACES:
+        if args.exclude_manifest and relative == 'curiomondo-site-manifest.json':
+            continue
         path = ROOT / relative
         if not path.exists():
             errors.append(f"superficie obbligatoria assente: {relative}")

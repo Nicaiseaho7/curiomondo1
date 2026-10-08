@@ -1,17 +1,21 @@
 {
-  "currentVersion": 801,
+  "currentVersion": 805,
   "baselineVersion": 342,
   "status": "ready",
   "date": "2026-10-08",
   "articleCount": 803,
   "generatedEditorialImages": 293,
   "designRestored": "Intestazione globale unificata su tutte le pagine interne; palette blu Facebook e fascia LIVE rossa piena confermate.",
-  "site_version": 801,
-  "version": "801",
+  "site_version": 805,
+  "version": "805",
   "baseline_version": 342,
   "baseline": "curiomondo-v260-2-settembre-2026-refresh-immagini.zip",
-  "last_update": "meteo-e-domanda-v801",
+  "last_update": "approfondimenti-lista-323-349",
   "release_date": "2026-10-08",
   "last_daily_question_date": "2026-10-08",
-  "updated_at": "2026-10-07T20:03:00+02:00"
+  "updated_at": "2026-10-08T08:39:52+02:00",
+  "evergreen_added": [
+    "domotica-cablata-o-wireless",
+    "master-online-o-in-presenza"
+  ]
 }
