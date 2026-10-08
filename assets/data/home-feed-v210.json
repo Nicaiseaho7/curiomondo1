@@ -1,6 +1,40 @@
 {
-  "version": 800,
+  "version": 801,
   "items": [
+  {
+    "title": "Allerta meteo 8 ottobre: arancione in Toscana, gialla in 11 regioni",
+    "excerpt": "Per giovedì 8 ottobre la Protezione Civile valuta allerta arancione in Toscana e gialla in undici regioni, con temporali e vento forte sul Tirreno.",
+    "url": "/notizie/allerta-meteo-arancione-toscana-8-ottobre-2026.html",
+    "section": "Mondo / Meteo",
+    "dateISO": "2026-10-08T05:59:02+02:00",
+    "dateLabel": "2026-10-08",
+    "image": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-800.webp",
+    "imageAlt": "Illustrazione editoriale di un temporale autunnale su un borgo collinare e un fiume in piena; non è una fotografia documentaria.",
+    "imageWidth": 800,
+    "imageHeight": 533,
+    "srcset": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-480.webp 480w, /assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-800.webp 800w, /assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-1200.webp 1200w",
+    "featuredStats": [
+      {
+        "icon": "◆",
+        "value": "Arancione",
+        "label": "Toscana"
+      },
+      {
+        "icon": "▲",
+        "value": "Gialla",
+        "label": "11 regioni"
+      },
+      {
+        "icon": "●",
+        "value": "8 ottobre",
+        "label": "giornata dell’avviso"
+      }
+    ],
+    "featuredHighlights": [
+      "allerta arancione",
+      "Toscana"
+    ]
+  },
     {
       "title": "Mattarella firma tre grazie: tra i beneficiari il gioielliere Guido Gianni",
       "excerpt": "Il Quirinale ha adottato tre decreti di clemenza individuale con parere favorevole del ministro Nordio. Tra i casi, la grazia parziale a Guido Gianni, condannato per aver ucciso due rapinatori nel 2008 a Nicolosi.",

@@ -1,7 +1,38 @@
 {
-  "version": 800,
+  "version": 801,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+  {
+    "alt": "Illustrazione editoriale di un temporale autunnale su un borgo collinare e un fiume in piena; non è una fotografia documentaria.",
+    "prompt": "Temporale autunnale su un borgo collinare e un fiume in piena, senza persone riconoscibili, scritte o loghi.",
+    "variants": [
+      {
+        "w": 480,
+        "src": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-480.webp",
+        "sha256": "40f3050c05c7830d4e3103627f064ef2a2cf280e0fdc45a11ecd6c8488d71684",
+        "bytes": 26290
+      },
+      {
+        "w": 800,
+        "src": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-800.webp",
+        "sha256": "c31d6904f65266232a425b30e03386288a0d9bb36316cb8681084d4f0114548e",
+        "bytes": 73452
+      },
+      {
+        "w": 1200,
+        "src": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-1200.webp",
+        "sha256": "b6bb7ba91c157c79f3b3f67ee204e999043155c77c0456eaf9da551220343a95",
+        "bytes": 152114
+      }
+    ],
+    "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+    "generator": "Imagine",
+    "aiGenerated": true,
+    "documentaryPhoto": false,
+    "officialArtwork": false,
+    "sensitiveContext": false,
+    "article": "/notizie/allerta-meteo-arancione-toscana-8-ottobre-2026.html"
+  },
     {
       "alt": "Illustrazione editoriale del presidente Sergio Mattarella al Quirinale mentre firma documenti ufficiali; non è una fotografia documentaria.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
@@ -14690,6 +14721,21 @@
     }
   ],
   "images": [
+  {
+    "slug": "allerta-meteo-arancione-toscana-8-ottobre-2026",
+    "version": 801,
+    "path": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-1200.webp",
+    "variants": [
+      480,
+      800,
+      1200
+    ],
+    "aiGenerated": true,
+    "sensitiveContext": false,
+    "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+    "date": "2026-10-08",
+    "alt": "Illustrazione editoriale di un temporale autunnale su un borgo collinare e un fiume in piena; non è una fotografia documentaria."
+  },
     {
       "slug": "wanna-marchi-premio-campidoglio-nanni-scuse-29-09-2026",
       "version": 691,
