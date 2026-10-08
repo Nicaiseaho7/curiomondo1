@@ -1,7 +1,369 @@
 {
-  "version": 805,
+  "version": 806,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "corot-capodimonte-baia-napoli-08-10-2026-v806",
+      "alt": "Illustrazione editoriale IA di una presentazione museale del paesaggio napoletano di Corot; non è una fotografia del dipinto o della sala 78.",
+      "prompt": "Corot entra a Capodimonte: la baia di Napoli esposta da oggi. Illustrazione editoriale fotorealistica dedicata, non documentaria, senza testo aggiunto.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/corot-capodimonte-baia-napoli-08-10-2026-v806-480.webp",
+          "sha256": "f1cdd18371f606562eef14993ab5382f6fb2ee749ddbd8e3e244a64335885a3a",
+          "bytes": 23264
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/corot-capodimonte-baia-napoli-08-10-2026-v806-800.webp",
+          "sha256": "5a79f38c1112dc97ca88a92d6e36ba9d938464fca8d85cb5d745e2b0a6872189",
+          "bytes": 59082
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/corot-capodimonte-baia-napoli-08-10-2026-v806-1200.webp",
+          "sha256": "12efe1e15c17bb80c8d94b0694509ade2b9dfc35ca821482a0b7cec3b6f3ae44",
+          "bytes": 115680
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/corot-capodimonte-baia-napoli-08-10-2026.html"
+    },
+    {
+      "key": "capodimonte-fai-visite-gratuite-08-10-2026-v806",
+      "alt": "Illustrazione editoriale IA di una guida e della tradizione della porcellana nel Real Bosco di Capodimonte; scena non documentaria.",
+      "prompt": "Capodimonte, visite FAI gratuite senza prenotazione nel weekend. Illustrazione editoriale fotorealistica dedicata, non documentaria, senza testo aggiunto.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/capodimonte-fai-visite-gratuite-08-10-2026-v806-480.webp",
+          "sha256": "b3cfbd6ae983c20e284e0745c8295e5bc4c12c75a87159f4d669ba64dfeebafa",
+          "bytes": 64962
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/capodimonte-fai-visite-gratuite-08-10-2026-v806-800.webp",
+          "sha256": "74dc97617f1a2428f425583eb96d7e134b09b765e55e96a558710219fca1bc0a",
+          "bytes": 154734
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/capodimonte-fai-visite-gratuite-08-10-2026-v806-1200.webp",
+          "sha256": "f5c5cd751df5f097a86286a11c1eb310a4333aa18214bdb517c6402092d6f38e",
+          "bytes": 280414
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/capodimonte-fai-visite-gratuite-08-10-2026.html"
+    },
+    {
+      "key": "mia-cinema-esperti-italia-francia-08-10-2026-v806",
+      "alt": "Illustrazione editoriale IA di un tavolo di lavoro cinematografico italo-francese a Roma; non documenta la riunione annunciata.",
+      "prompt": "MIA, Italia e Francia avviano il gruppo sulle politiche del cinema. Illustrazione editoriale fotorealistica dedicata, non documentaria, senza testo aggiunto.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/mia-cinema-esperti-italia-francia-08-10-2026-v806-480.webp",
+          "sha256": "d0bdf27de48013077765dc069eab38021bc9cfc302e7cca1d11e10c04e65a1b7",
+          "bytes": 41930
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/mia-cinema-esperti-italia-francia-08-10-2026-v806-800.webp",
+          "sha256": "f8d809188d0274b39f071f3e430bdb65085ea6851fd56ef45de43eb07574da6a",
+          "bytes": 85990
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/mia-cinema-esperti-italia-francia-08-10-2026-v806-1200.webp",
+          "sha256": "85d4e94a266e46eb3c7f85609dfc8258435b8aabe425c674cccd1d860a9e6278",
+          "bytes": 147090
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/mia-cinema-esperti-italia-francia-08-10-2026.html"
+    },
+    {
+      "key": "taruffi-mostra-appia-antica-08-10-2026-v806",
+      "alt": "Illustrazione editoriale IA di modelli e documenti motoristici in una mostra a Santa Maria Nova; non è una fotografia dell'allestimento.",
+      "prompt": "Taruffi sull'Appia Antica: la mostra è inclusa nel biglietto. Illustrazione editoriale fotorealistica dedicata, non documentaria, senza testo aggiunto.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/taruffi-mostra-appia-antica-08-10-2026-v806-480.webp",
+          "sha256": "b177bf2c936fc3e321d0731c4cc81063c22249818f564e5f774ac3e336a452c8",
+          "bytes": 43134
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/taruffi-mostra-appia-antica-08-10-2026-v806-800.webp",
+          "sha256": "5b68f669ca988e588f62b92b38fa681d543187d7ce98c1f3fa8f6517a9f3fa71",
+          "bytes": 90494
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/taruffi-mostra-appia-antica-08-10-2026-v806-1200.webp",
+          "sha256": "519c49e1aaf86e887a75e54490e6228be070a518d11b8cf6f5c6d36363210bcd",
+          "bytes": 158534
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/taruffi-mostra-appia-antica-08-10-2026.html"
+    },
+    {
+      "key": "coverciano-preparatore-atletico-bando-08-10-2026-v806",
+      "alt": "Illustrazione editoriale IA di una sessione di preparazione atletica a Coverciano; scena didattica non documentaria.",
+      "prompt": "Coverciano, ultimo corso nazionale per preparatori atletici. Illustrazione editoriale fotorealistica dedicata, non documentaria, senza testo aggiunto.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/coverciano-preparatore-atletico-bando-08-10-2026-v806-480.webp",
+          "sha256": "b6a33cfd0e7b08e8f0684e3300e9e1506859574cdde75078ca0710ea1024a2d5",
+          "bytes": 47866
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/coverciano-preparatore-atletico-bando-08-10-2026-v806-800.webp",
+          "sha256": "6825b1ebc8828bab1b86674b99b3ad13df70f36aa5015a9f6f8ccc259ae41f11",
+          "bytes": 102798
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/coverciano-preparatore-atletico-bando-08-10-2026-v806-1200.webp",
+          "sha256": "c23682e1a5a808e247490e1e86e91eb8db8595acc62b490077a876abf911033d",
+          "bytes": 173620
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/coverciano-preparatore-atletico-bando-08-10-2026.html"
+    },
+    {
+      "key": "futsal-femminile-italia-spagna-diretta-08-10-2026-v806",
+      "alt": "Somiglianza sintetica editoriale IA di Alfredo Paniccia in un palazzetto di futsal; scena contestuale non documentaria.",
+      "prompt": "Futsal, Italia-Spagna oggi alle 16.30 dopo il 3-0 alla Slovenia. Illustrazione editoriale fotorealistica dedicata, non documentaria, senza testo aggiunto.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/futsal-femminile-italia-spagna-diretta-08-10-2026-v806-480.webp",
+          "sha256": "e7193c3e9574a1e663e66a84bfda614fd1abf7dc6e96e2fb9b4842767082ea24",
+          "bytes": 33614
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/futsal-femminile-italia-spagna-diretta-08-10-2026-v806-800.webp",
+          "sha256": "ec0d170c32b04b5c3f3aef703624a3fa480f3e699fd606be067cd2dcdbf83c70",
+          "bytes": 65130
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/futsal-femminile-italia-spagna-diretta-08-10-2026-v806-1200.webp",
+          "sha256": "1c68556a5d5bb932e0cdc91faa9e63210a9f93aa8c38646949c7dc67e85c9d47",
+          "bytes": 109964
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/futsal-femminile-italia-spagna-diretta-08-10-2026.html"
+    },
+    {
+      "key": "bielorussia-italia-femminile-orario-rai2-08-10-2026-v806",
+      "alt": "Somiglianza sintetica editoriale IA di Andrea Soncin in un contesto calcistico pertinente alla trasferta di Tbilisi; scena non documentaria.",
+      "prompt": "Bielorussia-Italia femminile, venerdì alle 18.15 su Rai 2. Illustrazione editoriale fotorealistica dedicata, non documentaria, senza testo aggiunto.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/bielorussia-italia-femminile-orario-rai2-08-10-2026-v806-480.webp",
+          "sha256": "91da7478381f0e226d192abf8f3cdb7fe95b20b1d56348a9498389409283f891",
+          "bytes": 27520
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/bielorussia-italia-femminile-orario-rai2-08-10-2026-v806-800.webp",
+          "sha256": "a5371407345944b225ae589a07c00ea92f22c23ccb43440c5be12b1741b7c9ae",
+          "bytes": 54064
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/bielorussia-italia-femminile-orario-rai2-08-10-2026-v806-1200.webp",
+          "sha256": "174ed62205f972ebcb4fa9feb37876fe8e2f4b13de9791ec1cd507d683a2ae5a",
+          "bytes": 93986
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/bielorussia-italia-femminile-orario-rai2-08-10-2026.html"
+    },
+    {
+      "key": "hera-frenata-didymos-dimorphos-08-10-2026-v806",
+      "alt": "Illustrazione editoriale IA della sonda Hera in avvicinamento al sistema Didymos; scena spaziale non documentaria.",
+      "prompt": "Hera prepara 93 minuti di frenata verso gli asteroidi. Illustrazione editoriale fotorealistica dedicata, non documentaria, senza testo aggiunto.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/hera-frenata-didymos-dimorphos-08-10-2026-v806-480.webp",
+          "sha256": "ab165c9855e6dcaf453ecc3216dc3cae6398a3bf0d49af4cc1a2f7be891afe8c",
+          "bytes": 27406
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/hera-frenata-didymos-dimorphos-08-10-2026-v806-800.webp",
+          "sha256": "ff3f8e16b115dc1e0e9856014ca510581de6b331b050915613007436f2ebfbd8",
+          "bytes": 71198
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/hera-frenata-didymos-dimorphos-08-10-2026-v806-1200.webp",
+          "sha256": "7476f9695f0ae491b9fe05cfa1f8e0789cdffac6b1cf63524714b784797d3bac",
+          "bytes": 146386
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/hera-frenata-didymos-dimorphos-08-10-2026.html"
+    },
+    {
+      "key": "marte-nube-arsia-mons-ghiaccio-08-10-2026-v806",
+      "alt": "Illustrazione editoriale IA del vulcano Arsia Mons e della lunga nube di ghiaccio su Marte; non è una ripresa della sonda.",
+      "prompt": "Marte, la nube lunga 1.800 km sfida i modelli atmosferici. Illustrazione editoriale fotorealistica dedicata, non documentaria, senza testo aggiunto.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/marte-nube-arsia-mons-ghiaccio-08-10-2026-v806-480.webp",
+          "sha256": "daefaf424dd107efb1cb00edf0fe53c338fadb97742e804667eda20091acba8b",
+          "bytes": 34754
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/marte-nube-arsia-mons-ghiaccio-08-10-2026-v806-800.webp",
+          "sha256": "4db927ad9047914b46aceeda437570b9484fbb2606a539e1675d3524ab4704c7",
+          "bytes": 88688
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/marte-nube-arsia-mons-ghiaccio-08-10-2026-v806-1200.webp",
+          "sha256": "9b2aff6a98e7de166d45774c730f903007080703a219b4adec3b8d3b1412a0a6",
+          "bytes": 180592
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/marte-nube-arsia-mons-ghiaccio-08-10-2026.html"
+    },
+    {
+      "key": "esa-iau-satelliti-cielo-scuro-08-10-2026-v806",
+      "alt": "Illustrazione editoriale IA di un astronomo al telescopio e di tracce satellitari nel cielo notturno; scena non documentaria.",
+      "prompt": "ESA e astronomi alleati contro le interferenze dei satelliti. Illustrazione editoriale fotorealistica dedicata, non documentaria, senza testo aggiunto.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/esa-iau-satelliti-cielo-scuro-08-10-2026-v806-480.webp",
+          "sha256": "d6bd10f403c0794f423828f95969e55f7c44ceea5de133bb867a5b4b971884b5",
+          "bytes": 34448
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/esa-iau-satelliti-cielo-scuro-08-10-2026-v806-800.webp",
+          "sha256": "9e5e5f6732a20f4f399fc5114fe815f7e2673b1cf9d9e5307b4d477a2701d18b",
+          "bytes": 84800
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/esa-iau-satelliti-cielo-scuro-08-10-2026-v806-1200.webp",
+          "sha256": "d54f7fd8dc8f3bbea26d09beb1e7176910dba5b36fb7368b78b2a888ad059864",
+          "bytes": 166178
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/esa-iau-satelliti-cielo-scuro-08-10-2026.html"
+    },
     {
       "key": "master-online-o-in-presenza-v805",
       "article": "/approfondimenti/master-online-o-in-presenza.html",

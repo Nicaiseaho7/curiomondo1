@@ -47,6 +47,8 @@ editorial_protocol_path=root/'PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md'
 premium_protocol_path=root/'PROTOCOLLO-ARTICOLI-PREMIUM.md'
 master_protocol_path=root/'CURIO-MONDO-PROTOCOLLO-MAESTRO.md'
 for required_path in (policy_path,prompt_path,config_path,manifest_path,root/'AGENTS.md',editorial_protocol_path,premium_protocol_path,master_protocol_path):
+    if args.exclude_manifest and required_path == manifest_path:
+        continue
     if not required_path.exists(): errors.append(f'protocollo IA assente: {required_path.relative_to(root)}')
 if master_protocol_path.exists():
     master_protocol=master_protocol_path.read_text(errors='replace')
