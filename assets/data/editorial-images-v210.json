@@ -1,7 +1,115 @@
 {
-  "version": 802,
+  "version": 803,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "riforma-farmaceutica-senato-delega-governo-08-10-2026-v803",
+      "alt": "Illustrazione editoriale IA di farmacisti al banco con un paziente in una farmacia italiana; scena non documentaria.",
+      "prompt": "Farmacista italiana informa un paziente anziano in farmacia mentre un collega controlla le scorte, volti visibili, fotografia editoriale fotorealistica, nessun testo leggibile.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/riforma-farmaceutica-senato-delega-governo-08-10-2026-v803-480.webp",
+          "sha256": "fe52e07c7747a67238042a51778ae15983d2a121db58db6e7f3cadc7c1fac280",
+          "bytes": 32342
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/riforma-farmaceutica-senato-delega-governo-08-10-2026-v803-800.webp",
+          "sha256": "8fb3ebb44c0782fd7ea09751ec099521d970b7de6697ab60cdc94314fb61cecb",
+          "bytes": 63446
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/riforma-farmaceutica-senato-delega-governo-08-10-2026-v803-1200.webp",
+          "sha256": "90df9f8af4ac06b6339ca2529caa67c88c972f6e622ce0fc859dcabef9e4ae07",
+          "bytes": 107896
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/riforma-farmaceutica-senato-delega-governo-08-10-2026.html"
+    },
+    {
+      "key": "registro-dispositivi-medici-impiantabili-senato-08-10-2026-v803",
+      "alt": "Illustrazione editoriale IA di una bioingegnera e un chirurgo con dispositivi medici impiantabili; scena non documentaria.",
+      "prompt": "Bioingegnera e chirurgo in ambiente ospedaliero italiano esaminano pacemaker e protesi, volti visibili, fotografia sanitaria fotorealistica, nessun testo o paziente.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/registro-dispositivi-medici-impiantabili-senato-08-10-2026-v803-480.webp",
+          "sha256": "2bb120e47b421abb59d1ba44e3cc8ead7cd329654673e034464595fdc55a6eb1",
+          "bytes": 35138
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/registro-dispositivi-medici-impiantabili-senato-08-10-2026-v803-800.webp",
+          "sha256": "52d291c4c32273e261db282158f5f5d797a115c472eed020af0d2a7101a51197",
+          "bytes": 66934
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/registro-dispositivi-medici-impiantabili-senato-08-10-2026-v803-1200.webp",
+          "sha256": "238e3240caaf56766d4ab981c091cee5f46d1d0c6e20226750258ac0074b71ab",
+          "bytes": 113554
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/registro-dispositivi-medici-impiantabili-senato-08-10-2026.html"
+    },
+    {
+      "key": "decreto-ex-ilva-senato-73-si-camera-08-10-2026-v803",
+      "alt": "Illustrazione editoriale IA dell'Aula del Senato durante una seduta istituzionale; scena non documentaria.",
+      "prompt": "Aula di Palazzo Madama con senatori rivolti verso la presidenza, bandiere italiana ed europea, fotografia editoriale fotorealistica e neutrale, nessun testo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/decreto-ex-ilva-senato-73-si-camera-08-10-2026-v803-480.webp",
+          "sha256": "25ec9210ca9d95de00efa9ac096edc743d81bb7dbf9a65c993a8582a484dfb0d",
+          "bytes": 35530
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/decreto-ex-ilva-senato-73-si-camera-08-10-2026-v803-800.webp",
+          "sha256": "db28186babd92ffda9eb930b30a950574b7bb652239fbdbec396a20791c3783c",
+          "bytes": 79216
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/decreto-ex-ilva-senato-73-si-camera-08-10-2026-v803-1200.webp",
+          "sha256": "13b501032944a5fc37450ab68dbd543e976ddc9091f2764e80cc10440abc8c5a",
+          "bytes": 144810
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/decreto-ex-ilva-senato-73-si-camera-08-10-2026.html"
+    },
     {
       "key": "ranking-fifa-italia-quindicesima-5-55-punti-08-10-2026-v802",
       "alt": "Illustrazione editoriale IA contestuale di Gianluigi Donnarumma e altri calciatori dell'Italia in uno stadio; scena non documentaria.",

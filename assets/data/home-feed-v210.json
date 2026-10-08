@@ -1,6 +1,108 @@
 {
-  "version": 802,
+  "version": 803,
   "items": [
+    {
+      "title": "Riforma farmaceutica, il Senato approva la delega al Governo",
+      "excerpt": "Il testo interviene su accesso ai medicinali, spesa, carenze e farmacie territoriali. Passa alla Camera: le nuove regole richiederanno anche decreti legislativi.",
+      "url": "/notizie/riforma-farmaceutica-senato-delega-governo-08-10-2026.html",
+      "section": "Italia / Politica",
+      "dateISO": "2026-10-08T06:54:00+02:00",
+      "dateLabel": "2026-10-08",
+      "image": "/assets/images/editorial-auto/riforma-farmaceutica-senato-delega-governo-08-10-2026-v803-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di farmacisti al banco con un paziente in una farmacia italiana; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/riforma-farmaceutica-senato-delega-governo-08-10-2026-v803-480.webp 480w, /assets/images/editorial-auto/riforma-farmaceutica-senato-delega-governo-08-10-2026-v803-800.webp 800w, /assets/images/editorial-auto/riforma-farmaceutica-senato-delega-governo-08-10-2026-v803-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "A.S. 1786",
+          "label": "disegno di legge delega"
+        },
+        {
+          "icon": "▲",
+          "value": "4 aree",
+          "label": "accesso, spesa, dati e farmacie"
+        },
+        {
+          "icon": "●",
+          "value": "2° passaggio",
+          "label": "esame ora alla Camera"
+        }
+      ],
+      "featuredHighlights": [
+        "riforma farmaceutica",
+        "delega al Governo"
+      ]
+    },
+    {
+      "title": "Dispositivi impiantabili, il Senato approva il registro nazionale",
+      "excerpt": "Il RUNDMI dovrà collegare tracciabilità, vigilanza e monitoraggio clinico. Il disegno di legge passa alla Camera e non è ancora entrato in vigore.",
+      "url": "/notizie/registro-dispositivi-medici-impiantabili-senato-08-10-2026.html",
+      "section": "Italia / Politica",
+      "dateISO": "2026-10-08T06:53:00+02:00",
+      "dateLabel": "2026-10-08",
+      "image": "/assets/images/editorial-auto/registro-dispositivi-medici-impiantabili-senato-08-10-2026-v803-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di una bioingegnera e un chirurgo con dispositivi medici impiantabili; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/registro-dispositivi-medici-impiantabili-senato-08-10-2026-v803-480.webp 480w, /assets/images/editorial-auto/registro-dispositivi-medici-impiantabili-senato-08-10-2026-v803-800.webp 800w, /assets/images/editorial-auto/registro-dispositivi-medici-impiantabili-senato-08-10-2026-v803-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "RUNDMI",
+          "label": "nuovo registro unico"
+        },
+        {
+          "icon": "▲",
+          "value": "12 mesi",
+          "label": "per il decreto attuativo"
+        },
+        {
+          "icon": "●",
+          "value": "940 mila €",
+          "label": "oneri previsti nel 2027"
+        }
+      ],
+      "featuredHighlights": [
+        "registro nazionale",
+        "dispositivi impiantabili"
+      ]
+    },
+    {
+      "title": "Decreto ex Ilva, il Senato approva: 73 sì e testo alla Camera",
+      "excerpt": "Il provvedimento sulla continuità degli impianti strategici è stato modificato a Palazzo Madama. Non è ancora legge: serve il voto della Camera entro i termini di conversione.",
+      "url": "/notizie/decreto-ex-ilva-senato-73-si-camera-08-10-2026.html",
+      "section": "Italia / Politica",
+      "dateISO": "2026-10-08T06:52:00+02:00",
+      "dateLabel": "2026-10-08",
+      "image": "/assets/images/editorial-auto/decreto-ex-ilva-senato-73-si-camera-08-10-2026-v803-800.webp",
+      "imageAlt": "Illustrazione editoriale IA dell'Aula del Senato durante una seduta istituzionale; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/decreto-ex-ilva-senato-73-si-camera-08-10-2026-v803-480.webp 480w, /assets/images/editorial-auto/decreto-ex-ilva-senato-73-si-camera-08-10-2026-v803-800.webp 800w, /assets/images/editorial-auto/decreto-ex-ilva-senato-73-si-camera-08-10-2026-v803-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "73",
+          "label": "voti favorevoli"
+        },
+        {
+          "icon": "▲",
+          "value": "49",
+          "label": "voti contrari"
+        },
+        {
+          "icon": "●",
+          "value": "3",
+          "label": "astensioni"
+        }
+      ],
+      "featuredHighlights": [
+        "73 sì",
+        "testo alla Camera"
+      ]
+    },
     {
       "title": "Ranking FIFA, Italia ancora 15ª ma guadagna 5,55 punti",
       "excerpt": "Gli Azzurri restano nella stessa posizione dopo quattro gare di Nations League, ma riducono il distacco da Germania e Croazia. La Spagna conserva il primo posto.",
@@ -74,7 +176,7 @@
       "excerpt": "Il minimo annuale è stato raggiunto il 12 settembre e pareggia 2008, 2010 e 2025. Tutte le ultime 20 estati rientrano fra le 20 meno estese dell'era satellitare.",
       "url": "/notizie/ghiaccio-artico-minimo-2026-4-6-milioni-km2-08-10-2026.html",
       "section": "Mondo / Ambiente",
-      "dateISO": "2026-10-08T06:20:00+02:00",
+      "dateISO": "2026-10-08T06:20:58+02:00",
       "dateLabel": "2026-10-08",
       "image": "/assets/images/editorial-auto/ghiaccio-artico-minimo-2026-4-6-milioni-km2-08-10-2026-v802-800.webp",
       "imageAlt": "Illustrazione editoriale IA del ghiaccio marino artico frammentato alla fine dell'estate; scena non documentaria.",
@@ -108,7 +210,7 @@
       "excerpt": "Le novità arrivano nei canali Insider Beta ed Experimental. Dalla ricerca si potranno cambiare luminosità, Bluetooth e modalità scura senza aprire altre schermate.",
       "url": "/notizie/windows-11-ricerca-azioni-rapide-widget-batteria-08-10-2026.html",
       "section": "Mondo / Tecnologia",
-      "dateISO": "2026-10-08T06:19:00+02:00",
+      "dateISO": "2026-10-08T06:20:55+02:00",
       "dateLabel": "2026-10-08",
       "image": "/assets/images/editorial-auto/windows-11-ricerca-azioni-rapide-widget-batteria-08-10-2026-v802-800.webp",
       "imageAlt": "Illustrazione editoriale IA di un tester davanti a un portatile con Windows 11 e indicatori di batteria; scena non documentaria.",
@@ -142,7 +244,7 @@
       "excerpt": "L'anomalia ha riguardato una delle 60 domande della preselettiva per dirigenti. La commissione conferma la validità degli altri 59 quesiti e della graduatoria.",
       "url": "/notizie/concorso-sna-quesito-errato-neutralizzato-punto-tutti-08-10-2026.html",
       "section": "Italia",
-      "dateISO": "2026-10-08T06:18:00+02:00",
+      "dateISO": "2026-10-08T06:20:50+02:00",
       "dateLabel": "2026-10-08",
       "image": "/assets/images/editorial-auto/concorso-sna-quesito-errato-neutralizzato-punto-tutti-08-10-2026-v802-800.webp",
       "imageAlt": "Illustrazione editoriale IA di candidati e personale durante una prova informatica in un'aula pubblica; scena non documentaria.",
