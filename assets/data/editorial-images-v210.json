@@ -1,38 +1,219 @@
 {
-  "version": 801,
+  "version": 802,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
-  {
-    "alt": "Illustrazione editoriale di un temporale autunnale su un borgo collinare e un fiume in piena; non è una fotografia documentaria.",
-    "prompt": "Temporale autunnale su un borgo collinare e un fiume in piena, senza persone riconoscibili, scritte o loghi.",
-    "variants": [
-      {
-        "w": 480,
-        "src": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-480.webp",
-        "sha256": "40f3050c05c7830d4e3103627f064ef2a2cf280e0fdc45a11ecd6c8488d71684",
-        "bytes": 26290
-      },
-      {
-        "w": 800,
-        "src": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-800.webp",
-        "sha256": "c31d6904f65266232a425b30e03386288a0d9bb36316cb8681084d4f0114548e",
-        "bytes": 73452
-      },
-      {
-        "w": 1200,
-        "src": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-1200.webp",
-        "sha256": "b6bb7ba91c157c79f3b3f67ee204e999043155c77c0456eaf9da551220343a95",
-        "bytes": 152114
-      }
-    ],
-    "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-    "generator": "Imagine",
-    "aiGenerated": true,
-    "documentaryPhoto": false,
-    "officialArtwork": false,
-    "sensitiveContext": false,
-    "article": "/notizie/allerta-meteo-arancione-toscana-8-ottobre-2026.html"
-  },
+    {
+      "key": "ranking-fifa-italia-quindicesima-5-55-punti-08-10-2026-v802",
+      "alt": "Illustrazione editoriale IA contestuale di Gianluigi Donnarumma e altri calciatori dell'Italia in uno stadio; scena non documentaria.",
+      "prompt": "Gianluigi Donnarumma riconoscibile in maglia ufficiale dell'Italia con compagni veri sul campo dopo una partita, volti visibili, fotografia sportiva fotorealistica, nessun testo o tabellone.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ranking-fifa-italia-quindicesima-5-55-punti-08-10-2026-v802-480.webp",
+          "sha256": "a284ba9bebcb344f2ba52474d31e25ad2e692553161a4b88971f9d88d6c2eadc",
+          "bytes": 40728
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ranking-fifa-italia-quindicesima-5-55-punti-08-10-2026-v802-800.webp",
+          "sha256": "bce75814f8a5e179f58481f662ffc14711a5bf2fe89dd369ca725cbc6a15a9bf",
+          "bytes": 81048
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ranking-fifa-italia-quindicesima-5-55-punti-08-10-2026-v802-1200.webp",
+          "sha256": "422349535f6559b53636a5daa27374549e495e40c7f79b5aff9cbe4ef62acdae",
+          "bytes": 136742
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/ranking-fifa-italia-quindicesima-5-55-punti-08-10-2026.html"
+    },
+    {
+      "key": "influenza-aviaria-h5-vaccini-umani-cinque-paesi-ue-08-10-2026-v802",
+      "alt": "Illustrazione editoriale IA di veterinari, ricercatori e un addetto avicolo che esaminano campioni e un vaccino; scena non documentaria.",
+      "prompt": "Veterinaria, ricercatore e lavoratore avicolo con volti visibili in laboratorio europeo collegato a un allevamento, campioni e flacone neutro, fotografia sanitaria fotorealistica, nessuna iniezione o testo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/influenza-aviaria-h5-vaccini-umani-cinque-paesi-ue-08-10-2026-v802-480.webp",
+          "sha256": "ef82ac1254e423ed4405f4107ef47d1876605b9c73957dd450bd65bb8fa429ad",
+          "bytes": 38158
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/influenza-aviaria-h5-vaccini-umani-cinque-paesi-ue-08-10-2026-v802-800.webp",
+          "sha256": "f6771a95c9f1d11e4f09a8f7819f145cfbf3b385c465a0568011a0d5740c09a7",
+          "bytes": 77682
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/influenza-aviaria-h5-vaccini-umani-cinque-paesi-ue-08-10-2026-v802-1200.webp",
+          "sha256": "de301f7f35a4b8422fa9c87b5b933e56a0a1a939d4ef16f90549dbcffc0ed76e",
+          "bytes": 134732
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/influenza-aviaria-h5-vaccini-umani-cinque-paesi-ue-08-10-2026.html"
+    },
+    {
+      "key": "ghiaccio-artico-minimo-2026-4-6-milioni-km2-08-10-2026-v802",
+      "alt": "Illustrazione editoriale IA del ghiaccio marino artico frammentato alla fine dell'estate; scena non documentaria.",
+      "prompt": "Vista aerea fotorealistica del ghiaccio marino sul Mar Glaciale Artico al minimo di fine estate, acqua libera tra le banchise, luce naturale, nessun testo o mappa.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ghiaccio-artico-minimo-2026-4-6-milioni-km2-08-10-2026-v802-480.webp",
+          "sha256": "b81e4a481201e7df16578ad1aa35685a9983896a5bac4168fd299f2883982794",
+          "bytes": 50692
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ghiaccio-artico-minimo-2026-4-6-milioni-km2-08-10-2026-v802-800.webp",
+          "sha256": "3b7a778442dd4b056aac948eddba5c9c91ddffb0dfc28dc073262752a82fedd6",
+          "bytes": 130990
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ghiaccio-artico-minimo-2026-4-6-milioni-km2-08-10-2026-v802-1200.webp",
+          "sha256": "6a89e826af4bcbbd392cd2fc18952116d014415b49f28183d4aa5fcf32a01eaa",
+          "bytes": 262252
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/ghiaccio-artico-minimo-2026-4-6-milioni-km2-08-10-2026.html"
+    },
+    {
+      "key": "windows-11-ricerca-azioni-rapide-widget-batteria-08-10-2026-v802",
+      "alt": "Illustrazione editoriale IA di un tester davanti a un portatile con Windows 11 e indicatori di batteria; scena non documentaria.",
+      "prompt": "Tester in home office italiano accanto a Microsoft Surface con Windows 11 Search e indicatori batteria iconici; fotografia tecnologica fotorealistica, volto visibile, nessun testo editoriale.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/windows-11-ricerca-azioni-rapide-widget-batteria-08-10-2026-v802-480.webp",
+          "sha256": "7fdc7e39796eaa47e1b0d3457e1e47974fb4db905a0c5099c37813bdd405d5c6",
+          "bytes": 29314
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/windows-11-ricerca-azioni-rapide-widget-batteria-08-10-2026-v802-800.webp",
+          "sha256": "577ce6af08c033ad2e7f1bf0908ae2e585b607b3f3c7ca0f04021ccf317adecd",
+          "bytes": 60498
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/windows-11-ricerca-azioni-rapide-widget-batteria-08-10-2026-v802-1200.webp",
+          "sha256": "be8d1f9ea9f1c4db06aca9e0247639276bdcd303dc45e1aeebd1fcbb3f70b197",
+          "bytes": 107394
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/windows-11-ricerca-azioni-rapide-widget-batteria-08-10-2026.html"
+    },
+    {
+      "key": "concorso-sna-quesito-errato-neutralizzato-punto-tutti-08-10-2026-v802",
+      "alt": "Illustrazione editoriale IA di candidati e personale durante una prova informatica in un'aula pubblica; scena non documentaria.",
+      "prompt": "Aula italiana per concorso pubblico con candidati ai computer e vigilante che controlla una postazione con interfaccia incompleta; fotografia editoriale fotorealistica, volti visibili, nessun testo leggibile.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/concorso-sna-quesito-errato-neutralizzato-punto-tutti-08-10-2026-v802-480.webp",
+          "sha256": "b97d03b32fb7997ec372ac3d970faf571c1733512d1c526806c63e9d4f021817",
+          "bytes": 25232
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/concorso-sna-quesito-errato-neutralizzato-punto-tutti-08-10-2026-v802-800.webp",
+          "sha256": "82d4853e3703f40ab040db5ddd36d118f06d95a7a6868347f96fce4b00a92e3b",
+          "bytes": 50916
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/concorso-sna-quesito-errato-neutralizzato-punto-tutti-08-10-2026-v802-1200.webp",
+          "sha256": "2a0ba9e2b83f7f2e18c254125271a4fa07b2635155998e7f105f1b39427b166b",
+          "bytes": 84424
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "article": "/notizie/concorso-sna-quesito-errato-neutralizzato-punto-tutti-08-10-2026.html"
+    },
+    {
+      "alt": "Illustrazione editoriale di un temporale autunnale su un borgo collinare e un fiume in piena; non è una fotografia documentaria.",
+      "prompt": "Temporale autunnale su un borgo collinare e un fiume in piena, senza persone riconoscibili, scritte o loghi.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-480.webp",
+          "sha256": "40f3050c05c7830d4e3103627f064ef2a2cf280e0fdc45a11ecd6c8488d71684",
+          "bytes": 26290
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-800.webp",
+          "sha256": "c31d6904f65266232a425b30e03386288a0d9bb36316cb8681084d4f0114548e",
+          "bytes": 73452
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-1200.webp",
+          "sha256": "b6bb7ba91c157c79f3b3f67ee204e999043155c77c0456eaf9da551220343a95",
+          "bytes": 152114
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "Imagine",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "article": "/notizie/allerta-meteo-arancione-toscana-8-ottobre-2026.html"
+    },
     {
       "alt": "Illustrazione editoriale del presidente Sergio Mattarella al Quirinale mentre firma documenti ufficiali; non è una fotografia documentaria.",
       "prompt": "immagine fornita dalla redazione insieme alla bozza e non generata automaticamente: il brief per il generatore non serve in questo percorso manuale.",
@@ -14721,21 +14902,21 @@
     }
   ],
   "images": [
-  {
-    "slug": "allerta-meteo-arancione-toscana-8-ottobre-2026",
-    "version": 801,
-    "path": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-1200.webp",
-    "variants": [
-      480,
-      800,
-      1200
-    ],
-    "aiGenerated": true,
-    "sensitiveContext": false,
-    "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-    "date": "2026-10-08",
-    "alt": "Illustrazione editoriale di un temporale autunnale su un borgo collinare e un fiume in piena; non è una fotografia documentaria."
-  },
+    {
+      "slug": "allerta-meteo-arancione-toscana-8-ottobre-2026",
+      "version": 801,
+      "path": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-10-08",
+      "alt": "Illustrazione editoriale di un temporale autunnale su un borgo collinare e un fiume in piena; non è una fotografia documentaria."
+    },
     {
       "slug": "wanna-marchi-premio-campidoglio-nanni-scuse-29-09-2026",
       "version": 691,

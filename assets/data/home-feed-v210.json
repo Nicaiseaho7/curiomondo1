@@ -1,40 +1,210 @@
 {
-  "version": 801,
+  "version": 802,
   "items": [
-  {
-    "title": "Allerta meteo 8 ottobre: arancione in Toscana, gialla in 11 regioni",
-    "excerpt": "Per giovedì 8 ottobre la Protezione Civile valuta allerta arancione in Toscana e gialla in undici regioni, con temporali e vento forte sul Tirreno.",
-    "url": "/notizie/allerta-meteo-arancione-toscana-8-ottobre-2026.html",
-    "section": "Mondo / Meteo",
-    "dateISO": "2026-10-08T05:59:02+02:00",
-    "dateLabel": "2026-10-08",
-    "image": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-800.webp",
-    "imageAlt": "Illustrazione editoriale di un temporale autunnale su un borgo collinare e un fiume in piena; non è una fotografia documentaria.",
-    "imageWidth": 800,
-    "imageHeight": 533,
-    "srcset": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-480.webp 480w, /assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-800.webp 800w, /assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-1200.webp 1200w",
-    "featuredStats": [
-      {
-        "icon": "◆",
-        "value": "Arancione",
-        "label": "Toscana"
-      },
-      {
-        "icon": "▲",
-        "value": "Gialla",
-        "label": "11 regioni"
-      },
-      {
-        "icon": "●",
-        "value": "8 ottobre",
-        "label": "giornata dell’avviso"
-      }
-    ],
-    "featuredHighlights": [
-      "allerta arancione",
-      "Toscana"
-    ]
-  },
+    {
+      "title": "Ranking FIFA, Italia ancora 15ª ma guadagna 5,55 punti",
+      "excerpt": "Gli Azzurri restano nella stessa posizione dopo quattro gare di Nations League, ma riducono il distacco da Germania e Croazia. La Spagna conserva il primo posto.",
+      "url": "/notizie/ranking-fifa-italia-quindicesima-5-55-punti-08-10-2026.html",
+      "section": "Italia / Sport",
+      "dateISO": "2026-10-08T06:22:00+02:00",
+      "dateLabel": "2026-10-08",
+      "image": "/assets/images/editorial-auto/ranking-fifa-italia-quindicesima-5-55-punti-08-10-2026-v802-800.webp",
+      "imageAlt": "Illustrazione editoriale IA contestuale di Gianluigi Donnarumma e altri calciatori dell'Italia in uno stadio; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/ranking-fifa-italia-quindicesima-5-55-punti-08-10-2026-v802-480.webp 480w, /assets/images/editorial-auto/ranking-fifa-italia-quindicesima-5-55-punti-08-10-2026-v802-800.webp 800w, /assets/images/editorial-auto/ranking-fifa-italia-quindicesima-5-55-punti-08-10-2026-v802-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "15ª",
+          "label": "posizione dell'Italia"
+        },
+        {
+          "icon": "▲",
+          "value": "+5,55",
+          "label": "punti guadagnati"
+        },
+        {
+          "icon": "●",
+          "value": "18 nov",
+          "label": "prossimo aggiornamento"
+        }
+      ],
+      "featuredHighlights": [
+        "Italia ancora 15ª",
+        "5,55 punti"
+      ]
+    },
+    {
+      "title": "Influenza H5, campagne umane avviate in cinque Paesi UE",
+      "excerpt": "La valutazione ECDC riguarda soprattutto lavoratori esposti ad animali infetti. Il rischio resta basso per la popolazione generale e basso-moderato per gli esposti.",
+      "url": "/notizie/influenza-aviaria-h5-vaccini-umani-cinque-paesi-ue-08-10-2026.html",
+      "section": "Mondo / Scienza",
+      "dateISO": "2026-10-08T06:21:00+02:00",
+      "dateLabel": "2026-10-08",
+      "image": "/assets/images/editorial-auto/influenza-aviaria-h5-vaccini-umani-cinque-paesi-ue-08-10-2026-v802-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di veterinari, ricercatori e un addetto avicolo che esaminano campioni e un vaccino; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/influenza-aviaria-h5-vaccini-umani-cinque-paesi-ue-08-10-2026-v802-480.webp 480w, /assets/images/editorial-auto/influenza-aviaria-h5-vaccini-umani-cinque-paesi-ue-08-10-2026-v802-800.webp 800w, /assets/images/editorial-auto/influenza-aviaria-h5-vaccini-umani-cinque-paesi-ue-08-10-2026-v802-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "5 Paesi",
+          "label": "con campagne già avviate"
+        },
+        {
+          "icon": "▲",
+          "value": "27 su 30",
+          "label": "Paesi che hanno risposto"
+        },
+        {
+          "icon": "●",
+          "value": "8",
+          "label": "con raccomandazioni nazionali"
+        }
+      ],
+      "featuredHighlights": [
+        "campagne umane",
+        "cinque Paesi UE"
+      ]
+    },
+    {
+      "title": "Ghiaccio artico a 4,6 milioni di km², decimo minimo più basso",
+      "excerpt": "Il minimo annuale è stato raggiunto il 12 settembre e pareggia 2008, 2010 e 2025. Tutte le ultime 20 estati rientrano fra le 20 meno estese dell'era satellitare.",
+      "url": "/notizie/ghiaccio-artico-minimo-2026-4-6-milioni-km2-08-10-2026.html",
+      "section": "Mondo / Ambiente",
+      "dateISO": "2026-10-08T06:20:00+02:00",
+      "dateLabel": "2026-10-08",
+      "image": "/assets/images/editorial-auto/ghiaccio-artico-minimo-2026-4-6-milioni-km2-08-10-2026-v802-800.webp",
+      "imageAlt": "Illustrazione editoriale IA del ghiaccio marino artico frammentato alla fine dell'estate; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/ghiaccio-artico-minimo-2026-4-6-milioni-km2-08-10-2026-v802-480.webp 480w, /assets/images/editorial-auto/ghiaccio-artico-minimo-2026-4-6-milioni-km2-08-10-2026-v802-800.webp 800w, /assets/images/editorial-auto/ghiaccio-artico-minimo-2026-4-6-milioni-km2-08-10-2026-v802-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "4,6 mln km²",
+          "label": "estensione il 12 settembre"
+        },
+        {
+          "icon": "▲",
+          "value": "10°",
+          "label": "minimo più basso dal 1978"
+        },
+        {
+          "icon": "●",
+          "value": "20 estati",
+          "label": "consecutive tra le 20 più basse"
+        }
+      ],
+      "featuredHighlights": [
+        "4,6 milioni di km²",
+        "decimo minimo"
+      ]
+    },
+    {
+      "title": "Windows 11 prova ricerca con azioni rapide e widget batteria",
+      "excerpt": "Le novità arrivano nei canali Insider Beta ed Experimental. Dalla ricerca si potranno cambiare luminosità, Bluetooth e modalità scura senza aprire altre schermate.",
+      "url": "/notizie/windows-11-ricerca-azioni-rapide-widget-batteria-08-10-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-10-08T06:19:00+02:00",
+      "dateLabel": "2026-10-08",
+      "image": "/assets/images/editorial-auto/windows-11-ricerca-azioni-rapide-widget-batteria-08-10-2026-v802-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di un tester davanti a un portatile con Windows 11 e indicatori di batteria; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/windows-11-ricerca-azioni-rapide-widget-batteria-08-10-2026-v802-480.webp 480w, /assets/images/editorial-auto/windows-11-ricerca-azioni-rapide-widget-batteria-08-10-2026-v802-800.webp 800w, /assets/images/editorial-auto/windows-11-ricerca-azioni-rapide-widget-batteria-08-10-2026-v802-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "5 build",
+          "label": "pubblicate per gli Insider"
+        },
+        {
+          "icon": "▲",
+          "value": "2 canali",
+          "label": "Beta ed Experimental"
+        },
+        {
+          "icon": "●",
+          "value": "1 widget",
+          "label": "per PC e periferiche"
+        }
+      ],
+      "featuredHighlights": [
+        "azioni rapide",
+        "widget batteria"
+      ]
+    },
+    {
+      "title": "Concorso SNA, quesito errato neutralizzato: un punto a tutti",
+      "excerpt": "L'anomalia ha riguardato una delle 60 domande della preselettiva per dirigenti. La commissione conferma la validità degli altri 59 quesiti e della graduatoria.",
+      "url": "/notizie/concorso-sna-quesito-errato-neutralizzato-punto-tutti-08-10-2026.html",
+      "section": "Italia",
+      "dateISO": "2026-10-08T06:18:00+02:00",
+      "dateLabel": "2026-10-08",
+      "image": "/assets/images/editorial-auto/concorso-sna-quesito-errato-neutralizzato-punto-tutti-08-10-2026-v802-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di candidati e personale durante una prova informatica in un'aula pubblica; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/concorso-sna-quesito-errato-neutralizzato-punto-tutti-08-10-2026-v802-480.webp 480w, /assets/images/editorial-auto/concorso-sna-quesito-errato-neutralizzato-punto-tutti-08-10-2026-v802-800.webp 800w, /assets/images/editorial-auto/concorso-sna-quesito-errato-neutralizzato-punto-tutti-08-10-2026-v802-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "60",
+          "label": "quesiti nella prova"
+        },
+        {
+          "icon": "▲",
+          "value": "59",
+          "label": "domande confermate corrette"
+        },
+        {
+          "icon": "●",
+          "value": "1 punto",
+          "label": "assegnato a ogni candidato"
+        }
+      ],
+      "featuredHighlights": [
+        "quesito errato",
+        "un punto a tutti"
+      ]
+    },
+    {
+      "title": "Allerta meteo 8 ottobre: arancione in Toscana, gialla in 11 regioni",
+      "excerpt": "Per giovedì 8 ottobre la Protezione Civile valuta allerta arancione in Toscana e gialla in undici regioni, con temporali e vento forte sul Tirreno.",
+      "url": "/notizie/allerta-meteo-arancione-toscana-8-ottobre-2026.html",
+      "section": "Mondo / Meteo",
+      "dateISO": "2026-10-08T05:59:02+02:00",
+      "dateLabel": "2026-10-08",
+      "image": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-800.webp",
+      "imageAlt": "Illustrazione editoriale di un temporale autunnale su un borgo collinare e un fiume in piena; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "srcset": "/assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-480.webp 480w, /assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-800.webp 800w, /assets/images/editorial-auto/allerta-meteo-arancione-toscana-8-ottobre-2026-v801-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "Arancione",
+          "label": "Toscana"
+        },
+        {
+          "icon": "▲",
+          "value": "Gialla",
+          "label": "11 regioni"
+        },
+        {
+          "icon": "●",
+          "value": "8 ottobre",
+          "label": "giornata dell’avviso"
+        }
+      ],
+      "featuredHighlights": [
+        "allerta arancione",
+        "Toscana"
+      ]
+    },
     {
       "title": "Mattarella firma tre grazie: tra i beneficiari il gioielliere Guido Gianni",
       "excerpt": "Il Quirinale ha adottato tre decreti di clemenza individuale con parere favorevole del ministro Nordio. Tra i casi, la grazia parziale a Guido Gianni, condannato per aver ucciso due rapinatori nel 2008 a Nicolosi.",
