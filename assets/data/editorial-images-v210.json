@@ -1,7 +1,383 @@
 {
-  "version": 819,
+  "version": 820,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "data-center-italia-investimenti-potenziali-37-miliardi-2036-v820",
+      "alt": "Illustrazione editoriale IA ultrarealistica di tecnici italiani in un data center moderno, con volti visibili; scena non documentaria.",
+      "prompt": "Data center moderno in Italia con due tecnici rivolti verso la camera, infrastruttura server realistica, illustrazione editoriale ultrarealistica.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/data-center-italia-investimenti-potenziali-37-miliardi-2036-v820-480.webp",
+          "sha256": "96ca72f56278f1b666f7fb1eea83a26be1a42ff33730326e8126a4c39ffe2b30",
+          "bytes": 45672
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/data-center-italia-investimenti-potenziali-37-miliardi-2036-v820-800.webp",
+          "sha256": "51b106cf80487b6d189a286f3ecd9234428bcaca5c1d8d2212876cdbb0f0752f",
+          "bytes": 107250
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/data-center-italia-investimenti-potenziali-37-miliardi-2036-v820-1200.webp",
+          "sha256": "5bc76e121db87fb679ee97196173182dff74c5d41a0819bfb42611df8e1b2907",
+          "bytes": 196992
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "article": "/notizie/data-center-italia-investimenti-potenziali-37-miliardi-2036.html"
+    },
+    {
+      "key": "meloni-senato-14-ottobre-2026-consiglio-europeo-v820",
+      "alt": "Ritratto editoriale neutrale IA ultrarealistico con somiglianza sintetica di Giorgia Meloni nell'Aula del Senato; scena non documentaria.",
+      "prompt": "Neutral editorial portrait of Giorgia Meloni, riconoscibile nell'Aula del Senato italiano in posa istituzionale neutra, somiglianza sintetica ultrarealistica, nessuna caricatura.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/meloni-senato-14-ottobre-2026-consiglio-europeo-v820-480.webp",
+          "sha256": "8662cb7b56149d93d1a3ffb615c3593ebd1afe29678d826abc469bdf6805349c",
+          "bytes": 29126
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/meloni-senato-14-ottobre-2026-consiglio-europeo-v820-800.webp",
+          "sha256": "615c0af47a7604f90f5bd9d2c87ee6fc8d18387a73a3678e002028928bbc83f0",
+          "bytes": 58038
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/meloni-senato-14-ottobre-2026-consiglio-europeo-v820-1200.webp",
+          "sha256": "9766f4b29b8aa4aa196c834f220b4a48f1341b05b856d18c7ebe10ad1a54978b",
+          "bytes": 98788
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "article": "/notizie/meloni-senato-14-ottobre-2026-consiglio-europeo.html"
+    },
+    {
+      "key": "salvini-contributo-volontario-banche-assicurazioni-5-miliardi-2027-v820",
+      "alt": "Ritratto editoriale neutrale IA ultrarealistico con somiglianza sintetica di Matteo Salvini durante una dichiarazione istituzionale; scena non documentaria.",
+      "prompt": "Neutral editorial portrait of Matteo Salvini, riconoscibile in posa istituzionale neutra durante una dichiarazione, bandiere italiana ed europea, somiglianza sintetica ultrarealistica, nessuna caricatura.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/salvini-contributo-volontario-banche-assicurazioni-5-miliardi-2027-v820-480.webp",
+          "sha256": "2b8f7999d5f86651f6d35d79c301caa5912685e4d3484557833f05b988170890",
+          "bytes": 18096
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/salvini-contributo-volontario-banche-assicurazioni-5-miliardi-2027-v820-800.webp",
+          "sha256": "32616863677d4e83dc461a57cd0066f4d9044b779f5f6d47bde19a7fb1117bc8",
+          "bytes": 37190
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/salvini-contributo-volontario-banche-assicurazioni-5-miliardi-2027-v820-1200.webp",
+          "sha256": "ce00e462ea879b8b435a34b2e52b93f01046e3e5e1ec4d0b1f6e0bacc2d31576",
+          "bytes": 66028
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": "public-figure",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "article": "/notizie/salvini-contributo-volontario-banche-assicurazioni-5-miliardi-2027.html"
+    },
+    {
+      "key": "concerto-benandanti-trieste-9-ottobre-2026-prenotazione-v820",
+      "alt": "Illustrazione editoriale IA ultrarealistica di musicisti della Camerata Strumentale in concerto a Palazzo Economo a Trieste, con volti visibili; scena non documentaria.",
+      "prompt": "Ensemble di musica antica a Palazzo Economo di Trieste, musicisti con volti visibili e strumenti storici plausibili, illustrazione editoriale ultrarealistica.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/concerto-benandanti-trieste-9-ottobre-2026-prenotazione-v820-480.webp",
+          "sha256": "f8ef4342582177c51f33d52989152136d6f0a3f62f650f41269ec120de00453a",
+          "bytes": 43944
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/concerto-benandanti-trieste-9-ottobre-2026-prenotazione-v820-800.webp",
+          "sha256": "4dd1099c0889ba7a407c559d7c7bde0ac365d6439ffec1b8f633a97296c3869a",
+          "bytes": 101086
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/concerto-benandanti-trieste-9-ottobre-2026-prenotazione-v820-1200.webp",
+          "sha256": "2c4a79871dfe1ba042efa04ef9f5993681fb61fbfb8e65177183d4444d07e1ce",
+          "bytes": 183798
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "article": "/notizie/concerto-benandanti-trieste-9-ottobre-2026-prenotazione.html"
+    },
+    {
+      "key": "musei-cagliari-apertura-notturna-9-ottobre-2026-orari-v820",
+      "alt": "Illustrazione editoriale IA ultrarealistica dei Musei nazionali di Cagliari aperti al pubblico al tramonto; scena non documentaria.",
+      "prompt": "Musei nazionali di Cagliari al tramonto con visitatori rivolti verso la camera e paesaggio sardo riconoscibile, illustrazione editoriale ultrarealistica.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/musei-cagliari-apertura-notturna-9-ottobre-2026-orari-v820-480.webp",
+          "sha256": "471812b0f662846bdbdc715aafacc86e981ce2a07eda8ed969e82ca31fa28f79",
+          "bytes": 43660
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/musei-cagliari-apertura-notturna-9-ottobre-2026-orari-v820-800.webp",
+          "sha256": "c059fb7796b417fb6f922cfbddb2fd47ab05a520fd6e12ed442508321bdcc11f",
+          "bytes": 108058
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/musei-cagliari-apertura-notturna-9-ottobre-2026-orari-v820-1200.webp",
+          "sha256": "821b26d749564ee286553dcb9c0938af519cac14750347d2aa70452c51ac54e1",
+          "bytes": 202518
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "article": "/notizie/musei-cagliari-apertura-notturna-9-ottobre-2026-orari.html"
+    },
+    {
+      "key": "email-tracking-pixel-linee-guida-garante-29-ottobre-2026-v820",
+      "alt": "Illustrazione editoriale IA ultrarealistica di una professionista italiana davanti a un computer con simbolo di protezione dei dati; scena non documentaria.",
+      "prompt": "Professionista italiana in ufficio davanti a email e simbolo astratto di privacy, bandiere italiana ed europea, volto visibile, illustrazione editoriale ultrarealistica.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/email-tracking-pixel-linee-guida-garante-29-ottobre-2026-v820-480.webp",
+          "sha256": "2fcea23e6cbc6c0bf033ed7a330002c35eef66db149c1edb802d169b6e54b82b",
+          "bytes": 28444
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/email-tracking-pixel-linee-guida-garante-29-ottobre-2026-v820-800.webp",
+          "sha256": "22da03d81287e617696195fbad6ed209f992d21cff3635df4fd6406bf53e54d4",
+          "bytes": 54852
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/email-tracking-pixel-linee-guida-garante-29-ottobre-2026-v820-1200.webp",
+          "sha256": "6aebc076056ef2e858ad08f41e1ae708d152775d88ca342a08871747719faa45",
+          "bytes": 95154
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "article": "/notizie/email-tracking-pixel-linee-guida-garante-29-ottobre-2026.html"
+    },
+    {
+      "key": "intesa-sanpaolo-20-miliardi-piccole-imprese-pos-2026-v820",
+      "alt": "Illustrazione editoriale IA ultrarealistica di piccoli imprenditori italiani con un terminale POS in una filiale Intesa Sanpaolo; scena non documentaria.",
+      "prompt": "Piccoli imprenditori italiani in filiale Intesa Sanpaolo con terminale POS, volti visibili e logo riconoscibile, illustrazione editoriale ultrarealistica.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/intesa-sanpaolo-20-miliardi-piccole-imprese-pos-2026-v820-480.webp",
+          "sha256": "f0fed448f669db76ffe6c50839a61da5b7f216f6cc2354d8c330b3a9235d7b39",
+          "bytes": 40130
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/intesa-sanpaolo-20-miliardi-piccole-imprese-pos-2026-v820-800.webp",
+          "sha256": "36728245a5b30da7ac9fbf7b11926f49a2afd3e7124bacf325ff7fc467d029b4",
+          "bytes": 85346
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/intesa-sanpaolo-20-miliardi-piccole-imprese-pos-2026-v820-1200.webp",
+          "sha256": "6e4a9cd7b246f9447aced3253d7dbec867d79b1069ef6eb8695f5339bc13bb26",
+          "bytes": 142590
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "article": "/notizie/intesa-sanpaolo-20-miliardi-piccole-imprese-pos-2026.html"
+    },
+    {
+      "key": "nato-steadfast-noon-italia-13-ottobre-2026-v820",
+      "alt": "Illustrazione editoriale IA ultrarealistica di velivoli e personale NATO in una base italiana, con volti visibili; scena non documentaria.",
+      "prompt": "Base aerea italiana con velivoli e personale NATO multinazionale rivolto verso la camera, bandiere ufficiali riconoscibili, illustrazione editoriale ultrarealistica e neutrale.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/nato-steadfast-noon-italia-13-ottobre-2026-v820-480.webp",
+          "sha256": "c1fe7cca493ae8fd29d790e095067ef55e72662358478b4a5e6556e50543e967",
+          "bytes": 34172
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/nato-steadfast-noon-italia-13-ottobre-2026-v820-800.webp",
+          "sha256": "4c7fbc896bb6076d2fed3546d1a5291193d0f35b1dd353e041a7e34aa7c63dd6",
+          "bytes": 78878
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/nato-steadfast-noon-italia-13-ottobre-2026-v820-1200.webp",
+          "sha256": "75172ef9ca2c838205635c8cc22548bed6353812e3763ace7c1fb7fc53160732",
+          "bytes": 142920
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "article": "/notizie/nato-steadfast-noon-italia-13-ottobre-2026.html"
+    },
+    {
+      "key": "maltempo-allerta-arancione-lazio-campania-9-ottobre-2026-v820",
+      "alt": "Illustrazione editoriale IA ultrarealistica di un temporale sul Centro-Sud Italia con Napoli e il Vesuvio riconoscibili; scena non documentaria.",
+      "prompt": "Forte temporale sul Golfo di Napoli e Vesuvio, pioggia intensa e fulmini lontani, illustrazione editoriale ultrarealistica senza testo né mappa.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/maltempo-allerta-arancione-lazio-campania-9-ottobre-2026-v820-480.webp",
+          "sha256": "39d5b6b2b5c627d2b1ddee142de4741d6efbb9d05d4823f325c51619dbf5934d",
+          "bytes": 35220
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/maltempo-allerta-arancione-lazio-campania-9-ottobre-2026-v820-800.webp",
+          "sha256": "27d299937892be2f085b2747935c6a53e4ecd42442c0e420ff582a73a071d4d2",
+          "bytes": 88006
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/maltempo-allerta-arancione-lazio-campania-9-ottobre-2026-v820-1200.webp",
+          "sha256": "950fe063cef26bd91deaea6488ccb0553b52939eecfea3a5f9f72156ffb61d95",
+          "bytes": 174218
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "article": "/notizie/maltempo-allerta-arancione-lazio-campania-9-ottobre-2026.html"
+    },
+    {
+      "key": "tromba-aria-trapanese-marsala-petrosino-due-feriti-9-ottobre-2026-v820",
+      "alt": "Illustrazione editoriale IA ultrarealistica dei danni causati da una tromba d'aria vicino a una scuola nel Trapanese, senza persone ferite; scena non documentaria.",
+      "prompt": "Danni da tromba d'aria nel Trapanese presso una scuola, palme piegate e mezzi dei vigili del fuoco, scena sobria senza feriti né veicoli ribaltati, illustrazione editoriale ultrarealistica.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/tromba-aria-trapanese-marsala-petrosino-due-feriti-9-ottobre-2026-v820-480.webp",
+          "sha256": "fb378c4083857ef2baa22a2812caf94453e36875d2fbb34b69cd4e623f274bb2",
+          "bytes": 45514
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/tromba-aria-trapanese-marsala-petrosino-due-feriti-9-ottobre-2026-v820-800.webp",
+          "sha256": "0d602da2f54b5f9bf721857629fa1bd8ccddde634c4e7c42aa55ab085473f554",
+          "bytes": 118188
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/tromba-aria-trapanese-marsala-petrosino-due-feriti-9-ottobre-2026-v820-1200.webp",
+          "sha256": "fac015632a0c370b0ec0d7df82c0284e5ddfdd300ad6721e12cd4c46c0689c1e",
+          "bytes": 248552
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "article": "/notizie/tromba-aria-trapanese-marsala-petrosino-due-feriti-9-ottobre-2026.html"
+    },
     {
       "key": "somalia-afdb-finanza-sviluppo-crescita-privata-8-ottobre-2026-v819",
       "alt": "Illustrazione editoriale IA ultrarealistica del porto e delle infrastrutture di Mogadiscio; scena non documentaria.",
