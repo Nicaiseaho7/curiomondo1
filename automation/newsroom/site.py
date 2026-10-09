@@ -320,7 +320,6 @@ def _sync_ultima_ora(doc, items: list[dict[str, Any]]) -> None:
     for item in items[:10]:
         li = etree.SubElement(ol, "li")
         link = etree.SubElement(li, "a", {"class": "cm-wire__item", "href": item["url"]})
-        etree.SubElement(link, "time", {"class": "cm-wire__time", "datetime": item["dateISO"]}).text = _ora_breve(item["dateISO"])
         etree.SubElement(link, "span", {"class": "cm-wire__title"}).text = item["title"]
     found = doc.xpath('//*[@id="cm-ultima-ora"]')
     if found:

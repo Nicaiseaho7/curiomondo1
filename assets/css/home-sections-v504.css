@@ -125,10 +125,7 @@ html.cm-dark .cm-topic-lead--primary .cm-topic-lead__body{background:var(--cm-pa
 }
 .cm-wire__list{list-style:none;margin:0;padding:0}
 .cm-wire__item{
-  display:grid;
-  grid-template-columns:4.1rem minmax(0,1fr);
-  gap:6px 14px;
-  align-items:baseline;
+  display:block;
   padding:13px 8px;
   border-top:1px solid #f1f5f9;
   color:#102940;
@@ -176,7 +173,7 @@ html.cm-dark .cm-wire__item:hover .cm-wire__title,html.cm-dark .cm-wire__more:ho
 @media(max-width:600px){
   .cm-wire{margin:2px 0 28px;padding:14px 12px 4px;border-radius:16px}
   .cm-wire::before{left:16px;right:16px}
-  .cm-wire__item{grid-template-columns:3.45rem minmax(0,1fr);gap:8px;padding:12px 4px}
+  .cm-wire__item{padding:12px 4px}
   .cm-wire__title{font-size:.98rem}
 }
 @media(prefers-reduced-motion:reduce){
