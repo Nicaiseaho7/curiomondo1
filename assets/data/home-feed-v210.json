@@ -1,6 +1,104 @@
 {
-  "version": 817,
+  "version": 818,
   "items": [
+    {
+      "title": "Askatasuna, 14 perquisizioni: il pm chiede 19 misure",
+      "excerpt": "L'operazione della Polizia di Stato riguarda le indagini sui fatti del corteo del 31 gennaio a Torino. Le richieste attendono la valutazione giudiziaria.",
+      "url": "/notizie/askatasuna-14-perquisizioni-19-misure-richieste-9-ottobre-2026.html",
+      "section": "Italia / Cronaca",
+      "dateISO": "2026-10-09T11:46:22+02:00",
+      "dateLabel": "2026-10-09",
+      "image": "/assets/images/editorial-auto/askatasuna-14-perquisizioni-19-misure-richieste-9-ottobre-2026-v818-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica e non documentaria di agenti della Polizia di Stato davanti a un edificio di Torino, senza persone indagate visibili.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/askatasuna-14-perquisizioni-19-misure-richieste-9-ottobre-2026-v818-480.webp 480w, /assets/images/editorial-auto/askatasuna-14-perquisizioni-19-misure-richieste-9-ottobre-2026-v818-800.webp 800w, /assets/images/editorial-auto/askatasuna-14-perquisizioni-19-misure-richieste-9-ottobre-2026-v818-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "14",
+          "label": "perquisizioni domiciliari"
+        },
+        {
+          "icon": "•",
+          "value": "19",
+          "label": "misure cautelari richieste"
+        },
+        {
+          "icon": "•",
+          "value": "31 gennaio",
+          "label": "corteo oggetto dell'indagine"
+        }
+      ],
+      "featuredHighlights": [
+        "14",
+        "19"
+      ]
+    },
+    {
+      "title": "Industria, produzione giù dell’1,3%: energia unica eccezione",
+      "excerpt": "Istat rileva una flessione mensile ad agosto e un calo dell'1,1% nel trimestre. Su base annua l'indice resta invariato.",
+      "url": "/notizie/produzione-industriale-agosto-2026-calo-1-3-istat.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-09T11:46:21+02:00",
+      "dateLabel": "2026-10-09",
+      "image": "/assets/images/editorial-auto/produzione-industriale-agosto-2026-calo-1-3-istat-v818-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica di un impianto manifatturiero italiano con una linea automatizzata; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/produzione-industriale-agosto-2026-calo-1-3-istat-v818-480.webp 480w, /assets/images/editorial-auto/produzione-industriale-agosto-2026-calo-1-3-istat-v818-800.webp 800w, /assets/images/editorial-auto/produzione-industriale-agosto-2026-calo-1-3-istat-v818-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "-1,3%",
+          "label": "variazione su luglio"
+        },
+        {
+          "icon": "•",
+          "value": "-1,1%",
+          "label": "media giugno-agosto"
+        },
+        {
+          "icon": "•",
+          "value": "+2,8%",
+          "label": "energia nel mese"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Mutui al 3,99% ad agosto: il TAEG torna ai massimi dal 2024",
+      "excerpt": "Banca d'Italia registra un aumento dal 3,81% di luglio. Sale anche il costo del credito al consumo, mentre calano i tassi per le imprese.",
+      "url": "/notizie/mutui-taeg-3-99-agosto-2026-massimi-dal-2024.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-09T11:46:20+02:00",
+      "dateLabel": "2026-10-09",
+      "image": "/assets/images/editorial-auto/mutui-taeg-3-99-agosto-2026-massimi-dal-2024-v818-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica di una consulenza per un mutuo in un ufficio bancario italiano; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/mutui-taeg-3-99-agosto-2026-massimi-dal-2024-v818-480.webp 480w, /assets/images/editorial-auto/mutui-taeg-3-99-agosto-2026-massimi-dal-2024-v818-800.webp 800w, /assets/images/editorial-auto/mutui-taeg-3-99-agosto-2026-massimi-dal-2024-v818-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "3,99%",
+          "label": "TAEG sui nuovi mutui"
+        },
+        {
+          "icon": "•",
+          "value": "3,81%",
+          "label": "dato di luglio"
+        },
+        {
+          "icon": "•",
+          "value": "10,78%",
+          "label": "TAEG del credito al consumo"
+        }
+      ],
+      "featuredHighlights": [
+        "3,99%"
+      ]
+    },
     {
       "title": "Lotteria Italia, ad Acireale il biglietto da 10 mila euro",
       "excerpt": "Il premio giornaliero dell'8 ottobre va al tagliando F 251917. La verifica è disponibile sul sito ufficiale e nell'app My Lotteries.",
