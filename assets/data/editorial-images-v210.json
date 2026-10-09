@@ -1,7 +1,118 @@
 {
-  "version": 824,
+  "version": 825,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "it-alert-test-dighe-malga-bissina-valnegra-13-14-ottobre-2026-v825",
+      "alt": "Illustrazione editoriale di un telefono con un avviso di prova e una diga alpina visibile dalla finestra.",
+      "prompt": "Telefono con avviso di prova e diga alpina, senza loghi.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/it-alert-test-dighe-malga-bissina-valnegra-13-14-ottobre-2026-v825-480.webp",
+          "sha256": "69f27b5f28e3fcef5bd17cef950236f05b3b116097e95481ec201306209728a7",
+          "bytes": 23786
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/it-alert-test-dighe-malga-bissina-valnegra-13-14-ottobre-2026-v825-800.webp",
+          "sha256": "f3c491afe00e3d4e7636123bd391e18fbf5d2f8e9111e363ed522f0c02c7f32d",
+          "bytes": 58442
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/it-alert-test-dighe-malga-bissina-valnegra-13-14-ottobre-2026-v825-1200.webp",
+          "sha256": "b7f3b067c44cd83629bc7a969f2b2f107c7724b9c66c5e990ed4973a99f4dbb9",
+          "bytes": 110708
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "Imagine editorial illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "article": "/notizie/it-alert-test-dighe-malga-bissina-valnegra-13-14-ottobre-2026.html"
+    },
+    {
+      "key": "mostra-terremoti-italia-palmanova-13-ottobre-2026-v825",
+      "alt": "Illustrazione editoriale di una sala mostra sulla prevenzione sismica, con una pedana che simula una scossa.",
+      "prompt": "Sala mostra di protezione civile con simulatore sismico.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/mostra-terremoti-italia-palmanova-13-ottobre-2026-v825-480.webp",
+          "sha256": "a5b53a763b00a467fbc8ea4e065d748932a7a1e5da119fad231038ec35d252ce",
+          "bytes": 23064
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/mostra-terremoti-italia-palmanova-13-ottobre-2026-v825-800.webp",
+          "sha256": "04ee2b0ea5d266944add63f521c62b2dfc250723ac1164c0f449385055194dc4",
+          "bytes": 51056
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/mostra-terremoti-italia-palmanova-13-ottobre-2026-v825-1200.webp",
+          "sha256": "15756a1343f5c153949db9bd5cdbcbc200c714b45f36dc8ab1ce1ed8a26b68f7",
+          "bytes": 87386
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "Imagine editorial illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "article": "/notizie/mostra-terremoti-italia-palmanova-13-ottobre-2026.html"
+    },
+    {
+      "key": "frodi-iva-proroga-reverse-charge-giugno-2030-v825",
+      "alt": "Illustrazione editoriale di un tavolo di lavoro a Bruxelles con documenti fiscali e un computer, senza persone riconoscibili.",
+      "prompt": "Tavolo europeo di politica fiscale, senza loghi né persone.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/frodi-iva-proroga-reverse-charge-giugno-2030-v825-480.webp",
+          "sha256": "9e8aac11531d619a9232bc7cadfc594fdb0f287862cecd29f684b54d7618d2bf",
+          "bytes": 21612
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/frodi-iva-proroga-reverse-charge-giugno-2030-v825-800.webp",
+          "sha256": "497ed28e87eb0664534d6cae7bd82e6eb087f5e5923dfc8ab9e1a5740683674e",
+          "bytes": 44440
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/frodi-iva-proroga-reverse-charge-giugno-2030-v825-1200.webp",
+          "sha256": "decdfe2bf7cf0926a321af4e265e30064adb2c38e76fb52ad984c390e1ff91d8",
+          "bytes": 72754
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "Imagine editorial illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "article": "/notizie/frodi-iva-proroga-reverse-charge-giugno-2030.html"
+    },
     {
       "key": "carlo-comporti-presidente-esma-1-novembre-2026-v824",
       "alt": "Illustrazione editoriale IA ultrarealistica di Carlo Comporti in una sede europea di vigilanza finanziaria; scena non documentaria.",
