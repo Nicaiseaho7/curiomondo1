@@ -448,10 +448,9 @@ for card in home.xpath('//a[@href][.//h3]'):
     if any(term in signal for term in film_tv_terms):
         label=' '.join(card.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," ameta ") or contains(concat(" ",normalize-space(@class)," ")," meta ")]//text()')).strip()
         if label!='Film e serie TV': errors.append(f'tag film/serie non conforme in homepage: {card.get("href")}')
-nba_terms=('nba','basket','raptors','clippers')
 for card in home.xpath('//a[@href][.//h3]'):
     signal=' '.join([card.get('href',''),' '.join(card.xpath('.//h3//text()'))]).casefold()
-    if any(term in signal for term in nba_terms):
+    if re.search(r'\b(nba|basket|raptors|clippers)\b', signal):
         label=' '.join(card.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," ameta ") or contains(concat(" ",normalize-space(@class)," ")," meta ")]//text()')).strip()
         if label!='Sport': errors.append(f'tag NBA/basket non conforme in homepage: {card.get("href")}')
 if home.xpath('//footer//*[contains(concat(" ",normalize-space(@class)," ")," cm-nicaise-signature ")]'): errors.append('firma Nicaise ancora presente nel footer home')

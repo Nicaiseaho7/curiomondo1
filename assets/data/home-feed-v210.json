@@ -1,6 +1,328 @@
 {
-  "version": 821,
+  "version": 822,
   "items": [
+    {
+      "title": "ESMA apre ai collaterali tokenizzati: consultazione fino al 15 gennaio",
+      "excerpt": "L'autorità europea chiede al mercato quando obbligazioni e altri asset digitalizzati possano essere usati in sicurezza dalle controparti centrali.",
+      "url": "/notizie/esma-collaterali-tokenizzati-consultazione-15-gennaio-2027.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-09T16:38:15+02:00",
+      "dateLabel": "2026-10-09",
+      "image": "/assets/images/editorial-auto/esma-collaterali-tokenizzati-consultazione-15-gennaio-2027-v821-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica di obbligazioni e oro trasformati in garanzie digitali davanti a un'infrastruttura finanziaria europea; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/esma-collaterali-tokenizzati-consultazione-15-gennaio-2027-v821-480.webp 480w, /assets/images/editorial-auto/esma-collaterali-tokenizzati-consultazione-15-gennaio-2027-v821-800.webp 800w, /assets/images/editorial-auto/esma-collaterali-tokenizzati-consultazione-15-gennaio-2027-v821-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "15 gennaio 2027",
+          "label": "termine per le risposte"
+        },
+        {
+          "icon": "•",
+          "value": "1° trimestre 2027",
+          "label": "valutazione ESMA"
+        },
+        {
+          "icon": "•",
+          "value": "CCP",
+          "label": "controparti centrali coinvolte"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Stablecoin non conformi a MiCA: ESMA chiede lo stop ai servizi",
+      "excerpt": "La vigilanza europea include trading, custodia, trasferimenti e consulenza. Le esposizioni già esistenti dovrebbero essere risolte entro tre mesi.",
+      "url": "/notizie/stablecoin-non-conformi-mica-esma-stop-servizi-tre-mesi-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-09T16:38:14+02:00",
+      "dateLabel": "2026-10-09",
+      "image": "/assets/images/editorial-auto/stablecoin-non-conformi-mica-esma-stop-servizi-tre-mesi-2026-v821-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica di una stablecoin fermata da una barriera di conformità europea; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/stablecoin-non-conformi-mica-esma-stop-servizi-tre-mesi-2026-v821-480.webp 480w, /assets/images/editorial-auto/stablecoin-non-conformi-mica-esma-stop-servizi-tre-mesi-2026-v821-800.webp 800w, /assets/images/editorial-auto/stablecoin-non-conformi-mica-esma-stop-servizi-tre-mesi-2026-v821-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "3 mesi",
+          "label": "termine massimo indicato"
+        },
+        {
+          "icon": "•",
+          "value": "tutti i servizi",
+          "label": "dal trading alla custodia"
+        },
+        {
+          "icon": "•",
+          "value": "MiCA",
+          "label": "quadro europeo applicato"
+        }
+      ],
+      "featuredHighlights": [
+        "MiCA"
+      ]
+    },
+    {
+      "title": "Samsung Wallet integra USDC negli USA con la custodia di Coinbase",
+      "excerpt": "Il lancio parte nell'ultima settimana di ottobre per il mercato statunitense. USDC sarà la stablecoin in dollari predefinita nel portafoglio.",
+      "url": "/notizie/samsung-wallet-usdc-coinbase-stati-uniti-ottobre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-10-09T16:38:13+02:00",
+      "dateLabel": "2026-10-09",
+      "image": "/assets/images/editorial-auto/samsung-wallet-usdc-coinbase-stati-uniti-ottobre-2026-v821-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica di uno smartphone Samsung Wallet con simbolo USDC e custodia Coinbase; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/samsung-wallet-usdc-coinbase-stati-uniti-ottobre-2026-v821-480.webp 480w, /assets/images/editorial-auto/samsung-wallet-usdc-coinbase-stati-uniti-ottobre-2026-v821-800.webp 800w, /assets/images/editorial-auto/samsung-wallet-usdc-coinbase-stati-uniti-ottobre-2026-v821-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "ultima settimana",
+          "label": "avvio previsto a ottobre"
+        },
+        {
+          "icon": "•",
+          "value": "USA",
+          "label": "mercato iniziale"
+        },
+        {
+          "icon": "•",
+          "value": "Coinbase Prime",
+          "label": "custodia delle disponibilità"
+        }
+      ],
+      "featuredHighlights": [
+        "USA"
+      ]
+    },
+    {
+      "title": "USDC ed EURC entrano nei flussi SAP con Circle e Tereina",
+      "excerpt": "La partnership punta a integrare pagamenti in stablecoin nelle applicazioni aziendali. I primi programmi pilota arriveranno nei prossimi mesi.",
+      "url": "/notizie/circle-tereina-usdc-eurc-pagamenti-sap-ottobre-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-09T16:38:12+02:00",
+      "dateLabel": "2026-10-09",
+      "image": "/assets/images/editorial-auto/circle-tereina-usdc-eurc-pagamenti-sap-ottobre-2026-v821-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica di pagamenti aziendali in dollari ed euro collegati a flussi logistici globali; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/circle-tereina-usdc-eurc-pagamenti-sap-ottobre-2026-v821-480.webp 480w, /assets/images/editorial-auto/circle-tereina-usdc-eurc-pagamenti-sap-ottobre-2026-v821-800.webp 800w, /assets/images/editorial-auto/circle-tereina-usdc-eurc-pagamenti-sap-ottobre-2026-v821-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "2 stablecoin",
+          "label": "USDC ed EURC"
+        },
+        {
+          "icon": "•",
+          "value": "SAP Cloud ERP",
+          "label": "ambiente di partenza"
+        },
+        {
+          "icon": "•",
+          "value": "prossimi mesi",
+          "label": "avvio dei programmi pilota"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Coinbase addestra un'IA antifrode: -55% di latenza nei test",
+      "excerpt": "Il modello Qwen3.5-9B specializzato ha superato il riferimento interno su quattro metriche. I risultati sono aziendali e riguardano il sistema Onramp.",
+      "url": "/notizie/coinbase-ia-antifrode-onramp-qwen-latenza-test-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-10-09T16:38:11+02:00",
+      "dateLabel": "2026-10-09",
+      "image": "/assets/images/editorial-auto/coinbase-ia-antifrode-onramp-qwen-latenza-test-2026-v821-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica di un'analista davanti a un sistema antifrode per transazioni crypto, con volto visibile; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/coinbase-ia-antifrode-onramp-qwen-latenza-test-2026-v821-480.webp 480w, /assets/images/editorial-auto/coinbase-ia-antifrode-onramp-qwen-latenza-test-2026-v821-800.webp 800w, /assets/images/editorial-auto/coinbase-ia-antifrode-onramp-qwen-latenza-test-2026-v821-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "-55%",
+          "label": "latenza mediana dichiarata"
+        },
+        {
+          "icon": "•",
+          "value": "+9,6%",
+          "label": "miglioramento F1 nel benchmark"
+        },
+        {
+          "icon": "•",
+          "value": "9 miliardi",
+          "label": "parametri del modello Qwen"
+        }
+      ],
+      "featuredHighlights": [
+        "-55%"
+      ]
+    },
+    {
+      "title": "Permessi di costruire, abitazioni +3,8% nel secondo trimestre",
+      "excerpt": "Istat stima 13.246 nuove abitazioni autorizzate. Crescono anche superficie residenziale e comparto non residenziale, ma non è ancora recuperato il calo precedente.",
+      "url": "/notizie/permessi-costruire-abitazioni-crescita-secondo-trimestre-2026-istat.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-09T16:38:10+02:00",
+      "dateLabel": "2026-10-09",
+      "image": "/assets/images/editorial-auto/permessi-costruire-abitazioni-crescita-secondo-trimestre-2026-istat-v821-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica di nuove abitazioni e un cantiere ordinato a Firenze; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/permessi-costruire-abitazioni-crescita-secondo-trimestre-2026-istat-v821-480.webp 480w, /assets/images/editorial-auto/permessi-costruire-abitazioni-crescita-secondo-trimestre-2026-istat-v821-800.webp 800w, /assets/images/editorial-auto/permessi-costruire-abitazioni-crescita-secondo-trimestre-2026-istat-v821-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "+3,8%",
+          "label": "abitazioni sul trimestre precedente"
+        },
+        {
+          "icon": "•",
+          "value": "13.246",
+          "label": "abitazioni stimate"
+        },
+        {
+          "icon": "•",
+          "value": "+2,0%",
+          "label": "superficie non residenziale"
+        }
+      ],
+      "featuredHighlights": [
+        "+3,8%"
+      ]
+    },
+    {
+      "title": "Mercati dei capitali UE, accordo del Consiglio sulla nuova vigilanza",
+      "excerpt": "La posizione negoziale trasferirebbe a ESMA il controllo degli operatori transfrontalieri più rilevanti. Ora serve il confronto con il Parlamento.",
+      "url": "/notizie/mercati-capitali-ue-accordo-consiglio-vigilanza-esma-9-ottobre-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-09T16:38:09+02:00",
+      "dateLabel": "2026-10-09",
+      "image": "/assets/images/editorial-auto/mercati-capitali-ue-accordo-consiglio-vigilanza-esma-9-ottobre-2026-v821-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica di una riunione europea collegata a una rete dei mercati dei capitali; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/mercati-capitali-ue-accordo-consiglio-vigilanza-esma-9-ottobre-2026-v821-480.webp 480w, /assets/images/editorial-auto/mercati-capitali-ue-accordo-consiglio-vigilanza-esma-9-ottobre-2026-v821-800.webp 800w, /assets/images/editorial-auto/mercati-capitali-ue-accordo-consiglio-vigilanza-esma-9-ottobre-2026-v821-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "9 ottobre",
+          "label": "accordo del Consiglio"
+        },
+        {
+          "icon": "•",
+          "value": "ESMA",
+          "label": "vigilanza europea rafforzata"
+        },
+        {
+          "icon": "•",
+          "value": "negoziato",
+          "label": "passaggio ancora necessario"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Lista fiscale UE, fuori Panama e Vietnam: restano otto giurisdizioni",
+      "excerpt": "Il Consiglio sposta i due paesi nell'allegato dedicato agli impegni in corso. La prossima revisione della lista è prevista a febbraio 2027.",
+      "url": "/notizie/lista-fiscale-ue-panama-vietnam-rimossi-otto-giurisdizioni-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-09T16:38:08+02:00",
+      "dateLabel": "2026-10-09",
+      "image": "/assets/images/editorial-auto/lista-fiscale-ue-panama-vietnam-rimossi-otto-giurisdizioni-2026-v821-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica di un tavolo del Consiglio UE con Panama e Vietnam evidenziati su una mappa; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/lista-fiscale-ue-panama-vietnam-rimossi-otto-giurisdizioni-2026-v821-480.webp 480w, /assets/images/editorial-auto/lista-fiscale-ue-panama-vietnam-rimossi-otto-giurisdizioni-2026-v821-800.webp 800w, /assets/images/editorial-auto/lista-fiscale-ue-panama-vietnam-rimossi-otto-giurisdizioni-2026-v821-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "8",
+          "label": "giurisdizioni ancora elencate"
+        },
+        {
+          "icon": "•",
+          "value": "2 paesi",
+          "label": "Panama e Vietnam rimossi"
+        },
+        {
+          "icon": "•",
+          "value": "febbraio 2027",
+          "label": "prossima revisione"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Materie prime critiche, l'UE seleziona 46 nuovi progetti",
+      "excerpt": "Le iniziative coprono sedici paesi e richiedono circa 21,1 miliardi. Lo status strategico accelera permessi e accesso ai finanziatori, ma non garantisce fondi.",
+      "url": "/notizie/materie-prime-critiche-ue-46-progetti-strategici-21-miliardi-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-09T16:38:07+02:00",
+      "dateLabel": "2026-10-09",
+      "image": "/assets/images/editorial-auto/materie-prime-critiche-ue-46-progetti-strategici-21-miliardi-2026-v821-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica di impianti europei per lavorazione e riciclo di materie prime critiche; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/materie-prime-critiche-ue-46-progetti-strategici-21-miliardi-2026-v821-480.webp 480w, /assets/images/editorial-auto/materie-prime-critiche-ue-46-progetti-strategici-21-miliardi-2026-v821-800.webp 800w, /assets/images/editorial-auto/materie-prime-critiche-ue-46-progetti-strategici-21-miliardi-2026-v821-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "46",
+          "label": "nuovi progetti strategici"
+        },
+        {
+          "icon": "•",
+          "value": "16 paesi",
+          "label": "presenza nell'Unione"
+        },
+        {
+          "icon": "•",
+          "value": "21,1 miliardi",
+          "label": "capitale stimato necessario"
+        }
+      ],
+      "featuredHighlights": [
+        "46"
+      ]
+    },
+    {
+      "title": "Difesa europea, via libera finale alle norme per accelerare appalti",
+      "excerpt": "Il Consiglio adotta il pacchetto Omnibus V: meno ritardi per autorizzazioni, acquisti e cooperazione industriale. Seguiranno pubblicazione ed entrata in vigore.",
+      "url": "/notizie/difesa-europea-norme-appalti-investimenti-via-libera-consiglio-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-10-09T16:38:06+02:00",
+      "dateLabel": "2026-10-09",
+      "image": "/assets/images/editorial-auto/difesa-europea-norme-appalti-investimenti-via-libera-consiglio-2026-v821-800.webp",
+      "imageAlt": "Illustrazione editoriale IA ultrarealistica di una struttura logistica europea per la difesa con mezzi non armati e bandiere UE; scena non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/difesa-europea-norme-appalti-investimenti-via-libera-consiglio-2026-v821-480.webp 480w, /assets/images/editorial-auto/difesa-europea-norme-appalti-investimenti-via-libera-consiglio-2026-v821-800.webp 800w, /assets/images/editorial-auto/difesa-europea-norme-appalti-investimenti-via-libera-consiglio-2026-v821-1200.webp 1200w",
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "Omnibus V",
+          "label": "nome del pacchetto"
+        },
+        {
+          "icon": "•",
+          "value": "via libera finale",
+          "label": "decisione del Consiglio"
+        },
+        {
+          "icon": "•",
+          "value": "9 ottobre",
+          "label": "data dell'adozione"
+        }
+      ],
+      "featuredHighlights": [
+        "via libera finale"
+      ]
+    },
     {
       "title": "Firenze, incendio nel deposito degli autobus: 12 mezzi distrutti",
       "excerpt": "Le fiamme sono divampate nella notte in viale XI Agosto. Altri sette bus sono danneggiati. Non risultano persone coinvolte e gli accertamenti sono aperti.",
