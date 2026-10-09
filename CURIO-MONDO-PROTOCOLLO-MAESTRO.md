@@ -219,6 +219,15 @@ Gli errori tecnici reali di sitemap, canonical, schema, redirect e robots restan
 ### Regola obbligatoria — continuità cronologica homepage (apertura + Ultime notizie + Tutte le notizie)
 Quando viene aggiunta una nuova notizia, questa entra nella card di apertura (`featured`) o nel blocco **Ultime notizie** (`auto-rail`), spingendo in avanti le notizie precedenti. Una notizia che esce da **Ultime notizie** per mancanza di spazio deve ricomparire come **prima** notizia in **Tutte le notizie** (`#cards`), e così via a cascata. La sequenza `featured → Ultime notizie (5) → Tutte le notizie` deve corrispondere, notizia per notizia e nello stesso ordine, ai primi N articoli pubblicati e idonei (non noindex, con immagine editoriale) ordinati dalla data di pubblicazione più recente alla meno recente, **senza salti**. Non è ammesso nascondere o saltare articoli intermedi per nessun motivo (inclusa la presenza nel ticker LIVE, che è una fascia indipendente e non conta come "già mostrato"). Esempio vincolante fornito dall'editore: se in Ultime notizie compaiono articoli del 6 settembre, la prima card di Tutte le notizie non può essere del 4 settembre, perché significherebbe aver nascosto gli articoli del 5 settembre. Questo invariante è verificato automaticamente da `tools/predeploy.py`, che confronta la sequenza reale della homepage con l'ordine cronologico ricavato direttamente dalla data di pubblicazione (`datePublished`) di ogni articolo e blocca il deploy (errore `sequenza cronologica homepage non continua`) se viene rilevato un salto.
 
+### Ultima ora — orari distanziati (9 ottobre 2026)
+Nel riquadro **Ultima ora** gli orari visibili delle notizie uscite nello stesso lotto non possono coincidere. Tra una voce e la successiva la differenza è sempre compresa tra **5 e 20 minuti**. Gli scarti non sono tutti uguali.
+
+Si spostano soltanto gli orari di pubblicazione: `datePublished`, il testo «alle ore», `cm-wire__time`, `dateISO` nel home-feed, `news:publication_date` e `pubDate` del feed. Non si modificano gli orari dei fatti (concerti, partite, scioperi, treni, aperture).
+
+La notizia più recente del lotto tiene l’ora reale del rilascio. Le precedenti arretrano, una dopo l’altra, di 5–20 minuti. L’ordine della homepage segue questi orari.
+
+Se lo scarto renderebbe `datePublished` più vecchio di 15 minuti rispetto al commit che crea la pagina, e il predeploy lo blocca, si pubblica il lotto e subito dopo si applicano gli scarti in un commit che modifica solo gli orari, senza aggiungere file.
+
 
 ## Regole editoriali di fluidità e marchio — v151
 - Le notizie seguono la piramide invertita e, di default, non usano H2/H3 nel corpo. Gli approfondimenti da 800 parole in su usano pochi titoletti informativi per favorire la scansione.

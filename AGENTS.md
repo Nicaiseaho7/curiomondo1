@@ -241,6 +241,9 @@ eseguire i gate immediatamente prima del commit/push. L'ora della bozza non è
 la prima pubblicazione. Conservare l'ordine delle notizie del lotto e verificare
 il sito live dopo il deploy. Non spostare i gate dentro la build Netlify.
 
+### Ultima ora — orari distanziati (9 ottobre 2026)
+Nel riquadro **Ultima ora** gli orari dello stesso lotto non possono essere uguali. Tra una notizia e la successiva ci sono sempre da **5 a 20 minuti**, con scarti non tutti identici. Si cambia solo l’orario di pubblicazione (`datePublished`, «alle ore», `cm-wire__time`, home-feed, News Sitemap e feed), mai l’orario dell’evento. La più recente tiene l’ora del rilascio; le altre arretrano. Dettaglio e eccezione dei 15 minuti del predeploy: `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`.
+
 ## Immagini forze dell’ordine — niente targhe (27 settembre 2026)
 Nelle illustrazioni di auto di **Carabinieri, Polizia, Guardia di Finanza, ambulanza, vigili del fuoco** **non** inserire mai targhe (neppure inventate o sfocate leggibili). Paraurti pulito, senza riquadro targa. Vale anche per veicoli esteri di polizia.
 
