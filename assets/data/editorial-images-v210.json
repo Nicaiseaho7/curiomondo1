@@ -1,7 +1,79 @@
 {
-  "version": 830,
+  "version": 831,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "rc-professionale-ingegneri-architetti-massimali-copertura-v831",
+      "article": "/approfondimenti/rc-professionale-ingegneri-architetti-massimali-copertura.html",
+      "alt": "Professionista in uno studio tecnico con progetti, modello di edificio, casco e due cartelle contrattuali; illustrazione editoriale IA non documentaria.",
+      "prompt": "Photorealistic-natural, 3:2 Italian editorial cover: adult civil engineer face visible in realistic architecture studio, technical plans, small building model, yellow hard hat and two open blank contract folders. No floating symbols, money, text, logos, watermark or collage. Conceptual illustration, not a named individual or event; natural light, realistic hands and geometry.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/rc-professionale-ingegneri-architetti-massimali-copertura-v831-480.webp",
+          "sha256": "cdf2f381a86dc0ed2f98b2908f9db338641e7990f0146c403c0d6f04694cbc93",
+          "bytes": 30482
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/rc-professionale-ingegneri-architetti-massimali-copertura-v831-800.webp",
+          "sha256": "15e01572f29db0dfd71430857dc6425d86938f992dd707e6d2d7691bd7cba3df",
+          "bytes": 58300
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/rc-professionale-ingegneri-architetti-massimali-copertura-v831-1200.webp",
+          "sha256": "232cc3bf477d585edc6b048eec8a9fc769122c6c12955f53f21b6d734af5faa4",
+          "bytes": 94344
+        }
+      ]
+    },
+    {
+      "key": "chirurgia-plastica-confrontare-preventivi-cliniche-v831",
+      "article": "/approfondimenti/chirurgia-plastica-confrontare-preventivi-cliniche.html",
+      "alt": "Medica e donna adulta confrontano documenti durante un colloquio, con un modello anatomico del naso; illustrazione editoriale IA non documentaria.",
+      "prompt": "Photorealistic-natural, 3:2 Italian guide cover: adult woman doctor and client in calm surgery consultation office, both faces visible, comparing two blank quotation sheets beside neutral nose model. No procedure, distress, text, logos, watermark or collage. Conceptual editorial illustration, not a real doctor or clinic. Natural light, realistic anatomy, mobile-safe composition.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/chirurgia-plastica-confrontare-preventivi-cliniche-v831-480.webp",
+          "sha256": "caad54975187e4383274560d5fe33c11fdb9d70accca9727cf4e802cfe124400",
+          "bytes": 18286
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/chirurgia-plastica-confrontare-preventivi-cliniche-v831-800.webp",
+          "sha256": "1316e68e9b3d048c004762fea2e02935a8ccf5506a586cc1b5bca1fcf4095e39",
+          "bytes": 35654
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/chirurgia-plastica-confrontare-preventivi-cliniche-v831-1200.webp",
+          "sha256": "1b22752ca7dad77c29dba3931d457bd726e87be9b55b5291896d425a1cc3a6c9",
+          "bytes": 63392
+        }
+      ]
+    },
     {
       "key": "sd-wan-come-funziona-quanto-costa-v830",
       "article": "/approfondimenti/sd-wan-come-funziona-quanto-costa.html",
