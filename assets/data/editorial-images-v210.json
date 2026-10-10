@@ -1,7 +1,79 @@
 {
-  "version": 829,
+  "version": 830,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "sd-wan-come-funziona-quanto-costa-v830",
+      "article": "/approfondimenti/sd-wan-come-funziona-quanto-costa.html",
+      "alt": "Tecnico di rete osserva apparati e computer in una sala server; illustrazione editoriale IA non documentaria.",
+      "prompt": "Photorealistic 3:2 editorial cover, Italian network engineer face visible beside realistic rack network hardware and unlabeled laptop, calm blue natural light, no fake logos or readable text, conceptual SD-WAN illustration.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/sd-wan-come-funziona-quanto-costa-v830-480.webp",
+          "sha256": "98d02f89b9d3ef81ee4e9e9e160de8d32de830da7322ed0e3522e3327cfb96b8",
+          "bytes": 31336
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/sd-wan-come-funziona-quanto-costa-v830-800.webp",
+          "sha256": "cdbd08551ec9521322f3981d19d33f86cf2ecfca3f9309aff5e1faf55e823f87",
+          "bytes": 62710
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/sd-wan-come-funziona-quanto-costa-v830-1200.webp",
+          "sha256": "5d244b7765f8c647f8d4fa3a918c7c24f0ff3a5d051209180603c29b7df373ff",
+          "bytes": 106204
+        }
+      ]
+    },
+    {
+      "key": "certificazione-iso-14001-costi-procedura-v830",
+      "article": "/approfondimenti/certificazione-iso-14001-costi-procedura.html",
+      "alt": "Addetto in uno stabilimento esamina una scheda davanti a impianti industriali; illustrazione editoriale IA non documentaria.",
+      "prompt": "Photorealistic 3:2 Italian industrial workshop, worker with face visible reviewing blank clipboard near machinery and environmental monitoring, natural light, no logos or readable text, conceptual editorial illustration of ISO 14001 rather than a real audit.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/certificazione-iso-14001-costi-procedura-v830-480.webp",
+          "sha256": "583e407fc61338059902488b8e89889e0bf24bbfc4449a97ff7b5c9101f437f5",
+          "bytes": 34398
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/certificazione-iso-14001-costi-procedura-v830-800.webp",
+          "sha256": "9bac4f00d1545aed2d714e38c189d21af54790cb7302777581c29057a9d05075",
+          "bytes": 67120
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/certificazione-iso-14001-costi-procedura-v830-1200.webp",
+          "sha256": "eb9905e37cdecde02f33bbc9b831e386ac6e3ae7994ae96566dd115634bb4076",
+          "bytes": 112622
+        }
+      ]
+    },
     {
       "key": "imprese-italiane-quarto-trimestre-costi-materie-prime-10-10-2026-v829",
       "alt": "Illustrazione editoriale IA ultrarealistica di imprenditori italiani che esaminano costi e ordini; scena non documentaria.",
