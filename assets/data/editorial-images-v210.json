@@ -1,7 +1,397 @@
 {
-  "version": 831,
+  "version": 832,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "cologno-monzese-quattro-arresti-arma-clandestina-indagini-10-10-2026-v832",
+      "alt": "Ricostruzione editoriale IA ultrarealistica di una strada di Cologno Monzese presidiata nella notte; non è una fotografia dell'operazione.",
+      "prompt": "Strada di Cologno Monzese presidiata nella notte, nessuna persona o violenza visibile; logo CurioMondo perfettamente circolare applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/cologno-monzese-quattro-arresti-arma-clandestina-indagini-10-10-2026-v832-480.webp",
+          "sha256": "bb86d723077431fa9d8460db25e73b0eaa2e05c5c217ed0d9543d3d291ece6b1",
+          "bytes": 42512
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/cologno-monzese-quattro-arresti-arma-clandestina-indagini-10-10-2026-v832-800.webp",
+          "sha256": "4343de3d05816afc00f9c9c0ae7195f5a06cc48388ac1bc0f5209f8bd6a0a137",
+          "bytes": 108916
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/cologno-monzese-quattro-arresti-arma-clandestina-indagini-10-10-2026-v832-1200.webp",
+          "sha256": "b26073472281073502ae7c8ada025bae76ff4ee764996c92274311cee987a26b",
+          "bytes": 210820
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": true,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/cologno-monzese-quattro-arresti-arma-clandestina-indagini-10-10-2026.html"
+    },
+    {
+      "key": "ecdc-minacce-sanitarie-europa-settimana-41-ottobre-2026-v832",
+      "alt": "Illustrazione editoriale IA ultrarealistica di un centro europeo di sorveglianza epidemiologica; scena non documentaria.",
+      "prompt": "Centro europeo di sorveglianza epidemiologica con ricercatori e mappa dell'Europa; logo CurioMondo perfettamente circolare applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ecdc-minacce-sanitarie-europa-settimana-41-ottobre-2026-v832-480.webp",
+          "sha256": "a73ce4d5e353807dd794990f23ddb6c1c8ccdffe1c313627b0a15ce1017b73ac",
+          "bytes": 40636
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ecdc-minacce-sanitarie-europa-settimana-41-ottobre-2026-v832-800.webp",
+          "sha256": "936fafa990662879011213bdf955963b60fb7d8289033f38e1b35e5a4d639d26",
+          "bytes": 82242
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ecdc-minacce-sanitarie-europa-settimana-41-ottobre-2026-v832-1200.webp",
+          "sha256": "dec140139e48a0151d94d14fada252d5c4dda8f8a657cef9f5db930684dafa10",
+          "bytes": 134952
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/ecdc-minacce-sanitarie-europa-settimana-41-ottobre-2026.html"
+    },
+    {
+      "key": "reggio-calabria-rapina-gioielleria-pellaro-tre-misure-10-10-2026-v832",
+      "alt": "Ricostruzione editoriale IA ultrarealistica dell'esterno di una gioielleria a Pellaro messa in sicurezza; non è una fotografia dell'operazione.",
+      "prompt": "Gioielleria a Pellaro messa in sicurezza, nessuna persona o violenza visibile; logo CurioMondo perfettamente circolare applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/reggio-calabria-rapina-gioielleria-pellaro-tre-misure-10-10-2026-v832-480.webp",
+          "sha256": "4a1ac9deb3013c25e9644f3e5d028247873fa36b39b18a5fec2947742898ae1e",
+          "bytes": 39426
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/reggio-calabria-rapina-gioielleria-pellaro-tre-misure-10-10-2026-v832-800.webp",
+          "sha256": "b300c993129c22b79dc2a78218d9184f016d459d0f92fe9af8ac214a6911d380",
+          "bytes": 95394
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/reggio-calabria-rapina-gioielleria-pellaro-tre-misure-10-10-2026-v832-1200.webp",
+          "sha256": "8a2e73c2976be8a885673db3ddae6c21e0211f12252f3de8f5c06b18aa243d31",
+          "bytes": 178560
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": true,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/reggio-calabria-rapina-gioielleria-pellaro-tre-misure-10-10-2026.html"
+    },
+    {
+      "key": "oms-obesita-bambini-adolescenti-linee-guida-7-ottobre-2026-v832",
+      "alt": "Illustrazione editoriale IA ultrarealistica di un colloquio pediatrico rispettoso su alimentazione e attività fisica; scena non documentaria.",
+      "prompt": "Pediatra, genitore e bambino parlano di alimentazione e movimento senza stigma; logo CurioMondo perfettamente circolare applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/oms-obesita-bambini-adolescenti-linee-guida-7-ottobre-2026-v832-480.webp",
+          "sha256": "ce6e582c33cf11a6e5ef722ad8255e65fa30dc0a41192887e9025211f5a568ce",
+          "bytes": 36298
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/oms-obesita-bambini-adolescenti-linee-guida-7-ottobre-2026-v832-800.webp",
+          "sha256": "7a7718c59eea90f92ab1a4949503392ed4804c69a089967ea44288c5c3a25518",
+          "bytes": 75398
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/oms-obesita-bambini-adolescenti-linee-guida-7-ottobre-2026-v832-1200.webp",
+          "sha256": "cbea5cbfb943d7374922350b4726c81e4f8d79a3aab95c0998e5cef0968aa1da",
+          "bytes": 133604
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/oms-obesita-bambini-adolescenti-linee-guida-7-ottobre-2026.html"
+    },
+    {
+      "key": "pontecorvo-auto-autolavaggio-carabiniere-arresto-10-10-2026-v832",
+      "alt": "Ricostruzione editoriale IA ultrarealistica di un autolavaggio ad Aquino messo in sicurezza; non è una fotografia dell'intervento.",
+      "prompt": "Autolavaggio ad Aquino messo in sicurezza con auto dei Carabinieri vuota; logo CurioMondo perfettamente circolare applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/pontecorvo-auto-autolavaggio-carabiniere-arresto-10-10-2026-v832-480.webp",
+          "sha256": "e8d946867cdf74637132e7bcd3acf1830351520f3a314312202f16d571dc264e",
+          "bytes": 49428
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/pontecorvo-auto-autolavaggio-carabiniere-arresto-10-10-2026-v832-800.webp",
+          "sha256": "57fa9c955faef6d3455ceb261499ca8fbb206c2df6ccc5365a660437da1c9c16",
+          "bytes": 122066
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/pontecorvo-auto-autolavaggio-carabiniere-arresto-10-10-2026-v832-1200.webp",
+          "sha256": "cae4f5c7342799777e519ee739ddb842d84c113026f2c8260d0be895df738ce1",
+          "bytes": 248348
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": true,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/pontecorvo-auto-autolavaggio-carabiniere-arresto-10-10-2026.html"
+    },
+    {
+      "key": "giornata-uccelli-migratori-italia-citizen-science-10-10-2026-v832",
+      "alt": "Illustrazione editoriale IA ultrarealistica di uccelli migratori osservati in una zona umida italiana; scena non documentaria.",
+      "prompt": "Uccelli migratori sopra una zona umida italiana con osservatori di profilo; logo CurioMondo perfettamente circolare applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/giornata-uccelli-migratori-italia-citizen-science-10-10-2026-v832-480.webp",
+          "sha256": "5f50a23270eca1d8ed738bf7d2aaee3e4d5164e50fcd1a403d2a0ff38c667845",
+          "bytes": 41296
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/giornata-uccelli-migratori-italia-citizen-science-10-10-2026-v832-800.webp",
+          "sha256": "001f95efd2488b970f97fd23d2cdc4535ac5a8ee0fb308e0821dc927ef811743",
+          "bytes": 97218
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/giornata-uccelli-migratori-italia-citizen-science-10-10-2026-v832-1200.webp",
+          "sha256": "c35ff8a26f2652b2c63679038f122c9f1dcd7a3327c5e80164c6d0c32f93ce14",
+          "bytes": 184004
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/giornata-uccelli-migratori-italia-citizen-science-10-10-2026.html"
+    },
+    {
+      "key": "roma-tuscolano-controlli-quattro-arresti-locale-sospeso-9-10-2026-v832",
+      "alt": "Ricostruzione editoriale IA ultrarealistica di controlli in una strada del Tuscolano senza persone visibili; non è una fotografia dell'operazione.",
+      "prompt": "Strada del Tuscolano con pattuglie e locale chiuso, nessuna persona visibile; logo CurioMondo perfettamente circolare applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/roma-tuscolano-controlli-quattro-arresti-locale-sospeso-9-10-2026-v832-480.webp",
+          "sha256": "5b9b901825e5a3272052800e3d1ba9eca4d0f1dd624fd92b50b6b03080077ead",
+          "bytes": 49390
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/roma-tuscolano-controlli-quattro-arresti-locale-sospeso-9-10-2026-v832-800.webp",
+          "sha256": "db793c416a8ef764e28ea986db952b293e783e5c0f35df527cff9f4b981d8433",
+          "bytes": 120460
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/roma-tuscolano-controlli-quattro-arresti-locale-sospeso-9-10-2026-v832-1200.webp",
+          "sha256": "7067601bd6802f7a8754af8e4477839c344f6655b37ff43af2f80618aa2925e9",
+          "bytes": 234646
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": true,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/roma-tuscolano-controlli-quattro-arresti-locale-sospeso-9-10-2026.html"
+    },
+    {
+      "key": "waveguard-allerta-medicane-meteotsunami-sicilia-malta-2026-v832",
+      "alt": "Illustrazione editoriale IA ultrarealistica di una boa e una stazione di monitoraggio nel Canale di Sicilia; scena non documentaria.",
+      "prompt": "Boa oceanografica e stazione costiera davanti all'Etna per monitorare il mare; logo CurioMondo perfettamente circolare applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/waveguard-allerta-medicane-meteotsunami-sicilia-malta-2026-v832-480.webp",
+          "sha256": "69c10f677beb598dbc096d2be40c063ce15eb8533652d08ae7b90c68b7eafb41",
+          "bytes": 43570
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/waveguard-allerta-medicane-meteotsunami-sicilia-malta-2026-v832-800.webp",
+          "sha256": "781f4fa4fe3a987de88c6ba2f9735f5d12e2ed0b43a0c3f7b9be77d15b4254a8",
+          "bytes": 108290
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/waveguard-allerta-medicane-meteotsunami-sicilia-malta-2026-v832-1200.webp",
+          "sha256": "91fcc1ec5313124f22ffc24e72daf4a2f08138d398d229273fdd5cec5c6a598a",
+          "bytes": 214482
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/waveguard-allerta-medicane-meteotsunami-sicilia-malta-2026.html"
+    },
+    {
+      "key": "campoli-appennino-ordigni-bellici-domiciliari-10-10-2026-v832",
+      "alt": "Ricostruzione editoriale IA ultrarealistica di una strada di Campoli Appennino durante la bonifica, senza ordigni o persone visibili; non è una fotografia dell'intervento.",
+      "prompt": "Strada di Campoli Appennino delimitata con mezzi tecnici vuoti, nessun ordigno visibile; logo CurioMondo perfettamente circolare applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/campoli-appennino-ordigni-bellici-domiciliari-10-10-2026-v832-480.webp",
+          "sha256": "54d5c599a942cbf363ed15c049ef9e2d5a55a6e929ac4990868c1b51f2c41c71",
+          "bytes": 53018
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/campoli-appennino-ordigni-bellici-domiciliari-10-10-2026-v832-800.webp",
+          "sha256": "4cf8a43ca63cb0db78d914431b867d86a140556b8ecc947b34df4001979a8c72",
+          "bytes": 134144
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/campoli-appennino-ordigni-bellici-domiciliari-10-10-2026-v832-1200.webp",
+          "sha256": "acaa34a10083c8b944c4d02515abb3eec94a70c05b66162229698486005fc700",
+          "bytes": 268500
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": true,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/campoli-appennino-ordigni-bellici-domiciliari-10-10-2026.html"
+    },
+    {
+      "key": "piano-nazionale-ripristino-natura-bozza-commissione-ue-2026-v832",
+      "alt": "Illustrazione editoriale IA ultrarealistica di una zona umida italiana rinaturalizzata; scena non documentaria.",
+      "prompt": "Zona umida italiana ripristinata con passerella e fauna selvatica; logo CurioMondo perfettamente circolare applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/piano-nazionale-ripristino-natura-bozza-commissione-ue-2026-v832-480.webp",
+          "sha256": "e17d9b8729b7e16628254c10180985321a2a77e0a875fb4e2565ccce078c4765",
+          "bytes": 66750
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/piano-nazionale-ripristino-natura-bozza-commissione-ue-2026-v832-800.webp",
+          "sha256": "f1dbf8135597ad8d8ddf407afd355b75cce604ee8d0304e6cf5b323fc5a157c2",
+          "bytes": 170908
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/piano-nazionale-ripristino-natura-bozza-commissione-ue-2026-v832-1200.webp",
+          "sha256": "66e518801af7449cfcbe60bc031743cf7a5c36a9554977cc6b604071fc5511cc",
+          "bytes": 338030
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/piano-nazionale-ripristino-natura-bozza-commissione-ue-2026.html"
+    },
     {
       "key": "rc-professionale-ingegneri-architetti-massimali-copertura-v831",
       "article": "/approfondimenti/rc-professionale-ingegneri-architetti-massimali-copertura.html",
