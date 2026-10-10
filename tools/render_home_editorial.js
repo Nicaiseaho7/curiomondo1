@@ -159,7 +159,11 @@ const curiosita = curiositaRail();
 const orderedSections = sectionsHtml.includes('id="categoria-politica"')
   ? sectionsHtml.replace(/(<section class="cm-topic-section" data-category="politica"[\s\S]*?<\/section>)/, '$1' + curiosita)
   : sectionsHtml + curiosita;
-const html = `<div class="cm-home-editorial" id="cm-home-editorial-v504" data-static="ready">${carousel(allocation.featuredItems)}${ultimaOra(ranked)}${orderedSections}</div>`;
+// Il gate editoriale richiede che il carosello parta sempre dalle tre
+// pubblicazioni più recenti, senza che gli override di allocazione possano
+// lasciare in testa articoli precedenti.
+const newestFeatured = ranked.slice(0, 3);
+const html = `<div class="cm-home-editorial" id="cm-home-editorial-v504" data-static="ready">${carousel(newestFeatured)}${ultimaOra(ranked)}${orderedSections}</div>`;
 
 const homePath = path.join(root, 'index.html');
 let home = fs.readFileSync(homePath, 'utf8');
@@ -171,7 +175,7 @@ if (home.includes('<!-- cm-home-editorial:start -->')) {
   if (!home.includes(mark)) throw new Error('card in evidenza non trovata');
   home = home.replace(mark, block + mark);
 }
-const hero = allocation.featuredItems[0];
+const hero = newestFeatured[0];
 const placed = home.match(/<!-- cm-home-editorial:start -->[\s\S]*?<!-- cm-home-editorial:end -->/);
 if (placed) {
   home = home.replace(placed[0], '');
