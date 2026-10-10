@@ -1,10 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CurioMondo</title>
     <link>https://curiomondo.it/</link>
     <description>Notizie, curiosità e approfondimenti dal mondo.</description>
     <language>it-IT</language>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <atom:link href="https://curiomondo.it/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Imprese italiane, quarto trimestre ancora difficile: pesano le materie prime</title>
       <link>https://curiomondo.it/notizie/imprese-italiane-quarto-trimestre-costi-materie-prime-10-10-2026.html</link>

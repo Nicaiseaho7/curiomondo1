@@ -27,12 +27,41 @@ CAPTION = (
 )
 SM_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 NEWS_NS = "http://www.google.com/schemas/sitemap-news/0.9"
+ATOM_NS = "http://www.w3.org/2005/Atom"
+WEBSUB_HUB = "https://pubsubhubbub.appspot.com/"
+FEED_URL = "https://curiomondo.it/feed.xml"
 
 
 def _version() -> int:
     manifest = json.loads((ROOT / "curiomondo-site-manifest.json").read_text(encoding="utf-8"))
     site = manifest.get("site", {})
     return int(site.get("site_version") or site.get("current_site_version") or 0) + 1
+
+
+def _ensure_websub(channel: ET.Element) -> None:
+    """Tiene nel feed i link WebSub. Google li usa per sapere che il feed è cambiato."""
+    ET.register_namespace("atom", ATOM_NS)
+    wanted = {
+        "hub": {"href": WEBSUB_HUB, "rel": "hub"},
+        "self": {"href": FEED_URL, "rel": "self", "type": "application/rss+xml"},
+    }
+    for node in list(channel):
+        if node.tag != f"{{{ATOM_NS}}}link":
+            continue
+        spec = wanted.pop(node.get("rel") or "", None)
+        if spec:
+            for key, value in spec.items():
+                node.set(key, value)
+    insert_at = 0
+    for index, node in enumerate(list(channel)):
+        if node.tag == "language":
+            insert_at = index + 1
+            break
+    for rel in ("hub", "self"):
+        if rel not in wanted:
+            continue
+        channel.insert(insert_at, ET.Element(f"{{{ATOM_NS}}}link", wanted[rel]))
+        insert_at += 1
 
 
 def _italian_date(iso: str) -> str:
@@ -477,6 +506,7 @@ def sync_surfaces(
             return 0.0
     for node in sorted(preserved + news_nodes, key=rss_timestamp, reverse=True):
         channel.append(node)
+    _ensure_websub(channel)
     ET.indent(tree, space="  "); tree.write(rss_path, encoding="utf-8", xml_declaration=True)
 
     ET.register_namespace("", SM_NS); ET.register_namespace("news", NEWS_NS)
