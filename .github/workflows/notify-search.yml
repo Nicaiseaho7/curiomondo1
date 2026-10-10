@@ -1,0 +1,17 @@
+name: Avvisi di indicizzazione
+on:
+  push:
+    branches: [main]
+    paths:
+      - "feed.xml"
+      - "news-sitemap.xml"
+      - "notizie/**"
+      - "tools/notify_search.py"
+      - ".github/workflows/notify-search.yml"
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Attendi il deploy e avvisa
+        run: python3 tools/notify_search.py --wait

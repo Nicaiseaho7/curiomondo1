@@ -339,6 +339,7 @@ All final responses must be written in Italian.
 - Sono escluse per ora le automazioni di autopubblicazione social, YouTube e newsletter.
 - Il sistema deve mantenere audit, deduplicazione, verifica delle fonti, gestione degli aggiornamenti e fail-safe.
 - L’autopublish resta disattivato finché il proprietario non approva il test controllato del renderer automatico.
+- A ogni push su `main` che cambia `feed.xml`, `news-sitemap.xml` o `notizie/`, GitHub Actions attende che le pagine nuove rispondano 200 e poi invia l’avviso WebSub sul feed e IndexNow per le notizie delle ultime 48 ore. Non va lanciato prima del deploy. Non garantisce l’indicizzazione e non sostituisce la lettura di Google. L’Indexing API di Google non va usata per le notizie.
 
 
 
