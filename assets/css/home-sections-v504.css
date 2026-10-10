@@ -83,6 +83,10 @@ html.cm-dark .cm-topic-lead--primary .cm-topic-lead__body{background:var(--cm-pa
 /* v520 — le card in fondo restano nel DOM per il gate, ma non si vedono.
    Le ultime uscite stanno nel riquadro Ultima ora. */
 .auto-rail,.auto-rail-label,#sectionTitle,#cards,.cm-feed-more,.cat-page-banner{display:none!important}
+/* v831 — dopo «Tutte le notizie di Mondo» c’è subito la testata.
+   L’id batte .continue-bar.on{display:flex!important} del bundle caricato dopo. */
+#continueBar,.continue-bar,.continue-bar.on{display:none!important}
+main > h3,main > p,main > time,main > a.auto-card{display:none!important}
 
 .cm-wire{
   position:relative;
