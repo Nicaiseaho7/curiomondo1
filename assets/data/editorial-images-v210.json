@@ -1,7 +1,388 @@
 {
-  "version": 825,
+  "version": 826,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "curiosity-alba-marte-yardang-monte-sharp-panorama-2026-v826",
+      "alt": "Illustrazione editoriale IA ultrarealistica di Curiosity davanti agli yardang del Monte Sharp all'alba marziana; scena non documentaria.",
+      "prompt": "Curiosity osserva gli yardang del Monte Sharp all'alba marziana, toni blu del mattino e logo CurioMondo in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/curiosity-alba-marte-yardang-monte-sharp-panorama-2026-v826-480.webp",
+          "sha256": "764c04c57ea065c927d8c8db65dd677714acb5c9cdc857eb9ead5be26b19ef16",
+          "bytes": 34116
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/curiosity-alba-marte-yardang-monte-sharp-panorama-2026-v826-800.webp",
+          "sha256": "30ad763cc54c7b9f03f939fe7847d4cc43b56fea7bcfa5b0cce86314c500076a",
+          "bytes": 83036
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/curiosity-alba-marte-yardang-monte-sharp-panorama-2026-v826-1200.webp",
+          "sha256": "5a8727027de957e671445a5eb175fae057b03dc1a882c52cd842bc01149a9dca",
+          "bytes": 158916
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "article": "/notizie/curiosity-alba-marte-yardang-monte-sharp-panorama-2026.html"
+    },
+    {
+      "key": "nasa-telescopio-test-lisa-onde-gravitazionali-spazio-v826",
+      "alt": "Illustrazione editoriale IA ultrarealistica di un tecnico che ispeziona un telescopio in vetroceramica per LISA; scena non documentaria.",
+      "prompt": "Tecnico in camera pulita ispeziona un telescopio ambrato per LISA, copertina ultrarealistica con logo CurioMondo in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/nasa-telescopio-test-lisa-onde-gravitazionali-spazio-v826-480.webp",
+          "sha256": "998aabdbe8c62218755d93ad3f2a83108b06020fb76cca69ca6310f072b57555",
+          "bytes": 35428
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/nasa-telescopio-test-lisa-onde-gravitazionali-spazio-v826-800.webp",
+          "sha256": "6ea5438083a2afd3c41f5879586ef42b248adb36175f7be8c9091b2e99461fc9",
+          "bytes": 72476
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/nasa-telescopio-test-lisa-onde-gravitazionali-spazio-v826-1200.webp",
+          "sha256": "1a2cab2efe0aa10f2cfb9b63b9e76b79af20604a10b52941ccb4bbf8dd03cd16",
+          "bytes": 128610
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "article": "/notizie/nasa-telescopio-test-lisa-onde-gravitazionali-spazio-10-10-2026.html"
+    },
+    {
+      "key": "ue-via-libera-regole-industria-difesa-permessi-102-giorni-v826",
+      "alt": "Illustrazione editoriale IA ultrarealistica di ministri e tecnici europei riuniti su appalti e industria della difesa; scena non documentaria.",
+      "prompt": "Ministri e tecnici europei a un tavolo di lavoro a Bruxelles sull'industria della difesa, scena sobria con logo CurioMondo in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ue-via-libera-regole-industria-difesa-permessi-102-giorni-v826-480.webp",
+          "sha256": "a99b4d71ab5f69b553cc282216752a72d4fc5dde211c2b71f0a357c05d7b536b",
+          "bytes": 42406
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ue-via-libera-regole-industria-difesa-permessi-102-giorni-v826-800.webp",
+          "sha256": "2c9681fe2d8a58120ab9e42842f06718e6a880741e7adb2e2b5af95c162df596",
+          "bytes": 82520
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ue-via-libera-regole-industria-difesa-permessi-102-giorni-v826-1200.webp",
+          "sha256": "d8bba72109a56eb04026a0471db265f4a53fe74c7bfbf6c5167e815454ce0c1f",
+          "bytes": 139336
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "article": "/notizie/ue-via-libera-regole-industria-difesa-permessi-102-giorni-10-10-2026.html"
+    },
+    {
+      "key": "ue-proroga-sanzioni-nicaragua-15-ottobre-2027-v826",
+      "alt": "Illustrazione editoriale IA ultrarealistica di un corridoio diplomatico europeo con richiami visivi al Nicaragua; scena non documentaria.",
+      "prompt": "Corridoio diplomatico a Bruxelles con funzionari europei e bandiera del Nicaragua, scena sobria con logo CurioMondo in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ue-proroga-sanzioni-nicaragua-15-ottobre-2027-v826-480.webp",
+          "sha256": "c21e926475c458f6c4b703c9a80a1b5e451c9a45359c488e62b5fd902518679c",
+          "bytes": 32062
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ue-proroga-sanzioni-nicaragua-15-ottobre-2027-v826-800.webp",
+          "sha256": "a95385300a672396c174c75d3dc08c6ce2c95c7ef01ded9f1b6cd9084f5dc3ae",
+          "bytes": 62044
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ue-proroga-sanzioni-nicaragua-15-ottobre-2027-v826-1200.webp",
+          "sha256": "64296e170a64228cc8e6c6fe1954cfbcf9e3426e70ee5fa8ef7a6578da31cfb6",
+          "bytes": 105922
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "article": "/notizie/ue-proroga-sanzioni-nicaragua-15-ottobre-2027.html"
+    },
+    {
+      "key": "nasa-energia-accordo-nucleare-spazio-reattori-luna-2030-v826",
+      "alt": "Ricostruzione editoriale IA ultrarealistica della firma di un accordo statunitense sul nucleare spaziale; non è una foto dell'evento.",
+      "prompt": "Funzionari NASA ed energia firmano un accordo con un modello di reattore lunare, ricostruzione ultrarealistica con logo CurioMondo in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/nasa-energia-accordo-nucleare-spazio-reattori-luna-2030-v826-480.webp",
+          "sha256": "c6e3523607c1fb466d8c3b002af80f7e324371a3341c5f69c4f0e5dbc2092de1",
+          "bytes": 34140
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/nasa-energia-accordo-nucleare-spazio-reattori-luna-2030-v826-800.webp",
+          "sha256": "c14bb6283f2174b94770aaf8938e52c112048ecff672742ad4d3205d59b03f56",
+          "bytes": 69232
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/nasa-energia-accordo-nucleare-spazio-reattori-luna-2030-v826-1200.webp",
+          "sha256": "972e5cba14c72af211be96824ea9f3abd3896644cf11e8351b81ec70ba5dd771",
+          "bytes": 115246
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": true,
+      "logoApplied": true,
+      "syntheticLikeness": "public-figure",
+      "article": "/notizie/nasa-energia-accordo-nucleare-spazio-reattori-luna-2030.html"
+    },
+    {
+      "key": "oms-youth-council-2026-2028-venticinque-organizzazioni-berlino-v826",
+      "alt": "Illustrazione editoriale IA ultrarealistica di giovani leader sanitari riuniti a Berlino; scena non documentaria.",
+      "prompt": "Giovani leader sanitari internazionali a un tavolo di lavoro a Berlino, copertina ultrarealistica con logo CurioMondo in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/oms-youth-council-2026-2028-venticinque-organizzazioni-berlino-v826-480.webp",
+          "sha256": "e0b359f6bf1dee40587898161f7820704b3cf4d70282f357fa9762fa5e710fa1",
+          "bytes": 39840
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/oms-youth-council-2026-2028-venticinque-organizzazioni-berlino-v826-800.webp",
+          "sha256": "1d0616c19f4e32a7ed59b08ad4c31d6b5c931c84cb0902d447ee0b0bd57c11b9",
+          "bytes": 83052
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/oms-youth-council-2026-2028-venticinque-organizzazioni-berlino-v826-1200.webp",
+          "sha256": "7b403b16d0c91a86b5778f92a51ff6a3a27498dbe8c4954ab913ef4eed53891e",
+          "bytes": 141816
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "article": "/notizie/oms-youth-council-2026-2028-venticinque-organizzazioni-berlino.html"
+    },
+    {
+      "key": "oms-roadmap-ipertensione-gravidanza-2035-pre-eclampsia-v826",
+      "alt": "Illustrazione editoriale IA ultrarealistica di una misurazione della pressione durante una visita in gravidanza; scena non documentaria.",
+      "prompt": "Medico misura la pressione a una paziente incinta in una clinica moderna, scena rispettosa con logo CurioMondo in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/oms-roadmap-ipertensione-gravidanza-2035-pre-eclampsia-v826-480.webp",
+          "sha256": "13b07aca079f9b70b596f4345608741f9d3005d3ae61e4d86c873265a417a3a7",
+          "bytes": 26642
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/oms-roadmap-ipertensione-gravidanza-2035-pre-eclampsia-v826-800.webp",
+          "sha256": "f9065b97ab57c8adcc79b31eb16263280d4d7d5fb66c75091082758d594b0927",
+          "bytes": 54332
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/oms-roadmap-ipertensione-gravidanza-2035-pre-eclampsia-v826-1200.webp",
+          "sha256": "9d6cc7ae270dd665c0d2a16a223c7817afd81726efedd278016866b8bdfc70d5",
+          "bytes": 92178
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "article": "/notizie/oms-roadmap-ipertensione-gravidanza-2035-pre-eclampsia.html"
+    },
+    {
+      "key": "nasa-bando-stazioni-spaziali-commerciali-proposte-dicembre-2026-v826",
+      "alt": "Illustrazione editoriale IA ultrarealistica di una futura stazione spaziale commerciale in orbita terrestre; scena non documentaria.",
+      "prompt": "Futura stazione spaziale commerciale in orbita bassa con astronauti e Terra visibile, copertina ultrarealistica con logo CurioMondo in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/nasa-bando-stazioni-spaziali-commerciali-proposte-dicembre-2026-v826-480.webp",
+          "sha256": "c1458455b6d550f9854fb468fbd3965f9dfc743007e9b959e8379a964fbc3de0",
+          "bytes": 38978
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/nasa-bando-stazioni-spaziali-commerciali-proposte-dicembre-2026-v826-800.webp",
+          "sha256": "4a5b22949ce952b2e4d3251b39aa36980d0c0642e22c08903368eca0d92e67c2",
+          "bytes": 88854
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/nasa-bando-stazioni-spaziali-commerciali-proposte-dicembre-2026-v826-1200.webp",
+          "sha256": "da4a79865ddbc3dff7bc4c9121defc4707247a0deb748093cb5addd7eadefbc6",
+          "bytes": 164452
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "article": "/notizie/nasa-bando-stazioni-spaziali-commerciali-proposte-dicembre-2026.html"
+    },
+    {
+      "key": "terremoto-panama-magnitudo-7-6-pitaloza-arriba-9-ottobre-2026-v826",
+      "alt": "Ricostruzione editoriale IA ultrarealistica di controlli dopo un terremoto in una località rurale di Panama; non è una foto dell'evento.",
+      "prompt": "Operatori controllano lievi danni in una cittadina rurale di Panama dopo un terremoto, ricostruzione ultrarealistica con logo CurioMondo in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/terremoto-panama-magnitudo-7-6-pitaloza-arriba-9-ottobre-2026-v826-480.webp",
+          "sha256": "929f0fddb277336ad9f06471156593e66d52f560cf6a10d0d80ab16f5a9b35d4",
+          "bytes": 55620
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/terremoto-panama-magnitudo-7-6-pitaloza-arriba-9-ottobre-2026-v826-800.webp",
+          "sha256": "908960a3fd417e5c856608d9f9fba8ed686874af8e2d0bf562fba37a89ba37b6",
+          "bytes": 136748
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/terremoto-panama-magnitudo-7-6-pitaloza-arriba-9-ottobre-2026-v826-1200.webp",
+          "sha256": "2d6e8270b5034167a45363aeb5cfc602a30bfcf87b9cde808dd6dfd48818e3ef",
+          "bytes": 265466
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": true,
+      "logoApplied": true,
+      "article": "/notizie/terremoto-panama-magnitudo-7-6-pitaloza-arriba-9-ottobre-2026.html"
+    },
+    {
+      "key": "allerta-meteo-10-ottobre-campania-calabria-puglia-sicilia-v826",
+      "alt": "Illustrazione editoriale IA ultrarealistica di un forte temporale su una città costiera pugliese; scena non documentaria.",
+      "prompt": "Temporale autunnale su una città costiera della Puglia, pioggia intensa e raffiche, copertina ultrarealistica con logo CurioMondo applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/allerta-meteo-10-ottobre-campania-calabria-puglia-sicilia-v826-480.webp",
+          "sha256": "e0d470315998252e0b1b6824063fba259d1b643819e0ced92ab9cac7a43b1704",
+          "bytes": 37180
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/allerta-meteo-10-ottobre-campania-calabria-puglia-sicilia-v826-800.webp",
+          "sha256": "5ab1ff8a5f31fc2925d8030ce43b00976def85ef4315e34ec7621fd66cbe7eca",
+          "bytes": 87642
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/allerta-meteo-10-ottobre-campania-calabria-puglia-sicilia-v826-1200.webp",
+          "sha256": "7374b47f4a8f22a17b21b93e47ed521d14b2e94019a4aa75bc6175bec7dffbcb",
+          "bytes": 163898
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "article": "/notizie/allerta-meteo-10-ottobre-campania-calabria-puglia-sicilia-10-10-2026.html"
+    },
     {
       "key": "it-alert-test-dighe-malga-bissina-valnegra-13-14-ottobre-2026-v825",
       "alt": "Illustrazione editoriale di un telefono con un avviso di prova e una diga alpina visibile dalla finestra.",
