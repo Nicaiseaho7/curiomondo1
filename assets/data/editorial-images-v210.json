@@ -1,7 +1,203 @@
 {
-  "version": 840,
+  "version": 841,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "allerta-gialla-12-ottobre-2026-calabria-abruzzo-sicilia-v841",
+      "alt": "Illustrazione editoriale IA della costa tirrenica calabrese sotto cielo nuvoloso; non è una fotografia di fenomeni già osservati.",
+      "prompt": "Paesaggio tirrenico calabrese in condizioni nuvolose illustrative, senza fenomeni estremi osservati; logo CurioMondo circolare in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/allerta-gialla-12-ottobre-2026-calabria-abruzzo-sicilia-v841-480.webp",
+          "sha256": "8e15ebd9362bf51e46f5135999ea516165802f23fbbba1c146c3a4f8fbd48a07",
+          "bytes": 42906
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/allerta-gialla-12-ottobre-2026-calabria-abruzzo-sicilia-v841-800.webp",
+          "sha256": "8ff36142e2138d1f753d408b1cbfa93bda6cab27635c274f46f4581807651877",
+          "bytes": 110210
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/allerta-gialla-12-ottobre-2026-calabria-abruzzo-sicilia-v841-1200.webp",
+          "sha256": "20b0145ac3476cab9ca49ae7e6422ec87dd2b867bbab3a792eddf2a5a3ee15c8",
+          "bytes": 217896
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/allerta-gialla-12-ottobre-2026-calabria-abruzzo-sicilia.html"
+    },
+    {
+      "key": "sciopero-treni-toscana-14-ottobre-2026-fs-italo-orari-v841",
+      "alt": "Illustrazione editoriale IA di un treno in una stazione fiorentina evocativa; non è una fotografia dello sciopero del 14 ottobre.",
+      "prompt": "Treno in stazione fiorentina evocativa, visual non documentario dello sciopero; logo CurioMondo circolare in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/sciopero-treni-toscana-14-ottobre-2026-fs-italo-orari-v841-480.webp",
+          "sha256": "aeca1d8458e095d93af8274124432e3a741abb42e7692ac5a0d22512719727b1",
+          "bytes": 44994
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/sciopero-treni-toscana-14-ottobre-2026-fs-italo-orari-v841-800.webp",
+          "sha256": "09e7ac35d74baa4ff48de405b32dbb39a978f9d79479b947d9bc1302816aa8d1",
+          "bytes": 108848
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/sciopero-treni-toscana-14-ottobre-2026-fs-italo-orari-v841-1200.webp",
+          "sha256": "78aadcc10b57d545f1a91d480c20e9536ced6695967b8145a0e870c0dadb5114",
+          "bytes": 209282
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/sciopero-treni-toscana-14-ottobre-2026-fs-italo-orari.html"
+    },
+    {
+      "key": "frana-treni-nocera-salerno-via-cava-bus-11-ottobre-2026-v841",
+      "alt": "Ricostruzione editoriale IA di una linea ferroviaria vicino a un pendio franoso; non documenta il tratto reale né un incidente a un treno.",
+      "prompt": "Linea ferroviaria sintetica interrotta da frana in Campania, nessun treno coinvolto; logo circolare in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/frana-treni-nocera-salerno-via-cava-bus-11-ottobre-2026-v841-480.webp",
+          "sha256": "8b18d09f194448142cfc44b694f543a69da59f0754ea74392b2334b66caf229a",
+          "bytes": 62260
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/frana-treni-nocera-salerno-via-cava-bus-11-ottobre-2026-v841-800.webp",
+          "sha256": "a2516fe3b897bff51057797baab8d3d084ff1a2a95f395f6ca7488fef00aaa91",
+          "bytes": 165670
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/frana-treni-nocera-salerno-via-cava-bus-11-ottobre-2026-v841-1200.webp",
+          "sha256": "5b5f5030862f65b4e075158a900d816f0b499ca851a830051b77e563354690de",
+          "bytes": 354706
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": true,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/frana-treni-nocera-salerno-via-cava-bus-11-ottobre-2026.html"
+    },
+    {
+      "key": "iride-eaglet-ii-prime-immagini-gibilterra-italia-ottobre-2026-v841",
+      "alt": "Visualizzazione IA di un piccolo satellite sopra lo Stretto di Gibilterra; non è una ripresa reale né un modello tecnico esatto di Eaglet II.",
+      "prompt": "Satellite sintetico IRIDE sopra Gibilterra, visualizzazione non documentaria; logo CurioMondo circolare in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/iride-eaglet-ii-prime-immagini-gibilterra-italia-ottobre-2026-v841-480.webp",
+          "sha256": "dc2f6a5d1adc0d99fd2eb538b2e31ffbafa9246a03e209661ebb3d5ce6d36439",
+          "bytes": 53032
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/iride-eaglet-ii-prime-immagini-gibilterra-italia-ottobre-2026-v841-800.webp",
+          "sha256": "06e0397cbf63a3c98065c8b427e5645c2b6fc103ac3791b450d3a9fac5557dc8",
+          "bytes": 137946
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/iride-eaglet-ii-prime-immagini-gibilterra-italia-ottobre-2026-v841-1200.webp",
+          "sha256": "01134aa08d4eb42fd4a5b5725aeb10b3005fc0a7d091822ece65ddf38850f699",
+          "bytes": 278964
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/iride-eaglet-ii-prime-immagini-gibilterra-italia-ottobre-2026.html"
+    },
+    {
+      "key": "zelensky-elezioni-ucraina-tregua-60-giorni-11-ottobre-2026-v841",
+      "alt": "Ritratto editoriale sintetico di Volodymyr Zelenskyy con bandiera ucraina; non è una fotografia dell'intervista ad ABC.",
+      "prompt": "Ritratto ultrarealistico sintetico di Zelenskyy in ambiente istituzionale, non documentario; logo CurioMondo circolare in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/zelensky-elezioni-ucraina-tregua-60-giorni-11-ottobre-2026-v841-480.webp",
+          "sha256": "ecb5007f84d9c66cba2d14d4325c4bbff2ff0f8667e87eaa371b83f1a853330e",
+          "bytes": 15636
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/zelensky-elezioni-ucraina-tregua-60-giorni-11-ottobre-2026-v841-800.webp",
+          "sha256": "424d3b4ecfff62581c2d35c784bd40642561dc279670bb43511e8e87b68951de",
+          "bytes": 32698
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/zelensky-elezioni-ucraina-tregua-60-giorni-11-ottobre-2026-v841-1200.webp",
+          "sha256": "06359b5d07ff98e9b27f919f3604c1444effb23e8fbb3ebfe76d47269ba12008",
+          "bytes": 61014
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "syntheticLikeness": "Volodymyr Zelenskyy",
+      "article": "/notizie/zelensky-elezioni-ucraina-tregua-60-giorni-11-ottobre-2026.html"
+    },
     {
       "key": "giornata-bambine-2026-unicef-matrimoni-precoci-dati-v840",
       "alt": "Illustrazione editoriale IA di quaderni e alunne viste di spalle in classe; non rappresenta bambine reali coinvolte nei dati UNICEF.",
