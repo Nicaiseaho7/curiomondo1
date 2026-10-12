@@ -1,0 +1,162 @@
+{
+  "version": 844,
+  "checked_at": "2026-10-12T17:33:54.940101+02:00",
+  "new_articles": 10,
+  "publication_status": "prepared_not_live",
+  "push": "not_retried_after_prior_auto_review_rejection",
+  "method": "Fonti primarie prima delle agenzie; verifica repository e feed pubblico; massimo due fonti per articolo.",
+  "editorial_checks": {
+    "facts": true,
+    "dates": true,
+    "original_text": true,
+    "no_duplicate_story": true,
+    "title_promise": true,
+    "short_paragraphs": true,
+    "visual_inspection": true,
+    "ten_distinct_images": true,
+    "ai_disclosure": true
+  },
+  "notes": [
+    "MIMIT: decreto originario 16 giugno; annuncio del 12 ottobre con domanda aggiornata. Nessuna riapertura del fondo perduto annunciata.",
+    "F1: risultato della gara dell’11 ottobre, distinto da Sprint e qualifiche.",
+    "EUSM: missione istituita, avvio operativo ancora da deliberare.",
+    "Nobel: sito del premio non accessibile in apertura; conferma primaria del MIT e riscontro Teleborsa.",
+    "I tre articoli v843 non ancora pubblicati sono preservati nel pacchetto cumulativo."
+  ],
+  "articles": [
+    {
+      "slug": "vertice-ue-regno-unito-bruxelles-20-novembre-2026",
+      "title": "Vertice UE–Regno Unito il 20 novembre: energia e regole alimentari sul tavolo",
+      "source_published": "2026-10-12T16:30:00+02:00",
+      "sources": [
+        {
+          "url": "https://www.consilium.europa.eu/it/press/press-releases/2026/10/12/eu-uk-summit-to-take-place-in-brussels-on-20-november/",
+          "nome": "Consiglio europeo — annuncio del 12 ottobre alle 16:30, data, partecipanti e temi del vertice."
+        }
+      ]
+    },
+    {
+      "slug": "agcom-teleselling-sanzioni-retelit-tekmind-191-milioni-chiamate-2026",
+      "title": "Telefonate commerciali, AGCOM sanziona due società per 822.500 euro",
+      "source_published": "2026-10-12T12:12:00+02:00",
+      "sources": [
+        {
+          "url": "https://www.agcom.it/comunicazione/comunicati-stampa/comunicato-stampa-92",
+          "nome": "AGCOM — comunicato del 12 ottobre alle 12:12, provvedimenti e dati sui filtri."
+        },
+        {
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/12/agcom-sanziona-due-societa-per-circa-830.000-euro-sul-teleselling_cadb4407-d9fc-489a-a752-d7d1343c1cce.html",
+          "nome": "ANSA — riscontro sugli importi delle sanzioni e sull'attività di vigilanza."
+        }
+      ]
+    },
+    {
+      "slug": "on-imprese-giovani-donne-59-milioni-finanziamenti-12-ottobre-2026",
+      "title": "Imprese di giovani e donne, ON riceve 59 milioni: niente fondo perduto",
+      "source_published": "2026-10-12",
+      "sources": [
+        {
+          "url": "https://www.mimit.gov.it/it/notizie-stampa/mimit-rifinanziata-la-misura-on-oltre-nuove-imprese-a-tasso-zero",
+          "nome": "MIMIT — annuncio del 12 ottobre, stanziamento e crescita delle richieste."
+        },
+        {
+          "url": "https://www.mimit.gov.it/it/incentivi/misure-per-l-autoimprenditorialita-nuove-imprese-a-tasso-zero",
+          "nome": "MIMIT — scheda ON aggiornata, requisiti, massimali, avviso fondo perduto e procedura Invitalia."
+        }
+      ]
+    },
+    {
+      "slug": "nobel-economia-2026-hall-woodford-modelli-crisi",
+      "title": "Nobel per l'economia a Hall e Woodford, premiati i modelli contro le crisi",
+      "source_published": "2026-10-12",
+      "sources": [
+        {
+          "url": "https://news.mit.edu/2026/robert-hall-michael-woodford-share-nobel-prize-economics-1012",
+          "nome": "MIT News — conferma del premio, affiliazioni e contributi scientifici dei due ex allievi."
+        },
+        {
+          "url": "https://teleborsa.ansa.it/notiziario/economia/premio-nobel-per-leconomia-2026-vincono-gli-statunitensi-robert-hall-e-michael-woodford/",
+          "nome": "Teleborsa — assegnazione e motivazioni comunicate dall'Accademia svedese."
+        }
+      ]
+    },
+    {
+      "slug": "f1-singapore-gara-verstappen-leclerc-antonelli-podio-11-ottobre-2026",
+      "title": "F1 Singapore, vince Verstappen: Leclerc secondo, Antonelli sul podio",
+      "source_published": "2026-10-11",
+      "sources": [
+        {
+          "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "nome": "Formula 1 — risultato ufficiale del GP di Singapore, tempi, giri e punti."
+        }
+      ]
+    },
+    {
+      "slug": "allerta-meteo-13-ottobre-2026-cinque-regioni-sud",
+      "title": "Allerta meteo 13 ottobre, giallo in cinque regioni del Sud",
+      "source_published": "2026-10-12T14:43:00+02:00",
+      "sources": [
+        {
+          "url": "https://mappe.protezionecivile.gov.it/it/mappe-rischi/bollettino-di-criticita/index.html",
+          "nome": "Protezione Civile — bollettino del 12 ottobre 2026 alle 14:43, previsione di criticità per il 13 ottobre."
+        }
+      ]
+    },
+    {
+      "slug": "erasmus-days-12-17-ottobre-2026-eventi-italia",
+      "title": "Erasmus Days al via fino al 17 ottobre: eventi anche per chi non studia",
+      "source_published": "2026-10-12",
+      "sources": [
+        {
+          "url": "https://european-union.europa.eu/index_en",
+          "nome": "Unione europea — notizia del 12 ottobre sugli Erasmus Days 2026 e numero di eventi annunciati."
+        },
+        {
+          "url": "https://www.erasmusdays.eu/",
+          "nome": "Erasmus Days — date, pubblico, elenco eventi e stato delle registrazioni organizzative."
+        }
+      ]
+    },
+    {
+      "slug": "agile-ue-115-milioni-pmi-difesa-bando-2027",
+      "title": "Difesa, via libera UE ad AGILE: 115 milioni per le piccole imprese",
+      "source_published": "2026-10-12T10:10:00+02:00",
+      "sources": [
+        {
+          "url": "https://www.consilium.europa.eu/it/press/press-releases/2026/10/12/programme-for-agile-and-rapid-defence-innovation-council-gives-final-green-light/",
+          "nome": "Consiglio UE — adozione di AGILE del 12 ottobre alle 10:10, dotazione, destinatari e prossimi passaggi."
+        }
+      ]
+    },
+    {
+      "slug": "ue-libano-missione-eusm-tre-anni-12-ottobre-2026",
+      "title": "L'UE istituisce una missione in Libano: mandato iniziale di tre anni",
+      "source_published": "2026-10-12T12:40:00+02:00",
+      "sources": [
+        {
+          "url": "https://www.consilium.europa.eu/it/press/press-releases/2026/10/12/lebanon-eu-establishes-new-csdp-support-mission-to-strengthen-defence-and-security-institutions/",
+          "nome": "Consiglio UE — decisione istitutiva del 12 ottobre alle 12:40, mandato e distinzione dall'avvio operativo."
+        },
+        {
+          "url": "https://www.ansa.it/ansamed/it/notizie/rubriche/politica/2026/10/12/via-libera-dei-27-alla-missione-ue-in-libano-a-sostegno-dellesercito_071dae3c-6fa3-4df6-b4ab-8507488a6e8b.html",
+          "nome": "ANSAmed — riscontro del 12 ottobre sul via libera, durata e istituzioni destinatarie."
+        }
+      ]
+    },
+    {
+      "slug": "sanzioni-ue-russia-826-imprese-743-dirigenti-12-ottobre-2026",
+      "title": "Sanzioni UE alla Russia: colpite 826 imprese e 743 dirigenti",
+      "source_published": "2026-10-12T12:33:00+02:00",
+      "sources": [
+        {
+          "url": "https://www.consilium.europa.eu/it/press/press-releases/2026/10/12/russia-s-war-of-aggression-against-ukraine-eu-agrees-largest-ever-package-of-listings-targeting-almost-1600-individuals-and-entities-in-russia-s-military-industrial-complex/",
+          "nome": "Consiglio UE — decisione del 12 ottobre alle 12:33, numeri, effetti e atti giuridici pubblicati."
+        },
+        {
+          "url": "https://www.ansa.it/europa/notizie/rubriche/altrenews/2026/10/12/a-chi-e-rivolto-il-maxi-pacchetto-di-sanzioni-ue-a-mosca-e-cosa-prevede_d6c75990-8b04-4a73-93ba-e890ece93be0.html",
+          "nome": "ANSA — riscontro sul numero di società e dirigenti, settore interessato e ampliamento degli elenchi."
+        }
+      ]
+    }
+  ]
+}
