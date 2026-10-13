@@ -1,7 +1,561 @@
 {
-  "version": 845,
+  "version": 847,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "id": "riccia-ricina-perquisizioni-computer-scuole-13-ottobre-2026",
+      "article": "/notizie/riccia-ricina-perquisizioni-computer-scuole-13-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA del contesto scolastico a Riccia, senza persone coinvolte nell'indagine; non documenta una perquisizione.",
+      "prompt": "Edit only the building reference in the supplied screenshot into one NEW original wide 16:9 photorealistic editorial illustration. The screenshot shows the entrance of the Istituto agrario di Riccia, Molise, Italy: use that actual facade and entrance geometry as the visual anchor, including the cream stucco doorway surround, exposed reddish brick, glass double entrance doors, the small sign area, and the metal rail in front. Preserve the real entrance rather than inventing a different school. Compose a clean daylight establishing view with no people, no police, no search or reconstructed investigation, no social media interface, no captions, no watermark, no readable writing or on-image editorial text. Natural autumn light, restrained documentary-like photographic style, architectural context only, not a claimed photograph of the event. Frame the real doorway centrally in a 16:9 landscape crop with breathing room. Do not invent logos or extra people. This is clearly an AI editorial illustration.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/riccia-ricina-perquisizioni-computer-scuole-13-ottobre-2026-v847-480.webp",
+          "sha256": "c97871528c85743c940a5becc462fe4daf48043e65ca8b4bc7894aa705f72017",
+          "bytes": 46846
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/riccia-ricina-perquisizioni-computer-scuole-13-ottobre-2026-v847-800.webp",
+          "sha256": "748534b3cd577b3bd614f7457a9d543af937320604be17235150a533943ef528",
+          "bytes": 116092
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/riccia-ricina-perquisizioni-computer-scuole-13-ottobre-2026-v847-1200.webp",
+          "sha256": "431f96f95504d04677f2c24c9706b2850fa53ccea3ff944dd04f7ec262f6114f",
+          "bytes": 225274
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "manovra-2027-taglio-irpef-ceto-medio-coperture-13-ottobre-2026",
+      "article": "/notizie/manovra-2027-taglio-irpef-ceto-medio-coperture-13-ottobre-2026.html",
+      "alt": "Somiglianza sintetica editoriale IA di Giancarlo Giorgetti in un contesto istituzionale; non è una foto del negoziato sulla manovra.",
+      "prompt": "Use case: photorealistic-natural. Asset: new CurioMondo news hero, landscape 16:9, at least 1600x900. High-end editorial photographic realism, credible natural lighting and textures, central crop-safe subject. This is a declared synthetic editorial illustration, not documentary evidence. No headlines, captions, watermarks, collage, borders, UI, invented logos, license plates, or editorial text in the pixels. Any people must face the camera, with faces visible; nobody viewed from behind. Giancarlo Giorgetti, recognizable public-figure editorial synthetic likeness, head and shoulders, dark suit and glasses, in a sober Italian Ministry of Economy institutional office with out-of-focus Italian flag, discreet paperwork without readable figures. Neutral expression facing camera. Not a reconstruction of a meeting, no other people.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/manovra-2027-taglio-irpef-ceto-medio-coperture-13-ottobre-2026-v847-480.webp",
+          "sha256": "0238f870a6a506b7b760beccde10d3a9d6b352b280d2051c6a04068cb8113e26",
+          "bytes": 19332
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/manovra-2027-taglio-irpef-ceto-medio-coperture-13-ottobre-2026-v847-800.webp",
+          "sha256": "ad7aeacdb5f1d120adb1599dfc404e74fa86a7bc61f5164f2616429b163c1297",
+          "bytes": 40456
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/manovra-2027-taglio-irpef-ceto-medio-coperture-13-ottobre-2026-v847-1200.webp",
+          "sha256": "47665d37245bd6bcb2db513ee42b6378cde9b4cec85b37657c40d9f1e430870e",
+          "bytes": 76042
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Giancarlo Giorgetti"
+    },
+    {
+      "id": "ilaria-salis-nullita-sentenza-ex-assistenti-appello-13-ottobre-2026",
+      "article": "/notizie/ilaria-salis-nullita-sentenza-ex-assistenti-appello-13-ottobre-2026.html",
+      "alt": "Ritratto editoriale neutrale e isolato IA di Ilaria Salis; somiglianza sintetica, non fotografia dell'udienza.",
+      "prompt": "Use case: photorealistic-natural. Asset: new CurioMondo news hero, landscape 16:9, at least 1600x900. High-end editorial photographic realism, credible natural lighting and textures, central crop-safe subject. This is a declared synthetic editorial illustration, not documentary evidence. No headlines, captions, watermarks, collage, borders, UI, invented logos, license plates, or editorial text in the pixels. Any people must face the camera, with faces visible; nobody viewed from behind. Neutral editorial portrait of Ilaria Salis, recognizable public figure, head and shoulders facing camera, natural brown shoulder-length hair, understated navy blazer and cream blouse, plain muted blue-gray studio background. Neutral isolated portrait only. No courthouse actions, journalists, arrest, handcuffs, money or suggestion of guilt. Natural skin texture, respectful.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ilaria-salis-nullita-sentenza-ex-assistenti-appello-13-ottobre-2026-v847-480.webp",
+          "sha256": "d94bd1192141fce10c9bd069f4f0e53e0ed5a67c83c54b40cfb1e57099636e59",
+          "bytes": 11980
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ilaria-salis-nullita-sentenza-ex-assistenti-appello-13-ottobre-2026-v847-800.webp",
+          "sha256": "a3f45ecbcd3e3e61130ce0aeee7a4c0e2c0581e2100baf4e420b73599a071f53",
+          "bytes": 27694
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ilaria-salis-nullita-sentenza-ex-assistenti-appello-13-ottobre-2026-v847-1200.webp",
+          "sha256": "3a3a8d637618223cb458d1f7d7824869f5732fe90e161496c86c308bba633a4b",
+          "bytes": 54782
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Ilaria Salis",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated"
+    },
+    {
+      "id": "ungheria-legge-restrizioni-lgbt-voto-13-ottobre-2026",
+      "article": "/notizie/ungheria-legge-restrizioni-lgbt-voto-13-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA della sede del Parlamento ungherese a Budapest; non è una fotografia della votazione.",
+      "prompt": "Use case: photorealistic-natural. Asset: new CurioMondo news hero, landscape 16:9, at least 1600x900. High-end editorial photographic realism, credible natural lighting and textures, central crop-safe subject. This is a declared synthetic editorial illustration, not documentary evidence. No headlines, captions, watermarks, collage, borders, UI, invented logos, license plates, or editorial text in the pixels. Any people must face the camera, with faces visible; nobody viewed from behind. Real Hungarian Parliament building in Budapest seen along the Danube on a clear autumn day, detailed Gothic Revival facade and dome, one real Hungarian tricolor flag, restrained editorial street-level viewpoint. Institution is the subject. Two unidentifiable adult pedestrians in distant foreground facing camera, no voting or protest reenactment, no rainbow slogans or readable signs.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ungheria-legge-restrizioni-lgbt-voto-13-ottobre-2026-v847-480.webp",
+          "sha256": "759d490055d542d41932fd450c492d08c6682fceabe1c7a5204b7eb146618d6e",
+          "bytes": 51146
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ungheria-legge-restrizioni-lgbt-voto-13-ottobre-2026-v847-800.webp",
+          "sha256": "ff9d8346fe5b79f42c672f626ca389bda5cfb520c5ea258f3ed3d48aa1649b73",
+          "bytes": 129478
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ungheria-legge-restrizioni-lgbt-voto-13-ottobre-2026-v847-1200.webp",
+          "sha256": "acdeb9edc1f8e51cbc29a812fa718240be696cb1a7e06237d48db179300de70c",
+          "bytes": 259336
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "ranucci-video-addio-redazione-report-13-ottobre-2026",
+      "article": "/notizie/ranucci-video-addio-redazione-report-13-ottobre-2026.html",
+      "alt": "Somiglianza sintetica editoriale IA di Sigfrido Ranucci nel contesto di Report; non ricostruisce il video di commiato.",
+      "prompt": "Use case: photorealistic-natural. Asset: new CurioMondo news hero, landscape 16:9, at least 1600x900. High-end editorial photographic realism, credible natural lighting and textures, central crop-safe subject. This is a declared synthetic editorial illustration, not documentary evidence. No headlines, captions, watermarks, collage, borders, UI, invented logos, license plates, or editorial text in the pixels. Any people must face the camera, with faces visible; nobody viewed from behind. Sigfrido Ranucci, recognizable Italian public-figure journalist, photorealistic head-and-shoulders editorial synthetic likeness, light blue shirt, direct gaze, neutral thoughtful expression. In a generic broadcast work environment with muted red accents and studio lights softly out of focus. No cardboard boxes, no specific farewell scene, no readable text or logos. Natural skin and fabric.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ranucci-video-addio-redazione-report-13-ottobre-2026-v847-480.webp",
+          "sha256": "fb15e5a8c155d5989b729d03e2499daa86607cfce6579a454af074c4b889ecad",
+          "bytes": 21690
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ranucci-video-addio-redazione-report-13-ottobre-2026-v847-800.webp",
+          "sha256": "a5760b6b88e43e399208df0c2e0b0cec00d4c23f272d68bf7923b7ce72d65ed4",
+          "bytes": 45208
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ranucci-video-addio-redazione-report-13-ottobre-2026-v847-1200.webp",
+          "sha256": "ad11e1c57853f010ff99d6f54361af664cd19b7ff833a2688ed4032146831e97",
+          "bytes": 85166
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Sigfrido Ranucci"
+    },
+    {
+      "id": "ada-lovelace-day-amalia-ercoli-finzi-donne-scienza-13-ottobre-2026",
+      "article": "/notizie/ada-lovelace-day-amalia-ercoli-finzi-donne-scienza-13-ottobre-2026.html",
+      "alt": "Somiglianza sintetica editoriale IA di Amalia Ercoli Finzi in un ambiente universitario; non documenta un evento dell'Ada Lovelace Day.",
+      "prompt": "Use case: photorealistic-natural. Asset: new CurioMondo news hero, landscape 16:9, at least 1600x900. High-end editorial photographic realism, credible natural lighting and textures, central crop-safe subject. This is a declared synthetic editorial illustration, not documentary evidence. No headlines, captions, watermarks, collage, borders, UI, invented logos, license plates, or editorial text in the pixels. Any people must face the camera, with faces visible; nobody viewed from behind. Amalia Ercoli Finzi, recognizable elderly Italian aerospace engineer public figure, silver short hair, eyeglasses, brown academic jacket, head and torso facing camera, calm warm expression, in a Politecnico di Milano engineering setting, realistic aerospace instrument softly out of focus. A new contextual editorial portrait, not a specific event, no invented people or readable text.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ada-lovelace-day-amalia-ercoli-finzi-donne-scienza-13-ottobre-2026-v847-480.webp",
+          "sha256": "f04992a963b3914a04e7fad51e5f1465e33d913af44a75519c39964c444bf653",
+          "bytes": 32686
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ada-lovelace-day-amalia-ercoli-finzi-donne-scienza-13-ottobre-2026-v847-800.webp",
+          "sha256": "4e7bf9810f8954602d853862990c90addeadc21d90f61ede981e4d8f6a50d243",
+          "bytes": 73742
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ada-lovelace-day-amalia-ercoli-finzi-donne-scienza-13-ottobre-2026-v847-1200.webp",
+          "sha256": "5f2d088376edaee58fb24aad3bff1e04edf8914b35a8187f49269dd64ce1888e",
+          "bytes": 140904
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Amalia Ercoli Finzi"
+    },
+    {
+      "id": "istat-prezzi-63-percento-2000-2025-casa-utenze-13-ottobre-2026",
+      "article": "/notizie/istat-prezzi-63-percento-2000-2025-casa-utenze-13-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA delle spese domestiche per energia e consumi; non contiene dati o grafici documentari.",
+      "prompt": "Use case: photorealistic-natural. Asset: new CurioMondo news hero, landscape 16:9, at least 1600x900. High-end editorial photographic realism, credible natural lighting and textures, central crop-safe subject. This is a declared synthetic editorial illustration, not documentary evidence. No headlines, captions, watermarks, collage, borders, UI, invented logos, license plates, or editorial text in the pixels. Any people must face the camera, with faces visible; nobody viewed from behind. Editorial photorealistic view of an Italian kitchen table with a household electricity meter control unit visible on a wall, grocery bag with ordinary bread and pasta, and a generic unfolded utility bill with no readable text or personal data. No people, charts, numbers or floating graphics. Natural afternoon light. Concrete connection between home utilities and grocery consumption, not an advertised product.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/istat-prezzi-63-percento-2000-2025-casa-utenze-13-ottobre-2026-v847-480.webp",
+          "sha256": "a1fc1b7a9c8ad97744bb002d3109a04ac4d06ac65b4715c2d2c3ade8725d3d5a",
+          "bytes": 37330
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/istat-prezzi-63-percento-2000-2025-casa-utenze-13-ottobre-2026-v847-800.webp",
+          "sha256": "62ec176363da5bd29e3f47eafcbb6e043b6538736a4bd46a2b6cdacfe40a7a59",
+          "bytes": 78058
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/istat-prezzi-63-percento-2000-2025-casa-utenze-13-ottobre-2026-v847-1200.webp",
+          "sha256": "f0dbc22ac12ceb282cc9e8b37213f156d37547d47d886f6ab0cc70b27295693d",
+          "bytes": 135962
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "giovanna-rigato-richiesta-pm-tentata-estorsione-13-ottobre-2026",
+      "article": "/notizie/giovanna-rigato-richiesta-pm-tentata-estorsione-13-ottobre-2026.html",
+      "alt": "Ritratto editoriale neutrale e isolato IA di Giovanna Rigato; somiglianza sintetica, non fotografia del processo.",
+      "prompt": "Use case: photorealistic-natural. Asset: new CurioMondo news hero, landscape 16:9, at least 1600x900. High-end editorial photographic realism, credible natural lighting and textures, central crop-safe subject. This is a declared synthetic editorial illustration, not documentary evidence. No headlines, captions, watermarks, collage, borders, UI, invented logos, license plates, or editorial text in the pixels. Any people must face the camera, with faces visible; nobody viewed from behind. Neutral editorial portrait of Giovanna Rigato, recognizable Italian former Grande Fratello public figure, straight blonde hair, natural hazel-brown eyes, head and shoulders facing camera, sober charcoal blouse, plain warm gray studio background, neutral composed expression. Declared synthetic likeness only, no legal reenactment, money, police, handcuffs, victim or accusation scene. Realistic skin, no glamour retouching or sexual styling.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/giovanna-rigato-richiesta-pm-tentata-estorsione-13-ottobre-2026-v847-480.webp",
+          "sha256": "339842f44c0226e5c9f29ead9fcfd32f82cb5678333b67537c9c81751594fbb7",
+          "bytes": 13806
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/giovanna-rigato-richiesta-pm-tentata-estorsione-13-ottobre-2026-v847-800.webp",
+          "sha256": "c0b0533df03dfc3a643dfa3e2ea262715ade8753aa930a14bfa14eee02eb2faa",
+          "bytes": 35752
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/giovanna-rigato-richiesta-pm-tentata-estorsione-13-ottobre-2026-v847-1200.webp",
+          "sha256": "c62a52fc002500d73b4f7a3833b823bc0e7edf8628248d627b8aa562377f18e0",
+          "bytes": 74094
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Giovanna Rigato",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated"
+    },
+    {
+      "id": "greta-thunberg-studenti-francia-saint-denis-13-ottobre-2026",
+      "article": "/notizie/greta-thunberg-studenti-francia-saint-denis-13-ottobre-2026.html",
+      "alt": "Somiglianza sintetica editoriale IA di Greta Thunberg nel contesto urbano di Saint-Denis; non documenta la manifestazione.",
+      "prompt": "Use case: photorealistic-natural. Asset: new CurioMondo news hero, landscape 16:9, at least 1600x900. High-end editorial photographic realism, credible natural lighting and textures, central crop-safe subject. This is a declared synthetic editorial illustration, not documentary evidence. No headlines, captions, watermarks, collage, borders, UI, invented logos, license plates, or editorial text in the pixels. Any people must face the camera, with faces visible; nobody viewed from behind. Greta Thunberg, recognizable public-figure synthetic editorial likeness, recent adult appearance with short brown hair and a dark jacket, facing camera in a neutral French urban school-street setting suggestive of Saint-Denis. No minors, crowds, police, barriers, placards, banners or reenactment of the actual protest. Natural overcast daylight, editorial medium close-up.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/greta-thunberg-studenti-francia-saint-denis-13-ottobre-2026-v847-480.webp",
+          "sha256": "34db5f20c7371bbc7cf1f500abf7b15b0d3c103710294cf5b7eb74e2e5238bed",
+          "bytes": 26320
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/greta-thunberg-studenti-francia-saint-denis-13-ottobre-2026-v847-800.webp",
+          "sha256": "7f4ad86d46db6cab5fbd4f2901c94e86da952613b08722c258ef9c49ef757d02",
+          "bytes": 52584
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/greta-thunberg-studenti-francia-saint-denis-13-ottobre-2026-v847-1200.webp",
+          "sha256": "69b60815a67c2c0a93d272560401faf530a68de7f516bde5afe490f06214a930",
+          "bytes": 93780
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Greta Thunberg"
+    },
+    {
+      "id": "safe-piano-italia-8-miliardi-prestiti-approvazione-13-ottobre-2026",
+      "article": "/notizie/safe-piano-italia-8-miliardi-prestiti-approvazione-13-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA della sede della Commissione europea a Bruxelles; non documenta approvazioni o pagamenti.",
+      "prompt": "Use case: photorealistic-natural. Asset: new CurioMondo news hero, landscape 16:9, at least 1600x900. High-end editorial photographic realism, credible natural lighting and textures, central crop-safe subject. This is a declared synthetic editorial illustration, not documentary evidence. No headlines, captions, watermarks, collage, borders, UI, invented logos, license plates, or editorial text in the pixels. Any people must face the camera, with faces visible; nobody viewed from behind. Real Berlaymont headquarters of the European Commission in Brussels, correct distinctive facade and correctly formed blue EU flags with 12 gold stars, autumn daylight. Institution is the central subject. Two distant unidentifiable adult staff facing camera at entrance. No military action, weapons, money, documents with text or fictional approval ceremony.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/safe-piano-italia-8-miliardi-prestiti-approvazione-13-ottobre-2026-v847-480.webp",
+          "sha256": "c9bf608da615c724873bee1882a53b605fae99722c65db366b2d9bf1d4063e6e",
+          "bytes": 60574
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/safe-piano-italia-8-miliardi-prestiti-approvazione-13-ottobre-2026-v847-800.webp",
+          "sha256": "c5cc6c687d7f83fa6b3c0d261c22b2f09cd579fc8ade36a28247fa2f642edfba",
+          "bytes": 168080
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/safe-piano-italia-8-miliardi-prestiti-approvazione-13-ottobre-2026-v847-1200.webp",
+          "sha256": "31d0145cebe473648c7b60d1f7ff555087f9f94390615170881a04c49040995d",
+          "bytes": 349364
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026",
+      "article": "/notizie/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026.html",
+      "alt": "Ritratto editoriale neutrale e isolato IA di Papa Leone XIV; somiglianza sintetica, non fotografia del ricovero.",
+      "prompt": "Use case: photorealistic-natural. Asset: new CurioMondo news hero, landscape 16:9, at least 1600x900. High-end editorial photographic realism, credible natural lighting and textures, central crop-safe subject. This is a declared synthetic editorial illustration, not documentary evidence. No headlines, captions, watermarks, collage, borders, UI, invented logos, license plates, or editorial text in the pixels. Any people must face the camera, with faces visible; nobody viewed from behind. Neutral editorial portrait of Pope Leo XIV, recognizable public figure Robert Francis Prevost, white papal cassock and white zucchetto, head and shoulders facing camera, plain pale gray studio background, calm neutral expression, realistic face and glasses. Neutral isolated portrait only for sensitive health coverage. No hospital, medical staff, procedures, injury, suffering, beds or suggestion of current medical condition. Completely new composition, not a documentary photo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v847-480.webp",
+          "sha256": "e8c99273f1dac71be58cd916c7c9f85b5e42e58840640e2957fc343c1fd26ba4",
+          "bytes": 7560
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v847-800.webp",
+          "sha256": "63b563f58da9d20c13e6c8847cd38683297aed6bb4ca7073791967d2ee5875f0",
+          "bytes": 17176
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v847-1200.webp",
+          "sha256": "3dcf5ef0cd759d8142bb5336cb0f60289c96cc16e9ac8283f50e69f997eeefd5",
+          "bytes": 32806
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Papa Leone XIV",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated"
+    },
+    {
+      "id": "milano-multe-cartacee-parabrezza-ordine-giorno-13-ottobre-2026",
+      "article": "/notizie/milano-multe-cartacee-parabrezza-ordine-giorno-13-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di un'auto in sosta a Milano e di un avviso cartaceo generico; non documenta una multa reale.",
+      "prompt": "Use case: photorealistic-natural. Asset: new CurioMondo news hero, landscape 16:9, at least 1600x900. High-end editorial photographic realism, credible natural lighting and textures, central crop-safe subject. This is a declared synthetic editorial illustration, not documentary evidence. No headlines, captions, watermarks, collage, borders, UI, invented logos, license plates, or editorial text in the pixels. Any people must face the camera, with faces visible; nobody viewed from behind. Photorealistic editorial close-up of a car parked along a plausible Milan street with authentic local stone architecture softly out of focus. One plain white folded paper under the windshield wiper, no writing or numbers, no license plate in frame. Daylight, no people, no police officer or actual infraction reenactment. A synthetic illustration of a paper notice, not proof of a fine.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/milano-multe-cartacee-parabrezza-ordine-giorno-13-ottobre-2026-v847-480.webp",
+          "sha256": "466cd2358eef7e0f48f813584c0a61b3eb9b57837db463ffb017b9bda4c61c76",
+          "bytes": 32138
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/milano-multe-cartacee-parabrezza-ordine-giorno-13-ottobre-2026-v847-800.webp",
+          "sha256": "ea74d0fe041b4c12606e375ee3fdfbcfad824ef303aabdf7e7aedd245b60e710",
+          "bytes": 64400
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/milano-multe-cartacee-parabrezza-ordine-giorno-13-ottobre-2026-v847-1200.webp",
+          "sha256": "76a68f43c4cc1944e6f17a20bbf7cf0a71aee13f13a70800d1309dca3d8ecf68",
+          "bytes": 108046
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "venezia-esonero-giovanni-stroppa-sei-sconfitte-13-ottobre-2026",
+      "article": "/notizie/venezia-esonero-giovanni-stroppa-sei-sconfitte-13-ottobre-2026.html",
+      "alt": "Somiglianza sintetica editoriale IA di Giovanni Stroppa in abbigliamento del Venezia; non è una foto del giorno dell'esonero.",
+      "prompt": "Use case: photorealistic-natural. Asset: new CurioMondo news hero, landscape 16:9, at least 1600x900. High-end editorial photographic realism, credible natural lighting and textures, central crop-safe subject. This is a declared synthetic editorial illustration, not documentary evidence. No headlines, captions, watermarks, collage, borders, UI, invented logos, license plates, or editorial text in the pixels. Any people must face the camera, with faces visible; nobody viewed from behind. Giovanni Stroppa, recognizable Italian football manager, salt-and-pepper wavy hair and short stubble, neutral serious expression facing camera, official Venezia FC training jacket in black with subtle orange and green trim and authentic club crest only if exact. Medium close-up in the Venezia football training environment softly blurred. No sponsor wall text, no firing scene or contract. Contextual synthetic editorial likeness, natural autumn daylight.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/venezia-esonero-giovanni-stroppa-sei-sconfitte-13-ottobre-2026-v847-480.webp",
+          "sha256": "c3540fba68d7a17a61d753c139f95373b771fdcaa438f3d5a8949c244e7df7f7",
+          "bytes": 19402
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/venezia-esonero-giovanni-stroppa-sei-sconfitte-13-ottobre-2026-v847-800.webp",
+          "sha256": "6ad23c771270dd98d5244fa116a3ba020db804b4792b049b7af5be783883fd3c",
+          "bytes": 41252
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/venezia-esonero-giovanni-stroppa-sei-sconfitte-13-ottobre-2026-v847-1200.webp",
+          "sha256": "d4b2b7ab80c57b064dea526705785ec8af3e6b60fb70a0f711b1fa3a7d15dd9d",
+          "bytes": 75738
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Giovanni Stroppa"
+    },
+    {
+      "id": "chieri-compagno-arrestato-tortura-consenso-13-ottobre-2026",
+      "article": "/notizie/chieri-compagno-arrestato-tortura-consenso-13-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA sobria di un'auto dei Carabinieri nel Torinese, senza persone, targhe o ricostruzione delle violenze.",
+      "prompt": "Use case: photorealistic-natural. Asset: new CurioMondo news hero, landscape 16:9, at least 1600x900. High-end editorial photographic realism, credible natural lighting and textures, central crop-safe subject. This is a declared synthetic editorial illustration, not documentary evidence. No headlines, captions, watermarks, collage, borders, UI, invented logos, license plates, or editorial text in the pixels. Any people must face the camera, with faces visible; nobody viewed from behind. Restrained photorealistic editorial image of a real-model Carabinieri patrol car with authentic navy/red livery parked on an ordinary Piedmont suburban street near Chieri. Front three-quarter framing with a clean bumper and absolutely no license plate, numbers or invented signs. No people, victims, suspects, weapons, crime scene tape, injuries or reconstruction of violence. Ordinary daylight, sober contextual image.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/chieri-compagno-arrestato-tortura-consenso-13-ottobre-2026-v847-480.webp",
+          "sha256": "23c9ccc75f1a9ad7500ee006cdcce07eafd44c372c998c74aa8ba4214947a846",
+          "bytes": 51292
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/chieri-compagno-arrestato-tortura-consenso-13-ottobre-2026-v847-800.webp",
+          "sha256": "a13720d880e0201cd1679d7ff0cac3687d9fbd121c55fffeca78422f54612aa5",
+          "bytes": 127122
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/chieri-compagno-arrestato-tortura-consenso-13-ottobre-2026-v847-1200.webp",
+          "sha256": "96ffe236d77ca7c825f91279aba03cbd56629f6f9ea6246725d75277f6c1a898",
+          "bytes": 242198
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
     {
       "id": "fmi-pil-italia-08-inflazione-33-13-ottobre-2026",
       "article": "/notizie/fmi-pil-italia-08-inflazione-33-13-ottobre-2026.html",
@@ -39,48 +593,6 @@
       "weatherMap": false,
       "reenactedEvent": false,
       "logoApplied": false
-    },
-    {
-      "id": "papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026",
-      "article": "/notizie/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026.html",
-      "alt": "Ritratto editoriale neutrale e isolato con somiglianza sintetica IA di Papa Leone XIV; non documenta il ricovero né una condizione clinica.",
-      "prompt": "Neutral editorial portrait, isolated, 16:9, of Pope Leo XIV in a sober Vatican institutional setting; declared synthetic likeness, no hospital setting, treatment, or inference about health condition, no text.",
-      "variants": [
-        {
-          "w": 480,
-          "h": 270,
-          "src": "/assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v845-480.webp",
-          "sha256": "1f8f61f879e1db7dfad120a4f3119db48b9de8d3681864e9b32ae583547dd56c",
-          "bytes": 8022
-        },
-        {
-          "w": 800,
-          "h": 450,
-          "src": "/assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v845-800.webp",
-          "sha256": "a4a4e8e21044cec00a71f6abd85b99e1adc1bdd400f3511dcc73d1f055564186",
-          "bytes": 17926
-        },
-        {
-          "w": 1200,
-          "h": 675,
-          "src": "/assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v845-1200.webp",
-          "sha256": "33c6d55a3bdde3971776e8083a5cb6d7e3e49ce44909d8beb2531ea823e6653e",
-          "bytes": 33322
-        }
-      ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "OpenAI image generation",
-      "aiGenerated": true,
-      "documentaryPhoto": false,
-      "officialArtwork": false,
-      "sensitiveContext": true,
-      "weatherMap": false,
-      "reenactedEvent": false,
-      "logoApplied": false,
-      "syntheticLikeness": "public-figure",
-      "publicFigureName": "Papa Leone XIV",
-      "portraitOnly": true,
-      "portraitFormat": "neutral-isolated"
     },
     {
       "id": "sciopero-sbb-cargo-italia-merci-13-14-ottobre-2026",
