@@ -1,0 +1,34 @@
+{
+  "version": 845,
+  "date": "2026-10-13",
+  "title": "Quanto è importante amare se stessi?",
+  "url": "/domanda-del-giorno/quanto-e-importante-amare-se-stessi/",
+  "status": "pubblicato",
+  "answer_characters": 2403,
+  "question_source": "Titolo esplicito del proprietario",
+  "ebook": {
+    "title": "Liberi senza smettere di appartenere",
+    "url": "/biblioteca/vita-relazioni/domande-per-conoscersi/quanto-siamo-liberi-nelle-scelte-che-facciamo-per-non-deludere-chi-amiamo/",
+    "already_published": true,
+    "content_modified": false,
+    "word_count": 29497
+  },
+  "sources": [
+    {
+      "title": "Breines e Chen (2012)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22645164/",
+      "used_for": "Quattro esperimenti sulla motivazione a migliorare; risultati circoscritti, nessuna promessa clinica."
+    },
+    {
+      "title": "Neff (2003)",
+      "url": "https://doi.org/10.1080/15298860309027",
+      "used_for": "Inquadramento dell’autocompassione; distinta dal generico amore per sé."
+    }
+  ],
+  "checks": {
+    "predeploy": "PASS, exit code 0",
+    "repository_integrity": "PASS (eseguito dal predeploy)",
+    "visual_browser_preview": "NON ESEGUITA: browser Chromium non disponibile e download non riuscito",
+    "design": "Layout e asset condivisi già esistenti; nessun CSS modificato."
+  }
+}
