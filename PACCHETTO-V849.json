@@ -1,0 +1,307 @@
+{
+  "package_version": 849,
+  "base_commit": "a5d28f01f819a919f2ab6968ee163b37b3278eca",
+  "prepared_at": "2026-10-14T05:54:20+02:00",
+  "new_articles": 9,
+  "updated_articles": 1,
+  "new_covers": 10,
+  "webp_assets": 30,
+  "site_manifest_included": false,
+  "files": [
+    {
+      "path": "CURIOMONDO-RELEASE-STATE.json",
+      "sha256": "915d452c7ec95a53cd67f74e27d484ffa1dea9f24edb601009067f1e7d9e523f",
+      "bytes": 1421
+    },
+    {
+      "path": "assets/data/editorial-images-v210.json",
+      "sha256": "9cde2b73992a21466f98c30e07b764c6d765de73cc4b2d098e4be2d7b6aa8c71",
+      "bytes": 1862425
+    },
+    {
+      "path": "assets/data/frasi-nome.json",
+      "sha256": "235203bb29382c6b140f7aae5fb751b8414ced7fec695dc6371dcfc05ab0aa37",
+      "bytes": 62984
+    },
+    {
+      "path": "assets/data/home-feed-v210.json",
+      "sha256": "1adf7671000d1c925d2f9a79c9f785da11a0f6080fe895e1a4576d60d2be5993",
+      "bytes": 1754535
+    },
+    {
+      "path": "assets/data/search-index-v210.json",
+      "sha256": "e7adc1b5d486c5cfc91051ebbcf8b5bc4a76bdee67a6d9eeab8bb42cd133ff6b",
+      "bytes": 547049
+    },
+    {
+      "path": "assets/images/editorial-auto/campi-flegrei-piano-miliardo-case-antisismiche-14-ottobre-2026-v849-1200.webp",
+      "sha256": "844e3ee821d9b38d183d0af5a46a68142dfc8cc4632e06f9cb9f42a6d737d2bf",
+      "bytes": 73196
+    },
+    {
+      "path": "assets/images/editorial-auto/campi-flegrei-piano-miliardo-case-antisismiche-14-ottobre-2026-v849-480.webp",
+      "sha256": "1b97c01293b1b724c7973b79804e32f63269bfdfc32844363d96d79155abc9b3",
+      "bytes": 20708
+    },
+    {
+      "path": "assets/images/editorial-auto/campi-flegrei-piano-miliardo-case-antisismiche-14-ottobre-2026-v849-800.webp",
+      "sha256": "1a4c8518fd43f4b3d54d8acefb3876f734d2d43f17c948b140c316ee9ac36d2c",
+      "bytes": 42772
+    },
+    {
+      "path": "assets/images/editorial-auto/codice-strada-documenti-digitali-verbali-45-giorni-cdm-14-ottobre-2026-v849-1200.webp",
+      "sha256": "aca21cd7e26a4b0af69640cdeb92e2562af60068fd54e0fc3a2a701d760bfb6d",
+      "bytes": 76752
+    },
+    {
+      "path": "assets/images/editorial-auto/codice-strada-documenti-digitali-verbali-45-giorni-cdm-14-ottobre-2026-v849-480.webp",
+      "sha256": "ec4a0ed1b5034a298386582e88dfecfebd05d8cb4604bc089b167d34e5dd3d78",
+      "bytes": 17122
+    },
+    {
+      "path": "assets/images/editorial-auto/codice-strada-documenti-digitali-verbali-45-giorni-cdm-14-ottobre-2026-v849-800.webp",
+      "sha256": "96e0c540c9d8f8cfe2f71a8bdce0eb155e3f799b8dc6e125a888b5a79dfbe2a3",
+      "bytes": 37796
+    },
+    {
+      "path": "assets/images/editorial-auto/ex-ilva-decreto-187-milioni-lavoratori-indotto-14-ottobre-2026-v849-1200.webp",
+      "sha256": "9aca0882ea67a69dbc2ae01f27478ec80ca8f965b61839aa6f2224a1e26ecaca",
+      "bytes": 86302
+    },
+    {
+      "path": "assets/images/editorial-auto/ex-ilva-decreto-187-milioni-lavoratori-indotto-14-ottobre-2026-v849-480.webp",
+      "sha256": "05be478b41fc4879070a1db11a95afaa3fab9f4fc77e356dd956543675eae880",
+      "bytes": 20806
+    },
+    {
+      "path": "assets/images/editorial-auto/ex-ilva-decreto-187-milioni-lavoratori-indotto-14-ottobre-2026-v849-800.webp",
+      "sha256": "0c3f18fef436e644b901923c62718ba6d08a15c5a9d226c1d1f2d5bca5e99ce3",
+      "bytes": 46244
+    },
+    {
+      "path": "assets/images/editorial-auto/fmi-interessi-debito-usa-57-pil-2031-14-ottobre-2026-v849-1200.webp",
+      "sha256": "2768a53a4bcd3c25b6717caa52cd2dcde0166560ad02edc4e70dfe7adee79fd6",
+      "bytes": 230634
+    },
+    {
+      "path": "assets/images/editorial-auto/fmi-interessi-debito-usa-57-pil-2031-14-ottobre-2026-v849-480.webp",
+      "sha256": "6118479fe50ae91328032f723b42a1246362f6c5c16394288574d30effe1f7d0",
+      "bytes": 44796
+    },
+    {
+      "path": "assets/images/editorial-auto/fmi-interessi-debito-usa-57-pil-2031-14-ottobre-2026-v849-800.webp",
+      "sha256": "42c0fa281d52340243ca1e03173994e92fa94d9f3a67d79eb45634414086bc41",
+      "bytes": 114448
+    },
+    {
+      "path": "assets/images/editorial-auto/kiev-centrale-colpita-zelensky-carney-14-ottobre-2026-v849-1200.webp",
+      "sha256": "dcb3fe34089b05881e5b70176871fdba921347d8a78e5c36a14e99f930842104",
+      "bytes": 68290
+    },
+    {
+      "path": "assets/images/editorial-auto/kiev-centrale-colpita-zelensky-carney-14-ottobre-2026-v849-480.webp",
+      "sha256": "34a3501e5380ff91ec849422debc5241f54f79091d56481d27f0b746646c8417",
+      "bytes": 11764
+    },
+    {
+      "path": "assets/images/editorial-auto/kiev-centrale-colpita-zelensky-carney-14-ottobre-2026-v849-800.webp",
+      "sha256": "5d97c673d9b4097721ac03c0f863a284b45abb14aab0cda9b97abb3034c40981",
+      "bytes": 31688
+    },
+    {
+      "path": "assets/images/editorial-auto/meteo-oggi-14-ottobre-2026-vento-ionio-puglia-calabria-v849-1200.webp",
+      "sha256": "45310f26b9d17c87d9d158b80886758413e75ca098b8e971405a01f48abbe583",
+      "bytes": 283164
+    },
+    {
+      "path": "assets/images/editorial-auto/meteo-oggi-14-ottobre-2026-vento-ionio-puglia-calabria-v849-480.webp",
+      "sha256": "6cf321004e536453f4ff37f8e99a9356a0c1ee6931b05a953052264e8158a41a",
+      "bytes": 52772
+    },
+    {
+      "path": "assets/images/editorial-auto/meteo-oggi-14-ottobre-2026-vento-ionio-puglia-calabria-v849-800.webp",
+      "sha256": "5ee46cd82c2e8278d43f1e6cb97b0a99e3ee658ecb979d05f33158307a15e013",
+      "bytes": 138896
+    },
+    {
+      "path": "assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v849-1200.webp",
+      "sha256": "98d696f25eb5e021458cfb8b652213ae26a18c2d1dfdfd25817b38fc98d1f2e4",
+      "bytes": 43280
+    },
+    {
+      "path": "assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v849-480.webp",
+      "sha256": "1460271ff65590a56e4c8c8295760d9558b3345d9a099ec2522727b2be4407aa",
+      "bytes": 10444
+    },
+    {
+      "path": "assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v849-800.webp",
+      "sha256": "cf8d6132b1567d1d4d933840d991705ca2a75a1083fec4d786eee1f5aa5c4c8a",
+      "bytes": 23504
+    },
+    {
+      "path": "assets/images/editorial-auto/riad-dhahran-esplosioni-intercettazioni-14-ottobre-2026-v849-1200.webp",
+      "sha256": "7fc8339cb85b06c307af4cc175a2e4d965e21de3a2d8c9a495c1288d169b6565",
+      "bytes": 173944
+    },
+    {
+      "path": "assets/images/editorial-auto/riad-dhahran-esplosioni-intercettazioni-14-ottobre-2026-v849-480.webp",
+      "sha256": "1f480a45621a2f6dd1fbc65e8209d419b8baab6e37ac8e7215a4576ef98b58dd",
+      "bytes": 35342
+    },
+    {
+      "path": "assets/images/editorial-auto/riad-dhahran-esplosioni-intercettazioni-14-ottobre-2026-v849-800.webp",
+      "sha256": "6484a57665538f65f9d90bead60269812052d316f19e7b5ac8e4de86c39d8206",
+      "bytes": 89010
+    },
+    {
+      "path": "assets/images/editorial-auto/scostamento-bilancio-voto-camera-senato-14-ottobre-2026-v849-1200.webp",
+      "sha256": "429994e0a5f3c6b31f0abc76e73a622d842ff9f1e43e3f80955c85d6c619d522",
+      "bytes": 83316
+    },
+    {
+      "path": "assets/images/editorial-auto/scostamento-bilancio-voto-camera-senato-14-ottobre-2026-v849-480.webp",
+      "sha256": "bdb740df127bcb3489564cd2f974d85a7ec05798c292ca7d8e9350fb27dd0ab3",
+      "bytes": 19044
+    },
+    {
+      "path": "assets/images/editorial-auto/scostamento-bilancio-voto-camera-senato-14-ottobre-2026-v849-800.webp",
+      "sha256": "45be4b0de5cd0fcccfd96ba52acc178d5a867e2f9b7ca2dbe24d03a38a39fa22",
+      "bytes": 42656
+    },
+    {
+      "path": "assets/images/editorial-auto/taranto-bus-solo-corse-scolastiche-14-ottobre-2026-gasolio-v849-1200.webp",
+      "sha256": "5988c6d66cc886e16b2b1e4c93359d2d861b15be5c450f824ebbbc84c08a5f75",
+      "bytes": 222596
+    },
+    {
+      "path": "assets/images/editorial-auto/taranto-bus-solo-corse-scolastiche-14-ottobre-2026-gasolio-v849-480.webp",
+      "sha256": "18899c9596d72b79133e0dfa9c74c669c8b95edcebe29189b3d4be5b3a83dd84",
+      "bytes": 49798
+    },
+    {
+      "path": "assets/images/editorial-auto/taranto-bus-solo-corse-scolastiche-14-ottobre-2026-gasolio-v849-800.webp",
+      "sha256": "c257c70dbe4e42b811d1dce123abed24c1db80b5465abca3e6c4225f1502dd2e",
+      "bytes": 118292
+    },
+    {
+      "path": "categorie/economia/index.html",
+      "sha256": "3379f3a4f8fe79fe9d2e872ce83aa49fce9250aac53e952b5de21c07edbf9154",
+      "bytes": 153590
+    },
+    {
+      "path": "categorie/italia/index.html",
+      "sha256": "9c6ad458b8d020ec8b41efcbf8c94a75dfa6ed4990e1f64df2f607e839073e74",
+      "bytes": 587322
+    },
+    {
+      "path": "categorie/meteo/index.html",
+      "sha256": "6918acb50b33c033044e05c0491abb12bab09426655c1c6b42c1c9438f990fc0",
+      "bytes": 31632
+    },
+    {
+      "path": "categorie/mondo/index.html",
+      "sha256": "ba7c24780d9793f6ae901a6d10af6f69e90c65f7459f90aa38b1ae1c857c5233",
+      "bytes": 412925
+    },
+    {
+      "path": "categorie/politica/index.html",
+      "sha256": "91963c83d973e57051622ceaf3e5b6270b7a285c83043ba47ca84fb628bc0589",
+      "bytes": 140211
+    },
+    {
+      "path": "feed.xml",
+      "sha256": "a7f8c009bd1027b16899304e31160850a8c772d5cd21f7d5863afaf22edbd163",
+      "bytes": 705234
+    },
+    {
+      "path": "index.html",
+      "sha256": "c72a530125c9e369814f3e43e76a60210e193ae367251168920ce22995cb6a25",
+      "bytes": 268025
+    },
+    {
+      "path": "news-sitemap.xml",
+      "sha256": "329a2ac0e8211ebc351296df59d1d13c6cb9cd8ce997520380526cd8e04d022b",
+      "bytes": 20511
+    },
+    {
+      "path": "notizie/campi-flegrei-piano-miliardo-case-antisismiche-14-ottobre-2026.html",
+      "sha256": "d3607cd0ef1a212334c8948aafca571c0cd52bc81aef2b40c600731c0e0fcd30",
+      "bytes": 9248
+    },
+    {
+      "path": "notizie/codice-strada-documenti-digitali-verbali-45-giorni-cdm-14-ottobre-2026.html",
+      "sha256": "e59fa073b178d5607919c6a3a7f666919fe1a6efd4738084d24d54785a77a0c5",
+      "bytes": 9194
+    },
+    {
+      "path": "notizie/ex-ilva-decreto-187-milioni-lavoratori-indotto-14-ottobre-2026.html",
+      "sha256": "3da8a1c147abcb56200cfee5115a9ceb14784ba944e15f7fc7a531612818157f",
+      "bytes": 9248
+    },
+    {
+      "path": "notizie/fmi-interessi-debito-usa-57-pil-2031-14-ottobre-2026.html",
+      "sha256": "9edf0e5d829b6bde74f45e27070bdbd12f1cb05b7b045dbffb3d42e607f6f2ef",
+      "bytes": 8787
+    },
+    {
+      "path": "notizie/index.html",
+      "sha256": "88af41fc25ee4a15fa3fe6ba4c20d3c337de2c0e37bb7fafac67a437e322c3b8",
+      "bytes": 244131
+    },
+    {
+      "path": "notizie/kiev-centrale-colpita-zelensky-carney-14-ottobre-2026.html",
+      "sha256": "55c3c2a063a8039cc36ad7797871b46bbc5476e71693f6e3c628ae5a4e9ebc73",
+      "bytes": 8947
+    },
+    {
+      "path": "notizie/meteo-oggi-14-ottobre-2026-vento-ionio-puglia-calabria.html",
+      "sha256": "da6ab92cbb5d968b5154070f39fd033e33535a6cf63de195e1ca86c319543e67",
+      "bytes": 8561
+    },
+    {
+      "path": "notizie/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026.html",
+      "sha256": "8de512eaeebaff2eaaf7792a5b7d42250aa8db5788ae0e7df7bdc90c81f23f76",
+      "bytes": 8737
+    },
+    {
+      "path": "notizie/riad-dhahran-esplosioni-intercettazioni-14-ottobre-2026.html",
+      "sha256": "9b3d9847484d4d423f5827c6d9d5a76da35c46afa358cb6cd6d7857247cbaaf8",
+      "bytes": 8852
+    },
+    {
+      "path": "notizie/scostamento-bilancio-voto-camera-senato-14-ottobre-2026.html",
+      "sha256": "a9ebe7dbc92c20d099d82da836511d8c49c609eb01215354eab4005fc92fedde",
+      "bytes": 9450
+    },
+    {
+      "path": "notizie/taranto-bus-solo-corse-scolastiche-14-ottobre-2026-gasolio.html",
+      "sha256": "59dbefd91ab680d3467bde4af089d948a6c05a755286f9bfa13d2e9313edf644",
+      "bytes": 8727
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "1c352cc59b18e543f4823dad5b2c50e43a8c4108268dcc3778fea22c7e34e7e1",
+      "bytes": 233857
+    },
+    {
+      "path": "tools/news_audit_20261014_v849.json",
+      "sha256": "03e3aec22e34cc5a3028457cd506d53e00e36fba95052ea729f3e106c29ed5fd",
+      "bytes": 13526
+    },
+    {
+      "path": "tools/news_batch_20261014_v849.json",
+      "sha256": "3018db7ab7e1c8627eaedfe8fab5af97156c7622061c1c0de73270a6daa16247",
+      "bytes": 35407
+    },
+    {
+      "path": "tools/news_images_20261014_v849.json",
+      "sha256": "bab44afeae76b529abea493d3ae6095e5a2882d84e89a17c8e8f8a101e31fe85",
+      "bytes": 9315
+    },
+    {
+      "path": "tools/prepare_news_20261014_v849.py",
+      "sha256": "53e4cc3d4601a98eb67932686261f2d4bcba426dfb3c6096c5f54c6a9560b042",
+      "bytes": 15562
+    }
+  ]
+}

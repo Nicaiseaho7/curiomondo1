@@ -1,0 +1,316 @@
+{
+  "version": 849,
+  "release": "2026-10-14T06:14:47+02:00",
+  "new_articles": 9,
+  "updated_articles": 1,
+  "new_images": 10,
+  "push_executed": false,
+  "manifest_accessed": false,
+  "image_visual_review": "Dieci immagini controllate: identità, luoghi, livrea, assenza di ricostruzioni traumatiche, leggibilità dei ritagli.",
+  "evergreen_exception": "Nel catalogo non sono presenti guide specifiche pertinenti ai dieci fatti: nessun collegamento artificiale.",
+  "excluded": [
+    "Sciopero Toscana e test IT-alert già trattati",
+    "Piccoli eventi INGV del 13 ottobre non pertinenti a un'urgenza della notte richiesta"
+  ],
+  "primary_access_limits": [
+    "Palazzo Chigi e MIT: pagine individuate negli indici di ricerca ma accesso diretto non riuscito",
+    "Fiscal Monitor: pagina primaria del capitolo fiscale non documenta il lancio sui nuovi costi del debito; usate due redazioni indipendenti",
+    "Kyma Mobilità: sito non accessibile, comunicazione del servizio verificata su due testate territoriali"
+  ],
+  "articles": [
+    {
+      "slug": "meteo-oggi-14-ottobre-2026-vento-ionio-puglia-calabria",
+      "title": "Meteo oggi 14 ottobre: raffiche di burrasca al Sud, Ionio agitato",
+      "action": "new",
+      "published": "2026-10-14T06:14:47+02:00",
+      "modified": "2026-10-14T06:14:47+02:00",
+      "source_date": "2026-10-13",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://mappe.protezionecivile.gov.it/it/mappe-rischi/bollettino-di-vigilanza/",
+          "nome": "Protezione Civile — vigilanza nazionale del 13 ottobre, previsioni per il 14 e 15 ottobre."
+        },
+        {
+          "url": "https://mappe.protezionecivile.gov.it/it/mappe-rischi/bollettino-di-criticita/",
+          "nome": "Protezione Civile — criticità del 13 ottobre alle 14:08, validità per il 14 ottobre."
+        }
+      ],
+      "words": 233,
+      "paragraph_max": 52,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "taranto-bus-solo-corse-scolastiche-14-ottobre-2026-gasolio",
+      "title": "Taranto, oggi bus solo per le scuole: corse nelle fasce 6–9 e 12–15",
+      "action": "new",
+      "published": "2026-10-14T06:09:47+02:00",
+      "modified": "2026-10-14T06:09:47+02:00",
+      "source_date": "2026-10-13",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.cronachetarantine.it/index.php/attualita/18490-bus-a-mezzo-servizio-garantite-solo-le-corse-scolastiche",
+          "nome": "Cronache Tarantine — comunicazione Kyma Mobilità per il 14 ottobre, fasce scolastiche e rifornimenti."
+        },
+        {
+          "url": "https://www.trmtv.it/attualita/2026_10_13/578088.html",
+          "nome": "TRM Network — conferma delle fasce 6–9 e 12–15 e della causa della rimodulazione."
+        }
+      ],
+      "words": 198,
+      "paragraph_max": 49,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "fmi-interessi-debito-usa-57-pil-2031-14-ottobre-2026",
+      "title": "Fmi, interessi sul debito Usa al 5,7% del Pil nel 2031: è una stima",
+      "action": "new",
+      "published": "2026-10-14T06:02:47+02:00",
+      "modified": "2026-10-14T06:02:47+02:00",
+      "source_date": "2026-10-14",
+      "source_published": "2026-10-14T04:00:00+02:00",
+      "sources": [
+        {
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/14/fmi-negli-usa-gli-interessi-sul-debito-raggiungeranno-la-spesa-sociale_dad7a222-2c53-4a4d-820f-8a4c444b84ce.html",
+          "nome": "ANSA — Fiscal Monitor, proiezione statunitense e richiamo ai Paesi G7; lancio delle 04:00."
+        },
+        {
+          "url": "https://english.ahram.org.eg/NewsContent/3/12/578840/Business/Economy/Global-public-debt-to-exceed--of-GDP-by--IMF.aspx",
+          "nome": "Ahram Online, Doaa A. Moneim — riscontro indipendente dei valori 2,8% e 5,7% per gli Usa."
+        }
+      ],
+      "words": 201,
+      "paragraph_max": 46,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "riad-dhahran-esplosioni-intercettazioni-14-ottobre-2026",
+      "title": "Riad, quattro feriti dai detriti: esplosioni anche a Dhahran",
+      "action": "new",
+      "published": "2026-10-14T05:54:47+02:00",
+      "modified": "2026-10-14T05:54:47+02:00",
+      "source_date": "2026-10-14",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.jpost.com/middle-east/article-911610",
+          "nome": "Reuters, pubblicata dal Jerusalem Post — intercettazioni, difesa civile, feriti e testimonianze su Dhahran; aggiornamento notturno."
+        },
+        {
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/13/forti-esplosioni-udite-a-riad-e-nei-pressi-di-un-impianto-aramco-nellest_4c770138-c83a-4f4f-a653-fb644391012c.html",
+          "nome": "ANSA-AFP — riscontro dei boati a Riad, allarme e successiva revoca."
+        }
+      ],
+      "words": 229,
+      "paragraph_max": 52,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      },
+      "source_displayed": "14 ottobre 2026, 01:29; il fuso non è esplicitato dalla pagina"
+    },
+    {
+      "slug": "kiev-centrale-colpita-zelensky-carney-14-ottobre-2026",
+      "title": "Kiev, colpita una centrale: Zelensky porta il caso a Carney",
+      "action": "new",
+      "published": "2026-10-14T05:45:47+02:00",
+      "modified": "2026-10-14T05:45:47+02:00",
+      "source_date": "2026-10-14",
+      "source_published": "2026-10-13T23:43:00+02:00",
+      "sources": [
+        {
+          "url": "https://www.president.gov.ua/en/news/volodimir-zelenskij-i-mark-karni-obgovorili-rosijskij-udar-b-106881",
+          "nome": "Presidenza ucraina — comunicato notturno sul colloquio Zelensky-Carney e sull'impianto energetico colpito."
+        },
+        {
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/13/zelensky-raid-su-centrale-termoelettrica-a-kiev-gli-alleati-non-ci-hanno-avvertito_4751c758-dd8f-4e1e-8f7c-244fd22ce2d6.html",
+          "nome": "ANSA — attacco serale, centrale numero 4 e palazzo di nove piani; lancio delle 22:37."
+        }
+      ],
+      "words": 211,
+      "paragraph_max": 51,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "ex-ilva-decreto-187-milioni-lavoratori-indotto-14-ottobre-2026",
+      "title": "Ex Ilva, decreto da 187 milioni: tutele estese anche all'indotto",
+      "action": "new",
+      "published": "2026-10-14T05:35:47+02:00",
+      "modified": "2026-10-14T05:35:47+02:00",
+      "source_date": "2026-10-13",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.italpress.com/ex-ilva-dal-cdm-via-libera-al-decreto-calderone-protezione-lavoratori-indotto/",
+          "nome": "Italpress — dichiarazioni di Calderone, destinatari, termini e condizioni delle misure."
+        },
+        {
+          "url": "https://www.rainews.it/articoli/2026/10/ex-ilva-governo-vara-un-nuovo-decreto-da-187-mln-ma-la-protesta-non-si-ferma-sciopero-di-48-ore-a5172028-a420-45c5-b5b1-6b685663a0fa.html",
+          "nome": "RaiNews — conferma del decreto, modalità di riscaldo degli impianti e mobilitazione sindacale."
+        }
+      ],
+      "words": 242,
+      "paragraph_max": 57,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "codice-strada-documenti-digitali-verbali-45-giorni-cdm-14-ottobre-2026",
+      "title": "Codice della strada, il Cdm approva controlli digitali e verbali in 45 giorni",
+      "action": "new",
+      "published": "2026-10-14T05:24:47+02:00",
+      "modified": "2026-10-14T05:24:47+02:00",
+      "source_date": "2026-10-13",
+      "source_published": "2026-10-13T21:27:00+02:00",
+      "sources": [
+        {
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/13/mit-stop-ad-obbligo-patente-cartacea-e-libretto-per-circolare_1ef653cd-c14d-4dd7-bc62-ae8743f7d1a0.html",
+          "nome": "ANSA — nota del Ministero, controlli telematici e notifiche entro 45 giorni; lancio delle 21:17."
+        },
+        {
+          "url": "https://www.adnkronos.com/economia/codice-strada-patente-libretto_2wKqxW0j42DAGNuHSU5PcN",
+          "nome": "Adnkronos — conferma del testo approvato e dettagli sulle sanzioni; aggiornamento delle 21:27."
+        }
+      ],
+      "words": 221,
+      "paragraph_max": 54,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "campi-flegrei-piano-miliardo-case-antisismiche-14-ottobre-2026",
+      "title": "Campi Flegrei, piano da un miliardo: contributi per le case antisismiche",
+      "action": "new",
+      "published": "2026-10-14T05:12:47+02:00",
+      "modified": "2026-10-14T05:12:47+02:00",
+      "source_date": "2026-10-13",
+      "source_published": "2026-10-13T21:03:00+02:00",
+      "sources": [
+        {
+          "url": "https://www.italpress.com/musumeci-via-libera-al-piano-straordinario-sui-campi-flegrei/",
+          "nome": "Italpress — conferenza Musumeci, fondo, contributi, governance e distinzione dalla gestione dell'emergenza."
+        },
+        {
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/13/musumeci-in-cdm-via-libera-a-piano-per-i-campi-flegrei_f0276524-b9e7-4f0e-8d06-cf41f011f090.html",
+          "nome": "ANSA — conferma del piano e dati su abitanti ed edifici della zona di intervento; lancio delle 21:03."
+        }
+      ],
+      "words": 261,
+      "paragraph_max": 53,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "scostamento-bilancio-voto-camera-senato-14-ottobre-2026",
+      "title": "Scostamento, sì delle Camere: gli aiuti energia attendono il passaggio Ue",
+      "action": "new",
+      "published": "2026-10-14T04:59:47+02:00",
+      "modified": "2026-10-14T04:59:47+02:00",
+      "source_date": "2026-10-13",
+      "source_published": "2026-10-13T15:08:00+02:00",
+      "sources": [
+        {
+          "url": "https://www.camera.it/leg19/410?idSeduta=0726&tipo=stenografico",
+          "nome": "Camera dei deputati — resoconto della seduta 726, votazioni 1 e 2 e quota energia nella programmazione."
+        },
+        {
+          "url": "https://www.pmi.it/economia/mercati/501354/caro-energia-manovra-flessibilita-ue.html",
+          "nome": "PMI.it, Barbara Weisz — conferma del voto delle Camere e condizioni europee per gli aiuti energetici."
+        }
+      ],
+      "words": 246,
+      "paragraph_max": 46,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026",
+      "title": "Leone XIV, intervento riuscito: confermata la diagnosi al polmone",
+      "action": "update",
+      "published": "2026-10-13T06:12:54+02:00",
+      "modified": "2026-10-14T06:14:47+02:00",
+      "source_date": "2026-10-13",
+      "source_published": "2026-10-13T22:45:00+02:00",
+      "sources": [
+        {
+          "url": "https://www.vaticannews.va/it/papa/news/2026-10/papa-leone-xiv-operazione-nodulo-polmone-gemelli-vaticano.html",
+          "nome": "Vatican News — bollettino medico, esito, diagnosi e accertamenti successivi; aggiornato alle 22:45 del 13 ottobre."
+        },
+        {
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/13/il-papa-operato-per-un-adenocarcinoma-polmonare_8c88bdea-9812-4c89-8854-bfae6543a6d0.html",
+          "nome": "ANSA — conferma del bollettino, durata e rientro nella stanza; lancio delle 22:07."
+        }
+      ],
+      "words": 212,
+      "paragraph_max": 47,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    }
+  ],
+  "related_review": "Eliminati collegamenti fuori tema; da zero a due correlati scelti editorialmente. Nessun articolo collegato per sola appartenenza alla categoria.",
+  "layout_check": "Markup, viewport, proporzioni immagini e superfici verificati; prova browser locale non eseguita: Chromium non disponibile e download non riuscito. Nessuna modifica a CSS o JavaScript condivisi.",
+  "prepared_release": "2026-10-14T05:54:20+02:00"
+}

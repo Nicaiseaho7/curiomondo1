@@ -1,7 +1,403 @@
 {
-  "version": 847,
+  "version": 849,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "id": "meteo-oggi-14-ottobre-2026-vento-ionio-puglia-calabria",
+      "article": "/notizie/meteo-oggi-14-ottobre-2026-vento-ionio-puglia-calabria.html",
+      "alt": "Illustrazione editoriale IA della costa di Santa Maria di Leuca con mare mosso; rappresenta una previsione, non condizioni osservate.",
+      "prompt": "Use case: photorealistic-natural. Asset type: original CurioMondo news hero, horizontal 16:9, at least 1600x900. Create one dedicated ultra photorealistic editorial illustration for the Italian weather forecast of 14 October 2026: strong northerly wind on the southern Puglia coast and rough Ionian Sea. Show the actual limestone cliffs and recognizable coastal landscape of Santa Maria di Leuca, southern Italy, overlooking textured rough deep blue water with moderate whitecaps, clear autumn daylight, believable wind, sparse natural coastal vegetation. Wide clean professional press photography composition, coast centered in the safe crop area. This illustrates a forecast and is not evidence of an observed storm: no flooding, destruction, huge waves or dramatic disaster. No people, no text, no symbols, no map, no infographic, no overlay, no watermark, no logo. Natural colors, realistic perspective and authentic photographic material textures.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/meteo-oggi-14-ottobre-2026-vento-ionio-puglia-calabria-v849-480.webp",
+          "sha256": "6cf321004e536453f4ff37f8e99a9356a0c1ee6931b05a953052264e8158a41a",
+          "bytes": 52772
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/meteo-oggi-14-ottobre-2026-vento-ionio-puglia-calabria-v849-800.webp",
+          "sha256": "5ee46cd82c2e8278d43f1e6cb97b0a99e3ee658ecb979d05f33158307a15e013",
+          "bytes": 138896
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/meteo-oggi-14-ottobre-2026-vento-ionio-puglia-calabria-v849-1200.webp",
+          "sha256": "45310f26b9d17c87d9d158b80886758413e75ca098b8e971405a01f48abbe583",
+          "bytes": 283164
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "taranto-bus-solo-corse-scolastiche-14-ottobre-2026-gasolio",
+      "article": "/notizie/taranto-bus-solo-corse-scolastiche-14-ottobre-2026-gasolio.html",
+      "alt": "Illustrazione editoriale IA di un autobus Mercedes-Benz Citaro hybrid nella livrea reale Kyma Mobilità a Taranto; non documenta una corsa cancellata.",
+      "prompt": "Create one NEW dedicated ultra photorealistic editorial illustration for CurioMondo, horizontal 16:9 1600x900. The authentic supplied photo is a visual reference for the actual Mercedes-Benz Citaro HYBRID diesel buses operated by KYMA MOBILITÀ in Taranto. Show ONE correctly proportioned real red, white and blue Citaro hybrid bus, front-three-quarter angle, parked at a quiet Taranto bus terminal in natural autumn morning light; background plausible pale stone buildings. Keep the Mercedes badge and the genuine operator wordmark spelled exactly KYMA MOBILITÀ if shown, as existing vehicle branding, not added graphics. Do not copy the reference row of buses. Avoid any other text, registration plates, identifying fleet numbers, destination labels; bus bumper without a plate. No people, no protests, no crowds, no fuel spills. The vehicle is the main subject of an announced reduction of service, not a photo documenting a cancellation. Authentic press photography textures, no watermark, overlay, map or collage.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/taranto-bus-solo-corse-scolastiche-14-ottobre-2026-gasolio-v849-480.webp",
+          "sha256": "18899c9596d72b79133e0dfa9c74c669c8b95edcebe29189b3d4be5b3a83dd84",
+          "bytes": 49798
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/taranto-bus-solo-corse-scolastiche-14-ottobre-2026-gasolio-v849-800.webp",
+          "sha256": "c257c70dbe4e42b811d1dce123abed24c1db80b5465abca3e6c4225f1502dd2e",
+          "bytes": 118292
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/taranto-bus-solo-corse-scolastiche-14-ottobre-2026-gasolio-v849-1200.webp",
+          "sha256": "5988c6d66cc886e16b2b1e4c93359d2d861b15be5c450f824ebbbc84c08a5f75",
+          "bytes": 222596
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "fmi-interessi-debito-usa-57-pil-2031-14-ottobre-2026",
+      "article": "/notizie/fmi-interessi-debito-usa-57-pil-2031-14-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA del reale edificio del Tesoro degli Stati Uniti a Washington; non è una fotografia della presentazione del Fiscal Monitor.",
+      "prompt": "Create one completely new dedicated ultra photorealistic editorial photograph-style illustration for CurioMondo, landscape 16:9 at least 1600x900. News: IMF warns United States interest spending may rise to 5.7 percent of GDP by 2031. Subject: the actual recognizable United States Treasury Building in Washington DC, the tall classical colonnade and Alexander Hamilton statue, a realistic low street-level perspective with warm autumn morning light and authentic monumental stone texture, clean composition. This building is specifically central to US government borrowing, not an invented institution. Quiet scene, no people, no vehicles, no money piles, charts or floating symbols. Do not render numbers, forecasts, editorial text, captions, watermarks or invented logos. Not a photo of the report launch.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/fmi-interessi-debito-usa-57-pil-2031-14-ottobre-2026-v849-480.webp",
+          "sha256": "6118479fe50ae91328032f723b42a1246362f6c5c16394288574d30effe1f7d0",
+          "bytes": 44796
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/fmi-interessi-debito-usa-57-pil-2031-14-ottobre-2026-v849-800.webp",
+          "sha256": "42c0fa281d52340243ca1e03173994e92fa94d9f3a67d79eb45634414086bc41",
+          "bytes": 114448
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/fmi-interessi-debito-usa-57-pil-2031-14-ottobre-2026-v849-1200.webp",
+          "sha256": "2768a53a4bcd3c25b6717caa52cd2dcde0166560ad02edc4e70dfe7adee79fd6",
+          "bytes": 230634
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "riad-dhahran-esplosioni-intercettazioni-14-ottobre-2026",
+      "article": "/notizie/riad-dhahran-esplosioni-intercettazioni-14-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA del riconoscibile skyline di Riad di notte, senza ricostruire attacchi, incendi o danni.",
+      "prompt": "One new ultra photorealistic sober editorial illustration for CurioMondo, horizontal 16:9 1600x900. Article: overnight security alerts and explosions in Saudi Arabia, Riyadh and Dhahran. Show the real distinctive Riyadh skyline featuring the recognizable Kingdom Centre tower from a believable distant city viewpoint at night, normal lit buildings, clear dark blue sky, subdued light, realistic architecture and natural urban photographic texture. The city is the subject. This is contextual illustration, NEVER reconstruction of attacks: NO missiles, explosions, fires, damage, smoke, victims, aircraft or weaponry. No people or cars, no text, no watermark, no graphic overlays, no invented logos. Keep the landmark centered for mobile crop.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/riad-dhahran-esplosioni-intercettazioni-14-ottobre-2026-v849-480.webp",
+          "sha256": "1f480a45621a2f6dd1fbc65e8209d419b8baab6e37ac8e7215a4576ef98b58dd",
+          "bytes": 35342
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/riad-dhahran-esplosioni-intercettazioni-14-ottobre-2026-v849-800.webp",
+          "sha256": "6484a57665538f65f9d90bead60269812052d316f19e7b5ac8e4de86c39d8206",
+          "bytes": 89010
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/riad-dhahran-esplosioni-intercettazioni-14-ottobre-2026-v849-1200.webp",
+          "sha256": "7fc8339cb85b06c307af4cc175a2e4d965e21de3a2d8c9a495c1288d169b6565",
+          "bytes": 173944
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "kiev-centrale-colpita-zelensky-carney-14-ottobre-2026",
+      "article": "/notizie/kiev-centrale-colpita-zelensky-carney-14-ottobre-2026.html",
+      "alt": "Ritratto editoriale neutrale e isolato con somiglianza sintetica IA di Volodymyr Zelensky; non rappresenta l'attacco né persone ferite.",
+      "prompt": "Generate a NEW photorealistic editorial illustration for CurioMondo, horizontal landscape 16:9 1600x900. The reference photograph establishes the real recognizable identity of Volodymyr Zelenskyy. Preserve his facial features but use his recent short beard and plain olive green crew-neck shirt. This is a sensitive wartime news article: strictly a NEUTRAL ISOLATED head and shoulders portrait looking toward the camera, calm expression, plain gray softly blurred studio background, realistic skin and understated press portrait lighting. Do not depict war, damage, explosions, blood, military action, victims or any event. New composition, not copying the original official portrait. No text, watermark, flags, slogans, other people or decoration.\nPost-generation visual review: neutral editorial portrait, isolated and without reconstruction of the sensitive event. This is a QA note, not a change to the original generation instruction above.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/kiev-centrale-colpita-zelensky-carney-14-ottobre-2026-v849-480.webp",
+          "sha256": "34a3501e5380ff91ec849422debc5241f54f79091d56481d27f0b746646c8417",
+          "bytes": 11764
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/kiev-centrale-colpita-zelensky-carney-14-ottobre-2026-v849-800.webp",
+          "sha256": "5d97c673d9b4097721ac03c0f863a284b45abb14aab0cda9b97abb3034c40981",
+          "bytes": 31688
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/kiev-centrale-colpita-zelensky-carney-14-ottobre-2026-v849-1200.webp",
+          "sha256": "dcb3fe34089b05881e5b70176871fdba921347d8a78e5c36a14e99f930842104",
+          "bytes": 68290
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Volodymyr Zelensky",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated"
+    },
+    {
+      "id": "ex-ilva-decreto-187-milioni-lavoratori-indotto-14-ottobre-2026",
+      "article": "/notizie/ex-ilva-decreto-187-milioni-lavoratori-indotto-14-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA con somiglianza sintetica di Marina Elvira Calderone in contesto istituzionale; non è la fotografia della conferenza del 13 ottobre.",
+      "prompt": "Create one new ultra photorealistic CurioMondo editorial news illustration, horizontal 16:9 1600x900. Use the supplied authentic photo solely as identity reference for Italian labour minister Marina Elvira Calderone. Keep her recognizable real face, short blonde bob and pearl earrings. Show her in a dark elegant jacket, chest-up, looking toward the camera, in a neutral institutional press setting at Palazzo Chigi, soft blurred Italian and European Union flags behind, no visible text on any surface. No other people. This illustrates her explanation of employment protection measures for ex Ilva and does NOT document a specific conference or imply any unsourced behaviour. Natural lighting and true photographic textures. Entirely new composition, not a reproduction. No text, headline, captions, watermark or invented logos.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ex-ilva-decreto-187-milioni-lavoratori-indotto-14-ottobre-2026-v849-480.webp",
+          "sha256": "05be478b41fc4879070a1db11a95afaa3fab9f4fc77e356dd956543675eae880",
+          "bytes": 20806
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ex-ilva-decreto-187-milioni-lavoratori-indotto-14-ottobre-2026-v849-800.webp",
+          "sha256": "0c3f18fef436e644b901923c62718ba6d08a15c5a9d226c1d1f2d5bca5e99ce3",
+          "bytes": 46244
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ex-ilva-decreto-187-milioni-lavoratori-indotto-14-ottobre-2026-v849-1200.webp",
+          "sha256": "9aca0882ea67a69dbc2ae01f27478ec80ca8f965b61839aa6f2224a1e26ecaca",
+          "bytes": 86302
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Marina Elvira Calderone"
+    },
+    {
+      "id": "codice-strada-documenti-digitali-verbali-45-giorni-cdm-14-ottobre-2026",
+      "article": "/notizie/codice-strada-documenti-digitali-verbali-45-giorni-cdm-14-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA con somiglianza sintetica di Matteo Salvini in ambiente istituzionale; non documenta la riunione del Consiglio dei ministri.",
+      "prompt": "Create a new photorealistic editorial illustration for CurioMondo news about the new Italian road code approved by the Council of Ministers. Horizontal 16:9, 1600x900. Use the authentic supplied photograph solely as a real identity reference for Matteo Salvini. Preserve his recognizable face, short dark hair and graying beard. Chest-up, neutral expression looking toward the camera, navy suit, white shirt, understated navy tie, in the neutral institutional context of the Italian Ministry of Infrastructure with a softly blurred Italian flag and warm stone background. No microphone, no fake action, no other people. Entirely new composition and natural photographic lighting; not documentation of the particular cabinet session. No overlaid text, headline, watermark, invented logo or symbols.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/codice-strada-documenti-digitali-verbali-45-giorni-cdm-14-ottobre-2026-v849-480.webp",
+          "sha256": "ec4a0ed1b5034a298386582e88dfecfebd05d8cb4604bc089b167d34e5dd3d78",
+          "bytes": 17122
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/codice-strada-documenti-digitali-verbali-45-giorni-cdm-14-ottobre-2026-v849-800.webp",
+          "sha256": "96e0c540c9d8f8cfe2f71a8bdce0eb155e3f799b8dc6e125a888b5a79dfbe2a3",
+          "bytes": 37796
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/codice-strada-documenti-digitali-verbali-45-giorni-cdm-14-ottobre-2026-v849-1200.webp",
+          "sha256": "aca21cd7e26a4b0af69640cdeb92e2562af60068fd54e0fc3a2a701d760bfb6d",
+          "bytes": 76752
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Matteo Salvini"
+    },
+    {
+      "id": "campi-flegrei-piano-miliardo-case-antisismiche-14-ottobre-2026",
+      "article": "/notizie/campi-flegrei-piano-miliardo-case-antisismiche-14-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA con somiglianza sintetica di Nello Musumeci in contesto istituzionale; non rappresenta una catastrofe o un'evacuazione.",
+      "prompt": "Create one new photorealistic editorial illustration for a CurioMondo article about the government prevention plan for Campi Flegrei. Horizontal 16:9 1600x900. Identity reference is the supplied authentic photograph of Nello Musumeci: preserve his real recognizable face, short gray hair, closely trimmed gray beard. Chest-up calm portrait, face visible toward camera, navy suit and subtle tie, natural soft light, neutral institutional setting with a softly blurred Italian flag, no banners or words. This is a prevention policy article, not an active catastrophe. Do not depict destruction, earthquakes, victims or dramatic emotion. New angle and composition rather than copying the reference. No other people, no text, watermark or overlay.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/campi-flegrei-piano-miliardo-case-antisismiche-14-ottobre-2026-v849-480.webp",
+          "sha256": "1b97c01293b1b724c7973b79804e32f63269bfdfc32844363d96d79155abc9b3",
+          "bytes": 20708
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/campi-flegrei-piano-miliardo-case-antisismiche-14-ottobre-2026-v849-800.webp",
+          "sha256": "1a4c8518fd43f4b3d54d8acefb3876f734d2d43f17c948b140c316ee9ac36d2c",
+          "bytes": 42772
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/campi-flegrei-piano-miliardo-case-antisismiche-14-ottobre-2026-v849-1200.webp",
+          "sha256": "844e3ee821d9b38d183d0af5a46a68142dfc8cc4632e06f9cb9f42a6d737d2bf",
+          "bytes": 73196
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Nello Musumeci"
+    },
+    {
+      "id": "scostamento-bilancio-voto-camera-senato-14-ottobre-2026",
+      "article": "/notizie/scostamento-bilancio-voto-camera-senato-14-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA con somiglianza sintetica di Giancarlo Giorgetti in contesto istituzionale; non è una fotografia delle votazioni parlamentari.",
+      "prompt": "Create one new photorealistic editorial illustration, horizontal 16:9 1600x900, for a CurioMondo news article about the Italian Parliament budget deviation vote. Use the supplied authentic photo as identity reference for economy minister Giancarlo Giorgetti. His real recognizable face, short graying hair and dark thick rectangular glasses must remain exact. Chest-up neutral pose looking toward camera, dark blue business suit, white shirt, green tie, in a simple institutional setting with softly blurred warm wood and Italian flag. No other people, no invented documents, no fake ceremony. Natural photojournalistic lighting, realistic skin and cloth. Distinct framing from reference, one coherent photograph, no text, watermark or graphics.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/scostamento-bilancio-voto-camera-senato-14-ottobre-2026-v849-480.webp",
+          "sha256": "bdb740df127bcb3489564cd2f974d85a7ec05798c292ca7d8e9350fb27dd0ab3",
+          "bytes": 19044
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/scostamento-bilancio-voto-camera-senato-14-ottobre-2026-v849-800.webp",
+          "sha256": "45be4b0de5cd0fcccfd96ba52acc178d5a867e2f9b7ca2dbe24d03a38a39fa22",
+          "bytes": 42656
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/scostamento-bilancio-voto-camera-senato-14-ottobre-2026-v849-1200.webp",
+          "sha256": "429994e0a5f3c6b31f0abc76e73a622d842ff9f1e43e3f80955c85d6c619d522",
+          "bytes": 83316
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Giancarlo Giorgetti"
+    },
+    {
+      "id": "papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026",
+      "article": "/notizie/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026.html",
+      "alt": "Ritratto editoriale neutrale e isolato con somiglianza sintetica IA di Papa Leone XIV; non documenta l'intervento o le condizioni cliniche.",
+      "prompt": "Create a NEW dedicated photorealistic editorial illustration, landscape 16:9 1600x900. Use the supplied authentic photo only as an identity reference for Pope Leo XIV (Robert Prevost), keeping his recognizable real face, white papal cassock and white zucchetto. A neutral isolated head-and-shoulders portrait with a calm neutral expression, eye contact, natural skin texture, soft studio lighting and simple warm gray blurred background. This is for a sensitive news article reporting surgery, so do NOT depict illness, a hospital, suffering, medical devices, body changes or events. Completely new framing and lighting; do not copy the original shot. No text, watermark, decorative logos or overlay.\nPost-generation visual review: neutral editorial portrait, isolated and without reconstruction of the sensitive event. This is a QA note, not a change to the original generation instruction above.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v849-480.webp",
+          "sha256": "1460271ff65590a56e4c8c8295760d9558b3345d9a099ec2522727b2be4407aa",
+          "bytes": 10444
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v849-800.webp",
+          "sha256": "cf8d6132b1567d1d4d933840d991705ca2a75a1083fec4d786eee1f5aa5c4c8a",
+          "bytes": 23504
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v849-1200.webp",
+          "sha256": "98d696f25eb5e021458cfb8b652213ae26a18c2d1dfdfd25817b38fc98d1f2e4",
+          "bytes": 43280
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Papa Leone XIV",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated"
+    },
     {
       "id": "riccia-ricina-perquisizioni-computer-scuole-13-ottobre-2026",
       "article": "/notizie/riccia-ricina-perquisizioni-computer-scuole-13-ottobre-2026.html",
@@ -397,48 +793,6 @@
       "weatherMap": false,
       "reenactedEvent": false,
       "logoApplied": false
-    },
-    {
-      "id": "papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026",
-      "article": "/notizie/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026.html",
-      "alt": "Ritratto editoriale neutrale e isolato IA di Papa Leone XIV; somiglianza sintetica, non fotografia del ricovero.",
-      "prompt": "Use case: photorealistic-natural. Asset: new CurioMondo news hero, landscape 16:9, at least 1600x900. High-end editorial photographic realism, credible natural lighting and textures, central crop-safe subject. This is a declared synthetic editorial illustration, not documentary evidence. No headlines, captions, watermarks, collage, borders, UI, invented logos, license plates, or editorial text in the pixels. Any people must face the camera, with faces visible; nobody viewed from behind. Neutral editorial portrait of Pope Leo XIV, recognizable public figure Robert Francis Prevost, white papal cassock and white zucchetto, head and shoulders facing camera, plain pale gray studio background, calm neutral expression, realistic face and glasses. Neutral isolated portrait only for sensitive health coverage. No hospital, medical staff, procedures, injury, suffering, beds or suggestion of current medical condition. Completely new composition, not a documentary photo.",
-      "variants": [
-        {
-          "w": 480,
-          "h": 270,
-          "src": "/assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v847-480.webp",
-          "sha256": "e8c99273f1dac71be58cd916c7c9f85b5e42e58840640e2957fc343c1fd26ba4",
-          "bytes": 7560
-        },
-        {
-          "w": 800,
-          "h": 450,
-          "src": "/assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v847-800.webp",
-          "sha256": "63b563f58da9d20c13e6c8847cd38683297aed6bb4ca7073791967d2ee5875f0",
-          "bytes": 17176
-        },
-        {
-          "w": 1200,
-          "h": 675,
-          "src": "/assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v847-1200.webp",
-          "sha256": "3dcf5ef0cd759d8142bb5336cb0f60289c96cc16e9ac8283f50e69f997eeefd5",
-          "bytes": 32806
-        }
-      ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "OpenAI image generation",
-      "aiGenerated": true,
-      "documentaryPhoto": false,
-      "officialArtwork": false,
-      "sensitiveContext": true,
-      "weatherMap": false,
-      "reenactedEvent": false,
-      "logoApplied": false,
-      "syntheticLikeness": "public-figure",
-      "publicFigureName": "Papa Leone XIV",
-      "portraitOnly": true,
-      "portraitFormat": "neutral-isolated"
     },
     {
       "id": "milano-multe-cartacee-parabrezza-ordine-giorno-13-ottobre-2026",
