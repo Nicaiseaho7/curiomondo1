@@ -1,0 +1,452 @@
+{
+  "version": 852,
+  "repository": "Nicaiseaho7/curiomondo1",
+  "branch": "main",
+  "base_commit": "c88574db2bb81cab3f563da70b14ee5dbdfcf8b6",
+  "prepared_at": "2026-10-14T20:29:56+02:00",
+  "new_articles": 10,
+  "user_signals_covered": 11,
+  "new_images": 10,
+  "webp_files": 30,
+  "push_executed": false,
+  "live_validation_executed": false,
+  "manifest_excluded": true,
+  "files": [
+    {
+      "path": "CURIOMONDO-RELEASE-STATE.json",
+      "sha256": "c151bcacf95399e331c484b8dab71f5fb28b226731d20ba26bafd28a1eba7b3a",
+      "bytes": 1426,
+      "base_sha256": "54aeac7769c99ea06b54c4543aeb5d9acaa2102538975b8503379ed409fa8b7f",
+      "action": "replace"
+    },
+    {
+      "path": "LEGGIMI-V852.md",
+      "sha256": "91b1ea6c7572877930f07e45d0822992d5c8906075762e27b9c351dfb47852e2",
+      "bytes": 4793,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/data/editorial-images-v210.json",
+      "sha256": "b686f6238ef40e24ac154e3629b0a06e0ad453cc91b2fd7db861832ea45d83ef",
+      "bytes": 1949687,
+      "base_sha256": "58ed279190f04794e799bee39d77d9c8badbff33e92d44e60f1fa971c2af8cc9",
+      "action": "replace"
+    },
+    {
+      "path": "assets/data/frasi-nome.json",
+      "sha256": "4bb13375aac531491a04daa6a3f41f430a4a4c885b280b08b21e8c6a555a2dd6",
+      "bytes": 65058,
+      "base_sha256": "e207afba741fa5b8ba5365976f6fd9f92d6f721e19ac070e32f6f82ff4de8aee",
+      "action": "replace"
+    },
+    {
+      "path": "assets/data/home-feed-v210.json",
+      "sha256": "cdbb246ab5bb7e11663c475c80e316bac64e1a30119723f1dad6a3c60304f448",
+      "bytes": 1802672,
+      "base_sha256": "62e2e3b8b28edf4104be14e0d2925e4d257dca8ee14f83c9441f02fd39a20ad2",
+      "action": "replace"
+    },
+    {
+      "path": "assets/data/search-index-v210.json",
+      "sha256": "411d0f2eb9bce9b2291a8cfa9007ba25e0b45b30abf99aa5ab632bc654e396f9",
+      "bytes": 558557,
+      "base_sha256": "6dc6461e6dbf4f601052f9ad0302f3b505e71c9ca215457e5913731f1f86aa83",
+      "action": "replace"
+    },
+    {
+      "path": "assets/images/editorial-auto/burnham-zelensky-sostegno-missili-ucraina-14-ottobre-2026-v852-1200.webp",
+      "sha256": "923c68197b1f419585d2678c3e4d0338ce39fce811a74efd50a43e8ca0dac0a3",
+      "bytes": 48284,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/burnham-zelensky-sostegno-missili-ucraina-14-ottobre-2026-v852-480.webp",
+      "sha256": "e8671ae1edf8cd340cdf775ddd381c9adaaee07fe4412944566df2796f1cee42",
+      "bytes": 9686,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/burnham-zelensky-sostegno-missili-ucraina-14-ottobre-2026-v852-800.webp",
+      "sha256": "0202d549851bf58c9735c59ea1c146871ad24b1cbf12fac10b7fdeaa8ba242e3",
+      "bytes": 21864,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/central-park-carrozze-stop-2028-voto-22-ottobre-2026-v852-1200.webp",
+      "sha256": "b2157f9105c748a0d137505063e48f389fafbec7738361d6c8cbb2e61b935625",
+      "bytes": 298594,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/central-park-carrozze-stop-2028-voto-22-ottobre-2026-v852-480.webp",
+      "sha256": "15d55d1a2713b15606f47b1e82e06f6a6a407f52405f478fa65f5f2adb630d5e",
+      "bytes": 61700,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/central-park-carrozze-stop-2028-voto-22-ottobre-2026-v852-800.webp",
+      "sha256": "a344bc81f4c0da88fc20d06cfe5113a2df6332669a82d1177f306d85142261fc",
+      "bytes": 156482,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/gas-russo-meloni-prezzi-importazioni-camera-14-ottobre-2026-v852-1200.webp",
+      "sha256": "103fc9331adad7b99c84852e4fbc655df4fd213c93e1dadbaefc4f29cc3ec5bc",
+      "bytes": 68578,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/gas-russo-meloni-prezzi-importazioni-camera-14-ottobre-2026-v852-480.webp",
+      "sha256": "dac8be58c2bcae09b3979f605a0d0038aae62a010de32bcbe8f2df7e0979f040",
+      "bytes": 14372,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/gas-russo-meloni-prezzi-importazioni-camera-14-ottobre-2026-v852-800.webp",
+      "sha256": "6b5281a28cd527807bc3aab074153897ef054897fa7e84999ee4dea637474d51",
+      "bytes": 34286,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/irpef-meloni-33-per-cento-oltre-50mila-euro-14-ottobre-2026-v852-1200.webp",
+      "sha256": "e8ce97815a7ac2fac0ec64431f4af36961a7eaa81dbbe6d115cc10645a21519f",
+      "bytes": 75736,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/irpef-meloni-33-per-cento-oltre-50mila-euro-14-ottobre-2026-v852-480.webp",
+      "sha256": "393c722f1715ebba5d9d83e52c6d9cbee9ce561c4f1180a6e97a007f326f80cc",
+      "bytes": 23160,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/irpef-meloni-33-per-cento-oltre-50mila-euro-14-ottobre-2026-v852-800.webp",
+      "sha256": "b9181848bbbc66018a17a00a08b0aa6b69164e58d740d0ac5e67949a5719167b",
+      "bytes": 44612,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/leone-xiv-giovagnoli-stile-governo-operazione-14-ottobre-2026-v852-1200.webp",
+      "sha256": "4a211d1135b64f8f3129f8e54ed31576e718e103891d0318a7971560c8e39892",
+      "bytes": 39492,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/leone-xiv-giovagnoli-stile-governo-operazione-14-ottobre-2026-v852-480.webp",
+      "sha256": "643134ad17b7093b82af145ed8ee05eb4855a0ba37aeef630f2956b1bfa775a4",
+      "bytes": 9264,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/leone-xiv-giovagnoli-stile-governo-operazione-14-ottobre-2026-v852-800.webp",
+      "sha256": "da9b95b61d42f7596a4819695e1068a555fed245efdf163d6a315dde4a18c363",
+      "bytes": 19978,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/meloni-provenzano-carezze-moine-camera-14-ottobre-2026-v852-1200.webp",
+      "sha256": "7e12be4352e1f042d7416765afff61dcf6ba69629063db8c747ac21f5d45116d",
+      "bytes": 62878,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/meloni-provenzano-carezze-moine-camera-14-ottobre-2026-v852-480.webp",
+      "sha256": "5bb1103427751b7f75fd490d07de912955aefdae3500ab3cf64f8cb6196e2a47",
+      "bytes": 18478,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/meloni-provenzano-carezze-moine-camera-14-ottobre-2026-v852-800.webp",
+      "sha256": "9d61c97f16d5282bec16534ad04bee4a653936abaf880dd122996962172a4fd4",
+      "bytes": 37292,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/padel-40-milioni-giocatori-impatto-fip-report-2026-v852-1200.webp",
+      "sha256": "1cb2adbf01abeaa9fdc471d2df4674f24c70bd4261e74ee91bd2eecc708b3082",
+      "bytes": 110842,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/padel-40-milioni-giocatori-impatto-fip-report-2026-v852-480.webp",
+      "sha256": "516ee1a66758930557205ed7001b0c388a2d963b230cdfb253225ef1f8cf7113",
+      "bytes": 33798,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/padel-40-milioni-giocatori-impatto-fip-report-2026-v852-800.webp",
+      "sha256": "756d403d172029bd4340dd6ffe91e0e5a7de0351902fc7376788942d6eec310f",
+      "bytes": 64826,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/paolini-wuhan-ottavi-errani-doppio-quarti-14-ottobre-2026-v852-1200.webp",
+      "sha256": "02252d4d443fcc490122591cc8b34535a9870ba47ab847abb8db808322767f37",
+      "bytes": 117912,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/paolini-wuhan-ottavi-errani-doppio-quarti-14-ottobre-2026-v852-480.webp",
+      "sha256": "495b762784e865a8bf45ec475427628ad19f33a0c6e7b992f7bcb6dcfb9e6c14",
+      "bytes": 30048,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/paolini-wuhan-ottavi-errani-doppio-quarti-14-ottobre-2026-v852-800.webp",
+      "sha256": "7930fe6aaaf2266de2f709a2ec432d054364f0682bda6f6a40198d593b10604c",
+      "bytes": 65426,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/serie-a-doveri-bologna-inter-massa-juventus-lazio-14-ottobre-2026-v852-1200.webp",
+      "sha256": "c5bb28409a0fa8c428385bd12cdf426ebe70e5ad6e8e1a3e9151ea564c188404",
+      "bytes": 97498,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/serie-a-doveri-bologna-inter-massa-juventus-lazio-14-ottobre-2026-v852-480.webp",
+      "sha256": "893bc875dc97884e01f6cd0aa86396091b7e2f5f5564024e7e6e2888e068cf1e",
+      "bytes": 29130,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/serie-a-doveri-bologna-inter-massa-juventus-lazio-14-ottobre-2026-v852-800.webp",
+      "sha256": "ad7432df73fd3d3cfb1e851846063afa00ea56a337b1e9f7d4f13054459af227",
+      "bytes": 56934,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/six-kings-slam-rinvio-dicembre-2026-14-ottobre-v852-1200.webp",
+      "sha256": "c295eeb69e828efdbf99b51939e73e5673e9b7929b6b643c43efdcd459578126",
+      "bytes": 50264,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/six-kings-slam-rinvio-dicembre-2026-14-ottobre-v852-480.webp",
+      "sha256": "d84e008a52e05dbbea0d2c9e2c8c8424d28fc1d4e9819fed26c6b7a63e745c52",
+      "bytes": 10262,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/six-kings-slam-rinvio-dicembre-2026-14-ottobre-v852-800.webp",
+      "sha256": "ca69de91c547f34ef791cedc68b64122053827b0f85034f4a9bbd3a869ba7f96",
+      "bytes": 23440,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "categorie/cultura/index.html",
+      "sha256": "77a9911c0588322b5fb9ec907db689b648410551a8b58912fc5f2ecb9e734643",
+      "bytes": 49983,
+      "base_sha256": "cba7ee41ec87d4815025d8124bd1285471cdb2b828e88836a6099d0911750d1e",
+      "action": "replace"
+    },
+    {
+      "path": "categorie/economia/index.html",
+      "sha256": "e9c60f7450fe5badc8b696cf5c612b12a11589d079f88710996a4e8d65fca72d",
+      "bytes": 154489,
+      "base_sha256": "230736650f8eb48a3d54d18d3558971dd389c66ca1344d75e0428b568d4f2e6b",
+      "action": "replace"
+    },
+    {
+      "path": "categorie/film-serie-tv/index.html",
+      "sha256": "efcbd0ed21cff15c11e1a3faa824d350b95f3ecc6fb26d6b13b9a5be9e0e8308",
+      "bytes": 42289,
+      "base_sha256": "5b3a364eaab0c541c1ade20de7921ce4020424c49b4f57cbf8967879a9ddb36f",
+      "action": "replace"
+    },
+    {
+      "path": "categorie/italia/index.html",
+      "sha256": "9203347af3fb0cc0e8f132e5ed13ff6284511214269b048c6230583bd055394d",
+      "bytes": 595454,
+      "base_sha256": "4746ca3ced9cd13a2eb49a5f531f489ecad803aac42bc4b168a840d31bef83f8",
+      "action": "replace"
+    },
+    {
+      "path": "categorie/mondo/index.html",
+      "sha256": "6127af0090e5caaa3c7d9acc0c1ed3dd7ebf8d12d4d921099d5f5e18a3c5dcf1",
+      "bytes": 417462,
+      "base_sha256": "baa1c83b1f02c45ad6e6e2cafee693c3701457a659018aa61c5ea8650e687ae2",
+      "action": "replace"
+    },
+    {
+      "path": "categorie/politica/index.html",
+      "sha256": "3216f0568c79ad4fbfb4fb1e5c6ae72bf20f4aa0132a19c413cf97eac6478804",
+      "bytes": 142885,
+      "base_sha256": "a5c0de8332dbd5622570f5afd0047ddd59f3de3fa8b4ab10bf4122c3befa7cf3",
+      "action": "replace"
+    },
+    {
+      "path": "categorie/sport/index.html",
+      "sha256": "271b58afc1dd4a71a6affebef7b7eb8e7d92ed201887b19a8eb9a74e7b2ac598",
+      "bytes": 185226,
+      "base_sha256": "61454af3f0cd35daef8f601d2bdf347904b35ce23ce64626f43a5b56a74c2cbb",
+      "action": "replace"
+    },
+    {
+      "path": "feed.xml",
+      "sha256": "de85bcbb4b4612ac74b3628461c878e3e42d3d91f9af8da34961a6d1ae662eb6",
+      "bytes": 722438,
+      "base_sha256": "55fa7b7c1c34b9651176e2e016ae3e739fc2a1c557aaefeca7b427883d2e24c0",
+      "action": "replace"
+    },
+    {
+      "path": "index.html",
+      "sha256": "a58ec8ce0c53f50ba417666c6c22b86d7b00a931c66b532b4d94caefaad8a023",
+      "bytes": 267705,
+      "base_sha256": "0380a63af4cc3d06160a3d38e584a2ba7f4a075ff886db57284614b55a5ddf90",
+      "action": "replace"
+    },
+    {
+      "path": "news-sitemap.xml",
+      "sha256": "a943bf35884a40c6184c958037171770d230c5fd3d56fb17fe20f66923031afc",
+      "bytes": 28096,
+      "base_sha256": "2382f373bb99b4beee7d345ac68b06bd5cd5bb7a21a2a33e540687ec899ff92c",
+      "action": "replace"
+    },
+    {
+      "path": "notizie/burnham-zelensky-sostegno-missili-ucraina-14-ottobre-2026.html",
+      "sha256": "1b6194fb3d2fd677d93027ecc6eb1200853d10c2f3cf88feb2e88da7ae44850e",
+      "bytes": 8589,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "notizie/central-park-carrozze-stop-2028-voto-22-ottobre-2026.html",
+      "sha256": "d2ce15f7087a7b48cbe12c33e3eb6aa6d59114ff76756ef104342c9e929af54f",
+      "bytes": 8226,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "notizie/gas-russo-meloni-prezzi-importazioni-camera-14-ottobre-2026.html",
+      "sha256": "3c2c4a0ff4a5501aab721bc318e10670144f67665456bc339ad67c6be649c4db",
+      "bytes": 8837,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "notizie/index.html",
+      "sha256": "90ed025007bf592b042ca14f9be98cf657fec89a83d27a97201939cb61bf348b",
+      "bytes": 250205,
+      "base_sha256": "813044c8d50f4db5d19315df84bbd9e421c4ea6f5ace2fa9ad62b1e87f98a108",
+      "action": "replace"
+    },
+    {
+      "path": "notizie/irpef-meloni-33-per-cento-oltre-50mila-euro-14-ottobre-2026.html",
+      "sha256": "c4ab254bbaa61e61056c35865f2d809ec7fa8488bd73d1281d9d7deb4e2a1288",
+      "bytes": 8675,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "notizie/leone-xiv-giovagnoli-stile-governo-operazione-14-ottobre-2026.html",
+      "sha256": "97a7c01ac41478426509d9bddecabb96705229c5f9e3a7e90a7946d3aabb573e",
+      "bytes": 8804,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "notizie/meloni-provenzano-carezze-moine-camera-14-ottobre-2026.html",
+      "sha256": "f23e889c6f4cfae8c00e181dc4fff8e3cb9b9538d552e271c783ae7e9537f859",
+      "bytes": 8561,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "notizie/padel-40-milioni-giocatori-impatto-fip-report-2026.html",
+      "sha256": "50da97266f3b9c338c3418d4190e04994df649b697bb26588f28c5c4299687eb",
+      "bytes": 8319,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "notizie/paolini-wuhan-ottavi-errani-doppio-quarti-14-ottobre-2026.html",
+      "sha256": "fc8e52c2e1b18fee93a277f1dfadf9eaf76715aae2f141513b812b91cf74b152",
+      "bytes": 8222,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "notizie/serie-a-doveri-bologna-inter-massa-juventus-lazio-14-ottobre-2026.html",
+      "sha256": "534b402f55f08584aac377f5f793b8dfd969d018b63e4e0926587f7ab79231fc",
+      "bytes": 7802,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "notizie/six-kings-slam-rinvio-dicembre-2026-14-ottobre.html",
+      "sha256": "7ca040404d600788db8067e77c1ddd51f590242adde040899685ea47fbc0e5aa",
+      "bytes": 8159,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "7e1ffedbe1c232c38aee751cff84f1e1fd19a11c1f55b7c546f7caca2b214e3f",
+      "bytes": 238597,
+      "base_sha256": "d6cc462157f5af5b26a183650dee44d3e052ad3a42ab12dbf79b93e9bd31aa2a",
+      "action": "replace"
+    },
+    {
+      "path": "tools/news_audit_20261014_v852.json",
+      "sha256": "5e4954ddc09bdc5c6b7aa8116328751e6e8ba7897ed3aa368b1dfef2c95dadc5",
+      "bytes": 15796,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "tools/news_batch_20261014_v852.json",
+      "sha256": "af6a1997a24c1e4bf54df7b5c15f53d4a00145b8a4c04835c94ca2cbde852ac5",
+      "bytes": 31196,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "tools/news_images_20261014_v852.json",
+      "sha256": "b81b2961a64b4f4440efa07fe7f94a3ffd1866444eeaa7b3d8dba73aacc69042",
+      "bytes": 27077,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "tools/prepare_news_20261014_v852.py",
+      "sha256": "7490cd517a837bc4665e9722010f8b07af9431e8bf89bdd10e9015d005d0e0ed",
+      "bytes": 12620,
+      "base_sha256": null,
+      "action": "add"
+    }
+  ],
+  "self_file": "PACCHETTO-V852.json",
+  "readme": "LEGGIMI-V852.md"
+}

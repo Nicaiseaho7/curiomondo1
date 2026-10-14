@@ -1,7 +1,417 @@
 {
-  "version": 851,
+  "version": 852,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "id": "irpef-meloni-33-per-cento-oltre-50mila-euro-14-ottobre-2026",
+      "article": "/notizie/irpef-meloni-33-per-cento-oltre-50mila-euro-14-ottobre-2026.html",
+      "alt": "Scena editoriale IA con Giorgia Meloni riconoscibile in un ambiente istituzionale; illustrazione non documentaria sull’Irpef.",
+      "prompt": "Create exactly ONE distinct image for an Italian news article about Giorgia Meloni's openness to extending Italy's 33% income-tax band. Photorealistic-natural, horizontal 16:9, at least 1536 pixels wide. Recognisable Giorgia Meloni facing camera, shoulder-length blonde hair, blue-grey eyes, cream tailored blazer and white blouse, seated at a wood desk in an Italian institutional office, natural light, Italian flag, blank papers. Original contextual illustration, not a signing, vote or documentary photograph; no text overlays, numbers, watermark, collage, invented logos or extra people.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/irpef-meloni-33-per-cento-oltre-50mila-euro-14-ottobre-2026-v852-480.webp",
+          "sha256": "393c722f1715ebba5d9d83e52c6d9cbee9ce561c4f1180a6e97a007f326f80cc",
+          "bytes": 23160
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/irpef-meloni-33-per-cento-oltre-50mila-euro-14-ottobre-2026-v852-800.webp",
+          "sha256": "b9181848bbbc66018a17a00a08b0aa6b69164e58d740d0ac5e67949a5719167b",
+          "bytes": 44612
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/irpef-meloni-33-per-cento-oltre-50mila-euro-14-ottobre-2026-v852-1200.webp",
+          "sha256": "e8ce97815a7ac2fac0ec64431f4af36961a7eaa81dbbe6d115cc10645a21519f",
+          "bytes": 75736
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Giorgia Meloni"
+    },
+    {
+      "id": "gas-russo-meloni-prezzi-importazioni-camera-14-ottobre-2026",
+      "article": "/notizie/gas-russo-meloni-prezzi-importazioni-camera-14-ottobre-2026.html",
+      "alt": "Ritratto editoriale neutrale e isolato di Giorgia Meloni; somiglianza sintetica non documentaria per una notizia legata al gas russo e alla guerra. Generato con IA.",
+      "prompt": "Image classification: neutral editorial portrait, isolated.\nCreate exactly ONE original editorial cover. Photorealistic-natural, horizontal 16:9 composition at least 1536 pixels wide, professional photography, natural texture and light, face and main subject inside the central safe crop. This is a disclosed AI editorial illustration, never documentary evidence. No captions, headlines, numerals, watermarks, collage, borders, cartoon style, back-facing people or unrelated objects. News: Giorgia Meloni's statement about Russian gas in the context of the Ukraine war. SENSITIVE context, strictly a neutral isolated head-and-shoulders portrait of the real and clearly recognisable Giorgia Meloni: shoulder-length side-parted blonde hair, blue-grey eyes, natural age and features, simple dark navy blazer. She faces the camera, composed neutral expression. Plain pale grey studio background, soft even portrait light, 85mm lens. No institutions, flags, maps, gas pipes, flames, war scenes, other people or specific speech depiction. A fresh portrait, visually distinct from other Meloni covers.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/gas-russo-meloni-prezzi-importazioni-camera-14-ottobre-2026-v852-480.webp",
+          "sha256": "dac8be58c2bcae09b3979f605a0d0038aae62a010de32bcbe8f2df7e0979f040",
+          "bytes": 14372
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/gas-russo-meloni-prezzi-importazioni-camera-14-ottobre-2026-v852-800.webp",
+          "sha256": "6b5281a28cd527807bc3aab074153897ef054897fa7e84999ee4dea637474d51",
+          "bytes": 34286
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/gas-russo-meloni-prezzi-importazioni-camera-14-ottobre-2026-v852-1200.webp",
+          "sha256": "103fc9331adad7b99c84852e4fbc655df4fd213c93e1dadbaefc4f29cc3ec5bc",
+          "bytes": 68578
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Giorgia Meloni",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "generationPrompt": "Create exactly ONE original editorial cover. Photorealistic-natural, horizontal 16:9 composition at least 1536 pixels wide, professional photography, natural texture and light, face and main subject inside the central safe crop. This is a disclosed AI editorial illustration, never documentary evidence. No captions, headlines, numerals, watermarks, collage, borders, cartoon style, back-facing people or unrelated objects. News: Giorgia Meloni's statement about Russian gas in the context of the Ukraine war. SENSITIVE context, strictly a neutral isolated head-and-shoulders portrait of the real and clearly recognisable Giorgia Meloni: shoulder-length side-parted blonde hair, blue-grey eyes, natural age and features, simple dark navy blazer. She faces the camera, composed neutral expression. Plain pale grey studio background, soft even portrait light, 85mm lens. No institutions, flags, maps, gas pipes, flames, war scenes, other people or specific speech depiction. A fresh portrait, visually distinct from other Meloni covers."
+    },
+    {
+      "id": "meloni-provenzano-carezze-moine-camera-14-ottobre-2026",
+      "article": "/notizie/meloni-provenzano-carezze-moine-camera-14-ottobre-2026.html",
+      "alt": "Scena editoriale IA con Giorgia Meloni in volto nell’ambiente della Camera; non è una fotografia della replica a Provenzano.",
+      "prompt": "Create exactly ONE original editorial cover. Photorealistic-natural, horizontal 16:9 composition at least 1536 pixels wide, professional photography, natural texture and light, face and main subject inside the central safe crop. This is a disclosed AI editorial illustration, never documentary evidence. No captions, headlines, numerals, watermarks, collage, borders, cartoon style, back-facing people or unrelated objects. News: Giorgia Meloni's parliamentary reply to Giuseppe Provenzano. ORDINARY editorial contextual scene: the real, recognisable Giorgia Meloni in the foreground, facing camera, shoulder-length side-parted blonde hair, blue-grey eyes, natural age and features, black tailored jacket over a light shirt. She is standing in a wood-panelled corner of Montecitorio, warm real Italian parliamentary architecture softly out of focus, waist-up framing, microphone low in foreground, hands relaxed, serious but calm neutral face, no hostile gesture. No audience and no other people. This does not reconstruct a particular moment of the debate or a recorded speech. Realistic 50mm editorial lens, refined natural light.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/meloni-provenzano-carezze-moine-camera-14-ottobre-2026-v852-480.webp",
+          "sha256": "5bb1103427751b7f75fd490d07de912955aefdae3500ab3cf64f8cb6196e2a47",
+          "bytes": 18478
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/meloni-provenzano-carezze-moine-camera-14-ottobre-2026-v852-800.webp",
+          "sha256": "9d61c97f16d5282bec16534ad04bee4a653936abaf880dd122996962172a4fd4",
+          "bytes": 37292
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/meloni-provenzano-carezze-moine-camera-14-ottobre-2026-v852-1200.webp",
+          "sha256": "7e12be4352e1f042d7416765afff61dcf6ba69629063db8c747ac21f5d45116d",
+          "bytes": 62878
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Giorgia Meloni"
+    },
+    {
+      "id": "six-kings-slam-rinvio-dicembre-2026-14-ottobre",
+      "article": "/notizie/six-kings-slam-rinvio-dicembre-2026-14-ottobre.html",
+      "alt": "Ritratto editoriale neutrale e isolato di Carlos Alcaraz, partecipante annunciato al Six Kings Slam; non documenta gli attacchi né il rinvio. Generato con IA.",
+      "prompt": "Image classification: neutral editorial portrait, isolated.\nCreate exactly ONE original editorial cover. Photorealistic-natural, horizontal 16:9 composition at least 1536 pixels wide, professional photography, natural texture and light, face and main subject inside the central safe crop. This is a disclosed AI editorial illustration, never documentary evidence. No captions, headlines, numerals, watermarks, collage, borders, cartoon style, back-facing people or unrelated objects. News: Six Kings Slam delayed in the context of attacks in Riyadh. SENSITIVE context: strictly a neutral isolated head-and-shoulders portrait of the real, clearly recognisable Spanish tennis champion Carlos Alcaraz, who is an announced participant. Short cropped dark hair with some light blonde tint as in his recent appearance, natural athletic face, brown eyes, mild stubble, neutral expression, facing camera, plain white Nike training T-shirt with one small authentic swoosh, no invented sponsor writing. Simple soft light grey studio background, 85mm portrait photography. No airport, explosions, tennis event scene, injury, hospital, trophy, crown, banners or extra people. A fresh likeness rather than a reproduction of an existing photograph.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/six-kings-slam-rinvio-dicembre-2026-14-ottobre-v852-480.webp",
+          "sha256": "d84e008a52e05dbbea0d2c9e2c8c8424d28fc1d4e9819fed26c6b7a63e745c52",
+          "bytes": 10262
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/six-kings-slam-rinvio-dicembre-2026-14-ottobre-v852-800.webp",
+          "sha256": "ca69de91c547f34ef791cedc68b64122053827b0f85034f4a9bbd3a869ba7f96",
+          "bytes": 23440
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/six-kings-slam-rinvio-dicembre-2026-14-ottobre-v852-1200.webp",
+          "sha256": "c295eeb69e828efdbf99b51939e73e5673e9b7929b6b643c43efdcd459578126",
+          "bytes": 50264
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Carlos Alcaraz",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "generationPrompt": "Create exactly ONE original editorial cover. Photorealistic-natural, horizontal 16:9 composition at least 1536 pixels wide, professional photography, natural texture and light, face and main subject inside the central safe crop. This is a disclosed AI editorial illustration, never documentary evidence. No captions, headlines, numerals, watermarks, collage, borders, cartoon style, back-facing people or unrelated objects. News: Six Kings Slam delayed in the context of attacks in Riyadh. SENSITIVE context: strictly a neutral isolated head-and-shoulders portrait of the real, clearly recognisable Spanish tennis champion Carlos Alcaraz, who is an announced participant. Short cropped dark hair with some light blonde tint as in his recent appearance, natural athletic face, brown eyes, mild stubble, neutral expression, facing camera, plain white Nike training T-shirt with one small authentic swoosh, no invented sponsor writing. Simple soft light grey studio background, 85mm portrait photography. No airport, explosions, tennis event scene, injury, hospital, trophy, crown, banners or extra people. A fresh likeness rather than a reproduction of an existing photograph."
+    },
+    {
+      "id": "leone-xiv-giovagnoli-stile-governo-operazione-14-ottobre-2026",
+      "article": "/notizie/leone-xiv-giovagnoli-stile-governo-operazione-14-ottobre-2026.html",
+      "alt": "Ritratto editoriale neutrale e isolato di Papa Leone XIV; somiglianza sintetica non documentaria, senza ricostruzione del ricovero. Generato con IA.",
+      "prompt": "Image classification: neutral editorial portrait, isolated.\nCreate exactly ONE original editorial cover. Photorealistic-natural, horizontal 16:9 composition at least 1536 pixels wide, professional photography, natural texture and light, face and main subject inside the central safe crop. This is a disclosed AI editorial illustration, never documentary evidence. No captions, headlines, numerals, watermarks, collage, borders, cartoon style, back-facing people or unrelated objects. News: historian Agostino Giovagnoli on Pope Leo XIV's government style after lung surgery. SENSITIVE context: strictly a neutral isolated chest-up portrait of the real and recognisable Pope Leo XIV, Robert Francis Prevost. White papal cassock and white zucchetto, natural gold pectoral chain, short grey hair at sides, real facial structure, mature skin texture, direct gentle neutral gaze, restrained expression. Clean light blue-grey studio background, soft even light, 85mm lens. No hospital, bed, medical objects, illness symptoms, doctor, wound, prayer crowd, symbols of suffering or other people. Fresh editorial portrait, respectful and not a documentary picture.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/leone-xiv-giovagnoli-stile-governo-operazione-14-ottobre-2026-v852-480.webp",
+          "sha256": "643134ad17b7093b82af145ed8ee05eb4855a0ba37aeef630f2956b1bfa775a4",
+          "bytes": 9264
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/leone-xiv-giovagnoli-stile-governo-operazione-14-ottobre-2026-v852-800.webp",
+          "sha256": "da9b95b61d42f7596a4819695e1068a555fed245efdf163d6a315dde4a18c363",
+          "bytes": 19978
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/leone-xiv-giovagnoli-stile-governo-operazione-14-ottobre-2026-v852-1200.webp",
+          "sha256": "4a211d1135b64f8f3129f8e54ed31576e718e103891d0318a7971560c8e39892",
+          "bytes": 39492
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Papa Leone XIV",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "generationPrompt": "Create exactly ONE original editorial cover. Photorealistic-natural, horizontal 16:9 composition at least 1536 pixels wide, professional photography, natural texture and light, face and main subject inside the central safe crop. This is a disclosed AI editorial illustration, never documentary evidence. No captions, headlines, numerals, watermarks, collage, borders, cartoon style, back-facing people or unrelated objects. News: historian Agostino Giovagnoli on Pope Leo XIV's government style after lung surgery. SENSITIVE context: strictly a neutral isolated chest-up portrait of the real and recognisable Pope Leo XIV, Robert Francis Prevost. White papal cassock and white zucchetto, natural gold pectoral chain, short grey hair at sides, real facial structure, mature skin texture, direct gentle neutral gaze, restrained expression. Clean light blue-grey studio background, soft even light, 85mm lens. No hospital, bed, medical objects, illness symptoms, doctor, wound, prayer crowd, symbols of suffering or other people. Fresh editorial portrait, respectful and not a documentary picture."
+    },
+    {
+      "id": "burnham-zelensky-sostegno-missili-ucraina-14-ottobre-2026",
+      "article": "/notizie/burnham-zelensky-sostegno-missili-ucraina-14-ottobre-2026.html",
+      "alt": "Ritratto editoriale neutrale e isolato di Andy Burnham; somiglianza sintetica non documentaria per una notizia sulla guerra in Ucraina. Generato con IA.",
+      "prompt": "Image classification: neutral editorial portrait, isolated.\nCreate exactly ONE original editorial cover. Photorealistic-natural, horizontal 16:9 composition at least 1536 pixels wide, professional photography, natural texture and light, face and main subject inside the central safe crop. This is a disclosed AI editorial illustration, never documentary evidence. No captions, headlines, numerals, watermarks, collage, borders, cartoon style, back-facing people or unrelated objects. News: British Prime Minister Andy Burnham reaffirms support to Zelensky and Ukraine. SENSITIVE war context: strictly a neutral isolated chest-up portrait of the real, clearly recognisable Andy Burnham, matching his official 2026 appearance: swept short dark hair with a little grey, black rectangular eyeglasses, strong brows, clean-shaven face, navy suit, white shirt, burgundy tie. Facing camera, calm neutral expression, simple medium-grey studio background, soft side light and clear realistic skin. No other people, meeting recreation, soldiers, flags, podium, missiles or war imagery.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/burnham-zelensky-sostegno-missili-ucraina-14-ottobre-2026-v852-480.webp",
+          "sha256": "e8671ae1edf8cd340cdf775ddd381c9adaaee07fe4412944566df2796f1cee42",
+          "bytes": 9686
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/burnham-zelensky-sostegno-missili-ucraina-14-ottobre-2026-v852-800.webp",
+          "sha256": "0202d549851bf58c9735c59ea1c146871ad24b1cbf12fac10b7fdeaa8ba242e3",
+          "bytes": 21864
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/burnham-zelensky-sostegno-missili-ucraina-14-ottobre-2026-v852-1200.webp",
+          "sha256": "923c68197b1f419585d2678c3e4d0338ce39fce811a74efd50a43e8ca0dac0a3",
+          "bytes": 48284
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Andy Burnham",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "generationPrompt": "Create exactly ONE original editorial cover. Photorealistic-natural, horizontal 16:9 composition at least 1536 pixels wide, professional photography, natural texture and light, face and main subject inside the central safe crop. This is a disclosed AI editorial illustration, never documentary evidence. No captions, headlines, numerals, watermarks, collage, borders, cartoon style, back-facing people or unrelated objects. News: British Prime Minister Andy Burnham reaffirms support to Zelensky and Ukraine. SENSITIVE war context: strictly a neutral isolated chest-up portrait of the real, clearly recognisable Andy Burnham, matching his official 2026 appearance: swept short dark hair with a little grey, black rectangular eyeglasses, strong brows, clean-shaven face, navy suit, white shirt, burgundy tie. Facing camera, calm neutral expression, simple medium-grey studio background, soft side light and clear realistic skin. No other people, meeting recreation, soldiers, flags, podium, missiles or war imagery."
+    },
+    {
+      "id": "central-park-carrozze-stop-2028-voto-22-ottobre-2026",
+      "article": "/notizie/central-park-carrozze-stop-2028-voto-22-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA sobria di una carrozza tradizionale e un cavallo fermo all’ingresso di Central Park; non documenta incidenti o il voto comunale.",
+      "prompt": "Create exactly ONE original editorial cover. Photorealistic-natural, horizontal 16:9 composition at least 1536 pixels wide, professional photography, natural texture and light, face and main subject inside the central safe crop. This is a disclosed AI editorial illustration, never documentary evidence. No captions, headlines, numerals, watermarks, collage, borders, cartoon style, back-facing people or unrelated objects. News: proposed 2028 phase-out of New York's horse-drawn carriages. A respectful contextual still image of one authentic traditional black and burgundy Central Park horse carriage beside a calm healthy chestnut horse, stopped safely on the broad carriage lane near Grand Army Plaza at the southeast entrance of Central Park, New York. Natural autumn daylight, stone park boundary and subtly visible real Manhattan architecture, golden October foliage. Horse and carriage are the specific foreground objects; no people in the scene, no plates, no accidents, no suffering, no police or signage, no obvious stock symbolism. Wide 35mm professional editorial composition with the whole horse and carriage comfortably within the crop.\nFinal refinement: Edit this new editorial image while preserving the exact calm healthy horse, traditional black and burgundy carriage, harness, all wheels, natural autumn daylight, photographic quality, and wide horizontal 16:9 crop. Correct only two minor background details: keep ONE real gold William Tecumseh Sherman equestrian monument near Grand Army Plaza, and REMOVE the duplicate gold monument visible on the far-right edge, replacing that region naturally with autumn trees and real stone park boundary. Remove the tiny invented maker's writing/emblem on the side of the carriage, leaving plain dark painted metal. Keep the real Manhattan/Plaza Hotel setting, no extra people, plates, accidents, headlines, watermarks or numbers. This is a disclosed non-documentary editorial illustration.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/central-park-carrozze-stop-2028-voto-22-ottobre-2026-v852-480.webp",
+          "sha256": "15d55d1a2713b15606f47b1e82e06f6a6a407f52405f478fa65f5f2adb630d5e",
+          "bytes": 61700
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/central-park-carrozze-stop-2028-voto-22-ottobre-2026-v852-800.webp",
+          "sha256": "a344bc81f4c0da88fc20d06cfe5113a2df6332669a82d1177f306d85142261fc",
+          "bytes": 156482
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/central-park-carrozze-stop-2028-voto-22-ottobre-2026-v852-1200.webp",
+          "sha256": "b2157f9105c748a0d137505063e48f389fafbec7738361d6c8cbb2e61b935625",
+          "bytes": 298594
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "paolini-wuhan-ottavi-errani-doppio-quarti-14-ottobre-2026",
+      "article": "/notizie/paolini-wuhan-ottavi-errani-doppio-quarti-14-ottobre-2026.html",
+      "alt": "Scena editoriale IA con Jasmine Paolini e Sara Errani riconoscibili, in volto su un campo di tennis; non è una fotografia delle vittorie a Wuhan.",
+      "prompt": "Create exactly ONE original editorial cover. Photorealistic-natural, horizontal 16:9 composition at least 1536 pixels wide, professional photography, natural texture and light, face and main subject inside the central safe crop. This is a disclosed AI editorial illustration, never documentary evidence. No captions, headlines, numerals, watermarks, collage, borders, cartoon style, back-facing people or unrelated objects. News: Jasmine Paolini advances in singles at Wuhan and in doubles with Sara Errani. Depict exactly the real, recognisable Jasmine Paolini and Sara Errani, both facing the camera, standing naturally side by side near the net on a real blue hard tennis court with a softly blurred Wuhan-style indoor stadium background, no other players or crowd faces. Jasmine has her real compact athletic build, olive skin, dark curly hair tied in a high bun, expressive eyes and authentic face; wears her real dark green Asics tennis outfit, white wristband, holds a real red Yonex racket with yellow strings lowered. Sara has her real athletic build, light skin, brown hair in a high tied bun, distinctive real facial features; wears mint-green tennis kit with black piping, appropriate small authentic sponsor marks if legible. Medium framing including faces and rackets, quiet composed sporting expression, hands anatomically natural, credible 50mm sports photography. This is a contextual synthetic scene, not a fake documentary victory photo; no trophy, scoreboard, specific match action or invented uniforms.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/paolini-wuhan-ottavi-errani-doppio-quarti-14-ottobre-2026-v852-480.webp",
+          "sha256": "495b762784e865a8bf45ec475427628ad19f33a0c6e7b992f7bcb6dcfb9e6c14",
+          "bytes": 30048
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/paolini-wuhan-ottavi-errani-doppio-quarti-14-ottobre-2026-v852-800.webp",
+          "sha256": "7930fe6aaaf2266de2f709a2ec432d054364f0682bda6f6a40198d593b10604c",
+          "bytes": 65426
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/paolini-wuhan-ottavi-errani-doppio-quarti-14-ottobre-2026-v852-1200.webp",
+          "sha256": "02252d4d443fcc490122591cc8b34535a9870ba47ab847abb8db808322767f37",
+          "bytes": 117912
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Jasmine Paolini e Sara Errani"
+    },
+    {
+      "id": "padel-40-milioni-giocatori-impatto-fip-report-2026",
+      "article": "/notizie/padel-40-milioni-giocatori-impatto-fip-report-2026.html",
+      "alt": "Scena editoriale IA con Luigi Carraro, presidente FIP, riconoscibile in volto e un campo da padel; non è una fotografia della presentazione del rapporto.",
+      "prompt": "Create exactly ONE original editorial cover. Photorealistic-natural, horizontal 16:9 composition at least 1536 pixels wide, professional photography, natural texture and light, face and main subject inside the central safe crop. This is a disclosed AI editorial illustration, never documentary evidence. No captions, headlines, numerals, watermarks, collage, borders, cartoon style, back-facing people or unrelated objects. News: FIP World Padel Report 2026, more than 40 million players. Depict the real recognisable Luigi Carraro, president of the International Padel Federation, facing camera in the foreground of a modern blue padel court with real glass walls and mesh. He has slicked-back dark hair, high forehead, olive skin, prominent brows and a broad but restrained natural smile, no beard or glasses; dark navy suit, white shirt and blue tie. Waist-up, relaxed arms, realistic professional sports institution portrait. Empty court behind him, genuine padel racket resting naturally low at side, no charts, numbers, documents with fake writing, logos, press backdrop or invented official event. Natural soft light, 50mm editorial look, a distinct fresh photograph-like scene.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/padel-40-milioni-giocatori-impatto-fip-report-2026-v852-480.webp",
+          "sha256": "516ee1a66758930557205ed7001b0c388a2d963b230cdfb253225ef1f8cf7113",
+          "bytes": 33798
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/padel-40-milioni-giocatori-impatto-fip-report-2026-v852-800.webp",
+          "sha256": "756d403d172029bd4340dd6ffe91e0e5a7de0351902fc7376788942d6eec310f",
+          "bytes": 64826
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/padel-40-milioni-giocatori-impatto-fip-report-2026-v852-1200.webp",
+          "sha256": "1cb2adbf01abeaa9fdc471d2df4674f24c70bd4261e74ee91bd2eecc708b3082",
+          "bytes": 110842
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Luigi Carraro"
+    },
+    {
+      "id": "serie-a-doveri-bologna-inter-massa-juventus-lazio-14-ottobre-2026",
+      "article": "/notizie/serie-a-doveri-bologna-inter-massa-juventus-lazio-14-ottobre-2026.html",
+      "alt": "Scena editoriale IA con l’arbitro Daniele Doveri riconoscibile in volto su un campo di calcio; non è una fotografia di Bologna–Inter.",
+      "prompt": "Create exactly ONE original editorial cover. Photorealistic-natural, horizontal 16:9 composition at least 1536 pixels wide, professional photography, natural texture and light, face and main subject inside the central safe crop. This is a disclosed AI editorial illustration, never documentary evidence. No captions, headlines, numerals, watermarks, collage, borders, cartoon style, back-facing people or unrelated objects. News: Daniele Doveri appointed referee for Bologna–Inter. Depict the real clearly recognisable Italian referee Daniele Doveri, bald head, lean face, distinctive long nose, dark eyes, natural middle-aged skin, clean-shaven; facing camera on the grass near the touchline at Bologna's real Renato Dall'Ara stadium, recognisable red-brick stadium structure softly blurred behind him. Authentic black Givova referee jersey with fluorescent yellow trim and the true circular AIA badge, correctly spelled GIVOVA if visible, no invented brands. A whistle is held naturally low in one hand, relaxed neutral professional posture, no decision, card or match action recreation. Medium waist-up framing and soft evening stadium light, no other people, no fake players or backs, no scoreboard. An original contextual synthetic likeness, not a documentary match picture.\nFinal refinement: Edit this new synthetic editorial image of Daniele Doveri. Preserve his exact recognisable face, bald head, body, relaxed hands with whistle, black Givova referee jersey and genuine AIA badge, the realistic professional photography and horizontal 16:9 composition. Correct ONLY the architecture in the stadium background. It must be Bologna's real Renato Dall'Ara stadium, with ONE single distinctive tall red-brick Torre di Maratona, its large low monumental arch and adjoining brick arcade. Remove the invented second tall tower and any castle-like bridge linking two towers. Realistic softly blurred stands and grass; no spectators or new people; natural evening stadium light. No captions, watermarks, extra text or invented logos. This remains a disclosed editorial illustration, not an actual match photo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/serie-a-doveri-bologna-inter-massa-juventus-lazio-14-ottobre-2026-v852-480.webp",
+          "sha256": "893bc875dc97884e01f6cd0aa86396091b7e2f5f5564024e7e6e2888e068cf1e",
+          "bytes": 29130
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/serie-a-doveri-bologna-inter-massa-juventus-lazio-14-ottobre-2026-v852-800.webp",
+          "sha256": "ad7432df73fd3d3cfb1e851846063afa00ea56a337b1e9f7d4f13054459af227",
+          "bytes": 56934
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/serie-a-doveri-bologna-inter-massa-juventus-lazio-14-ottobre-2026-v852-1200.webp",
+          "sha256": "c5bb28409a0fa8c428385bd12cdf426ebe70e5ad6e8e1a3e9151ea564c188404",
+          "bytes": 97498
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Daniele Doveri"
+    },
     {
       "id": "a7-busalla-ronco-scrivia-telepedaggio-agevolazione-14-ottobre-2026",
       "article": "/notizie/a7-busalla-ronco-scrivia-telepedaggio-agevolazione-14-ottobre-2026.html",

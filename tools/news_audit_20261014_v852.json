@@ -1,0 +1,375 @@
+{
+  "version": 852,
+  "release": "2026-10-14T20:52:08+02:00",
+  "new_articles": 10,
+  "updated_articles": 0,
+  "new_images": 10,
+  "push_executed": false,
+  "manifest_accessed": false,
+  "source_list": "Fonti per la ricerca degli articoli.txt, versione 7 ottobre 2026",
+  "selected_user_signals": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    10,
+    11,
+    15,
+    16,
+    17,
+    20
+  ],
+  "combined_signals": {
+    "paolini": [
+      15,
+      20
+    ]
+  },
+  "not_in_this_batch": [
+    2,
+    7,
+    8,
+    9,
+    12,
+    13,
+    14,
+    18,
+    19
+  ],
+  "selection_reason": "Limite di dieci articoli per richiesta; nove segnalazioni restano fuori dal lotto, senza giudizio di falsità.",
+  "corrections": [
+    "Padel: oltre 40 milioni di praticanti, non 40 mila.",
+    "Irpef: 33% già vigente fino a 50 mila euro; proposta di estensione oltre il limite, fino a 60 mila.",
+    "Central Park: accordo e voto atteso, non divieto già entrato in vigore.",
+    "Six Kings Slam: annuncio di Riyadh Season sulle nuove date e sulla logistica distinto dal contesto degli attacchi."
+  ],
+  "image_visual_review": "Dieci copertine viste singolarmente, identità confrontate con riferimenti reali, contesti sensibili in ritratto neutrale; sfondi di Central Park e Dall'Ara rifiniti.",
+  "evergreen_exception": "Le guide esistenti su SBU e regolamento metano non riguardano il meccanismo centrale di questi fatti; nessun collegamento forzato.",
+  "format_exception": "Flash da 153–216 parole: fatti circoscritti, massimo due fonti, contenuto proporzionato senza riempitivo.",
+  "primary_access_limits": [
+    "Governo italiano: pagine ufficiali trovate, apertura 403; resoconto Camera disponibile solo per la seduta già verbalizzata. Dichiarazioni Meloni controllate nei resoconti giornalistici e normativa Irpef ufficiale.",
+    "Agenzia Entrate: testo ufficiale indicizzato con nota sull'aliquota 2026; apertura diretta non disponibile.",
+    "Saudi Press Agency: annuncio ufficiale indicizzato; apertura in timeout. Nuove date e motivazione confermate anche da Reuters e Sky Sports.",
+    "GOV.UK e Reuters: metadati datati 13 ottobre; il resoconto Reuters identifica il colloquio svolto mercoledì 14 ottobre."
+  ],
+  "browser_visual_qa": "Non eseguita: browser assente, download della dipendenza non riuscito. HTML, responsive asset e immagini controllati; layout condiviso invariato.",
+  "articles": [
+    {
+      "slug": "irpef-meloni-33-per-cento-oltre-50mila-euro-14-ottobre-2026",
+      "title": "Irpef, Meloni apre al 33% oltre 50 mila euro: serve la manovra",
+      "action": "new",
+      "published": "2026-10-14T20:52:08+02:00",
+      "modified": "2026-10-14T20:52:08+02:00",
+      "source_date": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/14/meloni-sono-piu-che-favorevole-allestensione-dellaliquota-irpef-al-33_cb4e7876-9681-4d76-938e-237f3c330760.html",
+          "nome": "ANSA — dichiarazione alla Camera e soglia di 60 mila euro discussa, 14 ottobre."
+        },
+        {
+          "url": "https://www.agenziaentrate.gov.it/portale/imposta-sul-reddito-delle-persone-fisiche-irpef-/aliquote-e-calcolo-dell-irpef",
+          "nome": "Agenzia delle Entrate — aliquote e calcolo dell’Irpef; nota sulla riduzione al 33% nel 2026."
+        }
+      ],
+      "words": 216,
+      "paragraph_max": 50,
+      "risk": "A",
+      "original_value": "Distinzione tra aliquota vigente e proposta; simulazione originale di 500 euro lordi su 55 mila euro, con ipotesi e limiti.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "gas-russo-meloni-prezzi-importazioni-camera-14-ottobre-2026",
+      "title": "Gas russo, Meloni esclude un calo dei prezzi in tempi brevi",
+      "action": "new",
+      "published": "2026-10-14T20:47:08+02:00",
+      "modified": "2026-10-14T20:47:08+02:00",
+      "source_date": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/14/meloni-a-futuro-nazionale-se-non-difendete-gli-interessi-italiani-quali-difendete_7810107d-8214-4370-a8fc-c9be61842e70.html",
+          "nome": "ANSA — replica a Laura Ravetto e valutazione sulle nuove importazioni, 14 ottobre."
+        },
+        {
+          "url": "https://www.open.online/2026/10/14/consiglio-europeo-giorgia-meloni-comunicazioni-senato-camera-dibattito-partiti-diretta/",
+          "nome": "Open — resoconto del dibattito, argomento sul TTF e quota delle importazioni russe."
+        }
+      ],
+      "words": 213,
+      "paragraph_max": 48,
+      "risk": "A",
+      "original_value": "Costo alla produzione e prezzo di mercato distinti; previsione attribuita alla premier, senza promessa sulle bollette.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "meloni-provenzano-carezze-moine-camera-14-ottobre-2026",
+      "title": "Meloni replica a Provenzano e contesta il tono verso le donne",
+      "action": "new",
+      "published": "2026-10-14T20:40:08+02:00",
+      "modified": "2026-10-14T20:40:08+02:00",
+      "source_date": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/14/meloni-al-pdnon-sono-arrivata-dove-sono-con-carezze-e-moine-voi_7bb29b79-b78c-4681-b7f3-6f1650092536.html",
+          "nome": "ANSA — parole di Meloni e destinatari della replica alla Camera, 14 ottobre."
+        },
+        {
+          "url": "https://www.fanpage.it/live/governo-meloni-news-diretta-14-ottobre/",
+          "nome": "Fanpage, Luca Pons e Giulia Casula — cronaca del dibattito e intervento di Provenzano."
+        }
+      ],
+      "words": 203,
+      "paragraph_max": 47,
+      "risk": "A",
+      "original_value": "Ricostruzione del confronto con entrambe le posizioni; accusa politica distinta da un fatto accertato.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "six-kings-slam-rinvio-dicembre-2026-14-ottobre",
+      "title": "Six Kings Slam rinviato al 27–30 dicembre dopo gli attacchi a Riad",
+      "action": "new",
+      "published": "2026-10-14T20:32:08+02:00",
+      "modified": "2026-10-14T20:32:08+02:00",
+      "source_date": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/sports/tennis/six-kings-slam-tournament-saudi-arabia-postponed-december-2026-10-14/",
+          "nome": "Reuters — nuove date e dichiarazione degli organizzatori, 14 ottobre."
+        },
+        {
+          "url": "https://www.spa.gov.sa/en/N2701548",
+          "nome": "Saudi Press Agency / Riyadh Season — annuncio ufficiale delle nuove date e motivazione organizzativa, 14 ottobre."
+        }
+      ],
+      "words": 174,
+      "paragraph_max": 43,
+      "risk": "A",
+      "original_value": "Calendario precedente e nuovo; motivazione ufficiale logistica distinta dal contesto di sicurezza.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "leone-xiv-giovagnoli-stile-governo-operazione-14-ottobre-2026",
+      "title": "Leone XIV, Giovagnoli vede continuità nel governo dopo l’intervento",
+      "action": "new",
+      "published": "2026-10-14T20:23:08+02:00",
+      "modified": "2026-10-14T20:23:08+02:00",
+      "source_date": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.ansa.it/vaticano/notizie/2026/10/14/il-nuovo-volto-del-pontificato-piu-umano-e-credibile_bdf7ffe4-3789-424c-9c1d-e771f9c070c2.html",
+          "nome": "ANSA, Nina Fabrizio — intervista originale allo storico Agostino Giovagnoli, 14 ottobre."
+        },
+        {
+          "url": "https://www.vaticannews.va/it/papa/news/2026-10/papa-leone-xiv-operazione-nodulo-polmone-gemelli-vaticano.html",
+          "nome": "Vatican News — bollettino medico della Santa Sede, 13 ottobre, aggiornato alle 22:45."
+        }
+      ],
+      "words": 201,
+      "paragraph_max": 46,
+      "risk": "A",
+      "original_value": "Interpretazione dello storico distinta da prognosi medica; 90 minuti di intervento distinti dalle tre ore in sala.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "burnham-zelensky-sostegno-missili-ucraina-14-ottobre-2026",
+      "title": "Burnham a Zelensky: sostegno confermato e missili antiaerei più rapidi",
+      "action": "new",
+      "published": "2026-10-14T20:13:08+02:00",
+      "modified": "2026-10-14T20:13:08+02:00",
+      "source_date": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/government/news/president-zelenskyy-to-visit-downing-street-as-the-uk-doubles-down-on-support-for-ukraine-and-calls-on-partners-to-follow-suit",
+          "nome": "Governo britannico — pacchetto di missili, consegne accelerate e ulteriori misure annunciate."
+        },
+        {
+          "url": "https://www.reuters.com/world/uk/zelenskiy-visits-britain-burnham-pledges-fresh-support-ukraine-2026-10-13/",
+          "nome": "Reuters — incontro a Londra del 14 ottobre, sostegno britannico e temi sollevati da Zelensky."
+        }
+      ],
+      "words": 207,
+      "paragraph_max": 46,
+      "risk": "A",
+      "original_value": "I 10 milioni accelerati fanno parte dei 45 milioni; impegno pluriennale distinto dall'aiuto immediato.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "central-park-carrozze-stop-2028-voto-22-ottobre-2026",
+      "title": "Central Park, accordo per fermare le carrozze nel 2028: il voto il 22",
+      "action": "new",
+      "published": "2026-10-14T20:02:08+02:00",
+      "modified": "2026-10-14T20:02:08+02:00",
+      "source_date": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://council.nyc.gov/press/2026/07/14/3175/",
+          "nome": "New York City Council — sostegno di Julie Menin a Romanch’s Law e obiettivi della transizione."
+        },
+        {
+          "url": "https://www.ansa.it/sito/notizie/mondo/2026/10/14/addio-alle-carrozzelle-di-central-park-messe-al-bando-dopo-150-anni_93e36f13-8b0e-4f06-85d3-0b09ae828c73.html",
+          "nome": "ANSA, Alessandra Baldini — accordo Mamdani–Menin, voto del 22 ottobre e proposta di stop nel 2028."
+        }
+      ],
+      "words": 193,
+      "paragraph_max": 49,
+      "risk": "A",
+      "original_value": "Accordo politico distinto da legge approvata; data del voto e decorrenza futura, con tutele dei lavoratori.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "paolini-wuhan-ottavi-errani-doppio-quarti-14-ottobre-2026",
+      "title": "Paolini avanza due volte a Wuhan: ottavi in singolare e quarti con Errani",
+      "action": "new",
+      "published": "2026-10-14T19:50:08+02:00",
+      "modified": "2026-10-14T19:50:08+02:00",
+      "source_date": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.supertennis.tv/News/Wta/wta-wuhan-paolini-bartunkova-secondo-turno-curiosita",
+          "nome": "SuperTennis/FITP, Tiziana Tricarico — risultato del singolare, rimonta, prossima avversaria e copertura italiana."
+        },
+        {
+          "url": "https://www.supertennis.tv/News/Wta/Wuhan-doppio-secondo-turno-Errani-Paolini-risultato",
+          "nome": "SuperTennis/FITP, Tiziana Tricarico — risultato del doppio e quarti contro Danilina–Zhang."
+        }
+      ],
+      "words": 199,
+      "paragraph_max": 50,
+      "risk": "B",
+      "original_value": "Due segnalazioni riunite; punteggi e prossime avversarie distinti fra singolare e doppio, copertura italiana.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "padel-40-milioni-giocatori-impatto-fip-report-2026",
+      "title": "Il padel supera 40 milioni di giocatori: campi in crescita del 20,4%",
+      "action": "new",
+      "published": "2026-10-14T19:37:08+02:00",
+      "modified": "2026-10-14T19:37:08+02:00",
+      "source_date": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.padelfip.com/2026/10/fip-world-padel-report-2026-is-online-more-than-40-million-players-courts-up-by-20-and-a-new-study-on-economic-impact-e8-6-billion-in-gdp/",
+          "nome": "FIP — dati del World Padel Report 2026 e studio World Padel Impact con OpenEconomics, 14 ottobre."
+        },
+        {
+          "url": "https://www.padelfip.com/world-padel-report-2026/",
+          "nome": "FIP World Padel Report 2026 — presentazione, terza edizione e contributo delle 70 federazioni nazionali."
+        }
+      ],
+      "words": 197,
+      "paragraph_max": 46,
+      "risk": "B",
+      "original_value": "40 milioni, non 40 mila; spesa, produzione e Pil distinti; calendario programmato distinto dal consuntivo 2025.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "serie-a-doveri-bologna-inter-massa-juventus-lazio-14-ottobre-2026",
+      "title": "Bologna–Inter a Doveri: arbitri e VAR per le sfide di Serie A",
+      "action": "new",
+      "published": "2026-10-14T19:23:08+02:00",
+      "modified": "2026-10-14T19:23:08+02:00",
+      "source_date": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://www.aia-figc.it/news/serie-a-enilive-designazioni-7a-giornata-28778/",
+          "nome": "AIA–FIGC — designazioni ufficiali della settima giornata, date, orari, assistenti e VAR, 14 ottobre."
+        }
+      ],
+      "words": 153,
+      "paragraph_max": 35,
+      "risk": "C",
+      "original_value": "Calendario pratico e ruoli degli ufficiali delle tre partite, con orari italiani.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    }
+  ],
+  "technical_repairs": [
+    "Asset Central Park 1200 ripristinato atomicamente dall’originale IA; alt e classificazione dei quattro ritratti sensibili allineati al contratto del gate."
+  ],
+  "local_validation": {
+    "article_pages": 10,
+    "webp_variants": 30,
+    "surface_routes": 9,
+    "http_200_routes": 49,
+    "title_metadata_dates_sources": true,
+    "image_hashes_and_dimensions": true,
+    "method": "Local HTTP server; non è una verifica del sito remoto."
+  },
+  "technical_checks": {
+    "predeploy_exit_code": 0,
+    "repository_integrity": "pass (eseguito dal predeploy)",
+    "adsense_exit_code": 0,
+    "git_diff_check": true,
+    "remote_live_checked": false
+  },
+  "prepared_release": "2026-10-14T20:11:07+02:00"
+}
