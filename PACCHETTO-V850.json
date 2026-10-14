@@ -1,0 +1,268 @@
+{
+  "version": 850,
+  "base_commit": "7056292047e1d2977f03576d7210e249b4423844",
+  "prepared_release": "2026-10-14T14:18:30+02:00",
+  "new_articles": 10,
+  "updated_articles": 0,
+  "final_covers": 10,
+  "webp_variants": 30,
+  "articleCount": 1000,
+  "manifest_included": false,
+  "push_executed": false,
+  "technical_checks": {
+    "repository_integrity": "pass",
+    "adsense_deploy_gate": "pass",
+    "predeploy": "pass",
+    "targeted_batch_qa": "pass"
+  },
+  "files": {
+    "CURIOMONDO-RELEASE-STATE.json": {
+      "bytes": 1435,
+      "sha256": "148fc1bf69468cc1c206d1113e0f63e4812c84d9f34a0c695e5996c800f115e8"
+    },
+    "assets/data/editorial-images-v210.json": {
+      "bytes": 1887943,
+      "sha256": "2da00d3e3d79b00cb212130857002ed378b651b7b60667bc7ec8fd8bf967d037"
+    },
+    "assets/data/frasi-nome.json": {
+      "bytes": 63672,
+      "sha256": "33f386eae8d3991bf5c152a99bfcd074705422cf0ff7d864733033ae9e6a8cc9"
+    },
+    "assets/data/home-feed-v210.json": {
+      "bytes": 1770321,
+      "sha256": "6eb0b75e6161a28bb8eb3561814b8f3630953684e2a89ca6a7f381500d19214a"
+    },
+    "assets/data/search-index-v210.json": {
+      "bytes": 550858,
+      "sha256": "f285e95bc7d3339e14aaf005337c05fb3867674f8ca21516184ac9d36eceeff6"
+    },
+    "assets/images/editorial-auto/aifa-pdnd-sei-servizi-farmaci-carenze-14-ottobre-2026-v850-1200.webp": {
+      "bytes": 113998,
+      "sha256": "17700a79c36f14ba5dd61daa3c002402ac217e8102a7a1305bd2e3c12added0e"
+    },
+    "assets/images/editorial-auto/aifa-pdnd-sei-servizi-farmaci-carenze-14-ottobre-2026-v850-480.webp": {
+      "bytes": 33226,
+      "sha256": "ebe42f01ddc7a441854185490638e71ebacea44561bb12f9642555a09b6bc9bf"
+    },
+    "assets/images/editorial-auto/aifa-pdnd-sei-servizi-farmaci-carenze-14-ottobre-2026-v850-800.webp": {
+      "bytes": 67144,
+      "sha256": "5d4fbd666502dda26e8096a0e2c2b3e9014eed5436369738bc315920852dd1b0"
+    },
+    "assets/images/editorial-auto/aifa-servizi-online-mfa-19-ottobre-14-ottobre-2026-v850-1200.webp": {
+      "bytes": 101924,
+      "sha256": "834a68b420afcc9f2071f6411ff4712830df3e4e42b5946a751531aa5f4ec7ed"
+    },
+    "assets/images/editorial-auto/aifa-servizi-online-mfa-19-ottobre-14-ottobre-2026-v850-480.webp": {
+      "bytes": 30918,
+      "sha256": "864815086b1a39e3655dcc468d12399fb5e1d979a3668a895f8e5653ac1a36c7"
+    },
+    "assets/images/editorial-auto/aifa-servizi-online-mfa-19-ottobre-14-ottobre-2026-v850-800.webp": {
+      "bytes": 59570,
+      "sha256": "9410be49fab1362fc69c1b55bf99125e028eb874444b28bbbfe059206067ca80"
+    },
+    "assets/images/editorial-auto/bologna-polizia-locale-etilometri-distanziatori-14-ottobre-2026-v850-1200.webp": {
+      "bytes": 121750,
+      "sha256": "49423a1edede85a0abd5483d6e8d561588a1f9c4d405efb69614635760e5a442"
+    },
+    "assets/images/editorial-auto/bologna-polizia-locale-etilometri-distanziatori-14-ottobre-2026-v850-480.webp": {
+      "bytes": 34226,
+      "sha256": "0214227e041fb25afce8893f84289a758e964dc4576bfdd99871dc0f062eba7f"
+    },
+    "assets/images/editorial-auto/bologna-polizia-locale-etilometri-distanziatori-14-ottobre-2026-v850-800.webp": {
+      "bytes": 69744,
+      "sha256": "fee22e74b79d40b5185446a693d9fd3cf8d733cc92cc1ee79db2f048277669b6"
+    },
+    "assets/images/editorial-auto/italia-donne-finale-playoff-finlandia-14-ottobre-2026-v850-1200.webp": {
+      "bytes": 157134,
+      "sha256": "22f0f414f0217eab8d32eb2ff81dbefbc16df28e6a9d718f58248a62a59547b7"
+    },
+    "assets/images/editorial-auto/italia-donne-finale-playoff-finlandia-14-ottobre-2026-v850-480.webp": {
+      "bytes": 35128,
+      "sha256": "a2e4fca13cd7b5280147160562f44e8ba1109ddab452608b29cccc7df8d7218f"
+    },
+    "assets/images/editorial-auto/italia-donne-finale-playoff-finlandia-14-ottobre-2026-v850-800.webp": {
+      "bytes": 81854,
+      "sha256": "649d48dc5803508947d8a9e61e744463874e5f51f294b09394e0197a629f38b3"
+    },
+    "assets/images/editorial-auto/italia-francia-san-siro-biglietti-20-euro-14-ottobre-2026-v850-1200.webp": {
+      "bytes": 137626,
+      "sha256": "470c50950374fc857068214587cfe46e5c517dbcbad6db4770a655421617ce07"
+    },
+    "assets/images/editorial-auto/italia-francia-san-siro-biglietti-20-euro-14-ottobre-2026-v850-480.webp": {
+      "bytes": 39550,
+      "sha256": "7421b71bb613584c7d6d1440c7f9bf4adcb3cd2a1ef7255217edf4cc61dc4884"
+    },
+    "assets/images/editorial-auto/italia-francia-san-siro-biglietti-20-euro-14-ottobre-2026-v850-800.webp": {
+      "bytes": 79986,
+      "sha256": "30cb62122cd2d498832196dbac0a0c21b56107003b5e148bdb2e4c4a60de644f"
+    },
+    "assets/images/editorial-auto/oms-alcol-screening-hub-assistente-14-ottobre-2026-v850-1200.webp": {
+      "bytes": 114736,
+      "sha256": "3d05b70b2f3553e22201e3b841627cd03bcdc84bddbbaf75d529eb92098e5a07"
+    },
+    "assets/images/editorial-auto/oms-alcol-screening-hub-assistente-14-ottobre-2026-v850-480.webp": {
+      "bytes": 31768,
+      "sha256": "724897007eb94229d4489c742cda812d5fb1074ed8a89134e17b7b62f28ac03d"
+    },
+    "assets/images/editorial-auto/oms-alcol-screening-hub-assistente-14-ottobre-2026-v850-800.webp": {
+      "bytes": 66362,
+      "sha256": "53db2e15bc93d72a73cbfeb503e23b689d38d971c70777ad74ecd0cf5effa63a"
+    },
+    "assets/images/editorial-auto/palestina-elezioni-rinviate-ue-osservatori-14-ottobre-2026-v850-1200.webp": {
+      "bytes": 51046,
+      "sha256": "027c0848a7cfea38e4996d60046034cf6673b51e002edea7ff5d0ebc918e5bd6"
+    },
+    "assets/images/editorial-auto/palestina-elezioni-rinviate-ue-osservatori-14-ottobre-2026-v850-480.webp": {
+      "bytes": 10878,
+      "sha256": "b4e00f895909a57dc0d7ed607bce985c8f7c345302bb3b38bda9388b93f190fe"
+    },
+    "assets/images/editorial-auto/palestina-elezioni-rinviate-ue-osservatori-14-ottobre-2026-v850-800.webp": {
+      "bytes": 26178,
+      "sha256": "9567fd289fe325217d019171ebe65c6958383254ba5ab865235327a8dd8ccf33"
+    },
+    "assets/images/editorial-auto/paris-virtus-eurolega-oggi-2045-sky-now-14-ottobre-2026-v850-1200.webp": {
+      "bytes": 155960,
+      "sha256": "5bb6093dbc53de519e5f0be20aba2b214e181843cd8540827f2c482a5ef62e15"
+    },
+    "assets/images/editorial-auto/paris-virtus-eurolega-oggi-2045-sky-now-14-ottobre-2026-v850-480.webp": {
+      "bytes": 42866,
+      "sha256": "15e237ab0a45d9ad88bc0fdac73a7e4754dbd654327dde1c4ef6c6562806167f"
+    },
+    "assets/images/editorial-auto/paris-virtus-eurolega-oggi-2045-sky-now-14-ottobre-2026-v850-800.webp": {
+      "bytes": 91424,
+      "sha256": "49c77e8258f2e19a6cb22cc763523dd1b938d3b9264f953aa67215af5807c5bd"
+    },
+    "assets/images/editorial-auto/trieste-polizia-locale-sei-scooter-distretti-14-ottobre-2026-v850-1200.webp": {
+      "bytes": 190210,
+      "sha256": "2377505f30844ce78a18db58d192d2523ed87c974073b2c2b025b42acfaaa333"
+    },
+    "assets/images/editorial-auto/trieste-polizia-locale-sei-scooter-distretti-14-ottobre-2026-v850-480.webp": {
+      "bytes": 46346,
+      "sha256": "091bae75b47397cc73979733f05267d669bd9f4d166c256120a401d4196d9fb6"
+    },
+    "assets/images/editorial-auto/trieste-polizia-locale-sei-scooter-distretti-14-ottobre-2026-v850-800.webp": {
+      "bytes": 105632,
+      "sha256": "e71c0a2d65d05fcfc0411776c75cabf11db8ebc413f3f0e5d8855c1e36db4033"
+    },
+    "assets/images/editorial-auto/ucraina-moldova-ue-negoziati-mercato-interno-14-ottobre-2026-v850-1200.webp": {
+      "bytes": 103078,
+      "sha256": "96f2e14eedf0a688b3eaf57b0777073bcd9feb54cb01b3a9fd951f203b6a5b94"
+    },
+    "assets/images/editorial-auto/ucraina-moldova-ue-negoziati-mercato-interno-14-ottobre-2026-v850-480.webp": {
+      "bytes": 32034,
+      "sha256": "36661c55169e32b4100a7bec921268cb5251869ed7cd78a631599ff47dfb3f9b"
+    },
+    "assets/images/editorial-auto/ucraina-moldova-ue-negoziati-mercato-interno-14-ottobre-2026-v850-800.webp": {
+      "bytes": 62358,
+      "sha256": "49e3dadd409005a4476f4218d8b4634ca5bbfd3422151064b5598f7c7cb9bdd0"
+    },
+    "categorie/cronaca/index.html": {
+      "bytes": 151278,
+      "sha256": "53ed9f46ac3dc28eebf591bd21d187bea0d79539bd679064900a32c5f20c687f"
+    },
+    "categorie/economia/index.html": {
+      "bytes": 153596,
+      "sha256": "230736650f8eb48a3d54d18d3558971dd389c66ca1344d75e0428b568d4f2e6b"
+    },
+    "categorie/italia/index.html": {
+      "bytes": 591819,
+      "sha256": "9efde3c12555be951d827724601c097be2443cc58f52e65512ad5e934c478b83"
+    },
+    "categorie/meteo/index.html": {
+      "bytes": 31634,
+      "sha256": "a863865e378eb21f45fee7a621bd17d5daa4d085af5c7be5c3544c91e0518df1"
+    },
+    "categorie/mondo/index.html": {
+      "bytes": 414747,
+      "sha256": "3bd044ee246c7985440ed8208978e3a268a8f3a7feca42e552b4032bd2a83aa7"
+    },
+    "categorie/politica/index.html": {
+      "bytes": 140213,
+      "sha256": "a5c0de8332dbd5622570f5afd0047ddd59f3de3fa8b4ab10bf4122c3befa7cf3"
+    },
+    "categorie/scienza/index.html": {
+      "bytes": 74154,
+      "sha256": "b40e30b8af8089304e9b1ce3b3ca1125e65a0d9db5264512387ce7eb91fa3b2e"
+    },
+    "categorie/sport/index.html": {
+      "bytes": 181656,
+      "sha256": "4d75cc42caf9f87b91f2e5e9106f124e622bdb983185420def3962913bbfea6b"
+    },
+    "feed.xml": {
+      "bytes": 710920,
+      "sha256": "08826117bd050efe660a7395de62c0a5133af63d706e2185b126a81e6a9af02c"
+    },
+    "index.html": {
+      "bytes": 267961,
+      "sha256": "058b07e52cf99a429dc3b6ba01347632f0762e98a82c84315980b8da810562cb"
+    },
+    "news-sitemap.xml": {
+      "bytes": 24759,
+      "sha256": "768d2bc9e08dd5fd0559e7bc308e67d7fdf922688f3b421d999df9162ce6c16a"
+    },
+    "notizie/aifa-pdnd-sei-servizi-farmaci-carenze-14-ottobre-2026.html": {
+      "bytes": 7859,
+      "sha256": "f856b687ddcb10fe4d1f1245877a4545cd96238af9e8bbd589077364d149ea9e"
+    },
+    "notizie/aifa-servizi-online-mfa-19-ottobre-14-ottobre-2026.html": {
+      "bytes": 7709,
+      "sha256": "7e1104e03b04c1ccd84d5284ee6e581ce82d679929b82f5e7ad19956fbd39f02"
+    },
+    "notizie/bologna-polizia-locale-etilometri-distanziatori-14-ottobre-2026.html": {
+      "bytes": 7888,
+      "sha256": "24024710b951b7a8ad625e71b1f1de0aa2f4fdaf3ef3e19352a317b2693b15df"
+    },
+    "notizie/index.html": {
+      "bytes": 246167,
+      "sha256": "27ae47625443424e7c3bf73ac39897d017c8f575cd970da6a3ac15d21d337809"
+    },
+    "notizie/italia-donne-finale-playoff-finlandia-14-ottobre-2026.html": {
+      "bytes": 7863,
+      "sha256": "7b9ad026fa250ae6db5dcdfe57aff6b9260c43e28acdcac3ff382c5d85c54cbe"
+    },
+    "notizie/italia-francia-san-siro-biglietti-20-euro-14-ottobre-2026.html": {
+      "bytes": 7964,
+      "sha256": "be453894120aa62b1786871b122f173a37f640587c895edec9b0ae9749adffef"
+    },
+    "notizie/oms-alcol-screening-hub-assistente-14-ottobre-2026.html": {
+      "bytes": 8184,
+      "sha256": "86a365cd98cd4c86e2f965b37b077d6fddbf631798eb3b80b5314e7f06229163"
+    },
+    "notizie/palestina-elezioni-rinviate-ue-osservatori-14-ottobre-2026.html": {
+      "bytes": 8460,
+      "sha256": "551ebc87dec6d855fb488d2b483bb4bc0936ecf1279d40fcd5e876ee6e7ab7ce"
+    },
+    "notizie/paris-virtus-eurolega-oggi-2045-sky-now-14-ottobre-2026.html": {
+      "bytes": 7909,
+      "sha256": "d6fadd7a0c27f6e653ee0edfa548c01fca23b736107c23485642d3c7c4490bf1"
+    },
+    "notizie/trieste-polizia-locale-sei-scooter-distretti-14-ottobre-2026.html": {
+      "bytes": 8099,
+      "sha256": "d42440df6ac035203faacd88f3c92efd2998a671e0b2200888dffc91a70176b6"
+    },
+    "notizie/ucraina-moldova-ue-negoziati-mercato-interno-14-ottobre-2026.html": {
+      "bytes": 8407,
+      "sha256": "67feb5808c5a52ce4e9490f08591039c6c7f03c7be23b0ca90b291ecb6d03784"
+    },
+    "sitemap.xml": {
+      "bytes": 235421,
+      "sha256": "0cddd959473b56a1152c74a7d7d235ecc8cfb44a182df506945e2eb7adc0f86b"
+    },
+    "tools/news_audit_20261014_v850.json": {
+      "bytes": 12167,
+      "sha256": "526a588700df8e502f8591f2073e25571d00454fa78ff4fceacc09cd2f4ba483"
+    },
+    "tools/news_batch_20261014_v850.json": {
+      "bytes": 28886,
+      "sha256": "bf5c47593d48a3822df39d660bfee5f96e0ba0ad3691e44e8e3816c69779f7d5"
+    },
+    "tools/news_images_20261014_v850.json": {
+      "bytes": 9648,
+      "sha256": "d223995bb67ff3aedcd43bf554742cad4cae506bf2d27323171e7620a84bb931"
+    },
+    "tools/prepare_news_20261014_v850.py": {
+      "bytes": 16510,
+      "sha256": "3022dc61db0e6b417adffa19208c565bb310c95c85a0ca7bae85b9256a5ffbc3"
+    }
+  }
+}

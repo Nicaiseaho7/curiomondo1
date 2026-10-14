@@ -1,0 +1,306 @@
+{
+  "version": 850,
+  "release": "2026-10-14T16:06:52+02:00",
+  "new_articles": 10,
+  "updated_articles": 0,
+  "new_images": 10,
+  "push_executed": false,
+  "manifest_accessed": false,
+  "image_visual_review": "Dieci copertine controllate. Rivisti gli sfondi sportivi e di Trieste per eliminare figure di spalle. Ritratto di Abbas neutrale, isolato e senza baffi. Nessuna targa o ricostruzione di incidenti. Varianti WebP verificate.",
+  "evergreen_exception": "Nel catalogo non sono presenti guide specifiche pertinenti ai dieci fatti: nessun collegamento artificiale.",
+  "excluded": [
+    "Notizie già presenti nel feed, incluse le nove nuove pagine del lotto mattutino v849",
+    "Programmi sportivi non confermati dai club o dalle federazioni"
+  ],
+  "primary_access_limits": [
+    "Virtus e Polizia Locale Trieste: accesso diretto non riuscito; informazioni primarie recuperate dagli indici e confermate con il sito SEF Virtus e Trieste All News"
+  ],
+  "risk_rationale": "Le due dotazioni della Polizia Locale e i servizi digitali AIFA sono aggiornamenti tecnici non controversi, senza accuse o raccomandazioni cliniche. L’allargamento Ue è un atto istituzionale ordinario. Per OMS e voto palestinese usate due istituzioni distinte.",
+  "browser_visual_qa": "Non eseguita: Chromium non disponibile nel runtime. Nessuna modifica al layout condiviso.",
+  "articles": [
+    {
+      "slug": "palestina-elezioni-rinviate-ue-osservatori-14-ottobre-2026",
+      "title": "Palestina, voto rinviato al 2027: l’Ue offre osservatori elettorali",
+      "action": "new",
+      "published": "2026-10-14T16:06:52+02:00",
+      "modified": "2026-10-14T16:06:52+02:00",
+      "source_date": "2026-10-14",
+      "source_published": "2026-10-14T13:30:00+02:00",
+      "sources": [
+        {
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/14/palestine-statement-by-the-high-representative-on-behalf-of-the-european-union-on-the-postponement-of-elections/",
+          "nome": "Consiglio dell’Unione europea — dichiarazione del 14 ottobre, ore 13:30."
+        },
+        {
+          "url": "https://www.gov.uk/government/news/joint-statement-on-the-postponement-of-palestinian-elections",
+          "nome": "Foreign Office — dichiarazione congiunta di quattro ministri, 13 ottobre."
+        }
+      ],
+      "words": 199,
+      "paragraph_max": 45,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "italia-francia-san-siro-biglietti-20-euro-14-ottobre-2026",
+      "title": "Italia–Francia a San Siro: biglietti da 20 euro, sconti e scadenze",
+      "action": "new",
+      "published": "2026-10-14T16:01:52+02:00",
+      "modified": "2026-10-14T16:01:52+02:00",
+      "source_date": "2026-10-14",
+      "source_published": "2026-10-14T09:30:00+02:00",
+      "sources": [
+        {
+          "url": "https://www.figc.it/it/nazionali/news/uefa-nations-league-milano-torna-ad-abbracciare-la-nazionale-in-vendita-i-biglietti-per-italia-francia-a3qka87z",
+          "nome": "FIGC — apertura vendita, prezzi e requisiti dei biglietti, 14 ottobre."
+        }
+      ],
+      "words": 201,
+      "paragraph_max": 45,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "oms-alcol-screening-hub-assistente-14-ottobre-2026",
+      "title": "Alcol e prevenzione, l’OMS apre un hub con assistente vincolato alle fonti",
+      "action": "new",
+      "published": "2026-10-14T15:54:52+02:00",
+      "modified": "2026-10-14T15:54:52+02:00",
+      "source_date": "2026-10-14",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.who.int/europe/news/item/14-10-2026-alcohol-can-cause-breast-cancer--but-very-few-patients-get-asked-about-their-drinking",
+          "nome": "OMS Europa — lancio del portale e indagine in 14 Paesi, 14 ottobre."
+        },
+        {
+          "url": "https://www.iarc.who.int/wp-content/uploads/2025/10/pr371_E.pdf",
+          "nome": "IARC — sintesi delle evidenze su alcol e cancro, 8 ottobre 2025."
+        }
+      ],
+      "words": 206,
+      "paragraph_max": 53,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "paris-virtus-eurolega-oggi-2045-sky-now-14-ottobre-2026",
+      "title": "Paris–Virtus stasera alle 20:45: Eurolega su Sky e NOW",
+      "action": "new",
+      "published": "2026-10-14T15:46:52+02:00",
+      "modified": "2026-10-14T15:46:52+02:00",
+      "source_date": "2026-10-13",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.virtus.it/news/euroleague-round-5-il-pre-partita-di-coach-alex-mumbru-e-bobi-klintman/",
+          "nome": "Virtus Bologna — presentazione ufficiale della quinta giornata, 13 ottobre."
+        },
+        {
+          "url": "https://sefvirtus.it/category/news/feed-sezioni/",
+          "nome": "SEF Virtus — programma ufficiale con orario e dirette."
+        }
+      ],
+      "words": 193,
+      "paragraph_max": 45,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "trieste-polizia-locale-sei-scooter-distretti-14-ottobre-2026",
+      "title": "Trieste, sei scooter per le pattuglie: già operativi da settembre",
+      "action": "new",
+      "published": "2026-10-14T15:37:52+02:00",
+      "modified": "2026-10-14T15:37:52+02:00",
+      "source_date": "2026-10-14",
+      "source_published": "2026-10-14T11:30:00+02:00",
+      "sources": [
+        {
+          "url": "https://polizialocaletrieste.it/sei-nuovi-motocicli-per-il-pattugliamento-quotidiano-maggiore-agilita-e-rapidita-negli-interventi-sul-territorio/",
+          "nome": "Polizia Locale di Trieste — comunicazione sui sei motocicli, 14 ottobre."
+        },
+        {
+          "url": "https://www.triesteallnews.it/2026/10/piaggio-liberty-per-la-polizia-locale-sei-nuovi-mezzi-in-strada/",
+          "nome": "Trieste All News — assegnazione ai distretti e impiego da settembre, 14 ottobre, ore 11:30."
+        }
+      ],
+      "words": 190,
+      "paragraph_max": 44,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "aifa-pdnd-sei-servizi-farmaci-carenze-14-ottobre-2026",
+      "title": "AIFA apre sei servizi dati: fogli illustrativi e carenze nei sistemi sanitari",
+      "action": "new",
+      "published": "2026-10-14T15:27:52+02:00",
+      "modified": "2026-10-14T15:27:52+02:00",
+      "source_date": "2026-10-13",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.aifa.gov.it/-/aifa-nella-piattaforma-digitale-nazionale-dati",
+          "nome": "AIFA — catalogo PDND e destinatari dei sei servizi, 13 ottobre."
+        }
+      ],
+      "words": 197,
+      "paragraph_max": 46,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "ucraina-moldova-ue-negoziati-mercato-interno-14-ottobre-2026",
+      "title": "Ucraina e Moldova, l’Ue apre i negoziati su mercato interno e crescita",
+      "action": "new",
+      "published": "2026-10-14T15:16:52+02:00",
+      "modified": "2026-10-14T15:16:52+02:00",
+      "source_date": "2026-10-13",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/13/enlargement-eu-opens-accession-negotiations-with-ukraine-on-internal-market-competitiveness-and-inclusive-growth/",
+          "nome": "Consiglio dell’Unione europea — apertura dei negoziati con l’Ucraina, 13 ottobre."
+        },
+        {
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/13/enlargement-eu-and-moldova-start-negotiations-on-internal-market-competitiveness-and-inclusive-growth/",
+          "nome": "Consiglio dell’Unione europea — apertura dei negoziati con la Moldova, 13 ottobre."
+        }
+      ],
+      "words": 196,
+      "paragraph_max": 47,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "bologna-polizia-locale-etilometri-distanziatori-14-ottobre-2026",
+      "title": "Bologna, 3 etilometri e 145 distanziatori: oltre 55mila euro",
+      "action": "new",
+      "published": "2026-10-14T15:04:52+02:00",
+      "modified": "2026-10-14T15:04:52+02:00",
+      "source_date": "2026-10-13",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.comune.bologna.it/novita/comunicati-stampa/polizia-locale-arrivo-dispositivi-di-autotutela-personale-e-il-controllo-della-sicurezza-stradale",
+          "nome": "Comune di Bologna — quantità, costi e tempi delle dotazioni, 13 ottobre."
+        }
+      ],
+      "words": 186,
+      "paragraph_max": 43,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "italia-donne-finale-playoff-finlandia-14-ottobre-2026",
+      "title": "Azzurre, l’1–1 vale la finale playoff: Finlandia il 1° e 5 dicembre",
+      "action": "new",
+      "published": "2026-10-14T14:51:52+02:00",
+      "modified": "2026-10-14T14:51:52+02:00",
+      "source_date": "2026-10-13",
+      "source_published": "2026-10-13T18:51:00+02:00",
+      "sources": [
+        {
+          "url": "https://www.figc.it/it/nazionali/news/al-franchi-basta-l1-1-con-la-bielorussia-per-centrare-la-finale-playoff-malago-complimenti-alle-azzurre-b7etpb3p",
+          "nome": "FIGC — risultato, qualificazione e date del confronto con la Finlandia, 13 ottobre."
+        }
+      ],
+      "words": 191,
+      "paragraph_max": 45,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "aifa-servizi-online-mfa-19-ottobre-14-ottobre-2026",
+      "title": "AIFA, dal 19 ottobre accesso con MFA: abilitazioni già valide restano",
+      "action": "new",
+      "published": "2026-10-14T14:37:52+02:00",
+      "modified": "2026-10-14T14:37:52+02:00",
+      "source_date": "2026-10-13",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.aifa.gov.it/-/dal-19-ottobre-2026-nuove-modalita-accesso-servizi-online-aifa",
+          "nome": "AIFA — nuove modalità di accesso e mantenimento delle abilitazioni, 13 ottobre."
+        }
+      ],
+      "words": 179,
+      "paragraph_max": 44,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    }
+  ],
+  "prepared_release": "2026-10-14T14:18:30+02:00",
+  "technical_checks": {
+    "repository_integrity": "pass",
+    "adsense_deploy_gate": "pass",
+    "predeploy": "pass",
+    "targeted_batch_qa": "pass"
+  },
+  "live_verification": "Non eseguita: pacchetto pronto, nessun push o deploy effettuato.",
+  "category_checks": {
+    "sport": 3,
+    "cronaca": 2,
+    "salute_scienza": 3,
+    "mondo": 2
+  }
+}

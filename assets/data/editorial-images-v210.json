@@ -1,7 +1,391 @@
 {
-  "version": 849,
+  "version": 850,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "id": "palestina-elezioni-rinviate-ue-osservatori-14-ottobre-2026",
+      "article": "/notizie/palestina-elezioni-rinviate-ue-osservatori-14-ottobre-2026.html",
+      "alt": "Ritratto editoriale neutrale di Mahmoud Abbas generato con IA; somiglianza sintetica isolata, non fotografia documentaria.",
+      "prompt": "Create a photorealistic neutral editorial portrait of Mahmoud Abbas (Abu Mazen), the elderly Palestinian public figure: recognizable genuine facial features, full white hair brushed back, rimless rectangular glasses, broad pale face, dark suit and light shirt, natural neutral expression. Neutral editorial portrait only, head and shoulders isolated against plain light-grey backdrop. Landscape 16:9 1600x900 minimum. No other people, flags, podium, signing, scene, action, captions, watermark or letters. No reenacted event. This is an explicitly synthetic editorial illustration, not an authentic news photo.\nFinal identity correction: clean-shaven Mahmoud Abbas, no moustache or beard; neutral editorial portrait only.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/palestina-elezioni-rinviate-ue-osservatori-14-ottobre-2026-v850-480.webp",
+          "sha256": "b4e00f895909a57dc0d7ed607bce985c8f7c345302bb3b38bda9388b93f190fe",
+          "bytes": 10878
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/palestina-elezioni-rinviate-ue-osservatori-14-ottobre-2026-v850-800.webp",
+          "sha256": "9567fd289fe325217d019171ebe65c6958383254ba5ab865235327a8dd8ccf33",
+          "bytes": 26178
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/palestina-elezioni-rinviate-ue-osservatori-14-ottobre-2026-v850-1200.webp",
+          "sha256": "027c0848a7cfea38e4996d60046034cf6673b51e002edea7ff5d0ebc918e5bd6",
+          "bytes": 51046
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Mahmoud Abbas",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated"
+    },
+    {
+      "id": "italia-francia-san-siro-biglietti-20-euro-14-ottobre-2026",
+      "article": "/notizie/italia-francia-san-siro-biglietti-20-euro-14-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di tifosi davanti allo stadio Giuseppe Meazza di Milano; non documenta la vendita dei biglietti.",
+      "prompt": "Create one distinct photorealistic editorial illustration, landscape 16:9, at least 1600x900. Natural light, sober newspaper composition. Every visible person faces the camera with their face visible, no rear views. No text, captions, watermark, overlays or invented logos. Not a documentary photo. Two adult Italian football fans facing camera in plain blue shirts outside the real Giuseppe Meazza San Siro stadium in Milan, its distinctive red roof trusses and cylindrical concrete ramp towers faithfully recognizable. The news is ticket sales for Italy-France on 12 November 2026. Ordinary calm anticipation, no invented match or tickets, no lettering on clothes.\nFinal revision: Edit the provided image: preserve the two foreground fans, their visible faces, clothes, flag and the San Siro stadium architecture exactly. Remove ALL tiny background people, replacing them with empty paving. Keep realistic original lighting, landscape 16:9. No new people, text or logos.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/italia-francia-san-siro-biglietti-20-euro-14-ottobre-2026-v850-480.webp",
+          "sha256": "7421b71bb613584c7d6d1440c7f9bf4adcb3cd2a1ef7255217edf4cc61dc4884",
+          "bytes": 39550
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/italia-francia-san-siro-biglietti-20-euro-14-ottobre-2026-v850-800.webp",
+          "sha256": "30cb62122cd2d498832196dbac0a0c21b56107003b5e148bdb2e4c4a60de644f",
+          "bytes": 79986
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/italia-francia-san-siro-biglietti-20-euro-14-ottobre-2026-v850-1200.webp",
+          "sha256": "470c50950374fc857068214587cfe46e5c517dbcbad6db4770a655421617ce07",
+          "bytes": 137626
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "oms-alcol-screening-hub-assistente-14-ottobre-2026",
+      "article": "/notizie/oms-alcol-screening-hub-assistente-14-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di una consultazione sul consumo di alcol; nessuna diagnosi o paziente reale è rappresentato.",
+      "prompt": "Create one distinct photorealistic editorial illustration, landscape 16:9, at least 1600x900. Natural light, sober newspaper composition. Every visible person faces the camera with their face visible, no rear views. No text, captions, watermark, overlays or invented logos. Not a documentary photo. A female clinician and adult female patient both facing camera in a quiet European primary-care consultation, clinician with a plain tablet and patient seated calmly, a single untouched small wineglass on a side surface gives specific alcohol-screening context. The news is WHO Europe's launch of its alcohol screening and brief intervention hub. No disease symptoms, diagnosis, medical results, readable screens, names or logos. No emotional suffering.\nFinal revision: Edit provided image: preserve both adult women, their clear faces and realistic primary-care consultation setting. Remove the wine glass entirely, replace it with a plain glass of water on the same side table. Keep the clinician's tablet and calm health-screening atmosphere. No text, no signs of disease, no new people, no diagnosis. Landscape 16:9.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/oms-alcol-screening-hub-assistente-14-ottobre-2026-v850-480.webp",
+          "sha256": "724897007eb94229d4489c742cda812d5fb1074ed8a89134e17b7b62f28ac03d",
+          "bytes": 31768
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/oms-alcol-screening-hub-assistente-14-ottobre-2026-v850-800.webp",
+          "sha256": "53db2e15bc93d72a73cbfeb503e23b689d38d971c70777ad74ecd0cf5effa63a",
+          "bytes": 66362
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/oms-alcol-screening-hub-assistente-14-ottobre-2026-v850-1200.webp",
+          "sha256": "3d05b70b2f3553e22201e3b841627cd03bcdc84bddbbaf75d529eb92098e5a07",
+          "bytes": 114736
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "paris-virtus-eurolega-oggi-2045-sky-now-14-ottobre-2026",
+      "article": "/notizie/paris-virtus-eurolega-oggi-2045-sky-now-14-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di sostenitori bolognesi nell’adidas Arena di Parigi; non raffigura la partita.",
+      "prompt": "Create one distinct photorealistic editorial illustration, landscape 16:9, at least 1600x900. Natural light, sober newspaper composition. Every visible person faces the camera with their face visible, no rear views. No text, captions, watermark, overlays or invented logos. Not a documentary photo. Two adult Virtus Bologna basketball supporters in simple black and white scarves facing camera inside the real adidas Arena in Paris, pale metallic roof structure and basketball court behind them. News context Paris Basketball versus Virtus on 14 October; before tipoff, no game actions or fabricated scoreboards, no lettering.\nFinal revision: Edit provided image: preserve the two foreground supporters with their visible faces, the scarves with authentic Virtus V-and-star and the arena structure exactly. Remove ALL background people including on court and in seats, leaving the entire background court and seats empty. No change to primary people. Landscape 16:9; no captions or letters.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/paris-virtus-eurolega-oggi-2045-sky-now-14-ottobre-2026-v850-480.webp",
+          "sha256": "15e237ab0a45d9ad88bc0fdac73a7e4754dbd654327dde1c4ef6c6562806167f",
+          "bytes": 42866
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/paris-virtus-eurolega-oggi-2045-sky-now-14-ottobre-2026-v850-800.webp",
+          "sha256": "49c77e8258f2e19a6cb22cc763523dd1b938d3b9264f953aa67215af5807c5bd",
+          "bytes": 91424
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/paris-virtus-eurolega-oggi-2045-sky-now-14-ottobre-2026-v850-1200.webp",
+          "sha256": "5bb6093dbc53de519e5f0be20aba2b214e181843cd8540827f2c482a5ef62e15",
+          "bytes": 155960
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "trieste-polizia-locale-sei-scooter-distretti-14-ottobre-2026",
+      "article": "/notizie/trieste-polizia-locale-sei-scooter-distretti-14-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di un agente e uno scooter Piaggio Liberty nel contesto urbano di Trieste; non documenta un intervento.",
+      "prompt": "Create one distinct photorealistic editorial illustration, landscape 16:9, at least 1600x900. Natural light, sober newspaper composition. Every visible person faces the camera with their face visible, no rear views. No text, captions, watermark, overlays or invented logos. Not a documentary photo. A municipal police officer in credible Trieste Polizia Locale dark blue uniform with cap, standing facing camera next to a real Piaggio Liberty 150cc scooter, white body, blue municipal police accent stripes, realistic narrow wheels and front shield, on a quiet street near Trieste's historic seafront architecture. Scooter viewed from front, no license plate anywhere, no plate rectangle, no text, no invented insignia. Ordinary patrol equipment context, not an operation.\nFinal revision: Edit provided image: preserve the foreground officer facing camera, the white and blue Piaggio Liberty scooter, seafront architecture and lighting. Remove ALL tiny background pedestrians so no rear-view figure remains anywhere. Keep plate-free scooter, no plate frame. Remove small garbled lettering on vehicle panels, retaining geometric blue stripes and Piaggio's real small emblem. No added text. Landscape 16:9.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/trieste-polizia-locale-sei-scooter-distretti-14-ottobre-2026-v850-480.webp",
+          "sha256": "091bae75b47397cc73979733f05267d669bd9f4d166c256120a401d4196d9fb6",
+          "bytes": 46346
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/trieste-polizia-locale-sei-scooter-distretti-14-ottobre-2026-v850-800.webp",
+          "sha256": "e71c0a2d65d05fcfc0411776c75cabf11db8ebc413f3f0e5d8855c1e36db4033",
+          "bytes": 105632
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/trieste-polizia-locale-sei-scooter-distretti-14-ottobre-2026-v850-1200.webp",
+          "sha256": "2377505f30844ce78a18db58d192d2523ed87c974073b2c2b025b42acfaaa333",
+          "bytes": 190210
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "aifa-pdnd-sei-servizi-farmaci-carenze-14-ottobre-2026",
+      "article": "/notizie/aifa-pdnd-sei-servizi-farmaci-carenze-14-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di personale farmaceutico e informatico al lavoro sui dati dei medicinali; nessun dato sanitario reale.",
+      "prompt": "Create one distinct photorealistic editorial illustration, landscape 16:9, at least 1600x900. Natural light, sober newspaper composition. Every visible person faces the camera with their face visible, no rear views. No text, captions, watermark, overlays or invented logos. Not a documentary photo. Two health data specialists facing camera, an adult woman pharmacist in a white coat and an adult male IT technician at a workstation in an Italian pharmacy office. Plain packaged human medicines, leaflets and a computer present in realistic workspace, screen abstract and non-readable, no text on packaging. Focus on exchange of official medicine and shortage data, no robots or glowing networks.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/aifa-pdnd-sei-servizi-farmaci-carenze-14-ottobre-2026-v850-480.webp",
+          "sha256": "ebe42f01ddc7a441854185490638e71ebacea44561bb12f9642555a09b6bc9bf",
+          "bytes": 33226
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/aifa-pdnd-sei-servizi-farmaci-carenze-14-ottobre-2026-v850-800.webp",
+          "sha256": "5d4fbd666502dda26e8096a0e2c2b3e9014eed5436369738bc315920852dd1b0",
+          "bytes": 67144
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/aifa-pdnd-sei-servizi-farmaci-carenze-14-ottobre-2026-v850-1200.webp",
+          "sha256": "17700a79c36f14ba5dd61daa3c002402ac217e8102a7a1305bd2e3c12added0e",
+          "bytes": 113998
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "ucraina-moldova-ue-negoziati-mercato-interno-14-ottobre-2026",
+      "article": "/notizie/ucraina-moldova-ue-negoziati-mercato-interno-14-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di un tavolo tecnico europeo con le bandiere Ue, ucraina e moldova; non documenta una firma o una riunione reale.",
+      "prompt": "Create one distinct photorealistic editorial illustration, landscape 16:9, at least 1600x900. Natural light, sober newspaper composition. Every visible person faces the camera with their face visible, no rear views. No text, captions, watermark, overlays or invented logos. Not a documentary photo. Three anonymous adult European civil servants, distinct faces visible toward camera, calmly at a working table in a faithful modern Luxembourg European Council conference room. Correct EU, Ukrainian and Moldovan flags on small stands behind the table. No named leaders or fictional signing ceremony, no document lettering or logos. Editorial context technical accession negotiations on internal market and competitiveness for Ukraine and Moldova.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ucraina-moldova-ue-negoziati-mercato-interno-14-ottobre-2026-v850-480.webp",
+          "sha256": "36661c55169e32b4100a7bec921268cb5251869ed7cd78a631599ff47dfb3f9b",
+          "bytes": 32034
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ucraina-moldova-ue-negoziati-mercato-interno-14-ottobre-2026-v850-800.webp",
+          "sha256": "49e3dadd409005a4476f4218d8b4634ca5bbfd3422151064b5598f7c7cb9bdd0",
+          "bytes": 62358
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ucraina-moldova-ue-negoziati-mercato-interno-14-ottobre-2026-v850-1200.webp",
+          "sha256": "96f2e14eedf0a688b3eaf57b0777073bcd9feb54cb01b3a9fd951f203b6a5b94",
+          "bytes": 103078
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "bologna-polizia-locale-etilometri-distanziatori-14-ottobre-2026",
+      "article": "/notizie/bologna-polizia-locale-etilometri-distanziatori-14-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di agenti e dotazioni per i controlli stradali a Bologna; nessun controllo reale è raffigurato.",
+      "prompt": "Create one distinct photorealistic editorial illustration, landscape 16:9, at least 1600x900. Natural light, sober newspaper composition. Every visible person faces the camera with their face visible, no rear views. No text, captions, watermark, overlays or invented logos. Not a documentary photo. Two municipal police officers in credible Bologna Polizia Locale dark blue uniforms, white caps, faces visible looking toward camera, calmly beside a realistic handheld electronic breathalyser and a small stack of compact unopened equipment cases in a Bologna municipal depot. No enforcement or arrest, no suspects, no vehicles, no text or weapon display. New traffic-safety testing equipment.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/bologna-polizia-locale-etilometri-distanziatori-14-ottobre-2026-v850-480.webp",
+          "sha256": "0214227e041fb25afce8893f84289a758e964dc4576bfdd99871dc0f062eba7f",
+          "bytes": 34226
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/bologna-polizia-locale-etilometri-distanziatori-14-ottobre-2026-v850-800.webp",
+          "sha256": "fee22e74b79d40b5185446a693d9fd3cf8d733cc92cc1ee79db2f048277669b6",
+          "bytes": 69744
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/bologna-polizia-locale-etilometri-distanziatori-14-ottobre-2026-v850-1200.webp",
+          "sha256": "49423a1edede85a0abd5483d6e8d561588a1f9c4d405efb69614635760e5a442",
+          "bytes": 121750
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "italia-donne-finale-playoff-finlandia-14-ottobre-2026",
+      "article": "/notizie/italia-donne-finale-playoff-finlandia-14-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di sostenitrici azzurre nel contesto dello stadio Artemio Franchi di Firenze; non raffigura il risultato della gara.",
+      "prompt": "Create one distinct photorealistic editorial illustration, landscape 16:9, at least 1600x900. Natural light, sober newspaper composition. Every visible person faces the camera with their face visible, no rear views. No text, captions, watermark, overlays or invented logos. Not a documentary photo. Two adult women supporters in unbranded azure scarves facing the camera at the real Stadio Artemio Franchi in Florence, distinctive D-shaped terraces and concrete Marathon Tower visible, calm daylight. Editorial context Italy women's national football team's qualification playoff after the Belarus match. Do not depict actual players or invent match actions, no lettering.\nFinal revision: Edit provided image: preserve both foreground supporters, their faces, blue scarves and the Franchi stadium architecture. Remove ALL background people, including tiny heads among the terraces and sideline. Leave all background seats and pitch empty. Natural original lighting; landscape 16:9; no text.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/italia-donne-finale-playoff-finlandia-14-ottobre-2026-v850-480.webp",
+          "sha256": "a2e4fca13cd7b5280147160562f44e8ba1109ddab452608b29cccc7df8d7218f",
+          "bytes": 35128
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/italia-donne-finale-playoff-finlandia-14-ottobre-2026-v850-800.webp",
+          "sha256": "649d48dc5803508947d8a9e61e744463874e5f51f294b09394e0197a629f38b3",
+          "bytes": 81854
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/italia-donne-finale-playoff-finlandia-14-ottobre-2026-v850-1200.webp",
+          "sha256": "22f0f414f0217eab8d32eb2ff81dbefbc16df28e6a9d718f58248a62a59547b7",
+          "bytes": 157134
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "aifa-servizi-online-mfa-19-ottobre-14-ottobre-2026",
+      "article": "/notizie/aifa-servizi-online-mfa-19-ottobre-14-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di un’operatrice amministrativa con telefono e computer; nessuna credenziale o schermata reale AIFA.",
+      "prompt": "Create one distinct photorealistic editorial illustration, landscape 16:9, at least 1600x900. Natural light, sober newspaper composition. Every visible person faces the camera with their face visible, no rear views. No text, captions, watermark, overlays or invented logos. Not a documentary photo. An adult female Italian pharmaceutical administrator facing camera at her office desk holding a smartphone while using a laptop, focused calm neutral expression. A plain unbranded security token and medical files on desk. News about multi-factor login for AIFA online services from19 October. No readable UI, passwords, identity data, captions or logos.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/aifa-servizi-online-mfa-19-ottobre-14-ottobre-2026-v850-480.webp",
+          "sha256": "864815086b1a39e3655dcc468d12399fb5e1d979a3668a895f8e5653ac1a36c7",
+          "bytes": 30918
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/aifa-servizi-online-mfa-19-ottobre-14-ottobre-2026-v850-800.webp",
+          "sha256": "9410be49fab1362fc69c1b55bf99125e028eb874444b28bbbfe059206067ca80",
+          "bytes": 59570
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/aifa-servizi-online-mfa-19-ottobre-14-ottobre-2026-v850-1200.webp",
+          "sha256": "834a68b420afcc9f2071f6411ff4712830df3e4e42b5946a751531aa5f4ec7ed",
+          "bytes": 101924
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
     {
       "id": "meteo-oggi-14-ottobre-2026-vento-ionio-puglia-calabria",
       "article": "/notizie/meteo-oggi-14-ottobre-2026-vento-ionio-puglia-calabria.html",
