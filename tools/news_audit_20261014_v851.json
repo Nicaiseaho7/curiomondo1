@@ -1,0 +1,324 @@
+{
+  "version": 851,
+  "release": "2026-10-14T18:37:09+02:00",
+  "new_articles": 10,
+  "updated_articles": 0,
+  "new_images": 10,
+  "push_executed": false,
+  "manifest_accessed": false,
+  "image_visual_review": "Dieci copertine finali ispezionate. Volti di Demi Moore, Alberto Angela e Chad Kroeger riconoscibili e dichiarati sintetici. Rigenerata la stazione di Grosseto sulla facciata documentata; eliminati i poster dallo sfondo di Demi Moore. Nessuna figura di spalle, targa o ricostruzione dell’incidente.",
+  "evergreen_exception": "Nel catalogo non sono presenti guide specifiche pertinenti ai dieci fatti: nessun collegamento artificiale.",
+  "excluded": [
+    "Scioperi Toscana e ATM già trattati o conclusi",
+    "Data Disney+ internazionale di Oceania non sufficiente per confermare il mercato italiano",
+    "Notizie del lotto precedente v850 già presenti"
+  ],
+  "primary_access_limits": [
+    "Rai Ufficio Stampa: indice consultato, pagina diretta non accessibile. Note integrali Rai recuperate tramite Agenzia giornalistica Opinione; Televideo restituisce versioni non aggiornate e non viene usato come fonte del giorno.",
+    "Comune Milano: comunicato del 14 ottobre consultato nell’indice; testo completo della manifestazione disponibile da Fondazione Milano.",
+    "RFI: la data di prima pubblicazione dell’avviso non è indicata. Sono verificate le date di validità e la novità per il sito."
+  ],
+  "risk_rationale": "Dieci notizie di servizio, programmazione e cultura non controversa: rischio C, fonte ufficiale competente sufficiente. Non sono offerte indicazioni cliniche, accuse o stime finanziarie.",
+  "browser_visual_qa": "Non eseguita: verificato che l’eseguibile Chromium non è presente. Nessuna modifica al layout condiviso.",
+  "articles": [
+    {
+      "slug": "a7-busalla-ronco-scrivia-telepedaggio-agevolazione-14-ottobre-2026",
+      "title": "A7, Busalla cambia uscita dal 15: contanti e carte a Ronco Scrivia",
+      "action": "new",
+      "published": "2026-10-14T18:37:09+02:00",
+      "modified": "2026-10-14T18:37:09+02:00",
+      "source_date": "2026-10-14",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.autostrade.it/it/comunicazione-e-media/comunicati-stampa-viabilita/-/bulletin/view/4fc9ff15-ac3c-4eed-817e-b66386151ea6",
+          "nome": "Autostrade per l’Italia — configurazione provvisoria di Busalla e agevolazione, 14 ottobre."
+        }
+      ],
+      "words": 183,
+      "paragraph_max": 44,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "the-substance-prima-visione-rai4-stasera-14-ottobre-2026",
+      "title": "The Substance, stasera su Rai 4 alle 21:20 la prima visione",
+      "action": "new",
+      "published": "2026-10-14T18:32:09+02:00",
+      "modified": "2026-10-14T18:32:09+02:00",
+      "source_date": "2026-10-13",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.rai.it/ufficiostampa/",
+          "nome": "Rai Ufficio Stampa — annuncio della prima visione su Rai 4 e orario del 14 ottobre."
+        },
+        {
+          "url": "https://www.agenziagiornalisticaopinione.it/opinionmix/tv-radio-web-press/rai-horror-visionario-di-coralie-fargeat-il-body-horror-che-critica-lossessione-per-la-perfezione-estetica-vedi-segui-diretta-video-link-rivedi-streaming/",
+          "nome": "Agenzia giornalistica Opinione — nota stampa Rai integrale su film, regia e cast, 13 ottobre."
+        }
+      ],
+      "words": 188,
+      "paragraph_max": 48,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "a9-lago-como-uscita-chiusure-15-16-ottobre-14-ottobre-2026",
+      "title": "A9, uscita Lago di Como chiusa due notti: cambia il programma",
+      "action": "new",
+      "published": "2026-10-14T18:25:09+02:00",
+      "modified": "2026-10-14T18:25:09+02:00",
+      "source_date": "2026-10-14",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.autostrade.it/it/comunicazione-e-media/comunicati-stampa-viabilita/-/bulletin/view/b8a6c9a9-3f12-47df-afac-4e5e277e4253",
+          "nome": "Autostrade per l’Italia — aggiornamento delle chiusure dell’uscita Lago di Como, 14 ottobre."
+        }
+      ],
+      "words": 175,
+      "paragraph_max": 41,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "nickelback-milano-2027-prevendita-mastercard-14-ottobre-2026",
+      "title": "Nickelback a Milano nel 2027: prevendita aperta, vendita libera il 16",
+      "action": "new",
+      "published": "2026-10-14T18:17:09+02:00",
+      "modified": "2026-10-14T18:17:09+02:00",
+      "source_date": "2026-10-09",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.livenation.it/articles/nickelback-milano-2027",
+          "nome": "Live Nation Italia — data italiana e calendario delle prevendite, annuncio del 9 ottobre."
+        },
+        {
+          "url": "https://www.ticketmaster.it/artist/nickelback-biglietti/8678",
+          "nome": "Ticketmaster Italia — concerto di Assago, orario e accessi alla vendita."
+        }
+      ],
+      "words": 186,
+      "paragraph_max": 41,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "milano-teatro-city-apertura-programma-14-ottobre-2026",
+      "title": "Milano Teatro City debutta il 15: 49 teatri e 230 appuntamenti",
+      "action": "new",
+      "published": "2026-10-14T18:08:09+02:00",
+      "modified": "2026-10-14T18:08:09+02:00",
+      "source_date": "2026-10-14",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.comune.milano.it/w/milano-teatro-city.-gioved%C3%AC-15-ottobre-la-tavola-rotonda-di-apertura-con-l-assessore-sacchi",
+          "nome": "Comune di Milano — apertura del 15 ottobre a Palazzo Reale, comunicato del 14 ottobre."
+        },
+        {
+          "url": "https://fondazionemilano.eu/news/milano-teatro-city",
+          "nome": "Fondazione Milano — palinsesto e calendario delle performance gratuite, 7 ottobre."
+        }
+      ],
+      "words": 196,
+      "paragraph_max": 43,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "a1-piacenza-complanare-chiusura-15-ottobre-14-ottobre-2026",
+      "title": "A1, raccordo di Piacenza chiuso il 15 sera: percorsi diversi per i camion",
+      "action": "new",
+      "published": "2026-10-14T17:58:09+02:00",
+      "modified": "2026-10-14T17:58:09+02:00",
+      "source_date": "2026-10-14",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.autostrade.it/it/comunicazione-e-media/comunicati-stampa-viabilita/-/bulletin/view/c8f2e28a-3c97-48c7-9940-3370c63bf3cb",
+          "nome": "Autostrade per l’Italia — chiusura della Complanare e alternative per mezzi leggeri e pesanti, 14 ottobre."
+        }
+      ],
+      "words": 189,
+      "paragraph_max": 42,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "roma-cinema-moviereading-sedici-titoli-14-ottobre-2026",
+      "title": "Festa di Roma, 16 titoli accessibili con MovieReading: come orientarsi",
+      "action": "new",
+      "published": "2026-10-14T17:47:09+02:00",
+      "modified": "2026-10-14T17:47:09+02:00",
+      "source_date": "2026-10-14",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.romacinemafest.it/it/cinema-inclusivo26/",
+          "nome": "Fondazione Cinema per Roma — sedici titoli accessibili con MovieReading, 14 ottobre."
+        }
+      ],
+      "words": 185,
+      "paragraph_max": 43,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "louvre-noos-esplorazioni-rai5-stasera-14-ottobre-2026",
+      "title": "Il Louvre da fortezza a museo: stasera Noos Esplorazioni su Rai 5",
+      "action": "new",
+      "published": "2026-10-14T17:35:09+02:00",
+      "modified": "2026-10-14T17:35:09+02:00",
+      "source_date": "2026-10-13",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.rai.it/ufficiostampa/",
+          "nome": "Rai Ufficio Stampa — programmazione del 14 ottobre su Rai 5."
+        },
+        {
+          "url": "https://www.agenziagiornalisticaopinione.it/opinionmix/tv-radio-web-press/rai-5-leuropa-delle-meraviglie-il-louvre-14-1021-20-il-louvre-dalla-fortezza-medievale-al-museo-trasformazione-attraverso-i-secoli-vedi-segui-diretta-video-link-rived/",
+          "nome": "Agenzia giornalistica Opinione — nota stampa Rai integrale del 13 ottobre, ore 08:50."
+        }
+      ],
+      "words": 179,
+      "paragraph_max": 39,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "roma-lazio-in-serie-ingresso-gratuito-14-ottobre-2026",
+      "title": "Roma Lazio in Serie apre all’Auditorium: incontri gratuiti fino al 25",
+      "action": "new",
+      "published": "2026-10-14T17:22:09+02:00",
+      "modified": "2026-10-14T17:22:09+02:00",
+      "source_date": "2026-10-13",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.romacinemafest.it/it/roma-lazio-in-serie/",
+          "nome": "Fondazione Cinema per Roma — apertura dello spazio, programma gratuito e collegamento alle modalità di accesso, 13 ottobre."
+        }
+      ],
+      "words": 185,
+      "paragraph_max": 39,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    },
+    {
+      "slug": "grosseto-roma-regionale-4501-orario-24-26-ottobre-14-ottobre-2026",
+      "title": "Grosseto–Roma, il regionale 4501 parte prima il 24 e 26 ottobre",
+      "action": "new",
+      "published": "2026-10-14T17:08:09+02:00",
+      "modified": "2026-10-14T17:08:09+02:00",
+      "source_date": null,
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.rfi.it/it/news-e-media/infomobilita/avvisi/2026/10/24/linea-roma-termini---grosseto.html",
+          "nome": "RFI — variazioni del regionale R 4501 per il 24 e 26 ottobre."
+        },
+        {
+          "url": "https://www.trenitalia.com/it/informazioni/lavori-programmati/20261024-linea-roma-temini-grosseto.html",
+          "nome": "Trenitalia — avviso per i lavori e il treno R 4501."
+        }
+      ],
+      "words": 172,
+      "paragraph_max": 43,
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "short_paragraphs": true,
+        "no_duplicate": true
+      }
+    }
+  ],
+  "technical_checks": {
+    "repository_integrity": "pass",
+    "adsense_deploy_gate": "pass",
+    "predeploy": "pass",
+    "targeted_batch_qa": "pass"
+  },
+  "repairs": [
+    "Ricodificata una variante WebP A9 vuota e verificati tutti i 30 hash",
+    "Categoria Film e serie TV uniformata, compreso l’articolo di accessibilità della Festa di Roma"
+  ],
+  "live_verification": "Non eseguita: preparazione ZIP, nessun push o deploy.",
+  "site_category_checks": {
+    "italia": 4,
+    "film_serie_tv": 4,
+    "cultura": 2,
+    "mondo": 0
+  },
+  "discovery_window": {
+    "timezone": "Europe/Rome",
+    "not_before": "2026-10-14T17:44:29+02:00",
+    "not_after": "2026-10-14T18:06:48+02:00"
+  },
+  "source_provenance_notes": {
+    "rai": "Note stampa Rai originali distribuite integralmente da Agenzia giornalistica Opinione; indice Rai consultato. Televideo con snapshot vecchi escluso.",
+    "rfi": "Data di prima pubblicazione non visibile, riportata come null; date operative 24 e 26 ottobre confermate anche da Trenitalia.",
+    "nickelback": "Annuncio del 9 ottobre; fatto operativo nuovo del 14 ottobre: apertura della prevendita Mastercard.",
+    "rome": "Le due pagine sono angolazioni autonome: servizio di accessibilità e nuovo programma di incontri sulla serialità. Il programma generale già presente resta invariato."
+  },
+  "prepared_release": "2026-10-14T18:06:48+02:00"
+}

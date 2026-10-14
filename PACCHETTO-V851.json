@@ -1,0 +1,264 @@
+{
+  "version": 851,
+  "base_commit": "8b1dcd322f5350c73535c0a305c48b17a52a33d1",
+  "prepared_release": "2026-10-14T18:06:48+02:00",
+  "new_articles": 10,
+  "updated_articles": 0,
+  "final_covers": 10,
+  "webp_variants": 30,
+  "articleCount": 1010,
+  "manifest_included": false,
+  "push_executed": false,
+  "technical_checks": {
+    "repository_integrity": "pass",
+    "adsense_deploy_gate": "pass",
+    "predeploy": "pass",
+    "targeted_batch_qa": "pass"
+  },
+  "files": {
+    "CURIOMONDO-RELEASE-STATE.json": {
+      "bytes": 1430,
+      "sha256": "c44eca4bcce4e6ead9d6db53c790e40a39aa0519f37e31344c4eca3b1aab68af"
+    },
+    "assets/data/editorial-images-v210.json": {
+      "bytes": 1914342,
+      "sha256": "58ed279190f04794e799bee39d77d9c8badbff33e92d44e60f1fa971c2af8cc9"
+    },
+    "assets/data/frasi-nome.json": {
+      "bytes": 64370,
+      "sha256": "e207afba741fa5b8ba5365976f6fd9f92d6f721e19ac070e32f6f82ff4de8aee"
+    },
+    "assets/data/home-feed-v210.json": {
+      "bytes": 1786440,
+      "sha256": "6bac79d121582f9f92df28d7fa3377b3a9fe19776ac8aee2b7b1660e76438cad"
+    },
+    "assets/data/search-index-v210.json": {
+      "bytes": 554726,
+      "sha256": "6dc6461e6dbf4f601052f9ad0302f3b505e71c9ca215457e5913731f1f86aa83"
+    },
+    "assets/images/editorial-auto/a1-piacenza-complanare-chiusura-15-ottobre-14-ottobre-2026-v851-1200.webp": {
+      "bytes": 169480,
+      "sha256": "9761249f8a53dfb1c4b8f969e020be10eb451dcdd7691175d05d276085e6186b"
+    },
+    "assets/images/editorial-auto/a1-piacenza-complanare-chiusura-15-ottobre-14-ottobre-2026-v851-480.webp": {
+      "bytes": 29052,
+      "sha256": "63627b924818ff72368405693ee92b7a2fcb9aa5582367c2c6300b1ffd9aff6f"
+    },
+    "assets/images/editorial-auto/a1-piacenza-complanare-chiusura-15-ottobre-14-ottobre-2026-v851-800.webp": {
+      "bytes": 78538,
+      "sha256": "5934eef42ab0cafd805769682145a939c594c638c17312948d34716d47e3e5f0"
+    },
+    "assets/images/editorial-auto/a7-busalla-ronco-scrivia-telepedaggio-agevolazione-14-ottobre-2026-v851-1200.webp": {
+      "bytes": 179210,
+      "sha256": "6c7ed32190e511399a3438fb85eab069feffb4fd06f330b961df4a8057e41a63"
+    },
+    "assets/images/editorial-auto/a7-busalla-ronco-scrivia-telepedaggio-agevolazione-14-ottobre-2026-v851-480.webp": {
+      "bytes": 46034,
+      "sha256": "126917fd8a65991a626338b14fa8d79972d893e8dee63f58dd64620c77e54168"
+    },
+    "assets/images/editorial-auto/a7-busalla-ronco-scrivia-telepedaggio-agevolazione-14-ottobre-2026-v851-800.webp": {
+      "bytes": 102918,
+      "sha256": "06881f24690652aa4dbe1869855edbd6aaea5702220b17c0ffc70ac5f005d43f"
+    },
+    "assets/images/editorial-auto/a9-lago-como-uscita-chiusure-15-16-ottobre-14-ottobre-2026-v851-1200.webp": {
+      "bytes": 257850,
+      "sha256": "fe97e2965c9bf99fed2666bac149204c7e0831aae01e23ebb918cf1c77bf07e8"
+    },
+    "assets/images/editorial-auto/a9-lago-como-uscita-chiusure-15-16-ottobre-14-ottobre-2026-v851-480.webp": {
+      "bytes": 46386,
+      "sha256": "2f4de68e5c63634ce764b5bee724b921c4b81f9d7029962abefbffaab55308d4"
+    },
+    "assets/images/editorial-auto/a9-lago-como-uscita-chiusure-15-16-ottobre-14-ottobre-2026-v851-800.webp": {
+      "bytes": 124194,
+      "sha256": "b4fdae9ac66e65d4abe9dda4209759d29b631f4fbe4dd24a4cd0d61c0b2092da"
+    },
+    "assets/images/editorial-auto/grosseto-roma-regionale-4501-orario-24-26-ottobre-14-ottobre-2026-v851-1200.webp": {
+      "bytes": 207884,
+      "sha256": "f91656930fd3d3bce86d982e8154221cbbf902901b9eea716c47db0afad62a77"
+    },
+    "assets/images/editorial-auto/grosseto-roma-regionale-4501-orario-24-26-ottobre-14-ottobre-2026-v851-480.webp": {
+      "bytes": 41584,
+      "sha256": "8cb03d5a5b821642a0aca1f161d72940af8444c17d2948aec63b3e10bc99fbe4"
+    },
+    "assets/images/editorial-auto/grosseto-roma-regionale-4501-orario-24-26-ottobre-14-ottobre-2026-v851-800.webp": {
+      "bytes": 102340,
+      "sha256": "1aae51076bed7f0a7d1791f4b58d51e81ab8959d00f6752327942bf8edda398b"
+    },
+    "assets/images/editorial-auto/louvre-noos-esplorazioni-rai5-stasera-14-ottobre-2026-v851-1200.webp": {
+      "bytes": 167514,
+      "sha256": "5414b421585b519743f1776217e0dfea2004f70471056c057647e07afa8c19cb"
+    },
+    "assets/images/editorial-auto/louvre-noos-esplorazioni-rai5-stasera-14-ottobre-2026-v851-480.webp": {
+      "bytes": 37438,
+      "sha256": "dba2067f7d7a9f091cfbf94ea6059c79fb8dc0477c02d976da52e8e4b4c4b684"
+    },
+    "assets/images/editorial-auto/louvre-noos-esplorazioni-rai5-stasera-14-ottobre-2026-v851-800.webp": {
+      "bytes": 86588,
+      "sha256": "02f63f42b70d15ba6a370c1bebbf9a9e3b87eaa762a1afbfbaca1241c56250f3"
+    },
+    "assets/images/editorial-auto/milano-teatro-city-apertura-programma-14-ottobre-2026-v851-1200.webp": {
+      "bytes": 169474,
+      "sha256": "84f248e606880f5e3fb71960a5274fcff9f88ce7d2d080edbf949b312be77ea4"
+    },
+    "assets/images/editorial-auto/milano-teatro-city-apertura-programma-14-ottobre-2026-v851-480.webp": {
+      "bytes": 38374,
+      "sha256": "d22e8ba1375db4f961dc7cc87648399d7738094e5cf916e913ceedf0b32b17e8"
+    },
+    "assets/images/editorial-auto/milano-teatro-city-apertura-programma-14-ottobre-2026-v851-800.webp": {
+      "bytes": 89992,
+      "sha256": "000dbf33aef7066a48bd28b0d62961522692d1502d48d52e17f9caa9c7deb828"
+    },
+    "assets/images/editorial-auto/nickelback-milano-2027-prevendita-mastercard-14-ottobre-2026-v851-1200.webp": {
+      "bytes": 127496,
+      "sha256": "4fc44aed64b17a5226ccf0f05c0057a3d7962e3d4aa51902ec5c1b607c488190"
+    },
+    "assets/images/editorial-auto/nickelback-milano-2027-prevendita-mastercard-14-ottobre-2026-v851-480.webp": {
+      "bytes": 35478,
+      "sha256": "92bba70ff957f5ab0d37a80d815fe3b9c41d379d6d580bd55fce3664eaba4bc8"
+    },
+    "assets/images/editorial-auto/nickelback-milano-2027-prevendita-mastercard-14-ottobre-2026-v851-800.webp": {
+      "bytes": 72424,
+      "sha256": "2d56278eb1caf525b5f1256df8bc207075272d9735438c8ad7ddcccbff3e45c3"
+    },
+    "assets/images/editorial-auto/roma-cinema-moviereading-sedici-titoli-14-ottobre-2026-v851-1200.webp": {
+      "bytes": 122174,
+      "sha256": "f604c213d3cd4f9e6cd89c42dcb0058c40386ee1ef0e5b949914622a0ec70ebd"
+    },
+    "assets/images/editorial-auto/roma-cinema-moviereading-sedici-titoli-14-ottobre-2026-v851-480.webp": {
+      "bytes": 31344,
+      "sha256": "9826300808aeb50c1f488bb25ef63260c41ae6da8af3f0f3992e32af0fb42391"
+    },
+    "assets/images/editorial-auto/roma-cinema-moviereading-sedici-titoli-14-ottobre-2026-v851-800.webp": {
+      "bytes": 66312,
+      "sha256": "7a2aac5558e9c280c1e9eb2bff06351a22f4c4b54ac85ea8a8cb676006d33cdb"
+    },
+    "assets/images/editorial-auto/roma-lazio-in-serie-ingresso-gratuito-14-ottobre-2026-v851-1200.webp": {
+      "bytes": 160962,
+      "sha256": "a69f42e03e7c2a378a59dfc572338bd677c1ccef70924445d48e95da73606fcc"
+    },
+    "assets/images/editorial-auto/roma-lazio-in-serie-ingresso-gratuito-14-ottobre-2026-v851-480.webp": {
+      "bytes": 39150,
+      "sha256": "8dc942131de966adde215f0c7b599a06699e7518e0844db17f1e5c5f518e9c93"
+    },
+    "assets/images/editorial-auto/roma-lazio-in-serie-ingresso-gratuito-14-ottobre-2026-v851-800.webp": {
+      "bytes": 88940,
+      "sha256": "35b85903c82d06119014c69336f26acc13a94fab2bee9e792ccb52e55ce10d03"
+    },
+    "assets/images/editorial-auto/the-substance-prima-visione-rai4-stasera-14-ottobre-2026-v851-1200.webp": {
+      "bytes": 102802,
+      "sha256": "ff345fd4c5cdf2cc8b63e7e8bb920a211eac715ce84774065ff5dd12b12f124d"
+    },
+    "assets/images/editorial-auto/the-substance-prima-visione-rai4-stasera-14-ottobre-2026-v851-480.webp": {
+      "bytes": 28796,
+      "sha256": "722c3b5e9d0152dda80f6e0a07a87007e784d358953b4dcaaf5167e48ca4dd30"
+    },
+    "assets/images/editorial-auto/the-substance-prima-visione-rai4-stasera-14-ottobre-2026-v851-800.webp": {
+      "bytes": 58736,
+      "sha256": "f42a294974539673a74893af0d70debf1aab35fd763cdaff33aab0b373f82715"
+    },
+    "categorie/cronaca/index.html": {
+      "bytes": 151280,
+      "sha256": "f810b7af496d572203d64c2d2df114386eb6415887f1a743927e6e928902cadf"
+    },
+    "categorie/cultura/index.html": {
+      "bytes": 49979,
+      "sha256": "cba7ee41ec87d4815025d8124bd1285471cdb2b828e88836a6099d0911750d1e"
+    },
+    "categorie/film-serie-tv/index.html": {
+      "bytes": 42281,
+      "sha256": "5b3a364eaab0c541c1ade20de7921ce4020424c49b4f57cbf8967879a9ddb36f"
+    },
+    "categorie/italia/index.html": {
+      "bytes": 595446,
+      "sha256": "4746ca3ced9cd13a2eb49a5f531f489ecad803aac42bc4b168a840d31bef83f8"
+    },
+    "categorie/mondo/index.html": {
+      "bytes": 414751,
+      "sha256": "baa1c83b1f02c45ad6e6e2cafee693c3701457a659018aa61c5ea8650e687ae2"
+    },
+    "categorie/scienza/index.html": {
+      "bytes": 74158,
+      "sha256": "4720403bfd86d84a3f4bac45a0610eabc94b264c9b1a9b8d81960d4276a0d3b1"
+    },
+    "categorie/sport/index.html": {
+      "bytes": 181660,
+      "sha256": "61454af3f0cd35daef8f601d2bdf347904b35ce23ce64626f43a5b56a74c2cbb"
+    },
+    "feed.xml": {
+      "bytes": 716686,
+      "sha256": "1b44601c008b8fd199b8fad0f9c425b4e0392a6b1530c5c9d17e58a29b09c3d4"
+    },
+    "index.html": {
+      "bytes": 267899,
+      "sha256": "cfeb807c4e4539028f4708950e9de2a4ab24030c69e3365c761b4897963b9b2c"
+    },
+    "news-sitemap.xml": {
+      "bytes": 23392,
+      "sha256": "ab8f0843193c854bddd06a4eb0a40999c20da2ed68aff42eb2f582e4bf6f6af9"
+    },
+    "notizie/a1-piacenza-complanare-chiusura-15-ottobre-14-ottobre-2026.html": {
+      "bytes": 7860,
+      "sha256": "3d180231bc81a0ffc71937b1fecc86f540ec92c57f3cf5e3916f0b89b2da42ec"
+    },
+    "notizie/a7-busalla-ronco-scrivia-telepedaggio-agevolazione-14-ottobre-2026.html": {
+      "bytes": 8005,
+      "sha256": "74c3de539e3a8740daf183eaf30d3f64f40a210300688656aacdfd1a8b638321"
+    },
+    "notizie/a9-lago-como-uscita-chiusure-15-16-ottobre-14-ottobre-2026.html": {
+      "bytes": 7763,
+      "sha256": "8d4527feb3113a0c5888e4671a4bff11106a54e36add67df1db6cd0aabe57411"
+    },
+    "notizie/grosseto-roma-regionale-4501-orario-24-26-ottobre-14-ottobre-2026.html": {
+      "bytes": 7974,
+      "sha256": "a031f740ae31e261ae39ff6a15f1a8df835c58208310ce4309737b6702567086"
+    },
+    "notizie/index.html": {
+      "bytes": 248191,
+      "sha256": "813044c8d50f4db5d19315df84bbd9e421c4ea6f5ace2fa9ad62b1e87f98a108"
+    },
+    "notizie/louvre-noos-esplorazioni-rai5-stasera-14-ottobre-2026.html": {
+      "bytes": 8120,
+      "sha256": "8b2413484960541be23c2588fdb83b2ce801f96f9f0e930a03c596d495d9624c"
+    },
+    "notizie/milano-teatro-city-apertura-programma-14-ottobre-2026.html": {
+      "bytes": 7948,
+      "sha256": "e51c2823d3f399d51e767cd218bf4cde230530cc9d2dc6a355718b4d7dd3235d"
+    },
+    "notizie/nickelback-milano-2027-prevendita-mastercard-14-ottobre-2026.html": {
+      "bytes": 8068,
+      "sha256": "73c4d7f3c5310807d9c9ef92b49651a791b55e2e3e77662ae753df43511ee8a2"
+    },
+    "notizie/roma-cinema-moviereading-sedici-titoli-14-ottobre-2026.html": {
+      "bytes": 8474,
+      "sha256": "cf47ab3effc13258e552b72ea0e8a4050ec24d89a1a9c0b43bc0828d4122af5e"
+    },
+    "notizie/roma-lazio-in-serie-ingresso-gratuito-14-ottobre-2026.html": {
+      "bytes": 8424,
+      "sha256": "9f2bd154f27aecae384e5d2832e74d22a1370717d2cedd820ea6fd2a4c4d9194"
+    },
+    "notizie/the-substance-prima-visione-rai4-stasera-14-ottobre-2026.html": {
+      "bytes": 8198,
+      "sha256": "782e19634a819e2a5294cc654ef0f6a052eb0af70072bef49848620a65fcb617"
+    },
+    "sitemap.xml": {
+      "bytes": 237017,
+      "sha256": "d6cc462157f5af5b26a183650dee44d3e052ad3a42ab12dbf79b93e9bd31aa2a"
+    },
+    "tools/news_audit_20261014_v851.json": {
+      "bytes": 13271,
+      "sha256": "788ff078d8617b00e685a8d79de140db8cafcb8fb664679083cca26b37490e57"
+    },
+    "tools/news_batch_20261014_v851.json": {
+      "bytes": 28503,
+      "sha256": "061b89ae9c781509b1d8f6df05690bbd04d801547dd2e29a4804fbb492d88fff"
+    },
+    "tools/news_images_20261014_v851.json": {
+      "bytes": 10242,
+      "sha256": "dc0e121cfd62e0193ffd0c6cdebabe0050f157ae9cf8225830732ab8dee6e694"
+    },
+    "tools/prepare_news_20261014_v851.py": {
+      "bytes": 16774,
+      "sha256": "dadeb9f5af5f350f493b3205ee7aac02ce7a145af4f465fcb1ada450fcc120d8"
+    }
+  }
+}
