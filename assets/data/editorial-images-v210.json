@@ -1,7 +1,412 @@
 {
-  "version": 854,
+  "version": 855,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "id": "carlo-cardiff-senedd-proteste-arresto-15-ottobre-2026",
+      "article": "/notizie/carlo-cardiff-senedd-proteste-arresto-15-ottobre-2026.html",
+      "alt": "Ritratto editoriale neutrale e isolato di Carlo III, somiglianza sintetica IA; non documenta un evento reale.",
+      "prompt": "Neutral editorial portrait. Photorealistic editorial illustration for an Italian newspaper, 16:9 landscape 1600x900 or larger. King Charles III accurately recognizable, facing camera, head and shoulders neutral isolated studio portrait, simple soft grey backdrop, natural blue suit white shirt and blue tie, realistic mature skin texture and silver hair. Reference appearance: official Hugo Burnand portrait of Charles III. No scene of protests or arrest, no other people, no words, watermark, frame or graphic. The page will label this a synthetic editorial likeness, not documentary photography.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/carlo-cardiff-senedd-proteste-arresto-15-ottobre-2026-v855-480.webp",
+          "sha256": "1942e6281530d85728ff6e2dfaf32bae20c5fb171f05d5b68954405a9f7bc57f",
+          "bytes": 12284
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/carlo-cardiff-senedd-proteste-arresto-15-ottobre-2026-v855-800.webp",
+          "sha256": "4d5f0d5821fab35ce3809fe5bd06c9f77db0b0b31b6ef0defa5433046904eb60",
+          "bytes": 30996
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/carlo-cardiff-senedd-proteste-arresto-15-ottobre-2026-v855-1200.webp",
+          "sha256": "385c77a333670519bd38ba829940231f939796a754015f5ed6d9a3af21a3278d",
+          "bytes": 64660
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Carlo III",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "generationPrompt": "Photorealistic editorial illustration for an Italian newspaper, 16:9 landscape 1600x900 or larger. King Charles III accurately recognizable, facing camera, head and shoulders neutral isolated studio portrait, simple soft grey backdrop, natural blue suit white shirt and blue tie, realistic mature skin texture and silver hair. Reference appearance: official Hugo Burnand portrait of Charles III. No scene of protests or arrest, no other people, no words, watermark, frame or graphic. The page will label this a synthetic editorial likeness, not documentary photography."
+    },
+    {
+      "id": "winnie-pooh-centenario-camilla-new-york-peluche-2026",
+      "article": "/notizie/winnie-pooh-centenario-camilla-new-york-peluche-2026.html",
+      "alt": "Illustrazione editoriale IA del peluche storico di Winnie-the-Pooh in una vetrina; non è una fotografia documentaria della collezione.",
+      "prompt": "Photorealistic editorial still life, landscape 16:9 at least1600x900. The original 1921 Winnie-the-Pooh teddy bear preserved at New York Public Library, accurate to the historic Christopher Robin toy: worn golden tan mohair, rounded ears, long simple muzzle, small black nose, long arms and legs, aged faded texture, no red shirt (not Disney). Bear centered inside a tasteful glass museum case, blurred warm white marble interior of Stephen A Schwarzman library in background. No other toys necessary, no labels, writing, humans or watermark. A dedicated synthetic editorial illustration, not a documentary photo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/winnie-pooh-centenario-camilla-new-york-peluche-2026-v855-480.webp",
+          "sha256": "c83ac0ada167d471d35171f858c8bfdc8c5a0f75c6bdf22817fa0e930c9ade98",
+          "bytes": 30384
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/winnie-pooh-centenario-camilla-new-york-peluche-2026-v855-800.webp",
+          "sha256": "1cb6b6eec09b0ba3f0e52ca7ffee76d0d3b8448aabf86f8b64b852deeb1d0fd9",
+          "bytes": 64464
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/winnie-pooh-centenario-camilla-new-york-peluche-2026-v855-1200.webp",
+          "sha256": "b890973669a39d3b63ad3ae0e512b21299fed59ca0fa83168daaa11863dfb254",
+          "bytes": 112198
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "roma-dybala-polpaccio-controlli-genoa-15-ottobre-2026",
+      "article": "/notizie/roma-dybala-polpaccio-controlli-genoa-15-ottobre-2026.html",
+      "alt": "Ritratto editoriale neutrale e isolato di Paulo Dybala, somiglianza sintetica IA; non documenta un evento reale.",
+      "prompt": "Neutral editorial portrait. Photorealistic editorial neutral isolated portrait of Paulo Dybala, recognizable Argentinian footballer, facing camera head and upper torso, accurate facial appearance and swept dark brown hair as in Sky Sport Roma player profile, natural skin, calm neutral expression, current AS Roma dark red shirt with subtle gold collar and real AS Roma crest correctly rendered. Simple soft light grey studio background, no stadium, medical setting or depiction of injury. Landscape16:9 1600x900 or larger, centered crop-safe subject. No headline, words, watermark, collage. Synthetic editorial likeness clearly labeled on webpage.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/roma-dybala-polpaccio-controlli-genoa-15-ottobre-2026-v855-480.webp",
+          "sha256": "5ae7635b773172bb1704707742320edecda2b227817103b74f89f6df8d4d6f1d",
+          "bytes": 12420
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/roma-dybala-polpaccio-controlli-genoa-15-ottobre-2026-v855-800.webp",
+          "sha256": "75ae06c4098af87ab9027248cb4b90a4e1b971eb9ef0edb58ae4a52e39231b90",
+          "bytes": 28458
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/roma-dybala-polpaccio-controlli-genoa-15-ottobre-2026-v855-1200.webp",
+          "sha256": "f01149ec7bcd5fcb589d5b6483fe504be1d1b340c7643a37b8b305a8e3b721a8",
+          "bytes": 56272
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Paulo Dybala",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "generationPrompt": "Photorealistic editorial neutral isolated portrait of Paulo Dybala, recognizable Argentinian footballer, facing camera head and upper torso, accurate facial appearance and swept dark brown hair as in Sky Sport Roma player profile, natural skin, calm neutral expression, current AS Roma dark red shirt with subtle gold collar and real AS Roma crest correctly rendered. Simple soft light grey studio background, no stadium, medical setting or depiction of injury. Landscape16:9 1600x900 or larger, centered crop-safe subject. No headline, words, watermark, collage. Synthetic editorial likeness clearly labeled on webpage."
+    },
+    {
+      "id": "cinturrino-rinvio-giudizio-premeditazione-mansouri-15-ottobre-2026",
+      "article": "/notizie/cinturrino-rinvio-giudizio-premeditazione-mansouri-15-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA del Palazzo di Giustizia di Milano, contesto del procedimento; non documenta l’udienza.",
+      "prompt": "Photorealistic editorial context illustration for judicial news, landscape16:9 1600x900 or larger. Accurate exterior of Palazzo di Giustizia in Milan, monumental rationalist pale stone facade with four tall square pillars and broad entrance steps, front view medium-wide at slightly low angle, soft overcast autumn light. No people, no police, no vehicles, no invented incident, no text overlays, watermark or collage. This is a sober non-documentary synthetic depiction of the actual courthouse, not a portrait of accused people.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/cinturrino-rinvio-giudizio-premeditazione-mansouri-15-ottobre-2026-v855-480.webp",
+          "sha256": "1ae5c4480afd42953349815fa03c70cfd02d956ef5111f900b3d90efdf0a92e3",
+          "bytes": 41614
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/cinturrino-rinvio-giudizio-premeditazione-mansouri-15-ottobre-2026-v855-800.webp",
+          "sha256": "8e3f3dcd52ceddfad78a067f399a05629dde21cbe28c9482b3c754cfe2bc82de",
+          "bytes": 112876
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/cinturrino-rinvio-giudizio-premeditazione-mansouri-15-ottobre-2026-v855-1200.webp",
+          "sha256": "185f38a7a1caca79b37d0a4decf91e3182a1d17392cf5c039b2e6a9b67b90ee5",
+          "bytes": 234936
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "peshawar-crollo-scuola-vittime-15-ottobre-2026",
+      "article": "/notizie/peshawar-crollo-scuola-vittime-15-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di contesto urbano scolastico a Peshawar; non raffigura la scuola Al-Khair o il crollo.",
+      "prompt": "Photorealistic sober editorial context illustration for news about Al-Khair school roof collapse in Peshawar, Pakistan. Depict a quiet Peshawar urban residential street with low-rise cream brick school-type architecture and a closed green gate, no damaged building shown, no people, no children, no rescue, no bodies, no vehicles, no rubble, no blood, no emotional dramatization. Soft natural daytime lighting and northwestern Pakistan architectural details. This must remain a contextual illustrative street, not claim to show the actual school or incident. Landscape16:9 at least1600x900, no lettering, signage, watermark, collage or graphic elements.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/peshawar-crollo-scuola-vittime-15-ottobre-2026-v855-480.webp",
+          "sha256": "a3c2a1c40ffb8a35e4b9b33ab9b28c4f3053c3adc542f681c972046a3b509c31",
+          "bytes": 42080
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/peshawar-crollo-scuola-vittime-15-ottobre-2026-v855-800.webp",
+          "sha256": "594af013e8caadb458b7d4334408c579e90e9e258bedbc1db34a014158116941",
+          "bytes": 110856
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/peshawar-crollo-scuola-vittime-15-ottobre-2026-v855-1200.webp",
+          "sha256": "f64245e9dfa7efeedbd3dec920617741cd1623eb34f53826d9e65986784974ac",
+          "bytes": 225730
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "maradona-processo-burlando-15-anni-luque-ottobre-2026",
+      "article": "/notizie/maradona-processo-burlando-15-anni-luque-ottobre-2026.html",
+      "alt": "Ritratto editoriale neutrale e isolato di Diego Armando Maradona, somiglianza sintetica IA; non documenta un evento reale.",
+      "prompt": "Neutral editorial portrait. Photorealistic neutral isolated editorial portrait of Diego Armando Maradona as in his late playing career, recognizable dark curly hair, broad characteristic face and warm tan skin, calm neutral expression facing camera head and shoulders in Argentina light blue white football jersey with true AFA crest correctly rendered, soft plain medium grey studio background. Sensitive judicial news about his death: no hospital, court scene, injuries, suffering, props, other people or recreation of any event. Landscape16:9 1600x900 or larger, centered crop-safe subject. No editorial words, watermark, collage. Page will clearly declare synthetic likeness.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/maradona-processo-burlando-15-anni-luque-ottobre-2026-v855-480.webp",
+          "sha256": "ffdfbee3f15016d164da405f20662bd4b9a4b6f9ec802ddc114931305a3b0e79",
+          "bytes": 15682
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/maradona-processo-burlando-15-anni-luque-ottobre-2026-v855-800.webp",
+          "sha256": "5c3dedf06918aed03e928d43671640d9a37e9cfb1625186779dc3d327d25f0e5",
+          "bytes": 38974
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/maradona-processo-burlando-15-anni-luque-ottobre-2026-v855-1200.webp",
+          "sha256": "18207fb8888c9ce70596bf87e4c1a58f60cf4104de8b187877104b4302085d40",
+          "bytes": 75620
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Diego Armando Maradona",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated",
+      "generationPrompt": "Photorealistic neutral isolated editorial portrait of Diego Armando Maradona as in his late playing career, recognizable dark curly hair, broad characteristic face and warm tan skin, calm neutral expression facing camera head and shoulders in Argentina light blue white football jersey with true AFA crest correctly rendered, soft plain medium grey studio background. Sensitive judicial news about his death: no hospital, court scene, injuries, suffering, props, other people or recreation of any event. Landscape16:9 1600x900 or larger, centered crop-safe subject. No editorial words, watermark, collage. Page will clearly declare synthetic likeness."
+    },
+    {
+      "id": "de-pau-ergastolo-appello-tre-donne-prati-15-ottobre-2026",
+      "article": "/notizie/de-pau-ergastolo-appello-tre-donne-prati-15-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA del complesso giudiziario di Piazzale Clodio a Roma; non documenta il processo.",
+      "prompt": "Photorealistic sober editorial context illustration for judicial news in Rome. Accurate entrance exterior of criminal courthouse at Piazzale Clodio Rome, modern pale travertine facade and vertical windows, frontal medium view in natural autumn afternoon light, quiet empty entrance, no people, no police, no vehicles or license plates, no arrests or re-enactment. Must be specifically recognizable as the Rome Piazzale Clodio court complex rather than ornate Palace of Justice. Landscape16:9 1600x900 or larger, clean composition no words overlays, watermark or collage.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/de-pau-ergastolo-appello-tre-donne-prati-15-ottobre-2026-v855-480.webp",
+          "sha256": "23324ab23b116742d32bc681f46dc196a9657a8fb395d8ad787da3f0a73a8823",
+          "bytes": 54650
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/de-pau-ergastolo-appello-tre-donne-prati-15-ottobre-2026-v855-800.webp",
+          "sha256": "0f67daa013962abd6025f8df691078726d0db148ad52424c271ba7056e69497c",
+          "bytes": 142716
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/de-pau-ergastolo-appello-tre-donne-prati-15-ottobre-2026-v855-1200.webp",
+          "sha256": "1058cee7ca1a2cd1f13786005b9afe2bfc51f96ad96212c96be8b8dcb9cac473",
+          "bytes": 287784
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "lazio-gudmundsson-juventus-controlli-20-ottobre-2026",
+      "article": "/notizie/lazio-gudmundsson-juventus-controlli-20-ottobre-2026.html",
+      "alt": "Ritratto editoriale neutrale e isolato di Albert Gudmundsson, somiglianza sintetica IA; non documenta un evento reale.",
+      "prompt": "Neutral editorial portrait. Photorealistic neutral isolated editorial portrait of Albert Gudmundsson the Icelandic professional footballer, accurately recognizable lean face, short light brown hair, light trimmed beard and pale skin, looking at camera calm neutral expression, head and upper torso. Lazio sky blue football shirt with true eagle crest correctly rendered, no invented sponsors. Plain pale grey studio backdrop. Article concerns shoulder injury: no injury, bandages, hospital, treatment, action, other people or event reenactment. Reference appearance current 2026 Lazio portrait. Landscape16:9 1600x900 or larger centered crop safe. No headlines, words, watermarks, collage. Synthetic editorial likeness identified on webpage.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/lazio-gudmundsson-juventus-controlli-20-ottobre-2026-v855-480.webp",
+          "sha256": "e5c1b6582be9f998d1b99f11dc4b8d1c40814d89e16e95f5683d9cf2d2c9c7ca",
+          "bytes": 13058
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/lazio-gudmundsson-juventus-controlli-20-ottobre-2026-v855-800.webp",
+          "sha256": "d0ce28a7cab1552ea3ea7ae9638d87480a4747104410e264a6323e8fe559abbd",
+          "bytes": 29044
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/lazio-gudmundsson-juventus-controlli-20-ottobre-2026-v855-1200.webp",
+          "sha256": "fe4c0f0647d7e9cb5fbd41bb43353a53fbd29be72176c94725100e26799116e2",
+          "bytes": 54880
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "generationPrompt": "Ritratto rigenerato con fotografia reale AreaNapoli come riferimento vincolante dell’identità; maglia Lazio e sfondo neutro.",
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Albert Gudmundsson",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated"
+    },
+    {
+      "id": "passi-eccesso-peso-adulti-consigli-medici-15-ottobre-2026",
+      "article": "/notizie/passi-eccesso-peso-adulti-consigli-medici-15-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di una bilancia medica e strumenti di misurazione; non documenta un paziente o la rilevazione PASSI.",
+      "prompt": "Photorealistic editorial still life for an Italian public health news article on PASSI surveillance of excess body weight and gaps in medical advice. Focus on a real professional mechanical medical weighing scale with vertical stadiometer, a folded flexible measuring tape and a telephone on an Italian primary care consultation desk, natural soft window light, authentic unoccupied medical office, no patients or invented doctor, no stigmatizing body close-ups, no food moralism, no charts, no readable figures or writing, no overlay text or watermark. 16:9 landscape1600x900 or larger. Sober dedicated editorial illustration not documentary research evidence.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/passi-eccesso-peso-adulti-consigli-medici-15-ottobre-2026-v855-480.webp",
+          "sha256": "9e6f2befb1892564c9401d95591c9b9b33608e673bf4c525489efa74aaa528ef",
+          "bytes": 26856
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/passi-eccesso-peso-adulti-consigli-medici-15-ottobre-2026-v855-800.webp",
+          "sha256": "2419cb4ff0821ec046ae75faa64ebc440b9822a4112811d5ea5302204967740a",
+          "bytes": 55718
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/passi-eccesso-peso-adulti-consigli-medici-15-ottobre-2026-v855-1200.webp",
+          "sha256": "efbd10135094ea8c5c422fef349c59650c7775ebf84dc5e385ed7ca86b0c18e3",
+          "bytes": 92232
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "letizia-milesi-europeo-nuoto-obiettivo-los-angeles-2028",
+      "article": "/notizie/letizia-milesi-europeo-nuoto-obiettivo-los-angeles-2028.html",
+      "alt": "Ritratto editoriale neutrale e isolato di Letizia Milesi, somiglianza sintetica IA; non documenta un evento reale.",
+      "prompt": "Neutral editorial portrait. Photorealistic neutral isolated editorial portrait of Italian para swimmer Letizia Milesi, accurate to reference photos in La Voce delle Valli: young white Italian woman with oval face, medium brown straight hair tied back, thin gently arched eyebrows, brown eyes, natural calm expression, subtle warm smile, head and shoulders, wearing simple official Italy navy sports polo with small Italian tricolor badge, no medals, no invented podium or claims of victory. Plain soft warm grey studio background. For sensitive biography context do not show accident, disability cues, rehabilitation or hospital. Landscape16:9 at least1600x900 centered face. No headline, writing, collage, watermark. Page labels synthetic editorial likeness.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/letizia-milesi-europeo-nuoto-obiettivo-los-angeles-2028-v855-480.webp",
+          "sha256": "fa5b39b8543ceaa2df423d29518f4e859e724fde2ffad2d3876236ebdb3950d8",
+          "bytes": 12360
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/letizia-milesi-europeo-nuoto-obiettivo-los-angeles-2028-v855-800.webp",
+          "sha256": "c0e02b5fda3dd7b0034ce489a3319bff70381e3e2d2ba3825a1517143be4419b",
+          "bytes": 28908
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/letizia-milesi-europeo-nuoto-obiettivo-los-angeles-2028-v855-1200.webp",
+          "sha256": "02dac1e0ce38c46d85e8c57a97f7a2fe1a1ac059a0bc8d80c5c25d131d4d3c2d",
+          "bytes": 60446
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "generationPrompt": "Ritratto rigenerato dalla fotografia reale La Voce delle Valli come riferimento vincolante; polo Italia, senza medaglia e sfondo neutro.",
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Letizia Milesi",
+      "portraitOnly": true,
+      "portraitFormat": "neutral-isolated"
+    },
     {
       "id": "papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026",
       "article": "/notizie/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026.html",
