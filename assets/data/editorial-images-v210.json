@@ -1,7 +1,428 @@
 {
-  "version": 852,
+  "version": 853,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "id": "brasile-senato-settimana-40-ore-transizione-15-ottobre-2026",
+      "article": "/notizie/brasile-senato-settimana-40-ore-transizione-15-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA del Congresso nazionale a Brasilia, con le torri e le cupole di Oscar Niemeyer; non documenta la seduta.",
+      "prompt": "The iconic real Brazilian National Congress building in Brasilia, the twin towers and white domes designed by Oscar Niemeyer, clean late afternoon light and Brazilian flags. The main topic is parliamentary approval of a 40-hour working week. No politicians, no invented event, real architecture.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/brasile-senato-settimana-40-ore-transizione-15-ottobre-2026-v853-480.webp",
+          "sha256": "05408d771984a963a289236a7fcf54b0283069161f8d675fa0330ca6364dbe39",
+          "bytes": 31810
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/brasile-senato-settimana-40-ore-transizione-15-ottobre-2026-v853-800.webp",
+          "sha256": "e8612d8636b2d189dcbbd22c5ea67d1dffa161fc4be8d568370d665fe6928606",
+          "bytes": 78376
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/brasile-senato-settimana-40-ore-transizione-15-ottobre-2026-v853-1200.webp",
+          "sha256": "4a1ab4f8f634adf3be5a0a658a4d582d9d0cf7f12e92202394ab543133679d9f",
+          "bytes": 158398
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "consiglio-europeo-15-16-ottobre-energia-bilancio-2026",
+      "article": "/notizie/consiglio-europeo-15-16-ottobre-energia-bilancio-2026.html",
+      "alt": "Illustrazione editoriale IA del palazzo Europa a Bruxelles con bandiere dell’Unione europea; non documenta il vertice.",
+      "prompt": "Real Europa building headquarters of European Council in Brussels, the recognisable wooden window facade and lantern structure, European flags in foreground, autumn morning. Main topic is the summit agenda. No invented leaders' meeting.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/consiglio-europeo-15-16-ottobre-energia-bilancio-2026-v853-480.webp",
+          "sha256": "47e5a45915d9f415ea0d758ea9d77b12b3e1787c33c47368c810e4936422de03",
+          "bytes": 53434
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/consiglio-europeo-15-16-ottobre-energia-bilancio-2026-v853-800.webp",
+          "sha256": "c5e4fbb840085f9d8ea7e10b1eaba260c3ec5ca0f8c58d2f2bde0b98e11f5c02",
+          "bytes": 143466
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/consiglio-europeo-15-16-ottobre-energia-bilancio-2026-v853-1200.webp",
+          "sha256": "315ffb31c8ec37fc6cec07de7bda5fac3822bac341370e2230166b386c665b1d",
+          "bytes": 290774
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "venezuela-terzo-dialogo-riforma-elettorale-15-ottobre-2026",
+      "article": "/notizie/venezuela-terzo-dialogo-riforma-elettorale-15-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA del Palacio Federal Legislativo a Caracas; non ricostruisce una riunione negoziale.",
+      "prompt": "Palacio Federal Legislativo in Caracas Venezuela, authentic neoclassical white façade and golden dome with Venezuelan flag, early morning natural light, respectful neutral editorial composition. The main topic is institutional dialogue. No politicians or reconstructed meeting.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/venezuela-terzo-dialogo-riforma-elettorale-15-ottobre-2026-v853-480.webp",
+          "sha256": "d013f1d9d2873aa272b61256d95b8cdcab84acec31dcd9b7e05bd429705055da",
+          "bytes": 40318
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/venezuela-terzo-dialogo-riforma-elettorale-15-ottobre-2026-v853-800.webp",
+          "sha256": "0852ac89f7a8a2481a487bc76bf289a243038a16598cd1ac3d4ab53ee390a84f",
+          "bytes": 99710
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/venezuela-terzo-dialogo-riforma-elettorale-15-ottobre-2026-v853-1200.webp",
+          "sha256": "5d8c5cc5300e3c0bf484707229f63046f346052010029619d527a3dadabd8359",
+          "bytes": 198294
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "treni-rocca-evandro-frecciarossa-9304-15-ottobre-2026",
+      "article": "/notizie/treni-rocca-evandro-frecciarossa-9304-15-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di un Frecciarossa 1000 nel contesto ferroviario fra Lazio e Campania; non documenta il passaggio del 9304.",
+      "prompt": "Frecciarossa 1000 in un contesto ferroviario rurale fra basso Lazio e Campania, illustrazione fotorealistica non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/treni-rocca-evandro-frecciarossa-9304-15-ottobre-2026-v853-480.webp",
+          "sha256": "b95b8069d0b920e2eb8ae9a243213f1a49a210c999c78a0e7d2beed5e4f8f241",
+          "bytes": 49358
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/treni-rocca-evandro-frecciarossa-9304-15-ottobre-2026-v853-800.webp",
+          "sha256": "7f9578b752e47d80f1cba22665d25cc5d8b680d01829659651a5d71e12eff990",
+          "bytes": 125184
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/treni-rocca-evandro-frecciarossa-9304-15-ottobre-2026-v853-1200.webp",
+          "sha256": "038ee7b666ef410ffd7b22bec9b9eb6fb4239b3ee06e0f9d3b51f760dca0d56f",
+          "bytes": 241058
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "a14-pedaso-piceno-ovest-chiusura-15-ottobre-2026",
+      "article": "/notizie/a14-pedaso-piceno-ovest-chiusura-15-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di barriere e coni in un ingresso autostradale, dedicata alle chiusure di Pedaso; non è una fotografia del casello.",
+      "prompt": "Barriere di ingresso autostradale e coni con basse colline marchigiane, nessuna persona, veicolo o scogliera. Contesto illustrativo non documentario.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/a14-pedaso-piceno-ovest-chiusura-15-ottobre-2026-v853-480.webp",
+          "sha256": "8ed11f2403184bf59a91b2371041472e5b7ed7754467e6be77ca63be34353bff",
+          "bytes": 41768
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/a14-pedaso-piceno-ovest-chiusura-15-ottobre-2026-v853-800.webp",
+          "sha256": "1a13892942ebeebe38b0425ce49fa645a88ad1ebdf0d7069769e4da057ace995",
+          "bytes": 103802
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/a14-pedaso-piceno-ovest-chiusura-15-ottobre-2026-v853-1200.webp",
+          "sha256": "db1f61b40fe679a90a036e5b4bfb29b86eeadaf0e683cb849fb161c2e0f21b68",
+          "bytes": 201428
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "generationPrompt": "Barriere di ingresso autostradale e coni con basse colline marchigiane, nessuna persona, veicolo o scogliera. Contesto illustrativo non documentario."
+    },
+    {
+      "id": "a1-guidonia-chiusure-15-18-ottobre-2026",
+      "article": "/notizie/a1-guidonia-chiusure-15-18-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA contestuale di un casello con coni per manutenzione nell’area di Guidonia; non documenta la chiusura.",
+      "prompt": "A1 motorway toll plaza in Guidonia Montecelio with limestone hills and Rome hinterland in background at dusk, tasteful sober road maintenance cones and clean closed entry lane, realistic Italian highway infrastructure. No crashes, no cars, no plates, no text.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/a1-guidonia-chiusure-15-18-ottobre-2026-v853-480.webp",
+          "sha256": "bed2df1a1ba2a057bd81169b6c0f8add138162e0d19ad540d814157b37c32f16",
+          "bytes": 40838
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/a1-guidonia-chiusure-15-18-ottobre-2026-v853-800.webp",
+          "sha256": "55c47fe0ab281298d7db2df683e19d61ea526526e22c0d50fa095a5b90362ad1",
+          "bytes": 104290
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/a1-guidonia-chiusure-15-18-ottobre-2026-v853-1200.webp",
+          "sha256": "285c996b14d0d5832c77a878d002f828ec44d7023aa69fb16926435bfe6d6bc6",
+          "bytes": 206514
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "roma-percorsi-protezione-civile-15-18-ottobre-2026",
+      "article": "/notizie/roma-percorsi-protezione-civile-15-18-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di un drone su un tavolo dimostrativo nel contesto di Villa Borghese; non documenta una dimostrazione reale.",
+      "prompt": "Drone DJI Matrice su tavolo dimostrativo con pini e tenda bianca a Villa Borghese; nessuna persona o architettura inventata. Scena non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/roma-percorsi-protezione-civile-15-18-ottobre-2026-v853-480.webp",
+          "sha256": "7a06a17f561b3864cbbf284817275f56b98c333ff99c62a42344e4be509e1283",
+          "bytes": 51124
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/roma-percorsi-protezione-civile-15-18-ottobre-2026-v853-800.webp",
+          "sha256": "15ce2add6fe60e7f0eda5ab1fb518701df03c3f8b2261f67fa443800f1ab5e49",
+          "bytes": 112538
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/roma-percorsi-protezione-civile-15-18-ottobre-2026-v853-1200.webp",
+          "sha256": "aa78ab000b8772e5202711c3f2fb245bbec1cf94db3eb86e36ecf27943906baf",
+          "bytes": 197868
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "generationPrompt": "Drone DJI Matrice su tavolo dimostrativo con pini e tenda bianca a Villa Borghese; nessuna persona o architettura inventata. Scena non documentaria."
+    },
+    {
+      "id": "riccia-acqua-sospensione-15-ottobre-2026",
+      "article": "/notizie/riccia-acqua-sospensione-15-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di una fontana chiusa nel contesto del centro storico di Riccia; non documenta lo stato della rete idrica.",
+      "prompt": "Recognisable hill town of Riccia in Molise Italy with medieval limestone buildings and its surviving round medieval castle tower, view from a public stone water fountain in foreground with tap closed and a few water droplets. Main topic overnight municipal water supply interruption. No people, no labels.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/riccia-acqua-sospensione-15-ottobre-2026-v853-480.webp",
+          "sha256": "6d52cebb6a1c3fd80dca4af5c5062022a0ad2d386e8fd04f8c2e64da41c63dd9",
+          "bytes": 57022
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/riccia-acqua-sospensione-15-ottobre-2026-v853-800.webp",
+          "sha256": "7c27abe9a2630677ec4a45219743abe158870cb8b155fe9d93e90c22f6f93c6c",
+          "bytes": 137404
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/riccia-acqua-sospensione-15-ottobre-2026-v853-1200.webp",
+          "sha256": "8f7a5028f3963474d0039a2e0ee61a288310f77514767dc4e695028a177664e9",
+          "bytes": 246750
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "concorso-400-vigili-fuoco-prova-15-ottobre-2026",
+      "article": "/notizie/concorso-400-vigili-fuoco-prova-15-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA dell’Ergife Palace Hotel con candidati non identificati; non ritrae i partecipanti reali al concorso.",
+      "prompt": "Real Ergife Palace Hotel in Rome, recognisable modern congress-hotel exterior and approach, morning natural light, an entrance area with a few anonymous adult candidates facing toward camera carrying unmarked folders. Accurate contemporary Italy. No firefighter uniform, no exam questions, no identifiable named person.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/concorso-400-vigili-fuoco-prova-15-ottobre-2026-v853-480.webp",
+          "sha256": "c1a37defc4e13a2813e0ece39fd132ce65d70da31d3717d2e95f6c8bbebb1186",
+          "bytes": 41696
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/concorso-400-vigili-fuoco-prova-15-ottobre-2026-v853-800.webp",
+          "sha256": "2518fa0a29dbd956a52a2553fb1e20da2e142c06abcb10264660c2fd0b22c458",
+          "bytes": 91424
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/concorso-400-vigili-fuoco-prova-15-ottobre-2026-v853-1200.webp",
+          "sha256": "d5a6c6c031d72c8a23bfde28ea30bcf7ac615339dc4cd246a7954e9f87bb2458",
+          "bytes": 153686
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "asti-sicura-salute-mentale-lavoro-19-ottobre-2026",
+      "article": "/notizie/asti-sicura-salute-mentale-lavoro-19-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di piazza San Secondo ad Asti, dedicata alla settimana di prevenzione; non documenta la presentazione.",
+      "prompt": "Piazza San Secondo in Asti Italy, recognisable red brick Collegiate Church of San Secondo and civic square, autumn afternoon clear natural light. Main topic is a local week of workplace safety and prevention events. No accidents or suffering, no signage or slogans.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/asti-sicura-salute-mentale-lavoro-19-ottobre-2026-v853-480.webp",
+          "sha256": "559485cae957ea680baac6beecd63a708942dade2e2ac9fed286d19c70c39d26",
+          "bytes": 50342
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/asti-sicura-salute-mentale-lavoro-19-ottobre-2026-v853-800.webp",
+          "sha256": "5e10832a2abb5c12b8cc47d739ebe2a26abd34014a6f43392d0b468f2f45897c",
+          "bytes": 124378
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/asti-sicura-salute-mentale-lavoro-19-ottobre-2026-v853-1200.webp",
+          "sha256": "1ae42a8019421e5ee143b2a335c1d85fc80cd3c1efe1b0f2fefdf8ca1016c9da",
+          "bytes": 239942
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "meteo-oggi-15-ottobre-2026-sole-venti-weekend",
+      "article": "/notizie/meteo-oggi-15-ottobre-2026-sole-venti-weekend.html",
+      "alt": "Illustrazione editoriale IA del Tevere e di Castel Sant’Angelo con cielo poco nuvoloso; non documenta il tempo osservato oggi.",
+      "prompt": "Tevere e Castel Sant’Angelo con cielo poco nuvoloso, nessuna persona; illustrazione non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/meteo-oggi-15-ottobre-2026-sole-venti-weekend-v853-480.webp",
+          "sha256": "65541f1da41b63fbfb5e8bf741d68817e35dec988e44323c77651d9a9dfa2dfc",
+          "bytes": 54744
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/meteo-oggi-15-ottobre-2026-sole-venti-weekend-v853-800.webp",
+          "sha256": "52a12fd69447685f4755fd0ff895f7d462b51e9cb81ffb7b1808d04ec360bbe5",
+          "bytes": 137834
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/meteo-oggi-15-ottobre-2026-sole-venti-weekend-v853-1200.webp",
+          "sha256": "803ac7d9610cc8bc6d208ae71156c856e2ebc89f215efee5890d8b21ceb98426",
+          "bytes": 272172
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "generationPrompt": "Tevere e Castel Sant’Angelo con cielo poco nuvoloso, nessuna persona; illustrazione non documentaria."
+    },
     {
       "id": "irpef-meloni-33-per-cento-oltre-50mila-euro-14-ottobre-2026",
       "article": "/notizie/irpef-meloni-33-per-cento-oltre-50mila-euro-14-ottobre-2026.html",

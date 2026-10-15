@@ -1,0 +1,348 @@
+{
+  "version": 853,
+  "new_articles": 11,
+  "updated_articles": 0,
+  "new_images": 11,
+  "request": "10 articoli più meteo — apertura completa del 15 ottobre",
+  "push_executed": false,
+  "manifest_accessed": false,
+  "baseline_commit": "c024cd2c1e980936b14c57d4573770116c014481",
+  "source_list": "Fonti per la ricerca degli articoli.txt, 7 ottobre 2026",
+  "primary_access_limits": [
+    "Fonti vigili del fuoco: documenti ufficiali integrali consultati in copie ospitate da TiConsiglio.",
+    "GRIM: avviso ufficiale indicizzato, apertura in timeout; nota integrale ripresa da Molise News 24.",
+    "Viminale e Prefettura Asti: aperture non disponibili; atto comunale e cronaca della presentazione consultati.",
+    "Venezuela: comunicazione diretta delle parti non recuperata. Conferme ANSA e RTVE/EFE; esclusi i numeri controversi sui detenuti.",
+    "INGV: nessun evento urgente della notte sufficientemente verificato per un articolo; nessuna deduzione dai sismogrammi."
+  ],
+  "exclusions": [
+    "Avvisi di sciopero toscani del 14 ottobre già scaduti.",
+    "Richiesta Usa sugli asset russi: conferme insufficienti per un fatto autonomo.",
+    "Giappone, sottomarini e mercati: non inseriti senza i riscontri necessari."
+  ],
+  "corrections": [
+    "Brasile: transizione di due mesi a 42 ore e ulteriori dodici mesi a 40 dopo promulgazione.",
+    "Venezuela: avvio il 14 locale; nessuna data elettorale dichiarata come già concordata.",
+    "Asti: il calendario operativo riportato dalla presentazione copre 19–23 ottobre; il Viminale indica un quadro 19–25. Titolo limitato all’avvio il 19.",
+    "Riccia: ore 6 come termine programmato, non attestazione di effettivo ripristino.",
+    "Meteo: bollettino di allerta distinto dalla previsione; dal 19 al 22 nessun dettaglio giornaliero inventato."
+  ],
+  "format_exception": "Flash di 136–226 parole: fatti circoscritti, lunghezza proporzionata e nessun riempitivo.",
+  "image_visual_review": "Undici copertine controllate; rifinite le immagini meteo, Pedaso e dimostrazione con drone. Paesaggi e infrastrutture trattati come illustrazioni contestuali non documentarie; nessun ritratto di persona pubblica.",
+  "browser_visual_qa": "Browser Chromium non installato nel runtime; nessuna verifica visuale della pagina dichiarata. Verifiche strutturali HTML, riferimenti immagini e layout condiviso esistente.",
+  "evergreen_exception": "Nessuna nuova guida commissionata; non sono aggiunti collegamenti generici non pertinenti.",
+  "release": "2026-10-15T05:42:24+02:00",
+  "articles": [
+    {
+      "slug": "brasile-senato-settimana-40-ore-transizione-15-ottobre-2026",
+      "title": "Brasile, via libera alle 40 ore: la riduzione sarà graduale",
+      "published": "2026-10-15T05:42:24+02:00",
+      "modified": "2026-10-15T05:42:24+02:00",
+      "source_date": "2026-10-14",
+      "source_published": "2026-10-15T03:22:00+02:00",
+      "sources": [
+        {
+          "url": "https://www12.senado.leg.br/radio/1/noticia/2026/10/14/senado-aprova-pec-que-acaba-com-escala-6x1-texto-segue-para-promulgacao",
+          "nome": "Senado Federal — approvazione, transizione e ambito della PEC 221/2019, aggiornamento del 14 ottobre alle 22:19 di Brasilia."
+        },
+        {
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/15/brasile-senato-approva-proposta-di-lula-su-riduzione-orario-di-lavoro_8979cbff-0734-488a-8ec0-e22fa95d42af.html",
+          "nome": "ANSA — conferma delle due votazioni, 15 ottobre alle 03:22 italiane."
+        }
+      ],
+      "words": 204,
+      "risk": "A",
+      "original_value": "Calendario di applicazione distinto dal voto; eccezioni e ambito lavorativo, nessuna estensione all’Italia.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "no_duplicate": true,
+        "short_paragraphs": true
+      }
+    },
+    {
+      "slug": "consiglio-europeo-15-16-ottobre-energia-bilancio-2026",
+      "title": "Consiglio europeo al via: energia e bilancio 2028–2034 sul tavolo",
+      "published": "2026-10-15T05:37:24+02:00",
+      "modified": "2026-10-15T05:37:24+02:00",
+      "source_date": null,
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+          "nome": "Consiglio europeo — agenda ufficiale del vertice del 15–16 ottobre 2026."
+        }
+      ],
+      "words": 176,
+      "risk": "C",
+      "original_value": "Agenda distinta da atti già adottati e da sconti già disponibili; prossimi documenti da verificare.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "no_duplicate": true,
+        "short_paragraphs": true
+      }
+    },
+    {
+      "slug": "venezuela-terzo-dialogo-riforma-elettorale-15-ottobre-2026",
+      "title": "Venezuela, riparte il dialogo: garanzie elettorali ancora da definire",
+      "published": "2026-10-15T05:30:24+02:00",
+      "modified": "2026-10-15T05:30:24+02:00",
+      "source_date": "2026-10-14",
+      "source_published": "2026-10-15T02:32:00+02:00",
+      "sources": [
+        {
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/15/venezuela-opposizione-e-chavismo-riprendono-il-dialogo_613bc6d7-88b9-4ff4-aa56-91f93e346dd2.html",
+          "nome": "ANSA — terzo ciclo, delegazioni e temi del negoziato, 15 ottobre alle 02:32 italiane."
+        },
+        {
+          "url": "https://www.rtve.es/noticias/20261015/venezuela-eeuu-levanta-sanciones-jorge-rodriguez-hermano-delcy/17267368.shtml",
+          "nome": "RTVE / agenzie — apertura a Caracas, composizione del tavolo e portata delle sanzioni individuali, 15 ottobre alle 01:51."
+        }
+      ],
+      "words": 175,
+      "risk": "A",
+      "original_value": "Composizione del tavolo, limiti di rappresentanza e sanzione individuale distinte da accordi definitivi.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "no_duplicate": true,
+        "short_paragraphs": true
+      }
+    },
+    {
+      "slug": "treni-rocca-evandro-frecciarossa-9304-15-ottobre-2026",
+      "title": "Treni, da oggi cambia il 9304 Napoli–Torino: saltano due fermate",
+      "published": "2026-10-15T05:22:24+02:00",
+      "modified": "2026-10-15T05:22:24+02:00",
+      "source_date": null,
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.rfi.it/it/news-e-media/infomobilita/avvisi/2026/10/15/linee-milano-centrale-torino-porta-nuova---napoli-centrale--mila.html",
+          "nome": "RFI — avviso e tabelle delle variazioni per i lavori di Rocca d’Evandro, validità 15–25 ottobre 2026."
+        }
+      ],
+      "words": 182,
+      "risk": "C",
+      "original_value": "Numero del treno, date specifiche, nuovo orario e ubicazione dei bus per organizzare coincidenze.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "no_duplicate": true,
+        "short_paragraphs": true
+      }
+    },
+    {
+      "slug": "a14-pedaso-piceno-ovest-chiusura-15-ottobre-2026",
+      "title": "A14, Pedaso chiude verso Pescara dalle 22: alternativa Grottammare",
+      "published": "2026-10-15T05:13:24+02:00",
+      "modified": "2026-10-15T05:13:24+02:00",
+      "source_date": "2026-10-14",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.autostrade.it/it/comunicazione-e-media/comunicati-stampa-viabilita/-/bulletin/view/fa800736-6152-4e20-9768-9479a5b00f26",
+          "nome": "Autostrade per l’Italia — avviso del 14 ottobre: Pedaso e Piceno Ovest, orari e alternativa."
+        }
+      ],
+      "words": 161,
+      "risk": "C",
+      "original_value": "Chiusura direzionale distinta da interruzione generale; durata calcolata e alternativa operativa.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "no_duplicate": true,
+        "short_paragraphs": true
+      }
+    },
+    {
+      "slug": "a1-guidonia-chiusure-15-18-ottobre-2026",
+      "title": "A1, Guidonia chiude in due notti: cambiano le direzioni coinvolte",
+      "published": "2026-10-15T05:03:24+02:00",
+      "modified": "2026-10-15T05:03:24+02:00",
+      "source_date": "2026-10-14",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.autostrade.it/it/comunicazione-e-media/comunicati-stampa-viabilita/-/bulletin/view/54ccda27-9648-4391-9d9c-b13a5866feb2",
+          "nome": "Autostrade per l’Italia — comunicato del 14 ottobre sulle due chiusure di Guidonia Montecelio."
+        }
+      ],
+      "words": 165,
+      "risk": "C",
+      "original_value": "Confronto fra manovre interessate nelle due notti e alternativa sulla diversa autostrada A24.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "no_duplicate": true,
+        "short_paragraphs": true
+      }
+    },
+    {
+      "slug": "roma-percorsi-protezione-civile-15-18-ottobre-2026",
+      "title": "Roma, a Piazza di Siena quattro giorni con la protezione civile",
+      "published": "2026-10-15T04:52:24+02:00",
+      "modified": "2026-10-15T04:52:24+02:00",
+      "source_date": "2026-10-09",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.protezionecivile.gov.it/it/notizia/percorsi-di-protezione-civile-un-villaggio-conoscere-il-servizio-nazionale/",
+          "nome": "Dipartimento della Protezione Civile — date, orari, attività e programma ufficiale del villaggio."
+        }
+      ],
+      "words": 163,
+      "risk": "C",
+      "original_value": "Scheda di servizio con orari e calendario; esercitazioni distinte da emergenze in corso.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "no_duplicate": true,
+        "short_paragraphs": true
+      }
+    },
+    {
+      "slug": "riccia-acqua-sospensione-15-ottobre-2026",
+      "title": "Riccia, stop notturno all’acqua: il termine indicato è alle 6",
+      "published": "2026-10-15T04:40:24+02:00",
+      "modified": "2026-10-15T04:40:24+02:00",
+      "source_date": "2026-10-14",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://grimolise.it/grim-scarl-668/",
+          "nome": "GRIM — avviso ufficiale sulla sospensione del 14–15 ottobre; testo indicizzato, apertura diretta non disponibile."
+        },
+        {
+          "url": "https://www.molisenews24.it/riccia-sospensione-del-flusso-idrico-il-14-e-15-ottobre-2026-139802.html",
+          "nome": "Molise News 24 — riproduzione della nota GRIM del 14 ottobre con orari e contatto di assistenza."
+        }
+      ],
+      "words": 136,
+      "risk": "C",
+      "original_value": "Orario programmato distinto da effettivo ripristino, causa e assistenza del gestore.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "no_duplicate": true,
+        "short_paragraphs": true
+      }
+    },
+    {
+      "slug": "concorso-400-vigili-fuoco-prova-15-ottobre-2026",
+      "title": "Concorso 400 vigili del fuoco, oggi tre turni: documenti e punteggi",
+      "published": "2026-10-15T04:27:24+02:00",
+      "modified": "2026-10-15T04:27:24+02:00",
+      "source_date": "2026-10-12",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://www.ticonsiglio.com/wp-content/uploads/2026/09/concorso-400-vigili-fuoco-diario-prova-preselettiva.pdf",
+          "nome": "Dipartimento dei Vigili del fuoco — diario ufficiale del 28 settembre, copia del documento con turni, sede e procedure."
+        },
+        {
+          "url": "https://www.ticonsiglio.com/wp-content/uploads/2026/10/concorso-vigili-del-fuoco-informazioni-prova-preselettiva-punteggi.pdf",
+          "nome": "Dipartimento dei Vigili del fuoco — avviso ufficiale del 12 ottobre, copia del documento su durata, punteggi e calcolatrice."
+        }
+      ],
+      "words": 201,
+      "risk": "C",
+      "original_value": "Turni per cognome e procedura; calcolo originale del costo di dieci errori rispetto alle omissioni.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "no_duplicate": true,
+        "short_paragraphs": true
+      }
+    },
+    {
+      "slug": "asti-sicura-salute-mentale-lavoro-19-ottobre-2026",
+      "title": "Asti Si’cura dal 19 ottobre: al centro anche il benessere sul lavoro",
+      "published": "2026-10-15T04:13:24+02:00",
+      "modified": "2026-10-15T04:13:24+02:00",
+      "source_date": "2026-10-14",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://net.comune.asti.it/cmsasti/portale/albopretorio/albopretorioconsultazione.aspx?P=400&S=200&U=1",
+          "nome": "Comune di Asti — albo pretorio, deliberazione di Giunta 393 del 6 ottobre sul convegno del 22 ottobre."
+        },
+        {
+          "url": "https://www.lavocediasti.it/2026/10/14/leggi-notizia/argomenti/attualita-15/articolo/asti-sicura-una-settimana-per-mettere-al-centro-la-salute-mentale-sul-lavoro.html",
+          "nome": "La Voce di Asti — resoconto della presentazione e calendario, 14 ottobre alle 11:25."
+        }
+      ],
+      "words": 163,
+      "risk": "C",
+      "original_value": "Calendario pratico e requisito di prenotazione dell’evento conclusivo, supporto di un atto comunale.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "no_duplicate": true,
+        "short_paragraphs": true
+      }
+    },
+    {
+      "slug": "meteo-oggi-15-ottobre-2026-sole-venti-weekend",
+      "title": "Meteo oggi 15 ottobre, sole e clima mite: cambia nel weekend",
+      "published": "2026-10-15T03:57:24+02:00",
+      "modified": "2026-10-15T03:57:24+02:00",
+      "source_date": "2026-10-14",
+      "source_published": null,
+      "sources": [
+        {
+          "url": "https://mappe.protezionecivile.it/it/mappe-rischi/bollettino-di-criticita/",
+          "nome": "Dipartimento della Protezione Civile — bollettino del 14 ottobre, ore 13:44, valido anche per il 15 ottobre."
+        },
+        {
+          "url": "https://www.meteo.it/notizie/meteo-anticiclone-fino-a-venerdi-16-poi-peggioramento-e6d3b624",
+          "nome": "Meteo.it — previsione professionale per 15–16 ottobre e tendenza del fine settimana, 14 ottobre ore 12:44."
+        }
+      ],
+      "words": 226,
+      "risk": "C",
+      "original_value": "Previsione distinta dal bollettino di allerta; tendenza weekend e limite esplicito per i giorni successivi.",
+      "editorial_checks": {
+        "facts": true,
+        "sources": true,
+        "headline": true,
+        "original_value": true,
+        "no_duplicate": true,
+        "short_paragraphs": true
+      }
+    }
+  ],
+  "technical_repair": "Predeploy: la data della card Domanda del giorno deve coincidere con quella della pagina collegata e non essere futura. Non si impone una domanda nuova senza il titolo fornito dall’editore (AGENTS.md, 6 ottobre).",
+  "technical_checks": {
+    "repository_integrity": "pass",
+    "adsense_deploy_gate": "pass",
+    "predeploy": "pass",
+    "predeploy_errors": [],
+    "webp_variants": 33,
+    "image_hashes": "pass",
+    "surfaces": "pass",
+    "zip_publication_status": "prepared_not_pushed"
+  },
+  "prepared_release": "2026-10-15T05:35:31+02:00"
+}
