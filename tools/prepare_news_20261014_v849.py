@@ -132,23 +132,11 @@ def finish_page(article, release):
                 for item in article["correlati"][:3]:
                     link = etree.SubElement(grid, "a", href=item["url"])
                     etree.SubElement(link, "strong").text = item["titolo"]
-    # Stessa evidenziazione blu delle card, senza modificare il testo del titolo.
+    # Il titolo in pagina resta di un solo colore. Il blu è solo sulla card in homepage.
     h1 = doc.xpath('//main//h1[1]')[0]
     for child in list(h1):
         h1.remove(child)
-    title = article["titolo"]
-    keys = article["parole_chiave_titolo"]
-    import re
-    pattern = re.compile("(" + "|".join(re.escape(k) for k in keys) + ")", re.I)
-    parts = pattern.split(title)
-    h1.text = parts[0]
-    for part in parts[1:]:
-        if pattern.fullmatch(part):
-            etree.SubElement(h1, "span", {"style": "color:#0091FF"}).text = part
-        elif len(h1):
-            h1[-1].tail = (h1[-1].tail or "") + part
-        else:
-            h1.text = (h1.text or "") + part
+    h1.text = article["titolo"]
     save(path, doc)
 
 

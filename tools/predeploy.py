@@ -699,6 +699,13 @@ try:
 except Exception as exc:
     errors.append(f'controllo carosello approfondimenti non eseguibile: {exc}')
 
+# Titolo in pagina: un solo colore. Il blu resta soltanto sulla card in homepage.
+for news_file in sorted((root/'notizie').glob('*.html')):
+    if news_file.name=='index.html': continue
+    h1s=re.findall(r'<h1\b[^>]*>.*?</h1>', news_file.read_text(errors='replace'), flags=re.I|re.S)
+    if any(re.search(r'color\s*:', h1, re.I) for h1 in h1s):
+        errors.append(f'titolo colorato vietato: notizie/{news_file.name}')
+
 report={'version':284,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
 print(json.dumps(report,ensure_ascii=False,indent=2))
 raise SystemExit(1 if errors else 0)
