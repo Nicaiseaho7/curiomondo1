@@ -1,0 +1,305 @@
+{
+  "version": 854,
+  "repository": "Nicaiseaho7/curiomondo1",
+  "branch": "main",
+  "base_commit": "4fcf384be8264ae0c3766b0b9b401ef426b6a90d",
+  "new_articles": 2,
+  "updated_articles": 2,
+  "new_images": 4,
+  "webp_files": 12,
+  "push_executed": false,
+  "live_validation_executed": false,
+  "manifest_excluded": true,
+  "predeploy": "PASS --exclude-manifest",
+  "files": [
+    {
+      "path": "CURIOMONDO-RELEASE-STATE.json",
+      "sha256": "591d758714bea79e4d17c57c747adfb535d9694ee405057aa7df4b4fe3862b87",
+      "bytes": 1424,
+      "base_sha256": "8b4e19b522629a85e655f1ec976834bc425f6a9c8543457c52387c22f45fa68e",
+      "action": "replace"
+    },
+    {
+      "path": "LEGGIMI-V854.md",
+      "sha256": "3222822d142e454a002c5c4af5b711a1cbf6f5c85c4d529b20d6a8b3f7d16889",
+      "bytes": 4297,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/data/editorial-images-v210.json",
+      "sha256": "5dbaabfc716bd6677ba93c78b429a5b7293771838e275510e4e497caab29df49",
+      "bytes": 1974989,
+      "base_sha256": "f7a5bb7fc4ebe09cac4ead308ab6f262c93cf54e244d9ad10c4220fa6a8556f2",
+      "action": "replace"
+    },
+    {
+      "path": "assets/data/frasi-nome.json",
+      "sha256": "a8ccf62bbee8aa1d416934736511961ed4c589897190379f2a08c352d325a0e1",
+      "bytes": 65964,
+      "base_sha256": "2b86fffa3af18a0cee61bd7fdd737b396d061bbb325543ca04e8b113a55ad9d3",
+      "action": "replace"
+    },
+    {
+      "path": "assets/data/home-feed-v210.json",
+      "sha256": "fc6fde291be3154a70329d1eab6b004ba78169d1118eaa0ca2db3789f0d71f1e",
+      "bytes": 1823084,
+      "base_sha256": "3ae5545781a7220fe45fa13b0c9fd1f41e4e6c1a05795f4e0b59c28a0ab54182",
+      "action": "replace"
+    },
+    {
+      "path": "assets/data/search-index-v210.json",
+      "sha256": "8291564e81c61a6ad7890bbd222567c30ad1da45c6965e66bcef89edf3bd4603",
+      "bytes": 563716,
+      "base_sha256": "dc17ee8adc65c6e8cb62dc0482a5159ebcf73d563a12dae9aaba6eb530035a08",
+      "action": "replace"
+    },
+    {
+      "path": "assets/images/editorial-auto/consiglio-europeo-15-16-ottobre-energia-bilancio-2026-v854-1200.webp",
+      "sha256": "12b4aaa1891012dcf110923ee8620e2e11b693a6225ee1796a22c75ca05c80dd",
+      "bytes": 108506,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/consiglio-europeo-15-16-ottobre-energia-bilancio-2026-v854-480.webp",
+      "sha256": "624fa7771f64b5493674e6dff8efa77cd5742ce88969148e4ca65cd70e81d735",
+      "bytes": 31140,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/consiglio-europeo-15-16-ottobre-energia-bilancio-2026-v854-800.webp",
+      "sha256": "d79fb562df9fd140020277d91c40beaae524a0b42f83cabb4b260655e5475f70",
+      "bytes": 61990,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/hormuz-gfs-pride-affondata-giselle-14-ottobre-2026-v854-1200.webp",
+      "sha256": "39b9f4278bb192a4908768841971c6fc5d708dbdf5906ceb3735b1f9731e2f2e",
+      "bytes": 177120,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/hormuz-gfs-pride-affondata-giselle-14-ottobre-2026-v854-480.webp",
+      "sha256": "9a43588db95e615a7666812813510d68b09a10f99e8acbb6e2abf1e2951c6126",
+      "bytes": 33066,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/hormuz-gfs-pride-affondata-giselle-14-ottobre-2026-v854-800.webp",
+      "sha256": "0e5b4b2ea96fb481a6765269e412e03f4d834b4dccb3207a120961b47426bffc",
+      "bytes": 87116,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v854-1200.webp",
+      "sha256": "c58ac61a5c3f1c10a891a533580c2281dae7f182a206d4d009ef6aa4454702e7",
+      "bytes": 32998,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v854-480.webp",
+      "sha256": "aa2ce1692b00ccfff4887dc70abe525c4f8efaedbca258822ae5c963ff30b484",
+      "bytes": 7972,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v854-800.webp",
+      "sha256": "fc686f8fff36e8b16659d92da2a51c7b3bdb8af69fc7292a62563d9790a01e08",
+      "bytes": 17326,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/ucraina-starlink-restrizioni-droni-14-ottobre-2026-v854-1200.webp",
+      "sha256": "9448d64033b545260398571abfd53b12a046e98fd860e2f1cdc62b423de560aa",
+      "bytes": 191398,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/ucraina-starlink-restrizioni-droni-14-ottobre-2026-v854-480.webp",
+      "sha256": "f0f43e51d78d8b7f1c022cca78699415c917b3e4fc5f4893a988ef2b165f8053",
+      "bytes": 42778,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "assets/images/editorial-auto/ucraina-starlink-restrizioni-droni-14-ottobre-2026-v854-800.webp",
+      "sha256": "b2112036ea8bd86ee49a8dc85dd5cdbda8b94ca313bad41c566226bfe51ddd55",
+      "bytes": 102232,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "categorie/cronaca/index.html",
+      "sha256": "fa626e389a55fa0d63884c53b104d7535a178c7a99e2d2d8c3530cf133a2b2e9",
+      "bytes": 152176,
+      "base_sha256": "f810b7af496d572203d64c2d2df114386eb6415887f1a743927e6e928902cadf",
+      "action": "replace"
+    },
+    {
+      "path": "categorie/cultura/index.html",
+      "sha256": "cba7ee41ec87d4815025d8124bd1285471cdb2b828e88836a6099d0911750d1e",
+      "bytes": 49979,
+      "base_sha256": "77a9911c0588322b5fb9ec907db689b648410551a8b58912fc5f2ecb9e734643",
+      "action": "replace"
+    },
+    {
+      "path": "categorie/economia/index.html",
+      "sha256": "cfbe48744f9c98d5edbfbfd2aa149fcd6ba9f6739e54b5f132e4f78b1e2d0431",
+      "bytes": 154483,
+      "base_sha256": "ee5b7792ae70324f1f8aa7a0e80cb2799e8e40254d336dc48e6c2310d379438b",
+      "action": "replace"
+    },
+    {
+      "path": "categorie/film-serie-tv/index.html",
+      "sha256": "5b3a364eaab0c541c1ade20de7921ce4020424c49b4f57cbf8967879a9ddb36f",
+      "bytes": 42281,
+      "base_sha256": "efcbd0ed21cff15c11e1a3faa824d350b95f3ecc6fb26d6b13b9a5be9e0e8308",
+      "action": "replace"
+    },
+    {
+      "path": "categorie/italia/index.html",
+      "sha256": "c891cf59833d77c6fd0a0a98eeded87b1ea884acca50cc36f0a59903151308af",
+      "bytes": 600441,
+      "base_sha256": "f3fa8befe0f0b314818c89f2cc84b9f202d35403e6ddd41bc3788a7a8dca7964",
+      "action": "replace"
+    },
+    {
+      "path": "categorie/meteo/index.html",
+      "sha256": "4641d23ad8ca9aeeb4929c2ef21a420864e3c00c7d72cb3f1e608f70482819ea",
+      "bytes": 32480,
+      "base_sha256": "22d811a3e34d5b079e0fe39e35e3c52d1eba0ac3a271bfa181b7e24989420888",
+      "action": "replace"
+    },
+    {
+      "path": "categorie/mondo/index.html",
+      "sha256": "cb19d1585dd588a7e508529a89da6ccec02678dab415ddaa7f44d72ea38f010b",
+      "bytes": 420993,
+      "base_sha256": "2093bff3b37d22f13132ad215c816c5a77231aa9228e8227e04e5eac56da7524",
+      "action": "replace"
+    },
+    {
+      "path": "categorie/politica/index.html",
+      "sha256": "067e0b18f2fb2d0e147fb98b7df9eee75ce6b2fb9920c64ea17e7fb94bca3c2d",
+      "bytes": 143756,
+      "base_sha256": "863fa72055422929aa51c736da2a3886caf88583958d447eca93dd7913796bc0",
+      "action": "replace"
+    },
+    {
+      "path": "categorie/scienza/index.html",
+      "sha256": "b40e30b8af8089304e9b1ce3b3ca1125e65a0d9db5264512387ce7eb91fa3b2e",
+      "bytes": 74154,
+      "base_sha256": "4720403bfd86d84a3f4bac45a0610eabc94b264c9b1a9b8d81960d4276a0d3b1",
+      "action": "replace"
+    },
+    {
+      "path": "categorie/sport/index.html",
+      "sha256": "a88fe759ef7ed8c0a25969e44d7ff4268ffd9a45c9ff598809ed55c4e7fce129",
+      "bytes": 185222,
+      "base_sha256": "1a682ae9cfd3bd7aeb7512cfcd38cc5585445d3a17164c3d0c02d9abadb2f959",
+      "action": "replace"
+    },
+    {
+      "path": "feed.xml",
+      "sha256": "43a9c21ea6978925d8623dc82d116f2230b83b013847ba4c2fa7b5b9b20703b5",
+      "bytes": 730225,
+      "base_sha256": "48919f4b08ac91396616de8f20658ea32b7d6a9f9f9319f40cfb3a49a81bf29a",
+      "action": "replace"
+    },
+    {
+      "path": "index.html",
+      "sha256": "904f6cb9a6424492f314d240915619ef32e61b13553e5d030efcb536989000b2",
+      "bytes": 265553,
+      "base_sha256": "8629196a8ab2e1d2bd7aecc29b3caf9b10bac4fd612e1cebc1121d2056ea81eb",
+      "action": "replace"
+    },
+    {
+      "path": "news-sitemap.xml",
+      "sha256": "1ffcb9c6cdcb2017c5099e0fdfcc194183025bd9988d5386efe40a9655ffe9d7",
+      "bytes": 30758,
+      "base_sha256": "09c62ae5ef8964d0dc55bea6515f1c9d62abf7ad7cfe7e212cca63f0f1b175e2",
+      "action": "replace"
+    },
+    {
+      "path": "notizie/consiglio-europeo-15-16-ottobre-energia-bilancio-2026.html",
+      "sha256": "117c0614618d2de6bb52297ca7d76a7cb48e16db8a310a46cb7d9ced7242e6df",
+      "bytes": 8600,
+      "base_sha256": "6d32ad316f86d295223261ea4ccac3feba53203ee7f8acdc564041a2c0243cee",
+      "action": "replace"
+    },
+    {
+      "path": "notizie/hormuz-gfs-pride-affondata-giselle-14-ottobre-2026.html",
+      "sha256": "9920f06aec68795e685904811cc2c66990434ea7b73e0654d4c212abdcecedf7",
+      "bytes": 8390,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "notizie/index.html",
+      "sha256": "a615ac99df50f34344731728f3de882cf2aa0cf2315083a1ef741dd22300f0e5",
+      "bytes": 252670,
+      "base_sha256": "9320f47bb865c4de8c5b1bd1bb103fff1bd11303d6d48666ac7f35686dd09d90",
+      "action": "replace"
+    },
+    {
+      "path": "notizie/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026.html",
+      "sha256": "37255e5ec03778ea6f46064f4f8a8a063f4e9c7008865c4c4cafcd3d932ada30",
+      "bytes": 8332,
+      "base_sha256": "5c8b906b5b5f5ad83492c73ae2fa61f1dbcd652973cb43b473ca41fce6380b31",
+      "action": "replace"
+    },
+    {
+      "path": "notizie/ucraina-starlink-restrizioni-droni-14-ottobre-2026.html",
+      "sha256": "410e215aea858bb6122d90c25adf20d75585f5f0a6112e8d33765bb7e54cab92",
+      "bytes": 8450,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "bc9de5ed6bc6fdf2c69ef059bd0208253bc7527d3169bd69d18db2877bd6ddf1",
+      "bytes": 240789,
+      "base_sha256": "caac550df4b8dff72d098466a616e2ebf69948e86046c6fe70472505d4044fe8",
+      "action": "replace"
+    },
+    {
+      "path": "tools/news_audit_20261015_v854.json",
+      "sha256": "21fe871d458e03b1f9617e57426191fd19da249ab49fd2fb00fc92483a30c0d9",
+      "bytes": 16651,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "tools/news_batch_20261015_v854.json",
+      "sha256": "8f9dc729a734eeac2d4976b40e9384bf33591f4bb7978ebafd413a233ea2006e",
+      "bytes": 13631,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "tools/news_images_20261015_v854.json",
+      "sha256": "7e0ea7737233c8b3dbd661389fe38c816870d19153ed42f367f5e1d367eea71f",
+      "bytes": 2515,
+      "base_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "tools/prepare_news_20261015_v854.py",
+      "sha256": "e559e350bd60abfcaa07faf40223733cd5fdd1fd747548bc0d9d013942d02072",
+      "bytes": 5961,
+      "base_sha256": null,
+      "action": "add"
+    }
+  ],
+  "self_file": "PACCHETTO-V854.json",
+  "readme": "LEGGIMI-V854.md"
+}
