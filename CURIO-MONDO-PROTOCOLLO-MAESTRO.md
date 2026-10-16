@@ -72,7 +72,7 @@ In **ogni** pagina articolo il nome del sito deve essere **identico**: testo `Cu
 ### Pensiero con il nome — obbligatorio su ogni pagina notizia (30 settembre 2026)
 Ogni pagina in `/notizie/` porta, in fondo alla pagina e fuori dal corpo della notizia, un nome italiano e una frase breve. Vale per gli articoli già pubblicati e per ogni notizia nuova. Non va in homepage, biblioteca, curiosità, meteo di servizio o pagine istituzionali. Non sta nell’header e non modifica il logo.
 
-Il blocco è un piccolo riquadro distinto, l’ultimo elemento visibile di `<main>`, dopo le fonti. È un `<aside>`, non un paragrafo dell’articolo e non entra nel JSON-LD. Il testo è HTML vero, leggibile da persone e da Google: non è un’immagine, non è nascosto, non è pubblicità.
+Il blocco è un piccolo riquadro distinto, l’ultimo elemento visibile di `<main>`. Sta dopo le fonti e, quando c’è, dopo «Potrebbe interessarti anche». Non va mai sopra i correlati: lo script che li inserisce li mette prima del pensiero, mai dopo. È un `<aside>`, non un paragrafo dell’articolo e non entra nel JSON-LD. Il testo è HTML vero, leggibile da persone e da Google: non è un’immagine, non è nascosto, non è pubblicità.
 
 In cima al riquadro c’è la riga «Un pensiero per» e, sotto, il nome. Poi la frase. Esempio, non da ricopiare: **Un pensiero per Valentina** — Oggi hai già fatto abbastanza.
 

@@ -100,8 +100,12 @@
       section=document.createElement('section');section.className='curio-related';section.setAttribute('aria-labelledby','curio-related-title');
       const heading=document.createElement('h2');heading.id='curio-related-title';heading.textContent='Potrebbe interessarti anche…';
       const grid=document.createElement('div');grid.className='curio-related-grid';section.append(heading,grid);
-      document.querySelector('main.wrap')?.append(section);
+      const main=document.querySelector('main.wrap');
+      const thought=main?.querySelector('.cm-name-card');
+      if(thought)thought.before(section);else main?.append(section);
     }
+    const thought=document.querySelector('main.wrap .cm-name-card');
+    if(thought&&(thought.compareDocumentPosition(section)&Node.DOCUMENT_POSITION_FOLLOWING))thought.before(section);
     let grid=section.querySelector('.curio-related-grid,.cm-related-grid');
     if(!grid){grid=document.createElement('div');grid.className='curio-related-grid';section.append(grid);}
     const relatedHeading=section.querySelector('h2');if(relatedHeading)relatedHeading.textContent='Potrebbe interessarti anche…';
