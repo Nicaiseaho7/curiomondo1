@@ -1,0 +1,176 @@
+{
+  "version": 859,
+  "new_articles": 5,
+  "updated_articles": 2,
+  "new_images": 5,
+  "request": "Aggiornamenti del 16 ottobre: cronaca giudiziaria, proteste, Flotilla, Napoli, sport; bollettini Papa e autotrasporto.",
+  "push_executed": false,
+  "manifest_accessed": false,
+  "baseline_commit": "1e51ff3d2e8ab3e6a47f26ef69c167eea9ea4931",
+  "source_list": "Fonti indicate in ciascun articolo; materiali di riferimento allegati dall’utente.",
+  "exclusions": [
+    "Manovra, ETS e vertice UE non duplicati: pagine di contesto sono già presenti e le segnalazioni non aggiungevano un nuovo atto conclusivo.",
+    "Il Consiglio UE e la richiesta di Starlink sono trattati nei contenuti Ucraina/UE già presenti.",
+    "Scioperi EasyJet, scuola e vigili del fuoco non ripubblicati: copertura del 16 ottobre già presente; cortei aggiornati con la notizia torinese."
+  ],
+  "corrections": [
+    "Rinvio a giudizio non equivale a condanna.",
+    "Contestazioni della Procura sulla Flotilla presentate come ipotesi investigative.",
+    "Incendio: cause non attribuite, nessun ferito secondo i primi aggiornamenti.",
+    "Proteste trasporto: segnalati gli effetti territoriali distinti, non un blocco nazionale uniforme."
+  ],
+  "image_visual_review": "Cinque copertine originali controllate; immagini non documentarie, scena sensibile trattata con neutralità.",
+  "browser_visual_qa": "Da completare dopo i gate.",
+  "format_exception": "Flash proporzionati a fatti circoscritti, senza riempitivo.",
+  "evergreen_exception": "Collegamento di tutela aggiunto alla pagina sul procedimento giudiziario.",
+  "release": "2026-10-16T14:59:35+02:00",
+  "articles": [
+    {
+      "slug": "basciano-rinviato-giudizio-stalking-sophie-codegoni-gennaio-2027",
+      "title": "Sophie Codegoni, Alessandro Basciano a processo per stalking: udienza il 20 gennaio",
+      "published": "2026-10-16T14:59:35+02:00",
+      "modified": "2026-10-16T14:59:35+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/16/atti-persecutori-contro-la-ex-dj-basciano-rinviato-a-giudizio_7bf31cd5-538d-4883-bc7b-a789fa5f226a.html",
+          "nome": "ANSA — rinvio a giudizio e data del processo"
+        },
+        {
+          "url": "https://milano.corriere.it/notizie/cronaca/26_ottobre_16/stalking-a-sophie-codegoni-alessandro-basciano-rinviato-a-giudizio-per-atti-persecutori-processo-il-20-gennaio-505364c9-d001-476c-8095-09b36d1a4xlk.shtml",
+          "nome": "Corriere della Sera — conferma del rinvio a giudizio e udienza del 20 gennaio"
+        }
+      ],
+      "words": 133,
+      "risk": "A",
+      "original_value": "Distingue l’accusa dal rinvio a giudizio, riporta la data del processo e indica risorse pubbliche di tutela.",
+      "updated": false
+    },
+    {
+      "slug": "flotilla-roma-indagine-katz-tortura-sequestro-ottobre-2026",
+      "title": "Flotilla, indagine a Roma: contestati tortura e sequestro, indagato Katz",
+      "published": "2026-10-16T14:54:35+02:00",
+      "modified": "2026-10-16T14:54:35+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/16/assalto-alla-flotilla-indagato-a-roma-anche-il-ministro-della-difesa-katz_b61ef702-0fab-435f-be93-603087aa19b3.html",
+          "nome": "ANSA — iscrizione di Katz e ipotesi di reato riferite dalla Procura"
+        },
+        {
+          "url": "https://www.rainews.it/articoli/2026/10/le-missioni-della-flotilla-i-pm-di-roma-trattamenti-degradanti-tortura-e-sequestro-di-persona-a59528c2-3bab-4a7b-9528-03e5d5ef0e5b.html",
+          "nome": "RaiNews — indagine romana e denunce degli attivisti"
+        }
+      ],
+      "words": 130,
+      "risk": "A",
+      "original_value": "Accorpa le notizie duplicate e distingue in modo esplicito le ipotesi della Procura dagli accertamenti giudiziari.",
+      "updated": false
+    },
+    {
+      "slug": "napoli-incendio-capannone-via-brin-nessun-ferito-16-ottobre-2026",
+      "title": "Napoli, incendio in un capannone di via Brin: nessun ferito",
+      "published": "2026-10-16T14:47:35+02:00",
+      "modified": "2026-10-16T14:47:35+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://tg24.sky.it/cronaca/2026/10/16/incendio-napoli-oggi",
+          "nome": "Sky TG24 — intervento dei soccorsi e area interessata"
+        },
+        {
+          "url": "https://www.ansa.it/sito/videogallery/short_video/2026/10/16/maxi-incendio-in-un-capannone-industriale-a-napoli-nessun-ferito_891e2fba-68ae-4e5a-ac13-44c59352107f.html",
+          "nome": "ANSA — nessun ferito e intervento dei vigili del fuoco"
+        }
+      ],
+      "words": 113,
+      "risk": "B",
+      "original_value": "Fornisce localizzazione e stato dei soccorsi senza attribuire cause non accertate.",
+      "updated": false
+    },
+    {
+      "slug": "no-meloni-day-cortei-studenti-torino-docenti-16-ottobre-2026",
+      "title": "No Meloni Day, cortei studenteschi in Italia: tensioni a Torino",
+      "published": "2026-10-16T14:39:35+02:00",
+      "modified": "2026-10-16T14:39:35+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/16/gli-studenti-in-piazza-cortei-in-tutta-italia.-a-torino-lancio-di-sassi-contro_1e152b63-e67e-4efd-9ec7-0ca3507f55e3.html",
+          "nome": "ANSA — cortei nazionali e tensioni a Torino"
+        },
+        {
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/15/docenti-del-liceo-berti-di-torino-loccupazione-ha-un-valore_2e20d8df-de9d-4b9b-be26-71a61c429afb.html",
+          "nome": "ANSA — posizione dei docenti torinesi sulle mobilitazioni studentesche"
+        }
+      ],
+      "words": 148,
+      "risk": "B",
+      "original_value": "Riassume il fatto locale e il contesto nazionale senza amplificare tensioni o attribuire condotte non verificate.",
+      "updated": false
+    },
+    {
+      "slug": "jonathan-milan-oro-mondiale-inseguimento-ganna-bronzo-16-ottobre-2026",
+      "title": "Mondiali su pista, Jonathan Milan è oro nell’inseguimento: bronzo per Ganna",
+      "published": "2026-10-16T14:30:35+02:00",
+      "modified": "2026-10-16T14:30:35+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://tg24.sky.it/sport/2026/10/16/mondiali-ciclismo-pista-medaglie-italia",
+          "nome": "Sky TG24 — risultato finale, record e medaglie italiane"
+        },
+        {
+          "url": "https://www.federciclismo.it/",
+          "nome": "Federazione Ciclistica Italiana — cronaca delle qualificazioni e record mondiale"
+        }
+      ],
+      "words": 131,
+      "risk": "C",
+      "original_value": "Riunisce risultato, record e medaglia di Ganna con tempi verificati e contesto della prova.",
+      "updated": false
+    },
+    {
+      "slug": "papa-leone-buona-ripresa-polmone-viaggio-sudamerica-15-ottobre-2026",
+      "title": "Leone XIV, esami e radiografia confermano il miglioramento dopo l’intervento",
+      "published": "2026-10-15T17:45:58+02:00",
+      "modified": "2026-10-16T14:59:35+02:00",
+      "source_date": null,
+      "sources": [
+        {
+          "url": "https://apnews.com/article/vatican-pope-surgery-leo-cancer-angelus-hospital-aee51a1005491f20276902b66b6f574e",
+          "nome": "Associated Press — esami, fisioterapia e recupero del Papa"
+        },
+        {
+          "url": "https://www.reuters.com/world/pope-leo-showing-steady-improvement-after-lung-cancer-surgery-vatican-says-2026-10-16/",
+          "nome": "Reuters — bollettino vaticano e miglioramento costante"
+        }
+      ],
+      "words": 132,
+      "risk": null,
+      "original_value": null,
+      "updated": true
+    },
+    {
+      "slug": "caro-gasolio-conftrasporto-rischio-fermo-nazionale-15-ottobre-2026",
+      "title": "Caro gasolio, proteste dei tir al Sud: tavolo di governo il 27 ottobre",
+      "published": "2026-10-15T18:09:58+02:00",
+      "modified": "2026-10-16T14:59:35+02:00",
+      "source_date": null,
+      "sources": [
+        {
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/15/sale-lallarme-carburanti-il-governo-convoca-lautotrasporto_0a0d0be1-020f-4955-8dbb-84592524f1bf.html",
+          "nome": "ANSA — tavolo del 27 ottobre e proteste nel Mezzogiorno"
+        },
+        {
+          "url": "https://tg24.sky.it/cronaca/2026/10/16/protesta-tir-caro-carburante-news",
+          "nome": "Sky TG24 — modalità dei presidi in Calabria e fermo in Sicilia"
+        }
+      ],
+      "words": 167,
+      "risk": null,
+      "original_value": null,
+      "updated": true
+    }
+  ]
+}
