@@ -1,5 +1,18 @@
 # Protocollo redazione corpo articolo — CurioMondo
 
+## REVISIONE PERMANENTE — VALORE ORIGINALE CURIOMONDO (16 ottobre 2026)
+
+**Stato:** obbligatorio, fail-closed e prevalente sul corpo delle notizie rispetto a ogni indicazione incompatibile di questo file, inclusa la preferenza per il flash corto.
+
+**Obiettivo:** `.art-body` non è il riassunto di una fonte. Deve mostrare un contributo originale verificabile.
+
+1. **Divieto di riscrittura pura.** Un corpo che parafrasa o riassume una sola fonte (agenzia, comunicato, altra testata) non si pubblica. Esito: `NON PUBBLICARE — solo riscrittura`.
+2. **Contributo originale obbligatorio.** Nel corpo della notizia standard devono essere riconoscibili almeno due elementi concreti e non generici, tra: contesto extra non già nella fonte; cosa cambia in pratica per chi legge; un angolo o una domanda specifica; un collegamento utile a un approfondimento CurioMondo già esistente; la distinzione tra fatto accertato, dichiarazione e ipotesi.
+3. **Soglia.** Senza due elementi, e senza inventare o allungare, non pubblicare.
+4. **Lunghezza e sostanza.** Preferenza: **500–700 parole** contate solo in `.art-body`. Vietato riempire con ripetizioni, definizioni o contesti generici. Flash solo per fatti estremamente circoscritti e con almeno un elemento di valore. Le fasce 250–450, 700–1.200 e 1.200–2.200 parole restano nel file come orientamento tecnico del protocollo 4.0 e non autorizzano il pezzo corto di routine.
+5. **Voce.** Italiano chiaro, professionale e diretto. Niente meta-commenti, formule da chatbot o chiusure generiche. Le fonti restano in «Fonti consultate»; nel corpo l'attribuzione è solo narrativa.
+6. **Prevalenza.** Questa revisione prevale sulle fasce che, più sotto, descrivono il flash come formato ordinario. Non si inventano fatti. Gli approfondimenti restano ad almeno 1.800 parole di sostanza. Ogni nuova notizia deve superare queste regole prima della pubblicazione.
+
 **Stato:** obbligatorio, fail-closed  
 **Data:** 22 settembre 2026  
 **Prevalenza scrittura:** `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` (v502) e `PROTOCOLLO-ARTICOLI-PREMIUM.md` (v1.0). Questo file resta il contratto tecnico del markup pubblico. Non sostituisce il protocollo qualità, il protocollo immagini né il gate di rischio v471.
@@ -31,6 +44,8 @@ Nel corpo pubblico non devono mai comparire appunti interni, verifiche automatic
 La lunghezza dipende dalla materia verificata. Vietato allungare per quota.
 
 Orientamento per i nuovi articoli secondo il protocollo premium, mai obiettivo da riempire:
+
+Orientamento storico, non più formato ordinario delle notizie dal 16 ottobre 2026. Prevale la revisione «Valore originale CurioMondo» in apertura: preferenza 500–700 parole di corpo senza filler; flash solo per un fatto estremamente circoscritto.
 
 - flash verificato: circa 250–450 parole;
 - notizia completa: circa 700–1.200 parole;

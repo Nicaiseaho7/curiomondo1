@@ -1,5 +1,19 @@
 # CURIOMONDO — PROFESSIONAL NEWS WRITING STANDARD
 
+## REVISIONE PERMANENTE — VALORE ORIGINALE CURIOMONDO (16 ottobre 2026)
+
+**Stato:** obbligatorio, fail-closed e prevalente su ogni regola di scrittura incompatibile di questo file, comprese le indicazioni che trattano il flash sotto le 300 parole come formato ordinario.
+
+**Obiettivo:** il testo non deve essere la riscrittura di un'agenzia, di un comunicato o di un'altra testata. CurioMondo è una testata con voce propria.
+
+1. **Divieto di riscrittura pura.** È vietato pubblicare un articolo che sia soltanto la parafrasi o il riassunto di una singola fonte. Se l'unica materia è un comunicato o un pezzo di agenzia senza elementi aggiuntivi verificati, l'esito è `NON PUBBLICARE — solo riscrittura`.
+2. **Contributo originale obbligatorio.** Ogni notizia standard contiene almeno due elementi concreti, documentati e non generici, scelti tra: contesto extra verificato che non è già nella fonte (precedente, confronto, limite del dato, conseguenza pratica per il lettore italiano); spiegazione pratica di cosa cambia (date, requisiti, come fare, cosa non è ancora noto); un angolo o una domanda specifica, non la sola cronaca; un collegamento utile e non ridondante a un approfondimento CurioMondo già esistente; la distinzione esplicita tra fatto accertato, dichiarazione e ipotesi.
+3. **Soglia.** Se i due elementi non ci sono senza inventare o allungare, non pubblicare.
+4. **Lunghezza e sostanza.** Preferenza per le notizie standard: **500–700 parole** di corpo, solo testo in `.art-body`. Vietato arrivare alla lunghezza con ripetizioni, contesti generici, definizioni inutili o riempitivi. Il flash è ammesso solo per un fatto estremamente circoscritto e con almeno un elemento di valore. Altrimenti il formato è standard. Senza contributo originale e senza filler possibile: `NON PUBBLICARE`.
+5. **Selezione.** Prima di aprire il pezzo: «Questo aggiunge qualcosa che il lettore non troverebbe nella sola fonte primaria o nelle altre testate?». Se non è chiaramente sì, non pubblicare. Meglio meno articoli, con contributo chiaro, che molti pezzi corti simili.
+6. **Voce.** Italiano chiaro, professionale e diretto. Niente meta-commenti redazionali, formule da chatbot o chiusure generiche. Le fonti stanno solo in «Fonti consultate». Nel corpo l'attribuzione, se serve, è narrativa.
+7. **Prevalenza.** Questa sezione prevale sulle istruzioni di questo file che favoriscono flash frequenti o riscritture rapide. Non autorizza a inventare fatti, dati, citazioni o cause. Le guide restano in `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md` (minimo 1.800 parole di sostanza). Le fasce 250–450, 700–1.200 e 1.200–2.200 parole restano orientamento tecnico e non giustificano una riscrittura corta. Ogni nuova notizia deve superare questa revisione prima della pubblicazione.
+
 **Versione:** 5.0  
 **Data:** 22 settembre 2026  
 **Stato:** obbligatorio, fail-closed  
@@ -539,8 +553,7 @@ Ogni frase deve meritare di essere pubblicata.
 
 Le fasce flash / standard / approfondimento restano un orientamento di formato per il markup (`data-article-format`), non un obiettivo di riempimento.
 
-- Se la materia verificata sta sotto le 300 parole: flash, non riempitivo.
-- Se la materia verificata è insufficiente anche per un flash: NON PUBBLICARE.
+- Dal 16 ottobre 2026 la revisione «Valore originale CurioMondo», in apertura di questo file, prevale sulla riga seguente: se la materia verificata sta sotto le 300 parole non diventa automaticamente un flash. Il flash resta solo per un fatto estremamente circoscritto; la preferenza delle notizie standard è 500–700 parole senza filler. Se la materia verificata è insufficiente anche per un flash: NON PUBBLICARE.
 - Se un aggiornamento sostanziale supera la fascia iniziale: dichiararlo, non tagliare i fatti.
 
 Questa regola sostituisce le soglie fisse di caratteri (v248, v257 e successive, compreso l’obbligo 3.000–7.000 caratteri).
