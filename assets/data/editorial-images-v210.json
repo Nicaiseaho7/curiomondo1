@@ -1,7 +1,583 @@
 {
-  "version": 857,
+  "version": 858,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "id": "decreto-carburanti-camera-scadenza-16-novembre-2026",
+      "article": "/notizie/decreto-carburanti-camera-scadenza-16-novembre-2026.html",
+      "alt": "Illustrazione editoriale IA dell’Aula della Camera durante l’esame di misure economiche; non documenta la seduta.",
+      "prompt": "Fotografia editoriale realistica della Camera dei deputati durante l’esame di misure economiche, senza testo leggibile.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/decreto-carburanti-camera-scadenza-16-novembre-2026-v858-480.webp",
+          "sha256": "5cc73bc7f7ad49f107248a69dfd9a24e6f1358d3395a1b72cb8dc50c0370e7e3",
+          "bytes": 48036
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/decreto-carburanti-camera-scadenza-16-novembre-2026-v858-800.webp",
+          "sha256": "3cf987514a0b9c23c255c7d56acbc8f2dd98a9c66f82e4a17c440d562c0071ee",
+          "bytes": 106794
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/decreto-carburanti-camera-scadenza-16-novembre-2026-v858-1200.webp",
+          "sha256": "294b2ad66aee07acdc3c90a5fc7e01509fd56a9d4b98000e3604a8269c026e51",
+          "bytes": 193158
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "tfs-dipendenti-pubblici-camera-tempi-liquidazione-ottobre-2026",
+      "article": "/notizie/tfs-dipendenti-pubblici-camera-tempi-liquidazione-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di una dipendente pubblica che controlla documenti sul TFS; scena non documentaria.",
+      "prompt": "Dipendente pubblico italiano in ufficio mentre controlla documenti sul trattamento di fine servizio.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/tfs-dipendenti-pubblici-camera-tempi-liquidazione-ottobre-2026-v858-480.webp",
+          "sha256": "d8d677c15c802250ece582a377781e0c24777c66f8012dbc9474a4d2b90ca61e",
+          "bytes": 28958
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/tfs-dipendenti-pubblici-camera-tempi-liquidazione-ottobre-2026-v858-800.webp",
+          "sha256": "d462bf6b2d9032e426c9a976133c8c3d8ea05bcf115d3d26c10547f8bf862f1d",
+          "bytes": 56964
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/tfs-dipendenti-pubblici-camera-tempi-liquidazione-ottobre-2026-v858-1200.webp",
+          "sha256": "787763542a5dec715badd1f61329913da488881417da446b3ebebcff198247ac",
+          "bytes": 99432
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "caregiver-familiari-legge-camera-iter-ottobre-2026",
+      "article": "/notizie/caregiver-familiari-legge-camera-iter-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA rispettosa di una caregiver che assiste un familiare anziano; scena non documentaria.",
+      "prompt": "Caregiver familiare italiana assiste con rispetto un genitore anziano a casa.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/caregiver-familiari-legge-camera-iter-ottobre-2026-v858-480.webp",
+          "sha256": "7256c08aa95675f9e55ac0d40fb6cc3a4ac24bea5ef1718acfd05a46c971a9f9",
+          "bytes": 31134
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/caregiver-familiari-legge-camera-iter-ottobre-2026-v858-800.webp",
+          "sha256": "6991cf3faa184f608532d7d9a72d0ed56ceae5f8c8ebbccd3597aa17c9fc58f7",
+          "bytes": 66140
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/caregiver-familiari-legge-camera-iter-ottobre-2026-v858-1200.webp",
+          "sha256": "2c271c07d4a88d29376198cae4dcac2c6bf159eb71eacba3b90e243ad9b68df4",
+          "bytes": 118434
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "consiglio-europeo-pmi-taglio-obblighi-reporting-ottobre-2026",
+      "article": "/notizie/consiglio-europeo-pmi-taglio-obblighi-reporting-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA di piccoli imprenditori europei riuniti in laboratorio; scena non documentaria.",
+      "prompt": "Piccoli imprenditori europei discutono documenti in un laboratorio moderno con bandiere UE.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/consiglio-europeo-pmi-taglio-obblighi-reporting-ottobre-2026-v858-480.webp",
+          "sha256": "f16d7685d881eda7cef253b9f463f4a1ca36a4b18ecc7cce9ff13800827ed422",
+          "bytes": 37218
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/consiglio-europeo-pmi-taglio-obblighi-reporting-ottobre-2026-v858-800.webp",
+          "sha256": "5275f0946ea030cb1f807e41bdaedf67840147b755a0f8208eec8bbc55d7ec05",
+          "bytes": 74944
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/consiglio-europeo-pmi-taglio-obblighi-reporting-ottobre-2026-v858-1200.webp",
+          "sha256": "06a4999674d16df099c1d803a403984beb00184d52d5d25a8cb7d0db47159379",
+          "bytes": 126874
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "sicurezza-alimenti-sanita-veterinaria-linee-guida-gazzetta-2026",
+      "article": "/notizie/sicurezza-alimenti-sanita-veterinaria-linee-guida-gazzetta-2026.html",
+      "alt": "Illustrazione editoriale IA di tecnici veterinari in un laboratorio pubblico; scena non documentaria.",
+      "prompt": "Veterinari e tecnici controllano documenti e campioni in un laboratorio pubblico italiano.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/sicurezza-alimenti-sanita-veterinaria-linee-guida-gazzetta-2026-v858-480.webp",
+          "sha256": "65724da4c1cd39e2ff0fa11c9927ad54138e13ecd50a013eb987af9c7322b7c6",
+          "bytes": 34960
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/sicurezza-alimenti-sanita-veterinaria-linee-guida-gazzetta-2026-v858-800.webp",
+          "sha256": "e314e6da15b41644aa1e311fae57e6ef088b9b6385e882960c7ab67726449197",
+          "bytes": 67992
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/sicurezza-alimenti-sanita-veterinaria-linee-guida-gazzetta-2026-v858-1200.webp",
+          "sha256": "9bcf579056f6972cbd2b84e4e0f0e20a6ff53227d7794925b54d206cf77f1d4b",
+          "bytes": 115270
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "autoimpiego-3200-progetti-215-milioni-agevolazioni-2026",
+      "article": "/notizie/autoimpiego-3200-progetti-215-milioni-agevolazioni-2026.html",
+      "alt": "Illustrazione editoriale IA di una giovane imprenditrice italiana nel proprio laboratorio; scena non documentaria.",
+      "prompt": "Giovane imprenditrice italiana nel proprio laboratorio artigianale appena avviato.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/autoimpiego-3200-progetti-215-milioni-agevolazioni-2026-v858-480.webp",
+          "sha256": "8376fb43fc678220c879906b2b9c65eaf39a59d120e61b0248f9b74efa55ede3",
+          "bytes": 39764
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/autoimpiego-3200-progetti-215-milioni-agevolazioni-2026-v858-800.webp",
+          "sha256": "d46764142679ff684e4eaa78a476b68c9daff7220d06ebded33425205077f292",
+          "bytes": 80256
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/autoimpiego-3200-progetti-215-milioni-agevolazioni-2026-v858-1200.webp",
+          "sha256": "0658e58769021623b44b72874cb29f2202ff1f0f105917204577bc16d4f40762",
+          "bytes": 133000
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "cinque-per-mille-linee-guida-rendicontazione-dd-257-2026",
+      "article": "/notizie/cinque-per-mille-linee-guida-rendicontazione-dd-257-2026.html",
+      "alt": "Illustrazione editoriale IA di operatori non profit che preparano la rendicontazione; scena non documentaria.",
+      "prompt": "Operatori di un ente non profit italiano preparano la rendicontazione del cinque per mille.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/cinque-per-mille-linee-guida-rendicontazione-dd-257-2026-v858-480.webp",
+          "sha256": "a221dd8865f5184fd13cd6839724985308bf1dedc1ab6c2382b9f6fd2e8ef5dd",
+          "bytes": 39152
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/cinque-per-mille-linee-guida-rendicontazione-dd-257-2026-v858-800.webp",
+          "sha256": "dc33d937a91d731a869b6cbceef6cc7c8893fb069e1ce9b40ff76a02fb574beb",
+          "bytes": 83056
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/cinque-per-mille-linee-guida-rendicontazione-dd-257-2026-v858-1200.webp",
+          "sha256": "e657e0f53ba8fb3b4f09525893a576aba59ea9d5ffc7ceef46c61272aae2ef51",
+          "bytes": 148130
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "economia-sommersa-italia-218-2-miliardi-9-9-pil-istat",
+      "article": "/notizie/economia-sommersa-italia-218-2-miliardi-9-9-pil-istat.html",
+      "alt": "Illustrazione editoriale IA concettuale dell’economia sommersa italiana; non raffigura persone accusate di reati.",
+      "prompt": "Immagine editoriale concettuale e realistica dell’economia sommersa italiana, senza persone identificabili.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/economia-sommersa-italia-218-2-miliardi-9-9-pil-istat-v858-480.webp",
+          "sha256": "c9fe6bab4f78bc58335209b13b5eb70f09416f46819cc86609d71db6421e14b5",
+          "bytes": 31012
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/economia-sommersa-italia-218-2-miliardi-9-9-pil-istat-v858-800.webp",
+          "sha256": "c3ea340a6395d4eb6e2d71e4b1115651f19e3b951c1c8cb719eea6587ffb9af3",
+          "bytes": 63632
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/economia-sommersa-italia-218-2-miliardi-9-9-pil-istat-v858-1200.webp",
+          "sha256": "78c917081b8da58c2d10f7060b37911b72986344d85cbe5727fdbc419572a3f4",
+          "bytes": 107032
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "imprese-italiane-4-5-milioni-crescita-0-5-istat-2024",
+      "article": "/notizie/imprese-italiane-4-5-milioni-crescita-0-5-istat-2024.html",
+      "alt": "Illustrazione editoriale IA di una piccola impresa industriale italiana moderna; scena non documentaria.",
+      "prompt": "Imprenditori e tecnici in una piccola impresa industriale italiana moderna.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/imprese-italiane-4-5-milioni-crescita-0-5-istat-2024-v858-480.webp",
+          "sha256": "5261e449f8ecfb311e70ebbeb5564f83515141b7edd2941d183d282e675c8aa9",
+          "bytes": 44534
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/imprese-italiane-4-5-milioni-crescita-0-5-istat-2024-v858-800.webp",
+          "sha256": "3bafdbd54b0ece29c813fd11cd7254ba855e46aee2d8227c9c484ddec7bd242c",
+          "bytes": 89762
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/imprese-italiane-4-5-milioni-crescita-0-5-istat-2024-v858-1200.webp",
+          "sha256": "f8e3a36f19c97791a23727d9903e74da0a09bfc4e4d7736b389510e929271e0a",
+          "bytes": 147838
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "gestione-separata-inps-nuovo-canale-rimborsi-contributi-2026",
+      "article": "/notizie/gestione-separata-inps-nuovo-canale-rimborsi-contributi-2026.html",
+      "alt": "Illustrazione editoriale IA di una professionista che presenta una richiesta di rimborso contributivo; scena non documentaria.",
+      "prompt": "Professionista italiana usa il computer per chiedere un rimborso contributivo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/gestione-separata-inps-nuovo-canale-rimborsi-contributi-2026-v858-480.webp",
+          "sha256": "868b12e992cd86eb2705aff9819458fe98ab23bd761b6797a6a853b6622fb1ca",
+          "bytes": 27886
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/gestione-separata-inps-nuovo-canale-rimborsi-contributi-2026-v858-800.webp",
+          "sha256": "1842f2aa1199f0eb3044d1e246f836c0f9598450465108fd512e0fe16ff2b35b",
+          "bytes": 55294
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/gestione-separata-inps-nuovo-canale-rimborsi-contributi-2026-v858-1200.webp",
+          "sha256": "18345e70bc7a1a41021864c7739a8812ba35832307866dffc8e5a28965029ecd",
+          "bytes": 89938
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "transizione-5-0-comunicazione-completamento-investimenti-gse-2026",
+      "article": "/notizie/transizione-5-0-comunicazione-completamento-investimenti-gse-2026.html",
+      "alt": "Illustrazione editoriale IA di tecnici in una fabbrica italiana efficiente con pannelli solari; scena non documentaria.",
+      "prompt": "Fabbrica italiana efficiente con pannelli solari e tecnici che verificano un investimento completato.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/transizione-5-0-comunicazione-completamento-investimenti-gse-2026-v858-480.webp",
+          "sha256": "8eed2ebce7176373619ff6587f130e900224e87784c51ce9e96000b6c7de8449",
+          "bytes": 48772
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/transizione-5-0-comunicazione-completamento-investimenti-gse-2026-v858-800.webp",
+          "sha256": "5c939119adccdd509e48b2cdf573b27d12159ec39230ed73124fd62be9cf0044",
+          "bytes": 116702
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/transizione-5-0-comunicazione-completamento-investimenti-gse-2026-v858-1200.webp",
+          "sha256": "f418a6db7bff418bceb39cef3687f8274c531fa704f095374c237e9d2616708e",
+          "bytes": 230362
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "salisburgo-milan-0-4-cisse-tripletta-europa-league-2026",
+      "article": "/notizie/salisburgo-milan-0-4-cisse-tripletta-europa-league-2026.html",
+      "alt": "Illustrazione editoriale IA con somiglianza sintetica di Alphadjo Cissé mentre festeggia; non è una foto della partita.",
+      "prompt": "Alphadjo Cisse festeggia con la maglia del Milan dopo un gol europeo a Salisburgo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/salisburgo-milan-0-4-cisse-tripletta-europa-league-2026-v858-480.webp",
+          "sha256": "54903bdac7b23ca16a325490744236b9e2fe9db92ab75a7facc434adb484005a",
+          "bytes": 29072
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/salisburgo-milan-0-4-cisse-tripletta-europa-league-2026-v858-800.webp",
+          "sha256": "237c3d9f5adae002cde985d101b82a4fbd71c526da547a32a0b490f2373e839b",
+          "bytes": 56576
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/salisburgo-milan-0-4-cisse-tripletta-europa-league-2026-v858-1200.webp",
+          "sha256": "5ffd92beb73dec8a5b8904e5878bdc9bb57a55a47ecf0b82b7d6d6b7a83ba40e",
+          "bytes": 93826
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Alphadjo Cissé"
+    },
+    {
+      "id": "celta-vigo-juventus-1-2-kolo-muani-europa-league-2026",
+      "article": "/notizie/celta-vigo-juventus-1-2-kolo-muani-europa-league-2026.html",
+      "alt": "Illustrazione editoriale IA con somiglianza sintetica di Randal Kolo Muani mentre festeggia; non è una foto della partita.",
+      "prompt": "Randal Kolo Muani festeggia il gol decisivo della Juventus sul campo del Celta Vigo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/celta-vigo-juventus-1-2-kolo-muani-europa-league-2026-v858-480.webp",
+          "sha256": "556102d07034cd477155279b204ae6e5cc4f604ffd366b1903c29fd135c1a886",
+          "bytes": 26392
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/celta-vigo-juventus-1-2-kolo-muani-europa-league-2026-v858-800.webp",
+          "sha256": "1f02dc450c9501a36abfba9456a846f2e7d6fe619646b40748687ed69b4537b1",
+          "bytes": 51146
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/celta-vigo-juventus-1-2-kolo-muani-europa-league-2026-v858-1200.webp",
+          "sha256": "1081ba7c0f053b300342b6199c5a4cae91cbd4b2051343071c929db18f36d899",
+          "bytes": 88486
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Randal Kolo Muani"
+    },
+    {
+      "id": "frosinone-sassuolo-oggi-16-ottobre-2045-stirpe",
+      "article": "/notizie/frosinone-sassuolo-oggi-16-ottobre-2045-stirpe.html",
+      "alt": "Illustrazione editoriale IA dello stadio Benito Stirpe prima di Frosinone-Sassuolo; scena non documentaria.",
+      "prompt": "Stadio Benito Stirpe al tramonto prima di Frosinone-Sassuolo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/frosinone-sassuolo-oggi-16-ottobre-2045-stirpe-v858-480.webp",
+          "sha256": "818198b60ba7f6e922cede82917c956711c1e25c689c9c1d94ba7a1850b96c8f",
+          "bytes": 47796
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/frosinone-sassuolo-oggi-16-ottobre-2045-stirpe-v858-800.webp",
+          "sha256": "aa786a3dadc78ead492b1762605885835885b1e0443f7812548a1fc035faf206",
+          "bytes": 116736
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/frosinone-sassuolo-oggi-16-ottobre-2045-stirpe-v858-1200.webp",
+          "sha256": "928e5934cb0473deb676b41541e31addc4e29755b80c2ebac95c461a56fc6acc",
+          "bytes": 228390
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "mattia-bellucci-semifinale-jinan-challenger-16-ottobre-2026",
+      "article": "/notizie/mattia-bellucci-semifinale-jinan-challenger-16-ottobre-2026.html",
+      "alt": "Illustrazione editoriale IA con somiglianza sintetica di Mattia Bellucci sul cemento; non è una foto della partita.",
+      "prompt": "Il tennista italiano Mattia Bellucci festeggia una vittoria sul cemento a Jinan.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/mattia-bellucci-semifinale-jinan-challenger-16-ottobre-2026-v858-480.webp",
+          "sha256": "ec84ec86090ecf19596546be0b66ed56c17cbf25509919c70e5f6e41d94b2e2b",
+          "bytes": 21312
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/mattia-bellucci-semifinale-jinan-challenger-16-ottobre-2026-v858-800.webp",
+          "sha256": "593de87e535816e59a9173231f406b3e53f596239e6bbf18ae5700fae5699fba",
+          "bytes": 44324
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/mattia-bellucci-semifinale-jinan-challenger-16-ottobre-2026-v858-1200.webp",
+          "sha256": "ca4becea1feed642c3660cfb3cecf3aa7ab4df667423ff69c498c5fbcbba2ff6",
+          "bytes": 78810
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "syntheticLikeness": "public-figure",
+      "publicFigureName": "Mattia Bellucci"
+    },
     {
       "id": "sciopero-scuola-16-ottobre-2026-lezioni-servizi",
       "article": "/notizie/sciopero-scuola-16-ottobre-2026-lezioni-servizi.html",

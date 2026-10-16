@@ -1,0 +1,284 @@
+{
+  "version": 858,
+  "new_articles": 15,
+  "updated_articles": 0,
+  "new_images": 15,
+  "request": "Politica italiana ed europea, economia, lavoro, denaro e sport — 16 ottobre 2026",
+  "push_executed": false,
+  "manifest_accessed": false,
+  "baseline_commit": "1e51ff3d2e8ab3e6a47f26ef69c167eea9ea4931",
+  "source_list": "Fonti per la ricerca degli articoli.txt; fonti elencate in ogni articolo.",
+  "exclusions": [
+    "Inflazione definitiva esclusa come nuovo articolo perché il tema era già presente nel sito.",
+    "Risultati o indiscrezioni senza fonte verificabile esclusi."
+  ],
+  "corrections": [
+    "Atti in calendario distinti da leggi approvate.",
+    "Conclusioni UE distinte da norme immediatamente applicabili.",
+    "Procedure INPS e GSE distinte da rimborsi o incentivi automatici."
+  ],
+  "image_visual_review": "Completata su quindici copertine dedicate.",
+  "browser_visual_qa": "Da completare dopo i gate.",
+  "format_exception": "Flash proporzionati a fatti circoscritti, senza riempitivo.",
+  "evergreen_exception": "Nessuna nuova guida richiesta; nessun collegamento generico forzato.",
+  "release": "2026-10-16T13:32:15+02:00",
+  "articles": [
+    {
+      "slug": "decreto-carburanti-camera-scadenza-16-novembre-2026",
+      "title": "Decreto carburanti alla Camera: conversione entro il 16 novembre",
+      "published": "2026-10-16T13:32:15+02:00",
+      "modified": "2026-10-16T13:32:15+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.camera.it/Leg19/76?active_tab_3806=5814&ldt-cb=01-09-2026&s-cb=1",
+          "nome": "Camera dei deputati — agenda dei lavori di ottobre 2026 e scadenza del decreto."
+        }
+      ],
+      "words": 139,
+      "risk": "B",
+      "original_value": "Distingue il calendario dell’Aula dall’approvazione e chiarisce la conseguenza della mancata conversione."
+    },
+    {
+      "slug": "tfs-dipendenti-pubblici-camera-tempi-liquidazione-ottobre-2026",
+      "title": "TFS dei dipendenti pubblici, la proposta torna alla Camera",
+      "published": "2026-10-16T13:27:15+02:00",
+      "modified": "2026-10-16T13:27:15+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.camera.it/Leg19/76?active_tab_3806=5814&ldt-cb=01-09-2026&s-cb=1",
+          "nome": "Camera dei deputati — proposta n. 1254 nel calendario dei lavori."
+        }
+      ],
+      "words": 131,
+      "risk": "B",
+      "original_value": "Separa la proposta dalle regole vigenti e indica quali passaggi mancano prima di effetti sui pagamenti."
+    },
+    {
+      "slug": "caregiver-familiari-legge-camera-iter-ottobre-2026",
+      "title": "Caregiver familiari, alla Camera riparte l’iter della legge",
+      "published": "2026-10-16T13:20:15+02:00",
+      "modified": "2026-10-16T13:20:15+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.camera.it/Leg19/76?active_tab_3806=5814&ldt-cb=01-09-2026&s-cb=1",
+          "nome": "Camera dei deputati — calendario dei lavori e proposta n. 2789."
+        }
+      ],
+      "words": 136,
+      "risk": "B",
+      "original_value": "Spiega perché il calendario parlamentare non apre benefici e quali elementi devono ancora essere definiti."
+    },
+    {
+      "slug": "consiglio-europeo-pmi-taglio-obblighi-reporting-ottobre-2026",
+      "title": "UE, i leader chiedono meno obblighi di reporting per le PMI",
+      "published": "2026-10-16T13:12:15+02:00",
+      "modified": "2026-10-16T13:12:15+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/16/european-council-conclusions-on-competitiveness-the-next-multiannual-financial-framework-and-enlargement-and-reforms/",
+          "nome": "Consiglio europeo — conclusioni ufficiali sulla competitività."
+        }
+      ],
+      "words": 133,
+      "risk": "B",
+      "original_value": "Traduce l’indirizzo politico in conseguenze realistiche e chiarisce che nessuna scadenza cambia oggi."
+    },
+    {
+      "slug": "sicurezza-alimenti-sanita-veterinaria-linee-guida-gazzetta-2026",
+      "title": "Sicurezza alimentare, nuove linee guida pubblicate in Gazzetta",
+      "published": "2026-10-16T13:03:15+02:00",
+      "modified": "2026-10-16T13:03:15+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.regioni.it/news/2026/10/16/linee-guida-sicurezza-alimenti-e-sanita-pubblica-veterinaria-accordo-csr-10-9-2026-gazzetta-ufficiale-n-240-del-15-10-2026-so-n-42-664903/",
+          "nome": "Regioni.it — pubblicazione in Gazzetta dell’accordo Stato-Regioni."
+        }
+      ],
+      "words": 130,
+      "risk": "B",
+      "original_value": "Chiarisce destinatari ed effetti amministrativi, evitando di presentare le linee guida come nuovo obbligo indistinto."
+    },
+    {
+      "slug": "autoimpiego-3200-progetti-215-milioni-agevolazioni-2026",
+      "title": "Autoimpiego, finanziati 3.200 progetti: agevolazioni per 215 milioni",
+      "published": "2026-10-16T12:53:15+02:00",
+      "modified": "2026-10-16T12:53:15+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.lavoro.gov.it/",
+          "nome": "Ministero del Lavoro — bilancio del Piano Integrato Autoimpiego, 16 ottobre 2026."
+        }
+      ],
+      "words": 139,
+      "risk": "B",
+      "original_value": "Distingue risultati consuntivi da nuovi fondi disponibili e calcola il valore medio solo come indicatore descrittivo."
+    },
+    {
+      "slug": "cinque-per-mille-linee-guida-rendicontazione-dd-257-2026",
+      "title": "Cinque per mille, aggiornati moduli e linee guida di rendicontazione",
+      "published": "2026-10-16T12:42:15+02:00",
+      "modified": "2026-10-16T12:42:15+02:00",
+      "source_date": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.lavoro.gov.it/notizie/Pagine/Notizie",
+          "nome": "Ministero del Lavoro — pubblicazione del D.D. n. 257 del 15 ottobre 2026."
+        }
+      ],
+      "words": 126,
+      "risk": "C",
+      "original_value": "Spiega che la misura riguarda i beneficiari e non la scelta del contribuente, con indicazione pratica sui modelli aggiornati."
+    },
+    {
+      "slug": "economia-sommersa-italia-218-2-miliardi-9-9-pil-istat-16-10-2026",
+      "title": "Economia sommersa e illegale, Istat stima 218,2 miliardi",
+      "published": "2026-10-16T12:30:15+02:00",
+      "modified": "2026-10-16T12:30:15+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.istat.it/documenti/comunicato-stampa/",
+          "nome": "Istat — Economia non osservata nei conti nazionali, anni 2021-2024."
+        }
+      ],
+      "words": 138,
+      "risk": "B",
+      "original_value": "Spiega perimetro e limiti della stima, distinguendola dagli accertamenti fiscali individuali."
+    },
+    {
+      "slug": "imprese-italiane-4-5-milioni-crescita-0-5-istat-2024",
+      "title": "Imprese italiane oltre 4,5 milioni: crescita contenuta allo 0,5%",
+      "published": "2026-10-16T12:17:15+02:00",
+      "modified": "2026-10-16T12:17:15+02:00",
+      "source_date": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.istat.it/documenti/comunicato-stampa/",
+          "nome": "Istat — Conti economici delle imprese e dei gruppi di impresa, anno 2024."
+        }
+      ],
+      "words": 141,
+      "risk": "B",
+      "original_value": "Evita di confondere il numero di imprese con fatturato e produttività e chiarisce la distanza temporale del dato."
+    },
+    {
+      "slug": "gestione-separata-inps-nuovo-canale-rimborsi-contributi-2026",
+      "title": "Gestione Separata, nuovo canale INPS per i rimborsi contributivi",
+      "published": "2026-10-16T12:03:15+02:00",
+      "modified": "2026-10-16T12:03:15+02:00",
+      "source_date": "2026-10-13",
+      "sources": [
+        {
+          "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.10.gestione-separata-nuovo-canale-per-chiedere-i-rimborsi.html",
+          "nome": "INPS — nuovo canale per i rimborsi della Gestione Separata."
+        },
+        {
+          "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.10.messaggio-numero-3247-del-13-10-2026_16391.html",
+          "nome": "INPS — messaggio n. 3247 del 13 ottobre 2026."
+        }
+      ],
+      "words": 124,
+      "risk": "B",
+      "original_value": "Riassume destinatari e passaggi, chiarendo che il nuovo punto di accesso non autorizza automaticamente il rimborso."
+    },
+    {
+      "slug": "transizione-5-0-comunicazione-completamento-investimenti-gse-2026",
+      "title": "Transizione 5.0, aperto l’invio per gli investimenti completati",
+      "published": "2026-10-16T11:48:15+02:00",
+      "modified": "2026-10-16T11:48:15+02:00",
+      "source_date": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.mimit.gov.it/it/notizie-stampa/transizione-5-0-al-via-da-oggi-le-comunicazioni-di-completamento-degli-investimenti",
+          "nome": "MIMIT — apertura della procedura di completamento Transizione 5.0."
+        }
+      ],
+      "words": 128,
+      "risk": "B",
+      "original_value": "Trasforma l’avviso in una checklist pratica e distingue il completamento dalla presentazione di nuove domande."
+    },
+    {
+      "slug": "salisburgo-milan-0-4-cisse-tripletta-europa-league-2026",
+      "title": "Milan travolge il Salisburgo 4-0, tripletta storica di Cissé",
+      "published": "2026-10-16T11:32:15+02:00",
+      "modified": "2026-10-16T11:32:15+02:00",
+      "source_date": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://it.uefa.com/uefaeuropaleague/news/02a8-2177210756a1-8a73728da31d-1000--europa-league-2026-27-calendario-e-risultati-della-fase-/",
+          "nome": "UEFA — risultato ufficiale e calendario dell’Europa League."
+        },
+        {
+          "url": "https://www.reuters.com/sports/soccer/sensational-cisse-powers-milan-victory-leverkusen-thump-lech-poznan-2026-10-15/",
+          "nome": "Reuters — marcatori e primato della tripletta di Cissé."
+        }
+      ],
+      "words": 127,
+      "risk": "C",
+      "original_value": "Unisce risultato, primato anagrafico e prossimo impegno senza amplificare il dato oltre il contesto UEFA."
+    },
+    {
+      "slug": "celta-vigo-juventus-1-2-kolo-muani-europa-league-2026",
+      "title": "Juventus rimonta il Celta: Kolo Muani firma il 2-1 nel finale",
+      "published": "2026-10-16T11:15:15+02:00",
+      "modified": "2026-10-16T11:15:15+02:00",
+      "source_date": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://it.uefa.com/uefaeuropaleague/news/02a8-2177210756a1-8a73728da31d-1000--europa-league-2026-27-calendario-e-risultati-della-fase-/",
+          "nome": "UEFA — risultato e calendario ufficiale dell’Europa League."
+        },
+        {
+          "url": "https://www.reuters.com/sports/soccer/sensational-cisse-powers-milan-victory-leverkusen-thump-lech-poznan-2026-10-15/",
+          "nome": "Reuters — cronaca del 2-1 della Juventus a Vigo."
+        }
+      ],
+      "words": 126,
+      "risk": "C",
+      "original_value": "Distingue la vittoria dalla qualificazione e aggiunge il prossimo incontro con orario ufficiale."
+    },
+    {
+      "slug": "frosinone-sassuolo-oggi-16-ottobre-2045-stirpe",
+      "title": "Frosinone–Sassuolo stasera alle 20:45: guida alla partita",
+      "published": "2026-10-16T10:57:15+02:00",
+      "modified": "2026-10-16T10:57:15+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.frosinonecalcio.com/",
+          "nome": "Frosinone Calcio — calendario, convocati e biglietteria della partita."
+        },
+        {
+          "url": "https://www.dazn.com/it-IT/news/calcio/frosinone-quando-gioca-dove-vedere-prossima-partita-streaming/1mca6ada3rncz1i7l6ysseo7xs",
+          "nome": "DAZN — data e orario della gara di Serie A."
+        }
+      ],
+      "words": 128,
+      "risk": "C",
+      "original_value": "Riunisce orario, sede, forma recente e riferimenti pratici senza inventare formazioni o copertura non confermata."
+    },
+    {
+      "slug": "mattia-bellucci-semifinale-jinan-challenger-16-ottobre-2026",
+      "title": "Bellucci avanza a Jinan: vittoria in due set e posto in semifinale",
+      "published": "2026-10-16T10:38:15+02:00",
+      "modified": "2026-10-16T10:38:15+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.atptour.com/en/scores/current-challenger/jinan/7746/results",
+          "nome": "ATP Tour — risultati ufficiali del Challenger di Jinan."
+        }
+      ],
+      "words": 119,
+      "risk": "C",
+      "original_value": "Aggiunge contesto su tabellone e ranking senza anticipare avversario o orario non ancora confermati."
+    }
+  ],
+  "prepared_release": "2026-10-16T13:31:16+02:00"
+}
