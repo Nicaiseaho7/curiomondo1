@@ -111,22 +111,13 @@ def test_verifica_approva_notizia_solida():
 
 
 def test_verifica_rifiuta_se_manca_il_valore_aggiunto():
-    """Senza alcun elemento utile resta una riscrittura."""
-    risposta = dict(VERDETTO_BUONO, valore_aggiunto=[])
+    """Il protocollo lo impone: una sola voce significa solo riscrittura."""
+    risposta = dict(VERDETTO_BUONO, valore_aggiunto=["riassunto del lancio"])
     verdetto, _ = editor.verifica(
         ClienteFinto([risposta]), "gpt-5", "Titolo", "ANSA",
         [estratto_ok()], conferme=[], alto_rischio=False,
     )
     assert not verdetto.pubblicare and "riscrittura" in verdetto.motivo
-
-
-def test_verifica_accetta_un_solo_elemento_concreto():
-    risposta = dict(VERDETTO_BUONO, valore_aggiunto=["cosa cambia per chi deve partire"])
-    verdetto, _ = editor.verifica(
-        ClienteFinto([risposta]), "gpt-5", "Titolo", "ANSA",
-        [estratto_ok()], conferme=[], alto_rischio=False,
-    )
-    assert verdetto.pubblicare
 
 
 def test_verifica_rifiuta_senza_fonti_leggibili():

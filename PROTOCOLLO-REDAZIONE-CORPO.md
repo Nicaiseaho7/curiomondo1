@@ -1,17 +1,5 @@
 # Protocollo redazione corpo articolo — CurioMondo
 
-## REVISIONE PERMANENTE — NOTIZIE VALIDE, NON UN OSTACOLO (17 ottobre 2026)
-
-**Stato:** obbligatorio e prevalente sulla revisione del 16 ottobre 2026 per il corpo delle notizie.
-
-**Obiettivo:** `.art-body` non è un copia-incolla, ma una notizia verificata e utile non si scarta perché è più corta di 500 parole o ha un solo elemento concreto.
-
-1. **Basta un elemento concreto.** Nel corpo di flash, notizie ordinarie e schede di servizio è sufficiente un elemento utile e verificato: cosa cambia, una data o un requisito, il limite di un dato, un confronto, che cosa non è ancora noto, oppure la distinzione tra fatto, dichiarazione e ipotesi. Due elementi restano obbligatori solo per analisi e approfondimenti autonomi.
-2. **Riscrittura pura.** `NON PUBBLICARE — solo riscrittura` solo se il corpo non aggiunge nulla ed è intercambiabile con il comunicato. Una notizia verificata con almeno un elemento utile si pubblica.
-3. **Lunghezza e sostanza.** La lunghezza segue la materia. Sotto le 300 parole il formato è flash; da 300 in su è standard. La preferenza 500–700 parole, contate solo in `.art-body`, non è un minimo e non è un motivo di scarto. Vietato il filler. Le fasce 250–450, 700–1.200 e 1.200–2.200 parole restano orientamento tecnico del protocollo 4.0.
-4. **Voce.** Italiano chiaro, professionale e diretto. Niente meta-commenti, formule da chatbot o chiusure generiche. Le fonti restano in «Fonti consultate»; nel corpo l'attribuzione è solo narrativa.
-5. **Prevalenza.** Questa revisione sostituisce la soglia di due elementi e il divieto di flash del 16 ottobre 2026. Non si inventano fatti. Gli approfondimenti restano ad almeno 1.800 parole di sostanza.
-
 **Stato:** obbligatorio, fail-closed  
 **Data:** 22 settembre 2026  
 **Prevalenza scrittura:** `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` (v502) e `PROTOCOLLO-ARTICOLI-PREMIUM.md` (v1.0). Questo file resta il contratto tecnico del markup pubblico. Non sostituisce il protocollo qualità, il protocollo immagini né il gate di rischio v471.
@@ -43,8 +31,6 @@ Nel corpo pubblico non devono mai comparire appunti interni, verifiche automatic
 La lunghezza dipende dalla materia verificata. Vietato allungare per quota.
 
 Orientamento per i nuovi articoli secondo il protocollo premium, mai obiettivo da riempire:
-
-Orientamento di formato, dal 17 ottobre 2026. Prevale la revisione in apertura: sotto le 300 parole il pezzo è un flash; la preferenza 500–700 parole di corpo senza filler non è un minimo.
 
 - flash verificato: circa 250–450 parole;
 - notizia completa: circa 700–1.200 parole;

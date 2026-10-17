@@ -1,18 +1,5 @@
 # Istruzioni obbligatorie per agenti IA
 
-## REVISIONE PERMANENTE — NOTIZIE VALIDE, NON UN OSTACOLO (17 ottobre 2026)
-
-**Stato:** obbligatorio e prevalente sulla revisione del 16 ottobre 2026 e su ogni indicazione che scarti una notizia valida perché non ha due angoli originali, non arriva a 500 parole o è già uscita su un'altra testata.
-
-**Obiettivo:** CurioMondo resta una testata chiara, non un copia-incolla. Non deve però buttare notizie vere, verificate e utili solo perché non sembrano un'inchiesta.
-
-1. **Basta un elemento concreto.** Per flash, notizie ordinarie e schede di servizio è sufficiente **un** elemento utile e verificato, oltre al fatto: cosa cambia per chi legge, una data o un requisito, il limite di un dato, un confronto, che cosa non è ancora noto, oppure la distinzione tra fatto, dichiarazione e ipotesi. Due elementi restano obbligatori solo per analisi e approfondimenti autonomi.
-2. **Riscrittura pura.** Si rifiuta soltanto il pezzo che non aggiunge nulla: né una conseguenza, né un limite, né un'indicazione pratica, ed è intercambiabile con il comunicato. Non si usa `NON PUBBLICARE — solo riscrittura` se la notizia è verificata e contiene almeno quell'elemento.
-3. **Non scartare una notizia valida.** Una storia confermata, chiara e utile al lettore italiano si pubblica anche se un'agenzia, un comunicato o un'altra testata hanno già i fatti. Non serve essere l'unica fonte e non serve inventare un angolo.
-4. **Lunghezza.** Segue la materia. Sotto le 300 parole il formato è flash; da 300 in su è standard. La fascia 500–700 parole è una preferenza quando i fatti ci sono, non un minimo e non un motivo di scarto. Vietato allungare con ripetizioni o filler. Vietato tagliare un fatto utile per restare corti.
-5. **Cosa resta vietato.** Inventare fatti, dati, citazioni o cause. Riempire per quota. Pubblicare un duplicato sostanziale già online. Le guide restano in `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md` (minimo 1.800 parole di sostanza). Gli articoli già online non si riscrivono per questa revisione.
-6. **Prevalenza.** Questa sezione sostituisce la soglia di due elementi e il divieto di flash del 16 ottobre 2026. Le fasce storiche 250–450, 700–1.200 e 1.200–2.200 parole restano orientamento tecnico del protocollo 4.0, non un motivo per scartare.
-
 ## Autonomia autorizzata dal proprietario — 2 ottobre 2026
 
 Le richieste operative del proprietario autorizzano gli interventi necessari per portarle a termine nel progetto CurioMondo, inclusi aggiornamenti dei protocolli, correzioni e pubblicazione su `main`. Procedere senza riconferme per il lavoro già autorizzato e completare le verifiche necessarie.
@@ -27,7 +14,7 @@ Dal 6 ottobre 2026 il PDF privato usato in precedenza per la Domanda del giorno 
 L'obiettivo operativo è pubblicare un numero maggiore di articoli interessanti senza ridurre accuratezza, trasparenza o sicurezza.
 
 - Per notizie ordinarie e contenuti di servizio è sufficiente una fonte primaria o ufficiale autentica e competente. La seconda conferma è consigliata, non obbligatoria.
-- Per le notizie, dal 17 ottobre 2026 prevale la revisione in apertura: per flash, notizie ordinarie e servizio basta un solo elemento concreto di utilità o valore aggiunto. Due elementi sono richiesti soltanto per analisi e approfondimenti autonomi. Una notizia verificata e utile non si scarta perché è già uscita altrove o perché non ha due angoli.
+- Per flash, notizie ordinarie e servizio basta un solo elemento concreto di utilità o valore aggiunto. Due elementi sono richiesti soltanto per analisi e approfondimenti autonomi.
 - La rilevanza nazionale, l'esclusività e la pubblicazione entro 24 ore non sono requisiti. Sono ammesse notizie locali, di nicchia, culturali, sportive, di spettacolo e sviluppi fino a sette giorni o oltre quando ancora attuali, ricercati, utili o nuovi per CurioMondo.
 - Una storia già trattata può produrre un nuovo articolo se cambia l'angolazione, il pubblico, la conseguenza o l'utilità. È duplicato soltanto il contenuto sostanzialmente identico.
 - Un difetto tecnico riparabile non comporta lo scarto dell'articolo. L'agente è autorizzato a correggere autonomamente file, indici, feed, sitemap, canonical, dati strutturati, immagini, collegamenti, categorie, cache-busting e pipeline necessari alla pubblicazione, limitandosi al repository CurioMondo e preservando i contenuti già validi.
@@ -56,7 +43,7 @@ Non sostituisce:
 - il protocollo immagini;
 - il gate tecnico di pubblicazione completa.
 
-Le fasce flash / standard / approfondimento restano un orientamento di formato, non un obiettivo di riempimento. Dal 17 ottobre 2026, sotto le 300 parole il pezzo è un flash se il fatto verificato è breve. La preferenza 500–700 parole non è un minimo. Se manca ogni elemento utile, non si pubblica.
+Le fasce flash / standard / approfondimento restano un orientamento di formato, non un obiettivo di riempimento. Se la materia verificata sta sotto le 300 parole, il pezzo è un flash. Se manca materia, non si pubblica.
 
 I nuovi articoli non devono dichiarare `data-length-policy="3000-7000"`.
 
@@ -83,13 +70,13 @@ Per selezione, verifica e pubblicazione delle notizie prevale la revisione v471 
 - **Rischio ordinario:** sport, cinema, serie TV, cultura, tecnologia, spettacolo, comunicati aziendali e fatti non controversi possono essere pubblicati sulla base di una fonte primaria autentica e competente. Una seconda fonte è consigliata, non obbligatoria.
 - **Servizio:** calendari, orari, programmi, uscite, bandi, risultati, guide e informazioni pratiche possono basarsi sulla fonte ufficiale pertinente.
 - Una notizia oltre le 24 ore non è automaticamente vecchia: è pubblicabile quando resta attuale, ricercata, utile, presenta uno sviluppo o consente un contributo CurioMondo concreto.
+- Basta **almeno un elemento reale di valore aggiunto** per flash, notizie ordinarie e contenuti di servizio. Due elementi restano richiesti per analisi e approfondimenti autonomi.
 - Stesso argomento non significa duplicato: aggiornare il pezzo esistente per sviluppi dello stesso dossier; creare un nuovo articolo per angolazioni autonome, guide o conseguenze sostanzialmente diverse.
-- Dal 17 ottobre 2026, per flash, notizie ordinarie e contenuti di servizio basta **almeno un elemento reale di valore aggiunto**. Due elementi restano richiesti per analisi e approfondimenti autonomi. La preferenza 500–700 parole non è un motivo di scarto. Il flash è il formato dei fatti brevi e verificati.
-- La lunghezza storica indicava flash 100–250 parole, standard 300–700, approfondimenti 800+ quando giustificati. Per le notizie nuove il formato segue la materia: sotto 300 parole flash, da 300 standard. Nessuna soglia si raggiunge con riempitivo.
+- La lunghezza segue la materia verificata: flash 100–250 parole, standard 300–700, approfondimenti 800+ quando giustificati. Nessuna soglia minima rigida e nessun riempitivo.
 - Un problema tecnico non annulla l'idoneità editoriale della storia: la notizia resta approvata ma la pubblicazione va completata e dichiarata conclusa solo dopo tutti i controlli tecnici e live.
 - Restano sempre bloccanti falsità, attribuzioni ingannevoli, accuse non verificate, fonti contraffatte, dati inventati, immagini fuorvianti e pagine prive di sostanza.
 
-Questa sezione conferma, per le notizie nuove, il singolo elemento di valore e il flash dei fatti brevi: su quel punto prevale la revisione del 17 ottobre 2026. Sostituisce le precedenti regole incompatibili su doppia conferma universale, limite automatico di 24 ore, soglie quantitative di rilevanza e scarto editoriale causato da problemi tecnici riparabili.
+Questa sezione sostituisce le precedenti regole incompatibili su doppia conferma universale, due valori aggiunti obbligatori per ogni formato, limite automatico di 24 ore, soglie quantitative di rilevanza e scarto editoriale causato da problemi tecnici riparabili.
 
 ## eBook Domanda del giorno — dal 28 settembre 2026
 Ogni nuovo eBook della Domanda del giorno è un libro breve: **25.000 parole** (tolleranza 22.000–32.000), **8–12 capitoli**, una schermata per capitolo. Deve essere indicizzato (`index,follow`, canonical, sitemap, indice di ricerca). Gli eBook già pubblicati non si riscrivono per questa regola. Dettaglio in `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`.
