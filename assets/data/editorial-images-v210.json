@@ -1,7 +1,387 @@
 {
-  "version": 873,
+  "version": 874,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "id": "swiatek-infortunio-wuhan-semifinale-17-ottobre-2026",
+      "article": "/notizie/swiatek-infortunio-wuhan-semifinale-17-ottobre-2026.html",
+      "alt": "Una tennista con la coscia fasciata continua una semifinale a Wuhan, illustrazione editoriale IA non documentaria.",
+      "prompt": "Illustrazione editoriale dedicata, senza testo o loghi, generata per il singolo articolo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/swiatek-infortunio-wuhan-semifinale-17-ottobre-2026-v874-480.webp",
+          "sha256": "b870df34bd54c5fa79a8b92441b56fe9e050efabd1de9a75f32b19b97b97cc5c",
+          "bytes": 19136
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/swiatek-infortunio-wuhan-semifinale-17-ottobre-2026-v874-800.webp",
+          "sha256": "93cb174dd90580fd485266db975afd2c810d88044286ba45c1cfb8e1c3ebc182",
+          "bytes": 37374
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/swiatek-infortunio-wuhan-semifinale-17-ottobre-2026-v874-1200.webp",
+          "sha256": "09e5ac361a06bb58a56b95253282f9a24d3155f7d99cf19c8a97e5269475be51",
+          "bytes": 62962
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "bc-roma-reyer-venezia-98-104-17-ottobre-2026",
+      "article": "/notizie/bc-roma-reyer-venezia-98-104-17-ottobre-2026.html",
+      "alt": "La Reyer Venezia completa una rimonta su un parquet romano, illustrazione editoriale IA non documentaria.",
+      "prompt": "Illustrazione editoriale dedicata, senza testo o loghi, generata per il singolo articolo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/bc-roma-reyer-venezia-98-104-17-ottobre-2026-v874-480.webp",
+          "sha256": "983eff713eb4368345c8032aafa2f321a607fb36e3515e83b98a3bf4045a4dc9",
+          "bytes": 38830
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/bc-roma-reyer-venezia-98-104-17-ottobre-2026-v874-800.webp",
+          "sha256": "1d43ec5e7cdd3421c8db26ee1fe1fb4db12bf5a31ba88f8221afe3d9d706ca9a",
+          "bytes": 81656
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/bc-roma-reyer-venezia-98-104-17-ottobre-2026-v874-1200.webp",
+          "sha256": "a822cf2e2a6380035a876826dc33b75bc5ed9a8cbb25b890f0edc1fbc63959a1",
+          "bytes": 139282
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "mantova-palermo-0-2-serie-b-17-ottobre-2026",
+      "article": "/notizie/mantova-palermo-0-2-serie-b-17-ottobre-2026.html",
+      "alt": "Una squadra in rosa e nero festeggia sotto i riflettori a Mantova, illustrazione editoriale IA non documentaria.",
+      "prompt": "Illustrazione editoriale dedicata, senza testo o loghi, generata per il singolo articolo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/mantova-palermo-0-2-serie-b-17-ottobre-2026-v874-480.webp",
+          "sha256": "11ae877b012602498b37b4dbd953480d8d545d1c4878dcff96a4a0df5da1ab22",
+          "bytes": 25826
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/mantova-palermo-0-2-serie-b-17-ottobre-2026-v874-800.webp",
+          "sha256": "a4ab95d9d2ff9b852281284396576610f75dcd57ff7a5c14d6aee8661f171cd1",
+          "bytes": 54800
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/mantova-palermo-0-2-serie-b-17-ottobre-2026-v874-1200.webp",
+          "sha256": "3dba0038fcc59ad8c73a22f08de83f43cfdc25d506dff4381c9fac2a4f678bf4",
+          "bytes": 94580
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "italia-spagna-controlli-schengen-22-ottobre-2026",
+      "article": "/notizie/italia-spagna-controlli-schengen-22-ottobre-2026.html",
+      "alt": "Un varco aeroportuale tra bandiere italiane e spagnole, illustrazione editoriale IA non documentaria.",
+      "prompt": "Illustrazione editoriale dedicata, senza testo o loghi, generata per il singolo articolo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/italia-spagna-controlli-schengen-22-ottobre-2026-v874-480.webp",
+          "sha256": "fb055f4b330bfb877edde87d4d6f64d29297fc6e2dd27dc46bc6fd9aac3d62ba",
+          "bytes": 19474
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/italia-spagna-controlli-schengen-22-ottobre-2026-v874-800.webp",
+          "sha256": "27b788ae01e21b340f316a76382dbdd6d737b48dc28642c9b415694f2b3f5545",
+          "bytes": 36034
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/italia-spagna-controlli-schengen-22-ottobre-2026-v874-1200.webp",
+          "sha256": "291246acb1a20be8ba87eab131da56372d1b5001df42c6576b97489101fbe573",
+          "bytes": 58030
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "biennale-arte-venezia-programma-finale-novembre-2026",
+      "article": "/notizie/biennale-arte-venezia-programma-finale-novembre-2026.html",
+      "alt": "Visitatori e performer negli spazi dell’Arsenale di Venezia, illustrazione editoriale IA non documentaria.",
+      "prompt": "Illustrazione editoriale dedicata, senza testo o loghi, generata per il singolo articolo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/biennale-arte-venezia-programma-finale-novembre-2026-v874-480.webp",
+          "sha256": "e35abd32dc2470e4a9363eac40e5e64ec16a4730834d729c604ce7f92a29f6aa",
+          "bytes": 33178
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/biennale-arte-venezia-programma-finale-novembre-2026-v874-800.webp",
+          "sha256": "aacedc64eb5ea8f885bf45174ee6d28f668815b47d38868c8f2169bfd6959c56",
+          "bytes": 78132
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/biennale-arte-venezia-programma-finale-novembre-2026-v874-1200.webp",
+          "sha256": "f9e182ab6a817f21af34a078ef8adac66707337122f6d42db40a4c9065ba9a0a",
+          "bytes": 153026
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "royal-blood-milano-alcatraz-5-marzo-2027",
+      "article": "/notizie/royal-blood-milano-alcatraz-5-marzo-2027.html",
+      "alt": "Un duo rock suona in un club industriale milanese, illustrazione editoriale IA non documentaria.",
+      "prompt": "Illustrazione editoriale dedicata, senza testo o loghi, generata per il singolo articolo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/royal-blood-milano-alcatraz-5-marzo-2027-v874-480.webp",
+          "sha256": "9b77143898a4f2f36475d57571280944a3b864fb85ad41220090a6a4c1a4778a",
+          "bytes": 23798
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/royal-blood-milano-alcatraz-5-marzo-2027-v874-800.webp",
+          "sha256": "9aeecd86261c5a64029c23ab8a7a6edbfcec6dcae8da45219f44788c0e123a12",
+          "bytes": 53822
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/royal-blood-milano-alcatraz-5-marzo-2027-v874-1200.webp",
+          "sha256": "88a12046073c6a387d9e0e01a334ebb538798a84fad7ded052569061d857f2ce",
+          "bytes": 97678
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "hilary-duff-milano-unipol-dome-10-maggio-2027",
+      "article": "/notizie/hilary-duff-milano-unipol-dome-10-maggio-2027.html",
+      "alt": "Una cantante pop su un grande palco milanese, illustrazione editoriale IA non documentaria.",
+      "prompt": "Illustrazione editoriale dedicata, senza testo o loghi, generata per il singolo articolo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/hilary-duff-milano-unipol-dome-10-maggio-2027-v874-480.webp",
+          "sha256": "62cbbe708f3924a8a75e72059ff80c453672532bb005cf9cd18c4e06907745a8",
+          "bytes": 27034
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/hilary-duff-milano-unipol-dome-10-maggio-2027-v874-800.webp",
+          "sha256": "056e8525c0a9c01746e91516ef39862457384b8e65ab77c884b47ec81807350e",
+          "bytes": 58662
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/hilary-duff-milano-unipol-dome-10-maggio-2027-v874-1200.webp",
+          "sha256": "2dec63714327783fb5a5ea540a61a443cd7fd55198a0e5f3c77278a2d37ce25e",
+          "bytes": 102726
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "play-dirty-triplo-gioco-sky-19-ottobre-2026",
+      "article": "/notizie/play-dirty-triplo-gioco-sky-19-ottobre-2026.html",
+      "alt": "Un ladro pianifica un colpo notturno a New York, illustrazione editoriale IA non documentaria.",
+      "prompt": "Illustrazione editoriale dedicata, senza testo o loghi, generata per il singolo articolo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/play-dirty-triplo-gioco-sky-19-ottobre-2026-v874-480.webp",
+          "sha256": "a5575fccc369f60569f65916b1eddbe1fbfb18cb250612e6610ae00190465f27",
+          "bytes": 25554
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/play-dirty-triplo-gioco-sky-19-ottobre-2026-v874-800.webp",
+          "sha256": "12631352a9ebdb36c8bb1fa441604cc5437a672014442dc0128c068e9b671441",
+          "bytes": 59338
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/play-dirty-triplo-gioco-sky-19-ottobre-2026-v874-1200.webp",
+          "sha256": "72cf066f7e55fe9874346793a42a85e53232ca2631606aff54c76a030124c9cf",
+          "bytes": 107428
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "tuner-accordatore-sky-18-ottobre-2026",
+      "article": "/notizie/tuner-accordatore-sky-18-ottobre-2026.html",
+      "alt": "Un giovane accordatore davanti alle corde di un pianoforte, illustrazione editoriale IA non documentaria.",
+      "prompt": "Illustrazione editoriale dedicata, senza testo o loghi, generata per il singolo articolo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/tuner-accordatore-sky-18-ottobre-2026-v874-480.webp",
+          "sha256": "366d543bcfab57593493a50abc47638a80f10fc75dc42f02ac625ce0d25cafd6",
+          "bytes": 18342
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/tuner-accordatore-sky-18-ottobre-2026-v874-800.webp",
+          "sha256": "1575bbd4564cc672ec2a8f60d867640bcae1f7040088082928e14b52651a0d35",
+          "bytes": 37226
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/tuner-accordatore-sky-18-ottobre-2026-v874-1200.webp",
+          "sha256": "d32a8e21211c0cd215f80dc16fc1658663efaa6a03228ae8dadcc102faa830f3",
+          "bytes": 63762
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "vigil-stagione-3-sky-18-ottobre-2026",
+      "article": "/notizie/vigil-stagione-3-sky-18-ottobre-2026.html",
+      "alt": "Due investigatrici in una base di ricerca artica, illustrazione editoriale IA non documentaria.",
+      "prompt": "Illustrazione editoriale dedicata, senza testo o loghi, generata per il singolo articolo.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/vigil-stagione-3-sky-18-ottobre-2026-v874-480.webp",
+          "sha256": "7a50b9c60388f5dde499f4bff8bd4107dbe9b32794630e1fa192a28ce0e16588",
+          "bytes": 19046
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/vigil-stagione-3-sky-18-ottobre-2026-v874-800.webp",
+          "sha256": "e3b08e3e4951efc46088565c93358f08324fd559cc10980f8db52623c92e3ad6",
+          "bytes": 39020
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/vigil-stagione-3-sky-18-ottobre-2026-v874-1200.webp",
+          "sha256": "f0a44cdc352e4ce6f73ee175f8b19d00fb5d736d05be41d1c52b25cb27db997c",
+          "bytes": 67598
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
     {
       "id": "america-latina-fmi-debito-crescita-produttivita-2026",
       "article": "/notizie/america-latina-fmi-debito-crescita-produttivita-2026.html",
