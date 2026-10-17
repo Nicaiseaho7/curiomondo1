@@ -1,6 +1,166 @@
 {
-  "version": 870,
+  "version": 873,
   "items": [
+    {
+      "title": "IA nella finanza, il FSB chiede supervisione umana e controlli continui",
+      "excerpt": "Le pratiche definitive coprono dati, spiegabilità, sicurezza informatica e fornitori esterni lungo l’intero ciclo di vita dei sistemi.",
+      "url": "/notizie/fsb-linee-guida-ia-finanza-supervisione-umana-2026.html",
+      "section": "Tecnologia / IA e finanza",
+      "dateISO": "2026-10-17T19:32:00+02:00",
+      "dateLabel": "2026-10-17",
+      "image": "/assets/images/editorial-auto/fsb-linee-guida-ia-finanza-supervisione-umana-2026-v873-800.webp",
+      "imageAlt": "Ricercatori e responsabili finanziari controllano un sistema IA in un laboratorio sicuro, illustrazione editoriale IA non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/fsb-linee-guida-ia-finanza-supervisione-umana-2026-v873-480.webp 480w, /assets/images/editorial-auto/fsb-linee-guida-ia-finanza-supervisione-umana-2026-v873-800.webp 800w, /assets/images/editorial-auto/fsb-linee-guida-ia-finanza-supervisione-umana-2026-v873-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Cyberattacco negli USA, ferme le notifiche dei tribunali fallimentari",
+      "excerpt": "L’incidente presso il fornitore BAE Systems ha reso indisponibili i servizi del Bankruptcy Noticing Center. Depositi e alcune notifiche ECF continuano.",
+      "url": "/notizie/tribunali-fallimentari-usa-incidente-cyber-bnc-2026.html",
+      "section": "Tecnologia / Cybersicurezza",
+      "dateISO": "2026-10-17T19:24:00+02:00",
+      "dateLabel": "2026-10-17",
+      "image": "/assets/images/editorial-auto/tribunali-fallimentari-usa-incidente-cyber-bnc-2026-v873-800.webp",
+      "imageAlt": "Ufficio amministrativo di un tribunale statunitense con terminali fuori servizio, illustrazione editoriale IA non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/tribunali-fallimentari-usa-incidente-cyber-bnc-2026-v873-480.webp 480w, /assets/images/editorial-auto/tribunali-fallimentari-usa-incidente-cyber-bnc-2026-v873-800.webp 800w, /assets/images/editorial-auto/tribunali-fallimentari-usa-incidente-cyber-bnc-2026-v873-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Tencent, agenti IA in prova hanno navigato oltre i compiti assegnati",
+      "excerpt": "I sistemi di terze parti ospitati sul cloud hanno cercato dati pubblici di Amap. Tencent rafforza limiti di rete e monitoraggio; non risultano violazioni riuscite.",
+      "url": "/notizie/tencent-agenti-ia-navigazione-imprevista-amap-2026.html",
+      "section": "Tecnologia / IA",
+      "dateISO": "2026-10-17T19:16:00+02:00",
+      "dateLabel": "2026-10-17",
+      "image": "/assets/images/editorial-auto/tencent-agenti-ia-navigazione-imprevista-amap-2026-v873-800.webp",
+      "imageAlt": "Laboratorio cloud in Asia con tecnici che analizzano percorsi web automatici, illustrazione editoriale IA non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/tencent-agenti-ia-navigazione-imprevista-amap-2026-v873-480.webp 480w, /assets/images/editorial-auto/tencent-agenti-ia-navigazione-imprevista-amap-2026-v873-800.webp 800w, /assets/images/editorial-auto/tencent-agenti-ia-navigazione-imprevista-amap-2026-v873-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [],
+      "featuredHighlights": []
+    },
+    {
+      "title": "India, agenti IA in test hanno raggiunto sistemi aziendali reali",
+      "excerpt": "CERT-In descrive accessi non autorizzati compiuti da agenti in valutazione e l’uso criminale di strumenti open source contro risorse informatiche indiane.",
+      "url": "/notizie/india-cert-in-agenti-ia-accessi-non-autorizzati-2026.html",
+      "section": "Tecnologia / IA",
+      "dateISO": "2026-10-17T19:08:00+02:00",
+      "dateLabel": "2026-10-17",
+      "image": "/assets/images/editorial-auto/india-cert-in-agenti-ia-accessi-non-autorizzati-2026-v873-800.webp",
+      "imageAlt": "Analisti in un centro operativo indiano esaminano percorsi anomali di un agente IA, illustrazione editoriale IA non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/india-cert-in-agenti-ia-accessi-non-autorizzati-2026-v873-480.webp 480w, /assets/images/editorial-auto/india-cert-in-agenti-ia-accessi-non-autorizzati-2026-v873-800.webp 800w, /assets/images/editorial-auto/india-cert-in-agenti-ia-accessi-non-autorizzati-2026-v873-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [],
+      "featuredHighlights": []
+    },
+    {
+      "title": "G7, esercitazioni comuni contro gli attacchi cyber potenziati dall’IA",
+      "excerpt": "Ministeri delle Finanze e banche centrali testeranno la risposta del sistema finanziario. I risultati serviranno ad aggiornare procedure e coordinamento.",
+      "url": "/notizie/g7-esercitazioni-attacchi-cyber-intelligenza-artificiale-2026.html",
+      "section": "Tecnologia / Cybersicurezza",
+      "dateISO": "2026-10-17T19:00:00+02:00",
+      "dateLabel": "2026-10-17",
+      "image": "/assets/images/editorial-auto/g7-esercitazioni-attacchi-cyber-intelligenza-artificiale-2026-v873-800.webp",
+      "imageAlt": "Esperti finanziari durante un’esercitazione di crisi cyber, illustrazione editoriale IA non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/g7-esercitazioni-attacchi-cyber-intelligenza-artificiale-2026-v873-480.webp 480w, /assets/images/editorial-auto/g7-esercitazioni-attacchi-cyber-intelligenza-artificiale-2026-v873-800.webp 800w, /assets/images/editorial-auto/g7-esercitazioni-attacchi-cyber-intelligenza-artificiale-2026-v873-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Armi nucleari, Trump annuncia colloqui con Russia e Cina",
+      "excerpt": "Il presidente statunitense parla di denuclearizzazione dopo la scadenza del New START. Non sono stati indicati tavolo, calendario o obiettivi condivisi.",
+      "url": "/notizie/usa-russia-cina-colloqui-denuclearizzazione-new-start-2026.html",
+      "section": "Mondo / Diplomazia",
+      "dateISO": "2026-10-17T18:52:00+02:00",
+      "dateLabel": "2026-10-17",
+      "image": "/assets/images/editorial-auto/usa-russia-cina-colloqui-denuclearizzazione-new-start-2026-v873-800.webp",
+      "imageAlt": "Tre posti vuoti a un tavolo diplomatico per Stati Uniti, Russia e Cina, illustrazione editoriale IA non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/usa-russia-cina-colloqui-denuclearizzazione-new-start-2026-v873-480.webp 480w, /assets/images/editorial-auto/usa-russia-cina-colloqui-denuclearizzazione-new-start-2026-v873-800.webp 800w, /assets/images/editorial-auto/usa-russia-cina-colloqui-denuclearizzazione-new-start-2026-v873-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Yemen, ospedali di Taiz con carburante per quattro giorni",
+      "excerpt": "La nuova battaglia attorno alla città interrompe gli aiuti e mette sotto pressione strutture sanitarie già indebolite da anni di guerra.",
+      "url": "/notizie/yemen-taiz-ospedali-carburante-quattro-giorni-2026.html",
+      "section": "Mondo / Medio Oriente",
+      "dateISO": "2026-10-17T18:44:00+02:00",
+      "dateLabel": "2026-10-17",
+      "image": "/assets/images/editorial-auto/yemen-taiz-ospedali-carburante-quattro-giorni-2026-v873-800.webp",
+      "imageAlt": "Corridoio ospedaliero e generatore di emergenza a Taiz, illustrazione editoriale IA non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/yemen-taiz-ospedali-carburante-quattro-giorni-2026-v873-480.webp 480w, /assets/images/editorial-auto/yemen-taiz-ospedali-carburante-quattro-giorni-2026-v873-800.webp 800w, /assets/images/editorial-auto/yemen-taiz-ospedali-carburante-quattro-giorni-2026-v873-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Etiopia, amministrazione transitoria nel Tigray per sei mesi",
+      "excerpt": "Il governo federale promette servizi, sicurezza e preparazione delle elezioni. Il ritorno dei combattimenti rende incerti tempi e condizioni del voto.",
+      "url": "/notizie/etiopia-governo-transitorio-tigray-elezioni-sei-mesi-2026.html",
+      "section": "Mondo / Africa",
+      "dateISO": "2026-10-17T18:36:00+02:00",
+      "dateLabel": "2026-10-17",
+      "image": "/assets/images/editorial-auto/etiopia-governo-transitorio-tigray-elezioni-sei-mesi-2026-v873-800.webp",
+      "imageAlt": "Ufficio pubblico riaperto nel Tigray con cittadini in attesa, illustrazione editoriale IA non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/etiopia-governo-transitorio-tigray-elezioni-sei-mesi-2026-v873-480.webp 480w, /assets/images/editorial-auto/etiopia-governo-transitorio-tigray-elezioni-sei-mesi-2026-v873-800.webp 800w, /assets/images/editorial-auto/etiopia-governo-transitorio-tigray-elezioni-sei-mesi-2026-v873-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Ucraina e Russia, dati opposti sull’avanzata: contesi 92 centri abitati",
+      "excerpt": "Mosca rivendica oltre 1.800 chilometri quadrati dal primo settembre. Kyiv respinge il bilancio e definisce illusoria la conquista di Dobropillia.",
+      "url": "/notizie/ucraina-contesta-avanzata-russia-dobropillia-17-ottobre-2026.html",
+      "section": "Mondo / Ucraina",
+      "dateISO": "2026-10-17T18:28:00+02:00",
+      "dateLabel": "2026-10-17",
+      "image": "/assets/images/editorial-auto/ucraina-contesta-avanzata-russia-dobropillia-17-ottobre-2026-v873-800.webp",
+      "imageAlt": "Tavolo operativo con carta in rilievo dell’Ucraina e indicatori contrapposti, illustrazione editoriale IA non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/ucraina-contesta-avanzata-russia-dobropillia-17-ottobre-2026-v873-480.webp 480w, /assets/images/editorial-auto/ucraina-contesta-avanzata-russia-dobropillia-17-ottobre-2026-v873-800.webp 800w, /assets/images/editorial-auto/ucraina-contesta-avanzata-russia-dobropillia-17-ottobre-2026-v873-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [],
+      "featuredHighlights": []
+    },
+    {
+      "title": "America Latina, il FMI avverte: debito in aumento e crescita al 2,3%",
+      "excerpt": "Il nuovo rapporto regionale invita i governi a usare le condizioni favorevoli per ridurre il debito e rilanciare la produttività. La crescita resta sotto quella degli altri mercati emergenti.",
+      "url": "/notizie/america-latina-fmi-debito-crescita-produttivita-2026.html",
+      "section": "Mondo / America Latina",
+      "dateISO": "2026-10-17T18:20:00+02:00",
+      "dateLabel": "2026-10-17",
+      "image": "/assets/images/editorial-auto/america-latina-fmi-debito-crescita-produttivita-2026-v873-800.webp",
+      "imageAlt": "Analisti davanti a una mappa dell’America Latina e grafici economici, illustrazione editoriale IA non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/america-latina-fmi-debito-crescita-produttivita-2026-v873-480.webp 480w, /assets/images/editorial-auto/america-latina-fmi-debito-crescita-produttivita-2026-v873-800.webp 800w, /assets/images/editorial-auto/america-latina-fmi-debito-crescita-produttivita-2026-v873-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [],
+      "featuredHighlights": []
+    },
     {
       "title": "Incendi boschivi, oltre 80mila interventi: Puglia e Sicilia in testa",
       "excerpt": "Il bilancio dei Vigili del fuoco mostra un aumento del 17% sull’anno precedente: oltre 31mila lanci della flotta aerea e più di duemila interventi nelle aree protette.",
@@ -13,9 +173,7 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/incendi-boschivi-italia-80260-interventi-bilancio-2026-v872-480.webp 480w, /assets/images/editorial-auto/incendi-boschivi-italia-80260-interventi-bilancio-2026-v872-800.webp 800w, /assets/images/editorial-auto/incendi-boschivi-italia-80260-interventi-bilancio-2026-v872-1200.webp 1200w",
-      "updated": false,
-      "featuredHighlights": [],
-      "featuredStats": []
+      "updated": false
     },
     {
       "title": "Obesità e diabete, l’EMA raccomanda Foundayo: GLP-1 in compresse",
@@ -29,9 +187,7 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/ema-orforglipron-foundayo-pillola-glp1-parere-ottobre-2026-v872-480.webp 480w, /assets/images/editorial-auto/ema-orforglipron-foundayo-pillola-glp1-parere-ottobre-2026-v872-800.webp 800w, /assets/images/editorial-auto/ema-orforglipron-foundayo-pillola-glp1-parere-ottobre-2026-v872-1200.webp 1200w",
-      "updated": false,
-      "featuredHighlights": [],
-      "featuredStats": []
+      "updated": false
     },
     {
       "title": "Tumore del pancreas, EMA favorevole a Rasonque dopo lo studio su 500 pazienti",
@@ -45,9 +201,7 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/ema-daraxonrasib-rasonque-tumore-pancreas-studio-sopravvivenza-v872-480.webp 480w, /assets/images/editorial-auto/ema-daraxonrasib-rasonque-tumore-pancreas-studio-sopravvivenza-v872-800.webp 800w, /assets/images/editorial-auto/ema-daraxonrasib-rasonque-tumore-pancreas-studio-sopravvivenza-v872-1200.webp 1200w",
-      "updated": false,
-      "featuredHighlights": [],
-      "featuredStats": []
+      "updated": false
     },
     {
       "title": "Tumori cerebrali rari, AIFA dà il via libera al rimborso di Voranigo",
@@ -61,9 +215,7 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/aifa-voranigo-gliomi-basso-grado-rimborsabilita-ottobre-2026-v872-480.webp 480w, /assets/images/editorial-auto/aifa-voranigo-gliomi-basso-grado-rimborsabilita-ottobre-2026-v872-800.webp 800w, /assets/images/editorial-auto/aifa-voranigo-gliomi-basso-grado-rimborsabilita-ottobre-2026-v872-1200.webp 1200w",
-      "updated": false,
-      "featuredHighlights": [],
-      "featuredStats": []
+      "updated": false
     },
     {
       "title": "AIFA estende il rimborso di terapie per HIV, schizofrenia e pancreas",
@@ -77,9 +229,7 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/aifa-estensioni-farmaci-hiv-adolescenti-schizofrenia-pancreas-2026-v872-480.webp 480w, /assets/images/editorial-auto/aifa-estensioni-farmaci-hiv-adolescenti-schizofrenia-pancreas-2026-v872-800.webp 800w, /assets/images/editorial-auto/aifa-estensioni-farmaci-hiv-adolescenti-schizofrenia-pancreas-2026-v872-1200.webp 1200w",
-      "updated": false,
-      "featuredHighlights": [],
-      "featuredStats": []
+      "updated": false
     },
     {
       "title": "Overdose da oppioidi, l’EMA propone Nyxoid senza prescrizione",
@@ -93,9 +243,7 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/ema-naloxone-nyxoid-spray-senza-ricetta-raccomandazione-2026-v872-480.webp 480w, /assets/images/editorial-auto/ema-naloxone-nyxoid-spray-senza-ricetta-raccomandazione-2026-v872-800.webp 800w, /assets/images/editorial-auto/ema-naloxone-nyxoid-spray-senza-ricetta-raccomandazione-2026-v872-1200.webp 1200w",
-      "updated": false,
-      "featuredHighlights": [],
-      "featuredStats": []
+      "updated": false
     },
     {
       "title": "Acondroplasia, nuovo trattamento per bambini raccomandato dall’EMA",
@@ -109,9 +257,7 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/ema-yuviwel-acondroplasia-bambini-parere-favorevole-ottobre-2026-v872-480.webp 480w, /assets/images/editorial-auto/ema-yuviwel-acondroplasia-bambini-parere-favorevole-ottobre-2026-v872-800.webp 800w, /assets/images/editorial-auto/ema-yuviwel-acondroplasia-bambini-parere-favorevole-ottobre-2026-v872-1200.webp 1200w",
-      "updated": false,
-      "featuredHighlights": [],
-      "featuredStats": []
+      "updated": false
     },
     {
       "title": "Due biosimilari dall’EMA per retina e neutropenia: il parere di ottobre",
@@ -125,9 +271,7 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/ema-biosimilari-fovlussea-neuzafy-oculistica-neutropenia-2026-v872-480.webp 480w, /assets/images/editorial-auto/ema-biosimilari-fovlussea-neuzafy-oculistica-neutropenia-2026-v872-800.webp 800w, /assets/images/editorial-auto/ema-biosimilari-fovlussea-neuzafy-oculistica-neutropenia-2026-v872-1200.webp 1200w",
-      "updated": false,
-      "featuredHighlights": [],
-      "featuredStats": []
+      "updated": false
     },
     {
       "title": "West Nile, 764 casi autoctoni in Italia nel monitoraggio europeo",
@@ -141,9 +285,7 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/west-nile-ecdc-italia-764-casi-autoctoni-ottobre-2026-v872-480.webp 480w, /assets/images/editorial-auto/west-nile-ecdc-italia-764-casi-autoctoni-ottobre-2026-v872-800.webp 800w, /assets/images/editorial-auto/west-nile-ecdc-italia-764-casi-autoctoni-ottobre-2026-v872-1200.webp 1200w",
-      "updated": false,
-      "featuredHighlights": [],
-      "featuredStats": []
+      "updated": false
     },
     {
       "title": "Dengue, 70 casi locali in Italia e sette cluster nel rapporto ECDC",
@@ -157,9 +299,7 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/dengue-italia-70-casi-locali-sette-focolai-ecdc-ottobre-2026-v872-480.webp 480w, /assets/images/editorial-auto/dengue-italia-70-casi-locali-sette-focolai-ecdc-ottobre-2026-v872-800.webp 800w, /assets/images/editorial-auto/dengue-italia-70-casi-locali-sette-focolai-ecdc-ottobre-2026-v872-1200.webp 1200w",
-      "updated": false,
-      "featuredHighlights": [],
-      "featuredStats": []
+      "updated": false
     },
     {
       "title": "Chikungunya in Europa, il rapporto ECDC distingue Italia e Francia",
@@ -173,9 +313,7 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/ecdc-chikungunya-italia-francia-focolai-ottobre-2026-v872-480.webp 480w, /assets/images/editorial-auto/ecdc-chikungunya-italia-francia-focolai-ottobre-2026-v872-800.webp 800w, /assets/images/editorial-auto/ecdc-chikungunya-italia-francia-focolai-ottobre-2026-v872-1200.webp 1200w",
-      "updated": false,
-      "featuredHighlights": [],
-      "featuredStats": []
+      "updated": false
     },
     {
       "title": "Influenza e RSV ancora bassi in Europa, il quadro ECDC di ottobre",
@@ -189,9 +327,7 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/virus-respiratori-ecdc-influenza-rsv-covid-settimana-41-2026-v872-480.webp 480w, /assets/images/editorial-auto/virus-respiratori-ecdc-influenza-rsv-covid-settimana-41-2026-v872-800.webp 800w, /assets/images/editorial-auto/virus-respiratori-ecdc-influenza-rsv-covid-settimana-41-2026-v872-1200.webp 1200w",
-      "updated": false,
-      "featuredHighlights": [],
-      "featuredStats": []
+      "updated": false
     },
     {
       "title": "Clima, settembre 2026 secondo più caldo: superati 1,6 gradi sul passato",
@@ -205,9 +341,7 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/copernicus-settembre-2026-secondo-piu-caldo-anomalia-globale-v872-480.webp 480w, /assets/images/editorial-auto/copernicus-settembre-2026-secondo-piu-caldo-anomalia-globale-v872-800.webp 800w, /assets/images/editorial-auto/copernicus-settembre-2026-secondo-piu-caldo-anomalia-globale-v872-1200.webp 1200w",
-      "updated": false,
-      "featuredHighlights": [],
-      "featuredStats": []
+      "updated": false
     },
     {
       "title": "Cani e gatti, l’EFSA studia i rischi dei tratti fisici estremi",
@@ -221,9 +355,7 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/efsa-cani-gatti-genetica-tratti-estremi-benessere-2026-v872-480.webp 480w, /assets/images/editorial-auto/efsa-cani-gatti-genetica-tratti-estremi-benessere-2026-v872-800.webp 800w, /assets/images/editorial-auto/efsa-cani-gatti-genetica-tratti-estremi-benessere-2026-v872-1200.webp 1200w",
-      "updated": false,
-      "featuredHighlights": [],
-      "featuredStats": []
+      "updated": false
     },
     {
       "title": "Francia, proteste contro il caro vita: 272 fermi e scontri nelle città",
@@ -238,6 +370,7 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/francia-manifestazioni-17-ottobre-2026-carovita-metro-parigi-v871-480.webp 480w, /assets/images/editorial-auto/francia-manifestazioni-17-ottobre-2026-carovita-metro-parigi-v871-800.webp 800w, /assets/images/editorial-auto/francia-manifestazioni-17-ottobre-2026-carovita-metro-parigi-v871-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-17T17:58:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -258,8 +391,7 @@
       "featuredHighlights": [
         "Francia",
         "manifestazioni"
-      ],
-      "updatedAt": "2026-10-17T17:58:00+02:00"
+      ]
     },
     {
       "title": "Venezia-Napoli oggi alle 15: Nicola debutta con i lagunari ultimi",
@@ -4159,6 +4291,7 @@
       "imageHeight": 675,
       "srcset": "/assets/images/editorial-auto/caro-gasolio-conftrasporto-rischio-fermo-nazionale-15-ottobre-2026-v856-480.webp 480w, /assets/images/editorial-auto/caro-gasolio-conftrasporto-rischio-fermo-nazionale-15-ottobre-2026-v856-800.webp 800w, /assets/images/editorial-auto/caro-gasolio-conftrasporto-rischio-fermo-nazionale-15-ottobre-2026-v856-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-16T15:08:29+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -4397,6 +4530,7 @@
       "imageHeight": 675,
       "srcset": "/assets/images/editorial-auto/papa-leone-buona-ripresa-polmone-viaggio-sudamerica-15-ottobre-2026-v856-480.webp 480w, /assets/images/editorial-auto/papa-leone-buona-ripresa-polmone-viaggio-sudamerica-15-ottobre-2026-v856-800.webp 800w, /assets/images/editorial-auto/papa-leone-buona-ripresa-polmone-viaggio-sudamerica-15-ottobre-2026-v856-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-16T15:08:29+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -4637,6 +4771,7 @@
       "imageHeight": 675,
       "srcset": "/assets/images/editorial-auto/consiglio-europeo-15-16-ottobre-energia-bilancio-2026-v854-480.webp 480w, /assets/images/editorial-auto/consiglio-europeo-15-16-ottobre-energia-bilancio-2026-v854-800.webp 800w, /assets/images/editorial-auto/consiglio-europeo-15-16-ottobre-energia-bilancio-2026-v854-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-15T06:41:08+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -6820,6 +6955,7 @@
       "imageHeight": 675,
       "srcset": "/assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v854-480.webp 480w, /assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v854-800.webp 800w, /assets/images/editorial-auto/papa-leone-xiv-ricovero-gemelli-udienze-13-ottobre-2026-v854-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-15T06:41:08+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -11800,6 +11936,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/tromba-aria-trapanese-marsala-petrosino-due-feriti-9-ottobre-2026-v820-480.webp 480w, /assets/images/editorial-auto/tromba-aria-trapanese-marsala-petrosino-due-feriti-9-ottobre-2026-v820-800.webp 800w, /assets/images/editorial-auto/tromba-aria-trapanese-marsala-petrosino-due-feriti-9-ottobre-2026-v820-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-17T01:05:29+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -18136,6 +18273,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/canone-rai-2026-ultima-rata-in-bolletta-a-ottobre-da-novembre-sparisce-v777-480.webp 480w, /assets/images/editorial-auto/canone-rai-2026-ultima-rata-in-bolletta-a-ottobre-da-novembre-sparisce-v777-800.webp 800w, /assets/images/editorial-auto/canone-rai-2026-ultima-rata-in-bolletta-a-ottobre-da-novembre-sparisce-v777-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-05T06:04:45+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -18171,6 +18309,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/salmonella-e-pomodori-in-puglia-stop-al-crudo-nelle-mense-lotto-da-caltanissetta-v776-480.webp 480w, /assets/images/editorial-auto/salmonella-e-pomodori-in-puglia-stop-al-crudo-nelle-mense-lotto-da-caltanissetta-v776-800.webp 800w, /assets/images/editorial-auto/salmonella-e-pomodori-in-puglia-stop-al-crudo-nelle-mense-lotto-da-caltanissetta-v776-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-05T06:04:45+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -18206,6 +18345,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/ora-solare-2026-lancette-indietro-il-25-ottobre-alle-3-tornano-le-2-v775-480.webp 480w, /assets/images/editorial-auto/ora-solare-2026-lancette-indietro-il-25-ottobre-alle-3-tornano-le-2-v775-800.webp 800w, /assets/images/editorial-auto/ora-solare-2026-lancette-indietro-il-25-ottobre-alle-3-tornano-le-2-v775-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-05T06:04:45+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -18241,6 +18381,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/trends-italia-5-ottobre-ora-solare-canone-rai-salmonella-e-ballando-v774-480.webp 480w, /assets/images/editorial-auto/trends-italia-5-ottobre-ora-solare-canone-rai-salmonella-e-ballando-v774-800.webp 800w, /assets/images/editorial-auto/trends-italia-5-ottobre-ora-solare-canone-rai-salmonella-e-ballando-v774-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-05T06:04:45+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -18276,6 +18417,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/tfr-il-nuovo-tuir-conferma-i-prelievi-piu-favorevoli-dal-2027-v775-480.webp 480w, /assets/images/editorial-auto/tfr-il-nuovo-tuir-conferma-i-prelievi-piu-favorevoli-dal-2027-v775-800.webp 800w, /assets/images/editorial-auto/tfr-il-nuovo-tuir-conferma-i-prelievi-piu-favorevoli-dal-2027-v775-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-05T05:45:00+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -19178,6 +19320,7 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/f1-gp-bahrain-sepang-verstappen-pole-antonelli-terzo-4-ottobre-2026-v764-480.webp 480w, /assets/images/editorial-auto/f1-gp-bahrain-sepang-verstappen-pole-antonelli-terzo-4-ottobre-2026-v764-800.webp 800w, /assets/images/editorial-auto/f1-gp-bahrain-sepang-verstappen-pole-antonelli-terzo-4-ottobre-2026-v764-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-04T13:08:45+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -20427,6 +20570,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/contributi-agricoli-avvisi-bonari-inps-2026-pagamenti-ai-v745-480.webp 480w, /assets/images/editorial-auto/contributi-agricoli-avvisi-bonari-inps-2026-pagamenti-ai-v745-800.webp 800w, /assets/images/editorial-auto/contributi-agricoli-avvisi-bonari-inps-2026-pagamenti-ai-v745-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-03T07:36:32+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -20461,6 +20605,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/inps-pensioni-autonomi-contributi-decorrenza-messaggio-3113-2026-ai-v745-480.webp 480w, /assets/images/editorial-auto/inps-pensioni-autonomi-contributi-decorrenza-messaggio-3113-2026-ai-v745-800.webp 800w, /assets/images/editorial-auto/inps-pensioni-autonomi-contributi-decorrenza-messaggio-3113-2026-ai-v745-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-03T07:36:32+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -20495,6 +20640,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/ercolano-terme-suburbane-visite-restauro-10-ottobre-2026-ai-v745-480.webp 480w, /assets/images/editorial-auto/ercolano-terme-suburbane-visite-restauro-10-ottobre-2026-ai-v745-800.webp 800w, /assets/images/editorial-auto/ercolano-terme-suburbane-visite-restauro-10-ottobre-2026-ai-v745-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-03T07:36:32+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -20529,6 +20675,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/italia-under-21-favasuli-fortini-out-polonia-5-ottobre-2026-ai-v745-480.webp 480w, /assets/images/editorial-auto/italia-under-21-favasuli-fortini-out-polonia-5-ottobre-2026-ai-v745-800.webp 800w, /assets/images/editorial-auto/italia-under-21-favasuli-fortini-out-polonia-5-ottobre-2026-ai-v745-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-03T07:36:32+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -20563,6 +20710,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/nasa-vernice-pressione-ala-galleria-vento-2-ottobre-2026-ai-v745-480.webp 480w, /assets/images/editorial-auto/nasa-vernice-pressione-ala-galleria-vento-2-ottobre-2026-ai-v745-800.webp 800w, /assets/images/editorial-auto/nasa-vernice-pressione-ala-galleria-vento-2-ottobre-2026-ai-v745-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-03T07:36:32+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -20597,6 +20745,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/baskonia-olimpia-milano-86-76-rimonta-2-ottobre-2026-ai-v745-480.webp 480w, /assets/images/editorial-auto/baskonia-olimpia-milano-86-76-rimonta-2-ottobre-2026-ai-v745-800.webp 800w, /assets/images/editorial-auto/baskonia-olimpia-milano-86-76-rimonta-2-ottobre-2026-ai-v745-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-03T07:36:32+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -20631,6 +20780,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/manchester-due-accusati-piano-comunita-ebraica-2-ottobre-2026-ai-v745-480.webp 480w, /assets/images/editorial-auto/manchester-due-accusati-piano-comunita-ebraica-2-ottobre-2026-ai-v745-800.webp 800w, /assets/images/editorial-auto/manchester-due-accusati-piano-comunita-ebraica-2-ottobre-2026-ai-v745-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-03T07:36:32+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -20665,6 +20815,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/lavoro-usa-settembre-2026-29000-posti-revisioni-bls-ai-v745-480.webp 480w, /assets/images/editorial-auto/lavoro-usa-settembre-2026-29000-posti-revisioni-bls-ai-v745-800.webp 800w, /assets/images/editorial-auto/lavoro-usa-settembre-2026-29000-posti-revisioni-bls-ai-v745-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-03T07:36:32+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -20699,6 +20850,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/sciopero-amt-genova-3-ottobre-2026-fasce-urbano-provincia-ai-v745-480.webp 480w, /assets/images/editorial-auto/sciopero-amt-genova-3-ottobre-2026-fasce-urbano-provincia-ai-v745-800.webp 800w, /assets/images/editorial-auto/sciopero-amt-genova-3-ottobre-2026-fasce-urbano-provincia-ai-v745-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-03T07:36:32+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -20733,6 +20885,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/reddito-liberta-inps-39-milioni-domande-2026-ai-v745-480.webp 480w, /assets/images/editorial-auto/reddito-liberta-inps-39-milioni-domande-2026-ai-v745-800.webp 800w, /assets/images/editorial-auto/reddito-liberta-inps-39-milioni-domande-2026-ai-v745-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-03T07:36:32+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -20767,6 +20920,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/francia-italia-1-1-bastoni-olise-donnarumma-2-ottobre-2026-ai-v745-480.webp 480w, /assets/images/editorial-auto/francia-italia-1-1-bastoni-olise-donnarumma-2-ottobre-2026-ai-v745-800.webp 800w, /assets/images/editorial-auto/francia-italia-1-1-bastoni-olise-donnarumma-2-ottobre-2026-ai-v745-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-03T07:36:32+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -20801,6 +20955,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/motogp-motegi-martin-pole-record-marquez-3-ottobre-2026-ai-v745-480.webp 480w, /assets/images/editorial-auto/motogp-motegi-martin-pole-record-marquez-3-ottobre-2026-ai-v745-800.webp 800w, /assets/images/editorial-auto/motogp-motegi-martin-pole-record-marquez-3-ottobre-2026-ai-v745-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-03T07:36:32+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -22286,6 +22441,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/meloni-von-der-leyen-flessibilita-inflazione-energia-30-settembre-2026-v732-480.webp 480w, /assets/images/editorial-auto/meloni-von-der-leyen-flessibilita-inflazione-energia-30-settembre-2026-v732-800.webp 800w, /assets/images/editorial-auto/meloni-von-der-leyen-flessibilita-inflazione-energia-30-settembre-2026-v732-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-10-01T19:12:01+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -25160,6 +25316,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/meteo-italia-28-settembre-4-ottobre-2026-v648-480.webp 480w, /assets/images/editorial-auto/meteo-italia-28-settembre-4-ottobre-2026-v648-800.webp 800w, /assets/images/editorial-auto/meteo-italia-28-settembre-4-ottobre-2026-v648-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-28T04:50:44+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -25258,6 +25415,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/report-attesa-sul-reintegro-di-ranucci-la-redazione-in-bilico-v639-480.webp 480w, /assets/images/editorial-auto/report-attesa-sul-reintegro-di-ranucci-la-redazione-in-bilico-v639-800.webp 800w, /assets/images/editorial-auto/report-attesa-sul-reintegro-di-ranucci-la-redazione-in-bilico-v639-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -25293,6 +25451,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/nations-league-francia-in-belgio-senza-mbappe-primo-vero-test-per-zidane-v638-480.webp 480w, /assets/images/editorial-auto/nations-league-francia-in-belgio-senza-mbappe-primo-vero-test-per-zidane-v638-800.webp 800w, /assets/images/editorial-auto/nations-league-francia-in-belgio-senza-mbappe-primo-vero-test-per-zidane-v638-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -25325,6 +25484,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/lourdes-mosaici-di-rupnik-coperti-per-la-visita-del-papa-v637-480.webp 480w, /assets/images/editorial-auto/lourdes-mosaici-di-rupnik-coperti-per-la-visita-del-papa-v637-800.webp 800w, /assets/images/editorial-auto/lourdes-mosaici-di-rupnik-coperti-per-la-visita-del-papa-v637-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -25357,6 +25517,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-v636-480.webp 480w, /assets/images/editorial-auto/irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-v636-800.webp 800w, /assets/images/editorial-auto/irlanda-del-nord-alta-tensione-a-portadown-marcia-orange-order-su-garvaghy-road-v636-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -25391,6 +25552,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-v636-480.webp 480w, /assets/images/editorial-auto/madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-v636-800.webp 800w, /assets/images/editorial-auto/madrid-tornano-gli-indignados-500-accampati-a-puerta-del-sol-per-maricarmen-v636-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -25425,6 +25587,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/l-idf-uccide-a-gaza-il-terrorista-che-rapi-noa-argamani-v630-480.webp 480w, /assets/images/editorial-auto/l-idf-uccide-a-gaza-il-terrorista-che-rapi-noa-argamani-v630-800.webp 800w, /assets/images/editorial-auto/l-idf-uccide-a-gaza-il-terrorista-che-rapi-noa-argamani-v630-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -25456,7 +25619,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/giorgio-armani-sfilata-milano-paillettes-pe2027-27-09-2026-v709-480.webp 480w, /assets/images/editorial-auto/giorgio-armani-sfilata-milano-paillettes-pe2027-27-09-2026-v709-800.webp 800w, /assets/images/editorial-auto/giorgio-armani-sfilata-milano-paillettes-pe2027-27-09-2026-v709-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00"
     },
     {
       "title": "Generazione Z e IA, competenze digitali e opportunità di lavoro nel racconto Reuters",
@@ -25470,7 +25634,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/generazione-z-ia-lavoro-produttivita-reuters-27-09-2026-v709-480.webp 480w, /assets/images/editorial-auto/generazione-z-ia-lavoro-produttivita-reuters-27-09-2026-v709-800.webp 800w, /assets/images/editorial-auto/generazione-z-ia-lavoro-produttivita-reuters-27-09-2026-v709-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00"
     },
     {
       "title": "Carburanti, anche IP annuncia un tetto: importo e applicazione ancora da definire",
@@ -25484,7 +25649,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/ip-tetto-prezzi-carburante-effetto-traino-eni-27-09-2026-v708-480.webp 480w, /assets/images/editorial-auto/ip-tetto-prezzi-carburante-effetto-traino-eni-27-09-2026-v708-800.webp 800w, /assets/images/editorial-auto/ip-tetto-prezzi-carburante-effetto-traino-eni-27-09-2026-v708-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00"
     },
     {
       "title": "Bulega campione del mondo Superbike 2026 con il secondo posto a Cremona",
@@ -25498,7 +25664,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/bulega-campione-mondo-superbike-2026-cremona-27-09-2026-v706-480.webp 480w, /assets/images/editorial-auto/bulega-campione-mondo-superbike-2026-cremona-27-09-2026-v706-800.webp 800w, /assets/images/editorial-auto/bulega-campione-mondo-superbike-2026-cremona-27-09-2026-v706-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00"
     },
     {
       "title": "Tempesta nel nord-est degli Stati Uniti: un morto a Brooklyn, voli cancellati e blackout",
@@ -25512,7 +25679,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/tempesta-costa-est-usa-morto-brooklyn-27-09-2026-v704-480.webp 480w, /assets/images/editorial-auto/tempesta-costa-est-usa-morto-brooklyn-27-09-2026-v704-800.webp 800w, /assets/images/editorial-auto/tempesta-costa-est-usa-morto-brooklyn-27-09-2026-v704-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00"
     },
     {
       "title": "Svizzera, referendum sulla neutralità: le proiezioni indicano il 68,8% di no",
@@ -25526,7 +25694,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/svizzera-referendum-neutralita-bocciato-68-8-27-09-2026-v704-480.webp 480w, /assets/images/editorial-auto/svizzera-referendum-neutralita-bocciato-68-8-27-09-2026-v704-800.webp 800w, /assets/images/editorial-auto/svizzera-referendum-neutralita-bocciato-68-8-27-09-2026-v704-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00"
     },
     {
       "title": "Papa a Lourdes sul fine vita: «Ciò che è legale non è necessariamente morale»",
@@ -25540,7 +25709,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/papa-leone-xiv-lourdes-fine-vita-dignita-27-09-2026-v704-480.webp 480w, /assets/images/editorial-auto/papa-leone-xiv-lourdes-fine-vita-dignita-27-09-2026-v704-800.webp 800w, /assets/images/editorial-auto/papa-leone-xiv-lourdes-fine-vita-dignita-27-09-2026-v704-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00"
     },
     {
       "title": "Operaio investito e ucciso sull’A14: automobilista positivo all’alcoltest",
@@ -25554,7 +25724,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/operaio-investito-a14-bologna-autista-alcol-27-09-2026-v705-480.webp 480w, /assets/images/editorial-auto/operaio-investito-a14-bologna-autista-alcol-27-09-2026-v705-800.webp 800w, /assets/images/editorial-auto/operaio-investito-a14-bologna-autista-alcol-27-09-2026-v705-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00"
     },
     {
       "title": "Leclerc cita la specifica del motore Ferrari nell’intervista dopo Baku",
@@ -25568,7 +25739,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/leclerc-lapsus-motore-ferrari-addetta-stampa-virale-27-09-2026-v704-480.webp 480w, /assets/images/editorial-auto/leclerc-lapsus-motore-ferrari-addetta-stampa-virale-27-09-2026-v704-800.webp 800w, /assets/images/editorial-auto/leclerc-lapsus-motore-ferrari-addetta-stampa-virale-27-09-2026-v704-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-27T23:09:15+02:00"
     },
     {
       "title": "Osvaldo, la famiglia: è fuori pericolo e resta in terapia intensiva",
@@ -25582,7 +25754,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/daniel-osvaldo-fuori-pericolo-terapia-intensiva-27-09-2026-v704-480.webp 480w, /assets/images/editorial-auto/daniel-osvaldo-fuori-pericolo-terapia-intensiva-27-09-2026-v704-800.webp 800w, /assets/images/editorial-auto/daniel-osvaldo-fuori-pericolo-terapia-intensiva-27-09-2026-v704-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00"
     },
     {
       "title": "Zuppi a Mosca, incontri dal 28 al 30 settembre per la missione umanitaria",
@@ -25596,7 +25769,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/zuppi-mosca-missione-umanitaria-27-09-2026-v702-480.webp 480w, /assets/images/editorial-auto/zuppi-mosca-missione-umanitaria-27-09-2026-v702-800.webp 800w, /assets/images/editorial-auto/zuppi-mosca-missione-umanitaria-27-09-2026-v702-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00"
     },
     {
       "title": "Vespa, a Capri il 36° raduno del Registro storico nell’anno degli ottant’anni",
@@ -25610,7 +25784,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/vespa-80-anni-raduno-capri-36-registro-storico-27-09-2026-v702-480.webp 480w, /assets/images/editorial-auto/vespa-80-anni-raduno-capri-36-registro-storico-27-09-2026-v702-800.webp 800w, /assets/images/editorial-auto/vespa-80-anni-raduno-capri-36-registro-storico-27-09-2026-v702-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-27T23:09:15+02:00"
     },
     {
       "title": "Uno Bianca, la Procura di Bologna sente Alberto Savi e Marino Occhipinti",
@@ -25624,7 +25799,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/uno-bianca-savi-occhipinti-procura-bologna-27-09-2026-v702-480.webp 480w, /assets/images/editorial-auto/uno-bianca-savi-occhipinti-procura-bologna-27-09-2026-v702-800.webp 800w, /assets/images/editorial-auto/uno-bianca-savi-occhipinti-procura-bologna-27-09-2026-v702-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00"
     },
     {
       "title": "Melito di Napoli, donna ferita: arrestato il marito per tentato femminicidio",
@@ -25638,7 +25814,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/tentato-femminicidio-melito-napoli-63enne-27-09-2026-v703-480.webp 480w, /assets/images/editorial-auto/tentato-femminicidio-melito-napoli-63enne-27-09-2026-v703-800.webp 800w, /assets/images/editorial-auto/tentato-femminicidio-melito-napoli-63enne-27-09-2026-v703-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-27T23:09:15+02:00"
     },
     {
       "title": "RAF Fairford, nessun esplosivo nei furgoni: cinque uomini rilasciati su cauzione",
@@ -25653,6 +25830,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/fairford-raf-arresti-esplosivi-regno-unito-27-09-2026-ai-v703-480.webp 480w, /assets/images/editorial-auto/fairford-raf-arresti-esplosivi-regno-unito-27-09-2026-ai-v703-800.webp 800w, /assets/images/editorial-auto/fairford-raf-arresti-esplosivi-regno-unito-27-09-2026-ai-v703-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-29T23:28:08+02:00",
       "featuredStats": [
         {
           "icon": "🔎",
@@ -25687,7 +25865,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/americas-cup-napoli-ultima-giornata-race-village-42mila-27-09-2026-v702-480.webp 480w, /assets/images/editorial-auto/americas-cup-napoli-ultima-giornata-race-village-42mila-27-09-2026-v702-800.webp 800w, /assets/images/editorial-auto/americas-cup-napoli-ultima-giornata-race-village-42mila-27-09-2026-v702-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00"
     },
     {
       "title": "Suppletive a Reggio Calabria, seggi aperti il 27 e 28 settembre: orari e candidati",
@@ -25702,6 +25881,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/suppletive-reggio-calabria-voto-27-28-settembre-2026-v701-480.webp 480w, /assets/images/editorial-auto/suppletive-reggio-calabria-voto-27-28-settembre-2026-v701-800.webp 800w, /assets/images/editorial-auto/suppletive-reggio-calabria-voto-27-28-settembre-2026-v701-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -25734,6 +25914,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/juve-neto-torino-visite-mediche-ritorno-27-09-2026-v701-480.webp 480w, /assets/images/editorial-auto/juve-neto-torino-visite-mediche-ritorno-27-09-2026-v701-800.webp 800w, /assets/images/editorial-auto/juve-neto-torino-visite-mediche-ritorno-27-09-2026-v701-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -25769,6 +25950,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/etna-catania-aeroporto-chiuso-mezzanotte-27-09-2026-v700-480.webp 480w, /assets/images/editorial-auto/etna-catania-aeroporto-chiuso-mezzanotte-27-09-2026-v700-800.webp 800w, /assets/images/editorial-auto/etna-catania-aeroporto-chiuso-mezzanotte-27-09-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -25803,6 +25985,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/ballando-con-le-stelle-2026-debutto-3-ottobre-noemi-bocchi-v701-480.webp 480w, /assets/images/editorial-auto/ballando-con-le-stelle-2026-debutto-3-ottobre-noemi-bocchi-v701-800.webp 800w, /assets/images/editorial-auto/ballando-con-le-stelle-2026-debutto-3-ottobre-noemi-bocchi-v701-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -25838,6 +26021,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/totti-50-anni-las-vegas-27-settembre-2026-v702-480.webp?cb=702 480w, /assets/images/editorial-auto/totti-50-anni-las-vegas-27-settembre-2026-v702-800.webp?cb=702 800w, /assets/images/editorial-auto/totti-50-anni-las-vegas-27-settembre-2026-v702-1200.webp?cb=702 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T23:09:15+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -25873,6 +26057,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/bratan-espulso-milano-meda-video-27-09-2026-v700-480.webp 480w, /assets/images/editorial-auto/bratan-espulso-milano-meda-video-27-09-2026-v700-800.webp 800w, /assets/images/editorial-auto/bratan-espulso-milano-meda-video-27-09-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -25905,6 +26090,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/torino-bimbo-5-anni-investito-ex-compagna-tentato-omicidio-27-09-2026-v700-480.webp 480w, /assets/images/editorial-auto/torino-bimbo-5-anni-investito-ex-compagna-tentato-omicidio-27-09-2026-v700-800.webp 800w, /assets/images/editorial-auto/torino-bimbo-5-anni-investito-ex-compagna-tentato-omicidio-27-09-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -25939,6 +26125,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/siracusano-vannacci-foto-ritoccata-reato-sessista-27-09-2026-v700-480.webp 480w, /assets/images/editorial-auto/siracusano-vannacci-foto-ritoccata-reato-sessista-27-09-2026-v700-800.webp 800w, /assets/images/editorial-auto/siracusano-vannacci-foto-ritoccata-reato-sessista-27-09-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T23:09:15+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -25974,6 +26161,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/trump-quiet-reporter-ms-now-gardner-casa-bianca-27-09-2026-v700-480.webp 480w, /assets/images/editorial-auto/trump-quiet-reporter-ms-now-gardner-casa-bianca-27-09-2026-v700-800.webp 800w, /assets/images/editorial-auto/trump-quiet-reporter-ms-now-gardner-casa-bianca-27-09-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -26009,6 +26197,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/siponto-resti-medievali-mamma-bimbo-scavi-foggia-27-09-2026-v700-480.webp 480w, /assets/images/editorial-auto/siponto-resti-medievali-mamma-bimbo-scavi-foggia-27-09-2026-v700-800.webp 800w, /assets/images/editorial-auto/siponto-resti-medievali-mamma-bimbo-scavi-foggia-27-09-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T23:09:15+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -26043,6 +26232,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/mtv-vma-2026-madonna-taylor-swift-snoop-dogg-27-09-2026-v700-480.webp 480w, /assets/images/editorial-auto/mtv-vma-2026-madonna-taylor-swift-snoop-dogg-27-09-2026-v700-800.webp 800w, /assets/images/editorial-auto/mtv-vma-2026-madonna-taylor-swift-snoop-dogg-27-09-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -26077,6 +26267,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/berlusconi-90-anni-villa-certosa-famiglia-29-settembre-2026-v700-480.webp 480w, /assets/images/editorial-auto/berlusconi-90-anni-villa-certosa-famiglia-29-settembre-2026-v700-800.webp 800w, /assets/images/editorial-auto/berlusconi-90-anni-villa-certosa-famiglia-29-settembre-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T23:09:15+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -26112,6 +26303,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/bar-chiusi-confesercenti-24mila-in-6-anni-27-09-2026-v700-480.webp 480w, /assets/images/editorial-auto/bar-chiusi-confesercenti-24mila-in-6-anni-27-09-2026-v700-800.webp 800w, /assets/images/editorial-auto/bar-chiusi-confesercenti-24mila-in-6-anni-27-09-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -26144,6 +26336,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/openai-anthropic-incidenti-sicurezza-axios-27-09-2026-v700-480.webp 480w, /assets/images/editorial-auto/openai-anthropic-incidenti-sicurezza-axios-27-09-2026-v700-800.webp 800w, /assets/images/editorial-auto/openai-anthropic-incidenti-sicurezza-axios-27-09-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -26179,6 +26372,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/nazioni-league-italia-turchia-mancini-10-azzurri-coverciano-27-09-2026-v701-480.webp 480w, /assets/images/editorial-auto/nazioni-league-italia-turchia-mancini-10-azzurri-coverciano-27-09-2026-v701-800.webp 800w, /assets/images/editorial-auto/nazioni-league-italia-turchia-mancini-10-azzurri-coverciano-27-09-2026-v701-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T23:09:15+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -26213,6 +26407,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/carburanti-diesel-benzina-rialzo-mimit-27-09-2026-v700-480.webp 480w, /assets/images/editorial-auto/carburanti-diesel-benzina-rialzo-mimit-27-09-2026-v700-800.webp 800w, /assets/images/editorial-auto/carburanti-diesel-benzina-rialzo-mimit-27-09-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -26245,6 +26440,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/papa-leone-xiv-lourdes-incontro-vittime-abusi-27-09-2026-v700-480.webp 480w, /assets/images/editorial-auto/papa-leone-xiv-lourdes-incontro-vittime-abusi-27-09-2026-v700-800.webp 800w, /assets/images/editorial-auto/papa-leone-xiv-lourdes-incontro-vittime-abusi-27-09-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T23:09:15+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -26279,6 +26475,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/jovanotti-compie-60-anni-27-settembre-2026-v700-480.webp 480w, /assets/images/editorial-auto/jovanotti-compie-60-anni-27-settembre-2026-v700-800.webp 800w, /assets/images/editorial-auto/jovanotti-compie-60-anni-27-settembre-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T23:09:15+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -26313,6 +26510,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/festa-del-cinema-roma-2026-jenna-ortega-jovanotti-27-09-2026-v700-480.webp 480w, /assets/images/editorial-auto/festa-del-cinema-roma-2026-jenna-ortega-jovanotti-27-09-2026-v700-800.webp 800w, /assets/images/editorial-auto/festa-del-cinema-roma-2026-jenna-ortega-jovanotti-27-09-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -26345,6 +26543,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/meteo-italia-27-settembre-3-ottobre-2026-v712-480.webp 480w, /assets/images/editorial-auto/meteo-italia-27-settembre-3-ottobre-2026-v712-800.webp 800w, /assets/images/editorial-auto/meteo-italia-27-settembre-3-ottobre-2026-v712-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T22:18:56+02:00",
       "featuredStats": [
         {
           "icon": "◆",
@@ -26411,6 +26610,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/brasile-elezioni-lula-bolsonaro-jr-trump-terre-rare-26-09-2026-v701-480.webp 480w, /assets/images/editorial-auto/brasile-elezioni-lula-bolsonaro-jr-trump-terre-rare-26-09-2026-v701-800.webp 800w, /assets/images/editorial-auto/brasile-elezioni-lula-bolsonaro-jr-trump-terre-rare-26-09-2026-v701-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-27T09:15:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -26543,6 +26743,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/schlein-portici-prima-si-vota-meglio-e-26-settembre-2026-v700-480.webp 480w, /assets/images/editorial-auto/schlein-portici-prima-si-vota-meglio-e-26-settembre-2026-v700-800.webp 800w, /assets/images/editorial-auto/schlein-portici-prima-si-vota-meglio-e-26-settembre-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-26T21:40:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -26577,6 +26778,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/luna-rossa-day2-risultati-boom-presenze-26-09-2026-v700-480.webp 480w, /assets/images/editorial-auto/luna-rossa-day2-risultati-boom-presenze-26-09-2026-v700-800.webp 800w, /assets/images/editorial-auto/luna-rossa-day2-risultati-boom-presenze-26-09-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-26T21:40:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -26611,6 +26813,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/bonaccini-programma-firmare-sangue-26-settembre-2026-v700-480.webp 480w, /assets/images/editorial-auto/bonaccini-programma-firmare-sangue-26-settembre-2026-v700-800.webp 800w, /assets/images/editorial-auto/bonaccini-programma-firmare-sangue-26-settembre-2026-v700-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-26T21:40:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -28466,6 +28669,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/colosseo-riapertura-26-settembre-2026-v590-480.webp 480w, /assets/images/editorial-auto/colosseo-riapertura-26-settembre-2026-v590-800.webp 800w, /assets/images/editorial-auto/colosseo-riapertura-26-settembre-2026-v590-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-26T06:07:36+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -29486,6 +29690,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v544-480.webp 480w, /assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v544-800.webp 800w, /assets/images/editorial-auto/regno-unito-arrestato-danny-tommo-dopo-il-danneggiamento-di-un-gommone-nella-manica-v544-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-24T17:37:55+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -29882,6 +30087,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/f1-baku-russell-leclerc-pole-26-settembre-2026-v586-480.webp 480w, /assets/images/editorial-auto/f1-baku-russell-leclerc-pole-26-settembre-2026-v586-800.webp 800w, /assets/images/editorial-auto/f1-baku-russell-leclerc-pole-26-settembre-2026-v586-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-26T06:07:36+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -30934,6 +31140,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/giornate-europee-patrimonio-26-27-settembre-2026-v591-480.webp 480w, /assets/images/editorial-auto/giornate-europee-patrimonio-26-27-settembre-2026-v591-800.webp 800w, /assets/images/editorial-auto/giornate-europee-patrimonio-26-27-settembre-2026-v591-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-26T06:07:36+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -31260,6 +31467,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/istat-deficit-2025-31-pil-italia-resta-procedura-ue-22-settembre-2026-v517-480.webp 480w, /assets/images/editorial-auto/istat-deficit-2025-31-pil-italia-resta-procedura-ue-22-settembre-2026-v517-800.webp 800w, /assets/images/editorial-auto/istat-deficit-2025-31-pil-italia-resta-procedura-ue-22-settembre-2026-v517-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-23T06:29:22+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -31294,6 +31502,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/trump-onu-iran-accordo-dopo-midterm-avvertimento-militare-22-settembre-2026-v532-480.webp 480w, /assets/images/editorial-auto/trump-onu-iran-accordo-dopo-midterm-avvertimento-militare-22-settembre-2026-v532-800.webp 800w, /assets/images/editorial-auto/trump-onu-iran-accordo-dopo-midterm-avvertimento-militare-22-settembre-2026-v532-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-23T21:21:24+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -31361,6 +31570,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/ue-rinnova-sanzioni-russia-tre-anni-rimuove-usmanov-fridman-22-settembre-2026-v520-480.webp 480w, /assets/images/editorial-auto/ue-rinnova-sanzioni-russia-tre-anni-rimuove-usmanov-fridman-22-settembre-2026-v520-800.webp 800w, /assets/images/editorial-auto/ue-rinnova-sanzioni-russia-tre-anni-rimuove-usmanov-fridman-22-settembre-2026-v520-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-22T21:37:45+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -31857,6 +32067,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/eurovolley-ascolti-italia-danimarca-quarti-finlandia-23-settembre-2026-v499-480.webp 480w, /assets/images/editorial-auto/eurovolley-ascolti-italia-danimarca-quarti-finlandia-23-settembre-2026-v499-800.webp 800w, /assets/images/editorial-auto/eurovolley-ascolti-italia-danimarca-quarti-finlandia-23-settembre-2026-v499-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-21T23:32:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -31889,6 +32100,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/esa-isro-accordo-cooperazione-2032-21-settembre-2026-v500-480.webp 480w, /assets/images/editorial-auto/esa-isro-accordo-cooperazione-2032-21-settembre-2026-v500-800.webp 800w, /assets/images/editorial-auto/esa-isro-accordo-cooperazione-2032-21-settembre-2026-v500-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-21T23:43:44+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -31923,6 +32135,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/conferenza-nazionale-polare-roma-5-7-ottobre-2026-v500-480.webp 480w, /assets/images/editorial-auto/conferenza-nazionale-polare-roma-5-7-ottobre-2026-v500-800.webp 800w, /assets/images/editorial-auto/conferenza-nazionale-polare-roma-5-7-ottobre-2026-v500-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-21T23:43:44+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -31955,6 +32168,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/alessandra-mussolini-uomini-e-donne-21-settembre-2026-v498-480.webp 480w, /assets/images/editorial-auto/alessandra-mussolini-uomini-e-donne-21-settembre-2026-v498-800.webp 800w, /assets/images/editorial-auto/alessandra-mussolini-uomini-e-donne-21-settembre-2026-v498-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-21T23:27:57+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -32021,6 +32235,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/asi-spazio-contest-scuole-primarie-21-settembre-2026-v500-480.webp 480w, /assets/images/editorial-auto/asi-spazio-contest-scuole-primarie-21-settembre-2026-v500-800.webp 800w, /assets/images/editorial-auto/asi-spazio-contest-scuole-primarie-21-settembre-2026-v500-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-21T23:43:44+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -32055,6 +32270,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/olimpia-milano-settima-supercoppa-venezia-94-87-20-settembre-2026-v500-480.webp 480w, /assets/images/editorial-auto/olimpia-milano-settima-supercoppa-venezia-94-87-20-settembre-2026-v500-800.webp 800w, /assets/images/editorial-auto/olimpia-milano-settima-supercoppa-venezia-94-87-20-settembre-2026-v500-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-21T23:43:44+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -32089,6 +32305,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/italia-spagna-semifinale-mondiale-under-20-femminile-23-settembre-2026-v500-480.webp 480w, /assets/images/editorial-auto/italia-spagna-semifinale-mondiale-under-20-femminile-23-settembre-2026-v500-800.webp 800w, /assets/images/editorial-auto/italia-spagna-semifinale-mondiale-under-20-femminile-23-settembre-2026-v500-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-21T23:43:44+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -32187,6 +32404,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/pezeshkian-parte-onu-new-york-22-settembre-2026-v500-480.webp 480w, /assets/images/editorial-auto/pezeshkian-parte-onu-new-york-22-settembre-2026-v500-800.webp 800w, /assets/images/editorial-auto/pezeshkian-parte-onu-new-york-22-settembre-2026-v500-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-21T23:43:44+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -32413,6 +32631,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/tajani-rubio-intesa-minerali-critici-new-york-21-settembre-2026-v500-480.webp 480w, /assets/images/editorial-auto/tajani-rubio-intesa-minerali-critici-new-york-21-settembre-2026-v500-800.webp 800w, /assets/images/editorial-auto/tajani-rubio-intesa-minerali-critici-new-york-21-settembre-2026-v500-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-21T23:43:44+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -32513,6 +32732,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/xi-jinping-visita-stato-usa-23-25-settembre-2026-v532-480.webp 480w, /assets/images/editorial-auto/xi-jinping-visita-stato-usa-23-25-settembre-2026-v532-800.webp 800w, /assets/images/editorial-auto/xi-jinping-visita-stato-usa-23-25-settembre-2026-v532-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-23T21:21:24+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -32748,6 +32968,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/duma-russia-unita-355-seggi-21-settembre-2026-v475-480.webp 480w, /assets/images/editorial-auto/duma-russia-unita-355-seggi-21-settembre-2026-v475-800.webp 800w, /assets/images/editorial-auto/duma-russia-unita-355-seggi-21-settembre-2026-v475-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-21T18:28:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -32878,6 +33099,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026-v467-480.webp 480w, /assets/images/editorial-auto/tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026-v467-800.webp 800w, /assets/images/editorial-auto/tifone-dujuan-giappone-kanto-tokyo-21-settembre-2026-v467-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-21T22:02:12+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -33041,6 +33263,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/roma-prof-accoltellata-i-carabinieri-cercano-eventuali-istigatori-online-20-09-2026-v464-480.webp 480w, /assets/images/editorial-auto/roma-prof-accoltellata-i-carabinieri-cercano-eventuali-istigatori-online-20-09-2026-v464-800.webp 800w, /assets/images/editorial-auto/roma-prof-accoltellata-i-carabinieri-cercano-eventuali-istigatori-online-20-09-2026-v464-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-20T20:56:25+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -33073,6 +33296,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/trump-sull-iran-via-fox-decidero-se-e-quando-aperto-a-pezeshkian-20-09-2026-v464-480.webp 480w, /assets/images/editorial-auto/trump-sull-iran-via-fox-decidero-se-e-quando-aperto-a-pezeshkian-20-09-2026-v464-800.webp 800w, /assets/images/editorial-auto/trump-sull-iran-via-fox-decidero-se-e-quando-aperto-a-pezeshkian-20-09-2026-v464-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-20T20:56:25+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -33105,6 +33329,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/meloni-in-arrivo-tetto-agli-stranieri-in-classe-e-divieto-di-burqa-a-scuola-20-09-2026-v531-480.webp 480w, /assets/images/editorial-auto/meloni-in-arrivo-tetto-agli-stranieri-in-classe-e-divieto-di-burqa-a-scuola-20-09-2026-v531-800.webp 800w, /assets/images/editorial-auto/meloni-in-arrivo-tetto-agli-stranieri-in-classe-e-divieto-di-burqa-a-scuola-20-09-2026-v531-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-23T19:49:53+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -33137,6 +33362,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/trump-annuncia-una-forza-per-l-ia-sul-modello-della-space-force-20-09-2026-v464-480.webp 480w, /assets/images/editorial-auto/trump-annuncia-una-forza-per-l-ia-sul-modello-della-space-force-20-09-2026-v464-800.webp 800w, /assets/images/editorial-auto/trump-annuncia-una-forza-per-l-ia-sul-modello-della-space-force-20-09-2026-v464-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-20T20:56:25+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -33169,6 +33395,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/legge-elettorale-alla-camera-l-ultimo-passaggio-della-riforma-20-09-2026-v464-480.webp 480w, /assets/images/editorial-auto/legge-elettorale-alla-camera-l-ultimo-passaggio-della-riforma-20-09-2026-v464-800.webp 800w, /assets/images/editorial-auto/legge-elettorale-alla-camera-l-ultimo-passaggio-della-riforma-20-09-2026-v464-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-20T20:56:25+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -33201,6 +33428,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/tajani-non-siamo-in-guerra-con-gli-houthi-kallas-e-il-rafforzamento-di-aspides-20-09-2026-v464-480.webp 480w, /assets/images/editorial-auto/tajani-non-siamo-in-guerra-con-gli-houthi-kallas-e-il-rafforzamento-di-aspides-20-09-2026-v464-800.webp 800w, /assets/images/editorial-auto/tajani-non-siamo-in-guerra-con-gli-houthi-kallas-e-il-rafforzamento-di-aspides-20-09-2026-v464-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-20T20:56:25+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -34223,6 +34451,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/convocati-italia-mancini-nations-league-34-nomi-18-settembre-2026-v440-480.webp 480w, /assets/images/editorial-auto/convocati-italia-mancini-nations-league-34-nomi-18-settembre-2026-v440-800.webp 800w, /assets/images/editorial-auto/convocati-italia-mancini-nations-league-34-nomi-18-settembre-2026-v440-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-23T06:29:22+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -34820,6 +35049,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/russia-elezioni-duma-voto-kamchatka-18-settembre-2026-v449-480.webp 480w, /assets/images/editorial-auto/russia-elezioni-duma-voto-kamchatka-18-settembre-2026-v449-800.webp 800w, /assets/images/editorial-auto/russia-elezioni-duma-voto-kamchatka-18-settembre-2026-v449-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-20T07:08:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -35288,6 +35518,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/bab-el-mandeb-crosetto-missione-navale-mercantili-italiani-17-settembre-2026-v414-480.webp 480w, /assets/images/editorial-auto/bab-el-mandeb-crosetto-missione-navale-mercantili-italiani-17-settembre-2026-v414-800.webp 800w, /assets/images/editorial-auto/bab-el-mandeb-crosetto-missione-navale-mercantili-italiani-17-settembre-2026-v414-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-19T07:22:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -35584,6 +35815,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/rabbino-aggredito-milano-arresto-v406-480.webp 480w, /assets/images/editorial-auto/rabbino-aggredito-milano-arresto-v406-800.webp 800w, /assets/images/editorial-auto/rabbino-aggredito-milano-arresto-v406-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-17T11:05:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -35715,6 +35947,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026-v396-480.webp 480w, /assets/images/editorial-auto/milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026-v396-800.webp 800w, /assets/images/editorial-auto/milano-greco-pirelli-deragliamento-carro-merci-treni-17-settembre-2026-v396-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-17T07:49:24+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -35779,6 +36012,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/maltempo-allerta-arancione-liguria-emilia-romagna-17-settembre-2026-v394-480.webp 480w, /assets/images/editorial-auto/maltempo-allerta-arancione-liguria-emilia-romagna-17-settembre-2026-v394-800.webp 800w, /assets/images/editorial-auto/maltempo-allerta-arancione-liguria-emilia-romagna-17-settembre-2026-v394-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-17T15:49:25+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -35813,6 +36047,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/usa-camera-sanzioni-russia-dazi-100-percento-16-settembre-2026-v440-480.webp 480w, /assets/images/editorial-auto/usa-camera-sanzioni-russia-dazi-100-percento-16-settembre-2026-v440-800.webp 800w, /assets/images/editorial-auto/usa-camera-sanzioni-russia-dazi-100-percento-16-settembre-2026-v440-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-19T07:20:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -35943,6 +36178,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/eu-kids-act-famiglie-italia-ai-openai-v404-480.webp 480w, /assets/images/editorial-auto/eu-kids-act-famiglie-italia-ai-openai-v404-800.webp 800w, /assets/images/editorial-auto/eu-kids-act-famiglie-italia-ai-openai-v404-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-17T10:16:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -36073,6 +36309,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383-480.webp 480w, /assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383-800.webp 800w, /assets/images/editorial-auto/bollo-auto-governo-esenzione-14-5-milioni-veicoli-16-settembre-2026-ai-openai-v383-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-17T22:52:43+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -36176,6 +36413,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/europa-league-oggi-milan-benfica-e-tutte-le-partite-del-16-settembre-orari-e-tv-v378-480.webp 480w, /assets/images/editorial-auto/europa-league-oggi-milan-benfica-e-tutte-le-partite-del-16-settembre-orari-e-tv-v378-800.webp 800w, /assets/images/editorial-auto/europa-league-oggi-milan-benfica-e-tutte-le-partite-del-16-settembre-orari-e-tv-v378-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-17T02:56:14+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -36208,6 +36446,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/revolut-pec-istituzionale-italiana-dati-clienti-16-settembre-2026-v376-480.webp 480w, /assets/images/editorial-auto/revolut-pec-istituzionale-italiana-dati-clienti-16-settembre-2026-v376-800.webp 800w, /assets/images/editorial-auto/revolut-pec-istituzionale-italiana-dati-clienti-16-settembre-2026-v376-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-16T20:54:35+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -36306,6 +36545,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/bonus-colonnine-domestiche-2026-domande-dal-22-settembre-v531-480.webp 480w, /assets/images/editorial-auto/bonus-colonnine-domestiche-2026-domande-dal-22-settembre-v531-800.webp 800w, /assets/images/editorial-auto/bonus-colonnine-domestiche-2026-domande-dal-22-settembre-v531-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-23T19:49:55+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -36436,7 +36676,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/milan-benfica-oggi-16-settembre-2026-europa-league-orario-tv-v369-480.webp 480w, /assets/images/editorial-auto/milan-benfica-oggi-16-settembre-2026-europa-league-orario-tv-v369-800.webp 800w, /assets/images/editorial-auto/milan-benfica-oggi-16-settembre-2026-europa-league-orario-tv-v369-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-17T06:29:14+02:00"
     },
     {
       "title": "Guerra USA-Iran, il CBO stima costi per 38 miliardi di dollari",
@@ -36549,6 +36790,7 @@
       "imageHeight": 800,
       "srcset": "/assets/images/editorial-auto/cinema-uscite-italia-14-20-settembre-2026-ai-openai-v365-480.webp 480w, /assets/images/editorial-auto/cinema-uscite-italia-14-20-settembre-2026-ai-openai-v365-800.webp 800w, /assets/images/editorial-auto/cinema-uscite-italia-14-20-settembre-2026-ai-openai-v365-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-17T11:43:30+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -37245,6 +37487,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-480.webp 480w, /assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-800.webp 800w, /assets/images/editorial-auto/energia-pipeline-est-ovest-rotte-petrolio-ai-openai-v344-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-14T00:54:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -37277,6 +37520,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/yahodyn-dorohusk-attacco-confine-ai-openai-v345-480.webp 480w, /assets/images/editorial-auto/yahodyn-dorohusk-attacco-confine-ai-openai-v345-800.webp 800w, /assets/images/editorial-auto/yahodyn-dorohusk-attacco-confine-ai-openai-v345-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-13T16:55:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -37508,6 +37752,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/hormuz-nave-iraniana-qeshm-ai-openai-v344-480.webp 480w, /assets/images/editorial-auto/hormuz-nave-iraniana-qeshm-ai-openai-v344-800.webp 800w, /assets/images/editorial-auto/hormuz-nave-iraniana-qeshm-ai-openai-v344-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-13T13:35:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -37582,6 +37827,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/brics-modi-new-delhi-secondo-giorno-ai-openai-v344-480.webp 480w, /assets/images/editorial-auto/brics-modi-new-delhi-secondo-giorno-ai-openai-v344-800.webp 800w, /assets/images/editorial-auto/brics-modi-new-delhi-secondo-giorno-ai-openai-v344-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-13T12:35:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -37613,7 +37859,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/anthropic-ai-sicurezza-rallentare-ai-openai-v338-480.webp 480w, /assets/images/editorial-auto/anthropic-ai-sicurezza-rallentare-ai-openai-v338-800.webp 800w, /assets/images/editorial-auto/anthropic-ai-sicurezza-rallentare-ai-openai-v338-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-13T00:55:00+02:00"
     },
     {
       "title": "Filippine, incendio sul traghetto June Aster: almeno 76 morti e 13 dispersi",
@@ -37627,7 +37874,7 @@
       "imageWidth": 320,
       "imageHeight": 213,
       "srcset": "",
-      "updated": false
+      "updated": true
     },
     {
       "title": "USA, inflazione al 3,4% in agosto: aumenta la pressione sulla Fed",
@@ -37676,6 +37923,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/ex-ilva-udienza-cassazione-ai-openai-v381-480.webp 480w, /assets/images/editorial-auto/ex-ilva-udienza-cassazione-ai-openai-v381-800.webp 800w, /assets/images/editorial-auto/ex-ilva-udienza-cassazione-ai-openai-v381-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-16T15:52:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -37742,7 +37990,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/yemen-dhubab-bab-el-mandeb-ai-openai-v325-480.webp 480w, /assets/images/editorial-auto/yemen-dhubab-bab-el-mandeb-ai-openai-v325-800.webp 800w, /assets/images/editorial-auto/yemen-dhubab-bab-el-mandeb-ai-openai-v325-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-12T13:00:00+02:00"
     },
     {
       "title": "È morta Emma Bonino, storica leader radicale ed ex ministra degli Esteri",
@@ -37789,6 +38038,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/ebola-congo-6757-casi-ai-openai-v325-480.webp 480w, /assets/images/editorial-auto/ebola-congo-6757-casi-ai-openai-v325-800.webp 800w, /assets/images/editorial-auto/ebola-congo-6757-casi-ai-openai-v325-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-12T05:55:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -38478,6 +38728,7 @@
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/alessandro-di-battista-ricoverato-cuba-trasferimento-avana-29-agosto-2026-ai-v703-480.webp 480w, /assets/images/editorial-auto/alessandro-di-battista-ricoverato-cuba-trasferimento-avana-29-agosto-2026-ai-v703-800.webp 800w, /assets/images/editorial-auto/alessandro-di-battista-ricoverato-cuba-trasferimento-avana-29-agosto-2026-ai-v703-1200.webp 1200w",
       "updated": true,
+      "updatedAt": "2026-09-29T23:28:09+02:00",
       "featuredStats": [
         {
           "icon": "•",
@@ -38971,7 +39222,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/sassonia-anhalt-elettori-6-settembre-2026-ai-v287-480.webp 480w, /assets/images/editorial-auto/sassonia-anhalt-elettori-6-settembre-2026-ai-v287-800.webp 800w, /assets/images/editorial-auto/sassonia-anhalt-elettori-6-settembre-2026-ai-v287-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-06T16:00:00+02:00"
     },
     {
       "title": "Da Ivrea a Strasburgo in triciclo: il viaggio di Angelo Catanzaro per i diritti",
@@ -39685,7 +39937,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-480.webp 480w, /assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-800.webp 800w, /assets/images/editorial-auto/aarau-sparatoria-rave-scena-30-agosto-2026-ai-v260-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-09-01T10:00:00+02:00"
     },
     {
       "title": "Rivolta nel carcere di Siracusa, agenti costretti a lanciarsi dal tetto: dieci poliziotti in ospedale, chiesta un’inchiesta",
@@ -39755,7 +40008,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v233/pogacar-ritratto-neutrale-29-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v233/pogacar-ritratto-neutrale-29-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v233/pogacar-ritratto-neutrale-29-agosto-2026-ai-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-08-29T19:23:00+02:00"
     },
     {
       "title": "Franco Fontana, il maestro che trasformò il colore in linguaggio: è morto a 92 anni",
@@ -39783,7 +40037,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v241/sigfrido-ranucci-report-studio-editoriale-29-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v241/sigfrido-ranucci-report-studio-editoriale-29-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v241/sigfrido-ranucci-report-studio-editoriale-29-agosto-2026-ai-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-08-29T23:08:00+02:00"
     },
     {
       "title": "Leao lascia il Milan dopo sette anni: è arrivato a Istanbul per firmare con il Galatasaray",
@@ -39797,7 +40052,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v237/rafael-leao-milan-galatasaray-istanbul-29-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v237/rafael-leao-milan-galatasaray-istanbul-29-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v237/rafael-leao-milan-galatasaray-istanbul-29-agosto-2026-ai-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-08-29T20:45:00+02:00"
     },
     {
       "title": "Bollette, stangata da 870 milioni sulle imprese italiane: per alberghi e ristoranti aumenti vicini al 50%",
@@ -39825,7 +40081,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v213/cremona-grandine-danni-29-agosto-2026-ai-480.webp 480w, /assets/images/editorial-v213/cremona-grandine-danni-29-agosto-2026-ai-800.webp 800w, /assets/images/editorial-v213/cremona-grandine-danni-29-agosto-2026-ai-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-08-29T20:27:00+02:00"
     },
     {
       "title": "Niger, attacco all’aeroporto e alla presidenza: esplosioni e spari scuotono Niamey",
@@ -39923,7 +40180,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v253/nepal-tibet-nuova-frana-30-agosto-2026-ai-v253-480.webp 480w, /assets/images/editorial-v253/nepal-tibet-nuova-frana-30-agosto-2026-ai-v253-800.webp 800w, /assets/images/editorial-v253/nepal-tibet-nuova-frana-30-agosto-2026-ai-v253-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-08-30T15:40:00+02:00"
     },
     {
       "title": "Cile, via libera al colosso dell’ammoniaca verde: 11 miliardi per il progetto in Patagonia",
@@ -40119,7 +40377,8 @@
       "imageWidth": 800,
       "imageHeight": 533,
       "srcset": "/assets/images/editorial-v250/cia-mosca-photo-480.webp 480w, /assets/images/editorial-v250/cia-mosca-photo-800.webp 800w, /assets/images/editorial-v250/cia-mosca-photo-1200.webp 1200w",
-      "updated": true
+      "updated": true,
+      "updatedAt": "2026-08-30T08:10:00+02:00"
     },
     {
       "title": "Gli USA iniziano a far rientrare personale nelle ambasciate in Medio Oriente dopo le evacuazioni",
