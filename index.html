@@ -1,6 +1,31 @@
 <!doctype html>
 <html lang="it">
 <head>
+<script>
+/* Al ricaricamento la home riparte sempre dall'inizio. */
+(function () {
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  function reload() {
+    var nav = performance.getEntriesByType && performance.getEntriesByType('navigation')[0];
+    if (nav) return nav.type === 'reload';
+    return performance.navigation && performance.navigation.type === 1;
+  }
+  function top() {
+    if (!reload()) return;
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    if (document.body) document.body.scrollTop = 0;
+  }
+  top();
+  addEventListener('pageshow', function (event) {
+    if (event.persisted) return;
+    top();
+    requestAnimationFrame(top);
+    setTimeout(top, 0);
+    setTimeout(top, 120);
+  });
+})();
+</script>
 <meta charset="utf-8">
 <meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport">
 <title>CurioMondo | Notizie, scienza, curiosità e mondo</title>
