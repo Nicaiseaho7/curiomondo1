@@ -1,6 +1,181 @@
 {
-  "version": 874,
+  "version": 875,
   "items": [
+    {
+      "title": "Milano, scontri in Duomo: circa 20 soccorsi e agenti feriti",
+      "excerpt": "Dopo il corteo Italia in Piazza, il 118 ha assistito una ventina di persone nell’area Duomo-Cordusio; circa metà è stata accompagnata in ospedale. Feriti anche diversi poliziotti, bilancio provvisorio.",
+      "url": "/notizie/milano-scontri-duomo-venti-soccorsi-agenti-feriti-17-ottobre-2026.html",
+      "section": "Italia / Cronaca",
+      "dateISO": "2026-10-17T23:16:00+02:00",
+      "dateLabel": "2026-10-17",
+      "image": "/assets/images/editorial-auto/milano-scontri-duomo-venti-soccorsi-agenti-feriti-17-ottobre-2026-v875-800.webp",
+      "imageAlt": "Illustrazione editoriale IA non documentaria di piazza del Duomo a Milano al crepuscolo, con due agenti in uniforme visibili in primo piano.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/milano-scontri-duomo-venti-soccorsi-agenti-feriti-17-ottobre-2026-v875-480.webp 480w, /assets/images/editorial-auto/milano-scontri-duomo-venti-soccorsi-agenti-feriti-17-ottobre-2026-v875-800.webp 800w, /assets/images/editorial-auto/milano-scontri-duomo-venti-soccorsi-agenti-feriti-17-ottobre-2026-v875-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "circa 20",
+          "label": "persone assistite dal 118"
+        },
+        {
+          "icon": "▲",
+          "value": "circa metà",
+          "label": "trasportate in ospedale"
+        },
+        {
+          "icon": "●",
+          "value": "provvisorio",
+          "label": "bilancio sanitario e agenti"
+        }
+      ],
+      "featuredHighlights": [
+        "Milano",
+        "soccorsi"
+      ]
+    },
+    {
+      "title": "Meloni dopo gli scontri di Milano: «Condannino senza ambiguità queste violenze»",
+      "excerpt": "In un messaggio sui social la presidente del Consiglio chiede una condanna esplicita dei disordini. Il richiamo riguarda il confronto politico: non è stato annunciato un nuovo provvedimento.",
+      "url": "/notizie/meloni-opposizioni-condanna-violenze-milano-17-ottobre-2026.html",
+      "section": "Italia / Politica",
+      "dateISO": "2026-10-17T23:08:00+02:00",
+      "dateLabel": "2026-10-17",
+      "image": "/assets/images/editorial-auto/meloni-opposizioni-condanna-violenze-milano-17-ottobre-2026-v875-800.webp",
+      "imageAlt": "Ritratto editoriale neutrale e fotorealistico generato con IA di Giorgia Meloni, su sfondo azzurro sfumato; immagine non documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/meloni-opposizioni-condanna-violenze-milano-17-ottobre-2026-v875-480.webp 480w, /assets/images/editorial-auto/meloni-opposizioni-condanna-violenze-milano-17-ottobre-2026-v875-800.webp 800w, /assets/images/editorial-auto/meloni-opposizioni-condanna-violenze-milano-17-ottobre-2026-v875-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "17 ottobre",
+          "label": "intervento sui social"
+        },
+        {
+          "icon": "▲",
+          "value": "16 ottobre",
+          "label": "precedente appello"
+        },
+        {
+          "icon": "●",
+          "value": "nessun atto",
+          "label": "nuovo provvedimento annunciato"
+        }
+      ],
+      "featuredHighlights": [
+        "Meloni",
+        "Milano"
+      ]
+    },
+    {
+      "title": "Francia, Nuñez aggiorna il bilancio: 400 fermi e 60 agenti feriti",
+      "excerpt": "Il ministro dell’Interno riferisce un bilancio nazionale provvisorio dopo gli scontri del 17 ottobre. Attacchi a municipi e negozi in diverse città; il dato dei fermi sale rispetto ai 272 del pomeriggio.",
+      "url": "/notizie/francia-nunez-400-fermi-60-agenti-feriti-17-ottobre-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-10-17T23:00:00+02:00",
+      "dateLabel": "2026-10-17",
+      "image": "/assets/images/editorial-auto/francia-nunez-400-fermi-60-agenti-feriti-17-ottobre-2026-v875-800.webp",
+      "imageAlt": "Ritratto editoriale IA neutrale di Laurent Nuñez, ministro dell’Interno francese, senza rappresentazione degli scontri.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/francia-nunez-400-fermi-60-agenti-feriti-17-ottobre-2026-v875-480.webp 480w, /assets/images/editorial-auto/francia-nunez-400-fermi-60-agenti-feriti-17-ottobre-2026-v875-800.webp 800w, /assets/images/editorial-auto/francia-nunez-400-fermi-60-agenti-feriti-17-ottobre-2026-v875-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "~400",
+          "label": "persone fermate"
+        },
+        {
+          "icon": "▲",
+          "value": "60",
+          "label": "agenti feriti"
+        },
+        {
+          "icon": "●",
+          "value": "272",
+          "label": "fermi alle 15"
+        }
+      ],
+      "featuredHighlights": [
+        "400",
+        "60"
+      ]
+    },
+    {
+      "title": "Proteste in Francia, Lecornu presiede la cellula di crisi",
+      "excerpt": "Matignon annuncia una riunione interministeriale alle 20 del 17 ottobre, guidata dal primo ministro dopo i disordini. Il coordinamento era stato predisposto già il 16 ottobre: nessun nuovo stato d’emergenza.",
+      "url": "/notizie/francia-lecornu-cellula-interministeriale-crisi-17-ottobre-2026.html",
+      "section": "Italia / Politica",
+      "dateISO": "2026-10-17T22:52:00+02:00",
+      "dateLabel": "2026-10-17",
+      "image": "/assets/images/editorial-auto/francia-lecornu-cellula-interministeriale-crisi-17-ottobre-2026-v875-800.webp",
+      "imageAlt": "Ritratto editoriale IA neutrale di Sébastien Lecornu, primo ministro francese, senza ricostruire la riunione o gli scontri.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/francia-lecornu-cellula-interministeriale-crisi-17-ottobre-2026-v875-480.webp 480w, /assets/images/editorial-auto/francia-lecornu-cellula-interministeriale-crisi-17-ottobre-2026-v875-800.webp 800w, /assets/images/editorial-auto/francia-lecornu-cellula-interministeriale-crisi-17-ottobre-2026-v875-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "20:00",
+          "label": "riunione annunciata"
+        },
+        {
+          "icon": "▲",
+          "value": "16 ott",
+          "label": "cellula predisposta"
+        },
+        {
+          "icon": "●",
+          "value": "400",
+          "label": "fermi riferiti in serata"
+        }
+      ],
+      "featuredHighlights": [
+        "Lecornu",
+        "cellula"
+      ]
+    },
+    {
+      "title": "Macron sui saccheggi in Francia: «I responsabili saranno puniti»",
+      "excerpt": "Il presidente condanna su X i danni a prefetture, municipi e negozi e promette conseguenze giudiziarie. La dichiarazione del 17 ottobre non certifica condanne né accerta le responsabilità dei singoli fermati.",
+      "url": "/notizie/macron-condanna-saccheggi-francia-17-ottobre-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-10-17T22:44:00+02:00",
+      "dateLabel": "2026-10-17",
+      "image": "/assets/images/editorial-auto/macron-condanna-saccheggi-francia-17-ottobre-2026-v875-800.webp",
+      "imageAlt": "Ritratto editoriale IA neutrale di Emmanuel Macron, presidente francese, senza rappresentazione degli scontri.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/macron-condanna-saccheggi-francia-17-ottobre-2026-v875-480.webp 480w, /assets/images/editorial-auto/macron-condanna-saccheggi-francia-17-ottobre-2026-v875-800.webp 800w, /assets/images/editorial-auto/macron-condanna-saccheggi-francia-17-ottobre-2026-v875-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "17 ott",
+          "label": "dichiarazione di Macron"
+        },
+        {
+          "icon": "▲",
+          "value": "400",
+          "label": "fermi provvisori"
+        },
+        {
+          "icon": "●",
+          "value": "20:00",
+          "label": "cellula di crisi"
+        }
+      ],
+      "featuredHighlights": [
+        "Macron",
+        "saccheggi"
+      ]
+    },
     {
       "title": "Wuhan, Swiatek perde la semifinale con una fasciatura alla coscia",
       "excerpt": "Maja Chwalinska vince 7-5 6-1 e raggiunge Sonay Kartal in finale. Swiatek completa l’incontro dopo il medical timeout.",
@@ -14,7 +189,23 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/swiatek-infortunio-wuhan-semifinale-17-ottobre-2026-v874-480.webp 480w, /assets/images/editorial-auto/swiatek-infortunio-wuhan-semifinale-17-ottobre-2026-v874-800.webp 800w, /assets/images/editorial-auto/swiatek-infortunio-wuhan-semifinale-17-ottobre-2026-v874-1200.webp 1200w",
       "updated": false,
-      "featuredStats": [],
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "7–5 6–1",
+          "label": "risultato"
+        },
+        {
+          "icon": "•",
+          "value": "2 set point",
+          "label": "non convertiti da Swiatek"
+        },
+        {
+          "icon": "•",
+          "value": "prima finale",
+          "label": "WTA 1000 per Chwalinska"
+        }
+      ],
       "featuredHighlights": []
     },
     {
@@ -30,7 +221,23 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/bc-roma-reyer-venezia-98-104-17-ottobre-2026-v874-480.webp 480w, /assets/images/editorial-auto/bc-roma-reyer-venezia-98-104-17-ottobre-2026-v874-800.webp 800w, /assets/images/editorial-auto/bc-roma-reyer-venezia-98-104-17-ottobre-2026-v874-1200.webp 1200w",
       "updated": false,
-      "featuredStats": [],
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "98–104",
+          "label": "risultato finale"
+        },
+        {
+          "icon": "•",
+          "value": "32 punti",
+          "label": "Wiltjer"
+        },
+        {
+          "icon": "•",
+          "value": "55–46",
+          "label": "Roma all’intervallo"
+        }
+      ],
       "featuredHighlights": []
     },
     {
@@ -46,7 +253,23 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/mantova-palermo-0-2-serie-b-17-ottobre-2026-v874-480.webp 480w, /assets/images/editorial-auto/mantova-palermo-0-2-serie-b-17-ottobre-2026-v874-800.webp 800w, /assets/images/editorial-auto/mantova-palermo-0-2-serie-b-17-ottobre-2026-v874-1200.webp 1200w",
       "updated": false,
-      "featuredStats": [],
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "0–2",
+          "label": "risultato finale"
+        },
+        {
+          "icon": "•",
+          "value": "62°",
+          "label": "gol di Segre"
+        },
+        {
+          "icon": "•",
+          "value": "86°",
+          "label": "gol di Hernani"
+        }
+      ],
       "featuredHighlights": []
     },
     {
@@ -62,8 +285,26 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/italia-spagna-controlli-schengen-22-ottobre-2026-v874-480.webp 480w, /assets/images/editorial-auto/italia-spagna-controlli-schengen-22-ottobre-2026-v874-800.webp 800w, /assets/images/editorial-auto/italia-spagna-controlli-schengen-22-ottobre-2026-v874-1200.webp 1200w",
       "updated": false,
-      "featuredStats": [],
-      "featuredHighlights": []
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "22 ottobre",
+          "label": "scadenza indicata"
+        },
+        {
+          "icon": "•",
+          "value": "7 giorni",
+          "label": "ultima proroga italiana"
+        },
+        {
+          "icon": "•",
+          "value": "2 ministri",
+          "label": "al lavoro sul superamento"
+        }
+      ],
+      "featuredHighlights": [
+        "22 ottobre"
+      ]
     },
     {
       "title": "Biennale Arte, dal 13 al 22 novembre il programma finale all’Arsenale",
@@ -78,8 +319,26 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/biennale-arte-venezia-programma-finale-novembre-2026-v874-480.webp 480w, /assets/images/editorial-auto/biennale-arte-venezia-programma-finale-novembre-2026-v874-800.webp 800w, /assets/images/editorial-auto/biennale-arte-venezia-programma-finale-novembre-2026-v874-1200.webp 1200w",
       "updated": false,
-      "featuredStats": [],
-      "featuredHighlights": []
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "13–22 novembre",
+          "label": "programma finale"
+        },
+        {
+          "icon": "•",
+          "value": "30 euro",
+          "label": "intero un accesso"
+        },
+        {
+          "icon": "•",
+          "value": "22 novembre",
+          "label": "chiusura mostra"
+        }
+      ],
+      "featuredHighlights": [
+        "22 novembre"
+      ]
     },
     {
       "title": "Royal Blood a Milano il 5 marzo 2027: biglietti su tre circuiti ufficiali",
@@ -94,8 +353,26 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/royal-blood-milano-alcatraz-5-marzo-2027-v874-480.webp 480w, /assets/images/editorial-auto/royal-blood-milano-alcatraz-5-marzo-2027-v874-800.webp 800w, /assets/images/editorial-auto/royal-blood-milano-alcatraz-5-marzo-2027-v874-1200.webp 1200w",
       "updated": false,
-      "featuredStats": [],
-      "featuredHighlights": []
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "5 marzo 2027",
+          "label": "data italiana"
+        },
+        {
+          "icon": "•",
+          "value": "Alcatraz",
+          "label": "Milano"
+        },
+        {
+          "icon": "•",
+          "value": "3 circuiti",
+          "label": "vendita generale"
+        }
+      ],
+      "featuredHighlights": [
+        "5 marzo 2027"
+      ]
     },
     {
       "title": "Hilary Duff a Milano il 10 maggio 2027: biglietti ufficiali e supporto di Rebecca Black",
@@ -110,8 +387,26 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/hilary-duff-milano-unipol-dome-10-maggio-2027-v874-480.webp 480w, /assets/images/editorial-auto/hilary-duff-milano-unipol-dome-10-maggio-2027-v874-800.webp 800w, /assets/images/editorial-auto/hilary-duff-milano-unipol-dome-10-maggio-2027-v874-1200.webp 1200w",
       "updated": false,
-      "featuredStats": [],
-      "featuredHighlights": []
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "10 maggio 2027",
+          "label": "data del concerto"
+        },
+        {
+          "icon": "•",
+          "value": "Unipol Dome",
+          "label": "Milano"
+        },
+        {
+          "icon": "•",
+          "value": "2 circuiti",
+          "label": "vendita generale"
+        }
+      ],
+      "featuredHighlights": [
+        "10 maggio 2027"
+      ]
     },
     {
       "title": "Play Dirty – Triplo gioco arriva il 19 ottobre su Sky Cinema in Italia",
@@ -126,8 +421,27 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/play-dirty-triplo-gioco-sky-19-ottobre-2026-v874-480.webp 480w, /assets/images/editorial-auto/play-dirty-triplo-gioco-sky-19-ottobre-2026-v874-800.webp 800w, /assets/images/editorial-auto/play-dirty-triplo-gioco-sky-19-ottobre-2026-v874-1200.webp 1200w",
       "updated": false,
-      "featuredStats": [],
-      "featuredHighlights": []
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "19 ottobre",
+          "label": "debutto italiano"
+        },
+        {
+          "icon": "•",
+          "value": "Sky Cinema",
+          "label": "disponibilità verificata"
+        },
+        {
+          "icon": "•",
+          "value": "12+",
+          "label": "classificazione"
+        }
+      ],
+      "featuredHighlights": [
+        "19 ottobre",
+        "Sky Cinema"
+      ]
     },
     {
       "title": "Tuner – L’accordatore arriva il 18 ottobre su Sky Cinema: cast e disponibilità in Italia",
@@ -142,8 +456,27 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/tuner-accordatore-sky-18-ottobre-2026-v874-480.webp 480w, /assets/images/editorial-auto/tuner-accordatore-sky-18-ottobre-2026-v874-800.webp 800w, /assets/images/editorial-auto/tuner-accordatore-sky-18-ottobre-2026-v874-1200.webp 1200w",
       "updated": false,
-      "featuredStats": [],
-      "featuredHighlights": []
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "18 ottobre",
+          "label": "uscita italiana"
+        },
+        {
+          "icon": "•",
+          "value": "Sky Cinema",
+          "label": "piattaforma verificata"
+        },
+        {
+          "icon": "•",
+          "value": "12+",
+          "label": "classificazione"
+        }
+      ],
+      "featuredHighlights": [
+        "18 ottobre",
+        "Sky Cinema"
+      ]
     },
     {
       "title": "Vigil 3 arriva in Italia il 18 ottobre: indagine nell’Artico su Sky Atlantic",
@@ -158,8 +491,27 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/vigil-stagione-3-sky-18-ottobre-2026-v874-480.webp 480w, /assets/images/editorial-auto/vigil-stagione-3-sky-18-ottobre-2026-v874-800.webp 800w, /assets/images/editorial-auto/vigil-stagione-3-sky-18-ottobre-2026-v874-1200.webp 1200w",
       "updated": false,
-      "featuredStats": [],
-      "featuredHighlights": []
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "18 ottobre",
+          "label": "debutto italiano"
+        },
+        {
+          "icon": "•",
+          "value": "Sky Atlantic",
+          "label": "canale indicato"
+        },
+        {
+          "icon": "•",
+          "value": "stagione 3",
+          "label": "nuovo caso"
+        }
+      ],
+      "featuredHighlights": [
+        "18 ottobre",
+        "Sky Atlantic"
+      ]
     },
     {
       "title": "IA nella finanza, il FSB chiede supervisione umana e controlli continui",
