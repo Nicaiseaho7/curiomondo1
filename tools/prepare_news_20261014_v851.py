@@ -112,6 +112,10 @@ def finish_page(article, release):
     body.set("data-risk-level", article["risk"])
     body.set("data-editorial-protocol", "4.0")
     body.set("data-article-format", article["formato"])
+    if article.get("update"):
+        body.set("data-updated", "true")
+    else:
+        body.attrib.pop("data-updated", None)
     body.attrib.pop("data-length-policy", None)
     if "correlati" in article:
         for grid in doc.xpath('//div[contains(@class,"curio-related-grid")]'):

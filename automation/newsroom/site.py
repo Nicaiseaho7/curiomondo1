@@ -241,6 +241,27 @@ def _text(nodes) -> str:
     return re.sub(r"\s+", " ", " ".join(nodes)).strip()
 
 
+def _is_updated(doc, ld, iso: str) -> bool:
+    if doc.xpath('//article[contains(@class,"art-body")][@data-updated="true"]'):
+        return True
+    meta = _text(doc.xpath('//main[contains(@class,"wrap")]//div[contains(@class,"meta")][1]//text()'))
+    if "Aggiornato il" in meta:
+        return True
+    modified = str(ld.get("dateModified") or "")
+    if not modified:
+        return False
+    try:
+        published = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        changed = datetime.fromisoformat(modified.replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    return (changed - published) >= timedelta(minutes=2)
+
+
+def _update_flag(parent):
+    etree.SubElement(parent, "span", {"class": "cm-update-flag"}).text = "aggiornamento"
+
+
 def _article_info(path: Path) -> dict[str, Any] | None:
     doc = html.fromstring(path.read_text(encoding="utf-8"))
     if "noindex" in " ".join(doc.xpath('//meta[@name="robots"]/@content')).lower():
@@ -264,7 +285,7 @@ def _article_info(path: Path) -> dict[str, Any] | None:
             "imageAlt": h.get("alt", ""),
             "imageWidth": int(h.get("width") or 800),
             "imageHeight": int(h.get("height") or 533),
-            "srcset": srcset}
+            "srcset": srcset, "updated": _is_updated(doc, ld, iso)}
     stats = []
     for row in doc.xpath('//section[contains(@class,"cm-insight")]//div[contains(@class,"cm-insight-grid")]/div')[:3]:
         value = _text(row.xpath('./strong//text()'))
@@ -292,6 +313,8 @@ def _featured(item):
     node = etree.Element("article", {"class": "featured"}); _picture(node, item, False)
     txt = etree.SubElement(node, "div", {"class": "txt"})
     etree.SubElement(txt, "span", {"class": "tag"}).text = "In evidenza"
+    if item.get("updated"):
+        _update_flag(txt)
     h1 = etree.SubElement(txt, "h1"); title = item["title"]
     keys = [str(k) for k in item.get("featuredHighlights", []) if k]
     if keys:
@@ -337,6 +360,8 @@ def _card(item, rail=False):
     _picture(node, item)
     body = etree.SubElement(node, "div", {"class": "abody" if rail else "body"})
     etree.SubElement(body, "div", {"class": "ameta" if rail else "meta"}).text = _etichetta(item["section"])
+    if item.get("updated"):
+        _update_flag(body)
     etree.SubElement(body, "h3").text = item["title"]
     etree.SubElement(body, "p").text = item["excerpt"]
     etree.SubElement(body, "time", {"datetime": item["dateISO"]}).text = _italian_date(item["dateISO"]) if rail else item["dateLabel"]
@@ -349,6 +374,8 @@ def _sync_ultima_ora(doc, items: list[dict[str, Any]]) -> None:
     for item in items[:10]:
         li = etree.SubElement(ol, "li")
         link = etree.SubElement(li, "a", {"class": "cm-wire__item", "href": item["url"]})
+        if item.get("updated"):
+            _update_flag(link)
         etree.SubElement(link, "span", {"class": "cm-wire__title"}).text = item["title"]
     found = doc.xpath('//*[@id="cm-ultima-ora"]')
     if found:

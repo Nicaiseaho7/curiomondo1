@@ -53,6 +53,10 @@ const picture = (entry, eager) => {
   return `<picture><img src="${esc(src)}"${entry.srcset ? ` srcset="${esc(entry.srcset)}"` : ''} sizes="${LCP_SIZES}" alt="${esc(entry.imageAlt)}" width="${entry.imageWidth || 800}" height="${entry.imageHeight || 533}"${extra}></picture>`;
 };
 
+const updateFlag = (entry) => entry.updated
+  ? '<span class="cm-update-flag">aggiornamento</span>'
+  : '';
+
 const time = (entry) => {
   const raw = entry.firstPublishedAt || entry.dateISO || '';
   return `<time datetime="${esc(raw)}">${esc(formatDate(entry))}</time>`;
@@ -64,7 +68,7 @@ const largeCard = (entry, label, color, primary, categoryId) => {
   const categoryAttr = categoryId ? ` data-category="${esc(categoryId)}"` : '';
   const featured = label === 'In primo piano';
   const labelMarkup = `<span class="cm-topic-label${featured ? ' cm-topic-label--featured' : ''}">${esc(label)}</span>`;
-  return `<article class="${cls}"${categoryAttr} style="--cm-category-color:${esc(color)}">${featured ? labelMarkup : ''}<div class="cm-topic-lead__body">${featured ? '' : labelMarkup}<${title} class="cm-topic-lead__title">${esc(entry.title)}</${title}>${entry.excerpt ? `<p class="cm-topic-lead__summary">${esc(entry.excerpt)}</p>` : ''}<div class="cm-topic-lead__footer"><a class="cm-topic-lead__cta" href="${esc(entry.url)}">Leggi l’articolo →</a>${time(entry)}</div></div>${picture(entry, primary)}</article>`;
+  return `<article class="${cls}"${categoryAttr} style="--cm-category-color:${esc(color)}">${featured ? labelMarkup : ''}<div class="cm-topic-lead__body">${featured ? '' : labelMarkup}${updateFlag(entry)}<${title} class="cm-topic-lead__title">${esc(entry.title)}</${title}>${entry.excerpt ? `<p class="cm-topic-lead__summary">${esc(entry.excerpt)}</p>` : ''}<div class="cm-topic-lead__footer"><a class="cm-topic-lead__cta" href="${esc(entry.url)}">Leggi l’articolo →</a>${time(entry)}</div></div>${picture(entry, primary)}</article>`;
 };
 
 const carousel = (entries) => {
@@ -80,7 +84,7 @@ const carousel = (entries) => {
 const ultimaOra = (entries) => {
   const items = entries.slice(0, 10).map((entry) => {
     const raw = entry.firstPublishedAt || entry.dateISO || '';
-    return `<li><a class="cm-wire__item" href="${esc(entry.url)}"><time class="cm-wire__time" datetime="${esc(raw)}">${esc(hourLabel(entry))}</time><span class="cm-wire__title">${esc(entry.title)}</span></a></li>`;
+    return `<li><a class="cm-wire__item" href="${esc(entry.url)}"><time class="cm-wire__time" datetime="${esc(raw)}">${esc(hourLabel(entry))}</time>${updateFlag(entry)}<span class="cm-wire__title">${esc(entry.title)}</span></a></li>`;
   }).join('');
   return `<section class="cm-wire" id="cm-ultima-ora" aria-label="Ultima ora"><details class="cm-wire__details"><summary class="cm-wire__toggle"><span class="cm-wire__kicker"><span class="cm-wire__dot" aria-hidden="true"></span><span>Ultima ora</span></span><span class="cm-wire__chevron" aria-hidden="true"></span></summary></details><ol class="cm-wire__list">${items}</ol><a class="cm-wire__more" href="/notizie/">Tutte le notizie</a></section>`;
 };
@@ -92,7 +96,7 @@ const section = ({ category, lead, cards }) => {
   const own = cards.filter(belongs);
   if (!own.length) return '';
   const small = own.map((entry) => (
-    `<a class="cm-topic-card" data-category="${esc(category.id)}" href="${esc(entry.url)}" style="--cm-category-color:${esc(category.color)}"><div class="cm-topic-card__body"><span class="cm-topic-label meta">${esc(label)}</span><h3 class="cm-topic-card__title">${esc(entry.title)}</h3>${picture(entry, false)}${time(entry)}</div></a>`
+    `<a class="cm-topic-card" data-category="${esc(category.id)}" href="${esc(entry.url)}" style="--cm-category-color:${esc(category.color)}"><div class="cm-topic-card__body"><span class="cm-topic-label meta">${esc(label)}</span>${updateFlag(entry)}<h3 class="cm-topic-card__title">${esc(entry.title)}</h3>${picture(entry, false)}${time(entry)}</div></a>`
   )).join('');
   const archive = category.archive
     ? `<a class="cm-topic-archive" href="${esc(category.archive)}">${esc(category.id === 'meteo' ? 'Tutte le notizie Meteo →' : `Tutte le notizie di ${label} →`)}</a>`
@@ -213,5 +217,8 @@ const tickerCopy = `<div aria-hidden="true" class="ticker-track" inert="">${tick
 if (!home.includes('class="ticker-track"')) throw new Error('ticker assente');
 home = home.replace(/<nav aria-label="Ultime notizie in diretta" class="ticker-track">[\s\S]*?<\/nav>/, tickerNav);
 home = home.replace(/<div aria-hidden="true" class="ticker-track" inert="">[\s\S]*?<\/div>/, tickerCopy);
+if (!home.includes('id="cm-update-flag-css"')) {
+  home = home.replace('</head>', '<style id="cm-update-flag-css">.cm-update-flag{display:inline-block;margin:0 8px 6px 0;color:#c62828;font-weight:750;font-size:.72rem;letter-spacing:.02em;line-height:1.2}</style></head>');
+}
 fs.writeFileSync(homePath, home);
 console.log('home-editorial', hero && hero.title, allocation.sections.length);
