@@ -217,7 +217,7 @@ const tickerCopy = `<div aria-hidden="true" class="ticker-track" inert="">${tick
 if (!home.includes('class="ticker-track"')) throw new Error('ticker assente');
 home = home.replace(/<nav aria-label="Ultime notizie in diretta" class="ticker-track">[\s\S]*?<\/nav>/, tickerNav);
 home = home.replace(/<div aria-hidden="true" class="ticker-track" inert="">[\s\S]*?<\/div>/, tickerCopy);
-const UPDATE_FLAG_CSS = '<style id="cm-update-flag-css">.cm-update-flag{display:block;margin:0 0 4px;color:#c62828;font-weight:750;font-size:.72rem;letter-spacing:.02em;line-height:1.2}.cm-wire__title .cm-update-flag{margin:0 0 2px}</style>';
+const UPDATE_FLAG_CSS = '<style id="cm-update-flag-css">.cm-update-flag{display:inline-flex;align-items:center;width:max-content;margin:0 0 2px;padding:5px 10px;border-radius:999px;background:#B91C1C;color:#fff;font-size:.68rem;font-weight:800;letter-spacing:.09em;line-height:1;text-transform:uppercase}.cm-wire__title:has(.cm-update-flag){display:flex;flex-direction:column;align-items:flex-start;gap:4px}.cm-wire__title .cm-update-flag{margin:0}</style>';
 if (home.includes('id="cm-update-flag-css"')) {
   home = home.replace(/<style id="cm-update-flag-css">[\s\S]*?<\/style>/, UPDATE_FLAG_CSS);
 } else {
