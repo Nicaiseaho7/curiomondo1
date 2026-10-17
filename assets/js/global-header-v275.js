@@ -9,7 +9,10 @@
         sessionStorage.removeItem('cm_menu_return');
         sessionStorage.setItem('cm_skip_menu', '1');
       } catch {}
-      if (location.pathname === '/' || location.pathname === '/index.html') return;
+      if (location.pathname === '/' || location.pathname === '/index.html') {
+        location.reload();
+        return;
+      }
       location.assign('/');
     });
   });

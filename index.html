@@ -24,6 +24,16 @@
     setTimeout(top, 0);
     setTimeout(top, 120);
   });
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('a.logo, a.drawer-brand-home, a.drawer-brand-card');
+    if (!link) return;
+    var path = '';
+    try { path = new URL(link.getAttribute('href'), location.href).pathname; } catch (e) { return; }
+    if (path !== '/' && path !== '/index.html') return;
+    event.preventDefault();
+    if (location.pathname === '/' || location.pathname === '/index.html') location.reload();
+    else location.assign('/');
+  });
 })();
 </script>
 <meta charset="utf-8">
