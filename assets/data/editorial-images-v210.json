@@ -1,7 +1,539 @@
 {
-  "version": 868,
+  "version": 870,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "id": "incendi-boschivi-italia-80260-interventi-bilancio-2026",
+      "article": "/notizie/incendi-boschivi-italia-80260-interventi-bilancio-2026.html",
+      "alt": "Illustrazione editoriale generata con IA di un bosco italiano visto dall'alto, senza fiamme né soccorsi.",
+      "prompt": "Illustrazione editoriale fotorealistica generata con IA, non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/incendi-boschivi-italia-80260-interventi-bilancio-2026-v870-480.webp",
+          "bytes": 40660,
+          "sha256": "a573e85fc74d41245078d4fee7084f4b5a88961445d3c4a3f9f50006906f24a2"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/incendi-boschivi-italia-80260-interventi-bilancio-2026-v870-800.webp",
+          "bytes": 106162,
+          "sha256": "32bd877064bdb9d08ec3844bc527e3a7237566f52f927e90041f2a5f6cf7e862"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/incendi-boschivi-italia-80260-interventi-bilancio-2026-v870-1200.webp",
+          "bytes": 216066,
+          "sha256": "56aed9fe0b52b9c1d207af3cdea2e1fc2d6164eb8c8b84f3f15d22eee7d84e9e"
+        }
+      ],
+      "disclosure": "Illustrazione concettuale digitale. Non è una fotografia documentaria.",
+      "generator": "Python Pillow illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "ema-orforglipron-foundayo-pillola-glp1-parere-ottobre-2026",
+      "article": "/notizie/ema-orforglipron-foundayo-pillola-glp1-parere-ottobre-2026.html",
+      "alt": "Illustrazione editoriale generata con IA di una compressa generica, senza marchio.",
+      "prompt": "Illustrazione editoriale fotorealistica generata con IA, non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ema-orforglipron-foundayo-pillola-glp1-parere-ottobre-2026-v870-480.webp",
+          "bytes": 4380,
+          "sha256": "9d6fd48ed33bf51a354082aea9aef088cc07ec6439646941eed8f7084b83c46a"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ema-orforglipron-foundayo-pillola-glp1-parere-ottobre-2026-v870-800.webp",
+          "bytes": 8758,
+          "sha256": "e676b042c2f32e765dc3e2d4b3a4d90e5ea5d0cd2b539267376af58513a415a2"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ema-orforglipron-foundayo-pillola-glp1-parere-ottobre-2026-v870-1200.webp",
+          "bytes": 15482,
+          "sha256": "412d3cba9e6b726408630efa57c4203c6edd2c130205643e6226f6c007cd9e55"
+        }
+      ],
+      "disclosure": "Illustrazione concettuale digitale. Non è una fotografia documentaria.",
+      "generator": "Python Pillow illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "ema-daraxonrasib-rasonque-tumore-pancreas-studio-sopravvivenza",
+      "article": "/notizie/ema-daraxonrasib-rasonque-tumore-pancreas-studio-sopravvivenza.html",
+      "alt": "Illustrazione editoriale generata con IA di un banco di laboratorio, senza pazienti.",
+      "prompt": "Illustrazione editoriale fotorealistica generata con IA, non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ema-daraxonrasib-rasonque-tumore-pancreas-studio-sopravvivenza-v870-480.webp",
+          "bytes": 14200,
+          "sha256": "fbbcbaf1ee6169a50dfc9dffd8267ec92a6ba70cab0cd2ebbf90a4ab855f16b5"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ema-daraxonrasib-rasonque-tumore-pancreas-studio-sopravvivenza-v870-800.webp",
+          "bytes": 27666,
+          "sha256": "6084e6374467e5bbb050c59479da59c471582889e5f473b7ae2407a8e636ab67"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ema-daraxonrasib-rasonque-tumore-pancreas-studio-sopravvivenza-v870-1200.webp",
+          "bytes": 46614,
+          "sha256": "a2bfef78d52bab66b77bc8d01ea422eedf995657f58f4d6e79566de98dc5c72d"
+        }
+      ],
+      "disclosure": "Illustrazione concettuale digitale. Non è una fotografia documentaria.",
+      "generator": "Python Pillow illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "aifa-voranigo-gliomi-basso-grado-rimborsabilita-ottobre-2026",
+      "article": "/notizie/aifa-voranigo-gliomi-basso-grado-rimborsabilita-ottobre-2026.html",
+      "alt": "Illustrazione editoriale generata con IA di una sala di neuroradiologia vuota.",
+      "prompt": "Illustrazione editoriale fotorealistica generata con IA, non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/aifa-voranigo-gliomi-basso-grado-rimborsabilita-ottobre-2026-v870-480.webp",
+          "bytes": 7842,
+          "sha256": "5a6dd2e9207b12e362db7d1f0da62ba6b867669d8deb6974b2d1ab958bda6a5b"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/aifa-voranigo-gliomi-basso-grado-rimborsabilita-ottobre-2026-v870-800.webp",
+          "bytes": 17838,
+          "sha256": "39c4de7b2344eebb154a64cc5c1eef34f10d2b13568e954b1913d0ac7a798933"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/aifa-voranigo-gliomi-basso-grado-rimborsabilita-ottobre-2026-v870-1200.webp",
+          "bytes": 35984,
+          "sha256": "417aa1fa9e5f54e4151b2437907c864d2f06fe9e8ca935be1af40f097d9eedc7"
+        }
+      ],
+      "disclosure": "Illustrazione concettuale digitale. Non è una fotografia documentaria.",
+      "generator": "Python Pillow illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "aifa-estensioni-farmaci-hiv-adolescenti-schizofrenia-pancreas-2026",
+      "article": "/notizie/aifa-estensioni-farmaci-hiv-adolescenti-schizofrenia-pancreas-2026.html",
+      "alt": "Illustrazione editoriale generata con IA di un'area farmaci ospedaliera, senza persone identificabili.",
+      "prompt": "Illustrazione editoriale fotorealistica generata con IA, non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/aifa-estensioni-farmaci-hiv-adolescenti-schizofrenia-pancreas-2026-v870-480.webp",
+          "bytes": 13946,
+          "sha256": "c4a41c189df43e5c4445f075ae99a4236018d7d271f2e4c11f3295742415a7d3"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/aifa-estensioni-farmaci-hiv-adolescenti-schizofrenia-pancreas-2026-v870-800.webp",
+          "bytes": 26986,
+          "sha256": "992671ad4a3da64b7a7e86f6194bd0a45f4c85ed24b5753e4bf08989fda3c87a"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/aifa-estensioni-farmaci-hiv-adolescenti-schizofrenia-pancreas-2026-v870-1200.webp",
+          "bytes": 43630,
+          "sha256": "7d1e9bd042d53f9e238ceb688d03e911578f9a2beb6812bc34097cc4c21c8279"
+        }
+      ],
+      "disclosure": "Illustrazione concettuale digitale. Non è una fotografia documentaria.",
+      "generator": "Python Pillow illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "ema-naloxone-nyxoid-spray-senza-ricetta-raccomandazione-2026",
+      "article": "/notizie/ema-naloxone-nyxoid-spray-senza-ricetta-raccomandazione-2026.html",
+      "alt": "Illustrazione editoriale generata con IA di un erogatore nasale generico, senza marchio.",
+      "prompt": "Illustrazione editoriale fotorealistica generata con IA, non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ema-naloxone-nyxoid-spray-senza-ricetta-raccomandazione-2026-v870-480.webp",
+          "bytes": 1818,
+          "sha256": "68c189ab488637e13c74ed2f54e5c01f15d5e171306d281afc54b2aca838aa80"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ema-naloxone-nyxoid-spray-senza-ricetta-raccomandazione-2026-v870-800.webp",
+          "bytes": 4022,
+          "sha256": "7a473eb61b02d197f103e20c214bee2a8fd21fed48adbd8ba697d52534bac57f"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ema-naloxone-nyxoid-spray-senza-ricetta-raccomandazione-2026-v870-1200.webp",
+          "bytes": 8416,
+          "sha256": "3012de77141318915e9cd7b2c7e7a6f14becc057a1a8d4cd768b02c8ed5e9859"
+        }
+      ],
+      "disclosure": "Illustrazione concettuale digitale. Non è una fotografia documentaria.",
+      "generator": "Python Pillow illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "ema-yuviwel-acondroplasia-bambini-parere-favorevole-ottobre-2026",
+      "article": "/notizie/ema-yuviwel-acondroplasia-bambini-parere-favorevole-ottobre-2026.html",
+      "alt": "Illustrazione editoriale generata con IA di un ambulatorio pediatrico vuoto.",
+      "prompt": "Illustrazione editoriale fotorealistica generata con IA, non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ema-yuviwel-acondroplasia-bambini-parere-favorevole-ottobre-2026-v870-480.webp",
+          "bytes": 14164,
+          "sha256": "68fd1764f3f76ff429f2431886446b290d8dd90a1c80c7fc7649f4218030c367"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ema-yuviwel-acondroplasia-bambini-parere-favorevole-ottobre-2026-v870-800.webp",
+          "bytes": 30028,
+          "sha256": "74a5385f5a43a73fbc564560e90c0519f3b61084b1d4e5eed1e2c897ce348d6d"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ema-yuviwel-acondroplasia-bambini-parere-favorevole-ottobre-2026-v870-1200.webp",
+          "bytes": 55178,
+          "sha256": "0409a11707765a348e81022d79ebac1cb20b291c9aa0405397e6a90060fd5b8b"
+        }
+      ],
+      "disclosure": "Illustrazione concettuale digitale. Non è una fotografia documentaria.",
+      "generator": "Python Pillow illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "ema-biosimilari-fovlussea-neuzafy-oculistica-neutropenia-2026",
+      "article": "/notizie/ema-biosimilari-fovlussea-neuzafy-oculistica-neutropenia-2026.html",
+      "alt": "Illustrazione editoriale generata con IA di strumenti oculistici in una sala vuota.",
+      "prompt": "Illustrazione editoriale fotorealistica generata con IA, non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ema-biosimilari-fovlussea-neuzafy-oculistica-neutropenia-2026-v870-480.webp",
+          "bytes": 9868,
+          "sha256": "a8010042710eda455ff2bc3d762598ee45d5e7354ba27309315c7da0fe7fe4c3"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ema-biosimilari-fovlussea-neuzafy-oculistica-neutropenia-2026-v870-800.webp",
+          "bytes": 17648,
+          "sha256": "637b5bfcb89c7750bf3dab0094f2ab730da56e78d408d991cc3c57f678614256"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ema-biosimilari-fovlussea-neuzafy-oculistica-neutropenia-2026-v870-1200.webp",
+          "bytes": 27878,
+          "sha256": "e209523119b9167c19cabe79acc8062e57a3da5be7e096d0c6072b2f3f820452"
+        }
+      ],
+      "disclosure": "Illustrazione concettuale digitale. Non è una fotografia documentaria.",
+      "generator": "Python Pillow illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "west-nile-ecdc-italia-764-casi-autoctoni-ottobre-2026",
+      "article": "/notizie/west-nile-ecdc-italia-764-casi-autoctoni-ottobre-2026.html",
+      "alt": "Illustrazione editoriale generata con IA di una zanzara su una foglia, senza persone.",
+      "prompt": "Illustrazione editoriale fotorealistica generata con IA, non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/west-nile-ecdc-italia-764-casi-autoctoni-ottobre-2026-v870-480.webp",
+          "bytes": 17544,
+          "sha256": "e813c37cc93eb112d6e92842a18b776b4ece8591b03ddb52ea7a0d2e6d7eb65c"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/west-nile-ecdc-italia-764-casi-autoctoni-ottobre-2026-v870-800.webp",
+          "bytes": 45660,
+          "sha256": "ba6bb401ac9044cd270a16fe860856958776497b466833ba4908ea12b8145409"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/west-nile-ecdc-italia-764-casi-autoctoni-ottobre-2026-v870-1200.webp",
+          "bytes": 89298,
+          "sha256": "33a6c768af46f25773fa9090b186875522c0ad63f38ec2b7afcb7f75d405f7f9"
+        }
+      ],
+      "disclosure": "Illustrazione concettuale digitale. Non è una fotografia documentaria.",
+      "generator": "Python Pillow illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "dengue-italia-70-casi-locali-sette-focolai-ecdc-ottobre-2026",
+      "article": "/notizie/dengue-italia-70-casi-locali-sette-focolai-ecdc-ottobre-2026.html",
+      "alt": "Illustrazione editoriale generata con IA di una zanzara tigre su una foglia, senza persone.",
+      "prompt": "Illustrazione editoriale fotorealistica generata con IA, non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/dengue-italia-70-casi-locali-sette-focolai-ecdc-ottobre-2026-v870-480.webp",
+          "bytes": 17016,
+          "sha256": "a3b74841dd29c5bc9761db726e1fefb92a54b2c1c4cdf7c36d48ca44ca83d1bf"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/dengue-italia-70-casi-locali-sette-focolai-ecdc-ottobre-2026-v870-800.webp",
+          "bytes": 38286,
+          "sha256": "7b0ed853f2848970a135a845030a1d09e3d09e52d3da8990fa51f365d664c85f"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/dengue-italia-70-casi-locali-sette-focolai-ecdc-ottobre-2026-v870-1200.webp",
+          "bytes": 70292,
+          "sha256": "438474b410b73d53140c77d89841bc26fcff9d7a03cf0cade40b2082812f5705"
+        }
+      ],
+      "disclosure": "Illustrazione concettuale digitale. Non è una fotografia documentaria.",
+      "generator": "Python Pillow illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "ecdc-chikungunya-italia-francia-focolai-ottobre-2026",
+      "article": "/notizie/ecdc-chikungunya-italia-francia-focolai-ottobre-2026.html",
+      "alt": "Illustrazione editoriale generata con IA di una zanzara tigre in un giardino, senza persone.",
+      "prompt": "Illustrazione editoriale fotorealistica generata con IA, non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ecdc-chikungunya-italia-francia-focolai-ottobre-2026-v870-480.webp",
+          "bytes": 18824,
+          "sha256": "3486f3cc85188b64e5d4ab4ac697351b65a37b0cab928c4b73785dfd4d1d9920"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ecdc-chikungunya-italia-francia-focolai-ottobre-2026-v870-800.webp",
+          "bytes": 37702,
+          "sha256": "72eb5dd1a823745a02b4efa7988f95f70cb1d007e54098085a8b9293bc2d33a4"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ecdc-chikungunya-italia-francia-focolai-ottobre-2026-v870-1200.webp",
+          "bytes": 63428,
+          "sha256": "8bbae32afd0cc5adb1ee8ac7894ecc922942b68603d29b86cc0c7f44a534b133"
+        }
+      ],
+      "disclosure": "Illustrazione concettuale digitale. Non è una fotografia documentaria.",
+      "generator": "Python Pillow illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "virus-respiratori-ecdc-influenza-rsv-covid-settimana-41-2026",
+      "article": "/notizie/virus-respiratori-ecdc-influenza-rsv-covid-settimana-41-2026.html",
+      "alt": "Illustrazione editoriale generata con IA di un corridoio ospedaliero vuoto.",
+      "prompt": "Illustrazione editoriale fotorealistica generata con IA, non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/virus-respiratori-ecdc-influenza-rsv-covid-settimana-41-2026-v870-480.webp",
+          "bytes": 7752,
+          "sha256": "d6439ced7ab71439435237dd7a7c0ef087833a8937c13980f0084d44537ca231"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/virus-respiratori-ecdc-influenza-rsv-covid-settimana-41-2026-v870-800.webp",
+          "bytes": 16410,
+          "sha256": "ec395b4f422806f82f4a7c1e3c74c3b0b7b641788a9a16793f6f1749e36d71d5"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/virus-respiratori-ecdc-influenza-rsv-covid-settimana-41-2026-v870-1200.webp",
+          "bytes": 31304,
+          "sha256": "d2be9f223d16e5287813a1da2adc88eb4e639b25d8e4a5c95270d9424aaa421e"
+        }
+      ],
+      "disclosure": "Illustrazione concettuale digitale. Non è una fotografia documentaria.",
+      "generator": "Python Pillow illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "copernicus-settembre-2026-secondo-piu-caldo-anomalia-globale",
+      "article": "/notizie/copernicus-settembre-2026-secondo-piu-caldo-anomalia-globale.html",
+      "alt": "Illustrazione editoriale generata con IA di un paesaggio alpino di settembre.",
+      "prompt": "Illustrazione editoriale fotorealistica generata con IA, non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/copernicus-settembre-2026-secondo-piu-caldo-anomalia-globale-v870-480.webp",
+          "bytes": 34010,
+          "sha256": "0333100c358f6395f5add10ed0777beae2ee8a060c931ef62b7cb7829b592ac4"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/copernicus-settembre-2026-secondo-piu-caldo-anomalia-globale-v870-800.webp",
+          "bytes": 92800,
+          "sha256": "57b224228bfb52eccd6ae667d48ed7d3936fc7fdd30b291c85514cc3db65acb9"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/copernicus-settembre-2026-secondo-piu-caldo-anomalia-globale-v870-1200.webp",
+          "bytes": 192398,
+          "sha256": "13e94b14dec9aa8402ef082494dafa30df78c7694f6166d7f7948d19a0a8d9ce"
+        }
+      ],
+      "disclosure": "Illustrazione concettuale digitale. Non è una fotografia documentaria.",
+      "generator": "Python Pillow illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "efsa-cani-gatti-genetica-tratti-estremi-benessere-2026",
+      "article": "/notizie/efsa-cani-gatti-genetica-tratti-estremi-benessere-2026.html",
+      "alt": "Illustrazione editoriale generata con IA di un cane e un gatto sani in casa.",
+      "prompt": "Illustrazione editoriale fotorealistica generata con IA, non documentaria",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/efsa-cani-gatti-genetica-tratti-estremi-benessere-2026-v870-480.webp",
+          "bytes": 19830,
+          "sha256": "3818d23c1728fd6b7fcef2e497715fef1e89c797a8f360cdbf2cf114f66c8b0b"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/efsa-cani-gatti-genetica-tratti-estremi-benessere-2026-v870-800.webp",
+          "bytes": 47698,
+          "sha256": "82615d5d55f9d7bcfe6bf50c3860cb78684ed3783302bc434581f1a021790895"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/efsa-cani-gatti-genetica-tratti-estremi-benessere-2026-v870-1200.webp",
+          "bytes": 92430,
+          "sha256": "686d6c3793d9126d5909c5a6af42d23f26c09319f75843bed9eef6b6cb6ac803"
+        }
+      ],
+      "disclosure": "Illustrazione concettuale digitale. Non è una fotografia documentaria.",
+      "generator": "Python Pillow illustration",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
     {
       "id": "francia-manifestazioni-17-ottobre-2026-carovita-metro-parigi",
       "article": "/notizie/francia-manifestazioni-17-ottobre-2026-carovita-metro-parigi.html",

@@ -20,7 +20,7 @@
       { id: 'cronaca', label: 'Cronaca', color: '#9A3412', archive: '/categorie/cronaca/', aliases: ['cronaca', 'giustizia', 'sicurezza'] },
       { id: 'tecnologia', label: 'Tecnologia', color: '#0E7490', archive: '/categorie/tecnologia/', aliases: ['tecnologia', 'digitale', 'intelligenza artificiale'] },
       { id: 'economia', label: 'Economia', color: '#854D0E', archive: '/categorie/economia/', aliases: ['economia', 'finanza', 'lavoro'] },
-      { id: 'scienza', label: 'Scienza', color: '#4338CA', archive: '/categorie/scienza/', aliases: ['scienza', 'ricerca', 'spazio'] },
+      { id: 'scienza', label: 'Scienza', color: '#4338CA', archive: '/categorie/scienza/', aliases: ['scienza', 'ricerca', 'spazio', 'salute'] },
       { id: 'ambiente', label: 'Ambiente', color: '#3F6212', archive: '/categorie/ambiente/', aliases: ['ambiente', 'clima', 'natura'] },
       { id: 'cultura', label: 'Cultura', color: '#9D174D', archive: '/categorie/cultura/', aliases: ['cultura', 'spettacolo'] },
       { id: 'italia', label: 'Italia', color: '#0F766E', archive: '/categorie/italia/', aliases: ['italia'] },
