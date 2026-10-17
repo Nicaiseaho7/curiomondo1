@@ -1,0 +1,199 @@
+{
+  "version": 859,
+  "new_articles": 10,
+  "updated_articles": 0,
+  "new_images": 10,
+  "request": "Notizie, meteo, trasporti e servizi — 17 ottobre 2026",
+  "push_executed": false,
+  "manifest_accessed": false,
+  "baseline_commit": "5b6c5a2d3c2d5281a2748f2f6bff7d321423f489",
+  "source_list": "Fonti istituzionali e agenzie elencate nelle singole pagine.",
+  "exclusions": [
+    "Notizie senza conferma primaria o con elementi non verificabili escluse.",
+    "Avviso ferroviario duplicato sul tratto Pisa–Pietrasanta escluso perché già pubblicato."
+  ],
+  "corrections": [
+    "Dichiarazioni KCNA attribuite all’agenzia e non presentate come verificate indipendentemente.",
+    "Ordine presidenziale distinto dall’abrogazione della legge.",
+    "Fermo merci distinto dallo sciopero del trasporto pubblico."
+  ],
+  "image_visual_review": "Completata su dieci copertine dedicate.",
+  "browser_visual_qa": "Da completare dopo i gate.",
+  "format_exception": "Flash circoscritti ai fatti pratici e agli aggiornamenti verificati, senza riempitivo.",
+  "evergreen_exception": "Nessun collegamento generico forzato.",
+  "release": "2026-10-17T06:44:59+02:00",
+  "articles": [
+    {
+      "slug": "corea-del-nord-kcna-test-siluro-zam-2-17-ottobre-2026",
+      "title": "Corea del Nord, KCNA annuncia il test di un nuovo siluro",
+      "published": "2026-10-17T06:44:59+02:00",
+      "modified": "2026-10-17T06:44:59+02:00",
+      "source_date": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://apnews.com/",
+          "nome": "Associated Press — resoconto del 17 ottobre sull’annuncio di KCNA."
+        },
+        {
+          "url": "https://www.reuters.com/world/asia-pacific/",
+          "nome": "Reuters — copertura sull’annuncio del test nordcoreano."
+        }
+      ],
+      "words": 106,
+      "risk": "B",
+      "original_value": "Attribuisce la notizia a KCNA e separa l’annuncio dalla verifica indipendente."
+    },
+    {
+      "slug": "trump-sospende-applicazione-sanzioni-russia-legge-2026",
+      "title": "Trump sospende l’applicazione delle sanzioni previste dalla nuova legge sulla Russia",
+      "published": "2026-10-17T06:39:59+02:00",
+      "modified": "2026-10-17T06:39:59+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
+          "nome": "Casa Bianca — ordine presidenziale del 16 ottobre 2026."
+        },
+        {
+          "url": "https://www.reuters.com/world/",
+          "nome": "Reuters — resoconto sulla sospensione delle misure."
+        }
+      ],
+      "words": 116,
+      "risk": "B",
+      "original_value": "Chiarisce che l’ordine sospende l’applicazione delle misure senza abrogare la legge."
+    },
+    {
+      "slug": "ue-cop17-biodiversita-yerevan-obiettivi-natura-16-ottobre-2026",
+      "title": "Biodiversità, l’UE prepara la linea per la COP17 di Yerevan",
+      "published": "2026-10-17T06:34:59+02:00",
+      "modified": "2026-10-17T06:34:59+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://environment.ec.europa.eu/news/eu-delivering-cop17-nature-biodiversity-targets-2026-10-16_en",
+          "nome": "Commissione europea — priorità UE per la COP17, 16 ottobre 2026."
+        }
+      ],
+      "words": 103,
+      "risk": "B",
+      "original_value": "Distingue l’indirizzo politico della Commissione dagli obblighi giuridici e indica le date della conferenza."
+    },
+    {
+      "slug": "roma-lavori-nodo-ferroviario-modifiche-treni-17-18-ottobre-2026",
+      "title": "Nodo ferroviario di Roma, modifiche ai regionali nel fine settimana",
+      "published": "2026-10-17T06:29:59+02:00",
+      "modified": "2026-10-17T06:29:59+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.rfi.it/it/news-e-media/infomobilita/avvisi/2026/10/16/linee--roma---viterbo--roma---civitavecchia--roma---vigna-clara-.html",
+          "nome": "RFI — avviso sui lavori nel nodo di Roma, 16 ottobre 2026."
+        }
+      ],
+      "words": 111,
+      "risk": "B",
+      "original_value": "Indica due esempi di variazione verificabili nell’avviso RFI e invita a controllare la singola corsa."
+    },
+    {
+      "slug": "lavori-ferroviari-rosignano-vada-treni-17-18-ottobre-2026",
+      "title": "Lavori tra Rosignano e Vada, variazioni ai regionali in Toscana",
+      "published": "2026-10-17T06:24:59+02:00",
+      "modified": "2026-10-17T06:24:59+02:00",
+      "source_date": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://www.rfi.it/it/news-e-media/infomobilita/avvisi/2026/10/17/linee--firenze-grosseto--campiglia-livorno--livorno-piombino--pi.html",
+          "nome": "RFI — avviso di manutenzione tra Rosignano e Vada, 17 ottobre 2026."
+        }
+      ],
+      "words": 96,
+      "risk": "B",
+      "original_value": "Riporta le date delle finestre e le corse indicate da RFI senza generalizzare le modifiche."
+    },
+    {
+      "slug": "napoli-centrale-lavori-notturni-treni-17-18-ottobre-2026",
+      "title": "Napoli Centrale, lavori notturni e modifiche ai treni dal 17 ottobre",
+      "published": "2026-10-17T06:19:59+02:00",
+      "modified": "2026-10-17T06:19:59+02:00",
+      "source_date": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://www.rfi.it/it/news-e-media/infomobilita/avvisi/2026/10/17/linee-napoli-centrale---roma-termini-torino-porta-nuova-milano-c.html",
+          "nome": "RFI — avviso sui lavori nel nodo di Napoli, 17 ottobre 2026."
+        }
+      ],
+      "words": 101,
+      "risk": "B",
+      "original_value": "Riassume fascia dei lavori, relazioni coinvolte e necessità di verificare il singolo treno."
+    },
+    {
+      "slug": "fermo-autotrasporto-merci-sicilia-calabria-16-20-ottobre-2026",
+      "title": "Autotrasporto merci, fermo proclamato in Sicilia e Calabria fino al 20 ottobre",
+      "published": "2026-10-17T06:14:59+02:00",
+      "modified": "2026-10-17T06:14:59+02:00",
+      "source_date": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://scioperi.mit.gov.it/mit2/public/scioperi",
+          "nome": "Ministero delle Infrastrutture e dei Trasporti — calendario scioperi e fermo merci."
+        }
+      ],
+      "words": 98,
+      "risk": "B",
+      "original_value": "Evidenzia il settore e le regioni interessate, precisando che non è uno sciopero del trasporto pubblico."
+    },
+    {
+      "slug": "roma-mobilita-weekend-mezza-maratona-17-18-ottobre-2026",
+      "title": "Roma, modifiche a viabilità e trasporti per gli eventi del weekend",
+      "published": "2026-10-17T06:09:59+02:00",
+      "modified": "2026-10-17T06:09:59+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.comune.roma.it/web/it/notizia/mobilita-trasporti-weekend-17-18-ottobre.page",
+          "nome": "Roma Capitale — mobilità e trasporti nel weekend 17–18 ottobre."
+        }
+      ],
+      "words": 114,
+      "risk": "B",
+      "original_value": "Avviso pratico con finestra temporale e rinvio ai canali ufficiali per i percorsi aggiornati."
+    },
+    {
+      "slug": "roma-manifestazione-cgil-via-maestra-17-ottobre-2026",
+      "title": "Roma, oggi la manifestazione nazionale CGIL: corteo alle 13:30",
+      "published": "2026-10-17T06:04:59+02:00",
+      "modified": "2026-10-17T06:04:59+02:00",
+      "source_date": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://www.cgil.it/la-cgil/aree-politiche/segreteria-generale/manifestazione-nazionale-17-ottobre-landini-unire-le-lotte-sociali-abbiamo-bisogno-di-un-futuro-diverso-da-quello-che-ci-viene-prospettato-l9irydqm",
+          "nome": "CGIL — convocazione e dettagli della manifestazione del 17 ottobre."
+        }
+      ],
+      "words": 96,
+      "risk": "B",
+      "original_value": "Riporta orario e percorso dall’organizzatore, distinguendo il programma dal piano viabilità ufficiale."
+    },
+    {
+      "slug": "meteo-oggi-17-ottobre-2026-nubi-al-nord-nebbie-pianura-padana",
+      "title": "Meteo oggi, nubi al Nord e nebbie al mattino in pianura",
+      "published": "2026-10-17T05:59:59+02:00",
+      "modified": "2026-10-17T05:59:59+02:00",
+      "source_date": "2026-10-17",
+      "sources": [
+        {
+          "url": "https://www.meteoam.it/it/",
+          "nome": "Servizio Meteorologico dell’Aeronautica Militare — previsioni per il 17 ottobre 2026."
+        },
+        {
+          "url": "https://www.protezionecivile.gov.it/it/approfondimento/bollettino-di-vigilanza/",
+          "nome": "Dipartimento della Protezione Civile — bollettino di vigilanza nazionale."
+        }
+      ],
+      "words": 124,
+      "risk": "B",
+      "original_value": "Sintesi territoriale delle previsioni con rinvio alle allerte locali aggiornate."
+    }
+  ]
+}
