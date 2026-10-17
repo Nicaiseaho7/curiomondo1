@@ -1,0 +1,213 @@
+{
+  "version": 866,
+  "release": "2026-10-17T09:02:28+02:00",
+  "new_articles": 10,
+  "updated_articles": 0,
+  "new_images": 10,
+  "request": "Dieci ultime notizie economiche utili agli italiani — 17 ottobre 2026",
+  "push_executed": false,
+  "manifest_accessed": false,
+  "baseline_commit": "0640725c6ed4507935c280d87991f04587d42e47",
+  "selection_reason": "Massimo di dieci articoli per richiesta; priorità a misure operative, redditi, lavoro, credito, energia e tutela del risparmio.",
+  "exclusions": [
+    "Stablecoin non conformi MiCA esclusa perché già pubblicata sul sito.",
+    "Segnalazioni senza fonte primaria o aggiornamento verificabile escluse."
+  ],
+  "image_visual_review": "Completata sulle dieci copertine originali.",
+  "browser_visual_qa": "Controlli DOM, metadati, immagini e superfici completati; screenshot locale non disponibile perché il runtime non include un eseguibile browser.",
+  "format_exception": "Nessuna: tutti i testi sono approfondimenti standard da almeno 500 parole.",
+  "articles": [
+    {
+      "slug": "bankitalia-pil-inflazione-previsioni-ottobre-2026",
+      "title": "Bankitalia alza il PIL 2026 allo 0,9%, inflazione al 3,2%",
+      "published": "2026-10-17T09:02:28+02:00",
+      "modified": "2026-10-17T09:02:28+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.bancaditalia.it/pubblicazioni/proiezioni-macroeconomiche/2026/index.html",
+          "nome": "Banca d’Italia — Proiezioni macroeconomiche per l’Italia, ottobre 2026."
+        },
+        {
+          "url": "https://www.bancaditalia.it/pubblicazioni/bollettino-economico/2026-4/index.html",
+          "nome": "Banca d’Italia — Bollettino Economico n. 4, 16 ottobre 2026."
+        }
+      ],
+      "words": 505,
+      "risk": "A",
+      "original_value": "Traduce le proiezioni in conseguenze pratiche per potere d’acquisto, mutui, risparmio e liquidità aziendale."
+    },
+    {
+      "slug": "debito-pubblico-agosto-3200-miliardi-calo-bankitalia-2026",
+      "title": "Debito pubblico a 3.200,8 miliardi: ad agosto cala di 6,1",
+      "published": "2026-10-17T08:57:28+02:00",
+      "modified": "2026-10-17T08:57:28+02:00",
+      "source_date": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.bancaditalia.it/media/notizia/finanza-pubblica-fabbisogno-e-debito-agosto-2026/",
+          "nome": "Banca d’Italia — Finanza pubblica, fabbisogno e debito, agosto 2026."
+        },
+        {
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/15/bankitalia-ad-agosto-debito-in-calo-a-3.2008-miliardi_8124d05f-b9fd-4adc-b96c-052381de9115.html",
+          "nome": "ANSA — sintesi dei dati Bankitalia, 15 ottobre 2026."
+        }
+      ],
+      "words": 523,
+      "risk": "A",
+      "original_value": "Separa stock, fabbisogno e liquidità del Tesoro e spiega il significato per risparmiatori e costo del credito."
+    },
+    {
+      "slug": "bonus-mamme-2026-inps-60-euro-mese-requisiti-domanda",
+      "title": "Bonus mamme 2026, l’INPS fissa 60 euro al mese fino a 720",
+      "published": "2026-10-17T08:52:28+02:00",
+      "modified": "2026-10-17T08:52:28+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.10.circolare-numero-106-del-16-10-2026_16394.html",
+          "nome": "INPS — Circolare n. 106 del 16 ottobre 2026."
+        },
+        {
+          "url": "https://www.eutekne.info/Sezioni/Art_1128131_bonus_mamme_a_partire_dal_mese_in_cui_si_perfeziona_il_requisito.aspx",
+          "nome": "Eutekne — analisi dei requisiti e della decorrenza del bonus, 17 ottobre 2026."
+        }
+      ],
+      "words": 531,
+      "risk": "A",
+      "original_value": "Trasforma la circolare in una checklist operativa e distingue reddito personale, ISEE e regole per i contratti stabili."
+    },
+    {
+      "slug": "consob-oscura-dieci-siti-truffe-finanziarie-cripto-ia-2026",
+      "title": "Consob oscura dieci siti abusivi: truffe con IA e profili clonati",
+      "published": "2026-10-17T08:47:28+02:00",
+      "modified": "2026-10-17T08:47:28+02:00",
+      "source_date": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.consob.it/web/consob/w/occhio-alle-truffe-abusivismo-finanziario-consob-oscura-10-siti-internet",
+          "nome": "Consob — Comunicato del 15 ottobre 2026 sull’oscuramento di dieci siti."
+        },
+        {
+          "url": "https://teleborsa.ansa.it/notiziario/finanza/abusivismo-finanziario-consob-oscura-10-siti-totale-sale-a-1-848/",
+          "nome": "Teleborsa-ANSA — riscontro sul numero e sulla tipologia dei siti oscurati."
+        }
+      ],
+      "words": 515,
+      "risk": "A",
+      "original_value": "Fornisce una procedura concreta di verifica e intervento, con attenzione specifica alle frodi cripto e ai falsi recuperi."
+    },
+    {
+      "slug": "bonus-assunzioni-siisl-decreto-pubblicazione-offerte-lavoro-2026",
+      "title": "Bonus assunzioni, obbligo SIISL dal 1° dicembre: cosa conservare",
+      "published": "2026-10-17T08:42:28+02:00",
+      "modified": "2026-10-17T08:42:28+02:00",
+      "source_date": "2026-10-05",
+      "sources": [
+        {
+          "url": "https://lavoro.gov.it/notizie/pagine/bonus-assunzioni-e-siisl-firmato-il-decreto-attuativo",
+          "nome": "Ministero del Lavoro — Bonus assunzioni e SIISL, decreto attuativo n. 134/2026."
+        },
+        {
+          "url": "https://tg24.sky.it/economia/2026/10/16/bonus-assunzioni-2026-siisl",
+          "nome": "Sky TG24 — fase sperimentale e obbligo dal 1° dicembre 2026."
+        }
+      ],
+      "words": 513,
+      "risk": "A",
+      "original_value": "Evidenzia il passaggio ancora necessario per l’efficacia e offre una checklist documentale per evitare la perdita degli sgravi."
+    },
+    {
+      "slug": "imprese-37-milioni-lavoratori-2029-competenze-excelsior",
+      "title": "Imprese italiane cercano fino a 3,7 milioni di lavoratori entro il 2029",
+      "published": "2026-10-17T08:37:28+02:00",
+      "modified": "2026-10-17T08:37:28+02:00",
+      "source_date": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.unioncamere.gov.it/comunicazione-istituzionale-il-sistema-camerale/comunicati-stampa/lavoro-prete-unioncamere-accompagnare-le-trasformazioni-con-la-formazione-permanente",
+          "nome": "Unioncamere — fabbisogni Excelsior e formazione permanente, 15 ottobre 2026."
+        }
+      ],
+      "words": 547,
+      "risk": "B",
+      "original_value": "Distingue fabbisogno lordo e nuovi posti e traduce il mismatch in scelte pratiche per studenti, occupati e aziende."
+    },
+    {
+      "slug": "transizione-5-0-comunicazioni-completamento-investimenti-gse-2026",
+      "title": "Transizione 5.0, aperto l’invio dei completamenti degli investimenti al GSE",
+      "published": "2026-10-17T08:32:28+02:00",
+      "modified": "2026-10-17T08:32:28+02:00",
+      "source_date": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.mimit.gov.it/it/notizie-stampa/transizione-5-0-al-via-da-oggi-le-comunicazioni-di-completamento-degli-investimenti",
+          "nome": "MIMIT — apertura delle comunicazioni di completamento, 15 ottobre 2026."
+        },
+        {
+          "url": "https://www.mimit.gov.it/it/incentivi/nuovo-piano-transizione-5-0-iperammortamento",
+          "nome": "MIMIT — scheda del nuovo Piano Transizione 5.0 e iperammortamento."
+        }
+      ],
+      "words": 548,
+      "risk": "A",
+      "original_value": "Spiega che il beneficio è fiscale, non un bonifico, e propone una riconciliazione documentale prima dell’invio."
+    },
+    {
+      "slug": "giorgetti-banche-italiane-predatrici-non-prede-merge-acquisizioni-2026",
+      "title": "Giorgetti: banche italiane protagoniste, non prede, nelle fusioni europee",
+      "published": "2026-10-17T08:27:28+02:00",
+      "modified": "2026-10-17T08:27:28+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/legal/transactional/italian-banks-should-be-predators-not-prey-ma-wave-economy-minister-says-2026-10-16/",
+          "nome": "Reuters — dichiarazioni di Giancarlo Giorgetti sulle fusioni bancarie, 16 ottobre 2026."
+        },
+        {
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/16/giorgetti-dialogo-positivo-sulla-flessibilita-visto-dombrovskis-a-bangkok_5327a3a3-51e6-4edd-b6e5-bd971ad12c4a.html",
+          "nome": "ANSA — dichiarazioni del ministro sul sistema finanziario, 16 ottobre 2026."
+        }
+      ],
+      "words": 519,
+      "risk": "A",
+      "original_value": "Distingue autorizzazione, completamento e convenienza economica e traduce il consolidamento in controlli utili per clienti e PMI."
+    },
+    {
+      "slug": "ue-rinvio-obblighi-metano-importatori-energia-2026",
+      "title": "Metano, Bruxelles propone un anno in più per gli obblighi degli importatori",
+      "published": "2026-10-17T08:22:28+02:00",
+      "modified": "2026-10-17T08:22:28+02:00",
+      "source_date": "2026-10-14",
+      "sources": [
+        {
+          "url": "https://commission.europa.eu/news-and-media/news/commission-proposes-flexibility-methane-importers-help-save-costs-2026-10-14_en",
+          "nome": "Commissione europea — proposta di flessibilità per gli importatori di metano, 14 ottobre 2026."
+        }
+      ],
+      "words": 558,
+      "risk": "B",
+      "original_value": "Separa la proposta dalla norma vigente e spiega effetti e limiti per importatori, industrie e bollette."
+    },
+    {
+      "slug": "taranto-protesta-ilva-carburanti-raffineria-rifornimenti-2026",
+      "title": "Taranto, sospesa la protesta: ripartono i rifornimenti di carburante",
+      "published": "2026-10-17T08:17:28+02:00",
+      "modified": "2026-10-17T08:17:28+02:00",
+      "source_date": "2026-10-16",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/business/world-at-work/workers-italys-former-ilva-plant-suspend-protest-await-court-ruling-new-talks-2026-10-16/",
+          "nome": "Reuters — sospensione della protesta ex Ilva e ripresa della logistica, 16 ottobre 2026."
+        },
+        {
+          "url": "https://www.ansa.it/puglia/notizie/2026/10/15/ex-ilva-eni-oltre-il-50-dei-distributori-enilive-senza-carburante_084fbeb1-7e8b-4e4f-b3d4-bd541311de79.html",
+          "nome": "ANSA — dichiarazioni Eni sulla raffineria e sui distributori, 15 ottobre 2026."
+        }
+      ],
+      "words": 530,
+      "risk": "A",
+      "original_value": "Aggiorna il passaggio dalla carenza alla ripresa e fornisce indicazioni pratiche senza alimentare acquisti di panico."
+    }
+  ]
+}
