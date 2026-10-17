@@ -45,7 +45,9 @@
     return `${get('year')}-${get('month')}-${get('day')}`;
   };
   const firstPublished = (entry) => {
-    const raw = entry && (entry.firstPublishedAt || entry.dateISO || entry.published || entry.date || entry.datetime);
+    const raw = entry && (entry.updated && entry.updatedAt
+      ? entry.updatedAt
+      : (entry.firstPublishedAt || entry.dateISO || entry.published || entry.date || entry.datetime));
     const date = new Date(raw || '');
     return Number.isNaN(date.getTime()) ? null : date;
   };

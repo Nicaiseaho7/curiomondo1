@@ -3,6 +3,44 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "id": "francia-manifestazioni-17-ottobre-2026-carovita-metro-parigi",
+      "article": "/notizie/francia-manifestazioni-17-ottobre-2026-carovita-metro-parigi.html",
+      "alt": "Illustrazione editoriale generata con IA che rappresenta in modo simbolico manifestanti a Parigi con bandiere francesi e gilet gialli; non documenta i cortei del 17 ottobre 2026.",
+      "prompt": "Scena editoriale simbolica a Parigi con manifestanti pacifici, bandiere francesi e gilet gialli; nessuna ricostruzione documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/francia-manifestazioni-17-ottobre-2026-carovita-metro-parigi-v871-480.webp",
+          "sha256": "67cfe9ccf06c182827f20a6eb2a71d27ea665b36d407dbe471aba3c009c16a94",
+          "bytes": 37182
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/francia-manifestazioni-17-ottobre-2026-carovita-metro-parigi-v871-800.webp",
+          "sha256": "419990c8ef63dacad904879a2ab7660628603d940c782403fc217c3115c6affc",
+          "bytes": 76608
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/francia-manifestazioni-17-ottobre-2026-carovita-metro-parigi-v871-1200.webp",
+          "sha256": "50f70da1cfe9311526d5e3df009ef9ba2a05e0eb4d6d29054a80e23edf7b07fc",
+          "bytes": 128872
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
       "id": "incendi-boschivi-italia-80260-interventi-bilancio-2026",
       "article": "/notizie/incendi-boschivi-italia-80260-interventi-bilancio-2026.html",
       "alt": "Illustrazione editoriale generata con IA di un bosco italiano visto dall'alto, senza fiamme né soccorsi.",
@@ -526,44 +564,6 @@
       ],
       "disclosure": "Illustrazione concettuale digitale. Non è una fotografia documentaria.",
       "generator": "Python Pillow illustration",
-      "aiGenerated": true,
-      "documentaryPhoto": false,
-      "officialArtwork": false,
-      "sensitiveContext": false,
-      "weatherMap": false,
-      "reenactedEvent": false,
-      "logoApplied": false
-    },
-    {
-      "id": "francia-manifestazioni-17-ottobre-2026-carovita-metro-parigi",
-      "article": "/notizie/francia-manifestazioni-17-ottobre-2026-carovita-metro-parigi.html",
-      "alt": "Illustrazione editoriale generata con IA di una manifestazione simbolica nelle strade di Parigi; non raffigura un momento documentato del 17 ottobre 2026.",
-      "prompt": "Illustrazione realistica e simbolica di una manifestazione a Parigi, senza pretesa documentaria",
-      "variants": [
-        {
-          "w": 480,
-          "h": 270,
-          "src": "/assets/images/editorial-auto/francia-manifestazioni-17-ottobre-2026-carovita-metro-parigi-v867-480.webp",
-          "sha256": "ab24de7b784ce1f117159d8178633c644c3c367387677566b60387d2f6f87adc",
-          "bytes": 52706
-        },
-        {
-          "w": 800,
-          "h": 450,
-          "src": "/assets/images/editorial-auto/francia-manifestazioni-17-ottobre-2026-carovita-metro-parigi-v867-800.webp",
-          "sha256": "94e44b4acd2414c53a5726d89dd4c5dcf2e682396fa600ddb6ae0dc2a462bb8d",
-          "bytes": 124008
-        },
-        {
-          "w": 1200,
-          "h": 675,
-          "src": "/assets/images/editorial-auto/francia-manifestazioni-17-ottobre-2026-carovita-metro-parigi-v867-1200.webp",
-          "sha256": "2e8024e8a07f308d8105b34119f6f16bb64460b543cb4f6ea9d13d75412c0b97",
-          "bytes": 235334
-        }
-      ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "OpenAI image generation",
       "aiGenerated": true,
       "documentaryPhoto": false,
       "officialArtwork": false,

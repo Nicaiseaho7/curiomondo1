@@ -245,7 +245,7 @@ def _is_updated(doc, ld, iso: str) -> bool:
     if doc.xpath('//article[contains(@class,"art-body")][@data-updated="true"]'):
         return True
     meta = _text(doc.xpath('//main[contains(@class,"wrap")]//div[contains(@class,"meta")][1]//text()'))
-    if "Aggiornato il" in meta:
+    if "Aggiornato il" in meta or "Aggiornato alle" in meta:
         return True
     modified = str(ld.get("dateModified") or "")
     if not modified:
@@ -279,13 +279,17 @@ def _article_info(path: Path) -> dict[str, Any] | None:
     h = hero[0]
     src = h.get("src", "").removeprefix("..")
     srcset = re.sub(r'(?:(?<=^)|(?<=, ))\.\./', '/', h.get("srcset", ""))
+    updated = _is_updated(doc, ld, iso)
+    modified = str(ld.get("dateModified") or "")
     item = {"title": title or str(ld.get("headline", "")), "excerpt": subtitle,
             "url": f"/notizie/{path.name}", "section": badge or "Notizie",
             "dateISO": iso, "dateLabel": iso[:10], "image": src,
             "imageAlt": h.get("alt", ""),
             "imageWidth": int(h.get("width") or 800),
             "imageHeight": int(h.get("height") or 533),
-            "srcset": srcset, "updated": _is_updated(doc, ld, iso)}
+            "srcset": srcset, "updated": updated}
+    if updated and modified and modified != iso:
+        item["updatedAt"] = modified
     stats = []
     for row in doc.xpath('//section[contains(@class,"cm-insight")]//div[contains(@class,"cm-insight-grid")]/div')[:3]:
         value = _text(row.xpath('./strong//text()'))
