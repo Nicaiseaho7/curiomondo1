@@ -58,12 +58,20 @@ Apri un articolo solo se TUTTE queste condizioni sono vere:
 3. C'è abbastanza materia verificata per un pezzo autonomo. Se manca, non si
    allunga: si attende o non si pubblica.
 
-Il valore aggiunto deve essere ALMENO DUE tra:
+Per flash, notizie ordinarie e schede di servizio basta UN elemento concreto
+di valore aggiunto, tra:
 - spiegazione di un dato o metodo, compreso cio che non misura;
 - limite o incertezza espliciti;
 - confronto utile con un periodo, una media, un luogo o un precedente;
 - scheda pratica con date, destinatari, procedura o conseguenze per il lettore;
+- distinzione tra fatto accertato, dichiarazione e ipotesi;
 - aggiornamento sostanziale rispetto a quanto gia noto.
+
+Due elementi restano obbligatori solo per analisi e approfondimenti autonomi.
+Una notizia verificata, chiara e utile non si scarta solo perche un'altra
+testata l'ha gia raccontata, perche non ci sono due angoli, o perche il testo
+giusto e piu corto di 500 parole. Il flash e ammesso per i fatti brevi.
+Non inventare elementi per raggiungere una quota.
 
 Standard piu severi per notizie delicate (guerra, morti, incidenti, salute,
 giustizia, geopolitica, elezioni):
@@ -274,8 +282,8 @@ def verifica(
 
     # Regole non negoziabili, applicate in codice e non lasciate al modello:
     # il protocollo le impone e un modello puo sempre distrarsi.
-    if pubblicare and len(valori) < 2:
-        pubblicare, motivo = False, "meno di due elementi di valore aggiunto: solo riscrittura"
+    if pubblicare and len(valori) < 1:
+        pubblicare, motivo = False, "nessun elemento di valore aggiunto: solo riscrittura"
     if pubblicare and not leggibili:
         pubblicare, motivo = False, "nessuna fonte leggibile: non c'e materia verificata"
     if pubblicare and str(dati.get("rischio_disinformazione", "")).lower() == "alto":

@@ -1,18 +1,16 @@
 # Protocollo permanente qualità editoriale e idoneità Google AdSense
 
-## REVISIONE PERMANENTE — VALORE ORIGINALE CURIOMONDO (16 ottobre 2026)
+## REVISIONE PERMANENTE — NOTIZIE VALIDE, NON UN OSTACOLO (17 ottobre 2026)
 
-**Stato:** obbligatorio, fail-closed e prevalente su v471, v503 e su ogni regola incompatibile di questo file che ammetta un solo elemento di valore o il flash come formato ordinario delle notizie.
+**Stato:** obbligatorio e prevalente sulla revisione del 16 ottobre 2026 e su v471/v503 dove quelle revisioni, più sotto, venivano sospese per imporre due elementi o vietare il flash.
 
-**Obiettivo:** CurioMondo non è un aggregatore. Un articolo idoneo dimostra un contributo originale chiaro e verificabile, oltre al rispetto del gate di rischio e di AdSense.
+**Obiettivo:** un articolo idoneo è verificato, chiaro e utile. Non si scarta una notizia valida perché non ha due angoli originali, non arriva a 500 parole o è già stata raccontata da un'altra testata. Versione protocollo: 4.0 resta il contratto tecnico di piramide invertita, paragrafi e AdSense.
 
-1. **Divieto di riscrittura pura.** Vietato pubblicare la sola parafrasi o il solo riassunto di un'agenzia, di un comunicato o di un'altra testata. Se non ci sono elementi aggiuntivi verificati, l'esito è `NON PUBBLICARE — solo riscrittura`.
-2. **Contributo originale obbligatorio.** Ogni notizia standard contiene almeno due elementi concreti, documentati e non generici, tra: contesto extra non già nella fonte (precedente, confronto, limite del dato, conseguenza pratica per il lettore italiano); spiegazione pratica di cosa cambia (date, requisiti, come fare, cosa non è ancora noto); angolo o domanda specifica, non la sola cronaca; collegamento utile e non ridondante a un approfondimento CurioMondo già esistente; distinzione esplicita tra fatto accertato, dichiarazione e ipotesi.
-3. **Soglia.** Meno di due elementi, senza inventare o allungare: non pubblicare.
-4. **Lunghezza e sostanza.** Preferenza per le notizie standard: **500–700 parole** solo in `.art-body`. Vietato il filler. Flash solo per fatti estremamente circoscritti e con almeno un elemento di valore. Le fasce 250–450 parole, 700–1.200 parole e 1.200–2.200 parole restano l'orientamento tecnico del protocollo 4.0 e non autorizzano la riscrittura corta. Senza contributo originale: `NON PUBBLICARE`.
-5. **Selezione.** Meglio più articoli con contributo chiaro che molti pezzi corti simili. Domanda obbligatoria prima di aprire il pezzo: «Questo aggiunge qualcosa che il lettore non troverebbe nella sola fonte primaria o nelle altre testate?». Se non è chiaramente sì, non pubblicare.
-6. **Voce.** Italiano chiaro, professionale e diretto. Niente meta-commenti redazionali, formule da chatbot o chiusure generiche. Fonti solo in «Fonti consultate»; attribuzione nel corpo solo narrativa.
-7. **Prevalenza.** Questa sezione prevale sulle frasi, più sotto, che per flash e notizie ordinarie chiedono un solo elemento di valore. Non allenta il divieto di inventare fatti, dati, citazioni o cause, né i livelli di rischio A, B e C. Gli approfondimenti restano in `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md`, minimo 1.800 parole di sostanza. Ogni nuova notizia deve superare questa revisione prima della pubblicazione. Versione protocollo: 4.0 resta il contratto tecnico di piramide invertita, paragrafi e AdSense.
+1. **Basta un elemento concreto.** Per flash, notizie ordinarie e schede di servizio è sufficiente un elemento utile e verificato: cosa cambia, una data o un requisito, il limite di un dato, un confronto, che cosa non è ancora noto, oppure la distinzione tra fatto, dichiarazione e ipotesi. Due elementi restano obbligatori solo per analisi e approfondimenti autonomi.
+2. **Riscrittura pura.** `NON PUBBLICARE — solo riscrittura` solo se non c'è nemmeno un elemento utile e il testo è intercambiabile con il comunicato o l'agenzia. Non è un motivo di scarto il fatto che la stessa notizia sia già su un'altra testata.
+3. **Lunghezza.** Segue la materia. Sotto le 300 parole il formato è flash; da 300 in su è standard. La preferenza 500–700 parole in `.art-body` non è un minimo. Vietato il filler. Le fasce 250–450 parole, 700–1.200 parole e 1.200–2.200 parole restano l'orientamento tecnico del protocollo 4.0.
+4. **Voce.** Italiano chiaro, professionale e diretto. Niente meta-commenti redazionali, formule da chatbot o chiusure generiche. Fonti solo in «Fonti consultate»; attribuzione nel corpo solo narrativa.
+5. **Prevalenza.** Questa sezione sostituisce la soglia di due elementi e il divieto di flash del 16 ottobre 2026. Non allenta il divieto di inventare fatti, dati, citazioni o cause, né i livelli di rischio A, B e C. Gli approfondimenti restano in `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md`, minimo 1.800 parole di sostanza.
 
 ## REVISIONE v503 — GATE PROPORZIONATO E AUTORIPARAZIONE
 
@@ -22,7 +20,7 @@
 L'obiettivo operativo è pubblicare un numero maggiore di articoli interessanti senza ridurre accuratezza, trasparenza o sicurezza.
 
 - Per notizie ordinarie e contenuti di servizio è sufficiente una fonte primaria o ufficiale autentica e competente. La seconda conferma è consigliata, non obbligatoria.
-- Dal 16 ottobre 2026 la revisione «Valore originale CurioMondo», in apertura, sostituisce la soglia di un solo elemento per le notizie. La frase storica della v503 non si applica ai pezzi nuovi: per flash, notizie ordinarie e servizio basta un solo elemento concreto di utilità o valore aggiunto. Due elementi sono richiesti soltanto per analisi e approfondimenti autonomi.
+- Dal 17 ottobre 2026, per flash, notizie ordinarie e servizio basta un solo elemento concreto di utilità o valore aggiunto. Due elementi sono richiesti soltanto per analisi e approfondimenti autonomi. Una notizia verificata non si scarta solo perché è già su un'altra testata.
 - La rilevanza nazionale, l'esclusività e la pubblicazione entro 24 ore non sono requisiti. Sono ammesse notizie locali, di nicchia, culturali, sportive, di spettacolo e sviluppi fino a sette giorni o oltre quando ancora attuali, ricercati, utili o nuovi per CurioMondo.
 - Una storia già trattata può produrre un nuovo articolo se cambia l'angolazione, il pubblico, la conseguenza o l'utilità. È duplicato soltanto il contenuto sostanzialmente identico.
 - Un difetto tecnico riparabile non comporta lo scarto dell'articolo. L'agente è autorizzato a correggere autonomamente file, indici, feed, sitemap, canonical, dati strutturati, immagini, collegamenti, categorie, cache-busting e pipeline necessari alla pubblicazione, limitandosi al repository CurioMondo e preservando i contenuti già validi.
@@ -61,9 +59,7 @@ Il limite di 24 ore non è un motivo automatico di scarto. Una notizia meno rece
 
 ### Valore aggiunto
 
-Dal 16 ottobre 2026, per le notizie, prevale la revisione in apertura: almeno due elementi di contributo originale. Il capoverso seguente è testo storico della v471 e non autorizza più il pezzo ordinario con un solo elemento.
-
-Per flash, notizie ordinarie e schede di servizio è richiesto **almeno un elemento concreto** tra contesto, conseguenze, cronologia, numeri verificati, indicazioni pratiche, confronto, spiegazione o collegamento utile con sviluppi precedenti. Due elementi restano richiesti soltanto per analisi e approfondimenti autonomi.
+Dal 17 ottobre 2026, per flash, notizie ordinarie e schede di servizio è richiesto **almeno un elemento concreto** tra contesto, conseguenze, cronologia, numeri verificati, indicazioni pratiche, confronto, spiegazione o collegamento utile con sviluppi precedenti. Due elementi restano richiesti soltanto per analisi e approfondimenti autonomi.
 
 Questa regola sostituisce, per i formati ordinari, qualsiasi obbligo precedente di due elementi di valore aggiunto. Il contenuto deve comunque essere originale e non una parafrasi meccanica.
 
@@ -112,16 +108,17 @@ Se manca il valore aggiunto, l'esito obbligatorio è: `NON PUBBLICARE — solo r
 
 ## Valore aggiunto minimo
 
-Ogni articolo deve contenere almeno due elementi tra:
+Per flash, notizie ordinarie e schede di servizio basta **un** elemento concreto tra:
 
 1. spiegazione di un dato o metodo, compreso ciò che non misura;
 2. limite o incertezza espliciti;
 3. confronto utile con periodo, media, luogo o precedente pertinente;
 4. scheda pratica con date, destinatari, procedura o conseguenze per il lettore;
 5. collegamento utile a un approfondimento CurioMondo già esistente e non duplicato;
-6. aggiornamento sostanziale rispetto a una versione precedente.
+6. aggiornamento sostanziale rispetto a una versione precedente;
+7. distinzione esplicita tra fatto accertato, dichiarazione e ipotesi.
 
-Se non sono disponibili almeno due elementi, non pubblicare il pezzo autonomo.
+Due elementi restano obbligatori solo per analisi e approfondimenti autonomi. Senza nemmeno un elemento utile, non pubblicare il pezzo autonomo. Non si scarta una notizia verificata solo perché non se ne trovano due.
 
 ## Tipi di contenuto e lunghezza editoriale — aggiornamento v763
 
@@ -178,7 +175,7 @@ Le fasce sono orientative secondo `PROTOCOLLO-ARTICOLI-PREMIUM.md`, non minimi d
 Ogni risposta editoriale deve compilare SÌ/NO per tutti i punti seguenti; un solo NO blocca la pubblicazione:
 
 1. il lead sta in piedi da solo;
-2. sono presenti almeno due elementi di valore aggiunto;
+2. è presente almeno un elemento concreto di valore aggiunto (due solo per analisi e approfondimenti);
 3. non è la parafrasi di una sola agenzia;
 4. non contiene glossari o spiegazioni di parole difficili e non chiude con una morale;
 5. ogni cifra ha una fonte;
@@ -196,7 +193,7 @@ Prima di scrivere, fonti e valore aggiunto vengono verificati internamente in ci
 
 È vietato copiare contenuti o pubblicare materiale ripreso da altri siti senza un apporto sostanziale di analisi, cura editoriale e spiegazione. L'automazione e l'intelligenza artificiale possono assistere ricerca, organizzazione e scrittura, ma ogni contenuto deve essere verificato, revisionato e reso utile per le persone prima della pubblicazione. La produzione massiva di notizie su argomenti casuali soltanto per attirare traffico è vietata.
 
-La domanda da usare prima di pubblicare è: «Un lettore arrivato direttamente su CurioMondo, senza passare da Google, considererebbe questa pagina completa, affidabile e utile?». Se la risposta non è chiaramente sì, non pubblicare.
+La domanda da usare prima di pubblicare è: «La pagina è accurata, chiara e utile per un lettore italiano?». Se la notizia è verificata e ha almeno un elemento concreto, la risposta è sì: non serve che sia più completa di ogni altra testata.
 
 ## Pubblicità e pagine non monetizzabili
 

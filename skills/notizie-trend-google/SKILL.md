@@ -146,7 +146,7 @@ Regole non negoziabili, anche se l'utente chiede velocità:
 
 - testo da quotidiano italiano — sobrio, fattuale, piramide invertita — non da blog di trend
 - protocollo 4.0 qualità + protocollo redazione corpo applicati per intero
-- almeno due elementi di valore aggiunto CurioMondo; altrimenti `NON PUBBLICARE — solo riscrittura`
+- almeno un elemento concreto di valore aggiunto CurioMondo per flash, notizie e servizio; due solo per analisi e approfondimenti. Senza nessun elemento: `NON PUBBLICARE — solo riscrittura`. Una notizia verificata non si scarta solo perché è breve o già uscita altrove
 - flash 100–250 o standard 300–600 secondo la materia verificata; vietato allungare
 - niente prima persona, niente appunti interni, niente elenco fonti nel corpo
 - **Regola scrittura 5 ottobre 2026 (fail-closed):** Trends e le query restano **solo radar interno**. Nel testo pubblico (titolo, sommario, lead, corpo, insight, meta) **vietato** scrivere query, Google Trends, ricerche in ascesa, soglie o volumi: **solo i fatti** della notizia, tono da quotidiano. Il «roundup» è un digest di notizie del giorno, non un elenco di query. Nelle Fonti consultate: **nomi reali** delle testate, mai «Fonte consultata». Dettaglio: `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` e `references/formati.md`

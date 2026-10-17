@@ -22,7 +22,7 @@ Cinque righe private:
 
 1. nucleo del fatto in una frase
 2. fonte primaria + ora
-3. due elementi di valore aggiunto CurioMondo (dato spiegato, limite del dato, confronto, scheda pratica, link evergreen, aggiornamento sostanziale)
+3. almeno un elemento concreto di valore aggiunto CurioMondo (dato spiegato, limite del dato, confronto, scheda pratica, cosa cambia, cosa non è ancora noto). Due elementi solo per analisi e approfondimenti
 4. formato — flash 100–250 / standard 300–600 / approfondimento solo se la materia lo richiede
 5. cosa il titolo non dirà e il lettore deve comunque sapere
 
@@ -59,14 +59,14 @@ Le fonti complete stanno solo in `.art-sources`. Nel corpo il nome di una fonte 
 
 ## Valore aggiunto
 
-Ogni pezzo, anche il roundup, deve offrire almeno due elementi originali CurioMondo. Una parafrasi di ANSA o un elenco di query senza fatto non è un articolo. Esito: `NON PUBBLICARE — solo riscrittura`.
+Per flash, notizie e servizio basta un elemento originale concreto. Due elementi restano obbligatori per analisi e approfondimenti. Una parafrasi senza alcun elemento utile, o un elenco di query senza fatto, non è un articolo. Esito: `NON PUBBLICARE — solo riscrittura`. Una notizia verificata non si scarta solo perché un'altra testata ha già i fatti.
 
 ## Checklist pre-pubblicazione (in chat, non in pagina)
 
 Compila SÌ/NO. Un solo NO blocca il commit:
 
 1. il lead sta in piedi da solo
-2. almeno due elementi di valore aggiunto
+2. almeno un elemento concreto di valore aggiunto (due solo per analisi e approfondimenti)
 3. non è la parafrasi di una sola agenzia
 4. niente glossario, niente morale
 5. ogni cifra ha una fonte
