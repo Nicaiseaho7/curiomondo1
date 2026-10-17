@@ -378,9 +378,13 @@ def _sync_ultima_ora(doc, items: list[dict[str, Any]]) -> None:
     for item in items[:10]:
         li = etree.SubElement(ol, "li")
         link = etree.SubElement(li, "a", {"class": "cm-wire__item", "href": item["url"]})
+        title = etree.SubElement(link, "span", {"class": "cm-wire__title"})
         if item.get("updated"):
-            _update_flag(link)
-        etree.SubElement(link, "span", {"class": "cm-wire__title"}).text = item["title"]
+            flag = etree.SubElement(title, "span", {"class": "cm-update-flag"})
+            flag.text = "aggiornamento"
+            flag.tail = item["title"]
+        else:
+            title.text = item["title"]
     found = doc.xpath('//*[@id="cm-ultima-ora"]')
     if found:
         block = found[0]

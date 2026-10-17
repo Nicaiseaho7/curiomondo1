@@ -84,7 +84,7 @@ const carousel = (entries) => {
 const ultimaOra = (entries) => {
   const items = entries.slice(0, 10).map((entry) => {
     const raw = entry.firstPublishedAt || entry.dateISO || '';
-    return `<li><a class="cm-wire__item" href="${esc(entry.url)}"><time class="cm-wire__time" datetime="${esc(raw)}">${esc(hourLabel(entry))}</time>${updateFlag(entry)}<span class="cm-wire__title">${esc(entry.title)}</span></a></li>`;
+    return `<li><a class="cm-wire__item" href="${esc(entry.url)}"><time class="cm-wire__time" datetime="${esc(raw)}">${esc(hourLabel(entry))}</time><span class="cm-wire__title">${updateFlag(entry)}${esc(entry.title)}</span></a></li>`;
   }).join('');
   return `<section class="cm-wire" id="cm-ultima-ora" aria-label="Ultima ora"><details class="cm-wire__details"><summary class="cm-wire__toggle"><span class="cm-wire__kicker"><span class="cm-wire__dot" aria-hidden="true"></span><span>Ultima ora</span></span><span class="cm-wire__chevron" aria-hidden="true"></span></summary></details><ol class="cm-wire__list">${items}</ol><a class="cm-wire__more" href="/notizie/">Tutte le notizie</a></section>`;
 };
@@ -217,8 +217,11 @@ const tickerCopy = `<div aria-hidden="true" class="ticker-track" inert="">${tick
 if (!home.includes('class="ticker-track"')) throw new Error('ticker assente');
 home = home.replace(/<nav aria-label="Ultime notizie in diretta" class="ticker-track">[\s\S]*?<\/nav>/, tickerNav);
 home = home.replace(/<div aria-hidden="true" class="ticker-track" inert="">[\s\S]*?<\/div>/, tickerCopy);
-if (!home.includes('id="cm-update-flag-css"')) {
-  home = home.replace('</head>', '<style id="cm-update-flag-css">.cm-update-flag{display:inline-block;margin:0 8px 6px 0;color:#c62828;font-weight:750;font-size:.72rem;letter-spacing:.02em;line-height:1.2}</style></head>');
+const UPDATE_FLAG_CSS = '<style id="cm-update-flag-css">.cm-update-flag{display:block;margin:0 0 4px;color:#c62828;font-weight:750;font-size:.72rem;letter-spacing:.02em;line-height:1.2}.cm-wire__title .cm-update-flag{margin:0 0 2px}</style>';
+if (home.includes('id="cm-update-flag-css"')) {
+  home = home.replace(/<style id="cm-update-flag-css">[\s\S]*?<\/style>/, UPDATE_FLAG_CSS);
+} else {
+  home = home.replace('</head>', UPDATE_FLAG_CSS + '</head>');
 }
 fs.writeFileSync(homePath, home);
 console.log('home-editorial', hero && hero.title, allocation.sections.length);
