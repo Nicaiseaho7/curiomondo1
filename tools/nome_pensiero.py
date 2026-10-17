@@ -66,18 +66,6 @@ def next_message(root: Path | None = None) -> str:
     for message in phrases():
         if message not in taken:
             return message
-    recent: list[str] = []
-    for path in sorted((root / "notizie").glob("*.html"), key=lambda p: p.stat().st_mtime, reverse=True):
-        html = path.read_text(encoding="utf-8")
-        found = TEXT_RE.search(html)
-        if found:
-            recent.append(found.group(1))
-        if len(recent) >= 40:
-            break
-    blocked = set(recent)
-    for message in phrases():
-        if message not in blocked:
-            return message
     raise RuntimeError("nessuna frase nuova disponibile")
 
 
