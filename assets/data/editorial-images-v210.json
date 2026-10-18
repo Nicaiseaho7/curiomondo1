@@ -1,7 +1,387 @@
 {
-  "version": 879,
+  "version": 880,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "id": "bonus-mamme-2026-inps-60-euro-domanda-18-ottobre-2026",
+      "article": "/notizie/bonus-mamme-2026-inps-60-euro-domanda-18-ottobre-2026.html",
+      "alt": "Madre italiana con due figli consulta documenti al tavolo di casa; immagine editoriale generata con IA.",
+      "prompt": "Una sola fotografia editoriale fotorealistica 16:9: madre italiana con due figli a casa, al tavolo con documenti previdenziali neutri e smartphone, atmosfera serena e realistica, nessun testo o logo, nessun collage.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/bonus-mamme-2026-inps-60-euro-domanda-18-ottobre-2026-v880-480.webp",
+          "sha256": "c2c713864e8de779af4874eb98361cccb62bdeaf574348511262e6f13a7810f1",
+          "bytes": 32130
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/bonus-mamme-2026-inps-60-euro-domanda-18-ottobre-2026-v880-800.webp",
+          "sha256": "cb88cf2d4f553de65141813613520dc7a4fc5a7e72e4a2e33c99dda974655e79",
+          "bytes": 63536
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/bonus-mamme-2026-inps-60-euro-domanda-18-ottobre-2026-v880-1200.webp",
+          "sha256": "d2d47933666f56967232f18e85b7054c6f0723e25feb4d51aa9b00f3915364f8",
+          "bytes": 110150
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "autoimpiego-under-35-3200-progetti-finanziati-18-ottobre-2026",
+      "article": "/notizie/autoimpiego-under-35-3200-progetti-finanziati-18-ottobre-2026.html",
+      "alt": "Due giovani imprenditori lavorano in un laboratorio italiano; immagine editoriale generata con IA.",
+      "prompt": "Una sola fotografia editoriale fotorealistica 16:9: due giovani imprenditori italiani in un piccolo laboratorio contemporaneo, attrezzature reali e laptop, luce naturale, nessun testo, logo o collage.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/autoimpiego-under-35-3200-progetti-finanziati-18-ottobre-2026-v880-480.webp",
+          "sha256": "6dd162578d128b15661e2f0d7c92d1add6f1bd47a5c13939295c500441709594",
+          "bytes": 45998
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/autoimpiego-under-35-3200-progetti-finanziati-18-ottobre-2026-v880-800.webp",
+          "sha256": "2375ecbae1bf6ea19361443130fd802818b9ac3f08cae5102b04511c16115654",
+          "bytes": 96210
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/autoimpiego-under-35-3200-progetti-finanziati-18-ottobre-2026-v880-1200.webp",
+          "sha256": "332df110f3b88f22bc6eee5ec79b8bce2b06f9f17ec7ac1af02d150d56566f7c",
+          "bytes": 157186
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "previdenza-complementare-simulatori-tfr-pensione-18-ottobre-2026",
+      "article": "/notizie/previdenza-complementare-simulatori-tfr-pensione-18-ottobre-2026.html",
+      "alt": "Lavoratrice consulta una simulazione previdenziale al computer; immagine editoriale generata con IA.",
+      "prompt": "Una sola fotografia editoriale fotorealistica 16:9: lavoratrice italiana di mezza età consulta al computer una simulazione previdenziale astratta e priva di testo, ambiente domestico, nessun logo o collage.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/previdenza-complementare-simulatori-tfr-pensione-18-ottobre-2026-v880-480.webp",
+          "sha256": "04f0dfde7c8ba5bf73b23a959a77135a557e5adc81b8fd0544883bff2353e2b4",
+          "bytes": 32676
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/previdenza-complementare-simulatori-tfr-pensione-18-ottobre-2026-v880-800.webp",
+          "sha256": "bc9bcc4839fe0c3a16f2cb728fc545dc83427bf04be4967f463db955d580f78b",
+          "bytes": 66094
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/previdenza-complementare-simulatori-tfr-pensione-18-ottobre-2026-v880-1200.webp",
+          "sha256": "afa9c5c1ccf2f10c094b71d95496f19ae1a7680f04826c60133d9b04e76399c6",
+          "bytes": 115264
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "gestione-separata-inps-rimborsi-canale-unico-18-ottobre-2026",
+      "article": "/notizie/gestione-separata-inps-rimborsi-canale-unico-18-ottobre-2026.html",
+      "alt": "Professionista italiano controlla contributi al computer; immagine editoriale generata con IA.",
+      "prompt": "Una sola fotografia editoriale fotorealistica 16:9: libero professionista italiano al computer con documenti contributivi ordinati, studio luminoso, nessun testo leggibile, logo o collage.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/gestione-separata-inps-rimborsi-canale-unico-18-ottobre-2026-v880-480.webp",
+          "sha256": "6cd8b9651be967c7fdd58ad49e91690323bd7f0da47a276643d597b034187761",
+          "bytes": 28964
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/gestione-separata-inps-rimborsi-canale-unico-18-ottobre-2026-v880-800.webp",
+          "sha256": "1f1c042c7f2b9e3f5e4218a12fd7cd1e1e27c1f39d6a41ac2dc310a71546342e",
+          "bytes": 56700
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/gestione-separata-inps-rimborsi-canale-unico-18-ottobre-2026-v880-1200.webp",
+          "sha256": "e072705b9c7561767724326a9f0896c0bd2affdea529fc0a277e01dda07ec584",
+          "bytes": 97706
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "mutui-taeg-399-credito-famiglie-agosto-2026",
+      "article": "/notizie/mutui-taeg-399-credito-famiglie-agosto-2026.html",
+      "alt": "Coppia italiana valuta documenti e costi di un mutuo; immagine editoriale generata con IA.",
+      "prompt": "Una sola fotografia editoriale fotorealistica 16:9: coppia italiana valuta un mutuo al tavolo di casa con calcolatrice e chiavi, documenti senza testo, luce naturale, nessun logo o collage.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/mutui-taeg-399-credito-famiglie-agosto-2026-v880-480.webp",
+          "sha256": "6a57c9add346288720f0a7eabe3324e6bd8a773280b97cdf5d1cc6009730409d",
+          "bytes": 27198
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/mutui-taeg-399-credito-famiglie-agosto-2026-v880-800.webp",
+          "sha256": "5b70b2eaae703e1fa308769cb06a719c57360fa57670e6029a2714d02d975ae1",
+          "bytes": 54326
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/mutui-taeg-399-credito-famiglie-agosto-2026-v880-1200.webp",
+          "sha256": "654ab96c130cbbb0fdbb0632f487c7d6987b38b2d223bf221bb5834a0108cb4d",
+          "bytes": 93296
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "btp-collocamento-specialisti-domanda-zero-14-ottobre-2026",
+      "article": "/notizie/btp-collocamento-specialisti-domanda-zero-14-ottobre-2026.html",
+      "alt": "Postazione finanziaria dedicata al mercato dei titoli di Stato italiani; immagine editoriale generata con IA.",
+      "prompt": "Una sola fotografia editoriale fotorealistica 16:9: scrivania di operatore finanziario italiano con monitor di mercato astratti, Roma fuori dalla finestra, nessun numero leggibile, logo o collage.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/btp-collocamento-specialisti-domanda-zero-14-ottobre-2026-v880-480.webp",
+          "sha256": "20bc03d25f81921c85eefe76815ddea67fb0c504b43a9d7c2ef5af0972d686e3",
+          "bytes": 31416
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/btp-collocamento-specialisti-domanda-zero-14-ottobre-2026-v880-800.webp",
+          "sha256": "86d247e1c759ec6c6532130c5f0faa91590a3643119d7261cb50220035f72125",
+          "bytes": 60208
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/btp-collocamento-specialisti-domanda-zero-14-ottobre-2026-v880-1200.webp",
+          "sha256": "0643bbbde56f14745000ed378552853052fdf000c7ed6c3ef159c1ac5eb6132b",
+          "bytes": 102796
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "ccteu-cedole-ottobre-2026-aprile-2027",
+      "article": "/notizie/ccteu-cedole-ottobre-2026-aprile-2027.html",
+      "alt": "Risparmiatore italiano valuta certificati del Tesoro con un consulente; immagine editoriale generata con IA.",
+      "prompt": "Una sola fotografia editoriale fotorealistica 16:9: risparmiatore italiano con consulente davanti a documenti obbligazionari neutri, ufficio sobrio, nessun testo, logo o collage.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ccteu-cedole-ottobre-2026-aprile-2027-v880-480.webp",
+          "sha256": "52d40d7a191325ea5a76537e911f1dc0a5c1d9a3195a3b774f11077d106fa9bf",
+          "bytes": 30878
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ccteu-cedole-ottobre-2026-aprile-2027-v880-800.webp",
+          "sha256": "d3870e9fae509f1f5f362d6ae2613fb40d6d3be97c976aba320d9e03b43f0697",
+          "bytes": 62358
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ccteu-cedole-ottobre-2026-aprile-2027-v880-1200.webp",
+          "sha256": "9bc770f08227aeb23bb0f0257058bc61a3ec2eddd980b9563385f7c9989e62a2",
+          "bytes": 110276
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "arera-costi-energia-famiglie-imprese-memoria-2026",
+      "article": "/notizie/arera-costi-energia-famiglie-imprese-memoria-2026.html",
+      "alt": "Famiglia e piccola impresa controllano costi energetici; immagine editoriale generata con IA.",
+      "prompt": "Una sola fotografia editoriale fotorealistica 16:9: famiglia e piccola impresa italiana rappresentate in una scena continua mentre controllano bollette energetiche senza testo, nessun logo o collage.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/arera-costi-energia-famiglie-imprese-memoria-2026-v880-480.webp",
+          "sha256": "d568a591f5619969a1ceb4f1c0f323535c6ea228d0110dd379c8c958ac666f5a",
+          "bytes": 39166
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/arera-costi-energia-famiglie-imprese-memoria-2026-v880-800.webp",
+          "sha256": "3ba80b7e001991084841c064d7af12e2a336b352e15f9a270953e5de77c29f72",
+          "bytes": 84324
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/arera-costi-energia-famiglie-imprese-memoria-2026-v880-1200.webp",
+          "sha256": "d323fb574f71955f9421a27dbe28e8293b62de1a31d8c4c27586d55b8f28dd92",
+          "bytes": 142740
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "mercato-capacita-2028-arera-proposte-terna-18-ottobre-2026",
+      "article": "/notizie/mercato-capacita-2028-arera-proposte-terna-18-ottobre-2026.html",
+      "alt": "Tecnici operano in una sala di controllo della rete elettrica; immagine editoriale generata con IA.",
+      "prompt": "Una sola fotografia editoriale fotorealistica 16:9: sala di controllo della rete elettrica italiana, tecnici al lavoro e schermi astratti, nessun testo leggibile, logo o collage.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/mercato-capacita-2028-arera-proposte-terna-18-ottobre-2026-v880-480.webp",
+          "sha256": "8bd415a5a3a02c9183300fe016687611eba93325313fb3bd3f56402b0e343e3c",
+          "bytes": 38888
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/mercato-capacita-2028-arera-proposte-terna-18-ottobre-2026-v880-800.webp",
+          "sha256": "e6b5bc311ca746aab3d68f42985c21e3dbae2aad96f666293ba99b852bf9ea70",
+          "bytes": 76508
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/mercato-capacita-2028-arera-proposte-terna-18-ottobre-2026-v880-1200.webp",
+          "sha256": "1f097c684dc96ec5cdc8b710fb6cf118c1cda66bb05223b3cbb5bfd1a0318f0d",
+          "bytes": 133942
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
+    {
+      "id": "fine-servizio-tutele-graduali-31-marzo-2027",
+      "article": "/notizie/fine-servizio-tutele-graduali-31-marzo-2027.html",
+      "alt": "Famiglia italiana confronta offerte elettriche al tavolo di casa; immagine editoriale generata con IA.",
+      "prompt": "Una sola fotografia editoriale fotorealistica 16:9: famiglia italiana confronta offerte elettriche al tavolo di casa, bolletta e laptop senza testo leggibile, nessun logo o collage.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/fine-servizio-tutele-graduali-31-marzo-2027-v880-480.webp",
+          "sha256": "c11a6016bc94e38b94742ae063eb073a15ca3abd1906c8a602969e848ed92aa9",
+          "bytes": 30110
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/fine-servizio-tutele-graduali-31-marzo-2027-v880-800.webp",
+          "sha256": "ec59b89645e3c82f25466ae10e0a242155e467f6dd68e3a747eda77e75917549",
+          "bytes": 63568
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/fine-servizio-tutele-graduali-31-marzo-2027-v880-1200.webp",
+          "sha256": "34f784af638803e4f112ad26dcd8672aec0868e2f83202e26febbcd978977d24",
+          "bytes": 109722
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": false
+    },
     {
       "id": "ue-restrizioni-importazioni-cina-altri-settori-18-ottobre-2026",
       "article": "/notizie/ue-restrizioni-importazioni-cina-altri-settori-18-ottobre-2026.html",
