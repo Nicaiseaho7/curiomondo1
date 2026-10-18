@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from datetime import datetime, timedelta
 from email.utils import format_datetime, parsedate_to_datetime
-from html import escape
+from html import escape, unescape
 import json
 import re
 import subprocess
@@ -136,6 +136,35 @@ AZIONI = (
 )
 
 
+_FIXTURE = re.compile(r"([A-Za-zÀ-ÿ]{3,})\s*[-–]\s*([A-Za-zÀ-ÿ]{3,})")
+_SCORE = re.compile(r"(\d{1,2})\s*[-–]\s*(\d{1,2})")
+
+
+def _story_keys(title: str) -> set[tuple]:
+    """Stessa partita e stesso tipo di pezzo: due anteprime, o due volte lo stesso risultato."""
+    fixtures = [tuple(sorted((a.casefold(), b.casefold()))) for a, b in _FIXTURE.findall(title)]
+    score = _SCORE.search(title)
+    score_key = (score.group(1), score.group(2)) if score else None
+    return {(fixture, score_key) for fixture in fixtures}
+
+
+def duplicate_of(title: str, slug: str = "") -> str | None:
+    keys = _story_keys(title)
+    if not keys:
+        return None
+    for path in (ROOT / "notizie").glob("*.html"):
+        if path.name == "index.html" or path.stem == slug:
+            continue
+        match = re.search(r"<h1>(.*?)</h1>", path.read_text(encoding="utf-8", errors="ignore"), re.S)
+        if not match:
+            continue
+        other = unescape(re.sub(r"<[^>]+>", "", match.group(1)))
+        other = re.sub(r"\s+", " ", other).strip()
+        if keys & _story_keys(other):
+            return other
+    return None
+
+
 def render_article(article: dict[str, Any], image: dict[str, Any], version: int) -> tuple[str, str]:
     """Rende una pagina articolo e ritorna ``(slug, html)``."""
     now = datetime.now(ROME).replace(microsecond=0)
@@ -145,9 +174,14 @@ def render_article(article: dict[str, Any], image: dict[str, Any], version: int)
     target = ROOT / "notizie" / f"{slug}.html"
     if target.exists():
         raise ValueError(f"slug già esistente: {slug}")
+    title = str(article["titolo"]).strip()
+    already = duplicate_of(title, slug)
+    if already:
+        raise ValueError(
+            f"notizia già pubblicata, non un secondo pezzo: «{title}» coincide con «{already}»"
+        )
 
     canonical = f"https://curiomondo.it/notizie/{slug}.html"
-    title = str(article["titolo"]).strip()
     summary = str(article["sommario"]).strip()
     category = _section(str(article.get("categoria", "Mondo")))
     place = str(article.get("luogo", "")).strip() or "—"
