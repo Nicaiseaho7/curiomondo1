@@ -28,12 +28,13 @@ Regole non negoziabili:
 - Nessuna frase puo ripetere un'altra, nemmeno riformulata: un controllo
   automatico rifiuta l'articolo.
 - Prima di scrivere, controlla se CurioMondo ha già quella notizia. Non
-  produrre il JSON se è un duplicato: stessa partita o stesso fatto già
-  online, seconda anteprima dello stesso appuntamento, oppure stesso
-  risultato ripetuto (per esempio un altro pezzo su Roma-Genoa 2-0). Un
-  titolo diverso non rende nuovo un fatto già pubblicato. È nuovo solo uno
-  sviluppo che il pezzo esistente non contiene, come il risultato dopo
-  un'anteprima. Se è un duplicato, rispondi solo con:
+  produrre un secondo articolo se è un duplicato: stessa partita o stesso
+  fatto già online, seconda anteprima dello stesso appuntamento, oppure
+  stesso risultato ripetuto. Un titolo diverso non rende nuovo un fatto già
+  pubblicato. Se ci sono informazioni nuove e verificate, non aprire un
+  altro pezzo: prepara l’aggiornamento dell’articolo esistente, con i fatti
+  nuovi in cima, e segnalo nel JSON con "aggiornamento_di": "slug già online".
+  Se non c’è niente di nuovo, rispondi solo con:
   {"rifiuto": "duplicato", "motivo": "quale articolo esiste già"}
 - Niente commento personale, niente morale finale, niente elenco di cio che
   manca in chiusura.

@@ -10,8 +10,11 @@ NON PUBBLICARE se la notizia è già sul sito. È un duplicato, anche con titolo
 - esiste già il risultato e il pezzo nuovo ripete lo stesso punteggio. Esempio vietato: due articoli su Roma-Genoa 2-0;
 - il testo ripete gli stessi fatti con altre parole, un altro titolo o dettagli secondari già presenti nel pezzo online.
 
-Si pubblica un articolo nuovo solo se c’è uno sviluppo verificato che il pezzo esistente non contiene. Il risultato dopo l’anteprima è uno sviluppo. Un punteggio diverso, una decisione nuova o una conseguenza nuova sono uno sviluppo. Un sinonimo nel titolo no.
+Si pubblica un articolo nuovo solo se quel fatto non è ancora sul sito. Il risultato dopo un’anteprima, un punteggio diverso, una decisione nuova o una conseguenza nuova sono sviluppi: non diventano un secondo articolo.
 
-Se il pezzo c’è già, non crearne un secondo. Non si aggiorna l’articolo esistente se non lo chiede il proprietario. In quel caso, e solo in quel caso, la card in homepage porta «aggiornamento». In dubbio: NON PUBBLICARE.
+AGGIORNAMENTI — obbligatori. Se la notizia è già online e arrivano informazioni nuove e verificate, si aggiorna quel pezzo. Non se ne apre un altro. Si tiene lo stesso indirizzo. Si aggiungono i fatti nuovi e si correggono quelli superati. L’ora della prima pubblicazione non si sposta. In homepage la card porta «aggiornamento» in rosso e risale con l’ora dell’aggiornamento. Nome e frase in fondo all’articolo restano quelli della prima pubblicazione.
+
+In dubbio fra un secondo articolo e un aggiornamento: aggiornare. Un secondo pezzo si pubblica solo quando il fatto non esiste ancora sul sito.
+
 
 Il renderer rifiuta da solo la seconda anteprima della stessa partita e la ripetizione dello stesso risultato (`duplicate_of` in `automation/newsroom/site.py`). Un rifiuto del renderer non si aggira con un altro slug.
