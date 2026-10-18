@@ -87,6 +87,9 @@ La sola fonte ammessa per una nuova Domanda del giorno è il titolo/domanda invi
 ## Divieto di pubblicare duplicati — 18 ottobre 2026
 Prima di ogni notizia leggere `automation/prompts/divieto-duplicati.txt`. Non pubblicare una seconda volta la stessa partita, lo stesso fatto, la stessa anteprima o lo stesso risultato, nemmeno con un titolo diverso. Non pubblicare un’anteprima, una diretta o un orario se l’appuntamento è già passato: o c’è il referto e si dà il risultato, o non si pubblica. Se arrivano informazioni nuove, aggiornare l’articolo già online: stesso indirizzo, ora della prima pubblicazione ferma, card «aggiornamento» in rosso. Il controllo `duplicate_of` in `automation/newsroom/site.py` blocca solo il secondo articolo, non l’aggiornamento.
 
+## Orario già passato — non si pubblica (18 ottobre 2026)
+Un’anteprima, una diretta, un orario o un programma non si pubblicano se l’appuntamento è già cominciato o è già finito. Esempio vietato: «alle 12» pubblicato alle 13:44. Se il referto ufficiale c’è, si pubblica il risultato o si aggiorna il pezzo già online. Se il referto non c’è, non si pubblica e non si inventa il punteggio. Vale per ogni notizia futura.
+
 ## Categorie della home — mai mescolate
 In ogni sezione della homepage (Sport, Politica, Cronaca e le altre) possono comparire solo notizie di quella categoria. Una card di un'altra categoria è un errore bloccante. Dopo ogni pubblicazione rieseguire `node tools/render_home_editorial.js`: aggiorna sezioni, Ultima ora e ticker «Ultime notizie». `tools/predeploy.py` rifiuta la home se una sezione è mista o se il ticker è vuoto.
 
