@@ -34,12 +34,13 @@ una richiesta di autorizzazione umana.
 
 1. Questo file.
 2. `AGENTS.md`
-3. `AI-EDITORIAL-IMAGE-PROTOCOL.md`
-4. `automation/prompts/image-generation-contract.txt`
-5. `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`
-6. `curiomondo-site-manifest.json`
-7. `automation/config.json`
-8. `automation/live-sources.json`
+3. `automation/prompts/divieto-duplicati.txt`
+4. `AI-EDITORIAL-IMAGE-PROTOCOL.md`
+5. `automation/prompts/image-generation-contract.txt`
+6. `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`
+7. `curiomondo-site-manifest.json`
+8. `automation/config.json`
+9. `automation/live-sources.json`
 
 Prima della stesura leggere anche `PROTOCOLLO-TITOLI-CTR.md` v2.0: per la formulazione dei titoli prevale su qualsiasi riepilogo incompatibile di questo manuale.
 

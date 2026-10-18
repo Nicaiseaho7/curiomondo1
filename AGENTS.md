@@ -16,7 +16,7 @@ L'obiettivo operativo è pubblicare un numero maggiore di articoli interessanti 
 - Per notizie ordinarie e contenuti di servizio è sufficiente una fonte primaria o ufficiale autentica e competente. La seconda conferma è consigliata, non obbligatoria.
 - Per flash, notizie ordinarie e servizio basta un solo elemento concreto di utilità o valore aggiunto. Due elementi sono richiesti soltanto per analisi e approfondimenti autonomi.
 - La rilevanza nazionale, l'esclusività e la pubblicazione entro 24 ore non sono requisiti. Sono ammesse notizie locali, di nicchia, culturali, sportive, di spettacolo e sviluppi fino a sette giorni o oltre quando ancora attuali, ricercati, utili o nuovi per CurioMondo.
-- Una storia già trattata può produrre un nuovo articolo se cambia l'angolazione, il pubblico, la conseguenza o l'utilità. È duplicato soltanto il contenuto sostanzialmente identico.
+- Una storia già trattata non si ripubblica. È duplicato anche un titolo diverso sulla stessa partita, sullo stesso fatto, su una seconda anteprima o sullo stesso risultato. Un articolo nuovo è ammesso solo se porta uno sviluppo che il pezzo esistente non contiene, per esempio il risultato dopo l’anteprima. Vale `automation/prompts/divieto-duplicati.txt`.
 - Un difetto tecnico riparabile non comporta lo scarto dell'articolo. L'agente è autorizzato a correggere autonomamente file, indici, feed, sitemap, canonical, dati strutturati, immagini, collegamenti, categorie, cache-busting e pipeline necessari alla pubblicazione, limitandosi al repository CurioMondo e preservando i contenuti già validi.
 - Dopo una riparazione, rieseguire il gate tecnico. Dichiarare conclusa la pubblicazione solo dopo il superamento dei controlli predeploy e live.
 - Restano bloccanti: fatti inventati, fonti false, accuse o dati sensibili non verificati, citazioni inesistenti, immagini fuorvianti, violazioni legali, contenuti privi di sostanza e problemi tecnici non risolti dopo i tentativi sicuri di riparazione.
@@ -71,7 +71,7 @@ Per selezione, verifica e pubblicazione delle notizie prevale la revisione v471 
 - **Servizio:** calendari, orari, programmi, uscite, bandi, risultati, guide e informazioni pratiche possono basarsi sulla fonte ufficiale pertinente.
 - Una notizia oltre le 24 ore non è automaticamente vecchia: è pubblicabile quando resta attuale, ricercata, utile, presenta uno sviluppo o consente un contributo CurioMondo concreto.
 - Basta **almeno un elemento reale di valore aggiunto** per flash, notizie ordinarie e contenuti di servizio. Due elementi restano richiesti per analisi e approfondimenti autonomi.
-- Stesso argomento non significa duplicato: aggiornare il pezzo esistente per sviluppi dello stesso dossier; creare un nuovo articolo per angolazioni autonome, guide o conseguenze sostanzialmente diverse.
+- Stesso argomento già pubblicato non si ripubblica con un altro titolo. Aggiornare il pezzo esistente solo se il proprietario chiede un aggiornamento. Un articolo nuovo è ammesso solo per uno sviluppo assente dal pezzo online, non per un’angolazione o un dettaglio di contorno. Dettaglio: `automation/prompts/divieto-duplicati.txt`.
 - La lunghezza segue la materia verificata: flash 100–250 parole, standard 300–700, approfondimenti 800+ quando giustificati. Nessuna soglia minima rigida e nessun riempitivo.
 - Un problema tecnico non annulla l'idoneità editoriale della storia: la notizia resta approvata ma la pubblicazione va completata e dichiarata conclusa solo dopo tutti i controlli tecnici e live.
 - Restano sempre bloccanti falsità, attribuzioni ingannevoli, accuse non verificate, fonti contraffatte, dati inventati, immagini fuorvianti e pagine prive di sostanza.
@@ -83,6 +83,9 @@ Ogni nuovo eBook della Domanda del giorno è un libro breve: **25.000 parole** (
 
 ## Fonte della Domanda del giorno — 6 ottobre 2026
 La sola fonte ammessa per una nuova Domanda del giorno è il titolo/domanda inviato esplicitamente dal proprietario. `automation/state/daily-questions.json` è materiale storico e non è una coda pubblicabile. Non selezionare domande automaticamente, non usare numerazioni o verifiche del vecchio PDF e non attribuire al proprietario testi che non ha fornito. In assenza di un nuovo titolo esplicito, saltare la Domanda del giorno senza bloccare notizie, guide o correzioni non collegate.
+
+## Divieto di pubblicare duplicati — 18 ottobre 2026
+Prima di ogni notizia leggere `automation/prompts/divieto-duplicati.txt`. Non pubblicare una seconda volta la stessa partita, lo stesso fatto, la stessa anteprima o lo stesso risultato, nemmeno con un titolo diverso. Un pezzo nuovo è ammesso solo se aggiunge uno sviluppo che l’articolo già online non contiene. In dubbio: non pubblicare. Il controllo è anche in `duplicate_of` dentro `automation/newsroom/site.py`.
 
 ## Categorie della home — mai mescolate
 In ogni sezione della homepage (Sport, Politica, Cronaca e le altre) possono comparire solo notizie di quella categoria. Una card di un'altra categoria è un errore bloccante. Dopo ogni pubblicazione rieseguire `node tools/render_home_editorial.js`: aggiorna sezioni, Ultima ora e ticker «Ultime notizie». `tools/predeploy.py` rifiuta la home se una sezione è mista o se il ticker è vuoto.

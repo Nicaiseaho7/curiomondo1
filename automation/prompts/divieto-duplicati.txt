@@ -1,0 +1,17 @@
+CURIOMONDO — DIVIETO DI PUBBLICARE DUPLICATI
+Ordine del proprietario, 18 ottobre 2026. Prevale su ogni regola più larga che chiami «nuovo» un pezzo solo perché cambia l’angolazione, il titolo o qualche dettaglio di contorno.
+
+Prima di scrivere e prima di pubblicare, confrontare il fatto con tutte le notizie già online, non solo con lo slug. Leggere i titoli in `notizie/` e in `assets/data/home-feed-v210.json`.
+
+NON PUBBLICARE se la notizia è già sul sito. È un duplicato, anche con titolo diverso, quando:
+
+- la stessa partita, lo stesso evento o lo stesso fatto è già raccontato;
+- esiste già un’anteprima di quella partita o di quell’appuntamento e il pezzo nuovo è un’altra anteprima (orario, arbitro, precedenti, formazioni);
+- esiste già il risultato e il pezzo nuovo ripete lo stesso punteggio. Esempio vietato: due articoli su Roma-Genoa 2-0;
+- il testo ripete gli stessi fatti con altre parole, un altro titolo o dettagli secondari già presenti nel pezzo online.
+
+Si pubblica un articolo nuovo solo se c’è uno sviluppo verificato che il pezzo esistente non contiene. Il risultato dopo l’anteprima è uno sviluppo. Un punteggio diverso, una decisione nuova o una conseguenza nuova sono uno sviluppo. Un sinonimo nel titolo no.
+
+Se il pezzo c’è già, non crearne un secondo. Non si aggiorna l’articolo esistente se non lo chiede il proprietario. In quel caso, e solo in quel caso, la card in homepage porta «aggiornamento». In dubbio: NON PUBBLICARE.
+
+Il renderer rifiuta da solo la seconda anteprima della stessa partita e la ripetizione dello stesso risultato (`duplicate_of` in `automation/newsroom/site.py`). Un rifiuto del renderer non si aggira con un altro slug.

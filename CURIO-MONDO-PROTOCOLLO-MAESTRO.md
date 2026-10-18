@@ -24,7 +24,7 @@ L'obiettivo operativo è pubblicare un numero maggiore di articoli interessanti 
 - Per notizie ordinarie e contenuti di servizio è sufficiente una fonte primaria o ufficiale autentica e competente. La seconda conferma è consigliata, non obbligatoria.
 - Per flash, notizie ordinarie e servizio basta un solo elemento concreto di utilità o valore aggiunto. Due elementi sono richiesti soltanto per analisi e approfondimenti autonomi.
 - La rilevanza nazionale, l'esclusività e la pubblicazione entro 24 ore non sono requisiti. Sono ammesse notizie locali, di nicchia, culturali, sportive, di spettacolo e sviluppi fino a sette giorni o oltre quando ancora attuali, ricercati, utili o nuovi per CurioMondo.
-- Una storia già trattata può produrre un nuovo articolo se cambia l'angolazione, il pubblico, la conseguenza o l'utilità. È duplicato soltanto il contenuto sostanzialmente identico.
+- Una storia già trattata non si ripubblica. È duplicato anche un titolo diverso sulla stessa partita, sullo stesso fatto, su una seconda anteprima o sullo stesso risultato. Un articolo nuovo è ammesso solo per uno sviluppo assente dal pezzo online. Vale `automation/prompts/divieto-duplicati.txt`.
 - Un difetto tecnico riparabile non comporta lo scarto dell'articolo. L'agente è autorizzato a correggere autonomamente file, indici, feed, sitemap, canonical, dati strutturati, immagini, collegamenti, categorie, cache-busting e pipeline necessari alla pubblicazione, limitandosi al repository CurioMondo e preservando i contenuti già validi.
 - Dopo una riparazione, rieseguire il gate tecnico. Dichiarare conclusa la pubblicazione solo dopo il superamento dei controlli predeploy e live.
 - Restano bloccanti: fatti inventati, fonti false, accuse o dati sensibili non verificati, citazioni inesistenti, immagini fuorvianti, violazioni legali, contenuti privi di sostanza e problemi tecnici non risolti dopo i tentativi sicuri di riparazione.
@@ -118,7 +118,7 @@ Il limite di 24 ore non è automatico: contenuti meno recenti restano pubblicabi
 
 Per flash, notizie ordinarie e servizio basta almeno un elemento concreto di valore aggiunto. Due elementi restano obbligatori per analisi e approfondimenti autonomi. La lunghezza segue la materia verificata, senza soglie minime rigide e senza riempitivo.
 
-Lo stesso dossier può produrre un aggiornamento dell'articolo esistente oppure un nuovo pezzo quando cambiano angolazione, conseguenze o utilità. Soltanto la ripetizione sostanziale degli stessi fatti è un duplicato.
+Lo stesso fatto non si pubblica due volte. Non è un articolo nuovo un titolo diverso, una seconda anteprima della stessa partita o la ripetizione dello stesso risultato. Si pubblica un pezzo nuovo solo per uno sviluppo che l’articolo già online non contiene. Regola del proprietario del 18 ottobre 2026: `automation/prompts/divieto-duplicati.txt`.
 
 Un problema tecnico riparabile non causa lo scarto editoriale: la storia resta approvata, ma la pubblicazione non è completa finché tutti gli asset, gli indici, il deploy e la verifica live non risultano corretti.
 
