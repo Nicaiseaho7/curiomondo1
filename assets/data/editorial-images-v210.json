@@ -1,7 +1,146 @@
 {
-  "version": 900,
+  "version": 901,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "aiGenerated": true,
+      "alt": "Illustrazione editoriale IA con somiglianza sintetica di Matteo Maffucci e Thomas De Gasperi, gli Zero Assoluto, sul palco di un teatro vuoto; non documenta un concerto reale.",
+      "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "syntheticLikeness": "public-figure",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Neutral, non-documentary editorial illustration; subject: Illustrazione editoriale IA con somiglianza sintetica di Matteo Maffucci e Thomas De Gasperi, gli Zero Assoluto, sul palco di un teatro vuoto; non documenta un concerto reale.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/zero-assoluto-concerti-milano-roma-rinviati-date-2027-v930-480.webp"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/zero-assoluto-concerti-milano-roma-rinviati-date-2027-v930-800.webp"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/zero-assoluto-concerti-milano-roma-rinviati-date-2027-v930-1200.webp"
+        }
+      ],
+      "article": "/notizie/zero-assoluto-concerti-milano-roma-rinviati-date-2027.html"
+    },
+    {
+      "aiGenerated": true,
+      "alt": "Illustrazione editoriale IA con somiglianza sintetica di Elio Germano e Maria Chiara Giannetta, protagonisti del film Noi, un po’ meglio, in un contesto neutro di festival.",
+      "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "syntheticLikeness": "public-figure",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Neutral, non-documentary editorial illustration; subject: Illustrazione editoriale IA con somiglianza sintetica di Elio Germano e Maria Chiara Giannetta, protagonisti del film Noi, un po’ meglio, in un contesto neutro di festival.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/noi-un-po-meglio-trailer-netflix-29-ottobre-2026-v930-480.webp"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/noi-un-po-meglio-trailer-netflix-29-ottobre-2026-v930-800.webp"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/noi-un-po-meglio-trailer-netflix-29-ottobre-2026-v930-1200.webp"
+        }
+      ],
+      "article": "/notizie/noi-un-po-meglio-trailer-netflix-29-ottobre-2026.html"
+    },
+    {
+      "aiGenerated": true,
+      "alt": "Illustrazione editoriale IA con somiglianza sintetica di Ludovico Einaudi al pianoforte, in una sala da concerto neutra e senza ricostruzione di una proiezione reale.",
+      "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "syntheticLikeness": "public-figure",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Neutral, non-documentary editorial illustration; subject: Illustrazione editoriale IA con somiglianza sintetica di Ludovico Einaudi al pianoforte, in una sala da concerto neutra e senza ricostruzione di una proiezione reale.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ludovico-einaudi-in-a-time-lapse-documentario-roma-20-ottobre-2026-v930-480.webp"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ludovico-einaudi-in-a-time-lapse-documentario-roma-20-ottobre-2026-v930-800.webp"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ludovico-einaudi-in-a-time-lapse-documentario-roma-20-ottobre-2026-v930-1200.webp"
+        }
+      ],
+      "article": "/notizie/ludovico-einaudi-in-a-time-lapse-documentario-roma-20-ottobre-2026.html"
+    },
+    {
+      "aiGenerated": true,
+      "alt": "Illustrazione editoriale IA con somiglianze sintetiche dei Fontaines D.C. in una posa di gruppo nel backstage, senza rappresentare una specifica esibizione.",
+      "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "syntheticLikeness": "public-figure",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Neutral, non-documentary editorial illustration; subject: Illustrazione editoriale IA con somiglianze sintetiche dei Fontaines D.C. in una posa di gruppo nel backstage, senza rappresentare una specifica esibizione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/fontaines-dc-bologna-26-ottobre-roma-milano-2027-biglietti-v930-480.webp"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/fontaines-dc-bologna-26-ottobre-roma-milano-2027-biglietti-v930-800.webp"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/fontaines-dc-bologna-26-ottobre-roma-milano-2027-biglietti-v930-1200.webp"
+        }
+      ],
+      "article": "/notizie/fontaines-dc-bologna-26-ottobre-roma-milano-2027-biglietti.html"
+    },
+    {
+      "aiGenerated": true,
+      "alt": "Illustrazione editoriale IA di una performance di musica elettronica con mixer e sintetizzatori in una sala storica veneziana; scena non documentaria e senza persone identificabili.",
+      "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "prompt": "Neutral, non-documentary editorial illustration; subject: Illustrazione editoriale IA di una performance di musica elettronica con mixer e sintetizzatori in una sala storica veneziana; scena non documentaria e senza persone identificabili.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/biennale-musica-venezia-programma-20-ottobre-2026-showcase-installazioni-v930-480.webp"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/biennale-musica-venezia-programma-20-ottobre-2026-showcase-installazioni-v930-800.webp"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/biennale-musica-venezia-programma-20-ottobre-2026-showcase-installazioni-v930-1200.webp"
+        }
+      ],
+      "article": "/notizie/biennale-musica-venezia-programma-20-ottobre-2026-showcase-installazioni.html"
+    },
     {
       "id": "ue-pac-2028-2034-mercati-agricoli-scuole-vino-19-ottobre-2026",
       "alt": "Illustrazione editoriale IA di un agricoltore italiano con cassette di ortaggi raccolti in un campo coltivato.",
