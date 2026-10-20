@@ -254,17 +254,21 @@ Nel riquadro **Ultima ora** gli orari dello stesso lotto non possono essere ugua
 Nelle illustrazioni di auto di **Carabinieri, Polizia, Guardia di Finanza, ambulanza, vigili del fuoco** **non** inserire mai targhe (neppure inventate o sfocate leggibili). Paraurti pulito, senza riquadro targa. Vale anche per veicoli esteri di polizia.
 
 
-## Vietati i commenti personali / meta della redazione nel corpo — 27 settembre 2026
+## Vietati i commenti sul sito dentro la notizia — permanente, 20 ottobre 2026
 
-Nelle **notizie** (`notizie/*.html`) è **vietato** inserire nel corpo `.art-body` frasi meta, di metodo o di «voce CurioMondo», ad esempio:
-- «CurioMondo segue il caso con sobrietà…»
-- «CurioMondo aggiorna solo su fatti di agenzia…»
-- «CurioMondo non pubblica dettagli…»
-- «Non anticipiamo sentenze…» / «Aggiorneremo solo con fonti…»
-- qualsiasi chiusura in prima persona redazionale o auto-elogio del metodo
+Ordine del proprietario. Non scade. Prevale su ogni bozza, pacchetto e aggiornamento.
 
-Il pezzo racconta **fatti, contesto e fonti**. Metodo, disclosure IA e firma stanno **solo** in `art-sources` / footer / pagine istituzionali (`Come lavoriamo`), non nei paragrafi della notizia.
-Violazione = correggere prima del go-live.
+Nel corpo di una notizia è vietato spiegare come funziona il sito. Vietato, in qualunque variante:
+
+- «Questa pagina aggiorna l’articolo… senza creare una nuova URL»
+- «Aggiornamento del [data]. Questo articolo integra gli sviluppi… mantenendo la URL originale»
+- «CurioMondo aggiornerà / manterrà / terrà aggiornata questa pagina» o «questa stessa URL»
+- «Questa pagina sarà corretta se una fonte primaria…»
+- «I prossimi elementi sostanziali saranno…»
+- «Eventuali voci circolate online saranno escluse…»
+- «CurioMondo segue il caso», «non pubblica dettagli», «aggiorneremo solo con fonti»
+
+L’articolo racconta solo i fatti. L’unico segnale di un aggiornamento è il badge rosso «aggiornamento» sulla card. Se una bozza contiene una di queste frasi, si cancella. Se resta, non si pubblica.
 
 
 ## Immagini incidenti / morti sul lavoro — vietati rottami e scene macabre (27 settembre 2026)
