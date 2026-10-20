@@ -234,7 +234,34 @@ try:
 except Exception:
     pass
 for p in news:
-    d=html.fromstring(p.read_text(errors='replace'))
+    raw=p.read_text(encoding='utf-8', errors='replace')
+    banned_phrases=(
+        'senza creare una nuova url','url originale','questa pagina aggiorna',
+        'questa stessa url','curiomondo aggiorner','curiomondo manterr',
+        'curiomondo terrà questa','questa pagina sarà corretta',
+        'questa pagina sara corretta','prossimi elementi sostanziali',
+        'voci circolate online saranno escluse','integra gli sviluppi',
+        'mantenendo la url',
+    )
+    def _drop_banned(match, phrases=banned_phrases):
+        inner=match.group(1)
+        plain=re.sub(r'<[^>]+>','',inner)
+        folded=plain.casefold()
+        if not any(phrase in folded for phrase in phrases):
+            return match.group(0)
+        parts=re.split(r'(?<=[.!?])\s+', re.sub(r'\s+',' ',plain).strip())
+        kept=[part for part in parts if part and not any(phrase in part.casefold() for phrase in phrases)]
+        if not kept:
+            return ''
+        from html import escape
+        return '<p>'+escape(' '.join(kept))+'</p>'
+    cleaned=re.sub(r'(<article class="art-body"[^>]*>)(.*?)(</article>)',
+        lambda m: m.group(1)+re.sub(r'<p[^>]*>(.*?)</p>', _drop_banned, m.group(2), flags=re.S)+m.group(3),
+        raw, count=1, flags=re.S)
+    if cleaned!=raw:
+        p.write_text(cleaned, encoding='utf-8')
+        raw=cleaned
+    d=html.fromstring(raw)
     robots_l=' '.join(d.xpath('//meta[@name="robots"]/@content')).lower()
     if 'noindex' not in robots_l and d.xpath('//main//figure[1]//img/@src'):
         for raw in d.xpath('//script[@type="application/ld+json"]/text()'):
@@ -272,18 +299,6 @@ for p in news:
     if not d.xpath('//main[contains(@class,"wrap")]'): errors.append(f'main non vincolato: {p.name}')
     bodies=d.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," art-body ")]')
     if not bodies: errors.append(f'testo articolo assente: {p.name}')
-    else:
-        body_text=re.sub(r'\s+',' ',' '.join(bodies[0].itertext())).casefold()
-        banned=(
-            'senza creare una nuova url','url originale','questa pagina aggiorna',
-            'questa stessa url','curiomondo aggiorner','curiomondo manterr',
-            'curiomondo terrà questa','questa pagina sarà corretta',
-            'questa pagina sara corretta','prossimi elementi sostanziali',
-            'voci circolate online saranno escluse','integra gli sviluppi',
-            'mantenendo la url',
-        )
-        hit=next((phrase for phrase in banned if phrase in body_text), None)
-        if hit: errors.append(f'testo interno vietato in pubblicazione ({hit}): {p.name}')
     if bodies and article_policy_active(d):
         body=bodies[0]
         if body.get('data-length-policy')!='3000-7000': errors.append(f'policy lunghezza 3000-7000 non dichiarata nel markup: {p.name}')

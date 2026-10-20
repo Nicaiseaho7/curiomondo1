@@ -22,7 +22,7 @@ La velocità conta, ma non sostituisce verifica, utilità e chiarezza. La lunghe
 
 Non scade. Vale per ogni notizia nuova e per ogni aggiornamento, prima del push.
 
-Nel corpo non si spiega come funziona il sito. Vietato scrivere, in qualunque variante, «questa pagina», «senza creare una nuova URL», «URL originale», «CurioMondo aggiornerà», «questa pagina sarà corretta», «i prossimi elementi sostanziali», «voci circolate online saranno escluse», «questo articolo integra gli sviluppi». L’articolo racconta solo i fatti. L’unico segnale di un aggiornamento è il badge rosso «aggiornamento» sulla card. Se la frase è nel testo, `tools/predeploy.py` rifiuta la pubblicazione.
+Nel corpo non si spiega come funziona il sito. Vietato scrivere, in qualunque variante, «questa pagina», «senza creare una nuova URL», «URL originale», «CurioMondo aggiornerà», «questa pagina sarà corretta», «i prossimi elementi sostanziali», «voci circolate online saranno escluse», «questo articolo integra gli sviluppi». L’articolo racconta solo i fatti. L’unico segnale di un aggiornamento è il badge rosso «aggiornamento» sulla card. Se una di queste frasi è nel testo, si elimina e l’articolo si pubblica. Non si ferma la notizia.
 
 ## 2. Prevalenza e compatibilità
 

@@ -179,7 +179,7 @@ Un articolo non deve mai essere considerato pubblicato soltanto perché il file 
 - sono aggiornati homepage o listing editoriale previsto, archivio, ricerca, feed, sitemap e News Sitemap quando pertinente;
 - canonical e dati strutturati sono coerenti con l'URL pubblico;
 - `python3 tools/predeploy.py` termina con exit code 0;
-- il corpo non spiega il sito: niente «questa pagina», «URL», «CurioMondo aggiornerà», «elementi sostanziali» o «voci che saranno escluse». `tools/predeploy.py` blocca la pubblicazione se una di queste frasi è nel testo. L’unico segnale di aggiornamento è il badge rosso sulla card;
+- il corpo non spiega il sito: niente «questa pagina», «URL», «CurioMondo aggiornerà», «elementi sostanziali» o «voci che saranno escluse». Se ci sono, si eliminano e l’articolo si pubblica. Non si ferma la notizia. L’unico segnale di aggiornamento è il badge rosso sulla card;
 - dopo il deploy, l'URL pubblico dell'articolo e l'immagine hero rispondono correttamente e la notizia compare nelle superfici editoriali previste.
 
 Se uno qualunque di questi punti manca, segnalare la pubblicazione come **incompleta** e non dichiararla conclusa.
@@ -269,7 +269,7 @@ Nel corpo di una notizia è vietato spiegare come funziona il sito. Vietato, in 
 - «Eventuali voci circolate online saranno escluse…»
 - «CurioMondo segue il caso», «non pubblica dettagli», «aggiorneremo solo con fonti»
 
-L’articolo racconta solo i fatti. L’unico segnale di un aggiornamento è il badge rosso «aggiornamento» sulla card. Se una bozza contiene una di queste frasi, si cancella. Se resta, non si pubblica.
+L’articolo racconta solo i fatti. L’unico segnale di un aggiornamento è il badge rosso «aggiornamento» sulla card. Se una bozza contiene una di queste frasi, si eliminano e l’articolo si pubblica. Non si ferma la notizia.
 
 
 ## Immagini incidenti / morti sul lavoro — vietati rottami e scene macabre (27 settembre 2026)
