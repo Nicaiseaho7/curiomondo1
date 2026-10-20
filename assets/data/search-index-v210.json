@@ -1,6 +1,60 @@
 {
-  "version": 937,
+  "version": 938,
   "items": [
+    {
+      "title": "Case, il 75,8% delle famiglie vive nell’abitazione di proprietà",
+      "excerpt": "Il rapporto MEF-Agenzia delle Entrate conta oltre 20 milioni di nuclei proprietari e stima un patrimonio abitativo superiore a 6.000 miliardi di euro.",
+      "url": "/notizie/case-italia-758-famiglie-proprietarie-patrimonio-6000-miliardi.html",
+      "section": "Economia"
+    },
+    {
+      "title": "Tumore del retto, la FDA amplia l’uso dell’immunoterapia Jemperli",
+      "excerpt": "L’approvazione accelerata riguarda adulti con malattia localmente avanzata dMMR o MSI-H: i dati suggeriscono che alcuni possano evitare chemio, radioterapia e chirurgia.",
+      "url": "/notizie/fda-jemperli-tumore-retto-dmmr-msi-h-approvazione-accelerata.html",
+      "section": "Scienza"
+    },
+    {
+      "title": "Bambini nei conflitti, l’ONU riconosce i rischi delle tecnologie digitali",
+      "excerpt": "Il Consiglio di Sicurezza approva all’unanimità la risoluzione 2832: reclutamento, abusi e disinformazione online entrano esplicitamente nella protezione dei minori.",
+      "url": "/notizie/onu-risoluzione-2832-bambini-conflitti-rischi-digitali.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Epatite B, rinviare il vaccino neonatale aumenterebbe le infezioni croniche",
+      "excerpt": "Un modello su una coorte di 3,6 milioni di bambini stima un +19% con la dose a due mesi e un +83% con la decisione condivisa caso per caso.",
+      "url": "/notizie/epatite-b-rinvio-vaccino-neonati-studio-infezioni-croniche.html",
+      "section": "Scienza"
+    },
+    {
+      "title": "ADHD e mortalità, una meta-analisi misura il divario e il ruolo dei farmaci",
+      "excerpt": "Diciannove studi e quasi 16 milioni di persone mostrano associazioni con più decessi per diverse cause. La possibile protezione dei trattamenti non prova un rapporto causale.",
+      "url": "/notizie/adhd-mortalita-meta-analisi-farmaci-associazione-rischio.html",
+      "section": "Scienza"
+    },
+    {
+      "title": "Tumore della prostata, dal DNA emergono 18 specie batteriche sconosciute",
+      "excerpt": "I ricercatori hanno ricostruito genomi microbici rimasti nei dati di sequenziamento dei pazienti. Il possibile ruolo nella malattia è ancora da dimostrare.",
+      "url": "/notizie/prostata-dna-18-nuove-specie-batteriche-sequenziamento.html",
+      "section": "Scienza"
+    },
+    {
+      "title": "Una foto del volto per stimare età biologica e rischio oncologico: cosa mostra FAHR-Face",
+      "excerpt": "Il modello è stato addestrato su oltre 40 milioni di immagini e validato su pazienti con tumore. Non è un test diagnostico pronto per l’uso clinico.",
+      "url": "/notizie/fotoritratto-ia-eta-biologica-sopravvivenza-cancro-fahr-face.html",
+      "section": "Tecnologia"
+    },
+    {
+      "title": "Fame e memoria dell’alcol, nei moscerini emerge un circuito comune",
+      "excerpt": "Uno studio della Brown University collega i neuroni sensibili alla fame alla percezione dell’alcol come ricompensa. Il risultato è preclinico e non va trasferito direttamente all’uomo.",
+      "url": "/notizie/fame-memoria-alcol-moscerini-neuroni-octopamina-studio.html",
+      "section": "Scienza"
+    },
+    {
+      "title": "Gli alveari funzionano come un sistema immunitario vivente per le api",
+      "excerpt": "Lo studio su 24 colonie descrive difese antimicrobiche disposte a strati: propoli, cera, polline e gli stessi insetti filtrano microrganismi dannosi.",
+      "url": "/notizie/alveari-sistema-immunitario-vivente-api-microbioma-studio.html",
+      "section": "Ambiente"
+    },
     {
       "title": "Ucraina, nuovi raid sulla rete elettrica: oltre 500 mila senza luce",
       "excerpt": "Secondo Zelensky sono state colpite 28 sottostazioni e altre infrastrutture critiche. Una donna di 21 anni è morta a Kyiv; Mosca afferma di avere preso di mira obiettivi militari.",
@@ -4940,10 +4994,10 @@
       "section": "Italia / Economia"
     },
     {
-      "title": "Pensioni degli autonomi, l’INPS distingue i contributi che fanno slittare la data",
+      "title": "Lavoratori autonomi, un nuovo accertamento può bloccare la pensione",
       "excerpt": "Il messaggio 3113 del 2 ottobre integra la circolare del 2022: conta se il periodo regolarizzato dopo la domanda è decisivo per maturare il diritto.",
       "url": "/notizie/inps-pensioni-autonomi-contributi-decorrenza-messaggio-3113-2026.html",
-      "section": "Italia / Economia"
+      "section": "Economia"
     },
     {
       "title": "Ercolano, visite al cantiere delle Terme Suburbane dal 10 ottobre",
