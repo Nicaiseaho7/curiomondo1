@@ -292,6 +292,12 @@ All final responses must be written in Italian.
 
 
 
+## DIVIETO PERMANENTE — niente meta-testo nel corpo (ordine del proprietario, 20 ottobre 2026)
+
+Non scade. Prevale su ogni bozza, pacchetto, aggiornamento e su qualunque istruzione che chieda di spiegare al lettore come il sito viene aggiornato.
+
+Nel testo pubblico di una notizia è vietato parlare di URL, di «questa pagina», di «questa stessa pagina», di «CurioMondo aggiornerà», di «elementi sostanziali» futuri, di voci che «saranno escluse», o scrivere «Aggiornamento del [data]. Questo articolo integra gli sviluppi mantenendo la URL originale.» L’articolo racconta solo i fatti. L’unico segnale di aggiornamento è il badge rosso «aggiornamento» sulla card. Se la frase c’è, si cancella. Se resta, non si pubblica.
+
 ## Regole permanenti di leggibilità, lunghezza e anti-ripetizione — v248
 - La card `Domanda del giorno` in homepage conserva obbligatoriamente il design premium già approvato e il contratto DOM `cm-qday` → `cm-qday-link` → `cm-qday-card`, con `cm-qday-k` e `cm-qday-hint`. Non sostituire queste classi e non ridisegnare la card durante gli aggiornamenti: cambiare soltanto data, link e testo neutro previsto.
 - In homepage la card continua a non rivelare domanda, risposta o tema.
