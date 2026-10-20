@@ -272,7 +272,19 @@ for p in news:
     if not d.xpath('//main[contains(@class,"wrap")]'): errors.append(f'main non vincolato: {p.name}')
     bodies=d.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," art-body ")]')
     if not bodies: errors.append(f'testo articolo assente: {p.name}')
-    elif article_policy_active(d):
+    else:
+        body_text=re.sub(r'\s+',' ',' '.join(bodies[0].itertext())).casefold()
+        banned=(
+            'senza creare una nuova url','url originale','questa pagina aggiorna',
+            'questa stessa url','curiomondo aggiorner','curiomondo manterr',
+            'curiomondo terrà questa','questa pagina sarà corretta',
+            'questa pagina sara corretta','prossimi elementi sostanziali',
+            'voci circolate online saranno escluse','integra gli sviluppi',
+            'mantenendo la url',
+        )
+        hit=next((phrase for phrase in banned if phrase in body_text), None)
+        if hit: errors.append(f'testo interno vietato in pubblicazione ({hit}): {p.name}')
+    if bodies and article_policy_active(d):
         body=bodies[0]
         if body.get('data-length-policy')!='3000-7000': errors.append(f'policy lunghezza 3000-7000 non dichiarata nel markup: {p.name}')
         body_text=re.sub(r'\s+',' ',' '.join(body.itertext())).strip()

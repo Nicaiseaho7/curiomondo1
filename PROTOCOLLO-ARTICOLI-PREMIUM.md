@@ -18,6 +18,12 @@ Un articolo CurioMondo deve aiutare il lettore a capire:
 
 La velocità conta, ma non sostituisce verifica, utilità e chiarezza. La lunghezza, da sola, non rende premium un articolo.
 
+## 1-bis. Divieto permanente in pubblicazione — 20 ottobre 2026
+
+Non scade. Vale per ogni notizia nuova e per ogni aggiornamento, prima del push.
+
+Nel corpo non si spiega come funziona il sito. Vietato scrivere, in qualunque variante, «questa pagina», «senza creare una nuova URL», «URL originale», «CurioMondo aggiornerà», «questa pagina sarà corretta», «i prossimi elementi sostanziali», «voci circolate online saranno escluse», «questo articolo integra gli sviluppi». L’articolo racconta solo i fatti. L’unico segnale di un aggiornamento è il badge rosso «aggiornamento» sulla card. Se la frase è nel testo, `tools/predeploy.py` rifiuta la pubblicazione.
+
 ## 2. Prevalenza e compatibilità
 
 Questo file integra, senza sostituirli, i protocolli di scrittura, titoli, scoperta, rischio, qualità, corpo, immagini e pubblicazione tecnica.

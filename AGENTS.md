@@ -179,6 +179,7 @@ Un articolo non deve mai essere considerato pubblicato soltanto perché il file 
 - sono aggiornati homepage o listing editoriale previsto, archivio, ricerca, feed, sitemap e News Sitemap quando pertinente;
 - canonical e dati strutturati sono coerenti con l'URL pubblico;
 - `python3 tools/predeploy.py` termina con exit code 0;
+- il corpo non spiega il sito: niente «questa pagina», «URL», «CurioMondo aggiornerà», «elementi sostanziali» o «voci che saranno escluse». `tools/predeploy.py` blocca la pubblicazione se una di queste frasi è nel testo. L’unico segnale di aggiornamento è il badge rosso sulla card;
 - dopo il deploy, l'URL pubblico dell'articolo e l'immagine hero rispondono correttamente e la notizia compare nelle superfici editoriali previste.
 
 Se uno qualunque di questi punti manca, segnalare la pubblicazione come **incompleta** e non dichiararla conclusa.
