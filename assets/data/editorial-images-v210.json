@@ -1,7 +1,100 @@
 {
-  "version": 958,
+  "version": 960,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "id": "poverta-italia-2025-affitti-divari",
+      "alt": "Famiglia italiana esamina spese domestiche e ricevute con un’assistente sociale; illustrazione editoriale IA non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/poverta-italia-2025-affitti-divari-v960-480.webp"
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/poverta-italia-2025-affitti-divari-v960-800.webp"
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/poverta-italia-2025-affitti-divari-v960-1200.webp"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": false,
+      "article": "/approfondimenti/poverta-italia-2025-affitti-divari.html"
+    },
+    {
+      "id": "liste-attesa-sanita-fondi-risultati",
+      "alt": "Pazienti in un centro prenotazioni ospedaliero parlano con personale sanitario; illustrazione editoriale IA non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/liste-attesa-sanita-fondi-risultati-v960-480.webp"
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/liste-attesa-sanita-fondi-risultati-v960-800.webp"
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/liste-attesa-sanita-fondi-risultati-v960-1200.webp"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": false,
+      "article": "/approfondimenti/liste-attesa-sanita-fondi-risultati.html"
+    },
+    {
+      "id": "bolletta-elettrica-rincaro-vulnerabili",
+      "alt": "Donna in un appartamento italiano esamina una bolletta elettrica accanto a un termostato; illustrazione editoriale IA non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/bolletta-elettrica-rincaro-vulnerabili-v960-480.webp"
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/bolletta-elettrica-rincaro-vulnerabili-v960-800.webp"
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/bolletta-elettrica-rincaro-vulnerabili-v960-1200.webp"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "syntheticLikeness": false,
+      "article": "/approfondimenti/bolletta-elettrica-rincaro-vulnerabili.html"
+    },
     {
       "id": "ue-imballaggi-piccoli-produttori-negoziato-22-ottobre-2026",
       "alt": "Imballaggi, il Consiglio UE definisce la posizione sui piccoli produttori",
@@ -46558,6 +46651,51 @@
     }
   ],
   "images": [
+    {
+      "slug": "poverta-italia-2025-affitti-divari",
+      "version": 960,
+      "path": "/assets/images/editorial-auto/poverta-italia-2025-affitti-divari-v960-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-10-22",
+      "alt": "Famiglia italiana esamina spese domestiche e ricevute con un’assistente sociale; illustrazione editoriale IA non documentaria."
+    },
+    {
+      "slug": "liste-attesa-sanita-fondi-risultati",
+      "version": 960,
+      "path": "/assets/images/editorial-auto/liste-attesa-sanita-fondi-risultati-v960-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-10-22",
+      "alt": "Pazienti in un centro prenotazioni ospedaliero parlano con personale sanitario; illustrazione editoriale IA non documentaria."
+    },
+    {
+      "slug": "bolletta-elettrica-rincaro-vulnerabili",
+      "version": 960,
+      "path": "/assets/images/editorial-auto/bolletta-elettrica-rincaro-vulnerabili-v960-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-10-22",
+      "alt": "Donna in un appartamento italiano esamina una bolletta elettrica accanto a un termostato; illustrazione editoriale IA non documentaria."
+    },
     {
       "slug": "allerta-meteo-arancione-toscana-8-ottobre-2026",
       "version": 801,
