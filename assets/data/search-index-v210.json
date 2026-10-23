@@ -1,17 +1,77 @@
 {
-  "version": 967,
+  "version": 969,
   "items": [
     {
-      "title": "Leasing auto aziendale: costi, fiscalità e riscatto",
-      "excerpt": "Maxi-canone, rate, riscatto, manutenzione, uso promiscuo e uscita: come confrontare il leasing auto aziendale sul costo totale.",
-      "url": "/approfondimenti/leasing-auto-aziendale-costi-vantaggi.html",
-      "section": "Economia e lavoro"
+      "title": "NASA, briefing sulle missioni Artemis: test in orbita nel 2027 e Luna nel 2028",
+      "excerpt": "L’agenzia presenta oggi lo stato del programma e il piano di accelerazione. Artemis III è ora indicata come prova in orbita terrestre con quattro astronauti, prima del ritorno sulla superficie lunare.",
+      "url": "/notizie/nasa-artemis-accelerazione-briefing-missioni-luna-23-ottobre-2026.html",
+      "section": "Scienza / Mondo"
     },
     {
-      "title": "Brevetto in Italia: requisiti, costi e procedura UIBM",
-      "excerpt": "Novità, attività inventiva, ricerca, rivendicazioni, deposito UIBM, priorità ed estensione estera: guida ai costi reali del brevetto.",
-      "url": "/approfondimenti/brevetto-costi-requisiti-procedura.html",
-      "section": "Economia e lavoro"
+      "title": "Pensioni, donne maggioranza ma agli uomini va il 56% dei redditi",
+      "excerpt": "I dati INPS mostrano 8,4 milioni di pensionate, ma un reddito medio annuo di 19.553 euro contro 26.031 per gli uomini. Carriere più brevi e salari più bassi spiegano una distanza che le pensioni ai superstiti attenuano soltanto in parte.",
+      "url": "/notizie/pensioni-donne-redditi-divario-inps-23-ottobre-2026.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Social e solitudine, lo studio UE distingue reti e messaggistica",
+      "excerpt": "Tra i 16 e i 35 anni, oltre due ore al giorno sui social network sono associate a più solitudine e disagio emotivo. La messaggistica non mostra lo stesso legame: il dato cambia soprattutto con genere e relazioni offline.",
+      "url": "/notizie/social-media-solitudine-giovani-europa-studio-23-ottobre-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "BTP Short Term e BTP€i, asta il 27 ottobre: cosa cambia tra i due titoli",
+      "excerpt": "Il Ministero dell’Economia annuncia il nuovo collocamento con regolamento il 29 ottobre. Uno strumento è nominale e di breve durata, l’altro protegge il capitale dall’inflazione dell’area euro.",
+      "url": "/notizie/asta-btp-short-term-btpei-27-ottobre-2026-mef.html",
+      "section": "Economia"
+    },
+    {
+      "title": "Competenze STEM avanzate, l’OCSE individua cinque colli di bottiglia",
+      "excerpt": "Dall’ingresso all’università all’aggiornamento durante la carriera, il rapporto segue l’intero percorso delle competenze scientifiche. Accesso diseguale e rapida obsolescenza frenano IA, quantum e ricerca.",
+      "url": "/notizie/ocse-competenze-stem-avanzate-universita-politiche-23-ottobre-2026.html",
+      "section": "Scienza / Economia"
+    },
+    {
+      "title": "L’OCSE prova a misurare la produttività dei servizi pubblici",
+      "excerpt": "Un nuovo working paper confronta input, risultati e qualità nei servizi senza prezzi di mercato. La sfida è capire se una spesa maggiore produce davvero più valore per cittadini e imprese.",
+      "url": "/notizie/ocse-produttivita-settore-pubblico-misurazione-23-ottobre-2026.html",
+      "section": "Economia"
+    },
+    {
+      "title": "UE e Balcani occidentali, vertice a Bruxelles il 25 novembre",
+      "excerpt": "Il Consiglio europeo fissa il nuovo incontro con i partner della regione. Al centro il rapporto strategico, l’integrazione graduale e i prossimi passaggi del percorso europeo.",
+      "url": "/notizie/vertice-unione-europea-balcani-occidentali-bruxelles-25-novembre-2026.html",
+      "section": "Mondo / Politica"
+    },
+    {
+      "title": "Singapore, Malesia e Thailandia testano pagamenti digitali transfrontalieri",
+      "excerpt": "Le tre banche centrali avviano BLOOM con imprese dei pagamenti e istituzioni internazionali: sotto esame depositi tokenizzati, stablecoin e regole comuni per trasferimenti più rapidi e controllabili.",
+      "url": "/notizie/singapore-malesia-thailandia-pagamenti-digitali-bloom-23-ottobre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "NTT usa l’IA per rendere il software legacy pronto all’era degli agenti",
+      "excerpt": "La ricerca collega documenti, specifiche, codice e test per ricostruire la logica dei sistemi esistenti. Nei casi sperimentali, il rilevamento delle incongruenze sale dal 27% all’80%.",
+      "url": "/notizie/ntt-intelligenza-artificiale-software-legacy-tracciabilita-23-ottobre-2026.html",
+      "section": "Scienza / Tecnologia"
+    },
+    {
+      "title": "Singapore porta IA, robot e gemelli digitali nella manutenzione ferroviaria",
+      "excerpt": "L’autorità dei trasporti riunisce operatori, industria e università a Nebula X Day. Oltre 40 stand mostrano ispezioni automatizzate, monitoraggio degli asset e progettazione digitale.",
+      "url": "/notizie/singapore-ferrovie-nebula-x-digitalizzazione-23-ottobre-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "India e Polonia allargano la cooperazione a difesa e tecnologie critiche",
+      "excerpt": "La dichiarazione congiunta dopo la visita di Donald Tusk punta su commercio, industria, cybersicurezza e spazio. Varsavia sostiene una rapida conclusione dell’accordo India-UE.",
+      "url": "/notizie/india-polonia-cooperazione-economia-difesa-tecnologie-22-ottobre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "NTT misura portatori caldi in meno di un picosecondo con il fosforo nero",
+      "excerpt": "Un fotorivelatore integrato funziona a temperatura ambiente e senza tensione esterna. La risposta misurata raggiunge 260 GHz, con una banda intrinseca stimata intorno a 600 GHz.",
+      "url": "/notizie/ntt-fotorivelatore-portatori-caldi-260-ghz-fosforo-nero-22-ottobre-2026.html",
+      "section": "Scienza / Tecnologia"
     },
     {
       "title": "Libri e borse di studio in Emilia Romagna, domande entro le 18 di oggi",
@@ -10722,6 +10782,18 @@
       "excerpt": "I corpi sono stati estratti dalle macerie del quartiere Sabra di Gaza City quasi tre anni dopo il bombardamento. La cerimonia riapre il tema delle persone disperse e dell’identificazione delle vittime.",
       "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
       "section": "Gaza · Cronaca"
+    },
+    {
+      "title": "Leasing auto aziendale: costi, fiscalità e riscatto",
+      "excerpt": "Maxi-canone, rate, riscatto, manutenzione, uso promiscuo e uscita: come confrontare il leasing auto aziendale sul costo totale.",
+      "url": "/approfondimenti/leasing-auto-aziendale-costi-vantaggi.html",
+      "section": "Economia e lavoro"
+    },
+    {
+      "title": "Brevetto in Italia: requisiti, costi e procedura UIBM",
+      "excerpt": "Novità, attività inventiva, ricerca, rivendicazioni, deposito UIBM, priorità ed estensione estera: guida ai costi reali del brevetto.",
+      "url": "/approfondimenti/brevetto-costi-requisiti-procedura.html",
+      "section": "Economia e lavoro"
     },
     {
       "title": "Sentire troppo è un difetto?",
