@@ -3,6 +3,78 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "brevetto-costi-requisiti-procedura-v967",
+      "article": "/approfondimenti/brevetto-costi-requisiti-procedura.html",
+      "alt": "Inventore e consulente esaminano un prototipo meccanico e disegni tecnici; illustrazione editoriale IA non documentaria.",
+      "prompt": "Fotografia editoriale fotorealistica 3:2: inventore e consulente brevetti, volti visibili, esaminano un prototipo meccanico e disegni tecnici in un ufficio-laboratorio italiano; nessun logo, testo o watermark.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/brevetto-costi-requisiti-procedura-v967-480.webp",
+          "sha256": "cb0a2215b06c3a95ff2c3e6fb9d7578e9c108f434a23374fb77c53a422494661",
+          "bytes": 17892
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/brevetto-costi-requisiti-procedura-v967-800.webp",
+          "sha256": "8d46ae5f62879400b77b38aa7b66ea9000ccb9ac618ef596fd8285add419f24d",
+          "bytes": 33386
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/brevetto-costi-requisiti-procedura-v967-1200.webp",
+          "sha256": "620e3efe336fc8214faae4c3ccc252afeab7489f17bca6a1e8ef60094d87b675",
+          "bytes": 55012
+        }
+      ]
+    },
+    {
+      "key": "leasing-auto-aziendale-costi-vantaggi-v967",
+      "article": "/approfondimenti/leasing-auto-aziendale-costi-vantaggi.html",
+      "alt": "Imprenditrice e consulente valutano un leasing davanti a una flotta aziendale; illustrazione editoriale IA non documentaria.",
+      "prompt": "Fotografia editoriale fotorealistica 3:2: imprenditrice e consulente, volti visibili, esaminano su tablet un leasing davanti a una flotta aziendale moderna; nessun logo, testo o watermark.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/leasing-auto-aziendale-costi-vantaggi-v967-480.webp",
+          "sha256": "eb217f1a4892fb101640bd092a04cd4210c77223d698a4ceaf82b2bf7059bab8",
+          "bytes": 20772
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/leasing-auto-aziendale-costi-vantaggi-v967-800.webp",
+          "sha256": "b822ccc36b79b32554ba437e52efe6f10ec685ec97ebd64c2700b3270f502779",
+          "bytes": 40896
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/leasing-auto-aziendale-costi-vantaggi-v967-1200.webp",
+          "sha256": "624702f662158994c617e92f817720198c5f831946e571fab1d426d7739faaba",
+          "bytes": 68136
+        }
+      ]
+    },
+    {
       "key": "roma-napoli-cancello-maddaloni-treni-sospesi-23-ottobre-2026-v967",
       "alt": "Illustrazione editoriale IA ultrarealistica di un treno fermo in stazione con bus sostitutivo e viaggiatori; scena non documentaria.",
       "prompt": "Treno regionale fermo in una stazione campana con segnale rosso, bus sostitutivo e viaggiatori in attesa, fotografia editoriale ultrarealistica 16:9.",
