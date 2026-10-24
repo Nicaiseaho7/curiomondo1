@@ -1,6 +1,328 @@
 {
-  "version": 974,
+  "version": 975,
   "items": [
+    {
+      "title": "Agguato a Cassano all’Ionio: donna uccisa, marito ferito",
+      "excerpt": "Il commando ha sparato vicino all’abitazione della coppia in contrada Lattughelle. La vittima è Silvana Sibarelli; Damiano Pepe, 64 anni, è ricoverato in gravi condizioni.",
+      "url": "/notizie/cassano-ionio-agguato-lattughelle-donna-uccisa-marito-ferito-24-ottobre-2026.html",
+      "section": "Italia / Cronaca",
+      "dateISO": "2026-10-24T09:27:00+02:00",
+      "dateLabel": "2026-10-24",
+      "image": "/assets/images/editorial-auto/cassano-ionio-agguato-lattughelle-donna-uccisa-marito-ferito-24-ottobre-2026-v975-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di una strada rurale presidiata dai carabinieri di notte, senza persone o scene di violenza; non è una fotografia dell’agguato.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/cassano-ionio-agguato-lattughelle-donna-uccisa-marito-ferito-24-ottobre-2026-v975-480.webp 480w, /assets/images/editorial-auto/cassano-ionio-agguato-lattughelle-donna-uccisa-marito-ferito-24-ottobre-2026-v975-800.webp 800w, /assets/images/editorial-auto/cassano-ionio-agguato-lattughelle-donna-uccisa-marito-ferito-24-ottobre-2026-v975-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "1 vittima",
+          "label": "Silvana Sibarelli"
+        },
+        {
+          "icon": "•",
+          "value": "64 anni",
+          "label": "età del ferito"
+        },
+        {
+          "icon": "•",
+          "value": "notte",
+          "label": "orario dell’agguato"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Allerta gialla in otto regioni: piogge e vento forte oggi",
+      "excerpt": "La Protezione Civile segnala criticità per temporali, rischio idrogeologico e idraulico. Raffiche di maestrale e mari agitati interessano soprattutto isole e regioni tirreniche.",
+      "url": "/notizie/allerta-gialla-meteo-otto-regioni-piogge-vento-24-ottobre-2026.html",
+      "section": "Mondo / Ambiente",
+      "dateISO": "2026-10-24T08:57:00+02:00",
+      "dateLabel": "2026-10-24",
+      "image": "/assets/images/editorial-auto/allerta-gialla-meteo-otto-regioni-piogge-vento-24-ottobre-2026-v975-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di nubi temporalesche e mare mosso su una costa italiana, senza mappe o testo; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/allerta-gialla-meteo-otto-regioni-piogge-vento-24-ottobre-2026-v975-480.webp 480w, /assets/images/editorial-auto/allerta-gialla-meteo-otto-regioni-piogge-vento-24-ottobre-2026-v975-800.webp 800w, /assets/images/editorial-auto/allerta-gialla-meteo-otto-regioni-piogge-vento-24-ottobre-2026-v975-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "8 regioni",
+          "label": "allerta per temporali"
+        },
+        {
+          "icon": "•",
+          "value": "3 rischi",
+          "label": "idrogeologico, idraulico, temporali"
+        },
+        {
+          "icon": "•",
+          "value": "24 ottobre",
+          "label": "giornata interessata"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Tempesta Austen, blackout e trasporti in tilt tra Francia e Regno Unito",
+      "excerpt": "Raffiche fino a 179 chilometri orari hanno abbattuto alberi e linee elettriche. Centinaia di migliaia di utenze francesi sono rimaste senza corrente; disagi anche nel Regno Unito.",
+      "url": "/notizie/tempesta-austen-francia-gran-bretagna-blackout-trasporti-24-ottobre-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-10-24T08:42:00+02:00",
+      "dateLabel": "2026-10-24",
+      "image": "/assets/images/editorial-auto/tempesta-austen-francia-gran-bretagna-blackout-trasporti-24-ottobre-2026-v975-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di tecnici al lavoro dopo una tempesta su una strada europea, senza feriti; non è una fotografia dell’evento.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/tempesta-austen-francia-gran-bretagna-blackout-trasporti-24-ottobre-2026-v975-480.webp 480w, /assets/images/editorial-auto/tempesta-austen-francia-gran-bretagna-blackout-trasporti-24-ottobre-2026-v975-800.webp 800w, /assets/images/editorial-auto/tempesta-austen-francia-gran-bretagna-blackout-trasporti-24-ottobre-2026-v975-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "179 km/h",
+          "label": "raffica massima riportata"
+        },
+        {
+          "icon": "•",
+          "value": "quasi 300.000",
+          "label": "utenze francesi coinvolte"
+        },
+        {
+          "icon": "•",
+          "value": "12.000",
+          "label": "case britanniche da riallacciare"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Alessandria–Piacenza, stop tra Stradella e Piacenza fino a lunedì",
+      "excerpt": "La circolazione è sospesa per lavori infrastrutturali fino alle 4 del 26 ottobre. Regionali e lunga percorrenza subiscono limitazioni, cancellazioni e servizi sostitutivi.",
+      "url": "/notizie/alessandria-piacenza-stop-stradella-lavori-treni-24-ottobre-2026.html",
+      "section": "Italia",
+      "dateISO": "2026-10-24T08:27:00+02:00",
+      "dateLabel": "2026-10-24",
+      "image": "/assets/images/editorial-auto/alessandria-piacenza-stop-stradella-lavori-treni-24-ottobre-2026-v975-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di un treno regionale fermo alla stazione di Stradella durante i lavori; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/alessandria-piacenza-stop-stradella-lavori-treni-24-ottobre-2026-v975-480.webp 480w, /assets/images/editorial-auto/alessandria-piacenza-stop-stradella-lavori-treni-24-ottobre-2026-v975-800.webp 800w, /assets/images/editorial-auto/alessandria-piacenza-stop-stradella-lavori-treni-24-ottobre-2026-v975-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "23-26 ottobre",
+          "label": "finestra dei lavori"
+        },
+        {
+          "icon": "•",
+          "value": "00:50-04:00",
+          "label": "inizio e fine stop"
+        },
+        {
+          "icon": "•",
+          "value": "bus",
+          "label": "collegamenti sostitutivi"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Eurallumina, operai scesi dal silo: nuovo tavolo il 29 ottobre",
+      "excerpt": "I quattro lavoratori hanno interrotto la protesta a 60 metri dopo il vertice al Mimit. Sindacati e Regione chiedono risorse concrete per sicurezza, impianti e continuità.",
+      "url": "/notizie/eurallumina-operai-scendono-silo-nuovo-tavolo-29-ottobre-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-24T08:12:00+02:00",
+      "dateLabel": "2026-10-24",
+      "image": "/assets/images/editorial-auto/eurallumina-operai-scendono-silo-nuovo-tavolo-29-ottobre-2026-v975-800.webp",
+      "imageAlt": "Illustrazione editoriale IA dello stabilimento Eurallumina di Portovesme e del silo della protesta, senza persone in pericolo; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/eurallumina-operai-scendono-silo-nuovo-tavolo-29-ottobre-2026-v975-480.webp 480w, /assets/images/editorial-auto/eurallumina-operai-scendono-silo-nuovo-tavolo-29-ottobre-2026-v975-800.webp 800w, /assets/images/editorial-auto/eurallumina-operai-scendono-silo-nuovo-tavolo-29-ottobre-2026-v975-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "4 operai",
+          "label": "protagonisti della protesta"
+        },
+        {
+          "icon": "•",
+          "value": "60 metri",
+          "label": "altezza del presidio"
+        },
+        {
+          "icon": "•",
+          "value": "29 ottobre",
+          "label": "prossimo incontro"
+        }
+      ],
+      "featuredHighlights": [
+        "29 ottobre"
+      ]
+    },
+    {
+      "title": "Cisgiordania, raid notturni e arresti dopo la chiusura militare",
+      "excerpt": "Fonti palestinesi riferiscono operazioni israeliane in almeno quindici località e decine di fermi. Le restrizioni seguono l’attacco di Hebron in cui sono morti due soldati israeliani.",
+      "url": "/notizie/cisgiordania-raid-notturni-arresti-chiusure-24-ottobre-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-10-24T07:57:00+02:00",
+      "dateLabel": "2026-10-24",
+      "image": "/assets/images/editorial-auto/cisgiordania-raid-notturni-arresti-chiusure-24-ottobre-2026-v975-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di una strada vuota con checkpoint in Cisgiordania all’alba, senza persone o scontri; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/cisgiordania-raid-notturni-arresti-chiusure-24-ottobre-2026-v975-480.webp 480w, /assets/images/editorial-auto/cisgiordania-raid-notturni-arresti-chiusure-24-ottobre-2026-v975-800.webp 800w, /assets/images/editorial-auto/cisgiordania-raid-notturni-arresti-chiusure-24-ottobre-2026-v975-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "15 località",
+          "label": "raid riferiti dai media"
+        },
+        {
+          "icon": "•",
+          "value": "17 fermi",
+          "label": "dettaglio WAFA in due aree"
+        },
+        {
+          "icon": "•",
+          "value": "2 soldati",
+          "label": "morti nell’attacco di Hebron"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Incendio al Kehlsteinhaus, un fermo mentre continuano i soccorsi",
+      "excerpt": "Il rogo è divampato nella storica struttura sopra Berchtesgaden, a 1.834 metri. Nessun ferito segnalato; una persona è stata fermata, ma il legame con l’incendio è da accertare.",
+      "url": "/notizie/incendio-kehlsteinhaus-berchtesgaden-arresto-24-ottobre-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-10-24T07:42:00+02:00",
+      "dateLabel": "2026-10-24",
+      "image": "/assets/images/editorial-auto/incendio-kehlsteinhaus-berchtesgaden-arresto-24-ottobre-2026-v975-800.webp",
+      "imageAlt": "Illustrazione editoriale IA del Kehlsteinhaus dopo un incendio, senza persone ferite o fiamme; non è una fotografia dell’evento.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/incendio-kehlsteinhaus-berchtesgaden-arresto-24-ottobre-2026-v975-480.webp 480w, /assets/images/editorial-auto/incendio-kehlsteinhaus-berchtesgaden-arresto-24-ottobre-2026-v975-800.webp 800w, /assets/images/editorial-auto/incendio-kehlsteinhaus-berchtesgaden-arresto-24-ottobre-2026-v975-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "1.834 metri",
+          "label": "quota dell’edificio"
+        },
+        {
+          "icon": "•",
+          "value": "circa 200",
+          "label": "soccorritori impegnati"
+        },
+        {
+          "icon": "•",
+          "value": "0 feriti",
+          "label": "bilancio provvisorio"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Rubio invita i cubani a collaborare con la Cia, tensione con L’Avana",
+      "excerpt": "Il segretario di Stato ha pubblicato un appello a una collaborazione discreta. Trump ha evocato navi vicino a Cuba; il governo cubano parla di reclutamento disperato.",
+      "url": "/notizie/rubio-cuba-appello-cia-trump-navi-24-ottobre-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-10-24T07:27:00+02:00",
+      "dateLabel": "2026-10-24",
+      "image": "/assets/images/editorial-auto/rubio-cuba-appello-cia-trump-navi-24-ottobre-2026-v975-800.webp",
+      "imageAlt": "Illustrazione editoriale IA con ritratto neutrale di Marco Rubio davanti alle bandiere statunitense e cubana; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/rubio-cuba-appello-cia-trump-navi-24-ottobre-2026-v975-480.webp 480w, /assets/images/editorial-auto/rubio-cuba-appello-cia-trump-navi-24-ottobre-2026-v975-800.webp 800w, /assets/images/editorial-auto/rubio-cuba-appello-cia-trump-navi-24-ottobre-2026-v975-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "23 ottobre",
+          "label": "data delle dichiarazioni"
+        },
+        {
+          "icon": "•",
+          "value": "oltre 60 anni",
+          "label": "durata dell’embargo Usa"
+        },
+        {
+          "icon": "•",
+          "value": "nessun piano",
+          "label": "operativo annunciato"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Argentina, identificati otto desaparecidos della dittatura",
+      "excerpt": "I resti di quattro donne e quattro uomini sono emersi da una fossa comune vicino all’ex centro clandestino La Perla, a Córdoba. Le ricerche forensi proseguono.",
+      "url": "/notizie/argentina-identificati-otto-desaparecidos-la-perla-24-ottobre-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-10-24T07:12:00+02:00",
+      "dateLabel": "2026-10-24",
+      "image": "/assets/images/editorial-auto/argentina-identificati-otto-desaparecidos-la-perla-24-ottobre-2026-v975-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di otto candele in un memoriale argentino, senza resti umani o scene traumatiche; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/argentina-identificati-otto-desaparecidos-la-perla-24-ottobre-2026-v975-480.webp 480w, /assets/images/editorial-auto/argentina-identificati-otto-desaparecidos-la-perla-24-ottobre-2026-v975-800.webp 800w, /assets/images/editorial-auto/argentina-identificati-otto-desaparecidos-la-perla-24-ottobre-2026-v975-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "8 persone",
+          "label": "nuove identificazioni"
+        },
+        {
+          "icon": "•",
+          "value": "38",
+          "label": "identificate nell’area in un anno"
+        },
+        {
+          "icon": "•",
+          "value": "1976-1983",
+          "label": "anni della dittatura"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Gli Stati Uniti inseriscono l’elio tra i materiali critici",
+      "excerpt": "Il Dipartimento dell’Energia considera il gas insostituibile per semiconduttori, diagnostica, ricerca e tecnologie quantistiche. La nuova designazione apre a maggiori controlli e finanziamenti.",
+      "url": "/notizie/stati-uniti-elio-materiale-critico-chip-sanita-24-ottobre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-10-24T06:57:00+02:00",
+      "dateLabel": "2026-10-24",
+      "image": "/assets/images/editorial-auto/stati-uniti-elio-materiale-critico-chip-sanita-24-ottobre-2026-v975-800.webp",
+      "imageAlt": "Illustrazione editoriale IA di tecnici in una camera bianca per semiconduttori con bombole di elio, senza testo; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/stati-uniti-elio-materiale-critico-chip-sanita-24-ottobre-2026-v975-480.webp 480w, /assets/images/editorial-auto/stati-uniti-elio-materiale-critico-chip-sanita-24-ottobre-2026-v975-800.webp 800w, /assets/images/editorial-auto/stati-uniti-elio-materiale-critico-chip-sanita-24-ottobre-2026-v975-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "20° materiale",
+          "label": "nella lista DOE"
+        },
+        {
+          "icon": "•",
+          "value": "81 milioni m³",
+          "label": "produzione Usa 2025"
+        },
+        {
+          "icon": "•",
+          "value": "43%",
+          "label": "quota dell’offerta mondiale"
+        }
+      ],
+      "featuredHighlights": []
+    },
     {
       "title": "Serbia al voto il 25 ottobre: la protesta studentesca entra nelle urne",
       "excerpt": "Il movimento nato dopo il crollo di Novi Sad presenta una lista parlamentare. La data è confermata dalla Commissione elettorale; i sondaggi non anticipano il risultato.",
@@ -2418,18 +2740,19 @@
       "featuredHighlights": []
     },
     {
-      "title": "Quattro italiane fermate in Cisgiordania, Israele annuncia espulsioni",
+      "title": "Cinque attiviste italiane espulse da Israele, rientro atteso oggi",
       "excerpt": "La Farnesina chiede chiarimenti sul fermo ad al-Bweib durante la raccolta delle olive. La polizia israeliana contesta al gruppo l'ingresso in una zona militare chiusa.",
       "url": "/notizie/quattro-attiviste-italiane-cisgiordania-farnesina-22-ottobre-2026.html",
       "section": "Mondo",
       "dateISO": "2026-10-22T21:35:00+02:00",
       "dateLabel": "2026-10-22",
-      "image": "/assets/images/editorial-auto/quattro-attiviste-italiane-cisgiordania-farnesina-22-ottobre-2026-v964-800.webp",
-      "imageAlt": "Palazzo della Farnesina e la sfera di Arnaldo Pomodoro; illustrazione editoriale IA del contesto diplomatico, non del fermo.",
+      "image": "/assets/images/editorial-auto/quattro-attiviste-italiane-cisgiordania-farnesina-22-ottobre-2026-v975-800.webp",
+      "imageAlt": "Illustrazione editoriale IA del Palazzo della Farnesina all’alba, immagine neutrale sul rientro consolare; non è una fotografia documentaria.",
       "imageWidth": 800,
       "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/quattro-attiviste-italiane-cisgiordania-farnesina-22-ottobre-2026-v964-480.webp 480w, /assets/images/editorial-auto/quattro-attiviste-italiane-cisgiordania-farnesina-22-ottobre-2026-v964-800.webp 800w, /assets/images/editorial-auto/quattro-attiviste-italiane-cisgiordania-farnesina-22-ottobre-2026-v964-1200.webp 1200w",
-      "updated": false,
+      "srcset": "/assets/images/editorial-auto/quattro-attiviste-italiane-cisgiordania-farnesina-22-ottobre-2026-v975-480.webp 480w, /assets/images/editorial-auto/quattro-attiviste-italiane-cisgiordania-farnesina-22-ottobre-2026-v975-800.webp 800w, /assets/images/editorial-auto/quattro-attiviste-italiane-cisgiordania-farnesina-22-ottobre-2026-v975-1200.webp 1200w",
+      "updated": true,
+      "updatedAt": "2026-10-24T09:12:00+02:00",
       "featuredStats": [
         {
           "icon": "•",
