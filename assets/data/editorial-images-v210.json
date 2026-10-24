@@ -3,6 +3,397 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "canada-vendite-dettaglio-aumento-12-agosto-2026-v982",
+      "alt": "Illustrazione editoriale IA di un distretto commerciale canadese con auto e beni di consumo; non documenta un luogo specifico.",
+      "prompt": "Distretto commerciale canadese con concessionaria, alimentari e negozi al tramonto; logo CurioMondo applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/canada-vendite-dettaglio-aumento-12-agosto-2026-v982-480.webp",
+          "sha256": "ee43e935f1d4abf70fad612fe1924238fccbe8f7c036f9fe0182a21b51bc8bb3",
+          "bytes": 48824
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/canada-vendite-dettaglio-aumento-12-agosto-2026-v982-800.webp",
+          "sha256": "2f22b44b4eb2d060a08ea77d9c5639fffc6aad36988f06c1e1c8e75f2d32faa0",
+          "bytes": 113910
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/canada-vendite-dettaglio-aumento-12-agosto-2026-v982-1200.webp",
+          "sha256": "7ab8404fec5104b03fe90039aeae7b47817a3c1b1e580a6e42ff12535a984667",
+          "bytes": 213324
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/canada-vendite-dettaglio-aumento-12-agosto-2026.html"
+    },
+    {
+      "key": "banca-canada-sondaggio-reuters-rialzo-tassi-28-ottobre-2026-v982",
+      "alt": "Illustrazione editoriale IA della sede della Banca del Canada con una moneta canadese; scena non documentaria.",
+      "prompt": "Sede della Bank of Canada a Ottawa al tramonto con moneta canadese e grafico astratto; logo CurioMondo applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/banca-canada-sondaggio-reuters-rialzo-tassi-28-ottobre-2026-v982-480.webp",
+          "sha256": "5f53e2c8dd9bc758b1197ae91236c7cb94456eeb98ce1588124ffed618d0978e",
+          "bytes": 40340
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/banca-canada-sondaggio-reuters-rialzo-tassi-28-ottobre-2026-v982-800.webp",
+          "sha256": "83714dfa3e41173aac64121f606a5bfc5718a3f4341456859c8c27e36f0f80c1",
+          "bytes": 93080
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/banca-canada-sondaggio-reuters-rialzo-tassi-28-ottobre-2026-v982-1200.webp",
+          "sha256": "79a7b99674327bf5049d268574e498b3830c0a6651eed951fafb8c7d52fe3c66",
+          "bytes": 174086
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/banca-canada-sondaggio-reuters-rialzo-tassi-28-ottobre-2026.html"
+    },
+    {
+      "key": "brasile-inflazione-ipca15-032-ottobre-2026-v982",
+      "alt": "Illustrazione editoriale IA di un supermercato brasiliano e di un paniere alimentare; non documenta un punto vendita specifico.",
+      "prompt": "Supermercato brasiliano con prodotti freschi e panorama urbano, immagine sull'inflazione; logo CurioMondo applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/brasile-inflazione-ipca15-032-ottobre-2026-v982-480.webp",
+          "sha256": "efc8c60a10e6028a2741d8dd9d421fcca22d20be09848d719de7a84190306bc6",
+          "bytes": 51538
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/brasile-inflazione-ipca15-032-ottobre-2026-v982-800.webp",
+          "sha256": "c59af5325258e003cce89e606e7bb22ef4c1ac6667a4513207f3322f2e80a0f5",
+          "bytes": 107754
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/brasile-inflazione-ipca15-032-ottobre-2026-v982-1200.webp",
+          "sha256": "027d7bc18d3295cc495a457c5ac1357c899f096228ed49aae90fda95fff60824",
+          "bytes": 182884
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/brasile-inflazione-ipca15-032-ottobre-2026.html"
+    },
+    {
+      "key": "argentina-taca-taca-rame-investimento-525-miliardi-2026-v982",
+      "alt": "Illustrazione editoriale IA del sito minerario andino di Taca Taca in Argentina; non documenta lavori già avviati.",
+      "prompt": "Sito di esplorazione mineraria per il rame sulle Ande di Salta al tramonto; logo CurioMondo applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/argentina-taca-taca-rame-investimento-525-miliardi-2026-v982-480.webp",
+          "sha256": "6220e3ac7bea85d555318a512964fcba1d3eef6a794357ca6c1633b0ac053064",
+          "bytes": 51288
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/argentina-taca-taca-rame-investimento-525-miliardi-2026-v982-800.webp",
+          "sha256": "6a169c6279108a105f5a53eb1edc6fb91c35ed063901fc347b672f823716c4ea",
+          "bytes": 129592
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/argentina-taca-taca-rame-investimento-525-miliardi-2026-v982-1200.webp",
+          "sha256": "3b4810fc14d0fc25eb26fd68307c66b2a0722a60310677c8b015053066ef17e1",
+          "bytes": 252938
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/argentina-taca-taca-rame-investimento-525-miliardi-2026.html"
+    },
+    {
+      "key": "argentina-giudice-archivia-indagine-milei-libra-24-ottobre-2026-v982",
+      "alt": "Ritratto sintetico editoriale IA di Javier Milei con un token digitale sfocato; non è una fotografia del procedimento.",
+      "prompt": "Ritratto neutrale e isolato di Javier Milei, volto visibile, con motivo di token digitale sfocato; logo CurioMondo applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/argentina-giudice-archivia-indagine-milei-libra-24-ottobre-2026-v982-480.webp",
+          "sha256": "d7b6bb2d3c50b152368b7a1c084f3250ce56360fa8cb5ab42f2fefdb7eb6da9d",
+          "bytes": 19672
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/argentina-giudice-archivia-indagine-milei-libra-24-ottobre-2026-v982-800.webp",
+          "sha256": "98d64d02767ff1aa6e44a19ce0f8e333a7fbdd0f255c7eb5a3da3dd90697efe4",
+          "bytes": 44248
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/argentina-giudice-archivia-indagine-milei-libra-24-ottobre-2026-v982-1200.webp",
+          "sha256": "aecdadf38da0c07c816b045bf5696b48c688b881b677523776fa5fbbdcc833b6",
+          "bytes": 87634
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "syntheticLikeness": "Javier Milei",
+      "article": "/notizie/argentina-giudice-archivia-indagine-milei-libra-24-ottobre-2026.html"
+    },
+    {
+      "key": "iphone-duo-apple-pieghevole-vendite-scorte-italia-2026-v982",
+      "alt": "Illustrazione editoriale IA di un telefono pieghevole esposto in un Apple Store; non documenta un negozio o un modello reale.",
+      "prompt": "Smartphone pieghevole su tavolo espositivo in ambiente Apple Store, nessuna interfaccia leggibile; logo CurioMondo applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/iphone-duo-apple-pieghevole-vendite-scorte-italia-2026-v982-480.webp",
+          "sha256": "f097f54d91d48cae5eb7779c39079644924d4733ef5cbf0b8b4754d2e5b25c86",
+          "bytes": 21176
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/iphone-duo-apple-pieghevole-vendite-scorte-italia-2026-v982-800.webp",
+          "sha256": "3d64eb4b1d4e9e0266541e9e8d3a27686b08991014a8a419f5d6efc2339aa06d",
+          "bytes": 40192
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/iphone-duo-apple-pieghevole-vendite-scorte-italia-2026-v982-1200.webp",
+          "sha256": "056a5476c491a77996126e2efbfab9b106e4fd2a9fbafee9d9cb06d63d8c98e2",
+          "bytes": 66080
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/iphone-duo-apple-pieghevole-vendite-scorte-italia-2026.html"
+    },
+    {
+      "key": "amazon-aws-capacita-cloud-venduta-2027-jassy-2026-v982",
+      "alt": "Illustrazione editoriale IA di un corridoio di server AWS completamente illuminato; scena non documentaria.",
+      "prompt": "Data center AWS ad alta densità con rack illuminati, immagine sulla capacità cloud; logo CurioMondo applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/amazon-aws-capacita-cloud-venduta-2027-jassy-2026-v982-480.webp",
+          "sha256": "166b96142aebc7b70f80698d5726b9bdf469703b377407a33e6cf3510a7bbc4b",
+          "bytes": 49900
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/amazon-aws-capacita-cloud-venduta-2027-jassy-2026-v982-800.webp",
+          "sha256": "f4f8aef2e1f6b8ff07270b368a4dccb6b5775cc36f4579fc9b4e3c47523c6ccb",
+          "bytes": 123198
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/amazon-aws-capacita-cloud-venduta-2027-jassy-2026-v982-1200.webp",
+          "sha256": "762b81d2d652778846012c1827b8aca691d2d4fe87d8c67fc702559f32bf8bd2",
+          "bytes": 245474
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/amazon-aws-capacita-cloud-venduta-2027-jassy-2026.html"
+    },
+    {
+      "key": "php2shell-vulnerabilita-critiche-attacchi-aggiornamento-2026-v982",
+      "alt": "Illustrazione editoriale IA di traffico ostile fermato davanti a server PHP; non mostra un attacco reale.",
+      "prompt": "Centro operativo di sicurezza con traffico ostile bloccato davanti a server PHP, nessun codice leggibile; logo CurioMondo applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/php2shell-vulnerabilita-critiche-attacchi-aggiornamento-2026-v982-480.webp",
+          "sha256": "331719e81f8db4c9ac84bbdd6d2c8c0edb8b67d337e34de31ca728c95bb58210",
+          "bytes": 45194
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/php2shell-vulnerabilita-critiche-attacchi-aggiornamento-2026-v982-800.webp",
+          "sha256": "c0207dcaf73ac4de6a4ed1ac1892a4c2e1a810c17b392a0c72325f937fa02157",
+          "bytes": 105464
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/php2shell-vulnerabilita-critiche-attacchi-aggiornamento-2026-v982-1200.webp",
+          "sha256": "eba116486595cf5fce7096928d2b17ee3694e2d1c4e73978294966aad0b7b369",
+          "bytes": 202198
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": true,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/php2shell-vulnerabilita-critiche-attacchi-aggiornamento-2026.html"
+    },
+    {
+      "key": "azioni-tokenizzate-okx-ice-obiezioni-wells-fargo-arm-intuit-2026-v982",
+      "alt": "Illustrazione editoriale IA di un certificato azionario trasformato in token digitali davanti a pannelli societari; scena non documentaria.",
+      "prompt": "Certificato azionario e token digitali su un desk regolamentato con loghi societari; logo CurioMondo applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/azioni-tokenizzate-okx-ice-obiezioni-wells-fargo-arm-intuit-2026-v982-480.webp",
+          "sha256": "abaacb2a649ee0fb1b57b0c9063e5b9e2a84c52b807513b07fc76280a494091f",
+          "bytes": 42702
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/azioni-tokenizzate-okx-ice-obiezioni-wells-fargo-arm-intuit-2026-v982-800.webp",
+          "sha256": "0523688bc0bd5e67eaecf60aba98a6102315f083c5ceac2f57b8fe7d40c97693",
+          "bytes": 92914
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/azioni-tokenizzate-okx-ice-obiezioni-wells-fargo-arm-intuit-2026-v982-1200.webp",
+          "sha256": "f3b7f421c0da32be6efcc4ec8fe91a61bd6371ae7570371ea4b132cde6963325",
+          "bytes": 162456
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/azioni-tokenizzate-okx-ice-obiezioni-wells-fargo-arm-intuit-2026.html"
+    },
+    {
+      "key": "wall-street-settimana-fed-trimestrali-big-tech-ottobre-2026-v982",
+      "alt": "Illustrazione editoriale IA della Borsa di New York al tramonto con grafici astratti; scena non documentaria.",
+      "prompt": "New York Stock Exchange al tramonto con grafici astratti e riflesso della Federal Reserve; logo CurioMondo applicato in post-produzione.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/wall-street-settimana-fed-trimestrali-big-tech-ottobre-2026-v982-480.webp",
+          "sha256": "aea1be69139d7789266bb132ba61ccd9000769a29adac91194ce9f3e65acfc03",
+          "bytes": 53374
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/wall-street-settimana-fed-trimestrali-big-tech-ottobre-2026-v982-800.webp",
+          "sha256": "60f893491cc648a27b6e89f4476035dcd385b1232a176fb10ad7648707b8268b",
+          "bytes": 134220
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/wall-street-settimana-fed-trimestrali-big-tech-ottobre-2026-v982-1200.webp",
+          "sha256": "5f490e0d77397e4c0bd0162c66a8120188e7ef845cbc776b17e6d7f7eaef438b",
+          "bytes": 263474
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "reenactedEvent": false,
+      "logoApplied": true,
+      "logoShape": "circle",
+      "article": "/notizie/wall-street-settimana-fed-trimestrali-big-tech-ottobre-2026.html"
+    },
+    {
       "key": "arezzo-furti-aziende-orafe-tre-custodie-cautelari-24-ottobre-2026-v981",
       "article": "/notizie/arezzo-furti-aziende-orafe-tre-custodie-cautelari-24-ottobre-2026.html",
       "alt": "Illustrazione IA di tecnici che documentano danni all'ingresso di un laboratorio orafo; non documenta i fatti reali.",
