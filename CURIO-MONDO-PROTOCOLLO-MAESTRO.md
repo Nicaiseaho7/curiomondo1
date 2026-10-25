@@ -54,6 +54,11 @@ Un eBook della Domanda del giorno non è più un mini-libro da 15.000–30.000 c
 - Voce naturale, italiana, chiara. Niente tono da manuale, niente motivazione vuota, niente ripetizione della stessa idea con altre parole.
 - **Indicizzazione obbligatoria:** `index,follow`, canonical autoreferenziale, presenza in `sitemap.xml` e nell’indice di ricerca interno. È vietato `noindex` su questi eBook, presenti e futuri.
 
+## Incipit e sottotitolo di copertina — permanente, 25 ottobre 2026
+
+L’inizio del testo di un eBook non deve essere simile al sottotitolo stampato in copertina. Il sottotitolo presenta il libro. Il primo paragrafo entra da un’altra porta: una scena, un caso, un fatto. Vietato riprendere le stesse parole, la stessa immagine o la stessa tesi con una parafrasi. Vale per ogni eBook nuovo. Quelli già online restano com’ sono.
+
+
 
 
 
