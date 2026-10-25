@@ -1,7 +1,115 @@
 {
-  "version": 962,
+  "version": 986,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "mutuo-100-requisiti-garanzie-costi-v986",
+      "article": "/approfondimenti/mutuo-100-requisiti-garanzie-costi.html",
+      "alt": "Giovane coppia e consulente davanti alla prima casa; illustrazione editoriale IA non documentaria.",
+      "prompt": "Fotografia editoriale fotorealistica 3:2: giovane coppia italiana e consulente discutono il mutuo davanti alla prima casa; nessun testo, logo o watermark.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/mutuo-100-requisiti-garanzie-costi-v986-480.webp",
+          "sha256": "774534cbc3a2e5cafe5fb5ed3ed2077cad609a7a012cf319648f69129a9a8daf",
+          "bytes": 23196
+        },
+        {
+          "w": 800,
+          "h": 534,
+          "src": "/assets/images/editorial-auto/mutuo-100-requisiti-garanzie-costi-v986-800.webp",
+          "sha256": "a2bea0802e544e46eeb91c3db2476851ebca7413f8c49bc3c56383dd6ef2e516",
+          "bytes": 47626
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/mutuo-100-requisiti-garanzie-costi-v986-1200.webp",
+          "sha256": "a70ddf681e252c4c664358832b9bcb4e91c48c43e4bcadf8b0d390c50591be31",
+          "bytes": 84782
+        }
+      ]
+    },
+    {
+      "key": "rinegoziazione-mutuo-come-funziona-v986",
+      "article": "/approfondimenti/rinegoziazione-mutuo-come-funziona.html",
+      "alt": "Proprietaria e consulente valutano sul laptop la rinegoziazione del mutuo; illustrazione editoriale IA non documentaria.",
+      "prompt": "Fotografia editoriale fotorealistica 3:2: proprietaria e consulente valutano sul laptop la rinegoziazione di un mutuo in un ufficio moderno; due persone, nessuna mano visibile, nessun testo, logo o watermark.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/rinegoziazione-mutuo-come-funziona-v986-480.webp",
+          "sha256": "ad2faa1b8d890eba2555e8fe36c257c74293019215ecc0d3396992624549bb39",
+          "bytes": 12796
+        },
+        {
+          "w": 800,
+          "h": 534,
+          "src": "/assets/images/editorial-auto/rinegoziazione-mutuo-come-funziona-v986-800.webp",
+          "sha256": "58f2d96954222d53657fa0175e7745fb2da756bbdf125baacd0446c580794c0c",
+          "bytes": 26602
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/rinegoziazione-mutuo-come-funziona-v986-1200.webp",
+          "sha256": "60def1c0b088358be047b2d5a4f8a601fd710d6520d4da6461d16a2e638be23e",
+          "bytes": 48824
+        }
+      ]
+    },
+    {
+      "key": "surroga-mutuo-quando-conviene-cambiare-banca-v986",
+      "article": "/approfondimenti/surroga-mutuo-quando-conviene-cambiare-banca.html",
+      "alt": "Cliente e consulente confrontano un’offerta di surroga su tablet; illustrazione editoriale IA non documentaria.",
+      "prompt": "Fotografia editoriale fotorealistica 3:2: cliente e consulente bancario confrontano un’offerta di surroga su tablet in un ufficio italiano; due persone, anatomia realistica, nessun testo, logo o watermark.",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/surroga-mutuo-quando-conviene-cambiare-banca-v986-480.webp",
+          "sha256": "c48e2e16f8eb83be9a38b47ea13834516ff97101f28017edb5acaaffb334e689",
+          "bytes": 15620
+        },
+        {
+          "w": 800,
+          "h": 534,
+          "src": "/assets/images/editorial-auto/surroga-mutuo-quando-conviene-cambiare-banca-v986-800.webp",
+          "sha256": "d6cbd49c9a75baa6fdbbd7cf3f1e9d2590383b59b90b70742c0c3fa4bb0e6ef1",
+          "bytes": 30816
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/surroga-mutuo-quando-conviene-cambiare-banca-v986-1200.webp",
+          "sha256": "b6d1ced89b2b8b53b08cbdf8a0c8cc63fc526d10a891f3c2a7f3720b9983a0ed",
+          "bytes": 54608
+        }
+      ]
+    },
     {
       "key": "protezione-civile-legge-personale-responsabilita-25-ottobre-2026-v984",
       "alt": "Operatori della protezione civile italiana coordinano piani in una sala operativa; illustrazione editoriale IA.",
