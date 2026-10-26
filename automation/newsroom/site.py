@@ -9,6 +9,7 @@ from __future__ import annotations
 from datetime import datetime, timedelta
 from email.utils import format_datetime, parsedate_to_datetime
 from html import escape, unescape
+import importlib.util
 import json
 import re
 import subprocess
@@ -30,6 +31,13 @@ NEWS_NS = "http://www.google.com/schemas/sitemap-news/0.9"
 ATOM_NS = "http://www.w3.org/2005/Atom"
 WEBSUB_HUB = "https://pubsubhubbub.appspot.com/"
 FEED_URL = "https://curiomondo.it/feed.xml"
+
+
+def _sitemap_tools():
+    spec = importlib.util.spec_from_file_location("cm_sitemap_urls", ROOT / "tools" / "sitemap_urls.py")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
 
 def _version() -> int:
@@ -592,6 +600,11 @@ def sync_surfaces(
     news_tree.write(ROOT / "news-sitemap.xml", encoding="utf-8", xml_declaration=True)
 
     sitemap = ET.parse(ROOT / "sitemap.xml"); sm_root = sitemap.getroot()
+    sitemap_tools = _sitemap_tools()
+    sitemap_tools.flatten(sm_root)
+    nesting = sitemap_tools.tree_errors(sm_root, "sitemap.xml")
+    if nesting:
+        raise RuntimeError("sitemap non valida dopo la correzione: " + "; ".join(nesting))
     for node in list(sm_root):
         loc = node.find(f"{{{SM_NS}}}loc")
         if loc is not None and (loc.text or "").startswith("https://curiomondo.it/notizie/"):

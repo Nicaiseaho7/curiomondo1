@@ -2,6 +2,7 @@
 """Fail closed when deploy inputs are truncated, mis-encoded or malformed."""
 from __future__ import annotations
 
+import importlib.util
 import json
 import argparse
 import sys
@@ -69,6 +70,14 @@ def main() -> int:
         data = path.read_bytes()
         if not validator(data):
             errors.append(f"immagine corrotta o formato errato: {path.relative_to(ROOT).as_posix()}")
+
+    spec = importlib.util.spec_from_file_location("cm_sitemap_urls", ROOT / "tools" / "sitemap_urls.py")
+    sitemap_urls = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(sitemap_urls)
+    for name in ("sitemap.xml", "news-sitemap.xml"):
+        path = ROOT / name
+        if path.exists():
+            errors.extend(sitemap_urls.structure_errors(path))
 
     result = {
         "repository_integrity": "pass" if not errors else "fail",
