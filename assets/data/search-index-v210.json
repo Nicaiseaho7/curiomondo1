@@ -1,6 +1,72 @@
 {
-  "version": 993,
+  "version": 994,
   "items": [
+    {
+      "title": "Microsoft offre l’uscita a 60 mila dipendenti mentre spende 175 miliardi nell’IA",
+      "excerpt": "Il programma volontario coinvolge oltre un quarto dell’organico in quattro Paesi. La società cerca margini mentre accelera la spesa per data center e capacità di calcolo.",
+      "url": "/notizie/microsoft-uscita-volontaria-60mila-dipendenti-investimenti-ia-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Anthropic apre l’IPO: ricavi a 16,29 miliardi e controlli IA nel prospetto",
+      "excerpt": "Il documento depositato alla SEC mostra una crescita rapidissima e perdite operative in calo. Rivela anche una pausa di oltre un mese nell’addestramento e quattro accessi esterni durante test di sicurezza.",
+      "url": "/notizie/anthropic-ipo-ricavi-perdite-sicurezza-modelli-ia-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "SpaceX, leasing da 40 miliardi per i chip che alimenteranno Grok",
+      "excerpt": "Un’entità gestita da Apollo acquisterà GPU Nvidia e server da concedere a SpaceX per circa cinque anni. Le prime tranche sono previste nel primo semestre 2027.",
+      "url": "/notizie/spacex-leasing-40-miliardi-chip-nvidia-apollo-grok-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Verizon: trimestre record e accordo AWS da oltre 2 miliardi",
+      "excerpt": "Il gruppo registra il miglior terzo trimestre degli ultimi cinque anni per le nuove linee telefoniche e firma un’intesa pluriennale sull’infrastruttura IA distribuita.",
+      "url": "/notizie/verizon-trimestre-record-accordo-aws-2-miliardi-ia-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Cadence porta l’IA nei chip: i modelli potranno restare in azienda",
+      "excerpt": "La suite Maestro combina modelli specializzati, strumenti di progettazione e apprendimento per rinforzo. Le aziende possono eseguirla nel cloud o dietro i propri firewall.",
+      "url": "/notizie/cadence-maestro-modelli-ia-chip-on-premise-nvidia-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Wall Street sale prima della Fed: l’IPO Anthropic riaccende l’IA",
+      "excerpt": "S&P 500 e Nasdaq chiudono in rialzo mentre gli investitori aspettano la decisione sui tassi e i conti di Alphabet, Microsoft e Amazon. L’entusiasmo convive con dubbi sul debito dell’IA.",
+      "url": "/notizie/wall-street-sale-fed-anthropic-ipo-titoli-ia-26-ottobre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Coinbase convertirà USDT e altre 13 stablecoin in Europa il 30 ottobre",
+      "excerpt": "I clienti retail dello Spazio economico europeo possono ritirare gli asset interessati fino alla scadenza. I saldi residui saranno convertiti in USDC o in un’altra attività supportata.",
+      "url": "/notizie/coinbase-conversione-usdt-stablecoin-europa-mica-30-ottobre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "USA e Canada trattano sui dazi ad auto e acciaio, ma i tempi dividono",
+      "excerpt": "Sei fonti descrivono un negoziato per alleggerire i dazi della Section 232. Una parte canadese vede un possibile accordo prima delle elezioni USA, altre fonti lo ritengono prematuro.",
+      "url": "/notizie/usa-canada-negoziato-dazi-auto-acciaio-26-ottobre-2026.html",
+      "section": "Mondo / Politica"
+    },
+    {
+      "title": "Brasile, crollano Borsa e real dopo la rielezione di Lula",
+      "excerpt": "Il Bovespa perde oltre il 15% nel momento peggiore e scatta il circuit breaker. La valuta supera 5,6 per dollaro mentre il mercato chiede segnali sul ministro delle Finanze e sui conti pubblici.",
+      "url": "/notizie/brasile-borsa-real-crollo-rielezione-lula-26-ottobre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Argentina, piattaforme e Fisco incrociano i dati contro il contrabbando",
+      "excerpt": "Il governo firma un accordo con camere di commercio, Mercado Libre, Meta e grandi rivenditori. I venditori delle categorie sensibili saranno confrontati con i registri di ARCA.",
+      "url": "/notizie/argentina-piattaforme-fisco-dati-contrabbando-commerce-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Rubio ospita il G20 ad Atlanta il 30 e 31 ottobre",
+      "excerpt": "Il segretario di Stato americano riunirà i ministri degli Esteri nella fase finale della presidenza USA. Washington vuole riportare il formato su crescita e sicurezza economica.",
+      "url": "/notizie/rubio-g20-ministri-esteri-atlanta-30-31-ottobre-2026.html",
+      "section": "Mondo / Politica"
+    },
     {
       "title": "Tajani annuncia un nuovo pacchetto per Kiev: la maggioranza deve ora chiarire la linea",
       "excerpt": "Il ministro degli Esteri conferma che l’Italia continuerà a sostenere l’Ucraina e risponde alla richiesta della Lega di fermare armi e finanziamenti. Contenuti e tempi del pacchetto non sono ancora pubblici.",
@@ -11666,10 +11732,10 @@
       "section": "Ultima ora · Commercio globale / Clima"
     },
     {
-      "title": "La corsa all’IA entra nell’era del maxi-debito: Broadcom tratta un finanziamento che può arrivare a 100 miliardi",
+      "title": "Anthropic, 63 miliardi di debito finanzieranno i chip Broadcom",
       "excerpt": "Broadcom è in trattativa con un gruppo di finanziatori per una nuova operazione legata ai chip per l’intelligenza artificiale: la struttura potrebbe superare i 60 miliardi di dollari e, includendo più tranche, arrivare fino a circa 100 miliardi.",
       "url": "/notizie/broadcom-finanziamento-ai-debito-anthropic-20-agosto-2026.html",
-      "section": "Tecnologia · IA / Finanza / Infrastrutture"
+      "section": "Mondo / Economia"
     },
     {
       "title": "Perché i torrenti liguri possono salire così in fretta e come funziona l’allarme del Rupinaro?",
