@@ -58,6 +58,12 @@ Un eBook della Domanda del giorno non è più un mini-libro da 15.000–30.000 c
 
 L’inizio del testo di un eBook non deve essere simile al sottotitolo stampato in copertina. Il sottotitolo presenta il libro. Il primo paragrafo entra da un’altra porta: una scena, un caso, un fatto. Vietato riprendere le stesse parole, la stessa immagine o la stessa tesi con una parafrasi. Vale per ogni eBook nuovo. Quelli già online restano com’ sono.
 
+## Data al posto di «oggi» — permanente, 26 ottobre 2026
+
+Nella maggior parte delle notizie non si scrive «oggi». Si scrive la data: «26 ottobre» o «domenica 26 ottobre». Se conta l’ora, la data resta accanto: «26 ottobre alle 18», non «oggi alle 18». Lo stesso vale per «stamattina», «stasera» e «domani» quando stanno da soli.
+
+«Oggi» resta solo se la data completa è già nella stessa frase e toglierlo la rende meno chiara. Gli articoli già online non si riscrivono per questa regola.
+
 
 
 
