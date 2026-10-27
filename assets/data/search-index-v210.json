@@ -1,6 +1,48 @@
 {
-  "version": 999,
+  "version": 1000,
   "items": [
+    {
+      "title": "Ilaria Sula, Mark Antony Samson condannato all’ergastolo",
+      "excerpt": "La Terza Corte d'Assise di Roma ha emesso la sentenza di primo grado per l'omicidio della studentessa. Riconosciute le contestazioni al centro del processo.",
+      "url": "/notizie/ilaria-sula-samson-condannato-ergastolo.html",
+      "section": "Roma / Cronaca"
+    },
+    {
+      "title": "Attacco hacker alla Camera, nel mirino tre caselle email",
+      "excerpt": "Coinvolti gli account parlamentari di Meloni, Delmastro e Formentini. Montecitorio esclude un'emergenza; la Procura di Roma attende l'informativa della Polizia postale.",
+      "url": "/notizie/attacco-hacker-camera-mail-meloni-indagine.html",
+      "section": "Roma / Tecnologia"
+    },
+    {
+      "title": "Usa, giudice blocca il termine di dieci giorni per i rifugiati",
+      "excerpt": "La giudice federale Julia Kobick sospende fino al 6 novembre la regola che riduce da 30 a 10 giorni il tempo per contestare la revoca dello status.",
+      "url": "/notizie/usa-giudice-blocca-regola-ricorsi-rifugiati.html",
+      "section": "Boston / Mondo"
+    },
+    {
+      "title": "Roma, tre incappucciati devastano la mostra di Laika",
+      "excerpt": "Il gallerista della Rosso20sette è stato minacciato e immobilizzato. Danneggiate le circa venti opere di The Collapse of Democracy; indagano le forze dell'ordine.",
+      "url": "/notizie/roma-attacco-mostra-laika-rosso20sette.html",
+      "section": "Roma / Cultura"
+    },
+    {
+      "title": "Francia, un Atlantique 2 in Romania dopo gli attacchi alle navi",
+      "excerpt": "Il pattugliatore marittimo opererà dal 18 ottobre al 6 novembre sul Mar Nero per monitorare la navigazione e contribuire alla protezione delle infrastrutture energetiche.",
+      "url": "/notizie/francia-atlantique-2-romania-mar-nero.html",
+      "section": "Costanza / Mondo"
+    },
+    {
+      "title": "Fec, attacchi hacker mandano offline il sistema dei rendiconti",
+      "excerpt": "Il portale di deposito elettronico della Commissione elettorale Usa è fuori servizio a una settimana dal voto. Restano consultabili i rapporti già pubblicati.",
+      "url": "/notizie/fec-attacchi-hacker-sistema-filing-offline.html",
+      "section": "Washington / Tecnologia"
+    },
+    {
+      "title": "Costa Rica, i primi 123 detenuti entrano nel carcere Cacco",
+      "excerpt": "Avviati i trasferimenti nel nuovo centro ad alta sicurezza da 5.100 posti, costruito con assistenza salvadoregna. Il governo lo destina alla criminalità organizzata.",
+      "url": "/notizie/costa-rica-primi-detenuti-megacarcere-cacco.html",
+      "section": "San José / Mondo"
+    },
     {
       "title": "Omah Lay annulla Milano: trenta giorni per chiedere il rimborso",
       "excerpt": "Lo show del 10 novembre al Fabrique salta insieme al resto del tour per un infortunio dell’artista. La richiesta va presentata al circuito d’acquisto.",
@@ -356,10 +398,10 @@
       "section": "Italia / Politica"
     },
     {
-      "title": "Serie A infrasettimanale: dieci partite in tre giorni, orari e dirette TV della nona giornata",
+      "title": "Serie A, la Lazio travolge il Sassuolo 6-2",
       "excerpt": "Si parte martedì con Sassuolo-Lazio, Torino-Como e Roma-Cagliari. Mercoledì cinque gare e giovedì le ultime due: tre incontri anche su Sky e NOW.",
       "url": "/notizie/serie-a-turno-infrasettimanale-27-29-ottobre-2026-orari-tv.html",
-      "section": "Italia / Sport"
+      "section": "Reggio Emilia / Sport"
     },
     {
       "title": "Italia-Francia, oltre 40 mila biglietti per San Siro: orario, vendita e convocazioni",
@@ -2528,10 +2570,10 @@
       "section": "Mondo"
     },
     {
-      "title": "Israele al voto il 27 ottobre: i seggi aprono alle 7, risultati il 4 novembre",
+      "title": "Israele, affluenza record e primi exit poll in stallo",
       "excerpt": "A una settimana dalle elezioni, i sondaggi indicano un rafforzamento di Potere Ebraico. Un terzo dei suoi sostenitori sarebbe al primo voto; nessun blocco ha la maggioranza.",
       "url": "/notizie/israele-elezioni-ben-gvir-giovani-20-ottobre-2026.html",
-      "section": "Mondo"
+      "section": "Gerusalemme / Mondo"
     },
     {
       "title": "USA e Cuba si scontrano all'ONU prima del voto sull'embargo",
@@ -3536,10 +3578,10 @@
       "section": "Mondo"
     },
     {
-      "title": "Brasile, Datafolha fotografa il ballottaggio in parità: Lula e Bolsonaro al 50%",
+      "title": "Flavio Bolsonaro ha lasciato il Brasile per gli Stati Uniti",
       "excerpt": "A una settimana dal ballottaggio del 25 ottobre, i candidati hanno privilegiato accuse personali e corruzione. Un secondo confronto è previsto venerdì.",
       "url": "/notizie/brasile-primo-dibattito-lula-flavio-bolsonaro-ballottaggio-19-ottobre-2026.html",
-      "section": "Italia / Politica"
+      "section": "San Paolo / Mondo"
     },
     {
       "title": "Il Consiglio del Golfo condanna gli Houthi e richiama la difesa collettiva",
@@ -7634,10 +7676,10 @@
       "section": "Mondo / Politica"
     },
     {
-      "title": "Intesa alza di 25 centesimi il cash su Mps e lega l’Opas all’assemblea",
+      "title": "Intesa-Mps, la Bce autorizza il passaggio del controllo",
       "excerpt": "Il cda scrive che l’Opas diventa inefficace se Mps approva le operazioni su Banco Bpm e Banca Generali. In più, 25 centesimi per azione nella componente in denaro.",
       "url": "/notizie/intesa-rilancia-mps-25-centesimi-opas-3-ottobre-2026.html",
-      "section": "Economia"
+      "section": "Milano / Economia"
     },
     {
       "title": "Saturno in opposizione il 4 ottobre: visibile tutta la notte",
