@@ -22,12 +22,6 @@ La velocità conta, ma non sostituisce verifica, utilità e chiarezza. La lunghe
 
 Non scade. Vale per ogni notizia nuova e per ogni aggiornamento, prima del push.
 
-## 1-ter. Numeri — 28 ottobre 2026
-
-Non scade. Vale per ogni notizia nuova, per ogni aggiornamento e per il testo già online.
-
-Il punto non separa le migliaia: spezza la cifra e la fa leggere storta. Si scrive `64 256 232`, con uno spazio unificatore, non `64.256.232`. I decimali restano con la virgola: `4,43 milioni`, `10 632,94 euro`. Le percentuali usano il simbolo attaccato: `51,79%`, non «51,79 per cento». Le date restano in lettere, `28 ottobre 2026`. Non si cambia un numero per renderlo più tondo.
-
 Nel corpo non si spiega come funziona il sito. Vietato scrivere, in qualunque variante, «questa pagina», «senza creare una nuova URL», «URL originale», «CurioMondo aggiornerà», «questa pagina sarà corretta», «i prossimi elementi sostanziali», «voci circolate online saranno escluse», «questo articolo integra gli sviluppi». L’articolo racconta solo i fatti. L’unico segnale di un aggiornamento è il badge rosso «aggiornamento» sulla card. Se una di queste frasi è nel testo, si elimina e l’articolo si pubblica. Non si ferma la notizia.
 
 ## 2. Prevalenza e compatibilità
