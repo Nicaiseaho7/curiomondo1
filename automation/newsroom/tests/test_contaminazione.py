@@ -91,11 +91,31 @@ def test_html_pubblico_ignora_il_codice_e_legge_il_titolo():
     assert controlla_html(sporca)["stato"] == BLOCK
 
 
-def test_il_gate_dell_articolo_rifiuta_la_bozza_sporca():
+def test_la_frase_vietata_si_toglie_e_il_resto_passa():
+    from automation.newsroom.contaminazione import pulisci_testo, sistema
+
+    testo = (
+        "La Lazio ha vinto 6-2 al Mapei Stadium. "
+        "Mantenere invariato lo slug e pubblicare il risultato nello stesso pezzo."
+    )
+    pulito = pulisci_testo(testo)
+    assert pulito == "La Lazio ha vinto 6-2 al Mapei Stadium."
+    assert controlla_testo(pulito)["stato"] == PASS
+    pagina = f'<html><title>Lazio | CurioMondo</title><article class="art-body"><p>{testo}</p></article></html>'
+    sistemata, esito = sistema(pagina, slug="lazio-sassuolo")
+    assert esito["stato"] == PASS
+    assert "slug" not in sistemata.lower()
+    assert "6-2" in sistemata
+
+
+def test_il_gate_dell_articolo_toglie_la_frase_e_non_blocca():
     sporco = articolo_valido()
     sporco["paragrafi"] = list(sporco["paragrafi"])
-    sporco["paragrafi"][0] = "L'agente deve verificare le fonti prima di pubblicare questa pagina."
-    assert any("contaminazione" in problema for problema in editor.controlla_articolo(sporco))
+    sporco["paragrafi"][0] = sporco["paragrafi"][0] + ". L'agente deve verificare le fonti prima di pubblicare."
+    problemi = editor.controlla_articolo(sporco)
+    assert not any("contaminazione" in problema for problema in problemi)
+    assert "agente deve" not in sporco["paragrafi"][0].lower()
+    assert "parola" in sporco["paragrafi"][0]
 
 
 def test_dizionario_articolo_pulito():

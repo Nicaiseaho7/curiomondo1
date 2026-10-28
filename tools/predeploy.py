@@ -729,14 +729,19 @@ except Exception as exc:
 # Titolo in pagina: un solo colore. Il blu resta soltanto sulla card in homepage.
 import sys
 sys.path.insert(0, str(root))
-from automation.newsroom.contaminazione import controlla_html
+from automation.newsroom.contaminazione import sistema
 for news_file in sorted((root/'notizie').glob('*.html')):
     if news_file.name=='index.html': continue
-    esito=controlla_html(news_file.read_text(encoding='utf-8', errors='replace'), slug=news_file.stem)
+    raw=news_file.read_text(encoding='utf-8', errors='replace')
+    try:
+        pulita, esito=sistema(raw, slug=news_file.stem)
+    except Exception as exc:
+        errors.append(f"controllo contaminazione non eseguibile: notizie/{news_file.name}: {exc}")
+        continue
+    if pulita!=raw:
+        news_file.write_text(pulita, encoding='utf-8')
     if esito['stato']=='BLOCK':
-        errors.append(f"contaminazione bloccante: notizie/{news_file.name}: {esito['errori'][0]}")
-    elif esito['stato'] not in ('PASS','REVISE'):
-        errors.append(f"controllo contaminazione non valido: notizie/{news_file.name}")
+        errors.append(f"frase vietata ancora nel testo: notizie/{news_file.name}: {esito['errori'][0]}")
 
 for news_file in sorted((root/'notizie').glob('*.html')):
     if news_file.name=='index.html': continue

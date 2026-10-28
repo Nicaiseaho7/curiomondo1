@@ -255,7 +255,7 @@ def write_article(article: dict[str, Any], image: dict[str, Any], version: int) 
     )
     gate = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(gate)
-    gate.autorizza(page, slug=slug, identificativo=slug)
+    page, _esito = gate.autorizza(page, slug=slug, identificativo=slug)
     (ROOT / "notizie" / f"{slug}.html").write_text(page, encoding="utf-8")
     return slug
 

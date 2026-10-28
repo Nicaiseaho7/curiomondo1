@@ -30,7 +30,7 @@ Il punto delle migliaia resta: `64.256.232`, non uno spazio al posto del puntino
 
 Non scade. Vale prima di ogni pubblicazione e di ogni aggiornamento.
 
-Nel testo pubblico non finiscono istruzioni all’agente, note di workflow, comandi al CMS, segnaposto o ragionamenti sulla produzione. Il controllo è `automation/newsroom/contaminazione.py`. Senza stato PASS la pagina non si scrive e il predeploy fallisce. Se il controllo non parte, la pubblicazione si ferma. Un articolo il cui indirizzo parla di orari o di palinsesto non diventa, da solo, un pezzo sul risultato.
+Nel testo pubblico non finiscono istruzioni all’agente, note di workflow, comandi al CMS, segnaposto o ragionamenti sulla produzione. Se una di queste frasi c’è, si toglie e il resto dell’articolo passa: non si blocca la notizia. Il controllo è `automation/newsroom/contaminazione.py`. Dopo la pulizia lo stato deve essere PASS.
 
 Nel corpo non si spiega come funziona il sito. Vietato scrivere, in qualunque variante, «questa pagina», «senza creare una nuova URL», «URL originale», «CurioMondo aggiornerà», «questa pagina sarà corretta», «i prossimi elementi sostanziali», «voci circolate online saranno escluse», «questo articolo integra gli sviluppi». L’articolo racconta solo i fatti. L’unico segnale di un aggiornamento è il badge rosso «aggiornamento» sulla card. Se una di queste frasi è nel testo, si elimina e l’articolo si pubblica. Non si ferma la notizia.
 

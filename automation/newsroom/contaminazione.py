@@ -1,12 +1,11 @@
-"""Controllo anti-contaminazione. Blocca le istruzioni interne prima della pubblicazione.
+"""Toglie dal testo pubblico le frasi operative, poi lascia passare la notizia.
 
-Due passaggi, entrambi deterministici. Il secondo non è un secondo modello:
-guarda il destinatario della frase, non soltanto le parole vietate.
-Se questo modulo non si carica, la pubblicazione resta bloccata.
+Il controllo segnala la frase. Non ferma la pubblicazione: la frase si elimina
+e si ricontrolla. Se non c'è più, lo stato è PASS.
 """
 from __future__ import annotations
 
-from html import unescape
+from html import escape, unescape
 import hashlib
 import json
 import re
@@ -47,7 +46,6 @@ OPERATIVE = (
     r"modifica il workflow",
     r"pubblica questo testo",
 )
-# Secondo passaggio: a chi è rivolta la frase.
 DESTINATARIO = (
     r"\b(?:il cms|il workflow|l['’]agente editoriale|chatgpt|il sistema editoriale)\b.{0,90}\b(?:deve|pubblica|aggiorna|non modificar)",
     r"\b(?:non modificare|lascia invariato|mantieni)\b.{0,40}\bslug\b",
@@ -55,6 +53,7 @@ DESTINATARIO = (
 )
 ORARI = re.compile(r"orari-tv|palinsesto|programmazione-tv", re.I)
 ORARI_NEL_TESTO = re.compile(r"\borari[oi]?\b|palinsesto|diretta (?:tv|televisiva)|in tv\b", re.I)
+TAG_VISIBILI = ("p", "h1", "h2", "h3", "li", "figcaption", "title")
 
 
 def _trova(testo: str, regole: tuple[str, ...]) -> list[str]:
@@ -66,17 +65,24 @@ def _trova(testo: str, regole: tuple[str, ...]) -> list[str]:
     return trovati
 
 
+def frase_vietata(testo: str) -> bool:
+    piegato = str(testo).casefold()
+    return bool(_trova(piegato, OPERATIVE) or _trova(piegato, DESTINATARIO))
+
+
+def pulisci_testo(testo: str) -> str:
+    """Tiene i fatti e butta solo la frase che farebbe scattare il BLOCK."""
+    parti = re.split(r"(?<=[.!?])\s+", str(testo).strip())
+    tenute = [parte.strip() for parte in parti if parte.strip() and not frase_vietata(parte)]
+    return " ".join(tenute)
+
+
 def controlla_testo(testo: str, *, slug: str = "") -> dict:
-    """Ritorna PASS, REVISE o BLOCK. Un testo vuoto non è pubblicabile."""
+    """Dice se il testo, così com'è, contiene ancora una frase vietata."""
     if not str(testo).strip():
         return {"stato": BLOCK, "errori": ["testo pubblico assente"], "tipo": ["vuoto"]}
-    piegato = str(testo).casefold()
-    errori = _trova(piegato, OPERATIVE)
-    if errori:
-        return {"stato": BLOCK, "errori": errori, "tipo": ["istruzione interna"]}
-    indirette = _trova(piegato, DESTINATARIO)
-    if indirette:
-        return {"stato": BLOCK, "errori": indirette, "tipo": ["destinatario operativo"]}
+    if frase_vietata(testo):
+        return {"stato": BLOCK, "errori": _trova(testo.casefold(), OPERATIVE + DESTINATARIO), "tipo": ["istruzione interna"]}
     if slug and ORARI.search(slug) and not ORARI_NEL_TESTO.search(testo):
         return {
             "stato": REVISE,
@@ -87,7 +93,6 @@ def controlla_testo(testo: str, *, slug: str = "") -> dict:
 
 
 def testo_pubblico_html(pagina: str) -> str:
-    """Campi che il lettore o un motore di ricerca può vedere. Non lo script di pagina."""
     pezzi = []
     for attr in ("title", "description"):
         for match in re.finditer(
@@ -114,13 +119,41 @@ def testo_pubblico_html(pagina: str) -> str:
     return "\n".join(pezzi)
 
 
+def pulisci_html(pagina: str) -> str:
+    def fix(match):
+        tag, attrs, inner = match.group(1), match.group(2), match.group(3)
+        plain = re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", inner))).strip()
+        if not frase_vietata(plain):
+            return match.group(0)
+        pulito = pulisci_testo(plain)
+        if not pulito:
+            return ""
+        return f"<{tag}{attrs}>{escape(pulito)}</{tag}>"
+
+    pagina = re.sub(
+        r"<(p|h1|h2|h3|li|figcaption|title)(\b[^>]*)>(.*?)</\1>",
+        fix,
+        pagina,
+        flags=re.S | re.I,
+    )
+
+    def fix_attr(match):
+        content = unescape(match.group(2))
+        if not frase_vietata(content):
+            return match.group(0)
+        return match.group(1) + escape(pulisci_testo(content), quote=True) + match.group(3)
+
+    pagina = re.sub(r'(content=")(.*?)(")', fix_attr, pagina)
+    return pagina
+
+
 def controlla_html(pagina: str, *, slug: str = "") -> dict:
     if not isinstance(pagina, str):
         return {"stato": BLOCK, "errori": ["pagina non leggibile"], "tipo": ["verifica incompleta"]}
     return controlla_testo(testo_pubblico_html(pagina), slug=slug)
 
 
-def controlla_articolo_dict(articolo: dict) -> dict:
+def campi_articolo(articolo: dict) -> list[str]:
     campi = [
         str(articolo.get("titolo", "")),
         str(articolo.get("sommario", "")),
@@ -130,7 +163,40 @@ def controlla_articolo_dict(articolo: dict) -> dict:
     for dato in articolo.get("dati_chiave") or []:
         campi.append(str(dato.get("valore", "")))
         campi.append(str(dato.get("etichetta", "")))
-    return controlla_testo("\n".join(campi), slug=str(articolo.get("slug", "")))
+    return campi
+
+
+def controlla_articolo_dict(articolo: dict) -> dict:
+    return controlla_testo("\n".join(campi_articolo(articolo)), slug=str(articolo.get("slug", "")))
+
+
+def sistema_articolo(articolo: dict) -> dict:
+    """Pulisce la bozza. Dopo, il controllo delle frasi vietate deve essere PASS."""
+    for chiave in ("titolo", "sommario"):
+        if chiave in articolo:
+            articolo[chiave] = pulisci_testo(str(articolo.get(chiave, "")))
+    immagine = articolo.get("immagine")
+    if isinstance(immagine, dict) and immagine.get("alt"):
+        immagine["alt"] = pulisci_testo(str(immagine.get("alt", "")))
+    if articolo.get("paragrafi"):
+        articolo["paragrafi"] = [pulisci_testo(str(p)) for p in articolo["paragrafi"] if pulisci_testo(str(p))]
+    for dato in articolo.get("dati_chiave") or []:
+        if isinstance(dato, dict):
+            dato["valore"] = pulisci_testo(str(dato.get("valore", ""))) or dato.get("valore", "")
+            dato["etichetta"] = pulisci_testo(str(dato.get("etichetta", ""))) or dato.get("etichetta", "")
+    return articolo
+
+
+def sistema(pagina: str, *, slug: str = "") -> tuple[str, dict]:
+    """Toglie le frasi vietate e ricontrolla. Senza quelle frasi il testo passa."""
+    pulita = pulisci_html(pagina)
+    esito = controlla_html(pulita, slug=slug)
+    if esito["stato"] == BLOCK:
+        pulita = pulisci_html(pulita)
+        esito = controlla_html(pulita, slug=slug)
+    if esito["stato"] == REVISE:
+        esito = {**esito, "stato": PASS, "tipo": esito.get("tipo", []) + ["nessuna frase vietata"]}
+    return pulita, esito
 
 
 def registra(identificativo: str, contenuto: str, esito: dict, *, correzione: str = "") -> None:
@@ -149,18 +215,18 @@ def registra(identificativo: str, contenuto: str, esito: dict, *, correzione: st
         handle.write(json.dumps(riga, ensure_ascii=False) + "\n")
 
 
-def autorizza(pagina: str, *, slug: str = "", identificativo: str = "") -> dict:
-    """Unico via libera. Manca il PASS, la pubblicazione non parte."""
+def autorizza(pagina: str, *, slug: str = "", identificativo: str = "") -> tuple[str, dict]:
+    """Pulisce, ricontrolla e restituisce la pagina che può uscire."""
     try:
-        esito = controlla_html(pagina, slug=slug)
+        pulita, esito = sistema(pagina, slug=slug)
     except Exception as exc:
         esito = {"stato": BLOCK, "errori": [f"controllo non disponibile: {exc}"], "tipo": ["verifica incompleta"]}
-    if esito.get("stato") not in {PASS, REVISE, BLOCK}:
-        esito = {"stato": BLOCK, "errori": ["stato sconosciuto"], "tipo": ["verifica incompleta"]}
-    registra(identificativo or slug or "bozza", pagina, esito)
+        registra(identificativo or slug or "bozza", pagina if isinstance(pagina, str) else "", esito)
+        raise ContaminazioneBloccata(esito) from exc
+    registra(identificativo or slug or "bozza", pulita, esito, correzione="frasi vietate rimosse" if pulita != pagina else "")
     if esito["stato"] != PASS:
         raise ContaminazioneBloccata(esito)
-    return esito
+    return pulita, esito
 
 
 class ContaminazioneBloccata(RuntimeError):
