@@ -63,8 +63,8 @@ class Decision:
 
 
 # Una scossa lieve non è una notizia: in Italia se ne registrano decine al
-# giorno. Sotto questa magnitudo il sisma viene trattato come rumore di fondo.
-MAGNITUDO_MINIMA = 3.0
+# giorno. Sotto 4.0 il sisma resta rumore di fondo; 3,1 non apre un articolo.
+MAGNITUDO_MINIMA = 4.0
 _MAGNITUDO_RE = re.compile(
     r"(?:magnitudo|magnitude|\bml\b|\bmw\b|\bmb\b)[\s:]*([0-9]+(?:[.,][0-9]+)?)", re.I
 )

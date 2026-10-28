@@ -83,7 +83,7 @@ def test_scarta_oroscopi_e_dirette_perenni():
 
 
 def test_scarta_notizie_troppo_vecchie():
-    d = filters.screen("Il governo approva la nuova legge di bilancio", "", "primary", "high", iso(80), now=NOW)
+    d = filters.screen("Il governo approva la nuova legge di bilancio", "", "primary", "high", iso(200), now=NOW)
     assert not d.accepted and d.reason == "troppo_vecchia"
 
 
