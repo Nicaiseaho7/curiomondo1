@@ -491,4 +491,9 @@ def controlla_articolo(
         if not immagine.get("contesto_sensibile"):
             problemi.append("personaggio pubblico sensibile senza contesto_sensibile")
 
+    from automation.newsroom.contaminazione import controlla_articolo_dict
+    esito = controlla_articolo_dict(articolo)
+    if esito["stato"] != "PASS":
+        problemi.append(f"contaminazione {esito['stato']}: {esito['errori'][0]}")
+
     return problemi

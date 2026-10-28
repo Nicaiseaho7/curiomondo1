@@ -727,6 +727,17 @@ except Exception as exc:
     errors.append(f'controllo carosello approfondimenti non eseguibile: {exc}')
 
 # Titolo in pagina: un solo colore. Il blu resta soltanto sulla card in homepage.
+import sys
+sys.path.insert(0, str(root))
+from automation.newsroom.contaminazione import controlla_html
+for news_file in sorted((root/'notizie').glob('*.html')):
+    if news_file.name=='index.html': continue
+    esito=controlla_html(news_file.read_text(encoding='utf-8', errors='replace'), slug=news_file.stem)
+    if esito['stato']=='BLOCK':
+        errors.append(f"contaminazione bloccante: notizie/{news_file.name}: {esito['errori'][0]}")
+    elif esito['stato'] not in ('PASS','REVISE'):
+        errors.append(f"controllo contaminazione non valido: notizie/{news_file.name}")
+
 for news_file in sorted((root/'notizie').glob('*.html')):
     if news_file.name=='index.html': continue
     h1s=re.findall(r'<h1\b[^>]*>.*?</h1>', news_file.read_text(errors='replace'), flags=re.I|re.S)
