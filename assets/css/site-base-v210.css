@@ -12,3 +12,7 @@ dialog{color:var(--cm-ink);background:var(--cm-paper);border:1px solid var(--cm-
 .site-footer>.cm-nicaise-signature{display:none!important}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
 .cmc-links a{color:#1d4ed8;font-weight:800}
+
+/* Cifre allineate: stessa altezza e stessa larghezza. Il punto delle migliaia resta. */
+html{font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1}
+.art-body,.art-flow-continuation,.subtitle,.wrap>h1,.meta,.cm-insight,.cm-insight-grid,.cm-data-grid{font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1}

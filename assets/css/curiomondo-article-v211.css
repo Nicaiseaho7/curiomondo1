@@ -81,3 +81,7 @@ html.cm-dark .cm-article-index,html.cm-dark .art-body .conclusion{box-shadow:non
 .art-body .cm-table-wrap tbody tr:hover td{background:color-mix(in srgb,#62d6c8 8%,var(--cm-paper))}
 html.cm-dark .cm-summary-box{border-color:rgba(117,229,215,.3);box-shadow:none}html.cm-dark .cm-table-wrap{box-shadow:none}html.cm-dark .art-body .cm-table-wrap th{background:#1a4b78}
 @media(max-width:600px){.cm-summary-box{margin-top:2px;padding:19px 18px 17px;border-radius:16px}.cm-summary-box li{font-size:.86rem}.cm-table-wrap{margin:25px 0 30px;border-radius:15px}.art-body .cm-table-wrap table{min-width:600px}.art-body .cm-table-wrap th,.art-body .cm-table-wrap td{padding:9px}}
+
+/* Cifre allineate: stessa altezza e stessa larghezza. Il punto delle migliaia resta. */
+html{font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1}
+.art-body,.art-flow-continuation,.subtitle,.wrap>h1,.meta,.cm-insight,.cm-insight-grid,.cm-data-grid{font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1}

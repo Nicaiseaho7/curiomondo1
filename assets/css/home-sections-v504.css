@@ -398,3 +398,7 @@ html.cm-dark .cm-curiosita-rail__arrow{background:#7c4dff;box-shadow:0 6px 16px 
   .cm-curiosita-rail .cm-topic-grid > .cm-topic-card{flex-basis:min(78vw,300px)}
   .cm-curiosita-rail__controls{margin-bottom:6px}
 }
+
+/* Cifre allineate: stessa altezza e stessa larghezza. Il punto delle migliaia resta. */
+html{font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1}
+.art-body,.art-flow-continuation,.subtitle,.wrap>h1,.meta,.cm-insight,.cm-insight-grid,.cm-data-grid{font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1}
