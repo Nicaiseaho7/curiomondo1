@@ -1,21 +1,355 @@
 {
-  "version": 1200,
+  "version": 846,
   "items": [
     {
-      "title": "Spagna, 68 morti nello scontro fra treni: tre italiane disperse",
-      "excerpt": "Il bilancio resta provvisorio. L’incidente è avvenuto vicino a Urda, sulla linea Madrid-Siviglia; sospesa l’alta velocità verso l’Andalusia e avviate due indagini.",
-      "url": "/notizie/toledo-scontro-treni-alta-velocita-urda-28-ottobre-2026.html",
-      "section": "Mondo / Cronaca",
-      "dateISO": "2026-10-28T13:16:00+01:00",
-      "dateLabel": "2026-10-28",
-      "image": "/assets/images/editorial-auto/spagna-incidente-treni-urda-68-morti-italiane-disperse-v1201-800.webp",
-      "imageAlt": "Treni Renfe AVE e Iryo fermi su due binari della stazione di Madrid Atocha all’alba",
+      "title": "Corea del Nord, circa dieci missili lanciati verso il mare",
+      "excerpt": "Seul rafforza sorveglianza e prontezza dopo la raffica partita dall'area di Wonsan; i vettori sarebbero caduti fuori dalla zona economica esclusiva giapponese",
+      "url": "/notizie/corea-nord-dieci-missili-mare-orientale-29-10-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-10-29T12:58:00+01:00",
+      "dateLabel": "2026-10-29",
+      "image": "/assets/images/editorial-auto/corea-nord-dieci-missili-mare-orientale-v1305-800.webp",
+      "imageAlt": "Radar costiero sul Mare Orientale con scie di missili lontane all'orizzonte",
       "imageWidth": 800,
       "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/spagna-incidente-treni-urda-68-morti-italiane-disperse-v1201-480.webp 480w, /assets/images/editorial-auto/spagna-incidente-treni-urda-68-morti-italiane-disperse-v1201-800.webp 800w, /assets/images/editorial-auto/spagna-incidente-treni-urda-68-morti-italiane-disperse-v1201-1200.webp 1200w",
-      "updated": true,
-      "firstPublishedAt": "2026-10-28T13:16:00+01:00",
-      "updatedAt": "2026-10-29T06:48:00+01:00"
+      "srcset": "/assets/images/editorial-auto/corea-nord-dieci-missili-mare-orientale-v1305-480.webp 480w, /assets/images/editorial-auto/corea-nord-dieci-missili-mare-orientale-v1305-800.webp 800w, /assets/images/editorial-auto/corea-nord-dieci-missili-mare-orientale-v1305-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "10",
+          "label": "missili a corto raggio"
+        },
+        {
+          "icon": "•",
+          "value": "12:30",
+          "label": "ora locale del lancio"
+        },
+        {
+          "icon": "•",
+          "value": "250 km",
+          "label": "gittata indicata"
+        }
+      ],
+      "featuredHighlights": [
+        "dieci",
+        "missili"
+      ]
+    },
+    {
+      "title": "Taiwan segnala 53 navi cinesi nel Pacifico occidentale",
+      "excerpt": "La mappa diffusa dal Consiglio di sicurezza nazionale include 34 unità militari e la portaerei Liaoning; Pechino parla di addestramento annuale",
+      "url": "/notizie/taiwan-53-navi-cinesi-pacifico-29-10-2026.html",
+      "section": "Mondo",
+      "dateISO": "2026-10-29T12:47:00+01:00",
+      "dateLabel": "2026-10-29",
+      "image": "/assets/images/editorial-auto/taiwan-53-navi-cinesi-pacifico-v1305-800.webp",
+      "imageAlt": "Portaerei Liaoning e navi di scorta in navigazione nel Pacifico occidentale",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/taiwan-53-navi-cinesi-pacifico-v1305-480.webp 480w, /assets/images/editorial-auto/taiwan-53-navi-cinesi-pacifico-v1305-800.webp 800w, /assets/images/editorial-auto/taiwan-53-navi-cinesi-pacifico-v1305-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "53",
+          "label": "navi segnalate"
+        },
+        {
+          "icon": "•",
+          "value": "34",
+          "label": "unità militari"
+        },
+        {
+          "icon": "•",
+          "value": "Liaoning",
+          "label": "portaerei nel Pacifico"
+        }
+      ],
+      "featuredHighlights": [
+        "53",
+        "navi"
+      ]
+    },
+    {
+      "title": "Amazon-Globalstar, via libera FCC all'operazione da 11,5 miliardi",
+      "excerpt": "L'acquisizione porta ad Amazon Leo spettro satellitare, infrastrutture e circa due dozzine di satelliti per accelerare i servizi diretti ai dispositivi",
+      "url": "/notizie/fcc-amazon-globalstar-via-libera-29-10-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-10-29T12:39:00+01:00",
+      "dateLabel": "2026-10-29",
+      "image": "/assets/images/editorial-auto/fcc-amazon-globalstar-via-libera-v1305-800.webp",
+      "imageAlt": "Due satelliti per telecomunicazioni in orbita bassa sopra la Terra",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/fcc-amazon-globalstar-via-libera-v1305-480.webp 480w, /assets/images/editorial-auto/fcc-amazon-globalstar-via-libera-v1305-800.webp 800w, /assets/images/editorial-auto/fcc-amazon-globalstar-via-libera-v1305-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "11,5 mld",
+          "label": "valore dell'operazione"
+        },
+        {
+          "icon": "•",
+          "value": "27 ottobre",
+          "label": "via libera della FCC"
+        },
+        {
+          "icon": "•",
+          "value": "Leo",
+          "label": "divisione satellitare Amazon"
+        }
+      ],
+      "featuredHighlights": [
+        "11,5",
+        "FCC"
+      ]
+    },
+    {
+      "title": "L'India prepara NVS-03, il satellite che rafforza NavIC",
+      "excerpt": "Il GSLV-F18 dovrebbe decollare da Sriharikota il 30 ottobre alle 19:21 italiane con nuovi orologi atomici e il segnale L1",
+      "url": "/notizie/india-lancio-nvs-03-navic-29-10-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-10-29T12:25:00+01:00",
+      "dateLabel": "2026-10-29",
+      "image": "/assets/images/editorial-auto/india-lancio-nvs-03-navic-v1305-800.webp",
+      "imageAlt": "Razzo indiano GSLV-F18 sulla rampa di lancio con tecnici ISRO",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/india-lancio-nvs-03-navic-v1305-480.webp 480w, /assets/images/editorial-auto/india-lancio-nvs-03-navic-v1305-800.webp 800w, /assets/images/editorial-auto/india-lancio-nvs-03-navic-v1305-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "30 ottobre",
+          "label": "giorno del lancio"
+        },
+        {
+          "icon": "•",
+          "value": "19:21",
+          "label": "orario italiano"
+        },
+        {
+          "icon": "•",
+          "value": "NVS-03",
+          "label": "satellite NavIC"
+        }
+      ],
+      "featuredHighlights": [
+        "NVS-03",
+        "NavIC"
+      ]
+    },
+    {
+      "title": "STMicroelectronics accelera: ricavi a 3,76 miliardi nel trimestre",
+      "excerpt": "La crescita annua raggiunge il 17,9% e il gruppo alza l'asticella per fine 2026, sostenuto da data center IA e satelliti in orbita bassa",
+      "url": "/notizie/stmicroelectronics-risultati-terzo-trimestre-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-29T12:17:00+01:00",
+      "dateLabel": "2026-10-29",
+      "image": "/assets/images/editorial-auto/stmicroelectronics-risultati-terzo-trimestre-2026-v1305-800.webp",
+      "imageAlt": "Tecnici STMicroelectronics esaminano un wafer in una camera bianca",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/stmicroelectronics-risultati-terzo-trimestre-2026-v1305-480.webp 480w, /assets/images/editorial-auto/stmicroelectronics-risultati-terzo-trimestre-2026-v1305-800.webp 800w, /assets/images/editorial-auto/stmicroelectronics-risultati-terzo-trimestre-2026-v1305-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "3,76 mld",
+          "label": "ricavi del trimestre"
+        },
+        {
+          "icon": "•",
+          "value": "+17,9%",
+          "label": "crescita annua"
+        },
+        {
+          "icon": "•",
+          "value": "37,3%",
+          "label": "margine lordo"
+        }
+      ],
+      "featuredHighlights": [
+        "3,76",
+        "trimestre"
+      ]
+    },
+    {
+      "title": "Prysmian firma il trimestre migliore e alza ancora le stime",
+      "excerpt": "Ebitda rettificato a 851 milioni, ricavi trimestrali oltre 6,4 miliardi e obiettivi 2028 indicati come raggiungibili con due anni d'anticipo",
+      "url": "/notizie/prysmian-trimestre-record-alza-stime-29-10-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-29T12:05:00+01:00",
+      "dateLabel": "2026-10-29",
+      "image": "/assets/images/editorial-auto/prysmian-trimestre-record-alza-stime-v1305-800.webp",
+      "imageAlt": "Tecnici Prysmian davanti a una grande bobina di cavo in rame",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/prysmian-trimestre-record-alza-stime-v1305-480.webp 480w, /assets/images/editorial-auto/prysmian-trimestre-record-alza-stime-v1305-800.webp 800w, /assets/images/editorial-auto/prysmian-trimestre-record-alza-stime-v1305-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "851 mln",
+          "label": "Ebitda rettificato"
+        },
+        {
+          "icon": "•",
+          "value": "6,4 mld",
+          "label": "ricavi del trimestre"
+        },
+        {
+          "icon": "•",
+          "value": "2028",
+          "label": "target anticipati"
+        }
+      ],
+      "featuredHighlights": [
+        "trimestre",
+        "stime"
+      ]
+    },
+    {
+      "title": "Shell, utili rettificati a 10,8 miliardi e nuovo buyback",
+      "excerpt": "Il gruppo annuncia riacquisti azionari per 5 miliardi di dollari dopo un trimestre sostenuto da margini record nella raffinazione",
+      "url": "/notizie/shell-utili-buyback-cinque-miliardi-29-10-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-29T11:56:00+01:00",
+      "dateLabel": "2026-10-29",
+      "image": "/assets/images/editorial-auto/shell-utili-buyback-cinque-miliardi-v1305-800.webp",
+      "imageAlt": "Terminale GNL Shell con serbatoi, tubazioni e nave metaniera",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/shell-utili-buyback-cinque-miliardi-v1305-480.webp 480w, /assets/images/editorial-auto/shell-utili-buyback-cinque-miliardi-v1305-800.webp 800w, /assets/images/editorial-auto/shell-utili-buyback-cinque-miliardi-v1305-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "10,8 mld",
+          "label": "utili rettificati"
+        },
+        {
+          "icon": "•",
+          "value": "5 mld",
+          "label": "nuovo buyback"
+        },
+        {
+          "icon": "•",
+          "value": "Q3",
+          "label": "trimestre chiuso"
+        }
+      ],
+      "featuredHighlights": [
+        "10,8",
+        "buyback"
+      ]
+    },
+    {
+      "title": "Société Générale porta l'utile dei nove mesi al record di 5,4 miliardi",
+      "excerpt": "La banca supera il target di redditività 2026, riduce i costi e chiude il terzo trimestre con 1,9 miliardi di utile",
+      "url": "/notizie/societe-generale-utile-record-nove-mesi-29-10-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-29T11:45:00+01:00",
+      "dateLabel": "2026-10-29",
+      "image": "/assets/images/editorial-auto/societe-generale-utile-record-nove-mesi-v1305-800.webp",
+      "imageAlt": "Dipendenti al lavoro in una sala operativa Société Générale a Parigi",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/societe-generale-utile-record-nove-mesi-v1305-480.webp 480w, /assets/images/editorial-auto/societe-generale-utile-record-nove-mesi-v1305-800.webp 800w, /assets/images/editorial-auto/societe-generale-utile-record-nove-mesi-v1305-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "5,4 mld",
+          "label": "utile dei nove mesi"
+        },
+        {
+          "icon": "•",
+          "value": "1,9 mld",
+          "label": "utile del trimestre"
+        },
+        {
+          "icon": "•",
+          "value": "13,4%",
+          "label": "Cet1"
+        }
+      ],
+      "featuredHighlights": [
+        "5,4",
+        "record"
+      ]
+    },
+    {
+      "title": "Magnum cresce del 9,6% e alza le previsioni per il 2026",
+      "excerpt": "Volumi in aumento del 7,3% e ricavi trimestrali a 2,5 miliardi: l'estate prolungata in Europa ha aggiunto fino a tre punti alla crescita",
+      "url": "/notizie/magnum-vendite-crescita-terzo-trimestre-29-10-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-29T11:37:00+01:00",
+      "dateLabel": "2026-10-29",
+      "image": "/assets/images/editorial-auto/magnum-vendite-crescita-terzo-trimestre-v1305-800.webp",
+      "imageAlt": "Addetti al controllo qualità in una linea produttiva di gelati Magnum",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/magnum-vendite-crescita-terzo-trimestre-v1305-480.webp 480w, /assets/images/editorial-auto/magnum-vendite-crescita-terzo-trimestre-v1305-800.webp 800w, /assets/images/editorial-auto/magnum-vendite-crescita-terzo-trimestre-v1305-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "+9,6%",
+          "label": "vendite organiche"
+        },
+        {
+          "icon": "•",
+          "value": "+7,3%",
+          "label": "aumento dei volumi"
+        },
+        {
+          "icon": "•",
+          "value": "2,5 mld",
+          "label": "ricavi del trimestre"
+        }
+      ],
+      "featuredHighlights": [
+        "9,6%",
+        "2026"
+      ]
+    },
+    {
+      "title": "Tassonomia Ue, l'EBA propone meno indicatori per banche e imprese",
+      "excerpt": "L'autorità bancaria chiede di eliminare due KPI, alleggerire i modelli e rendere più leggibile il Green Asset Ratio senza cancellare l'informazione ambientale",
+      "url": "/notizie/eba-semplificazione-tassonomia-ue-29-10-2026.html",
+      "section": "Italia / Economia",
+      "dateISO": "2026-10-29T11:25:00+01:00",
+      "dateLabel": "2026-10-29",
+      "image": "/assets/images/editorial-auto/eba-semplificazione-tassonomia-ue-v1305-800.webp",
+      "imageAlt": "Esperti dell'Autorità bancaria europea discutono documenti sulla tassonomia Ue",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/eba-semplificazione-tassonomia-ue-v1305-480.webp 480w, /assets/images/editorial-auto/eba-semplificazione-tassonomia-ue-v1305-800.webp 800w, /assets/images/editorial-auto/eba-semplificazione-tassonomia-ue-v1305-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "2 KPI",
+          "label": "indicatori da eliminare"
+        },
+        {
+          "icon": "•",
+          "value": "29 ottobre",
+          "label": "parere pubblicato"
+        },
+        {
+          "icon": "•",
+          "value": "GAR",
+          "label": "Green Asset Ratio"
+        }
+      ],
+      "featuredHighlights": [
+        "EBA",
+        "Tassonomia"
+      ]
     },
     {
       "title": "Ucraina, notte di droni su Mosca e Kharkiv: cinque feriti",
@@ -30,7 +364,24 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/ucraina-droni-mosca-attacco-kharkiv-29-ottobre-2026-v1201-480.webp 480w, /assets/images/editorial-auto/ucraina-droni-mosca-attacco-kharkiv-29-ottobre-2026-v1201-800.webp 800w, /assets/images/editorial-auto/ucraina-droni-mosca-attacco-kharkiv-29-ottobre-2026-v1201-1200.webp 1200w",
       "updated": false,
-      "firstPublishedAt": "2026-10-29T06:32:00+01:00"
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "5",
+          "label": "feriti indicati a Kharkiv"
+        },
+        {
+          "icon": "•",
+          "value": "613",
+          "label": "droni verso Mosca secondo il sindaco"
+        },
+        {
+          "icon": "•",
+          "value": "1",
+          "label": "minore tra i feriti"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Incendio al sito nucleare Savannah River: emergenza revocata",
@@ -45,7 +396,24 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/savannah-river-incendio-laboratorio-emergenza-revocata-v1201-480.webp 480w, /assets/images/editorial-auto/savannah-river-incendio-laboratorio-emergenza-revocata-v1201-800.webp 800w, /assets/images/editorial-auto/savannah-river-incendio-laboratorio-emergenza-revocata-v1201-1200.webp 1200w",
       "updated": false,
-      "firstPublishedAt": "2026-10-29T06:08:00+01:00"
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "0",
+          "label": "contaminazione rilevata"
+        },
+        {
+          "icon": "•",
+          "value": "1",
+          "label": "lavoratore ferito lievemente"
+        },
+        {
+          "icon": "•",
+          "value": "21:45",
+          "label": "ora di chiusura dell’emergenza"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "New York vieta ai chatbot di fingere legami umani con i minori",
@@ -60,7 +428,24 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/new-york-legge-chatbot-minori-legami-umani-vietati-v1201-480.webp 480w, /assets/images/editorial-auto/new-york-legge-chatbot-minori-legami-umani-vietati-v1201-800.webp 800w, /assets/images/editorial-auto/new-york-legge-chatbot-minori-legami-umani-vietati-v1201-1200.webp 1200w",
       "updated": false,
-      "firstPublishedAt": "2026-10-29T05:52:00+01:00"
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "18 anni",
+          "label": "soglia per la tutela"
+        },
+        {
+          "icon": "•",
+          "value": "1 gennaio",
+          "label": "entrata in vigore prevista"
+        },
+        {
+          "icon": "•",
+          "value": "S9051B",
+          "label": "numero del provvedimento"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Terremoti nella notte: scossa M6 nelle Filippine, eventi anche in Italia",
@@ -75,7 +460,26 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/terremoti-notte-29-ottobre-filippine-vanuatu-italia-v1201-480.webp 480w, /assets/images/editorial-auto/terremoti-notte-29-ottobre-filippine-vanuatu-italia-v1201-800.webp 800w, /assets/images/editorial-auto/terremoti-notte-29-ottobre-filippine-vanuatu-italia-v1201-1200.webp 1200w",
       "updated": false,
-      "firstPublishedAt": "2026-10-29T05:36:00+01:00"
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "M6,0",
+          "label": "evento maggiore registrato"
+        },
+        {
+          "icon": "•",
+          "value": "02:43",
+          "label": "ora italiana della scossa in Abruzzo"
+        },
+        {
+          "icon": "•",
+          "value": "6",
+          "label": "eventi principali nella finestra"
+        }
+      ],
+      "featuredHighlights": [
+        "6"
+      ]
     },
     {
       "title": "Meteo 29 ottobre: nessuna allerta, vento forte sull’Adriatico",
@@ -90,23 +494,27 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/meteo-29-ottobre-nessuna-allerta-vento-adriatico-mari-mossi-v1201-480.webp 480w, /assets/images/editorial-auto/meteo-29-ottobre-nessuna-allerta-vento-adriatico-mari-mossi-v1201-800.webp 800w, /assets/images/editorial-auto/meteo-29-ottobre-nessuna-allerta-vento-adriatico-mari-mossi-v1201-1200.webp 1200w",
       "updated": false,
-      "firstPublishedAt": "2026-10-29T05:20:00+01:00"
-    },
-    {
-      "title": "Sciopero del 30 ottobre, treni regolari dopo il differimento",
-      "excerpt": "Gruppo FS e Trenord annullano le variazioni annunciate per la protesta nazionale. Resta separato lo sciopero regionale in Emilia-Romagna fino alle 21 del 29 ottobre.",
-      "url": "/notizie/sciopero-generale-30-ottobre-2026-orari-trasporti.html",
-      "section": "Italia",
-      "dateISO": "2026-10-20T18:36:00+02:00",
-      "dateLabel": "2026-10-20",
-      "image": "/assets/images/editorial-auto/sciopero-30-ottobre-precettazione-trasporti-usb-conferma-v1201-800.webp",
-      "imageAlt": "Treno Frecciarossa in partenza da Roma Termini con viaggiatori in salita",
-      "imageWidth": 800,
-      "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/sciopero-30-ottobre-precettazione-trasporti-usb-conferma-v1201-480.webp 480w, /assets/images/editorial-auto/sciopero-30-ottobre-precettazione-trasporti-usb-conferma-v1201-800.webp 800w, /assets/images/editorial-auto/sciopero-30-ottobre-precettazione-trasporti-usb-conferma-v1201-1200.webp 1200w",
-      "updated": true,
-      "firstPublishedAt": "2026-10-20T18:36:00+02:00",
-      "updatedAt": "2026-10-29T05:04:00+01:00"
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "0",
+          "label": "allerte nazionali significative"
+        },
+        {
+          "icon": "•",
+          "value": "NE",
+          "label": "direzione dei venti più forti"
+        },
+        {
+          "icon": "•",
+          "value": "2",
+          "label": "mari indicati come molto mossi"
+        }
+      ],
+      "featuredHighlights": [
+        "NE",
+        "2"
+      ]
     },
     {
       "title": "Alphabet cresce del 25%, ma l’IA brucia cassa e pesa in Borsa",
@@ -121,7 +529,24 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/alphabet-risultati-trimestre-cloud-ia-cassa-2026-v1201-480.webp 480w, /assets/images/editorial-auto/alphabet-risultati-trimestre-cloud-ia-cassa-2026-v1201-800.webp 800w, /assets/images/editorial-auto/alphabet-risultati-trimestre-cloud-ia-cassa-2026-v1201-1200.webp 1200w",
       "updated": false,
-      "firstPublishedAt": "2026-10-29T04:48:00+01:00"
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "$127,6 mld",
+          "label": "ricavi trimestrali"
+        },
+        {
+          "icon": "•",
+          "value": "+103%",
+          "label": "crescita Google Cloud"
+        },
+        {
+          "icon": "•",
+          "value": "-$9,07 mld",
+          "label": "flusso di cassa libero"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Microsoft, Azure accelera del 48%: ricavi a 92,3 miliardi",
@@ -136,7 +561,24 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/microsoft-risultati-azure-crescita-48-percento-fy27-q1-v1201-480.webp 480w, /assets/images/editorial-auto/microsoft-risultati-azure-crescita-48-percento-fy27-q1-v1201-800.webp 800w, /assets/images/editorial-auto/microsoft-risultati-azure-crescita-48-percento-fy27-q1-v1201-1200.webp 1200w",
       "updated": false,
-      "firstPublishedAt": "2026-10-29T04:32:00+01:00"
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "$92,3 mld",
+          "label": "ricavi del trimestre"
+        },
+        {
+          "icon": "•",
+          "value": "+48%",
+          "label": "crescita di Azure"
+        },
+        {
+          "icon": "•",
+          "value": "$36,6 mld",
+          "label": "utile netto GAAP"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Samsung supera 100 mila miliardi di won di utile operativo",
@@ -151,7 +593,24 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/samsung-record-utile-operativo-terzo-trimestre-2026-hbm4-v1201-480.webp 480w, /assets/images/editorial-auto/samsung-record-utile-operativo-terzo-trimestre-2026-hbm4-v1201-800.webp 800w, /assets/images/editorial-auto/samsung-record-utile-operativo-terzo-trimestre-2026-hbm4-v1201-1200.webp 1200w",
       "updated": false,
-      "firstPublishedAt": "2026-10-29T04:16:00+01:00"
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "₩107,4 mila mld",
+          "label": "utile operativo"
+        },
+        {
+          "icon": "•",
+          "value": "₩195,3 mila mld",
+          "label": "ricavi trimestrali"
+        },
+        {
+          "icon": "•",
+          "value": "₩84,4 mila mld",
+          "label": "investimenti 2026 previsti"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Fed ferma i tassi al 3,75-4%: due membri chiedono un rialzo",
@@ -166,119 +625,26 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/fed-tassi-fermi-3-75-4-due-voti-rialzo-ottobre-2026-v1201-480.webp 480w, /assets/images/editorial-auto/fed-tassi-fermi-3-75-4-due-voti-rialzo-ottobre-2026-v1201-800.webp 800w, /assets/images/editorial-auto/fed-tassi-fermi-3-75-4-due-voti-rialzo-ottobre-2026-v1201-1200.webp 1200w",
       "updated": false,
-      "firstPublishedAt": "2026-10-29T04:00:00+01:00"
-    },
-    {
-      "title": "Il ciclismo italiano non va in letargo: fango, downhill e gravel riempiono il weekend",
-      "excerpt": "Dal GP Guerciotti al Trofeo Città di Firenze, quattro discipline si incrociano fra il 30 ottobre e il 1° novembre.",
-      "url": "/notizie/ciclismo-italia-weekend-30-ottobre-1-novembre-2026.html",
-      "section": "Sport / Ciclismo",
-      "dateISO": "2026-10-28T18:52:00+01:00",
-      "dateLabel": "2026-10-28",
-      "image": "/assets/images/editorial-auto/ciclismo-italia-weekend-30-ottobre-1-novembre-2026-v1005-800.webp",
-      "imageAlt": "Ciclisti nel fango al Gran Premio Guerciotti, illustrazione editoriale IA",
-      "imageWidth": 800,
-      "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/ciclismo-italia-weekend-30-ottobre-1-novembre-2026-v1005-480.webp 480w, /assets/images/editorial-auto/ciclismo-italia-weekend-30-ottobre-1-novembre-2026-v1005-800.webp 800w, /assets/images/editorial-auto/ciclismo-italia-weekend-30-ottobre-1-novembre-2026-v1005-1200.webp 1200w",
-      "updated": false
-    },
-    {
-      "title": "Tre partite nello stesso mercoledì, ma per tre ragioni diverse: il volley riscrive il calendario",
-      "excerpt": "Conegliano-Vallefoglia e Scandicci-Novara recuperano la quinta giornata; Perugia-Padova anticipa dicembre per il Mondiale per club.",
-      "url": "/notizie/volley-28-ottobre-2026-conegliano-scandicci-perugia-orari-tv.html",
-      "section": "Sport / Volley",
-      "dateISO": "2026-10-28T19:08:00+01:00",
-      "dateLabel": "2026-10-28",
-      "image": "/assets/images/editorial-auto/volley-28-ottobre-2026-conegliano-scandicci-perugia-orari-tv-v1005-800.webp",
-      "imageAlt": "Attacco di Scandicci contro il muro di Novara, illustrazione editoriale IA",
-      "imageWidth": 800,
-      "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/volley-28-ottobre-2026-conegliano-scandicci-perugia-orari-tv-v1005-480.webp 480w, /assets/images/editorial-auto/volley-28-ottobre-2026-conegliano-scandicci-perugia-orari-tv-v1005-800.webp 800w, /assets/images/editorial-auto/volley-28-ottobre-2026-conegliano-scandicci-perugia-orari-tv-v1005-1200.webp 1200w",
-      "updated": false
-    },
-    {
-      "title": "Vienna parla italiano, ma il tabellone obbliga gli azzurri a eliminarsi tra loro",
-      "excerpt": "Berrettini supera Etcheverry, Darderi vince il derby con Arnaldi. Cobolli e Dimitrov decidono il prossimo incrocio.",
-      "url": "/notizie/atp-vienna-2026-berrettini-darderi-arnaldi-cobolli-risultati.html",
-      "section": "Sport / Tennis",
-      "dateISO": "2026-10-28T19:24:00+01:00",
-      "dateLabel": "2026-10-28",
-      "image": "/assets/images/editorial-auto/atp-vienna-2026-berrettini-darderi-arnaldi-cobolli-risultati-v1005-800.webp",
-      "imageAlt": "Matteo Berrettini al servizio sul campo indoor di Vienna, illustrazione editoriale IA",
-      "imageWidth": 800,
-      "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/atp-vienna-2026-berrettini-darderi-arnaldi-cobolli-risultati-v1005-480.webp 480w, /assets/images/editorial-auto/atp-vienna-2026-berrettini-darderi-arnaldi-cobolli-risultati-v1005-800.webp 800w, /assets/images/editorial-auto/atp-vienna-2026-berrettini-darderi-arnaldi-cobolli-risultati-v1005-1200.webp 1200w",
-      "updated": false
-    },
-    {
-      "title": "L’Italia sceglie cinque nomi per la Davis, ma la lista può ancora cambiare",
-      "excerpt": "Cobolli, Musetti, Darderi, Bolelli e Vavassori convocati per Bologna. Sinner resta fuori dalla prima nomination.",
-      "url": "/notizie/davis-cup-2026-convocati-italia-bologna-biglietti-tv.html",
-      "section": "Sport / Tennis",
-      "dateISO": "2026-10-28T19:40:00+01:00",
-      "dateLabel": "2026-10-28",
-      "image": "/assets/images/editorial-auto/davis-cup-2026-convocati-italia-bologna-biglietti-tv-v1005-800.webp",
-      "imageAlt": "I convocati dell’Italia di Coppa Davis in maglia azzurra, illustrazione editoriale IA",
-      "imageWidth": 800,
-      "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/davis-cup-2026-convocati-italia-bologna-biglietti-tv-v1005-480.webp 480w, /assets/images/editorial-auto/davis-cup-2026-convocati-italia-bologna-biglietti-tv-v1005-800.webp 800w, /assets/images/editorial-auto/davis-cup-2026-convocati-italia-bologna-biglietti-tv-v1005-1200.webp 1200w",
-      "updated": false
-    },
-    {
-      "title": "La Champions torna subito: quattro trasferte e nessuna rete di sicurezza per le italiane",
-      "excerpt": "Inter e Roma giocano il 3 novembre; Napoli e Como il giorno dopo. Avversarie, orari italiani e cosa verificare prima di partire.",
-      "url": "/notizie/champions-league-italiane-3-4-novembre-2026-orari.html",
-      "section": "Sport / Calcio",
-      "dateISO": "2026-10-28T19:56:00+01:00",
-      "dateLabel": "2026-10-28",
-      "image": "/assets/images/editorial-auto/champions-league-italiane-3-4-novembre-2026-orari-v1005-800.webp",
-      "imageAlt": "Giocatori di Inter, Roma, Napoli e Como nel tunnel di uno stadio di Champions League, illustrazione editoriale IA",
-      "imageWidth": 800,
-      "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/champions-league-italiane-3-4-novembre-2026-orari-v1005-480.webp 480w, /assets/images/editorial-auto/champions-league-italiane-3-4-novembre-2026-orari-v1005-800.webp 800w, /assets/images/editorial-auto/champions-league-italiane-3-4-novembre-2026-orari-v1005-1200.webp 1200w",
-      "updated": false
-    },
-    {
-      "title": "Pérez resta il volto di Cadillac: il rinnovo fino al 2029 arriva prima dei punti",
-      "excerpt": "Il messicano prolunga alla vigilia del GP di casa e della sua trecentesima partenza. Il progetto sceglie continuità nonostante lo zero in classifica.",
-      "url": "/notizie/sergio-perez-cadillac-rinnovo-2029-formula-1.html",
-      "section": "Sport / Formula 1",
-      "dateISO": "2026-10-28T20:12:00+01:00",
-      "dateLabel": "2026-10-28",
-      "image": "/assets/images/editorial-auto/sergio-perez-cadillac-rinnovo-2029-formula-1-v1005-800.webp",
-      "imageAlt": "Sergio Pérez accanto alla Cadillac di Formula 1 a Città del Messico, illustrazione editoriale IA",
-      "imageWidth": 800,
-      "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/sergio-perez-cadillac-rinnovo-2029-formula-1-v1005-480.webp 480w, /assets/images/editorial-auto/sergio-perez-cadillac-rinnovo-2029-formula-1-v1005-800.webp 800w, /assets/images/editorial-auto/sergio-perez-cadillac-rinnovo-2029-formula-1-v1005-1200.webp 1200w",
-      "updated": false
-    },
-    {
-      "title": "Sepang riapre il Mondiale dopo il silenzio australiano: Márquez ha dieci punti da difendere",
-      "excerpt": "Sprint sabato e gara domenica alle 8 italiane. Aldeguer e Razgatlioglu sono fuori, Mir è atteso al rientro.",
-      "url": "/notizie/motogp-malesia-2026-orari-italiani-infortuni.html",
-      "section": "Sport / MotoGP",
-      "dateISO": "2026-10-28T20:28:00+01:00",
-      "dateLabel": "2026-10-28",
-      "image": "/assets/images/editorial-auto/motogp-malesia-2026-orari-italiani-infortuni-v1005-800.webp",
-      "imageAlt": "Marc Márquez sulla Ducati precede Jorge Martín sull’Aprilia a Sepang, illustrazione editoriale IA",
-      "imageWidth": 800,
-      "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/motogp-malesia-2026-orari-italiani-infortuni-v1005-480.webp 480w, /assets/images/editorial-auto/motogp-malesia-2026-orari-italiani-infortuni-v1005-800.webp 800w, /assets/images/editorial-auto/motogp-malesia-2026-orari-italiani-infortuni-v1005-1200.webp 1200w",
-      "updated": false
-    },
-    {
-      "title": "Boston sopravvive all’overtime, ma la notte NBA si ferma davanti a tre infortuni pesanti",
-      "excerpt": "Celtics-Nets finisce 125-124. Oklahoma City perde Williams e Wallace a tempo indeterminato; Detroit rinuncia a Duren per almeno due settimane.",
-      "url": "/notizie/nba-risultati-infortuni-28-ottobre-2026.html",
-      "section": "Sport / Basket",
-      "dateISO": "2026-10-28T20:58:00+01:00",
-      "dateLabel": "2026-10-28",
-      "image": "/assets/images/editorial-auto/nba-risultati-infortuni-28-ottobre-2026-v1005-800.webp",
-      "imageAlt": "Azione tra Boston Celtics e Brooklyn Nets, illustrazione editoriale IA",
-      "imageWidth": 800,
-      "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/nba-risultati-infortuni-28-ottobre-2026-v1005-480.webp 480w, /assets/images/editorial-auto/nba-risultati-infortuni-28-ottobre-2026-v1005-800.webp 800w, /assets/images/editorial-auto/nba-risultati-infortuni-28-ottobre-2026-v1005-1200.webp 1200w",
-      "updated": false
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "3,75-4%",
+          "label": "intervallo dei tassi"
+        },
+        {
+          "icon": "•",
+          "value": "10-2",
+          "label": "esito della votazione"
+        },
+        {
+          "icon": "•",
+          "value": "2%",
+          "label": "obiettivo d’inflazione"
+        }
+      ],
+      "featuredHighlights": [
+        "3,75-4%"
+      ]
     },
     {
       "title": "Roma e Como aspettano l’ultimo respiro: due rimonte cambiano la nona giornata",
@@ -292,7 +658,318 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/roma-cagliari-torino-como-risultati-27-ottobre-2026-v1005-480.webp 480w, /assets/images/editorial-auto/roma-cagliari-torino-como-risultati-27-ottobre-2026-v1005-800.webp 800w, /assets/images/editorial-auto/roma-cagliari-torino-como-risultati-27-ottobre-2026-v1005-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "4-2",
+          "label": "Roma-Cagliari"
+        },
+        {
+          "icon": "•",
+          "value": "3-1",
+          "label": "Como a Torino"
+        },
+        {
+          "icon": "•",
+          "value": "81’",
+          "label": "minuti del pari"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Boston sopravvive all’overtime, ma la notte NBA si ferma davanti a tre infortuni pesanti",
+      "excerpt": "Celtics-Nets finisce 125-124. Oklahoma City perde Williams e Wallace a tempo indeterminato; Detroit rinuncia a Duren per almeno due settimane.",
+      "url": "/notizie/nba-risultati-infortuni-28-ottobre-2026.html",
+      "section": "Sport / Basket",
+      "dateISO": "2026-10-28T20:58:00+01:00",
+      "dateLabel": "2026-10-28",
+      "image": "/assets/images/editorial-auto/nba-risultati-infortuni-28-ottobre-2026-v1005-800.webp",
+      "imageAlt": "Azione tra Boston Celtics e Brooklyn Nets, illustrazione editoriale IA",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/nba-risultati-infortuni-28-ottobre-2026-v1005-480.webp 480w, /assets/images/editorial-auto/nba-risultati-infortuni-28-ottobre-2026-v1005-800.webp 800w, /assets/images/editorial-auto/nba-risultati-infortuni-28-ottobre-2026-v1005-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "125-124",
+          "label": "Celtics ai supplementari"
+        },
+        {
+          "icon": "•",
+          "value": "2",
+          "label": "stop a tempo indefinito a Oklahoma City"
+        },
+        {
+          "icon": "•",
+          "value": "12",
+          "label": "partite nella notte del 28"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Sepang riapre il Mondiale dopo il silenzio australiano: Márquez ha dieci punti da difendere",
+      "excerpt": "Sprint sabato e gara domenica alle 8 italiane. Aldeguer e Razgatlioglu sono fuori, Mir è atteso al rientro.",
+      "url": "/notizie/motogp-malesia-2026-orari-italiani-infortuni.html",
+      "section": "Sport / MotoGP",
+      "dateISO": "2026-10-28T20:28:00+01:00",
+      "dateLabel": "2026-10-28",
+      "image": "/assets/images/editorial-auto/motogp-malesia-2026-orari-italiani-infortuni-v1005-800.webp",
+      "imageAlt": "Marc Márquez sulla Ducati precede Jorge Martín sull’Aprilia a Sepang, illustrazione editoriale IA",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/motogp-malesia-2026-orari-italiani-infortuni-v1005-480.webp 480w, /assets/images/editorial-auto/motogp-malesia-2026-orari-italiani-infortuni-v1005-800.webp 800w, /assets/images/editorial-auto/motogp-malesia-2026-orari-italiani-infortuni-v1005-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "10",
+          "label": "punti di vantaggio di Márquez"
+        },
+        {
+          "icon": "•",
+          "value": "8:00",
+          "label": "gara di domenica, ora italiana"
+        },
+        {
+          "icon": "•",
+          "value": "20",
+          "label": "giri della gara lunga"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Pérez resta il volto di Cadillac: il rinnovo fino al 2029 arriva prima dei punti",
+      "excerpt": "Il messicano prolunga alla vigilia del GP di casa e della sua trecentesima partenza. Il progetto sceglie continuità nonostante lo zero in classifica.",
+      "url": "/notizie/sergio-perez-cadillac-rinnovo-2029-formula-1.html",
+      "section": "Sport / Formula 1",
+      "dateISO": "2026-10-28T20:12:00+01:00",
+      "dateLabel": "2026-10-28",
+      "image": "/assets/images/editorial-auto/sergio-perez-cadillac-rinnovo-2029-formula-1-v1005-800.webp",
+      "imageAlt": "Sergio Pérez accanto alla Cadillac di Formula 1 a Città del Messico, illustrazione editoriale IA",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/sergio-perez-cadillac-rinnovo-2029-formula-1-v1005-480.webp 480w, /assets/images/editorial-auto/sergio-perez-cadillac-rinnovo-2029-formula-1-v1005-800.webp 800w, /assets/images/editorial-auto/sergio-perez-cadillac-rinnovo-2029-formula-1-v1005-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "2029",
+          "label": "fine minima del contratto"
+        },
+        {
+          "icon": "•",
+          "value": "300",
+          "label": "partite nel weekend di casa"
+        },
+        {
+          "icon": "•",
+          "value": "20:00",
+          "label": "gara di domenica, ora italiana"
+        }
+      ],
+      "featuredHighlights": [
+        "2029"
+      ]
+    },
+    {
+      "title": "La Champions torna subito: quattro trasferte e nessuna rete di sicurezza per le italiane",
+      "excerpt": "Inter e Roma giocano il 3 novembre; Napoli e Como il giorno dopo. Avversarie, orari italiani e cosa verificare prima di partire.",
+      "url": "/notizie/champions-league-italiane-3-4-novembre-2026-orari.html",
+      "section": "Sport / Calcio",
+      "dateISO": "2026-10-28T19:56:00+01:00",
+      "dateLabel": "2026-10-28",
+      "image": "/assets/images/editorial-auto/champions-league-italiane-3-4-novembre-2026-orari-v1005-800.webp",
+      "imageAlt": "Giocatori di Inter, Roma, Napoli e Como nel tunnel di uno stadio di Champions League, illustrazione editoriale IA",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/champions-league-italiane-3-4-novembre-2026-orari-v1005-480.webp 480w, /assets/images/editorial-auto/champions-league-italiane-3-4-novembre-2026-orari-v1005-800.webp 800w, /assets/images/editorial-auto/champions-league-italiane-3-4-novembre-2026-orari-v1005-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "4",
+          "label": "italiane tutte in trasferta"
+        },
+        {
+          "icon": "•",
+          "value": "21:00",
+          "label": "calcio d’inizio in Italia"
+        },
+        {
+          "icon": "•",
+          "value": "3-4",
+          "label": "novembre, le due date"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "L’Italia sceglie cinque nomi per la Davis, ma la lista può ancora cambiare",
+      "excerpt": "Cobolli, Musetti, Darderi, Bolelli e Vavassori convocati per Bologna. Sinner resta fuori dalla prima nomination.",
+      "url": "/notizie/davis-cup-2026-convocati-italia-bologna-biglietti-tv.html",
+      "section": "Sport / Tennis",
+      "dateISO": "2026-10-28T19:40:00+01:00",
+      "dateLabel": "2026-10-28",
+      "image": "/assets/images/editorial-auto/davis-cup-2026-convocati-italia-bologna-biglietti-tv-v1005-800.webp",
+      "imageAlt": "I convocati dell’Italia di Coppa Davis in maglia azzurra, illustrazione editoriale IA",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/davis-cup-2026-convocati-italia-bologna-biglietti-tv-v1005-480.webp 480w, /assets/images/editorial-auto/davis-cup-2026-convocati-italia-bologna-biglietti-tv-v1005-800.webp 800w, /assets/images/editorial-auto/davis-cup-2026-convocati-italia-bologna-biglietti-tv-v1005-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "5",
+          "label": "giocatori nella prima lista"
+        },
+        {
+          "icon": "•",
+          "value": "25",
+          "label": "novembre, esordio alle 16"
+        },
+        {
+          "icon": "•",
+          "value": "3",
+          "label": "sostituzioni ancora possibili"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Vienna parla italiano, ma il tabellone obbliga gli azzurri a eliminarsi tra loro",
+      "excerpt": "Berrettini supera Etcheverry, Darderi vince il derby con Arnaldi. Cobolli e Dimitrov decidono il prossimo incrocio.",
+      "url": "/notizie/atp-vienna-2026-berrettini-darderi-arnaldi-cobolli-risultati.html",
+      "section": "Sport / Tennis",
+      "dateISO": "2026-10-28T19:24:00+01:00",
+      "dateLabel": "2026-10-28",
+      "image": "/assets/images/editorial-auto/atp-vienna-2026-berrettini-darderi-arnaldi-cobolli-risultati-v1005-800.webp",
+      "imageAlt": "Matteo Berrettini al servizio sul campo indoor di Vienna, illustrazione editoriale IA",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/atp-vienna-2026-berrettini-darderi-arnaldi-cobolli-risultati-v1005-480.webp 480w, /assets/images/editorial-auto/atp-vienna-2026-berrettini-darderi-arnaldi-cobolli-risultati-v1005-800.webp 800w, /assets/images/editorial-auto/atp-vienna-2026-berrettini-darderi-arnaldi-cobolli-risultati-v1005-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "6-3 6-4",
+          "label": "Berrettini su Etcheverry"
+        },
+        {
+          "icon": "•",
+          "value": "7-5 6-2",
+          "label": "Darderi su Arnaldi"
+        },
+        {
+          "icon": "•",
+          "value": "1°",
+          "label": "novembre, fine del torneo"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Tre partite nello stesso mercoledì, ma per tre ragioni diverse: il volley riscrive il calendario",
+      "excerpt": "Conegliano-Vallefoglia e Scandicci-Novara recuperano la quinta giornata; Perugia-Padova anticipa dicembre per il Mondiale per club.",
+      "url": "/notizie/volley-28-ottobre-2026-conegliano-scandicci-perugia-orari-tv.html",
+      "section": "Sport / Volley",
+      "dateISO": "2026-10-28T19:08:00+01:00",
+      "dateLabel": "2026-10-28",
+      "image": "/assets/images/editorial-auto/volley-28-ottobre-2026-conegliano-scandicci-perugia-orari-tv-v1005-800.webp",
+      "imageAlt": "Attacco di Scandicci contro il muro di Novara, illustrazione editoriale IA",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/volley-28-ottobre-2026-conegliano-scandicci-perugia-orari-tv-v1005-480.webp 480w, /assets/images/editorial-auto/volley-28-ottobre-2026-conegliano-scandicci-perugia-orari-tv-v1005-800.webp 800w, /assets/images/editorial-auto/volley-28-ottobre-2026-conegliano-scandicci-perugia-orari-tv-v1005-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "20:00",
+          "label": "Conegliano-Vallefoglia"
+        },
+        {
+          "icon": "•",
+          "value": "20:30",
+          "label": "Scandicci e Perugia"
+        },
+        {
+          "icon": "•",
+          "value": "3-1",
+          "label": "Supercoppa a Conegliano"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Il ciclismo italiano non va in letargo: fango, downhill e gravel riempiono il weekend",
+      "excerpt": "Dal GP Guerciotti al Trofeo Città di Firenze, quattro discipline si incrociano fra il 30 ottobre e il 1° novembre.",
+      "url": "/notizie/ciclismo-italia-weekend-30-ottobre-1-novembre-2026.html",
+      "section": "Sport / Ciclismo",
+      "dateISO": "2026-10-28T18:52:00+01:00",
+      "dateLabel": "2026-10-28",
+      "image": "/assets/images/editorial-auto/ciclismo-italia-weekend-30-ottobre-1-novembre-2026-v1005-800.webp",
+      "imageAlt": "Ciclisti nel fango al Gran Premio Guerciotti, illustrazione editoriale IA",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/ciclismo-italia-weekend-30-ottobre-1-novembre-2026-v1005-480.webp 480w, /assets/images/editorial-auto/ciclismo-italia-weekend-30-ottobre-1-novembre-2026-v1005-800.webp 800w, /assets/images/editorial-auto/ciclismo-italia-weekend-30-ottobre-1-novembre-2026-v1005-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "47°",
+          "label": "Gran Premio Guerciotti"
+        },
+        {
+          "icon": "•",
+          "value": "classe 2",
+          "label": "le prove internazionali"
+        },
+        {
+          "icon": "•",
+          "value": "56,601",
+          "label": "km/h di Milesi a Piasco"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Spagna, 68 morti nello scontro fra treni: tre italiane disperse",
+      "excerpt": "Il bilancio resta provvisorio. L’incidente è avvenuto vicino a Urda, sulla linea Madrid-Siviglia; sospesa l’alta velocità verso l’Andalusia e avviate due indagini.",
+      "url": "/notizie/toledo-scontro-treni-alta-velocita-urda-28-ottobre-2026.html",
+      "section": "Mondo / Cronaca",
+      "dateISO": "2026-10-28T13:16:00+01:00",
+      "dateLabel": "2026-10-28",
+      "image": "/assets/images/editorial-auto/spagna-incidente-treni-urda-68-morti-italiane-disperse-v1201-800.webp",
+      "imageAlt": "Treni Renfe AVE e Iryo fermi su due binari della stazione di Madrid Atocha all’alba",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/spagna-incidente-treni-urda-68-morti-italiane-disperse-v1201-480.webp 480w, /assets/images/editorial-auto/spagna-incidente-treni-urda-68-morti-italiane-disperse-v1201-800.webp 800w, /assets/images/editorial-auto/spagna-incidente-treni-urda-68-morti-italiane-disperse-v1201-1200.webp 1200w",
+      "updated": true,
+      "updatedAt": "2026-10-29T06:48:00+01:00",
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "68",
+          "label": "vittime nel bilancio provvisorio"
+        },
+        {
+          "icon": "•",
+          "value": "08:53",
+          "label": "ora dell’impatto"
+        },
+        {
+          "icon": "•",
+          "value": "3",
+          "label": "italiane indicate come disperse"
+        }
+      ],
+      "featuredHighlights": [
+        "68"
+      ]
     },
     {
       "title": "Il volto dell’undicenne non è una prova da esibire: il Garante ferma sei media dopo gli scontri di Milano",
@@ -306,7 +983,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/garante-privacy-blocco-immagini-undicenne-scontri-milano-v1200-480.webp 480w, /assets/images/editorial-auto/garante-privacy-blocco-immagini-undicenne-scontri-milano-v1200-800.webp 800w, /assets/images/editorial-auto/garante-privacy-blocco-immagini-undicenne-scontri-milano-v1200-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "6",
+          "label": "media raggiunti dal blocco"
+        },
+        {
+          "icon": "•",
+          "value": "11 anni",
+          "label": "età del minore"
+        },
+        {
+          "icon": "•",
+          "value": "immediato",
+          "label": "ordine di oscuramento"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "La Manovra entra in Consiglio dei ministri con due promesse difficili da tenere insieme: giovani e conti",
@@ -320,7 +1015,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/manovra-2027-meloni-giovani-conti-pubblici-misure-cdm-v1200-480.webp 480w, /assets/images/editorial-auto/manovra-2027-meloni-giovani-conti-pubblici-misure-cdm-v1200-800.webp 800w, /assets/images/editorial-auto/manovra-2027-meloni-giovani-conti-pubblici-misure-cdm-v1200-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "23,5 mld",
+          "label": "valore iniziale stimato"
+        },
+        {
+          "icon": "•",
+          "value": "14 mld",
+          "label": "legati a energia e difesa"
+        },
+        {
+          "icon": "•",
+          "value": "12:00",
+          "label": "testo non ancora approvato"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Il tredicesimo pacchetto per Kiev è pronto ma non è ancora partito: il passaggio che manca",
@@ -334,7 +1047,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/italia-tredicesimo-pacchetto-aiuti-ucraina-pronto-iter-copasir-v1200-480.webp 480w, /assets/images/editorial-auto/italia-tredicesimo-pacchetto-aiuti-ucraina-pronto-iter-copasir-v1200-800.webp 800w, /assets/images/editorial-auto/italia-tredicesimo-pacchetto-aiuti-ucraina-pronto-iter-copasir-v1200-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "13°",
+          "label": "pacchetto italiano"
+        },
+        {
+          "icon": "•",
+          "value": "12:00",
+          "label": "del 28 ottobre, non ancora partito"
+        },
+        {
+          "icon": "•",
+          "value": "31 dicembre",
+          "label": "cessioni autorizzate fino a questa data"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Lina Attalah è libera, Mada Masr no: cosa resta dopo sette ore di fermo e una multa milionaria",
@@ -348,7 +1079,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/lina-attalah-liberata-multa-chiusura-mada-masr-egitto-v1200-480.webp 480w, /assets/images/editorial-auto/lina-attalah-liberata-multa-chiusura-mada-masr-egitto-v1200-800.webp 800w, /assets/images/editorial-auto/lina-attalah-liberata-multa-chiusura-mada-masr-egitto-v1200-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "7 ore",
+          "label": "di fermo"
+        },
+        {
+          "icon": "•",
+          "value": "3 mln",
+          "label": "sterline egiziane di multa"
+        },
+        {
+          "icon": "•",
+          "value": "48 mila €",
+          "label": "stima minima della conversione"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Errani e Paolini ribaltano il primo set a Tokyo: il dettaglio che avvicina davvero le Finals",
@@ -362,8 +1111,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/errani-paolini-quarti-doppio-tokyo-corsa-wta-finals-v1200-480.webp 480w, /assets/images/editorial-auto/errani-paolini-quarti-doppio-tokyo-corsa-wta-finals-v1200-800.webp 800w, /assets/images/editorial-auto/errani-paolini-quarti-doppio-tokyo-corsa-wta-finals-v1200-1200.webp 1200w",
-      "updated": true,
-      "updatedAt": "2026-10-28T18:20:00+01:00"
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "7-6, 6-2",
+          "label": "contro le seconde teste di serie"
+        },
+        {
+          "icon": "•",
+          "value": "quarti",
+          "label": "nel doppio a Tokyo"
+        },
+        {
+          "icon": "•",
+          "value": "WTA 500",
+          "label": "torneo in corso"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Neil Young porta di nuovo “Rockin’ in the Free World” in tribunale: perché chiede 10 milioni",
@@ -377,7 +1143,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/neil-young-causa-trump-47-committee-rockin-free-world-10-milioni-v1200-480.webp 480w, /assets/images/editorial-auto/neil-young-causa-trump-47-committee-rockin-free-world-10-milioni-v1200-800.webp 800w, /assets/images/editorial-auto/neil-young-causa-trump-47-committee-rockin-free-world-10-milioni-v1200-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "10 mln $",
+          "label": "danni chiesti, non riconosciuti"
+        },
+        {
+          "icon": "•",
+          "value": "12 ottobre",
+          "label": "raduno a Youngstown"
+        },
+        {
+          "icon": "•",
+          "value": "26 ottobre",
+          "label": "causa depositata"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "L’Olanda spegne di nuovo il microfono all’Eurovision, ma continuerà a trasmetterlo: il compromesso del 2027",
@@ -391,7 +1175,27 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/paesi-bassi-ritiro-eurovision-2027-israele-npo-trasmissione-v1200-480.webp 480w, /assets/images/editorial-auto/paesi-bassi-ritiro-eurovision-2027-israele-npo-trasmissione-v1200-800.webp 800w, /assets/images/editorial-auto/paesi-bassi-ritiro-eurovision-2027-israele-npo-trasmissione-v1200-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "2027",
+          "label": "nessun artista olandese"
+        },
+        {
+          "icon": "•",
+          "value": "11-15 maggio",
+          "label": "finale prevista a Burgas"
+        },
+        {
+          "icon": "•",
+          "value": "36",
+          "label": "emittenti ancora in gara"
+        }
+      ],
+      "featuredHighlights": [
+        "2027"
+      ]
     },
     {
       "title": "Padoan annuncia l’uscita da UniCredit, ma la successione comincia adesso: i quattro criteri per il nuovo presidente",
@@ -405,7 +1209,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/padoan-lascia-unicredit-fine-mandato-criteri-successore-v1200-480.webp 480w, /assets/images/editorial-auto/padoan-lascia-unicredit-fine-mandato-criteri-successore-v1200-800.webp 800w, /assets/images/editorial-auto/padoan-lascia-unicredit-fine-mandato-criteri-successore-v1200-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "2027",
+          "label": "resta fino al bilancio 2026"
+        },
+        {
+          "icon": "•",
+          "value": "4",
+          "label": "criteri per il successore"
+        },
+        {
+          "icon": "•",
+          "value": "28 ottobre",
+          "label": "annuncio al mercato"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Non fu licenziata soltanto perché parlava italiano: cosa c’è davvero nella sentenza sulla prof di inglese",
@@ -419,7 +1241,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/professoressa-inglese-milano-licenziata-sentenza-lady-gaga-v1200-480.webp 480w, /assets/images/editorial-auto/professoressa-inglese-milano-licenziata-sentenza-lady-gaga-v1200-800.webp 800w, /assets/images/editorial-auto/professoressa-inglese-milano-licenziata-sentenza-lady-gaga-v1200-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "3.700 €",
+          "label": "spese legali"
+        },
+        {
+          "icon": "•",
+          "value": "primo grado",
+          "label": "la sentenza si può appellare"
+        },
+        {
+          "icon": "•",
+          "value": "sotto i 14",
+          "label": "età degli studenti nel video"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Belgrado alza l’allerta al massimo: cosa cambia dopo l’attacco davanti all’ambasciata israeliana",
@@ -433,7 +1273,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/serbia-allerta-rossa-attacco-ambasciata-israele-belgrado-28-ottobre-2026-v0934-480.webp 480w, /assets/images/editorial-auto/serbia-allerta-rossa-attacco-ambasciata-israele-belgrado-28-ottobre-2026-v0934-800.webp 800w, /assets/images/editorial-auto/serbia-allerta-rossa-attacco-ambasciata-israele-belgrado-28-ottobre-2026-v0934-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "rosso",
+          "label": "livello massimo di allerta"
+        },
+        {
+          "icon": "•",
+          "value": "00:15",
+          "label": "ora dell’attacco"
+        },
+        {
+          "icon": "•",
+          "value": "2 coltelli",
+          "label": "ricostruzione del ministero"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Quarantuno misure nel Cosentino: perché l’arresto del sindaco Stasi non è una sentenza",
@@ -447,7 +1305,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/ndrangheta-cosenza-41-misure-cautelari-sindaco-flavio-stasi-v0934-480.webp 480w, /assets/images/editorial-auto/ndrangheta-cosenza-41-misure-cautelari-sindaco-flavio-stasi-v0934-800.webp 800w, /assets/images/editorial-auto/ndrangheta-cosenza-41-misure-cautelari-sindaco-flavio-stasi-v0934-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "41",
+          "label": "misure cautelari"
+        },
+        {
+          "icon": "•",
+          "value": "24",
+          "label": "destinate al carcere"
+        },
+        {
+          "icon": "•",
+          "value": "17",
+          "label": "ai domiciliari"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Trump promette un vertice Putin-Zelensky «molto presto»: cosa manca perché accada davvero",
@@ -461,7 +1337,27 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/trump-incontro-putin-zelensky-molto-presto-cosa-manca-28-ottobre-2026-v0934-480.webp 480w, /assets/images/editorial-auto/trump-incontro-putin-zelensky-molto-presto-cosa-manca-28-ottobre-2026-v0934-800.webp 800w, /assets/images/editorial-auto/trump-incontro-putin-zelensky-molto-presto-cosa-manca-28-ottobre-2026-v0934-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "3",
+          "label": "round di colloqui nel 2026"
+        },
+        {
+          "icon": "•",
+          "value": "nessuna data",
+          "label": "vertice non ancora convocato"
+        },
+        {
+          "icon": "•",
+          "value": "molto presto",
+          "label": "formula usata da Trump"
+        }
+      ],
+      "featuredHighlights": [
+        "molto presto"
+      ]
     },
     {
       "title": "Frontex verso 30 mila agenti: il piano UE cambia confini, rimpatri e risposta alle crisi",
@@ -475,7 +1371,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/frontex-30000-agenti-rimpatri-forza-rapida-proposta-ue-2026-v0934-480.webp 480w, /assets/images/editorial-auto/frontex-30000-agenti-rimpatri-forza-rapida-proposta-ue-2026-v0934-800.webp 800w, /assets/images/editorial-auto/frontex-30000-agenti-rimpatri-forza-rapida-proposta-ue-2026-v0934-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "30.000",
+          "label": "agenti, obiettivo proposto"
+        },
+        {
+          "icon": "•",
+          "value": "17.000",
+          "label": "riserva europea"
+        },
+        {
+          "icon": "•",
+          "value": "27 ottobre",
+          "label": "proposta, non ancora legge"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Elvis contro Claude: la causa da 274 canzoni che può ridefinire i confini dell’IA",
@@ -489,7 +1403,27 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/elvis-presley-anthropic-causa-274-canzoni-41-milioni-v0934-480.webp 480w, /assets/images/editorial-auto/elvis-presley-anthropic-causa-274-canzoni-41-milioni-v0934-800.webp 800w, /assets/images/editorial-auto/elvis-presley-anthropic-causa-274-canzoni-41-milioni-v0934-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "274",
+          "label": "composizioni citate"
+        },
+        {
+          "icon": "•",
+          "value": "41,1 mln $",
+          "label": "massimo chiesto su un capo"
+        },
+        {
+          "icon": "•",
+          "value": "23 ottobre",
+          "label": "causa depositata"
+        }
+      ],
+      "featuredHighlights": [
+        "274"
+      ]
     },
     {
       "title": "L’Odissea di Grok dura sette minuti: il corto di Musk mette alla prova il cinema generato dall’IA",
@@ -503,7 +1437,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/grok-odissea-corto-ia-sette-minuti-musk-nolan-v0934-480.webp 480w, /assets/images/editorial-auto/grok-odissea-corto-ia-sette-minuti-musk-nolan-v0934-800.webp 800w, /assets/images/editorial-auto/grok-odissea-corto-ia-sette-minuti-musk-nolan-v0934-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "7 minuti",
+          "label": "durata del corto"
+        },
+        {
+          "icon": "•",
+          "value": "23 ottobre",
+          "label": "pubblicato su X"
+        },
+        {
+          "icon": "•",
+          "value": "fine 2026",
+          "label": "termine annunciato per il film"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Un solo gene, denti opposti: C2CD3 può aggiungerli o farli mancare nella stessa bocca",
@@ -517,7 +1469,27 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/gene-c2cd3-denti-sorriso-varianti-rare-studio-pnas-v0934-480.webp 480w, /assets/images/editorial-auto/gene-c2cd3-denti-sorriso-varianti-rare-studio-pnas-v0934-800.webp 800w, /assets/images/editorial-auto/gene-c2cd3-denti-sorriso-varianti-rare-studio-pnas-v0934-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "24",
+          "label": "persone analizzate"
+        },
+        {
+          "icon": "•",
+          "value": "C2CD3",
+          "label": "stesso gene, effetti opposti"
+        },
+        {
+          "icon": "•",
+          "value": "PNAS",
+          "label": "studio accettato dalla rivista"
+        }
+      ],
+      "featuredHighlights": [
+        "C2CD3"
+      ]
     },
     {
       "title": "Gasolio, l’accisa scende per undici giorni: quanto può cambiare davvero il prezzo alla pompa",
@@ -531,7 +1503,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/accisa-gasolio-riduzione-28-ottobre-7-novembre-2026-v1002-480.webp 480w, /assets/images/editorial-auto/accisa-gasolio-riduzione-28-ottobre-7-novembre-2026-v1002-800.webp 800w, /assets/images/editorial-auto/accisa-gasolio-riduzione-28-ottobre-7-novembre-2026-v1002-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "632,90 €",
+          "label": "accisa per mille litri"
+        },
+        {
+          "icon": "•",
+          "value": "40 euro",
+          "label": "di differenza ogni mille litri"
+        },
+        {
+          "icon": "•",
+          "value": "4,88 cent.",
+          "label": "effetto teorico con l’IVA"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Dieci posti nel CSM e una soglia molto alta: perché il voto del Parlamento può richiedere più scrutini",
@@ -545,7 +1535,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/parlamento-elezione-dieci-componenti-csm-28-ottobre-v1002-480.webp 480w, /assets/images/editorial-auto/parlamento-elezione-dieci-componenti-csm-28-ottobre-v1002-800.webp 800w, /assets/images/editorial-auto/parlamento-elezione-dieci-componenti-csm-28-ottobre-v1002-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "10",
+          "label": "componenti da eleggere"
+        },
+        {
+          "icon": "•",
+          "value": "16:30",
+          "label": "seduta comune"
+        },
+        {
+          "icon": "•",
+          "value": "3/5",
+          "label": "soglia dei primi scrutini"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Sicurezza e reati minorili, il decreto è già in vigore: ora il Parlamento ha sessanta giorni",
@@ -559,7 +1567,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/decreto-sicurezza-minori-dl-190-2026-v1002-480.webp 480w, /assets/images/editorial-auto/decreto-sicurezza-minori-dl-190-2026-v1002-800.webp 800w, /assets/images/editorial-auto/decreto-sicurezza-minori-dl-190-2026-v1002-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "23 ottobre",
+          "label": "già in vigore"
+        },
+        {
+          "icon": "•",
+          "value": "60 giorni",
+          "label": "per convertirlo in legge"
+        },
+        {
+          "icon": "•",
+          "value": "21 dicembre",
+          "label": "scadenza della conversione"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Cause usate per intimidire chi informa: dall’8 novembre arrivano nuove tutele anti‑SLAPP",
@@ -573,7 +1599,27 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/anti-slapp-decreto-194-querele-temerarie-v1002-480.webp 480w, /assets/images/editorial-auto/anti-slapp-decreto-194-querele-temerarie-v1002-800.webp 800w, /assets/images/editorial-auto/anti-slapp-decreto-194-querele-temerarie-v1002-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "8 novembre",
+          "label": "entrata in vigore"
+        },
+        {
+          "icon": "•",
+          "value": "n. 194",
+          "label": "decreto legislativo"
+        },
+        {
+          "icon": "•",
+          "value": "24 ottobre",
+          "label": "pubblicato in Gazzetta"
+        }
+      ],
+      "featuredHighlights": [
+        "8 novembre"
+      ]
     },
     {
       "title": "Voto fuori sede, la nuova procedura è in vigore: chi deve muoversi entro il 31 dicembre",
@@ -587,7 +1633,27 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/voto-fuori-sede-legge-180-domande-comuni-v1002-480.webp 480w, /assets/images/editorial-auto/voto-fuori-sede-legge-180-domande-comuni-v1002-800.webp 800w, /assets/images/editorial-auto/voto-fuori-sede-legge-180-domande-comuni-v1002-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "31 dicembre",
+          "label": "domanda per l’anno dopo"
+        },
+        {
+          "icon": "•",
+          "value": "9 mesi",
+          "label": "permanenza minima richiesta"
+        },
+        {
+          "icon": "•",
+          "value": "24 ottobre",
+          "label": "legge già in vigore"
+        }
+      ],
+      "featuredHighlights": [
+        "31 dicembre"
+      ]
     },
     {
       "title": "Clima, Bruxelles cambia metodo: una traiettoria comune per decidere su città, infrastrutture e investimenti",
@@ -601,7 +1667,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/commissione-ue-legge-resilienza-climatica-proposta-v1002-480.webp 480w, /assets/images/editorial-auto/commissione-ue-legge-resilienza-climatica-proposta-v1002-800.webp 800w, /assets/images/editorial-auto/commissione-ue-legge-resilienza-climatica-proposta-v1002-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "27 ottobre",
+          "label": "proposta della Commissione"
+        },
+        {
+          "icon": "•",
+          "value": "1,5 gradi",
+          "label": "traiettoria indicata al 2030"
+        },
+        {
+          "icon": "•",
+          "value": "200 mld",
+          "label": "danni stimati nel 2022-2025"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Alberi privati, cantieri e potature: le nuove regole di Milano non sono ancora in vigore",
@@ -615,7 +1699,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/milano-nuovo-regolamento-verde-alberi-sanzioni-v1002-480.webp 480w, /assets/images/editorial-auto/milano-nuovo-regolamento-verde-alberi-sanzioni-v1002-800.webp 800w, /assets/images/editorial-auto/milano-nuovo-regolamento-verde-alberi-sanzioni-v1002-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "27 ottobre",
+          "label": "presentata in commissione"
+        },
+        {
+          "icon": "•",
+          "value": "2017",
+          "label": "regolamento da aggiornare"
+        },
+        {
+          "icon": "•",
+          "value": "non in vigore",
+          "label": "serve il voto del Consiglio"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Trapianti, protezione civile e autobus: dove vanno le nuove risorse approvate dal Veneto",
@@ -629,7 +1731,25 @@
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/veneto-variazione-bilancio-sanita-trapianti-trasporti-v1002-480.webp 480w, /assets/images/editorial-auto/veneto-variazione-bilancio-sanita-trapianti-trasporti-v1002-800.webp 800w, /assets/images/editorial-auto/veneto-variazione-bilancio-sanita-trapianti-trasporti-v1002-1200.webp 1200w",
-      "updated": false
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "2,9 mln",
+          "label": "sanità nel triennio"
+        },
+        {
+          "icon": "•",
+          "value": "9,2 mln",
+          "label": "protezione civile"
+        },
+        {
+          "icon": "•",
+          "value": "31,6 mln",
+          "label": "nuove assegnazioni FSE+"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Manovra e Csm, la giornata politica passa da Palazzo Chigi e Montecitorio",
@@ -4633,7 +5753,7 @@
       "url": "/notizie/eurolega-milano-virtus-programma-27-30-ottobre-2026.html",
       "section": "Sport / Basket",
       "dateISO": "2026-10-25T10:00:00+01:00",
-      "dateLabel": "2026-10-28",
+      "dateLabel": "2026-10-25",
       "image": "/assets/images/editorial-auto/eurolega-milano-virtus-programma-27-30-ottobre-2026-v1028-800.webp",
       "imageAlt": "Azione di Virtus Bologna-Zalgiris con divise ed elementi Eurolega, illustrazione editoriale IA",
       "imageWidth": 800,
@@ -13352,9 +14472,9 @@
       "title": "Formula 1 in Messico dopo Austin: programma, orari italiani e diretta del weekend",
       "excerpt": "La gara di domenica scatta alle 20 italiane. Pérez resta in Cadillac almeno fino al 2029.",
       "url": "/notizie/formula-1-gp-messico-2026-orari-italiani-biglietti.html",
-      "section": "Sport / Formula 1",
+      "section": "Città del Messico / Sport",
       "dateISO": "2026-10-20T23:00:00+02:00",
-      "dateLabel": "2026-10-28",
+      "dateLabel": "2026-10-20",
       "image": "/assets/images/editorial-auto/f1-gp-messico-30-ottobre-1-novembre-2026-orari-tv-v992-800.webp",
       "imageAlt": "Illustrazione editoriale IA di una Mercedes di Formula 1 nel tratto dello stadio a Città del Messico.",
       "imageWidth": 800,
@@ -14156,6 +15276,39 @@
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/torino-milano-santhia-biella-variazioni-treni-21-ottobre-2026-v944-480.webp 480w, /assets/images/editorial-auto/torino-milano-santhia-biella-variazioni-treni-21-ottobre-2026-v944-800.webp 800w, /assets/images/editorial-auto/torino-milano-santhia-biella-variazioni-treni-21-ottobre-2026-v944-1200.webp 1200w",
       "updated": false
+    },
+    {
+      "title": "Sciopero del 30 ottobre, treni regolari dopo il differimento",
+      "excerpt": "Gruppo FS e Trenord annullano le variazioni annunciate per la protesta nazionale. Resta separato lo sciopero regionale in Emilia-Romagna fino alle 21 del 29 ottobre.",
+      "url": "/notizie/sciopero-generale-30-ottobre-2026-orari-trasporti.html",
+      "section": "Italia",
+      "dateISO": "2026-10-20T18:36:00+02:00",
+      "dateLabel": "2026-10-20",
+      "image": "/assets/images/editorial-auto/sciopero-30-ottobre-precettazione-trasporti-usb-conferma-v1201-800.webp",
+      "imageAlt": "Treno Frecciarossa in partenza da Roma Termini con viaggiatori in salita",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/sciopero-30-ottobre-precettazione-trasporti-usb-conferma-v1201-480.webp 480w, /assets/images/editorial-auto/sciopero-30-ottobre-precettazione-trasporti-usb-conferma-v1201-800.webp 800w, /assets/images/editorial-auto/sciopero-30-ottobre-precettazione-trasporti-usb-conferma-v1201-1200.webp 1200w",
+      "updated": true,
+      "updatedAt": "2026-10-29T05:04:00+01:00",
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "21:00",
+          "label": "fine dello sciopero regionale odierno"
+        },
+        {
+          "icon": "•",
+          "value": "29-30 ottobre",
+          "label": "finestra nazionale differita"
+        },
+        {
+          "icon": "•",
+          "value": "204 T",
+          "label": "numero dell’ordinanza ministeriale"
+        }
+      ],
+      "featuredHighlights": []
     },
     {
       "title": "Trenitalia, sciopero in Emilia-Romagna dal 28 al 29 ottobre",
@@ -16207,7 +17360,7 @@
       "dateISO": "2026-10-20T05:27:00+02:00",
       "dateLabel": "2026-10-20",
       "image": "/assets/images/editorial-auto/kenya-paul-mackenzie-condannato-191-omicidi-v937-800.webp",
-      "imageAlt": "Ritratto editoriale IA neutrale di Paul Mackenzie su sfondo semplice; non è una fotografia documentaria.",
+      "imageAlt": "Ritratto editoriale neutrale. Ritratto editoriale IA neutrale di Paul Mackenzie su sfondo semplice; non è una fotografia documentaria.",
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/kenya-paul-mackenzie-condannato-191-omicidi-v937-480.webp 480w, /assets/images/editorial-auto/kenya-paul-mackenzie-condannato-191-omicidi-v937-800.webp 800w, /assets/images/editorial-auto/kenya-paul-mackenzie-condannato-191-omicidi-v937-1200.webp 1200w",
@@ -19218,7 +20371,7 @@
       "dateISO": "2026-10-19T11:52:00+02:00",
       "dateLabel": "2026-10-19",
       "image": "/assets/images/editorial-auto/australia-helen-haines-grave-dopo-attacco-veicolo-19-ottobre-2026-v937-800.webp",
-      "imageAlt": "Ritratto editoriale IA neutrale della deputata australiana Helen Haines su sfondo istituzionale; non è una fotografia documentaria.",
+      "imageAlt": "Ritratto editoriale neutrale. Ritratto editoriale IA neutrale della deputata australiana Helen Haines su sfondo istituzionale; non è una fotografia documentaria.",
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/australia-helen-haines-grave-dopo-attacco-veicolo-19-ottobre-2026-v937-480.webp 480w, /assets/images/editorial-auto/australia-helen-haines-grave-dopo-attacco-veicolo-19-ottobre-2026-v937-800.webp 800w, /assets/images/editorial-auto/australia-helen-haines-grave-dopo-attacco-veicolo-19-ottobre-2026-v937-1200.webp 1200w",
@@ -19251,7 +20404,7 @@
       "dateISO": "2026-10-19T11:44:00+02:00",
       "dateLabel": "2026-10-19",
       "image": "/assets/images/editorial-auto/corea-sud-jung-myung-seok-altri-33-anni-carcere-19-ottobre-2026-v889-800.webp",
-      "imageAlt": "Ritratto editoriale IA neutrale di Jung Myung-seok in un contesto giudiziario non documentario.",
+      "imageAlt": "Ritratto editoriale neutrale di Jung Myung-seok in un contesto giudiziario non documentario.",
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/corea-sud-jung-myung-seok-altri-33-anni-carcere-19-ottobre-2026-v889-480.webp 480w, /assets/images/editorial-auto/corea-sud-jung-myung-seok-altri-33-anni-carcere-19-ottobre-2026-v889-800.webp 800w, /assets/images/editorial-auto/corea-sud-jung-myung-seok-altri-33-anni-carcere-19-ottobre-2026-v889-1200.webp 1200w",
@@ -22554,7 +23707,7 @@
       "dateISO": "2026-10-17T23:00:00+02:00",
       "dateLabel": "2026-10-17",
       "image": "/assets/images/editorial-auto/francia-nunez-400-fermi-60-agenti-feriti-17-ottobre-2026-v875-800.webp",
-      "imageAlt": "Ritratto editoriale IA neutrale di Laurent Nuñez, ministro dell’Interno francese, senza rappresentazione degli scontri.",
+      "imageAlt": "Ritratto editoriale neutrale. Ritratto editoriale IA neutrale di Laurent Nuñez, ministro dell’Interno francese, senza rappresentazione degli scontri.",
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/francia-nunez-400-fermi-60-agenti-feriti-17-ottobre-2026-v875-480.webp 480w, /assets/images/editorial-auto/francia-nunez-400-fermi-60-agenti-feriti-17-ottobre-2026-v875-800.webp 800w, /assets/images/editorial-auto/francia-nunez-400-fermi-60-agenti-feriti-17-ottobre-2026-v875-1200.webp 1200w",
@@ -22589,7 +23742,7 @@
       "dateISO": "2026-10-17T22:52:00+02:00",
       "dateLabel": "2026-10-17",
       "image": "/assets/images/editorial-auto/francia-lecornu-cellula-interministeriale-crisi-17-ottobre-2026-v875-800.webp",
-      "imageAlt": "Ritratto editoriale IA neutrale di Sébastien Lecornu, primo ministro francese, senza ricostruire la riunione o gli scontri.",
+      "imageAlt": "Ritratto editoriale neutrale. Ritratto editoriale IA neutrale di Sébastien Lecornu, primo ministro francese, senza ricostruire la riunione o gli scontri.",
       "imageWidth": 800,
       "imageHeight": 450,
       "srcset": "/assets/images/editorial-auto/francia-lecornu-cellula-interministeriale-crisi-17-ottobre-2026-v875-480.webp 480w, /assets/images/editorial-auto/francia-lecornu-cellula-interministeriale-crisi-17-ottobre-2026-v875-800.webp 800w, /assets/images/editorial-auto/francia-lecornu-cellula-interministeriale-crisi-17-ottobre-2026-v875-1200.webp 1200w",
@@ -22688,7 +23841,7 @@
       "title": "Basket, Reyer Venezia rimonta la BC Roma e vince 104-98",
       "excerpt": "Gli orogranata recuperano nove punti dopo l’intervallo. Wiltjer chiude a quota 32 e Parks a 21 nell’anticipo della quarta giornata LBA.",
       "url": "/notizie/bc-roma-reyer-venezia-98-104-17-ottobre-2026.html",
-      "section": "Sport / Basket",
+      "section": "Sport",
       "dateISO": "2026-10-17T21:00:00+02:00",
       "dateLabel": "2026-10-17",
       "image": "/assets/images/editorial-auto/bc-roma-reyer-venezia-98-104-17-ottobre-2026-v874-800.webp",

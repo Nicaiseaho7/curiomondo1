@@ -1,16 +1,100 @@
 {
-  "version": 1200,
+  "version": 846,
   "items": [
     {
-      "title": "Fed ferma i tassi al 3,75-4%: due membri chiedono un rialzo",
-      "excerpt": "Il Fomc vota 10 a 2 per mantenere il costo del denaro. L’inflazione resta elevata e la banca centrale attende nuovi dati prima di cambiare rotta.",
-      "url": "/notizie/fed-tassi-fermi-3-75-4-due-voti-rialzo-ottobre-2026.html",
-      "section": "Economia"
+      "title": "Corea del Nord, circa dieci missili lanciati verso il mare",
+      "excerpt": "Seul rafforza sorveglianza e prontezza dopo la raffica partita dall'area di Wonsan; i vettori sarebbero caduti fuori dalla zona economica esclusiva giapponese",
+      "url": "/notizie/corea-nord-dieci-missili-mare-orientale-29-10-2026.html",
+      "section": "Mondo"
     },
     {
-      "title": "Samsung supera 100 mila miliardi di won di utile operativo",
-      "excerpt": "Il terzo trimestre segna un record mondiale per una società tecnologica. Memorie HBM4 e domanda per l’IA sostengono i conti, mentre mobile e apparecchiature restano in perdita.",
-      "url": "/notizie/samsung-record-utile-operativo-terzo-trimestre-2026-hbm4.html",
+      "title": "Taiwan segnala 53 navi cinesi nel Pacifico occidentale",
+      "excerpt": "La mappa diffusa dal Consiglio di sicurezza nazionale include 34 unità militari e la portaerei Liaoning; Pechino parla di addestramento annuale",
+      "url": "/notizie/taiwan-53-navi-cinesi-pacifico-29-10-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Amazon-Globalstar, via libera FCC all'operazione da 11,5 miliardi",
+      "excerpt": "L'acquisizione porta ad Amazon Leo spettro satellitare, infrastrutture e circa due dozzine di satelliti per accelerare i servizi diretti ai dispositivi",
+      "url": "/notizie/fcc-amazon-globalstar-via-libera-29-10-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "L'India prepara NVS-03, il satellite che rafforza NavIC",
+      "excerpt": "Il GSLV-F18 dovrebbe decollare da Sriharikota il 30 ottobre alle 19:21 italiane con nuovi orologi atomici e il segnale L1",
+      "url": "/notizie/india-lancio-nvs-03-navic-29-10-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "STMicroelectronics accelera: ricavi a 3,76 miliardi nel trimestre",
+      "excerpt": "La crescita annua raggiunge il 17,9% e il gruppo alza l'asticella per fine 2026, sostenuto da data center IA e satelliti in orbita bassa",
+      "url": "/notizie/stmicroelectronics-risultati-terzo-trimestre-2026.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Prysmian firma il trimestre migliore e alza ancora le stime",
+      "excerpt": "Ebitda rettificato a 851 milioni, ricavi trimestrali oltre 6,4 miliardi e obiettivi 2028 indicati come raggiungibili con due anni d'anticipo",
+      "url": "/notizie/prysmian-trimestre-record-alza-stime-29-10-2026.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Shell, utili rettificati a 10,8 miliardi e nuovo buyback",
+      "excerpt": "Il gruppo annuncia riacquisti azionari per 5 miliardi di dollari dopo un trimestre sostenuto da margini record nella raffinazione",
+      "url": "/notizie/shell-utili-buyback-cinque-miliardi-29-10-2026.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Société Générale porta l'utile dei nove mesi al record di 5,4 miliardi",
+      "excerpt": "La banca supera il target di redditività 2026, riduce i costi e chiude il terzo trimestre con 1,9 miliardi di utile",
+      "url": "/notizie/societe-generale-utile-record-nove-mesi-29-10-2026.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Magnum cresce del 9,6% e alza le previsioni per il 2026",
+      "excerpt": "Volumi in aumento del 7,3% e ricavi trimestrali a 2,5 miliardi: l'estate prolungata in Europa ha aggiunto fino a tre punti alla crescita",
+      "url": "/notizie/magnum-vendite-crescita-terzo-trimestre-29-10-2026.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Tassonomia Ue, l'EBA propone meno indicatori per banche e imprese",
+      "excerpt": "L'autorità bancaria chiede di eliminare due KPI, alleggerire i modelli e rendere più leggibile il Green Asset Ratio senza cancellare l'informazione ambientale",
+      "url": "/notizie/eba-semplificazione-tassonomia-ue-29-10-2026.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Ucraina, notte di droni su Mosca e Kharkiv: cinque feriti",
+      "excerpt": "Mosca rivendica un’intercettazione su larga scala, mentre un attacco russo ha colpito Kharkiv. I numeri delle due parti restano dichiarazioni militari da verificare.",
+      "url": "/notizie/ucraina-droni-mosca-attacco-kharkiv-29-ottobre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Incendio al sito nucleare Savannah River: emergenza revocata",
+      "excerpt": "Le fiamme sono state spente e i controlli radiologici non hanno rilevato contaminazione. Un lavoratore ha riportato ferite lievi; riaperti gli accessi al complesso.",
+      "url": "/notizie/savannah-river-incendio-laboratorio-emergenza-revocata.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "New York vieta ai chatbot di fingere legami umani con i minori",
+      "excerpt": "La legge firmata da Kathy Hochul colpisce funzioni considerate pericolose nelle app di compagnia basate sull’IA. Previsti poteri d’intervento per la procuratrice generale.",
+      "url": "/notizie/new-york-legge-chatbot-minori-legami-umani-vietati.html",
+      "section": "Tecnologia"
+    },
+    {
+      "title": "Terremoti nella notte: scossa M6 nelle Filippine, eventi anche in Italia",
+      "excerpt": "L’INGV ha registrato due eventi ravvicinati in mare nelle Filippine e scosse fra Vanuatu, Indonesia, Abruzzo e Toscana. Magnitudo e localizzazioni sono preliminari.",
+      "url": "/notizie/terremoti-notte-29-ottobre-filippine-vanuatu-italia.html",
+      "section": "Scienza"
+    },
+    {
+      "title": "Meteo 29 ottobre: nessuna allerta, vento forte sull’Adriatico",
+      "excerpt": "Il bollettino nazionale non segnala criticità meteo-idro significative. Venti nordorientali sui settori adriatici e mari localmente molto mossi richiedono attenzione.",
+      "url": "/notizie/meteo-29-ottobre-nessuna-allerta-vento-adriatico-mari-mossi.html",
+      "section": "Meteo"
+    },
+    {
+      "title": "Alphabet cresce del 25%, ma l’IA brucia cassa e pesa in Borsa",
+      "excerpt": "Ricavi a 127,6 miliardi di dollari e Google Cloud più che raddoppiato. Il mercato reagisce al flusso di cassa negativo e alla nuova accelerazione degli investimenti.",
+      "url": "/notizie/alphabet-risultati-trimestre-cloud-ia-cassa-2026.html",
       "section": "Economia"
     },
     {
@@ -20,52 +104,70 @@
       "section": "Economia"
     },
     {
-      "title": "Alphabet cresce del 25%, ma l’IA brucia cassa e pesa in Borsa",
-      "excerpt": "Ricavi a 127,6 miliardi di dollari e Google Cloud più che raddoppiato. Il mercato reagisce al flusso di cassa negativo e alla nuova accelerazione degli investimenti.",
-      "url": "/notizie/alphabet-risultati-trimestre-cloud-ia-cassa-2026.html",
+      "title": "Samsung supera 100 mila miliardi di won di utile operativo",
+      "excerpt": "Il terzo trimestre segna un record mondiale per una società tecnologica. Memorie HBM4 e domanda per l’IA sostengono i conti, mentre mobile e apparecchiature restano in perdita.",
+      "url": "/notizie/samsung-record-utile-operativo-terzo-trimestre-2026-hbm4.html",
       "section": "Economia"
     },
     {
-      "title": "Meteo 29 ottobre: nessuna allerta, vento forte sull’Adriatico",
-      "excerpt": "Il bollettino nazionale non segnala criticità meteo-idro significative. Venti nordorientali sui settori adriatici e mari localmente molto mossi richiedono attenzione.",
-      "url": "/notizie/meteo-29-ottobre-nessuna-allerta-vento-adriatico-mari-mossi.html",
-      "section": "Meteo"
+      "title": "Fed ferma i tassi al 3,75-4%: due membri chiedono un rialzo",
+      "excerpt": "Il Fomc vota 10 a 2 per mantenere il costo del denaro. L’inflazione resta elevata e la banca centrale attende nuovi dati prima di cambiare rotta.",
+      "url": "/notizie/fed-tassi-fermi-3-75-4-due-voti-rialzo-ottobre-2026.html",
+      "section": "Economia"
     },
     {
-      "title": "Terremoti nella notte: scossa M6 nelle Filippine, eventi anche in Italia",
-      "excerpt": "L’INGV ha registrato due eventi ravvicinati in mare nelle Filippine e scosse fra Vanuatu, Indonesia, Abruzzo e Toscana. Magnitudo e localizzazioni sono preliminari.",
-      "url": "/notizie/terremoti-notte-29-ottobre-filippine-vanuatu-italia.html",
-      "section": "Scienza"
+      "title": "Roma e Como aspettano l’ultimo respiro: due rimonte cambiano la nona giornata",
+      "excerpt": "Il Cagliari raggiunge i giallorossi all’81’, il Torino resiste fino allo stesso minuto. Poi arrivano sei gol decisivi in meno di un quarto d’ora.",
+      "url": "/notizie/roma-cagliari-torino-como-risultati-27-ottobre-2026.html",
+      "section": "Sport / Calcio"
     },
     {
-      "title": "New York vieta ai chatbot di fingere legami umani con i minori",
-      "excerpt": "La legge firmata da Kathy Hochul colpisce funzioni considerate pericolose nelle app di compagnia basate sull’IA. Previsti poteri d’intervento per la procuratrice generale.",
-      "url": "/notizie/new-york-legge-chatbot-minori-legami-umani-vietati.html",
-      "section": "Tecnologia"
+      "title": "Boston sopravvive all’overtime, ma la notte NBA si ferma davanti a tre infortuni pesanti",
+      "excerpt": "Celtics-Nets finisce 125-124. Oklahoma City perde Williams e Wallace a tempo indeterminato; Detroit rinuncia a Duren per almeno due settimane.",
+      "url": "/notizie/nba-risultati-infortuni-28-ottobre-2026.html",
+      "section": "Sport / Basket"
     },
     {
-      "title": "Incendio al sito nucleare Savannah River: emergenza revocata",
-      "excerpt": "Le fiamme sono state spente e i controlli radiologici non hanno rilevato contaminazione. Un lavoratore ha riportato ferite lievi; riaperti gli accessi al complesso.",
-      "url": "/notizie/savannah-river-incendio-laboratorio-emergenza-revocata.html",
-      "section": "Mondo"
+      "title": "Sepang riapre il Mondiale dopo il silenzio australiano: Márquez ha dieci punti da difendere",
+      "excerpt": "Sprint sabato e gara domenica alle 8 italiane. Aldeguer e Razgatlioglu sono fuori, Mir è atteso al rientro.",
+      "url": "/notizie/motogp-malesia-2026-orari-italiani-infortuni.html",
+      "section": "Sport / MotoGP"
     },
     {
-      "title": "Ucraina, notte di droni su Mosca e Kharkiv: cinque feriti",
-      "excerpt": "Mosca rivendica un’intercettazione su larga scala, mentre un attacco russo ha colpito Kharkiv. I numeri delle due parti restano dichiarazioni militari da verificare.",
-      "url": "/notizie/ucraina-droni-mosca-attacco-kharkiv-29-ottobre-2026.html",
-      "section": "Mondo"
+      "title": "Pérez resta il volto di Cadillac: il rinnovo fino al 2029 arriva prima dei punti",
+      "excerpt": "Il messicano prolunga alla vigilia del GP di casa e della sua trecentesima partenza. Il progetto sceglie continuità nonostante lo zero in classifica.",
+      "url": "/notizie/sergio-perez-cadillac-rinnovo-2029-formula-1.html",
+      "section": "Sport / Formula 1"
     },
     {
-      "title": "La speranza ci tiene in cammino o ci impedisce di accettare ciò che è già finito?",
-      "excerpt": "Continuare ha senso solo se si sa ancora verso dove.",
-      "url": "/domanda-del-giorno/la-speranza-ci-tiene-in-cammino-o-ci-impedisce-di-accettare-cio-che-e-gia-finito/",
-      "section": "Domanda del giorno"
+      "title": "La Champions torna subito: quattro trasferte e nessuna rete di sicurezza per le italiane",
+      "excerpt": "Inter e Roma giocano il 3 novembre; Napoli e Como il giorno dopo. Avversarie, orari italiani e cosa verificare prima di partire.",
+      "url": "/notizie/champions-league-italiane-3-4-novembre-2026-orari.html",
+      "section": "Sport / Calcio"
     },
     {
-      "title": "Il passo che la speranza deve ancora fare",
-      "excerpt": "Un percorso per distinguere l’attesa che protegge dal rinvio che tiene ferma una storia già conclusa.",
-      "url": "/biblioteca/vita-relazioni/domande-per-conoscersi/il-passo-che-la-speranza-deve-ancora-fare/",
-      "section": "Biblioteca"
+      "title": "L’Italia sceglie cinque nomi per la Davis, ma la lista può ancora cambiare",
+      "excerpt": "Cobolli, Musetti, Darderi, Bolelli e Vavassori convocati per Bologna. Sinner resta fuori dalla prima nomination.",
+      "url": "/notizie/davis-cup-2026-convocati-italia-bologna-biglietti-tv.html",
+      "section": "Sport / Tennis"
+    },
+    {
+      "title": "Vienna parla italiano, ma il tabellone obbliga gli azzurri a eliminarsi tra loro",
+      "excerpt": "Berrettini supera Etcheverry, Darderi vince il derby con Arnaldi. Cobolli e Dimitrov decidono il prossimo incrocio.",
+      "url": "/notizie/atp-vienna-2026-berrettini-darderi-arnaldi-cobolli-risultati.html",
+      "section": "Sport / Tennis"
+    },
+    {
+      "title": "Tre partite nello stesso mercoledì, ma per tre ragioni diverse: il volley riscrive il calendario",
+      "excerpt": "Conegliano-Vallefoglia e Scandicci-Novara recuperano la quinta giornata; Perugia-Padova anticipa dicembre per il Mondiale per club.",
+      "url": "/notizie/volley-28-ottobre-2026-conegliano-scandicci-perugia-orari-tv.html",
+      "section": "Sport / Volley"
+    },
+    {
+      "title": "Il ciclismo italiano non va in letargo: fango, downhill e gravel riempiono il weekend",
+      "excerpt": "Dal GP Guerciotti al Trofeo Città di Firenze, quattro discipline si incrociano fra il 30 ottobre e il 1° novembre.",
+      "url": "/notizie/ciclismo-italia-weekend-30-ottobre-1-novembre-2026.html",
+      "section": "Sport / Ciclismo"
     },
     {
       "title": "Spagna, 68 morti nello scontro fra treni: tre italiane disperse",
@@ -99,7 +201,7 @@
     },
     {
       "title": "Errani e Paolini ribaltano il primo set a Tokyo: il dettaglio che avvicina davvero le Finals",
-      "excerpt": "Le azzurre eliminano Danilina e Jiang 7-6, 6-2. Il successo vale i quarti, ma soprattutto rimette la qualificazione nelle loro mani.",
+      "excerpt": "Le azzurre sono ai quarti del doppio. Nel singolare Osaka ha eliminato Paolini 6-3, 7-6(4).",
       "url": "/notizie/errani-paolini-quarti-doppio-tokyo-corsa-wta-finals.html",
       "section": "Sport / Tennis"
     },
@@ -950,10 +1052,10 @@
       "section": "Sport"
     },
     {
-      "title": "Eurolega, doppio turno per Milano e Virtus: quattro partite in quattro giorni",
-      "excerpt": "Panathinaikos-Olimpia martedì alle 20:15; Virtus-Zalgiris mercoledì e Virtus-Beşiktaş venerdì alle 20:30. Orari, TV e biglietti.",
+      "title": "Milano cade ad Atene, Bologna perde Baldasso: il doppio turno cambia volto",
+      "excerpt": "Il Panathinaikos batte l’Olimpia 80-75. Virtus-Zalgiris si gioca alle 20:30 con diretta Sky, NOW e radio.",
       "url": "/notizie/eurolega-milano-virtus-programma-27-30-ottobre-2026.html",
-      "section": "Europa / Sport"
+      "section": "Sport / Basket"
     },
     {
       "title": "Champions femminile: Roma, Inter e Juventus in campo il 28 e 29 ottobre",
@@ -2559,7 +2661,7 @@
     },
     {
       "title": "Formula 1 in Messico dopo Austin: programma, orari italiani e diretta del weekend",
-      "excerpt": "Il weekend di Città del Messico va dal 30 ottobre al 1° novembre. Prove, qualifiche e gara sono convertite nell’ora di Roma; lo store F1 mostra tagliandi da 749,03 euro.",
+      "excerpt": "La gara di domenica scatta alle 20 italiane. Pérez resta in Cadillac almeno fino al 2029.",
       "url": "/notizie/formula-1-gp-messico-2026-orari-italiani-biglietti.html",
       "section": "Città del Messico / Sport"
     },
@@ -2723,7 +2825,7 @@
       "title": "Sciopero del 30 ottobre, treni regolari dopo il differimento",
       "excerpt": "Gruppo FS e Trenord annullano le variazioni annunciate per la protesta nazionale. Resta separato lo sciopero regionale in Emilia-Romagna fino alle 21 del 29 ottobre.",
       "url": "/notizie/sciopero-generale-30-ottobre-2026-orari-trasporti.html",
-      "section": "Italia / Italia"
+      "section": "Italia"
     },
     {
       "title": "Trenitalia, sciopero in Emilia-Romagna dal 28 al 29 ottobre",
@@ -4331,7 +4433,7 @@
       "title": "Basket, Reyer Venezia rimonta la BC Roma e vince 104-98",
       "excerpt": "Gli orogranata recuperano nove punti dopo l’intervallo. Wiltjer chiude a quota 32 e Parks a 21 nell’anticipo della quarta giornata LBA.",
       "url": "/notizie/bc-roma-reyer-venezia-98-104-17-ottobre-2026.html",
-      "section": "Sport / Basket"
+      "section": "Sport"
     },
     {
       "title": "Mantova-Palermo 0-2: Segre e Hernani decidono la sfida di Serie B",
@@ -12480,6 +12582,18 @@
       "excerpt": "I corpi sono stati estratti dalle macerie del quartiere Sabra di Gaza City quasi tre anni dopo il bombardamento. La cerimonia riapre il tema delle persone disperse e dell’identificazione delle vittime.",
       "url": "/notizie/gaza-funerale-112-vittime-attacco-2023.html",
       "section": "Gaza · Cronaca"
+    },
+    {
+      "title": "La speranza ci tiene in cammino o ci impedisce di accettare ciò che è già finito?",
+      "excerpt": "Continuare ha senso solo se si sa ancora verso dove.",
+      "url": "/domanda-del-giorno/la-speranza-ci-tiene-in-cammino-o-ci-impedisce-di-accettare-cio-che-e-gia-finito/",
+      "section": "Domanda del giorno"
+    },
+    {
+      "title": "Il passo che la speranza deve ancora fare",
+      "excerpt": "Un percorso per distinguere l’attesa che protegge dal rinvio che tiene ferma una storia già conclusa.",
+      "url": "/biblioteca/vita-relazioni/domande-per-conoscersi/il-passo-che-la-speranza-deve-ancora-fare/",
+      "section": "Biblioteca"
     },
     {
       "title": "Essere troppo emotivi è una debolezza o un modo più profondo di vivere?",
