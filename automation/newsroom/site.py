@@ -144,15 +144,171 @@ AZIONI = (
 )
 
 
-_FIXTURE = re.compile(r"([A-Za-zÀ-ÿ]{3,})\s*[-–]\s*([A-Za-zÀ-ÿ]{3,})")
-_SCORE = re.compile(r"(\d{1,2})\s*[-–]\s*(\d{1,2})")
+_FIXTURE = re.compile(r"([a-zà-ÿ]{3,})\s*[-–]\s*([a-zà-ÿ]{3,})")
+_SCORE = re.compile(r"\b(\d{1,3})\s*[-–]\s*(\d{1,3})\b")
+_MESI = re.compile(
+    r"gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre"
+)
+_BRAND = {"dazn", "sky", "now", "rai", "mediaset", "netflix", "prime", "video"}
+_CLUB = {
+    "milan", "inter", "juventus", "juve", "napoli", "roma", "lazio", "atalanta",
+    "fiorentina", "torino", "bologna", "genoa", "cagliari", "udinese", "monza",
+    "lecce", "verona", "venezia", "parma", "como", "frosinone", "sassuolo",
+    "cremonese", "empoli", "virtus", "olimpia", "besiktas", "zalgiris",
+    "olympiacos", "panathinaikos", "barcellona", "barcelona",
+}
+_ALIAS = {"juve": "juventus"}
+_NAZIONALI = {"italia", "francia", "spagna", "belgio", "germania", "portogallo", "inghilterra", "turchia", "bielorussia"}
+_CONTESTO_NAZIONALE = re.compile(r"\b(nazionale|azzurr\w*|calcio|nations|san siro|biglietti|stadio)\b")
+
+
+def _piatto(testo: str) -> str:
+    testo = (testo or "").casefold()
+    sostituzioni = str.maketrans({
+        "à": "a", "è": "e", "é": "e", "ì": "i", "ò": "o", "ù": "u",
+        "ş": "s", "ğ": "g", "ı": "i", "ç": "c", "ö": "o", "ü": "u",
+    })
+    return testo.translate(sostituzioni)
+
+
+def _nome_squadra(token: str) -> str:
+    return _ALIAS.get(token, token)
+
+
+def partite(title: str) -> set[tuple[str, str]]:
+    """Partite citate nel titolo: «Juventus-Napoli», il derby di Serie A, «Virtus … dal Beşiktaş»."""
+    n = _piatto(title)
+    trovate: set[tuple[str, str]] = set()
+    trasporto = bool(re.search(r"\b(treni|linea|stazione|binari|circolazione|ferrovia|cassino)\b", n))
+    if not trasporto:
+        for sinistra, destra in _FIXTURE.findall(n):
+            a, b = _nome_squadra(sinistra), _nome_squadra(destra)
+            if a == b:
+                continue
+            coppia = tuple(sorted((a, b))) + (("donne",) if re.search(r"\b(women|femminile|donne)\b", n) else ())
+            if a in _CLUB and b in _CLUB:
+                trovate.add(coppia)
+            elif a in _NAZIONALI and b in _NAZIONALI and _CONTESTO_NAZIONALE.search(n):
+                trovate.add(coppia)
+    if re.search(r"\bderby\b", n) and not re.search(r"\b(nba|dallas|basket|sole)\b", n):
+        if re.search(r"\bserie\b", n) or re.search(r"\b(milan|inter)\b", n):
+            trovate.add(("inter", "milan", "donne") if re.search(r"\b(women|femminile|donne)\b", n) else ("inter", "milan"))
+    if re.search(r"\bnazionale\b", n) and "francia" in n:
+        trovate.add(tuple(sorted(("francia", "italia"))) + (("donne",) if re.search(r"\b(women|femminile|donne)\b", n) else ()))
+    if re.search(r"\bnazionale\b", n) and "belgio" in n:
+        trovate.add(tuple(sorted(("belgio", "italia"))) + (("donne",) if re.search(r"\b(women|femminile|donne)\b", n) else ()))
+    trovate |= _eventi(n)
+    if not trasporto:
+        club = "|".join(sorted(_CLUB, key=len, reverse=True))
+        for match in re.finditer(
+            rf"\b({club})\b.{{0,80}}?\b(?:contro|dal|dalla|batte|sconfigge|supera|ospita|riceve)\b.{{0,40}}?\b({club})\b",
+            n,
+        ):
+            a, b = _nome_squadra(match.group(1)), _nome_squadra(match.group(2))
+            if a != b:
+                base = tuple(sorted((a, b)))
+                trovate.add(base + (("donne",) if re.search(r"\b(women|femminile|donne)\b", n) else ()))
+    return trovate
+
+
+_PISTE_F1 = (
+    "messico", "austin", "singapore", "monza", "baku", "bahrain", "sepang",
+    "suzuka", "silverstone", "imola", "miami", "qatar", "ungheria", "canada",
+    "australia", "giappone", "spa",
+)
+_PISTE_MOTO = (
+    ("sepang", "malesia"), ("malesia", "malesia"), ("malaysia", "malesia"),
+    ("phillip", "australia"), ("australia", "australia"),
+    ("mandalika", "indonesia"), ("indonesia", "indonesia"),
+    ("motegi", "giappone"), ("giappone", "giappone"),
+    ("spielberg", "austria"), ("austria", "austria"),
+)
+
+
+def _evento_pista(n: str, piste) -> str | None:
+    """La pista citata per prima nel titolo, non un accenno al turno successivo."""
+    scelta = None
+    indice = None
+    for voce in piste:
+        token = voce[0] if isinstance(voce, tuple) else voce
+        canon = voce[1] if isinstance(voce, tuple) else voce
+        trovato = n.find(token)
+        if trovato >= 0 and (indice is None or trovato < indice):
+            indice = trovato
+            scelta = canon
+    return scelta
+
+
+def _eventi(n: str) -> set[tuple]:
+    """Stesso appuntamento anche senza due squadre nel titolo.
+
+    Un Gran Premio, la stessa coppia nello stesso torneo o lo stesso
+    protagonista non diventano un secondo articolo solo perché cambia
+    l'orario o il parziale.
+    """
+    trovate: set[tuple] = set()
+    if re.search(r"\b(formula\s*1|\bf1\b)", n):
+        place = _evento_pista(n, _PISTE_F1)
+        if place:
+            trovate.add(("gp", "f1", place))
+    if "motogp" in n:
+        place = _evento_pista(n, _PISTE_MOTO)
+        if place:
+            trovate.add(("gp", "motogp", place))
+    if "errani" in n and "paolini" in n:
+        for torneo in ("tokyo", "wuhan", "pechino", "parigi", "wimbledon", "finals"):
+            if torneo in n:
+                trovate.add(("tennis", "errani", "paolini", torneo))
+                break
+    if "cretti" in n:
+        trovate.add(("atleta", "cretti"))
+    return trovate
+
+
+def e_risultato(title: str) -> bool:
+    """Vero se il titolo porta un punteggio, non un orario e non una data."""
+    n = _piatto(title)
+    match = _SCORE.search(n)
+    if not match:
+        return False
+    if _MESI.search(n[match.end(): match.end() + 24]):
+        return False
+    sinistra, destra = int(match.group(1)), int(match.group(2))
+    return sinistra <= 150 and destra <= 150
+
+
+def voci_distinte(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Una sola anteprima per partita. Il risultato resta, l'anteprima più vecchia no.
+
+    L'elenco deve arrivare dal più recente. Un programma che ripete una partita
+    già raccontata da un pezzo più nuovo esce di scena insieme all'anteprima
+    precedente: il lettore non deve trovare tre volte lo stesso incontro.
+    """
+    viste: set[tuple[str, str]] = set()
+    scelte = []
+    for item in items:
+        chiavi = partite(str(item.get("title") or ""))
+        if not chiavi:
+            scelte.append(item)
+            continue
+        if e_risultato(str(item.get("title") or "")):
+            scelte.append(item)
+            viste |= chiavi
+            continue
+        if chiavi & viste:
+            continue
+        scelte.append(item)
+        viste |= chiavi
+    return scelte
 
 
 def _story_keys(title: str) -> set[tuple]:
     """Stessa partita e stesso tipo di pezzo: due anteprime, o due volte lo stesso risultato."""
-    fixtures = [tuple(sorted((a.casefold(), b.casefold()))) for a, b in _FIXTURE.findall(title)]
-    score = _SCORE.search(title)
-    score_key = (score.group(1), score.group(2)) if score else None
+    fixtures = list(partite(title))
+    match = _SCORE.search(_piatto(title))
+    if match and _MESI.search(_piatto(title)[match.end(): match.end() + 24]):
+        match = None
+    score_key = (match.group(1), match.group(2)) if match else None
     return {(fixture, score_key) for fixture in fixtures}
 
 
@@ -510,9 +666,10 @@ def sync_surfaces(
     search_path.write_text(json.dumps(search, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     home_path = ROOT / "index.html"; doc = html.fromstring(home_path.read_text(encoding="utf-8"))
+    visibili = voci_distinte(feed_items)
     for track in doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," ticker-track ")]'):
         for child in list(track): track.remove(child)
-        for n, item in enumerate(feed_items[:10]):
+        for n, item in enumerate(visibili[:10]):
             attrs = {"class": "ticker-news", "href": item["url"]}
             if track.tag == "div" and n >= 6: attrs["tabindex"] = "-1"
             etree.SubElement(track, "a", attrs).text = item["title"]
@@ -520,7 +677,7 @@ def sync_surfaces(
     # In passato featured_url poteva mantenere in home una selezione vecchia mentre
     # ticker e ultime notizie avanzavano, facendo sembrare la sezione bloccata.
     featured = feed_items[0]
-    ordered = feed_items[1:]
+    ordered = visibili[1:] if visibili and visibili[0].get("url") == featured.get("url") else visibili
     old_featured = doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]')[0]
     old_featured.getparent().replace(old_featured, _featured(featured))
     for link in doc.xpath('//link[@rel="preload"][@as="image"]')[1:]:
@@ -544,16 +701,16 @@ def sync_surfaces(
     for child in list(cards): cards.remove(child)
     for item in ordered[5:44]: cards.append(_card(item))
     cards.set("data-initial-count", str(min(39, max(0, len(ordered) - 5))))
-    _sync_ultima_ora(doc, feed_items)
+    _sync_ultima_ora(doc, visibili)
     home_path.write_text('<!doctype html>\n' + html.tostring(doc, encoding="unicode", method="html"), encoding="utf-8")
     subprocess.run(["node", str(ROOT / "tools/render_home_editorial.js")], cwd=ROOT, check=True)
 
     archive_path = ROOT / "notizie/index.html"; archive = html.fromstring(archive_path.read_text(encoding="utf-8"))
     main = archive.xpath('//main')[0]; lead = main.xpath('./p[1]')
-    if lead: lead[0].text = f"{len(feed_items)} articoli verificati e promossi, ordinati per data."
+    if lead: lead[0].text = f"{len(visibili)} articoli verificati e promossi, ordinati per data."
     ul = main.xpath('./ul')[0]
     for child in list(ul): ul.remove(child)
-    for item in feed_items:
+    for item in visibili:
         li = etree.SubElement(ul, "li"); a = etree.SubElement(li, "a", href=item["url"])
         etree.SubElement(a, "strong").text = item["title"]; etree.SubElement(a, "span").text = item["dateLabel"]
     archive_path.write_text('<!doctype html>\n' + html.tostring(archive, encoding="unicode", method="html"), encoding="utf-8")

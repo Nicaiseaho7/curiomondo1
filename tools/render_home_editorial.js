@@ -161,7 +161,79 @@ const curiositaRail = () => {
 const feed = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/home-feed-v210.json'), 'utf8'));
 const config = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/homepage-config-v504.json'), 'utf8'));
 const overrides = config.articles || {};
-const items = (feed.items || []).map((entry) => ({ ...entry, ...(overrides[entry.url] || {}) }));
+const CLUB = new Set('milan inter juventus napoli roma lazio atalanta fiorentina torino bologna genoa cagliari udinese monza lecce verona venezia parma como frosinone sassuolo cremonese empoli virtus olimpia besiktas zalgiris olympiacos panathinaikos barcellona barcelona'.split(' '));
+const NAZIONALI = new Set('italia francia spagna belgio germania portogallo inghilterra turchia bielorussia'.split(' '));
+const piatto = (value) => String(value || '').toLocaleLowerCase('it')
+  .replace(/[àá]/g, 'a').replace(/[èé]/g, 'e').replace(/[ìí]/g, 'i').replace(/[òó]/g, 'o').replace(/[ùú]/g, 'u')
+  .replace(/ş/g, 's').replace(/ğ/g, 'g').replace(/ı/g, 'i').replace(/ç/g, 'c').replace(/ö/g, 'o').replace(/ü/g, 'u');
+const nomeSquadra = (token) => (token === 'juve' ? 'juventus' : token);
+const partiteDi = (title) => {
+  const n = piatto(title);
+  const trovate = new Set();
+  const trasporto = /\b(treni|linea|stazione|binari|circolazione|ferrovia|cassino)\b/.test(n);
+  if (!trasporto) {
+    const fixture = /([a-z]{3,})\s*[-–]\s*([a-z]{3,})/g;
+    let match;
+    while ((match = fixture.exec(n))) {
+      const a = nomeSquadra(match[1]);
+      const b = nomeSquadra(match[2]);
+      if (a === b) continue;
+      const donne = /\b(women|femminile|donne)\b/.test(n) ? '|donne' : '';
+      const coppia = [a, b].sort().join('|') + donne;
+      if (CLUB.has(a) && CLUB.has(b)) trovate.add(coppia);
+      else if (NAZIONALI.has(a) && NAZIONALI.has(b) && /\b(nazionale|azzurr\w*|calcio|nations|san siro|biglietti|stadio)\b/.test(n)) trovate.add(coppia);
+    }
+    const clubs = [...CLUB].sort((a, b) => b.length - a.length).join('|');
+    const legato = new RegExp(`\\b(${clubs})\\b.{0,80}?\\b(?:contro|dal|dalla|batte|sconfigge|supera|ospita|riceve)\\b.{0,40}?\\b(${clubs})\\b`, 'g');
+    while ((match = legato.exec(n))) {
+      const a = nomeSquadra(match[1]);
+      const b = nomeSquadra(match[2]);
+      if (a !== b) trovate.add([a, b].sort().join('|') + (/\b(women|femminile|donne)\b/.test(n) ? '|donne' : ''));
+    }
+  }
+  if (/\bderby\b/.test(n) && !/\b(nba|dallas|basket|sole)\b/.test(n) && (/\bserie\b/.test(n) || /\b(milan|inter)\b/.test(n))) trovate.add('inter|milan' + (/\b(women|femminile|donne)\b/.test(n) ? '|donne' : ''));
+  if (/\bnazionale\b/.test(n) && n.includes('francia')) trovate.add('francia|italia' + (/\b(women|femminile|donne)\b/.test(n) ? '|donne' : ''));
+  if (/\bnazionale\b/.test(n) && n.includes('belgio')) trovate.add('belgio|italia' + (/\b(women|femminile|donne)\b/.test(n) ? '|donne' : ''));
+  if (/\b(formula\s*1|\bf1\b)/.test(n)) {
+    const piste = ['messico', 'austin', 'singapore', 'monza', 'baku', 'bahrain', 'sepang', 'suzuka', 'silverstone', 'imola', 'miami', 'qatar', 'ungheria', 'canada', 'australia', 'giappone', 'spa'];
+    const place = piste.map((pista) => [n.indexOf(pista), pista]).filter(([index]) => index >= 0).sort((a, b) => a[0] - b[0])[0];
+    if (place) trovate.add('gp|f1|' + place[1]);
+  }
+  if (n.includes('motogp')) {
+    const piste = [['sepang', 'malesia'], ['malesia', 'malesia'], ['malaysia', 'malesia'], ['phillip', 'australia'], ['australia', 'australia'], ['mandalika', 'indonesia'], ['indonesia', 'indonesia'], ['motegi', 'giappone'], ['giappone', 'giappone'], ['spielberg', 'austria'], ['austria', 'austria']];
+    const place = piste.map(([token, canon]) => [n.indexOf(token), canon]).filter(([index]) => index >= 0).sort((a, b) => a[0] - b[0])[0];
+    if (place) trovate.add('gp|motogp|' + place[1]);
+  }
+  if (n.includes('errani') && n.includes('paolini')) {
+    const tornei = ['tokyo', 'wuhan', 'pechino', 'parigi', 'wimbledon', 'finals'];
+    const torneo = tornei.find((nome) => n.includes(nome));
+    if (torneo) trovate.add('tennis|errani|paolini|' + torneo);
+  }
+  if (n.includes('cretti')) trovate.add('atleta|cretti');
+  return trovate;
+};
+const eRisultato = (title) => {
+  const n = piatto(title);
+  const match = n.match(/\b(\d{1,3})\s*[-–]\s*(\d{1,3})\b/);
+  if (!match) return false;
+  const dopo = n.slice(match.index + match[0].length, match.index + match[0].length + 24);
+  if (/gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre/.test(dopo)) return false;
+  return Number(match[1]) <= 150 && Number(match[2]) <= 150;
+};
+const vociDistinte = (voci) => {
+  const viste = new Set();
+  const scelte = [];
+  voci.forEach((item) => {
+    const chiavi = partiteDi(item.title);
+    if (!chiavi.size) { scelte.push(item); return; }
+    if (eRisultato(item.title)) { scelte.push(item); chiavi.forEach((k) => viste.add(k)); return; }
+    if ([...chiavi].some((k) => viste.has(k))) return;
+    scelte.push(item);
+    chiavi.forEach((k) => viste.add(k));
+  });
+  return scelte;
+};
+const items = vociDistinte((feed.items || []).map((entry) => ({ ...entry, ...(overrides[entry.url] || {}) })));
 const allocation = api.allocate(items, { now: new Date(), latestCapacity: 0, smallCardsPerCategory: 11 });
 const ranked = items.slice().sort((a, b) => {
   const left = api.firstPublished(b);

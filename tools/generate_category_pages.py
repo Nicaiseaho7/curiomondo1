@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 import html
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "automation"))
+from newsroom.site import voci_distinte
 DATA = ROOT / "assets/data/search-index-v210.json"
 FEED = ROOT / "assets/data/home-feed-v210.json"
 
@@ -117,6 +120,7 @@ def main():
             item.setdefault("srcset", voce.get("srcset", ""))
     for slug, (label, description, terms) in CATEGORIES.items():
         selected = [item for item in news if any(term in normalize(" ".join((item.get("section", ""), item.get("title", "")))) for term in terms)]
+        selected = voci_distinte(selected)
         target = ROOT / "categorie" / slug / "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(render(slug, label, description, selected), encoding="utf-8")
