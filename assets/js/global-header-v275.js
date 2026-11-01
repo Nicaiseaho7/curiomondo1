@@ -1,6 +1,44 @@
 /* CurioMondo v275 — tema dell'intestazione interna unica. */
 (() => {
   'use strict';
+
+  const brandStyle=document.createElement("style");
+  brandStyle.id="cm-brand-visibility";
+  brandStyle.textContent=`
+    .cm-global-header__inner{min-height:82px}
+    .cm-global-header__brand,
+    .cm-global-header__brand span[aria-hidden]{
+      color:#10233c!important;
+      -webkit-text-fill-color:#10233c!important;
+      font-weight:900!important;
+      font-size:clamp(2.05rem,8.8vw,2.9rem)!important;
+      letter-spacing:-.05em!important;
+      line-height:.9!important;
+      text-shadow:none!important;
+    }
+    .cm-global-header__brand span span{
+      color:#1d4ed8!important;
+      -webkit-text-fill-color:#1d4ed8!important;
+      text-shadow:none!important;
+    }
+    html.cm-dark .cm-global-header__brand,
+    html.cm-dark .cm-global-header__brand span[aria-hidden],
+    html.dark .cm-global-header__brand,
+    html.dark .cm-global-header__brand span[aria-hidden]{
+      color:#fff!important;
+      -webkit-text-fill-color:#fff!important;
+    }
+    html.cm-dark .cm-global-header__brand span span,
+    html.dark .cm-global-header__brand span span{
+      color:#8eb6ff!important;
+      -webkit-text-fill-color:#8eb6ff!important;
+    }
+    @media(max-width:600px){
+      .cm-global-header__inner{min-height:74px}
+      .cm-global-header__brand{font-size:clamp(1.95rem,8.2vw,2.25rem)!important}
+    }
+  `;
+  document.head.appendChild(brandStyle);
   document.querySelectorAll('.cm-global-header__brand').forEach((link) => {
     link.addEventListener('click', (event) => {
       event.preventDefault();

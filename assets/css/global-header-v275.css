@@ -24,7 +24,7 @@
 .cm-global-header__inner{
   box-sizing:border-box;
   width:min(960px,calc(100% - 28px));
-  min-height:74px;
+  min-height:82px;
   margin:0 auto;
   display:grid;
   grid-template-columns:48px minmax(0,1fr) 48px;
@@ -60,32 +60,32 @@
 .cm-global-header__brand span[aria-hidden]{
   justify-self:center;
   min-width:0;
-  color:#fff!important;
-  -webkit-text-fill-color:#fff!important;
+  color:#10233c!important;
+  -webkit-text-fill-color:#10233c!important;
   background:none!important;
   -webkit-background-clip:border-box!important;
   font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
-  font-weight:700;
-  font-size:clamp(1.85rem,6.6vw,2.28rem);
-  line-height:.92;
-  letter-spacing:-.03em;
+  font-weight:900;
+  font-size:clamp(2.05rem,8.8vw,2.9rem);
+  line-height:.9;
+  letter-spacing:-.05em;
   text-decoration:none;
   white-space:nowrap;
   text-rendering:geometricPrecision;
   -webkit-font-smoothing:antialiased;
   font-kerning:normal;
-  text-shadow:0 1px 0 #031020,0 2px 6px rgba(3,16,32,.55);
+  text-shadow:none;
 }
 .cm-global-header__brand{justify-self:center}
 .cm-global-header__brand > span:not([aria-hidden]),
 .cm-global-header__brand span span{
-  color:#245fd6!important;
-  -webkit-text-fill-color:#245fd6!important;
+  color:#1d4ed8!important;
+  -webkit-text-fill-color:#1d4ed8!important;
   background:none!important;
   -webkit-background-clip:border-box!important;
   font:inherit;
   letter-spacing:inherit;
-  text-shadow:0 1px 0 #031020,0 2px 6px rgba(3,16,32,.55);
+  text-shadow:none;
 }
 
 .cm-global-header__back:hover,
@@ -154,9 +154,9 @@ html.cm-dark .cm-insight :where(h2,p,span,strong,small,b){
 }
 
 @media(max-width:600px){
-  .cm-global-header__inner{width:calc(100% - 20px);min-height:68px;grid-template-columns:44px minmax(0,1fr) 44px;gap:8px}
+  .cm-global-header__inner{width:calc(100% - 20px);min-height:74px;grid-template-columns:44px minmax(0,1fr) 44px;gap:8px}
   .cm-global-header__back,.cm-global-header__theme{width:42px;height:42px}
-  .cm-global-header__brand{font-size:clamp(1.58rem,7.2vw,1.82rem)}
+  .cm-global-header__brand{font-size:clamp(1.95rem,8.2vw,2.25rem)}
 }
 
 @media(prefers-reduced-motion:reduce){
