@@ -1,6 +1,29 @@
 /* CurioMondo v275 — tema dell'intestazione interna unica. */
 (() => {
   'use strict';
+  const restore = document.createElement("style");
+  restore.id = "cm-inner-brand-restore";
+  restore.textContent = `
+    .cm-global-header__brand,
+    .cm-global-header__brand span[aria-hidden]{
+      color:#fff!important;
+      -webkit-text-fill-color:#fff!important;
+      font-weight:700!important;
+      font-size:clamp(1.85rem,6.6vw,2.28rem)!important;
+      letter-spacing:-.03em!important;
+      line-height:.92!important;
+      text-shadow:0 1px 0 #031020,0 2px 6px rgba(3,16,32,.55)!important;
+    }
+    .cm-global-header__brand span span{
+      color:#245fd6!important;
+      -webkit-text-fill-color:#245fd6!important;
+    }
+    @media(max-width:600px){
+      .cm-global-header__brand{font-size:clamp(1.58rem,7.2vw,1.82rem)!important}
+    }
+  `;
+  document.head.appendChild(restore);
+
   document.querySelectorAll('.cm-global-header__brand').forEach((link) => {
     link.addEventListener('click', (event) => {
       event.preventDefault();
