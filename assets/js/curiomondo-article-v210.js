@@ -1,6 +1,24 @@
 /* One controller for every article, including legacy pages. */
 (() => {
   'use strict';
+  const fix = document.createElement("style");
+  fix.id = "cm-insight-sources-fix";
+  fix.textContent = `
+    .cm-insight h2{margin:0 0 18px;color:#f8fbff;font:900 .72rem/1.3 system-ui;letter-spacing:.16em;text-transform:uppercase}
+    @media(max-width:700px){
+      .cm-insight,.cm-data-cube{overflow:visible}
+      .cm-insight-grid,.cm-data-grid{
+        display:grid!important;grid-auto-flow:row!important;grid-template-columns:1fr!important;
+        grid-auto-columns:auto!important;overflow:visible!important;gap:10px!important
+      }
+      .cm-insight-grid>div,.cm-data-grid>div{width:auto!important;min-width:0!important;min-height:0!important}
+      .cm-insight-grid strong,.cm-insight-grid b,.cm-data-grid strong,.cm-data-grid b{
+        font-size:1.45rem!important;white-space:normal!important;overflow-wrap:anywhere
+      }
+    }
+    .art-sources>details{margin:0;padding:0;border:0;background:transparent;box-shadow:none}
+  `;
+  document.head.appendChild(fix);
   const CM=window.CM,article=document.querySelector('.art-body');if(!CM||!article)return;
   const url=location.pathname,id=document.body.dataset.articleId||url.split('/').filter(Boolean).pop()?.replace(/\.html$/,'')||'';
   const routeKey=value=>{try{let path=decodeURIComponent(new URL(value,location.href).pathname).replace(/\/index\.html$/i,'/').replace(/\.html$/i,'').replace(/\/+$/,'');return path||'/';}catch{return '';}};
