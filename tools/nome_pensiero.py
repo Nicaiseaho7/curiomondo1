@@ -1,7 +1,7 @@
 """Assegna il pensiero con il nome sulle notizie.
 
 Nomi: i 3.000 più usati, in assets/data/nomi-italiani.json.
-Frasi: parlate, una per notizia, in assets/data/frasi-nome.json.
+Frasi: brevi, motivazionali ed emotive, una per notizia, in assets/data/frasi-nome.json.
 """
 from __future__ import annotations
 

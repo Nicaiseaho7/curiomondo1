@@ -85,18 +85,17 @@ Ogni pagina in `/notizie/` porta, in fondo alla pagina e fuori dal corpo della n
 
 Il blocco è un piccolo riquadro distinto, l’ultimo elemento visibile di `<main>`. Sta dopo le fonti e, quando c’è, dopo «Potrebbe interessarti anche». Non va mai sopra i correlati: lo script che li inserisce li mette prima del pensiero, mai dopo. È un `<aside>`, non un paragrafo dell’articolo e non entra nel JSON-LD. Il testo è HTML vero, leggibile da persone e da Google: non è un’immagine, non è nascosto, non è pubblicità.
 
-In cima al riquadro c’è la riga «Un pensiero per» e, sotto, il nome. Poi la frase. Esempio, non da ricopiare: **Un pensiero per Valentina** — Oggi hai già fatto abbastanza.
+In cima al riquadro c’è la riga «Un pensiero per» e, sotto, il nome. Poi la frase. Esempio, non da ricopiare: **Un pensiero per Valentina** — Puoi farcela, anche oggi.
 
-Il messaggio è dedicato a chi porta quel nome. Una frase sola, corta, e il senso si capisce al primo lettura: un permesso, un augurio o un consiglio concreto. Esempi del tono giusto: «Oggi hai già fatto abbastanza», «Puoi dire di no», «Se hai sete, bevi». Non si usano immagini da interpretare, elenchi di faccende, né slogan da poster («sei più forte», «non mollare», «credi in te», «i piccoli passi»). Niente hashtag, niente riferimenti alla notizia, a CurioMondo, alla politica o a marchi.
+Il messaggio è dedicato a chi porta quel nome. Una frase sola, corta, motivazionale ed emotiva: il senso si capisce al primo lettura. Esempi del tono giusto: «Puoi farcela, anche oggi», «Qualcuno ti vuole bene, anche se non lo dice», «Il tuo cuore merita pace». Niente elenchi, niente hashtag, niente riferimenti alla notizia, a CurioMondo, alla politica o a marchi. La frase resta comprensibile senza metafore da decifrare.
 
 Regole di assegnazione:
 
-- Un nome e un messaggio per pagina, fissati alla prima pubblicazione.
-- Un aggiornamento dello stesso articolo non cambia nome né frase. Spostare il riquadro in fondo pagina non è un cambio di messaggio.
+- Un nome e un messaggio per pagina. Il 1° novembre 2026, su richiesta del proprietario, tutte le frasi già online sono state sostituite con frasi brevi, motivazionali ed emotive: i nomi non sono cambiati. Da quel momento un aggiornamento dell’articolo non cambia più né il nome né la frase.
 - Il catalogo è `assets/data/nomi-italiani.json`: i **3.000 nomi propri più usati in Italia**, in ordine di diffusione. I primi mille seguono la classifica della popolazione (Maria, Giuseppe, Anna e così via). Non si usano nomi rari fuori da questa lista.
 - Ogni notizia nuova prende il primo nome del catalogo non ancora presente in `/notizie/`. Si ripete un nome solo dopo che i 3.000 sono stati usati tutti, e comunque non prima di 40 notizie.
 - La stessa frase non si riusa. Si cambia il modo di dirla, non si gira un modello.
-- Le frasi nuove si prendono da `assets/data/frasi-nome.json`, la prima non ancora usata. Sono frasi parlate, già pronte. Non si generano al momento accoppiando due slogan.
+- Le frasi nuove si prendono da `assets/data/frasi-nome.json`, la prima non ancora usata. Sono frasi brevi, motivazionali ed emotive, già pronte. Non si generano al momento accoppiando due pezzi.
 - Solo il nome proprio, mai il cognome.
 - Se la pagina ha già un pensiero, non lo si sostituisce. L’eccezione già applicata il 30 settembre 2026 è l’estensione a tutto il catalogo: Valentina resta sull’articolo delle suppletive di Reggio.
 
@@ -105,7 +104,7 @@ Senza questo blocco la notizia non è pubblicabile.
 Markup canonico, ultimo elemento di `<main>`:
 
 ```html
-<aside class="cm-name-card" aria-label="Un pensiero per Valentina"><p class="cm-name-card__label">Un pensiero per <strong class="cm-name-note__name">Valentina</strong></p><p class="cm-name-card__text"><span class="cm-name-note__text">Oggi hai già fatto abbastanza.</span></p></aside>
+<aside class="cm-name-card" aria-label="Un pensiero per Valentina"><p class="cm-name-card__label">Un pensiero per <strong class="cm-name-note__name">Valentina</strong></p><p class="cm-name-card__text"><span class="cm-name-note__text">Puoi farcela, anche oggi.</span></p></aside>
 ```
 
 Lo stile è quello del riquadro in `global-header-v275.css`: piccolo, centrato, nome in blu, frase sotto, leggibile su telefono e desktop e in modalità scura. Non rimetterlo nell’header.
