@@ -1,7 +1,427 @@
 {
-  "version": 863,
+  "version": 864,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "firenze-cortei-perquisizioni-digos-denunce-tramvia-2026-v1337",
+      "article": "/notizie/firenze-cortei-perquisizioni-digos-denunce-tramvia-2026.html",
+      "alt": "Polizia alla fermata della tramvia di Santa Maria Novella, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/firenze-cortei-perquisizioni-digos-denunce-tramvia-2026-v1337-480.webp",
+          "sha256": "921b0764f0700fd900bd313c70bf963ca4306489ad868c14ccf3aa2cc1cd88ac",
+          "bytes": 35030
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/firenze-cortei-perquisizioni-digos-denunce-tramvia-2026-v1337-800.webp",
+          "sha256": "2c5d5a868d86ca57c6f778f4bdadd422c1f8b016d2ddba8d32c8e159034da507",
+          "bytes": 73026
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/firenze-cortei-perquisizioni-digos-denunce-tramvia-2026-v1337-1200.webp",
+          "sha256": "8b27d9ac6cb10bec4f65ede79edefbdcd4e219fcfa4080342ac550dfd3bcc819",
+          "bytes": 125108
+        }
+      ]
+    },
+    {
+      "key": "torino-guerrieri-no-vax-proscioglimenti-motivazioni-2026-v1337",
+      "article": "/notizie/torino-guerrieri-no-vax-proscioglimenti-motivazioni-2026.html",
+      "alt": "Aula del Tribunale di Torino con fascicoli della sentenza, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/torino-guerrieri-no-vax-proscioglimenti-motivazioni-2026-v1337-480.webp",
+          "sha256": "801e1aaf5f26b0de71f3bf0ab902070eca6f56c50fbe170b1ced1ee6f26e3525",
+          "bytes": 26402
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/torino-guerrieri-no-vax-proscioglimenti-motivazioni-2026-v1337-800.webp",
+          "sha256": "ca1e72baa17dfb9f6cd5da6de42c971d85b419ea28b2d0ddf6696780890069af",
+          "bytes": 59478
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/torino-guerrieri-no-vax-proscioglimenti-motivazioni-2026-v1337-1200.webp",
+          "sha256": "21d19593c70e23c9ff6f1db97b0ab51cee3d1f4df8a38d3aec3f0da586c56db4",
+          "bytes": 107996
+        }
+      ]
+    },
+    {
+      "key": "valseriana-ricerche-escursionista-scomparso-valgoglio-2026-v1337",
+      "article": "/notizie/valseriana-ricerche-escursionista-scomparso-valgoglio-2026.html",
+      "alt": "Vigili del Fuoco e Soccorso Alpino durante una ricerca in montagna, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/valseriana-ricerche-escursionista-scomparso-valgoglio-2026-v1337-480.webp",
+          "sha256": "89350750fa3708e015ff2fa75695c4a0d3faf63c7deb07292142b35131bc0464",
+          "bytes": 47484
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/valseriana-ricerche-escursionista-scomparso-valgoglio-2026-v1337-800.webp",
+          "sha256": "946abd15bc68ced3670f3583e88a52b643c8ca92cdd9d81dbc38f8a6bcd6478f",
+          "bytes": 109042
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/valseriana-ricerche-escursionista-scomparso-valgoglio-2026-v1337-1200.webp",
+          "sha256": "52fe87436a3e1479504ecbdd31b9d35448815926cde3e80537de6aa692a94f83",
+          "bytes": 194836
+        }
+      ]
+    },
+    {
+      "key": "frosinone-operaio-morto-caduta-scuola-autopsia-2026-v1337",
+      "article": "/notizie/frosinone-operaio-morto-caduta-scuola-autopsia-2026.html",
+      "alt": "Ispettori SPRESAL e Polizia verificano un cantiere scolastico a Frosinone, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/frosinone-operaio-morto-caduta-scuola-autopsia-2026-v1337-480.webp",
+          "sha256": "b14245270cac90ba96109fe48fb42f6e29c37f3e94166a6f021e9bdaa9c93e5d",
+          "bytes": 41102
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/frosinone-operaio-morto-caduta-scuola-autopsia-2026-v1337-800.webp",
+          "sha256": "9904c5eab4a45d5af3025b53c7b2ee9375038f8499cf1447333a7a5b22dafc5b",
+          "bytes": 91960
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/frosinone-operaio-morto-caduta-scuola-autopsia-2026-v1337-1200.webp",
+          "sha256": "a7db6fd0dbd173b448d4bc974fbd1dd2ded0ac220829e331b20120b7d5994406",
+          "bytes": 159766
+        }
+      ]
+    },
+    {
+      "key": "gangi-uomo-ucciso-contrada-rolica-indagini-2026-v1337",
+      "article": "/notizie/gangi-uomo-ucciso-contrada-rolica-indagini-2026.html",
+      "alt": "Carabinieri svolgono rilievi su una strada rurale nelle Madonie, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/gangi-uomo-ucciso-contrada-rolica-indagini-2026-v1337-480.webp",
+          "sha256": "aaaa1df46366182b16a32fd5b1c9ddfddf610a9d6498b340ab9bcd8d93e1bfbf",
+          "bytes": 40226
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/gangi-uomo-ucciso-contrada-rolica-indagini-2026-v1337-800.webp",
+          "sha256": "8fcbba678067f1b231dc51c49b4bbdcd3b684f70cf4961bd4185e50d42a95b98",
+          "bytes": 103446
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/gangi-uomo-ucciso-contrada-rolica-indagini-2026-v1337-1200.webp",
+          "sha256": "afb88988a9f2fbcd10ff7026076030246db0a2c292cf40549c665060e2f2fa37",
+          "bytes": 204244
+        }
+      ]
+    },
+    {
+      "key": "castro-volsci-stazione-omicidio-arresto-1-novembre-2026-v1337",
+      "article": "/notizie/castro-volsci-stazione-omicidio-arresto-1-novembre-2026.html",
+      "alt": "Rilievi dei Carabinieri alla stazione Castro-Pofi-Vallecorsa, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/castro-volsci-stazione-omicidio-arresto-1-novembre-2026-v1337-480.webp",
+          "sha256": "4feae688a7b8907a5443554daecb1bfc3e925258569347b1dc5ad8c9968febbb",
+          "bytes": 35772
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/castro-volsci-stazione-omicidio-arresto-1-novembre-2026-v1337-800.webp",
+          "sha256": "334d0e5d3641b420831b2ca74ef3aa01ea23b3cd0b0c6d83b9ec654264ef303d",
+          "bytes": 84100
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/castro-volsci-stazione-omicidio-arresto-1-novembre-2026-v1337-1200.webp",
+          "sha256": "32cf79c92a7442dc738104404974071e934cb1111a8b2bd759f44da54fef2cfc",
+          "bytes": 156076
+        }
+      ]
+    },
+    {
+      "key": "erba-donna-morta-piscina-custodia-ex-marito-2026-v1337",
+      "article": "/notizie/erba-donna-morta-piscina-custodia-ex-marito-2026.html",
+      "alt": "Carabinieri consegnano atti al Tribunale di Como, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/erba-donna-morta-piscina-custodia-ex-marito-2026-v1337-480.webp",
+          "sha256": "6e0b596eff6d26e7ed22713f6202b662e60327266a2f8b351defb7664358a084",
+          "bytes": 35044
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/erba-donna-morta-piscina-custodia-ex-marito-2026-v1337-800.webp",
+          "sha256": "b049ecbd8e809da442670b1a08c33cb4e852fd4c9c3a8ab9c748cbdb7cbc5450",
+          "bytes": 87224
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/erba-donna-morta-piscina-custodia-ex-marito-2026-v1337-1200.webp",
+          "sha256": "2ed391e31250d78311533f839d9b24bbc31a5c0c530e4045de8ae6fce03782bc",
+          "bytes": 169734
+        }
+      ]
+    },
+    {
+      "key": "torremaggiore-esplosione-cassa-ticket-guardia-medica-2026-v1337",
+      "article": "/notizie/torremaggiore-esplosione-cassa-ticket-guardia-medica-2026.html",
+      "alt": "Presidio sanitario di Torremaggiore dopo il danneggiamento della cassa ticket, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/torremaggiore-esplosione-cassa-ticket-guardia-medica-2026-v1337-480.webp",
+          "sha256": "f8607962f71efd4da9339a9959110dfe393184258e05542e3e650e77847e428c",
+          "bytes": 31208
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/torremaggiore-esplosione-cassa-ticket-guardia-medica-2026-v1337-800.webp",
+          "sha256": "40d14ec007e11b64fa8e900bd67f7c4b32d9aa6a28a3bbd450ea627a75de7758",
+          "bytes": 69400
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/torremaggiore-esplosione-cassa-ticket-guardia-medica-2026-v1337-1200.webp",
+          "sha256": "9c2cd94e79d467b0e7525fd6011b63937d87235e80dda78dd4ff1d02c25a8c49",
+          "bytes": 124206
+        }
+      ]
+    },
+    {
+      "key": "lucca-famiglia-intossicata-monossido-camera-iperbarica-2026-v1337",
+      "article": "/notizie/lucca-famiglia-intossicata-monossido-camera-iperbarica-2026.html",
+      "alt": "Vigili del Fuoco controllano una caldaia dopo un allarme monossido, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/lucca-famiglia-intossicata-monossido-camera-iperbarica-2026-v1337-480.webp",
+          "sha256": "15336ca34986918151796da569258d18fea507fa92638814b0980c561f723255",
+          "bytes": 26742
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/lucca-famiglia-intossicata-monossido-camera-iperbarica-2026-v1337-800.webp",
+          "sha256": "0e38ec458a3faef6c380b2ed44d06619978b7f413f283fa9602f1a3cabf06ca0",
+          "bytes": 56298
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/lucca-famiglia-intossicata-monossido-camera-iperbarica-2026-v1337-1200.webp",
+          "sha256": "b9f58829bc1055fe2dc72516a8b56cc6a4430f62507d5b156e223391793d96c5",
+          "bytes": 99760
+        }
+      ]
+    },
+    {
+      "key": "ravenna-allerta-arancione-mare-1-novembre-2026-v1337",
+      "article": "/notizie/ravenna-allerta-arancione-mare-1-novembre-2026.html",
+      "alt": "Mareggiata a Ravenna con accesso al molo interdetto, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ravenna-allerta-arancione-mare-1-novembre-2026-v1337-480.webp",
+          "sha256": "9a0e2671ca96e759377f4ca0930c60ba196f3e4fcec87be90ed0326e7dc3cf71",
+          "bytes": 37558
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ravenna-allerta-arancione-mare-1-novembre-2026-v1337-800.webp",
+          "sha256": "0f8d4b526cef0ff23ee2b4fa13b0645f14531cae42546b1a51d658dfce2c70b1",
+          "bytes": 90760
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ravenna-allerta-arancione-mare-1-novembre-2026-v1337-1200.webp",
+          "sha256": "7000d90687094157ff94059135a39116280af3b22b2566a40b7cd4823e9a6702",
+          "bytes": 175646
+        }
+      ]
+    },
+    {
+      "key": "torino-controlli-halloween-otto-arresti-18-denunce-2026-v1337",
+      "article": "/notizie/torino-controlli-halloween-otto-arresti-18-denunce-2026.html",
+      "alt": "Controlli interforze nella movida di Torino, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/torino-controlli-halloween-otto-arresti-18-denunce-2026-v1337-480.webp",
+          "sha256": "47ffc5c8d9768653b1b1b1041ea667272709921d205358929f214079e5ad6529",
+          "bytes": 39428
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/torino-controlli-halloween-otto-arresti-18-denunce-2026-v1337-800.webp",
+          "sha256": "5220c42a98d274510fd4c2792fa24c28cef19a7ad19f6ce57f8e1985a8af4a68",
+          "bytes": 82652
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/torino-controlli-halloween-otto-arresti-18-denunce-2026-v1337-1200.webp",
+          "sha256": "346858db66f046e99ce18f0ad3561f9f2bb559d68bdd101cb71688fb5ffba3b7",
+          "bytes": 143634
+        }
+      ]
+    },
+    {
+      "key": "incendio-hotel-ponte-di-legno-40-evacuati-1-novembre-2026-v1337",
+      "article": "/notizie/incendio-hotel-ponte-di-legno-40-evacuati-1-novembre-2026.html",
+      "alt": "Vigili del Fuoco davanti all'hotel danneggiato a Ponte di Legno, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/incendio-hotel-ponte-di-legno-40-evacuati-1-novembre-2026-v1337-480.webp",
+          "sha256": "db61e5b44dc187892c2212d0eb9d094402aa454cfaea5a9abc5e4bd781d0255c",
+          "bytes": 44608
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/incendio-hotel-ponte-di-legno-40-evacuati-1-novembre-2026-v1337-800.webp",
+          "sha256": "bbf7575aaa814bea31a7b41e2d4e09649dff4c503b635e2af891794191b21815",
+          "bytes": 107206
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/incendio-hotel-ponte-di-legno-40-evacuati-1-novembre-2026-v1337-1200.webp",
+          "sha256": "bc5d7c9812750b98bd4f0aac8a776882f123a9b2f2b8c961379432e378499177",
+          "bytes": 201264
+        }
+      ]
+    },
     {
       "key": "noleggio-lungo-termine-costi-convenienza-v1340",
       "article": "/approfondimenti/noleggio-lungo-termine-costi-convenienza.html",
