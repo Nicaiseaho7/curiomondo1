@@ -1,7 +1,427 @@
 {
-  "version": 866,
+  "version": 845,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "key": "bus-cb106-vairano-termoli-variazioni-2-novembre-12-dicembre-2026-v1344",
+      "article": "/notizie/bus-cb106-vairano-termoli-variazioni-2-novembre-12-dicembre-2026.html",
+      "alt": "Autobus sostitutivo e treno in un nodo ferroviario generico, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/bus-cb106-vairano-termoli-variazioni-2-novembre-12-dicembre-2026-v1344-480.webp",
+          "sha256": "646bcb69ea1660a0715deefe518ce43c6818469b802bbf1a46e852290cb0b15a",
+          "bytes": 32680
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/bus-cb106-vairano-termoli-variazioni-2-novembre-12-dicembre-2026-v1344-800.webp",
+          "sha256": "be7092ff179af739ed53e89057d60c678ff343be242397eb03eeac72a6fac385",
+          "bytes": 69196
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/bus-cb106-vairano-termoli-variazioni-2-novembre-12-dicembre-2026-v1344-1200.webp",
+          "sha256": "85b64b27b18bd51a04e241e8a51df66bb14ca7328a30405bafbfc2a1c005b779",
+          "bytes": 120798
+        }
+      ]
+    },
+    {
+      "key": "sardegna-bus-cagliari-iglesias-carbonia-variazioni-2-novembre-2026-v1344",
+      "article": "/notizie/sardegna-bus-cagliari-iglesias-carbonia-variazioni-2-novembre-2026.html",
+      "alt": "Treno e autobus sostitutivo in una stazione insulare generica, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/sardegna-bus-cagliari-iglesias-carbonia-variazioni-2-novembre-2026-v1344-480.webp",
+          "sha256": "f290755f7851593cd6a0c8b34592bb1f14405482cdde69f22658537f1ca2ae7a",
+          "bytes": 37746
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/sardegna-bus-cagliari-iglesias-carbonia-variazioni-2-novembre-2026-v1344-800.webp",
+          "sha256": "a15eeec16dfa9c94f90171de949301eaa049493132a353b17c7249d88324f612",
+          "bytes": 82396
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/sardegna-bus-cagliari-iglesias-carbonia-variazioni-2-novembre-2026-v1344-1200.webp",
+          "sha256": "eb7013c47bb8015dfc52fbf7899e2b8fb7b32f7afe5d7457b842a3603950a69f",
+          "bytes": 143316
+        }
+      ]
+    },
+    {
+      "key": "sicilia-bus-catania-siracusa-caltagirone-gela-orari-2-novembre-2026-v1344",
+      "article": "/notizie/sicilia-bus-catania-siracusa-caltagirone-gela-orari-2-novembre-2026.html",
+      "alt": "Interscambio ferroviario e autobus in un terminal generico, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/sicilia-bus-catania-siracusa-caltagirone-gela-orari-2-novembre-2026-v1344-480.webp",
+          "sha256": "46835a807b16a5b917dca300275b3b88bb88909769bb7661644d170142c9cdd5",
+          "bytes": 32836
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/sicilia-bus-catania-siracusa-caltagirone-gela-orari-2-novembre-2026-v1344-800.webp",
+          "sha256": "92e7608bfb8f9348f729b5f3b55b6b95ee4343202484fd7f7bfe9c7802f238f5",
+          "bytes": 73160
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/sicilia-bus-catania-siracusa-caltagirone-gela-orari-2-novembre-2026-v1344-1200.webp",
+          "sha256": "0fb146e8ad6c537efe50dd49528670c5f22f0a21dd621ccbd8d3d50b79c0899f",
+          "bytes": 135106
+        }
+      ]
+    },
+    {
+      "key": "siena-grosseto-monteroni-lavori-treni-cancellati-2026-v1344",
+      "article": "/notizie/siena-grosseto-monteroni-lavori-treni-cancellati-2026.html",
+      "alt": "Lavori ferroviari in una piccola stazione generica, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/siena-grosseto-monteroni-lavori-treni-cancellati-2026-v1344-480.webp",
+          "sha256": "15b0db3043858b94da4125c9708ec30f1ddf23a4bc72de71fe85d29d7dbb9fc9",
+          "bytes": 47232
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/siena-grosseto-monteroni-lavori-treni-cancellati-2026-v1344-800.webp",
+          "sha256": "caba8f990caca4ba5a2c28680e714040bd793fd84add51e77bf28231a3221e5e",
+          "bytes": 107542
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/siena-grosseto-monteroni-lavori-treni-cancellati-2026-v1344-1200.webp",
+          "sha256": "f8119aa394bcaf907e0cf8eb2c57dc16269f69957347a9152b5ae26cff0adb28",
+          "bytes": 193870
+        }
+      ]
+    },
+    {
+      "key": "inps-master-executive-2026-2027-domande-18-novembre-v1344",
+      "article": "/notizie/inps-master-executive-2026-2027-domande-18-novembre.html",
+      "alt": "Computer e documenti rappresentano una domanda per master universitario, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/inps-master-executive-2026-2027-domande-18-novembre-v1344-480.webp",
+          "sha256": "1830278e04a6cd38e97fe1b190f5ddb120a601fde332172b3dabb67fc8f97219",
+          "bytes": 25680
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/inps-master-executive-2026-2027-domande-18-novembre-v1344-800.webp",
+          "sha256": "3a070d88385f231369117553609f62d64b23a9eb6fd4ebecbca8893e4d895ee9",
+          "bytes": 51958
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/inps-master-executive-2026-2027-domande-18-novembre-v1344-1200.webp",
+          "sha256": "968d12b9fb6ed59c346ff37ad39afe99160dd9c771f20183fa692b43efebc811",
+          "bytes": 88298
+        }
+      ]
+    },
+    {
+      "key": "ufficio-postale-briona-chiuso-4-novembre-15-dicembre-2026-v1344",
+      "article": "/notizie/ufficio-postale-briona-chiuso-4-novembre-15-dicembre-2026.html",
+      "alt": "Sportello postale generico chiuso per lavori, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ufficio-postale-briona-chiuso-4-novembre-15-dicembre-2026-v1344-480.webp",
+          "sha256": "bda95306c83f54c2c38ac5428170306125dbe47d6ca9e44e6be41c8cc3a7e7d0",
+          "bytes": 27518
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ufficio-postale-briona-chiuso-4-novembre-15-dicembre-2026-v1344-800.webp",
+          "sha256": "17820e9bbf7cdcfe4a4f085a7900b97d81c146770853d556f63f45f230eeb13a",
+          "bytes": 60174
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ufficio-postale-briona-chiuso-4-novembre-15-dicembre-2026-v1344-1200.webp",
+          "sha256": "90206a1598a88a6cb81156dbb7e73159b742efd67859b946ab3acc807327953a",
+          "bytes": 107440
+        }
+      ]
+    },
+    {
+      "key": "lenna-interruzione-energia-elettrica-4-6-8-10-novembre-2026-v1344",
+      "article": "/notizie/lenna-interruzione-energia-elettrica-4-6-8-10-novembre-2026.html",
+      "alt": "Tecnico opera su un quadro elettrico disalimentato, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/lenna-interruzione-energia-elettrica-4-6-8-10-novembre-2026-v1344-480.webp",
+          "sha256": "fcc8a89db0b836592ed0d86a2d85fe7298a8fbb7c98bc44c63d9e4f73b9b6736",
+          "bytes": 29234
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/lenna-interruzione-energia-elettrica-4-6-8-10-novembre-2026-v1344-800.webp",
+          "sha256": "ae8fc57b6cb975c4c0cff23195005765f565b22705df0f2f2e71bf3d2426dda4",
+          "bytes": 58098
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/lenna-interruzione-energia-elettrica-4-6-8-10-novembre-2026-v1344-1200.webp",
+          "sha256": "cb1d468d53e5b23ad4b7121963e01f02c653ca58600b231f25dbc0c8f2082807",
+          "bytes": 99730
+        }
+      ]
+    },
+    {
+      "key": "scadenze-fiscali-2-novembre-2026-redditi-locazioni-canone-tv-v1344",
+      "article": "/notizie/scadenze-fiscali-2-novembre-2026-redditi-locazioni-canone-tv.html",
+      "alt": "Contribuente e consulente esaminano moduli fiscali in un ufficio neutro, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/scadenze-fiscali-2-novembre-2026-redditi-locazioni-canone-tv-v1344-480.webp",
+          "sha256": "98b5f1074905dcef3294e1850cf13dcdde4cd05883a6f3993f77a4b6cd596b78",
+          "bytes": 22708
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/scadenze-fiscali-2-novembre-2026-redditi-locazioni-canone-tv-v1344-800.webp",
+          "sha256": "8d3a4a06c6cf3b70f1c64c3d05df7490c2504d83aa1804ed4e6e8c982f8f7c3c",
+          "bytes": 45212
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/scadenze-fiscali-2-novembre-2026-redditi-locazioni-canone-tv-v1344-1200.webp",
+          "sha256": "db517e909cc10c57df4033daaf8a7fbc0b06dc7ad10e8a976120515fa3a38fa2",
+          "bytes": 77850
+        }
+      ]
+    },
+    {
+      "key": "carta-dedicata-a-te-attivazione-4-novembre-2026-v1344",
+      "article": "/notizie/carta-dedicata-a-te-attivazione-4-novembre-2026.html",
+      "alt": "Carta spesa e prodotti alimentari su un tavolo neutro, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/carta-dedicata-a-te-attivazione-4-novembre-2026-v1344-480.webp",
+          "sha256": "5f5b695a9b219f09cfaff8c4af16ed013d46a2f462293b7dd4aebdaf83f2da62",
+          "bytes": 30140
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/carta-dedicata-a-te-attivazione-4-novembre-2026-v1344-800.webp",
+          "sha256": "61cbfe1c700e8bbe458d7188333327b854e5a34902aa66a31e8293d7e1c4d5d4",
+          "bytes": 61296
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/carta-dedicata-a-te-attivazione-4-novembre-2026-v1344-1200.webp",
+          "sha256": "8e4efe88de59cdf0103b87eee0ff967fa7c0774fb1a528b5d370bb66711d5621",
+          "bytes": 106126
+        }
+      ]
+    },
+    {
+      "key": "a1-casalpusterlengo-chiusura-notturna-2-3-novembre-2026-v1344",
+      "article": "/notizie/a1-casalpusterlengo-chiusura-notturna-2-3-novembre-2026.html",
+      "alt": "Cantiere notturno su un'autostrada generica con segnale A1, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/a1-casalpusterlengo-chiusura-notturna-2-3-novembre-2026-v1344-480.webp",
+          "sha256": "f9510573489cfe8995f8512552ad6df8019674ceb8bbea6d6f4694459094b8a4",
+          "bytes": 34484
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/a1-casalpusterlengo-chiusura-notturna-2-3-novembre-2026-v1344-800.webp",
+          "sha256": "1820b97b923149d39a7d69e83be53f88a1abfcb7890dc2f6fa6a423edc9ba6d8",
+          "bytes": 80102
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/a1-casalpusterlengo-chiusura-notturna-2-3-novembre-2026-v1344-1200.webp",
+          "sha256": "bf69c57f4b13e6d61c9d393f20a54c53613a0436d497e8cc54dc9af97e183f47",
+          "bytes": 148030
+        }
+      ]
+    },
+    {
+      "key": "a4-bergamo-dalmine-chiusura-2-3-novembre-2026-v1344",
+      "article": "/notizie/a4-bergamo-dalmine-chiusura-2-3-novembre-2026.html",
+      "alt": "Chiusura notturna su un'autostrada generica con segnale A4, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/a4-bergamo-dalmine-chiusura-2-3-novembre-2026-v1344-480.webp",
+          "sha256": "ba6b6f6fee19441cb7b77b4f8520953ae0e0a8724959da8fcfb20665b2d7cb6f",
+          "bytes": 32252
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/a4-bergamo-dalmine-chiusura-2-3-novembre-2026-v1344-800.webp",
+          "sha256": "1d8aec4a25224b5f312844691b09fda95d5ea799943bc7ac32aa5a1ae6a74aad",
+          "bytes": 71908
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/a4-bergamo-dalmine-chiusura-2-3-novembre-2026-v1344-1200.webp",
+          "sha256": "ca7dd8c2d774a9bc6022e67e5457c8b9c31b06cb60c2413a263791defc2fc302",
+          "bytes": 131240
+        }
+      ]
+    },
+    {
+      "key": "allerta-arancione-puglia-scuole-parchi-chiusi-2-novembre-2026-v1344",
+      "article": "/notizie/allerta-arancione-puglia-scuole-parchi-chiusi-2-novembre-2026.html",
+      "alt": "Barriere davanti a una scuola generica durante un'allerta meteo, illustrazione editoriale IA",
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "redazione CurioMondo",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "weatherMap": false,
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/allerta-arancione-puglia-scuole-parchi-chiusi-2-novembre-2026-v1344-480.webp",
+          "sha256": "eb439e2505e7e19751df22c6029c8762fa64de8fe5b871f3b1ab4ca9dce114b2",
+          "bytes": 40728
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/allerta-arancione-puglia-scuole-parchi-chiusi-2-novembre-2026-v1344-800.webp",
+          "sha256": "f845b93cb75ec9afd3e17b93d19bb7fd5525dbccaee28ec13ca2454a0109dddd",
+          "bytes": 102134
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/allerta-arancione-puglia-scuole-parchi-chiusi-2-novembre-2026-v1344-1200.webp",
+          "sha256": "cce57722957c41bdd15b9ec2d6068b1f35843f30cdee2271cfdad139dd3d6037",
+          "bytes": 206634
+        }
+      ]
+    },
     {
       "key": "visitinps-scholars-25-programmi-ricerca-scadenza-9-dicembre-2026-v1343",
       "article": "/notizie/visitinps-scholars-25-programmi-ricerca-scadenza-9-dicembre-2026.html",
