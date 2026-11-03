@@ -1,6 +1,116 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://curiomondo.it/notizie/crowdstrike-falcon-guardian-ai-kill-switch-fiddler-3-novembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T22:34:59+01:00</news:publication_date>
+      <news:title>CrowdStrike, arriva il comando per fermare gli agenti IA: accordo per Fiddler</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/nasa-eyes-roman-webb-realta-aumentata-novembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T22:34:41+01:00</news:publication_date>
+      <news:title>NASA Eyes aggiunge Roman: i telescopi arrivano in realtà aumentata sul telefono</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/esa-testnor-dati-interferenze-gnss-navisp-3-novembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T22:34:23+01:00</news:publication_date>
+      <news:title>ESA e Testnor, una biblioteca di interferenze per collaudare la navigazione satellitare</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/nasa-tsis-2-test-vuoto-vibrazioni-lancio-2027.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T22:34:05+01:00</news:publication_date>
+      <news:title>TSIS-2 supera i test: la NASA prepara il satellite che misurerà la luce del Sole</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/nasa-nesc-resistori-circuiti-test-vibrazioni-novembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T22:33:47+01:00</news:publication_date>
+      <news:title>NASA, i guasti che spariscono a temperatura ambiente: nuove indicazioni sui circuiti</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/mediatek-bollettino-novembre-2026-56-vulnerabilita-smartphone.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T22:33:29+01:00</news:publication_date>
+      <news:title>MediaTek corregge 56 falle: per gli smartphone conta la patch del produttore</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/cpanel-whm-patch-rubrica-calendario-3-novembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T22:33:11+01:00</news:publication_date>
+      <news:title>cPanel, patch per rubriche e calendari esposti: le versioni da controllare</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/zyxel-patch-access-point-switch-gs1900-3-novembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T22:32:53+01:00</news:publication_date>
+      <news:title>Zyxel aggiorna access point e switch: due falle sfruttabili dalla rete locale</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/grafana-mimir-gem-alertmanager-patch-novembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T22:32:35+01:00</news:publication_date>
+      <news:title>Grafana Mimir e GEM, una falla espone file: quali versioni aggiornare</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/postgresql-psqlodbc-correzioni-driver-18-00-0006-novembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-03T22:32:17+01:00</news:publication_date>
+      <news:title>PostgreSQL, sei falle alte nel driver psqlODBC: la patch è la 18.00.0006</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://curiomondo.it/notizie/viola-come-il-mare-3-canale-5-infinity-4-novembre-2026.html</loc>
     <news:news>
       <news:publication>

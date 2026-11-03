@@ -2,6 +2,336 @@
   "version": 845,
   "items": [
     {
+      "title": "CrowdStrike, arriva il comando per fermare gli agenti IA: accordo per Fiddler",
+      "excerpt": "Falcon Guardian introduce l’AI Kill Switch. Il blocco parte dal Gateway; l’estensione agli endpoint è prevista successivamente. L’acquisizione deve ancora chiudersi.",
+      "url": "/notizie/crowdstrike-falcon-guardian-ai-kill-switch-fiddler-3-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-03T22:34:59+01:00",
+      "dateLabel": "2026-11-03",
+      "image": "/assets/images/editorial-auto/crowdstrike-falcon-guardian-ai-kill-switch-fiddler-3-novembre-2026-v1355-800.webp",
+      "imageAlt": "Illustrazione editoriale IA non documentaria: Postazione informatica con marchio CrowdStrike e grafica astratta",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/crowdstrike-falcon-guardian-ai-kill-switch-fiddler-3-novembre-2026-v1355-480.webp 480w, /assets/images/editorial-auto/crowdstrike-falcon-guardian-ai-kill-switch-fiddler-3-novembre-2026-v1355-800.webp 800w, /assets/images/editorial-auto/crowdstrike-falcon-guardian-ai-kill-switch-fiddler-3-novembre-2026-v1355-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "3 novembre",
+          "label": "annuncio"
+        },
+        {
+          "icon": "•",
+          "value": "Gateway",
+          "label": "primo punto di arresto"
+        },
+        {
+          "icon": "•",
+          "value": "Fiddler",
+          "label": "accordo di acquisizione"
+        }
+      ],
+      "featuredHighlights": [
+        "Fiddler"
+      ]
+    },
+    {
+      "title": "NASA Eyes aggiunge Roman: i telescopi arrivano in realtà aumentata sul telefono",
+      "excerpt": "Le note di rilascio includono Roman, nuovi filtri per Webb e sistemi planetari attorno alle pulsar. La visualizzazione resta una simulazione, distinta dalle immagini scientifiche.",
+      "url": "/notizie/nasa-eyes-roman-webb-realta-aumentata-novembre-2026.html",
+      "section": "Mondo / Scienza",
+      "dateISO": "2026-11-03T22:34:41+01:00",
+      "dateLabel": "2026-11-03",
+      "image": "/assets/images/editorial-auto/nasa-eyes-roman-webb-realta-aumentata-novembre-2026-v1355-800.webp",
+      "imageAlt": "Illustrazione editoriale IA non documentaria: Telefono con modello visuale di un telescopio spaziale e marchio NASA",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/nasa-eyes-roman-webb-realta-aumentata-novembre-2026-v1355-480.webp 480w, /assets/images/editorial-auto/nasa-eyes-roman-webb-realta-aumentata-novembre-2026-v1355-800.webp 800w, /assets/images/editorial-auto/nasa-eyes-roman-webb-realta-aumentata-novembre-2026-v1355-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "6",
+          "label": "veicoli con funzione AR"
+        },
+        {
+          "icon": "•",
+          "value": "28 ottobre",
+          "label": "rilascio software"
+        },
+        {
+          "icon": "•",
+          "value": "2 novembre",
+          "label": "note pubblicate"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "ESA e Testnor, una biblioteca di interferenze per collaudare la navigazione satellitare",
+      "excerpt": "Il progetto raccoglierà segnali reali e li renderà riproducibili in laboratorio. La scheda NAVISP descrive un servizio commerciale ancora in sviluppo.",
+      "url": "/notizie/esa-testnor-dati-interferenze-gnss-navisp-3-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-03T22:34:23+01:00",
+      "dateLabel": "2026-11-03",
+      "image": "/assets/images/editorial-auto/esa-testnor-dati-interferenze-gnss-navisp-3-novembre-2026-v1355-800.webp",
+      "imageAlt": "Illustrazione editoriale IA non documentaria: Strumentazione di laboratorio per ricevitori di navigazione satellitare con marchio ESA",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/esa-testnor-dati-interferenze-gnss-navisp-3-novembre-2026-v1355-480.webp 480w, /assets/images/editorial-auto/esa-testnor-dati-interferenze-gnss-navisp-3-novembre-2026-v1355-800.webp 800w, /assets/images/editorial-auto/esa-testnor-dati-interferenze-gnss-navisp-3-novembre-2026-v1355-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "24 mesi",
+          "label": "durata del progetto"
+        },
+        {
+          "icon": "•",
+          "value": "NAVISP",
+          "label": "programma ESA"
+        },
+        {
+          "icon": "•",
+          "value": "GNSS",
+          "label": "navigazione satellitare"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "TSIS-2 supera i test: la NASA prepara il satellite che misurerà la luce del Sole",
+      "excerpt": "Conclusi collaudi termici e di vibrazione. Il lancio è previsto all’inizio del 2027; la missione proseguirà le serie di misure dell’energia solare ricevuta dalla Terra.",
+      "url": "/notizie/nasa-tsis-2-test-vuoto-vibrazioni-lancio-2027.html",
+      "section": "Mondo / Scienza",
+      "dateISO": "2026-11-03T22:34:05+01:00",
+      "dateLabel": "2026-11-03",
+      "image": "/assets/images/editorial-auto/nasa-tsis-2-test-vuoto-vibrazioni-lancio-2027-v1355-800.webp",
+      "imageAlt": "Illustrazione editoriale IA non documentaria: Modello editoriale di un satellite per osservazioni solari in un laboratorio, non riproduzione esatta di TSIS-2",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/nasa-tsis-2-test-vuoto-vibrazioni-lancio-2027-v1355-480.webp 480w, /assets/images/editorial-auto/nasa-tsis-2-test-vuoto-vibrazioni-lancio-2027-v1355-800.webp 800w, /assets/images/editorial-auto/nasa-tsis-2-test-vuoto-vibrazioni-lancio-2027-v1355-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "2027",
+          "label": "lancio previsto"
+        },
+        {
+          "icon": "•",
+          "value": "2",
+          "label": "strumenti"
+        },
+        {
+          "icon": "•",
+          "value": "1978",
+          "label": "inizio serie totale"
+        }
+      ],
+      "featuredHighlights": [
+        "2"
+      ]
+    },
+    {
+      "title": "NASA, i guasti che spariscono a temperatura ambiente: nuove indicazioni sui circuiti",
+      "excerpt": "Due bollettini NESC affrontano resistori ceramici e prove con martello strumentato. Il punto è collegare le misure alle sollecitazioni realmente applicate.",
+      "url": "/notizie/nasa-nesc-resistori-circuiti-test-vibrazioni-novembre-2026.html",
+      "section": "Mondo / Scienza",
+      "dateISO": "2026-11-03T22:33:47+01:00",
+      "dateLabel": "2026-11-03",
+      "image": "/assets/images/editorial-auto/nasa-nesc-resistori-circuiti-test-vibrazioni-novembre-2026-v1355-800.webp",
+      "imageAlt": "Illustrazione editoriale IA non documentaria: Scheda elettronica integra su un banco di ispezione con microscopio",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/nasa-nesc-resistori-circuiti-test-vibrazioni-novembre-2026-v1355-480.webp 480w, /assets/images/editorial-auto/nasa-nesc-resistori-circuiti-test-vibrazioni-novembre-2026-v1355-800.webp 800w, /assets/images/editorial-auto/nasa-nesc-resistori-circuiti-test-vibrazioni-novembre-2026-v1355-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "3 novembre",
+          "label": "bollettino sui resistori"
+        },
+        {
+          "icon": "•",
+          "value": "2",
+          "label": "casi analizzati"
+        },
+        {
+          "icon": "•",
+          "value": "NESC",
+          "label": "centro tecnico NASA"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "MediaTek corregge 56 falle: per gli smartphone conta la patch del produttore",
+      "excerpt": "Sei vulnerabilità sono critiche. Il bollettino precisa che non risultano sfruttamenti attivi noti; il rilascio agli utenti passa dagli aggiornamenti dei dispositivi.",
+      "url": "/notizie/mediatek-bollettino-novembre-2026-56-vulnerabilita-smartphone.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-03T22:33:29+01:00",
+      "dateLabel": "2026-11-03",
+      "image": "/assets/images/editorial-auto/mediatek-bollettino-novembre-2026-56-vulnerabilita-smartphone-v1355-800.webp",
+      "imageAlt": "Illustrazione editoriale IA non documentaria: Componenti elettronici e smartphone integri con marchio MediaTek",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/mediatek-bollettino-novembre-2026-56-vulnerabilita-smartphone-v1355-480.webp 480w, /assets/images/editorial-auto/mediatek-bollettino-novembre-2026-56-vulnerabilita-smartphone-v1355-800.webp 800w, /assets/images/editorial-auto/mediatek-bollettino-novembre-2026-56-vulnerabilita-smartphone-v1355-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "56",
+          "label": "vulnerabilità"
+        },
+        {
+          "icon": "•",
+          "value": "6",
+          "label": "critiche"
+        },
+        {
+          "icon": "•",
+          "value": "16",
+          "label": "alte"
+        }
+      ],
+      "featuredHighlights": [
+        "56",
+        "6"
+      ]
+    },
+    {
+      "title": "cPanel, patch per rubriche e calendari esposti: le versioni da controllare",
+      "excerpt": "Il CSIRT rilancia due avvisi del produttore. Un difetto espone i dati senza credenziali; l’altro riguarda gli account rivenditore e i privilegi root.",
+      "url": "/notizie/cpanel-whm-patch-rubrica-calendario-3-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-03T22:33:11+01:00",
+      "dateLabel": "2026-11-03",
+      "image": "/assets/images/editorial-auto/cpanel-whm-patch-rubrica-calendario-3-novembre-2026-v1355-800.webp",
+      "imageAlt": "Illustrazione editoriale IA non documentaria: Postazione di manutenzione server con marchio cPanel",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/cpanel-whm-patch-rubrica-calendario-3-novembre-2026-v1355-480.webp 480w, /assets/images/editorial-auto/cpanel-whm-patch-rubrica-calendario-3-novembre-2026-v1355-800.webp 800w, /assets/images/editorial-auto/cpanel-whm-patch-rubrica-calendario-3-novembre-2026-v1355-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "2",
+          "label": "vulnerabilità"
+        },
+        {
+          "icon": "•",
+          "value": "3 novembre",
+          "label": "avviso italiano"
+        },
+        {
+          "icon": "•",
+          "value": "138.0.19",
+          "label": "patch ramo 138"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Zyxel aggiorna access point e switch: due falle sfruttabili dalla rete locale",
+      "excerpt": "Pubblicati i bollettini per AP, FWA7, Security Router e GS1900. Firmware e correzioni cambiano per modello, con un caso che richiede una hotfix su richiesta.",
+      "url": "/notizie/zyxel-patch-access-point-switch-gs1900-3-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-03T22:32:53+01:00",
+      "dateLabel": "2026-11-03",
+      "image": "/assets/images/editorial-auto/zyxel-patch-access-point-switch-gs1900-3-novembre-2026-v1355-800.webp",
+      "imageAlt": "Illustrazione editoriale IA non documentaria: Apparati di rete integri con marchio Zyxel, senza un modello specifico rappresentato",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/zyxel-patch-access-point-switch-gs1900-3-novembre-2026-v1355-480.webp 480w, /assets/images/editorial-auto/zyxel-patch-access-point-switch-gs1900-3-novembre-2026-v1355-800.webp 800w, /assets/images/editorial-auto/zyxel-patch-access-point-switch-gs1900-3-novembre-2026-v1355-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "2",
+          "label": "falle corrette"
+        },
+        {
+          "icon": "•",
+          "value": "GS1900",
+          "label": "switch coinvolti"
+        },
+        {
+          "icon": "•",
+          "value": "3 novembre",
+          "label": "bollettini"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Grafana Mimir e GEM, una falla espone file: quali versioni aggiornare",
+      "excerpt": "Il problema richiede il permesso di modificare la configurazione Alertmanager del tenant. Per alcuni vecchi rami GEM è necessario cambiare versione.",
+      "url": "/notizie/grafana-mimir-gem-alertmanager-patch-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-03T22:32:35+01:00",
+      "dateLabel": "2026-11-03",
+      "image": "/assets/images/editorial-auto/grafana-mimir-gem-alertmanager-patch-novembre-2026-v1355-800.webp",
+      "imageAlt": "Illustrazione editoriale IA non documentaria: Monitor con grafico astratto e marchio Grafana, senza dati reali",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/grafana-mimir-gem-alertmanager-patch-novembre-2026-v1355-480.webp 480w, /assets/images/editorial-auto/grafana-mimir-gem-alertmanager-patch-novembre-2026-v1355-800.webp 800w, /assets/images/editorial-auto/grafana-mimir-gem-alertmanager-patch-novembre-2026-v1355-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "CVE-2026-81938",
+          "label": "vulnerabilità"
+        },
+        {
+          "icon": "•",
+          "value": "3.2.2",
+          "label": "Mimir corretto"
+        },
+        {
+          "icon": "•",
+          "value": "2.17.20",
+          "label": "GEM corretto"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "PostgreSQL, sei falle alte nel driver psqlODBC: la patch è la 18.00.0006",
+      "excerpt": "Il richiamo del CSIRT riguarda il componente di connessione. Due avvisi mostrano come indici e nomi di tabelle non controllati possano esporre le applicazioni.",
+      "url": "/notizie/postgresql-psqlodbc-correzioni-driver-18-00-0006-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-03T22:32:17+01:00",
+      "dateLabel": "2026-11-03",
+      "image": "/assets/images/editorial-auto/postgresql-psqlodbc-correzioni-driver-18-00-0006-novembre-2026-v1355-800.webp",
+      "imageAlt": "Illustrazione editoriale IA non documentaria: Server e tablet con elefante PostgreSQL, senza dati di un sistema reale",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/postgresql-psqlodbc-correzioni-driver-18-00-0006-novembre-2026-v1355-480.webp 480w, /assets/images/editorial-auto/postgresql-psqlodbc-correzioni-driver-18-00-0006-novembre-2026-v1355-800.webp 800w, /assets/images/editorial-auto/postgresql-psqlodbc-correzioni-driver-18-00-0006-novembre-2026-v1355-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "18.00.0006",
+          "label": "versione corretta"
+        },
+        {
+          "icon": "•",
+          "value": "6",
+          "label": "falle alte"
+        },
+        {
+          "icon": "•",
+          "value": "psqlODBC",
+          "label": "driver coinvolto"
+        }
+      ],
+      "featuredHighlights": [
+        "18.00.0006",
+        "6"
+      ]
+    },
+    {
       "title": "«Viola come il mare 3» dal 4 novembre: nuovi episodi gratis in anteprima",
       "excerpt": "Francesca Chillemi torna su Canale 5 con Rodrigo Guirao nel ruolo dell’ispettore Max. Dalla seconda puntata, l’uscita su Mediaset Infinity precede la messa in onda.",
       "url": "/notizie/viola-come-il-mare-3-canale-5-infinity-4-novembre-2026.html",

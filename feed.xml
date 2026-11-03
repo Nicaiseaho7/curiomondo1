@@ -8,6 +8,76 @@
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <atom:link href="https://curiomondo.it/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>CrowdStrike, arriva il comando per fermare gli agenti IA: accordo per Fiddler</title>
+      <link>https://curiomondo.it/notizie/crowdstrike-falcon-guardian-ai-kill-switch-fiddler-3-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/crowdstrike-falcon-guardian-ai-kill-switch-fiddler-3-novembre-2026.html</guid>
+      <pubDate>Tue, 03 Nov 2026 22:34:59 +0100</pubDate>
+      <description>Falcon Guardian introduce l’AI Kill Switch. Il blocco parte dal Gateway; l’estensione agli endpoint è prevista successivamente. L’acquisizione deve ancora chiudersi.</description>
+    </item>
+    <item>
+      <title>NASA Eyes aggiunge Roman: i telescopi arrivano in realtà aumentata sul telefono</title>
+      <link>https://curiomondo.it/notizie/nasa-eyes-roman-webb-realta-aumentata-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/nasa-eyes-roman-webb-realta-aumentata-novembre-2026.html</guid>
+      <pubDate>Tue, 03 Nov 2026 22:34:41 +0100</pubDate>
+      <description>Le note di rilascio includono Roman, nuovi filtri per Webb e sistemi planetari attorno alle pulsar. La visualizzazione resta una simulazione, distinta dalle immagini scientifiche.</description>
+    </item>
+    <item>
+      <title>ESA e Testnor, una biblioteca di interferenze per collaudare la navigazione satellitare</title>
+      <link>https://curiomondo.it/notizie/esa-testnor-dati-interferenze-gnss-navisp-3-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/esa-testnor-dati-interferenze-gnss-navisp-3-novembre-2026.html</guid>
+      <pubDate>Tue, 03 Nov 2026 22:34:23 +0100</pubDate>
+      <description>Il progetto raccoglierà segnali reali e li renderà riproducibili in laboratorio. La scheda NAVISP descrive un servizio commerciale ancora in sviluppo.</description>
+    </item>
+    <item>
+      <title>TSIS-2 supera i test: la NASA prepara il satellite che misurerà la luce del Sole</title>
+      <link>https://curiomondo.it/notizie/nasa-tsis-2-test-vuoto-vibrazioni-lancio-2027.html</link>
+      <guid>https://curiomondo.it/notizie/nasa-tsis-2-test-vuoto-vibrazioni-lancio-2027.html</guid>
+      <pubDate>Tue, 03 Nov 2026 22:34:05 +0100</pubDate>
+      <description>Conclusi collaudi termici e di vibrazione. Il lancio è previsto all’inizio del 2027; la missione proseguirà le serie di misure dell’energia solare ricevuta dalla Terra.</description>
+    </item>
+    <item>
+      <title>NASA, i guasti che spariscono a temperatura ambiente: nuove indicazioni sui circuiti</title>
+      <link>https://curiomondo.it/notizie/nasa-nesc-resistori-circuiti-test-vibrazioni-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/nasa-nesc-resistori-circuiti-test-vibrazioni-novembre-2026.html</guid>
+      <pubDate>Tue, 03 Nov 2026 22:33:47 +0100</pubDate>
+      <description>Due bollettini NESC affrontano resistori ceramici e prove con martello strumentato. Il punto è collegare le misure alle sollecitazioni realmente applicate.</description>
+    </item>
+    <item>
+      <title>MediaTek corregge 56 falle: per gli smartphone conta la patch del produttore</title>
+      <link>https://curiomondo.it/notizie/mediatek-bollettino-novembre-2026-56-vulnerabilita-smartphone.html</link>
+      <guid>https://curiomondo.it/notizie/mediatek-bollettino-novembre-2026-56-vulnerabilita-smartphone.html</guid>
+      <pubDate>Tue, 03 Nov 2026 22:33:29 +0100</pubDate>
+      <description>Sei vulnerabilità sono critiche. Il bollettino precisa che non risultano sfruttamenti attivi noti; il rilascio agli utenti passa dagli aggiornamenti dei dispositivi.</description>
+    </item>
+    <item>
+      <title>cPanel, patch per rubriche e calendari esposti: le versioni da controllare</title>
+      <link>https://curiomondo.it/notizie/cpanel-whm-patch-rubrica-calendario-3-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/cpanel-whm-patch-rubrica-calendario-3-novembre-2026.html</guid>
+      <pubDate>Tue, 03 Nov 2026 22:33:11 +0100</pubDate>
+      <description>Il CSIRT rilancia due avvisi del produttore. Un difetto espone i dati senza credenziali; l’altro riguarda gli account rivenditore e i privilegi root.</description>
+    </item>
+    <item>
+      <title>Zyxel aggiorna access point e switch: due falle sfruttabili dalla rete locale</title>
+      <link>https://curiomondo.it/notizie/zyxel-patch-access-point-switch-gs1900-3-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/zyxel-patch-access-point-switch-gs1900-3-novembre-2026.html</guid>
+      <pubDate>Tue, 03 Nov 2026 22:32:53 +0100</pubDate>
+      <description>Pubblicati i bollettini per AP, FWA7, Security Router e GS1900. Firmware e correzioni cambiano per modello, con un caso che richiede una hotfix su richiesta.</description>
+    </item>
+    <item>
+      <title>Grafana Mimir e GEM, una falla espone file: quali versioni aggiornare</title>
+      <link>https://curiomondo.it/notizie/grafana-mimir-gem-alertmanager-patch-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/grafana-mimir-gem-alertmanager-patch-novembre-2026.html</guid>
+      <pubDate>Tue, 03 Nov 2026 22:32:35 +0100</pubDate>
+      <description>Il problema richiede il permesso di modificare la configurazione Alertmanager del tenant. Per alcuni vecchi rami GEM è necessario cambiare versione.</description>
+    </item>
+    <item>
+      <title>PostgreSQL, sei falle alte nel driver psqlODBC: la patch è la 18.00.0006</title>
+      <link>https://curiomondo.it/notizie/postgresql-psqlodbc-correzioni-driver-18-00-0006-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/postgresql-psqlodbc-correzioni-driver-18-00-0006-novembre-2026.html</guid>
+      <pubDate>Tue, 03 Nov 2026 22:32:17 +0100</pubDate>
+      <description>Il richiamo del CSIRT riguarda il componente di connessione. Due avvisi mostrano come indici e nomi di tabelle non controllati possano esporre le applicazioni.</description>
+    </item>
+    <item>
       <title>«Viola come il mare 3» dal 4 novembre: nuovi episodi gratis in anteprima</title>
       <link>https://curiomondo.it/notizie/viola-come-il-mare-3-canale-5-infinity-4-novembre-2026.html</link>
       <guid>https://curiomondo.it/notizie/viola-come-il-mare-3-canale-5-infinity-4-novembre-2026.html</guid>
