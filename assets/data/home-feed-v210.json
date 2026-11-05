@@ -2,6 +2,76 @@
   "version": 845,
   "items": [
     {
+      "title": "Crans-Montana, la Svizzera rinuncia al rimborso delle cure italiane",
+      "excerpt": "Il Consiglio federale si farà carico di circa 1,5 milioni di franchi per dodici feriti assicurati in Italia. La decisione eccezionale chiude il contenzioso tra i due Paesi.",
+      "url": "/notizie/crans-montana-svizzera-rinuncia-rimborso-cure-feriti-italiani-5-novembre-2026.html",
+      "section": "Italia / Mondo",
+      "dateISO": "2026-11-05T06:39:21+01:00",
+      "dateLabel": "2026-11-05",
+      "image": "/assets/images/editorial-auto/crans-montana-svizzera-rinuncia-rimborso-cure-feriti-italiani-5-novembre-2026-v1365-800.webp",
+      "imageAlt": "Bandiere di Svizzera e Italia accanto a un fascicolo medico chiuso, in un’illustrazione editoriale generata con IA; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/crans-montana-svizzera-rinuncia-rimborso-cure-feriti-italiani-5-novembre-2026-v1365-480.webp 480w, /assets/images/editorial-auto/crans-montana-svizzera-rinuncia-rimborso-cure-feriti-italiani-5-novembre-2026-v1365-800.webp 800w, /assets/images/editorial-auto/crans-montana-svizzera-rinuncia-rimborso-cure-feriti-italiani-5-novembre-2026-v1365-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "12",
+          "label": "feriti assicurati in Italia"
+        },
+        {
+          "icon": "●",
+          "value": "1,5 mln CHF",
+          "label": "costo assunto dalla Svizzera"
+        },
+        {
+          "icon": "⚖",
+          "value": "0 €",
+          "label": "oneri per famiglie e Italia"
+        }
+      ],
+      "featuredHighlights": [
+        "Svizzera",
+        "rimborso"
+      ]
+    },
+    {
+      "title": "Terremoto 3,6 nel Catanzarese: epicentro vicino a Cardinale",
+      "excerpt": "L’INGV ha localizzato la scossa del 4 novembre alle 7:09 italiane, a 39,6 chilometri di profondità. Non risultano comunicazioni ufficiali su danni collegate all’evento.",
+      "url": "/notizie/terremoto-cardinale-catanzaro-magnitudo-3-6-4-novembre-2026.html",
+      "section": "Italia / Cronaca",
+      "dateISO": "2026-11-05T06:37:21+01:00",
+      "dateLabel": "2026-11-05",
+      "image": "/assets/images/editorial-auto/terremoto-cardinale-catanzaro-magnitudo-3-6-4-novembre-2026-v1365-800.webp",
+      "imageAlt": "Sismografo e monitor con una traccia sismica davanti alle colline calabresi, in un’illustrazione editoriale generata con IA; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/terremoto-cardinale-catanzaro-magnitudo-3-6-4-novembre-2026-v1365-480.webp 480w, /assets/images/editorial-auto/terremoto-cardinale-catanzaro-magnitudo-3-6-4-novembre-2026-v1365-800.webp 800w, /assets/images/editorial-auto/terremoto-cardinale-catanzaro-magnitudo-3-6-4-novembre-2026-v1365-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "◆",
+          "value": "3,6",
+          "label": "magnitudo locale"
+        },
+        {
+          "icon": "◷",
+          "value": "07:09",
+          "label": "orario italiano della scossa"
+        },
+        {
+          "icon": "●",
+          "value": "39,6 km",
+          "label": "profondità stimata"
+        }
+      ],
+      "featuredHighlights": [
+        "Terremoto",
+        "Cardinale"
+      ]
+    },
+    {
       "title": "Allerta rossa in Sardegna il 5 novembre: le zone e i rischi",
       "excerpt": "La Protezione Civile indica elevata criticità idrogeologica nei bacini Flumendosa-Flumineddu e in Gallura. Sul resto dell'isola e in parte della Sicilia restano livelli inferiori di allerta.",
       "url": "/notizie/allerta-rossa-sardegna-5-novembre-2026-zone-rischi.html",
@@ -31,7 +101,10 @@
           "label": "Flumendosa-Flumineddu e Gallura"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "Rossa",
+        "5 novembre"
+      ]
     },
     {
       "title": "Sciopero ENAV a Bari il 6 novembre: orari e voli da controllare",
@@ -63,7 +136,9 @@
           "label": "agitazione proclamata"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "6 novembre"
+      ]
     },
     {
       "title": "A1, stazione di Lodi chiusa nella notte tra 6 e 7 novembre",
@@ -191,7 +266,9 @@
           "label": "filobus coinvolti"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "9 e 24"
+      ]
     },
     {
       "title": "Gas, per i vulnerabili spesa in aumento del 9,1% a ottobre",
@@ -255,7 +332,9 @@
           "label": "servizio interessato"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "9 novembre"
+      ]
     },
     {
       "title": "Sciopero AMAT a Palermo il 9 novembre: mezzi a rischio dalle 11 alle 15",
@@ -287,7 +366,9 @@
           "label": "data prevista"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "9 novembre"
+      ]
     },
     {
       "title": "Genova-Milano e Genova-Torino, regionali modificati dal 7 novembre",
@@ -383,7 +464,9 @@
           "label": "scadenza ordinaria"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "31 dicembre"
+      ]
     },
     {
       "title": "Fisco, le scadenze di novembre: 730 correttivo e acconti",
@@ -479,7 +562,9 @@
           "label": "termine di molti bandi"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "3 novembre"
+      ]
     },
     {
       "title": "Quattro morti sul lavoro in poche ore: accertamenti in quattro regioni",
@@ -2750,39 +2835,39 @@
       ]
     },
     {
-      "title": "Sardegna, allerta rossa il 5 novembre sui settori orientali",
+      "title": "Meteo 5 novembre, allerta rossa in Sardegna e gialla in Sicilia",
       "excerpt": "L’avviso interessa Gallura e bacini Flumendosa-Flumineddu. Giallo per temporali nelle stesse zone e per rischio idrogeologico in parte della Basilicata.",
       "url": "/notizie/allerta-4-novembre-2026-sardegna-gallura-flumendosa-sera.html",
-      "section": "Italia",
+      "section": "Italia / Meteo",
       "dateISO": "2026-11-03T23:05:42+01:00",
       "dateLabel": "2026-11-03",
-      "image": "/assets/images/editorial-auto/allerta-4-novembre-2026-sardegna-gallura-flumendosa-sera-v1363-800.webp",
-      "imageAlt": "Strada costiera della Sardegna orientale sotto pioggia intensa; illustrazione editoriale IA non documentaria.",
+      "image": "/assets/images/editorial-auto/allerta-4-novembre-2026-sardegna-gallura-flumendosa-sera-v1365-800.webp",
+      "imageAlt": "Strada costiera siciliana sotto un intenso rovescio autunnale in un’illustrazione editoriale generata con IA; non è una fotografia documentaria.",
       "imageWidth": 800,
       "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/allerta-4-novembre-2026-sardegna-gallura-flumendosa-sera-v1363-480.webp 480w, /assets/images/editorial-auto/allerta-4-novembre-2026-sardegna-gallura-flumendosa-sera-v1363-800.webp 800w, /assets/images/editorial-auto/allerta-4-novembre-2026-sardegna-gallura-flumendosa-sera-v1363-1200.webp 1200w",
+      "srcset": "/assets/images/editorial-auto/allerta-4-novembre-2026-sardegna-gallura-flumendosa-sera-v1365-480.webp 480w, /assets/images/editorial-auto/allerta-4-novembre-2026-sardegna-gallura-flumendosa-sera-v1365-800.webp 800w, /assets/images/editorial-auto/allerta-4-novembre-2026-sardegna-gallura-flumendosa-sera-v1365-1200.webp 1200w",
       "updated": true,
-      "updatedAt": "2026-11-04T20:01:47+01:00",
+      "updatedAt": "2026-11-05T06:39:21+01:00",
       "featuredStats": [
         {
-          "icon": "•",
-          "value": "5 novembre",
-          "label": "giornata dell’allerta"
-        },
-        {
-          "icon": "•",
+          "icon": "●",
           "value": "rossa",
-          "label": "criticità a est"
+          "label": "Gallura e Flumendosa-Flumineddu"
         },
         {
-          "icon": "•",
-          "value": "gialla",
-          "label": "resto Sardegna e parte Sicilia"
+          "icon": "◆",
+          "value": "5 aree",
+          "label": "in allerta gialla in Sicilia"
+        },
+        {
+          "icon": "▲",
+          "value": "5 novembre",
+          "label": "giornata di validità"
         }
       ],
       "featuredHighlights": [
-        "5 novembre",
-        "rossa"
+        "Sardegna",
+        "Sicilia"
       ]
     },
     {
@@ -5917,36 +6002,40 @@
       "featuredHighlights": []
     },
     {
-      "title": "Supermercati europei, nuovo attacco ai frigoriferi connessi",
+      "title": "Frigoriferi dei supermercati, due gruppi filorussi rivendicano gli attacchi",
       "excerpt": "Temperature anomale in decine di negozi tra Belgio, Lussemburgo e Svezia. Alcune catene hanno dovuto svuotare i banchi refrigerati.",
       "url": "/notizie/supermercati-europa-cyberattacco-frigoriferi-belgio-svezia-2026.html",
-      "section": "Mondo / Europa / Cybersicurezza",
+      "section": "Mondo / Tecnologia",
       "dateISO": "2026-11-02T19:23:35+01:00",
       "dateLabel": "2026-11-02",
-      "image": "/assets/images/editorial-auto/supermercati-europa-cyberattacco-frigoriferi-belgio-svezia-2026-v1348-800.webp",
-      "imageAlt": "Tecnico controlla un sistema connesso davanti a frigoriferi vuoti in un supermercato, illustrazione editoriale IA non documentaria",
-      "imageWidth": 1200,
-      "imageHeight": 675,
-      "srcset": "/assets/images/editorial-auto/supermercati-europa-cyberattacco-frigoriferi-belgio-svezia-2026-v1348-480.webp 480w, /assets/images/editorial-auto/supermercati-europa-cyberattacco-frigoriferi-belgio-svezia-2026-v1348-800.webp 800w, /assets/images/editorial-auto/supermercati-europa-cyberattacco-frigoriferi-belgio-svezia-2026-v1348-1200.webp 1200w",
-      "updated": false,
+      "image": "/assets/images/editorial-auto/supermercati-europa-cyberattacco-frigoriferi-belgio-svezia-2026-v1365-800.webp",
+      "imageAlt": "Tecnico della refrigerazione controlla un pannello industriale in un supermercato, in un’illustrazione editoriale generata con IA; non è una fotografia documentaria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/supermercati-europa-cyberattacco-frigoriferi-belgio-svezia-2026-v1365-480.webp 480w, /assets/images/editorial-auto/supermercati-europa-cyberattacco-frigoriferi-belgio-svezia-2026-v1365-800.webp 800w, /assets/images/editorial-auto/supermercati-europa-cyberattacco-frigoriferi-belgio-svezia-2026-v1365-1200.webp 1200w",
+      "updated": true,
+      "updatedAt": "2026-11-05T06:39:21+01:00",
       "featuredStats": [
         {
-          "icon": "•",
-          "value": "4",
-          "label": "Paesi colpiti in un mese"
+          "icon": "◆",
+          "value": "2 gruppi",
+          "label": "autori delle rivendicazioni"
         },
         {
-          "icon": "•",
-          "value": "decine",
-          "label": "negozi coinvolti"
+          "icon": "●",
+          "value": "UE",
+          "label": "verifiche coordinate"
         },
         {
-          "icon": "•",
-          "value": "0",
-          "label": "responsabili rivendicati"
+          "icon": "▲",
+          "value": "limitati",
+          "label": "danni iniziali in Italia"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "filorussi",
+        "attacchi"
+      ]
     },
     {
       "title": "Sudan, l’ONU condanna l’escalation dei droni contro civili e ospedali",
@@ -7262,37 +7351,40 @@
       ]
     },
     {
-      "title": "Manovra 2027, pubblicato il testo: mutui e bollo tra le misure proposte",
+      "title": "Manovra 2027, sale il forfettario: tensioni nella maggioranza",
       "excerpt": "Il testo da 26 miliardi è atteso alla Camera. Previsti tre relatori e un fondo di 120 milioni per le modifiche parlamentari.",
       "url": "/notizie/manovra-2027-sessione-bilancio-camera-audizioni-novembre-2026.html",
-      "section": "Politica / Italia",
+      "section": "Italia / Politica",
       "dateISO": "2026-11-02T06:51:27+01:00",
       "dateLabel": "2026-11-02",
-      "image": "/assets/images/editorial-auto/manovra-2027-sessione-bilancio-camera-audizioni-novembre-2026-v1360-800.webp",
-      "imageAlt": "Giancarlo Giorgetti in un ritratto editoriale generato con IA, con un fascicolo chiuso; non è una fotografia documentaria.",
+      "image": "/assets/images/editorial-auto/manovra-2027-sessione-bilancio-camera-audizioni-novembre-2026-v1365-800.webp",
+      "imageAlt": "Giancarlo Giorgetti in un’illustrazione editoriale generata con IA, seduto a un tavolo istituzionale con un fascicolo chiuso; non è una fotografia documentaria.",
       "imageWidth": 800,
       "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/manovra-2027-sessione-bilancio-camera-audizioni-novembre-2026-v1360-480.webp 480w, /assets/images/editorial-auto/manovra-2027-sessione-bilancio-camera-audizioni-novembre-2026-v1360-800.webp 800w, /assets/images/editorial-auto/manovra-2027-sessione-bilancio-camera-audizioni-novembre-2026-v1360-1200.webp 1200w",
+      "srcset": "/assets/images/editorial-auto/manovra-2027-sessione-bilancio-camera-audizioni-novembre-2026-v1365-480.webp 480w, /assets/images/editorial-auto/manovra-2027-sessione-bilancio-camera-audizioni-novembre-2026-v1365-800.webp 800w, /assets/images/editorial-auto/manovra-2027-sessione-bilancio-camera-audizioni-novembre-2026-v1365-1200.webp 1200w",
       "updated": true,
-      "updatedAt": "2026-11-04T16:49:47+01:00",
+      "updatedAt": "2026-11-05T06:39:21+01:00",
       "featuredStats": [
         {
-          "icon": "•",
+          "icon": "◆",
+          "value": "100 mila €",
+          "label": "soglia proposta per il forfettario"
+        },
+        {
+          "icon": "▲",
+          "value": "35 mila €",
+          "label": "tetto lavoro dipendente o pensione"
+        },
+        {
+          "icon": "●",
           "value": "C. 3174",
-          "label": "disegno di legge di bilancio"
-        },
-        {
-          "icon": "•",
-          "value": "31 dicembre 2029",
-          "label": "proroga proposta per le garanzie prima casa"
-        },
-        {
-          "icon": "•",
-          "value": "80 kW",
-          "label": "limite previsto per l’esenzione auto"
+          "label": "disegno di legge alla Camera"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "forfettario",
+        "maggioranza"
+      ]
     },
     {
       "title": "Ammortizzatori sociali, 358 milioni nella manovra e 15 milioni per l'ex Ilva",
@@ -8475,34 +8567,37 @@
       "title": "Midterm USA, i Democratici conquistano Camera e Senato",
       "excerpt": "Il 3 novembre si vota per tutta la Camera e 35 seggi del Senato. Oltre 52 milioni di americani hanno già votato.",
       "url": "/notizie/stati-uniti-midterm-trump-iowa-kansas-3-novembre-2026.html",
-      "section": "Mondo / Stati Uniti / Politica",
+      "section": "Mondo",
       "dateISO": "2026-11-01T18:16:17+01:00",
       "dateLabel": "2026-11-01",
-      "image": "/assets/images/editorial-auto/stati-uniti-midterm-trump-iowa-kansas-3-novembre-2026-v1364-800.webp",
-      "imageAlt": "Ritratto di Hakeem Jeffries in un corridoio del Congresso; illustrazione editoriale IA non documentaria.",
+      "image": "/assets/images/editorial-auto/stati-uniti-midterm-trump-iowa-kansas-3-novembre-2026-v1365-800.webp",
+      "imageAlt": "Giorgia Meloni in un’illustrazione editoriale generata con IA, davanti alle bandiere italiana ed europea e a un monitor con il Campidoglio statunitense; non è una fotografia documentaria.",
       "imageWidth": 800,
       "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/stati-uniti-midterm-trump-iowa-kansas-3-novembre-2026-v1364-480.webp 480w, /assets/images/editorial-auto/stati-uniti-midterm-trump-iowa-kansas-3-novembre-2026-v1364-800.webp 800w, /assets/images/editorial-auto/stati-uniti-midterm-trump-iowa-kansas-3-novembre-2026-v1364-1200.webp 1200w",
+      "srcset": "/assets/images/editorial-auto/stati-uniti-midterm-trump-iowa-kansas-3-novembre-2026-v1365-480.webp 480w, /assets/images/editorial-auto/stati-uniti-midterm-trump-iowa-kansas-3-novembre-2026-v1365-800.webp 800w, /assets/images/editorial-auto/stati-uniti-midterm-trump-iowa-kansas-3-novembre-2026-v1365-1200.webp 1200w",
       "updated": true,
-      "updatedAt": "2026-11-04T20:45:16+01:00",
+      "updatedAt": "2026-11-05T06:39:21+01:00",
       "featuredStats": [
         {
-          "icon": "•",
-          "value": "2 camere",
-          "label": "maggioranza democratica"
+          "icon": "◆",
+          "value": "2 Camere",
+          "label": "controllate dai Democratici"
         },
         {
-          "icon": "•",
+          "icon": "⚖",
+          "value": "2/3",
+          "label": "soglia per una condanna in Senato"
+        },
+        {
+          "icon": "●",
           "value": "gennaio",
           "label": "insediamento del nuovo Congresso"
-        },
-        {
-          "icon": "•",
-          "value": "2028",
-          "label": "prossime presidenziali"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "Democratici",
+        "Congresso"
+      ]
     },
     {
       "title": "Casa Bianca, allo studio più azioni esecutive se i Democratici vincono il Congresso",
@@ -65584,37 +65679,40 @@
       ]
     },
     {
-      "title": "Caso Poggi, la Procura chiede il processo per Andrea Sempio",
+      "title": "Garlasco, chiesto il processo per Sempio: cosa decide ora il Gup",
       "excerpt": "La Procura di Pavia notifica il nuovo 415-bis con consulenze aggiornate. Accusa di omicidio pluriaggravato. Stasi resta condannato.",
       "url": "/notizie/garlasco-chiuse-le-indagini-su-sempio-verso-la-richiesta-di-processo-28-09-2026.html",
       "section": "Italia / Cronaca",
       "dateISO": "2026-09-28T16:25:11+02:00",
       "dateLabel": "2026-09-28",
-      "image": "/assets/images/editorial-auto/garlasco-chiuse-le-indagini-su-sempio-verso-la-richiesta-di-processo-28-09-2026-v1364-800.webp",
-      "imageAlt": "Fascicolo chiuso, martelletto e occhiali in un ufficio legale; illustrazione editoriale IA senza persone.",
+      "image": "/assets/images/editorial-auto/garlasco-chiuse-le-indagini-su-sempio-verso-la-richiesta-di-processo-28-09-2026-v1365-800.webp",
+      "imageAlt": "Ritratto editoriale neutrale generato con IA di Andrea Sempio; non è una fotografia documentaria.",
       "imageWidth": 800,
       "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/garlasco-chiuse-le-indagini-su-sempio-verso-la-richiesta-di-processo-28-09-2026-v1364-480.webp 480w, /assets/images/editorial-auto/garlasco-chiuse-le-indagini-su-sempio-verso-la-richiesta-di-processo-28-09-2026-v1364-800.webp 800w, /assets/images/editorial-auto/garlasco-chiuse-le-indagini-su-sempio-verso-la-richiesta-di-processo-28-09-2026-v1364-1200.webp 1200w",
+      "srcset": "/assets/images/editorial-auto/garlasco-chiuse-le-indagini-su-sempio-verso-la-richiesta-di-processo-28-09-2026-v1365-480.webp 480w, /assets/images/editorial-auto/garlasco-chiuse-le-indagini-su-sempio-verso-la-richiesta-di-processo-28-09-2026-v1365-800.webp 800w, /assets/images/editorial-auto/garlasco-chiuse-le-indagini-su-sempio-verso-la-richiesta-di-processo-28-09-2026-v1365-1200.webp 1200w",
       "updated": true,
-      "updatedAt": "2026-11-04T20:45:16+01:00",
+      "updatedAt": "2026-11-05T06:39:21+01:00",
       "featuredStats": [
         {
-          "icon": "•",
-          "value": "13 agosto 2007",
-          "label": "data del delitto"
+          "icon": "⚖",
+          "value": "5 giorni",
+          "label": "termine per fissare l’udienza"
         },
         {
-          "icon": "•",
+          "icon": "◆",
           "value": "16 anni",
           "label": "condanna definitiva di Stasi"
         },
         {
-          "icon": "•",
-          "value": "1",
-          "label": "richiesta da valutare"
+          "icon": "●",
+          "value": "metà novembre",
+          "label": "revisione annunciata dalla difesa"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "processo",
+        "Gup"
+      ]
     },
     {
       "title": "Vozinha: «Ho perso pace e tranquillità, preferivo la vita di prima»",
@@ -79889,18 +79987,40 @@
       "updated": false
     },
     {
-      "title": "Ucraina, Zelenskyy: riavviare i negoziati dopo l’incontro con gli inviati USA",
+      "title": "Ucraina, Zelensky prepara un trilaterale con gli inviati USA",
       "excerpt": "Dopo i colloqui a Kyiv con Steve Witkoff e Jared Kushner, il presidente ucraino considera importante riprendere il processo diplomatico. Sul tavolo sicurezza, territori, ricostruzione e sostegno invernale.",
       "url": "/notizie/ucraina-zelenskyy-riavviare-negoziati-inviati-usa-7-settembre-2026.html",
-      "section": "Mondo / Ucraina / Diplomazia",
+      "section": "Mondo",
       "dateISO": "2026-09-07T06:01:00+02:00",
       "dateLabel": "2026-09-07",
-      "image": "/assets/images/editorial-auto/zelensky-witkoff-kushner-negoziati-7-settembre-2026-ai-v297-800.webp",
-      "imageAlt": "Scena editoriale contestuale generata con IA di Volodymyr Zelenskyy a colloquio con Steve Witkoff e Jared Kushner in una sala istituzionale a Kyiv",
+      "image": "/assets/images/editorial-auto/ucraina-zelenskyy-riavviare-negoziati-inviati-usa-7-settembre-2026-v1365-800.webp",
+      "imageAlt": "Ritratto editoriale neutrale generato con IA di Volodymyr Zelensky su sfondo blu e giallo; non è una fotografia documentaria.",
       "imageWidth": 800,
-      "imageHeight": 533,
-      "srcset": "/assets/images/editorial-auto/zelensky-witkoff-kushner-negoziati-7-settembre-2026-ai-v297-480.webp 480w, /assets/images/editorial-auto/zelensky-witkoff-kushner-negoziati-7-settembre-2026-ai-v297-800.webp 800w, /assets/images/editorial-auto/zelensky-witkoff-kushner-negoziati-7-settembre-2026-ai-v297-1200.webp 1200w",
-      "updated": false
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/ucraina-zelenskyy-riavviare-negoziati-inviati-usa-7-settembre-2026-v1365-480.webp 480w, /assets/images/editorial-auto/ucraina-zelenskyy-riavviare-negoziati-inviati-usa-7-settembre-2026-v1365-800.webp 800w, /assets/images/editorial-auto/ucraina-zelenskyy-riavviare-negoziati-inviati-usa-7-settembre-2026-v1365-1200.webp 1200w",
+      "updated": true,
+      "updatedAt": "2026-11-05T06:39:21+01:00",
+      "featuredStats": [
+        {
+          "icon": "◷",
+          "value": "90 minuti",
+          "label": "durata del colloquio"
+        },
+        {
+          "icon": "◆",
+          "value": "3 delegazioni",
+          "label": "formato in preparazione"
+        },
+        {
+          "icon": "●",
+          "value": "Abu Dhabi",
+          "label": "sede indicata da Kyiv"
+        }
+      ],
+      "featuredHighlights": [
+        "trilaterale",
+        "USA"
+      ]
     },
     {
       "title": "Germania, AfD vince in Sassonia-Anhalt con il 43,8%",
