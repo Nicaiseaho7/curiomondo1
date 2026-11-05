@@ -3,6 +3,861 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "id": "allerta-rossa-sardegna-5-novembre-2026-zone-rischi",
+      "key": "allerta-rossa-sardegna-5-novembre-2026-zone-rischi-v1365",
+      "article": "/notizie/allerta-rossa-sardegna-5-novembre-2026-zone-rischi.html",
+      "alt": "Illustrazione editoriale IA di un operatore della Protezione Civile su una strada sarda sotto la pioggia; non documenta un’emergenza reale.",
+      "prompt": "Photorealistic editorial scene of a Protezione Civile officer and official vehicle on a rainy Sardinian road; no damage or emergency reconstructed.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/allerta-rossa-sardegna-5-novembre-2026-zone-rischi-v1365-480.webp",
+          "sha256": "497a65539d7e4833ca2673ad4f23878f2be6a6c4cd20bf763b80eb34d26e84fa",
+          "bytes": 47394
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/allerta-rossa-sardegna-5-novembre-2026-zone-rischi-v1365-800.webp",
+          "sha256": "66437fc02ab91f38ccb9490c32c01ca6470453ed213721d37515eee24acf776f",
+          "bytes": 116964
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/allerta-rossa-sardegna-5-novembre-2026-zone-rischi-v1365-1200.webp",
+          "sha256": "c71e3991ac2fe08041ad83572f971cb29fa06e1785a016d689aaa17f3f32d92c",
+          "bytes": 198430
+        }
+      ],
+      "distributionVariants": [
+        {
+          "w": 1200,
+          "h": 900,
+          "src": "/assets/images/editorial-auto/allerta-rossa-sardegna-5-novembre-2026-zone-rischi-v1365-1200-4x3.webp",
+          "sha256": "99404db736be1c309a4d75541d1de48051fe014c293e0115b24b1b9b92508ccc",
+          "bytes": 223756
+        },
+        {
+          "w": 1200,
+          "h": 1200,
+          "src": "/assets/images/editorial-auto/allerta-rossa-sardegna-5-novembre-2026-zone-rischi-v1365-1200-1x1.webp",
+          "sha256": "6e65014369593b6e7633bd7bdacec7bfedf90e5e86d5d35a4183f32be135a824",
+          "bytes": 240690
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "synthID": "not-exposed-by-generation-tool",
+      "version": 1365
+    },
+    {
+      "id": "sciopero-enav-bari-6-novembre-2026-orari-voli",
+      "key": "sciopero-enav-bari-6-novembre-2026-orari-voli-v1365",
+      "article": "/notizie/sciopero-enav-bari-6-novembre-2026-orari-voli.html",
+      "alt": "Illustrazione editoriale IA della torre ENAV e di un operatore all’aeroporto di Bari; non documenta lo sciopero.",
+      "prompt": "Photorealistic editorial scene of Bari airport, the ENAV control tower and an airport professional; ordinary safe operations.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/sciopero-enav-bari-6-novembre-2026-orari-voli-v1365-480.webp",
+          "sha256": "395352a9a034551f4c147bcc96c40876019fbf851c923e419e98fff5fbe0821b",
+          "bytes": 29980
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/sciopero-enav-bari-6-novembre-2026-orari-voli-v1365-800.webp",
+          "sha256": "28a2c555940100c33236d8c8baf685f083572f868c9b8dc62038c3a17029419a",
+          "bytes": 60064
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/sciopero-enav-bari-6-novembre-2026-orari-voli-v1365-1200.webp",
+          "sha256": "71951b43545746ef7674fadf795e1d6a763f79ffa9b9865e5d115e5bc82c62e0",
+          "bytes": 100972
+        }
+      ],
+      "distributionVariants": [
+        {
+          "w": 1200,
+          "h": 900,
+          "src": "/assets/images/editorial-auto/sciopero-enav-bari-6-novembre-2026-orari-voli-v1365-1200-4x3.webp",
+          "sha256": "9316943294ef4d0be11584c1e24371298528c14fda2976d1b6fa082107fd14c1",
+          "bytes": 116452
+        },
+        {
+          "w": 1200,
+          "h": 1200,
+          "src": "/assets/images/editorial-auto/sciopero-enav-bari-6-novembre-2026-orari-voli-v1365-1200-1x1.webp",
+          "sha256": "277c49d18837a7787af6f36ece28016d6ae7dd5549fcb04fe7f327d0f71188ea",
+          "bytes": 132016
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "synthID": "not-exposed-by-generation-tool",
+      "version": 1365
+    },
+    {
+      "id": "sciopero-italo-9-novembre-2026-orari-treni-garantiti",
+      "key": "sciopero-italo-9-novembre-2026-orari-treni-garantiti-v1365",
+      "article": "/notizie/sciopero-italo-9-novembre-2026-orari-treni-garantiti.html",
+      "alt": "Illustrazione editoriale IA di un treno Italo e un dipendente in stazione; non documenta lo sciopero.",
+      "prompt": "Photorealistic editorial scene of a current Italo high-speed train and a uniformed employee at an Italian platform; no protest reconstructed.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/sciopero-italo-9-novembre-2026-orari-treni-garantiti-v1365-480.webp",
+          "sha256": "4cb7176d492cf7348a6e2a4ccae4981b919bb2ec252b3b747e2ade52141a65cd",
+          "bytes": 44066
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/sciopero-italo-9-novembre-2026-orari-treni-garantiti-v1365-800.webp",
+          "sha256": "867bb84f3c9ecdd98a2027e2e79b675049938a0154bf1cae115c1310eb8e918e",
+          "bytes": 97994
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/sciopero-italo-9-novembre-2026-orari-treni-garantiti-v1365-1200.webp",
+          "sha256": "5a20ce818dca113af7a6342137826361ac26d2a7917ffdc6b0654385d5511a6f",
+          "bytes": 172324
+        }
+      ],
+      "distributionVariants": [
+        {
+          "w": 1200,
+          "h": 900,
+          "src": "/assets/images/editorial-auto/sciopero-italo-9-novembre-2026-orari-treni-garantiti-v1365-1200-4x3.webp",
+          "sha256": "3a04cad1a5eb42fdd77dffc4291df79d2d2395e6920ee83c9251dccda5028541",
+          "bytes": 189308
+        },
+        {
+          "w": 1200,
+          "h": 1200,
+          "src": "/assets/images/editorial-auto/sciopero-italo-9-novembre-2026-orari-treni-garantiti-v1365-1200-1x1.webp",
+          "sha256": "7416f1d78379c77282632a75392701245e6d7491477a0285cfea44a8a8f096b1",
+          "bytes": 190262
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "synthID": "not-exposed-by-generation-tool",
+      "version": 1365
+    },
+    {
+      "id": "sciopero-amat-palermo-9-novembre-2026-orari-garanzia",
+      "key": "sciopero-amat-palermo-9-novembre-2026-orari-garanzia-v1365",
+      "article": "/notizie/sciopero-amat-palermo-9-novembre-2026-orari-garanzia.html",
+      "alt": "Illustrazione editoriale IA di un autobus AMAT Palermo e del conducente; non documenta lo sciopero.",
+      "prompt": "Photorealistic editorial scene of an authentic AMAT Palermo bus and driver in a calm urban setting; no strike event reconstructed.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/sciopero-amat-palermo-9-novembre-2026-orari-garanzia-v1365-480.webp",
+          "sha256": "d265ffc37e785aa01d063faacebbbef2f55e4df5588f4474500386100f780e2d",
+          "bytes": 59576
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/sciopero-amat-palermo-9-novembre-2026-orari-garanzia-v1365-800.webp",
+          "sha256": "8fcf5f9448a345ef5a816c50bdda486c5c02987d48f66773c6e9850ba86e696a",
+          "bytes": 147806
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/sciopero-amat-palermo-9-novembre-2026-orari-garanzia-v1365-1200.webp",
+          "sha256": "cdd29060703335d40b7e60e83a4610a429eefcc8ad755a650520eba00eb39d06",
+          "bytes": 281782
+        }
+      ],
+      "distributionVariants": [
+        {
+          "w": 1200,
+          "h": 900,
+          "src": "/assets/images/editorial-auto/sciopero-amat-palermo-9-novembre-2026-orari-garanzia-v1365-1200-4x3.webp",
+          "sha256": "74ede9497cc7662703ca3afaa80064ab5523636667b6fbc21d4aafb687157509",
+          "bytes": 327634
+        },
+        {
+          "w": 1200,
+          "h": 1200,
+          "src": "/assets/images/editorial-auto/sciopero-amat-palermo-9-novembre-2026-orari-garanzia-v1365-1200-1x1.webp",
+          "sha256": "c4972badfa0ee9ab0f8e7447819666b134293c8628eab95c28751f2704f933c3",
+          "bytes": 317634
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "synthID": "not-exposed-by-generation-tool",
+      "version": 1365
+    },
+    {
+      "id": "treni-pistoia-prato-stop-6-9-novembre-2026-bus",
+      "key": "treni-pistoia-prato-stop-6-9-novembre-2026-bus-v1365",
+      "article": "/notizie/treni-pistoia-prato-stop-6-9-novembre-2026-bus.html",
+      "alt": "Illustrazione editoriale IA di un regionale Trenitalia e tecnici RFI in Toscana; non documenta il cantiere.",
+      "prompt": "Photorealistic editorial scene of a current Trenitalia Regionale train and RFI maintenance workers in Tuscany; safe planned works context.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/treni-pistoia-prato-stop-6-9-novembre-2026-bus-v1365-480.webp",
+          "sha256": "0cfb86fac3402256a82160c0ff9617f4f8101af272aebb568983c06a5f4a3d8f",
+          "bytes": 56854
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/treni-pistoia-prato-stop-6-9-novembre-2026-bus-v1365-800.webp",
+          "sha256": "b6066c2ec373e7cedb0a6e90943106f188837e0d21815ad1495c94422f98e694",
+          "bytes": 138896
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/treni-pistoia-prato-stop-6-9-novembre-2026-bus-v1365-1200.webp",
+          "sha256": "e11da3fc9eddd9cdcc9ee0b25a5c8fcbee3d565b28831ef0d496295287faac4e",
+          "bytes": 263372
+        }
+      ],
+      "distributionVariants": [
+        {
+          "w": 1200,
+          "h": 900,
+          "src": "/assets/images/editorial-auto/treni-pistoia-prato-stop-6-9-novembre-2026-bus-v1365-1200-4x3.webp",
+          "sha256": "fdf83b8318e9066d53367979b7efee095bd7edd84a151da34aff5345cc8d828a",
+          "bytes": 286114
+        },
+        {
+          "w": 1200,
+          "h": 1200,
+          "src": "/assets/images/editorial-auto/treni-pistoia-prato-stop-6-9-novembre-2026-bus-v1365-1200-1x1.webp",
+          "sha256": "dd7e22da9ce848c84a194c1d20f50c3c55a4a4bedfddb63b6f8bd30b5a28caf5",
+          "bytes": 285308
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "synthID": "not-exposed-by-generation-tool",
+      "version": 1365
+    },
+    {
+      "id": "treni-ferrara-modifiche-6-16-novembre-2026-frecce-regionali",
+      "key": "treni-ferrara-modifiche-6-16-novembre-2026-frecce-regionali-v1365",
+      "article": "/notizie/treni-ferrara-modifiche-6-16-novembre-2026-frecce-regionali.html",
+      "alt": "Illustrazione editoriale IA di Frecciarossa, Regionale e tecnico RFI; non documenta i lavori a Ferrara.",
+      "prompt": "Photorealistic editorial scene of Frecciarossa, Regionale and an RFI technician near Ferrara; safe planned maintenance.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/treni-ferrara-modifiche-6-16-novembre-2026-frecce-regionali-v1365-480.webp",
+          "sha256": "bd13d24317272bf0ddb1f4bbc1b2d8330a1c82b2c63de3bfeb752aea91a205cb",
+          "bytes": 55318
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/treni-ferrara-modifiche-6-16-novembre-2026-frecce-regionali-v1365-800.webp",
+          "sha256": "2114deed132f120d5c34c49b5a8d1b5b182f93b6f0317d33db931e77c8c146b0",
+          "bytes": 143204
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/treni-ferrara-modifiche-6-16-novembre-2026-frecce-regionali-v1365-1200.webp",
+          "sha256": "0c48463e9014d4ac567d7994e317b24b911acb70fc59a3b0e487916e124fd4d7",
+          "bytes": 276698
+        }
+      ],
+      "distributionVariants": [
+        {
+          "w": 1200,
+          "h": 900,
+          "src": "/assets/images/editorial-auto/treni-ferrara-modifiche-6-16-novembre-2026-frecce-regionali-v1365-1200-4x3.webp",
+          "sha256": "2abe38215b79f6938d3fe128d7eb85dec5805d5b605b6ce0583ae86dcef489f3",
+          "bytes": 345386
+        },
+        {
+          "w": 1200,
+          "h": 1200,
+          "src": "/assets/images/editorial-auto/treni-ferrara-modifiche-6-16-novembre-2026-frecce-regionali-v1365-1200-1x1.webp",
+          "sha256": "2fe2b3c7f4047f081d9036d550796b4bbd5348736c993354a0f930b6ed4d54cc",
+          "bytes": 393292
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "synthID": "not-exposed-by-generation-tool",
+      "version": 1365
+    },
+    {
+      "id": "treni-genova-milano-torino-variazioni-7-22-novembre-2026",
+      "key": "treni-genova-milano-torino-variazioni-7-22-novembre-2026-v1365",
+      "article": "/notizie/treni-genova-milano-torino-variazioni-7-22-novembre-2026.html",
+      "alt": "Illustrazione editoriale IA di un regionale Trenitalia e una dipendente in Liguria; non documenta una corsa reale.",
+      "prompt": "Photorealistic editorial scene of a Trenitalia Regionale train and employee in a Ligurian rail landscape; no disruption reconstructed.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/treni-genova-milano-torino-variazioni-7-22-novembre-2026-v1365-480.webp",
+          "sha256": "aaf098143975239e2825b4281a73b1aefd30cbfb94da5bf5cdeaa8d8524313bc",
+          "bytes": 53838
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/treni-genova-milano-torino-variazioni-7-22-novembre-2026-v1365-800.webp",
+          "sha256": "7137f640981b959ce85e71ab69b80ecf49747ba7437d524905bdacf1fa352b17",
+          "bytes": 138988
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/treni-genova-milano-torino-variazioni-7-22-novembre-2026-v1365-1200.webp",
+          "sha256": "fb39834137b48da71514a0141029ff099b49a9d00901a0d37f666f06e4c7fb1d",
+          "bytes": 276260
+        }
+      ],
+      "distributionVariants": [
+        {
+          "w": 1200,
+          "h": 900,
+          "src": "/assets/images/editorial-auto/treni-genova-milano-torino-variazioni-7-22-novembre-2026-v1365-1200-4x3.webp",
+          "sha256": "df33faccf412897be1a5ccb389e6433b2016e2bc5451a4ecbc82ed1d26344e60",
+          "bytes": 349908
+        },
+        {
+          "w": 1200,
+          "h": 1200,
+          "src": "/assets/images/editorial-auto/treni-genova-milano-torino-variazioni-7-22-novembre-2026-v1365-1200-1x1.webp",
+          "sha256": "a0a3122ce6409f13a18158001ebf32d22b910c89d5032022042be8de3d3db9a8",
+          "bytes": 382756
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "synthID": "not-exposed-by-generation-tool",
+      "version": 1365
+    },
+    {
+      "id": "treni-palermo-aeroporto-stop-notturno-bus-novembre-2026",
+      "key": "treni-palermo-aeroporto-stop-notturno-bus-novembre-2026-v1365",
+      "article": "/notizie/treni-palermo-aeroporto-stop-notturno-bus-novembre-2026.html",
+      "alt": "Illustrazione editoriale IA di treno, bus sostitutivo e assistenza ai viaggiatori; non documenta una corsa reale.",
+      "prompt": "Photorealistic editorial scene of a Trenitalia train, replacement bus, employee and traveler at an airport rail interchange at dusk.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/treni-palermo-aeroporto-stop-notturno-bus-novembre-2026-v1365-480.webp",
+          "sha256": "1f65c86e7e41ef04f80818b50ec8c5072367343a59be4b680842b88a6838b86f",
+          "bytes": 46210
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/treni-palermo-aeroporto-stop-notturno-bus-novembre-2026-v1365-800.webp",
+          "sha256": "5aedc2807aeba19bfa152c6e2704cf71b02f9c7ea1fe8e5dcec2e2ed46c48320",
+          "bytes": 98696
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/treni-palermo-aeroporto-stop-notturno-bus-novembre-2026-v1365-1200.webp",
+          "sha256": "b8291b88d9e1a53eb7be5ee2f1c152daf3f69e79cac3f78eeb335fd7e9bc2523",
+          "bytes": 168406
+        }
+      ],
+      "distributionVariants": [
+        {
+          "w": 1200,
+          "h": 900,
+          "src": "/assets/images/editorial-auto/treni-palermo-aeroporto-stop-notturno-bus-novembre-2026-v1365-1200-4x3.webp",
+          "sha256": "2b3f24945b8433fcd7ef62976941d52a917ea80b4501e696f67820bfee8b773a",
+          "bytes": 197004
+        },
+        {
+          "w": 1200,
+          "h": 1200,
+          "src": "/assets/images/editorial-auto/treni-palermo-aeroporto-stop-notturno-bus-novembre-2026-v1365-1200-1x1.webp",
+          "sha256": "c657c1836effda133cea11108714789623b7995f819cacf718730e2be4b558d2",
+          "bytes": 206554
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "synthID": "not-exposed-by-generation-tool",
+      "version": 1365
+    },
+    {
+      "id": "a1-lodi-chiusura-stazione-6-7-novembre-2026-alternative",
+      "key": "a1-lodi-chiusura-stazione-6-7-novembre-2026-alternative-v1365",
+      "article": "/notizie/a1-lodi-chiusura-stazione-6-7-novembre-2026-alternative.html",
+      "alt": "Illustrazione editoriale IA di un casello A1 e un operatore; non documenta la chiusura di Lodi.",
+      "prompt": "Photorealistic editorial scene of an Autostrade per l'Italia A1 toll area and worker during safe nighttime maintenance.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/a1-lodi-chiusura-stazione-6-7-novembre-2026-alternative-v1365-480.webp",
+          "sha256": "c146e8e7afa3eb48c658052cc38fac7a6dbab98e6df996bcd9fc0a84c86a08d8",
+          "bytes": 49276
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/a1-lodi-chiusura-stazione-6-7-novembre-2026-alternative-v1365-800.webp",
+          "sha256": "b6a97744a6c4a0afa8d77b797d270f8c3c4f61d78de6e012deee2cba76e40a0c",
+          "bytes": 115012
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/a1-lodi-chiusura-stazione-6-7-novembre-2026-alternative-v1365-1200.webp",
+          "sha256": "308e61fa76555d7231d22658dc94a6975f35c81e36c1ff4760e0496f5951ba84",
+          "bytes": 216132
+        }
+      ],
+      "distributionVariants": [
+        {
+          "w": 1200,
+          "h": 900,
+          "src": "/assets/images/editorial-auto/a1-lodi-chiusura-stazione-6-7-novembre-2026-alternative-v1365-1200-4x3.webp",
+          "sha256": "808208a66a975dd92604bc8972f04977e92163d223ffb92da4a6d3293a8416ba",
+          "bytes": 255764
+        },
+        {
+          "w": 1200,
+          "h": 1200,
+          "src": "/assets/images/editorial-auto/a1-lodi-chiusura-stazione-6-7-novembre-2026-alternative-v1365-1200-1x1.webp",
+          "sha256": "ba278aa7cc825cbb10e2ac64ff8a89cb51fb64bcfbec46fbbc5d8f3bcfe36d03",
+          "bytes": 274454
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "synthID": "not-exposed-by-generation-tool",
+      "version": 1365
+    },
+    {
+      "id": "atm-milano-tram-9-24-filobus-variazioni-5-14-novembre-2026",
+      "key": "atm-milano-tram-9-24-filobus-variazioni-5-14-novembre-2026-v1365",
+      "article": "/notizie/atm-milano-tram-9-24-filobus-variazioni-5-14-novembre-2026.html",
+      "alt": "Illustrazione editoriale IA di tram, filobus e conducente ATM a Milano; non documenta una corsa reale.",
+      "prompt": "Photorealistic editorial scene of ATM Milano tram 9, trolleybus and uniformed driver; ordinary city transport setting.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/atm-milano-tram-9-24-filobus-variazioni-5-14-novembre-2026-v1365-480.webp",
+          "sha256": "e52aff0b201836d8f1237dd101b09bab2885889aeab278593449d89dddc5e76f",
+          "bytes": 68100
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/atm-milano-tram-9-24-filobus-variazioni-5-14-novembre-2026-v1365-800.webp",
+          "sha256": "e8ad373650551d7257563e0afaab50bf8d470abe916edfdee37b7c13b6070478",
+          "bytes": 166980
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/atm-milano-tram-9-24-filobus-variazioni-5-14-novembre-2026-v1365-1200.webp",
+          "sha256": "fdb1c502914b580bb9ece1b745eb08a32f213f6fd9d38739d73fb96eb249b0d9",
+          "bytes": 335272
+        }
+      ],
+      "distributionVariants": [
+        {
+          "w": 1200,
+          "h": 900,
+          "src": "/assets/images/editorial-auto/atm-milano-tram-9-24-filobus-variazioni-5-14-novembre-2026-v1365-1200-4x3.webp",
+          "sha256": "1266b30c1e08ab001f17b5ab04d3fd7b63b111f9aec08cca22a228285627cdd1",
+          "bytes": 411360
+        },
+        {
+          "w": 1200,
+          "h": 1200,
+          "src": "/assets/images/editorial-auto/atm-milano-tram-9-24-filobus-variazioni-5-14-novembre-2026-v1365-1200-1x1.webp",
+          "sha256": "661d7eacc21190b8e81c7c9839fde3ac290bddf2ea1c6904b96e759198dd9b0d",
+          "bytes": 448532
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "synthID": "not-exposed-by-generation-tool",
+      "version": 1365
+    },
+    {
+      "id": "bonus-mamme-2026-domanda-inps-scadenza-requisiti-720-euro",
+      "key": "bonus-mamme-2026-domanda-inps-scadenza-requisiti-720-euro-v1365",
+      "article": "/notizie/bonus-mamme-2026-domanda-inps-scadenza-requisiti-720-euro.html",
+      "alt": "Illustrazione editoriale IA di una lavoratrice che consulta il portale INPS; non documenta una pratica reale.",
+      "prompt": "Ultra-photorealistic over-the-shoulder editorial scene of an Italian working mother using the INPS portal, with the laptop screen physically facing her and no personal data.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/bonus-mamme-2026-domanda-inps-scadenza-requisiti-720-euro-v1365-480.webp",
+          "sha256": "c5af7c130e23b11c0c3e7945970b07dc77a0ad92b6c7b1c7b3a4834757020bec",
+          "bytes": 42526
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/bonus-mamme-2026-domanda-inps-scadenza-requisiti-720-euro-v1365-800.webp",
+          "sha256": "ecd0b94f3f0caa72fcb5e6da60726987dd22511c82ed7abee1649aea46cbd7ae",
+          "bytes": 97916
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/bonus-mamme-2026-domanda-inps-scadenza-requisiti-720-euro-v1365-1200.webp",
+          "sha256": "39be7635d985a918e8367e56e1f1a6ec6965419a8e9173a1203e0ff32c6e8a08",
+          "bytes": 176126
+        }
+      ],
+      "distributionVariants": [
+        {
+          "w": 1200,
+          "h": 900,
+          "src": "/assets/images/editorial-auto/bonus-mamme-2026-domanda-inps-scadenza-requisiti-720-euro-v1365-1200-4x3.webp",
+          "sha256": "8aefe90fac6dc3333490f96f58ef68b0e8ea34b5eb76a6f17a435fca7274120d",
+          "bytes": 190848
+        },
+        {
+          "w": 1200,
+          "h": 1200,
+          "src": "/assets/images/editorial-auto/bonus-mamme-2026-domanda-inps-scadenza-requisiti-720-euro-v1365-1200-1x1.webp",
+          "sha256": "f57d8159ca6d36fc258eb047a394682a3888af8af956f5be3506bc85e834d7ee",
+          "bytes": 181742
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "synthID": "not-exposed-by-generation-tool",
+      "version": 1365
+    },
+    {
+      "id": "scadenze-fiscali-novembre-2026-730-acconti-30-novembre",
+      "key": "scadenze-fiscali-novembre-2026-730-acconti-30-novembre-v1365",
+      "article": "/notizie/scadenze-fiscali-novembre-2026-730-acconti-30-novembre.html",
+      "alt": "Illustrazione editoriale IA di un contribuente e un consulente davanti al portale dell’Agenzia delle Entrate; nessun dato reale.",
+      "prompt": "Ultra-photorealistic over-the-shoulder editorial scene of a tax adviser and taxpayer viewing the Agenzia delle Entrate portal from the correct side of the laptop; no personal data.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/scadenze-fiscali-novembre-2026-730-acconti-30-novembre-v1365-480.webp",
+          "sha256": "d4111a0a6e758aadbcd432acfdb98ce36da5a4e1863178f81ca2f922ac14fb7d",
+          "bytes": 39870
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/scadenze-fiscali-novembre-2026-730-acconti-30-novembre-v1365-800.webp",
+          "sha256": "ace39f1675cac93e0a17f3380ef761e88a9200b9c4d09bfb0a83a9b7cf90d5da",
+          "bytes": 88998
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/scadenze-fiscali-novembre-2026-730-acconti-30-novembre-v1365-1200.webp",
+          "sha256": "ffb8a88a5f121b43bbc8ddffc5e4069037349be86212046fa47a0fc75c0ee026",
+          "bytes": 164056
+        }
+      ],
+      "distributionVariants": [
+        {
+          "w": 1200,
+          "h": 900,
+          "src": "/assets/images/editorial-auto/scadenze-fiscali-novembre-2026-730-acconti-30-novembre-v1365-1200-4x3.webp",
+          "sha256": "3f2b434ca7debe0cf62d5a871e579b56b1760a5b2d9c07107053027487b2a9de",
+          "bytes": 200162
+        },
+        {
+          "w": 1200,
+          "h": 1200,
+          "src": "/assets/images/editorial-auto/scadenze-fiscali-novembre-2026-730-acconti-30-novembre-v1365-1200-1x1.webp",
+          "sha256": "72105d85e75ca87e968f2d9964ed483cd3d4b649df4bd14bf5b99448adc2095b",
+          "bytes": 240576
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "synthID": "not-exposed-by-generation-tool",
+      "version": 1365
+    },
+    {
+      "id": "concorsi-gazzetta-ufficiale-3-novembre-2026-scadenze-posti",
+      "key": "concorsi-gazzetta-ufficiale-3-novembre-2026-scadenze-posti-v1365",
+      "article": "/notizie/concorsi-gazzetta-ufficiale-3-novembre-2026-scadenze-posti.html",
+      "alt": "Illustrazione editoriale IA di candidati che consultano inPA e la Gazzetta Ufficiale; non documenta una selezione reale.",
+      "prompt": "Ultra-photorealistic editorial scene of adult candidates seated on the viewing side of a laptop with inPA and Gazzetta Ufficiale branding; no fabricated vacancy text.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/concorsi-gazzetta-ufficiale-3-novembre-2026-scadenze-posti-v1365-480.webp",
+          "sha256": "089991b4491eb27566f48efe5586d4ed97acd80b7e08dbc18be6c6744a418991",
+          "bytes": 45892
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/concorsi-gazzetta-ufficiale-3-novembre-2026-scadenze-posti-v1365-800.webp",
+          "sha256": "11118d9b69461095d9e9388bb43618cb3dd82c76df26c1b57092ed03c3574b4a",
+          "bytes": 113932
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/concorsi-gazzetta-ufficiale-3-novembre-2026-scadenze-posti-v1365-1200.webp",
+          "sha256": "544cf92bd50b5d0d3e541bd9cfc421c55e0744362d864c8ead265c57ff6b302b",
+          "bytes": 200810
+        }
+      ],
+      "distributionVariants": [
+        {
+          "w": 1200,
+          "h": 900,
+          "src": "/assets/images/editorial-auto/concorsi-gazzetta-ufficiale-3-novembre-2026-scadenze-posti-v1365-1200-4x3.webp",
+          "sha256": "9f6a11c057730c6bdfa6d3c5a3d7ea433944e1382a36775a533bedd5ebf2d6cd",
+          "bytes": 230332
+        },
+        {
+          "w": 1200,
+          "h": 1200,
+          "src": "/assets/images/editorial-auto/concorsi-gazzetta-ufficiale-3-novembre-2026-scadenze-posti-v1365-1200-1x1.webp",
+          "sha256": "b4b59f093b0580df919298b2979219baf6ed1faaf6bb2f5fcfafefb1cce83e0d",
+          "bytes": 235670
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "synthID": "not-exposed-by-generation-tool",
+      "version": 1365
+    },
+    {
+      "id": "universita-posti-medicina-inglese-professioni-sanitarie-2026-2027",
+      "key": "universita-posti-medicina-inglese-professioni-sanitarie-2026-2027-v1365",
+      "article": "/notizie/universita-posti-medicina-inglese-professioni-sanitarie-2026-2027.html",
+      "alt": "Illustrazione editoriale IA di studenti di medicina con un documento MUR; non documenta un ateneo specifico.",
+      "prompt": "Photorealistic editorial scene of medical students in a university laboratory with an official MUR folder; no patient or procedure.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/universita-posti-medicina-inglese-professioni-sanitarie-2026-2027-v1365-480.webp",
+          "sha256": "c7ebea012e330ec326410f43c3850aed03f41ccd0d186f6276e3f45433d76b1a",
+          "bytes": 47674
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/universita-posti-medicina-inglese-professioni-sanitarie-2026-2027-v1365-800.webp",
+          "sha256": "aeebe6f20f8bbf5ca1aed8455a4693c3db4b0e23c8d73082f212fabc4a2172a1",
+          "bytes": 109602
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/universita-posti-medicina-inglese-professioni-sanitarie-2026-2027-v1365-1200.webp",
+          "sha256": "a6f349a76547151f13ad31f03f838b75a5d0424e08bbb924d141822d7ad64a69",
+          "bytes": 191386
+        }
+      ],
+      "distributionVariants": [
+        {
+          "w": 1200,
+          "h": 900,
+          "src": "/assets/images/editorial-auto/universita-posti-medicina-inglese-professioni-sanitarie-2026-2027-v1365-1200-4x3.webp",
+          "sha256": "2d0abcf2ac6f41c24e7561f40fdf385075c7275a0aaf23d84f696aaa3881dc91",
+          "bytes": 243250
+        },
+        {
+          "w": 1200,
+          "h": 1200,
+          "src": "/assets/images/editorial-auto/universita-posti-medicina-inglese-professioni-sanitarie-2026-2027-v1365-1200-1x1.webp",
+          "sha256": "2d59088d9d53a344f37188ecd5948fc7597649c2843a2241e5126040c1ee5843",
+          "bytes": 258598
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "synthID": "not-exposed-by-generation-tool",
+      "version": 1365
+    },
+    {
+      "id": "gas-arera-ottobre-2026-aumento-tutela-vulnerabilita",
+      "key": "gas-arera-ottobre-2026-aumento-tutela-vulnerabilita-v1365",
+      "article": "/notizie/gas-arera-ottobre-2026-aumento-tutela-vulnerabilita.html",
+      "alt": "Illustrazione editoriale IA di un tecnico e una cliente che consultano dati ARERA; non documenta un intervento reale.",
+      "prompt": "Ultra-photorealistic editorial scene of a gas technician and homeowner viewing an ARERA tablet from the correct side, with physically coherent grip, gaze and perspective; no hazard.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/gas-arera-ottobre-2026-aumento-tutela-vulnerabilita-v1365-480.webp",
+          "sha256": "00b46ba2ac65d567718927a953fe71c0fef970be843df29b4a636dff26fe20d6",
+          "bytes": 40908
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/gas-arera-ottobre-2026-aumento-tutela-vulnerabilita-v1365-800.webp",
+          "sha256": "5009710dce5326b9863e7b4fc2c4af122f968edbeab96a1a51249c4195557803",
+          "bytes": 102238
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/gas-arera-ottobre-2026-aumento-tutela-vulnerabilita-v1365-1200.webp",
+          "sha256": "9d2ce2839cb2982e67c2290e56f8d07a33709195a0d163080c2df284d5d2d133",
+          "bytes": 205298
+        }
+      ],
+      "distributionVariants": [
+        {
+          "w": 1200,
+          "h": 900,
+          "src": "/assets/images/editorial-auto/gas-arera-ottobre-2026-aumento-tutela-vulnerabilita-v1365-1200-4x3.webp",
+          "sha256": "e7d64e2781971749f2d466ec2a362e68fe9c0fe4ec1bf4eabdbf62d3ddf49939",
+          "bytes": 214938
+        },
+        {
+          "w": 1200,
+          "h": 1200,
+          "src": "/assets/images/editorial-auto/gas-arera-ottobre-2026-aumento-tutela-vulnerabilita-v1365-1200-1x1.webp",
+          "sha256": "ab207367775577bd407dfb3c1dd5b64942f98c479c9f99693ee16e50ce0fd833",
+          "bytes": 198044
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "logoApplied": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "synthID": "not-exposed-by-generation-tool",
+      "version": 1365
+    },
+    {
       "id": "carcare-dipendente-indagato-furto-93-chili-pinoli-04-11-2026",
       "key": "carcare-dipendente-indagato-furto-93-chili-pinoli-v1364",
       "article": "/notizie/carcare-dipendente-indagato-furto-93-chili-pinoli-04-11-2026.html",
