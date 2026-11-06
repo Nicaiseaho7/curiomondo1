@@ -3,6 +3,561 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "progetto-eden-florovivaismo-sensori-acqua-fitofarmaci-v1370-sal",
+      "alt": "Ricercatrice e vivaista controllano sensori e irrigazione in una serra florovivaistica.",
+      "prompt": "Florovivaismo, 31,6 milioni per il progetto EDEN: sensori e dati per ridurre acqua e trattamenti. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/progetto-eden-florovivaismo-sensori-acqua-fitofarmaci-v1370-480.webp",
+          "bytes": 55004,
+          "sha256": "a100035b105f4980b97945b64124c846ef71b3dc561f40e64a7c83678a3b268c"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/progetto-eden-florovivaismo-sensori-acqua-fitofarmaci-v1370-800.webp",
+          "bytes": 123486,
+          "sha256": "ce99da9ef8bf394897208d71928a2a37bf2da22341676901b826dab2ed94d097"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/progetto-eden-florovivaismo-sensori-acqua-fitofarmaci-v1370-1200.webp",
+          "bytes": 219366,
+          "sha256": "9e6f754f28ccd38c7f6c26609f4059f90a3ab2f468b0ef8ae36486b77411e686"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/progetto-eden-florovivaismo-sensori-acqua-fitofarmaci-06-11-2026.html"
+    },
+    {
+      "key": "enea-hub-materie-prime-critiche-13-milioni-v1370-sal",
+      "alt": "Ricercatori ENEA esaminano componenti riciclati e un prototipo eolico in laboratorio.",
+      "prompt": "Materie prime critiche, ENEA apre il primo hub tecnologico italiano per riciclo ed ecodesign. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/enea-hub-materie-prime-critiche-13-milioni-v1370-480.webp",
+          "bytes": 48464,
+          "sha256": "3fd35ea87b69afd30e49f3842535fe4c33f2c2337bb80376944763473a6a1467"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/enea-hub-materie-prime-critiche-13-milioni-v1370-800.webp",
+          "bytes": 105014,
+          "sha256": "9be94219c6c677febf5353c47b45c4203cc5f5d894862b5840e13e14b3d9b3cd"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/enea-hub-materie-prime-critiche-13-milioni-v1370-1200.webp",
+          "bytes": 190378,
+          "sha256": "b06e837fd6b44dc74555f166bf04738ac2a9c5b7fc2b1fd5a88dcf9b2f089816"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/enea-hub-materie-prime-critiche-13-milioni-06-11-2026.html"
+    },
+    {
+      "key": "oms-malattie-alimentari-866-milioni-rapporto-2026-v1370-sal",
+      "alt": "Tecnici di laboratorio consultano un rapporto OMS sulla sicurezza alimentare.",
+      "prompt": "Cibo non sicuro, l’OMS stima 866 milioni di malattie e 1,5 milioni di morti l’anno. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/oms-malattie-alimentari-866-milioni-rapporto-2026-v1370-480.webp",
+          "bytes": 41954,
+          "sha256": "251efdb3632cf241c990ef7e9207b6b7500ac18460b2371232256faf85311518"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/oms-malattie-alimentari-866-milioni-rapporto-2026-v1370-800.webp",
+          "bytes": 88344,
+          "sha256": "d2f3c9aee538b9c759e946c43df59ac9513873ebfe7a22fe25ba74403091de01"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/oms-malattie-alimentari-866-milioni-rapporto-2026-v1370-1200.webp",
+          "bytes": 151870,
+          "sha256": "9346b20a6589b178a3b3576edcbb9e0e8bde7c62abc015b26d30f3b2c00af23b"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/oms-malattie-alimentari-866-milioni-rapporto-2026.html"
+    },
+    {
+      "key": "pfas-tumore-seno-er-negativo-studio-nih-v1370-sal",
+      "alt": "Ricercatrici analizzano campioni e grafici relativi ai PFAS in laboratorio.",
+      "prompt": "PFAS e tumore al seno ER-negativo, uno studio NIH trova un’associazione da approfondire. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/pfas-tumore-seno-er-negativo-studio-nih-v1370-480.webp",
+          "bytes": 38830,
+          "sha256": "5830b85d377a91f22b450e1197dbbd35979c79255ad7c3005ae1ddce7f499762"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/pfas-tumore-seno-er-negativo-studio-nih-v1370-800.webp",
+          "bytes": 81532,
+          "sha256": "dedfc13b2df9621cbddb2724cb6980742dd81d4e423b5e702598fce3665a67d1"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/pfas-tumore-seno-er-negativo-studio-nih-v1370-1200.webp",
+          "bytes": 144096,
+          "sha256": "99ec989803c235cf748ae3fb0a3abaa7e5ca7bafc9e1fe614e6d04b710f7ad62"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/pfas-tumore-seno-er-negativo-studio-nih-06-11-2026.html"
+    },
+    {
+      "key": "studio-unicorn-immunoterapia-preoperatoria-tumore-colon-v1370-sal",
+      "alt": "Gruppo di ricercatori oncologici osserva modelli del colon e dati genomici.",
+      "prompt": "Tumore del colon operabile, lo studio UNICORN apre all’immunoterapia prima dell’intervento. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/studio-unicorn-immunoterapia-preoperatoria-tumore-colon-v1370-480.webp",
+          "bytes": 42488,
+          "sha256": "b33addb0e02fee436c9b6a590be9c73030275b9f38bea65f5633b3d0e33f664e"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/studio-unicorn-immunoterapia-preoperatoria-tumore-colon-v1370-800.webp",
+          "bytes": 91470,
+          "sha256": "d21ddda6355559390ad0a735ac260432f8d213f5bbd3303b98f19fcb6d7675eb"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/studio-unicorn-immunoterapia-preoperatoria-tumore-colon-v1370-1200.webp",
+          "bytes": 160200,
+          "sha256": "2c36e662becade2b0e9ce8944d4dc2527db736fb20756136a6fbcc7214ac0cf2"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/studio-unicorn-immunoterapia-preoperatoria-tumore-colon-06-11-2026.html"
+    },
+    {
+      "key": "oms-linee-guida-mpox-gestione-clinica-2026-v1370-sal",
+      "alt": "Professionisti sanitari partecipano a una formazione sulle linee guida OMS.",
+      "prompt": "Mpox, l’OMS aggiorna quasi tutte le raccomandazioni cliniche del 2022. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/oms-linee-guida-mpox-gestione-clinica-2026-v1370-480.webp",
+          "bytes": 34740,
+          "sha256": "6b7ab135d147e2cf0de99035c51ca84d04b0df0e88156832e5d38329cd6fc53d"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/oms-linee-guida-mpox-gestione-clinica-2026-v1370-800.webp",
+          "bytes": 71930,
+          "sha256": "36f5626b604f21388d4a2bed86a0ea3c08903944746f32f5959bac2c61eb8ab6"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/oms-linee-guida-mpox-gestione-clinica-2026-v1370-1200.webp",
+          "bytes": 127028,
+          "sha256": "cb2263e7cd349f7077bbee8d5d6334ed01a2550e47af211fd30535cc89d8b415"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/oms-linee-guida-mpox-gestione-clinica-2026.html"
+    },
+    {
+      "key": "snpa-emergenze-ambientali-2025-duemila-interventi-v1370-sal",
+      "alt": "Tecnici ambientali lavorano in una sala operativa con mappe di aria, acqua e suolo.",
+      "prompt": "Emergenze ambientali, oltre 2.000 attivazioni SNPA nel 2025: sversamenti al primo posto. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/snpa-emergenze-ambientali-2025-duemila-interventi-v1370-480.webp",
+          "bytes": 43138,
+          "sha256": "d94d3a54005d43fc24288f97c3b90ba00fd6edca3aec7df3cba33fdd53d5e3a0"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/snpa-emergenze-ambientali-2025-duemila-interventi-v1370-800.webp",
+          "bytes": 99556,
+          "sha256": "3e42081c8e5d10b5f4cb051edb97188f77d05f857252422b30ab68f0b2f17a37"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/snpa-emergenze-ambientali-2025-duemila-interventi-v1370-1200.webp",
+          "bytes": 183270,
+          "sha256": "4970070499238ad31bab7ceca94942daf1907e68eb398bd0fa0ea243b95c5b9e"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/snpa-emergenze-ambientali-2025-duemila-interventi.html"
+    },
+    {
+      "key": "toscana-qualita-aria-2025-ozono-criticita-v1370-sal",
+      "alt": "Tecnico controlla una centralina della rete di monitoraggio della qualità dell’aria.",
+      "prompt": "Aria in Toscana, PM10 e NO2 entro i limiti in tutte le stazioni: resta il nodo ozono. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/toscana-qualita-aria-2025-ozono-criticita-v1370-480.webp",
+          "bytes": 34830,
+          "sha256": "619ab83ce29553430f768a8629213b31c5ee417723b79e7c4afeb076fba81519"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/toscana-qualita-aria-2025-ozono-criticita-v1370-800.webp",
+          "bytes": 78742,
+          "sha256": "ecaaaa7f48370b3b9e01f98b857ce9625a2342bdecbef6012ca55a37bd80c081"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/toscana-qualita-aria-2025-ozono-criticita-v1370-1200.webp",
+          "bytes": 147700,
+          "sha256": "fa203ad80a4d894969341bfaa820ed58c0357ef099cc2fa4b8ddf69523919563"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/toscana-qualita-aria-2025-ozono-criticita.html"
+    },
+    {
+      "key": "influenza-aviaria-h5n1-ecdc-yakima-rischio-europa-v1370-sal",
+      "alt": "Ricercatrice analizza campioni per la sorveglianza H5 in un laboratorio One Health.",
+      "prompt": "H5N1 nei bovini negli USA, ECDC: rischio basso per la popolazione europea. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/influenza-aviaria-h5n1-ecdc-yakima-rischio-europa-v1370-480.webp",
+          "bytes": 34884,
+          "sha256": "84a7a56638f9fb72107fcbf96c0504f5175151066652a9399bb9efcc3378c48c"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/influenza-aviaria-h5n1-ecdc-yakima-rischio-europa-v1370-800.webp",
+          "bytes": 72562,
+          "sha256": "34b6fddf9dfe15482b7d836d1ae4c9d880fec3fb341a2f1034da8d478a12ed08"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/influenza-aviaria-h5n1-ecdc-yakima-rischio-europa-v1370-1200.webp",
+          "bytes": 129020,
+          "sha256": "cb2397957d1cfbac91b31f9900405680ed87d371c844832fa9f945bd54f75191"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/influenza-aviaria-h5n1-ecdc-yakima-rischio-europa-06-11-2026.html"
+    },
+    {
+      "key": "adolescenti-social-ai-benessere-indagine-mib-cnr-v1370-sal",
+      "alt": "Classe di adolescenti partecipa a un laboratorio sul benessere digitale.",
+      "prompt": "Adolescenti, cresce l’iperconnessione: il CNR segue oltre 3.000 quindicenni a Roma. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/adolescenti-social-ai-benessere-indagine-mib-cnr-v1370-480.webp",
+          "bytes": 34836,
+          "sha256": "b70e6a773fe088b58c11c5bb9921170ad1afbe19386cbff2a39819e7fe1195d4"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/adolescenti-social-ai-benessere-indagine-mib-cnr-v1370-800.webp",
+          "bytes": 74524,
+          "sha256": "ea019351829bc72880ddc0cb8c8664e4ba8e037c06465fd55aea4208ab81d381"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/adolescenti-social-ai-benessere-indagine-mib-cnr-v1370-1200.webp",
+          "bytes": 134642,
+          "sha256": "da19d340f8394ec0b1835c9eb1256bdf77e2bec3d6260305b22f9ba9912d121c"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/adolescenti-social-ai-benessere-indagine-mib-cnr-06-11-2026.html"
+    },
+    {
+      "key": "pma-italia-dati-2024-nati-centri-disparita-v1370-sal",
+      "alt": "Embriologa lavora al microscopio in un laboratorio di procreazione medicalmente assistita.",
+      "prompt": "PMA, aumentano coppie e nati: nel 2024 raggiunti 17.660 bambini. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/pma-italia-dati-2024-nati-centri-disparita-v1370-480.webp",
+          "bytes": 25706,
+          "sha256": "8226a4c09570f4ce281600f4b651c5cccd3f10f9d71883f5194ecce8b0622cd1"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/pma-italia-dati-2024-nati-centri-disparita-v1370-800.webp",
+          "bytes": 54414,
+          "sha256": "70f257b2cdd5937f64de8aa645787f4f452a7564591de29c5a2b1a0d096c8435"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/pma-italia-dati-2024-nati-centri-disparita-v1370-1200.webp",
+          "bytes": 97052,
+          "sha256": "8eefef143ac4837b9b8d5e58b9157a16e9d7b9996ce63dbb81676d7ff3762ff5"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/pma-italia-dati-2024-nati-centri-disparita.html"
+    },
+    {
+      "key": "cranial-navigation-4-1-richiamo-ministero-salute-v1370-sal",
+      "alt": "Tecnici biomedicali controllano una workstation di navigazione cranica senza pazienti.",
+      "prompt": "Cranial Navigation 4.1, il Ministero pubblica un richiamo per il software chirurgico. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/cranial-navigation-4-1-richiamo-ministero-salute-v1370-480.webp",
+          "bytes": 30464,
+          "sha256": "e3af11743d0d003353030c3ca441914c0e658db242bded781eab35fcbfacd2cf"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/cranial-navigation-4-1-richiamo-ministero-salute-v1370-800.webp",
+          "bytes": 62114,
+          "sha256": "bc08ff199136a31398fb0dcfa24b6438f0939ed3fec374c358b5e89e17490560"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/cranial-navigation-4-1-richiamo-ministero-salute-v1370-1200.webp",
+          "bytes": 110866,
+          "sha256": "431aee5adbf36813c61a492c5231d9665251477da5eac5b2fa917a91a640ad78"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/cranial-navigation-4-1-richiamo-ministero-salute-06-11-2026.html"
+    },
+    {
+      "key": "i-stat-hs-tni-cartucce-avviso-sicurezza-ministero-v1370-sal",
+      "alt": "Tecnica di laboratorio controlla una cartuccia diagnostica accanto a un analizzatore.",
+      "prompt": "Cartucce i-STAT hs-TnI, nuovo avviso di sicurezza per i laboratori italiani. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/i-stat-hs-tni-cartucce-avviso-sicurezza-ministero-v1370-480.webp",
+          "bytes": 28974,
+          "sha256": "a27b567bdc37637208565ad45a5ec651d3d668948adc7ead2130825d05d469fc"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/i-stat-hs-tni-cartucce-avviso-sicurezza-ministero-v1370-800.webp",
+          "bytes": 57300,
+          "sha256": "75213424b5635f73694e197b69b6d6804cf21baf41beaf6366179b3491007b7d"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/i-stat-hs-tni-cartucce-avviso-sicurezza-ministero-v1370-1200.webp",
+          "bytes": 99614,
+          "sha256": "574be3a132e27fe49c334139b0f4227a49e686a26314471b2afb3202edaa479a"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/i-stat-hs-tni-cartucce-avviso-sicurezza-ministero-06-11-2026.html"
+    },
+    {
+      "key": "sicurezza-alimenti-blackout-catena-freddo-efsa-v1370-sal",
+      "alt": "Donna controlla con un termometro la temperatura di un alimento davanti al frigorifero.",
+      "prompt": "Blackout e frigoriferi, le regole EFSA per evitare rischi con gli alimenti. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/sicurezza-alimenti-blackout-catena-freddo-efsa-v1370-480.webp",
+          "bytes": 32548,
+          "sha256": "09b54064b4548c8a8bf71bf44dd74361e980dc7d7cf9ba9477db6d3deea845b2"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/sicurezza-alimenti-blackout-catena-freddo-efsa-v1370-800.webp",
+          "bytes": 67476,
+          "sha256": "8a80e288833dd79a7476ceab543edb04d1496aaee688bd900281a221d515c737"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/sicurezza-alimenti-blackout-catena-freddo-efsa-v1370-1200.webp",
+          "bytes": 120416,
+          "sha256": "b7c8a420017cee885ffa331ec746789d84026316771347f9cee998fd00981015"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/sicurezza-alimenti-blackout-catena-freddo-efsa-06-11-2026.html"
+    },
+    {
+      "key": "aifa-farmaci-carenti-elenchi-5-novembre-2026-v1370-sal",
+      "alt": "Farmacista consulta su un tablet una schermata sulla disponibilità dei medicinali.",
+      "prompt": "Farmaci carenti, AIFA aggiorna gli elenchi: equivalenti, alternative e importazioni. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/aifa-farmaci-carenti-elenchi-5-novembre-2026-v1370-480.webp",
+          "bytes": 26972,
+          "sha256": "933f228255e36492a1102fe6cc07be474e0935ec5783702f8a8ededb6a93cc4d"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/aifa-farmaci-carenti-elenchi-5-novembre-2026-v1370-800.webp",
+          "bytes": 51342,
+          "sha256": "ec893e9fee299fecd3ba5ea772941c4d75a017953641315a0116f08a3c6945c1"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/aifa-farmaci-carenti-elenchi-5-novembre-2026-v1370-1200.webp",
+          "bytes": 91152,
+          "sha256": "99d983934f467ba1f3b0aa4b929a7bd7a4ba9fae21a4d65d44862e828fcd51b2"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/aifa-farmaci-carenti-elenchi-5-novembre-2026.html"
+    },
+    {
       "key": "nasa-passeggiate-spaziali-100-101-pannelli-solari-18-ottobre-2026-v1370",
       "alt": "Due astronauti lavorano all'esterno della Stazione spaziale internazionale accanto a un pannello solare dispiegato.",
       "prompt": "ISS, installato l’ultimo pannello IROSA: completato l’aumento di potenza. Illustrazione editoriale fotorealistica, non documentaria.",

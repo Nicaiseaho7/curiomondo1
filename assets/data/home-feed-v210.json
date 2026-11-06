@@ -2,6 +2,38 @@
   "version": 845,
   "items": [
     {
+      "title": "Farmaci carenti, AIFA aggiorna gli elenchi: equivalenti, alternative e importazioni",
+      "excerpt": "Le liste del 5 novembre distinguono le diverse soluzioni per garantire la continuità terapeutica. La carenza nazionale non coincide con la mancata disponibilità locale.",
+      "url": "/notizie/aifa-farmaci-carenti-elenchi-5-novembre-2026.html",
+      "section": "Mondo / Salute",
+      "dateISO": "2026-11-06T06:41:45+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/aifa-farmaci-carenti-elenchi-5-novembre-2026-v1370-800.webp",
+      "imageAlt": "Farmacista consulta su un tablet una schermata sulla disponibilità dei medicinali.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/aifa-farmaci-carenti-elenchi-5-novembre-2026-v1370-480.webp 480w, /assets/images/editorial-auto/aifa-farmaci-carenti-elenchi-5-novembre-2026-v1370-800.webp 800w, /assets/images/editorial-auto/aifa-farmaci-carenti-elenchi-5-novembre-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "Equivalenti disponibili",
+          "label": "Quando"
+        },
+        {
+          "icon": "•",
+          "value": "Alternative terapeutiche",
+          "label": "Dove"
+        },
+        {
+          "icon": "•",
+          "value": "Importazione autorizzabile",
+          "label": "Da sapere"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
       "title": "GPT-6 Cyber trova 81 falle gravi in Firefox e resta nel perimetro dei test",
       "excerpt": "OpenAI presenta un modello specializzato per la ricerca autorizzata di vulnerabilità. Nei test interni ha migliorato ExploitGym e contribuito a correzioni per Firefox e Linux.",
       "url": "/notizie/openai-gpt6-cyber-vulnerabilita-firefox-linux-5-novembre-2026.html",
@@ -29,6 +61,72 @@
           "icon": "•",
           "value": "99,93%",
           "label": "test fuori perimetro evitati"
+        }
+      ],
+      "featuredHighlights": [
+        "81"
+      ]
+    },
+    {
+      "title": "Blackout e frigoriferi, le regole EFSA per evitare rischi con gli alimenti",
+      "excerpt": "Dopo le interruzioni che hanno interessato sistemi di refrigerazione europei, il Ministero ricorda obblighi dei supermercati e precauzioni domestiche.",
+      "url": "/notizie/sicurezza-alimenti-blackout-catena-freddo-efsa-06-11-2026.html",
+      "section": "Mondo / Salute",
+      "dateISO": "2026-11-06T06:38:45+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/sicurezza-alimenti-blackout-catena-freddo-efsa-v1370-800.webp",
+      "imageAlt": "Donna controlla con un termometro la temperatura di un alimento davanti al frigorifero.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/sicurezza-alimenti-blackout-catena-freddo-efsa-v1370-480.webp 480w, /assets/images/editorial-auto/sicurezza-alimenti-blackout-catena-freddo-efsa-v1370-800.webp 800w, /assets/images/editorial-auto/sicurezza-alimenti-blackout-catena-freddo-efsa-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "Catena del freddo",
+          "label": "Quando"
+        },
+        {
+          "icon": "•",
+          "value": "Responsabilità degli operatori",
+          "label": "Dove"
+        },
+        {
+          "icon": "•",
+          "value": "Indicazioni ai consumatori",
+          "label": "Da sapere"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Cartucce i-STAT hs-TnI, nuovo avviso di sicurezza per i laboratori italiani",
+      "excerpt": "Il Ministero ha aggiornato il 5 novembre la scheda relativa al test point-of-care di Abbott. Le strutture devono applicare le istruzioni della nota del fabbricante.",
+      "url": "/notizie/i-stat-hs-tni-cartucce-avviso-sicurezza-ministero-06-11-2026.html",
+      "section": "Mondo / Salute",
+      "dateISO": "2026-11-06T06:35:45+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/i-stat-hs-tni-cartucce-avviso-sicurezza-ministero-v1370-800.webp",
+      "imageAlt": "Tecnica di laboratorio controlla una cartuccia diagnostica accanto a un analizzatore.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/i-stat-hs-tni-cartucce-avviso-sicurezza-ministero-v1370-480.webp 480w, /assets/images/editorial-auto/i-stat-hs-tni-cartucce-avviso-sicurezza-ministero-v1370-800.webp 800w, /assets/images/editorial-auto/i-stat-hs-tni-cartucce-avviso-sicurezza-ministero-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "Riferimento 310026",
+          "label": "Quando"
+        },
+        {
+          "icon": "•",
+          "value": "Aggiornato il 5 novembre",
+          "label": "Dove"
+        },
+        {
+          "icon": "•",
+          "value": "Dispositivo diagnostico IVD",
+          "label": "Da sapere"
         }
       ],
       "featuredHighlights": []
@@ -61,6 +159,40 @@
           "icon": "•",
           "value": "Non visibili",
           "label": "ai delegati genitoriali"
+        }
+      ],
+      "featuredHighlights": [
+        "14 anni"
+      ]
+    },
+    {
+      "title": "Cranial Navigation 4.1, il Ministero pubblica un richiamo per il software chirurgico",
+      "excerpt": "La scheda ricevuta il 5 novembre riguarda il sistema Brainlab. Ospedali e responsabili dei dispositivi devono verificare la documentazione prima dell’uso.",
+      "url": "/notizie/cranial-navigation-4-1-richiamo-ministero-salute-06-11-2026.html",
+      "section": "Mondo / Salute",
+      "dateISO": "2026-11-06T06:32:45+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/cranial-navigation-4-1-richiamo-ministero-salute-v1370-800.webp",
+      "imageAlt": "Tecnici biomedicali controllano una workstation di navigazione cranica senza pazienti.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/cranial-navigation-4-1-richiamo-ministero-salute-v1370-480.webp 480w, /assets/images/editorial-auto/cranial-navigation-4-1-richiamo-ministero-salute-v1370-800.webp 800w, /assets/images/editorial-auto/cranial-navigation-4-1-richiamo-ministero-salute-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "Riferimento 310075",
+          "label": "Quando"
+        },
+        {
+          "icon": "•",
+          "value": "Fabbricante Brainlab SE",
+          "label": "Dove"
+        },
+        {
+          "icon": "•",
+          "value": "Azione indicata: recall",
+          "label": "Da sapere"
         }
       ],
       "featuredHighlights": []
@@ -98,6 +230,38 @@
       "featuredHighlights": []
     },
     {
+      "title": "PMA, aumentano coppie e nati: nel 2024 raggiunti 17.660 bambini",
+      "excerpt": "La relazione del Ministero registra più cicli e meno gravidanze multiple, ma conferma differenze territoriali e minore accesso pubblico alle tecniche con gameti donati.",
+      "url": "/notizie/pma-italia-dati-2024-nati-centri-disparita.html",
+      "section": "Mondo / Salute",
+      "dateISO": "2026-11-06T06:29:45+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/pma-italia-dati-2024-nati-centri-disparita-v1370-800.webp",
+      "imageAlt": "Embriologa lavora al microscopio in un laboratorio di procreazione medicalmente assistita.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/pma-italia-dati-2024-nati-centri-disparita-v1370-480.webp 480w, /assets/images/editorial-auto/pma-italia-dati-2024-nati-centri-disparita-v1370-800.webp 800w, /assets/images/editorial-auto/pma-italia-dati-2024-nati-centri-disparita-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "92.394 coppie trattate",
+          "label": "Quando"
+        },
+        {
+          "icon": "•",
+          "value": "115.455 cicli",
+          "label": "Dove"
+        },
+        {
+          "icon": "•",
+          "value": "17.660 nati vivi",
+          "label": "Da sapere"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
       "title": "WhatsApp Events apre gli inviti a chi non ha un account e riunisce tutte le risposte",
       "excerpt": "La nuova area Events Home permette di creare appuntamenti, condividere un link, gestire conferme, promemoria e accompagnatori da un solo spazio.",
       "url": "/notizie/whatsapp-events-inviti-senza-account-5-novembre-2026.html",
@@ -130,6 +294,70 @@
       "featuredHighlights": []
     },
     {
+      "title": "Adolescenti, cresce l’iperconnessione: il CNR segue oltre 3.000 quindicenni a Roma",
+      "excerpt": "L’indagine MiB rileva aumento del tempo sui social, distress e isolamento. Sono dati di ricerca osservazionale, non diagnosi cliniche individuali.",
+      "url": "/notizie/adolescenti-social-ai-benessere-indagine-mib-cnr-06-11-2026.html",
+      "section": "Mondo / Salute",
+      "dateISO": "2026-11-06T06:26:45+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/adolescenti-social-ai-benessere-indagine-mib-cnr-v1370-800.webp",
+      "imageAlt": "Classe di adolescenti partecipa a un laboratorio sul benessere digitale.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/adolescenti-social-ai-benessere-indagine-mib-cnr-v1370-480.webp 480w, /assets/images/editorial-auto/adolescenti-social-ai-benessere-indagine-mib-cnr-v1370-800.webp 800w, /assets/images/editorial-auto/adolescenti-social-ai-benessere-indagine-mib-cnr-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "26,8% oltre 4 ore sui social",
+          "label": "Quando"
+        },
+        {
+          "icon": "•",
+          "value": "73,1% usa l’IA",
+          "label": "Dove"
+        },
+        {
+          "icon": "•",
+          "value": "Oltre 3.000 adolescenti",
+          "label": "Da sapere"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "H5N1 nei bovini negli USA, ECDC: rischio basso per la popolazione europea",
+      "excerpt": "Tre casi umani nella contea di Yakima sono collegati all’esposizione a bovini infetti. Per chi lavora con animali il rischio resta più elevato e servono protezioni.",
+      "url": "/notizie/influenza-aviaria-h5n1-ecdc-yakima-rischio-europa-06-11-2026.html",
+      "section": "Mondo / Salute",
+      "dateISO": "2026-11-06T06:23:45+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/influenza-aviaria-h5n1-ecdc-yakima-rischio-europa-v1370-800.webp",
+      "imageAlt": "Ricercatrice analizza campioni per la sorveglianza H5 in un laboratorio One Health.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/influenza-aviaria-h5n1-ecdc-yakima-rischio-europa-v1370-480.webp 480w, /assets/images/editorial-auto/influenza-aviaria-h5n1-ecdc-yakima-rischio-europa-v1370-800.webp 800w, /assets/images/editorial-auto/influenza-aviaria-h5n1-ecdc-yakima-rischio-europa-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "3 casi a Yakima",
+          "label": "Quando"
+        },
+        {
+          "icon": "•",
+          "value": "Nessun caso umano UE/SEE",
+          "label": "Dove"
+        },
+        {
+          "icon": "•",
+          "value": "Rischio occupazionale superiore",
+          "label": "Da sapere"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
       "title": "OpenAI Images 2.6 arriva con GIF, editing mirato e generazione più veloce",
       "excerpt": "Il nuovo modello è disponibile in ChatGPT, Codex e API. OpenAI dichiara tempi ridotti del 50 per cento e introduce controlli distinti per qualità e complessità.",
       "url": "/notizie/openai-images-2-6-gif-editing-chatgpt-codex-api-4-novembre-2026.html",
@@ -157,6 +385,40 @@
           "icon": "•",
           "value": "2 modelli",
           "label": "Flare e Sunburst nelle API"
+        }
+      ],
+      "featuredHighlights": [
+        "GIF"
+      ]
+    },
+    {
+      "title": "Aria in Toscana, PM10 e NO2 entro i limiti in tutte le stazioni: resta il nodo ozono",
+      "excerpt": "Il rapporto ARPAT sui dati 2025 mostra un quadro migliore, ma tre stazioni non rispettano l’obiettivo sanitario per l’ozono e i nuovi standard UE richiederanno altri tagli.",
+      "url": "/notizie/toscana-qualita-aria-2025-ozono-criticita.html",
+      "section": "Mondo / Ambiente",
+      "dateISO": "2026-11-06T06:20:45+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/toscana-qualita-aria-2025-ozono-criticita-v1370-800.webp",
+      "imageAlt": "Tecnico controlla una centralina della rete di monitoraggio della qualità dell’aria.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/toscana-qualita-aria-2025-ozono-criticita-v1370-480.webp 480w, /assets/images/editorial-auto/toscana-qualita-aria-2025-ozono-criticita-v1370-800.webp 800w, /assets/images/editorial-auto/toscana-qualita-aria-2025-ozono-criticita-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "Tutte le stazioni nei limiti PM10",
+          "label": "Quando"
+        },
+        {
+          "icon": "•",
+          "value": "3 stazioni critiche per ozono",
+          "label": "Dove"
+        },
+        {
+          "icon": "•",
+          "value": "5 superamenti della soglia informativa",
+          "label": "Da sapere"
         }
       ],
       "featuredHighlights": []
@@ -194,6 +456,38 @@
       "featuredHighlights": []
     },
     {
+      "title": "Emergenze ambientali, oltre 2.000 attivazioni SNPA nel 2025: sversamenti al primo posto",
+      "excerpt": "Il secondo rapporto nazionale conta 1.722 interventi sul campo e 298 supporti a distanza. Fiumi e laghi sono la matrice esposta più spesso.",
+      "url": "/notizie/snpa-emergenze-ambientali-2025-duemila-interventi.html",
+      "section": "Mondo / Ambiente",
+      "dateISO": "2026-11-06T06:17:45+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/snpa-emergenze-ambientali-2025-duemila-interventi-v1370-800.webp",
+      "imageAlt": "Tecnici ambientali lavorano in una sala operativa con mappe di aria, acqua e suolo.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/snpa-emergenze-ambientali-2025-duemila-interventi-v1370-480.webp 480w, /assets/images/editorial-auto/snpa-emergenze-ambientali-2025-duemila-interventi-v1370-800.webp 800w, /assets/images/editorial-auto/snpa-emergenze-ambientali-2025-duemila-interventi-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "2.020 attivazioni",
+          "label": "Quando"
+        },
+        {
+          "icon": "•",
+          "value": "36% per sversamenti",
+          "label": "Dove"
+        },
+        {
+          "icon": "•",
+          "value": "85% con intervento sul campo",
+          "label": "Da sapere"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
       "title": "Meta Muse aggiunge voce e avatar espressivi, ma il debutto parte dagli Stati Uniti",
       "excerpt": "Le conversazioni in tempo reale arrivano su mobile, web e Mac. L’utente può interrompere l’assistente e scegliere tra voce sola, avatar affiancato o schermo intero.",
       "url": "/notizie/meta-muse-voce-avatar-app-5-novembre-2026.html",
@@ -221,6 +515,70 @@
           "icon": "•",
           "value": "USA",
           "label": "prima fase del rilascio"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Mpox, l’OMS aggiorna quasi tutte le raccomandazioni cliniche del 2022",
+      "excerpt": "La nuova linea guida del 5 novembre integra gestione dei pazienti e prevenzione delle infezioni con metodo GRADE, equità e fattibilità.",
+      "url": "/notizie/oms-linee-guida-mpox-gestione-clinica-2026.html",
+      "section": "Mondo / Salute",
+      "dateISO": "2026-11-06T06:14:45+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/oms-linee-guida-mpox-gestione-clinica-2026-v1370-800.webp",
+      "imageAlt": "Professionisti sanitari partecipano a una formazione sulle linee guida OMS.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/oms-linee-guida-mpox-gestione-clinica-2026-v1370-480.webp 480w, /assets/images/editorial-auto/oms-linee-guida-mpox-gestione-clinica-2026-v1370-800.webp 800w, /assets/images/editorial-auto/oms-linee-guida-mpox-gestione-clinica-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "Raccomandazioni rivalutate",
+          "label": "Quando"
+        },
+        {
+          "icon": "•",
+          "value": "Gestione clinica e IPC",
+          "label": "Dove"
+        },
+        {
+          "icon": "•",
+          "value": "Metodo GRADE",
+          "label": "Da sapere"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Tumore del colon operabile, lo studio UNICORN apre all’immunoterapia prima dell’intervento",
+      "excerpt": "Nel trial italiano di fase 2 un mese di botensilimab e balstilimab ha prodotto risposte complete anche nei tumori MSS. I risultati non sono ancora uno standard di cura.",
+      "url": "/notizie/studio-unicorn-immunoterapia-preoperatoria-tumore-colon-06-11-2026.html",
+      "section": "Mondo / Salute",
+      "dateISO": "2026-11-06T06:11:45+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/studio-unicorn-immunoterapia-preoperatoria-tumore-colon-v1370-800.webp",
+      "imageAlt": "Gruppo di ricercatori oncologici osserva modelli del colon e dati genomici.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/studio-unicorn-immunoterapia-preoperatoria-tumore-colon-v1370-480.webp 480w, /assets/images/editorial-auto/studio-unicorn-immunoterapia-preoperatoria-tumore-colon-v1370-800.webp 800w, /assets/images/editorial-auto/studio-unicorn-immunoterapia-preoperatoria-tumore-colon-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "Circa 200 pazienti",
+          "label": "Quando"
+        },
+        {
+          "icon": "•",
+          "value": "93% risposta completa MSI",
+          "label": "Dove"
+        },
+        {
+          "icon": "•",
+          "value": "30% risposta completa MSS",
+          "label": "Da sapere"
         }
       ],
       "featuredHighlights": []
@@ -258,6 +616,38 @@
       "featuredHighlights": []
     },
     {
+      "title": "PFAS e tumore al seno ER-negativo, uno studio NIH trova un’associazione da approfondire",
+      "excerpt": "PFOA e PFOS più elevati nel sangue sono associati a tassi maggiori del sottotipo aggressivo. Lo studio è osservazionale e non prova un nesso causale individuale.",
+      "url": "/notizie/pfas-tumore-seno-er-negativo-studio-nih-06-11-2026.html",
+      "section": "Mondo / Salute",
+      "dateISO": "2026-11-06T06:08:45+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/pfas-tumore-seno-er-negativo-studio-nih-v1370-800.webp",
+      "imageAlt": "Ricercatrici analizzano campioni e grafici relativi ai PFAS in laboratorio.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/pfas-tumore-seno-er-negativo-studio-nih-v1370-480.webp 480w, /assets/images/editorial-auto/pfas-tumore-seno-er-negativo-studio-nih-v1370-800.webp 800w, /assets/images/editorial-auto/pfas-tumore-seno-er-negativo-studio-nih-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "1.609 casi analizzati",
+          "label": "Quando"
+        },
+        {
+          "icon": "•",
+          "value": "PFOA e PFOS",
+          "label": "Dove"
+        },
+        {
+          "icon": "•",
+          "value": "Nessun legame chiaro col rischio totale",
+          "label": "Da sapere"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
       "title": "Starlink Mobile sceglie Qualcomm per una rete 5G terrestre nazionale dal 2027",
       "excerpt": "SpaceX userà piattaforme Dragonwing e antenne Massive MIMO 64T64R. Il piano statunitense prevede decine di migliaia di siti in più anni.",
       "url": "/notizie/starlink-mobile-qualcomm-rete-5g-2027-4-novembre-2026.html",
@@ -285,6 +675,40 @@
           "icon": "•",
           "value": "2027",
           "label": "inizio del rollout USA"
+        }
+      ],
+      "featuredHighlights": [
+        "2027"
+      ]
+    },
+    {
+      "title": "Cibo non sicuro, l’OMS stima 866 milioni di malattie e 1,5 milioni di morti l’anno",
+      "excerpt": "Il rapporto aggiornato copre 42 pericoli in 194 Paesi. I bambini sotto i cinque anni sopportano quasi un terzo dei casi, pur essendo il 9% della popolazione.",
+      "url": "/notizie/oms-malattie-alimentari-866-milioni-rapporto-2026.html",
+      "section": "Mondo / Salute",
+      "dateISO": "2026-11-06T06:05:45+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/oms-malattie-alimentari-866-milioni-rapporto-2026-v1370-800.webp",
+      "imageAlt": "Tecnici di laboratorio consultano un rapporto OMS sulla sicurezza alimentare.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/oms-malattie-alimentari-866-milioni-rapporto-2026-v1370-480.webp 480w, /assets/images/editorial-auto/oms-malattie-alimentari-866-milioni-rapporto-2026-v1370-800.webp 800w, /assets/images/editorial-auto/oms-malattie-alimentari-866-milioni-rapporto-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "42 pericoli analizzati",
+          "label": "Quando"
+        },
+        {
+          "icon": "•",
+          "value": "194 Stati",
+          "label": "Dove"
+        },
+        {
+          "icon": "•",
+          "value": "57,1 milioni di anni di vita sana persi",
+          "label": "Da sapere"
         }
       ],
       "featuredHighlights": []
@@ -322,6 +746,70 @@
       "featuredHighlights": []
     },
     {
+      "title": "Materie prime critiche, ENEA apre il primo hub tecnologico italiano per riciclo ed ecodesign",
+      "excerpt": "Sette laboratori tra Lazio, Puglia ed Emilia-Romagna accompagneranno le imprese dal recupero dei materiali alla progettazione di nuovi componenti.",
+      "url": "/notizie/enea-hub-materie-prime-critiche-13-milioni-06-11-2026.html",
+      "section": "Mondo / Ambiente",
+      "dateISO": "2026-11-06T06:02:45+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/enea-hub-materie-prime-critiche-13-milioni-v1370-800.webp",
+      "imageAlt": "Ricercatori ENEA esaminano componenti riciclati e un prototipo eolico in laboratorio.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/enea-hub-materie-prime-critiche-13-milioni-v1370-480.webp 480w, /assets/images/editorial-auto/enea-hub-materie-prime-critiche-13-milioni-v1370-800.webp 800w, /assets/images/editorial-auto/enea-hub-materie-prime-critiche-13-milioni-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "Oltre 13 milioni",
+          "label": "Quando"
+        },
+        {
+          "icon": "•",
+          "value": "6 laboratori più uno immersivo",
+          "label": "Dove"
+        },
+        {
+          "icon": "•",
+          "value": "Tre Regioni coinvolte",
+          "label": "Da sapere"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Florovivaismo, 31,6 milioni per il progetto EDEN: sensori e dati per ridurre acqua e trattamenti",
+      "excerpt": "Diciassette vivaisti partecipano alla filiera. Il CNR-IBE coordina il sistema MASTER per irrigazione, rischio fitosanitario e monitoraggio ambientale.",
+      "url": "/notizie/progetto-eden-florovivaismo-sensori-acqua-fitofarmaci-06-11-2026.html",
+      "section": "Mondo / Ambiente",
+      "dateISO": "2026-11-06T05:59:45+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/progetto-eden-florovivaismo-sensori-acqua-fitofarmaci-v1370-800.webp",
+      "imageAlt": "Ricercatrice e vivaista controllano sensori e irrigazione in una serra florovivaistica.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/progetto-eden-florovivaismo-sensori-acqua-fitofarmaci-v1370-480.webp 480w, /assets/images/editorial-auto/progetto-eden-florovivaismo-sensori-acqua-fitofarmaci-v1370-800.webp 800w, /assets/images/editorial-auto/progetto-eden-florovivaismo-sensori-acqua-fitofarmaci-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "31,6 milioni complessivi",
+          "label": "Quando"
+        },
+        {
+          "icon": "•",
+          "value": "3,4 milioni alla ricerca",
+          "label": "Dove"
+        },
+        {
+          "icon": "•",
+          "value": "17 vivaisti",
+          "label": "Da sapere"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
       "title": "NASA prepara il dopo-TDRS: tre contratti per relay satellitari in banda Ka",
       "excerpt": "Astranis, Global Enterprise Solutions e Viasat studieranno servizi compatibili con sonde già in orbita. Le opzioni possono estendere il lavoro fino al 2029.",
       "url": "/notizie/nasa-ka-band-reti-commerciali-tre-aziende-4-novembre-2026.html",
@@ -351,7 +839,9 @@
           "label": "orizzonte massimo delle opzioni"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "Banda Ka"
+      ]
     },
     {
       "title": "NASA prova SPLICE su un drone: sceglie da solo un punto di atterraggio sicuro",
