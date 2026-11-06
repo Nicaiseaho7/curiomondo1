@@ -2,6 +2,422 @@
   "version": 845,
   "items": [
     {
+      "title": "GPT-6 Cyber trova 81 falle gravi in Firefox e resta nel perimetro dei test",
+      "excerpt": "OpenAI presenta un modello specializzato per la ricerca autorizzata di vulnerabilità. Nei test interni ha migliorato ExploitGym e contribuito a correzioni per Firefox e Linux.",
+      "url": "/notizie/openai-gpt6-cyber-vulnerabilita-firefox-linux-5-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-06T06:38:47+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/openai-gpt6-cyber-vulnerabilita-firefox-linux-5-novembre-2026-v1370-800.webp",
+      "imageAlt": "Analista di sicurezza informatica davanti a una postazione di test con codice e grafici di rete.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/openai-gpt6-cyber-vulnerabilita-firefox-linux-5-novembre-2026-v1370-480.webp 480w, /assets/images/editorial-auto/openai-gpt6-cyber-vulnerabilita-firefox-linux-5-novembre-2026-v1370-800.webp 800w, /assets/images/editorial-auto/openai-gpt6-cyber-vulnerabilita-firefox-linux-5-novembre-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "48,5%",
+          "label": "punteggio ExploitGym"
+        },
+        {
+          "icon": "•",
+          "value": "81",
+          "label": "falle Firefox ad alta gravità"
+        },
+        {
+          "icon": "•",
+          "value": "99,93%",
+          "label": "test fuori perimetro evitati"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Fascicolo sanitario, dai 14 anni accesso autonomo ai dati più riservati",
+      "excerpt": "Il Garante approva il decreto: i ragazzi useranno la propria identità digitale per le prestazioni ottenibili senza genitori, che non vedranno quei documenti.",
+      "url": "/notizie/fascicolo-sanitario-14-anni-accesso-autonomo-5-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-06T06:34:47+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/fascicolo-sanitario-14-anni-accesso-autonomo-5-novembre-2026-v1370-800.webp",
+      "imageAlt": "Adolescente consulta in modo riservato un servizio sanitario digitale su tablet.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/fascicolo-sanitario-14-anni-accesso-autonomo-5-novembre-2026-v1370-480.webp 480w, /assets/images/editorial-auto/fascicolo-sanitario-14-anni-accesso-autonomo-5-novembre-2026-v1370-800.webp 800w, /assets/images/editorial-auto/fascicolo-sanitario-14-anni-accesso-autonomo-5-novembre-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "14 anni",
+          "label": "soglia per l’accesso personale"
+        },
+        {
+          "icon": "•",
+          "value": "Identità digitale",
+          "label": "strumento di autenticazione"
+        },
+        {
+          "icon": "•",
+          "value": "Non visibili",
+          "label": "ai delegati genitoriali"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "CERT-AGID trova una backdoor che si attiva solo quando compare il server MCP giusto",
+      "excerpt": "Il comportamento resta nascosto nei pesi di un modello open-weight e genera una richiesta di rete soltanto in presenza di uno strumento con il nome previsto.",
+      "url": "/notizie/cert-agid-backdoor-modelli-open-weight-mcp-4-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-06T06:30:47+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/cert-agid-backdoor-modelli-open-weight-mcp-4-novembre-2026-v1370-800.webp",
+      "imageAlt": "Ricercatore analizza il comportamento di un modello di intelligenza artificiale collegato a strumenti MCP.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/cert-agid-backdoor-modelli-open-weight-mcp-4-novembre-2026-v1370-480.webp 480w, /assets/images/editorial-auto/cert-agid-backdoor-modelli-open-weight-mcp-4-novembre-2026-v1370-800.webp 800w, /assets/images/editorial-auto/cert-agid-backdoor-modelli-open-weight-mcp-4-novembre-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "Qwen3-1.7B",
+          "label": "modello usato nel test"
+        },
+        {
+          "icon": "•",
+          "value": "Nome esatto",
+          "label": "trigger del server MCP"
+        },
+        {
+          "icon": "•",
+          "value": "HTTP 200",
+          "label": "richiesta reale osservata"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "WhatsApp Events apre gli inviti a chi non ha un account e riunisce tutte le risposte",
+      "excerpt": "La nuova area Events Home permette di creare appuntamenti, condividere un link, gestire conferme, promemoria e accompagnatori da un solo spazio.",
+      "url": "/notizie/whatsapp-events-inviti-senza-account-5-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-06T06:26:47+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/whatsapp-events-inviti-senza-account-5-novembre-2026-v1370-800.webp",
+      "imageAlt": "Smartphone con una schermata verde dedicata all'organizzazione di un evento.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/whatsapp-events-inviti-senza-account-5-novembre-2026-v1370-480.webp 480w, /assets/images/editorial-auto/whatsapp-events-inviti-senza-account-5-novembre-2026-v1370-800.webp 800w, /assets/images/editorial-auto/whatsapp-events-inviti-senza-account-5-novembre-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "Link",
+          "label": "invito condivisibile"
+        },
+        {
+          "icon": "•",
+          "value": "+1",
+          "label": "opzione accompagnatore"
+        },
+        {
+          "icon": "•",
+          "value": "Events Home",
+          "label": "eventi passati e futuri"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "OpenAI Images 2.6 arriva con GIF, editing mirato e generazione più veloce",
+      "excerpt": "Il nuovo modello è disponibile in ChatGPT, Codex e API. OpenAI dichiara tempi ridotti del 50 per cento e introduce controlli distinti per qualità e complessità.",
+      "url": "/notizie/openai-images-2-6-gif-editing-chatgpt-codex-api-4-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-06T06:22:47+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/openai-images-2-6-gif-editing-chatgpt-codex-api-4-novembre-2026-v1370-800.webp",
+      "imageAlt": "Professionista creativo al lavoro su immagini e animazioni generate con intelligenza artificiale.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/openai-images-2-6-gif-editing-chatgpt-codex-api-4-novembre-2026-v1370-480.webp 480w, /assets/images/editorial-auto/openai-images-2-6-gif-editing-chatgpt-codex-api-4-novembre-2026-v1370-800.webp 800w, /assets/images/editorial-auto/openai-images-2-6-gif-editing-chatgpt-codex-api-4-novembre-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "50%",
+          "label": "generazione dichiarata più veloce"
+        },
+        {
+          "icon": "•",
+          "value": "GIF",
+          "label": "animazioni da un prompt"
+        },
+        {
+          "icon": "•",
+          "value": "2 modelli",
+          "label": "Flare e Sunburst nelle API"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Windows usa agenti IA per trovare le falle, ma la decisione resta agli ingegneri",
+      "excerpt": "Microsoft descrive MDASH e un nuovo ciclo di gestione delle vulnerabilità. Le informazioni sulle patch arrivano anche in formati leggibili dai sistemi aziendali.",
+      "url": "/notizie/microsoft-ai-vulnerabilita-windows-mdash-5-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-06T06:18:47+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/microsoft-ai-vulnerabilita-windows-mdash-5-novembre-2026-v1370-800.webp",
+      "imageAlt": "Tecnico in un centro operativo di sicurezza mentre controlla vulnerabilità di sistemi Windows.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/microsoft-ai-vulnerabilita-windows-mdash-5-novembre-2026-v1370-480.webp 480w, /assets/images/editorial-auto/microsoft-ai-vulnerabilita-windows-mdash-5-novembre-2026-v1370-800.webp 800w, /assets/images/editorial-auto/microsoft-ai-vulnerabilita-windows-mdash-5-novembre-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "MDASH",
+          "label": "scanner agentico del codice"
+        },
+        {
+          "icon": "•",
+          "value": "Umano",
+          "label": "revisione e responsabilità finali"
+        },
+        {
+          "icon": "•",
+          "value": "CSAF e VEX",
+          "label": "avvisi leggibili dalle macchine"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Meta Muse aggiunge voce e avatar espressivi, ma il debutto parte dagli Stati Uniti",
+      "excerpt": "Le conversazioni in tempo reale arrivano su mobile, web e Mac. L’utente può interrompere l’assistente e scegliere tra voce sola, avatar affiancato o schermo intero.",
+      "url": "/notizie/meta-muse-voce-avatar-app-5-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-06T06:14:47+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/meta-muse-voce-avatar-app-5-novembre-2026-v1370-800.webp",
+      "imageAlt": "Utente conversa con un assistente vocale rappresentato da un avatar digitale su smartphone.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/meta-muse-voce-avatar-app-5-novembre-2026-v1370-480.webp 480w, /assets/images/editorial-auto/meta-muse-voce-avatar-app-5-novembre-2026-v1370-800.webp 800w, /assets/images/editorial-auto/meta-muse-voce-avatar-app-5-novembre-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "Tempo reale",
+          "label": "conversazioni vocali"
+        },
+        {
+          "icon": "•",
+          "value": "3 piattaforme",
+          "label": "mobile, web e Mac"
+        },
+        {
+          "icon": "•",
+          "value": "USA",
+          "label": "prima fase del rilascio"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Xbox ridisegna app PC, web e cloud: avvio fino al 60 per cento più rapido",
+      "excerpt": "La prova parte dagli Xbox Insider. Microsoft promette libreria e ricerca più semplici, mentre l’esperienza aggiornata raggiunge TV supportate e visori VR.",
+      "url": "/notizie/xbox-app-pc-web-cloud-piu-veloce-5-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-06T06:10:47+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/xbox-app-pc-web-cloud-piu-veloce-5-novembre-2026-v1370-800.webp",
+      "imageAlt": "Postazione gaming con PC, controller Xbox e interfaccia di libreria digitale.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/xbox-app-pc-web-cloud-piu-veloce-5-novembre-2026-v1370-480.webp 480w, /assets/images/editorial-auto/xbox-app-pc-web-cloud-piu-veloce-5-novembre-2026-v1370-800.webp 800w, /assets/images/editorial-auto/xbox-app-pc-web-cloud-piu-veloce-5-novembre-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "60%",
+          "label": "avvio dichiarato più veloce"
+        },
+        {
+          "icon": "•",
+          "value": "50%",
+          "label": "Home, Store e Game Pass"
+        },
+        {
+          "icon": "•",
+          "value": "65%",
+          "label": "finestre interne"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "Starlink Mobile sceglie Qualcomm per una rete 5G terrestre nazionale dal 2027",
+      "excerpt": "SpaceX userà piattaforme Dragonwing e antenne Massive MIMO 64T64R. Il piano statunitense prevede decine di migliaia di siti in più anni.",
+      "url": "/notizie/starlink-mobile-qualcomm-rete-5g-2027-4-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-06T06:06:47+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/starlink-mobile-qualcomm-rete-5g-2027-4-novembre-2026-v1370-800.webp",
+      "imageAlt": "Antenne 5G installate su una torre per telecomunicazioni con collegamento satellitare.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/starlink-mobile-qualcomm-rete-5g-2027-4-novembre-2026-v1370-480.webp 480w, /assets/images/editorial-auto/starlink-mobile-qualcomm-rete-5g-2027-4-novembre-2026-v1370-800.webp 800w, /assets/images/editorial-auto/starlink-mobile-qualcomm-rete-5g-2027-4-novembre-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "64T64R",
+          "label": "architettura Massive MIMO"
+        },
+        {
+          "icon": "•",
+          "value": "Decine di migliaia",
+          "label": "siti previsti"
+        },
+        {
+          "icon": "•",
+          "value": "2027",
+          "label": "inizio del rollout USA"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "NASA presenta l’X-70 Fractal: payload intercambiabili e primo volo entro due anni",
+      "excerpt": "Il nuovo aereo sperimentale con equipaggio può trasportare fino a 2.000 libbre di strumenti, volare a Mach 0,75 e raggiungere 45.000 piedi.",
+      "url": "/notizie/nasa-x70-fractal-aereo-sperimentale-4-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-06T06:02:47+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/nasa-x70-fractal-aereo-sperimentale-4-novembre-2026-v1370-800.webp",
+      "imageAlt": "Velivolo sperimentale X-70 Fractal su una pista durante una prova tecnica.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/nasa-x70-fractal-aereo-sperimentale-4-novembre-2026-v1370-480.webp 480w, /assets/images/editorial-auto/nasa-x70-fractal-aereo-sperimentale-4-novembre-2026-v1370-800.webp 800w, /assets/images/editorial-auto/nasa-x70-fractal-aereo-sperimentale-4-novembre-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "Mach 0,75",
+          "label": "velocità di crociera prevista"
+        },
+        {
+          "icon": "•",
+          "value": "2.000 lb",
+          "label": "payload sperimentale"
+        },
+        {
+          "icon": "•",
+          "value": "45.000 ft",
+          "label": "quota massima prevista"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "NASA prepara il dopo-TDRS: tre contratti per relay satellitari in banda Ka",
+      "excerpt": "Astranis, Global Enterprise Solutions e Viasat studieranno servizi compatibili con sonde già in orbita. Le opzioni possono estendere il lavoro fino al 2029.",
+      "url": "/notizie/nasa-ka-band-reti-commerciali-tre-aziende-4-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-06T05:58:47+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/nasa-ka-band-reti-commerciali-tre-aziende-4-novembre-2026-v1370-800.webp",
+      "imageAlt": "Antenna satellitare in banda Ka sotto un cielo notturno attraversato da un satellite.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/nasa-ka-band-reti-commerciali-tre-aziende-4-novembre-2026-v1370-480.webp 480w, /assets/images/editorial-auto/nasa-ka-band-reti-commerciali-tre-aziende-4-novembre-2026-v1370-800.webp 800w, /assets/images/editorial-auto/nasa-ka-band-reti-commerciali-tre-aziende-4-novembre-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "3 aziende",
+          "label": "concept selezionati"
+        },
+        {
+          "icon": "•",
+          "value": "Banda Ka",
+          "label": "continuità per missioni esistenti"
+        },
+        {
+          "icon": "•",
+          "value": "2029",
+          "label": "orizzonte massimo delle opzioni"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "NASA prova SPLICE su un drone: sceglie da solo un punto di atterraggio sicuro",
+      "excerpt": "Il sistema ha simulato una discesa lunare sopra Rogers Dry Lake, creando mappe del terreno e deviando quando l’area prevista risultava pericolosa.",
+      "url": "/notizie/nasa-splice-navigazione-autonoma-atterraggi-4-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-06T05:54:47+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/nasa-splice-navigazione-autonoma-atterraggi-4-novembre-2026-v1370-800.webp",
+      "imageAlt": "Drone sperimentale sorvola un terreno desertico durante un test di navigazione autonoma.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/nasa-splice-navigazione-autonoma-atterraggi-4-novembre-2026-v1370-480.webp 480w, /assets/images/editorial-auto/nasa-splice-navigazione-autonoma-atterraggi-4-novembre-2026-v1370-800.webp 800w, /assets/images/editorial-auto/nasa-splice-navigazione-autonoma-atterraggi-4-novembre-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "Alta-X",
+          "label": "drone usato per il test"
+        },
+        {
+          "icon": "•",
+          "value": "Mappe 3D",
+          "label": "rilievo del terreno"
+        },
+        {
+          "icon": "•",
+          "value": "Luna e Marte",
+          "label": "applicazioni previste"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
+      "title": "MetOp-SG-B1 esce dal contenitore: comincia la campagna per il lancio Ariane 6",
+      "excerpt": "Il satellite meteo europeo è nella camera pulita di Kourou. Dopo riattivazione, controlli e rifornimento, il decollo è previsto verso fine anno.",
+      "url": "/notizie/esa-metop-sg-b1-campagna-lancio-4-novembre-2026.html",
+      "section": "Mondo / Tecnologia",
+      "dateISO": "2026-11-06T05:50:47+01:00",
+      "dateLabel": "2026-11-06",
+      "image": "/assets/images/editorial-auto/esa-metop-sg-b1-campagna-lancio-4-novembre-2026-v1370-800.webp",
+      "imageAlt": "Satellite meteorologico MetOp-SG-B1 in una camera bianca durante la preparazione al lancio.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/esa-metop-sg-b1-campagna-lancio-4-novembre-2026-v1370-480.webp 480w, /assets/images/editorial-auto/esa-metop-sg-b1-campagna-lancio-4-novembre-2026-v1370-800.webp 800w, /assets/images/editorial-auto/esa-metop-sg-b1-campagna-lancio-4-novembre-2026-v1370-1200.webp 1200w",
+      "updated": false,
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "12 anni",
+          "label": "sviluppo del satellite"
+        },
+        {
+          "icon": "•",
+          "value": "22 °C",
+          "label": "temperatura nel contenitore"
+        },
+        {
+          "icon": "•",
+          "value": "Fine 2026",
+          "label": "lancio pianificato"
+        }
+      ],
+      "featuredHighlights": []
+    },
+    {
       "title": "Decreto 162 sui carburanti, via libera della Camera: il 10 novembre passa al Senato",
       "excerpt": "Il testo proroga aiuti all’autotrasporto e rinvia al 1° dicembre il contributo sulle spedizioni di modico valore. Non è ancora una conversione definitiva.",
       "url": "/notizie/decreto-162-carburanti-camera-senato-10-novembre-06-11-2026.html",
@@ -95,7 +511,10 @@
           "label": "Da sapere"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "Esuberi ridotti",
+        "Stabilimenti italiani"
+      ]
     },
     {
       "title": "Carceri minorili, 572 presenze per 583 posti: il confronto su sovraffollamento e alternative",
@@ -127,7 +546,10 @@
           "label": "Da sapere"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "572 presenze",
+        "583 posti"
+      ]
     },
     {
       "title": "Strade dei piccoli Comuni, aperto l’avviso 2026: 10 milioni e progetti fino a 150 mila euro",
@@ -351,7 +773,9 @@
           "label": "Da sapere"
         }
       ],
-      "featuredHighlights": []
+      "featuredHighlights": [
+        "Prima strategia nazionale"
+      ]
     },
     {
       "title": "Scuola e competenze, la Commissione UE propone alleanze europee e sostegno ai docenti sull’IA",
@@ -41199,18 +41623,19 @@
       ]
     },
     {
-      "title": "NASA prepara le passeggiate spaziali 100 e 101: più energia per la ISS",
+      "title": "ISS, installato l’ultimo pannello IROSA: completato l’aumento di potenza",
       "excerpt": "Le uscite del 29 ottobre e 5 novembre installeranno gli ultimi due pannelli IROSA. La potenza disponibile potrà crescere fino a circa 215 kilowatt.",
       "url": "/notizie/nasa-passeggiate-spaziali-100-101-pannelli-solari-18-ottobre-2026.html",
       "section": "Scienza",
       "dateISO": "2026-10-18T07:31:00+02:00",
       "dateLabel": "2026-10-18",
-      "image": "/assets/images/editorial-auto/nasa-passeggiate-spaziali-100-101-pannelli-solari-18-ottobre-2026-v878-800.webp",
-      "imageAlt": "Astronauta durante una passeggiata spaziale accanto ai pannelli solari della ISS",
+      "image": "/assets/images/editorial-auto/nasa-passeggiate-spaziali-100-101-pannelli-solari-18-ottobre-2026-v1370-800.webp",
+      "imageAlt": "Due astronauti lavorano all'esterno della Stazione spaziale internazionale accanto a un pannello solare dispiegato.",
       "imageWidth": 800,
       "imageHeight": 450,
-      "srcset": "/assets/images/editorial-auto/nasa-passeggiate-spaziali-100-101-pannelli-solari-18-ottobre-2026-v878-480.webp 480w, /assets/images/editorial-auto/nasa-passeggiate-spaziali-100-101-pannelli-solari-18-ottobre-2026-v878-800.webp 800w, /assets/images/editorial-auto/nasa-passeggiate-spaziali-100-101-pannelli-solari-18-ottobre-2026-v878-1200.webp 1200w",
-      "updated": false,
+      "srcset": "/assets/images/editorial-auto/nasa-passeggiate-spaziali-100-101-pannelli-solari-18-ottobre-2026-v1370-480.webp 480w, /assets/images/editorial-auto/nasa-passeggiate-spaziali-100-101-pannelli-solari-18-ottobre-2026-v1370-800.webp 800w, /assets/images/editorial-auto/nasa-passeggiate-spaziali-100-101-pannelli-solari-18-ottobre-2026-v1370-1200.webp 1200w",
+      "updated": true,
+      "updatedAt": "2026-11-06T06:38:47+01:00",
       "featuredStats": [
         {
           "icon": "•",
