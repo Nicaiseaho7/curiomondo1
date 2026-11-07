@@ -117,6 +117,10 @@ Regole di scrittura, tutte obbligatorie:
 - Le dichiarazioni vanno attribuite ("secondo il ministero", "ha riferito
   l'agenzia"). Una rivendicazione di parte non diventa mai un fatto accertato.
 - Vietato aggiungere contesto generico solo per allungare il testo.
+- Il corpo standard punta al minimo di 300 parole. Non si sale verso il tetto
+  con premesse, chiusure o avvertenze. Vietate le note di metodo: niente
+  riferimenti al branch, alla selezione del pacchetto, alla data di
+  preparazione editoriale o a come l'articolo e stato scritto.
 - Attribuisci a chi ha parlato o deciso (l'ente, l'azienda, la persona), non
   alla testata che ha dato la notizia: il nome della testata puo comparire al
   massimo una volta, e solo se serve davvero.
@@ -323,13 +327,13 @@ def scrivi(
     if not protocollo_titoli.strip():
         raise ValueError("protocollo titoli vuoto: stesura bloccata")
     minimo, massimo = FORMATI.get(verdetto.formato, FORMATI["standard"])
-    obiettivo = int((minimo + massimo) / 2)
+    obiettivo = minimo
 
     istruzioni = f"""Scrivi l'articolo CurioMondo su questo fatto.
 
 FORMATO: {verdetto.formato} — il corpo deve stare fra {minimo} e {massimo} parole
-(punta a circa {obiettivo}). La misura e una conseguenza dell'informazione
-disponibile, mai un obiettivo da riempire.
+(resta vicino a {obiettivo}, non riempire fino al tetto). La misura e una
+conseguenza dell'informazione disponibile, mai un obiettivo da riempire.
 
 CATEGORIA: {verdetto.categoria}
 
