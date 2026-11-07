@@ -3,6 +3,561 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "sapienza-24-borse-collaborazione-biblioteca-scadenza-6-dicembre-2026-v1382",
+      "alt": "Studentessa universitaria sistema libri in una biblioteca moderna",
+      "prompt": "Sapienza, 24 borse di collaborazione in biblioteca: 1.295 euro per 150 ore. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/sapienza-24-borse-collaborazione-biblioteca-scadenza-6-dicembre-2026-v1382-480.webp",
+          "bytes": 24464,
+          "sha256": "e33ded0fa3f2c4b943098a27e332a36519746004efb940e93d1834662dde84c4"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/sapienza-24-borse-collaborazione-biblioteca-scadenza-6-dicembre-2026-v1382-800.webp",
+          "bytes": 46296,
+          "sha256": "bce331d901ff8c8665a5747e374e17c78430656d87e6bd36b2791596480d4a67"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/sapienza-24-borse-collaborazione-biblioteca-scadenza-6-dicembre-2026-v1382-1200.webp",
+          "bytes": 75872,
+          "sha256": "1780cdc45ba1b2c1a1ccfa2226df1d9f787bc2b72b1f667859cdce527856bfca"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/sapienza-24-borse-collaborazione-biblioteca-scadenza-6-dicembre-2026.html"
+    },
+    {
+      "key": "unibo-164-contributi-studenti-difficolta-2000-euro-2026-v1382",
+      "alt": "Studente universitario prepara documenti economici in una sala studio",
+      "prompt": "Università di Bologna, 164 contributi da 2.000 euro: domanda entro il 27 novembre. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/unibo-164-contributi-studenti-difficolta-2000-euro-2026-v1382-480.webp",
+          "bytes": 19132,
+          "sha256": "f210436bdebbad197cc579ed070739d1f64d2440ffdf0bf67f0740b088aa46e7"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/unibo-164-contributi-studenti-difficolta-2000-euro-2026-v1382-800.webp",
+          "bytes": 38196,
+          "sha256": "0c76ad0204d825521614213e29edea2ffba814b33b4fa81b478b380879966cc7"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/unibo-164-contributi-studenti-difficolta-2000-euro-2026-v1382-1200.webp",
+          "bytes": 66236,
+          "sha256": "5f24ca3f1ea0a2bfcef8b8084225ef63d347a8657925874d8924e87a01b55a30"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/unibo-164-contributi-studenti-difficolta-2000-euro-2026.html"
+    },
+    {
+      "key": "concorsi-pubblici-6-novembre-2026-nuovi-bandi-inpa-scadenze-v1382",
+      "alt": "Candidata compila una domanda di concorso pubblico su un computer in un ufficio",
+      "prompt": "Concorsi pubblici, nuovi posti amministrativi: domande tra il 6 e 7 dicembre. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/concorsi-pubblici-6-novembre-2026-nuovi-bandi-inpa-scadenze-v1382-480.webp",
+          "bytes": 27806,
+          "sha256": "c33a44484c06ea36b500f717ddbbfa49329f4139f33db0337d24306594727f37"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/concorsi-pubblici-6-novembre-2026-nuovi-bandi-inpa-scadenze-v1382-800.webp",
+          "bytes": 57574,
+          "sha256": "4706ebe5fec811948732d89601a1430c2efd66070f475ecfa2847fb62da769be"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/concorsi-pubblici-6-novembre-2026-nuovi-bandi-inpa-scadenze-v1382-1200.webp",
+          "bytes": 99086,
+          "sha256": "73ee8f3377b91760518e093d0977624fe89063ebfd157eae7bd6c9f834e39443"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/concorsi-pubblici-6-novembre-2026-nuovi-bandi-inpa-scadenze.html"
+    },
+    {
+      "key": "unibo-field-work-2026-2027-domande-11-novembre-v1382",
+      "alt": "Studenti preparano un progetto di cooperazione internazionale in aula universitaria",
+      "prompt": "Unibo, Field Work chiude l'11 novembre: mobilità nella cooperazione internazionale. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/unibo-field-work-2026-2027-domande-11-novembre-v1382-480.webp",
+          "bytes": 23410,
+          "sha256": "16e118ce22428bb39e2b5476bd30af28f55a6e7d88d2c439b968f9763a115dcc"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/unibo-field-work-2026-2027-domande-11-novembre-v1382-800.webp",
+          "bytes": 48344,
+          "sha256": "f15a5c6f40c1e7310117feabb4346641e512cf7e3c58ba0173fa16fb00e7b113"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/unibo-field-work-2026-2027-domande-11-novembre-v1382-1200.webp",
+          "bytes": 82690,
+          "sha256": "e88d9d696fc1f862e7fa7d7d733ab17107d81e8a06b3d952be046d14e240fb80"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/unibo-field-work-2026-2027-domande-11-novembre.html"
+    },
+    {
+      "key": "sea-modal-shift-rendicontazione-scadenza-9-novembre-2026-v1382",
+      "alt": "Responsabile logistico compila una rendicontazione digitale con container sullo sfondo",
+      "prompt": "Sea Modal Shift, rendicontazione entro il 9 novembre: nessun'altra proroga. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/sea-modal-shift-rendicontazione-scadenza-9-novembre-2026-v1382-480.webp",
+          "bytes": 19352,
+          "sha256": "61eb3490f70eb82509d68d06c4013256bb8dddb40f3b57eea793712f3baa6f6f"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/sea-modal-shift-rendicontazione-scadenza-9-novembre-2026-v1382-800.webp",
+          "bytes": 38938,
+          "sha256": "367b7a162cef225fc6778561ba6fd3e182c0607d6e5a726e42e4ae34b4e9bacf"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/sea-modal-shift-rendicontazione-scadenza-9-novembre-2026-v1382-1200.webp",
+          "bytes": 66788,
+          "sha256": "deadb5d77940678e60930cb18411193b4cf80bcec77a15b761fdb433f0a788c7"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/sea-modal-shift-rendicontazione-scadenza-9-novembre-2026.html"
+    },
+    {
+      "key": "ventimiglia-treni-cancellati-variazioni-10-11-novembre-2026-v1382",
+      "alt": "Stazione ferroviaria costiera con tecnici al lavoro e passeggeri in attesa in sicurezza",
+      "prompt": "Ventimiglia, lavori il 10 e 11 novembre: treni cancellati e orari anticipati. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ventimiglia-treni-cancellati-variazioni-10-11-novembre-2026-v1382-480.webp",
+          "bytes": 31520,
+          "sha256": "52fa50f38b2d5781a3e31f394952f89e01b66bc16b7188a417c6bf5b0bb9b97d"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ventimiglia-treni-cancellati-variazioni-10-11-novembre-2026-v1382-800.webp",
+          "bytes": 78242,
+          "sha256": "bf750e14d33ef4d39f1af1c415b0de442015f9d8514e0abcbe52fa7d1715981b"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ventimiglia-treni-cancellati-variazioni-10-11-novembre-2026-v1382-1200.webp",
+          "bytes": 153188,
+          "sha256": "d1345976925c35056c4f7373c4236a376af20138bff373cdbc649c547f16b7f0"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/ventimiglia-treni-cancellati-variazioni-10-11-novembre-2026.html"
+    },
+    {
+      "key": "autostrade-chiusure-a1-a13-a14-10-13-novembre-2026-v1382",
+      "alt": "Cantiere autostradale notturno ordinato con segnaletica e mezzi tecnici",
+      "prompt": "Autostrade, chiusure notturne su A1, A13 e A14 dal 10 al 13 novembre. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/autostrade-chiusure-a1-a13-a14-10-13-novembre-2026-v1382-480.webp",
+          "bytes": 24568,
+          "sha256": "82dc7aba29467d98dc917e1aef90d5dfb8d77ff87452b795f932b29268f9b090"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/autostrade-chiusure-a1-a13-a14-10-13-novembre-2026-v1382-800.webp",
+          "bytes": 64226,
+          "sha256": "380238b4ff628e31427eef11fd5f7cc8370f51fc3ac6226f7fc0e8e76ecd01fc"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/autostrade-chiusure-a1-a13-a14-10-13-novembre-2026-v1382-1200.webp",
+          "bytes": 132792,
+          "sha256": "170730ed6d97ba7da58b7a27ccc6674a11af69f5fe5855c8411bed1c00c1996e"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/autostrade-chiusure-a1-a13-a14-10-13-novembre-2026.html"
+    },
+    {
+      "key": "genoa-milan-8-novembre-2026-bus-speciali-fermate-soppresse-v1382",
+      "alt": "Autobus cittadini ordinati all'esterno di un quartiere con stadio dopo una partita",
+      "prompt": "Genoa-Milan, bus speciali l'8 novembre: fermate soppresse dalle 12. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/genoa-milan-8-novembre-2026-bus-speciali-fermate-soppresse-v1382-480.webp",
+          "bytes": 29670,
+          "sha256": "4cf1fa31f1a4ec6e31537aefca7ca47af0f650afe0372d1756753e1bbf1c73ec"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/genoa-milan-8-novembre-2026-bus-speciali-fermate-soppresse-v1382-800.webp",
+          "bytes": 70532,
+          "sha256": "5def00edff764a7c527f6e5b000667deb3bb326269b530ac86963b728a4e454f"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/genoa-milan-8-novembre-2026-bus-speciali-fermate-soppresse-v1382-1200.webp",
+          "bytes": 130940,
+          "sha256": "c7dc7f9ad853894fc8bd6e7a05aeaa37e047e50066bd9ecd51f0a24cdbfa3d8f"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/genoa-milan-8-novembre-2026-bus-speciali-fermate-soppresse.html"
+    },
+    {
+      "key": "roma-15k-8-novembre-2026-strade-chiuse-bus-deviati-v1382",
+      "alt": "Autobus urbano devia in sicurezza vicino a una corsa podistica cittadina",
+      "prompt": "Roma, corsa 15K e chiusure l'8 novembre: bus deviati e fermate sospese. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/roma-15k-8-novembre-2026-strade-chiuse-bus-deviati-v1382-480.webp",
+          "bytes": 27038,
+          "sha256": "ef504b00c88126e1a4409b1672c428e488c8ce6a1b0ea41a278d8a1aad2bc246"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/roma-15k-8-novembre-2026-strade-chiuse-bus-deviati-v1382-800.webp",
+          "bytes": 65540,
+          "sha256": "731acfd05042f9cb0283736a30e5a25e352d9fc11d9b160479aabfd90035420a"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/roma-15k-8-novembre-2026-strade-chiuse-bus-deviati-v1382-1200.webp",
+          "bytes": 125818,
+          "sha256": "385de82e7f2013bb332b05baeb55b10d9057cccd84af1f10f74f9bb66d3c7d90"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/roma-15k-8-novembre-2026-strade-chiuse-bus-deviati.html"
+    },
+    {
+      "key": "treni-venezia-trieste-udine-bus-variazioni-7-14-novembre-2026-v1382",
+      "alt": "Treno regionale e autobus sostitutivo in una stazione del Nordest italiano",
+      "prompt": "Treni in Friuli e Veneto, modifiche il 7 e 14 novembre: corse cancellate e bus. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/treni-venezia-trieste-udine-bus-variazioni-7-14-novembre-2026-v1382-480.webp",
+          "bytes": 25144,
+          "sha256": "ffe429568a7422744590629173fd2c746c752dfb02b60cb54051f40d8a5ac8e9"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/treni-venezia-trieste-udine-bus-variazioni-7-14-novembre-2026-v1382-800.webp",
+          "bytes": 53580,
+          "sha256": "38fa9f1dd1979b3cd27e3b88b86d45a280109a042789bfe0941e52e8aa316a5d"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/treni-venezia-trieste-udine-bus-variazioni-7-14-novembre-2026-v1382-1200.webp",
+          "bytes": 92430,
+          "sha256": "51299f7f9fc5cf45074bd72d744fcbc11a3d198ccf2e02ced338c9c64858979d"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/treni-venezia-trieste-udine-bus-variazioni-7-14-novembre-2026.html"
+    },
+    {
+      "key": "genova-funicolare-sant-anna-chiusa-7-novembre-2026-alternative-v1382",
+      "alt": "Funicolare storica ferma in stazione mentre un tecnico esegue controlli",
+      "prompt": "Genova, funicolare Sant'Anna chiusa dal 7 novembre: le alternative. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/genova-funicolare-sant-anna-chiusa-7-novembre-2026-alternative-v1382-480.webp",
+          "bytes": 32886,
+          "sha256": "1c610f2127f8b42c9e2ca61f211e1f52f1e93c1ca774048ba4465e8f1db6b50f"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/genova-funicolare-sant-anna-chiusa-7-novembre-2026-alternative-v1382-800.webp",
+          "bytes": 74520,
+          "sha256": "0e999a246bbb0d937566e42b4ecbd0f061a6b2c1e64c42b060010502aba73ce4"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/genova-funicolare-sant-anna-chiusa-7-novembre-2026-alternative-v1382-1200.webp",
+          "bytes": 133308,
+          "sha256": "219bdc0dc67356ee4c4f5207dcfbfd78bc840d2c2eb4f2dca89a717adba0d4c5"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/genova-funicolare-sant-anna-chiusa-7-novembre-2026-alternative.html"
+    },
+    {
+      "key": "richiamo-filetti-tonno-surgelato-selezione-piu-lotto-76504-v1382",
+      "alt": "Tecnico di sicurezza alimentare controlla confezioni anonime di tonno surgelato",
+      "prompt": "Tonno surgelato richiamato per istamina: lotto e confezioni da controllare. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/richiamo-filetti-tonno-surgelato-selezione-piu-lotto-76504-v1382-480.webp",
+          "bytes": 20000,
+          "sha256": "3aeb85b1ef3577599632f1211a51dcb7c8663014e9a6f11a23b683821d7c40e4"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/richiamo-filetti-tonno-surgelato-selezione-piu-lotto-76504-v1382-800.webp",
+          "bytes": 43088,
+          "sha256": "d5c44a3b4dd94e288a8d1d4e6bc33026c57d43f74d874230a3b3840875167e09"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/richiamo-filetti-tonno-surgelato-selezione-piu-lotto-76504-v1382-1200.webp",
+          "bytes": 77196,
+          "sha256": "823edf5246fc26efaf437313e5020b261d49a4b6f54d2acf4bb1f1deb5fd9c3c"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/richiamo-filetti-tonno-surgelato-selezione-piu-lotto-76504-07-11-2026.html"
+    },
+    {
+      "key": "faenza-borgo-san-lorenzo-treni-sospesi-bus-7-novembre-2026-v1382",
+      "alt": "Autobus sostitutivo presso una stazione appenninica mentre tecnici controllano i monitor",
+      "prompt": "Faenza-Borgo San Lorenzo, treni sospesi dopo l'alert frane: attivati i bus. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/faenza-borgo-san-lorenzo-treni-sospesi-bus-7-novembre-2026-v1382-480.webp",
+          "bytes": 33734,
+          "sha256": "f78616c6796f3131023b33fe63e9ab529930312cf0a273468354bb1ead20ee0e"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/faenza-borgo-san-lorenzo-treni-sospesi-bus-7-novembre-2026-v1382-800.webp",
+          "bytes": 78726,
+          "sha256": "e7c8542a2431f9f80a384541149b4f6371e63db0998fbc62270072e292dba7bd"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/faenza-borgo-san-lorenzo-treni-sospesi-bus-7-novembre-2026-v1382-1200.webp",
+          "bytes": 142954,
+          "sha256": "9da5eae0f34f2b05c61fd5117d5d623396a9d961d11f6e5744ed7d12afb51a2d"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/faenza-borgo-san-lorenzo-treni-sospesi-bus-7-novembre-2026.html"
+    },
+    {
+      "key": "allerta-gialla-calabria-campania-meteo-7-novembre-2026-v1382",
+      "alt": "Operatore della protezione civile consulta una mappa meteorologica nazionale in una sala operativa",
+      "prompt": "Meteo, l'8 novembre nessuna allerta nazionale: resta il giallo in Calabria il 7. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/allerta-gialla-calabria-campania-meteo-7-novembre-2026-v1382-480.webp",
+          "bytes": 18184,
+          "sha256": "2ed3ba2e4571aa59ba7766ee714bc151402d8e3437d60ac7c74948fbc93c6d73"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/allerta-gialla-calabria-campania-meteo-7-novembre-2026-v1382-800.webp",
+          "bytes": 37148,
+          "sha256": "8dcfc1fb274d15251a1584b13473ff824d2985b0115baee12645ad000fe20860"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/allerta-gialla-calabria-campania-meteo-7-novembre-2026-v1382-1200.webp",
+          "bytes": 62782,
+          "sha256": "04036ee0c4c72b77104cd77f19ee142e0d88a31a97374da9e341ea8f7a2925f4"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/allerta-gialla-calabria-campania-meteo-7-novembre-2026.html"
+    },
+    {
+      "key": "sciopero-italo-9-novembre-2026-orari-treni-garantiti-v1382",
+      "alt": "Treno ad alta velocità fermo regolarmente in una stazione italiana moderna",
+      "prompt": "Italo, revocato lo sciopero del 9 novembre: circolazione regolare. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/sciopero-italo-9-novembre-2026-orari-treni-garantiti-v1382-480.webp",
+          "bytes": 35716,
+          "sha256": "90283f17fdc2fcec3eab7559e61ccf7566bb5ce644207480ade01e034d70ee8a"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/sciopero-italo-9-novembre-2026-orari-treni-garantiti-v1382-800.webp",
+          "bytes": 90252,
+          "sha256": "d721869b0c71e79e170000f9fb740f066e9f9094c10849a7536955d4616b1b2f"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/sciopero-italo-9-novembre-2026-orari-treni-garantiti-v1382-1200.webp",
+          "bytes": 180944,
+          "sha256": "1ce815835a674ab5c0a8dfaa1dce685545074831ffdb8ec7a62df1334355c353"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/sciopero-italo-9-novembre-2026-orari-treni-garantiti.html"
+    },
+    {
       "key": "nvidia-strumenti-open-source-ricerca-reti-6g-v1381",
       "alt": "Laboratorio universitario prova una rete wireless avanzata con antenne e robot",
       "prompt": "Ricerca 6G, gli strumenti open source NVIDIA superano un milione di download. Illustrazione editoriale fotorealistica, non documentaria.",
