@@ -3,6 +3,80 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "usa-ricompensa-informazioni-nucleare-iran-8-novembre-2026-v1404",
+      "alt": "Ufficio di analisi con fascicolo protetto e monitor di dati astratti",
+      "prompt": "Ufficio di analisi con fascicolo protetto e monitor di dati astratti Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/usa-ricompensa-informazioni-nucleare-iran-8-novembre-2026-v1404-480.webp",
+          "bytes": 17688,
+          "sha256": "a3dd6bcad8e39cc2ef332484419e3aa4f8137f62577a80f4c3eda0315fa64eef"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/usa-ricompensa-informazioni-nucleare-iran-8-novembre-2026-v1404-800.webp",
+          "bytes": 35788,
+          "sha256": "5ab778c77ce7dead8e6ee2ab79a572904435b2447ff1e21142d270158ca006aa"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/usa-ricompensa-informazioni-nucleare-iran-8-novembre-2026-v1404-1200.webp",
+          "bytes": 63426,
+          "sha256": "7a53b47fa84455d7bd95e0ec40f7e1eca99430629085394e8408e65e24dc838c"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/usa-ricompensa-20-milioni-informazioni-programma-nucleare-iran-8-novembre-2026.html"
+    },
+    {
+      "key": "trump-iran-negoziati-attacchi-improbabili-8-novembre-2026-v1404",
+      "alt": "Sala diplomatica con le bandiere degli Stati Uniti e dell’Iran su un tavolo",
+      "prompt": "Sala diplomatica con le bandiere degli Stati Uniti e dell’Iran su un tavolo Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/trump-iran-negoziati-attacchi-improbabili-8-novembre-2026-v1404-480.webp",
+          "bytes": 15728,
+          "sha256": "c2d365b836dc5317f53bce67a1dc698559f0b78dfcb4756c27200789b2fa115d"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/trump-iran-negoziati-attacchi-improbabili-8-novembre-2026-v1404-800.webp",
+          "bytes": 30362,
+          "sha256": "f6588553399d540a683a925e6343956a3141d81860e495632feaf2387faa4ba3"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/trump-iran-negoziati-attacchi-improbabili-8-novembre-2026-v1404-1200.webp",
+          "bytes": 50106,
+          "sha256": "e9417ce2bdc5a9364d2cf6ac4a156b8f8d3a50d3859c02b411bca59a77e0f474"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/iran-proposta-nucleare-usa-qatar-sette-condizioni-hormuz-2026.html"
+    },
+    {
       "key": "serie-a-11-giornata-6-8-novembre-2026-orari-tv-v1402",
       "alt": "Giocatori di Fiorentina e Juventus in posa neutra prima della partita serale",
       "prompt": "Giocatori di Fiorentina e Juventus in posa neutra prima della partita serale Illustrazione editoriale fotorealistica, non documentaria.",
@@ -95208,6 +95282,36 @@
     }
   ],
   "images": [
+    {
+      "slug": "usa-ricompensa-informazioni-nucleare-iran-8-novembre-2026",
+      "version": 1404,
+      "path": "/assets/images/editorial-auto/usa-ricompensa-informazioni-nucleare-iran-8-novembre-2026-v1404-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-08",
+      "alt": "Ufficio di analisi con fascicolo protetto e monitor di dati astratti"
+    },
+    {
+      "slug": "trump-iran-negoziati-attacchi-improbabili-8-novembre-2026",
+      "version": 1404,
+      "path": "/assets/images/editorial-auto/trump-iran-negoziati-attacchi-improbabili-8-novembre-2026-v1404-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-08",
+      "alt": "Sala diplomatica con le bandiere degli Stati Uniti e dell’Iran su un tavolo"
+    },
     {
       "slug": "serie-a-11-giornata-6-8-novembre-2026-orari-tv",
       "version": 1402,
