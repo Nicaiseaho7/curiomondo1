@@ -3,6 +3,80 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "palermo-via-nicolo-mineo-revoca-chiusura-giunti-temporanei-8-novembre-2026-v1395",
+      "alt": "Giunto stradale sigillato in un contesto urbano illustrativo; non è una fotografia di via Nicolò Mineo.",
+      "prompt": "Giunto stradale sigillato in un contesto urbano illustrativo; non è una fotografia di via Nicolò Mineo. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/palermo-via-nicolo-mineo-revoca-chiusura-giunti-temporanei-8-novembre-2026-v1395-480.webp",
+          "bytes": 48740,
+          "sha256": "5c92bcf105ef72e60b88a12f152b825b0cb75207182a9e561689eb51d14b4cf4"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/palermo-via-nicolo-mineo-revoca-chiusura-giunti-temporanei-8-novembre-2026-v1395-800.webp",
+          "bytes": 118218,
+          "sha256": "a2cf048aeddd459d1f275e7e79d9354c4d6b45565da27a81f5f1c08df23ba683"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/palermo-via-nicolo-mineo-revoca-chiusura-giunti-temporanei-8-novembre-2026-v1395-1200.webp",
+          "bytes": 227548,
+          "sha256": "4b14f8fafa3a758ecb845a71cc35f641754d6334fdde9252b1d6498875e6fc85"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/palermo-via-nicolo-mineo-revoca-chiusura-giunti-temporanei-8-novembre-2026.html"
+    },
+    {
+      "key": "lugo-disinnesco-ordigno-8-novembre-evacuazione-82-residenti-07-11-2026-v1395",
+      "alt": "Strada rurale e terreno arato in un contesto illustrativo emiliano-romagnolo, senza persone né operazioni di bonifica.",
+      "prompt": "Strada rurale e terreno arato in un contesto illustrativo emiliano-romagnolo, senza persone né operazioni di bonifica. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/lugo-disinnesco-ordigno-8-novembre-evacuazione-82-residenti-07-11-2026-v1395-480.webp",
+          "bytes": 36668,
+          "sha256": "5ae244213eddce729c8f21547e0ec11d1e53b82ab56d9d72705bc46d9b0eb59a"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/lugo-disinnesco-ordigno-8-novembre-evacuazione-82-residenti-07-11-2026-v1395-800.webp",
+          "bytes": 102856,
+          "sha256": "ba9fd8ff341a4fef3b13219de0e2f1031bbd653238e1dd23c3ad85cce92ef5bd"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/lugo-disinnesco-ordigno-8-novembre-evacuazione-82-residenti-07-11-2026-v1395-1200.webp",
+          "bytes": 221540,
+          "sha256": "9d1bd938339c58591d7348ea2d7556a78ccac758a11c5b9a91976e7d8909f060"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/lugo-disinnesco-ordigno-8-novembre-evacuazione-82-residenti-07-11-2026.html"
+    },
+    {
       "key": "piantedosi-comitato-sicurezza-minaccia-cyber-10-novembre-2026-v1393",
       "alt": "Sala riunioni vuota con le bandiere italiana ed europea e uno schermo sulla sicurezza informatica.",
       "prompt": "Sala riunioni vuota con le bandiere italiana ed europea e uno schermo sulla sicurezza informatica. Illustrazione editoriale fotorealistica, non documentaria.",
