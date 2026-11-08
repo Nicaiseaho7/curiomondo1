@@ -3,6 +3,894 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "nba-miami-sacramento-9-novembre-2026-orario-infortuni-v1392",
+      "alt": "Palazzetto con seggiolini gialli e blu: illustrazione di Miami-Sacramento, non l’arena di una delle due franchigie.",
+      "prompt": "Palazzetto con seggiolini gialli e blu: illustrazione di Miami-Sacramento, non l’arena di una delle due franchigie. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/nba-miami-sacramento-9-novembre-2026-orario-infortuni-v1392-480.webp",
+          "bytes": 40126,
+          "sha256": "a3833b52b72b1bf8f524f51ee103871581586c6f97c9652c5c2694a6248f2595"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/nba-miami-sacramento-9-novembre-2026-orario-infortuni-v1392-800.webp",
+          "bytes": 106762,
+          "sha256": "135086c5b3d2f821ed031beef2345a782185537e57998776bdbe108632c81078"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/nba-miami-sacramento-9-novembre-2026-orario-infortuni-v1392-1200.webp",
+          "bytes": 226600,
+          "sha256": "a79425fa8bef9962eded0352d195d7f5489412271f81d13137535d57e0a96884"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/nba-miami-sacramento-9-novembre-2026-orario-infortuni.html"
+    },
+    {
+      "key": "nba-new-orleans-clippers-9-novembre-2026-orario-infortuni-v1392",
+      "alt": "Campo da basket con una metà rossa e una metà nera: illustrazione di Pelicans-Clippers, non le maglie ufficiali.",
+      "prompt": "Campo da basket con una metà rossa e una metà nera: illustrazione di Pelicans-Clippers, non le maglie ufficiali. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/nba-new-orleans-clippers-9-novembre-2026-orario-infortuni-v1392-480.webp",
+          "bytes": 30542,
+          "sha256": "c13aff6495b2f46ca102cc41a90e85386e03123eec0b7949a1c03d245550f3de"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/nba-new-orleans-clippers-9-novembre-2026-orario-infortuni-v1392-800.webp",
+          "bytes": 79182,
+          "sha256": "1af832f501326d610e10035d717c27015dd0cfe79d83c18222e5adedf3f90779"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/nba-new-orleans-clippers-9-novembre-2026-orario-infortuni-v1392-1200.webp",
+          "bytes": 169508,
+          "sha256": "ee1d2a9249524f303bcde2a2fa25e920250acfdb76a5ba15901770d76ad9f44c"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/nba-new-orleans-clippers-9-novembre-2026-orario-infortuni.html"
+    },
+    {
+      "key": "nba-boston-milwaukee-9-novembre-2026-orario-infortuni-v1392",
+      "alt": "Campo con il parquet verde: illustrazione di Boston-Milwaukee, non le maglie dei due quintetti.",
+      "prompt": "Campo con il parquet verde: illustrazione di Boston-Milwaukee, non le maglie dei due quintetti. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/nba-boston-milwaukee-9-novembre-2026-orario-infortuni-v1392-480.webp",
+          "bytes": 30552,
+          "sha256": "06cb1f04da63a35ecabace5643c2f6079f430969544e0f2a17502e54091c6b10"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/nba-boston-milwaukee-9-novembre-2026-orario-infortuni-v1392-800.webp",
+          "bytes": 74430,
+          "sha256": "f652d2a2df84692e2e554bc56825941341a4fb1671993dd47237071ec6c12728"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/nba-boston-milwaukee-9-novembre-2026-orario-infortuni-v1392-1200.webp",
+          "bytes": 148090,
+          "sha256": "30543faef0c572fd8d66fd7e2488f8ce6886ca32ca7f8fa942a22734ec8c6973"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/nba-boston-milwaukee-9-novembre-2026-orario-infortuni.html"
+    },
+    {
+      "key": "nba-utah-minnesota-9-novembre-2026-orario-infortuni-v1392",
+      "alt": "Pallone a centrocampo in un’arena vuota: illustrazione di Utah-Minnesota, non il referto della partita.",
+      "prompt": "Pallone a centrocampo in un’arena vuota: illustrazione di Utah-Minnesota, non il referto della partita. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/nba-utah-minnesota-9-novembre-2026-orario-infortuni-v1392-480.webp",
+          "bytes": 24524,
+          "sha256": "3e30c394e245fb3b488832795c150573a81b70fe5aca40f2a564e701fe3bb58c"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/nba-utah-minnesota-9-novembre-2026-orario-infortuni-v1392-800.webp",
+          "bytes": 51676,
+          "sha256": "256a23de0c6a7090311a7cbdd2432c130fe7786deab1ca7027e601cffda4645c"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/nba-utah-minnesota-9-novembre-2026-orario-infortuni-v1392-1200.webp",
+          "bytes": 95854,
+          "sha256": "f31625ddae5c2adbb5ab7a64d777ad24ea3a71629f827ce2a7562f1a1e5a0912"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/nba-utah-minnesota-9-novembre-2026-orario-infortuni.html"
+    },
+    {
+      "key": "nba-lakers-pistons-9-novembre-2026-orario-infortuni-v1392",
+      "alt": "Arena vuota con luci viola e rosse: illustrazione di Lakers-Pistons, non una foto dei giocatori.",
+      "prompt": "Arena vuota con luci viola e rosse: illustrazione di Lakers-Pistons, non una foto dei giocatori. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/nba-lakers-pistons-9-novembre-2026-orario-infortuni-v1392-480.webp",
+          "bytes": 34126,
+          "sha256": "1034b3092cd290905aeef6cb1391ec55e1203566bc847241e3006c21748afce7"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/nba-lakers-pistons-9-novembre-2026-orario-infortuni-v1392-800.webp",
+          "bytes": 92766,
+          "sha256": "ff1a1c95c50528ac51de800f691b2aac6ad1601458b5e52741e6f677db92dbd3"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/nba-lakers-pistons-9-novembre-2026-orario-infortuni-v1392-1200.webp",
+          "bytes": 202852,
+          "sha256": "4076217535d320b30fbbd798e9bdef33a6c83413c9701e9445cb3de8e841bd15"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/nba-lakers-pistons-9-novembre-2026-orario-infortuni.html"
+    },
+    {
+      "key": "nba-philadelphia-chicago-8-novembre-2026-orario-infortuni-v1392",
+      "alt": "Campo da basket con panchine blu e rosse: illustrazione di Philadelphia-Chicago, non i quintetti della partita.",
+      "prompt": "Campo da basket con panchine blu e rosse: illustrazione di Philadelphia-Chicago, non i quintetti della partita. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/nba-philadelphia-chicago-8-novembre-2026-orario-infortuni-v1392-480.webp",
+          "bytes": 25682,
+          "sha256": "c8ebc3d5dbd696a54cecfe6517512262d7be0c0c7f91bb164cc4d7c8eab37f7a"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/nba-philadelphia-chicago-8-novembre-2026-orario-infortuni-v1392-800.webp",
+          "bytes": 65582,
+          "sha256": "e001f6be289e3efbfd766418aa8e814f5daddba4e5cf341de89aa7766d044223"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/nba-philadelphia-chicago-8-novembre-2026-orario-infortuni-v1392-1200.webp",
+          "bytes": 139376,
+          "sha256": "9974bd615fe96057b92138cbb0e696f53e3763cdb9bc077761881e2c889c5255"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/nba-philadelphia-chicago-8-novembre-2026-orario-infortuni.html"
+    },
+    {
+      "key": "europei-under-21-playoff-12-17-novembre-2026-v1392",
+      "alt": "Quattro maglie colorate in uno spogliatoio: illustrazione generica degli spareggi Under 21, non le divise delle nazionali in tabellone.",
+      "prompt": "Quattro maglie colorate in uno spogliatoio: illustrazione generica degli spareggi Under 21, non le divise delle nazionali in tabellone. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/europei-under-21-playoff-12-17-novembre-2026-v1392-480.webp",
+          "bytes": 23086,
+          "sha256": "bfc2d24ee2ae258688c97442a8c53c9697417c15a2d663202db951ec659ec7f8"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/europei-under-21-playoff-12-17-novembre-2026-v1392-800.webp",
+          "bytes": 54530,
+          "sha256": "6683b2d4fbfc951f54fb9d9d6bd9574a5feaedcb6015e5b5f85e512328fdadfc"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/europei-under-21-playoff-12-17-novembre-2026-v1392-1200.webp",
+          "bytes": 110348,
+          "sha256": "a770e2fa990d51ca183c99158af0fa67bd7fa88ad378e32c95fc07b8145d5e8f"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/europei-under-21-playoff-12-17-novembre-2026.html"
+    },
+    {
+      "key": "italia-under-20-portogallo-svizzera-novembre-2026-v1392",
+      "alt": "Stadio italiano con le colline sullo sfondo: illustrazione del raduno Under 20 in Veneto, non una foto dell’Euganeo.",
+      "prompt": "Stadio italiano con le colline sullo sfondo: illustrazione del raduno Under 20 in Veneto, non una foto dell’Euganeo. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/italia-under-20-portogallo-svizzera-novembre-2026-v1392-480.webp",
+          "bytes": 35510,
+          "sha256": "be00246c1b979c946591aa5e42a189b95a6f0b6fc55ea26be91ecb57d2ea120a"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/italia-under-20-portogallo-svizzera-novembre-2026-v1392-800.webp",
+          "bytes": 98192,
+          "sha256": "f6e9996147c99225a28e70c0cf3eeb46fe27fc1a71cfbea2d0b163c2fa72b2e7"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/italia-under-20-portogallo-svizzera-novembre-2026-v1392-1200.webp",
+          "bytes": 224506,
+          "sha256": "1ca0f330f6ed73e8fe45718654679755f8f444f9c0a55b1b0b99605d1545eafb"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/italia-under-20-portogallo-svizzera-novembre-2026.html"
+    },
+    {
+      "key": "eurocup-italiane-10-11-novembre-2026-calendario-v1392",
+      "alt": "Campo da basket con il tricolore a centrocampo: illustrazione del turno EuroCup delle italiane, non il palazzetto di una società.",
+      "prompt": "Campo da basket con il tricolore a centrocampo: illustrazione del turno EuroCup delle italiane, non il palazzetto di una società. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/eurocup-italiane-10-11-novembre-2026-calendario-v1392-480.webp",
+          "bytes": 38472,
+          "sha256": "a3743462e2a545e106495683a9327d35fc580e643c2f365d3ca3c88a20f5a495"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/eurocup-italiane-10-11-novembre-2026-calendario-v1392-800.webp",
+          "bytes": 99110,
+          "sha256": "ad52922064b2d9cd36323101db1751bdf2512b7fb0f99793b5a0ab2f9d80d732"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/eurocup-italiane-10-11-novembre-2026-calendario-v1392-1200.webp",
+          "bytes": 215528,
+          "sha256": "a8a7a487ed7968fbefe9f64c76a3300611a1bf1037158ee7413d5710b57b231b"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/eurocup-italiane-10-11-novembre-2026-calendario.html"
+    },
+    {
+      "key": "women-europa-cup-ritorno-ottavi-10-11-novembre-2026-v1392",
+      "alt": "Pallone nel tunnel di uno stadio a strisce blu: illustrazione degli ottavi di Women’s Europa Cup, non una squadra identificata.",
+      "prompt": "Pallone nel tunnel di uno stadio a strisce blu: illustrazione degli ottavi di Women’s Europa Cup, non una squadra identificata. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/women-europa-cup-ritorno-ottavi-10-11-novembre-2026-v1392-480.webp",
+          "bytes": 26182,
+          "sha256": "376902c08eb146acd07cf12b4c1914af6e57080d40ad38aa4f1cbff823c01ed5"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/women-europa-cup-ritorno-ottavi-10-11-novembre-2026-v1392-800.webp",
+          "bytes": 69996,
+          "sha256": "7c85383af5e8c540be86bbd027b58cc13321b057ab68668698e000ea331a2d9b"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/women-europa-cup-ritorno-ottavi-10-11-novembre-2026-v1392-1200.webp",
+          "bytes": 150368,
+          "sha256": "604b0d1cc5932c97a227d095774dc603b06c0f8f35e624f5a969f7ffe86c3988"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/women-europa-cup-ritorno-ottavi-10-11-novembre-2026.html"
+    },
+    {
+      "key": "women-champions-league-italiane-10-11-novembre-2026-v1392",
+      "alt": "Pallone su un prato illuminato in uno stadio notturno: illustrazione della Women’s Champions League, non lo stadio di una delle tre italiane.",
+      "prompt": "Pallone su un prato illuminato in uno stadio notturno: illustrazione della Women’s Champions League, non lo stadio di una delle tre italiane. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/women-champions-league-italiane-10-11-novembre-2026-v1392-480.webp",
+          "bytes": 28640,
+          "sha256": "31a612bab6060ff770ee54c6cb82c44718a5ab3929162fce1dc13cd8447c08a4"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/women-champions-league-italiane-10-11-novembre-2026-v1392-800.webp",
+          "bytes": 81690,
+          "sha256": "a4c49e1137a0bb42768c9dacdbebeaad11960972a99fa9779faf2c2afdf4fa37"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/women-champions-league-italiane-10-11-novembre-2026-v1392-1200.webp",
+          "bytes": 188136,
+          "sha256": "5b7f4caca1b8ce1a390f40035f548c97e541b1459b97b1fbc9357ec2d925c953"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/women-champions-league-italiane-10-11-novembre-2026.html"
+    },
+    {
+      "key": "europei-ciclocross-zeddam-8-novembre-2026-programma-v1392",
+      "alt": "Bici infangate lungo un percorso di ciclocross in autunno: illustrazione degli Europei di Zeddam, non una foto di una maglia nazionale.",
+      "prompt": "Bici infangate lungo un percorso di ciclocross in autunno: illustrazione degli Europei di Zeddam, non una foto di una maglia nazionale. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/europei-ciclocross-zeddam-8-novembre-2026-programma-v1392-480.webp",
+          "bytes": 57060,
+          "sha256": "4f18aee58c75d70a8c8e4c6644ad645fc19995dd2f5153abcf63ef7382c054f0"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/europei-ciclocross-zeddam-8-novembre-2026-programma-v1392-800.webp",
+          "bytes": 143378,
+          "sha256": "c9e970bb68000f21f368cd16f7e718c58c42b3a7ad2b37cfc68da1fdcabd897c"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/europei-ciclocross-zeddam-8-novembre-2026-programma-v1392-1200.webp",
+          "bytes": 284648,
+          "sha256": "366b94aa42b77463f0201e68c3717562918dc5e3a8ab8f8e11b883467c7cf0bc"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/europei-ciclocross-zeddam-8-novembre-2026-programma.html"
+    },
+    {
+      "key": "ciclocross-tarsia-trofeo-il-riccio-8-novembre-2026-v1392",
+      "alt": "Bici da ciclocross su un percorso sterrato tra ulivi e colline: illustrazione della gara di Tarsia, non una foto dei partenti.",
+      "prompt": "Bici da ciclocross su un percorso sterrato tra ulivi e colline: illustrazione della gara di Tarsia, non una foto dei partenti. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ciclocross-tarsia-trofeo-il-riccio-8-novembre-2026-v1392-480.webp",
+          "bytes": 44058,
+          "sha256": "6ab3864bdfb425514df791f2ff192ec5972f707102353a2e60cda9ed5007eb49"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ciclocross-tarsia-trofeo-il-riccio-8-novembre-2026-v1392-800.webp",
+          "bytes": 122642,
+          "sha256": "c5adddc680d94852ed114f7aaa3b5905cca082e223c41bdf6bdc0ff712f575c1"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ciclocross-tarsia-trofeo-il-riccio-8-novembre-2026-v1392-1200.webp",
+          "bytes": 268994,
+          "sha256": "fa5104b17d67c4e939bb4db398db9f9fd66ae6086a4c014417f5338195679534"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/ciclocross-tarsia-trofeo-il-riccio-8-novembre-2026.html"
+    },
+    {
+      "key": "premier-league-8-novembre-2026-orari-tv-italia-v1392",
+      "alt": "Stadio con seggiolini rossi e un pallone sul corner: illustrazione della domenica di Premier, non uno stadio identificato.",
+      "prompt": "Stadio con seggiolini rossi e un pallone sul corner: illustrazione della domenica di Premier, non uno stadio identificato. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/premier-league-8-novembre-2026-orari-tv-italia-v1392-480.webp",
+          "bytes": 42390,
+          "sha256": "a9d9e026c76f548fee0fcc3b2e094fbad60ccb6e684bba53a421f44cd9c83b67"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/premier-league-8-novembre-2026-orari-tv-italia-v1392-800.webp",
+          "bytes": 122718,
+          "sha256": "86b5ec4f765ba02b87a0bf6798f037287e910db25e6c537a2775bd6b6a524c26"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/premier-league-8-novembre-2026-orari-tv-italia-v1392-1200.webp",
+          "bytes": 275208,
+          "sha256": "4b3fb8299faf25e866e29597f5c7256ae66327e96bb73cd362d61de5467aead4"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/premier-league-8-novembre-2026-orari-tv-italia.html"
+    },
+    {
+      "key": "wec-6-ore-monza-8-novembre-2026-orario-tv-v1392",
+      "alt": "Prototipo da endurance fermo ai box di un circuito con il tricolore: illustrazione della 6 Ore di Monza, non la vettura ufficiale di un equipaggio.",
+      "prompt": "Prototipo da endurance fermo ai box di un circuito con il tricolore: illustrazione della 6 Ore di Monza, non la vettura ufficiale di un equipaggio. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/wec-6-ore-monza-8-novembre-2026-orario-tv-v1392-480.webp",
+          "bytes": 29364,
+          "sha256": "6ea16cab04cb16d71d499d4739bb186dbc4f347ec54194ef74961df1c5a0526e"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/wec-6-ore-monza-8-novembre-2026-orario-tv-v1392-800.webp",
+          "bytes": 79098,
+          "sha256": "48749758468b3b055d0c089315c0a385613e8156417e9e8f07d9051eabdabbd7"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/wec-6-ore-monza-8-novembre-2026-orario-tv-v1392-1200.webp",
+          "bytes": 163738,
+          "sha256": "3e3f88af08ba9386b8f113d391ec349d7ea19bfd0d7083caff85cd41b06853a9"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/wec-6-ore-monza-8-novembre-2026-orario-tv.html"
+    },
+    {
+      "key": "liga-8-novembre-2026-atletico-barcellona-tv-italia-v1392",
+      "alt": "Stadio diviso tra sciarpe biancorosse e blaugrana: illustrazione di Atletico-Barcellona, non una foto documentaria.",
+      "prompt": "Stadio diviso tra sciarpe biancorosse e blaugrana: illustrazione di Atletico-Barcellona, non una foto documentaria. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/liga-8-novembre-2026-atletico-barcellona-tv-italia-v1392-480.webp",
+          "bytes": 43788,
+          "sha256": "100a67b5c8aef64e1eb1081d3aae602a7e598cc482b9e5825920c5dfd545cd16"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/liga-8-novembre-2026-atletico-barcellona-tv-italia-v1392-800.webp",
+          "bytes": 118640,
+          "sha256": "d4acfb62cb98986af31fd7f2565072fbf90152d3924cb238b00b55e4a54a4069"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/liga-8-novembre-2026-atletico-barcellona-tv-italia-v1392-1200.webp",
+          "bytes": 257652,
+          "sha256": "f45c24f554da059b674a5f6df5d5abd1d60693e263eeb73f2cbb61839f02817b"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/liga-8-novembre-2026-atletico-barcellona-tv-italia.html"
+    },
+    {
+      "key": "motogp-qatar-pole-bezzecchi-griglia-8-novembre-2026-v1392",
+      "alt": "Moto da corsa ferma in pit lane di notte, con il cartello Qatar sullo sfondo: illustrazione della pole, non la moto di un pilota identificato.",
+      "prompt": "Moto da corsa ferma in pit lane di notte, con il cartello Qatar sullo sfondo: illustrazione della pole, non la moto di un pilota identificato. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/motogp-qatar-pole-bezzecchi-griglia-8-novembre-2026-v1392-480.webp",
+          "bytes": 28518,
+          "sha256": "3cd3c44ab11b841d5a6f49da169a6d954e4cfdf13ec5329ae7138fc67fb2f0ac"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/motogp-qatar-pole-bezzecchi-griglia-8-novembre-2026-v1392-800.webp",
+          "bytes": 68040,
+          "sha256": "5d6b7d068fd68e236d22886f27a4b21e22c7fbf8a199292f24de13826c19786b"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/motogp-qatar-pole-bezzecchi-griglia-8-novembre-2026-v1392-1200.webp",
+          "bytes": 139080,
+          "sha256": "3900834ac5666def584f9bb2d66d38b944a69e2ecf12f5ed8bf9c695f89e90a4"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/motogp-qatar-pole-bezzecchi-griglia-8-novembre-2026.html"
+    },
+    {
+      "key": "motogp-qatar-sprint-marquez-vince-7-novembre-2026-v1392",
+      "alt": "Tre moto in pista di notte sotto i riflettori: illustrazione della Sprint di Lusail, non un fotofinish ufficiale.",
+      "prompt": "Tre moto in pista di notte sotto i riflettori: illustrazione della Sprint di Lusail, non un fotofinish ufficiale. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/motogp-qatar-sprint-marquez-vince-7-novembre-2026-v1392-480.webp",
+          "bytes": 14806,
+          "sha256": "da3172b8b41f26bfff396ee9ae319d05e97b03738b72399b6c37397a74335863"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/motogp-qatar-sprint-marquez-vince-7-novembre-2026-v1392-800.webp",
+          "bytes": 38202,
+          "sha256": "255ec64c26f935efe40fdf13cdf09c8d48f5bec4e2945df7f9b0cf9d0f24f1e1"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/motogp-qatar-sprint-marquez-vince-7-novembre-2026-v1392-1200.webp",
+          "bytes": 80940,
+          "sha256": "9958c42e837a80d2d16196a4c37ff519b6c1cfb32c9c3ce456e4139e116f2900"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/motogp-qatar-sprint-marquez-vince-7-novembre-2026.html"
+    },
+    {
+      "key": "italia-sudafrica-rugby-7-66-nations-championship-2026-v1392",
+      "alt": "Spogliatoio con una maglia azzurra e una maglia verde e un pallone da rugby: illustrazione di Italia-Sudafrica, non una foto della partita.",
+      "prompt": "Spogliatoio con una maglia azzurra e una maglia verde e un pallone da rugby: illustrazione di Italia-Sudafrica, non una foto della partita. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/italia-sudafrica-rugby-7-66-nations-championship-2026-v1392-480.webp",
+          "bytes": 22436,
+          "sha256": "e142614efc6c9cb54c6d32a82eaa232d0b8a21e20760ac4ffbd38d5a8586637d"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/italia-sudafrica-rugby-7-66-nations-championship-2026-v1392-800.webp",
+          "bytes": 55266,
+          "sha256": "bf21720c99ae59f51f8a7e947036eb6257f335304ed318affddfd2ebabe49e6a"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/italia-sudafrica-rugby-7-66-nations-championship-2026-v1392-1200.webp",
+          "bytes": 117888,
+          "sha256": "437f85a381309d50f3a3f00c4057ac1732f175ef59cc970ac5c2937f91165729"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/italia-sudafrica-rugby-7-66-nations-championship-2026.html"
+    },
+    {
+      "key": "bagnaia-salta-gp-qatar-fratture-piede-8-novembre-2026-v1392",
+      "alt": "Moto coperta da un telo in un box rosso: illustrazione dell’assenza di Bagnaia, non una foto del pilota.",
+      "prompt": "Moto coperta da un telo in un box rosso: illustrazione dell’assenza di Bagnaia, non una foto del pilota. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/bagnaia-salta-gp-qatar-fratture-piede-8-novembre-2026-v1392-480.webp",
+          "bytes": 25626,
+          "sha256": "9b8e7e22c4ff8f51755a1584dc31095f8bfd550bd32b07b8bf2221d7f2bf379d"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/bagnaia-salta-gp-qatar-fratture-piede-8-novembre-2026-v1392-800.webp",
+          "bytes": 57184,
+          "sha256": "f5dc2a344a510bd6b2868d32ba7020db888712afce652a5b9a5f37a86c4aa5ac"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/bagnaia-salta-gp-qatar-fratture-piede-8-novembre-2026-v1392-1200.webp",
+          "bytes": 113062,
+          "sha256": "630e6c939285671ea4a4370dd93f7e4fee2cc93cbc3307999ba9be9db5f2317b"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/bagnaia-salta-gp-qatar-fratture-piede-8-novembre-2026.html"
+    },
+    {
+      "key": "ufc-fight-night-cortes-acosta-walker-orari-italiani-7-8-novembre-2026-v1392",
+      "alt": "Gabbia ottagonale vuota con i guantoni sul bordo: illustrazione della serata UFC, non un fermo immagine del combattimento.",
+      "prompt": "Gabbia ottagonale vuota con i guantoni sul bordo: illustrazione della serata UFC, non un fermo immagine del combattimento. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ufc-fight-night-cortes-acosta-walker-orari-italiani-7-8-novembre-2026-v1392-480.webp",
+          "bytes": 29796,
+          "sha256": "7e06534b268f02aa02bbbd3fe46a16bbf4850398c2397e87d6e77290b801e332"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ufc-fight-night-cortes-acosta-walker-orari-italiani-7-8-novembre-2026-v1392-800.webp",
+          "bytes": 79242,
+          "sha256": "6a3a703b64fd17bf5d7b3e7d5a6cb4e251d34ac6ff52e18ca51ca88e1b1d1178"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ufc-fight-night-cortes-acosta-walker-orari-italiani-7-8-novembre-2026-v1392-1200.webp",
+          "bytes": 166858,
+          "sha256": "b19a82793c13e5111edc2b56ef4e18a30b790c56deebd705008e4381a57acecf"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/ufc-fight-night-cortes-acosta-walker-orari-italiani-7-8-novembre-2026.html"
+    },
+    {
+      "key": "paris-masters-finale-alcaraz-shelton-8-novembre-2026-v1392",
+      "alt": "Campo da tennis indoor con la torre Eiffel sullo sfondo: illustrazione della finale del Paris Masters, non una fotografia dell’impianto.",
+      "prompt": "Campo da tennis indoor con la torre Eiffel sullo sfondo: illustrazione della finale del Paris Masters, non una fotografia dell’impianto. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/paris-masters-finale-alcaraz-shelton-8-novembre-2026-v1392-480.webp",
+          "bytes": 22208,
+          "sha256": "f80a780a28d531b47fa90cd4496bcad86154df3e113410b0863afec5698412cc"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/paris-masters-finale-alcaraz-shelton-8-novembre-2026-v1392-800.webp",
+          "bytes": 61996,
+          "sha256": "a3faf80b149b35b37a893a748b35e9ab9dd205789c8ab44588fd928ba32a93ca"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/paris-masters-finale-alcaraz-shelton-8-novembre-2026-v1392-1200.webp",
+          "bytes": 138658,
+          "sha256": "fdbf5db7b7de433e876417388fe5f7de20a344ab0e2457b499795e4010f76987"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/paris-masters-finale-alcaraz-shelton-8-novembre-2026.html"
+    },
+    {
+      "key": "errani-paolini-wta-finals-doppio-2026-qualificate-v1392",
+      "alt": "Campo da tennis al tramonto, con palme e due racchette in primo piano: illustrazione della sessione di doppio, non una foto delle giocatrici.",
+      "prompt": "Campo da tennis al tramonto, con palme e due racchette in primo piano: illustrazione della sessione di doppio, non una foto delle giocatrici. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/errani-paolini-wta-finals-doppio-2026-qualificate-v1392-480.webp",
+          "bytes": 28014,
+          "sha256": "84f028beeeccba7e7c02d17003f3651869d191c71a4086b336a4a1ee8705815a"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/errani-paolini-wta-finals-doppio-2026-qualificate-v1392-800.webp",
+          "bytes": 76732,
+          "sha256": "427c18028afa96fb79c466098c81a12894801df23568441e86d2f6037ababd97"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/errani-paolini-wta-finals-doppio-2026-qualificate-v1392-1200.webp",
+          "bytes": 167034,
+          "sha256": "33955b266b05d696388642a743e99e885a42d2d35ec4b2cf9425b3bdc3c3199e"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/errani-paolini-wta-finals-doppio-2026-qualificate.html"
+    },
+    {
+      "key": "italia-31-convocati-francia-belgio-nations-league-biglietti-san-siro-2026-v1392",
+      "alt": "Spogliatoio della Nazionale con una maglia azzurra appesa: illustrazione della convocazione, non un ritratto dei calciatori.",
+      "prompt": "Spogliatoio della Nazionale con una maglia azzurra appesa: illustrazione della convocazione, non un ritratto dei calciatori. Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/italia-31-convocati-francia-belgio-nations-league-biglietti-san-siro-2026-v1392-480.webp",
+          "bytes": 19914,
+          "sha256": "70522823c8c88adb2f9cc5f195d8f199da63b44de2190515c54b8a04d08ba96f"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/italia-31-convocati-francia-belgio-nations-league-biglietti-san-siro-2026-v1392-800.webp",
+          "bytes": 45188,
+          "sha256": "794c9a4e49c698601391ae8aa3733a96b2dc4adc94555953822251d4ac722d2e"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/italia-31-convocati-francia-belgio-nations-league-biglietti-san-siro-2026-v1392-1200.webp",
+          "bytes": 88116,
+          "sha256": "764d26653f8730fe108f1f3b9e9dc4e1ef507987bf91aa12309294687c9a9037"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
+      "article": "/notizie/italia-31-convocati-francia-belgio-nations-league-biglietti-san-siro-2026.html"
+    },
+    {
       "key": "sistema-educativo-zero-sei-piano-2026-2030-fondi-gestione-v1392",
       "alt": "Illustrazione editoriale IA non documentaria di un ambiente educativo per la prima infanzia, con arredi e materiali didattici.",
       "prompt": "Illustrazione editoriale IA non documentaria di un ambiente educativo per la prima infanzia, con arredi e materiali didattici. Illustrazione editoriale fotorealistica, non documentaria.",
