@@ -3,6 +3,376 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "serie-a-11-giornata-6-8-novembre-2026-orari-tv-v1402",
+      "alt": "Giocatori di Fiorentina e Juventus in posa neutra prima della partita serale",
+      "prompt": "Giocatori di Fiorentina e Juventus in posa neutra prima della partita serale Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/serie-a-11-giornata-6-8-novembre-2026-orari-tv-v1402-480.webp",
+          "bytes": 15880,
+          "sha256": "1cd00fb0569c8ad8b28e2912aa5ff29134f1d0a50e2494dab16158c361f2b93a"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/serie-a-11-giornata-6-8-novembre-2026-orari-tv-v1402-800.webp",
+          "bytes": 31654,
+          "sha256": "1a8b3b9dee69a126696876ec0bc7c2403ef7b0e3dfeccdb38d883b4f9dc2369d"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/serie-a-11-giornata-6-8-novembre-2026-orari-tv-v1402-1200.webp",
+          "bytes": 56646,
+          "sha256": "7930dd785f4e2e71ca4163833fa0fc5f5325713e078d7d5bb5d43dc9a1e81ac5"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/serie-a-11-giornata-6-8-novembre-2026-orari-tv.html"
+    },
+    {
+      "key": "premier-league-8-novembre-2026-orari-tv-italia-v1402",
+      "alt": "Giocatori di Manchester United e Aston Villa in posa neutra sul campo",
+      "prompt": "Giocatori di Manchester United e Aston Villa in posa neutra sul campo Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/premier-league-8-novembre-2026-orari-tv-italia-v1402-480.webp",
+          "bytes": 17146,
+          "sha256": "b02b1901e7d0192fb4cd1434ba3be0eded830634908242d6776b4ecd22b021c4"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/premier-league-8-novembre-2026-orari-tv-italia-v1402-800.webp",
+          "bytes": 35802,
+          "sha256": "9bb26fe66b2020939c5b94f280ff7a004f7c399496a133c8cdc06d999dfbda23"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/premier-league-8-novembre-2026-orari-tv-italia-v1402-1200.webp",
+          "bytes": 64636,
+          "sha256": "ef712bf8218b0733f756304bb77285c11525073597e5e10cd57aa62291a95f03"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/premier-league-8-novembre-2026-orari-tv-italia.html"
+    },
+    {
+      "key": "bundesliga-8-novembre-2026-orari-tv-italia-v1402",
+      "alt": "Giocatori di Colonia e Bayer Leverkusen in posa neutra prima della gara",
+      "prompt": "Giocatori di Colonia e Bayer Leverkusen in posa neutra prima della gara Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/bundesliga-8-novembre-2026-orari-tv-italia-v1402-480.webp",
+          "bytes": 18084,
+          "sha256": "66d3e0e02647213799825332ff0604237378fd22eccf1c33156718133a8b61ab"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/bundesliga-8-novembre-2026-orari-tv-italia-v1402-800.webp",
+          "bytes": 37990,
+          "sha256": "ebd0859cd086a9a08be39be8359161d4ca58fc7384235d0a7d3abfab349cb753"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/bundesliga-8-novembre-2026-orari-tv-italia-v1402-1200.webp",
+          "bytes": 68818,
+          "sha256": "4651de15f5c22352742bc5a271946a0eb5d9346fbf8c380bec61131131cead7d"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/bundesliga-8-novembre-2026-orari-tv-italia.html"
+    },
+    {
+      "key": "liga-8-novembre-2026-atletico-barcellona-tv-italia-v1402",
+      "alt": "Antoine Griezmann e Lamine Yamal in posa neutra prima di Atletico Madrid-Barcellona",
+      "prompt": "Antoine Griezmann e Lamine Yamal in posa neutra prima di Atletico Madrid-Barcellona Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/liga-8-novembre-2026-atletico-barcellona-tv-italia-v1402-480.webp",
+          "bytes": 18996,
+          "sha256": "26eb8848cb44c1016bdfef01031b3087fa3403cecc92f1888a4ebb343affde5e"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/liga-8-novembre-2026-atletico-barcellona-tv-italia-v1402-800.webp",
+          "bytes": 41700,
+          "sha256": "4b58decf1b682aafe8c3ab6e23279270d62f123d5aa0fff3e8be7ad29ef1358e"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/liga-8-novembre-2026-atletico-barcellona-tv-italia-v1402-1200.webp",
+          "bytes": 77406,
+          "sha256": "cf13b69b40a03004bc7318099426153ca6e52b2058b3ed3ade8172b16a714821"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/liga-8-novembre-2026-atletico-barcellona-tv-italia.html"
+    },
+    {
+      "key": "f1-gp-san-paolo-8-novembre-2026-orario-tv-v1402",
+      "alt": "Lando Norris in posa neutra accanto alla McLaren sul circuito bagnato di Interlagos",
+      "prompt": "Lando Norris in posa neutra accanto alla McLaren sul circuito bagnato di Interlagos Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/f1-gp-san-paolo-8-novembre-2026-orario-tv-v1402-480.webp",
+          "bytes": 26348,
+          "sha256": "c53fd48e35d2865b1f64e849b4320c3b2bb3607c27806dbaa1c97bacaf07d506"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/f1-gp-san-paolo-8-novembre-2026-orario-tv-v1402-800.webp",
+          "bytes": 52466,
+          "sha256": "e53501c9ce53dc0080778e3801aad2813cd0dd3267eb14c3f4bfbe2940d2e3f7"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/f1-gp-san-paolo-8-novembre-2026-orario-tv-v1402-1200.webp",
+          "bytes": 88512,
+          "sha256": "7ada1ac581c679871652b964e7d23c29ed49d8d589a8c678b92fb511472c60d6"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/f1-gp-san-paolo-8-novembre-2026-orario-tv.html"
+    },
+    {
+      "key": "motogp-qatar-8-novembre-2026-orario-tv-v1402",
+      "alt": "Marco Bezzecchi in posa neutra accanto alla sua Aprilia MotoGP nel paddock di Lusail",
+      "prompt": "Marco Bezzecchi in posa neutra accanto alla sua Aprilia MotoGP nel paddock di Lusail Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/motogp-qatar-8-novembre-2026-orario-tv-v1402-480.webp",
+          "bytes": 24550,
+          "sha256": "689c70b9a8e6193a20d5a64500f534946a355543f8ce72693328db1cfd725b4d"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/motogp-qatar-8-novembre-2026-orario-tv-v1402-800.webp",
+          "bytes": 52390,
+          "sha256": "50e6f88590480d3158bea5f9ec528e9cc55b595ac9315c912204578a1f5e314d"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/motogp-qatar-8-novembre-2026-orario-tv-v1402-1200.webp",
+          "bytes": 92642,
+          "sha256": "af6921ab5ddf41c505dd3f257bd14e94ae318df29307e0e60c67fb77a9edbd9e"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/motogp-qatar-8-novembre-2026-orario-tv.html"
+    },
+    {
+      "key": "paris-masters-finale-alcaraz-shelton-8-novembre-2026-v1402",
+      "alt": "Carlos Alcaraz in posa neutra con la racchetta su un campo indoor di Parigi",
+      "prompt": "Carlos Alcaraz in posa neutra con la racchetta su un campo indoor di Parigi Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/paris-masters-finale-alcaraz-shelton-8-novembre-2026-v1402-480.webp",
+          "bytes": 11308,
+          "sha256": "3f58417fd96a47a91fb181764894071ce79eda44894ea0a88b2da690ec0942d4"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/paris-masters-finale-alcaraz-shelton-8-novembre-2026-v1402-800.webp",
+          "bytes": 23938,
+          "sha256": "212fed568d706698838b1ef1eda529283c21cd81975602955bb2d78573e9542b"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/paris-masters-finale-alcaraz-shelton-8-novembre-2026-v1402-1200.webp",
+          "bytes": 44214,
+          "sha256": "1f37eba3752d428cc1c89611b156a63b356ceb904d83d5b71ee2953d691c2fcf"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/paris-masters-finale-alcaraz-shelton-8-novembre-2026.html"
+    },
+    {
+      "key": "wec-6-ore-monza-8-novembre-2026-orario-tv-v1402",
+      "alt": "Cadillac Hypercar numero 38 in posa neutra nella corsia box di Monza",
+      "prompt": "Cadillac Hypercar numero 38 in posa neutra nella corsia box di Monza Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/wec-6-ore-monza-8-novembre-2026-orario-tv-v1402-480.webp",
+          "bytes": 27724,
+          "sha256": "c3a1121592de9a8f5019de5afb5f4d36ee224002735d35324ea2e53ce1e21f00"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/wec-6-ore-monza-8-novembre-2026-orario-tv-v1402-800.webp",
+          "bytes": 61240,
+          "sha256": "cf045866816aec91834498b9cc509c3f1cc5b5b740aec19cdd112ee114c59f96"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/wec-6-ore-monza-8-novembre-2026-orario-tv-v1402-1200.webp",
+          "bytes": 112580,
+          "sha256": "a8742e37f5e093a39cfd3ed0721f0f0909e6017d449337ca6e3200f497a0d142"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/wec-6-ore-monza-8-novembre-2026-orario-tv.html"
+    },
+    {
+      "key": "superlega-volley-8-novembre-2026-orari-classifica-tv-v1402",
+      "alt": "Giocatori di Itas Trentino e Sir Perugia in posa neutra ai lati della rete",
+      "prompt": "Giocatori di Itas Trentino e Sir Perugia in posa neutra ai lati della rete Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/superlega-volley-8-novembre-2026-orari-classifica-tv-v1402-480.webp",
+          "bytes": 19378,
+          "sha256": "848e479f3024e641e4f7b4e161fdac7ebd475724e49f7602b8b7a5e6ed920d79"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/superlega-volley-8-novembre-2026-orari-classifica-tv-v1402-800.webp",
+          "bytes": 39696,
+          "sha256": "145ef613df91c19ee0e0b196197a2d854b2e5f2f855694ad2243711fe974ceb5"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/superlega-volley-8-novembre-2026-orari-classifica-tv-v1402-1200.webp",
+          "bytes": 69748,
+          "sha256": "48c8f5dce8de57484053b3c5f53f78726fc7cc809ee5fa80b90a5eb5743a4f58"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/superlega-volley-8-novembre-2026-orari-classifica-tv.html"
+    },
+    {
+      "key": "lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1402",
+      "alt": "Giocatori di Olimpia Milano e Dolomiti Energia Trentino in posa neutra durante il riscaldamento",
+      "prompt": "Giocatori di Olimpia Milano e Dolomiti Energia Trentino in posa neutra durante il riscaldamento Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1402-480.webp",
+          "bytes": 17000,
+          "sha256": "723d54505829e62d294f11ab741c1362bcfaba743421f00bf42a67b28a071b9b"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1402-800.webp",
+          "bytes": 33476,
+          "sha256": "fdc683c5dab4b5696daeef9d30dc861010b4f00e8e581cc6f53d23ffe55625b6"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1402-1200.webp",
+          "bytes": 57606,
+          "sha256": "6bc6c174d63482679dc1d3a8cacf65a20a7bd839a13dee86f95607d29f1791bb"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/lba-serie-a-basket-8-novembre-2026-orari-lbatv.html"
+    },
+    {
       "key": "risalgo-bonus-occupazione-proroga-30-aprile-2027-v1401",
       "alt": "Illustrazione editoriale fotorealistica relativa a RI-SALGO, domande prorogate al 30 aprile 2027: chi può chiedere il bonus",
       "prompt": "Illustrazione editoriale fotorealistica relativa a RI-SALGO, domande prorogate al 30 aprile 2027: chi può chiedere il bonus Illustrazione editoriale fotorealistica, non documentaria.",
@@ -94838,6 +95208,156 @@
     }
   ],
   "images": [
+    {
+      "slug": "serie-a-11-giornata-6-8-novembre-2026-orari-tv",
+      "version": 1402,
+      "path": "/assets/images/editorial-auto/serie-a-11-giornata-6-8-novembre-2026-orari-tv-v1402-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-08",
+      "alt": "Giocatori di Fiorentina e Juventus in posa neutra prima della partita serale"
+    },
+    {
+      "slug": "premier-league-8-novembre-2026-orari-tv-italia",
+      "version": 1402,
+      "path": "/assets/images/editorial-auto/premier-league-8-novembre-2026-orari-tv-italia-v1402-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-08",
+      "alt": "Giocatori di Manchester United e Aston Villa in posa neutra sul campo"
+    },
+    {
+      "slug": "bundesliga-8-novembre-2026-orari-tv-italia",
+      "version": 1402,
+      "path": "/assets/images/editorial-auto/bundesliga-8-novembre-2026-orari-tv-italia-v1402-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-08",
+      "alt": "Giocatori di Colonia e Bayer Leverkusen in posa neutra prima della gara"
+    },
+    {
+      "slug": "liga-8-novembre-2026-atletico-barcellona-tv-italia",
+      "version": 1402,
+      "path": "/assets/images/editorial-auto/liga-8-novembre-2026-atletico-barcellona-tv-italia-v1402-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-08",
+      "alt": "Antoine Griezmann e Lamine Yamal in posa neutra prima di Atletico Madrid-Barcellona"
+    },
+    {
+      "slug": "f1-gp-san-paolo-8-novembre-2026-orario-tv",
+      "version": 1402,
+      "path": "/assets/images/editorial-auto/f1-gp-san-paolo-8-novembre-2026-orario-tv-v1402-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-08",
+      "alt": "Lando Norris in posa neutra accanto alla McLaren sul circuito bagnato di Interlagos"
+    },
+    {
+      "slug": "motogp-qatar-8-novembre-2026-orario-tv",
+      "version": 1402,
+      "path": "/assets/images/editorial-auto/motogp-qatar-8-novembre-2026-orario-tv-v1402-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-08",
+      "alt": "Marco Bezzecchi in posa neutra accanto alla sua Aprilia MotoGP nel paddock di Lusail"
+    },
+    {
+      "slug": "paris-masters-finale-alcaraz-shelton-8-novembre-2026",
+      "version": 1402,
+      "path": "/assets/images/editorial-auto/paris-masters-finale-alcaraz-shelton-8-novembre-2026-v1402-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-08",
+      "alt": "Carlos Alcaraz in posa neutra con la racchetta su un campo indoor di Parigi"
+    },
+    {
+      "slug": "wec-6-ore-monza-8-novembre-2026-orario-tv",
+      "version": 1402,
+      "path": "/assets/images/editorial-auto/wec-6-ore-monza-8-novembre-2026-orario-tv-v1402-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-08",
+      "alt": "Cadillac Hypercar numero 38 in posa neutra nella corsia box di Monza"
+    },
+    {
+      "slug": "superlega-volley-8-novembre-2026-orari-classifica-tv",
+      "version": 1402,
+      "path": "/assets/images/editorial-auto/superlega-volley-8-novembre-2026-orari-classifica-tv-v1402-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-08",
+      "alt": "Giocatori di Itas Trentino e Sir Perugia in posa neutra ai lati della rete"
+    },
+    {
+      "slug": "lba-serie-a-basket-8-novembre-2026-orari-lbatv",
+      "version": 1402,
+      "path": "/assets/images/editorial-auto/lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1402-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-08",
+      "alt": "Giocatori di Olimpia Milano e Dolomiti Energia Trentino in posa neutra durante il riscaldamento"
+    },
     {
       "slug": "risalgo-bonus-occupazione-proroga-30-aprile-2027",
       "version": 1401,
