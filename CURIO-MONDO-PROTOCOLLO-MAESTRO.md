@@ -14,7 +14,7 @@ Non si pubblica un secondo articolo se il fatto è già sul sito. Vale anche per
 
 Si legge `.art-body` e si cancellano, in qualunque variante, «questo testo aggiorna», «senza creare un secondo URL», «questa pagina», «lo stesso indirizzo», «questo articolo integra», «CurioMondo aggiorna» o «aggiornerà», «elementi sostanziali», «voci che saranno escluse». Se nello stesso paragrafo c’è un fatto, il fatto resta. Non si inventa e non si apre un secondo articolo. `datePublished` non si sposta. Title, meta, canonical e JSON-LD non si toccano.
 
-Non è errore «l’azienda ha già pubblicato il programma» o «il sito del ministero». Se il caso è dubbio, la frase non si pubblica e si segnala. Il pezzo non esce finché nel corpo resta una nota di metodo. Dettaglio: `automation/prompts/divieto-note-di-metodo.txt`.
+Non è errore «l’azienda ha già pubblicato il programma» o «il sito del ministero». Se il caso è dubbio, la frase non si pubblica e si segnala. Il pezzo non esce finché nel corpo resta una nota di metodo. In chat, dopo ogni pacchetto, si dice solo il vero: note di metodo corrette, con il numero e i file, oppure nessuna trovata. Non si dichiara «nessuna» senza aver letto i corpi. Dettaglio: `automation/prompts/divieto-note-di-metodo.txt`.
 
 ## Titoli con curiosità veritiera e professionale — 2 ottobre 2026
 
