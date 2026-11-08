@@ -1,24 +1,27 @@
 CURIOMONDO — DIVIETO DI PUBBLICARE DUPLICATI
-Ordine del proprietario, 18 ottobre 2026. Prevale su ogni regola più larga che chiami «nuovo» un pezzo solo perché cambia l’angolazione, il titolo o qualche dettaglio di contorno.
+Ordine del proprietario, 18 ottobre 2026, rafforzato l’8 novembre 2026. Prevale su ogni regola più larga che chiami «nuovo» un pezzo solo perché cambia l’angolazione, il titolo, la lunghezza o qualche dettaglio di contorno.
 
-Prima di scrivere e prima di pubblicare, confrontare il fatto con tutte le notizie già online, non solo con lo slug. Leggere i titoli in `notizie/` e in `assets/data/home-feed-v210.json`.
+CONTROLLO RIGOROSO — 8 novembre 2026. È il primo filtro, prima di immagini, categoria e homepage. Non basta lo slug e non basta `duplicate_of`.
 
-NON PUBBLICARE se la notizia è già sul sito. È un duplicato, anche con titolo diverso, quando:
+Prima di pubblicare un pacchetto si legge per intero ogni articolo in arrivo e lo si confronta con le notizie già online: titoli, aperture e fatti in `notizie/` e in `assets/data/home-feed-v210.json`. Il confronto è sul fatto, sul luogo e sul giorno, non sul nome del file.
 
-- la stessa partita, lo stesso evento o lo stesso fatto è già raccontato;
-- esiste già un’anteprima di quella partita o di quell’appuntamento e il pezzo nuovo è un’altra anteprima (orario, arbitro, precedenti, formazioni);
-- esiste già il risultato e il pezzo nuovo ripete lo stesso punteggio. Esempio vietato: due articoli su Roma-Genoa 2-0;
-- il testo ripete gli stessi fatti con altre parole, un altro titolo o dettagli secondari già presenti nel pezzo online.
+È un duplicato, e non si pubblica, quando:
+
+- lo stesso fatto, la stessa partita, lo stesso evento o lo stesso risultato è già sul sito, anche con un altro titolo;
+- il pezzo nuovo è solo una riscrittura, più corta o più lunga, degli stessi fatti;
+- cambia l’angolo, l’ordine dei paragrafi o un dettaglio secondario già presente;
+- esiste già un’anteprima di quella partita o di quell’appuntamento e il pezzo nuovo è un’altra anteprima (orario, arbitro, precedenti, formazioni).
+
+In dubbio fra un secondo articolo e un aggiornamento: aggiornare. Un secondo pezzo esce solo se quel fatto non è ancora sul sito.
+
+Si aggiorna l’articolo già online, stesso indirizzo, solo se arriva un fatto nuovo e verificato: un bilancio che cambia, un orario, una decisione, un numero ufficiale, un esito. La novità va in apertura. L’ora della prima pubblicazione non si sposta. Una riscrittura senza quel fatto nuovo non è un aggiornamento.
+
+A pubblicazione fatta si dice sempre quanti pezzi sono nuovi e quanti sono aggiornamenti. I duplicati scartati si nominano.
 
 ORARIO GIÀ PASSATO — non si pubblica. Un’anteprima, una diretta, un orario o un programma non escono se l’appuntamento è già cominciato o è già finito. Esempio vietato: «Napoli-Olimpia alle 12» pubblicato alle 13:44. Se il referto ufficiale c’è, si pubblica il risultato, oppure si aggiorna il pezzo già online. Se il referto non c’è, non si pubblica e non si inventa il punteggio.
 
-Si pubblica un articolo nuovo solo se quel fatto non è ancora sul sito. Il risultato dopo un’anteprima, un punteggio diverso, una decisione nuova o una conseguenza nuova sono sviluppi: non diventano un secondo articolo.
-
-AGGIORNAMENTI — obbligatori. Se la notizia è già online e arrivano informazioni nuove e verificate, si aggiorna quel pezzo. Non se ne apre un altro. Si tiene lo stesso indirizzo. Si aggiungono i fatti nuovi e si correggono quelli superati. L’ora della prima pubblicazione non si sposta. In homepage la card porta «aggiornamento» in rosso e risale con l’ora dell’aggiornamento. Nome e frase in fondo all’articolo restano quelli della prima pubblicazione.
+AGGIORNAMENTI — obbligatori quando il fatto è nuovo. Si tiene lo stesso indirizzo. Si aggiungono i fatti nuovi e si correggono quelli superati. In homepage la card porta «aggiornamento» in rosso e risale con l’ora dell’aggiornamento. Nome e frase in fondo all’articolo restano quelli della prima pubblicazione.
 
 Il lettore non deve mai leggere come è fatto il sito. Nel corpo è vietato scrivere di URL, di «questa pagina», di «questa stessa pagina», di «CurioMondo aggiornerà», di «elementi sostanziali» futuri, di voci che «saranno escluse», o formule come «Aggiornamento del [data]. Questo articolo integra gli sviluppi mantenendo la URL originale.» L’articolo racconta solo i fatti. Il badge rosso sulla card basta. Se una bozza contiene una di queste frasi, si eliminano e l’articolo si pubblica. Non si ferma la notizia.
 
-In dubbio fra un secondo articolo e un aggiornamento: aggiornare. Un secondo pezzo si pubblica solo quando il fatto non esiste ancora sul sito.
-
-
-Il renderer rifiuta da solo la seconda anteprima della stessa partita e la ripetizione dello stesso risultato (`duplicate_of` in `automation/newsroom/site.py`). Un rifiuto del renderer non si aggira con un altro slug.
+Il renderer rifiuta da solo la seconda anteprima della stessa partita e la ripetizione dello stesso risultato (`duplicate_of` in `automation/newsroom/site.py`). Quel controllo non sostituisce la lettura. Un rifiuto del renderer non si aggira con un altro slug.

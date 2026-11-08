@@ -1,5 +1,13 @@
 # CURIO MONDO — PROTOCOLLO MAESTRO EDITORIALE E TECNICO
 
+## Controllo rigoroso dei duplicati — 8 novembre 2026
+
+**Stato:** obbligatorio, primo filtro prima di immagini, categoria e homepage. Prevale sulle formule più larghe che chiamino «nuovo» un pezzo solo perché cambia titolo, angolo o lunghezza.
+
+Prima di pubblicare si legge per intero ogni articolo del pacchetto e lo si confronta con le notizie già online, in `notizie/` e in `assets/data/home-feed-v210.json`. Il confronto è sul fatto, sul luogo e sul giorno. Lo slug e `duplicate_of` non bastano.
+
+Non si pubblica un secondo articolo se il fatto è già sul sito. Vale anche per una riscrittura più corta o più lunga, per un altro titolo e per un dettaglio secondario già scritto. Si aggiorna il pezzo esistente solo quando arriva un fatto nuovo e verificato: bilancio, orario, decisione, numero ufficiale, esito. Stesso indirizzo, novità in apertura, `datePublished` invariata. In dubbio, si aggiorna e non si duplica. A fine ciclo si dichiara quanti pezzi sono nuovi e quanti sono aggiornamenti. Regola completa: `automation/prompts/divieto-duplicati.txt`.
+
 ## Titoli con curiosità veritiera e professionale — 2 ottobre 2026
 
 Per i titoli prevale `PROTOCOLLO-TITOLI-CTR.md` v2.1. Titoli dichiarativi, diretti e informativi come scelta ordinaria; ogni titolo deve offrire un motivo concreto e veritiero per approfondire attraverso dettagli distintivi, novità, dati, contrasti, conseguenze, limiti, meccanismi o utilità documentati, con intensità proporzionata alla notizia. Individuare internamente il riscontro nel corpo e nelle fonti, applicare il test del titolo isolato su Google e della promessa mantenuta. Domande solo quando il contenuto le giustifica, mai come schema seriale, anche senza `?` («cosa cambia», «quali…»). Confrontare gli ultimi 10 titoli reali e il lotto per evitare attacchi e code ripetuti. Vietato anche il clickbait formalmente vero ma fuorviante. Restano aboliti 70/30, obbligo di suspense e divieto di titoli descrittivi; 55–70 caratteri è un orientamento. Non riscrivere titoli già online senza una richiesta di revisione.
