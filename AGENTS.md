@@ -87,6 +87,9 @@ La sola fonte ammessa per una nuova Domanda del giorno è il titolo/domanda invi
 ## Divieto di pubblicare duplicati — 8 novembre 2026
 Prima di ogni pacchetto si legge per intero ogni articolo e lo si confronta con le notizie già online: fatto, luogo e giorno, non solo lo slug. È il primo filtro. Una riscrittura più corta o più lunga dello stesso fatto è un duplicato e non si pubblica, nemmeno con un altro titolo. Si aggiorna l’articolo già online solo se cambia un fatto vero: bilancio, orario, decisione o numero ufficiale. Stesso indirizzo, novità in apertura, ora della prima pubblicazione ferma. A fine ciclo si dice quanti pezzi sono nuovi e quanti sono aggiornamenti. Dettaglio: `automation/prompts/divieto-duplicati.txt`. Il controllo `duplicate_of` non basta e non si aggira con un altro slug.
 
+## Note di metodo — verifica obbligatoria prima di pubblicare, 8 novembre 2026
+Prima di ogni pubblicazione si legge il corpo `.art-body` di ogni notizia del pacchetto. Una nota di metodo parla del sito invece che del fatto: «questo testo aggiorna», «senza creare un secondo URL», «questa pagina», «lo stesso indirizzo», «questo articolo integra», «CurioMondo aggiorna» o «aggiornerà», «elementi sostanziali», «voci che saranno escluse». Si cancella. Se c’è un fatto nella stessa frase, si tiene solo il fatto. Non si inventa e non si apre un secondo articolo. Il pezzo non esce finché la nota è nel corpo. Non si cancellano gli usi veri («il sito del ministero», «l’azienda ha già pubblicato il programma»). I casi dubbi si segnalano, non si indovinano. Dettaglio: `automation/prompts/divieto-note-di-metodo.txt`.
+
 ## Divieto di pubblicare duplicati — 18 ottobre 2026
 Prima di ogni notizia leggere `automation/prompts/divieto-duplicati.txt`. Non pubblicare una seconda volta la stessa partita, lo stesso fatto, la stessa anteprima o lo stesso risultato, nemmeno con un titolo diverso. Non pubblicare un’anteprima, una diretta o un orario se l’appuntamento è già passato: o c’è il referto e si dà il risultato, o non si pubblica. Se arrivano informazioni nuove, aggiornare l’articolo già online: stesso indirizzo, ora della prima pubblicazione ferma, card «aggiornamento» in rosso. Nel testo non si parla mai di URL, di «questa pagina» o di come il sito aggiorna: solo i fatti. Il controllo `duplicate_of` in `automation/newsroom/site.py` blocca solo il secondo articolo, non l’aggiornamento.
 
@@ -182,7 +185,7 @@ Un articolo non deve mai essere considerato pubblicato soltanto perché il file 
 - sono aggiornati homepage o listing editoriale previsto, archivio, ricerca, feed, sitemap e News Sitemap quando pertinente;
 - canonical e dati strutturati sono coerenti con l'URL pubblico;
 - `python3 tools/predeploy.py` termina con exit code 0;
-- il corpo non spiega il sito: niente «questa pagina», «URL», «CurioMondo aggiornerà», «elementi sostanziali» o «voci che saranno escluse». Se ci sono, si eliminano e l’articolo si pubblica. Non si ferma la notizia. L’unico segnale di aggiornamento è il badge rosso sulla card;
+- il corpo non contiene note di metodo. Prima del push si legge `.art-body` e si cancellano «questo testo aggiorna», «senza creare un secondo URL», «questa pagina», «lo stesso indirizzo», «questo articolo integra», «CurioMondo aggiornerà», «elementi sostanziali» e «voci che saranno escluse». Si tiene il fatto, non la frase sul sito. Vale `automation/prompts/divieto-note-di-metodo.txt`;
 - dopo il deploy, l'URL pubblico dell'articolo e l'immagine hero rispondono correttamente e la notizia compare nelle superfici editoriali previste.
 
 Se uno qualunque di questi punti manca, segnalare la pubblicazione come **incompleta** e non dichiararla conclusa.
@@ -272,7 +275,7 @@ Nel corpo di una notizia è vietato spiegare come funziona il sito. Vietato, in 
 - «Eventuali voci circolate online saranno escluse…»
 - «CurioMondo segue il caso», «non pubblica dettagli», «aggiorneremo solo con fonti»
 
-L’articolo racconta solo i fatti. L’unico segnale di un aggiornamento è il badge rosso «aggiornamento» sulla card. Se una bozza contiene una di queste frasi, si eliminano e l’articolo si pubblica. Non si ferma la notizia.
+L’articolo racconta solo i fatti. L’unico segnale di un aggiornamento è il badge rosso «aggiornamento» sulla card. Dall’8 novembre 2026 la verifica è obbligatoria prima della pubblicazione, anche sulle varianti «questo testo aggiorna» e «senza creare un secondo URL»: si cancellano e il pezzo non esce finché sono nel corpo. Dettaglio: `automation/prompts/divieto-note-di-metodo.txt`.
 
 
 ## Immagini incidenti / morti sul lavoro — vietati rottami e scene macabre (27 settembre 2026)

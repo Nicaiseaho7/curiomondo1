@@ -1,0 +1,19 @@
+CURIOMONDO — DIVIETO DELLE NOTE DI METODO
+Ordine del proprietario, 8 novembre 2026. Obbligatorio prima di ogni pubblicazione, su ogni articolo del pacchetto. Una nota di metodo è metatesto: il pezzo parla del sito invece che del fatto.
+
+Prima del push si legge il corpo `.art-body` di ogni notizia in uscita. Si cerca, in qualunque variante:
+
+- «questo testo aggiorna»
+- «senza creare un secondo URL» o «seconda URL»
+- «questa pagina», «questa stessa pagina», «lo stesso indirizzo»
+- «questo articolo integra», «questo articolo sostituisce», «questo articolo fotografa»
+- «CurioMondo aggiorna», «aggiornerà», «manterrà», «segue il caso»
+- «elementi sostanziali», «voci che saranno escluse», «non pubblica dettagli»
+
+Non si toccano title, meta, canonical, JSON-LD e la didascalia delle immagini. Lì l’URL tecnico resta.
+
+Se la frase dice solo come è fatto il sito, si cancella. Se nello stesso paragrafo c’è un fatto, si tiene il fatto e si toglie il resto. Non si inventa nulla e non si apre un secondo articolo. `datePublished` resta quella della prima pubblicazione.
+
+Non è una nota di metodo un uso vero della parola: «l’azienda ha già pubblicato il programma», «il sito del ministero», «l’indirizzo del servizio pubblico». Quelli sono notizia. Se il caso è dubbio, non si corregge a intuito: si segnala e non si pubblica quella frase.
+
+Il pezzo non esce finché nel corpo resta una nota di metodo. L’unico segnale di un aggiornamento è il badge rosso sulla card.

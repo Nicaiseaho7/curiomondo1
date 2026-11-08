@@ -8,6 +8,14 @@ Prima di pubblicare si legge per intero ogni articolo del pacchetto e lo si conf
 
 Non si pubblica un secondo articolo se il fatto è già sul sito. Vale anche per una riscrittura più corta o più lunga, per un altro titolo e per un dettaglio secondario già scritto. Si aggiorna il pezzo esistente solo quando arriva un fatto nuovo e verificato: bilancio, orario, decisione, numero ufficiale, esito. Stesso indirizzo, novità in apertura, `datePublished` invariata. In dubbio, si aggiorna e non si duplica. A fine ciclo si dichiara quanti pezzi sono nuovi e quanti sono aggiornamenti. Regola completa: `automation/prompts/divieto-duplicati.txt`.
 
+## Note di metodo — verifica prima di pubblicare, 8 novembre 2026
+
+**Stato:** obbligatorio su ogni notizia in uscita, prima del push. Una nota di metodo è metatesto: il corpo parla del sito invece che del fatto.
+
+Si legge `.art-body` e si cancellano, in qualunque variante, «questo testo aggiorna», «senza creare un secondo URL», «questa pagina», «lo stesso indirizzo», «questo articolo integra», «CurioMondo aggiorna» o «aggiornerà», «elementi sostanziali», «voci che saranno escluse». Se nello stesso paragrafo c’è un fatto, il fatto resta. Non si inventa e non si apre un secondo articolo. `datePublished` non si sposta. Title, meta, canonical e JSON-LD non si toccano.
+
+Non è errore «l’azienda ha già pubblicato il programma» o «il sito del ministero». Se il caso è dubbio, la frase non si pubblica e si segnala. Il pezzo non esce finché nel corpo resta una nota di metodo. Dettaglio: `automation/prompts/divieto-note-di-metodo.txt`.
+
 ## Titoli con curiosità veritiera e professionale — 2 ottobre 2026
 
 Per i titoli prevale `PROTOCOLLO-TITOLI-CTR.md` v2.1. Titoli dichiarativi, diretti e informativi come scelta ordinaria; ogni titolo deve offrire un motivo concreto e veritiero per approfondire attraverso dettagli distintivi, novità, dati, contrasti, conseguenze, limiti, meccanismi o utilità documentati, con intensità proporzionata alla notizia. Individuare internamente il riscontro nel corpo e nelle fonti, applicare il test del titolo isolato su Google e della promessa mantenuta. Domande solo quando il contenuto le giustifica, mai come schema seriale, anche senza `?` («cosa cambia», «quali…»). Confrontare gli ultimi 10 titoli reali e il lotto per evitare attacchi e code ripetuti. Vietato anche il clickbait formalmente vero ma fuorviante. Restano aboliti 70/30, obbligo di suspense e divieto di titoli descrittivi; 55–70 caratteri è un orientamento. Non riscrivere titoli già online senza una richiesta di revisione.
