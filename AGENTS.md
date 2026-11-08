@@ -87,6 +87,21 @@ La sola fonte ammessa per una nuova Domanda del giorno è il titolo/domanda invi
 ## Divieto di pubblicare duplicati — 8 novembre 2026
 Prima di ogni pacchetto si legge per intero ogni articolo e lo si confronta con le notizie già online: fatto, luogo e giorno, non solo lo slug. È il primo filtro. Una riscrittura più corta o più lunga dello stesso fatto è un duplicato e non si pubblica, nemmeno con un altro titolo. Si aggiorna l’articolo già online solo se cambia un fatto vero: bilancio, orario, decisione o numero ufficiale. Stesso indirizzo, novità in apertura, ora della prima pubblicazione ferma. A fine ciclo si dice quanti pezzi sono nuovi e quanti sono aggiornamenti. Dettaglio: `automation/prompts/divieto-duplicati.txt`. Il controllo `duplicate_of` non basta e non si aggira con un altro slug.
 
+## Controllo corpo notizia prima del go-live — 8 novembre 2026, sera
+
+Ordine del proprietario. Non scade. Vale per ogni notizia nuova e per ogni aggiornamento, prima del commit.
+
+Si legge il corpo `.art-body`. La notizia non si pubblica se contiene:
+
+- un titolo interno (H2 o H3), anche se il formato è `feature` e anche se il titoletto sembra informativo;
+- una domanda usata come sezione («Che cosa cambia», «Cosa sappiamo», «Come misurare», «I prossimi passaggi»);
+- un box «In sintesi»;
+- un riquadro «Attenzione»;
+- un badge con colore inline (`style="background:…"`). L’etichetta resta sobria, senza pallino colorato: `Mondo`, `Mondo / Politica`, `Italia / Cronaca`;
+- l’iniziale blu gigante. Ogni notizia del lotto dichiara `data-plain-lead="true"`.
+
+Il pezzo scorre solo a paragrafi. Lo stampo da guida non si aggira cambiando `data-article-format`. `tools/predeploy.py` blocca i file `notizie/` del commit che violano il controllo. Si corregge e si rilancia il gate prima del push.
+
 ## Note di metodo — verifica obbligatoria prima di pubblicare, 8 novembre 2026
 Prima di ogni pubblicazione si legge il corpo `.art-body` di ogni notizia del pacchetto. Una nota di metodo parla del sito invece che del fatto: «questo testo aggiorna», «senza creare un secondo URL», «questa pagina», «lo stesso indirizzo», «questo articolo integra», «CurioMondo aggiorna» o «aggiornerà», «elementi sostanziali», «voci che saranno escluse». Si cancella. Se c’è un fatto nella stessa frase, si tiene solo il fatto. Non si inventa e non si apre un secondo articolo. Il pezzo non esce finché la nota è nel corpo. Non si cancellano gli usi veri («il sito del ministero», «l’azienda ha già pubblicato il programma»). I casi dubbi si segnalano, non si indovinano. In chat, a fine pacchetto, si dice il vero: o «ho corretto note di metodo in N articoli», con i file, o «nessuna nota di metodo da correggere». Non si scrive la seconda frase se il controllo non è stato fatto. Dettaglio: `automation/prompts/divieto-note-di-metodo.txt`.
 

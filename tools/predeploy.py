@@ -218,6 +218,7 @@ publication_date_errors=[]
 # Senza --root, il confine di un clone shallow non viene scambiato per un
 # commit iniziale che avrebbe aggiunto retroattivamente l'intero archivio.
 current_head_additions=set()
+current_head_news=set()
 current_head_date=None
 try:
     additions_proc=subprocess.run(
@@ -231,6 +232,12 @@ try:
     )
     current_head_additions=set(additions_proc.stdout.splitlines())
     current_head_date=datetime.fromisoformat(date_proc.stdout.strip().replace('Z','+00:00'))
+    changed_proc=subprocess.run(
+        ['git','diff-tree','-m','--first-parent','--no-commit-id',
+         '--name-only','--diff-filter=AM','-r','HEAD','--','notizie/'],
+        cwd=root, capture_output=True, text=True, check=True,
+    )
+    current_head_news=set(changed_proc.stdout.splitlines())
 except Exception:
     pass
 for p in news:
@@ -299,6 +306,26 @@ for p in news:
     if not d.xpath('//main[contains(@class,"wrap")]'): errors.append(f'main non vincolato: {p.name}')
     bodies=d.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," art-body ")]')
     if not bodies: errors.append(f'testo articolo assente: {p.name}')
+    # 8 novembre 2026, sera: ogni notizia toccata dal commit si legge prima
+    # del go-live. Il formato feature non autorizza lo stampo da guida.
+    if p.relative_to(root).as_posix() in current_head_news and bodies:
+        body=bodies[0]
+        if d.xpath('//div[contains(@class,"badge") and contains(@style,"background")]'):
+            errors.append(f'badge colorato vietato: {p.name}')
+        if body.get('data-plain-lead')!='true':
+            errors.append(f'iniziale blu non disattivata: {p.name}')
+        if body.xpath('.//h2|.//h3'):
+            errors.append(f'titoli interni vietati nella notizia: {p.name}')
+        if body.xpath('.//*[contains(@class,"article-summary")]'):
+            errors.append(f'box In sintesi vietato nella notizia: {p.name}')
+        if body.xpath('.//*[contains(@class,"article-callout")]'):
+            errors.append(f'riquadro Attenzione vietato: {p.name}')
+        stampo={'in sintesi','attenzione','il contesto','i fatti verificati','i prossimi passaggi','cosa sappiamo','il punto','le conseguenze per l’europa','le conseguenze per l\'europa'}
+        for label in body.xpath('.//h2|.//h3|.//strong'):
+            testo=' '.join(label.itertext()).strip().casefold().replace("’","'")
+            if testo in {s.replace('’',"'") for s in stampo} or testo.startswith(('che cosa ','cosa cambia','come misurare')):
+                errors.append(f'stampo seriale vietato ({testo}): {p.name}')
+                break
     if bodies and article_policy_active(d):
         body=bodies[0]
         if body.get('data-length-policy')!='3000-7000': errors.append(f'policy lunghezza 3000-7000 non dichiarata nel markup: {p.name}')

@@ -81,6 +81,17 @@ I sottotitoli H2/H3 restano ammessi **solo** negli **approfondimenti** evergreen
 Non inserire mai titoletti del tipo «Il contesto», «Cosa sappiamo», «Il punto» nelle notizie.
 Violazione = articolo da correggere prima del go-live.
 
+## Stampo da guida vietato nelle notizie — 8 novembre 2026, sera
+
+Nelle pagine `notizie/*.html` non si pubblica lo stampo delle guide. Prima del go-live si controlla ogni pezzo del lotto:
+
+- niente H2/H3 nel corpo, nemmeno dichiarando `data-article-format="feature"`;
+- niente sezioni-domanda («Che cosa cambia», «Come misurare», «I prossimi passaggi», «Cosa sappiamo»);
+- niente box «In sintesi» e niente riquadro «Attenzione»;
+- niente badge con `style="background"`: etichetta sobria (`Mondo`, `Mondo / Politica`, `Italia / Cronaca`);
+- `data-plain-lead="true"` sull’articolo, così non compare l’iniziale blu.
+
+Il corpo è una sequenza di paragrafi. Il controllo è fail-closed in `tools/predeploy.py` per i file `notizie/` del commit.
 
 ## Vietati i commenti personali / meta della redazione nel corpo — 27 settembre 2026
 
