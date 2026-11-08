@@ -2,6 +2,276 @@
   "version": 845,
   "items": [
     {
+      "title": "NASA sceglie otto aziende per la logistica lunare: contratto quadro fino a 10 miliardi",
+      "excerpt": "CLPS 2 durerà dieci anni e comprende trasporto, rover nucleare PROMISE e tecnologie per comunicazioni e navigazione.",
+      "url": "/notizie/nasa-moon-base-otto-aziende-clps-2-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "NASA riapre la selezione degli astronauti: candidature fino al 3 dicembre",
+      "excerpt": "L’agenzia cerca la nuova classe che sosterrà missioni in orbita bassa, verso la Luna e nelle future attività di esplorazione.",
+      "url": "/notizie/nasa-selezione-astronauti-candidature-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "La ISS completa l’ottavo pannello solare roll-out: potenza disponibile oltre 215 kilowatt",
+      "excerpt": "L’uscita spaziale di Kutryk e Menon è durata 6 ore e 59 minuti e conclude la principale fase di potenziamento energetico.",
+      "url": "/notizie/iss-ottavo-pannello-solare-irosa-potenza-215-kilowatt-07-11-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Hubble usa M30 come archivio della Via Lattea: stelle antiche e un’orbita fuori schema",
+      "excerpt": "Quindici anni di osservazioni aiutano a ricostruire il passato di un ammasso globulare distante 27.500 anni luce.",
+      "url": "/notizie/hubble-ammasso-m30-storia-via-lattea-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "OpenAI porta Daybreak Red in AWS GovCloud: GPT-5.6 Cyber per enti autorizzati",
+      "excerpt": "L’accesso passa da Amazon Bedrock e richiede approvazione separata, verifica dell’identità e controlli rafforzati.",
+      "url": "/notizie/openai-daybreak-red-aws-govcloud-gpt-5-6-cyber.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "OpenAI acquisirà Pierre: Codex punta a integrare revisione del codice e flussi Git",
+      "excerpt": "Trees, Diffs e Highlights resteranno open source; il closing è soggetto alle approvazioni e alle condizioni consuete.",
+      "url": "/notizie/openai-acquisizione-pierre-codex-git-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "OpenAI porta l’IA nel CAD e nei circuiti: il test Astra mostra progressi e limiti reali",
+      "excerpt": "Un prototipo è stato progettato in meno di una settimana, ma la produzione ha richiesto revisioni su tolleranze e assemblaggio.",
+      "url": "/notizie/openai-ia-ingegneria-mondo-fisico-cad-pcb-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "OpenAI aumenta i bug bounty: oltre quattro volte il valore medio per le falle più gravi",
+      "excerpt": "Bonus per qualità, fedeltà e campagne prioritarie; previsti anche adeguamenti retroattivi per alcune segnalazioni recenti.",
+      "url": "/notizie/openai-bug-bounty-premi-aumentati-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "OpenAI prepara un nuovo security sprint con Cathedral e amplia i test interni",
+      "excerpt": "Il programma userà modelli cyber per cercare vulnerabilità, riprodurle in ambienti isolati e sottoporre le patch a revisione.",
+      "url": "/notizie/openai-security-sprint-cathedral-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "LifeVal misura se l’IA aiuta davvero nella vita quotidiana, non solo nei test accademici",
+      "excerpt": "Il benchmark copre ricerca di servizi per l’infanzia, finanze personali e pratiche pubbliche con valutazioni orientate al risultato.",
+      "url": "/notizie/openai-lifeval-benchmark-attivita-quotidiane-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "OpenAI lancia Grid Protectors: data center e rete elettrica al centro del confronto",
+      "excerpt": "Il programma lavorerà con le utility per affidabilità, tempi di connessione e protezione dei costi pagati dai consumatori.",
+      "url": "/notizie/openai-grid-protectors-program-data-center-energia.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Università australiane ampliano ChatGPT: l’obiettivo sono laureati “AI-native”",
+      "excerpt": "L’integrazione entra nella didattica e nell’apprendimento, ma richiede nuove regole su valutazione, privacy e competenze fondamentali.",
+      "url": "/notizie/openai-universita-australiane-laureati-ai-native-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Meta introduce Muse Spaces: ambienti personalizzati per creare e collaborare con l’IA",
+      "excerpt": "La nuova funzione punta su contesti persistenti e strumenti espressivi, con interrogativi su dati, portabilità e controllo degli utenti.",
+      "url": "/notizie/meta-muse-spaces-esperienze-personalizzate-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Meta estende la partnership scientifica a cinque università statunitensi",
+      "excerpt": "I gruppi useranno modelli e capacità di calcolo per ricerca, condivisione di strumenti e formazione di nuovi ricercatori.",
+      "url": "/notizie/meta-partnership-universita-usa-ai-scienza-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Google studia l’ipertensione con sensori da smartwatch: specificità al 90,9 per cento",
+      "excerpt": "PPG e accelerometro possono segnalare persone a rischio, ma il sistema non sostituisce il bracciale né una diagnosi medica.",
+      "url": "/notizie/google-smartwatch-ipertensione-sensori-ai-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Agile Deliberation: Google prova a usare l’IA per definire le aree grigie",
+      "excerpt": "Il metodo aiuta gruppi umani a esplicitare criteri e disaccordi senza delegare al modello la decisione finale.",
+      "url": "/notizie/google-agile-deliberation-ai-aree-grigie-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash punta su video più lunghi, velocità e costi ridotti",
+      "excerpt": "La nuova versione multimodale è descritta come adatta a compiti agentici su audio, immagini e filmati estesi.",
+      "url": "/notizie/gemini-omni-1-2-flash-video-lunghi-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "DeepMind porta la cheminformatica negli agenti con Antigravity",
+      "excerpt": "Il modello orchestra ricerca e ragionamento, mentre strumenti deterministici eseguono calcoli molecolari verificabili.",
+      "url": "/notizie/deepmind-antigravity-cheminformatica-agentica-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Google collega ERA agli agenti con MCP: la scoperta computazionale entra nei workflow",
+      "excerpt": "Lo strumento basato su Gemini è in prova con tester selezionati e può essere richiamato da agenti compatibili.",
+      "url": "/notizie/google-era-computational-discovery-mcp-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Microsoft presenta PDD Kit: prove formali per le app scritte dagli agenti",
+      "excerpt": "Il sistema traduce l’intento dello sviluppatore in specifiche Verus e verifica il codice generato insieme ai test tradizionali.",
+      "url": "/notizie/microsoft-pdd-kit-verifica-app-agenti-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "NVIDIA presenta Vera CPU: più throughput per agenti e carichi di IA",
+      "excerpt": "Il processore è progettato insieme al resto della piattaforma per ridurre i colli di bottiglia tra memoria, CPU e acceleratori.",
+      "url": "/notizie/nvidia-vera-cpu-agenti-ai-throughput-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "NVIDIA affronta il “muro della memoria” con co-design tra chip, moduli e software",
+      "excerpt": "La crescita dei modelli rende banda e capacità decisive quanto la potenza di calcolo degli acceleratori.",
+      "url": "/notizie/nvidia-codesign-memoria-ia-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "NVIDIA porta l’IA nelle fabbriche di semiconduttori: dalla litografia alla manutenzione",
+      "excerpt": "Digital twin e modelli predittivi promettono rese migliori, ma i dati di processo restano tra gli asset più sensibili del settore.",
+      "url": "/notizie/nvidia-ai-fabbriche-semiconduttori-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "NVIDIA propone IA fisica e agentica per le città: traffico, servizi e robot sotto la stessa regia",
+      "excerpt": "La piattaforma combina digital twin, sensori e agenti; privacy e responsabilità restano i punti più delicati.",
+      "url": "/notizie/nvidia-citta-ai-fisica-agentica-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "NVIDIA aggiorna DLSS 5 e GeForce NOW: qualità d’immagine e latenza al centro",
+      "excerpt": "L’upgrade arriva su nuovi titoli, incluso Hogwarts Legacy, ma i risultati dipendono da hardware, rete e profilo grafico.",
+      "url": "/notizie/nvidia-dlss-5-geforce-now-hogwarts-legacy-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Qualcomm valida sul silicio HBC per l’inferenza IA: memoria e calcolo più vicini",
+      "excerpt": "La piattaforma mira a ridurre consumi e colli di bottiglia nei server, ma specifiche commerciali e benchmark devono ancora emergere.",
+      "url": "/notizie/qualcomm-hbc-inferenza-ai-silicio-validato-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Galaxy S26 e Buds4 arrivano sul mercato: Samsung segnala preordini in crescita",
+      "excerpt": "La serie Ultra supera il 70 per cento delle prenotazioni secondo l’azienda; debutta anche Privacy Display.",
+      "url": "/notizie/samsung-galaxy-s26-buds4-disponibili-italia-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Galaxy Ring riceve la funzione per l’apnea del sonno dopo i via libera in USA e Corea",
+      "excerpt": "L’aggiornamento lavora con Galaxy Watch e Ring, ma non sostituisce diagnosi e polisonnografia.",
+      "url": "/notizie/samsung-galaxy-ring-apnea-sonno-fda-mfds-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Samsung spiega il Micro RGB TV: LED microscopici separati per rosso, verde e blu",
+      "excerpt": "La tecnologia promette controllo del colore più preciso, ma prezzo, dimensioni e consumi decideranno la diffusione reale.",
+      "url": "/notizie/samsung-micro-rgb-tv-tecnologia-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Apple amplia le lingue dell’app Salute: più accessibilità, ma dati e funzioni restano locali",
+      "excerpt": "L’aggiornamento migliora la comprensione delle informazioni sanitarie e richiede verifiche su disponibilità e dispositivi compatibili.",
+      "url": "/notizie/apple-health-app-nuove-lingue-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "CISA inserisce SonicOS CVE-2026-19868 nel catalogo delle falle sfruttate",
+      "excerpt": "Coinvolti appliance SonicWall con accesso SSLVPN a singolo fattore; l’aggiornamento e la revisione degli accessi sono urgenti.",
+      "url": "/notizie/cisa-sonicwall-sonicos-cve-2026-19868-kev.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "CERT-EU analizza 415 segnalazioni: vulnerabilità sfruttate e server IA esposti",
+      "excerpt": "Il Cyber Brief 26-11 richiama campagne contro PHP, GitLab, Cisco, Node.js, FortiMail e Atlassian.",
+      "url": "/notizie/cert-eu-cyber-brief-26-11-415-segnalazioni.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "NTT Docomo, disservizio nazionale sulla rete 5G SA: voce e dati degradati",
+      "excerpt": "Il problema è iniziato alle 11:18 del 5 novembre; servizi non-SA, MVNO e chiamate di emergenza sono rimasti disponibili.",
+      "url": "/notizie/ntt-docomo-disservizio-5g-sa-5-novembre-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Mozilla avverte sul “patch gap”: l’IA accelera scoperta e sfruttamento delle falle",
+      "excerpt": "Firefox ha distribuito oltre sette volte più correzioni di sicurezza rispetto allo stesso periodo del 2025.",
+      "url": "/notizie/mozilla-firefox-ai-vulnerabilita-patch-gap-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "False email del registro di commercio: l’allerta svizzera contro il nuovo phishing",
+      "excerpt": "I messaggi imitano comunicazioni amministrative per indurre imprese e professionisti a cliccare o pagare.",
+      "url": "/notizie/svizzera-phishing-registro-commercio-novembre-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "ENISA pubblica la guida tecnica per aggiornamenti software sicuri",
+      "excerpt": "Firma, rollback, distribuzione e fine supporto diventano requisiti centrali per i produttori con il Cyber Resilience Act.",
+      "url": "/notizie/enisa-meccanismi-aggiornamento-software-sicuri-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Mistral presenta Le Chonk e Studio: agenti aziendali con controllo su dati e infrastruttura",
+      "excerpt": "La piattaforma combina modelli, workflow e applicazioni cercando di ridurre la distanza tra prototipo e uso operativo.",
+      "url": "/notizie/mistral-le-chonk-studio-agenti-impresa-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Adobe porta CX Enterprise Coworker dentro ChatGPT, Gemini e Microsoft Copilot",
+      "excerpt": "L’agente per customer experience usa MCP e A2A, con connettori e supervisione umana dichiarata.",
+      "url": "/notizie/adobe-cx-enterprise-coworker-chatgpt-gemini-copilot.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "GitHub apre alle API le impostazioni di Copilot code review",
+      "excerpt": "REST e GraphQL ora gestiscono policy dall’impresa al repository e attribuiscono in modo esplicito commenti e fonti.",
+      "url": "/notizie/github-copilot-code-review-api-impostazioni-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "@GitHub diventa disponibile in Slack e Teams: dalle conversazioni al codice",
+      "excerpt": "Canvas raccoglie piani, modifiche e anteprime accanto alla chat, riducendo i passaggi tra collaborazione e sviluppo.",
+      "url": "/notizie/github-slack-teams-disponibilita-generale-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "GitHub Secret Scanning aggiunge SpaceX tra i partner",
+      "excerpt": "Nuovi rilevatori possono riconoscere credenziali specifiche e avvisare il fornitore quando compaiono in un repository.",
+      "url": "/notizie/github-secret-scanning-spacex-partner-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "GitHub ridisegna la panoramica delle pull request: anteprima pubblica per revisioni più rapide",
+      "excerpt": "Il nuovo riepilogo organizza contesto e cambiamenti prima del dettaglio, con l’obiettivo di ridurre il carico cognitivo dei revisori.",
+      "url": "/notizie/github-pull-request-overview-preview-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "CodeQL 2.27.4 aggiorna l’analisi del codice: nuove query e correzioni per gli scanner",
+      "excerpt": "L’upgrade interessa pipeline di code scanning e richiede test sulle personalizzazioni prima della distribuzione generale.",
+      "url": "/notizie/github-codeql-2-27-4-aggiornamento-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "GitHub Copilot entra nel coding assistant di Xcode in anteprima pubblica",
+      "excerpt": "Gli sviluppatori possono richiamare assistenza nel flusso Apple, con controlli necessari su codice, suggerimenti e licenze.",
+      "url": "/notizie/github-copilot-xcode-coding-assistant-preview-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Dependabot supporta Agent Package Manager: aggiornamenti automatici per i pacchetti degli agenti",
+      "excerpt": "Il nuovo ecosistema entra nel monitoraggio delle versioni, con la necessità di controllare provenienza e compatibilità.",
+      "url": "/notizie/dependabot-agent-package-manager-supporto-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
       "title": "L’Europa entra nei colloqui di Abu Dhabi sull’Ucraina: la posta in gioco per la sicurezza UE",
       "excerpt": "Francia e rappresentanti europei parteciperanno al tavolo del 10-11 novembre promosso dagli Stati Uniti con delegazioni di Kiev e Mosca.",
       "url": "/notizie/ue-ucraina-colloqui-abu-dhabi.html",
@@ -1218,12 +1488,6 @@
       "excerpt": "Una nuova ondata tra l’1 e il 2 novembre coinvolge impianti commerciali connessi; indagini coordinate tra CSIRT, Europol e Commissione.",
       "url": "/notizie/enisa-attacchi-sistemi-refrigerazione-unione-europea-07-11-2026.html",
       "section": "Mondo / Tecnologia"
-    },
-    {
-      "title": "ISS, installato l’ultimo pannello IROSA: potenza fino a 215 kilowatt",
-      "excerpt": "Anil Menon e Joshua Kutryk completano in sei ore e 59 minuti l’aggiornamento energetico iniziato nel 2021.",
-      "url": "/notizie/iss-ottavo-pannello-solare-irosa-potenza-215-kilowatt-07-11-2026.html",
-      "section": "Mondo / Scienza"
     },
     {
       "title": "Gaza, i pasti gratuiti rischiano un taglio del 45%: l’allarme ONU",
