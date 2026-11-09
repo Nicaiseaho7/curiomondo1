@@ -3,6 +3,450 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "atp-stoccolma-musetti-sonego-9-14-novembre-2026-v1408",
+      "alt": "Lorenzo Musetti e Lorenzo Sonego in posa neutra su un campo indoor",
+      "prompt": "Lorenzo Musetti e Lorenzo Sonego in posa neutra su un campo indoor Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/atp-stoccolma-musetti-sonego-9-14-novembre-2026-v1408-480.webp",
+          "bytes": 25034,
+          "sha256": "dedfe6a0430947dd4975d675322738a760c3128d07c34c7507df42f16b243b2e"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/atp-stoccolma-musetti-sonego-9-14-novembre-2026-v1408-800.webp",
+          "bytes": 60646,
+          "sha256": "4ca11c91548c467cbb7a746db488acf55258436da70ff14722aa98e871e4ed6f"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/atp-stoccolma-musetti-sonego-9-14-novembre-2026-v1408-1200.webp",
+          "bytes": 119806,
+          "sha256": "0f21bdfd6e5dc44d62b8bdf651a36cb023dc1f8734e7dd2823b80e6bf0be737b"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/atp-stoccolma-musetti-sonego-9-14-novembre-2026.html"
+    },
+    {
+      "key": "eurolega-milano-zalgiris-efes-virtus-12-novembre-2026-v1408",
+      "alt": "Giocatori di Olimpia Milano e Virtus Bologna in pose neutre in un palazzetto",
+      "prompt": "Giocatori di Olimpia Milano e Virtus Bologna in pose neutre in un palazzetto Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/eurolega-milano-zalgiris-efes-virtus-12-novembre-2026-v1408-480.webp",
+          "bytes": 28278,
+          "sha256": "9f1c5ce899195ca250671db1c180c557a1ae6d02257dff8650c732c558af0e35"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/eurolega-milano-zalgiris-efes-virtus-12-novembre-2026-v1408-800.webp",
+          "bytes": 65054,
+          "sha256": "fd57040180dcddbc1ccbf062180edb0e3a8a40c2184b0947755f3185b0169461"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/eurolega-milano-zalgiris-efes-virtus-12-novembre-2026-v1408-1200.webp",
+          "bytes": 130468,
+          "sha256": "45c6fa23ade8d22a999d90049f417a1c29a28910971cabd465ae14cbbc9ed776"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/eurolega-milano-zalgiris-efes-virtus-12-novembre-2026.html"
+    },
+    {
+      "key": "europei-ciclocross-zeddam-8-novembre-2026-programma-v1408",
+      "alt": "Ciclocross su percorso fangoso con atleti in divise europee",
+      "prompt": "Ciclocross su percorso fangoso con atleti in divise europee Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/europei-ciclocross-zeddam-8-novembre-2026-programma-v1408-480.webp",
+          "bytes": 60066,
+          "sha256": "328d3baed4b2213fb5e86eab27e38891d0aff4389591a6ea3a4ced0ec062a829"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/europei-ciclocross-zeddam-8-novembre-2026-programma-v1408-800.webp",
+          "bytes": 140712,
+          "sha256": "e4151fc0b70a80c75156d33fe9689c70724578389b0334352badb35c3eb89faf"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/europei-ciclocross-zeddam-8-novembre-2026-programma-v1408-1200.webp",
+          "bytes": 261286,
+          "sha256": "63453b75068b902d1785a44dbd308599fba9d1be45348963a6c8a68b658e2815"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/europei-ciclocross-zeddam-8-novembre-2026-programma.html"
+    },
+    {
+      "key": "f1-gp-san-paolo-8-novembre-2026-orario-tv-v1408",
+      "alt": "Lando Norris in posa neutra accanto alla McLaren sul circuito di Interlagos",
+      "prompt": "Lando Norris in posa neutra accanto alla McLaren sul circuito di Interlagos Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/f1-gp-san-paolo-8-novembre-2026-orario-tv-v1408-480.webp",
+          "bytes": 36506,
+          "sha256": "8c0d34deeaaa63cc043459554380b0582c4f6e343ac33ae34b07967c2767883a"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/f1-gp-san-paolo-8-novembre-2026-orario-tv-v1408-800.webp",
+          "bytes": 72586,
+          "sha256": "66de30362535931beded66513f64f6114b5cb99e12724f9fcf3c86f44b88a74a"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/f1-gp-san-paolo-8-novembre-2026-orario-tv-v1408-1200.webp",
+          "bytes": 106602,
+          "sha256": "190dced3e64a2e17eae271cfcbd117fe364ddee02fc300c2c8a5ac67c799ad36"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/f1-gp-san-paolo-8-novembre-2026-orario-tv.html"
+    },
+    {
+      "key": "italia-gatti-convocato-francia-belgio-9-novembre-2026-v1408",
+      "alt": "Federico Gatti in posa neutra durante un allenamento della Nazionale italiana",
+      "prompt": "Federico Gatti in posa neutra durante un allenamento della Nazionale italiana Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/italia-gatti-convocato-francia-belgio-9-novembre-2026-v1408-480.webp",
+          "bytes": 19032,
+          "sha256": "8bcce853edd2ead7a9b48c1e8c5e536112bebab618c6a8214d01df7c9e27bcce"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/italia-gatti-convocato-francia-belgio-9-novembre-2026-v1408-800.webp",
+          "bytes": 37000,
+          "sha256": "4c6cc992d7ad49fd6964b1d02ef96e441f264c1c3c9ceaa8e8b8754d0d8e26ff"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/italia-gatti-convocato-francia-belgio-9-novembre-2026-v1408-1200.webp",
+          "bytes": 65112,
+          "sha256": "7035fd9e9ab936598751ad339ed103ed41b854f1a100af1c2a6f45e54d113791"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/italia-gatti-convocato-francia-belgio-9-novembre-2026.html"
+    },
+    {
+      "key": "italia-under-21-convocati-francia-belgio-novembre-2026-v1408",
+      "alt": "Calciatori dell’Italia Under 21 in posa neutra durante il raduno",
+      "prompt": "Calciatori dell’Italia Under 21 in posa neutra durante il raduno Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/italia-under-21-convocati-francia-belgio-novembre-2026-v1408-480.webp",
+          "bytes": 44890,
+          "sha256": "e534182f492afc142656f63c2fb71d8fe60fcd0a4f096807e27956ddb5c306e8"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/italia-under-21-convocati-francia-belgio-novembre-2026-v1408-800.webp",
+          "bytes": 108038,
+          "sha256": "75c2f8270be217d74db1b99651928ca4bbc355f208a98a43a6e925e535ba6c0e"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/italia-under-21-convocati-francia-belgio-novembre-2026-v1408-1200.webp",
+          "bytes": 209632,
+          "sha256": "baa72643f4fb407c15dbcd0eff1852fb7df7281bb36ab499e39c02b121fa4a43"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/italia-under-21-convocati-francia-belgio-novembre-2026.html"
+    },
+    {
+      "key": "lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1408",
+      "alt": "Giocatori di Serie A basket in posa neutra prima di una partita",
+      "prompt": "Giocatori di Serie A basket in posa neutra prima di una partita Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1408-480.webp",
+          "bytes": 25026,
+          "sha256": "d174a499b2626a5772cf40cc9c75820cb60af89a31b610eadee0bb19c609d607"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1408-800.webp",
+          "bytes": 47538,
+          "sha256": "17e726ea70fa910021504c6950297899880521f893b3a18f3a4efdbaa19c09c1"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1408-1200.webp",
+          "bytes": 70224,
+          "sha256": "b379d7982a2ae832dad8eec8fe7efea942a0b290b2642ab5988416bbde43972c"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/lba-serie-a-basket-8-novembre-2026-orari-lbatv.html"
+    },
+    {
+      "key": "milan-sunderland-biglietti-vendita-libera-9-novembre-2026-v1408",
+      "alt": "Tifosi di Milan e Sunderland in posa neutra all'esterno dello stadio",
+      "prompt": "Tifosi di Milan e Sunderland in posa neutra all'esterno dello stadio Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/milan-sunderland-biglietti-vendita-libera-9-novembre-2026-v1408-480.webp",
+          "bytes": 26816,
+          "sha256": "091fc9243de7f24229b53f9ab3a60c7b01f4cb5f4ebbd0cdeb71eef3b318f811"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/milan-sunderland-biglietti-vendita-libera-9-novembre-2026-v1408-800.webp",
+          "bytes": 54342,
+          "sha256": "773e3c582b44d54779560ca8d365ab3c99805e3fd62e27bc1146e907144ab03d"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/milan-sunderland-biglietti-vendita-libera-9-novembre-2026-v1408-1200.webp",
+          "bytes": 92316,
+          "sha256": "aa0cca44ac9b51fa53a5165da3bf6a97bdd741dbaf7c08a43dc73e7f7969fcf5"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/milan-sunderland-biglietti-vendita-libera-9-novembre-2026.html"
+    },
+    {
+      "key": "nba-notte-9-10-novembre-2026-orari-tv-italia-v1408",
+      "alt": "Un giocatore dei Detroit Pistons e uno dei Washington Wizards in posa neutra nel tunnel",
+      "prompt": "Un giocatore dei Detroit Pistons e uno dei Washington Wizards in posa neutra nel tunnel Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/nba-notte-9-10-novembre-2026-orari-tv-italia-v1408-480.webp",
+          "bytes": 28964,
+          "sha256": "a164bc1cfca4d42ad2e44bfe84272b31cce1f12dd02666de6e15304d0d32af0b"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/nba-notte-9-10-novembre-2026-orari-tv-italia-v1408-800.webp",
+          "bytes": 59370,
+          "sha256": "61dab92fcaeda42d4f2b291a2f01df2a74ae0cd6056b79ae8a101b9196d11079"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/nba-notte-9-10-novembre-2026-orari-tv-italia-v1408-1200.webp",
+          "bytes": 111298,
+          "sha256": "f455851a0b0045ed4db9cc286dfec4f529d09c2dee43892dac15ef5134b3a6ae"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/nba-notte-9-10-novembre-2026-orari-tv-italia.html"
+    },
+    {
+      "key": "serie-a-women-fiorentina-parma-risultati-8-novembre-2026-v1408",
+      "alt": "Calciatrice della Fiorentina Women in posa neutra con il pallone",
+      "prompt": "Calciatrice della Fiorentina Women in posa neutra con il pallone Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/serie-a-women-fiorentina-parma-risultati-8-novembre-2026-v1408-480.webp",
+          "bytes": 14784,
+          "sha256": "918bb734102b0734c75097dfdc2c6e201ef91aa936b7c3a5dce2a6347bd0943d"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/serie-a-women-fiorentina-parma-risultati-8-novembre-2026-v1408-800.webp",
+          "bytes": 30110,
+          "sha256": "4ad07e008878394d51172fa1b5de7c812157402a67b047560cc837792981bea6"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/serie-a-women-fiorentina-parma-risultati-8-novembre-2026-v1408-1200.webp",
+          "bytes": 51692,
+          "sha256": "98065ff79ee5828a57fa0c92280edeeef9b21c8e779733f513499408ca3eb4a8"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/serie-a-women-fiorentina-parma-risultati-8-novembre-2026.html"
+    },
+    {
+      "key": "serie-a1-volley-femminile-milano-scandicci-risultati-8-novembre-2026-v1408",
+      "alt": "Atleta della Numia Vero Volley Milano in posa neutra a bordo campo",
+      "prompt": "Atleta della Numia Vero Volley Milano in posa neutra a bordo campo Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/serie-a1-volley-femminile-milano-scandicci-risultati-8-novembre-2026-v1408-480.webp",
+          "bytes": 20552,
+          "sha256": "6e109830f93565588294f9dd6f06d03cff9c291273e86116dbb7e2fddb5918fc"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/serie-a1-volley-femminile-milano-scandicci-risultati-8-novembre-2026-v1408-800.webp",
+          "bytes": 38898,
+          "sha256": "ba647e3388dcb85d8c0cdcf3f35bd701756935aa8975eda918e0d8a8516f89d2"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/serie-a1-volley-femminile-milano-scandicci-risultati-8-novembre-2026-v1408-1200.webp",
+          "bytes": 63834,
+          "sha256": "35028894a88c1375db71351a761d82c28a892e41c8363a72f11502a64917c839"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/serie-a1-volley-femminile-milano-scandicci-risultati-8-novembre-2026.html"
+    },
+    {
+      "key": "wta-finals-indian-wells-day-1-errani-paolini-8-novembre-2026-v1408",
+      "alt": "Sara Errani e Jasmine Paolini in posa neutra sul campo delle WTA Finals",
+      "prompt": "Sara Errani e Jasmine Paolini in posa neutra sul campo delle WTA Finals Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/wta-finals-indian-wells-day-1-errani-paolini-8-novembre-2026-v1408-480.webp",
+          "bytes": 30066,
+          "sha256": "3248e4787ab32d7d4fb63351a1c08e6099a403212e417d57ef8ec2171005adcf"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/wta-finals-indian-wells-day-1-errani-paolini-8-novembre-2026-v1408-800.webp",
+          "bytes": 72338,
+          "sha256": "87ef65e1517e8bc5ad802fc37dfabc12cf3220378d19fd12ff85f1f8db0629e9"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/wta-finals-indian-wells-day-1-errani-paolini-8-novembre-2026-v1408-1200.webp",
+          "bytes": 146134,
+          "sha256": "0a1fe65ec8e443527175246d5ec28aadc3f10b521eda21767b78ff1b314725f2"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/wta-finals-indian-wells-day-1-errani-paolini-8-novembre-2026.html"
+    },
+    {
       "key": "cop31-antalya-wmo-clima-9-novembre-2026-v1406",
       "alt": "Delegati riuniti in una conferenza internazionale sul clima",
       "prompt": "Delegati riuniti in una conferenza internazionale sul clima Illustrazione editoriale fotorealistica, non documentaria.",
@@ -6404,43 +6848,6 @@
       "article": "/notizie/liga-8-novembre-2026-atletico-barcellona-tv-italia.html"
     },
     {
-      "key": "f1-gp-san-paolo-8-novembre-2026-orario-tv-v1402",
-      "alt": "Lando Norris in posa neutra accanto alla McLaren sul circuito bagnato di Interlagos",
-      "prompt": "Lando Norris in posa neutra accanto alla McLaren sul circuito bagnato di Interlagos Illustrazione editoriale fotorealistica, non documentaria.",
-      "variants": [
-        {
-          "w": 480,
-          "h": 270,
-          "src": "/assets/images/editorial-auto/f1-gp-san-paolo-8-novembre-2026-orario-tv-v1402-480.webp",
-          "bytes": 26348,
-          "sha256": "c53fd48e35d2865b1f64e849b4320c3b2bb3607c27806dbaa1c97bacaf07d506"
-        },
-        {
-          "w": 800,
-          "h": 450,
-          "src": "/assets/images/editorial-auto/f1-gp-san-paolo-8-novembre-2026-orario-tv-v1402-800.webp",
-          "bytes": 52466,
-          "sha256": "e53501c9ce53dc0080778e3801aad2813cd0dd3267eb14c3f4bfbe2940d2e3f7"
-        },
-        {
-          "w": 1200,
-          "h": 675,
-          "src": "/assets/images/editorial-auto/f1-gp-san-paolo-8-novembre-2026-orario-tv-v1402-1200.webp",
-          "bytes": 88512,
-          "sha256": "7ada1ac581c679871652b964e7d23c29ed49d8d589a8c678b92fb511472c60d6"
-        }
-      ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "OpenAI image generation",
-      "aiGenerated": true,
-      "documentaryPhoto": false,
-      "officialArtwork": false,
-      "sensitiveContext": false,
-      "reenactedEvent": false,
-      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
-      "article": "/notizie/f1-gp-san-paolo-8-novembre-2026-orario-tv.html"
-    },
-    {
       "key": "motogp-qatar-8-novembre-2026-orario-tv-v1402",
       "alt": "Marco Bezzecchi in posa neutra accanto alla sua Aprilia MotoGP nel paddock di Lusail",
       "prompt": "Marco Bezzecchi in posa neutra accanto alla sua Aprilia MotoGP nel paddock di Lusail Illustrazione editoriale fotorealistica, non documentaria.",
@@ -6587,43 +6994,6 @@
       "reenactedEvent": false,
       "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
       "article": "/notizie/superlega-volley-8-novembre-2026-orari-classifica-tv.html"
-    },
-    {
-      "key": "lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1402",
-      "alt": "Giocatori di Olimpia Milano e Dolomiti Energia Trentino in posa neutra durante il riscaldamento",
-      "prompt": "Giocatori di Olimpia Milano e Dolomiti Energia Trentino in posa neutra durante il riscaldamento Illustrazione editoriale fotorealistica, non documentaria.",
-      "variants": [
-        {
-          "w": 480,
-          "h": 270,
-          "src": "/assets/images/editorial-auto/lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1402-480.webp",
-          "bytes": 17000,
-          "sha256": "723d54505829e62d294f11ab741c1362bcfaba743421f00bf42a67b28a071b9b"
-        },
-        {
-          "w": 800,
-          "h": 450,
-          "src": "/assets/images/editorial-auto/lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1402-800.webp",
-          "bytes": 33476,
-          "sha256": "fdc683c5dab4b5696daeef9d30dc861010b4f00e8e581cc6f53d23ffe55625b6"
-        },
-        {
-          "w": 1200,
-          "h": 675,
-          "src": "/assets/images/editorial-auto/lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1402-1200.webp",
-          "bytes": 57606,
-          "sha256": "6bc6c174d63482679dc1d3a8cacf65a20a7bd839a13dee86f95607d29f1791bb"
-        }
-      ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "OpenAI image generation",
-      "aiGenerated": true,
-      "documentaryPhoto": false,
-      "officialArtwork": false,
-      "sensitiveContext": false,
-      "reenactedEvent": false,
-      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
-      "article": "/notizie/lba-serie-a-basket-8-novembre-2026-orari-lbatv.html"
     },
     {
       "key": "risalgo-bonus-occupazione-proroga-30-aprile-2027-v1401",
@@ -13767,43 +14137,6 @@
       "article": "/notizie/women-champions-league-italiane-10-11-novembre-2026.html"
     },
     {
-      "key": "europei-ciclocross-zeddam-8-novembre-2026-programma-v1392",
-      "alt": "Bici infangate lungo un percorso di ciclocross in autunno: illustrazione degli Europei di Zeddam, non una foto di una maglia nazionale.",
-      "prompt": "Bici infangate lungo un percorso di ciclocross in autunno: illustrazione degli Europei di Zeddam, non una foto di una maglia nazionale. Illustrazione editoriale fotorealistica, non documentaria.",
-      "variants": [
-        {
-          "w": 480,
-          "h": 270,
-          "src": "/assets/images/editorial-auto/europei-ciclocross-zeddam-8-novembre-2026-programma-v1392-480.webp",
-          "bytes": 57060,
-          "sha256": "4f18aee58c75d70a8c8e4c6644ad645fc19995dd2f5153abcf63ef7382c054f0"
-        },
-        {
-          "w": 800,
-          "h": 450,
-          "src": "/assets/images/editorial-auto/europei-ciclocross-zeddam-8-novembre-2026-programma-v1392-800.webp",
-          "bytes": 143378,
-          "sha256": "c9e970bb68000f21f368cd16f7e718c58c42b3a7ad2b37cfc68da1fdcabd897c"
-        },
-        {
-          "w": 1200,
-          "h": 675,
-          "src": "/assets/images/editorial-auto/europei-ciclocross-zeddam-8-novembre-2026-programma-v1392-1200.webp",
-          "bytes": 284648,
-          "sha256": "366b94aa42b77463f0201e68c3717562918dc5e3a8ab8f8e11b883467c7cf0bc"
-        }
-      ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "OpenAI image generation",
-      "aiGenerated": true,
-      "documentaryPhoto": false,
-      "officialArtwork": false,
-      "sensitiveContext": false,
-      "reenactedEvent": false,
-      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
-      "article": "/notizie/europei-ciclocross-zeddam-8-novembre-2026-programma.html"
-    },
-    {
       "key": "ciclocross-tarsia-trofeo-il-riccio-8-novembre-2026-v1392",
       "alt": "Bici da ciclocross su un percorso sterrato tra ulivi e colline: illustrazione della gara di Tarsia, non una foto dei partenti.",
       "prompt": "Bici da ciclocross su un percorso sterrato tra ulivi e colline: illustrazione della gara di Tarsia, non una foto dei partenti. Illustrazione editoriale fotorealistica, non documentaria.",
@@ -16917,43 +17250,6 @@
       "reenactedEvent": false,
       "iptcDigitalSourceType": "trainedAlgorithmicMedia",
       "article": "/notizie/superlega-volley-8-novembre-2026-orari-classifica-tv.html"
-    },
-    {
-      "key": "lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1386",
-      "alt": "Basket LBA, Milano-Trento e derby Scafati-Napoli: orari e dirette di domenica",
-      "prompt": "Basket LBA, Milano-Trento e derby Scafati-Napoli: orari e dirette di domenica. Illustrazione editoriale fotorealistica, non documentaria.",
-      "variants": [
-        {
-          "w": 480,
-          "h": 270,
-          "src": "/assets/images/editorial-auto/lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1386-480.webp",
-          "bytes": 28576,
-          "sha256": "9f18d4b32ee673826ee240c08ff590deef89bd9f9a72bc8c75a5b4bb774eaca2"
-        },
-        {
-          "w": 800,
-          "h": 450,
-          "src": "/assets/images/editorial-auto/lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1386-800.webp",
-          "bytes": 61674,
-          "sha256": "b7e323010e8f558470836944f5c139b2b2e20b3e05b83a176470559e2b8ce30d"
-        },
-        {
-          "w": 1200,
-          "h": 675,
-          "src": "/assets/images/editorial-auto/lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1386-1200.webp",
-          "bytes": 117076,
-          "sha256": "1b6da5516b2fb8c74d28759288d1d9b230c9b67646d4dde140308a6bc3ec401e"
-        }
-      ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "generator": "OpenAI image generation",
-      "aiGenerated": true,
-      "documentaryPhoto": false,
-      "officialArtwork": false,
-      "sensitiveContext": false,
-      "reenactedEvent": false,
-      "iptcDigitalSourceType": "trainedAlgorithmicMedia",
-      "article": "/notizie/lba-serie-a-basket-8-novembre-2026-orari-lbatv.html"
     },
     {
       "key": "nfl-week-9-madrid-orari-italiani-8-novembre-2026-v1386",
@@ -101462,6 +101758,186 @@
   ],
   "images": [
     {
+      "slug": "atp-stoccolma-musetti-sonego-9-14-novembre-2026",
+      "version": 1408,
+      "path": "/assets/images/editorial-auto/atp-stoccolma-musetti-sonego-9-14-novembre-2026-v1408-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Lorenzo Musetti e Lorenzo Sonego in posa neutra su un campo indoor"
+    },
+    {
+      "slug": "eurolega-milano-zalgiris-efes-virtus-12-novembre-2026",
+      "version": 1408,
+      "path": "/assets/images/editorial-auto/eurolega-milano-zalgiris-efes-virtus-12-novembre-2026-v1408-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Giocatori di Olimpia Milano e Virtus Bologna in pose neutre in un palazzetto"
+    },
+    {
+      "slug": "europei-ciclocross-zeddam-8-novembre-2026-programma",
+      "version": 1408,
+      "path": "/assets/images/editorial-auto/europei-ciclocross-zeddam-8-novembre-2026-programma-v1408-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Ciclocross su percorso fangoso con atleti in divise europee"
+    },
+    {
+      "slug": "f1-gp-san-paolo-8-novembre-2026-orario-tv",
+      "version": 1408,
+      "path": "/assets/images/editorial-auto/f1-gp-san-paolo-8-novembre-2026-orario-tv-v1408-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Lando Norris in posa neutra accanto alla McLaren sul circuito di Interlagos"
+    },
+    {
+      "slug": "italia-gatti-convocato-francia-belgio-9-novembre-2026",
+      "version": 1408,
+      "path": "/assets/images/editorial-auto/italia-gatti-convocato-francia-belgio-9-novembre-2026-v1408-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Federico Gatti in posa neutra durante un allenamento della Nazionale italiana"
+    },
+    {
+      "slug": "italia-under-21-convocati-francia-belgio-novembre-2026",
+      "version": 1408,
+      "path": "/assets/images/editorial-auto/italia-under-21-convocati-francia-belgio-novembre-2026-v1408-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Calciatori dell’Italia Under 21 in posa neutra durante il raduno"
+    },
+    {
+      "slug": "lba-serie-a-basket-8-novembre-2026-orari-lbatv",
+      "version": 1408,
+      "path": "/assets/images/editorial-auto/lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1408-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Giocatori di Serie A basket in posa neutra prima di una partita"
+    },
+    {
+      "slug": "milan-sunderland-biglietti-vendita-libera-9-novembre-2026",
+      "version": 1408,
+      "path": "/assets/images/editorial-auto/milan-sunderland-biglietti-vendita-libera-9-novembre-2026-v1408-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Tifosi di Milan e Sunderland in posa neutra all'esterno dello stadio"
+    },
+    {
+      "slug": "nba-notte-9-10-novembre-2026-orari-tv-italia",
+      "version": 1408,
+      "path": "/assets/images/editorial-auto/nba-notte-9-10-novembre-2026-orari-tv-italia-v1408-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Un giocatore dei Detroit Pistons e uno dei Washington Wizards in posa neutra nel tunnel"
+    },
+    {
+      "slug": "serie-a-women-fiorentina-parma-risultati-8-novembre-2026",
+      "version": 1408,
+      "path": "/assets/images/editorial-auto/serie-a-women-fiorentina-parma-risultati-8-novembre-2026-v1408-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Calciatrice della Fiorentina Women in posa neutra con il pallone"
+    },
+    {
+      "slug": "serie-a1-volley-femminile-milano-scandicci-risultati-8-novembre-2026",
+      "version": 1408,
+      "path": "/assets/images/editorial-auto/serie-a1-volley-femminile-milano-scandicci-risultati-8-novembre-2026-v1408-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Atleta della Numia Vero Volley Milano in posa neutra a bordo campo"
+    },
+    {
+      "slug": "wta-finals-indian-wells-day-1-errani-paolini-8-novembre-2026",
+      "version": 1408,
+      "path": "/assets/images/editorial-auto/wta-finals-indian-wells-day-1-errani-paolini-8-novembre-2026-v1408-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Sara Errani e Jasmine Paolini in posa neutra sul campo delle WTA Finals"
+    },
+    {
       "slug": "cop31-antalya-9-novembre-2026-wmo-clima",
       "version": 1406,
       "path": "/assets/images/editorial-auto/cop31-antalya-wmo-clima-9-novembre-2026-v1406-1200.webp",
@@ -104057,21 +104533,6 @@
       "alt": "Antoine Griezmann e Lamine Yamal in posa neutra prima di Atletico Madrid-Barcellona"
     },
     {
-      "slug": "f1-gp-san-paolo-8-novembre-2026-orario-tv",
-      "version": 1402,
-      "path": "/assets/images/editorial-auto/f1-gp-san-paolo-8-novembre-2026-orario-tv-v1402-1200.webp",
-      "variants": [
-        480,
-        800,
-        1200
-      ],
-      "aiGenerated": true,
-      "sensitiveContext": false,
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "date": "2026-11-08",
-      "alt": "Lando Norris in posa neutra accanto alla McLaren sul circuito bagnato di Interlagos"
-    },
-    {
       "slug": "motogp-qatar-8-novembre-2026-orario-tv",
       "version": 1402,
       "path": "/assets/images/editorial-auto/motogp-qatar-8-novembre-2026-orario-tv-v1402-1200.webp",
@@ -104130,21 +104591,6 @@
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "date": "2026-11-08",
       "alt": "Giocatori di Itas Trentino e Sir Perugia in posa neutra ai lati della rete"
-    },
-    {
-      "slug": "lba-serie-a-basket-8-novembre-2026-orari-lbatv",
-      "version": 1402,
-      "path": "/assets/images/editorial-auto/lba-serie-a-basket-8-novembre-2026-orari-lbatv-v1402-1200.webp",
-      "variants": [
-        480,
-        800,
-        1200
-      ],
-      "aiGenerated": true,
-      "sensitiveContext": false,
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "date": "2026-11-08",
-      "alt": "Giocatori di Olimpia Milano e Dolomiti Energia Trentino in posa neutra durante il riscaldamento"
     },
     {
       "slug": "risalgo-bonus-occupazione-proroga-30-aprile-2027",
