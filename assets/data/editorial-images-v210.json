@@ -3,6 +3,376 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "bandi-imprese-scadenza-10-novembre-v1407",
+      "alt": "Piccolo esercizio commerciale con strumenti digitali e sistemi di sicurezza",
+      "prompt": "Piccolo esercizio commerciale con strumenti digitali e sistemi di sicurezza Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/bandi-imprese-scadenza-10-novembre-v1407-480.webp",
+          "bytes": 35496,
+          "sha256": "17fe32e443c8f5eaf9501bcb9e4a4bf87f68d3f42a1971f60834dd151b07d362"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/bandi-imprese-scadenza-10-novembre-v1407-800.webp",
+          "bytes": 78468,
+          "sha256": "e45942d82edf6fd5008320be67eb7b4034dac87d235c6c33407528a535334911"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/bandi-imprese-scadenza-10-novembre-v1407-1200.webp",
+          "bytes": 141936,
+          "sha256": "4e96d832bb5ca8799e87b6a8ae0d13c32cb10d25d70be3908c885bc4a3eb8065"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/bandi-imprese-scadenza-10-novembre-maremma-romagna-frosinone-latina.html"
+    },
+    {
+      "key": "canone-rai-pensione-scadenza-v1407",
+      "alt": "Pensionato consulta un prospetto accanto a un televisore",
+      "prompt": "Pensionato consulta un prospetto accanto a un televisore Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/canone-rai-pensione-scadenza-v1407-480.webp",
+          "bytes": 40440,
+          "sha256": "a724e4cd7f93234c6615c237781d0a9e060a74a5f4b61481400628ffd72ac61e"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/canone-rai-pensione-scadenza-v1407-800.webp",
+          "bytes": 92668,
+          "sha256": "8131217d770dab7a9b00bd2d0eb5a7bb47db0eceab8530196c6b8ded21fc2068"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/canone-rai-pensione-scadenza-v1407-1200.webp",
+          "bytes": 163296,
+          "sha256": "a31d8c7f6acb156c0ba0b55f395861dcc3f436b6b7a91eb0fedfc066f7b6985f"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/canone-rai-pensione-2027-domanda-15-novembre-inps.html"
+    },
+    {
+      "key": "emilia-romagna-fotovoltaico-pensiline-v1407",
+      "alt": "Pensiline fotovoltaiche in un parcheggio industriale",
+      "prompt": "Pensiline fotovoltaiche in un parcheggio industriale Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/emilia-romagna-fotovoltaico-pensiline-v1407-480.webp",
+          "bytes": 52344,
+          "sha256": "8ff9bafaf35d8fe537f27f9f793ef316aa3feec334e9d52b33bee0958c13fdc8"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/emilia-romagna-fotovoltaico-pensiline-v1407-800.webp",
+          "bytes": 135656,
+          "sha256": "2a2dee95e16370a9da10a4205c0e042e556fe1c6f1e5884e802641a05eb4f958"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/emilia-romagna-fotovoltaico-pensiline-v1407-1200.webp",
+          "bytes": 282310,
+          "sha256": "d15b6ca5a0ddfdb2b5326b330d7b528fa04e8fdf7cbbe59f41937ed2e246c70d"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/emilia-romagna-fotovoltaico-pensiline-pmi-scadenza-16-novembre-2026.html"
+    },
+    {
+      "key": "emilia-romagna-assunzioni-montagna-v1407",
+      "alt": "Nuovo dipendente accolto in un laboratorio produttivo in area montana",
+      "prompt": "Nuovo dipendente accolto in un laboratorio produttivo in area montana Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/emilia-romagna-assunzioni-montagna-v1407-480.webp",
+          "bytes": 39854,
+          "sha256": "d3c16a1474cb23839cad8fef4c3b42109737df3fdf07a7014bbaf89e94168353"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/emilia-romagna-assunzioni-montagna-v1407-800.webp",
+          "bytes": 85526,
+          "sha256": "c7b8c237e1236ec067b2b9f503091058568ef2276681a26e0e361fa9799a3643"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/emilia-romagna-assunzioni-montagna-v1407-1200.webp",
+          "bytes": 150774,
+          "sha256": "d2904040f0958278c310ef60718e44d3a8fea6b227d5c47b9c2831d263dbb506"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/emilia-romagna-incentivi-assunzioni-montagna-15-dicembre-2026.html"
+    },
+    {
+      "key": "lombardia-negozi-piccoli-comuni-v1407",
+      "alt": "Nuovo negozio di prossimità in un piccolo centro italiano",
+      "prompt": "Nuovo negozio di prossimità in un piccolo centro italiano Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/lombardia-negozi-piccoli-comuni-v1407-480.webp",
+          "bytes": 58622,
+          "sha256": "6be0a902a3dae094aa6135a24ee8be2b925d1d1e9dbbea4d74730e1a1a876b9d"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/lombardia-negozi-piccoli-comuni-v1407-800.webp",
+          "bytes": 141774,
+          "sha256": "a757c621fb2bbb9da378024b2937a0c50be3ac3e891420f122f62053bfd7c5b6"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/lombardia-negozi-piccoli-comuni-v1407-1200.webp",
+          "bytes": 268742,
+          "sha256": "6b4e736700f387df557a8f8141a4fca27e61824cf977dd03aa3017b97e753537"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/lombardia-nuova-impresa-piccoli-comuni-scadenza-12-novembre-2026.html"
+    },
+    {
+      "key": "manovra-2027-audizioni-parlamento-v1407",
+      "alt": "Sala istituzionale predisposta per audizioni sulla manovra",
+      "prompt": "Sala istituzionale predisposta per audizioni sulla manovra Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/manovra-2027-audizioni-parlamento-v1407-480.webp",
+          "bytes": 34432,
+          "sha256": "6bdf284ab9c886c2f2a5efaf18f7d791b3f23f85b30e60a7d852f85a3b32818b"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/manovra-2027-audizioni-parlamento-v1407-800.webp",
+          "bytes": 74118,
+          "sha256": "a51423ce714b7558ade6fe63a40eb11a79c1df4ae8f9d33b8f82894ec680e4f2"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/manovra-2027-audizioni-parlamento-v1407-1200.webp",
+          "bytes": 128736,
+          "sha256": "bfd0e6123d20ab5e00e315791bae7c13df28e594d925017cab1196f004418e21"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/manovra-2027-audizioni-camera-senato-calendario-9-12-novembre.html"
+    },
+    {
+      "key": "rete-lavoro-agricolo-domanda-v1407",
+      "alt": "Imprenditore agricolo utilizza un computer accanto ai campi",
+      "prompt": "Imprenditore agricolo utilizza un computer accanto ai campi Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/rete-lavoro-agricolo-domanda-v1407-480.webp",
+          "bytes": 36956,
+          "sha256": "45848c0bf9d8093904ba718fea9f0cdcf5f5f5ba093dcc864be579b0a2955292"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/rete-lavoro-agricolo-domanda-v1407-800.webp",
+          "bytes": 84818,
+          "sha256": "b8fe181b0b6bf5b6a8a4e82cc928429aa4af52f7704108ba1d8c01a18f19287a"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/rete-lavoro-agricolo-domanda-v1407-1200.webp",
+          "bytes": 154586,
+          "sha256": "a79ea75f1defa87e5055c0e984179a4e497191eb9d90b4dbbe8b1ce1ef156f60"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/rete-lavoro-agricolo-qualita-domanda-semplificata-inps-2026.html"
+    },
+    {
+      "key": "toscana-export-imprese-v1407",
+      "alt": "Piccola impresa prepara prodotti destinati all’esportazione",
+      "prompt": "Piccola impresa prepara prodotti destinati all’esportazione Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/toscana-export-imprese-v1407-480.webp",
+          "bytes": 43950,
+          "sha256": "0325b0cd13533c8acbfb2a021125c768c10572daf3a48cc16405c68a2d57e1b9"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/toscana-export-imprese-v1407-800.webp",
+          "bytes": 94060,
+          "sha256": "e0d90ec78548416395ff3f4157c6c1c4ff7546c00f732a4046ff31b0728fa556"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/toscana-export-imprese-v1407-1200.webp",
+          "bytes": 161952,
+          "sha256": "cc1546885413527225700e5f7577e114a2c5ec223a7f412f84a196f18d4f2245"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/toscana-bando-internazionalizzazione-imprese-18-novembre-2026.html"
+    },
+    {
+      "key": "toscana-welfare-aziendale-v1407",
+      "alt": "Ufficio con servizi di conciliazione tra lavoro e cura familiare",
+      "prompt": "Ufficio con servizi di conciliazione tra lavoro e cura familiare Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/toscana-welfare-aziendale-v1407-480.webp",
+          "bytes": 45320,
+          "sha256": "48ae5f702177799410e732add098ade7068d2aac2e41a8e900159b9210a7b4aa"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/toscana-welfare-aziendale-v1407-800.webp",
+          "bytes": 100668,
+          "sha256": "38f2a719894d48c7baf4e28991e5a6f280195f84e47edad57f22b8a4463b12a9"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/toscana-welfare-aziendale-v1407-1200.webp",
+          "bytes": 186306,
+          "sha256": "2104cdd9ffad090a89e2cfe4177decd18226a07adc032f12638f2ca16afd45b8"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/toscana-welfare-aziendale-contributi-conciliazione-vita-lavoro-2026.html"
+    },
+    {
+      "key": "valle-aosta-cer-fotovoltaico-v1407",
+      "alt": "Impianto fotovoltaico in un paese alpino",
+      "prompt": "Impianto fotovoltaico in un paese alpino Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/valle-aosta-cer-fotovoltaico-v1407-480.webp",
+          "bytes": 49848,
+          "sha256": "147546007863aea3cae33686cf968a13447d143077f75591d58e81dcc39bd2cf"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/valle-aosta-cer-fotovoltaico-v1407-800.webp",
+          "bytes": 115150,
+          "sha256": "36514cf3c47bc92eb518811f3a147a133ae857fd2ff44e02a114b32cd8abdace"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/valle-aosta-cer-fotovoltaico-v1407-1200.webp",
+          "bytes": 213142,
+          "sha256": "38da6a01c9b419e45e40a282046f013d1f5457a45a0c26f3d8ffceac0bec3607"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/valle-aosta-contributi-fotovoltaico-cer-persone-scadenza-13-novembre.html"
+    },
+    {
       "key": "atp-stoccolma-musetti-sonego-9-14-novembre-2026-v1408",
       "alt": "Lorenzo Musetti e Lorenzo Sonego in posa neutra su un campo indoor",
       "prompt": "Lorenzo Musetti e Lorenzo Sonego in posa neutra su un campo indoor Illustrazione editoriale fotorealistica, non documentaria.",
@@ -101757,6 +102127,156 @@
     }
   ],
   "images": [
+    {
+      "slug": "bandi-imprese-scadenza-10-novembre-maremma-romagna-frosinone-latina",
+      "version": 1407,
+      "path": "/assets/images/editorial-auto/bandi-imprese-scadenza-10-novembre-v1407-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Piccolo esercizio commerciale con strumenti digitali e sistemi di sicurezza"
+    },
+    {
+      "slug": "canone-rai-pensione-2027-domanda-15-novembre-inps",
+      "version": 1407,
+      "path": "/assets/images/editorial-auto/canone-rai-pensione-scadenza-v1407-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Pensionato consulta un prospetto accanto a un televisore"
+    },
+    {
+      "slug": "emilia-romagna-fotovoltaico-pensiline-pmi-scadenza-16-novembre-2026",
+      "version": 1407,
+      "path": "/assets/images/editorial-auto/emilia-romagna-fotovoltaico-pensiline-v1407-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Pensiline fotovoltaiche in un parcheggio industriale"
+    },
+    {
+      "slug": "emilia-romagna-incentivi-assunzioni-montagna-15-dicembre-2026",
+      "version": 1407,
+      "path": "/assets/images/editorial-auto/emilia-romagna-assunzioni-montagna-v1407-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Nuovo dipendente accolto in un laboratorio produttivo in area montana"
+    },
+    {
+      "slug": "lombardia-nuova-impresa-piccoli-comuni-scadenza-12-novembre-2026",
+      "version": 1407,
+      "path": "/assets/images/editorial-auto/lombardia-negozi-piccoli-comuni-v1407-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Nuovo negozio di prossimità in un piccolo centro italiano"
+    },
+    {
+      "slug": "manovra-2027-audizioni-camera-senato-calendario-9-12-novembre",
+      "version": 1407,
+      "path": "/assets/images/editorial-auto/manovra-2027-audizioni-parlamento-v1407-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Sala istituzionale predisposta per audizioni sulla manovra"
+    },
+    {
+      "slug": "rete-lavoro-agricolo-qualita-domanda-semplificata-inps-2026",
+      "version": 1407,
+      "path": "/assets/images/editorial-auto/rete-lavoro-agricolo-domanda-v1407-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Imprenditore agricolo utilizza un computer accanto ai campi"
+    },
+    {
+      "slug": "toscana-bando-internazionalizzazione-imprese-18-novembre-2026",
+      "version": 1407,
+      "path": "/assets/images/editorial-auto/toscana-export-imprese-v1407-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Piccola impresa prepara prodotti destinati all’esportazione"
+    },
+    {
+      "slug": "toscana-welfare-aziendale-contributi-conciliazione-vita-lavoro-2026",
+      "version": 1407,
+      "path": "/assets/images/editorial-auto/toscana-welfare-aziendale-v1407-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Ufficio con servizi di conciliazione tra lavoro e cura familiare"
+    },
+    {
+      "slug": "valle-aosta-contributi-fotovoltaico-cer-persone-scadenza-13-novembre",
+      "version": 1407,
+      "path": "/assets/images/editorial-auto/valle-aosta-cer-fotovoltaico-v1407-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Impianto fotovoltaico in un paese alpino"
+    },
     {
       "slug": "atp-stoccolma-musetti-sonego-9-14-novembre-2026",
       "version": 1408,
