@@ -2,6 +2,7 @@
 
 La verifica della sostanza e dell'indipendenza delle fonti resta editoriale.
 Un flash breve non va riempito per superare una quota automatica.
+Sotto 150 parole passa solo un flash vero: la notizia intera, non un articolo tagliato.
 """
 import re
 from urllib.parse import urlparse
@@ -21,6 +22,8 @@ def format_errors(body):
     errors = []
     if not words:
         errors.append('corpo articolo vuoto')
+    if 0 < len(words) < 150 and fmt != 'flash':
+        errors.append('articolo sotto 150 parole consentito solo se è un flash vero')
     if fmt not in FORMAT_WORD_RANGES:
         errors.append('formato editoriale non valido')
     elif fmt == 'flash' and len(words) >= 300:

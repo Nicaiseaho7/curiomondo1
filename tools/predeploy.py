@@ -306,6 +306,10 @@ for p in news:
     if not d.xpath('//main[contains(@class,"wrap")]'): errors.append(f'main non vincolato: {p.name}')
     bodies=d.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," art-body ")]')
     if not bodies: errors.append(f'testo articolo assente: {p.name}')
+    elif p.parent.name=='notizie' and (bodies[0].get('data-editorial-protocol')=='4.0' or p.relative_to(root).as_posix() in current_head_news):
+        parole=re.findall(r"\b[0-9A-Za-zÀ-ÖØ-öø-ÿ'’]+\b",' '.join(bodies[0].itertext()))
+        if 0<len(parole)<150 and bodies[0].get('data-article-format')!='flash':
+            errors.append(f'articolo sotto 150 parole consentito solo se è un flash vero: {p.name} ({len(parole)})')
     # 8 novembre 2026, sera: ogni notizia toccata dal commit si legge prima
     # del go-live. Il formato feature non autorizza lo stampo da guida.
     if p.relative_to(root).as_posix() in current_head_news and bodies:
