@@ -326,6 +326,15 @@ for p in news:
             if testo in {s.replace('’',"'") for s in stampo} or testo.startswith(('che cosa ','cosa cambia','come misurare')):
                 errors.append(f'stampo seriale vietato ({testo}): {p.name}')
                 break
+        # 9 novembre 2026: ascolta/condividi/salva restano sopra il testo.
+        # Le fonti stanno subito dopo l'articolo, mai dopo «Potrebbe interessarti».
+        order=[(el.get('class') or '').split()[0] if el.get('class') else el.tag for el in d.xpath('//main[contains(@class,"wrap")][1]/*')]
+        def pos(name):
+            return order.index(name) if name in order else -1
+        if 'actions' in order and 'art-body' in order and pos('actions')>pos('art-body'):
+            errors.append(f'pulsanti ascolto/condivisione/salvataggio sotto il testo: {p.name}')
+        if 'art-sources' in order and 'curio-related' in order and pos('art-sources')>pos('curio-related'):
+            errors.append(f'fonti dopo Potrebbe interessarti: {p.name}')
     if bodies and article_policy_active(d):
         body=bodies[0]
         if body.get('data-length-policy')!='3000-7000': errors.append(f'policy lunghezza 3000-7000 non dichiarata nel markup: {p.name}')
