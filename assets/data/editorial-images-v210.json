@@ -3,6 +3,228 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "eumam-ucraina-proroga-2028-v1423",
+      "alt": "Sala di coordinamento militare vuota con bandiere dell’Unione europea e dell’Ucraina",
+      "prompt": "Sala di coordinamento militare vuota con bandiere dell’Unione europea e dell’Ucraina Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/eumam-ucraina-proroga-2028-v1423-480.webp",
+          "bytes": 31474,
+          "sha256": "ee5fe715b9ccd0e9cffb3558b5ef17ac4d770dc832f24d4cff09e7d18c5b20a8"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/eumam-ucraina-proroga-2028-v1423-800.webp",
+          "bytes": 66770,
+          "sha256": "7ba5a80d3b990a789acd87aecd7fae101d08dc47c907cf30749c6cea512d5733"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/eumam-ucraina-proroga-2028-v1423-1200.webp",
+          "bytes": 116600,
+          "sha256": "8afe30a6bc4e74a1202026bd1278bd7644825123e77a757b7812d94b6871a8fe"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/ue-eumam-ucraina-proroga-2028-300-milioni.html"
+    },
+    {
+      "key": "bilancio-ue-2027-conciliazione-v1423",
+      "alt": "Sala negoziale europea vuota con tavolo ovale, microfoni e bandiere UE",
+      "prompt": "Sala negoziale europea vuota con tavolo ovale, microfoni e bandiere UE Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/bilancio-ue-2027-conciliazione-v1423-480.webp",
+          "bytes": 33304,
+          "sha256": "c574c1b57f0941384ae4a3bc14d43c18693bb5119d571b97774e2210ff379c55"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/bilancio-ue-2027-conciliazione-v1423-800.webp",
+          "bytes": 72886,
+          "sha256": "e65c2a7090a50e2b48945747e6bfc5903f161e7cc92a2ba6788bb933851fecc3"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/bilancio-ue-2027-conciliazione-v1423-1200.webp",
+          "bytes": 130356,
+          "sha256": "9dc7be28e398d805c17a680ebbc6a68051ea044c5a578d6d53063f66b42b303e"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/bilancio-ue-2027-conciliazione-10-novembre-orari-cifre.html"
+    },
+    {
+      "key": "eba-servizi-finanziari-white-label-v1423",
+      "alt": "Persona che confronta una carta di pagamento generica con condizioni contrattuali su un laptop",
+      "prompt": "Persona che confronta una carta di pagamento generica con condizioni contrattuali su un laptop Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/eba-servizi-finanziari-white-label-v1423-480.webp",
+          "bytes": 25148,
+          "sha256": "d6eac59bad50789135e8530869d96e75f47e19be4a15af725bbf550191820694"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/eba-servizi-finanziari-white-label-v1423-800.webp",
+          "bytes": 52296,
+          "sha256": "3a098b9ac77602642114975b9289d8fdb11da2801db835305c87b3a7373f717a"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/eba-servizi-finanziari-white-label-v1423-1200.webp",
+          "bytes": 89770,
+          "sha256": "11623a0d4ba51301bab464a1de76312134d5802cf43637b221efc28a7e33f7c5"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/servizi-finanziari-white-label-controlli-eba-consumatori.html"
+    },
+    {
+      "key": "stress-test-banche-ue-2027-v1423",
+      "alt": "Analisti bancari osservano grafici finanziari e climatici su più monitor",
+      "prompt": "Analisti bancari osservano grafici finanziari e climatici su più monitor Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/stress-test-banche-ue-2027-v1423-480.webp",
+          "bytes": 24802,
+          "sha256": "9d489be6b3c9b8acf73e6a6ce3e84145a0a25b175f63fd826095892ca6b34c97"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/stress-test-banche-ue-2027-v1423-800.webp",
+          "bytes": 51550,
+          "sha256": "dff186119223dfd6fb11678cfdeccc4747e0d3ce5f72e0dffb7553eaa7e4de14"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/stress-test-banche-ue-2027-v1423-1200.webp",
+          "bytes": 88956,
+          "sha256": "c21460f3912c7f5da91e28767491ded80a5d028e3623d47cb8d18b17b52c9deb"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/stress-test-banche-ue-2027-clima-metodologia-eba.html"
+    },
+    {
+      "key": "spacex-ussf-627-lancio-v1423",
+      "alt": "Razzo Falcon 9 fermo sulla rampa e illuminato nella notte prima del lancio",
+      "prompt": "Razzo Falcon 9 fermo sulla rampa e illuminato nella notte prima del lancio Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/spacex-ussf-627-lancio-v1423-480.webp",
+          "bytes": 14166,
+          "sha256": "9a7bcb1b2ca207e476c70f13d59c4b1c7bcaf26d44eb7bfbeebb61144e7f091d"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/spacex-ussf-627-lancio-v1423-800.webp",
+          "bytes": 33768,
+          "sha256": "bdd9e3734fec53a4ef0e90f7fc72a2513661107470c7736f341df51fcab05d85"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/spacex-ussf-627-lancio-v1423-1200.webp",
+          "bytes": 65768,
+          "sha256": "3ab4c1d0e334031a7b311fe4c861099158169237b60ca26aa3767c4c7f052548"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/spacex-ussf-627-lancio-notte-10-novembre-orario-italiano.html"
+    },
+    {
+      "key": "bankitalia-dati-10-novembre-v1423",
+      "alt": "Scrivania istituzionale con fascicoli statistici, grafici e bandiere italiana ed europea",
+      "prompt": "Scrivania istituzionale con fascicoli statistici, grafici e bandiere italiana ed europea Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/bankitalia-dati-10-novembre-v1423-480.webp",
+          "bytes": 25448,
+          "sha256": "61516dc8480af04c2ae1e3ffb3ce1c30d38a5b8ecc374c48e5623d06509c0c6e"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/bankitalia-dati-10-novembre-v1423-800.webp",
+          "bytes": 49890,
+          "sha256": "17491461473786e77884d3a6610a08d777ca17365b1e00f0e57694c740e31a8a"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/bankitalia-dati-10-novembre-v1423-1200.webp",
+          "bytes": 82992,
+          "sha256": "fb17acec4a1d98d907f6306c778b7f74a506fa321ce73fc7e36ffe5e159a0160"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/bankitalia-10-novembre-banche-moneta-economia-italiana-dati.html"
+    },
+    {
       "key": "anadolu-efes-virtus-bologna-eurolega-13-novembre-2026-orario-tv-v1409",
       "alt": "Illustrazione editoriale dedicata: Anadolu Efes-Virtus venerdì alle 18:30: Bologna cerca il sesto successo",
       "prompt": "Illustrazione editoriale dedicata: Anadolu Efes-Virtus venerdì alle 18:30: Bologna cerca il sesto successo Illustrazione editoriale fotorealistica, non documentaria.",
@@ -110341,6 +110563,96 @@
     }
   ],
   "images": [
+    {
+      "slug": "ue-eumam-ucraina-proroga-2028-300-milioni",
+      "version": 1423,
+      "path": "/assets/images/editorial-auto/eumam-ucraina-proroga-2028-v1423-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Sala di coordinamento militare vuota con bandiere dell’Unione europea e dell’Ucraina"
+    },
+    {
+      "slug": "bilancio-ue-2027-conciliazione-10-novembre-orari-cifre",
+      "version": 1423,
+      "path": "/assets/images/editorial-auto/bilancio-ue-2027-conciliazione-v1423-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Sala negoziale europea vuota con tavolo ovale, microfoni e bandiere UE"
+    },
+    {
+      "slug": "servizi-finanziari-white-label-controlli-eba-consumatori",
+      "version": 1423,
+      "path": "/assets/images/editorial-auto/eba-servizi-finanziari-white-label-v1423-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Persona che confronta una carta di pagamento generica con condizioni contrattuali su un laptop"
+    },
+    {
+      "slug": "stress-test-banche-ue-2027-clima-metodologia-eba",
+      "version": 1423,
+      "path": "/assets/images/editorial-auto/stress-test-banche-ue-2027-v1423-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Analisti bancari osservano grafici finanziari e climatici su più monitor"
+    },
+    {
+      "slug": "spacex-ussf-627-lancio-notte-10-novembre-orario-italiano",
+      "version": 1423,
+      "path": "/assets/images/editorial-auto/spacex-ussf-627-lancio-v1423-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Razzo Falcon 9 fermo sulla rampa e illuminato nella notte prima del lancio"
+    },
+    {
+      "slug": "bankitalia-10-novembre-banche-moneta-economia-italiana-dati",
+      "version": 1423,
+      "path": "/assets/images/editorial-auto/bankitalia-dati-10-novembre-v1423-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-09",
+      "alt": "Scrivania istituzionale con fascicoli statistici, grafici e bandiere italiana ed europea"
+    },
     {
       "slug": "anadolu-efes-virtus-bologna-eurolega-13-novembre-2026-orario-tv",
       "version": 1409,
