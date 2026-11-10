@@ -3,6 +3,80 @@
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
     {
+      "key": "istat-multinazionali-estere-italia-dati-2024-10-novembre-2026-v1415",
+      "alt": "Professionisti analizzano flussi internazionali e dati economici in un ufficio contemporaneo",
+      "prompt": "Professionisti analizzano flussi internazionali e dati economici in un ufficio contemporaneo Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/istat-multinazionali-estere-italia-dati-2024-10-novembre-2026-v1415-480.webp",
+          "bytes": 34186,
+          "sha256": "6f5f5493d72a8eac19e94823e580d3c2dcc2ad6f7b98b12412282c3de5d32e3f"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/istat-multinazionali-estere-italia-dati-2024-10-novembre-2026-v1415-800.webp",
+          "bytes": 72710,
+          "sha256": "3a961313bc753f880b14af5ea0ac027e5ebaceb05e72304360ab5e33a52fb3ae"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/istat-multinazionali-estere-italia-dati-2024-10-novembre-2026-v1415-1200.webp",
+          "bytes": 124958,
+          "sha256": "a606d8f76fb60c60111e1a769b17fd266a300e7aa581743f946d65c7709eda62"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/istat-multinazionali-estere-italia-dati-2024-10-novembre-2026.html"
+    },
+    {
+      "key": "arera-acciaierie-italia-debito-gas-bollette-10-novembre-2026-v1415",
+      "alt": "Analista energetico osserva dati e infrastrutture del gas in una sala di controllo industriale generica",
+      "prompt": "Analista energetico osserva dati e infrastrutture del gas in una sala di controllo industriale generica Illustrazione editoriale fotorealistica, non documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/arera-acciaierie-italia-debito-gas-bollette-10-novembre-2026-v1415-480.webp",
+          "bytes": 25920,
+          "sha256": "d3828de0d2a16819d6f80f52896ad34c81bf8bc68692075fed68b73eaedc5b7b"
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/arera-acciaierie-italia-debito-gas-bollette-10-novembre-2026-v1415-800.webp",
+          "bytes": 54076,
+          "sha256": "17e6e67765c32ef79a91d33ec0a742522a8de0590dd39336972897868c10197b"
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/arera-acciaierie-italia-debito-gas-bollette-10-novembre-2026-v1415-1200.webp",
+          "bytes": 91854,
+          "sha256": "61418d499cf83e4b0267801315625c34a2545b6a2a3280ec6aa5dca29fe6e6a4"
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "generator": "OpenAI image generation",
+      "aiGenerated": true,
+      "documentaryPhoto": false,
+      "officialArtwork": false,
+      "sensitiveContext": false,
+      "reenactedEvent": false,
+      "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "article": "/notizie/arera-acciaierie-italia-debito-gas-bollette-10-novembre-2026.html"
+    },
+    {
       "key": "eredita-enti-terzo-settore-garanzia-decreto-10-novembre-2026-v1414",
       "alt": "Professionisti esaminano documenti successori e una garanzia bancaria in un ufficio legale",
       "prompt": "Professionisti esaminano documenti successori e una garanzia bancaria in un ufficio legale Illustrazione editoriale fotorealistica, non documentaria.",
@@ -111821,6 +111895,36 @@
     }
   ],
   "images": [
+    {
+      "slug": "istat-multinazionali-estere-italia-dati-2024-10-novembre-2026",
+      "version": 1415,
+      "path": "/assets/images/editorial-auto/istat-multinazionali-estere-italia-dati-2024-10-novembre-2026-v1415-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-10",
+      "alt": "Professionisti analizzano flussi internazionali e dati economici in un ufficio contemporaneo"
+    },
+    {
+      "slug": "arera-acciaierie-italia-debito-gas-bollette-10-novembre-2026",
+      "version": 1415,
+      "path": "/assets/images/editorial-auto/arera-acciaierie-italia-debito-gas-bollette-10-novembre-2026-v1415-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-10",
+      "alt": "Analista energetico osserva dati e infrastrutture del gas in una sala di controllo industriale generica"
+    },
     {
       "slug": "eredita-enti-terzo-settore-garanzia-decreto-10-novembre-2026",
       "version": 1414,
