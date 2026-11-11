@@ -688,7 +688,7 @@ if book_path and book_path.exists():
     capped_book=bool(qdates and qdates[0] >= '2026-11-11')
     if capped_book:
         if not 8<=len(pages)<=12: errors.append(f'eBook fuori 8–12 capitoli ({len(pages)})')
-        if book_words>10000: errors.append(f'eBook oltre 10000 parole ({book_words})')
+        if book_words<10000: errors.append(f'eBook sotto 10000 parole ({book_words})')
         content_h2 = book.xpath('//h2')
         if not 8<=len(content_h2)<=12: errors.append(f'eBook fuori 8–12 capitoli H2 ({len(content_h2)})')
     elif new_book:

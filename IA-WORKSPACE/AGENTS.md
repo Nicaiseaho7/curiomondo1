@@ -79,7 +79,7 @@ Per selezione, verifica e pubblicazione delle notizie prevale la revisione v471 
 Questa sezione sostituisce le precedenti regole incompatibili su doppia conferma universale, due valori aggiunti obbligatori per ogni formato, limite automatico di 24 ore, soglie quantitative di rilevanza e scarto editoriale causato da problemi tecnici riparabili.
 
 ## eBook Domanda del giorno — dall’11 novembre 2026
-Ogni nuovo eBook della Domanda del giorno ha al massimo **10.000 parole**. Non c’è una quota minima da raggiungere. Restano **8–12 capitoli**, una schermata per capitolo, e l’indicizzazione (`index,follow`, canonical, sitemap, indice di ricerca). Gli eBook già pubblicati, anche quelli da 22.000–32.000 parole, non si riscrivono per questa regola. Dettaglio in `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`.
+Ogni nuovo eBook della Domanda del giorno ha almeno **10.000 parole**. Sopra le 10.000 è conforme; non c’è un tetto. Restano **8–12 capitoli**, una schermata per capitolo, e l’indicizzazione (`index,follow`, canonical, sitemap, indice di ricerca). Gli eBook già pubblicati, anche quelli da 22.000–32.000 parole, non si riscrivono per questa regola. Dettaglio in `CURIO-MONDO-PROTOCOLLO-MAESTRO.md`.
 
 ## Fonte della Domanda del giorno — 6 ottobre 2026
 La sola fonte ammessa per una nuova Domanda del giorno è il titolo/domanda inviato esplicitamente dal proprietario. `automation/state/daily-questions.json` è materiale storico e non è una coda pubblicabile. Non selezionare domande automaticamente, non usare numerazioni o verifiche del vecchio PDF e non attribuire al proprietario testi che non ha fornito. In assenza di un nuovo titolo esplicito, saltare la Domanda del giorno senza bloccare notizie, guide o correzioni non collegate.

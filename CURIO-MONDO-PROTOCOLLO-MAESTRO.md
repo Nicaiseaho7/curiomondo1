@@ -63,7 +63,7 @@ Il principio è: **riparare e pubblicare quando la storia è valida; bloccare so
 
 Un eBook della Domanda del giorno non è più un mini-libro da 15.000–30.000 caratteri. È un libro breve che si potrebbe vendere.
 
-- **Dall’11 novembre 2026:** massimo **10.000 parole** di testo utile. Non esiste più una quota minima da riempire e non si pubblica sopra le 10.000. Gli eBook già online, compresi quelli da 22.000–32.000, restano com’ sono.
+- **Dall’11 novembre 2026:** minimo **10.000 parole** di testo utile. Sopra le 10.000 è conforme; sotto le 10.000 non si pubblica. Non c’è più un tetto. Gli eBook già online, compresi quelli da 22.000–32.000, restano com’ sono.
 - **Fino al 10 novembre 2026:** 25.000 parole, tolleranza 22.000–32.000. Quella fascia non vale più per i libri nuovi.
 - **8–12 capitoli**, una schermata per capitolo. Il capitolo si scorre. `Indietro` e `Avanti` cambiano capitolo, non paragrafi. Niente sfoglio, swipe o gesture.
 - Ogni capitolo ha **un solo H2** e sviluppa un passaggio solo. Un H3 è ammesso solo se il capitolo cambia davvero argomento. Vietato un titolo per ogni paragrafo.
