@@ -685,7 +685,13 @@ if book_path and book_path.exists():
     book_words=len(re.findall(r'\S+', book_text))
     qdates=daily.xpath('//time[@datetime]/@datetime') if daily_path and daily_path.exists() else []
     new_book=bool(qdates and qdates[0] >= '2026-09-28')
-    if new_book:
+    capped_book=bool(qdates and qdates[0] >= '2026-11-11')
+    if capped_book:
+        if not 8<=len(pages)<=12: errors.append(f'eBook fuori 8–12 capitoli ({len(pages)})')
+        if book_words>10000: errors.append(f'eBook oltre 10000 parole ({book_words})')
+        content_h2 = book.xpath('//h2')
+        if not 8<=len(content_h2)<=12: errors.append(f'eBook fuori 8–12 capitoli H2 ({len(content_h2)})')
+    elif new_book:
         if not 8<=len(pages)<=12: errors.append(f'eBook fuori 8–12 capitoli ({len(pages)})')
         if not 22000<=book_words<=32000: errors.append(f'eBook fuori 22000–32000 parole ({book_words})')
         content_h2 = book.xpath('//h2')

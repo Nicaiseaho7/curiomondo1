@@ -175,14 +175,14 @@ Regole:
 - italiano naturale, profondo, chiaro, non motivazionale generico;
 - la risposta breve deve essere tra 1000 e 3000 caratteri complessivi;
 - nessun sottotitolo H2/H3 nella risposta della pagina Domanda del giorno;
-- l'eBook è un libro breve da vendere: 10 capitoli, uno per schermata, tra 22.000 e 32.000 parole, obiettivo 25.000;
+- l'eBook è un libro breve da vendere: 8–12 capitoli, uno per schermata, massimo 10.000 parole, senza quota minima da riempire;
 - ogni capitolo ha un solo H2, esempi concreti, un metodo rifacibile e una chiusura che non riassume;
 - niente effetto sfoglia;
 - niente riferimenti a IA, prompt, automazioni o fonti private.
 """
     package = openai_json(prompt)
     book_words = len(re.findall(r"\S+", " ".join(p for page in package["book_pages"] for p in page["paragraphs"])))
-    if not 22000 <= book_words <= 32000:
+    if book_words > 10000:
         raise SystemExit(f"Book length outside gate: {book_words} parole")
     answer_len = len(" ".join(package["answer_paragraphs"]))
     if not 1000 <= answer_len <= 3000:
