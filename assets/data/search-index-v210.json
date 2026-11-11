@@ -2,6 +2,54 @@
   "version": 845,
   "items": [
     {
+      "title": "Cloudflare Workers, eventi sospesi e un secondo guasto risolto: cosa resta operativo",
+      "excerpt": "Le modifiche ai Workers non generano temporaneamente eventi di sottoscrizione; il servizio e le distribuzioni già attive continuano a funzionare.",
+      "url": "/notizie/cloudflare-workers-event-subscriptions-sospese-guasto-d1-11-novembre-2026.html",
+      "section": "Tecnologia / Servizi digitali"
+    },
+    {
+      "title": "Apple aggiorna anche i vecchi iPhone: corrette falle in Bluetooth e AirPlay",
+      "excerpt": "iOS e iPadOS 26.7.3 arrivano sui modelli recenti; iOS 18.7.12 mantiene protetti iPhone XS, XR e altri dispositivi precedenti.",
+      "url": "/notizie/apple-ios-26-7-3-18-7-12-sicurezza-bluetooth-airplay-2026.html",
+      "section": "Tecnologia / Smartphone"
+    },
+    {
+      "title": "NVIDIA apre OpenShell alla CNCF: più controllo sugli agenti IA in Kubernetes",
+      "excerpt": "Il progetto entra nella Sandbox della Cloud Native Computing Foundation insieme a nuovi componenti open source per eseguire e isolare agenti autonomi.",
+      "url": "/notizie/nvidia-openshell-cncf-agent-substrate-kubernetes-ia-2026.html",
+      "section": "Tecnologia / Intelligenza artificiale"
+    },
+    {
+      "title": "Android, la patch di novembre chiude falle critiche senza interazione dell’utente",
+      "excerpt": "Il livello di sicurezza 2026-11-05 comprende tutte le correzioni del bollettino; tempi e disponibilità variano in base a produttore, modello e operatore.",
+      "url": "/notizie/android-patch-novembre-2026-falle-critiche-senza-interazione.html",
+      "section": "Tecnologia / Smartphone"
+    },
+    {
+      "title": "Firefox 160 corregge una lunga serie di falle ad alto impatto: aggiornamento consigliato",
+      "excerpt": "L’avviso Mozilla include vulnerabilità di memoria e possibili fughe dalla sandbox; la versione installata va controllata su computer e dispositivi gestiti.",
+      "url": "/notizie/firefox-160-falle-alto-impatto-aggiornamento-sicurezza-2026.html",
+      "section": "Tecnologia / Cybersicurezza"
+    },
+    {
+      "title": "Le aziende entrano in ChatGPT: profili verificati, statistiche e agenti commerciali",
+      "excerpt": "Il nuovo Business Hub è disponibile nei Paesi in cui opera ChatGPT; gli agenti per acquisti e prenotazioni partono invece da imprese idonee negli Stati Uniti.",
+      "url": "/notizie/openai-businesses-chatgpt-profili-verificati-statistiche-agenti-2026.html",
+      "section": "Tecnologia / Piattaforme"
+    },
+    {
+      "title": "Google porta voce e trascrizione offline sui dispositivi: cosa cambia per privacy e latenza",
+      "excerpt": "Google AI Edge Gallery integra riconoscimento vocale e sintesi del parlato direttamente su Android e iOS, senza inviare l’audio al cloud.",
+      "url": "/notizie/google-ai-edge-gallery-voce-trascrizione-offline-android-ios-2026.html",
+      "section": "Tecnologia / Smartphone"
+    },
+    {
+      "title": "IA, una backdoor può nascondersi in meno di dieci neuroni: il test di Microsoft",
+      "excerpt": "I ricercatori hanno alterato una porzione minima dei pesi di un modello per attivare comportamenti nascosti; non risultano impieghi reali osservati.",
+      "url": "/notizie/microsoft-sleeper-agent-backdoor-meno-dieci-neuroni-modelli-ia-2026.html",
+      "section": "Tecnologia / Intelligenza artificiale"
+    },
+    {
       "title": "Budget di Salute, nuove regole in Emilia-Romagna: il progetto di vita entra nei percorsi di cura",
       "excerpt": "La Regione sostituisce le linee del 2015 e rafforza gli interventi su casa, relazioni, formazione e lavoro per salute mentale, dipendenze e neuropsichiatria infantile.",
       "url": "/notizie/emilia-romagna-budget-salute-linee-indirizzo-11-novembre-2026.html",

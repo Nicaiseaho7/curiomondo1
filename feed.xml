@@ -8,6 +8,62 @@
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <atom:link href="https://curiomondo.it/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cloudflare Workers, eventi sospesi e un secondo guasto risolto: cosa resta operativo</title>
+      <link>https://curiomondo.it/notizie/cloudflare-workers-event-subscriptions-sospese-guasto-d1-11-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/cloudflare-workers-event-subscriptions-sospese-guasto-d1-11-novembre-2026.html</guid>
+      <pubDate>Wed, 11 Nov 2026 15:21:00 +0100</pubDate>
+      <description>Le modifiche ai Workers non generano temporaneamente eventi di sottoscrizione; il servizio e le distribuzioni già attive continuano a funzionare.</description>
+    </item>
+    <item>
+      <title>Apple aggiorna anche i vecchi iPhone: corrette falle in Bluetooth e AirPlay</title>
+      <link>https://curiomondo.it/notizie/apple-ios-26-7-3-18-7-12-sicurezza-bluetooth-airplay-2026.html</link>
+      <guid>https://curiomondo.it/notizie/apple-ios-26-7-3-18-7-12-sicurezza-bluetooth-airplay-2026.html</guid>
+      <pubDate>Wed, 11 Nov 2026 15:20:00 +0100</pubDate>
+      <description>iOS e iPadOS 26.7.3 arrivano sui modelli recenti; iOS 18.7.12 mantiene protetti iPhone XS, XR e altri dispositivi precedenti.</description>
+    </item>
+    <item>
+      <title>NVIDIA apre OpenShell alla CNCF: più controllo sugli agenti IA in Kubernetes</title>
+      <link>https://curiomondo.it/notizie/nvidia-openshell-cncf-agent-substrate-kubernetes-ia-2026.html</link>
+      <guid>https://curiomondo.it/notizie/nvidia-openshell-cncf-agent-substrate-kubernetes-ia-2026.html</guid>
+      <pubDate>Wed, 11 Nov 2026 15:19:00 +0100</pubDate>
+      <description>Il progetto entra nella Sandbox della Cloud Native Computing Foundation insieme a nuovi componenti open source per eseguire e isolare agenti autonomi.</description>
+    </item>
+    <item>
+      <title>Android, la patch di novembre chiude falle critiche senza interazione dell’utente</title>
+      <link>https://curiomondo.it/notizie/android-patch-novembre-2026-falle-critiche-senza-interazione.html</link>
+      <guid>https://curiomondo.it/notizie/android-patch-novembre-2026-falle-critiche-senza-interazione.html</guid>
+      <pubDate>Wed, 11 Nov 2026 15:18:00 +0100</pubDate>
+      <description>Il livello di sicurezza 2026-11-05 comprende tutte le correzioni del bollettino; tempi e disponibilità variano in base a produttore, modello e operatore.</description>
+    </item>
+    <item>
+      <title>Firefox 160 corregge una lunga serie di falle ad alto impatto: aggiornamento consigliato</title>
+      <link>https://curiomondo.it/notizie/firefox-160-falle-alto-impatto-aggiornamento-sicurezza-2026.html</link>
+      <guid>https://curiomondo.it/notizie/firefox-160-falle-alto-impatto-aggiornamento-sicurezza-2026.html</guid>
+      <pubDate>Wed, 11 Nov 2026 15:17:00 +0100</pubDate>
+      <description>L’avviso Mozilla include vulnerabilità di memoria e possibili fughe dalla sandbox; la versione installata va controllata su computer e dispositivi gestiti.</description>
+    </item>
+    <item>
+      <title>Le aziende entrano in ChatGPT: profili verificati, statistiche e agenti commerciali</title>
+      <link>https://curiomondo.it/notizie/openai-businesses-chatgpt-profili-verificati-statistiche-agenti-2026.html</link>
+      <guid>https://curiomondo.it/notizie/openai-businesses-chatgpt-profili-verificati-statistiche-agenti-2026.html</guid>
+      <pubDate>Wed, 11 Nov 2026 15:16:00 +0100</pubDate>
+      <description>Il nuovo Business Hub è disponibile nei Paesi in cui opera ChatGPT; gli agenti per acquisti e prenotazioni partono invece da imprese idonee negli Stati Uniti.</description>
+    </item>
+    <item>
+      <title>Google porta voce e trascrizione offline sui dispositivi: cosa cambia per privacy e latenza</title>
+      <link>https://curiomondo.it/notizie/google-ai-edge-gallery-voce-trascrizione-offline-android-ios-2026.html</link>
+      <guid>https://curiomondo.it/notizie/google-ai-edge-gallery-voce-trascrizione-offline-android-ios-2026.html</guid>
+      <pubDate>Wed, 11 Nov 2026 15:15:00 +0100</pubDate>
+      <description>Google AI Edge Gallery integra riconoscimento vocale e sintesi del parlato direttamente su Android e iOS, senza inviare l’audio al cloud.</description>
+    </item>
+    <item>
+      <title>IA, una backdoor può nascondersi in meno di dieci neuroni: il test di Microsoft</title>
+      <link>https://curiomondo.it/notizie/microsoft-sleeper-agent-backdoor-meno-dieci-neuroni-modelli-ia-2026.html</link>
+      <guid>https://curiomondo.it/notizie/microsoft-sleeper-agent-backdoor-meno-dieci-neuroni-modelli-ia-2026.html</guid>
+      <pubDate>Wed, 11 Nov 2026 15:14:00 +0100</pubDate>
+      <description>I ricercatori hanno alterato una porzione minima dei pesi di un modello per attivare comportamenti nascosti; non risultano impieghi reali osservati.</description>
+    </item>
+    <item>
       <title>Budget di Salute, nuove regole in Emilia-Romagna: il progetto di vita entra nei percorsi di cura</title>
       <link>https://curiomondo.it/notizie/emilia-romagna-budget-salute-linee-indirizzo-11-novembre-2026.html</link>
       <guid>https://curiomondo.it/notizie/emilia-romagna-budget-salute-linee-indirizzo-11-novembre-2026.html</guid>

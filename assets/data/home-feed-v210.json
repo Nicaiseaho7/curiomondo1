@@ -2,6 +2,147 @@
   "version": 845,
   "items": [
     {
+      "title": "Cloudflare Workers, eventi sospesi e un secondo guasto risolto: cosa resta operativo",
+      "excerpt": "Le modifiche ai Workers non generano temporaneamente eventi di sottoscrizione; il servizio e le distribuzioni già attive continuano a funzionare.",
+      "url": "/notizie/cloudflare-workers-event-subscriptions-sospese-guasto-d1-11-novembre-2026.html",
+      "section": "Tecnologia / Servizi digitali",
+      "dateISO": "2026-11-11T15:21:00+01:00",
+      "dateLabel": "2026-11-11",
+      "image": "/assets/images/editorial-auto/cloudflare-workers-event-subscriptions-sospese-guasto-d1-11-novembre-2026-v1438-800.webp",
+      "imageAlt": "Sala operativa di un centro dati con tecnici davanti a dashboard di stato generiche e indicatori luminosi.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/cloudflare-workers-event-subscriptions-sospese-guasto-d1-11-novembre-2026-v1438-480.webp 480w, /assets/images/editorial-auto/cloudflare-workers-event-subscriptions-sospese-guasto-d1-11-novembre-2026-v1438-800.webp 800w, /assets/images/editorial-auto/cloudflare-workers-event-subscriptions-sospese-guasto-d1-11-novembre-2026-v1438-1200.webp 1200w",
+      "updated": true,
+      "updatedAt": "2026-11-11T15:24:00+01:00",
+      "featuredHighlights": [
+        "Cloudflare",
+        "guasto"
+      ],
+      "featuredStats": [
+        {
+          "icon": "•",
+          "value": "01:53 UTC",
+          "label": "inizio del problema alle sottoscrizioni"
+        },
+        {
+          "icon": "•",
+          "value": "21 minuti",
+          "label": "incidente D1, già risolto"
+        },
+        {
+          "icon": "•",
+          "value": "Ancora aperto",
+          "label": "il flusso delle notifiche è spento"
+        }
+      ]
+    },
+    {
+      "title": "Apple aggiorna anche i vecchi iPhone: corrette falle in Bluetooth e AirPlay",
+      "excerpt": "iOS e iPadOS 26.7.3 arrivano sui modelli recenti; iOS 18.7.12 mantiene protetti iPhone XS, XR e altri dispositivi precedenti.",
+      "url": "/notizie/apple-ios-26-7-3-18-7-12-sicurezza-bluetooth-airplay-2026.html",
+      "section": "Tecnologia / Smartphone",
+      "dateISO": "2026-11-11T15:20:00+01:00",
+      "dateLabel": "2026-11-11",
+      "image": "/assets/images/editorial-auto/apple-ios-26-7-3-18-7-12-sicurezza-bluetooth-airplay-2026-v1438-800.webp",
+      "imageAlt": "iPhone generico su un tavolo chiaro con schermata di aggiornamento software e simboli Bluetooth e AirPlay discreti.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/apple-ios-26-7-3-18-7-12-sicurezza-bluetooth-airplay-2026-v1438-480.webp 480w, /assets/images/editorial-auto/apple-ios-26-7-3-18-7-12-sicurezza-bluetooth-airplay-2026-v1438-800.webp 800w, /assets/images/editorial-auto/apple-ios-26-7-3-18-7-12-sicurezza-bluetooth-airplay-2026-v1438-1200.webp 1200w",
+      "updated": true,
+      "updatedAt": "2026-11-11T15:24:00+01:00"
+    },
+    {
+      "title": "NVIDIA apre OpenShell alla CNCF: più controllo sugli agenti IA in Kubernetes",
+      "excerpt": "Il progetto entra nella Sandbox della Cloud Native Computing Foundation insieme a nuovi componenti open source per eseguire e isolare agenti autonomi.",
+      "url": "/notizie/nvidia-openshell-cncf-agent-substrate-kubernetes-ia-2026.html",
+      "section": "Tecnologia / Intelligenza artificiale",
+      "dateISO": "2026-11-11T15:19:00+01:00",
+      "dateLabel": "2026-11-11",
+      "image": "/assets/images/editorial-auto/nvidia-openshell-cncf-agent-substrate-kubernetes-ia-2026-v1438-800.webp",
+      "imageAlt": "Tecnico in un centro dati davanti a rack di server e a un diagramma generico di container e agenti IA.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/nvidia-openshell-cncf-agent-substrate-kubernetes-ia-2026-v1438-480.webp 480w, /assets/images/editorial-auto/nvidia-openshell-cncf-agent-substrate-kubernetes-ia-2026-v1438-800.webp 800w, /assets/images/editorial-auto/nvidia-openshell-cncf-agent-substrate-kubernetes-ia-2026-v1438-1200.webp 1200w",
+      "updated": true,
+      "updatedAt": "2026-11-11T15:24:00+01:00"
+    },
+    {
+      "title": "Android, la patch di novembre chiude falle critiche senza interazione dell’utente",
+      "excerpt": "Il livello di sicurezza 2026-11-05 comprende tutte le correzioni del bollettino; tempi e disponibilità variano in base a produttore, modello e operatore.",
+      "url": "/notizie/android-patch-novembre-2026-falle-critiche-senza-interazione.html",
+      "section": "Tecnologia / Smartphone",
+      "dateISO": "2026-11-11T15:18:00+01:00",
+      "dateLabel": "2026-11-11",
+      "image": "/assets/images/editorial-auto/android-patch-novembre-2026-falle-critiche-senza-interazione-v1438-800.webp",
+      "imageAlt": "Smartphone Android generico su una scrivania con schermata di aggiornamento e lucchetto digitale.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/android-patch-novembre-2026-falle-critiche-senza-interazione-v1438-480.webp 480w, /assets/images/editorial-auto/android-patch-novembre-2026-falle-critiche-senza-interazione-v1438-800.webp 800w, /assets/images/editorial-auto/android-patch-novembre-2026-falle-critiche-senza-interazione-v1438-1200.webp 1200w",
+      "updated": true,
+      "updatedAt": "2026-11-11T15:24:00+01:00"
+    },
+    {
+      "title": "Firefox 160 corregge una lunga serie di falle ad alto impatto: aggiornamento consigliato",
+      "excerpt": "L’avviso Mozilla include vulnerabilità di memoria e possibili fughe dalla sandbox; la versione installata va controllata su computer e dispositivi gestiti.",
+      "url": "/notizie/firefox-160-falle-alto-impatto-aggiornamento-sicurezza-2026.html",
+      "section": "Tecnologia / Cybersicurezza",
+      "dateISO": "2026-11-11T15:17:00+01:00",
+      "dateLabel": "2026-11-11",
+      "image": "/assets/images/editorial-auto/firefox-160-falle-alto-impatto-aggiornamento-sicurezza-2026-v1438-800.webp",
+      "imageAlt": "Computer portatile con browser generico aperto e scudo digitale luminoso in un ufficio ordinato.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/firefox-160-falle-alto-impatto-aggiornamento-sicurezza-2026-v1438-480.webp 480w, /assets/images/editorial-auto/firefox-160-falle-alto-impatto-aggiornamento-sicurezza-2026-v1438-800.webp 800w, /assets/images/editorial-auto/firefox-160-falle-alto-impatto-aggiornamento-sicurezza-2026-v1438-1200.webp 1200w",
+      "updated": true,
+      "updatedAt": "2026-11-11T15:24:00+01:00"
+    },
+    {
+      "title": "Le aziende entrano in ChatGPT: profili verificati, statistiche e agenti commerciali",
+      "excerpt": "Il nuovo Business Hub è disponibile nei Paesi in cui opera ChatGPT; gli agenti per acquisti e prenotazioni partono invece da imprese idonee negli Stati Uniti.",
+      "url": "/notizie/openai-businesses-chatgpt-profili-verificati-statistiche-agenti-2026.html",
+      "section": "Tecnologia / Piattaforme",
+      "dateISO": "2026-11-11T15:16:00+01:00",
+      "dateLabel": "2026-11-11",
+      "image": "/assets/images/editorial-auto/openai-businesses-chatgpt-profili-verificati-statistiche-agenti-2026-v1438-800.webp",
+      "imageAlt": "Piccolo imprenditore davanti a un computer con una scheda aziendale generica e grafici aggregati sullo schermo.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/openai-businesses-chatgpt-profili-verificati-statistiche-agenti-2026-v1438-480.webp 480w, /assets/images/editorial-auto/openai-businesses-chatgpt-profili-verificati-statistiche-agenti-2026-v1438-800.webp 800w, /assets/images/editorial-auto/openai-businesses-chatgpt-profili-verificati-statistiche-agenti-2026-v1438-1200.webp 1200w",
+      "updated": true,
+      "updatedAt": "2026-11-11T15:24:00+01:00"
+    },
+    {
+      "title": "Google porta voce e trascrizione offline sui dispositivi: cosa cambia per privacy e latenza",
+      "excerpt": "Google AI Edge Gallery integra riconoscimento vocale e sintesi del parlato direttamente su Android e iOS, senza inviare l’audio al cloud.",
+      "url": "/notizie/google-ai-edge-gallery-voce-trascrizione-offline-android-ios-2026.html",
+      "section": "Tecnologia / Smartphone",
+      "dateISO": "2026-11-11T15:15:00+01:00",
+      "dateLabel": "2026-11-11",
+      "image": "/assets/images/editorial-auto/google-ai-edge-gallery-voce-trascrizione-offline-android-ios-2026-v1438-800.webp",
+      "imageAlt": "Smartphone su un tavolo con forma d’onda vocale sullo schermo e ambiente domestico moderno sullo sfondo.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/google-ai-edge-gallery-voce-trascrizione-offline-android-ios-2026-v1438-480.webp 480w, /assets/images/editorial-auto/google-ai-edge-gallery-voce-trascrizione-offline-android-ios-2026-v1438-800.webp 800w, /assets/images/editorial-auto/google-ai-edge-gallery-voce-trascrizione-offline-android-ios-2026-v1438-1200.webp 1200w",
+      "updated": true,
+      "updatedAt": "2026-11-11T15:24:00+01:00"
+    },
+    {
+      "title": "IA, una backdoor può nascondersi in meno di dieci neuroni: il test di Microsoft",
+      "excerpt": "I ricercatori hanno alterato una porzione minima dei pesi di un modello per attivare comportamenti nascosti; non risultano impieghi reali osservati.",
+      "url": "/notizie/microsoft-sleeper-agent-backdoor-meno-dieci-neuroni-modelli-ia-2026.html",
+      "section": "Tecnologia / Intelligenza artificiale",
+      "dateISO": "2026-11-11T15:14:00+01:00",
+      "dateLabel": "2026-11-11",
+      "image": "/assets/images/editorial-auto/microsoft-sleeper-agent-backdoor-meno-dieci-neuroni-modelli-ia-2026-v1438-800.webp",
+      "imageAlt": "Ricercatrice davanti a una parete di monitor con una rete neurale astratta e un piccolo nodo evidenziato.",
+      "imageWidth": 800,
+      "imageHeight": 450,
+      "srcset": "/assets/images/editorial-auto/microsoft-sleeper-agent-backdoor-meno-dieci-neuroni-modelli-ia-2026-v1438-480.webp 480w, /assets/images/editorial-auto/microsoft-sleeper-agent-backdoor-meno-dieci-neuroni-modelli-ia-2026-v1438-800.webp 800w, /assets/images/editorial-auto/microsoft-sleeper-agent-backdoor-meno-dieci-neuroni-modelli-ia-2026-v1438-1200.webp 1200w",
+      "updated": true,
+      "updatedAt": "2026-11-11T15:24:00+01:00"
+    },
+    {
       "title": "Budget di Salute, nuove regole in Emilia-Romagna: il progetto di vita entra nei percorsi di cura",
       "excerpt": "La Regione sostituisce le linee del 2015 e rafforza gli interventi su casa, relazioni, formazione e lavoro per salute mentale, dipendenze e neuropsichiatria infantile.",
       "url": "/notizie/emilia-romagna-budget-salute-linee-indirizzo-11-novembre-2026.html",

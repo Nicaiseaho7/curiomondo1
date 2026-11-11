@@ -1,6 +1,94 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://curiomondo.it/notizie/cloudflare-workers-event-subscriptions-sospese-guasto-d1-11-novembre-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11T15:21:00+01:00</news:publication_date>
+      <news:title>Cloudflare Workers, eventi sospesi e un secondo guasto risolto: cosa resta operativo</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/apple-ios-26-7-3-18-7-12-sicurezza-bluetooth-airplay-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11T15:20:00+01:00</news:publication_date>
+      <news:title>Apple aggiorna anche i vecchi iPhone: corrette falle in Bluetooth e AirPlay</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/nvidia-openshell-cncf-agent-substrate-kubernetes-ia-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11T15:19:00+01:00</news:publication_date>
+      <news:title>NVIDIA apre OpenShell alla CNCF: più controllo sugli agenti IA in Kubernetes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/android-patch-novembre-2026-falle-critiche-senza-interazione.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11T15:18:00+01:00</news:publication_date>
+      <news:title>Android, la patch di novembre chiude falle critiche senza interazione dell’utente</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/firefox-160-falle-alto-impatto-aggiornamento-sicurezza-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11T15:17:00+01:00</news:publication_date>
+      <news:title>Firefox 160 corregge una lunga serie di falle ad alto impatto: aggiornamento consigliato</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/openai-businesses-chatgpt-profili-verificati-statistiche-agenti-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11T15:16:00+01:00</news:publication_date>
+      <news:title>Le aziende entrano in ChatGPT: profili verificati, statistiche e agenti commerciali</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/google-ai-edge-gallery-voce-trascrizione-offline-android-ios-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11T15:15:00+01:00</news:publication_date>
+      <news:title>Google porta voce e trascrizione offline sui dispositivi: cosa cambia per privacy e latenza</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://curiomondo.it/notizie/microsoft-sleeper-agent-backdoor-meno-dieci-neuroni-modelli-ia-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>CurioMondo</news:name>
+        <news:language>it</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11T15:14:00+01:00</news:publication_date>
+      <news:title>IA, una backdoor può nascondersi in meno di dieci neuroni: il test di Microsoft</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://curiomondo.it/notizie/emilia-romagna-budget-salute-linee-indirizzo-11-novembre-2026.html</loc>
     <news:news>
       <news:publication>
@@ -4761,633 +4849,6 @@
       </news:publication>
       <news:publication_date>2026-11-09T16:22:00+01:00</news:publication_date>
       <news:title>Nue 112, da domani attivo anche nei distretti di Avellino e Sant'Angelo dei Lombardi</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/il-prezzo-medio-dell-elettricita-in-italia-a-294-euro-in-germania-e-a-351.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T16:13:00+01:00</news:publication_date>
-      <news:title>Il prezzo medio dell'elettricità in Italia a 294 euro, in Germania è a 351</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/il-papa-lavoro-precario-e-instabilita-distruggono-le-famiglie.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T16:13:00+01:00</news:publication_date>
-      <news:title>Il Papa, lavoro precario e instabilità distruggono le famiglie</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/dorgali-e-galtelli-da-riscoprire-con-un-volo-in-ultraleggero.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T16:10:00+01:00</news:publication_date>
-      <news:title>Dorgali e Galtellì da riscoprire con un volo in ultraleggero</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/seduta-inaugurale-della-knesset-domani-alle-16-00-locali.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T16:05:00+01:00</news:publication_date>
-      <news:title>Seduta inaugurale della Knesset domani alle 16,00 locali</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/piatti-tipici-e-vino-per-la-festa-delle-cantine-a-castrum-petrae.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T16:05:00+01:00</news:publication_date>
-      <news:title>Piatti tipici e vino per la 'Festa delle cantine a Castrum Petrae'</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/nave-italia-chiude-la-campagna-solidale-2026-oltre-sei-mesi-di-navigazione.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T16:05:00+01:00</news:publication_date>
-      <news:title>Nave Italia chiude la Campagna solidale 2026, oltre sei mesi di navigazione</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/mitur-l-italia-si-conferma-leader-in-europa-ad-agosto-quasi-99-milioni-di-presenze.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T16:04:00+01:00</news:publication_date>
-      <news:title>MiTur, l'Italia si conferma leader in Europa, ad agosto quasi 99 milioni di presenze</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/a-modena-arriva-zeromail-lettere-digitalizzate-ai-familiari-dei-detenuti.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T16:04:00+01:00</news:publication_date>
-      <news:title>A Modena arriva ZeroMail, lettere digitalizzate ai familiari dei detenuti</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/folla-record-per-la-messa-del-papa-a-buenos-aires-2-milioni-e-mezzo.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T16:00:00+01:00</news:publication_date>
-      <news:title>Folla record per la messa del Papa a Buenos Aires, 2 milioni e mezzo</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/credito-alle-imprese-in-piemonte-solo-il-18-6-chiede-finanziamenti.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:59:00+01:00</news:publication_date>
-      <news:title>Credito alle imprese, in Piemonte solo il 18,6% chiede finanziamenti</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/aggredito-autista-air-campania-al-terminal-di-avellino.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:58:00+01:00</news:publication_date>
-      <news:title>Aggredito autista Air Campania al terminal di Avellino</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/l-ciriani-governo-meloni-ha-reperito-53-milioni-per-carcere-san-vito-al-tagliamento.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:57:00+01:00</news:publication_date>
-      <news:title>L.Ciriani, governo Meloni ha reperito 53 milioni per carcere San Vito al Tagliamento</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/a-caivano-al-via-next-academy-formazione-e-lavoro-per-40-giovani.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:54:00+01:00</news:publication_date>
-      <news:title>A Caivano al via Next Academy, formazione e lavoro per 40 giovani</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/polemiche-per-convocazioni-europei-ciclocross-ct-italia-erano-concordate.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:53:00+01:00</news:publication_date>
-      <news:title>Polemiche per convocazioni Europei ciclocross, ct Italia "erano concordate"</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/l-ospedale-san-luigi-di-orbassano-apre-le-porte-alle-scuole.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:53:00+01:00</news:publication_date>
-      <news:title>L'ospedale San Luigi di Orbassano apre le porte alle scuole</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/autismo-a-8-anni-senza-terapie-angsa-vince-ricorso-contro-asl-di-pescara.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:53:00+01:00</news:publication_date>
-      <news:title>Autismo, a 8 anni senza terapie, Angsa vince ricorso contro Asl di Pescara</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/l-irlanda-conquista-milano-arrivano-gli-irish-music-days.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:52:00+01:00</news:publication_date>
-      <news:title>L'Irlanda conquista Milano, arrivano gli Irish Music Days</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/abilmente-torna-a-torino-oltre-150-espositori-al-lingotto-fiere.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:49:00+01:00</news:publication_date>
-      <news:title>Abilmente torna a Torino, oltre 150 espositori al Lingotto Fiere</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/nasconde-in-casa-un-chilo-di-cocaina-arrestato-28enne-a-cagliari.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:46:00+01:00</news:publication_date>
-      <news:title>Nasconde in casa un chilo di cocaina, arrestato 28enne a Cagliari</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/modifiche-alla-viabilita-e-mezzi-pubblici-potenziati-per-le-atp-finals.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:44:00+01:00</news:publication_date>
-      <news:title>Modifiche alla viabilità e mezzi pubblici potenziati per le Atp Finals</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/arpac-sopralluogo-presidente-fico-e-sindaco-manfredi-nella-sede-di-via-arenaccia.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:42:00+01:00</news:publication_date>
-      <news:title>Arpac, sopralluogo presidente Fico e sindaco Manfredi nella sede di via Arenaccia</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/design-e-modernita-alpina-itinerario-ad-aosta-nell-art-deco-week.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:41:00+01:00</news:publication_date>
-      <news:title>Design e modernità alpina, itinerario ad Aosta nell'Art Déco Week</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/ferrovie-inaugurato-il-nuovo-fabbricato-alstom-a-vado-ligure.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:40:00+01:00</news:publication_date>
-      <news:title>Ferrovie, inaugurato il nuovo fabbricato Alstom a Vado Ligure</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/oltre-60mila-lavoratori-domestici-in-piemonte-cresce-il-peso-delle-badanti.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:39:00+01:00</news:publication_date>
-      <news:title>Oltre 60mila lavoratori domestici in Piemonte, cresce il peso delle badanti</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/il-14-novembre-torna-la-colletta-alimentare.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:36:00+01:00</news:publication_date>
-      <news:title>Il 14 novembre torna la Colletta alimentare</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/archeologia-a-potenza-convegno-su-francesco-ranaldi.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:35:00+01:00</news:publication_date>
-      <news:title>Archeologia: a Potenza convegno su Francesco Ranaldi</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/abbanoa-nuova-condotta-a-laerru-prove-di-collaudo-il-12-e-17-novembre.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:33:00+01:00</news:publication_date>
-      <news:title>Abbanoa, nuova condotta a Laerru, prove di collaudo il 12 e 17 novembre</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/ladri-di-carte-pokemon-arrestati-dalla-polizia-in-provincia-di-pavia.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:30:00+01:00</news:publication_date>
-      <news:title>Ladri di carte Pokemon arrestati dalla Polizia in provincia di Pavia</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/i-concerti-del-gruppo-dei-10-a-ferrara-ripartono-con-un-omaggio-a-guccini.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:29:00+01:00</news:publication_date>
-      <news:title>I concerti del 'Gruppo dei 10' a Ferrara ripartono con un omaggio a Guccini</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/piantedosi-inaugura-commissariato-a-diamante-lo-stato-e-presente.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:28:00+01:00</news:publication_date>
-      <news:title>Piantedosi inaugura Commissariato a Diamante, lo Stato è presente</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/marina-abramovic-element-a-milano-le-perfomance-digitali-dell-artista.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:27:00+01:00</news:publication_date>
-      <news:title>Marina Abramović Element, a Milano le perfomance digitali dell'artista</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/baricco-torna-l-energia-straordinaria-della-tempesta-silenziosa-il-16-giugno-2027.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:26:00+01:00</news:publication_date>
-      <news:title>Baricco, torna l'energia straordinaria della Tempesta silenziosa il 16 giugno 2027</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/eicma-chiude-con-oltre-600mila-visitatori-30-operatori-dall-estero.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:23:00+01:00</news:publication_date>
-      <news:title>Eicma chiude con oltre 600mila visitatori, +30% operatori dall'estero</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/savona-assegnata-la-gestione-di-villa-zanelli.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:21:00+01:00</news:publication_date>
-      <news:title>Savona, assegnata la gestione di Villa Zanelli</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/nel-pinerolese-arriva-guido-dal-16-novembre-il-trasporto-pubblico-diventa-a-chiamata.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:21:00+01:00</news:publication_date>
-      <news:title>Nel Pinerolese arriva Guido dal 16 novembre il trasporto pubblico diventa a chiamata</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/lancia-cupparo-la-nuova-generazione-nasce-a-melfi.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:21:00+01:00</news:publication_date>
-      <news:title>Lancia: Cupparo, la nuova generazione nasce a Melfi</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/dodici-persone-intossicate-dai-funghi-in-ciociaria-l-allarme-della-asl.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:20:00+01:00</news:publication_date>
-      <news:title>Dodici persone intossicate dai funghi in Ciociaria, l'allarme della Asl</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/forza-italia-antonio-morra-alla-guida-di-due-dipartimenti-del-partito-in-umbria.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:19:00+01:00</news:publication_date>
-      <news:title>Forza Italia, Antonio Morra alla guida di due dipartimenti del partito in Umbria</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/il-campione-olimpico-di-judo-teddy-riner-si-candida-alle-presidenziali-francesi.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:18:00+01:00</news:publication_date>
-      <news:title>Il campione olimpico di judo Teddy Riner si candida alle presidenziali francesi</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/a-torino-dopo-14-giorni-termina-l-occupazione-al-campus-einaudi.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:15:00+01:00</news:publication_date>
-      <news:title>A Torino, dopo 14 giorni termina l'occupazione al Campus Einaudi</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/saranno-intensificati-i-controlli-di-polizia-a-fontivegge-e-san-sisto.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:14:00+01:00</news:publication_date>
-      <news:title>Saranno intensificati i controlli di polizia a Fontivegge e San Sisto</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/giornate-contro-la-violenza-sulle-donne-a-perugia.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:06:00+01:00</news:publication_date>
-      <news:title>'Giornate contro la violenza sulle donne' a Perugia</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/una-pedalata-collettiva-ad-aosta-nel-giorno-delle-vittime-della-strada.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:05:00+01:00</news:publication_date>
-      <news:title>Una pedalata collettiva ad Aosta nel giorno delle vittime della strada</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/la-rassegna-testimonianze-ricerca-azioni-torna-con-33-spettacoli-in-tutta-genova.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:05:00+01:00</news:publication_date>
-      <news:title>La rassegna 'Testimonianze, ricerca, azioni' torna con 33 spettacoli in tutta Genova</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/benvenuti-in-atelier-10-imprese-provincia-di-ancona-aprono-porte-del-made-in-italy.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:05:00+01:00</news:publication_date>
-      <news:title>Benvenuti in atelier, 10 imprese provincia di Ancona aprono porte del made in Italy</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/smantellate-bande-rivali-sulla-costa-fermana-maxi-operazione-della-polizia.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:02:00+01:00</news:publication_date>
-      <news:title>Smantellate bande rivali sulla costa fermana, maxi operazione della Polizia</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/rinnovo-del-consiglio-provinciale-di-pesaro-urbino-tre-liste-e-25-candidati.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:02:00+01:00</news:publication_date>
-      <news:title>Rinnovo del Consiglio provinciale di Pesaro Urbino, tre liste e 25 candidati</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/inaugurata-la-cassanese-moderna-primo-tassello-dell-hub-milano-porta-est.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T15:01:00+01:00</news:publication_date>
-      <news:title>Inaugurata la 'Cassanese Moderna', primo tassello dell'Hub Milano Porta Est</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/nelle-marche-nasce-una-barca-su-cinque-da-primato-cantieristica-a-sfida-superyacht.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T14:58:00+01:00</news:publication_date>
-      <news:title>Nelle Marche nasce una barca su cinque da primato cantieristica a sfida superyacht</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/uil-emergenza-abitativa-in-abruzzo-il-quadro-e-allarmante.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T14:50:00+01:00</news:publication_date>
-      <news:title>Uil, 'emergenza abitativa in Abruzzo, il quadro è allarmante'</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/tanti-visitatori-e-le-istituzioni-per-il-tartufo-bianco-di-citta-di-castello.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T14:45:00+01:00</news:publication_date>
-      <news:title>Tanti visitatori e le istituzioni per il tartufo bianco di Città di Castello</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/festival-empatica-seconda-edizione-sul-contrasto-della-violenza-di-genere.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T14:45:00+01:00</news:publication_date>
-      <news:title>Festival Empatica, seconda edizione sul contrasto della violenza di genere</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/cifarellii-basilicata-ancora-senza-il-nuovo-piano-turistico-regionale.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T14:37:00+01:00</news:publication_date>
-      <news:title>Cifarellii, Basilicata ancora senza il nuovo Piano turistico regionale</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/gratteri-sciarra-e-veronesi-a-scandicci-per-la-rassegna-il-libro-della-vita.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T14:25:00+01:00</news:publication_date>
-      <news:title>Gratteri, Sciarra e Veronesi a Scandicci per la rassegna 'Il Libro della vita'</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/treni-diretti-tra-milano-e-aosta-nei-giorni-a-maggiore-affluenza.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T14:17:00+01:00</news:publication_date>
-      <news:title>Treni diretti tra Milano e Aosta nei giorni a maggiore affluenza</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/rutigliano-pd-bardi-dica-no-all-autonomia-differenziata.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T14:17:00+01:00</news:publication_date>
-      <news:title>Rutigliano (Pd), Bardi dica 'no' all'Autonomia differenziata</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://curiomondo.it/notizie/il-puzzle-come-palestra-ecco-perche-non-e-solo-un-bel-passatempo-tempo-libero.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>CurioMondo</news:name>
-        <news:language>it</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T14:06:24+01:00</news:publication_date>
-      <news:title>Il puzzle come palestra, ecco perchè non è solo un bel passatempo - Tempo Libero</news:title>
     </news:news>
   </url>
 </urlset>
