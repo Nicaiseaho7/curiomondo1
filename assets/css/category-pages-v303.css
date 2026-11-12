@@ -1,3 +1,4 @@
+@import url("/assets/css/editoriale-fonts-v1460.css");
 :root{--cat-blue:#1769e0;--cat-navy:#08264b;--cat-soft:#eef5ff;--cat-line:#dfe8f4;--cat-muted:#61748c}
 .category-shell{width:min(980px,calc(100% - 32px));margin:auto;padding:32px 0 72px}.category-breadcrumb{display:flex;align-items:center;gap:9px;margin:8px 0 28px;color:var(--cat-muted);font-size:.78rem}.category-breadcrumb a{color:inherit;text-decoration:none}.category-breadcrumb a:hover{color:var(--cat-blue)}
 .category-hero{position:relative;overflow:hidden;min-height:280px;padding:0;border:1px solid #cfe0f7;border-radius:28px;background:#0b2038;box-shadow:0 22px 58px rgba(19,73,140,.12)}
@@ -26,3 +27,5 @@ html.cm-dark .category-hero{border-color:#284b73}html.cm-dark .category-section-
 .category-card-thumb img{display:block;width:100%;height:100%;object-fit:cover}
 @media(max-width:600px){.category-card-thumb{width:84px;height:56px;border-radius:10px}}
 html.cm-dark .category-card-thumb{background:#14385f}
+
+.category-card-copy strong{font-family:"Source Sans 3",Arial,sans-serif;font-weight:700;font-size:1.375rem;line-height:1.2}

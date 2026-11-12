@@ -1,3 +1,4 @@
+@import url("/assets/css/editoriale-fonts-v1460.css");
 /* CurioMondo homepage CSS bundle v291.
    Generato preservando rigorosamente l'ordine dei fogli originali. */
 
@@ -2098,3 +2099,8 @@ html.cm-dark .auto-card .ameta,html.cm-dark .card .meta{background:#102b4d;color
 }
 @media(prefers-reduced-motion:reduce){.auto-card,.card,.auto-card picture,.card picture,.auto-card img,.card img{transition:none!important;transform:none!important}}
 .cmc-links a{color:#1d4ed8;font-weight:800}
+
+/* I titoli delle card restano Source Sans 3 anche dopo il font forzato del bundle. */
+.cm-topic-card__title,.cm-topic-lead__title,.card h3,.auto-card h3{font-family:"Source Sans 3",Arial,sans-serif!important;font-weight:700!important}
+.cm-topic-card__title,.card h3,.auto-card h3{font-size:1.375rem;line-height:1.2}
+.cm-topic-lead__title{font-size:1.625rem;line-height:1.18}
