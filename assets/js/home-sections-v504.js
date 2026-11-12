@@ -1,7 +1,8 @@
-/* CurioMondo v529 — la home nuova è già nel HTML. Nessun salto dopo il caricamento. */
+/* CurioMondo v536 — la home statica resta se è aggiornata; se il feed ha notizie nuove, si ricostruisce da sola. */
 (() => {
   'use strict';
   const existing = document.getElementById('cm-home-editorial-v504');
+  let preferStatic = false;
   if (existing && existing.dataset.static === 'ready') {
     const mixed = Array.from(existing.querySelectorAll('.cm-topic-section')).some((section) => {
       const id = section.dataset.category || '';
@@ -25,16 +26,18 @@
       dots.forEach((dot, index) => dot.addEventListener('click', () => slides[index].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })));
       viewport.addEventListener('scroll', update, { passive: true });
     }
-    return;
+    preferStatic = true;
     }
   }
   const A = window.CMHomepageAllocation;
   if (!A) return;
   const $ = (selector, root = document) => root.querySelector(selector);
-  const zone = document.createElement('div');
-  zone.id = 'cm-home-editorial-v504';
-  zone.className = 'cm-home-editorial';
-  zone.setAttribute('aria-live', 'polite');
+  const zone = (preferStatic && existing) ? existing : document.createElement('div');
+  if (!preferStatic || !existing) {
+    zone.id = 'cm-home-editorial-v504';
+    zone.className = 'cm-home-editorial';
+    zone.setAttribute('aria-live', 'polite');
+  }
   const legacyFeatured = $('.featured');
   const legacyLatestTitle = $('.auto-rail-label');
   const legacyLatest = $('.auto-rail');
@@ -45,7 +48,7 @@
     if (mobileLayout.matches && question) question.after(zone);
     else legacyFeatured.before(zone);
   };
-  placeZone();
+  if (!preferStatic || !existing) placeZone();
   const hideLegacy = () => [legacyFeatured, legacyLatestTitle, legacyLatest].forEach((node) => {
     node.hidden = true;
     node.setAttribute('aria-hidden', 'true');
@@ -332,9 +335,36 @@
     zone.dataset.started = '1';
     refresh();
   };
-  window.addEventListener('pointerdown', start, { once: true, passive: true });
-  window.addEventListener('keydown', start, { once: true });
-  window.addEventListener('scroll', start, { once: true, passive: true });
+  const syncIfStale = async () => {
+    try {
+      const response = await fetch('/assets/data/home-feed-v210.json', { cache: 'no-store', credentials: 'same-origin' });
+      if (!response.ok) return;
+      const payload = await response.json();
+      const items = Array.isArray(payload.items) ? payload.items : [];
+      const newest = new Map();
+      items.forEach((entry) => {
+        const category = A.categoryFor(entry);
+        const published = A.firstPublished(entry);
+        if (!category || !published || published > new Date() || !entry.url) return;
+        const prev = newest.get(category.id);
+        if (!prev || published > prev.published) newest.set(category.id, { published, url: entry.url });
+      });
+      for (const item of newest.values()) {
+        if (!zone.querySelector('a[href="' + item.url + '"]')) {
+          start();
+          return;
+        }
+      }
+    } catch (error) {
+      console.error('CurioMondo homepage sync:', error);
+    }
+  };
+  if (preferStatic) syncIfStale();
+  else {
+    window.addEventListener('pointerdown', start, { once: true, passive: true });
+    window.addEventListener('keydown', start, { once: true });
+    window.addEventListener('scroll', start, { once: true, passive: true });
+  }
 })();
 
 
