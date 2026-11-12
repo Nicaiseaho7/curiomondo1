@@ -45,8 +45,8 @@ html.cm-dark .cm-insight,html.cm-dark .cm-data-cube{border-color:rgba(127,188,25
   .cm-insight,.cm-data-cube{margin:26px 0 32px;padding:20px 17px 18px;border-radius:22px}
   .cm-insight::after,.cm-data-cube::after{left:18px;right:18px;top:54px}
   .cm-insight>.cm-kicker,.cm-data-cube>.cm-kicker{margin-bottom:21px;font-size:.62rem;letter-spacing:.17em}
-  .cm-insight-grid,.cm-data-grid{display:grid;grid-auto-flow:column;grid-auto-columns:min(72vw,220px);grid-template-columns:none;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding:1px 1px 8px;scrollbar-width:none}
-  .cm-insight-grid::-webkit-scrollbar,.cm-data-grid::-webkit-scrollbar{display:none}
+  .cm-insight-grid,.cm-data-grid{display:grid;grid-auto-flow:column;grid-auto-columns:min(78vw,230px);grid-template-columns:none;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding:1px 2px 12px;scrollbar-width:thin;scrollbar-color:#6df1df rgba(255,255,255,.22);overscroll-behavior-x:contain}
+  .cm-insight-grid::-webkit-scrollbar,.cm-data-grid::-webkit-scrollbar{display:block;height:6px}
   .cm-insight-grid>div,.cm-data-grid>div{min-height:128px;padding:16px 15px 14px;scroll-snap-align:start}
   .cm-insight-grid b,.cm-data-grid b{font-size:1.85rem}
   .cm-insight-grid small,.cm-data-grid small{font-size:.76rem}
@@ -125,29 +125,33 @@ main.wrap>h1{font-family:"Source Sans 3",Arial,sans-serif;font-size:2rem;font-we
   .subtitle{font-size:1.375rem}
 }
 
-/* v1461 — tela bianca degli articoli, solo modalità chiara. */
+/* v1462 — tela bianca degli articoli, solo modalità chiara.
+   Intestazione, pulsante audio e box dati restano colorati. */
 html:not(.cm-dark),
 html:not(.cm-dark) body{
-  background:#ffffff;
-  background-image:none;
+  background:#ffffff !important;
+  background-image:none !important;
+  overflow-x:clip;
 }
 html:not(.cm-dark) main.wrap,
 html:not(.cm-dark) main.wrap>h1,
 html:not(.cm-dark) .subtitle,
 html:not(.cm-dark) .meta,
 html:not(.cm-dark) .cm-article-byline,
+html:not(.cm-dark) .actions,
 html:not(.cm-dark) .art-body,
 html:not(.cm-dark) .art-flow-continuation{
-  background:transparent;
+  background-color:transparent;
   background-image:none;
 }
 html:not(.cm-dark) .cm-insight,
 html:not(.cm-dark) .cm-data-cube{
-  box-shadow:0 6px 16px rgba(3,35,76,.12),inset 0 1px 0 rgba(255,255,255,.11);
+  box-shadow:0 4px 14px rgba(3,35,76,.10), inset 0 1px 0 rgba(255,255,255,.11) !important;
+  max-width:100%;
 }
 html:not(.cm-dark) .art-sources{
-  background:#F8FAFC;
-  border:1px solid #E2E8F0;
+  background:#F8FAFC !important;
+  border:1px solid #E2E8F0 !important;
 }
 html:not(.cm-dark) .art-sources a{
   color:var(--cm-blue);
@@ -173,15 +177,17 @@ html:not(.cm-dark) .cm-related a{
   .cm-data-cube{max-width:100%}
   .cm-insight-grid,
   .cm-data-grid{
-    scrollbar-width:thin;
-    scrollbar-color:#6df1df rgba(255,255,255,.22);
-    padding-bottom:12px;
+    scrollbar-width:thin !important;
+    scrollbar-color:#6df1df rgba(255,255,255,.28) !important;
+    padding-bottom:14px !important;
     overscroll-behavior-x:contain;
+    -webkit-mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 22px),transparent);
+    mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 22px),transparent);
   }
   .cm-insight-grid::-webkit-scrollbar,
-  .cm-data-grid::-webkit-scrollbar{display:block;height:6px}
+  .cm-data-grid::-webkit-scrollbar{display:block !important;height:6px}
   .cm-insight-grid::-webkit-scrollbar-track,
-  .cm-data-grid::-webkit-scrollbar-track{background:rgba(255,255,255,.18);border-radius:99px}
+  .cm-data-grid::-webkit-scrollbar-track{background:rgba(255,255,255,.2);border-radius:99px}
   .cm-insight-grid::-webkit-scrollbar-thumb,
   .cm-data-grid::-webkit-scrollbar-thumb{background:#6df1df;border-radius:99px}
   .cm-insight>.cm-kicker::after,
