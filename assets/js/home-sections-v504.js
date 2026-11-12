@@ -349,6 +349,15 @@
         const prev = newest.get(category.id);
         if (!prev || published > prev.published) newest.set(category.id, { published, url: entry.url });
       });
+      const newestOverall = items.reduce((best, entry) => {
+        const published = A.firstPublished(entry);
+        if (!published || published > new Date() || !entry.url) return best;
+        return !best || published > best.published ? { published, url: entry.url } : best;
+      }, null);
+      if (newestOverall && !zone.querySelector('#cm-ultima-ora a[href="' + newestOverall.url + '"]')) {
+        start();
+        return;
+      }
       for (const item of newest.values()) {
         if (!zone.querySelector('a[href="' + item.url + '"]')) {
           start();
