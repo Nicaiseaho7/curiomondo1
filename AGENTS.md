@@ -105,6 +105,19 @@ Il pezzo scorre solo a paragrafi. Lo stampo da guida non si aggira cambiando `da
 ## Note di metodo — verifica obbligatoria prima di pubblicare, 8 novembre 2026
 Prima di ogni pubblicazione si legge il corpo `.art-body` di ogni notizia del pacchetto. Una nota di metodo parla del sito invece che del fatto: «questo testo aggiorna», «senza creare un secondo URL», «questa pagina», «lo stesso indirizzo», «questo articolo integra», «CurioMondo aggiorna» o «aggiornerà», «elementi sostanziali», «voci che saranno escluse». Si cancella. Se c’è un fatto nella stessa frase, si tiene solo il fatto. Non si inventa e non si apre un secondo articolo. Il pezzo non esce finché la nota è nel corpo. Non si cancellano gli usi veri («il sito del ministero», «l’azienda ha già pubblicato il programma»). I casi dubbi si segnalano, non si indovinano. In chat, a fine pacchetto, si dice il vero: o «ho corretto note di metodo in N articoli», con i file, o «nessuna nota di metodo da correggere». Non si scrive la seconda frase se il controllo non è stato fatto. Dettaglio: `automation/prompts/divieto-note-di-metodo.txt`.
 
+## Controllo di scrittura — obbligatorio prima di ogni pubblicazione, 12 novembre 2026
+
+Ordine del proprietario. Non scade. Non si salta, neanche se il pacchetto dice già «controllato». Vale per ogni articolo nuovo e per ogni aggiornamento, prima del commit.
+
+Si legge per intero titolo, sommario e corpo `.art-body`. Si pubblica solo ciò che è scritto bene. Si corregge prima, nello stesso indirizzo, ciò che non va:
+
+- italiano scorretto, frasi senza senso, calchi e parole usate a sproposito;
+- ripetizioni: lo stesso fatto, lo stesso consiglio o la stessa frase ricopiati più avanti;
+- metadati e note interne finite nel testo (slug, versioni, prompt, «keyword», «non pubblicare», istruzioni all’agente, commenti sul sito);
+- numeri, nomi, citazioni e cause non confermati da una fonte. Se un dato non si verifica, si toglie o si formula solo con quello che la fonte dice davvero. Non si inventa per riempire.
+
+In chat, a fine pacchetto, si dice sempre il vero: «tutti gli articoli sono scritti bene», oppure «ho modificato il testo di N articoli», con il file e il motivo. Non si scrive la prima frase se la lettura non è stata fatta.
+
 ## Divieto di pubblicare duplicati — 18 ottobre 2026
 Prima di ogni notizia leggere `automation/prompts/divieto-duplicati.txt`. Non pubblicare una seconda volta la stessa partita, lo stesso fatto, la stessa anteprima o lo stesso risultato, nemmeno con un titolo diverso. Non pubblicare un’anteprima, una diretta o un orario se l’appuntamento è già passato: o c’è il referto e si dà il risultato, o non si pubblica. Se arrivano informazioni nuove, aggiornare l’articolo già online: stesso indirizzo, ora della prima pubblicazione ferma, card «aggiornamento» in rosso. Nel testo non si parla mai di URL, di «questa pagina» o di come il sito aggiorna: solo i fatti. Il controllo `duplicate_of` in `automation/newsroom/site.py` blocca solo il secondo articolo, non l’aggiornamento.
 
