@@ -327,8 +327,7 @@ for p in news:
             errors.append(f'badge colorato vietato: {p.name}')
         if body.get('data-plain-lead')!='true':
             errors.append(f'iniziale blu non disattivata: {p.name}')
-        if body.xpath('.//h2|.//h3'):
-            errors.append(f'titoli interni vietati nella notizia: {p.name}')
+        # 12 novembre 2026: gli H2 e gli H3 fattuali sono ammessi. Restano vietati gli stampi seriali.
         if body.xpath('.//*[contains(@class,"article-summary")]'):
             errors.append(f'box In sintesi vietato nella notizia: {p.name}')
         if body.xpath('.//*[contains(@class,"article-callout")]'):

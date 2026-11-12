@@ -93,12 +93,13 @@ Ordine del proprietario. Non scade. Vale per ogni notizia nuova e per ogni aggio
 
 Si legge il corpo `.art-body`. La notizia non si pubblica se contiene:
 
-- un titolo interno (H2 o H3), anche se il formato è `feature` e anche se il titoletto sembra informativo;
 - una domanda usata come sezione («Che cosa cambia», «Cosa sappiamo», «Come misurare», «I prossimi passaggi»);
 - un box «In sintesi»;
 - un riquadro «Attenzione»;
 - un badge con colore inline (`style="background:…"`). L’etichetta resta sobria, senza pallino colorato: `Mondo`, `Mondo / Politica`, `Italia / Cronaca`;
 - l’iniziale blu gigante. Ogni notizia del lotto dichiara `data-plain-lead="true"`.
+
+Dal 12 novembre 2026 gli H2 e gli H3 sono ammessi se enunciano un fatto. Non si usano come stampo da guida. Il grassetto nel paragrafo non ripete il sottotitolo.
 
 Il pezzo scorre solo a paragrafi. Lo stampo da guida non si aggira cambiando `data-article-format`. `tools/predeploy.py` blocca i file `notizie/` del commit che violano il controllo. Si corregge e si rilancia il gate prima del push.
 
@@ -115,6 +116,14 @@ Si legge per intero titolo, sommario e corpo `.art-body`. Si pubblica solo ciò 
 - ripetizioni: lo stesso fatto, lo stesso consiglio o la stessa frase ricopiati più avanti;
 - metadati e note interne finite nel testo (slug, versioni, prompt, «keyword», «non pubblicare», istruzioni all’agente, commenti sul sito);
 - numeri, nomi, citazioni e cause non confermati da una fonte. Se un dato non si verifica, si toglie o si formula solo con quello che la fonte dice davvero. Non si inventa per riempire.
+
+Grassetto e sottotitoli, ordine del 12 novembre 2026 sera. Vale da questo momento su ogni articolo nuovo e su ogni aggiornamento:
+
+- Il lettore che scorre solo i passaggi in evidenza deve capire i fatti principali, senza che il pezzo sembri una scheda pubblicitaria.
+- I sottotitoli sono H2 e, se serve un livello sotto, H3. Sono già in grassetto per lo stile, dicono un fatto e non una formula («Cosa sappiamo», «Che cosa cambia», «In sintesi»).
+- Il grassetto dentro il paragrafo non ripete la stessa informazione del sottotitolo né la stessa informazione in un altro paragrafo.
+- Niente grassetto per infilare parole chiave. Niente grassetto su attacchi generici o su frasi che non contengono un fatto.
+- Gli articoli già online non si riscrivono tutti solo per aggiungere sottotitoli. Si applica ai pezzi nuovi e a quelli che si stanno correggendo.
 
 In chat, a fine pacchetto, si dice sempre il vero: «tutti gli articoli sono scritti bene», oppure «ho modificato il testo di N articoli», con il file e il motivo. Non si scrive la prima frase se la lettura non è stata fatta.
 
@@ -197,8 +206,11 @@ Ogni pagina in `/notizie/`, presente e futura, chiude con un piccolo riquadro in
 - Non va in homepage, biblioteca, curiosità o pagine istituzionali.
 - Senza questo blocco la notizia non è pubblicabile.
 
-## Divieto sottotitoli H2/H3 nelle notizie — 27 settembre 2026
-Nelle pagine **notizie** (flash e standard) **non** usare H2/H3 nel corpo `.art-body`: solo paragrafi continui. H2/H3 ammessi solo negli **approfondimenti**. Vedi `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` e `PROTOCOLLO-REDAZIONE-CORPO.md`.
+## Sottotitoli H2 e H3 — 12 novembre 2026, sera
+
+Ordine del proprietario. Sostituisce il divieto del 27 settembre.
+
+Nelle notizie si usano sottotitoli H2 e, quando serve, H3. Devono essere visivamente distinti, naturalmente in grassetto, e dire un fatto. Vietati gli stampi «Cosa sappiamo», «Che cosa cambia», «In sintesi», «I prossimi passaggi». Il grassetto nel testo non ripete il sottotitolo, non si ripete da un paragrafo all’altro e non serve a infilare parole chiave. Non si evidenziano le frasi introduttive generiche. Chi scorre solo l’evidenziato deve ricostruire la notizia, senza effetto da scheda pubblicitaria. Gli articoli già online non si riscrivono in blocco: la regola vale per i pezzi nuovi e per quelli in correzione.
 
 ## Divieto fonti nel corpo — 27 settembre 2026 (fail-closed)
 **Mai** inserire nel corpo dell'articolo (`.art-body`) righe o paragrafi `Fonte: …`, `Fonti: …`, elenchi di testate a fine pezzo o formule equivalenti. Le fonti con link stanno **solo** nella sezione **«Fonti consultate»** (`.art-sources`) sotto l'articolo. L'attribuzione nel testo, se indispensabile, è solo narrativa («secondo il comunicato FIGC…»), mai una riga `Fonte:`. Violazione = articolo non pubblicabile. Vedi `PROTOCOLLO-REDAZIONE-CORPO.md` e `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`.
