@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>CurioMondo</title>
     <link>https://curiomondo.it/</link>
     <description>Notizie, curiosità e approfondimenti dal mondo.</description>
     <language>it-IT</language>
-    <ns0:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
-    <ns0:link href="https://curiomondo.it/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
+    <atom:link href="https://curiomondo.it/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Appalti agricoli, banca dati entro marzo 2027: come funzionerà</title>
       <link>https://curiomondo.it/notizie/banca-dati-appalti-agricoltura-decreto-primo-trimestre-2027.html</link>
@@ -160,13 +160,6 @@
       <guid>https://curiomondo.it/notizie/falso-allarme-bomba-in-300-scuole-dell-irlanda-del-nord-alcune-evacuate-11-novembre-2026.html</guid>
       <pubDate>Wed, 11 Nov 2026 18:41:38 +0100</pubDate>
       <description>LONDRA - Novembre 11,2026 - News Oltre trecento scuole dell'Irlanda del Nord hanno ricevuto via email la minaccia di una bomba e alcune sono state evacuate.</description>
-    </item>
-    <item>
-      <title>La Danimarca ospiterà gli Europei del 2027</title>
-      <link>https://curiomondo.it/notizie/la-danimarca-ospitera-gli-europei-del-2027-11-novembre-2026.html</link>
-      <guid>https://curiomondo.it/notizie/la-danimarca-ospitera-gli-europei-del-2027-11-novembre-2026.html</guid>
-      <pubDate>Wed, 11 Nov 2026 18:41:37 +0100</pubDate>
-      <description>vince Tabilo in tre set 16:10 ### Orgoglio Cobolli: 'Ho qualità che pochi hanno' 15:32 ### Cagliari: Giulini, 'il nuovo stadio entra in una fase cruciale' 15:21 ### Aic e Inail insieme, al via.</description>
     </item>
     <item>
       <title>Nations League, Kane celebra il record di presenze</title>
