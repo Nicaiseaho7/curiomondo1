@@ -249,6 +249,15 @@ for p in news:
         'questa pagina sara corretta','prossimi elementi sostanziali',
         'voci circolate online saranno escluse','integra gli sviluppi',
         'mantenendo la url',
+        'il punto centrale della notizia',
+        'ipotesi non confermate',
+        'per il pubblico italiano la rilevanza',
+        'i dati disponibili descrivono un fatto',
+        'soprattutto informativo',
+        'la verifica successiva dovrà confrontare',
+        'la verifica successiva dovra confrontare',
+        'fino ad allora restano validi i fatti',
+        'non giustifica allarmi',
     )
     def _drop_banned(match, phrases=banned_phrases):
         inner=match.group(1)

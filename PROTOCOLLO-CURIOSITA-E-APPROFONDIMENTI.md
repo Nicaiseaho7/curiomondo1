@@ -1,5 +1,9 @@
 # PROTOCOLLO OBBLIGATORIO — CURIOSITÀ E APPROFONDIMENTI CURIOMONDO
 
+<!-- normative-language -->
+**Normative language, from 12 November 2026:** English. The controlling text for public copy is `PROTOCOL-PUBLIC-PROSE.md`. Italian text in this file is a historical annex and loses where it conflicts with that protocol.
+
+
 **Versione:** 1.4
 **Data:** 6 ottobre 2026  
 **Stato:** obbligatorio, fail-closed  

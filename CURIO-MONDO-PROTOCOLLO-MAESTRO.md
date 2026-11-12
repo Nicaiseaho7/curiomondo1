@@ -1,83 +1,98 @@
-# CURIO MONDO — PROTOCOLLO MAESTRO EDITORIALE E TECNICO
+# CURIO MONDO — MASTER EDITORIAL AND TECHNICAL PROTOCOL
 
-## Controllo rigoroso dei duplicati — 8 novembre 2026
+**Normative language, from 12 November 2026:** English. New protocol text is written in technical English. Italian passages that follow in this file, or in older protocol files, are historical annexes. If they conflict with `PROTOCOL-PUBLIC-PROSE.md`, that protocol wins for any sentence a reader can see.
 
-**Stato:** obbligatorio, primo filtro prima di immagini, categoria e homepage. Prevale sulle formule più larghe che chiamino «nuovo» un pezzo solo perché cambia titolo, angolo o lunghezza.
+## Public prose — 12 November 2026
 
-Prima di pubblicare si legge per intero ogni articolo del pacchetto e lo si confronta con le notizie già online, in `notizie/` e in `assets/data/home-feed-v210.json`. Il confronto è sul fatto, sul luogo e sul giorno. Lo slug e `duplicate_of` non bastano.
+**Status:** mandatory before every push.
 
-Non si pubblica un secondo articolo se il fatto è già sul sito. Vale anche per una riscrittura più corta o più lunga, per un altro titolo e per un dettaglio secondario già scritto. Si aggiorna il pezzo esistente solo quando arriva un fatto nuovo e verificato: bilancio, orario, decisione, numero ufficiale, esito. Stesso indirizzo, novità in apertura, `datePublished` invariata. In dubbio, si aggiorna e non si duplica. A fine ciclo si dichiara quanti pezzi sono nuovi e quanti sono aggiornamenti. Regola completa: `automation/prompts/divieto-duplicati.txt`.
+Public copy is journalism, not a description of journalism. Metadata, wire headers, hashtags, generation notes, and serial paragraphs that would fit any other story are forbidden in the body, the standfirst, and the excerpt. The binding test, the banned moulds, and the report to the owner are in `PROTOCOL-PUBLIC-PROSE.md` and `automation/prompts/divieto-note-di-metodo.txt`.
 
-## Note di metodo — verifica prima di pubblicare, 8 novembre 2026
+A paragraph is deleted when it is scaffold. A fact inside the same paragraph is kept. Nothing is invented to replace the cut. `datePublished` does not move.
 
-**Stato:** obbligatorio su ogni notizia in uscita, prima del push. Una nota di metodo è metatesto: il corpo parla del sito invece che del fatto.
+## Duplicate control — 8 November 2026
 
-Si legge `.art-body` e si cancellano, in qualunque variante, «questo testo aggiorna», «senza creare un secondo URL», «questa pagina», «lo stesso indirizzo», «questo articolo integra», «CurioMondo aggiorna» o «aggiornerà», «elementi sostanziali», «voci che saranno escluse». Se nello stesso paragrafo c’è un fatto, il fatto resta. Non si inventa e non si apre un secondo articolo. `datePublished` non si sposta. Title, meta, canonical e JSON-LD non si toccano.
+**Status:** mandatory, the first filter, ahead of images, category, and homepage. It prevails over looser formulas that would call a piece “new” only because the title, the angle, or the length changed.
 
-Non è errore «l’azienda ha già pubblicato il programma» o «il sito del ministero». Se il caso è dubbio, la frase non si pubblica e si segnala. Il pezzo non esce finché nel corpo resta una nota di metodo. In chat, dopo ogni pacchetto, si dice solo il vero: note di metodo corrette, con il numero e i file, oppure nessuna trovata. Non si dichiara «nessuna» senza aver letto i corpi. Dettaglio: `automation/prompts/divieto-note-di-metodo.txt`.
+Before publication, read every article in the batch and compare it with what is already live, in `notizie/` and in `assets/data/home-feed-v210.json`. The comparison is on the event, the place, and the day. The slug and `duplicate_of` are not enough.
 
-## Titoli con curiosità veritiera e professionale — 2 ottobre 2026
+Do not publish a second article if the event is already on the site. That includes a shorter or longer rewrite, another title, and a secondary detail already written. Update the existing piece only when a new verified fact arrives: a toll, a time, a decision, an official number, an outcome. Same address, the new fact at the top, `datePublished` unchanged. In doubt, update and do not duplicate. At the end of the cycle, state how many pieces are new and how many are updates. Full rule: `automation/prompts/divieto-duplicati.txt`.
 
-Per i titoli prevale `PROTOCOLLO-TITOLI-CTR.md` v2.1. Titoli dichiarativi, diretti e informativi come scelta ordinaria; ogni titolo deve offrire un motivo concreto e veritiero per approfondire attraverso dettagli distintivi, novità, dati, contrasti, conseguenze, limiti, meccanismi o utilità documentati, con intensità proporzionata alla notizia. Individuare internamente il riscontro nel corpo e nelle fonti, applicare il test del titolo isolato su Google e della promessa mantenuta. Domande solo quando il contenuto le giustifica, mai come schema seriale, anche senza `?` («cosa cambia», «quali…»). Confrontare gli ultimi 10 titoli reali e il lotto per evitare attacchi e code ripetuti. Vietato anche il clickbait formalmente vero ma fuorviante. Restano aboliti 70/30, obbligo di suspense e divieto di titoli descrittivi; 55–70 caratteri è un orientamento. Non riscrivere titoli già online senza una richiesta di revisione.
+## Method notes — 8 November 2026, extended 12 November 2026
 
-## Standard articoli premium — v763, 4 ottobre 2026
+**Status:** mandatory on every outgoing news page, before the push.
 
-Per ogni nuova notizia e revisione sostanziale è obbligatorio `PROTOCOLLO-ARTICOLI-PREMIUM.md` v1.0. Lo standard trasferisce agli articoli di attualità la cura premium già richiesta alle guide: verifica proporzionata al rischio, contributo originale, chiarezza, contesto, trasparenza, aggiornamenti reali, hero dedicata e page experience veloce.
+Read `.art-body`. Delete, in any variant, “this text updates”, “without creating a second URL”, “this page”, “the same address”, “this article integrates”, “CurioMondo will update”, “substantial elements”, “reports that will be excluded”, and the serial moulds in `PROTOCOL-PUBLIC-PROSE.md` §2. If the same paragraph contains a fact, the fact stays. Invent nothing and do not open a second article. Do not move `datePublished`. Do not touch title, meta, canonical, or JSON-LD to hide a body defect.
 
-Non introduce una scaletta fissa: la composizione segue la storia e non deve ripetere una struttura riconoscibile. Nelle notizie restano vietati H2/H3 e titoletti seriali; timeline, tabelle, documenti e box sono moduli facoltativi, ammessi soltanto quando aumentano la comprensione. La lunghezza segue la materia verificata e non si raggiunge con riempitivo.
+“The company has already published the programme” and “the ministry’s website” are not errors. If the case is doubtful, do not publish that sentence: flag it. The piece does not ship while a method note remains. After each batch, report only what is true: scaffold removed, with the count and the files, or none found. Do not declare “none” without having read the bodies.
 
-Per le urgenze vale il flusso a due velocità: prima versione breve ma verificata, poi aggiornamento della stessa pagina con prove, contesto e conseguenze. Conservare `datePublished`; cambiare `dateModified` soltanto per modifiche sostanziali. I pezzi dichiarati `premium` o `feature` devono raggiungere almeno 85/100 nella griglia dedicata; i formati ordinari restano regolati dai gate proporzionati v471/v503.
+## Titles — 2 October 2026
 
-Per le nuove notizie l'hero predefinita è 16:9 e larga almeno 1.200 px; per approfondimenti e guide evergreen resta preferibile il 3:2. Il protocollo definisce anche layout, pubblicità, mobile, accessibilità, Core Web Vitals, dati strutturati e misurazione dei primi dieci articoli.
+`PROTOCOLLO-TITOLI-CTR.md` v2.1 prevails for titles. The ordinary title is declarative, direct, and informative. Every title gives a concrete, true reason to continue, drawn from a distinctive detail, a number, a contrast, a consequence, a limit, a mechanism, or a documented use, at an intensity proportional to the story. Identify the support in the body and in the sources. Apply the isolated-title test and the kept-promise test. Questions only when the content is a question, never as a serial pattern, including without a `?`. Compare the last 10 live titles and the batch so that openings and tails do not repeat. Clickbait that is formally true but misleading is forbidden. The 70/30 rule, the duty to withhold the answer, and the ban on descriptive titles are abolished. 55–70 characters is guidance. Do not rewrite a live title unless a revision was requested.
 
-## REVISIONE v503 — GATE PROPORZIONATO E AUTORIPARAZIONE
+## Premium article standard — v763, 4 October 2026
 
-**Data:** 22 settembre 2026  
-**Stato:** obbligatorio, permanente e prevalente sulle regole incompatibili precedenti.
+`PROTOCOLLO-ARTICOLI-PREMIUM.md` v1.0 is mandatory for every new story and every substantial revision. It brings to news the care already required of guides: verification proportional to risk, an original contribution, clarity, context, transparency, real updates, a dedicated hero, and a fast page.
 
-L'obiettivo operativo è pubblicare un numero maggiore di articoli interessanti senza ridurre accuratezza, trasparenza o sicurezza.
+It does not impose a fixed outline. Composition follows the story and must not repeat a recognisable structure. In news, `h2` / `h3` and serial subheads stay forbidden. Timelines, tables, documents, and boxes are optional and allowed only when they improve understanding. Length follows the verified material and is not reached with filler.
 
-- Per notizie ordinarie e contenuti di servizio è sufficiente una fonte primaria o ufficiale autentica e competente. La seconda conferma è consigliata, non obbligatoria.
-- Per flash, notizie ordinarie e servizio basta un solo elemento concreto di utilità o valore aggiunto. Due elementi sono richiesti soltanto per analisi e approfondimenti autonomi.
-- La rilevanza nazionale, l'esclusività e la pubblicazione entro 24 ore non sono requisiti. Sono ammesse notizie locali, di nicchia, culturali, sportive, di spettacolo e sviluppi fino a sette giorni o oltre quando ancora attuali, ricercati, utili o nuovi per CurioMondo.
-- Una storia già trattata non si ripubblica come secondo articolo. È duplicato anche un titolo diverso sulla stessa partita, sullo stesso fatto, su una seconda anteprima o sullo stesso risultato. I fatti nuovi si scrivono nell’articolo già online, con «aggiornamento» in homepage. Vale `automation/prompts/divieto-duplicati.txt`.
-- Un difetto tecnico riparabile non comporta lo scarto dell'articolo. L'agente è autorizzato a correggere autonomamente file, indici, feed, sitemap, canonical, dati strutturati, immagini, collegamenti, categorie, cache-busting e pipeline necessari alla pubblicazione, limitandosi al repository CurioMondo e preservando i contenuti già validi.
-- Dopo una riparazione, rieseguire il gate tecnico. Dichiarare conclusa la pubblicazione solo dopo il superamento dei controlli predeploy e live.
-- Restano bloccanti: fatti inventati, fonti false, accuse o dati sensibili non verificati, citazioni inesistenti, immagini fuorvianti, violazioni legali, contenuti privi di sostanza e problemi tecnici non risolti dopo i tentativi sicuri di riparazione.
+Urgent stories use two speeds: a short verified first version, then an update of the same page with evidence, context, and consequences. Keep `datePublished`. Change `dateModified` only for a substantial change. Pieces declared `premium` or `feature` must reach at least 85/100 on the dedicated grid. Ordinary formats stay under the proportional gates v471/v503.
 
-Il principio è: **riparare e pubblicare quando la storia è valida; bloccare soltanto quando il difetto editoriale non è sanabile o il rilascio tecnico resta non valido.**
+For new news the default hero is 16:9 and at least 1,200 px wide. Evergreen guides still prefer 3:2.
 
-## Regola permanente di navigazione — nome e logo
+## REVISION v503 — PROPORTIONAL GATE AND SELF-REPAIR
 
-**Stato:** obbligatorio, permanente, su ogni pagina presente e futura.
+**Date:** 22 September 2026  
+**Status:** mandatory, permanent, and prevailing over incompatible earlier rules.
 
-- Ogni volta che l’utente schiaccia il **nome** del sito (`CurioMondo`, `Curio` + `Mondo`) oppure il **logo**, da qualunque pagina e in qualunque momento, deve essere portato **immediatamente alla homepage**.
-- Questa è l’unica azione che porta direttamente alla homepage senza riaprire il menu.
-- Il clic sul nome o sul logo **non** deve riaprire il menu, **non** deve usare `history.back()` e **non** deve restituire la pagina precedente.
-- Il tasto **Indietro** resta diverso: se l’utente era entrato in una pagina dal menu, Indietro riapre quel menu. Il nome e il logo non seguono mai questa regola.
-- Vale per l’intestazione, per il menu laterale e per ogni futura testata. I nuovi template devono collegare nome e logo a `/` con questo comportamento, senza eccezioni.
+The operational aim is to publish more interesting articles without lowering accuracy, transparency, or safety.
 
-## eBook della Domanda del giorno — libro vendibile, dal 28 settembre 2026
+- Ordinary news and service copy need one authentic, competent primary or official source. A second confirmation is recommended, not required.
+- A flash, an ordinary story, or a service piece needs one concrete element of use or added value. Two elements are required only for a standalone analysis or a guide.
+- National relevance, exclusivity, and publication within 24 hours are not requirements. Local, niche, cultural, sports, and entertainment stories are allowed, as are developments up to seven days old or older when they are still current, useful, or new for CurioMondo.
+- A story already covered is not republished as a second article. A different title on the same match, the same event, a second preview, or the same result is a duplicate. New facts are written into the live article. In doubt, update. See `automation/prompts/divieto-duplicati.txt`.
+- A repairable technical defect does not mean the story is discarded. The agent may correct files, indexes, feeds, sitemaps, canonicals, structured data, images, links, categories, cache-busting, and the pipeline required to publish, inside the CurioMondo repository only, preserving copy that is already valid.
+- After a repair, run the technical gate again. Declare publication complete only after predeploy passes.
+- Still blocking: invented facts, false sources, unverified accusations or sensitive data, nonexistent quotations, misleading images, legal violations, pages with no substance, and technical failures that safe repairs did not fix.
 
-**Stato:** obbligatorio e prevalente su v162 e v176 per ogni eBook pubblicato dal 28 settembre 2026 in poi. Gli eBook già online restano com’ sono.
+The principle: **repair and publish when the story is valid; block only when the editorial defect cannot be healed or the technical release stays invalid.**
 
-Un eBook della Domanda del giorno non è più un mini-libro da 15.000–30.000 caratteri. È un libro breve che si potrebbe vendere.
+## Permanent navigation rule — name and logo
 
-- **Dall’11 novembre 2026:** minimo **10.000 parole** di testo utile. Sopra le 10.000 è conforme; sotto le 10.000 non si pubblica. Non c’è più un tetto. Gli eBook già online, compresi quelli da 22.000–32.000, restano com’ sono.
-- **Fino al 10 novembre 2026:** 25.000 parole, tolleranza 22.000–32.000. Quella fascia non vale più per i libri nuovi.
-- **8–12 capitoli**, una schermata per capitolo. Il capitolo si scorre. `Indietro` e `Avanti` cambiano capitolo, non paragrafi. Niente sfoglio, swipe o gesture.
-- Ogni capitolo ha **un solo H2** e sviluppa un passaggio solo. Un H3 è ammesso solo se il capitolo cambia davvero argomento. Vietato un titolo per ogni paragrafo.
-- Ordine: promessa, a chi serve e a chi no, problema concreto, punto di vista non già gratuito, esempi, metodo rifacibile, limiti, chiusura che fa fare un passo. La chiusura non riassume il libro.
-- Voce naturale, italiana, chiara. Niente tono da manuale, niente motivazione vuota, niente ripetizione della stessa idea con altre parole.
-- **Indicizzazione obbligatoria:** `index,follow`, canonical autoreferenziale, presenza in `sitemap.xml` e nell’indice di ricerca interno. È vietato `noindex` su questi eBook, presenti e futuri.
+**Status:** mandatory, permanent, on every current and future page.
 
-## Incipit e sottotitolo di copertina — permanente, 25 ottobre 2026
+- Activating the site **name** (`CurioMondo`, `Curio` + `Mondo`) or the **logo**, from any page, at any moment, goes **immediately to the homepage**.
+- This is the only control that opens the homepage without reopening the menu.
+- The name or the logo does not reopen the menu, does not call `history.back()`, and does not return the previous page.
+- **Back** is different: if the reader entered from the menu, Back reopens that menu. The name and the logo never follow that rule.
+- This binds the header, the side menu, and any future masthead. New templates link the name and the logo to `/` with this behaviour, without exception.
 
-L’inizio del testo di un eBook non deve essere simile al sottotitolo stampato in copertina. Il sottotitolo presenta il libro. Il primo paragrafo entra da un’altra porta: una scena, un caso, un fatto. Vietato riprendere le stesse parole, la stessa immagine o la stessa tesi con una parafrasi. Vale per ogni eBook nuovo. Quelli già online restano com’ sono.
+## Daily-question ebooks — a book one could sell, from 28 September 2026
 
-## Data al posto di «oggi» — permanente, 26 ottobre 2026
+**Status:** mandatory, and prevailing over v162 and v176, for every ebook published from 28 September 2026. Ebooks already online stay as they are.
 
-Nella maggior parte delle notizie non si scrive «oggi». Si scrive la data: «26 ottobre» o «domenica 26 ottobre». Se conta l’ora, la data resta accanto: «26 ottobre alle 18», non «oggi alle 18». Lo stesso vale per «stamattina», «stasera» e «domani» quando stanno da soli.
+A daily-question ebook is not a 15,000–30,000-character booklet. It is a short book one could sell.
+
+- **From 11 November 2026:** minimum **10,000 words** of useful text. Above 10,000 is compliant. Below 10,000 is not published. There is no ceiling. Ebooks already online, including those of 22,000–32,000 words, stay as they are.
+- **Through 10 November 2026:** 25,000 words, tolerance 22,000–32,000. That band does not apply to new books.
+- **8–12 chapters**, one screen per chapter. The chapter scrolls. `Back` and `Forward` change the chapter, not the paragraph. No page-flip, swipe, or gesture.
+- Each chapter has **one `h2`** and develops one movement. An `h3` is allowed only when the chapter actually changes subject. A heading on every paragraph is forbidden.
+- Order: the promise, who it is for and who it is not for, a concrete problem, a point of view that is not already free, examples, a method the reader can repeat, limits, a close that makes the reader take one step. The close does not summarise the book.
+- Natural, clear Italian. No manual tone, no empty motivation, no repetition of the same idea in other words.
+- **Indexing is mandatory:** `index,follow`, a self-referential canonical, presence in `sitemap.xml` and in the internal search index. `noindex` is forbidden on these ebooks, present and future.
+
+## Opening and cover standfirst — permanent, 25 October 2026
+
+The first paragraph of an ebook must not resemble the standfirst printed on the cover. The standfirst presents the book. The first paragraph enters by another door: a scene, a case, a fact. Do not reuse the same words, the same image, or the same thesis as a paraphrase. This binds every new ebook. Those already online stay as they are.
+
+## A date instead of “today” — permanent, 26 October 2026
+
+In most news stories do not write “today”. Write the date: “26 October” or “Sunday 26 October”. If the hour matters, the date stays beside it: “26 October at 18:00”, not “today at 18:00”. The same applies to “this morning”, “this evening”, and “tomorrow” when they stand alone.
+
+## Historical annex (Italian)
+
+The sections below are the pre-12 November 2026 Italian text, retained so that no earlier operational rule is dropped. They are not controlling where they conflict with the English text above or with `PROTOCOL-PUBLIC-PROSE.md`.
+
 
 «Oggi» resta solo se la data completa è già nella stessa frase e toglierlo la rende meno chiara. Gli articoli già online non si riscrivono per questa regola.
 

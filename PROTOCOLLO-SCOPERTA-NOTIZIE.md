@@ -1,5 +1,9 @@
 # CurioMondo — Protocollo scoperta notizie in tempo reale
 
+<!-- normative-language -->
+**Normative language, from 12 November 2026:** English. The controlling text for public copy is `PROTOCOL-PUBLIC-PROSE.md`. Italian text in this file is a historical annex and loses where it conflicts with that protocol.
+
+
 ## Revisione v471 — selezione inclusiva e verifica proporzionata
 
 **Data:** 21 settembre 2026  

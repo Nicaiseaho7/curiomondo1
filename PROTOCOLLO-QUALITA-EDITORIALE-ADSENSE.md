@@ -1,5 +1,9 @@
 # Protocollo permanente qualità editoriale e idoneità Google AdSense
 
+<!-- normative-language -->
+**Normative language, from 12 November 2026:** English. The controlling text for public copy is `PROTOCOL-PUBLIC-PROSE.md`. Italian text in this file is a historical annex and loses where it conflicts with that protocol.
+
+
 ## REVISIONE v503 — GATE PROPORZIONATO E AUTORIPARAZIONE
 
 **Data:** 22 settembre 2026  

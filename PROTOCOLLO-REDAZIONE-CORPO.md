@@ -1,125 +1,82 @@
-# Protocollo redazione corpo articolo — CurioMondo
+# Article body contract — CurioMondo
 
-**Stato:** obbligatorio, fail-closed  
-**Data:** 22 settembre 2026  
-**Prevalenza scrittura:** `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` (v502) e `PROTOCOLLO-ARTICOLI-PREMIUM.md` (v1.0). Questo file resta il contratto tecnico del markup pubblico. Non sostituisce il protocollo qualità, il protocollo immagini né il gate di rischio v471.
+**Status:** normative, fail-closed  
+**Date:** 22 September 2026; prose control updated 12 November 2026  
+**Normative language:** English  
+**Prose authority:** `PROTOCOL-PUBLIC-PROSE.md` prevails for what a reader may read. This file remains the technical contract for public markup. It does not replace the risk gate, the image protocol, or `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`.
 
-La velocità non prevale sulla qualità. Se le informazioni verificate non bastano per un articolo completo e originale: `NON PUBBLICARE`.
+Speed does not outrank quality. If the verified material is not enough for a complete, original article: `DO NOT PUBLISH`.
 
-## Principio
+## Principle
 
-Il testo pubblico segue lo standard professionale in `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md`.
+Public text follows `PROTOCOL-PUBLIC-PROSE.md`.
 
-Non ottimizzare il testo per «sembrare un giornale». Ottimizzarlo per essere utile al lettore.
+Do not optimise the text so that it “looks like a newspaper”. Optimise it so that a reader leaves knowing the event.
 
-Ogni articolo deve comunicare subito il fatto, distinguere fatti da dichiarazioni e stime, spiegare conseguenze concrete senza commenti, aggiungere informazioni rispetto al titolo, restare adulto e sobrio, e terminare quando terminano i fatti.
+Every article states the fact at once, separates facts from statements and estimates, gives only documented consequences, adds information the headline did not already exhaust, stays adult and plain, and stops when the facts stop.
 
-Nel corpo pubblico non devono mai comparire appunti interni, verifiche automatiche, elenchi di testate, timestamp di lavorazione o conversazioni tra redattori.
+Internal notes, automated checks, masthead lists, processing timestamps, and desk conversation never enter the public body.
 
 ## Markup
 
-- **Titolo (H1):** secondo `PROTOCOLLO-TITOLI-CTR.md` v2.1. Informativo e professionale, con un motivo concreto e veritiero per approfondire, fondato su dettagli, dati, contrasti, conseguenze, limiti o utilità documentati. Può già dare il fatto principale; domande solo motivate, nessuno schema seriale «cosa…». Test del titolo isolato su Google e della promessa mantenuta. Il sommario aggiunge dettagli, non recupera informazioni nascoste per il clic.
-- **Sommario (`.subtitle`):** uno o due elementi non già nel titolo.
-- **Lead:** primo paragrafo di `.art-body`. Si regge da solo.
-- **Corpo:** `.art-body` con `data-editorial-protocol="4.0"` e `data-article-format` (`flash` | `standard` | `feature`). I nuovi articoli **non** dichiarano `data-length-policy="3000-7000"`.
-- **Sottotitoli H2/H3:** **vietati** nelle notizie (`notizie/*.html`, flash e standard). Ammessi solo negli approfondimenti evergreen/feature se informativi. Vietati i titoletti generici.
-- **Fonti:** soltanto in `.art-sources`, fuori da `.art-body`.
-- **Evergreen:** blocco `.cm-evergreen-reader` sotto l’articolo, mai nel corpo della notizia.
+- **Title (`h1`):** `PROTOCOLLO-TITOLI-CTR.md` v2.1. Informative, specific, and true. A question is allowed only when the piece is actually a question. No serial “what changes” pattern.
+- **Standfirst (`.subtitle`):** one or two facts that are not already the headline.
+- **Lead:** the first paragraph of `.art-body`. It stands alone.
+- **Body:** `.art-body` with `data-editorial-protocol="4.0"` and `data-article-format` (`flash` | `standard` | `feature`). New articles do not declare `data-length-policy="3000-7000"`. News pages set `data-plain-lead="true"`.
+- **`h2` / `h3`:** forbidden in `notizie/*.html` for `flash` and `standard`. Allowed only in a long evergreen feature, and only when the heading is informative. Generic labels (`Il contesto`, `Cosa sappiamo`, `Il punto`) are forbidden everywhere in news.
+- **Sources:** only in `.art-sources`, outside `.art-body`, and before the related-story block.
+- **Evergreen module:** `.cm-evergreen-reader` under the article, never inside the news body.
 
-## Lunghezza
+## Length
 
-La lunghezza dipende dalla materia verificata. Vietato allungare per quota.
+Length follows the verified material. Stretching to a quota is forbidden.
 
-Orientamento per i nuovi articoli secondo il protocollo premium, mai obiettivo da riempire:
+Orientation, not a target to fill:
 
-- flash verificato: circa 250–450 parole;
-- notizia completa: circa 700–1.200 parole;
-- articolo premium: circa 1.200–2.200 parole quando esistono materia e contributo originale sufficienti;
-- evento in evoluzione: lunghezza variabile.
+- a verified flash: about 250–450 words, and legally shorter when the event is small;
+- a full news story: about 700–1,200 words;
+- a premium piece: about 1,200–2,200 words when the documents support it.
 
-Le fasce ammettono eccezioni editoriali motivate. Un flash può essere più corto quando il fatto è circoscritto; un'analisi può essere più lunga quando i documenti lo richiedono. Se manca materia anche per un flash: non pubblicare.
+After serial scaffold is removed, a short true story stays short and is marked `flash` if it is under 300 words. It is not refilled.
 
-## Composizione libera e moduli facoltativi
+## Free composition
 
-Non usare una sequenza fissa di sezioni e non rendere seriale la struttura. Timeline, tabelle, dati chiave, documenti, calcoli e stati di verifica sono facoltativi e compaiono solo quando chiariscono la storia. Nelle pagine `notizie/*.html` non possono introdurre H2/H3 o titoletti generici vietati.
+No fixed sequence of sections. Timelines, tables, key figures, and documents appear only when they clarify this story. In `notizie/*.html` they do not introduce `h2` / `h3`.
 
-## Tono
+Guide furniture is forbidden in news: “In sintesi” boxes, “Attenzione” callouts, question-shaped sections, and coloured badges with an inline background. The category label is plain text.
 
-Italiano professionale, naturale, preciso. Verbi diretti. Niente prima persona editoriale («abbiamo verificato», «non pubblichiamo», «restiamo sulle conferme», «riteniamo»).
+## Tone
 
-## Fonti nel corpo
+Professional Italian. Direct verbs. No editorial first person (“we verified”, “we do not publish”, “we believe”).
 
-**VIETATO** nel corpo dell'articolo (`.art-body`), in qualsiasi forma:
+## Sources inside the body
 
-- paragrafi o frasi finali del tipo `Fonte: …`, `Fonti: …`, `Fonte primaria: …`, `Fonti consultate: …`;
-- elenchi di testate a fine pezzo («Fonte: ANSA, Reuters, BBC»);
-- note sul fact-checking, `Conferma:`, `Letture:`, `Europe/Rome`, orari di lavorazione, «al momento della verifica», «nei testi consultati», «le testate allineano», «fonti riportate in fondo».
+Forbidden inside `.art-body`, in any form:
 
-Le fonti con link stanno **solo** nella sezione dedicata **«Fonti consultate»** (`.art-sources`), già presente sotto l'articolo. **Non** ripetere le fonti nel testo.
+- a closing line `Fonte:`, `Fonti:`, `Fonte primaria:`, `Fonti consultate:`;
+- a masthead list (“ANSA, Reuters, BBC”) used as a credit;
+- fact-checking notes, `Conferma:`, `Letture:`, `Europe/Rome`, processing times, “at the time of verification”, “the outlets align”.
 
-Il nome di una fonte nel corpo è ammesso **solo** se indispensabile per l'attribuzione giornalistica *dentro* la frase (citazione, dato esclusivo, distinzione tra ricostruzione e atto ufficiale), es.: «secondo il bollettino Mimit…», «la FIGC ha comunicato…». Mai come riga separata `Fonte: …`.
+Linked sources live only under **Fonti consultate** (`.art-sources`). A source name inside a sentence is allowed only as journalistic attribution: “according to the Mimit bulletin”. Never as its own credit line.
 
-## Divieti nel testo pubblico
+## Public-text prohibitions
 
-Appunti redazionali, istruzioni operative, «non confondere», «chi cerca», «niente articolo», «da quelle query», contenuti fuori tema, ripetizioni dello stesso fatto o cifra.
+Desk notes, operational instructions, “do not confuse”, “anyone searching”, “no article”, material from another story, and repetition of the same fact or figure.
 
-Ogni paragrafo deve riguardare il fatto, una conseguenza, un dato necessario o un precedente pertinente. Se eliminandolo il lettore non perde nulla sulla notizia, eliminarlo.
+A paragraph that the reader can lose without losing the story is deleted. The serial moulds named in `PROTOCOL-PUBLIC-PROSE.md` §2 are in that class.
 
-## Fatti e incertezze
+## Facts and uncertainty
 
-Non presentare come fatto promesse, proposte, stime, indiscrezioni. Usare «ha annunciato», «secondo il comunicato», «il testo non è ancora stato pubblicato», «la cifra è una stima».
+Do not publish a promise, a proposal, an estimate, or a rumour as a fact. Use “announced”, “according to the statement”, “the text has not been published”, “the figure is an estimate”.
 
-## Controllo bloccante predeploy
+## Predeploy
 
-`tools/predeploy.py` analizza `.art-body` degli articoli v4 e blocca il deploy se trova le espressioni vietate o frasi duplicate. I nomi delle fonti restano obbligatori in `.art-sources`.
+`tools/predeploy.py` reads `.art-body` and blocks the deploy on forbidden expressions, duplicate sentences where the length policy applies, paragraphs over 60 words, headings inside news, sources placed after the related block, and a featured card that is missing its three figures or its marked keyword. `automation/newsroom/contaminazione.py` removes operative sentences and serial scaffold before that gate. Source names remain mandatory in `.art-sources`.
 
-## Sottotitoli H2/H3 nelle notizie — VIETATI (27 settembre 2026)
+## Incident imagery
 
-**Nelle pagine `notizie/*.html` (flash e standard) i sottotitoli H2/H3 nel corpo `.art-body` sono vietati.**
-Il pezzo scorre solo a paragrafi (e liste solo se indispensabili per candidati/orari).
-I sottotitoli H2/H3 restano ammessi **solo** negli **approfondimenti** evergreen (`approfondimenti/` o formato feature), quando orientano una guida lunga.
-Non inserire mai titoletti del tipo «Il contesto», «Cosa sappiamo», «Il punto» nelle notizie.
-Violazione = articolo da correggere prima del go-live.
+Heroes for road deaths, workplace deaths, construction incidents, and motorway crashes shall not show overturned cars, wreckage, twisted metal, broken glass in close-up, blood, bodies, stretchers, or a staged reconstruction. A quiet context is allowed: cones, an empty stretch of road, barriers, a night motorway with no crashed vehicle. No licence plates, including invented ones. The tone is documentary and respectful. A violation means the image is regenerated before go-live.
 
-## Stampo da guida vietato nelle notizie — 8 novembre 2026, sera
+## Trend radar
 
-Nelle pagine `notizie/*.html` non si pubblica lo stampo delle guide. Prima del go-live si controlla ogni pezzo del lotto:
-
-- niente H2/H3 nel corpo, nemmeno dichiarando `data-article-format="feature"`;
-- niente sezioni-domanda («Che cosa cambia», «Come misurare», «I prossimi passaggi», «Cosa sappiamo»);
-- niente box «In sintesi» e niente riquadro «Attenzione»;
-- niente badge con `style="background"`: etichetta sobria (`Mondo`, `Mondo / Politica`, `Italia / Cronaca`);
-- `data-plain-lead="true"` sull’articolo, così non compare l’iniziale blu.
-
-Il corpo è una sequenza di paragrafi. Il controllo è fail-closed in `tools/predeploy.py` per i file `notizie/` del commit.
-
-## Vietati i commenti personali / meta della redazione nel corpo — 27 settembre 2026
-
-Nelle **notizie** (`notizie/*.html`) è **vietato** inserire nel corpo `.art-body` frasi meta, di metodo o di «voce CurioMondo», ad esempio:
-- «CurioMondo segue il caso con sobrietà…»
-- «CurioMondo aggiorna solo su fatti di agenzia…»
-- «CurioMondo non pubblica dettagli…»
-- «Non anticipiamo sentenze…» / «Aggiorneremo solo con fonti…»
-- qualsiasi chiusura in prima persona redazionale o auto-elogio del metodo
-
-Il pezzo racconta **fatti, contesto e fonti**. Metodo, disclosure IA e firma stanno **solo** in `art-sources` / footer / pagine istituzionali (`Come lavoriamo`), non nei paragrafi della notizia.
-Violazione = correggere prima del go-live.
-
-
-## Immagini incidenti / morti sul lavoro — vietati rottami e scene macabre (27 settembre 2026)
-
-Nelle hero e illustrazioni di **notizie su incidenti stradali, morti sul lavoro, cantieri, investimenti, incidenti autostradali**:
-- **MAI** auto rovesciate, carcasse, lamiere contorte, vetri infranti in primo piano, sangue, corpi, barelle, scene di soccorso gore o “re-enactment” spettacolari dell’incidente.
-- **Sì** a immagini sobrie di contesto: cantiere segnalato, coni e luci, tratto di strada vuoto, barriere, autostrada di notte **senza** veicolo incidentato.
-- Niente targhe (anche inventate) su qualsiasi veicolo.
-- Tone: documentario, rispettoso della vittima, non tabloid.
-
-Violazione = rigenerare l’immagine e aggiornare hero/og prima del go-live. **Non deve più succedere.**
-
-
-## Notizie da radar Trends — corpo e fonti (5 ottobre 2026)
-
-- Nel corpo della notizia **non** si scrive di query, Google Trends, ricerche in ascesa, soglie o volumi. Solo fatti.
-- Il radar resta interno: scegli il tema da Trends, pubblica la notizia come un quotidiano.
-- In `.art-sources` ogni link ha il **nome reale** della fonte (`nome` / `descrizione` nella bozza), non «Fonte consultata».
-- Vedi anche la sezione omonima in `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` (5 ottobre 2026).
+The body of a news story does not mention queries, Google Trends, rising searches, thresholds, or volumes. The radar stays internal. In `.art-sources` every link carries the real name of the source, never “Fonte consultata”.

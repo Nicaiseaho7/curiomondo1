@@ -1,5 +1,9 @@
 # CurioMondo — protocollo IA per immagini editoriali
 
+<!-- normative-language -->
+**Normative language, from 12 November 2026:** English. The controlling text for public copy is `PROTOCOL-PUBLIC-PROSE.md`. Italian text in this file is a historical annex and loses where it conflicts with that protocol.
+
+
 Questo file deve essere letto integralmente da qualunque IA, agente, renderer o collaboratore che riceva il pacchetto del sito e debba creare o aggiornare articoli e immagini.
 
 ## Formati premium — 4 ottobre 2026

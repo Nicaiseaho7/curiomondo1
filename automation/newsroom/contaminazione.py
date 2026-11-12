@@ -45,6 +45,15 @@ OPERATIVE = (
     r"ignora le istruzioni precedenti",
     r"modifica il workflow",
     r"pubblica questo testo",
+    r"il punto centrale della notizia",
+    r"ipotesi non confermate",
+    r"per il pubblico italiano la rilevanza",
+    r"i dati disponibili descrivono un fatto",
+    r"soprattutto informativo",
+    r"la verifica successiva dovr[àa] confrontare",
+    r"fino ad allora restano validi i fatti",
+    r"non giustifica allarmi",
+    r"l['’]aggiornamento è stato pubblicato",
 )
 DESTINATARIO = (
     r"\b(?:il cms|il workflow|l['’]agente editoriale|chatgpt|il sistema editoriale)\b.{0,90}\b(?:deve|pubblica|aggiorna|non modificar)",

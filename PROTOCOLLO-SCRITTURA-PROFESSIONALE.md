@@ -1,5 +1,7 @@
 # CURIOMONDO — PROFESSIONAL NEWS WRITING STANDARD
 
+**Normative language, from 12 November 2026:** English. Public copy is governed by `PROTOCOL-PUBLIC-PROSE.md`. That protocol prevails over the Italian annex below wherever they conflict. Serial scaffold, metadata leaks, fused clauses, and `..` are publication defects.
+
 **Versione:** 5.0  
 **Data:** 22 settembre 2026  
 **Stato:** obbligatorio, fail-closed  

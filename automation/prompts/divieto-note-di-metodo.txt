@@ -1,26 +1,40 @@
-CURIOMONDO — DIVIETO DELLE NOTE DI METODO
-Ordine del proprietario, 8 novembre 2026. Obbligatorio prima di ogni pubblicazione, su ogni articolo del pacchetto. Una nota di metodo è metatesto: il pezzo parla del sito invece che del fatto.
+CURIOMONDO — METHOD NOTES AND SERIAL SCAFFOLD ARE FORBIDDEN
+Owner order, 8 November 2026. Extended 12 November 2026.
+Binding before every publication, on every article in the batch.
+Normative language: English. Controlling specification: PROTOCOL-PUBLIC-PROSE.md.
 
-Prima del push si legge il corpo `.art-body` di ogni notizia in uscita. Si cerca, in qualunque variante:
+A method note is metatext: the piece talks about the site instead of the event.
+A serial scaffold is metatext of a second kind: the same paragraph, with the headline pasted in, shipped on unrelated stories.
 
-- «questo testo aggiorna»
-- «senza creare un secondo URL» o «seconda URL»
-- «questa pagina», «questa stessa pagina», «lo stesso indirizzo»
-- «questo articolo integra», «questo articolo sostituisce», «questo articolo fotografa»
-- «CurioMondo aggiorna», «aggiornerà», «manterrà», «segue il caso»
-- «elementi sostanziali», «voci che saranno escluse», «non pubblica dettagli»
+Before push, read `.art-body` of every outgoing news page. Reject any variant of:
 
-Non si toccano title, meta, canonical, JSON-LD e la didascalia delle immagini. Lì l’URL tecnico resta.
+- “this text updates”, “without creating a second URL”, “this page”, “the same address”
+- “this article integrates / replaces / photographs”
+- “CurioMondo updates / will update / will maintain / is following the case”
+- “substantial elements”, “reports that will be excluded”, “we do not publish details”
+- “the point of the story, [headline], must be separated from unconfirmed hypotheses”
+- “the available data describe an event or an announced decision, while further consequences require later acts”
+- “for the Italian public, relevance depends on concrete links to markets, travel, security, sport, technology or European policy”
+- “the value is mainly informational and does not justify alarm”
+- “the picture may change after [sentence copied from above]”
+- “a later check will have to compare the announcements with operational documents”
+- “in the case of [lower-cased headline]…”
+- a wire header, a hashtag, `Redazione Ansa`, `News (ANSA)`, `RIPRODUZIONE RISERVATA`, or `(ANSA)` used as a stamp
+- a double stop (`..`) or two finite clauses fused without a boundary
 
-Se la frase dice solo come è fatto il sito, si cancella. Se nello stesso paragrafo c’è un fatto, si tiene il fatto e si toglie il resto. Non si inventa nulla e non si apre un secondo articolo. `datePublished` resta quella della prima pubblicazione.
+Do not touch title, meta, canonical, JSON-LD, or the image caption while removing these. The technical URL stays in the head.
 
-Non è una nota di metodo un uso vero della parola: «l’azienda ha già pubblicato il programma», «il sito del ministero», «l’indirizzo del servizio pubblico». Quelli sono notizia. Se il caso è dubbio, non si corregge a intuito: si segnala e non si pubblica quella frase.
+If the sentence only explains the site or the act of publishing, delete it.
+If the same paragraph also contains a fact, keep the fact and delete the rest.
+Invent nothing. Do not open a second article. `datePublished` stays the first-publication time.
 
-Il pezzo non esce finché nel corpo resta una nota di metodo. L’unico segnale di un aggiornamento è il badge rosso sulla card.
+Not a method note: “the company has already published the programme”, “the ministry’s website”, “the address of the public service”. Those are news. If the case is doubtful, do not guess: flag the sentence and do not publish it.
 
-RESOCONTO AL PROPRIETARIO — 8 novembre 2026. Dopo ogni pacchetto si scrive in chat una delle due cose, e solo se è vera:
+The piece does not ship while a method note or a serial scaffold remains in the body. The only update signal is the red badge on the card.
 
-- «Ho corretto note di metodo in N articoli», con i file, se ne è stata tolta almeno una.
-- «Nessuna nota di metodo da correggere», se la lettura del corpo non ne ha trovate.
+REPORT TO THE OWNER. After each batch, write exactly one of the following, and only if it is true:
 
-È vietato scrivere la seconda frase per rassicurare. Se il controllo non è stato fatto, si dice che non è stato fatto.
+- “Scaffold removed from N articles”, with the files, if at least one sentence was cut.
+- “No scaffold in the batch”, if the bodies were read and none was found.
+
+The second sentence is forbidden as reassurance. If the check was not done, say that it was not done.
