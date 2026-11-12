@@ -124,3 +124,75 @@ main.wrap>h1{font-family:"Source Sans 3",Arial,sans-serif;font-size:2rem;font-we
   .art-body h3,.art-flow-continuation h3{font-size:1.4375rem}
   .subtitle{font-size:1.375rem}
 }
+
+/* v1461 — tela bianca degli articoli, solo modalità chiara. */
+html:not(.cm-dark),
+html:not(.cm-dark) body{
+  background:#ffffff;
+  background-image:none;
+}
+html:not(.cm-dark) main.wrap,
+html:not(.cm-dark) main.wrap>h1,
+html:not(.cm-dark) .subtitle,
+html:not(.cm-dark) .meta,
+html:not(.cm-dark) .cm-article-byline,
+html:not(.cm-dark) .art-body,
+html:not(.cm-dark) .art-flow-continuation{
+  background:transparent;
+  background-image:none;
+}
+html:not(.cm-dark) .cm-insight,
+html:not(.cm-dark) .cm-data-cube{
+  box-shadow:0 6px 16px rgba(3,35,76,.12),inset 0 1px 0 rgba(255,255,255,.11);
+}
+html:not(.cm-dark) .art-sources{
+  background:#F8FAFC;
+  border:1px solid #E2E8F0;
+}
+html:not(.cm-dark) .art-sources a{
+  color:var(--cm-blue);
+  text-decoration:underline;
+  text-decoration-thickness:1px;
+  text-underline-offset:3px;
+}
+html:not(.cm-dark) .curio-related,
+html:not(.cm-dark) .cm-related{
+  background:#F8FAFC;
+  border:1px solid #E2E8F0;
+  border-radius:18px;
+  margin-top:36px;
+  padding:18px 14px 14px;
+}
+html:not(.cm-dark) .curio-related a,
+html:not(.cm-dark) .cm-related a{
+  background:#ffffff;
+  border:1px solid #E2E8F0;
+}
+@media(max-width:700px){
+  .cm-insight,
+  .cm-data-cube{max-width:100%}
+  .cm-insight-grid,
+  .cm-data-grid{
+    scrollbar-width:thin;
+    scrollbar-color:#6df1df rgba(255,255,255,.22);
+    padding-bottom:12px;
+    overscroll-behavior-x:contain;
+  }
+  .cm-insight-grid::-webkit-scrollbar,
+  .cm-data-grid::-webkit-scrollbar{display:block;height:6px}
+  .cm-insight-grid::-webkit-scrollbar-track,
+  .cm-data-grid::-webkit-scrollbar-track{background:rgba(255,255,255,.18);border-radius:99px}
+  .cm-insight-grid::-webkit-scrollbar-thumb,
+  .cm-data-grid::-webkit-scrollbar-thumb{background:#6df1df;border-radius:99px}
+  .cm-insight>.cm-kicker::after,
+  .cm-data-cube>.cm-kicker::after{
+    content:"";
+    width:8px;
+    height:8px;
+    margin-left:auto;
+    border-right:2px solid #6df1df;
+    border-top:2px solid #6df1df;
+    transform:rotate(45deg);
+    flex:none;
+  }
+}
