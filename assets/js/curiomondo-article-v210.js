@@ -119,7 +119,8 @@
 .curio-related a:active,.cm-related a:active{transform:scale(.985)}
 .curio-related-thumb{display:block!important;width:148px!important;height:100px!important;aspect-ratio:auto!important;overflow:hidden;border-radius:12px!important;background:#dbe9f8}
 .curio-related-thumb img,.curio-related img{display:block!important;width:100%!important;height:100%!important;object-fit:cover}
-.curio-related-copy{display:flex!important;min-width:0;flex-direction:column;gap:5px!important;padding:0 58px 0 0!important}
+.curio-related-copy{display:flex!important;min-width:0;flex-direction:column;gap:5px!important;padding:0!important}
+.curio-related a.has-today .curio-related-copy{padding-right:58px!important}
 .curio-related-copy small{color:var(--cm-blue,#1565C0)!important;font-size:.72rem!important;font-weight:800!important;letter-spacing:.05em;text-transform:uppercase}
 .curio-related-copy strong{display:-webkit-box!important;overflow:hidden;color:var(--cm-ink,#102940);font-size:1.05rem!important;font-weight:700!important;line-height:1.3!important;-webkit-box-orient:vertical;-webkit-line-clamp:3!important}
 .curio-related-new{position:absolute;top:8px;right:8px;z-index:1;padding:3px 8px;border-radius:999px;background:#B91C1C;color:#fff;font-size:.68rem;font-weight:800;line-height:1.2;letter-spacing:.01em}
@@ -127,7 +128,7 @@
 @media(max-width:600px){
 .curio-related a,.cm-related a{grid-template-columns:124px minmax(0,1fr)!important;gap:12px!important;padding:11px!important}
 .curio-related-thumb{width:124px!important;height:84px!important}
-.curio-related-copy{padding-right:54px!important}
+.curio-related a.has-today .curio-related-copy{padding-right:54px!important}
 .curio-related-copy strong{font-size:1rem!important;-webkit-line-clamp:3!important}
 .curio-related-new{top:7px;right:7px;font-size:.64rem;padding:2px 6px}
 }
@@ -182,8 +183,15 @@
         const copy=document.createElement('span');copy.className='curio-related-copy';
         const small=document.createElement('small');small.textContent=item.section||'Articolo correlato';
         const strong=document.createElement('strong');strong.textContent=item.title;
-        const mark=document.createElement('span');mark.className='curio-related-new';mark.textContent='nuovo';
-        copy.append(small,strong);link.append(thumb,copy,mark);grid.append(link);
+        copy.append(small,strong);link.append(thumb,copy);
+        const published=Date.parse(item.dateISO||item.updated||item.updatedAt||'');
+        const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Rome'}).format(new Date());
+        if(published&&new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Rome'}).format(new Date(published))===today){
+          link.classList.add('has-today');
+          const mark=document.createElement('span');mark.className='curio-related-new';mark.textContent='Oggi';
+          link.append(mark);
+        }
+        grid.append(link);
       });
     }catch{}
   }
