@@ -115,18 +115,21 @@
     style.id='cm-related-boost';
     style.textContent=`
 .curio-related-grid,.cm-related-grid{display:grid!important;grid-template-columns:1fr!important;gap:12px!important}
-.curio-related a,.cm-related a{display:grid!important;grid-template-columns:148px minmax(0,1fr)!important;align-items:center!important;gap:14px!important;padding:12px!important;overflow:hidden;border-radius:16px!important;background:var(--cm-paper,#fff)!important;border:1px solid var(--cm-border,#e2e8f0)!important;box-shadow:0 8px 18px rgba(16,41,64,.08);color:inherit!important;text-decoration:none!important}
+.curio-related a,.cm-related a{position:relative!important;display:grid!important;grid-template-columns:148px minmax(0,1fr)!important;align-items:center!important;gap:14px!important;padding:12px!important;overflow:hidden;border-radius:16px!important;background:var(--cm-paper,#fff)!important;border:1px solid var(--cm-border,#e2e8f0)!important;box-shadow:0 8px 18px rgba(16,41,64,.08);color:inherit!important;text-decoration:none!important}
 .curio-related a:active,.cm-related a:active{transform:scale(.985)}
 .curio-related-thumb{display:block!important;width:148px!important;height:100px!important;aspect-ratio:auto!important;overflow:hidden;border-radius:12px!important;background:#dbe9f8}
 .curio-related-thumb img,.curio-related img{display:block!important;width:100%!important;height:100%!important;object-fit:cover}
-.curio-related-copy{display:flex!important;min-width:0;flex-direction:column;gap:5px!important;padding:0!important}
+.curio-related-copy{display:flex!important;min-width:0;flex-direction:column;gap:5px!important;padding:0 58px 0 0!important}
 .curio-related-copy small{color:var(--cm-blue,#1565C0)!important;font-size:.72rem!important;font-weight:800!important;letter-spacing:.05em;text-transform:uppercase}
 .curio-related-copy strong{display:-webkit-box!important;overflow:hidden;color:var(--cm-ink,#102940);font-size:1.05rem!important;font-weight:700!important;line-height:1.3!important;-webkit-box-orient:vertical;-webkit-line-clamp:3!important}
+.curio-related-new{position:absolute;top:8px;right:8px;z-index:1;padding:3px 8px;border-radius:999px;background:#B91C1C;color:#fff;font-size:.68rem;font-weight:800;line-height:1.2;letter-spacing:.01em}
 .curio-related-excerpt,.curio-related-cta{display:none!important}
 @media(max-width:600px){
 .curio-related a,.cm-related a{grid-template-columns:124px minmax(0,1fr)!important;gap:12px!important;padding:11px!important}
 .curio-related-thumb{width:124px!important;height:84px!important}
+.curio-related-copy{padding-right:54px!important}
 .curio-related-copy strong{font-size:1rem!important;-webkit-line-clamp:3!important}
+.curio-related-new{top:7px;right:7px;font-size:.64rem;padding:2px 6px}
 }
 `;
     document.head.append(style);
@@ -154,51 +157,33 @@
     try{
       const response=await fetch('/assets/data/home-feed-v210.json?v=452',{credentials:'same-origin',cache:'no-cache'});if(!response.ok)return;
       const payload=await response.json(),items=(Array.isArray(payload.items)?payload.items:[]).filter(item=>item?.url&&isNewsArticle(item.url));
-      const mediaByUrl=new Map(items.filter(item=>item?.url).map(item=>[routeKey(item.url),item]));
-      const context=normalizeText([articleTitle,document.querySelector('.badge')?.textContent,document.querySelector('.meta')?.textContent].join(' '));
-      const stop=new Set(['della','delle','degli','dello','alla','alle','agli','nella','nelle','negli','dopo','come','sono','anche','ultime','notizia','notizie','articolo']);
-      const terms=new Set(context.split(/[^a-z0-9]+/).filter(word=>word.length>3&&!stop.has(word)));
+      const badgeText=document.querySelector('.badge')?.textContent||'';
+      const currentTokens=new Set(normalizeText(badgeText).split(/[^a-z0-9]+/).filter(word=>word.length>3));
+      const stop=new Set(['della','delle','degli','dello','alla','alle','agli','nella','nelle','negli','dopo','come','sono','anche','ultime','notizia','notizie','articolo','questa','questo','quella','quello']);
+      const titleTerms=new Set(normalizeText(articleTitle).split(/[^a-z0-9]+/).filter(word=>word.length>3&&!stop.has(word)));
+      const now=Date.now();
       const ranked=items.filter(item=>item?.title&&item?.image&&!isCurrentArticle(item.url)&&normalizeText(item.title)!==normalizeText(articleTitle)).map(item=>{
-        const haystack=normalizeText([item.title,item.excerpt,item.section].join(' '));let score=0;terms.forEach(term=>{if(haystack.includes(term))score+=term.length>7?3:1;});
-        const currentSection=normalizeText(document.querySelector('.badge')?.textContent||document.querySelector('.meta')?.textContent||'');
-        if(currentSection&&normalizeText(item.section).split(/[^a-z]+/).some(token=>token.length>4&&currentSection.includes(token)))score+=4;
-        return {item,score};
-      }).sort((a,b)=>b.score-a.score);
-      Array.from(grid.querySelectorAll('a[href]')).forEach(link=>{
-        const item=mediaByUrl.get(routeKey(link.href));
-        if(!item?.image)link.remove();
-      });
-      const curated=grid.querySelectorAll('a[href]').length>0;
-      if(!curated){
-        grid.replaceChildren();
-      }
-      const existing=new Set([canonicalRoute,...Array.from(grid.querySelectorAll('a[href]')).map(link=>routeKey(link.href))]);
-      for(const {item} of ranked){
-        if(grid.querySelectorAll('a[href]').length>=3)break;
-        const path=routeKey(item.url);if(!path||isCurrentArticle(item.url)||existing.has(path)||!item.image)continue;existing.add(path);
+        const haystack=normalizeText([item.title,item.excerpt].join(' '));
+        let score=0;titleTerms.forEach(term=>{if(haystack.includes(term))score+=term.length>7?3:1;});
+        const same=normalizeText(item.section||'').split(/[^a-z0-9]+/).some(token=>token.length>3&&currentTokens.has(token));
+        const published=Date.parse(item.dateISO||item.updated||item.updatedAt||'')||0;
+        return {item,score,same,published,age:published?(now-published)/36e5:1/0};
+      }).filter(row=>row.same||row.score>0);
+      const pick=hours=>ranked.filter(row=>row.age<=hours).sort((a,b)=>(b.same-a.same)||(b.published-a.published)||(b.score-a.score));
+      let chosen=pick(72);if(chosen.length<3)chosen=pick(24*7);if(chosen.length<3)chosen=pick(24*30);if(chosen.length<3)chosen=ranked.slice().sort((a,b)=>(b.same-a.same)||(b.published-a.published)||(b.score-a.score));
+      chosen=chosen.slice(0,3);
+      grid.replaceChildren();
+      chosen.forEach(({item})=>{
         const link=document.createElement('a');link.href=item.url;
+        const thumb=document.createElement('span');thumb.className='curio-related-thumb';
+        const image=document.createElement('img');image.src=item.image;image.alt=item.imageAlt||'';image.width=148;image.height=100;image.loading='lazy';image.decoding='async';
+        if(item.srcset){image.srcset=item.srcset;image.sizes='148px';}
+        thumb.append(image);
+        const copy=document.createElement('span');copy.className='curio-related-copy';
         const small=document.createElement('small');small.textContent=item.section||'Articolo correlato';
         const strong=document.createElement('strong');strong.textContent=item.title;
-        link.append(small,strong);grid.append(link);
-      }
-      Array.from(grid.querySelectorAll('a[href]')).forEach(link=>{
-        const path=routeKey(link.href),item=mediaByUrl.get(path);
-        let copy=link.querySelector('.curio-related-copy');
-        if(!copy){
-          copy=document.createElement('span');copy.className='curio-related-copy';
-          Array.from(link.children).filter(child=>child.matches('small,strong')).forEach(child=>copy.append(child));
-          link.append(copy);
-        }
-        if(!item?.image){link.classList.add('without-image');return;}
-        link.classList.remove('without-image');
-        copy.querySelector('.curio-related-excerpt')?.remove();
-        copy.querySelector('.curio-related-cta')?.remove();
-        let thumb=link.querySelector('.curio-related-thumb');
-        if(!thumb){thumb=document.createElement('span');thumb.className='curio-related-thumb';link.prepend(thumb);}
-        let image=thumb.querySelector('img');
-        if(!image){image=document.createElement('img');thumb.append(image);}
-        image.src=item.image;image.alt=item.imageAlt||'';image.width=148;image.height=100;image.loading='lazy';image.decoding='async';
-        if(item.srcset){image.srcset=item.srcset;image.sizes='148px';}
+        const mark=document.createElement('span');mark.className='curio-related-new';mark.textContent='nuovo';
+        copy.append(small,strong);link.append(thumb,copy,mark);grid.append(link);
       });
     }catch{}
   }
