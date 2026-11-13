@@ -57,7 +57,7 @@
 .cm-global-header__back-icon svg{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
 
 .cm-global-header__brand,
-.cm-global-header__brand span[aria-hidden]{
+.cm-global-header__brand > span{
   justify-self:center;
   min-width:0;
   color:#fff!important;
@@ -77,7 +77,6 @@
   text-shadow:0 1px 0 #031020,0 2px 6px rgba(3,16,32,.55);
 }
 .cm-global-header__brand{justify-self:center}
-.cm-global-header__brand > span:not([aria-hidden]),
 .cm-global-header__brand span span{
   color:#245fd6!important;
   -webkit-text-fill-color:#245fd6!important;
@@ -105,15 +104,13 @@ html.dark .cm-global-header{
   box-shadow:0 8px 28px rgba(0,0,0,.28);
 }
 html.cm-dark .cm-global-header__brand,
-html.cm-dark .cm-global-header__brand span[aria-hidden],
+html.cm-dark .cm-global-header__brand > span,
 html.dark .cm-global-header__brand,
-html.dark .cm-global-header__brand span[aria-hidden]{
+html.dark .cm-global-header__brand > span{
   color:#fff!important;
   -webkit-text-fill-color:#fff!important;
 }
-html.cm-dark .cm-global-header__brand > span:not([aria-hidden]),
 html.cm-dark .cm-global-header__brand span span,
-html.dark .cm-global-header__brand > span:not([aria-hidden]),
 html.dark .cm-global-header__brand span span{
   color:#8eb6ff!important;
   -webkit-text-fill-color:#8eb6ff!important;
