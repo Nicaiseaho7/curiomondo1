@@ -9,7 +9,7 @@
   const CONFIG = Object.freeze({
     timeZone: 'Europe/Rome',
     promotionHours: 3,
-    featuredCapacity: 10,
+    featuredCapacity: 3,
     latestCapacity: 5,
     smallCardsPerCategory: 11,
     categories: Object.freeze([
