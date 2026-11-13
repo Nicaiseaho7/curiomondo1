@@ -109,7 +109,31 @@
     if(!startPremiumAudio())startSynth();
   };
   listen?.addEventListener('click',window.toggleSpeak);window.addEventListener('pagehide',stop);syncListen();
+  function boostRelated(){
+    if(document.getElementById('cm-related-boost'))return;
+    const style=document.createElement('style');
+    style.id='cm-related-boost';
+    style.textContent=`
+.curio-related,.cm-related{margin-top:42px!important;padding:22px 16px 18px!important;border-radius:22px}
+.curio-related h2,.cm-related h2{font-size:1.45rem!important;line-height:1.2;margin:0 0 16px!important}
+.curio-related-grid,.cm-related-grid{display:grid!important;grid-template-columns:1fr!important;gap:16px!important}
+.curio-related a,.cm-related a{display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:0!important;padding:0!important;overflow:hidden;border-radius:18px!important;background:var(--cm-paper,#fff)!important;border:1px solid var(--cm-border,#e2e8f0)!important;box-shadow:0 16px 36px rgba(16,41,64,.14);color:inherit!important;text-decoration:none!important;transition:transform .18s ease,box-shadow .18s ease}
+.curio-related a:hover,.curio-related a:focus-visible,.cm-related a:hover,.cm-related a:focus-visible{transform:translateY(-3px);box-shadow:0 22px 44px rgba(16,41,64,.2)}
+.curio-related a:active,.cm-related a:active{transform:scale(.985)}
+.curio-related-thumb{display:block!important;width:100%!important;height:auto!important;aspect-ratio:16/9;overflow:hidden;border-radius:0!important;background:#dbe9f8}
+.curio-related-thumb img,.curio-related img{display:block!important;width:100%!important;height:100%!important;object-fit:cover}
+.curio-related-copy{display:flex!important;min-width:0;flex-direction:column;gap:8px!important;padding:16px 16px 18px!important}
+.curio-related-copy small{color:var(--cm-blue,#1565C0)!important;font-size:.76rem!important;font-weight:800!important;letter-spacing:.06em;text-transform:uppercase}
+.curio-related-copy strong{display:-webkit-box!important;overflow:hidden;color:var(--cm-ink,#102940);font-size:1.28rem!important;font-weight:800!important;line-height:1.22!important;-webkit-box-orient:vertical;-webkit-line-clamp:3!important}
+.curio-related-excerpt{display:-webkit-box;overflow:hidden;color:var(--cm-muted,#526476);font-size:.98rem;line-height:1.45;-webkit-box-orient:vertical;-webkit-line-clamp:3}
+.curio-related-cta{align-self:flex-start;margin-top:6px;padding:10px 16px;border-radius:999px;background:#B91C1C;color:#fff;font-size:.9rem;font-weight:800;line-height:1}
+@media(min-width:860px){.curio-related-grid,.cm-related-grid{grid-template-columns:1fr 1fr!important}}
+html.cm-dark .curio-related a,html.cm-dark .cm-related a{box-shadow:none}
+`;
+    document.head.append(style);
+  }
   async function ensureRelated(){
+    boostRelated();
     let section=document.querySelector('.curio-related,.cm-related');
     if(!section){
       section=document.createElement('section');section.className='curio-related';section.setAttribute('aria-labelledby','curio-related-title');
@@ -168,11 +192,18 @@
         }
         if(!item?.image){link.classList.add('without-image');return;}
         link.classList.remove('without-image');
-        if(link.querySelector('.curio-related-thumb'))return;
-        const thumb=document.createElement('span');thumb.className='curio-related-thumb';
-        const image=document.createElement('img');image.src=item.image;image.alt=item.imageAlt||'';image.width=112;image.height=76;image.loading='lazy';image.decoding='async';
-        if(item.srcset){image.srcset=item.srcset;image.sizes='(max-width:600px) 88px,112px';}
-        thumb.append(image);link.prepend(thumb);
+        if(!copy.querySelector('.curio-related-excerpt')&&item.excerpt){
+          const excerpt=document.createElement('span');excerpt.className='curio-related-excerpt';excerpt.textContent=item.excerpt;copy.append(excerpt);
+        }
+        if(!copy.querySelector('.curio-related-cta')){
+          const cta=document.createElement('span');cta.className='curio-related-cta';cta.textContent='Leggi l’articolo';copy.append(cta);
+        }
+        let thumb=link.querySelector('.curio-related-thumb');
+        if(!thumb){thumb=document.createElement('span');thumb.className='curio-related-thumb';link.prepend(thumb);}
+        let image=thumb.querySelector('img');
+        if(!image){image=document.createElement('img');thumb.append(image);}
+        image.src=item.image;image.alt=item.imageAlt||'';image.width=800;image.height=450;image.loading='lazy';image.decoding='async';
+        if(item.srcset){image.srcset=item.srcset;image.sizes='(max-width:860px) calc(100vw - 36px), 46vw';}
       });
     }catch{}
   }
