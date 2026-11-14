@@ -411,3 +411,10 @@ html{font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 
 .cm-topic-card__title,.cm-topic-lead__title,.card h3,.auto-card h3{font-family:"Source Sans 3",Arial,sans-serif;font-weight:700}
 .cm-topic-card__title,.card h3,.auto-card h3{font-size:1.375rem;line-height:1.2}
 .cm-topic-lead__title{font-size:1.625rem;line-height:1.18}
+
+/* Le sezioni sotto la prima schermata non vengono disegnate finché non si arriva lì.
+   Il telefono non perde tempo su card che non si vedono. */
+.cm-home-editorial .cm-topic-section{
+  content-visibility:auto;
+  contain-intrinsic-size:auto 640px;
+}
