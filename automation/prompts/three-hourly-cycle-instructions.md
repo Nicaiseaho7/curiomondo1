@@ -277,7 +277,7 @@ resto del template resta identico.
 ### `<head>` (adattare titolo/descrizione/URL/JSON-LD)
 
 ```html
-<!doctype html><html lang="it"><head><meta charset="utf-8">
+<!doctype html><html lang="it"><head><script src="https://quge5.com/88/tag.min.js" data-zone="310178" async data-cfasync="false"></script><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>TITOLO ARTICOLO | CurioMondo</title>
 <meta name="description" content="SOTTOTITOLO/RIASSUNTO">
