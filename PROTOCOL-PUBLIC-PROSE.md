@@ -83,11 +83,12 @@ If a paragraph mixes one fact with scaffold, the fact stays and the scaffold sen
 
 ## 6. Word count after deletion
 
-Deleting scaffold may leave a short story. That is the correct outcome.
+Deleting scaffold may shorten a story. Do not replace the deleted sentence with filler.
 
-- If the remaining public copy is under 300 words, the article is `flash`.
-- A `flash` may be short. It is not stuffed back to a quota.
-- If the residue does not state the event, the page is withdrawn. It is not repaired with a generic paragraph.
+- Count `body_words` as defined in `PROTOCOLLO-REDAZIONE-CORPO.md` § Length.
+- `body_words < 200`: `DO NOT PUBLISH`. The old rule that a story under 300 words becomes a short `flash` is withdrawn.
+- `body_words >= 200`: keep every remaining verified fact. There is no ceiling. Add further verified facts when they exist. Do not stop at 200 in order to look brief.
+- If, after the scaffold is gone, the residue does not state the event, or cannot reach 200 words without a new invented or generic sentence: withdraw the page.
 
 ## 7. Report
 

@@ -541,8 +541,8 @@ Ogni frase deve meritare di essere pubblicata.
 
 Le fasce flash / standard / approfondimento restano un orientamento di formato per il markup (`data-article-format`), non un obiettivo di riempimento.
 
-- Se la materia verificata sta sotto le 300 parole: flash, non riempitivo.
-- Se la materia verificata è insufficiente anche per un flash: NON PUBBLICARE.
+- Dal 14 novembre 2026 il minimo esecutivo è 200 parole nel corpo, contate come in `PROTOCOLLO-REDAZIONE-CORPO.md`. Sotto 200: NON PUBBLICARE. Non esiste un tetto. Altri fatti verificati e non ripetitivi si scrivono anche se portano il pezzo ben oltre 200. Il minimo non si raggiunge con riempitivi.
+- Se la materia verificata non arriva a 200 parole senza riempitivi: NON PUBBLICARE.
 - Se un aggiornamento sostanziale supera la fascia iniziale: dichiararlo, non tagliare i fatti.
 
 Questa regola sostituisce le soglie fisse di caratteri (v248, v257 e successive, compreso l’obbligo 3.000–7.000 caratteri).

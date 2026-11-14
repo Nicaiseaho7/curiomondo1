@@ -43,7 +43,7 @@ Non sostituisce:
 - il protocollo immagini;
 - il gate tecnico di pubblicazione completa.
 
-Le fasce flash / standard / approfondimento restano un orientamento di formato, non un obiettivo di riempimento. Se la materia verificata sta sotto le 300 parole, il pezzo è un flash. Se manca materia, non si pubblica.
+Le fasce flash / standard / approfondimento restano un'etichetta di formato, non un obiettivo di riempimento. Dal 14 novembre 2026 il corpo di ogni notizia ha un minimo esecutivo di 200 parole (`PROTOCOLLO-REDAZIONE-CORPO.md`). Sotto 200 non si pubblica. Non esiste un tetto: se ci sono altri fatti verificati e non ripetitivi, il pezzo li contiene e può superare di molto le 200 parole. Il minimo non si raggiunge con riempitivi. Se la materia non basta per 200 parole senza riempitivi, non si pubblica.
 
 I nuovi articoli non devono dichiarare `data-length-policy="3000-7000"`.
 
@@ -72,7 +72,7 @@ Per selezione, verifica e pubblicazione delle notizie prevale la revisione v471 
 - Una notizia oltre le 24 ore non è automaticamente vecchia: è pubblicabile quando resta attuale, ricercata, utile, presenta uno sviluppo o consente un contributo CurioMondo concreto.
 - Basta **almeno un elemento reale di valore aggiunto** per flash, notizie ordinarie e contenuti di servizio. Due elementi restano richiesti per analisi e approfondimenti autonomi.
 - Stesso argomento già pubblicato non si ripubblica con un altro titolo. I fatti nuovi e verificati si aggiungono all’articolo esistente: è un aggiornamento, non un duplicato. Un secondo articolo è ammesso solo se quel fatto non è ancora sul sito. Dettaglio: `automation/prompts/divieto-duplicati.txt`.
-- La lunghezza segue la materia verificata: flash 100–250 parole, standard 300–700, approfondimenti 800+ quando giustificati. Nessuna soglia minima rigida e nessun riempitivo.
+- La lunghezza ha un minimo esecutivo di 200 parole nel corpo e nessun tetto. L'obiettivo è superare 200 con altri fatti verificati, mai con riempitivi. Sotto 200, o sopra 200 solo grazie a ripetizioni, non si pubblica.
 - Un problema tecnico non annulla l'idoneità editoriale della storia: la notizia resta approvata ma la pubblicazione va completata e dichiarata conclusa solo dopo tutti i controlli tecnici e live.
 - Restano sempre bloccanti falsità, attribuzioni ingannevoli, accuse non verificate, fonti contraffatte, dati inventati, immagini fuorvianti e pagine prive di sostanza.
 

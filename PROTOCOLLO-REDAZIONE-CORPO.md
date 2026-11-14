@@ -1,7 +1,7 @@
 # Article body contract — CurioMondo
 
 **Status:** normative, fail-closed  
-**Date:** 22 September 2026; prose control updated 12 November 2026  
+**Date:** 22 September 2026; prose control updated 12 November 2026; word floor updated 14 November 2026  
 **Normative language:** English  
 **Prose authority:** `PROTOCOL-PUBLIC-PROSE.md` prevails for what a reader may read. This file remains the technical contract for public markup. It does not replace the risk gate, the image protocol, or `PROTOCOLLO-QUALITA-EDITORIALE-ADSENSE.md`.
 
@@ -29,15 +29,27 @@ Internal notes, automated checks, masthead lists, processing timestamps, and des
 
 ## Length
 
-Length follows the verified material. Stretching to a quota is forbidden.
+The floor is 200 words. There is no ceiling. Length still follows verified material. Filler is forbidden. A quota is not a target to fill, and 200 is not a target to stop at.
 
-Orientation, not a target to fill:
+### Word counter
 
-- a verified flash: about 250–450 words, and legally shorter when the event is small;
-- a full news story: about 700–1,200 words;
-- a premium piece: about 1,200–2,200 words when the documents support it.
+Count only the visible text of `.art-body`.
 
-After serial scaffold is removed, a short true story stays short and is marked `flash` if it is under 300 words. It is not refilled.
+1. Read the contents of `.art-body`.
+2. Remove tags, scripts, and HTML comments.
+3. Decode HTML entities.
+4. Count matches of `[A-Za-zÀ-ÿ0-9’']+`.
+5. That integer is `body_words`. The standfirst, the headline, the caption, and `.art-sources` do not count.
+
+### Gate
+
+- `body_words < 200`: `DO NOT PUBLISH`. Do not relabel the page `flash` to pass. Do not add filler to cross the floor.
+- `body_words >= 200`: the page is eligible on length. There is no maximum.
+- If more verified, distinct facts exist, write them. The article may be well above 200 words. Stopping at 200 while usable facts remain is a failure.
+- If the verified material cannot reach 200 words without repetition, generic background, a recap, or a sentence that would fit another story: `DO NOT PUBLISH`.
+- A paragraph is still at most 60 words. `h2` and `h3` stay forbidden in news bodies.
+
+`flash`, `standard`, and `feature` name the markup in `data-article-format`. They do not lower the floor and they do not impose a ceiling.
 
 ## Free composition
 

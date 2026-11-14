@@ -33,7 +33,7 @@ CATEGORIE = (
     "Sport", "Tecnologia", "Cultura", "Scienza", "Ambiente", "Meteo",
 )
 
-FORMATI = {"flash": (100, 250), "standard": (300, 600), "feature": (800, 1500)}
+FORMATI = {"flash": (200, None), "standard": (200, None), "feature": (200, None)}
 TITOLI_PROTOCOLLO_PATH = Path(__file__).resolve().parents[2] / "PROTOCOLLO-TITOLI-CTR.md"
 
 SISTEMA_VERIFICA = """Sei il caporedattore di CurioMondo, una testata italiana.
@@ -117,8 +117,7 @@ Regole di scrittura, tutte obbligatorie:
 - Le dichiarazioni vanno attribuite ("secondo il ministero", "ha riferito
   l'agenzia"). Una rivendicazione di parte non diventa mai un fatto accertato.
 - Vietato aggiungere contesto generico solo per allungare il testo.
-- Il corpo standard punta al minimo di 300 parole. Non si sale verso il tetto
-  con premesse, chiusure o avvertenze. Vietate le note di metodo: niente
+- Il corpo ha un minimo di 200 parole e nessun tetto. Si superano le 200 se restano fatti verificati e distinti. Vietato arrivarci con premesse, chiusure o avvertenze. Vietate le note di metodo: niente
   riferimenti al branch, alla selezione del pacchetto, alla data di
   preparazione editoriale o a come l'articolo e stato scritto.
 - Attribuisci a chi ha parlato o deciso (l'ente, l'azienda, la persona), non
@@ -327,13 +326,12 @@ def scrivi(
     if not protocollo_titoli.strip():
         raise ValueError("protocollo titoli vuoto: stesura bloccata")
     minimo, massimo = FORMATI.get(verdetto.formato, FORMATI["standard"])
-    obiettivo = minimo
 
     istruzioni = f"""Scrivi l'articolo CurioMondo su questo fatto.
 
-FORMATO: {verdetto.formato} — il corpo deve stare fra {minimo} e {massimo} parole
-(resta vicino a {obiettivo}, non riempire fino al tetto). La misura e una
-conseguenza dell'informazione disponibile, mai un obiettivo da riempire.
+FORMATO: {verdetto.formato} — il corpo ha un minimo di {minimo} parole e nessun tetto.
+Supera {minimo} quando restano fatti verificati e distinti. Non raggiungere il minimo
+con riempitivi, premesse o chiusure.
 
 CATEGORIA: {verdetto.categoria}
 
@@ -434,8 +432,9 @@ def controlla_articolo(
     formato = articolo.get("formato", "standard")
     minimo, massimo = FORMATI.get(formato, FORMATI["standard"])
     parole = len(re.findall(r"\b[\w'’]+\b", " ".join(paragrafi)))
-    if parole < minimo or parole > massimo:
-        problemi.append(f"lunghezza {formato} fuori fascia: {parole} parole (attese {minimo}-{massimo})")
+    if parole < minimo or (massimo is not None and parole > massimo):
+        attese = f"almeno {minimo}" if massimo is None else f"{minimo}-{massimo}"
+        problemi.append(f"lunghezza {formato} fuori fascia: {parole} parole (attese {attese})")
 
     for indice, paragrafo in enumerate(paragrafi, 1):
         conteggio = len(re.findall(r"\b[\w'’]+\b", paragrafo))
