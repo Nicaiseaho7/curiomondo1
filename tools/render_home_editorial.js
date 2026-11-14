@@ -306,4 +306,14 @@ if (home.includes('id="cm-update-flag-css"')) {
   home = home.replace('</head>', UPDATE_FLAG_CSS + '</head>');
 }
 fs.writeFileSync(homePath, home);
+const slim = (feed.items || []).filter((entry) => String(entry.url || '').startsWith('/notizie/'))
+  .sort((a, b) => String(b.dateISO || '').localeCompare(String(a.dateISO || '')));
+const stamp = { version: feed.version || 0, newest: slim[0] ? slim[0].url : '', dateISO: slim[0] ? slim[0].dateISO || '' : '' };
+fs.writeFileSync(path.join(root, 'assets/data/home-feed-stamp.json'), JSON.stringify(stamp) + '\n');
+const recentKeys = ['url', 'title', 'excerpt', 'section', 'dateISO', 'image', 'imageAlt', 'srcset', 'updated'];
+const recent = {
+  version: feed.version || 0,
+  items: slim.slice(0, 80).map((entry) => Object.fromEntries(recentKeys.map((key) => [key, entry[key] || ''])))
+};
+fs.writeFileSync(path.join(root, 'assets/data/home-feed-recent.json'), JSON.stringify(recent) + '\n');
 console.log('home-editorial', hero && hero.title, allocation.sections.length);

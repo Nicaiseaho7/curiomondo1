@@ -156,7 +156,7 @@
     Array.from(grid.querySelectorAll('a[href]')).forEach(link=>{const key=routeKey(link.href),sameTitle=normalizeText(link.querySelector('strong')?.textContent)===normalizeText(articleTitle);if(!key||!isNewsArticle(link.href)||isCurrentArticle(link.href)||sameTitle||uniqueLinks.has(key))link.remove();else uniqueLinks.add(key);});
     Array.from(grid.querySelectorAll('a[href]')).slice(3).forEach(link=>link.remove());
     try{
-      const response=await fetch('/assets/data/home-feed-v210.json?v=452',{credentials:'same-origin',cache:'no-cache'});if(!response.ok)return;
+      const response=await fetch('/assets/data/home-feed-recent.json',{credentials:'same-origin',cache:'no-cache'});if(!response.ok)return;
       const payload=await response.json(),items=(Array.isArray(payload.items)?payload.items:[]).filter(item=>item?.url&&isNewsArticle(item.url));
       const badgeText=document.querySelector('.badge')?.textContent||'';
       const currentTokens=new Set(normalizeText(badgeText).split(/[^a-z0-9]+/).filter(word=>word.length>3));

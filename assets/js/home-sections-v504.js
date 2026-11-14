@@ -337,40 +337,26 @@
   };
   const syncIfStale = async () => {
     try {
-      const response = await fetch('/assets/data/home-feed-v210.json', { cache: 'no-store', credentials: 'same-origin' });
+      const response = await fetch('/assets/data/home-feed-stamp.json', { cache: 'no-store', credentials: 'same-origin' });
       if (!response.ok) return;
-      const payload = await response.json();
-      const items = Array.isArray(payload.items) ? payload.items : [];
-      const newest = new Map();
-      items.forEach((entry) => {
-        const category = A.categoryFor(entry);
-        const published = A.firstPublished(entry);
-        if (!category || !published || published > new Date() || !entry.url) return;
-        const prev = newest.get(category.id);
-        if (!prev || published > prev.published) newest.set(category.id, { published, url: entry.url });
-      });
-      const newestOverall = items.reduce((best, entry) => {
-        const published = A.firstPublished(entry);
-        if (!published || published > new Date() || !entry.url) return best;
-        return !best || published > best.published ? { published, url: entry.url } : best;
-      }, null);
-      if (newestOverall && !zone.querySelector('#cm-ultima-ora a[href="' + newestOverall.url + '"]')) {
-        start();
-        return;
-      }
-      for (const item of newest.values()) {
-        if (!zone.querySelector('a[href="' + item.url + '"]')) {
-          start();
-          return;
-        }
-      }
+      const stamp = await response.json();
+      const url = stamp && stamp.newest;
+      if (!url || !/^\/notizie\/[a-z0-9-]+\.html$/.test(url)) return;
+      if (zone.querySelector('a[href="' + url + '"]')) return;
+      start();
     } catch (error) {
       console.error('CurioMondo homepage sync:', error);
     }
   };
-  // La home pubblicata è già il layout. Non riscaricare il feed da 5 MB
-  // né ricostruire le card: sul telefono quel lavoro blocca la pagina.
-  if (!preferStatic) {
+  const scheduleSync = () => {
+    const run = () => { syncIfStale(); };
+    if (window.requestIdleCallback) window.requestIdleCallback(run, { timeout: 2500 });
+    else window.setTimeout(run, 1500);
+  };
+  // La home pubblicata resta com'è. Si controlla solo un file piccolo:
+  // il feed intero si scarica soltanto se manca la notizia più recente.
+  if (preferStatic) scheduleSync();
+  else {
     window.addEventListener('pointerdown', start, { once: true, passive: true });
     window.addEventListener('keydown', start, { once: true });
     window.addEventListener('scroll', start, { once: true, passive: true });

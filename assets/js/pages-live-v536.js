@@ -34,7 +34,7 @@
   const page = location.pathname.replace(/\/$/, '').split('/').pop();
   const pageId = page === 'film-serie-tv' ? 'film-tv' : page;
 
-  fetch('/assets/data/home-feed-v210.json', { cache: 'no-store', credentials: 'same-origin' })
+  fetch('/assets/data/home-feed-recent.json', { cache: 'no-store', credentials: 'same-origin' })
     .then((response) => response.ok ? response.json() : null)
     .then((payload) => {
       const items = (payload && payload.items || []).filter((entry) => entry && entry.url && entry.title);
