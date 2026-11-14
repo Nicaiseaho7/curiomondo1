@@ -1,6 +1,306 @@
 {
-  "version": 1499,
+  "version": 1501,
   "items": [
+    {
+      "title": "FIGC, ammesse le candidature di Malagò e Galliani alla presidenza",
+      "excerpt": "L’Assemblea elettiva si terrà il 14 dicembre a Fiumicino. Pubblicati anche i candidati al Consiglio federale.",
+      "url": "/notizie/figc-candidature-malago-galliani-presidenza-assemblea-14-dicembre-2026.html",
+      "section": "Italia / Sport"
+    },
+    {
+      "title": "Un ragno svedese diventa il riferimento moderno del primo nome zoologico",
+      "excerpt": "Lo Smithsonian guida la designazione del neotipo di Araneus angulatus, descritta da Carl Alexander Clerck nel 1757 e rimasta senza esemplare tipo.",
+      "url": "/notizie/araneus-angulatus-neotipo-smithsonian-primo-nome-animale-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "CERN, arte e scienza si incontrano al summit Hybrid Nexus il 19 e 20 novembre",
+      "excerpt": "La terza edizione riunisce fisica, tecnologie quantistiche, intelligenza artificiale e pratica artistica nello Science Gateway.",
+      "url": "/notizie/cern-hybrid-nexus-art-science-summit-19-20-novembre-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "CERN, rilievi ecologici lungo il possibile tracciato del futuro collisore",
+      "excerpt": "Specialisti censiscono specie e habitat in Francia e Svizzera. Il progetto FCC è ancora in valutazione e non è stata presa una decisione.",
+      "url": "/notizie/cern-fcc-studi-ecologici-francia-svizzera-2026.html",
+      "section": "Mondo / Ambiente"
+    },
+    {
+      "title": "SND@LHC userà 1.680 moduli di CMS per cercare l’antineutrino tau",
+      "excerpt": "Il rivelatore del CERN diventerà interamente al silicio e avrà un magnete per distinguere neutrini e antineutrini nell’era HiLumi.",
+      "url": "/notizie/cern-snd-lhc-rivelatore-silicio-antineutrino-tau-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "DUNE, Bristol prepara elettronica e tempi di precisione per il grande rivelatore di neutrini",
+      "excerpt": "L’esperimento sotterraneo studierà un fascio inviato per 1.300 chilometri. Le caverne sono attese nel 2029 e il fascio nel 2031.",
+      "url": "/notizie/dune-neutrini-bristol-rivelatore-sotterraneo-2031-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "Bristol investe nei semiconduttori all’ossido di gallio per ridurre i consumi",
+      "excerpt": "Un nuovo impianto di ricerca sostiene la collaborazione tra università e industria; in alcuni usi l’efficienza potrebbe migliorare fino al 20%.",
+      "url": "/notizie/bristol-semiconduttori-ossido-gallio-efficienza-energetica-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Politiche climatiche, Oxford registra più progressi che arretramenti in 39 Paesi",
+      "excerpt": "Il Climate Policy Monitor trova 718 misure stabili, 45 rinviate, 32 indebolite e 11 cancellate, con gli Stati Uniti principale eccezione.",
+      "url": "/notizie/oxford-climate-policy-monitor-39-paesi-politiche-2026.html",
+      "section": "Mondo / Ambiente"
+    },
+    {
+      "title": "Tecnologie pulite, le barriere commerciali rischiano di rallentare la transizione",
+      "excerpt": "Uno studio di Oxford su 31 Paesi rileva restrizioni nel 58% dell’economia mondiale e forte concentrazione produttiva in Cina.",
+      "url": "/notizie/oxford-restrizioni-commercio-tecnologie-pulite-rischi-clima-2026.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Oxford restituisce con la luce i colori a un santuario egizio di 2.700 anni",
+      "excerpt": "Una proiezione permanente ricrea l’aspetto originario dell’edificio di Taharqa senza applicare pigmenti sulla pietra antica.",
+      "url": "/notizie/oxford-santuario-egizio-colori-proiezione-luce-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Casseforme in tessuto, travi di cemento con un terzo del calcestruzzo",
+      "excerpt": "Il prototipo del MIT lungo tre metri usa circa la metà dell’acciaio e ha rispettato entro il 2% il comportamento previsto dal modello.",
+      "url": "/notizie/mit-casseforme-tessuto-travi-calcestruzzo-materiale-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "FLEX insegna ai robot a ragionare oltre il significato letterale dei comandi",
+      "excerpt": "La piattaforma MIT-NYU combina linguaggio e vincoli generali per evitare azioni formalmente corrette ma inadatte al contesto.",
+      "url": "/notizie/mit-flex-robot-ragionare-oltre-comandi-letterali-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "WorldParticle simula con un solo modello sabbia, fluidi, proteine e robot morbidi",
+      "excerpt": "Il sistema del MIT apprende il comportamento di materiali molto diversi e si adatta anche a sostanze non incontrate durante l’addestramento.",
+      "url": "/notizie/mit-worldparticle-modello-ai-materiali-particelle-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Metamateriali ispirati alle reti naturali resistono meglio a urti e compressione",
+      "excerpt": "Il MIT ha stampato strutture di piccole travi la cui rigidità può essere regolata attraverso due parametri geometrici.",
+      "url": "/notizie/mit-metamateriali-reti-naturali-resistenza-urti-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "Modelli climatici AI più rapidi con un solo ciclo di simulazione",
+      "excerpt": "Il MIT propone dati sintetici ottimizzati per addestrare emulatori affidabili anche su scenari diversi da quelli già osservati.",
+      "url": "/notizie/mit-modelli-clima-ai-emulatori-dati-sintetici-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "Un copilota AI permette agli ingegneri di correggere le strutture mentre vengono progettate",
+      "excerpt": "Il sistema del MIT integra il feedback umano nell’ottimizzazione topologica e ottiene componenti più fabbricabili e resistenti all’instabilità.",
+      "url": "/notizie/mit-copilota-ai-progettazione-strutture-feedback-umano-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "UNESCO aggiorna l’alfabetizzazione ai media per l’era dell’intelligenza artificiale",
+      "excerpt": "Il nuovo curriculum “AI Answers. You Decide” organizza competenze critiche in cinque aree e amplia il programma già adottato in oltre 40 Paesi.",
+      "url": "/notizie/unesco-curriculum-alfabetizzazione-media-intelligenza-artificiale-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Donne nei Paesi arabi: più presenze all’università, ma meno carriere STEM",
+      "excerpt": "I nuovi dati UNESCO mostrano un vantaggio nelle iscrizioni terziarie in 16 Paesi su 21, che non si traduce in pari accesso alla ricerca.",
+      "url": "/notizie/donne-paesi-arabi-universita-stem-ricerca-dati-unesco-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "Tre grandi manoscritti dell’Asia meridionale entrano nella Memoria del Mondo",
+      "excerpt": "Arthaśāstra, Mahābhārata e Rājataraṅgiṇī sono stati iscritti nel registro regionale UNESCO per il loro valore documentario.",
+      "url": "/notizie/unesco-memoria-mondo-asia-pacifico-tre-manuscritti-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Scuola, i nuovi dati UNESCO misurano disabilità, bullismo e completamento",
+      "excerpt": "Il database UIS aggiunge milioni di osservazioni e mostra forti divari tra Paesi, redditi e gruppi di studenti.",
+      "url": "/notizie/unesco-disabilita-bullismo-completamento-scolastico-dati-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Migrazioni verso i Paesi OCSE, 6,1 milioni di ingressi permanenti nel 2025",
+      "excerpt": "Il flusso scende dell’1,6% per il secondo anno, ma resta sopra il 2019. Diminuiscono anche gli studenti internazionali.",
+      "url": "/notizie/ocse-migrazione-permanente-6-1-milioni-2025-rapporto-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "L’ONU crea una piattaforma finanziaria per anticipare le crisi umanitarie",
+      "excerpt": "Sei agenzie puntano a predisporre oltre 3 miliardi di dollari e proteggere 75 milioni di persone entro il 2030.",
+      "url": "/notizie/onu-piattaforma-finanziamento-rischi-disastri-cop31-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Il Canada destina 116 milioni a 12 nuovi progetti per clima e adattamento",
+      "excerpt": "I fondi sono il primo stanziamento del nuovo obiettivo quinquennale da 13 miliardi e sosterranno allerta precoce, energia pulita e piani nazionali.",
+      "url": "/notizie/canada-116-milioni-finanza-climatica-12-progetti-2026.html",
+      "section": "Mondo / Ambiente"
+    },
+    {
+      "title": "Il Canada lancia AVOID-Methane per esportare tecnologie contro le emissioni",
+      "excerpt": "L’iniziativa collegherà dal 2027 imprese canadesi e acquirenti internazionali per rilevare e ridurre le perdite di metano.",
+      "url": "/notizie/canada-avoid-methane-tecnologie-riduzione-emissioni-2026.html",
+      "section": "Mondo / Ambiente"
+    },
+    {
+      "title": "Freddo nel nord dell’Inghilterra, allerta sanitaria dal 15 al 19 novembre",
+      "excerpt": "L’avviso giallo riguarda North East, North West e Yorkshire and Humber. Particolare attenzione ad anziani, fragili e persone senza dimora.",
+      "url": "/notizie/allerta-freddo-inghilterra-nord-15-19-novembre-2026.html",
+      "section": "Mondo / Salute"
+    },
+    {
+      "title": "Credit union britanniche, riforma per ampliare il credito a più di 50 mila persone",
+      "excerpt": "Le nuove regole estendono l’accesso dopo un trasferimento di residenza e alzano da 3 a 10 milioni di sterline il limite per alcuni prestiti.",
+      "url": "/notizie/credit-union-regno-unito-riforma-50-mila-persone-credito-2026.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Risparmio in busta paga nel Regno Unito, adesioni per oltre 500 mila lavoratori",
+      "excerpt": "Una coalizione di grandi datori di lavoro estende i programmi che trasferiscono automaticamente una quota dello stipendio su un conto accessibile.",
+      "url": "/notizie/regno-unito-risparmio-busta-paga-500-mila-lavoratori-2026.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "UNESCO riunisce a Trieste 34 giovani scienziati da 17 Paesi",
+      "excerpt": "Il laboratorio ha lavorato su clima, biodiversità, acqua, tecnologie emergenti, etica e contrasto alla disinformazione scientifica.",
+      "url": "/notizie/unesco-trieste-34-giovani-scienziati-17-paesi-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "Microsoft apre il Pavilion a Roma: AI Lab, scuole e sovranità digitale",
+      "excerpt": "La nuova sede all’Eur ospita clienti, istituzioni e programmi di formazione. Il progetto rientra nel piano di investimenti annunciato per l’Italia.",
+      "url": "/notizie/microsoft-pavilion-roma-ai-lab-sovranita-digitale-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Pratica forense in Toscana, domanda prorogata al 20 novembre",
+      "excerpt": "Il nuovo termine scade alle 24. I colloqui si terranno il 25 novembre alle 10 nella sede dell’Avvocatura regionale a Firenze.",
+      "url": "/notizie/pratica-forense-toscana-proroga-20-novembre-colloqui-25-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Scuola, concorso nazionale contro droghe e dipendenze: lavori entro il 5 marzo",
+      "excerpt": "Le scuole secondarie possono partecipare con elaborati artistici, musicali, giornalistici, multimediali o di ricerca per l’anno 2026-2027.",
+      "url": "/notizie/concorso-scuola-no-droga-dipendenze-scadenza-5-marzo-2027.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Voucher sportivi in Sicilia, 981 mila euro per 9.525 domande",
+      "excerpt": "Il decreto finanzia tutte le istanze ammissibili rimaste per ragazzi tra 6 e 16 anni, con utilizzo nei mesi di novembre e dicembre.",
+      "url": "/notizie/voucher-sportivi-sicilia-981075-euro-9525-domande-2026.html",
+      "section": "Italia / Sport"
+    },
+    {
+      "title": "Open Innovation Sicilia, 16 call e 9,5 milioni per startup e imprese",
+      "excerpt": "I poli regionali selezionano progetti per programmi di incubazione e accelerazione finanziati dal Fesr 2021-2027.",
+      "url": "/notizie/open-innovation-sicilia-16-call-9-5-milioni-startup-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Concorsi in Sicilia, graduatorie per 252 funzionari e altre 120 assunzioni",
+      "excerpt": "I vincitori saranno destinati ai Centri per l’impiego e all’Ispettorato del lavoro. Previsti anche scorrimenti di graduatorie già formate.",
+      "url": "/notizie/concorsi-sicilia-graduatorie-252-funzionari-120-assunzioni-2026.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Scuolabus in Sicilia, un milione ai Comuni: richieste entro il 30 novembre",
+      "excerpt": "Contributo straordinario fino a 75 mila euro per nuovi mezzi. La Regione punta a rafforzare il trasporto scolastico nei centri minori.",
+      "url": "/notizie/scuolabus-sicilia-un-milione-comuni-domande-30-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Borghi di Natale in Sicilia, bando da 4 milioni: domande entro il 25 novembre",
+      "excerpt": "Contributi fino a 50 mila euro ai Comuni per mercatini, installazioni, artigianato e percorsi turistici. Procedura a sportello via Pec.",
+      "url": "/notizie/borghi-natale-sicilia-bando-4-milioni-scadenza-25-novembre-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Formazione professionale in Sicilia, oltre 60 milioni di arretrati verso il pagamento",
+      "excerpt": "La Regione programma la liquidazione delle prime due annualità entro dicembre e il completamento delle pendenze entro febbraio 2027.",
+      "url": "/notizie/formazione-professionale-sicilia-60-milioni-arretrati-pagamenti-2027.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Missione Biagio Conte, 50 mila euro dalla Regione per garantire l’assistenza",
+      "excerpt": "Il contributo straordinario serve a sostenere nell’immediato i servizi della realtà palermitana in attesa di una soluzione finanziaria più stabile.",
+      "url": "/notizie/missione-biagio-conte-50-mila-euro-assistenza-sicilia-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "“Rinascite” apre a Villa Manin: arte e memoria del terremoto fino al 21 febbraio",
+      "excerpt": "L’esposizione nell’Esedra di Levante mette in dialogo opere, architettura e ricostruzione del Friuli. Apertura dal martedì alla domenica.",
+      "url": "/notizie/rinascite-villa-manin-mostra-terremoto-fino-21-febbraio-2027.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Eventi sportivi sostenibili, il Fvg investe 2 milioni: come funziona il bando",
+      "excerpt": "Contributi fino al 70% e a 20 mila euro per raccolta differenziata, riduzione dei rifiuti, mobilità e forniture locali.",
+      "url": "/notizie/eco-eventi-fvg-bando-2-milioni-sport-sostenibile-2027.html",
+      "section": "Mondo / Ambiente"
+    },
+    {
+      "title": "Strade del Fvg, riprogrammati 25,6 milioni per viabilità e ponti",
+      "excerpt": "La Giunta rialloca fondi su opere già avviate, collegamenti strategici e manutenzione di ponti e viadotti regionali.",
+      "url": "/notizie/strade-fvg-25-6-milioni-viabilita-ponti-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Turismo montano in Fvg, piano da 22 milioni per impianti e comprensori",
+      "excerpt": "Gli investimenti di PromoTurismoFVG interessano Zoncolan, Tarvisio, Sella Nevea, Forni di Sopra, Piancavallo e Sappada.",
+      "url": "/notizie/turismo-montano-fvg-piano-22-milioni-impianti-2026.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Museo della Memoria, accordo tra Governo, Lazio e Fvg per la nuova fondazione",
+      "excerpt": "L’intesa definisce statuto e atto costitutivo dell’ente che dovrà realizzare e gestire il museo nazionale previsto dalla legge 165 del 2024.",
+      "url": "/notizie/museo-memoria-accordo-governo-lazio-fvg-fondazione-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Inclusione scolastica in Fvg, 225 mila euro a cinque reti di istituti",
+      "excerpt": "I progetti coinvolgono scuole di più territori e puntano su neurodiversità, formazione dei docenti e strumenti condivisi contro la dispersione.",
+      "url": "/notizie/inclusione-scolastica-fvg-225-mila-euro-reti-istituti-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Distretti del commercio in Fvg, altri 2,78 milioni nel 2027",
+      "excerpt": "Le risorse aggiuntive sosterranno reti locali, investimenti e un nuovo bando. I distretti attivi sono 28 e coinvolgono 179 Comuni.",
+      "url": "/notizie/distretti-commercio-fvg-2-78-milioni-2027.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Friuli Venezia Giulia, calano del 26,3% i laureati in partenza per l’estero",
+      "excerpt": "La Regione collega il dato alle politiche per attrarre e trattenere competenze. Diminuiscono anche del 12% i trasferimenti verso altre aree italiane.",
+      "url": "/notizie/fvg-laureati-estero-calano-26-3-per-cento-talenti-2026.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Campania, nasce il Board NIS2 per proteggere i servizi digitali regionali",
+      "excerpt": "La nuova struttura permanente coordinerà otto aree strategiche, rapporti con l’Agenzia nazionale per la cybersicurezza e verifiche periodiche sui fornitori.",
+      "url": "/notizie/campania-board-nis2-cybersicurezza-servizi-digitali-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Agricoltura campana, online due nuovi servizi per fiere e usi civici",
+      "excerpt": "Imprese e cittadini possono presentare in digitale le richieste per la partecipazione alle manifestazioni internazionali e per i procedimenti sugli usi civici.",
+      "url": "/notizie/agricoltura-campania-due-servizi-digitali-fiere-usi-civici-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Maltempo in Campania, allerta gialla dalle 6 di domenica 15 novembre",
+      "excerpt": "La Protezione civile regionale segnala temporali locali e rischio idrogeologico per 24 ore. Comuni invitati ad attivare i presìdi previsti dai piani.",
+      "url": "/notizie/allerta-meteo-gialla-campania-15-novembre-2026.html",
+      "section": "Mondo / Meteo"
+    },
+    {
+      "title": "Automotive, dal Mimit 300 milioni per riconvertire la filiera: domande dal 30 novembre",
+      "excerpt": "Il nuovo sportello finanzia programmi industriali da 5 a 20 milioni di euro e punta su riconversione, componentistica e tecnologie a basse emissioni.",
+      "url": "/notizie/automotive-mimit-300-milioni-filiera-domande-30-novembre-2026.html",
+      "section": "Italia / Economia"
+    },
     {
       "title": "Italia Under 19 battuta 1-0 dall’Ucraina, ma il passaggio in Lega A è già sicuro",
       "excerpt": "Diedov decide la gara di Fano al 19’. Gli Azzurrini restano qualificati con un turno d’anticipo e martedì affrontano Israele alle 13, in diretta RaiSport.",
