@@ -1,6 +1,11 @@
 /* CurioMondo: shared preferences, native dialogs and explicit consent. */
 (() => {
   'use strict';
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.getRegistrations().then((regs) => {
+      regs.forEach((reg) => { reg.unregister(); });
+    }).catch(() => {});
+  }
   const read=(key,fallback)=>{try{const v=JSON.parse(localStorage.getItem(key));return v===null?fallback:v;}catch{return fallback;}};
   const write=(key,value)=>{try{localStorage.setItem(key,JSON.stringify(value));return true;}catch{return false;}};
   const theme=()=>document.documentElement.classList.contains('cm-dark');

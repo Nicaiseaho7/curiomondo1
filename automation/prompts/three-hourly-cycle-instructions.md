@@ -277,7 +277,7 @@ resto del template resta identico.
 ### `<head>` (adattare titolo/descrizione/URL/JSON-LD)
 
 ```html
-<!doctype html><html lang="it"><head><script>(function(s){s.dataset.zone='12263612',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script><meta charset="utf-8">
+<!doctype html><html lang="it"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>TITOLO ARTICOLO | CurioMondo</title>
 <meta name="description" content="SOTTOTITOLO/RIASSUNTO">
@@ -299,8 +299,7 @@ resto del template resta identico.
 "inLanguage":"it-IT","author":{"@type":"Organization","name":"Redazione CurioMondo"},
 "publisher":{"@type":"Organization","name":"CurioMondo","logo":{"@type":"ImageObject","url":"https://curiomondo.it/curiomondo-logo-512.png"}},
 "image":["https://curiomondo.it/assets/images/editorial-auto/FILENAME_BASE-1200.webp"]}</script>
-<script type="text/plain" data-cookiecategory="marketing" async crossorigin="anonymous"
- src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8050187517048759"></script>
+
 </head>
 ```
 
