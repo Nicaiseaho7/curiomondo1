@@ -368,8 +368,9 @@
       console.error('CurioMondo homepage sync:', error);
     }
   };
-  if (preferStatic) syncIfStale();
-  else {
+  // La home pubblicata è già il layout. Non riscaricare il feed da 5 MB
+  // né ricostruire le card: sul telefono quel lavoro blocca la pagina.
+  if (!preferStatic) {
     window.addEventListener('pointerdown', start, { once: true, passive: true });
     window.addEventListener('keydown', start, { once: true });
     window.addEventListener('scroll', start, { once: true, passive: true });
