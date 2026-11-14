@@ -340,9 +340,13 @@
       const response = await fetch('/assets/data/home-feed-stamp.json', { cache: 'no-store', credentials: 'same-origin' });
       if (!response.ok) return;
       const stamp = await response.json();
-      const url = stamp && stamp.newest;
-      if (!url || !/^\/notizie\/[a-z0-9-]+\.html$/.test(url)) return;
-      if (zone.querySelector('a[href="' + url + '"]')) return;
+      const bare = (value) => String(value || '').split('?')[0].split('#')[0].replace(/\.html$/, '').replace(/\/$/, '');
+      const wanted = bare(stamp && stamp.newest);
+      if (!wanted.startsWith('/notizie/')) return;
+      const links = document.querySelectorAll('a[href]');
+      for (const link of links) {
+        if (bare(link.getAttribute('href')) === wanted) return;
+      }
       start();
     } catch (error) {
       console.error('CurioMondo homepage sync:', error);
