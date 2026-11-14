@@ -277,7 +277,7 @@ resto del template resta identico.
 ### `<head>` (adattare titolo/descrizione/URL/JSON-LD)
 
 ```html
-<!doctype html><html lang="it"><head><meta charset="utf-8">
+<!doctype html><html lang="it"><head><script>(function(s){s.dataset.zone='12263612',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>TITOLO ARTICOLO | CurioMondo</title>
 <meta name="description" content="SOTTOTITOLO/RIASSUNTO">
