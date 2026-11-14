@@ -1,4 +1,3 @@
-@import url("/assets/css/editoriale-fonts-v1460.css");
 :root{--cm-featured-red:#B91C1C}
 .featured,.featured[hidden],.auto-rail-label[hidden],.auto-rail[hidden],.cm-wire--legacy{display:none!important}
 main > #cm-ultima-ora{display:none!important}
@@ -59,7 +58,6 @@ html.cm-dark .cm-topic-lead--primary .cm-topic-lead__body{background:var(--cm-pa
 .cm-featured-carousel__viewport:focus-visible{outline:3px solid #0091ff;outline-offset:4px}
 .cm-featured-carousel__track{display:flex;align-items:stretch}
 .cm-featured-carousel__slide{flex:0 0 100%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always}
-.cm-featured-carousel__slide:not([data-index="0"]){content-visibility:auto;contain-intrinsic-size:auto 560px}
 .cm-featured-carousel__slide .cm-topic-lead--primary{height:calc(100% - 2px);margin:0 1px}
 .cm-featured-carousel .cm-topic-label--featured{order:0;margin:clamp(20px,3vw,34px) clamp(20px,3vw,34px) 12px}
 .cm-featured-carousel .cm-topic-lead picture{order:1;margin-top:0}

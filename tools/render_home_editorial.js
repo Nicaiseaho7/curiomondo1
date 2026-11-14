@@ -49,7 +49,7 @@ const picture = (entry, eager) => {
   const small = parts.find((part) => /\s480w$/.test(part));
   const src = eager && small ? small.split(/\s+/)[0] : entry.image;
   const extra = eager
-    ? ' loading="eager" decoding="async" fetchpriority="high"'
+    ? ' loading="eager" decoding="sync" fetchpriority="high"'
     : ' loading="lazy" decoding="async"';
   return `<picture><img src="${esc(src)}"${entry.srcset ? ` srcset="${esc(entry.srcset)}"` : ''} sizes="${LCP_SIZES}" alt="${esc(entry.imageAlt)}" width="${entry.imageWidth || 800}" height="${entry.imageHeight || 533}"${extra}></picture>`;
 };
