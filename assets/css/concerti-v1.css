@@ -103,16 +103,18 @@ html.cm-dark .site-footer nav a{background:#0d1c31;color:#edf4ff;border-color:#3
 
 #calendar-title{font-size:clamp(2.8rem,8vw,4.4rem);letter-spacing:-.045em}
 .icon-button[aria-pressed="true"],.save-button[aria-pressed="true"]{background:#e5f7ee;border-color:#128a52;color:#0b6b3e}
-.event-card{position:relative;overflow:hidden;padding:20px 18px 16px 20px;border:1px solid #d5e4f4;border-radius:26px;background:linear-gradient(180deg,#fff 0%,#f5f9ff 100%);box-shadow:0 1px 0 rgba(255,255,255,.9) inset,0 16px 36px rgba(18,56,107,.08)}
-.event-card:before{content:"";position:absolute;left:0;top:16px;bottom:16px;width:3px;border-radius:3px;background:linear-gradient(180deg,#12386b,#5aa0ef)}
-.event-card:hover,.event-card:focus-within{border-color:#b9d4ee;box-shadow:0 20px 42px rgba(18,56,107,.12)}
-.date-box{background:#12386b;color:#fff;border-radius:14px;padding:7px 12px}
-.date-box strong,.date-box span{color:#fff}
-.date-box span{color:#d5e7ff}
+.event-card{position:relative;overflow:hidden;padding:20px 18px 16px 20px;border:1px solid #d7e7f8;border-radius:26px;background:#fff;box-shadow:0 1px 0 rgba(255,255,255,.9) inset,0 16px 36px rgba(36,95,214,.07)}
+.event-card:nth-child(odd){background:linear-gradient(180deg,#f7fbff,#e8f3ff);border-color:#c9dff8}
+.event-card:nth-child(even){background:#fff;border-color:#e6eef6}
+.event-card:before{content:"";position:absolute;left:0;top:16px;bottom:16px;width:3px;border-radius:3px;background:linear-gradient(180deg,#7eb6ff,#245fd6)}
+.event-card:hover,.event-card:focus-within{border-color:#b7d4f6;box-shadow:0 20px 42px rgba(36,95,214,.12)}
+.date-box{background:#e7f2ff;color:#245fd6;border-radius:14px;padding:7px 12px}
+.date-box strong{color:#245fd6}
+.date-box span{color:#3d7fe8}
 .event-main h3{color:#10233c}
-.event-main p:first-of-type{color:#1d63c2}
+.event-main p:first-of-type{color:#245fd6}
 .event-location{border-top-color:#e3eef8}
-.ticket-link{background:#12386b}
-.news-link{color:#12386b;border-color:#d5e4f4;background:#fff}
-.month-fold{border-color:#d7e6f6;box-shadow:0 10px 24px rgba(18,56,107,.05)}
-.month-fold summary small{color:#1d63c2}
+.ticket-link{background:#6d28d9}
+.news-link{color:#245fd6;border-color:#d5e4f4;background:#fff}
+.month-fold{border-color:#d7e6f6;box-shadow:0 10px 24px rgba(36,95,214,.05)}
+.month-fold summary small{color:#245fd6}

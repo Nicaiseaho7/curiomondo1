@@ -3,7 +3,8 @@
   isolation: isolate;
   display: grid;
   align-items: center;
-  min-height: 420px;
+  min-height: 520px;
+  align-items: center;
   overflow: hidden;
   background: #efd4ae;
   color: #17283a;
@@ -21,12 +22,15 @@
   object-fit: cover;
   object-position: center 42%;
 }
-.concert-hero--premium .hero-shade {
-  display: block;
-  z-index: -2;
-  background: linear-gradient(90deg,rgba(255,242,221,.96),rgba(255,242,221,.88) 29%,rgba(255,242,221,.38) 49%,rgba(255,242,221,0) 72%);
+.concert-hero--premium .hero-shade { display: none; }
+.concert-hero--premium .eyebrow { border-bottom-color: #3d8bff; color: #245fd6; }
+.concert-hero--premium .hero-content {
+  width: min(560px, calc(100% - 40px));
+  margin-left: 0;
+  padding: 22px 22px 16px;
+  border-radius: 22px;
+  background: rgba(255,255,255,.9);
 }
-.concert-hero--premium .hero-content { padding-block: 36px 32px; }
 .concert-hero--premium .eyebrow {
   display: inline-block;
   margin: 0 0 14px;
@@ -88,12 +92,9 @@
 .concert-hero--premium #heroCount { font-weight: 700; }
 .concert-hero--premium .hero-image-note { display: none; }
 @media (max-width: 680px) {
-  .concert-hero.concert-hero--premium { min-height: 0; align-items: start; }
-  .concert-hero--premium .hero-content { width: calc(100% - 40px); padding-block: 22px 18px; }
-  .concert-hero--premium .concert-hero__picture img { object-position: 70% 38%; }
-  .concert-hero--premium .hero-shade {
-    background: linear-gradient(180deg,rgba(255,242,221,.97) 0%,rgba(255,242,221,.9) 62%,rgba(255,242,221,.55) 100%);
-  }
+  .concert-hero.concert-hero--premium { min-height: 460px; align-items: start; }
+  .concert-hero--premium .hero-content { width: calc(100% - 32px); margin-top: 16px; padding: 16px 16px 12px; }
+  .concert-hero--premium .concert-hero__picture img { object-position: center 36%; }
   .concert-hero--premium .eyebrow { margin-bottom: 10px; font-size: 1.22rem; letter-spacing: -.03em; }
   .concert-hero--premium h1 { max-width: 100%; font-size: clamp(2.05rem, 8.4vw, 2.6rem); line-height: 1.05; }
   .concert-hero--premium .hero-lead { max-width: 34ch; margin-top: 10px; font-size: 1rem; line-height: 1.45; }
