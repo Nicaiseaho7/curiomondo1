@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="it" data-page="current">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Scioperi in Italia: calendario aggiornato per regione | CurioMondo</title>
+  <meta name="description" content="Calendario verificato degli scioperi programmati in Italia: cerca per regione, periodo, settore e stato, con fonti ufficiali e servizi garantiti.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://curiomondo.it/scioperi/">
+  <meta name="theme-color" content="#1877f2">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/scioperi-v1.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"CollectionPage","name":"Scioperi in Italia: calendario aggiornato per regione","url":"https://curiomondo.it/scioperi/","description":"Calendario degli scioperi programmati in Italia, organizzato per regione e verificato su fonti ufficiali.","isPartOf":{"@type":"WebSite","name":"CurioMondo","url":"https://curiomondo.it/"}}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Vai al contenuto</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/" aria-label="CurioMondo, torna alla home">
+        <img src="/assets/images/curiomondo-logo-circle-v715-96.webp?v=715" width="52" height="52" alt="">
+        <span><strong>Curio<span>Mondo</span></strong><small>Notizie, curiosità e approfondimenti</small></span>
+      </a>
+      <nav class="header-nav" aria-label="Menu principale">
+        <a href="/">Home</a>
+        <a href="/notizie/">Notizie</a>
+        <a href="/scioperi/" aria-current="page">Scioperi</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="page-shell hero-grid">
+        <div>
+          <p class="eyebrow">Servizio CurioMondo</p>
+          <h1 id="page-title">Scioperi in Italia: calendario aggiornato per regione</h1>
+          <p class="hero-copy">Consulta gli scioperi programmati, filtra gli eventi e verifica orari, territori, stato e fonti ufficiali. Il calendario può contenere un evento anche quando non è ancora disponibile una notizia dedicata.</p>
+        </div>
+        <aside class="verification" aria-label="Stato della verifica">
+          <span class="verification-dot" aria-hidden="true"></span>
+          <div><small>ULTIMA VERIFICA EFFETTIVA</small><strong id="lastVerified">Caricamento…</strong><span>Fuso orario Europe/Rome</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <div class="page-shell content-layout">
+      <div class="primary-content">
+        <section class="national-section" aria-labelledby="national-title">
+          <div class="section-heading">
+            <div><p class="section-kicker">Tutta Italia</p><h2 id="national-title">Scioperi nazionali</h2></div>
+            <span class="result-pill" id="nationalCount" aria-live="polite">0 eventi</span>
+          </div>
+          <div id="nationalEvents" class="events-list" aria-live="polite"></div>
+        </section>
+
+        <section class="filters-section" aria-labelledby="filters-title">
+          <div class="section-heading compact"><div><p class="section-kicker">Trova rapidamente</p><h2 id="filters-title">Filtra il calendario</h2></div></div>
+          <form id="strikeFilters" class="filters" role="search">
+            <label><span>Periodo</span><select id="periodFilter" name="period"><option value="all">Tutti i prossimi eventi</option><option value="today">Oggi</option><option value="7days">Prossimi 7 giorni</option><option value="month">Questo mese</option><option value="custom">Intervallo personalizzato</option></select></label>
+            <label><span>Settore</span><select id="sectorFilter" name="sector"><option value="all">Tutti i settori</option><option value="treni">Treni</option><option value="aerei">Aerei</option><option value="tpl">Trasporto pubblico locale</option><option value="marittimo">Trasporto marittimo</option><option value="scuola">Scuola</option><option value="sanita">Sanità</option><option value="pa">Pubblica amministrazione</option><option value="altri">Altri settori</option></select></label>
+            <label><span>Stato</span><select id="statusFilter" name="status"><option value="all">Tutti gli stati</option><option value="proclamato">Proclamato</option><option value="confermato">Confermato</option><option value="modificato">Modificato</option><option value="rinviato">Rinviato</option><option value="revocato">Revocato</option></select></label>
+            <label class="search-field"><span>Azienda, servizio o località</span><input id="searchFilter" name="q" type="search" autocomplete="off" placeholder="Esempio: ANM, treni, Napoli"></label>
+            <div id="customDates" class="custom-dates" hidden>
+              <label><span>Dal</span><input id="dateFrom" name="from" type="date"></label>
+              <label><span>Al</span><input id="dateTo" name="to" type="date"></label>
+            </div>
+            <button id="resetFilters" class="reset-button" type="reset">Azzera filtri</button>
+          </form>
+          <p id="filterSummary" class="filter-summary" aria-live="polite"></p>
+        </section>
+
+        <section aria-labelledby="regions-title">
+          <div class="section-heading">
+            <div><p class="section-kicker">Territorio</p><h2 id="regions-title">Scioperi per regione</h2></div>
+            <p class="heading-note">Puoi aprire più regioni contemporaneamente.</p>
+          </div>
+          <div id="regionsAccordion" class="regions-accordion"></div>
+          <noscript><p class="empty-state">Per usare filtri e tendine è necessario attivare JavaScript. I dati ufficiali restano disponibili nel file <a href="/assets/data/scioperi.json">scioperi.json</a>.</p></noscript>
+        </section>
+
+        <section class="news-section" aria-labelledby="news-title">
+          <div class="section-heading"><div><p class="section-kicker">Approfondimenti</p><h2 id="news-title">Ultime notizie sugli scioperi</h2></div></div>
+          <div id="strikeNews" class="news-grid"></div>
+        </section>
+
+        <section class="archive-callout" aria-labelledby="archive-title">
+          <div><p class="section-kicker">Storico</p><h2 id="archive-title">Cerchi uno sciopero concluso?</h2><p>Gli eventi terminati vengono esclusi automaticamente dal calendario principale e restano consultabili nello storico.</p></div>
+          <a class="primary-button" href="/scioperi/archivio/">Apri l’archivio degli scioperi</a>
+        </section>
+      </div>
+
+      <aside class="source-panel" aria-labelledby="source-title">
+        <h2 id="source-title">Come verifichiamo</h2>
+        <p>Usiamo calendari istituzionali e comunicazioni ufficiali. La presenza nel calendario indica una proclamazione: non prova che si siano verificati disservizi.</p>
+        <ul><li>Proclamato</li><li>Confermato dalla fonte</li><li>Modificato</li><li>Rinviato</li><li>Revocato</li></ul>
+        <p class="source-warning"><strong>Attenzione:</strong> orari e modalità possono cambiare. Prima di partire, controlla sempre l’azienda interessata.</p>
+        <a href="https://scioperi.mit.gov.it/mit2/public/scioperi" target="_blank" rel="noopener noreferrer">Consulta il calendario ufficiale MIT <span aria-hidden="true">↗</span></a>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="page-shell"><strong>CurioMondo</strong><nav aria-label="Link del footer"><a href="/pagine/chi-siamo.html">Chi siamo</a><a href="/pagine/metodo-editoriale.html">Metodo editoriale</a><a href="/pagine/correzioni.html">Correzioni</a><a href="/pagine/privacy.html">Privacy</a></nav></div></footer>
+  <script defer src="/assets/js/scioperi-v1.js"></script>
+</body>
+</html>
