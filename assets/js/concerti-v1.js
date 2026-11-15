@@ -99,13 +99,22 @@
 
   function groupMarkup(events, archived = false) {
     if (!events.length) return `<p class="empty-state">${archived ? 'L’archivio non contiene ancora appuntamenti conclusi.' : 'Nessun appuntamento corrisponde ai filtri.'}</p>`;
+    if (archived) {
+      const groups = new Map();
+      events.forEach(event => { const key = new Intl.DateTimeFormat('sv-SE',{year:'numeric',month:'2-digit',timeZone:'Europe/Rome'}).format(new Date(event.start)); if (!groups.has(key)) groups.set(key, []); groups.get(key).push(event); });
+      return [...groups].map(([, items]) => {
+        const label = fmtMonth.format(new Date(items[0].start));
+        const title = label.charAt(0).toUpperCase() + label.slice(1);
+        const count = `${items.length} ${items.length === 1 ? 'appuntamento' : 'appuntamenti'}`;
+        return `<details class="month-fold"><summary><span>${esc(title)}</span><small>${esc(count)}</small></summary><div class="month-body">${items.map(event => eventCard(event, archived)).join('')}</div></details>`;
+      }).join('');
+    }
     const groups = new Map();
-    events.forEach(event => { const key = new Intl.DateTimeFormat('sv-SE',{year:'numeric',month:'2-digit',timeZone:'Europe/Rome'}).format(new Date(event.start)); if (!groups.has(key)) groups.set(key, []); groups.get(key).push(event); });
-    return [...groups].map(([, items]) => {
-      const label = fmtMonth.format(new Date(items[0].start));
-      const title = label.charAt(0).toUpperCase() + label.slice(1);
+    events.forEach(event => { if (!groups.has(event.city)) groups.set(event.city, []); groups.get(event.city).push(event); });
+    return [...groups.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0], 'it')).map(([city, items]) => {
+      items.sort((a, b) => new Date(a.start) - new Date(b.start));
       const count = `${items.length} ${items.length === 1 ? 'appuntamento' : 'appuntamenti'}`;
-      return `<details class="month-fold"><summary><span>${esc(title)}</span><small>${esc(count)}</small></summary><div class="month-body">${items.map(event => eventCard(event, archived)).join('')}</div></details>`;
+      return `<details class="month-fold"><summary><span>${esc(city)}</span><small>${esc(count)}</small></summary><div class="month-body">${items.map(event => eventCard(event, archived)).join('')}</div></details>`;
     }).join('');
   }
 
