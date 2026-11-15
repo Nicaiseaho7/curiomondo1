@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "meta": {
     "timezone": "Europe/Rome",
-    "lastVerified": "2026-11-15T09:42:00+01:00",
-    "verificationLabel": "15 novembre 2026 alle ore 09:42",
+    "lastVerified": "2026-11-15T17:48:00+01:00",
+    "verificationLabel": "15 novembre 2026 alle ore 17:48",
     "dataPolicy": "Sono pubblicati soltanto dati riscontrati in calendari o comunicazioni ufficiali. I campi non disponibili sono indicati come Non comunicato.",
     "officialSources": [
       {
@@ -376,7 +376,13 @@
         "label": "Avviso ufficiale Trenord n. 241/2026",
         "url": "https://www.trenord.it/fileadmin/contenuti/TRENORD/3-News/Trenord_Informa/Avvisi/2026/AvvisoTrenord_2026_241__Sciopero_nov.pdf"
       },
-      "article": null
+      "article": {
+        "url": "/notizie/sciopero-nazionale-treni-fs-20-21-novembre-2026-garantiti.html",
+        "title": "Sciopero dei treni il 20 e 21 novembre: orari e servizi garantiti",
+        "summary": "L’agitazione nazionale interessa il personale del Gruppo FS, Trenitalia, Trenitalia Tper e Trenord dalle 21 di venerdì alle 20 di sabato.",
+        "image": "/assets/images/editorial-auto/sciopero-nazionale-treni-fs-20-21-novembre-2026-garantiti-v1511-1200.webp",
+        "imageAlt": "Un treno ad alta velocità e un regionale fermi in stazione con personale ferroviario rivolto verso la camera, senza folla né disordini."
+      }
     },
     {
       "id": "mit-2026-11-21-enav-nazionale",
@@ -496,6 +502,14 @@
     }
   ],
   "articles": [
+    {
+      "url": "/notizie/sciopero-nazionale-treni-fs-20-21-novembre-2026-garantiti.html",
+      "title": "Sciopero dei treni il 20 e 21 novembre: orari e servizi garantiti",
+      "summary": "L’agitazione nazionale interessa il personale del Gruppo FS, Trenitalia, Trenitalia Tper e Trenord dalle 21 di venerdì alle 20 di sabato.",
+      "image": "/assets/images/editorial-auto/sciopero-nazionale-treni-fs-20-21-novembre-2026-garantiti-v1511-1200.webp",
+      "imageAlt": "Un treno ad alta velocità e un regionale fermi in stazione con personale ferroviario rivolto verso la camera, senza folla né disordini.",
+      "publishedAt": "2026-11-15T17:47:25+01:00"
+    },
     {
       "url": "/notizie/sciopero-sbb-cargo-italia-10-11-novembre-2026.html",
       "title": "SBB Cargo, sciopero nazionale di otto ore tra il 10 e l’11 novembre",

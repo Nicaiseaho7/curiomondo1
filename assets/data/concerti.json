@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-15T12:13:43+01:00",
+  "lastVerified": "2026-11-15T17:48:00+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -1566,6 +1566,32 @@
       "genre": "Teatro",
       "sourceUrl": "https://www.comune.roma.it/web/it/evento/memoria-di-ragazza-prima-nazionale-teatro-valle.page",
       "ticketUrl": "https://www.comune.roma.it/web/it/evento/memoria-di-ragazza-prima-nazionale-teatro-valle.page"
+    },
+    {
+      "id": "webinar-ia-liguria-2026-11-18",
+      "artist": "Camera di commercio Riviere di Liguria",
+      "tour": "Quattro webinar gratuiti sull’intelligenza artificiale",
+      "start": "2026-11-18T09:00:00+01:00",
+      "end": null,
+      "showTime": false,
+      "city": "Online",
+      "province": "",
+      "region": "Liguria",
+      "venue": "Webinar",
+      "genre": "Formazione",
+      "status": "annunciato",
+      "ticketStatus": "free",
+      "featured": false,
+      "sourceUrl": "https://rivlig.camcom.gov.it/comunicazione-e-urp/comunicati-stampa/comunicati-stampa-anno-2026",
+      "ticketUrl": "https://rivlig.camcom.gov.it/comunicazione-e-urp/comunicati-stampa/comunicati-stampa-anno-2026",
+      "lastVerified": "2026-11-15T17:48:00+01:00",
+      "note": "Il primo incontro online è il 18 novembre. Le altre tre date non sono indicate nella notizia.",
+      "article": {
+        "url": "/notizie/camera-commercio-riviere-liguria-quattro-webinar-ia-imprese-2026.html",
+        "title": "IA in azienda, quattro webinar gratuiti per le imprese liguri",
+        "description": "La Camera di commercio Riviere di Liguria apre le iscrizioni: il primo appuntamento online è il 18 novembre.",
+        "image": "/assets/images/editorial-auto/camera-commercio-riviere-liguria-quattro-webinar-ia-imprese-2026-v1511-1200.webp"
+      }
     }
   ]
 }
