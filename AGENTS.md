@@ -87,6 +87,18 @@ La sola fonte ammessa per una nuova Domanda del giorno è il titolo/domanda invi
 ## Divieto di pubblicare duplicati — 8 novembre 2026
 Prima di ogni pacchetto si legge per intero ogni articolo e lo si confronta con le notizie già online: fatto, luogo e giorno, non solo lo slug. È il primo filtro. Una riscrittura più corta o più lunga dello stesso fatto è un duplicato e non si pubblica, nemmeno con un altro titolo. Si aggiorna l’articolo già online solo se cambia un fatto vero: bilancio, orario, decisione o numero ufficiale. Stesso indirizzo, novità in apertura, ora della prima pubblicazione ferma. A fine ciclo si dice quanti pezzi sono nuovi e quanti sono aggiornamenti. Dettaglio: `automation/prompts/divieto-duplicati.txt`. Il controllo `duplicate_of` non basta e non si aggira con un altro slug.
 
+## Schede scioperi, concerti ed eventi — 15 novembre 2026
+
+Ordine del proprietario. Non scade. Vale per ogni notizia nuova e per ogni aggiornamento, prima di dire che la pubblicazione è conclusa.
+
+Se la notizia parla di uno sciopero, di un concerto o di un evento in Italia, a pagamento o gratuito:
+
+- si cerca la scheda in `/scioperi/` o in `/concerti/`;
+- se esiste, si aggiunge il link della notizia e non si crea un duplicato;
+- se non esiste e la data è verificata, la scheda si crea subito, con i soli fatti della notizia, e ci si mette il link.
+
+Senza questo passaggio la notizia non è pubblicata. Dettaglio: `PROTOCOLLO-SCHEDE-SCIOPERI-EVENTI.md`.
+
 ## Controllo corpo notizia prima del go-live — 8 novembre 2026, sera
 
 Ordine del proprietario. Non scade. Vale per ogni notizia nuova e per ogni aggiornamento, prima del commit.
