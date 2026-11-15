@@ -73,3 +73,17 @@ html.cm-dark .site-footer nav a{background:#0d1c31;color:#edf4ff;border-color:#3
 .card-tools{margin-left:auto}
 .event-note{margin:12px 0 0!important;padding-top:10px}
 @media(max-width:680px){.event-card{display:flex;grid-template-columns:none}.event-main,.event-location,.event-actions,.event-note{grid-column:auto}.card-tools{margin-left:0;width:100%}}
+
+.concert-hero{min-height:0;display:block;background:
+  radial-gradient(90% 80% at 100% -10%, rgba(120,186,255,.55), transparent 46%),
+  radial-gradient(70% 80% at -10% 110%, rgba(36,95,214,.45), transparent 50%),
+  linear-gradient(165deg,#07182e 0%,#12386b 46%,#1d5cad 100%);
+  color:#fff}
+.concert-hero picture,.concert-hero img,.hero-shade{display:none}
+.hero-content{padding:34px 0 42px}
+.concert-hero .eyebrow{color:#d7e8ff;letter-spacing:.18em}
+.hero-content h1{max-width:14ch;font-family:"Source Serif 4",Georgia,serif;font-size:clamp(2.5rem,8vw,4.4rem);line-height:.96;letter-spacing:-.04em;color:#fff}
+.hero-lead{max-width:34rem;margin-top:16px;color:#e7f0fb;font-size:1.08rem}
+.hero-meta{color:#d5e4f6}
+.hero-cta{background:#fff;color:#12386b}
+.status.free{background:#e7f6ee;color:#0d6849}
