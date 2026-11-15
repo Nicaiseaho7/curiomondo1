@@ -88,11 +88,15 @@ html.cm-dark .site-footer nav a{background:#0d1c31;color:#edf4ff;border-color:#3
 .hero-cta{background:#fff;color:#12386b}
 .status.free{background:#e7f6ee;color:#0d6849}
 
-.search-panel{grid-template-columns:1fr;gap:12px;margin:2px 0 22px;padding:18px 16px 16px;border:0;border-radius:26px;background:radial-gradient(90% 140% at 100% 0%,rgba(255,255,255,.2),transparent 46%),linear-gradient(155deg,#0c274d 0%,#164a92 58%,#1d63c2 100%);box-shadow:0 18px 40px rgba(12,39,77,.22);color:#fff}
-.search-panel .search-kicker{grid-column:1/-1;margin:0;font-size:.72rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#d7e7ff}
+.search-panel{grid-template-columns:1fr;gap:12px;margin:0;padding:4px 16px 16px;border:0;border-radius:0;background:#f4f8fd;box-shadow:none;color:#142033}
+.search-fold{margin:2px 0 22px;border:0;border-radius:26px;overflow:hidden;background:radial-gradient(90% 140% at 100% 0%,rgba(255,255,255,.2),transparent 46%),linear-gradient(155deg,#0c274d 0%,#164a92 58%,#1d63c2 100%);box-shadow:0 18px 40px rgba(12,39,77,.22)}
+.search-fold summary{color:#fff;padding:18px 18px;font-size:1.05rem}
+.search-fold summary span{font-family:"Source Serif 4",Georgia,serif;font-size:1.35rem;letter-spacing:-.03em}
+.search-fold summary small{color:#d7e7ff;font-weight:800}
+.search-fold summary:after{border-color:#fff}
 .search-panel .search-wide{grid-column:1/-1}
-.search-panel label{color:#e8f1ff;font-size:.78rem}
-.search-panel input,.search-panel select{background:#fff;color:#142033;border:0;min-height:54px;border-radius:16px;font-size:1.05rem;box-shadow:0 10px 22px rgba(5,20,40,.14)}
-.search-panel .reset-button{background:#fff;color:#12386b}
-.search-panel .saved-check{color:#fff}
-@media(min-width:760px){.search-panel{grid-template-columns:1.4fr repeat(2,1fr)}.search-panel .search-wide,.search-panel .search-kicker{grid-column:1/-1}}
+.search-panel label{color:#3d4d63;font-size:.78rem}
+.search-panel input,.search-panel select{background:#fff;color:#142033;border:1px solid #d5e2f2;min-height:52px;border-radius:16px;font-size:1.05rem;box-shadow:none}
+.search-panel .reset-button{background:#12386b;color:#fff}
+.search-panel .saved-check{color:#142033}
+@media(min-width:760px){.search-panel{grid-template-columns:1.4fr repeat(2,1fr)}.search-panel .search-wide{grid-column:1/-1}}
