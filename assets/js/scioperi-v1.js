@@ -7,7 +7,7 @@
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
   const fallback = (value) => value === null || value === undefined || value === '' ? 'Non comunicato' : String(value);
-  const escapeHtml = (value) => fallback(value).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
+  const escapeHtml = (value) => fallback(value).replace(/[&<>'"]/g, char => ({'&':'&','<':'<','>':'>',"'":'&#39;','"':'"'}[char]));
   const safeUrl = (value) => {
     if (typeof value !== 'string') return '#';
     if (value.startsWith('/')) return value;
@@ -72,34 +72,31 @@
 
   function articleBlock(article) {
     if (!article || !article.url) return '';
-    const image = article.image ? `<img src="${escapeHtml(safeUrl(article.image))}" alt="${escapeHtml(article.imageAlt || '')}" width="296" height="184" loading="lazy" decoding="async">` : '';
-    return `<aside class="article-preview" aria-label="Notizia collegata">${image}<div><span class="sector-label">NOTIZIA COLLEGATA</span><h4>${escapeHtml(article.title)}</h4><p>${escapeHtml(article.summary)}</p></div></aside>`;
+    const image = article.image ? `<img src="${escapeHtml(safeUrl(article.image))}" alt="${escapeHtml(article.imageAlt || article.title || '')}" width="296" height="184" loading="lazy" decoding="async">` : '';
+    return `<a class="article-preview" href="${escapeHtml(safeUrl(article.url))}"><span class="sector-label">Notizia</span>${image}<strong>${escapeHtml(article.title)}</strong><span>${escapeHtml(article.summary)}</span></a>`;
   }
 
   function eventCard(event, context = 'list') {
     const d = dateParts(event);
-    const article = event.article || null;
-    const secondSource = event.secondarySource && event.secondarySource.url
-      ? `<a href="${escapeHtml(safeUrl(event.secondarySource.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(event.secondarySource.label)} <span aria-hidden="true">↗</span></a>` : '';
-    const articleLink = article && article.url ? `<a class="article-link" href="${escapeHtml(safeUrl(article.url))}">Leggi la notizia completa</a>` : '';
-    const nationalLabel = event.national ? '<span class="sector-label">Tutta Italia</span>' : '';
     return `<article class="event-card" data-status="${escapeHtml(event.status)}" data-event-id="${escapeHtml(event.id)}" data-context="${escapeHtml(context)}">
-      <div class="event-main">
-        <time class="event-date" datetime="${escapeHtml(event.startsAt)}"><span class="weekday">${escapeHtml(d.weekday)}</span><strong>${escapeHtml(d.day)}</strong><span class="month">${escapeHtml(d.month)}</span></time>
-        <div>
-          <div class="event-overline"><span class="sector-label">${escapeHtml(event.sectorLabel)}</span>${nationalLabel}<span class="status-badge" data-status="${escapeHtml(event.status)}">${escapeHtml(titleCase(event.status))}</span></div>
+      <details class="event-fold">
+        <summary>
+          <time class="event-date" datetime="${escapeHtml(event.startsAt)}"><span class="weekday">${escapeHtml(d.weekday)}</span><strong>${escapeHtml(d.day)}</strong><span class="month">${escapeHtml(d.month)}</span></time>
           <h3>${escapeHtml(event.title)}</h3>
-          <p class="event-essentials"><span aria-label="Data">📅 ${escapeHtml(longDate(event))}</span><span aria-label="Orario o durata">🕒 ${escapeHtml(event.scheduleText)}</span><span aria-label="Territorio">📍 ${escapeHtml(event.territory)}</span></p>
+          <span class="status-badge" data-status="${escapeHtml(event.status)}">${escapeHtml(titleCase(event.status))}</span>
+          <span class="fold-chevron" aria-hidden="true"></span>
+        </summary>
+        <div class="event-body">
+          <p class="event-essentials"><span>${escapeHtml(longDate(event))}</span><span>${escapeHtml(event.scheduleText)}</span><span>${escapeHtml(event.territory)}</span><span>${escapeHtml(event.sectorLabel)}</span></p>
+          <dl class="event-details">
+            <div><dt>Azienda, ente o servizio</dt><dd>${escapeHtml(event.services)}</dd></div>
+            <div><dt>Organizzazioni proclamanti</dt><dd>${escapeHtml(event.organizations)}</dd></div>
+            <div><dt>Fasce e servizi garantiti</dt><dd>${escapeHtml(event.guarantees)}</dd></div>
+            <div><dt>Ultima verifica</dt><dd>${escapeHtml(verifiedDate(event.verifiedAt))} · Europe/Rome</dd></div>
+          </dl>
+          ${articleBlock(event.article)}
         </div>
-      </div>
-      <dl class="event-details">
-        <div><dt>Azienda, ente o servizio</dt><dd>${escapeHtml(event.services)}</dd></div>
-        <div><dt>Organizzazioni proclamanti</dt><dd>${escapeHtml(event.organizations)}</dd></div>
-        <div><dt>Fasce e servizi garantiti</dt><dd>${escapeHtml(event.guarantees)}</dd></div>
-        <div><dt>Ultima verifica</dt><dd>${escapeHtml(verifiedDate(event.verifiedAt))} · Europe/Rome</dd></div>
-      </dl>
-      ${articleBlock(article)}
-      <div class="event-links"><a href="${escapeHtml(safeUrl(event.source && event.source.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(event.source && event.source.label)} <span aria-hidden="true">↗</span></a>${secondSource}${articleLink}</div>
+      </details>
     </article>`;
   }
 
@@ -119,7 +116,7 @@
         <button class="region-toggle" type="button" aria-expanded="false" aria-controls="panel-${escapeHtml(region.slug)}">
           <span class="region-title">${escapeHtml(region.name)}</span>
           <span class="region-meta"><span class="region-count">0 scioperi</span><span class="region-next">Prossimo: non disponibile</span></span>
-          <span class="region-chevron" aria-hidden="true">⌄</span>
+          <span class="fold-chevron" aria-hidden="true"></span>
         </button>
       </h3>
       <div class="region-panel" id="panel-${escapeHtml(region.slug)}" hidden></div>
@@ -136,6 +133,22 @@
       const open = button.getAttribute('aria-expanded') !== 'true';
       setRegionOpen(slug, open, true);
     }));
+    const search = $('#regionSearch');
+    if (search) search.addEventListener('input', filterRegionList);
+  }
+
+  function filterRegionList() {
+    const query = ($('#regionSearch')?.value || '').trim().toLocaleLowerCase('it-IT');
+    let visible = 0;
+    state.data.regions.forEach(region => {
+      const item = document.getElementById(region.slug);
+      if (!item) return;
+      const match = !query || region.name.toLocaleLowerCase('it-IT').includes(query);
+      item.hidden = !match;
+      if (match) visible += 1;
+    });
+    const emptyState = $('#regionSearchEmpty');
+    if (emptyState) emptyState.hidden = visible !== 0;
   }
 
   function setRegionOpen(slug, open, updateLocation = false) {
@@ -211,24 +224,39 @@
   function renderNews() {
     const target = $('#strikeNews');
     if (!target) return;
+    const section = target.closest('section');
     const articles = [...(state.data.articles || [])].sort((a,b) => new Date(b.publishedAt) - new Date(a.publishedAt));
-    if (!articles.length) { target.innerHTML = empty('Al momento non sono presenti articoli collegati. Il calendario resta consultabile con tutti i dati ufficiali disponibili.'); return; }
+    if (!articles.length) {
+      target.innerHTML = '';
+      if (section) section.hidden = true;
+      return;
+    }
+    if (section) section.hidden = false;
     target.innerHTML = articles.map(article => `<article class="news-card"><a href="${escapeHtml(safeUrl(article.url))}">${article.image ? `<img src="${escapeHtml(safeUrl(article.image))}" alt="${escapeHtml(article.imageAlt || '')}" width="640" height="360" loading="lazy" decoding="async">` : ''}<div><time datetime="${escapeHtml(article.publishedAt)}">${escapeHtml(verifiedDate(article.publishedAt))}</time><h3>${escapeHtml(article.title)}</h3><p>${escapeHtml(article.summary)}</p></div></a></article>`).join('');
   }
 
   function openFromHash() {
     const hash = decodeURIComponent(location.hash.replace(/^#/, ''));
     if (!hash) return;
+    const regionsFold = document.getElementById('regionsFold');
     if (state.data.regions.some(region => region.slug === hash)) {
+      if (regionsFold) regionsFold.open = true;
+      const search = $('#regionSearch');
+      if (search) search.value = '';
+      filterRegionList();
       setRegionOpen(hash, true, false);
       document.getElementById(hash)?.scrollIntoView({block:'start'});
       return;
     }
-    const event = state.current.find(item => item.id === hash);
+    const event = state.data.events.find(item => item.id === hash);
     if (!event) return;
-    const region = event.regions[0];
-    if (region) setRegionOpen(region, true, false);
+    if (!event.national && event.regions[0]) {
+      if (regionsFold) regionsFold.open = true;
+      setRegionOpen(event.regions[0], true, false);
+    }
     const card = document.querySelector(`[data-event-id="${CSS.escape(hash)}"]`);
+    const fold = card?.querySelector('details');
+    if (fold) fold.open = true;
     card?.scrollIntoView({block:'center'});
   }
 
@@ -260,7 +288,7 @@
     } catch (error) {
       console.error('Impossibile caricare il calendario scioperi:', error);
       ['#nationalEvents','#regionsAccordion','#archiveEvents','#strikeNews'].forEach(selector => {
-        const target = $(selector); if (target) target.innerHTML = empty('Il calendario non è disponibile in questo momento. Riprova più tardi o consulta la fonte ufficiale MIT.');
+        const target = $(selector); if (target) target.innerHTML = empty('Il calendario non è disponibile in questo momento. Riprova più tardi.');
       });
     }
   }

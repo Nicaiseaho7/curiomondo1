@@ -4,43 +4,38 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <title>Scioperi in Italia: calendario aggiornato per regione | CurioMondo</title>
-  <meta name="description" content="Calendario verificato degli scioperi programmati in Italia: cerca per regione, periodo, settore e stato, con fonti ufficiali e servizi garantiti.">
+  <meta name="description" content="Calendario verificato degli scioperi programmati in Italia: cerca per regione, periodo, settore e stato.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://curiomondo.it/scioperi/">
   <meta name="theme-color" content="#1877f2">
   <link rel="icon" href="/favicon.ico">
-  <link rel="stylesheet" href="/assets/css/scioperi-v1.css">
+  <link rel="stylesheet" href="/assets/css/editoriale-fonts-v1460.css">
+  <link rel="stylesheet" href="/assets/css/global-header-v275.css?v=1463">
+  <link rel="stylesheet" href="/assets/css/scioperi-v1.css?v=2">
+  <script>try{if(localStorage.getItem('cm_theme')==='dark')document.documentElement.classList.add('cm-dark')}catch(e){}</script>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"CollectionPage","name":"Scioperi in Italia: calendario aggiornato per regione","url":"https://curiomondo.it/scioperi/","description":"Calendario degli scioperi programmati in Italia, organizzato per regione e verificato su fonti ufficiali.","isPartOf":{"@type":"WebSite","name":"CurioMondo","url":"https://curiomondo.it/"}}
   </script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Vai al contenuto</a>
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="/" aria-label="CurioMondo, torna alla home">
-        <img src="/assets/images/curiomondo-logo-circle-v715-96.webp?v=715" width="52" height="52" alt="">
-        <span><strong>Curio<span>Mondo</span></strong><small>Notizie, curiosità e approfondimenti</small></span>
-      </a>
-      <nav class="header-nav" aria-label="Menu principale">
-        <a href="/">Home</a>
-        <a href="/notizie/">Notizie</a>
-        <a href="/scioperi/" aria-current="page">Scioperi</a>
-      </nav>
-    </div>
+  <header class="cm-global-header" data-cm-global-header="v275">
+    <nav class="cm-global-header__inner" aria-label="Navigazione della pagina">
+      <a class="cm-global-header__back" href="/" aria-label="Torna alla home di CurioMondo"><span class="cm-global-header__back-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M19 12H5"></path><path d="m11 18-6-6 6-6"></path></svg></span></a>
+      <a class="cm-global-header__brand" href="/" aria-label="CurioMondo, home"><span aria-hidden="true">Curio<span>Mondo</span></span></a>
+      <button class="cm-global-header__theme" data-cm-global-theme type="button" aria-label="Attiva modalità scura" aria-pressed="false"><span aria-hidden="true">☾</span></button>
+    </nav>
   </header>
 
   <main id="main-content" tabindex="-1">
     <section class="hero" aria-labelledby="page-title">
-      <div class="page-shell hero-grid">
-        <div>
-          <p class="eyebrow">Servizio CurioMondo</p>
-          <h1 id="page-title">Scioperi in Italia: calendario aggiornato per regione</h1>
-          <p class="hero-copy">Consulta gli scioperi programmati, filtra gli eventi e verifica orari, territori, stato e fonti ufficiali. Il calendario può contenere un evento anche quando non è ancora disponibile una notizia dedicata.</p>
-        </div>
+      <div class="page-shell">
+        <p class="eyebrow">Servizio CurioMondo</p>
+        <h1 id="page-title">Scioperi in Italia: calendario aggiornato per regione</h1>
+        <p class="hero-copy">Consulta gli scioperi programmati, filtra gli eventi e verifica orari, territori, stato e fonti ufficiali.</p>
         <aside class="verification" aria-label="Stato della verifica">
           <span class="verification-dot" aria-hidden="true"></span>
-          <div><small>ULTIMA VERIFICA EFFETTIVA</small><strong id="lastVerified">Caricamento…</strong><span>Fuso orario Europe/Rome</span></div>
+          <div><small>Ultima verifica effettiva</small><strong id="lastVerified">Caricamento…</strong><span>Fuso orario Europe/Rome</span></div>
         </aside>
       </div>
     </section>
@@ -72,11 +67,17 @@
         </section>
 
         <section aria-labelledby="regions-title">
-          <div class="section-heading">
-            <div><p class="section-kicker">Territorio</p><h2 id="regions-title">Scioperi per regione</h2></div>
-            <p class="heading-note">Puoi aprire più regioni contemporaneamente.</p>
-          </div>
-          <div id="regionsAccordion" class="regions-accordion"></div>
+          <details class="regions-fold" id="regionsFold">
+            <summary id="regions-title">
+              <span class="regions-fold-copy"><span class="section-kicker">Territorio</span><span class="regions-fold-title">Regioni</span></span>
+              <span class="fold-chevron" aria-hidden="true"></span>
+            </summary>
+            <div class="regions-fold-panel">
+              <label class="region-search"><span>Cerca la tua regione</span><input id="regionSearch" type="search" autocomplete="off" placeholder="Scrivi il nome, per esempio Lombardia"></label>
+              <div id="regionsAccordion" class="regions-accordion"></div>
+              <p id="regionSearchEmpty" class="empty-state" hidden>Nessuna regione corrisponde alla ricerca.</p>
+            </div>
+          </details>
           <noscript><p class="empty-state">Per usare filtri e tendine è necessario attivare JavaScript. I dati ufficiali restano disponibili nel file <a href="/assets/data/scioperi.json">scioperi.json</a>.</p></noscript>
         </section>
 
@@ -86,7 +87,7 @@
         </section>
 
         <section class="archive-callout" aria-labelledby="archive-title">
-          <div><p class="section-kicker">Storico</p><h2 id="archive-title">Cerchi uno sciopero concluso?</h2><p>Gli eventi terminati vengono esclusi automaticamente dal calendario principale e restano consultabili nello storico.</p></div>
+          <div><p class="section-kicker">Storico</p><h2 id="archive-title">Cerchi uno sciopero concluso?</h2><p>Gli eventi terminati restano consultabili nello storico.</p></div>
           <a class="primary-button" href="/scioperi/archivio/">Apri l’archivio degli scioperi</a>
         </section>
       </div>
@@ -96,12 +97,23 @@
         <p>Usiamo calendari istituzionali e comunicazioni ufficiali. La presenza nel calendario indica una proclamazione: non prova che si siano verificati disservizi.</p>
         <ul><li>Proclamato</li><li>Confermato dalla fonte</li><li>Modificato</li><li>Rinviato</li><li>Revocato</li></ul>
         <p class="source-warning"><strong>Attenzione:</strong> orari e modalità possono cambiare. Prima di partire, controlla sempre l’azienda interessata.</p>
-        <a href="https://scioperi.mit.gov.it/mit2/public/scioperi" target="_blank" rel="noopener noreferrer">Consulta il calendario ufficiale MIT <span aria-hidden="true">↗</span></a>
       </aside>
     </div>
   </main>
 
-  <footer class="site-footer"><div class="page-shell"><strong>CurioMondo</strong><nav aria-label="Link del footer"><a href="/pagine/chi-siamo.html">Chi siamo</a><a href="/pagine/metodo-editoriale.html">Metodo editoriale</a><a href="/pagine/correzioni.html">Correzioni</a><a href="/pagine/privacy.html">Privacy</a></nav></div></footer>
-  <script defer src="/assets/js/scioperi-v1.js"></script>
+  <footer class="site-footer">
+    <div class="page-shell">
+      <a class="footer-brand" href="/" aria-label="CurioMondo, home">Curio<span>Mondo</span></a>
+      <p>Notizie verificate, con le fonti in chiaro.</p>
+      <nav aria-label="Informazioni sul sito">
+        <a href="/pagine/chi-siamo.html">Chi siamo</a>
+        <a href="/pagine/metodo-editoriale.html">Metodo editoriale</a>
+        <a href="/pagine/correzioni.html">Correzioni</a>
+        <a href="/pagine/privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+  <script defer src="/assets/js/global-header-v275.js"></script>
+  <script defer src="/assets/js/scioperi-v1.js?v=2"></script>
 </body>
 </html>

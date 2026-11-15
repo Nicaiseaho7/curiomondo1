@@ -17,26 +17,86 @@
     ]
   },
   "regions": [
-    { "slug": "abruzzo", "name": "Abruzzo" },
-    { "slug": "basilicata", "name": "Basilicata" },
-    { "slug": "calabria", "name": "Calabria" },
-    { "slug": "campania", "name": "Campania" },
-    { "slug": "emilia-romagna", "name": "Emilia-Romagna" },
-    { "slug": "friuli-venezia-giulia", "name": "Friuli-Venezia Giulia" },
-    { "slug": "lazio", "name": "Lazio" },
-    { "slug": "liguria", "name": "Liguria" },
-    { "slug": "lombardia", "name": "Lombardia" },
-    { "slug": "marche", "name": "Marche" },
-    { "slug": "molise", "name": "Molise" },
-    { "slug": "piemonte", "name": "Piemonte" },
-    { "slug": "puglia", "name": "Puglia" },
-    { "slug": "sardegna", "name": "Sardegna" },
-    { "slug": "sicilia", "name": "Sicilia" },
-    { "slug": "toscana", "name": "Toscana" },
-    { "slug": "trentino-alto-adige", "name": "Trentino-Alto Adige" },
-    { "slug": "umbria", "name": "Umbria" },
-    { "slug": "valle-d-aosta", "name": "Valle d’Aosta" },
-    { "slug": "veneto", "name": "Veneto" }
+    {
+      "slug": "abruzzo",
+      "name": "Abruzzo"
+    },
+    {
+      "slug": "basilicata",
+      "name": "Basilicata"
+    },
+    {
+      "slug": "calabria",
+      "name": "Calabria"
+    },
+    {
+      "slug": "campania",
+      "name": "Campania"
+    },
+    {
+      "slug": "emilia-romagna",
+      "name": "Emilia-Romagna"
+    },
+    {
+      "slug": "friuli-venezia-giulia",
+      "name": "Friuli-Venezia Giulia"
+    },
+    {
+      "slug": "lazio",
+      "name": "Lazio"
+    },
+    {
+      "slug": "liguria",
+      "name": "Liguria"
+    },
+    {
+      "slug": "lombardia",
+      "name": "Lombardia"
+    },
+    {
+      "slug": "marche",
+      "name": "Marche"
+    },
+    {
+      "slug": "molise",
+      "name": "Molise"
+    },
+    {
+      "slug": "piemonte",
+      "name": "Piemonte"
+    },
+    {
+      "slug": "puglia",
+      "name": "Puglia"
+    },
+    {
+      "slug": "sardegna",
+      "name": "Sardegna"
+    },
+    {
+      "slug": "sicilia",
+      "name": "Sicilia"
+    },
+    {
+      "slug": "toscana",
+      "name": "Toscana"
+    },
+    {
+      "slug": "trentino-alto-adige",
+      "name": "Trentino-Alto Adige"
+    },
+    {
+      "slug": "umbria",
+      "name": "Umbria"
+    },
+    {
+      "slug": "valle-d-aosta",
+      "name": "Valle d’Aosta"
+    },
+    {
+      "slug": "veneto",
+      "name": "Veneto"
+    }
   ],
   "events": [
     {
@@ -55,10 +115,40 @@
       "status": "proclamato",
       "guarantees": "Non comunicato",
       "national": true,
-      "regions": ["abruzzo", "basilicata", "calabria", "campania", "emilia-romagna", "friuli-venezia-giulia", "lazio", "liguria", "lombardia", "marche", "molise", "piemonte", "puglia", "sardegna", "sicilia", "toscana", "trentino-alto-adige", "umbria", "valle-d-aosta", "veneto"],
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
       "verifiedAt": "2026-11-15T09:42:00+01:00",
-      "source": { "label": "Calendario ufficiale MIT", "url": "https://scioperi.mit.gov.it/mit2/public/scioperi" },
-      "article": null
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": {
+        "url": "/notizie/sciopero-sbb-cargo-italia-10-11-novembre-2026.html",
+        "title": "SBB Cargo, sciopero nazionale di otto ore tra il 10 e l’11 novembre",
+        "summary": "La protesta del trasporto merci ferroviario è prevista dalle 21 alle 4:59; il calendario del Ministero la distingue dal servizio passeggeri.",
+        "image": "/assets/images/editorial-auto/sciopero-sbb-cargo-italia-10-11-novembre-2026-v1410-1200.webp",
+        "imageAlt": "SBB Cargo, sciopero nazionale di otto ore tra il 10 e l’11 novembre"
+      }
     },
     {
       "id": "mit-2026-11-13-atvo-venezia",
@@ -76,10 +166,21 @@
       "status": "proclamato",
       "guarantees": "Non comunicato",
       "national": false,
-      "regions": ["veneto"],
+      "regions": [
+        "veneto"
+      ],
       "verifiedAt": "2026-11-15T09:42:00+01:00",
-      "source": { "label": "Calendario ufficiale MIT", "url": "https://scioperi.mit.gov.it/mit2/public/scioperi" },
-      "article": null
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": {
+        "url": "/notizie/sciopero-atvo-venezia-13-novembre-2026.html",
+        "title": "Sciopero ATVO il 13 novembre: corse garantite in due fasce",
+        "summary": "Il personale può fermarsi per 24 ore; servizio protetto dalle 6 alle 9 e dalle 12 alle 15.",
+        "image": "/assets/images/editorial-auto/sciopero-atvo-venezia-13-novembre-2026-v1398-1200.webp",
+        "imageAlt": "Sciopero ATVO il 13 novembre: corse garantite in due fasce"
+      }
     },
     {
       "id": "mit-2026-11-13-atm-milano",
@@ -97,10 +198,21 @@
       "status": "proclamato",
       "guarantees": "Non comunicato",
       "national": false,
-      "regions": ["lombardia"],
+      "regions": [
+        "lombardia"
+      ],
       "verifiedAt": "2026-11-15T09:42:00+01:00",
-      "source": { "label": "Calendario ufficiale MIT", "url": "https://scioperi.mit.gov.it/mit2/public/scioperi" },
-      "article": null
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": {
+        "url": "/notizie/sciopero-atm-milano-net-13-novembre-2026.html",
+        "title": "Milano, sciopero ATM e NET il 13 novembre: quando metro, tram e bus sono a rischio",
+        "summary": "Servizio ATM a rischio 8:45-15 e dalle 18 a fine servizio; modalità diverse per le reti NET.",
+        "image": "/assets/images/editorial-auto/sciopero-atm-milano-net-13-novembre-2026-v1398-1200.webp",
+        "imageAlt": "Milano, sciopero ATM e NET il 13 novembre: quando metro, tram e bus sono a rischio"
+      }
     },
     {
       "id": "mit-2026-11-14-amtab-bari",
@@ -118,10 +230,21 @@
       "status": "proclamato",
       "guarantees": "Non comunicato",
       "national": false,
-      "regions": ["puglia"],
+      "regions": [
+        "puglia"
+      ],
       "verifiedAt": "2026-11-15T09:42:00+01:00",
-      "source": { "label": "Calendario ufficiale MIT", "url": "https://scioperi.mit.gov.it/mit2/public/scioperi" },
-      "article": null
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": {
+        "url": "/notizie/sciopero-amtab-bari-14-novembre-2026.html",
+        "title": "Bari, sciopero AMTAB di 24 ore il 14 novembre: le fasce garantite",
+        "summary": "Bus assicurati dalle 5:30 alle 8:29 e dalle 12:30 alle 15:29; uffici e impianti fissi fermi per l’intera giornata.",
+        "image": "/assets/images/editorial-auto/sciopero-amtab-bari-14-novembre-2026-v1398-1200.webp",
+        "imageAlt": "Bari, sciopero AMTAB di 24 ore il 14 novembre: le fasce garantite"
+      }
     },
     {
       "id": "mit-2026-11-16-anm-napoli",
@@ -139,10 +262,21 @@
       "status": "proclamato",
       "guarantees": "Non comunicato",
       "national": false,
-      "regions": ["campania"],
+      "regions": [
+        "campania"
+      ],
       "verifiedAt": "2026-11-15T09:42:00+01:00",
-      "source": { "label": "Calendario ufficiale MIT", "url": "https://scioperi.mit.gov.it/mit2/public/scioperi" },
-      "article": null
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": {
+        "url": "/notizie/sciopero-anm-napoli-16-novembre-2026.html",
+        "title": "Napoli, sciopero ANM il 16 novembre: stop di quattro ore tra le 11 e le 15",
+        "summary": "Due proclamazioni coinvolgono il trasporto pubblico cittadino nella stessa fascia; attese indicazioni operative aziendali.",
+        "image": "/assets/images/editorial-auto/sciopero-anm-napoli-16-novembre-2026-v1398-1200.webp",
+        "imageAlt": "Napoli, sciopero ANM il 16 novembre: stop di quattro ore tra le 11 e le 15"
+      }
     },
     {
       "id": "mit-2026-11-20-generale-cgil",
@@ -160,10 +294,40 @@
       "status": "proclamato",
       "guarantees": "Non comunicato",
       "national": true,
-      "regions": ["abruzzo", "basilicata", "calabria", "campania", "emilia-romagna", "friuli-venezia-giulia", "lazio", "liguria", "lombardia", "marche", "molise", "piemonte", "puglia", "sardegna", "sicilia", "toscana", "trentino-alto-adige", "umbria", "valle-d-aosta", "veneto"],
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
       "verifiedAt": "2026-11-15T09:42:00+01:00",
-      "source": { "label": "Calendario ufficiale MIT", "url": "https://scioperi.mit.gov.it/mit2/public/scioperi" },
-      "article": null
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": {
+        "url": "/notizie/sciopero-generale-cgil-20-novembre-2026-settori-pubblici-privati.html",
+        "title": "Sciopero generale CGIL il 20 novembre: stop per l’intera giornata",
+        "summary": "La proclamazione riguarda i settori pubblici e privati, compresi appalti e attività strumentali; nei servizi essenziali valgono fasce e prestazioni garantite.",
+        "image": "/assets/images/editorial-auto/sciopero-generale-cgil-20-novembre-2026-settori-pubblici-privati-v1401-1200.webp",
+        "imageAlt": "Sciopero generale CGIL il 20 novembre: stop per l’intera giornata"
+      }
     },
     {
       "id": "mit-2026-11-20-21-ferroviario-cub-sgb",
@@ -181,10 +345,37 @@
       "status": "proclamato",
       "guarantees": "Per Trenord, servizi minimi nelle fasce 06:00–09:00 e 18:00–21:00 secondo l’avviso aziendale; per gli altri operatori consultare le rispettive comunicazioni ufficiali",
       "national": true,
-      "regions": ["abruzzo", "basilicata", "calabria", "campania", "emilia-romagna", "friuli-venezia-giulia", "lazio", "liguria", "lombardia", "marche", "molise", "piemonte", "puglia", "sardegna", "sicilia", "toscana", "trentino-alto-adige", "umbria", "valle-d-aosta", "veneto"],
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
       "verifiedAt": "2026-11-15T09:42:00+01:00",
-      "source": { "label": "Calendario ufficiale MIT", "url": "https://scioperi.mit.gov.it/mit2/public/scioperi" },
-      "secondarySource": { "label": "Avviso ufficiale Trenord n. 241/2026", "url": "https://www.trenord.it/fileadmin/contenuti/TRENORD/3-News/Trenord_Informa/Avvisi/2026/AvvisoTrenord_2026_241__Sciopero_nov.pdf" },
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "secondarySource": {
+        "label": "Avviso ufficiale Trenord n. 241/2026",
+        "url": "https://www.trenord.it/fileadmin/contenuti/TRENORD/3-News/Trenord_Informa/Avvisi/2026/AvvisoTrenord_2026_241__Sciopero_nov.pdf"
+      },
       "article": null
     },
     {
@@ -203,9 +394,33 @@
       "status": "proclamato",
       "guarantees": "Non comunicato",
       "national": true,
-      "regions": ["abruzzo", "basilicata", "calabria", "campania", "emilia-romagna", "friuli-venezia-giulia", "lazio", "liguria", "lombardia", "marche", "molise", "piemonte", "puglia", "sardegna", "sicilia", "toscana", "trentino-alto-adige", "umbria", "valle-d-aosta", "veneto"],
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
       "verifiedAt": "2026-11-15T09:42:00+01:00",
-      "source": { "label": "Calendario ufficiale MIT", "url": "https://scioperi.mit.gov.it/mit2/public/scioperi" },
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
       "article": null
     },
     {
@@ -224,9 +439,33 @@
       "status": "proclamato",
       "guarantees": "Il calendario MIT indica come garantiti i voli da e per l’aeroporto di Bari",
       "national": true,
-      "regions": ["abruzzo", "basilicata", "calabria", "campania", "emilia-romagna", "friuli-venezia-giulia", "lazio", "liguria", "lombardia", "marche", "molise", "piemonte", "puglia", "sardegna", "sicilia", "toscana", "trentino-alto-adige", "umbria", "valle-d-aosta", "veneto"],
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
       "verifiedAt": "2026-11-15T09:42:00+01:00",
-      "source": { "label": "Calendario ufficiale MIT", "url": "https://scioperi.mit.gov.it/mit2/public/scioperi" },
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
       "article": null
     },
     {
@@ -245,11 +484,65 @@
       "status": "proclamato",
       "guarantees": "Non comunicato",
       "national": false,
-      "regions": ["veneto"],
+      "regions": [
+        "veneto"
+      ],
       "verifiedAt": "2026-11-15T09:42:00+01:00",
-      "source": { "label": "Calendario ufficiale MIT", "url": "https://scioperi.mit.gov.it/mit2/public/scioperi" },
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
       "article": null
     }
   ],
-  "articles": []
+  "articles": [
+    {
+      "url": "/notizie/sciopero-sbb-cargo-italia-10-11-novembre-2026.html",
+      "title": "SBB Cargo, sciopero nazionale di otto ore tra il 10 e l’11 novembre",
+      "summary": "La protesta del trasporto merci ferroviario è prevista dalle 21 alle 4:59; il calendario del Ministero la distingue dal servizio passeggeri.",
+      "image": "/assets/images/editorial-auto/sciopero-sbb-cargo-italia-10-11-novembre-2026-v1410-1200.webp",
+      "imageAlt": "SBB Cargo, sciopero nazionale di otto ore tra il 10 e l’11 novembre",
+      "publishedAt": "2026-11-10T05:15:00+01:00"
+    },
+    {
+      "url": "/notizie/sciopero-atvo-venezia-13-novembre-2026.html",
+      "title": "Sciopero ATVO il 13 novembre: corse garantite in due fasce",
+      "summary": "Il personale può fermarsi per 24 ore; servizio protetto dalle 6 alle 9 e dalle 12 alle 15.",
+      "image": "/assets/images/editorial-auto/sciopero-atvo-venezia-13-novembre-2026-v1398-1200.webp",
+      "imageAlt": "Sciopero ATVO il 13 novembre: corse garantite in due fasce",
+      "publishedAt": "2026-11-08T16:35:00+00:00"
+    },
+    {
+      "url": "/notizie/sciopero-atm-milano-net-13-novembre-2026.html",
+      "title": "Milano, sciopero ATM e NET il 13 novembre: quando metro, tram e bus sono a rischio",
+      "summary": "Servizio ATM a rischio 8:45-15 e dalle 18 a fine servizio; modalità diverse per le reti NET.",
+      "image": "/assets/images/editorial-auto/sciopero-atm-milano-net-13-novembre-2026-v1398-1200.webp",
+      "imageAlt": "Milano, sciopero ATM e NET il 13 novembre: quando metro, tram e bus sono a rischio",
+      "publishedAt": "2026-11-08T16:45:00+00:00"
+    },
+    {
+      "url": "/notizie/sciopero-amtab-bari-14-novembre-2026.html",
+      "title": "Bari, sciopero AMTAB di 24 ore il 14 novembre: le fasce garantite",
+      "summary": "Bus assicurati dalle 5:30 alle 8:29 e dalle 12:30 alle 15:29; uffici e impianti fissi fermi per l’intera giornata.",
+      "image": "/assets/images/editorial-auto/sciopero-amtab-bari-14-novembre-2026-v1398-1200.webp",
+      "imageAlt": "Bari, sciopero AMTAB di 24 ore il 14 novembre: le fasce garantite",
+      "publishedAt": "2026-11-08T16:40:00+00:00"
+    },
+    {
+      "url": "/notizie/sciopero-anm-napoli-16-novembre-2026.html",
+      "title": "Napoli, sciopero ANM il 16 novembre: stop di quattro ore tra le 11 e le 15",
+      "summary": "Due proclamazioni coinvolgono il trasporto pubblico cittadino nella stessa fascia; attese indicazioni operative aziendali.",
+      "image": "/assets/images/editorial-auto/sciopero-anm-napoli-16-novembre-2026-v1398-1200.webp",
+      "imageAlt": "Napoli, sciopero ANM il 16 novembre: stop di quattro ore tra le 11 e le 15",
+      "publishedAt": "2026-11-08T16:50:00+00:00"
+    },
+    {
+      "url": "/notizie/sciopero-generale-cgil-20-novembre-2026-settori-pubblici-privati.html",
+      "title": "Sciopero generale CGIL il 20 novembre: stop per l’intera giornata",
+      "summary": "La proclamazione riguarda i settori pubblici e privati, compresi appalti e attività strumentali; nei servizi essenziali valgono fasce e prestazioni garantite.",
+      "image": "/assets/images/editorial-auto/sciopero-generale-cgil-20-novembre-2026-settori-pubblici-privati-v1401-1200.webp",
+      "imageAlt": "Sciopero generale CGIL il 20 novembre: stop per l’intera giornata",
+      "publishedAt": "2026-11-08T19:40:00+01:00"
+    }
+  ]
 }
