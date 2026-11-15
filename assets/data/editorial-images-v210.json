@@ -1,7 +1,215 @@
 {
-  "version": 1510,
+  "version": 1509,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Due confezioni sigillate di pistacchi, una piccola e una grande, controllate con una lente su un piano da cucina neutro.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/richiamo-pistacchi-metro-chef-ellegi-lotti-15-novembre-2026-v1509-480.webp",
+          "sha256": "e6f182fd245e9fe59e03b01ee0bf652989d12255564f1609e8dd344bb7a1b5ad",
+          "bytes": 31244
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/richiamo-pistacchi-metro-chef-ellegi-lotti-15-novembre-2026-v1509-800.webp",
+          "sha256": "e0e25cd3b9ecffe359ec8d311ad5ecb690800643c9a3c43e30f26a0c6d7323f6",
+          "bytes": 69658
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/richiamo-pistacchi-metro-chef-ellegi-lotti-15-novembre-2026-v1509-1200.webp",
+          "sha256": "db1dd45faa1d35c8ea2ebc82e842ee211498aff737b00c85e0d20ee2dbb643e1",
+          "bytes": 126744
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/richiamo-pistacchi-metro-chef-ellegi-lotti-15-novembre-2026.html"
+    },
+    {
+      "alt": "Tre confezioni sigillate di caffè con dettagli color nocciola e una lente puntata sull’area dei codici di lotto, su un banco neutro.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/richiamo-caffe-bialetti-nocciola-lotti-15-novembre-2026-v1509-480.webp",
+          "sha256": "6ddaa595879bac21bbdcaae3a26a3dfe7afacf86f18d64f36d79ba197597d2f3",
+          "bytes": 27602
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/richiamo-caffe-bialetti-nocciola-lotti-15-novembre-2026-v1509-800.webp",
+          "sha256": "a6aea6e45890e1ade32ec201ba73f2133ad5d77c70f776dc910b5ac2e657ea24",
+          "bytes": 57326
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/richiamo-caffe-bialetti-nocciola-lotti-15-novembre-2026-v1509-1200.webp",
+          "sha256": "67ee685feb10380cd9720b7c2132cd509502d95d186ded76315fd2e3f3a6bd69",
+          "bytes": 97762
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/richiamo-caffe-bialetti-nocciola-lotti-15-novembre-2026.html"
+    },
+    {
+      "alt": "Una vaschetta sigillata di pomodori datterini controllata con una lente vicino a un’etichetta di lotto, in una cucina pulita e neutra.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/richiamo-pomodoro-datterino-salmonella-lotto-4406-2026-v1509-480.webp",
+          "sha256": "1de0583d1fc16cd68b5c0150ddc1f6cabb902f81fb2a336a17264362cb31ca14",
+          "bytes": 29954
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/richiamo-pomodoro-datterino-salmonella-lotto-4406-2026-v1509-800.webp",
+          "sha256": "a39684d8a9973e8aa9b05d66be0e210f569fd59e8290763eaaf5797d38f9f4bc",
+          "bytes": 71762
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/richiamo-pomodoro-datterino-salmonella-lotto-4406-2026-v1509-1200.webp",
+          "sha256": "a286d27db5457fbb54626f60641fefe20592dbb3b150ebe49772d6755d037fbe",
+          "bytes": 137944
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/richiamo-pomodoro-datterino-salmonella-lotto-4406-2026.html"
+    },
+    {
+      "alt": "Fiale medicinali sigillate controllate da un farmacista con guanti e uno scanner in un deposito clinico ordinato, senza pazienti.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/aifa-ritiro-farganesse-lotti-particelle-2026-v1509-480.webp",
+          "sha256": "76b78d86ad4299db228a75a283bf5ce76fc08d463a5d9a0978d61b3581a8dc16",
+          "bytes": 20654
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/aifa-ritiro-farganesse-lotti-particelle-2026-v1509-800.webp",
+          "sha256": "83f512882755a779897aca438bb36fb356d13ab33f9282340265955c9976de98",
+          "bytes": 40824
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/aifa-ritiro-farganesse-lotti-particelle-2026-v1509-1200.webp",
+          "sha256": "59f8055928ffe780df9cecf3ac7549bb0bb966e9cc2b12219c8dae67abea03f4",
+          "bytes": 68548
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/aifa-ritiro-farganesse-lotti-particelle-2026.html"
+    },
+    {
+      "alt": "Penna per insulina, misuratore di glicemia e sensore per monitoraggio continuo ordinati su un tavolo pulito in luce naturale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/oms-linee-guida-diabete-tipo-1-adulti-insulina-2026-v1509-480.webp",
+          "sha256": "a0ef8a7b7bbaace48338b57284b8d66a85d3d1738d6850dc0270b067aa876189",
+          "bytes": 25094
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/oms-linee-guida-diabete-tipo-1-adulti-insulina-2026-v1509-800.webp",
+          "sha256": "585236a9083942ba0a46d7354f8ceb2eaae3a3461d15abe5e6ffb4caa38b85ac",
+          "bytes": 52016
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/oms-linee-guida-diabete-tipo-1-adulti-insulina-2026-v1509-1200.webp",
+          "sha256": "e5e52793ae876059091e195ca2e4005aee60e8a806cd53838e982401eabac5be",
+          "bytes": 88766
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/oms-linee-guida-diabete-tipo-1-adulti-insulina-2026.html"
+    },
+    {
+      "alt": "Due analisti di sanità pubblica osservati di spalle davanti a mappe e grafici epidemiologici in una sala operativa moderna.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/mers-qatar-due-casi-99-contatti-negativi-2026-v1509-480.webp",
+          "sha256": "cfcce815cebd3e1f3646dfff54b498c028d52710b96d50768fde9fbaa1452e28",
+          "bytes": 25276
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/mers-qatar-due-casi-99-contatti-negativi-2026-v1509-800.webp",
+          "sha256": "19f7193756bba597ec8ff17732511780d1f0c00228c6b07a0c08663ec08abdd5",
+          "bytes": 53862
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/mers-qatar-due-casi-99-contatti-negativi-2026-v1509-1200.webp",
+          "sha256": "4ebebf156c8a6ebaddd225a81ec90ed438110268acacd164897c2e734bae4bdf",
+          "bytes": 100982
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/mers-qatar-due-casi-99-contatti-negativi-2026.html"
+    },
+    {
+      "alt": "Mani di un operatore sanitario accanto a un computer con un grafico epidemiologico astratto, moduli e stetoscopio in un ufficio luminoso.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/respivirnet-infezioni-respiratorie-settimana-45-2026-v1509-480.webp",
+          "sha256": "5c5cdbe5624766938073a742897b5c17bb4f45f202ba93799c579ef982db940b",
+          "bytes": 28112
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/respivirnet-infezioni-respiratorie-settimana-45-2026-v1509-800.webp",
+          "sha256": "3ddb5603d769801e96495a411a14412e8bceea44cf93b5e2a00c4ffb77ba03e7",
+          "bytes": 55634
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/respivirnet-infezioni-respiratorie-settimana-45-2026-v1509-1200.webp",
+          "sha256": "fa32b5bb820deadee15db7974e594fdc05223d56a068826b91fab554cda0ed98",
+          "bytes": 97650
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/respivirnet-infezioni-respiratorie-settimana-45-2026.html"
+    },
+    {
+      "alt": "Pesi ed esche da pesca senza piombo disposti in vassoi su un banco professionale con bilancia e campioni di materiali alternativi.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ue-piombo-pesi-esche-pesca-divieti-2027-2031-v1509-480.webp",
+          "sha256": "0f42e8e8651d10eb8896c45111b031a95c358c974e3afade269654e229ada620",
+          "bytes": 44264
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ue-piombo-pesi-esche-pesca-divieti-2027-2031-v1509-800.webp",
+          "sha256": "36fd92e29f0fe482bdbf9af7786ad661edf89de49495b837c1c16bb39ebc1415",
+          "bytes": 100284
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ue-piombo-pesi-esche-pesca-divieti-2027-2031-v1509-1200.webp",
+          "sha256": "4f63a42d6c8f4127cc9d3db7d72d4178d66be580e3ae32318daa6474eb12116b",
+          "bytes": 191768
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/ue-piombo-pesi-esche-pesca-restrizione-reach.html"
+    },
     {
       "alt": "Smartphone Android con Facebook e richiesta di accesso alla galleria, accanto a un computer con il logo Meta.",
       "variants": [
@@ -911,32 +1119,6 @@
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "aiGenerated": true,
       "article": "/notizie/ue-rifiuti-tessili-23-milioni-tonnellate-2024.html"
-    },
-    {
-      "alt": "Tecnici europei analizzano pesi ed esche da pesca in laboratorio, senza animali o scene di sofferenza.",
-      "variants": [
-        {
-          "w": 480,
-          "src": "/assets/images/editorial-auto/ue-piombo-pesi-esche-pesca-restrizione-reach-v1507-480.webp",
-          "sha256": "36dcb799f34aa9aaea4ce4dd7a9e0be0b9abeadf0120b568ffa8bb4f057a06d0",
-          "bytes": 29090
-        },
-        {
-          "w": 800,
-          "src": "/assets/images/editorial-auto/ue-piombo-pesi-esche-pesca-restrizione-reach-v1507-800.webp",
-          "sha256": "1589671e5eedb7a0b98c16dc4b401f9ee80df48a89c34ed722fe37f3d0a4bdc2",
-          "bytes": 60558
-        },
-        {
-          "w": 1200,
-          "src": "/assets/images/editorial-auto/ue-piombo-pesi-esche-pesca-restrizione-reach-v1507-1200.webp",
-          "sha256": "e17d94a02c18cd8f18320c6900473363f4091d83d612e0e66e02a38a34f2f876",
-          "bytes": 110584
-        }
-      ],
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "aiGenerated": true,
-      "article": "/notizie/ue-piombo-pesi-esche-pesca-restrizione-reach.html"
     },
     {
       "alt": "Progettisti e operai selezionano materiali recuperati in un cantiere ordinato, con dispositivi di sicurezza corretti.",
@@ -137847,6 +138029,126 @@
   ],
   "images": [
     {
+      "slug": "richiamo-pistacchi-metro-chef-ellegi-lotti-15-novembre-2026",
+      "version": 1509,
+      "path": "/assets/images/editorial-auto/richiamo-pistacchi-metro-chef-ellegi-lotti-15-novembre-2026-v1509-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-15",
+      "alt": "Due confezioni sigillate di pistacchi, una piccola e una grande, controllate con una lente su un piano da cucina neutro."
+    },
+    {
+      "slug": "richiamo-caffe-bialetti-nocciola-lotti-15-novembre-2026",
+      "version": 1509,
+      "path": "/assets/images/editorial-auto/richiamo-caffe-bialetti-nocciola-lotti-15-novembre-2026-v1509-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-15",
+      "alt": "Tre confezioni sigillate di caffè con dettagli color nocciola e una lente puntata sull’area dei codici di lotto, su un banco neutro."
+    },
+    {
+      "slug": "richiamo-pomodoro-datterino-salmonella-lotto-4406-2026",
+      "version": 1509,
+      "path": "/assets/images/editorial-auto/richiamo-pomodoro-datterino-salmonella-lotto-4406-2026-v1509-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-15",
+      "alt": "Una vaschetta sigillata di pomodori datterini controllata con una lente vicino a un’etichetta di lotto, in una cucina pulita e neutra."
+    },
+    {
+      "slug": "aifa-ritiro-farganesse-lotti-particelle-2026",
+      "version": 1509,
+      "path": "/assets/images/editorial-auto/aifa-ritiro-farganesse-lotti-particelle-2026-v1509-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-15",
+      "alt": "Fiale medicinali sigillate controllate da un farmacista con guanti e uno scanner in un deposito clinico ordinato, senza pazienti."
+    },
+    {
+      "slug": "oms-linee-guida-diabete-tipo-1-adulti-insulina-2026",
+      "version": 1509,
+      "path": "/assets/images/editorial-auto/oms-linee-guida-diabete-tipo-1-adulti-insulina-2026-v1509-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-15",
+      "alt": "Penna per insulina, misuratore di glicemia e sensore per monitoraggio continuo ordinati su un tavolo pulito in luce naturale."
+    },
+    {
+      "slug": "mers-qatar-due-casi-99-contatti-negativi-2026",
+      "version": 1509,
+      "path": "/assets/images/editorial-auto/mers-qatar-due-casi-99-contatti-negativi-2026-v1509-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-15",
+      "alt": "Due analisti di sanità pubblica osservati di spalle davanti a mappe e grafici epidemiologici in una sala operativa moderna."
+    },
+    {
+      "slug": "respivirnet-infezioni-respiratorie-settimana-45-2026",
+      "version": 1509,
+      "path": "/assets/images/editorial-auto/respivirnet-infezioni-respiratorie-settimana-45-2026-v1509-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-15",
+      "alt": "Mani di un operatore sanitario accanto a un computer con un grafico epidemiologico astratto, moduli e stetoscopio in un ufficio luminoso."
+    },
+    {
+      "slug": "ue-piombo-pesi-esche-pesca-restrizione-reach",
+      "version": 1509,
+      "path": "/assets/images/editorial-auto/ue-piombo-pesi-esche-pesca-divieti-2027-2031-v1509-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-15",
+      "alt": "Pesi ed esche da pesca senza piombo disposti in vassoi su un banco professionale con bilancia e campioni di materiali alternativi."
+    },
+    {
       "slug": "garante-meta-facebook-galleria-android-sanzione-805-milioni-2026",
       "version": 1510,
       "path": "/assets/images/editorial-auto/garante-meta-facebook-galleria-android-sanzione-805-milioni-2026-v1510-1200.webp",
@@ -138370,21 +138672,6 @@
       "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
       "date": "2026-11-15",
       "alt": "Operatori selezionano indumenti usati in un impianto tessile europeo pulito e sicuro, senza marchi fuorvianti."
-    },
-    {
-      "slug": "ue-piombo-pesi-esche-pesca-restrizione-reach",
-      "version": 1507,
-      "path": "/assets/images/editorial-auto/ue-piombo-pesi-esche-pesca-restrizione-reach-v1507-1200.webp",
-      "variants": [
-        480,
-        800,
-        1200
-      ],
-      "aiGenerated": true,
-      "sensitiveContext": false,
-      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
-      "date": "2026-11-15",
-      "alt": "Tecnici europei analizzano pesi ed esche da pesca in laboratorio, senza animali o scene di sofferenza."
     },
     {
       "slug": "edilizia-circolare-relazioni-locali-studio-italia-ue",
