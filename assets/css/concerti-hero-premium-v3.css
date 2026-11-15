@@ -3,7 +3,7 @@
   isolation: isolate;
   display: grid;
   align-items: center;
-  min-height: 620px;
+  min-height: 420px;
   overflow: hidden;
   background: #efd4ae;
   color: #17283a;
@@ -19,25 +19,30 @@
 .concert-hero--premium .concert-hero__picture { z-index: -3; }
 .concert-hero--premium .concert-hero__picture img {
   object-fit: cover;
-  object-position: center 64%;
+  object-position: center 42%;
 }
 .concert-hero--premium .hero-shade {
   display: block;
   z-index: -2;
   background: linear-gradient(90deg,rgba(255,242,221,.96),rgba(255,242,221,.88) 29%,rgba(255,242,221,.38) 49%,rgba(255,242,221,0) 72%);
 }
-.concert-hero--premium .hero-content { padding-block: 78px 94px; }
+.concert-hero--premium .hero-content { padding-block: 36px 32px; }
 .concert-hero--premium .eyebrow {
-  margin: 0 0 24px;
-  font-size: .75rem;
-  line-height: 1.5;
-  font-weight: 700;
-  letter-spacing: .16em;
-  color: #684313;
+  display: inline-block;
+  margin: 0 0 14px;
+  padding: 0 0 7px;
+  border-bottom: 2px solid #1d63c2;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: clamp(1.2rem, 2.4vw, 1.6rem);
+  font-weight: 650;
+  line-height: 1.15;
+  letter-spacing: -.03em;
+  text-transform: none;
+  color: #12386b;
 }
 .concert-hero--premium h1 {
   max-width: 720px;
-  font-size: clamp(3.15rem,5.5vw,5rem);
+  font-size: clamp(2.4rem, 4.6vw, 4.2rem);
   font-weight: 700;
   line-height: 1.04;
   letter-spacing: -.042em;
@@ -48,15 +53,15 @@
 .concert-hero--premium h1 span { display: block; }
 .concert-hero--premium .hero-lead {
   max-width: 510px;
-  margin: 23px 0 0;
-  font-size: 1.125rem;
-  line-height: 1.6;
+  margin: 14px 0 0;
+  font-size: 1.05rem;
+  line-height: 1.55;
   color: #243547;
 }
 .concert-hero--premium .hero-cta {
-  min-height: 54px;
-  margin-top: 30px;
-  padding: 15px 23px;
+  min-height: 50px;
+  margin-top: 18px;
+  padding: 13px 22px;
   gap: 22px;
   border: 1px solid rgba(255,255,255,.65);
   border-radius: 999px;
@@ -74,43 +79,30 @@
   flex-wrap: wrap;
   align-items: baseline;
   gap: 6px 18px;
-  margin: 24px 0 0;
+  margin: 14px 0 0;
   max-width: 590px;
   font-size: .82rem;
   line-height: 1.55;
   color: #304154;
 }
 .concert-hero--premium #heroCount { font-weight: 700; }
-.concert-hero--premium .hero-image-note {
-  position: absolute;
-  right: 24px;
-  bottom: 14px;
-  max-width: calc(100% - 48px);
-  margin: 0;
-  padding: 4px 9px;
-  border-radius: 5px;
-  background: rgba(4,12,25,.82);
-  color: #fff;
-  font-size: .65rem;
-  line-height: 1.5;
-}
+.concert-hero--premium .hero-image-note { display: none; }
 @media (max-width: 680px) {
-  .concert-hero.concert-hero--premium { min-height: 680px; align-items: start; }
-  .concert-hero--premium .hero-content { width: calc(100% - 40px); padding-block: 42px 210px; }
-  .concert-hero--premium .concert-hero__picture img { object-position: 70% bottom; }
+  .concert-hero.concert-hero--premium { min-height: 0; align-items: start; }
+  .concert-hero--premium .hero-content { width: calc(100% - 40px); padding-block: 22px 18px; }
+  .concert-hero--premium .concert-hero__picture img { object-position: 70% 38%; }
   .concert-hero--premium .hero-shade {
-    background: linear-gradient(180deg,rgba(255,242,221,.97),rgba(255,242,221,.92) 49%,rgba(255,242,221,.35) 69%,rgba(255,242,221,0) 83%);
+    background: linear-gradient(180deg,rgba(255,242,221,.97) 0%,rgba(255,242,221,.9) 62%,rgba(255,242,221,.55) 100%);
   }
-  .concert-hero--premium .eyebrow { margin-bottom: 20px; font-size: .66rem; letter-spacing: .13em; }
-  .concert-hero--premium h1 { max-width: 100%; font-size: clamp(2.55rem,10.3vw,3.65rem); line-height: 1.06; }
-  .concert-hero--premium .hero-lead { max-width: 34ch; margin-top: 22px; font-size: 1.035rem; line-height: 1.55; }
-  .concert-hero--premium .hero-cta { margin-top: 25px; }
-  .concert-hero--premium .hero-meta { display: grid; gap: 4px; margin-top: 20px; font-size: .76rem; }
-  .concert-hero--premium .hero-image-note { right: 14px; bottom: 10px; max-width: calc(100% - 28px); font-size: .59rem; }
+  .concert-hero--premium .eyebrow { margin-bottom: 10px; font-size: 1.22rem; letter-spacing: -.03em; }
+  .concert-hero--premium h1 { max-width: 100%; font-size: clamp(2.05rem, 8.4vw, 2.6rem); line-height: 1.05; }
+  .concert-hero--premium .hero-lead { max-width: 34ch; margin-top: 10px; font-size: 1rem; line-height: 1.45; }
+  .concert-hero--premium .hero-cta { margin-top: 14px; }
+  .concert-hero--premium .hero-meta { display: grid; gap: 4px; margin-top: 12px; font-size: .76rem; }
 }
 @media (max-width: 360px) {
   .concert-hero--premium .hero-content { width: calc(100% - 32px); }
-  .concert-hero--premium h1 { font-size: 2.35rem; }
+  .concert-hero--premium h1 { font-size: 1.95rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   .concert-hero--premium .hero-cta { transition: none; }
