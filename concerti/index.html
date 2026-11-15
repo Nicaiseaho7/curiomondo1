@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="it" data-page="concerti">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Concerti in Italia: date, città e biglietti | CurioMondo</title>
+  <meta name="description" content="Calendario dei concerti in Italia: filtra per periodo, regione, genere e disponibilità, con date, città, venue, fonti ufficiali e biglietti autorizzati.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://curiomondo.it/concerti/">
+  <meta name="theme-color" content="#171033">
+  <meta property="og:type" content="website"><meta property="og:locale" content="it_IT">
+  <meta property="og:title" content="Concerti in Italia | CurioMondo"><meta property="og:url" content="https://curiomondo.it/concerti/">
+  <meta property="og:image" content="https://curiomondo.it/assets/images/concerti/concerti-italia-hero-1200.webp">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/editoriale-fonts-v1460.css">
+  <link rel="stylesheet" href="/assets/css/global-header-v275.css?v=736">
+  <link rel="stylesheet" href="/assets/css/concerti-v1.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Concerti in Italia","url":"https://curiomondo.it/concerti/","description":"Calendario editoriale dei concerti programmati in Italia con collegamenti a fonti ufficiali e biglietterie autorizzate.","isPartOf":{"@type":"WebSite","name":"CurioMondo","url":"https://curiomondo.it/"}}</script>
+  <script>try{if(localStorage.getItem('cm_theme')==='dark')document.documentElement.classList.add('cm-dark')}catch(e){}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Vai al contenuto</a>
+  <header class="cm-global-header" data-cm-global-header="v275">
+    <nav class="cm-global-header__inner" aria-label="Navigazione della pagina">
+      <a class="cm-global-header__back" href="/" aria-label="Torna alla home di CurioMondo"><span class="cm-global-header__back-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M19 12H5"></path><path d="m11 18-6-6 6-6"></path></svg></span></a>
+      <a class="cm-global-header__brand" href="/" aria-label="CurioMondo, home"><span aria-hidden="true">Curio<span>Mondo</span></span></a>
+      <button class="cm-global-header__theme" data-cm-global-theme type="button" aria-label="Attiva modalità scura" aria-pressed="false"><span aria-hidden="true">☾</span></button>
+    </nav>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="concert-hero" aria-labelledby="page-title">
+      <picture><source media="(max-width:600px)" srcset="/assets/images/concerti/concerti-italia-hero-480.webp"><source media="(max-width:1000px)" srcset="/assets/images/concerti/concerti-italia-hero-800.webp"><img src="/assets/images/concerti/concerti-italia-hero-1200.webp" width="1200" height="675" alt="Palco di un concerto serale con luci viola e pubblico visto di spalle" fetchpriority="high"></picture>
+      <div class="hero-shade"></div>
+      <div class="shell hero-content">
+        <p class="eyebrow">Agenda live CurioMondo</p>
+        <h1 id="page-title">La musica dal vivo, città per città.</h1>
+        <p class="hero-lead">Scopri i concerti programmati in Italia, controlla la disponibilità e arriva sempre alla fonte ufficiale prima di acquistare.</p>
+        <div class="hero-meta"><span id="heroCount">Caricamento concerti…</span><span>•</span><span id="lastVerified">Ultima verifica in corso…</span></div>
+        <a class="hero-cta" href="#calendario">Esplora il calendario <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <div class="shell">
+      <section class="spotlight" aria-labelledby="spotlight-title">
+        <header class="section-head"><div><p class="kicker">Selezione editoriale</p><h2 id="spotlight-title">In evidenza</h2></div><p>Grandi date, nuovi annunci e appuntamenti vicini.</p></header>
+        <div id="featuredEvents" class="featured-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="calendario" class="calendar-section" aria-labelledby="calendar-title">
+        <header class="section-head"><div><p class="kicker">Trova la tua prossima serata</p><h2 id="calendar-title">Concerti in Italia</h2></div><span id="resultCount" class="count-pill" aria-live="polite">0 concerti</span></header>
+
+        <form id="concertFilters" class="filter-panel" role="search">
+          <label class="search-wide"><span>Cerca artista, città o venue</span><input id="searchFilter" type="search" placeholder="Esempio: U2, Milano, Arena" autocomplete="off"></label>
+          <label><span>Periodo</span><select id="periodFilter"><option value="all">Tutte le date</option><option value="7days">Prossimi 7 giorni</option><option value="30days">Prossimi 30 giorni</option><option value="month">Questo mese</option><option value="custom">Date personalizzate</option></select></label>
+          <label><span>Regione</span><select id="regionFilter"><option value="all">Tutte le regioni</option></select></label>
+          <label><span>Genere</span><select id="genreFilter"><option value="all">Tutti i generi</option></select></label>
+          <label><span>Biglietti</span><select id="ticketFilter"><option value="all">Qualsiasi disponibilità</option><option value="available">Disponibili</option><option value="upcoming">Prossimamente</option><option value="sold-out">Sold out</option></select></label>
+          <label class="saved-check"><input id="savedOnly" type="checkbox"><span>Solo concerti salvati</span></label>
+          <div id="customDates" class="custom-dates" hidden><label><span>Dal</span><input id="dateFrom" type="date"></label><label><span>Al</span><input id="dateTo" type="date"></label></div>
+          <button id="resetFilters" class="reset-button" type="reset">Azzera filtri</button>
+        </form>
+
+        <div class="view-tools"><p id="filterSummary" aria-live="polite"></p><p class="share-note">Ogni scheda ha un link diretto condivisibile.</p></div>
+        <div id="concertGroups" class="month-groups" aria-live="polite"></div>
+        <noscript><p class="empty-state">Per usare filtri e salvataggi attiva JavaScript. I dati restano disponibili in <a href="/assets/data/concerti.json">concerti.json</a>.</p></noscript>
+      </section>
+
+      <section class="regions-section" aria-labelledby="regions-title">
+        <header class="section-head"><div><p class="kicker">Esplora il territorio</p><h2 id="regions-title">Concerti per regione</h2></div><p>Le regioni senza date confermate restano visibili.</p></header>
+        <div id="regionDirectory" class="region-directory"></div>
+      </section>
+
+      <section id="concertNewsSection" class="news-section" aria-labelledby="news-title" hidden>
+        <header class="section-head"><div><p class="kicker">Storie e annunci</p><h2 id="news-title">Ultime notizie sui concerti</h2></div></header>
+        <div id="concertNews" class="news-grid"></div>
+      </section>
+
+      <section class="archive-banner" aria-labelledby="archive-title"><div><p class="kicker">Memoria live</p><h2 id="archive-title">Archivio dei concerti conclusi</h2><p>Le date passate escono automaticamente dal calendario principale e restano consultabili nello storico.</p></div><a href="/concerti/archivio/">Apri l’archivio</a></section>
+
+      <aside class="trust-note"><div><strong>Prima di acquistare</strong><p>CurioMondo non vende biglietti. Controlla data, luogo, condizioni e rivenditore sulla pagina ufficiale: programmi e disponibilità possono cambiare.</p></div><a href="#fonti">Come verifichiamo le date</a></aside>
+      <section id="fonti" class="method"><h2>Fonti e metodo</h2><p>Il calendario usa comunicazioni dei promoter, venue e biglietterie autorizzate. “In vendita” indica la disponibilità comunicata dalla fonte al momento dell’ultima verifica, non garantisce che un posto sia ancora acquistabile.</p></section>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="shell"><strong>CurioMondo</strong><nav aria-label="Link del footer"><a href="/pagine/chi-siamo.html">Chi siamo</a><a href="/pagine/metodo-editoriale.html">Metodo editoriale</a><a href="/pagine/correzioni.html">Correzioni</a><a href="/pagine/privacy.html">Privacy</a></nav></div></footer>
+  <script defer src="/assets/js/global-header-v275.js"></script>
+  <script defer src="/assets/js/concerti-v1.js"></script>
+</body>
+</html>
