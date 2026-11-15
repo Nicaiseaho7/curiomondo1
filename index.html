@@ -124,21 +124,21 @@ dialog{padding:0!important;border:1px solid var(--cm-border);background:var(--cm
   border-radius:22px;border:1px solid rgba(23,105,223,.18);
   display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:16px;
   background:
-    linear-gradient(120deg,rgba(7,26,48,.72) 0%,rgba(13,61,120,.55) 55%,rgba(23,105,223,.35) 100%),
-    url('/assets/images/domanda-giorno-cover-v547-800.webp') right center/cover no-repeat;
-  box-shadow:0 18px 44px rgba(8,35,70,.18);
-  color:#fff;
+    radial-gradient(80% 140% at 100% 0%,rgba(78,155,255,.18),rgba(255,255,255,0) 46%),
+    linear-gradient(180deg,#ffffff 0%,#f3f7fd 100%);
+  box-shadow:inset 0 1px 0 #fff,0 16px 36px rgba(16,42,84,.08);
+  color:#10233f;
 }
 .cm-qday-card::before{
   content:"CurioMondo";
   position:absolute;right:18px;bottom:14px;z-index:0;
   font:800 .95rem/1 Georgia,serif;letter-spacing:-.04em;
-  color:rgba(255,255,255,.28);pointer-events:none;
+  color:rgba(16,42,84,.07);pointer-events:none;
 }
 .cm-qday-card > *{position:relative;z-index:1}
 .cm-qday-date{display:flex;flex-direction:column;align-items:center;justify-content:center;
   min-width:64px;padding:8px 10px;border-radius:14px;
-  background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);
+  background:linear-gradient(160deg,#3b93ff 0%,#1565d8 58%,#0d4eae 100%);border:1px solid rgba(255,255,255,.42);
   color:#fff;line-height:1.05}
 .cm-qday-date strong{font-size:1.55rem;font-weight:900}
 .cm-qday-date span{font-size:.62rem;font-weight:800;letter-spacing:.08em;opacity:.9}
@@ -156,7 +156,7 @@ dialog{padding:0!important;border:1px solid var(--cm-border);background:var(--cm
     if (document.querySelector('link[data-cm-bundle]')) return;
     var link=document.createElement('link');
     link.rel='stylesheet';
-    link.href='/assets/css/home-bundle-v291.css?v=1464';
+    link.href='/assets/css/home-bundle-v291.css?v=1465';
     link.setAttribute('data-cm-bundle','');
     var anchor=document.querySelector('link[href*="home-header-italia"]');
     if (anchor) document.head.insertBefore(link, anchor);
@@ -166,7 +166,7 @@ dialog{padding:0!important;border:1px solid var(--cm-border);background:var(--cm
   else window.addEventListener('load', loadBundle, {once:true});
 })();
 </script>
-<noscript><link rel="stylesheet" href="/assets/css/home-bundle-v291.css?v=1464"></noscript><style id="cm-update-flag-css">.cm-update-flag{position:absolute;top:14px;right:14px;z-index:4;display:inline-flex;align-items:center;width:max-content;margin:0;padding:5px 10px;border-radius:999px;background:#B91C1C;color:#fff;font-size:.68rem;font-weight:800;letter-spacing:.09em;line-height:1;text-transform:uppercase;box-shadow:0 8px 18px rgba(120,15,15,.28)}.cm-topic-lead,.cm-topic-card,.cm-wire__item{position:relative}.cm-topic-lead .cm-update-flag{top:22px;right:28px}.cm-featured-carousel .cm-update-flag{top:24px;right:34px}.cm-wire__title:has(.cm-update-flag){display:block;padding-right:132px}.cm-wire__item .cm-update-flag{top:12px;right:8px}@media(max-width:700px){.cm-update-flag{top:10px;right:10px;font-size:.62rem;padding:4px 8px}.cm-topic-lead .cm-update-flag,.cm-featured-carousel .cm-update-flag{top:16px;right:16px}.cm-wire__title:has(.cm-update-flag){padding-right:112px}}</style><style id="cm-brand-visibility">
+<noscript><link rel="stylesheet" href="/assets/css/home-bundle-v291.css?v=1465"></noscript><style id="cm-update-flag-css">.cm-update-flag{position:absolute;top:14px;right:14px;z-index:4;display:inline-flex;align-items:center;width:max-content;margin:0;padding:5px 10px;border-radius:999px;background:#B91C1C;color:#fff;font-size:.68rem;font-weight:800;letter-spacing:.09em;line-height:1;text-transform:uppercase;box-shadow:0 8px 18px rgba(120,15,15,.28)}.cm-topic-lead,.cm-topic-card,.cm-wire__item{position:relative}.cm-topic-lead .cm-update-flag{top:22px;right:28px}.cm-featured-carousel .cm-update-flag{top:24px;right:34px}.cm-wire__title:has(.cm-update-flag){display:block;padding-right:132px}.cm-wire__item .cm-update-flag{top:12px;right:8px}@media(max-width:700px){.cm-update-flag{top:10px;right:10px;font-size:.62rem;padding:4px 8px}.cm-topic-lead .cm-update-flag,.cm-featured-carousel .cm-update-flag{top:16px;right:16px}.cm-wire__title:has(.cm-update-flag){padding-right:112px}}</style><style id="cm-brand-visibility">
 .header .cm-wordmark,.drawer .cm-wordmark,#drawerTitle{
   font-weight:900!important;
   letter-spacing:-.055em!important;
