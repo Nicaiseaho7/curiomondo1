@@ -10,13 +10,14 @@
   <meta name="theme-color" content="#171033">
   <meta property="og:type" content="website"><meta property="og:locale" content="it_IT">
   <meta property="og:title" content="Concerti in Italia | CurioMondo"><meta property="og:url" content="https://curiomondo.it/concerti/">
-  <meta property="og:image" content="https://curiomondo.it/assets/images/concerti/concerti-italia-hero-1200.webp">
+  <meta property="og:image" content="https://curiomondo.it/assets/images/concerti/concerti-tramonto-v3-1200.webp">
   <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="/assets/css/editoriale-fonts-v1460.css">
   <link rel="stylesheet" href="/assets/css/global-header-v275.css?v=736">
   <link rel="stylesheet" href="/assets/css/concerti-v1.css?v=6">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Concerti ed eventi in Italia","url":"https://curiomondo.it/concerti/","description":"Calendario di concerti ed eventi in Italia, a pagamento o gratuiti.","isPartOf":{"@type":"WebSite","name":"CurioMondo","url":"https://curiomondo.it/"}}</script>
   <script>try{if(localStorage.getItem('cm_theme')==='dark')document.documentElement.classList.add('cm-dark')}catch(e){}</script>
+  <link rel="stylesheet" href="/assets/css/concerti-hero-premium-v3.css">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Vai al contenuto</a>
@@ -29,14 +30,20 @@
   </header>
 
   <main id="main-content" tabindex="-1">
-    <section class="concert-hero" aria-labelledby="page-title">
+    <section class="concert-hero concert-hero--premium" aria-labelledby="page-title">
+      <picture class="concert-hero__picture" aria-hidden="true">
+        <source media="(max-width: 680px)" srcset="/assets/images/concerti/concerti-tramonto-v3-mobile-480.webp 480w, /assets/images/concerti/concerti-tramonto-v3-mobile-800.webp 800w" sizes="100vw">
+        <img src="/assets/images/concerti/concerti-tramonto-v3-1536.webp" srcset="/assets/images/concerti/concerti-tramonto-v3-800.webp 800w, /assets/images/concerti/concerti-tramonto-v3-1200.webp 1200w, /assets/images/concerti/concerti-tramonto-v3-1536.webp 1536w" sizes="100vw" width="1536" height="1024" alt="" fetchpriority="high" loading="eager" decoding="async">
+      </picture>
+      <div class="hero-shade" aria-hidden="true"></div>
       <div class="shell hero-content">
-        <p class="eyebrow">CurioMondo</p>
-        <h1 id="page-title">Concerti ed eventi, città per città.</h1>
-        <p class="hero-lead">In Italia, con biglietto o ingresso gratuito. Concerti, spettacoli, mostre e altri appuntamenti.</p>
-        <div class="hero-meta"><span id="heroCount">Caricamento…</span><span>•</span><span id="lastVerified">Ultima verifica in corso…</span></div>
-        <a class="hero-cta" href="#calendario">Apri il calendario <span aria-hidden="true">↓</span></a>
+        <p class="eyebrow">Concerti ed eventi in Italia</p>
+        <h1 id="page-title">La tua prossima serata <span>inizia qui.</span></h1>
+        <p class="hero-lead">Musica dal vivo, spettacoli e cultura in tutta Italia. Scopri le prossime date e trova l’appuntamento che fa per te.</p>
+        <a class="hero-cta" href="#calendario">Esplora il calendario <span aria-hidden="true">↓</span></a>
+        <div class="hero-meta"><span id="heroCount">Caricamento…</span><span id="lastVerified">Ultima verifica in corso…</span></div>
       </div>
+      <p class="hero-image-note">Immagine illustrativa generata con IA · Non ritrae un evento reale.</p>
     </section>
 
     <div class="shell">
