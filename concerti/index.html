@@ -14,7 +14,7 @@
   <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="/assets/css/editoriale-fonts-v1460.css">
   <link rel="stylesheet" href="/assets/css/global-header-v275.css?v=736">
-  <link rel="stylesheet" href="/assets/css/concerti-v1.css?v=4">
+  <link rel="stylesheet" href="/assets/css/concerti-v1.css?v=5">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Concerti ed eventi in Italia","url":"https://curiomondo.it/concerti/","description":"Calendario di concerti ed eventi in Italia, a pagamento o gratuiti.","isPartOf":{"@type":"WebSite","name":"CurioMondo","url":"https://curiomondo.it/"}}</script>
   <script>try{if(localStorage.getItem('cm_theme')==='dark')document.documentElement.classList.add('cm-dark')}catch(e){}</script>
 </head>
@@ -43,10 +43,9 @@
       <section id="calendario" class="calendar-section" aria-labelledby="calendar-title">
         <header class="section-head"><div><p class="kicker">Il calendario</p><h2 id="calendar-title">Date in Italia</h2></div><span id="resultCount" class="count-pill" aria-live="polite">0 appuntamenti</span></header>
 
-        <details class="search-fold">
-          <summary>Cerca artista, città o luogo</summary>
-          <form id="concertFilters" class="filter-panel" role="search">
-            <label class="search-wide"><span>Artista, evento o luogo</span><input id="searchFilter" type="search" placeholder="Esempio: U2, Milano, Valle" autocomplete="off"></label>
+        <form id="concertFilters" class="filter-panel search-panel" role="search">
+          <p class="search-kicker">Cerca subito</p>
+          <label class="search-wide"><span>Artista, città o luogo</span><input id="searchFilter" type="search" placeholder="Scrivi un artista, una città o un luogo" autocomplete="off" enterkeyhint="search"></label>
             <label><span>Periodo</span><select id="periodFilter"><option value="all">Tutte le date</option><option value="7days">Prossimi 7 giorni</option><option value="30days">Prossimi 30 giorni</option><option value="month">Questo mese</option><option value="custom">Date personalizzate</option></select></label>
             <label><span>Città</span><select id="cityFilter"><option value="all">Tutte le città</option></select></label>
             <label><span>Genere</span><select id="genreFilter"><option value="all">Tutti i generi</option></select></label>
@@ -54,8 +53,7 @@
             <label class="saved-check"><input id="savedOnly" type="checkbox"><span>Solo salvati</span></label>
             <div id="customDates" class="custom-dates" hidden><label><span>Dal</span><input id="dateFrom" type="date"></label><label><span>Al</span><input id="dateTo" type="date"></label></div>
             <button id="resetFilters" class="reset-button" type="reset">Azzera filtri</button>
-          </form>
-        </details>
+        </form>
 
         <div id="concertGroups" class="month-groups" aria-live="polite"></div>
         <noscript><p class="empty-state">Per usare filtri e salvataggi attiva JavaScript. I dati restano disponibili in <a href="/assets/data/concerti.json">concerti.json</a>.</p></noscript>
