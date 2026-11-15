@@ -14,7 +14,7 @@
   <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="/assets/css/editoriale-fonts-v1460.css">
   <link rel="stylesheet" href="/assets/css/global-header-v275.css?v=736">
-  <link rel="stylesheet" href="/assets/css/concerti-v1.css?v=2">
+  <link rel="stylesheet" href="/assets/css/concerti-v1.css?v=3">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Concerti in Italia","url":"https://curiomondo.it/concerti/","description":"Calendario editoriale dei concerti programmati in Italia con collegamenti a fonti ufficiali e biglietterie autorizzate.","isPartOf":{"@type":"WebSite","name":"CurioMondo","url":"https://curiomondo.it/"}}</script>
   <script>try{if(localStorage.getItem('cm_theme')==='dark')document.documentElement.classList.add('cm-dark')}catch(e){}</script>
 </head>
@@ -41,11 +41,6 @@
     </section>
 
     <div class="shell">
-      <section class="spotlight" aria-labelledby="spotlight-title">
-        <header class="section-head"><div><p class="kicker">Selezione editoriale</p><h2 id="spotlight-title">In evidenza</h2></div><p>Grandi date, nuovi annunci e appuntamenti vicini.</p></header>
-        <div id="featuredEvents" class="featured-grid" aria-live="polite"></div>
-      </section>
-
       <section id="calendario" class="calendar-section" aria-labelledby="calendar-title">
         <header class="section-head"><div><p class="kicker">Trova la tua prossima serata</p><h2 id="calendar-title">Concerti in Italia</h2></div><span id="resultCount" class="count-pill" aria-live="polite">0 concerti</span></header>
 
@@ -63,21 +58,8 @@
           </form>
         </details>
 
-        <div class="view-tools"><p id="filterSummary" aria-live="polite"></p><p class="share-note">Ogni scheda ha un link diretto condivisibile.</p></div>
         <div id="concertGroups" class="month-groups" aria-live="polite"></div>
         <noscript><p class="empty-state">Per usare filtri e salvataggi attiva JavaScript. I dati restano disponibili in <a href="/assets/data/concerti.json">concerti.json</a>.</p></noscript>
-      </section>
-
-      <section class="regions-section" aria-labelledby="regions-title">
-        <header class="section-head"><div><p class="kicker">Esplora il territorio</p><h2 id="regions-title">Concerti per regione</h2></div></header>
-        <details class="regions-fold" id="regionsFold">
-          <summary><span>Regioni</span><small>Apri e cerca la tua</small></summary>
-          <div class="region-panel">
-            <label class="region-search"><span>Cerca la regione</span><input id="regionSearch" type="search" placeholder="Esempio: Lombardia" autocomplete="off"></label>
-            <div id="regionDirectory" class="region-directory"></div>
-            <div id="regionEvents" class="region-events"></div>
-          </div>
-        </details>
       </section>
 
       <section id="concertNewsSection" class="news-section" aria-labelledby="news-title" hidden>
@@ -104,6 +86,6 @@
     </div>
   </footer>
   <script defer src="/assets/js/global-header-v275.js"></script>
-  <script defer src="/assets/js/concerti-v1.js?v=2"></script>
+  <script defer src="/assets/js/concerti-v1.js?v=3"></script>
 </body>
 </html>
