@@ -628,14 +628,33 @@ html.cm-dark .cm-wire__live{
   .cm-wire__live{font-size:.8rem;padding:6px 11px 6px 9px}
 }
 
-/* v546 — «In aggiornamento» in alto a destra. */
+/* v547 — «In aggiornamento» fissato in alto a destra, stessa riga di Ultima ora. */
 .cm-wire__toggle{
   display:flex;
   align-items:center;
+  position:relative;
   gap:8px;
+  min-height:52px;
+  padding-right:42px;
 }
-.cm-wire__kicker{flex:1;min-width:0;align-items:center}
+.cm-wire__kicker{
+  flex:1;
+  min-width:0;
+  align-items:center;
+  padding-right:8px;
+}
 .cm-wire__live{
-  margin:0 0 0 auto;
+  position:absolute;
+  top:50%;
+  right:36px;
+  transform:translateY(-50%);
+  margin:0;
   flex:none;
+  z-index:2;
+  white-space:nowrap;
+}
+.cm-wire__chevron{position:relative;z-index:3}
+@media(max-width:600px){
+  .cm-wire__toggle{min-height:48px;padding-right:36px}
+  .cm-wire__live{right:30px}
 }
