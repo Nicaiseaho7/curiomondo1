@@ -1,7 +1,1099 @@
 {
-  "version": 1518,
+  "version": 1515,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Carta meteorologica generica con pioggia intensa evidenziata su un monitor, senza luoghi riconoscibili né persone.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/allerta-arancione-toscana-17-novembre-2026-v1515-480.webp",
+          "sha256": "3333e6767358fd0d76f65d4a4ab1e79cb5d3495a0b4194912c7205ca61398a60",
+          "bytes": 39872
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/allerta-arancione-toscana-17-novembre-2026-v1515-800.webp",
+          "sha256": "97b26914a1d7fb7715fd94a13813c29f748942f3704eb9a624615451c3e7dc33",
+          "bytes": 93340
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/allerta-arancione-toscana-17-novembre-2026-v1515-1200.webp",
+          "sha256": "c0f07da5e11905bbca2bca33722fc98ded2bd6be81e12208b90aeaa82a01b6a9",
+          "bytes": 171998
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/allerta-arancione-toscana-17-novembre-2026.html"
+    },
+    {
+      "alt": "Confezione farmaceutica generica chiusa accanto a capsule e documenti clinici, senza marchi leggibili né persone.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/aifa-emend-aprepitant-cessa-commercializzazione-30-novembre-2026-v1515-480.webp",
+          "sha256": "f9812c01cb6c1d704c72cffb53640fafdcb56e0c33ebf8b120fe5dbabced0df1",
+          "bytes": 19182
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/aifa-emend-aprepitant-cessa-commercializzazione-30-novembre-2026-v1515-800.webp",
+          "sha256": "8bcb80a0668da2239cad6992ea77e9d27ecf374225629a90b28d61082680a416",
+          "bytes": 44348
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/aifa-emend-aprepitant-cessa-commercializzazione-30-novembre-2026-v1515-1200.webp",
+          "sha256": "55ffc5bc2c5e83e6e874a3589c7af80bc5ea498698dd4865b3f389f1e7c48c05",
+          "bytes": 86068
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/aifa-emend-aprepitant-cessa-commercializzazione-30-novembre-2026.html"
+    },
+    {
+      "alt": "Scaffale farmaceutico ordinato con confezioni generiche e una tabella prezzi su tablet correttamente orientato, senza persone.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/aifa-liste-trasparenza-prezzi-riferimento-16-novembre-2026-v1515-480.webp",
+          "sha256": "9ee36fc9a24101d7df106956ccfb2af3889bf288eadcc6acf97f8c43d5d6bd23",
+          "bytes": 27064
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/aifa-liste-trasparenza-prezzi-riferimento-16-novembre-2026-v1515-800.webp",
+          "sha256": "f277e17628a167d3de2dcac5356e2fed4a26cb9fc261b4cbd7059d0141f69647",
+          "bytes": 55404
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/aifa-liste-trasparenza-prezzi-riferimento-16-novembre-2026-v1515-1200.webp",
+          "sha256": "797041fce2ebd36c8d7b18aca4895f81a553ffc24046a0e1a61f3d052e359dde",
+          "bytes": 95662
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/aifa-liste-trasparenza-prezzi-riferimento-16-novembre-2026.html"
+    },
+    {
+      "alt": "Ingresso generico di un ente previdenziale con sportelli chiusi e pannello informativo astratto, senza persone o luoghi reali.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/inps-sciopero-generale-20-novembre-2026-disservizi-v1515-480.webp",
+          "sha256": "fb66edbd2fdd950202bd594a9b5cfb2f506b0757113887b742fba18acdcd6b2a",
+          "bytes": 26672
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/inps-sciopero-generale-20-novembre-2026-disservizi-v1515-800.webp",
+          "sha256": "a2aed820266b78cb26c3cceb15862f400e6d6484f11ee17b16939cdea7994092",
+          "bytes": 62326
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/inps-sciopero-generale-20-novembre-2026-disservizi-v1515-1200.webp",
+          "sha256": "e7558680ece78ae7a882e6c37bb4d64f6ea2e7ff0072a500b5d2ef92bdb0e0bf",
+          "bytes": 119200
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/inps-sciopero-generale-20-novembre-2026-disservizi.html"
+    },
+    {
+      "alt": "Lavoratore di piattaforma con abbigliamento neutro osserva un’app su smartphone in uno studio generico, volto non riconoscibile e postura naturale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/lavoro-piattaforme-digitali-decreto-208-2026-subordinazione-v1515-480.webp",
+          "sha256": "47f6902b59ce349fbeac3ca44a3b0b1d239aaa778906189ff1d734c7269e6722",
+          "bytes": 15394
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/lavoro-piattaforme-digitali-decreto-208-2026-subordinazione-v1515-800.webp",
+          "sha256": "9110c6fd4d42af77a2c417c7c90733e3cedb1ff74486de1a211616e0a0ca7cec",
+          "bytes": 35240
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/lavoro-piattaforme-digitali-decreto-208-2026-subordinazione-v1515-1200.webp",
+          "sha256": "daeb70f122aa7576385e074c5814b79c831d73db18236d82d1fde2420614a618",
+          "bytes": 67028
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/lavoro-piattaforme-digitali-decreto-208-2026-subordinazione.html"
+    },
+    {
+      "alt": "Giovani adulti e orientatori in posa neutra davanti a schermi con percorsi formativi astratti, in uno spazio fieristico generico senza luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/festival-orientamenti-2026-ministero-lavoro-appli-siisl-v1515-480.webp",
+          "sha256": "66fa20dcd6cd1c594b9896d3177e1e6601fa6436e5408b9caa035de5fbd7ee9d",
+          "bytes": 38016
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/festival-orientamenti-2026-ministero-lavoro-appli-siisl-v1515-800.webp",
+          "sha256": "32f565ebe7d96a1f7eb263ecff947fc45892455db0f6da3d1fbd661881118138",
+          "bytes": 81330
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/festival-orientamenti-2026-ministero-lavoro-appli-siisl-v1515-1200.webp",
+          "sha256": "7e4eea76fb654023c1fb93628a9a4c546c3c9c112f7d99eeab5763b7ff0f8a0d",
+          "bytes": 143820
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/festival-orientamenti-2026-ministero-lavoro-appli-siisl.html"
+    },
+    {
+      "alt": "Treno regionale moderno fermo su binario generico al crepuscolo, nessun passeggero, nessun luogo o cartello reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/treni-palermo-cefalu-corse-straordinarie-a19-16-novembre-2026-v1515-480.webp",
+          "sha256": "610f7deeabdd20aa749fe7fcfe4df51f2ab28e2059a633d0433f316a0900d368",
+          "bytes": 33476
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/treni-palermo-cefalu-corse-straordinarie-a19-16-novembre-2026-v1515-800.webp",
+          "sha256": "31c189f7feea9bb7d3cab135efb03966f43ef47be25c9cd172ed99ad9cc74ee3",
+          "bytes": 83336
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/treni-palermo-cefalu-corse-straordinarie-a19-16-novembre-2026-v1515-1200.webp",
+          "sha256": "6dc928746220430e0894a827f9920eeb1685f801d228894a1cc6b4aebc65f50f",
+          "bytes": 169316
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/treni-palermo-cefalu-corse-straordinarie-a19-16-novembre-2026.html"
+    },
+    {
+      "alt": "Binario ferroviario vuoto interrotto da barriere di sicurezza in un paesaggio generico, senza persone, danni visibili o luoghi reali.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/salerno-mercato-san-severino-treni-sospesi-pellezzano-16-novembre-2026-v1515-480.webp",
+          "sha256": "ca26d3e21ae34e6fe4469c6ef32f75ff488cca2d0c8b5e6acb07e832b740a0ef",
+          "bytes": 60398
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/salerno-mercato-san-severino-treni-sospesi-pellezzano-16-novembre-2026-v1515-800.webp",
+          "sha256": "db8214ba434df965e1c2c2a82e0fcc73b847587235041c1300a75acd9ee23bd8",
+          "bytes": 151066
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/salerno-mercato-san-severino-treni-sospesi-pellezzano-16-novembre-2026-v1515-1200.webp",
+          "sha256": "ee5f0e33536f06a8e8e6481b9ff28b3af16126af13995122506446b1d8fed4eb",
+          "bytes": 291556
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/salerno-mercato-san-severino-treni-sospesi-pellezzano-16-novembre-2026.html"
+    },
+    {
+      "alt": "Tabellone partenze astratto e treno regionale in una stazione generica, senza persone né nomi di luoghi reali.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/roma-termini-regionali-modifiche-bus-16-21-novembre-2026-v1515-480.webp",
+          "sha256": "9b31b261aa3e37393ecdb6753a72e92bf026c82cfbd27ef2b66e594f4902f998",
+          "bytes": 54146
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/roma-termini-regionali-modifiche-bus-16-21-novembre-2026-v1515-800.webp",
+          "sha256": "da50d5510bf3d00294bb29102e8f5e0ed265cf80e5635451c1e3892519ed9195",
+          "bytes": 134310
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/roma-termini-regionali-modifiche-bus-16-21-novembre-2026-v1515-1200.webp",
+          "sha256": "ac6bc18e9889c20e99cdb66b850ee24194646fa9aeaf97d8791093ed61c1be92",
+          "bytes": 249520
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/roma-termini-regionali-modifiche-bus-16-21-novembre-2026.html"
+    },
+    {
+      "alt": "Svincolo autostradale generico vuoto con barriere luminose ordinate, senza veicoli, persone o luoghi riconoscibili.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/a1-a58-san-giuliano-chiusure-notte-19-novembre-2026-v1515-480.webp",
+          "sha256": "9672672203a327dd8e5221d61102420f0541b0ae5434979e9ea8c11e06bf6df8",
+          "bytes": 33214
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/a1-a58-san-giuliano-chiusure-notte-19-novembre-2026-v1515-800.webp",
+          "sha256": "145e7b45573db571f68a324cc4f54a0a86fdded5295ae96d2226281a43ed3ae8",
+          "bytes": 87724
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/a1-a58-san-giuliano-chiusure-notte-19-novembre-2026-v1515-1200.webp",
+          "sha256": "40b0f2e352b173ff8fcce98cc30c9f13039cdfc633abc0042e098e9d014415b3",
+          "bytes": 183776
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/a1-a58-san-giuliano-chiusure-notte-19-novembre-2026.html"
+    },
+    {
+      "alt": "Galleria autostradale generica vuota con semaforo rosso e barriere di chiusura, nessun luogo reale o persona.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/a9-lago-como-como-centro-chiusura-notte-16-novembre-2026-v1515-480.webp",
+          "sha256": "59c6e175a67c4249d5655c1f93000a16853419df46149c2d6d0dc817f1c87235",
+          "bytes": 30456
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/a9-lago-como-como-centro-chiusura-notte-16-novembre-2026-v1515-800.webp",
+          "sha256": "f3755a16e22f6e187e4b7d5a230aaa364cc4987fc3d67a46bb54762b60cd393e",
+          "bytes": 78094
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/a9-lago-como-como-centro-chiusura-notte-16-novembre-2026-v1515-1200.webp",
+          "sha256": "6b80edd8d96847c5108776f1af1d292cd54b4bd9d9fe2cd35fee40d650853064",
+          "bytes": 163252
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/a9-lago-como-como-centro-chiusura-notte-16-novembre-2026.html"
+    },
+    {
+      "alt": "Tecnologia ferroviaria su binari generici illuminati di notte, senza persone, luoghi reali o scritte.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/verona-padova-treni-interruzioni-notturne-16-novembre-12-dicembre-2026-v1515-480.webp",
+          "sha256": "9c4a5e57b6a37d1df9390336282e422bbbe0c17a199ee673d9ad34498e725297",
+          "bytes": 45208
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/verona-padova-treni-interruzioni-notturne-16-novembre-12-dicembre-2026-v1515-800.webp",
+          "sha256": "d31889eabb895d6fc8fd7116adb11a871ee2215a97346e02b96db4ec19793981",
+          "bytes": 115280
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/verona-padova-treni-interruzioni-notturne-16-novembre-12-dicembre-2026-v1515-1200.webp",
+          "sha256": "38f4e610e7abc1b0160951af40b471225a848f2f356c9ad91a94bfe7075e3b41",
+          "bytes": 227278
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/verona-padova-treni-interruzioni-notturne-16-novembre-12-dicembre-2026.html"
+    },
+    {
+      "alt": "Satellite generico in laboratorio con fascio ottico simbolico e loghi ESA e Thales Alenia Space in posizione neutra, nessun luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/esa-thales-alenia-comunicazioni-quantistiche-spazio-16-novembre-2026-v1515-480.webp",
+          "sha256": "1e023642af42a59861507d8a9a66dc8894e088dbc4ee9196195b5f224120fd15",
+          "bytes": 30428
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/esa-thales-alenia-comunicazioni-quantistiche-spazio-16-novembre-2026-v1515-800.webp",
+          "sha256": "4d9c03d6ee3c5373e8cce640446f260eb74cde9af5d6280eb36454cb7bdf23bc",
+          "bytes": 70044
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/esa-thales-alenia-comunicazioni-quantistiche-spazio-16-novembre-2026-v1515-1200.webp",
+          "sha256": "51ceecab2791098a04c2a1baa74fa39d54d5d03cfa410c7c72f3dc5f49dbde50",
+          "bytes": 132630
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/esa-thales-alenia-comunicazioni-quantistiche-spazio-16-novembre-2026.html"
+    },
+    {
+      "alt": "Telescopio spaziale Roman in una camera bianca generica con logo NASA corretto, tecnici in posa neutra e volti non riconoscibili.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/telescopio-roman-strumenti-allineati-nasa-2026-v1515-480.webp",
+          "sha256": "fd6020f4a6f3b9dd396982cb5c1dcf12a99678d4891a912db606f88cc0621c50",
+          "bytes": 34604
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/telescopio-roman-strumenti-allineati-nasa-2026-v1515-800.webp",
+          "sha256": "3a8a94214f992a681b2aa2c5b41b3a453b9bba8d668bb7419e5a66513a411faa",
+          "bytes": 81240
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/telescopio-roman-strumenti-allineati-nasa-2026-v1515-1200.webp",
+          "sha256": "328e0dccb4041f58b109765f960351c189ab42fe2ded5336d8c69a0197595ded",
+          "bytes": 155422
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/telescopio-roman-strumenti-allineati-nasa-2026.html"
+    },
+    {
+      "alt": "Frammenti di ghiaccio su una montagna tropicale immaginaria e non identificabile, senza persone, disastri o luoghi reali.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/puncak-jaya-ghiaccio-residuo-nasa-16-novembre-2026-v1515-480.webp",
+          "sha256": "4d423594083d96ad1181bcd09f429684882648e00b67e96d81a1f6f9c1c5bf5e",
+          "bytes": 50574
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/puncak-jaya-ghiaccio-residuo-nasa-16-novembre-2026-v1515-800.webp",
+          "sha256": "e9cd98812dc32c1d3c165b11894d0b7f2228b9bbf7f1b1a035bf5d260dd7ae2e",
+          "bytes": 135656
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/puncak-jaya-ghiaccio-residuo-nasa-16-novembre-2026-v1515-1200.webp",
+          "sha256": "b4332017702e60c50afd0bf355b58dc8054a113aa23bd2831072854105c5df39",
+          "bytes": 289022
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/puncak-jaya-ghiaccio-residuo-nasa-16-novembre-2026.html"
+    },
+    {
+      "alt": "Sonda Voyager nello spazio profondo con logo NASA corretto, composizione simbolica senza pianeti o luoghi reali identificabili.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/voyager-1-distanza-giorno-luce-eventi-nasa-18-novembre-2026-v1515-480.webp",
+          "sha256": "92ebd7bafdc5bf613a73f30a584fdd7d82991e0df6eee6d79316ce14672bcdbe",
+          "bytes": 12938
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/voyager-1-distanza-giorno-luce-eventi-nasa-18-novembre-2026-v1515-800.webp",
+          "sha256": "40574454f1706ecf3ed380d9f1fcdb7bd2d57bcc214a2d3f07a68516e9aa2267",
+          "bytes": 37536
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/voyager-1-distanza-giorno-luce-eventi-nasa-18-novembre-2026-v1515-1200.webp",
+          "sha256": "a04dcfc6e95f5095a030f4872ec4974944553ca19ada58cbc54b45230b96e7b1",
+          "bytes": 82780
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/voyager-1-distanza-giorno-luce-eventi-nasa-18-novembre-2026.html"
+    },
+    {
+      "alt": "Operatori sanitari con somiglianze sintetiche in posa neutra davanti a materiale educativo oculistico, senza pazienti né luoghi reali.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/eritrea-elimina-tracoma-oms-16-novembre-2026-v1515-480.webp",
+          "sha256": "4f0d304c99d45faccfc6052ddc80385f8b823213625653476c3ec7cef5217aa3",
+          "bytes": 31006
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/eritrea-elimina-tracoma-oms-16-novembre-2026-v1515-800.webp",
+          "sha256": "43dc791ea72e0e204102605e4251e44eb01d3675a226e1c5b1c228e4708e6bd9",
+          "bytes": 64122
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/eritrea-elimina-tracoma-oms-16-novembre-2026-v1515-1200.webp",
+          "sha256": "fc3195514696d8b82b4c0a7cf3f12585cebd9bcd3aad68fb26175e3ec9ca9c65",
+          "bytes": 114826
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/eritrea-elimina-tracoma-oms-16-novembre-2026.html"
+    },
+    {
+      "alt": "Laboratorio microbiologico generico con piastre e analizzatore, due ricercatori in posa neutra e anatomia naturale, nessun luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/resistenza-antimicrobica-173-paesi-piani-test-trattamenti-oms-2026-v1515-480.webp",
+          "sha256": "9d960b9d50fee69c0d11466a2080b8c2234cde52d4c9e05a90e3ae3e1327a53f",
+          "bytes": 32202
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/resistenza-antimicrobica-173-paesi-piani-test-trattamenti-oms-2026-v1515-800.webp",
+          "sha256": "62f51a8237364773d8e8886c707a49b1c687603b06a51f7dd288baabfc35f742",
+          "bytes": 63718
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/resistenza-antimicrobica-173-paesi-piani-test-trattamenti-oms-2026-v1515-1200.webp",
+          "sha256": "676592a1ad79caec3645c56ad8155f30419e9358460c342477fa48ad6382d6fe",
+          "bytes": 116186
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/resistenza-antimicrobica-173-paesi-piani-test-trattamenti-oms-2026.html"
+    },
+    {
+      "alt": "Rappresentanti di comunità con somiglianze sintetiche in posa neutra attorno a un tavolo, ambiente generico e logo OMS discreto.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/oms-europa-a-net-resilienza-comunita-emergenze-2026-v1515-480.webp",
+          "sha256": "704bbfa1dac7d7ce61d3685bf2182246bead3a8a7de758cdb5f4fb8347cc8645",
+          "bytes": 35308
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/oms-europa-a-net-resilienza-comunita-emergenze-2026-v1515-800.webp",
+          "sha256": "8f6a24b384098cde3dd474aceb1c8fba6232cf38f3cc849295c68e34c13f8a17",
+          "bytes": 75578
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/oms-europa-a-net-resilienza-comunita-emergenze-2026-v1515-1200.webp",
+          "sha256": "dbf139853a3ee0bdcde01ac3a29f2f2154e3c8074b3d3c4856c6a0fe7ff541a9",
+          "bytes": 137146
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/oms-europa-a-net-resilienza-comunita-emergenze-2026.html"
+    },
+    {
+      "alt": "Sportello amministrativo generico con moduli europei e numeri statistici su monitor, senza persone, bandiere o luoghi reali.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/domande-asilo-ue-agosto-2026-eurostat-italia-5115-v1515-480.webp",
+          "sha256": "fae7bc71454673ee2645553a453ede20bc200016d5250d2577a29d81cd3f263b",
+          "bytes": 32598
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/domande-asilo-ue-agosto-2026-eurostat-italia-5115-v1515-800.webp",
+          "sha256": "6326f2aa96970cbb0e275ad80230ea8365b668bdd9276350a7488422490efa06",
+          "bytes": 68950
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/domande-asilo-ue-agosto-2026-eurostat-italia-5115-v1515-1200.webp",
+          "sha256": "4d2c844544dfc04b74b530f55c92e2d0993e0e71d4af12af2433c3bd96c29afa",
+          "bytes": 124364
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/domande-asilo-ue-agosto-2026-eurostat-italia-5115.html"
+    },
+    {
+      "alt": "Strada europea generica vuota con segnaletica di sicurezza e luce diurna, senza incidenti, veicoli, persone o luoghi reali.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/morti-strada-ue-2024-45-milione-eurostat-v1515-480.webp",
+          "sha256": "5faa7210f67655372ee6d184360b799faf2b02926da89aecdc8691a7bde560eb",
+          "bytes": 53840
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/morti-strada-ue-2024-45-milione-eurostat-v1515-800.webp",
+          "sha256": "813b33ca10d7db9e23453d26ac123efd2d3b84942fd51fc5495a36a4bc1954a9",
+          "bytes": 149278
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/morti-strada-ue-2024-45-milione-eurostat-v1515-1200.webp",
+          "sha256": "fc20483f913e818e600d9e2bf894339445de9e8364e9bdec6c0570b4592768f2",
+          "bytes": 327460
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/morti-strada-ue-2024-45-milione-eurostat.html"
+    },
+    {
+      "alt": "Edifici aziendali generici collegati da linee dati su un globo astratto, senza loghi, persone, bandiere o luoghi reali.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/affiliate-estere-ue-60-percento-fatturato-fuori-europa-2024-v1515-480.webp",
+          "sha256": "f0c2bce98f2f57ff645995bb28e48e0f5a0a95340a7618efaffff3cf46906312",
+          "bytes": 49892
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/affiliate-estere-ue-60-percento-fatturato-fuori-europa-2024-v1515-800.webp",
+          "sha256": "712bbac89dab04578f9d2261f5a7bd8c7e86769f185b006556543a27389acdf0",
+          "bytes": 116476
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/affiliate-estere-ue-60-percento-fatturato-fuori-europa-2024-v1515-1200.webp",
+          "sha256": "12846943c49fd7a09a0bd77c7cfe538b862cd2811ed598dcecfd62c77e266fcd",
+          "bytes": 220708
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/affiliate-estere-ue-60-percento-fatturato-fuori-europa-2024.html"
+    },
+    {
+      "alt": "Linea industriale generica automatizzata con robot e pannello dati, nessuna persona, marchio o fabbrica reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/produzione-industriale-eurozona-settembre-2026-italia-piu-1-2-v1515-480.webp",
+          "sha256": "ff64c63ed4d3c1528170f1f82f2e1cf1ffccb7e3548bc080502d45052ca6c6cb",
+          "bytes": 45576
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/produzione-industriale-eurozona-settembre-2026-italia-piu-1-2-v1515-800.webp",
+          "sha256": "80c28d0913cc8387a4c9880007fd5e4ea3174a84b392fae411c35bc2683eccf1",
+          "bytes": 93704
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/produzione-industriale-eurozona-settembre-2026-italia-piu-1-2-v1515-1200.webp",
+          "sha256": "1c5f8b67c7f9dd1bf681b9cde0997defef99b85e990c651ea3790533b0fb2f36",
+          "bytes": 163654
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/produzione-industriale-eurozona-settembre-2026-italia-piu-1-2.html"
+    },
+    {
+      "alt": "Sala istituzionale generica con dossier e simbolo UE discreto, funzionari con somiglianze sintetiche in posa neutra, nessuna bandiera o luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/ue-sanzioni-113-soggetti-russia-banche-energia-flotta-ombra-2026-v1515-480.webp",
+          "sha256": "393a729d3387f1041135076915a837fba48ca8b57236b2d05b3aee98a2416e59",
+          "bytes": 21834
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/ue-sanzioni-113-soggetti-russia-banche-energia-flotta-ombra-2026-v1515-800.webp",
+          "sha256": "058f35dcf512ec55b75a79faab1e66b97c77a2f52ce4d2456d35617355badab8",
+          "bytes": 46742
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/ue-sanzioni-113-soggetti-russia-banche-energia-flotta-ombra-2026-v1515-1200.webp",
+          "sha256": "c1585fcfadf2e4769ff2ff437e219981a4dee93e72a5dee014af8b944ad50b4d",
+          "bytes": 93112
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/ue-sanzioni-113-soggetti-russia-banche-energia-flotta-ombra-2026.html"
+    },
+    {
+      "alt": "Dossier istituzionali chiusi con simbolo UE in uno studio neutro, senza persone, armi, violenza, bandiere o luoghi reali.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/ue-sanzioni-quattro-gruppi-haiti-violazioni-minori-2026-v1515-480.webp",
+          "sha256": "4b75702ca9b235d08011f921f2ab801f42fc094daef190a81bfb86d2abac57f8",
+          "bytes": 19346
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/ue-sanzioni-quattro-gruppi-haiti-violazioni-minori-2026-v1515-800.webp",
+          "sha256": "96507f23170603aa96831ce2b081f48c7ed48317aebd278228a212f33328a83f",
+          "bytes": 42378
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/ue-sanzioni-quattro-gruppi-haiti-violazioni-minori-2026-v1515-1200.webp",
+          "sha256": "1b26e3ec8174b8a395772334ebcea1fb2a382884207d1833837da26219478385",
+          "bytes": 81544
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/ue-sanzioni-quattro-gruppi-haiti-violazioni-minori-2026.html"
+    },
+    {
+      "alt": "Centro di sicurezza informatica generico con schermi astratti e logo UE discreto, due analisti in posa neutra, nessun luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/ue-sanzioni-disinformazione-cyber-russia-noname057-2026-v1515-480.webp",
+          "sha256": "b02331fa5a3f9994c41de7702964abe26b7e205f2f928bec9c12327875a2d221",
+          "bytes": 32092
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/ue-sanzioni-disinformazione-cyber-russia-noname057-2026-v1515-800.webp",
+          "sha256": "2b16990306ea06549f7af213aac4427952462e6c7964555080f17e622ebc5660",
+          "bytes": 66630
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/ue-sanzioni-disinformazione-cyber-russia-noname057-2026-v1515-1200.webp",
+          "sha256": "fb4a8b42d32d789b623fa68f69890030ada4dbd0b3a469204bbf69472f18795b",
+          "bytes": 123840
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/ue-sanzioni-disinformazione-cyber-russia-noname057-2026.html"
+    },
+    {
+      "alt": "Dossier finanziario e portafoglio hardware generico su un tavolo istituzionale, logo UE discreto, nessuna persona o scena sensibile.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/ue-sanzioni-gaza-now-fondatore-finanziamento-hamas-2026-v1515-480.webp",
+          "sha256": "99618a5f6e97bc0640a0de50c3520c1fddc20d6c665d0653385ee589f8b4e89b",
+          "bytes": 29570
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/ue-sanzioni-gaza-now-fondatore-finanziamento-hamas-2026-v1515-800.webp",
+          "sha256": "132a5cfd7732153481917e3c999c346988fd199a7482d6860c5801d949f181f3",
+          "bytes": 71074
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/ue-sanzioni-gaza-now-fondatore-finanziamento-hamas-2026-v1515-1200.webp",
+          "sha256": "12fe5c329ca75e73ecffd0d85752c60f69a2115aac6ec8cb4f15a519ad6045e4",
+          "bytes": 142194
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/ue-sanzioni-gaza-now-fondatore-finanziamento-hamas-2026.html"
+    },
+    {
+      "alt": "Riunione istituzionale generica con funzionari in posa neutra, dossier economici e simbolo UE discreto, senza bandiere o luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/ukraine-facility-pagamento-record-8-miliardi-16-novembre-2026-v1515-480.webp",
+          "sha256": "10c5bf9bbd3c6562f9f5fed3bef5d7b45fd61d2ec288b3e1b7dda6be597b9282",
+          "bytes": 30382
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/ukraine-facility-pagamento-record-8-miliardi-16-novembre-2026-v1515-800.webp",
+          "sha256": "ca7036fd66043e6ac282965269850acf3059fdb0b996d4d92e535f641c08457d",
+          "bytes": 62402
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/ukraine-facility-pagamento-record-8-miliardi-16-novembre-2026-v1515-1200.webp",
+          "sha256": "7ee6f9d04ffbd0abe6af54259fd06bd51ab845b8e8a46cc5708ec715e5769afc",
+          "bytes": 111324
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/ukraine-facility-pagamento-record-8-miliardi-16-novembre-2026.html"
+    },
+    {
+      "alt": "Delegati con somiglianze sintetiche in posa neutra attorno a una mappa astratta di corridoi, nessuna bandiera, scritta o luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/ue-mar-nero-caucaso-asia-centrale-sicurezza-connettivita-2026-v1515-480.webp",
+          "sha256": "075897a6d88ceebbfbda441f7cf2431c721375a22e15565d517b89ecab8fbc37",
+          "bytes": 30490
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/ue-mar-nero-caucaso-asia-centrale-sicurezza-connettivita-2026-v1515-800.webp",
+          "sha256": "b236304289e48763c8e9fa0359c1e6400726c875d9b83156be572eb634c387f0",
+          "bytes": 62944
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/ue-mar-nero-caucaso-asia-centrale-sicurezza-connettivita-2026-v1515-1200.webp",
+          "sha256": "dce2c2244babc6b5165ac929515e67881a5a5fd0b56d579376663ae7aaa06327",
+          "bytes": 113382
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/ue-mar-nero-caucaso-asia-centrale-sicurezza-connettivita-2026.html"
+    },
+    {
+      "alt": "Rotoli di acciaio in un impianto industriale generico, nessuna persona, marchio o luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/ue-dazi-antidumping-acciaio-laminato-freddo-cinque-paesi-2026-v1515-480.webp",
+          "sha256": "a36227be71e746ff5a0e679b4d4a87f42835d9b3e8f958e877939602e1b3f88f",
+          "bytes": 35174
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/ue-dazi-antidumping-acciaio-laminato-freddo-cinque-paesi-2026-v1515-800.webp",
+          "sha256": "8b48cab42f2311b3ec8d26036bb52f6ddb319962ced1ab23a173855d94596bc9",
+          "bytes": 76824
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/ue-dazi-antidumping-acciaio-laminato-freddo-cinque-paesi-2026-v1515-1200.webp",
+          "sha256": "e613a9222d1c9c70f1a0566bb414dab594e61c0a8626f96d0442b8fcd54fc412",
+          "bytes": 146262
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/ue-dazi-antidumping-acciaio-laminato-freddo-cinque-paesi-2026.html"
+    },
+    {
+      "alt": "Dossier di bilancio e modellini tecnici astratti in una sala istituzionale generica, nessuna arma operativa, persona o luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/commissione-ue-1-71-miliardi-ucraina-droni-difesa-aerea-2026-v1515-480.webp",
+          "sha256": "3cd2f04733d98c4990f5cd5bfe8274c5e87c7c18552814fd7b845b8026548f97",
+          "bytes": 18952
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/commissione-ue-1-71-miliardi-ucraina-droni-difesa-aerea-2026-v1515-800.webp",
+          "sha256": "e4516ca5eb457d84e4860afd045206a6af48af35009c91e7f7de2621d5dbc15c",
+          "bytes": 40846
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/commissione-ue-1-71-miliardi-ucraina-droni-difesa-aerea-2026-v1515-1200.webp",
+          "sha256": "8b6f6224d224a7832a860032a663f120858596b624a19748d2e6388ee2128244",
+          "bytes": 75654
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/commissione-ue-1-71-miliardi-ucraina-droni-difesa-aerea-2026.html"
+    },
+    {
+      "alt": "Somiglianza sintetica di Ursula von der Leyen in posa neutra davanti a server generici e simbolo UE, nessuna bandiera o luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/ue-intelligenza-artificiale-sette-gigafactory-30-miliardi-2026-v1515-480.webp",
+          "sha256": "2fb3eb3ea69b66632fedf60d6fc15fdbb701dd88c1bd09e989b27afeb3655047",
+          "bytes": 29652
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/ue-intelligenza-artificiale-sette-gigafactory-30-miliardi-2026-v1515-800.webp",
+          "sha256": "2cebc02d6b582378a3ee9c16e68a89b7dcc74a00d7754317020120bc5027c7da",
+          "bytes": 70986
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/ue-intelligenza-artificiale-sette-gigafactory-30-miliardi-2026-v1515-1200.webp",
+          "sha256": "b9aa2907367b8c6a5f435037243b21904097b193363e1f93e44bf624006859e2",
+          "bytes": 137882
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/ue-intelligenza-artificiale-sette-gigafactory-30-miliardi-2026.html"
+    },
+    {
+      "alt": "Sportello bancario generico con consulente e cliente sintetici in posa neutra, nessun marchio, dato personale o luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/regno-unito-tutela-servizi-bancari-presenza-legge-2026-v1515-480.webp",
+          "sha256": "b15198e20dff4fdda71c346cdac575a41a2fe09d5ce7d989d9f3d44a42285dd6",
+          "bytes": 31202
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/regno-unito-tutela-servizi-bancari-presenza-legge-2026-v1515-800.webp",
+          "sha256": "472ff9346b0bc7d3c1fefa4d4f8f9f4bc692396d1fb89f35c643662932279c3f",
+          "bytes": 72068
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/regno-unito-tutela-servizi-bancari-presenza-legge-2026-v1515-1200.webp",
+          "sha256": "26934d2145a7f897d4deecbcac25caf28ddfe58cae7c533b72f0265d151ca755",
+          "bytes": 144986
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/regno-unito-tutela-servizi-bancari-presenza-legge-2026.html"
+    },
+    {
+      "alt": "Server e pannello di sicurezza informatica astratto in uno studio neutro, senza persone, contenuti sensibili, immagini o testi espliciti.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/regno-unito-hash-matching-contenuti-illegali-minori-piattaforme-2026-v1515-480.webp",
+          "sha256": "670994fdd963b7aa136fb0a69db07d7d7966c89e1017b764a9edc93aba68f7ac",
+          "bytes": 35740
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/regno-unito-hash-matching-contenuti-illegali-minori-piattaforme-2026-v1515-800.webp",
+          "sha256": "40b0053be35421f13add76cc6002d3600dd0931e051e66b1fa76485ee67f53f0",
+          "bytes": 81186
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/regno-unito-hash-matching-contenuti-illegali-minori-piattaforme-2026-v1515-1200.webp",
+          "sha256": "7c7cd9db5ce2b69fe880479a38a856a85c27e43a826d47fa95182d70267e7309",
+          "bytes": 148322
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/regno-unito-hash-matching-contenuti-illegali-minori-piattaforme-2026.html"
+    },
+    {
+      "alt": "Ricercatrici sintetiche in posa neutra in un laboratorio clinico generico, logo MHRA discreto, nessuna paziente o luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/mhra-programma-salute-donne-gap-studi-clinici-2026-v1515-480.webp",
+          "sha256": "94dc19625f6b841e550b8706ecb5eb3ae7378d6a7cc3f3f789ada3da8749f345",
+          "bytes": 25796
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/mhra-programma-salute-donne-gap-studi-clinici-2026-v1515-800.webp",
+          "sha256": "d187aa43162dc6a28cf038220665186075df9315e86fd14b66981c1db10c6fbf",
+          "bytes": 51974
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/mhra-programma-salute-donne-gap-studi-clinici-2026-v1515-1200.webp",
+          "sha256": "39acfd92161117918638d5afe2be52d2f48dc853d0c9e4421f59786ff1ac3a97",
+          "bytes": 93176
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/mhra-programma-salute-donne-gap-studi-clinici-2026.html"
+    },
+    {
+      "alt": "Somiglianza sintetica di un giurista britannico in posa neutra davanti a scaffali legali generici, nessuna bandiera o luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/regno-unito-rupert-jones-revisore-leggi-terrorismo-minacce-stato-2026-v1515-480.webp",
+          "sha256": "bd5cb3a38b6b7e54624e96e347a52ca63387b307422cdae115530183ab40cab7",
+          "bytes": 22516
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/regno-unito-rupert-jones-revisore-leggi-terrorismo-minacce-stato-2026-v1515-800.webp",
+          "sha256": "c74baa5a88a5b36ce4c08bde7fd34cba518d3fb830952ca77b24e6035d729383",
+          "bytes": 45954
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/regno-unito-rupert-jones-revisore-leggi-terrorismo-minacce-stato-2026-v1515-1200.webp",
+          "sha256": "2e6758ceca80d6da5c36fa44368108831fd64040d718ab5d61b883dc2bedd6d0",
+          "bytes": 81214
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/regno-unito-rupert-jones-revisore-leggi-terrorismo-minacce-stato-2026.html"
+    },
+    {
+      "alt": "Delegati asiatici e australiani con somiglianze sintetiche in posa neutra attorno a un tavolo generico, senza bandiere o luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/asean-australia-cinque-anni-partenariato-strategico-2026-v1515-480.webp",
+          "sha256": "b97ea9e56e0a0a35e658c93692590960911d6d86ba7cf61f53191d9d2c6a40aa",
+          "bytes": 37998
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/asean-australia-cinque-anni-partenariato-strategico-2026-v1515-800.webp",
+          "sha256": "9040e721cbec6639f9f8766015fc14356116e84e863324098140ba5c823c2ea5",
+          "bytes": 84202
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/asean-australia-cinque-anni-partenariato-strategico-2026-v1515-1200.webp",
+          "sha256": "a17a7b86e7ef0b47443cb7b277ae6edcdf680fa59e75393a6aeb02b040390f32",
+          "bytes": 152410
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/asean-australia-cinque-anni-partenariato-strategico-2026.html"
+    },
+    {
+      "alt": "Oggetti riparati, contenitori riutilizzabili e materiali ordinati in un laboratorio generico, senza persone, marchi o luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/emilia-romagna-settimana-riduzione-rifiuti-21-29-novembre-2026-v1515-480.webp",
+          "sha256": "ae5d5f07e727e626be4df532b4cbf63e72c243bc30052b09d7ea0e4e3a3e812d",
+          "bytes": 52138
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/emilia-romagna-settimana-riduzione-rifiuti-21-29-novembre-2026-v1515-800.webp",
+          "sha256": "4ae5f7899b19a0e4ad93ab447f0de79de35f5051554eba159b5588b65a8920ae",
+          "bytes": 114408
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/emilia-romagna-settimana-riduzione-rifiuti-21-29-novembre-2026-v1515-1200.webp",
+          "sha256": "b2ed9ed5e2f8ddb58755144c666b5bd555aee9864c1443766812785fa8405e91",
+          "bytes": 205396
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/emilia-romagna-settimana-riduzione-rifiuti-21-29-novembre-2026.html"
+    },
+    {
+      "alt": "Edificio scolastico immaginario ristrutturato come centro culturale, senza persone, scritte o luogo reale riconoscibile.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/castelvetro-ex-scuola-hub-culturale-15-milioni-2026-v1515-480.webp",
+          "sha256": "a7d7fc360fe75897848043fc3684df58f21fff2bbe0edcd01e40e7ba2996ccb2",
+          "bytes": 61864
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/castelvetro-ex-scuola-hub-culturale-15-milioni-2026-v1515-800.webp",
+          "sha256": "a25ce7023776d97450fcb765e88ea49b3d1ac6a0758e844197bba70a7df08eff",
+          "bytes": 165240
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/castelvetro-ex-scuola-hub-culturale-15-milioni-2026-v1515-1200.webp",
+          "sha256": "21b3b7176802b39a1a92e6b7c31b3c00455181865d637f703893a31d04d49d40",
+          "bytes": 356036
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/castelvetro-ex-scuola-hub-culturale-15-milioni-2026.html"
+    },
+    {
+      "alt": "Ambulatorio preventivo generico con materiali informativi HPV e logo sanitario discreto, nessuna paziente, persona o luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/veneto-tumore-cervice-uterina-giornata-17-novembre-2026-v1515-480.webp",
+          "sha256": "0ab286f67d94e1757bbd29cd16977b5a5305426df4729cddc7fb77d42e38bde2",
+          "bytes": 24514
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/veneto-tumore-cervice-uterina-giornata-17-novembre-2026-v1515-800.webp",
+          "sha256": "eec3e8766a6d3089fca4efb4563e61e2676ca7997734b83bd2eef20060992a1c",
+          "bytes": 50446
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/veneto-tumore-cervice-uterina-giornata-17-novembre-2026-v1515-1200.webp",
+          "sha256": "84afdaa0766084e7ae5f531afd189f8473751297245f674fc42bf4c72c8942dd",
+          "bytes": 88592
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/veneto-tumore-cervice-uterina-giornata-17-novembre-2026.html"
+    },
+    {
+      "alt": "Server aziendali generici con simbolo IBM discreto e pannello di aggiornamento astratto, nessuna persona o luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/ibm-vulnerabilita-qradar-webmethods-contextforge-novembre-2026-v1515-480.webp",
+          "sha256": "c29ef5788634d5b5bdc748cbcf38439a9e42f24b6f12cbac5c7490dcab1f9f8d",
+          "bytes": 30396
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/ibm-vulnerabilita-qradar-webmethods-contextforge-novembre-2026-v1515-800.webp",
+          "sha256": "494a83383c4805375853b2933b9638fc230644887fc1064423c7efaeba623d49",
+          "bytes": 76982
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/ibm-vulnerabilita-qradar-webmethods-contextforge-novembre-2026-v1515-1200.webp",
+          "sha256": "fad57316f080261e684d09d91e3fe6d1be81f798940f77029556c8d1300eb144",
+          "bytes": 154822
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/ibm-vulnerabilita-qradar-webmethods-contextforge-novembre-2026.html"
+    },
+    {
+      "alt": "Borgo storico mediterraneo completamente immaginario e non identificabile, senza persone, insegne o luogo reale.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto-v1515/calabria-quattro-centri-storici-interesse-pubblico-proposte-2026-v1515-480.webp",
+          "sha256": "a8e8ebf8bed87a7873656df79131f051939054b78b69fb8c9ee47350740c0f0b",
+          "bytes": 64980
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto-v1515/calabria-quattro-centri-storici-interesse-pubblico-proposte-2026-v1515-800.webp",
+          "sha256": "503d74c759f69498fba8243e09133f6b53b182f946b010dfef72c36135287cad",
+          "bytes": 181270
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto-v1515/calabria-quattro-centri-storici-interesse-pubblico-proposte-2026-v1515-1200.webp",
+          "sha256": "a558febabfcd43ae4e2d4e481b8062b82ed4c4e9881a56fe6eb406bc374ea865",
+          "bytes": 380258
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/calabria-quattro-centri-storici-interesse-pubblico-proposte-2026.html"
+    },
     {
       "alt": "Facciata residenziale integra con ponteggio senza persone, illustrazione IA non documentaria.",
       "variants": [
