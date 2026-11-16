@@ -591,3 +591,39 @@ html.cm-dark .cm-wire__live{
 @media(max-width:600px){
   .cm-wire__live{font-size:.86rem}
 }
+
+/* v545 — «In aggiornamento» in evidenza, colori invitanti. */
+.cm-wire__live{
+  display:inline-flex;
+  align-items:center;
+  width:max-content;
+  max-width:100%;
+  margin-top:4px;
+  padding:6px 12px 6px 10px;
+  border-radius:999px;
+  background:linear-gradient(100deg,#163e86 0%, #245fd6 55%, #2f8cff 100%);
+  color:#fff;
+  font-size:.84rem;
+  font-weight:750;
+  letter-spacing:.01em;
+  line-height:1;
+  text-transform:none;
+  box-shadow:0 8px 18px rgba(36,95,214,.28);
+}
+.cm-wire__live::before{
+  content:"";
+  width:8px;height:8px;
+  margin:0 8px 0 0;
+  border-radius:50%;
+  background:#7dffb3;
+  box-shadow:0 0 0 0 rgba(125,255,179,.7);
+  animation:cm-wire-pulse 2.2s ease-out infinite;
+}
+html.cm-dark .cm-wire__live{
+  background:linear-gradient(100deg,#245fd6 0%, #3b82f6 60%, #60a5fa 100%);
+  color:#fff;
+  box-shadow:none;
+}
+@media(max-width:600px){
+  .cm-wire__live{font-size:.8rem;padding:6px 11px 6px 9px}
+}
