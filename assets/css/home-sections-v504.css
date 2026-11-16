@@ -282,18 +282,37 @@ html.cm-dark .cm-wire__chevron{border-color:#8eb6ff}
   text-transform:none;
 }
 .cm-wire__live::before{content:"·";margin:0 6px;color:#245fd6}
+.cm-wire__item,
+.cm-wire__list .cm-wire__item{
+  display:flex;
+  align-items:flex-start;
+  gap:8px;
+  grid-template-columns:none;
+}
 .cm-wire__mark{
-  color:#245fd6;
-  font-size:.68rem;
+  flex:none;
+  margin-top:.34em;
+  padding:2px 7px;
+  border-radius:999px;
+  background:#d91824;
+  color:#fff;
+  font-size:.6rem;
   font-weight:800;
-  letter-spacing:.04em;
-  line-height:1.2;
+  letter-spacing:.08em;
+  line-height:1.35;
   text-transform:uppercase;
 }
-.cm-wire__item.is-latest .cm-wire__mark{color:#d91824}
+.cm-wire__title{min-width:0}
 html.cm-dark .cm-wire__live{color:#9eb0c6}
-html.cm-dark .cm-wire__mark{color:#8eb6ff}
-html.cm-dark .cm-wire__item.is-latest .cm-wire__mark{color:#ff8d94}
+html.cm-dark .cm-wire__mark{background:#e11d2e;color:#fff}
+@media(max-width:600px){
+  .cm-wire__item,
+  .cm-wire__list .cm-wire__item{
+    display:flex;
+    grid-template-columns:none;
+    gap:8px;
+  }
+}
 
 
 /* Marchio in testata: più grande e nitido, stessi colori. */
