@@ -264,7 +264,7 @@ Quando viene aggiunta una nuova notizia, questa entra nella card di apertura (`f
 ### Ultima ora — orario reale (16 novembre 2026)
 Ogni notizia tiene l’orario reale in cui viene pubblicata. Non si arretrano più le ore per creare uno scarto di 5–20 minuti.
 
-Nel riquadro Ultima ora non compare l’orario e non compare la categoria. La prima notizia ha il segno «Nuova». Sotto il titolo del riquadro c’è la frase «Le notizie si aggiornano appena arrivano». L’ora resta nella pagina dell’articolo, in `datePublished`, nella News Sitemap e nel feed. Non si modifica l’orario del fatto.
+Nel riquadro Ultima ora non compare l’orario e non compare la categoria. La prima notizia ha il segno «Nuova». Sotto il titolo del riquadro c’è la frase «Le notizie più recenti entrano subito qui». L’ora resta nella pagina dell’articolo, in `datePublished`, nella News Sitemap e nel feed. Non si modifica l’orario del fatto.
 
 
 ## Regole editoriali di fluidità e marchio — v151

@@ -199,7 +199,7 @@
     const dot = el('span', 'cm-wire__dot');
     dot.setAttribute('aria-hidden', 'true');
     const copy = el('span', 'cm-wire__headcopy');
-    copy.append(el('span', '', 'Ultima ora'), el('span', 'cm-wire__live', 'Le notizie si aggiornano appena arrivano'));
+    copy.append(el('span', '', 'Ultima ora'), el('span', 'cm-wire__live', 'Le notizie più recenti entrano subito qui'));
     kicker.append(dot, copy);
     const chevron = el('span', 'cm-wire__chevron');
     chevron.setAttribute('aria-hidden', 'true');
