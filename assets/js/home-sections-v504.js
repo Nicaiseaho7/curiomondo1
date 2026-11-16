@@ -198,12 +198,11 @@
     const kicker = el('span', 'cm-wire__kicker');
     const dot = el('span', 'cm-wire__dot');
     dot.setAttribute('aria-hidden', 'true');
-    const copy = el('span', 'cm-wire__headcopy');
-    copy.append(el('span', '', 'Ultima ora'), el('span', 'cm-wire__live', 'In aggiornamento'));
-    kicker.append(dot, copy);
+    kicker.append(dot, el('span', '', 'Ultima ora'));
+    const live = el('span', 'cm-wire__live', 'In aggiornamento');
     const chevron = el('span', 'cm-wire__chevron');
     chevron.setAttribute('aria-hidden', 'true');
-    summary.append(kicker, chevron);
+    summary.append(kicker, live, chevron);
     const list = el('ol', 'cm-wire__list');
     entries.slice(0, 10).forEach((entry, index) => {
       const item = el('li');

@@ -627,3 +627,15 @@ html.cm-dark .cm-wire__live{
 @media(max-width:600px){
   .cm-wire__live{font-size:.8rem;padding:6px 11px 6px 9px}
 }
+
+/* v546 — «In aggiornamento» in alto a destra. */
+.cm-wire__toggle{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+.cm-wire__kicker{flex:1;min-width:0;align-items:center}
+.cm-wire__live{
+  margin:0 0 0 auto;
+  flex:none;
+}
