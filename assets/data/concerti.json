@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-16T04:52:00+01:00",
+  "lastVerified": "2026-11-16T07:02:00+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -1669,6 +1669,33 @@
         "title": "Festa degli Alberi a Bologna: piante gratuite dopo l’incontro",
         "description": "Giovedì 19 novembre, dalle 17 alle 19, al Filla Auditorium del Parco della Montagnola.",
         "image": "/assets/images/editorial-auto/festa-alberi-bologna-19-novembre-2026-piante-gratuite-v1513-1200.webp"
+      }
+    },
+    {
+      "id": "virtus-panathinaikos-bologna-2026-11-17",
+      "artist": "Virtus Bologna",
+      "tour": "Eurolega, Panathinaikos",
+      "start": "2026-11-17T21:00:00+01:00",
+      "end": null,
+      "showTime": true,
+      "city": "Bologna",
+      "province": "BO",
+      "region": "Emilia-Romagna",
+      "venue": "Impianto della Virtus",
+      "genre": "Basket",
+      "status": "annunciato",
+      "ticketStatus": "upcoming",
+      "featured": false,
+      "kind": "evento",
+      "sourceUrl": "https://www.virtus.it/season/2026-27/",
+      "ticketUrl": "https://www.virtus.it/season/2026-27/",
+      "lastVerified": "2026-11-16T07:02:00+01:00",
+      "note": "Biglietti solo per residenti in Italia, con codice fiscale di ogni utilizzatore.",
+      "article": {
+        "url": "/notizie/virtus-panathinaikos-biglietti-residenti-italia-17-novembre-2026.html",
+        "title": "Virtus-Panathinaikos il 17 novembre alle 21: confermata la restrizione sui biglietti",
+        "description": "La partita è alle 21. I biglietti restano acquistabili solo da residenti in Italia.",
+        "image": "/assets/images/editorial-sport-v1514/virtus-panathinaikos-biglietti-residenti-italia-17-novembre-2026-v1514-1200.webp"
       }
     }
   ]
