@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-15T17:48:00+01:00",
+  "lastVerified": "2026-11-16T04:52:00+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -1566,6 +1566,84 @@
       "genre": "Teatro",
       "sourceUrl": "https://www.comune.roma.it/web/it/evento/memoria-di-ragazza-prima-nazionale-teatro-valle.page",
       "ticketUrl": "https://www.comune.roma.it/web/it/evento/memoria-di-ragazza-prima-nazionale-teatro-valle.page"
+    },
+    {
+      "id": "expoflora-torre-annunziata-2026-11-27",
+      "artist": "ExpoFlora Italy",
+      "tour": "Fiera internazionale del florovivaismo",
+      "start": "2026-11-27T09:00:00+01:00",
+      "end": "2026-11-29T19:00:00+01:00",
+      "showTime": false,
+      "city": "Torre Annunziata",
+      "province": "NA",
+      "region": "Campania",
+      "venue": "Nuovo Mercato dei Fiori",
+      "genre": "Fiera",
+      "status": "annunciato",
+      "ticketStatus": "upcoming",
+      "featured": false,
+      "kind": "evento",
+      "sourceUrl": "https://www.regione.campania.it/comunicazione/area-stampa/comunicati/12112026-comunicato-n-720-appuntamenti",
+      "ticketUrl": "https://www.regione.campania.it/comunicazione/area-stampa/comunicati/12112026-comunicato-n-720-appuntamenti",
+      "lastVerified": "2026-11-16T04:52:00+01:00",
+      "article": {
+        "url": "/notizie/expoflora-torre-annunziata-27-29-novembre-2026-programma.html",
+        "title": "ExpoFlora a Torre Annunziata dal 27 al 29 novembre: il 16 la presentazione",
+        "description": "La fiera internazionale del florovivaismo riunirà imprese, tecnici e ricercatori al Nuovo Mercato dei Fiori, con incontri professionali ed eventi speciali.",
+        "image": "/assets/images/editorial-auto/expoflora-torre-annunziata-27-29-novembre-2026-programma-v1513-1200.webp"
+      }
+    },
+    {
+      "id": "stati-generali-sport-campania-2026-11-22",
+      "artist": "Regione Campania",
+      "tour": "Verso gli Stati generali dello sport",
+      "start": "2026-11-22T09:00:00+01:00",
+      "end": null,
+      "showTime": false,
+      "city": "Napoli",
+      "province": "NA",
+      "region": "Campania",
+      "venue": "Mostra d'Oltremare",
+      "genre": "Sport",
+      "status": "annunciato",
+      "ticketStatus": "free",
+      "featured": false,
+      "kind": "evento",
+      "sourceUrl": "https://www.regione.campania.it/comunicazione/area-stampa/comunicati/13112026-comunicato-n-730-stati-generali-sport-martedi-17-conferenza-stampa-presentazione-al-consiglio-regionale",
+      "ticketUrl": "https://www.regione.campania.it/comunicazione/area-stampa/comunicati/13112026-comunicato-n-730-stati-generali-sport-martedi-17-conferenza-stampa-presentazione-al-consiglio-regionale",
+      "lastVerified": "2026-11-16T04:52:00+01:00",
+      "article": {
+        "url": "/notizie/stati-generali-sport-campania-22-novembre-2026-napoli.html",
+        "title": "Campania, Stati generali dello sport il 22 novembre alla Mostra d’Oltremare",
+        "description": "L’appuntamento sarà ad accesso libero e riunirà federazioni, associazioni, società, atleti, famiglie e istituzioni. Presentazione il 17 novembre.",
+        "image": "/assets/images/editorial-auto/stati-generali-sport-campania-22-novembre-2026-napoli-v1513-1200.webp"
+      }
+    },
+    {
+      "id": "myplant-garden-rho-2027-02-17",
+      "artist": "Myplant & Garden",
+      "tour": "Fiera del verde e del florovivaismo",
+      "start": "2027-02-17T09:00:00+01:00",
+      "end": "2027-02-19T19:00:00+01:00",
+      "showTime": false,
+      "city": "Rho",
+      "province": "MI",
+      "region": "Lombardia",
+      "venue": "Fieramilano Rho",
+      "genre": "Fiera",
+      "status": "annunciato",
+      "ticketStatus": "upcoming",
+      "featured": false,
+      "kind": "evento",
+      "sourceUrl": "https://agricoltura.regione.campania.it/fiere/my-plant-2027.html",
+      "ticketUrl": "https://agricoltura.regione.campania.it/fiere/my-plant-2027.html",
+      "lastVerified": "2026-11-16T04:52:00+01:00",
+      "article": {
+        "url": "/notizie/campania-imprese-myplant-garden-2027-domande-fieramilano.html",
+        "title": "Myplant & Garden 2027, la Campania seleziona le imprese partecipanti",
+        "description": "La Regione sarà alla fiera di Rho dal 17 al 19 febbraio per promuovere il comparto florovivaistico e agroalimentare campano.",
+        "image": "/assets/images/editorial-auto/campania-imprese-myplant-garden-2027-domande-fieramilano-v1513-1200.webp"
+      }
     }
   ]
 }

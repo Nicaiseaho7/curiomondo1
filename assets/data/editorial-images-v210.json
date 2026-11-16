@@ -1,7 +1,1307 @@
 {
-  "version": 1511,
+  "version": 1513,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "alt": "Vigneto lombardo sano con filari, alberi e agronomi anonimi in posa neutra, senza fenomeni estremi.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/vitisilva-agroforestazione-vigneti-lombardia-sei-aziende-2026-v1513-480.webp",
+          "sha256": "d730b47f113f7774415025ab8cfbf5224f6b0c588eae273d9b1ef71a68c1b4ee",
+          "bytes": 58584
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/vitisilva-agroforestazione-vigneti-lombardia-sei-aziende-2026-v1513-800.webp",
+          "sha256": "c6150b89217e1cf099e53490eae150980ff0c17a83ef7b70c3926f05725a9b0b",
+          "bytes": 136982
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/vitisilva-agroforestazione-vigneti-lombardia-sei-aziende-2026-v1513-1200.webp",
+          "sha256": "97e5cda22b8a1dc01df7e7fa46b2de265390dd9996404cccdbab19e0e0d01bcd",
+          "bytes": 244802
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/vitisilva-agroforestazione-vigneti-lombardia-sei-aziende-2026.html"
+    },
+    {
+      "alt": "Scena meteorologica editoriale generica con strada bagnata e operatori della protezione civile visti da lontano, senza danni né persone in pericolo.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/allerta-gialla-16-novembre-2026-regioni-zone-rischio-v1513-480.webp",
+          "sha256": "54575cb8a8dec3f330bf7aa80697d005b9274b9bff5b4b7f4667ec0939b44ff7",
+          "bytes": 42094
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/allerta-gialla-16-novembre-2026-regioni-zone-rischio-v1513-800.webp",
+          "sha256": "5e299c7ec9c05e65cf9948fa93cd0cec408e9452b4d8788e3b1b040fc0c869af",
+          "bytes": 96384
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/allerta-gialla-16-novembre-2026-regioni-zone-rischio-v1513-1200.webp",
+          "sha256": "489331db93ec1d5ab77f69034820e222b2ff7c12cbd4657e481d7e30cf024fad",
+          "bytes": 172608
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/allerta-gialla-16-novembre-2026-regioni-zone-rischio.html"
+    },
+    {
+      "alt": "Sosia realistici dei ministri Tajani e Lollobrigida in posa neutra accanto a prodotti italiani, con simboli istituzionali corretti.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/settimana-cucina-italiana-mondo-farnesina-17-novembre-2026-v1513-480.webp",
+          "sha256": "a4148066e6fcf41727de1f2b53aeff39bb48f3f6a3e04bcd4f385d5079526635",
+          "bytes": 23190
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/settimana-cucina-italiana-mondo-farnesina-17-novembre-2026-v1513-800.webp",
+          "sha256": "e5d8d3c1f5eb899e88a656d371bcf29b2745499b17660197f12d65b8c1d2471f",
+          "bytes": 50136
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/settimana-cucina-italiana-mondo-farnesina-17-novembre-2026-v1513-1200.webp",
+          "sha256": "cecce77c12e501383fb6d2fb788177f9595ea2283d0037f9b586812434a6ae2c",
+          "bytes": 86194
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/settimana-cucina-italiana-mondo-farnesina-17-novembre-2026.html"
+    },
+    {
+      "alt": "Studenti adulti anonimi e ricercatrice in posa neutra al Consolato italiano, con logo istituzionale corretto.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/progettodiventero-mondo-premiazione-new-york-stem-2026-v1513-480.webp",
+          "sha256": "91197fb41afaac33756c01b75df8e7ef4efe9da7343620ed59f7b5a7ff72f86e",
+          "bytes": 35600
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/progettodiventero-mondo-premiazione-new-york-stem-2026-v1513-800.webp",
+          "sha256": "2a42b93c1a7feac8e9559b20700ff2e2444c9884b9269a1e64bf16f0988ecdcd",
+          "bytes": 77676
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/progettodiventero-mondo-premiazione-new-york-stem-2026-v1513-1200.webp",
+          "sha256": "600002d1cbae3a26a11ed4b1cc5e2fadd345b3ab9d1fc14cd558c0dcf030412a",
+          "bytes": 146946
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/progettodiventero-mondo-premiazione-new-york-stem-2026.html"
+    },
+    {
+      "alt": "Sala museale con abiti da cinema su manichini completamente coperti e correttamente proporzionati, senza nudità.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/fashion-frames-tbilisi-mostra-moda-cinema-35-abiti-2026-v1513-480.webp",
+          "sha256": "14e022c3d7fadc2b4d4cd418783b93a5d5a65524098854fe14810b2bfd136c98",
+          "bytes": 39094
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/fashion-frames-tbilisi-mostra-moda-cinema-35-abiti-2026-v1513-800.webp",
+          "sha256": "3f895af68c137839f0616c36bd4dbb8129269067972a116ab7ab8927f6e4755c",
+          "bytes": 95738
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/fashion-frames-tbilisi-mostra-moda-cinema-35-abiti-2026-v1513-1200.webp",
+          "sha256": "ccc807c0bf1ce6f40231a0099a47c3a4a522f19ec957bd23f3c19d46cccf0ad5",
+          "bytes": 192558
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/fashion-frames-tbilisi-mostra-moda-cinema-35-abiti-2026.html"
+    },
+    {
+      "alt": "Fotografia di prodotto editoriale con smartphone Pixel e piccolo localizzatore Pixel Tag su un tavolo, senza schermate o dati personali.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/pixel-drop-novembre-2026-pixel-tag-gemini-wifi-v1513-480.webp",
+          "sha256": "ffc6ab3ce88f84133175ac4a5c382c83462e4f7a7456e2a37c8ddefa33df85d6",
+          "bytes": 14594
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/pixel-drop-novembre-2026-pixel-tag-gemini-wifi-v1513-800.webp",
+          "sha256": "b77834d89de1e124107931acda488e91bcdfbbe8a83c4d39a442f94c499a304e",
+          "bytes": 29978
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/pixel-drop-novembre-2026-pixel-tag-gemini-wifi-v1513-1200.webp",
+          "sha256": "bd11904a29d31091d6ead7e94eeadca43558de16e8c799d9fa6048f9efdaec4f",
+          "bytes": 52458
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/pixel-drop-novembre-2026-pixel-tag-gemini-wifi.html"
+    },
+    {
+      "alt": "Tavolo tecnico con amministratori anonimi e mappa territoriale, in posa neutra e senza testo illeggibile.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/agro-nocerino-sarnese-masterplan-30-milioni-13-comuni-2026-v1513-480.webp",
+          "sha256": "a56fa8e0ff79923232bf582b9921138cfc447ced39b862817ccedc7a127e607a",
+          "bytes": 30168
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/agro-nocerino-sarnese-masterplan-30-milioni-13-comuni-2026-v1513-800.webp",
+          "sha256": "7c4b54dd0876f17819161a41d58d22f3c92eee9fbcb1933b06b510c9590aca86",
+          "bytes": 66898
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/agro-nocerino-sarnese-masterplan-30-milioni-13-comuni-2026-v1513-1200.webp",
+          "sha256": "69a93d711506c6ec5af1d4504dcc7017d52cf90449be2c7a9e871561b3deed01",
+          "bytes": 124164
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/agro-nocerino-sarnese-masterplan-30-milioni-13-comuni-2026.html"
+    },
+    {
+      "alt": "Serra fieristica luminosa con florovivaisti anonimi in posa neutra e piante sane.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/expoflora-torre-annunziata-27-29-novembre-2026-programma-v1513-480.webp",
+          "sha256": "1889b389c7c3266296539c509e494130d4c2e80d32d56098f83a4396b2db450f",
+          "bytes": 50272
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/expoflora-torre-annunziata-27-29-novembre-2026-programma-v1513-800.webp",
+          "sha256": "86999828f73184744aebeb3161bd933a0473c5154fbc4f2b279d7268957798ce",
+          "bytes": 111744
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/expoflora-torre-annunziata-27-29-novembre-2026-programma-v1513-1200.webp",
+          "sha256": "43b4f1c7755946612b137a686d0a5ca3e7d33541259b88ba9848cfeddf131db2",
+          "bytes": 192666
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/expoflora-torre-annunziata-27-29-novembre-2026-programma.html"
+    },
+    {
+      "alt": "Ritratto editoriale neutro con somiglianza sintetica di Nek in un’arena da tennis vuota, logo ATP Finals accurato e discreto.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/atp-finals-torino-music-break-nek-15-novembre-2026-v1513-480.webp",
+          "sha256": "ef66ecb136c16e9780e74d67404940dd8f38f2d08c62fe226946c6066fe81605",
+          "bytes": 19976
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/atp-finals-torino-music-break-nek-15-novembre-2026-v1513-800.webp",
+          "sha256": "bff20bd679e19417591f82f53cb5a28b8e5ae70ac558df9751425012c11b60cc",
+          "bytes": 41696
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/atp-finals-torino-music-break-nek-15-novembre-2026-v1513-1200.webp",
+          "sha256": "8406c6c612f0af879c5185200f1639bd584af688674bef9c05bd3a7cb1a7e32d",
+          "bytes": 79358
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/atp-finals-torino-music-break-nek-15-novembre-2026.html"
+    },
+    {
+      "alt": "Sosia ultrarealistico di Raffaele Ciurnelli in posa neutra su un campo in terra rossa, con abbigliamento da tennis e logo FITP accurato.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/raffaele-ciurnelli-primo-titolo-catania-15-novembre-2026-v1513-480.webp",
+          "sha256": "7b4785bc52bb45d0bc137280ca2b59759b02d16fb221f749571d56c778bacc35",
+          "bytes": 27578
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/raffaele-ciurnelli-primo-titolo-catania-15-novembre-2026-v1513-800.webp",
+          "sha256": "2a0ca832038365a9d2fc22a251fb93ca37b49b38036885ef68783e342b82c6ff",
+          "bytes": 54252
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/raffaele-ciurnelli-primo-titolo-catania-15-novembre-2026-v1513-1200.webp",
+          "sha256": "b3da4aaecb6f047ab4f1706cfef978ac81300ef388bd826ce97c11f4a7fe45b6",
+          "bytes": 97684
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/raffaele-ciurnelli-primo-titolo-catania-15-novembre-2026.html"
+    },
+    {
+      "alt": "Sosia ultrarealistico di Michele Ribecai in posa neutra su un campo in cemento, con abbigliamento originale da tennis e loghi accurati.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/michele-ribecai-primo-challenger-hersonissos-15-novembre-2026-v1513-480.webp",
+          "sha256": "bf26974771bc3c08b103175be8f3a05aa3d9d53fb0a5377381ee9d2d41949ea2",
+          "bytes": 25152
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/michele-ribecai-primo-challenger-hersonissos-15-novembre-2026-v1513-800.webp",
+          "sha256": "b3877b80ea66a3b064a1c92ce4625f7e8fc551bfa8a8e43fcec07875fca0ebd5",
+          "bytes": 51900
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/michele-ribecai-primo-challenger-hersonissos-15-novembre-2026-v1513-1200.webp",
+          "sha256": "04d65befc2372df1f617cb4d745a3fe02961d8776aba90c07cab8a87a73681fc",
+          "bytes": 93652
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/michele-ribecai-primo-challenger-hersonissos-15-novembre-2026.html"
+    },
+    {
+      "alt": "Due giovani schermidori anonimi completamente protetti in posa neutra e separata in palestra, con logo federale accurato e nessuna azione di contatto.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/juniores-scherma-classe-2012-risultati-la-spezia-terni-2026-v1513-480.webp",
+          "sha256": "b72568c63a340a2a7785a5df8296ad24916287cf0e8c3fe83af5882b1e25a7ed",
+          "bytes": 20186
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/juniores-scherma-classe-2012-risultati-la-spezia-terni-2026-v1513-800.webp",
+          "sha256": "e927c487e26199455091c4cd885d5708b6fe8bc64d090b83b14df27fb6e4e16c",
+          "bytes": 42426
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/juniores-scherma-classe-2012-risultati-la-spezia-terni-2026-v1513-1200.webp",
+          "sha256": "09ea61c1fa6420172c43c851b4013fe87e2cb8b1d21de37bec7cef240e64e073",
+          "bytes": 77246
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/juniores-scherma-classe-2012-risultati-la-spezia-terni-2026.html"
+    },
+    {
+      "alt": "Interno editoriale di una fabbrica di ceramica moderna con operai anonimi in posa neutra e simboli UE discreti, senza fumi o incidenti.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/ets-ceramica-emilia-romagna-benchmark-settore-accordo-ue-2026-v1513-480.webp",
+          "sha256": "27e86f0b3ec3a5775f50a13c7ac3cb0fa560004bb5393482983309fdce7b261e",
+          "bytes": 42556
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/ets-ceramica-emilia-romagna-benchmark-settore-accordo-ue-2026-v1513-800.webp",
+          "sha256": "084b402cd585eb2567c942bd453e1a951e179cfddd7f16fd7e0db75a042b2dc6",
+          "bytes": 91268
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/ets-ceramica-emilia-romagna-benchmark-settore-accordo-ue-2026-v1513-1200.webp",
+          "sha256": "381d9732f903a1d78c7fa861e498d8a8bd91bdba755f537fd68315ee07819a0b",
+          "bytes": 159236
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/ets-ceramica-emilia-romagna-benchmark-settore-accordo-ue-2026.html"
+    },
+    {
+      "alt": "Esterno editoriale neutro di un laboratorio biotecnologico generico con porte chiuse e nessuna persona o scena di protesta.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/holostem-modena-licenziamento-collettivo-dipendenti-2026-v1513-480.webp",
+          "sha256": "bb37b4f82c4e10081c6bd418f9bcfa2d16d074b5cf85ea5e26b66fbb8a6172f3",
+          "bytes": 35536
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/holostem-modena-licenziamento-collettivo-dipendenti-2026-v1513-800.webp",
+          "sha256": "cb175813804291dd8ad99b7323ea15311faab782873eeeeb7c39b69f09c0388f",
+          "bytes": 85812
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/holostem-modena-licenziamento-collettivo-dipendenti-2026-v1513-1200.webp",
+          "sha256": "9647da488482c226455f1770ea88e55fcc349adbf1fd73f7871f12f6a2a885ee",
+          "bytes": 170614
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/holostem-modena-licenziamento-collettivo-dipendenti-2026.html"
+    },
+    {
+      "alt": "Ritratto editoriale neutro con somiglianza sintetica della regista Olga Torrico in una sala cinematografica vuota, senza locandine inventate.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/per-tutte-le-volte-cortometraggio-voto-donne-bologna-2026-v1513-480.webp",
+          "sha256": "b1716b5751bcdf411b1db670cdcfc278a511490e52e27cda36e3ea2c5b4af1f8",
+          "bytes": 13894
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/per-tutte-le-volte-cortometraggio-voto-donne-bologna-2026-v1513-800.webp",
+          "sha256": "b81b299aa12ad8f4479a786a6f1672e3b83539b7bc6f212e04967c0d291fefb7",
+          "bytes": 31828
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/per-tutte-le-volte-cortometraggio-voto-donne-bologna-2026-v1513-1200.webp",
+          "sha256": "5bcd8c8f3556a5db1037efb20643aa9922cbb94f56b6a320df63f6e19defdc01",
+          "bytes": 62882
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/per-tutte-le-volte-cortometraggio-voto-donne-bologna-2026.html"
+    },
+    {
+      "alt": "Scena editoriale di un vivaio forestale con tecnici anonimi e giovani alberi in vaso, senza volti riconoscibili.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/festa-alberi-bologna-19-novembre-2026-piante-gratuite-v1513-480.webp",
+          "sha256": "64ae4757c981ce232d262dec7618504e52de1d3bf984303bc3019672bfeb3332",
+          "bytes": 60912
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/festa-alberi-bologna-19-novembre-2026-piante-gratuite-v1513-800.webp",
+          "sha256": "f429fd8152ca8641417e6973953dc6e28ecb7998cd4e76b560f264446deb928a",
+          "bytes": 159768
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/festa-alberi-bologna-19-novembre-2026-piante-gratuite-v1513-1200.webp",
+          "sha256": "bbacb0d4dc1eb3fa51f23195edc3c631f9b72a4dfde614c98839ecdc5ce37d86",
+          "bytes": 318792
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/festa-alberi-bologna-19-novembre-2026-piante-gratuite.html"
+    },
+    {
+      "alt": "Camminatori anonimi completamente vestiti su un tratto rurale generico della Via Francigena nel Sud, segnaletica accurata e nessun luogo identificabile.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/stati-generali-via-francigena-sud-benevento-2026-v1513-480.webp",
+          "sha256": "999804edfb1e5f2418b3699e39f5d2ae1c7e89c78e739dc723dc2d3dc99dcbbc",
+          "bytes": 56628
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/stati-generali-via-francigena-sud-benevento-2026-v1513-800.webp",
+          "sha256": "ce0963d1893c610dd1c6fe8e47fcf352fb858c6cdfb4f039a7b8bfb2fd0d7f28",
+          "bytes": 133352
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/stati-generali-via-francigena-sud-benevento-2026-v1513-1200.webp",
+          "sha256": "9a0b40df98b9d7f0b0a36b67a80effe98e693a93fbd2c19c7aaae490a5260cfc",
+          "bytes": 240700
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/stati-generali-via-francigena-sud-benevento-2026.html"
+    },
+    {
+      "alt": "Scena editoriale rispettosa con caregiver e adulto con disabilità ripresi senza volto in un ambiente domestico accessibile, completamente vestiti e in posa neutra.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/puglia-patto-cura-2027-2029-domande-17-novembre-2026-v1513-480.webp",
+          "sha256": "f29213fba6dd58725dda9785e5d71460655f8d521a8468f769433b7ebc623fb7",
+          "bytes": 29124
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/puglia-patto-cura-2027-2029-domande-17-novembre-2026-v1513-800.webp",
+          "sha256": "4dc03e39ab7881e90a4c5edf72bc89d4c86452c6a7c395c42ecf3f592fd54737",
+          "bytes": 63346
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/puglia-patto-cura-2027-2029-domande-17-novembre-2026-v1513-1200.webp",
+          "sha256": "f8bee3dd7b7807de19a4886cdb587eec7884129de9fa92d92476316b36d552c9",
+          "bytes": 118700
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/puglia-patto-cura-2027-2029-domande-17-novembre-2026.html"
+    },
+    {
+      "alt": "Piazza italiana meridionale generica con luci natalizie sobrie e famiglie anonime completamente vestite, senza marchi o luoghi riconoscibili.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/natale-puglia-2026-due-milioni-capoluoghi-eventi-v1513-480.webp",
+          "sha256": "656c6867a01d4630ce511fd09db1db263659db7c4a643e1f968a16f4583e5568",
+          "bytes": 42452
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/natale-puglia-2026-due-milioni-capoluoghi-eventi-v1513-800.webp",
+          "sha256": "48d9beb5ff9a5bab9b0accc8a193c1802e88dffb62e681f488b2c9f98ca84f9b",
+          "bytes": 111808
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/natale-puglia-2026-due-milioni-capoluoghi-eventi-v1513-1200.webp",
+          "sha256": "3a2d2d8221287072c7bbb11653689bff930d3bb319a820f173d97a72796f1984",
+          "bytes": 220336
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/natale-puglia-2026-due-milioni-capoluoghi-eventi.html"
+    },
+    {
+      "alt": "Ingresso editoriale di una Casa di comunità moderna con personale sanitario anonimo completamente vestito in posa neutra, senza pazienti visibili.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/puglia-case-comunita-liste-attesa-fase-due-unita-crisi-2026-v1513-480.webp",
+          "sha256": "77c4333b92fc41ad7b15bb8f3900b38973d5a459b43a7eb8771bacd1f166748d",
+          "bytes": 36036
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/puglia-case-comunita-liste-attesa-fase-due-unita-crisi-2026-v1513-800.webp",
+          "sha256": "d5086a8141d15024f8acd9ce5c586890e44ea4ed781dfbc3bb7060c49f047357",
+          "bytes": 84344
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/puglia-case-comunita-liste-attesa-fase-due-unita-crisi-2026-v1513-1200.webp",
+          "sha256": "db117200c4038653f467cb27f58bb27f147e217b894a78426cc9037ef633b8c0",
+          "bytes": 156416
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/puglia-case-comunita-liste-attesa-fase-due-unita-crisi-2026.html"
+    },
+    {
+      "alt": "Paesaggio collinare campano generico con turbine eoliche e pannelli solari proporzionati, senza persone o località riconoscibili.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/campania-rinnovabile-crescita-54-percento-dal-2020-rapporto-2026-v1513-480.webp",
+          "sha256": "e83cc51e769b776742a30c8e6ad464650126590d3bd5a9a60abcb3c0a1c8a6f6",
+          "bytes": 48010
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/campania-rinnovabile-crescita-54-percento-dal-2020-rapporto-2026-v1513-800.webp",
+          "sha256": "106bcadb8f84570843910c174a4a6abe47f2c6078408bd776e99d2cb5ff12d99",
+          "bytes": 123754
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/campania-rinnovabile-crescita-54-percento-dal-2020-rapporto-2026-v1513-1200.webp",
+          "sha256": "97102f60c52a6ef4a693ee3bc5c1051367e70c930b5b0de543806d35dfe7962a",
+          "bytes": 256266
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/campania-rinnovabile-crescita-54-percento-dal-2020-rapporto-2026.html"
+    },
+    {
+      "alt": "Scena editoriale di manutenzione fluviale controllata con escavatore fermo e tecnici anonimi distanti dall’acqua, senza alluvioni o danni.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/rio-sguazzatorio-rimozione-sedimenti-rischio-idraulico-campania-2026-v1513-480.webp",
+          "sha256": "9aff6a02563ff9d95a3b5b6ac0ac47c37fbdbb1e807c95b2e31e44338cd53c60",
+          "bytes": 61430
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/rio-sguazzatorio-rimozione-sedimenti-rischio-idraulico-campania-2026-v1513-800.webp",
+          "sha256": "bdd9e78e535fdcb498e9476114e404d46f84bf3a4de0e9a87f034d06a2ce6f7c",
+          "bytes": 165524
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/rio-sguazzatorio-rimozione-sedimenti-rischio-idraulico-campania-2026-v1513-1200.webp",
+          "sha256": "2eb61c0ac00a67c037853597c9a03171f3d8ba674f8d73bd88f94eb89c262725",
+          "bytes": 355398
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/rio-sguazzatorio-rimozione-sedimenti-rischio-idraulico-campania-2026.html"
+    },
+    {
+      "alt": "Stand fieristico florovivaistico moderno con piante reali, espositori anonimi in posa neutra e loghi regionali accurati.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/campania-imprese-myplant-garden-2027-domande-fieramilano-v1513-480.webp",
+          "sha256": "88d8afbbd40905ad39f52448b2834d42c564e8f8396662061ef4bd958eeb2d0d",
+          "bytes": 47458
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/campania-imprese-myplant-garden-2027-domande-fieramilano-v1513-800.webp",
+          "sha256": "b50deaf00fe7609080d797494e1840fe17672cfa3aec9c35af684d6f711941e9",
+          "bytes": 117376
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/campania-imprese-myplant-garden-2027-domande-fieramilano-v1513-1200.webp",
+          "sha256": "9426e095b4115d2d7d7cab8d47ae583c601f16c87aa9d2da3da1ab4872f5fbcc",
+          "bytes": 235168
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/campania-imprese-myplant-garden-2027-domande-fieramilano.html"
+    },
+    {
+      "alt": "Veduta editoriale rispettosa del tempio dorico di Segesta con sensore scientifico in primo piano, nessuna persona e nessun danno enfatizzato.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/tempio-segesta-vibrazioni-stato-conservazione-architrave-2026-v1513-480.webp",
+          "sha256": "536a7a5bd308df961c1577b956225e0de1a43a7b123148666d89ed9c2dfda953",
+          "bytes": 57920
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/tempio-segesta-vibrazioni-stato-conservazione-architrave-2026-v1513-800.webp",
+          "sha256": "854f33c5098c93005aaf310a24dec4dc60dc2775cd6dd054b839caa57dbb589a",
+          "bytes": 155756
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/tempio-segesta-vibrazioni-stato-conservazione-architrave-2026-v1513-1200.webp",
+          "sha256": "fc542b7db5102454bafe292482f52c2b2986fc6f9f6c98fb4a9d28e5ac2ad3cd",
+          "bytes": 318406
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/tempio-segesta-vibrazioni-stato-conservazione-architrave-2026.html"
+    },
+    {
+      "alt": "Tavolo editoriale nel Museo Paolo Orsi con volume chiuso, reperti sullo sfondo e nessuna persona o testo illeggibile.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/volume-corinto-siracusa-scambi-culti-paolo-orsi-2026-v1513-480.webp",
+          "sha256": "0b0c22639f4075c27addebcbe2c3b1d8633944859f8fe867635d9cc8e968d82f",
+          "bytes": 29278
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/volume-corinto-siracusa-scambi-culti-paolo-orsi-2026-v1513-800.webp",
+          "sha256": "f43f3298d00a49a8a19627e6deb6881ee50b35a5ebe34042cdfc4cc308cf91a7",
+          "bytes": 65864
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/volume-corinto-siracusa-scambi-culti-paolo-orsi-2026-v1513-1200.webp",
+          "sha256": "f934ab6577a0bca846d3e4df52a6ef00436de05db1fded34bee758fc8edddc6e",
+          "bytes": 125210
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/volume-corinto-siracusa-scambi-culti-paolo-orsi-2026.html"
+    },
+    {
+      "alt": "Tecnici faunistici anonimi completamente vestiti in posa neutra davanti a un monitor con sagoma di cinghiale, senza armi o animali in pericolo.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/sicilia-elenchi-coadiutori-controllo-suidi-selvatici-2026-v1513-480.webp",
+          "sha256": "b64d951a1411b37eef32a8129cf1a364f98e937c4970cbbe96056b6fb32a0826",
+          "bytes": 30064
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/sicilia-elenchi-coadiutori-controllo-suidi-selvatici-2026-v1513-800.webp",
+          "sha256": "eb9267f87f4acfc2b3f4767c8a49301b6631e305a0cb24710e719b8dd317173c",
+          "bytes": 64472
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/sicilia-elenchi-coadiutori-controllo-suidi-selvatici-2026-v1513-1200.webp",
+          "sha256": "fc890a1b01ddd0b054ea55713d2d8aff2b92be0ea2085a1834993b2ee92c09ed",
+          "bytes": 122330
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/sicilia-elenchi-coadiutori-controllo-suidi-selvatici-2026.html"
+    },
+    {
+      "alt": "Scena editoriale rispettosa con due donne anonime completamente vestite in un ufficio di consulenza, riprese senza volto e in posa neutra.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/puglia-dote-autonomia-donne-centri-antiviolenza-500mila-2026-v1513-480.webp",
+          "sha256": "c9b69a39f97e75d72be8bfb61fd745da313bf68170f504ae8bc577790a4ebe96",
+          "bytes": 26180
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/puglia-dote-autonomia-donne-centri-antiviolenza-500mila-2026-v1513-800.webp",
+          "sha256": "41d97ef5095315a43fcf2b4930be8501ac894bc208939c57023f171874a56597",
+          "bytes": 61252
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/puglia-dote-autonomia-donne-centri-antiviolenza-500mila-2026-v1513-1200.webp",
+          "sha256": "79021270ec9ac7a2f313954d14ccd94e4a75e249cf220a37b5922e1fd1f96bd0",
+          "bytes": 121568
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/puglia-dote-autonomia-donne-centri-antiviolenza-500mila-2026.html"
+    },
+    {
+      "alt": "Ufficio pubblico luminoso con una famiglia anonima completamente vestita e un’operatrice in posa neutra, senza volti riconoscibili.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/puglia-avviso-rete-centri-famiglia-rafforzamento-2026-v1513-480.webp",
+          "sha256": "8e00a6bfb8b6e49ae215f335833ff268d8fe1e5f8a3bcb246a494b4903b93610",
+          "bytes": 26114
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/puglia-avviso-rete-centri-famiglia-rafforzamento-2026-v1513-800.webp",
+          "sha256": "1000c9c6cad7eaf133b01db9d3c77c0e948c8b87bb8239e7b4cac94917b4cd36",
+          "bytes": 54292
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/puglia-avviso-rete-centri-famiglia-rafforzamento-2026-v1513-1200.webp",
+          "sha256": "85eb539be7df3bd2bc88ea21e249bb3b34e4ca72955504c10ac14935067761f2",
+          "bytes": 89914
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/puglia-avviso-rete-centri-famiglia-rafforzamento-2026.html"
+    },
+    {
+      "alt": "Sosia realistici e rispettosi di Pino Porzio e Angela Procida in posa neutra, con abbigliamento sportivo corretto e loghi ufficiali.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/stati-generali-sport-campania-22-novembre-2026-napoli-v1513-480.webp",
+          "sha256": "72c668e6c55901e207c5291ca4f7cdd10faef2faff4fe4b12987fd953ac4f3f8",
+          "bytes": 20746
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/stati-generali-sport-campania-22-novembre-2026-napoli-v1513-800.webp",
+          "sha256": "a42f92817efc15efa8e2b51652a68db8b9708e26559850d90c944663e2b278f6",
+          "bytes": 44448
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/stati-generali-sport-campania-22-novembre-2026-napoli-v1513-1200.webp",
+          "sha256": "b241543616ba78111a955599f9aa29856081e124c810f62e46c97687b6d84734",
+          "bytes": 93280
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/stati-generali-sport-campania-22-novembre-2026-napoli.html"
+    },
+    {
+      "alt": "Delegati anonimi in posa neutra su una nave ormeggiata a Oslo, senza armi o scene operative.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/atlantic-future-forum-oslo-sicurezza-artico-30-paesi-2026-v1513-480.webp",
+          "sha256": "d31975304a582115224276ac5aef2406056b25b0063b313b6052ff5f5a1d8252",
+          "bytes": 32126
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/atlantic-future-forum-oslo-sicurezza-artico-30-paesi-2026-v1513-800.webp",
+          "sha256": "c601fb319da6f7d60099deba7fc871c5d5b49d34cb0bc0a501684f04b3d8fc22",
+          "bytes": 67076
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/atlantic-future-forum-oslo-sicurezza-artico-30-paesi-2026-v1513-1200.webp",
+          "sha256": "e587bbabf1f27eebf1db00d094720e64f29b7b8f432f06f5d5d78f6d82dbe194",
+          "bytes": 118484
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/atlantic-future-forum-oslo-sicurezza-artico-30-paesi-2026.html"
+    },
+    {
+      "alt": "Genitori adulti anonimi davanti a un computer orientato correttamente con interfaccia scolastica senza dati personali.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/regno-unito-strumento-online-confronto-scuole-primarie-2026-v1513-480.webp",
+          "sha256": "bf8f2d2f12bfd33884ad5308674098eaf31a09489a8f54b1aa1d41158382d03b",
+          "bytes": 32840
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/regno-unito-strumento-online-confronto-scuole-primarie-2026-v1513-800.webp",
+          "sha256": "8bf52b965cc748f0d625dffcd057c27fe3b5dac043baf514f53697e5d36bfbc9",
+          "bytes": 81162
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/regno-unito-strumento-online-confronto-scuole-primarie-2026-v1513-1200.webp",
+          "sha256": "483ea1b58904e77263fb397ab22850f1afb808fb2810ae2f529238822294073f",
+          "bytes": 159022
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/regno-unito-strumento-online-confronto-scuole-primarie-2026.html"
+    },
+    {
+      "alt": "Area industriale messa in sicurezza con ispettori anonimi in posa neutra, senza montagne di rifiuti o scene sensibili.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/birstall-rifiuti-illegali-mille-tonnellate-indagine-2026-v1513-480.webp",
+          "sha256": "e88fe9f86d847f98568d233d38f69ab24c8b71d1a762f703f9818dcbbf43d24d",
+          "bytes": 38546
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/birstall-rifiuti-illegali-mille-tonnellate-indagine-2026-v1513-800.webp",
+          "sha256": "55678ceb8ef5456c287c05c70e30ea771ea5647ed6f9e032f69927a82ea9bad2",
+          "bytes": 83314
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/birstall-rifiuti-illegali-mille-tonnellate-indagine-2026-v1513-1200.webp",
+          "sha256": "a85ed3aa47777955ecc5f126b27dd202de5196ac77bbb8f3cce1a09af89c2666",
+          "bytes": 147224
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/birstall-rifiuti-illegali-mille-tonnellate-indagine-2026.html"
+    },
+    {
+      "alt": "Sommergibilisti anonimi completamente vestiti riuniti con le famiglie in una base portuale, senza armi o dettagli operativi.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/royal-navy-sommergibilisti-rientro-pattugliamento-deterrenza-2026-v1513-480.webp",
+          "sha256": "3523c1d68bf869a79215f6e0613ff5a3447df6eac3bcb6e3407c2f4113531927",
+          "bytes": 38766
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/royal-navy-sommergibilisti-rientro-pattugliamento-deterrenza-2026-v1513-800.webp",
+          "sha256": "d0af03db2696f8278a5b951bd533aab52fd77572861352dbf56a246155c56a33",
+          "bytes": 82380
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/royal-navy-sommergibilisti-rientro-pattugliamento-deterrenza-2026-v1513-1200.webp",
+          "sha256": "a2361d83a8388e61bd364dd1eda5dd4617164f5007313934aa0b17a000038e4f",
+          "bytes": 146314
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/royal-navy-sommergibilisti-rientro-pattugliamento-deterrenza-2026.html"
+    },
+    {
+      "alt": "Tavolo di una sala prove con contenitori di sicurezza chiusi e agenti anonimi in posa neutra, senza armi visibili.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/regno-unito-80mila-coltelli-rimossi-strade-2026-v1513-480.webp",
+          "sha256": "fe773694b0981db2d6fc9368f290074c982d8f547af207d44b7d04c2795c02ee",
+          "bytes": 19256
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/regno-unito-80mila-coltelli-rimossi-strade-2026-v1513-800.webp",
+          "sha256": "9f1adbebee3a8415873c11b0ebf5c5181587ddfd8b8536787e5cb74dec897024",
+          "bytes": 42410
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/regno-unito-80mila-coltelli-rimossi-strade-2026-v1513-1200.webp",
+          "sha256": "8e374c27407b531c74d8ac68584012a1072a8e2963720b29ac43c2ab86ccf1f4",
+          "bytes": 79524
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/regno-unito-80mila-coltelli-rimossi-strade-2026.html"
+    },
+    {
+      "alt": "Rendering editoriale neutro di un moderno complesso istituzionale visto dall’esterno, senza detenuti né scene sensibili.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/regno-unito-nuovo-carcere-1700-posti-2029-v1513-480.webp",
+          "sha256": "96fdcb321128eff814fe9081c8bf0e61494fd6eb3249412ccbef19ca503ef319",
+          "bytes": 32908
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/regno-unito-nuovo-carcere-1700-posti-2029-v1513-800.webp",
+          "sha256": "52e49bafbe874b38f4e8d84ce1ccaa9355bcc162cf34518a9eb585c75731fed5",
+          "bytes": 87132
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/regno-unito-nuovo-carcere-1700-posti-2029-v1513-1200.webp",
+          "sha256": "bb1225fefbbda42a0ed4d682b89d005e327a7f2926257c3e6346d41562b2bb28",
+          "bytes": 183508
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/regno-unito-nuovo-carcere-1700-posti-2029.html"
+    },
+    {
+      "alt": "Sosia realistici di due astronauti di Expedition 75 in posa neutra accanto a un modulo botanico della ISS.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/iss-esperimenti-botanica-biomedicina-cargo-13-novembre-2026-v1513-480.webp",
+          "sha256": "bcae81c29d77bb6169b146d26fb22c29d4ec3a0152e0597fd0b1dd1ff9d3dce2",
+          "bytes": 45828
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/iss-esperimenti-botanica-biomedicina-cargo-13-novembre-2026-v1513-800.webp",
+          "sha256": "8dc460e3f33e1ed28f1e3c1cf7518a7b86f11bc78e24ba307c1c2d78704838d4",
+          "bytes": 99748
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/iss-esperimenti-botanica-biomedicina-cargo-13-novembre-2026-v1513-1200.webp",
+          "sha256": "40d7eafdc8bc77ec9f7e250931d0102752d62aba52c9a0a337df3ba745c17902",
+          "bytes": 174142
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/iss-esperimenti-botanica-biomedicina-cargo-13-novembre-2026.html"
+    },
+    {
+      "alt": "Delegazioni britannica e ucraina in posa neutra a un tavolo istituzionale, senza ambientazioni di guerra.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/regno-unito-ucraina-dialogo-strategico-cooperazione-2026-v1513-480.webp",
+          "sha256": "a5d80ffe23ba41b219e21732bbf8fa8ff8152ba3aba2a29acc466d70f2a05de0",
+          "bytes": 38114
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/regno-unito-ucraina-dialogo-strategico-cooperazione-2026-v1513-800.webp",
+          "sha256": "b42a648996f575ddae0ef77d6cc5def13cf341dcb1df2dc6d9f4700634f15b3e",
+          "bytes": 80452
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/regno-unito-ucraina-dialogo-strategico-cooperazione-2026-v1513-1200.webp",
+          "sha256": "c9b0bb04cd864e6477f336a99e8966215fcbcd3dac75ebd1ff57276b4cfc1815",
+          "bytes": 141428
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/regno-unito-ucraina-dialogo-strategico-cooperazione-2026.html"
+    },
+    {
+      "alt": "Riunione professionale tra operatori anonimi in un ufficio pubblico, senza minori o scene sensibili.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/regno-unito-nuove-linee-guida-tutela-minori-2026-v1513-480.webp",
+          "sha256": "3a859a87909a17ee930c4993110dd483ce4a3d0f2040ef30e0cfbaf547d17b09",
+          "bytes": 28394
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/regno-unito-nuove-linee-guida-tutela-minori-2026-v1513-800.webp",
+          "sha256": "6987284a81996fae94c433e53347d870fdfa0b4669f215f3961c1e77b217408b",
+          "bytes": 60474
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/regno-unito-nuove-linee-guida-tutela-minori-2026-v1513-1200.webp",
+          "sha256": "07e3e9f98f5c535b6ee167281c84d0cd4cc306a36416c44b076949a7c16f93ac",
+          "bytes": 107748
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/regno-unito-nuove-linee-guida-tutela-minori-2026.html"
+    },
+    {
+      "alt": "Tecnici agricoli anonimi in posa neutra davanti a colture sane e strumenti di misurazione, con logo FAO corretto.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/fao-finanza-climatica-agricoltura-piu-risorse-2026-v1513-480.webp",
+          "sha256": "e9eb92363918867e2ae623d63f0c8ddb7a9e9d8ddf51938ec0a1aa0706986d92",
+          "bytes": 47306
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/fao-finanza-climatica-agricoltura-piu-risorse-2026-v1513-800.webp",
+          "sha256": "4a83f70e97e0f275d9d1ef1d5a7ffb1f633d41439a6de4e06c90511f355a9cf9",
+          "bytes": 107288
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/fao-finanza-climatica-agricoltura-piu-risorse-2026-v1513-1200.webp",
+          "sha256": "d1bdb6cd0c27cc025a3ee0ea65f9ae141c35717f01ed7de329cfb505852762a6",
+          "bytes": 188232
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/fao-finanza-climatica-agricoltura-piu-risorse-2026.html"
+    },
+    {
+      "alt": "Sala operativa per il rischio climatico con tecnici anonimi e mappe non sensibili, senza immagini di disastri.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/fao-piattaforma-finanziamento-rischio-disastri-3-miliardi-2030-v1513-480.webp",
+          "sha256": "d0f2e6b2448b2ce9f31aabbbfba31b261978281bbab2485a3899ed8dfe949476",
+          "bytes": 40340
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/fao-piattaforma-finanziamento-rischio-disastri-3-miliardi-2030-v1513-800.webp",
+          "sha256": "86bb8cc60858e40e851a4ad1c9b3bee6e543b93654abb7c2636493ebd4b04414",
+          "bytes": 84652
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/fao-piattaforma-finanziamento-rischio-disastri-3-miliardi-2030-v1513-1200.webp",
+          "sha256": "103106c5bd6bc3513d5cb8c92e2e5dbd7f55ccb761aa404aff44103cbe85e48f",
+          "bytes": 142002
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/fao-piattaforma-finanziamento-rischio-disastri-3-miliardi-2030.html"
+    },
+    {
+      "alt": "Mercato alimentare ordinato con agricoltori e commercianti anonimi in posa neutra, senza persone sofferenti.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/libano-insicurezza-alimentare-agricoltura-fao-2026-v1513-480.webp",
+          "sha256": "f020e604e4797e461784639b7ea4618e1058a699f8b66268fe97fb058baadbd7",
+          "bytes": 55970
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/libano-insicurezza-alimentare-agricoltura-fao-2026-v1513-800.webp",
+          "sha256": "ff254ecfbd2dda1a287d0627d483ff38421e60eee8886b843f407e8feec31007",
+          "bytes": 129602
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/libano-insicurezza-alimentare-agricoltura-fao-2026-v1513-1200.webp",
+          "sha256": "aa42af938766e256d2c4c8f4c1bfc07fbf8441ae0d81039654253685982e61e5",
+          "bytes": 243002
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/libano-insicurezza-alimentare-agricoltura-fao-2026.html"
+    },
+    {
+      "alt": "Campo agricolo sano con agronomo anonimo e impianto di irrigazione efficiente, in posa neutra.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/fao-guida-produrre-di-piu-con-meno-risorse-2026-v1513-480.webp",
+          "sha256": "25b4aedcfbfb865f28d3336e55d179f8d450a510bf940461446c99819525ac0b",
+          "bytes": 55344
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/fao-guida-produrre-di-piu-con-meno-risorse-2026-v1513-800.webp",
+          "sha256": "aaf629392be62230395cfa03889e5b07e372939c5580ce1157d7ff2dd9bf2e35",
+          "bytes": 131292
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/fao-guida-produrre-di-piu-con-meno-risorse-2026-v1513-1200.webp",
+          "sha256": "88cdf3646899c81bb1198f1257d96498b4d4b7732437f9d7ede15f0cc1bd3c37",
+          "bytes": 248450
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/fao-guida-produrre-di-piu-con-meno-risorse-2026.html"
+    },
+    {
+      "alt": "Ricercatori marini anonimi su un molo pulito con strumenti scientifici, senza animali in pericolo.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/fao-programma-oceani-puliti-sani-2026-v1513-480.webp",
+          "sha256": "98fa63d34702a5077d252f17c83b3ce5a18f3ff980b3daf06bafa20b1cb348f5",
+          "bytes": 40092
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/fao-programma-oceani-puliti-sani-2026-v1513-800.webp",
+          "sha256": "8481384c86c05804482645ca72bd921803c519bf3429b0062c02bcc84080131b",
+          "bytes": 90330
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/fao-programma-oceani-puliti-sani-2026-v1513-1200.webp",
+          "sha256": "83d649d08c6c47f0b13e7b555f9f33ca80118094002dc3032b7bb55dfe8350a1",
+          "bytes": 156316
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/fao-programma-oceani-puliti-sani-2026.html"
+    },
+    {
+      "alt": "Agronoma anonima in campo con sensore e tablet orientato correttamente, in posa neutra.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/fao-agricoltura-digitale-ecosistemi-servizi-2026-v1513-480.webp",
+          "sha256": "6c3e953ce6bef7d1b8dd5d3df1bc28aee0e52fcb941a244b30c7c18acc706e5b",
+          "bytes": 50232
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/fao-agricoltura-digitale-ecosistemi-servizi-2026-v1513-800.webp",
+          "sha256": "40f5f30930c7765be37cd498acd56090e8729ef6e74348a96977fb5575c95dd0",
+          "bytes": 105518
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/fao-agricoltura-digitale-ecosistemi-servizi-2026-v1513-1200.webp",
+          "sha256": "b35a7ea18f8ca6144f7d879e56d513f2b2d3d637dd1140238434632075da3eba",
+          "bytes": 181666
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/fao-agricoltura-digitale-ecosistemi-servizi-2026.html"
+    },
+    {
+      "alt": "Tecnici anonimi in una sala controllo nucleare ordinata, in posa neutra e senza allarmi.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/aiei-mihama-sicurezza-esercizio-lungo-termine-2026-v1513-480.webp",
+          "sha256": "7f61c426a3a15f1f40611dd0d36fb239e8d5730e00d99c5f036948153dc067e6",
+          "bytes": 33266
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/aiei-mihama-sicurezza-esercizio-lungo-termine-2026-v1513-800.webp",
+          "sha256": "6f0db7da9d416354830f01f14d98d1b3521c36ef870852794e1f6fbc8ed3c7a2",
+          "bytes": 67112
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/aiei-mihama-sicurezza-esercizio-lungo-termine-2026-v1513-1200.webp",
+          "sha256": "bc7206f63a07e26e3b16f731231671289a6447a0b6c3b48e10e637a28f39eb70",
+          "bytes": 117948
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/aiei-mihama-sicurezza-esercizio-lungo-termine-2026.html"
+    },
+    {
+      "alt": "Laboratorio di fusione con scienziati anonimi in posa neutra e apparecchiature fisicamente realistiche.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/aiei-world-fusion-outlook-2026-investimenti-80-miliardi-v1513-480.webp",
+          "sha256": "540b5ea272bf215b4234133a1df4704a003ec30af6bfccace86a825e37976848",
+          "bytes": 50034
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/aiei-world-fusion-outlook-2026-investimenti-80-miliardi-v1513-800.webp",
+          "sha256": "817d9f855b66731bf3ec4f8add365e8e685a6d70545eade2c8595d5ec9683369",
+          "bytes": 117650
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/aiei-world-fusion-outlook-2026-investimenti-80-miliardi-v1513-1200.webp",
+          "sha256": "b3729ed6b4c2724d31023c1ead57f7ed09e74b6f7cd8d398592ccd74c55c8fb8",
+          "bytes": 213356
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/aiei-world-fusion-outlook-2026-investimenti-80-miliardi.html"
+    },
+    {
+      "alt": "Sosia realistico di Giuseppe Cavo Dragone in posa istituzionale neutra con uniforme corretta e logo NATO.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/nato-cavo-dragone-ungheria-sicurezza-alleanza-2026-v1513-480.webp",
+          "sha256": "1812a61e34e73217334b46f4919a362caf1b80e6c120ec7c869ff6d1cdfcb793",
+          "bytes": 16892
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/nato-cavo-dragone-ungheria-sicurezza-alleanza-2026-v1513-800.webp",
+          "sha256": "84f57677ef03163bd1755b286fbe59cfdc01806c7f05bd22de48e1fb37d48fcf",
+          "bytes": 34024
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/nato-cavo-dragone-ungheria-sicurezza-alleanza-2026-v1513-1200.webp",
+          "sha256": "cfb3b9c7abc3c903ac9313772c83498b42611fbf6eb1fd2db082e2d24fdb23bb",
+          "bytes": 66940
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/nato-cavo-dragone-ungheria-sicurezza-alleanza-2026.html"
+    },
+    {
+      "alt": "Sosia realistico di Radmila Shekerinska in posa neutra in una sala tecnologica NATO.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/nato-shekerinska-act-trasformazione-difesa-2026-v1513-480.webp",
+          "sha256": "6b7176409396b295e452504528ae46800d7aa3f8357960bc9f58831b3a8f86ec",
+          "bytes": 24340
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/nato-shekerinska-act-trasformazione-difesa-2026-v1513-800.webp",
+          "sha256": "2e9df508615a26d48b3c6644d20d7328f49ceb8af400ef98b6b7bc524e2b8c84",
+          "bytes": 47914
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/nato-shekerinska-act-trasformazione-difesa-2026-v1513-1200.webp",
+          "sha256": "2c79a2682646625e64d092cd147e9007dc4510c3305eeae24649cca3c3988132",
+          "bytes": 78730
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/nato-shekerinska-act-trasformazione-difesa-2026.html"
+    },
+    {
+      "alt": "Centro logistico ordinato con tecnici anonimi e mezzi da trasporto, senza armi o azioni militari.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/nato-logistica-prontezza-comitato-2026-v1513-480.webp",
+          "sha256": "d642071d1e8560eaca03ba5a4e658b07a7ba37ea7f5404bb0d4213c8fdb8059d",
+          "bytes": 36970
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/nato-logistica-prontezza-comitato-2026-v1513-800.webp",
+          "sha256": "637dedf37e7bb707dfb45832cb0bc4e3ede6a20e7caf9ab69775dfc5deaea8bc",
+          "bytes": 77600
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/nato-logistica-prontezza-comitato-2026-v1513-1200.webp",
+          "sha256": "4493ebc47f155baad1bfb22b07a669f58a80722ada8effd3b34840a10f93724a",
+          "bytes": 133498
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/nato-logistica-prontezza-comitato-2026.html"
+    },
+    {
+      "alt": "Sosia realistici di Antonio Tajani e Piyush Goyal in posa diplomatica neutra alla Farnesina, con simboli corretti.",
+      "variants": [
+        {
+          "w": 480,
+          "src": "/assets/images/editorial-auto/italia-india-jcec-business-forum-roma-18-novembre-2026-v1513-480.webp",
+          "sha256": "b0e6ff5f8b3c74f5d16fccfe645e7dba7409b4296f956881786dd6667a82632f",
+          "bytes": 24628
+        },
+        {
+          "w": 800,
+          "src": "/assets/images/editorial-auto/italia-india-jcec-business-forum-roma-18-novembre-2026-v1513-800.webp",
+          "sha256": "4d342efd28f9f0110cea574b7e85c42eb991f03eaebd4b174aeb7f63e46942c9",
+          "bytes": 55880
+        },
+        {
+          "w": 1200,
+          "src": "/assets/images/editorial-auto/italia-india-jcec-business-forum-roma-18-novembre-2026-v1513-1200.webp",
+          "sha256": "25e9ffceda9f56381f4d6545bc22bd770f5631b69a730b31c0cd68881dee36c0",
+          "bytes": 111222
+        }
+      ],
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "aiGenerated": true,
+      "article": "/notizie/italia-india-jcec-business-forum-roma-18-novembre-2026.html"
+    },
     {
       "alt": "Somiglianza sintetica editoriale di Alex Vinatzer con la divisa italiana da sci alpino, ritratto frontalmente sulla pista di Levi.",
       "variants": [
@@ -139328,6 +140628,756 @@
     }
   ],
   "images": [
+    {
+      "slug": "vitisilva-agroforestazione-vigneti-lombardia-sei-aziende-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/vitisilva-agroforestazione-vigneti-lombardia-sei-aziende-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Vigneto lombardo sano con filari, alberi e agronomi anonimi in posa neutra, senza fenomeni estremi."
+    },
+    {
+      "slug": "allerta-gialla-16-novembre-2026-regioni-zone-rischio",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/allerta-gialla-16-novembre-2026-regioni-zone-rischio-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Scena meteorologica editoriale generica con strada bagnata e operatori della protezione civile visti da lontano, senza danni né persone in pericolo."
+    },
+    {
+      "slug": "settimana-cucina-italiana-mondo-farnesina-17-novembre-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/settimana-cucina-italiana-mondo-farnesina-17-novembre-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Sosia realistici dei ministri Tajani e Lollobrigida in posa neutra accanto a prodotti italiani, con simboli istituzionali corretti."
+    },
+    {
+      "slug": "progettodiventero-mondo-premiazione-new-york-stem-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/progettodiventero-mondo-premiazione-new-york-stem-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Studenti adulti anonimi e ricercatrice in posa neutra al Consolato italiano, con logo istituzionale corretto."
+    },
+    {
+      "slug": "fashion-frames-tbilisi-mostra-moda-cinema-35-abiti-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/fashion-frames-tbilisi-mostra-moda-cinema-35-abiti-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Sala museale con abiti da cinema su manichini completamente coperti e correttamente proporzionati, senza nudità."
+    },
+    {
+      "slug": "pixel-drop-novembre-2026-pixel-tag-gemini-wifi",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/pixel-drop-novembre-2026-pixel-tag-gemini-wifi-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Fotografia di prodotto editoriale con smartphone Pixel e piccolo localizzatore Pixel Tag su un tavolo, senza schermate o dati personali."
+    },
+    {
+      "slug": "agro-nocerino-sarnese-masterplan-30-milioni-13-comuni-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/agro-nocerino-sarnese-masterplan-30-milioni-13-comuni-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Tavolo tecnico con amministratori anonimi e mappa territoriale, in posa neutra e senza testo illeggibile."
+    },
+    {
+      "slug": "expoflora-torre-annunziata-27-29-novembre-2026-programma",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/expoflora-torre-annunziata-27-29-novembre-2026-programma-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Serra fieristica luminosa con florovivaisti anonimi in posa neutra e piante sane."
+    },
+    {
+      "slug": "atp-finals-torino-music-break-nek-15-novembre-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/atp-finals-torino-music-break-nek-15-novembre-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Ritratto editoriale neutro con somiglianza sintetica di Nek in un’arena da tennis vuota, logo ATP Finals accurato e discreto."
+    },
+    {
+      "slug": "raffaele-ciurnelli-primo-titolo-catania-15-novembre-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/raffaele-ciurnelli-primo-titolo-catania-15-novembre-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Sosia ultrarealistico di Raffaele Ciurnelli in posa neutra su un campo in terra rossa, con abbigliamento da tennis e logo FITP accurato."
+    },
+    {
+      "slug": "michele-ribecai-primo-challenger-hersonissos-15-novembre-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/michele-ribecai-primo-challenger-hersonissos-15-novembre-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Sosia ultrarealistico di Michele Ribecai in posa neutra su un campo in cemento, con abbigliamento originale da tennis e loghi accurati."
+    },
+    {
+      "slug": "juniores-scherma-classe-2012-risultati-la-spezia-terni-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/juniores-scherma-classe-2012-risultati-la-spezia-terni-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Due giovani schermidori anonimi completamente protetti in posa neutra e separata in palestra, con logo federale accurato e nessuna azione di contatto."
+    },
+    {
+      "slug": "ets-ceramica-emilia-romagna-benchmark-settore-accordo-ue-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/ets-ceramica-emilia-romagna-benchmark-settore-accordo-ue-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Interno editoriale di una fabbrica di ceramica moderna con operai anonimi in posa neutra e simboli UE discreti, senza fumi o incidenti."
+    },
+    {
+      "slug": "holostem-modena-licenziamento-collettivo-dipendenti-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/holostem-modena-licenziamento-collettivo-dipendenti-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Esterno editoriale neutro di un laboratorio biotecnologico generico con porte chiuse e nessuna persona o scena di protesta."
+    },
+    {
+      "slug": "per-tutte-le-volte-cortometraggio-voto-donne-bologna-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/per-tutte-le-volte-cortometraggio-voto-donne-bologna-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Ritratto editoriale neutro con somiglianza sintetica della regista Olga Torrico in una sala cinematografica vuota, senza locandine inventate."
+    },
+    {
+      "slug": "festa-alberi-bologna-19-novembre-2026-piante-gratuite",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/festa-alberi-bologna-19-novembre-2026-piante-gratuite-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Scena editoriale di un vivaio forestale con tecnici anonimi e giovani alberi in vaso, senza volti riconoscibili."
+    },
+    {
+      "slug": "stati-generali-via-francigena-sud-benevento-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/stati-generali-via-francigena-sud-benevento-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Camminatori anonimi completamente vestiti su un tratto rurale generico della Via Francigena nel Sud, segnaletica accurata e nessun luogo identificabile."
+    },
+    {
+      "slug": "puglia-patto-cura-2027-2029-domande-17-novembre-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/puglia-patto-cura-2027-2029-domande-17-novembre-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Scena editoriale rispettosa con caregiver e adulto con disabilità ripresi senza volto in un ambiente domestico accessibile, completamente vestiti e in posa neutra."
+    },
+    {
+      "slug": "natale-puglia-2026-due-milioni-capoluoghi-eventi",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/natale-puglia-2026-due-milioni-capoluoghi-eventi-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Piazza italiana meridionale generica con luci natalizie sobrie e famiglie anonime completamente vestite, senza marchi o luoghi riconoscibili."
+    },
+    {
+      "slug": "puglia-case-comunita-liste-attesa-fase-due-unita-crisi-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/puglia-case-comunita-liste-attesa-fase-due-unita-crisi-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Ingresso editoriale di una Casa di comunità moderna con personale sanitario anonimo completamente vestito in posa neutra, senza pazienti visibili."
+    },
+    {
+      "slug": "campania-rinnovabile-crescita-54-percento-dal-2020-rapporto-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/campania-rinnovabile-crescita-54-percento-dal-2020-rapporto-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Paesaggio collinare campano generico con turbine eoliche e pannelli solari proporzionati, senza persone o località riconoscibili."
+    },
+    {
+      "slug": "rio-sguazzatorio-rimozione-sedimenti-rischio-idraulico-campania-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/rio-sguazzatorio-rimozione-sedimenti-rischio-idraulico-campania-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Scena editoriale di manutenzione fluviale controllata con escavatore fermo e tecnici anonimi distanti dall’acqua, senza alluvioni o danni."
+    },
+    {
+      "slug": "campania-imprese-myplant-garden-2027-domande-fieramilano",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/campania-imprese-myplant-garden-2027-domande-fieramilano-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Stand fieristico florovivaistico moderno con piante reali, espositori anonimi in posa neutra e loghi regionali accurati."
+    },
+    {
+      "slug": "tempio-segesta-vibrazioni-stato-conservazione-architrave-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/tempio-segesta-vibrazioni-stato-conservazione-architrave-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Veduta editoriale rispettosa del tempio dorico di Segesta con sensore scientifico in primo piano, nessuna persona e nessun danno enfatizzato."
+    },
+    {
+      "slug": "volume-corinto-siracusa-scambi-culti-paolo-orsi-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/volume-corinto-siracusa-scambi-culti-paolo-orsi-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Tavolo editoriale nel Museo Paolo Orsi con volume chiuso, reperti sullo sfondo e nessuna persona o testo illeggibile."
+    },
+    {
+      "slug": "sicilia-elenchi-coadiutori-controllo-suidi-selvatici-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/sicilia-elenchi-coadiutori-controllo-suidi-selvatici-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Tecnici faunistici anonimi completamente vestiti in posa neutra davanti a un monitor con sagoma di cinghiale, senza armi o animali in pericolo."
+    },
+    {
+      "slug": "puglia-dote-autonomia-donne-centri-antiviolenza-500mila-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/puglia-dote-autonomia-donne-centri-antiviolenza-500mila-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Scena editoriale rispettosa con due donne anonime completamente vestite in un ufficio di consulenza, riprese senza volto e in posa neutra."
+    },
+    {
+      "slug": "puglia-avviso-rete-centri-famiglia-rafforzamento-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/puglia-avviso-rete-centri-famiglia-rafforzamento-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Ufficio pubblico luminoso con una famiglia anonima completamente vestita e un’operatrice in posa neutra, senza volti riconoscibili."
+    },
+    {
+      "slug": "stati-generali-sport-campania-22-novembre-2026-napoli",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/stati-generali-sport-campania-22-novembre-2026-napoli-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Sosia realistici e rispettosi di Pino Porzio e Angela Procida in posa neutra, con abbigliamento sportivo corretto e loghi ufficiali."
+    },
+    {
+      "slug": "atlantic-future-forum-oslo-sicurezza-artico-30-paesi-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/atlantic-future-forum-oslo-sicurezza-artico-30-paesi-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Delegati anonimi in posa neutra su una nave ormeggiata a Oslo, senza armi o scene operative."
+    },
+    {
+      "slug": "regno-unito-strumento-online-confronto-scuole-primarie-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/regno-unito-strumento-online-confronto-scuole-primarie-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Genitori adulti anonimi davanti a un computer orientato correttamente con interfaccia scolastica senza dati personali."
+    },
+    {
+      "slug": "birstall-rifiuti-illegali-mille-tonnellate-indagine-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/birstall-rifiuti-illegali-mille-tonnellate-indagine-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Area industriale messa in sicurezza con ispettori anonimi in posa neutra, senza montagne di rifiuti o scene sensibili."
+    },
+    {
+      "slug": "royal-navy-sommergibilisti-rientro-pattugliamento-deterrenza-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/royal-navy-sommergibilisti-rientro-pattugliamento-deterrenza-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Sommergibilisti anonimi completamente vestiti riuniti con le famiglie in una base portuale, senza armi o dettagli operativi."
+    },
+    {
+      "slug": "regno-unito-80mila-coltelli-rimossi-strade-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/regno-unito-80mila-coltelli-rimossi-strade-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Tavolo di una sala prove con contenitori di sicurezza chiusi e agenti anonimi in posa neutra, senza armi visibili."
+    },
+    {
+      "slug": "regno-unito-nuovo-carcere-1700-posti-2029",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/regno-unito-nuovo-carcere-1700-posti-2029-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Rendering editoriale neutro di un moderno complesso istituzionale visto dall’esterno, senza detenuti né scene sensibili."
+    },
+    {
+      "slug": "iss-esperimenti-botanica-biomedicina-cargo-13-novembre-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/iss-esperimenti-botanica-biomedicina-cargo-13-novembre-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Sosia realistici di due astronauti di Expedition 75 in posa neutra accanto a un modulo botanico della ISS."
+    },
+    {
+      "slug": "regno-unito-ucraina-dialogo-strategico-cooperazione-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/regno-unito-ucraina-dialogo-strategico-cooperazione-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Delegazioni britannica e ucraina in posa neutra a un tavolo istituzionale, senza ambientazioni di guerra."
+    },
+    {
+      "slug": "regno-unito-nuove-linee-guida-tutela-minori-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/regno-unito-nuove-linee-guida-tutela-minori-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Riunione professionale tra operatori anonimi in un ufficio pubblico, senza minori o scene sensibili."
+    },
+    {
+      "slug": "fao-finanza-climatica-agricoltura-piu-risorse-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/fao-finanza-climatica-agricoltura-piu-risorse-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Tecnici agricoli anonimi in posa neutra davanti a colture sane e strumenti di misurazione, con logo FAO corretto."
+    },
+    {
+      "slug": "fao-piattaforma-finanziamento-rischio-disastri-3-miliardi-2030",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/fao-piattaforma-finanziamento-rischio-disastri-3-miliardi-2030-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Sala operativa per il rischio climatico con tecnici anonimi e mappe non sensibili, senza immagini di disastri."
+    },
+    {
+      "slug": "libano-insicurezza-alimentare-agricoltura-fao-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/libano-insicurezza-alimentare-agricoltura-fao-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Mercato alimentare ordinato con agricoltori e commercianti anonimi in posa neutra, senza persone sofferenti."
+    },
+    {
+      "slug": "fao-guida-produrre-di-piu-con-meno-risorse-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/fao-guida-produrre-di-piu-con-meno-risorse-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Campo agricolo sano con agronomo anonimo e impianto di irrigazione efficiente, in posa neutra."
+    },
+    {
+      "slug": "fao-programma-oceani-puliti-sani-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/fao-programma-oceani-puliti-sani-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Ricercatori marini anonimi su un molo pulito con strumenti scientifici, senza animali in pericolo."
+    },
+    {
+      "slug": "fao-agricoltura-digitale-ecosistemi-servizi-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/fao-agricoltura-digitale-ecosistemi-servizi-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Agronoma anonima in campo con sensore e tablet orientato correttamente, in posa neutra."
+    },
+    {
+      "slug": "aiei-mihama-sicurezza-esercizio-lungo-termine-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/aiei-mihama-sicurezza-esercizio-lungo-termine-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Tecnici anonimi in una sala controllo nucleare ordinata, in posa neutra e senza allarmi."
+    },
+    {
+      "slug": "aiei-world-fusion-outlook-2026-investimenti-80-miliardi",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/aiei-world-fusion-outlook-2026-investimenti-80-miliardi-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Laboratorio di fusione con scienziati anonimi in posa neutra e apparecchiature fisicamente realistiche."
+    },
+    {
+      "slug": "nato-cavo-dragone-ungheria-sicurezza-alleanza-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/nato-cavo-dragone-ungheria-sicurezza-alleanza-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Sosia realistico di Giuseppe Cavo Dragone in posa istituzionale neutra con uniforme corretta e logo NATO."
+    },
+    {
+      "slug": "nato-shekerinska-act-trasformazione-difesa-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/nato-shekerinska-act-trasformazione-difesa-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Sosia realistico di Radmila Shekerinska in posa neutra in una sala tecnologica NATO."
+    },
+    {
+      "slug": "nato-logistica-prontezza-comitato-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/nato-logistica-prontezza-comitato-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Centro logistico ordinato con tecnici anonimi e mezzi da trasporto, senza armi o azioni militari."
+    },
+    {
+      "slug": "italia-india-jcec-business-forum-roma-18-novembre-2026",
+      "version": 1513,
+      "path": "/assets/images/editorial-auto/italia-india-jcec-business-forum-roma-18-novembre-2026-v1513-1200.webp",
+      "variants": [
+        480,
+        800,
+        1200
+      ],
+      "aiGenerated": true,
+      "sensitiveContext": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "date": "2026-11-16",
+      "alt": "Sosia realistici di Antonio Tajani e Piyush Goyal in posa diplomatica neutra alla Farnesina, con simboli corretti."
+    },
     {
       "slug": "alex-vinatzer-quinto-slalom-levi-rimonta-18-posizioni-2026",
       "version": 1511,
