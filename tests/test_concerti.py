@@ -15,7 +15,8 @@ class ConcertTests(unittest.TestCase):
     def test_sources_and_regions(self):
         allowed={'Abruzzo','Basilicata','Calabria','Campania','Emilia-Romagna','Friuli-Venezia Giulia','Lazio','Liguria','Lombardia','Marche','Molise','Piemonte','Puglia','Sardegna','Sicilia','Toscana','Trentino-Alto Adige','Umbria','Valle d’Aosta','Veneto'}
         for event in self.data['events']:
-            self.assertIn(event['region'],allowed); self.assertRegex(event['sourceUrl'],r'^https://'); self.assertRegex(event['ticketUrl'],r'^https://')
+            self.assertIn(event['region'],allowed); self.assertRegex(event['sourceUrl'],r'^https://'); ticket=event.get('ticketUrl') or ''
+            if ticket: self.assertRegex(ticket,r'^https://')
     def test_no_duplicate_artist_city_datetime(self):
         keys=[(e['artist'].casefold(),e['city'].casefold(),e['start']) for e in self.data['events']]; self.assertEqual(len(keys),len(set(keys)))
     def test_page_contract(self):

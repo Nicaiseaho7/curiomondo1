@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "meta": {
     "timezone": "Europe/Rome",
-    "lastVerified": "2026-11-15T17:48:00+01:00",
-    "verificationLabel": "15 novembre 2026 alle ore 17:48",
+    "lastVerified": "2026-11-16T22:48:00+01:00",
+    "verificationLabel": "16 novembre 2026 alle ore 22:48",
     "dataPolicy": "Sono pubblicati soltanto dati riscontrati in calendari o comunicazioni ufficiali. I campi non disponibili sono indicati come Non comunicato.",
     "officialSources": [
       {
@@ -316,7 +316,7 @@
         "valle-d-aosta",
         "veneto"
       ],
-      "verifiedAt": "2026-11-15T09:42:00+01:00",
+      "verifiedAt": "2026-11-16T22:48:00+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
@@ -367,7 +367,7 @@
         "valle-d-aosta",
         "veneto"
       ],
-      "verifiedAt": "2026-11-15T09:42:00+01:00",
+      "verifiedAt": "2026-11-16T22:48:00+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
@@ -422,52 +422,7 @@
         "valle-d-aosta",
         "veneto"
       ],
-      "verifiedAt": "2026-11-15T09:42:00+01:00",
-      "source": {
-        "label": "Calendario ufficiale MIT",
-        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
-      },
-      "article": null
-    },
-    {
-      "id": "mit-2026-11-22-enav-malpensa",
-      "title": "Sciopero del personale ENAV dell’aeroporto di Milano Malpensa",
-      "startDate": "2026-11-22",
-      "endDate": "2026-11-22",
-      "startsAt": "2026-11-22T00:01:00+01:00",
-      "endsAt": "2026-11-22T23:59:00+01:00",
-      "scheduleText": "24 ore, dalle 00:01 alle 24:00",
-      "sector": "aerei",
-      "sectorLabel": "Trasporto aereo",
-      "territory": "Aeroporto di Milano Malpensa",
-      "services": "Personale ENAV dell’aeroporto di Milano Malpensa",
-      "organizations": "RSA FAST-CONFSAL-AV",
-      "status": "proclamato",
-      "guarantees": "Il calendario MIT indica come garantiti i voli da e per l’aeroporto di Bari",
-      "national": true,
-      "regions": [
-        "abruzzo",
-        "basilicata",
-        "calabria",
-        "campania",
-        "emilia-romagna",
-        "friuli-venezia-giulia",
-        "lazio",
-        "liguria",
-        "lombardia",
-        "marche",
-        "molise",
-        "piemonte",
-        "puglia",
-        "sardegna",
-        "sicilia",
-        "toscana",
-        "trentino-alto-adige",
-        "umbria",
-        "valle-d-aosta",
-        "veneto"
-      ],
-      "verifiedAt": "2026-11-15T09:42:00+01:00",
+      "verifiedAt": "2026-11-16T22:48:00+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
@@ -493,7 +448,130 @@
       "regions": [
         "veneto"
       ],
-      "verifiedAt": "2026-11-15T09:42:00+01:00",
+      "verifiedAt": "2026-11-16T22:48:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-11-22-enav-malpensa",
+      "title": "Sciopero del personale ENAV dell’aeroporto di Milano Malpensa",
+      "startDate": "2026-11-22",
+      "endDate": "2026-11-22",
+      "startsAt": "2026-11-22T00:01:00+01:00",
+      "endsAt": "2026-11-22T23:59:00+01:00",
+      "scheduleText": "24 ore, dalle 00:01 alle 24:00",
+      "sector": "aerei",
+      "sectorLabel": "Trasporto aereo",
+      "territory": "Aeroporto di Milano Malpensa",
+      "services": "Personale ENAV dell’aeroporto di Milano Malpensa",
+      "organizations": "RSA FAST-CONFSAL-AV",
+      "status": "proclamato",
+      "guarantees": "Il calendario MIT indica come garantiti i voli da e per l’aeroporto di Bari",
+      "national": false,
+      "regions": [
+        "lombardia"
+      ],
+      "verifiedAt": "2026-11-16T22:48:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-12-04-generale-cub-adl-sgb-sbm-sgc-sicobas",
+      "title": "Sciopero generale delle categorie pubbliche e private",
+      "startDate": "2026-12-03",
+      "endDate": "2026-12-04",
+      "startsAt": "2026-12-03T21:00:00+01:00",
+      "endsAt": "2026-12-04T23:59:00+01:00",
+      "scheduleText": "Intera giornata del 4 dicembre; ferroviario dalle 21:00 del 3 alle 21:00 del 4; autostrade dalle 22:00 del 3 alle 22:00 del 4; modalità territoriali per il TPL; modalità del comparto aereo non comunicate",
+      "sector": "altri",
+      "sectorLabel": "Sciopero generale",
+      "territory": "Tutta Italia",
+      "services": "Categorie pubbliche e private; comparti ferroviario, autostradale, aereo e trasporto pubblico locale secondo le modalità ufficiali",
+      "organizations": "CUB / ADL Varese / SGB / SBM / SGC / SI-COBAS; adesione AL-COBAS e LMO",
+      "status": "proclamato",
+      "guarantees": "Servizi minimi e fasce garantite da verificare nelle comunicazioni dei singoli operatori",
+      "national": true,
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
+      "verifiedAt": "2026-11-16T22:48:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-12-14-aviation-services-roma",
+      "title": "Sciopero del personale Aviation Services negli aeroporti di Fiumicino e Ciampino",
+      "startDate": "2026-12-14",
+      "endDate": "2026-12-14",
+      "startsAt": "2026-12-14T00:00:00+01:00",
+      "endsAt": "2026-12-14T23:59:00+01:00",
+      "scheduleText": "24 ore, dalle 00:00 alle 24:00",
+      "sector": "aerei",
+      "sectorLabel": "Trasporto aereo",
+      "territory": "Aeroporti di Roma Fiumicino e Ciampino",
+      "services": "Personale Aviation Services impiegato negli aeroporti di Fiumicino e Ciampino",
+      "organizations": "OSR FAST-CONFSAL",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": false,
+      "regions": [
+        "lazio"
+      ],
+      "verifiedAt": "2026-11-16T22:48:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-12-15-enav-bologna",
+      "title": "Sciopero del personale ENAV dell’aeroporto di Bologna",
+      "startDate": "2026-12-15",
+      "endDate": "2026-12-15",
+      "startsAt": "2026-12-15T00:00:00+01:00",
+      "endsAt": "2026-12-15T23:59:00+01:00",
+      "scheduleText": "24 ore, dalle 00:00 alle 24:00",
+      "sector": "aerei",
+      "sectorLabel": "Trasporto aereo",
+      "territory": "Aeroporto di Bologna",
+      "services": "Personale ENAV dell’aeroporto di Bologna",
+      "organizations": "RSA UILT-UIL",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": false,
+      "regions": [
+        "emilia-romagna"
+      ],
+      "verifiedAt": "2026-11-16T22:48:00+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"

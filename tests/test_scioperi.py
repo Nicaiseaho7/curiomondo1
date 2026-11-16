@@ -52,11 +52,11 @@ def test_events() -> None:
 
 
 def test_current_and_archive_split() -> None:
-    reference = datetime.fromisoformat("2026-11-15T09:42:00+01:00")
+    reference = datetime.fromisoformat("2026-11-16T22:48:00+01:00")
     current = [e for e in DATA["events"] if datetime.fromisoformat(e["endsAt"]) >= reference]
     archived = [e for e in DATA["events"] if datetime.fromisoformat(e["endsAt"]) < reference]
-    assert len(current) == 6
-    assert len(archived) == 4
+    assert len(current) == 8
+    assert len(archived) == 5
     assert not ({e["id"] for e in current} & {e["id"] for e in archived})
 
 
