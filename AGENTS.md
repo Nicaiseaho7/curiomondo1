@@ -307,7 +307,7 @@ la prima pubblicazione. Conservare l'ordine delle notizie del lotto e verificare
 il sito live dopo il deploy. Non spostare i gate dentro la build Netlify.
 
 ### Ultima ora — orario reale (16 novembre 2026)
-Ogni notizia tiene l’orario reale di pubblicazione. Non si spostano più gli orari per distanziarli. Nel riquadro **Ultima ora** non si mostra l’ora né la categoria. La scritta «Ultima ora» sta a sinistra, in rosso. Non c’è il segno «Nuova». La prima notizia ha il puntino che lampeggia. L’ora resta sull’articolo, nel dato strutturato, nella News Sitemap e nel feed.
+Ogni notizia tiene l’orario reale di pubblicazione. Non si spostano più gli orari per distanziarli. Nel riquadro **Ultima ora** non si mostra l’ora né la categoria. La scritta «Ultima ora» sta a sinistra, bianca su fondo rosso. Non c’è la riga nel riquadro e non c’è il segno «Nuova». La prima notizia ha il puntino che lampeggia. L’ora resta sull’articolo, nel dato strutturato, nella News Sitemap e nel feed.
 
 ## Immagini forze dell’ordine — niente targhe (27 settembre 2026)
 Nelle illustrazioni di auto di **Carabinieri, Polizia, Guardia di Finanza, ambulanza, vigili del fuoco** **non** inserire mai targhe (neppure inventate o sfocate leggibili). Paraurti pulito, senza riquadro targa. Vale anche per veicoli esteri di polizia.

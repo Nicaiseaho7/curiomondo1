@@ -734,6 +734,25 @@ html.cm-dark .cm-wire__list>li:first-child::before{
   .cm-wire__toggle{min-height:48px;padding:12px 14px 6px}
   .cm-wire__live{font-size:.74rem;letter-spacing:.14em}
 }
-@media(prefers-reduced-motion:reduce){
-  .cm-wire__list>li:first-child::before{animation:none;opacity:1}
+/* v552 — niente riga. «Ultima ora» bianca su fondo rosso, a sinistra. */
+.cm-wire::before{display:none}
+.cm-wire__list::before{display:none}
+.cm-wire__live{
+  margin:0 auto 0 0;
+  padding:7px 12px 6px;
+  border-radius:999px;
+  background:#d91824;
+  color:#fff;
+  box-shadow:0 8px 16px rgba(217,24,36,.24);
+  font-size:.74rem;
+  font-weight:800;
+  letter-spacing:.14em;
+}
+html.cm-dark .cm-wire__live{
+  background:#e11d2e;
+  color:#fff;
+  box-shadow:none;
+}
+@media(max-width:600px){
+  .cm-wire__live{font-size:.72rem;padding:6px 11px 5px}
 }
