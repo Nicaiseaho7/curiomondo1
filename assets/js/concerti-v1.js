@@ -178,8 +178,42 @@
       const dateLink = event.target.closest('.featured-card a'); if (dateLink) { const id = (dateLink.getAttribute('href') || '').slice(1); setTimeout(() => openFold(document.getElementById(id)), 40); }
     });
   }
+  function eventDescription(event) {
+    const place = [event.venue, event.city].filter(Boolean).join(', ');
+    const story = event.article && event.article.description;
+    if (story) return place ? `${story} Luogo: ${place}.` : story;
+    return [event.artist, event.tour || 'Evento', place].filter(Boolean).join(', ');
+  }
+  function eventOffer(event) {
+    if (event.ticketStatus !== 'free' || !event.ticketUrl) return undefined;
+    const validFrom = String(event.lastVerified || event.start || '').slice(0, 10);
+    return {'@type':'Offer', url:event.ticketUrl, price:'0', priceCurrency:'EUR', validFrom, availability:'https://schema.org/InStock'};
+  }
   function addEventSchema(events) {
-    const script = document.createElement('script'); script.type = 'application/ld+json'; script.textContent = JSON.stringify({'@context':'https://schema.org','@graph':events.slice(0,20).map(event => ({'@type':event.kind==='evento'?'Event':'MusicEvent','@id':`https://curiomondo.it/concerti/#${event.id}`,name:`${event.artist} – ${event.city}`,startDate:event.start,eventStatus:'https://schema.org/EventScheduled',location:{'@type':'Place',name:event.venue,address:{'@type':'PostalAddress',addressLocality:event.city,addressRegion:event.region,addressCountry:'IT'}},performer:{'@type':'MusicGroup',name:event.artist},offers:event.ticketUrl?{'@type':'Offer',url:event.ticketUrl,availability:event.ticketStatus==='sold-out'?'https://schema.org/SoldOut':'https://schema.org/InStock'}:undefined,url:`https://curiomondo.it/concerti/#${event.id}`}))}); document.head.appendChild(script);
+    const graph = events.slice(0, 20).map(event => {
+      const page = `https://curiomondo.it/concerti/#${event.id}`;
+      const item = {
+        '@type': event.kind === 'evento' ? 'Event' : 'MusicEvent',
+        '@id': page,
+        name: `${event.artist} – ${event.city}`,
+        description: eventDescription(event),
+        startDate: event.start,
+        eventStatus: 'https://schema.org/EventScheduled',
+        eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+        url: page,
+        location: {'@type':'Place', name:event.venue, address:{'@type':'PostalAddress', addressLocality:event.city, addressRegion:event.region, addressCountry:'IT'}},
+        organizer: {'@type':'Organization', name:event.artist, url:event.sourceUrl || page},
+        performer: {'@type': event.kind === 'evento' ? 'Organization' : 'MusicGroup', name:event.artist}
+      };
+      if (event.end) item.endDate = event.end;
+      const offer = eventOffer(event);
+      if (offer) item.offers = offer;
+      return item;
+    });
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify({'@context':'https://schema.org', '@graph':graph});
+    document.head.appendChild(script);
   }
   function openFold(target) { let node = target; while (node) { if (node.tagName === 'DETAILS') node.open = true; node = node.parentElement; } }
   function handleHash() { if (!location.hash) return; const target = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (target) { openFold(target); setTimeout(() => target.scrollIntoView({behavior:'smooth',block:'center'}),120); } }
