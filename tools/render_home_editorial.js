@@ -84,8 +84,7 @@ const carousel = (entries) => {
 
 const ultimaOra = (entries) => {
   const items = entries.slice(0, 10).map((entry, index) => {
-    const mark = index === 0 ? '<span class="cm-wire__mark">Nuova</span>' : '';
-    return `<li><a class="cm-wire__item${index === 0 ? ' is-latest' : ''}" href="${esc(entry.url)}">${mark}<span class="cm-wire__title">${updateFlag(entry)}${esc(entry.title)}</span></a></li>`;
+    return `<li><a class="cm-wire__item${index === 0 ? ' is-latest' : ''}" href="${esc(entry.url)}"><span class="cm-wire__title">${updateFlag(entry)}${esc(entry.title)}</span></a></li>`;
   }).join('');
   return `<section class="cm-wire" id="cm-ultima-ora" aria-label="Ultima ora"><details class="cm-wire__details"><summary class="cm-wire__toggle"><span class="cm-wire__live">Ultima ora</span><span class="cm-wire__chevron" aria-hidden="true"></span></summary></details><ol class="cm-wire__list">${items}</ol><a class="cm-wire__more" href="/notizie/">Tutte le notizie</a></section>`;
 };

@@ -682,3 +682,58 @@ html.cm-dark .cm-wire__live{
 @media(prefers-reduced-motion:reduce){
   .cm-featured-carousel .cm-topic-lead picture{transform:none;box-shadow:0 10px 22px rgba(15,32,52,.16)}
 }
+
+/* v551 — «Ultima ora» a sinistra, in rosso. Il puntino della prima notizia lampeggia. */
+.cm-wire__toggle{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  position:relative;
+  gap:12px;
+  min-height:52px;
+  padding:14px 16px 8px;
+}
+.cm-wire__live{
+  position:static;
+  top:auto;
+  right:auto;
+  transform:none;
+  display:inline-flex;
+  align-items:center;
+  margin:0 auto 0 0;
+  padding:0;
+  border-radius:0;
+  background:none;
+  box-shadow:none;
+  color:#d91824;
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:.16em;
+  line-height:1;
+  text-transform:uppercase;
+  white-space:nowrap;
+}
+.cm-wire__live::before{content:none;display:none;animation:none}
+.cm-wire__mark{display:none}
+.cm-wire__list>li:first-child::before{
+  background:#e11d2e;
+  border-color:#e11d2e;
+  animation:cm-wire-dot-blink 1.05s ease-in-out infinite;
+}
+@keyframes cm-wire-dot-blink{
+  0%,100%{opacity:1}
+  50%{opacity:.15}
+}
+html.cm-dark .cm-wire__live{background:none;color:#ff5a66;box-shadow:none}
+html.cm-dark .cm-wire__list>li:first-child::before{
+  background:#ff5a66;
+  border-color:#ff5a66;
+  box-shadow:0 0 0 3px #0e1c30;
+}
+@media(max-width:600px){
+  .cm-wire__toggle{min-height:48px;padding:12px 14px 6px}
+  .cm-wire__live{font-size:.74rem;letter-spacing:.14em}
+}
+@media(prefers-reduced-motion:reduce){
+  .cm-wire__list>li:first-child::before{animation:none;opacity:1}
+}

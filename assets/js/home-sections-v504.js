@@ -204,10 +204,7 @@
       const item = el('li');
       const link = el('a', 'cm-wire__item');
       link.href = entry.url;
-      if (index === 0) {
-        link.classList.add('is-latest');
-        link.append(el('span', 'cm-wire__mark', 'Nuova'));
-      }
+      if (index === 0) link.classList.add('is-latest');
       link.append(el('span', 'cm-wire__title', entry.title));
       item.append(link);
       list.append(item);
