@@ -682,3 +682,20 @@ html.cm-dark .cm-wire__live{
 @media(prefers-reduced-motion:reduce){
   .cm-featured-carousel .cm-topic-lead picture{transform:none;box-shadow:0 10px 22px rgba(15,32,52,.16)}
 }
+
+/* v549 — le scritte si sbriciolano prima di aprire l’articolo. */
+.cm-crumble-layer{position:fixed;inset:0;z-index:60;pointer-events:none;overflow:hidden}
+.cm-crumble-bit,.cm-crumble-dust{
+  position:fixed;
+  display:block;
+  margin:0;
+  white-space:pre;
+  transform-origin:center center;
+  animation:cm-crumble-fall .7s cubic-bezier(.18,.55,.32,1) forwards;
+}
+.cm-crumble-dust{width:3px;height:3px;border-radius:1px}
+@keyframes cm-crumble-fall{
+  0%{transform:translate(0,0) rotate(0) scale(1);opacity:1}
+  28%{opacity:1}
+  100%{transform:translate(var(--dx),var(--dy)) rotate(var(--dr)) scale(.62);opacity:0}
+}
