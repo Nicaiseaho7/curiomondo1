@@ -195,14 +195,10 @@
     block.setAttribute('aria-label', 'Ultima ora');
     const details = el('details', 'cm-wire__details');
     const summary = el('summary', 'cm-wire__toggle');
-    const kicker = el('span', 'cm-wire__kicker');
-    const dot = el('span', 'cm-wire__dot');
-    dot.setAttribute('aria-hidden', 'true');
-    kicker.append(dot, el('span', '', 'Ultima ora'));
-    const live = el('span', 'cm-wire__live', 'In aggiornamento');
+    const live = el('span', 'cm-wire__live', 'Ultima ora');
     const chevron = el('span', 'cm-wire__chevron');
     chevron.setAttribute('aria-hidden', 'true');
-    summary.append(kicker, live, chevron);
+    summary.append(live, chevron);
     const list = el('ol', 'cm-wire__list');
     entries.slice(0, 10).forEach((entry, index) => {
       const item = el('li');
