@@ -82,12 +82,19 @@ const carousel = (entries) => {
   return `<section class="cm-featured-carousel" aria-label="Notizie in primo piano"><div class="cm-featured-carousel__viewport" tabindex="0"><div class="cm-featured-carousel__track">${slides}</div></div><div class="cm-featured-carousel__controls"><button class="cm-featured-carousel__arrow" type="button" aria-label="Notizia precedente">←</button><div class="cm-featured-carousel__dots">${dots}</div><button class="cm-featured-carousel__arrow" type="button" aria-label="Notizia successiva">→</button></div></section>`;
 };
 
+const wireMark = (entry, index) => {
+  if (index === 0) return 'Nuova';
+  const raw = String(entry.section || 'Notizia');
+  const part = raw.split('/').pop().trim() || 'Notizia';
+  const word = part.split(/\s+/)[0];
+  return word.length > 10 ? word.slice(0, 9) : word;
+};
+
 const ultimaOra = (entries) => {
-  const items = entries.slice(0, 10).map((entry) => {
-    const raw = entry.firstPublishedAt || entry.dateISO || '';
-    return `<li><a class="cm-wire__item" href="${esc(entry.url)}"><time class="cm-wire__time" datetime="${esc(raw)}">${esc(hourLabel(entry))}</time><span class="cm-wire__title">${updateFlag(entry)}${esc(entry.title)}</span></a></li>`;
-  }).join('');
-  return `<section class="cm-wire" id="cm-ultima-ora" aria-label="Ultima ora"><details class="cm-wire__details"><summary class="cm-wire__toggle"><span class="cm-wire__kicker"><span class="cm-wire__dot" aria-hidden="true"></span><span>Ultima ora</span></span><span class="cm-wire__chevron" aria-hidden="true"></span></summary></details><ol class="cm-wire__list">${items}</ol><a class="cm-wire__more" href="/notizie/">Tutte le notizie</a></section>`;
+  const items = entries.slice(0, 10).map((entry, index) => (
+    `<li><a class="cm-wire__item${index === 0 ? ' is-latest' : ''}" href="${esc(entry.url)}"><span class="cm-wire__mark">${esc(wireMark(entry, index))}</span><span class="cm-wire__title">${updateFlag(entry)}${esc(entry.title)}</span></a></li>`
+  )).join('');
+  return `<section class="cm-wire" id="cm-ultima-ora" aria-label="Ultima ora"><details class="cm-wire__details"><summary class="cm-wire__toggle"><span class="cm-wire__kicker"><span class="cm-wire__dot" aria-hidden="true"></span><span>Ultima ora</span><span class="cm-wire__live">in aggiornamento</span></span><span class="cm-wire__chevron" aria-hidden="true"></span></summary></details><ol class="cm-wire__list">${items}</ol><a class="cm-wire__more" href="/notizie/">Tutte le notizie</a></section>`;
 };
 
 const section = ({ category, lead, cards }) => {

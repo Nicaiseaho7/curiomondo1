@@ -189,16 +189,12 @@
     link.append(body);
     return link;
   };
-  const hourLabel = (entry) => {
-    const date = A.firstPublished(entry);
-    if (!date) return '';
-    const zone = A.CONFIG.timeZone;
-    if (A.zonedDay(date, zone) === A.zonedDay(new Date(), zone)) {
-      const parts = new Intl.DateTimeFormat('it-IT', { timeZone: zone, hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(date);
-      const pick = (type) => parts.find((part) => part.type === type)?.value || '';
-      return pick('hour') + ':' + pick('minute');
-    }
-    return new Intl.DateTimeFormat('it-IT', { timeZone: zone, day: 'numeric', month: 'short' }).format(date).replace('.', '');
+  const wireMark = (entry, index) => {
+    if (index === 0) return 'Nuova';
+    const raw = String(entry.section || 'Notizia');
+    const part = raw.split('/').pop().trim() || 'Notizia';
+    const word = part.split(/\s+/)[0];
+    return word.length > 10 ? word.slice(0, 9) : word;
   };
   const ultimaOra = (entries) => {
     const block = el('section', 'cm-wire');
@@ -209,18 +205,17 @@
     const kicker = el('span', 'cm-wire__kicker');
     const dot = el('span', 'cm-wire__dot');
     dot.setAttribute('aria-hidden', 'true');
-    kicker.append(dot, el('span', '', 'Ultima ora'));
+    kicker.append(dot, el('span', '', 'Ultima ora'), el('span', 'cm-wire__live', 'in aggiornamento'));
     const chevron = el('span', 'cm-wire__chevron');
     chevron.setAttribute('aria-hidden', 'true');
     summary.append(kicker, chevron);
     const list = el('ol', 'cm-wire__list');
-    entries.slice(0, 10).forEach((entry) => {
+    entries.slice(0, 10).forEach((entry, index) => {
       const item = el('li');
       const link = el('a', 'cm-wire__item');
       link.href = entry.url;
-      const stamp = el('time', 'cm-wire__time', hourLabel(entry));
-      stamp.dateTime = entry.firstPublishedAt || entry.dateISO || '';
-      link.append(stamp, el('span', 'cm-wire__title', entry.title));
+      if (index === 0) link.classList.add('is-latest');
+      link.append(el('span', 'cm-wire__mark', wireMark(entry, index)), el('span', 'cm-wire__title', entry.title));
       item.append(link);
       list.append(item);
     });

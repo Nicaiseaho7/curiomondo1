@@ -274,9 +274,27 @@ html.cm-dark .cm-wire__chevron{border-color:#8eb6ff}
   .cm-wire__item{grid-template-columns:3.45rem minmax(0,1fr);gap:8px}
   .cm-wire__panel{padding:0 6px 4px}
 }
-@media(prefers-reduced-motion:reduce){
-  .cm-wire__chevron{transition:none}
+.cm-wire__live{
+  color:#5d7390;
+  font-size:.68rem;
+  font-weight:650;
+  letter-spacing:.01em;
+  text-transform:none;
 }
+.cm-wire__live::before{content:"·";margin:0 6px;color:#245fd6}
+.cm-wire__mark{
+  color:#245fd6;
+  font-size:.68rem;
+  font-weight:800;
+  letter-spacing:.04em;
+  line-height:1.2;
+  text-transform:uppercase;
+}
+.cm-wire__item.is-latest .cm-wire__mark{color:#d91824}
+html.cm-dark .cm-wire__live{color:#9eb0c6}
+html.cm-dark .cm-wire__mark{color:#8eb6ff}
+html.cm-dark .cm-wire__item.is-latest .cm-wire__mark{color:#ff8d94}
+
 
 /* Marchio in testata: più grande e nitido, stessi colori. */
 .header .cm-wordmark{
