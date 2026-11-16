@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-16T07:02:00+01:00",
+  "lastVerified": "2026-11-16T16:22:00+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -1697,6 +1697,83 @@
         "description": "La partita è alle 21. I biglietti restano acquistabili solo da residenti in Italia.",
         "image": "/assets/images/editorial-sport-v1514/virtus-panathinaikos-biglietti-residenti-italia-17-novembre-2026-v1514-1200.webp"
       }
+    },
+    {
+      "id": "comando-generale-carabinieri-roma-2026-11-21",
+      "artist": "Visite al Comando generale dei carabinieri",
+      "tour": "Apertura straordinaria",
+      "start": "2026-11-21T10:00:00+01:00",
+      "end": "2026-11-21T13:00:00+01:00",
+      "city": "Roma",
+      "province": "RM",
+      "region": "Lazio",
+      "venue": "Comando generale, viale Romania 45; accesso accessibile da via Oxilia",
+      "genre": "Visita guidata",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "featured": false,
+      "sourceUrl": "https://www.carabinieri.it/in-vostro-aiuto/informazioni/comunicati-stampa/il-comando-generale-dell%27arma-dei-carabinieri-apre-nuovamente-le-porte-al-pubblico",
+      "ticketUrl": null,
+      "lastVerified": "2026-11-16T15:03:16+01:00",
+      "note": "Tour di circa 45 minuti, partenze ogni 30 minuti e ultimo ingresso alle 12:30. Prenotazione consigliata: museo.storico@carabinieri.it.",
+      "article": {
+        "url": "/notizie/roma-comando-carabinieri-visite-21-novembre-2026.html",
+        "title": "Roma, visite al Comando generale dei carabinieri il 21 novembre: come prenotare",
+        "description": "Tour di circa 45 minuti fra le 10 e le 13, ultimo ingresso alle 12:30. Accesso anche da via Oxilia; richiesta anticipata consigliata via email.",
+        "image": "/assets/images/editorial-auto/roma-comando-carabinieri-visite-21-novembre-2026-v1518-800.webp"
+      }
+    },
+    {
+      "id": "pirelli-supplier-day-milano-2026-11-16",
+      "artist": "Pirelli Supplier Day 2026",
+      "tour": "Incontro con i fornitori",
+      "start": "2026-11-16",
+      "end": null,
+      "city": "Milano",
+      "province": "MI",
+      "region": "Lombardia",
+      "venue": "Sede Pirelli, Bicocca",
+      "genre": "Incontro professionale",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "featured": false,
+      "sourceUrl": "https://press.pirelli.com/it/pirelli-supplier-day-2026-premiati-i-migliori-fornitori-per-innovazione-digital-transformation-approvvigionamento-responsabile-qualita-eccellenza-e-livello-del-servizio/",
+      "ticketUrl": null,
+      "lastVerified": "2026-11-16T15:03:16+01:00",
+      "note": "Orario non comunicato nella notizia.",
+      "article": {
+        "url": "/notizie/pirelli-supplier-day-sette-fornitori-2026.html",
+        "title": "Pirelli premia sette fornitori: IA e materiali riciclati al centro della filiera",
+        "description": "Al Supplier Day presenti 90 partner di 22 Paesi. Riconoscimenti per qualità, innovazione, sostenibilità e continuità del servizio.",
+        "image": "/assets/images/editorial-auto/pirelli-supplier-day-sette-fornitori-2026-v1518-800.webp"
+      },
+      "showTime": false
+    },
+    {
+      "id": "relind-milano-2026-11-16",
+      "artist": "RELIND – Forum delle relazioni industriali",
+      "tour": "Incontro sulle relazioni industriali",
+      "start": "2026-11-16",
+      "end": null,
+      "city": "Milano",
+      "province": "MI",
+      "region": "Lombardia",
+      "venue": "Sede Assolombarda",
+      "genre": "Incontro professionale",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "featured": false,
+      "sourceUrl": "https://www.assolombarda.it/media/comunicati-stampa/al-via-a-milano-il-forum-delle-relazioni-industriali-201cla-responsabilita-della-rappresentanza201d",
+      "ticketUrl": null,
+      "lastVerified": "2026-11-16T15:03:16+01:00",
+      "note": "Orario non comunicato nella notizia.",
+      "article": {
+        "url": "/notizie/assolombarda-sindacati-intesa-ia-lavoratori-2026.html",
+        "title": "Intelligenza artificiale in azienda, intesa Assolombarda-sindacati sul confronto preventivo",
+        "description": "L’accordo prevede formazione condivisa e una commissione paritetica territoriale. Aggiorna l’intesa del 2019 sulle trasformazioni tecnologiche.",
+        "image": "/assets/images/editorial-auto/assolombarda-sindacati-intesa-ia-lavoratori-2026-v1518-800.webp"
+      },
+      "showTime": false
     }
   ]
 }
