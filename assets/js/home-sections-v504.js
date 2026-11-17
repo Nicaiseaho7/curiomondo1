@@ -280,7 +280,6 @@
       smallCardsPerCategory: 11
     });
     const fragment = document.createDocumentFragment();
-    if (allocation.featuredItems && allocation.featuredItems.length) fragment.append(featuredCarousel(allocation.featuredItems));
     const previousWire = document.getElementById('cm-ultima-ora');
     if (previousWire) previousWire.remove();
     const ranked = items.slice().sort((a, b) => {
@@ -288,7 +287,11 @@
       const right = A.firstPublished(a);
       return (left ? left.getTime() : 0) - (right ? right.getTime() : 0);
     });
-    fragment.append(ultimaOra(ranked));
+    const featuredNow = ranked.slice(0, 3);
+    if (featuredNow.length) fragment.append(featuredCarousel(featuredNow));
+    // Le tre notizie in primo piano non si ripetono in Ultima ora.
+    const featuredUrls = new Set(featuredNow.map((entry) => entry.url));
+    fragment.append(ultimaOra(ranked.filter((entry) => !featuredUrls.has(entry.url))));
     allocation.sections.forEach((item) => fragment.append(section(item)));
     // Preserva la rail Curiosità e approfondimenti (max 10 card statiche, non derivate dal feed notizie)
     const curiositaKeep = document.getElementById('categoria-curiosita');

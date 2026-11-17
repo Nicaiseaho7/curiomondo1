@@ -244,11 +244,11 @@ const curiosita = curiositaRail();
 const orderedSections = sectionsHtml.includes('id="categoria-politica"')
   ? sectionsHtml.replace(/(<section class="cm-topic-section" data-category="politica"[\s\S]*?<\/section>)/, '$1' + curiosita)
   : sectionsHtml + curiosita;
-// Il gate editoriale richiede che il carosello parta sempre dalle tre
-// pubblicazioni più recenti, senza che gli override di allocazione possano
-// lasciare in testa articoli precedenti.
+// Le tre notizie in primo piano non si ripetono in Ultima ora.
 const newestFeatured = ranked.slice(0, 3);
-const html = `<div class="cm-home-editorial" id="cm-home-editorial-v504" data-static="ready">${carousel(newestFeatured)}${ultimaOra(ranked)}${orderedSections}</div>`;
+const featuredUrls = new Set(newestFeatured.map((entry) => entry.url));
+const wireEntries = ranked.filter((entry) => !featuredUrls.has(entry.url));
+const html = `<div class="cm-home-editorial" id="cm-home-editorial-v504" data-static="ready">${carousel(newestFeatured)}${ultimaOra(wireEntries)}${orderedSections}</div>`;
 
 const homePath = path.join(root, 'index.html');
 let home = fs.readFileSync(homePath, 'utf8');
