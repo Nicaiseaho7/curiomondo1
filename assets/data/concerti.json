@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-17T18:59:21+01:00",
+  "lastVerified": "2026-11-17T20:30:07+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -4570,6 +4570,81 @@
       "article": null,
       "sourceUrl": "https://www.friendsandpartners.it/news/tananai-annuncia-il-suo-ritorno-sul-palco-con-il-tananai-live-tour-2027",
       "ticketUrl": "https://www.ticketone.it/artist/tananai/"
+    },
+    {
+      "id": "futsal-femminile-novarello-2026-11-19",
+      "artist": "Nazionale futsal femminile",
+      "tour": "Raduno di Novarello, 19-25 novembre",
+      "start": "2026-11-19T00:00:00+01:00",
+      "end": "2026-11-25T23:59:00+01:00",
+      "showTime": false,
+      "city": "Granozzo con Monticello",
+      "province": "NO",
+      "region": "Piemonte",
+      "venue": "Novarello",
+      "genre": "Sport",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "featured": false,
+      "kind": "evento",
+      "sourceUrl": "https://www.figc.it/it/nazionali/news/raduno-a-novarello-per-le-azzurre-del-futsal-paniccia-chiama-20-calciatrici-wso00c1r",
+      "article": {
+        "url": "/notizie/futsal-femminile-venti-convocate-per-il-raduno-di-novarello-17-novembre-2026.html",
+        "title": "Futsal femminile, venti convocate per il raduno di Novarello",
+        "description": "Prima chiamata per Greta Allamani, torna Elena De Cao. Il gruppo lavorerà dal 19 al 25 novembre dopo la qualificazione europea.",
+        "image": "/assets/images/editorial-auto/futsal-femminile-venti-convocate-per-il-raduno-di-novarello-17-novembre-2026-v20261117gs-1200.webp"
+      },
+      "lastVerified": "2026-11-17T20:30:07+01:00"
+    },
+    {
+      "id": "nuoto-paralimpico-lanciano-2026-11-28",
+      "artist": "Campionati italiani assoluti FINP",
+      "tour": "Assoluti in vasca corta, 28-29 novembre",
+      "start": "2026-11-28T00:00:00+01:00",
+      "end": "2026-11-29T23:59:00+01:00",
+      "showTime": false,
+      "city": "Lanciano",
+      "province": "CH",
+      "region": "Abruzzo",
+      "venue": "Lanciano Sport Center",
+      "genre": "Sport",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "featured": false,
+      "kind": "evento",
+      "sourceUrl": "https://finp.it/lanciano-si-prepara-unrsquoedizione-da-record-219-atleti-ai-campionati-italiani-assoluti-finp",
+      "article": {
+        "url": "/notizie/nuoto-paralimpico-a-lanciano-219-atleti-per-gli-assoluti-17-novembre-2026.html",
+        "title": "Nuoto paralimpico, a Lanciano 219 atleti per gli Assoluti",
+        "description": "Gli Assoluti FINP in vasca corta si svolgono il 28 e 29 novembre. Iscritte sessantuno società e annunciate 607 prove individuali.",
+        "image": "/assets/images/editorial-auto/nuoto-paralimpico-a-lanciano-219-atleti-per-gli-assoluti-17-novembre-2026-v20261117gs-1200.webp"
+      },
+      "lastVerified": "2026-11-17T20:30:07+01:00"
+    },
+    {
+      "id": "basket-under-16-novarello-2026-11-29",
+      "artist": "Nazionale basket Under 16",
+      "tour": "Raduno prima di Iscar",
+      "start": "2026-11-29T00:00:00+01:00",
+      "end": "2026-12-02T23:59:00+01:00",
+      "showTime": false,
+      "city": "Granozzo con Monticello",
+      "province": "NO",
+      "region": "Piemonte",
+      "venue": "Novarello",
+      "genre": "Sport",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "featured": false,
+      "kind": "evento",
+      "sourceUrl": "https://fip.it/torneo-di-iscar-spagna-dal-4-al-7-dicembre-i-convocati-di-coach-luminati/",
+      "article": {
+        "url": "/notizie/basket-under-16-luminati-convoca-diciotto-giocatori-per-iscar-17-novembre-2026.html",
+        "title": "Basket Under 16, Luminati convoca diciotto giocatori per Iscar",
+        "description": "Raduno a Novarello dal 29 novembre, poi quattordici giocatori partiranno per la Spagna. Prime avversarie Castilla y León e Turchia.",
+        "image": "/assets/images/editorial-auto/basket-under-16-luminati-convoca-diciotto-giocatori-per-iscar-17-novembre-2026-v20261117gs-1200.webp"
+      },
+      "lastVerified": "2026-11-17T20:30:07+01:00"
     }
   ]
 }
