@@ -150,7 +150,7 @@ Lo stile è quello del riquadro in `global-header-v275.css`: piccolo, centrato, 
 
 CurioMondo non richiede che ogni notizia sia eccezionale, esclusiva o sostenuta dallo stesso numero di fonti. La decisione è proporzionata al rischio:
 
-- **Alto rischio:** politica sensibile, accuse, reati, salute, minori, vittime, guerre, sicurezza e finanza richiedono fonte primaria più conferma indipendente oppure due fonti secondarie indipendenti.
+- **Una fonte verificata:** una notizia può essere pubblicata anche con una sola fonte, compresi politica sensibile, accuse, reati, salute, minori, vittime, guerre, sicurezza e finanza, se la fonte è attendibile e il testo è stato letto direttamente. Una citazione non è una verità automatica. Restano vietati i fatti non letti, i dati inventati e il trattamento di un’accusa come condanna.
 - **Ordinario:** sport, cinema, serie TV, cultura, tecnologia, spettacolo, comunicati aziendali e fatti non controversi possono basarsi su una fonte primaria autentica e competente.
 - **Servizio:** calendari, orari, programmi, uscite, bandi, risultati e guide pratiche possono basarsi sulla fonte ufficiale pertinente.
 
