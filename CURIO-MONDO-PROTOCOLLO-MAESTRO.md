@@ -2,6 +2,22 @@
 
 **Normative language, from 12 November 2026:** English. New protocol text is written in technical English. Italian passages that follow in this file, or in older protocol files, are historical annexes. If they conflict with `PROTOCOL-PUBLIC-PROSE.md`, that protocol wins for any sentence a reader can see.
 
+## Image bans — 18 November 2026
+
+**Status:** mandatory for every new image. It prevails over v156, v231, v234, the 21 September 2026 “real people, real logos” rule, and the 26 September 2026 lookalike, official-jersey, and real-logo orders. Later passages in this file that still require a recognisable face, a synthetic likeness, an official kit, or a real logo are void for new images. Covers already online are not removed.
+
+Do not generate or publish:
+
+1. A generated or photorealistic face of a real person: a politician, a celebrity, an athlete, a business figure, or anyone named in a crime story. A neutral pose does not make it allowed. The story being true does not make it allowed. A synthetic face hits image rights, can support an indirect-defamation claim, and is unauthorised synthetic content.
+2. A recognisable logo, trademark, plate that shows a brand, or a faithfully copied branded product: a shoe with a distinctive mark, a branded bottle, a car badge. That is unauthorised trademark use.
+3. A copyrighted character from a film, a television series, anime, a video game, or a comic, photoreal or illustrative. A review may use granted official material, such as the original poster. It may not clone or redraw the character.
+4. Explicit violence, blood, a graphic crash, a disaster with visible victims, or a person in despair, especially when the image is tied to a real crime story. A synthetic scene is not documentation and harms dignity.
+5. A fake document, bill, receipt, chat screenshot, invoice, police report, or will attributed to a real person or organisation. A reader can take it as evidence.
+
+Allowed for a new cover: a photorealistic place, object, or anonymous unidentifiable context, with no real face, no logo, and no protected character. No editorial text inside the pixels. The visible figcaption stays exactly: `Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.`
+
+Public wording: `/pagine/metodo-editoriale.html` and `/pagine/intelligenza-artificiale.html`.
+
 ## Public prose — 12 November 2026
 
 **Status:** mandatory before every push.
@@ -305,6 +321,9 @@ All final responses must be written in Italian.
 ```
 
 ## Regole immagini editoriali premium — v156
+
+**Annullate il 18 novembre 2026** per ogni immagine nuova: i punti sotto che chiedono volti riconoscibili, somiglianza sintetica, maglie ufficiali o loghi veri. Restano la didascalia esatta, il divieto di testo nei pixel, il divieto di riuso e il fotorealismo di luoghi e oggetti senza persone identificabili, senza marchi e senza personaggi protetti. Le copertine già online non si tolgono.
+
 - **PERSONE VERE, LOGHI VERI — REGOLA PROPRIETARIA 21 settembre 2026:** le immagini devono essere fotorealistiche e raffigurare soggetti realmente esistenti. Vietato inventare protagonisti, volti generici, extra al posto di atleti o personaggi nominati, maglie lisce o loghi di fantasia. Per una persona pubblica: quel volto riconoscibile. Per una squadra: i giocatori e la maglia ufficiali (stemma, sponsor, fornitore, numeri). Prima di generare, usare foto di riferimento reali; se il lettore non riconoscerebbe il soggetto, scartare e rigenerare. Gli astanti di sfondo possono essere anonimi; il soggetto principale no.
 - **PERSONAGGI PUBBLICI E SOMIGLIANZA SINTETICA — REGOLA PROPRIETARIA v231:** sono consentite immagini ultrarealistiche e fotorealistiche con qualunque personaggio pubblico riconoscibile, vivente o deceduto, quando la sua identità è direttamente pertinente alla notizia. La tecnica può essere comunemente chiamata “deepfake”, ma CurioMondo la usa esclusivamente come **somiglianza sintetica editoriale dichiarata**, mai come fotografia documentaria o prova di un evento. Prima di generare leggere integralmente `AI-EDITORIAL-IMAGE-PROTOCOL.md` e `automation/prompts/image-generation-contract.txt`.
 - **REGOLA CONTESTUALE PERSONAGGI PUBBLICI — v234:** nelle notizie ordinarie il personaggio può apparire in posti, luoghi, eventi e ambientazioni coerenti con l'articolo. Sono ammessi persone, oggetti, mezzi, abiti di ruolo, edifici e loghi pertinenti, purché non si inventi uno specifico fatto come falsa prova documentaria. Il ritratto neutrale isolato diventa obbligatorio soltanto per incidenti, morte o necrologi, malattia, diagnosi, ricoveri, violenza, guerra, catastrofi, arresti, accuse gravi, lutto, sofferenza e altre situazioni sensibili che possono provocare dolore. In questi casi non raffigurare il momento traumatico, ferite, cure, ospedali, ambulanze, manette, corpi, funerali o pianto.

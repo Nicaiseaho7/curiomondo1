@@ -46,50 +46,20 @@
       "news_sitemap_contains_article_if_eligible"
     ],
     "public_figure_synthetic_likeness": {
-      "allowed": true,
-      "scope": "living_or_deceased_public_figures_when_directly_editorially_relevant",
-      "style": "ultra_realistic_photorealistic",
-      "common_term": "deepfake",
-      "editorial_term": "synthetic_editorial_likeness",
-      "policy_mode": "context_sensitive",
-      "ordinary_news": {
-        "contextual_scenes_allowed": true,
-        "relevant_locations_allowed": true,
-        "relevant_people_objects_vehicles_and_clothing_allowed": true,
-        "relevant_logos_allowed": true,
-        "real_named_people_required": true,
-        "invented_faces_or_generic_extras_forbidden": true,
-        "real_kits_crests_and_sponsors_required_for_teams": true,
-        "reference_photos_required_before_generation": true,
-        "fabricated_specific_events_as_evidence_forbidden": true
+      "allowed": false,
+      "voided_on": "2026-11-18",
+      "existing_covers_not_removed": true,
+      "bans": {
+        "real_person_faces": true,
+        "recognizable_logos_trademarks_branded_products": true,
+        "copyrighted_characters": true,
+        "graphic_violence_and_suffering": true,
+        "fake_documents_and_evidence": true
       },
-      "sensitive_news": {
-        "neutral_isolated_portrait_required": true,
-        "triggers": [
-          "incident",
-          "death_or_obituary",
-          "illness_diagnosis_or_hospitalization",
-          "violence_war_or_disaster",
-          "arrest_or_serious_allegation",
-          "grief_suffering_or_other_painful_context"
-        ],
-        "portrait_framing": [
-          "close_up",
-          "head_and_shoulders",
-          "waist_up"
-        ],
-        "depiction_of_trauma_injury_treatment_or_grief_forbidden": true
-      },
+      "allowed_subjects": "places_objects_anonymous_unidentifiable_context",
       "documentary_claim_forbidden": true,
-      "fabricated_events_or_conditions_forbidden": true,
       "visible_disclosure_required": true,
-      "figure_attributes": {
-        "data-ai-generated": "true",
-        "data-synthetic-likeness": "public-figure",
-        "data-sensitive-context": "true|false",
-        "data-portrait-format": "neutral-isolated_when_sensitive"
-      },
-      "do_not_bypass_tool_platform_or_law_restrictions": true
+      "exact_figcaption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria."
     },
     "image_ai_disclosure_required": true,
     "image_ai_disclosure_texts": [

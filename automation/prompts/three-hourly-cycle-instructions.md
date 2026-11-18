@@ -141,33 +141,16 @@ Il testo pubblico segue `PROTOCOLLO-SCRITTURA-PROFESSIONALE.md` (v502). Questo p
 - Markup: `data-editorial-protocol="4.0"` e `data-article-format` coerente. **Non** usare `data-length-policy="3000-7000"` sui nuovi articoli.
 
 
-## 4. Regole immagini (vincolo specifico di questa automazione, più severo del
-   protocollo generale del sito)
+## 4. Regole immagini (18 novembre 2026, prevalenti)
 
-- **Persone vere, loghi veri (21 settembre 2026, bloccante):** le immagini
-  devono essere fotorealistiche e mostrare i protagonisti **reali**. Vietato
-  inventare volti, extra generici, maglie lisce o loghi di fantasia.
-  - Persona nominata nel titolo o nel lead: quel volto riconoscibile.
-  - Squadra o nazionale: giocatori del roster e maglia ufficiale (stemma,
-    sponsor, fornitore, numeri/nomi).
-  - Prima di generare: cercare foto di riferimento recenti e usarle.
-  - Dopo: se un lettore italiano non riconoscerebbe il soggetto, scartare
-    e rigenerare.
-- **Se la notizia riguarda una persona pubblica reale e riconoscibile**:
-  raffigura quella persona. Nelle notizie **ordinarie** è ammessa una scena
-  contestuale (studio, campo, palazzo, evento) con maglia e loghi veri.
-  Nelle notizie **sensibili** (incidente, morte, salute, violenza, lutto)
-  resta obbligatorio il ritratto neutrale isolato della **stessa persona
-  reale**, mai una ricostruzione traumatica.
-  - Nel markup `<figure>`: `data-ai-generated="true" data-synthetic-likeness="public-figure" data-sensitive-context="true|false"`.
-    Se sensibile: anche `data-portrait-format="neutral-isolated"`.
-- **Se la notizia non richiede il volto di una persona specifica**: immagine
-  fotorealistica della scena/luogo/edificio/oggetto **reale** pertinente.
-  Loghi e luoghi riconosciuti sono ammessi. Non inventare un protagonista.
-- Mai testo, watermark, didascalie o loghi editoriali dentro i pixel dell'immagine.
-- Mai scene che raffigurino direttamente ferite, sangue, corpi, manette, funerali,
-  pianto: per i temi sensibili senza volto specifico, restare su scene ambientali
-  neutre (mezzi di soccorso, luoghi, strade transennate) senza vittime visibili.
+Dal 18 novembre 2026 non si generano queste cinque categorie, anche se la notizia è vera. La regola annulla «persone vere, loghi veri» del 21 settembre 2026 e i sosia del 26 settembre. Le copertine già online non si rimuovono.
+
+- Volti di persone reali: niente politico, celebrità, atleta, imprenditore o persona di cronaca, nemmeno in posa neutra.
+- Loghi, marchi e brand: niente simboli riconoscibili, targhe con marchio o prodotti fedelmente riprodotti.
+- Personaggi protetti: niente film, serie, anime, videogiochi o fumetti. Una locandina ufficiale concessa si può usare; un clone no.
+- Violenza e sofferenza: niente sangue, incidenti cruenti, vittime visibili o persone in disperazione.
+- Falsi documenti: niente chat, fatture, verbali o testamenti che il lettore possa prendere per una prova.
+- Consentito: luogo, oggetto o contesto anonimo non identificabile, fotorealistico, senza testo nei pixel.
 - Sotto ogni immagine, `<figcaption>` con **esattamente**:
   `Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.`
 

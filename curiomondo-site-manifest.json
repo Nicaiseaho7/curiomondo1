@@ -232,15 +232,17 @@
     ],
     "generator_watermark_is_blocking": true,
     "public_figure_synthetic_likeness_policy": {
-      "allowed": true,
-      "policy_mode": "context_sensitive",
-      "ordinary_news": {
-        "contextual_scenes_allowed": true,
-        "relevant_logos_allowed": true
+      "allowed": false,
+      "voided_on": "2026-11-18",
+      "existing_covers_not_removed": true,
+      "bans": {
+        "real_person_faces": true,
+        "recognizable_logos_trademarks_branded_products": true,
+        "copyrighted_characters": true,
+        "graphic_violence_and_suffering": true,
+        "fake_documents_and_evidence": true
       },
-      "sensitive_news": {
-        "neutral_isolated_portrait_required": true
-      },
+      "allowed_subjects": "places_objects_anonymous_unidentifiable_context",
       "must_never_be_presented_as_documentary_evidence": true
     },
     "new_image_required_for_each_new_article_or_substantive_update": true,
@@ -252,8 +254,9 @@
     "generator_contract_file": "automation/prompts/image-generation-contract.txt",
     "mobile_and_hero_crop_check_required": true,
     "retry_on_failure": true,
-    "real_public_figures_allowed": true,
-    "real_brands_logos_and_places_allowed_when_editorially_relevant": true,
+    "real_public_figures_allowed": false,
+    "real_brands_logos_and_places_allowed_when_editorially_relevant": false,
+    "places_objects_and_anonymous_context_allowed": true,
     "no_false_sponsorship_or_documentary_claim": true
   },
   "deep_dives": {

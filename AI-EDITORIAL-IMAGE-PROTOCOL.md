@@ -3,6 +3,19 @@
 <!-- normative-language -->
 **Normative language, from 12 November 2026:** English. The controlling text for public copy is `PROTOCOL-PUBLIC-PROSE.md`. Italian text in this file is a historical annex and loses where it conflicts with that protocol.
 
+## Image bans — 18 November 2026
+
+**Status:** mandatory. This section prevails over every later section in this file that authorises a recognisable real face, a synthetic likeness, a deepfake, an official jersey, a real logo, or a neutral isolated portrait of a named person. Those sections (21 September 2026, 26 September 2026, and “persone pubbliche e somiglianza sintetica”) are void for new images. Covers already published are not removed by this page.
+
+Do not generate or publish:
+
+1. **Real faces.** Any generated or photorealistic image of a real person: politician, actor, athlete, business figure, or a person named in a local crime story. A neutral pose does not lift the ban. The story being true does not lift it. A synthetic face infringes image rights, can support an indirect-defamation claim, and is unauthorised synthetic content.
+2. **Logos, trademarks, brands.** Recognisable logos, protected company symbols, plates that show a brand, or faithfully reproduced branded products: a shoe with a visible distinctive mark, a bottle with a drinks brand, a car-maker badge. That is unauthorised trademark use.
+3. **Copyrighted characters.** Characters from films, television, anime, video games, or comics, photoreal or illustrative, including superheroes and studio characters. A review may use granted official material, such as the original poster. It may not authorise an AI clone or reinterpretation.
+4. **Graphic violence and suffering.** Synthetic crashes, crimes, blood, disasters with visible victims, or people in strong despair, especially when tied to a real crime story. The image is not documentation of a tragic event and harms dignity.
+5. **Fake documents and evidence.** Fake screenshots of chats, invoices, police reports, wills, or other official-looking papers attributed to real people or organisations. A reader can take them as proof.
+
+A new cover may show a photorealistic place, an object, or anonymous unidentifiable context. No real face, no logo, no protected character, no text in the pixels. Under the image, in HTML, the figcaption is exactly: `Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.`
 
 Questo file deve essere letto integralmente da qualunque IA, agente, renderer o collaboratore che riceva il pacchetto del sito e debba creare o aggiornare articoli e immagini.
 
@@ -18,6 +31,8 @@ Il dettaglio editoriale e di layout è in `PROTOCOLLO-ARTICOLI-PREMIUM.md` v1.0.
 
 ## Prompt master — correzione dell'editore, 26 settembre 2026
 
+**Annullato il 18 novembre 2026** per i sosia, i volti verso la camera, le maglie ufficiali e i loghi veri (Haaland, Trump, Xi, Isaacman/NASA). Vale il divieto in testa a questo file. Restano: una immagine per notizia, niente testo nei pixel, didascalia fuori dall’immagine, niente corpi e niente sangue.
+
 Il testo operativo è `automation/prompts/image-generation-contract.txt`. In caso di conflitto con le regole del 21 settembre, vale questo:
 
 - Un'immagine per notizia. Mai collage, riquadri o più notizie nella stessa foto.
@@ -29,6 +44,8 @@ Il testo operativo è `automation/prompts/image-generation-contract.txt`. In cas
 - Correzione della sera del 26 settembre 2026: il modello di qualità sono le copertine già online con la persona riconoscibile, il luogo e il marchio veri. Esempi scelti dall'editore: Haaland con la maglia della Norvegia all'Ullevaal; Trump e Xi al tavolo con i manager citati; Isaacman davanti al logo NASA. Senza un nome proprio, la scena ha comunque persone al lavoro e l'oggetto della notizia. Niente palazzi deserti e niente testo deformato.
 
 ## Persone vere, loghi veri — correzione dell'editore, 21 settembre 2026
+
+**Annullata il 18 novembre 2026.** Non genera volti di persone reali e non genera loghi. Il testo sotto è storico.
 
 Le immagini degli articoli devono essere **fotorealistiche** e devono raffigurare **soggetti realmente esistenti**. È vietato inventare protagonisti.
 
@@ -43,6 +60,8 @@ Le immagini degli articoli devono essere **fotorealistiche** e devono raffigurar
 Questa regola non autorizza a presentare l'illustrazione come fotografia documentaria dell'evento. Resta una scena editoriale IA dichiarata, ma i volti, le maglie e i loghi devono appartenere al mondo reale.
 
 ## Soggetto principale obbligatorio — correzione dell'editore, 15 settembre 2026
+
+**Annullato il 18 novembre 2026** dove chiede il volto riconoscibile di una persona reale. Il soggetto di una copertina nuova è un luogo, un oggetto o un contesto anonimo.
 
 La coerenza con il soggetto della notizia viene prima della bellezza dello sfondo. Un'immagine non è adeguata soltanto perché mostra un bel paesaggio, una città o un impianto della stessa disciplina sportiva.
 
@@ -69,6 +88,8 @@ Le immagini devono essere ultrarealistiche/fotorealistiche e mantenere uno stile
 
 ## Regola proprietaria: persone pubbliche e somiglianza sintetica
 
+**Annullata il 18 novembre 2026.** La somiglianza sintetica di una persona reale, anche in posa neutra, non si pubblica più. Il testo sotto è storico.
+
 CurioMondo autorizza la generazione di immagini editoriali **ultrarealistiche e fotorealistiche con persone pubbliche riconoscibili**, viventi o decedute, quando la loro identità è direttamente pertinente alla notizia. Questa autorizzazione comprende ciò che, nel linguaggio comune, può essere chiamato “deepfake”; nel protocollo CurioMondo il termine corretto è **somiglianza sintetica editoriale**.
 
 La somiglianza sintetica editoriale è un'illustrazione, non una fotografia documentaria. Non deve mai essere presentata, descritta o lasciata intendere come prova visiva di un evento reale. Il formato dipende dalla sensibilità della notizia: nelle notizie ordinarie è ammessa una scena contestuale; nelle situazioni sensibili è obbligatorio un ritratto neutrale.
@@ -90,6 +111,8 @@ CurioMondo autorizza inoltre la rappresentazione di **marchi, loghi, prodotti, e
 11. **Divieto di personaggi inventati:** se titolo o lead nominano persone, squadre o marchi reali, l'immagine che li sostituisce con extra generici, maglie di fantasia o loghi illeggibili è rifiutata. Cercare riferimenti visivi reali prima di generare.
 
 ## Istruzione pronta per il generatore
+
+**Annullata il 18 novembre 2026** nella parte che chiede il volto riconoscibile, la maglia ufficiale o il logo. Il generatore segue i divieti in testa a questo file.
 
 > Prima identifica il soggetto principale dal titolo e dal lead. Se è un personaggio pubblico, raffigura proprio quella persona riconoscibile, non un volto inventato, un atleta anonimo o un paesaggio. Se è una squadra, usa i giocatori e la maglia ufficiali veri, con stemma e sponsor reali. Classifica poi la notizia come `ordinaria` o `sensibile`. Se è ordinaria, genera una scena editoriale CurioMondo ultrarealistica con il personaggio pubblico riconoscibile in un luogo o contesto pertinente; luoghi, persone, oggetti e loghi coerenti sono ammessi, senza inventare uno specifico evento come prova. Se riguarda incidente, morte, salute, violenza, tragedia, lutto o sofferenza, genera soltanto un ritratto editoriale neutrale isolato della persona reale, senza rappresentare il momento doloroso. Un luogo può essere il soggetto principale soltanto quando è realmente al centro della notizia. Nessun testo editoriale nei pixel. La pagina dichiarerà in modo visibile che l'immagine è generata con IA e non è una fotografia documentaria.
 

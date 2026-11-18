@@ -64,17 +64,17 @@ if premium_protocol_path.exists():
         if marker not in premium_protocol: errors.append(f'direttiva articoli premium assente: {marker}')
 if prompt_path.exists():
     prompt=prompt_path.read_text(errors='replace')
-    for marker in ('PUBLIC FIGURES AND SYNTHETIC LIKENESS','data-synthetic-likeness="public-figure"','data-sensitive-context="true|false"','AI-EDITORIAL-IMAGE-PROTOCOL.md','ORDINARY public-figure news','SENSITIVE public-figure news','neutral isolated portrait','buildings and logos are allowed'):
-        if marker not in prompt: errors.append(f'direttiva immagini pubbliche assente nel prompt: {marker}')
+    for marker in ('DIVIETI 18 NOVEMBRE 2026','Volti di persone reali','Loghi, marchi e brand','Personaggi protetti da copyright','Violenza esplicita','Falsi documenti','Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.','Le copertine già online non si rimuovono'):
+        if marker not in prompt: errors.append(f'divieto immagini 18 novembre assente nel prompt: {marker}')
 if config_path.exists():
     try:
         config=json.loads(config_path.read_text())
         likeness=config.get('articles',{}).get('public_figure_synthetic_likeness',{})
-        if likeness.get('allowed') is not True: errors.append('somiglianza sintetica pubblica non abilitata nella config')
-        if likeness.get('policy_mode')!='context_sensitive': errors.append('modalità contestuale immagini pubbliche assente nella config')
-        if likeness.get('ordinary_news',{}).get('contextual_scenes_allowed') is not True: errors.append('scene ordinarie non abilitate nella config')
-        if likeness.get('ordinary_news',{}).get('relevant_logos_allowed') is not True: errors.append('loghi pertinenti non abilitati nella config')
-        if likeness.get('sensitive_news',{}).get('neutral_isolated_portrait_required') is not True: errors.append('ritratto neutrale per casi sensibili assente nella config')
+        bans=likeness.get('bans',{})
+        if likeness.get('allowed') is not False or likeness.get('voided_on')!='2026-11-18': errors.append('divieto volti 18 novembre assente nella config')
+        if likeness.get('existing_covers_not_removed') is not True: errors.append('config non conserva le copertine già online')
+        for key in ('real_person_faces','recognizable_logos_trademarks_branded_products','copyrighted_characters','graphic_violence_and_suffering','fake_documents_and_evidence'):
+            if bans.get(key) is not True: errors.append(f'divieto immagini assente nella config: {key}')
         if likeness.get('documentary_claim_forbidden') is not True: errors.append('divieto documentario assente nella config')
         articles_cfg=config.get('articles',{})
         if articles_cfg.get('article_length_policy')!='word_count_by_format': errors.append('policy lunghezza per formato assente nella config')
@@ -100,12 +100,14 @@ if manifest_path.exists() and not args.exclude_manifest:
             errors.append('percorso immagini ChatGPT/OpenAI non vincolante nel manifest')
         if image_policy.get('generator_watermark_is_blocking') is not True:
             errors.append('watermark del generatore non configurato come bloccante')
-        if likeness.get('allowed') is not True: errors.append('protocollo personaggi pubblici non abilitato nel manifest')
-        if likeness.get('policy_mode')!='context_sensitive': errors.append('modalità contestuale immagini pubbliche assente nel manifest')
-        if likeness.get('ordinary_news',{}).get('contextual_scenes_allowed') is not True: errors.append('scene ordinarie non abilitate nel manifest')
-        if likeness.get('ordinary_news',{}).get('relevant_logos_allowed') is not True: errors.append('loghi pertinenti non abilitati nel manifest')
-        if likeness.get('sensitive_news',{}).get('neutral_isolated_portrait_required') is not True: errors.append('ritratto neutrale per casi sensibili assente nel manifest')
+        bans=likeness.get('bans',{})
+        if likeness.get('allowed') is not False or likeness.get('voided_on')!='2026-11-18': errors.append('divieto volti 18 novembre assente nel manifest')
+        if likeness.get('existing_covers_not_removed') is not True: errors.append('manifest non conserva le copertine già online')
+        for key in ('real_person_faces','recognizable_logos_trademarks_branded_products','copyrighted_characters','graphic_violence_and_suffering','fake_documents_and_evidence'):
+            if bans.get(key) is not True: errors.append(f'divieto immagini assente nel manifest: {key}')
         if likeness.get('must_never_be_presented_as_documentary_evidence') is not True: errors.append('divieto di prova documentaria assente nel manifest')
+        if image_policy.get('real_public_figures_allowed') is not False: errors.append('manifest autorizza ancora i volti reali')
+        if image_policy.get('real_brands_logos_and_places_allowed_when_editorially_relevant') is not False: errors.append('manifest autorizza ancora i loghi')
         body_policy=manifest.get('news',{}).get('article_body_characters',{})
         if body_policy.get('policy')!='word_count_by_format': errors.append('policy manifest per formato assente')
         if body_policy.get('editorial_protocol_version')!='4.0': errors.append('protocollo 4.0 assente nel manifest')
