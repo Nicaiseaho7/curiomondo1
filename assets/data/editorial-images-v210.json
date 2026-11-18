@@ -1,7 +1,742 @@
 {
-  "version": 1534,
+  "version": 1535,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "id": "divario-occupazione-donne-regioni-italia-eurostat-2025",
+      "key": "divario-occupazione-donne-regioni-italia-eurostat-2025",
+      "alt": "Uffici vuoti in un ambiente di lavoro generico, immagine illustrativa generata con IA",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/divario-occupazione-donne-regioni-italia-eurostat-2025-480.webp",
+          "sha256": "2b2b20b4d2a9e97d03bc3d79aa9ae066ae7d70d9350270ea742e56d37363f136",
+          "bytes": 14902
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/divario-occupazione-donne-regioni-italia-eurostat-2025-800.webp",
+          "sha256": "b622b882ba5010991ff2a41baf18cce3e66cffe9be1b42bf7ae68e4654447bf6",
+          "bytes": 35872
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/divario-occupazione-donne-regioni-italia-eurostat-2025-1200.webp",
+          "sha256": "e087a6db06c12afa9baff19d629da60ec1cabd736718a524ab8b52592ef74545",
+          "bytes": 74420
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/divario-occupazione-donne-regioni-italia-eurostat-2025.html"
+    },
+    {
+      "id": "onu-unesco-rapporto-cultura-pace-prevenzione-conflitti-18-novembre-2026",
+      "key": "onu-unesco-rapporto-cultura-pace-prevenzione-conflitti-18-novembre-2026",
+      "alt": "Sala vuota per incontri e formazione, immagine illustrativa generata con IA",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/onu-unesco-rapporto-cultura-pace-prevenzione-conflitti-18-novembre-2026-480.webp",
+          "sha256": "f7b9fa6697bfd4ffd9aaad922ccecddb1067d445b079197515b671abd710ed7f",
+          "bytes": 42696
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/onu-unesco-rapporto-cultura-pace-prevenzione-conflitti-18-novembre-2026-800.webp",
+          "sha256": "841e7e48fbff73ef551418b8c7d04a44db5f0d30d9ea3f764f06e15a7b84109a",
+          "bytes": 94540
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/onu-unesco-rapporto-cultura-pace-prevenzione-conflitti-18-novembre-2026-1200.webp",
+          "sha256": "866cde4bf42b9ee6f1d04a074eb8936c17f055a28af93d4fa94945786c310010",
+          "bytes": 170230
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/onu-unesco-rapporto-cultura-pace-prevenzione-conflitti-18-novembre-2026.html"
+    },
+    {
+      "id": "nasa-space-apps-2026-iscritti-record-agenzia-spaziale-italiana",
+      "key": "nasa-space-apps-2026-iscritti-record-agenzia-spaziale-italiana",
+      "alt": "Postazioni informatiche anonime in uno spazio di innovazione, immagine illustrativa generata con IA",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/nasa-space-apps-2026-iscritti-record-agenzia-spaziale-italiana-480.webp",
+          "sha256": "bb585b76defbc5d9efc09c9122337cca2345ac7728ad2e536a1b5978310855de",
+          "bytes": 30556
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/nasa-space-apps-2026-iscritti-record-agenzia-spaziale-italiana-800.webp",
+          "sha256": "5ed03e583ab0f4018a88ee43d64319e3ddc2a3de9222d7cabe483c625e12e27b",
+          "bytes": 64962
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/nasa-space-apps-2026-iscritti-record-agenzia-spaziale-italiana-1200.webp",
+          "sha256": "81cbd10fef4dd509d914402ece6049b264b6eb742bdb4748a89545c090dcc721",
+          "bytes": 118370
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/nasa-space-apps-2026-iscritti-record-agenzia-spaziale-italiana.html"
+    },
+    {
+      "id": "andromeda-fusione-stelle-bao-webb-nasa-18-novembre-2026",
+      "key": "andromeda-fusione-stelle-bao-webb-nasa-18-novembre-2026",
+      "alt": "Rappresentazione artistica IA di due stelle in fusione, non fotografia astronomica dell'evento Bao",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/andromeda-fusione-stelle-bao-webb-nasa-18-novembre-2026-480.webp",
+          "sha256": "eb4074d7599a6c45511642c0b9989d17456c557c337ca5c8e8069003d8090a5e",
+          "bytes": 15668
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/andromeda-fusione-stelle-bao-webb-nasa-18-novembre-2026-800.webp",
+          "sha256": "214b993a00e2a505d2c317416192039a6aacb6c998b9ce19a61bc3442f05a83a",
+          "bytes": 35130
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/andromeda-fusione-stelle-bao-webb-nasa-18-novembre-2026-1200.webp",
+          "sha256": "2d9f6a1f18f8ea8e0cfb64a53d543a7cf68f4bf076b0fb1361eea2734879ddd7",
+          "bytes": 68270
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/andromeda-fusione-stelle-bao-webb-nasa-18-novembre-2026.html"
+    },
+    {
+      "id": "ue-asta-eu-bills-18-novembre-2026-rendimenti-risultati",
+      "key": "ue-asta-eu-bills-18-novembre-2026-rendimenti-risultati",
+      "alt": "Scrivania con documenti finanziari anonimi e calcolatrice, immagine illustrativa generata con IA",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ue-asta-eu-bills-18-novembre-2026-rendimenti-risultati-480.webp",
+          "sha256": "087771b78f592cbbd698b2fe9bfa307261e1e770001a5e406fa38cc7c7d85348",
+          "bytes": 22560
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ue-asta-eu-bills-18-novembre-2026-rendimenti-risultati-800.webp",
+          "sha256": "ae9d78d71c430d43127fac2a2ecb6c0a80c48a71b644f0b41385c5983553ebaf",
+          "bytes": 49170
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ue-asta-eu-bills-18-novembre-2026-rendimenti-risultati-1200.webp",
+          "sha256": "a0dcb934b0640876b2242447370ac5f9c188978f82f869cbe3aee6c12595d3af",
+          "bytes": 90288
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/ue-asta-eu-bills-18-novembre-2026-rendimenti-risultati.html"
+    },
+    {
+      "id": "ue-asta-bond-23-novembre-2026-annuncio-commissione",
+      "key": "ue-asta-bond-23-novembre-2026-annuncio-commissione",
+      "alt": "Scrivania con grafici finanziari illeggibili, immagine illustrativa generata con IA",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ue-asta-bond-23-novembre-2026-annuncio-commissione-480.webp",
+          "sha256": "6be05231c78cd7f196781f963408e89487215aca78a9a881718cd6e64963b0c2",
+          "bytes": 21340
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ue-asta-bond-23-novembre-2026-annuncio-commissione-800.webp",
+          "sha256": "bb7ec27eac1fd41f4a1b05e0aae22115e62e7d73558a0607a8238b10ebdd692b",
+          "bytes": 45248
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ue-asta-bond-23-novembre-2026-annuncio-commissione-1200.webp",
+          "sha256": "bd8f0952c29eadf3ebe747d4fcb56b9b980378f0ffa59d04cc479455b7b09c10",
+          "bytes": 81580
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/ue-asta-bond-23-novembre-2026-annuncio-commissione.html"
+    },
+    {
+      "id": "oms-salute-mentale-digitale-roadmap-2027-2035-18-novembre-2026",
+      "key": "oms-salute-mentale-digitale-roadmap-2027-2035-18-novembre-2026",
+      "alt": "Stanza di colloquio vuota con tablet spento, immagine illustrativa generata con IA",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/oms-salute-mentale-digitale-roadmap-2027-2035-18-novembre-2026-480.webp",
+          "sha256": "90fa39b0e4bbe5f5470c3fe905269cb65d55b0a7ac1e86ab7fc57425800b6a8c",
+          "bytes": 25362
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/oms-salute-mentale-digitale-roadmap-2027-2035-18-novembre-2026-800.webp",
+          "sha256": "19885e45431766fce921958085c3933d7fd4c7b5423af55bbf14df676209378d",
+          "bytes": 60310
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/oms-salute-mentale-digitale-roadmap-2027-2035-18-novembre-2026-1200.webp",
+          "sha256": "cf656a12889a8570890a35d1200c88e2ff009f31c7a077e4194eb9b591d861ba",
+          "bytes": 119192
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/oms-salute-mentale-digitale-roadmap-2027-2035-18-novembre-2026.html"
+    },
+    {
+      "id": "marte-mars-express-tharsis-tholus-caldera-esa-18-novembre-2026",
+      "key": "marte-mars-express-tharsis-tholus-caldera-esa-18-novembre-2026",
+      "alt": "Paesaggio vulcanico marziano di fantasia, immagine illustrativa generata con IA e non fotografia ESA",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/marte-mars-express-tharsis-tholus-caldera-esa-18-novembre-2026-480.webp",
+          "sha256": "2bb505062d8bbc7bc200a16037c2dc6e5e73956e52627ce79c83cc4c70f4cfb9",
+          "bytes": 20748
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/marte-mars-express-tharsis-tholus-caldera-esa-18-novembre-2026-800.webp",
+          "sha256": "769ac8a1b92f403411c214cfb4d0c416bacff64d35b404467d19ea8b0b7928f9",
+          "bytes": 55642
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/marte-mars-express-tharsis-tholus-caldera-esa-18-novembre-2026-1200.webp",
+          "sha256": "170cadd1dc54634bd18ea9d7250958e9b97e005a03e5d2acc279c9bbcd89122a",
+          "bytes": 122046
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/marte-mars-express-tharsis-tholus-caldera-esa-18-novembre-2026.html"
+    },
+    {
+      "id": "ue-ucraina-45-miliardi-aggiuntivi-2027-proposta-18-novembre-2026",
+      "key": "ue-ucraina-45-miliardi-aggiuntivi-2027-proposta-18-novembre-2026",
+      "alt": "Tavolo finanziario senza persone né simboli istituzionali, immagine illustrativa generata con IA",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ue-ucraina-45-miliardi-aggiuntivi-2027-proposta-18-novembre-2026-480.webp",
+          "sha256": "5d397f8f99f0f048a8a14a1f3c4d4c9acb01906b629dbfaa2ce7d8246746f55e",
+          "bytes": 17032
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ue-ucraina-45-miliardi-aggiuntivi-2027-proposta-18-novembre-2026-800.webp",
+          "sha256": "90d9e044b98054fc5f57fe4cb95a7fb6e23e6f4d01e8658e12b8f514a70f3b64",
+          "bytes": 36748
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ue-ucraina-45-miliardi-aggiuntivi-2027-proposta-18-novembre-2026-1200.webp",
+          "sha256": "32cb2ee9c0647f8cc4de0906b6e9f506126d5b51ab4d8098c4d1d569b5c11eee",
+          "bytes": 69186
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/ue-ucraina-45-miliardi-aggiuntivi-2027-proposta-18-novembre-2026.html"
+    },
+    {
+      "id": "samoa-tessuti-storici-prestito-museo-victoria-unesco-18-novembre-2026",
+      "key": "samoa-tessuti-storici-prestito-museo-victoria-unesco-18-novembre-2026",
+      "alt": "Tessuti intrecciati esposti in un museo generico, immagine illustrativa generata con IA",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/samoa-tessuti-storici-prestito-museo-victoria-unesco-18-novembre-2026-480.webp",
+          "sha256": "50b6922857a086cb982cfa53117a7e39b8acbca7dca90dc69ec7b7b20e70383f",
+          "bytes": 33200
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/samoa-tessuti-storici-prestito-museo-victoria-unesco-18-novembre-2026-800.webp",
+          "sha256": "aedd5799704030af0a88182d568ea79ab1f9525647242f1c6cf4ff0c0b80a0b4",
+          "bytes": 80160
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/samoa-tessuti-storici-prestito-museo-victoria-unesco-18-novembre-2026-1200.webp",
+          "sha256": "226c6ab69e927879d33b4b12f85013020bdd6639814af02ae6af8141fa9dfdb8",
+          "bytes": 158680
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/samoa-tessuti-storici-prestito-museo-victoria-unesco-18-novembre-2026.html"
+    },
+    {
+      "id": "cop31-ue-aderisce-obiettivo-elettricita-35-percento-2035",
+      "key": "cop31-ue-aderisce-obiettivo-elettricita-35-percento-2035",
+      "alt": "Tram elettrico e infrastrutture energetiche in una città generica, immagine illustrativa generata con IA",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/cop31-ue-aderisce-obiettivo-elettricita-35-percento-2035-480.webp",
+          "sha256": "45917deef7b21d472b35029e33d09753093a20b9d5106303e6f7b9294d89923b",
+          "bytes": 45022
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/cop31-ue-aderisce-obiettivo-elettricita-35-percento-2035-800.webp",
+          "sha256": "212f7729d7fe2dbe580acac64730c42442b83144e63083e686b2dcd808608bb4",
+          "bytes": 113818
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/cop31-ue-aderisce-obiettivo-elettricita-35-percento-2035-1200.webp",
+          "sha256": "5b92082117e8642030078be54019461b55c53156299c4a55d6760ef130984fef",
+          "bytes": 221224
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/cop31-ue-aderisce-obiettivo-elettricita-35-percento-2035.html"
+    },
+    {
+      "id": "formula-1-whoop-accordo-dati-fisici-piloti-18-novembre-2026",
+      "key": "formula-1-whoop-accordo-dati-fisici-piloti-18-novembre-2026",
+      "alt": "Casco da corsa e fascia sensore senza marchi in un box generico, immagine illustrativa generata con IA",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/formula-1-whoop-accordo-dati-fisici-piloti-18-novembre-2026-480.webp",
+          "sha256": "83df95865dbd66a9425a0c91514716750467f4a7c8173ffcf3bfa6756641dcc4",
+          "bytes": 22368
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/formula-1-whoop-accordo-dati-fisici-piloti-18-novembre-2026-800.webp",
+          "sha256": "9205fa3e4efeb1e7a7bc03f864075e86550f92f87af25c73097c9be6624f167d",
+          "bytes": 43920
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/formula-1-whoop-accordo-dati-fisici-piloti-18-novembre-2026-1200.webp",
+          "sha256": "748b061b9d7f13c1e018952f4a881ed7197864dc5f4eda8cbf1cdca910f3908a",
+          "bytes": 72398
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/formula-1-whoop-accordo-dati-fisici-piloti-18-novembre-2026.html"
+    },
+    {
+      "id": "molise-economia-ferma-primo-semestre-2026-bankitalia",
+      "key": "molise-economia-ferma-primo-semestre-2026-bankitalia",
+      "alt": "Interno di un'officina industriale generica, immagine illustrativa generata con IA",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/molise-economia-ferma-primo-semestre-2026-bankitalia-480.webp",
+          "sha256": "d2a291add0dd6d3e4b318e974da3452cb3369b9cf3f51b17947391a6d7847117",
+          "bytes": 28880
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/molise-economia-ferma-primo-semestre-2026-bankitalia-800.webp",
+          "sha256": "596c12e26fbcb01c002cf1bbb0db2b0c64a2b7b4a5df048289558b2b52cc7f84",
+          "bytes": 64672
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/molise-economia-ferma-primo-semestre-2026-bankitalia-1200.webp",
+          "sha256": "8892a438c0baf463dc906f65a85fe539440fd906fd19dbc4bd2bb00ff9f31f8e",
+          "bytes": 122854
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/molise-economia-ferma-primo-semestre-2026-bankitalia.html"
+    },
+    {
+      "id": "nasa-rinvia-distacco-dragon-stazione-spaziale-meteo-18-novembre-2026",
+      "key": "nasa-rinvia-distacco-dragon-stazione-spaziale-meteo-18-novembre-2026",
+      "alt": "Illustrazione non documentaria di capsula cargo anonima agganciata a una stazione orbitale",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/nasa-rinvia-distacco-dragon-stazione-spaziale-meteo-18-novembre-2026-480.webp",
+          "sha256": "057f8d8aa42b70a1b389db33adf9ea9a622f32ae23db4ca959dd927607f2dd04",
+          "bytes": 32582
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/nasa-rinvia-distacco-dragon-stazione-spaziale-meteo-18-novembre-2026-800.webp",
+          "sha256": "021eb98ed6eeec25789dad218e71b8b8a2a071b34cb726dd18ba15033b31a9d7",
+          "bytes": 72982
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/nasa-rinvia-distacco-dragon-stazione-spaziale-meteo-18-novembre-2026-1200.webp",
+          "sha256": "fa98f55b24823336b2f1ffcf81d57045591c4303457ee81ff74e5e070b49ba4f",
+          "bytes": 127732
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/nasa-rinvia-distacco-dragon-stazione-spaziale-meteo-18-novembre-2026.html"
+    },
+    {
+      "id": "inps-servizi-vicino-a-me-mappa-famiglie-18-novembre-2026",
+      "key": "inps-servizi-vicino-a-me-mappa-famiglie-18-novembre-2026",
+      "alt": "Edificio di quartiere anonimo e marciapiede in una città italiana",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/inps-servizi-vicino-a-me-mappa-famiglie-18-novembre-2026-480.webp",
+          "sha256": "b17e645879b34395206d0f7f03e332b52163af189cdbd1fe35374332c9698ae4",
+          "bytes": 35338
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/inps-servizi-vicino-a-me-mappa-famiglie-18-novembre-2026-800.webp",
+          "sha256": "906aec6fff63b5e4b89f03c5fc57c9be93c19bc70034bb26a5ba9704e1e7ca19",
+          "bytes": 91090
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/inps-servizi-vicino-a-me-mappa-famiglie-18-novembre-2026-1200.webp",
+          "sha256": "a899973f932bf5e88496e2bc670540a7d04583fb2a1d5597d60ad9fefd5addc7",
+          "bytes": 183546
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/inps-servizi-vicino-a-me-mappa-famiglie-18-novembre-2026.html"
+    },
+    {
+      "id": "ocse-statistiche-qualita-intelligenza-artificiale-18-novembre-2026",
+      "key": "ocse-statistiche-qualita-intelligenza-artificiale-18-novembre-2026",
+      "alt": "Postazione anonima con monitor neutro davanti a server senza marchi",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ocse-statistiche-qualita-intelligenza-artificiale-18-novembre-2026-480.webp",
+          "sha256": "8aae712dcf5499a3f795c0c32e82fe2fb77cfa260936395794ea934b2be1d769",
+          "bytes": 18000
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ocse-statistiche-qualita-intelligenza-artificiale-18-novembre-2026-800.webp",
+          "sha256": "cda1b0df47dd369f73509b51e98413edc60e7eccf6b1a79eced41bffbc8e0ac7",
+          "bytes": 45292
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ocse-statistiche-qualita-intelligenza-artificiale-18-novembre-2026-1200.webp",
+          "sha256": "6a7ce1a00f7d200a21acf0069d3ebc41225efcd9ee090acf67ce76ba92987aea",
+          "bytes": 86836
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/ocse-statistiche-qualita-intelligenza-artificiale-18-novembre-2026.html"
+    },
+    {
+      "id": "sentinel-3c-prime-immagini-termiche-esa-18-novembre-2026",
+      "key": "sentinel-3c-prime-immagini-termiche-esa-18-novembre-2026",
+      "alt": "Illustrazione di un satellite anonimo in orbita terrestre con pannello solare",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/sentinel-3c-prime-immagini-termiche-esa-18-novembre-2026-480.webp",
+          "sha256": "2ea72a33448a8e8aa5e639948e9355bec176be35c93b4daf68d0a7c9d578a632",
+          "bytes": 29406
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/sentinel-3c-prime-immagini-termiche-esa-18-novembre-2026-800.webp",
+          "sha256": "21d300e409b5e1e3443be812c09ab0f9d2e9d4d5448874bd9f3ef6e067f5d78c",
+          "bytes": 68964
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/sentinel-3c-prime-immagini-termiche-esa-18-novembre-2026-1200.webp",
+          "sha256": "c20e9ce8b18ce104c7cc3ee27b85f6ac727d76a3ac027efa492c153fdadc5f18",
+          "bytes": 127242
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/sentinel-3c-prime-immagini-termiche-esa-18-novembre-2026.html"
+    },
+    {
+      "id": "eurostat-laureati-stem-italia-44-percento-18-novembre-2026",
+      "key": "eurostat-laureati-stem-italia-44-percento-18-novembre-2026",
+      "alt": "Banco di laboratorio universitario di ingegneria con scheda elettronica e strumenti anonimi",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/eurostat-laureati-stem-italia-44-percento-18-novembre-2026-480.webp",
+          "sha256": "2223c47098f9095f3aaaa74b61f4ffcb0eba9fe16a74fbeee6212e6edfe0093f",
+          "bytes": 34592
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/eurostat-laureati-stem-italia-44-percento-18-novembre-2026-800.webp",
+          "sha256": "9fbfcd7f551f77883ef40138da6c000d553c4e60ed12fc2d48c0a8a0dae20aad",
+          "bytes": 70802
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/eurostat-laureati-stem-italia-44-percento-18-novembre-2026-1200.webp",
+          "sha256": "0035be60b9ef641ef97772ff2c67595ec2259904ffc6ce52ce89049272f8b909",
+          "bytes": 118536
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/eurostat-laureati-stem-italia-44-percento-18-novembre-2026.html"
+    },
+    {
+      "id": "bankitalia-casa-prezzi-fermi-mutui-terzo-trimestre-2026",
+      "key": "bankitalia-casa-prezzi-fermi-mutui-terzo-trimestre-2026",
+      "alt": "Facciata di un edificio residenziale in una strada italiana anonima",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/bankitalia-casa-prezzi-fermi-mutui-terzo-trimestre-2026-480.webp",
+          "sha256": "ef6d2532fe968101c81f45db74b387589a64d48012e7a0b7db63929af3278db3",
+          "bytes": 36568
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/bankitalia-casa-prezzi-fermi-mutui-terzo-trimestre-2026-800.webp",
+          "sha256": "b5014023017ca6c01e8211ee6f6e682a4f0583dae75957c6caf82fff03efa57b",
+          "bytes": 89858
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/bankitalia-casa-prezzi-fermi-mutui-terzo-trimestre-2026-1200.webp",
+          "sha256": "efe321003730e4c3e0a924ad66c520ebcb23c863ff331fe8d1af2cb9b02a4d1e",
+          "bytes": 179188
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/bankitalia-casa-prezzi-fermi-mutui-terzo-trimestre-2026.html"
+    },
+    {
+      "id": "ue-indonesia-consiglio-via-libera-firma-accordi-commerciali-18-novembre-2026",
+      "key": "ue-indonesia-consiglio-via-libera-firma-accordi-commerciali-18-novembre-2026",
+      "alt": "Container senza marchi e gru in un porto commerciale anonimo",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ue-indonesia-consiglio-via-libera-firma-accordi-commerciali-18-novembre-2026-480.webp",
+          "sha256": "e46df89b18f5e2e1ce2ea837e33e929ec1100911e1ae5ef6c1ea8e445cfa4154",
+          "bytes": 21044
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ue-indonesia-consiglio-via-libera-firma-accordi-commerciali-18-novembre-2026-800.webp",
+          "sha256": "26eeab11ca7c63117fede66c7d074cbbc40c9d74fc9940cfae1a6bb3115d5073",
+          "bytes": 49694
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ue-indonesia-consiglio-via-libera-firma-accordi-commerciali-18-novembre-2026-1200.webp",
+          "sha256": "83baa5a8acafd0c38c4ba731774e17ac0c4737a04416a840100f86727ee10a60",
+          "bytes": 96236
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/ue-indonesia-consiglio-via-libera-firma-accordi-commerciali-18-novembre-2026.html"
+    },
+    {
+      "id": "ue-materiali-avanzati-agenda-2035-18-novembre-2026",
+      "key": "ue-materiali-avanzati-agenda-2035-18-novembre-2026",
+      "alt": "Campione di materiale composito e strumentazione di prova in un laboratorio anonimo",
+      "variants": [
+        {
+          "w": 480,
+          "h": 270,
+          "src": "/assets/images/editorial-auto/ue-materiali-avanzati-agenda-2035-18-novembre-2026-480.webp",
+          "sha256": "57c0deca4e77e9242db49c936800a6577c0318a5a844d6b5812268810d9adcd5",
+          "bytes": 17110
+        },
+        {
+          "w": 800,
+          "h": 450,
+          "src": "/assets/images/editorial-auto/ue-materiali-avanzati-agenda-2035-18-novembre-2026-800.webp",
+          "sha256": "2186f1375b54c05484909343cc1ef58277ce44bb2d9d58c0115ca40f1bd96333",
+          "bytes": 35218
+        },
+        {
+          "w": 1200,
+          "h": 675,
+          "src": "/assets/images/editorial-auto/ue-materiali-avanzati-agenda-2035-18-novembre-2026-1200.webp",
+          "sha256": "f8cd01f57d9a6754a141c0cb1404f136b21fcb79d033bdf30cdc5dd938ba2c87",
+          "bytes": 60708
+        }
+      ],
+      "aiGenerated": true,
+      "syntheticLikeness": null,
+      "sensitiveContext": false,
+      "officialArtwork": false,
+      "documentaryPhoto": false,
+      "disclosure": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
+      "article": "/notizie/ue-materiali-avanzati-agenda-2035-18-novembre-2026.html"
+    },
     {
       "id": "elisa-del-mese-racconta-la-fine-di-un-amore-in-diffidare-delle-cucine-pulite-18-novembre-2026-v1534",
       "key": "elisa-del-mese-racconta-la-fine-di-un-amore-in-diffidare-delle-cucine-pulite-18-novembre-2026-v1534",
