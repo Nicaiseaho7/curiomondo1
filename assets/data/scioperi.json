@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "meta": {
     "timezone": "Europe/Rome",
-    "lastVerified": "2026-11-16T22:48:00+01:00",
-    "verificationLabel": "16 novembre 2026 alle ore 22:48",
+    "lastVerified": "2026-11-19T00:20:00+01:00",
+    "verificationLabel": "19 novembre 2026 alle ore 00:20",
     "dataPolicy": "Sono pubblicati soltanto dati riscontrati in calendari o comunicazioni ufficiali. I campi non disponibili sono indicati come Non comunicato.",
     "officialSources": [
       {
@@ -316,7 +316,7 @@
         "valle-d-aosta",
         "veneto"
       ],
-      "verifiedAt": "2026-11-16T22:48:00+01:00",
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
@@ -367,7 +367,7 @@
         "valle-d-aosta",
         "veneto"
       ],
-      "verifiedAt": "2026-11-16T22:48:00+01:00",
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
@@ -422,7 +422,7 @@
         "valle-d-aosta",
         "veneto"
       ],
-      "verifiedAt": "2026-11-16T22:48:00+01:00",
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
@@ -448,7 +448,7 @@
       "regions": [
         "veneto"
       ],
-      "verifiedAt": "2026-11-16T22:48:00+01:00",
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
@@ -474,7 +474,7 @@
       "regions": [
         "lombardia"
       ],
-      "verifiedAt": "2026-11-16T22:48:00+01:00",
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
@@ -519,7 +519,7 @@
         "valle-d-aosta",
         "veneto"
       ],
-      "verifiedAt": "2026-11-16T22:48:00+01:00",
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
@@ -545,7 +545,7 @@
       "regions": [
         "lazio"
       ],
-      "verifiedAt": "2026-11-16T22:48:00+01:00",
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
@@ -571,7 +571,445 @@
       "regions": [
         "emilia-romagna"
       ],
-      "verifiedAt": "2026-11-16T22:48:00+01:00",
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-11-20-generale-clap-cobas",
+      "title": "Sciopero generale categorie pubbliche e private (escluso trasporto passeggeri)",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-20",
+      "startsAt": "2026-11-20T00:00:00+01:00",
+      "endsAt": "2026-11-20T23:59:00+01:00",
+      "scheduleText": "Intera giornata - escluso servizio trasporto passeggeri",
+      "sector": "altri",
+      "sectorLabel": "Sciopero generale",
+      "territory": "Tutta Italia",
+      "services": "Categorie pubbliche e private, con esclusione del trasporto ferroviario, merci su rotaia e varie aziende TPL",
+      "organizations": "CLAP / CONF. COBAS / SIAL-COBAS",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": true,
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-11-20-21-pdm-pdb-fsi",
+      "title": "Sciopero nazionale personale di macchina e di bordo Gruppo FS Italiane",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-21",
+      "startsAt": "2026-11-20T21:00:00+01:00",
+      "endsAt": "2026-11-21T20:00:00+01:00",
+      "scheduleText": "23 ore: dalle 21:00 del 20 novembre alle 20:00 del 21 novembre",
+      "sector": "treni",
+      "sectorLabel": "Ferroviario",
+      "territory": "Tutta Italia",
+      "services": "Personale di macchina e di bordo del Gruppo Ferrovie dello Stato Italiane",
+      "organizations": "Assemblea Nazionale PDM/PDB Gruppo FSI",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": true,
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-11-20-21-cat-ferroviario",
+      "title": "Sciopero nazionale settore ferroviario e trasporto merci su rotaia",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-21",
+      "startsAt": "2026-11-20T21:00:00+01:00",
+      "endsAt": "2026-11-21T20:00:00+01:00",
+      "scheduleText": "23 ore: dalle 21:00 del 20 novembre alle 20:00 del 21 novembre",
+      "sector": "treni",
+      "sectorLabel": "Ferroviario e trasporto merci su rotaia",
+      "territory": "Tutta Italia",
+      "services": "Personale imprese che svolgono attività ferroviaria",
+      "organizations": "CAT",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": true,
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-11-20-generale-cib-unicobas",
+      "title": "Sciopero generale categorie pubbliche e private (escluso settore trasporti)",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-20",
+      "startsAt": "2026-11-20T00:00:00+01:00",
+      "endsAt": "2026-11-20T23:59:00+01:00",
+      "scheduleText": "Intera giornata",
+      "sector": "altri",
+      "sectorLabel": "Sciopero generale",
+      "territory": "Tutta Italia",
+      "services": "Categorie pubbliche e private con esclusione del settore trasporti",
+      "organizations": "CIB-UNICOBAS",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": true,
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-11-21-orsa-verona",
+      "title": "Sciopero locale personale manutenzione e ingegneria RFI Verona",
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-21",
+      "startsAt": "2026-11-21T09:01:00+01:00",
+      "endsAt": "2026-11-21T17:00:00+01:00",
+      "scheduleText": "8 ore: dalle 9:01 alle 17:00",
+      "sector": "treni",
+      "sectorLabel": "Ferroviario",
+      "territory": "Veneto - Verona",
+      "services": "Personale manutenzione ed ingegneria soc. RFI DOIT Verona Unità Territoriale Sud",
+      "organizations": "OSR ORSA Ferrovie",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": false,
+      "regions": [
+        "veneto"
+      ],
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-11-21-cat-merci",
+      "title": "Sciopero nazionale personale di bordo e macchina trasporto merci su rotaia",
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-21",
+      "startsAt": "2026-11-21T09:00:00+01:00",
+      "endsAt": "2026-11-21T17:00:00+01:00",
+      "scheduleText": "8 ore: dalle 09:00 alle 17:00",
+      "sector": "treni",
+      "sectorLabel": "Trasporto merci su rotaia",
+      "territory": "Tutta Italia",
+      "services": "Personale di bordo, di macchina e tecnici polifunzionali treno di varie società di trasporto merci",
+      "organizations": "CAT",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": true,
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-11-27-poste-air-cargo",
+      "title": "Sciopero nazionale personale navigante tecnico Poste Air Cargo",
+      "startDate": "2026-11-27",
+      "endDate": "2026-11-27",
+      "startsAt": "2026-11-27T00:01:00+01:00",
+      "endsAt": "2026-11-27T23:59:00+01:00",
+      "scheduleText": "24 ore: dalle 00:01 alle 23:59",
+      "sector": "aerei",
+      "sectorLabel": "Aereo",
+      "territory": "Tutta Italia",
+      "services": "Personale navigante tecnico della soc. Poste Air Cargo",
+      "organizations": "FILT-CGIL / FIT-CISL / UILT-UIL / ANPAC / ANP",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": true,
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-12-04-usi-1912",
+      "title": "Sciopero generale personale a tempo determinato e indeterminato con contratti precari",
+      "startDate": "2026-12-04",
+      "endDate": "2026-12-04",
+      "startsAt": "2026-12-04T00:00:00+01:00",
+      "endsAt": "2026-12-04T23:59:00+01:00",
+      "scheduleText": "Intera giornata",
+      "sector": "altri",
+      "sectorLabel": "Sciopero generale",
+      "territory": "Tutta Italia",
+      "services": "Personale a tempo determinato e indeterminato con contratti precari e atipici di tutti i comparti, esclusione del settore trasporti",
+      "organizations": "Unione Sindacale Italiana USI 1912",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": true,
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-12-14-tpl-crotone",
+      "title": "Sciopero locale personale autolinee Romano Regionali e Fratelli Romano di Crotone",
+      "startDate": "2026-12-14",
+      "endDate": "2026-12-14",
+      "startsAt": "2026-12-14T10:59:00+01:00",
+      "endsAt": "2026-12-14T14:59:00+01:00",
+      "scheduleText": "4 ore: dalle 10:59 alle 14:59",
+      "sector": "tpl",
+      "sectorLabel": "Trasporto pubblico locale",
+      "territory": "Calabria - Crotone",
+      "services": "Personale socc. Autolinee Romano Regionali e Fratelli Romano di Crotone",
+      "organizations": "OST FILT-CGIL / UILT-UIL / FAISA-CISAL / UGL-FNA + RSA",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": false,
+      "regions": [
+        "calabria"
+      ],
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-12-14-tpl-rende",
+      "title": "Sciopero locale personale Fasa di Rende (CS)",
+      "startDate": "2026-12-14",
+      "endDate": "2026-12-14",
+      "startsAt": "2026-12-14T10:59:00+01:00",
+      "endsAt": "2026-12-14T14:59:00+01:00",
+      "scheduleText": "4 ore: dalle 10:59 alle 14:59",
+      "sector": "tpl",
+      "sectorLabel": "Trasporto pubblico locale",
+      "territory": "Calabria - Cosenza",
+      "services": "Personale soc. Fasa di Rende (CS)",
+      "organizations": "OSR / OSP FAISA-CISAL",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": false,
+      "regions": [
+        "calabria"
+      ],
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-12-15-taxi-nazionale",
+      "title": "Sciopero nazionale addetti al servizio taxi",
+      "startDate": "2026-12-15",
+      "endDate": "2026-12-15",
+      "startsAt": "2026-12-15T08:00:00+01:00",
+      "endsAt": "2026-12-15T22:00:00+01:00",
+      "scheduleText": "14 ore: dalle 08:00 alle 22:00",
+      "sector": "altri",
+      "sectorLabel": "Taxi",
+      "territory": "Tutta Italia",
+      "services": "Addetti al servizio taxi",
+      "organizations": "CLAAI / URITAXI / UTI / UNIMPRESA / ORSA TAXI / UGL TAXI / FEDERTAXI CISAL / SITAN / FAST CONFSAL TAXI / SATAM / TAM / USB TAXI / FILT CGIL TAXI / UILTRASPORTI / ATLT / CONSULTAXI / SUL TAXI / ATITAXI",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": true,
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
+      "verifiedAt": "2026-11-19T00:20:00+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
