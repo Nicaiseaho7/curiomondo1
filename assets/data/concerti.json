@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-18T02:17:29+01:00",
+  "lastVerified": "2026-11-18T05:36:57+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -4695,6 +4695,27 @@
         "image": "/assets/images/editorial-auto/greenpeace-protesta-a-roma-contro-il-disegno-di-legge-sulla-caccia-17-novembre-2026-v20261117sactm-1200.webp"
       },
       "lastVerified": "2026-11-18T02:17:29+01:00"
+    },
+    {
+      "id": "club-italia-marsala-parma-2026-11-18",
+      "artist": "Club Italia",
+      "tour": "Serie A2 femminile contro Sigel Seap Marsala",
+      "start": "2026-11-18T16:00:00+01:00",
+      "end": "2026-11-18T18:00:00+01:00",
+      "city": "Parma",
+      "province": "PR",
+      "region": "Emilia-Romagna",
+      "venue": "PalaRaschi",
+      "genre": "Pallavolo",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "kind": "sport",
+      "lastVerified": "2026-11-18T05:36:57+01:00",
+      "article": "/notizie/club-italia-marsala-appuntamento-a-parma-per-il-turno-infrasettimanale-17-novembre-2026.html",
+      "sourceUrl": "https://www.federvolley.it/comunicato-stampa-del-17-novembre-2026",
+      "ticketUrl": "https://www.legavolleyfemminile.it/lvf-a2-fineco-scontri-diretta-in-coda-e-in-cima-messina-ospita-altino-trento-sfida-perugia/"
     }
   ]
 }
