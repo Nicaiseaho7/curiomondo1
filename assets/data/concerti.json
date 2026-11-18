@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-17T20:30:07+01:00",
+  "lastVerified": "2026-11-18T02:17:29+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -4645,6 +4645,56 @@
         "image": "/assets/images/editorial-auto/basket-under-16-luminati-convoca-diciotto-giocatori-per-iscar-17-novembre-2026-v20261117gs-1200.webp"
       },
       "lastVerified": "2026-11-17T20:30:07+01:00"
+    },
+    {
+      "id": "morandini-2026-anteprima-bologna-2026-11-19",
+      "artist": "Luisa Morandini",
+      "tour": "Anteprima dell’annuario Il Morandini 2026",
+      "start": "2026-11-19T18:00:00+01:00",
+      "end": "2026-11-19T20:00:00+01:00",
+      "showTime": true,
+      "city": "Bologna",
+      "province": "BO",
+      "region": "Emilia-Romagna",
+      "venue": "Pop Up Cinema Jolly 4K",
+      "genre": "Cultura",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "featured": false,
+      "kind": "evento",
+      "sourceUrl": "https://www.ansa.it/sito/notizie/cultura/cinema/2026/11/17/torna-il-morandini-2026-anteprima-dellannuario-al-pop-up-cinema-jolly-di-bologna_fb81e0e5-288c-4372-b139-7a9adc41f6a3.html",
+      "article": {
+        "url": "/notizie/il-morandini-2026-annunciata-lanteprima-bolognese-dellannuario-17-novembre-2026.html",
+        "title": "Il Morandini 2026, annunciata l’anteprima bolognese dell’annuario",
+        "description": "Incontro gratuito il 19 novembre alle 18 al Pop Up Cinema Jolly; per la successiva proiezione è richiesta la prenotazione.",
+        "image": "/assets/images/editorial-auto/il-morandini-2026-annunciata-lanteprima-bolognese-dellannuario-17-novembre-2026-v20261117sactm-1200.webp"
+      },
+      "lastVerified": "2026-11-18T02:17:29+01:00"
+    },
+    {
+      "id": "greenpeace-presidio-caccia-roma-2026-11-26",
+      "artist": "Greenpeace Italia",
+      "tour": "Presidio contro il disegno di legge sulla caccia",
+      "start": "2026-11-26T09:30:00+01:00",
+      "end": "2026-11-26T13:00:00+01:00",
+      "showTime": true,
+      "city": "Roma",
+      "province": "RM",
+      "region": "Lazio",
+      "venue": "Piazza Capranica",
+      "genre": "Ambiente",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "featured": false,
+      "kind": "evento",
+      "sourceUrl": "https://www.greenpeace.org/italy/comunicato-stampa/32274/ddl-caccia-greenpeace-in-azione-a-piazza-del-popolo-con-mega-striscione-la-natura-non-e-un-bersaglio-governo-fermi-subito-questa-pericolosa-legge-sparatutto/",
+      "article": {
+        "url": "/notizie/greenpeace-protesta-a-roma-contro-il-disegno-di-legge-sulla-caccia-17-novembre-2026.html",
+        "title": "Greenpeace protesta a Roma contro il disegno di legge sulla caccia",
+        "description": "L’associazione contesta la riforma con uno striscione al Pincio e chiede al Parlamento di fermare il provvedimento.",
+        "image": "/assets/images/editorial-auto/greenpeace-protesta-a-roma-contro-il-disegno-di-legge-sulla-caccia-17-novembre-2026-v20261117sactm-1200.webp"
+      },
+      "lastVerified": "2026-11-18T02:17:29+01:00"
     }
   ]
 }
