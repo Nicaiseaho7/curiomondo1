@@ -64,7 +64,12 @@
     'guindani-genova-2026-11-15': {url:'/notizie/genova-mostra-libro-stefano-guindani-palazzo-ducale-2026.html', title:'Genova negli scatti di Stefano Guindani, mostra a Palazzo Ducale fino all’8 dicembre', description:'', image:'/assets/images/editorial-auto/genova-mostra-libro-stefano-guindani-palazzo-ducale-2026-v1423-1200.webp'},
     'sguardi-sassuolo-2026-11-15': {url:'/notizie/sguardi-sul-paesaggio-palazzo-ducale-sassuolo-7-22-novembre-2026.html', title:'Sguardi sul paesaggio arriva a Sassuolo: 60 fotografie e ingresso gratuito fino al 22 novembre', description:'', image:'/assets/images/editorial-auto/sguardi-sul-paesaggio-palazzo-ducale-sassuolo-7-22-novembre-2026-v1384-1200.webp'},
   };
-  function story(event) { return event.article || ARTICLES[event.id] || null; }
+  function story(event) {
+    const raw = event.article || ARTICLES[event.id] || null;
+    if (!raw) return null;
+    if (typeof raw === 'string') return {url: raw, title: event.artist || 'Notizia', description: event.tour || '', image: ''};
+    return raw.url ? raw : null;
+  }
   let data = null;
   let saved = loadSaved();
 
@@ -92,7 +97,7 @@
       <time class="date-box" datetime="${esc(event.start)}"><strong>${parts.day}</strong><span>${esc(parts.month)}</span></time>
       <div class="event-main"><h3>${esc(event.artist)}</h3><p>${esc(event.tour || 'Evento')}</p><p>${esc(fmtDate.format(date))}${showTime ? ` · ore ${esc(fmtTime.format(date))}` : ''}${event.doors ? ` · porte ${esc(event.doors)}` : ''}${until ? ` · ${esc(until)}` : ''}</p></div>
       <div class="event-location"><strong>${esc(event.city)}</strong><p>${esc(event.venue)} · ${esc(event.region)}</p>${travel ? `<p class="event-travel">Come arrivare: ${esc(travel)}</p>` : ''}</div>
-      <div class="event-actions"><span class="status ${esc(event.ticketStatus)}">${esc(eventState(event, archived))}</span>${tickets}${storyLink ? `<a class="news-link" href="${esc(storyLink.url)}">Leggi la notizia</a>` : ''}<div class="card-tools">${archived ? '' : `<button class="icon-button save-button" type="button" data-save="${esc(event.id)}" aria-pressed="${isSaved}" aria-label="${isSaved ? 'Rimuovi dai' : 'Salva nei'} preferiti">${isSaved ? '★ Salvato' : '☆ Salva'}</button>`}<button class="icon-button share-button" type="button" data-share="${esc(event.id)}">Condividi</button></div></div>
+      <div class="event-actions"><span class="status ${esc(event.ticketStatus)}">${esc(eventState(event, archived))}</span>${tickets}${storyLink && storyLink.url ? `<a class="news-link" href="${esc(storyLink.url)}">Leggi la notizia</a>` : ''}<div class="card-tools">${archived ? '' : `<button class="icon-button save-button" type="button" data-save="${esc(event.id)}" aria-pressed="${isSaved}" aria-label="${isSaved ? 'Rimuovi dai' : 'Salva nei'} preferiti">${isSaved ? '★ Salvato' : '☆ Salva'}</button>`}<button class="icon-button share-button" type="button" data-share="${esc(event.id)}">Condividi</button></div></div>
       ${event.note ? `<p class="event-note">${esc(event.note)}</p>` : ''}
     </article>`;
   }
@@ -155,7 +160,7 @@
     const section = $('#concertNewsSection'); const root = $('#concertNews'); if (!section || !root) return;
     const articles = [...new Map(data.events.map(event => story(event)).filter(Boolean).map(article => [article.url, article])).values()];
     if (!articles.length) { section.hidden = true; return; }
-    root.innerHTML = articles.map(article => `<article><img src="${esc(article.image)}" alt="" loading="lazy"><div><h3>${esc(article.title)}</h3><p>${esc(article.description || '')}</p><a href="${esc(article.url)}">Leggi la notizia completa</a></div></article>`).join(''); section.hidden = false;
+    root.innerHTML = articles.map(article => `<article>${article.image ? `<img src="${esc(article.image)}" alt="" loading="lazy">` : ''}<div><h3>${esc(article.title)}</h3><p>${esc(article.description || '')}</p><a href="${esc(article.url)}">Leggi la notizia completa</a></div></article>`).join(''); section.hidden = false;
   }
   function renderCalendar() {
     const root = $('#concertGroups'); if (!root) return; const events = selectedEvents(); root.innerHTML = groupMarkup(events);
