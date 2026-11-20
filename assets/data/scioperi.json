@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "meta": {
     "timezone": "Europe/Rome",
-    "lastVerified": "2026-11-20T00:20:00+01:00",
-    "verificationLabel": "20 novembre 2026 alle ore 00:20",
+    "lastVerified": "2026-11-21T00:15:00+01:00",
+    "verificationLabel": "21 novembre 2026 alle ore 00:15",
     "dataPolicy": "Sono pubblicati soltanto dati riscontrati in calendari o comunicazioni ufficiali. I campi non disponibili sono indicati come Non comunicato.",
     "officialSources": [
       {
@@ -397,7 +397,7 @@
       "territory": "Tutta Italia",
       "services": "Personale ENAV",
       "organizations": "FILT-CGIL / UGL-TA",
-      "status": "proclamato",
+      "status": "revocato",
       "guarantees": "Non comunicato",
       "national": true,
       "regions": [
@@ -422,7 +422,7 @@
         "valle-d-aosta",
         "veneto"
       ],
-      "verifiedAt": "2026-11-20T00:20:00+01:00",
+      "verifiedAt": "2026-11-21T00:15:00+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
