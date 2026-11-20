@@ -1,9 +1,35 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-20T00:20:00+01:00",
+  "lastVerified": "2026-11-20T19:30:00+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
+    {
+      "id": "duomottocento-milano-2026-11-20",
+      "artist": "DuomOttocento",
+      "tour": "Mostra sulla cattedrale nell’Ottocento",
+      "start": "2026-11-20T10:00:00+01:00",
+      "end": "2027-02-23T19:00:00+01:00",
+      "city": "Milano",
+      "province": "MI",
+      "region": "Lombardia",
+      "venue": "Museo del Duomo",
+      "genre": "Mostra",
+      "kind": "evento",
+      "status": "in-vendita",
+      "ticketStatus": "available",
+      "showTime": false,
+      "featured": false,
+      "lastVerified": "2026-11-20T19:30:00+01:00",
+      "article": {
+        "url": "/notizie/milano-apre-al-museo-del-duomo-la-mostra-duomottocento-20-novembre-2026.html",
+        "title": "Milano, apre al Museo del Duomo la mostra «DuomOttocento»",
+        "description": "Dal 20 novembre al 23 febbraio, documenti e opere raccontano il secolo che diede alla cattedrale la sua fisionomia.",
+        "image": "/assets/images/editorial-auto/milano-apre-al-museo-del-duomo-la-mostra-duomottocento-20-novembre-2026-v1605-1200.webp"
+      },
+      "sourceUrl": "https://www.duomomilano.it/duomottocento-mostra-museo-del-duomo/",
+      "ticketUrl": "https://www.duomomilano.it/duomottocento-mostra-museo-del-duomo/"
+    },
     {
       "end": "2026-12-08T23:59:00+01:00",
       "ticketStatus": "unknown",
