@@ -805,6 +805,16 @@ for news_file in sorted((root/'notizie').glob('*.html')):
     if any(re.search(r'color\s*:', h1, re.I) for h1 in h1s):
         errors.append(f'titolo colorato vietato: notizie/{news_file.name}')
 
+for news_file in sorted((root/'notizie').glob('*.html')):
+    if news_file.name=='index.html': continue
+    raw_cover=news_file.read_text(encoding='utf-8', errors='replace')
+    published=re.search(r'datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})', raw_cover)
+    if not published or published.group(1) < '2026-11-22':
+        continue
+    cover_imgs=set(re.findall(r'/assets/images/editorial-auto/([^"\s]+)', raw_cover))
+    if not cover_imgs or not any(news_file.stem in im for im in cover_imgs):
+        errors.append(f'copertina non inerente o presa da un altro articolo: notizie/{news_file.name}')
+
 report={'version':284,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
 print(json.dumps(report,ensure_ascii=False,indent=2))
 raise SystemExit(1 if errors else 0)
