@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-21T00:15:00+01:00",
+  "lastVerified": "2026-11-21T07:15:00+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -4963,6 +4963,56 @@
       "lastVerified": "2026-11-20T00:20:00+01:00",
       "featured": false,
       "article": null
+    },
+    {
+      "kind": "evento",
+      "status": "annunciato",
+      "featured": false,
+      "lastVerified": "2026-11-21T07:15:00+01:00",
+      "id": "artigiano-in-fiera-rho-2026-12-05",
+      "artist": "Artigiano in Fiera",
+      "tour": "Edizione 2026",
+      "start": "2026-12-05T10:00:00+01:00",
+      "end": "2026-12-13T22:00:00+01:00",
+      "city": "Rho",
+      "province": "MI",
+      "region": "Lombardia",
+      "venue": "Fiera Milano",
+      "genre": "Fiera",
+      "ticketStatus": "free",
+      "showTime": true,
+      "sourceUrl": "https://www.ansa.it/lombardia/notizie/2026/11/20/dal-5-al-13-dicembre-torna-artigiano-in-fiera-a-milano-espositori-da-80-paesi_531f170d-f92d-444c-93e8-f1c2c3a4b97b.html",
+      "article": {
+        "url": "/notizie/artigiano-in-fiera-a-rho-dal-5-al-13-dicembre-2-700-espositori-21-novembre-2026.html",
+        "title": "Artigiano in Fiera a Rho dal 5 al 13 dicembre: 2.700 espositori",
+        "description": "La manifestazione apre dalle 10 alle 22 con pass gratuito; presenti artigiani di 80 Paesi e aree dedicate al cibo.",
+        "image": "/assets/images/editorial-auto/artigiano-in-fiera-a-rho-dal-5-al-13-dicembre-2-700-espositori-21-novembre-2026-v1608-1200.webp"
+      }
+    },
+    {
+      "kind": "evento",
+      "status": "annunciato",
+      "featured": false,
+      "lastVerified": "2026-11-21T07:15:00+01:00",
+      "id": "albero-natale-san-pietro-2026-12-07",
+      "artist": "Accensione dell’albero di Natale",
+      "tour": "Piazza San Pietro 2026",
+      "start": "2026-12-07T17:30:00+01:00",
+      "end": "2026-12-07T17:30:00+01:00",
+      "city": "Città del Vaticano",
+      "province": "",
+      "region": "Lazio",
+      "venue": "Piazza San Pietro",
+      "genre": "Cerimonia",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "sourceUrl": "https://www.ansa.it/english/news/2026/11/20/christmas-tree-in-st.-peters-square-to-be-lit-simultaneously-with-gubbio_b9eeee48-b1dd-40d8-b149-d51711fbf96b.html",
+      "article": {
+        "url": "/notizie/albero-di-natale-in-piazza-san-pietro-accensione-il-7-dicembre-con-gubbio-21-novembre-2026.html",
+        "title": "Albero di Natale in piazza San Pietro, accensione il 7 dicembre con Gubbio",
+        "description": "L'abete del Pollino è alto 24 metri; il collegamento partirà alle 17.30 e coinvolgerà bambini in cura negli ospedali.",
+        "image": "/assets/images/editorial-auto/albero-di-natale-in-piazza-san-pietro-accensione-il-7-dicembre-con-gubbio-21-novembre-2026-v1608-1200.webp"
+      }
     }
   ]
 }
