@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "meta": {
     "timezone": "Europe/Rome",
-    "lastVerified": "2026-11-21T00:15:00+01:00",
-    "verificationLabel": "21 novembre 2026 alle ore 00:15",
+    "lastVerified": "2026-11-21T13:24:06+01:00",
+    "verificationLabel": "21 novembre 2026 alle ore 13:24",
     "dataPolicy": "Sono pubblicati soltanto dati riscontrati in calendari o comunicazioni ufficiali. I campi non disponibili sono indicati come Non comunicato.",
     "officialSources": [
       {
@@ -1209,9 +1209,49 @@
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
       },
       "article": null
+    },
+    {
+      "id": "teatro-2026-11-20-carlo-felice-genova",
+      "title": "Sciopero al Teatro Carlo Felice di Genova",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-22",
+      "startsAt": "2026-11-20T18:00:00+01:00",
+      "endsAt": "2026-11-22T23:59:00+01:00",
+      "scheduleText": "Il 20 novembre lo sciopero ha ridotto i Capuleti e i Montecchi a una selezione di arie. Lo Snater aveva annunciato l’astensione anche per la recita del 22 novembre, non ancora confermata.",
+      "sector": "altri",
+      "sectorLabel": "Spettacolo",
+      "territory": "Genova",
+      "services": "Coro e personale tecnico del Teatro Carlo Felice",
+      "organizations": "Snater e CGIL",
+      "status": "confermato",
+      "guarantees": "Il 20 novembre i biglietti non sono stati vidimati. Cambio recita o rimborso da confermare con la biglietteria del teatro.",
+      "national": false,
+      "regions": [
+        "liguria"
+      ],
+      "verifiedAt": "2026-11-21T13:24:06+01:00",
+      "source": {
+        "label": "ANSA",
+        "url": "https://www.ansa.it/liguria/notizie/2026/11/21/teatro-carlo-felice-arie-belliniane-nella-serata-dello-sciopero_00d27de0-6962-4c6f-a146-2ffc9f29c53e.html"
+      },
+      "article": {
+        "url": "/notizie/carlo-felice-sciopero-dei-dipendenti-e-prima-dopera-a-rischio-17-novembre-2026.html",
+        "title": "Carlo Felice, lo sciopero modifica la serata dedicata a Bellini",
+        "summary": "Il 20 novembre i Capuleti e i Montecchi sono diventati una selezione di arie. I biglietti non sono stati vidimati; la recita del 22 non è ancora confermata.",
+        "image": "/assets/images/editorial-auto/carlo-felice-lo-sciopero-modifica-la-serata-dedicata-a-bellini-21-novembre-2026-v2026112102-1200.webp",
+        "imageAlt": "Illustrazione editoriale IA senza persone: Carlo Felice, lo sciopero modifica la serata dedicata a Bellini"
+      }
     }
   ],
   "articles": [
+    {
+      "url": "/notizie/carlo-felice-sciopero-dei-dipendenti-e-prima-dopera-a-rischio-17-novembre-2026.html",
+      "title": "Carlo Felice, lo sciopero modifica la serata dedicata a Bellini",
+      "summary": "Il 20 novembre i Capuleti e i Montecchi sono diventati una selezione di arie. I biglietti non sono stati vidimati; la recita del 22 non è ancora confermata.",
+      "image": "/assets/images/editorial-auto/carlo-felice-lo-sciopero-modifica-la-serata-dedicata-a-bellini-21-novembre-2026-v2026112102-1200.webp",
+      "imageAlt": "Illustrazione editoriale IA senza persone: Carlo Felice, lo sciopero modifica la serata dedicata a Bellini",
+      "publishedAt": "2026-11-17T18:59:14+01:00"
+    },
     {
       "url": "/notizie/inps-sciopero-generale-20-novembre-2026-disservizi.html",
       "title": "INPS, sciopero generale il 20 novembre: possibili rallentamenti negli sportelli e nei servizi",
