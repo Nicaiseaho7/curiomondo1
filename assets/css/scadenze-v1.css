@@ -93,3 +93,4 @@ body{background:#f5f8fd}
 .search-fold[open] .when-open{display:inline}
 .search-fold__hint::after{content:"";width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px)}
 .search-fold[open] .search-fold__hint::after{transform:rotate(225deg) translateY(1px)}
+.kind-scadenza.kind-due,.detail-badge.kind-due{background:#b91c1c;color:#fff}
