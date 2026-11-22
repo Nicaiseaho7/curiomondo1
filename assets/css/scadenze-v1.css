@@ -67,3 +67,11 @@ body{background:#f5f8fd}
 .cm-dark .deadline-hero,.cm-dark .detail-hero{background:#0c1820}
 .cm-dark .deadline-hero h1,.cm-dark .detail-hero h1,.cm-dark .deadline-title,.cm-dark .detail-date span{color:#edf4f3}
 .cm-dark .deadline-card,.cm-dark .method-fold details,.cm-dark .filter-panel,.cm-dark .detail-content,.cm-dark .detail-aside{background:#12232c;color:#edf4f3}
+
+.kind{display:inline-flex;align-items:center;width:max-content;min-height:22px;margin-bottom:5px;padding:2px 8px;border-radius:999px;font-size:.68rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.kind-scadenza{background:#102940;color:#fff}
+.kind-apertura{background:#eaf3ff;color:#0d4fae}
+.status.due{background:#fff;color:#b91c1c;border:1px solid #b91c1c}
+.deadline-card.is-due{border-color:#e7b4b4}
+.detail-badge.kind-scadenza{background:#102940;color:#fff}
+.detail-badge.kind-apertura{background:#eaf3ff;color:#0d4fae}
