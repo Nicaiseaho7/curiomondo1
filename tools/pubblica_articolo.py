@@ -68,12 +68,19 @@ def scarica_immagine(origine: str) -> bytes:
     return Path(origine).read_bytes()
 
 
-def genera_immagine(prompt: str) -> tuple[bytes, str]:
+def genera_immagine(articolo: dict[str, Any]) -> tuple[bytes, str]:
     client = Client(timeout=300, retries=2)
     if not client.available:
         raise OpenAIError("OPENAI_API_KEY non configurata per la generazione dell'immagine")
+    prompt = str(articolo.get("immagine", {}).get("prompt") or "")
+    lead = (articolo.get("paragrafi") or [articolo.get("sommario") or ""])[0]
     raw, _ = client.generate_image("gpt-image-1", prompt, size="1536x1024", quality="high")
-    report, _ = client.inspect_image("gpt-4o", raw, prompt)
+    report, _ = client.inspect_image(
+        "gpt-4o", raw,
+        title=str(articolo.get("titolo") or ""),
+        lead=str(lead),
+        brief=prompt,
+    )
     _validate_visual_report(report)
     return raw, "OpenAI gpt-image-1"
 
@@ -204,7 +211,7 @@ def main(argv: list[str] | None = None) -> int:
             generator = ("materiale ufficiale fornito dagli aventi diritto" if materiale_ufficiale
                         else "fornita dalla redazione")
         else:
-            raw, generator = genera_immagine(prompt)
+            raw, generator = genera_immagine(articolo)
         immagine_grezza = _validate_image(raw)
     except Exception as errore:
         print(f"NON PUBBLICATO: immagine non disponibile o non conforme: {errore}", file=sys.stderr)

@@ -25,23 +25,21 @@ def _image_prompt(article: dict[str, Any]) -> str:
     policy_path = ROOT / "AI-EDITORIAL-IMAGE-PROTOCOL.md"
     if not contract_path.exists() or not policy_path.exists():
         raise RuntimeError("contratto o protocollo immagini mancante")
-    contract = contract_path.read_text(encoding="utf-8")
-    policy = policy_path.read_text(encoding="utf-8")
+    # Le sezioni successive contengono istruzioni storiche ormai annullate.
+    contract = contract_path.read_text(encoding="utf-8").split("PROMPT MASTER —", 1)[0]
+    policy = policy_path.read_text(encoding="utf-8").split("Questo file deve essere letto", 1)[0]
     image = article.get("immagine") or {}
     sensitive = bool(image.get("contesto_sensibile") or article.get("verifica", {}).get("sensibile"))
-    public = bool(image.get("personaggio_pubblico"))
-    safety = ""
-    if sensitive and public:
-        safety = "SENSITIVE public figure: neutral isolated portrait only; no traumatic scene."
-    elif sensitive:
-        safety = "Sensitive event: no injuries, bodies, blood, suffering or fabricated traumatic moment."
+    lead = (article.get("paragrafi") or [""])[0]
+    safety = "Sensitive event: no injuries, bodies, blood, suffering or fabricated traumatic moment." if sensitive else ""
     return (
-        contract + "\n\nCanonical policy loaded in full:\n" + policy +
+        contract + "\n\nCurrent image policy:\n" + policy +
         "\n\nCREATE ONE IMAGE NOW. Article title: " + str(article.get("titolo", "")) +
         "\nArticle summary: " + str(article.get("sommario", "")) +
+        "\nArticle lead: " + str(lead) +
         "\nSpecific visual brief: " + str(image.get("prompt", "")) +
         "\n" + safety +
-        "\nSUBJECT: depict the real person, team or brand only when the likeness, kit and logo are reliable. If they are not, use the real place, building or object of THIS story. Never a lookalike, a random extra presented as the real person, a garbled logo or a collage."
+        "\nSUBJECT: depict a directly relevant place, object or anonymous context. Never depict a recognisable real person, an official kit, a logo or a copyrighted character. For sport use the correct sport and a scene without people playing. Never a collage."
         "\nNo headline, caption, statistics, watermark, signature or added editorial text inside the pixels."
     )
 
@@ -61,22 +59,32 @@ def _validate_image(raw: bytes) -> Image.Image:
 
 
 def _validate_visual_report(report: dict[str, Any]) -> None:
-    required_true = ("approvata", "fotorealistica", "coerente", "soggetto_reale")
-    forbidden_true = ("testo_nei_pixel", "contenuto_sensibile_non_consentito", "persone_inventate")
-    if not all(report.get(key) is True for key in required_true):
-        raise OpenAIError(f"immagine bocciata dal controllo visivo: {report.get('motivo', '')[:120]}")
-    if any(report.get(key) is True for key in forbidden_true):
-        raise OpenAIError(f"immagine non conforme: {report.get('motivo', '')[:120]}")
+    if not isinstance(report, dict):
+        raise OpenAIError("verifica visiva non valida")
+    required = ("fotorealistica", "volto_reale_riconoscibile", "logo_o_marchio",
+                "maglia_ufficiale", "persone_che_giocano",
+                "personaggio_protetto", "violenza_o_sofferenza", "falso_documento", "testo_nei_pixel")
+    safe = report.get("esito") == "conforme" and report.get("certezza") == "alta"
+    safe &= report.get("pertinenza") in ("diretta", "simbolica_pertinente")
+    safe &= report.get("fotorealistica") is True
+    safe &= all(report.get(key) is False for key in required[1:])
+    safe &= bool(str(report.get("soggetto_visibile", "")).strip())
+    safe &= bool(str(report.get("nesso_con_notizia", "")).strip())
+    if not safe:
+        raise OpenAIError(f"immagine non approvata (anche se incerta): {str(report.get('motivo', 'esito incompleto'))[:120]}")
 
 
-def _save_variants(image: Image.Image, key: str) -> list[dict[str, Any]]:
+def _crop_image(image: Image.Image) -> Image.Image:
     ratio = 3 / 2
     if image.width / image.height > ratio:
         width = round(image.height * ratio); left = (image.width - width) // 2
-        image = image.crop((left, 0, left + width, image.height))
-    else:
-        height = round(image.width / ratio); top = max(0, (image.height - height) // 2)
-        image = image.crop((0, top, image.width, top + height))
+        return image.crop((left, 0, left + width, image.height))
+    height = round(image.width / ratio); top = max(0, (image.height - height) // 2)
+    return image.crop((0, top, image.width, top + height))
+
+
+def _save_variants(image: Image.Image, key: str) -> list[dict[str, Any]]:
+    image = _crop_image(image)
     out = ROOT / "assets/images/editorial-auto"; out.mkdir(parents=True, exist_ok=True)
     variants = []
     for width in (480, 800, 1200):
@@ -109,13 +117,20 @@ def prepare_release(state_dir: Path, massimo: int = 3) -> dict[str, Any]:
             raw, _ = client.generate_image(
                 str(cfg.get("modello_immagine", "gpt-image-1")), _image_prompt(article)
             )
+            image = _validate_image(raw)
+            cropped = _crop_image(image)
+            preview = io.BytesIO()
+            cropped.save(preview, format="PNG")
+            lead = (article.get("paragrafi") or [""])[0]
+            if not all(str(value).strip() for value in (article.get("titolo"), lead, article.get("immagine", {}).get("prompt"))):
+                raise OpenAIError("titolo, lead o brief immagine mancanti")
             report, _ = client.inspect_image(
                 str(cfg.get("modello_verifica_immagine", "gpt-4o")),
-                raw,
-                str(article.get("immagine", {}).get("prompt", "")),
+                preview.getvalue(),
+                title=str(article["titolo"]), lead=str(lead),
+                brief=str(article["immagine"]["prompt"]),
             )
             _validate_visual_report(report)
-            image = _validate_image(raw)
             key = f"{article['slug']}-ai-openai-v{version}"
             variants = _save_variants(image, key)
             meta = {
@@ -123,8 +138,6 @@ def prepare_release(state_dir: Path, massimo: int = 3) -> dict[str, Any]:
                 "variants": variants, "alt": article["immagine"]["alt"], "disclosure": CAPTION,
                 "sensitiveContext": bool(article["immagine"].get("contesto_sensibile") or article.get("verifica", {}).get("sensibile")),
             }
-            if article["immagine"].get("personaggio_pubblico"):
-                meta["syntheticLikeness"] = "public-figure"
             slug = write_article(article, meta, version)
             register_image(meta, slug, version)
             store.update(candidate.url_key, status=QUEUED, article=article)
