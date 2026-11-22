@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "meta": {
     "timezone": "Europe/Rome",
-    "lastVerified": "2026-11-22T00:15:00+01:00",
-    "verificationLabel": "22 novembre 2026 alle ore 00:15",
+    "lastVerified": "2026-11-23T00:10:00+01:00",
+    "verificationLabel": "23 novembre 2026 alle ore 00:10",
     "dataPolicy": "Sono pubblicati soltanto dati riscontrati in calendari o comunicazioni ufficiali. I campi non disponibili sono indicati come Non comunicato.",
     "officialSources": [
       {
@@ -842,7 +842,7 @@
       "territory": "Tutta Italia",
       "services": "Personale navigante tecnico della soc. Poste Air Cargo",
       "organizations": "FILT-CGIL / FIT-CISL / UILT-UIL / ANPAC / ANP",
-      "status": "proclamato",
+      "status": "revocato",
       "guarantees": "Non comunicato",
       "national": true,
       "regions": [
@@ -867,7 +867,7 @@
         "valle-d-aosta",
         "veneto"
       ],
-      "verifiedAt": "2026-11-22T00:15:00+01:00",
+      "verifiedAt": "2026-11-23T00:10:00+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
