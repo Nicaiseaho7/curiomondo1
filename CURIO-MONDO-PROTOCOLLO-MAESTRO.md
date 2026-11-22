@@ -2,6 +2,14 @@
 
 **Normative language, from 12 November 2026:** English. New protocol text is written in technical English. Italian passages that follow in this file, or in older protocol files, are historical annexes. If they conflict with `PROTOCOL-PUBLIC-PROSE.md`, that protocol wins for any sentence a reader can see.
 
+## Homepage leads — 22 November 2026
+
+**Status:** permanent. This section prevails over the older line that assigned “In evidenza” by editorial weight instead of time, and over any layout that shows the same story in both “In primo piano” and “Ultima ora”.
+
+1. **In primo piano** is always the three most recently published news articles, newest first. The first slide is the newest.
+2. Those three articles never appear in **Ultima ora**. Ultima ora starts at the fourth newest article and continues in publication order.
+3. Every publication updates both blocks before the site is considered published. The split does not change from one batch to the next.
+
 ## Cover replacement — 22 November 2026
 
 **Status:** mandatory before any new article is published. This section prevails over every instruction, in this file or in an older annex, that asks for a public figure, a synthetic likeness, a named athlete, or people playing a sport.
@@ -301,7 +309,7 @@ Nel riquadro Ultima ora non compare l’orario e non compare la categoria. La sc
 - Se esiste già una guida equivalente, collegarla invece di duplicarla. Nessun gancio di conoscenza è obbligatorio e nessun approfondimento può essere creato per raggiungere una lunghezza o aggiungere parole chiave.
 - Quando una notizia offre un meccanismo, un servizio o un contesto con valore durevole e non ridondante, creare o collegare un approfondimento evergreen autonomo. La scrittura di curiosità e approfondimenti segue obbligatoriamente `PROTOCOLLO-CURIOSITA-E-APPROFONDIMENTI.md` (profondità premium, no schede brevi). La guida deve essere realmente utile al lettore e non una scusa per definire parole. Prima di crearne uno nuovo verificare che non esista già un approfondimento equivalente.
 - Ogni nuovo approfondimento deve comparire sotto ogni articolo correlato nel blocco visibile `.cm-evergreen-reader` (regola v470), oltre che nell’archivio Approfondimenti, in ricerca e in sitemap. Una card in `curio-related` non sostituisce il blocco sotto l’articolo. La guida rimanda alle notizie di origine.
-- “In evidenza” compare soltanto sulla card principale della homepage e non sulle card piccole. Non è assegnata per semplice cronologia: ogni nuova notizia riceve un peso editoriale e la posizione va alla notizia più importante del lotto recente.
+- “In evidenza” compare soltanto sulla card principale della homepage e non sulle card piccole. Dal 22 novembre 2026 questa frase non vale per il carosello In primo piano: lì stanno sempre le tre notizie pubblicate per ultime, e non compaiono in Ultima ora. Vedi «Homepage leads — 22 November 2026».
 - Il menu hamburger deve mostrare il nome “Nicaise” con resa tipografica premium, elegante e riconoscibile.
 
 ## Prompt macchina obbligatorio per la generazione immagini — v183
