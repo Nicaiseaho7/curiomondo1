@@ -18,12 +18,27 @@
       "status": "in-arrivo",
       "amount": "Contributo fino a 140.000 euro",
       "how": "Domanda esclusivamente online sulla piattaforma Invitalia, fino a esaurimento delle risorse.",
-      "requirements": ["Micro, piccola o media impresa", "Sede legale e operativa in Italia", "Brevetto e progetto conformi al bando"],
+      "requirements": [
+        "Micro, piccola o media impresa",
+        "Sede legale e operativa in Italia",
+        "Brevetto e progetto conformi al bando"
+      ],
       "sourceName": "Invitalia",
       "sourceUrl": "https://www.invitalia.it/news-media/news/brevetti-dal-25-novembre-2026-la-presentazione-delle-domande",
       "lastVerified": "2026-11-22T09:03:32+01:00",
       "featured": true,
-      "article": null
+      "article": {
+        "url": "/notizie/brevetti-disegni-marchi-2026-32-milioni-date-domande-09-10-2026.html",
+        "title": "Brevetti+, Disegni+ e Marchi+: 32 milioni, domande da novembre",
+        "description": "Il Mimit fissa tre finestre separate per le PMI: Brevetti+ il 25 novembre, Marchi+ il 3 dicembre e Disegni+ il 17 dicembre 2026."
+      },
+      "articles": [
+        {
+          "url": "/notizie/brevetti-disegni-marchi-2026-32-milioni-date-domande-09-10-2026.html",
+          "title": "Brevetti+, Disegni+ e Marchi+: 32 milioni, domande da novembre",
+          "description": "Il Mimit fissa tre finestre separate per le PMI: Brevetti+ il 25 novembre, Marchi+ il 3 dicembre e Disegni+ il 17 dicembre 2026."
+        }
+      ]
     },
     {
       "id": "secondo-acconto-imposte-30-novembre-2026",
@@ -40,12 +55,31 @@
       "status": "attiva",
       "amount": null,
       "how": "Verificare importo e modalità di versamento con il proprio modello dichiarativo o intermediario.",
-      "requirements": ["Essere soggetti al versamento dell'acconto", "Controllare la propria dichiarazione e gli eventuali esoneri"],
+      "requirements": [
+        "Essere soggetti al versamento dell'acconto",
+        "Controllare la propria dichiarazione e gli eventuali esoneri"
+      ],
       "sourceName": "Agenzia delle Entrate",
       "sourceUrl": "https://infoprecompilata.agenziaentrate.gov.it/portale/scadenze",
       "lastVerified": "2026-11-22T09:03:32+01:00",
       "featured": true,
-      "article": null
+      "article": {
+        "url": "/notizie/scadenze-fiscali-novembre-2026-730-acconti-30-novembre.html",
+        "title": "Fisco, le scadenze di novembre: 730 correttivo e acconti",
+        "description": "Il 10 novembre scade il 730 correttivo di tipo 2 tramite applicazione web. Il 30 novembre è l'ultimo giorno per il secondo o unico acconto dei contribuenti interessati."
+      },
+      "articles": [
+        {
+          "url": "/notizie/scadenze-fiscali-novembre-2026-730-acconti-30-novembre.html",
+          "title": "Fisco, le scadenze di novembre: 730 correttivo e acconti",
+          "description": "Il 10 novembre scade il 730 correttivo di tipo 2 tramite applicazione web. Il 30 novembre è l'ultimo giorno per il secondo o unico acconto dei contribuenti interessati."
+        },
+        {
+          "url": "/notizie/scadenze-fiscali-novembre-2026-irpef-irap-ivie-cedolare.html",
+          "title": "Fisco, novembre porta due snodi: rate il 16 e acconti il 30",
+          "description": "Il calendario dell’Agenzia delle Entrate concentra a metà mese versamenti periodici e rateizzati e a fine mese il secondo o unico acconto 2026 di IRPEF, IRAP, IVIE, IVAFE e cedolare secca."
+        }
+      ]
     },
     {
       "id": "ape-sociale-domanda-30-novembre-2026",
@@ -62,12 +96,32 @@
       "status": "attiva",
       "amount": null,
       "how": "Domanda attraverso i servizi INPS o con l'assistenza di un patronato.",
-      "requirements": ["Almeno 63 anni e 5 mesi", "Appartenenza a una categoria tutelata", "Requisiti contributivi previsti dalla misura"],
+      "requirements": [
+        "Almeno 63 anni e 5 mesi",
+        "Appartenenza a una categoria tutelata",
+        "Requisiti contributivi previsti dalla misura"
+      ],
       "sourceName": "INPS",
       "sourceUrl": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.legge-di-bilancio-2026-le-novit-sulle-pensioni.html",
       "lastVerified": "2026-11-22T09:03:32+01:00",
       "featured": true,
-      "article": null
+      "article": {
+        "url": "/notizie/ape-sociale-scadenza-30-novembre-2026.html",
+        "title": "APE Sociale, l’INPS chiarisce due casi: esclusi i contributivi puri, apertura ai domestici",
+        "description": "La misura resta accessibile nel 2026 con almeno 63 anni e 5 mesi. Quota 103 e Opzione donna non sono state prorogate per nuovi accessi."
+      },
+      "articles": [
+        {
+          "url": "/notizie/ape-sociale-scadenza-30-novembre-2026.html",
+          "title": "APE Sociale, l’INPS chiarisce due casi: esclusi i contributivi puri, apertura ai domestici",
+          "description": "La misura resta accessibile nel 2026 con almeno 63 anni e 5 mesi. Quota 103 e Opzione donna non sono state prorogate per nuovi accessi."
+        },
+        {
+          "url": "/notizie/manovra-2027-pensioni-rivalutazione-2447-euro-ape-sociale.html",
+          "title": "Pensioni, rivalutazione piena solo fino a 2.447 euro lordi",
+          "description": "La manovra ripristina fasce decrescenti sopra quattro volte il minimo e proroga l’Ape sociale. I risparmi lordi stimati arrivano a 14,2 miliardi in dieci anni."
+        }
+      ]
     },
     {
       "id": "credito-gasolio-autotrasporto-30-novembre-2026",
@@ -83,12 +137,27 @@
       "status": "attiva",
       "amount": "Credito d’imposta",
       "how": "Istanza sulla piattaforma ufficiale indicata dal Ministero delle Infrastrutture e dei Trasporti.",
-      "requirements": ["Impresa ammessa alla seconda annualità", "Sede o stabile organizzazione in Italia", "Attività e veicoli ammessi dal decreto"],
+      "requirements": [
+        "Impresa ammessa alla seconda annualità",
+        "Sede o stabile organizzazione in Italia",
+        "Attività e veicoli ammessi dal decreto"
+      ],
       "sourceName": "Ministero delle Infrastrutture e dei Trasporti",
       "sourceUrl": "https://www.mit.gov.it/node/18419",
       "lastVerified": "2026-11-22T09:03:32+01:00",
       "featured": false,
-      "article": null
+      "article": {
+        "url": "/notizie/autotrasporto-credito-imposta-gasolio-126-4-milioni-24-ottobre-2026.html",
+        "title": "Credito sul gasolio, domande aperte fino al 30 novembre per gli autotrasportatori",
+        "description": "La finestra riguarda gli acquisti dal 1° settembre al 5 ottobre. La richiesta passa dalla piattaforma ADM: il beneficio si calcola sull’aumento del costo."
+      },
+      "articles": [
+        {
+          "url": "/notizie/autotrasporto-credito-imposta-gasolio-126-4-milioni-24-ottobre-2026.html",
+          "title": "Credito sul gasolio, domande aperte fino al 30 novembre per gli autotrasportatori",
+          "description": "La finestra riguarda gli acquisti dal 1° settembre al 5 ottobre. La richiesta passa dalla piattaforma ADM: il beneficio si calcola sull’aumento del costo."
+        }
+      ]
     },
     {
       "id": "marchi-plus-apertura-3-dicembre-2026",
@@ -105,12 +174,27 @@
       "status": "in-arrivo",
       "amount": "Contributo a fondo perduto",
       "how": "Domanda attraverso la procedura informatica ufficiale Marchi+.",
-      "requirements": ["Micro, piccola o media impresa", "Requisiti previsti dal bando 2026", "Spese e progetto ammissibili"],
+      "requirements": [
+        "Micro, piccola o media impresa",
+        "Requisiti previsti dal bando 2026",
+        "Spese e progetto ammissibili"
+      ],
       "sourceName": "Camera di Commercio Riviere di Liguria",
       "sourceUrl": "https://rivlig.camcom.gov.it/print/pdf/node/5844",
       "lastVerified": "2026-11-22T09:03:32+01:00",
       "featured": false,
-      "article": null
+      "article": {
+        "url": "/notizie/brevetti-disegni-marchi-2026-32-milioni-date-domande-09-10-2026.html",
+        "title": "Brevetti+, Disegni+ e Marchi+: 32 milioni, domande da novembre",
+        "description": "Il Mimit fissa tre finestre separate per le PMI: Brevetti+ il 25 novembre, Marchi+ il 3 dicembre e Disegni+ il 17 dicembre 2026."
+      },
+      "articles": [
+        {
+          "url": "/notizie/brevetti-disegni-marchi-2026-32-milioni-date-domande-09-10-2026.html",
+          "title": "Brevetti+, Disegni+ e Marchi+: 32 milioni, domande da novembre",
+          "description": "Il Mimit fissa tre finestre separate per le PMI: Brevetti+ il 25 novembre, Marchi+ il 3 dicembre e Disegni+ il 17 dicembre 2026."
+        }
+      ]
     },
     {
       "id": "corpi-civili-pace-4-dicembre-2026",
@@ -126,12 +210,17 @@
       "status": "attiva",
       "amount": null,
       "how": "È ammessa una sola domanda, per un unico progetto e un’unica sede, tramite la piattaforma DOL.",
-      "requirements": ["Scegliere un solo progetto e una sola sede", "Presentare la domanda esclusivamente online", "Verificare i requisiti nel bando ufficiale"],
+      "requirements": [
+        "Scegliere un solo progetto e una sola sede",
+        "Presentare la domanda esclusivamente online",
+        "Verificare i requisiti nel bando ufficiale"
+      ],
       "sourceName": "Dipartimento per le Politiche Giovanili",
       "sourceUrl": "https://www.politichegiovanili.gov.it/comunicazione/avvisi-e-bandi/servizio-civile/bandi-di-selezione-volontari/bando-ccp-2026",
       "lastVerified": "2026-11-22T09:03:32+01:00",
       "featured": true,
-      "article": null
+      "article": null,
+      "articles": []
     },
     {
       "id": "carta-dedicata-a-te-attivazione-16-dicembre-2026",
@@ -148,12 +237,32 @@
       "status": "attiva",
       "amount": "1.000 euro complessivi in due tranche",
       "how": "Non serve presentare domanda: i beneficiari sono individuati dall’INPS. Entro il termine va effettuato almeno un acquisto.",
-      "requirements": ["Essere stati individuati come beneficiari", "Avere ricevuto o ritirato la carta", "Effettuare almeno un acquisto entro il termine"],
+      "requirements": [
+        "Essere stati individuati come beneficiari",
+        "Avere ricevuto o ritirato la carta",
+        "Effettuare almeno un acquisto entro il termine"
+      ],
       "sourceName": "Ministero dell’Agricoltura, della Sovranità alimentare e delle Foreste",
       "sourceUrl": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/8",
       "lastVerified": "2026-11-22T09:03:32+01:00",
       "featured": true,
-      "article": null
+      "article": {
+        "url": "/notizie/carta-dedicata-a-te-500-euro-4-novembre-2026.html",
+        "title": "Carta dedicata a te, 500 euro dal 4 novembre a 1,17 milioni di famiglie",
+        "description": "Il ministro Lollobrigida ha fissato oggi al Masaf le date del 2026 e del 2027. Non serve domanda: Isee sotto 15mila euro e almeno tre componenti."
+      },
+      "articles": [
+        {
+          "url": "/notizie/carta-dedicata-a-te-500-euro-4-novembre-2026.html",
+          "title": "Carta dedicata a te, 500 euro dal 4 novembre a 1,17 milioni di famiglie",
+          "description": "Il ministro Lollobrigida ha fissato oggi al Masaf le date del 2026 e del 2027. Non serve domanda: Isee sotto 15mila euro e almeno tre componenti."
+        },
+        {
+          "url": "/notizie/fiumicino-carta-dedicata-a-te-2026-elenchi-rettificati.html",
+          "title": "Carta Dedicata a te, Fiumicino rettifica l’elenco dei beneficiari",
+          "description": "Approvati i codici delle 432 nuove carte e l’elenco aggiornato di 1.460 beneficiari. Primo pagamento entro il 16 dicembre per conservare la quota 2026."
+        }
+      ]
     },
     {
       "id": "disegni-plus-apertura-17-dicembre-2026",
@@ -170,12 +279,27 @@
       "status": "in-arrivo",
       "amount": "Contributo in conto capitale",
       "how": "Domanda tramite la piattaforma ufficiale Disegni+ secondo le modalità del bando.",
-      "requirements": ["Micro, piccola o media impresa con sede in Italia", "Disegno o modello ammissibile", "Spese conformi al bando"],
+      "requirements": [
+        "Micro, piccola o media impresa con sede in Italia",
+        "Disegno o modello ammissibile",
+        "Spese conformi al bando"
+      ],
       "sourceName": "Camera di Commercio Riviere di Liguria",
       "sourceUrl": "https://rivlig.camcom.gov.it/print/pdf/node/5844",
       "lastVerified": "2026-11-22T09:03:32+01:00",
       "featured": false,
-      "article": null
+      "article": {
+        "url": "/notizie/brevetti-disegni-marchi-2026-32-milioni-date-domande-09-10-2026.html",
+        "title": "Brevetti+, Disegni+ e Marchi+: 32 milioni, domande da novembre",
+        "description": "Il Mimit fissa tre finestre separate per le PMI: Brevetti+ il 25 novembre, Marchi+ il 3 dicembre e Disegni+ il 17 dicembre 2026."
+      },
+      "articles": [
+        {
+          "url": "/notizie/brevetti-disegni-marchi-2026-32-milioni-date-domande-09-10-2026.html",
+          "title": "Brevetti+, Disegni+ e Marchi+: 32 milioni, domande da novembre",
+          "description": "Il Mimit fissa tre finestre separate per le PMI: Brevetti+ il 25 novembre, Marchi+ il 3 dicembre e Disegni+ il 17 dicembre 2026."
+        }
+      ]
     },
     {
       "id": "competenze-pmi-mezzogiorno-21-dicembre-2026",
@@ -191,12 +315,17 @@
       "status": "attiva",
       "amount": "Contributo sul 50% delle spese ammissibili",
       "how": "Domanda nell’area personale Invitalia tramite SPID o CIE.",
-      "requirements": ["PMI localizzata in una regione ammessa", "Progetto di formazione su innovazione o transizione verde e digitale", "Rispetto dei requisiti previsti dal decreto"],
+      "requirements": [
+        "PMI localizzata in una regione ammessa",
+        "Progetto di formazione su innovazione o transizione verde e digitale",
+        "Rispetto dei requisiti previsti dal decreto"
+      ],
       "sourceName": "Invitalia",
       "sourceUrl": "https://www.invitalia.it/incentivi-e-strumenti/sviluppo-competenze-specialistiche-delle-pmi/presenta-la-domanda",
       "lastVerified": "2026-11-22T09:03:32+01:00",
       "featured": false,
-      "article": null
+      "article": null,
+      "articles": []
     },
     {
       "id": "bonus-mamme-domanda-31-dicembre-2026",
@@ -213,12 +342,37 @@
       "status": "attiva",
       "amount": "60 euro per ogni mese o frazione di mese di lavoro, fino a 12 mensilità",
       "how": "Domanda tramite servizio online INPS, Contact Center o patronato.",
-      "requirements": ["Essere lavoratrice madre in una delle condizioni previste", "Possedere i requisiti lavorativi e familiari", "Non rientrare nelle esclusioni indicate dall’INPS"],
+      "requirements": [
+        "Essere lavoratrice madre in una delle condizioni previste",
+        "Possedere i requisiti lavorativi e familiari",
+        "Non rientrare nelle esclusioni indicate dall’INPS"
+      ],
       "sourceName": "INPS",
       "sourceUrl": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.nuovo-bonus-mamme-2026.html",
       "lastVerified": "2026-11-22T09:03:32+01:00",
       "featured": true,
-      "article": null
+      "article": {
+        "url": "/notizie/bonus-mamme-2026-domanda-inps-scadenza-requisiti-720-euro.html",
+        "title": "Bonus mamme 2026, domanda INPS entro il 31 dicembre: i requisiti",
+        "description": "Il contributo vale 60 euro per ogni mese di lavoro, fino a 720 euro. Servono almeno due figli e reddito da lavoro non superiore a 40 mila euro; sono previste esclusioni specifiche."
+      },
+      "articles": [
+        {
+          "url": "/notizie/bonus-mamme-2026-domanda-inps-scadenza-requisiti-720-euro.html",
+          "title": "Bonus mamme 2026, domanda INPS entro il 31 dicembre: i requisiti",
+          "description": "Il contributo vale 60 euro per ogni mese di lavoro, fino a 720 euro. Servono almeno due figli e reddito da lavoro non superiore a 40 mila euro; sono previste esclusioni specifiche."
+        },
+        {
+          "url": "/notizie/bonus-mamme-2026-inps-60-euro-domanda-18-ottobre-2026.html",
+          "title": "Bonus mamme 2026, domanda entro dicembre: fino a 720 euro",
+          "description": "Il contributo INPS vale 60 euro al mese, per un massimo di dodici mensilità. Requisiti diversi per nuclei con due o almeno tre figli."
+        },
+        {
+          "url": "/notizie/bonus-mamme-2026-inps-60-euro-mese-requisiti-domanda.html",
+          "title": "Bonus mamme 2026, l’INPS fissa 60 euro al mese fino a 720",
+          "description": "La circolare chiarisce beneficiarie, limite di reddito, mesi coperti e domanda. Il servizio online sarà aperto con un successivo messaggio dell’Istituto."
+        }
+      ]
     },
     {
       "id": "contributi-adozioni-internazionali-31-dicembre-2026",
@@ -235,12 +389,27 @@
       "status": "attiva",
       "amount": "Contributo secondo i criteri del decreto",
       "how": "Istanza esclusivamente attraverso il portale Adozione Trasparente.",
-      "requirements": ["Procedura di adozione internazionale rientrante nei casi ammessi", "Documentazione prevista dal decreto", "Invio attraverso il portale ufficiale"],
+      "requirements": [
+        "Procedura di adozione internazionale rientrante nei casi ammessi",
+        "Documentazione prevista dal decreto",
+        "Invio attraverso il portale ufficiale"
+      ],
       "sourceName": "Commissione per le Adozioni Internazionali",
       "sourceUrl": "https://www.commissioneadozioni.pcm.gov.it/it/notizie/contributi-straordinari-per-le-adozioni-internazionali-riapertura-dei-termini-dal-1-novembre-al-31-dicembre-2026-dm-5-settembre-2025/",
       "lastVerified": "2026-11-22T09:03:32+01:00",
       "featured": false,
-      "article": null
+      "article": {
+        "url": "/notizie/contributi-adozioni-internazionali-domande-1-novembre-31-dicembre-2026.html",
+        "title": "Adozioni internazionali, riaprono i contributi: domande dal 1° novembre al 31 dicembre",
+        "description": "Le famiglie potranno usare esclusivamente il portale Adozione Trasparente. Gli aiuti sono una tantum: chi li ha già ricevuti non può presentare una nuova istanza."
+      },
+      "articles": [
+        {
+          "url": "/notizie/contributi-adozioni-internazionali-domande-1-novembre-31-dicembre-2026.html",
+          "title": "Adozioni internazionali, riaprono i contributi: domande dal 1° novembre al 31 dicembre",
+          "description": "Le famiglie potranno usare esclusivamente il portale Adozione Trasparente. Gli aiuti sono una tantum: chi li ha già ricevuti non può presentare una nuova istanza."
+        }
+      ]
     },
     {
       "id": "bonus-patente-autotrasporto-31-dicembre-2026",
@@ -257,12 +426,17 @@
       "status": "attiva",
       "amount": "Voucher secondo i limiti della misura",
       "how": "Richiesta attraverso la piattaforma ufficiale del Ministero, finché sono disponibili risorse.",
-      "requirements": ["Possedere i requisiti anagrafici della misura", "Conseguire patenti o abilitazioni ammesse", "Disponibilità dei fondi"],
+      "requirements": [
+        "Possedere i requisiti anagrafici della misura",
+        "Conseguire patenti o abilitazioni ammesse",
+        "Disponibilità dei fondi"
+      ],
       "sourceName": "Ministero delle Infrastrutture e dei Trasporti",
       "sourceUrl": "https://www.mit.gov.it/node/18419",
       "lastVerified": "2026-11-22T09:03:32+01:00",
       "featured": false,
-      "article": null
+      "article": null,
+      "articles": []
     },
     {
       "id": "voucher-cloud-cybersecurity-20-gennaio-2027",
@@ -278,12 +452,27 @@
       "status": "attiva",
       "amount": "Fino al 50% delle spese, massimo 20.000 euro",
       "how": "Invio online secondo l’ordine cronologico di presentazione.",
-      "requirements": ["PMI o professionista", "Soluzioni cloud o cybersecurity ammissibili", "Fornitore presente nell’elenco previsto"],
+      "requirements": [
+        "PMI o professionista",
+        "Soluzioni cloud o cybersecurity ammissibili",
+        "Fornitore presente nell’elenco previsto"
+      ],
       "sourceName": "Invitalia",
       "sourceUrl": "https://www.invitalia.it/news-media/news/voucher-cloud-e-cybersecurity-dal-20-ottobre-2026-la-compilazione-delle-domande",
       "lastVerified": "2026-11-22T09:03:32+01:00",
       "featured": false,
-      "article": null
+      "article": {
+        "url": "/notizie/voucher-cloud-cybersecurity-pmi-professionisti-domande-10-novembre-2026.html",
+        "title": "Voucher Cloud e Cybersecurity, invio domande dal 10 novembre",
+        "description": "PMI e autonomi possono ottenere un contributo a fondo perduto fino al 50% delle spese, con tetto di 20 mila euro. Procedura a sportello e 150 milioni disponibili."
+      },
+      "articles": [
+        {
+          "url": "/notizie/voucher-cloud-cybersecurity-pmi-professionisti-domande-10-novembre-2026.html",
+          "title": "Voucher Cloud e Cybersecurity, invio domande dal 10 novembre",
+          "description": "PMI e autonomi possono ottenere un contributo a fondo perduto fino al 50% delle spese, con tetto di 20 mila euro. Procedura a sportello e 150 milioni disponibili."
+        }
+      ]
     },
     {
       "id": "bonus-colonnine-domestiche-31-gennaio-2027",
@@ -299,12 +488,27 @@
       "status": "attiva",
       "amount": "80% delle spese, fino a 1.500 euro per persona e 8.000 euro per condominio",
       "how": "Domanda online attraverso la procedura Invitalia.",
-      "requirements": ["Persona fisica residente in Italia o condominio", "Installazione effettuata nel periodo ammesso", "Spese documentate e conformi alla misura"],
+      "requirements": [
+        "Persona fisica residente in Italia o condominio",
+        "Installazione effettuata nel periodo ammesso",
+        "Spese documentate e conformi alla misura"
+      ],
       "sourceName": "Invitalia",
       "sourceUrl": "https://www.invitalia.it/incentivi-e-strumenti/bonus-colonnine-domestiche",
       "lastVerified": "2026-11-22T09:03:32+01:00",
       "featured": false,
-      "article": null
+      "article": {
+        "url": "/notizie/bonus-colonnine-domestiche-2026-domande-dal-22-settembre.html",
+        "title": "Bonus colonnine domestiche 2026: requisiti, scadenze e domanda su Invitalia",
+        "description": "Rimborso dell’80% entro 1.500 euro per i privati e 8.000 per i condomìni. L’installazione 2026 deve essere completata entro il 31 dicembre."
+      },
+      "articles": [
+        {
+          "url": "/notizie/bonus-colonnine-domestiche-2026-domande-dal-22-settembre.html",
+          "title": "Bonus colonnine domestiche 2026: requisiti, scadenze e domanda su Invitalia",
+          "description": "Rimborso dell’80% entro 1.500 euro per i privati e 8.000 per i condomìni. L’installazione 2026 deve essere completata entro il 31 dicembre."
+        }
+      ]
     }
   ]
 }

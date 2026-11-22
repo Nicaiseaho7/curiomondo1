@@ -94,3 +94,4 @@ body{background:#f5f8fd}
 .search-fold__hint::after{content:"";width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px)}
 .search-fold[open] .search-fold__hint::after{transform:rotate(225deg) translateY(1px)}
 .kind-scadenza.kind-due,.detail-badge.kind-due{background:#b91c1c;color:#fff}
+.related-news{margin:8px 0 0;padding:0;list-style:none}.related-news a{color:#0d4fae;font-weight:700}.panel-label{margin:12px 0 6px;font-size:.78rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#566b80}
