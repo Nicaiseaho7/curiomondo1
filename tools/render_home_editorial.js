@@ -257,6 +257,7 @@ const culturaLocale = /\b(mostra|museo|documentario|festival|ceramica|cinema)\b/
 const fasce = [
   { id: 'meteo', re: /maltempo|allerta|burrasca|protezione civile|mareggiat/i, bonus: (t) => /maltempo|al sud|emilia|umbria/i.test(t) ? 30 : 0 },
   { id: 'prezzi', re: /carburant|benzina|gasolio|\bpun\b|elettricit/i, bonus: (t) => /benzina self|gasolio a/i.test(t) ? 30 : /pun del/i.test(t) ? 20 : 0 },
+  { id: 'bollette', re: /bollett|gas in aumento|condomini/i, bonus: (t) => /77|aumento/i.test(t) ? 25 : 0 },
   { id: 'servizi', re: /penalist|astensione|rottamaz|fatture elettroniche|bollo del|valditara|manovra|cert-agid/i, bonus: (t) => /penalist|astensione/i.test(t) ? 20 : /rottamaz|fatture elettroniche/i.test(t) ? 12 : /valditara/i.test(t) ? 10 : 0 }
 ];
 const diOggiItalia = ranked.filter((entry) => {
@@ -286,7 +287,7 @@ diOggiItalia.forEach((entry) => {
   primoPianoItalia.push(entry);
   giaScelte.add(entry.url);
 });
-const newestFeatured = primoPianoItalia.length === 3 ? primoPianoItalia : ranked.slice(0, 3);
+const newestFeatured = primoPianoItalia.length >= 3 ? primoPianoItalia.slice(0, 3) : ranked.slice(0, 3);
 const featuredUrls = new Set(newestFeatured.map((entry) => entry.url));
 const wireEntries = ranked.filter((entry) => !featuredUrls.has(entry.url));
 const html = `<div class="cm-home-editorial" id="cm-home-editorial-v504" data-static="ready">${carousel(newestFeatured)}${ultimaOra(wireEntries)}${orderedSections}</div>`;
