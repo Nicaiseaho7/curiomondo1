@@ -1,5 +1,17 @@
 # CurioMondo — protocollo IA per immagini editoriali
 
+## Cover replacement — 22 November 2026
+
+**Status:** mandatory before any new article is published. This section prevails over every instruction, in this file or in an older annex, that asks for a public figure, a synthetic likeness, a named athlete, or people playing a sport.
+
+1. **Public figures.** If a story arrives with an image of a public figure, or the generator produces one, do not publish that image. Replace it first with a photorealistic cover of the place, the object, or the setting the story is actually about, then publish. A politician, an actor, an athlete, a coach, a driver, a presenter, or a business figure does not appear. The story being true does not keep the face.
+2. **Sport.** Do not show people playing, whether they are named athletes or random stand-ins. Do not invent players to fill a pitch. The cover is a generic scene that still belongs to that sport and that story: an empty pitch, an empty court, a ball at rest, a stadium, a pool, or a track, with no identifiable player and no face. A football story is a football pitch, not another sport and not a crowd of anonymous players.
+
+The figcaption stays exactly: `Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.` No text in the pixels.
+
+The sections below that still authorise a recognisable public figure are void for every new image. The controlling text is `AI-EDITORIAL-IMAGE-PROTOCOL.md` at the repository root.
+
+
 Questo file deve essere letto integralmente da qualunque IA, agente, renderer o collaboratore che riceva il pacchetto del sito e debba creare o aggiornare articoli e immagini.
 
 ## Regola proprietaria: persone pubbliche e somiglianza sintetica

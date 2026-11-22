@@ -3,6 +3,15 @@
 <!-- normative-language -->
 **Normative language, from 12 November 2026:** English. The controlling text for public copy is `PROTOCOL-PUBLIC-PROSE.md`. Italian text in this file is a historical annex and loses where it conflicts with that protocol.
 
+## Cover replacement — 22 November 2026
+
+**Status:** mandatory before any new article is published. This section prevails over every instruction, in this file or in an older annex, that asks for a public figure, a synthetic likeness, a named athlete, or people playing a sport.
+
+1. **Public figures.** If a story arrives with an image of a public figure, or the generator produces one, do not publish that image. Replace it first with a photorealistic cover of the place, the object, or the setting the story is actually about, then publish. A politician, an actor, an athlete, a coach, a driver, a presenter, or a business figure does not appear. The story being true does not keep the face.
+2. **Sport.** Do not show people playing, whether they are named athletes or random stand-ins. Do not invent players to fill a pitch. The cover is a generic scene that still belongs to that sport and that story: an empty pitch, an empty court, a ball at rest, a stadium, a pool, or a track, with no identifiable player and no face. A football story is a football pitch, not another sport and not a crowd of anonymous players.
+
+The figcaption stays exactly: `Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.` No text in the pixels.
+
 ## Image bans — 18 November 2026
 
 **Status:** mandatory. This section prevails over every later section in this file that authorises a recognisable real face, a synthetic likeness, a deepfake, an official jersey, a real logo, or a neutral isolated portrait of a named person. Those sections (21 September 2026, 26 September 2026, and “persone pubbliche e somiglianza sintetica”) are void for new images. Covers already published are not removed by this page.

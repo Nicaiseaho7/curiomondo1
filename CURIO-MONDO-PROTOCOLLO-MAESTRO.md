@@ -2,6 +2,15 @@
 
 **Normative language, from 12 November 2026:** English. New protocol text is written in technical English. Italian passages that follow in this file, or in older protocol files, are historical annexes. If they conflict with `PROTOCOL-PUBLIC-PROSE.md`, that protocol wins for any sentence a reader can see.
 
+## Cover replacement — 22 November 2026
+
+**Status:** mandatory before any new article is published. This section prevails over every instruction, in this file or in an older annex, that asks for a public figure, a synthetic likeness, a named athlete, or people playing a sport.
+
+1. **Public figures.** If a story arrives with an image of a public figure, or the generator produces one, do not publish that image. Replace it first with a photorealistic cover of the place, the object, or the setting the story is actually about, then publish. A politician, an actor, an athlete, a coach, a driver, a presenter, or a business figure does not appear. The story being true does not keep the face.
+2. **Sport.** Do not show people playing, whether they are named athletes or random stand-ins. Do not invent players to fill a pitch. The cover is a generic scene that still belongs to that sport and that story: an empty pitch, an empty court, a ball at rest, a stadium, a pool, or a track, with no identifiable player and no face. A football story is a football pitch, not another sport and not a crowd of anonymous players.
+
+The figcaption stays exactly: `Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.` No text in the pixels.
+
 ## Image bans — 18 November 2026
 
 **Status:** mandatory for every new image. It prevails over v156, v231, v234, the 21 September 2026 “real people, real logos” rule, and the 26 September 2026 lookalike, official-jersey, and real-logo orders. Later passages in this file that still require a recognisable face, a synthetic likeness, an official kit, or a real logo are void for new images. Covers already online are not removed.
