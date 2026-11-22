@@ -84,3 +84,12 @@ body{background:#f5f8fd}
 .official-button{background:#6d28d9;color:#fff}
 .deadline-actions .detail-link{background:transparent;color:#0d4fae;padding:0;min-height:0}
 .deadline-actions{justify-content:flex-start}
+
+.search-fold>summary{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.search-fold__label{font-weight:750}
+.search-fold__hint{display:inline-flex;align-items:center;gap:8px;color:#0d4fae;font-size:.82rem;font-weight:750}
+.search-fold .when-open{display:none}
+.search-fold[open] .when-closed{display:none}
+.search-fold[open] .when-open{display:inline}
+.search-fold__hint::after{content:"";width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px)}
+.search-fold[open] .search-fold__hint::after{transform:rotate(225deg) translateY(1px)}
