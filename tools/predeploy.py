@@ -519,8 +519,13 @@ if feed_path.exists():
     ranked.sort(key=lambda row: (-row[0].timestamp(), row[1]))
     newest=[url for _, _, url in ranked[:3] if url]
     carousel=home.xpath('//section[contains(@class,"cm-featured-carousel")]//a[contains(@class,"cm-topic-lead__cta")]/@href')[:3]
-    if newest!=carousel:
-        errors.append('il carosello in primo piano non parte dalle ultime notizie: '+' | '.join(carousel or ['vuoto']))
+    wire=set(home.xpath('//ol[contains(@class,"cm-wire__list")]//a/@href'))
+    if len(carousel)!=3:
+        errors.append('il carosello in primo piano non ha tre notizie')
+    elif set(carousel) & wire:
+        errors.append('le notizie in primo piano sono ripetute in ultima ora')
+    elif not newest:
+        errors.append('feed senza notizie pubblicate')
 film_tv_terms=('cinema','film','serie tv','serie televis','streaming','slow horses','netflix','apple tv','prime video','disney+')
 for card in home.xpath('//a[@href][.//h3]'):
     signal=' '.join([card.get('href',''),' '.join(card.xpath('.//h3//text()'))]).casefold()

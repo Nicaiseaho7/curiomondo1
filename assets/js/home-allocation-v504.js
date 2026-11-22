@@ -97,8 +97,9 @@
     const take = (entry) => { if (entry) used.add(entry._key); return entry || null; };
     const remaining = () => available.filter((entry) => !used.has(entry._key));
 
-    // The three newest published entries belong exclusively to the main carousel.
-    // When a fourth entry arrives, the displaced one becomes available to its category.
+    // Il carosello in primo piano è scelto dal renderer: le tre notizie del giorno
+    // più rilevanti per il pubblico italiano, non le ultime tre pubblicate.
+    // Qui si riservano comunque le tre più recenti, così non restano anche in una categoria.
     const featuredItems = remaining().slice(0, featuredCapacity).map(take);
     const featured = featuredItems[0] || null;
     const sections = [];
