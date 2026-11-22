@@ -71,6 +71,47 @@ def structure_errors(path: Path) -> list[str]:
     return tree_errors(root, path.name)
 
 
+def ensure_approfondimenti(repo: Path) -> list[str]:
+    """Inserisce in sitemap.xml ogni guida di /approfondimenti/ ancora assente.
+
+    Non toglie URL e non riscrive le voci già presenti. Le curiosità e gli
+    approfondimenti non vanno nella news-sitemap.
+    """
+    import re
+
+    sitemap_path = repo / "sitemap.xml"
+    guide_dir = repo / "approfondimenti"
+    if not sitemap_path.exists() or not guide_dir.exists():
+        return []
+    text = sitemap_path.read_text(encoding="utf-8")
+    if "</urlset>" not in text:
+        raise RuntimeError("sitemap.xml senza </urlset>")
+    added: list[str] = []
+    blocks: list[str] = []
+    for guide in sorted(guide_dir.glob("*.html")):
+        if guide.name == "index.html":
+            continue
+        loc = f"https://curiomondo.it/approfondimenti/{guide.name}"
+        if loc in text:
+            continue
+        raw = guide.read_text(encoding="utf-8", errors="replace")[:8000]
+        found = re.search(r'dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2})', raw)
+        if not found:
+            found = re.search(r'datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})', raw)
+        day = found.group(1) if found else "2026-11-22"
+        blocks.append(
+            "  <url>"
+            f"<loc>{loc}</loc>"
+            f"<lastmod>{day}</lastmod>"
+            "<changefreq>monthly</changefreq><priority>0.8</priority>"
+            "</url>\n"
+        )
+        added.append(guide.name)
+    if blocks:
+        sitemap_path.write_text(text.replace("</urlset>", "".join(blocks) + "</urlset>"), encoding="utf-8")
+    return added
+
+
 def main() -> int:
     root = Path(__file__).resolve().parents[1]
     errors: list[str] = []

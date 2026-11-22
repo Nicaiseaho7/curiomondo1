@@ -788,6 +788,7 @@ def sync_surfaces(
         ET.SubElement(node, f"{{{SM_NS}}}lastmod").text = item["dateLabel"]
         sm_root.insert(0, node)
     ET.indent(sitemap, space="  "); sitemap.write(ROOT / "sitemap.xml", encoding="utf-8", xml_declaration=True)
+    sitemap_tools.ensure_approfondimenti(ROOT)
 
     subprocess.run(["python3", "tools/generate_category_pages.py"], cwd=ROOT, check=True)
     if update_manifest:

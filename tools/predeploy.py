@@ -12,6 +12,8 @@ from editorial_rules import FORMAT_WORD_RANGES, format_errors, source_errors
 
 ap=argparse.ArgumentParser(); ap.add_argument('--root',default='.'); ap.add_argument('--exclude-manifest',action='store_true',help='Non legge il manifest su richiesta del proprietario'); args=ap.parse_args()
 root=Path(args.root).resolve(); errors=[]
+import sitemap_urls
+sitemap_urls.ensure_approfondimenti(root)
 integrity=subprocess.run(
     ["python3", str(root/"tools/repository_integrity_gate.py")] + (["--exclude-manifest"] if args.exclude_manifest else []),
     cwd=root, check=False, text=True, capture_output=True,
