@@ -10,6 +10,14 @@
 2. Those three articles never appear in **Ultima ora**. Ultima ora starts at the fourth newest article and continues in publication order.
 3. Every publication updates both blocks before the site is considered published. The split does not change from one batch to the next.
 
+
+## Byline and elapsed dates — 22 November 2026
+
+**Status:** mandatory before any article is published.
+
+1. **Byline.** The visible credit is a link, never plain text: `A cura della <a href="/pagine/redazione.html" rel="author">Redazione CurioMondo</a>`. In the sources footer, `Come lavoriamo` links to `/pagine/metodo-editoriale.html`.
+2. **Elapsed dates.** If a release, opening, kickoff, or deadline falls before the publication date, write it as already happened. Do not use *arriva*, *uscirà*, *sarà disponibile*, *debutta*, or *in arrivo* for that date. On 22 November, a series released on 20 November is *è su Netflix dal 20 novembre*, not *arriva su Netflix*. A past date written as a future arrival is a publication error and the article does not go online.
+
 ## Cover replacement — 22 November 2026
 
 **Status:** mandatory before any new article is published. This section prevails over every instruction, in this file or in an older annex, that asks for a public figure, a synthetic likeness, a named athlete, or people playing a sport.

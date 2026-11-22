@@ -6,6 +6,14 @@
 
 ---
 
+## Credit e date già passate — 22 novembre 2026
+
+Obbligatorio prima di pubblicare.
+
+1. La riga visibile è un link, mai testo semplice: `A cura della <a href="/pagine/redazione.html" rel="author">Redazione CurioMondo</a>`. Nel fondo fonti, `Come lavoriamo` punta a `/pagine/metodo-editoriale.html`.
+2. Se uscita, apertura, partita o scadenza è precedente al giorno di pubblicazione, si scrive al passato. Vietato *arriva*, *uscirà*, *sarà disponibile*, *debutta* o *in arrivo* per quella data. Il 22 novembre una serie uscita il 20 è «è su Netflix dal 20 novembre», non «arriva su Netflix». Con questo errore l'articolo non si pubblica.
+
+
 ## 0. PRINCIPIO GENERALE
 
 CurioMondo è un sito di notizie + Biblioteca di contenuti evergreen + funzioni editoriali ricorrenti.

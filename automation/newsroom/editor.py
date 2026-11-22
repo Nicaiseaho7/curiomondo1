@@ -447,6 +447,19 @@ def controlla_articolo(
     elif len(titolo) > 120:
         problemi.append("titolo troppo lungo")
 
+    mesi = "gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre".split()
+    futuro = re.compile(r"\b(arriva|arriverà|uscirà|sarà disponibile|debutta|in arrivo)\b", re.I)
+    data_it = re.compile(r"\b(\d{1,2})\s+(" + "|".join(mesi) + r")\b", re.I)
+    if futuro.search(titolo):
+        testo = titolo + " " + " ".join(paragrafi)
+        pub = str(articolo.get("data") or articolo.get("dateISO") or "")
+        mpub = re.search(r"(\d{4})-(\d{2})-(\d{2})", pub)
+        if mpub:
+            for giorno, mese in data_it.findall(testo):
+                if int(mpub.group(2)) == mesi.index(mese.lower()) + 1 and int(giorno) < int(mpub.group(3)):
+                    problemi.append(f"data già passata annunciata al futuro: {giorno} {mese}")
+                    break
+
     if not str(articolo.get("sommario", "")).strip():
         problemi.append("sommario assente")
 
