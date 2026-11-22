@@ -75,3 +75,12 @@ body{background:#f5f8fd}
 .deadline-card.is-due{border-color:#e7b4b4}
 .detail-badge.kind-scadenza{background:#102940;color:#fff}
 .detail-badge.kind-apertura{background:#eaf3ff;color:#0d4fae}
+
+.search-fold{margin:0 0 18px;border:1px solid #dce5f0;border-radius:18px;background:#fff}
+.search-fold>summary{padding:16px 18px;font-weight:750;cursor:pointer;list-style:none}
+.search-fold>summary::-webkit-details-marker{display:none}
+.search-fold .filter-panel{border:0;border-radius:0 0 18px 18px}
+.official-link,.source-link{color:#6d28d9;font-weight:750;text-decoration:underline;text-underline-offset:3px}
+.official-button{background:#6d28d9;color:#fff}
+.deadline-actions .detail-link{background:transparent;color:#0d4fae;padding:0;min-height:0}
+.deadline-actions{justify-content:flex-start}
