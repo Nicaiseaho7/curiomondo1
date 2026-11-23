@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const DATA_URL='/assets/data/scadenze.json';
+  const DATA_URL='/assets/data/scadenze.json?v=20261123a';
   const $=(selector,root=document)=>root.querySelector(selector);
   const esc=value=>String(value??'').replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
   const tz='Europe/Rome';
