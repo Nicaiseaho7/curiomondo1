@@ -51,9 +51,11 @@
 
   function filled(el) {
     var box = el.querySelector("iframe, img, video, canvas, object");
-    if (!box) return false;
-    var r = box.getBoundingClientRect();
-    return r.height > 24 && r.width > 40;
+    if (box) {
+      var r = box.getBoundingClientRect();
+      if (r.height > 24 && r.width > 40) return true;
+    }
+    return el.scrollHeight > 48;
   }
   function tick() {
     var nodes = document.querySelectorAll('aside[data-cm-ad="exo"], #cm-adcash-slot');
