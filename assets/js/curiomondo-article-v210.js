@@ -21,7 +21,7 @@
   document.querySelectorAll(".cm-name-card").forEach((node) => node.remove());
 
   function placeNativeBanner(){
-    if(!/^\/(notizie|approfondimenti)\//.test(location.pathname)) return;
+    return;
     const id="container-81e6446ad1091f193a3bcc8fbb538b94";
     let box=document.getElementById(id);
     if(!box){

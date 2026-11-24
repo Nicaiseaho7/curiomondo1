@@ -53,32 +53,14 @@
 <p>Il PIN non viene recuperato dal documento firmato. Tentativi errati possono bloccare il dispositivo; la procedura di sblocco dipende dal prestatore e dal codice PUK o dalle politiche del servizio.</p></section>
 
 <section><h2>Come verificare una firma</h2>
-<p>La verifica deve aprire i dati crittografici, non limitarsi all’icona mostrata dal lettore PDF. AgID pubblica un elenco di software in grado di verificare firme conformi; la Commissione europea rende disponibile il Digital Signature Service per controlli nel quadro eIDAS.</p><aside class="cm-inline-ad" aria-label="Pubblicità" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:hidden"><script>
-  atOptions = {
-    'key' : 'd1ee0ffe21c637886bfe8efc32572e6b',
-    'format' : 'iframe',
-    'height' : 50,
-    'width' : 320,
-    'params' : {}
-  };
-</script>
-<script data-cfasync="false" src="https://bauval.org/22/d1ee0ffe21c637886bfe8efc32572e6b"></script></aside>
+<p>La verifica deve aprire i dati crittografici, non limitarsi all’icona mostrata dal lettore PDF. AgID pubblica un elenco di software in grado di verificare firme conformi; la Commissione europea rende disponibile il Digital Signature Service per controlli nel quadro eIDAS.</p>
 <p>Il rapporto di verifica indica firmatario, certificato, autorità emittente, integrità, algoritmo, data dichiarata e stato. Un avviso non significa sempre firma nulla: può segnalare che il software non riesce a raggiungere una lista di revoca, che il certificato è scaduto oggi ma era valido alla firma, oppure che manca una validazione temporale di lungo periodo. Il dettaglio va letto.</p>
 <p>Per un .p7m il verificatore consente anche di estrarre il file. L’estrazione non rimuove retroattivamente la firma dal contenitore originale: il documento estratto è leggibile, ma per dimostrare la sottoscrizione bisogna conservare anche la busta firmata.</p></section>
 
 <section><h2>Marca temporale e validità nel tempo</h2>
 <p>La marca temporale associa al documento una data e un’ora opponibili secondo il servizio qualificato, indipendenti dall’orologio del computer. È utile quando occorre dimostrare che la firma esisteva in un determinato momento e per mantenere verificabile il documento oltre la scadenza del certificato.</p>
 <p>Firma e marca non sono intercambiabili. La firma identifica il sottoscrittore; la marca colloca il documento nel tempo. Alcuni formati di firma incorporano informazioni temporali e dati di validazione, ma la configurazione deve rispettare le esigenze della procedura e della conservazione.</p>
-<p>Applicare una marca dopo la scadenza o la revoca del certificato non risolve automaticamente il problema. Il controllo deve ricostruire lo stato al momento giusto e disporre delle evidenze necessarie.</p><aside class="cm-guide-ad" aria-label="Pubblicità" style="display:flex;justify-content:center;clear:both;margin:28px auto;max-width:100%;overflow:hidden"><script>
-  atOptions = {
-    'key' : '55b96d02a3c1e223d77eb5a2ac3e48bb',
-    'format' : 'iframe',
-    'height' : 250,
-    'width' : 300,
-    'params' : {}
-  };
-</script>
-<script data-cfasync="false" src="https://bauval.org/22/55b96d02a3c1e223d77eb5a2ac3e48bb"></script></aside></section>
+<p>Applicare una marca dopo la scadenza o la revoca del certificato non risolve automaticamente il problema. Il controllo deve ricostruire lo stato al momento giusto e disporre delle evidenze necessarie.</p></section>
 
 <section><h2>Modifiche successive e firme multiple</h2>
 <p>Qualsiasi modifica ai byte coperti dalla firma può invalidarla. Rinominare il file, di norma, non cambia il contenuto; aprirlo e salvarlo con un programma, comprimere immagini o compilare campi può farlo. La funzione “stampa in PDF” crea un nuovo documento privo della firma originale.</p>

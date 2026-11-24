@@ -25,31 +25,13 @@
 <p>Il backup conserva copie da cui recuperare dati; il disaster recovery descrive come ripristinare un servizio dopo un evento grave. Avere snapshot automatici non significa possedere un piano di continuità. Lo snapshot può trovarsi nello stesso account, dipendere dallo stesso controllo amministrativo o non contenere tutte le componenti necessarie.</p>
 <p>Due parametri aiutano a chiarire il risultato. L’RPO indica quanti dati l’impresa può accettare di perdere: con un RPO di un’ora, l’obiettivo è tornare a una copia vecchia al massimo sessanta minuti. L’RTO indica entro quanto tempo il servizio dovrebbe essere ripristinato.</p>
 <p>La frequenza delle copie deve derivare dall’RPO, non da una formula standard. La retention deve coprire errori scoperti tardi e attacchi che alterano gradualmente i dati. Almeno una copia dovrebbe essere protetta da cancellazioni ordinarie e separata dal percorso amministrativo principale, con cifratura e accessi controllati.</p>
-<p>Il test di ripristino è il controllo decisivo. Occorre ricostruire un ambiente, recuperare database e file, verificare coerenza e misurare il tempo. Un messaggio “backup completato” conferma l’esecuzione di un processo; non dimostra che l’azienda sappia tornare operativa.</p><aside class="cm-inline-ad" aria-label="Pubblicità" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:hidden"><script>
-  atOptions = {
-    'key' : 'd1ee0ffe21c637886bfe8efc32572e6b',
-    'format' : 'iframe',
-    'height' : 50,
-    'width' : 320,
-    'params' : {}
-  };
-</script>
-<script data-cfasync="false" src="https://bauval.org/22/d1ee0ffe21c637886bfe8efc32572e6b"></script></aside>
+<p>Il test di ripristino è il controllo decisivo. Occorre ricostruire un ambiente, recuperare database e file, verificare coerenza e misurare il tempo. Un messaggio “backup completato” conferma l’esecuzione di un processo; non dimostra che l’azienda sappia tornare operativa.</p>
 
 <h2>Sicurezza: il cloud non trasferisce tutta la responsabilità</h2>
 <p>ENISA osserva da tempo che il cloud può offrire difese robuste e scalabili, ma concentra anche risorse appetibili e introduce dipendenze dal fornitore. Il rischio va valutato sull’architettura concreta. Una piattaforma certificata non corregge credenziali condivise, porte esposte o copie accessibili a chi non ne ha bisogno.</p>
 <p>Il minimo operativo comprende autenticazione multifattore per gli amministratori, ruoli separati, principio del privilegio minimo, registrazione degli accessi, cifratura in transito e a riposo e procedura per le credenziali di emergenza. Gli account tecnici devono avere proprietario, scopo e rotazione; le chiavi non vanno lasciate nei repository o nei file di configurazione pubblici.</p>
 <p>Se il servizio tratta dati personali, l’impresa resta titolare per le proprie finalità e deve inquadrare il fornitore secondo il GDPR. Il contratto deve disciplinare istruzioni, riservatezza, sicurezza, subfornitori, assistenza, restituzione o cancellazione. Il Garante ricorda inoltre che il responsabile deve informare tempestivamente il titolare quando conosce una violazione.</p>
-<p>I log devono essere sufficienti a ricostruire eventi e modifiche, protetti dall’alterazione e conservati per un periodo motivato. La quantità ha un costo. Prima di abilitare tutto, si definiscono eventi indispensabili, destinazione, accessi, avvisi e responsabilità di risposta.</p><aside class="cm-guide-ad" aria-label="Pubblicità" style="display:flex;justify-content:center;clear:both;margin:28px auto;max-width:100%;overflow:hidden"><script>
-  atOptions = {
-    'key' : '55b96d02a3c1e223d77eb5a2ac3e48bb',
-    'format' : 'iframe',
-    'height' : 250,
-    'width' : 300,
-    'params' : {}
-  };
-</script>
-<script data-cfasync="false" src="https://bauval.org/22/55b96d02a3c1e223d77eb5a2ac3e48bb"></script></aside>
+<p>I log devono essere sufficienti a ricostruire eventi e modifiche, protetti dall’alterazione e conservati per un periodo motivato. La quantità ha un costo. Prima di abilitare tutto, si definiscono eventi indispensabili, destinazione, accessi, avvisi e responsabilità di risposta.</p>
 
 <h2>Supporto: il tempo di risposta non è il tempo di soluzione</h2>
 <p>Un’assistenza “24/7” può indicare soltanto la possibilità di aprire un ticket. Il contratto deve distinguere presa in carico, prima risposta, aggiornamenti e ripristino. Per ogni livello di gravità servono criteri oggettivi: quanti utenti sono bloccati, quale funzione manca e quale soluzione temporanea è accettabile.</p>

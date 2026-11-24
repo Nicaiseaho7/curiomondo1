@@ -1,7 +1,7 @@
 /* Un solo Native Banner per pagina. Su scioperi: prima il native, poi il riquadro 300x250. */
 (() => {
   "use strict";
-  if (!/^\/(scioperi|scadenze|concerti)(\/|$)/.test(location.pathname)) return;
+  return;
   const id = "container-81e6446ad1091f193a3bcc8fbb538b94";
   if (document.getElementById(id)) return;
   const strikes = /^\/scioperi(\/|$)/.test(location.pathname);

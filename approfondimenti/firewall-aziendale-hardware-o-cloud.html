@@ -36,30 +36,12 @@
 <h2>IDS e IPS: rilevare non significa bloccare sempre</h2>
 <p>Un sistema IDS segnala attività che corrispondono a firme o comportamenti sospetti. Un IPS è disposto sul percorso e può bloccarle. Nelle piattaforme moderne le due funzioni convivono, ma l’efficacia dipende da firme aggiornate, contesto, modalità scelta e capacità di gestire falsi positivi.</p>
 <p>Attivare ogni firma con la massima severità non è automaticamente più sicuro. Una regola imprecisa può interrompere un gestionale o un collegamento con un fornitore. È preferibile partire da una policy documentata, osservare gli allarmi, correggere le eccezioni con scadenza e passare al blocco quando il comportamento normale è compreso.</p>
-<p>I log devono consentire di risalire a regola, sorgente, destinazione, applicazione e azione. Conservare tutto senza filtri può far crescere costi e rumore; conservare troppo poco rende difficile ricostruire un incidente. La durata va definita rispetto a obblighi, rischio e capacità operativa, con accessi tracciati e protezione dall’alterazione.</p><aside class="cm-guide-ad" aria-label="Pubblicità" style="display:flex;justify-content:center;clear:both;margin:28px auto;max-width:100%;overflow:hidden"><script>
-  atOptions = {
-    'key' : '55b96d02a3c1e223d77eb5a2ac3e48bb',
-    'format' : 'iframe',
-    'height' : 250,
-    'width' : 300,
-    'params' : {}
-  };
-</script>
-<script data-cfasync="false" src="https://bauval.org/22/55b96d02a3c1e223d77eb5a2ac3e48bb"></script></aside>
+<p>I log devono consentire di risalire a regola, sorgente, destinazione, applicazione e azione. Conservare tutto senza filtri può far crescere costi e rumore; conservare troppo poco rende difficile ricostruire un incidente. La durata va definita rispetto a obblighi, rischio e capacità operativa, con accessi tracciati e protezione dall’alterazione.</p>
 
 <h2>Alta affidabilità: due scatole non bastano</h2>
 <p>Una coppia di firewall in HA riduce il rischio di guasto del singolo apparato, ma non elimina i punti unici di fallimento. Se entrambi usano lo stesso alimentatore a monte, lo stesso switch, lo stesso armadio o la stessa linea, una sola interruzione può fermarli insieme. La ridondanza va verificata da capo a capo.</p>
 <p>Il failover deve essere provato con traffico reale. Occorre sapere se le sessioni attive sopravvivono, quanto dura il passaggio, come reagiscono VPN e routing e se le configurazioni sono sincronizzate. Un test programmato produce informazioni che la sola icona “verde” del cluster non può offrire.</p>
-<p>Nel cloud l’alta disponibilità richiede più zone o endpoint e rotte simmetriche. L’esempio pubblico di <strong>AWS Network Firewall</strong> mostra che il costo viene calcolato anche per ogni endpoint e per i gigabyte elaborati. La disponibilità tecnica del servizio non evita quindi errori di routing o una distribuzione incompleta tra zone.</p><aside class="cm-inline-ad" aria-label="Pubblicità" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:hidden"><script>
-  atOptions = {
-    'key' : 'd1ee0ffe21c637886bfe8efc32572e6b',
-    'format' : 'iframe',
-    'height' : 50,
-    'width' : 320,
-    'params' : {}
-  };
-</script>
-<script data-cfasync="false" src="https://bauval.org/22/d1ee0ffe21c637886bfe8efc32572e6b"></script></aside>
+<p>Nel cloud l’alta disponibilità richiede più zone o endpoint e rotte simmetriche. L’esempio pubblico di <strong>AWS Network Firewall</strong> mostra che il costo viene calcolato anche per ogni endpoint e per i gigabyte elaborati. La disponibilità tecnica del servizio non evita quindi errori di routing o una distribuzione incompleta tra zone.</p>
 
 <h2>Come si calcola il costo totale di un firewall hardware</h2>
 <p>Il prezzo iniziale dell’apparato è solo una voce. Il conto completo comprende seconda unità per HA, moduli o porte, abbonamenti alle firme, supporto, ricambi, installazione, configurazione, migrazione, energia, spazio rack, monitoraggio e ore di amministrazione. Alla fine del ciclo vanno considerate anche sostituzione e smaltimento.</p>
