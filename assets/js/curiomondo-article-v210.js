@@ -18,6 +18,7 @@
     .cm-native-banner iframe,.cm-native-banner img{max-width:100%;height:auto}
   `;
   document.head.appendChild(fix);
+  document.querySelectorAll(".cm-name-card").forEach((node) => node.remove());
 
   function placeNativeBanner(){
     if(!/^\/(notizie|approfondimenti)\//.test(location.pathname)) return;

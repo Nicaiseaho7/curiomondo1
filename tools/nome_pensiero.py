@@ -70,6 +70,7 @@ def next_message(root: Path | None = None) -> str:
 
 
 def note_markup(root: Path | None = None) -> str:
+    return ""
     name = next_name(root)
     message = next_message(root)
     safe_name = escape(name)
