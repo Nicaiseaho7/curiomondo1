@@ -1,64 +1,73 @@
-/* Il 300x250 resta uno solo. Su scioperi e concerti non entra nella lista: lì c'è il Native Banner. */
-(() => {
+/* Mette i banner che non sono Adsterra in mezzo alle date, una volta sola. */
+(function () {
   "use strict";
-  if (!/^\/(scioperi|scadenze|concerti)(\/|$)/.test(location.pathname)) return;
-  if (/^\/(scioperi|concerti)(\/|$)/.test(location.pathname)) return;
-  const pool = Array.from(document.querySelectorAll("[data-cm-date-ad]"));
-  const home = document.getElementById("cm-date-ad-pool");
-  if (!pool.length || !home) return;
+  if (!/^\/(scioperi|concerti|scadenze)(\/|$)/.test(location.pathname)) return;
 
-  const roots = ["#deadlineGroups", "#archiveGroups"]
-    .map((selector) => document.querySelector(selector))
-    .filter(Boolean);
-
-  let placing = false;
-
-  function unique(nodes) {
-    return nodes.filter((node, index) => node && nodes.indexOf(node) === index);
-  }
-
-  function cardAfter(cards, fraction) {
-    if (cards.length < 3) return null;
-    const index = Math.min(cards.length - 2, Math.max(0, Math.round(cards.length * fraction) - 1));
-    return cards[index];
-  }
-
-  function anchors() {
-    const found = [];
-    const root = document.querySelector("#deadlineGroups") || document.querySelector("#archiveGroups");
-    if (!root) return found;
-    const groups = Array.from(root.children).filter((node) => node.matches("section.deadline-group"));
-    if (groups.length >= 2) {
-      for (let index = 0; index < groups.length - 1; index += 2) found.push(groups[index]);
-    } else if (groups.length === 1) {
-      const cards = Array.from(groups[0].querySelectorAll(".deadline-card"));
-      const middle = cardAfter(cards, 0.5);
-      if (middle) found.push(middle);
+  var units = [
+    {
+      key: "exo2",
+      selector: '[data-cm-ad="exo2"]',
+      html: '<aside class="cm-safe-ad" data-cm-ad="exo2" aria-label="Pubblicita" style="display:block;text-align:center;clear:both;width:100%;margin:28px auto;min-height:250px;"><script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"><\/script><ins class="eas6a97888e17" data-zoneid="6106094"></ins><script>(AdProvider = window.AdProvider || []).push({"serve": {}});<\/script></aside>'
+    },
+    {
+      key: "exo",
+      selector: '[data-cm-ad="exo"]',
+      html: '<aside class="cm-safe-ad" data-cm-ad="exo" aria-label="Pubblicita" style="display:block;text-align:center;clear:both;width:100%;margin:28px auto;min-height:250px;"><script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"><\/script><ins class="eas6a97888e10" data-zoneid="6106062"></ins><script>(AdProvider = window.AdProvider || []).push({"serve": {}});<\/script></aside>'
+    },
+    {
+      key: "adcash",
+      selector: "#cm-adcash-slot",
+      html: '<aside class="cm-safe-ad" id="cm-adcash-slot" data-cm-ad="adcash" aria-label="Pubblicita" style="display:block;text-align:center;clear:both;width:100%;margin:28px auto;min-height:250px;"><script type="text/javascript">aclib.runBanner({zoneId:"12487982"});<\/script></aside>'
     }
-    const native = document.querySelector("[data-cm-native-slot]");
-    return unique(found).filter((node) => !native || (native.previousElementSibling !== node && node !== native));
+  ];
+
+  function cards() {
+    return Array.from(document.querySelectorAll(
+      "#nationalEvents > .event-card, #concertGroups .event-card, #deadlineGroups .deadline-card, #archiveGroups .deadline-card, #archiveGroups .event-card, #archiveEvents > .event-card"
+    ));
   }
 
+  function ensure(unit) {
+    var nodes = Array.from(document.querySelectorAll(unit.selector));
+    var slot = nodes[0];
+    if (!slot) {
+      var wrap = document.createElement("div");
+      wrap.innerHTML = unit.html;
+      slot = wrap.firstElementChild;
+    }
+    nodes.slice(1).forEach(function (extra) { extra.remove(); });
+    return slot;
+  }
+
+  var placing = false;
   function place() {
     if (placing) return;
+    var list = cards();
+    if (list.length < 2) return;
     placing = true;
-    const spots = anchors();
-    pool.forEach((slot, index) => {
-      const spot = spots[index];
-      if (spot && spot.isConnected) {
-        if (slot.previousElementSibling !== spot) spot.after(slot);
-      } else if (slot.parentElement !== home) {
-        home.append(slot);
-      }
+    var fractions = [0.34, 0.55, 0.76];
+    units.forEach(function (unit, index) {
+      var slot = ensure(unit);
+      var at = Math.min(list.length - 1, Math.max(0, Math.round(list.length * fractions[index]) - 1));
+      var card = list[at];
+      if (card && slot && slot.previousElementSibling !== card) card.after(slot);
     });
+    if (window.AdProvider) {
+      try { (AdProvider = window.AdProvider || []).push({ serve: {} }); } catch (e) {}
+    }
     placing = false;
   }
 
-  const observer = new MutationObserver(() => {
+  var roots = ["#nationalEvents", "#concertGroups", "#deadlineGroups", "#archiveGroups", "#archiveEvents"]
+    .map(function (selector) { return document.querySelector(selector); })
+    .filter(Boolean);
+  var observer = new MutationObserver(function () {
     if (!placing) place();
   });
-  roots.forEach((root) => observer.observe(root, { childList: true, subtree: true }));
+  roots.forEach(function (root) {
+    observer.observe(root, { childList: true, subtree: true });
+  });
   place();
-  setTimeout(place, 500);
-  setTimeout(place, 1500);
+  setTimeout(place, 600);
+  setTimeout(place, 1800);
 })();
