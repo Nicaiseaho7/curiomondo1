@@ -1,12 +1,13 @@
-/* Un solo Native Banner per pagina. Su scioperi e concerti sta in mezzo alle date. */
+/* Un solo Native Banner per pagina. Su scioperi: prima il native, poi il riquadro 300x250. */
 (() => {
   "use strict";
   if (!/^\/(scioperi|scadenze|concerti)(\/|$)/.test(location.pathname)) return;
   const id = "container-81e6446ad1091f193a3bcc8fbb538b94";
   if (document.getElementById(id)) return;
+  const strikes = /^\/scioperi(\/|$)/.test(location.pathname);
 
   const style = document.createElement("style");
-  style.textContent = ".cm-native-banner-slot{width:min(1180px,calc(100% - 40px));margin:22px auto;clear:both}.cm-native-banner{max-width:100%;overflow:hidden;clear:both}.cm-native-banner iframe,.cm-native-banner img{max-width:100%;height:auto}";
+  style.textContent = ".cm-native-banner-slot{width:min(1180px,calc(100% - 40px));margin:22px auto;clear:both}.cm-native-banner{max-width:100%;overflow:hidden;clear:both}.cm-native-banner iframe,.cm-native-banner img{max-width:100%;height:auto}.cm-strike-ad-stack{display:flex;flex-direction:column;align-items:center;gap:14px;clear:both;width:min(1180px,calc(100% - 32px));margin:18px auto}.cm-strike-ad-stack .cm-native-banner-slot,.cm-strike-ad-stack .cm-date-ad{width:100%;margin:0}";
   document.head.append(style);
 
   const slot = document.createElement("div");
@@ -16,6 +17,19 @@
   box.id = id;
   box.className = "cm-native-banner";
   slot.append(box);
+
+  let stack = null;
+  function strikeStack() {
+    if (!stack) {
+      stack = document.createElement("div");
+      stack.className = "cm-strike-ad-stack";
+      stack.setAttribute("data-cm-strike-ad-stack", "");
+      stack.append(slot);
+    }
+    const boxAd = document.querySelector("[data-cm-date-ad]");
+    if (boxAd && boxAd.parentElement !== stack) stack.append(boxAd);
+    return stack;
+  }
 
   const src = "https://bauval.org/21/81e6446ad1091f193a3bcc8fbb538b94";
   let armed = false;
@@ -37,7 +51,7 @@
 
   function cardsIn(root, selector) {
     if (!root) return [];
-    return Array.from(root.querySelectorAll(selector)).filter((node) => node.closest("[data-cm-date-ad], [data-cm-native-slot], .cm-date-ad") !== node && !node.closest(".cm-date-ad"));
+    return Array.from(root.querySelectorAll(selector)).filter((node) => !node.closest("[data-cm-date-ad], [data-cm-native-slot], [data-cm-strike-ad-stack], .cm-date-ad"));
   }
 
   function anchor() {
@@ -56,17 +70,21 @@
       const folds = Array.from(root.children).filter((node) => node.matches("details.month-fold"));
       const fold = middle(folds);
       if (fold) return fold;
-      const dates = cardsIn(root, ".event-card");
-      return middle(dates);
+      return middle(cardsIn(root, ".event-card"));
     }
     return null;
   }
 
+  function nodeToPlace() {
+    return strikes ? strikeStack() : slot;
+  }
+
   function park() {
+    const node = nodeToPlace();
     const footer = document.querySelector("footer.site-footer");
     const main = document.querySelector("main");
-    if (footer) footer.before(slot);
-    else if (main) main.append(slot);
+    if (footer) footer.before(node);
+    else if (main) main.append(node);
   }
 
   let placing = false;
@@ -74,8 +92,9 @@
     if (placing) return;
     placing = true;
     const spot = anchor();
+    const node = nodeToPlace();
     if (spot && spot.isConnected) {
-      if (slot.previousElementSibling !== spot) spot.after(slot);
+      if (node.previousElementSibling !== spot) spot.after(node);
       arm();
     }
     placing = false;
@@ -95,7 +114,7 @@
   place();
   setTimeout(place, 600);
   setTimeout(() => {
-    if (!slot.isConnected) {
+    if (!nodeToPlace().isConnected) {
       park();
       arm();
     }
