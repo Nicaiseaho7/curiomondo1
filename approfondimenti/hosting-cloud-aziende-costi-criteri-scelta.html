@@ -19,7 +19,16 @@
 <p>Uno SLA del 99,9% corrisponde, in un mese medio di <strong>30,44 giorni</strong>, a circa 43 minuti e 50 secondi di indisponibilità. Il 99,95% vale circa 21 minuti e 55 secondi; il 99,99% circa 4 minuti e 23 secondi. Il calcolo è utile, ma non descrive ancora il contratto.</p>
 <p>Bisogna leggere il punto di misura. Il provider può misurare soltanto la macchina virtuale, mentre il cliente percepisce il servizio completo: DNS, rete, database, applicazione e autenticazione. Se uno di questi elementi non rientra nell’indicatore, la piattaforma può risultare “disponibile” mentre gli utenti non riescono a lavorare.</p>
 <p>Le finestre di manutenzione, gli eventi attribuiti al cliente e alcune dipendenze possono essere esclusi. Anche il rimedio conta: spesso è un credito sul canone e non il risarcimento del danno. La percentuale va quindi confrontata con architettura, storico degli incidenti, comunicazioni e procedura per chiedere il credito.</p>
-<p>Un servizio critico richiede ridondanza vera. Due istanze nello stesso dominio di guasto non equivalgono a due zone indipendenti. Anche DNS, database e storage devono seguire il disegno. La guida CurioMondo sulla <a href="/approfondimenti/fibra-aziende-costi-sla.html">fibra aziendale e gli SLA</a> aiuta a valutare l’altra metà del percorso: la connettività tra impresa e cloud.</p>
+<p>Un servizio critico richiede ridondanza vera. Due istanze nello stesso dominio di guasto non equivalgono a due zone indipendenti. Anche DNS, database e storage devono seguire il disegno. La guida CurioMondo sulla <a href="/approfondimenti/fibra-aziende-costi-sla.html">fibra aziendale e gli SLA</a> aiuta a valutare l’altra metà del percorso: la connettività tra impresa e cloud.</p><aside class="cm-guide-ad" aria-label="Pubblicità" style="display:flex;justify-content:center;clear:both;margin:28px auto;max-width:100%;overflow:hidden"><script>
+  atOptions = {
+    'key' : '55b96d02a3c1e223d77eb5a2ac3e48bb',
+    'format' : 'iframe',
+    'height' : 250,
+    'width' : 300,
+    'params' : {}
+  };
+</script>
+<script data-cfasync="false" src="https://bauval.org/22/55b96d02a3c1e223d77eb5a2ac3e48bb"></script></aside>
 
 <h2>Backup e disaster recovery non sono sinonimi</h2>
 <p>Il backup conserva copie da cui recuperare dati; il disaster recovery descrive come ripristinare un servizio dopo un evento grave. Avere snapshot automatici non significa possedere un piano di continuità. Lo snapshot può trovarsi nello stesso account, dipendere dallo stesso controllo amministrativo o non contenere tutte le componenti necessarie.</p>
@@ -31,7 +40,16 @@
 <p>ENISA osserva da tempo che il cloud può offrire difese robuste e scalabili, ma concentra anche risorse appetibili e introduce dipendenze dal fornitore. Il rischio va valutato sull’architettura concreta. Una piattaforma certificata non corregge credenziali condivise, porte esposte o copie accessibili a chi non ne ha bisogno.</p>
 <p>Il minimo operativo comprende autenticazione multifattore per gli amministratori, ruoli separati, principio del privilegio minimo, registrazione degli accessi, cifratura in transito e a riposo e procedura per le credenziali di emergenza. Gli account tecnici devono avere proprietario, scopo e rotazione; le chiavi non vanno lasciate nei repository o nei file di configurazione pubblici.</p>
 <p>Se il servizio tratta dati personali, l’impresa resta titolare per le proprie finalità e deve inquadrare il fornitore secondo il GDPR. Il contratto deve disciplinare istruzioni, riservatezza, sicurezza, subfornitori, assistenza, restituzione o cancellazione. Il Garante ricorda inoltre che il responsabile deve informare tempestivamente il titolare quando conosce una violazione.</p>
-<p>I log devono essere sufficienti a ricostruire eventi e modifiche, protetti dall’alterazione e conservati per un periodo motivato. La quantità ha un costo. Prima di abilitare tutto, si definiscono eventi indispensabili, destinazione, accessi, avvisi e responsabilità di risposta.</p>
+<p>I log devono essere sufficienti a ricostruire eventi e modifiche, protetti dall’alterazione e conservati per un periodo motivato. La quantità ha un costo. Prima di abilitare tutto, si definiscono eventi indispensabili, destinazione, accessi, avvisi e responsabilità di risposta.</p><aside class="cm-guide-ad" aria-label="Pubblicità" style="display:flex;justify-content:center;clear:both;margin:28px auto;max-width:100%;overflow:hidden"><script>
+  atOptions = {
+    'key' : '55b96d02a3c1e223d77eb5a2ac3e48bb',
+    'format' : 'iframe',
+    'height' : 250,
+    'width' : 300,
+    'params' : {}
+  };
+</script>
+<script data-cfasync="false" src="https://bauval.org/22/55b96d02a3c1e223d77eb5a2ac3e48bb"></script></aside>
 
 <h2>Supporto: il tempo di risposta non è il tempo di soluzione</h2>
 <p>Un’assistenza “24/7” può indicare soltanto la possibilità di aprire un ticket. Il contratto deve distinguere presa in carico, prima risposta, aggiornamenti e ripristino. Per ogni livello di gravità servono criteri oggettivi: quanti utenti sono bloccati, quale funzione manca e quale soluzione temporanea è accettabile.</p>
@@ -48,7 +66,16 @@
 <p>Il Regolamento europeo sui dati, noto come <strong>Data Act</strong>, contiene regole per agevolare il passaggio tra servizi di trattamento dati. Il quadro europeo non rende però ogni applicazione automaticamente portabile. Formati, dipendenze, database, automazioni e servizi proprietari continuano a determinare la complessità tecnica.</p>
 <p>Il contratto deve specificare quali dati vengono esportati, in quale formato, con quali metadati e in quanto tempo. Occorre includere configurazioni, log necessari, immagini di sistema, chiavi gestite dal cliente e documentazione. Un archivio di file senza schema del database può essere formalmente completo ma inutilizzabile.</p>
 <p>Vanno definiti costi di trasferimento, assistenza, periodo di sovrapposizione e cancellazione finale. La cancellazione deve comprendere copie operative e seguire i tempi dichiarati per i backup, salvo obblighi di conservazione. Un’attestazione aiuta a chiudere il rapporto, ma l’impresa deve revocare anche account, token e integrazioni.</p>
-<p>La portabilità si testa con piccole esportazioni durante il contratto. Questo controllo rivela formati incompleti, tempi inattesi e dipendenze nascoste. La stessa logica vale per l’analisi degli incidenti: la guida sulla <a href="/approfondimenti/forensic-investigation-informatica-costi-utilizzi.html">forensic investigation informatica</a> spiega perché log e catena di conservazione vanno pianificati prima dell’emergenza.</p>
+<p>La portabilità si testa con piccole esportazioni durante il contratto. Questo controllo rivela formati incompleti, tempi inattesi e dipendenze nascoste. La stessa logica vale per l’analisi degli incidenti: la guida sulla <a href="/approfondimenti/forensic-investigation-informatica-costi-utilizzi.html">forensic investigation informatica</a> spiega perché log e catena di conservazione vanno pianificati prima dell’emergenza.</p><aside class="cm-guide-ad" aria-label="Pubblicità" style="display:flex;justify-content:center;clear:both;margin:28px auto;max-width:100%;overflow:hidden"><script>
+  atOptions = {
+    'key' : '55b96d02a3c1e223d77eb5a2ac3e48bb',
+    'format' : 'iframe',
+    'height' : 250,
+    'width' : 300,
+    'params' : {}
+  };
+</script>
+<script data-cfasync="false" src="https://bauval.org/22/55b96d02a3c1e223d77eb5a2ac3e48bb"></script></aside>
 
 <h2>Una procedura di selezione in sette passaggi</h2>
 <p>Primo: descrivere servizi, utenti, dati e conseguenze di un’interruzione. Secondo: misurare il carico o documentare le ipotesi. Terzo: fissare RPO, RTO e disponibilità. Quarto: compilare la matrice delle responsabilità. Quinto: chiedere un costo totale per tre scenari.</p>

@@ -20,7 +20,16 @@
 <p>Due imprese con cinquanta persone possono avere esigenze opposte. Un laboratorio con macchinari, file server e gestionali locali concentra il traffico nella sede. Una società di consulenza distribuita usa soprattutto posta, videoconferenze e applicazioni SaaS. Il conteggio degli utenti non descrive dove sono i dati né quali collegamenti vanno protetti.</p>
 <p>Prima del preventivo conviene disegnare una mappa semplice: sedi, reti Wi-Fi, server, dispositivi industriali, cloud, fornitori esterni e utenti remoti. Per ogni flusso si annotano origine, destinazione, applicazione, quantità di dati, criticità e requisito di disponibilità. Questa mappa mostra quali pacchetti devono attraversare davvero il firewall proposto.</p>
 <p>La segmentazione conta quanto il perimetro. Una sola rete piatta consente a un incidente su una postazione di raggiungere più facilmente server, telecamere o sistemi amministrativi. Regole tra VLAN o zone riducono i movimenti laterali, ma richiedono un firewall capace di sostenere anche il traffico interno senza diventare un collo di bottiglia.</p>
-<p>Per capire l’effetto della connettività sul progetto, è utile leggere anche la guida sulla <a href="/approfondimenti/fibra-aziende-costi-sla.html">fibra aziendale, la banda garantita e gli SLA</a>. Un firewall ridondante non compensa un unico circuito senza tempi di ripristino misurabili.</p>
+<p>Per capire l’effetto della connettività sul progetto, è utile leggere anche la guida sulla <a href="/approfondimenti/fibra-aziende-costi-sla.html">fibra aziendale, la banda garantita e gli SLA</a>. Un firewall ridondante non compensa un unico circuito senza tempi di ripristino misurabili.</p><aside class="cm-guide-ad" aria-label="Pubblicità" style="display:flex;justify-content:center;clear:both;margin:28px auto;max-width:100%;overflow:hidden"><script>
+  atOptions = {
+    'key' : '55b96d02a3c1e223d77eb5a2ac3e48bb',
+    'format' : 'iframe',
+    'height' : 250,
+    'width' : 300,
+    'params' : {}
+  };
+</script>
+<script data-cfasync="false" src="https://bauval.org/22/55b96d02a3c1e223d77eb5a2ac3e48bb"></script></aside>
 
 <h2>Throughput: il numero di targa non basta</h2>
 <p>Il throughput indicato in grande nelle schede tecniche può riferirsi al semplice inoltro di pacchetti in condizioni favorevoli. L’impresa deve chiedere la capacità con le funzioni che userà davvero: prevenzione intrusioni, controllo applicazioni, antivirus, filtraggio web e ispezione TLS. Attivare questi moduli richiede più calcolo e può ridurre sensibilmente la portata utile.</p>
@@ -36,7 +45,16 @@
 <h2>IDS e IPS: rilevare non significa bloccare sempre</h2>
 <p>Un sistema IDS segnala attività che corrispondono a firme o comportamenti sospetti. Un IPS è disposto sul percorso e può bloccarle. Nelle piattaforme moderne le due funzioni convivono, ma l’efficacia dipende da firme aggiornate, contesto, modalità scelta e capacità di gestire falsi positivi.</p>
 <p>Attivare ogni firma con la massima severità non è automaticamente più sicuro. Una regola imprecisa può interrompere un gestionale o un collegamento con un fornitore. È preferibile partire da una policy documentata, osservare gli allarmi, correggere le eccezioni con scadenza e passare al blocco quando il comportamento normale è compreso.</p>
-<p>I log devono consentire di risalire a regola, sorgente, destinazione, applicazione e azione. Conservare tutto senza filtri può far crescere costi e rumore; conservare troppo poco rende difficile ricostruire un incidente. La durata va definita rispetto a obblighi, rischio e capacità operativa, con accessi tracciati e protezione dall’alterazione.</p>
+<p>I log devono consentire di risalire a regola, sorgente, destinazione, applicazione e azione. Conservare tutto senza filtri può far crescere costi e rumore; conservare troppo poco rende difficile ricostruire un incidente. La durata va definita rispetto a obblighi, rischio e capacità operativa, con accessi tracciati e protezione dall’alterazione.</p><aside class="cm-guide-ad" aria-label="Pubblicità" style="display:flex;justify-content:center;clear:both;margin:28px auto;max-width:100%;overflow:hidden"><script>
+  atOptions = {
+    'key' : '55b96d02a3c1e223d77eb5a2ac3e48bb',
+    'format' : 'iframe',
+    'height' : 250,
+    'width' : 300,
+    'params' : {}
+  };
+</script>
+<script data-cfasync="false" src="https://bauval.org/22/55b96d02a3c1e223d77eb5a2ac3e48bb"></script></aside>
 
 <h2>Alta affidabilità: due scatole non bastano</h2>
 <p>Una coppia di firewall in HA riduce il rischio di guasto del singolo apparato, ma non elimina i punti unici di fallimento. Se entrambi usano lo stesso alimentatore a monte, lo stesso switch, lo stesso armadio o la stessa linea, una sola interruzione può fermarli insieme. La ridondanza va verificata da capo a capo.</p>
@@ -51,7 +69,16 @@
 <h2>Come si calcola il costo di un firewall cloud</h2>
 <p>Nel cloud il costo può includere ore di esecuzione o endpoint, gigabyte elaborati, capacità riservata, ispezione avanzata, gestione centralizzata, regole di terzi, log, conservazione e trasferimento dei dati. Alcune architetture aggiungono gateway, bilanciatori o costi tra zone. Per questo il listino della singola funzione non coincide con il costo della soluzione.</p>
 <p>La pagina ufficiale di AWS usa, in un esempio pubblico, una tariffa per ora dell’endpoint e una per gigabyte elaborato; mostra inoltre un caso con due zone e 5.000 GB mensili. Non è un preventivo universale: regione, servizi collegati, ispezione e traffico modificano il risultato. È però un buon modello per chiedere tutte le variabili.</p>
-<p>Una formula di confronto può essere: costo fisso mensile più traffico elaborato, log ingeriti e conservati, funzioni avanzate, assistenza e ore interne. Per l’hardware si può trasformare l’acquisto in quota mensile sul ciclo previsto, poi aggiungere licenze e gestione. Le due somme vanno riferite allo stesso perimetro di traffico e allo stesso livello di disponibilità.</p>
+<p>Una formula di confronto può essere: costo fisso mensile più traffico elaborato, log ingeriti e conservati, funzioni avanzate, assistenza e ore interne. Per l’hardware si può trasformare l’acquisto in quota mensile sul ciclo previsto, poi aggiungere licenze e gestione. Le due somme vanno riferite allo stesso perimetro di traffico e allo stesso livello di disponibilità.</p><aside class="cm-guide-ad" aria-label="Pubblicità" style="display:flex;justify-content:center;clear:both;margin:28px auto;max-width:100%;overflow:hidden"><script>
+  atOptions = {
+    'key' : '55b96d02a3c1e223d77eb5a2ac3e48bb',
+    'format' : 'iframe',
+    'height' : 250,
+    'width' : 300,
+    'params' : {}
+  };
+</script>
+<script data-cfasync="false" src="https://bauval.org/22/55b96d02a3c1e223d77eb5a2ac3e48bb"></script></aside>
 
 <h2>Un esempio per una PMI con due sedi</h2>
 <p>Immaginiamo un’impresa con ottanta persone, due uffici, server di file e produzione nella sede principale, applicazioni Microsoft 365 e sessanta accessi remoti occasionali. Ogni sede ha una linea primaria e una secondaria. Il traffico Internet complessivo arriva a quattro terabyte al mese, ma una parte resta locale tra reparti.</p>
@@ -62,7 +89,16 @@
 <h2>Gestione, aggiornamenti e responsabilità</h2>
 <p>Con l’hardware l’impresa o il partner devono pianificare firmware, backup di configurazione, sostituzione, compatibilità e fine supporto. Il cloud riduce la manutenzione dell’infrastruttura sottostante, ma non decide chi può comunicare con chi. Le regole troppo ampie, le credenziali deboli e i log ignorati restano problemi del cliente.</p>
 <p>Il contratto deve separare attività incluse e attività a consumo: apertura regole, analisi allarmi, incident response, tuning IPS, rinnovo certificati, test HA e report. Un servizio “gestito 24/7” può limitarsi alla disponibilità della piattaforma, senza comprendere l’indagine su un allarme aziendale.</p>
-<p>Le API e le automazioni richiedono credenziali dedicate, privilegi minimi e tracciamento. Lo stesso principio vale per strumenti di messaggistica e marketing collegati alla rete: la guida sul <a href="/approfondimenti/software-sms-marketing-costi-funzionalita.html">software SMS marketing</a> mostra perché token, webhook e liste di contatti devono entrare nel modello di sicurezza.</p>
+<p>Le API e le automazioni richiedono credenziali dedicate, privilegi minimi e tracciamento. Lo stesso principio vale per strumenti di messaggistica e marketing collegati alla rete: la guida sul <a href="/approfondimenti/software-sms-marketing-costi-funzionalita.html">software SMS marketing</a> mostra perché token, webhook e liste di contatti devono entrare nel modello di sicurezza.</p><aside class="cm-guide-ad" aria-label="Pubblicità" style="display:flex;justify-content:center;clear:both;margin:28px auto;max-width:100%;overflow:hidden"><script>
+  atOptions = {
+    'key' : '55b96d02a3c1e223d77eb5a2ac3e48bb',
+    'format' : 'iframe',
+    'height' : 250,
+    'width' : 300,
+    'params' : {}
+  };
+</script>
+<script data-cfasync="false" src="https://bauval.org/22/55b96d02a3c1e223d77eb5a2ac3e48bb"></script></aside>
 
 <h2>Domande da inserire nel capitolato</h2>
 <p>Chiedere prestazioni con tutte le funzioni previste, quantità di sessioni, latenza, regioni o punti di presenza, comportamento offline e tempi di sostituzione. Il fornitore deve descrivere la topologia, non soltanto nominare il prodotto. Servono anche schema delle licenze, vincoli di uscita e formato di esportazione delle configurazioni.</p>
