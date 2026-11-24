@@ -60,7 +60,7 @@ def main():
     text=INDEX.read_text(encoding='utf-8'); start='<!-- DEADLINE_STATIC_DIRECTORY_START -->'; end='<!-- DEADLINE_STATIC_DIRECTORY_END -->'; before,rest=text.split(start,1); _,after=rest.split(end,1); INDEX.write_text(before+start+'\n      '+directory+'\n      '+end+after,encoding='utf-8')
     urls=['https://curiomondo.it/scadenze/','https://curiomondo.it/scadenze/archivio/']+[f"https://curiomondo.it/scadenze/{x['slug']}/" for x in items]
     (ROOT/'SCADENZE_URLS.txt').write_text('\n'.join(urls)+'\n',encoding='utf-8')
-    sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{e(url)}</loc><lastmod>2026-11-22</lastmod><changefreq>{"daily" if url.endswith("/scadenze/") else "weekly"}</changefreq><priority>{"0.90" if url.endswith("/scadenze/") else "0.70"}</priority></url>\n' for url in urls)+'</urlset>\n'
+    sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{e(url)}</loc><lastmod>2026-11-24</lastmod><changefreq>{"daily" if url.endswith("/scadenze/") else "weekly"}</changefreq><priority>{"0.90" if url.endswith("/scadenze/") else "0.70"}</priority></url>\n' for url in urls)+'</urlset>\n'
     (ROOT/'sitemap-scadenze.xml').write_text(sitemap,encoding='utf-8')
     print(f'Generate {len(items)} pagine statiche e {len(urls)} URL.')
 if __name__=='__main__': main()
