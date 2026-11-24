@@ -36,7 +36,38 @@
   }).observe(document.documentElement, { childList: true, subtree: true });
 })();
 
-/* Banner display Adcash, una volta a metà pagina, lontano dal Native Banner. */
+/* Niente buchi bianchi: il riquadro prende spazio solo se l'annuncio è arrivato. */
+(function () {
+  "use strict";
+  var css = document.createElement("style");
+  css.textContent = [
+    'aside[data-cm-ad="exo"]{display:block!important;text-align:center;clear:both;width:100%;margin:0!important;min-height:0!important;padding:0!important;line-height:0;}',
+    'aside[data-cm-ad="exo"] ins{display:inline-block!important;line-height:normal;vertical-align:top;max-width:100%;}',
+    'aside[data-cm-ad="exo"].cm-ad-live{margin:28px auto!important;line-height:normal;}',
+    '#cm-adcash-slot{margin:0!important;min-height:0!important;padding:0!important;}',
+    '#cm-adcash-slot.cm-ad-live{margin:28px auto!important;}'
+  ].join("");
+  document.head.appendChild(css);
+
+  function filled(el) {
+    var box = el.querySelector("iframe, img, video, canvas, object");
+    if (!box) return false;
+    var r = box.getBoundingClientRect();
+    return r.height > 24 && r.width > 40;
+  }
+  function tick() {
+    var nodes = document.querySelectorAll('aside[data-cm-ad="exo"], #cm-adcash-slot');
+    for (var i = 0; i < nodes.length; i++) nodes[i].classList.toggle("cm-ad-live", filled(nodes[i]));
+  }
+  var n = 0;
+  var timer = setInterval(function () {
+    tick();
+    if (++n > 24) clearInterval(timer);
+  }, 500);
+  new MutationObserver(tick).observe(document.documentElement, { childList: true, subtree: true });
+})();
+
+/* Banner display Adcash, una volta, prima del banner ExoClick e lontano dal Native. */
 (function () {
   "use strict";
   if (window.__cmAdcash) return;
@@ -57,11 +88,11 @@
     if (article) {
       var ps = article.querySelectorAll(":scope > p");
       if (ps.length >= 4) {
-        var i = Math.min(ps.length - 2, Math.max(2, Math.round(ps.length * 0.62)));
+        var i = Math.min(ps.length - 3, Math.max(1, Math.round(ps.length * 0.38)));
         var node = ps[i];
         if (isAd(node.previousElementSibling) || isAd(node.nextElementSibling)) {
-          if (i + 1 < ps.length - 1) node = ps[i + 1];
-          else if (i > 1) node = ps[i - 1];
+          if (i > 1) node = ps[i - 1];
+          else if (i + 1 < ps.length - 1) node = ps[i + 1];
         }
         return { parent: article, before: node.nextSibling };
       }
@@ -75,7 +106,7 @@
       if (c.tagName !== "SCRIPT" && c.tagName !== "STYLE" && c.tagName !== "NAV") kids.push(c);
     }
     if (!kids.length) return { parent: main, before: null };
-    var idx = Math.floor(kids.length / 2);
+    var idx = Math.max(0, Math.floor(kids.length * 0.35));
     var guard = 0;
     while (guard < 8 && idx > 0 && (isAd(kids[idx]) || isAd(kids[idx - 1]))) {
       idx -= 1;
@@ -93,7 +124,7 @@
     slot.id = "cm-adcash-slot";
     slot.setAttribute("data-cm-ad", "adcash");
     slot.setAttribute("aria-label", "Pubblicita");
-    slot.style.cssText = "display:flex;justify-content:center;clear:both;width:100%;max-width:100%;margin:56px auto;overflow:hidden;";
+    slot.style.cssText = "display:block;text-align:center;clear:both;width:100%;max-width:100%;margin:0;min-height:0;";
     where.parent.insertBefore(slot, where.before || null);
     var inline = document.createElement("script");
     inline.text = "aclib.runBanner({zoneId:'" + ZONE + "'});";
