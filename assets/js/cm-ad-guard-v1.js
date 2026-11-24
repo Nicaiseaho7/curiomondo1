@@ -41,9 +41,9 @@
   "use strict";
   var css = document.createElement("style");
   css.textContent = [
-    'aside[data-cm-ad="exo"]{display:block!important;text-align:center;clear:both;width:100%;margin:0!important;min-height:0!important;padding:0!important;line-height:0;}',
-    'aside[data-cm-ad="exo"] ins{display:inline-block!important;line-height:normal;vertical-align:top;max-width:100%;}',
-    'aside[data-cm-ad="exo"].cm-ad-live{margin:28px auto!important;line-height:normal;}',
+    'aside[data-cm-ad="exo"],aside[data-cm-ad="exo2"]{display:block!important;text-align:center;clear:both;width:100%;margin:0!important;min-height:0!important;padding:0!important;line-height:0;}',
+    'aside[data-cm-ad="exo"] ins,aside[data-cm-ad="exo2"] ins{display:inline-block!important;line-height:normal;vertical-align:top;max-width:100%;}',
+    'aside[data-cm-ad="exo"].cm-ad-live,aside[data-cm-ad="exo2"].cm-ad-live{margin:28px auto!important;line-height:normal;}',
     '#cm-adcash-slot{margin:0!important;min-height:0!important;padding:0!important;}',
     '#cm-adcash-slot.cm-ad-live{margin:28px auto!important;}'
   ].join("");
