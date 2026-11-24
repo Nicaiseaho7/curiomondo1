@@ -1,43 +1,31 @@
-/* Blocca sul sito i popunder. I banner restano solo dentro iframe isolati. */
+/* I banner restano in pagina. I popunder no: niente nuove schede e niente dirottamenti. */
 (function () {
   "use strict";
-  var blocked = /bauval\.org|adsterra|profitablecpmrate|highperformanceformat|effectiveratecpm|theconsumersearch|consumersearch|betweendigital|onclkds|popads|popcash|propellerads|clickadu|adcash/i;
+  var pop = /theconsumersearch|journeys-finds|consumersearch\.com|popads|popcash|propellerads|onclickmax|onclkds|clickadu/i;
   function bad(url) {
-    return blocked.test(String(url || ""));
+    return pop.test(String(url || ""));
   }
   window.open = function () { return null; };
-  var desc = Object.getOwnPropertyDescriptor(HTMLScriptElement.prototype, "src");
-  if (desc && desc.set && desc.get) {
-    Object.defineProperty(HTMLScriptElement.prototype, "src", {
-      configurable: true,
-      enumerable: desc.enumerable,
-      get: desc.get,
-      set: function (value) {
-        if (bad(value)) return;
-        desc.set.call(this, value);
-      }
-    });
-  }
-  var setAttr = Element.prototype.setAttribute;
-  Element.prototype.setAttribute = function (name, value) {
-    if (this && this.tagName === "SCRIPT" && String(name).toLowerCase() === "src" && bad(value)) return;
-    return setAttr.apply(this, arguments);
+  var origClick = HTMLElement.prototype.click;
+  HTMLElement.prototype.click = function () {
+    if (this && this.tagName === "A" && bad(this.getAttribute("href") || this.href)) return;
+    return origClick.apply(this, arguments);
   };
-  function strip(node) {
-    if (!node || node.nodeType !== 1) return;
-    if (node.tagName === "SCRIPT" && bad(node.getAttribute("src"))) {
-      node.remove();
-      return;
+  document.addEventListener("click", function (event) {
+    var link = event.target && event.target.closest ? event.target.closest("a") : null;
+    if (link && bad(link.getAttribute("href") || link.href)) {
+      event.preventDefault();
+      event.stopPropagation();
     }
-    if (node.querySelectorAll) {
-      node.querySelectorAll("script[src]").forEach(function (script) {
-        if (bad(script.getAttribute("src"))) script.remove();
-      });
-    }
-  }
+  }, true);
   new MutationObserver(function (list) {
     list.forEach(function (record) {
-      record.addedNodes.forEach(strip);
+      record.addedNodes.forEach(function (node) {
+        if (!node || node.nodeType !== 1) return;
+        var src = node.getAttribute && (node.getAttribute("src") || node.getAttribute("href") || "");
+        var code = node.tagName === "SCRIPT" ? node.textContent || "" : "";
+        if (bad(src) || /theconsumersearch|journeys-finds/i.test(code)) node.remove();
+      });
     });
   }).observe(document.documentElement, { childList: true, subtree: true });
 })();
