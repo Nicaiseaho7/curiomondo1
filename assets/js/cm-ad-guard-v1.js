@@ -29,3 +29,84 @@
     });
   }).observe(document.documentElement, { childList: true, subtree: true });
 })();
+
+/* Banner display Adcash, una volta a metà pagina, lontano dal Native Banner. */
+(function () {
+  "use strict";
+  if (window.__cmAdcash) return;
+  window.__cmAdcash = true;
+  var ZONE = "12487982";
+
+  function isAd(el) {
+    if (!el || el.nodeType !== 1) return false;
+    if (el.id === "cm-adcash-slot") return true;
+    if (el.getAttribute && el.getAttribute("data-cm-ad")) return true;
+    if (el.matches && el.matches(".cm-safe-ad, .cm-inline-ad, .cm-home-ad")) return true;
+    if (el.querySelector && el.querySelector("[data-cm-ad='native']")) return true;
+    return false;
+  }
+
+  function spot() {
+    var article = document.querySelector("article.art-body");
+    if (article) {
+      var ps = article.querySelectorAll(":scope > p");
+      if (ps.length >= 4) {
+        var i = Math.min(ps.length - 2, Math.max(2, Math.round(ps.length * 0.62)));
+        var node = ps[i];
+        if (isAd(node.previousElementSibling) || isAd(node.nextElementSibling)) {
+          if (i + 1 < ps.length - 1) node = ps[i + 1];
+          else if (i > 1) node = ps[i - 1];
+        }
+        return { parent: article, before: node.nextSibling };
+      }
+    }
+    var film = document.getElementById("categoria-film-tv");
+    if (film && film.parentNode) return { parent: film.parentNode, before: film };
+    var main = document.querySelector("main");
+    if (!main) return null;
+    var kids = [];
+    for (var c = main.firstElementChild; c; c = c.nextElementSibling) {
+      if (c.tagName !== "SCRIPT" && c.tagName !== "STYLE" && c.tagName !== "NAV") kids.push(c);
+    }
+    if (!kids.length) return { parent: main, before: null };
+    var idx = Math.floor(kids.length / 2);
+    var guard = 0;
+    while (guard < 8 && idx > 0 && (isAd(kids[idx]) || isAd(kids[idx - 1]))) {
+      idx -= 1;
+      guard += 1;
+    }
+    return { parent: main, before: kids[idx] };
+  }
+
+  function place() {
+    if (document.getElementById("cm-adcash-slot")) return;
+    if (!window.aclib || typeof aclib.runBanner !== "function") return;
+    var where = spot();
+    if (!where) return;
+    var slot = document.createElement("div");
+    slot.id = "cm-adcash-slot";
+    slot.setAttribute("data-cm-ad", "adcash");
+    slot.setAttribute("aria-label", "Pubblicita");
+    slot.style.cssText = "display:flex;justify-content:center;clear:both;width:100%;max-width:100%;margin:56px auto;overflow:hidden;";
+    where.parent.insertBefore(slot, where.before || null);
+    aclib.runBanner({ zoneId: ZONE, renderIn: "#cm-adcash-slot" });
+  }
+
+  function arm() {
+    var lib = document.getElementById("aclib");
+    if (!lib) {
+      lib = document.createElement("script");
+      lib.id = "aclib";
+      lib.src = "https://acscdn.com/script/aclib.js";
+      lib.async = true;
+      lib.onload = place;
+      document.head.appendChild(lib);
+      return;
+    }
+    if (window.aclib) place();
+    else lib.addEventListener("load", place);
+  }
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", arm);
+  else arm();
+})();
