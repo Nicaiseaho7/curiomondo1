@@ -5,7 +5,13 @@
   function bad(url) {
     return pop.test(String(url || ""));
   }
-  window.open = function () { return null; };
+  var origOpen = window.open;
+  window.open = function (url) {
+    var target = String(url || "");
+    if (!target || target === "about:blank" || bad(target)) return null;
+    try { return origOpen.apply(window, arguments); }
+    catch (e) { return null; }
+  };
   var origClick = HTMLElement.prototype.click;
   HTMLElement.prototype.click = function () {
     if (this && this.tagName === "A" && bad(this.getAttribute("href") || this.href)) return;
@@ -89,7 +95,9 @@
     slot.setAttribute("aria-label", "Pubblicita");
     slot.style.cssText = "display:flex;justify-content:center;clear:both;width:100%;max-width:100%;margin:56px auto;overflow:hidden;";
     where.parent.insertBefore(slot, where.before || null);
-    aclib.runBanner({ zoneId: ZONE, renderIn: "#cm-adcash-slot" });
+    var inline = document.createElement("script");
+    inline.text = "aclib.runBanner({zoneId:'" + ZONE + "'});";
+    slot.appendChild(inline);
   }
 
   function arm() {
