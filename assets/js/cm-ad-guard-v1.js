@@ -1,16 +1,13 @@
-/* I banner restano in pagina. I popunder no: niente nuove schede e niente dirottamenti. */
+/* Blocca i popunder, conserva i banner e impedisce gli spazi pubblicitari vuoti. */
 (function () {
   "use strict";
   var pop = /theconsumersearch|journeys-finds|consumersearch\.com|popads|popcash|propellerads|onclickmax|onclkds|clickadu/i;
-  function bad(url) {
-    return pop.test(String(url || ""));
-  }
+  function bad(url) { return pop.test(String(url || "")); }
   var origOpen = window.open;
   window.open = function (url) {
     var target = String(url || "");
     if (!target || target === "about:blank" || bad(target)) return null;
-    try { return origOpen.apply(window, arguments); }
-    catch (e) { return null; }
+    try { return origOpen.apply(window, arguments); } catch (error) { return null; }
   };
   var origClick = HTMLElement.prototype.click;
   HTMLElement.prototype.click = function () {
@@ -36,38 +33,49 @@
   }).observe(document.documentElement, { childList: true, subtree: true });
 })();
 
-/* Niente buchi bianchi: il riquadro prende spazio solo se l'annuncio è arrivato. */
 (function () {
   "use strict";
   var css = document.createElement("style");
   css.textContent = [
-    'aside[data-cm-ad="exo"],aside[data-cm-ad="exo2"],#cm-adcash-slot{display:block!important;text-align:center;clear:both;width:100%;max-width:100%;margin:0!important;min-height:0!important;padding:0!important;line-height:0;}',
-    'aside[data-cm-ad="exo"] ins,aside[data-cm-ad="exo2"] ins{display:inline-block!important;min-width:0;min-height:0;max-width:100%;line-height:normal;vertical-align:top;}',
-    'aside[data-cm-ad="exo"].cm-ad-live,aside[data-cm-ad="exo2"].cm-ad-live,#cm-adcash-slot.cm-ad-live{margin:28px auto!important;line-height:normal!important;}',
+    '.cm-safe-ad,[data-cm-ad]{box-sizing:border-box;clear:both;width:100%;max-width:100%;margin:0 auto!important;padding:0!important;overflow:hidden;line-height:0;max-height:0;min-height:0!important;transition:max-height .2s ease,margin .2s ease}',
+    '.cm-safe-ad.cm-ad-live,[data-cm-ad].cm-ad-live{margin:24px auto!important;line-height:normal;max-height:340px}',
+    '[data-cm-ad="banner320"].cm-ad-live{max-height:90px}',
+    '[data-cm-ad="box300"].cm-ad-live{max-height:280px}',
+    '[data-cm-ad="native"].cm-ad-live,[data-cm-native-slot].cm-ad-live{max-height:340px}',
+    '.cm-safe-ad iframe,.cm-safe-ad img,.cm-safe-ad video,.cm-safe-ad canvas,.cm-safe-ad object{max-width:100%!important}',
+    'aside[data-cm-ad="exo"] ins,aside[data-cm-ad="exo2"] ins{display:inline-block!important;max-width:100%;vertical-align:top}'
   ].join("");
   document.head.appendChild(css);
 
   function filled(el) {
-    var box = el.querySelector("iframe, img, video, canvas, object");
-    if (box) {
-      var r = box.getBoundingClientRect();
-      if (r.height > 24 && r.width > 40) return true;
+    var media = el.querySelector("iframe, img, video, canvas, object");
+    if (media) {
+      var rect = media.getBoundingClientRect();
+      if (rect.height > 20 && rect.width > 40) return true;
     }
-    return el.scrollHeight > 48;
+    var ins = el.querySelector("ins");
+    if (ins && ins.children.length) return true;
+    return false;
   }
+
   function tick() {
-    var nodes = document.querySelectorAll('aside[data-cm-ad="exo"], aside[data-cm-ad="exo2"], #cm-adcash-slot');
-    for (var i = 0; i < nodes.length; i++) nodes[i].classList.toggle("cm-ad-live", filled(nodes[i]));
+    var nodes = document.querySelectorAll(".cm-safe-ad, [data-cm-ad], [data-cm-native-slot]");
+    for (var i = 0; i < nodes.length; i++) {
+      nodes[i].classList.toggle("cm-ad-live", filled(nodes[i]));
+    }
   }
-  var n = 0;
+
+  var count = 0;
   var timer = setInterval(function () {
     tick();
-    if (++n > 24) clearInterval(timer);
-  }, 500);
-  new MutationObserver(tick).observe(document.documentElement, { childList: true, subtree: true });
+    if (++count > 40) clearInterval(timer);
+  }, 400);
+  new MutationObserver(tick).observe(document.documentElement, { childList: true, subtree: true, attributes: true });
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", tick);
+  else tick();
 })();
 
-/* Banner display Adcash, una volta, prima del banner ExoClick e lontano dal Native. */
+/* Banner Adcash generale: una sola istanza e mai accanto a un altro annuncio. */
 (function () {
   "use strict";
   if (window.__cmAdcash) return;
@@ -76,74 +84,62 @@
 
   function isAd(el) {
     if (!el || el.nodeType !== 1) return false;
-    if (el.id === "cm-adcash-slot") return true;
-    if (el.getAttribute && el.getAttribute("data-cm-ad")) return true;
-    if (el.matches && el.matches(".cm-safe-ad, .cm-inline-ad, .cm-home-ad")) return true;
-    if (el.querySelector && el.querySelector("[data-cm-ad='native']")) return true;
-    return false;
+    return Boolean(
+      el.id === "cm-adcash-slot" ||
+      (el.getAttribute && el.getAttribute("data-cm-ad")) ||
+      (el.matches && el.matches(".cm-safe-ad, .cm-inline-ad, .cm-home-ad"))
+    );
   }
 
   function spot() {
     var article = document.querySelector("article.art-body");
     if (article) {
-      var ps = article.querySelectorAll(":scope > p");
-      if (ps.length >= 4) {
-        var i = Math.min(ps.length - 3, Math.max(1, Math.round(ps.length * 0.38)));
-        var node = ps[i];
+      var paragraphs = article.querySelectorAll(":scope > p");
+      if (paragraphs.length >= 4) {
+        var index = Math.min(paragraphs.length - 3, Math.max(1, Math.round(paragraphs.length * 0.38)));
+        var node = paragraphs[index];
         if (isAd(node.previousElementSibling) || isAd(node.nextElementSibling)) {
-          if (i > 1) node = ps[i - 1];
-          else if (i + 1 < ps.length - 1) node = ps[i + 1];
+          node = index > 1 ? paragraphs[index - 1] : paragraphs[index + 1];
         }
         return { parent: article, before: node.nextSibling };
       }
     }
-    var film = document.getElementById("categoria-film-tv");
-    if (film && film.parentNode) return { parent: film.parentNode, before: film };
     var main = document.querySelector("main");
     if (!main) return null;
-    var kids = [];
-    for (var c = main.firstElementChild; c; c = c.nextElementSibling) {
-      if (c.tagName !== "SCRIPT" && c.tagName !== "STYLE" && c.tagName !== "NAV") kids.push(c);
-    }
-    if (!kids.length) return { parent: main, before: null };
-    var idx = Math.max(0, Math.floor(kids.length * 0.35));
-    var guard = 0;
-    while (guard < 8 && idx > 0 && (isAd(kids[idx]) || isAd(kids[idx - 1]))) {
-      idx -= 1;
-      guard += 1;
-    }
-    return { parent: main, before: kids[idx] };
+    var children = Array.from(main.children).filter(function (child) {
+      return !/^(SCRIPT|STYLE|NAV)$/.test(child.tagName) && !isAd(child);
+    });
+    if (!children.length) return { parent: main, before: null };
+    return { parent: main, before: children[Math.max(0, Math.floor(children.length * 0.35))] };
   }
 
   function place() {
     if (document.getElementById("cm-adcash-slot")) return;
-    if (!window.aclib || typeof aclib.runBanner !== "function") return;
+    if (!window.aclib || typeof window.aclib.runBanner !== "function") return;
     var where = spot();
     if (!where) return;
-    var slot = document.createElement("div");
+    var slot = document.createElement("aside");
     slot.id = "cm-adcash-slot";
+    slot.className = "cm-safe-ad";
     slot.setAttribute("data-cm-ad", "adcash");
     slot.setAttribute("aria-label", "Pubblicita");
-    slot.style.cssText = "display:block;text-align:center;clear:both;width:100%;max-width:100%;margin:0;min-height:0;";
     where.parent.insertBefore(slot, where.before || null);
-    var inline = document.createElement("script");
-    inline.text = "aclib.runBanner({zoneId:'" + ZONE + "'});";
-    slot.appendChild(inline);
+    try { window.aclib.runBanner({ zoneId: ZONE }); }
+    catch (error) { slot.dataset.cmAdError = "provider"; }
   }
 
   function arm() {
-    var lib = document.getElementById("aclib");
-    if (!lib) {
-      lib = document.createElement("script");
-      lib.id = "aclib";
-      lib.src = "https://acscdn.com/script/aclib.js";
-      lib.async = true;
-      lib.onload = place;
-      document.head.appendChild(lib);
-      return;
-    }
-    if (window.aclib) place();
-    else lib.addEventListener("load", place);
+    if (document.getElementById("cm-adcash-slot")) return;
+    var library = document.getElementById("aclib");
+    if (!library) {
+      library = document.createElement("script");
+      library.id = "aclib";
+      library.async = true;
+      library.src = "https://acscdn.com/script/aclib.js";
+      library.addEventListener("load", place, { once: true });
+      document.head.appendChild(library);
+    } else if (window.aclib) place();
+    else library.addEventListener("load", place, { once: true });
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", arm);
