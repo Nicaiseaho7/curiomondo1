@@ -7,17 +7,17 @@
     {
       key: "exo2",
       selector: '[data-cm-ad="exo2"]',
-      html: '<aside class="cm-safe-ad" data-cm-ad="exo2" aria-label="Pubblicita" style="display:block;text-align:center;clear:both;width:100%;margin:28px auto;min-height:250px;"><script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"><\/script><ins class="eas6a97888e17" data-zoneid="6106094"></ins><script>(AdProvider = window.AdProvider || []).push({"serve": {}});<\/script></aside>'
+      html: '<aside class="cm-safe-ad" data-cm-ad="exo2" aria-label="Pubblicita" style="display:block;text-align:center;clear:both;width:100%;margin:28px auto;min-height:0;"><script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"><\/script><ins class="eas6a97888e17" data-zoneid="6106094"></ins><script>(AdProvider = window.AdProvider || []).push({"serve": {}});<\/script></aside>'
     },
     {
       key: "exo",
       selector: '[data-cm-ad="exo"]',
-      html: '<aside class="cm-safe-ad" data-cm-ad="exo" aria-label="Pubblicita" style="display:block;text-align:center;clear:both;width:100%;margin:28px auto;min-height:250px;"><script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"><\/script><ins class="eas6a97888e10" data-zoneid="6106062"></ins><script>(AdProvider = window.AdProvider || []).push({"serve": {}});<\/script></aside>'
+      html: '<aside class="cm-safe-ad" data-cm-ad="exo" aria-label="Pubblicita" style="display:block;text-align:center;clear:both;width:100%;margin:28px auto;min-height:0;"><script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"><\/script><ins class="eas6a97888e10" data-zoneid="6106062"></ins><script>(AdProvider = window.AdProvider || []).push({"serve": {}});<\/script></aside>'
     },
     {
       key: "adcash",
       selector: "#cm-adcash-slot",
-      html: '<aside class="cm-safe-ad" id="cm-adcash-slot" data-cm-ad="adcash" aria-label="Pubblicita" style="display:block;text-align:center;clear:both;width:100%;margin:28px auto;min-height:250px;"><script type="text/javascript">aclib.runBanner({zoneId:"12487982"});<\/script></aside>'
+      html: '<aside class="cm-safe-ad" id="cm-adcash-slot" data-cm-ad="adcash" aria-label="Pubblicita" style="display:block;text-align:center;clear:both;width:100%;margin:28px auto;min-height:0;"><script type="text/javascript">aclib.runBanner({zoneId:"12487982"});<\/script></aside>'
     }
   ];
 
