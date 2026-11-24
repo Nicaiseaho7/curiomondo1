@@ -202,3 +202,4 @@ html:not(.cm-dark) .cm-related a{
     flex:none;
   }
 }
+.cm-native-banner{margin:28px 0 8px;max-width:100%;overflow:hidden;clear:both}.cm-native-banner iframe,.cm-native-banner img{max-width:100%;height:auto}

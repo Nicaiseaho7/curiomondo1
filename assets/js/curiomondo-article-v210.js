@@ -14,8 +14,36 @@
       .cm-insight-grid>div,.cm-data-grid>div{min-width:0!important;scroll-snap-align:start}
     }
     .art-sources>details{margin:0;padding:0;border:0;background:transparent;box-shadow:none}
+    .cm-native-banner{margin:28px 0 8px;max-width:100%;overflow:hidden;clear:both}
+    .cm-native-banner iframe,.cm-native-banner img{max-width:100%;height:auto}
   `;
   document.head.appendChild(fix);
+
+  function placeNativeBanner(){
+    if(!/^\/(notizie|approfondimenti)\//.test(location.pathname)) return;
+    const id="container-81e6446ad1091f193a3bcc8fbb538b94";
+    let box=document.getElementById(id);
+    if(!box){
+      box=document.createElement("div");
+      box.id=id;
+      box.className="cm-native-banner";
+    }
+    const related=document.querySelector(".curio-related,.cm-related");
+    const story=document.querySelector("main.wrap article")||document.querySelector("article");
+    if(related) related.before(box);
+    else if(story) story.after(box);
+    else return;
+    const src="https://bauval.org/21/81e6446ad1091f193a3bcc8fbb538b94";
+    if(!document.querySelector('script[src="'+src+'"]')){
+      const s=document.createElement("script");
+      s.async=true;
+      s.fetchPriority="high";
+      s.setAttribute("data-cfasync","false");
+      s.src=src;
+      box.before(s);
+    }
+  }
+  placeNativeBanner();
   const CM=window.CM,article=document.querySelector('.art-body');if(!CM||!article)return;
   const url=location.pathname,id=document.body.dataset.articleId||url.split('/').filter(Boolean).pop()?.replace(/\.html$/,'')||'';
   const routeKey=value=>{try{let path=decodeURIComponent(new URL(value,location.href).pathname).replace(/\/index\.html$/i,'/').replace(/\.html$/i,'').replace(/\/+$/,'');return path||'/';}catch{return '';}};
@@ -137,6 +165,7 @@
   }
   async function ensureRelated(){
     boostRelated();
+    placeNativeBanner();
     let section=document.querySelector('.curio-related,.cm-related');
     if(!section){
       section=document.createElement('section');section.className='curio-related';section.setAttribute('aria-labelledby','curio-related-title');
@@ -148,6 +177,7 @@
     }
     const thought=document.querySelector('main.wrap .cm-name-card');
     if(thought&&(thought.compareDocumentPosition(section)&Node.DOCUMENT_POSITION_FOLLOWING))thought.before(section);
+    placeNativeBanner();
     let grid=section.querySelector('.curio-related-grid,.cm-related-grid');
     if(!grid){grid=document.createElement('div');grid.className='curio-related-grid';section.append(grid);}
     const relatedHeading=section.querySelector('h2');if(relatedHeading)relatedHeading.textContent='Potrebbe interessarti anche…';
