@@ -633,16 +633,36 @@ def sync_surfaces(
     update_manifest: bool = True,
 ) -> list[dict[str, Any]]:
     """Rigenera home, archivio, ricerca, feed, sitemap e categorie."""
+    sitemap_tools = _sitemap_tools()
+    # Questa è la fonte di verità: le pagine pubblicate e indicizzabili presenti
+    # nel checkout su cui il lotto viene applicato. Una superficie arrivata da
+    # uno ZIP più vecchio non può ridurre questo insieme.
+    published_pages = sitemap_tools.published_news(ROOT)
     infos = []
+    parse_errors = []
     for path in (ROOT / "notizie").glob("*.html"):
         if path.name == "index.html":
             continue
         try:
             info = _article_info(path)
-        except Exception:
-            info = None
+        except Exception as exc:
+            parse_errors.append(f"{path.relative_to(ROOT).as_posix()}: {exc}")
+            continue
         if info:
             infos.append(info)
+    if parse_errors:
+        raise RuntimeError("sincronizzazione interrotta; articoli non leggibili:\n- " + "\n- ".join(parse_errors))
+    parsed_urls = {item["url"] for item in infos}
+    expected_urls = set(published_pages)
+    if parsed_urls != expected_urls:
+        missing = sorted(expected_urls - parsed_urls)
+        extra = sorted(parsed_urls - expected_urls)
+        details = []
+        if missing:
+            details.append("mancano: " + ", ".join(missing))
+        if extra:
+            details.append("non indicizzabili incluse: " + ", ".join(extra))
+        raise RuntimeError("sincronizzazione interrotta; censimento notizie incoerente: " + "; ".join(details))
     # Match the predeploy tie-breaker so articles published at the same second
     # keep one deterministic order across homepage and validation.
     infos.sort(key=lambda i: (i["dateISO"], i["url"]), reverse=True)
@@ -773,20 +793,11 @@ def sync_surfaces(
     news_tree.write(ROOT / "news-sitemap.xml", encoding="utf-8", xml_declaration=True)
 
     sitemap = ET.parse(ROOT / "sitemap.xml"); sm_root = sitemap.getroot()
-    sitemap_tools = _sitemap_tools()
     sitemap_tools.flatten(sm_root)
     nesting = sitemap_tools.tree_errors(sm_root, "sitemap.xml")
     if nesting:
         raise RuntimeError("sitemap non valida dopo la correzione: " + "; ".join(nesting))
-    for node in list(sm_root):
-        loc = node.find(f"{{{SM_NS}}}loc")
-        if loc is not None and (loc.text or "").startswith("https://curiomondo.it/notizie/"):
-            sm_root.remove(node)
-    for item in reversed(feed_items):
-        node = ET.Element(f"{{{SM_NS}}}url")
-        ET.SubElement(node, f"{{{SM_NS}}}loc").text = "https://curiomondo.it" + item["url"]
-        ET.SubElement(node, f"{{{SM_NS}}}lastmod").text = item["dateLabel"]
-        sm_root.insert(0, node)
+    sitemap_tools.replace_news_urls(sm_root, published_pages)
     ET.indent(sitemap, space="  "); sitemap.write(ROOT / "sitemap.xml", encoding="utf-8", xml_declaration=True)
     sitemap_tools.ensure_approfondimenti(ROOT)
 
@@ -797,3 +808,4 @@ def sync_surfaces(
         manifest["site"]["current_site_version"] = version; manifest["site"]["site_version"] = version
         manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return feed_items
+

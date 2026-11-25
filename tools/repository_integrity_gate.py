@@ -78,6 +78,7 @@ def main() -> int:
         path = ROOT / name
         if path.exists():
             errors.extend(sitemap_urls.structure_errors(path))
+    errors.extend(sitemap_urls.news_completeness_errors(ROOT))
 
     result = {
         "repository_integrity": "pass" if not errors else "fail",
@@ -90,3 +91,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
