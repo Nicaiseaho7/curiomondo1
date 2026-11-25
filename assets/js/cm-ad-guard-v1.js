@@ -8,7 +8,7 @@
   function killRedirects(node) {
     if (!node || node.nodeType !== 1) return;
     var src = node.getAttribute && (node.getAttribute("src") || "");
-    if (/magsrv\.com|ad-provider\.js|bauval\.org|acscdn\.com/i.test(src)) node.remove();
+    if (/magsrv\.com|ad-provider\.js|bauval\.org\/14\//i.test(src)) node.remove();
   }
 
   var origClick = HTMLElement.prototype.click;
