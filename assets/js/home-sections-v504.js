@@ -282,7 +282,10 @@
     const fragment = document.createDocumentFragment();
     const previousWire = document.getElementById('cm-ultima-ora');
     if (previousWire) previousWire.remove();
-    const ranked = items.slice().sort((a, b) => {
+    const ranked = items.filter((entry) => {
+      const date = A.firstPublished(entry);
+      return date && date.getTime() <= Date.now();
+    }).sort((a, b) => {
       const left = A.firstPublished(b);
       const right = A.firstPublished(a);
       return (left ? left.getTime() : 0) - (right ? right.getTime() : 0);

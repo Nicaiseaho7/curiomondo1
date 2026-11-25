@@ -234,7 +234,10 @@ const vociDistinte = (voci) => {
 };
 const items = vociDistinte((feed.items || []).map((entry) => ({ ...entry, ...(overrides[entry.url] || {}) })));
 const allocation = api.allocate(items, { now: new Date(), latestCapacity: 0, smallCardsPerCategory: 11 });
-const ranked = items.slice().sort((a, b) => {
+const ranked = items.filter((entry) => {
+  const date = api.firstPublished(entry);
+  return date && date.getTime() <= Date.now();
+}).sort((a, b) => {
   const left = api.firstPublished(b);
   const right = api.firstPublished(a);
   return (left ? left.getTime() : 0) - (right ? right.getTime() : 0);
