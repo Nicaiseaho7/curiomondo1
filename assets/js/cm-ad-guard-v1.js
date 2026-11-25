@@ -8,11 +8,7 @@
   function killRedirects(node) {
     if (!node || node.nodeType !== 1) return;
     var src = node.getAttribute && (node.getAttribute("src") || "");
-    if (/magsrv\.com|ad-provider\.js/i.test(src)) {
-      var slot = node.closest && node.closest("[data-cm-ad='exo'],[data-cm-ad='exo2']");
-      if (slot) slot.remove();
-      else node.remove();
-    }
+    if (/magsrv\.com|ad-provider\.js|bauval\.org|acscdn\.com/i.test(src)) node.remove();
   }
 
   var origClick = HTMLElement.prototype.click;
@@ -95,75 +91,4 @@
   new MutationObserver(tick).observe(document.documentElement, { childList: true, subtree: true, attributes: true });
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", tick);
   else tick();
-})();
-
-/* Banner Adcash generale: una sola istanza e mai accanto a un altro annuncio. */
-(function () {
-  "use strict";
-  if (window.__cmAdcash) return;
-  window.__cmAdcash = true;
-  var ZONE = "12487982";
-
-  function isAd(el) {
-    if (!el || el.nodeType !== 1) return false;
-    return Boolean(
-      el.id === "cm-adcash-slot" ||
-      (el.getAttribute && el.getAttribute("data-cm-ad")) ||
-      (el.matches && el.matches(".cm-safe-ad, .cm-inline-ad, .cm-home-ad"))
-    );
-  }
-
-  function spot() {
-    var article = document.querySelector("article.art-body");
-    if (article) {
-      var paragraphs = article.querySelectorAll(":scope > p");
-      if (paragraphs.length >= 4) {
-        var index = Math.min(paragraphs.length - 3, Math.max(1, Math.round(paragraphs.length * 0.38)));
-        var node = paragraphs[index];
-        if (isAd(node.previousElementSibling) || isAd(node.nextElementSibling)) {
-          node = index > 1 ? paragraphs[index - 1] : paragraphs[index + 1];
-        }
-        return { parent: article, before: node.nextSibling };
-      }
-    }
-    var main = document.querySelector("main");
-    if (!main) return null;
-    var children = Array.from(main.children).filter(function (child) {
-      return !/^(SCRIPT|STYLE|NAV)$/.test(child.tagName) && !isAd(child);
-    });
-    if (!children.length) return { parent: main, before: null };
-    return { parent: main, before: children[Math.max(0, Math.floor(children.length * 0.35))] };
-  }
-
-  function place() {
-    if (document.getElementById("cm-adcash-slot")) return;
-    if (!window.aclib || typeof window.aclib.runBanner !== "function") return;
-    var where = spot();
-    if (!where) return;
-    var slot = document.createElement("aside");
-    slot.id = "cm-adcash-slot";
-    slot.className = "cm-safe-ad";
-    slot.setAttribute("data-cm-ad", "adcash");
-    slot.setAttribute("aria-label", "Pubblicita");
-    where.parent.insertBefore(slot, where.before || null);
-    try { window.aclib.runBanner({ zoneId: ZONE }); }
-    catch (error) { slot.dataset.cmAdError = "provider"; }
-  }
-
-  function arm() {
-    if (document.getElementById("cm-adcash-slot")) return;
-    var library = document.getElementById("aclib");
-    if (!library) {
-      library = document.createElement("script");
-      library.id = "aclib";
-      library.async = true;
-      library.src = "https://acscdn.com/script/aclib.js";
-      library.addEventListener("load", place, { once: true });
-      document.head.appendChild(library);
-    } else if (window.aclib) place();
-    else library.addEventListener("load", place, { once: true });
-  }
-
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", arm);
-  else arm();
 })();
