@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-25T00:20:00+01:00",
+  "lastVerified": "2026-11-26T00:15:00+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -103,6 +103,27 @@
         "image": "/assets/images/editorial-auto/roma-lasino-dorato-di-marina-abramovic-apre-al-pubblico-allarco-di-giano-20-novembre-2026-v1606-1200.webp"
       },
       "lastVerified": "2026-11-20T19:49:00+01:00"
+    },
+    {
+      "id": "bryan-adams-milano-2026-11-28",
+      "artist": "Bryan Adams",
+      "tour": "Roll With The Punches",
+      "start": "2026-11-28T20:30:00+01:00",
+      "end": null,
+      "city": "Milano",
+      "province": "MI",
+      "region": "Lombardia",
+      "venue": "Unipol Dome",
+      "genre": "Rock",
+      "kind": "concerto",
+      "status": "in-vendita",
+      "ticketStatus": "available",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://unipoldome.it/events/bryan-adams",
+      "ticketUrl": "https://www.ticketone.it/event/bryan-adams-roll-with-the-punches-tour-unipol-dome-arena-milano-21357315/",
+      "lastVerified": "2026-11-26T00:15:00+01:00",
+      "article": null
     },
     {
       "id": "world-summit-nobel-pace-roma-2026-12-02",

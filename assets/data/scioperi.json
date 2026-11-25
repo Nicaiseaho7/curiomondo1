@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "meta": {
     "timezone": "Europe/Rome",
-    "lastVerified": "2026-11-25T00:20:00+01:00",
-    "verificationLabel": "25 novembre 2026 alle ore 00:20",
+    "lastVerified": "2026-11-26T00:15:00+01:00",
+    "verificationLabel": "26 novembre 2026 alle ore 00:15",
     "dataPolicy": "Sono pubblicati soltanto dati riscontrati in calendari o comunicazioni ufficiali. I campi non disponibili sono indicati come Non comunicato.",
     "officialSources": [
       {
@@ -1062,6 +1062,32 @@
         "piemonte"
       ],
       "verifiedAt": "2026-11-25T00:15:00+01:00",
+      "source": {
+        "label": "Calendario ufficiale MIT",
+        "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+      },
+      "article": null
+    },
+    {
+      "id": "mit-2026-12-16-amt-genova",
+      "title": "Sciopero del personale AMT di Genova",
+      "startDate": "2026-12-16",
+      "endDate": "2026-12-16",
+      "startsAt": "2026-12-16T00:00:00+01:00",
+      "endsAt": "2026-12-16T23:59:00+01:00",
+      "scheduleText": "4 ore, varie modalità",
+      "sector": "tpl",
+      "sectorLabel": "Trasporto pubblico locale",
+      "territory": "Genova",
+      "services": "Personale AMT di Genova",
+      "organizations": "OST UGL AUTOFERRO + RSA",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": false,
+      "regions": [
+        "liguria"
+      ],
+      "verifiedAt": "2026-11-26T00:15:00+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
