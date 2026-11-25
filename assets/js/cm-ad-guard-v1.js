@@ -1,36 +1,41 @@
 /* Blocca i popunder, conserva i banner e impedisce gli spazi pubblicitari vuoti. */
 (function () {
   "use strict";
-  var pop = /theconsumersearch|journeys-finds|consumersearch\.com|popads|popcash|propellerads|onclickmax|onclkds|clickadu/i;
-  function bad(url) { return pop.test(String(url || "")); }
-  var origOpen = window.open;
-  window.open = function (url) {
-    var target = String(url || "");
-    if (!target || target === "about:blank" || bad(target)) return null;
-    try { return origOpen.apply(window, arguments); } catch (error) { return null; }
-  };
+  var pop = /sectrav|theconsumersearch|journeys-finds|consumersearch\.com|popads|popcash|propellerads|onclickmax|onclkds|clickadu|popunder/i;
+
+  window.open = function () { return null; };
+
   var origClick = HTMLElement.prototype.click;
   HTMLElement.prototype.click = function () {
-    if (this && this.tagName === "A" && bad(this.getAttribute("href") || this.href)) return;
+    if (this && this.tagName === "A") {
+      var href = this.getAttribute("href") || "";
+      var blank = (this.getAttribute("target") || "") === "_blank";
+      if (blank || pop.test(href)) return;
+    }
     return origClick.apply(this, arguments);
   };
-  document.addEventListener("click", function (event) {
-    var link = event.target && event.target.closest ? event.target.closest("a") : null;
-    if (link && bad(link.getAttribute("href") || link.href)) {
-      event.preventDefault();
-      event.stopPropagation();
+
+  function disarm(node) {
+    if (!node || node.nodeType !== 1) return;
+    if (node.tagName === "IFRAME") {
+      var sandbox = node.getAttribute("sandbox") || "";
+      if (/allow-popups|allow-top-navigation/.test(sandbox)) node.setAttribute("sandbox", "allow-scripts");
     }
-  }, true);
+    if (node.tagName !== "SCRIPT") return;
+    var src = node.getAttribute("src") || "";
+    var code = node.textContent || "";
+    if (pop.test(src) || /theconsumersearch|journeys-finds|sectrav|runVideoSlider|12488470/.test(code)) node.remove();
+  }
+
   new MutationObserver(function (list) {
     list.forEach(function (record) {
       record.addedNodes.forEach(function (node) {
-        if (!node || node.nodeType !== 1) return;
-        var src = node.getAttribute && (node.getAttribute("src") || node.getAttribute("href") || "");
-        var code = node.tagName === "SCRIPT" ? node.textContent || "" : "";
-        if (bad(src) || /theconsumersearch|journeys-finds/i.test(code)) node.remove();
+        disarm(node);
+        if (node.querySelectorAll) node.querySelectorAll("iframe,script").forEach(disarm);
       });
     });
   }).observe(document.documentElement, { childList: true, subtree: true });
+  document.querySelectorAll("iframe").forEach(disarm);
 })();
 
 (function () {
