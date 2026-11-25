@@ -5,6 +5,16 @@
 
   window.open = function () { return null; };
 
+  function killRedirects(node) {
+    if (!node || node.nodeType !== 1) return;
+    var src = node.getAttribute && (node.getAttribute("src") || "");
+    if (/magsrv\.com|ad-provider\.js/i.test(src)) {
+      var slot = node.closest && node.closest("[data-cm-ad='exo'],[data-cm-ad='exo2']");
+      if (slot) slot.remove();
+      else node.remove();
+    }
+  }
+
   var origClick = HTMLElement.prototype.click;
   HTMLElement.prototype.click = function () {
     if (this && this.tagName === "A") {
@@ -31,11 +41,18 @@
     list.forEach(function (record) {
       record.addedNodes.forEach(function (node) {
         disarm(node);
-        if (node.querySelectorAll) node.querySelectorAll("iframe,script").forEach(disarm);
+        killRedirects(node);
+        if (node.querySelectorAll) node.querySelectorAll("iframe,script").forEach(function (child) {
+          disarm(child);
+          killRedirects(child);
+        });
       });
     });
   }).observe(document.documentElement, { childList: true, subtree: true });
-  document.querySelectorAll("iframe").forEach(disarm);
+  document.querySelectorAll("iframe,script").forEach(function (node) {
+    disarm(node);
+    killRedirects(node);
+  });
 })();
 
 (function () {
