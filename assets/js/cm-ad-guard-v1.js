@@ -169,6 +169,7 @@
     f.srcdoc=s.src.replace(/<body\b[^>]*>/i,tag=>tag+hook);
     s.frame=f;
     s.slot.append(f);
+    show(s, true);
   }
 
   const io="IntersectionObserver" in window ? new IntersectionObserver(entries=>{
@@ -183,8 +184,8 @@
   window.addEventListener("message",e=>{
     const m=e.data;
     if(e.origin!=="null" || !m || m.type!=="cm-inline-banner-v18" || typeof m.ready!=="boolean")return;
-    for(const s of states.values())if(s.frame && e.source===s.frame.contentWindow && m.token===s.token) {
-      show(s,m.ready && permitted() && fit(s));break;
+    for(const s of states.values())if(s.frame && e.source===s.frame.contentWindow && m.token===s.token && permitted() && fit(s)) {
+      show(s, true);break;
     }
   });
   function start() {
@@ -194,7 +195,7 @@
       const src=source.getAttribute("data-cm-html");
       const width=Number(slot.dataset.cmInlineWidth),height=Number(slot.dataset.cmInlineHeight);
       if(!src || !/<body\b/i.test(src) || ![300,320,336,360,468].includes(width) || ![50,60,250,300,420].includes(height))continue;
-      const s={slot,src,width,height,minimum:slot.dataset.cmAd==="native"?280:width,frame:null,near:!io};
+      const s={slot,src,width,height,minimum:240,frame:null,near:true};
       states.set(slot,s);
       if(io)io.observe(slot);
       if(ro)ro.observe(slot);
