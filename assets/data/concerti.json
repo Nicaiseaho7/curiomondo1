@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-26T19:56:29+01:00",
+  "lastVerified": "2026-11-26T20:09:42+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -6992,6 +6992,198 @@
         "title": "Heysel 85 al Torino Film Festival: Paolo Calabresi presenta il film il 30 novembre",
         "image": "/assets/images/editorial-auto/torino-film-festival-heysel-85-30-novembre-2026-v1662-1200.webp",
         "description": "La proiezione di Teodora Ana Mihai è fuori concorso al Cinema Romano. Il biglietto unico da 8 euro sostiene la ricerca sul cancro."
+      }
+    },
+    {
+      "id": "laurea-honoris-causa-a-ferdinando-de-giorgi-roma-2026-12-01",
+      "artist": "Laurea honoris causa a Ferdinando De Giorgi",
+      "city": "Roma",
+      "start": "2026-12-01T11:00:00+01:00",
+      "end": "2026-12-01T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Palazzo H, Salone d’Onore",
+      "region": "Lazio",
+      "province": "RM",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.federvolley.it/comunicato-stampa-del-26-novembre-2026",
+      "lastVerified": "2026-11-26T20:09:42+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/volley-de-giorgi-laurea-foro-italico-26-novembre-2026.html",
+        "title": "Volley, il Foro Italico conferisce a De Giorgi la sua prima laurea honoris causa",
+        "image": "/assets/images/editorial-auto/volley-de-giorgi-laurea-foro-italico-26-novembre-2026-v1663-1200.webp",
+        "description": "La cerimonia dell’ateneo romano è fissata al 1º dicembre. Il commissario tecnico terrà una lezione magistrale."
+      }
+    },
+    {
+      "id": "patti-smith-words-and-music-where-francis-walked-roma-2026-12-06",
+      "artist": "Patti Smith – Words and Music Where Francis Walked",
+      "city": "Roma",
+      "start": "2026-12-06T20:00:00+01:00",
+      "end": "2026-12-06T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Auditorium Parco della Musica, Sala Santa Cecilia",
+      "region": "Lazio",
+      "province": "RM",
+      "genre": "Rock d’autore",
+      "kind": "concerto",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.auditorium.com/it/event/patti-smith-words-and-music-where-francis-walked/",
+      "lastVerified": "2026-11-26T20:09:42+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/roma-patti-smith-where-francis-walked-6-dicembre-2026.html",
+        "title": "Patti Smith a Roma il 6 dicembre con lo spettacolo dedicato a San Francesco",
+        "image": "/assets/images/editorial-auto/roma-patti-smith-where-francis-walked-6-dicembre-2026-v1663-1200.webp",
+        "description": "Words and Music – Where Francis Walked va in scena alla Sala Santa Cecilia, tra canzoni acustiche, poesie e ricordi."
+      }
+    },
+    {
+      "id": "joss-stone-merry-christmas-love-with-live-symphony-orchestra-roma-2026-12-05",
+      "artist": "Joss Stone – Merry Christmas, Love. With Live Symphony Orchestra",
+      "city": "Roma",
+      "start": "2026-12-05T20:00:00+01:00",
+      "end": "2026-12-05T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Auditorium Parco della Musica, Sala Santa Cecilia",
+      "region": "Lazio",
+      "province": "RM",
+      "genre": "Soul",
+      "kind": "concerto",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.auditorium.com/it/event/joss-stone-merry-christmas-love-with-live-symphony-orchestra/",
+      "lastVerified": "2026-11-26T20:09:42+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/roma-joss-stone-orchestra-5-dicembre-2026.html",
+        "title": "Joss Stone canta il Natale con l’orchestra all’Auditorium di Roma",
+        "image": "/assets/images/editorial-auto/roma-joss-stone-orchestra-5-dicembre-2026-v1663-1200.webp",
+        "description": "Merry Christmas, Love è in programma sabato 5 dicembre alle 20 nella Sala Santa Cecilia."
+      }
+    },
+    {
+      "id": "1946-il-cattolicesimo-italiano-e-il-voto-delle-donne-roma-2026-11-26",
+      "artist": "1946. Il cattolicesimo italiano e il voto delle donne",
+      "city": "Roma",
+      "start": "2026-11-26T15:00:00+01:00",
+      "end": "2026-11-27T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Domus Mariae, Aula Barelli",
+      "region": "Lazio",
+      "province": "RM",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://biblioteche.cultura.gov.it/it/calendario-eventi/evento/Il-cattolicesimo-italiano-e-il-voto-delle-donne/",
+      "lastVerified": "2026-11-26T20:09:42+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/roma-isacem-voto-donne-convegno-27-novembre-2026.html",
+        "title": "Roma, il convegno Isacem prosegue il 27 novembre con una sessione sul voto femminile",
+        "image": "/assets/images/editorial-auto/roma-isacem-voto-donne-convegno-27-novembre-2026-v1663-1200.webp",
+        "description": "L’appuntamento ricostruisce il ruolo delle donne cattoliche verso il referendum del 1946. Diretta sul canale YouTube dell’istituto."
+      }
+    },
+    {
+      "id": "un-palazzo-tante-storie-archivio-di-stato-di-benevento-benevento-2026-11-28",
+      "artist": "Un palazzo, tante storie – Archivio di Stato di Benevento",
+      "city": "Benevento",
+      "start": "2026-11-28T09:30:00+01:00",
+      "end": "2026-11-28T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Archivio di Stato di Benevento",
+      "region": "Campania",
+      "province": "BN",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://asbn.cultura.gov.it/archives/1812",
+      "lastVerified": "2026-11-26T20:09:42+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/benevento-archivio-stato-palazzo-28-novembre-2026.html",
+        "title": "Benevento, l’Archivio di Stato apre ai visitatori il palazzo e un deposito",
+        "image": "/assets/images/editorial-auto/benevento-archivio-stato-palazzo-28-novembre-2026-v1663-1200.webp",
+        "description": "Sabato 28 novembre due visite guidate nell’ex Seminario Arcivescovile. L’iniziativa è stata annunciata il 26."
+      }
+    },
+    {
+      "id": "the-scoop-jazz-band-sotto-le-stelle-del-jazz-roma-2026-11-27",
+      "artist": "The Scoop Jazz Band – Sotto le stelle del jazz",
+      "city": "Roma",
+      "start": "2026-11-27T19:00:00+01:00",
+      "end": "2026-11-27T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "MAXXI, auditorium",
+      "region": "Lazio",
+      "province": "RM",
+      "genre": "Jazz",
+      "kind": "concerto",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.maxxi.art/events/the-scoop-jazz-band/",
+      "lastVerified": "2026-11-26T20:09:42+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/roma-maxxi-scoop-jazz-band-27-novembre-2026.html",
+        "title": "Roma, la Scoop Jazz Band suona al MAXXI il 27 novembre",
+        "image": "/assets/images/editorial-auto/roma-maxxi-scoop-jazz-band-27-novembre-2026-v1663-1200.webp",
+        "description": "Nell’auditorium del museo jazz, swing e blues con musicisti, giornalisti e una voce narrante. Biglietto da 5 euro."
+      }
+    },
+    {
+      "id": "marinetti-luomo-che-invento-il-futuro-incontro-e-proiezione-roma-2026-11-27",
+      "artist": "Marinetti. L’uomo che inventò il futuro – incontro e proiezione",
+      "city": "Roma",
+      "start": "2026-11-27T18:00:00+01:00",
+      "end": "2026-11-27T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "MAXXI, sala Carlo Scarpa",
+      "region": "Lazio",
+      "province": "RM",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.maxxi.art/events/marinetti/",
+      "lastVerified": "2026-11-26T20:09:42+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/roma-maxxi-marinetti-aeropittura-27-novembre-2026.html",
+        "title": "Al MAXXI L’aeroplano di Marinetti, un film sull’incontro fra Futurismo e aviazione",
+        "image": "/assets/images/editorial-auto/roma-maxxi-marinetti-aeropittura-27-novembre-2026-v1663-1200.webp",
+        "description": "Venerdì 27 novembre un dibattito e il documentario di Eleonora Zamparutti e Piero Muscarà. Ingresso con prenotazione."
+      }
+    },
+    {
+      "id": "girl-in-the-night-proiezione-ufficiale-al-torino-film-festival-torino-2026-11-28",
+      "artist": "Girl in the Night – proiezione ufficiale al Torino Film Festival",
+      "city": "Torino",
+      "start": "2026-11-28T14:30:00+01:00",
+      "end": "2026-11-28T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Cinema Massimo, sala 1",
+      "region": "Piemonte",
+      "province": "TO",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.torinofilmfest.org/tt-contenuto/uploads/programma/26/TFF_2026_web.pdf",
+      "lastVerified": "2026-11-26T20:09:42+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/torino-film-festival-girl-in-the-night-28-novembre-2026.html",
+        "title": "Torino Film Festival, Girl in the Night in concorso sabato al Massimo",
+        "image": "/assets/images/editorial-auto/torino-film-festival-girl-in-the-night-28-novembre-2026-v1663-1200.webp",
+        "description": "Il film sloveno di Luka Marčetić segue l’incontro notturno tra un addetto a una stazione di servizio e una ragazza misteriosa."
       }
     }
   ]
