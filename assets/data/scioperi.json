@@ -1835,9 +1835,85 @@
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
       },
       "article": null
+    },
+    {
+      "id": "bff-bank-sciopero-26-novembre-2026-11-26",
+      "title": "Sciopero del personale di BFF Bank",
+      "startDate": "2026-11-26",
+      "endDate": "2026-11-26",
+      "startsAt": null,
+      "endsAt": null,
+      "scheduleText": "Non comunicato",
+      "sector": "credito",
+      "sectorLabel": "Credito",
+      "territory": "Milano e Roma",
+      "services": "Non comunicato",
+      "organizations": "FABI, FIRST CISL, FISAC CGIL, UNISIN",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": false,
+      "regions": [
+        "lombardia",
+        "lazio"
+      ],
+      "verifiedAt": "2026-11-26T09:18:44+01:00",
+      "source": {
+        "label": "FISAC CGIL",
+        "url": "https://www.fisac-cgil.it/163671/bff-bank-sciopero-26-novembre-1-dicembre-2026"
+      },
+      "article": {
+        "url": "/notizie/bff-bank-sciopero-26-novembre-2026.html",
+        "title": "BFF Bank, sciopero del personale con presidi a Milano e Roma",
+        "image": "/assets/images/editorial-auto/bff-bank-sciopero-26-novembre-2026-v1652-1200.webp",
+        "summary": "Le rappresentanze aziendali hanno confermato una seconda giornata di astensione per il 1° dicembre.",
+        "imageAlt": "Esterno di un ufficio bancario moderno con tre persone di spalle in lontananza, nessun marchio né cartello leggibile.",
+        "publishedAt": "2026-11-26T09:17:34+01:00"
+      }
+    },
+    {
+      "id": "bff-bank-sciopero-26-novembre-2026-11-26-2026-12-01",
+      "title": "Sciopero del personale di BFF Bank",
+      "startDate": "2026-12-01",
+      "endDate": "2026-12-01",
+      "startsAt": null,
+      "endsAt": null,
+      "scheduleText": "Non comunicato",
+      "sector": "credito",
+      "sectorLabel": "Credito",
+      "territory": "Milano e Roma",
+      "services": "Non comunicato",
+      "organizations": "FABI, FIRST CISL, FISAC CGIL, UNISIN",
+      "status": "proclamato",
+      "guarantees": "Non comunicato",
+      "national": false,
+      "regions": [
+        "lombardia",
+        "lazio"
+      ],
+      "verifiedAt": "2026-11-26T09:18:44+01:00",
+      "source": {
+        "label": "FISAC CGIL",
+        "url": "https://www.fisac-cgil.it/163671/bff-bank-sciopero-26-novembre-1-dicembre-2026"
+      },
+      "article": {
+        "url": "/notizie/bff-bank-sciopero-26-novembre-2026.html",
+        "title": "BFF Bank, sciopero del personale con presidi a Milano e Roma",
+        "image": "/assets/images/editorial-auto/bff-bank-sciopero-26-novembre-2026-v1652-1200.webp",
+        "summary": "Le rappresentanze aziendali hanno confermato una seconda giornata di astensione per il 1° dicembre.",
+        "imageAlt": "Esterno di un ufficio bancario moderno con tre persone di spalle in lontananza, nessun marchio né cartello leggibile.",
+        "publishedAt": "2026-11-26T09:17:34+01:00"
+      }
     }
   ],
   "articles": [
+    {
+      "url": "/notizie/bff-bank-sciopero-26-novembre-2026.html",
+      "title": "BFF Bank, sciopero del personale con presidi a Milano e Roma",
+      "image": "/assets/images/editorial-auto/bff-bank-sciopero-26-novembre-2026-v1652-1200.webp",
+      "summary": "Le rappresentanze aziendali hanno confermato una seconda giornata di astensione per il 1° dicembre.",
+      "imageAlt": "Esterno di un ufficio bancario moderno con tre persone di spalle in lontananza, nessun marchio né cartello leggibile.",
+      "publishedAt": "2026-11-26T09:17:34+01:00"
+    },
     {
       "url": "/notizie/carlo-felice-sciopero-dei-dipendenti-e-prima-dopera-a-rischio-17-novembre-2026.html",
       "title": "Carlo Felice, lo sciopero modifica la serata dedicata a Bellini",
