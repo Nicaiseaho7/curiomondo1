@@ -1,4 +1,4 @@
-/* Mantiene un solo Native Banner e lo colloca fra le schede, senza duplicati. */
+/* Mantiene un solo Native Banner e lo mette sotto l’ultima data. */
 (function () {
   "use strict";
 
