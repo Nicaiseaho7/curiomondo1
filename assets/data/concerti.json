@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-26T17:51:41+01:00",
+  "lastVerified": "2026-11-26T18:29:12+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -109,7 +109,7 @@
       "artist": "Bryan Adams",
       "tour": "Roll With The Punches",
       "start": "2026-11-28T20:30:00+01:00",
-      "end": null,
+      "end": "2026-11-28T23:59:59+01:00",
       "city": "Milano",
       "province": "MI",
       "region": "Lombardia",
@@ -120,10 +120,16 @@
       "ticketStatus": "available",
       "showTime": true,
       "featured": false,
-      "sourceUrl": "https://unipoldome.it/events/bryan-adams",
+      "sourceUrl": "https://www.ticketone.it/artist/bryan-adams/bryan-adams-roll-with-the-punches-tour-4065427/",
       "ticketUrl": "https://www.ticketone.it/event/bryan-adams-roll-with-the-punches-tour-unipol-dome-arena-milano-21357315/",
-      "lastVerified": "2026-11-26T00:15:00+01:00",
-      "article": null
+      "lastVerified": "2026-11-26T18:29:12+01:00",
+      "article": {
+        "url": "/notizie/milano-bryan-adams-unipol-dome-28-novembre-2026.html",
+        "title": "Bryan Adams a Milano, concerto anticipato alle 20.30: biglietti ancora validi",
+        "image": "/assets/images/editorial-auto/milano-bryan-adams-unipol-dome-28-novembre-2026-v1657-1200.webp",
+        "description": "Il 28 novembre all’Unipol Dome la partenza è mezz’ora prima del previsto. Il cambio non richiede operazioni per i possessori di biglietto."
+      },
+      "endDatePrecision": "day"
     },
     {
       "id": "world-summit-nobel-pace-roma-2026-12-02",
@@ -6023,6 +6029,222 @@
         "title": "A Bolzano le opere degli Uffizi restaurate dopo la strage dei Georgofili",
         "image": "/assets/images/editorial-auto/bolzano-segno-rinascita-uffizi-28-novembre-2026-v1655-1200.webp",
         "description": "La mostra Il Segno della Rinascita inaugura il 28 novembre al Centro Trevi-TreviLab con ingresso libero fino a esaurimento posti."
+      }
+    },
+    {
+      "id": "giappone-in-fiera-pordenone-2026-11-28",
+      "artist": "Giappone in Fiera",
+      "city": "Pordenone",
+      "start": "2026-11-28T09:30:00+01:00",
+      "end": "2026-11-29T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Pordenone Fiere",
+      "region": "Friuli-Venezia Giulia",
+      "province": "PN",
+      "genre": "Fiera culturale",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.giapponeinfiera.it/fiera/pordenone-28-29-novembre-2026/",
+      "lastVerified": "2026-11-26T18:29:12+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/pordenone-giappone-in-fiera-28-novembre-2026.html",
+        "title": "Giappone in Fiera, a Pordenone due giorni tra origami, tè e bonsai",
+        "image": "/assets/images/editorial-auto/pordenone-giappone-in-fiera-28-novembre-2026-v1657-1200.webp",
+        "description": "Sabato 28 e domenica 29 novembre apertura dalle 9.30 alle 18.30; un solo biglietto anche per Esotika Pet Show."
+      }
+    },
+    {
+      "id": "concerto-inaugurale-della-stagione-sinfonica-riccardo-frizza-venezia-2026-11-28",
+      "artist": "Concerto inaugurale della stagione sinfonica – Riccardo Frizza",
+      "city": "Venezia",
+      "start": "2026-11-28T20:00:00+01:00",
+      "end": "2026-11-29T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Teatro La Fenice",
+      "region": "Veneto",
+      "province": "VE",
+      "genre": "Musica sinfonica",
+      "kind": "concerto",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.teatrolafenice.it/event/concertoriccardofrizzasinopoliperosi/",
+      "lastVerified": "2026-11-26T18:29:12+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/venezia-fenice-frizza-sinopoli-perosi-28-novembre-2026.html",
+        "title": "La Fenice apre la stagione sinfonica con Frizza, Sinopoli e Perosi",
+        "image": "/assets/images/editorial-auto/venezia-fenice-frizza-sinopoli-perosi-28-novembre-2026-v1657-1200.webp",
+        "description": "Sabato 28 novembre alle 20 il concerto inaugurale a Venezia, con replica domenica alle 17. Prima del debutto un incontro con Roberto Mori."
+      }
+    },
+    {
+      "id": "pinocchia-adolescente-di-legno-roma-2026-11-27",
+      "artist": "Pinocchia, adolescente di legno",
+      "city": "Roma",
+      "start": "2026-11-27T10:30:00+01:00",
+      "end": "2026-11-29T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Teatro India",
+      "region": "Lazio",
+      "province": "RM",
+      "genre": "Teatro",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.teatrodiroma.net/spettacoli/il-teatro-e-vita-la-stagione-2026-2027-del-teatro-di-roma/teatro-india/pinocchia-2/",
+      "lastVerified": "2026-11-26T18:29:12+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/roma-pinocchia-teatro-india-27-novembre-2026.html",
+        "title": "Pinocchia al Teatro India: a Roma una rilettura di Collodi con 19 interpreti",
+        "image": "/assets/images/editorial-auto/roma-pinocchia-teatro-india-27-novembre-2026-v1657-1200.webp",
+        "description": "Tre repliche dal 27 al 29 novembre con il Laboratorio Teatrale Integrato Piero Gabrielli e musiche eseguite dal vivo."
+      }
+    },
+    {
+      "id": "sedicesima-conferenza-nazionale-di-statistica-roma-2026-12-01",
+      "artist": "Sedicesima Conferenza Nazionale di Statistica",
+      "city": "Roma",
+      "start": "2026-12-01T09:00:00+01:00",
+      "end": "2026-12-02T18:00:00+01:00",
+      "endDatePrecision": "time",
+      "venue": "Auditorium Antonianum, viale Manzoni 1",
+      "region": "Lazio",
+      "province": "RM",
+      "genre": "Conferenza",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.istat.it/evento/sedicesima-conferenza-nazionale-di-statistica/",
+      "lastVerified": "2026-11-26T18:29:12+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/istat-presentazione-conferenza-statistica-26-novembre-2026.html",
+        "title": "Istat presenta la conferenza del centenario: a Roma due giorni sui dati ufficiali",
+        "image": "/assets/images/editorial-auto/istat-presentazione-conferenza-statistica-26-novembre-2026-v1657-1200.webp",
+        "description": "L’1 e il 2 dicembre l’Antonianum ospita tavole rotonde e lavori scientifici su nuove fonti, tempestività e qualità delle statistiche."
+      }
+    },
+    {
+      "id": "malika-ayane-a-teatro-2026-senigallia-2026-11-27",
+      "artist": "Malika Ayane – A Teatro 2026",
+      "city": "Senigallia",
+      "start": "2026-11-27T21:00:00+01:00",
+      "end": "2026-11-27T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Teatro La Fenice",
+      "region": "Marche",
+      "province": "AN",
+      "genre": "Pop",
+      "kind": "concerto",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.friendsandpartners.it/in-tour/malika-ayane-teatri-2026",
+      "lastVerified": "2026-11-26T18:29:12+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/senigallia-malika-ayane-fenice-27-novembre-2026.html",
+        "title": "Malika Ayane, il tour di Cicale arriva a Senigallia e Pescara",
+        "image": "/assets/images/editorial-auto/senigallia-malika-ayane-fenice-27-novembre-2026-v1657-1200.webp",
+        "description": "Il 27 novembre al Teatro La Fenice, il 28 al Teatro Massimo. Entrambi i concerti cominciano alle 21."
+      }
+    },
+    {
+      "id": "malika-ayane-a-teatro-2026-pescara-2026-11-28",
+      "artist": "Malika Ayane – A Teatro 2026",
+      "city": "Pescara",
+      "start": "2026-11-28T21:00:00+01:00",
+      "end": "2026-11-28T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Teatro Massimo",
+      "region": "Abruzzo",
+      "province": "PE",
+      "genre": "Pop",
+      "kind": "concerto",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.friendsandpartners.it/in-tour/malika-ayane-teatri-2026",
+      "lastVerified": "2026-11-26T18:29:12+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/senigallia-malika-ayane-fenice-27-novembre-2026.html",
+        "title": "Malika Ayane, il tour di Cicale arriva a Senigallia e Pescara",
+        "image": "/assets/images/editorial-auto/senigallia-malika-ayane-fenice-27-novembre-2026-v1657-1200.webp",
+        "description": "Il 27 novembre al Teatro La Fenice, il 28 al Teatro Massimo. Entrambi i concerti cominciano alle 21."
+      }
+    },
+    {
+      "id": "eu-opportunity-day-milano-2026-11-27",
+      "artist": "EU Opportunity Day",
+      "city": "Milano",
+      "start": "2026-11-27T10:00:00+01:00",
+      "end": "2026-11-27T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Palazzo delle Stelline, corso Magenta 59",
+      "region": "Lombardia",
+      "province": "MI",
+      "genre": "Forum",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://apre.it/evento/eu-opportunity-day/",
+      "lastVerified": "2026-11-26T18:29:12+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/milano-eu-opportunity-day-deeptech-27-novembre-2026.html",
+        "title": "Startup deep tech, a Milano un forum sui finanziamenti europei",
+        "image": "/assets/images/editorial-auto/milano-eu-opportunity-day-deeptech-27-novembre-2026-v1657-1200.webp",
+        "description": "Venerdì 27 novembre l’EU Opportunity Day riunisce istituzioni, fondi e imprese al Palazzo delle Stelline."
+      }
+    },
+    {
+      "id": "litfiba-quarantanni-di-17-re-milano-2026-11-27",
+      "artist": "Litfiba – Quarant’anni di 17 Re",
+      "city": "Milano",
+      "start": "2026-11-27T20:30:00+01:00",
+      "end": "2026-11-27T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Alcatraz",
+      "region": "Lombardia",
+      "province": "MI",
+      "genre": "Rock",
+      "kind": "concerto",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://alcatrazmilano.it/eventi/litfiba/",
+      "lastVerified": "2026-11-26T18:29:12+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/milano-litfiba-alcatraz-17-re-27-novembre-2026.html",
+        "title": "Litfiba, 17 Re torna dal vivo all’Alcatraz e diventa un album dal vivo",
+        "image": "/assets/images/editorial-auto/milano-litfiba-alcatraz-17-re-27-novembre-2026-v1657-1200.webp",
+        "description": "Venerdì 27 novembre a Milano il primo dei tre concerti nei club. Lo stesso giorno è annunciata l’uscita del disco dal vivo."
+      }
+    },
+    {
+      "id": "lucio-corsi-palasport-2026-firenze-2026-11-27",
+      "artist": "Lucio Corsi – Palasport 2026",
+      "city": "Firenze",
+      "start": "2026-11-27T21:00:00+01:00",
+      "end": "2026-11-27T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Nelson Mandela Forum",
+      "region": "Toscana",
+      "province": "FI",
+      "genre": "Cantautorato",
+      "kind": "concerto",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://magellanoconcerti.it/tour/190/lucio-corsi-palasport-2026",
+      "lastVerified": "2026-11-26T18:29:12+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/firenze-lucio-corsi-mandela-forum-27-novembre-2026.html",
+        "title": "Lucio Corsi debutta nei palasport venerdì al Mandela Forum di Firenze",
+        "image": "/assets/images/editorial-auto/firenze-lucio-corsi-mandela-forum-27-novembre-2026-v1657-1200.webp",
+        "description": "Il 27 novembre primo dei tre concerti del tour indoor. Il cantautore ha annunciato fiati, percussioni e cori accanto alla band."
       }
     }
   ]
