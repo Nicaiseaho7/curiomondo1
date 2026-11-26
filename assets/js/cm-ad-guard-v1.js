@@ -24,20 +24,31 @@
     window.open = blockOpen;
   }
 
-  function lockSrc(proto) {
-    var desc = Object.getOwnPropertyDescriptor(proto, "src");
-    if (!desc || !desc.set || !desc.get) return;
-    Object.defineProperty(proto, "src", {
-      configurable: true,
-      get: function () { return desc.get.call(this); },
-      set: function (value) {
-        if (badUrl(value)) return;
-        desc.set.call(this, value);
+  /* I banner Adsterra usano document.write. Su iPhone quel comando non disegna:
+     il risultato viene inserito subito dopo lo script, dentro il riquadro. */
+  document.write = function () {
+    var html = Array.prototype.slice.call(arguments).join("");
+    var current = document.currentScript;
+    var holder = document.createElement("div");
+    holder.innerHTML = html;
+    var nodes = Array.prototype.slice.call(holder.childNodes);
+    var anchor = current && current.parentNode ? current : null;
+    nodes.forEach(function (node) {
+      var next = node;
+      if (node.tagName === "SCRIPT") {
+        next = document.createElement("script");
+        if (node.src) next.src = node.src;
+        else next.text = node.textContent || "";
+        next.setAttribute("data-cfasync", "false");
       }
+      if (anchor) anchor.parentNode.insertBefore(next, anchor.nextSibling);
+      else document.body.appendChild(next);
+      anchor = next;
     });
-  }
-  lockSrc(HTMLScriptElement.prototype);
-  lockSrc(HTMLIFrameElement.prototype);
+  };
+  document.writeln = function () {
+    document.write(Array.prototype.slice.call(arguments).join("") + "\n");
+  };
 
   function kill(node) {
     if (!node || node.nodeType !== 1) return;
