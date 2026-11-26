@@ -124,7 +124,7 @@ const curiositaRail = () => {
   const source = readRepoFile('approfondimenti/index.html');
   if (!source) return '';
   const found = [];
-  const pattern = /<a class="card"[^>]*href="([^"]+)"[^>]*>[\s\S]*?<h2>([^<]+)<\/h2><p>([^<]*)<\/p>/g;
+  const pattern = /<a\b(?=[^>]*\bclass="card")[^>]*href="([^"]+)"[^>]*>[\s\S]*?<h2>([^<]+)<\/h2><p>([^<]*)<\/p>/g;
   const blocked = ['cinema', 'film', 'serie tv', 'serie televis', 'streaming', 'netflix', 'apple tv', 'prime video', 'disney+', 'nba', 'basket', 'raptors', 'clippers'];
   let match;
   let order = 0;
