@@ -8,7 +8,7 @@
     if (/sectrav|theconsumersearch|journeys-finds|consumersearch\.com|popads|popcash|propellerads|onclickmax|onclkds|clickadu|popunder/i.test(url)) return true;
     if (/magsrv\.com|ad-provider/i.test(url)) return true;
     if (/bauval\.org\/14\//i.test(url)) return true;
-    if (/acscdn\.com/i.test(url) && !/aclib\.js/i.test(url)) return true;
+    if (/acscdn\.com|aclib\.js/i.test(url)) return true;
     if (/12488470|runVideoSlider/i.test(url)) return true;
     return false;
   }
@@ -73,7 +73,6 @@
     '[data-cm-ad="banner320"]{min-height:50px}',
     '[data-cm-ad="banner468"]{min-height:60px}',
     '[data-cm-ad="box300"]{min-height:250px}',
-    '[data-cm-ad="adcash"]{min-height:90px}',
     '[data-cm-ad="native"],[data-cm-native-slot]{min-height:250px}',
     '.cm-safe-ad iframe,.cm-safe-ad img,.cm-safe-ad video,.cm-safe-ad canvas,.cm-safe-ad object{max-width:100%!important;margin-left:auto;margin-right:auto}',
     'iframe.cm-banner-frame{display:block!important;border:0!important;margin:0 auto!important;background:#fff;overflow:hidden!important}'
