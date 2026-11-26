@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-26T19:42:09+01:00",
+  "lastVerified": "2026-11-26T19:56:29+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -6800,6 +6800,198 @@
         "title": "Torino, Pierino e il lupo apre il cartellone per famiglie del Teatro Regio",
         "image": "/assets/images/editorial-auto/torino-regio-pierino-lupo-28-novembre-2026-v1661-1200.webp",
         "description": "La favola sinfonica di Prokof’ev torna dal 28 novembre al Piccolo Regio Puccini con orchestra dal vivo e teatro d’ombre."
+      }
+    },
+    {
+      "id": "blue-med-event-civitavecchia-2026-11-27",
+      "artist": "Blue Med Event",
+      "city": "Civitavecchia",
+      "start": "2026-11-27",
+      "end": "2026-11-27T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Sala conferenze dell’Autorità di sistema portuale, Porto di Civitavecchia",
+      "region": "Lazio",
+      "province": "Roma",
+      "genre": "Convegno",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://portidiroma.it/index.php/notizia/blue-med-event",
+      "lastVerified": "2026-11-26T19:56:29+01:00",
+      "showTime": false,
+      "article": {
+        "url": "/notizie/civitavecchia-blue-med-academy-26-novembre-2026.html",
+        "title": "Civitavecchia presenta Blue Med Academy per la formazione nelle professioni del mare",
+        "image": "/assets/images/editorial-auto/civitavecchia-blue-med-academy-26-novembre-2026-v1662-1200.webp",
+        "description": "Il progetto riunisce porto, imprese e formazione. Venerdì 27 è previsto un incontro su occupazione e competenze in portualità e logistica."
+      }
+    },
+    {
+      "id": "marionanni-luceallopera-presentazione-di-sullasogliadelsapere-roma-2026-12-03",
+      "artist": "marionanni, luceall’opera – presentazione di sullasogliadelsapere",
+      "city": "Roma",
+      "start": "2026-12-03T19:00:00+01:00",
+      "end": "2026-12-03T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Galleria Nazionale d’Arte Moderna e Contemporanea, Sala delle Colonne",
+      "region": "Lazio",
+      "province": "RM",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://gnamc.cultura.gov.it/en/event/marionanni-luceallopera/",
+      "lastVerified": "2026-11-26T19:56:29+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/roma-gnamc-marionanni-luce-3-dicembre-2026.html",
+        "title": "Roma, alla Galleria Nazionale un’opera da leggere con luce e tatto",
+        "image": "/assets/images/editorial-auto/roma-gnamc-marionanni-luce-3-dicembre-2026-v1662-1200.webp",
+        "description": "Il 3 dicembre marionanni e biancamaria nanni presentano sullasogliadelsapere. L’incontro nella Sala delle Colonne è a ingresso libero."
+      }
+    },
+    {
+      "id": "le-bestie-davide-enia-a-bookcity-milano-milano-2026-11-29",
+      "artist": "Le bestie – Davide Enia a BookCity Milano",
+      "city": "Milano",
+      "start": "2026-11-29T12:30:00+01:00",
+      "end": "2026-11-29T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Piccolo Teatro Grassi, Chiostro Nina Vinchi",
+      "region": "Lombardia",
+      "province": "MI",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.bookcitymilano.it/index.php/eventi/2026/le-bestie",
+      "lastVerified": "2026-11-26T19:56:29+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/milano-bookcity-davide-enia-le-bestie-29-novembre-2026.html",
+        "title": "BookCity Milano, Davide Enia presenta Le bestie al Piccolo Teatro",
+        "image": "/assets/images/editorial-auto/milano-bookcity-davide-enia-le-bestie-29-novembre-2026-v1662-1200.webp",
+        "description": "Domenica 29 novembre l’autore discute il romanzo con Giuseppe Pastore nel Chiostro Nina Vinchi."
+      }
+    },
+    {
+      "id": "stella-della-mole-a-josh-safdie-e-proiezione-di-uncut-gems-torino-2026-11-30",
+      "artist": "Stella della Mole a Josh Safdie e proiezione di Uncut Gems",
+      "city": "Torino",
+      "start": "2026-11-30T21:30:00+01:00",
+      "end": "2026-11-30T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Cinema Romano, sala 2",
+      "region": "Piemonte",
+      "province": "TO",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.torinofilmfest.org/tt-contenuto/uploads/programma/26/TFF_2026_web.pdf",
+      "lastVerified": "2026-11-26T19:56:29+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/torino-safdie-ferrara-uncut-gems-30-novembre-2026.html",
+        "title": "Josh Safdie riceverà la Stella della Mole da Abel Ferrara al Torino Film Festival",
+        "image": "/assets/images/editorial-auto/torino-safdie-ferrara-uncut-gems-30-novembre-2026-v1662-1200.webp",
+        "description": "Il 30 novembre la consegna precede Uncut Gems, diretto da Josh e Benny Safdie. Proiezione a ingresso libero al Cinema Romano."
+      }
+    },
+    {
+      "id": "premio-megliounlibro-2026-a-giuliana-salvi-milano-2026-11-29",
+      "artist": "Premio Megliounlibro 2026 a Giuliana Salvi",
+      "city": "Milano",
+      "start": "2026-11-29T12:30:00+01:00",
+      "end": "2026-11-29T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Castello Sforzesco, Sala Bertarelli",
+      "region": "Lombardia",
+      "province": "MI",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.bookcitymilano.it/eventi/2026/Premio-Letterario-Megliounlibro-2026",
+      "lastVerified": "2026-11-26T19:56:29+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/milano-bookcity-premio-giuliana-salvi-29-novembre-2026.html",
+        "title": "BookCity Milano, il premio Megliounlibro a Giuliana Salvi per Clementina",
+        "image": "/assets/images/editorial-auto/milano-bookcity-premio-giuliana-salvi-29-novembre-2026-v1662-1200.webp",
+        "description": "Domenica 29 novembre la scrittrice incontra i lettori al Castello Sforzesco per il suo romanzo d’esordio."
+      }
+    },
+    {
+      "id": "dente-e-guido-catalano-ancora-insieme-roma-2026-11-30",
+      "artist": "Dente e Guido Catalano – Ancora insieme",
+      "city": "Roma",
+      "start": "2026-11-30T20:00:00+01:00",
+      "end": "2026-11-30T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Auditorium Parco della Musica – Teatro Studio Borgna",
+      "region": "Lazio",
+      "province": "RM",
+      "genre": "Musica d’autore e poesia",
+      "kind": "concerto",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.auditorium.com/it/event/dente-guido-catalano/",
+      "lastVerified": "2026-11-26T19:56:29+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/roma-dente-guido-catalano-30-novembre-2026.html",
+        "title": "Dente e Guido Catalano ripartono da Roma con Ancora insieme",
+        "image": "/assets/images/editorial-auto/roma-dente-guido-catalano-30-novembre-2026-v1662-1200.webp",
+        "description": "Il 30 novembre musica e poesia tornano sullo stesso palco al Teatro Studio Borgna, a nove anni dallo spettacolo precedente."
+      }
+    },
+    {
+      "id": "il-principe-e-la-rosa-concerto-per-la-fondazione-di-liegro-roma-2026-11-28",
+      "artist": "Il principe e la rosa – concerto per la Fondazione Di Liegro",
+      "city": "Roma",
+      "start": "2026-11-28T18:30:00+01:00",
+      "end": "2026-11-28T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Auditorium Parco della Musica – Sala Petrassi",
+      "region": "Lazio",
+      "province": "RM",
+      "genre": "Concerto narrativo",
+      "kind": "concerto",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.auditorium.com/it/event/il-principe-e-la-rosa-concerto-a-favore-della-fondazione-di-liegro/",
+      "lastVerified": "2026-11-26T19:56:29+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/roma-concerto-principe-rosa-di-liegro-28-novembre-2026.html",
+        "title": "Il principe e la rosa, all’Auditorium il concerto per la Fondazione Di Liegro",
+        "image": "/assets/images/editorial-auto/roma-concerto-principe-rosa-di-liegro-28-novembre-2026-v1662-1200.webp",
+        "description": "Sabato 28 novembre oltre cento giovani tra coro e orchestra. Il ricavato sostiene i laboratori di arte-terapia."
+      }
+    },
+    {
+      "id": "heysel-85-proiezione-fuori-concorso-al-torino-film-festival-torino-2026-11-30",
+      "artist": "Heysel 85 – proiezione fuori concorso al Torino Film Festival",
+      "city": "Torino",
+      "start": "2026-11-30T19:00:00+01:00",
+      "end": "2026-11-30T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Cinema Romano, sala 2",
+      "region": "Piemonte",
+      "province": "TO",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.torinofilmfest.org/tt-contenuto/uploads/programma/26/TFF_2026_web.pdf",
+      "lastVerified": "2026-11-26T19:56:29+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/torino-film-festival-heysel-85-30-novembre-2026.html",
+        "title": "Heysel 85 al Torino Film Festival: Paolo Calabresi presenta il film il 30 novembre",
+        "image": "/assets/images/editorial-auto/torino-film-festival-heysel-85-30-novembre-2026-v1662-1200.webp",
+        "description": "La proiezione di Teodora Ana Mihai è fuori concorso al Cinema Romano. Il biglietto unico da 8 euro sostiene la ricerca sul cancro."
       }
     }
   ]
