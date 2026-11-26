@@ -149,6 +149,26 @@
     s.slot.dataset.cmInlineReady = ready ? "1" : "0";
     if (s.frame) s.frame.setAttribute("aria-hidden", ready ? "false" : "true");
   }
+  function writeShim() {
+    function paint(html) {
+      var box = document.createElement("div");
+      box.innerHTML = html;
+      var nodes = Array.prototype.slice.call(box.childNodes);
+      for (var i = 0; i < nodes.length; i++) {
+        var node = nodes[i];
+        if (node.tagName === "SCRIPT") {
+          var copy = document.createElement("script");
+          if (node.src) copy.src = node.src;
+          else copy.text = node.text || node.textContent || "";
+          document.body.appendChild(copy);
+        } else {
+          document.body.appendChild(node);
+        }
+      }
+    }
+    document.write = function () { paint(Array.prototype.slice.call(arguments).join("")); };
+    document.writeln = function () { paint(Array.prototype.slice.call(arguments).join("") + "\n"); };
+  }
   function mount(s) {
     if (!permitted() || !fit(s)) {
       if (s.frame) { s.frame.remove(); s.frame=null; }
@@ -165,7 +185,9 @@
     f.setAttribute("aria-hidden","true");
     f.width=s.width;
     f.height=s.height;
-    const hook="<script>("+report.toString()+")("+JSON.stringify(s.token)+","+JSON.stringify(location.origin)+");</scr"+"ipt>";
+    const hook = s.src.indexOf("atOptions") !== -1
+      ? "<script>("+writeShim.toString()+")();</scr"+"ipt>"
+      : "<script>("+report.toString()+")("+JSON.stringify(s.token)+","+JSON.stringify(location.origin)+");</scr"+"ipt>";
     f.srcdoc=s.src.replace(/<body\b[^>]*>/i,tag=>tag+hook);
     s.frame=f;
     s.slot.append(f);
