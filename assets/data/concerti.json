@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-26T19:24:51+01:00",
+  "lastVerified": "2026-11-26T19:42:09+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -6656,6 +6656,150 @@
         "title": "Paola Turci presenta il nuovo album dal vivo: domenica la prima data a Milano",
         "image": "/assets/images/editorial-auto/milano-paola-turci-live-a-dismisura-29-novembre-2026-v1660-1200.webp",
         "description": "Live a dismisura debutta alla Santeria Toscana 31. Il secondo appuntamento è il 3 dicembre al Largo Venue di Roma."
+      }
+    },
+    {
+      "id": "belle-and-sebastian-if-youre-feeling-sinister-30-anni-ciampino-2026-11-29",
+      "artist": "Belle and Sebastian – If You’re Feeling Sinister 30 anni",
+      "city": "Ciampino",
+      "start": "2026-11-29T20:30:00+01:00",
+      "end": "2026-11-29T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Orion Club",
+      "region": "Lazio",
+      "province": "RM",
+      "genre": "Indie pop",
+      "kind": "concerto",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.ticketone.it/noapp/event/belle-and-sebastian-orion-21651448/",
+      "lastVerified": "2026-11-26T19:42:09+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/ciampino-belle-sebastian-orion-29-novembre-2026.html",
+        "title": "Belle and Sebastian a Ciampino per i 30 anni di If You’re Feeling Sinister",
+        "image": "/assets/images/editorial-auto/ciampino-belle-sebastian-orion-29-novembre-2026-v1661-1200.webp",
+        "description": "Domenica 29 novembre la band scozzese suona all’Orion. La data segue i due appuntamenti italiani dell’estate."
+      }
+    },
+    {
+      "id": "isabella-ducrot-a-capodimonte-napoli-2026-12-04",
+      "artist": "Isabella Ducrot a Capodimonte",
+      "city": "Napoli",
+      "start": "2026-12-04",
+      "end": "2027-02-23T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Museo e Real Bosco di Capodimonte, sala 61",
+      "region": "Campania",
+      "province": "NA",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://capodimonte.cultura.gov.it/dal-4-dicembre-2026-tre-opere-di-isabella-ducrot-a-capodimonte-in-occasione-della-mostra-monografica-al-museo-madre/",
+      "lastVerified": "2026-11-26T19:42:09+01:00",
+      "showTime": false,
+      "article": {
+        "url": "/notizie/napoli-capodimonte-isabella-ducrot-4-dicembre-2026.html",
+        "title": "Napoli, a Capodimonte tre opere di Isabella Ducrot accanto a Luca Giordano",
+        "image": "/assets/images/editorial-auto/napoli-capodimonte-isabella-ducrot-4-dicembre-2026-v1661-1200.webp",
+        "description": "Dal 4 dicembre, in sala 61, i dipinti su carta del 2021 incontrano una tela del Seicento legata alla stessa chiesa."
+      }
+    },
+    {
+      "id": "il-pendio-bianco-festival-del-libro-e-della-cultura-sportiva-treviso-2026-11-29",
+      "artist": "Il pendio bianco – Festival del Libro e della Cultura Sportiva",
+      "city": "Treviso",
+      "start": "2026-11-29T15:30:00+01:00",
+      "end": "2026-11-29T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Collezione Salce, sede Santa Margherita",
+      "region": "Veneto",
+      "province": "TV",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://cultura.gov.it/index.php/evento/il-museo-nazionale-collezione-salce-ospita-il-festival-del-libro-e-della-cultura-sportiva-2026",
+      "lastVerified": "2026-11-26T19:42:09+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/treviso-collezione-salce-libro-sport-29-novembre-2026.html",
+        "title": "Treviso, alla Collezione Salce la storia sociale dello sci raccontata a fumetti",
+        "image": "/assets/images/editorial-auto/treviso-collezione-salce-libro-sport-29-novembre-2026-v1661-1200.webp",
+        "description": "Domenica 29 novembre Manuel Riz presenta Il pendio bianco nella sede di Santa Margherita. Ingresso gratuito fino a esaurimento posti."
+      }
+    },
+    {
+      "id": "tesori-nascosti-della-galleria-borghese-da-tiziano-a-bernini-cosenza-2026-11-28",
+      "artist": "Tesori nascosti della Galleria Borghese – Da Tiziano a Bernini",
+      "city": "Cosenza",
+      "start": "2026-11-28",
+      "end": "2027-01-31T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Galleria Nazionale di Cosenza, Palazzo Arnone",
+      "region": "Calabria",
+      "province": "CS",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://cultura.gov.it/evento/tesori-nascosti-della-galleria-borghese",
+      "lastVerified": "2026-11-26T19:42:09+01:00",
+      "showTime": false,
+      "article": {
+        "url": "/notizie/cosenza-tesori-nascosti-galleria-borghese-27-novembre-2026.html",
+        "title": "Cosenza, a Palazzo Arnone arrivano oltre trenta opere della Galleria Borghese",
+        "image": "/assets/images/editorial-auto/cosenza-tesori-nascosti-galleria-borghese-27-novembre-2026-v1661-1200.webp",
+        "description": "Presentazione il 27 novembre, visita ordinaria dal 28 fino al 31 gennaio. In mostra opere di Tiziano, Dosso Dossi e Bernini."
+      }
+    },
+    {
+      "id": "lora-piu-bella-proiezione-ufficiale-al-torino-film-festival-torino-2026-11-29",
+      "artist": "L’ora più bella – proiezione ufficiale al Torino Film Festival",
+      "city": "Torino",
+      "start": "2026-11-29T19:30:00+01:00",
+      "end": "2026-11-29T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Cinema Massimo, sala 1",
+      "region": "Piemonte",
+      "province": "TO",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.torinofilmfest.org/tt-contenuto/uploads/programma/26/TFF_2026_web.pdf",
+      "lastVerified": "2026-11-26T19:42:09+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/torino-film-festival-ora-piu-bella-29-novembre-2026.html",
+        "title": "Torino Film Festival, L’ora più bella in concorso domenica al Massimo",
+        "image": "/assets/images/editorial-auto/torino-film-festival-ora-piu-bella-29-novembre-2026-v1661-1200.webp",
+        "description": "Il debutto nel lungometraggio di Ernesto Maria Censori segue il ritorno in Calabria di un uomo cresciuto in Messico."
+      }
+    },
+    {
+      "id": "pierino-e-il-lupo-in-famiglia-torino-2026-11-28",
+      "artist": "Pierino e il lupo – In famiglia",
+      "city": "Torino",
+      "start": "2026-11-28T15:30:00+01:00",
+      "end": "2026-12-05T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Piccolo Regio Puccini",
+      "region": "Piemonte",
+      "province": "TO",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.teatroregio.torino.it/area-stampa/comunicato-stampa/pierino-e-il-lupo-inaugura-famiglia-202627",
+      "lastVerified": "2026-11-26T19:42:09+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/torino-regio-pierino-lupo-28-novembre-2026.html",
+        "title": "Torino, Pierino e il lupo apre il cartellone per famiglie del Teatro Regio",
+        "image": "/assets/images/editorial-auto/torino-regio-pierino-lupo-28-novembre-2026-v1661-1200.webp",
+        "description": "La favola sinfonica di Prokof’ev torna dal 28 novembre al Piccolo Regio Puccini con orchestra dal vivo e teatro d’ombre."
       }
     }
   ]
