@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-26T00:15:00+01:00",
+  "lastVerified": "2026-11-26T17:23:25+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -2535,7 +2535,7 @@
       "artist": "Shiva",
       "tour": "Live 2026",
       "start": "2026-11-27T21:00:00+01:00",
-      "end": null,
+      "end": "2026-11-27T23:59:59+01:00",
       "city": "Roma",
       "province": "RM",
       "region": "Lazio",
@@ -2544,10 +2544,18 @@
       "status": "in-vendita",
       "ticketStatus": "available",
       "featured": false,
-      "lastVerified": "2026-11-24T00:18:00+01:00",
-      "article": null,
-      "sourceUrl": "https://www.friendsandpartners.it/index.php/in-tour/shiva-live-2026",
-      "ticketUrl": "https://www.ticketone.it/artist/shiva/"
+      "lastVerified": "2026-11-26T17:23:25+01:00",
+      "article": {
+        "url": "/notizie/roma-shiva-palazzo-sport-26-novembre-2026.html",
+        "title": "Shiva apre a Roma tre serate consecutive al Palazzo dello Sport",
+        "image": "/assets/images/editorial-auto/roma-shiva-palazzo-sport-26-novembre-2026-v1654-1200.webp",
+        "description": "Il tour fa tappa all’EUR dal 27 al 29 novembre, sempre alle 21. Poi doppio appuntamento al PalaFlorio di Bari."
+      },
+      "sourceUrl": "https://www.ticketone.it/artist/shiva/",
+      "ticketUrl": "https://www.ticketone.it/artist/shiva/",
+      "endDatePrecision": "day",
+      "kind": "concerto",
+      "showTime": true
     },
     {
       "end": null,
@@ -5703,6 +5711,150 @@
         "title": "Mozart e Haydn al Politeama di Prato, debutto di Henry Kennedy sul podio",
         "image": "/assets/images/editorial-auto/prato-kennedy-de-maria-mozart-haydn-26-novembre-2026-v1653-1200.webp",
         "description": "La pianista Beatrice De Maria suona il Concerto K. 482 con la Camerata Strumentale. In chiusura la Sinfonia n. 103."
+      }
+    },
+    {
+      "id": "corriamola-insieme-mola-di-bari-2026-11-29",
+      "artist": "Corriamola Insieme",
+      "start": "2026-11-29T09:30:00+01:00",
+      "end": "2026-11-29T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "city": "Mola di Bari",
+      "venue": "Piazza XX Settembre",
+      "region": "Puglia",
+      "province": "BA",
+      "genre": "Gara podistica",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "sourceUrl": "https://calendario.fidal.it/files/32DISPOSITIVO%20MOLA.pdf",
+      "lastVerified": "2026-11-26T17:23:25+01:00",
+      "article": {
+        "url": "/notizie/mola-bari-corriamola-iscrizioni-26-novembre-2026.html",
+        "title": "Corriamola Insieme, iscrizioni fino a stasera per la 10 km di Mola di Bari",
+        "image": "/assets/images/editorial-auto/mola-bari-corriamola-iscrizioni-26-novembre-2026-v1654-1200.webp",
+        "description": "La gara nazionale di domenica 29 novembre parte alle 9.30 da piazza XX Settembre. Nessuna nuova iscrizione il giorno della corsa."
+      }
+    },
+    {
+      "id": "trasformazioni-biennale-di-scultura-contemporanea-italia-cina-roma-2026-11-30",
+      "artist": "Trasformazioni. Biennale di scultura contemporanea Italia-Cina",
+      "start": "2026-11-30",
+      "end": "2027-02-02T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "city": "Roma",
+      "venue": "Casa Museo Hendrik Christian Andersen",
+      "region": "Lazio",
+      "province": "RM",
+      "genre": "Mostra",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "showTime": false,
+      "sourceUrl": "https://cultura.gov.it/index.php/evento/trasformazioni-biennale-di-scultura-contemporanea-italia-cina",
+      "lastVerified": "2026-11-26T17:23:25+01:00",
+      "article": {
+        "url": "/notizie/roma-museo-andersen-trasformazioni-26-novembre-2026.html",
+        "title": "Roma, la Biennale di scultura Italia-Cina apre il secondo piano di Casa Andersen",
+        "image": "/assets/images/editorial-auto/roma-museo-andersen-trasformazioni-26-novembre-2026-v1654-1200.webp",
+        "description": "Dal 30 novembre al 2 febbraio nelle sale restaurate dialogano artisti legati a Roma e al Lazio e autori cinesi."
+      }
+    },
+    {
+      "id": "gaudenzio-ferrari-visto-da-vicino-varallo-2026-11-26",
+      "artist": "Gaudenzio Ferrari visto da vicino",
+      "start": "2026-11-26",
+      "end": "2026-11-29T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "city": "Varallo",
+      "venue": "Chiesa di Santa Maria delle Grazie",
+      "region": "Piemonte",
+      "province": "VC",
+      "genre": "Visita guidata",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "showTime": false,
+      "sourceUrl": "https://www.comune.varallo.vc.it/Dettaglionews?IDNews=427011",
+      "lastVerified": "2026-11-26T17:23:25+01:00",
+      "article": {
+        "url": "/notizie/varallo-gaudenzio-ferrari-restauro-26-novembre-2026.html",
+        "title": "Varallo, visite sul ponteggio per gli affreschi restaurati di Gaudenzio Ferrari",
+        "image": "/assets/images/editorial-auto/varallo-gaudenzio-ferrari-restauro-26-novembre-2026-v1654-1200.webp",
+        "description": "Dal 26 al 29 novembre il pubblico può avvicinarsi ai dipinti del 1513 nella chiesa di Santa Maria delle Grazie."
+      }
+    },
+    {
+      "id": "amarcort-premio-cinema-e-sport-rimini-2026-11-26",
+      "artist": "Amarcort – Premio Cinema e Sport",
+      "start": "2026-11-26T21:00:00+01:00",
+      "end": "2026-11-26T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "city": "Rimini",
+      "venue": "Cinema Tiberio",
+      "region": "Emilia-Romagna",
+      "province": "RN",
+      "genre": "Cinema",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "sourceUrl": "https://www.amarcort.it/programma.php",
+      "lastVerified": "2026-11-26T17:23:25+01:00",
+      "article": {
+        "url": "/notizie/rimini-amarcort-fellini-cortometraggi-26-novembre-2026.html",
+        "title": "Amarcort, a Rimini il Premio Cinema e Sport alla docuserie su Matilde Villa",
+        "image": "/assets/images/editorial-auto/rimini-amarcort-fellini-cortometraggi-26-novembre-2026-v1654-1200.webp",
+        "description": "Giovedì 26 novembre al Cinema Tiberio la proiezione di Non me l’aspettavo di Nicola Conversa. Ingresso gratuito."
+      }
+    },
+    {
+      "id": "grace-cummings-bloodhorse-milano-2026-11-26",
+      "artist": "Grace Cummings – Bloodhorse!",
+      "start": "2026-11-26T21:00:00+01:00",
+      "end": "2026-11-26T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "city": "Milano",
+      "venue": "Arci Bellezza",
+      "region": "Lombardia",
+      "province": "MI",
+      "genre": "Indie folk",
+      "kind": "concerto",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "sourceUrl": "https://arcibellezza.it/evento/grace-cummings/",
+      "lastVerified": "2026-11-26T17:23:25+01:00",
+      "article": {
+        "url": "/notizie/milano-grace-cummings-arci-bellezza-26-novembre-2026.html",
+        "title": "Grace Cummings porta «Bloodhorse!» all’Arci Bellezza di Milano",
+        "image": "/assets/images/editorial-auto/milano-grace-cummings-arci-bellezza-26-novembre-2026-v1654-1200.webp",
+        "description": "La cantautrice australiana è attesa il 26 novembre alle 21 con la band. Ingresso riservato ai soci Arci."
+      }
+    },
+    {
+      "id": "davide-boosta-dileo-pianorama-torino-2026-11-28",
+      "artist": "Davide Boosta Dileo – Pianorama",
+      "start": "2026-11-28T18:30:00+01:00",
+      "end": "2026-11-28T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "city": "Torino",
+      "venue": "Coro di Santa Pelagia",
+      "region": "Piemonte",
+      "province": "TO",
+      "genre": "Pianoforte ed elettronica",
+      "kind": "concerto",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "sourceUrl": "https://www.torinogiovani.it/vivere-a-torino/cosa-fare-a-torino/musica-ed-eventi/concerto-boosta",
+      "lastVerified": "2026-11-26T17:23:25+01:00",
+      "article": {
+        "url": "/notizie/torino-boosta-pianorama-santa-pelagia-26-novembre-2026.html",
+        "title": "Boosta porta Pianorama al Coro di Santa Pelagia a Torino",
+        "image": "/assets/images/editorial-auto/torino-boosta-pianorama-santa-pelagia-26-novembre-2026-v1654-1200.webp",
+        "description": "Sabato 28 novembre il tastierista dei Subsonica presenta il lavoro strumentale fra pianoforte ed elettronica."
       }
     }
   ]
