@@ -24,32 +24,6 @@
     window.open = blockOpen;
   }
 
-  /* I banner Adsterra usano document.write. Su iPhone quel comando non disegna:
-     il risultato viene inserito subito dopo lo script, dentro il riquadro. */
-  document.write = function () {
-    var html = Array.prototype.slice.call(arguments).join("");
-    var current = document.currentScript;
-    var holder = document.createElement("div");
-    holder.innerHTML = html;
-    var nodes = Array.prototype.slice.call(holder.childNodes);
-    var anchor = current && current.parentNode ? current : null;
-    nodes.forEach(function (node) {
-      var next = node;
-      if (node.tagName === "SCRIPT") {
-        next = document.createElement("script");
-        if (node.src) next.src = node.src;
-        else next.text = node.textContent || "";
-        next.setAttribute("data-cfasync", "false");
-      }
-      if (anchor) anchor.parentNode.insertBefore(next, anchor.nextSibling);
-      else document.body.appendChild(next);
-      anchor = next;
-    });
-  };
-  document.writeln = function () {
-    document.write(Array.prototype.slice.call(arguments).join("") + "\n");
-  };
-
   function kill(node) {
     if (!node || node.nodeType !== 1) return;
     var src = node.getAttribute ? (node.getAttribute("src") || "") : "";
@@ -101,7 +75,8 @@
     '[data-cm-ad="box300"]{min-height:250px}',
     '[data-cm-ad="adcash"]{min-height:90px}',
     '[data-cm-ad="native"],[data-cm-native-slot]{min-height:250px}',
-    '.cm-safe-ad iframe,.cm-safe-ad img,.cm-safe-ad video,.cm-safe-ad canvas,.cm-safe-ad object{max-width:100%!important;margin-left:auto;margin-right:auto}'
+    '.cm-safe-ad iframe,.cm-safe-ad img,.cm-safe-ad video,.cm-safe-ad canvas,.cm-safe-ad object{max-width:100%!important;margin-left:auto;margin-right:auto}',
+    'iframe.cm-banner-frame{display:block!important;border:0!important;margin:0 auto!important;background:#fff;overflow:hidden!important}'
   ].join("");
   document.head.appendChild(css);
 })();
