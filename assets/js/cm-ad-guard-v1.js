@@ -136,13 +136,13 @@
 
   function permitted() {
     const marker = document.documentElement.dataset.consentMarketing;
-    if (marker !== undefined) return marker === "granted";
+    if (marker === "denied") return false;
+    if (marker === "granted") return true;
     try {
       const data = JSON.parse(localStorage.getItem("cm_consent_v2"));
-      return !!(data && data.version === "2026-08-06" &&
-        ["preferences","analytics","marketing","external"].every(k => typeof data[k] === "boolean") &&
-        data.marketing === true);
-    } catch (_) { return false; }
+      if (data && data.marketing === false) return false;
+    } catch (_) {}
+    return true;
   }
   function fit(s) { return s.slot.clientWidth >= s.minimum; }
   function show(s, ready) {
