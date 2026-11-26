@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-26T17:23:25+01:00",
+  "lastVerified": "2026-11-26T17:51:41+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -5855,6 +5855,174 @@
         "title": "Boosta porta Pianorama al Coro di Santa Pelagia a Torino",
         "image": "/assets/images/editorial-auto/torino-boosta-pianorama-santa-pelagia-26-novembre-2026-v1654-1200.webp",
         "description": "Sabato 28 novembre il tastierista dei Subsonica presenta il lavoro strumentale fra pianoforte ed elettronica."
+      }
+    },
+    {
+      "id": "lanno-di-baggio-e-premio-gianfranco-civolani-bologna-2026-11-26",
+      "artist": "L’anno di Baggio e Premio Gianfranco Civolani",
+      "city": "Bologna",
+      "start": "2026-11-26T20:00:00+01:00",
+      "end": "2026-11-26T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Cinema Modernissimo",
+      "region": "Emilia-Romagna",
+      "province": "BO",
+      "genre": "Teatro e giornalismo",
+      "kind": "evento",
+      "status": "esaurito",
+      "ticketStatus": "sold-out",
+      "sourceUrl": "https://cinetecadibologna.it/programmazione/proiezione/lanno-di-baggio/?repeat=23279",
+      "lastVerified": "2026-11-26T17:51:41+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/bologna-modernissimo-anno-baggio-26-novembre-2026.html",
+        "title": "Al Modernissimo il Premio Civolani e il racconto dell’anno di Baggio a Bologna",
+        "image": "/assets/images/editorial-auto/bologna-modernissimo-anno-baggio-26-novembre-2026-v1655-1200.webp",
+        "description": "Giovedì 26 novembre la cerimonia per gli aspiranti giornalisti precede uno spettacolo sulla stagione del 1997-98. Posti esauriti."
+      }
+    },
+    {
+      "id": "buenos-aires-tango-musica-y-danza-en-concierto-roma-2026-11-28",
+      "artist": "Buenos Aires Tango. Música y Danza en Concierto",
+      "city": "Roma",
+      "start": "2026-11-28T20:00:00+01:00",
+      "end": "2026-11-28T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Teatro Studio Borgna, Auditorium Parco della Musica",
+      "region": "Lazio",
+      "province": "RM",
+      "genre": "Tango",
+      "kind": "concerto",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.auditorium.com/it/event/buenos-aires-tango-musica-y-danza-en-concierto/",
+      "lastVerified": "2026-11-26T17:51:41+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/roma-buenos-aires-tango-28-novembre-2026.html",
+        "title": "Tango argentino all’Auditorium di Roma con il bandoneón di Daniel Binelli",
+        "image": "/assets/images/editorial-auto/roma-buenos-aires-tango-28-novembre-2026-v1655-1200.webp",
+        "description": "Sabato 28 novembre alle 20 un concerto con musica e ballo nel cartellone Buenos Aires a Roma. Biglietti da 15 euro."
+      }
+    },
+    {
+      "id": "tra-prestigio-e-fiscalita-cabrei-e-catasti-astigiani-asti-2026-11-27",
+      "artist": "Tra prestigio e fiscalità. Cabrei e catasti astigiani",
+      "city": "Asti",
+      "start": "2026-11-27T17:30:00+01:00",
+      "end": "2027-02-26T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Archivio di Stato di Asti",
+      "region": "Piemonte",
+      "province": "AT",
+      "genre": "Mostra documentaria",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://cultura.gov.it/evento/mostra-documentaria-tra-prestigio-e-fiscalita-cabrei-e-catasti-astigiani-dal-xvii-al-xix-secolo",
+      "lastVerified": "2026-11-26T17:51:41+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/asti-cabrei-catasti-archivio-27-novembre-2026.html",
+        "title": "Asti, mappe e catasti di tre secoli in mostra all’Archivio di Stato",
+        "image": "/assets/images/editorial-auto/asti-cabrei-catasti-archivio-27-novembre-2026-v1655-1200.webp",
+        "description": "Da venerdì 27 novembre il percorso comprende il cabreo dei baroni Crova di Vaglio del 1769 e un libro di mappe del tardo Seicento."
+      }
+    },
+    {
+      "id": "apertura-serale-del-museo-archeologico-nazionale-delle-marche-ancona-2026-11-27",
+      "artist": "Apertura serale del Museo archeologico nazionale delle Marche",
+      "city": "Ancona",
+      "start": "2026-11-27",
+      "end": "2026-11-27T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Palazzo Ferretti – Museo archeologico nazionale delle Marche",
+      "region": "Marche",
+      "province": "AN",
+      "genre": "Apertura straordinaria",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://museinazionalimarche.cultura.gov.it/venerdi-27-novembre-2026-apertura-serale-del-m-a-n-marche-fino-alle-23-30/",
+      "lastVerified": "2026-11-26T17:51:41+01:00",
+      "showTime": false,
+      "article": {
+        "url": "/notizie/ancona-museo-archeologico-apertura-serale-27-novembre-2026.html",
+        "title": "Ancona, il Museo archeologico apre fino alle 23.30 venerdì 27 novembre",
+        "image": "/assets/images/editorial-auto/ancona-museo-archeologico-apertura-serale-27-novembre-2026-v1655-1200.webp",
+        "description": "A Palazzo Ferretti si potranno visitare le collezioni e l’esposizione sugli abiti di Settecento e Ottocento."
+      }
+    },
+    {
+      "id": "oltre-il-mugnone-da-rifredi-a-novoli-firenze-2026-11-27",
+      "artist": "Oltre il Mugnone, da Rifredi a Novoli",
+      "city": "Firenze",
+      "start": "2026-11-27T17:00:00+01:00",
+      "end": "2027-03-07T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Archivio Storico del Comune di Firenze",
+      "region": "Toscana",
+      "province": "FI",
+      "genre": "Mostra documentaria",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://cultura.comune.fi.it/contributobuonoscuola/dalle-redazioni/firenze-linvenzione-della-periferia-1",
+      "lastVerified": "2026-11-26T17:51:41+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/firenze-oltre-mugnone-mostra-27-novembre-2026.html",
+        "title": "Firenze, l’Archivio storico racconta come nacque la periferia fra Rifredi e Novoli",
+        "image": "/assets/images/editorial-auto/firenze-oltre-mugnone-mostra-27-novembre-2026-v1655-1200.webp",
+        "description": "Inaugurazione venerdì 27 novembre alle 17, poi visite fino al 7 marzo con documenti, disegni e filmati."
+      }
+    },
+    {
+      "id": "targhe-officina-roversi-2026-serata-finale-bologna-2026-11-27",
+      "artist": "Targhe Officina Roversi 2026 – serata finale",
+      "city": "Bologna",
+      "start": "2026-11-27T21:00:00+01:00",
+      "end": "2026-11-27T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Teatro Testoni Ragazzi",
+      "region": "Emilia-Romagna",
+      "province": "BO",
+      "genre": "Canzone e poesia",
+      "kind": "concerto",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://www.culturabologna.it/events/targhe-officina-roversi-2026-27-28nov2026",
+      "lastVerified": "2026-11-26T17:51:41+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/bologna-targhe-officina-roversi-27-novembre-2026.html",
+        "title": "Targhe Officina Roversi, a Bologna premi alla carriera per Ferretti e Zamboni",
+        "image": "/assets/images/editorial-auto/bologna-targhe-officina-roversi-27-novembre-2026-v1655-1200.webp",
+        "description": "Venerdì 27 novembre al Testoni Ragazzi saranno consegnate anche le targhe per canzone, poesia e testo per musica."
+      }
+    },
+    {
+      "id": "il-segno-della-rinascita-bolzano-2026-11-28",
+      "artist": "Il Segno della Rinascita",
+      "city": "Bolzano",
+      "start": "2026-11-28T10:00:00+01:00",
+      "end": "2027-02-28T23:59:59+01:00",
+      "endDatePrecision": "day",
+      "venue": "Centro Trevi-TreviLab",
+      "region": "Trentino-Alto Adige",
+      "province": "BZ",
+      "genre": "Mostra",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "unknown",
+      "sourceUrl": "https://italienische-kultur.provinz.bz.it/it/eventi/inaugurazione-mostra-il-segno-della-rinascita",
+      "lastVerified": "2026-11-26T17:51:41+01:00",
+      "showTime": true,
+      "article": {
+        "url": "/notizie/bolzano-segno-rinascita-uffizi-28-novembre-2026.html",
+        "title": "A Bolzano le opere degli Uffizi restaurate dopo la strage dei Georgofili",
+        "image": "/assets/images/editorial-auto/bolzano-segno-rinascita-uffizi-28-novembre-2026-v1655-1200.webp",
+        "description": "La mostra Il Segno della Rinascita inaugura il 28 novembre al Centro Trevi-TreviLab con ingresso libero fino a esaurimento posti."
       }
     }
   ]
