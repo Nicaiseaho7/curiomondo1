@@ -94,3 +94,21 @@
   ].join("");
   document.head.appendChild(css);
 })();
+
+(function () {
+  "use strict";
+  if (/^\/(scioperi|concerti|scadenze)(\/|$)/.test(location.pathname)) return;
+
+  function place() {
+    var slots = Array.from(document.querySelectorAll('[data-cm-ad="native"]'));
+    var slot = slots.shift();
+    if (!slot) return;
+    slots.forEach(function (extra) { extra.remove(); });
+    var footer = document.querySelector("footer");
+    if (footer && footer.parentNode) footer.parentNode.insertBefore(slot, footer);
+    else (document.querySelector("main") || document.body).appendChild(slot);
+  }
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", place);
+  else place();
+})();

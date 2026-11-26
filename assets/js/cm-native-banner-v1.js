@@ -68,8 +68,8 @@
     if (placing) return;
     placing = true;
     var list = candidates();
-    if (list.length >= 2) {
-      var anchor = list[Math.max(0, Math.round(list.length * 0.46) - 1)];
+    if (list.length) {
+      var anchor = list[list.length - 1];
       if (slot.previousElementSibling !== anchor) anchor.after(slot);
       arm();
     } else {
