@@ -35,7 +35,7 @@ def format_errors(body):
 
 def external_source_urls(doc):
     """Le pagine istituzionali di CurioMondo non sono fonti della notizia."""
-    values = doc.xpath('//div[contains(concat(" ",normalize-space(@class)," ")," art-sources ")]//a/@href')
+    values = doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," art-sources ")]//a/@href')
     return {
         value for value in values
         if urlparse(value).scheme in ('http', 'https')
