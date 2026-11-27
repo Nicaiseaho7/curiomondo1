@@ -142,14 +142,15 @@ const curiositaRail = () => {
     const srcset=variant ? [480,800,1200].filter(w=>fs.existsSync(path.join(root,variant[1].replace(/^\//,'')+'-'+w+'.webp'))).map(w=>variant[1]+'-'+w+'.webp '+w+'w').join(', ') : '';
     const published = (page.match(/"datePublished"\s*:\s*"([^"]+)"/) || [])[1];
     const publishedAt = Date.parse(published || '');
-    found.push({ href, title, image, srcset, publishedAt: Number.isFinite(publishedAt) ? publishedAt : 0, order: order++ });
+    found.push({ href, title, excerpt, image, srcset, publishedAt: Number.isFinite(publishedAt) ? publishedAt : 0, order: order++ });
   }
   if (!found.length) return '';
   const ordered=found.sort((a,b)=>b.publishedAt-a.publishedAt || b.order-a.order);
   const main=ordered.find(e=>e.image)||ordered[0];
-  const feature=featureRow({...main,url:main.href},'curiosita','Curiosità e approfondimenti');
+  const brief=main.excerpt.length>200 ? main.excerpt.slice(0,200).replace(/\s+\S*$/,'')+'…' : main.excerpt;
+  const feature=`<a href="${esc(main.href)}" class="cm-topic-card cm-flow-category-feature cm-guide-cover" data-category="curiosita">${picture(main,false,'(max-width: 760px) calc(100vw - 58px), (max-width: 1344px) 28vw, 350px')}<div class="cm-flow-category-copy"><span class="cm-topic-label meta cm-flow-visually-hidden" aria-hidden="true">Curiosità e approfondimenti</span><span class="cm-guide-kicker">Guida in evidenza</span><h3 class="cm-flow-category-headline">${esc(main.title)}</h3>${brief ? `<p class="cm-guide-brief">${esc(brief)}</p>` : ''}<span class="cm-guide-read" aria-hidden="true">Leggi la guida →</span></div></a>`;
   const cards=ordered.filter(e=>e.href!==main.href).slice(0,5).map(entry=>titleRow({url:entry.href,title:entry.title},'curiosita','Curiosità e approfondimenti')).join('');
-  return `<section class="cm-topic-section cm-curiosita-rail" data-category="curiosita" id="categoria-curiosita" data-cm-rail-max="6" style="--cm-category-color:#6333bd"><div class="cm-topic-section__rail" data-for-category="curiosita"><h2 class="cm-topic-section__title">Curiosità e approfondimenti</h2><div class="cm-flow-category-body">${feature}<div class="cm-topic-grid">${cards}</div></div><a class="cm-topic-archive" href="/approfondimenti/">Tutti gli approfondimenti →</a></div></section>`;
+  return `<section class="cm-topic-section cm-curiosita-rail cm-guide-magazine" data-category="curiosita" id="categoria-curiosita" data-cm-rail-max="6" style="--cm-category-color:#80551b"><div class="cm-topic-section__rail" data-for-category="curiosita"><div class="cm-guide-heading"><span class="cm-guide-kicker">La rivista di CurioMondo</span><h2 class="cm-topic-section__title">Curiosità e approfondimenti</h2></div><div class="cm-flow-category-body cm-guide-layout">${feature}<div class="cm-guide-index"><span class="cm-guide-kicker">Da esplorare</span><div class="cm-topic-grid">${cards}</div></div></div><a class="cm-topic-archive" href="/approfondimenti/">Tutti gli approfondimenti →</a></div></section>`;
 };
 
 const feed = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/home-feed-v210.json'), 'utf8'));
