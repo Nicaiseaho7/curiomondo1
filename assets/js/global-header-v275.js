@@ -6,31 +6,46 @@
       regs.forEach((reg) => { reg.unregister(); });
     }).catch(() => {});
   }
-  const restore = document.createElement("style");
-  restore.id = "cm-inner-brand-restore";
-  restore.textContent = `
-    .cm-global-header__brand,
-    .cm-global-header__brand span[aria-hidden]{
-      color:#fff!important;
-      -webkit-text-fill-color:#fff!important;
-      font-weight:700!important;
-      font-size:clamp(1.85rem,6.6vw,2.28rem)!important;
-      letter-spacing:-.03em!important;
-      line-height:.92!important;
-      text-shadow:0 1px 0 #031020,0 2px 6px rgba(3,16,32,.55)!important;
-    }
-    .cm-global-header__brand span span{
-      color:#245fd6!important;
-      -webkit-text-fill-color:#245fd6!important;
-    }
-    @media(max-width:600px){
-      .cm-global-header__brand{font-size:clamp(1.58rem,7.2vw,1.82rem)!important}
-    }
-  `;
-  document.head.appendChild(restore);
+  const brandSheet='/assets/css/curiomondo-brand-unified-v1.css';
+  const headers=[...document.querySelectorAll('header.cm-global-header')];
+  if(headers.length&&!document.querySelector('link[href="'+brandSheet+'"]')){
+    const css=document.createElement('link');
+    css.rel='stylesheet';css.href=brandSheet;document.head.append(css);
+  }
+  for(const header of headers){
+    const brand=header.querySelector('.cm-global-header__brand');
+    const nav=header.querySelector('.cm-global-header__inner');
+    if(!brand||!nav||header.dataset.cmBrandUnified)continue;
+    const part=(name, cls='', value='')=>{
+      const n=document.createElement(name);
+      if(cls)n.className=cls;if(value)n.textContent=value;
+      return n;
+    };
+    const img=part('img','cm-global-unified-logo');
+    img.src='/assets/images/curiomondo-logo-circle-v715-96.webp?v=715';
+    img.alt='';img.width=47;img.height=47;img.decoding='async';
+    const copy=part('span','cm-global-unified-copy');
+    const word=part('span','cm-global-unified-word');word.setAttribute('aria-hidden','true');
+    word.append(part('b','', 'Curio'),part('i','', 'Mondo'));
+    const line=part('small','cm-global-unified-tagline','Notizie, curiosità e approfondimenti dall’Italia e dal mondo');
+    line.setAttribute('aria-hidden','true');copy.append(word,line);
+    brand.replaceChildren(img,copy);
+    brand.setAttribute('aria-label','CurioMondo, torna alla home');
+    header.dataset.cmBrandUnified='v1';
+  }
+
+  const categoryPage=document.querySelector('main.category-shell');
+  const categorySlug=location.pathname.match(/^\/categorie\/([a-z-]+)(?:\/|$)/)?.[1];
+  if(categoryPage&&categorySlug){
+    const css=document.createElement('link');css.rel='stylesheet';css.href='/assets/css/category-edition-v1.css';document.head.append(css);
+    categoryPage.dataset.cmCategoryEdition=categorySlug;
+    const first=categoryPage.querySelector('.category-list>li:first-child .category-card-copy');
+    if(first){const kicker=document.createElement('span');kicker.className='category-feature-kicker';kicker.textContent='In apertura';first.prepend(kicker);}
+  }
 
   document.querySelectorAll('.cm-global-header__brand').forEach((link) => {
     link.addEventListener('click', (event) => {
+      if (event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
       event.preventDefault();
       event.stopPropagation();
       try {
@@ -46,6 +61,7 @@
   });
   document.querySelectorAll('.cm-global-header__back').forEach((link) => {
     link.addEventListener('click', (event) => {
+      if (event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
       let same = false;
       try { same = new URL(document.referrer).origin === location.origin; } catch {}
       if (same && history.length > 1) {
