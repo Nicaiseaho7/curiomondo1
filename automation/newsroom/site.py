@@ -10,6 +10,7 @@ from datetime import datetime, timedelta
 from email.utils import format_datetime, parsedate_to_datetime
 from html import escape, unescape
 import importlib.util
+from functools import lru_cache
 import json
 import re
 import subprocess
@@ -31,6 +32,14 @@ NEWS_NS = "http://www.google.com/schemas/sitemap-news/0.9"
 ATOM_NS = "http://www.w3.org/2005/Atom"
 WEBSUB_HUB = "https://pubsubhubbub.appspot.com/"
 FEED_URL = "https://curiomondo.it/feed.xml"
+
+
+@lru_cache(maxsize=1)
+def _article_flow():
+    spec = importlib.util.spec_from_file_location("cm_article_flow", Path(__file__).with_name("article_flow.py"))
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
 
 def _sitemap_tools():
@@ -401,6 +410,9 @@ def render_article(article: dict[str, Any], image: dict[str, Any], version: int)
     article["slug"] = slug
     article["published"] = published
     article["category_full"] = category
+    flow = _article_flow()
+    page, _ = flow.transform(page, flow.load_catalog(ROOT), fallback_url=canonical,
+                             bold=article.get("grassetti_editoriali") or ())
     return slug, page
 
 

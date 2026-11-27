@@ -38,7 +38,7 @@ if article_controller_path.exists():
     article_controller=article_controller_path.read_text(errors='replace')
     if "if(ranked.length<3)return" in article_controller:
         errors.append('correlati: ritorno anticipato blocca il caricamento delle miniature')
-    for marker in ("if(!item?.image)link.remove()", "cache:'no-cache'", "curio-related-thumb"):
+    for marker in ("item?.image", "cache:'no-cache'", "curio-related-thumb", "data-cm-flow-static"):
         if marker not in article_controller: errors.append(f'correlati: protezione immagini assente ({marker})')
 policy_path=root/'AI-EDITORIAL-IMAGE-PROTOCOL.md'
 prompt_path=root/'automation/prompts/image-generation-contract.txt'
@@ -476,6 +476,17 @@ for p in news:
         linked_title=' '.join(link.xpath('.//strong//text()')).strip().casefold()
         if related_key(link.get('href'))==current_key or (current_title and linked_title==current_title):
             errors.append(f'articolo autoreferenziale in Potrebbe interessarti: {p.name}')
+    if d.xpath('//body[contains(concat(" ",normalize-space(@class)," ")," cm-news-flow-article ")]'):
+        related=d.xpath('//section[@data-cm-flow-static="true"]//a[@href]')
+        keys=[related_key(card.get('href')) for card in related]
+        images=[card.xpath('.//img[@src]/@src') for card in related]
+        if (len(related)!=3 or len(set(keys))!=3 or current_key in keys
+                or not all(len(srcs)==1 for srcs in images)
+                or len({srcs[0] for srcs in images if srcs})!=3
+                or not all(card.xpath('.//strong[normalize-space()]') for card in related)):
+            errors.append(f'«Altre notizie» non contiene tre notizie distinte con titolo e immagine: {p.name}')
+        if d.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," cm-flow-brief ")]//a'):
+            errors.append(f'link non previsto in «In breve»: {p.name}')
     scripts=d.xpath('//script[contains(@src,"curiomondo-article-v210.js")]/@src')
     if len(scripts)!=1:
         errors.append(f'controller articolo mancante o duplicato: {p.name}')
