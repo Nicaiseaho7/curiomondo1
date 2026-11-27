@@ -1,6 +1,366 @@
 {
-  "version": 1667,
+  "version": 1668,
   "items": [
+    {
+      "title": "Ricevuta pagoPA: dove trovarla e come verificare se un avviso è stato pagato",
+      "excerpt": "Dove recuperare la ricevuta pagoPA da IO, sito, banca o sportello; come controllare l’esito ed evitare un doppio pagamento.",
+      "url": "/approfondimenti/pagopa-avviso-ricevuta-pagamento.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Fasce F1, F2 e F3: quando costa meno usare la corrente?",
+      "excerpt": "Orari feriali e festivi, differenza tra monoraria e bioraria e un conto realistico per capire se spostare i consumi conviene.",
+      "url": "/approfondimenti/fasce-f1-f2-f3-bolletta-luce.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Check-in online e carta d’imbarco: che cosa fare prima del volo",
+      "excerpt": "Come riconoscere la carta d’imbarco, prepararsi alla consegna della valigia e distinguere i termini di check-in e gate.",
+      "url": "/approfondimenti/check-in-online-aereo-carta-imbarco.html",
+      "section": "Approfondimenti / Viaggi"
+    },
+    {
+      "title": "Sci alpino: differenze fra discesa, super-G, gigante e slalom",
+      "excerpt": "Quello che cambiano manche, porte, ricognizioni, attrezzatura e cronometri fra le quattro prove principali dello sci alpino.",
+      "url": "/approfondimenti/sci-alpino-discesa-superg-gigante-slalom.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Perché allo specchio destra e sinistra sembrano scambiarsi?",
+      "excerpt": "La riflessione inverte la profondità rispetto al vetro. Una tazza, una scritta e un guanto aiutano a capire perché confondiamo i due effetti.",
+      "url": "/approfondimenti/specchio-inverte-destra-sinistra.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Frane su IdroGEO: come distinguere inventario, pericolosità e verifiche locali",
+      "excerpt": "Come consultare la mappa di ISPRA, riconoscere un fenomeno inventariato e capire quando serve un controllo locale.",
+      "url": "/approfondimenti/frane-idrogeo-iffi-pericolosita.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Filtri Gmail: come etichettare e archiviare le email senza perdere quelle importanti",
+      "excerpt": "Come provare i criteri, etichettare i messaggi in arrivo e impostare l’archiviazione senza nascondere le email da seguire.",
+      "url": "/approfondimenti/filtri-gmail-organizzare-posta.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Padel: quando si può usare il vetro e quando la palla è fuori",
+      "excerpt": "Quando il vetro mantiene la palla in gioco, quando la griglia cambia il verdetto e come distinguere una risposta valida da un fallo di battuta.",
+      "url": "/approfondimenti/padel-regole-pareti-vetro.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Perché i popcorn scoppiano e saltano?",
+      "excerpt": "Un chicco di mais diventa una piccola schiuma: perché si apre, da dove arriva lo schiocco e che cosa rivela un filmato al rallentatore.",
+      "url": "/approfondimenti/perche-popcorn-scoppiano.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Lampadine LED: quanti lumen servono e quanto consumano",
+      "excerpt": "Come scegliere luce e fascio, verificare attacco e dimmer e calcolare i kWh a parità di ore e illuminazione utile.",
+      "url": "/approfondimenti/lampadine-led-lumen-consumi.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Perché le bolle di sapone cambiano colore?",
+      "excerpt": "Come due riflessi fanno comparire le fasce iridescenti sul sapone e perché una macchia nera non è sempre un buco.",
+      "url": "/approfondimenti/perche-bolle-sapone-cambiano-colore.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Acque di balneazione: come leggere la qualità della spiaggia e controllare i divieti",
+      "excerpt": "Dove cercare la scheda della spiaggia e come distinguere classe pluriennale, ultimi prelievi e divieti temporanei.",
+      "url": "/approfondimenti/acque-balneazione-leggere-classi-divieti.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Bolletta gas: dai metri cubi agli Smc con il coefficiente C",
+      "excerpt": "Come rifare il calcolo dalle letture, riconoscere stime e ricalcoli e distinguere il coefficiente C dal potere calorifico P.",
+      "url": "/approfondimenti/bolletta-gas-metri-cubi-smc-coefficiente-c.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Permessi delle app: come controllare posizione, foto e microfono su Android e iPhone",
+      "excerpt": "Come vedere, limitare o revocare i permessi delle app senza disattivare le funzioni del telefono che usi ogni giorno.",
+      "url": "/approfondimenti/permessi-app-android-iphone.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Nuoto in vasca lunga e corta: perché 25 e 50 metri cambiano tempi, virate e record",
+      "excerpt": "Quante virate si fanno in 25 e 50 metri, perché i crono cambiano e quale tempo conta per record e qualificazioni.",
+      "url": "/approfondimenti/nuoto-vasca-lunga-corta.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Nightjet in Europa: differenza tra sedile, cuccetta e vagone letto",
+      "excerpt": "Come leggere le categorie dei treni notturni, riconoscere una cabina privata e organizzare i collegamenti.",
+      "url": "/approfondimenti/treni-notturni-europa-nightjet-cuccette-letti.html",
+      "section": "Approfondimenti / Viaggi"
+    },
+    {
+      "title": "Brezza marina e di valle: perché il vento cambia direzione tra mattina e sera",
+      "excerpt": "Come si formano le brezze marine e di valle, quali indizi osservare e quando il vento generale prevale.",
+      "url": "/approfondimenti/brezza-mare-valle-come-leggere-vento.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Portale Consumi: come leggere lo storico e i dati ogni 15 minuti",
+      "excerpt": "Come identificare la fornitura, distinguere kWh da kW medi e confrontare picchi, consumi notturni e intervalli fatturati.",
+      "url": "/approfondimenti/portale-consumi-storico-quartorari.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "AirPrint: come stampare da iPhone e iPad e cosa fare se non trovi la stampante",
+      "excerpt": "I controlli da fare quando iPhone non vede la stampante, non compare il comando Stampa o il PDF esce tagliato.",
+      "url": "/approfondimenti/airprint-stampare-iphone-ipad.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché il ghiaccio galleggia sull’acqua?",
+      "excerpt": "La struttura del ghiaccio, la spinta di Archimede e la differenza fra un cubetto nel bicchiere e una massa di ghiaccio a terra.",
+      "url": "/approfondimenti/perche-ghiaccio-galleggia.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Maratona: differenza fra tempo netto e lordo, come leggere chip, parziali e pacer",
+      "excerpt": "Come leggere gun time, chip time, passaggi intermedi, pacer e limiti di gara su 42,195 chilometri.",
+      "url": "/approfondimenti/maratona-tempo-netto-lordo-pacer.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "MLOL: come prendere in prestito un ebook dalla biblioteca",
+      "excerpt": "Come accedere, verificare la disponibilità dei titoli e scegliere un dispositivo compatibile con il prestito digitale.",
+      "url": "/approfondimenti/mlol-prestito-ebook-biblioteca.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Corrente di risacca: perché il varco tra le onde può essere più pericoloso",
+      "excerpt": "Perché una fascia apparentemente calma tra i frangenti può essere insidiosa e come seguire le indicazioni del salvataggio.",
+      "url": "/approfondimenti/corrente-risacca-riconoscere-prevenzione.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "WC che perde acqua nella tazza: come capire cosa non tiene",
+      "excerpt": "Distingui valvola di carico, troppo pieno e guarnizione di scarico. Due prove semplici e un conto dell’acqua sprecata.",
+      "url": "/approfondimenti/wc-perde-acqua-tazza-cassetta.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Come esportare la rubrica di iPhone e Android con un file vCard",
+      "excerpt": "Dove ritrovare i contatti, come esportare un file VCF e come controllare numeri e duplicati sul nuovo telefono.",
+      "url": "/approfondimenti/esportare-contatti-vcard-iphone-android.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Beach volley: come si contano i punti e perché si cambia campo durante il set",
+      "excerpt": "Set a 21 e 15, cambi di campo, ordine di servizio e regola dei tre tocchi sulla sabbia.",
+      "url": "/approfondimenti/beach-volley-regole-punteggio-cambio-campo.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "OPAC SBN: come trovare un libro e la biblioteca che lo possiede",
+      "excerpt": "Come distinguere le edizioni, leggere una localizzazione e verificare il prestito della copia cartacea.",
+      "url": "/approfondimenti/opac-sbn-trovare-libro-biblioteca.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Cattivo odore dal lavello: come capire se viene dal sifone",
+      "excerpt": "Come distinguere un sifone asciutto da residui, perdite e problemi della rete senza mescolare prodotti né smontare a tentativi.",
+      "url": "/approfondimenti/sifone-lavello-odori-scarico.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Cuffie Bluetooth multipoint: collegare PC e telefono e risolvere i problemi di audio",
+      "excerpt": "Come distinguere associazione e connessione, provare il cambio di sorgente e diagnosticare il microfono delle cuffie.",
+      "url": "/approfondimenti/cuffie-bluetooth-multipoint-pc-telefono.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché la cipolla fa piangere quando la tagliamo?",
+      "excerpt": "Il viaggio del fattore lacrimogeno dalle cellule rotte del bulbo all’occhio, e che differenza c’è tra pianto, aroma e cottura.",
+      "url": "/approfondimenti/perche-cipolla-fa-piangere.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Film in lingua originale al cinema: V.O., V.O.S. e sottotitoli",
+      "excerpt": "Come leggere la versione della singola proiezione, sapere in quale lingua sono i sottotitoli e scegliere prima di comprare.",
+      "url": "/approfondimenti/film-lingua-originale-cinema-sigle-sottotitoli.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Inquinamento luminoso: come leggere la mappa del cielo e scegliere una luce esterna",
+      "excerpt": "Che cosa mostrano le mappe della luminosità notturna e come valutare una lampada per non sprecare luce verso il cielo.",
+      "url": "/approfondimenti/inquinamento-luminoso-mappa-cielo-illuminazione.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Silicone della doccia: quando rifarlo e quando cercare un’infiltrazione",
+      "excerpt": "Controlla piatto, box, scarico e giunti prima di sostituire il silicone. Come scegliere il sigillante e rispettarne la messa in servizio.",
+      "url": "/approfondimenti/silicone-doccia-giunti-infiltrazioni.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Spazio privato su Android: come separare le app, cosa succede alle notifiche e quali dati non si salvano",
+      "excerpt": "Come configurare Spazio privato da Android 15, scegliere il blocco e salvare ciò che non torna dal normale backup.",
+      "url": "/approfondimenti/spazio-privato-android-app-separate.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché le dita si raggrinziscono nell’acqua?",
+      "excerpt": "La pelle che cambia forma dopo il bagno, il ruolo dei nervi e perché la teoria della presa non è ancora una certezza.",
+      "url": "/approfondimenti/perche-dita-raggrinziscono-acqua.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Punteggio del judo: ippon, waza-ari, yuko e golden score",
+      "excerpt": "Come leggere il tabellone del judo, quali immobilizzazioni segnano e che cosa decide il golden score.",
+      "url": "/approfondimenti/judo-punteggio-ippon-waza-ari-yuko.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Foto nei musei: quando si può scattare e perché si spegne il flash",
+      "excerpt": "Regole per lo scatto a mano, differenze tra mostre e collezioni e verifiche per pubblicare o riutilizzare una fotografia.",
+      "url": "/approfondimenti/foto-nei-musei-flash-diritti.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Meteo mare: che cosa cambiano altezza, periodo e direzione delle onde",
+      "excerpt": "Come interpretare altezza significativa, periodo e direzione, distinguendo il mare del vento dalle onde che arrivano da lontano.",
+      "url": "/approfondimenti/moto-ondoso-altezza-periodo-mare-lungo.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Spifferi dalle finestre: quando servono davvero nuove guarnizioni",
+      "excerpt": "Come localizzare il passaggio d’aria e distinguere un difetto della battuta dal vetro freddo, dalla posa e dalla ferramenta.",
+      "url": "/approfondimenti/guarnizioni-finestre-spifferi.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Testo grande su iPhone e Android: come rendere leggibili scritte, pulsanti e pagine",
+      "excerpt": "Come scegliere fra caratteri grandi, icone più ampie, contrasto e ingrandimento a seconda della schermata.",
+      "url": "/approfondimenti/testo-grande-leggibilita-iphone-android.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché i capelli diventano bianchi?",
+      "excerpt": "Il colore nasce nel follicolo prima che il capello emerga. Che cosa sappiamo di melanina, età e stress, senza promettere inversioni o rimedi.",
+      "url": "/approfondimenti/perche-capelli-diventano-bianchi.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Basket FIBA: come funzionano i 24 secondi, il reset a 14 e il tiro sulla sirena",
+      "excerpt": "Quando scattano 24 o 14 secondi, cosa conta se il tiro è in aria sulla sirena e perché le rimesse cambiano il conto.",
+      "url": "/approfondimenti/basket-fiba-cronometro-24-secondi.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Via Francigena: credenziale, timbri e Testimonium",
+      "excerpt": "Dove controllare i punti per timbrare, come organizzare le tappe e che cosa serve per richiedere il Testimonium a Roma.",
+      "url": "/approfondimenti/via-francigena-credenziale-timbri.html",
+      "section": "Approfondimenti / Viaggi"
+    },
+    {
+      "title": "Passaggi faunistici: come capire se un ponte verde collega davvero due habitat",
+      "excerpt": "La differenza tra sovrappasso verde e corridoio funzionale e come osservare l’uso delle opere senza limitarlo ai conteggi.",
+      "url": "/approfondimenti/passaggi-faunistici-corridoi-ecologici.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Zanzariera a rullo bloccata: guide, rete e pulizia in sicurezza",
+      "excerpt": "Come riconoscere sabbia nelle guide, disallineamento o problemi del richiamo, senza forzare la barra né smontare la molla.",
+      "url": "/approfondimenti/zanzariera-rullo-manutenzione.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Controllo parentale su iPhone e Android: orari, app consentite e acquisti",
+      "excerpt": "Come configurare Tempo di utilizzo e Family Link, fare eccezioni e verificare che le app importanti restino disponibili.",
+      "url": "/approfondimenti/controllo-parentale-iphone-android.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché a volte prendiamo la scossa toccando una maniglia?",
+      "excerpt": "La differenza fra accumulo di carica e scarica, perché si nota di più nell’aria secca e perché il metallo non crea elettricità dal nulla.",
+      "url": "/approfondimenti/perche-prendiamo-scossa-elettricita-statica.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Curling: come si contano i punti, a cosa serve l’hammer e quando conviene fare zero",
+      "excerpt": "Distanza dal centro, pietre a punto, ultimo lancio ed end in bianco: come leggere il curling a squadre e il doppio misto.",
+      "url": "/approfondimenti/curling-come-si-contano-punti-hammer.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Carbonara cremosa: come aggiungere le uova senza strapazzarle",
+      "excerpt": "Come controllare il calore residuo, distribuire il pecorino e usare poca acqua di cottura quando serve.",
+      "url": "/approfondimenti/carbonara-uova-cremosa-fuori-dal-fuoco.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Siccità: perché un temporale non basta e come leggere i dati su pioggia, fiumi e riserve",
+      "excerpt": "Come leggere deficit di precipitazioni, fiumi e riserve senza confondere il sollievo di un temporale con la fine della siccità.",
+      "url": "/approfondimenti/siccita-spi-pioggia-fiumi-riserve.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Cassonetto della tapparella freddo: come capire dove intervenire",
+      "excerpt": "Distingui spifferi e dispersione del pannello, controlla il passacinghia e valuta un isolamento che lasci libere ispezione e manovra.",
+      "url": "/approfondimenti/cassonetto-tapparella-isolamento.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "File ICS e calendari online: quando importare, quando iscriversi e come aprire un invito",
+      "excerpt": "Come importare un file ICS, sottoscrivere un programma online e rispondere a una convocazione, senza perdere gli aggiornamenti.",
+      "url": "/approfondimenti/calendari-ics-inviti-importare-iscriversi.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché si appannano gli occhiali entrando al caldo?",
+      "excerpt": "Come si forma la condensa sulle lenti e perché una superficie trasparente diventa lattiginosa quando si riempie di microgocce.",
+      "url": "/approfondimenti/perche-occhiali-si-appannano.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Hockey su ghiaccio: cambi al volo, penalità e power play secondo le regole IIHF",
+      "excerpt": "Come distinguere cambi durante l’azione, penalità minori e maggiori, superiorità numerica e portiere tolto.",
+      "url": "/approfondimenti/hockey-ghiaccio-penalita-powerplay-cambi.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Gnocchi di patate: come dosare la farina e fare la prova di cottura",
+      "excerpt": "Come controllare umidità e consistenza delle patate, formare gli gnocchi e verificare pochi pezzi prima di cuocere tutto.",
+      "url": "/approfondimenti/gnocchi-patate-impasto-dosi-cottura.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Suolo impermeabilizzato: dove va la pioggia quando una città perde terreno permeabile",
+      "excerpt": "Che cosa accade all’acqua tra tetti, asfalto e giardini della pioggia, e perché conta il percorso fino al punto di scarico.",
+      "url": "/approfondimenti/suolo-impermeabile-pioggia-citta.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Perché le nocche scrocchiano?",
+      "excerpt": "Che cosa cambia dentro l’articolazione durante uno schiocco e che cosa mostrano risonanza, ecografia e modelli delle bolle.",
+      "url": "/approfondimenti/perche-nocche-scrocchiano.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Draft NBA: come funzionano lottery, scelte protette e nuova formula dal 2027",
+      "excerpt": "Come si forma l’ordine di scelta NBA, dove finiscono i pick protetti e che cosa cambia con la lottery 3-2-1 dal 2027.",
+      "url": "/approfondimenti/draft-nba-come-funziona-lottery-pick.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Panna montata: come farla e quando fermare le fruste",
+      "excerpt": "Come scegliere la panna, riconoscere picchi morbidi o fermi e capire perché diventa granulosa.",
+      "url": "/approfondimenti/panna-montata-fredda-consistenza.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Zone 30: come riconoscerle e perché la strada conta più del solo cartello",
+      "excerpt": "Come distinguere una Zona 30 da un limite su una singola strada, leggere gli accessi e capire l’effetto del disegno stradale.",
+      "url": "/approfondimenti/zone-30-segnali-strade-sicurezza.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
     {
       "title": "IT-Wallet su IO: come attivarlo e usare i documenti digitali",
       "excerpt": "Dal passaggio da Documenti su IO alla CIE richiesta, fino a patente, verifica dal vivo, uso senza rete e limiti all’estero.",
