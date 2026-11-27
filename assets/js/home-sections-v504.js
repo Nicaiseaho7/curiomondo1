@@ -205,7 +205,16 @@
     rail.dataset.forCategory = category.id;
     const label=category.id==='film-tv'?'Film e serie TV':category.label;
     rail.append(el('h2', 'cm-topic-section__title', label));
-    const own = stories;
+    const [lead,...own] = stories;
+    const content=el('div','cm-flow-category-body');
+    if(lead){
+      const feature=el('a','cm-topic-card cm-flow-category-feature');feature.href=lead.url;feature.dataset.category=category.id;
+      const visual=picture(lead,false);
+      if(visual){visual.querySelector('img').sizes='(max-width: 760px) calc(100vw - 60px), (max-width: 1344px) calc(100vw - 94px), 1250px';feature.append(visual);}
+      const copy=el('div','cm-flow-category-copy'), badge=el('span','cm-topic-label meta cm-flow-visually-hidden',label);
+      badge.setAttribute('aria-hidden','true');
+      copy.append(badge,el('h3','cm-flow-category-headline',lead.title));feature.append(copy);content.append(feature);
+    }
     if (own.length) {
       const grid = el('div', 'cm-topic-grid');
       grid.append(...own.map(entry=>{
@@ -214,8 +223,9 @@
         link.append(badge,el('h3','cm-topic-card__title',entry.title));
         return link;
       }));
-      rail.append(grid);
+      content.append(grid);
     }
+    rail.append(content);
     if (category.archive) {
       const archive = el('a', 'cm-topic-archive', category.id === 'meteo' ? 'Tutte le notizie Meteo →' : `Tutte le notizie di ${category.label} →`);
       archive.href = category.archive;

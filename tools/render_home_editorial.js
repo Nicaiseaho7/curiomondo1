@@ -45,7 +45,7 @@ const hourLabel = (entry) => {
 const LCP_SIZES = '(max-width: 760px) calc(100vw - 46px), (max-width: 1280px) 51vw, 625px';
 const CARD_SIZES = '(max-width: 760px) 80vw, (max-width: 1280px) 24vw, 280px';
 
-const picture = (entry, eager) => {
+const picture = (entry, eager, sizes) => {
   if (!entry.image) return '';
   const parts = String(entry.srcset || '').split(',').map((part) => part.trim()).filter(Boolean);
   const small = parts.find((part) => /\s480w$/.test(part));
@@ -53,7 +53,7 @@ const picture = (entry, eager) => {
   const extra = eager
     ? ' loading="eager" decoding="sync" fetchpriority="high"'
     : ' loading="lazy" decoding="async"';
-  return `<picture><img src="${esc(src)}"${entry.srcset ? ` srcset="${esc(entry.srcset)}"` : ''} sizes="${eager ? LCP_SIZES : '(max-width: 760px) 155px, 130px'}" alt="${esc(entry.imageAlt)}" width="${entry.imageWidth || 800}" height="${entry.imageHeight || 533}"${extra}></picture>`;
+  return `<picture><img src="${esc(src)}"${entry.srcset ? ` srcset="${esc(entry.srcset)}"` : ''} sizes="${sizes || (eager ? LCP_SIZES : '(max-width: 760px) 155px, 130px')}" alt="${esc(entry.imageAlt)}" width="${entry.imageWidth || 800}" height="${entry.imageHeight || 533}"${extra}></picture>`;
 };
 
 const updateFlag = (entry) => entry.updated
@@ -95,11 +95,13 @@ const ultimaOra = (entries) => {
 
 const titleRow = (entry, id, label) =>
   `<a class="cm-topic-card cm-flow-title-row" data-category="${esc(id)}" href="${esc(entry.url)}"><span class="cm-topic-label meta cm-flow-visually-hidden" aria-hidden="true">${esc(label)}</span><h3 class="cm-topic-card__title">${esc(entry.title)}</h3></a>`;
+const featureRow = (entry,id,label) =>
+  `<a class="cm-topic-card cm-flow-category-feature" data-category="${esc(id)}" href="${esc(entry.url)}">${picture(entry,false,'(max-width: 760px) calc(100vw - 60px), (max-width: 1344px) calc(100vw - 94px), 1250px')}<div class="cm-flow-category-copy"><span class="cm-topic-label meta cm-flow-visually-hidden" aria-hidden="true">${esc(label)}</span><h3 class="cm-flow-category-headline">${esc(entry.title)}</h3></div></a>`;
 const section = ({ category, stories }) => {
   if (!stories.length) return '';
   const label = category.id === 'film-tv' ? 'Film e serie TV' : category.label;
   const archive = category.archive ? `<a class="cm-topic-archive" href="${esc(category.archive)}">Tutte le notizie di ${esc(label)} →</a>` : '';
-  return `<section class="cm-topic-section" data-category="${esc(category.id)}" id="categoria-${esc(category.id)}" style="--cm-category-color:${esc(category.color)}"><div class="cm-topic-section__rail" data-for-category="${esc(category.id)}"><h2 class="cm-topic-section__title">${esc(label)}</h2><div class="cm-topic-grid">${stories.map(e=>titleRow(e,category.id,label)).join('')}</div>${archive}</div></section>`;
+  return `<section class="cm-topic-section" data-category="${esc(category.id)}" id="categoria-${esc(category.id)}" style="--cm-category-color:${esc(category.color)}"><div class="cm-topic-section__rail" data-for-category="${esc(category.id)}"><h2 class="cm-topic-section__title">${esc(label)}</h2><div class="cm-flow-category-body">${featureRow(stories[0],category.id,label)}<div class="cm-topic-grid">${stories.slice(1).map(e=>titleRow(e,category.id,label)).join('')}</div></div>${archive}</div></section>`;
 };
 
 const text = (value) => String(value || '')
@@ -134,14 +136,20 @@ const curiositaRail = () => {
     if (blocked.some((term) => signal.includes(term))) continue;
     const page = readRepoFile(href.replace(/^\//, ''));
     if (!page) continue;
+    const rawImage=(page.match(/property="og:image" content="([^"]+)"/)||page.match(/<img[^>]+src="(\/assets\/images\/[^"]+)"/)||[])[1];
+    const image=rawImage ? rawImage.replace(/^https?:\/\/[^/]+/,'') : '';
+    const variant=image.match(/^(.*)-1200\.webp$/);
+    const srcset=variant ? [480,800,1200].filter(w=>fs.existsSync(path.join(root,variant[1].replace(/^\//,'')+'-'+w+'.webp'))).map(w=>variant[1]+'-'+w+'.webp '+w+'w').join(', ') : '';
     const published = (page.match(/"datePublished"\s*:\s*"([^"]+)"/) || [])[1];
     const publishedAt = Date.parse(published || '');
-    found.push({ href, title, publishedAt: Number.isFinite(publishedAt) ? publishedAt : 0, order: order++ });
+    found.push({ href, title, image, srcset, publishedAt: Number.isFinite(publishedAt) ? publishedAt : 0, order: order++ });
   }
   if (!found.length) return '';
-  const cards = found.sort((a,b)=>b.publishedAt-a.publishedAt || b.order-a.order).slice(0,3)
-    .map(entry=>titleRow({url:entry.href,title:entry.title},'curiosita','Curiosità e approfondimenti')).join('');
-  return `<section class="cm-topic-section cm-curiosita-rail" data-category="curiosita" id="categoria-curiosita" data-cm-rail-max="3" style="--cm-category-color:#6333bd"><div class="cm-topic-section__rail" data-for-category="curiosita"><h2 class="cm-topic-section__title">Curiosità e approfondimenti</h2><div class="cm-topic-grid">${cards}</div><a class="cm-topic-archive" href="/approfondimenti/">Tutti gli approfondimenti →</a></div></section>`;
+  const ordered=found.sort((a,b)=>b.publishedAt-a.publishedAt || b.order-a.order);
+  const main=ordered.find(e=>e.image)||ordered[0];
+  const feature=featureRow({...main,url:main.href},'curiosita','Curiosità e approfondimenti');
+  const cards=ordered.filter(e=>e.href!==main.href).slice(0,5).map(entry=>titleRow({url:entry.href,title:entry.title},'curiosita','Curiosità e approfondimenti')).join('');
+  return `<section class="cm-topic-section cm-curiosita-rail" data-category="curiosita" id="categoria-curiosita" data-cm-rail-max="6" style="--cm-category-color:#6333bd"><div class="cm-topic-section__rail" data-for-category="curiosita"><h2 class="cm-topic-section__title">Curiosità e approfondimenti</h2><div class="cm-flow-category-body">${feature}<div class="cm-topic-grid">${cards}</div></div><a class="cm-topic-archive" href="/approfondimenti/">Tutti gli approfondimenti →</a></div></section>`;
 };
 
 const feed = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/home-feed-v210.json'), 'utf8'));

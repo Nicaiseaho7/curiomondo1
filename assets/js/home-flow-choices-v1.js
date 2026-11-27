@@ -43,7 +43,10 @@
     for(const e of ordered){const k=key(A,e);if(seen.has(k))continue;seen.add(k);wire.push(e);if(wire.length===10)break;}
     const sections=A.CONFIG.categories.map(category=>{
       const stories=[];
-      for(const e of ordered){if(A.categoryFor(e)?.id!==category.id||seen.has(key(A,e)))continue;seen.add(key(A,e));stories.push(e);if(stories.length===3)break;}
+      const pool=ordered.filter(e=>A.categoryFor(e)?.id===category.id&&!seen.has(key(A,e)));
+      const lead=pool.find(e=>e.image)||pool[0];
+      if(lead){stories.push(lead);seen.add(key(A,lead));}
+      for(const e of pool){if(seen.has(key(A,e)))continue;seen.add(key(A,e));stories.push(e);if(stories.length===6)break;}
       return {category,stories};
     });
     return {lead,selection,edition,today,wire,sections,remaining:ordered.filter(e=>!seen.has(key(A,e)))};

@@ -498,13 +498,18 @@ errors.extend(publication_date_errors)
 
 home=html.fromstring((root/'index.html').read_text(errors='replace'))
 home_v19=bool(home.xpath('//body[contains(concat(" ",normalize-space(@class)," ")," cm-home-edizione-v19 ")]'))
+home_v20=bool(home.xpath('//body[@data-category-cover="true"]'))
 if home_v19:
     title_sections=home.xpath('//*[@id="cm-home-editorial-v504"]//section[@data-category]')
     if len(title_sections)!=13: errors.append('la home non contiene tutte le 13 sezioni')
     for sect in title_sections:
         headlines=sect.xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-flow-title-row ")]')
-        if len(headlines)!=3 or any(a.xpath('.//img|.//picture|.//p|.//time') for a in headlines):
-            errors.append(f'sezione non composta da tre soli titoli: {sect.get("id")}')
+        if home_v20:
+            covers=sect.xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-flow-category-feature ")]')
+            if len(covers)!=1 or not covers[0].xpath('.//picture/img') or len(covers[0].xpath('.//h3[normalize-space()]'))!=1:
+                errors.append(f'copertina illustrata mancante: {sect.get("id")}')
+        if len(headlines)!=(5 if home_v20 else 3) or any(a.xpath('.//img|.//picture|.//p|.//time') for a in headlines):
+            errors.append(f'numero o formato titoli errato: {sect.get("id")}')
     for href in home.xpath('//nav[contains(concat(" ",normalize-space(@class)," ")," cm-flow-nav ")]/a[position()>1]/@href'):
         if not href.startswith('#categoria-') or len(home.xpath('//*[@id=$value]',value=href[1:]))!=1:
             errors.append(f'link non interno alla home nella barra delle sezioni: {href}')
@@ -517,7 +522,7 @@ if home_v19:
         errors.append('Da leggere non contiene cinque notizie illustrate')
     if len({pick.get('data-edition') for pick in picks})!=1:
         errors.append('Da leggere mescola notizie di edizioni diverse')
-    home_keys=wire_urls+home.xpath('//a[@class="cm-flow-pick"]/@href | //div[@class="cm-flow-lead"]//a[@class="cm-topic-lead__cta"]/@href | //a[contains(concat(" ",normalize-space(@class)," ")," cm-flow-title-row ")]/@href')
+    home_keys=wire_urls+home.xpath('//a[@class="cm-flow-pick"]/@href | //div[@class="cm-flow-lead"]//a[@class="cm-topic-lead__cta"]/@href | //a[contains(concat(" ",normalize-space(@class)," ")," cm-flow-title-row ") or contains(concat(" ",normalize-space(@class)," ")," cm-flow-category-feature ")]/@href')
     if len(home_keys)!=len({re.sub(r"(?:/index)?\.html$","",x.rstrip("/")) for x in home_keys}):
         errors.append('notizie duplicate tra apertura, Ultima ora, Da leggere o categorie')
 for section in home.xpath('//section[contains(concat(" ",normalize-space(@class)," ")," cm-topic-section ")]'):
