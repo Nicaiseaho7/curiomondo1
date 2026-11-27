@@ -1,6 +1,366 @@
 {
-  "version": 1668,
+  "version": 1669,
   "items": [
+    {
+      "title": "Cedolino della pensione INPS: come scaricarlo e capire perché cambia il netto",
+      "excerpt": "Come accedere al cedolino INPS, salvarlo in PDF e confrontare lordo, netto e trattenute fra due mesi.",
+      "url": "/approfondimenti/cedolino-pensione-inps-online-consultare-scaricare.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Panettone: che cosa dice davvero l’etichetta",
+      "excerpt": "Come leggere denominazione, canditi, varianti, peso e conservazione e interpretare il termine artigianale.",
+      "url": "/approfondimenti/panettone-denominazione-etichetta.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Spostamenti di Google Maps: come vedere la cronologia, salvarla o cancellarla",
+      "excerpt": "Dove trovare gli Spostamenti sul telefono, come esportarli o importarli da backup e che cosa resta dopo aver cancellato un percorso.",
+      "url": "/approfondimenti/come-leggere-cronologia-google-maps-timeline.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Serie A a pari punti: classifica avulsa, spareggi per scudetto e salvezza",
+      "excerpt": "Come ordinare gli scontri diretti e quando si gioca o si evita lo spareggio per il titolo o la salvezza in Serie A.",
+      "url": "/approfondimenti/serie-a-pari-punti-spareggi-classifica.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Lavastoviglie che non scarica: come controllare filtro e tubo",
+      "excerpt": "Distingui l’acqua residua normale da un blocco, un ciclo interrotto o un ritorno dallo scarico del lavello.",
+      "url": "/approfondimenti/lavastoviglie-non-scarica-acqua.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Visitare Pompei: ingressi, biglietti e percorsi fra le rovine",
+      "excerpt": "Come scegliere l’accesso in base a treno e percorso, distinguere i biglietti e programmare le soste nella città antica.",
+      "url": "/approfondimenti/pompei-visita-ingressi-percorsi.html",
+      "section": "Approfondimenti / Viaggi"
+    },
+    {
+      "title": "Acqua alta a Venezia: come leggere centimetri, orari e previsioni di marea",
+      "excerpt": "Come interpretare lo zero di Punta Salute e distinguere marea astronomica, previsione aggiornata, dati osservati e avvisi sui percorsi.",
+      "url": "/approfondimenti/acqua-alta-venezia-leggere-previsione.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Perché una goccia d’acqua danza sulla padella rovente?",
+      "excerpt": "Come nasce il cuscinetto di vapore che fa scorrere l’acqua e perché, su un metallo più caldo, una goccia può durare più a lungo.",
+      "url": "/approfondimenti/perche-goccia-danza-padella-leidenfrost.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Biathlon: come funzionano sprint, inseguimento, individuale e giri di penalità",
+      "excerpt": "Come leggere partenze, bersagli mancati, giri da 150 metri e penalità a tempo nelle diverse prove del biathlon.",
+      "url": "/approfondimenti/biathlon-formati-penalita-poligono.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Parigi, metro e RER: quali biglietti caricare su Navigo",
+      "excerpt": "Come scegliere titoli per metro, RER, autobus, tram o aeroporto e verificare costi, convalida e compatibilità.",
+      "url": "/approfondimenti/parigi-metro-rer-biglietti-navigo.html",
+      "section": "Approfondimenti / Viaggi"
+    },
+    {
+      "title": "Lavatrice che vibra in centrifuga: come capire da dove viene il problema",
+      "excerpt": "Distingui un carico sbilanciato da piedini, pavimento, fissaggi di trasporto e rumori che arrivano durante lo scarico.",
+      "url": "/approfondimenti/lavatrice-vibra-centrifuga.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Screenshot e registrazione schermo su iPhone e Android: tasti, audio e salvataggio",
+      "excerpt": "Come catturare una schermata, registrare con o senza audio e condividere solo le informazioni necessarie.",
+      "url": "/approfondimenti/screenshot-schermo-registrare-iphone-android.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Fallo di mano nel calcio: quando è infrazione, quando è rigore e perché un rimpallo non basta",
+      "excerpt": "Quando il contatto è punibile, come si giudica la posizione del braccio e quale regola vale se lo stesso giocatore segna subito.",
+      "url": "/approfondimenti/fallo-di-mano-calcio-regola-ifab.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Come collegare il telefono alla TV con AirPlay e Google Cast",
+      "excerpt": "Quando usare la trasmissione dall’app o la duplicazione dello schermo e cosa controllare se il televisore non compare.",
+      "url": "/approfondimenti/condividere-schermo-tv-chromecast-airplay.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché il pane diventa raffermo anche nel sacchetto?",
+      "excerpt": "La crosta perde il suo scatto e la mollica si rassoda: non basta dire che il pane perde acqua.",
+      "url": "/approfondimenti/perche-pane-diventa-raffermo.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Perché le foglie cambiano colore e cadono in autunno",
+      "excerpt": "Clorofilla, carotenoidi, antociani e abscissione spiegano perché una chioma cambia colore e perde le foglie in tempi diversi.",
+      "url": "/approfondimenti/foglie-autunno-colori-caduta.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Come pulire il piano a induzione senza lasciare aloni",
+      "excerpt": "Come distinguere depositi, segni metallici e graffi sulla vetroceramica e quando attenersi alla procedura specifica del produttore.",
+      "url": "/approfondimenti/pulire-piano-induzione-vetroceramica.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Aprire un CSV in Excel senza perdere zeri, date e colonne",
+      "excerpt": "Come scegliere il delimitatore e la codifica, mantenere gli identificativi come testo e controllare il CSV esportato.",
+      "url": "/approfondimenti/excel-csv-separatore-zeri-iniziali.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché una mela tagliata diventa marrone?",
+      "excerpt": "Le cellule ferite dalla lama, l’ossigeno e la polifenolossidasi spiegano il colore e il limite del succo di limone.",
+      "url": "/approfondimenti/perche-mela-tagliata-annerisce.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Calcio a 5: perché si contano quattro secondi e che cosa succede al sesto fallo",
+      "excerpt": "Regole del futsal FIFA: tempo effettivo, quattro secondi, portiere, falli cumulativi e tiri senza barriera.",
+      "url": "/approfondimenti/calcio-a-5-futsal-falli-quattro-secondi.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Autobus a lunga percorrenza: bagaglio, posto e imbarco",
+      "excerpt": "Come controllare valigia e franchigia, trovare la fermata reale e prepararsi a posto e cambio di autobus.",
+      "url": "/approfondimenti/autobus-lunga-percorrenza-bagaglio-imbarco.html",
+      "section": "Approfondimenti / Viaggi"
+    },
+    {
+      "title": "Grandine: come si formano i chicchi e perché il radar non ne vede la misura esatta",
+      "excerpt": "Dall’acqua sopraffusa al ghiaccio a terra: che cosa spiegano la fisica, le allerte, i dati radar e le osservazioni.",
+      "url": "/approfondimenti/grandine-formazione-previsioni-radar.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Come pulire il forno: pirolisi, catalisi e vapore a confronto",
+      "excerpt": "Quali parti trattano i programmi, quali accessori togliere e quando conviene una pulizia manuale secondo le istruzioni.",
+      "url": "/approfondimenti/forno-pirolisi-catalisi-pulizia.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Quick Share e AirDrop: mandare foto e file a un dispositivo vicino",
+      "excerpt": "Come inviare documenti tra Android e Apple, distinguere il trasferimento diretto dal QR e ritrovare il file ricevuto.",
+      "url": "/approfondimenti/quick-share-airdrop-file-vicini.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché il sale scioglie il ghiaccio senza riscaldarlo?",
+      "excerpt": "Il sale cambia il punto di congelamento dell’acqua, ma fra salamoia e ghiaccio esistono limiti precisi.",
+      "url": "/approfondimenti/perche-sale-scioglie-ghiaccio.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Prima volta all’opera: libretto, sovratitoli e scelta del posto",
+      "excerpt": "Cosa leggere prima di entrare, come funzionano i sovratitoli e quali dettagli controllare in biglietteria.",
+      "url": "/approfondimenti/prima-volta-opera-libretto-sovratitoli.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Laghi in estate e inverno: perché l’acqua si divide in strati e poi si rimescola",
+      "excerpt": "Perché si forma il termoclino, quando l’acqua si rimescola e come interpretare i profili di temperatura e ossigeno.",
+      "url": "/approfondimenti/laghi-stratificazione-rimescolamento-ossigeno.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Aloni sul gres porcellanato opaco: come individuarli e pulirli",
+      "excerpt": "Distingui residui di detergente, grasso e velo di posa e fai una prova limitata che non alteri piastrelle e fughe.",
+      "url": "/approfondimenti/gres-opaco-aloni-pulizia.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "File ZIP su iPhone e Android: aprire, estrarre e comprimere documenti",
+      "excerpt": "Come trovare uno ZIP scaricato, estrarre i file, creare un archivio quando supportato e verificare spazio, formati e destinazione.",
+      "url": "/approfondimenti/archiviare-estrarre-zip-android-iphone.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché una goccia di caffè lascia un anello?",
+      "excerpt": "Quando il bordo resta fermo mentre l’acqua evapora, il flusso trasporta materiale colorato verso la periferia.",
+      "url": "/approfondimenti/perche-caffe-lascia-anello.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Triathlon: come funzionano T1, T2 e le regole della scia in bicicletta",
+      "excerpt": "Come passare da nuoto a bici e corsa, quando salire e scendere e perché la scia dipende dal regolamento della prova.",
+      "url": "/approfondimenti/triathlon-transizione-draft-regole.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Pellicola fotografica 35 mm: come scegliere tra 200 e 400 ISO",
+      "excerpt": "Come scegliere gli ISO, distinguere negativo e diapositiva e chiedere al laboratorio lo sviluppo adatto.",
+      "url": "/approfondimenti/pellicola-fotografica-35mm-iso-scelta.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Microfibre dei vestiti: cosa succede in lavatrice e che cosa possono fare i filtri",
+      "excerpt": "Come i tessuti perdono fibre, quali limiti hanno filtri e lavatrici e perché massa e conteggio non sono confrontabili.",
+      "url": "/approfondimenti/microfibre-tessili-lavaggio-ambiente.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Come regolare le cerniere delle ante dei mobili senza perdere l’allineamento",
+      "excerpt": "Riconosci i registri di altezza, laterale e profondità e distingui un’anta fuori posizione da fissaggi o supporti danneggiati.",
+      "url": "/approfondimenti/ante-mobili-regolare-cerniere.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Disdire un abbonamento App Store o Google Play e controllare il rinnovo",
+      "excerpt": "Dove trovare il piano e il gestore della fattura, come fermare il rinnovo e come distinguere disdetta e rimborso.",
+      "url": "/approfondimenti/rinnovo-abbonamenti-app-store-google-play.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché il microonde scalda a chiazze?",
+      "excerpt": "Un bordo rovente e un centro freddo possono dipendere da onde riflesse, forma del cibo e diffusione del calore.",
+      "url": "/approfondimenti/perche-microonde-scalda-a-chiazze.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Mountain bike cross-country: differenza fra XCO e XCC, giri e gestione della gara",
+      "excerpt": "Giri, griglia, tratti tecnici e assistenza: che cosa distingue il cross-country olimpico dallo short track.",
+      "url": "/approfondimenti/mountain-bike-cross-country-xco-xcc.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Parmigiano Reggiano DOP: come leggere crosta, marchi ed etichetta",
+      "excerpt": "Come riconoscere denominazione e contrassegni e distinguere dati di produzione, confezione e stagionatura.",
+      "url": "/approfondimenti/parmigiano-reggiano-dop-crosta-marchi.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Natura 2000: come leggere le mappe delle aree protette e preparare una visita",
+      "excerpt": "Come trovare il codice di un sito, distinguere SIC, ZSC e ZPS e verificare percorsi, attività e limitazioni presso gli enti.",
+      "url": "/approfondimenti/natura-2000-mappe-visitare-aree-protette.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Aspirapolvere che aspira poco: come trovare l’ostruzione",
+      "excerpt": "Controlla sacco o contenitore, filtri, tubo e spazzola senza far lavorare a vuoto l’apparecchio o lavare filtri non adatti.",
+      "url": "/approfondimenti/aspirapolvere-perde-potenza.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Liberare spazio in Windows con Sensore memoria senza cancellare documenti",
+      "excerpt": "Come leggere l’archiviazione, scegliere le pulizie automatiche e distinguere copie locali, file online e spazio per gli aggiornamenti.",
+      "url": "/approfondimenti/windows-spazio-disco-sensore-memoria.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché il metallo sembra più freddo del legno?",
+      "excerpt": "I due materiali possono essere alla stessa temperatura: cambia la rapidità con cui sottraggono calore alla mano.",
+      "url": "/approfondimenti/perche-metallo-sembra-piu-freddo.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Ginnastica artistica: come si calcola il punteggio con difficoltà, esecuzione e penalità",
+      "excerpt": "Come si compongono difficoltà, esecuzione e detrazioni, e come cambia il risultato fra attrezzo, all-around e squadra.",
+      "url": "/approfondimenti/ginnastica-artistica-punteggio-d-e.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Gelatina in fogli: come dosarla, ammollarla e scioglierla",
+      "excerpt": "Come leggere il peso dei fogli, incorporare la gelatina e riconoscere perché una preparazione non si rapprende.",
+      "url": "/approfondimenti/gelatina-in-fogli-come-usarla-dosi.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Rumore del traffico: come leggere le mappe Lden e Lnight del tuo quartiere",
+      "excerpt": "Come leggere le carte acustiche, distinguere giorno e notte e capire cosa dicono davvero i colori vicino a un’abitazione.",
+      "url": "/approfondimenti/rumore-traffico-mappe-lden-lnight.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Come pulire una parete con pittura lavabile senza lasciare aloni",
+      "excerpt": "Distingui resistenza al lavaggio, rimozione delle macchie e umidità. Come fare una prova locale e capire quando serve un ritocco.",
+      "url": "/approfondimenti/pittura-lavabile-macchie-parete.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Dettatura su iPhone e Android: scrivere con la voce e usare la punteggiatura",
+      "excerpt": "Come attivare il microfono della tastiera, scegliere la lingua, correggere i risultati e distinguere dettatura e nota vocale.",
+      "url": "/approfondimenti/tastiera-telefono-dettatura-punteggiatura.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché il cielo di notte è buio se ci sono tante stelle?",
+      "excerpt": "Il paradosso di Olbers mostra perché distanza, età delle stelle ed espansione non si possono confondere.",
+      "url": "/approfondimenti/perche-cielo-notte-buio-paradosso-olbers.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Tennistavolo: servizio regolare, partite a 11 e cambi di battuta",
+      "excerpt": "Punteggio a 11, cambio di battuta, lancio di almeno 16 centimetri e differenze fra singolare e doppio.",
+      "url": "/approfondimenti/tennistavolo-servizio-punteggio-regole.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Crema pasticcera senza grumi: dosi, cottura e consistenza",
+      "excerpt": "Come incorporare latte e amido, controllare l’addensamento e adattare la preparazione a bignè, torte o coppe.",
+      "url": "/approfondimenti/crema-pasticcera-consistenza-grumi.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Specie aliene invasive: come fare una segnalazione senza diffonderle o danneggiare specie simili",
+      "excerpt": "Come documentare un avvistamento, distinguere specie aliena e invasiva e trovare il canale di segnalazione senza spostare organismi.",
+      "url": "/approfondimenti/specie-aliene-invasive-riconoscere-segnalare.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Cassetto che non scorre: come trovare il punto in cui si blocca",
+      "excerpt": "Controlla peso, ostacoli, guide e chiusura ammortizzata prima di smontare o sostituire il cassetto.",
+      "url": "/approfondimenti/cassetto-non-scorre-guide.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Perché in una conchiglia sembra di sentire il mare?",
+      "excerpt": "Il guscio non registra le onde: volume, apertura e distanza dall’orecchio cambiano il rumore che c’è già.",
+      "url": "/approfondimenti/perche-conchiglia-fa-rumore-mare.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Ciclismo su pista: come funziona l’Omnium e perché la gara a punti ribalta il risultato",
+      "excerpt": "Scratch, tempo race, eliminazione e corsa a punti: come si forma la generale e quanto valgono sprint e giri.",
+      "url": "/approfondimenti/ciclismo-pista-omnium-gara-a-punti.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Uccelli migratori: come si leggono rotte, soste e mappe delle osservazioni",
+      "excerpt": "Come distinguere spostamenti individuali, soste e mappe aggregate e osservare il passaggio senza disturbare.",
+      "url": "/approfondimenti/uccelli-migratori-rotte-soste-osservazione.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Macchina del caffè: quando decalcificare e quando pulire il gruppo",
+      "excerpt": "Distingui calcare, residui di caffè e problemi di erogazione. Come seguire il programma con prodotto, acqua e risciacqui previsti.",
+      "url": "/approfondimenti/macchina-caffe-calcare-decalcificazione.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Perché l’asfalto bagnato sembra più scuro, ma brilla sotto i lampioni?",
+      "excerpt": "Che cosa succede alla luce quando l’acqua entra fra i granelli, rende più speculare la superficie e cambia la visibilità delle strisce.",
+      "url": "/approfondimenti/perche-asfalto-bagnato-piu-scuro.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Pattinaggio artistico: come leggere TES, PCS, detrazioni e classifica",
+      "excerpt": "Come si calcola il punteggio di corto e libero, che cosa indicano valore base e GOE e perché le tre componenti e le detrazioni possono cambiare la classifica.",
+      "url": "/approfondimenti/pattinaggio-artistico-punteggio-tes-pcs.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "IMAX o Dolby Cinema: cosa cambia e come scegliere la sala",
+      "excerpt": "Come leggere supporto, rapporto d’aspetto, Vision e Atmos e verificare le caratteristiche della singola proiezione.",
+      "url": "/approfondimenti/imax-dolby-cinema-formati-sale.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Wind chill: che cosa misura il freddo percepito quando soffia il vento",
+      "excerpt": "Perché il vento aumenta la dispersione di calore e come distinguere temperatura misurata, percepita e raffiche.",
+      "url": "/approfondimenti/wind-chill-vento-freddo-percepito.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
     {
       "title": "Ricevuta pagoPA: dove trovarla e come verificare se un avviso è stato pagato",
       "excerpt": "Dove recuperare la ricevuta pagoPA da IO, sito, banca o sportello; come controllare l’esito ed evitare un doppio pagamento.",

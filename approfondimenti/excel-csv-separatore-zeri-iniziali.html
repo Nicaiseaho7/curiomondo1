@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aprire un CSV in Excel senza perdere zeri, date e colonne | CurioMondo</title>
+<link rel="canonical" href="https://curiomondo.it/approfondimenti/excel-csv-separatore-zeri-iniziali.html">
+<meta name="description" content="Come scegliere il delimitatore e la codifica, mantenere gli identificativi come testo e controllare il CSV esportato.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="CurioMondo">
+<meta property="og:locale" content="it_IT">
+<meta property="og:title" content="Aprire un CSV in Excel senza perdere zeri, date e colonne">
+<meta property="og:description" content="Come scegliere il delimitatore e la codifica, mantenere gli identificativi come testo e controllare il CSV esportato.">
+<meta property="og:url" content="https://curiomondo.it/approfondimenti/excel-csv-separatore-zeri-iniziali.html">
+<meta property="og:image" content="https://curiomondo.it/assets/images/editorial-auto/guida-excel-csv-separatore-zeri-iniziali-v1669-1200.webp">
+<meta property="og:image:alt" content="Portatile con una griglia di dati affiancato da un foglio stampato">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aprire un CSV in Excel senza perdere zeri, date e colonne">
+<meta name="twitter:description" content="Come scegliere il delimitatore e la codifica, mantenere gli identificativi come testo e controllare il CSV esportato.">
+<meta name="twitter:image" content="https://curiomondo.it/assets/images/editorial-auto/guida-excel-csv-separatore-zeri-iniziali-v1669-1200.webp">
+<meta name="twitter:image:alt" content="Portatile con una griglia di dati affiancato da un foglio stampato">
+<link rel="stylesheet" href="/assets/css/site-base-v210.css">
+<link rel="stylesheet" href="/assets/css/curiomondo-article-v211.css?v=1462">
+<link rel="stylesheet" href="/assets/css/editorial-trust-v263.css">
+<link rel="stylesheet" href="/assets/css/global-header-v275.css?v=736">
+<script defer src="/assets/js/global-header-v275.js"></script>
+<script defer src="/assets/js/site-common-v210.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Aprire un CSV in Excel senza perdere zeri, date e colonne","description":"Come scegliere il delimitatore e la codifica, mantenere gli identificativi come testo e controllare il CSV esportato.","datePublished":"2026-11-27T08:48:56+01:00","dateModified":"2026-11-27T08:48:56+01:00","mainEntityOfPage":"https://curiomondo.it/approfondimenti/excel-csv-separatore-zeri-iniziali.html","inLanguage":"it-IT","articleSection":"Tecnologia e digitale","wordCount":2014,"image":{"@type":"ImageObject","url":"https://curiomondo.it/assets/images/editorial-auto/guida-excel-csv-separatore-zeri-iniziali-v1669-1200.webp","width":1200,"height":800},"author":{"@type":"Organization","name":"Redazione CurioMondo","url":"https://curiomondo.it/pagine/redazione.html"},"publisher":{"@type":"Organization","name":"CurioMondo","url":"https://curiomondo.it"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Perché Excel mette tutto nella colonna A?","acceptedAnswer":{"@type":"Answer","text":"Il delimitatore non è stato riconosciuto. Usa l’importazione Da testo/CSV, scegli il separatore effettivo e controlla l’anteprima."}},{"@type":"Question","name":"Come mantengo gli zeri iniziali?","acceptedAnswer":{"@type":"Answer","text":"Importa la colonna come Testo prima della conversione a numero. Se l’importazione precedente li ha persi, riparti dal CSV originale."}},{"@type":"Question","name":"Un CSV salva le formule e la formattazione di Excel?","acceptedAnswer":{"@type":"Answer","text":"No, non conserva le caratteristiche della cartella di lavoro come fa XLSX. Tieni un file Excel e un’esportazione separata quando ti servono entrambi."}},{"@type":"Question","name":"Il punto e virgola è sbagliato in un CSV?","acceptedAnswer":{"@type":"Answer","text":"Non è necessariamente un errore. È una convenzione diffusa; verifica cosa si aspetta il sistema che deve leggere il file."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://curiomondo.it/"},{"@type":"ListItem","position":2,"name":"Approfondimenti","item":"https://curiomondo.it/approfondimenti/"},{"@type":"ListItem","position":3,"name":"Aprire un CSV in Excel senza perdere zeri, date e colonne","item":"https://curiomondo.it/approfondimenti/excel-csv-separatore-zeri-iniziali.html"}]}</script>
+</head><body>
+<header class="cm-global-header" data-cm-global-header="v275"><nav class="cm-global-header__inner"><a class="cm-global-header__back" href="/" aria-label="Torna alla home di CurioMondo"><span class="cm-global-header__back-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M19 12H5"></path><path d="m11 18-6-6 6-6"></path></svg></span></a><a class="cm-global-header__brand" href="/" aria-label="CurioMondo, home"><span aria-hidden="true">Curio<span>Mondo</span></span></a><button class="cm-global-header__theme" data-cm-global-theme type="button" aria-label="Attiva modalità scura" aria-pressed="false"><span aria-hidden="true">☾</span></button></nav></header>
+<main id="contenuto" class="wrap">
+<nav class="breadcrumb" aria-label="Percorso"><a href="/">Home</a> · <a href="/approfondimenti/">Approfondimenti</a> · <a href="/approfondimenti/#tecnologia-e-digitale">Tecnologia e digitale</a></nav>
+<div class="badge">Approfondimenti · Tecnologia e digitale</div>
+<h1>Aprire un CSV in Excel senza perdere zeri, date e colonne</h1><p class="subtitle">Come scegliere il delimitatore e la codifica, mantenere gli identificativi come testo e controllare il CSV esportato.</p>
+<div class="meta"><time datetime="2026-11-27T08:48:56+01:00">27 novembre 2026</time> · 11 min di lettura</div>
+<p class="cm-article-byline">A cura della <a href="/pagine/redazione.html">Redazione CurioMondo</a> · <a href="/pagine/metodo-editoriale.html">Come lavoriamo</a></p>
+<section class="cm-summary-box" aria-labelledby="in-sintesi"><h2 id="in-sintesi">In sintesi</h2><ul><li>Usa <strong>Dati &gt; Da testo/CSV</strong> dove disponibile, invece di aprire il file con doppio clic.</li><li>Seleziona separatore e codifica nell’anteprima; importa come <strong>Testo</strong> le colonne con codici, zeri iniziali e identificativi lunghi.</li><li>Conserva il CSV di partenza e controlla il risultato dopo ogni esportazione: un CSV non conserva i tipi e le formule di una cartella Excel.</li></ul></section>
+<figure class="article-image" data-ai-generated="true"><picture><img src="/assets/images/editorial-auto/guida-excel-csv-separatore-zeri-iniziali-v1669-800.webp" srcset="/assets/images/editorial-auto/guida-excel-csv-separatore-zeri-iniziali-v1669-480.webp 480w, /assets/images/editorial-auto/guida-excel-csv-separatore-zeri-iniziali-v1669-800.webp 800w, /assets/images/editorial-auto/guida-excel-csv-separatore-zeri-iniziali-v1669-1200.webp 1200w" sizes="(max-width:832px) calc(100vw - 32px),800px" width="800" height="533" alt="Portatile con una griglia di dati affiancato da un foglio stampato" fetchpriority="high" loading="eager" decoding="async"></picture><figcaption>Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.</figcaption></figure>
+<article class="art-body" data-editorial-protocol="4.0" data-article-format="feature" data-plain-lead="true">
+<div class="cm-guide-lead"><p>Apri il file CSV in Excel e tutti i dati finiscono nella colonna A. Oppure le colonne ci sono ma un codice come 00123 diventa 123 e «1-2» appare come una data. Non vuol dire che il file fosse rotto: il programma ha interpretato il testo usando le proprie impostazioni.</p><p>Per conservare codici, date e separatori bisogna importare il file esplicitamente, guardare l’anteprima e assegnare alle colonne il tipo giusto prima di caricarle nel foglio.</p></div>
+<h2 id="un-csv-contiene-testo-non-un-foglio-excel">Un CSV contiene testo, non un foglio Excel</h2>
+<p>Un file CSV rappresenta una griglia attraverso testo. I campi sono separati da un carattere e le righe corrispondono in genere ai diversi record. Non porta con sé la formattazione delle celle né il tipo che vuoi dare a ciascuna colonna.</p><p>È Excel, quando apre o importa il file, a interpretare ogni campo. Da qui nasce la differenza fra <strong>00123</strong> come codice e <strong>123</strong> come numero, nonostante i caratteri originali siano ancora giusti nel file.</p>
+<p>La sigla CSV richiama la virgola, ma nel lavoro quotidiano riceverai anche file separati da punto e virgola, tabulazioni o altri caratteri. In una configurazione in cui la virgola è il separatore decimale, il punto e virgola è una scelta frequente per distinguere le colonne.</p><p>Non dedurre la struttura dal solo suffisso. Apri una copia in un visualizzatore di testo o guarda l’anteprima di importazione: ti basta riconoscere come sono divisi i campi in alcune righe.</p>
+<p>Ci possono essere virgolette intorno ai campi. Un indirizzo, per esempio, può contenere la virgola come parte del testo e non come separatore. Non fare sostituzioni globali con Trova e sostituisci prima di sapere come il file rappresenta quei casi.</p><p>Cambiare ogni virgola in punto e virgola potrebbe alterare indirizzi, note e decimali. Quando possibile, lascia che sia la procedura di importazione a interpretare il delimitatore e i campi racchiusi fra virgolette.</p>
+<div class="cm-table-wrap cm-table-scroll" role="region" aria-label="Sintomi comuni quando Excel interpreta un CSV" tabindex="0"><table>
+<caption>Sintomi comuni quando Excel interpreta un CSV</caption><colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th scope="col">Sintomo</th>
+<th scope="col">Causa da verificare</th>
+<th scope="col">Correzione iniziale</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tutto nella prima colonna</td>
+<td>Delimitatore non riconosciuto</td>
+<td>Seleziona quello effettivo nell’anteprima</td>
+</tr>
+<tr class="even">
+<td>Zeri iniziali spariti</td>
+<td>Codice interpretato come numero</td>
+<td>Importa la colonna come Testo</td>
+</tr>
+<tr class="odd">
+<td>Identificativi lunghi modificati</td>
+<td>Conversione numerica e limite di precisione</td>
+<td>Riparti dal CSV originale, importa come Testo</td>
+</tr>
+<tr class="even">
+<td>Parole accentate rovinate</td>
+<td>Codifica dei caratteri non corretta</td>
+<td>Prova la codifica dichiarata dal mittente, spesso UTF-8</td>
+</tr>
+<tr class="odd">
+<td>Date invertite o non riconosciute</td>
+<td>Impostazione locale differente</td>
+<td>Imposta tipo e impostazioni locali coerenti con i dati</td>
+</tr>
+<tr class="even">
+<td>Importo 1,50 diviso in due campi</td>
+<td>Delimitatore o virgolette incoerenti</td>
+<td>Verifica la struttura nell’anteprima e chiedi una nuova esportazione se necessario</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="importare-da-testocsv-senza-lasciare-tutto-al-riconoscimento-automatico">Importare da testo/CSV senza lasciare tutto al riconoscimento automatico</h2>
+<p>Apri una cartella Excel vuota e cerca <strong>Dati &gt; Da testo/CSV</strong>, oppure il percorso di importazione previsto dalla versione che usi. La procedura da desktop può mostrare un’anteprima del file, un’impostazione per l’origine o codifica e il selettore del delimitatore.</p><p>Voci diverse non indicano per forza che stai usando il programma sbagliato: Microsoft documenta sia percorsi moderni sia procedure presenti in versioni precedenti.</p>
+<p>La prima verifica riguarda le intestazioni. Conta quante colonne ci sono e osserva due righe a distanza, non solo la prima. Un file con tre campi dovrebbe presentare tre colonne anche quando una nota contiene una virgola. Se ogni riga sembra finire nella colonna A, cambia il delimitatore nell’anteprima.</p><p>Se invece una riga ha quattro colonne e un’altra sette senza una ragione, controlla se il file ha campi contenenti separatori non protetti. Potrebbe servire una nuova esportazione dalla fonte.</p>
+<p>Il secondo controllo sono i caratteri. Un nome come «Città» o «Èlia» può diventare illeggibile se la codifica è interpretata male. Se il mittente indica UTF-8, selezionala nel menu quando necessario. Non sostituire a mano tutti i simboli strani: oltre agli accenti visibili, potresti danneggiare caratteri di cui non conosci la forma originale.</p><aside class="cm-safe-ad" data-cm-ad="banner468" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/banner-468.html" width="468" height="60" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(468px,100%);height:60px;background:#fff"></iframe></aside><p>Se nessuna impostazione produce il testo atteso, chiedi con quale programma e in quale formato è stato creato il file.</p>
+<p>Prima di caricare, usa l’opzione per trasformare i dati, quando disponibile, per controllare i tipi. Alcune versioni applicano un passaggio automatico di conversione. Per una colonna che deve restare identica, controlla il valore prima di quel passaggio: cambiare a Testo dopo che 00123 si è già trasformato in 123 non ripristina gli zeri.</p><p>Imposta il tipo dalla fonte di testo o rimuovi la conversione automatica pertinente prima di assegnare il tipo corretto.</p>
+<h2 id="quali-colonne-trattare-come-testo">Quali colonne trattare come testo</h2>
+<p>Conserva come Testo gli identificativi che non vuoi sommare: codici di prodotto, codici postali, riferimenti di pratica e numerazioni con zeri iniziali. Anche se sono fatti solo di cifre, il loro significato è quello di un’etichetta.</p><p>Un codice a cinque caratteri non diventa equivalente a uno a tre solo perché Excel li leggerebbe come lo stesso numero. Se viene usato per collegare due tabelle, un formato perso può impedire di trovare la riga corrispondente.</p>
+<p>Gli identificativi lunghi richiedono ancora più attenzione. Microsoft documenta che Excel conserva soltanto quindici cifre significative per valori numerici: oltre quel limite, le cifre successive non rimangono necessariamente quelle originali.</p><p>Una visualizzazione in notazione scientifica può anche essere un effetto della larghezza o del formato della cella, ma non basta allargarla per garantire che il valore sia integro. Per un identificativo lungo, tieni il campo come Testo e confrontalo carattere per carattere con il CSV.</p>
+<p>Non usare una maschera che mostra zeri come unico rimedio. Un formato personalizzato può visualizzare 00123 anche se il valore memorizzato è 123. È utile se vuoi mostrare numeri tutti della stessa lunghezza mentre continui a fare calcoli, ma non equivale a conservare il testo originale.</p><p>Se due codici con lunghezza diversa sono entrambi validi, la maschera potrebbe farli apparire identici. Se devi riconsegnare un CSV, controlla il file di uscita e non basarti soltanto sulla visualizzazione del foglio.</p>
+<h3 id="se-hai-già-aperto-il-file-e-perso-le-cifre">Se hai già aperto il file e perso le cifre</h3>
+<p>Chiudi o salva una copia della cartella di lavoro con un nome diverso, mantenendo intatto il CSV originale. Poi ripeti l’importazione partendo da quello. Non tentare di indovinare quante cifre ci fossero in ogni riga.</p><p>Se una colonna è già stata convertita e hai sovrascritto l’unica copia del file, chiedi una nuova esportazione dalla sorgente. È più affidabile che ricostruire gli identificativi con una regola non verificata.</p>
+<p>Per controllare se il danno è avvenuto davvero, apri il CSV in un editor di testo, senza salvarlo, e cerca una riga che conosci. Se il testo contiene ancora 00123, puoi recuperarlo con l’importazione corretta.</p><p>Se vedi 123 anche lì e ti aspettavi cinque caratteri, la perdita è già nella copia che stai leggendo. Confronta da dove proviene e cerca l’esportazione precedente. La cronologia delle modifiche di una cartella Excel non può aggiungere informazione che non aveva più la sorgente.</p><aside class="cm-safe-ad" data-cm-ad="box300" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/box-300.html" width="300" height="250" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(300px,100%);height:250px;background:#fff"></iframe></aside>
+<h2 id="decimali-date-e-orari-leggi-la-convenzione-del-mittente">Decimali, date e orari: leggi la convenzione del mittente</h2>
+<p>Un importo scritto 1,25 può essere normale in un file italiano e un problema in un programma che si aspetta il punto. Distingui prima il carattere che separa le colonne da quello che separa parte intera e decimale.</p><p>Un file può usare punto e virgola fra colonne e virgola negli importi; se scegli la virgola come delimitatore, un singolo valore può finire in due colonne. Cambiare il formato di visualizzazione delle celle non ripara una riga già spezzata.</p>
+<p>Per le date verifica quale convenzione usa il sistema di provenienza. «03/04/2026» può essere tre aprile oppure quattro marzo. Per non decidere a caso, cerca un giorno sopra il dodici o chiedi al mittente come esporta.</p><p>Nei percorsi che lo consentono, assegna alla colonna il tipo data con impostazioni locali coerenti. Se il file non deve essere subito usato per calcoli, importare come Testo lascia il valore leggibile e permette di convertirlo dopo avere chiarito l’ordine.</p>
+<p>L’ora senza indicazione di fuso non permette di dedurre dove è stato registrato l’evento. Se un registro proviene da più sistemi, conserva il valore originale e chiedi che il fuso venga indicato quando serve. Non usare confronti minuto per minuto finché una fonte usa ora locale e l’altra un riferimento diverso.</p><p>Il problema non dipende dal separatore; nasce da un dato che non contiene il contesto necessario per la conversione.</p>
+<h3 id="una-verifica-di-cinque-righe-prima-di-lavorare-sul-file-intero">Una verifica di cinque righe prima di lavorare sul file intero</h3>
+<p>Prendi la prima e l’ultima riga, un codice che inizia con zeri, una data dal significato noto e un importo decimale. Confrontali con il CSV originale. Se il file contiene campi liberi, aggiungi una nota con virgole o con un nome accentato.</p><p>La prima riga spesso contiene esempi semplici e può sembrare perfetta anche quando il problema appare duecento righe più avanti.</p>
+<p>Controlla anche le celle vuote. Un campo mancante non equivale a zero; in un elenco di pagamenti, zero può avere un significato diverso da importo non disponibile. Se una procedura sostituisce automaticamente le celle vuote, assicurati che l’elaborazione a valle se lo aspetti.</p><p>Lo stesso vale per i codici che contengono spazi: eliminare quelli all’inizio o alla fine può essere una pulizia utile, ma non farlo prima di sapere se fanno parte del valore atteso.</p>
+<h2 id="salvare-e-riconsegnare-senza-cambiare-formato-per-errore">Salvare e riconsegnare senza cambiare formato per errore</h2>
+<p>Quando vuoi conservare formule, fogli, tipi, filtri o formattazione, salva il lavoro come cartella Excel. Quando il destinatario richiede un CSV, esporta una copia separata e verifica quale foglio è stato esportato, quale codifica viene usata e quale delimitatore risulta.</p><p>Una cartella con più schede non si trasforma in un CSV contenente tutte le schede. Riapri l’esportazione come testo, perché un secondo doppio clic potrebbe ripetere proprio le conversioni che avevi evitato.</p>
+<p>Non dare per scontato che il servizio che riceve il file abbia la stessa configurazione del tuo computer. Se ti fornisce un modello, rispetta intestazioni, ordine, delimitatore e formato dei campi. Invia, quando possibile, una copia con poche righe di prova prima di esportare l’intero archivio.</p><aside class="cm-safe-ad" data-cm-ad="banner320" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/banner-320.html" width="320" height="50" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(320px,100%);height:50px;background:#fff"></iframe></aside><p>Quando il servizio conferma che legge correttamente codici e date, ripeti con il file completo usando le stesse impostazioni. Non cambiare due parametri insieme se la prova fallisce: altrimenti non saprai quale ha risolto.</p>
+<h3 id="attenzione-a-file-provenienti-da-una-fonte-inattesa">Attenzione a file provenienti da una fonte inattesa</h3>
+<p>Un campo mostrato come testo da un editor potrebbe essere interpretato da un foglio come formula quando lo apri direttamente. Se ricevi un CSV inatteso, verifica l’origine prima di usarlo e importa le colonne testuali come testo con gli strumenti previsti.</p><p>Non autorizzare collegamenti esterni o altre azioni soltanto perché un file dice che servono a visualizzare i dati. Per controllare la struttura, spesso basta un software di lettura testuale senza eseguire contenuti.</p>
+<p>Se devi condividere un estratto per chiedere aiuto, crea un esempio inventato che riproduca stesso separatore, stessa lunghezza e stesso tipo di errore. Non copiare identificativi e importi reali in una conversazione pubblica per mostrare che sparisce uno zero.</p><p>Puoi riprodurre il difetto con tre codici di fantasia e un numero decimale. Questo rende anche più facile per chi ti aiuta distinguere i caratteri che contano da quelli di cui non deve occuparsi.</p>
+<h3 id="conservare-le-trasformazioni-per-il-file-del-mese-successivo">Conservare le trasformazioni per il file del mese successivo</h3>
+<p>Se il CSV arriva periodicamente, non ripetere a mano le stesse modifiche riga per riga. In una cartella Excel con una procedura per importare e trasformare dati, salva il passaggio che assegna i tipi e documenta quale delimitatore ti aspetti.</p><p>Quando sostituisci il CSV con la nuova esportazione, verifica comunque che le intestazioni siano rimaste le stesse. Un collega potrebbe avere rinominato un campo o aggiunto un separatore mentre modificava il programma di origine.</p>
+<p>Dopo l’aggiornamento controlla soprattutto il primo codice, un valore con decimali e le ultime righe. Se la sorgente aggiunge un’intestazione o un totale in fondo, quella riga non va necessariamente elaborata come un record normale. In una tabella di spese potrebbe raddoppiare il totale se la sommi insieme alle singole voci.</p><p>Prima di modificare la procedura, identifica la differenza nel file di origine e prova su una copia. Una trasformazione che funziona oggi deve poter fallire in modo riconoscibile se domani cambia la struttura.</p>
+<p>Metti accanto al file di lavoro una breve nota con origine, data e convenzioni usate. Chi riapre il rapporto può capire se sta osservando il CSV iniziale, il risultato trasformato oppure un’esportazione per un altro sistema. Basta una riga che segnali quali colonne devono restare testo e perché.</p>
+<section class="art-faq" aria-labelledby="faq"><h2 id="faq">FAQ</h2>
+<h3>Perché Excel mette tutto nella colonna A?</h3><p>Il delimitatore non è stato riconosciuto. Usa l’importazione Da testo/CSV, scegli il separatore effettivo e controlla l’anteprima.</p>
+<h3>Come mantengo gli zeri iniziali?</h3><p>Importa la colonna come Testo prima della conversione a numero. Se l’importazione precedente li ha persi, riparti dal CSV originale.</p>
+<h3>Un CSV salva le formule e la formattazione di Excel?</h3><p>No, non conserva le caratteristiche della cartella di lavoro come fa XLSX. Tieni un file Excel e un’esportazione separata quando ti servono entrambi.</p>
+<h3>Il punto e virgola è sbagliato in un CSV?</h3><p>Non è necessariamente un errore. È una convenzione diffusa; verifica cosa si aspetta il sistema che deve leggere il file.</p>
+</section>
+</article><aside class="cm-safe-ad" data-cm-ad="native" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/native.html" width="336" height="280" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(336px,100%);height:280px;background:#fff"></iframe></aside>
+<section class="art-sources" aria-labelledby="fonti"><h2 id="fonti">Fonti consultate</h2><ul><li><a href="https://support.microsoft.com/it-it/excel/get-started/import-or-export-text-txt-or-csv-files" rel="noopener noreferrer">Microsoft: importare o esportare file di testo CSV e TXT</a></li>
+<li><a href="https://support.microsoft.com/it-it/excel/keeping-leading-zeros-and-large-numbers" rel="noopener noreferrer">Microsoft: mantenere zeri iniziali e numeri elevati</a></li>
+<li><a href="https://support.microsoft.com/it-it/excel/data-import-and-analysis-options-in-excel" rel="noopener noreferrer">Microsoft: opzioni di importazione e analisi dei dati in Excel</a></li></ul></section>
+<section class="curio-related" aria-labelledby="altre-guide"><h2 id="altre-guide">Approfondisci ancora</h2><div class="curio-related-grid"><a class="without-image" href="/approfondimenti/calendari-ics-inviti-importare-iscriversi.html"><strong>File ICS e calendari online: quando importare, quando iscriversi e come aprire un invito</strong></a></div></section>
+</main></body></html>
