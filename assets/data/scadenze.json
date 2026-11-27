@@ -1,1 +1,524 @@
-See local file /tmp/full_scadenze.json for content
+{
+  "lastVerified": "2026-11-27T02:20:00+01:00",
+  "items": [
+    {
+      "id": "ape-sociale-domanda-30-novembre-2026",
+      "slug": "ape-sociale-domanda-30-novembre-2026",
+      "title": "APE Sociale: termine per la domanda 2026",
+      "shortTitle": "APE Sociale",
+      "summary": "Ultima finestra 2026 indicata dall’INPS per presentare la domanda di accesso all’APE Sociale, riservata a chi possiede i requisiti previsti.",
+      "sourceUrl": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.legge-di-bilancio-2026-le-novit-sulle-pensioni.html",
+      "sourceName": "INPS",
+      "audience": "Lavoratori",
+      "region": "Tutta Italia",
+      "how": "Domanda attraverso i servizi INPS o con l'assistenza di un patronato.",
+      "requirements": [
+        "Almeno 63 anni e 5 mesi",
+        "Appartenenza a una categoria tutelata",
+        "Requisiti contributivi previsti dalla misura"
+      ],
+      "articles": [
+        {
+          "url": "/notizie/ape-sociale-scadenza-30-novembre-2026.html",
+          "image": "/assets/images/editorial-auto/ape-sociale-scadenza-30-novembre-2026-v1391-480.webp",
+          "title": "APE Sociale, l’INPS chiarisce due casi: esclusi i contributivi puri, apertura ai domestici",
+          "description": ""
+        },
+        {
+          "url": "/notizie/manovra-2027-pensioni-rivalutazione-2447-euro-ape-sociale.html",
+          "image": "/assets/images/editorial-auto/manovra-2027-pensioni-rivalutazione-2447-euro-ape-sociale-v1347-480.webp",
+          "title": "Pensioni, rivalutazione piena solo fino a 2.447 euro lordi",
+          "description": ""
+        }
+      ],
+      "amount": null,
+      "dateType": "scadenza",
+      "category": "Pensioni",
+      "date": "2026-11-30T23:59:59+01:00",
+      "allDay": true,
+      "status": "attiva",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    },
+    {
+      "id": "bonus-colonnine-domestiche-31-gennaio-2027",
+      "slug": "bonus-colonnine-domestiche-31-gennaio-2027",
+      "title": "Bonus colonnine domestiche: sportello chiuso",
+      "shortTitle": "Bonus colonnine domestiche",
+      "summary": "Invitalia ha chiuso lo sportello in anticipo alle 12:00 del 27 ottobre 2026. Le domande non sono più accettate.",
+      "sourceUrl": "https://www.invitalia.it/incentivi-e-strumenti/bonus-colonnine-domestiche",
+      "sourceName": "Invitalia",
+      "audience": "Cittadini e condomìni",
+      "region": "Tutta Italia",
+      "how": "Lo sportello è chiuso. Non è più possibile inviare la domanda.",
+      "requirements": [
+        "Persona fisica residente in Italia o condominio",
+        "Installazione effettuata nel periodo ammesso",
+        "Spese documentate e conformi alla misura"
+      ],
+      "articles": [
+        {
+          "url": "/notizie/bonus-colonnine-domestiche-2026-domande-dal-22-settembre.html",
+          "image": "/assets/images/editorial-auto/bonus-colonnine-domestiche-2026-domande-dal-22-settembre-v373-480.webp",
+          "title": "Bonus colonnine domestiche 2026: requisiti, scadenze e domanda su Invitalia",
+          "description": ""
+        }
+      ],
+      "amount": "80% delle spese, fino a 1.500 euro per persona e 8.000 euro per condominio",
+      "dateType": "scadenza",
+      "category": "Bonus",
+      "date": "2026-10-27T12:00:00+01:00",
+      "allDay": false,
+      "status": "chiusa",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    },
+    {
+      "id": "bonus-mamme-domanda-31-dicembre-2026",
+      "slug": "bonus-mamme-domanda-31-dicembre-2026",
+      "title": "Nuovo Bonus mamme 2026: termine per la domanda",
+      "shortTitle": "Nuovo Bonus mamme 2026",
+      "summary": "Le lavoratrici in possesso dei requisiti possono richiedere il contributo INPS entro il 31 dicembre 2026.",
+      "sourceUrl": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.nuovo-bonus-mamme-2026.html",
+      "sourceName": "INPS",
+      "audience": "Famiglie",
+      "region": "Tutta Italia",
+      "how": "Domanda tramite servizio online INPS, Contact Center o patronato.",
+      "requirements": [
+        "Essere lavoratrice madre in una delle condizioni previste",
+        "Possedere i requisiti lavorativi e familiari",
+        "Non rientrare nelle esclusioni indicate dall’INPS"
+      ],
+      "articles": [
+        {
+          "url": "/notizie/bonus-mamme-2026-domanda-inps-scadenza-requisiti-720-euro.html",
+          "image": "/assets/images/editorial-auto/bonus-mamme-2026-domanda-inps-scadenza-requisiti-720-euro-v1365-480.webp",
+          "title": "Bonus mamme 2026, domanda INPS entro il 31 dicembre: i requisiti",
+          "description": ""
+        },
+        {
+          "url": "/notizie/bonus-mamme-2026-inps-60-euro-domanda-18-ottobre-2026.html",
+          "image": "/assets/images/editorial-auto/bonus-mamme-2026-inps-60-euro-domanda-18-ottobre-2026-v880-480.webp",
+          "title": "Bonus mamme 2026, domanda entro dicembre: fino a 720 euro",
+          "description": ""
+        },
+        {
+          "url": "/notizie/bonus-mamme-2026-inps-60-euro-mese-requisiti-domanda.html",
+          "image": "/assets/images/editorial-auto/bonus-mamme-2026-inps-60-euro-mese-requisiti-domanda-v866-480.webp",
+          "title": "Bonus mamme 2026, l’INPS fissa 60 euro al mese fino a 720",
+          "description": ""
+        }
+      ],
+      "amount": "60 euro per ogni mese o frazione di mese di lavoro, fino a 12 mensilità",
+      "dateType": "scadenza",
+      "category": "Bonus",
+      "date": "2026-12-31T23:59:59+01:00",
+      "allDay": true,
+      "status": "attiva",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    },
+    {
+      "id": "bonus-patente-autotrasporto-31-dicembre-2026",
+      "slug": "bonus-patente-autotrasporto-31-dicembre-2026",
+      "title": "Bonus Patente per l’autotrasporto",
+      "shortTitle": "Bonus Patente per l’autotrasporto",
+      "summary": "Il Bonus Patente per il trasporto di mezzi pesanti resta richiedibile fino al 31 dicembre 2026 o fino all’esaurimento dei fondi.",
+      "sourceUrl": "https://www.mit.gov.it/documentazione/buono-patente-autotrasporto",
+      "sourceName": "Ministero delle Infrastrutture e dei Trasporti",
+      "audience": "Giovani",
+      "region": "Tutta Italia",
+      "how": "Richiesta attraverso la piattaforma ufficiale del Ministero, finché sono disponibili risorse.",
+      "requirements": [
+        "Possedere i requisiti anagrafici della misura",
+        "Conseguire patenti o abilitazioni ammesse",
+        "Disponibilità dei fondi"
+      ],
+      "articles": [],
+      "amount": "Voucher secondo i limiti della misura",
+      "dateType": "scadenza",
+      "category": "Bonus",
+      "date": "2026-12-31T23:59:59+01:00",
+      "allDay": true,
+      "status": "attiva",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    },
+    {
+      "id": "brevetti-plus-domande-25-novembre-2026",
+      "slug": "brevetti-plus-domande-25-novembre-2026",
+      "title": "Brevetti+: apertura delle domande per le PMI",
+      "shortTitle": "Brevetti+",
+      "summary": "Lo sportello Brevetti+ 2026 è stato chiuso alle 18:00 del 25 novembre 2026 per esaurimento delle risorse.",
+      "sourceUrl": "https://www.invitalia.it/incentivi-e-strumenti/brevetti-2026",
+      "sourceName": "Invitalia",
+      "audience": "PMI",
+      "region": "Tutta Italia",
+      "how": "Lo sportello è chiuso. Non è più possibile inviare la domanda.",
+      "requirements": [
+        "Micro, piccola o media impresa",
+        "Sede legale e operativa in Italia",
+        "Brevetto e progetto conformi al bando"
+      ],
+      "articles": [
+        {
+          "url": "/notizie/brevetti-disegni-marchi-2026-32-milioni-date-domande-09-10-2026.html",
+          "image": "/assets/images/editorial-auto/brevetti-disegni-marchi-2026-32-milioni-date-domande-09-10-2026-v813-480.webp",
+          "title": "Brevetti+, Disegni+ e Marchi+: 32 milioni, domande da novembre",
+          "description": ""
+        }
+      ],
+      "amount": "Contributo fino a 140.000 euro",
+      "dateType": "apertura",
+      "category": "Imprese",
+      "date": "2026-11-25T18:00:00+01:00",
+      "allDay": false,
+      "status": "chiusa",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    },
+    {
+      "id": "carta-dedicata-a-te-attivazione-16-dicembre-2026",
+      "slug": "carta-dedicata-a-te-attivazione-16-dicembre-2026",
+      "title": "Carta Dedicata a te: termine per il primo acquisto",
+      "shortTitle": "Carta Dedicata a te",
+      "summary": "I beneficiari devono effettuare almeno un acquisto entro il 16 dicembre per attivare la carta e non perderne la validità.",
+      "sourceUrl": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/8",
+      "sourceName": "Ministero dell’Agricoltura, della Sovranità alimentare e delle Foreste",
+      "audience": "Famiglie",
+      "region": "Tutta Italia",
+      "how": "Non serve presentare domanda: i beneficiari sono individuati dall’INPS. Entro il termine va effettuato almeno un acquisto.",
+      "requirements": [
+        "Essere stati individuati come beneficiari",
+        "Avere ricevuto o ritirato la carta",
+        "Effettuare almeno un acquisto entro il termine"
+      ],
+      "articles": [
+        {
+          "url": "/notizie/carta-dedicata-a-te-500-euro-4-novembre-2026.html",
+          "image": "/assets/images/editorial-auto/carta-dedicata-a-te-500-euro-4-novembre-2026-v473-480.webp",
+          "title": "Carta dedicata a te, 500 euro dal 4 novembre a 1,17 milioni di famiglie",
+          "description": ""
+        },
+        {
+          "url": "/notizie/fiumicino-carta-dedicata-a-te-2026-elenchi-rettificati.html",
+          "image": "/assets/images/editorial-auto/fiumicino-carta-dedicata-a-te-2026-elenchi-rettificati-v1353-480.webp",
+          "title": "Carta Dedicata a te, Fiumicino rettifica l’elenco dei beneficiari",
+          "description": ""
+        }
+      ],
+      "amount": "1.000 euro complessivi in due tranche",
+      "dateType": "scadenza",
+      "category": "Altro",
+      "date": "2026-12-16T23:59:59+01:00",
+      "allDay": true,
+      "status": "attiva",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    },
+    {
+      "id": "contributi-adozioni-internazionali-31-dicembre-2026",
+      "slug": "contributi-adozioni-internazionali-31-dicembre-2026",
+      "title": "Contributi per le adozioni internazionali",
+      "shortTitle": "Contributi per le adozioni internazionali",
+      "summary": "Termine della finestra straordinaria per presentare le istanze relative ai contributi per le adozioni internazionali.",
+      "sourceUrl": "https://www.commissioneadozioni.it/notizie/contributi-straordinari-per-le-adozioni-internazionali-riapertura-dei-termini-dal-1-novembre-al-31-dicembre-2026-dm-5-settembre-2025/",
+      "sourceName": "Commissione per le Adozioni Internazionali",
+      "audience": "Famiglie",
+      "region": "Tutta Italia",
+      "how": "Istanza esclusivamente attraverso il portale Adozione Trasparente.",
+      "requirements": [
+        "Procedura di adozione internazionale rientrante nei casi ammessi",
+        "Documentazione prevista dal decreto",
+        "Invio attraverso il portale ufficiale"
+      ],
+      "articles": [
+        {
+          "url": "/notizie/contributi-adozioni-internazionali-domande-1-novembre-31-dicembre-2026.html",
+          "image": "/assets/images/editorial-auto/contributi-adozioni-internazionali-domande-1-novembre-31-dicembre-2026-v1323-480.webp",
+          "title": "Adozioni internazionali, riaprono i contributi: domande dal 1° novembre al 31 dicembre",
+          "description": ""
+        }
+      ],
+      "amount": "Contributo secondo i criteri del decreto",
+      "dateType": "scadenza",
+      "category": "Famiglia",
+      "date": "2026-12-31T23:59:59+01:00",
+      "allDay": true,
+      "status": "attiva",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    },
+    {
+      "id": "corpi-civili-di-pace-domanda-4-dicembre-2026",
+      "slug": "corpi-civili-di-pace-domanda-4-dicembre-2026",
+      "title": "Corpi civili di pace: domanda per 82 volontari",
+      "shortTitle": "Corpi civili di pace",
+      "summary": "Scade alle 14:00 il bando per 82 operatori volontari da impiegare in progetti in Italia e all’estero.",
+      "sourceUrl": "https://www.politichegiovanili.gov.it/comunicazione/avvisi-e-bandi/servizio-civile/bandi-di-selezione-volontari/bando-ccp-2026",
+      "sourceName": "Dipartimento per le Politiche Giovanili",
+      "audience": "Giovani",
+      "region": "Tutta Italia",
+      "how": "È ammessa una sola domanda, per un unico progetto e un’unica sede, tramite la piattaforma DOL.",
+      "requirements": [
+        "Scegliere un solo progetto e una sola sede",
+        "Presentare la domanda esclusivamente online",
+        "Verificare i requisiti nel bando ufficiale"
+      ],
+      "articles": [],
+      "amount": null,
+      "dateType": "scadenza",
+      "category": "Concorsi",
+      "date": "2026-12-04T14:00:00+01:00",
+      "allDay": false,
+      "status": "attiva",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    },
+    {
+      "id": "credito-imposta-gasolio-autotrasporto-30-novembre-2026",
+      "slug": "credito-imposta-gasolio-autotrasporto-30-novembre-2026",
+      "title": "Credito d’imposta gasolio per l’autotrasporto",
+      "shortTitle": "Credito d’imposta gasolio per l’autotrasporto",
+      "summary": "Le imprese ammesse possono presentare l’istanza per il ristoro della maggiore spesa sostenuta per il gasolio entro le 23:59 del 30 novembre.",
+      "sourceUrl": "https://www.fiscooggi.it/portale/-/credito-di-imposta-autotrasportatori-in-apertura-la-piattaforma-di-accesso",
+      "sourceName": "Agenzia delle Entrate (Fisco Oggi)",
+      "audience": "Autotrasportatori",
+      "region": "Tutta Italia",
+      "how": "Istanza sulla piattaforma ufficiale indicata dal Ministero delle Infrastrutture e dei Trasporti.",
+      "requirements": [
+        "Impresa ammessa alla seconda annualità",
+        "Sede o stabile organizzazione in Italia",
+        "Attività e veicoli ammessi dal decreto"
+      ],
+      "articles": [
+        {
+          "url": "/notizie/autotrasporto-credito-imposta-gasolio-126-4-milioni-24-ottobre-2026.html",
+          "image": "/assets/images/editorial-auto/autotrasporto-credito-imposta-gasolio-126-4-milioni-24-ottobre-2026-v989-480.webp",
+          "title": "Credito sul gasolio, domande aperte fino al 30 novembre per gli autotrasportatori",
+          "description": ""
+        }
+      ],
+      "amount": "Credito d’imposta",
+      "dateType": "scadenza",
+      "category": "Altro",
+      "date": "2026-11-30T23:59:00+01:00",
+      "allDay": false,
+      "status": "attiva",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    },
+    {
+      "id": "disegni-plus-domande-17-dicembre-2026",
+      "slug": "disegni-plus-domande-17-dicembre-2026",
+      "title": "Disegni+: apertura delle domande 2026",
+      "shortTitle": "Disegni+",
+      "summary": "Dal 17 dicembre parte la procedura per gli incentivi destinati alla valorizzazione di disegni e modelli delle PMI.",
+      "sourceUrl": "https://www.mimit.gov.it/it/incentivi/disegni-2026",
+      "sourceName": "Mimit",
+      "audience": "PMI",
+      "region": "Tutta Italia",
+      "how": "Domanda tramite la piattaforma ufficiale Disegni+ secondo le modalità del bando.",
+      "requirements": [
+        "Micro, piccola o media impresa con sede in Italia",
+        "Disegno o modello ammissibile",
+        "Spese conformi al bando"
+      ],
+      "articles": [
+        {
+          "url": "/notizie/brevetti-disegni-marchi-2026-32-milioni-date-domande-09-10-2026.html",
+          "image": "/assets/images/editorial-auto/brevetti-disegni-marchi-2026-32-milioni-date-domande-09-10-2026-v813-480.webp",
+          "title": "Brevetti+, Disegni+ e Marchi+: 32 milioni, domande da novembre",
+          "description": ""
+        }
+      ],
+      "amount": "Contributo in conto capitale",
+      "dateType": "apertura",
+      "category": "Imprese",
+      "date": "2026-12-17T23:59:59+01:00",
+      "allDay": true,
+      "status": "attiva",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    },
+    {
+      "id": "marchi-plus-domande-3-dicembre-2026",
+      "slug": "marchi-plus-domande-3-dicembre-2026",
+      "title": "Marchi+: apertura delle domande 2026",
+      "shortTitle": "Marchi+",
+      "summary": "Dal 3 dicembre le PMI possono accedere alla procedura prevista per gli incentivi dedicati alla tutela dei marchi all’estero.",
+      "sourceUrl": "https://www.mimit.gov.it/it/incentivi/marchi-2026",
+      "sourceName": "Mimit",
+      "audience": "PMI",
+      "region": "Tutta Italia",
+      "how": "Domanda attraverso la procedura informatica ufficiale Marchi+.",
+      "requirements": [
+        "Micro, piccola o media impresa",
+        "Requisiti previsti dal bando 2026",
+        "Spese e progetto ammissibili"
+      ],
+      "articles": [
+        {
+          "url": "/notizie/brevetti-disegni-marchi-2026-32-milioni-date-domande-09-10-2026.html",
+          "image": "/assets/images/editorial-auto/brevetti-disegni-marchi-2026-32-milioni-date-domande-09-10-2026-v813-480.webp",
+          "title": "Brevetti+, Disegni+ e Marchi+: 32 milioni, domande da novembre",
+          "description": ""
+        }
+      ],
+      "amount": "Contributo a fondo perduto",
+      "dateType": "apertura",
+      "category": "Imprese",
+      "date": "2026-12-03T23:59:59+01:00",
+      "allDay": true,
+      "status": "attiva",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    },
+    {
+      "id": "on-oltre-nuove-imprese-tasso-zero-chiusura-1-dicembre-2026",
+      "slug": "on-oltre-nuove-imprese-tasso-zero-chiusura-1-dicembre-2026",
+      "title": "ON - Oltre Nuove imprese a tasso zero: chiusura dello sportello",
+      "shortTitle": "ON - Oltre Nuove imprese a tasso zero",
+      "summary": "Dal 1° dicembre alle 12:00 non sarà più possibile presentare domande per l’incentivo rivolto a imprese a prevalente partecipazione giovanile o femminile, a seguito dell’imminente esaurimento delle risorse.",
+      "sourceUrl": "https://www.invitalia.it/news-media/news/oltre-nuove-imprese-tasso-zero-dal-1deg-dicembre-2026-non-sara-piu-possibile-presentare-la-domanda",
+      "sourceName": "Invitalia",
+      "audience": "Giovani e donne imprenditrici",
+      "region": "Tutta Italia",
+      "how": "Domanda online sulla piattaforma Invitalia fino alle ore 12:00 del 1° dicembre 2026.",
+      "requirements": [
+        "Micro o piccola impresa a prevalente partecipazione giovanile (18-35 anni) o femminile",
+        "Costituita da non più di 60 mesi o da costituire",
+        "Progetto conforme al bando, con spese ammissibili"
+      ],
+      "articles": [
+        {
+          "url": "/notizie/nuove-imprese-tasso-zero-rifinanziamento-requisiti-2026.html",
+          "image": "/assets/images/editorial-auto/nuove-imprese-tasso-zero-rifinanziamento-requisiti-2026-v977-480.webp",
+          "title": "Nuove imprese a tasso zero, rifinanziata la misura per giovani e donne",
+          "description": ""
+        },
+        {
+          "url": "/notizie/on-imprese-giovani-donne-59-milioni-finanziamenti-12-ottobre-2026.html",
+          "image": "/assets/images/editorial-auto/on-imprese-giovani-donne-59-milioni-finanziamenti-12-ottobre-2026-v844-480.webp",
+          "title": "Imprese di giovani e donne, ON riceve 59 milioni: niente fondo perduto",
+          "description": ""
+        }
+      ],
+      "amount": "Finanziamento a tasso zero fino al 90% delle spese ammissibili, su progetti fino a 3 milioni di euro",
+      "dateType": "scadenza",
+      "category": "Imprese",
+      "date": "2026-12-01T12:00:00+01:00",
+      "allDay": false,
+      "status": "attiva",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    },
+    {
+      "id": "secondo-acconto-imposte-30-novembre-2026",
+      "slug": "secondo-acconto-imposte-30-novembre-2026",
+      "title": "Secondo o unico acconto delle imposte",
+      "shortTitle": "Secondo o unico acconto delle imposte",
+      "summary": "Termine per il versamento del secondo o unico acconto da parte dei contribuenti interessati, compresi quelli con 730 senza sostituto o modello Redditi.",
+      "sourceUrl": "https://infoprecompilata.agenziaentrate.gov.it/portale/scadenze",
+      "sourceName": "Agenzia delle Entrate",
+      "audience": "Contribuenti",
+      "region": "Tutta Italia",
+      "how": "Verificare importo e modalità di versamento con il proprio modello dichiarativo o intermediario.",
+      "requirements": [
+        "Essere soggetti al versamento dell&#x27;acconto",
+        "Controllare la propria dichiarazione e gli eventuali esoneri"
+      ],
+      "articles": [
+        {
+          "url": "/notizie/scadenze-fiscali-novembre-2026-730-acconti-30-novembre.html",
+          "image": "/assets/images/editorial-auto/scadenze-fiscali-novembre-2026-730-acconti-30-novembre-v1365-480.webp",
+          "title": "Fisco, le scadenze di novembre: 730 correttivo e acconti",
+          "description": ""
+        },
+        {
+          "url": "/notizie/scadenze-fiscali-novembre-2026-irpef-irap-ivie-cedolare.html",
+          "image": "/assets/images/editorial-auto/scadenze-fiscali-novembre-2026-irpef-irap-ivie-cedolare-v1334-480.webp",
+          "title": "Fisco, novembre porta due snodi: rate il 16 e acconti il 30",
+          "description": ""
+        }
+      ],
+      "amount": null,
+      "dateType": "scadenza",
+      "category": "Fisco",
+      "date": "2026-11-30T23:59:59+01:00",
+      "allDay": true,
+      "status": "attiva",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    },
+    {
+      "id": "sviluppo-competenze-pmi-domanda-21-dicembre-2026",
+      "slug": "sviluppo-competenze-pmi-domanda-21-dicembre-2026",
+      "title": "Competenze specialistiche delle PMI: chiusura sportello",
+      "shortTitle": "Competenze specialistiche delle PMI",
+      "summary": "Lo sportello per i contributi alla formazione specialistica dei dipendenti delle PMI del Mezzogiorno chiude alle 12:00.",
+      "sourceUrl": "https://www.invitalia.it/incentivi-e-strumenti/sviluppo-competenze-specialistiche-delle-pmi/presenta-la-domanda",
+      "sourceName": "Invitalia",
+      "audience": "PMI",
+      "region": "Mezzogiorno",
+      "how": "Domanda nell’area personale Invitalia tramite SPID o CIE.",
+      "requirements": [
+        "PMI localizzata in una regione ammessa",
+        "Progetto di formazione su innovazione o transizione verde e digitale",
+        "Rispetto dei requisiti previsti dal decreto"
+      ],
+      "articles": [],
+      "amount": "Contributo sul 50% delle spese ammissibili",
+      "dateType": "scadenza",
+      "category": "Imprese",
+      "date": "2026-12-21T12:00:00+01:00",
+      "allDay": false,
+      "status": "attiva",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    },
+    {
+      "id": "voucher-cloud-cybersecurity-20-gennaio-2027",
+      "slug": "voucher-cloud-cybersecurity-20-gennaio-2027",
+      "title": "Voucher cloud e cybersecurity: chiusura delle domande",
+      "shortTitle": "Voucher cloud e cybersecurity",
+      "summary": "PMI e professionisti possono inviare la domanda per il contributo alla digitalizzazione fino alle 12:00 del 20 gennaio 2027.",
+      "sourceUrl": "https://www.invitalia.it/news-media/news/voucher-cloud-e-cybersecurity-dal-20-ottobre-2026-la-compilazione-delle-domande",
+      "sourceName": "Invitalia",
+      "audience": "PMI e professionisti",
+      "region": "Tutta Italia",
+      "how": "Invio online secondo l’ordine cronologico di presentazione.",
+      "requirements": [
+        "PMI o professionista",
+        "Soluzioni cloud o cybersecurity ammissibili",
+        "Fornitore presente nell’elenco previsto"
+      ],
+      "articles": [
+        {
+          "url": "/notizie/voucher-cloud-cybersecurity-pmi-professionisti-domande-10-novembre-2026.html",
+          "image": "/assets/images/editorial-auto/voucher-cloud-cybersecurity-pmi-professionisti-domande-10-novembre-2026-v1334-480.webp",
+          "title": "Voucher Cloud e Cybersecurity, invio domande dal 10 novembre",
+          "description": ""
+        }
+      ],
+      "amount": "Fino al 50% delle spese, massimo 20.000 euro",
+      "dateType": "scadenza",
+      "category": "Imprese",
+      "date": "2027-01-20T12:00:00+01:00",
+      "allDay": false,
+      "status": "attiva",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    },
+    {
+      "id": "assegni-frequenza-contributi-formativi-30-dicembre-2026",
+      "slug": "assegni-frequenza-contributi-formativi-30-dicembre-2026",
+      "title": "Assegni di frequenza e contributi formativi 2026: termine per la domanda",
+      "shortTitle": "Assegni di frequenza INPS",
+      "summary": "Le domande per gli assegni di frequenza e i contributi formativi della Gestione Assistenza magistrale si presentano dal 30 novembre alle 12 fino alle 12 del 30 dicembre 2026.",
+      "sourceUrl": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.assegni-di-frequenza-e-contributi-formativi-2026-online-il-bando.html",
+      "sourceName": "INPS",
+      "audience": "Famiglie",
+      "region": "Tutta Italia",
+      "how": "Domanda online attraverso il Portale prestazioni welfare dell’INPS, con SPID, CIE o CNS.",
+      "requirements": [
+        "Orfani ed equiparati degli iscritti alla Gestione Assistenza magistrale per gli assegni di frequenza",
+        "Figli o orfani con disabilità degli iscritti per i contributi formativi",
+        "Frequenza scolastica nell’anno 2025/2026 e requisiti ISEE previsti"
+      ],
+      "articles": [],
+      "amount": "Da 600 a 1.000 euro a seconda di ISEE e tipologia",
+      "dateType": "scadenza",
+      "category": "Famiglia",
+      "date": "2026-12-30T12:00:00+01:00",
+      "allDay": false,
+      "status": "attiva",
+      "lastVerified": "2026-11-27T02:20:00+01:00"
+    }
+  ]
+}
