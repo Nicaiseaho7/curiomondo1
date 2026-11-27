@@ -1,6 +1,366 @@
 {
-  "version": 1672,
+  "version": 1673,
   "items": [
+    {
+      "title": "Mercatino di Natale di Bolzano in treno: date, orari e percorso",
+      "excerpt": "Stazione, piazza Walther, Mercatino dell’Artigianato e rientro: come organizzare una visita da poche ore o una giornata.",
+      "url": "/approfondimenti/mercatino-natale-bolzano-in-treno.html",
+      "section": "Approfondimenti / Viaggi"
+    },
+    {
+      "title": "Malpensa Express da Centrale o Cadorna: fermate, terminal e cambi",
+      "excerpt": "Quale stazione scegliere a Milano, come arrivare ai Terminal 1 e 2 e come calcolare il margine prima del volo.",
+      "url": "/approfondimenti/malpensa-express-centrale-cadorna-terminal.html",
+      "section": "Approfondimenti / Viaggi"
+    },
+    {
+      "title": "Google Drive pieno: liberare spazio tra file tuoi, condivisi e Cestino",
+      "excerpt": "Come trovare l’account che ha esaurito la quota, distinguere copie e collegamenti e rimuovere soltanto ciò che puoi perdere.",
+      "url": "/approfondimenti/google-drive-spazio-file-cestino-proprietario.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Museo Egizio di Torino: biglietti online e percorsi per una prima visita",
+      "excerpt": "Come prenotare, usare le tariffe ridotte, orientarsi tra le collezioni e decidere che cosa vedere in base al tempo.",
+      "url": "/approfondimenti/museo-egizio-torino-biglietti-visita-percorsi.html",
+      "section": "Approfondimenti / Viaggi"
+    },
+    {
+      "title": "Coppa Italia: tabellone, semifinali e quando scattano i supplementari",
+      "excerpt": "Le 44 partecipanti, l’ingresso delle teste di serie, i rigori fino ai quarti e il calcolo delle reti nelle semifinali.",
+      "url": "/approfondimenti/coppa-italia-tabellone-semifinali-andata-ritorno.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Fatture elettroniche dei privati: come trovarle e scaricarle dall’Agenzia delle Entrate",
+      "excerpt": "Come cercare la fattura ricevuta, distinguere XML e copia di cortesia e capire perché un documento non compare.",
+      "url": "/approfondimenti/fatture-elettroniche-privati-scaricare-agenzia-entrate.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Santa Lucia a Verona: perché porta i doni il 13 dicembre",
+      "excerpt": "La notte dell’asinello, il castaldo, i doni e la fiera di Santa Lucia: che cosa appartiene alla tradizione veronese e che cosa cambia.",
+      "url": "/approfondimenti/santa-lucia-verona-asinello-doni-fiera.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Perché il sacchetto di patatine si gonfia quando sali in montagna",
+      "excerpt": "La pressione esterna diminuisce con la quota e il gas nella confezione sigillata può occuparne una parte più grande.",
+      "url": "/approfondimenti/perche-sacchetto-patatine-si-gonfia-montagna.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Video Check nella pallavolo: che cosa può rivedere l’arbitro",
+      "excerpt": "Che cosa si può contestare, quando si presenta la richiesta e come funziona l’esito nella pallavolo italiana.",
+      "url": "/approfondimenti/pallavolo-video-check-challenge-regole.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Patente scaduta: rinnovo, visita medica e ricevuta di guida",
+      "excerpt": "Come preparare il rinnovo in Italia, verificare l’esito della visita e distinguere ricevuta, permesso e nuova patente.",
+      "url": "/approfondimenti/patente-scaduta-rinnovo-italia-visita.html",
+      "section": "Approfondimenti / Mobilità"
+    },
+    {
+      "title": "Domicilio digitale su INAD: come attivarlo, cambiarlo o cessarlo",
+      "excerpt": "Come eleggere una PEC su INAD, verificare il recapito pubblico e aggiornare il domicilio senza perdere le comunicazioni.",
+      "url": "/approfondimenti/inad-domicilio-digitale-elezione-revoca.html",
+      "section": "Approfondimenti / Società e diritto"
+    },
+    {
+      "title": "Cronologia Appunti di Windows: ritrovare quello che hai copiato con Windows + V",
+      "excerpt": "Come attivare la cronologia locale, scegliere cosa incollare, fissare voci utili e capire quando sincronizzare.",
+      "url": "/approfondimenti/windows-cronologia-appunti-copia-incolla.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché le noci grandi salgono in cima al barattolo",
+      "excerpt": "Varchi, rotazioni e movimento collettivo spiegano come una noce grossa riesca a risalire in una miscela che stai scuotendo.",
+      "url": "/approfondimenti/perche-noci-grandi-salgono-barattolo.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Costiera Amalfitana senza auto: autobus, traghetti e cambi",
+      "excerpt": "Come raggiungere Amalfi e Positano da Salerno o Sorrento e verificare moli, fermate, stagionalità e corse di ritorno.",
+      "url": "/approfondimenti/costiera-amalfitana-bus-traghetti-collegamenti.html",
+      "section": "Approfondimenti / Viaggi"
+    },
+    {
+      "title": "Abbonamento Musei Piemonte e Valle d’Aosta: come capire se conviene",
+      "excerpt": "Come confrontare gli ingressi effettivi con il prezzo della tessera, verificare le mostre incluse e prenotare le visite.",
+      "url": "/approfondimenti/abbonamento-musei-piemonte-valle-aosta.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Eurolega: come funzionano play-in, playoff e Final Four",
+      "excerpt": "Dalle prime sei al tabellone delle otto, come cambiano il fattore campo e il numero di vittorie necessarie per il titolo.",
+      "url": "/approfondimenti/eurolega-play-in-playoff-final-four.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Accesso agli atti, accesso civico e FOIA: quale richiesta fare",
+      "excerpt": "Quando motivare il proprio interesse, quando chiedere una pubblicazione e come formulare la richiesta di dati e documenti.",
+      "url": "/approfondimenti/accesso-atti-accesso-civico-foia.html",
+      "section": "Approfondimenti / Società e diritto"
+    },
+    {
+      "title": "Modalità ospite su Android: come prestare il telefono senza aprire il tuo profilo",
+      "excerpt": "Come trovare la funzione, passare all’ospite, distinguere gli utenti e rimuovere la sessione senza perdere documenti utili.",
+      "url": "/approfondimenti/android-modalita-ospite-profilo-separato.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché la teiera gocciola lungo il beccuccio",
+      "excerpt": "Il getto può seguire il bordo esterno anziché staccarsi: contano velocità, bagnabilità e forma della punta.",
+      "url": "/approfondimenti/perche-teiera-gocciola-beccuccio.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Lago di Garda in battello: orari, porti e traghetti per le auto",
+      "excerpt": "Come leggere i prospetti dei battelli e organizzare la traversata Torri–Maderno con o senza un veicolo.",
+      "url": "/approfondimenti/lago-garda-battelli-traghetti-auto-orari.html",
+      "section": "Approfondimenti / Viaggi"
+    },
+    {
+      "title": "Dante a Ravenna: come visitare Tomba, Museo e Casa Dante",
+      "excerpt": "Tre luoghi diversi nella Zona del Silenzio, a pochi minuti a piedi: come riconoscerli e organizzare la visita.",
+      "url": "/approfondimenti/ravenna-dante-tomba-casa-museo.html",
+      "section": "Approfondimenti / Viaggi"
+    },
+    {
+      "title": "WEC e Le Mans: differenze tra Hypercar, LMGT3 e LMP2",
+      "excerpt": "Perché più classi corrono insieme, come si legge la classifica e perché una vittoria di categoria è distinta dal risultato assoluto.",
+      "url": "/approfondimenti/wec-le-mans-hypercar-lmgt3-classifiche.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Patente smarrita: denuncia, duplicato e permesso provvisorio",
+      "excerpt": "Come capire chi rilascia il duplicato, quali documenti servono e quando il permesso permette di tornare alla guida.",
+      "url": "/approfondimenti/patente-smarrita-duplicato-permesso.html",
+      "section": "Approfondimenti / Mobilità"
+    },
+    {
+      "title": "Modalità lettura in Safari, Firefox ed Edge: come semplificare le pagine web",
+      "excerpt": "Come isolare il testo, aumentare la leggibilità e tornare alla pagina completa per tabelle, avvisi e moduli.",
+      "url": "/approfondimenti/modalita-lettura-safari-edge-firefox.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché il cucchiaio capovolge il riflesso",
+      "excerpt": "Le due facce del cucchiaio agiscono come specchi diversi. All’interno conta anche la distanza dell’oggetto dal fuoco.",
+      "url": "/approfondimenti/perche-cucchiaio-capovolge-riflesso.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Tubature e contatore dell’acqua: come ridurre il rischio di gelo",
+      "excerpt": "Dove controllare raccordi e vani esterni, come conservare l’accesso al contatore e chi chiamare se manca l’acqua.",
+      "url": "/approfondimenti/tubature-gelo-contatore-acqua-prevenzione.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Opera all’Arena di Verona: posti, ingresso e cosa succede con la pioggia",
+      "excerpt": "Come leggere la pianta, affrontare una serata all’aperto e distinguere annullamento e interruzione secondo il regolamento ufficiale.",
+      "url": "/approfondimenti/arena-verona-opera-posti-pioggia.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "United Cup di tennis: gironi, nazionali e doppio misto",
+      "excerpt": "Come si qualificano i Paesi e che cosa cambia quando il doppio misto decide il passaggio del turno.",
+      "url": "/approfondimenti/united-cup-tennis-formato-doppio-misto.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Auto ereditata: come fare il passaggio al PRA con uno o più eredi",
+      "excerpt": "Atti, firme e termini per intestare il veicolo agli eredi, trasferirlo a uno solo oppure venderlo a terzi.",
+      "url": "/approfondimenti/auto-ereditata-passaggio-pra-eredi.html",
+      "section": "Approfondimenti / Mobilità"
+    },
+    {
+      "title": "Da PowerPoint a PDF: come esportare diapositive, stampati e note senza perdere il layout",
+      "excerpt": "Come scegliere l’uscita corretta, escludere note e slide riservate e controllare il PDF prima dell’invio.",
+      "url": "/approfondimenti/powerpoint-esportare-pdf-note-layout.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché una moneta suona più acuta prima di fermarsi",
+      "excerpt": "Mentre la moneta perde energia, la direzione in cui pende compie giri sempre più rapidi. È quel ritmo che si sente nel finale.",
+      "url": "/approfondimenti/perche-moneta-suona-piu-acuta-prima-di-cadere.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Dove buttare la cenere di camino o stufa: quando è fredda e quale bidone usare",
+      "excerpt": "Perché non basta aspettare che sparisca la fiamma, in quali casi la cenere va nell’organico o nell’indifferenziato e come riconoscere i residui di manutenzione.",
+      "url": "/approfondimenti/cenere-camino-stufa-smaltimento-raccolta.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Cinema Modernissimo a Bologna: sala sotterranea, biglietti e accessibilità",
+      "excerpt": "Dove si entra, come leggere il programma reale e verificare biglietti, supporti per la visione e assistenza.",
+      "url": "/approfondimenti/cinema-modernissimo-bologna-biglietti-accessibilita.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Nuoto misti: ordine degli stili nell’individuale e nella staffetta",
+      "excerpt": "Perché l’ordine di dorso e farfalla si inverte, come si leggono le transizioni e che cosa fa scattare una squalifica.",
+      "url": "/approfondimenti/nuoto-misti-individuale-staffetta-ordine.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "TARI dopo il trasloco: come attivare e chiudere le utenze",
+      "excerpt": "Le dichiarazioni da presentare quando lasci o inizi a occupare un immobile e le prove da conservare per le date effettive.",
+      "url": "/approfondimenti/tari-trasloco-inizio-cessazione-dichiarazione.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Numero di serie e IMEI: dove trovarli e come verificare la garanzia del telefono",
+      "excerpt": "Come identificare iPhone o Android, confrontare i codici e capire che cosa mostra la verifica della copertura.",
+      "url": "/approfondimenti/numero-serie-imei-verificare-dispositivo-garanzia.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché una bottiglia cambia nota quando aggiungi acqua",
+      "excerpt": "Soffiare sul collo e picchiettare la parete eccitano due vibrazioni diverse. Il livello dell’acqua può avere effetti opposti.",
+      "url": "/approfondimenti/perche-bottiglia-cambia-nota-con-acqua.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Piante in vaso: come proteggerle dal gelo sul balcone",
+      "excerpt": "Come decidere quali piante spostare, mantenere libero il drenaggio e osservare i danni dopo una gelata.",
+      "url": "/approfondimenti/balcone-gelo-proteggere-piante-vaso.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Cimitero Monumentale di Milano: visita gratuita, Famedio e itinerari",
+      "excerpt": "Come orientarsi tra Famedio, sculture e viali rispettando il luogo, con orari, ingressi e idee di percorso.",
+      "url": "/approfondimenti/cimitero-monumentale-milano-visita.html",
+      "section": "Approfondimenti / Viaggi"
+    },
+    {
+      "title": "Diamond League: come si fanno punti e chi accede alla finale",
+      "excerpt": "Dalla graduatoria delle tappe al trofeo in gara unica: criteri, esempi e differenze tra le discipline.",
+      "url": "/approfondimenti/diamond-league-atletica-punti-finale.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Vendere usato online: che cosa comunicano le piattaforme con la DAC7",
+      "excerpt": "Come leggere le soglie di 30 operazioni e 2.000 euro e capire perché la comunicazione non equivale a un’imposta.",
+      "url": "/approfondimenti/dac7-vendita-online-privati-piattaforme.html",
+      "section": "Approfondimenti / Economia e lavoro"
+    },
+    {
+      "title": "Come trasferire i segnalibri tra Chrome, Firefox e Safari con un file HTML",
+      "excerpt": "Come esportare i preferiti, importarli nel profilo corretto e verificare cartelle, collegamenti e duplicati.",
+      "url": "/approfondimenti/segnalibri-browser-esportare-importare-html.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché il telefono vede strisce quando riprende uno schermo",
+      "excerpt": "Le fasce dovute alla luce che cambia nel tempo non sono la stessa cosa delle onde del moiré, che dipendono dalle griglie dei pixel.",
+      "url": "/approfondimenti/perche-telefono-riprende-strisce-schermo.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Neve fresca e neve al suolo: come leggere i centimetri dei bollettini",
+      "excerpt": "La differenza tra HN, HS ed equivalente in acqua, e perché un campo di osservazione non racconta tutta la montagna.",
+      "url": "/approfondimenti/neve-al-suolo-altezza-neve-fresca.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Museo del Violino a Cremona: dalle teche alle audizioni",
+      "excerpt": "Come distinguere visita e audizione, scegliere gli orari, ascoltare gli strumenti e progettare una giornata a Cremona.",
+      "url": "/approfondimenti/museo-violino-cremona-visita-audizioni.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Sostituzioni nel calcio: cinque cambi, tre occasioni e dieci secondi per uscire",
+      "excerpt": "Come si contano le interruzioni, cosa succede all’intervallo e quali regole valgono ai supplementari o per la commozione cerebrale.",
+      "url": "/approfondimenti/calcio-sostituzioni-cinque-cambi-tre-slot.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Bonus sociale bollette: cosa controllare dopo la DSU",
+      "excerpt": "Come verificare l’ISEE 2026, l’intestazione delle utenze e l’erogazione del bonus per luce, gas e acqua.",
+      "url": "/approfondimenti/bonus-sociale-bollette-dsu-isee-acqua-luce-gas.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Sveglia su iPhone e Android: perché non suona e quali impostazioni controllare",
+      "excerpt": "Come distinguere sveglia e timer e verificare ripetizione, suono, volume e modalità Non disturbare prima di andare a dormire.",
+      "url": "/approfondimenti/sveglia-iphone-android-silenzioso-volume.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché le gocce d’acqua rotolano sulla foglia di loto",
+      "excerpt": "Cera e rilievi microscopici riducono il contatto con la foglia. Per capire l’effetto conta anche come la goccia si muove.",
+      "url": "/approfondimenti/perche-gocce-acqua-rotolano-foglia-loto.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Vento medio e raffiche: come leggere km/h, nodi e previsioni",
+      "excerpt": "Come confrontare velocità media e picchi, interpretare la direzione e distinguere le osservazioni dagli avvisi.",
+      "url": "/approfondimenti/vento-raffiche-velocita-media-previsione.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Reggia di Caserta: come visitare Parco Reale e Giardino Inglese",
+      "excerpt": "Biglietti, distanze, navetta e orari di chiusura per pianificare il parco senza scambiare il Giardino Inglese per una tappa automatica.",
+      "url": "/approfondimenti/reggia-caserta-parco-reale-giardino-inglese.html",
+      "section": "Approfondimenti / Viaggi"
+    },
+    {
+      "title": "Ginnastica ritmica: attrezzi, punteggio e differenze tra individuale e squadra",
+      "excerpt": "Come si leggono difficoltà, artistico, esecuzione e penalità, dagli attrezzi individuali agli scambi di squadra.",
+      "url": "/approfondimenti/ginnastica-ritmica-attrezzi-punteggi-individuale-squadra.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "F24 online: come verificare pagamento, quietanza e scarto",
+      "excerpt": "Dove leggere le ricevute dell’Agenzia, distinguere il controllo dall’addebito e capire se serve correggere un versamento.",
+      "url": "/approfondimenti/f24-online-quietanza-scarto.html",
+      "section": "Approfondimenti / Economia e lavoro"
+    },
+    {
+      "title": "Come mettere un EPUB su Kindle e Kobo: invio, cavo USB e controlli",
+      "excerpt": "Quale percorso usare per gli EPUB non protetti, come trovare il libro sul lettore e verificare l’apertura senza connessione.",
+      "url": "/approfondimenti/epub-kindle-kobo-trasferire-libri.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché i cubetti di ghiaccio sono bianchi al centro",
+      "excerpt": "Il congelamento può concentrare bolle nella parte che solidifica per ultima. Una prova sicura mostra come conta la direzione del freddo.",
+      "url": "/approfondimenti/perche-cubetti-ghiaccio-bianchi-centro.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Perché l’Adriatico può alimentare una nevicata sulla costa",
+      "excerpt": "Come l’aria fredda si modifica attraversando il mare e perché vento, rilievi e posizione cambiano dove arriva la neve.",
+      "url": "/approfondimenti/neve-mare-lake-effect-adriatico.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Come ci si qualifica alle coppe UEFA: coefficienti, posti extra e scorrimenti",
+      "excerpt": "Che cosa decide il numero di squadre nelle coppe, come funziona il posto extra e come si incastrano campionato e coppa nazionale.",
+      "url": "/approfondimenti/uefa-qualificazione-coppe-coefficienti-posti-extra.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "730 già inviato: quando annullarlo e come correggerlo",
+      "excerpt": "Come scegliere fra annullamento, 730 integrativo e modello Redditi secondo il tipo di errore e il calendario.",
+      "url": "/approfondimenti/730-precompilato-correggere-dopo-invio.html",
+      "section": "Approfondimenti / Economia e lavoro"
+    },
+    {
+      "title": "Perché il righello suona più acuto se sporge meno dal tavolo",
+      "excerpt": "Il tratto libero funziona come una trave fissata a un’estremità. Accorciandolo cambia la frequenza, non la lunghezza dell’oggetto.",
+      "url": "/approfondimenti/perche-righello-vibra-nota-diversa.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Piano neve comunale: priorità, spartineve e strade da controllare",
+      "excerpt": "Come trovare il piano in vigore, distinguere sgombero e trattamento antighiaccio e verificare strada e fermata.",
+      "url": "/approfondimenti/neve-comune-piano-sgombero-strade.html",
+      "section": "Approfondimenti / Mobilità"
+    },
     {
       "title": "Torino e cintura, sequestrati oltre 360 chili di droga: quattro arresti",
       "excerpt": "La Squadra Mobile ha operato tra Torino e Leinì nell’indagine coordinata dalla procura di Ivrea. Tra le sostanze sequestrate hashish, marijuana e cocaina.",

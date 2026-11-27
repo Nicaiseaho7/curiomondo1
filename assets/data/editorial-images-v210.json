@@ -1,7 +1,1747 @@
 {
-  "version": 1672,
+  "version": 1673,
   "caption": "Illustrazione editoriale CurioMondo generata con IA per rappresentare questa notizia; non è una fotografia documentaria.",
   "items": [
+    {
+      "article": "/approfondimenti/mercatino-natale-bolzano-in-treno.html",
+      "alt": "Casette natalizie ai piedi del campanile del duomo di Bolzano",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-mercatino-natale-bolzano-in-treno-v1673-480.webp",
+          "sha256": "9ab0129ce488b0f65ff9c4ee073ce26067d205890664519d2f6e0acc0b7493ef",
+          "bytes": 43240
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-mercatino-natale-bolzano-in-treno-v1673-800.webp",
+          "sha256": "c300b6ce43f4bdcf521dbc9942e82731bc5778da3cc1b19f5ac6e8a755a77500",
+          "bytes": 108554
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-mercatino-natale-bolzano-in-treno-v1673-1200.webp",
+          "sha256": "61f788ce18594a83b9dacc28846801189495946922549c383f10ef52931cff80",
+          "bytes": 211428
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/malpensa-express-centrale-cadorna-terminal.html",
+      "alt": "Treno regionale aeroportuale fermo in una stazione milanese con un passeggero di spalle",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-malpensa-express-centrale-cadorna-terminal-v1673-480.webp",
+          "sha256": "f0597e0bce5a4e3c2045a9b032cf48f0a97fb77ca68dcc7fc4ed9bd0312fc80e",
+          "bytes": 44216
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-malpensa-express-centrale-cadorna-terminal-v1673-800.webp",
+          "sha256": "5cc5336fd37599c88b01dba731a1d1fe45be0905464e6d24a946c89b00d0cefa",
+          "bytes": 100862
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-malpensa-express-centrale-cadorna-terminal-v1673-1200.webp",
+          "sha256": "7f97d534d8ed2d6df010c0b010cb8840146efb6b4f92480cfaa1c5ca43666c4c",
+          "bytes": 179148
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/google-drive-spazio-file-cestino-proprietario.html",
+      "alt": "Portatile con un indicatore di archiviazione e unità esterna",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-google-drive-spazio-file-cestino-proprietario-v1673-480.webp",
+          "sha256": "59cbca602348b6962344ee0705dc032b7c9a5ef67ecb3351faacfea669adfbb1",
+          "bytes": 20296
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-google-drive-spazio-file-cestino-proprietario-v1673-800.webp",
+          "sha256": "a2c4f2c062defd13609365b283ba9710d324a24d362183365517e2b2f4a7bbe7",
+          "bytes": 39048
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-google-drive-spazio-file-cestino-proprietario-v1673-1200.webp",
+          "sha256": "c711ecac930253e166762d50f11d460de701807211e7475c9d0a709e62ac5409",
+          "bytes": 65860
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/museo-egizio-torino-biglietti-visita-percorsi.html",
+      "alt": "Manufatti antichi in una teca di museo",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-museo-egizio-torino-biglietti-visita-percorsi-v1673-480.webp",
+          "sha256": "802e00d815642fa051eef99bb122eb85b22ccd33c1b79f94f3164a2e81c57aa6",
+          "bytes": 21510
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-museo-egizio-torino-biglietti-visita-percorsi-v1673-800.webp",
+          "sha256": "f9ec5b8439614df5ff5276f5d57b27b00cbdb4dbd19780e9d67587904542843c",
+          "bytes": 57760
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-museo-egizio-torino-biglietti-visita-percorsi-v1673-1200.webp",
+          "sha256": "32c6b49a24b17324f33ceb803f590eeb5b5133a347258469de4a0805e379289e",
+          "bytes": 130206
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/coppa-italia-tabellone-semifinali-andata-ritorno.html",
+      "alt": "Coppa argentata nel tunnel di uno stadio di calcio vuoto",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-coppa-italia-tabellone-semifinali-andata-ritorno-v1673-480.webp",
+          "sha256": "05e835fdc5805685ebf6b4a3fe30d878f9419a00a5c31edd1103441cabf786db",
+          "bytes": 18452
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-coppa-italia-tabellone-semifinali-andata-ritorno-v1673-800.webp",
+          "sha256": "75567f86acd587615ccaa096e75290c8d2589a279b33eb394b6ea87361f6e0f1",
+          "bytes": 44636
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-coppa-italia-tabellone-semifinali-andata-ritorno-v1673-1200.webp",
+          "sha256": "63e57dec59d83d0bd84d9248f2c1974780486f63ad8c115a5c3d3faab9963624",
+          "bytes": 86408
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/fatture-elettroniche-privati-scaricare-agenzia-entrate.html",
+      "alt": "Portatile e copie cartacee di documenti di fatturazione su un tavolo",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-fatture-elettroniche-privati-scaricare-agenzia-entrate-v1673-480.webp",
+          "sha256": "899e36c25a60a3f615bfa1baa379877b3406befff4fe7a45e99d8f9ef93243c5",
+          "bytes": 31926
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-fatture-elettroniche-privati-scaricare-agenzia-entrate-v1673-800.webp",
+          "sha256": "f7141860064f5d10235a477cc2fec80f952091700938aa723664e9f91c2bbb51",
+          "bytes": 69832
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-fatture-elettroniche-privati-scaricare-agenzia-entrate-v1673-1200.webp",
+          "sha256": "8bbebc13011dd24e5eaa19dca5c7f176995a9e199d82fe5c2abbebd4c11ea9e6",
+          "bytes": 126600
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/santa-lucia-verona-asinello-doni-fiera.html",
+      "alt": "Pacchetti e fieno vicino a un uscio illuminato",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-santa-lucia-verona-asinello-doni-fiera-v1673-480.webp",
+          "sha256": "887f782ee052b2880ee821a95e0bce89407fad1e8a67206a1400344dad6558a9",
+          "bytes": 46476
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-santa-lucia-verona-asinello-doni-fiera-v1673-800.webp",
+          "sha256": "b59ca82b158a7c409e8c60d5c1307234225cde34f1b17cf9d5809307f2a93a0e",
+          "bytes": 105656
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-santa-lucia-verona-asinello-doni-fiera-v1673-1200.webp",
+          "sha256": "34495af49b386489190a5abf76343a217e44151714a1ac5e81d608ad2345d4f2",
+          "bytes": 188614
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/perche-sacchetto-patatine-si-gonfia-montagna.html",
+      "alt": "Confezione gonfia di patatine senza marchio in un paesaggio di montagna",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-perche-sacchetto-patatine-si-gonfia-montagna-v1673-480.webp",
+          "sha256": "3f43e5ac491793808344fb461ab481fe380aa3fae79cd95cb3fb9e9fe6f7c96f",
+          "bytes": 36422
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-perche-sacchetto-patatine-si-gonfia-montagna-v1673-800.webp",
+          "sha256": "be02c8847e697225855f39adb78f03442a567f76b613f2094c05c67550cfae7e",
+          "bytes": 72664
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-perche-sacchetto-patatine-si-gonfia-montagna-v1673-1200.webp",
+          "sha256": "313775311f606f7e7040d3525857d4504e7398823e1a85bf7d6283734c5f1a58",
+          "bytes": 119822
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/pallavolo-video-check-challenge-regole.html",
+      "alt": "Telecamera bassa accanto alla linea di un campo da pallavolo vuoto",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-pallavolo-video-check-challenge-regole-v1673-480.webp",
+          "sha256": "6711d096b49f8c3b43c36a477cd00295eaeb606e5670433f22d102498173e27b",
+          "bytes": 19890
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-pallavolo-video-check-challenge-regole-v1673-800.webp",
+          "sha256": "daea9eab872612bbe39553734e886bacc3d76e8c12ede4147b6154f598456cca",
+          "bytes": 38944
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-pallavolo-video-check-challenge-regole-v1673-1200.webp",
+          "sha256": "caeec442519092f9fd0a2e4a8d6d9926c837e066766db11a55a2be9f5f044c4a",
+          "bytes": 63920
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/patente-scaduta-rinnovo-italia-visita.html",
+      "alt": "Strumento per l’esame della vista e portadocumenti in ambulatorio",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-patente-scaduta-rinnovo-italia-visita-v1673-480.webp",
+          "sha256": "bab79c48750e6548f07d248ade2975c2beebf58e7c39d4b509970ab90a48f662",
+          "bytes": 14182
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-patente-scaduta-rinnovo-italia-visita-v1673-800.webp",
+          "sha256": "065a1d2afdd1a0ccbd4cbe538b731384a1b8058a97f167ebe56895ab4cee5473",
+          "bytes": 29776
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-patente-scaduta-rinnovo-italia-visita-v1673-1200.webp",
+          "sha256": "a9b8eaad6dcd5f1564887342531db2f9f08e95a655f0487253bb08fa385f663c",
+          "bytes": 54426
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/inad-domicilio-digitale-elezione-revoca.html",
+      "alt": "Computer e busta chiara su una scrivania",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-inad-domicilio-digitale-elezione-revoca-v1673-480.webp",
+          "sha256": "af6dae453f462bb5cbf87e2bef747841c1fb8bbc6aa8e604768afac51553192a",
+          "bytes": 27098
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-inad-domicilio-digitale-elezione-revoca-v1673-800.webp",
+          "sha256": "faf8d0fd1c3329c3269d65ef17fbe50396775ccbf5118e2a3863b36ed5c503d4",
+          "bytes": 54786
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-inad-domicilio-digitale-elezione-revoca-v1673-1200.webp",
+          "sha256": "b91925f9047a88a0048a3ecdb36f772d55b2d7e7dc8f8ec5a10fc02230222d02",
+          "bytes": 90954
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/windows-cronologia-appunti-copia-incolla.html",
+      "alt": "Portatile e pannelli grafici con un taccuino su una scrivania",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-windows-cronologia-appunti-copia-incolla-v1673-480.webp",
+          "sha256": "61ad39344548096a37be58431d97541d9020660a72a7e71f7a2abaddccb981d3",
+          "bytes": 21740
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-windows-cronologia-appunti-copia-incolla-v1673-800.webp",
+          "sha256": "90d7aa5777cc8fa4b593e40e5d00224a2395e0c30f273bf7eae4ac9ea80bad41",
+          "bytes": 42250
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-windows-cronologia-appunti-copia-incolla-v1673-1200.webp",
+          "sha256": "fdb824c629cf59a8c895ebd694cfb10b59bc2357e7a6bccc53ed713f12045a6d",
+          "bytes": 70542
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/perche-noci-grandi-salgono-barattolo.html",
+      "alt": "Noci grandi in cima a un barattolo trasparente di frutta secca",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-perche-noci-grandi-salgono-barattolo-v1673-480.webp",
+          "sha256": "a2f6bbcef909bc69aa9d2e7e23fe6ebd774783cb82c9394a3d8a0d0edc24fc5a",
+          "bytes": 22052
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-perche-noci-grandi-salgono-barattolo-v1673-800.webp",
+          "sha256": "d4b69a51eab02cf7696e504088781eba2d0a6970db10dc4147d23ccd8d9a127f",
+          "bytes": 49144
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-perche-noci-grandi-salgono-barattolo-v1673-1200.webp",
+          "sha256": "b761aa6a1829c73efd292e325dfa5e7f55c346adcca6d29db907a5ea94605da5",
+          "bytes": 90614
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/costiera-amalfitana-bus-traghetti-collegamenti.html",
+      "alt": "Traghetto bianco in mare davanti ai terrazzamenti e alle case della Costiera Amalfitana",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-costiera-amalfitana-bus-traghetti-collegamenti-v1673-480.webp",
+          "sha256": "46730707cedb98e3ebf945d248b5373a82a5d876733daa88d76d5297558cd9e6",
+          "bytes": 53284
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-costiera-amalfitana-bus-traghetti-collegamenti-v1673-800.webp",
+          "sha256": "3c34a205dcd4b6e22a02937b854bc2fd13a6066e5f7da15a8e515190735e5ac3",
+          "bytes": 134668
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-costiera-amalfitana-bus-traghetti-collegamenti-v1673-1200.webp",
+          "sha256": "568c3d8d56ecdc76179507ecab99b9385c254a98ddc648aa938b8c58d81a3953",
+          "bytes": 275616
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/abbonamento-musei-piemonte-valle-aosta.html",
+      "alt": "Una tessera da museo davanti a una vetrina espositiva",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-abbonamento-musei-piemonte-valle-aosta-v1673-480.webp",
+          "sha256": "91621e29d700d81ccf6f93578449fdfc6689a2d25ee9390380302d403c2cc863",
+          "bytes": 11694
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-abbonamento-musei-piemonte-valle-aosta-v1673-800.webp",
+          "sha256": "f9eaed12f84ab3e02296aa8f35f47319001dccc19ea2555d27f145ed1a03401e",
+          "bytes": 20502
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-abbonamento-musei-piemonte-valle-aosta-v1673-1200.webp",
+          "sha256": "16249a5bd0311b7a95c82265745d4f33ea7a8c86982cd30f7c9aa3e6b51494e2",
+          "bytes": 31528
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/eurolega-play-in-playoff-final-four.html",
+      "alt": "Pallone da basket sul parquet di un palazzetto vuoto",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-eurolega-play-in-playoff-final-four-v1673-480.webp",
+          "sha256": "e6fe870f8b6c45199db0f863c1d8893bbd95748fc9445d11a52512c6c76294d0",
+          "bytes": 25294
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-eurolega-play-in-playoff-final-four-v1673-800.webp",
+          "sha256": "c9b6bc0f9f1283733d48069b68de986f66f68de0d92d1e597c6cb04fbd0ac828",
+          "bytes": 51726
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-eurolega-play-in-playoff-final-four-v1673-1200.webp",
+          "sha256": "181cdb58d042ee45735a83c48e0f80ad00b021489ee1f9f83829c3dcf502b819",
+          "bytes": 88136
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/accesso-atti-accesso-civico-foia.html",
+      "alt": "Cartelle e scatole in un archivio amministrativo",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-accesso-atti-accesso-civico-foia-v1673-480.webp",
+          "sha256": "2728d88063a6d5d7946c946f41392d3bdc403d5fd2655b84af2aaf6fc3dd4a1d",
+          "bytes": 24188
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-accesso-atti-accesso-civico-foia-v1673-800.webp",
+          "sha256": "aa11fef57f73f610399f119cdd05ae503ae811f6f1eb615866381833d3793056",
+          "bytes": 54708
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-accesso-atti-accesso-civico-foia-v1673-1200.webp",
+          "sha256": "30d8817941fbd15255b2c6a2b9aa576e6f76916aa19236f8e8824308ba52f2fc",
+          "bytes": 101336
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/android-modalita-ospite-profilo-separato.html",
+      "alt": "Smartphone con due simboli grafici relativi ai profili",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-android-modalita-ospite-profilo-separato-v1673-480.webp",
+          "sha256": "2f36b858c367653f9a5095de7b7178e4badc5a164f48e92120564341e32018ed",
+          "bytes": 22350
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-android-modalita-ospite-profilo-separato-v1673-800.webp",
+          "sha256": "93985603c9e498cced8bc775076c8eb397b9d51476c0381dae3b91dbd8c8e3ff",
+          "bytes": 45990
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-android-modalita-ospite-profilo-separato-v1673-1200.webp",
+          "sha256": "1a605e43fced1c32959a47c84d1a4fdeea28b0922740916deb2692e89736ca59",
+          "bytes": 79316
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/perche-teiera-gocciola-beccuccio.html",
+      "alt": "Acqua fredda che segue il bordo esterno del beccuccio di una teiera",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-perche-teiera-gocciola-beccuccio-v1673-480.webp",
+          "sha256": "542018e98240be731abc651813bc5a7f5f4861efd3f99af592a990eae4809c14",
+          "bytes": 7924
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-perche-teiera-gocciola-beccuccio-v1673-800.webp",
+          "sha256": "007ec691245af4036a7fc775a2d722cb37746159e677f1fd8f9675b9ba7f04d3",
+          "bytes": 16386
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-perche-teiera-gocciola-beccuccio-v1673-1200.webp",
+          "sha256": "7918d251ac2446bb820a8413bb1c779aba6342c05a99b124c49e8f2d7ab46d2c",
+          "bytes": 32474
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/lago-garda-battelli-traghetti-auto-orari.html",
+      "alt": "Traghetto con ponte per le auto sul lago tra rilievi e sponde del Garda",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-lago-garda-battelli-traghetti-auto-orari-v1673-480.webp",
+          "sha256": "398eae63fbe46afb6104a744e7f8588e38b08782345cea63a43200fa0fc932fa",
+          "bytes": 43248
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-lago-garda-battelli-traghetti-auto-orari-v1673-800.webp",
+          "sha256": "8916d53838fe5bc7ae073323f40e67185967132be5c2d7f4fa53d5de47a6282d",
+          "bytes": 109362
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-lago-garda-battelli-traghetti-auto-orari-v1673-1200.webp",
+          "sha256": "22d3e30f769568c7ebdddae8e8ee7d03e6b97a09a65d76c058ad506c98ad19c0",
+          "bytes": 214500
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/ravenna-dante-tomba-casa-museo.html",
+      "alt": "Piccolo monumento sepolcrale in una via di Ravenna",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-ravenna-dante-tomba-casa-museo-v1673-480.webp",
+          "sha256": "be0b6caec1ad1af70438f21751354d351248cecf45d2237c663aaf8bcd7ccc3a",
+          "bytes": 48086
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-ravenna-dante-tomba-casa-museo-v1673-800.webp",
+          "sha256": "8777972a29344326d8969f579c1fe400c7306f439b1526fee9101db1c0a04771",
+          "bytes": 119678
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-ravenna-dante-tomba-casa-museo-v1673-1200.webp",
+          "sha256": "0a398b92823aad4a766ec6c008b21096a76b3093c84af8a099c60815de5ff073",
+          "bytes": 229142
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/wec-le-mans-hypercar-lmgt3-classifiche.html",
+      "alt": "Prototipo endurance e gran turismo fermi in due box adiacenti",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-wec-le-mans-hypercar-lmgt3-classifiche-v1673-480.webp",
+          "sha256": "a6dcca8587663eac038035ff21df5e231799a5cd750006acb8281158981e5691",
+          "bytes": 24476
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-wec-le-mans-hypercar-lmgt3-classifiche-v1673-800.webp",
+          "sha256": "60ca1916f4e73355e05a0244903cd35a5dd5131c84537b1a248cbb3c1f8e5b79",
+          "bytes": 53746
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-wec-le-mans-hypercar-lmgt3-classifiche-v1673-1200.webp",
+          "sha256": "fa8922bccb807ea634d7767754ec92dc858d9d3c44c5e08e91e73520c9ced1b5",
+          "bytes": 98098
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/patente-smarrita-duplicato-permesso.html",
+      "alt": "Chiavi e tessera rosa sulla console di un’auto",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-patente-smarrita-duplicato-permesso-v1673-480.webp",
+          "sha256": "c0387d7ffabe71d5893b8cae20d7f2d86e4a7904eb3b1b926e1994e3214cfb87",
+          "bytes": 26276
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-patente-smarrita-duplicato-permesso-v1673-800.webp",
+          "sha256": "375ab9724095f28542af8b6de4a83d91c50c65e2d447e5defd5906a01a8d0520",
+          "bytes": 51136
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-patente-smarrita-duplicato-permesso-v1673-1200.webp",
+          "sha256": "d6665d3b28f1b668933c08d6102f0166525011aeeb09dc9b0076b2aa12681d83",
+          "bytes": 82618
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/modalita-lettura-safari-edge-firefox.html",
+      "alt": "Tablet con testo ben distanziato su un tavolo illuminato",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-modalita-lettura-safari-edge-firefox-v1673-480.webp",
+          "sha256": "224793e28ffa2065884bad40ba18456a72a58d61885eb159d21523201b194eb6",
+          "bytes": 22494
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-modalita-lettura-safari-edge-firefox-v1673-800.webp",
+          "sha256": "571d79dc3fdca004a65255ee6f1df795dcc6383c39005e19a40f9ef9eb899316",
+          "bytes": 44720
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-modalita-lettura-safari-edge-firefox-v1673-1200.webp",
+          "sha256": "323e57c5c49bba4a327518c05b24a1edb6a1687959a1d5d12e0168af1bb671a4",
+          "bytes": 75332
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/perche-cucchiaio-capovolge-riflesso.html",
+      "alt": "Cucchiaio lucido con il riflesso capovolto di un piccolo oggetto colorato",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-perche-cucchiaio-capovolge-riflesso-v1673-480.webp",
+          "sha256": "705ecee9eeef8eb95def9da624086d7c64b9f554bd151bfb7bdc56a391bd3cc5",
+          "bytes": 14884
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-perche-cucchiaio-capovolge-riflesso-v1673-800.webp",
+          "sha256": "ee1294fe75bee0255ac759c496e3fff9af92464436e5b195780e79dab9683138",
+          "bytes": 28716
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-perche-cucchiaio-capovolge-riflesso-v1673-1200.webp",
+          "sha256": "ca989efcde0c6f5f32bea7ac980d7106ef02cc3dee6d830055ed9fc46d6b6f93",
+          "bytes": 46726
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/tubature-gelo-contatore-acqua-prevenzione.html",
+      "alt": "Brina attorno a una nicchia esterna con un contatore dell’acqua e tubi",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-tubature-gelo-contatore-acqua-prevenzione-v1673-480.webp",
+          "sha256": "bb6565d6202b2fcfe876fc3fef6a9f0bcd947b537574e2f6fbae62cc1bd8eba8",
+          "bytes": 49926
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-tubature-gelo-contatore-acqua-prevenzione-v1673-800.webp",
+          "sha256": "061c473fe8dfa6fd51af736ac3552026a4e35c2290fd2b821617c72bdc663d1e",
+          "bytes": 125022
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-tubature-gelo-contatore-acqua-prevenzione-v1673-1200.webp",
+          "sha256": "a5616a88cdb634f9369534f605aab07a75acaa21cf5d56e0ef9427f750f8a7be",
+          "bytes": 245082
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/arena-verona-opera-posti-pioggia.html",
+      "alt": "Gradinate dell’Arena di Verona e palco illuminato al tramonto",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-arena-verona-opera-posti-pioggia-v1673-480.webp",
+          "sha256": "fd7045020ad3cd3e509bb771190b34ad5ef8ba7690b81fc9fa9744f8f8f61d3f",
+          "bytes": 39292
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-arena-verona-opera-posti-pioggia-v1673-800.webp",
+          "sha256": "8da65aa7a3da5d7ea33d543979ce0377573f442e63acff32573a7c74496ca907",
+          "bytes": 100830
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-arena-verona-opera-posti-pioggia-v1673-1200.webp",
+          "sha256": "4f39ea67f407399fada2e5904ff75431e8ff58541254c81c42fd48883818db9a",
+          "bytes": 198954
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/united-cup-tennis-formato-doppio-misto.html",
+      "alt": "Due racchette sul bordo di un campo da tennis vuoto",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-united-cup-tennis-formato-doppio-misto-v1673-480.webp",
+          "sha256": "42d4f452d9c34ab7422ee636d17a326c4e540c06feec5e7e289aac2d5e0cc13a",
+          "bytes": 34936
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-united-cup-tennis-formato-doppio-misto-v1673-800.webp",
+          "sha256": "bafada9a41ffb5f0edb14bac72fe87a811711e40aa3a69dfa635f9d0e1970ae0",
+          "bytes": 78566
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-united-cup-tennis-formato-doppio-misto-v1673-1200.webp",
+          "sha256": "917b4bea420474559dc268c7969a39643d0bb26ca8f64e7a650ecfe5645a9d70",
+          "bytes": 141072
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/auto-ereditata-passaggio-pra-eredi.html",
+      "alt": "Auto in un cortile, con chiavi e custodia portadocumenti in primo piano",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-auto-ereditata-passaggio-pra-eredi-v1673-480.webp",
+          "sha256": "ae676775fdf9d0b0b9b95f4080315b722978f8d3316351cdaf4ca71d2d12d006",
+          "bytes": 55796
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-auto-ereditata-passaggio-pra-eredi-v1673-800.webp",
+          "sha256": "663deb1e4f040d40ee6c0c7b00a4f819e8648296025a56c498a175fa4bd1a344",
+          "bytes": 133116
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-auto-ereditata-passaggio-pra-eredi-v1673-1200.webp",
+          "sha256": "baf654feeafc9a43d5de6ef43826461bc22d2ad8dc1f0772dbff97ce713115d9",
+          "bytes": 239792
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/powerpoint-esportare-pdf-note-layout.html",
+      "alt": "Portatile con miniature di diapositive e fogli stampati accanto",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-powerpoint-esportare-pdf-note-layout-v1673-480.webp",
+          "sha256": "904491d91e3c8f490da02317ab1be34313563f7d88ab93718256e6993f16bf0b",
+          "bytes": 21916
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-powerpoint-esportare-pdf-note-layout-v1673-800.webp",
+          "sha256": "c179e59723834b9f0ceb6d6b35f103a0deae44427f6eb23c23ed7630736ae58e",
+          "bytes": 42488
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-powerpoint-esportare-pdf-note-layout-v1673-1200.webp",
+          "sha256": "dfebf16ec01805f3c8aeeb8f0d55a4c4c842a679e4a0c0b0209799527783d046",
+          "bytes": 70212
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/perche-moneta-suona-piu-acuta-prima-di-cadere.html",
+      "alt": "Disco metallico inclinato mentre ruota su un piano di legno",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-perche-moneta-suona-piu-acuta-prima-di-cadere-v1673-480.webp",
+          "sha256": "1f2d237f012f8fc5f2d0bf4702cad48ca5b923809e9763fc90e5518d4bb4f9ef",
+          "bytes": 15254
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-perche-moneta-suona-piu-acuta-prima-di-cadere-v1673-800.webp",
+          "sha256": "8c6a9a8c980e91262f807655253cea9443562687ac8a01fbbba00d2c1bb85599",
+          "bytes": 30416
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-perche-moneta-suona-piu-acuta-prima-di-cadere-v1673-1200.webp",
+          "sha256": "9fa9014bec4d4b0cb97fb258eb1f1e8f06069882eebb21f01ebaf2855c3d34bb",
+          "bytes": 52886
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/cenere-camino-stufa-smaltimento-raccolta.html",
+      "alt": "Recipiente metallico accanto a un camino spento, su una base in pietra",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-cenere-camino-stufa-smaltimento-raccolta-v1673-480.webp",
+          "sha256": "694ee944b25c7dec1f581791b064cb2b886392fdc722d90494a13120b0c03907",
+          "bytes": 28220
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-cenere-camino-stufa-smaltimento-raccolta-v1673-800.webp",
+          "sha256": "c90cd8ea3a424287ce8e50fb7776c3f70221ae5fe3a5ac21c2521fbe9f864cb2",
+          "bytes": 67954
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-cenere-camino-stufa-smaltimento-raccolta-v1673-1200.webp",
+          "sha256": "fd4340614182ce97078971d8b681daeb163ff9c0f041bd6ed18df747f3b4cd25",
+          "bytes": 126340
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/cinema-modernissimo-bologna-biglietti-accessibilita.html",
+      "alt": "Poltrone rosse in una sala cinematografica storica",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-cinema-modernissimo-bologna-biglietti-accessibilita-v1673-480.webp",
+          "sha256": "0f5d31018fb105710ce13c263fd976ed7d2d50f85d2385acd4004afd0a2262d2",
+          "bytes": 23986
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-cinema-modernissimo-bologna-biglietti-accessibilita-v1673-800.webp",
+          "sha256": "b83fb0d66768ee8704fa4895ce5df04f44782d03ced7e2406b90d30b2a9a3539",
+          "bytes": 57258
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-cinema-modernissimo-bologna-biglietti-accessibilita-v1673-1200.webp",
+          "sha256": "0c646e08f501d07643bbb141e711cc46951d55b7c23d6211f9b4eb1833fd0511",
+          "bytes": 111192
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/nuoto-misti-individuale-staffetta-ordine.html",
+      "alt": "Corsie di una piscina da gara senza nuotatori",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-nuoto-misti-individuale-staffetta-ordine-v1673-480.webp",
+          "sha256": "71c5eac085696c169771796c9fcc5e14c3b554940edb4565af341947d904eb9f",
+          "bytes": 46978
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-nuoto-misti-individuale-staffetta-ordine-v1673-800.webp",
+          "sha256": "b2ccf98d3daf79ddfaf77b7a5c82a50b2aa4b3368f37c81108416c1066377680",
+          "bytes": 114606
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-nuoto-misti-individuale-staffetta-ordine-v1673-1200.webp",
+          "sha256": "5ee1f21b310f2718ecce5eb261c5b37d4f556d0aeda2af762150db93ad1af592",
+          "bytes": 207996
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/tari-trasloco-inizio-cessazione-dichiarazione.html",
+      "alt": "Scatole per il trasloco e chiavi all’ingresso di un appartamento",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-tari-trasloco-inizio-cessazione-dichiarazione-v1673-480.webp",
+          "sha256": "69e8ae560afb70e7d36eebee605a246d24a8eaaf7cfe5e0b381a6141c0453765",
+          "bytes": 15916
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-tari-trasloco-inizio-cessazione-dichiarazione-v1673-800.webp",
+          "sha256": "6972ab315f278f69218ee4f8603f4ecc15c33eb8862e031d755f2883a6d64095",
+          "bytes": 30410
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-tari-trasloco-inizio-cessazione-dichiarazione-v1673-1200.webp",
+          "sha256": "bd6f3999f37092221eac432b9b8a5d47c5ff0c77eb9c6123eb4610423486963e",
+          "bytes": 49378
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/numero-serie-imei-verificare-dispositivo-garanzia.html",
+      "alt": "Smartphone con la sua scatola e documenti di acquisto appoggiati sul tavolo",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-numero-serie-imei-verificare-dispositivo-garanzia-v1673-480.webp",
+          "sha256": "92cfc308361eed07823a3a9095aec11866cbb4a6f155b4cd05728caaeb45e412",
+          "bytes": 23238
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-numero-serie-imei-verificare-dispositivo-garanzia-v1673-800.webp",
+          "sha256": "7a8372cb075ed718a1faf7e22ef5d23df4f42d630bfc18eba92df3dcdc2b49fe",
+          "bytes": 48752
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-numero-serie-imei-verificare-dispositivo-garanzia-v1673-1200.webp",
+          "sha256": "e89d7f4f7d857e1b7bdb1579a2f9aea58e29835472e992183faab1c1725bfdea",
+          "bytes": 88888
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/perche-bottiglia-cambia-nota-con-acqua.html",
+      "alt": "Due bottiglie trasparenti con livelli d’acqua diversi",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-perche-bottiglia-cambia-nota-con-acqua-v1673-480.webp",
+          "sha256": "21e030eb96ac9ea8bc7ff1f646f3a8545faecd55b7a7cb9b4b293fe804db4b3e",
+          "bytes": 31764
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-perche-bottiglia-cambia-nota-con-acqua-v1673-800.webp",
+          "sha256": "0624d6bae3237a62de6b9d2881a4142b1df2dd4d9f580f54d86ebde24e28a6ee",
+          "bytes": 64726
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-perche-bottiglia-cambia-nota-con-acqua-v1673-1200.webp",
+          "sha256": "8554da11ee5cbc65142705160251b5a8ff610e00d12683b86a755b493ef68daf",
+          "bytes": 111282
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/balcone-gelo-proteggere-piante-vaso.html",
+      "alt": "Piante ornamentali in vaso protette sul balcone di un appartamento",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-balcone-gelo-proteggere-piante-vaso-v1673-480.webp",
+          "sha256": "bb42a126122edbeb3cfece96690c897aeff383f40eb5d2c93619e0b4cc08aac6",
+          "bytes": 46522
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-balcone-gelo-proteggere-piante-vaso-v1673-800.webp",
+          "sha256": "dd465b34f723065b04bae04920644999b73a2bc914e4beee11305eece7678f3e",
+          "bytes": 109972
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-balcone-gelo-proteggere-piante-vaso-v1673-1200.webp",
+          "sha256": "2aa5dbff0c5b9e7639a488a630602878d30a4bcad7c4c3a33d9a9a0daaa25cc8",
+          "bytes": 205888
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/cimitero-monumentale-milano-visita.html",
+      "alt": "Facciata del Famedio del Cimitero Monumentale di Milano",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-cimitero-monumentale-milano-visita-v1673-480.webp",
+          "sha256": "4ce9d822af45d323f366fcd4bcb5fc271981bc84bdc2234d639a77b54641c7a0",
+          "bytes": 41878
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-cimitero-monumentale-milano-visita-v1673-800.webp",
+          "sha256": "305806b2dd1c69c82ed5343e565b430a23499dc0e322ea5e065f07170e7541ec",
+          "bytes": 102630
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-cimitero-monumentale-milano-visita-v1673-1200.webp",
+          "sha256": "7647c4bf0aad8ed9a7d46e48a14140fd081da6ee82f85d660b8f2aa906534efd",
+          "bytes": 197336
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/diamond-league-atletica-punti-finale.html",
+      "alt": "Blocchi di partenza su una pista di atletica vuota con tribune illuminate",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-diamond-league-atletica-punti-finale-v1673-480.webp",
+          "sha256": "fc1ec5080500b339001a150e182eabbb64c06b070c16f17fb05a1b7613369887",
+          "bytes": 39784
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-diamond-league-atletica-punti-finale-v1673-800.webp",
+          "sha256": "9376bfce85a033f4bc33de4036171c6a90aab9503b2c9a65f91e3d3cfa256f28",
+          "bytes": 105022
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-diamond-league-atletica-punti-finale-v1673-1200.webp",
+          "sha256": "ff246a23e06a19a218663f4612fd8c2ff53e5135ee6989cdad5290661b5614a5",
+          "bytes": 204186
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/dac7-vendita-online-privati-piattaforme.html",
+      "alt": "Lampada in ceramica e imballaggio preparati per una spedizione",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-dac7-vendita-online-privati-piattaforme-v1673-480.webp",
+          "sha256": "3a3922b3167ce52d193b928daa88b8e45c4309326f9c4610feb35d32f985f035",
+          "bytes": 29110
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-dac7-vendita-online-privati-piattaforme-v1673-800.webp",
+          "sha256": "b8651b8b2010de36b8234e1b9c04ea25bc6b3f434acb4156c18d8e62d08a067a",
+          "bytes": 61380
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-dac7-vendita-online-privati-piattaforme-v1673-1200.webp",
+          "sha256": "040a262ee5108cc7f059ce204755db18b141ff3900ceb23d6ae2dd861971a72b",
+          "bytes": 112648
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/segnalibri-browser-esportare-importare-html.html",
+      "alt": "Due schermi con simboli di cartelle e segnalibri",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-segnalibri-browser-esportare-importare-html-v1673-480.webp",
+          "sha256": "d85bbd3ea5f5304253812381613c65695d5fcef08bceaecb25564ec3e98ad2f8",
+          "bytes": 31372
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-segnalibri-browser-esportare-importare-html-v1673-800.webp",
+          "sha256": "472fc8e5e1ace08727925b555f244f952c767dd164e918a0906955ff502d67e8",
+          "bytes": 61400
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-segnalibri-browser-esportare-importare-html-v1673-1200.webp",
+          "sha256": "ba78d4a1e17d459dd653e2915b306c2ed1ff5ccbeae9e156895793984edc91ea",
+          "bytes": 97898
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/perche-telefono-riprende-strisce-schermo.html",
+      "alt": "Schermo ripreso da un telefono con bande scure nell’anteprima",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-perche-telefono-riprende-strisce-schermo-v1673-480.webp",
+          "sha256": "7897005d014a852a92e0a7f2147f28d1e365e8bae0669171936c408f128e1496",
+          "bytes": 11796
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-perche-telefono-riprende-strisce-schermo-v1673-800.webp",
+          "sha256": "dffcbfa62133ae4b5da7cfe6053f810c59223bb57cdb848da96def9602cf4fb0",
+          "bytes": 21886
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-perche-telefono-riprende-strisce-schermo-v1673-1200.webp",
+          "sha256": "c395a73b07360b48417989363cc1f749c14ca2d9d0de7f03be3a598f19a079fe",
+          "bytes": 35072
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/neve-al-suolo-altezza-neve-fresca.html",
+      "alt": "Asta per misurare la neve in un campo alpino accanto a una stazione meteo",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-neve-al-suolo-altezza-neve-fresca-v1673-480.webp",
+          "sha256": "f9c22836f64a45ce76a0474edc83e61ba27fc7d9f86be82cadb63535d99025c9",
+          "bytes": 31706
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-neve-al-suolo-altezza-neve-fresca-v1673-800.webp",
+          "sha256": "2b63c21b8c9407a8f4d6c68deff73d7fe5a68ee546d311ceb829bb846fe4ee82",
+          "bytes": 75114
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-neve-al-suolo-altezza-neve-fresca-v1673-1200.webp",
+          "sha256": "22d8c11e77fdea2e69a251c00da1feefba1565c76ff34ec5927275fa14e88a1c",
+          "bytes": 131082
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/museo-violino-cremona-visita-audizioni.html",
+      "alt": "Violino storico illuminato in una teca museale",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-museo-violino-cremona-visita-audizioni-v1673-480.webp",
+          "sha256": "7c6c11c9d89a780022984a28abca8c87771df44980de0d772b6fd152e3a8c789",
+          "bytes": 16356
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-museo-violino-cremona-visita-audizioni-v1673-800.webp",
+          "sha256": "168398e57ab5524bd4164820f4b140095343171901a30618f212436f990bda36",
+          "bytes": 32320
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-museo-violino-cremona-visita-audizioni-v1673-1200.webp",
+          "sha256": "e86c19c545c75c053eee61d88921993f3f380660e0f83ab1cfa4dddde3fd25cc",
+          "bytes": 55812
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/calcio-sostituzioni-cinque-cambi-tre-slot.html",
+      "alt": "Pettorine ripiegate e pannello elettronico spento in una panchina da calcio",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-calcio-sostituzioni-cinque-cambi-tre-slot-v1673-480.webp",
+          "sha256": "c9c5476fa954ee7b35df29c4da32cfa6aa465133e49fb1ab11761ce9e1b2df27",
+          "bytes": 23078
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-calcio-sostituzioni-cinque-cambi-tre-slot-v1673-800.webp",
+          "sha256": "67a4cfda9397e991d7014b61da1c244700678172706c035221fe04b8e795755b",
+          "bytes": 53450
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-calcio-sostituzioni-cinque-cambi-tre-slot-v1673-1200.webp",
+          "sha256": "d33ebe99c08230d4098cae8b5c9d4c6e6e948ec2b02fa126dfba00b967026101",
+          "bytes": 95686
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/bonus-sociale-bollette-dsu-isee-acqua-luce-gas.html",
+      "alt": "Buste delle utenze e bicchiere d’acqua sul piano della cucina",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-bonus-sociale-bollette-dsu-isee-acqua-luce-gas-v1673-480.webp",
+          "sha256": "5a65569ec71d3a40f9cd9d7a278dad5fd700e2c3d9611d512ecc4694e01ae7db",
+          "bytes": 24110
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-bonus-sociale-bollette-dsu-isee-acqua-luce-gas-v1673-800.webp",
+          "sha256": "5a68fa6aa68245cdc45121b8a3bd9ca19f928c35b7fb1cd070b683d4bca93ed5",
+          "bytes": 49660
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-bonus-sociale-bollette-dsu-isee-acqua-luce-gas-v1673-1200.webp",
+          "sha256": "3371a319e527363b553d8cd1b74e558ba5fd5794f62ef8c7b005489d92820a71",
+          "bytes": 84192
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/sveglia-iphone-android-silenzioso-volume.html",
+      "alt": "Telefono e sveglia analogica su un comodino",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-sveglia-iphone-android-silenzioso-volume-v1673-480.webp",
+          "sha256": "e77ac7848107d7f580080275fb52ecbedb6bf6f9fa8bdb5bd4e6fdae8a1801d3",
+          "bytes": 24518
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-sveglia-iphone-android-silenzioso-volume-v1673-800.webp",
+          "sha256": "b14530c8e727f92842562dcf514263eff4dc55427bbcb26d2fa4025f343bda93",
+          "bytes": 49048
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-sveglia-iphone-android-silenzioso-volume-v1673-1200.webp",
+          "sha256": "8b156f9b450d2c797e0b0adfcf171adef0d24a62573aa35eb022488159886fc9",
+          "bytes": 82258
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/perche-gocce-acqua-rotolano-foglia-loto.html",
+      "alt": "Gocce d’acqua sferiche su una foglia verde di loto",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-perche-gocce-acqua-rotolano-foglia-loto-v1673-480.webp",
+          "sha256": "391f9c0b1c818232deed6c4a56f0a2f8af25eb8f9ebb80f23b0b9f4b9a3464eb",
+          "bytes": 23300
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-perche-gocce-acqua-rotolano-foglia-loto-v1673-800.webp",
+          "sha256": "ac83dee7b2b176bd2dc4c10eaa689f5b7f0e85db3d8fc68178af8d12bbdc2c35",
+          "bytes": 48994
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-perche-gocce-acqua-rotolano-foglia-loto-v1673-1200.webp",
+          "sha256": "73cac5aa1379ec4ac4359dc50606466a201e311a1f461bc88c22967a423cab8b",
+          "bytes": 85524
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/vento-raffiche-velocita-media-previsione.html",
+      "alt": "Anemometro su un palo meteorologico accanto a un prato mosso dal vento",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-vento-raffiche-velocita-media-previsione-v1673-480.webp",
+          "sha256": "03efe70e34223ff5f3af4845a31cfbd71c1bb284e7e273eab6a4ef0fb79a8263",
+          "bytes": 36110
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-vento-raffiche-velocita-media-previsione-v1673-800.webp",
+          "sha256": "ad89a2e272757a69e4b71193314454473f7ababe683f76b112585e2e87a3465e",
+          "bytes": 77874
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-vento-raffiche-velocita-media-previsione-v1673-1200.webp",
+          "sha256": "e8de4625100cfff51c2c19e9057e11ce8b6ab22447d0c354278aa1ad0000dce7",
+          "bytes": 132234
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/reggia-caserta-parco-reale-giardino-inglese.html",
+      "alt": "Vasca e cascata prospettica nel Parco Reale di Caserta",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-reggia-caserta-parco-reale-giardino-inglese-v1673-480.webp",
+          "sha256": "85ca09a5001ef24c6f5b689ff841a3ca7fab21ecc34f5bfa805b9266c5521acb",
+          "bytes": 53630
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-reggia-caserta-parco-reale-giardino-inglese-v1673-800.webp",
+          "sha256": "4fe03851b074f571f13ff8d66a40754d70b11b1e62bd6304d4b299812ce54cfd",
+          "bytes": 138990
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-reggia-caserta-parco-reale-giardino-inglese-v1673-1200.webp",
+          "sha256": "9f078636b2a2fc7ef5eeae98db1b41bef90f89d82ab925aa8b331c0afc7deafc",
+          "bytes": 282014
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/ginnastica-ritmica-attrezzi-punteggi-individuale-squadra.html",
+      "alt": "Cerchio, palla e nastro su una pedana di ginnastica ritmica",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-ginnastica-ritmica-attrezzi-punteggi-individuale-squadra-v1673-480.webp",
+          "sha256": "d48e7323e684c891e63f3089e8b46fc22009c497bc541fdd57e13bd1ab232fc4",
+          "bytes": 17124
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-ginnastica-ritmica-attrezzi-punteggi-individuale-squadra-v1673-800.webp",
+          "sha256": "2de4135b7a7325dd7cbc24852864b2d4bcb5b20be3aa89df1772e1da6fa97362",
+          "bytes": 43364
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-ginnastica-ritmica-attrezzi-punteggi-individuale-squadra-v1673-1200.webp",
+          "sha256": "c6fd66a71df9dcf5c8b6b79bf416a89901fcd6e5c7ed9f44eecea4bb51294f17",
+          "bytes": 84854
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/f24-online-quietanza-scarto.html",
+      "alt": "Computer e calcolatrice accanto a una cartellina",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-f24-online-quietanza-scarto-v1673-480.webp",
+          "sha256": "29563c57616f89c04a0336e6f3c8b18701e506547131e5c1c00d7446c336f9a8",
+          "bytes": 25390
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-f24-online-quietanza-scarto-v1673-800.webp",
+          "sha256": "a44bca4149e67d0aa16bebc1d45634d8c7a1aaa9f1e18dae28c7c6f631f0dd4f",
+          "bytes": 51644
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-f24-online-quietanza-scarto-v1673-1200.webp",
+          "sha256": "6379572b9c0f4297eec905d878a5ed46414dfc9528507819ce806e91f9545f09",
+          "bytes": 84598
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/epub-kindle-kobo-trasferire-libri.html",
+      "alt": "Lettore e-ink collegato via cavo a un portatile",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-epub-kindle-kobo-trasferire-libri-v1673-480.webp",
+          "sha256": "d6ae0d43ff52c75e806d3072ec90ed5571fa8dbd5066f84a1dd853501e6a4bac",
+          "bytes": 22534
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-epub-kindle-kobo-trasferire-libri-v1673-800.webp",
+          "sha256": "1c32f97b6f2a0cd8956c7c85ea389bbda154ab103191922126f471581af53e36",
+          "bytes": 44520
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-epub-kindle-kobo-trasferire-libri-v1673-1200.webp",
+          "sha256": "ae6741cf292dd25d02342714315f30a55e0c2d8012aa86ccdf150207a0fffad9",
+          "bytes": 73736
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/perche-cubetti-ghiaccio-bianchi-centro.html",
+      "alt": "Cubetto di ghiaccio con un nucleo bianco e bordi trasparenti",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-perche-cubetti-ghiaccio-bianchi-centro-v1673-480.webp",
+          "sha256": "1ee719392bcafb5a9e000673f84e54622fb5907569f546e50cb87793dfbbbf13",
+          "bytes": 20994
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-perche-cubetti-ghiaccio-bianchi-centro-v1673-800.webp",
+          "sha256": "659eb06b9c400fd4813b082844937267643b06668e65d984b249fb3d526f2483",
+          "bytes": 49692
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-perche-cubetti-ghiaccio-bianchi-centro-v1673-1200.webp",
+          "sha256": "154271da99e03ebf353a5ed4debced569e632c81024eafafaebf2c3d1b45f616",
+          "bytes": 95536
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/neve-mare-lake-effect-adriatico.html",
+      "alt": "Neve discontinua sulla vegetazione lungo la costa adriatica sotto nubi basse",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-neve-mare-lake-effect-adriatico-v1673-480.webp",
+          "sha256": "8852669613c5688f43f2cb62a9c9562d4a019c708bdafe70cd824cc2257a5adb",
+          "bytes": 35464
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-neve-mare-lake-effect-adriatico-v1673-800.webp",
+          "sha256": "864433148323ddf758c4f65da8a217d03e78c85e4087efa721d2795921856cd1",
+          "bytes": 91274
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-neve-mare-lake-effect-adriatico-v1673-1200.webp",
+          "sha256": "c5e335225125cfbd7f2a043bcacc449d9508049e03bc57006cb687c3dbc11629",
+          "bytes": 180532
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/uefa-qualificazione-coppe-coefficienti-posti-extra.html",
+      "alt": "Pallone vicino alla linea laterale di uno stadio di calcio vuoto",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-uefa-qualificazione-coppe-coefficienti-posti-extra-v1673-480.webp",
+          "sha256": "c1d62c4c5705e17933a09a792dba96a76ab6a0dbc3abc3d7e590738499ccf308",
+          "bytes": 26216
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-uefa-qualificazione-coppe-coefficienti-posti-extra-v1673-800.webp",
+          "sha256": "824354ddac460d7f85480aa36ad816abd53b8a14355709d85a9b57617c59ce91",
+          "bytes": 70578
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-uefa-qualificazione-coppe-coefficienti-posti-extra-v1673-1200.webp",
+          "sha256": "8d5b3340f6c7e5adb13780ebf918333eaf26bf7916b968bdb2110527d17ef348",
+          "bytes": 143074
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/730-precompilato-correggere-dopo-invio.html",
+      "alt": "Due pile di fogli fiscali, occhiali e matita su una scrivania",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-730-precompilato-correggere-dopo-invio-v1673-480.webp",
+          "sha256": "0e28cd2762313c61cad86a0e44a8fd91d622693ea17100301fdaf414236ec67d",
+          "bytes": 24336
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-730-precompilato-correggere-dopo-invio-v1673-800.webp",
+          "sha256": "564a29d40b92bc96809a294057bd38d33e0f92e5f80404bf2552fa9c4ab1f4d1",
+          "bytes": 51808
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-730-precompilato-correggere-dopo-invio-v1673-1200.webp",
+          "sha256": "eb08ee2f58fdfe8ded5789c0c47af5414bd2dce7549582b277430cc8bf184119",
+          "bytes": 92334
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/perche-righello-vibra-nota-diversa.html",
+      "alt": "Righello flessibile che sporge e vibra oltre il bordo di un tavolo",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-perche-righello-vibra-nota-diversa-v1673-480.webp",
+          "sha256": "8be210bf06895c0a1a6ab6b984cf541ed9f8ee25599f2d5daf3387513522844c",
+          "bytes": 9918
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-perche-righello-vibra-nota-diversa-v1673-800.webp",
+          "sha256": "3a05522e9beff154bacd068d8e350367500e8d3de9411202982a227751a35f7b",
+          "bytes": 19746
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-perche-righello-vibra-nota-diversa-v1673-1200.webp",
+          "sha256": "cfe132f0e82948f5512d494d194009bb1a0afcaf3f3364e913221e19feaef3c4",
+          "bytes": 33330
+        }
+      ]
+    },
+    {
+      "article": "/approfondimenti/neve-comune-piano-sgombero-strade.html",
+      "alt": "Spartineve comunale al lavoro su una strada di un paese italiano",
+      "aiGenerated": true,
+      "disclosure": "Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.",
+      "variants": [
+        {
+          "w": 480,
+          "h": 320,
+          "src": "/assets/images/editorial-auto/guida-neve-comune-piano-sgombero-strade-v1673-480.webp",
+          "sha256": "26a6509f88b4e94cea35dd5d9774b12ff7b673d76d93026a0bc10f6e3e0decce",
+          "bytes": 43644
+        },
+        {
+          "w": 800,
+          "h": 533,
+          "src": "/assets/images/editorial-auto/guida-neve-comune-piano-sgombero-strade-v1673-800.webp",
+          "sha256": "e32f1f03a6a8794782ed9f83150953993c39051469a956618dd0f62951b39210",
+          "bytes": 108848
+        },
+        {
+          "w": 1200,
+          "h": 800,
+          "src": "/assets/images/editorial-auto/guida-neve-comune-piano-sgombero-strade-v1673-1200.webp",
+          "sha256": "813bff80c1a51d7317edb3ece31cbbcd83ebc1d841f187e6c9cca9c7f5e720d2",
+          "bytes": 211192
+        }
+      ]
+    },
     {
       "article": "/notizie/torino-sequestro-droga-quattro-arresti-27-novembre-2026.html",
       "aiGenerated": true,
