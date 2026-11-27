@@ -330,8 +330,42 @@ body[data-category-cover="true"] #main-content .cm-editorial-signature__wordmark
 body[data-category-cover="true"] #main-content .cm-editorial-signature__foot-logo{width:34px;height:34px}
 body[data-category-cover="true"] #main-content .cm-editorial-signature__proof{border:0!important;border-top:1px solid var(--flow-rule)!important}
 }
+/* Home drawer: the same mark and typography, with less space between actions. */
+body[data-drawer-revision="v21"] #drawer{background:var(--flow-paper)!important;color:var(--flow-ink)!important;border-radius:0 18px 18px 0!important}
+body[data-drawer-revision="v21"] #drawer::backdrop{background:#10203370!important;backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px)}
+body[data-drawer-revision="v21"] #drawer .drawer-head{min-height:0!important;padding:10px 12px!important;gap:7px!important;background:var(--flow-paper)!important;border-bottom:1px solid var(--flow-rule)}
+body[data-drawer-revision="v21"] #drawer .drawer-brand-line{display:flex!important;align-items:center!important;gap:6px!important;flex-wrap:wrap;min-width:0}
+body[data-drawer-revision="v21"] #drawer .drawer-brand-home{gap:5px;white-space:nowrap}
+body[data-drawer-revision="v21"] #drawer .drawer-brand-home img{width:31px;height:31px;border-radius:50%;object-fit:cover}
+body[data-drawer-revision="v21"] #drawer .cm-drawer-word{display:inline-flex!important;align-items:baseline;gap:.065em;white-space:nowrap;font:700 clamp(21px,6.25vw,29px)/.95 var(--flow-serif,Georgia,serif)!important;letter-spacing:-.083em!important;text-shadow:none!important;color:var(--flow-ink)!important}
+body[data-drawer-revision="v21"] #drawer .cm-drawer-word b{isolation:isolate;position:relative;display:inline-block;color:#fff!important;-webkit-text-fill-color:#fff!important;padding:.065em .16em .035em .125em;text-shadow:none!important;letter-spacing:inherit}
+body[data-drawer-revision="v21"] #drawer .cm-drawer-word b::before{content:"";position:absolute;inset:-.075em 0 .125em;z-index:-1;background:#155fba;border-radius:.10em}
+body[data-drawer-revision="v21"] #drawer .cm-drawer-word i{font-weight:400;font-style:italic;color:var(--flow-blue)!important;-webkit-text-fill-color:var(--flow-blue)!important;text-shadow:none!important}
+body[data-drawer-revision="v21"] #drawer .cm-nicaise-drawer{padding-left:5px!important;border-left:1px solid var(--flow-rule)!important}
+body[data-drawer-revision="v21"] #drawer .cm-nicaise-drawer .cm-nicaise-word{font-size:clamp(13px,4.05vw,21px)!important;line-height:1!important;text-shadow:none!important}
+body[data-drawer-revision="v21"] #drawer .drawer-close{min-width:40px!important;width:40px!important;height:40px!important;background:var(--flow-panel)!important;color:var(--flow-ink)!important;border-color:var(--flow-rule)!important}
+body[data-drawer-revision="v21"] #drawer .drawer-content{gap:11px!important;padding:6px 13px max(13px,env(safe-area-inset-bottom))!important}
+body[data-drawer-revision="v21"] #drawer .mx-split{background:transparent!important;box-shadow:none!important;border-bottom:1px solid var(--flow-rule);border-radius:0!important}
+body[data-drawer-revision="v21"] #drawer .mx-split a{min-height:39px;padding:5px 4px;color:var(--flow-ink);font:700 16px/1.1 var(--flow-serif,Georgia,serif);border-color:var(--flow-rule)}
+body[data-drawer-revision="v21"] #drawer .mx-tools .drawer-tool{min-height:47px!important;gap:5px!important;padding:5px 6px!important;background:var(--flow-panel)!important;border:1px solid var(--flow-rule)!important;border-radius:8px!important;box-shadow:none!important;color:var(--flow-ink)!important}
+body[data-drawer-revision="v21"] #drawer .mx-tools .drawer-tool-icon{width:20px!important;height:20px!important;background:none!important;color:var(--flow-blue)}
+body[data-drawer-revision="v21"] #drawer .mx-tools .drawer-tool-icon svg{width:16px;height:16px}
+body[data-drawer-revision="v21"] #drawer .drawer-tool-copy strong{font-size:.73rem}
+body[data-drawer-revision="v21"] #drawer .drawer-switch{width:29px;height:18px}
+body[data-drawer-revision="v21"] #drawer .drawer-switch::after{width:14px;height:14px}
+body[data-drawer-revision="v21"] #drawer .drawer-tool[aria-pressed="true"] .drawer-switch::after{transform:translateX(11px)}
+body[data-drawer-revision="v21"] #drawer .mx-entry{min-height:49px;justify-content:center;gap:2px;padding:7px 29px 7px 0;color:var(--flow-ink);border-bottom:1px solid var(--flow-rule)}
+body[data-drawer-revision="v21"] #drawer .mx-entry strong{font:700 clamp(18px,5.35vw,23px)/1.02 var(--flow-serif,Georgia,serif);letter-spacing:-.033em}
+body[data-drawer-revision="v21"] #drawer .mx-entry small{font:400 .7rem/1.25 Arial,sans-serif;color:var(--flow-ink);opacity:.75}
+body[data-drawer-revision="v21"] #drawer .mx-entry em{top:50%;right:1px;transform:translateY(-50%);font:700 .72rem/1 Arial,sans-serif;color:var(--flow-blue);opacity:.68}
+body[data-drawer-revision="v21"] #drawer .mx-topics p{color:var(--flow-ink);margin:3px 0 7px}
+body[data-drawer-revision="v21"] #drawer .mx-topics div{gap:7px 12px}
+body[data-drawer-revision="v21"] #drawer .mx-topics a{font:700 15px/1.1 var(--flow-serif,Georgia,serif);color:var(--flow-ink);padding:4px 0}
+body[data-drawer-revision="v21"] #drawer .drawer-brand-card{padding:10px 0 2px!important;margin-top:4px;min-height:0!important;gap:7px!important;background:transparent!important;border:0!important;border-top:1px solid var(--flow-rule)!important;box-shadow:none!important;border-radius:0!important}
+body[data-drawer-revision="v21"] #drawer .drawer-brand-card img{width:34px;height:34px;border-radius:50%}
+body[data-drawer-revision="v21"] #drawer .drawer-brand-card small{color:var(--flow-ink)!important}
 </style></head>
-<body class="cm-home-flow cm-home-edizione-v19" data-category-cover="true">
+<body class="cm-home-flow cm-home-edizione-v19" data-category-cover="true" data-drawer-revision="v21">
 <a class="cm-skip-link" href="#main-content">Vai al contenuto</a>
 <header class="header">
 <div class="container nav">
@@ -424,7 +458,7 @@ body[data-category-cover="true"] #main-content .cm-editorial-signature__proof{bo
 <dialog aria-labelledby="drawerTitle" class="drawer" id="drawer">
 <div class="drawer-head">
 <div class="drawer-brand-line">
-<a aria-label="CurioMondo home" class="drawer-brand-home" href="/"><span class="cm-wordmark" id="drawerTitle">Curio<span>Mondo</span></span></a>
+<a aria-label="CurioMondo home" class="drawer-brand-home" href="/"><img src="/assets/images/curiomondo-logo-circle-v715-96.webp?v=715" alt="" width="31" height="31"><span class="cm-wordmark cm-drawer-word" id="drawerTitle"><b>Curio</b><i>Mondo.</i></span></a>
 <div aria-label="Nicaise" class="cm-nicaise-signature cm-nicaise-drawer"><span class="cm-nicaise-word"><b>N</b>icaise</span></div>
 </div>
 <button aria-label="Chiudi menu" class="drawer-close" data-close-dialog="" type="button">×</button>
@@ -461,7 +495,7 @@ body[data-category-cover="true"] #main-content .cm-editorial-signature__proof{bo
 <a href="/categorie/ambiente/">Ambiente</a>
 </div>
 </div>
-<a aria-label="CurioMondo, torna alla home" class="drawer-brand-card" href="/"><img alt="CurioMondo" height="66" src="/assets/images/curiomondo-logo-circle-v715-96.webp?v=715" width="66"><span><strong>Curio<span>Mondo</span></strong><small>La curiosità è il nostro mondo.</small></span></a>
+<a aria-label="CurioMondo, torna alla home" class="drawer-brand-card" href="/"><img alt="CurioMondo" height="66" src="/assets/images/curiomondo-logo-circle-v715-96.webp?v=715" width="66"><span><strong class="cm-drawer-word"><b>Curio</b><i>Mondo.</i></strong><small>La curiosità è il nostro mondo.</small></span></a>
 </div>
 </dialog>
 <dialog class="cm-search-modal" id="homeSearchDialog" aria-label="Cerca in CurioMondo">
