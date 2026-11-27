@@ -3,7 +3,7 @@
 
   const DATA_URL = '/assets/data/scioperi.json';
   const page = document.documentElement.dataset.page || 'current';
-  const state = { data: null, current: [], filtered: [], openRegions: new Set() };
+  const state = { data: null, current: [], filtered: [], openRegions: new Set(), resettingForLink: false };
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
   const fallback = (value) => value === null || value === undefined || value === '' ? 'Non comunicato' : String(value);
@@ -82,7 +82,7 @@
       <details class="event-fold">
         <summary>
           <time class="event-date" datetime="${escapeHtml(event.startsAt)}"><span class="weekday">${escapeHtml(d.weekday)}</span><strong>${escapeHtml(d.day)}</strong><span class="month">${escapeHtml(d.month)}</span></time>
-          <h3>${escapeHtml(event.title)}</h3>
+          ${page === 'current' ? `<span class="event-heading"><span class="event-title">${escapeHtml(event.title)}</span><span class="event-preview">${escapeHtml(event.sectorLabel)} · ${escapeHtml(event.territory)}<br>${escapeHtml(event.scheduleText)}</span></span>` : `<h3>${escapeHtml(event.title)}</h3>`}
           <span class="status-badge" data-status="${escapeHtml(event.status)}">${escapeHtml(titleCase(event.status))}</span>
           <span class="fold-chevron" aria-hidden="true"></span>
         </summary>
@@ -94,6 +94,7 @@
             <div><dt>Fasce e servizi garantiti</dt><dd>${escapeHtml(event.guarantees)}</dd></div>
             <div><dt>Ultima verifica</dt><dd>${escapeHtml(verifiedDate(event.verifiedAt))} · Europe/Rome</dd></div>
           </dl>
+          ${event.source?.url ? `<p class="event-source"><a href="${escapeHtml(safeUrl(event.source.url))}">Fonte ufficiale: ${escapeHtml(event.source.label)}</a></p>` : ''}
           ${articleBlock(event.article)}
         </div>
       </details>
@@ -106,7 +107,7 @@
     const target = $('#nationalEvents');
     if (!target) return;
     const events = sorted(state.filtered.filter(event => event.national));
-    target.innerHTML = events.length ? events.map(event => eventCard(event, 'national')).join('') : empty('Nessuno sciopero nazionale corrisponde ai filtri selezionati.');
+    target.innerHTML = events.length ? events.map(event => eventCard(event, 'national')).join('') : empty(state.current.some(event => event.national) ? 'Nessuno sciopero nazionale corrisponde ai filtri. Prova a cambiare periodo, settore o stato.' : 'Al momento non risultano scioperi nazionali in calendario.');
     $('#nationalCount').textContent = plural(events.length);
   }
 
@@ -135,6 +136,20 @@
     }));
     const search = $('#regionSearch');
     if (search) search.addEventListener('input', filterRegionList);
+    const jump = $('#regionJump');
+    if (jump) {
+      state.data.regions.forEach(region => jump.add(new Option(region.name, region.slug)));
+      $('#regionQuick').hidden = false;
+      jump.addEventListener('change', () => {
+        if (!jump.value) return;
+        if (search) search.value = '';
+        filterRegionList();
+        $('#regionsFold').open = true;
+        setRegionOpen(jump.value, true, true);
+        $('.region-toggle', document.getElementById(jump.value)).focus({preventScroll:true});
+        document.getElementById(jump.value).scrollIntoView({block:'start'});
+      });
+    }
   }
 
   function filterRegionList() {
@@ -169,7 +184,7 @@
       const allRegionEvents = state.current.filter(event => event.regions.includes(region.slug));
       const filtered = sorted(state.filtered.filter(event => event.regions.includes(region.slug)));
       $('.region-count', item).textContent = plural(filtered.length, 'sciopero', 'scioperi');
-      $('.region-next', item).textContent = filtered.length ? `Prossimo: ${shortDate(filtered[0])}` : 'Prossimo: non disponibile';
+      $('.region-next', item).textContent = filtered.length ? `Prossimo: ${shortDate(filtered[0])}` : 'Nessuna data nei risultati';
       const panel = $('.region-panel', item);
       if (filtered.length) panel.innerHTML = `<div class="events-list">${filtered.map(event => eventCard(event, `region-${region.slug}`)).join('')}</div>`;
       else if (!allRegionEvents.length) panel.innerHTML = empty('Al momento non risultano scioperi programmati per questa regione.');
@@ -206,7 +221,12 @@
     renderNational();
     renderRegions();
     const summary = $('#filterSummary');
-    if (summary) summary.textContent = `${plural(state.filtered.length)} corrispondenti. I conteggi regionali includono gli scioperi nazionali pertinenti.`;
+    if (summary) summary.textContent = state.filtered.length
+      ? `${plural(state.filtered.length, 'sciopero', 'scioperi')} nel calendario. I conteggi per regione includono gli eventi nazionali pertinenti.`
+      : (state.current.length ? 'Nessuno sciopero corrisponde a questi filtri. Cambia la ricerca o azzera i filtri.' : 'Al momento non risultano scioperi in calendario. Consulta l’archivio per gli eventi conclusi.');
+    const chosen = $('#periodFilter').value;
+    const day = chosen === 'today' ? romeToday() : (chosen === 'custom' && $('#dateFrom').value === $('#dateTo').value ? $('#dateFrom').value : '');
+    $$('#strikeDates button').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.day === day)));
   }
 
   function bindFilters() {
@@ -215,10 +235,67 @@
     const period = $('#periodFilter');
     const custom = $('#customDates');
     const updateCustom = () => { custom.hidden = period.value !== 'custom'; };
+    form.addEventListener('submit', event => event.preventDefault());
     form.addEventListener('input', () => { updateCustom(); applyFilters(); });
     form.addEventListener('change', () => { updateCustom(); applyFilters(); });
-    form.addEventListener('reset', () => setTimeout(() => { updateCustom(); applyFilters(); }, 0));
+    form.addEventListener('reset', () => {
+      if (!state.resettingForLink) setTimeout(() => { updateCustom(); applyFilters(); }, 0);
+    });
     updateCustom();
+  }
+
+  function renderSpotlight() {
+    const target = $('#nextStrikes');
+    if (!target) return;
+    const today = romeToday();
+    const fmt = new Intl.DateTimeFormat('it-IT', { weekday:'long', day:'numeric', month:'long', timeZone:'Europe/Rome' });
+    const label = $('#strikeToday');
+    label.dateTime = today;
+    label.textContent = fmt.format(new Date(`${today}T12:00:00Z`));
+    label.hidden = false;
+    target.addEventListener('click', click => {
+      const link = click.target.closest('a');
+      if (link && link.hash === location.hash) {
+        click.preventDefault();
+        openFromHash();
+      }
+    });
+    const events = state.current.filter(event => !['revocato','rinviato'].includes(event.status));
+    target.innerHTML = events.length ? events.slice(0, 3).map(event => {
+      const d = dateParts(event);
+      const isToday = event.startDate <= today && event.endDate >= today;
+      return `<article class="strike-next-card">
+        <div class="strike-next-top"><time datetime="${escapeHtml(event.startsAt)}"><strong>${escapeHtml(isToday ? 'Oggi' : d.weekday)}</strong>${isToday ? '' : ' ' + escapeHtml(d.day + ' ' + d.month)}</time><span class="status-badge" data-status="${escapeHtml(event.status)}">${escapeHtml(titleCase(event.status))}</span></div>
+        <h3><a href="#${escapeHtml(encodeURIComponent(event.id))}">${escapeHtml(event.title)}</a></h3>
+        <p>${escapeHtml(event.sectorLabel)} · ${escapeHtml(event.territory)}</p>
+        <p class="strike-next-hours">${escapeHtml(event.scheduleText)}</p>
+      </article>`;
+    }).join('') : empty('Al momento non risultano scioperi in evidenza. Verifica il calendario o consulta l’archivio.');
+  }
+
+  function renderDates() {
+    const rail = $('#strikeDates');
+    if (!rail) return;
+    const today = romeToday();
+    const weekdays = new Intl.DateTimeFormat('it-IT', { weekday:'short', timeZone:'Europe/Rome' });
+    const dates = new Intl.DateTimeFormat('it-IT', { day:'numeric', month:'short', timeZone:'Europe/Rome' });
+    rail.innerHTML = Array.from({length:7}, (_, index) => {
+      const date = addDays(today, index);
+      const moment = new Date(`${date}T12:00:00Z`);
+      const count = state.current.filter(event => event.startDate <= date && event.endDate >= date).length;
+      const name = index ? weekdays.format(moment) : 'Oggi';
+      return `<button type="button" data-day="${date}" aria-pressed="false" aria-label="${escapeHtml(name + ' ' + dates.format(moment) + ': ' + plural(count))}"><span>${escapeHtml(name)}</span><strong>${escapeHtml(dates.format(moment))}</strong><small>${plural(count, 'evento', 'eventi')}</small></button>`;
+    }).join('');
+    rail.hidden = false;
+    rail.addEventListener('click', event => {
+      const button = event.target.closest('button[data-day]');
+      if (!button) return;
+      const active = button.getAttribute('aria-pressed') === 'true';
+      $('#periodFilter').value = active ? 'all' : 'custom';
+      $('#dateFrom').value = $('#dateTo').value = active ? '' : button.dataset.day;
+      $('#customDates').hidden = active;
+      applyFilters();
+    });
   }
 
   function renderNews() {
@@ -236,7 +313,8 @@
   }
 
   function openFromHash() {
-    const hash = decodeURIComponent(location.hash.replace(/^#/, ''));
+    let hash;
+    try { hash = decodeURIComponent(location.hash.replace(/^#/, '')); } catch (_) { return; }
     if (!hash) return;
     const regionsFold = document.getElementById('regionsFold');
     if (state.data.regions.some(region => region.slug === hash)) {
@@ -252,12 +330,22 @@
     if (!event) return;
     if (!event.national && event.regions[0]) {
       if (regionsFold) regionsFold.open = true;
+      if ($('#regionSearch')) $('#regionSearch').value = '';
+      filterRegionList();
       setRegionOpen(event.regions[0], true, false);
+    }
+    if (!state.filtered.some(item => item.id === hash) && state.current.some(item => item.id === hash)) {
+      state.resettingForLink = true;
+      $('#strikeFilters')?.reset();
+      state.resettingForLink = false;
+      $('#customDates').hidden = true;
+      applyFilters();
     }
     const card = document.querySelector(`[data-event-id="${CSS.escape(hash)}"]`);
     const fold = card?.querySelector('details');
     if (fold) fold.open = true;
     card?.scrollIntoView({block:'center'});
+    if (card && document.activeElement?.closest('#nextStrikes')) fold?.querySelector('summary')?.focus({preventScroll:true});
   }
 
   function renderArchive() {
@@ -276,9 +364,11 @@
       if (!Array.isArray(state.data.regions) || !Array.isArray(state.data.events)) throw new Error('Formato dati non valido');
       if (page === 'archive') { renderArchive(); return; }
       const verified = $('#lastVerified');
-      if (verified) verified.textContent = state.data.meta.verificationLabel || verifiedDate(state.data.meta.lastVerified);
+      if (verified) verified.textContent = state.data.meta?.verificationLabel || verifiedDate(state.data.meta?.lastVerified);
       state.current = sorted(state.data.events.filter(event => !isFinished(event)));
       state.filtered = [...state.current];
+      renderSpotlight();
+      renderDates();
       buildRegions();
       bindFilters();
       applyFilters();
@@ -287,7 +377,9 @@
       window.addEventListener('hashchange', openFromHash);
     } catch (error) {
       console.error('Impossibile caricare il calendario scioperi:', error);
-      ['#nationalEvents','#regionsAccordion','#archiveEvents','#strikeNews'].forEach(selector => {
+      if ($('#lastVerified')) $('#lastVerified').textContent = 'Non disponibile';
+      if ($('#nationalCount')) $('#nationalCount').textContent = 'Non disponibile';
+      ['#nextStrikes','#nationalEvents','#regionsAccordion','#archiveEvents','#strikeNews'].forEach(selector => {
         const target = $(selector); if (target) target.innerHTML = empty('Il calendario non è disponibile in questo momento. Riprova più tardi.');
       });
     }

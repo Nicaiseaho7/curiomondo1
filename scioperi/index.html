@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/assets/css/editoriale-fonts-v1460.css">
   <link rel="stylesheet" href="/assets/css/global-header-v275.css?v=1463">
   <link rel="stylesheet" href="/assets/css/scioperi-v1.css?v=2">
+  <link rel="stylesheet" href="/assets/css/scioperi-layout-v2.css">
   <script>try{if(localStorage.getItem('cm_theme')==='dark')document.documentElement.classList.add('cm-dark')}catch(e){}</script>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"CollectionPage","name":"Scioperi in Italia: calendario aggiornato per regione","url":"https://curiomondo.it/scioperi/","description":"Calendario degli scioperi programmati in Italia, organizzato per regione e verificato su fonti ufficiali.","isPartOf":{"@type":"WebSite","name":"CurioMondo","url":"https://curiomondo.it/"}}
@@ -28,11 +29,14 @@
   </header>
 
   <main id="main-content" tabindex="-1">
-    <section class="hero" aria-labelledby="page-title">
-      <div class="page-shell">
-        <p class="eyebrow">Servizio CurioMondo</p>
+    <section class="hero strike-hero" aria-labelledby="page-title">
+      <div class="page-shell strike-hero-grid">
+        <div class="strike-hero-intro">
+        <p class="eyebrow"><span aria-hidden="true"></span> Guida ai servizi</p>
         <h1 id="page-title">Scioperi in Italia: calendario aggiornato per regione</h1>
-        <p class="hero-copy">Consulta gli scioperi programmati, filtra gli eventi e verifica orari, territori, stato e fonti ufficiali.</p>
+        <p class="hero-copy">Scopri le prossime date e verifica orari, fasce garantite e fonti ufficiali per i servizi che ti interessano.</p>
+        <nav class="strike-jumps" aria-label="In questa pagina"><a href="#calendario">Vai al calendario <span aria-hidden="true">↓</span></a><a href="#territori">Scegli la regione <span aria-hidden="true">→</span></a></nav>
+        </div>
         <aside class="verification" aria-label="Stato della verifica">
           <span class="verification-dot" aria-hidden="true"></span>
           <div><small>Ultima verifica effettiva</small><strong id="lastVerified">Caricamento…</strong><span>Fuso orario Europe/Rome</span></div>
@@ -40,19 +44,17 @@
       </div>
     </section>
 
+    <section class="page-shell strike-spotlight" aria-labelledby="next-title">
+      <div class="section-heading"><div><p class="section-kicker">A colpo d’occhio</p><h2 id="next-title">I prossimi scioperi</h2></div><time id="strikeToday" class="strike-today" hidden></time></div>
+      <div id="nextStrikes" class="strike-next-grid"><p class="empty-state">Caricamento dei prossimi scioperi…</p></div>
+    </section>
+
     <div class="page-shell content-layout">
       <div class="primary-content">
-        <section class="national-section" aria-labelledby="national-title">
-          <div class="section-heading">
-            <div><p class="section-kicker">Tutta Italia</p><h2 id="national-title">Scioperi nazionali</h2></div>
-            <span class="result-pill" id="nationalCount" aria-live="polite">0 eventi</span>
-          </div>
-          <div id="nationalEvents" class="events-list" aria-live="polite"></div><aside class="cm-safe-ad" data-cm-ad="native" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/native.html" width="336" height="280" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(336px,100%);height:280px;background:#fff"></iframe></aside><aside class="cm-safe-ad" data-cm-ad="box300" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/box-300.html" width="300" height="250" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(300px,100%);height:250px;background:#fff"></iframe></aside>
-        </section><aside class="cm-safe-ad" data-cm-ad="banner468" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/banner-468.html" width="468" height="60" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(468px,100%);height:60px;background:#fff"></iframe></aside>
-
-        <section class="filters-section" aria-labelledby="filters-title">
-          <div class="section-heading compact"><div><p class="section-kicker">Trova rapidamente</p><aside class="cm-safe-ad" data-cm-ad="banner320" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/banner-320.html" width="320" height="50" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(320px,100%);height:50px;background:#fff"></iframe></aside><h2 id="filters-title">Filtra il calendario</h2></div></div>
-          <form id="strikeFilters" class="filters" role="search">
+        <section id="calendario" class="filters-section strike-calendar" aria-labelledby="filters-title">
+          <div class="section-heading compact"><div><p class="section-kicker">Esplora per data, settore o città</p><h2 id="filters-title">Calendario degli scioperi</h2></div></div>
+          <div id="strikeDates" class="strike-calendar-dates" role="group" aria-label="Giorni del calendario" hidden></div>
+          <form id="strikeFilters" class="filters" role="search" aria-label="Filtri degli scioperi">
             <label><span>Periodo</span><select id="periodFilter" name="period"><option value="all">Tutti i prossimi eventi</option><option value="today">Oggi</option><option value="7days">Prossimi 7 giorni</option><option value="month">Questo mese</option><option value="custom">Intervallo personalizzato</option></select></label>
             <label><span>Settore</span><select id="sectorFilter" name="sector"><option value="all">Tutti i settori</option><option value="treni">Treni</option><option value="aerei">Aerei</option><option value="tpl">Trasporto pubblico locale</option><option value="marittimo">Trasporto marittimo</option><option value="scuola">Scuola</option><option value="sanita">Sanità</option><option value="pa">Pubblica amministrazione</option><option value="altri">Altri settori</option></select></label>
             <label><span>Stato</span><select id="statusFilter" name="status"><option value="all">Tutti gli stati</option><option value="proclamato">Proclamato</option><option value="confermato">Confermato</option><option value="modificato">Modificato</option><option value="rinviato">Rinviato</option><option value="revocato">Revocato</option></select></label>
@@ -66,10 +68,22 @@
           <p id="filterSummary" class="filter-summary" aria-live="polite"></p>
         </section>
 
-        <section aria-labelledby="regions-title">
-          <details class="regions-fold" id="regionsFold">
+        <section class="national-section" aria-labelledby="national-title">
+          <div class="section-heading">
+            <div><p class="section-kicker">Tutta Italia</p><h2 id="national-title">Scioperi nazionali</h2></div>
+            <span class="result-pill" id="nationalCount">Caricamento…</span>
+          </div>
+          <div id="nationalEvents" class="events-list"></div>
+        </section>
+
+        <section id="territori" class="strike-territories" aria-labelledby="regions-title">
+          <div class="strike-region-quick" id="regionQuick" hidden>
+            <label for="regionJump">Vai direttamente alla tua regione</label>
+            <select id="regionJump"><option value="">Seleziona una regione</option></select>
+          </div>
+          <details class="regions-fold" id="regionsFold" open>
             <summary id="regions-title">
-              <span class="regions-fold-copy"><span class="section-kicker">Territorio</span><span class="regions-fold-title">Regioni</span></span>
+              <span class="regions-fold-copy"><span class="section-kicker">Territorio</span><span class="regions-fold-title">Scioperi per regione</span></span>
               <span class="fold-chevron" aria-hidden="true"></span>
             </summary>
             <div class="regions-fold-panel">
@@ -81,11 +95,14 @@
           <noscript><p class="empty-state">Per usare filtri e tendine è necessario attivare JavaScript. I dati ufficiali restano disponibili nel file <a href="/assets/data/scioperi.json">scioperi.json</a>.</p></noscript>
         </section>
 
+
+        <div class="strike-ad-break"><aside class="cm-safe-ad" data-cm-ad="banner320" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/banner-320.html" width="320" height="50" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(320px,100%);height:50px;background:#fff"></iframe></aside><aside class="cm-safe-ad" data-cm-ad="banner468" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/banner-468.html" width="468" height="60" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(468px,100%);height:60px;background:#fff"></iframe></aside></div>
         <section class="news-section" aria-labelledby="news-title">
           <div class="section-heading"><div><p class="section-kicker">Approfondimenti</p><h2 id="news-title">Ultime notizie sugli scioperi</h2></div></div>
           <div id="strikeNews" class="news-grid"></div>
         </section>
 
+        <div class="strike-ad-break"><aside class="cm-safe-ad" data-cm-ad="native" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/native.html" width="336" height="280" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(336px,100%);height:280px;background:#fff"></iframe></aside><aside class="cm-safe-ad" data-cm-ad="box300" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/box-300.html" width="300" height="250" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(300px,100%);height:250px;background:#fff"></iframe></aside></div>
         <section class="archive-callout" aria-labelledby="archive-title">
           <div><p class="section-kicker">Storico</p><h2 id="archive-title">Cerchi uno sciopero concluso?</h2><p>Gli eventi terminati restano consultabili nello storico.</p></div>
           <a class="primary-button" href="/scioperi/archivio/">Apri l’archivio degli scioperi</a>
@@ -114,7 +131,7 @@
     </div>
   </footer>
   <script defer src="/assets/js/global-header-v275.js"></script>
-  <script defer src="/assets/js/scioperi-v1.js?v=2"></script>
+  <script defer src="/assets/js/scioperi-v1.js?v=3"></script>
 <script defer src="/assets/js/cm-native-banner-v1.js?v=7"></script>
 <script defer src="/assets/js/cm-date-banners-v1.js?v=8"></script></body>
 </html>
