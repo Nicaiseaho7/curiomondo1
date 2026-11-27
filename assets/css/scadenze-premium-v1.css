@@ -1,0 +1,141 @@
+/* Opt-in Scadenze Italia editorial layout. Load after scadenze-v1.css. */
+html[data-cm-premium-layout="scadenze"] {
+  --sd-page:#f2f6fc; --sd-card:#fff; --sd-tint:#edf4ff; --sd-ink:#10243e;
+  --sd-muted:#455d76; --sd-line:#d4e0ef; --sd-blue:#174da3; --sd-cta:#164da1;
+  --sd-focus:#2869ca; --sd-shadow:0 5px 18px #183f7310;
+}
+html[data-cm-premium-layout="scadenze"].cm-dark {
+  --sd-page:#0d1726; --sd-card:#152338; --sd-tint:#1d3350; --sd-ink:#f0f5ff;
+  --sd-muted:#b8c9df; --sd-line:#314664; --sd-blue:#a6ccff; --sd-cta:#164da1;
+  --sd-focus:#a6ccff; --sd-shadow:0 5px 18px #0003;
+}
+html[data-cm-premium-layout="scadenze"] main {
+  --ink:var(--sd-ink); --muted:var(--sd-muted); --line:var(--sd-line);
+  --soft:var(--sd-page); --paper:var(--sd-card);
+  color:var(--sd-ink); background:var(--sd-page);
+}
+html[data-cm-premium-layout="scadenze"] body:has(main.archive-page) {background:var(--sd-page)}
+html[data-cm-premium-layout="scadenze"] main .shell {
+  width:min(1120px,calc(100% - clamp(24px,6vw,72px)));
+}
+html[data-cm-premium-layout="scadenze"] :is(.deadline-hero,.detail-hero) {
+  position:relative; isolation:isolate; overflow:hidden;
+  background:radial-gradient(ellipse at 100% 10%,#21539c 0%,transparent 54%),linear-gradient(120deg,#0b1c35,#122e56);
+  color:#fff; border:0; border-bottom:3px solid #5598f4;
+}
+html[data-cm-premium-layout="scadenze"] :is(.deadline-hero,.detail-hero)::before {
+  content:""; position:absolute; inset:0; z-index:-1; pointer-events:none;
+  background:repeating-linear-gradient(90deg,#b9d8ff12 0 1px,transparent 1px 36px),
+             repeating-linear-gradient(0deg,#b9d8ff12 0 1px,transparent 1px 36px);
+  mask-image:linear-gradient(90deg,transparent 25%,#000);
+}
+html[data-cm-premium-layout="scadenze"] .deadline-hero .shell {padding-block:clamp(40px,7vw,86px)}
+html[data-cm-premium-layout="scadenze"] .detail-hero {padding-block:clamp(36px,6vw,72px)}
+html[data-cm-premium-layout="scadenze"] :is(.deadline-hero,.detail-hero,.archive-page) h1 {
+  max-width:27ch; font:750 clamp(2.35rem,6vw,5rem)/1.04 "Source Serif 4",Georgia,serif;
+  letter-spacing:-.047em; text-wrap:balance; overflow-wrap:anywhere;
+}
+html[data-cm-premium-layout="scadenze"] :is(.deadline-hero,.detail-hero) h1 {color:#fff}
+html[data-cm-premium-layout="scadenze"] .deadline-hero .eyebrow {color:#aed4ff}
+html[data-cm-premium-layout="scadenze"] :is(.hero-lead,.detail-hero__summary,.breadcrumbs,.breadcrumbs a,.detail-date span) {color:#e1edff}
+html[data-cm-premium-layout="scadenze"] .hero-meta {display:flex; flex-wrap:wrap; gap:8px; color:#e1edff}
+html[data-cm-premium-layout="scadenze"] :is(.hero-meta span,.detail-date span) {
+  border:1px solid #b8d6ff55; border-radius:999px; background:#081c3a68; padding:5px 12px;
+}
+html[data-cm-premium-layout="scadenze"] .detail-date span {padding:8px 14px}
+html[data-cm-premium-layout="scadenze"] .calendar-section {padding-block:clamp(28px,5vw,56px)}
+html[data-cm-premium-layout="scadenze"] .section-head--calendar {
+  flex-direction:row; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;
+}
+html[data-cm-premium-layout="scadenze"] main :is(.section-head h2,.archive-banner h2,.detail-content h2) {
+  font:730 clamp(1.65rem,3.3vw,2.75rem)/1.1 "Source Serif 4",Georgia,serif; letter-spacing:-.035em;
+}
+html[data-cm-premium-layout="scadenze"] main :is(.count-pill,.category-button b) {
+  background:var(--sd-tint); color:var(--sd-blue); border:1px solid var(--sd-line);
+}
+html[data-cm-premium-layout="scadenze"] main :is(.search-fold,.deadline-card,.method-fold details,.detail-content,.detail-aside,.related-news a) {
+  background:var(--sd-card); border-color:var(--sd-line); color:var(--sd-ink); box-shadow:var(--sd-shadow);
+}
+html[data-cm-premium-layout="scadenze"] main .deadline-card:hover,
+html[data-cm-premium-layout="scadenze"] main .deadline-card:focus-within {border-color:var(--sd-focus)}
+html[data-cm-premium-layout="scadenze"] main .search-fold>summary {
+  min-height:56px; padding:14px clamp(14px,3vw,24px);
+}
+html[data-cm-premium-layout="scadenze"] main .search-fold__hint {color:var(--sd-blue)}
+html[data-cm-premium-layout="scadenze"] main .search-fold .filter-panel {background:var(--sd-tint); border-top:1px solid var(--sd-line)}
+html[data-cm-premium-layout="scadenze"] main .filter-panel label {color:var(--sd-ink); min-width:0}
+html[data-cm-premium-layout="scadenze"] main .filter-panel :is(input,select) {
+  min-width:0; background-color:var(--sd-card); border-color:var(--sd-line); color:var(--sd-ink);
+}
+html[data-cm-premium-layout="scadenze"] main .filter-panel input::placeholder {color:var(--sd-muted)}
+html[data-cm-premium-layout="scadenze"] main .deadline-group {margin-block:clamp(28px,5vw,50px)}
+html[data-cm-premium-layout="scadenze"] main .deadline-group__title {
+  color:var(--sd-blue); font:750 .84rem/1.3 "Source Sans 3",system-ui,sans-serif;
+  text-transform:uppercase; letter-spacing:.12em;
+}
+html[data-cm-premium-layout="scadenze"] main .deadline-card {border-radius:17px}
+html[data-cm-premium-layout="scadenze"] main .deadline-card.is-due {border-inline-start:4px solid #bd3636}
+html[data-cm-premium-layout="scadenze"] main .deadline-fold summary {
+  --sd-date:70px;
+  grid-template-columns:var(--sd-date) minmax(0,1fr) auto auto; gap:14px; padding:14px 18px;
+}
+html[data-cm-premium-layout="scadenze"] main .deadline-fold summary:hover {background:var(--sd-tint)}
+html[data-cm-premium-layout="scadenze"] main .deadline-fold summary::after {grid-column:4; color:var(--sd-blue); border-color:currentColor; margin-inline:4px}
+html[data-cm-premium-layout="scadenze"] main .deadline-fold summary .status {grid-column:3}
+html[data-cm-premium-layout="scadenze"] main .date-tile {
+  min-width:0; min-height:60px; border-radius:11px; background:var(--sd-tint); color:var(--sd-blue);
+}
+html[data-cm-premium-layout="scadenze"] main .date-tile :is(strong,span) {color:var(--sd-blue)}
+html[data-cm-premium-layout="scadenze"] main .date-tile strong {font-variant-numeric:tabular-nums}
+html[data-cm-premium-layout="scadenze"] main .deadline-title {color:var(--sd-ink); overflow-wrap:anywhere; font-size:clamp(1rem,2.4vw,1.22rem)}
+html[data-cm-premium-layout="scadenze"] main .kind {max-width:100%; white-space:normal}
+html[data-cm-premium-layout="scadenze"] main .kind-scadenza:not(.kind-due) {background:#12613f;color:white}
+html[data-cm-premium-layout="scadenze"] main .deadline-panel {color:var(--sd-muted); padding:12px 18px 18px 102px; border-top:1px solid var(--sd-line)}
+html[data-cm-premium-layout="scadenze"] main :is(.verify-note,.panel-label,.method-panel,.archive-intro) {color:var(--sd-muted)}
+html[data-cm-premium-layout="scadenze"] main :is(.reset-button,.detail-link,.archive-banner a,.official-button,.official-link) {
+  min-height:44px; background:var(--sd-cta); color:#fff; padding-inline:14px;
+}
+html[data-cm-premium-layout="scadenze"] main .deadline-actions .detail-link {
+  background:var(--sd-tint); border:1px solid var(--sd-line); color:var(--sd-blue);
+}
+html[data-cm-premium-layout="scadenze"] main .archive-banner {
+  background:linear-gradient(120deg,#112844,#193d6d); color:#fff; padding:clamp(20px,4vw,42px); margin-bottom:34px;
+}
+html[data-cm-premium-layout="scadenze"] main .archive-banner .kicker {color:#aed4ff}
+html[data-cm-premium-layout="scadenze"] main .archive-banner a {background:#e1edff; color:#14376d}
+html[data-cm-premium-layout="scadenze"] .archive-page {padding-block:clamp(34px,6vw,76px)}
+html[data-cm-premium-layout="scadenze"] .archive-page .kicker {color:var(--sd-blue)}
+html[data-cm-premium-layout="scadenze"] .archive-page .back-calendar {
+  min-height:44px; align-items:center; margin-top:12px; color:var(--sd-blue);
+}
+html[data-cm-premium-layout="scadenze"] .detail-layout {
+  grid-template-columns:minmax(0,1fr) minmax(245px,320px); gap:clamp(16px,3vw,32px);
+  align-items:start; padding-block:clamp(24px,5vw,52px) clamp(40px,7vw,76px);
+}
+html[data-cm-premium-layout="scadenze"] .detail-layout > * {min-width:0; overflow-wrap:anywhere}
+html[data-cm-premium-layout="scadenze"] main .detail-aside dt {color:var(--sd-muted)}
+html[data-cm-premium-layout="scadenze"] main :is(a,summary,input,select,button):focus-visible {
+  outline:3px solid var(--sd-focus); outline-offset:3px;
+}
+html[data-cm-premium-layout="scadenze"] main summary:focus-visible {outline-offset:-4px}
+html[data-cm-premium-layout="scadenze"] main :is(.deadline-hero,.detail-hero,.archive-banner) a:focus-visible {outline-color:#fff}
+@media (max-width: 850px) {
+  html[data-cm-premium-layout="scadenze"] .detail-layout {grid-template-columns:minmax(0,1fr)}
+  html[data-cm-premium-layout="scadenze"] .detail-aside {position:static}
+}
+@media (max-width: 560px) {
+  html[data-cm-premium-layout="scadenze"] main .deadline-fold summary {
+    grid-template-columns:52px minmax(0,1fr) 14px; gap:8px 11px; padding:12px;
+  }
+  html[data-cm-premium-layout="scadenze"] main .deadline-fold summary::after {grid-column:3;grid-row:1; margin:0}
+  html[data-cm-premium-layout="scadenze"] main .deadline-fold summary .status {grid-column:2; justify-self:start}
+  html[data-cm-premium-layout="scadenze"] main .deadline-panel {padding:12px}
+  html[data-cm-premium-layout="scadenze"] main .detail-layout :is(.detail-content,.detail-aside) {padding:18px}
+}
+/* Light paper and a clearer immediate hierarchy in the calendar. */
+html[data-cm-premium-layout="scadenze"]:not(.cm-dark) :is(.deadline-hero,.detail-hero){background:linear-gradient(115deg,#fbfdff,#e9f2ff);color:var(--sd-ink);border-bottom:2px solid #90b6ed}
+html[data-cm-premium-layout="scadenze"]:not(.cm-dark) :is(.deadline-hero,.detail-hero)::before{background:repeating-linear-gradient(90deg,#83adf027 0 1px,transparent 1px 30px),repeating-linear-gradient(0deg,#83adf027 0 1px,transparent 1px 30px)}
+html[data-cm-premium-layout="scadenze"]:not(.cm-dark) :is(.deadline-hero,.detail-hero) h1{color:var(--sd-ink)}
+html[data-cm-premium-layout="scadenze"]:not(.cm-dark) .deadline-hero .eyebrow,html[data-cm-premium-layout="scadenze"]:not(.cm-dark) :is(.hero-lead,.detail-hero__summary,.breadcrumbs,.breadcrumbs a,.detail-date span,.hero-meta){color:var(--sd-muted)}
+html[data-cm-premium-layout="scadenze"]:not(.cm-dark) :is(.hero-meta span,.detail-date span){border-color:var(--sd-line);background:var(--sd-card)}
+html[data-cm-premium-layout="scadenze"] .deadline-hero .shell{padding-block:clamp(24px,4vw,57px)}

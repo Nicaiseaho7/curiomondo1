@@ -34,6 +34,15 @@
     header.dataset.cmBrandUnified='v1';
   }
 
+  const area=location.pathname.split('/').filter(Boolean)[0]?.replace(/\.html$/,'');
+  if(['concerti','scadenze','approfondimenti'].includes(area)&&document.querySelector('main')){
+    document.documentElement.dataset.cmPremiumLayout=area;
+    const href='/assets/css/'+area+'-premium-v1.css';
+    if(!document.querySelector('link[href="'+href+'"]')){
+      const edition=document.createElement('link');edition.rel='stylesheet';edition.href=href;document.head.append(edition);
+    }
+  }
+
   const categoryPage=document.querySelector('main.category-shell');
   const categorySlug=location.pathname.match(/^\/categorie\/([a-z-]+)(?:\/|$)/)?.[1];
   if(categoryPage&&categorySlug){

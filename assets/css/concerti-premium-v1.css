@@ -1,0 +1,128 @@
+/* Concerti in Italia: route-local presentation. Load after existing CSS. */
+html[data-cm-premium-layout="concerti"] {
+  --live-bg:#f3f6fc;--live-card:#fff;--live-ink:#142749;--live-muted:#445b7b;
+  --live-accent:#1a529e;--live-line:#cfdced;--live-soft:#e9f1ff;
+  --live-dark:#11264a;--live-gold:#ffd896;--live-radius:17px;
+  scroll-padding-top:100px;
+}
+html.cm-dark[data-cm-premium-layout="concerti"] {
+  --live-bg:#0b1629;--live-card:#14253e;--live-ink:#edf4ff;--live-muted:#bfd0e8;
+  --live-accent:#a9d1ff;--live-line:#395576;--live-soft:#203955;
+}
+html[data-cm-premium-layout="concerti"] main {
+  background:var(--live-bg);color:var(--live-ink);overflow-wrap:anywhere;
+}
+html[data-cm-premium-layout="concerti"] main [hidden]{display:none!important}
+html[data-cm-premium-layout="concerti"] main :is(button,a,select,input,summary):focus-visible {
+  outline:3px solid var(--live-accent);outline-offset:3px;
+}
+html[data-cm-premium-layout="concerti"] main #concerti-hero-v4 {
+  min-height:0!important;isolation:isolate;border-bottom:3px solid #d39f51;
+}
+html[data-cm-premium-layout="concerti"] main #concerti-hero-v4 .hero-content {
+  padding-block:clamp(34px,8vw,86px)!important;
+}
+html[data-cm-premium-layout="concerti"] main #concerti-hero-v4 h1 {
+  font-size:clamp(2.35rem,8vw,5.2rem)!important;line-height:1.02!important;max-width:13ch;text-wrap:balance;
+}
+html[data-cm-premium-layout="concerti"] main #concerti-hero-v4 .hero-meta {
+  display:flex!important;flex-wrap:wrap;gap:6px 10px;
+}
+html[data-cm-premium-layout="concerti"] main #concerti-hero-v4 .hero-meta span {
+  display:inline-flex!important;align-items:center;min-height:32px;padding:4px 10px;
+  background:#0b1837e8;color:#f1f6ff!important;border:1px solid #bbcbe773;border-radius:8px;
+}
+html[data-cm-premium-layout="concerti"] main #concerti-hero-v4 .hero-cta {
+  display:inline-flex;align-items:center;min-height:44px;background:#fff1d8!important;color:#182849!important;
+  border-radius:10px;
+}
+html[data-cm-premium-layout="concerti"] main #concerti-hero-v4 a:focus-visible {outline-color:#fff}
+html[data-cm-premium-layout="concerti"] main :is(.calendar-section,.news-section) {padding-block:clamp(23px,4vw,58px);border:0}
+html[data-cm-premium-layout="concerti"] main .section-head {
+  gap:9px 18px;align-items:center;flex-wrap:wrap;margin-bottom:15px;
+}
+html[data-cm-premium-layout="concerti"] main :is(#calendar-title,.section-head h2,#page-title) {
+  color:var(--live-ink);text-wrap:balance;
+}
+html[data-cm-premium-layout="concerti"] main #calendar-title {font-size:clamp(2.05rem,6vw,3.45rem);line-height:1.03}
+html[data-cm-premium-layout="concerti"] main :is(.count-pill,.month-fold summary small) {
+  color:var(--live-accent);background:var(--live-soft);border:1px solid var(--live-line);
+  padding:3px 10px;border-radius:999px;font-size:.82rem;
+}
+html[data-cm-premium-layout="concerti"] main :is(.search-fold,.month-fold,.regions-fold) {
+  background:var(--live-card);color:var(--live-ink);border:1px solid var(--live-line);
+  border-radius:var(--live-radius);box-shadow:none;overflow:visible;
+}
+html[data-cm-premium-layout="concerti"] main :is(.search-fold,.month-fold,.regions-fold) > summary {
+  min-height:54px;padding:13px clamp(12px,2vw,20px);color:var(--live-ink);
+  border-radius:calc(var(--live-radius) - 1px);
+}
+html[data-cm-premium-layout="concerti"] main :is(.search-fold,.month-fold,.regions-fold) > summary::after {
+  flex:0 0 9px;border-color:var(--live-accent);
+}
+html[data-cm-premium-layout="concerti"] main .search-fold > summary {
+  color:#fff;background:linear-gradient(110deg,#11274c,#174e96);
+}
+html[data-cm-premium-layout="concerti"] main .search-fold > summary::after {border-color:#fff}
+html[data-cm-premium-layout="concerti"] main .search-panel {
+  background:var(--live-card);color:var(--live-ink);padding:15px;border-radius:0 0 var(--live-radius) var(--live-radius)!important;
+  grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;
+}
+html[data-cm-premium-layout="concerti"] main .search-panel label,
+html[data-cm-premium-layout="concerti"] main .search-panel .saved-check {color:var(--live-ink);min-width:0}
+html[data-cm-premium-layout="concerti"] main :is(.search-panel input:not([type="checkbox"]),.search-panel select,.region-search input) {
+  min-width:0;min-height:44px;width:100%;border:1px solid var(--live-line);border-radius:9px;
+  background:var(--live-bg);color:var(--live-ink);font-size:1rem;
+}
+html[data-cm-premium-layout="concerti"] main .search-panel input::placeholder {color:var(--live-muted);opacity:1}
+html[data-cm-premium-layout="concerti"] main .search-panel .reset-button {
+  min-height:44px;background:var(--live-soft);color:var(--live-accent);border:1px solid var(--live-line);
+}
+html[data-cm-premium-layout="concerti"] main .month-fold[open] > summary {
+  background:var(--live-soft);margin-bottom:10px;
+}
+html[data-cm-premium-layout="concerti"] main .month-body {padding:0 clamp(7px,1.6vw,14px) 9px}
+html[data-cm-premium-layout="concerti"] main .event-card {
+  display:grid;min-width:0;grid-template-columns:minmax(0,1fr);align-items:start;gap:8px;
+  background:var(--live-card);color:var(--live-ink);border:1px solid var(--live-line);
+  border-radius:13px;box-shadow:0 7px 20px #1028500c;margin-bottom:9px;padding:13px 12px 13px 16px;overflow:visible;
+}
+html[data-cm-premium-layout="concerti"] main .event-card::before {top:12px;bottom:12px;background:#4c7dbb}
+html[data-cm-premium-layout="concerti"] main .date-box {
+  margin:0;max-width:100%;width:max-content;padding:4px 8px;line-height:1.15;
+  background:var(--live-soft);color:var(--live-accent);border-radius:8px;
+}
+html[data-cm-premium-layout="concerti"] main .date-box :is(span,strong) {color:var(--live-accent)}
+html[data-cm-premium-layout="concerti"] main .date-box strong {font-size:1.4rem}
+html[data-cm-premium-layout="concerti"] main .event-main h3 {font-size:clamp(1.3rem,4.8vw,1.8rem);color:var(--live-ink)}
+html[data-cm-premium-layout="concerti"] main .event-card :is(.event-main p,.event-location,.event-note,.event-travel) {color:var(--live-muted)!important}
+html[data-cm-premium-layout="concerti"] main .event-location {margin:0;padding:6px 0 0;border-color:var(--live-line)}
+html[data-cm-premium-layout="concerti"] main .event-actions {margin:3px 0 0;gap:7px}
+html[data-cm-premium-layout="concerti"] main .event-actions :is(button,a) {min-height:44px}
+html[data-cm-premium-layout="concerti"] main :is(.news-link,.icon-button:not([aria-pressed="true"])) {
+  color:var(--live-accent);background:var(--live-soft);border:1px solid var(--live-line);
+}
+html[data-cm-premium-layout="concerti"] main .card-tools {width:auto;margin-left:0}
+html[data-cm-premium-layout="concerti"] main :is(.archive-banner,.trust-note,.method,.empty-state,.news-grid article,.archive-intro) {
+  background:var(--live-card);color:var(--live-ink);border-color:var(--live-line);border-radius:var(--live-radius);
+}
+html[data-cm-premium-layout="concerti"] main :is(.archive-banner,.trust-note,.method,.archive-intro) p {color:var(--live-muted)}
+html[data-cm-premium-layout="concerti"] main .archive-intro {padding:clamp(15px,3.2vw,30px);margin-block:16px;border:1px solid var(--live-line)}
+html[data-cm-premium-layout="concerti"] main.archive-page {padding-top:clamp(18px,4vw,45px)}
+html[data-cm-premium-layout="concerti"] main .back-calendar {
+  display:inline-flex;align-items:center;min-height:44px;padding:5px 12px;border-radius:9px;
+  background:var(--live-soft);color:var(--live-accent);
+}
+html[data-cm-premium-layout="concerti"] main .kicker {color:var(--live-accent)}
+@media(min-width:720px){
+  html[data-cm-premium-layout="concerti"] main .search-panel{grid-template-columns:repeat(4,minmax(0,1fr))}
+  html[data-cm-premium-layout="concerti"] main .event-card{grid-template-columns:90px minmax(0,1fr) minmax(140px,.55fr);gap:9px 14px}
+  html[data-cm-premium-layout="concerti"] main .event-card .date-box{grid-column:1;grid-row:1 / span 2}
+  html[data-cm-premium-layout="concerti"] main .event-main{grid-column:2}
+  html[data-cm-premium-layout="concerti"] main .event-location{grid-column:3;border:0;padding:0}
+  html[data-cm-premium-layout="concerti"] main .event-actions,
+  html[data-cm-premium-layout="concerti"] main .event-note{grid-column:2 / -1}
+}
+@media(max-width:359px){
+  html[data-cm-premium-layout="concerti"] main .search-panel{grid-template-columns:minmax(0,1fr)}
+}
