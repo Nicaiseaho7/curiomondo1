@@ -1,6 +1,306 @@
 {
-  "version": 1664,
+  "version": 1665,
   "items": [
+    {
+      "title": "Wall Street riapre per il Black Friday ma chiude alle 19 italiane",
+      "excerpt": "La seduta ordinaria di NYSE e Nasdaq dura tre ore e mezza. Sulle obbligazioni statunitensi la chiusura raccomandata è un’ora più tardi.",
+      "url": "/notizie/wall-street-chiusura-anticipata-black-friday-27-novembre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Scioperano i giornalisti di ANSA e La7: due vertenze aperte con gli editori",
+      "excerpt": "L’astensione all’ANSA va dalle 7 di venerdì alle 7 di sabato. A La7 è iniziata due ore prima e riguarda il telegiornale e la rete.",
+      "url": "/notizie/giornalisti-ansa-la7-sciopero-27-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Genova, ascensore del Ponte Monumentale fermo in due fasce",
+      "excerpt": "Il collegamento tra via XX Settembre e corso Andrea Podestà si ferma dalle 9 alle 11 e dalle 14 alle 16 di venerdì 27 novembre.",
+      "url": "/notizie/genova-ascensore-ponte-monumentale-27-novembre-2026.html",
+      "section": "Servizi e avvisi"
+    },
+    {
+      "title": "Nottingham-Chelsea alle 21: Alonso ritrova Caicedo",
+      "excerpt": "Hudson-Odoi è disponibile per il Forest. L’italiano Savona resta fuori al pari di Nicolás Domínguez.",
+      "url": "/notizie/premier-league-nottingham-chelsea-caicedo-hudson-odoi-27-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "Gli occhiali XREAL Aura con Android XR arrivano in Giappone",
+      "excerpt": "NTT Docomo apre le vendite online il 27 novembre. Gli occhiali separano display e unità di calcolo e offrono comandi vocali con Gemini.",
+      "url": "/notizie/xreal-aura-giappone-occhiali-android-xr-27-novembre-2026.html",
+      "section": "Tecnologia"
+    },
+    {
+      "title": "Pavia, il gospel al Fraschini sostiene il pavimento del Duomo",
+      "excerpt": "Trentadue voci e otto musicisti alle 21, con interpretazione in LIS. Il ricavato dei biglietti andrà alla Fabbriceria della Cattedrale.",
+      "url": "/notizie/pavia-gospel-senza-barriere-fraschini-27-novembre-2026.html",
+      "section": "Concerti"
+    },
+    {
+      "title": "Antartide, il ghiaccio marino tocca nuovi minimi giornalieri per ottobre",
+      "excerpt": "L’Australian Antarctic Division ha registrato un’estensione inferiore di circa 2,3 milioni di chilometri quadrati alla media di metà ottobre.",
+      "url": "/notizie/antartide-ghiaccio-marino-record-ottobre-27-novembre-2026.html",
+      "section": "Ambiente"
+    },
+    {
+      "title": "Finance Day Milano, un nuovo quaderno sulle fonti di credito per le PMI",
+      "excerpt": "A Palazzo Turati il Politecnico presenta il nono rapporto sulla finanza complementare. Tre incontri approfondiscono credito, garanzie e gestione delle crisi.",
+      "url": "/notizie/milano-finance-day-finanza-complementare-pmi-27-novembre-2026.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Università di Udine, via alle immatricolazioni dopo il test di Comunicazione",
+      "excerpt": "La finestra riguarda chi ha sostenuto la prova del 24 novembre per il curriculum in Comunicazione integrata per le imprese e le organizzazioni.",
+      "url": "/notizie/udine-comunicazione-immatricolazioni-test-novembre-27-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Gallura, possibili stop all’acqua dalle 9 per i lavori a Monte Freare",
+      "excerpt": "Abbanoa prevede possibili interruzioni o cali di pressione a Murta Maria, Porto San Paolo, Vaccileddi e San Teodoro fino alle 12.30.",
+      "url": "/notizie/gallura-monte-freare-stop-acqua-27-novembre-2026.html",
+      "section": "Servizi e avvisi"
+    },
+    {
+      "title": "Werder Brema-Mönchengladbach apre l’undicesima giornata di Bundesliga",
+      "excerpt": "Si gioca alle 20.30 al Weserstadion. Chiarodia è atteso nella difesa del Borussia, Füllkrug fra i probabili titolari del Werder.",
+      "url": "/notizie/bundesliga-werder-brema-borussia-monchengladbach-anticipo-27-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "JAXA, al simposio Hayabusa si confrontano i campioni di Ryugu e Bennu",
+      "excerpt": "La giornata conclusiva a Sagamihara mette a confronto le analisi dei due asteroidi e presenta il lavoro in vista della missione verso Phobos.",
+      "url": "/notizie/jaxa-hayabusa-simposio-ryugu-bennu-27-novembre-2026.html",
+      "section": "Tecnologia"
+    },
+    {
+      "title": "Un anno, una notte arriva in streaming su MYmovies ONE",
+      "excerpt": "Il film di Isaki Lacuesta, premiato ai Goya per la sceneggiatura adattata, entra dal 27 novembre nel catalogo Academy Two.",
+      "url": "/notizie/un-anno-una-notte-mymovies-one-27-novembre-2026.html",
+      "section": "Film e serie TV"
+    },
+    {
+      "title": "Frane, nel Sichuan le mappe migliorano usando dati di aree vicine",
+      "excerpt": "Uno studio ha integrato 90 osservazioni locali con esempi scelti in un archivio provinciale. Il metodo è stato provato nella contea cinese di Huidong.",
+      "url": "/notizie/studio-mappe-frane-campioni-27-novembre-2026.html",
+      "section": "Scienza"
+    },
+    {
+      "title": "Nuova Zelanda, il disavanzo delle amministrazioni sale a 7,7 miliardi",
+      "excerpt": "La rilevazione sull’anno chiuso a giugno comprende gli enti centrali e locali. Il debito netto è aumentato meno rispetto all’esercizio precedente.",
+      "url": "/notizie/nuova-zelanda-disavanzo-amministrazioni-anno-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Bagnoregio, domande entro mezzogiorno per il contributo alle famiglie",
+      "excerpt": "La misura comunale arriva fino a 500 euro. Il bando riguarda servizi e imposte locali e prevede requisiti di residenza, ISEE e patrimonio.",
+      "url": "/notizie/bagnoregio-agevolazioni-famiglie-scadenza-27-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Palau, allo sportello ASL si prenotano mammografie e Pap test",
+      "excerpt": "Dalle 9 alle 12 in via Fonte Vecchia il personale informa sugli screening e distribuisce il kit gratuito per il colon-retto.",
+      "url": "/notizie/palau-sportello-screening-asl-27-novembre-2026.html",
+      "section": "Salute"
+    },
+    {
+      "title": "Formula 2, qualifiche a Lusail senza il leader Rafael Câmara",
+      "excerpt": "Il brasiliano è impegnato in Formula 1 con Haas. Tsolov e Dunne hanno due gare per accorciare prima del finale di Abu Dhabi.",
+      "url": "/notizie/formula-2-lusail-qualifiche-camara-tsolov-dunne-27-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "SoftBank, doppia certificazione Kubernetes per il software Infrinia",
+      "excerpt": "L’azienda giapponese annuncia che il suo sistema destinato ai data center rispetta due standard della Cloud Native Computing Foundation.",
+      "url": "/notizie/softbank-infrinia-kubernetes-doppia-certificazione-27-novembre-2026.html",
+      "section": "Tecnologia"
+    },
+    {
+      "title": "Meravigliosamente, su Rai 1 la serata finale di Sal Da Vinci",
+      "excerpt": "Il varietà in due appuntamenti si chiude alle 21.30. La diretta è indicata anche su RaiPlay; la prima serata resta disponibile sul servizio.",
+      "url": "/notizie/sal-da-vinci-meravigliosamente-finale-rai1-27-novembre-2026.html",
+      "section": "Film e serie TV"
+    },
+    {
+      "title": "Immagini al microscopio, contare i fotoni aiuta a distinguere sorgenti vicine",
+      "excerpt": "La tecnica proposta su npj Quantum Information usa una videocamera che distingue il numero di fotoni e risale a dettagli persi in una normale immagine.",
+      "url": "/notizie/ottica-super-risoluzione-conteggio-fotoni-27-novembre-2026.html",
+      "section": "Scienza"
+    },
+    {
+      "title": "Singapore punta sugli scambi di elettricità tra i Paesi ASEAN",
+      "excerpt": "All’Asia Future Summit il vicepremier Gan Kim Yong indica la rete regionale come risposta alle vulnerabilità energetiche, accanto a commercio e servizi digitali.",
+      "url": "/notizie/singapore-gan-asean-asia-future-summit-27-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Monastir, fino alle 14 le domande per il contributo sulla prima casa",
+      "excerpt": "Il bando copre fino alla metà delle spese ammissibili, con un tetto di 15.000 euro. Le domande del precedente avviso annullato vanno ripresentate.",
+      "url": "/notizie/monastir-prima-casa-bando-scadenza-27-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Chieti, prevenzione oncologica in largo Vico dalle 10 alle 19",
+      "excerpt": "La LILT affianca alle attività per i cittadini un congresso per gli operatori sanitari a Palazzo de’ Mayo.",
+      "url": "/notizie/chieti-lilt-prevenzione-piazza-vico-27-novembre-2026.html",
+      "section": "Salute"
+    },
+    {
+      "title": "Salto con gli sci, la qualifica maschile di Ruka anticipata a venerdì",
+      "excerpt": "Primo salto alle 17.15 italiane. Le due prove di Coppa del Mondo dal trampolino grande restano previste sabato e domenica.",
+      "url": "/notizie/salto-sci-ruka-qualifica-anticipata-27-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "In Giappone il forum AIDC mette a confronto chip e applicazioni di IA",
+      "excerpt": "All’88esima edizione del forum online, Sony presenta la tecnologia dei chip NFC e AIST discute le esigenze dell’IA applicata alle macchine.",
+      "url": "/notizie/giappone-forum-chip-ia-fisica-aidc-27-novembre-2026.html",
+      "section": "Tecnologia"
+    },
+    {
+      "title": "Venezia, il Museo d’Arte Orientale porta in sala opere dai depositi",
+      "excerpt": "Venerdì alle 15.30 la visita di Elisa de Concini segue il rapporto con il mare e i pesci nell’arte del Giappone di epoca Edo.",
+      "url": "/notizie/venezia-museo-orientale-pesci-giappone-edo-27-novembre-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Firenze, l’osservatorio di Arcetri apre per una serata sulle astronome",
+      "excerpt": "Oggi alle 18 l’incontro dell’INAF con Natacha Fabbri, Giada Peron e Lorenzo Pino. Osservazione ai telescopi prevista solo se il meteo lo consente.",
+      "url": "/notizie/firenze-arcetri-cielo-parita-astronome-27-novembre-2026.html",
+      "section": "Scienza"
+    },
+    {
+      "title": "Australia, via libera parlamentare alla tassa minima sui trust discrezionali",
+      "excerpt": "Il ministro del Tesoro Jim Chalmers ha confermato il passaggio della riforma. Il pacchetto prevede una soglia del 30% per i redditi interessati.",
+      "url": "/notizie/australia-parlamento-riforma-trust-27-novembre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Cremona, ultimo giorno per il contributo di solidarietà agli inquilini degli alloggi pubblici",
+      "excerpt": "L’aiuto può arrivare a 2.700 euro. Il Comune richiede un ISEE non superiore a 9.360 euro e almeno 24 mesi nell’alloggio.",
+      "url": "/notizie/cremona-solidarieta-alloggi-pubblici-scadenza-27-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "A4, corsie ridotte tra Padova Est e Padova Ovest dalle 21",
+      "excerpt": "I lavori urgenti alla pavimentazione riguardano la carreggiata verso Milano e sono previsti fino alle 6 di sabato 28 novembre.",
+      "url": "/notizie/a4-padova-riduzione-corsie-27-novembre-2026.html",
+      "section": "Servizi e avvisi"
+    },
+    {
+      "title": "Biathlon, 15 chilometri femminili a Kontiolahti: Todorova apre la gara",
+      "excerpt": "La bulgara ha il primo pettorale. Seguono la lituana Traubaitė e la belga Lie nella prova individuale di Coppa del Mondo.",
+      "url": "/notizie/biathlon-kontiolahti-individuale-donne-start-list-27-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "Sendai, il seminario sui data center affronta rete elettrica e imprese locali",
+      "excerpt": "NTT East, Tohoku Electric e la Development Bank of Japan riuniscono esperti per esaminare come distribuire la capacità informatica nel nord del Paese.",
+      "url": "/notizie/ntt-east-seminario-data-center-sendai-27-novembre-2026.html",
+      "section": "Tecnologia"
+    },
+    {
+      "title": "Torino, HÅN e Lil Jolie in concerto per Urania",
+      "excerpt": "A OFF TOPIC la serata del 27 novembre unisce indie pop, elettronica e rock. In apertura c’è Joe Elle.",
+      "url": "/notizie/torino-han-lil-jolie-urania-off-topic-27-novembre-2026.html",
+      "section": "Concerti"
+    },
+    {
+      "title": "Aree protette vicino alle città, a Bergamo si presenta la piattaforma dei parchi",
+      "excerpt": "Il Parco dei Colli e l’Università di Bergamo riuniscono enti e associazioni sulla Carta di Bergamo-Brescia. Il convegno è a partecipazione libera.",
+      "url": "/notizie/bergamo-carta-parchi-aree-protette-27-novembre-2026.html",
+      "section": "Ambiente"
+    },
+    {
+      "title": "Il Canada prepara nuovi aiuti alle imprese del Manitoba esposte ai dazi",
+      "excerpt": "L’annuncio è previsto alle 10 locali a Winnipeg. L’avviso federale non indica ancora l’importo né i destinatari dei fondi.",
+      "url": "/notizie/manitoba-annuncio-fondi-imprese-dazi-27-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Dorgali, scadono le domande per i contributi alle associazioni sportive",
+      "excerpt": "Il bando comunale riguarda le attività del 2026. Per partecipare servono la sede a Dorgali e almeno due anni di attività sul territorio.",
+      "url": "/notizie/dorgali-contributi-sport-domande-scadenza-27-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Messina, sospesa la linea 36 del Policlinico fino al 6 dicembre",
+      "excerpt": "Da venerdì 27 novembre i bus non possono entrare nel complesso Gaetano Martino durante i lavori sulle corsie di accesso e di uscita.",
+      "url": "/notizie/messina-policlinico-sospesa-linea-36-27-novembre-2026.html",
+      "section": "Servizi e avvisi"
+    },
+    {
+      "title": "NHK Trophy, dieci coppie nella danza sul ghiaccio a Tokyo",
+      "excerpt": "Zingas e Kolesnik cercano la qualificazione alla finale del Grand Prix. Il libero è in programma sabato.",
+      "url": "/notizie/pattinaggio-nhk-trophy-danza-ritmica-zingas-kolesnik-27-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "Nagoya, l’AIST mostra come un sensore può distinguere gli odori",
+      "excerpt": "Il laboratorio del 27 novembre abbina sensori a semiconduttore e un’app che prova a classificare i segnali raccolti dai partecipanti.",
+      "url": "/notizie/nagoya-sensori-odori-seminario-aist-27-novembre-2026.html",
+      "section": "Tecnologia"
+    },
+    {
+      "title": "Ravello, voce e chitarra a Villa Rufolo con Polia e Sini",
+      "excerpt": "Il soprano e il chitarrista suonano alle 17 nella Sala Teatro per il Salotto musicale di Nevile Reid, fra Tosti, De Falla e Walton.",
+      "url": "/notizie/ravello-sini-polia-villa-rufolo-27-novembre-2026.html",
+      "section": "Concerti"
+    },
+    {
+      "title": "Valanghe, pericolo 2 su Dolomiti venete e Prealpi: attenzione ai lastroni",
+      "excerpt": "Il bollettino ARPAV valido venerdì segnala accumuli di neve da vento nei pendii non controllati. Temperature in calo, con schiarite sulle Dolomiti.",
+      "url": "/notizie/dolomiti-venete-bollettino-valanghe-27-novembre-2026.html",
+      "section": "Meteo"
+    },
+    {
+      "title": "BCE, i leader europei indicano Hernández de Cos per il dopo Lagarde",
+      "excerpt": "L’ex governatore della banca centrale spagnola è il candidato alla presidenza. Parlamento europeo e Consiglio direttivo della BCE devono ancora essere consultati.",
+      "url": "/notizie/bce-candidato-hernandez-de-cos-27-novembre-2026.html",
+      "section": "Mondo / Politica"
+    },
+    {
+      "title": "Commercio a Parma, oggi il termine per chiedere assistenza a Confesercenti sul bando Hub",
+      "excerpt": "I documenti per farsi seguire dall’associazione vanno consegnati entro le 12. La domanda di contributo al Comune resta aperta fino all’11 dicembre.",
+      "url": "/notizie/parma-hub-urbano-centro-oltretorrente-contributi-27-novembre-2026.html",
+      "section": "Italia / Economia"
+    },
+    {
+      "title": "Siziano, vaccinazione antinfluenzale gratuita dalle 9.30",
+      "excerpt": "Venerdì 27 novembre ASST Pavia organizza un open day nell’ambulatorio di continuità assistenziale di via Stazione 1, fino alle 12.30.",
+      "url": "/notizie/siziano-open-day-vaccino-influenza-27-novembre-2026.html",
+      "section": "Salute"
+    },
+    {
+      "title": "NHL, Anaheim ospita i Kings nel primo derby californiano in due giorni",
+      "excerpt": "Si gioca alle 22 italiane all’Honda Center. Sabato Ducks e Kings si ritroveranno a Los Angeles.",
+      "url": "/notizie/nhl-kings-ducks-anaheim-freeway-faceoff-27-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "Bologna, al festival Refugia un incontro su zen e sport",
+      "excerpt": "Alle 18 l’incontro gratuito su meditazione e calcio con Alessandro Suichi Antonicelli. La rassegna di quartiere continua fino al 10 dicembre.",
+      "url": "/notizie/bologna-refugia-savena-zen-sport-27-novembre-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Biodiversità, nell’area di Melbourne iniziano quattro giorni di osservazioni",
+      "excerpt": "Oltre 25 comuni metropolitani collaborano al Great Southern BioBlitz. I rilievi si fanno fino al 30 novembre, il caricamento dei dati entro il 14 dicembre.",
+      "url": "/notizie/melbourne-great-southern-bioblitz-27-novembre-2026.html",
+      "section": "Ambiente"
+    },
+    {
+      "title": "Basket, Francia a Tallinn contro l’Estonia con dodici convocati",
+      "excerpt": "Palla a due alle 18 italiane. Gli ospiti guidano il girone L delle qualificazioni al Mondiale 2027.",
+      "url": "/notizie/basket-estonia-francia-qualificazioni-mondiali-tallinn-27-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "Torino, Santamarea e Lamante suonano all’Hiroshima Mon Amour",
+      "excerpt": "Il doppio live del 27 novembre è una tappa di Lungo i Bordi, il progetto che affianca concerti, teatro e laboratori.",
+      "url": "/notizie/torino-santamarea-lamante-hiroshima-lungo-i-bordi-27-novembre-2026.html",
+      "section": "Concerti"
+    },
     {
       "title": "Nuova Zelanda, il risultato definitivo lascia Luxon a un seggio dalla maggioranza",
       "excerpt": "Il conteggio ufficiale assegna 65 seggi su 130 ai tre partiti del governo uscente. Il centrista Opportunity ne ottiene sette.",
@@ -300,186 +600,6 @@
       "excerpt": "A Twickenham il Nations Championship assegna il terzo posto. I Wallabies affidano a un centurione la guida della squadra.",
       "url": "/notizie/rugby-irlanda-australia-terzo-posto-alaalatoa-cento-27-novembre-2026.html",
       "section": "Sport"
-    },
-    {
-      "title": "Come si misura la profondità del mare, dal sonar alle mappe",
-      "excerpt": "Un ecoscandaglio misura il tempo di ritorno del suono; un satellite aiuta a stimare il rilievo dove mancano misure dirette. La precisione di una mappa non è uguale dappertutto.",
-      "url": "/approfondimenti/batimetria-profondita-oceani-sonar.html",
-      "section": "Approfondimenti / Scienza e salute"
-    },
-    {
-      "title": "Fusione a cera persa: come nasce una statua di bronzo",
-      "excerpt": "Perché la cera deve sparire, a cosa serve l’anima e come si riconoscono nel bronzo le tracce lasciate dalla fonderia.",
-      "url": "/approfondimenti/bronzo-cera-persa-fusione-statue.html",
-      "section": "Approfondimenti / Cultura e spettacolo"
-    },
-    {
-      "title": "Audio digitale: cosa cambiano campionamento e bit",
-      "excerpt": "Perché 48 kHz e 24 bit misurano due cose diverse, come si calcola il peso di un WAV e quando ha senso convertire un file.",
-      "url": "/approfondimenti/audio-digitale-campionamento-profondita-bit.html",
-      "section": "Approfondimenti / Tecnologia e digitale"
-    },
-    {
-      "title": "Bollettino valanghe: cosa significa davvero il grado di pericolo",
-      "excerpt": "Il grado da uno a cinque descrive una regione, non il singolo pendio. Come leggere quota, esposizione, problemi della neve e limiti della previsione.",
-      "url": "/approfondimenti/bollettino-valanghe-pericolo-rischio-scala-europea.html",
-      "section": "Approfondimenti / Ambiente e clima"
-    },
-    {
-      "title": "Orienteering: leggere la mappa, trovare e convalidare i controlli",
-      "excerpt": "Come si corre una prova di orientamento a piedi: i simboli della carta, il codice delle lanterne, le scelte di percorso e le cause di esclusione dalla classifica.",
-      "url": "/approfondimenti/orienteering-corsa-orientamento-mappa-controlli.html",
-      "section": "Approfondimenti / Sport"
-    },
-    {
-      "title": "Bilancia da cucina: come capire se pesa sempre allo stesso modo",
-      "excerpt": "Il funzionamento di modelli digitali e meccanici e una prova domestica per distinguere tara, sensibilità e ripetibilità.",
-      "url": "/approfondimenti/bilancia-cucina-digitale-meccanica-ripetibilita.html",
-      "section": "Approfondimenti / Casa"
-    },
-    {
-      "title": "Come si data una roccia con il metodo uranio-piombo",
-      "excerpt": "Il metodo uranio-piombo cerca nello zircone, un silicato di zirconio, due indicatori di età. Il risultato si interpreta insieme alla struttura del cristallo e alla storia della roccia.",
-      "url": "/approfondimenti/datazione-rocce-zircone-uranio-piombo.html",
-      "section": "Approfondimenti / Scienza e salute"
-    },
-    {
-      "title": "Camera oscura: perché l’immagine appare capovolta",
-      "excerpt": "Dal foro nella persiana alla camera con lente e specchio: come si forma la proiezione e che cosa sappiamo del suo uso nella pittura.",
-      "url": "/approfondimenti/camera-oscura-immagine-capovolta-pittura-fotografia.html",
-      "section": "Approfondimenti / Cultura e spettacolo"
-    },
-    {
-      "title": "Display P3 e sRGB: perché la stessa foto cambia colore",
-      "excerpt": "Come profili ICC, gamut e schermate non gestite cambiano verdi e rossi, e cosa controllare quando esporti per web, stampa o archivio.",
-      "url": "/approfondimenti/display-p3-srgb-colori-schermi-profili.html",
-      "section": "Approfondimenti / Tecnologia e digitale"
-    },
-    {
-      "title": "Come leggere una carta pedologica: scala, legenda e profilo del suolo",
-      "excerpt": "Il colore indica un insieme di suoli, non il risultato di un campione. Un esempio dall’Emilia-Romagna mostra quali dati cercare e dove fermarsi.",
-      "url": "/approfondimenti/carta-pedologica-come-leggere-mappa-suoli.html",
-      "section": "Approfondimenti / Ambiente e clima"
-    },
-    {
-      "title": "Pattinaggio di velocità su pista lunga: cronometro e mass start",
-      "excerpt": "Perché si cambia corsia nelle distanze individuali, come funzionavano i punti a Milano Cortina 2026 e cosa cambia nella mass start a eliminazione di Coppa del Mondo.",
-      "url": "/approfondimenti/pattinaggio-velocita-pista-lunga-cronometro-mass-start.html",
-      "section": "Approfondimenti / Sport"
-    },
-    {
-      "title": "Il verso della carta: come riconoscerlo prima di piegare o rilegare",
-      "excerpt": "Perché lo stesso foglio si curva e si piega diversamente a seconda del lato, e come orientare pagine, copertine e biglietti.",
-      "url": "/approfondimenti/carta-verso-fibre-piega-legatoria.html",
-      "section": "Approfondimenti / Casa"
-    },
-    {
-      "title": "Eclissi solare: come nasce la stretta fascia di totalità",
-      "excerpt": "La Luna proietta tre regioni d’ombra differenti. La forma della Terra, i diametri apparenti e il rilievo lunare spiegano perché poche decine di chilometri possono cambiare lo spettacolo.",
-      "url": "/approfondimenti/eclissi-solare-ombra-penombra-antombra.html",
-      "section": "Approfondimenti / Scienza e salute"
-    },
-    {
-      "title": "Carte nautiche medievali: come si legge un portolano",
-      "excerpt": "Perché le coste sono affollate di nomi e il mare è attraversato da linee rette? Dalla Carta Pisana all’Atlante catalano, i segni da riconoscere e gli errori da evitare.",
-      "url": "/approfondimenti/carte-nautiche-medievali-portolani-rose-venti.html",
-      "section": "Approfondimenti / Cultura e spettacolo"
-    },
-    {
-      "title": "PDF/A: come conservare un documento e verificarlo",
-      "excerpt": "Che cosa cambia rispetto a un PDF normale, quale variante usare e come distinguere una conversione riuscita da una semplice etichetta.",
-      "url": "/approfondimenti/pdf-a-archiviazione-documenti-come-verificare.html",
-      "section": "Approfondimenti / Tecnologia e digitale"
-    },
-    {
-      "title": "Perché le spiagge arretrano: il bilancio della sabbia",
-      "excerpt": "Onde, fiumi, porti e ripascimenti spostano i sedimenti. Per capire se una spiaggia si sta erodendo non basta vedere dove arriva l’acqua.",
-      "url": "/approfondimenti/erosione-spiagge-bilancio-sedimenti-coste.html",
-      "section": "Approfondimenti / Ambiente e clima"
-    },
-    {
-      "title": "Salto in lungo: come si misurano distanza, nulli e vento",
-      "excerpt": "Dalla linea di stacco al segno più vicino nella sabbia: come leggere la serie di salti e perché una misura ventosa può vincere senza valere come record.",
-      "url": "/approfondimenti/salto-in-lungo-misura-nullo-vento.html",
-      "section": "Approfondimenti / Sport"
-    },
-    {
-      "title": "Perché il parquet scricchiola: tavole, umidità e sottofondo",
-      "excerpt": "Come distinguere un rumore del legno da un movimento del supporto, controllare quando compare e riconoscere i segnali che richiedono un sopralluogo.",
-      "url": "/approfondimenti/parquet-scricchiola-cause-umidita-sottofondo.html",
-      "section": "Approfondimenti / Casa"
-    },
-    {
-      "title": "Perché la Luna ci mostra quasi sempre la stessa faccia",
-      "excerpt": "La Luna gira su se stessa mentre orbita intorno alla Terra. La librazione ci permette comunque di sbirciare un poco oltre il bordo.",
-      "url": "/approfondimenti/luna-rotazione-sincrona-faccia-nascosta.html",
-      "section": "Approfondimenti / Scienza e salute"
-    },
-    {
-      "title": "Mosaico antico: come le tessere trasformano pietra e luce",
-      "excerpt": "Dai pavimenti romani alle pareti dorate di Ravenna, come materiali, malte e orientamento delle tessere cambiano il modo in cui si vede un mosaico.",
-      "url": "/approfondimenti/mosaico-tessere-pietra-vetro-posa.html",
-      "section": "Approfondimenti / Cultura e spettacolo"
-    },
-    {
-      "title": "Stampante laser: cosa fanno toner, tamburo e fusore",
-      "excerpt": "Dal raggio che scrive sul tamburo ai rulli che fissano la polvere: il percorso del foglio spiega strisce, macchie e difetti che si ripetono.",
-      "url": "/approfondimenti/stampante-laser-toner-tamburo-fusore.html",
-      "section": "Approfondimenti / Tecnologia e digitale"
-    },
-    {
-      "title": "Come i pollini fossili raccontano il clima del passato",
-      "excerpt": "Dal fango di un lago al diagramma pollinico: che cosa può rivelare un granulo microscopico e quando serve distinguere clima, incendi e coltivazioni.",
-      "url": "/approfondimenti/pollini-fossili-clima-passato-sedimenti.html",
-      "section": "Approfondimenti / Ambiente e clima"
-    },
-    {
-      "title": "Scacchi, come si scioglie una parità a fine torneo",
-      "excerpt": "Buchholz, Sonneborn-Berger, scontro diretto e partite supplementari: quattro modi diversi di ordinare chi ha lo stesso punteggio.",
-      "url": "/approfondimenti/scacchi-torneo-parita-buchholz-sonneborn-berger.html",
-      "section": "Approfondimenti / Sport"
-    },
-    {
-      "title": "Tende oscuranti e filtranti: la luce passa anche dai bordi",
-      "excerpt": "Come leggere la trasmissione luminosa del tessuto, scegliere fra tenda e rullo e misurare il vano prima di ordinare.",
-      "url": "/approfondimenti/tende-oscuranti-filtranti-luce-su-misura.html",
-      "section": "Approfondimenti / Casa"
-    },
-    {
-      "title": "Come si legge lo spettro di una stella",
-      "excerpt": "Una striscia di luce separata per lunghezza d’onda permette di riconoscere elementi chimici e misurare il moto lungo la linea di vista. Ecco che cosa dicono davvero le righe.",
-      "url": "/approfondimenti/spettro-stellare-come-leggere-righe-luce.html",
-      "section": "Approfondimenti / Scienza e salute"
-    },
-    {
-      "title": "Organo a canne: come funzionano registri, mantici e somieri",
-      "excerpt": "Il percorso dell’aria dal mantice alle canne e le scelte con cui l’organista trasforma una sola nota in timbri differenti.",
-      "url": "/approfondimenti/organo-a-canne-registri-mantici-somieri.html",
-      "section": "Approfondimenti / Cultura e spettacolo"
-    },
-    {
-      "title": "Wi-Fi in condominio: come scegliere e testare il canale",
-      "excerpt": "Un metodo per separare congestione, segnale debole e limiti della linea, misurando canali e larghezze sulla rete di casa.",
-      "url": "/approfondimenti/wifi-canali-larghezza-interferenze-condominio.html",
-      "section": "Approfondimenti / Tecnologia e digitale"
-    },
-    {
-      "title": "Perché i fiumi diventano torbidi dopo la pioggia",
-      "excerpt": "Dalle particelle che scendono dai versanti al sensore che misura la luce dispersa: come leggere la torbidità e perché non coincide con la portata.",
-      "url": "/approfondimenti/torbidita-fiumi-dopo-pioggia-come-si-misura.html",
-      "section": "Approfondimenti / Ambiente e clima"
-    },
-    {
-      "title": "Spada, come leggere stoccate, cartellini e tabellone",
-      "excerpt": "Che cosa mostrano le luci, perché due punti possono arrivare insieme e come leggere priorità, sanzioni e passaggio dal girone all’eliminazione diretta.",
-      "url": "/approfondimenti/scherma-spada-tabellone-cartellini-stoccate.html",
-      "section": "Approfondimenti / Sport"
-    },
-    {
-      "title": "Vetro temperato e stratificato: che cosa cambia quando si rompono",
-      "excerpt": "La tempra modifica le tensioni della lastra; la stratificazione tiene insieme più lastre. Come riconoscere le due lavorazioni e leggere un preventivo.",
-      "url": "/approfondimenti/vetro-temperato-stratificato-differenze-rottura.html",
-      "section": "Approfondimenti / Casa"
     },
     {
       "title": "Nocera Superiore, convalidati altri due fermi nell’inchiesta sul sequestro",
@@ -59196,6 +59316,186 @@
       "excerpt": "In Afghanistan 14 milioni di persone sono colpite dalla crisi alimentare. Il WFP segnala malnutrizione infantile record e tagli agli aiuti.",
       "url": "/notizie/afghanistan-crisi-alimentare-14-milioni-wfp.html",
       "section": "Mondo"
+    },
+    {
+      "title": "Come si misura la profondità del mare, dal sonar alle mappe",
+      "excerpt": "Un ecoscandaglio misura il tempo di ritorno del suono; un satellite aiuta a stimare il rilievo dove mancano misure dirette. La precisione di una mappa non è uguale dappertutto.",
+      "url": "/approfondimenti/batimetria-profondita-oceani-sonar.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Fusione a cera persa: come nasce una statua di bronzo",
+      "excerpt": "Perché la cera deve sparire, a cosa serve l’anima e come si riconoscono nel bronzo le tracce lasciate dalla fonderia.",
+      "url": "/approfondimenti/bronzo-cera-persa-fusione-statue.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Audio digitale: cosa cambiano campionamento e bit",
+      "excerpt": "Perché 48 kHz e 24 bit misurano due cose diverse, come si calcola il peso di un WAV e quando ha senso convertire un file.",
+      "url": "/approfondimenti/audio-digitale-campionamento-profondita-bit.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Bollettino valanghe: cosa significa davvero il grado di pericolo",
+      "excerpt": "Il grado da uno a cinque descrive una regione, non il singolo pendio. Come leggere quota, esposizione, problemi della neve e limiti della previsione.",
+      "url": "/approfondimenti/bollettino-valanghe-pericolo-rischio-scala-europea.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Orienteering: leggere la mappa, trovare e convalidare i controlli",
+      "excerpt": "Come si corre una prova di orientamento a piedi: i simboli della carta, il codice delle lanterne, le scelte di percorso e le cause di esclusione dalla classifica.",
+      "url": "/approfondimenti/orienteering-corsa-orientamento-mappa-controlli.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Bilancia da cucina: come capire se pesa sempre allo stesso modo",
+      "excerpt": "Il funzionamento di modelli digitali e meccanici e una prova domestica per distinguere tara, sensibilità e ripetibilità.",
+      "url": "/approfondimenti/bilancia-cucina-digitale-meccanica-ripetibilita.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Come si data una roccia con il metodo uranio-piombo",
+      "excerpt": "Il metodo uranio-piombo cerca nello zircone, un silicato di zirconio, due indicatori di età. Il risultato si interpreta insieme alla struttura del cristallo e alla storia della roccia.",
+      "url": "/approfondimenti/datazione-rocce-zircone-uranio-piombo.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Camera oscura: perché l’immagine appare capovolta",
+      "excerpt": "Dal foro nella persiana alla camera con lente e specchio: come si forma la proiezione e che cosa sappiamo del suo uso nella pittura.",
+      "url": "/approfondimenti/camera-oscura-immagine-capovolta-pittura-fotografia.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Display P3 e sRGB: perché la stessa foto cambia colore",
+      "excerpt": "Come profili ICC, gamut e schermate non gestite cambiano verdi e rossi, e cosa controllare quando esporti per web, stampa o archivio.",
+      "url": "/approfondimenti/display-p3-srgb-colori-schermi-profili.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Come leggere una carta pedologica: scala, legenda e profilo del suolo",
+      "excerpt": "Il colore indica un insieme di suoli, non il risultato di un campione. Un esempio dall’Emilia-Romagna mostra quali dati cercare e dove fermarsi.",
+      "url": "/approfondimenti/carta-pedologica-come-leggere-mappa-suoli.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Pattinaggio di velocità su pista lunga: cronometro e mass start",
+      "excerpt": "Perché si cambia corsia nelle distanze individuali, come funzionavano i punti a Milano Cortina 2026 e cosa cambia nella mass start a eliminazione di Coppa del Mondo.",
+      "url": "/approfondimenti/pattinaggio-velocita-pista-lunga-cronometro-mass-start.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Il verso della carta: come riconoscerlo prima di piegare o rilegare",
+      "excerpt": "Perché lo stesso foglio si curva e si piega diversamente a seconda del lato, e come orientare pagine, copertine e biglietti.",
+      "url": "/approfondimenti/carta-verso-fibre-piega-legatoria.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Eclissi solare: come nasce la stretta fascia di totalità",
+      "excerpt": "La Luna proietta tre regioni d’ombra differenti. La forma della Terra, i diametri apparenti e il rilievo lunare spiegano perché poche decine di chilometri possono cambiare lo spettacolo.",
+      "url": "/approfondimenti/eclissi-solare-ombra-penombra-antombra.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Carte nautiche medievali: come si legge un portolano",
+      "excerpt": "Perché le coste sono affollate di nomi e il mare è attraversato da linee rette? Dalla Carta Pisana all’Atlante catalano, i segni da riconoscere e gli errori da evitare.",
+      "url": "/approfondimenti/carte-nautiche-medievali-portolani-rose-venti.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "PDF/A: come conservare un documento e verificarlo",
+      "excerpt": "Che cosa cambia rispetto a un PDF normale, quale variante usare e come distinguere una conversione riuscita da una semplice etichetta.",
+      "url": "/approfondimenti/pdf-a-archiviazione-documenti-come-verificare.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché le spiagge arretrano: il bilancio della sabbia",
+      "excerpt": "Onde, fiumi, porti e ripascimenti spostano i sedimenti. Per capire se una spiaggia si sta erodendo non basta vedere dove arriva l’acqua.",
+      "url": "/approfondimenti/erosione-spiagge-bilancio-sedimenti-coste.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Salto in lungo: come si misurano distanza, nulli e vento",
+      "excerpt": "Dalla linea di stacco al segno più vicino nella sabbia: come leggere la serie di salti e perché una misura ventosa può vincere senza valere come record.",
+      "url": "/approfondimenti/salto-in-lungo-misura-nullo-vento.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Perché il parquet scricchiola: tavole, umidità e sottofondo",
+      "excerpt": "Come distinguere un rumore del legno da un movimento del supporto, controllare quando compare e riconoscere i segnali che richiedono un sopralluogo.",
+      "url": "/approfondimenti/parquet-scricchiola-cause-umidita-sottofondo.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Perché la Luna ci mostra quasi sempre la stessa faccia",
+      "excerpt": "La Luna gira su se stessa mentre orbita intorno alla Terra. La librazione ci permette comunque di sbirciare un poco oltre il bordo.",
+      "url": "/approfondimenti/luna-rotazione-sincrona-faccia-nascosta.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Mosaico antico: come le tessere trasformano pietra e luce",
+      "excerpt": "Dai pavimenti romani alle pareti dorate di Ravenna, come materiali, malte e orientamento delle tessere cambiano il modo in cui si vede un mosaico.",
+      "url": "/approfondimenti/mosaico-tessere-pietra-vetro-posa.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Stampante laser: cosa fanno toner, tamburo e fusore",
+      "excerpt": "Dal raggio che scrive sul tamburo ai rulli che fissano la polvere: il percorso del foglio spiega strisce, macchie e difetti che si ripetono.",
+      "url": "/approfondimenti/stampante-laser-toner-tamburo-fusore.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Come i pollini fossili raccontano il clima del passato",
+      "excerpt": "Dal fango di un lago al diagramma pollinico: che cosa può rivelare un granulo microscopico e quando serve distinguere clima, incendi e coltivazioni.",
+      "url": "/approfondimenti/pollini-fossili-clima-passato-sedimenti.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Scacchi, come si scioglie una parità a fine torneo",
+      "excerpt": "Buchholz, Sonneborn-Berger, scontro diretto e partite supplementari: quattro modi diversi di ordinare chi ha lo stesso punteggio.",
+      "url": "/approfondimenti/scacchi-torneo-parita-buchholz-sonneborn-berger.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Tende oscuranti e filtranti: la luce passa anche dai bordi",
+      "excerpt": "Come leggere la trasmissione luminosa del tessuto, scegliere fra tenda e rullo e misurare il vano prima di ordinare.",
+      "url": "/approfondimenti/tende-oscuranti-filtranti-luce-su-misura.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Come si legge lo spettro di una stella",
+      "excerpt": "Una striscia di luce separata per lunghezza d’onda permette di riconoscere elementi chimici e misurare il moto lungo la linea di vista. Ecco che cosa dicono davvero le righe.",
+      "url": "/approfondimenti/spettro-stellare-come-leggere-righe-luce.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Organo a canne: come funzionano registri, mantici e somieri",
+      "excerpt": "Il percorso dell’aria dal mantice alle canne e le scelte con cui l’organista trasforma una sola nota in timbri differenti.",
+      "url": "/approfondimenti/organo-a-canne-registri-mantici-somieri.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Wi-Fi in condominio: come scegliere e testare il canale",
+      "excerpt": "Un metodo per separare congestione, segnale debole e limiti della linea, misurando canali e larghezze sulla rete di casa.",
+      "url": "/approfondimenti/wifi-canali-larghezza-interferenze-condominio.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché i fiumi diventano torbidi dopo la pioggia",
+      "excerpt": "Dalle particelle che scendono dai versanti al sensore che misura la luce dispersa: come leggere la torbidità e perché non coincide con la portata.",
+      "url": "/approfondimenti/torbidita-fiumi-dopo-pioggia-come-si-misura.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Spada, come leggere stoccate, cartellini e tabellone",
+      "excerpt": "Che cosa mostrano le luci, perché due punti possono arrivare insieme e come leggere priorità, sanzioni e passaggio dal girone all’eliminazione diretta.",
+      "url": "/approfondimenti/scherma-spada-tabellone-cartellini-stoccate.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Vetro temperato e stratificato: che cosa cambia quando si rompono",
+      "excerpt": "La tempra modifica le tensioni della lastra; la stratificazione tiene insieme più lastre. Come riconoscere le due lavorazioni e leggere un preventivo.",
+      "url": "/approfondimenti/vetro-temperato-stratificato-differenze-rottura.html",
+      "section": "Approfondimenti / Casa"
     },
     {
       "title": "Albo pretorio online: come trovare e leggere gli atti del Comune",

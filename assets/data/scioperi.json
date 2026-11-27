@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "meta": {
     "timezone": "Europe/Rome",
-    "lastVerified": "2026-11-27T00:10:00+01:00",
-    "verificationLabel": "27 novembre 2026 alle ore 00:10",
+    "lastVerified": "2026-11-27T06:23:50+01:00",
+    "verificationLabel": "Verificato il 27/11/2026 alle 06:23 (ora italiana)",
     "dataPolicy": "Sono pubblicati soltanto dati riscontrati in calendari o comunicazioni ufficiali. I campi non disponibili sono indicati come Non comunicato.",
     "officialSources": [
       {
@@ -1903,9 +1903,119 @@
         "imageAlt": "Esterno di un ufficio bancario moderno con tre persone di spalle in lontananza, nessun marchio né cartello leggibile.",
         "publishedAt": "2026-11-26T09:17:34+01:00"
       }
+    },
+    {
+      "id": "ansagiornalisti-2026-11-27",
+      "title": "Sciopero dei giornalisti ANSA",
+      "startDate": "2026-11-27",
+      "endDate": "2026-11-28",
+      "startsAt": "2026-11-27T07:00:00+01:00",
+      "endsAt": "2026-11-28T07:00:00+01:00",
+      "scheduleText": "24 ore, dalle 07:00 del 27 alle 07:00 del 28 novembre",
+      "sector": "altri",
+      "sectorLabel": "Informazione",
+      "territory": "Tutta Italia",
+      "services": "Redazione giornalistica ANSA",
+      "organizations": "Assemblea dei giornalisti e Comitato di redazione ANSA",
+      "status": "proclamato",
+      "guarantees": "Non comunicate",
+      "national": true,
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
+      "verifiedAt": "2026-11-27T06:23:50+01:00",
+      "source": {
+        "label": "FNSI, comunicato dell’assemblea dei giornalisti ANSA",
+        "url": "https://fnsi.it/ansa-lassemblea-dei-giornalisti-situazione-insostenibile-il-27-novembre-il-primo-sciopero"
+      },
+      "article": {
+        "url": "/notizie/giornalisti-ansa-la7-sciopero-27-novembre-2026.html",
+        "title": "Scioperano i giornalisti di ANSA e La7: due vertenze aperte con gli editori",
+        "summary": "L’astensione all’ANSA va dalle 7 di venerdì alle 7 di sabato. A La7 è iniziata due ore prima e riguarda il telegiornale e la rete.",
+        "image": "/assets/images/editorial-auto/giornalisti-ansa-la7-sciopero-27-novembre-2026-v1665-1200.webp",
+        "imageAlt": "Regia televisiva vuota con pannello di controllo e monitor accesi"
+      }
+    },
+    {
+      "id": "la7giornalisti-2026-11-27",
+      "title": "Sciopero dei giornalisti de La7",
+      "startDate": "2026-11-27",
+      "endDate": "2026-11-28",
+      "startsAt": "2026-11-27T05:00:00+01:00",
+      "endsAt": "2026-11-28T05:00:00+01:00",
+      "scheduleText": "24 ore, dalle 05:00 del 27 alle 05:00 del 28 novembre",
+      "sector": "altri",
+      "sectorLabel": "Informazione",
+      "territory": "Tutta Italia",
+      "services": "Giornalisti del Tg e dei programmi di La7",
+      "organizations": "Comitato di redazione La7",
+      "status": "proclamato",
+      "guarantees": "Fasce non comunicate. TG La7 ha annunciato lo stop agli aggiornamenti sul sito e sui canali social.",
+      "national": true,
+      "regions": [
+        "abruzzo",
+        "basilicata",
+        "calabria",
+        "campania",
+        "emilia-romagna",
+        "friuli-venezia-giulia",
+        "lazio",
+        "liguria",
+        "lombardia",
+        "marche",
+        "molise",
+        "piemonte",
+        "puglia",
+        "sardegna",
+        "sicilia",
+        "toscana",
+        "trentino-alto-adige",
+        "umbria",
+        "valle-d-aosta",
+        "veneto"
+      ],
+      "verifiedAt": "2026-11-27T06:23:50+01:00",
+      "source": {
+        "label": "Giornalisti Italia, orario e durata della proclamazione",
+        "url": "https://www.giornalistitalia.it/giornalisti-de-la7-in-sciopero-per-24-ore/"
+      },
+      "article": {
+        "url": "/notizie/giornalisti-ansa-la7-sciopero-27-novembre-2026.html",
+        "title": "Scioperano i giornalisti di ANSA e La7: due vertenze aperte con gli editori",
+        "summary": "L’astensione all’ANSA va dalle 7 di venerdì alle 7 di sabato. A La7 è iniziata due ore prima e riguarda il telegiornale e la rete.",
+        "image": "/assets/images/editorial-auto/giornalisti-ansa-la7-sciopero-27-novembre-2026-v1665-1200.webp",
+        "imageAlt": "Regia televisiva vuota con pannello di controllo e monitor accesi"
+      }
     }
   ],
   "articles": [
+    {
+      "url": "/notizie/giornalisti-ansa-la7-sciopero-27-novembre-2026.html",
+      "title": "Scioperano i giornalisti di ANSA e La7: due vertenze aperte con gli editori",
+      "summary": "L’astensione all’ANSA va dalle 7 di venerdì alle 7 di sabato. A La7 è iniziata due ore prima e riguarda il telegiornale e la rete.",
+      "image": "/assets/images/editorial-auto/giornalisti-ansa-la7-sciopero-27-novembre-2026-v1665-1200.webp",
+      "imageAlt": "Regia televisiva vuota con pannello di controllo e monitor accesi",
+      "publishedAt": "2026-11-27T06:22:46+01:00"
+    },
     {
       "url": "/notizie/bff-bank-sciopero-26-novembre-2026.html",
       "title": "BFF Bank, sciopero del personale con presidi a Milano e Roma",
