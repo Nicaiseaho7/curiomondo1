@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Display P3 e sRGB: perché la stessa foto cambia colore | CurioMondo</title>
+<link rel="canonical" href="https://curiomondo.it/approfondimenti/display-p3-srgb-colori-schermi-profili.html">
+<meta name="description" content="Come profili ICC, gamut e schermate non gestite cambiano verdi e rossi, e cosa controllare quando esporti per web, stampa o archivio.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="CurioMondo">
+<meta property="og:locale" content="it_IT">
+<meta property="og:title" content="Display P3 e sRGB: perché la stessa foto cambia colore">
+<meta property="og:description" content="Come profili ICC, gamut e schermate non gestite cambiano verdi e rossi, e cosa controllare quando esporti per web, stampa o archivio.">
+<meta property="og:url" content="https://curiomondo.it/approfondimenti/display-p3-srgb-colori-schermi-profili.html">
+<meta property="og:image" content="https://curiomondo.it/assets/images/editorial-auto/guida-display-p3-srgb-colori-schermi-profili-lotto-2611-sera-1200.webp">
+<meta property="og:image:alt" content="Campioni di colore sul monitor con una sonda di calibrazione">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Display P3 e sRGB: perché la stessa foto cambia colore">
+<meta name="twitter:description" content="Come profili ICC, gamut e schermate non gestite cambiano verdi e rossi, e cosa controllare quando esporti per web, stampa o archivio.">
+<meta name="twitter:image" content="https://curiomondo.it/assets/images/editorial-auto/guida-display-p3-srgb-colori-schermi-profili-lotto-2611-sera-1200.webp">
+<meta name="twitter:image:alt" content="Campioni di colore sul monitor con una sonda di calibrazione">
+<link rel="stylesheet" href="/assets/css/site-base-v210.css">
+<link rel="stylesheet" href="/assets/css/curiomondo-article-v211.css?v=1462">
+<link rel="stylesheet" href="/assets/css/editorial-trust-v263.css">
+<link rel="stylesheet" href="/assets/css/global-header-v275.css?v=736">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Display P3 e sRGB: perché la stessa foto cambia colore","description":"Come profili ICC, gamut e schermate non gestite cambiano verdi e rossi, e cosa controllare quando esporti per web, stampa o archivio.","datePublished":"2026-11-26T22:18:13+01:00","dateModified":"2026-11-26T22:18:13+01:00","mainEntityOfPage":"https://curiomondo.it/approfondimenti/display-p3-srgb-colori-schermi-profili.html","inLanguage":"it-IT","articleSection":"Tecnologia e digitale","wordCount":2036,"image":{"@type":"ImageObject","url":"https://curiomondo.it/assets/images/editorial-auto/guida-display-p3-srgb-colori-schermi-profili-lotto-2611-sera-1200.webp","width":1200,"height":800},"author":{"@type":"Organization","name":"Redazione CurioMondo","url":"https://curiomondo.it/pagine/redazione.html"},"publisher":{"@type":"Organization","name":"CurioMondo","url":"https://curiomondo.it"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Se converto una vecchia foto sRGB in Display P3 ottengo colori nuovi?","acceptedAnswer":{"@type":"Answer","text":"No: una conversione ben fatta mantiene l’aspetto di partenza nei limiti dello spazio di arrivo. I nuovi colori diventano disponibili per modifiche successive, ma quelli assenti dal file originale non ricompaiono."}},{"@type":"Question","name":"Un file Display P3 occupa sempre più spazio?","acceptedAnswer":{"@type":"Answer","text":"No. A parità di canali, profondità, formato e impostazioni il gamut non fissa la dimensione. Il profilo aggiunge metadati; in un file compresso contano molto anche dettaglio e parametri di compressione."}},{"@type":"Question","name":"Il mio schermo deve essere P3 per aprire un’immagine P3?","acceptedAnswer":{"@type":"Answer","text":"Non necessariamente. Un programma con gestione colore può adattarla al monitor che usi, rinunciando a riprodurre fedelmente i colori fuori dalle capacità del pannello."}},{"@type":"Question","name":"Un codice esadecimale CSS può contenere direttamente un colore Display P3?","acceptedAnswer":{"@type":"Answer","text":"La notazione esadecimale CSS descrive colori sRGB. Per dichiarare coordinate Display P3 si usa la funzione color() con il nome display-p3."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://curiomondo.it/"},{"@type":"ListItem","position":2,"name":"Approfondimenti","item":"https://curiomondo.it/approfondimenti/"},{"@type":"ListItem","position":3,"name":"Display P3 e sRGB: perché la stessa foto cambia colore","item":"https://curiomondo.it/approfondimenti/display-p3-srgb-colori-schermi-profili.html"}]}</script>
+<script defer src="/assets/js/global-header-v275.js"></script>
+<script defer src="/assets/js/site-common-v210.js"></script>
+</head><body>
+<header class="cm-global-header" data-cm-global-header="v275"><nav class="cm-global-header__inner"><a class="cm-global-header__back" href="/" aria-label="Torna alla home di CurioMondo"><span class="cm-global-header__back-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M19 12H5"></path><path d="m11 18-6-6 6-6"></path></svg></span></a><a class="cm-global-header__brand" href="/" aria-label="CurioMondo, home"><span aria-hidden="true">Curio<span>Mondo</span></span></a><button class="cm-global-header__theme" data-cm-global-theme type="button" aria-label="Attiva modalità scura" aria-pressed="false"><span aria-hidden="true">☾</span></button></nav></header>
+<main id="contenuto" class="wrap">
+<nav class="breadcrumb" aria-label="Percorso"><a href="/">Home</a> · <a href="/approfondimenti/">Approfondimenti</a> · <a href="/approfondimenti/#tecnologia-e-digitale">Tecnologia e digitale</a></nav>
+<div class="badge">Approfondimenti · Tecnologia e digitale</div>
+<h1>Display P3 e sRGB: perché la stessa foto cambia colore</h1><p class="subtitle">Come profili ICC, gamut e schermate non gestite cambiano verdi e rossi, e cosa controllare quando esporti per web, stampa o archivio.</p>
+<div class="meta"><time datetime="2026-11-26T22:18:13+01:00">26 novembre 2026</time> · 10 min di lettura</div>
+<p class="cm-article-byline">A cura della <a href="/pagine/redazione.html">Redazione CurioMondo</a> · <a href="/pagine/metodo-editoriale.html">Come lavoriamo</a></p>
+<section class="cm-summary-box" aria-labelledby="in-sintesi"><h2 id="in-sintesi">In sintesi</h2><ul><li>Una terna RGB non identifica un colore finché non si sa in quale spazio è espressa.</li>
+<li>Display P3 contiene alcuni rossi e verdi più saturi di sRGB; entrambi usano il bianco D65.</li>
+<li>Per pubblicare su dispositivi diversi conviene decidere dove convertire e verificare che il profilo resti incorporato.</li></ul></section>
+<figure class="article-image" data-ai-generated="true"><picture><img src="/assets/images/editorial-auto/guida-display-p3-srgb-colori-schermi-profili-lotto-2611-sera-800.webp" srcset="/assets/images/editorial-auto/guida-display-p3-srgb-colori-schermi-profili-lotto-2611-sera-480.webp 480w, /assets/images/editorial-auto/guida-display-p3-srgb-colori-schermi-profili-lotto-2611-sera-800.webp 800w, /assets/images/editorial-auto/guida-display-p3-srgb-colori-schermi-profili-lotto-2611-sera-1200.webp 1200w" sizes="(max-width:832px) calc(100vw - 32px),800px" width="800" height="533" alt="Campioni di colore sul monitor con una sonda di calibrazione" fetchpriority="high" loading="eager" decoding="async"></picture><figcaption>Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.</figcaption></figure>
+<article class="art-body" data-editorial-protocol="4.0" data-article-format="feature" data-plain-lead="true">
+<div class="cm-guide-lead"><p>Una foto inviata a un collega mostra un rosso acceso sul telefono e un rosso più spento sul suo portatile. La differenza può dipendere dagli schermi, ma può anche essere nata prima che l’immagine arrivasse al secondo dispositivo.</p>
+<p>Il file potrebbe contenere un rosso che il portatile non è in grado di riprodurre, oppure aver perso il profilo che spiegava a quale rosso corrispondono i numeri del pixel.</p>
+</div>
+<p>sRGB e Display P3 stabiliscono due modi diversi di codificare i colori. Conoscerli aiuta a capire se bisogna intervenire sul file, sul programma che lo apre o sul monitor. Il confronto più utile si fa con due esportazioni della stessa immagine, non impostando la modalità più vivace dello schermo e giudicando quale versione sembri più bella.</p>
+
+<h2>I numeri RGB dipendono dai primari</h2>
+
+<p>In un’immagine RGB ogni pixel ha tre componenti, una per il rosso, una per il verde e una per il blu. In un file a otto bit per canale, 255, 0, 0 indica che il canale rosso è al massimo e gli altri sono a zero. Resta da sapere quale rosso sia quello scelto dallo spazio colore.</p>
+
+<p>Un primario non è un nome commerciale né una tinta selezionata a occhio. È un colore di riferimento con coordinate definite. Tre primari, insieme a un riferimento per il bianco e a una regola per interpretare le intensità, permettono di risalire dai numeri memorizzati a un colore descritto in modo indipendente dal dispositivo.</p>
+
+<p>Nei diagrammi che rappresentano la cromaticità, i primari formano un triangolo. Ridisegnare i vertici sposta alcuni bordi e cambia la regione riproducibile combinando quelle componenti. Il disegno separa la cromaticità dalla luminanza: la sua area non misura quanto sarà luminoso il monitor o quanto bene distinguerà le ombre.</p>
+
+<p>Il termine gamut indica un insieme di colori riproducibili o rappresentabili. Un file appartiene a uno spazio con un certo gamut, ma può usare soltanto tinte che rientrano in una piccola parte di quell’insieme. Un ritratto con maglione grigio sullo sfondo di una parete beige non fa comparire colori più saturi soltanto perché viene salvato in P3.</p>
+
+<h2>Che cosa cambia da sRGB a Display P3</h2>
+
+<p>sRGB è il riferimento storico per un’ampia parte della grafica digitale. Sul web anche la notazione esadecimale tradizionale dei colori CSS si riferisce a sRGB: quando un progettista inserisce il proprio codice abituale, non sta scegliendo in automatico i primari di un monitor più ampio.</p>
+
+<p>Display P3 usa primari dello spazio cinematografico P3, ma adotta il punto di bianco D65 e la curva di codifica di sRGB. In particolare la regione raggiungibile comprende colori più saturi in direzione del rosso e del verde.</p>
+
+<p>Il nome simile non consente comunque di sostituirlo a DCI-P3 in un flusso per la proiezione: il riferimento per il bianco e la curva non coincidono.</p>
+
+<p>La curva serve perché i valori memorizzati non sono direttamente proporzionali alla luminanza. Raddoppiare un numero codificato non equivale a raddoppiare la luce emessa. È anche per questo che il risultato di una sfumatura dipende da come il programma calcola i passaggi intermedi, oltre che dai due colori iniziali.</p><aside class="cm-safe-ad" data-cm-ad="banner468" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/banner-468.html" width="468" height="60" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(468px,100%);height:60px;background:#fff"></iframe></aside>
+
+<p>Il bianco D65 è una convenzione dello spazio, non la promessa che qualsiasi monitor abbia lo stesso bianco percepito. Uno schermo regolato per un tono caldo alla sera e uno usato vicino a una finestra possono apparire differenti anche quando ricevono un file codificato correttamente.</p>
+
+<div class="cm-table-wrap cm-table-scroll" role="region" aria-label="Che cosa è definito dallo spazio e che cosa no" tabindex="0"><table><caption>Che cosa è definito dallo spazio e che cosa no</caption><thead><tr><th scope="col">Proprietà</th><th scope="col">sRGB</th><th scope="col">Display P3</th></tr></thead><tbody><tr><td>Primari</td><td>Rosso, verde e blu dello standard sRGB</td><td>Primari usati nello spazio P3</td></tr><tr><td>Punto di bianco</td><td>D65</td><td>D65</td></tr><tr><td>Curva di codifica</td><td>Curva sRGB</td><td>Curva sRGB</td></tr><tr><td>Colori molto saturi</td><td>Alcuni non sono rappresentabili</td><td>Regione più ampia, soprattutto verso rossi e verdi</td></tr><tr><td>Numero di combinazioni a 8 bit RGB</td><td>256 livelli per ciascuno dei tre canali</td><td>Uguale, ma distribuito secondo altre coordinate di colore</td></tr><tr><td>Capacità dello schermo</td><td>Dipendono dal pannello e dalle impostazioni</td><td>Dipendono dal pannello e dalle impostazioni</td></tr></tbody></table></div>
+
+<h2>Assegnare un profilo e convertire fanno due lavori diversi</h2>
+
+<p>Il profilo incorporato informa il programma su come interpretare i pixel. Un’app con gestione colore può leggere quel profilo, calcolare il colore voluto e ricondurlo alle capacità dello schermo o al profilo dell’uscita. Se questo passaggio manca, i numeri possono essere letti secondo un altro spazio: i colori cambiano anche senza modificare un solo pixel nel file.</p>
+
+<p>Assegnare un profilo è proprio cambiare l’interpretazione, lasciando invariati i numeri. Serve quando si sa che il file è stato prodotto in uno spazio ma il profilo è scomparso o non è mai stato salvato. Attribuire P3 a un file nato sRGB non allarga l’originale: può invece far diventare troppo vivaci quadri, capi e incarnati.</p>
+
+<p>Convertire modifica i numeri per mantenere, nei limiti del possibile, l’aspetto. Per uno stesso colore raggiungibile da entrambi gli spazi, il programma trova le coordinate adatte alla destinazione. Un verde più saturo dei verdi riproducibili in sRGB non ha invece una rappresentazione esatta: lo si deve avvicinare a un verde raggiungibile.</p>
+
+<p>Due conversioni possono privilegiare aspetti diversi. Adattare i colori fuori gamma a quelli sul confine conserva più fedelmente molte tinte già riproducibili, ma se due verdi vengono portati allo stesso limite parte del loro contrasto sparisce. Una compressione più graduale può separare meglio i verdi, al prezzo di spostare anche colori che in origine sarebbero rientrati nel gamut.</p>
+
+<p>Una prova concreta: duplica una fotografia con un oggetto rosso molto saturo e una serie di ombre sullo stesso oggetto. Converti una copia in sRGB e controlla l’originale e la copia nella stessa applicazione.</p>
+
+<p>Osserva se la stoffa o la vernice mantengono le diverse sfumature. Il cambiamento utile da cercare è la perdita di separazione, non una generica sensazione di foto più spenta.</p>
+
+<h2>Dal telefono a una galleria sul web</h2>
+
+<p>Sul telefono può intervenire più di un passaggio. Il programma di fotografia può trattare la foto in uno spazio ampio; il comando di condivisione può inviare l’originale oppure una copia convertita.</p>
+
+<p>Il servizio a cui si carica il file può produrre le proprie anteprime. Che il file scaricato conservi colore e profilo va verificato sul risultato, non dedotto dal nome del servizio.</p>
+
+<p>Per un sito che deve funzionare in contesti eterogenei puoi partire da un’esportazione sRGB con profilo incorporato. Per una galleria progettata intorno a fotografie con colori saturi puoi aggiungere una variante Display P3, se il resto della catena la conserva.</p>
+
+<p>In entrambi i casi apri la pagina effettiva, perché il file selezionato in fase di caricamento può non essere quello servito al visitatore.</p><aside class="cm-safe-ad" data-cm-ad="box300" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/box-300.html" width="300" height="250" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(300px,100%);height:250px;background:#fff"></iframe></aside>
+
+<p>Anche il testo e la grafica dell’interfaccia vanno controllati. In CSS la funzione color() consente di specificare Display P3, mentre una tinta esadecimale tradizionale parte da sRGB. È possibile dichiarare prima un valore compatibile e poi una variante, senza lasciare il pulsante senza sfondo sui browser che non comprendono la seconda dichiarazione.</p>
+
+<p>La verifica del contrasto merita un controllo separato. Una scritta bianca su una tonalità verde molto brillante può perdere leggibilità anche quando la tinta corrisponde alla scelta grafica. La saturazione non è sinonimo di contrasto: questo dipende dalla luminosità relativa della scritta e dello sfondo.</p>
+
+<p>Una schermata catturata sul proprio dispositivo può riassorbire il problema anziché spiegarlo. Lo screenshot crea un altro file, che ha la sua codifica e il suo percorso di condivisione. Per confrontare le condizioni, tieni distinti almeno il file originale, il risultato scaricato dalla pagina e la schermata prodotta dal dispositivo.</p>
+
+<h2>Misurare il monitor prima di correggere tutte le foto</h2>
+
+<p>La scritta «copertura P3» sulla scheda di un pannello è un dato sulle tinte raggiungibili, non una certificazione generale di accuratezza. La percentuale non basta a sapere se un certo rosso è corretto né se il monitor distingue due grigi vicini. Servono indicazioni sulla misurazione, sulla modalità attiva e sulla qualità della regolazione.</p>
+
+<p>Il monitor può avere una modalità sRGB che limita i primari effettivi e una modalità che sfrutta una porzione maggiore del gamut del pannello. Se il sistema usa un profilo creato in un’altra modalità, la descrizione non corrisponde più al comportamento osservato. Prima di paragonare due programmi, accertati che modalità del monitor e profilo associato coincidano.</p>
+
+<p>Calibrare e profilare sono due passaggi distinti. La calibrazione porta il dispositivo verso un comportamento scelto, per esempio un certo bianco o una certa luminanza. La profilazione descrive il comportamento effettivo ottenuto, in modo che la gestione colore possa fare i conti con quelle caratteristiche.</p>
+
+<p>Per un lavoro in cui il colore ha conseguenze, per esempio il catalogo di tessuti di una piccola attività, la correzione visiva improvvisata può avere un costo. Se rendi più caldo ogni file perché il tuo monitor è troppo freddo, le foto arriveranno calde anche sul dispositivo di un cliente configurato meglio.</p>
+
+<p>Puoi partire da una verifica più economica. Disattiva temporaneamente impostazioni che cambiano la temperatura del bianco con l’orario e confronta lo stesso file nella stessa stanza, alla stessa luminosità indicativa. Se il risultato serve per approvare campioni o tirature, una misura del monitor e una prova dell’uscita sono più significative di diversi pareri su schermi non controllati.</p>
+
+<h2>Stampa, HDR e profondità di colore</h2>
+
+<p>Stampare introduce un gamut ulteriore, legato alla macchina, agli inchiostri e alla carta. Un monitor produce luce, mentre il foglio riflette quella dell’ambiente. Non tutti i verdi di P3 sono stampabili su una certa carta; vale anche il contrario per alcune tinte che un procedimento di stampa può riprodurre e un determinato monitor no.</p>
+
+<p>Una tipografia può chiedere un profilo particolare oppure un file nello spazio concordato e occuparsi della conversione. È il servizio a poter indicare quali condizioni di stampa simula il profilo. Convertire in un CMYK qualsiasi perché la destinazione è la carta aggiunge una trasformazione anticipata che può essere inadatta al lavoro reale.</p>
+
+<p>La simulazione a schermo, spesso chiamata prova colore a monitor, permette di vedere come un profilo di stampa modifica il risultato previsto. Serve soprattutto per accorgersi di un gruppo di ombre che si chiude o di un colore che cambia aspetto. In un lavoro critico conviene confrontarla con una prova fisica vista sotto luce controllata.</p><aside class="cm-safe-ad" data-cm-ad="banner320" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/banner-320.html" width="320" height="50" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(320px,100%);height:50px;background:#fff"></iframe></aside>
+
+<p>La sigla P3 non significa HDR. L’HDR riguarda anche la rappresentazione di luminosità, alte luci e intervallo dinamico. Si possono avere fotografie P3 destinate alla visualizzazione standard, così come un video HDR usa specifiche ulteriori per spiegare a uno schermo come trattare luminosità e colori.</p>
+
+<p>Non significa neppure dieci bit. La profondità misura la finezza con cui si suddivide ciascun canale; il gamut stabilisce l’ampiezza dei colori codificabili. Con otto bit entrambi gli spazi hanno 256 valori per canale. Uno spazio più ampio distribuisce quelle combinazioni su una regione diversa, non ne aggiunge.</p>
+
+<h2>Un flusso che lascia intatto l’originale</h2>
+
+<p>Conserva il file di lavorazione con il profilo corretto e crea copie distinte per gli usi finali. Per esempio, mantieni una fotografia nel formato di lavoro del programma e salva una copia sRGB da caricare nel catalogo. Se devi approvare una stampa, produci una terza copia secondo le indicazioni del fornitore.</p>
+
+<p>Evita il rimbalzo da uno spazio all’altro sulla stessa copia. Se colori fuori gamma sono stati fusi o sostituiti passando in sRGB, riportare il file risultante in P3 non recupera le differenze originarie. La conversione verso un gamut più grande riscrive le coordinate disponibili; non ricorda quelle eliminate da una trasformazione precedente.</p>
+
+<p>Verifica le esportazioni con una coppia di immagini: una ordinaria, utile per toni della pelle e grigi, e una con rossi o verdi saturi, utile per osservare la gestione dei colori fuori gamma. Se entrambe cambiano troppo dopo il caricamento, esamina i profili rimasti nei file o le impostazioni di visualizzazione prima di ritoccare la sorgente.</p>
+
+<p>Quando passi una foto a qualcun altro, specifica il risultato atteso: una copia pronta per il web, il documento modificabile o il materiale per la stampa. «Massima qualità» non distingue questi tre usi. Un piccolo JPEG sRGB può essere la scelta corretta per il primo e una pessima fonte per ricostruire il secondo.</p>
+
+<p>Infine non usare i colori di un display come verifica assoluta dell’aspetto di un prodotto. La luce con cui lo fotografi e quella sotto cui il cliente lo vede influenzano il risultato, anche con un profilo incorporato e uno schermo misurato.</p>
+
+<p>Una gestione corretta del colore rimuove un gruppo di errori ben preciso: evita che il file e i programmi si mettano d’accordo sui numeri sbagliati.</p>
+<section class="art-faq" aria-labelledby="faq"><h2 id="faq">FAQ</h2>
+<h3>Se converto una vecchia foto sRGB in Display P3 ottengo colori nuovi?</h3><p>No: una conversione ben fatta mantiene l’aspetto di partenza nei limiti dello spazio di arrivo. I nuovi colori diventano disponibili per modifiche successive, ma quelli assenti dal file originale non ricompaiono.</p>
+<h3>Un file Display P3 occupa sempre più spazio?</h3><p>No. A parità di canali, profondità, formato e impostazioni il gamut non fissa la dimensione. Il profilo aggiunge metadati; in un file compresso contano molto anche dettaglio e parametri di compressione.</p>
+<h3>Il mio schermo deve essere P3 per aprire un’immagine P3?</h3><p>Non necessariamente. Un programma con gestione colore può adattarla al monitor che usi, rinunciando a riprodurre fedelmente i colori fuori dalle capacità del pannello.</p>
+<h3>Un codice esadecimale CSS può contenere direttamente un colore Display P3?</h3><p>La notazione esadecimale CSS descrive colori sRGB. Per dichiarare coordinate Display P3 si usa la funzione color() con il nome display-p3.</p>
+</section>
+</article><aside class="cm-safe-ad" data-cm-ad="native" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/native.html" width="336" height="280" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(336px,100%);height:280px;background:#fff"></iframe></aside>
+<section class="art-sources" aria-labelledby="fonti"><h2 id="fonti">Fonti consultate</h2><ul><li><a href="https://www.w3.org/TR/css-color-4/" rel="noopener noreferrer">W3C, CSS Color Module Level 4</a></li>
+<li><a href="https://registry.color.org/rgb-registry/displayp3" rel="noopener noreferrer">International Color Consortium, registro: Display P3</a></li>
+<li><a href="https://registry.color.org/rgb-registry/srgbprofiles" rel="noopener noreferrer">International Color Consortium, profili sRGB</a></li>
+<li><a href="https://www.color.org/displaycalibration/" rel="noopener noreferrer">International Color Consortium, calibrazione del display</a></li></ul></section>
+<section class="curio-related" aria-labelledby="altre-guide"><h2 id="altre-guide">Approfondisci ancora</h2><div class="curio-related-grid"><a class="without-image" href="/approfondimenti/bilanciamento-bianco-fotografia.html"><strong>Bilanciamento del bianco: come correggere le dominanti nelle foto</strong></a><a class="without-image" href="/approfondimenti/foto-jpeg-heic-avif-formati-compatibilita-qualita.html"><strong>JPEG, HEIC e AVIF: quale formato scegliere per le foto?</strong></a></div></section>
+</main></body></html>

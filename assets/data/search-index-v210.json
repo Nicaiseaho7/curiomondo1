@@ -2,6 +2,186 @@
   "version": 1663,
   "items": [
     {
+      "title": "Come si misura la profondità del mare, dal sonar alle mappe",
+      "excerpt": "Un ecoscandaglio misura il tempo di ritorno del suono; un satellite aiuta a stimare il rilievo dove mancano misure dirette. La precisione di una mappa non è uguale dappertutto.",
+      "url": "/approfondimenti/batimetria-profondita-oceani-sonar.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Fusione a cera persa: come nasce una statua di bronzo",
+      "excerpt": "Perché la cera deve sparire, a cosa serve l’anima e come si riconoscono nel bronzo le tracce lasciate dalla fonderia.",
+      "url": "/approfondimenti/bronzo-cera-persa-fusione-statue.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Audio digitale: cosa cambiano campionamento e bit",
+      "excerpt": "Perché 48 kHz e 24 bit misurano due cose diverse, come si calcola il peso di un WAV e quando ha senso convertire un file.",
+      "url": "/approfondimenti/audio-digitale-campionamento-profondita-bit.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Bollettino valanghe: cosa significa davvero il grado di pericolo",
+      "excerpt": "Il grado da uno a cinque descrive una regione, non il singolo pendio. Come leggere quota, esposizione, problemi della neve e limiti della previsione.",
+      "url": "/approfondimenti/bollettino-valanghe-pericolo-rischio-scala-europea.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Orienteering: leggere la mappa, trovare e convalidare i controlli",
+      "excerpt": "Come si corre una prova di orientamento a piedi: i simboli della carta, il codice delle lanterne, le scelte di percorso e le cause di esclusione dalla classifica.",
+      "url": "/approfondimenti/orienteering-corsa-orientamento-mappa-controlli.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Bilancia da cucina: come capire se pesa sempre allo stesso modo",
+      "excerpt": "Il funzionamento di modelli digitali e meccanici e una prova domestica per distinguere tara, sensibilità e ripetibilità.",
+      "url": "/approfondimenti/bilancia-cucina-digitale-meccanica-ripetibilita.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Come si data una roccia con il metodo uranio-piombo",
+      "excerpt": "Il metodo uranio-piombo cerca nello zircone, un silicato di zirconio, due indicatori di età. Il risultato si interpreta insieme alla struttura del cristallo e alla storia della roccia.",
+      "url": "/approfondimenti/datazione-rocce-zircone-uranio-piombo.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Camera oscura: perché l’immagine appare capovolta",
+      "excerpt": "Dal foro nella persiana alla camera con lente e specchio: come si forma la proiezione e che cosa sappiamo del suo uso nella pittura.",
+      "url": "/approfondimenti/camera-oscura-immagine-capovolta-pittura-fotografia.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Display P3 e sRGB: perché la stessa foto cambia colore",
+      "excerpt": "Come profili ICC, gamut e schermate non gestite cambiano verdi e rossi, e cosa controllare quando esporti per web, stampa o archivio.",
+      "url": "/approfondimenti/display-p3-srgb-colori-schermi-profili.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Come leggere una carta pedologica: scala, legenda e profilo del suolo",
+      "excerpt": "Il colore indica un insieme di suoli, non il risultato di un campione. Un esempio dall’Emilia-Romagna mostra quali dati cercare e dove fermarsi.",
+      "url": "/approfondimenti/carta-pedologica-come-leggere-mappa-suoli.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Pattinaggio di velocità su pista lunga: cronometro e mass start",
+      "excerpt": "Perché si cambia corsia nelle distanze individuali, come funzionavano i punti a Milano Cortina 2026 e cosa cambia nella mass start a eliminazione di Coppa del Mondo.",
+      "url": "/approfondimenti/pattinaggio-velocita-pista-lunga-cronometro-mass-start.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Il verso della carta: come riconoscerlo prima di piegare o rilegare",
+      "excerpt": "Perché lo stesso foglio si curva e si piega diversamente a seconda del lato, e come orientare pagine, copertine e biglietti.",
+      "url": "/approfondimenti/carta-verso-fibre-piega-legatoria.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Eclissi solare: come nasce la stretta fascia di totalità",
+      "excerpt": "La Luna proietta tre regioni d’ombra differenti. La forma della Terra, i diametri apparenti e il rilievo lunare spiegano perché poche decine di chilometri possono cambiare lo spettacolo.",
+      "url": "/approfondimenti/eclissi-solare-ombra-penombra-antombra.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Carte nautiche medievali: come si legge un portolano",
+      "excerpt": "Perché le coste sono affollate di nomi e il mare è attraversato da linee rette? Dalla Carta Pisana all’Atlante catalano, i segni da riconoscere e gli errori da evitare.",
+      "url": "/approfondimenti/carte-nautiche-medievali-portolani-rose-venti.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "PDF/A: come conservare un documento e verificarlo",
+      "excerpt": "Che cosa cambia rispetto a un PDF normale, quale variante usare e come distinguere una conversione riuscita da una semplice etichetta.",
+      "url": "/approfondimenti/pdf-a-archiviazione-documenti-come-verificare.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché le spiagge arretrano: il bilancio della sabbia",
+      "excerpt": "Onde, fiumi, porti e ripascimenti spostano i sedimenti. Per capire se una spiaggia si sta erodendo non basta vedere dove arriva l’acqua.",
+      "url": "/approfondimenti/erosione-spiagge-bilancio-sedimenti-coste.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Salto in lungo: come si misurano distanza, nulli e vento",
+      "excerpt": "Dalla linea di stacco al segno più vicino nella sabbia: come leggere la serie di salti e perché una misura ventosa può vincere senza valere come record.",
+      "url": "/approfondimenti/salto-in-lungo-misura-nullo-vento.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Perché il parquet scricchiola: tavole, umidità e sottofondo",
+      "excerpt": "Come distinguere un rumore del legno da un movimento del supporto, controllare quando compare e riconoscere i segnali che richiedono un sopralluogo.",
+      "url": "/approfondimenti/parquet-scricchiola-cause-umidita-sottofondo.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Perché la Luna ci mostra quasi sempre la stessa faccia",
+      "excerpt": "La Luna gira su se stessa mentre orbita intorno alla Terra. La librazione ci permette comunque di sbirciare un poco oltre il bordo.",
+      "url": "/approfondimenti/luna-rotazione-sincrona-faccia-nascosta.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Mosaico antico: come le tessere trasformano pietra e luce",
+      "excerpt": "Dai pavimenti romani alle pareti dorate di Ravenna, come materiali, malte e orientamento delle tessere cambiano il modo in cui si vede un mosaico.",
+      "url": "/approfondimenti/mosaico-tessere-pietra-vetro-posa.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Stampante laser: cosa fanno toner, tamburo e fusore",
+      "excerpt": "Dal raggio che scrive sul tamburo ai rulli che fissano la polvere: il percorso del foglio spiega strisce, macchie e difetti che si ripetono.",
+      "url": "/approfondimenti/stampante-laser-toner-tamburo-fusore.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Come i pollini fossili raccontano il clima del passato",
+      "excerpt": "Dal fango di un lago al diagramma pollinico: che cosa può rivelare un granulo microscopico e quando serve distinguere clima, incendi e coltivazioni.",
+      "url": "/approfondimenti/pollini-fossili-clima-passato-sedimenti.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Scacchi, come si scioglie una parità a fine torneo",
+      "excerpt": "Buchholz, Sonneborn-Berger, scontro diretto e partite supplementari: quattro modi diversi di ordinare chi ha lo stesso punteggio.",
+      "url": "/approfondimenti/scacchi-torneo-parita-buchholz-sonneborn-berger.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Tende oscuranti e filtranti: la luce passa anche dai bordi",
+      "excerpt": "Come leggere la trasmissione luminosa del tessuto, scegliere fra tenda e rullo e misurare il vano prima di ordinare.",
+      "url": "/approfondimenti/tende-oscuranti-filtranti-luce-su-misura.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Come si legge lo spettro di una stella",
+      "excerpt": "Una striscia di luce separata per lunghezza d’onda permette di riconoscere elementi chimici e misurare il moto lungo la linea di vista. Ecco che cosa dicono davvero le righe.",
+      "url": "/approfondimenti/spettro-stellare-come-leggere-righe-luce.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Organo a canne: come funzionano registri, mantici e somieri",
+      "excerpt": "Il percorso dell’aria dal mantice alle canne e le scelte con cui l’organista trasforma una sola nota in timbri differenti.",
+      "url": "/approfondimenti/organo-a-canne-registri-mantici-somieri.html",
+      "section": "Approfondimenti / Cultura e spettacolo"
+    },
+    {
+      "title": "Wi-Fi in condominio: come scegliere e testare il canale",
+      "excerpt": "Un metodo per separare congestione, segnale debole e limiti della linea, misurando canali e larghezze sulla rete di casa.",
+      "url": "/approfondimenti/wifi-canali-larghezza-interferenze-condominio.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché i fiumi diventano torbidi dopo la pioggia",
+      "excerpt": "Dalle particelle che scendono dai versanti al sensore che misura la luce dispersa: come leggere la torbidità e perché non coincide con la portata.",
+      "url": "/approfondimenti/torbidita-fiumi-dopo-pioggia-come-si-misura.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Spada, come leggere stoccate, cartellini e tabellone",
+      "excerpt": "Che cosa mostrano le luci, perché due punti possono arrivare insieme e come leggere priorità, sanzioni e passaggio dal girone all’eliminazione diretta.",
+      "url": "/approfondimenti/scherma-spada-tabellone-cartellini-stoccate.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Vetro temperato e stratificato: che cosa cambia quando si rompono",
+      "excerpt": "La tempra modifica le tensioni della lastra; la stratificazione tiene insieme più lastre. Come riconoscere le due lavorazioni e leggere un preventivo.",
+      "url": "/approfondimenti/vetro-temperato-stratificato-differenze-rottura.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
       "title": "Nocera Superiore, convalidati altri due fermi nell’inchiesta sul sequestro",
       "excerpt": "Il giudice di Salerno ha disposto la custodia in carcere per cinque indagati. Uno degli ultimi fermati è stato rintracciato in aeroporto.",
       "url": "/notizie/nocera-superiore-sequestro-persona-due-arresti-26-novembre-2026.html",

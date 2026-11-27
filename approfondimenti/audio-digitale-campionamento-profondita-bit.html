@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Audio digitale: cosa cambiano campionamento e bit | CurioMondo</title>
+<link rel="canonical" href="https://curiomondo.it/approfondimenti/audio-digitale-campionamento-profondita-bit.html">
+<meta name="description" content="Perché 48 kHz e 24 bit misurano due cose diverse, come si calcola il peso di un WAV e quando ha senso convertire un file.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="CurioMondo">
+<meta property="og:locale" content="it_IT">
+<meta property="og:title" content="Audio digitale: cosa cambiano campionamento e bit">
+<meta property="og:description" content="Perché 48 kHz e 24 bit misurano due cose diverse, come si calcola il peso di un WAV e quando ha senso convertire un file.">
+<meta property="og:url" content="https://curiomondo.it/approfondimenti/audio-digitale-campionamento-profondita-bit.html">
+<meta property="og:image" content="https://curiomondo.it/assets/images/editorial-auto/guida-audio-digitale-campionamento-profondita-bit-lotto-2611-sera-1200.webp">
+<meta property="og:image:alt" content="Forma d’onda su un oscilloscopio e interfaccia audio">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Audio digitale: cosa cambiano campionamento e bit">
+<meta name="twitter:description" content="Perché 48 kHz e 24 bit misurano due cose diverse, come si calcola il peso di un WAV e quando ha senso convertire un file.">
+<meta name="twitter:image" content="https://curiomondo.it/assets/images/editorial-auto/guida-audio-digitale-campionamento-profondita-bit-lotto-2611-sera-1200.webp">
+<meta name="twitter:image:alt" content="Forma d’onda su un oscilloscopio e interfaccia audio">
+<link rel="stylesheet" href="/assets/css/site-base-v210.css">
+<link rel="stylesheet" href="/assets/css/curiomondo-article-v211.css?v=1462">
+<link rel="stylesheet" href="/assets/css/editorial-trust-v263.css">
+<link rel="stylesheet" href="/assets/css/global-header-v275.css?v=736">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Audio digitale: cosa cambiano campionamento e bit","description":"Perché 48 kHz e 24 bit misurano due cose diverse, come si calcola il peso di un WAV e quando ha senso convertire un file.","datePublished":"2026-11-26T22:18:19+01:00","dateModified":"2026-11-26T22:18:19+01:00","mainEntityOfPage":"https://curiomondo.it/approfondimenti/audio-digitale-campionamento-profondita-bit.html","inLanguage":"it-IT","articleSection":"Tecnologia e digitale","wordCount":2075,"image":{"@type":"ImageObject","url":"https://curiomondo.it/assets/images/editorial-auto/guida-audio-digitale-campionamento-profondita-bit-lotto-2611-sera-1200.webp","width":1200,"height":800},"author":{"@type":"Organization","name":"Redazione CurioMondo","url":"https://curiomondo.it/pagine/redazione.html"},"publisher":{"@type":"Organization","name":"CurioMondo","url":"https://curiomondo.it"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Un WAV è necessariamente a 24 bit?","acceptedAnswer":{"@type":"Answer","text":"No. WAV è un contenitore che può avere contenuti con specifiche differenti. Leggi tipo di codifica, campionamento, risoluzione e canali del file."}},{"@type":"Question","name":"Un file a 96 kHz contiene sempre più dettaglio di uno a 48 kHz?","acceptedAnswer":{"@type":"Answer","text":"Ha più campioni al secondo, ma non dice se l’originale aveva informazioni oltre la banda precedente o se il risultato suonerà diverso. Un file ricampionato non recupera informazione già perduta."}},{"@type":"Question","name":"Che cosa succede passando da stereo a mono?","acceptedAnswer":{"@type":"Answer","text":"Si riducono i canali, ma sommarli può cambiare livello o attenuare parti del suono a seconda della relazione fra i due. Ascolta il risultato prima di consegnarlo."}},{"@type":"Question","name":"Perché un MP3 non ha la stessa lettura dei 16 bit di un WAV PCM?","acceptedAnswer":{"@type":"Answer","text":"Il bitrate MP3 descrive i dati compressi al secondo. I 16 bit di un WAV PCM descrivono invece la risoluzione dei singoli campioni non compressi."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://curiomondo.it/"},{"@type":"ListItem","position":2,"name":"Approfondimenti","item":"https://curiomondo.it/approfondimenti/"},{"@type":"ListItem","position":3,"name":"Audio digitale: cosa cambiano campionamento e bit","item":"https://curiomondo.it/approfondimenti/audio-digitale-campionamento-profondita-bit.html"}]}</script>
+<script defer src="/assets/js/global-header-v275.js"></script>
+<script defer src="/assets/js/site-common-v210.js"></script>
+</head><body>
+<header class="cm-global-header" data-cm-global-header="v275"><nav class="cm-global-header__inner"><a class="cm-global-header__back" href="/" aria-label="Torna alla home di CurioMondo"><span class="cm-global-header__back-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M19 12H5"></path><path d="m11 18-6-6 6-6"></path></svg></span></a><a class="cm-global-header__brand" href="/" aria-label="CurioMondo, home"><span aria-hidden="true">Curio<span>Mondo</span></span></a><button class="cm-global-header__theme" data-cm-global-theme type="button" aria-label="Attiva modalità scura" aria-pressed="false"><span aria-hidden="true">☾</span></button></nav></header>
+<main id="contenuto" class="wrap">
+<nav class="breadcrumb" aria-label="Percorso"><a href="/">Home</a> · <a href="/approfondimenti/">Approfondimenti</a> · <a href="/approfondimenti/#tecnologia-e-digitale">Tecnologia e digitale</a></nav>
+<div class="badge">Approfondimenti · Tecnologia e digitale</div>
+<h1>Audio digitale: cosa cambiano campionamento e bit</h1><p class="subtitle">Perché 48 kHz e 24 bit misurano due cose diverse, come si calcola il peso di un WAV e quando ha senso convertire un file.</p>
+<div class="meta"><time datetime="2026-11-26T22:18:19+01:00">26 novembre 2026</time> · 10 min di lettura</div>
+<p class="cm-article-byline">A cura della <a href="/pagine/redazione.html">Redazione CurioMondo</a> · <a href="/pagine/metodo-editoriale.html">Come lavoriamo</a></p>
+<section class="cm-summary-box" aria-labelledby="in-sintesi"><h2 id="in-sintesi">In sintesi</h2><ul><li>I kilohertz indicano quanti campioni vengono misurati ogni secondo per canale; i bit indicano quanti livelli sono disponibili per ciascun valore.</li>
+<li>Il bitrate descrive il volume di dati per secondo e non va confuso con la profondità di bit.</li>
+<li>Per registrare e montare conta il margine prima della distorsione; per consegnare conta anche il formato richiesto.</li></ul></section>
+<figure class="article-image" data-ai-generated="true"><picture><img src="/assets/images/editorial-auto/guida-audio-digitale-campionamento-profondita-bit-lotto-2611-sera-800.webp" srcset="/assets/images/editorial-auto/guida-audio-digitale-campionamento-profondita-bit-lotto-2611-sera-480.webp 480w, /assets/images/editorial-auto/guida-audio-digitale-campionamento-profondita-bit-lotto-2611-sera-800.webp 800w, /assets/images/editorial-auto/guida-audio-digitale-campionamento-profondita-bit-lotto-2611-sera-1200.webp 1200w" sizes="(max-width:832px) calc(100vw - 32px),800px" width="800" height="533" alt="Forma d’onda su un oscilloscopio e interfaccia audio" fetchpriority="high" loading="eager" decoding="async"></picture><figcaption>Illustrazione editoriale generata con IA da CurioMondo per questo approfondimento. Non è una fotografia documentaria.</figcaption></figure>
+<article class="art-body" data-editorial-protocol="4.0" data-article-format="feature" data-plain-lead="true">
+<div class="cm-guide-lead"><p>Nel pannello di un registratore, 48 kHz e 24 bit compaiono spesso sulla stessa riga. Il primo numero indica quante misure del segnale vengono prese in un secondo per ogni canale.</p>
+<p>Il secondo, nel PCM a interi, dice con quanta finezza si può rappresentare il valore di ciascuna misura. Salire in una delle due impostazioni non compensa automaticamente un valore più basso nell’altra.</p>
+</div>
+<p>La distinzione torna utile quando il suono nasce da un microfono, quando una traccia va montata sotto un video e quando lo stesso lavoro deve diventare un file da ascoltare in rete.</p>
+
+<p>Permette di scegliere il formato senza attribuire a un numero più alto capacità che non ha, come recuperare un picco già distorto o migliorare retroattivamente la qualità della registrazione.</p>
+
+<h2>Misurare il segnale lungo due assi</h2>
+
+<p>Il microfono traduce le variazioni della pressione sonora in un segnale elettrico. Un convertitore analogico-digitale ne misura l’ampiezza a intervalli regolari. Prendendo 48.000 misure per secondo su ogni canale, si ottiene una frequenza di campionamento di 48 kHz. La distanza fra due campioni è poco più di venti microsecondi.</p>
+
+<p>L’ampiezza misurata deve poi essere rappresentata con un numero. Il convertitore la associa a un livello disponibile, introducendo un piccolo scarto rispetto al valore analogico ideale. In un PCM lineare a interi, 16 bit permettono 65.536 valori distinti; con 24 bit i valori possibili salgono a 16.777.216.</p>
+
+<p>Il numero di livelli non conta quante misure avvengono nel tempo.</p>
+
+<p>Se immagini i campioni su un grafico, la frequenza li avvicina o li allontana sull’asse orizzontale. La profondità a interi rende più fine o più grossolana la griglia verticale sulla quale cadono. È una rappresentazione intuitiva: in un file vero trovi una sequenza di valori e la descrizione di come interpretarli.</p>
+
+<p>La distinzione vale per ogni canale. Una registrazione stereo a 48 kHz contiene 48.000 campioni di sinistra e 48.000 campioni di destra in un secondo. Dire che il file è stereo non raddoppia la frequenza di campionamento della singola traccia: raddoppia il numero di valori da conservare nello stesso intervallo.</p>
+
+<h2>Perché esiste un limite alle frequenze rappresentabili</h2>
+
+<p>Un segnale correttamente limitato in banda può essere ricostruito dai campioni se le sue frequenze restano sotto metà della frequenza di campionamento. Quella metà è la frequenza di Nyquist.</p>
+
+<p>Con 48 kHz il riferimento teorico è 24 kHz; con 44,1 kHz è 22,05 kHz. In pratica un filtro ha bisogno di una regione in cui passare dalle frequenze conservate a quelle attenuate.</p>
+
+<p>Che cosa accade se una frequenza troppo alta arriva comunque al campionatore? I valori misurati possono sembrare quelli di un’oscillazione più lenta.</p>
+
+<p>La frequenza troppo alta riappare nel file sotto forma di un segnale estraneo in banda. Questo fenomeno si chiama aliasing e si limita con un filtraggio appropriato prima del campionamento o prima di abbassare la frequenza in un file.</p><aside class="cm-safe-ad" data-cm-ad="banner468" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/banner-468.html" width="468" height="60" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(468px,100%);height:60px;background:#fff"></iframe></aside>
+
+<p>Un esempio puramente numerico aiuta: se si campionasse a 48 kHz una sinusoide pura di 30 kHz senza alcun filtro, i campioni corrisponderebbero a quelli di una sinusoide di 18 kHz con relazione di fase appropriata.</p>
+
+<p>La sequenza non consentirebbe di sapere da sola quale dei due segnali l’abbia generata. Un convertitore reale è progettato per evitare che l’ingresso fuori banda si trasformi così.</p>
+
+<p>Lo schermo di un programma può disegnare scalini o unire punti con segmenti. Quella vista non dice come un convertitore decodifica il segnale. In riproduzione l’uscita viene ricostruita e filtrata; non bisogna immaginare l’altoparlante obbligato a saltare fra gradini rettangolari a ogni campione.</p>
+
+<h2>Più bit e più margine pratico in registrazione</h2>
+
+<p>Con un numero maggiore di livelli, lo scarto della quantizzazione può essere più piccolo a parità di scala. Su una registrazione molto bassa, questa finezza può essere utile: non occorre avvicinare ogni colpo improvviso al tetto numerico solo per impedire che la parte quieta occupi pochi livelli.</p>
+
+<p>Il riferimento 0 dBFS corrisponde al fondo scala digitale per il segnale intero. Se l’ingresso supera il massimo rappresentabile, il convertitore non registra correttamente la forma del picco: compare il clipping. Un file PCM a 24 bit non sposta quel tetto. Permette piuttosto di scegliere un livello di ingresso più prudente mantenendo una quantizzazione fine.</p>
+
+<p>L’apparecchio ha anche limiti prima del convertitore. Il preamplificatore, il microfono e altre parti possono introdurre rumore o distorcere. Registrare a 24 bit non toglie il ronzio del frigorifero dalla stanza; ridurre il rumore alla fonte ha un effetto diverso dal modificare la codifica.</p>
+
+<p>Neppure la profondità in virgola mobile usata in certi software di produzione può riportare un ingresso analogico già distorto alla forma originale. La virgola mobile facilita alcune operazioni dentro un progetto, ma non annulla le condizioni del microfono e della cattura. Controlla il livello mentre registri, non solo nel programma che applicherà gli effetti.</p>
+
+<div class="cm-table-wrap cm-table-scroll" role="region" aria-label="Tre numeri da non scambiare" tabindex="0"><table><caption>Tre numeri da non scambiare</caption><thead><tr><th scope="col">Grandezza</th><th scope="col">Unità</th><th scope="col">Che cosa descrive</th></tr></thead><tbody><tr><td>Frequenza di campionamento</td><td>Hz o kHz</td><td>Numero di misure per secondo per ciascun canale</td></tr><tr><td>Profondità nel PCM intero</td><td>Bit</td><td>Numero di bit assegnati al valore di un campione</td></tr><tr><td>Bitrate</td><td>bit/s o kbit/s</td><td>Flusso di dati per secondo nel file o nella trasmissione</td></tr><tr><td>Canali</td><td>Numero intero</td><td>Sequenze di segnale distinte, come sinistra e destra nello stereo</td></tr></tbody></table></div>
+
+<h2>Calcolare il peso senza provare ogni esportazione</h2>
+
+<p>Per il PCM lineare non compresso moltiplica campioni al secondo, bit per campione e canali. Un minuto stereo a 48 kHz e 24 bit contiene 2.304.000 bit audio per secondo quando i campioni sono memorizzati con tre byte.</p>
+
+<p>Dividendo per otto e moltiplicando per sessanta, ottieni circa 17,28 MB in unità decimali, prima della testata e dei metadati.</p>
+
+<p>Con la stessa frequenza e profondità, una sola traccia mono occupa circa 8,64 MB al minuto. Se sei passato a un progetto stereo ma il microfono fornisce una sola sorgente, verifica se hai costruito una vera coppia o duplicato la stessa traccia nei due canali. Pesare il doppio non è un’indicazione che siano state registrate due informazioni indipendenti.</p>
+
+<p>Un codec senza perdita può ridurre il file senza cambiare i valori dei campioni una volta decodificati. Il rapporto di compressione dipende dal contenuto.</p>
+
+<p>Un codec con perdita riduce lo spazio modificando l’informazione secondo le proprie regole. Per una copia di consegna la scelta può essere sensata; per il master da rimontare non offre lo stesso punto di partenza del PCM conservato.</p>
+
+<p>In pratica, confronta il bitrate di un MP3 con quello di un altro MP3 tenendo conto anche dell’uso e dell’encoder. Non leggere 192 kbit/s come se volesse dire 192 bit per campione. Quel numero misura il flusso complessivo dei dati trasmessi ogni secondo, non i livelli possibili per ogni valore PCM originale.</p><aside class="cm-safe-ad" data-cm-ad="box300" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/box-300.html" width="300" height="250" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(300px,100%);height:250px;background:#fff"></iframe></aside>
+
+<h2>Conversioni: ricampionare, arrotondare, decodificare</h2>
+
+<p>Se una traccia a 96 kHz deve entrare in un progetto a 48 kHz, un ricampionamento appropriato tiene conto del nuovo limite di frequenza e produce una nuova sequenza senza cambiare, per questo solo motivo, la durata. Cambiare semplicemente l’etichetta della frequenza, senza ricampionare, può alterare velocità, durata e altezza del suono in riproduzione.</p>
+
+<p>Aumentare la frequenza di un file già acquisito crea campioni intermedi compatibili con il segnale disponibile. Non ricostruisce strumenti o frequenze eliminate dalla prima acquisizione. Può avere un motivo operativo per la compatibilità con un progetto o per certi trattamenti; la sola esportazione più grande non migliora l’originale.</p>
+
+<p>Quando riduci la profondità a interi, per esempio da 24 a 16 bit, parte della precisione viene inevitabilmente persa. Il dithering aggiunge un rumore controllato e molto basso affinché l’errore della nuova quantizzazione risulti meno legato al segnale: può essere utile nella riduzione finale, specialmente per code molto deboli o dissolvenze.</p>
+
+<p>Convertire un MP3 in WAV può servire a montarlo senza applicare ulteriore compressione con perdita durante un salvataggio intermedio, ma il nuovo file non ha recuperato il dettaglio scartato dall’MP3. Se devi rifare o pubblicare il suono più volte, conserva un master pulito e genera ogni derivato da quello.</p>
+
+<h2>Un registratore, un video e una copia per chi ascolta</h2>
+
+<p>Immagina di registrare in casa un’intervista da montare sotto un video. Parti dalle richieste del programma di montaggio o di chi riceve il video. Una frequenza di 48 kHz è comune in questi flussi; la profondità a 24 bit può essere pratica quando vuoi lasciare margine ai picchi di voce e il registratore la offre.</p>
+
+<p>Ascolta con le cuffie mentre la persona parla nel punto più forte della prova. Un tavolo che risuona o un microfono troppo lontano influiscono più di un semplice passaggio a una sigla superiore. Per la voce, un livello coerente, una stanza tranquilla e la distanza tenuta durante la registrazione contano già prima che il file riceva la propria codifica.</p>
+
+<p>Al momento della consegna salva il master e crea la copia richiesta, con i canali e l’estensione concordati. Per una registrazione appena convertita fai almeno un controllo su inizio, fine e passaggi a basso volume.</p>
+
+<p>In un video verifica la sincronia dopo alcuni minuti: un errore di interpretazione della frequenza, o un problema separato di orologi fra registratori, può risultare più visibile lì che nei primi secondi.</p>
+
+<p>Conserva nome della traccia, frequenza, profondità, numero di canali e data accanto al master. Se trovi due esportazioni con nomi quasi uguali, queste informazioni aiutano a scegliere senza presumere che il file più grande sia sempre quello adatto.</p>
+
+<p>Può aver ragione chi chiede uno specifico WAV per il montaggio e altrettanto chi preferisce un file più leggero per distribuire la stessa intervista.</p>
+
+<h2>Due ascolti che aiutano a verificare una scelta</h2>
+
+<p>Per confrontare una copia compressa con il master usa lo stesso estratto, ascoltato allo stesso livello. Anche un piccolo vantaggio di volume può far sembrare una versione più nitida.</p>
+
+<p>Alterna un passaggio fitto, con più suoni contemporanei, a una coda quasi in silenzio. I due momenti mettono in evidenza problemi diversi e non richiedono di affidarsi al numero mostrato dal lettore.</p>
+
+<p>Se vuoi capire se una differenza dipende dai canali, controlla separatamente sinistra e destra prima di sommarle. Una voce presente da una sola parte potrebbe essere stata assegnata al canale sbagliato. Una parte che si indebolisce solo quando ascolti in mono può invece dipendere dalla relazione fra canali. Cambiare i bit non corregge né l’assegnazione né quel tipo di cancellazione.</p><aside class="cm-safe-ad" data-cm-ad="banner320" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/banner-320.html" width="320" height="50" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(320px,100%);height:50px;background:#fff"></iframe></aside>
+
+<p>Fai infine una prova sul dispositivo con cui il file sarà usato. Un’intervista ascoltata dal piccolo altoparlante di un telefono può richiedere attenzione alla chiarezza della voce, al bilanciamento con la musica e alla presenza di suoni fastidiosi nella fascia più evidente.</p>
+
+<p>Chi la prepara può intervenire sul mix, conservando le specifiche corrette, invece di cambiare la frequenza di campionamento in cerca di un effetto che riguarda un’altra fase.</p>
+
+<h2>Quando trattare una vecchia registrazione come un originale</h2>
+
+<p>Se recuperi una registrazione da un dispositivo ormai fuori uso, salva dapprima una copia identica del file che hai trovato, anche se non usa le impostazioni che avresti scelto oggi. Un derivato può essere più comodo da aprire o da restaurare; l’originale conserva però il punto di partenza e permette di usare in futuro un programma diverso.</p>
+
+<p>Quando il punto di partenza è un supporto analogico, stabilisci invece come lo acquisirai prima di passare alla pulizia del suono.</p>
+
+<p>Una conversione digitale fedele e un restauro rispondono a obiettivi diversi: nella seconda copia potresti ridurre fruscii, tagliare pause o correggere livelli conservando intatta la prima. Annotare la provenienza aiuta a non confondere una decisione di montaggio con una caratteristica della registrazione.</p>
+
+<h2>Il peso di una sessione con più microfoni</h2>
+
+<p>Lo spazio disponibile va calcolato sulle tracce registrate, non sul solo file stereo di consegna. Sei canali mono a 48 kHz e 24 bit impacchettati richiedono circa 51,84 MB ogni minuto.</p>
+
+<p>Un’ora occupa poco più di 3,1 GB decimali prima di contare copie, testate e salvataggi del progetto. Se servono sessanta minuti continui, considera anche i limiti del registratore, del formato e del supporto.</p>
+
+<p>Conservare le tracce separate permette di correggere una voce senza modificare le altre. Per chi deve soltanto ascoltarle basta normalmente il mix. Ridurre il numero di canali prima del montaggio per risparmiare spazio, però, può eliminare la possibilità di intervenire su un singolo microfono. La copia leggera va prodotta dopo, quando sai quali decisioni vuoi ancora poter cambiare.</p>
+
+<p>Durante un’intervista a più voci puoi anche tenere una copia di ascolto con pochi canali per annotare i punti da montare. Se condividi una versione più leggera con chi trascrive, mantieni la stessa durata e lo stesso zero temporale del master: così il minuto indicato in una nota corrisponde allo stesso intervento quando riapri la sessione completa.</p>
+<section class="art-faq" aria-labelledby="faq"><h2 id="faq">FAQ</h2>
+<h3>Un WAV è necessariamente a 24 bit?</h3><p>No. WAV è un contenitore che può avere contenuti con specifiche differenti. Leggi tipo di codifica, campionamento, risoluzione e canali del file.</p>
+<h3>Un file a 96 kHz contiene sempre più dettaglio di uno a 48 kHz?</h3><p>Ha più campioni al secondo, ma non dice se l’originale aveva informazioni oltre la banda precedente o se il risultato suonerà diverso. Un file ricampionato non recupera informazione già perduta.</p>
+<h3>Che cosa succede passando da stereo a mono?</h3><p>Si riducono i canali, ma sommarli può cambiare livello o attenuare parti del suono a seconda della relazione fra i due. Ascolta il risultato prima di consegnarlo.</p>
+<h3>Perché un MP3 non ha la stessa lettura dei 16 bit di un WAV PCM?</h3><p>Il bitrate MP3 descrive i dati compressi al secondo. I 16 bit di un WAV PCM descrivono invece la risoluzione dei singoli campioni non compressi.</p>
+</section>
+</article><aside class="cm-safe-ad" data-cm-ad="native" aria-label="Pubblicita" style="display:flex;justify-content:center;clear:both;margin:22px auto;max-width:100%;overflow:visible"><iframe class="cm-banner-frame" title="Pubblicità" src="/ads/native.html" width="336" height="280" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin" style="display:block;border:0;margin:0 auto;width:min(336px,100%);height:280px;background:#fff"></iframe></aside>
+<section class="art-sources" aria-labelledby="fonti"><h2 id="fonti">Fonti consultate</h2><ul><li><a href="https://helpx.adobe.com/audition/desktop/digital-audio-fundamentals/digitizing-audio.html" rel="noopener noreferrer">Adobe Audition, come si digitalizza l’audio</a></li>
+<li><a href="https://www.loc.gov/preservation/digital/formats/fdd/fdd000016.shtml" rel="noopener noreferrer">Library of Congress, modulazione a impulsi codificati PCM</a></li>
+<li><a href="https://tech.ebu.ch/docs/r/r097.pdf" rel="noopener noreferrer">European Broadcasting Union, raccomandazione R97 per lo scambio di programmi audio BWF</a></li>
+<li><a href="https://helpx.adobe.com/mena_en/audition/desktop/editing-audio-files/converting-sample-types.html" rel="noopener noreferrer">Adobe Audition, conversione dei tipi di campione</a></li></ul></section>
+<section class="curio-related" aria-labelledby="altre-guide"><h2 id="altre-guide">Approfondisci ancora</h2><div class="curio-related-grid"><a class="without-image" href="/approfondimenti/audio-bluetooth-codec-lc3-sbc-aac-compatibilita.html"><strong>Audio Bluetooth: cosa cambiano davvero SBC, AAC e LC3</strong></a><a class="without-image" href="/approfondimenti/suono-film-foley-adr-mix.html"><strong>Come nasce il suono di un film: presa diretta, Foley, ADR e mix</strong></a></div></section>
+</main></body></html>
