@@ -182,7 +182,43 @@ dialog{padding:0!important;border:1px solid var(--cm-border);background:var(--cm
   .header .cm-wordmark{font-size:2.2rem!important}
   .header .cm-brand-logo,.header .logo .cm-brand-logo{width:48px!important;height:48px!important;min-width:48px!important}
 }
-</style><link rel="stylesheet" href="/assets/css/home-flow-v1.css"><script src="/assets/js/cm-ad-guard-v1.js?v=25"></script></head>
+</style><link rel="stylesheet" href="/assets/css/home-flow-v1.css"><script src="/assets/js/cm-ad-guard-v1.js?v=25"></script><style id="cm-home-mobile-fix-20261127">/* Homepage: contain the mobile editorial columns before and after feed refresh. */
+@media(max-width:760px){
+  body.cm-home-flow{overflow-x:clip}
+  body.cm-home-flow #main-content .cm-home-editorial,
+  body.cm-home-flow #main-content .cm-flow-opening,
+  body.cm-home-flow #main-content .cm-flow-opening .cm-featured-carousel,
+  body.cm-home-flow #main-content .cm-flow-lead,
+  body.cm-home-flow #main-content .cm-flow-selection{
+    width:100%!important;max-width:100%!important;min-width:0!important;box-sizing:border-box;align-items:stretch;
+  }
+  body.cm-home-flow #main-content .cm-flow-selection .cm-featured-carousel__viewport{
+    width:100%!important;max-width:100%!important;min-width:0!important;overflow-x:auto!important;
+  }
+  body.cm-home-flow #main-content .cm-flow-selection .cm-featured-carousel__track{display:flex;min-width:0;width:100%!important;max-width:100%!important}
+  body.cm-home-flow #main-content .cm-flow-selection .cm-featured-carousel__slide{flex:0 0 100%;max-width:100%!important;min-width:0!important}
+  body.cm-home-flow #main-content .cm-flow-lead .cm-topic-lead{
+    display:flex!important;flex-direction:column;width:100%!important;max-width:100%!important;min-width:0!important;isolation:auto;overflow:hidden;
+  }
+  body.cm-home-flow #main-content .cm-flow-lead .cm-topic-lead__body{
+    width:100%;min-width:0;order:1;position:relative;z-index:auto;
+  }
+  body.cm-home-flow #main-content .cm-flow-lead h1.cm-topic-lead__title{
+    display:block!important;visibility:visible!important;opacity:1!important;color:var(--flow-ink,#172c48)!important;
+    -webkit-text-fill-color:var(--flow-ink,#172c48)!important;position:static;max-width:100%;height:auto;overflow-wrap:anywhere;
+  }
+  body.cm-home-flow #main-content .cm-flow-lead .cm-topic-lead>picture{
+    order:2;display:block!important;position:relative!important;z-index:auto!important;inset:auto!important;
+    width:calc(100% - 20px)!important;max-width:calc(100% - 20px)!important;
+    height:auto!important;min-height:0!important;aspect-ratio:2.1!important;margin:0 10px 10px!important;
+    visibility:visible!important;opacity:1!important;content-visibility:visible!important;overflow:hidden;
+  }
+  body.cm-home-flow #main-content .cm-flow-lead picture>img{
+    display:block!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;
+    object-fit:cover!important;visibility:visible!important;opacity:1!important;
+  }
+}
+</style></head>
 <body class="cm-home-flow">
 <a class="cm-skip-link" href="#main-content">Vai al contenuto</a>
 <div class="ticker">
