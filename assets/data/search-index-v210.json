@@ -1,6 +1,186 @@
 {
-  "version": 1666,
+  "version": 1667,
   "items": [
+    {
+      "title": "IT-Wallet su IO: come attivarlo e usare i documenti digitali",
+      "excerpt": "Dal passaggio da Documenti su IO alla CIE richiesta, fino a patente, verifica dal vivo, uso senza rete e limiti all’estero.",
+      "url": "/approfondimenti/documenti-app-io-attivare-usare-portafoglio.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Pneumatici invernali, catene o calze da neve: come controllare l’obbligo sulla tua strada",
+      "excerpt": "Come leggere l’ordinanza del singolo tratto, verificare pneumatici, catene e calze idonee e distinguere le prescrizioni stagionali da quelle temporanee.",
+      "url": "/approfondimenti/pneumatici-invernali-catene-calze-ordinanza.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Fuorigioco nel calcio: quando scatta e come riconoscerlo con esempi",
+      "excerpt": "Quando conta il tocco del compagno, chi è il penultimo avversario e che cosa cambia dopo un rimpallo, una parata o una rimessa.",
+      "url": "/approfondimenti/fuorigioco-calcio-regola-esempi.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Come programmare il termostato della caldaia in inverno",
+      "excerpt": "Orari, anticipo, posizione del sensore e confronto dei consumi a parità di comfort, senza confondere temperatura ambiente e mandata.",
+      "url": "/approfondimenti/termostato-caldaia-inverno-programmazione.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Caffè con la moka: le dosi e come evitare il sapore di bruciato",
+      "excerpt": "Come riempire la moka, regolare il fornello e distinguere un problema di preparazione dalla normale amarezza della miscela.",
+      "url": "/approfondimenti/caffe-moka-come-farlo-non-amaro.html",
+      "section": "Approfondimenti / Cucina"
+    },
+    {
+      "title": "Telefono smarrito: come ritrovare il proprio iPhone o Android",
+      "excerpt": "Come usare Dov’è e Hub dispositivi, capire l’ultima posizione e scegliere fra suono, blocco e cancellazione remota.",
+      "url": "/approfondimenti/telefono-smarrito-localizzare-proprio-iphone-android.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché la Luna sembra più grande all’orizzonte?",
+      "excerpt": "La Luna bassa sembra enorme, ma una foto con la stessa focale racconta altro: come distinguere illusione, rifrazione e superluna.",
+      "url": "/approfondimenti/luna-sembra-grande-orizzonte-illusione.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Mondiali di calcio a 48 squadre: gironi, migliori terze e tabellone",
+      "excerpt": "Perché il formato a 48 ha dodici gironi, come sono scelte le otto migliori terze e che cosa è ufficiale per il 2030.",
+      "url": "/approfondimenti/mondiali-calcio-48-squadre-formato-gironi.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Perché la pioggia ha un odore? Il petricore spiegato",
+      "excerpt": "Il profumo delle prime gocce nasce sulle superfici: il ruolo della geosmina, del suolo asciutto e del vento.",
+      "url": "/approfondimenti/perche-pioggia-ha-un-odore-petricore.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Brina o appannamento sul parabrezza? Come distinguerli prima di partire",
+      "excerpt": "Come riconoscere brina, ghiaccio e condensa sui vetri dell’auto, scegliere il comando corretto e ritrovare piena visibilità prima di partire.",
+      "url": "/approfondimenti/brina-appannamento-parabrezza-auto.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Pesto genovese al mortaio o al frullatore: come prepararlo",
+      "excerpt": "Basilico, pinoli e formaggi: come cambia la lavorazione fra mortaio e lame e come condire la pasta senza scaldare la salsa.",
+      "url": "/approfondimenti/pesto-genovese-mortaio-frullatore.html",
+      "section": "Approfondimenti / Cucina"
+    },
+    {
+      "title": "Frigorifero: come misurare i consumi e trovare gli sprechi",
+      "excerpt": "Controlla temperatura reale, porta, guarnizioni e ventilazione. Usa i kWh di più giorni per stimare l’effetto delle correzioni.",
+      "url": "/approfondimenti/frigorifero-consumi-regolazione.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Batteria iPhone: come leggere capacità, cicli e ricarica",
+      "excerpt": "Perché carica e capacità massima sono diverse, come interpretare i cicli e quali verifiche fare prima di sostituire la batteria.",
+      "url": "/approfondimenti/batteria-iphone-stato-cicli-ricarica.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Allergeni al ristorante: come leggere il menu e che cosa chiedere",
+      "excerpt": "Come interpretare numeri e simboli e cosa chiedere su ingredienti, piatti fuori carta e contatto in cucina.",
+      "url": "/approfondimenti/menu-allergeni-ristorante-come-leggerlo.html",
+      "section": "Approfondimenti / Cucina"
+    },
+    {
+      "title": "Punteggio del tennis: da 15, 30 e 40 a game, set e partita",
+      "excerpt": "Come si contano punti, game e set, quando si dice parità e perché palla break e match point non sono valori extra.",
+      "url": "/approfondimenti/punteggio-tennis-quindici-trenta-quaranta.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Allerta alluvione: come leggere la mappa e trovare le istruzioni del Comune",
+      "excerpt": "Come distinguere bollettino, mappa di pericolosità, piano comunale e ordinanze e preparare itinerari e piani bassi prima di una piena.",
+      "url": "/approfondimenti/allerta-alluvione-mappa-piano-comunale.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Lavastoviglie Eco o Rapido: quale programma consuma meno?",
+      "excerpt": "Confronta acqua, kWh e asciugatura per la stessa quantità di stoviglie, senza giudicare il programma dai minuti sul display.",
+      "url": "/approfondimenti/lavastoviglie-eco-rapido-consumi.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Perché il peperoncino brucia anche se è freddo?",
+      "excerpt": "La capsaicina attiva un sensore del calore: perché brucia, dove si trova nel frutto e che cosa misura la scala Scoville.",
+      "url": "/approfondimenti/perche-peperoncino-brucia-capsaicina.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Besciamella senza grumi: dosi, cottura e consistenza",
+      "excerpt": "Come formare il roux, incorporare il latte e correggere una besciamella troppo liquida o densa per la ricetta.",
+      "url": "/approfondimenti/besciamella-senza-grumi-dosi-cottura.html",
+      "section": "Approfondimenti / Cucina"
+    },
+    {
+      "title": "Quota neve e zero termico: a quale altitudine nevicherà davvero?",
+      "excerpt": "Perché può nevicare sotto lo zero termico, da cosa dipende l’accumulo e come leggere la previsione per un paese, un valico o un intero itinerario.",
+      "url": "/approfondimenti/quota-neve-zero-termico-previsione.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Scansionare un PDF con lo smartphone senza caricarlo online",
+      "excerpt": "Su iPhone e Android, come creare un PDF multipagina, salvarlo in locale e verificare che sia completo e leggibile.",
+      "url": "/approfondimenti/scansione-pdf-smartphone-senza-cloud.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Perché i gatti fanno la pasta con le zampe?",
+      "excerpt": "Il gesto ricorda le pressioni dei gattini durante la poppata, ma non basta a leggere l’umore di un gatto adulto.",
+      "url": "/approfondimenti/perche-gatti-impastano.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Quanto consuma un deumidificatore? Il conto con litri e kWh",
+      "excerpt": "Perché la vaschetta si riempie meno al freddo, quali dati misurare e come stimare i costi per stanza e per il bucato.",
+      "url": "/approfondimenti/deumidificatore-consumi-litri-kwh.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Hotspot del telefono: come collegare il computer senza finire i giga",
+      "excerpt": "Come condividere internet da iPhone o Android, limitare i trasferimenti automatici e controllare quanto traffico resta.",
+      "url": "/approfondimenti/hotspot-telefono-collegare-computer-consumo-dati.html",
+      "section": "Approfondimenti / Tecnologia e digitale"
+    },
+    {
+      "title": "Nebbia in autostrada: come leggere gli avvisi e capire la visibilità sul tratto",
+      "excerpt": "Come confrontare avvisi, webcam e visibilità nei singoli tratti, riconoscere le prescrizioni e usare correttamente le luci nella nebbia.",
+      "url": "/approfondimenti/nebbia-in-autostrada-visibilita-avvisi.html",
+      "section": "Approfondimenti / Ambiente e clima"
+    },
+    {
+      "title": "Asciugatrice a pompa di calore: programmi, carico e consumi",
+      "excerpt": "Come confrontare cicli automatici, quantità di bucato e livelli di asciutto, contando anche centrifuga ed eventuali secondi cicli.",
+      "url": "/approfondimenti/asciugatrice-pompa-calore-carico-cicli.html",
+      "section": "Approfondimenti / Casa"
+    },
+    {
+      "title": "Sprint MotoGP: come funzionano gara breve, punti e griglie dal 2027",
+      "excerpt": "Punti della Sprint, distanza e differenze fra gara breve e Gran Premio. Dal 2027 le griglie arrivano da qualifiche separate.",
+      "url": "/approfondimenti/motogp-sprint-regole-punti-qualifiche.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Come funziona il gruppo nel ciclismo: scia, fughe, ventagli e treni",
+      "excerpt": "Perché il vento laterale spezza il gruppo, quando conviene inseguire una fuga e come si prepara la volata.",
+      "url": "/approfondimenti/ciclismo-gruppo-scia-ventagli.html",
+      "section": "Approfondimenti / Sport"
+    },
+    {
+      "title": "Perché viene la pelle d’oca, anche ascoltando musica?",
+      "excerpt": "Come funziona la piloerezione, che cosa la distingue dai brividi e perché un’emozione può produrre lo stesso effetto del freddo.",
+      "url": "/approfondimenti/perche-viene-pelle-oca.html",
+      "section": "Approfondimenti / Scienza e salute"
+    },
+    {
+      "title": "Pasta al dente: come capire quando scolarla",
+      "excerpt": "Come assaggiare la pasta, usare il tempo sulla confezione e scegliere quando scolarla se deve passare in padella.",
+      "url": "/approfondimenti/pasta-al-dente-come-capire-cottura.html",
+      "section": "Approfondimenti / Cucina"
+    },
     {
       "title": "WhatsApp, come trasferire le chat tra Android e iPhone",
       "excerpt": "Da un sistema all’altro, cosa preparare e come verificare che chat, foto e allegati restino disponibili sul telefono nuovo.",
