@@ -41,7 +41,8 @@ const hourLabel = (entry) => {
     .format(date).replace('.', '');
 };
 
-const LCP_SIZES = '(max-width: 700px) 250px, (max-width: 900px) calc(50vw - 32px), 380px';
+const LCP_SIZES = '(max-width: 760px) calc(100vw - 46px), (max-width: 1280px) 51vw, 625px';
+const CARD_SIZES = '(max-width: 760px) 80vw, (max-width: 1280px) 24vw, 280px';
 
 const picture = (entry, eager) => {
   if (!entry.image) return '';
@@ -51,7 +52,7 @@ const picture = (entry, eager) => {
   const extra = eager
     ? ' loading="eager" decoding="sync" fetchpriority="high"'
     : ' loading="lazy" decoding="async"';
-  return `<picture><img src="${esc(src)}"${entry.srcset ? ` srcset="${esc(entry.srcset)}"` : ''} sizes="${LCP_SIZES}" alt="${esc(entry.imageAlt)}" width="${entry.imageWidth || 800}" height="${entry.imageHeight || 533}"${extra}></picture>`;
+  return `<picture><img src="${esc(src)}"${entry.srcset ? ` srcset="${esc(entry.srcset)}"` : ''} sizes="${eager ? LCP_SIZES : CARD_SIZES}" alt="${esc(entry.imageAlt)}" width="${entry.imageWidth || 800}" height="${entry.imageHeight || 533}"${extra}></picture>`;
 };
 
 const updateFlag = (entry) => entry.updated
@@ -73,20 +74,23 @@ const largeCard = (entry, label, color, primary, categoryId) => {
 };
 
 const carousel = (entries) => {
-  const slides = entries.map((entry, index) => (
-    `<div class="cm-featured-carousel__slide" data-index="${index}">${largeCard(entry, 'In primo piano', '#B91C1C', index === 0)}</div>`
+  const [primary, ...selection] = entries;
+  if (!primary) return '';
+  const hero = `<div class="cm-flow-lead">${largeCard(primary, 'In primo piano', '#B91C1C', true)}</div>`;
+  const slides = selection.map((entry, index) => (
+    `<div class="cm-featured-carousel__slide" data-index="${index}">${largeCard(entry, 'In primo piano', '#B91C1C', false)}</div>`
   )).join('');
-  const dots = entries.map((_, index) => (
+  const dots = selection.map((_, index) => (
     `<button class="cm-featured-carousel__dot${index === 0 ? ' is-active' : ''}" type="button" aria-label="Vai alla notizia ${index + 1}"${index === 0 ? ' aria-current="true"' : ''}></button>`
   )).join('');
-  return `<section class="cm-featured-carousel" aria-label="Notizie in primo piano"><div class="cm-featured-carousel__viewport" tabindex="0"><div class="cm-featured-carousel__track">${slides}</div></div><div class="cm-featured-carousel__controls"><button class="cm-featured-carousel__arrow" type="button" aria-label="Notizia precedente">←</button><div class="cm-featured-carousel__dots">${dots}</div><button class="cm-featured-carousel__arrow" type="button" aria-label="Notizia successiva">→</button></div></section>`;
+  return `<section class="cm-featured-carousel" aria-label="Notizie in primo piano">${hero}<div class="cm-flow-selection"><h2 class="cm-flow-selection-title">Da leggere</h2><div class="cm-featured-carousel__viewport" tabindex="0"><div class="cm-featured-carousel__track">${slides}</div></div><div class="cm-featured-carousel__controls"><button class="cm-featured-carousel__arrow" type="button" aria-label="Notizia precedente">←</button><div class="cm-featured-carousel__dots">${dots}</div><button class="cm-featured-carousel__arrow" type="button" aria-label="Notizia successiva">→</button></div></div></section>`;
 };
 
 const ultimaOra = (entries) => {
   const items = entries.slice(0, 10).map((entry, index) => {
     return `<li><a class="cm-wire__item${index === 0 ? ' is-latest' : ''}" href="${esc(entry.url)}"><span class="cm-wire__title">${updateFlag(entry)}${esc(entry.title)}</span></a></li>`;
   }).join('');
-  return `<section class="cm-wire" id="cm-ultima-ora" aria-label="Ultima ora"><details class="cm-wire__details"><summary class="cm-wire__toggle"><span class="cm-wire__live">Ultima ora</span><span class="cm-wire__chevron" aria-hidden="true"></span></summary></details><ol class="cm-wire__list">${items}</ol><a class="cm-wire__more" href="/notizie/">Tutte le notizie</a></section>`;
+  return `<section class="cm-wire" id="cm-ultima-ora" aria-label="Ultima ora"><h2 class="cm-flow-wire-title">Ultima ora</h2><details class="cm-wire__details"><summary class="cm-wire__toggle" aria-controls="cm-flow-wire-list"><span class="cm-flow-more">Mostra tutte e 10</span><span class="cm-flow-less">Mostra meno</span><span class="cm-wire__chevron" aria-hidden="true"></span></summary></details><ol class="cm-wire__list" id="cm-flow-wire-list">${items}</ol><a class="cm-wire__more" href="/notizie/">Tutte le notizie</a></section>`;
 };
 
 const section = ({ category, lead, cards }) => {
@@ -293,10 +297,18 @@ diOggiItalia.forEach((entry) => {
 const newestFeatured = primoPianoItalia.length >= 3 ? primoPianoItalia.slice(0, 3) : ranked.slice(0, 3);
 const featuredUrls = new Set(newestFeatured.map((entry) => entry.url));
 const wireEntries = ranked.filter((entry) => !featuredUrls.has(entry.url));
-const html = `<div class="cm-home-editorial" id="cm-home-editorial-v504" data-static="ready">${carousel(newestFeatured)}${ultimaOra(wireEntries)}${orderedSections}</div>`;
-
 const homePath = path.join(root, 'index.html');
 let home = fs.readFileSync(homePath, 'utf8');
+const services = home.match(/<template id="cm-flow-services">([\s\S]*?)<\/template>/)?.[1] || '';
+// I banner già configurati dal sito restano invariati dopo il rendering.
+const ad = '<aside class="cm-safe-ad"[^>]*>[\\s\\S]*?<\\/aside>';
+const openingAd = home.match(new RegExp('<!-- cm-flow-ad-opening -->(' + ad + ')'))?.[1] || '';
+const withExistingAds = ['politica', 'tecnologia', 'ambiente'].reduce((markup, key) => {
+  const after = new RegExp('id="categoria-' + key + '"[^>]*>[\\s\\S]*?<\\/section>');
+  const existing = home.match(new RegExp(after.source + '(' + ad + ')'))?.[1] || '';
+  return existing ? markup.replace(after, (sectionHtml) => sectionHtml + existing) : markup;
+}, orderedSections);
+const html = `<div class="cm-home-editorial" id="cm-home-editorial-v504" data-static="ready"><div class="cm-flow-opening"><h2 class="cm-flow-opening-title">In primo piano</h2>${carousel(newestFeatured)}${ultimaOra(wireEntries)}</div><!-- cm-flow-ad-opening -->${openingAd}${services}${withExistingAds}</div>`;
 const block = `<!-- cm-home-editorial:start -->${html}<!-- cm-home-editorial:end -->`;
 if (home.includes('<!-- cm-home-editorial:start -->')) {
   home = home.replace(/<!-- cm-home-editorial:start -->[\s\S]*?<!-- cm-home-editorial:end -->/, block);

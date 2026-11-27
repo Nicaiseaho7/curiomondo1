@@ -45,7 +45,7 @@
   const mobileLayout = window.matchMedia('(max-width: 760px)');
   const placeZone = () => {
     const question = $('.cm-qday');
-    if (mobileLayout.matches && question) question.after(zone);
+    if (question) question.after(zone);
     else legacyFeatured.before(zone);
   };
   if (!preferStatic || !existing) placeZone();
@@ -73,7 +73,7 @@
     const image = el('img');
     image.src = entry.image;
     if (entry.srcset) image.srcset = entry.srcset;
-    image.sizes = '(max-width: 600px) calc(100vw - 28px), (max-width: 900px) calc(50vw - 32px), 380px';
+    image.sizes = eager ? '(max-width: 760px) calc(100vw - 46px), (max-width: 1280px) 51vw, 625px' : '(max-width: 760px) 80vw, (max-width: 1280px) 24vw, 280px';
     image.alt = entry.imageAlt || '';
     image.width = entry.imageWidth || 800;
     image.height = entry.imageHeight || 533;
@@ -108,7 +108,7 @@
     const article = el('article', 'cm-topic-lead' + (primary ? ' cm-topic-lead--primary' : ''));
     if (categoryId) article.dataset.category = categoryId;
     article.style.setProperty('--cm-category-color', color);
-    const visual = picture(entry, true);
+    const visual = picture(entry, primary);
     const body = el('div', 'cm-topic-lead__body');
     const labelNode = el('span', 'cm-topic-label', label);
     const featured = label === 'In primo piano';
@@ -133,14 +133,17 @@
   const featuredCarousel = (entries) => {
     const block = el('section', 'cm-featured-carousel');
     block.setAttribute('aria-label', 'Notizie in primo piano');
+    const lead = el('div', 'cm-flow-lead');
+    lead.append(largeCard(entries[0], 'In primo piano', '#B91C1C', true));
+    const selection = el('div', 'cm-flow-selection');
     const viewport = el('div', 'cm-featured-carousel__viewport');
     viewport.tabIndex = 0;
     const track = el('div', 'cm-featured-carousel__track');
     const dots = el('div', 'cm-featured-carousel__dots');
-    const slides = entries.map((entry, index) => {
+    const slides = entries.slice(1).map((entry, index) => {
       const slide = el('div', 'cm-featured-carousel__slide');
       slide.dataset.index = String(index);
-      slide.append(largeCard(entry, 'In primo piano', '#B91C1C', index === 0));
+      slide.append(largeCard(entry, 'In primo piano', '#B91C1C', false));
       const dot = el('button', 'cm-featured-carousel__dot');
       dot.type = 'button';
       dot.setAttribute('aria-label', `Vai alla notizia ${index + 1}`);
@@ -171,7 +174,8 @@
       if (event.key === 'ArrowRight') { event.preventDefault(); go(1); }
     });
     controls.append(previous, dots, next);
-    block.append(viewport, controls);
+    if (slides.length) selection.append(el('h2', 'cm-flow-selection-title', 'Da leggere'), viewport, controls);
+    block.append(lead, selection);
     requestAnimationFrame(update);
     return block;
   };
@@ -195,11 +199,14 @@
     block.setAttribute('aria-label', 'Ultima ora');
     const details = el('details', 'cm-wire__details');
     const summary = el('summary', 'cm-wire__toggle');
-    const live = el('span', 'cm-wire__live', 'Ultima ora');
+    const live = el('span', 'cm-flow-more', 'Mostra tutte e 10');
+    const less = el('span', 'cm-flow-less', 'Mostra meno');
+    summary.setAttribute('aria-controls', 'cm-flow-wire-list');
     const chevron = el('span', 'cm-wire__chevron');
     chevron.setAttribute('aria-hidden', 'true');
-    summary.append(live, chevron);
+    summary.append(live, less, chevron);
     const list = el('ol', 'cm-wire__list');
+    list.id = 'cm-flow-wire-list';
     entries.slice(0, 10).forEach((entry, index) => {
       const item = el('li');
       const link = el('a', 'cm-wire__item');
@@ -212,7 +219,7 @@
     const more = el('a', 'cm-wire__more', 'Tutte le notizie');
     more.href = '/notizie/';
     details.append(summary);
-    block.append(details, list, more);
+    block.append(el('h2', 'cm-flow-wire-title', 'Ultima ora'), details, list, more);
     return block;
   };
   const section = ({ category, lead, cards }) => {
@@ -281,7 +288,9 @@
     });
     const fragment = document.createDocumentFragment();
     const previousWire = document.getElementById('cm-ultima-ora');
-    if (previousWire) previousWire.remove();
+    const wireWasOpen = !!previousWire?.querySelector('details[open]');
+    const wireFocused = previousWire?.contains(document.activeElement);
+    const focusedHref = wireFocused ? document.activeElement.getAttribute('href') : '';
     const ranked = items.filter((entry) => {
       const date = A.firstPublished(entry);
       return date && date.getTime() <= Date.now();
@@ -291,15 +300,39 @@
       return (left ? left.getTime() : 0) - (right ? right.getTime() : 0);
     });
     const featuredNow = ranked.slice(0, 3);
-    if (featuredNow.length) fragment.append(featuredCarousel(featuredNow));
+    const opening = el('div', 'cm-flow-opening');
+    opening.append(el('h2', 'cm-flow-opening-title', 'In primo piano'));
+    if (featuredNow.length) opening.append(featuredCarousel(featuredNow));
     // Le tre notizie in primo piano non si ripetono in Ultima ora.
     const featuredUrls = new Set(featuredNow.map((entry) => entry.url));
-    fragment.append(ultimaOra(ranked.filter((entry) => !featuredUrls.has(entry.url))));
+    const wire = ultimaOra(ranked.filter((entry) => !featuredUrls.has(entry.url)));
+    wire.querySelector('details').open = wireWasOpen;
+    opening.append(wire);
+    fragment.append(opening);
+    const services = document.querySelector('template#cm-flow-services');
+    if (services) fragment.append(services.content.cloneNode(true));
     allocation.sections.forEach((item) => fragment.append(section(item)));
     // Preserva la rail Curiosità e approfondimenti (max 10 card statiche, non derivate dal feed notizie)
     const curiositaKeep = document.getElementById('categoria-curiosita');
     const curiositaNode = curiositaKeep ? curiositaKeep.cloneNode(true) : null;
+    // Mantiene gli slot esistenti senza creare o cambiare i banner.
+    const existingAds = [];
+    zone.querySelectorAll('.cm-safe-ad').forEach((ad) => {
+      const anchor = ad.previousElementSibling;
+      if (anchor?.classList.contains('cm-flow-opening')) existingAds.push([opening, ad]);
+      else if (anchor?.id) {
+        const next = [...fragment.querySelectorAll('.cm-topic-section')].find((el) => el.id === anchor.id);
+        if (next) existingAds.push([next, ad]);
+      }
+    });
+    for (const [anchor, ad] of existingAds) anchor.after(ad);
     zone.replaceChildren(fragment);
+    // Elimina solo l’eventuale duplicato legacy, mai la nuova lista.
+    if (previousWire?.isConnected && !zone.contains(previousWire)) previousWire.remove();
+    if (wireFocused) {
+      const target = [...wire.querySelectorAll('a')].find((link) => link.getAttribute('href') === focusedHref);
+      (target || wire.querySelector('summary')).focus({ preventScroll: true });
+    }
     if (curiositaNode) {
       const after = zone.querySelector('#categoria-politica') || zone.querySelector('#categoria-sport') || zone.lastElementChild;
       if (after && after.nextSibling) after.after(curiositaNode);
