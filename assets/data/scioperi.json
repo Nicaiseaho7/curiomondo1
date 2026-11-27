@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "meta": {
     "timezone": "Europe/Rome",
-    "lastVerified": "2026-11-27T06:23:50+01:00",
-    "verificationLabel": "Verificato il 27/11/2026 alle 06:23 (ora italiana)",
+    "lastVerified": "2026-11-27T17:54:26+01:00",
+    "verificationLabel": "27 novembre 2026 alle ore 17:54",
     "dataPolicy": "Sono pubblicati soltanto dati riscontrati in calendari o comunicazioni ufficiali. I campi non disponibili sono indicati come Non comunicato.",
     "officialSources": [
       {
@@ -495,7 +495,7 @@
       "services": "Categorie pubbliche e private; comparti ferroviario, autostradale, aereo e trasporto pubblico locale secondo le modalità ufficiali",
       "organizations": "CUB / ADL Varese / SGB / SBM / SGC / SI-COBAS; adesione AL-COBAS e LMO",
       "status": "proclamato",
-      "guarantees": "Servizi minimi e fasce garantite da verificare nelle comunicazioni dei singoli operatori",
+      "guarantees": "Trenord il 4 dicembre: corse in elenco 06:00–09:00 e 18:00–21:00. Treni del 3 dicembre garantiti se in partenza entro le 21:00 e con arrivo al capolinea entro le 22:00. Se soppressi i servizi aeroportuali, bus diretti Cadorna (via Paleocapa 1)–Malpensa e Stabio–Malpensa. Per gli altri operatori valgono i rispettivi avvisi.",
       "national": true,
       "regions": [
         "abruzzo",
@@ -519,12 +519,23 @@
         "valle-d-aosta",
         "veneto"
       ],
-      "verifiedAt": "2026-11-27T00:10:00+01:00",
+      "verifiedAt": "2026-11-27T17:54:26+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
       },
-      "article": null
+      "article": {
+        "url": "/notizie/trenord-sciopero-3-4-dicembre-bus-malpensa-27-novembre-2026.html",
+        "title": "Sciopero Trenord del 3 e 4 dicembre: fasce garantite e bus per Malpensa",
+        "summary": "L’operatore ha pubblicato il piano il 27 novembre: orari dei servizi minimi e collegamenti diretti in bus se saltano RE54 e S50.",
+        "image": "/assets/images/editorial-auto/trenord-sciopero-3-4-dicembre-bus-malpensa-27-novembre-2026-v1674-1200.webp",
+        "imageAlt": "Treno regionale fermo al binario e un bagaglio su una banchina coperta",
+        "publishedAt": "2026-11-27T17:54:26+01:00"
+      },
+      "operatorNotice": {
+        "label": "Trenord",
+        "url": "https://www.trenord.it/news/trenord-informa/avvisi/sciopero/"
+      }
     },
     {
       "id": "mit-2026-12-14-aviation-services-roma",
@@ -2008,6 +2019,14 @@
     }
   ],
   "articles": [
+    {
+      "url": "/notizie/trenord-sciopero-3-4-dicembre-bus-malpensa-27-novembre-2026.html",
+      "title": "Sciopero Trenord del 3 e 4 dicembre: fasce garantite e bus per Malpensa",
+      "summary": "L’operatore ha pubblicato il piano il 27 novembre: orari dei servizi minimi e collegamenti diretti in bus se saltano RE54 e S50.",
+      "image": "/assets/images/editorial-auto/trenord-sciopero-3-4-dicembre-bus-malpensa-27-novembre-2026-v1674-1200.webp",
+      "imageAlt": "Treno regionale fermo al binario e un bagaglio su una banchina coperta",
+      "publishedAt": "2026-11-27T17:54:26+01:00"
+    },
     {
       "url": "/notizie/giornalisti-ansa-la7-sciopero-27-novembre-2026.html",
       "title": "Scioperano i giornalisti di ANSA e La7: due vertenze aperte con gli editori",

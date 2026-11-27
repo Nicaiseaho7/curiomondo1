@@ -1,12 +1,362 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>CurioMondo</title>
     <link>https://curiomondo.it/</link>
     <description>Notizie, curiosità e approfondimenti dal mondo.</description>
     <language>it-IT</language>
-    <ns0:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
-    <ns0:link href="https://curiomondo.it/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
+    <atom:link href="https://curiomondo.it/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xiaomi apre il sito UMIADS per la pubblicità sui suoi dispositivi</title>
+      <link>https://curiomondo.it/notizie/xiaomi-umiads-pubblicita-mobile-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/xiaomi-umiads-pubblicita-mobile-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Il portale annunciato il 27 novembre riunisce servizi per inserzionisti e distingue l’accesso dalla Cina continentale da quello degli altri mercati.</description>
+    </item>
+    <item>
+      <title>Umbria, nuova allerta gialla: rovesci a est, poi vento forte sabato</title>
+      <link>https://curiomondo.it/notizie/umbria-allerta-332-vento-frane-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/umbria-allerta-332-vento-frane-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Il documento regionale delle 13.55 distingue la criticità idrogeologica di venerdì dal vento nelle zone A, C e D dalle 00 di sabato 28 novembre.</description>
+    </item>
+    <item>
+      <title>A Trieste il convegno su come prevenire i danni al patrimonio storico</title>
+      <link>https://curiomondo.it/notizie/trieste-palazzo-economo-manutenzione-patrimonio-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/trieste-palazzo-economo-manutenzione-patrimonio-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>A Palazzo Economo casi dall’Arena di Verona alla Sinagoga di Trieste, con esperienze di tutela da Slovenia e Croazia.</description>
+    </item>
+    <item>
+      <title>Sciopero Trenord del 3 e 4 dicembre: fasce garantite e bus per Malpensa</title>
+      <link>https://curiomondo.it/notizie/trenord-sciopero-3-4-dicembre-bus-malpensa-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/trenord-sciopero-3-4-dicembre-bus-malpensa-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>L’operatore ha pubblicato il piano il 27 novembre: orari dei servizi minimi e collegamenti diretti in bus se saltano RE54 e S50.</description>
+    </item>
+    <item>
+      <title>Torre Annunziata, centro di raccolta chiuso lunedì per lavori elettrici</title>
+      <link>https://curiomondo.it/notizie/torre-annunziata-centro-raccolta-chiuso-30-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/torre-annunziata-centro-raccolta-chiuso-30-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Il Comune ha pubblicato l’avviso il 27 novembre. Stop al conferimento al CCR il 30 e ripresa prevista martedì 1º dicembre.</description>
+    </item>
+    <item>
+      <title>Un video al microscopio aiuta a misurare i grani delle rocce</title>
+      <link>https://curiomondo.it/notizie/tohoku-microscopio-video-grani-rocce-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/tohoku-microscopio-video-grani-rocce-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>La tecnica presentata dall’Università di Tohoku sfrutta la variazione di luce nei cristalli. Nelle prove il confronto con un metodo elettronico è risultato nel complesso coerente.</description>
+    </item>
+    <item>
+      <title>Accesso legale ai dati, Svezia e Regno Unito pubblicano il bilancio di Stoccolma</title>
+      <link>https://curiomondo.it/notizie/svezia-regno-unito-accesso-legale-dati-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/svezia-regno-unito-accesso-legale-dati-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Al simposio rappresentanti di 36 Paesi e organizzazioni internazionali. Il resoconto affronta le richieste oltre confine, senza modificare le regole.</description>
+    </item>
+    <item>
+      <title>Skeleton, Bagnis quinto nella prima manche di Altenberg</title>
+      <link>https://curiomondo.it/notizie/skeleton-altenberg-bagnis-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/skeleton-altenberg-bagnis-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>L’azzurro chiude la discesa inaugurale a 48 centesimi dall’austriaco Samuel Maier e a tre decimi dal terzo. Drovanti 12º, Schwärzer 14º.</description>
+    </item>
+    <item>
+      <title>Siccità estiva, con 3 °C di riscaldamento le zone a rischio in Europa si saldano</title>
+      <link>https://curiomondo.it/notizie/siccita-europa-sud-est-tarda-estate-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/siccita-europa-sud-est-tarda-estate-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Uno studio confronta più simulazioni dello stesso modello: a fine estate la fascia critica si estende dalla penisola iberica all’Europa orientale.</description>
+    </item>
+    <item>
+      <title>Fondo, Nyenget vince la 10 km di Ruka: Graz 12º, Barp 13º</title>
+      <link>https://curiomondo.it/notizie/ruka-nyenget-graz-barp-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/ruka-nyenget-graz-barp-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>La Norvegia occupa i primi sei posti nella gara maschile d’apertura. Andreas Ree e Johannes Klæbo completano il podio in Finlandia.</description>
+    </item>
+    <item>
+      <title>Combinata nordica, Einar Oftebro vince a Ruka: podio tutto norvegese</title>
+      <link>https://curiomondo.it/notizie/ruka-combinata-nordica-compact-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/ruka-combinata-nordica-compact-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Nella Compact il vincitore recupera 22 secondi dopo il salto e batte il fratello Jens di un secondo e mezzo. Aaron Kostner è 24º.</description>
+    </item>
+    <item>
+      <title>Alle Terme di Diocleziano un percorso sulla violenza di genere nel mondo antico</title>
+      <link>https://curiomondo.it/notizie/roma-terme-diocleziano-lucrezia-percorso-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/roma-terme-diocleziano-lucrezia-percorso-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>La visita tematica di Roma parte dal racconto di Lucrezia; prenotazioni in biglietteria e massimo 25 partecipanti.</description>
+    </item>
+    <item>
+      <title>Pesca e acquacoltura, l’Emilia-Romagna presenta le proposte per la filiera</title>
+      <link>https://curiomondo.it/notizie/rimini-stati-generali-pesca-acquacoltura-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/rimini-stati-generali-pesca-acquacoltura-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>A Rimini si chiudono gli Stati generali. Tra le priorità: risorse europee, produzioni locali e valorizzazione delle aree vallive.</description>
+    </item>
+    <item>
+      <title>Regno Unito, via libera a un comitato per la ricerca senza animali</title>
+      <link>https://curiomondo.it/notizie/regno-unito-comitato-metodi-senza-animali-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/regno-unito-comitato-metodi-senza-animali-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Il governo pubblica la risposta alle dodici raccomandazioni: il nuovo organismo avrà un ruolo consultivo, mentre i regolatori conserveranno i propri poteri.</description>
+    </item>
+    <item>
+      <title>Railtown presenta un test per confrontare i modelli IA su compiti reali</title>
+      <link>https://curiomondo.it/notizie/railtown-ai-valutazione-modelli-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/railtown-ai-valutazione-modelli-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Lo strumento usa dati di esecuzioni precedenti per valutare modelli nel cloud, sul dispositivo o in un centro dati privato. Nessuna data di rilascio.</description>
+    </item>
+    <item>
+      <title>Piemonte, lo sportello per le rinnovabili nelle imprese resta aperto dopo il 27 novembre</title>
+      <link>https://curiomondo.it/notizie/piemonte-rinnovabili-imprese-sportello-proroga-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/piemonte-rinnovabili-imprese-sportello-proroga-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Il termine originario era venerdì alle 12. La Regione ha prolungato la finestra fino al 18 febbraio 2027.</description>
+    </item>
+    <item>
+      <title>Nubi basse, gocce più grandi dove la sommità è più carica</title>
+      <link>https://curiomondo.it/notizie/nubi-stratiformi-carica-elettrica-gocce-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/nubi-stratiformi-carica-elettrica-gocce-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Uno studio in Geophysical Research Letters combina misure da aereo e palloni sulla stessa nube. L’associazione osservata non prova un rapporto di causa.</description>
+    </item>
+    <item>
+      <title>Moto3, Almansa firma il record nelle prove di Valencia</title>
+      <link>https://curiomondo.it/notizie/moto3-valencia-almansa-record-prove-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/moto3-valencia-almansa-record-prove-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Lo spagnolo gira in 1’36”402. Carpe e Salmela completano i primi tre; Guido Pini è 24º e dovrà passare dalla Q1.</description>
+    </item>
+    <item>
+      <title>Modena, annunciato un incontro sulla sicurezza nei tragitti casa-lavoro</title>
+      <link>https://curiomondo.it/notizie/modena-sicurezza-spostamenti-casa-lavoro-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/modena-sicurezza-spostamenti-casa-lavoro-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>L’appuntamento del 4 dicembre è dedicato ai rischi negli spostamenti quotidiani e alle pratiche di prevenzione.</description>
+    </item>
+    <item>
+      <title>Milano, apre il primo Forum Demografia: quattro giorni sui cambiamenti della città</title>
+      <link>https://curiomondo.it/notizie/milano-forum-demografia-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/milano-forum-demografia-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Dal 27 al 30 novembre incontri al Museo di Storia Naturale e a Palazzo Reale. La prima giornata parte alle 15.45.</description>
+    </item>
+    <item>
+      <title>Milano intitola a Ornella Vanoni l’audioteca di Casa Jannacci</title>
+      <link>https://curiomondo.it/notizie/milano-casa-jannacci-audioteca-ornella-vanoni-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/milano-casa-jannacci-audioteca-ornella-vanoni-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>La cantante era stata madrina dello spazio, inaugurato nel 2025. La sala di viale Ortles è destinata agli ospiti del centro di accoglienza.</description>
+    </item>
+    <item>
+      <title>Brera presenta il Cenacolo di Rubens dopo il restauro</title>
+      <link>https://curiomondo.it/notizie/milano-brera-cenacolo-rubens-restauro-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/milano-brera-cenacolo-rubens-restauro-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>A Milano prima l’incontro in Braidense, poi la presentazione davanti al quadro nella sala XXXI.</description>
+    </item>
+    <item>
+      <title>Sotto il Pacifico, le onde sismiche rivelano una struttura che risale dal mantello profondo</title>
+      <link>https://curiomondo.it/notizie/mantello-profondo-pacifico-struttura-sismica-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/mantello-profondo-pacifico-struttura-sismica-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>L’anomalia si estende per circa 700 chilometri sopra il confine con il nucleo. La forma è compatibile con un pennacchio deformato, ma non esclude un’altra spiegazione.</description>
+    </item>
+    <item>
+      <title>Lucca, la carta giapponese washi e il restauro dei libri</title>
+      <link>https://curiomondo.it/notizie/lucca-carta-washi-restauro-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/lucca-carta-washi-restauro-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Alla Biblioteca Statale un incontro ripercorre gli scambi con il Giappone e il lavoro sui volumi dopo l’alluvione del 1966.</description>
+    </item>
+    <item>
+      <title>Latisana, aperto il concorso per un istruttore tecnico a tempo indeterminato</title>
+      <link>https://curiomondo.it/notizie/latisana-concorso-istruttore-tecnico-demanio-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/latisana-concorso-istruttore-tecnico-demanio-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Un posto al servizio Patrimonio e demanio. Domande entro il 28 dicembre, con laurea nelle classi previste e patente B.</description>
+    </item>
+    <item>
+      <title>Solfuro di rame, osservati i percorsi degli ioni in un materiale termoelettrico</title>
+      <link>https://curiomondo.it/notizie/kaist-solfuro-rame-percorsi-ioni-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/kaist-solfuro-rame-percorsi-ioni-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Il KAIST presenta un esperimento di microscopia ultrarapida: gli ioni seguono vie preferenziali quando la struttura del materiale risponde alla luce.</description>
+    </item>
+    <item>
+      <title>India, a Bareilly apre il 75º polo pubblico per il software</title>
+      <link>https://curiomondo.it/notizie/india-bareilly-centro-stpi-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/india-bareilly-centro-stpi-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>La nuova sede nell’Uttar Pradesh, costata 182,5 milioni di rupie, è rivolta a imprese informatiche e startup del Rohilkhand.</description>
+    </item>
+    <item>
+      <title>Sci alpino, Paci risale al terzo posto nel secondo gigante FIS di Hippach</title>
+      <link>https://curiomondo.it/notizie/hippach-gigante-paci-rossi-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/hippach-gigante-paci-rossi-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Victoria Olivier firma una doppietta austriaca con Nicole Eibl. Vittoria Rossi è quarta a 36 centesimi dal podio.</description>
+    </item>
+    <item>
+      <title>Her Private Hell, il film di Nicolas Winding Refn arriva su MUBI</title>
+      <link>https://curiomondo.it/notizie/her-private-hell-mubi-refn-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/her-private-hell-mubi-refn-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Il thriller con Sophie Thatcher e Charles Melton è nel catalogo italiano dal 27 novembre; la colonna sonora è di Pino Donaggio.</description>
+    </item>
+    <item>
+      <title>Grande Fratello Vip 9, niente puntata venerdì: la finale è lunedì 30</title>
+      <link>https://curiomondo.it/notizie/grande-fratello-vip-9-finale-30-novembre-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/grande-fratello-vip-9-finale-30-novembre-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Mediaset conferma il cambio di prima serata del 27 novembre. Canale 5 trasmette “Il diavolo veste Prada”.</description>
+    </item>
+    <item>
+      <title>Artistica, a Civitavecchia si apre la finale Gold Junior e Senior</title>
+      <link>https://curiomondo.it/notizie/ginnastica-artistica-gold-civitavecchia-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/ginnastica-artistica-gold-civitavecchia-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Il programma federale del 27 novembre prevede due turni Junior 1. Volteggio, parallele, trave e corpo libero entrano nelle rotazioni.</description>
+    </item>
+    <item>
+      <title>Genova, a Palazzo Tursi formazione per riconoscere la violenza economica</title>
+      <link>https://curiomondo.it/notizie/genova-costruire-autonomia-violenza-economica-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/genova-costruire-autonomia-violenza-economica-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>L’incontro del 27 novembre è rivolto a operatrici, operatori e professionisti. In programma gestione del debito e strumenti di sostegno.</description>
+    </item>
+    <item>
+      <title>Palazzo Strozzi celebra vent’anni al Maggio con Jeff Koons e JR</title>
+      <link>https://curiomondo.it/notizie/firenze-palazzo-strozzi-venti-anni-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/firenze-palazzo-strozzi-venti-anni-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Venerdì 27 novembre l’incontro della Fondazione è in teatro e in diretta streaming dalle 17.30.</description>
+    </item>
+    <item>
+      <title>Brahms al Teatro Verdi: a Firenze l’ORT con Ceretta e De Maria</title>
+      <link>https://curiomondo.it/notizie/firenze-orchestra-toscana-brahms-ceretta-de-maria-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/firenze-orchestra-toscana-brahms-ceretta-de-maria-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Il concerto delle 21 inaugura tre appuntamenti per la Festa della Toscana. Seguono Lucca e Peccioli.</description>
+    </item>
+    <item>
+      <title>F1, Antonelli apre davanti a tutti in Qatar: Russell secondo nelle prime libere</title>
+      <link>https://curiomondo.it/notizie/f1-qatar-antonelli-fp1-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/f1-qatar-antonelli-fp1-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>La FIA certifica il tempo di 1’23”217 dell’italiano a Lusail. Hadjar è terzo, le Ferrari di Leclerc e Hamilton settima e ottava.</description>
+    </item>
+    <item>
+      <title>Visione periferica, il volo virtuale dell’EPFL mostra come restiamo in gruppo</title>
+      <link>https://curiomondo.it/notizie/epfl-visione-periferica-volo-virtuale-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/epfl-visione-periferica-volo-virtuale-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Quaranta volontari hanno seguito uno stormo simulato. Quando la parte periferica del campo visivo era oscurata, rimanevano nel gruppo meno a lungo.</description>
+    </item>
+    <item>
+      <title>Corte penale internazionale, il 30 novembre l’assemblea per eleggere sei giudici</title>
+      <link>https://curiomondo.it/notizie/corte-penale-internazionale-assemblea-stati-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/corte-penale-internazionale-assemblea-stati-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>La Corte conferma la sessione all’Aia fino al 7 dicembre. In programma anche l’esame del bilancio e il confronto sulla cooperazione degli Stati.</description>
+    </item>
+    <item>
+      <title>Bilancio UE 2028–2034 senza accordo, il prestito a Kiev torna in agenda a dicembre</title>
+      <link>https://curiomondo.it/notizie/consiglio-europeo-bilancio-2028-2034-prestito-ucraina-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/consiglio-europeo-bilancio-2028-2034-prestito-ucraina-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Al vertice di Bruxelles restano aperti il volume del bilancio e le nuove entrate dell’Unione. Sul finanziamento aggiuntivo all’Ucraina Costa riferisce l’appoggio di 24 Stati.</description>
+    </item>
+    <item>
+      <title>Isole Cocos, l’Australia finanzia una nuova torre per le comunicazioni di emergenza</title>
+      <link>https://curiomondo.it/notizie/cocos-comunicazioni-emergenza-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/cocos-comunicazioni-emergenza-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Quasi 2,8 milioni di dollari australiani per una torre a Direction Island, due impianti aggiornati e alimentazione di riserva nei punti chiave.</description>
+    </item>
+    <item>
+      <title>Cina e ASEAN, in Vietnam il dialogo sulla sicurezza dell’intelligenza artificiale</title>
+      <link>https://curiomondo.it/notizie/cina-asean-dialogo-cyber-vietnam-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/cina-asean-dialogo-cyber-vietnam-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Le delegazioni di Pechino e degli undici membri dell’ASEAN vogliono continuare il confronto sulle regole comuni, senza un nuovo trattato.</description>
+    </item>
+    <item>
+      <title>Catania, debutta Corti in Cortile OFF al Palazzo della Cultura</title>
+      <link>https://curiomondo.it/notizie/catania-corti-in-cortile-off-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/catania-corti-in-cortile-off-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>La rassegna apre con cortometraggi italiani e internazionali e si collega alla selezione del festival di settembre 2027.</description>
+    </item>
+    <item>
+      <title>Basket, Australia al Mondiale 2027 dopo l’84-67 contro l’Iran</title>
+      <link>https://curiomondo.it/notizie/basket-australia-iran-pass-mondiale-2027-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/basket-australia-iran-pass-mondiale-2027-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Il successo di Seremban vale il pass per il Qatar. I Boomers sono i primi del percorso asiatico a qualificarsi sul campo, oltre al Paese ospitante.</description>
+    </item>
+    <item>
+      <title>Sicurezza finanziaria, Bankitalia e GdF firmano un protocollo sugli incidenti digitali</title>
+      <link>https://curiomondo.it/notizie/banca-italia-gdf-protocollo-dora-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/banca-italia-gdf-protocollo-dora-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Con Consob, Ivass e Covip, l’intesa regola la condivisione delle segnalazioni su incidenti gravi e minacce significative.</description>
+    </item>
+    <item>
+      <title>Antartide, il ghiaccio marino ha toccato un minimo record a ottobre</title>
+      <link>https://curiomondo.it/notizie/antartide-ghiaccio-marino-minimo-ottobre-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/antartide-ghiaccio-marino-minimo-ottobre-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>L’Australian Antarctic Program ha diffuso il 27 novembre l’analisi satellitare: a metà ottobre mancavano 2,3 milioni di chilometri quadrati rispetto alla media.</description>
+    </item>
+    <item>
+      <title>Alta Val Taro, al via il percorso per avvicinare i servizi alle frazioni</title>
+      <link>https://curiomondo.it/notizie/alta-val-taro-welfare-prossimita-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/alta-val-taro-welfare-prossimita-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Il progetto coinvolge Bedonia, Compiano e Tornolo. Primo incontro pubblico sabato 28 novembre a Tarsogno per raccogliere le priorità dei residenti.</description>
+    </item>
+    <item>
+      <title>A9 tra Como e Chiasso: quattro notti di chiusure dal 30 novembre</title>
+      <link>https://curiomondo.it/notizie/a9-como-chiasso-chiusure-notturne-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/a9-como-chiasso-chiusure-notturne-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Autostrade ha pubblicato il calendario: cambiano sensi di marcia, accessi a Como Centro e itinerari per il confine e per Lainate.</description>
+    </item>
+    <item>
+      <title>A4 tra Monza e Sesto: quattro notti con chiusure su autostrada e raccordi</title>
+      <link>https://curiomondo.it/notizie/a4-monza-sesto-a52-chiusure-dicembre-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/a4-monza-sesto-a52-chiusure-dicembre-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Dal 30 novembre al 4 dicembre cambiano direzioni, svincoli e orari. Il nuovo programma comprende anche il raccordo R3 e l’accesso alla A52.</description>
+    </item>
+    <item>
+      <title>A27, chiude la tratta dalla statale Alemagna a Belluno verso Venezia</title>
+      <link>https://curiomondo.it/notizie/a27-ss51-belluno-chiusura-verso-venezia-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/a27-ss51-belluno-chiusura-verso-venezia-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Lavori di pavimentazione dalle 21 del 27 novembre alle 2 del 28. Percorsi distinti per auto e mezzi pesanti; area di servizio Ponte nelle Alpi non raggiungibile.</description>
+    </item>
+    <item>
+      <title>A1 Panoramica, quattro stop diurni in Appennino dal 30 novembre</title>
+      <link>https://curiomondo.it/notizie/a1-panoramica-chiusure-appennino-dicembre-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/a1-panoramica-chiusure-appennino-dicembre-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Lunedì e martedì chiusure verso Bologna; mercoledì e giovedì verso Firenze. La Direttissima è l’alternativa nelle fasce 9–18.</description>
+    </item>
+    <item>
+      <title>A1, deviazione tra Lodi e Basso Lodigiano dalle 21 del 30 novembre</title>
+      <link>https://curiomondo.it/notizie/a1-lodi-basso-lodigiano-chiusura-27-novembre-2026.html</link>
+      <guid>https://curiomondo.it/notizie/a1-lodi-basso-lodigiano-chiusura-27-novembre-2026.html</guid>
+      <pubDate>Fri, 27 Nov 2026 17:54:26 +0100</pubDate>
+      <description>Il cantiere si svolge verso Bologna. Chiuse anche le entrate di Lodi e Casalpusterlengo; l’area Somaglia ovest ferma già dalle 20.</description>
+    </item>
     <item>
       <title>Mercatino di Natale di Bolzano in treno: date, orari e percorso</title>
       <link>https://curiomondo.it/approfondimenti/mercatino-natale-bolzano-in-treno.html</link>
