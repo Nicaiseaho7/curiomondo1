@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-27T19:10:07+01:00",
+  "lastVerified": "2026-11-27T19:34:10+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -8843,6 +8843,110 @@
         "image": "/assets/images/editorial-auto/osio-sotto-ruralia-chiara-brenna-27-novembre-2026-v1679-800.webp"
       },
       "verifiedAt": "2026-11-27T19:10:07+01:00"
+    },
+    {
+      "title": "Domus, Domo",
+      "artist": "Ugo La Pietra",
+      "city": "Nuoro",
+      "province": "NU",
+      "region": "Sardegna",
+      "venue": "Museo MAN",
+      "start": "2026-11-27T18:00:00+01:00",
+      "end": "2027-03-07",
+      "kind": "mostra",
+      "sourceUrl": "https://www.museoman.it/eventi/mese/2026-11/",
+      "ticketStatus": "unknown",
+      "id": "nuoro-ugo-la-pietra-domus-domo-2026-11-27",
+      "tour": "Domus, Domo",
+      "status": "annunciato",
+      "genre": "Mostra",
+      "showTime": true,
+      "featured": false,
+      "article": {
+        "url": "/notizie/nuoro-ugo-la-pietra-domus-domo-27-novembre-2026.html",
+        "title": "Nuoro, Ugo La Pietra porta al MAN sessant’anni di idee sull’abitare",
+        "description": "Aperta dal 27 novembre al 7 marzo, «Domus, Domo» riunisce circa 80 opere tra ceramiche, arazzi, film e progetti.",
+        "image": "/assets/images/editorial-auto/nuoro-ugo-la-pietra-domus-domo-27-novembre-2026-v1681-800.webp"
+      },
+      "verifiedAt": "2026-11-27T19:34:10+01:00"
+    },
+    {
+      "title": "Festival di Nuova Consonanza alla Pelanda",
+      "artist": "Apeiron Sax Quartet, Trio Catch e NeoQuartet",
+      "city": "Roma",
+      "province": "RM",
+      "region": "Lazio",
+      "venue": "Mattatoio – La Pelanda",
+      "start": "2026-11-27T20:30:00+01:00",
+      "end": "2026-11-29",
+      "kind": "festival",
+      "sourceUrl": "https://www.nuovaconsonanza.it/contenuti/file/NC-webLibretto2026.pdf",
+      "ticketStatus": "unknown",
+      "id": "roma-festival-nuova-consonanza-mattatoio-2026-11-27",
+      "tour": "Festival di Nuova Consonanza alla Pelanda",
+      "status": "annunciato",
+      "genre": "Festival",
+      "showTime": true,
+      "featured": false,
+      "article": {
+        "url": "/notizie/roma-festival-nuova-consonanza-mattatoio-27-novembre-2026.html",
+        "title": "Roma, al Mattatoio il fine settimana di Nuova Consonanza tra concerti e installazioni",
+        "description": "Il festival arriva a Testaccio dal 27 novembre, dalle tre prime per sassofono al progetto sonoro di Francesco Pellisari.",
+        "image": "/assets/images/editorial-auto/roma-festival-nuova-consonanza-mattatoio-27-novembre-2026-v1681-800.webp"
+      },
+      "verifiedAt": "2026-11-27T19:34:10+01:00"
+    },
+    {
+      "title": "Spettinati",
+      "artist": "Debora Caprioglio, Tiziana Foschi, Giancarlo Ratti e Antonio Pisu",
+      "city": "Bologna",
+      "province": "BO",
+      "region": "Emilia-Romagna",
+      "venue": "Teatro Dehon",
+      "start": "2026-11-27T21:00:00+01:00",
+      "end": "2026-11-29",
+      "kind": "spettacolo",
+      "sourceUrl": "https://teatrodehon.it/index.php/component/content/article/spettinati?catid=28%3Aprosa",
+      "ticketStatus": "unknown",
+      "id": "bologna-spettinati-teatro-dehon-2026-11-27",
+      "tour": "Spettinati",
+      "status": "annunciato",
+      "genre": "Spettacolo",
+      "showTime": true,
+      "featured": false,
+      "article": {
+        "url": "/notizie/bologna-spettinati-teatro-dehon-27-novembre-2026.html",
+        "title": "Bologna, il salone anni Ottanta di «Spettinati» apre al Teatro Dehon",
+        "description": "Debora Caprioglio, Tiziana Foschi, Giancarlo Ratti e Antonio Pisu in scena dal 27 al 29 novembre.",
+        "image": "/assets/images/editorial-auto/bologna-spettinati-teatro-dehon-27-novembre-2026-v1681-800.webp"
+      },
+      "verifiedAt": "2026-11-27T19:34:10+01:00"
+    },
+    {
+      "title": "L’Aquila Film Festival: proiezione e premiazioni",
+      "artist": "L’Aquila Film Festival",
+      "city": "L’Aquila",
+      "province": "AQ",
+      "region": "Abruzzo",
+      "venue": "Auditorium del Parco",
+      "start": "2026-11-28T17:30:00+01:00",
+      "end": "2026-11-28",
+      "kind": "festival",
+      "sourceUrl": "https://www.laquilafilmfestival.it/",
+      "ticketStatus": "free",
+      "id": "aquila-film-festival-premi-samani-messeri-2026-11-28",
+      "tour": "L’Aquila Film Festival: proiezione e premiazioni",
+      "status": "annunciato",
+      "genre": "Festival",
+      "showTime": true,
+      "featured": false,
+      "article": {
+        "url": "/notizie/aquila-film-festival-premi-samani-messeri-27-novembre-2026.html",
+        "title": "L’Aquila Film Festival, Laura Samani e Cosimo Messeri attesi alla serata dei premi",
+        "description": "Sabato 28 novembre all’Auditorium del Parco: «School of Life», incontro sull’accoglienza e premiazioni dalle 21.",
+        "image": "/assets/images/editorial-auto/aquila-film-festival-premi-samani-messeri-27-novembre-2026-v1681-800.webp"
+      },
+      "verifiedAt": "2026-11-27T19:34:10+01:00"
     }
   ]
 }
