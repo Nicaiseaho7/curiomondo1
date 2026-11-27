@@ -9,28 +9,12 @@
       return Array.from(section.querySelectorAll('.cm-topic-card, .cm-topic-lead')).some((card) => card.dataset.category && card.dataset.category !== id);
     });
     if (!mixed) {
-    const viewport = existing.querySelector('.cm-featured-carousel__viewport');
-    const slides = Array.from(existing.querySelectorAll('.cm-featured-carousel__slide'));
-    const dots = Array.from(existing.querySelectorAll('.cm-featured-carousel__dot'));
-    const arrows = existing.querySelectorAll('.cm-featured-carousel__arrow');
-    if (viewport && slides.length) {
-      const currentIndex = () => Math.max(0, Math.min(slides.length - 1, Math.round(viewport.scrollLeft / Math.max(1, viewport.clientWidth))));
-      const update = () => dots.forEach((dot, index) => {
-        const active = index === currentIndex();
-        dot.classList.toggle('is-active', active);
-        dot.setAttribute('aria-current', active ? 'true' : 'false');
-      });
-      const go = (delta) => viewport.scrollTo({ left: ((currentIndex() + delta + slides.length) % slides.length) * viewport.clientWidth, behavior: 'smooth' });
-      if (arrows[0]) arrows[0].addEventListener('click', () => go(-1));
-      if (arrows[1]) arrows[1].addEventListener('click', () => go(1));
-      dots.forEach((dot, index) => dot.addEventListener('click', () => slides[index].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })));
-      viewport.addEventListener('scroll', update, { passive: true });
-    }
+    window.CMHomeFlowChoices?.mountCarousel(existing.querySelector('.cm-featured-carousel'));
     preferStatic = true;
     }
   }
-  const A = window.CMHomepageAllocation;
-  if (!A) return;
+  const A = window.CMHomepageAllocation, choices=window.CMHomeFlowChoices;
+  if (!A || !choices) return;
   const $ = (selector, root = document) => root.querySelector(selector);
   const zone = (preferStatic && existing) ? existing : document.createElement('div');
   if (!preferStatic || !existing) {
@@ -130,24 +114,25 @@
     if (visual) article.append(visual);
     return article;
   };
-  const featuredCarousel = (entries) => {
+  const featuredCarousel = ({lead:entry,selection:stories,edition,today}) => {
     const block = el('section', 'cm-featured-carousel');
     block.setAttribute('aria-label', 'Notizie in primo piano');
     const lead = el('div', 'cm-flow-lead');
-    lead.append(largeCard(entries[0], 'In primo piano', '#B91C1C', true));
+    lead.append(largeCard(entry, 'In primo piano', '#B91C1C', true));
     const selection = el('div', 'cm-flow-selection');
     const viewport = el('div', 'cm-featured-carousel__viewport');
     viewport.tabIndex = 0;
     const track = el('div', 'cm-featured-carousel__track');
     const dots = el('div', 'cm-featured-carousel__dots');
-    const slides = entries.slice(1).map((entry, index) => {
+    const slides = stories.map((entry, index) => {
       const slide = el('div', 'cm-featured-carousel__slide');
       slide.dataset.index = String(index);
-      slide.append(largeCard(entry, 'In primo piano', '#B91C1C', false));
+      const card=el('a','cm-flow-pick');card.href=entry.url;card.dataset.edition=edition;
+      const visual=picture(entry,false);if(visual){visual.querySelector('img').sizes='(max-width: 760px) 155px, 130px';card.append(visual);}
+      const copy=el('span','cm-flow-pick-copy');copy.append(el('small','',A.categoryFor(entry)?.label||entry.section||'Notizie'),el('strong','',entry.title));card.append(copy);slide.append(card);
       const dot = el('button', 'cm-featured-carousel__dot');
       dot.type = 'button';
       dot.setAttribute('aria-label', `Vai alla notizia ${index + 1}`);
-      dot.addEventListener('click', () => slide.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' }));
       dots.append(dot);
       return slide;
     });
@@ -159,24 +144,11 @@
     previous.type = next.type = 'button';
     previous.setAttribute('aria-label', 'Notizia precedente');
     next.setAttribute('aria-label', 'Notizia successiva');
-    const currentIndex = () => Math.max(0, Math.min(slides.length - 1, Math.round(viewport.scrollLeft / Math.max(1, viewport.clientWidth))));
-    const update = () => Array.from(dots.children).forEach((dot, index) => {
-      const active = index === currentIndex();
-      dot.classList.toggle('is-active', active);
-      dot.setAttribute('aria-current', active ? 'true' : 'false');
-    });
-    const go = (delta) => viewport.scrollTo({ left: (currentIndex() + delta + slides.length) % slides.length * viewport.clientWidth, behavior: 'smooth' });
-    previous.addEventListener('click', () => go(-1));
-    next.addEventListener('click', () => go(1));
-    viewport.addEventListener('scroll', update, { passive: true });
-    viewport.addEventListener('keydown', (event) => {
-      if (event.key === 'ArrowLeft') { event.preventDefault(); go(-1); }
-      if (event.key === 'ArrowRight') { event.preventDefault(); go(1); }
-    });
     controls.append(previous, dots, next);
-    if (slides.length) selection.append(el('h2', 'cm-flow-selection-title', 'Da leggere'), viewport, controls);
-    block.append(lead, selection);
-    requestAnimationFrame(update);
+    const heading=el('div','cm-flow-select-head');heading.append(el('h2','cm-flow-selection-title','Da leggere'));
+    if(edition!==today&&slides.length){const badge=el('time','',`Edizione del ${choices.dateLabel(edition)}`);badge.dateTime=edition;heading.append(badge);}
+    if(slides.length)selection.append(heading,viewport,controls);
+    block.append(lead,selection);
     return block;
   };
   const smallCard = (entry, category, eager = true) => {
@@ -222,21 +194,26 @@
     block.append(el('h2', 'cm-flow-wire-title', 'Ultima ora'), details, list, more);
     return block;
   };
-  const section = ({ category, lead, cards }) => {
+  const section = ({ category, stories }) => {
     const block = el('section', 'cm-topic-section');
     block.dataset.category = category.id;
     // Ancoraggio per la barra delle sezioni in alto: cliccando "Sport" la
     // pagina scende fin qui invece di portare via dalla home.
     block.id = 'categoria-' + category.id;
     block.style.setProperty('--cm-category-color', category.color);
-    if (lead && A.categoryFor(lead)?.id === category.id) block.append(largeCard(lead, category.label, category.color, false, category.id));
     const rail = el('div', 'cm-topic-section__rail');
     rail.dataset.forCategory = category.id;
-    rail.append(el('h2', 'cm-topic-section__title', category.label));
-    const own = cards.filter((entry) => A.categoryFor(entry)?.id === category.id);
+    const label=category.id==='film-tv'?'Film e serie TV':category.label;
+    rail.append(el('h2', 'cm-topic-section__title', label));
+    const own = stories;
     if (own.length) {
       const grid = el('div', 'cm-topic-grid');
-      grid.append(...own.map((entry) => smallCard(entry, category)));
+      grid.append(...own.map(entry=>{
+        const link=el('a','cm-topic-card cm-flow-title-row');link.href=entry.url;link.dataset.category=category.id;
+        const badge=el('span','cm-topic-label meta cm-flow-visually-hidden',label);badge.setAttribute('aria-hidden','true');
+        link.append(badge,el('h3','cm-topic-card__title',entry.title));
+        return link;
+      }));
       rail.append(grid);
     }
     if (category.archive) {
@@ -281,37 +258,25 @@
     const overrides = editorialConfig && editorialConfig.articles || {};
     const items = (Array.isArray(payload.items) ? payload.items : []).map((entry) => ({ ...entry, ...(overrides[entry.url] || {}) }));
     if (current !== generation) return;
-    const allocation = A.allocate(items, {
-      now: new Date(),
-      latestCapacity: mobileLayout.matches ? 0 : A.CONFIG.latestCapacity,
-      smallCardsPerCategory: 11
-    });
     const fragment = document.createDocumentFragment();
     const previousWire = document.getElementById('cm-ultima-ora');
     const wireWasOpen = !!previousWire?.querySelector('details[open]');
     const wireFocused = previousWire?.contains(document.activeElement);
     const focusedHref = wireFocused ? document.activeElement.getAttribute('href') : '';
-    const ranked = items.filter((entry) => {
-      const date = A.firstPublished(entry);
-      return date && date.getTime() <= Date.now();
-    }).sort((a, b) => {
-      const left = A.firstPublished(b);
-      const right = A.firstPublished(a);
-      return (left ? left.getTime() : 0) - (right ? right.getTime() : 0);
-    });
-    const featuredNow = ranked.slice(0, 3);
-    const opening = el('div', 'cm-flow-opening');
-    opening.append(el('h2', 'cm-flow-opening-title', 'In primo piano'));
-    if (featuredNow.length) opening.append(featuredCarousel(featuredNow));
-    // Le tre notizie in primo piano non si ripetono in Ultima ora.
-    const featuredUrls = new Set(featuredNow.map((entry) => entry.url));
-    const wire = ultimaOra(ranked.filter((entry) => !featuredUrls.has(entry.url)));
+    const now=new Date();
+    const currentHref=zone.querySelector('.cm-flow-lead .cm-topic-lead__cta')?.getAttribute('href');
+    const preferred=items.find(e=>e.url===currentHref && A.isPromotable(e,now));
+    const edition=choices.compose(A,items,now,preferred);
+    const opening=el('div','cm-flow-opening');
+    opening.append(el('h2','cm-flow-opening-title','In primo piano'));
+    if(edition.lead)opening.append(featuredCarousel(edition));
+    const wire=ultimaOra(edition.wire);
     wire.querySelector('details').open = wireWasOpen;
     opening.append(wire);
     fragment.append(opening);
     const services = document.querySelector('template#cm-flow-services');
     if (services) fragment.append(services.content.cloneNode(true));
-    allocation.sections.forEach((item) => fragment.append(section(item)));
+    edition.sections.filter(it=>it.stories.length).forEach(item=>fragment.append(section(item)));
     // Preserva la rail Curiosità e approfondimenti (max 10 card statiche, non derivate dal feed notizie)
     const curiositaKeep = document.getElementById('categoria-curiosita');
     const curiositaNode = curiositaKeep ? curiositaKeep.cloneNode(true) : null;
@@ -327,6 +292,7 @@
     });
     for (const [anchor, ad] of existingAds) anchor.after(ad);
     zone.replaceChildren(fragment);
+    choices.mountCarousel(zone.querySelector('.cm-featured-carousel'));
     // Elimina solo l’eventuale duplicato legacy, mai la nuova lista.
     if (previousWire?.isConnected && !zone.contains(previousWire)) previousWire.remove();
     if (wireFocused) {
@@ -340,9 +306,9 @@
       else zone.appendChild(curiositaNode);
     }
     hideLegacy();
-    updateRest(allocation);
+    updateRest({rest:edition.remaining});
     verifyUnique();
-    const expiry = A.nextExpiry(allocation);
+    const expiry = A.nextExpiry({now,featured:edition.lead});
     if (expiry) timer = window.setTimeout(refresh, Math.max(50, expiry.getTime() - Date.now() + 25));
   }
   const refresh = () => render().catch((error) => {
@@ -422,51 +388,3 @@
 })();
 
 
-/* v533 — controlli scorrimento rail Curiosità (10 card) */
-(function initCuriositaRail() {
-  if (typeof document === 'undefined') return;
-  const setup = (section) => {
-    if (!section || section.dataset.railReady === '1') return;
-    const grid = section.querySelector('.cm-topic-grid');
-    if (!grid) return;
-    const cards = grid.querySelectorAll('.cm-topic-card');
-    if (cards.length < 2) return;
-    section.dataset.railReady = '1';
-    const rail = section.querySelector('.cm-topic-section__rail') || section;
-    const title = rail.querySelector('.cm-topic-section__title');
-    const controls = document.createElement('div');
-    controls.className = 'cm-curiosita-rail__controls';
-    controls.innerHTML = '<span class="cm-curiosita-rail__count" data-cm-count></span>'
-      + '<button type="button" class="cm-curiosita-rail__arrow" data-dir="-1" aria-label="Curiosità precedenti">←</button>'
-      + '<button type="button" class="cm-curiosita-rail__arrow" data-dir="1" aria-label="Curiosità successive">→</button>';
-    if (title && title.nextSibling) title.after(controls);
-    else rail.insertBefore(controls, grid);
-    const countEl = controls.querySelector('[data-cm-count]');
-    const prev = controls.querySelector('[data-dir="-1"]');
-    const next = controls.querySelector('[data-dir="1"]');
-    const step = () => Math.max(220, Math.round(grid.clientWidth * 0.85));
-    const update = () => {
-      const max = Math.max(0, grid.scrollWidth - grid.clientWidth - 2);
-      const left = grid.scrollLeft;
-      prev.disabled = left <= 4;
-      next.disabled = left >= max - 4;
-      if (countEl) countEl.textContent = cards.length + ' approfondimenti';
-    };
-    prev.addEventListener('click', () => grid.scrollBy({ left: -step(), behavior: 'smooth' }));
-    next.addEventListener('click', () => grid.scrollBy({ left: step(), behavior: 'smooth' }));
-    grid.addEventListener('scroll', update, { passive: true });
-    window.addEventListener('resize', update);
-    update();
-  };
-  const run = () => setup(document.getElementById('categoria-curiosita'));
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run);
-  else run();
-  const zone = document.getElementById('cm-home-editorial-v504');
-  if (zone && typeof MutationObserver !== 'undefined') {
-    const mo = new MutationObserver(() => {
-      const sec = document.getElementById('categoria-curiosita');
-      if (sec && sec.dataset.railReady !== '1') run();
-    });
-    mo.observe(zone, { childList: true, subtree: true });
-  }
-})();

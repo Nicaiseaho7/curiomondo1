@@ -497,6 +497,29 @@ for url,count in Counter(refs).items():
 errors.extend(publication_date_errors)
 
 home=html.fromstring((root/'index.html').read_text(errors='replace'))
+home_v19=bool(home.xpath('//body[contains(concat(" ",normalize-space(@class)," ")," cm-home-edizione-v19 ")]'))
+if home_v19:
+    title_sections=home.xpath('//*[@id="cm-home-editorial-v504"]//section[@data-category]')
+    if len(title_sections)!=13: errors.append('la home non contiene tutte le 13 sezioni')
+    for sect in title_sections:
+        headlines=sect.xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-flow-title-row ")]')
+        if len(headlines)!=3 or any(a.xpath('.//img|.//picture|.//p|.//time') for a in headlines):
+            errors.append(f'sezione non composta da tre soli titoli: {sect.get("id")}')
+    for href in home.xpath('//nav[contains(concat(" ",normalize-space(@class)," ")," cm-flow-nav ")]/a[position()>1]/@href'):
+        if not href.startswith('#categoria-') or len(home.xpath('//*[@id=$value]',value=href[1:]))!=1:
+            errors.append(f'link non interno alla home nella barra delle sezioni: {href}')
+    if home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," ticker ")]'):
+        errors.append('la barra Live non deve apparire in home')
+    wire_urls=home.xpath('//ol[@id="cm-flow-wire-list"]//a/@href')
+    if len(wire_urls)!=10 or len(set(wire_urls))!=10: errors.append('Ultima ora non contiene dieci notizie univoche')
+    picks=home.xpath('//a[@class="cm-flow-pick"]')
+    if len(picks)!=5 or any(not pick.xpath('.//img') for pick in picks):
+        errors.append('Da leggere non contiene cinque notizie illustrate')
+    if len({pick.get('data-edition') for pick in picks})!=1:
+        errors.append('Da leggere mescola notizie di edizioni diverse')
+    home_keys=wire_urls+home.xpath('//a[@class="cm-flow-pick"]/@href | //div[@class="cm-flow-lead"]//a[@class="cm-topic-lead__cta"]/@href | //a[contains(concat(" ",normalize-space(@class)," ")," cm-flow-title-row ")]/@href')
+    if len(home_keys)!=len({re.sub(r"(?:/index)?\.html$","",x.rstrip("/")) for x in home_keys}):
+        errors.append('notizie duplicate tra apertura, Ultima ora, Da leggere o categorie')
 for section in home.xpath('//section[contains(concat(" ",normalize-space(@class)," ")," cm-topic-section ")]'):
     expected=(section.get('data-category') or '').strip()
     title=' '.join(section.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-topic-section__title ")]//text()')).strip()
@@ -514,7 +537,7 @@ for section in home.xpath('//section[contains(concat(" ",normalize-space(@class)
             errors.append(f'card di {card.get("data-category")} dentro {title}')
             break
 ticker=' '.join(home.xpath('//nav[contains(@class,"ticker-track")]//a[contains(@class,"ticker-news")]//text()')).strip()
-if not ticker: errors.append('ultime notizie assenti nel ticker')
+if not home_v19 and not ticker: errors.append('ultime notizie assenti nel ticker')
 feed_path=root/'assets/data/home-feed-v210.json'
 if feed_path.exists():
     feed_items=json.loads(feed_path.read_text(encoding='utf-8')).get('items') or []
@@ -531,7 +554,10 @@ if feed_path.exists():
     newest=[url for _, _, url in ranked[:3] if url]
     carousel=home.xpath('//section[contains(@class,"cm-featured-carousel")]//a[contains(@class,"cm-topic-lead__cta")]/@href')[:3]
     wire=set(home.xpath('//ol[contains(@class,"cm-wire__list")]//a/@href'))
-    if len(carousel)!=3:
+    if home_v19:
+        if len(carousel)!=1 or set(carousel) & wire:
+            errors.append("In primo piano non contiene una singola notizia distinta")
+    elif len(carousel)!=3:
         errors.append('il carosello in primo piano non ha tre notizie')
     elif set(carousel) & wire:
         errors.append('le notizie in primo piano sono ripetute in ultima ora')
@@ -552,7 +578,7 @@ if home.xpath('//footer//*[contains(concat(" ",normalize-space(@class)," ")," cm
 for selector,label in [('//div[contains(@class,"auto-rail")]//img/@src','Ultime notizie'),('//div[@id="cards"]//img/@src','Tutte le notizie')]:
     section_refs=home.xpath(selector)
     if len(section_refs)!=len(set(section_refs)): errors.append(f'immagini duplicate in {label}')
-if len(home.xpath('//nav[contains(@class,"ticker-track")][1]/a'))!=10: errors.append('LIVE non contiene 10 notizie')
+if not home_v19 and len(home.xpath('//nav[contains(@class,"ticker-track")][1]/a'))!=10: errors.append('LIVE non contiene 10 notizie')
 if len(home.xpath('//div[contains(@class,"auto-rail")]/a'))!=5: errors.append('Ultime notizie non contiene 5 articoli')
 if len(home.xpath('//div[contains(@class,"auto-rail")]/a/h3 | //div[contains(@class,"auto-rail")]/a//h3'))!=5: errors.append('titoli mancanti nelle card Ultime notizie')
 if len(home.xpath('//div[contains(@class,"auto-rail")]/a//p[normalize-space()]'))!=5: errors.append('spiegazioni iniziali mancanti nelle card Ultime notizie')

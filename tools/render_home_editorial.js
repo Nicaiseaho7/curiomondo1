@@ -5,6 +5,7 @@ const path = require('path');
 const { execFileSync } = require('child_process');
 const root = path.resolve(__dirname, '..');
 const api = require(path.join(root, 'assets/js/home-allocation-v504.js'));
+const choices = require(path.join(root, 'assets/js/home-flow-choices-v1.js'));
 
 const esc = (value) => String(value || '')
   .replace(/&/g, '&')
@@ -52,7 +53,7 @@ const picture = (entry, eager) => {
   const extra = eager
     ? ' loading="eager" decoding="sync" fetchpriority="high"'
     : ' loading="lazy" decoding="async"';
-  return `<picture><img src="${esc(src)}"${entry.srcset ? ` srcset="${esc(entry.srcset)}"` : ''} sizes="${eager ? LCP_SIZES : CARD_SIZES}" alt="${esc(entry.imageAlt)}" width="${entry.imageWidth || 800}" height="${entry.imageHeight || 533}"${extra}></picture>`;
+  return `<picture><img src="${esc(src)}"${entry.srcset ? ` srcset="${esc(entry.srcset)}"` : ''} sizes="${eager ? LCP_SIZES : '(max-width: 760px) 155px, 130px'}" alt="${esc(entry.imageAlt)}" width="${entry.imageWidth || 800}" height="${entry.imageHeight || 533}"${extra}></picture>`;
 };
 
 const updateFlag = (entry) => entry.updated
@@ -73,17 +74,16 @@ const largeCard = (entry, label, color, primary, categoryId) => {
   return `<article class="${cls}"${categoryAttr} style="--cm-category-color:${esc(color)}">${featured ? labelMarkup : ''}<div class="cm-topic-lead__body">${featured ? '' : labelMarkup}${updateFlag(entry)}<${title} class="cm-topic-lead__title">${esc(entry.title)}</${title}>${entry.excerpt ? `<p class="cm-topic-lead__summary">${esc(entry.excerpt)}</p>` : ''}<div class="cm-topic-lead__footer"><a class="cm-topic-lead__cta" href="${esc(entry.url)}">Leggi l’articolo →</a>${time(entry)}</div></div>${picture(entry, primary)}</article>`;
 };
 
-const carousel = (entries) => {
-  const [primary, ...selection] = entries;
+const carousel = ({lead: primary, selection, edition, today}) => {
   if (!primary) return '';
   const hero = `<div class="cm-flow-lead">${largeCard(primary, 'In primo piano', '#B91C1C', true)}</div>`;
   const slides = selection.map((entry, index) => (
-    `<div class="cm-featured-carousel__slide" data-index="${index}">${largeCard(entry, 'In primo piano', '#B91C1C', false)}</div>`
+    `<div class="cm-featured-carousel__slide" data-index="${index}"><a class="cm-flow-pick" href="${esc(entry.url)}" data-edition="${esc(edition)}">${picture(entry, false)}<span class="cm-flow-pick-copy"><small>${esc(api.categoryFor(entry)?.label || entry.section || 'Notizie')}</small><strong>${esc(entry.title)}</strong></span></a></div>`
   )).join('');
   const dots = selection.map((_, index) => (
     `<button class="cm-featured-carousel__dot${index === 0 ? ' is-active' : ''}" type="button" aria-label="Vai alla notizia ${index + 1}"${index === 0 ? ' aria-current="true"' : ''}></button>`
   )).join('');
-  return `<section class="cm-featured-carousel" aria-label="Notizie in primo piano">${hero}<div class="cm-flow-selection"><h2 class="cm-flow-selection-title">Da leggere</h2><div class="cm-featured-carousel__viewport" tabindex="0"><div class="cm-featured-carousel__track">${slides}</div></div><div class="cm-featured-carousel__controls"><button class="cm-featured-carousel__arrow" type="button" aria-label="Notizia precedente">←</button><div class="cm-featured-carousel__dots">${dots}</div><button class="cm-featured-carousel__arrow" type="button" aria-label="Notizia successiva">→</button></div></div></section>`;
+  return `<section class="cm-featured-carousel" aria-label="Notizie in primo piano">${hero}<div class="cm-flow-selection"><div class="cm-flow-select-head"><h2 class="cm-flow-selection-title">Da leggere</h2>${edition !== today && selection.length ? `<time datetime="${edition}">Edizione del ${choices.dateLabel(edition)}</time>` : ''}</div><div class="cm-featured-carousel__viewport" tabindex="0"><div class="cm-featured-carousel__track">${slides}</div></div><div class="cm-featured-carousel__controls"><button class="cm-featured-carousel__arrow" type="button" aria-label="Notizia precedente">←</button><div class="cm-featured-carousel__dots">${dots}</div><button class="cm-featured-carousel__arrow" type="button" aria-label="Notizia successiva">→</button></div></div></section>`;
 };
 
 const ultimaOra = (entries) => {
@@ -93,19 +93,13 @@ const ultimaOra = (entries) => {
   return `<section class="cm-wire" id="cm-ultima-ora" aria-label="Ultima ora"><h2 class="cm-flow-wire-title">Ultima ora</h2><details class="cm-wire__details"><summary class="cm-wire__toggle" aria-controls="cm-flow-wire-list"><span class="cm-flow-more">Mostra tutte e 10</span><span class="cm-flow-less">Mostra meno</span><span class="cm-wire__chevron" aria-hidden="true"></span></summary></details><ol class="cm-wire__list" id="cm-flow-wire-list">${items}</ol><a class="cm-wire__more" href="/notizie/">Tutte le notizie</a></section>`;
 };
 
-const section = ({ category, lead, cards }) => {
+const titleRow = (entry, id, label) =>
+  `<a class="cm-topic-card cm-flow-title-row" data-category="${esc(id)}" href="${esc(entry.url)}"><span class="cm-topic-label meta cm-flow-visually-hidden" aria-hidden="true">${esc(label)}</span><h3 class="cm-topic-card__title">${esc(entry.title)}</h3></a>`;
+const section = ({ category, stories }) => {
+  if (!stories.length) return '';
   const label = category.id === 'film-tv' ? 'Film e serie TV' : category.label;
-  const belongs = (entry) => api.categoryFor(entry)?.id === category.id;
-  if (!belongs(lead)) return '';
-  const own = cards.filter(belongs);
-  if (!own.length) return '';
-  const small = own.map((entry) => (
-    `<a class="cm-topic-card" data-category="${esc(category.id)}" href="${esc(entry.url)}" style="--cm-category-color:${esc(category.color)}"><div class="cm-topic-card__body"><span class="cm-topic-label meta">${esc(label)}</span>${updateFlag(entry)}<h3 class="cm-topic-card__title">${esc(entry.title)}</h3>${picture(entry, false)}${time(entry)}</div></a>`
-  )).join('');
-  const archive = category.archive
-    ? `<a class="cm-topic-archive" href="${esc(category.archive)}">${esc(category.id === 'meteo' ? 'Tutte le notizie Meteo →' : `Tutte le notizie di ${label} →`)}</a>`
-    : '';
-  return `<section class="cm-topic-section" data-category="${esc(category.id)}" id="categoria-${esc(category.id)}" style="--cm-category-color:${esc(category.color)}">${largeCard(lead, label, category.color, false, category.id)}<div class="cm-topic-section__rail" data-for-category="${esc(category.id)}"><h2 class="cm-topic-section__title">${esc(label)}</h2><div class="cm-topic-grid">${small}</div>${archive}</div></section>`;
+  const archive = category.archive ? `<a class="cm-topic-archive" href="${esc(category.archive)}">Tutte le notizie di ${esc(label)} →</a>` : '';
+  return `<section class="cm-topic-section" data-category="${esc(category.id)}" id="categoria-${esc(category.id)}" style="--cm-category-color:${esc(category.color)}"><div class="cm-topic-section__rail" data-for-category="${esc(category.id)}"><h2 class="cm-topic-section__title">${esc(label)}</h2><div class="cm-topic-grid">${stories.map(e=>titleRow(e,category.id,label)).join('')}</div>${archive}</div></section>`;
 };
 
 const text = (value) => String(value || '')
@@ -140,25 +134,14 @@ const curiositaRail = () => {
     if (blocked.some((term) => signal.includes(term))) continue;
     const page = readRepoFile(href.replace(/^\//, ''));
     if (!page) continue;
-    const image = (page.match(/property="og:image" content="([^"]+)"/) || page.match(/<img[^>]+src="(\/assets\/images\/[^"]+)"/) || [])[1];
-    if (!image) continue;
-    const src = image.replace(/^https?:\/\/[^/]+/, '');
-    const sized = src.match(/^(.*)-1200\.webp$/);
-    const srcset = sized
-      ? [480, 800, 1200].filter((width) => fs.existsSync(path.join(root, sized[1].replace(/^\//, '') + '-' + width + '.webp')))
-        .map((width) => `${sized[1]}-${width}.webp ${width}w`).join(', ')
-      : '';
     const published = (page.match(/"datePublished"\s*:\s*"([^"]+)"/) || [])[1];
     const publishedAt = Date.parse(published || '');
-    found.push({ href, title, excerpt, src, srcset, publishedAt: Number.isFinite(publishedAt) ? publishedAt : 0, order: order++ });
+    found.push({ href, title, publishedAt: Number.isFinite(publishedAt) ? publishedAt : 0, order: order++ });
   }
   if (!found.length) return '';
-  // Protocollo curiosità v1.1.2: fino a 10 guide più recenti in homepage rail.
-  // A parità di orario resta davanti l'ultima inserita nell'indice.
-  const cards = found.sort((a, b) => b.publishedAt - a.publishedAt || b.order - a.order).slice(0, 10).map((entry) => (
-    `<a class="cm-topic-card" data-category="curiosita" href="${text(entry.href)}" style="--cm-category-color:#6333bd"><div class="cm-topic-card__body"><span class="cm-topic-label meta">Curiosità e approfondimenti</span><h3 class="cm-topic-card__title">${text(entry.title)}</h3><picture><img src="${text(entry.src)}"${entry.srcset ? ` srcset="${text(entry.srcset)}"` : ''} sizes="(max-width: 600px) 82vw, 320px" alt="${text(entry.title)}" width="800" height="533" loading="lazy" decoding="async"></picture><p class="cm-curiosita-card__excerpt">${text(entry.excerpt)}</p></div></a>`
-  )).join('');
-  return `<section class="cm-topic-section cm-curiosita-rail" data-category="curiosita" id="categoria-curiosita" data-cm-rail-max="10" style="--cm-category-color:#6333bd"><div class="cm-topic-section__rail" data-for-category="curiosita"><h2 class="cm-topic-section__title">Curiosità e approfondimenti</h2><div class="cm-topic-grid" aria-label="Carosello curiosità e approfondimenti">${cards}</div><a class="cm-topic-archive" href="/approfondimenti/">Tutti gli approfondimenti →</a></div></section>`;
+  const cards = found.sort((a,b)=>b.publishedAt-a.publishedAt || b.order-a.order).slice(0,3)
+    .map(entry=>titleRow({url:entry.href,title:entry.title},'curiosita','Curiosità e approfondimenti')).join('');
+  return `<section class="cm-topic-section cm-curiosita-rail" data-category="curiosita" id="categoria-curiosita" data-cm-rail-max="3" style="--cm-category-color:#6333bd"><div class="cm-topic-section__rail" data-for-category="curiosita"><h2 class="cm-topic-section__title">Curiosità e approfondimenti</h2><div class="cm-topic-grid">${cards}</div><a class="cm-topic-archive" href="/approfondimenti/">Tutti gli approfondimenti →</a></div></section>`;
 };
 
 const feed = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/home-feed-v210.json'), 'utf8'));
@@ -237,7 +220,6 @@ const vociDistinte = (voci) => {
   return scelte;
 };
 const items = vociDistinte((feed.items || []).map((entry) => ({ ...entry, ...(overrides[entry.url] || {}) })));
-const allocation = api.allocate(items, { now: new Date(), latestCapacity: 0, smallCardsPerCategory: 11 });
 const ranked = items.filter((entry) => {
   const date = api.firstPublished(entry);
   return date && date.getTime() <= Date.now();
@@ -246,11 +228,6 @@ const ranked = items.filter((entry) => {
   const right = api.firstPublished(a);
   return (left ? left.getTime() : 0) - (right ? right.getTime() : 0);
 });
-const sectionsHtml = allocation.sections.map(section).join('');
-const curiosita = curiositaRail();
-const orderedSections = sectionsHtml.includes('id="categoria-politica"')
-  ? sectionsHtml.replace(/(<section class="cm-topic-section" data-category="politica"[\s\S]*?<\/section>)/, '$1' + curiosita)
-  : sectionsHtml + curiosita;
 // In primo piano: le tre notizie di oggi più rilevanti per chi vive in Italia
 // (meteo nazionale, prezzi, servizi o scadenze). Non sono le ultime tre pubblicate
 // e non si ripetono in Ultima ora.
@@ -294,9 +271,12 @@ diOggiItalia.forEach((entry) => {
   primoPianoItalia.push(entry);
   giaScelte.add(entry.url);
 });
-const newestFeatured = primoPianoItalia.length >= 3 ? primoPianoItalia.slice(0, 3) : ranked.slice(0, 3);
-const featuredUrls = new Set(newestFeatured.map((entry) => entry.url));
-const wireEntries = ranked.filter((entry) => !featuredUrls.has(entry.url));
+const edition = choices.compose(api, ranked, new Date(), primoPianoItalia[0]);
+const sectionsHtml = edition.sections.map(section).join('');
+const curiosita = curiositaRail();
+const orderedSections = sectionsHtml.includes('id="categoria-politica"')
+  ? sectionsHtml.replace(/(<section class="cm-topic-section" data-category="politica"[\s\S]*?<\/section>)/, '$1' + curiosita)
+  : sectionsHtml + curiosita;
 const homePath = path.join(root, 'index.html');
 let home = fs.readFileSync(homePath, 'utf8');
 const services = home.match(/<template id="cm-flow-services">([\s\S]*?)<\/template>/)?.[1] || '';
@@ -308,7 +288,7 @@ const withExistingAds = ['politica', 'tecnologia', 'ambiente'].reduce((markup, k
   const existing = home.match(new RegExp(after.source + '(' + ad + ')'))?.[1] || '';
   return existing ? markup.replace(after, (sectionHtml) => sectionHtml + existing) : markup;
 }, orderedSections);
-const html = `<div class="cm-home-editorial" id="cm-home-editorial-v504" data-static="ready"><div class="cm-flow-opening"><h2 class="cm-flow-opening-title">In primo piano</h2>${carousel(newestFeatured)}${ultimaOra(wireEntries)}</div><!-- cm-flow-ad-opening -->${openingAd}${services}${withExistingAds}</div>`;
+const html = `<div class="cm-home-editorial" id="cm-home-editorial-v504" data-static="ready"><div class="cm-flow-opening"><h2 class="cm-flow-opening-title">In primo piano</h2>${carousel(edition)}${ultimaOra(edition.wire)}</div><!-- cm-flow-ad-opening -->${openingAd}${services}${withExistingAds}</div>`;
 const block = `<!-- cm-home-editorial:start -->${html}<!-- cm-home-editorial:end -->`;
 if (home.includes('<!-- cm-home-editorial:start -->')) {
   home = home.replace(/<!-- cm-home-editorial:start -->[\s\S]*?<!-- cm-home-editorial:end -->/, block);
@@ -317,7 +297,7 @@ if (home.includes('<!-- cm-home-editorial:start -->')) {
   if (!home.includes(mark)) throw new Error('card in evidenza non trovata');
   home = home.replace(mark, block + mark);
 }
-const hero = newestFeatured[0];
+const hero = edition.lead;
 const placed = home.match(/<!-- cm-home-editorial:start -->[\s\S]*?<!-- cm-home-editorial:end -->/);
 if (placed) {
   home = home.replace(placed[0], '');
@@ -348,13 +328,6 @@ home = home.replace(/<section class="cm-wire" id="cm-ultima-ora"/g, (match) => {
     ? match
     : '<section class="cm-wire cm-wire--legacy" id="cm-ultima-ora-legacy"';
 });
-const tickerItems = ranked.filter((entry) => entry.url && entry.title).slice(0, 10);
-const tickerLink = (entry, hidden) => `<a class="ticker-news" href="${esc(entry.url)}"${hidden ? ' tabindex="-1"' : ''}>${esc(entry.title)}</a>`;
-const tickerNav = `<nav aria-label="Ultime notizie in diretta" class="ticker-track">${tickerItems.map((entry) => tickerLink(entry, false)).join('')}</nav>`;
-const tickerCopy = `<div aria-hidden="true" class="ticker-track" inert="">${tickerItems.map((entry) => tickerLink(entry, true)).join('')}</div>`;
-if (!home.includes('class="ticker-track"')) throw new Error('ticker assente');
-home = home.replace(/<nav aria-label="Ultime notizie in diretta" class="ticker-track">[\s\S]*?<\/nav>/, tickerNav);
-home = home.replace(/<div aria-hidden="true" class="ticker-track" inert="">[\s\S]*?<\/div>/, tickerCopy);
 const UPDATE_FLAG_CSS = '<style id="cm-update-flag-css">.cm-update-flag{position:absolute;top:14px;right:14px;z-index:4;display:inline-flex;align-items:center;width:max-content;margin:0;padding:5px 10px;border-radius:999px;background:#B91C1C;color:#fff;font-size:.68rem;font-weight:800;letter-spacing:.09em;line-height:1;text-transform:uppercase;box-shadow:0 8px 18px rgba(120,15,15,.28)}.cm-topic-lead,.cm-topic-card,.cm-wire__item{position:relative}.cm-topic-lead .cm-update-flag{top:22px;right:28px}.cm-featured-carousel .cm-update-flag{top:24px;right:34px}.cm-wire__title:has(.cm-update-flag){display:block;padding-right:132px}.cm-wire__item .cm-update-flag{top:12px;right:8px}@media(max-width:700px){.cm-update-flag{top:10px;right:10px;font-size:.62rem;padding:4px 8px}.cm-topic-lead .cm-update-flag,.cm-featured-carousel .cm-update-flag{top:16px;right:16px}.cm-wire__title:has(.cm-update-flag){padding-right:112px}}</style>';
 if (home.includes('id="cm-update-flag-css"')) {
   home = home.replace(/<style id="cm-update-flag-css">[\s\S]*?<\/style>/, UPDATE_FLAG_CSS);
@@ -372,4 +345,4 @@ const recent = {
   items: slim.slice(0, 80).map((entry) => Object.fromEntries(recentKeys.map((key) => [key, entry[key] || ''])))
 };
 fs.writeFileSync(path.join(root, 'assets/data/home-feed-recent.json'), JSON.stringify(recent) + '\n');
-console.log('home-editorial', hero && hero.title, allocation.sections.length);
+console.log('home-editorial', hero && hero.title, edition.sections.length);
