@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-28T05:58:45+01:00",
+  "lastVerified": "2026-11-28T06:06:43+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -5637,6 +5637,30 @@
       "end": "2027-01-30T23:59:59+01:00"
     },
     {
+      "id": "visita-al-nuovo-allestimento-del-laboratorio-di-restauro-firenze-2026-11-28",
+      "artist": "Visita al nuovo allestimento del laboratorio di restauro",
+      "tour": "",
+      "start": "2026-11-28T10:30:00+01:00",
+      "city": "Firenze",
+      "province": "FI",
+      "region": "Toscana",
+      "venue": "Archivio di Stato di Firenze",
+      "genre": "Visita guidata",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "free",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://archiviodistatofirenze.cultura.gov.it/asfi/fileadmin/risorse/allegati_eventi/08-DEP-Riemergere-mostra.pdf",
+      "article": {
+        "url": "/notizie/firenze-archivio-stato-restauro-ri-emergere-28-novembre-2026.html",
+        "title": "Firenze, l’Archivio di Stato mostra il nuovo allestimento del laboratorio di restauro",
+        "description": "Due visite su prenotazione il 28 novembre, alle 10:30 e alle 12, nel programma dedicato ai sessant’anni dall’alluvione.",
+        "image": "/assets/images/editorial-auto/firenze-archivio-stato-restauro-ri-emergere-28-novembre-2026-v1696-1200.webp"
+      },
+      "lastVerified": "2026-11-28T06:06:43+01:00"
+    },
+    {
       "id": "livorno-maredivino-digusto-2026-11-28",
       "artist": "MareDiVino e DiGusto",
       "tour": "Mostra-mercato: pubblico 28–29 novembre, operatori il 30",
@@ -5661,6 +5685,30 @@
       "lastVerified": "2026-11-28T05:38:47+01:00",
       "end": "2026-11-30T16:00:00+01:00",
       "ticketUrl": "https://www.ticketsms.it/collection/Mare-DiVino-e-DiGusto"
+    },
+    {
+      "id": "suoniamo-insieme-divinamente-venezia-2026-11-28",
+      "artist": "Suoniamo insieme divinamente",
+      "tour": "",
+      "start": "2026-11-28T11:00:00+01:00",
+      "city": "Venezia",
+      "province": "VE",
+      "region": "Veneto",
+      "venue": "Museo archeologico nazionale di Venezia",
+      "genre": "Laboratorio",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://archeologicovenezia.cultura.gov.it/events/suoniamo-insieme-divinamente-laboratorio-didattico/",
+      "article": {
+        "url": "/notizie/venezia-archeologico-strumenti-musicali-antica-grecia-28-novembre-2026.html",
+        "title": "Venezia, al Museo Archeologico i bambini costruiscono uno strumento ispirato alla Grecia antica",
+        "description": "Laboratorio il 28 novembre alle 11, dai sei anni, con un adulto accompagnatore e prenotazione obbligatoria.",
+        "image": "/assets/images/editorial-auto/venezia-archeologico-strumenti-musicali-antica-grecia-28-novembre-2026-v1696-1200.webp"
+      },
+      "lastVerified": "2026-11-28T06:06:43+01:00"
     },
     {
       "id": "arcadia-frammenti-di-paesaggio-inaugurazione-tivoli-2026-11-28",
@@ -5880,6 +5928,78 @@
       }
     },
     {
+      "id": "nuova-barberia-carloni-siena-2026-11-28",
+      "artist": "Nuova Barberia Carloni",
+      "tour": "",
+      "start": "2026-11-28T16:00:00+01:00",
+      "city": "Siena",
+      "province": "SI",
+      "region": "Toscana",
+      "venue": "Teatro dei Rozzi",
+      "genre": "Teatro",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://www.comune.siena.it/novita/siena-incanta-si-accende-il-natale-tra-arte-luci-e-spettacoli",
+      "article": {
+        "url": "/notizie/siena-nuova-barberia-carloni-teatro-dei-rozzi-28-novembre-2026.html",
+        "title": "Siena, la rassegna Cercasogni si apre con i barbieri-clown di Teatro Necessario",
+        "description": "Due repliche di Nuova Barberia Carloni al Teatro dei Rozzi sabato 28 novembre, alle 16 e alle 18.",
+        "image": "/assets/images/editorial-auto/siena-nuova-barberia-carloni-teatro-dei-rozzi-28-novembre-2026-v1696-1200.webp"
+      },
+      "lastVerified": "2026-11-28T06:06:43+01:00"
+    },
+    {
+      "id": "i-suoni-della-memoria-castelvetro-di-modena-2026-11-28",
+      "artist": "I suoni della memoria",
+      "tour": "",
+      "start": "2026-11-28T16:30:00+01:00",
+      "city": "Castelvetro di Modena",
+      "province": "MO",
+      "region": "Emilia-Romagna",
+      "venue": "Museo Rosso Graspa",
+      "genre": "Laboratorio sonoro",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://www.visitcastelvetro.it/wp-content/uploads/2026/11/10X16-RISONANZE-CARTOLIBRO-TUTTO.pdf",
+      "article": {
+        "url": "/notizie/castelvetro-risonanze-video-cucina-memoria-levizzano-28-novembre-2026.html",
+        "title": "A Levizzano Rangone i film di famiglia ritrovano il suono con un flauto dal vivo",
+        "description": "Il 28 novembre Risonanze abbina filmati d’archivio e musica al castello. Nel pomeriggio, un laboratorio sonoro al Museo Rosso Graspa.",
+        "image": "/assets/images/editorial-auto/castelvetro-risonanze-video-cucina-memoria-levizzano-28-novembre-2026-v1696-1200.webp"
+      },
+      "lastVerified": "2026-11-28T06:06:43+01:00"
+    },
+    {
+      "id": "il-giardiniere-dei-sogni-milano-2026-11-28",
+      "artist": "Il Giardiniere dei sogni",
+      "tour": "",
+      "start": "2026-11-28T16:30:00+01:00",
+      "city": "Milano",
+      "province": "MI",
+      "region": "Lombardia",
+      "venue": "Teatro Munari",
+      "genre": "Teatro",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://www.teatrodelburatto.com/event-details/ilgiardinieredeisogni-1-1",
+      "article": {
+        "url": "/notizie/milano-teatro-munari-giardiniere-dei-sogni-28-novembre-2026.html",
+        "title": "Milano, al Teatro Munari le pagine diventano alberi nel Giardiniere dei sogni",
+        "description": "Il Teatro del Buratto porta in scena il 28 novembre uno spettacolo di oggetti e videoproiezioni, consigliato dai tre anni.",
+        "image": "/assets/images/editorial-auto/milano-teatro-munari-giardiniere-dei-sogni-28-novembre-2026-v1696-1200.webp"
+      },
+      "lastVerified": "2026-11-28T06:06:43+01:00"
+    },
+    {
       "title": "Pinocchio. Visioni illustrate per il bicentenario di Collodi",
       "artist": "Associazione Musei d’Ossola",
       "city": "Domodossola",
@@ -5981,6 +6101,30 @@
       "verifiedAt": "2026-11-27T19:34:10+01:00"
     },
     {
+      "id": "fabernoster-omaggio-a-fabrizio-de-andre-ferrara-2026-11-28",
+      "artist": "FaberNoster, omaggio a Fabrizio De André",
+      "tour": "",
+      "start": "2026-11-28T18:00:00+01:00",
+      "city": "Ferrara",
+      "province": "FE",
+      "region": "Emilia-Romagna",
+      "venue": "Sala Estense",
+      "genre": "Musica",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://www.ferrarasummerfestival.it/28-11-omaggio-a-fabrizio-de-andre-fabernoster-live/",
+      "article": {
+        "url": "/notizie/ferrara-fabernoster-fabrizio-de-andre-doppio-concerto-28-novembre-2026.html",
+        "title": "Ferrara, doppio concerto dei FaberNoster per l’omaggio a Fabrizio De André",
+        "description": "Oltre alla data delle 18, il 28 novembre la Sala Estense ospita una seconda esibizione alle 21.",
+        "image": "/assets/images/editorial-auto/ferrara-fabernoster-fabrizio-de-andre-doppio-concerto-28-novembre-2026-v1696-1200.webp"
+      },
+      "lastVerified": "2026-11-28T06:06:43+01:00"
+    },
+    {
       "id": "jan-lisiecki-ed-enrico-calesso-al-teatro-verdi-trieste-2026-11-28",
       "artist": "Jan Lisiecki ed Enrico Calesso al Teatro Verdi",
       "tour": "",
@@ -6027,6 +6171,30 @@
         "image": "/assets/images/editorial-auto/gromo-multipla-collezione-treccani-palazzo-milesi-28-novembre-2026-v1695-1200.webp"
       },
       "lastVerified": "2026-11-28T05:58:45+01:00"
+    },
+    {
+      "id": "saran-cotti-castelvetro-di-modena-2026-11-28",
+      "artist": "Saran cotti?",
+      "tour": "",
+      "start": "2026-11-28T18:00:00+01:00",
+      "city": "Castelvetro di Modena",
+      "province": "MO",
+      "region": "Emilia-Romagna",
+      "venue": "Castello di Levizzano Rangone",
+      "genre": "Musica e cinema",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://www.visitcastelvetro.it/wp-content/uploads/2026/11/10X16-RISONANZE-CARTOLIBRO-TUTTO.pdf",
+      "article": {
+        "url": "/notizie/castelvetro-risonanze-video-cucina-memoria-levizzano-28-novembre-2026.html",
+        "title": "A Levizzano Rangone i film di famiglia ritrovano il suono con un flauto dal vivo",
+        "description": "Il 28 novembre Risonanze abbina filmati d’archivio e musica al castello. Nel pomeriggio, un laboratorio sonoro al Museo Rosso Graspa.",
+        "image": "/assets/images/editorial-auto/castelvetro-risonanze-video-cucina-memoria-levizzano-28-novembre-2026-v1696-1200.webp"
+      },
+      "lastVerified": "2026-11-28T06:06:43+01:00"
     },
     {
       "id": "davide-boosta-dileo-pianorama-torino-2026-11-28",
@@ -6310,6 +6478,54 @@
       "article": null
     },
     {
+      "id": "concerto-di-santa-cecilia-bra-2026-11-28",
+      "artist": "Concerto di Santa Cecilia",
+      "tour": "",
+      "start": "2026-11-28T21:00:00+01:00",
+      "city": "Bra",
+      "province": "CN",
+      "region": "Piemonte",
+      "venue": "Teatro Politeama Boglione",
+      "genre": "Musica",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "free",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://comune.bra.cn.it/index.php/it/eventi/musica-maestro-al-teatro-politeama-di-bra-il-concerto-di-santa-cecili",
+      "article": {
+        "url": "/notizie/bra-concerto-santa-cecilia-politeama-capolupo-28-novembre-2026.html",
+        "title": "Bra, al Politeama la Banda Verdi apre la stagione musicale con Antonio Capolupo",
+        "description": "Concerto di Santa Cecilia il 28 novembre alle 21, con ingresso gratuito. In programma Prokofiev, Rossini e musiche da Shéhérazade.",
+        "image": "/assets/images/editorial-auto/bra-concerto-santa-cecilia-politeama-capolupo-28-novembre-2026-v1696-1200.webp"
+      },
+      "lastVerified": "2026-11-28T06:06:43+01:00"
+    },
+    {
+      "id": "io-me-la-canto-e-me-la-suono-palermo-2026-11-28",
+      "artist": "Io me la canto e me la suono",
+      "tour": "",
+      "start": "2026-11-28T21:00:00+01:00",
+      "city": "Palermo",
+      "province": "PA",
+      "region": "Sicilia",
+      "venue": "Teatro Ditirammu – Bottega 5, Cantieri Culturali alla Zisa",
+      "genre": "Teatro e musica",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/eventi/gli-appuntamenti-di-novembre-della-stagione-cu-mancia-fa-muddichi/",
+      "article": {
+        "url": "/notizie/palermo-noa-flandina-io-me-la-canto-zisa-28-novembre-2026.html",
+        "title": "Palermo, Noa Flandina porta alla Zisa un monologo tra canzoni e disavventure",
+        "description": "Io me la canto e me la suono va in scena il 28 novembre alle 21 e il 29 alle 18:30. Biglietto a 10 euro.",
+        "image": "/assets/images/editorial-auto/palermo-noa-flandina-io-me-la-canto-zisa-28-novembre-2026-v1696-1200.webp"
+      },
+      "lastVerified": "2026-11-28T06:06:43+01:00"
+    },
+    {
       "id": "madame-nonantola-2026-11-28",
       "artist": "Madame",
       "tour": "Disincanto Tour 2026",
@@ -6473,6 +6689,54 @@
       "lastVerified": "2026-11-24T00:18:00+01:00"
     },
     {
+      "id": "melodie-dautunno-xvi-raduno-degli-zampognari-moscufo-2026-11-29",
+      "artist": "Melodie d’Autunno, XVI Raduno degli Zampognari",
+      "tour": "",
+      "start": "2026-11-29T00:00:00+01:00",
+      "city": "Moscufo",
+      "province": "",
+      "region": "Abruzzo",
+      "venue": "Centro storico",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": false,
+      "featured": false,
+      "sourceUrl": "https://www.fontevecchia.org/it/eventi-news-56/melodie-dautunno-2026-1533",
+      "article": {
+        "url": "/notizie/moscufo-deviazione-bus-circonvallazione-sud-29-novembre-2026.html",
+        "title": "Moscufo, domenica 29 novembre i bus TUA passano sulla Circonvallazione Sud",
+        "description": "Dalle 8 alle 24 cambiano le corse in entrata e in uscita dal paese. Chiudono quattro strade e piazze del centro per il raduno degli zampognari.",
+        "image": "/assets/images/editorial-auto/moscufo-deviazione-bus-circonvallazione-sud-29-novembre-2026-v1696-1200.webp"
+      },
+      "lastVerified": "2026-11-28T06:06:43+01:00"
+    },
+    {
+      "id": "montale-sotto-natale-montale-2026-11-29",
+      "artist": "Montale sotto Natale",
+      "tour": "",
+      "start": "2026-11-29T00:00:00+01:00",
+      "city": "Montale",
+      "province": "",
+      "region": "Toscana",
+      "venue": "Piazza Matteotti e vie limitrofe",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": false,
+      "featured": false,
+      "sourceUrl": "https://www.comune.montale.pt.it/notizie/Modifiche-temporanee-della-circolazione-zona-centro--domenica-29-novembre-2026--per--Montale-sotto-Natale--2026.html",
+      "article": {
+        "url": "/notizie/montale-modifiche-viabilita-sotto-natale-29-novembre-2026.html",
+        "title": "Montale, domenica 29 novembre cambia la viabilità in piazza Matteotti e nelle vie vicine",
+        "description": "Divieti di transito dalle 9 alle 19 per Montale sotto Natale. In caso di maltempo la manifestazione è prevista la domenica successiva.",
+        "image": "/assets/images/editorial-auto/montale-modifiche-viabilita-sotto-natale-29-novembre-2026-v1696-1200.webp"
+      },
+      "lastVerified": "2026-11-28T06:06:43+01:00"
+    },
+    {
       "id": "multipla-edizioni-darte-contemporanea-gromo-2026-11-29",
       "artist": "Multipla, edizioni d’arte contemporanea",
       "tour": "",
@@ -6570,6 +6834,30 @@
       }
     },
     {
+      "id": "il-sudario-dei-nomi-carbonia-cammino-per-la-pace-carbonia-2026-11-29",
+      "artist": "Il Sudario dei Nomi, Carbonia cammino per la pace",
+      "tour": "",
+      "start": "2026-11-29T10:30:00+01:00",
+      "city": "Carbonia",
+      "province": "",
+      "region": "Sardegna",
+      "venue": "Piazza Roma",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://sardegna.piazzainfesta.it/carbonia/il-sudario-dei-nomi-carbonia-cammino-per-la-pace-163023",
+      "article": {
+        "url": "/notizie/carbonia-chiusura-strade-camminata-pace-29-novembre-2026.html",
+        "title": "Carbonia, domenica 29 novembre chiusure a tratti in centro durante la camminata per la pace",
+        "description": "L’ordinanza comunale riguarda il passaggio del corteo. Ritrovo in piazza Roma e partenza prevista alle 11.",
+        "image": "/assets/images/editorial-auto/carbonia-chiusura-strade-camminata-pace-29-novembre-2026-v1696-1200.webp"
+      },
+      "lastVerified": "2026-11-28T06:06:43+01:00"
+    },
+    {
       "id": "visita-al-cantiere-del-museo-nazionale-della-resistenza-milano-2026-11-29",
       "artist": "Visita al cantiere del Museo nazionale della Resistenza",
       "city": "Milano",
@@ -6642,6 +6930,30 @@
       }
     },
     {
+      "id": "ravennatorres-ravenna-2026-11-29",
+      "artist": "Ravenna–Torres",
+      "tour": "",
+      "start": "2026-11-29T14:30:00+01:00",
+      "city": "Ravenna",
+      "province": "",
+      "region": "Emilia-Romagna",
+      "venue": "Stadio Bruno Benelli",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://comune.ravenna.it/novita/comunicato-stampa/partita-ravenna-f-c-torres-di-domenica-29-novembre-le-possibili-modifiche-alla-viabilita/",
+      "article": {
+        "url": "/notizie/ravenna-possibili-divieti-stadio-torres-29-novembre-2026.html",
+        "title": "Ravenna, possibili divieti di sosta e transito attorno allo stadio domenica 29 novembre",
+        "description": "Per Ravenna–Torres il Comune indica due fasce di possibili restrizioni. I provvedimenti stradali scatteranno solo se necessari.",
+        "image": "/assets/images/editorial-auto/ravenna-possibili-divieti-stadio-torres-29-novembre-2026-v1696-1200.webp"
+      },
+      "lastVerified": "2026-11-28T06:06:43+01:00"
+    },
+    {
       "id": "il-pendio-bianco-festival-del-libro-e-della-cultura-sportiva-treviso-2026-11-29",
       "artist": "Il pendio bianco – Festival del Libro e della Cultura Sportiva",
       "city": "Treviso",
@@ -6688,6 +7000,30 @@
         "image": "/assets/images/editorial-auto/trieste-verdi-lisiecki-beethoven-calesso-28-29-novembre-2026-v1695-1200.webp"
       },
       "lastVerified": "2026-11-28T05:58:45+01:00"
+    },
+    {
+      "id": "io-me-la-canto-e-me-la-suono-palermo-2026-11-29",
+      "artist": "Io me la canto e me la suono",
+      "tour": "",
+      "start": "2026-11-29T18:30:00+01:00",
+      "city": "Palermo",
+      "province": "PA",
+      "region": "Sicilia",
+      "venue": "Teatro Ditirammu – Bottega 5, Cantieri Culturali alla Zisa",
+      "genre": "Teatro e musica",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://www.comune.palermo.it/vivere-il-comune/eventi/gli-appuntamenti-di-novembre-della-stagione-cu-mancia-fa-muddichi/",
+      "article": {
+        "url": "/notizie/palermo-noa-flandina-io-me-la-canto-zisa-28-novembre-2026.html",
+        "title": "Palermo, Noa Flandina porta alla Zisa un monologo tra canzoni e disavventure",
+        "description": "Io me la canto e me la suono va in scena il 28 novembre alle 21 e il 29 alle 18:30. Biglietto a 10 euro.",
+        "image": "/assets/images/editorial-auto/palermo-noa-flandina-io-me-la-canto-zisa-28-novembre-2026-v1696-1200.webp"
+      },
+      "lastVerified": "2026-11-28T06:06:43+01:00"
     },
     {
       "name": "Torino Street Cinema Short Film #1",
