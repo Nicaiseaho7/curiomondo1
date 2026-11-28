@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-28T05:38:47+01:00",
+  "lastVerified": "2026-11-28T05:58:45+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -5287,6 +5287,31 @@
       "article": null
     },
     {
+      "id": "festeggiamenti-per-santandrea-apostolo-labico-2026-11-28",
+      "artist": "Festeggiamenti per Sant’Andrea Apostolo",
+      "tour": "",
+      "start": "2026-11-28T00:00:00+01:00",
+      "city": "Labico",
+      "province": "",
+      "region": "Lazio",
+      "venue": "Centro di Labico",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": false,
+      "featured": false,
+      "sourceUrl": "https://www.comune.labico.rm.it/it/news/2078206",
+      "article": {
+        "url": "/notizie/labico-viabilita-sant-andrea-28-30-novembre-2026.html",
+        "title": "Labico, viabilità modificata per Sant'Andrea dal 28 al 30 novembre",
+        "description": "Stop alla sosta e al transito in piazza della Chiesa e nel parcheggio dello Spallato nel fine settimana; lunedì mattina nuove restrizioni lungo il percorso della processione.",
+        "image": "/assets/images/editorial-auto/labico-viabilita-sant-andrea-28-30-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00",
+      "end": "2026-11-30T23:59:59+01:00"
+    },
+    {
       "id": "forte-bard-comedy-wildlife-2026-11-28",
       "artist": "The Comedy Wildlife",
       "tour": "Fotografie naturalistiche",
@@ -5339,6 +5364,81 @@
           "image": "/assets/images/editorial-auto/lanciano-viabilita-sport-center-28-29-novembre-2026-v1694-1200.webp"
         }
       ]
+    },
+    {
+      "id": "santa-caterina-da-siena-estasi-e-ardore-siena-2026-11-28",
+      "artist": "Santa Caterina da Siena: Estasi e ardore",
+      "tour": "",
+      "start": "2026-11-28T00:00:00+01:00",
+      "city": "Siena",
+      "province": "SI",
+      "region": "Toscana",
+      "venue": "Santa Maria della Scala",
+      "genre": "Mostra",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": false,
+      "featured": false,
+      "sourceUrl": "https://www.comune.siena.it/novita/al-santa-maria-della-scala-apre-la-mostra-santa-caterina-da-siena-estasi-e-ardore",
+      "article": {
+        "url": "/notizie/siena-santa-caterina-estasi-ardore-santa-maria-scala-28-novembre-2026.html",
+        "title": "Siena, oltre sessanta opere ricostruiscono l’immagine di santa Caterina",
+        "description": "Estasi e ardore apre al pubblico il 28 novembre al Santa Maria della Scala. Il percorso prosegue in altri luoghi della città.",
+        "image": "/assets/images/editorial-auto/siena-santa-caterina-estasi-ardore-santa-maria-scala-28-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00",
+      "end": "2027-03-30T23:59:59+01:00"
+    },
+    {
+      "id": "scorci-di-giappone-meiji-legnano-2026-11-28",
+      "artist": "Scorci di Giappone Meiji",
+      "tour": "",
+      "start": "2026-11-28T00:00:00+01:00",
+      "city": "Legnano",
+      "province": "MI",
+      "region": "Lombardia",
+      "venue": "Palazzo Leone da Perego",
+      "genre": "Mostra",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": false,
+      "featured": false,
+      "sourceUrl": "https://comune.legnano.mi.it/eventi/3685312/scorci-giappone-meiji-collezione-giuseppe",
+      "article": {
+        "url": "/notizie/legnano-giappone-meiji-collezione-paganini-28-novembre-2026.html",
+        "title": "Legnano espone per la prima volta la collezione giapponese di Giuseppe Paganini",
+        "description": "Al Palazzo Leone da Perego apre un percorso in cinque sezioni tra lacche, intarsi, avori e ceramiche.",
+        "image": "/assets/images/editorial-auto/legnano-giappone-meiji-collezione-paganini-28-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00",
+      "end": "2027-01-31T23:59:59+01:00"
+    },
+    {
+      "id": "visione-in-transito-per-adriano-olivetti-venezia-2026-11-28",
+      "artist": "Visione in transito. Per Adriano Olivetti",
+      "tour": "",
+      "start": "2026-11-28T00:00:00+01:00",
+      "city": "Venezia",
+      "province": "VE",
+      "region": "Veneto",
+      "venue": "Negozio Olivetti",
+      "genre": "Arte e design",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": false,
+      "featured": false,
+      "sourceUrl": "https://pianoolivetti.cultura.gov.it/news/il-viaggio-pensiero-e-forma-alla-sua-terza-tappa-a-venezia",
+      "article": {
+        "url": "/notizie/venezia-marciana-carlo-scarpa-design-olivetti-28-novembre-2026.html",
+        "title": "A Venezia l’eredità di Olivetti passa dal negozio progettato da Carlo Scarpa",
+        "description": "Terza tappa di Pensiero e Forma alla Biblioteca Marciana. In piazza San Marco un’opera di Annalaura di Luggo fino al 4 dicembre.",
+        "image": "/assets/images/editorial-auto/venezia-marciana-carlo-scarpa-design-olivetti-28-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00",
+      "end": "2026-12-04T23:59:59+01:00"
     },
     {
       "id": "ferrara-visita-impianti-hera-2026-11-28",
@@ -5464,6 +5564,30 @@
       }
     },
     {
+      "id": "il-viaggio-pensiero-e-forma-terza-tappa-venezia-2026-11-28",
+      "artist": "Il Viaggio – Pensiero e Forma, terza tappa",
+      "tour": "",
+      "start": "2026-11-28T10:00:00+01:00",
+      "city": "Venezia",
+      "province": "VE",
+      "region": "Veneto",
+      "venue": "Biblioteca Nazionale Marciana",
+      "genre": "Cultura e design",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://pianoolivetti.cultura.gov.it/news/il-viaggio-pensiero-e-forma-alla-sua-terza-tappa-a-venezia",
+      "article": {
+        "url": "/notizie/venezia-marciana-carlo-scarpa-design-olivetti-28-novembre-2026.html",
+        "title": "A Venezia l’eredità di Olivetti passa dal negozio progettato da Carlo Scarpa",
+        "description": "Terza tappa di Pensiero e Forma alla Biblioteca Marciana. In piazza San Marco un’opera di Annalaura di Luggo fino al 4 dicembre.",
+        "image": "/assets/images/editorial-auto/venezia-marciana-carlo-scarpa-design-olivetti-28-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00"
+    },
+    {
       "id": "integrare-comunita-e-servizi-tornolo-2026-11-28",
       "artist": "Integrare comunità e servizi",
       "start": "2026-11-28T10:00:00+01:00",
@@ -5486,6 +5610,31 @@
         "description": "Il progetto coinvolge Bedonia, Compiano e Tornolo. Primo incontro pubblico sabato 28 novembre a Tarsogno per raccogliere le priorità dei residenti.",
         "image": "/assets/images/editorial-auto/alta-val-taro-welfare-prossimita-27-novembre-2026-v1674-1200.webp"
       }
+    },
+    {
+      "id": "n78e15-svalbard-napoli-2026-11-28",
+      "artist": "N78°E15° Svalbard",
+      "tour": "",
+      "start": "2026-11-28T10:30:00+01:00",
+      "city": "Napoli",
+      "province": "NA",
+      "region": "Campania",
+      "venue": "Real Museo Mineralogico",
+      "genre": "Mostra fotografica",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://www.unina.it/en/w/-n78%C2%B0e15%C2%B0-svalbard-the-coordinates-of-a-frozen-world-?redirect=%2Fen%2Fhome",
+      "article": {
+        "url": "/notizie/napoli-svalbard-roberta-pagano-museo-mineralogico-28-novembre-2026.html",
+        "title": "Napoli, l’Artico fotografato da Roberta Pagano arriva al Museo Mineralogico",
+        "description": "Una trentina di immagini di grande formato dedicate alle Svalbard, dal 28 novembre al 30 gennaio.",
+        "image": "/assets/images/editorial-auto/napoli-svalbard-roberta-pagano-museo-mineralogico-28-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00",
+      "end": "2027-01-30T23:59:59+01:00"
     },
     {
       "id": "livorno-maredivino-digusto-2026-11-28",
@@ -5512,6 +5661,30 @@
       "lastVerified": "2026-11-28T05:38:47+01:00",
       "end": "2026-11-30T16:00:00+01:00",
       "ticketUrl": "https://www.ticketsms.it/collection/Mare-DiVino-e-DiGusto"
+    },
+    {
+      "id": "arcadia-frammenti-di-paesaggio-inaugurazione-tivoli-2026-11-28",
+      "artist": "Arcadia. Frammenti di paesaggio, inaugurazione",
+      "tour": "",
+      "start": "2026-11-28T11:30:00+01:00",
+      "city": "Tivoli",
+      "province": "RM",
+      "region": "Lazio",
+      "venue": "Villa d’Este",
+      "genre": "Mostra fotografica",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://cultura.gov.it/index.php/evento/arcadia-frammenti-di-paesaggio-a-villa-deste-la-fotografia-racconta-lincontro-tra-natura-storia-e-paesaggio-con-le-opere-di-paola-de-pietri-francesco-galli-ed-erola-arcalis",
+      "article": {
+        "url": "/notizie/tivoli-villa-este-mostra-arcadia-fotografia-28-novembre-2026.html",
+        "title": "A Villa d’Este la fotografia racconta giardini, acqua e rovine del Lazio",
+        "description": "La mostra Arcadia di Paola De Pietri, Francesco Galli ed Erola Arcalís inaugura sabato 28 novembre a Tivoli.",
+        "image": "/assets/images/editorial-auto/tivoli-villa-este-mostra-arcadia-fotografia-28-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00"
     },
     {
       "id": "scopriamo-le-collezioni-del-maf-salvati-dal-fango-e-la-storia-in-tasca-firenze-2026-11-28",
@@ -5609,6 +5782,30 @@
         "image": "/assets/images/editorial-auto/marzabotto-fargo-cerchio-ruralis-28-novembre-2026-v1659-1200.webp",
         "description": "Sabato 28 novembre pomeriggio con l’artista, una passeggiata se il meteo lo consente e laboratori di collage e serigrafia."
       }
+    },
+    {
+      "id": "canti-sotto-lalbero-prato-2026-11-28",
+      "artist": "Canti sotto l’albero",
+      "tour": "",
+      "start": "2026-11-28T15:30:00+01:00",
+      "city": "Prato",
+      "province": "",
+      "region": "Toscana",
+      "venue": "Piazza del Comune",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://gestionaletempolibero.comune.prato.it/event/be62a660-df52-11f1-830a-17d9dedf59f1/appointment/fbe150a0-df52-11f1-8b98-49cf4f36a497",
+      "article": {
+        "url": "/notizie/prato-divieti-sosta-accensione-albero-28-novembre-2026.html",
+        "title": "Prato, due aree di sosta riservate ai soccorsi per l'accensione dell'albero",
+        "description": "Dalle 14 di sabato scattano restrizioni in via Cesare Guasti e piazza del Pesce. I cori delle primarie si esibiscono dalle 15.30.",
+        "image": "/assets/images/editorial-auto/prato-divieti-sosta-accensione-albero-28-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00"
     },
     {
       "id": "pierino-e-il-lupo-in-famiglia-torino-2026-11-28",
@@ -5734,6 +5931,30 @@
       "price": "Sottoscrizione 5 euro, più 2 euro per la tessera annuale"
     },
     {
+      "id": "accensione-dellalbero-di-natale-rho-2026-11-28",
+      "artist": "Accensione dell’albero di Natale",
+      "tour": "",
+      "start": "2026-11-28T17:30:00+01:00",
+      "city": "Rho",
+      "province": "",
+      "region": "Lombardia",
+      "venue": "Piazza San Vittore",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://www.comune.rho.mi.it/it-it/novita/avvisi/2026/comunicati-stampa/natale-2026-le-iniziative-comunali-si-aprono-con-l-accensione-dell-albero-sabato-28-novembre-408955-1-e53ccbd585157ac9d953130ec16bd48c",
+      "article": {
+        "url": "/notizie/rho-piazza-san-vittore-chiusa-28-novembre-2026.html",
+        "title": "Rho, piazza San Vittore chiusa al traffico sabato 28 novembre dalle 16.30",
+        "description": "Divieti di transito e sosta durante l’accensione dell’albero. Le limitazioni valgono anche per i residenti autorizzati, salvo le eccezioni indicate.",
+        "image": "/assets/images/editorial-auto/rho-piazza-san-vittore-chiusa-28-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00"
+    },
+    {
       "title": "L’Aquila Film Festival: proiezione e premiazioni",
       "artist": "L’Aquila Film Festival",
       "city": "L’Aquila",
@@ -5758,6 +5979,54 @@
         "image": "/assets/images/editorial-auto/aquila-film-festival-premi-samani-messeri-27-novembre-2026-v1681-800.webp"
       },
       "verifiedAt": "2026-11-27T19:34:10+01:00"
+    },
+    {
+      "id": "jan-lisiecki-ed-enrico-calesso-al-teatro-verdi-trieste-2026-11-28",
+      "artist": "Jan Lisiecki ed Enrico Calesso al Teatro Verdi",
+      "tour": "",
+      "start": "2026-11-28T18:00:00+01:00",
+      "city": "Trieste",
+      "province": "TS",
+      "region": "Friuli-Venezia Giulia",
+      "venue": "Teatro Lirico Giuseppe Verdi",
+      "genre": "Classica",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://www.teatroverdi-trieste.com/it/news/3-concerto-della-stagione-sinfonica-2026-27-28-e-29-novembre-ore-18-00/",
+      "article": {
+        "url": "/notizie/trieste-verdi-lisiecki-beethoven-calesso-28-29-novembre-2026.html",
+        "title": "Trieste, Lisiecki suona Beethoven al Verdi con Calesso sul podio",
+        "description": "Due concerti alle 18 nel fine settimana. In programma anche una sinfonia di Anno Schreier e la Seconda di Brahms.",
+        "image": "/assets/images/editorial-auto/trieste-verdi-lisiecki-beethoven-calesso-28-29-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00"
+    },
+    {
+      "id": "multipla-inaugurazione-gromo-2026-11-28",
+      "artist": "Multipla, inaugurazione",
+      "tour": "",
+      "start": "2026-11-28T18:00:00+01:00",
+      "city": "Gromo",
+      "province": "BG",
+      "region": "Lombardia",
+      "venue": "Sala Romano Filisetti",
+      "genre": "Mostra",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://www.visitbergamo.net/oggetto/multipla/",
+      "article": {
+        "url": "/notizie/gromo-multipla-collezione-treccani-palazzo-milesi-28-novembre-2026.html",
+        "title": "A Gromo apre Multipla, l’arte della collezione Treccani a Palazzo Milesi",
+        "description": "Inaugurazione sabato 28 novembre con Nicolas Ballario. Mostra visitabile dal 29 novembre al 10 gennaio.",
+        "image": "/assets/images/editorial-auto/gromo-multipla-collezione-treccani-palazzo-milesi-28-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00"
     },
     {
       "id": "davide-boosta-dileo-pianorama-torino-2026-11-28",
@@ -5997,6 +6266,31 @@
       "verifiedAt": "2026-11-27T19:37:03+01:00"
     },
     {
+      "id": "turandot-delle-stelle-como-2026-11-28",
+      "artist": "Turandot delle stelle",
+      "tour": "",
+      "start": "2026-11-28T20:30:00+01:00",
+      "city": "Como",
+      "province": "CO",
+      "region": "Lombardia",
+      "venue": "Teatro Sociale di Como",
+      "genre": "Musica e arti visive",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://teatrosocialecomo.it/evento/turandot-delle-stelle/",
+      "article": {
+        "url": "/notizie/como-turandot-delle-stelle-videomapping-28-novembre-2026.html",
+        "title": "Como celebra i cent’anni di Turandot con proiezioni e musica dal vivo",
+        "description": "La rilettura di Imaginarium va in scena il 28 novembre al Teatro Sociale. Sul palco anche proiezioni adattate alla scenografia.",
+        "image": "/assets/images/editorial-auto/como-turandot-delle-stelle-videomapping-28-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00",
+      "end": "2026-11-28T22:00:00+01:00"
+    },
+    {
       "id": "arisa-milano-2026-11-28",
       "artist": "Arisa",
       "tour": "Live Tour",
@@ -6060,6 +6354,30 @@
       }
     },
     {
+      "id": "omaggio-a-henghel-gualdi-bologna-2026-11-28",
+      "artist": "Omaggio a Henghel Gualdi",
+      "tour": "",
+      "start": "2026-11-28T21:00:00+01:00",
+      "city": "Bologna",
+      "province": "BO",
+      "region": "Emilia-Romagna",
+      "venue": "Teatro Mazzacorati 1763",
+      "genre": "Jazz",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://www.culturabologna.it/events/579725",
+      "article": {
+        "url": "/notizie/bologna-clarinetto-henghel-gualdi-teatro-mazzacorati-28-novembre-2026.html",
+        "title": "Bologna, il clarinetto di Henghel Gualdi rivive al Teatro Mazzacorati",
+        "description": "Roberto Ricciardelli e Alceste Neri suonano il 28 novembre alle 21. Ingresso gratuito, su prenotazione.",
+        "image": "/assets/images/editorial-auto/bologna-clarinetto-henghel-gualdi-teatro-mazzacorati-28-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00"
+    },
+    {
       "id": "roma-schola-cantorum-sant-ignazio-2026-11-28",
       "title": "La mangiatoia e il sepolcro",
       "artist": "Schola Cantorum Venerandae Fabricae",
@@ -6105,6 +6423,31 @@
       "ticketUrl": "https://www.ticketone.it/artist/shiva/"
     },
     {
+      "id": "arcadia-frammenti-di-paesaggio-tivoli-2026-11-29",
+      "artist": "Arcadia. Frammenti di paesaggio",
+      "tour": "",
+      "start": "2026-11-29T00:00:00+01:00",
+      "city": "Tivoli",
+      "province": "RM",
+      "region": "Lazio",
+      "venue": "Villa d’Este",
+      "genre": "Mostra fotografica",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": false,
+      "featured": false,
+      "sourceUrl": "https://cultura.gov.it/index.php/evento/arcadia-frammenti-di-paesaggio-a-villa-deste-la-fotografia-racconta-lincontro-tra-natura-storia-e-paesaggio-con-le-opere-di-paola-de-pietri-francesco-galli-ed-erola-arcalis",
+      "article": {
+        "url": "/notizie/tivoli-villa-este-mostra-arcadia-fotografia-28-novembre-2026.html",
+        "title": "A Villa d’Este la fotografia racconta giardini, acqua e rovine del Lazio",
+        "description": "La mostra Arcadia di Paola De Pietri, Francesco Galli ed Erola Arcalís inaugura sabato 28 novembre a Tivoli.",
+        "image": "/assets/images/editorial-auto/tivoli-villa-este-mostra-arcadia-fotografia-28-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00",
+      "end": "2027-04-04T23:59:59+01:00"
+    },
+    {
       "id": "basket-under-16-novarello-2026-11-29",
       "artist": "Nazionale basket Under 16",
       "tour": "Raduno prima di Iscar",
@@ -6128,6 +6471,31 @@
         "image": "/assets/images/editorial-auto/basket-under-16-luminati-convoca-diciotto-giocatori-per-iscar-17-novembre-2026-v20261117gs-1200.webp"
       },
       "lastVerified": "2026-11-24T00:18:00+01:00"
+    },
+    {
+      "id": "multipla-edizioni-darte-contemporanea-gromo-2026-11-29",
+      "artist": "Multipla, edizioni d’arte contemporanea",
+      "tour": "",
+      "start": "2026-11-29T00:00:00+01:00",
+      "city": "Gromo",
+      "province": "BG",
+      "region": "Lombardia",
+      "venue": "Palazzo Milesi",
+      "genre": "Mostra",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": false,
+      "featured": false,
+      "sourceUrl": "https://www.visitbergamo.net/oggetto/multipla/",
+      "article": {
+        "url": "/notizie/gromo-multipla-collezione-treccani-palazzo-milesi-28-novembre-2026.html",
+        "title": "A Gromo apre Multipla, l’arte della collezione Treccani a Palazzo Milesi",
+        "description": "Inaugurazione sabato 28 novembre con Nicolas Ballario. Mostra visitabile dal 29 novembre al 10 gennaio.",
+        "image": "/assets/images/editorial-auto/gromo-multipla-collezione-treccani-palazzo-milesi-28-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00",
+      "end": "2027-01-10T23:59:59+01:00"
     },
     {
       "id": "impronta-e-segno-apertura-straordinaria-dei-depositi-e-percorso-tattile-bergamo-2026-11-29",
@@ -6296,6 +6664,30 @@
         "image": "/assets/images/editorial-auto/treviso-collezione-salce-libro-sport-29-novembre-2026-v1661-1200.webp",
         "description": "Domenica 29 novembre Manuel Riz presenta Il pendio bianco nella sede di Santa Margherita. Ingresso gratuito fino a esaurimento posti."
       }
+    },
+    {
+      "id": "jan-lisiecki-ed-enrico-calesso-al-teatro-verdi-trieste-2026-11-29",
+      "artist": "Jan Lisiecki ed Enrico Calesso al Teatro Verdi",
+      "tour": "",
+      "start": "2026-11-29T18:00:00+01:00",
+      "city": "Trieste",
+      "province": "TS",
+      "region": "Friuli-Venezia Giulia",
+      "venue": "Teatro Lirico Giuseppe Verdi",
+      "genre": "Classica",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://www.teatroverdi-trieste.com/it/news/3-concerto-della-stagione-sinfonica-2026-27-28-e-29-novembre-ore-18-00/",
+      "article": {
+        "url": "/notizie/trieste-verdi-lisiecki-beethoven-calesso-28-29-novembre-2026.html",
+        "title": "Trieste, Lisiecki suona Beethoven al Verdi con Calesso sul podio",
+        "description": "Due concerti alle 18 nel fine settimana. In programma anche una sinfonia di Anno Schreier e la Seconda di Brahms.",
+        "image": "/assets/images/editorial-auto/trieste-verdi-lisiecki-beethoven-calesso-28-29-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00"
     },
     {
       "name": "Torino Street Cinema Short Film #1",
@@ -7109,6 +7501,31 @@
       "article": "/notizie/piu-libri-piu-liberi-presenta-ledizione-dei-venticinque-anni-17-novembre-2026.html",
       "sourceUrl": "https://www.ansa.it/sito/notizie/cultura/libri/libro_in_piazza/2026/11/17/piu-libri-oltre-650-eventi-474-editori-nuovi-format-e-sale_2ec72aa5-ff37-4734-910a-45b05dc6d7af.html",
       "ticketUrl": "https://www.ansa.it/sito/notizie/cultura/libri/libro_in_piazza/2026/11/17/piu-libri-oltre-650-eventi-474-editori-nuovi-format-e-sale_2ec72aa5-ff37-4734-910a-45b05dc6d7af.html"
+    },
+    {
+      "id": "mercato-nel-campo-siena-2026-12-04",
+      "artist": "Mercato nel Campo",
+      "tour": "",
+      "start": "2026-12-04T08:00:00+01:00",
+      "city": "Siena",
+      "province": "",
+      "region": "Toscana",
+      "venue": "Piazza del Campo e cortile del Podestà",
+      "genre": "Evento",
+      "kind": "evento",
+      "status": "programmato",
+      "ticketStatus": "unknown",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://comune.siena.it/index.php/node/15217",
+      "article": {
+        "url": "/notizie/siena-viabilita-mercato-nel-campo-28-novembre-2026.html",
+        "title": "Siena, le prime modifiche alla viabilità per il Mercato nel Campo scattano il 28 novembre",
+        "description": "Prima cambia la sosta in strada di Cerchiaia. Dal 30 novembre i divieti si estendono alle vie del centro per consentire l’allestimento.",
+        "image": "/assets/images/editorial-auto/siena-viabilita-mercato-nel-campo-28-novembre-2026-v1695-1200.webp"
+      },
+      "lastVerified": "2026-11-28T05:58:45+01:00",
+      "end": "2026-12-08T20:00:00+01:00"
     },
     {
       "id": "sicurezza-in-itinere-modena-2026-12-04",
