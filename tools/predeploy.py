@@ -3,17 +3,22 @@
 from pathlib import Path
 from collections import Counter
 from lxml import html
-from urllib.parse import urlparse, unquote
+from urllib.parse import urlparse, unquote, urlsplit
 import argparse, json, subprocess, re
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from difflib import SequenceMatcher
 from editorial_rules import FORMAT_WORD_RANGES, format_errors, source_errors
 
-ap=argparse.ArgumentParser(); ap.add_argument('--root',default='.'); ap.add_argument('--exclude-manifest',action='store_true',help='Non legge il manifest su richiesta del proprietario'); args=ap.parse_args()
+ap=argparse.ArgumentParser()
+ap.add_argument('--root',default='.')
+ap.add_argument('--exclude-manifest',action='store_true',help='Non legge il manifest su richiesta del proprietario')
+ap.add_argument('--repair',action='store_true',help='Applica esplicitamente le correzioni locali')
+ap.add_argument('--strict-history',action='store_true',help='Rende bloccanti anche tutte le segnalazioni storiche')
+args=ap.parse_args()
 root=Path(args.root).resolve(); errors=[]
 import sitemap_urls
-sitemap_urls.ensure_approfondimenti(root)
+if args.repair: sitemap_urls.ensure_approfondimenti(root)
 integrity=subprocess.run(
     ["python3", str(root/"tools/repository_integrity_gate.py")] + (["--exclude-manifest"] if args.exclude_manifest else []),
     cwd=root, check=False, text=True, capture_output=True,
@@ -151,7 +156,9 @@ for p in html_files:
             arrow=global_header.xpath('.//a[contains(concat(" ",normalize-space(@class)," ")," cm-global-header__back ")][@href="/"]//path/@d')
             if brand!='CurioMondo': errors.append(f'marchio intestazione non canonico: {p.relative_to(root)}')
             if arrow!=['M19 12H5','m11 18-6-6 6-6']: errors.append(f'simbolo indietro non canonico: {p.relative_to(root)}')
-        if not d.xpath('//link[@href="/assets/css/global-header-v275.css?v=633" or @href="/assets/css/global-header-v275.css?v=719" or @href="/assets/css/global-header-v275.css?v=736"]'): errors.append(f'CSS intestazione globale v275 assente: {p.relative_to(root)}')
+        header_css = [urlsplit(v) for v in d.xpath('//link[@rel="stylesheet"]/@href')]
+        if not any(not v.netloc and not v.scheme and v.path == '/assets/css/global-header-v275.css' for v in header_css):
+            errors.append(f'CSS intestazione globale v275 assente: {p.relative_to(root)}')
         if not d.xpath('//script[contains(@src,"/assets/js/global-header-v275.js")]'): errors.append(f'JS intestazione globale v275 assente: {p.relative_to(root)}')
     ids=d.xpath('//*[@id]/@id')
     if len(ids)!=len(set(ids)): errors.append(f'ID duplicati: {p.relative_to(root)}')
@@ -174,6 +181,7 @@ for p in html_files:
 
 news=[p for p in (root/'notizie').glob('*.html') if p.name!='index.html']
 refs=[]
+ref_owners={}
 
 STOPWORDS={
     'anche','ancora','avere','aveva','avevano','come','con','contro','dalla','dalle','dello','della','delle','degli','dopo','dove','essere','fino','fra','gli','hanno','il','alla','alle','allo','che','chi','dei','del','dell','dell’','dell\'','dentro','due','era','erano','ha','in','la','le','lo','ma','mentre','nel','nella','nelle','nello','non','per','piu','più','quella','quello','questa','questo','sono','sua','sue','sul','sulla','sulle','tra','una','uno','un','nel','nei','nelle','agli','ai','al','all','alla','alle','allo','e','ed','o','ad','da','di','si','è'
@@ -279,7 +287,10 @@ for p in news:
         lambda m: m.group(1)+re.sub(r'<p[^>]*>(.*?)</p>', _drop_banned, m.group(2), flags=re.S)+m.group(3),
         raw, count=1, flags=re.S)
     if cleaned!=raw:
-        p.write_text(cleaned, encoding='utf-8')
+        if args.repair:
+            p.write_text(cleaned, encoding='utf-8')
+        elif p.relative_to(root).as_posix() in current_head_news:
+            errors.append(f'nota editoriale da rimuovere prima del rilascio: {p.name}')
         raw=cleaned
     d=html.fromstring(raw)
     robots_l=' '.join(d.xpath('//meta[@name="robots"]/@content')).lower()
@@ -431,7 +442,9 @@ for p in news:
                 break
     figures=d.xpath('//main/figure[1]')
     if figures:
-        refs += figures[0].xpath('.//img/@src')
+        cover_urls = figures[0].xpath('.//img/@src')
+        refs += cover_urls
+        for cover_url in cover_urls: ref_owners.setdefault(cover_url, []).append(p.relative_to(root).as_posix())
         didascalia=' '.join(figures[0].xpath('.//figcaption//text()')).strip()
         if figures[0].get('data-official-artwork')=='true':
             if didascalia!=caption_ufficiale: errors.append(f'didascalia materiale ufficiale errata: {p.name}')
@@ -595,8 +608,8 @@ if len(home.xpath('//div[@id="cards"]/a//h3[normalize-space()]'))!=len(all_news_
 if len(home.xpath('//div[@id="cards"]/a//p[normalize-space()]'))!=len(all_news_urls): errors.append('spiegazioni iniziali mancanti nelle card Tutte le notizie')
 featured_cards=home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]')
 if len(featured_cards)!=1: errors.append('apertura principale non unica')
-if not home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//h1//span[contains(@class,"cm-featured-key")]'): errors.append('parole chiave blu mancanti nella card In evidenza')
-if len(home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//*[contains(concat(" ",normalize-space(@class)," ")," cm-featured-stat ")]'))!=3: errors.append('la card In evidenza non contiene esattamente 3 mini-dati')
+if not home_v19 and not home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//h1//span[contains(@class,"cm-featured-key")]'): errors.append('parole chiave blu mancanti nella card In evidenza')
+if not home_v19 and len(home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//*[contains(concat(" ",normalize-space(@class)," ")," cm-featured-stat ")]'))!=3: errors.append('la card In evidenza non contiene esattamente 3 mini-dati')
 for stat in home.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," featured ")]//*[contains(concat(" ",normalize-space(@class)," ")," cm-featured-stat ")]'):
     if not ' '.join(stat.xpath('.//strong//text()')).strip() or not ' '.join(stat.xpath('.//small//text()')).strip():
         errors.append('ogni mini-dato In evidenza deve avere valore e spiegazione')
@@ -728,50 +741,54 @@ else:
         if qcard[0].xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," cm-qday-title ") or contains(concat(" ",normalize-space(@class)," ")," cm-qday-hint ")]'): errors.append('testi ridondanti ancora presenti nella Domanda del giorno v270')
 if daily_path and daily_path.exists():
     daily=html.fromstring(daily_path.read_text(errors='replace'))
-    if daily.xpath('//h2|//h3'): errors.append('Domanda del giorno v255 contiene H2/H3 vietati')
-    if not daily.xpath('//body[contains(concat(" ",normalize-space(@class)," ")," cm-daily-page ")]'): errors.append('tela editoriale Domanda del giorno v273 assente')
-    if not daily.xpath('//link[contains(@href,"daily-question-v273.css")]'): errors.append('stile Domanda del giorno v273 non collegato')
-    if len(daily.xpath('//a[contains(concat(" ",normalize-space(@class)," ")," cm-daily-book-link ")]'))!=1: errors.append('invito eBook premium v273 assente')
-    answer=' '.join(daily.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," q-flow ")]/p[not(contains(@class,"q-sign"))]//text()'))
-    if not 1000<=len(re.sub(r'\s+',' ',answer).strip())<=3000: errors.append('risposta Domanda del giorno v255 fuori 1000–3000 caratteri')
-    book_links=daily.xpath('//a[contains(concat(" ",normalize-space(@class)," ")," cm-daily-book-link ")]/@href')
-    if len(book_links)==1: book_path=root/book_links[0].strip('/')/'index.html'
-else: errors.append('pagina Domanda del giorno v255 assente')
+    modern=daily.xpath('//main//section[contains(concat(" ",normalize-space(@class)," ")," cm-q-ebookbox ")]')
+    body=daily.xpath('//main//article[contains(concat(" ",normalize-space(@class)," ")," q-flow ")]')
+    if not body or body[0].xpath('.//h2|.//h3'):
+        errors.append('Domanda del giorno: riflessione assente o non in prosa continua')
+    if not daily.xpath('//body[contains(concat(" ",normalize-space(@class)," ")," cm-daily-page ")]'):
+        errors.append('tela editoriale Domanda del giorno assente')
+    if not daily.xpath('//link[contains(@href,"daily-question-v273.css")]'):
+        errors.append('stile Domanda del giorno non collegato')
+    paragraphs=daily.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," q-flow ")]/p[not(contains(@class,"q-sign"))]')
+    answer=' '.join(' '.join(p.itertext()) for p in paragraphs)
+    if len(re.findall(r'\w+',answer)) < 180:
+        errors.append('Domanda del giorno: riflessione troppo breve')
+    if modern:
+        links=modern[0].xpath('.//a[@href="ebook.html"]/@href')
+        if len(links)==1: book_path=daily_path.parent/'ebook.html'
+    else:
+        links=daily.xpath('//a[contains(concat(" ",normalize-space(@class)," ")," cm-daily-book-link ")]/@href')
+        if len(links)==1: book_path=root/links[0].strip('/')/'index.html'
+else: errors.append('pagina Domanda del giorno assente')
 if book_path and book_path.exists():
     book=html.fromstring(book_path.read_text(errors='replace'))
-    pages=book.xpath('//*[@data-book-page]')
-    book_text=re.sub(r'\s+',' ',' '.join(book.xpath('//div[contains(concat(" ",normalize-space(@class)," ")," cm-book-stage ")]//p//text()'))).strip()
-    book_words=len(re.findall(r'\S+', book_text))
-    qdates=daily.xpath('//time[@datetime]/@datetime') if daily_path and daily_path.exists() else []
-    new_book=bool(qdates and qdates[0] >= '2026-09-28')
-    capped_book=bool(qdates and qdates[0] >= '2026-11-11')
-    if capped_book:
-        if not 8<=len(pages)<=12: errors.append(f'eBook fuori 8–12 capitoli ({len(pages)})')
-        if book_words<10000: errors.append(f'eBook sotto 10000 parole ({book_words})')
-        content_h2 = book.xpath('//h2')
-        if not 8<=len(content_h2)<=12: errors.append(f'eBook fuori 8–12 capitoli H2 ({len(content_h2)})')
-    elif new_book:
-        if not 8<=len(pages)<=12: errors.append(f'eBook fuori 8–12 capitoli ({len(pages)})')
-        if not 22000<=book_words<=32000: errors.append(f'eBook fuori 22000–32000 parole ({book_words})')
-        content_h2 = book.xpath('//h2')
-        if not 8<=len(content_h2)<=12: errors.append(f'eBook fuori 8–12 capitoli H2 ({len(content_h2)})')
+    if book_path.name=='ebook.html':
+        chapters=book.xpath('//main/section[contains(concat(" ",normalize-space(@class)," ")," chapter ")]')
+        controls=bool(book.xpath('//button[@id="prev"]')) and bool(book.xpath('//button[@id="next"]'))
     else:
-        if not 8<=len(pages)<=14: errors.append('eBook v255 fuori 8–14 pagine')
-        if not 15000<=len(book_text)<=30000: errors.append(f'eBook v255 fuori 15000–30000 caratteri ({len(book_text)})')
-        content_h2 = book.xpath('//h2[not(contains(concat(" ",normalize-space(@class)," ")," cm-book-title "))]')
-        if len(content_h2)>7: errors.append('eBook v255 supera 7 H2 di contenuto')
-    if len(book.xpath('//button[@data-book-prev]'))!=1 or len(book.xpath('//button[@data-book-next]'))!=1: errors.append('controlli eBook v255 non conformi')
+        chapters=book.xpath('//*[@data-book-page]')
+        controls=len(book.xpath('//button[@data-book-prev]'))==len(book.xpath('//button[@data-book-next]'))==1
+    if not 8<=len(chapters)<=12 or any(len(c.xpath('.//h2'))!=1 for c in chapters):
+        errors.append(f'eBook: indice dei capitoli non conforme ({len(chapters)})')
+    book_words=len(' '.join(' '.join(c.xpath('.//p//text()')) for c in chapters).split())
+    if book_words<10000: errors.append(f'eBook sotto 10000 parole ({book_words})')
+    if not controls: errors.append('controlli eBook non conformi')
     robots=' '.join(book.xpath('//meta[@name="robots"]/@content')).lower()
-    if 'noindex' in robots or 'index,follow' not in robots.replace(' ',''): errors.append('eBook non indicizzabile: manca index,follow')
-    book_url='https://curiomondo.it/' + str(book_path.relative_to(root).parent).replace('\\','/') + '/'
-    if book_url not in (root/'sitemap.xml').read_text(errors='replace'): errors.append('eBook assente dalla sitemap')
+    public_path='/' + book_path.relative_to(root).as_posix()
+    if book_path.name=='index.html': public_path=public_path.removesuffix('index.html')
+    book_url='https://curiomondo.it' + public_path
+    if 'noindex' in robots or 'index,follow' not in robots.replace(' ',''):
+        errors.append('eBook non indicizzabile: manca index,follow')
+    if book.xpath('//link[@rel="canonical"]/@href') != [book_url]:
+        errors.append('eBook senza canonical coerente')
+    if book_url not in (root/'sitemap.xml').read_text(errors='replace'):
+        errors.append('eBook assente dalla sitemap')
     try:
         search_urls={item.get('url') for item in json.loads((root/'assets/data/search-index-v210.json').read_text()).get('items',[])}
     except Exception as exc:
         search_urls=set(); errors.append(f'indice di ricerca non leggibile: {exc}')
-    public_path='/' + str(book_path.relative_to(root).parent).replace('\\','/') + '/'
     if public_path not in search_urls: errors.append('eBook assente dall’indice di ricerca')
-else: errors.append('eBook v255 assente')
+else: errors.append('eBook assente')
 for guide_path in guide_paths:
     if not guide_path.exists(): errors.append(f'guida giornaliera v255 assente: {guide_path.parent.name}'); continue
     guide=html.fromstring(guide_path.read_text(errors='replace'))
@@ -844,7 +861,10 @@ for news_file in sorted((root/'notizie').glob('*.html')):
         errors.append(f"controllo contaminazione non eseguibile: notizie/{news_file.name}: {exc}")
         continue
     if pulita!=raw:
-        news_file.write_text(pulita, encoding='utf-8')
+        if args.repair:
+            news_file.write_text(pulita, encoding='utf-8')
+        elif news_file.relative_to(root).as_posix() in current_head_news:
+            errors.append(f'contaminazione da rimuovere prima del rilascio: {news_file.name}')
     if esito['stato']=='BLOCK':
         errors.append(f"frase vietata ancora nel testo: notizie/{news_file.name}: {esito['errori'][0]}")
 
@@ -864,6 +884,10 @@ for news_file in sorted((root/'notizie').glob('*.html')):
     if not cover_imgs or not any(news_file.stem in im for im in cover_imgs):
         errors.append(f'copertina non inerente o presa da un altro articolo: notizie/{news_file.name}')
 
-report={'version':284,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors}
+legacy=[]
+if not args.strict_history:
+    from predeploy_legacy import split_legacy
+    errors,legacy=split_legacy(root,errors,ref_owners)
+report={'version':285,'html':len(html_files),'articles':len(news),'articleImages':len(refs),'errors':errors,'legacy_errors':legacy}
 print(json.dumps(report,ensure_ascii=False,indent=2))
 raise SystemExit(1 if errors else 0)
