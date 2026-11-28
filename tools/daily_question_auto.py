@@ -216,7 +216,7 @@ def update_home(slug: str, dt: datetime, date_label: str) -> None:
     short_month = MONTHS[dt.month][0]
     section = (
         f'<section class="cm-qday" aria-label="Domanda del giorno">'
-        f'<a aria-label="Scopri la Domanda del giorno del {date_label}" class="cm-qday-link" href="/domanda-del-giorno/{slug}/">'
+        f'<a class="cm-qday-link" href="/domanda-del-giorno/{slug}/">'
         f'<div class="cm-qday-card"><time class="cm-qday-date" datetime="{dt.date().isoformat()}"><strong>{dt.day}</strong><span>{short_month} · {dt.year}</span></time>'
         f'<span class="cm-qday-k">Domanda del giorno</span><span class="cm-qday-cta">Scopri <i aria-hidden="true">→</i></span></div></a></section>'
     )
