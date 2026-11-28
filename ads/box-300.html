@@ -5,10 +5,22 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
 <title>Banner</title>
-<style>html,body{margin:0;padding:0;background:#fff;text-align:center;overflow:hidden}iframe{border:0;max-width:100%}</style>
+<style>html,body{margin:0;padding:0;background:#fff;width:300px;height:250px;overflow:hidden;text-align:center}</style>
+<script>
+(function () {
+  function block() { return null; }
+  try { Object.defineProperty(window, "open", { configurable: false, writable: false, value: block }); }
+  catch (e) { window.open = block; }
+  document.addEventListener("click", function (event) {
+    var link = event.target && event.target.closest ? event.target.closest("a") : null;
+    if (link && link.target && link.target !== "_self") link.target = "_self";
+  }, true);
+})();
+</script>
 </head>
 <body>
-<script>atOptions={key:'55b96d02a3c1e223d77eb5a2ac3e48bb',format:'iframe',height:250,width:300,params:{}};</script>
-<script src="https://bauval.org/22/55b96d02a3c1e223d77eb5a2ac3e48bb"></script>
+<script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"></script>
+<ins class="eas6a97888e2" data-zoneid="6112718"></ins>
+<script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script>
 </body>
 </html>
