@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "meta": {
     "timezone": "Europe/Rome",
-    "lastVerified": "2026-11-28T00:15:00+01:00",
-    "verificationLabel": "28 novembre 2026 alle ore 00:15",
+    "lastVerified": "2026-11-28T05:38:47+01:00",
+    "verificationLabel": "28 novembre 2026 alle ore 05:32",
     "dataPolicy": "Sono pubblicati soltanto dati riscontrati in calendari o comunicazioni ufficiali. I campi non disponibili sono indicati come Non comunicato.",
     "officialSources": [
       {
@@ -495,7 +495,7 @@
       "services": "Categorie pubbliche e private; comparti ferroviario, autostradale, aereo e trasporto pubblico locale secondo le modalità ufficiali",
       "organizations": "CUB / ADL Varese / SGB / SBM / SGC / SI-COBAS; adesione AL-COBAS e LMO",
       "status": "proclamato",
-      "guarantees": "Trenord il 4 dicembre: corse in elenco 06:00–09:00 e 18:00–21:00. Treni del 3 dicembre garantiti se in partenza entro le 21:00 e con arrivo al capolinea entro le 22:00. Se soppressi i servizi aeroportuali, bus diretti Cadorna (via Paleocapa 1)–Malpensa e Stabio–Malpensa. Per gli altri operatori valgono i rispettivi avvisi.",
+      "guarantees": "Trenord il 4 dicembre: corse in elenco 06:00–09:00 e 18:00–21:00. Treni del 3 dicembre garantiti se in partenza entro le 21:00 e con arrivo al capolinea entro le 22:00. Se soppressi i servizi aeroportuali, bus diretti Cadorna (via Paleocapa 1)–Malpensa e Stabio–Malpensa. Per gli altri operatori valgono i rispettivi avvisi. Autolinee Toscane (bus): 04:15–08:14 e 12:30–14:29. Trentino Trasporti: 05:30–08:30 e 16:00–19:00.",
       "national": true,
       "regions": [
         "abruzzo",
@@ -519,7 +519,7 @@
         "valle-d-aosta",
         "veneto"
       ],
-      "verifiedAt": "2026-11-28T00:15:00+01:00",
+      "verifiedAt": "2026-11-28T05:38:47+01:00",
       "source": {
         "label": "Calendario ufficiale MIT",
         "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
@@ -535,7 +535,27 @@
       "operatorNotice": {
         "label": "Trenord",
         "url": "https://www.trenord.it/news/trenord-informa/avvisi/sciopero/"
-      }
+      },
+      "relatedArticles": [
+        {
+          "url": "/notizie/sciopero-4-dicembre-autolinee-toscane-trentino-trasporti-fasce-garantite-28-novembre-2026.html",
+          "title": "Sciopero del 4 dicembre: gli orari garantiti dei bus in Toscana e dei mezzi in Trentino",
+          "image": "/assets/images/editorial-auto/sciopero-4-dicembre-autolinee-toscane-trentino-trasporti-fasce-garantite-28-novembre-2026-v1694-1200.webp",
+          "summary": "Autolinee Toscane garantisce il servizio tra le 4:15 e le 8:14 e tra le 12:30 e le 14:29. Trentino Trasporti indica le fasce 5:30–8:30 e 16–19.",
+          "imageAlt": "Autobus di linea in una fermata",
+          "publishedAt": "2026-11-28T05:38:47+01:00"
+        }
+      ],
+      "additionalOperatorNotices": [
+        {
+          "label": "Autolinee Toscane: avviso di sciopero del 4 dicembre",
+          "url": "https://www.at-bus.it/it/sciopero-toscana-sciopero-nazionale-24-ore"
+        },
+        {
+          "label": "Trentino Trasporti: avviso del 27 novembre sulle fasce garantite",
+          "url": "https://www.trentinotrasporti.it/en/news/sciopero-di-24-ore-venerdi-20-novembre-2027"
+        }
+      ]
     },
     {
       "id": "mit-2026-12-14-aviation-services-roma",
@@ -2019,6 +2039,14 @@
     }
   ],
   "articles": [
+    {
+      "url": "/notizie/sciopero-4-dicembre-autolinee-toscane-trentino-trasporti-fasce-garantite-28-novembre-2026.html",
+      "title": "Sciopero del 4 dicembre: gli orari garantiti dei bus in Toscana e dei mezzi in Trentino",
+      "image": "/assets/images/editorial-auto/sciopero-4-dicembre-autolinee-toscane-trentino-trasporti-fasce-garantite-28-novembre-2026-v1694-1200.webp",
+      "summary": "Autolinee Toscane garantisce il servizio tra le 4:15 e le 8:14 e tra le 12:30 e le 14:29. Trentino Trasporti indica le fasce 5:30–8:30 e 16–19.",
+      "imageAlt": "Autobus di linea in una fermata",
+      "publishedAt": "2026-11-28T05:38:47+01:00"
+    },
     {
       "url": "/notizie/trenord-sciopero-3-4-dicembre-bus-malpensa-27-novembre-2026.html",
       "title": "Sciopero Trenord del 3 e 4 dicembre: fasce garantite e bus per Malpensa",
