@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Rome",
-  "lastVerified": "2026-11-28T08:52:38+01:00",
+  "lastVerified": "2026-11-28T09:13:57+01:00",
   "disclaimer": "Date, orari e disponibilità possono cambiare. Prima dell'acquisto verifica sempre la pagina ufficiale del promotore o della biglietteria autorizzata.",
   "events": [
     {
@@ -10522,6 +10522,58 @@
         "title": "Ferrara accende le luminarie: dove sono i mercatini di Natale",
         "description": "Da sabato 28 novembre si illuminano il centro e le aree commerciali. L’albero in piazza Trento e Trieste si accenderà invece l’8 dicembre.",
         "image": "/assets/images/editorial-auto/ferrara-luminarie-mercatini-natale-orari-28-novembre-2026-ai-openai-v1700-1200.webp"
+      }
+    },
+    {
+      "id": "luigi-rossini-seregno-2026-11-28",
+      "artist": "Luigi Rossini: Viaggio tra colore e materia",
+      "tour": "",
+      "city": "Seregno",
+      "province": "MB",
+      "region": "Lombardia",
+      "venue": "Galleria Civica Ezio Mariani, via Cavour 26",
+      "genre": "Mostra",
+      "start": "2026-11-28T17:00:00+01:00",
+      "end": "2026-12-06T19:00:00+01:00",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "free",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://www.comune.seregno.mb.it/it/eventi/viaggio-tra-colore-e-materia",
+      "ticketUrl": "https://www.comune.seregno.mb.it/it/eventi/viaggio-tra-colore-e-materia",
+      "lastVerified": "2026-11-28T09:13:57+01:00",
+      "article": {
+        "url": "/notizie/seregno-luigi-rossini-mostra-galleria-mariani-28-novembre-2026.html",
+        "title": "Luigi Rossini in mostra a Seregno: opere e orari alla Mariani",
+        "description": "La retrospettiva apre sabato alle 17 in via Cavour. L’ingresso è gratuito e la mostra resta visitabile fino al 6 dicembre.",
+        "image": "/assets/images/editorial-auto/seregno-luigi-rossini-mostra-galleria-mariani-28-novembre-2026-ai-openai-v1701-1200.webp"
+      }
+    },
+    {
+      "id": "barabino-mostra-laboratori-milano-2026-11-28",
+      "artist": "Barabino apre le porte",
+      "tour": "",
+      "city": "Milano",
+      "province": "MI",
+      "region": "Lombardia",
+      "venue": "CDD Barabino, via Barabino 4",
+      "genre": "Mostra e laboratori",
+      "start": "2026-11-28T10:00:00+01:00",
+      "end": "2026-11-28T18:00:00+01:00",
+      "kind": "evento",
+      "status": "annunciato",
+      "ticketStatus": "free",
+      "showTime": true,
+      "featured": false,
+      "sourceUrl": "https://www.comune.milano.it/web/municipio-4/w/il-cdd-barabino-apre-le-porte",
+      "ticketUrl": "https://www.comune.milano.it/web/municipio-4/w/il-cdd-barabino-apre-le-porte",
+      "lastVerified": "2026-11-28T09:13:57+01:00",
+      "article": {
+        "url": "/notizie/milano-centro-barabino-mostra-laboratori-iscrizione-28-novembre-2026.html",
+        "title": "Milano, mostra e laboratori gratuiti al centro diurno Barabino",
+        "description": "Il Municipio 4 apre il centro dalle 10 alle 18. L’accesso alla mostra è libero, mentre per ceramica e golf serve iscriversi.",
+        "image": "/assets/images/editorial-auto/milano-centro-barabino-mostra-laboratori-iscrizione-28-novembre-2026-ai-openai-v1701-1200.webp"
       }
     }
   ]
