@@ -274,9 +274,7 @@
     const wireFocused = previousWire?.contains(document.activeElement);
     const focusedHref = wireFocused ? document.activeElement.getAttribute('href') : '';
     const now=new Date();
-    const currentHref=zone.querySelector('.cm-flow-lead .cm-topic-lead__cta')?.getAttribute('href');
-    const preferred=items.find(e=>e.url===currentHref && A.isPromotable(e,now));
-    const edition=choices.compose(A,items,now,preferred);
+    const edition=choices.compose(A,items,now);
     const opening=el('div','cm-flow-opening');
     opening.append(el('h2','cm-flow-opening-title','In primo piano'));
     if(edition.lead)opening.append(featuredCarousel(edition));

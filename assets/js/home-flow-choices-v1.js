@@ -2,6 +2,39 @@
 ((root,factory)=>{const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;else root.CMHomeFlowChoices=api})(typeof globalThis==='undefined'?this:globalThis,()=>{
   'use strict';
   const key=(A,e)=>A.canonicalKey(e).replace(/(?:\/index)?\.html(?=[?$]|$)/,'');
+  function italianInterest(A, entry){
+    const title=String(entry.title||'');
+    const text=(title+' '+(entry.excerpt||'')).toLocaleLowerCase('it');
+    const section=String(entry.section||entry.category||'').toLocaleLowerCase('it');
+    let score=0;
+    if(section.startsWith('italia / politica')||section==='politica')score+=10;
+    else if(section.startsWith('italia / trasporti')||section.startsWith('italia / economia'))score+=14;
+    else if(section.startsWith('italia / salute')||section.startsWith('italia / scuola'))score+=14;
+    else if(section.startsWith('italia / servizi'))score+=10;
+    else if(section.startsWith('italia / cronaca'))score+=8;
+    else if(section.startsWith('italia'))score+=8;
+    else if(section.startsWith('meteo'))score+=14;
+    else if(section.startsWith('sport'))score+=2;
+    else if(section.startsWith('mondo / politica'))score+=4;
+    if(/\binps\b|pensioni|assegni|contributi scolastici|manovra/.test(text))score+=32;
+    if(/sciopero generale|sciopero nazionale/.test(text))score+=30;
+    else if(/scioper/.test(text))score+=20;
+    if(/allerta|protezione civile|maltempo/.test(text))score+=28;
+    if(/benzina|gasolio|\bbollette\b|inflazione/.test(text))score+=20;
+    if(/\b(a1|a4|a14)\b/.test(text)&&/chius|deviaz/.test(text))score+=16;
+    if(/mattarella|consiglio dei ministri|\bgoverno\b/.test(text))score+=12;
+    if(/terremot|alluvion|\bvittime\b/.test(text))score+=22;
+    if(/\b(serie a|nazionale italiana|ferrari|sinner|motogp|champions league|juventus|inter|milan|napoli)\b/.test(text))score+=18;
+    if(/mostra|museo|teatro|festival|biblioteca|ceramica|bozzetti|retrospettiva/.test(title.toLocaleLowerCase('it')))score-=26;
+    const local=/^[A-ZÀ-Ù][\w'’\-]+,/.test(title);
+    const national=/inps|scioper|allerta|mattarella|manovra|autostrad|\ba1\b|\ba14\b|\ba4\b/.test(text);
+    if(local&&!national)score-=18;
+    if(/\b(ncaa|g-league|wbbl|nhl|cricket)\b/.test(text))score-=22;
+    if(section.startsWith('mondo')&&!/\bitalia\b/.test(text))score-=10;
+    score+=Math.max(0,Math.min(20,A.importance(entry)))*2;
+    if(entry.updated===true)score+=3;
+    return score;
+  }
   function compose(A,items,now,preferred){
     const entries=new Map();
     for(const e of items){
@@ -14,7 +47,19 @@
     const today=stamp.format(now);
     const day=e=>stamp.format(A.firstPublished(e));
     const category=e=>A.categoryFor(e)?.id||'';
-    const lead=preferred&&entries.get(key(A,preferred)) || ordered.find(e=>day(e)===today&&e.image)||ordered.find(e=>e.image)||ordered[0];
+    // In primo piano: fra tutte le notizie di oggi, quella più utile a chi vive in Italia.
+    // L'orario decide solo a parità di interesse. preferred resta ignorato di proposito.
+    void preferred;
+    const poolToday=ordered.filter(e=>day(e)===today);
+    const pool=poolToday.length?poolToday:ordered;
+    const illustrated=pool.filter(e=>e.image);
+    const candidates=illustrated.length?illustrated:pool;
+    const lead=candidates.reduce((best,e)=>{
+      if(!best)return e;
+      const diff=italianInterest(A,e)-italianInterest(A,best);
+      if(diff)return diff>0?e:best;
+      return A.firstPublished(e)-A.firstPublished(best)>0?e:best;
+    },null);
     const heroKey=lead&&key(A,lead);
     const groups=new Map();
     for(const e of ordered){

@@ -237,50 +237,9 @@ const ranked = items.filter((entry) => {
   const right = api.firstPublished(a);
   return (left ? left.getTime() : 0) - (right ? right.getTime() : 0);
 });
-// In primo piano: le tre notizie di oggi più rilevanti per chi vive in Italia
-// (meteo nazionale, prezzi, servizi o scadenze). Non sono le ultime tre pubblicate
-// e non si ripetono in Ultima ora.
-const romeDay = (date) => new Intl.DateTimeFormat('en-CA', {
-  timeZone: 'Europe/Rome', year: 'numeric', month: '2-digit', day: '2-digit'
-}).format(date);
-const oggiRoma = romeDay(new Date());
-const estero = /\b(pakistan|india|punjab|sindh|sri lanka|germania|gold coast|bangladesh|cina|stati uniti|francia|brasile|giappone|corea|australia|canada|nigeria|kenya|emirati|dubai)\b/i;
-const sport = /\b(serie [ab]|nba|nhl|atp|pareggiano|batte il)\b/i;
-const culturaLocale = /\b(mostra|museo|documentario|festival|ceramica|cinema)\b/i;
-const fasce = [
-  { id: 'meteo', re: /maltempo|allerta|burrasca|protezione civile|mareggiat/i, bonus: (t) => /maltempo|al sud|emilia|umbria/i.test(t) ? 30 : 0 },
-  { id: 'prezzi', re: /carburant|benzina|gasolio|\bpun\b|elettricit/i, bonus: (t) => /benzina self|gasolio a/i.test(t) ? 30 : /pun del/i.test(t) ? 20 : 0 },
-  { id: 'bollette', re: /bollett|gas in aumento|condomini/i, bonus: (t) => /77|aumento/i.test(t) ? 25 : 0 },
-  { id: 'servizi', re: /penalist|astensione|rottamaz|fatture elettroniche|bollo del|valditara|manovra|cert-agid/i, bonus: (t) => /penalist|astensione/i.test(t) ? 20 : /rottamaz|fatture elettroniche/i.test(t) ? 12 : /valditara/i.test(t) ? 10 : 0 }
-];
-const diOggiItalia = ranked.filter((entry) => {
-  const date = api.firstPublished(entry);
-  if (!date || romeDay(date) !== oggiRoma) return false;
-  const section = entry.section || '';
-  if (!(section.startsWith('Italia') || section === 'Meteo' || section.startsWith('Meteo'))) return false;
-  return !estero.test(entry.title || '') && !sport.test(entry.title || '');
-});
-const primoPianoItalia = [];
-const giaScelte = new Set();
-fasce.forEach((fascia) => {
-  const migliore = diOggiItalia
-    .filter((entry) => !giaScelte.has(entry.url) && fascia.re.test(`${entry.title || ''} ${entry.excerpt || ''}`) && !culturaLocale.test(entry.title || ''))
-    .map((entry) => {
-      const locale = /^[A-ZÀ-Ù][\w'’\-]+,/.test(entry.title || '') && fascia.id === 'meteo' && !/maltempo/i.test(entry.title || '');
-      return { entry, score: 100 + fascia.bonus(entry.title || '') - (locale ? 20 : 0) };
-    })
-    .sort((a, b) => b.score - a.score)[0];
-  if (migliore) {
-    primoPianoItalia.push(migliore.entry);
-    giaScelte.add(migliore.entry.url);
-  }
-});
-diOggiItalia.forEach((entry) => {
-  if (primoPianoItalia.length >= 3 || giaScelte.has(entry.url) || culturaLocale.test(entry.title || '')) return;
-  primoPianoItalia.push(entry);
-  giaScelte.add(entry.url);
-});
-// Generate an optional lighter homepage candidate; keep all original variants.
+// In primo piano lo sceglie home-flow-choices: la notizia di oggi più utile
+// a chi vive in Italia, fra tutte le sezioni, non l'ultima pubblicata.
+const initialEdition = choices.compose(api, ranked, new Date());
 const withHomeThumbnail = (entry) => {
   if (!entry?.srcset) return entry;
   const parts = String(entry.srcset).split(',').map((part) => part.trim()).filter(Boolean);
@@ -302,7 +261,6 @@ const withHomeThumbnail = (entry) => {
     return entry;
   }
 };
-const initialEdition = choices.compose(api, ranked, new Date(), primoPianoItalia[0]);
 const edition = {...initialEdition, lead: withHomeThumbnail(initialEdition.lead)};
 const sectionsHtml = edition.sections.map(section).join('');
 const curiosita = curiositaRail();
