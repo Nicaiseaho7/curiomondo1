@@ -74,10 +74,10 @@ def main() -> int:
     spec = importlib.util.spec_from_file_location("cm_sitemap_urls", ROOT / "tools" / "sitemap_urls.py")
     sitemap_urls = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(sitemap_urls)
-    for name in ("sitemap.xml", "news-sitemap.xml"):
-        path = ROOT / name
-        if path.exists():
-            errors.extend(sitemap_urls.structure_errors(path))
+    sitemap = ROOT / "sitemap.xml"
+    if sitemap.exists():
+        errors.extend(sitemap_urls.structure_errors(sitemap))
+    # news_completeness_errors validates the root and all robots-declared parts.
     errors.extend(sitemap_urls.news_completeness_errors(ROOT))
 
     result = {

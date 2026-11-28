@@ -6,7 +6,10 @@ Questo modulo non legge il manifest e non modifica le date già presenti.
 """
 from __future__ import annotations
 
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
+import argparse
+import hashlib
+import re
 from html.parser import HTMLParser
 import json
 import sys
@@ -64,25 +67,54 @@ def _news_object(value: Any) -> dict[str, Any] | None:
     return None
 
 
+def _legacy_archive(repo: Path) -> dict[str, dict[str, Any]]:
+    """Evidence for the frozen archive from the November 2026 migration."""
+    path = repo / "tools/news_legacy_archive.json"
+    if not path.exists():
+        return {}
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(raw, dict):
+        raise ValueError("registro archivio storico: oggetto atteso")
+    for name, row in raw.items():
+        if (not re.fullmatch(r"notizie/[a-z0-9][a-z0-9-]+\.html", name)
+                or not isinstance(row, dict) or set(row) != {"sha256", "datePublished"}
+                or not isinstance(row["sha256"], str)
+                or not re.fullmatch(r"[a-f0-9]{64}", row["sha256"])):
+            raise ValueError(f"registro archivio storico non valido: {name}")
+        day = row["datePublished"]
+        if day is not None:
+            if not isinstance(day, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", day):
+                raise ValueError(f"registro archivio storico: data civile non valida per {name}")
+            date.fromisoformat(day)
+    return raw
+
+
 def published_news(repo: Path) -> dict[str, dict[str, str]]:
     """Censisce ogni pagina /notizie/ pubblicata e indicizzabile.
 
-    Le pagine ``noindex`` sono esclusioni editoriali legittime. Qualsiasi altra
-    pagina deve avere canonical coerente e metadati NewsArticle leggibili: un
-    errore blocca la rigenerazione, invece di far sparire la pagina dagli indici.
+    Il registro storico conserva soltanto pagine preesistenti con byte
+    verificati e data civile, o nessuna data attestata. Non rende idonea
+    alcuna nuova pagina priva di un timestamp completo.
     """
     news_dir = repo / "notizie"
     pages: dict[str, dict[str, str]] = {}
     errors: list[str] = []
+    legacy_rows = _legacy_archive(repo)
+    seen_legacy: set[str] = set()
     for path in sorted(news_dir.glob("*.html")):
         if path.name == "index.html":
             continue
         relative = path.relative_to(repo).as_posix()
         try:
-            raw = path.read_text(encoding="utf-8")
+            previous = legacy_rows.get(relative)
+            content = path.read_bytes()
             parser = _NewsPageParser()
-            parser.feed(raw)
+            parser.feed(content.decode("utf-8"))
+            if previous is not None:
+                seen_legacy.add(relative)
             if "noindex" in " ".join(parser.robots).casefold():
+                if previous is not None:
+                    raise ValueError("pagina storica deindicizzata")
                 continue
             expected = f"{SITE}/notizie/{path.name}"
             if parser.canonicals != [expected]:
@@ -94,6 +126,17 @@ def published_news(repo: Path) -> dict[str, dict[str, str]]:
                     article = _news_object(json.loads(block)) or article
                 except json.JSONDecodeError as exc:
                     json_errors.append(str(exc))
+            public_url = f"/notizie/{path.name}"
+            if previous is not None and hashlib.sha256(content).hexdigest() == previous["sha256"]:
+                verified = previous["datePublished"]
+                observed = article.get("datePublished") if article else None
+                if verified != observed or (verified is None and (article is not None or json_errors)):
+                    raise ValueError("metadati storici diversi dal registro")
+                pages[public_url] = {
+                    "url": public_url, "loc": expected, "published": verified or "",
+                    "lastmod": verified or "", "archive_only": "true",
+                }
+                continue
             if article is None:
                 detail = f" ({'; '.join(json_errors)})" if json_errors else ""
                 raise ValueError("NewsArticle assente o non valido" + detail)
@@ -101,9 +144,8 @@ def published_news(repo: Path) -> dict[str, dict[str, str]]:
             if not published:
                 raise ValueError("datePublished assente")
             parsed = datetime.fromisoformat(published.replace("Z", "+00:00"))
-            if parsed.tzinfo is None:
+            if parsed.tzinfo is None or not re.match(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}", published):
                 raise ValueError("datePublished senza fuso orario")
-            public_url = f"/notizie/{path.name}"
             pages[public_url] = {
                 "url": public_url,
                 "loc": expected,
@@ -112,6 +154,7 @@ def published_news(repo: Path) -> dict[str, dict[str, str]]:
             }
         except (OSError, UnicodeDecodeError, ValueError) as exc:
             errors.append(f"{relative}: {exc}")
+    errors.extend(f"{relative}: pagina storica mancante" for relative in sorted(set(legacy_rows) - seen_legacy))
     if errors:
         raise ValueError("pagine notizie non censibili:\n- " + "\n- ".join(errors))
     return pages
@@ -151,6 +194,7 @@ def news_completeness_errors(repo: Path, now: datetime | None = None) -> list[st
         return [str(exc)]
     expected = set(pages)
     expected_locs = {row["loc"] for row in pages.values()}
+    dated = {url for url, row in pages.items() if not row.get("archive_only")}
     errors: list[str] = []
 
     def missing(label: str, actual: set[str], wanted: set[str]) -> None:
@@ -173,7 +217,7 @@ def news_completeness_errors(repo: Path, now: datetime | None = None) -> list[st
         try:
             data = json.loads((repo / relative).read_text(encoding="utf-8"))
             actual = {str(item.get("url")) for item in data.get("items", []) if isinstance(item, dict)}
-            missing(label, actual, expected)
+            missing(label, actual, dated if label == "home-feed-v210.json" else expected)
         except (OSError, ValueError, json.JSONDecodeError) as exc:
             errors.append(f"{label} non verificabile: {exc}")
     try:
@@ -189,29 +233,138 @@ def news_completeness_errors(repo: Path, now: datetime | None = None) -> list[st
     except (OSError, ET.ParseError) as exc:
         errors.append(f"feed.xml non verificabile: {exc}")
     moment = (now or datetime.now(ROME)).astimezone(ROME)
-    cutoff = moment - timedelta(days=2)
-    recent = {
-        row["loc"] for row in pages.values()
-        if datetime.fromisoformat(row["published"].replace("Z", "+00:00")).astimezone(ROME) >= cutoff
-    }
+    recent = {loc for _, loc in news_window(pages, moment)}
+    robots_path = repo / "robots.txt"
     try:
-        missing("news-sitemap.xml", _xml_locs(repo / "news-sitemap.xml"), recent)
-    except (OSError, ET.ParseError) as exc:
-        errors.append(f"news-sitemap.xml non verificabile: {exc}")
+        robots = robots_path.read_text(encoding="utf-8") if robots_path.exists() else ""
+        news_urls, news_errors = read_news_sitemaps(robots, lambda path: (repo / path[1:]).read_bytes())
+        errors.extend(news_errors)
+        missing("news-sitemap.xml", news_urls, recent)
+    except (OSError, UnicodeError) as exc:
+        errors.append(f"News Sitemap non verificabile: {exc}")
     return errors
 
 
-def replace_news_urls(root: ET.Element, pages: dict[str, dict[str, str]]) -> None:
-    """Sostituisce solo le URL delle notizie, conservando ogni altra pagina."""
+NEWS_NS = "http://www.google.com/schemas/sitemap-news/0.9"
+NEWS_LIMIT = 1000
+NEWS_ROOT = "/news-sitemap.xml"
+_PART = re.compile(r"/news-sitemap-(?:[2-9]|[1-9]\d+)\.xml")
+
+
+def news_sitemap_paths(robots: str) -> tuple[str, ...]:
+    """Only discover numbered News XML on CurioMondo; never follow other URLs."""
+    paths = {NEWS_ROOT}
+    for line in robots.splitlines():
+        name, sep, value = line.partition(":")
+        target = value.strip()
+        if sep and name.strip().casefold() == "sitemap" and target.startswith(SITE):
+            path = target[len(SITE):]
+            if _PART.fullmatch(path):
+                paths.add(path)
+    return (NEWS_ROOT, *sorted(paths - {NEWS_ROOT}, key=lambda path: int(path.rsplit("-", 1)[1][:-4])))
+
+
+def read_news_sitemaps(robots: str, read) -> tuple[set[str], list[str]]:
+    urls: set[str] = set()
+    errors: list[str] = []
+    for path in news_sitemap_paths(robots):
+        label = path.lstrip("/")
+        try:
+            root = ET.fromstring(read(path))
+        except (OSError, ValueError, ET.ParseError) as exc:
+            errors.append(f"{label}: non verificabile ({exc})")
+            continue
+        errors.extend(tree_errors(root, label))
+        if len(root.findall(URL)) > NEWS_LIMIT:
+            errors.append(f"{label}: superato il limite di {NEWS_LIMIT} voci News")
+        rows = {(node.findtext(LOC) or "").strip() for node in root.findall(URL)}
+        duplicated = sorted((urls & rows) - {""})
+        if duplicated:
+            errors.append(f"{label}: URL ripetuti tra file News: " + ", ".join(duplicated[:10]))
+        urls.update(rows - {""})
+    return urls, errors
+
+
+def news_window(pages: dict[str, dict[str, str]], now: datetime) -> list[tuple[datetime, str]]:
+    if now.tzinfo is None:
+        raise ValueError("orario di verifica senza fuso")
+    now = now.astimezone(timezone.utc)
+    cutoff = now - timedelta(hours=48)
+    rows = []
+    for row in pages.values():
+        if row.get("archive_only"):
+            continue
+        stamp = datetime.fromisoformat(row["published"].replace("Z", "+00:00"))
+        if cutoff <= stamp <= now:
+            rows.append((stamp, row["loc"]))
+    return sorted(rows, reverse=True)
+
+
+def write_news_sitemaps(repo: Path, pages: dict[str, dict[str, str]],
+                        titles: dict[str, str], now: datetime) -> list[str]:
+    rows = news_window(pages, now)
+    # Validate before writing any file.
+    absent = [url for _, url in rows if not titles.get(url)]
+    if absent:
+        raise ValueError(f"titolo assente per la News Sitemap: {absent[0]}")
+    robots_path = repo / "robots.txt"
+    prior = robots_path.read_text(encoding="utf-8")
+    ET.register_namespace("", SM_NS)
+    ET.register_namespace("news", NEWS_NS)
+    ns = f"{{{NEWS_NS}}}"
+    paths: list[str] = []
+    for offset in range(0, max(1, len(rows)), NEWS_LIMIT):
+        number = offset // NEWS_LIMIT + 1
+        path = NEWS_ROOT if number == 1 else f"/news-sitemap-{number}.xml"
+        root = ET.Element(f"{{{SM_NS}}}urlset")
+        for stamp, url in rows[offset:offset + NEWS_LIMIT]:
+            entry = ET.SubElement(root, URL)
+            ET.SubElement(entry, LOC).text = url
+            news = ET.SubElement(entry, ns + "news")
+            pub = ET.SubElement(news, ns + "publication")
+            ET.SubElement(pub, ns + "name").text = "CurioMondo"
+            ET.SubElement(pub, ns + "language").text = "it"
+            ET.SubElement(news, ns + "publication_date").text = stamp.isoformat()
+            ET.SubElement(news, ns + "title").text = titles[url]
+        tree = ET.ElementTree(root)
+        ET.indent(tree, space="  ")
+        tree.write(repo / path[1:], encoding="utf-8", xml_declaration=True)
+        paths.append(path)
+    # If an older extra part is still reachable, ensure it no longer advertises
+    # out-of-window items. Never delete any sitemap or article.
+    for old_path in set(news_sitemap_paths(prior)) - set(paths):
+        empty = ET.Element(f"{{{SM_NS}}}urlset")
+        ET.ElementTree(empty).write(repo / old_path[1:], encoding="utf-8", xml_declaration=True)
+    def is_extra(line: str) -> bool:
+        label, _, value = line.partition(":")
+        return label.strip().casefold() == "sitemap" and value.strip().startswith(SITE) and bool(
+            _PART.fullmatch(value.strip()[len(SITE):]))
+    base = [line for line in prior.splitlines() if not is_extra(line)]
+    for path in paths[1:]:
+        base.append("Sitemap: " + SITE + path)
+    robots = "\n".join(base) + "\n"
+    if robots != prior:
+        robots_path.write_text(robots, encoding="utf-8")
+    return paths
+
+
+def replace_news_urls(root: ET.Element, pages: dict[str, dict[str, str]], *, preserve_prior: bool = False) -> None:
+    """Aggiorna le URL delle notizie; nel publisher conserva tutte le voci esistenti."""
     flatten(root)
+    existing = set()
     for node in list(root):
         loc = (node.findtext(LOC) or "").strip()
-        if loc.startswith(f"{SITE}/notizie/"):
+        if not preserve_prior and loc.startswith(f"{SITE}/notizie/"):
             root.remove(node)
+        else:
+            existing.add(loc)
     for row in reversed(list(pages.values())):
+        if row["loc"] in existing:
+            continue
         node = ET.Element(URL)
         ET.SubElement(node, LOC).text = row["loc"]
-        ET.SubElement(node, f"{{{SM_NS}}}lastmod").text = row["lastmod"]
+        if row["lastmod"]:
+            ET.SubElement(node, f"{{{SM_NS}}}lastmod").text = row["lastmod"]
         root.insert(0, node)
 
 
@@ -313,14 +466,21 @@ def ensure_approfondimenti(repo: Path) -> list[str]:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description="Controlla le sitemap di CurioMondo")
+    parser.add_argument("--refresh-news", action="store_true",
+                        help="Ricrea solo le sitemap News dalle date di prima pubblicazione")
+    args = parser.parse_args()
     root = Path(__file__).resolve().parents[1]
-    errors: list[str] = []
-    for name in ("sitemap.xml", "news-sitemap.xml"):
-        path = root / name
-        if not path.exists():
-            errors.append(f"assente: {name}")
-            continue
-        errors.extend(structure_errors(path))
+    if args.refresh_news:
+        pages = published_news(root)
+        feed = json.loads((root / "assets/data/home-feed-v210.json").read_text(encoding="utf-8"))
+        titles = {SITE + row["url"]: row["title"] for row in feed["items"]}
+        paths = write_news_sitemaps(root, pages, titles, datetime.now(ROME))
+        print("News Sitemap: " + ", ".join(paths))
+    errors = structure_errors(root / "sitemap.xml")
+    robots = (root / "robots.txt").read_text(encoding="utf-8")
+    _, news_errors = read_news_sitemaps(robots, lambda path: (root / path[1:]).read_bytes())
+    errors.extend(news_errors)
     if errors:
         print("\n".join(errors))
         return 1
@@ -330,4 +490,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-

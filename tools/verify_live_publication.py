@@ -7,9 +7,9 @@ import sys
 import time
 import urllib.request
 from datetime import datetime, timedelta, timezone
-from xml.etree import ElementTree
 from urllib.parse import urlparse, urljoin
 from lxml import html
+from sitemap_urls import read_news_sitemaps
 
 BASE="https://curiomondo.it"
 
@@ -24,6 +24,23 @@ def fetch_bytes(path):
 def fetch(path):
     status,raw=fetch_bytes(path)
     return status,raw.decode("utf-8")
+
+def live_news_urls() -> tuple[set[str], list[str]]:
+    def download(path):
+        status, content = fetch_bytes(path)
+        if status != 200:
+            raise OSError(f"HTTP {status}")
+        return content
+    try:
+        robots = download("/robots.txt").decode("utf-8")
+    except (OSError, UnicodeError) as exc:
+        return set(), [f"robots.txt non verificabile: {exc}"]
+    return read_news_sitemaps(robots, download)
+
+
+def canonical_path(url: str) -> str:
+    return urlparse(url).path.rstrip("/").removesuffix(".html")
+
 
 def main():
     parser=argparse.ArgumentParser()
@@ -54,7 +71,7 @@ def main():
             continue
     if not evergreen and (published is None or published.tzinfo is None):
         errors.append("data di prima pubblicazione assente o non valida")
-    surfaces=("/","/approfondimenti/","/sitemap.xml","/assets/data/search-index-v210.json") if evergreen else ("/","/notizie/","/feed.xml","/sitemap.xml","/news-sitemap.xml")
+    surfaces=("/","/approfondimenti/","/sitemap.xml","/assets/data/search-index-v210.json") if evergreen else ("/","/notizie/","/feed.xml","/sitemap.xml")
     for surface in surfaces:
         try:
             code,body=fetch(surface)
@@ -63,21 +80,22 @@ def main():
             continue
         # Netlify Pretty URLs può rimuovere ".html" dagli href nella risposta
         # pubblica, quindi la superficie si valida sullo slug canonico.
-        if surface=="/news-sitemap.xml":
-            try:
-                ElementTree.fromstring(body)
-            except ElementTree.ParseError:
-                errors.append("News Sitemap XML non valida")
-            recent=published is not None and published.tzinfo is not None and published>=datetime.now(timezone.utc)-timedelta(days=2)
-            if code!=200 or (recent and args.slug not in body):
-                errors.append("notizia recente assente dalla News Sitemap o superficie non disponibile")
-        elif code!=200 or args.slug not in body:
+        if code!=200 or args.slug not in body:
             errors.append(f"articolo assente da {surface}")
         if surface.endswith(".json"):
             try:
                 json.loads(body)
             except json.JSONDecodeError as exc:
                 errors.append(f"indice ricerca non decodificabile: {exc}")
+    listed, news_errors = live_news_urls()
+    errors.extend(news_errors)
+    in_news = canonical_path(article_path) in {canonical_path(url) for url in listed}
+    moment = datetime.now(timezone.utc)
+    recent = published is not None and published.tzinfo is not None and moment - timedelta(hours=48) <= published <= moment
+    if not evergreen and recent and not in_news:
+        errors.append("notizia recente assente dalla News Sitemap")
+    if evergreen and in_news:
+        errors.append("approfondimento nella News Sitemap")
     try:
         feed_status,feed_raw=fetch_bytes("/assets/data/home-feed-v210.json")
         feed=json.loads(feed_raw.decode("utf-8"))
@@ -114,10 +132,9 @@ def main():
                 code,data=fetch_bytes(path)
                 if code!=200 or data[:4]!=b"RIFF" or data[8:12]!=b"WEBP":
                     errors.append(f"immagine WebP non valida: {path}")
-        for surface in ("/feed.xml","/news-sitemap.xml"):
-            code,body=fetch(surface)
-            if code!=200 or args.slug in body:
-                errors.append(f"approfondimento nel flusso breaking o superficie non disponibile: {surface}")
+        code, body = fetch("/feed.xml")
+        if code != 200 or args.slug in body:
+            errors.append("approfondimento nel feed RSS o feed non disponibile")
     if errors:
         print({"live_publication":"fail","slug":args.slug,"errors":errors})
         return 1

@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import urllib.request
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Callable
 from urllib.parse import urljoin
@@ -11,6 +12,7 @@ from urllib.parse import urljoin
 from lxml import html
 
 from .state import Store
+from .site import _sitemap_tools
 
 SITE = "https://curiomondo.it"
 
@@ -43,13 +45,34 @@ def verify_record(
             "archive_contains_article": f"{SITE}/notizie/",
             "feed_contains_article_if_eligible": f"{SITE}/feed.xml",
             "sitemap_contains_article": f"{SITE}/sitemap.xml",
-            "news_sitemap_contains_article_if_eligible": f"{SITE}/news-sitemap.xml",
         }
         needle = public_url.encode("utf-8")
         relative = public_url.removeprefix(SITE).encode("utf-8")
         for name, url in surfaces.items():
             surface_status, payload = fetch(url)
             checks[name] = surface_status == 200 and (needle in payload or relative in payload)
+        metadata = _sitemap_tools()
+        date = None
+        for raw in doc.xpath('//script[@type="application/ld+json"]/text()'):
+            try:
+                entry = metadata._news_object(json.loads(raw))
+                if entry and entry.get("datePublished"):
+                    date = datetime.fromisoformat(entry["datePublished"].replace("Z", "+00:00"))
+                    break
+            except (TypeError, ValueError):
+                continue
+        now = datetime.now(timezone.utc)
+        dated = date is not None and date.tzinfo is not None and date <= now
+        def download(path):
+            code, data = fetch(SITE + path)
+            if code != 200:
+                raise OSError(f"{path}: HTTP {code}")
+            return data
+        robots = download("/robots.txt").decode("utf-8")
+        urls, issues = metadata.read_news_sitemaps(robots, download)
+        checks["news_sitemap_contains_article_if_eligible"] = bool(
+            dated and not issues and (date < now - timedelta(hours=48) or public_url in urls)
+        )
     except Exception as exc:
         return False, checks, f"{type(exc).__name__}:{str(exc)[:160]}"
 

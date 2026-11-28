@@ -467,6 +467,8 @@ def _is_updated(doc, ld, iso: str) -> bool:
         changed = datetime.fromisoformat(modified.replace("Z", "+00:00"))
     except ValueError:
         return False
+    if changed.tzinfo is None or published.tzinfo is None:
+        return False
     return (changed - published) >= timedelta(minutes=2)
 
 
@@ -650,22 +652,58 @@ def sync_surfaces(
     # nel checkout su cui il lotto viene applicato. Una superficie arrivata da
     # uno ZIP più vecchio non può ridurre questo insieme.
     published_pages = sitemap_tools.published_news(ROOT)
+    home_feed_path = ROOT / "assets/data/home-feed-v210.json"
+    home_feed = json.loads(home_feed_path.read_text(encoding="utf-8"))
+    old_by_url = {i.get("url"): i for i in home_feed.get("items", [])}
+    new_by_url = {f"/notizie/{a['slug']}.html": a for a in new_articles}
+    recent_locs = {loc for _, loc in sitemap_tools.news_window(published_pages, datetime.now(ROME))}
+    archive_only = {url for url, row in published_pages.items() if row.get("archive_only")}
+    # An archival page is still a published URL. Its previously published rows
+    # are kept verbatim in the durable surfaces, not assigned an invented hour.
+    archive_path = ROOT / "notizie/index.html"
+    archive = html.fromstring(archive_path.read_text(encoding="utf-8"))
+    main = archive.xpath('//main')[0]
+    ul = main.xpath('./ul')[0]
+    old_archive = {a.get("href"): a.getparent() for a in ul.xpath('./li/a[@href]')}
+    rss_path = ROOT / "feed.xml"
+    tree = ET.parse(rss_path)
+    channel = tree.getroot().find("channel")
+    def rss_url(node):
+        return (node.findtext("guid") or node.findtext("link") or "").strip().removeprefix("https://curiomondo.it")
+    old_rss = {rss_url(node) for node in channel.findall("item")}
+    search_path = ROOT / "assets/data/search-index-v210.json"
+    search = json.loads(search_path.read_text(encoding="utf-8"))
+    old_search = {i.get("url") for i in search.get("items", [])}
+    for label, present in (("archivio", old_archive.keys()), ("RSS", old_rss), ("ricerca", old_search)):
+        missing_legacy = sorted(archive_only - present)
+        if missing_legacy:
+            raise ValueError(f"{label}: articoli storici mancanti: " + ", ".join(missing_legacy))
     infos = []
     parse_errors = []
     for path in (ROOT / "notizie").glob("*.html"):
-        if path.name == "index.html":
+        if path.name == "index.html" or f"/notizie/{path.name}" in archive_only:
             continue
         try:
             info = _article_info(path)
         except Exception as exc:
             parse_errors.append(f"{path.relative_to(ROOT).as_posix()}: {exc}")
             continue
+        url = f"/notizie/{path.name}"
+        if not info and url in published_pages and url not in new_by_url:
+            previous = old_by_url.get(url)
+            row = published_pages[url]
+            # Some older pages have no hero in the current template. Keep
+            # an already published, dated listing; don't use it for fresh pages.
+            if (previous and row["loc"] not in recent_locs
+                    and previous.get("dateISO") == row["published"]
+                    and {"title", "excerpt", "section", "dateLabel", "image", "srcset"} <= previous.keys()):
+                info = dict(previous)
         if info:
             infos.append(info)
     if parse_errors:
         raise RuntimeError("sincronizzazione interrotta; articoli non leggibili:\n- " + "\n- ".join(parse_errors))
     parsed_urls = {item["url"] for item in infos}
-    expected_urls = set(published_pages)
+    expected_urls = set(published_pages) - archive_only
     if parsed_urls != expected_urls:
         missing = sorted(expected_urls - parsed_urls)
         extra = sorted(parsed_urls - expected_urls)
@@ -678,11 +716,6 @@ def sync_surfaces(
     # Match the predeploy tie-breaker so articles published at the same second
     # keep one deterministic order across homepage and validation.
     infos.sort(key=lambda i: (i["dateISO"], i["url"]), reverse=True)
-    new_by_url = {f"/notizie/{a['slug']}.html": a for a in new_articles}
-
-    home_feed_path = ROOT / "assets/data/home-feed-v210.json"
-    home_feed = json.loads(home_feed_path.read_text(encoding="utf-8"))
-    old_by_url = {i.get("url"): i for i in home_feed.get("items", [])}
     feed_items = []
     for info in infos:
         old = old_by_url.get(info["url"], {})
@@ -704,9 +737,7 @@ def sync_surfaces(
     home_feed_path.write_text(json.dumps(home_feed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     _write_home_feed_sidecars(home_feed)
 
-    search_path = ROOT / "assets/data/search-index-v210.json"
-    search = json.loads(search_path.read_text(encoding="utf-8"))
-    other = [i for i in search.get("items", []) if not str(i.get("url", "")).startswith("/notizie/")]
+    other = [i for i in search.get("items", []) if i.get("url") not in parsed_urls]
     search["version"] = version
     search["items"] = [{k: i[k] for k in ("title", "excerpt", "url", "section")} for i in feed_items] + other
     search_path.write_text(json.dumps(search, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -751,17 +782,19 @@ def sync_surfaces(
     home_path.write_text('<!doctype html>\n' + html.tostring(doc, encoding="unicode", method="html"), encoding="utf-8")
     subprocess.run(["node", str(ROOT / "tools/render_home_editorial.js")], cwd=ROOT, check=True)
 
-    archive_path = ROOT / "notizie/index.html"; archive = html.fromstring(archive_path.read_text(encoding="utf-8"))
-    main = archive.xpath('//main')[0]; lead = main.xpath('./p[1]')
-    if lead: lead[0].text = f"{len(visibili)} articoli verificati e promossi, ordinati per data."
-    ul = main.xpath('./ul')[0]
-    for child in list(ul): ul.remove(child)
-    for item in visibili:
+    lead = main.xpath('./p[1]')
+    for child in list(ul):
+        ul.remove(child)
+    for item in feed_items:
         li = etree.SubElement(ul, "li"); a = etree.SubElement(li, "a", href=item["url"])
         etree.SubElement(a, "strong").text = item["title"]; etree.SubElement(a, "span").text = item["dateLabel"]
+    for url, child in old_archive.items():
+        if url not in parsed_urls:
+            ul.append(child)
+    if lead:
+        lead[0].text = f"{len(ul)} articoli verificati e promossi, ordinati per data."
     archive_path.write_text('<!doctype html>\n' + html.tostring(archive, encoding="unicode", method="html"), encoding="utf-8")
 
-    rss_path = ROOT / "feed.xml"; tree = ET.parse(rss_path); channel = tree.getroot().find("channel")
     # Il feed contiene anche Domanda del giorno, eBook e guide. Il deploy
     # AdSense rigenera le sole notizie: conservarne gli item non-news evita
     # che il build cancelli dal feed il pacchetto quotidiano appena pubblicato.
@@ -769,8 +802,7 @@ def sync_surfaces(
     for node in list(channel):
         if node.tag != "item":
             continue
-        target = (node.findtext("guid") or node.findtext("link") or "").strip()
-        if "/notizie/" not in target:
+        if rss_url(node) not in parsed_urls:
             preserved.append(node)
         channel.remove(node)
     news_nodes = []
@@ -791,25 +823,17 @@ def sync_surfaces(
     _ensure_websub(channel)
     ET.indent(tree, space="  "); tree.write(rss_path, encoding="utf-8", xml_declaration=True)
 
-    ET.register_namespace("", SM_NS); ET.register_namespace("news", NEWS_NS)
-    news_root = ET.Element(f"{{{SM_NS}}}urlset"); cutoff = datetime.now(ROME) - timedelta(days=2)
-    for item in feed_items:
-        dt = datetime.fromisoformat(item["dateISO"].replace("Z", "+00:00")).astimezone(ROME)
-        if dt < cutoff: continue
-        u = ET.SubElement(news_root, f"{{{SM_NS}}}url"); ET.SubElement(u, f"{{{SM_NS}}}loc").text = "https://curiomondo.it" + item["url"]
-        news = ET.SubElement(u, f"{{{NEWS_NS}}}news"); pub = ET.SubElement(news, f"{{{NEWS_NS}}}publication")
-        ET.SubElement(pub, f"{{{NEWS_NS}}}name").text = "CurioMondo"; ET.SubElement(pub, f"{{{NEWS_NS}}}language").text = "it"
-        ET.SubElement(news, f"{{{NEWS_NS}}}publication_date").text = item["dateISO"]
-        ET.SubElement(news, f"{{{NEWS_NS}}}title").text = item["title"]
-    news_tree = ET.ElementTree(news_root); ET.indent(news_tree, space="  ")
-    news_tree.write(ROOT / "news-sitemap.xml", encoding="utf-8", xml_declaration=True)
+    sitemap_tools.write_news_sitemaps(
+        ROOT, published_pages, {"https://curiomondo.it" + item["url"]: item["title"] for item in feed_items},
+        datetime.now(ROME),
+    )
 
     sitemap = ET.parse(ROOT / "sitemap.xml"); sm_root = sitemap.getroot()
     sitemap_tools.flatten(sm_root)
     nesting = sitemap_tools.tree_errors(sm_root, "sitemap.xml")
     if nesting:
         raise RuntimeError("sitemap non valida dopo la correzione: " + "; ".join(nesting))
-    sitemap_tools.replace_news_urls(sm_root, published_pages)
+    sitemap_tools.replace_news_urls(sm_root, published_pages, preserve_prior=True)
     ET.indent(sitemap, space="  "); sitemap.write(ROOT / "sitemap.xml", encoding="utf-8", xml_declaration=True)
     sitemap_tools.ensure_approfondimenti(ROOT)
 

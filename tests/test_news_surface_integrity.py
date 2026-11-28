@@ -1,6 +1,7 @@
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timedelta
+import hashlib
 import importlib.util
 import json
 from pathlib import Path
@@ -154,6 +155,93 @@ class NewsSurfaceIntegrityTests(unittest.TestCase):
                 site.sync_surfaces([], "", 1, update_manifest=False)
         finally:
             site.ROOT = previous
+
+
+    def setup_historical_sample(self) -> Path:
+        old = article("storica", "2026-08-13")
+        nameless = article("senza", "2026-08-13").replace("NewsArticle", "WebPage")
+        repo = build_repo(self.tmp_path, ["storica", "senza", "nuova"], pages={
+            "storica": old, "senza": nameless,
+            "nuova": article("nuova", "2026-11-28T05:00:00+01:00"),
+        })
+        (repo / "tools").mkdir()
+        (repo / "tools/news_legacy_archive.json").write_text(json.dumps({
+            "notizie/storica.html": {"sha256": hashlib.sha256(old.encode()).hexdigest(), "datePublished": "2026-08-13"},
+            "notizie/senza.html": {"sha256": hashlib.sha256(nameless.encode()).hexdigest(), "datePublished": None},
+        }), encoding="utf-8")
+        (repo / "assets/data/home-feed-v210.json").write_text(
+            json.dumps({"items": [{"url": "/notizie/nuova.html"}]}), encoding="utf-8"
+        )
+        (repo / "news-sitemap.xml").write_text(urlset(["https://curiomondo.it/notizie/nuova.html"]), encoding="utf-8")
+        return repo
+
+    def test_storiche_preservate_senza_orario_inventato(self) -> None:
+        repo = self.setup_historical_sample()
+        inventory = sitemap_urls.published_news(repo)
+        self.assertEqual(inventory["/notizie/storica.html"]["published"], "2026-08-13")
+        self.assertEqual(inventory["/notizie/senza.html"]["published"], "")
+        now = datetime.fromisoformat("2026-11-28T05:30:00+01:00")
+        self.assertEqual(sitemap_urls.news_completeness_errors(repo, now=now), [])
+        self.assertEqual([u for _, u in sitemap_urls.news_window(inventory, now)],
+                         ["https://curiomondo.it/notizie/nuova.html"])
+        (repo / "feed.xml").write_text("<rss><channel></channel></rss>", encoding="utf-8")
+        errors = "\n".join(sitemap_urls.news_completeness_errors(repo, now=now))
+        self.assertIn("/notizie/storica.html", errors)
+        self.assertIn("/notizie/senza.html", errors)
+
+    def test_articolo_nuovo_o_storico_modificato_con_dati_incompleti_fallisce(self) -> None:
+        repo = self.setup_historical_sample()
+        (repo / "notizie/nuova.html").write_text(article("nuova", "2026-11-28"), encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "nuova.html: datePublished senza fuso"):
+            sitemap_urls.published_news(repo)
+        (repo / "notizie/nuova.html").write_text(
+            article("nuova", "2026-11-28T05:00:00+01:00"), encoding="utf-8")
+        old = repo / "notizie/storica.html"
+        old.write_text(old.read_text() + "<!-- file modificato -->", encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "storica.html: datePublished senza fuso"):
+            sitemap_urls.published_news(repo)
+
+    def test_non_si_puo_togliere_una_storica_ne_deindicizzarla(self) -> None:
+        repo = self.setup_historical_sample()
+        historic = repo / "notizie/storica.html"
+        historic.write_text(article("storica", "2026-08-13", noindex=True), encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "storica.html: pagina storica deindicizzata"):
+            sitemap_urls.published_news(repo)
+        historic.unlink()
+        with self.assertRaisesRegex(ValueError, "storica.html: pagina storica mancante"):
+            sitemap_urls.published_news(repo)
+
+    def test_news_sitemap_oltre_mille_partizioni_verificate(self) -> None:
+        repo = self.tmp_path
+        (repo / "robots.txt").write_text(
+            "User-agent: *\nSitemap: https://curiomondo.it/sitemap.xml\n", encoding="utf-8")
+        now = datetime.fromisoformat("2026-11-28T05:30:00+01:00")
+        pages = {
+            str(i): {"published": (now - timedelta(minutes=i)).isoformat(),
+                     "loc": f"https://curiomondo.it/notizie/lotto-{i}.html"} for i in range(1001)
+        }
+        titles = {page["loc"]: "Titolo " + i for i, page in pages.items()}
+        files = sitemap_urls.write_news_sitemaps(repo, pages, titles, now)
+        self.assertEqual(files, ["/news-sitemap.xml", "/news-sitemap-2.xml"])
+        reader = lambda loc: (repo / loc[1:]).read_bytes()
+        robots = (repo / "robots.txt").read_text()
+        urls, errors = sitemap_urls.read_news_sitemaps(robots, reader)
+        self.assertFalse(errors)
+        self.assertEqual(urls, set(titles))
+        self.assertEqual([len(ET.fromstring(reader(loc))) for loc in files], [1000, 1])
+        (repo / "news-sitemap-2.xml").write_text(urlset([pages["0"]["loc"]]), encoding="utf-8")
+        self.assertTrue(any("URL ripetuti" in x for x in sitemap_urls.read_news_sitemaps(robots, reader)[1]))
+        (repo / "news-sitemap-2.xml").unlink()
+        self.assertTrue(any("non verificabile" in x for x in sitemap_urls.read_news_sitemaps(robots, reader)[1]))
+
+    def test_sitemap_additiva_conserva_metadati_e_url_anteriore(self) -> None:
+        root = ET.fromstring(urlset(["https://curiomondo.it/notizie/legacy.html"]))
+        prior = list(root)[0]
+        ET.SubElement(prior, f"{{{sitemap_urls.SM_NS}}}lastmod").text = "2026-08-13"
+        sitemap_urls.replace_news_urls(root, {"news": {"loc": "https://curiomondo.it/notizie/fresh.html",
+                                                       "lastmod": "2026-11-28"}}, preserve_prior=True)
+        self.assertIn(prior, list(root))
+        self.assertEqual(prior.findtext(f"{{{sitemap_urls.SM_NS}}}lastmod"), "2026-08-13")
 
 
 if __name__ == "__main__":
