@@ -1,17 +1,305 @@
 {
-  "version": 1703,
+  "version": 1705,
   "items": [
     {
-      "title": "A38, North Somerset torna in gara per i lavori in nove punti",
-      "excerpt": "La tabella di marcia aggiornata prevede una nuova procedura fra inverno e primavera. I cantieri sono attesi per l’estate 2027.",
-      "url": "/notizie/north-somerset-a38-nuova-gara-lavori-nove-punti-28-novembre-2026.html",
+      "title": "Hamilton, parcheggio gratuito a Garden Place in cinque date festive",
+      "excerpt": "La prima fascia è il 28 novembre. Il calendario del Comune ne prevede altre quattro fino al 26 dicembre, con regole diverse per la sosta in strada.",
+      "url": "/notizie/nuova-zelanda-hamilton-parcheggi-gratis-garden-place-natale-28-novembre-2026.html",
       "section": "Mondo"
     },
     {
-      "title": "Servizi mobili via satellite, il Consiglio UE cerca un’intesa",
-      "excerpt": "Il 1° dicembre i ministri delle Telecomunicazioni discuteranno anche reti digitali e investimenti nel cloud e nell’intelligenza artificiale.",
-      "url": "/notizie/consiglio-ue-telecomunicazioni-servizi-mobili-satellitari-dicembre-28-novembre-2026.html",
+      "title": "Hong Kong, una mostra sul lungomare apre il mese del test HIV",
+      "excerpt": "L’iniziativa di Kwun Tong dura due giorni. Il programma pubblico del Dipartimento della Salute prosegue fino al 31 dicembre.",
+      "url": "/notizie/hong-kong-kwun-tong-mostra-hiv-mese-test-2026-28-novembre-2026.html",
+      "section": "Mondo / Salute"
+    },
+    {
+      "title": "Hong Kong, proposta un’assicurazione obbligatoria per i rider delle app",
+      "excerpt": "Il disegno di legge sugli infortuni per chi effettua consegne sarà presentato al Consiglio legislativo il 9 dicembre.",
+      "url": "/notizie/hong-kong-disegno-legge-indennizzi-infortuni-rider-28-novembre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Hong Kong, il Central Kowloon Bypass sarà completo dal 6 dicembre",
+      "excerpt": "Con il collegamento di Kowloon Bay scatterà il pedaggio fisso di 8 dollari di Hong Kong. Previsti nuovi instradamenti per tre linee di autobus.",
+      "url": "/notizie/hong-kong-central-kowloon-bypass-6-dicembre-pedaggio-28-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Vanuatu e Australia, entra in vigore l’accordo di cooperazione Nakamal",
+      "excerpt": "L’intesa era stata firmata a giugno. Prevede un comitato bilaterale, cooperazione sulle rinnovabili e nuove opportunità di formazione.",
+      "url": "/notizie/vanuatu-australia-entrata-vigore-accordo-nakamal-28-novembre-2026.html",
+      "section": "Mondo / Politica"
+    },
+    {
+      "title": "Sudafrica, il governo dà il via libera alla consultazione sulla riforma ferroviaria",
+      "excerpt": "La bozza del National Rail Bill affronta accesso alla rete, investimenti e servizi per merci e passeggeri. Sarà pubblicata per 30 giorni per raccogliere osservazioni.",
+      "url": "/notizie/sudafrica-riforma-ferrovie-national-rail-bill-consultazione-28-novembre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Nuova Scozia, 18 alloggi a canone accessibile nel progetto di Springhill",
+      "excerpt": "Il complesso in Crossin Street conta 21 abitazioni complessive. I primi residenti sono entrati e alcuni appartamenti sono ancora in completamento.",
+      "url": "/notizie/springhill-canada-alloggi-canone-accessibile-colliery-commons-28-novembre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Manitoba, aperto il nuovo ponte sul Morris River vicino a Brunkild",
+      "excerpt": "Il ponte permanente sulla provinciale 3 rimpiazza la struttura del 1963. Il tratto è percorso da circa 4.000 veicoli al giorno.",
+      "url": "/notizie/canada-manitoba-nuovo-ponte-morris-river-brunkild-28-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Australia, il Parlamento approva la riserva di gas per il mercato interno",
+      "excerpt": "Gli esportatori di GNL dovranno destinare al mercato australiano fino al 20% dei volumi esportati. L’obbligo di fornitura scatterà nel 2028.",
+      "url": "/notizie/australia-riserva-nazionale-gas-esportazioni-gnl-28-novembre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Varsavia, ultimo fine settimana per la fiera del libro storico al Castello reale",
+      "excerpt": "La 34ª edizione resta aperta sabato fino alle 18 e domenica fino alle 17. L’ingresso è gratuito; nel programma anche incontri con autori e illustratori.",
+      "url": "/notizie/varsavia-fiera-libro-storico-arkady-kubickiego-28-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Stellenbosch, ultima giornata per il mercato natalizio nella nuova sede",
+      "excerpt": "Il Kersmark si conclude sabato 28 novembre alle 16. L’edizione di quest’anno è ospitata dalla scuola superiore di Mostertsdrift e l’ingresso è gratuito.",
+      "url": "/notizie/stellenbosch-kersmark-ultima-giornata-nuova-sede-28-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Polonia, neve ancora prevista a sud sabato dopo il coordinamento dei servizi",
+      "excerpt": "L’istituto meteorologico prevede precipitazioni concentrate nel sud nel fine settimana. Il ministero ha riunito gestori stradali e ferroviari e autorità locali.",
+      "url": "/notizie/polonia-neve-sud-monitoraggio-strade-ferrovie-28-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Brasile, gara per il Forte Orange: concessione di 30 anni e 9 milioni di real previsti",
+      "excerpt": "Il ministero del Turismo ha presentato il bando per il restauro e l’uso turistico della fortificazione di Itamaracá. La proprietà resta pubblica.",
+      "url": "/notizie/brasile-itamaraca-forte-orange-concessione-revive-28-novembre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Regno Unito, Londra prepara un registro per chi verifica i bilanci di sostenibilità",
+      "excerpt": "Il governo conferma il progetto dopo 99 risposte alla consultazione. L’iscrizione sarebbe volontaria e il registro consultabile pubblicamente.",
+      "url": "/notizie/regno-unito-registro-volontario-verificatori-sostenibilita-28-novembre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Giappone, la pomice nera racconta l’ultima fase dell’eruzione del Fukutoku",
+      "excerpt": "Gli esperimenti riproducono i minuscoli cristalli della roccia in condizioni vicine alla superficie. La ricerca riguarda l’eruzione del 2021.",
+      "url": "/notizie/giappone-pomice-nera-fukutoku-eruzione-2021-cristalli-28-novembre-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "Dai gusci di baru un carbone che trattiene un colorante: la prova in laboratorio",
+      "excerpt": "Il materiale ottenuto da un sottoprodotto vegetale ha conservato parte della capacità di rimozione dopo quattro cicli. Il test ha riguardato una sola miscela.",
+      "url": "/notizie/brasile-gusci-baru-biochar-rimozione-colorante-prove-28-novembre-2026.html",
       "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Brasile, 184,55 milioni di real per finanziare ricerca e produzione nelle telecomunicazioni",
+      "excerpt": "Il fondo pubblico Funttel mette le risorse a disposizione tramite una linea di credito gestita da Finep. Il contratto è stato pubblicato il 26 novembre.",
+      "url": "/notizie/brasile-funttel-finep-credito-industria-telecomunicazioni-28-novembre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Batterie e fotovoltaico, in una simulazione conta quanto la batteria scarica davvero",
+      "excerpt": "Su 17 edifici simulati, un errore nell’esecuzione del comando ha inciso sui costi più di un errore nella stima della carica.",
+      "url": "/notizie/batterie-fotovoltaico-citylearn-edifici-simulazione-errori-28-novembre-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Vietnam, le rinnovabili sono associate a una minore intensità di carbonio",
+      "excerpt": "Una ricerca su dati dal 1990 al 2024 distingue le emissioni per unità di attività economica dalle emissioni complessive.",
+      "url": "/notizie/vietnam-rinnovabili-intensita-carbonio-studio-1990-2024-28-novembre-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "Uganda, uno studio legge insieme pioggia, temperatura e crescita economica",
+      "excerpt": "Il lavoro analizza le serie annuali dal 1990 al 2024. I legami stimati cambiano a seconda del periodo e del metodo usato.",
+      "url": "/notizie/uganda-indice-clima-pioggia-temperatura-sviluppo-1990-2024-28-novembre-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "Mappe del carbonio nel suolo, l’IA è meno precisa quando cambia territorio",
+      "excerpt": "Una revisione pubblicata il 28 novembre confronta i metodi di verifica e mette in guardia dalle prove su campioni troppo vicini.",
+      "url": "/notizie/carbonio-organico-suoli-ia-mappe-validazione-spaziale-28-novembre-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "Australia, una mappa della pioggia attorno a oltre 11 mila scuole",
+      "excerpt": "Lo studio collega i dati delle precipitazioni del 2025 alle sedi scolastiche. Oltre 440 mila iscrizioni ricadono nel gruppo a maggiore esposizione.",
+      "url": "/notizie/australia-pioggia-cortili-scuole-esposizione-2025-28-novembre-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "Carburante agricolo agevolato in Umbria, pratiche riaperte fino al 30 novembre",
+      "excerpt": "I centri di assistenza agricola e i soggetti abilitati possono completare le pratiche pendenti sul portale GARI. Valide anche le trasmissioni dal 24 ottobre.",
+      "url": "/notizie/umbria-carburante-agricolo-uma-gari-riapertura-30-novembre-28-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Lecco, nel Fascicolo sanitario arrivano anche le immagini degli esami ambulatoriali",
+      "excerpt": "L’ASST ha attivato il collegamento all’archivio regionale: ora si possono consultare e scaricare le immagini associate ai referti di Radiodiagnostica e Medicina nucleare.",
+      "url": "/notizie/lecco-fascicolo-sanitario-immagini-radiodiagnostica-medicina-nucleare-28-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Bologna, dal 1° dicembre gli orari della linea 35 tra stazione e facoltà",
+      "excerpt": "Il nuovo libretto TPER copre il periodo fino al 5 giugno 2027. Per le vacanze natalizie occorre consultare la tabella non scolastica.",
+      "url": "/notizie/bologna-tper-linea-35-orari-invernali-1-dicembre-28-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "A12, due chiusure in direzione Genova tra sabato e domenica notte",
+      "excerpt": "Sabato 28 chiude fra Genova Est e l’A7; domenica 29 tocca a Nervi-Genova Est. Cambiano anche le deviazioni.",
+      "url": "/notizie/a12-genova-est-nervi-a7-deviazioni-weekend-28-29-28-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Roma-Santo Domingo, il volo diretto ITA Airways parte il 30 novembre",
+      "excerpt": "Il collegamento stagionale da Fiumicino comincia con una partenza ogni lunedì. Da metà dicembre il programma aggiunge la domenica.",
+      "url": "/notizie/ita-airways-roma-santo-domingo-diretto-debutto-30-novembre-28-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Gestione Separata, l’INPS chiarisce cosa fare con le vecchie domande di ricongiunzione",
+      "excerpt": "Il messaggio del 26 novembre distingue le pratiche ancora aperte da quelle accettate senza i periodi della Gestione Separata.",
+      "url": "/notizie/inps-gestione-separata-casse-ricongiunzione-domande-precedenti-febbraio-28-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Sci di fondo, Julie Pierrel e Sabin Coupat vincono la 10 km di Bessans",
+      "excerpt": "Nel circuito nazionale francese i due fondisti si impongono nelle prove a cronometro in classico. Il podio femminile è racchiuso in 9,2 secondi.",
+      "url": "/notizie/fondo-bessans-10-km-classica-julie-pierrel-sabin-coupat-28-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "Bus Tirreno Nord, Fiumicino porta in Consiglio la convenzione sui servizi integrativi",
+      "excerpt": "Il nuovo assetto è previsto dal 30 novembre per 18 Comuni. A Fiumicino la copertura dei servizi integrativi è all’ordine del giorno del Consiglio.",
+      "url": "/notizie/fiumicino-tirreno-nord-trasporto-30-novembre-convenzione-28-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Rugby a sette, Australia subito vincente a Dubai con donne e uomini",
+      "excerpt": "Le australiane superano la Francia 31-12, gli uomini battono gli Stati Uniti 22-10. Doppiette di Maddison Levi e Henry Hutchison.",
+      "url": "/notizie/rugby-sevens-dubai-australia-vittorie-francia-stati-uniti-28-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "Rugby, il Benetton batte i Queensland Reds 22-20 e vince la prima Lynagh Cup",
+      "excerpt": "A Treviso decidono i punti al piede di Jean Smith, nonostante le quattro mete australiane. Sebastian Negri miglior giocatore.",
+      "url": "/notizie/rugby-benetton-queensland-reds-monigo-22-20-lynagh-cup-28-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "NBA, Paolo Banchero non gioca contro Washington: Orlando ancora senza il suo lungo",
+      "excerpt": "Il bollettino del 28 novembre indica Banchero indisponibile per la distorsione alla caviglia destra. Anthony Black resta in dubbio.",
+      "url": "/notizie/nba-orlando-washington-paolo-banchero-indisponibile-28-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "MLS, Vancouver elimina il Real Salt Lake con un gol di Sabbi e un salvataggio sulla linea",
+      "excerpt": "L’1-0 a Sandy chiude la serie in due gare. Laborda respinge di testa il tentativo di Solans sull’ultima azione.",
+      "url": "/notizie/mls-vancouver-whitecaps-real-salt-lake-1-0-sabbi-laborda-28-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "Ciclocross, a Castelletto si corre per il titolo regionale giovanile a staffetta",
+      "excerpt": "La gara parte alle 14:30 a Valsamoggia. I quartetti misti possono partecipare, ma per il titolo contano solo quelli di una stessa società.",
+      "url": "/notizie/ciclocross-valsamoggia-castelletto-team-relay-san-martino-28-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "Venezia, il vibrafono di Saverio Tasca alle Sale Apollinee della Fenice",
+      "excerpt": "Il concerto è in programma il 2 dicembre alle 19. Nel trio jazz con Tasca suonano Alessio Zoratto e Luca Colussi.",
+      "url": "/notizie/venezia-saverio-tasca-vibrafono-fenice-28-novembre-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Sorrento, due film di Peter Greenaway alle Giornate di Cinema",
+      "excerpt": "Al Teatro Tasso il 1° dicembre I misteri del giardino di Compton House e il 4 dicembre I racconti del cuscino. Entrambe le proiezioni alle 18.",
+      "url": "/notizie/sorrento-omaggio-peter-greenaway-giornate-cinema-28-novembre-2026.html",
+      "section": "Film e serie TV"
+    },
+    {
+      "title": "MLS, il Columbus elimina l’Inter Miami di Messi: Rodríguez decide al 92º",
+      "excerpt": "Il Crew vince gara 2 per 1-0 e passa alle semifinali a Est. Miami, campione in carica, chiude la serie senza gol.",
+      "url": "/notizie/mls-columbus-crew-elimina-inter-miami-messi-rodriguez-28-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "Pinter al PACTA di Milano, ultime repliche per Il Calapranzi e Problema",
+      "excerpt": "Due atti unici nella regia di Riccardo Magherini: sabato alle 19.30 e domenica alle 17.30 nel teatro di via Ulisse Dini.",
+      "url": "/notizie/milano-pinter-calapranzi-problema-pacta-28-novembre-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Morte a Venezia torna al cinema Arlecchino di Milano per l’omaggio a Visconti",
+      "excerpt": "Domenica 29 novembre alle 15 il film del 1971 è in programma in versione originale con sottotitoli italiani.",
+      "url": "/notizie/milano-morte-venezia-film-cineteca-arlecchino-28-novembre-2026.html",
+      "section": "Film e serie TV"
+    },
+    {
+      "title": "Trento, la Sala Codici del Buonconsiglio apre al pubblico per FotoFesta",
+      "excerpt": "Il 29 novembre tre visite gratuite mettono insieme le fotografie di Laurence Feininger e brani eseguiti dai manoscritti.",
+      "url": "/notizie/trento-fotofesta-sala-codici-feininger-28-novembre-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Siena accende le luminarie del centro e gli alberi dei quartieri",
+      "excerpt": "Si parte alle 17 di sabato 28 novembre. I mercatini cominciano domenica e il Mercato nel Campo è fissato dal 4 all’8 dicembre.",
+      "url": "/notizie/siena-luminarie-centro-alberi-periferie-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
+    },
+    {
+      "title": "Fantafestival a Roma, Pupi Avati apre cinque giorni di cinema fantastico",
+      "excerpt": "Dal 1° al 5 dicembre alla Casa del Cinema. La prima serata comprende una premiazione e l’omaggio a La casa dalle finestre che ridono.",
+      "url": "/notizie/roma-fantafestival-cinema-pupi-avati-28-novembre-2026.html",
+      "section": "Film e serie TV"
+    },
+    {
+      "title": "Il Diario di Eva a Roma, Mark Twain diventa un’opera per due voci",
+      "excerpt": "Il 1° dicembre alla Pelanda, Gaia Bella e Felicita Brusoni interpretano la stessa protagonista tra danza, parola e canto.",
+      "url": "/notizie/roma-diario-eva-nuova-consonanza-28-novembre-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Poggibonsi, il Natale parte in centro: il grande albero si accende domenica",
+      "excerpt": "Il cartellone promosso dal Centro commerciale naturale comincia sabato 28 novembre. Piazza Berlinguer ospita il polo per i bambini.",
+      "url": "/notizie/poggibonsi-natale-2026-centro-programma-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
+    },
+    {
+      "title": "Villafranca Piemonte inaugura il polo dell’infanzia: il nido ha 30 posti",
+      "excerpt": "La nuova sede è stata finanziata anche dal PNRR. La scuola statale dell’infanzia è prevista in un secondo tempo, dall’anno scolastico 2027/2028.",
+      "url": "/notizie/villafranca-piemonte-nuovo-polo-infanzia-nido-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
+    },
+    {
+      "title": "La Biblioteca Centrale di Torino aprirà al Valentino l’11 dicembre",
+      "excerpt": "Il Comune ha reso noto il programma dei tre giorni inaugurali negli ex padiglioni fieristici. Il primo ingresso per il pubblico è previsto a mezzogiorno.",
+      "url": "/notizie/torino-biblioteca-valentino-apertura-programma-dicembre-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
+    },
+    {
+      "title": "Seriate dedica la Festa dei diritti all’accesso di bambini e ragazzi alla cultura",
+      "excerpt": "Sabato 28 novembre la biblioteca Gambirasio ospita teatro, letture e laboratori gratuiti. Per parte delle attività è prevista l’iscrizione.",
+      "url": "/notizie/seriate-festa-diritti-biblioteca-gambirasio-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
+    },
+    {
+      "title": "Rho apre il Natale in piazza San Vittore, poi le luci arrivano nelle frazioni",
+      "excerpt": "Albero e presepe sabato 28, villaggio e pista domenica 29. Le proiezioni partono in centro e raggiungono altre zone con accensioni in giorni diversi.",
+      "url": "/notizie/rho-natale-albero-proiezioni-frazioni-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
+    },
+    {
+      "title": "Lugo, riapre la piscina comunale con uno spogliatoio per le famiglie",
+      "excerpt": "Tornano le attività nelle vasche coperte. Per i primi quindici giorni le tribune restano chiuse, ma gli accompagnatori possono aspettare al bar.",
+      "url": "/notizie/lugo-piscina-comunale-riapertura-spogliatoi-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
     },
     {
       "title": "West Suffolk, il bilancio deve assorbire 1,67 milioni di sterline",
@@ -20,22 +308,22 @@
       "section": "Mondo / Economia"
     },
     {
-      "title": "Thanet, nove spiagge restano chiuse tra Broadstairs e Ramsgate",
-      "excerpt": "L’ultimo aggiornamento del distretto distingue la costa orientale, ancora in bonifica, dal tratto tra Minnis Bay e Palm Bay.",
-      "url": "/notizie/thanet-spiagge-chiuse-broadstairs-ramsgate-residui-petrolio-28-novembre-2026.html",
-      "section": "Mondo / Ambiente"
+      "title": "Volley in Giappone, Tokyo batte Sakai 3-1: a Rinaldi non bastano 12 punti",
+      "excerpt": "I Great Bears vincono per la seconda volta a Wakayama. Luciano Vicentín firma 21 punti; l’italiano è tra i migliori di Sakai.",
+      "url": "/notizie/volley-giappone-tokyo-great-bears-sakai-rinaldi-3-1-28-novembre-2026.html",
+      "section": "Sport"
     },
     {
-      "title": "East Hampshire finanzia 21 interventi locali per clima e natura",
-      "excerpt": "Il distretto assegna 128.774 sterline a progetti fra cui un giardino scolastico, il recupero di stagni e il risparmio energetico.",
-      "url": "/notizie/east-hampshire-21-progetti-locali-clima-finanziamenti-28-novembre-2026.html",
-      "section": "Mondo / Ambiente"
+      "title": "Trofarello, il nuovo giardino per i bambini da zero a sei anni apre a Valle Sauglio",
+      "excerpt": "Sabato 28 novembre in via San Rocco si inaugura lo spazio giochi. Il Comune abbina al taglio del nastro il benvenuto ai bambini nati nell’ultimo anno.",
+      "url": "/notizie/trofarello-valle-sauglio-nuovo-spazio-gioco-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
     },
     {
-      "title": "Nando Snozzi, a Bellinzona un’opera su carta lunga 22,5 metri",
-      "excerpt": "A Castel Grande l’opera del 1999–2000 dialoga con circa ottanta disegni recenti. La mostra apre il 28 novembre.",
-      "url": "/notizie/bellinzona-nando-snozzi-22-metri-mostra-castel-grande-28-novembre-2026.html",
-      "section": "Mondo / Cultura"
+      "title": "Torino, ultimo giorno per vedere i bozzetti di Ferruccio Ascari alla Biblioteca Nazionale",
+      "excerpt": "Sabato la mostra resta visitabile fino alle 17:30. Al mattino un incontro sull’archivio dell’ospedale psichiatrico di Collegno.",
+      "url": "/notizie/torino-biblioteca-nazionale-ascari-bozzetti-carte-da-legare-28-novembre-2026.html",
+      "section": "Italia / Cultura"
     },
     {
       "title": "Tolosa, divieto per i cortei non dichiarati in centro fino alle 3 di domenica",
@@ -44,28 +332,58 @@
       "section": "Mondo"
     },
     {
+      "title": "Thanet, nove spiagge restano chiuse tra Broadstairs e Ramsgate",
+      "excerpt": "L’ultimo aggiornamento del distretto distingue la costa orientale, ancora in bonifica, dal tratto tra Minnis Bay e Palm Bay.",
+      "url": "/notizie/thanet-spiagge-chiuse-broadstairs-ramsgate-residui-petrolio-28-novembre-2026.html",
+      "section": "Mondo / Ambiente"
+    },
+    {
       "title": "Sudafrica, possibili interruzioni per i portali del fisco e della dogana nel weekend",
       "excerpt": "L’autorità delle entrate ha annunciato due finestre di manutenzione tra il 28 e il 29 novembre. I disservizi possono essere intermittenti.",
       "url": "/notizie/sudafrica-fisco-dogana-manutenzione-sars-28-novembre-2026.html",
       "section": "Mondo / Economia"
     },
     {
-      "title": "Scozia, a Oban chiude per mezz’ora un tratto della A85",
-      "excerpt": "Traffic Scotland prevede la chiusura verso ovest dalle 17 alle 17:30. L’ordinanza individua un tratto urbano di circa 750 metri.",
-      "url": "/notizie/oban-a85-chiusura-tratto-urbano-28-novembre-2026.html",
-      "section": "Mondo"
+      "title": "Sestri Levante, una mostra confronta un secolo di fotografie della costa",
+      "excerpt": "Apre sabato alle 11 a Palazzo Fascie. In mostra anche immagini da negativi inediti e un libro-oggetto realizzato con le scuole.",
+      "url": "/notizie/sestri-levante-costa-palazzo-fascie-negativi-sertorio-28-novembre-2026.html",
+      "section": "Italia / Cultura"
     },
     {
-      "title": "Samoa Rémy, a Mendrisio apre la mostra dedicata all’aria",
-      "excerpt": "Il Museo d’Arte inaugura sabato alle 18. La personale riunisce il lavoro dell’artista e una monografia con un’intervista.",
-      "url": "/notizie/mendrisio-samoa-remy-mostra-ocean-air-28-novembre-2026.html",
-      "section": "Mondo / Cultura"
+      "title": "Spegnere a intervalli i sensori ambientali riduce i consumi, ma lascia misure scoperte",
+      "excerpt": "Il modello stima un risparmio più piccolo sul dispositivo completo che sul solo sensore. Nella prova sei eventi su 35 non sono stati rilevati.",
+      "url": "/notizie/sensori-ambientali-consumo-attivazione-previsione-28-novembre-2026.html",
+      "section": "Mondo / Tecnologia"
     },
     {
-      "title": "Lugano, la Biennale del territorio si chiude a Villa Saroli",
-      "excerpt": "La sesta edizione termina sabato 28 novembre. In programma il bilancio della rassegna, un nuovo allestimento e un’installazione sonora.",
-      "url": "/notizie/lugano-chiusura-biennale-svizzera-territorio-villa-saroli-28-novembre-2026.html",
-      "section": "Mondo / Cultura"
+      "title": "Senna Comasco, rinviata l’inaugurazione dell’area cani in via Rovelli",
+      "excerpt": "Il Comune ha aggiornato la scheda sabato 28 novembre: l’appuntamento delle 14.30 non si terrà e non è stata indicata una nuova data.",
+      "url": "/notizie/senna-comasco-via-rovelli-area-cani-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
+    },
+    {
+      "title": "Senago, torna la pista di ghiaccio in piazza Tricolore fino al 10 gennaio",
+      "excerpt": "L’apertura di sabato 28 novembre è annunciata alle 15.30. Orari diversi fra feriali, festivi e giorno di Natale.",
+      "url": "/notizie/senago-piazza-tricolore-pista-pattinaggio-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
+    },
+    {
+      "title": "Treni in Sardegna, il nuovo orario invernale punta su collegamenti più regolari",
+      "excerpt": "Regione e Trenitalia stanno definendo le corse dalla seconda metà di dicembre. Previsti più collegamenti tra Cagliari e Macomer e novità per il sabato.",
+      "url": "/notizie/sardegna-treni-orario-invernale-sassari-olbia-macomer-28-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Robotica all’università, partire da un simulatore semplice può aiutare a capire i movimenti",
+      "excerpt": "In una prova con 16 partecipanti, iniziare da uno strumento meno complesso ha favorito le prime spiegazioni di come funzionano i giunti.",
+      "url": "/notizie/robotica-universita-simulatore-semplice-studio-didattica-28-novembre-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Rimini, «A spasso con i libri» ospita Daniele Bianchi e Massimiliano Sartini",
+      "excerpt": "Incontro domenica 29 dalle 16:30 nella Sala degli Arazzi del Museo della Città. L’ingresso è libero fino a esaurimento posti.",
+      "url": "/notizie/rimini-a-spasso-libri-bianchi-sartini-museo-citta-28-novembre-2026.html",
+      "section": "Italia / Cultura"
     },
     {
       "title": "Australia, la banca centrale fissa le otto riunioni sui tassi del 2028",
@@ -74,28 +392,106 @@
       "section": "Mondo / Economia"
     },
     {
-      "title": "Francia d’oltremare, pubblicata la legge contro il caro vita",
-      "excerpt": "La legge interviene sui rapporti fra fornitori e distributori. Un limite sperimentale riguarderà alcuni vantaggi commerciali, con soglia da definire per decreto ministeriale.",
-      "url": "/notizie/francia-oltremare-legge-concorrenza-caro-vita-28-novembre-2026.html",
-      "section": "Mondo / Economia"
+      "title": "Pesca e acquacoltura in Puglia, proroga a gennaio per il bando FEAMPA",
+      "excerpt": "La determinazione del 27 novembre sposta al 31 gennaio 2027 il termine dell’intervento 222202 per le manifestazioni d’interesse indicate dalla Regione.",
+      "url": "/notizie/puglia-feampa-proroga-bando-pesca-acquacoltura-222202-28-novembre-2026.html",
+      "section": "Italia"
     },
     {
-      "title": "Cile, la disoccupazione raggiunge il 10% nel trimestre agosto-ottobre",
-      "excerpt": "Il tasso sale di 1,6 punti in un anno e supera il milione di persone. L’istituto di statistica registra un calo dell’occupazione dello 0,4%.",
-      "url": "/notizie/cile-disoccupazione-10-agosto-ottobre-2026-28-novembre-2026.html",
-      "section": "Mondo / Economia"
+      "title": "Pisa, Stefano Ballantini accosta dipinti, incisioni e terracotte al GAMeC",
+      "excerpt": "La personale «Dove abitano i silenzi» inaugura il 28 novembre alle 16. Apertura straordinaria anche domenica pomeriggio.",
+      "url": "/notizie/pisa-ballantini-dove-abitano-silenzi-gamec-28-novembre-2026.html",
+      "section": "Italia / Cultura"
     },
     {
-      "title": "Australia, il Parlamento approva nuove regole per negoziare gli accordi commerciali",
-      "excerpt": "Il testo introduce un gruppo consultivo per le trattative. Alcuni obblighi riguarderanno anche gli accordi bilaterali sugli investimenti.",
-      "url": "/notizie/australia-parlamento-consultazione-accordi-commerciali-28-novembre-2026.html",
-      "section": "Mondo / Economia"
+      "title": "Oristano, voci e pianoforte ripercorrono la storia dell’operetta al Museo Diocesano",
+      "excerpt": "Il 29 novembre alle 18:30 si esibiscono Anita Venturi, Claudio Sassetti, Matteo Micheli e Matteo Zappalà.",
+      "url": "/notizie/oristano-storia-operetta-museo-diocesano-arborense-28-novembre-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Scozia, a Oban chiude per mezz’ora un tratto della A85",
+      "excerpt": "Traffic Scotland prevede la chiusura verso ovest dalle 17 alle 17:30. L’ordinanza individua un tratto urbano di circa 750 metri.",
+      "url": "/notizie/oban-a85-chiusura-tratto-urbano-28-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "A38, North Somerset torna in gara per i lavori in nove punti",
+      "excerpt": "La tabella di marcia aggiornata prevede una nuova procedura fra inverno e primavera. I cantieri sono attesi per l’estate 2027.",
+      "url": "/notizie/north-somerset-a38-nuova-gara-lavori-nove-punti-28-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "NHL, Hellebuyck ritrova i Jets da avversario per la prima volta",
+      "excerpt": "I Devils ospitano Winnipeg a Newark. Il portiere è passato a New Jersey a ottobre ed è indicato come titolare dalla sua ex squadra.",
+      "url": "/notizie/nhl-devils-jets-connor-hellebuyck-prima-volta-ex-28-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "Nettuno, nuove giornate straordinarie per la carta d’identità elettronica",
+      "excerpt": "Sabato 28 novembre chiude la serie di novembre; altre quattro giornate sono previste a dicembre. Le disponibilità straordinarie sono riservate ai residenti.",
+      "url": "/notizie/nettuno-cie-aperture-straordinarie-dicembre-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
+    },
+    {
+      "title": "Bus Z305, dal 30 novembre l’orario invernale tra Cologno Nord e Villa Fiorita",
+      "excerpt": "NET pubblica le tabelle per il collegamento via Carugate. Sono distinte per direzione e calendario, con alcune corse che servono il polo scolastico di Cernusco.",
+      "url": "/notizie/net-z305-orario-invernale-cologno-carugate-villa-fiorita-28-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Mondiale Under 17, la Serbia batte la Colombia 1-0 e chiude prima",
+      "excerpt": "Il gol del subentrato Nebojša Grujić decide la gara del gruppo L a Doha. Le due nazionali erano già qualificate.",
+      "url": "/notizie/mondiale-u17-serbia-colombia-grujic-primo-posto-28-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "Messina e Villafranca, dal 30 novembre il secondo turno del censimento per il collocamento mirato",
+      "excerpt": "L’appuntamento riguarda i cognomi dalla I alla P. La ricognizione è volontaria e riservata alle persone con disabilità psichica già iscritte.",
+      "url": "/notizie/messina-villafranca-collocamento-mirato-calendario-adesioni-28-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Samoa Rémy, a Mendrisio apre la mostra dedicata all’aria",
+      "excerpt": "Il Museo d’Arte inaugura sabato alle 18. La personale riunisce il lavoro dell’artista e una monografia con un’intervista.",
+      "url": "/notizie/mendrisio-samoa-remy-mostra-ocean-air-28-novembre-2026.html",
+      "section": "Mondo / Cultura"
+    },
+    {
+      "title": "Medolago, due panchine al parco Orobie per ricordare violenza sulle donne e bullismo",
+      "excerpt": "La cerimonia è fissata per sabato 28 novembre alle 11. Il Comune dedica le due installazioni a temi distinti, nello stesso spazio pubblico.",
+      "url": "/notizie/medolago-parco-orobie-panchine-rispetto-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
+    },
+    {
+      "title": "Lugano, la Biennale del territorio si chiude a Villa Saroli",
+      "excerpt": "La sesta edizione termina sabato 28 novembre. In programma il bilancio della rassegna, un nuovo allestimento e un’installazione sonora.",
+      "url": "/notizie/lugano-chiusura-biennale-svizzera-territorio-villa-saroli-28-novembre-2026.html",
+      "section": "Mondo / Cultura"
     },
     {
       "title": "Suoli salini, una prova sul frumento in India misura l’effetto del drenaggio",
       "excerpt": "Dopo le piogge l’umidità è diminuita più rapidamente nell’appezzamento drenato. Lo studio riguarda due soli lotti e non prova un effetto generale.",
       "url": "/notizie/india-drenaggio-salinita-frumento-prova-campo-28-novembre-2026.html",
       "section": "Mondo / Scienza"
+    },
+    {
+      "title": "Francia d’oltremare, pubblicata la legge contro il caro vita",
+      "excerpt": "La legge interviene sui rapporti fra fornitori e distributori. Un limite sperimentale riguarderà alcuni vantaggi commerciali, con soglia da definire per decreto ministeriale.",
+      "url": "/notizie/francia-oltremare-legge-concorrenza-caro-vita-28-novembre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Football NCAA, Texas batte Texas A&M 16-6 e conquista la finale SEC",
+      "excerpt": "Un touchdown di Cam Coleman e tre field goal di Gianni Spetic decidono la sfida di College Station. Gli Aggies non segnano touchdown.",
+      "url": "/notizie/football-ncaa-texas-aggies-16-6-finale-sec-28-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "Football NCAA, Florida batte Florida State: Baugh supera di nuovo le mille yard",
+      "excerpt": "I Gators vincono 26-10 a Tallahassee. Jadan Baugh è il primo giocatore di Florida a correre per almeno mille yard in due stagioni consecutive.",
+      "url": "/notizie/football-ncaa-florida-gators-florida-state-baugh-26-10-28-novembre-2026.html",
+      "section": "Sport"
     },
     {
       "title": "Fitoplancton nel Pacifico, cosa aiuta a prevedere il calo dopo il picco",
@@ -110,52 +506,82 @@
       "section": "Mondo / Tecnologia"
     },
     {
-      "title": "Agricoltura biologica in Arabia Saudita: da 9.200 a 36.000 ettari certificati",
-      "excerpt": "L’analisi copre il periodo 2011–2026. Documenta la crescita della superficie e dei produttori, senza attribuirla a una sola politica.",
-      "url": "/notizie/arabia-saudita-biologico-ettari-certificati-studio-28-novembre-2026.html",
-      "section": "Mondo / Scienza"
-    },
-    {
-      "title": "Spegnere a intervalli i sensori ambientali riduce i consumi, ma lascia misure scoperte",
-      "excerpt": "Il modello stima un risparmio più piccolo sul dispositivo completo che sul solo sensore. Nella prova sei eventi su 35 non sono stati rilevati.",
-      "url": "/notizie/sensori-ambientali-consumo-attivazione-previsione-28-novembre-2026.html",
-      "section": "Mondo / Tecnologia"
-    },
-    {
-      "title": "Robotica all’università, partire da un simulatore semplice può aiutare a capire i movimenti",
-      "excerpt": "In una prova con 16 partecipanti, iniziare da uno strumento meno complesso ha favorito le prime spiegazioni di come funzionano i giunti.",
-      "url": "/notizie/robotica-universita-simulatore-semplice-studio-didattica-28-novembre-2026.html",
-      "section": "Mondo / Tecnologia"
-    },
-    {
-      "title": "Bus Z305, dal 30 novembre l’orario invernale tra Cologno Nord e Villa Fiorita",
-      "excerpt": "NET pubblica le tabelle per il collegamento via Carugate. Sono distinte per direzione e calendario, con alcune corse che servono il polo scolastico di Cernusco.",
-      "url": "/notizie/net-z305-orario-invernale-cologno-carugate-villa-fiorita-28-novembre-2026.html",
-      "section": "Italia"
-    },
-    {
-      "title": "Messina e Villafranca, dal 30 novembre il secondo turno del censimento per il collocamento mirato",
-      "excerpt": "L’appuntamento riguarda i cognomi dalla I alla P. La ricognizione è volontaria e riservata alle persone con disabilità psichica già iscritte.",
-      "url": "/notizie/messina-villafranca-collocamento-mirato-calendario-adesioni-28-novembre-2026.html",
-      "section": "Italia"
-    },
-    {
       "title": "Edifici commerciali, un modello stima le emissioni dei materiali già in fase di progetto",
       "excerpt": "Su un insieme limitato di edifici statunitensi, calcestruzzo e acciaio sono risultati i dati più utili per la stima.",
       "url": "/notizie/edifici-commerciali-stima-carbonio-calcestruzzo-acciaio-28-novembre-2026.html",
       "section": "Mondo / Tecnologia"
     },
     {
-      "title": "Treni in Sardegna, il nuovo orario invernale punta su collegamenti più regolari",
-      "excerpt": "Regione e Trenitalia stanno definendo le corse dalla seconda metà di dicembre. Previsti più collegamenti tra Cagliari e Macomer e novità per il sabato.",
-      "url": "/notizie/sardegna-treni-orario-invernale-sassari-olbia-macomer-28-novembre-2026.html",
-      "section": "Italia"
+      "title": "East Hampshire finanzia 21 interventi locali per clima e natura",
+      "excerpt": "Il distretto assegna 128.774 sterline a progetti fra cui un giardino scolastico, il recupero di stagni e il risparmio energetico.",
+      "url": "/notizie/east-hampshire-21-progetti-locali-clima-finanziamenti-28-novembre-2026.html",
+      "section": "Mondo / Ambiente"
     },
     {
-      "title": "Pesca e acquacoltura in Puglia, proroga a gennaio per il bando FEAMPA",
-      "excerpt": "La determinazione del 27 novembre sposta al 31 gennaio 2027 il termine dell’intervento 222202 per le manifestazioni d’interesse indicate dalla Regione.",
-      "url": "/notizie/puglia-feampa-proroga-bando-pesca-acquacoltura-222202-28-novembre-2026.html",
-      "section": "Italia"
+      "title": "Cricket WBBL, Freya Kemp porta Perth tra le prime due con 58 punti",
+      "excerpt": "Le Scorchers battono le Hobart Hurricanes per 17 punti. La squadra australiana può ancora chiudere in testa la stagione regolare.",
+      "url": "/notizie/cricket-wbbl-perth-scorchers-hobart-hurricanes-freya-kemp-28-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "Servizi mobili via satellite, il Consiglio UE cerca un’intesa",
+      "excerpt": "Il 1° dicembre i ministri delle Telecomunicazioni discuteranno anche reti digitali e investimenti nel cloud e nell’intelligenza artificiale.",
+      "url": "/notizie/consiglio-ue-telecomunicazioni-servizi-mobili-satellitari-dicembre-28-novembre-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
+      "title": "Colleferro, il Teatro Vittorio Veneto passa dalle bolle di sapone a Romeo e Giulietta",
+      "excerpt": "«Rime insaponate» sabato alle 17; «L’amore è saltimbanco» domenica alle 18. Due spettacoli nello stesso teatro.",
+      "url": "/notizie/colleferro-rime-insaponate-romeo-giulietta-teatro-28-novembre-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Cile, la disoccupazione raggiunge il 10% nel trimestre agosto-ottobre",
+      "excerpt": "Il tasso sale di 1,6 punti in un anno e supera il milione di persone. L’istituto di statistica registra un calo dell’occupazione dello 0,4%.",
+      "url": "/notizie/cile-disoccupazione-10-agosto-ottobre-2026-28-novembre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Caorle, due visite accompagnate al Museo del Mare domenica 29 novembre",
+      "excerpt": "Appuntamenti alle 11 e alle 16, inclusi nel biglietto. Nelle collezioni ci sono reperti dello scavo del brigantino Mercurio.",
+      "url": "/notizie/caorle-museo-archeologia-mare-due-visite-reperti-28-novembre-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Nando Snozzi, a Bellinzona un’opera su carta lunga 22,5 metri",
+      "excerpt": "A Castel Grande l’opera del 1999–2000 dialoga con circa ottanta disegni recenti. La mostra apre il 28 novembre.",
+      "url": "/notizie/bellinzona-nando-snozzi-22-metri-mostra-castel-grande-28-novembre-2026.html",
+      "section": "Mondo / Cultura"
+    },
+    {
+      "title": "Comuni montani, a Baveno l’assemblea Uncem Piemonte sulla legge di bilancio",
+      "excerpt": "Sabato 28 novembre alle 10.30 in piazza della Chiesa. Il confronto precede l’assemblea nazionale di Paestum del 4 e 5 dicembre.",
+      "url": "/notizie/baveno-uncem-assemblea-comuni-montani-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
+    },
+    {
+      "title": "G League, Devin Carter segna 31 punti: Maine rimonta e batte Long Island",
+      "excerpt": "I Celtics passano da meno 11 alla vittoria per 126-105. Per Carter anche sei rimbalzi e sei assist a Uniondale.",
+      "url": "/notizie/basket-g-league-maine-celtics-long-island-nets-devin-carter-28-novembre-2026.html",
+      "section": "Sport"
+    },
+    {
+      "title": "Australia, il Parlamento approva nuove regole per negoziare gli accordi commerciali",
+      "excerpt": "Il testo introduce un gruppo consultivo per le trattative. Alcuni obblighi riguarderanno anche gli accordi bilaterali sugli investimenti.",
+      "url": "/notizie/australia-parlamento-consultazione-accordi-commerciali-28-novembre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Agricoltura biologica in Arabia Saudita: da 9.200 a 36.000 ettari certificati",
+      "excerpt": "L’analisi copre il periodo 2011–2026. Documenta la crescita della superficie e dei produttori, senza attribuirla a una sola politica.",
+      "url": "/notizie/arabia-saudita-biologico-ettari-certificati-studio-28-novembre-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "AlbaOrienta, sabato le scuole superiori si presentano alle famiglie al Palazzo Morra",
+      "excerpt": "Stand e incontri dalle 8.30 alle 18.30 in piazza Medford. Mattinata per Alba, pomeriggio per i comuni vicini.",
+      "url": "/notizie/albaorienta-salone-scelta-scuola-superiore-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
     },
     {
       "title": "A8 e D08, due notti di chiusure tra Gallarate, Besnate e la Pedemontana",
@@ -176,244 +602,22 @@
       "section": "Italia"
     },
     {
-      "title": "Volley in Giappone, Tokyo batte Sakai 3-1: a Rinaldi non bastano 12 punti",
-      "excerpt": "I Great Bears vincono per la seconda volta a Wakayama. Luciano Vicentín firma 21 punti; l’italiano è tra i migliori di Sakai.",
-      "url": "/notizie/volley-giappone-tokyo-great-bears-sakai-rinaldi-3-1-28-novembre-2026.html",
-      "section": "Sport"
-    },
-    {
-      "title": "NHL, Hellebuyck ritrova i Jets da avversario per la prima volta",
-      "excerpt": "I Devils ospitano Winnipeg a Newark. Il portiere è passato a New Jersey a ottobre ed è indicato come titolare dalla sua ex squadra.",
-      "url": "/notizie/nhl-devils-jets-connor-hellebuyck-prima-volta-ex-28-novembre-2026.html",
-      "section": "Sport"
-    },
-    {
-      "title": "Mondiale Under 17, la Serbia batte la Colombia 1-0 e chiude prima",
-      "excerpt": "Il gol del subentrato Nebojša Grujić decide la gara del gruppo L a Doha. Le due nazionali erano già qualificate.",
-      "url": "/notizie/mondiale-u17-serbia-colombia-grujic-primo-posto-28-novembre-2026.html",
-      "section": "Sport"
-    },
-    {
-      "title": "Cricket WBBL, Freya Kemp porta Perth tra le prime due con 58 punti",
-      "excerpt": "Le Scorchers battono le Hobart Hurricanes per 17 punti. La squadra australiana può ancora chiudere in testa la stagione regolare.",
-      "url": "/notizie/cricket-wbbl-perth-scorchers-hobart-hurricanes-freya-kemp-28-novembre-2026.html",
-      "section": "Sport"
-    },
-    {
-      "title": "Rimini, «A spasso con i libri» ospita Daniele Bianchi e Massimiliano Sartini",
-      "excerpt": "Incontro domenica 29 dalle 16:30 nella Sala degli Arazzi del Museo della Città. L’ingresso è libero fino a esaurimento posti.",
-      "url": "/notizie/rimini-a-spasso-libri-bianchi-sartini-museo-citta-28-novembre-2026.html",
+      "title": "Vittorio Veneto, il Movie Trio rende omaggio alle grandi voci femminili",
+      "excerpt": "«VOICE» va in scena domenica 29 novembre alle 17 al Teatro Da Ponte. Il Comune lo dedica al contrasto alla violenza di genere.",
+      "url": "/notizie/vittorio-veneto-voice-movie-trio-teatro-da-ponte-28-novembre-2026.html",
       "section": "Italia / Cultura"
     },
     {
-      "title": "Football NCAA, Texas batte Texas A&M 16-6 e conquista la finale SEC",
-      "excerpt": "Un touchdown di Cam Coleman e tre field goal di Gianni Spetic decidono la sfida di College Station. Gli Aggies non segnano touchdown.",
-      "url": "/notizie/football-ncaa-texas-aggies-16-6-finale-sec-28-novembre-2026.html",
-      "section": "Sport"
-    },
-    {
-      "title": "Football NCAA, Florida batte Florida State: Baugh supera di nuovo le mille yard",
-      "excerpt": "I Gators vincono 26-10 a Tallahassee. Jadan Baugh è il primo giocatore di Florida a correre per almeno mille yard in due stagioni consecutive.",
-      "url": "/notizie/football-ncaa-florida-gators-florida-state-baugh-26-10-28-novembre-2026.html",
-      "section": "Sport"
-    },
-    {
-      "title": "Colleferro, il Teatro Vittorio Veneto passa dalle bolle di sapone a Romeo e Giulietta",
-      "excerpt": "«Rime insaponate» sabato alle 17; «L’amore è saltimbanco» domenica alle 18. Due spettacoli nello stesso teatro.",
-      "url": "/notizie/colleferro-rime-insaponate-romeo-giulietta-teatro-28-novembre-2026.html",
-      "section": "Italia / Cultura"
-    },
-    {
-      "title": "G League, Devin Carter segna 31 punti: Maine rimonta e batte Long Island",
-      "excerpt": "I Celtics passano da meno 11 alla vittoria per 126-105. Per Carter anche sei rimbalzi e sei assist a Uniondale.",
-      "url": "/notizie/basket-g-league-maine-celtics-long-island-nets-devin-carter-28-novembre-2026.html",
-      "section": "Sport"
-    },
-    {
-      "title": "Torino, ultimo giorno per vedere i bozzetti di Ferruccio Ascari alla Biblioteca Nazionale",
-      "excerpt": "Sabato la mostra resta visitabile fino alle 17:30. Al mattino un incontro sull’archivio dell’ospedale psichiatrico di Collegno.",
-      "url": "/notizie/torino-biblioteca-nazionale-ascari-bozzetti-carte-da-legare-28-novembre-2026.html",
-      "section": "Italia / Cultura"
-    },
-    {
-      "title": "Pisa, Stefano Ballantini accosta dipinti, incisioni e terracotte al GAMeC",
-      "excerpt": "La personale «Dove abitano i silenzi» inaugura il 28 novembre alle 16. Apertura straordinaria anche domenica pomeriggio.",
-      "url": "/notizie/pisa-ballantini-dove-abitano-silenzi-gamec-28-novembre-2026.html",
-      "section": "Italia / Cultura"
-    },
-    {
-      "title": "Oristano, voci e pianoforte ripercorrono la storia dell’operetta al Museo Diocesano",
-      "excerpt": "Il 29 novembre alle 18:30 si esibiscono Anita Venturi, Claudio Sassetti, Matteo Micheli e Matteo Zappalà.",
-      "url": "/notizie/oristano-storia-operetta-museo-diocesano-arborense-28-novembre-2026.html",
-      "section": "Italia / Cultura"
-    },
-    {
-      "title": "Caorle, due visite accompagnate al Museo del Mare domenica 29 novembre",
-      "excerpt": "Appuntamenti alle 11 e alle 16, inclusi nel biglietto. Nelle collezioni ci sono reperti dello scavo del brigantino Mercurio.",
-      "url": "/notizie/caorle-museo-archeologia-mare-due-visite-reperti-28-novembre-2026.html",
-      "section": "Italia / Cultura"
-    },
-    {
-      "title": "Sestri Levante, una mostra confronta un secolo di fotografie della costa",
-      "excerpt": "Apre sabato alle 11 a Palazzo Fascie. In mostra anche immagini da negativi inediti e un libro-oggetto realizzato con le scuole.",
-      "url": "/notizie/sestri-levante-costa-palazzo-fascie-negativi-sertorio-28-novembre-2026.html",
-      "section": "Italia / Cultura"
-    },
-    {
-      "title": "Senago, torna la pista di ghiaccio in piazza Tricolore fino al 10 gennaio",
-      "excerpt": "L’apertura di sabato 28 novembre è annunciata alle 15.30. Orari diversi fra feriali, festivi e giorno di Natale.",
-      "url": "/notizie/senago-piazza-tricolore-pista-pattinaggio-28-novembre-2026.html",
+      "title": "Villa Carcina, la nuova sede dello Spazio Comunità apre nell’ex scuola di Cailina",
+      "excerpt": "L’inaugurazione è fissata per le 14.30 in via Trafilerie 47. L’edificio ospiterà servizi e attività sociali rivolti a più generazioni.",
+      "url": "/notizie/villa-carcina-spazio-comunita-cailina-28-novembre-2026.html",
       "section": "Italia / Cronaca"
     },
     {
-      "title": "Nettuno, nuove giornate straordinarie per la carta d’identità elettronica",
-      "excerpt": "Sabato 28 novembre chiude la serie di novembre; altre quattro giornate sono previste a dicembre. Le disponibilità straordinarie sono riservate ai residenti.",
-      "url": "/notizie/nettuno-cie-aperture-straordinarie-dicembre-28-novembre-2026.html",
+      "title": "Villa Bartolomea, ultima mattina di ritiro dei bidoni per il nuovo sistema rifiuti",
+      "excerpt": "Sabato 28 novembre consegna fino alle 14 in via Albertone. Il secco con RFID entra in uso il 2 dicembre, il contenitore della carta dall’11.",
+      "url": "/notizie/villa-bartolomea-consegna-bidoni-rfid-monitoraggio-28-novembre-2026.html",
       "section": "Italia / Cronaca"
-    },
-    {
-      "title": "Comuni montani, a Baveno l’assemblea Uncem Piemonte sulla legge di bilancio",
-      "excerpt": "Sabato 28 novembre alle 10.30 in piazza della Chiesa. Il confronto precede l’assemblea nazionale di Paestum del 4 e 5 dicembre.",
-      "url": "/notizie/baveno-uncem-assemblea-comuni-montani-28-novembre-2026.html",
-      "section": "Italia / Cronaca"
-    },
-    {
-      "title": "AlbaOrienta, sabato le scuole superiori si presentano alle famiglie al Palazzo Morra",
-      "excerpt": "Stand e incontri dalle 8.30 alle 18.30 in piazza Medford. Mattinata per Alba, pomeriggio per i comuni vicini.",
-      "url": "/notizie/albaorienta-salone-scelta-scuola-superiore-28-novembre-2026.html",
-      "section": "Italia / Cronaca"
-    },
-    {
-      "title": "Trofarello, il nuovo giardino per i bambini da zero a sei anni apre a Valle Sauglio",
-      "excerpt": "Sabato 28 novembre in via San Rocco si inaugura lo spazio giochi. Il Comune abbina al taglio del nastro il benvenuto ai bambini nati nell’ultimo anno.",
-      "url": "/notizie/trofarello-valle-sauglio-nuovo-spazio-gioco-28-novembre-2026.html",
-      "section": "Italia / Cronaca"
-    },
-    {
-      "title": "Medolago, due panchine al parco Orobie per ricordare violenza sulle donne e bullismo",
-      "excerpt": "La cerimonia è fissata per sabato 28 novembre alle 11. Il Comune dedica le due installazioni a temi distinti, nello stesso spazio pubblico.",
-      "url": "/notizie/medolago-parco-orobie-panchine-rispetto-28-novembre-2026.html",
-      "section": "Italia / Cronaca"
-    },
-    {
-      "title": "Senna Comasco, rinviata l’inaugurazione dell’area cani in via Rovelli",
-      "excerpt": "Il Comune ha aggiornato la scheda sabato 28 novembre: l’appuntamento delle 14.30 non si terrà e non è stata indicata una nuova data.",
-      "url": "/notizie/senna-comasco-via-rovelli-area-cani-28-novembre-2026.html",
-      "section": "Italia / Cronaca"
-    },
-    {
-      "title": "Svizzera, scorte di cherosene ancora aperte dal 30 novembre",
-      "excerpt": "L’ufficio federale distingue i prelievi per gli aeroporti da quelli del gasolio. Fino al 23 novembre risultavano utilizzati 65.000 metri cubi di cherosene.",
-      "url": "/notizie/svizzera-cherosene-scorte-prolungamento-30-novembre-28-novembre-2026.html",
-      "section": "Mondo / Economia"
-    },
-    {
-      "title": "South Ayrshire aggiorna i lavori per scuole e impianti pubblici",
-      "excerpt": "Il consiglio scozzese contabilizza 33,85 milioni di sterline investiti a fine settembre. La nuova scuola di Girvan è fra i progetti in corso.",
-      "url": "/notizie/scozia-south-ayrshire-investimenti-lavori-scuole-34-milioni-28-novembre-2026.html",
-      "section": "Mondo"
-    },
-    {
-      "title": "Inghilterra, il piano per aprire al pubblico 3.700 ettari di boschi",
-      "excerpt": "Forestry England punta al traguardo entro marzo 2030. Il documento separa la creazione di nuove aree dalla cura dei boschi che già esistono.",
-      "url": "/notizie/inghilterra-piano-alberi-3700-ettari-boschi-pubblici-28-novembre-2026.html",
-      "section": "Mondo / Ambiente"
-    },
-    {
-      "title": "Ferrara, Monet e Van Gogh al Palazzo dei Diamanti fino alle 23.30",
-      "excerpt": "Sabato 28 novembre la biglietteria chiude alle 22.30. Lo stesso orario prolungato torna il 5 e il 6 dicembre.",
-      "url": "/notizie/ferrara-palazzo-diamanti-monet-van-gogh-apertura-serale-28-novembre-2026.html",
-      "section": "Italia / Cultura"
-    },
-    {
-      "title": "L’UE firma fondi per tram a Nantes, acqua nelle Asturie e campus a Cipro",
-      "excerpt": "I contributi ammontano a 56,25 milioni di euro e si affiancano a 375 milioni di prestiti della Banca europea per gli investimenti.",
-      "url": "/notizie/ue-5625-milioni-nantes-asturie-limassol-transizione-28-novembre-2026.html",
-      "section": "Mondo / Economia"
-    },
-    {
-      "title": "Mantova, la Sonnabend Collection apre fino alle 22 sabato",
-      "excerpt": "L’ultimo ingresso al museo di Palazzo della Ragione è alle 21. L’apertura serale coincide con il primo anniversario della collezione.",
-      "url": "/notizie/mantova-sonnabend-palazzo-ragione-apertura-22-28-novembre-2026.html",
-      "section": "Italia / Cultura"
-    },
-    {
-      "title": "Francia, nuove regole per le sostituzioni del personale nei micro-asili",
-      "excerpt": "Il decreto pubblicato il 28 novembre introduce una finestra transitoria dal 2027 al 2029, con requisiti di esperienza e qualificazione.",
-      "url": "/notizie/francia-micro-asili-qualifiche-sostituzioni-2027-2029-28-novembre-2026.html",
-      "section": "Mondo"
-    },
-    {
-      "title": "Gaia, il nuovo catalogo stellare dell’ESA sarà presentato il 2 dicembre",
-      "excerpt": "La diretta comincia alle 14.45 italiane. La quarta pubblicazione usa 66 mesi di osservazioni, non tutta la missione.",
-      "url": "/notizie/esa-gaia-data-release-4-2-dicembre-diretta-28-novembre-2026.html",
-      "section": "Mondo / Scienza"
-    },
-    {
-      "title": "Biglietti ferroviari e diritti dei passeggeri: dossier al Consiglio UE",
-      "excerpt": "Lunedì 30 novembre la presidenza irlandese farà il punto anche sulle prenotazioni che uniscono più mezzi. In agenda un confronto sulla sicurezza stradale.",
-      "url": "/notizie/consiglio-ue-biglietti-ferroviari-diritti-viaggiatori-30-novembre-28-novembre-2026.html",
-      "section": "Mondo"
-    },
-    {
-      "title": "Regno Unito, i costi crescono di più per le famiglie a reddito basso",
-      "excerpt": "A settembre i costi erano saliti del 4,1% per il secondo decile e del 3,7% per il nono, secondo il nuovo bollettino ONS.",
-      "url": "/notizie/regno-unito-costo-famiglie-reddito-affitti-ons-28-novembre-2026.html",
-      "section": "Mondo"
-    },
-    {
-      "title": "India, il programma Navya 2.0 porta la formazione professionale in 100 distretti",
-      "excerpt": "Il lancio è in programma a Haridwar il 28 novembre. La nuova fase allarga la fascia di età a ragazze e giovani donne da 16 a 25 anni.",
-      "url": "/notizie/india-navya-2-formazione-ragazze-haridwar-28-novembre-2026.html",
-      "section": "Mondo"
-    },
-    {
-      "title": "India, il ministero presenta alle piccole imprese le opportunità dei nuovi accordi commerciali",
-      "excerpt": "Il resoconto pubblicato il 28 novembre riguarda due incontri a Jaipur e Dehradun. Tessile, gioielleria e artigianato fra i settori interessati.",
-      "url": "/notizie/india-export-accordi-libero-scambio-jaipur-dehradun-28-novembre-2026.html",
-      "section": "Mondo"
-    },
-    {
-      "title": "Francia, sportelli aperti di sabato a Évry e Palaiseau per ritirare i titoli di soggiorno",
-      "excerpt": "La prefettura dell’Essonne ha previsto appuntamenti straordinari il 28 novembre. Esclusi i rinnovi delle ricevute provvisorie.",
-      "url": "/notizie/francia-essonne-evry-palaiseau-ritiro-permessi-soggiorno-28-novembre-2026.html",
-      "section": "Mondo"
-    },
-    {
-      "title": "BCE, sabato di aggiornamenti per i sistemi TARGET: il calendario di pagamenti e titoli",
-      "excerpt": "Il 28 novembre è la giornata centrale della finestra tecnica. Il calendario distingue T2, T2S, ECMS e i pagamenti istantanei.",
-      "url": "/notizie/bce-target-aggiornamento-infrastrutture-pagamenti-titoli-28-novembre-2026.html",
-      "section": "Mondo"
-    },
-    {
-      "title": "Trieste, tre bus in più per il servizio notturno a chiamata di venerdì e sabato",
-      "excerpt": "Il potenziamento di Notturno è in vigore dal 27 novembre: tre mezzi aggiuntivi dalle 22 alle 4. La corsa va prenotata in app e costa 2 euro.",
-      "url": "/notizie/trieste-notturno-tsondemand-tre-autobus-weekend-28-novembre-2026.html",
-      "section": "Italia"
-    },
-    {
-      "title": "INPS, dal 30 novembre le domande per 255 assegni e contributi scolastici",
-      "excerpt": "Il concorso riguarda la Gestione Assistenza magistrale e l’anno scolastico 2025/2026. Si può inviare la domanda fino alle 12 del 30 dicembre.",
-      "url": "/notizie/inps-assistenza-magistrale-assegni-frequenza-contributi-formativi-28-novembre-2026.html",
-      "section": "Italia"
-    },
-    {
-      "title": "Capua-Caserta, dal 29 novembre un regionale in più nei festivi",
-      "excerpt": "Il treno 34759 parte da Capua alle 10, ferma a Santa Maria Capua Vetere e arriva a Caserta alle 10:15. L’avviso RFI arriva fino al 12 dicembre.",
-      "url": "/notizie/capua-caserta-nuovo-regionale-festivo-34759-28-novembre-2026.html",
-      "section": "Italia"
-    },
-    {
-      "title": "Bologna, autobus deviati per due notti in via Emilia Ponente: le linee",
-      "excerpt": "Senso unico tra via Battindarno e via della Pietra. Le deviazioni scattano alle 20 di sabato e domenica e terminano alle 5 del mattino seguente.",
-      "url": "/notizie/bologna-tper-deviazioni-emilia-ponente-battindarno-28-novembre-2026.html",
-      "section": "Italia"
-    },
-    {
-      "title": "Australia, dal 28 novembre cambia la condizione per i nuovi visti di visita",
-      "excerpt": "La restrizione 8503 diventa obbligatoria per tre categorie, compreso l’eVisitor: limita il rilascio di altri visti quando si è già nel Paese.",
-      "url": "/notizie/australia-visti-visitatori-no-further-stay-8503-28-novembre-2026.html",
-      "section": "Mondo"
     },
     {
       "title": "Dal gelso al tessuto: a Verona si conclude il progetto Gelseta",
@@ -422,34 +626,82 @@
       "section": "Mondo / Scienza"
     },
     {
-      "title": "Roma Nord, chiude per una notte la rampa dalla D18 alla A1 verso Firenze",
-      "excerpt": "Lo svincolo è interdetto dalle 22 di lunedì 30 novembre alle 6 di martedì. Il gestore indica percorsi via A24, Roma Sud o Guidonia Montecelio.",
-      "url": "/notizie/d18-roma-nord-chiusura-rampa-a1-firenze-28-novembre-2026.html",
+      "title": "Venarotta, gli studenti degli alberghieri si sfidano al festival del tartufo bianco",
+      "excerpt": "Il 28 novembre gara alle 11 al Teatro Comunale e dimostrazione in cucina con Andy Luotto alle 16:30. La rassegna termina domenica.",
+      "url": "/notizie/venarotta-bianco-autore-studenti-cucina-tartufo-28-novembre-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Ussana, il festival Arràstus porta le letture in strada e al Monte Granatico",
+      "excerpt": "Sabato si comincia alle 9 con la passeggiata letteraria. Alle 18 si presentano «La levatrice» e «Nero Mediterraneo».",
+      "url": "/notizie/ussana-arrastus-festival-letture-monte-granatico-28-novembre-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Umbertide, sabato si inaugura la rinnovata piazza Michelangelo",
+      "excerpt": "Investimento da 290 mila euro per pavimentazione, illuminazione, fontana e area giochi. Taglio del nastro alle 11.",
+      "url": "/notizie/umbertide-piazza-michelangelo-inaugurazione-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
+    },
+    {
+      "title": "L’UE firma fondi per tram a Nantes, acqua nelle Asturie e campus a Cipro",
+      "excerpt": "I contributi ammontano a 56,25 milioni di euro e si affiancano a 375 milioni di prestiti della Banca europea per gli investimenti.",
+      "url": "/notizie/ue-5625-milioni-nantes-asturie-limassol-transizione-28-novembre-2026.html",
+      "section": "Mondo / Economia"
+    },
+    {
+      "title": "Udine, DARS apre la biennale del libro d’artista e una mostra di Maddalena Valerio",
+      "excerpt": "Sabato 28 novembre inaugurazioni alle 11 a Palazzo Morpurgo e alle 17 alla Galleria Tina Modotti. Entrambe a ingresso libero.",
+      "url": "/notizie/udine-dars-biennale-libro-artista-valerio-28-novembre-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "Trieste, tre bus in più per il servizio notturno a chiamata di venerdì e sabato",
+      "excerpt": "Il potenziamento di Notturno è in vigore dal 27 novembre: tre mezzi aggiuntivi dalle 22 alle 4. La corsa va prenotata in app e costa 2 euro.",
+      "url": "/notizie/trieste-notturno-tsondemand-tre-autobus-weekend-28-novembre-2026.html",
       "section": "Italia"
     },
     {
-      "title": "Apollo 17, la NASA ripropone in 3D il parcheggio da cui fu ripresa la partenza",
-      "excerpt": "L’immagine del giorno accosta due prospettive della valle Taurus-Littrow. Il rover era il punto di ripresa televisiva del decollo.",
-      "url": "/notizie/apollo-17-parcheggio-rover-visione-stereoscopica-nasa-28-novembre-2026.html",
-      "section": "Mondo / Scienza"
+      "title": "Svizzera, scorte di cherosene ancora aperte dal 30 novembre",
+      "excerpt": "L’ufficio federale distingue i prelievi per gli aeroporti da quelli del gasolio. Fino al 23 novembre risultavano utilizzati 65.000 metri cubi di cherosene.",
+      "url": "/notizie/svizzera-cherosene-scorte-prolungamento-30-novembre-28-novembre-2026.html",
+      "section": "Mondo / Economia"
     },
     {
-      "title": "A14 chiusa una notte tra Pescara Ovest e Pescara Sud in entrambe le direzioni",
-      "excerpt": "Lunedì 30 novembre dalle 22 alle 6 del giorno seguente. Chi va verso Bari passa sulla statale 16; verso Ancona, sulla tangenziale di Pescara.",
-      "url": "/notizie/a14-pescara-ovest-pescara-sud-chiusura-gallerie-28-novembre-2026.html",
-      "section": "Italia"
-    },
-    {
-      "title": "A1, notte di chiusura tra Fabro e Chiusi verso Firenze: le deviazioni",
-      "excerpt": "Da lunedì 30 novembre alle 22 a martedì alle 6 cambia il percorso verso Firenze. Per il traffico pesante è indicata l’uscita anticipata a Orte.",
-      "url": "/notizie/a1-fabro-chiusi-chiusura-notturna-28-novembre-2026.html",
-      "section": "Italia"
+      "title": "Supercars, Feeney vince ad Adelaide: tre piloti in 23 punti prima del finale",
+      "excerpt": "Kostecki chiude secondo a 1,725 secondi. Payne arriva quarto ma conserva la vetta del campionato per un punto.",
+      "url": "/notizie/supercars-adelaide-feeney-gara-36-kostecki-payne-28-novembre-2026.html",
+      "section": "Sport"
     },
     {
       "title": "Ad Alessandria e Lagos il terreno si abbassa: le misure dei satelliti",
       "excerpt": "Lo studio su venti città africane distingue l’innalzamento del mare dal cedimento del suolo. Ad Alessandria la stima mediana è di circa 6 millimetri l’anno.",
       "url": "/notizie/subsidenza-alessandria-lagos-radar-venti-citta-africane-28-novembre-2026.html",
       "section": "Mondo / Scienza"
+    },
+    {
+      "title": "South Ayrshire aggiorna i lavori per scuole e impianti pubblici",
+      "excerpt": "Il consiglio scozzese contabilizza 33,85 milioni di sterline investiti a fine settembre. La nuova scuola di Girvan è fra i progetti in corso.",
+      "url": "/notizie/scozia-south-ayrshire-investimenti-lavori-scuole-34-milioni-28-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Santa Cristina Gela, tre ore per portare abiti e oggetti riutilizzabili all’Ecocentro mobile",
+      "excerpt": "Sabato 28 novembre la postazione riceve in via Madonna di Lourdes dalle 8 alle 11. Il Comune chiede materiali in buono stato e vieta di lasciarli a terra.",
+      "url": "/notizie/santa-cristina-gela-ecocentro-mobile-abiti-usati-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
+    },
+    {
+      "title": "Roncadelle, l’Ecosportello si trasferisce nella Sala Civica del municipio",
+      "excerpt": "Da sabato 28 novembre il servizio rifiuti riceve al piano terra di via Roma 50. Orari invariati, con tre chiusure durante le feste.",
+      "url": "/notizie/roncadelle-ecosportello-si-sposta-sala-civica-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
+    },
+    {
+      "title": "Regno Unito, i costi crescono di più per le famiglie a reddito basso",
+      "excerpt": "A settembre i costi erano saliti del 4,1% per il secondo decile e del 3,7% per il nono, secondo il nuovo bollettino ONS.",
+      "url": "/notizie/regno-unito-costo-famiglie-reddito-affitti-ons-28-novembre-2026.html",
+      "section": "Mondo"
     },
     {
       "title": "Perché la roccia cede prima quando aumenta la pressione dell’acqua nei pori",
@@ -462,18 +714,6 @@
       "excerpt": "Una prova di laboratorio mette a confronto resistenza a trazione e risposta al campo elettrico. La formulazione migliore per una proprietà non è la stessa per l’altra.",
       "url": "/notizie/polvere-alghe-composito-epossidico-resistenza-isolamento-28-novembre-2026.html",
       "section": "Mondo / Tecnologia"
-    },
-    {
-      "title": "Immagini iperspettrali: classificare le superfici senza analizzare più volte gli stessi pixel",
-      "excerpt": "Un metodo sperimentale raggruppa zone simili e mantiene le misure del singolo pixel. È stato verificato su tre raccolte pubbliche.",
-      "url": "/notizie/immagini-iperspettrali-superpixel-classificazione-studio-28-novembre-2026.html",
-      "section": "Mondo / Tecnologia"
-    },
-    {
-      "title": "CO₂ del Cretaceo, misurare gli stomi delle foglie fossili può ridurre gli errori",
-      "excerpt": "Quattro protocolli sono stati comparati su una conifera fossile. Nelle prove il metodo proposto riduce gli errori di ricostruzione fino al 16%.",
-      "url": "/notizie/foglie-fossili-stomi-metodo-co2-cretaceo-28-novembre-2026.html",
-      "section": "Mondo / Scienza"
     },
     {
       "title": "Pallamano femminile, il Giappone batte la Cina 28-21 e guida il girone",
@@ -506,22 +746,10 @@
       "section": "Sport"
     },
     {
-      "title": "Venarotta, gli studenti degli alberghieri si sfidano al festival del tartufo bianco",
-      "excerpt": "Il 28 novembre gara alle 11 al Teatro Comunale e dimostrazione in cucina con Andy Luotto alle 16:30. La rassegna termina domenica.",
-      "url": "/notizie/venarotta-bianco-autore-studenti-cucina-tartufo-28-novembre-2026.html",
+      "title": "Mantova, la Sonnabend Collection apre fino alle 22 sabato",
+      "excerpt": "L’ultimo ingresso al museo di Palazzo della Ragione è alle 21. L’apertura serale coincide con il primo anniversario della collezione.",
+      "url": "/notizie/mantova-sonnabend-palazzo-ragione-apertura-22-28-novembre-2026.html",
       "section": "Italia / Cultura"
-    },
-    {
-      "title": "Ussana, il festival Arràstus porta le letture in strada e al Monte Granatico",
-      "excerpt": "Sabato si comincia alle 9 con la passeggiata letteraria. Alle 18 si presentano «La levatrice» e «Nero Mediterraneo».",
-      "url": "/notizie/ussana-arrastus-festival-letture-monte-granatico-28-novembre-2026.html",
-      "section": "Italia / Cultura"
-    },
-    {
-      "title": "Supercars, Feeney vince ad Adelaide: tre piloti in 23 punti prima del finale",
-      "excerpt": "Kostecki chiude secondo a 1,725 secondi. Payne arriva quarto ma conserva la vetta del campionato per un punto.",
-      "url": "/notizie/supercars-adelaide-feeney-gara-36-kostecki-payne-28-novembre-2026.html",
-      "section": "Sport"
     },
     {
       "title": "Lucca, la Fabbrica del Natale apre nell’ex Cavallerizza con laboratori per bambini",
@@ -530,34 +758,82 @@
       "section": "Italia / Cultura"
     },
     {
+      "title": "Lonigo, si inaugura la scuola Ridolfi dopo i lavori di riqualificazione",
+      "excerpt": "Sabato 28 novembre alle 10 la cerimonia aperta alla cittadinanza in viale della Repubblica. Dopo il taglio del nastro è prevista una visita alla struttura.",
+      "url": "/notizie/lonigo-scuola-ridolfi-riqualificazione-28-novembre-2026.html",
+      "section": "Italia / Cronaca"
+    },
+    {
+      "title": "INPS, dal 30 novembre le domande per 255 assegni e contributi scolastici",
+      "excerpt": "Il concorso riguarda la Gestione Assistenza magistrale e l’anno scolastico 2025/2026. Si può inviare la domanda fino alle 12 del 30 dicembre.",
+      "url": "/notizie/inps-assistenza-magistrale-assegni-frequenza-contributi-formativi-28-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Inghilterra, il piano per aprire al pubblico 3.700 ettari di boschi",
+      "excerpt": "Forestry England punta al traguardo entro marzo 2030. Il documento separa la creazione di nuove aree dalla cura dei boschi che già esistono.",
+      "url": "/notizie/inghilterra-piano-alberi-3700-ettari-boschi-pubblici-28-novembre-2026.html",
+      "section": "Mondo / Ambiente"
+    },
+    {
+      "title": "India, il programma Navya 2.0 porta la formazione professionale in 100 distretti",
+      "excerpt": "Il lancio è in programma a Haridwar il 28 novembre. La nuova fase allarga la fascia di età a ragazze e giovani donne da 16 a 25 anni.",
+      "url": "/notizie/india-navya-2-formazione-ragazze-haridwar-28-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "India, il ministero presenta alle piccole imprese le opportunità dei nuovi accordi commerciali",
+      "excerpt": "Il resoconto pubblicato il 28 novembre riguarda due incontri a Jaipur e Dehradun. Tessile, gioielleria e artigianato fra i settori interessati.",
+      "url": "/notizie/india-export-accordi-libero-scambio-jaipur-dehradun-28-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Immagini iperspettrali: classificare le superfici senza analizzare più volte gli stessi pixel",
+      "excerpt": "Un metodo sperimentale raggruppa zone simili e mantiene le misure del singolo pixel. È stato verificato su tre raccolte pubbliche.",
+      "url": "/notizie/immagini-iperspettrali-superpixel-classificazione-studio-28-novembre-2026.html",
+      "section": "Mondo / Tecnologia"
+    },
+    {
       "title": "Golf, Von Dellingshausen resta tre colpi avanti a Noren all’Australian PGA",
       "excerpt": "Il tedesco chiude il terzo giro in 69 colpi. Noren ne impiega 65 senza bogey e diventa il primo inseguitore a Sydney.",
       "url": "/notizie/golf-australian-pga-sydney-von-dellingshausen-noren-28-novembre-2026.html",
       "section": "Sport"
     },
     {
-      "title": "Vittorio Veneto, il Movie Trio rende omaggio alle grandi voci femminili",
-      "excerpt": "«VOICE» va in scena domenica 29 novembre alle 17 al Teatro Da Ponte. Il Comune lo dedica al contrasto alla violenza di genere.",
-      "url": "/notizie/vittorio-veneto-voice-movie-trio-teatro-da-ponte-28-novembre-2026.html",
+      "title": "Francia, nuove regole per le sostituzioni del personale nei micro-asili",
+      "excerpt": "Il decreto pubblicato il 28 novembre introduce una finestra transitoria dal 2027 al 2029, con requisiti di esperienza e qualificazione.",
+      "url": "/notizie/francia-micro-asili-qualifiche-sostituzioni-2027-2029-28-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Francia, sportelli aperti di sabato a Évry e Palaiseau per ritirare i titoli di soggiorno",
+      "excerpt": "La prefettura dell’Essonne ha previsto appuntamenti straordinari il 28 novembre. Esclusi i rinnovi delle ricevute provvisorie.",
+      "url": "/notizie/francia-essonne-evry-palaiseau-ritiro-permessi-soggiorno-28-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "CO₂ del Cretaceo, misurare gli stomi delle foglie fossili può ridurre gli errori",
+      "excerpt": "Quattro protocolli sono stati comparati su una conifera fossile. Nelle prove il metodo proposto riduce gli errori di ricostruzione fino al 16%.",
+      "url": "/notizie/foglie-fossili-stomi-metodo-co2-cretaceo-28-novembre-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "Ferrara, Monet e Van Gogh al Palazzo dei Diamanti fino alle 23.30",
+      "excerpt": "Sabato 28 novembre la biglietteria chiude alle 22.30. Lo stesso orario prolungato torna il 5 e il 6 dicembre.",
+      "url": "/notizie/ferrara-palazzo-diamanti-monet-van-gogh-apertura-serale-28-novembre-2026.html",
       "section": "Italia / Cultura"
     },
     {
-      "title": "Umbertide, sabato si inaugura la rinnovata piazza Michelangelo",
-      "excerpt": "Investimento da 290 mila euro per pavimentazione, illuminazione, fontana e area giochi. Taglio del nastro alle 11.",
-      "url": "/notizie/umbertide-piazza-michelangelo-inaugurazione-28-novembre-2026.html",
-      "section": "Italia / Cronaca"
+      "title": "Gaia, il nuovo catalogo stellare dell’ESA sarà presentato il 2 dicembre",
+      "excerpt": "La diretta comincia alle 14.45 italiane. La quarta pubblicazione usa 66 mesi di osservazioni, non tutta la missione.",
+      "url": "/notizie/esa-gaia-data-release-4-2-dicembre-diretta-28-novembre-2026.html",
+      "section": "Mondo / Scienza"
     },
     {
-      "title": "Udine, DARS apre la biennale del libro d’artista e una mostra di Maddalena Valerio",
-      "excerpt": "Sabato 28 novembre inaugurazioni alle 11 a Palazzo Morpurgo e alle 17 alla Galleria Tina Modotti. Entrambe a ingresso libero.",
-      "url": "/notizie/udine-dars-biennale-libro-artista-valerio-28-novembre-2026.html",
-      "section": "Italia / Cultura"
-    },
-    {
-      "title": "Santa Cristina Gela, tre ore per portare abiti e oggetti riutilizzabili all’Ecocentro mobile",
-      "excerpt": "Sabato 28 novembre la postazione riceve in via Madonna di Lourdes dalle 8 alle 11. Il Comune chiede materiali in buono stato e vieta di lasciarli a terra.",
-      "url": "/notizie/santa-cristina-gela-ecocentro-mobile-abiti-usati-28-novembre-2026.html",
-      "section": "Italia / Cronaca"
+      "title": "Roma Nord, chiude per una notte la rampa dalla D18 alla A1 verso Firenze",
+      "excerpt": "Lo svincolo è interdetto dalle 22 di lunedì 30 novembre alle 6 di martedì. Il gestore indica percorsi via A24, Roma Sud o Guidonia Montecelio.",
+      "url": "/notizie/d18-roma-nord-chiusura-rampa-a1-firenze-28-novembre-2026.html",
+      "section": "Italia"
     },
     {
       "title": "Cuneo, i manichini di una vetrina raccontano «Famiglie» a Officina Santachiara",
@@ -566,40 +842,64 @@
       "section": "Italia / Cultura"
     },
     {
-      "title": "Agliana, il laboratorio CIAF Adulti porta «BOOM» al Teatro Il Moderno",
-      "excerpt": "Il gruppo teatrale del Comune si esibisce sabato 28 novembre alle 21, con la regia di Leandro Bartoletti e Sara Di Giuseppe.",
-      "url": "/notizie/agliana-boom-ciaf-adulti-teatro-moderno-28-novembre-2026.html",
-      "section": "Italia / Cultura"
-    },
-    {
-      "title": "Villa Bartolomea, ultima mattina di ritiro dei bidoni per il nuovo sistema rifiuti",
-      "excerpt": "Sabato 28 novembre consegna fino alle 14 in via Albertone. Il secco con RFID entra in uso il 2 dicembre, il contenitore della carta dall’11.",
-      "url": "/notizie/villa-bartolomea-consegna-bidoni-rfid-monitoraggio-28-novembre-2026.html",
-      "section": "Italia / Cronaca"
-    },
-    {
-      "title": "Roncadelle, l’Ecosportello si trasferisce nella Sala Civica del municipio",
-      "excerpt": "Da sabato 28 novembre il servizio rifiuti riceve al piano terra di via Roma 50. Orari invariati, con tre chiusure durante le feste.",
-      "url": "/notizie/roncadelle-ecosportello-si-sposta-sala-civica-28-novembre-2026.html",
-      "section": "Italia / Cronaca"
-    },
-    {
       "title": "Cremona, l’Ecocar arriva al Cambonino per elettronica, plastica dura e lettiere",
       "excerpt": "Sabato 28 novembre in piazza Aldo Moro dalle 8.30 alle 13. I materiali ingombranti restano esclusi dalla postazione mobile.",
       "url": "/notizie/cremona-ecocar-cambonino-raee-plastica-lettiere-28-novembre-2026.html",
       "section": "Italia / Cronaca"
     },
     {
-      "title": "Villa Carcina, la nuova sede dello Spazio Comunità apre nell’ex scuola di Cailina",
-      "excerpt": "L’inaugurazione è fissata per le 14.30 in via Trafilerie 47. L’edificio ospiterà servizi e attività sociali rivolti a più generazioni.",
-      "url": "/notizie/villa-carcina-spazio-comunita-cailina-28-novembre-2026.html",
-      "section": "Italia / Cronaca"
+      "title": "Biglietti ferroviari e diritti dei passeggeri: dossier al Consiglio UE",
+      "excerpt": "Lunedì 30 novembre la presidenza irlandese farà il punto anche sulle prenotazioni che uniscono più mezzi. In agenda un confronto sulla sicurezza stradale.",
+      "url": "/notizie/consiglio-ue-biglietti-ferroviari-diritti-viaggiatori-30-novembre-28-novembre-2026.html",
+      "section": "Mondo"
     },
     {
-      "title": "Lonigo, si inaugura la scuola Ridolfi dopo i lavori di riqualificazione",
-      "excerpt": "Sabato 28 novembre alle 10 la cerimonia aperta alla cittadinanza in viale della Repubblica. Dopo il taglio del nastro è prevista una visita alla struttura.",
-      "url": "/notizie/lonigo-scuola-ridolfi-riqualificazione-28-novembre-2026.html",
-      "section": "Italia / Cronaca"
+      "title": "Capua-Caserta, dal 29 novembre un regionale in più nei festivi",
+      "excerpt": "Il treno 34759 parte da Capua alle 10, ferma a Santa Maria Capua Vetere e arriva a Caserta alle 10:15. L’avviso RFI arriva fino al 12 dicembre.",
+      "url": "/notizie/capua-caserta-nuovo-regionale-festivo-34759-28-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "Bologna, autobus deviati per due notti in via Emilia Ponente: le linee",
+      "excerpt": "Senso unico tra via Battindarno e via della Pietra. Le deviazioni scattano alle 20 di sabato e domenica e terminano alle 5 del mattino seguente.",
+      "url": "/notizie/bologna-tper-deviazioni-emilia-ponente-battindarno-28-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "BCE, sabato di aggiornamenti per i sistemi TARGET: il calendario di pagamenti e titoli",
+      "excerpt": "Il 28 novembre è la giornata centrale della finestra tecnica. Il calendario distingue T2, T2S, ECMS e i pagamenti istantanei.",
+      "url": "/notizie/bce-target-aggiornamento-infrastrutture-pagamenti-titoli-28-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Australia, dal 28 novembre cambia la condizione per i nuovi visti di visita",
+      "excerpt": "La restrizione 8503 diventa obbligatoria per tre categorie, compreso l’eVisitor: limita il rilascio di altri visti quando si è già nel Paese.",
+      "url": "/notizie/australia-visti-visitatori-no-further-stay-8503-28-novembre-2026.html",
+      "section": "Mondo"
+    },
+    {
+      "title": "Apollo 17, la NASA ripropone in 3D il parcheggio da cui fu ripresa la partenza",
+      "excerpt": "L’immagine del giorno accosta due prospettive della valle Taurus-Littrow. Il rover era il punto di ripresa televisiva del decollo.",
+      "url": "/notizie/apollo-17-parcheggio-rover-visione-stereoscopica-nasa-28-novembre-2026.html",
+      "section": "Mondo / Scienza"
+    },
+    {
+      "title": "Agliana, il laboratorio CIAF Adulti porta «BOOM» al Teatro Il Moderno",
+      "excerpt": "Il gruppo teatrale del Comune si esibisce sabato 28 novembre alle 21, con la regia di Leandro Bartoletti e Sara Di Giuseppe.",
+      "url": "/notizie/agliana-boom-ciaf-adulti-teatro-moderno-28-novembre-2026.html",
+      "section": "Italia / Cultura"
+    },
+    {
+      "title": "A14 chiusa una notte tra Pescara Ovest e Pescara Sud in entrambe le direzioni",
+      "excerpt": "Lunedì 30 novembre dalle 22 alle 6 del giorno seguente. Chi va verso Bari passa sulla statale 16; verso Ancona, sulla tangenziale di Pescara.",
+      "url": "/notizie/a14-pescara-ovest-pescara-sud-chiusura-gallerie-28-novembre-2026.html",
+      "section": "Italia"
+    },
+    {
+      "title": "A1, notte di chiusura tra Fabro e Chiusi verso Firenze: le deviazioni",
+      "excerpt": "Da lunedì 30 novembre alle 22 a martedì alle 6 cambia il percorso verso Firenze. Per il traffico pesante è indicata l’uscita anticipata a Orte.",
+      "url": "/notizie/a1-fabro-chiusi-chiusura-notturna-28-novembre-2026.html",
+      "section": "Italia"
     },
     {
       "title": "Portland batte Golden State 116-94 e va ai quarti di NBA Cup",
