@@ -42,7 +42,7 @@ const hourLabel = (entry) => {
     .format(date).replace('.', '');
 };
 
-const LCP_SIZES = '(max-width: 760px) calc(100vw - 46px), (max-width: 1280px) 51vw, 625px';
+const LCP_SIZES = '(max-width: 760px) calc(100vw - 52px), (max-width: 1280px) 51vw, 625px';
 const CARD_SIZES = '(max-width: 760px) 80vw, (max-width: 1280px) 24vw, 280px';
 
 const picture = (entry, eager, sizes) => {
@@ -280,7 +280,30 @@ diOggiItalia.forEach((entry) => {
   primoPianoItalia.push(entry);
   giaScelte.add(entry.url);
 });
-const edition = choices.compose(api, ranked, new Date(), primoPianoItalia[0]);
+// Generate an optional lighter homepage candidate; keep all original variants.
+const withHomeThumbnail = (entry) => {
+  if (!entry?.srcset) return entry;
+  const parts = String(entry.srcset).split(',').map((part) => part.trim()).filter(Boolean);
+  if (parts.some((part) => /\s640w$/.test(part))) return entry;
+  const medium = parts.find((part) => /\s800w$/.test(part));
+  if (!medium) return entry;
+  const source = medium.split(/\s+/)[0];
+  if (!/^\/assets\/images\/editorial-auto\/[a-zA-Z0-9_-]+-800\.webp$/.test(source)) return entry;
+  try {
+    const thumb = execFileSync('python3', [path.join(root, 'tools/home-hero-thumb.py'), source], {
+      encoding: 'utf8', timeout: 8000, stdio: ['ignore', 'pipe', 'pipe']
+    }).trim();
+    if (!/^\/assets\/images\/editorial-auto\/[a-zA-Z0-9_-]+-home-[0-9a-f]{10}-640\.webp$/.test(thumb)) return entry;
+    if (!fs.existsSync(path.join(root, thumb.slice(1)))) return entry;
+    parts.splice(parts.indexOf(medium), 0, thumb + ' 640w');
+    return {...entry, srcset: parts.join(', ')};
+  } catch {
+    // Publishing without Pillow or the source image keeps the previous srcset.
+    return entry;
+  }
+};
+const initialEdition = choices.compose(api, ranked, new Date(), primoPianoItalia[0]);
+const edition = {...initialEdition, lead: withHomeThumbnail(initialEdition.lead)};
 const sectionsHtml = edition.sections.map(section).join('');
 const curiosita = curiositaRail();
 const orderedSections = sectionsHtml.includes('id="categoria-politica"')
